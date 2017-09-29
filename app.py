@@ -93,7 +93,11 @@ def predict(incoming_msg):
 
 if __name__ == '__main__':
     app.run(debug=True)
+
+    send_message(sender_id, str("Received. I'm here!"))
+
     print(predict(raw_input("Enter something")))
+
 
     tfidf = tfidfTransform()
     tfidf.appendQuestionKB('SciQdataset-23/question_file.txt')
