@@ -2,6 +2,7 @@ import os
 import sys
 import json
 import predict_reply
+import visualize_sherry
 
 import requests
 from flask import Flask, request
@@ -92,4 +93,8 @@ def predict(incoming_msg):
 
 if __name__ == '__main__':
     app.run(debug=True)
-    #print(predict(raw_input("Enter something")))
+    print(predict(raw_input("Enter something")))
+
+    tfidf = tfidfTransform()
+    tfidf.appendQuestionKB('SciQdataset-23/question_file.txt')
+    tfidf.appendSupportKB('SciQdataset-23/support_file.txt')
