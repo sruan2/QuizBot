@@ -50,8 +50,8 @@ def webhook():
                 if messaging_event.get("message"):  # someone sent us a message
                     sender_id = messaging_event["sender"]["id"]        # the facebook ID of the person sending you the message
                     send_message(sender_id, "Your sender ID is: "+str(sender_id))
-                    if sender_id == 1497174250389598:
-                        return "irrelavant ID", 200
+                    # if sender_id == 1497174250389598:
+                    #     return "irrelavant ID", 200
 
                     recipient_id = messaging_event["recipient"]["id"]  # the recipient's ID, which should be your page's facebook ID
                     print("sender ID is: "+sender_id)
