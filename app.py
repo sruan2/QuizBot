@@ -49,7 +49,7 @@ def webhook():
             
                         # reply=predict(message_text)
                         # send_message(sender_id, str(reply))
-                        # question, question_id = tfidf.pickRandomQuestion()
+                        question, question_id = tfidf.pickRandomQuestion()
                         send_message(sender_id, "hello world lalala")
                     except:
                         send_message(sender_id,str("Sorry! I didn't get that."))    
@@ -101,15 +101,18 @@ def predict(incoming_msg):
 
 
 if __name__ == '__main__':
+    tfidf = visualize_sherry.tfidfTransform()
+    tfidf.appendQuestionKB('SciQdataset-23/question_file.txt')
+    tfidf.appendSupportKB('SciQdataset-23/support_file.txt')
+    tfidf.appendCorrectAnswerKB('SciQdataset-23/correct_answer_file.txt')
+
+
     app.run(debug=True)
 
     # send_message(sender_id, str("Received. I'm here!"))
 
     # print(predict(raw_input("Enter something")))
-    tfidf = visualize_sherry.tfidfTransform()
-    tfidf.appendQuestionKB('SciQdataset-23/question_file.txt')
-    tfidf.appendSupportKB('SciQdataset-23/support_file.txt')
-    tfidf.appendCorrectAnswerKB('SciQdataset-23/correct_answer_file.txt')
+    
 
 
 
