@@ -10,8 +10,9 @@ from flask import Flask, request
 
 
 tfidf = visualize_sherry.tfidfTransform()
-user_answer_time = False
-question_id = 0
+user_answer_time = {}
+question_id = {}
+
 
 app = Flask(__name__)
 
@@ -50,25 +51,27 @@ def webhook():
                 if messaging_event.get("message"):  # someone sent us a message
                     sender_id = messaging_event["sender"]["id"]        # the facebook ID of the person sending you the message
                     recipient_id = messaging_event["recipient"]["id"]  # the recipient's ID, which should be your page's facebook ID
-                     
-                    print("branch#"*100)
-                    if user_answer_time:
-                        print("true#"*100)
-                        message_text = messaging_event["message"]["text"]  # the message's text
-                        standard_answer, score = tfidf.computeScore(message_text, question_id)
-                        send_message(sender_id, "Correct Answer is: "+standard_answer)
-                        send_message(sender_id, "Your score is: "+str(score))
-
-                        question, question_id = tfidf.pickRandomQuestion()
-                        send_message(sender_id, question)
-                        user_answer_time = True
+                    
+                    if sender_id not in user_answer_time.keys():
+                        user_answer_time[sender_id] = False
+                        question_id[sender_id] = 0
                     else:
-                        print("false#"*100)
-                        question, question_id = tfidf.pickRandomQuestion()
-                        send_message(sender_id, question)
-                        user_answer_time = True
-                    # except:
-                    #     send_message(sender_id,str("Bug!"))    
+                        print("branch#"*100)
+                        if user_answer_time[sender_id]:
+                            print("true#"*100)
+                            message_text = messaging_event["message"]["text"]  # the message's text
+                            standard_answer, score = tfidf.computeScore(message_text, question_id[sender_id])
+                            send_message(sender_id, "Correct Answer is: "+standard_answer)
+                            send_message(sender_id, "Your score is: "+str(score))
+
+                            question, question_id[sender_id] = tfidf.pickRandomQuestion()
+                            send_message(sender_id, question)
+                            user_answer_time[sender_id] = True
+                        else:
+                            print("false#"*100)
+                            question, question_id = tfidf.pickRandomQuestion()
+                            send_message(sender_id, question)
+                            user_answer_time[sender_id] = True
                 if messaging_event.get("delivery"):  # delivery confirmation
                     pass
 
