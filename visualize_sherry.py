@@ -65,8 +65,8 @@ class tfidfTransform():
         print(support)
 
     def pickRandomQuestion(self):
-        print("=======================================================================================")
-        random_number = randint(0, self.KBlength)
+        # print("=======================================================================================")
+        # random_number = randint(0, self.KBlength)
         # picked_question = self.QKB[random_number].rstrip()
         # picked_answer = self.AKB[random_number].rstrip()
         # answer = [picked_answer]
@@ -80,7 +80,7 @@ class tfidfTransform():
         # cosine_similarities = linear_kernel(self.tfidf_features[0:1], self.tfidf_features).flatten()
         # print("Similarity between the standard answer and yours is: " + str(cosine_similarities[1]))
 
-        return "test question", random_number
+        return "test question", 1
 
                
 if __name__ == '__main__':
