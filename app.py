@@ -49,7 +49,7 @@ def webhook():
             
                         # reply=predict(message_text)
                         # send_message(sender_id, str(reply))
-                        # question, question_id = tfidf.pickRandomQuestion()
+                        question, question_id = tfidf.pickRandomQuestion()
                         send_message(sender_id, "hello world lalala")
                     except:
                         send_message(sender_id,str("Sorry! I didn't get that."))    
