@@ -69,7 +69,7 @@ def webhook():
                             user_answer_time[sender_id] = True
                         else:
                             print("false#"*100)
-                            question, question_id = tfidf.pickRandomQuestion()
+                            question, question_id[sender_id] = tfidf.pickRandomQuestion()
                             send_message(sender_id, question)
                             user_answer_time[sender_id] = True
                 if messaging_event.get("delivery"):  # delivery confirmation
