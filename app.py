@@ -10,6 +10,10 @@ from flask import Flask, request
 app = Flask(__name__)
 
 
+@app.route('/test', methods=['GET'])
+def test():
+    return "test", 200
+
 @app.route('/', methods=['GET'])
 def verify():
     # when the endpoint is registered as a webhook, it must echo back
