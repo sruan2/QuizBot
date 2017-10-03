@@ -107,9 +107,9 @@ if __name__ == '__main__':
 
     # print(predict(raw_input("Enter something")))
     tfidf = visualize_sherry.tfidfTransform()
-    # tfidf.appendQuestionKB('SciQdataset-23/question_file.txt')
-    # tfidf.appendSupportKB('SciQdataset-23/support_file.txt')
-    # tfidf.appendCorrectAnswerKB('SciQdataset-23/correct_answer_file.txt')
+    tfidf.appendQuestionKB('SciQdataset-23/question_file.txt')
+    tfidf.appendSupportKB('SciQdataset-23/support_file.txt')
+    tfidf.appendCorrectAnswerKB('SciQdataset-23/correct_answer_file.txt')
 
 
 
