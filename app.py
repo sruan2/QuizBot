@@ -8,10 +8,12 @@ from random import randint
 import requests
 from flask import Flask, request
 
-app = Flask(__name__)
+
 tfidf = visualize_sherry.tfidfTransform()
 user_answer_time = False
 question_id = 0
+
+app = Flask(__name__)
 
 
 @app.route('/test', methods=['GET'])
