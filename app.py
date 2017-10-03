@@ -3,6 +3,7 @@ import sys
 import json
 import predict_reply
 import visualize_sherry
+from random import randint
 
 import requests
 from flask import Flask, request
@@ -44,10 +45,12 @@ def webhook():
                     sender_id = messaging_event["sender"]["id"]        # the facebook ID of the person sending you the message
                     recipient_id = messaging_event["recipient"]["id"]  # the recipient's ID, which should be your page's facebook ID
                     try: 
-                        message_text = messaging_event["message"]["text"]  # the message's text
+                        # message_text = messaging_event["message"]["text"]  # the message's text
             
-                        reply=predict(message_text)
-                        send_message(sender_id, str(reply))
+                        # reply=predict(message_text)
+                        # send_message(sender_id, str(reply))
+                        question, question_id = tfidf.pickRandomQuestion()
+                        send_message(sender_id, question)
                     except:
                         send_message(sender_id,str("Sorry! I didn't get that."))    
                 if messaging_event.get("delivery"):  # delivery confirmation
@@ -95,14 +98,19 @@ def log(message):  # simple wrapper for logging to stdout on heroku
 def predict(incoming_msg):
     return predict_reply.classify(incoming_msg);
 
+
+
 if __name__ == '__main__':
     app.run(debug=True)
 
-    send_message(sender_id, str("Received. I'm here!"))
+    # send_message(sender_id, str("Received. I'm here!"))
 
-    print(predict(raw_input("Enter something")))
+    # print(predict(raw_input("Enter something")))
+    tfidf = visualize_sherry.tfidfTransform()
+    tfidf.appendQuestionKB('Data/SciQdataset-23/question_file.txt')
+    tfidf.appendSupportKB('Data/SciQdataset-23/support_file.txt')
+    tfidf.appendCorrectAnswerKB('Data/SciQdataset-23/correct_answer_file.txt')
 
 
-    tfidf = tfidfTransform()
-    tfidf.appendQuestionKB('SciQdataset-23/question_file.txt')
-    tfidf.appendSupportKB('SciQdataset-23/support_file.txt')
+
+    
