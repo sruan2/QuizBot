@@ -55,7 +55,7 @@ def webhook():
                             send_message(sender_id, "Correct Answer is: "+standard_answer)
                             send_message(sender_id, "Your score is: "+str(score))
                             user_answer_time = False
-                        else user_answer_time:
+                        else:
                             print("false#"*100)
                             question, question_id = tfidf.pickRandomQuestion()
                             send_message(sender_id, question)
