@@ -61,16 +61,16 @@ def webhook():
                             print("true#"*100)
                             message_text = messaging_event["message"]["text"]  # the message's text
                             standard_answer, score = tfidf.computeScore(message_text, question_id[sender_id])
-                            send_message(sender_id, "Answer." +question_id[sender_id] + ": "+standard_answer)
+                            send_message(sender_id, "Answer." +str(question_id[sender_id]) + ": "+standard_answer)
                             send_message(sender_id, "Your score is: "+str(score))
 
                             question, question_id[sender_id] = tfidf.pickRandomQuestion()
-                            send_message(sender_id, "Question."+question_id[sender_id]+": "+question)
+                            send_message(sender_id, "Question."+str(question_id[sender_id])+": "+question)
                             user_answer_time[sender_id] = True
                         else:
                             print("false#"*100)
                             question, question_id[sender_id] = tfidf.pickRandomQuestion()
-                            send_message(sender_id, "Question."+question_id[sender_id]+": "+question)
+                            send_message(sender_id, "Question."+str(question_id[sender_id])+": "+question)
                             user_answer_time[sender_id] = True
                 if messaging_event.get("delivery"):  # delivery confirmation
                     pass
