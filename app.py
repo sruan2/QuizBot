@@ -40,7 +40,7 @@ def webhook():
     # endpoint for processing incoming messaging events
 
     data = request.get_json()
-    log(data)  # you may not want to log every incoming message in production, but it's good for testing
+    #log(data)  # you may not want to log every incoming message in production, but it's good for testing
 
     if data["object"] == "page":
 
@@ -80,8 +80,8 @@ def webhook():
 
 def send_message(recipient_id, message_text):
 
-    print("="*100)
-    print("sent a message!")
+    # print("="*100)
+    # print("sent a message!")
 
     log("sending message to {recipient}: {text}".format(recipient=recipient_id, text=message_text))
 
