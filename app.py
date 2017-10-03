@@ -56,6 +56,7 @@ def webhook():
                             standard_answer, score = tfidf.computeScore(message_text, question_id)
                             send_message(sender_id, "Correct Answer is: "+standard_answer)
                             send_message(sender_id, "Your score is: "+str(score))
+                            user_answer_time = False
                     except:
                         send_message(sender_id,str("Bug!"))    
                 if messaging_event.get("delivery"):  # delivery confirmation
