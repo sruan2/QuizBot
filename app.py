@@ -11,7 +11,7 @@ from flask import Flask, request
 app = Flask(__name__)
 tfidf = visualize_sherry.tfidfTransform()
 user_answer_time = False
-question_id
+question_id = 0
 
 
 @app.route('/test', methods=['GET'])
