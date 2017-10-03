@@ -49,36 +49,37 @@ def webhook():
 
                 if messaging_event.get("message"):  # someone sent us a message
                     sender_id = messaging_event["sender"]["id"]        # the facebook ID of the person sending you the message
-                    send_message(sender_id, "Your sender ID is: "+str(sender_id))
-                    # if sender_id == 1497174250389598:
-                    #     return "irrelavant ID", 200
-
                     recipient_id = messaging_event["recipient"]["id"]  # the recipient's ID, which should be your page's facebook ID
                     print("sender ID is: "+sender_id)
                     print("recipient ID is: "+recipient_id)
-                    message_text = messaging_event["message"]["text"]  # the message's text
+                    #send_message(sender_id, "Your sender ID is: "+str(sender_id))
+                    # if sender_id == 1497174250389598:
+                    #     return "irrelavant ID", 200
 
-                    if sender_id not in question_id.keys():
-                        print("first time user#####"*100)
-                        question, question_id[sender_id] = tfidf.pickRandomQuestion()
-                        send_message(sender_id, "Question."+str(question_id[sender_id])+": "+question)
-                    else:
-                        print("true#"*100)
-                        standard_answer, score = tfidf.computeScore(message_text, question_id[sender_id])
-                        send_message(sender_id, "Answer." +str(question_id[sender_id]) + ": "+standard_answer)
-                        send_message(sender_id, "Your score is: "+str(score))
+                    
+                #     message_text = messaging_event["message"]["text"]  # the message's text
 
-                        question, question_id[sender_id] = tfidf.pickRandomQuestion()
-                        send_message(sender_id, "Question."+str(question_id[sender_id])+": "+question)
+                #     if sender_id not in question_id.keys():
+                #         print("first time user#####"*100)
+                #         question, question_id[sender_id] = tfidf.pickRandomQuestion()
+                #         send_message(sender_id, "Question."+str(question_id[sender_id])+": "+question)
+                #     else:
+                #         print("true#"*100)
+                #         standard_answer, score = tfidf.computeScore(message_text, question_id[sender_id])
+                #         send_message(sender_id, "Answer." +str(question_id[sender_id]) + ": "+standard_answer)
+                #         send_message(sender_id, "Your score is: "+str(score))
+
+                #         question, question_id[sender_id] = tfidf.pickRandomQuestion()
+                #         send_message(sender_id, "Question."+str(question_id[sender_id])+": "+question)
                             
-                if messaging_event.get("delivery"):  # delivery confirmation
-                    pass
+                # if messaging_event.get("delivery"):  # delivery confirmation
+                #     pass
 
-                if messaging_event.get("optin"):  # optin confirmation
-                    pass
+                # if messaging_event.get("optin"):  # optin confirmation
+                #     pass
 
-                if messaging_event.get("postback"):  # user clicked/tapped "postback" button in earlier message
-                    pass
+                # if messaging_event.get("postback"):  # user clicked/tapped "postback" button in earlier message
+                #     pass
 
     return "ok", 200
 
