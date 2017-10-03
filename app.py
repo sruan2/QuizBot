@@ -50,6 +50,8 @@ def webhook():
                         # reply=predict(message_text)
                         # send_message(sender_id, str(reply))
                         question, question_id = tfidf.pickRandomQuestion()
+                        print("="*100)
+                        print(question)
                         send_message(sender_id, question)
                     except:
                         send_message(sender_id,str("Sorry! I didn't get that."))    
@@ -69,6 +71,7 @@ def webhook():
 
 def send_message(recipient_id, message_text):
 
+    print("="*100)
     print("sent a message!")
 
     log("sending message to {recipient}: {text}".format(recipient=recipient_id, text=message_text))
