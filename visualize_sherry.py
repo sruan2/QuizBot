@@ -68,20 +68,22 @@ class tfidfTransform():
         print("=======================================================================================")
         random_number = randint(0, self.KBlength)
         picked_question = self.QKB[random_number].rstrip()
-        picked_answer = self.AKB[random_number].rstrip()
-        answer = [picked_answer]
 
         # print(picked_question)
         # user_answer = raw_input("Enter Your Answer:")
         # answer.append(user_answer)
         # print("Standard Answer is: "+picked_answer)
 
-        # self.tfidf_features = TfidfVectorizer().fit_transform(answer)
-        # cosine_similarities = linear_kernel(self.tfidf_features[0:1], self.tfidf_features).flatten()
-        # print("Similarity between the standard answer and yours is: " + str(cosine_similarities[1]))
+        return picked_question, random_number
 
-        return "test question", 1
-
+    def computeScore(self, user_answer, question_id):
+        picked_answer = self.AKB[question_id].rstrip()
+        answer = [picked_answer]
+        answer.append(user_answer)
+        self.tfidf_features = TfidfVectorizer().fit_transform(answer)
+        cosine_similarities = linear_kernel(self.tfidf_features[0:1], self.tfidf_features).flatten()
+        print("Similarity between the standard answer and yours is: " + str(cosine_similarities[1]))
+        return picked_answer, cosine_similarities[1]
                
 if __name__ == '__main__':
     tfidf = tfidfTransform()

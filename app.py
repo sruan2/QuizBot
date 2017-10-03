@@ -46,16 +46,16 @@ def webhook():
                     sender_id = messaging_event["sender"]["id"]        # the facebook ID of the person sending you the message
                     recipient_id = messaging_event["recipient"]["id"]  # the recipient's ID, which should be your page's facebook ID
                     try: 
-                        # message_text = messaging_event["message"]["text"]  # the message's text
-            
-                        # reply=predict(message_text)
-                        # send_message(sender_id, str(reply))
                         question, question_id = tfidf.pickRandomQuestion()
                         print("="*100)
                         print(question)
                         send_message(sender_id, question)
+                        message_text = messaging_event["message"]["text"]  # the message's text
+                        standard_answer, score = tfidf.computeScore(message_text, question_id)
+                        send_message(sender_id, "Correct Answer is: "+standard_answer)
+                        send_message(sender_id, "Your score is: "+str(score))
                     except:
-                        send_message(sender_id,str("Sorry! I didn't get that."))    
+                        send_message(sender_id,str("Bug!"))    
                 if messaging_event.get("delivery"):  # delivery confirmation
                     pass
 
@@ -108,7 +108,6 @@ def setup_app(app):
     tfidf.appendQuestionKB('SciQdataset-23/question_file.txt')
     tfidf.appendSupportKB('SciQdataset-23/support_file.txt')
     tfidf.appendCorrectAnswerKB('SciQdataset-23/correct_answer_file.txt')
-
 setup_app(app)
 
 if __name__ == '__main__':
