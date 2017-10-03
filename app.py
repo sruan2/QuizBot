@@ -9,6 +9,7 @@ import requests
 from flask import Flask, request
 
 app = Flask(__name__)
+tfidf = visualize_sherry.tfidfTransform()
 
 
 @app.route('/test', methods=['GET'])
@@ -104,7 +105,6 @@ def predict(incoming_msg):
     return predict_reply.classify(incoming_msg);
 
 def setup_app(app):
-    tfidf = visualize_sherry.tfidfTransform()
     tfidf.appendQuestionKB('SciQdataset-23/question_file.txt')
     tfidf.appendSupportKB('SciQdataset-23/support_file.txt')
     tfidf.appendCorrectAnswerKB('SciQdataset-23/correct_answer_file.txt')
