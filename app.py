@@ -106,10 +106,10 @@ if __name__ == '__main__':
     # send_message(sender_id, str("Received. I'm here!"))
 
     # print(predict(raw_input("Enter something")))
-    tfidf = visualize_sherry.tfidfTransform()
-    tfidf.appendQuestionKB('Data/SciQdataset-23/question_file.txt')
-    tfidf.appendSupportKB('Data/SciQdataset-23/support_file.txt')
-    tfidf.appendCorrectAnswerKB('Data/SciQdataset-23/correct_answer_file.txt')
+    # tfidf = visualize_sherry.tfidfTransform()
+    # tfidf.appendQuestionKB('Data/SciQdataset-23/question_file.txt')
+    # tfidf.appendSupportKB('Data/SciQdataset-23/support_file.txt')
+    # tfidf.appendCorrectAnswerKB('Data/SciQdataset-23/correct_answer_file.txt')
 
 
 
