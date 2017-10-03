@@ -69,6 +69,8 @@ def webhook():
 
 def send_message(recipient_id, message_text):
 
+    print("sent a message!")
+
     log("sending message to {recipient}: {text}".format(recipient=recipient_id, text=message_text))
 
     params = {
