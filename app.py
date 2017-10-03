@@ -35,6 +35,8 @@ def verify():
 @app.route('/', methods=['POST'])
 def webhook():
 
+    global user_answer_time
+
     # endpoint for processing incoming messaging events
 
     data = request.get_json()
