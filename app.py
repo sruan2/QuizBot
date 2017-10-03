@@ -100,15 +100,15 @@ def log(message):  # simple wrapper for logging to stdout on heroku
 def predict(incoming_msg):
     return predict_reply.classify(incoming_msg);
 
-
-
-if __name__ == '__main__':
+def setup_app(app)
     tfidf = visualize_sherry.tfidfTransform()
     tfidf.appendQuestionKB('SciQdataset-23/question_file.txt')
     tfidf.appendSupportKB('SciQdataset-23/support_file.txt')
     tfidf.appendCorrectAnswerKB('SciQdataset-23/correct_answer_file.txt')
 
+setup_app(app)
 
+if __name__ == '__main__':
     app.run(debug=True)
 
     # send_message(sender_id, str("Received. I'm here!"))
