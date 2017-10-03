@@ -10,6 +10,7 @@ from flask import Flask, request
 
 app = Flask(__name__)
 tfidf = visualize_sherry.tfidfTransform()
+user_answer_time = False
 
 
 @app.route('/test', methods=['GET'])
@@ -46,14 +47,15 @@ def webhook():
                     sender_id = messaging_event["sender"]["id"]        # the facebook ID of the person sending you the message
                     recipient_id = messaging_event["recipient"]["id"]  # the recipient's ID, which should be your page's facebook ID
                     try: 
-                        question, question_id = tfidf.pickRandomQuestion()
-                        print("="*100)
-                        print(question)
-                        send_message(sender_id, question)
-                        message_text = messaging_event["message"]["text"]  # the message's text
-                        standard_answer, score = tfidf.computeScore(message_text, question_id)
-                        send_message(sender_id, "Correct Answer is: "+standard_answer)
-                        send_message(sender_id, "Your score is: "+str(score))
+                        if (user_answer_time is False):
+                            question, question_id = tfidf.pickRandomQuestion()
+                            send_message(sender_id, question)
+                            user_answer_time = True
+                        else:
+                            message_text = messaging_event["message"]["text"]  # the message's text
+                            standard_answer, score = tfidf.computeScore(message_text, question_id)
+                            send_message(sender_id, "Correct Answer is: "+standard_answer)
+                            send_message(sender_id, "Your score is: "+str(score))
                     except:
                         send_message(sender_id,str("Bug!"))    
                 if messaging_event.get("delivery"):  # delivery confirmation
