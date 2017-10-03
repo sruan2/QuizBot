@@ -11,6 +11,7 @@ from flask import Flask, request
 app = Flask(__name__)
 tfidf = visualize_sherry.tfidfTransform()
 user_answer_time = False
+question_id
 
 
 @app.route('/test', methods=['GET'])
@@ -47,6 +48,7 @@ def webhook():
                     recipient_id = messaging_event["recipient"]["id"]  # the recipient's ID, which should be your page's facebook ID
                     try: 
                         if not user_answer_time:
+                            print("#"*100)
                             question, question_id = tfidf.pickRandomQuestion()
                             send_message(sender_id, question)
                             user_answer_time = True
