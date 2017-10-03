@@ -47,12 +47,14 @@ def webhook():
                     sender_id = messaging_event["sender"]["id"]        # the facebook ID of the person sending you the message
                     recipient_id = messaging_event["recipient"]["id"]  # the recipient's ID, which should be your page's facebook ID
                     try: 
+                        print("branch#"*100)
                         if not user_answer_time:
-                            print("#"*100)
+                            print("if#"*100)
                             question, question_id = tfidf.pickRandomQuestion()
                             send_message(sender_id, question)
                             user_answer_time = True
                         else:
+                            print("else#"*100)
                             message_text = messaging_event["message"]["text"]  # the message's text
                             standard_answer, score = tfidf.computeScore(message_text, question_id)
                             send_message(sender_id, "Correct Answer is: "+standard_answer)
