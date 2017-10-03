@@ -33,45 +33,45 @@ def verify():
 @app.route('/', methods=['POST'])
 def webhook():
 
-# endpoint for processing incoming messaging events
+    # endpoint for processing incoming messaging events
 
-data = request.get_json()
-log(data)  # you may not want to log every incoming message in production, but it's good for testing
+    data = request.get_json()
+    log(data)  # you may not want to log every incoming message in production, but it's good for testing
 
-if data["object"] == "page":
+    if data["object"] == "page":
 
-    for entry in data["entry"]:
-        for messaging_event in entry["messaging"]:
+        for entry in data["entry"]:
+            for messaging_event in entry["messaging"]:
 
-            if messaging_event.get("message"):  # someone sent us a message
-                sender_id = messaging_event["sender"]["id"]        # the facebook ID of the person sending you the message
-                recipient_id = messaging_event["recipient"]["id"]  # the recipient's ID, which should be your page's facebook ID
-                 
-                print("branch#"*100)
-                if user_answer_time:
-                    print("true#"*100)
-                    message_text = messaging_event["message"]["text"]  # the message's text
-                    standard_answer, score = tfidf.computeScore(message_text, question_id)
-                    send_message(sender_id, "Correct Answer is: "+standard_answer)
-                    send_message(sender_id, "Your score is: "+str(score))
-                    user_answer_time = False
-                else:
-                    print("false#"*100)
-                    question, question_id = tfidf.pickRandomQuestion()
-                    send_message(sender_id, question)
-                    user_answer_time = True
-                # except:
-                #     send_message(sender_id,str("Bug!"))    
-            if messaging_event.get("delivery"):  # delivery confirmation
-                pass
+                if messaging_event.get("message"):  # someone sent us a message
+                    sender_id = messaging_event["sender"]["id"]        # the facebook ID of the person sending you the message
+                    recipient_id = messaging_event["recipient"]["id"]  # the recipient's ID, which should be your page's facebook ID
+                     
+                    print("branch#"*100)
+                    if user_answer_time:
+                        print("true#"*100)
+                        message_text = messaging_event["message"]["text"]  # the message's text
+                        standard_answer, score = tfidf.computeScore(message_text, question_id)
+                        send_message(sender_id, "Correct Answer is: "+standard_answer)
+                        send_message(sender_id, "Your score is: "+str(score))
+                        user_answer_time = False
+                    else:
+                        print("false#"*100)
+                        question, question_id = tfidf.pickRandomQuestion()
+                        send_message(sender_id, question)
+                        user_answer_time = True
+                    # except:
+                    #     send_message(sender_id,str("Bug!"))    
+                if messaging_event.get("delivery"):  # delivery confirmation
+                    pass
 
-            if messaging_event.get("optin"):  # optin confirmation
-                pass
+                if messaging_event.get("optin"):  # optin confirmation
+                    pass
 
-            if messaging_event.get("postback"):  # user clicked/tapped "postback" button in earlier message
-                pass
+                if messaging_event.get("postback"):  # user clicked/tapped "postback" button in earlier message
+                    pass
 
-return "ok", 200
+    return "ok", 200
 
 
 
