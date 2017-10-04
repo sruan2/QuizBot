@@ -53,8 +53,8 @@ def webhook():
                     print("sender ID is: "+sender_id)
                     print("recipient ID is: "+recipient_id)
                     send_message(sender_id, "Your sender ID is: "+str(sender_id))
-                    # if sender_id == 1497174250389598:
-                    #     return "irrelavant ID", 200
+                    if sender_id == 1497174250389598:
+                        return "irrelavant ID", 200
 
                     
                 #     message_text = messaging_event["message"]["text"]  # the message's text
