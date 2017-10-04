@@ -36,6 +36,8 @@ def verify():
 @app.route('/', methods=['POST'])
 def webhook():
 
+    print("\n\nwebhook\n\n")
+
     global question_id
     global QID
 
@@ -47,7 +49,9 @@ def webhook():
     if data["object"] == "page":
 
         for entry in data["entry"]:
+            print("\n\entry\n\n")
             for messaging_event in entry["messaging"]:
+                print("\n\messaging_event\n\n")
 
                 if messaging_event.get("message"):  # someone sent us a message
                     sender_id = messaging_event["sender"]["id"]        # the facebook ID of the person sending you the message
