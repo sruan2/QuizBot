@@ -57,31 +57,29 @@ def webhook():
                         return "irrelavant ID", 200
                     send_message(sender_id, "Your sender ID is: "+str(sender_id))
                     
+                    message_text = messaging_event["message"]["text"]  # the message's text
 
-                    
-                #     message_text = messaging_event["message"]["text"]  # the message's text
+                    if sender_id not in question_id.keys():
+                        print("first time user#####"*100)
+                        question, question_id[sender_id] = tfidf.pickRandomQuestion()
+                        send_message(sender_id, "Question."+str(question_id[sender_id])+": "+question)
+                    else:
+                        print("true#"*100)
+                        standard_answer, score = tfidf.computeScore(message_text, question_id[sender_id])
+                        send_message(sender_id, "Answer." +str(question_id[sender_id]) + ": "+standard_answer)
+                        send_message(sender_id, "Your score is: "+str(score))
 
-                #     if sender_id not in question_id.keys():
-                #         print("first time user#####"*100)
-                #         question, question_id[sender_id] = tfidf.pickRandomQuestion()
-                #         send_message(sender_id, "Question."+str(question_id[sender_id])+": "+question)
-                #     else:
-                #         print("true#"*100)
-                #         standard_answer, score = tfidf.computeScore(message_text, question_id[sender_id])
-                #         send_message(sender_id, "Answer." +str(question_id[sender_id]) + ": "+standard_answer)
-                #         send_message(sender_id, "Your score is: "+str(score))
-
-                #         question, question_id[sender_id] = tfidf.pickRandomQuestion()
-                #         send_message(sender_id, "Question."+str(question_id[sender_id])+": "+question)
+                        question, question_id[sender_id] = tfidf.pickRandomQuestion()
+                        send_message(sender_id, "Question."+str(question_id[sender_id])+": "+question)
                             
-                # if messaging_event.get("delivery"):  # delivery confirmation
-                #     pass
+                if messaging_event.get("delivery"):  # delivery confirmation
+                    pass
 
-                # if messaging_event.get("optin"):  # optin confirmation
-                #     pass
+                if messaging_event.get("optin"):  # optin confirmation
+                    pass
 
-                # if messaging_event.get("postback"):  # user clicked/tapped "postback" button in earlier message
-                #     pass
+                if messaging_event.get("postback"):  # user clicked/tapped "postback" button in earlier message
+                    pass
 
     return "ok", 200
 
