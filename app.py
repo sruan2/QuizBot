@@ -65,8 +65,8 @@ def webhook():
                         question, QID = tfidf.pickRandomQuestion()
                         send_message(sender_id, "Question."+str(QID)+": "+question)
                     else:
-                        print("\n-2- QID is: "+str(QID)+"\n")
-                        print("true"+"="*50)
+                        # print("\n-2- QID is: "+str(tfidf.QID)+"\n")
+                        # print("true"+"="*50)
                         standard_answer, score = tfidf.computeScore(message_text)
                         send_message(sender_id, "Answer." +str(QID) + ": "+standard_answer)
                         send_message(sender_id, "Your score is: "+str(score))
