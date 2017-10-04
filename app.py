@@ -54,7 +54,7 @@ def webhook():
                     recipient_id = messaging_event["recipient"]["id"]  # the recipient's ID, which should be your page's facebook ID
                     print("sender ID is: "+sender_id)
                     print("recipient ID is: "+recipient_id)
-                    print("\n-1- QID is: "+QID+"\n")
+                    print("\n-1- QID is: "+str(QID)+"\n")
 
                     if sender_id == "1497174250389598": #chatbot
                         return "irrelavant ID", 200
@@ -67,7 +67,7 @@ def webhook():
                         question, QID = tfidf.pickRandomQuestion()
                         send_message(sender_id, "Question."+str(QID)+": "+question)
                     else:
-                        print("\n-2- QID is: "+QID+"\n")
+                        print("\n-2- QID is: "+str(QID)+"\n")
                         print("true"+"="*50)
                         standard_answer, score = tfidf.computeScore(message_text, QID)
                         send_message(sender_id, "Answer." +str(QID) + ": "+standard_answer)
@@ -75,7 +75,7 @@ def webhook():
 
                         question, QID = tfidf.pickRandomQuestion()
                         send_message(sender_id, "Question."+str(QID)+": "+question)
-                        print("\n-3- QID is: "+QID+"\n")
+                        print("\n-3- QID is: "+str(QID)+"\n")
 
                 if messaging_event.get("delivery"):  # delivery confirmation
                     pass
