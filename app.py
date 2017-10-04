@@ -11,6 +11,7 @@ from flask import Flask, request
 
 tfidf = visualize_sherry.tfidfTransform()
 question_id = {}
+QID = -1
 
 
 app = Flask(__name__)
@@ -36,6 +37,7 @@ def verify():
 def webhook():
 
     global question_id
+    global QID
 
     # endpoint for processing incoming messaging events
 
@@ -52,7 +54,7 @@ def webhook():
                     recipient_id = messaging_event["recipient"]["id"]  # the recipient's ID, which should be your page's facebook ID
                     print("sender ID is: "+sender_id)
                     print("recipient ID is: "+recipient_id)
-                    print question_id.keys()
+                    #print question_id.keys()
 
                     if sender_id == "1497174250389598": #chatbot
                         return "irrelavant ID", 200
@@ -60,21 +62,21 @@ def webhook():
                     send_message(sender_id, "Your sender ID is: "+sender_id)
                     message_text = messaging_event["message"]["text"]  # the message's text
 
-                    if sender_id not in question_id.keys():
+                    if QID == -1:
                         print("first time user"+"="*50)
-                        question, question_id[sender_id] = tfidf.pickRandomQuestion()
-                        send_message(sender_id, "Question."+str(question_id[sender_id])+": "+question)
+                        question, QID = tfidf.pickRandomQuestion()
+                        send_message(sender_id, "Question."+str(QID)+": "+question)
                     else:
-                        print("question ID is:"+str(question_id[sender_id]))
+                        print("question ID is:"+str(QID))
                         print("true"+"="*50)
-                        standard_answer, score = tfidf.computeScore(message_text, question_id[sender_id])
-                        send_message(sender_id, "Answer." +str(question_id[sender_id]) + ": "+standard_answer)
+                        standard_answer, score = tfidf.computeScore(message_text, QID)
+                        send_message(sender_id, "Answer." +str(QID) + ": "+standard_answer)
                         send_message(sender_id, "Your score is: "+str(score))
 
-                        question, question_id[sender_id] = tfidf.pickRandomQuestion()
-                        send_message(sender_id, "Question."+str(question_id[sender_id])+": "+question)
-                        print("question ID is:"+str(question_id[sender_id]))
-                        
+                        question, QID = tfidf.pickRandomQuestion()
+                        send_message(sender_id, "Question."+str(QID)+": "+question)
+                        print("question ID is:"+str(QID))
+
                 if messaging_event.get("delivery"):  # delivery confirmation
                     pass
 
