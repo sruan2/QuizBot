@@ -60,7 +60,9 @@ def webhook():
                     #send_message(sender_id, "Your sender ID is: "+sender_id)
                     message_text = messaging_event["message"]["text"]  # the message's text
 
-                    if tfidf.QID == -1:
+                    QID = tfidf.QID
+
+                    if QID == -1:
                         print("first time user"+"="*50)
                         question, QID = tfidf.pickRandomQuestion()
                         send_message(sender_id, "Question."+str(QID)+": "+question)
