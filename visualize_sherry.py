@@ -68,7 +68,7 @@ class tfidfTransform():
     def pickRandomQuestion(self):
         print("=======================================================================================")
         self.QID = randint(0, self.KBlength)
-        picked_question = self.QKB[QID].rstrip()
+        picked_question = self.QKB[self.QID].rstrip()
 
         # print(picked_question)
         # user_answer = raw_input("Enter Your Answer:")
