@@ -52,19 +52,20 @@ def webhook():
                     recipient_id = messaging_event["recipient"]["id"]  # the recipient's ID, which should be your page's facebook ID
                     print("sender ID is: "+sender_id)
                     print("recipient ID is: "+recipient_id)
-                    print type(sender_id)
-                    if sender_id == "1497174250389598":
+
+                    if sender_id == "1497174250389598": #chatbot
                         return "irrelavant ID", 200
-                    send_message(sender_id, "Your sender ID is: "+str(sender_id))
                     
+                    send_message(sender_id, "Your sender ID is: "+str(sender_id))
                     message_text = messaging_event["message"]["text"]  # the message's text
 
                     if sender_id not in question_id.keys():
-                        print("first time user#####"*100)
+                        print("first time user"+"="*50)
                         question, question_id[sender_id] = tfidf.pickRandomQuestion()
                         send_message(sender_id, "Question."+str(question_id[sender_id])+": "+question)
                     else:
-                        print("true#"*100)
+                        print("question ID is:"+question_id[sender_id])
+                        print("true"+"="*50)
                         standard_answer, score = tfidf.computeScore(message_text, question_id[sender_id])
                         send_message(sender_id, "Answer." +str(question_id[sender_id]) + ": "+standard_answer)
                         send_message(sender_id, "Your score is: "+str(score))
