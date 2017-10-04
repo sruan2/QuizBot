@@ -57,7 +57,7 @@ def webhook():
                     if sender_id == "1497174250389598": #chatbot
                         return "irrelavant ID", 200
                     
-                    send_message(sender_id, "Your sender ID is: "+str(sender_id))
+                    send_message(sender_id, "Your sender ID is: "+sender_id)
                     message_text = messaging_event["message"]["text"]  # the message's text
 
                     if sender_id not in question_id.keys():
@@ -65,7 +65,7 @@ def webhook():
                         question, question_id[sender_id] = tfidf.pickRandomQuestion()
                         send_message(sender_id, "Question."+str(question_id[sender_id])+": "+question)
                     else:
-                        print("question ID is:"+question_id[sender_id])
+                        print("question ID is:"+str(question_id[sender_id]))
                         print("true"+"="*50)
                         standard_answer, score = tfidf.computeScore(message_text, question_id[sender_id])
                         send_message(sender_id, "Answer." +str(question_id[sender_id]) + ": "+standard_answer)
