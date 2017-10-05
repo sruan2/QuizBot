@@ -6,7 +6,7 @@ import visualize_sherry
 from random import randint
 
 import requests
-from flask import Flask, request, session
+from flask import Flask, request
 
 
 tfidf = visualize_sherry.tfidfTransform()
@@ -63,26 +63,26 @@ def webhook():
                     QID = tfidf.QID
 
                     print("===================== session length is:\n")
-                    print len(session)
+                    print len(app.session)
 
-                    if not sender_id in session:
+                    if not sender_id in app.session:
                         print("first time user"+"="*50)
                         question, QID = tfidf.pickRandomQuestion()
-                        session[sender_id] = QID
+                        app.session[sender_id] = QID
                         print("===================== session length should be plus one:\n")
-                        print len(session)
+                        print len(app.session)
                         send_message(sender_id, "Question."+str(QID)+": "+question)
 
                     else:
                         # print("\n-2- QID is: "+str(tfidf.QID)+"\n")
                         print("not first time"+"="*50)
-                        QID = session[sender_id]
+                        QID = app.session[sender_id]
                         standard_answer, score = tfidf.computeScore(message_text, QID)
                         send_message(sender_id, "Answer." +str(QID) + ": "+standard_answer)
                         send_message(sender_id, "Your score is: "+str(score))
 
                         question, QID = tfidf.pickRandomQuestion()
-                        session[sender_id] = QID
+                        app.session[sender_id] = QID
 
                         send_message(sender_id, "Question."+str(QID)+": "+question)
                         print("\n-3- QID is: "+str(QID)+"\n")
@@ -138,7 +138,7 @@ def setup_app(app):
     tfidf.appendQuestionKB('SciQdataset-23/question_file.txt')
     tfidf.appendSupportKB('SciQdataset-23/support_file.txt')
     tfidf.appendCorrectAnswerKB('SciQdataset-23/correct_answer_file.txt')
-    app.secret_key = "secret_me"
+    app.session = {}
 
 setup_app(app)
 
