@@ -62,6 +62,9 @@ def webhook():
 
                     QID = tfidf.QID
 
+                    print("===================== session length is:\n")
+                    print len(session)
+
                     if not sender_id in session:
                         print("first time user"+"="*50)
                         question, QID = tfidf.pickRandomQuestion()
