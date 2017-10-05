@@ -77,8 +77,8 @@ class tfidfTransform():
 
         return picked_question, self.QID
 
-    def computeScore(self, user_answer):
-        picked_answer = self.AKB[self.QID].rstrip()
+    def computeScore(self, user_answer, QID):
+        picked_answer = self.AKB[QID].rstrip()
         answer = [picked_answer]
         answer.append(user_answer)
         self.tfidf_features = TfidfVectorizer().fit_transform(answer)

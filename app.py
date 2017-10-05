@@ -6,7 +6,7 @@ import visualize_sherry
 from random import randint
 
 import requests
-from flask import Flask, request
+from flask import Flask, request, session
 
 
 tfidf = visualize_sherry.tfidfTransform()
@@ -62,18 +62,23 @@ def webhook():
 
                     QID = tfidf.QID
 
-                    if QID == -1:
+                    if not sender_id in session:
                         print("first time user"+"="*50)
                         question, QID = tfidf.pickRandomQuestion()
+                        session[sender_id] = QID
                         send_message(sender_id, "Question."+str(QID)+": "+question)
+
                     else:
                         # print("\n-2- QID is: "+str(tfidf.QID)+"\n")
-                        # print("true"+"="*50)
-                        standard_answer, score = tfidf.computeScore(message_text)
+                        print("not first time"+"="*50)
+                        QID = session[sender_id]
+                        standard_answer, score = tfidf.computeScore(message_text, QID)
                         send_message(sender_id, "Answer." +str(QID) + ": "+standard_answer)
                         send_message(sender_id, "Your score is: "+str(score))
 
                         question, QID = tfidf.pickRandomQuestion()
+                        session[sender_id] = QID
+
                         send_message(sender_id, "Question."+str(QID)+": "+question)
                         print("\n-3- QID is: "+str(QID)+"\n")
 
