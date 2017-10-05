@@ -70,7 +70,7 @@ def webhook():
                         question, QID = tfidf.pickRandomQuestion()
                         session[sender_id] = QID
                         print("===================== session length should be plus one:\n")
-                    print len(session)
+                        print len(session)
                         send_message(sender_id, "Question."+str(QID)+": "+question)
 
                     else:
