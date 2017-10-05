@@ -133,7 +133,10 @@ def setup_app(app):
     tfidf.appendQuestionKB('SciQdataset-23/question_file.txt')
     tfidf.appendSupportKB('SciQdataset-23/support_file.txt')
     tfidf.appendCorrectAnswerKB('SciQdataset-23/correct_answer_file.txt')
+    app.secret_key = "secret_me"
+
 setup_app(app)
+
 
 if __name__ == '__main__':
     app.run(debug=True)
