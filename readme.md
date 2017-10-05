@@ -5,3 +5,7 @@ Read more in my [tutorial that uses this repository](https://tutorials.botsfloor
 
 callback URL:https://quizz-bot.herokuapp.com/
 verify token:nothing_to_verify
+
+
+procfile:
+web: gunicorn app:app --log-file=-
