@@ -60,8 +60,7 @@ def webhook():
                     #send_message(sender_id, "Your sender ID is: "+sender_id)
                     message_text = messaging_event["message"]["text"]  # the message's text
 
-                    QID = tfidf.QID
-
+                    
                     print("===================== session length is:\n")
                     print len(app.session)
 
@@ -74,6 +73,7 @@ def webhook():
                         send_message(sender_id, "Question."+str(QID)+": "+question)
 
                     else:
+                        QID = app.session[sender_id]
                         # print("\n-2- QID is: "+str(tfidf.QID)+"\n")
                         if message_text == "Next Question" or message_text == "Got it, next!":
                             question, QID = tfidf.pickRandomQuestion()
@@ -82,7 +82,7 @@ def webhook():
                             print("\n-3- QID is: "+str(QID)+"\n")
 
                         if message_text[:4] == "Why?":
-                            send_gotit_quickreply(sender_id)
+                            send_gotit_quickreply(sender_id, QID)
 
                         else: # user's respons in natural language    
                             print("not first time"+"="*50)

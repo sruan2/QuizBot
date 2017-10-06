@@ -14,7 +14,6 @@ class tfidfTransform():
         self.SKB = [] # support
         self.AKB = [] # answer
         self.KBlength = 0
-        self.QID = -1
 
     def appendQuestionKB(self, QuestionFile):
         with open(QuestionFile, 'r') as f:
@@ -67,15 +66,15 @@ class tfidfTransform():
 
     def pickRandomQuestion(self):
         print("=======================================================================================")
-        self.QID = randint(0, self.KBlength)
-        picked_question = self.QKB[self.QID].rstrip()
+        QID = randint(0, self.KBlength)
+        picked_question = self.QKB[QID].rstrip()
 
         # print(picked_question)
         # user_answer = raw_input("Enter Your Answer:")
         # answer.append(user_answer)
         # print("Standard Answer is: "+picked_answer)
 
-        return picked_question, self.QID
+        return picked_question, QID
 
     def computeScore(self, user_answer, QID):
         picked_answer = self.AKB[QID].rstrip()
