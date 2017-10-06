@@ -75,22 +75,27 @@ def webhook():
 
                     else:
                         # print("\n-2- QID is: "+str(tfidf.QID)+"\n")
-                        print("not first time"+"="*50)
-                        QID = app.session[sender_id]
-                        standard_answer, score = tfidf.computeScore(message_text, QID)
-                        send_message(sender_id, "Your score is: "+str(score))
-                        send_message(sender_id, "Answer." +str(QID) + ": "+standard_answer)
+                        if message_text == "NEXT_QUESTION":
+                            question, QID = tfidf.pickRandomQuestion()
+                            app.session[sender_id] = QID
+                            send_message(sender_id, "Question."+str(QID)+": "+question)
+                            print("\n-3- QID is: "+str(QID)+"\n")
+
+                        if message_text[:4] == "WHY":
+                            send_message(sender_id, "Explanation")
+
+                        else:    
+                            print("not first time"+"="*50)
+                            QID = app.session[sender_id]
+                            standard_answer, score = tfidf.computeScore(message_text, QID)
+                            send_message(sender_id, "Your score is: "+str(score))
+                            
+                            # Add a why button to show the supporting sentence
+                            # you can use a dict instead of a Button class
+                            #
+                            send_why_button(sender_id, QID, standard_answer)
+
                         
-                        # Add a why button to show the supporting sentence
-                        # you can use a dict instead of a Button class
-                        #
-                        send_why_button(sender_id, QID)
-
-                        question, QID = tfidf.pickRandomQuestion()
-                        app.session[sender_id] = QID
-
-                        # send_message(sender_id, "Question."+str(QID)+": "+question)
-                        # print("\n-3- QID is: "+str(QID)+"\n")
 
                 if messaging_event.get("delivery"):  # delivery confirmation
                     pass
@@ -132,7 +137,7 @@ def send_message(recipient_id, message_text):
         log(r.text)
 
 # why button
-def send_why_button(recipient_id, QID):
+def send_why_button(recipient_id, QID, standard_answer):
 
     # print("="*100)
     # print("sent a message!")
@@ -150,20 +155,17 @@ def send_why_button(recipient_id, QID):
             "id": recipient_id
         },
         "message": {
-            "text": "Here's a quick reply!",
+            "text": "Answer." +str(QID) + ": "+standard_answer,
             "quick_replies": [
                 {
-                    "content_type": "location"
+                    "content_type": "text",
+                    "title": "Why?",
+                    "payload": "WHY_"+str(QID)
                 },
                 {
                     "content_type": "text",
-                    "title": "Something 1",
-                    "payload": "<POSTBACK_PAYLOAD>"
-                },
-                {
-                    "content_type": "text",
-                    "title": "Something 2",
-                    "payload": "<POSTBACK_PAYLOAD>"
+                    "title": "Next Question",
+                    "payload": "NEXT_QUESTION"
                 }
             ]
         }
