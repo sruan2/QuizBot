@@ -89,8 +89,8 @@ def webhook():
                         question, QID = tfidf.pickRandomQuestion()
                         app.session[sender_id] = QID
 
-                        send_message(sender_id, "Question."+str(QID)+": "+question)
-                        print("\n-3- QID is: "+str(QID)+"\n")
+                        # send_message(sender_id, "Question."+str(QID)+": "+question)
+                        # print("\n-3- QID is: "+str(QID)+"\n")
 
                 if messaging_event.get("delivery"):  # delivery confirmation
                     pass
