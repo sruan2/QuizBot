@@ -67,7 +67,7 @@ def webhook():
                     if not sender_id in app.session:
                         print("first time user"+"="*50)
                         question, QID = tfidf.pickRandomQuestion()
-                        app.session[sender_id] = {"QID": QID}
+                        app.session[sender_id] = {"QID": QID, "total_score": 0}
                         print("===================== session length should be plus one:\n")
                         print len(app.session)
                         send_message(sender_id, "Question."+str(QID)+": "+question)
@@ -84,10 +84,14 @@ def webhook():
                         elif message_text[:4] == "Why?":
                             send_gotit_quickreply(sender_id, QID)
 
+                        elif message_text == "See Total Score":
+                            send_message(sender_id, "Your accumulated score is "+str(app.session[sender_id]["total_score"]))
+
                         else: # user's respons in natural language    
                             print("not first time"+"="*50)
                             standard_answer, score = tfidf.computeScore(message_text, QID)
                             send_message(sender_id, "Your score is: "+str(score))
+                            app.session[sender_id]["total_score"] += score
                             
                             # Add a why button to show the supporting sentence
                             # you can use a dict instead of a Button class
@@ -165,6 +169,11 @@ def send_why_quickreply(recipient_id, QID, standard_answer):
                     "content_type": "text",
                     "title": "Next Question",
                     "payload": "NEXT_QUESTION"
+                }
+                {
+                    "content_type": "text",
+                    "title": "Check Total Score",
+                    "payload": "CHECK_TOTAL_SCORE"
                 }
             ]
         }
