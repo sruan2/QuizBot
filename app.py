@@ -3,7 +3,7 @@ import sys
 import json
 import predict_reply
 import visualize_sherry
-import template
+import template as Template
 from random import randint
 
 import requests
