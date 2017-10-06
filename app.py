@@ -3,6 +3,7 @@ import sys
 import json
 import predict_reply
 import visualize_sherry
+import template
 from random import randint
 
 import requests
@@ -78,8 +79,19 @@ def webhook():
                         print("not first time"+"="*50)
                         QID = app.session[sender_id]
                         standard_answer, score = tfidf.computeScore(message_text, QID)
-                        send_message(sender_id, "Answer." +str(QID) + ": "+standard_answer)
                         send_message(sender_id, "Your score is: "+str(score))
+                        send_message(sender_id, "Answer." +str(QID) + ": "+standard_answer)
+                        
+                        # Add a why button to show the supporting sentence
+                        # you can use a dict instead of a Button class
+                        #
+                        buttons = [
+                          Template.ButtonWeb("Open Web URL", "https://www.oculus.com/en-us/rift/"),
+                          Template.ButtonPostBack("trigger Postback", "DEVELOPED_DEFINED_PAYLOAD"),
+                          Template.ButtonPhoneNumber("Call Phone Number", "+16505551234")
+                        ]
+
+                        page.send(sender_id, Template.Buttons("hello", buttons))
 
                         question, QID = tfidf.pickRandomQuestion()
                         app.session[sender_id] = QID
