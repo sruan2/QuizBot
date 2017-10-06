@@ -153,14 +153,17 @@ def send_why_button(recipient_id, QID):
             "text": "Here's a quick reply!",
             "quick_replies": [
                 {
-                    "content_type":"text",
-                    "title":"Something 1",
-                    "payload":"<POSTBACK_PAYLOAD>"
+                    "content_type": "location"
+                }
+                {
+                    "content_type": "text",
+                    "title": "Something 1",
+                    "payload": "<POSTBACK_PAYLOAD>"
                 },
                 {
-                    "content_type":"text",
-                    "title":"Something 2",
-                    "payload":"<POSTBACK_PAYLOAD>"
+                    "content_type": "text",
+                    "title": "Something 2",
+                    "payload": "<POSTBACK_PAYLOAD>"
                 }
             ]
         }
