@@ -85,6 +85,9 @@ class tfidfTransform():
         cosine_similarities = linear_kernel(self.tfidf_features[0:1], self.tfidf_features).flatten()
         print("Similarity between the standard answer and yours is: " + str(cosine_similarities[1]))
         return picked_answer, cosine_similarities[1]
+
+    def get_support(self, QID):
+        return self.SKB[QID]    
                
 if __name__ == '__main__':
     tfidf = tfidfTransform()

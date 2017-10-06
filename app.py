@@ -83,8 +83,9 @@ def webhook():
 
                         if message_text[:4] == "Why?":
                             send_message(sender_id, "Explanation")
+                            send_gotit_quickreply(sender_id)
 
-                        else:    
+                        else: # user's respons in natural language    
                             print("not first time"+"="*50)
                             QID = app.session[sender_id]
                             standard_answer, score = tfidf.computeScore(message_text, QID)
@@ -93,7 +94,7 @@ def webhook():
                             # Add a why button to show the supporting sentence
                             # you can use a dict instead of a Button class
                             #
-                            send_why_button(sender_id, QID, standard_answer)
+                            send_why_quickreply(sender_id, QID, standard_answer)
 
                         
 
@@ -137,7 +138,7 @@ def send_message(recipient_id, message_text):
         log(r.text)
 
 # why button
-def send_why_button(recipient_id, QID, standard_answer):
+def send_why_quickreply(recipient_id, QID, standard_answer):
 
     # print("="*100)
     # print("sent a message!")
@@ -174,6 +175,40 @@ def send_why_button(recipient_id, QID, standard_answer):
     if r.status_code != 200:
         log(r.status_code)
         log(r.text)
+
+def send_gitit_quickreply(recipient_id, QID):
+
+    # print("="*100)
+    # print("sent a message!")
+
+    log("sending WHY button to {recipient}: {text}".format(recipient=recipient_id, text=str(QID)))
+
+    params = {
+        "access_token": os.environ["PAGE_ACCESS_TOKEN"]
+    }
+    headers = {
+        "Content-Type": "application/json"
+    }
+    support_sentence = tfidf.get_support(QID)
+    data = json.dumps({
+        "recipient": {
+            "id": recipient_id
+        },
+        "message": {
+            "text": "Support." +str(QID) + ": "+support_sentence,
+            "quick_replies": [
+                {
+                    "content_type": "text",
+                    "title": "Got it, next!",
+                    "payload": "WHY_"+str(QID)
+                }
+            ]
+        }
+    })
+    r = requests.post("https://graph.facebook.com/v2.6/me/messages", params=params, headers=headers, data=data)
+    if r.status_code != 200:
+        log(r.status_code)
+        log(r.text)        
 
 
 def log(message):  # simple wrapper for logging to stdout on heroku
