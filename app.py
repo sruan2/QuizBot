@@ -81,7 +81,7 @@ def webhook():
                             send_message(sender_id, "Question."+str(QID)+": "+question)
                             print("\n-3- QID is: "+str(QID)+"\n")
 
-                        if message_text[:4] == "Why?":
+                        else if message_text[:4] == "Why?":
                             send_gotit_quickreply(sender_id, QID)
 
                         else: # user's respons in natural language    
@@ -175,7 +175,7 @@ def send_why_quickreply(recipient_id, QID, standard_answer):
         log(r.status_code)
         log(r.text)
 
-def send_gitit_quickreply(recipient_id, QID):
+def send_gotit_quickreply(recipient_id, QID):
 
     # print("="*100)
     # print("sent a message!")
