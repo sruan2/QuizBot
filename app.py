@@ -58,6 +58,9 @@ def webhook():
                         return "irrelavant ID", 200
                     
                     #send_message(sender_id, "Your sender ID is: "+sender_id)
+                    if not "text" in messaging_event["message"]:
+                        return "key error", 200
+                        
                     message_text = messaging_event["message"]["text"]  # the message's text
 
                     
