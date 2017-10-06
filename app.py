@@ -52,7 +52,7 @@ def webhook():
                     recipient_id = messaging_event["recipient"]["id"]  # the recipient's ID, which should be your page's facebook ID
                     print("sender ID is: "+sender_id)
                     print("recipient ID is: "+recipient_id)
-                    print("\n-1- tfidf.QID is: "+str(QID)+"\n")
+                    
 
                     if sender_id == "1497174250389598": #chatbot
                         return "irrelavant ID", 200
