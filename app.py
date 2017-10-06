@@ -86,7 +86,6 @@ def webhook():
 
                         else: # user's respons in natural language    
                             print("not first time"+"="*50)
-                            QID = app.session[sender_id]
                             standard_answer, score = tfidf.computeScore(message_text, QID)
                             send_message(sender_id, "Your score is: "+str(score))
                             
@@ -180,7 +179,7 @@ def send_gotit_quickreply(recipient_id, QID):
     # print("="*100)
     # print("sent a message!")
 
-    log("sending WHY button to {recipient}: {text}".format(recipient=recipient_id, text=str(QID)))
+    log("sending GOTIT button to {recipient}: {text}".format(recipient=recipient_id, text=str(QID)))
 
     params = {
         "access_token": os.environ["PAGE_ACCESS_TOKEN"]
@@ -188,7 +187,7 @@ def send_gotit_quickreply(recipient_id, QID):
     headers = {
         "Content-Type": "application/json"
     }
-    support_sentence = tfidf.get_support(QID)
+    support_sentence = tfidf.get_support(QID)[:600]
     data = json.dumps({
         "recipient": {
             "id": recipient_id
