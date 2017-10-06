@@ -84,7 +84,7 @@ def webhook():
                         elif message_text[:4] == "Why?":
                             send_gotit_quickreply(sender_id, QID)
 
-                        elif message_text == "See Total Score":
+                        elif message_text == "Check Total Score":
                             send_message(sender_id, "Your accumulated score is "+str(app.session[sender_id]["total_score"]))
 
                         else: # user's respons in natural language    
@@ -169,7 +169,7 @@ def send_why_quickreply(recipient_id, QID, standard_answer):
                     "content_type": "text",
                     "title": "Next Question",
                     "payload": "NEXT_QUESTION"
-                }
+                },
                 {
                     "content_type": "text",
                     "title": "Check Total Score",
