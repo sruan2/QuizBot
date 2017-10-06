@@ -82,7 +82,6 @@ def webhook():
                             print("\n-3- QID is: "+str(QID)+"\n")
 
                         if message_text[:4] == "Why?":
-                            send_message(sender_id, "Explanation")
                             send_gotit_quickreply(sender_id)
 
                         else: # user's respons in natural language    
