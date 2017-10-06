@@ -75,13 +75,13 @@ def webhook():
 
                     else:
                         # print("\n-2- QID is: "+str(tfidf.QID)+"\n")
-                        if message_text == "NEXT_QUESTION":
+                        if message_text == "Next Question":
                             question, QID = tfidf.pickRandomQuestion()
                             app.session[sender_id] = QID
                             send_message(sender_id, "Question."+str(QID)+": "+question)
                             print("\n-3- QID is: "+str(QID)+"\n")
 
-                        if message_text[:4] == "WHY":
+                        if message_text[:4] == "Why?":
                             send_message(sender_id, "Explanation")
 
                         else:    
