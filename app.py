@@ -154,7 +154,7 @@ def send_why_button(recipient_id, QID):
             "quick_replies": [
                 {
                     "content_type": "location"
-                }
+                },
                 {
                     "content_type": "text",
                     "title": "Something 1",
