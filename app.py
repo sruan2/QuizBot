@@ -67,17 +67,17 @@ def webhook():
                     if not sender_id in app.session:
                         print("first time user"+"="*50)
                         question, QID = tfidf.pickRandomQuestion()
-                        app.session[sender_id] = QID
+                        app.session[sender_id] = {"QID": QID}
                         print("===================== session length should be plus one:\n")
                         print len(app.session)
                         send_message(sender_id, "Question."+str(QID)+": "+question)
 
                     else:
-                        QID = app.session[sender_id]
+                        QID = app.session[sender_id]["QID"]
                         # print("\n-2- QID is: "+str(tfidf.QID)+"\n")
                         if message_text == "Next Question" or message_text == "Got it, next!":
                             question, QID = tfidf.pickRandomQuestion()
-                            app.session[sender_id] = QID
+                            app.session[sender_id]["QID"] = QID
                             send_message(sender_id, "Question."+str(QID)+": "+question)
                             print("\n-3- QID is: "+str(QID)+"\n")
 
