@@ -351,8 +351,8 @@ def greeting():
     print("*"*100)
     print("GET STARTED")
     if r.status_code != 200:
-    log(r.status_code)
-    log(r.text)
+        log(r.status_code)
+        log(r.text)
 
     r = requests.post("https://graph.facebook.com/v2.6/me/messenger_profile", params=params, headers=headers, data=data1)
     print("*"*100)
