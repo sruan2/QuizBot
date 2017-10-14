@@ -133,7 +133,7 @@ def webhook():
 
 
                         if message_text == "get started":
-                            send_ready_go(sender_id, "Hi! Welcome! I'm your personal tutor Sherry and I'm here to help you master science! Ready? Go!")
+                            send_ready_go(sender_id, "Hi! Welcome! I'm your personal tutor Mr.Q and I'm here to help you master science! Ready? Go!")
                             
                             
 
@@ -145,7 +145,7 @@ def webhook():
                             score = app.session[sender_id]["total_score"]
                             send_message(sender_id, "Your total score is "+str(score)+". Keep moving!") 
 
-                        elif message_text[0:3] == "yup":
+                        elif message_text == "yup ready":
                             send_mode_quick_reply(sender_id, "Now tell me which mode you would like to choose:")
 
                         elif message_text == "quiz mode":
@@ -207,7 +207,7 @@ def send_ready_go(recipient_id, main_text):
                 {
                     "content_type": "text",
                     "title": "Yup! I'm ready! "+u'\u270F',
-                    "payload": "none"
+                    "payload": "yup ready"
                 }
             ]
         }
