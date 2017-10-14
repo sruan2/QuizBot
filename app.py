@@ -133,14 +133,9 @@ def webhook():
 
 
                         if message_text == "get started":
-                            send_message(sender_id,"Hi! Welcome! I'm your personal tutor Sherry and I'm here to help you master science! Ready? Go!")
+                            send_ready_go(recipient_id, "Hi! Welcome! I'm your personal tutor Sherry and I'm here to help you master science! Ready? Go!")
                             
-                            # create an entry in app.session and give the first random question
-                            print("first time user"+"="*50)
-                            question, QID = tfidf.pickRandomQuestion()
-                            app.session[sender_id] = {"QID": QID, "total_score": 0}
-                            data_entry(sender_id, "Sherry Ruan", 0)
-                            send_message(sender_id, "Question."+str(QID)+": "+question)
+                            
 
                         elif message_text == "check total score":
                             score = app.session[sender_id]["total_score"]
@@ -151,7 +146,15 @@ def webhook():
                             send_message(sender_id, "Your total score is "+str(score)+". Keep moving!") 
 
                         elif message_text[0:3] == "yup":
-                            send_message(sender_id, "Awesome!")
+                            send_mode_quick_reply(sender_id, "Now tell me which mode you would like to choose:")
+
+                        elif message_text == "quiz mode":
+                            # create an entry in app.session and give the first random question
+                            print("first time user"+"="*50)
+                            question, QID = tfidf.pickRandomQuestion()
+                            app.session[sender_id] = {"QID": QID, "total_score": 0}
+                            data_entry(sender_id, "Sherry Ruan", 0)
+                            send_message(sender_id, "Question."+str(QID)+": "+question)
 
                         
 
@@ -186,7 +189,7 @@ def send_message(recipient_id, message_text):
         log(r.text)
 
 # why button
-def send_ready_go(recipient_id, main_text, quick_reply):
+def send_ready_go(recipient_id, main_text):
 
     params = {
         "access_token": os.environ["PAGE_ACCESS_TOKEN"]
@@ -205,7 +208,7 @@ def send_ready_go(recipient_id, main_text, quick_reply):
                     "content_type": "text",
                     "title": "Yup! I'm ready! "+u'\u270F',
                     "payload": "none"
-                },
+                }
             ]
         }
     })
@@ -213,6 +216,40 @@ def send_ready_go(recipient_id, main_text, quick_reply):
     if r.status_code != 200:
         log(r.status_code)
         log(r.text)
+
+# why button
+def send_mode_quick_reply(recipient_id, main_text):
+
+    params = {
+        "access_token": os.environ["PAGE_ACCESS_TOKEN"]
+    }
+    headers = {
+        "Content-Type": "application/json"
+    }
+    data = json.dumps({
+        "recipient": {
+            "id": recipient_id
+        },
+        "message": {
+            "text": main_text,
+            "quick_replies": [
+                {
+                    "content_type": "text",
+                    "title": "Quiz Mode "+u'\u270F',
+                    "payload": "none"
+                },
+                {
+                    "content_type": "text",
+                    "title": "Answering Mode"+u'\uD83D\uDE3A',
+                    "payload": "none"
+                }
+            ]
+        }
+    })
+    r = requests.post("https://graph.facebook.com/v2.6/me/messages", params=params, headers=headers, data=data)
+    if r.status_code != 200:
+        log(r.status_code)
+        log(r.text)        
 
 # why button
 def send_why_quickreply(recipient_id, QID, standard_answer):
@@ -346,7 +383,7 @@ def persistent_menu():
                     "payload":"quiz mode"
                   },
                   {
-                    "title":"Question Answering Mode"+u'\u270F',
+                    "title":"Answering Mode"+u'\uD83D\uDE3A',
                     "type":"postback",
                     "payload":"question answering mode"
                   },
