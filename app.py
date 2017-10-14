@@ -201,9 +201,6 @@ def send_why_quickreply(recipient_id, QID, standard_answer):
 
 def send_gotit_quickreply(recipient_id, QID):
 
-    # print("="*100)
-    # print("sent a message!")
-
     log("sending GOTIT button to {recipient}: {text}".format(recipient=recipient_id, text=str(QID)))
 
     params = {
@@ -271,14 +268,20 @@ def read_from_db():
 
 ############ thread_setting ############
 def set_messenger_profile(data):
-    r = clientSession.post(
+    headers = {
+        "Content-Type": "application/json"
+    }
+    r = requests.post(
         'https://graph.facebook.com/v2.6/me/messenger_profile',
         params={
             'access_token': os.environ["PAGE_ACCESS_TOKEN"]
         },
+        headers=headers,
         json=data
     )
-    return r.json()
+    print('*'*50)
+    print("PersistentMenu")
+    #return r.json()
 
 def persistent_menu():
     menu_item_1 = PersistentMenuItem(item_type='web_url', title='Menu Item 1', url='https://facebook.com')
