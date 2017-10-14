@@ -71,6 +71,9 @@ def webhook():
                     print("===================== session length is:\n")
                     print len(app.session)
 
+                    if message_text == "Get Started":
+                        send_message(sender_id, "WELCOME!")
+
                     if not sender_id in app.session:
                         print("first time user"+"="*50)
                         question, QID = tfidf.pickRandomQuestion()
@@ -272,12 +275,11 @@ def persistent_menu():
     headers = {
         "Content-Type": "application/json"
     }
-    raw_jason = '''
-    {
+    data = json.dumps({
         "persistent_menu":[
           {
             "locale":"default",
-            "composer_input_disabled": true,
+            "composer_input_disabled": True,
             "call_to_actions":[
               {
                 "title":"My Account",
@@ -310,12 +312,10 @@ def persistent_menu():
           },
           {
             "locale":"zh_CN",
-            "composer_input_disabled":false
+            "composer_input_disabled":False
           }
         ]        
-    }
-    '''
-    data = json.dumps(raw_jason)
+    })
     r = requests.post("https://graph.facebook.com/v2.6/me/messenger_profile", params=params, headers=headers, data=data)
     print("*"*100)
     print("PERSISTENT MENU")
@@ -337,7 +337,7 @@ def greeting():
             "text":"Hello!"
           }, {
             "locale":"en_US",
-            "text":"Timeless apparel for the masses."
+            "text":"Welcome to QuizBot made by Sherry!"
           }
         ]
     })
