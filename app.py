@@ -323,6 +323,31 @@ def persistent_menu():
         log(r.status_code)
         log(r.text) 
 
+def greeting():
+    params = {
+        "access_token": os.environ["PAGE_ACCESS_TOKEN"]
+    }
+    headers = {
+        "Content-Type": "application/json"
+    }
+    data = json.dumps({
+        "greeting":[
+          {
+            "locale":"default",
+            "text":"Hello!"
+          }, {
+            "locale":"en_US",
+            "text":"Timeless apparel for the masses."
+          }
+        ]
+    })
+    r = requests.post("https://graph.facebook.com/v2.6/me/messenger_profile", params=params, headers=headers, data=data)
+    print("*"*100)
+    print("GREETING")
+    if r.status_code != 200:
+        log(r.status_code)
+        log(r.text)
+
 
 
 ############ SET UP ############
@@ -333,6 +358,7 @@ def setup_app(app):
     app.session = {}
     create_table()
     persistent_menu()
+    greeting()
     
 
 setup_app(app)
@@ -341,7 +367,6 @@ if __name__ == '__main__':
     app.run(debug=True)
 
     # send_message(sender_id, str("Received. I'm here!"))
-
     # print(predict(raw_input("Enter something")))
     
 
