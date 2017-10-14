@@ -95,7 +95,7 @@ def webhook():
                         elif message_text == "Check Total Score":
                             send_message(sender_id, "Your accumulated score is "+str(app.session[sender_id]["total_score"]))
 
-                        elif message_text = "Leaderboard":
+                        elif message_text == "Leaderboard":
                             read_from_db()    
 
                         else: # user's respons in natural language    
