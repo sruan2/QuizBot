@@ -267,30 +267,63 @@ def read_from_db():
         print row
 
 ############ thread_setting ############
-def set_messenger_profile(data):
+def persistent_menu():
+    params = {
+        "access_token": os.environ["PAGE_ACCESS_TOKEN"]
+    }
     headers = {
         "Content-Type": "application/json"
     }
-    r = requests.post(
-        'https://graph.facebook.com/v2.6/me/messenger_profile',
-        params={
-            'access_token': os.environ["PAGE_ACCESS_TOKEN"]
-        },
-        headers=headers,
-        data=data
-    )
-    print('*'*50)
-    print("PersistentMenu")
-    #return r.json()
+    support_sentence = tfidf.get_support(QID)[:600]
+    data = json.dumps({
+        "persistent_menu":[
+          {
+            "locale":"default",
+            "composer_input_disabled": true,
+            "call_to_actions":[
+              {
+                "title":"My Account",
+                "type":"nested",
+                "call_to_actions":[
+                  {
+                    "title":"Pay Bill",
+                    "type":"postback",
+                    "payload":"PAYBILL_PAYLOAD"
+                  },
+                  {
+                    "title":"History",
+                    "type":"postback",
+                    "payload":"HISTORY_PAYLOAD"
+                  },
+                  {
+                    "title":"Contact Info",
+                    "type":"postback",
+                    "payload":"CONTACT_INFO_PAYLOAD"
+                  }
+                ]
+              },
+              {
+                "type":"web_url",
+                "title":"Latest News",
+                "url":"http://petershats.parseapp.com/hat-news",
+                "webview_height_ratio":"full"
+              }
+            ]
+          },
+          {
+            "locale":"zh_CN",
+            "composer_input_disabled":false
+          }
+        ]        
+    })
+    r = requests.post("https://graph.facebook.com/v2.6/me/messenger_profile", params=params, headers=headers, data=data)
+    print("*"*100)
+    print("PERSISTENT MENU")
+    if r.status_code != 200:
+        log(r.status_code)
+        log(r.text) 
 
-def persistent_menu():
-    menu_item_1 = PersistentMenuItem(item_type='web_url', title='Menu Item 1', url='https://facebook.com')
-    menu_item_2 = PersistentMenuItem(item_type='postback', title='Menu Item 2', payload='PAYLOAD')
 
-    menu = PersistentMenu(menu_items=[menu_item_1, menu_item_2])
-
-    messenger_profile = MessengerProfile(persistent_menus=[menu])
-    set_messenger_profile(messenger_profile.to_dict())
 
 ############ SET UP ############
 def setup_app(app):
