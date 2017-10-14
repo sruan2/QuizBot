@@ -5,18 +5,16 @@ import predict_reply
 import visualize_sherry
 import sqlite3
 from random import randint
-from thread_settings import PersistentMenu, PersistentMenuItem, MessengerProfile
+#from thread_settings import PersistentMenu, PersistentMenuItem, MessengerProfile
 
 import requests
 from flask import Flask, request
 
 
 tfidf = visualize_sherry.tfidfTransform()
-clientSession = requests.Session()
 
 conn = sqlite3.connect('tutorial.db')
 c = conn.cursor()
-
 app = Flask(__name__)
 
 
@@ -274,7 +272,6 @@ def persistent_menu():
     headers = {
         "Content-Type": "application/json"
     }
-    support_sentence = tfidf.get_support(QID)[:600]
     data = json.dumps({
         "persistent_menu":[
           {
