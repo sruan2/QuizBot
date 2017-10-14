@@ -5,6 +5,7 @@ import predict_reply
 import visualize_sherry
 import sqlite3
 from random import randint
+from thread_settings import PersistentMenu, PersistentMenuItem, MessengerProfile
 
 import requests
 from flask import Flask, request
@@ -231,62 +232,6 @@ def send_gotit_quickreply(recipient_id, QID):
         log(r.status_code)
         log(r.text) 
 
-def persistent_menu():
-
-    log("Load persistent menu")
-
-    params = {
-        "access_token": os.environ["PAGE_ACCESS_TOKEN"]
-    }
-    headers = {
-        "Content-Type": "application/json"
-    }
-    data = json.dumps({
-        "persistent_menu":[
-          {
-            "locale":"default",
-            "composer_input_disabled": true,
-            "call_to_actions":[
-              {
-                "title":"My Account",
-                "type":"nested",
-                "call_to_actions":[
-                  {
-                    "title":"Pay Bill",
-                    "type":"postback",
-                    "payload":"PAYBILL_PAYLOAD"
-                  },
-                  {
-                    "title":"History",
-                    "type":"postback",
-                    "payload":"HISTORY_PAYLOAD"
-                  },
-                  {
-                    "title":"Contact Info",
-                    "type":"postback",
-                    "payload":"CONTACT_INFO_PAYLOAD"
-                  }
-                ]
-              },
-              {
-                "type":"web_url",
-                "title":"Latest News",
-                "url":"http://petershats.parseapp.com/hat-news",
-                "webview_height_ratio":"full"
-              }
-            ]
-          },
-          {
-            "locale":"zh_CN",
-            "composer_input_disabled":false
-          }
-        ]
-    })
-    r = requests.post("https://graph.facebook.com/v2.6/me/messages_profile", params=params, headers=headers, data=data)
-    if r.status_code != 200:
-        log(r.status_code)
-        log(r.text)               
-
 def log(message):  # simple wrapper for logging to stdout on heroku
     print str(message)
     sys.stdout.flush()
@@ -323,7 +268,25 @@ def read_from_db():
     for row in c.fetchall():
         print row
 
+############ thread_setting ############
+def set_messenger_profile(data):
+    r = clientSession.post(
+        'https://graph.facebook.com/v2.6/me/messenger_profile',
+        params={
+            'access_token': self.page_access_token
+        },
+        json=data
+    )
+    return r.json()
 
+def persistent_menu():
+    menu_item_1 = PersistentMenuItem(item_type='web_url', title='Menu Item 1', url='https://facebook.com')
+    menu_item_2 = PersistentMenuItem(item_type='postback', title='Menu Item 2', payload='PAYLOAD')
+
+    menu = PersistentMenu(menu_items=[menu_item_1, menu_item_2])
+
+    messenger_profile = MessengerProfile(persistent_menus=[menu])
+    set_messenger_profile(messenger_profile.to_dict())
 
 ############ SET UP ############
 def setup_app(app):
@@ -331,12 +294,12 @@ def setup_app(app):
     tfidf.appendSupportKB('SciQdataset-23/support_file.txt')
     tfidf.appendCorrectAnswerKB('SciQdataset-23/correct_answer_file.txt')
     app.session = {}
+    clientSession = requests.Session()
     create_table()
     persistent_menu()
     
 
 setup_app(app)
-
 
 if __name__ == '__main__':
     app.run(debug=True)
