@@ -95,7 +95,7 @@ def webhook():
                         elif message_text == "Check Total Score":
                             send_message(sender_id, "Your accumulated score is "+str(app.session[sender_id]["total_score"]))
 
-                        elif message_text == "Leaderboard":
+                        elif message_text[0:2] == "Lb":
                             print("*"*100)
                             print("LEADERBOARD")
                             read_from_db()    
@@ -254,10 +254,10 @@ def data_entry(uid, username, score):
     # conn.close()
 
 def update_db(uid, current_score):
-    c.execute('SELECT score FROM stuffToPlot WHERE id = (?)', uid)
+    c.execute('SELECT score FROM stuffToPlot WHERE id = (?)', (uid,))
     score = c.fetchall()[0]
     score += current_score
-    c.execute('UPDATE stuffToPlot SET score = (?) WHERE id = (?)', score, uid)
+    c.execute('UPDATE stuffToPlot SET score = (?) WHERE id = (?)', (score, uid))
     conn.commit()
 
 def read_from_db():
