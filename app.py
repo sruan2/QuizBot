@@ -274,7 +274,7 @@ def set_messenger_profile(data):
     r = clientSession.post(
         'https://graph.facebook.com/v2.6/me/messenger_profile',
         params={
-            'access_token': self.page_access_token
+            'access_token': os.environ["PAGE_ACCESS_TOKEN"]
         },
         json=data
     )
