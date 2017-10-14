@@ -12,6 +12,7 @@ from flask import Flask, request
 
 
 tfidf = visualize_sherry.tfidfTransform()
+clientSession = requests.Session()
 
 conn = sqlite3.connect('tutorial.db')
 c = conn.cursor()
@@ -294,7 +295,6 @@ def setup_app(app):
     tfidf.appendSupportKB('SciQdataset-23/support_file.txt')
     tfidf.appendCorrectAnswerKB('SciQdataset-23/correct_answer_file.txt')
     app.session = {}
-    clientSession = requests.Session()
     create_table()
     persistent_menu()
     
