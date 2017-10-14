@@ -133,7 +133,7 @@ def webhook():
 
 
                         if message_text == "get started":
-                            send_ready_go(recipient_id, "Hi! Welcome! I'm your personal tutor Sherry and I'm here to help you master science! Ready? Go!")
+                            send_ready_go(sender_id, "Hi! Welcome! I'm your personal tutor Sherry and I'm here to help you master science! Ready? Go!")
                             
                             
 
