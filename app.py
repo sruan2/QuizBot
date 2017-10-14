@@ -90,9 +90,7 @@ def webhook():
                         elif message_text == "check leaderboard":
                             score = app.session[sender_id]["total_score"]
                             send_message(sender_id, "Your total score is "+str(score)+". Keep moving!") 
-
-                        elif message_text == "yup ready":
-                            send_mode_quick_reply(sender_id, "Now tell me which mode you would like to choose:"+u'\uD83D\uDC47')
+                            
 
                         elif message_text == "quiz mode":
                             # create an entry in app.session and give the first random question
@@ -105,7 +103,7 @@ def webhook():
 
 
 
-                            
+
 
                     elif messaging_event.get("message"):  # someone sent us a message
                         sender_id = messaging_event["sender"]["id"]        # the facebook ID of the person sending you the message
@@ -133,6 +131,10 @@ def webhook():
                         else:
                             QID = app.session[sender_id]["QID"]
                             # print("\n-2- QID is: "+str(tfidf.QID)+"\n")
+
+                            if message_text == ("Yup! I'm ready! "+u'\u270A'):
+                                send_mode_quick_reply(sender_id, "Now tell me which mode you would like to choose:"+u'\uD83D\uDC47')
+
                             if message_text == "Next Question" or message_text == "Got it, next!":
                                 question, QID = tfidf.pickRandomQuestion()
                                 app.session[sender_id]["QID"] = QID
