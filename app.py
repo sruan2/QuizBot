@@ -137,9 +137,11 @@ def webhook():
                         log("Inside postback")
                          
                         message_text = message_text.lower()
-                        print(message_text)
-
-                        send_message(sender_id,"Hi! Welcome !")
+                        if message_text == "Get Started":
+                            send_message(sender_id,"Hi! Welcome !")
+                        elif message_text == "MENU_SCORE":
+                            score = app.session[sender_id]["score"]
+                            send_message(sender_id, "Your total score is "+str(score)+". Keep moving!") 
 
                         print("#"*100)
 
@@ -324,6 +326,11 @@ def persistent_menu():
                 "title":"Latest News",
                 "url":"http://petershats.parseapp.com/hat-news",
                 "webview_height_ratio":"full"
+              },
+              {
+                "title":"See My Total Score",
+                "type":"postback",
+                "payload":"MENU_SCORE"
               }
             ]
           },
