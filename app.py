@@ -75,6 +75,7 @@ def webhook():
                         print("first time user"+"="*50)
                         question, QID = tfidf.pickRandomQuestion()
                         app.session[sender_id] = {"QID": QID, "total_score": 0}
+                        data_entry(send_id, "Sherry Ruan", 0)
                         print("===================== session length should be plus one:\n")
                         print len(app.session)
                         send_message(sender_id, "Question."+str(QID)+": "+question)
@@ -94,11 +95,15 @@ def webhook():
                         elif message_text == "Check Total Score":
                             send_message(sender_id, "Your accumulated score is "+str(app.session[sender_id]["total_score"]))
 
+                        elif message_text = "Leaderboard":
+                            read_from_db()    
+
                         else: # user's respons in natural language    
                             print("not first time"+"="*50)
                             standard_answer, score = tfidf.computeScore(message_text, QID)
                             send_message(sender_id, "Your score is: "+str(score))
                             app.session[sender_id]["total_score"] += score
+                            update_db(send_id, score)
                             
                             # Add a why button to show the supporting sentence
                             # you can use a dict instead of a Button class
@@ -234,17 +239,29 @@ def predict(incoming_msg):
 
 # SQLite
 def create_table():
-    c.execute('CREATE TABLE IF NOT EXISTS stuffToPlot(unix REAL, datestamp TEXT, keyword TEXT, value REAL)')
+    c.execute('CREATE TABLE IF NOT EXISTS stuffToPlot(id INT, username TEXT, score INT)')
     print('*'*50)
     print("SQLite: table created")
 
-def data_entry():
-    c.execute("INSERT INTO stuffToPlot VALUES(145123542, '2016-01-01', 'Python', '5')")
+def data_entry(id, username, score):
+    c.execute("INSERT INTO stuffToPlot (id, username, score) VALUES (?, ?, ?)", (id, username, score))
     conn.commit()
     print('*'*50)
     print("SQLite: data entered")
-    c.close()
-    conn.close()
+    # c.close()
+    # conn.close()
+
+def update_db(id, current_score):
+    c.execute('SELECT username, score FROM stuffToPlot WHERE id = (?)', id)
+    score = c.fetchall()[0][1]
+    score += current_score
+    c.execute('UPDATE stuffToPlot SET score = (?) WHERE id = (?)', score, id)
+    conn.commit()
+
+def read_from_db():
+    c.execute('SELECT username, score FROM stuffToPlot')
+    for row in c.fetchall():
+        print row
 
 
 
