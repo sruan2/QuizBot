@@ -308,24 +308,19 @@ def persistent_menu():
             "composer_input_disabled": False,
             "call_to_actions":[
               {
-                "title":"My Account",
+                "title":"Change Mode",
                 "type":"nested",
                 "call_to_actions":[
                   {
-                    "title":"Pay Bill",
+                    "title":"Quiz Mode"+u'\u270F',
                     "type":"postback",
-                    "payload":"PAYBILL_PAYLOAD"
+                    "payload":"quiz mode"
                   },
                   {
-                    "title":"History",
+                    "title":"Question Answering Mode"+'\u270F',
                     "type":"postback",
-                    "payload":"HISTORY_PAYLOAD"
+                    "payload":"question answering mode"
                   },
-                  {
-                    "title":"Contact Info",
-                    "type":"postback",
-                    "payload":"CONTACT_INFO_PAYLOAD"
-                  }
                 ]
               },
               {
