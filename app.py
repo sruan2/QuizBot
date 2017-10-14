@@ -343,6 +343,7 @@ def greeting():
     })
     data2 = json.dumps({
       "get_started":{
+        "title": "Get Started"
         "payload":"<GET_STARTED_PAYLOAD>"
       }
     })
