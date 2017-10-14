@@ -255,7 +255,7 @@ def data_entry(uid, username, score):
 
 def update_db(uid, current_score):
     c.execute('SELECT score FROM stuffToPlot WHERE id = ?', (uid,))
-    score,_ = c.fetchall()[0]
+    score = c.fetchall()[0][0]
     print("*"*100)
     print("score is " + str(score))
     print("uid is" + uid(score))
