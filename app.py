@@ -96,7 +96,7 @@ def webhook():
                                 print("*"*100)
                                 print("LEADERBOARD")
                                 read_from_db()
-                                persistent_menu()    
+
 
                             else: # user's respons in natural language    
                                 print("not first time"+"="*50)
@@ -143,6 +143,10 @@ def webhook():
                             send_message(sender_id, "Question."+str(QID)+": "+question)
 
                         elif message_text == "check total score":
+                            score = app.session[sender_id]["total_score"]
+                            send_message(sender_id, "Your total score is "+str(score)+". Keep moving!") 
+
+                        elif message_text == "check leaderboard":
                             score = app.session[sender_id]["total_score"]
                             send_message(sender_id, "Your total score is "+str(score)+". Keep moving!") 
 
@@ -326,8 +330,8 @@ def persistent_menu():
               },
               {
                 "type":"web_url",
-                "title":"Latest News",
-                "url":"http://petershats.parseapp.com/hat-news",
+                "title":"Invite Friends! u'\U0001F4A9'",
+                "url":"https://www.facebook.com/sharer/sharer.php?u=https%3A//www.facebook.com/quizzzbot/",
                 "webview_height_ratio":"full"
               },
               {
