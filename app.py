@@ -49,7 +49,7 @@ def webhook():
         for entry in data["entry"]:
             print("\n\entry\n")
 
-            for key, item in entry:
+            for key, item in entry.iterateitems():
                 print key
                 print item
 
