@@ -48,6 +48,11 @@ def webhook():
 
         for entry in data["entry"]:
             print("\n\entry\n")
+
+            for key, item in entry:
+                print key
+                print item
+
             for messaging_event in entry["messaging"]:
                 print("\n\messaging_event\n")
 
@@ -124,7 +129,13 @@ def webhook():
                     pass
 
                 if messaging_event.get("postback"):  # user clicked/tapped "postback" button in earlier message
-                    pass
+                    message_text = messaging_event["postback"]["payload"]
+                    # the button's payload
+                     
+                    log("Inside postback")
+                     
+                    message_text = message_text.lower()
+                    print("#"*100)
 
     return "ok", 200
 
@@ -343,7 +354,6 @@ def greeting():
     })
     data2 = json.dumps({
       "get_started":{
-        "title": "Get Started"
         "payload":"<GET_STARTED_PAYLOAD>"
       }
     })
