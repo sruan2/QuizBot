@@ -330,7 +330,7 @@ def greeting():
     headers = {
         "Content-Type": "application/json"
     }
-    data = json.dumps({
+    data1 = json.dumps({
         "greeting":[
           {
             "locale":"default",
@@ -341,12 +341,25 @@ def greeting():
           }
         ]
     })
-    r = requests.post("https://graph.facebook.com/v2.6/me/messenger_profile", params=params, headers=headers, data=data)
+    data2 = json.dumps({
+      "get_started":{
+        "payload":"<GET_STARTED_PAYLOAD>"
+      }
+    })
+
+    r = requests.post("https://graph.facebook.com/v2.6/me/messenger_profile", params=params, headers=headers, data=data2)
+    print("*"*100)
+    print("GET STARTED")
+    if r.status_code != 200:
+    log(r.status_code)
+    log(r.text)
+
+    r = requests.post("https://graph.facebook.com/v2.6/me/messenger_profile", params=params, headers=headers, data=data1)
     print("*"*100)
     print("GREETING")
     if r.status_code != 200:
         log(r.status_code)
-        log(r.text)
+        log(r.text)    
 
 
 
