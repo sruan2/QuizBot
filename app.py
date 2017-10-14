@@ -330,7 +330,7 @@ def persistent_menu():
               },
               {
                 "type":"web_url",
-                "title":"Invite Friends! 🐶",
+                "title":"Invite Friends! u'\U0001F604'",
                 "url":"https://www.facebook.com/sharer/sharer.php?u=https%3A//www.facebook.com/quizzzbot/",
                 "webview_height_ratio":"full"
               },
