@@ -50,97 +50,98 @@ def webhook():
             print("\n\entry\n")
 
             
+            if entry.get("messaging"):
+                for messaging_event in entry["messaging"]:
+                    print("\n\messaging_event\n")
 
-            for messaging_event in entry["messaging"]:
-                print("\n\messaging_event\n")
-
-                if messaging_event.get("message"):  # someone sent us a message
-                    sender_id = messaging_event["sender"]["id"]        # the facebook ID of the person sending you the message
-                    recipient_id = messaging_event["recipient"]["id"]  # the recipient's ID, which should be your page's facebook ID
-                    print("sender ID is: "+sender_id)
-                    print("recipient ID is: "+recipient_id)
-                    
-
-                    if sender_id == "1497174250389598": #chatbot
-                        return "irrelavant ID", 200
-                    
-                    #send_message(sender_id, "Your sender ID is: "+sender_id)
-                    if not "text" in messaging_event["message"]:
-                        return "key error", 200
+                    if messaging_event.get("message"):  # someone sent us a message
+                        sender_id = messaging_event["sender"]["id"]        # the facebook ID of the person sending you the message
+                        recipient_id = messaging_event["recipient"]["id"]  # the recipient's ID, which should be your page's facebook ID
+                        print("sender ID is: "+sender_id)
+                        print("recipient ID is: "+recipient_id)
                         
-                    message_text = messaging_event["message"]["text"]  # the message's text
 
-                    
-                    print("===================== session length is:\n")
-                    print len(app.session)
-
-                    if message_text == "Get Started":
-                        send_message(sender_id, "WELCOME!")
-
-                    if not sender_id in app.session:
-                        print("first time user"+"="*50)
-                        question, QID = tfidf.pickRandomQuestion()
-                        app.session[sender_id] = {"QID": QID, "total_score": 0}
-                        data_entry(sender_id, "Sherry Ruan", 0)
-                        print("===================== session length should be plus one:\n")
-                        print len(app.session)
-                        send_message(sender_id, "Question."+str(QID)+": "+question)
-
-                    else:
-                        QID = app.session[sender_id]["QID"]
-                        # print("\n-2- QID is: "+str(tfidf.QID)+"\n")
-                        if message_text == "Next Question" or message_text == "Got it, next!":
-                            question, QID = tfidf.pickRandomQuestion()
-                            app.session[sender_id]["QID"] = QID
-                            send_message(sender_id, "Question."+str(QID)+": "+question)
-                            print("\n-3- QID is: "+str(QID)+"\n")
-
-                        elif message_text[:4] == "Why?":
-                            send_gotit_quickreply(sender_id, QID)
-
-                        elif message_text == "Check Total Score":
-                            send_message(sender_id, "Your accumulated score is "+str(app.session[sender_id]["total_score"]))
-
-                        elif message_text == "Leaderboard":
-                            print("*"*100)
-                            print("LEADERBOARD")
-                            read_from_db()    
-
-                        else: # user's respons in natural language    
-                            print("not first time"+"="*50)
-                            standard_answer, score = tfidf.computeScore(message_text, QID)
-                            send_message(sender_id, "Your score is: "+str(score))
-                            app.session[sender_id]["total_score"] += score
-                            update_db(sender_id, score)
+                        if sender_id == "1497174250389598": #chatbot
+                            return "irrelavant ID", 200
+                        
+                        #send_message(sender_id, "Your sender ID is: "+sender_id)
+                        if not "text" in messaging_event["message"]:
+                            return "key error", 200
                             
-                            # Add a why button to show the supporting sentence
-                            # you can use a dict instead of a Button class
-                            #
-                            send_why_quickreply(sender_id, QID, standard_answer)
+                        message_text = messaging_event["message"]["text"]  # the message's text
 
                         
+                        print("===================== session length is:\n")
+                        print len(app.session)
 
-                if messaging_event.get("delivery"):  # delivery confirmation
-                    pass
+                        if message_text == "Get Started":
+                            send_message(sender_id, "WELCOME!")
 
-                if messaging_event.get("optin"):  # optin confirmation
-                    pass
+                        if not sender_id in app.session:
+                            print("first time user"+"="*50)
+                            question, QID = tfidf.pickRandomQuestion()
+                            app.session[sender_id] = {"QID": QID, "total_score": 0}
+                            data_entry(sender_id, "Sherry Ruan", 0)
+                            print("===================== session length should be plus one:\n")
+                            print len(app.session)
+                            send_message(sender_id, "Question."+str(QID)+": "+question)
 
-                if messaging_event.get("postback"):  # user clicked/tapped "postback" button in earlier message
-                    sender_id = messaging_event["sender"]["id"]        # the facebook ID of the person sending you the message
-                    recipient_id = messaging_event["recipient"]["id"]  # the recipient's ID, which should be your page's facebook ID
-                    
-                    if sender_id == "1497174250389598": #chatbot
-                        return "irrelavant ID", 200
-                    message_text = messaging_event["postback"]["title"]
-                    # the button's payload
-                     
-                    log("Inside postback")
-                     
-                    message_text = message_text.lower()
-                    print(message_text)
-                    send_message(sender_id,"Hi! Welcome!")
-                    print("#"*100)
+                        else:
+                            QID = app.session[sender_id]["QID"]
+                            # print("\n-2- QID is: "+str(tfidf.QID)+"\n")
+                            if message_text == "Next Question" or message_text == "Got it, next!":
+                                question, QID = tfidf.pickRandomQuestion()
+                                app.session[sender_id]["QID"] = QID
+                                send_message(sender_id, "Question."+str(QID)+": "+question)
+                                print("\n-3- QID is: "+str(QID)+"\n")
+
+                            elif message_text[:4] == "Why?":
+                                send_gotit_quickreply(sender_id, QID)
+
+                            elif message_text == "Check Total Score":
+                                send_message(sender_id, "Your accumulated score is "+str(app.session[sender_id]["total_score"]))
+
+                            elif message_text == "Leaderboard":
+                                print("*"*100)
+                                print("LEADERBOARD")
+                                read_from_db()    
+
+                            else: # user's respons in natural language    
+                                print("not first time"+"="*50)
+                                standard_answer, score = tfidf.computeScore(message_text, QID)
+                                send_message(sender_id, "Your score is: "+str(score))
+                                app.session[sender_id]["total_score"] += score
+                                update_db(sender_id, score)
+                                
+                                # Add a why button to show the supporting sentence
+                                # you can use a dict instead of a Button class
+                                #
+                                send_why_quickreply(sender_id, QID, standard_answer)
+
+                            
+
+                    if messaging_event.get("delivery"):  # delivery confirmation
+                        pass
+
+                    if messaging_event.get("optin"):  # optin confirmation
+                        pass
+
+                    if messaging_event.get("postback"):  # user clicked/tapped "postback" button in earlier message
+                        sender_id = messaging_event["sender"]["id"]        # the facebook ID of the person sending you the message
+                        recipient_id = messaging_event["recipient"]["id"]  # the recipient's ID, which should be your page's facebook ID
+                        
+                        if sender_id == "1497174250389598": #chatbot
+                            return "irrelavant ID", 200
+                        message_text = messaging_event["postback"]["title"] # the button's payload
+                         
+                        log("Inside postback")
+                         
+                        message_text = message_text.lower()
+                        print(message_text)
+
+                        send_message(sender_id,"Hi! Welcome !")
+
+                        print("#"*100)
 
     return "ok", 200
 
