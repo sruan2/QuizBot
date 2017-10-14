@@ -258,7 +258,7 @@ def update_db(uid, current_score):
     score = c.fetchall()[0][0]
     print("*"*100)
     print("score is " + str(score))
-    print("uid is" + uid(score))
+    print("uid is" + str(uid))
     score += current_score
     c.execute('UPDATE stuffToPlot SET score = ? WHERE id = ?', (score, uid))
     conn.commit()
