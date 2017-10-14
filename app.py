@@ -96,6 +96,8 @@ def webhook():
                             send_message(sender_id, "Your accumulated score is "+str(app.session[sender_id]["total_score"]))
 
                         elif message_text == "Leaderboard":
+                            print("*"*100)
+                            print("LEADERBOARD")
                             read_from_db()    
 
                         else: # user's respons in natural language    
@@ -243,19 +245,19 @@ def create_table():
     print('*'*50)
     print("SQLite: table created")
 
-def data_entry(id, username, score):
-    c.execute("INSERT INTO stuffToPlot (id, username, score) VALUES (?, ?, ?)", (id, username, score))
+def data_entry(uid, username, score):
+    c.execute("INSERT INTO stuffToPlot (id, username, score) VALUES (?, ?, ?)", (uid, username, score))
     conn.commit()
     print('*'*50)
     print("SQLite: data entered")
     # c.close()
     # conn.close()
 
-def update_db(id, current_score):
-    c.execute('SELECT username, score FROM stuffToPlot WHERE id = (?)', id)
+def update_db(uid, current_score):
+    c.execute('SELECT username, score FROM stuffToPlot WHERE id = (?)', uid)
     score = c.fetchall()[0][1]
     score += current_score
-    c.execute('UPDATE stuffToPlot SET score = (?) WHERE id = (?)', score, id)
+    c.execute('UPDATE stuffToPlot SET score = (?) WHERE id = (?)', score, uid)
     conn.commit()
 
 def read_from_db():
