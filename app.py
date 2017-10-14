@@ -272,7 +272,8 @@ def persistent_menu():
     headers = {
         "Content-Type": "application/json"
     }
-    data = json.dumps({
+    raw_jason = '''
+    {
         "persistent_menu":[
           {
             "locale":"default",
@@ -312,7 +313,9 @@ def persistent_menu():
             "composer_input_disabled":false
           }
         ]        
-    })
+    }
+    '''
+    data = json.dumps(raw_jason)
     r = requests.post("https://graph.facebook.com/v2.6/me/messenger_profile", params=params, headers=headers, data=data)
     print("*"*100)
     print("PERSISTENT MENU")
