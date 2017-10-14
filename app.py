@@ -133,7 +133,7 @@ def webhook():
 
 
                         if message_text == "get started":
-                            send_message(sender_id,"Hi! Welcome !")
+                            send_message(sender_id,"Hi! Welcome! I'm your personal tutor Sherry and I'm here to help you master science! Ready? Go!")
                             
                             # create an entry in app.session and give the first random question
                             print("first time user"+"="*50)
@@ -149,6 +149,9 @@ def webhook():
                         elif message_text == "check leaderboard":
                             score = app.session[sender_id]["total_score"]
                             send_message(sender_id, "Your total score is "+str(score)+". Keep moving!") 
+
+                        elif message_text[0:3] == "yup":
+                            send_message(sender_id, "Awesome!")
 
                         
 
@@ -183,10 +186,36 @@ def send_message(recipient_id, message_text):
         log(r.text)
 
 # why button
-def send_why_quickreply(recipient_id, QID, standard_answer):
+def send_ready_go(recipient_id, main_text, quick_reply):
 
-    # print("="*100)
-    # print("sent a message!")
+    params = {
+        "access_token": os.environ["PAGE_ACCESS_TOKEN"]
+    }
+    headers = {
+        "Content-Type": "application/json"
+    }
+    data = json.dumps({
+        "recipient": {
+            "id": recipient_id
+        },
+        "message": {
+            "text": main_text,
+            "quick_replies": [
+                {
+                    "content_type": "text",
+                    "title": "Yup! I'm ready! "+u'\u270F',
+                    "payload": "none"
+                },
+            ]
+        }
+    })
+    r = requests.post("https://graph.facebook.com/v2.6/me/messages", params=params, headers=headers, data=data)
+    if r.status_code != 200:
+        log(r.status_code)
+        log(r.text)
+
+# why button
+def send_why_quickreply(recipient_id, QID, standard_answer):
 
     log("sending WHY button to {recipient}: {text}".format(recipient=recipient_id, text=str(QID)))
 
@@ -312,12 +341,12 @@ def persistent_menu():
                 "type":"nested",
                 "call_to_actions":[
                   {
-                    "title":"Quiz Mode"+u'\u270F',
+                    "title":"Quiz Mode "+u'\u270F',
                     "type":"postback",
                     "payload":"quiz mode"
                   },
                   {
-                    "title":"Question Answering Mode"+'\u270F',
+                    "title":"Question Answering Mode"+u'\u270F',
                     "type":"postback",
                     "payload":"question answering mode"
                   },
@@ -325,7 +354,7 @@ def persistent_menu():
               },
               {
                 "type":"web_url",
-                "title":"Invite Friends!"+u'\U0001F604',
+                "title":"Invite Friends! "+u'\U0001F604',
                 "url":"https://www.facebook.com/sharer/sharer.php?u=https%3A//www.facebook.com/quizzzbot/",
                 "webview_height_ratio":"full"
               },
