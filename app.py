@@ -254,8 +254,8 @@ def data_entry(uid, username, score):
     # conn.close()
 
 def update_db(uid, current_score):
-    c.execute('SELECT username, score FROM stuffToPlot WHERE id = (?)', uid)
-    score = c.fetchall()[0][1]
+    c.execute('SELECT score FROM stuffToPlot WHERE id = (?)', uid)
+    score = c.fetchall()[0]
     score += current_score
     c.execute('UPDATE stuffToPlot SET score = (?) WHERE id = (?)', score, uid)
     conn.commit()
