@@ -60,7 +60,6 @@ def webhook():
                         print("sender ID is: "+sender_id)
                         print("recipient ID is: "+recipient_id)
                         
-
                         if sender_id == "1497174250389598": #chatbot
                             return "irrelavant ID", 200
                         
@@ -69,21 +68,13 @@ def webhook():
                             return "key error", 200
                             
                         message_text = messaging_event["message"]["text"]  # the message's text
-
-                        
-                        print("===================== session length is:\n")
-                        print len(app.session)
-
-                        if message_text == "Get Started":
-                            send_message(sender_id, "WELCOME!")
-
+ 
+                        # create an entry in app.session and give the first random question
                         if not sender_id in app.session:
                             print("first time user"+"="*50)
                             question, QID = tfidf.pickRandomQuestion()
                             app.session[sender_id] = {"QID": QID, "total_score": 0}
                             data_entry(sender_id, "Sherry Ruan", 0)
-                            print("===================== session length should be plus one:\n")
-                            print len(app.session)
                             send_message(sender_id, "Question."+str(QID)+": "+question)
 
                         else:
@@ -142,6 +133,14 @@ def webhook():
 
                         if message_text == "get started":
                             send_message(sender_id,"Hi! Welcome !")
+                            
+                            # create an entry in app.session and give the first random question
+                            print("first time user"+"="*50)
+                            question, QID = tfidf.pickRandomQuestion()
+                            app.session[sender_id] = {"QID": QID, "total_score": 0}
+                            data_entry(sender_id, "Sherry Ruan", 0)
+                            send_message(sender_id, "Question."+str(QID)+": "+question)
+
                         elif message_text == "check total score":
                             score = app.session[sender_id]["score"]
                             send_message(sender_id, "Your total score is "+str(score)+". Keep moving!") 
