@@ -277,7 +277,7 @@ def set_messenger_profile(data):
             'access_token': os.environ["PAGE_ACCESS_TOKEN"]
         },
         headers=headers,
-        json=data
+        data=data
     )
     print('*'*50)
     print("PersistentMenu")
