@@ -3,6 +3,7 @@ import sys
 import json
 import predict_reply
 import visualize_sherry
+import sqlite3
 from random import randint
 
 import requests
@@ -10,6 +11,9 @@ from flask import Flask, request
 
 
 tfidf = visualize_sherry.tfidfTransform()
+
+conn = sqlite3.connect('tutorial.db')
+c = conn.cursor()
 
 app = Flask(__name__)
 
@@ -228,11 +232,23 @@ def log(message):  # simple wrapper for logging to stdout on heroku
 def predict(incoming_msg):
     return predict_reply.classify(incoming_msg);
 
+# SQLite
+def create_table():
+    c.execute('CREATE TABLE IF NOT EXISTS stuffToPlot(unix REAL, datestamp TEXT, keyword TEXT, value REAL)')
+
+def data_entry():
+    c.execute("INSERT INTO stuffToPlot VALUES(145123542, '2016-01-01', 'Python', '5')")
+    conn.commit()
+    c.close()
+    conn.close()
+
 def setup_app(app):
     tfidf.appendQuestionKB('SciQdataset-23/question_file.txt')
     tfidf.appendSupportKB('SciQdataset-23/support_file.txt')
     tfidf.appendCorrectAnswerKB('SciQdataset-23/correct_answer_file.txt')
     app.session = {}
+    create_table()
+    data_entry()
 
 setup_app(app)
 
