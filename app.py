@@ -127,23 +127,26 @@ def webhook():
                         pass
 
                     if messaging_event.get("postback"):  # user clicked/tapped "postback" button in earlier message
-                        sender_id = messaging_event["sender"]["id"]        # the facebook ID of the person sending you the message
-                        recipient_id = messaging_event["recipient"]["id"]  # the recipient's ID, which should be your page's facebook ID
+                        sender_id = messaging_event["sender"]["id"]        
+                        recipient_id = messaging_event["recipient"]["id"]  
                         
                         if sender_id == "1497174250389598": #chatbot
                             return "irrelavant ID", 200
                         message_text = messaging_event["postback"]["title"] # the button's payload
                          
                         log("Inside postback")
-                         
                         message_text = message_text.lower()
-                        if message_text == "Get Started":
+                        print(message_text)
+                        print("#"*100)
+
+
+                        if message_text == "get started":
                             send_message(sender_id,"Hi! Welcome !")
                         elif message_text == "MENU_SCORE":
                             score = app.session[sender_id]["score"]
                             send_message(sender_id, "Your total score is "+str(score)+". Keep moving!") 
 
-                        print("#"*100)
+                        
 
     return "ok", 200
 
@@ -328,7 +331,7 @@ def persistent_menu():
                 "webview_height_ratio":"full"
               },
               {
-                "title":"See My Total Score",
+                "title":"Check Total Score",
                 "type":"postback",
                 "payload":"MENU_SCORE"
               }
