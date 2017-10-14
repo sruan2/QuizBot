@@ -272,7 +272,7 @@ def setup_app(app):
     tfidf.appendCorrectAnswerKB('SciQdataset-23/correct_answer_file.txt')
     app.session = {}
     create_table()
-    data_entry()
+    
 
 setup_app(app)
 
