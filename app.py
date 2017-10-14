@@ -49,9 +49,7 @@ def webhook():
         for entry in data["entry"]:
             print("\n\entry\n")
 
-            for key, item in entry.iteritems():
-                print key
-                print item
+            
 
             for messaging_event in entry["messaging"]:
                 print("\n\messaging_event\n")
@@ -129,12 +127,19 @@ def webhook():
                     pass
 
                 if messaging_event.get("postback"):  # user clicked/tapped "postback" button in earlier message
-                    message_text = messaging_event["postback"]["payload"]
+                    sender_id = messaging_event["sender"]["id"]        # the facebook ID of the person sending you the message
+                    recipient_id = messaging_event["recipient"]["id"]  # the recipient's ID, which should be your page's facebook ID
+                    
+                    if sender_id == "1497174250389598": #chatbot
+                        return "irrelavant ID", 200
+                    message_text = messaging_event["postback"]["title"]
                     # the button's payload
                      
                     log("Inside postback")
                      
                     message_text = message_text.lower()
+                    print(message_text)
+                    send_message(sender_id,"Hi! Welcome!")
                     print("#"*100)
 
     return "ok", 200
