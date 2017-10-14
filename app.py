@@ -75,7 +75,7 @@ def webhook():
                         print("first time user"+"="*50)
                         question, QID = tfidf.pickRandomQuestion()
                         app.session[sender_id] = {"QID": QID, "total_score": 0}
-                        data_entry(send_id, "Sherry Ruan", 0)
+                        data_entry(sender_id, "Sherry Ruan", 0)
                         print("===================== session length should be plus one:\n")
                         print len(app.session)
                         send_message(sender_id, "Question."+str(QID)+": "+question)
@@ -103,7 +103,7 @@ def webhook():
                             standard_answer, score = tfidf.computeScore(message_text, QID)
                             send_message(sender_id, "Your score is: "+str(score))
                             app.session[sender_id]["total_score"] += score
-                            update_db(send_id, score)
+                            update_db(sender_id, score)
                             
                             # Add a why button to show the supporting sentence
                             # you can use a dict instead of a Button class
