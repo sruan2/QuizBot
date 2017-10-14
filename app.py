@@ -229,8 +229,63 @@ def send_gotit_quickreply(recipient_id, QID):
     r = requests.post("https://graph.facebook.com/v2.6/me/messages", params=params, headers=headers, data=data)
     if r.status_code != 200:
         log(r.status_code)
-        log(r.text)        
+        log(r.text) 
 
+def persistent_menu():
+
+    log("Load persistent menu")
+
+    params = {
+        "access_token": os.environ["PAGE_ACCESS_TOKEN"]
+    }
+    headers = {
+        "Content-Type": "application/json"
+    }
+    data = json.dumps({
+        "persistent_menu":[
+          {
+            "locale":"default",
+            "composer_input_disabled": true,
+            "call_to_actions":[
+              {
+                "title":"My Account",
+                "type":"nested",
+                "call_to_actions":[
+                  {
+                    "title":"Pay Bill",
+                    "type":"postback",
+                    "payload":"PAYBILL_PAYLOAD"
+                  },
+                  {
+                    "title":"History",
+                    "type":"postback",
+                    "payload":"HISTORY_PAYLOAD"
+                  },
+                  {
+                    "title":"Contact Info",
+                    "type":"postback",
+                    "payload":"CONTACT_INFO_PAYLOAD"
+                  }
+                ]
+              },
+              {
+                "type":"web_url",
+                "title":"Latest News",
+                "url":"http://petershats.parseapp.com/hat-news",
+                "webview_height_ratio":"full"
+              }
+            ]
+          },
+          {
+            "locale":"zh_CN",
+            "composer_input_disabled":false
+          }
+        ]
+    })
+    r = requests.post("https://graph.facebook.com/v2.6/me/messages_profile", params=params, headers=headers, data=data)
+    if r.status_code != 200:
+        log(r.status_code)
+        log(r.text)               
 
 def log(message):  # simple wrapper for logging to stdout on heroku
     print str(message)
@@ -277,6 +332,7 @@ def setup_app(app):
     tfidf.appendCorrectAnswerKB('SciQdataset-23/correct_answer_file.txt')
     app.session = {}
     create_table()
+    persistent_menu()
     
 
 setup_app(app)
