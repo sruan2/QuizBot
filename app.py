@@ -300,7 +300,7 @@ def persistent_menu():
         "persistent_menu":[
           {
             "locale":"default",
-            "composer_input_disabled": True,
+            "composer_input_disabled": False,
             "call_to_actions":[
               {
                 "title":"My Account",
