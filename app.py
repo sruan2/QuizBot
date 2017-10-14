@@ -235,13 +235,20 @@ def predict(incoming_msg):
 # SQLite
 def create_table():
     c.execute('CREATE TABLE IF NOT EXISTS stuffToPlot(unix REAL, datestamp TEXT, keyword TEXT, value REAL)')
+    print('*'*50)
+    print("SQLite: table created")
 
 def data_entry():
     c.execute("INSERT INTO stuffToPlot VALUES(145123542, '2016-01-01', 'Python', '5')")
     conn.commit()
+    print('*'*50)
+    print("SQLite: data entered")
     c.close()
     conn.close()
 
+
+
+############ SET UP ############
 def setup_app(app):
     tfidf.appendQuestionKB('SciQdataset-23/question_file.txt')
     tfidf.appendSupportKB('SciQdataset-23/support_file.txt')
