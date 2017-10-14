@@ -95,7 +95,7 @@ def webhook():
                         elif message_text == "Check Total Score":
                             send_message(sender_id, "Your accumulated score is "+str(app.session[sender_id]["total_score"]))
 
-                        elif message_text[0:2] == "Lb":
+                        elif message_text == "Leaderboard":
                             print("*"*100)
                             print("LEADERBOARD")
                             read_from_db()    
@@ -241,7 +241,7 @@ def predict(incoming_msg):
 
 # SQLite
 def create_table():
-    c.execute('CREATE TABLE IF NOT EXISTS stuffToPlot(id INT, username TEXT, score INT)')
+    c.execute('CREATE TABLE IF NOT EXISTS stuffToPlot(id TEXT, username TEXT, score REAL)')
     print('*'*50)
     print("SQLite: table created")
 
