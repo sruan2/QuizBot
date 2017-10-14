@@ -142,7 +142,7 @@ def webhook():
 
                         if message_text == "get started":
                             send_message(sender_id,"Hi! Welcome !")
-                        elif message_text == "MENU_SCORE":
+                        elif message_text == "check total score":
                             score = app.session[sender_id]["score"]
                             send_message(sender_id, "Your total score is "+str(score)+". Keep moving!") 
 
