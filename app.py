@@ -54,7 +54,60 @@ def webhook():
                 for messaging_event in entry["messaging"]:
                     print("\n\messaging_event\n")
 
-                    if messaging_event.get("message"):  # someone sent us a message
+                    
+
+                            
+
+                    if messaging_event.get("delivery"):  # delivery confirmation
+                        pass
+
+                    if messaging_event.get("optin"):  # optin confirmation
+                        pass
+
+                    if messaging_event.get("postback"):  # user clicked/tapped "postback" button in earlier message
+                        sender_id = messaging_event["sender"]["id"]        
+                        recipient_id = messaging_event["recipient"]["id"]  
+                        
+                        if sender_id == "1497174250389598": #chatbot
+                            return "irrelavant ID", 200
+                        message_text = messaging_event["postback"]["title"] # the button's payload
+                         
+                        log("Inside postback")
+                        message_text = message_text.lower()
+                        print(message_text)
+                        print("#"*100)
+
+
+                        if message_text == "get started":
+                            send_ready_go(sender_id, "Hi! Welcome! I'm your personal tutor Mr.Q and I'm here to help you master science! Ready? Go!")
+                            
+                            
+
+                        elif message_text == "check total score":
+                            score = app.session[sender_id]["total_score"]
+                            send_message(sender_id, "Your total score is "+str(score)+". Keep moving!") 
+
+                        elif message_text == "check leaderboard":
+                            score = app.session[sender_id]["total_score"]
+                            send_message(sender_id, "Your total score is "+str(score)+". Keep moving!") 
+
+                        elif message_text == "yup ready":
+                            send_mode_quick_reply(sender_id, "Now tell me which mode you would like to choose:"+u'\uD83D\uDC47')
+
+                        elif message_text == "quiz mode":
+                            # create an entry in app.session and give the first random question
+                            print("first time user"+"="*50)
+                            question, QID = tfidf.pickRandomQuestion()
+                            app.session[sender_id] = {"QID": QID, "total_score": 0}
+                            data_entry(sender_id, "Sherry Ruan", 0)
+                            send_message(sender_id, "Question."+str(QID)+": "+question)
+
+
+
+
+                            
+
+                    elif messaging_event.get("message"):  # someone sent us a message
                         sender_id = messaging_event["sender"]["id"]        # the facebook ID of the person sending you the message
                         recipient_id = messaging_event["recipient"]["id"]  # the recipient's ID, which should be your page's facebook ID
                         print("sender ID is: "+sender_id)
@@ -108,53 +161,7 @@ def webhook():
                                 # Add a why button to show the supporting sentence
                                 # you can use a dict instead of a Button class
                                 #
-                                send_why_quickreply(sender_id, QID, standard_answer)
-
-                            
-
-                    if messaging_event.get("delivery"):  # delivery confirmation
-                        pass
-
-                    if messaging_event.get("optin"):  # optin confirmation
-                        pass
-
-                    if messaging_event.get("postback"):  # user clicked/tapped "postback" button in earlier message
-                        sender_id = messaging_event["sender"]["id"]        
-                        recipient_id = messaging_event["recipient"]["id"]  
-                        
-                        if sender_id == "1497174250389598": #chatbot
-                            return "irrelavant ID", 200
-                        message_text = messaging_event["postback"]["title"] # the button's payload
-                         
-                        log("Inside postback")
-                        message_text = message_text.lower()
-                        print(message_text)
-                        print("#"*100)
-
-
-                        if message_text == "get started":
-                            send_ready_go(sender_id, "Hi! Welcome! I'm your personal tutor Mr.Q and I'm here to help you master science! Ready? Go!")
-                            
-                            
-
-                        elif message_text == "check total score":
-                            score = app.session[sender_id]["total_score"]
-                            send_message(sender_id, "Your total score is "+str(score)+". Keep moving!") 
-
-                        elif message_text == "check leaderboard":
-                            score = app.session[sender_id]["total_score"]
-                            send_message(sender_id, "Your total score is "+str(score)+". Keep moving!") 
-
-                        elif message_text == "yup ready":
-                            send_mode_quick_reply(sender_id, "Now tell me which mode you would like to choose:"+u'\uD83D\uDC47')
-
-                        elif message_text == "quiz mode":
-                            # create an entry in app.session and give the first random question
-                            print("first time user"+"="*50)
-                            question, QID = tfidf.pickRandomQuestion()
-                            app.session[sender_id] = {"QID": QID, "total_score": 0}
-                            data_entry(sender_id, "Sherry Ruan", 0)
-                            send_message(sender_id, "Question."+str(QID)+": "+question)
+                                send_why_quickreply(sender_id, QID, standard_answer)        
 
                         
 
