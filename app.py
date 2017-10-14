@@ -146,7 +146,7 @@ def webhook():
                             send_message(sender_id, "Your total score is "+str(score)+". Keep moving!") 
 
                         elif message_text == "yup ready":
-                            send_mode_quick_reply(sender_id, "Now tell me which mode you would like to choose:")
+                            send_mode_quick_reply(sender_id, "Now tell me which mode you would like to choose:"+u'\uD83D\uDC47')
 
                         elif message_text == "quiz mode":
                             # create an entry in app.session and give the first random question
@@ -206,7 +206,7 @@ def send_ready_go(recipient_id, main_text):
             "quick_replies": [
                 {
                     "content_type": "text",
-                    "title": "Yup! I'm ready! "+u'\u270F',
+                    "title": "Yup! I'm ready! "+u'\u270A',
                     "payload": "yup ready"
                 }
             ]
