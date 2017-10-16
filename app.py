@@ -152,7 +152,7 @@ def webhook():
 
                             elif message_text[:4] == "Why?":
                                 support_sentence = tfidf.get_support(QID)[:600]
-                                send_gotit_quickreply(sender_id, support_sentence)
+                                send_gotit_quickreply(sender_id, "Here's an explanation: "+ support_sentence)
 
                             elif message_text == "Check Total Score":
                                 send_gotit_quickreply(sender_id, "Your accumulated score is "+str(app.session[sender_id]["total_score"]))
@@ -284,7 +284,7 @@ def send_why_quickreply(recipient_id, QID, standard_answer):
             "id": recipient_id
         },
         "message": {
-            "text": "Standard answer is" +standard_answer,
+            "text": "Standard answer is " +standard_answer,
             "quick_replies": [
                 {
                     "content_type": "text",
