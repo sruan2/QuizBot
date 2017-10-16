@@ -120,17 +120,21 @@ def webhook():
                             
                         message_text = messaging_event["message"]["text"]  # the message's text
 
- 
-                        # create an entry in app.session and give the first random question
-                        if message_text == ("Yup! I'm ready! "+u'\u270A'): #sender_id not in app.session
-                            print("first time user"+"="*50)
-                            send_mode_quick_reply(sender_id, "Now tell me which mode you would like to choose:"+u'\uD83D\uDC47')
+                        if sender_id not in app.session:
                             app.session[sender_id] = {"QID": 0, "total_score": 0}
+ 
+                        
+                            
 
                         else:
                             QID = app.session[sender_id]["QID"]
 
-                            if message_text == "Next Question" or message_text == "Got it, next!" or message_text == "Quiz Mode "+u'\u270F':
+                            # create an entry in app.session and give the first random question
+                            if message_text == "Yup! I'm ready! "+u'\u270A': #
+                            print("first time user"+"="*50)
+                            send_mode_quick_reply(sender_id, "Now tell me which mode you would like to choose:"+u'\uD83D\uDC47')
+
+                            elif message_text == "Next Question" or message_text == "Got it, next!" or message_text == "Quiz Mode "+u'\u270F':
                                 question, QID = tfidf.pickRandomQuestion()
                                 app.session[sender_id]["QID"] = QID
                                 send_message(sender_id, "Question."+str(QID)+": "+question)
@@ -160,8 +164,6 @@ def webhook():
                                 # you can use a dict instead of a Button class
                                 #
                                 send_why_quickreply(sender_id, QID, standard_answer)        
-
-                        
 
     return "ok", 200
 
