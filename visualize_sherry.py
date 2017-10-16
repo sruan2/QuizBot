@@ -67,6 +67,7 @@ class tfidfTransform():
         # index = raw_input("="*87+"\n"+"Enter an Index: ")
         # support = self.SKB[int(index)-1]
         # print(support)
+        print("Here is the answer!\n")
         return self.AKB[int(index)-1]
 
     def pickRandomQuestion(self):

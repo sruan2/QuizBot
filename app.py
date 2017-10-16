@@ -126,7 +126,7 @@ def webhook():
 
                         if sender_id not in app.session:
                             print("first time user"+"="*50)
-                            app.session[sender_id] = {"QID": 0, "total_score": 0, "answering": True}
+                            app.session[sender_id] = {"QID": 0, "total_score": 0, "answering": False}
                             send_mode_quick_reply(sender_id, "Now tell me which mode you would like to choose:"+u'\uD83D\uDC47')
  
                         
