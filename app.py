@@ -89,7 +89,7 @@ def webhook():
 
                         elif message_text == "check leaderboard":
                             score = app.session[sender_id]["total_score"]
-                            send_gotit_quickreply(sender_id, "Leaderboard:\n"+ u'1 \u20E3'+ "  Sherry Ruan: 99\n"+ u'2 \u20E3'+". Dae Hyun Kim: 20\n"+ u'3 \u20E3'+". Geza Kovacs: 19") 
+                            send_gotit_quickreply(sender_id, "Leaderboard:\n"+ u'\u0031 \u20E3'+ "  Sherry Ruan: 99\n"+ u'2 \u20E3'+". Dae Hyun Kim: 20\n"+ u'3 \u20E3'+". Geza Kovacs: 19") 
                             
 
                         elif message_text == "quiz mode":
@@ -119,9 +119,12 @@ def webhook():
                             return "key error", 200
                             
                         message_text = messaging_event["message"]["text"]  # the message's text
+
+                        if message_text == ("Yup! I'm ready! "+u'\u270A'):
+                            send_mode_quick_reply(sender_id, "Now tell me which mode you would like to choose:"+u'\uD83D\uDC47')
  
                         # create an entry in app.session and give the first random question
-                        if not sender_id in app.session:
+                        if not sender_id in app.session
                             print("first time user"+"="*50)
                             question, QID = tfidf.pickRandomQuestion()
                             app.session[sender_id] = {"QID": QID, "total_score": 0}
@@ -130,10 +133,6 @@ def webhook():
 
                         else:
                             QID = app.session[sender_id]["QID"]
-                            # print("\n-2- QID is: "+str(tfidf.QID)+"\n")
-
-                            if message_text == ("Yup! I'm ready! "+u'\u270A'):
-                                send_mode_quick_reply(sender_id, "Now tell me which mode you would like to choose:"+u'\uD83D\uDC47')
 
                             if message_text == "Next Question" or message_text == "Got it, next!":
                                 question, QID = tfidf.pickRandomQuestion()
@@ -143,7 +142,7 @@ def webhook():
 
                             elif message_text[:4] == "Why?":
                                 support_sentence = tfidf.get_support(QID)[:600]
-                                send_gotit_quickreply(sender_id, str(QID) + ": "+support_sentence)
+                                send_gotit_quickreply(sender_id, "Support."+str(QID) + ": "+support_sentence)
 
                             elif message_text == "Check Total Score":
                                 send_gotit_quickreply(sender_id, "Your accumulated score is "+str(app.session[sender_id]["total_score"]))
@@ -317,7 +316,7 @@ def send_gotit_quickreply(recipient_id, sentence):
             "id": recipient_id
         },
         "message": {
-            "text": "Support."+sentence,
+            "text": sentence,
             "quick_replies": [
                 {
                     "content_type": "text",
