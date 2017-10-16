@@ -124,7 +124,7 @@ def webhook():
                             send_mode_quick_reply(sender_id, "Now tell me which mode you would like to choose:"+u'\uD83D\uDC47')
  
                         # create an entry in app.session and give the first random question
-                        if not sender_id in app.session
+                        if not sender_id in app.session:
                             print("first time user"+"="*50)
                             question, QID = tfidf.pickRandomQuestion()
                             app.session[sender_id] = {"QID": QID, "total_score": 0}
