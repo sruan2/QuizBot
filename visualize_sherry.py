@@ -46,7 +46,7 @@ class tfidfTransform():
     
     def Featurize(self, query):
         self.QKB = [query] + self.QKB # concat
-        self.query = query
+        #self.query = query
 
         self.tfidf_features = TfidfVectorizer().fit_transform(self.QKB)
         cosine_similarities = linear_kernel(self.tfidf_features[0:1], self.tfidf_features).flatten()
