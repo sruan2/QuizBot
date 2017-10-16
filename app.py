@@ -137,16 +137,18 @@ def webhook():
 
                             # create an entry in app.session and give the first random question
                             # if message_text == "Yup! I'm ready! "+u'\u270A':
-                            if app.session[sender_id]["answering"]:
-                                answer = tfidf.Featurize(message_text)
-                                send_message(sender_id, answer)
+                            
 
-                            elif message_text == "Next Question" or message_text == "Got it, next!" or message_text == "Quiz Mode "+u'\u270F':
-                                #app.session[sender_id]["answering"] = False
+                            if message_text == "Next Question" or message_text == "Got it, next!" or message_text == "Quiz Mode "+u'\u270F':
+                                app.session[sender_id]["answering"] = False
                                 question, QID = tfidf.pickRandomQuestion()
                                 app.session[sender_id]["QID"] = QID
                                 send_message(sender_id, "Here's a question:"+question)
                                 print("\n-3- QID is: "+str(QID)+"\n")
+
+                            elif app.session[sender_id]["answering"]:
+                                answer = tfidf.Featurize(message_text)
+                                send_message(sender_id, answer)    
 
                             elif message_text[:4] == "Why?":
                                 support_sentence = tfidf.get_support(QID)[:600]
