@@ -85,11 +85,11 @@ def webhook():
 
                         elif message_text == "check total score":
                             score = app.session[sender_id]["total_score"]
-                            send_message(sender_id, "Your total score is "+str(score)+". Keep moving!") 
+                            send_gotit_quickreply(sender_id, "Your total score is "+str(score)+". Keep moving!") 
 
                         elif message_text == "check leaderboard":
                             score = app.session[sender_id]["total_score"]
-                            send_message(sender_id, "Leaderboard:\nNo.1 Sherry Ruan: 99\n No.2 Dae Hyun Kim: 20\n No.3 Geza Kovacs: 19") 
+                            send_gotit_quickreply(sender_id, "Leaderboard:\n"+ u'1 \u20E3'+ "  Sherry Ruan: 99\n"+ u'2 \u20E3'+". Dae Hyun Kim: 20\n"+ u'3 \u20E3'+". Geza Kovacs: 19") 
                             
 
                         elif message_text == "quiz mode":
@@ -142,10 +142,11 @@ def webhook():
                                 print("\n-3- QID is: "+str(QID)+"\n")
 
                             elif message_text[:4] == "Why?":
-                                send_gotit_quickreply(sender_id, QID)
+                                support_sentence = tfidf.get_support(QID)[:600]
+                                send_gotit_quickreply(sender_id, str(QID) + ": "+support_sentence)
 
                             elif message_text == "Check Total Score":
-                                send_message(sender_id, "Your accumulated score is "+str(app.session[sender_id]["total_score"]))
+                                send_gotit_quickreply(sender_id, "Your accumulated score is "+str(app.session[sender_id]["total_score"]))
 
                             elif message_text == "Leaderboard":
                                 print("*"*100)
@@ -301,28 +302,27 @@ def send_why_quickreply(recipient_id, QID, standard_answer):
         log(r.status_code)
         log(r.text)
 
-def send_gotit_quickreply(recipient_id, QID):
+def send_gotit_quickreply(recipient_id, sentence):
 
-    log("sending GOTIT button to {recipient}: {text}".format(recipient=recipient_id, text=str(QID)))
-
+    
     params = {
         "access_token": os.environ["PAGE_ACCESS_TOKEN"]
     }
     headers = {
         "Content-Type": "application/json"
     }
-    support_sentence = tfidf.get_support(QID)[:600]
+    
     data = json.dumps({
         "recipient": {
             "id": recipient_id
         },
         "message": {
-            "text": "Support." +str(QID) + ": "+support_sentence,
+            "text": "Support."+sentence,
             "quick_replies": [
                 {
                     "content_type": "text",
                     "title": "Got it, next!",
-                    "payload": "WHY_"+str(QID)
+                    "payload": "WHY"
                 }
             ]
         }
