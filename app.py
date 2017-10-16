@@ -93,14 +93,14 @@ def webhook():
                             
 
                         elif message_text[0:9] == "quiz mode":
+                            app.session[sender_id]["answering"] = False
                             question, QID = tfidf.pickRandomQuestion()
                             app.session[sender_id] = {"QID": QID, "total_score": 0}
                             #data_entry(sender_id, "Sherry Ruan", 0)
                             send_message(sender_id, "Question."+str(QID)+": "+question)
 
                         elif message_text[0:9] == "answering":
-                            question, QID = tfidf.pickRandomQuestion()
-                            app.session[sender_id] = {"QID": QID, "total_score": 0}
+                            app.session[sender_id]["answering"] = True
                             #data_entry(sender_id, "Sherry Ruan", 0)
                             send_message(sender_id, "I'm here to answer your questions! Just type your question below :-) ")
 
@@ -126,7 +126,7 @@ def webhook():
 
                         if sender_id not in app.session:
                             print("first time user"+"="*50)
-                            app.session[sender_id] = {"QID": 0, "total_score": 0}
+                            app.session[sender_id] = {"QID": 0, "total_score": 0, "answering": True}
                             send_mode_quick_reply(sender_id, "Now tell me which mode you would like to choose:"+u'\uD83D\uDC47')
  
                         
@@ -137,9 +137,12 @@ def webhook():
 
                             # create an entry in app.session and give the first random question
                             # if message_text == "Yup! I'm ready! "+u'\u270A':
-                                
+                            if app.session[sender_id]["answering"]:
+                                answer = tfidf.Featurize(message_text)
+                                send_message(sender_id, answer)
 
-                            if message_text == "Next Question" or message_text == "Got it, next!" or message_text == "Quiz Mode "+u'\u270F':
+                            elif message_text == "Next Question" or message_text == "Got it, next!" or message_text == "Quiz Mode "+u'\u270F':
+                                app.session[sender_id]["answering"] = False
                                 question, QID = tfidf.pickRandomQuestion()
                                 app.session[sender_id]["QID"] = QID
                                 send_message(sender_id, "Here's a question:"+question)
