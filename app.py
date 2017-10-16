@@ -123,6 +123,7 @@ def webhook():
                         if sender_id not in app.session:
                             print("first time user"+"="*50)
                             app.session[sender_id] = {"QID": 0, "total_score": 0}
+                            send_mode_quick_reply(sender_id, "Now tell me which mode you would like to choose:"+u'\uD83D\uDC47')
  
                         
                             
@@ -131,10 +132,10 @@ def webhook():
                             QID = app.session[sender_id]["QID"]
 
                             # create an entry in app.session and give the first random question
-                            if message_text == "Yup! I'm ready! "+u'\u270A':
-                                send_mode_quick_reply(sender_id, "Now tell me which mode you would like to choose:"+u'\uD83D\uDC47')
+                            # if message_text == "Yup! I'm ready! "+u'\u270A':
+                                
 
-                            elif message_text == "Next Question" or message_text == "Got it, next!" or message_text == "Quiz Mode "+u'\u270F':
+                            if message_text == "Next Question" or message_text == "Got it, next!" or message_text == "Quiz Mode "+u'\u270F':
                                 question, QID = tfidf.pickRandomQuestion()
                                 app.session[sender_id]["QID"] = QID
                                 send_message(sender_id, "Question."+str(QID)+": "+question)
@@ -147,9 +148,9 @@ def webhook():
                             elif message_text == "Check Total Score":
                                 send_gotit_quickreply(sender_id, "Your accumulated score is "+str(app.session[sender_id]["total_score"]))
 
-                            elif message_text == "Leaderboard":
-                                print("*"*100)
-                                print("LEADERBOARD")
+                            # elif message_text == "Leaderboard":
+                            #     print("*"*100)
+                            #     print("LEADERBOARD")
                                 #read_from_db()
 
 
