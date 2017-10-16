@@ -74,7 +74,7 @@ def webhook():
                          
                         log("Inside postback")
                         message_text = message_text.lower()
-                        print(message_text)
+                        #print(message_text)
                         print("#"*100)
 
 
@@ -89,15 +89,13 @@ def webhook():
 
                         elif message_text == "check leaderboard":
                             score = app.session[sender_id]["total_score"]
-                            send_gotit_quickreply(sender_id, "Leaderboard:\n"+ u'\u0031 \u20E3'+ "  Sherry Ruan: 99\n"+ u'2 \u20E3'+". Dae Hyun Kim: 20\n"+ u'3 \u20E3'+". Geza Kovacs: 19") 
+                            send_gotit_quickreply(sender_id, "Leaderboard:\n"+ "  No.1 Sherry Ruan: 99\n"+"  No.2 Dae Hyun Kim: 20\n"+"  No.3Geza Kovacs: 19") 
                             
 
-                        elif message_text == "quiz mode":
-                            # create an entry in app.session and give the first random question
-                            print("first time user"+"="*50)
+                        elif message_text[0:9] == "quiz mode":
                             question, QID = tfidf.pickRandomQuestion()
                             app.session[sender_id] = {"QID": QID, "total_score": 0}
-                            data_entry(sender_id, "Sherry Ruan", 0)
+                            #data_entry(sender_id, "Sherry Ruan", 0)
                             send_message(sender_id, "Question."+str(QID)+": "+question)
 
 
