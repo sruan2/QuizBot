@@ -120,21 +120,17 @@ def webhook():
                             
                         message_text = messaging_event["message"]["text"]  # the message's text
 
-                        if message_text == ("Yup! I'm ready! "+u'\u270A'):
-                            send_mode_quick_reply(sender_id, "Now tell me which mode you would like to choose:"+u'\uD83D\uDC47')
  
                         # create an entry in app.session and give the first random question
-                        if not sender_id in app.session:
+                        if sender_id not in app.session and message_text == ("Yup! I'm ready! "+u'\u270A'):
                             print("first time user"+"="*50)
-                            question, QID = tfidf.pickRandomQuestion()
-                            app.session[sender_id] = {"QID": QID, "total_score": 0}
-                            data_entry(sender_id, "Sherry Ruan", 0)
-                            send_message(sender_id, "Question."+str(QID)+": "+question)
+                            send_mode_quick_reply(sender_id, "Now tell me which mode you would like to choose:"+u'\uD83D\uDC47')
+                            app.session[sender_id] = {"QID": 0, "total_score": 0}
 
                         else:
                             QID = app.session[sender_id]["QID"]
 
-                            if message_text == "Next Question" or message_text == "Got it, next!":
+                            if message_text == "Next Question" or message_text == "Got it, next!" or message_text == "Quiz Mode "+u'\u270F':
                                 question, QID = tfidf.pickRandomQuestion()
                                 app.session[sender_id]["QID"] = QID
                                 send_message(sender_id, "Question."+str(QID)+": "+question)
