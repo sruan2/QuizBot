@@ -13,8 +13,8 @@ from flask import Flask, request
 
 tfidf = visualize_sherry.tfidfTransform()
 
-conn = sqlite3.connect('tutorial.db')
-c = conn.cursor()
+#conn = sqlite3.connect('tutorial.db')
+#c = conn.cursor()
 app = Flask(__name__)
 
 
@@ -146,7 +146,7 @@ def webhook():
                             elif message_text == "Leaderboard":
                                 print("*"*100)
                                 print("LEADERBOARD")
-                                read_from_db()
+                                #read_from_db()
 
 
                             else: # user's respons in natural language    
@@ -154,7 +154,7 @@ def webhook():
                                 standard_answer, score = tfidf.computeScore(message_text, QID)
                                 send_message(sender_id, "Your score is: "+str(score))
                                 app.session[sender_id]["total_score"] += score
-                                update_db(sender_id, score)
+                                #update_db(sender_id, score)
                                 
                                 # Add a why button to show the supporting sentence
                                 # you can use a dict instead of a Button class
@@ -335,33 +335,33 @@ def predict(incoming_msg):
     return predict_reply.classify(incoming_msg);
 
 # SQLite
-def create_table():
-    c.execute('CREATE TABLE IF NOT EXISTS stuffToPlot(id TEXT, username TEXT, score REAL)')
-    print('*'*50)
-    print("SQLite: table created")
+# def create_table():
+#     c.execute('CREATE TABLE IF NOT EXISTS stuffToPlot(id TEXT, username TEXT, score REAL)')
+#     print('*'*50)
+#     print("SQLite: table created")
 
-def data_entry(uid, username, score):
-    c.execute("INSERT INTO stuffToPlot (id, username, score) VALUES (?, ?, ?)", (uid, username, score))
-    conn.commit()
-    print('*'*50)
-    print("SQLite: data entered")
-    # c.close()
-    # conn.close()
+# def data_entry(uid, username, score):
+#     c.execute("INSERT INTO stuffToPlot (id, username, score) VALUES (?, ?, ?)", (uid, username, score))
+#     conn.commit()
+#     print('*'*50)
+#     print("SQLite: data entered")
+#     # c.close()
+#     # conn.close()
 
-def update_db(uid, current_score):
-    c.execute('SELECT score FROM stuffToPlot WHERE id = ?', (uid,))
-    score = c.fetchall()[0][0]
-    print("*"*100)
-    print("score is " + str(score))
-    print("uid is" + str(uid))
-    score += current_score
-    c.execute('UPDATE stuffToPlot SET score = ? WHERE id = ?', (score, uid))
-    conn.commit()
+# def update_db(uid, current_score):
+#     c.execute('SELECT score FROM stuffToPlot WHERE id = ?', (uid,))
+#     score = c.fetchall()[0][0]
+#     print("*"*100)
+#     print("score is " + str(score))
+#     print("uid is" + str(uid))
+#     score += current_score
+#     c.execute('UPDATE stuffToPlot SET score = ? WHERE id = ?', (score, uid))
+#     conn.commit()
 
-def read_from_db():
-    c.execute('SELECT username, score FROM stuffToPlot')
-    for row in c.fetchall():
-        print row
+# def read_from_db():
+#     c.execute('SELECT username, score FROM stuffToPlot')
+#     for row in c.fetchall():
+#         print row
 
 ############ thread_setting ############
 def persistent_menu():
