@@ -79,7 +79,7 @@ def webhook():
 
 
                         if message_text == "get started":
-                            send_ready_go(sender_id, "Hi! Welcome! I'm your personal tutor Mr.Q and I'm here to help you master science! Ready? Go!")
+                            send_ready_go(sender_id, "Hi! Welcome! I'm your personal tutor Mr.Q and I'm here to help you master science! Ready? Go!"+u'\uD83D\uDE0A')
                             
                             
 
@@ -89,7 +89,7 @@ def webhook():
 
                         elif message_text == "check leaderboard":
                             score = app.session[sender_id]["total_score"]
-                            send_message(sender_id, "Your total score is "+str(score)+". Keep moving!") 
+                            send_message(sender_id, "Leaderboard:\nNo.1 Sherry Ruan: 99\n No.2 Dae Hyun Kim: 20\n No.3 Geza Kovacs: 19") 
                             
 
                         elif message_text == "quiz mode":
@@ -399,15 +399,26 @@ def persistent_menu():
                 ]
               },
               {
+                "title":"Progress Report",
+                "type":"nested",
+                "call_to_actions":[
+                  {
+                    "title":"Check Total Score",
+                    "type":"postback",
+                    "payload":"MENU_SCORE"
+                  },
+                  {
+                    "title":"Check Leaderboard",
+                    "type":"postback",
+                    "payload":"MENU_LEADERBOARD"
+                  }
+                ]
+              },
+              {
                 "type":"web_url",
                 "title":"Invite Friends! "+u'\U0001F604',
                 "url":"https://www.facebook.com/sharer/sharer.php?u=https%3A//www.facebook.com/quizzzbot/",
                 "webview_height_ratio":"full"
-              },
-              {
-                "title":"Check Total Score",
-                "type":"postback",
-                "payload":"MENU_SCORE"
               }
             ]
           }
