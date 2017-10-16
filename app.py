@@ -98,6 +98,12 @@ def webhook():
                             #data_entry(sender_id, "Sherry Ruan", 0)
                             send_message(sender_id, "Question."+str(QID)+": "+question)
 
+                        elif message_text[0:9] == "answering":
+                            question, QID = tfidf.pickRandomQuestion()
+                            app.session[sender_id] = {"QID": QID, "total_score": 0}
+                            #data_entry(sender_id, "Sherry Ruan", 0)
+                            send_message(sender_id, "I'm here to answer your questions! Just type your question below :-) ")
+
 
 
 
@@ -155,7 +161,7 @@ def webhook():
                             else: # user's respons in natural language    
                                 print("not first time"+"="*50)
                                 standard_answer, score = tfidf.computeScore(message_text, QID)
-                                send_message(sender_id, "Your score is: "+str(score))
+                                send_message(sender_id, "Your score this round is "+str(score))
                                 app.session[sender_id]["total_score"] += score
                                 #update_db(sender_id, score)
                                 
