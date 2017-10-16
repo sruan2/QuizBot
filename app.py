@@ -472,7 +472,7 @@ def setup_app(app):
     tfidf.appendSupportKB('SciQdataset-23/support_file.txt')
     tfidf.appendCorrectAnswerKB('SciQdataset-23/correct_answer_file.txt')
     app.session = {}
-    create_table()
+    # create_table()
     greeting()
     persistent_menu()
     
