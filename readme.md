@@ -1,11 +1,12 @@
 # Facebook Messenger Bot
-This is a simple python template that uses Flask to build a webhook for Facebook's Messenger Bot API.
+This is a chatbot for science question answering and quiz.
 
-Read more in my [tutorial that uses this repository](https://tutorials.botsfloor.com/creating-your-messenger-bot-4f71af99d26b).
+It is based on a python template that uses Flask to build a webhook for Facebook's Messenger Bot API.
+
+How to set up the template is at: (https://tutorials.botsfloor.com/creating-your-messenger-bot-4f71af99d26b).
 
 callback URL:https://quizz-bot.herokuapp.com/
 verify token:nothing_to_verify
 
-
-procfile:
+original procfile:
 web: gunicorn app:app --log-file=-

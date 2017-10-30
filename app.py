@@ -5,7 +5,6 @@ import predict_reply
 import visualize_sherry
 import sqlite3
 from random import randint
-#from thread_settings import PersistentMenu, PersistentMenuItem, MessengerProfile
 
 import requests
 from flask import Flask, request
@@ -42,21 +41,14 @@ def webhook():
     # endpoint for processing incoming messaging events
 
     data = request.get_json()
-    #log(data)  # you may not want to log every incoming message in production, but it's good for testing
-
+    
     if data["object"] == "page":
-
         for entry in data["entry"]:
             print("\n\entry\n")
 
-            
             if entry.get("messaging"):
                 for messaging_event in entry["messaging"]:
                     print("\n\messaging_event\n")
-
-                    
-
-                            
 
                     if messaging_event.get("delivery"):  # delivery confirmation
                         pass
@@ -77,12 +69,9 @@ def webhook():
                         #print(message_text)
                         print("#"*100)
 
-
                         if message_text == "get started":
                             send_ready_go(sender_id, "Hi! Welcome! I'm your personal tutor Mr.Q and I'm here to help you master science! Ready? Go!"+u'\uD83D\uDE0A')
                             
-                            
-
                         elif message_text == "check total score":
                             score = app.session[sender_id]["total_score"]
                             send_gotit_quickreply(sender_id, "Your total score is "+str(score)+". Keep moving!") 
@@ -91,7 +80,6 @@ def webhook():
                             score = app.session[sender_id]["total_score"]
                             send_gotit_quickreply(sender_id, "Leaderboard:\n"+ "  No.1 Sherry Ruan: 99\n"+"  No.2 Dae Hyun Kim: 20\n"+"  No.3Geza Kovacs: 19") 
                             
-
                         elif message_text[0:9] == "quiz mode":
                             app.session[sender_id]["answering"] = False
                             question, QID = tfidf.pickRandomQuestion()
@@ -103,10 +91,6 @@ def webhook():
                             app.session[sender_id]["answering"] = True
                             #data_entry(sender_id, "Sherry Ruan", 0)
                             send_message(sender_id, "I'm here to answer your questions! Just type your question below :-) ")
-
-
-
-
 
 
                     elif messaging_event.get("message"):  # someone sent us a message
@@ -127,17 +111,10 @@ def webhook():
                         if sender_id not in app.session:
                             print("first time user"+"="*50)
                             app.session[sender_id] = {"QID": 0, "total_score": 0, "answering": False}
-                            send_mode_quick_reply(sender_id, "Now tell me which mode you would like to choose:"+u'\uD83D\uDC47')
- 
-                        
-                            
+                            send_mode_quick_reply(sender_id, "Now tell me which mode you would like to choose:"+u'\uD83D\uDC47') 
 
                         else:
                             QID = app.session[sender_id]["QID"]
-
-                            # create an entry in app.session and give the first random question
-                            # if message_text == "Yup! I'm ready! "+u'\u270A':
-                            
 
                             if message_text == "Next Question" or message_text == "Got it, next!" or message_text == "Quiz Mode "+u'\u270F':
                                 app.session[sender_id]["answering"] = False
@@ -157,22 +134,12 @@ def webhook():
                             elif message_text == "Check Total Score":
                                 send_gotit_quickreply(sender_id, "Your accumulated score is "+str(app.session[sender_id]["total_score"]))
 
-                            # elif message_text == "Leaderboard":
-                            #     print("*"*100)
-                            #     print("LEADERBOARD")
-                                #read_from_db()
-
-
                             else: # user's respons in natural language    
                                 print("not first time"+"="*50)
                                 standard_answer, score = tfidf.computeScore(message_text, QID)
                                 send_message(sender_id, "Your score this round is "+str(score))
                                 app.session[sender_id]["total_score"] += score
                                 #update_db(sender_id, score)
-                                
-                                # Add a why button to show the supporting sentence
-                                # you can use a dict instead of a Button class
-                                #
                                 send_why_quickreply(sender_id, QID, standard_answer)        
 
     return "ok", 200
@@ -180,9 +147,6 @@ def webhook():
 
 
 def send_message(recipient_id, message_text):
-
-    # print("="*100)
-    # print("sent a message!")
 
     log("sending message to {recipient}: {text}".format(recipient=recipient_id, text=message_text))
 
@@ -205,7 +169,7 @@ def send_message(recipient_id, message_text):
         log(r.status_code)
         log(r.text)
 
-# why button
+
 def send_ready_go(recipient_id, main_text):
 
     params = {
@@ -234,7 +198,6 @@ def send_ready_go(recipient_id, main_text):
         log(r.status_code)
         log(r.text)
 
-# why button
 def send_mode_quick_reply(recipient_id, main_text):
 
     params = {
@@ -268,7 +231,7 @@ def send_mode_quick_reply(recipient_id, main_text):
         log(r.status_code)
         log(r.text)        
 
-# why button
+
 def send_why_quickreply(recipient_id, QID, standard_answer):
 
     log("sending WHY button to {recipient}: {text}".format(recipient=recipient_id, text=str(QID)))
@@ -346,7 +309,7 @@ def log(message):  # simple wrapper for logging to stdout on heroku
 def predict(incoming_msg):
     return predict_reply.classify(incoming_msg);
 
-# SQLite
+###################### SQLite ######################
 # def create_table():
 #     c.execute('CREATE TABLE IF NOT EXISTS stuffToPlot(id TEXT, username TEXT, score REAL)')
 #     print('*'*50)
@@ -496,8 +459,4 @@ if __name__ == '__main__':
 
     # send_message(sender_id, str("Received. I'm here!"))
     # print(predict(raw_input("Enter something")))
-    
-
-
-
     
