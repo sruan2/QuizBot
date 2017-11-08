@@ -6,15 +6,23 @@ import numpy as np
 import unicodedata
 from sklearn.metrics.pairwise import linear_kernel
 from random import randint
+from gensim.models import Doc2Vec
+
 
 class tfidfTransform():
-    def __init__(self):
+    def __init__(self, TrainingFile):
         # self.KB = reader.makeKB('Data/Aristo-Mini-Corpus-Dec2016/Aristo-Mini-Corpus-In-Parts/CurrentWebCorpus-allSources-v1.txt')
         self.QKB = [] # question
         self.SKB = [] # support
-        self.AKB = [] # answer
+	self.AKB = [] # answer
         self.KBlength = 0
-
+	self.QCNT = 0
+	self.QID = 0
+	self.QUESTION
+	self.ASKED = []
+	self.INPUT = TaggedLineDocument(TrainingFile)
+	self.MODEL = Doc2Vec(self.INPUT, size=100, window=5, min_count=5, workers=4)
+    
     def appendQuestionKB(self, QuestionFile):
         with open(QuestionFile, 'r') as f:
             print("="*87+"\n"+"File opened: "+QuestionFile)
@@ -82,6 +90,20 @@ class tfidfTransform():
 
         return picked_question, QID
 
+    def pickNextSimilarQuestion(self, QID):
+	# FIXME
+	index = 0
+	while True:
+	    NextQID = self.MODEL.most_similar(QID, topn = 1000)[index][0]
+	    if NextQID not in self.ASKED:
+	    	picked_question = self.QKB[NextQID].rstrip()
+	    	self.ASKED.append(NextQID)
+		break
+	    else:
+		index += 1
+	    
+	return pick_question, NextQID
+    
     def computeScore(self, user_answer, QID):
         picked_answer = self.AKB[QID].rstrip()
         answer = [picked_answer]
@@ -95,12 +117,15 @@ class tfidfTransform():
         return self.SKB[QID]    
                
 if __name__ == '__main__':
-    tfidf = tfidfTransform()
+    tfidf = tfidfTransform('Data/input_d2v.txt')
     tfidf.appendQuestionKB('Data/SciQdataset-23/question_file.txt')
     tfidf.appendSupportKB('Data/SciQdataset-23/support_file.txt')
     tfidf.appendCorrectAnswerKB('Data/SciQdataset-23/correct_answer_file.txt')
-    while True:
-        tfidf.pickRandomQuestion()
+    while True:	
+	if slef.QCNT == 0:
+	    quesiton, qid = tfidf.pickRandomQuestion()
+	quesiton, qid = tfidf.pickNExtSimilarQuestion(qid)
+	self.QCNT += 1
         # tfidf.LoadQuery()
         # tfidf.Featurize()
 
