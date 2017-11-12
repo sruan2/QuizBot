@@ -10,7 +10,7 @@ import requests
 from flask import Flask, request
 
 
-tfidf = visualize_sherry.tfidfTransform()
+tfidf = visualize_sherry.tfidfTransform('SciQdataset-23/input_d2v_2.txt')
 
 #conn = sqlite3.connect('tutorial.db')
 #c = conn.cursor()
