@@ -91,18 +91,19 @@ class tfidfTransform():
         return picked_question, QID
 
     def pickNextSimilarQuestion(self, QID):
-	# FIXME
-	index = 0
-	while True:
-	    NextQID = self.MODEL.most_similar(QID, topn = 1000)[index][0]
-	    if NextQID not in self.ASKED:
-	    	picked_question = self.QKB[NextQID].rstrip()
-	    	self.ASKED.append(NextQID)
-		break
-	    else:
-		index += 1
-	    
-	return pick_question, NextQID
+        # FIXME
+        index = 0
+        while True:
+            num = randint(0, 1000)
+            NextQID = self.MODEL.most_similar(QID, topn = 1000)[index][num]
+            if NextQID not in self.ASKED:
+                picked_question = self.QKB[NextQID].rstrip()
+            	self.ASKED.append(NextQID)
+                break
+            else:
+                index += 1
+                            
+        return pick_question, NextQID
     
     def computeScore(self, user_answer, QID):
         picked_answer = self.AKB[QID].rstrip()

@@ -69,6 +69,7 @@ def webhook():
                         #print(message_text)
                         print("#"*100)
 
+
                         if message_text == "get started":
                             send_ready_go(sender_id, "Hi! Welcome! I'm your personal tutor Mr.Q and I'm here to help you master science! Ready? Go!"+u'\uD83D\uDE0A')
                             
@@ -86,6 +87,20 @@ def webhook():
                             app.session[sender_id] = {"QID": QID, "total_score": 0}
                             #data_entry(sender_id, "Sherry Ruan", 0)
                             send_message(sender_id, "Question."+str(QID)+": "+question)
+
+                        elif message_text == "next question":
+                            app.session[sender_id]["answering"] = False
+                            question, QID = tfidf.pickNextSimilarQuestion(app.session[sender_id]['QID'])
+                            app.session[sender_id] = {"QID": QID}
+                            send_message(sender_id, "Question."+str(QID)+": "+question)
+                       
+
+                        elif message_text == "switch subjet":
+                            app.session[sender_id]["answering"] = False
+                            question, QID = tfidf.pickRandomQuestion()
+                            app.session[sender_id] = {"QID": QID}
+                            send_message(sender_id, "Question."+str(QID)+": "+question)                           
+
 
                         elif message_text[0:9] == "answering":
                             app.session[sender_id]["answering"] = True
