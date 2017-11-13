@@ -126,7 +126,7 @@ if __name__ == '__main__':
     tfidf.appendSupportKB('Data/SciQdataset-23/support_file.txt')
     tfidf.appendCorrectAnswerKB('Data/SciQdataset-23/correct_answer_file.txt')
     while True: 
-    if slef.QCNT == 0:
+    if self.QCNT == 0:
         quesiton, qid = tfidf.pickRandomQuestion()
     quesiton, qid = tfidf.pickNExtSimilarQuestion(qid)
     self.QCNT += 1
