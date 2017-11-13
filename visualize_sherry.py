@@ -18,7 +18,6 @@ class tfidfTransform():
         self.KBlength = 0
 	self.QCNT = 0
 	self.QID = 0
-	self.QUESTION
 	self.ASKED = []
 	self.INPUT = TaggedLineDocument(TrainingFile)
 	self.MODEL = Doc2Vec(self.INPUT, size=100, window=5, min_count=5, workers=4)
