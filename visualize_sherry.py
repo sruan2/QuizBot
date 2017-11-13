@@ -13,7 +13,7 @@ from gensim.models.doc2vec import TaggedLineDocument
 class tfidfTransform():
     def __init__(self, TrainingFile):
         # self.KB = reader.makeKB('Data/Aristo-Mini-Corpus-Dec2016/Aristo-Mini-Corpus-In-Parts/CurrentWebCorpus-allSources-v1.txt')
-        print("\ntfidf begins\n")
+        print("\ntfidf initialization begins\n")
         self.QKB = [] # question
         self.SKB = [] # support
     	self.AKB = [] # answer
@@ -23,6 +23,7 @@ class tfidfTransform():
     	self.ASKED = []
     	self.INPUT = TaggedLineDocument(TrainingFile)
     	self.MODEL = Doc2Vec(self.INPUT, size=100, window=5, min_count=5, workers=4)
+        print("\ntfidf initialization ends\n")
     
     def appendQuestionKB(self, QuestionFile):
         with open(QuestionFile, 'r') as f:
