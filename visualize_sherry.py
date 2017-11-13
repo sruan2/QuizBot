@@ -118,7 +118,7 @@ class tfidfTransform():
         return self.SKB[QID]    
                
 if __name__ == '__main__':
-    tfidf = tfidfTransform('Data/input_d2v.txt')
+    tfidf = tfidfTransform('Data/SciQdataset-23/input_d2v_2.txt')
     tfidf.appendQuestionKB('Data/SciQdataset-23/question_file.txt')
     tfidf.appendSupportKB('Data/SciQdataset-23/support_file.txt')
     tfidf.appendCorrectAnswerKB('Data/SciQdataset-23/correct_answer_file.txt')
