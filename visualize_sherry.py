@@ -17,13 +17,13 @@ class tfidfTransform():
         print("\n" + str(os.getpid())+" tfidf initialization begins\n")
         self.QKB = [] # question
         self.SKB = [] # support
-    	self.AKB = [] # answer
+        self.AKB = [] # answer
         self.KBlength = 0
-    	self.QCNT = 0
-    	self.QID = 0
-    	self.ASKED = []
-    	self.INPUT = TaggedLineDocument(TrainingFile)
-    	self.MODEL = Doc2Vec(self.INPUT, size=100, window=5, min_count=5, workers=4)
+        self.QCNT = 0
+        self.QID = 0
+        self.ASKED = []
+        self.INPUT = TaggedLineDocument(TrainingFile)
+        self.MODEL = Doc2Vec(self.INPUT, size=100, window=5, min_count=5, workers=4)
         print("\ntfidf initialization ends\n")
     
     def appendQuestionKB(self, QuestionFile):
@@ -101,7 +101,7 @@ class tfidfTransform():
             NextQID = self.MODEL.most_similar(QID, topn = 1000)[index][num]
             if NextQID not in self.ASKED:
                 picked_question = self.QKB[NextQID].rstrip()
-            	self.ASKED.append(NextQID)
+                self.ASKED.append(NextQID)
                 break
             else:
                 index += 1
@@ -125,11 +125,11 @@ if __name__ == '__main__':
     tfidf.appendQuestionKB('Data/SciQdataset-23/question_file.txt')
     tfidf.appendSupportKB('Data/SciQdataset-23/support_file.txt')
     tfidf.appendCorrectAnswerKB('Data/SciQdataset-23/correct_answer_file.txt')
-    while True:	
-	if slef.QCNT == 0:
-	    quesiton, qid = tfidf.pickRandomQuestion()
-	quesiton, qid = tfidf.pickNExtSimilarQuestion(qid)
-	self.QCNT += 1
+    while True: 
+    if slef.QCNT == 0:
+        quesiton, qid = tfidf.pickRandomQuestion()
+    quesiton, qid = tfidf.pickNExtSimilarQuestion(qid)
+    self.QCNT += 1
         # tfidf.LoadQuery()
         # tfidf.Featurize()
 
