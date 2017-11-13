@@ -463,12 +463,14 @@ def greeting():
 
 ############ SET UP ############
 def setup_app(app):
+    print("\nstart\n")
     tfidf.appendQuestionKB('SciQdataset-23/question_file.txt')
     tfidf.appendSupportKB('SciQdataset-23/support_file.txt')
     tfidf.appendCorrectAnswerKB('SciQdataset-23/correct_answer_file.txt')
     app.session = {}
     # create_table()
     greeting()
+    print("\nafter greeting\n")
     persistent_menu()
     
 
