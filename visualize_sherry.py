@@ -8,12 +8,13 @@ from sklearn.metrics.pairwise import linear_kernel
 from random import randint
 from gensim.models import Doc2Vec
 from gensim.models.doc2vec import TaggedLineDocument
+import os
 
 
 class tfidfTransform():
     def __init__(self, TrainingFile):
         # self.KB = reader.makeKB('Data/Aristo-Mini-Corpus-Dec2016/Aristo-Mini-Corpus-In-Parts/CurrentWebCorpus-allSources-v1.txt')
-        print("\ntfidf initialization begins\n")
+        print("\n" + str(os.getpid())+" tfidf initialization begins\n")
         self.QKB = [] # question
         self.SKB = [] # support
     	self.AKB = [] # answer
