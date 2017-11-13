@@ -95,7 +95,7 @@ def webhook():
                             send_message(sender_id, "Question."+str(QID)+": "+question)
                        
 
-                        elif message_text == "switch subjet":
+                        elif message_text == "switch subject":
                             app.session[sender_id]["answering"] = False
                             question, QID = tfidf.pickRandomQuestion()
                             app.session[sender_id] = {"QID": QID}
@@ -276,6 +276,11 @@ def send_why_quickreply(recipient_id, QID, standard_answer):
                 },
                 {
                     "content_type": "text",
+                    "title":"Switch Subject",
+                    "payload":"SWITCH_SUBJUECT"
+                },                 
+                {
+                    "content_type": "text",
                     "title": "Check Total Score",
                     "payload": "CHECK_TOTAL_SCORE"
                 }
@@ -380,7 +385,7 @@ def persistent_menu():
                     "title":"Answering Mode"+u'\uD83D\uDE3A',
                     "type":"postback",
                     "payload":"question answering mode"
-                  },
+                  }              
                 ]
               },
               {
