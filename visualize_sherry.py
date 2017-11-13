@@ -7,6 +7,7 @@ import unicodedata
 from sklearn.metrics.pairwise import linear_kernel
 from random import randint
 from gensim.models import Doc2Vec
+from gensim.models.doc2vec import TaggedLineDocument
 
 
 class tfidfTransform():
