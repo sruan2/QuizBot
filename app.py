@@ -138,7 +138,7 @@ def webhook():
                                 send_message(sender_id, "Here's a question from different subject:"+question)
                                 print("\n-3- QID is: "+str(QID)+"\n")
 
-                            elif message_text = "Next Question" or message_text == "Got it, next!" or message_text == "Quiz Mode "+u'\u270F':
+                            elif message_text == "Next Question" or message_text == "Got it, next!" or message_text == "Quiz Mode "+u'\u270F':
                                 app.session[sender_id]["answering"] = False
                                 question, QID = tfidf.pickNextSimilarQuestion(app.session[sender_id]['QID'])
                                 app.session[sender_id] = {"QID": QID}
