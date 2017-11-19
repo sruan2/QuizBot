@@ -159,7 +159,7 @@ def webhook():
                                 send_message(sender_id, "Next Question."+str(QID)+": "+question)
                                 print("\n-5- QID is: "+str(QID)+"\n") 
 
-                            elif app.session[sender_id]["answering"]:
+                            elif app.session[sender_id]["answering"] == True:
                                 answer = tfidf.Featurize(message_text)
                                 send_message(sender_id, answer)    
 
