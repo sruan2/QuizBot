@@ -138,6 +138,8 @@ def webhook():
 
                             print ("\nmessage text: " + message_text[0:9] + "\n")
 
+                            print ("\n app session sender id has" + app.session[sender_id] + "\n")
+
                             if message_text == "Switch Subject" :
                                 app.session[sender_id]["answering"] = False
                                 question, QID = tfidf.pickRandomQuestion()
