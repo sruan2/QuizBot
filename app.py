@@ -83,6 +83,7 @@ def webhook():
                             
                         elif message_text[0:9] == "quiz mode":
                             app.session[sender_id]["answering"] = False
+                            print ("\napp.session_sender_id_answering: {0} \n".format(app.session[sender_id]["answering"]))
                             question, QID = tfidf.pickRandomQuestion()
                             app.session[sender_id] = {"QID": QID, "total_score": 0}
                             #data_entry(sender_id, "Sherry Ruan", 0)
