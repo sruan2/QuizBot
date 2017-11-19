@@ -83,16 +83,18 @@ def webhook():
                             
                         elif message_text[0:9] == "quiz mode":
                             app.session[sender_id]["answering"] = False
-                            print ("\napp.session_sender_id_answering: {0} \n".format(app.session[sender_id]["answering"]))
+                            print ("\n-6- app.session_sender_id_answering: {0} \n".format(app.session[sender_id]["answering"]))
                             question, QID = tfidf.pickRandomQuestion()
                             app.session[sender_id] = {"QID": QID, "total_score": 0}
                             #data_entry(sender_id, "Sherry Ruan", 0)
+                            print ("-1-"*50)
                             send_message(sender_id, "Question."+str(QID)+": "+question)
 
                         elif message_text == "next question":
                             app.session[sender_id]["answering"] = False
                             question, QID = tfidf.pickNextSimilarQuestion(app.session[sender_id]['QID'])
                             app.session[sender_id] = {"QID": QID}
+                            print ("-2-"*50)
                             send_message(sender_id, "Question."+str(QID)+": "+question)
                        
 
@@ -100,10 +102,12 @@ def webhook():
                             app.session[sender_id]["answering"] = False
                             question, QID = tfidf.pickRandomQuestion()
                             app.session[sender_id] = {"QID": QID}
+                            print ("-3-"*50)
                             send_message(sender_id, "Question."+str(QID)+": "+question)                           
 
 
                         elif message_text[0:9] == "answering":
+                            print ("-4-"*50)
                             app.session[sender_id]["answering"] = True
                             #data_entry(sender_id, "Sherry Ruan", 0)
                             send_message(sender_id, "I'm here to answer your questions! Just type your question below :-) ")
