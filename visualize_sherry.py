@@ -103,7 +103,7 @@ class tfidfTransform():
                 index += 1
                 break
                             
-        return pick_question, NextQID
+        return picked_question, NextQID
     
     def computeScore(self, user_answer, QID):
         picked_answer = self.AKB[QID].rstrip()
