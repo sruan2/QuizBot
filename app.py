@@ -140,8 +140,8 @@ def webhook():
 
                             elif message_text == "Quiz Mode "+u'\u270F':
                                 app.session[sender_id]["answering"] = False
-                                question, QID = tfidf.pickRandomQuestion(app.session[sender_id]['QID'])
-                                app.session[sender_id] = {"QID": QID}
+                                question, QID = tfidf.pickRandomQuestion()
+                                app.session[sender_id] = {"QID": QID, "total_score": 0}
                                 send_message(sender_id, "Question."+str(QID)+": "+question)
                                 print("\n-4- QID is: "+str(QID)+"\n")                                 
 
