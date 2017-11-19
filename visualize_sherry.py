@@ -96,7 +96,7 @@ class tfidfTransform():
         index = 0
         while True:
             num = randint(0, 1000)
-            NextQID = self.MODEL.most_similar(QID, topn = 1000)(index)[num]
+            NextQID = self.MODEL.docvecs.most_similar(QID, topn = 1000)(index)[num]
             if NextQID not in self.ASKED:
                 picked_question = self.QKB[NextQID].rstrip()
                 self.ASKED.append(NextQID)
