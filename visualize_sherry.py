@@ -7,12 +7,11 @@ import unicodedata
 from sklearn.metrics.pairwise import linear_kernel
 from random import randint
 from gensim.models import Doc2Vec
-from gensim.models.doc2vec import TaggedLineDocument
 import os
 
 
 class tfidfTransform():
-    def __init__(self, TrainingFile):
+    def __init__(self, PreTrainedModel):
         # self.KB = reader.makeKB('Data/Aristo-Mini-Corpus-Dec2016/Aristo-Mini-Corpus-In-Parts/CurrentWebCorpus-allSources-v1.txt')
         print("\n" + str(os.getpid())+" tfidf initialization begins\n")
         self.QKB = [] # question
@@ -22,8 +21,7 @@ class tfidfTransform():
         self.QCNT = 0
         self.QID = 0
         self.ASKED = []
-        self.INPUT = TaggedLineDocument(TrainingFile)
-        self.MODEL = Doc2Vec(self.INPUT, size=100, window=5, min_count=5, workers=4)
+        self.MODEL = Doc2Vec.load(PreTrainedModel)
         print("\ntfidf initialization ends\n")
     
     def appendQuestionKB(self, QuestionFile):
@@ -121,14 +119,14 @@ class tfidfTransform():
         return self.SKB[QID]    
                
 if __name__ == '__main__':
-    tfidf = tfidfTransform('Data/SciQdataset-23/input_d2v_2.txt')
-    tfidf.appendQuestionKB('Data/SciQdataset-23/question_file.txt')
-    tfidf.appendSupportKB('Data/SciQdataset-23/support_file.txt')
-    tfidf.appendCorrectAnswerKB('Data/SciQdataset-23/correct_answer_file.txt')
+    tfidf = tfidfTransform('model_pre_trained/model_d2v_v1')
+    tfidf.appendQuestionKB('Data/SciQdataset-23/question_file_2.txt')
+    tfidf.appendSupportKB('Data/SciQdataset-23/support_file_2.txt')  
+    tfidf.appendCorrectAnswerKB('Data/SciQdataset-23/correct_answer_file_2.txt')
     while True: 
         if self.QCNT == 0:
             quesiton, qid = tfidf.pickRandomQuestion()
-        quesiton, qid = tfidf.pickNExtSimilarQuestion(qid)
+        quesiton, qid = tfidf.pickNextSimilarQuestion(qid)
         self.QCNT += 1
         # tfidf.LoadQuery()
         # tfidf.Featurize()
