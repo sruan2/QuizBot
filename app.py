@@ -131,19 +131,26 @@ def webhook():
                         else:
                             QID = app.session[sender_id]["QID"]
 
-                            if message_text == "Switch Subject":
+                            if message_text == "Switch Subject" :
                                 app.session[sender_id]["answering"] = False
                                 question, QID = tfidf.pickRandomQuestion()
                                 app.session[sender_id]["QID"] = QID
                                 send_message(sender_id, "Here's a question from different subject:"+question)
                                 print("\n-3- QID is: "+str(QID)+"\n")
 
-                            elif message_text == "Next Question" or message_text == "Got it, next!" or message_text == "Quiz Mode "+u'\u270F':
+                            elif message_text == "Quiz Mode "+u'\u270F':
+                                app.session[sender_id]["answering"] = False
+                                question, QID = tfidf.pickRandomQuestion(app.session[sender_id]['QID'])
+                                app.session[sender_id] = {"QID": QID}
+                                send_message(sender_id, "Question."+str(QID)+": "+question)
+                                print("\n-4- QID is: "+str(QID)+"\n")                                 
+
+                            elif message_text == "Next Question" or message_text == "Got it, next!" :
                                 app.session[sender_id]["answering"] = False
                                 question, QID = tfidf.pickNextSimilarQuestion(app.session[sender_id]['QID'])
                                 app.session[sender_id] = {"QID": QID}
                                 send_message(sender_id, "Next Question."+str(QID)+": "+question)
-                                print("\n-4- QID is: "+str(QID)+"\n") 
+                                print("\n-5- QID is: "+str(QID)+"\n") 
 
                             elif app.session[sender_id]["answering"]:
                                 answer = tfidf.Featurize(message_text)
