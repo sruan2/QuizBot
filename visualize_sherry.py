@@ -94,15 +94,14 @@ class tfidfTransform():
     def pickNextSimilarQuestion(self, QID):
         # FIXME
         index = 0
-        while True:
+        while index < 1000:
             num = randint(0, 1000)
-            NextQID = self.MODEL.docvecs.most_similar(QID, topn = 1000)[index % 1000][num]
+            NextQID = self.MODEL.docvecs.most_similar(QID, topn = 1000)[num][0]
             if NextQID not in self.ASKED:
                 picked_question = self.QKB[NextQID].rstrip()
                 self.ASKED.append(NextQID)
-                break
-            else:
                 index += 1
+                break
                             
         return pick_question, NextQID
     
