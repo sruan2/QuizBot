@@ -471,9 +471,9 @@ def greeting():
 ############ SET UP ############
 def setup_app(app):
     print("\nstart\n")
-    tfidf.appendQuestionKB('SciQdataset-23/question_file.txt')
-    tfidf.appendSupportKB('SciQdataset-23/support_file.txt')
-    tfidf.appendCorrectAnswerKB('SciQdataset-23/correct_answer_file.txt')
+    tfidf.appendQuestionKB('SciQdataset-23/question_file_2.txt')
+    tfidf.appendSupportKB('SciQdataset-23/support_file_2.txt')
+    tfidf.appendCorrectAnswerKB('SciQdataset-23/correct_answer_file_2.txt')
     app.session = {}
     # create_table()
     greeting()
