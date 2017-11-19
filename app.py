@@ -136,8 +136,8 @@ def webhook():
                         else:
                             QID = app.session[sender_id]["QID"]
 
-                            print ("\napp.session_sender_id_answering: {0} \n".format(app.session[sender_id]["answering"]))
                             print ("\nmessage text: " + message_text[:-9] + "\n")
+                            print ("\napp.session_sender_id_answering: {0} \n".format(app.session[sender_id]["answering"]))
 
                             if message_text == "Switch Subject" :
                                 app.session[sender_id]["answering"] = False
