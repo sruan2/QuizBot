@@ -15,10 +15,10 @@ The chatbot has the following functionalities:
 The chatbot can ask questions related to a specific topic, and grade the user's answers using a sentence similarity metric.
 
 ### Topic Selection
-TBD by Zhengneng
+This chatbot utalizes [gensim dot2vec](https://radimrehurek.com/gensim/models/doc2vec.html) for question similarity calculation and moving forward more methods will be tested for this feature. Ultimately, we allow user select topic based upon their interest. 
 
 ### Leaderboard
-TBD by Zhengneng
+Zhengneng will set up the database to store user's information as well as the associated performance score and the leaderboard will be based on score sorting.
 
 ### Question Answering
 The chatbot can answer simple questions asked by users. It is implemented using a retrival model.
