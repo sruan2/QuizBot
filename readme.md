@@ -1,4 +1,4 @@
-# Facebook Messenger Bot
+# Facebook Messenger Quiz Bot
 This is a chatbot for science question answering and quiz.
 
 It is based on a python template that uses Flask to build a webhook for Facebook's Messenger Bot API.
