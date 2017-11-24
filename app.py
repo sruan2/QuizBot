@@ -88,13 +88,14 @@ def webhook():
                             #data_entry(sender_id, "Sherry Ruan", 0)
                             send_message(sender_id, "Question."+str(QID)+": "+question)
 
+                        # look for next similar question based off the pre-trained model
                         elif message_text == "next question":
                             app.session[sender_id]["answering"] = False
                             question, QID = tfidf.pickNextSimilarQuestion(app.session[sender_id]['QID'])
                             app.session[sender_id] = {"QID": QID}
                             send_message(sender_id, "Question."+str(QID)+": "+question)
                        
-
+                        # switch subject means randomly pick another one
                         elif message_text == "switch subject":
                             app.session[sender_id]["answering"] = False
                             question, QID = tfidf.pickRandomQuestion()
@@ -153,6 +154,7 @@ def webhook():
                                 send_message(sender_id, "Next Question."+str(QID)+": "+question)
                                 print("\n-5- QID is: "+str(QID)+"\n") 
 
+                            # I comment out this part as there is bug here
                             # elif app.session[sender_id]["answering"] == True:
                             #     answer = tfidf.Featurize(message_text)
                             #     send_message(sender_id, answer)    

@@ -11,6 +11,7 @@ import os
 
 
 class tfidfTransform():
+    # initialize the object with the offline-trained model file as an input
     def __init__(self, PreTrainedModel):
         # self.KB = reader.makeKB('Data/Aristo-Mini-Corpus-Dec2016/Aristo-Mini-Corpus-In-Parts/CurrentWebCorpus-allSources-v1.txt')
         print("\n" + str(os.getpid())+" tfidf initialization begins\n")
@@ -18,10 +19,9 @@ class tfidfTransform():
         self.SKB = [] # support
         self.AKB = [] # answer
         self.KBlength = 0
-        self.QCNT = 0
         self.QID = 0
-        self.ASKED = []
-        self.MODEL = Doc2Vec.load(PreTrainedModel)
+        self.ASKED = [] # trying to use this array to mark down the quesitons which have been asked to the user, could be removed after db setting
+        self.MODEL = Doc2Vec.load(PreTrainedModel) # load the model in the very beginning
         print("\ntfidf initialization ends\n")
     
     def appendQuestionKB(self, QuestionFile):
@@ -94,10 +94,11 @@ class tfidfTransform():
     def pickNextSimilarQuestion(self, QID):
         # FIXME
         # while True:
+        # among the 1000 most similar questions, pick one
         num = randint(0, 1000)
-        NextQID = self.MODEL.docvecs.most_similar(QID, topn = 1000)[num][0]
+        NextQID = self.MODEL.docvecs.most_similar(QID, topn = 1000)[num][0] # among top 1000 questions, pick one and then return question id
             # if NextQID not in self.ASKED:
-        picked_question = self.QKB[NextQID].rstrip()
+        picked_question = self.QKB[NextQID].rstrip() # find the question based on the question id
                 # self.ASKED.append(NextQID)
             # break                 
         return picked_question, NextQID
@@ -113,18 +114,6 @@ class tfidfTransform():
 
     def get_support(self, QID):
         return self.SKB[QID]    
-               
-if __name__ == '__main__':
-    tfidf = tfidfTransform('model_pre_trained/model_d2v_v1')
-    tfidf.appendQuestionKB('Data/SciQdataset-23/question_file_2.txt')
-    tfidf.appendSupportKB('Data/SciQdataset-23/support_file_2.txt')  
-    tfidf.appendCorrectAnswerKB('Data/SciQdataset-23/correct_answer_file_2.txt')
-    while True: 
-        if self.QCNT == 0:
-            quesiton, qid = tfidf.pickRandomQuestion()
-        quesiton, qid = tfidf.pickNextSimilarQuestion(qid)
-        self.QCNT += 1
-        # tfidf.LoadQuery()
-        # tfidf.Featurize()
+
 
 
