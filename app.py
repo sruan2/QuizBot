@@ -161,7 +161,7 @@ def webhook():
                                 app.session[sender_id]["answering"] = False
                                 question, QID = tfidf.pickNextSimilarQuestion(app.session[sender_id]['QID'])
                                 app.session[sender_id] = {"QID": QID}
-                                send_message(sender_id, "Next Question."+str(QID)+": "+question)
+                                send_message(sender_id, "Next Question "+str(QID)+": "+question)
                                 print("\n-5- QID is: "+str(QID)+"\n") 
 
                             # I comment out this part as there is bug here
