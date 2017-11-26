@@ -3,7 +3,7 @@ import sys
 import json
 import predict_reply
 import visualize_sherry
-import sqlite3
+import sqlite3 as sql
 from random import randint
 
 import requests
@@ -12,8 +12,18 @@ from flask import Flask, request
 
 tfidf = visualize_sherry.tfidfTransform('model_pre_trained/model_d2v_v1')
 
-#conn = sqlite3.connect('tutorial.db')
+#conn = sqlite3.connect('QUIZBOT.db')
 #c = conn.cursor()
+
+# print "Opened database successfully";
+
+
+# conn.execute('CREATE TABLE score (user_id INTEGER, score DECIMAL')
+# print "Table created successfully";
+# conn.close()
+
+
+
 app = Flask(__name__)
 
 
@@ -74,13 +84,13 @@ def webhook():
                             send_ready_go(sender_id, "Hi! Welcome! I'm your personal tutor Mr.Q and I'm here to help you master science! Ready? Go!"+u'\uD83D\uDE0A')
                             
                         elif message_text == "check total score":
-                            score = app.session[sender_id]["total_score"]
+                            score = show_score(sender_id)
                             send_gotit_quickreply(sender_id, "Your total score is "+str(score)+". Keep moving!") 
 
                         elif message_text == "check leaderboard":
-                            score = app.session[sender_id]["total_score"]
-                            send_gotit_quickreply(sender_id, "Leaderboard:\n"+ "  No.1 Sherry Ruan: 99\n"+"  No.2 Dae Hyun Kim: 20\n"+"  No.3Geza Kovacs: 19") 
-                            
+                            records = show_top_10()
+                            sentence = ("\n").join(["No." + i + " " + records[i][0] + ": " + reocrds[i][1] for i in range(len(records))])
+                            send_gotit_quickreply(sender_id, "Leaderboard:\n " + sentence) 
                         elif message_text[0:9] == "quiz mode":
                             app.session[sender_id]["answering"] = False
                             question, QID = tfidf.pickRandomQuestion()
@@ -164,13 +174,13 @@ def webhook():
                                 send_gotit_quickreply(sender_id, "Here's an explanation: "+ support_sentence)
 
                             elif message_text == "Check Total Score":
-                                send_gotit_quickreply(sender_id, "Your accumulated score is "+str(app.session[sender_id]["total_score"]))
+                                send_gotit_quickreply(sender_id, "Your accumulated score is "+str(show_score(sender_id)))
 
                             else: # user's respons in natural language    
                                 print("not first time"+"="*50)
                                 standard_answer, score = tfidf.computeScore(message_text, QID)
                                 send_message(sender_id, "Your score this round is "+str(score))
-                                app.session[sender_id]["total_score"] += score
+                                insert_or_replace(sender_id, score)
                                 #update_db(sender_id, score)
                                 send_why_quickreply(sender_id, QID, standard_answer)        
 
@@ -374,6 +384,46 @@ def predict(incoming_msg):
 #     c.execute('SELECT username, score FROM stuffToPlot')
 #     for row in c.fetchall():
 #         print row
+
+
+# insert or udpate records 
+def insert_or_replace(user_id, score):
+    if request.method == 'POST':
+        try:
+            with sql.connect("QUIZBOT.db") as con:
+                cur = con.cursor()            
+                cur.execute("INSERT or REPLACE INTO user_score (user_id, score) VALUES (?,?)",(user_id, score))           
+                con.commit()
+                msg = "Record successfully added"
+        except:
+            con.rollback()
+            msg = "error in insert or replace operation"
+        finally:
+            con.close()
+
+# retrieve score based on user_id 
+def show_score(user_id):
+    con = sql.connect("QUIZBOT.db")
+    con.row_factory = sql.Row
+
+    cur = con.cursor()
+    cur.execute("select score from user_score where user_id = ?", (user_id))
+
+    rows = cur.fetchall();
+    return rows[0]
+
+
+# show top 10 in leaderboard
+def show_top_10():
+    con = sql.connect("QUIZBOT.db")
+    con.row_factory = sql.Row
+
+    cur = con.cursor()
+    cur.execute("select user_id, score from user_score order by score desc limit 10")
+
+    rows = cur.fetchall();
+    return rows
+
 
 ############ thread_setting ############
 def persistent_menu():
