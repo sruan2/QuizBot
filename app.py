@@ -394,10 +394,10 @@ def insert_or_replace(user_id, score):
                 cur = con.cursor()            
                 cur.execute("INSERT or REPLACE INTO user_score (user_id, score) VALUES (?,?)",(user_id, score))           
                 con.commit()
-                msg = "Record successfully added"
+                print ("Record successfully added")
         except:
             con.rollback()
-            msg = "error in insert or replace operation"
+            print ("error in insert or replace operation")
         finally:
             con.close()
 
