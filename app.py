@@ -410,7 +410,7 @@ def show_score(user_id):
     cur.execute("select score from user_score where user_id = ?", (user_id,))
 
     rows = cur.fetchall();
-    return rows[0]
+    return rows[0][0]
 
 
 # show top 10 in leaderboard
