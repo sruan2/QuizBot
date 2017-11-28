@@ -392,7 +392,7 @@ def insert_or_replace(user_id, score):
         try:
             with sql.connect("QUIZBOT.db") as con:
                 cur = con.cursor()            
-                cur.execute("INSERT or REPLACE INTO user_score (user_id, score) VALUES (?,?)",(user_id, score))           
+                cur.execute("INSERT or REPLACE INTO user_score (user_id, score) VALUES (?,?)",(user_id, score,))           
                 con.commit()
                 print ("Record successfully added")
         except:
@@ -407,7 +407,7 @@ def show_score(user_id):
     con.row_factory = sql.Row
 
     cur = con.cursor()
-    cur.execute("select score from user_score where user_id = ?", (user_id))
+    cur.execute("select score from user_score where user_id = ?", (user_id,))
 
     rows = cur.fetchall();
     return rows[0]
