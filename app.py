@@ -180,7 +180,8 @@ def webhook():
                                 print("not first time"+"="*50)
                                 standard_answer, score = tfidf.computeScore(message_text, QID)
                                 send_message(sender_id, "Your score this round is "+str(score))
-                                insert_or_replace(sender_id, score)
+                                total_score = show_score(sender_id) + score
+                                insert_or_replace(sender_id, total_score)
                                 #update_db(sender_id, score)
                                 send_why_quickreply(sender_id, QID, standard_answer)        
 
