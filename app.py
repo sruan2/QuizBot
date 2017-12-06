@@ -1,7 +1,6 @@
 import os
 import sys
 import json
-import predict_reply
 import visualize_sherry
 import sqlite3 as sql
 from random import randint
@@ -355,8 +354,8 @@ def log(message):  # simple wrapper for logging to stdout on heroku
     print str(message)
     sys.stdout.flush()
 
-def predict(incoming_msg):
-    return predict_reply.classify(incoming_msg);
+# def predict(incoming_msg):
+#     return predict_reply.classify(incoming_msg);
 
 ###################### SQLite ######################
 # def create_table():
