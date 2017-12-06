@@ -5,6 +5,7 @@ import predict_reply
 import visualize_sherry
 import sqlite3 as sql
 from random import randint
+#from flask.ext.sqlalchemy import SQLAlchemy
 
 import requests
 from flask import Flask, request
@@ -401,6 +402,24 @@ def insert_or_replace(user_id, score):
             print ("error in insert or replace operation")
         finally:
             con.close()
+
+
+# app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://localhost/pre-registration'
+# db = SQLAlchemy(app)
+
+# Create our database model
+# class USER(db.Model):
+#     __tablename__ = "user_score"
+#     user_id = db.Column(db.Integer, primary_key=True)
+#     score = db.Column(db.Real)
+
+#     def __init__(self, user_id, email):
+#         self.user_id = user_id
+#         self.email = email
+
+#     def __repr__(self):
+#         return '<user_id %r>' % self.user_id
+
 
 # retrieve score based on user_id 
 def show_score(user_id):
