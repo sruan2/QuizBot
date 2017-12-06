@@ -89,7 +89,7 @@ def webhook():
 
                         elif message_text == "check leaderboard":
                             records = show_top_10()
-                            sentence = ("\n").join(["No." + i + " " + records[i][0] + ": " + reocrds[i][1] for i in range(len(records))])
+                            sentence = ("\n").join(["No." + str(i) + " " + str(records[i][0]) + ": " + str(reocrds[i][1]) for i in range(len(records))])
                             send_gotit_quickreply(sender_id, "Leaderboard:\n " + sentence) 
                         elif message_text[0:9] == "quiz mode":
                             app.session[sender_id]["answering"] = False
