@@ -67,7 +67,8 @@ def webhook():
                         pass
 
                     if messaging_event.get("postback"):  # user clicked/tapped "postback" button in earlier message
-                        sender_id = messaging_event["sender"]["id"]        
+                        sender_id = messaging_event["sender"]["id"]   
+                        sender_name = messaging_event["sender"]["name"]     
                         recipient_id = messaging_event["recipient"]["id"]  
                         
                         if sender_id == "1497174250389598": #chatbot
@@ -89,7 +90,7 @@ def webhook():
 
                         elif message_text == "check leaderboard":
                             records = show_top_10()
-                            sentence = ("\n").join(["No." + str(i) + " " + str(records[i][0]) + ": " + str(records[i][1]) for i in range(len(records))])
+                            sentence = ("\n").join(["No." + str(i + 1) + " " + str(records[i][0]) + ": " + str(records[i][1]) for i in range(len(records))])
                             send_gotit_quickreply(sender_id, "Leaderboard:\n " + sentence) 
                         elif message_text[0:9] == "quiz mode":
                             app.session[sender_id]["answering"] = False
@@ -388,12 +389,12 @@ def log(message):  # simple wrapper for logging to stdout on heroku
 
 
 # insert or udpate records 
-def insert_or_replace(user_id, score):
+def insert_or_replace(user_id, user_name, score):
     if request.method == 'POST':
         try:
             with sql.connect("QUIZBOT.db") as con:
                 cur = con.cursor()            
-                cur.execute("INSERT or REPLACE INTO user_score (user_id, score) VALUES (?,?)",(user_id, score,))           
+                cur.execute("INSERT or REPLACE INTO user_score (user_id, user_name, score) VALUES (?,?)",(user_id, user_name, score,))           
                 con.commit()
                 print ("Record successfully added")
         except:
