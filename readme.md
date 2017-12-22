@@ -1,9 +1,9 @@
 # Quiz Bot 
-This is a educational chatbot for science question asking and answering hosted on Facebook Messenger platform.
+This is an educational chatbot for science question asking and answering hosted on Facebook Messenger platform.
 
 ## Wiki
 
-(https://github.com/smartprimer/QuizBot/wiki)
+https://github.com/smartprimer/QuizBot/wiki
 
 ## Hosting
 The chatbot is deployed on Heroku and ses Flask to build a webhook for Facebook's Messenger Bot API.
