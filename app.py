@@ -52,6 +52,7 @@ def get_user_profile(recipient_id):
     if r.status_code != 200:
         log(r.status_code)
         log(r.text)
+        print ("***********************************************************************************")
         return
     data = json.loads(r.text)
     print (data['first_name'])
@@ -202,6 +203,9 @@ def webhook():
                                 sender_firstname = data['first_name']
                                 sender_lastname = data['last_name']
                                 sender_gender = data['gender']
+                                print ("^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^"+sender_firstname+"^^^^^^^^^")
+                                print ("^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^"+sender_lastname+"^^^^^^^^^")
+                                print ("^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^"+sender_gender+"^^^^^^^^^")
 
                                 insert_or_replace(sender_id,sender_firstname,sender_lastname,sender_gender,total_score)
                                 #update_db(sender_id, score)
