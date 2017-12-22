@@ -42,6 +42,19 @@ def verify():
 
     return "Hello world", 200
 
+@app.route('/', methods=['GET'])
+def get_user_profile(recipient_id)
+    # based on user id retrive user name
+    # could protentially retive more user profile, e.g. profile_pic, locale, timezone, gender, last_ad_referral, etc.
+    log("getting user profile from user_id: {recipient}".format(recipient=recipient_id))
+
+    r = requests.get("https://graph.facebook.com/v2.6/{psid}?fields=first_name,last_name,gender&access_token={token}".format(psid=recipient_id,token=os.environ["PAGE_ACCESS_TOKEN"]))
+    if r.status_code != 200:
+        log(r.status_code)
+        log(r.text)
+        return
+    data = json.loads(r.text)
+    return data
 
 @app.route('/', methods=['POST'])
 def webhook():
@@ -148,7 +161,7 @@ def webhook():
                                 app.session[sender_id]["answering"] = False
                                 question, QID = tfidf.pickRandomQuestion()
                                 app.session[sender_id]["QID"] = QID
-                                send_message(sender_id, "Here's a question from different subject:"+question)
+                                send_message(sender_id, "Here's a question from different subject: "+question)
                                 print("\n-3- QID is: "+str(QID)+"\n")
 
                             elif message_text == "Quiz Mode "+u'\u270F':
@@ -182,7 +195,13 @@ def webhook():
                                 standard_answer, score = tfidf.computeScore(message_text, QID)
                                 send_message(sender_id, "Your score this round is "+str(score))
                                 total_score = show_score(sender_id) + score
-                                insert_or_replace(sender_id, total_score)
+
+                                data = get_user_profile(sender_id)
+                                sender_firstname = data['first_name']
+                                sender_lastname = data['last_name']
+                                sender_gender = data['gender']
+
+                                insert_or_replace(sender_id,sender_firstname,sender_lastname,sender_gender,total_score)
                                 #update_db(sender_id, score)
                                 send_why_quickreply(sender_id, QID, standard_answer)        
 
@@ -389,12 +408,12 @@ def log(message):  # simple wrapper for logging to stdout on heroku
 
 
 # insert or udpate records 
-def insert_or_replace(user_id, score):
+def insert_or_replace(user_id,user_firstname,user_lastname,user_gender,score):
     if request.method == 'POST':
         try:
             with sql.connect("QUIZBOT.db") as con:
                 cur = con.cursor()            
-                cur.execute("INSERT or REPLACE INTO user_score (user_id, score) VALUES (?,?)",(user_id, score,))           
+                cur.execute("INSERT or REPLACE INTO user_score (user_id,user_firstname,user_lastname,user_gender,score) VALUES (?,?)",(user_id,user_firstname,user_lastname,user_gender,score,))           
                 con.commit()
                 print ("Record successfully added")
         except:
@@ -439,7 +458,7 @@ def show_top_10():
     con.row_factory = sql.Row
 
     cur = con.cursor()
-    cur.execute("select user_id, score from user_score order by score desc limit 10")
+    cur.execute("select user_firstname,user_lastname,score from user_score order by score desc limit 10")
 
     rows = cur.fetchall();
     return rows
