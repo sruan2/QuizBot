@@ -1,5 +1,5 @@
 # Quiz Bot 
-This is a educational chatbot for science question asking and answering hosted on Facebook Messenger platform.
+This is an educational chatbot for science question asking and answering hosted on Facebook Messenger platform.
 
 ## Wiki
 
