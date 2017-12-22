@@ -191,6 +191,7 @@ def webhook():
                                 send_gotit_quickreply(sender_id, "Here's an explanation: "+ support_sentence)
 
                             elif message_text == "Check Total Score":
+                                print (str(show_score(sender_id)))
                                 send_gotit_quickreply(sender_id, "Your accumulated score is "+str(show_score(sender_id)))
 
                             else: # user's respons in natural language    
