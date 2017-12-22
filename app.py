@@ -43,7 +43,7 @@ def verify():
     return "Hello world", 200
 
 @app.route('/', methods=['GET'])
-def get_user_profile(recipient_id)
+def get_user_profile(recipient_id):
     # based on user id retrive user name
     # could protentially retive more user profile, e.g. profile_pic, locale, timezone, gender, last_ad_referral, etc.
     log("getting user profile from user_id: {recipient}".format(recipient=recipient_id))
