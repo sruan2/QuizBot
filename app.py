@@ -421,7 +421,7 @@ def insert_or_replace(user_id,user_firstname,user_lastname,user_gender,score):
         try:
             with sql.connect("QUIZBOT.db") as con:
                 cur = con.cursor()            
-                cur.execute("INSERT or REPLACE INTO user_score (user_id,user_firstname,user_lastname,user_gender,score) VALUES (?,?)",(user_id,user_firstname,user_lastname,user_gender,score,))           
+                cur.execute("INSERT or REPLACE INTO user_score (user_id,user_firstname,user_lastname,user_gender,score) VALUES (?,?,?,?,?)",(user_id,user_firstname,user_lastname,user_gender,score,))           
                 con.commit()
                 print ("Record successfully added")
         except:
