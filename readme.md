@@ -6,7 +6,7 @@ This is an educational chatbot for science question asking and answering hosted 
 https://github.com/smartprimer/QuizBot/wiki
 
 ## Hosting
-The chatbot is deployed on Heroku and ses Flask to build a webhook for Facebook's Messenger Bot API.
+The chatbot is deployed on AWS and ses Flask to build a webhook for Facebook's Messenger Bot API.
 It is based on a python template from: (https://tutorials.botsfloor.com/creating-your-messenger-bot-4f71af99d26b).
 
 ## Dataset
@@ -22,7 +22,7 @@ The chatbot can ask questions related to a specific topic, and grade the user's 
 This chatbot utalizes [gensim dot2vec](https://radimrehurek.com/gensim/models/doc2vec.html) for question similarity calculation and moving forward more methods will be tested for this feature. Ultimately, we allow user select topic based upon their interest. 
 
 ### Leaderboard
-Zhengneng will set up the database to store user's information as well as the associated performance score and the leaderboard will be based on score sorting.
+This chatbot has a database setup for user's information storage. Questions which have been asked and the associated performance score will be saved. Leaderboard will show the top 10 users by sorting their total scores descendingly.
 
 ### Question Answering
 The chatbot can answer simple questions asked by users. It is implemented using a retrival model.
