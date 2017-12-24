@@ -109,7 +109,7 @@ class tfidfTransform():
         answer.append(user_answer)
         self.tfidf_features = TfidfVectorizer().fit_transform(answer)
         cosine_similarities = linear_kernel(self.tfidf_features[0:1], self.tfidf_features).flatten()
-        print("Similarity between the standard answer and yours is: " + str(int(cosine_similarities[1]*10%10)))
+        print("Similarity between the standard answer and yours is: " + str(int(cosine_similarities[1]*10)))
         return picked_answer, cosine_similarities[1]
 
     def get_support(self, QID):
