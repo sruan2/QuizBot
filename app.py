@@ -439,7 +439,7 @@ def insert_user(user_id,user_firstname,user_lastname,user_gender):
                 print ("User record successfully added")
         except:
             con.rollback()
-            print ("error in insert operation")
+            print ("error in insert user reocrd operation")
         finally:
             con.close()    
 
@@ -454,7 +454,7 @@ def insert_score(user_id,qid,answer,score,time):
                 print ("Score record successfully added")
         except:
             con.rollback()
-            print ("error in insert operation")
+            print ("error in insert score operation")
         finally:
             con.close()
 
@@ -469,7 +469,7 @@ def insert_question(user_id,qid,score,time):
                 print ("Questions record successfully added")
         except:
             con.rollback()
-            print ("error in insert operation")
+            print ("error in insert question operation")
         finally:
             con.close()
 
