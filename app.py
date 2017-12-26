@@ -169,7 +169,7 @@ def webhook():
 
                         if not sender_id in user_id_list():
 
-                            print (user_id_list)
+                            print (user_id_list())
                             print (sender_id)
 
                             print("first time user"+"="*50)
