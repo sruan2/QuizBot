@@ -4,7 +4,7 @@ import json
 import visualize_sherry
 import sqlite3 as sql
 from random import randint
-#from flask.ext.sqlalchemy import SQLAlchemy
+from time import gmtime, strftime
 
 import requests
 from flask import Flask, request
@@ -69,6 +69,7 @@ def webhook():
         for entry in data["entry"]:
             print("\n\entry\n")
 
+            time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
             if entry.get("messaging"):
                 for messaging_event in entry["messaging"]:
                     print("\n\messaging_event\n")
@@ -79,19 +80,28 @@ def webhook():
                     if messaging_event.get("optin"):  # optin confirmation
                         pass
 
+                    sender_id = messaging_event["sender"]["id"]   
+                    # sender_name = messaging_event["sender"]["name"]     
+                    recipient_id = messaging_event["recipient"]["id"]  
+
+                    if sender_id == "1497174250389598": #chatbot
+                        return "irrelavant ID", 200
+
                     if messaging_event.get("postback"):  # user clicked/tapped "postback" button in earlier message
-                        sender_id = messaging_event["sender"]["id"]   
-                        # sender_name = messaging_event["sender"]["name"]     
-                        recipient_id = messaging_event["recipient"]["id"]  
+                        # sender_id = messaging_event["sender"]["id"]   
+                        # # sender_name = messaging_event["sender"]["name"]     
+                        # recipient_id = messaging_event["recipient"]["id"]  
                         
-                        if sender_id == "1497174250389598": #chatbot
-                            return "irrelavant ID", 200
+                        # if sender_id == "1497174250389598": #chatbot
+                        #     return "irrelavant ID", 200
+
                         message_text = messaging_event["postback"]["title"] # the button's payload
                          
                         log("Inside postback")
                         message_text = message_text.lower()
                         #print(message_text)
                         print("#"*100)
+
 
 
                         if message_text == "get started":
@@ -111,6 +121,7 @@ def webhook():
                             app.session[sender_id] = {"QID": QID, "total_score": 0}
                             #data_entry(sender_id, "Sherry Ruan", 0)
                             send_message(sender_id, "Question."+str(QID)+": "+question)
+                            insert_question(sender_id,QID,time)
 
                         # look for next similar question based off the pre-trained model
                         elif message_text == "next question":
@@ -118,13 +129,15 @@ def webhook():
                             question, QID = tfidf.pickNextSimilarQuestion(app.session[sender_id]['QID'])
                             app.session[sender_id] = {"QID": QID}
                             send_message(sender_id, "Question."+str(QID)+": "+question)
+                            insert_question(sender_id,QID,time)
                        
                         # switch subject means randomly pick another one
                         elif message_text == "switch subject":
                             app.session[sender_id]["answering"] = False
                             question, QID = tfidf.pickRandomQuestion()
                             app.session[sender_id] = {"QID": QID}
-                            send_message(sender_id, "Question."+str(QID)+": "+question)                           
+                            send_message(sender_id, "Question."+str(QID)+": "+question)     
+                            insert_question(sender_id,QID,time)                      
 
 
                         elif message_text[0:9] == "answering":
@@ -134,13 +147,13 @@ def webhook():
 
 
                     elif messaging_event.get("message"):  # someone sent us a message
-                        sender_id = messaging_event["sender"]["id"]        # the facebook ID of the person sending you the message
-                        recipient_id = messaging_event["recipient"]["id"]  # the recipient's ID, which should be your page's facebook ID
+                        # sender_id = messaging_event["sender"]["id"]        # the facebook ID of the person sending you the message
+                        # recipient_id = messaging_event["recipient"]["id"]  # the recipient's ID, which should be your page's facebook ID
                         print("sender ID is: "+sender_id)
                         print("recipient ID is: "+recipient_id)
                         
-                        if sender_id == "1497174250389598": #chatbot
-                            return "irrelavant ID", 200
+                        # if sender_id == "1497174250389598": #chatbot
+                        #     return "irrelavant ID", 200
                         
                         #send_message(sender_id, "Your sender ID is: "+sender_id)
                         if not "text" in messaging_event["message"]:
@@ -148,13 +161,20 @@ def webhook():
                             
                         message_text = messaging_event["message"]["text"]  # the message's text
 
-                        if sender_id not in app.session:
+                        data = get_user_profile(sender_id)
+                        sender_firstname = data['first_name']
+                        sender_lastname = data['last_name']
+                        sender_gender = data['gender']
+
+                        if sender_id not in user_id_list():
                             print("first time user"+"="*50)
                             app.session[sender_id] = {"QID": 0, "total_score": 0, "answering": False}
+                            insert_user(sender_id,sender_firstname,sender_lastname,sender_gender)
+                            insert_score(sender_id,,message_text,0,time)
                             send_mode_quick_reply(sender_id, "Now tell me which mode you would like to choose:"+u'\uD83D\uDC47') 
 
                         else:
-                            QID = app.session[sender_id]["QID"]
+                            QID = show_last_qid(sender_id)
 
 
                             if message_text == "Switch Subject" :
@@ -162,6 +182,7 @@ def webhook():
                                 question, QID = tfidf.pickRandomQuestion()
                                 app.session[sender_id]["QID"] = QID
                                 send_message(sender_id, "Here's a question from different subject: "+question)
+                                insert_question(sender_id,QID,time)
                                 print("\n-3- QID is: "+str(QID)+"\n")
 
                             elif message_text == "Quiz Mode "+u'\u270F':
@@ -169,11 +190,13 @@ def webhook():
                                 question, QID = tfidf.pickRandomQuestion()
                                 app.session[sender_id] = {"QID": QID, "total_score": 0}
                                 send_message(sender_id, "Question."+str(QID)+": "+question)
+                                insert_question(sender_id,QID,time)
                                 print("\n-4- QID is: "+str(QID)+"\n")                                 
 
                             elif message_text == "Next Question" or message_text == "Got it, next!" :
                                 app.session[sender_id]["answering"] = False
                                 question, QID = tfidf.pickNextSimilarQuestion(app.session[sender_id]['QID'])
+                                insert_question(sender_id,QID,time)
                                 app.session[sender_id] = {"QID": QID}
                                 send_message(sender_id, "Next Question "+str(QID)+": "+question)
                                 print("\n-5- QID is: "+str(QID)+"\n") 
@@ -186,6 +209,7 @@ def webhook():
                             elif message_text[:4] == "Why?":
                                 support_sentence = tfidf.get_support(QID)[:600]
                                 send_gotit_quickreply(sender_id, "Here's an explanation: "+ support_sentence)
+                                insert_score(sender_id,QID,"why",0,time)
 
                             elif message_text == "Check Total Score":
                                 print ("&"*50)
@@ -196,14 +220,9 @@ def webhook():
                                 print("not first time"+"="*50)
                                 standard_answer, score = tfidf.computeScore(message_text, QID)
                                 send_message(sender_id, "Your score this round is "+str(score))
-                                total_score = show_score(sender_id) + score
-
-                                data = get_user_profile(sender_id)
-                                sender_firstname = data['first_name']
-                                sender_lastname = data['last_name']
-                                sender_gender = data['gender']
-
-                                insert_or_replace(sender_id,sender_firstname,sender_lastname,sender_gender,total_score)
+                                #total_score = show_score(sender_id) + score
+                                insert_question(sender_id,QID,time)
+                                insert_score(sender_id,QID,message_text,score,time)
                                 #update_db(sender_id, score)
                                 send_why_quickreply(sender_id, QID, standard_answer)        
 
@@ -409,37 +428,60 @@ def log(message):  # simple wrapper for logging to stdout on heroku
 #         print row
 
 
-# insert or udpate records 
-def insert_or_replace(user_id,user_firstname,user_lastname,user_gender,score):
+# insert user info
+def insert_user(user_id,user_firstname,user_lastname,user_gender):
     if request.method == 'POST':
         try:
             with sql.connect("QUIZBOT.db") as con:
                 cur = con.cursor()            
-                cur.execute("INSERT or REPLACE INTO user_score (user_id,user_firstname,user_lastname,user_gender,score) VALUES (?,?,?,?,?)",(user_id,user_firstname,user_lastname,user_gender,score,))           
+                cur.execute("INSERT INTO user (user_id,user_firstname,user_lastname,user_gender) VALUES (?,?,?,?)",(user_id,user_firstname,user_lastname,user_gender,))           
                 con.commit()
-                print ("Record successfully added")
+                print ("User record successfully added")
         except:
             con.rollback()
-            print ("error in insert or replace operation")
+            print ("error in insert operation")
+        finally:
+            con.close()    
+
+# insert user score
+def insert_score(user_id,qid,score,time):
+    if request.method == 'POST':
+        try:
+            with sql.connect("QUIZBOT.db") as con:
+                cur = con.cursor()            
+                cur.execute("INSERT INTO scores (user_id,qid,score,r_time) VALUES (?,?,?,?)",(user_id,qid,score,time,))           
+                con.commit()
+                print ("Score record successfully added")
+        except:
+            con.rollback()
+            print ("error in insert operation")
         finally:
             con.close()
 
+# insert asked questions
+def insert_question(user_id,qid,score,time):
+    if request.method == 'POST':
+        try:
+            with sql.connect("QUIZBOT.db") as con:
+                cur = con.cursor()            
+                cur.execute("INSERT INTO questions (user_id,qid,r_time) VALUES (?,?,?)",(user_id,qid,time,))           
+                con.commit()
+                print ("Questions record successfully added")
+        except:
+            con.rollback()
+            print ("error in insert operation")
+        finally:
+            con.close()
 
-# app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://localhost/pre-registration'
-# db = SQLAlchemy(app)
+def user_id_list():
+    con = sql.connect("QUIZBOT.db")
+    con.row_factory = sql.Row
 
-# Create our database model
-# class USER(db.Model):
-#     __tablename__ = "user_score"
-#     user_id = db.Column(db.Integer, primary_key=True)
-#     score = db.Column(db.Real)
+    cur = con.cursor()
+    cur.execute("select distinct user_id from user")
 
-#     def __init__(self, user_id, email):
-#         self.user_id = user_id
-#         self.email = email
-
-#     def __repr__(self):
-#         return '<user_id %r>' % self.user_id
+    rows = cur.fetchall();
+    return [x[0] for x in rows]   
 
 
 # retrieve score based on user_id 
@@ -448,11 +490,21 @@ def show_score(user_id):
     con.row_factory = sql.Row
 
     cur = con.cursor()
-    cur.execute("select score from user_score where user_id = ?", (user_id,))
+    cur.execute("select sum(score) from scores group by user_id having user_id = ?", (user_id,))
 
     rows = cur.fetchall();
     return rows[0][0] if len(rows) > 0 else 0
 
+# retrieve score based on user_id 
+def show_last_qid(user_id):
+    con = sql.connect("QUIZBOT.db")
+    con.row_factory = sql.Row
+
+    cur = con.cursor()
+    cur.execute("select top qid from questions where user_id = ? order by id desc", (user_id,))
+
+    rows = cur.fetchall();
+    return rows[0][0] if len(rows) > 0 else 0
 
 # show top 10 in leaderboard
 def show_top_10():
@@ -460,7 +512,8 @@ def show_top_10():
     con.row_factory = sql.Row
 
     cur = con.cursor()
-    cur.execute("select user_firstname,user_lastname,score from user_score order by score desc limit 10")
+    cur.execute("select t2.user_firstname,t2.user_lastname,t1.sc from \
+        (select user_id, sum(score) as sc from scores group by user_id order by sc desc limit 10) t1) join user t2 on t2.user_id = t1.user_id")
 
     rows = cur.fetchall();
     return rows
