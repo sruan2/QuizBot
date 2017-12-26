@@ -167,7 +167,7 @@ def webhook():
                         sender_gender = data['gender']
 
 
-                        if sender_id not in user_id_list():
+                        if not sender_id in user_id_list():
 
                             print("first time user"+"="*50)
                             #app.session[sender_id] = {"QID": 0, "total_score": 0, "answering": False}
