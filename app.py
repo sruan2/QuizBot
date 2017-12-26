@@ -170,7 +170,7 @@ def webhook():
                             print("first time user"+"="*50)
                             app.session[sender_id] = {"QID": 0, "total_score": 0, "answering": False}
                             insert_user(sender_id,sender_firstname,sender_lastname,sender_gender)
-                            insert_score(sender_id,,message_text,0,time)
+                            insert_score(sender_id, ,message_text,0,time)
                             send_mode_quick_reply(sender_id, "Now tell me which mode you would like to choose:"+u'\uD83D\uDC47') 
 
                         else:
