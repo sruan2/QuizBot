@@ -444,12 +444,12 @@ def insert_user(user_id,user_firstname,user_lastname,user_gender):
             con.close()    
 
 # insert user score
-def insert_score(user_id,qid,score,time):
+def insert_score(user_id,qid,answer,score,time):
     if request.method == 'POST':
         try:
             with sql.connect("QUIZBOT.db") as con:
                 cur = con.cursor()            
-                cur.execute("INSERT INTO scores (user_id,qid,score,r_time) VALUES (?,?,?,?)",(user_id,qid,score,time,))           
+                cur.execute("INSERT INTO scores (user_id,qid,answer,score,r_time) VALUES (?,?,?,?,?)",(user_id,qid,answer,score,time,))           
                 con.commit()
                 print ("Score record successfully added")
         except:
