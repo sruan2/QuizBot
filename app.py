@@ -434,7 +434,7 @@ def insert_user(user_id,user_firstname,user_lastname,user_gender):
         try:
             with sql.connect("QUIZBOT.db") as con:
                 cur = con.cursor()            
-                cur.execute("INSERT INTO user (user_id,user_firstname,user_lastname,user_gender) VALUES (?,?,?,?)",(user_id,user_firstname,user_lastname,user_gender,))           
+                cur.execute("INSERT INTO users (user_id,user_firstname,user_lastname,user_gender) VALUES (?,?,?,?)",(user_id,user_firstname,user_lastname,user_gender,))           
                 con.commit()
                 print ("User record successfully added")
         except:
@@ -513,7 +513,7 @@ def show_top_10():
 
     cur = con.cursor()
     cur.execute("select t2.user_firstname,t2.user_lastname,t1.sc from \
-        (select user_id, sum(score) as sc from scores group by user_id order by sc desc limit 10) t1) join user t2 on t2.user_id = t1.user_id")
+        (select user_id, sum(score) as sc from scores group by user_id order by sc desc limit 10) t1) join users t2 on t2.user_id = t1.user_id")
 
     rows = cur.fetchall();
     return rows
