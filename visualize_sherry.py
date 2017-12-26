@@ -104,6 +104,7 @@ class tfidfTransform():
         return picked_question, NextQID
     
     def computeScore(self, user_answer, QID):
+        user_answer = user_answer.lower()
         picked_answer = self.AKB[QID].rstrip()
         answer = [picked_answer]
         answer.append(user_answer)
