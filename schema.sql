@@ -1,5 +1,5 @@
-drop table if exists user;
-create table user (
+drop table if exists users;
+create table users(
 	user_id INTEGER primary key,
 	user_firstname TEXT,
 	user_lastname TEXT,
@@ -7,7 +7,7 @@ create table user (
 );
 
 drop table if exists scores;
-create table scores (
+create table scores(
 	id INTEGER primary key AUTOINCREMENT,
 	user_id INTEGER,
 	qid INTEGER,
@@ -17,7 +17,7 @@ create table scores (
 );
 
 drop table if exists questions;
-create table questions (
+create table questions(
 	id INTEGER primary key AUTOINCREMENT,
 	user_id INTEGER,
 	qid INTEGER,
