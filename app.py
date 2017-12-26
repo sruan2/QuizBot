@@ -478,7 +478,7 @@ def user_id_list():
     con.row_factory = sql.Row
 
     cur = con.cursor()
-    cur.execute("select distinct user_id from users")
+    cur.execute("select user_id from users")
 
     rows = cur.fetchall();
     return [x[0] for x in rows]   
