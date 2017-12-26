@@ -116,32 +116,32 @@ def webhook():
                             sentence = ("\n").join(["No." + str(i + 1) + " " + str(records[i][0]+' '+records[i][1]) + ": " + str(records[i][2]) for i in range(len(records))])
                             send_gotit_quickreply(sender_id, "Leaderboard: \n" + sentence) 
                         elif message_text[0:9] == "quiz mode":
-                            app.session[sender_id]["answering"] = False
+                            #app.session[sender_id]["answering"] = False
                             question, QID = tfidf.pickRandomQuestion()
-                            app.session[sender_id] = {"QID": QID, "total_score": 0}
+                            #app.session[sender_id] = {"QID": QID, "total_score": 0}
                             #data_entry(sender_id, "Sherry Ruan", 0)
                             send_message(sender_id, "Question."+str(QID)+": "+question)
                             insert_question(sender_id,QID,time)
 
                         # look for next similar question based off the pre-trained model
                         elif message_text == "next question":
-                            app.session[sender_id]["answering"] = False
+                            #app.session[sender_id]["answering"] = False
                             question, QID = tfidf.pickNextSimilarQuestion(app.session[sender_id]['QID'])
-                            app.session[sender_id] = {"QID": QID}
+                            #app.session[sender_id] = {"QID": QID}
                             send_message(sender_id, "Question."+str(QID)+": "+question)
                             insert_question(sender_id,QID,time)
                        
                         # switch subject means randomly pick another one
                         elif message_text == "switch subject":
-                            app.session[sender_id]["answering"] = False
+                            #app.session[sender_id]["answering"] = False
                             question, QID = tfidf.pickRandomQuestion()
-                            app.session[sender_id] = {"QID": QID}
+                            #app.session[sender_id] = {"QID": QID}
                             send_message(sender_id, "Question."+str(QID)+": "+question)     
                             insert_question(sender_id,QID,time)                      
 
 
                         elif message_text[0:9] == "answering":
-                            app.session[sender_id]["answering"] = True
+                            #app.session[sender_id]["answering"] = True
                             #data_entry(sender_id, "Sherry Ruan", 0)
                             send_message(sender_id, "I'm here to answer your questions! Just type your question below :-) ")
 
@@ -173,7 +173,7 @@ def webhook():
                             print (str(sender_id)+"*"*50)
 
                             print("first time user"+"="*50)
-                            app.session[sender_id] = {"QID": 0, "total_score": 0, "answering": False}
+                            #app.session[sender_id] = {"QID": 0, "total_score": 0, "answering": False}
                             insert_user(sender_id,sender_firstname,sender_lastname,sender_gender)
                             insert_score(sender_id, -1,message_text,0,time)
                             send_mode_quick_reply(sender_id, "Now tell me which mode you would like to choose:"+u'\uD83D\uDC47') 
@@ -183,26 +183,26 @@ def webhook():
 
 
                             if message_text == "Switch Subject" :
-                                app.session[sender_id]["answering"] = False
+                                #app.session[sender_id]["answering"] = False
                                 question, QID = tfidf.pickRandomQuestion()
-                                app.session[sender_id]["QID"] = QID
+                                #app.session[sender_id]["QID"] = QID
                                 send_message(sender_id, "Here's a question from different subject: "+question)
                                 insert_question(sender_id,QID,time)
                                 print("\n-3- QID is: "+str(QID)+"\n")
 
                             elif message_text == "Quiz Mode "+u'\u270F':
-                                app.session[sender_id]["answering"] = False
+                                #app.session[sender_id]["answering"] = False
                                 question, QID = tfidf.pickRandomQuestion()
-                                app.session[sender_id] = {"QID": QID, "total_score": 0}
+                                #app.session[sender_id] = {"QID": QID, "total_score": 0}
                                 send_message(sender_id, "Question."+str(QID)+": "+question)
                                 insert_question(sender_id,QID,time)
                                 print("\n-4- QID is: "+str(QID)+"\n")                                 
 
                             elif message_text == "Next Question" or message_text == "Got it, next!" :
-                                app.session[sender_id]["answering"] = False
+                                #app.session[sender_id]["answering"] = False
                                 question, QID = tfidf.pickNextSimilarQuestion(app.session[sender_id]['QID'])
                                 insert_question(sender_id,QID,time)
-                                app.session[sender_id] = {"QID": QID}
+                                #app.session[sender_id] = {"QID": QID}
                                 send_message(sender_id, "Next Question "+str(QID)+": "+question)
                                 print("\n-5- QID is: "+str(QID)+"\n") 
 
