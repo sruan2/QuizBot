@@ -3,7 +3,7 @@ create table users(
 	user_id INTEGER primary key,
 	user_firstname TEXT,
 	user_lastname TEXT,
-	user_gender TEXT,
+	user_gender TEXT
 );
 
 drop table if exists scores;
