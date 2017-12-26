@@ -169,9 +169,6 @@ def webhook():
 
                         if sender_id not in user_id_list():
 
-                            print (user_id_list()+"*"*50)
-                            print (str(sender_id)+"*"*50)
-
                             print("first time user"+"="*50)
                             #app.session[sender_id] = {"QID": 0, "total_score": 0, "answering": False}
                             insert_user(sender_id,sender_firstname,sender_lastname,sender_gender)
