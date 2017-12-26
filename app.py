@@ -464,7 +464,7 @@ def insert_score(user_id,qid,answer,score,time):
             con.close()
 
 # insert asked questions
-def insert_question(user_id,qid,score,time):
+def insert_question(user_id,qid,time):
     if request.method == 'POST':
         try:
             with sql.connect("QUIZBOT.db") as con:
