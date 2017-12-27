@@ -167,10 +167,9 @@ def webhook():
                         sender_gender = data['gender']
 
 
-                        new_list = user_id_list()
-                        if not sender_id in new_list:
+                        if sender_id in user_id_list():
 
-                            print (new_list)
+                            print (user_id_list())
                             print (sender_id)
 
                             print("first time user"+"="*50)
