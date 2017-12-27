@@ -9,6 +9,9 @@ https://github.com/smartprimer/QuizBot/wiki
 The chatbot is deployed on AWS and ses Flask to build a webhook for Facebook's Messenger Bot API.
 It is based on a python template from: (https://tutorials.botsfloor.com/creating-your-messenger-bot-4f71af99d26b).
 
+## To Run
+To run the application, `python app.py`
+
 ## Dataset
 We use the science question dataset from Allen SciQ: http://data.allenai.org/sciq/
 
