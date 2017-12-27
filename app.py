@@ -506,7 +506,7 @@ def show_last_qid(user_id):
     con.row_factory = sql.Row
 
     cur = con.cursor()
-    cur.execute("select top qid from questions where user_id = ? order by id desc", (user_id,))
+    cur.execute("select qid from questions where user_id = ? order by id desc limit 1", (user_id,))
 
     rows = cur.fetchall();
     return rows[0][0] if len(rows) > 0 else 0
