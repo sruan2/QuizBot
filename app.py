@@ -69,7 +69,6 @@ def webhook():
         for entry in data["entry"]:
             print("\n\entry\n")
 
-            time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
             if entry.get("messaging"):
                 for messaging_event in entry["messaging"]:
                     print("\n\messaging_event\n")
@@ -121,14 +120,16 @@ def webhook():
                             #app.session[sender_id] = {"QID": QID, "total_score": 0}
                             #data_entry(sender_id, "Sherry Ruan", 0)
                             send_message(sender_id, "Question."+str(QID)+": "+question)
+                            time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
                             insert_question(sender_id,QID,time)
 
                         # look for next similar question based off the pre-trained model
                         elif message_text == "next question":
-                            #app.session[sender_id]["answering"] = False
-                            question, QID = tfidf.pickNextSimilarQuestion(app.session[sender_id]['QID'])
+                            #sender_id]["answering"] = False
+                            question, QID = tfidf.pickNextSimilarQuestion(show_last_qid(sender_id))
                             #app.session[sender_id] = {"QID": QID}
                             send_message(sender_id, "Question."+str(QID)+": "+question)
+                            time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
                             insert_question(sender_id,QID,time)
                        
                         # switch subject means randomly pick another one
@@ -136,7 +137,8 @@ def webhook():
                             #app.session[sender_id]["answering"] = False
                             question, QID = tfidf.pickRandomQuestion()
                             #app.session[sender_id] = {"QID": QID}
-                            send_message(sender_id, "Question."+str(QID)+": "+question)     
+                            send_message(sender_id, "Question."+str(QID)+": "+question)   
+                            time = strftime("%Y-%m-%d %H:%M:%S", gmtime())  
                             insert_question(sender_id,QID,time)                      
 
 
@@ -187,6 +189,7 @@ def webhook():
                                 question, QID = tfidf.pickRandomQuestion()
                                 #app.session[sender_id]["QID"] = QID
                                 send_message(sender_id, "Here's a question from different subject: "+question)
+                                time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
                                 insert_question(sender_id,QID,time)
                                 print("\n-3- QID is: "+str(QID)+"\n")
 
@@ -195,12 +198,14 @@ def webhook():
                                 question, QID = tfidf.pickRandomQuestion()
                                 #app.session[sender_id] = {"QID": QID, "total_score": 0}
                                 send_message(sender_id, "Question."+str(QID)+": "+question)
+                                time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
                                 insert_question(sender_id,QID,time)
                                 print("\n-4- QID is: "+str(QID)+"\n")                                 
 
                             elif message_text == "Next Question" or message_text == "Got it, next!" :
                                 #app.session[sender_id]["answering"] = False
-                                question, QID = tfidf.pickNextSimilarQuestion(app.session[sender_id]['QID'])
+                                question, QID = tfidf.pickNextSimilarQuestion()
+                                time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
                                 insert_question(sender_id,QID,time)
                                 #app.session[sender_id] = {"QID": QID}
                                 send_message(sender_id, "Next Question "+str(QID)+": "+question)
@@ -214,6 +219,7 @@ def webhook():
                             elif message_text[:4] == "Why?":
                                 support_sentence = tfidf.get_support(QID)[:600]
                                 send_gotit_quickreply(sender_id, "Here's an explanation: "+ support_sentence)
+                                time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
                                 insert_score(sender_id,QID,"why",0,time)
 
                             elif message_text == "Check Total Score":
@@ -225,6 +231,7 @@ def webhook():
                                 print("not first time"+"="*50)
                                 standard_answer, score = tfidf.computeScore(message_text, QID)
                                 send_message(sender_id, "Your score this round is "+str(score))
+                                time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
                                 #total_score = show_score(sender_id) + score
                                 insert_question(sender_id,QID,time)
                                 insert_score(sender_id,QID,message_text,score,time)
