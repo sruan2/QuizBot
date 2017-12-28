@@ -220,7 +220,7 @@ def webhook():
                                 support_sentence = tfidf.get_support(QID)[:600]
                                 send_gotit_quickreply(sender_id, "Here's an explanation: "+ support_sentence)
                                 time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
-                                # insert_score(sender_id,QID,"why",0,time)
+                                insert_score(sender_id,QID,"why",0,time)
 
                             elif message_text == "Check Total Score":
                                 print ("&"*50)
