@@ -169,13 +169,14 @@ def webhook():
                         sender_gender = data['gender']
 
                         #user_id_list()
-                        if not sender_id in [1379491355481667]:
+                        if not 1379491355481667 in [1379491355481667]:
 
                             print (user_id_list())
                             print (sender_id)
 
                             print("first time user"+"="*50)
                             #app.session[sender_id] = {"QID": 0, "total_score": 0, "answering": False}
+                            time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
                             insert_user(sender_id,sender_firstname,sender_lastname,sender_gender)
                             insert_score(sender_id, -1,message_text,0,time)
                             send_mode_quick_reply(sender_id, "Now tell me which mode you would like to choose:"+u'\uD83D\uDC47') 
