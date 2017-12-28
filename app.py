@@ -168,8 +168,7 @@ def webhook():
                         sender_lastname = data['last_name']
                         sender_gender = data['gender']
 
-                        #user_id_list()
-                        if not 1379491355481667 in [1379491355481667]:
+                        if not int(sender_id) in user_id_list():
 
                             print (user_id_list())
                             print (sender_id)
@@ -234,13 +233,11 @@ def webhook():
                                 send_message(sender_id, "Your score this round is "+str(score))
                                 time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
                                 #total_score = show_score(sender_id) + score
-                                # insert_question(sender_id,QID,time)
-                                # insert_score(sender_id,QID,message_text,score,time)
+                                insert_question(sender_id,QID,time)
+                                insert_score(sender_id,QID,message_text,score,time)
                                 #update_db(sender_id, score)
                                 send_why_quickreply(sender_id, QID, standard_answer)        
 
-                            insert_question(sender_id,QID,time)
-                            insert_score(sender_id,QID,message_text,score,time)
 
     return "ok", 200
 
