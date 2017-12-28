@@ -168,8 +168,8 @@ def webhook():
                         sender_lastname = data['last_name']
                         sender_gender = data['gender']
 
-
-                        if sender_id in user_id_list():
+                        #user_id_list()
+                        if not sender_id in [1379491355481667]:
 
                             print (user_id_list())
                             print (sender_id)
@@ -190,7 +190,7 @@ def webhook():
                                 #app.session[sender_id]["QID"] = QID
                                 send_message(sender_id, "Here's a question from different subject: "+question)
                                 time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
-                                insert_question(sender_id,QID,time)
+                                # insert_question(sender_id,QID,time)
                                 print("\n-3- QID is: "+str(QID)+"\n")
 
                             elif message_text == "Quiz Mode "+u'\u270F':
@@ -199,14 +199,14 @@ def webhook():
                                 #app.session[sender_id] = {"QID": QID, "total_score": 0}
                                 send_message(sender_id, "Question."+str(QID)+": "+question)
                                 time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
-                                insert_question(sender_id,QID,time)
+                                # insert_question(sender_id,QID,time)
                                 print("\n-4- QID is: "+str(QID)+"\n")                                 
 
                             elif message_text == "Next Question" or message_text == "Got it, next!" :
                                 #app.session[sender_id]["answering"] = False
                                 question, QID = tfidf.pickNextSimilarQuestion(show_last_qid(sender_id))
                                 time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
-                                insert_question(sender_id,QID,time)
+                                # insert_question(sender_id,QID,time)
                                 #app.session[sender_id] = {"QID": QID}
                                 send_message(sender_id, "Next Question "+str(QID)+": "+question)
                                 print("\n-5- QID is: "+str(QID)+"\n") 
@@ -220,7 +220,7 @@ def webhook():
                                 support_sentence = tfidf.get_support(QID)[:600]
                                 send_gotit_quickreply(sender_id, "Here's an explanation: "+ support_sentence)
                                 time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
-                                insert_score(sender_id,QID,"why",0,time)
+                                # insert_score(sender_id,QID,"why",0,time)
 
                             elif message_text == "Check Total Score":
                                 print ("&"*50)
@@ -233,10 +233,13 @@ def webhook():
                                 send_message(sender_id, "Your score this round is "+str(score))
                                 time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
                                 #total_score = show_score(sender_id) + score
-                                insert_question(sender_id,QID,time)
-                                insert_score(sender_id,QID,message_text,score,time)
+                                # insert_question(sender_id,QID,time)
+                                # insert_score(sender_id,QID,message_text,score,time)
                                 #update_db(sender_id, score)
                                 send_why_quickreply(sender_id, QID, standard_answer)        
+
+                            insert_question(sender_id,QID,time)
+                            insert_score(sender_id,QID,message_text,score,time)
 
     return "ok", 200
 
