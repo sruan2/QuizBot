@@ -233,7 +233,6 @@ def webhook():
                                 send_message(sender_id, "Your score this round is "+str(score))
                                 time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
                                 #total_score = show_score(sender_id) + score
-                                insert_question(sender_id,QID,time)
                                 insert_score(sender_id,QID,message_text,score,time)
                                 #update_db(sender_id, score)
                                 send_why_quickreply(sender_id, QID, standard_answer)        
