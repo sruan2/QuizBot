@@ -190,7 +190,7 @@ def webhook():
                                 #app.session[sender_id]["QID"] = QID
                                 send_message(sender_id, "Here's a question from different subject: "+question)
                                 time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
-                                # insert_question(sender_id,QID,time)
+                                insert_question(sender_id,QID,time)
                                 print("\n-3- QID is: "+str(QID)+"\n")
 
                             elif message_text == "Quiz Mode "+u'\u270F':
@@ -199,14 +199,14 @@ def webhook():
                                 #app.session[sender_id] = {"QID": QID, "total_score": 0}
                                 send_message(sender_id, "Question."+str(QID)+": "+question)
                                 time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
-                                # insert_question(sender_id,QID,time)
+                                insert_question(sender_id,QID,time)
                                 print("\n-4- QID is: "+str(QID)+"\n")                                 
 
                             elif message_text == "Next Question" or message_text == "Got it, next!" :
                                 #app.session[sender_id]["answering"] = False
                                 question, QID = tfidf.pickNextSimilarQuestion(show_last_qid(sender_id))
                                 time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
-                                # insert_question(sender_id,QID,time)
+                                insert_question(sender_id,QID,time)
                                 #app.session[sender_id] = {"QID": QID}
                                 send_message(sender_id, "Next Question "+str(QID)+": "+question)
                                 print("\n-5- QID is: "+str(QID)+"\n") 
