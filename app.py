@@ -64,8 +64,6 @@ def webhook():
     # endpoint for processing incoming messaging events
 
     data = request.get_json()
-
-    flag = True
     
     if data["object"] == "page":
         for entry in data["entry"]:
@@ -718,6 +716,7 @@ def setup_app(app):
     # create_table()
     greeting()
     print("\nafter greeting\n")
+    flag = True
     persistent_menu()
     
 
