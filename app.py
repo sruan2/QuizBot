@@ -143,7 +143,7 @@ def webhook():
                                 insert_question(sender_id,QID,time)
                             else: 
                                 QID = show_last_qid(sender_id)
-                                question = tfidf_ins.pickLastQueston(QID)
+                                question = tfidf_ins.pickLastQuestion(QID)
                             #app.session[sender_id] = {"QID": QID}
                             send_message(sender_id, "Question."+str(QID)+": "+question)
 
@@ -214,7 +214,7 @@ def webhook():
                                     time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
                                     insert_question(sender_id,QID,time)
                                 else: 
-                                    question = tfidf_ins.pickLastQueston(QID)
+                                    question = tfidf_ins.pickLastQuestion(QID)
                                 #app.session[sender_id] = {"QID": QID, "total_score": 0}
                                 send_message(sender_id, "Question."+str(QID)+": "+question)
 
@@ -230,7 +230,7 @@ def webhook():
                                     insert_question(sender_id,QID,time)
                                     #app.session[sender_id] = {"QID": QID}
                                 else: 
-                                    question = tfidf_ins.pickLastQueston(QID)
+                                    question = tfidf_ins.pickLastQuestion(QID)
                                 send_message(sender_id, "Next Question "+str(QID)+": "+question)
                                 print("\n-5- QID is: "+str(QID)+"\n") 
 
