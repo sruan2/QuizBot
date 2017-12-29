@@ -87,7 +87,7 @@ def webhook():
                     if sender_id == "1497174250389598": #chatbot
                         return "irrelavant ID", 200
 
-                    if messaging_event.get("postback"):  # user clicked/tapped "postback" button in earlier message
+                    if select_status(sender_id) != None and messaging_event.get("postback"):  # user clicked/tapped "postback" button in earlier message
                         # sender_id = messaging_event["sender"]["id"]   
                         # # sender_name = messaging_event["sender"]["name"]     
                         # recipient_id = messaging_event["recipient"]["id"]  
@@ -102,8 +102,6 @@ def webhook():
                         #print(message_text)
                         print("#"*100)
 
-
-
                         if message_text == "get started":
                             send_ready_go(sender_id, "Hi! Welcome! I'm your personal tutor Mr.Q and I'm here to help you master science! Ready? Go!"+u'\uD83D\uDE0A')
                             
@@ -117,7 +115,7 @@ def webhook():
                             send_gotit_quickreply(sender_id, "Leaderboard: \n" + sentence) 
                         elif message_text[0:9] == "quiz mode":
                             #app.session[sender_id]["answering"] = False
-                            if select_status(sender_id):
+                            if show_status(sender_id):
                                 question, QID = tfidf.pickRandomQuestion()
                                 update_status(sender_id, 0)
                                 time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
@@ -180,7 +178,7 @@ def webhook():
                         sender_lastname = data['last_name']
                         sender_gender = data['gender']
 
-                        if not int(sender_id) in user_id_list():
+                        if not int(sender_id) in show_user_id_list():
 
                             print("first time user"+"="*50)
                             #app.session[sender_id] = {"QID": 0, "total_score": 0, "answering": False}
@@ -540,7 +538,7 @@ def update_status(user_id,status):
         finally:
             con.close()      
 
-def select_status(user_id):
+def show_status(user_id):
     con = sql.connect("QUIZBOT.db")
     con.row_factory = sql.Row
 
@@ -548,7 +546,7 @@ def select_status(user_id):
     cur.execute("select user_status from users where user_id = ?", (user_id,))
 
     rows = cur.fetchall();
-    return rows[0][0]   
+    return rows[0][0] if rows != None
 
 # insert user score
 def insert_score(user_id,qid,answer,score,time):
@@ -580,7 +578,7 @@ def insert_question(user_id,qid,time):
         finally:
             con.close()
 
-def user_id_list():
+def show_user_id_list():
     con = sql.connect("QUIZBOT.db")
     con.row_factory = sql.Row
 
