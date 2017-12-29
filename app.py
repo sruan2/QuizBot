@@ -87,7 +87,7 @@ def webhook():
                     if sender_id == "1497174250389598": #chatbot
                         return "irrelavant ID", 200
 
-                    if len(select_status(sender_id)) != 0 and messaging_event.get("postback"):  # user clicked/tapped "postback" button in earlier message
+                    if select_status(sender_id) != -1 and messaging_event.get("postback"):  # user clicked/tapped "postback" button in earlier message
                         # sender_id = messaging_event["sender"]["id"]   
                         # # sender_name = messaging_event["sender"]["name"]     
                         # recipient_id = messaging_event["recipient"]["id"]  
@@ -545,8 +545,11 @@ def show_status(user_id):
     cur = con.cursor()
     cur.execute("select user_status from users where user_id = ?", (user_id,))
 
-    rows = cur.fetchall();
-    return rows[0][0] if len(rows) != 0
+    rows = cur.fetchall()
+    if len(rows) != 0:
+        return rows[0][0] 
+    else:
+        return -1
 
 # insert user score
 def insert_score(user_id,qid,answer,score,time):
@@ -585,7 +588,7 @@ def show_user_id_list():
     cur = con.cursor()
     cur.execute("select user_id from users")
 
-    rows = cur.fetchall();
+    rows = cur.fetchall()
     return [x[0] for x in rows]   
 
 
