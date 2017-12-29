@@ -58,7 +58,6 @@ def get_user_profile(recipient_id):
     return data
 
 @app.route('/', methods=['POST'])
-flag = True
 def webhook():
 
     print("\nwebhook\n")
@@ -118,9 +117,9 @@ def webhook():
                             send_gotit_quickreply(sender_id, "Leaderboard: \n" + sentence) 
                         elif message_text[0:9] == "quiz mode":
                             #app.session[sender_id]["answering"] = False
-                            if flag:
+                            if select_status(sender_id):
                                 question, QID = tfidf.pickRandomQuestion()
-                                flag = False
+                                update_status(sender_id, 0)
                                 time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
                                 insert_question(sender_id,QID,time)
                             #app.session[sender_id] = {"QID": QID, "total_score": 0}
@@ -136,9 +135,9 @@ def webhook():
                         # look for next similar question based off the pre-trained model
                         elif message_text == "next question":
                             #sender_id]["answering"] = False
-                            if flag:
+                            if select_status(sender_id):
                                 question, QID = tfidf.pickNextSimilarQuestion(show_last_qid(sender_id))
-                                flag = False
+                                update_status(sender_id, 0)
                                 time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
                                 insert_question(sender_id,QID,time)
                             #app.session[sender_id] = {"QID": QID}
@@ -205,9 +204,9 @@ def webhook():
 
                             elif message_text == "Quiz Mode "+u'\u270F':
                                 #app.session[sender_id]["answering"] = False
-                                if flag:
+                                if select_status(sender_id):
                                     question, QID = tfidf.pickRandomQuestion()
-                                    flag = False
+                                    update_status(sender_id, 0)
                                     time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
                                     insert_question(sender_id,QID,time)
                                 #app.session[sender_id] = {"QID": QID, "total_score": 0}
@@ -218,9 +217,9 @@ def webhook():
                             elif message_text == "Next Question" or message_text == "Got it, next!" :
                                 #app.session[sender_id]["answering"] = False
 
-                                if flag:
+                                if select_status(sender_id):
                                     question, QID = tfidf.pickNextSimilarQuestion(show_last_qid(sender_id))
-                                    flag = False
+                                    update_status(sender_id, 0)
                                     time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
                                     insert_question(sender_id,QID,time)
                                     #app.session[sender_id] = {"QID": QID}
@@ -252,7 +251,7 @@ def webhook():
                                 insert_score(sender_id,QID,message_text,score,time)
                                 #update_db(sender_id, score)
                                 send_why_quickreply(sender_id, QID, standard_answer)    
-                                flag = True    
+                                update_status(sender_id, 1) 
 
 
     return "ok", 200
@@ -517,14 +516,39 @@ def insert_user(user_id,user_firstname,user_lastname,user_gender):
         try:
             with sql.connect("QUIZBOT.db") as con:
                 cur = con.cursor()            
-                cur.execute("INSERT INTO users (user_id,user_firstname,user_lastname,user_gender) VALUES (?,?,?,?)",(user_id,user_firstname,user_lastname,user_gender,))           
+                cur.execute("INSERT INTO users (user_id,user_firstname,user_lastname,user_gender,user_status) VALUES (?,?,?,?,?)",(user_id,user_firstname,user_lastname,user_gender,1))           
                 con.commit()
                 print ("User record successfully added")
         except:
             con.rollback()
-            print ("error in insert user reocrd operation")
+            print ("error in inserting user reocrd operation")
         finally:
             con.close()    
+
+# update user question-answer loop status
+def update_status(user_id,status):
+    if request.method == 'POST':
+        try:
+            with sql.connect("QUIZBOT.db") as con:
+                cur = con.cursor()            
+                cur.execute("update users set user_status = ? where user_id = ?",(status, user_id,))           
+                con.commit()
+                print ("update status successfully added")
+        except:
+            con.rollback()
+            print ("error in updating user status operation")
+        finally:
+            con.close()      
+
+def select_status(user_id):
+    con = sql.connect("QUIZBOT.db")
+    con.row_factory = sql.Row
+
+    cur = con.cursor()
+    cur.execute("select user_statusstatus from users where user_id = ?", (user_id,))
+
+    rows = cur.fetchall();
+    return rows[0][0]   
 
 # insert user score
 def insert_score(user_id,qid,answer,score,time):
@@ -537,7 +561,7 @@ def insert_score(user_id,qid,answer,score,time):
                 print ("Score record successfully added")
         except:
             con.rollback()
-            print ("error in insert score operation")
+            print ("error in inserting score operation")
         finally:
             con.close()
 
@@ -552,7 +576,7 @@ def insert_question(user_id,qid,time):
                 print ("Questions record successfully added")
         except:
             con.rollback()
-            print ("error in insert question operation")
+            print ("error in inserting question operation")
         finally:
             con.close()
 
