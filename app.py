@@ -217,6 +217,8 @@ def webhook():
 
                             elif message_text == "Next Question" or message_text == "Got it, next!" :
                                 #app.session[sender_id]["answering"] = False
+
+                                log("GOTTTTTTT it Next #######################################")
                                 if flag == True:
                                     question, QID = tfidf.pickNextSimilarQuestion(show_last_qid(sender_id))
                                     flag = False
