@@ -712,11 +712,11 @@ def setup_app(app):
     tfidf.appendQuestionKB('SciQdataset-23/question_file_2.txt')
     tfidf.appendSupportKB('SciQdataset-23/support_file_2.txt')
     tfidf.appendCorrectAnswerKB('SciQdataset-23/correct_answer_file_2.txt')
+    flag = True
     app.session = {}
     # create_table()
     greeting()
     print("\nafter greeting\n")
-    flag = True
     persistent_menu()
     
 
