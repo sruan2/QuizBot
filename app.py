@@ -251,15 +251,18 @@ def webhook():
                                 send_gotit_quickreply(sender_id, "Your accumulated score is "+str(show_score(sender_id)))
 
                             else: # user's respons in natural language    
-                                print("not first time"+"="*50)
-                                standard_answer, score = tfidf_ins.computeScore(message_text, QID)
-                                send_message(sender_id, "Your score this round is "+str(score))
-                                time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
-                                #total_score = show_score(sender_id) + score
-                                insert_score(sender_id,QID,message_text,score,time)
-                                #update_db(sender_id, score)
-                                send_why_quickreply(sender_id, QID, standard_answer)    
-                                update_status(sender_id, 1) 
+                                if !show_status(sender_id):
+                                    print("not first time"+"="*50)
+                                    standard_answer, score = tfidf_ins.computeScore(message_text, QID)
+                                    send_message(sender_id, "Your score this round is "+str(score))
+                                    time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
+                                    #total_score = show_score(sender_id) + score
+                                    insert_score(sender_id,QID,message_text,score,time)
+                                    #update_db(sender_id, score)
+                                    send_why_quickreply(sender_id, QID, standard_answer)    
+                                    update_status(sender_id, 1) 
+                                else:
+                                    send_subject_quick_reply(sender_id, "Now tell me which subject you would like to choose:"+u'\uD83D\uDC47')
 
 
     return "ok", 200
