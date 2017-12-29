@@ -79,6 +79,8 @@ class tfidfTransform():
         print("Here is the answer!\n")
         return self.AKB[int(index)-1]
 
+
+    # FIXME --- INCLUDE SUBJECT
     def pickRandomQuestion(self):
         print("=======================================================================================")
         QID = randint(0, self.KBlength)

@@ -23,3 +23,13 @@ create table questions(
 	qid INTEGER,
 	r_time TEXT
 );
+
+drop table if exists user_conversation;
+create table user_conversation(
+	user INTEGER primary key,
+	user_firstname TEXT,
+	user_lastname TEXT,
+	user_gender TEXT,
+	user_total_score INTEGER,
+	user_history TEXT
+)
