@@ -1,7 +1,7 @@
 import os
 import sys
 import json
-import visualize_sherry
+import tfidf
 import sqlite3 as sql
 from random import randint
 from time import gmtime, strftime
@@ -10,7 +10,7 @@ import requests
 from flask import Flask, request
 
 
-tfidf = visualize_sherry.tfidfTransform('model_pre_trained/model_d2v_v1')
+tfidf = tfidf.tfidfTransform('model_pre_trained/model_d2v_v1')
 
 
 #conn = sqlite3.connect('QUIZBOT.db')
@@ -120,6 +120,8 @@ def webhook():
                                 update_status(sender_id, 0)
                                 time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
                                 insert_question(sender_id,QID,time)
+                            else: 
+                                question = tfidf.pickLastQueston(QID)
                             #app.session[sender_id] = {"QID": QID, "total_score": 0}
                             #data_entry(sender_id, "Sherry Ruan", 0)
                             send_subject_quick_reply(sender_id, "Now tell me which subject you would like to choose:"+u'\uD83D\uDC47')
@@ -138,6 +140,8 @@ def webhook():
                                 update_status(sender_id, 0)
                                 time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
                                 insert_question(sender_id,QID,time)
+                            else: 
+                                question = tfidf.pickLastQueston(QID)
                             #app.session[sender_id] = {"QID": QID}
                             send_message(sender_id, "Question."+str(QID)+": "+question)
 
@@ -207,6 +211,8 @@ def webhook():
                                     update_status(sender_id, 0)
                                     time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
                                     insert_question(sender_id,QID,time)
+                                else: 
+                                    question = tfidf.pickLastQueston(QID)
                                 #app.session[sender_id] = {"QID": QID, "total_score": 0}
                                 send_message(sender_id, "Question."+str(QID)+": "+question)
 
@@ -221,6 +227,8 @@ def webhook():
                                     time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
                                     insert_question(sender_id,QID,time)
                                     #app.session[sender_id] = {"QID": QID}
+                                else: 
+                                    question = tfidf.pickLastQueston(QID)
                                 send_message(sender_id, "Next Question "+str(QID)+": "+question)
                                 print("\n-5- QID is: "+str(QID)+"\n") 
 
