@@ -185,7 +185,7 @@ def webhook():
                             print("first time user"+"="*50)
                             #app.session[sender_id] = {"QID": 0, "total_score": 0, "answering": False}
                             time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
-                            insert_user(sender_id,sender_firstname,sender_lastname,sender_gender)
+                            insert_user(sender_id,sender_firstname,sender_lastname,sender_gender,1)
                             insert_score(sender_id, -1,message_text,0,time)
                             send_mode_quick_reply(sender_id, "Now tell me which mode you would like to choose:"+u'\uD83D\uDC47') 
 
@@ -511,12 +511,12 @@ def log(message):  # simple wrapper for logging to stdout on heroku
 
 
 # insert user info
-def insert_user(user_id,user_firstname,user_lastname,user_gender):
+def insert_user(user_id,user_firstname,user_lastname,user_gender,user_status):
     if request.method == 'POST':
         try:
             with sql.connect("QUIZBOT.db") as con:
                 cur = con.cursor()            
-                cur.execute("INSERT INTO users (user_id,user_firstname,user_lastname,user_gender,user_status) VALUES (?,?,?,?,?)",(user_id,user_firstname,user_lastname,user_gender,1))           
+                cur.execute("INSERT INTO users (user_id,user_firstname,user_lastname,user_gender,user_status) VALUES (?,?,?,?,?)",(user_id,user_firstname,user_lastname,user_gender,user_status,))           
                 con.commit()
                 print ("User record successfully added")
         except:
