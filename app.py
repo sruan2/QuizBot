@@ -219,9 +219,11 @@ def webhook():
                                 #app.session[sender_id]["answering"] = False
 
                                 log("GOTTTTTTT it Next #######################################")
+                                log("FLAG: "+str(flag))
                                 if flag == True:
                                     question, QID = tfidf.pickNextSimilarQuestion(show_last_qid(sender_id))
                                     flag = False
+                                    log("FLAG2: "+str(flag))
                                     time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
                                     insert_question(sender_id,QID,time)
                                     #app.session[sender_id] = {"QID": QID}
