@@ -87,6 +87,8 @@ def webhook():
                     if sender_id == "1497174250389598": #chatbot
                         return "irrelavant ID", 200
 
+                    log (show_status(sender_id))
+                    log (messaging_event.get("postback"))
                     if show_status(sender_id) != -1 and messaging_event.get("postback"):  # user clicked/tapped "postback" button in earlier message
                         # sender_id = messaging_event["sender"]["id"]   
                         # # sender_name = messaging_event["sender"]["name"]     
@@ -283,37 +285,37 @@ def webhook():
                                 send_gotit_quickreply(sender_id, "Your accumulated score is "+str(show_score(sender_id)))
 
 
-                            elif message_text == "mathematic":
+                            elif message_text == "Mathematic":
                                 question, QID = tfidf_ins.pickRandomQuestion()    
                                 send_message(sender_id, "Question."+str(QID)+": "+question)
                                 time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
                                 insert_question(sender_id,QID,time)
 
-                            elif message_text == "physics":
+                            elif message_text == "Physics":
                                 question, QID = tfidf_ins.pickRandomQuestion()    
                                 send_message(sender_id, "Question."+str(QID)+": "+question)
                                 time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
                                 insert_question(sender_id,QID,time)
 
-                            elif message_text == "chemistry":
+                            elif message_text == "Chemistry":
                                 question, QID = tfidf_ins.pickRandomQuestion()    
                                 send_message(sender_id, "Question."+str(QID)+": "+question)
                                 time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
                                 insert_question(sender_id,QID,time)
 
-                            elif message_text == "biology":
+                            elif message_text == "Biology":
                                 question, QID = tfidf_ins.pickRandomQuestion()    
                                 send_message(sender_id, "Question."+str(QID)+": "+question)
                                 time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
                                 insert_question(sender_id,QID,time)
 
-                            elif message_text == "geography":
+                            elif message_text == "Geography":
                                 question, QID = tfidf_ins.pickRandomQuestion()    
                                 send_message(sender_id, "Question."+str(QID)+": "+question)
                                 time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
                                 insert_question(sender_id,QID,time)
 
-                            elif message_text == "hisotry":
+                            elif message_text == "Hisotry":
                                 question, QID = tfidf_ins.pickRandomQuestion()    
                                 send_message(sender_id, "Question."+str(QID)+": "+question)
                                 time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
