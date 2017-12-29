@@ -102,6 +102,8 @@ def webhook():
                         #print(message_text)
                         print("#"*100)
 
+
+                        log("^^^^^^^^^^^^^^^^^^^^^^^^^^"+message_text)
                         if message_text == "get started":
                             send_ready_go(sender_id, "Hi! Welcome! I'm your personal tutor Mr.Q and I'm here to help you master science! Ready? Go!"+u'\uD83D\uDE0A')
                             
@@ -126,8 +128,6 @@ def webhook():
                             #app.session[sender_id] = {"QID": QID, "total_score": 0}
                             #data_entry(sender_id, "Sherry Ruan", 0)
                             send_subject_quick_reply(sender_id, "Now tell me which subject you would like to choose:"+u'\uD83D\uDC47')
-
-                        log("^^^^^^^^^^^^^^^^^^^^^^^^^^"+message_text)
 
                         elif message_text == "mathematic":
                             question, QID = tfidf_ins.pickRandomQuestion()    
