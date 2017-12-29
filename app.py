@@ -11,7 +11,7 @@ from flask import Flask, request
 
 
 tfidf = visualize_sherry.tfidfTransform('model_pre_trained/model_d2v_v1')
-flag = True
+
 
 #conn = sqlite3.connect('QUIZBOT.db')
 #c = conn.cursor()
@@ -58,6 +58,7 @@ def get_user_profile(recipient_id):
     return data
 
 @app.route('/', methods=['POST'])
+flag = True
 def webhook():
 
     print("\nwebhook\n")
@@ -117,7 +118,7 @@ def webhook():
                             send_gotit_quickreply(sender_id, "Leaderboard: \n" + sentence) 
                         elif message_text[0:9] == "quiz mode":
                             #app.session[sender_id]["answering"] = False
-                            if flag == True:
+                            if flag:
                                 question, QID = tfidf.pickRandomQuestion()
                                 flag = False
                                 time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
@@ -135,7 +136,7 @@ def webhook():
                         # look for next similar question based off the pre-trained model
                         elif message_text == "next question":
                             #sender_id]["answering"] = False
-                            if flag == True:
+                            if flag:
                                 question, QID = tfidf.pickNextSimilarQuestion(show_last_qid(sender_id))
                                 flag = False
                                 time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
@@ -204,7 +205,7 @@ def webhook():
 
                             elif message_text == "Quiz Mode "+u'\u270F':
                                 #app.session[sender_id]["answering"] = False
-                                if flag == True:
+                                if flag:
                                     question, QID = tfidf.pickRandomQuestion()
                                     flag = False
                                     time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
@@ -217,12 +218,9 @@ def webhook():
                             elif message_text == "Next Question" or message_text == "Got it, next!" :
                                 #app.session[sender_id]["answering"] = False
 
-                                log("GOTTTTTTT it Next #######################################")
-                                log("FLAG: "+str(flag))
-                                if flag == True:
+                                if flag:
                                     question, QID = tfidf.pickNextSimilarQuestion(show_last_qid(sender_id))
                                     flag = False
-                                    log("FLAG2: "+str(flag))
                                     time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
                                     insert_question(sender_id,QID,time)
                                     #app.session[sender_id] = {"QID": QID}
