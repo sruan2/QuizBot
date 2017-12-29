@@ -87,7 +87,7 @@ def webhook():
                     if sender_id == "1497174250389598": #chatbot
                         return "irrelavant ID", 200
 
-                    if select_status(sender_id) != -1 and messaging_event.get("postback"):  # user clicked/tapped "postback" button in earlier message
+                    if show_status(sender_id) != -1 and messaging_event.get("postback"):  # user clicked/tapped "postback" button in earlier message
                         # sender_id = messaging_event["sender"]["id"]   
                         # # sender_name = messaging_event["sender"]["name"]     
                         # recipient_id = messaging_event["recipient"]["id"]  
@@ -133,7 +133,7 @@ def webhook():
                         # look for next similar question based off the pre-trained model
                         elif message_text == "next question":
                             #sender_id]["answering"] = False
-                            if select_status(sender_id):
+                            if show_status(sender_id):
                                 question, QID = tfidf.pickNextSimilarQuestion(show_last_qid(sender_id))
                                 update_status(sender_id, 0)
                                 time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
@@ -202,7 +202,7 @@ def webhook():
 
                             elif message_text == "Quiz Mode "+u'\u270F':
                                 #app.session[sender_id]["answering"] = False
-                                if select_status(sender_id):
+                                if show_status(sender_id):
                                     question, QID = tfidf.pickRandomQuestion()
                                     update_status(sender_id, 0)
                                     time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
@@ -215,7 +215,7 @@ def webhook():
                             elif message_text == "Next Question" or message_text == "Got it, next!" :
                                 #app.session[sender_id]["answering"] = False
 
-                                if select_status(sender_id):
+                                if show_status(sender_id):
                                     question, QID = tfidf.pickNextSimilarQuestion(show_last_qid(sender_id))
                                     update_status(sender_id, 0)
                                     time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
