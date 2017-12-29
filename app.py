@@ -121,7 +121,7 @@ def webhook():
                                 time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
                                 insert_question(sender_id,QID,time)
                             else: 
-                                question = tfidf_ins.pickLastQueston(QID)
+                                question = tfidf_ins.pickLastQuestion(QID)
                             #app.session[sender_id] = {"QID": QID, "total_score": 0}
                             #data_entry(sender_id, "Sherry Ruan", 0)
                             send_subject_quick_reply(sender_id, "Now tell me which subject you would like to choose:"+u'\uD83D\uDC47')
