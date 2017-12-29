@@ -369,22 +369,22 @@ def send_subject_quick_reply(recipient_id, main_text):
                     "content_type": "text",
                     "title": "Physics",
                     "payload": "none"
-                }
+                },
                 {
                     "content_type": "text",
                     "title": "Chemistry",
                     "payload": "none"
-                }
+                },
                 {
                     "content_type": "text",
                     "title": "Biology",
                     "payload": "none"
-                }
+                },
                 {
                     "content_type": "text",
                     "title": "Geography",
                     "payload": "none"
-                }
+                },
                 {
                     "content_type": "text",
                     "title": "Hisotry",
