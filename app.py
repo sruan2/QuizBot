@@ -129,40 +129,76 @@ def webhook():
                             send_subject_quick_reply(sender_id, "Now tell me which subject you would like to choose:"+u'\uD83D\uDC47')
 
                         elif message_text == "mathematic":
-                            question, QID = tfidf_ins.pickRandomQuestion()    
+                            if show_status(sender_id):
+                                question, QID = tfidf_ins.pickNextSimilarQuestion(show_last_qid(sender_id))
+                                update_status(sender_id, 0)
+                                time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
+                                insert_question(sender_id,QID,time)
+                            else: 
+                                QID = show_last_qid(sender_id)
+                                question = tfidf_ins.pickLastQuestion(QID)
+                            #app.session[sender_id] = {"QID": QID}
                             send_message(sender_id, "Question."+str(QID)+": "+question)
-                            time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
-                            insert_question(sender_id,QID,time)
 
                         elif message_text == "physics":
-                            question, QID = tfidf_ins.pickRandomQuestion()    
+                            if show_status(sender_id):
+                                question, QID = tfidf_ins.pickNextSimilarQuestion(show_last_qid(sender_id))
+                                update_status(sender_id, 0)
+                                time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
+                                insert_question(sender_id,QID,time)
+                            else: 
+                                QID = show_last_qid(sender_id)
+                                question = tfidf_ins.pickLastQuestion(QID)
+                            #app.session[sender_id] = {"QID": QID}
                             send_message(sender_id, "Question."+str(QID)+": "+question)
-                            time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
-                            insert_question(sender_id,QID,time)
 
                         elif message_text == "chemistry":
-                            question, QID = tfidf_ins.pickRandomQuestion()    
+                            if show_status(sender_id):
+                                question, QID = tfidf_ins.pickNextSimilarQuestion(show_last_qid(sender_id))
+                                update_status(sender_id, 0)
+                                time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
+                                insert_question(sender_id,QID,time)
+                            else: 
+                                QID = show_last_qid(sender_id)
+                                question = tfidf_ins.pickLastQuestion(QID)
+                            #app.session[sender_id] = {"QID": QID}
                             send_message(sender_id, "Question."+str(QID)+": "+question)
-                            time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
-                            insert_question(sender_id,QID,time)
 
                         elif message_text == "biology":
-                            question, QID = tfidf_ins.pickRandomQuestion()    
+                            if show_status(sender_id):
+                                question, QID = tfidf_ins.pickNextSimilarQuestion(show_last_qid(sender_id))
+                                update_status(sender_id, 0)
+                                time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
+                                insert_question(sender_id,QID,time)
+                            else: 
+                                QID = show_last_qid(sender_id)
+                                question = tfidf_ins.pickLastQuestion(QID)
+                            #app.session[sender_id] = {"QID": QID}
                             send_message(sender_id, "Question."+str(QID)+": "+question)
-                            time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
-                            insert_question(sender_id,QID,time)
 
                         elif message_text == "geography":
-                            question, QID = tfidf_ins.pickRandomQuestion()    
+                            if show_status(sender_id):
+                                question, QID = tfidf_ins.pickNextSimilarQuestion(show_last_qid(sender_id))
+                                update_status(sender_id, 0)
+                                time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
+                                insert_question(sender_id,QID,time)
+                            else: 
+                                QID = show_last_qid(sender_id)
+                                question = tfidf_ins.pickLastQuestion(QID)
+                            #app.session[sender_id] = {"QID": QID}
                             send_message(sender_id, "Question."+str(QID)+": "+question)
-                            time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
-                            insert_question(sender_id,QID,time)
 
                         elif message_text == "hisotry":
-                            question, QID = tfidf_ins.pickRandomQuestion()    
+                            if show_status(sender_id):
+                                question, QID = tfidf_ins.pickNextSimilarQuestion(show_last_qid(sender_id))
+                                update_status(sender_id, 0)
+                                time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
+                                insert_question(sender_id,QID,time)
+                            else: 
+                                QID = show_last_qid(sender_id)
+                                question = tfidf_ins.pickLastQuestion(QID)
+                            #app.session[sender_id] = {"QID": QID}
                             send_message(sender_id, "Question."+str(QID)+": "+question)
-                            time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
-                            insert_question(sender_id,QID,time)
 
                         # look for next similar question based off the pre-trained model
                         elif message_text == "next question":
@@ -283,40 +319,76 @@ def webhook():
 
 
                             elif message_text == "Mathematic":
-                                question, QID = tfidf_ins.pickRandomQuestion()    
+                                if show_status(sender_id):
+                                    question, QID = tfidf_ins.pickNextSimilarQuestion(show_last_qid(sender_id))
+                                    update_status(sender_id, 0)
+                                    time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
+                                    insert_question(sender_id,QID,time)
+                                else: 
+                                    QID = show_last_qid(sender_id)
+                                    question = tfidf_ins.pickLastQuestion(QID)
+                                #app.session[sender_id] = {"QID": QID}
                                 send_message(sender_id, "Question."+str(QID)+": "+question)
-                                time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
-                                insert_question(sender_id,QID,time)
 
                             elif message_text == "Physics":
-                                question, QID = tfidf_ins.pickRandomQuestion()    
+                                if show_status(sender_id):
+                                    question, QID = tfidf_ins.pickNextSimilarQuestion(show_last_qid(sender_id))
+                                    update_status(sender_id, 0)
+                                    time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
+                                    insert_question(sender_id,QID,time)
+                                else: 
+                                    QID = show_last_qid(sender_id)
+                                    question = tfidf_ins.pickLastQuestion(QID)
+                                #app.session[sender_id] = {"QID": QID}
                                 send_message(sender_id, "Question."+str(QID)+": "+question)
-                                time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
-                                insert_question(sender_id,QID,time)
 
                             elif message_text == "Chemistry":
-                                question, QID = tfidf_ins.pickRandomQuestion()    
+                                if show_status(sender_id):
+                                    question, QID = tfidf_ins.pickNextSimilarQuestion(show_last_qid(sender_id))
+                                    update_status(sender_id, 0)
+                                    time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
+                                    insert_question(sender_id,QID,time)
+                                else: 
+                                    QID = show_last_qid(sender_id)
+                                    question = tfidf_ins.pickLastQuestion(QID)
+                                #app.session[sender_id] = {"QID": QID}
                                 send_message(sender_id, "Question."+str(QID)+": "+question)
-                                time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
-                                insert_question(sender_id,QID,time)
 
                             elif message_text == "Biology":
-                                question, QID = tfidf_ins.pickRandomQuestion()    
+                                if show_status(sender_id):
+                                    question, QID = tfidf_ins.pickNextSimilarQuestion(show_last_qid(sender_id))
+                                    update_status(sender_id, 0)
+                                    time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
+                                    insert_question(sender_id,QID,time)
+                                else: 
+                                    QID = show_last_qid(sender_id)
+                                    question = tfidf_ins.pickLastQuestion(QID)
+                                #app.session[sender_id] = {"QID": QID}
                                 send_message(sender_id, "Question."+str(QID)+": "+question)
-                                time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
-                                insert_question(sender_id,QID,time)
 
                             elif message_text == "Geography":
-                                question, QID = tfidf_ins.pickRandomQuestion()    
+                                if show_status(sender_id):
+                                    question, QID = tfidf_ins.pickNextSimilarQuestion(show_last_qid(sender_id))
+                                    update_status(sender_id, 0)
+                                    time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
+                                    insert_question(sender_id,QID,time)
+                                else: 
+                                    QID = show_last_qid(sender_id)
+                                    question = tfidf_ins.pickLastQuestion(QID)
+                                #app.session[sender_id] = {"QID": QID}
                                 send_message(sender_id, "Question."+str(QID)+": "+question)
-                                time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
-                                insert_question(sender_id,QID,time)
 
                             elif message_text == "Hisotry":
-                                question, QID = tfidf_ins.pickRandomQuestion()    
+                                if show_status(sender_id):
+                                    question, QID = tfidf_ins.pickNextSimilarQuestion(show_last_qid(sender_id))
+                                    update_status(sender_id, 0)
+                                    time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
+                                    insert_question(sender_id,QID,time)
+                                else: 
+                                    QID = show_last_qid(sender_id)
+                                    question = tfidf_ins.pickLastQuestion(QID)
+                                #app.session[sender_id] = {"QID": QID}
                                 send_message(sender_id, "Question."+str(QID)+": "+question)
-                                time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
-                                insert_question(sender_id,QID,time)
 
                             else: # user's respons in natural language    
                                 if not show_status(sender_id):
