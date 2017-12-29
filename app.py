@@ -64,6 +64,8 @@ def webhook():
     # endpoint for processing incoming messaging events
 
     data = request.get_json()
+
+    flag = True
     
     if data["object"] == "page":
         for entry in data["entry"]:
@@ -116,9 +118,17 @@ def webhook():
                             send_gotit_quickreply(sender_id, "Leaderboard: \n" + sentence) 
                         elif message_text[0:9] == "quiz mode":
                             #app.session[sender_id]["answering"] = False
-                            question, QID = tfidf.pickRandomQuestion()
+                            if flag:
+                                question, QID = tfidf.pickRandomQuestion()
+                                flag = False
+                                time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
+                                insert_question(sender_id,QID,time)
                             #app.session[sender_id] = {"QID": QID, "total_score": 0}
                             #data_entry(sender_id, "Sherry Ruan", 0)
+                            send_subject_quick_reply(sender_id, "Now tell me which subject you would like to choose:"+u'\uD83D\uDC47')
+
+                        elif message_text == "Mathematic":
+                            question, QID = tfidf.pickRandomQuestion()    
                             send_message(sender_id, "Question."+str(QID)+": "+question)
                             time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
                             insert_question(sender_id,QID,time)
@@ -126,11 +136,14 @@ def webhook():
                         # look for next similar question based off the pre-trained model
                         elif message_text == "next question":
                             #sender_id]["answering"] = False
-                            question, QID = tfidf.pickNextSimilarQuestion(show_last_qid(sender_id))
+                            if flag:
+                                question, QID = tfidf.pickNextSimilarQuestion(show_last_qid(sender_id))
+                                flag = False
+                                time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
+                                insert_question(sender_id,QID,time)
                             #app.session[sender_id] = {"QID": QID}
                             send_message(sender_id, "Question."+str(QID)+": "+question)
-                            time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
-                            insert_question(sender_id,QID,time)
+
                        
                         # switch subject means randomly pick another one
                         elif message_text == "switch subject":
@@ -170,9 +183,6 @@ def webhook():
 
                         if not int(sender_id) in user_id_list():
 
-                            print (user_id_list())
-                            print (sender_id)
-
                             print("first time user"+"="*50)
                             #app.session[sender_id] = {"QID": 0, "total_score": 0, "answering": False}
                             time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
@@ -188,26 +198,31 @@ def webhook():
                                 #app.session[sender_id]["answering"] = False
                                 question, QID = tfidf.pickRandomQuestion()
                                 #app.session[sender_id]["QID"] = QID
-                                send_message(sender_id, "Here's a question from different subject: "+question)
+                                send_message(sender_id, "Here's a question from different subject: "+str(QID+". ")+question)
                                 time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
                                 insert_question(sender_id,QID,time)
                                 print("\n-3- QID is: "+str(QID)+"\n")
 
                             elif message_text == "Quiz Mode "+u'\u270F':
                                 #app.session[sender_id]["answering"] = False
-                                question, QID = tfidf.pickRandomQuestion()
+                                if flag:
+                                    question, QID = tfidf.pickRandomQuestion()
+                                    flag = False
+                                    time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
+                                    insert_question(sender_id,QID,time)
                                 #app.session[sender_id] = {"QID": QID, "total_score": 0}
                                 send_message(sender_id, "Question."+str(QID)+": "+question)
-                                time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
-                                insert_question(sender_id,QID,time)
+
                                 print("\n-4- QID is: "+str(QID)+"\n")                                 
 
                             elif message_text == "Next Question" or message_text == "Got it, next!" :
                                 #app.session[sender_id]["answering"] = False
-                                question, QID = tfidf.pickNextSimilarQuestion(show_last_qid(sender_id))
-                                time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
-                                insert_question(sender_id,QID,time)
-                                #app.session[sender_id] = {"QID": QID}
+                                if flag:
+                                    question, QID = tfidf.pickNextSimilarQuestion(show_last_qid(sender_id))
+                                    flag = False
+                                    time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
+                                    insert_question(sender_id,QID,time)
+                                    #app.session[sender_id] = {"QID": QID}
                                 send_message(sender_id, "Next Question "+str(QID)+": "+question)
                                 print("\n-5- QID is: "+str(QID)+"\n") 
 
@@ -235,7 +250,8 @@ def webhook():
                                 #total_score = show_score(sender_id) + score
                                 insert_score(sender_id,QID,message_text,score,time)
                                 #update_db(sender_id, score)
-                                send_why_quickreply(sender_id, QID, standard_answer)        
+                                send_why_quickreply(sender_id, QID, standard_answer)    
+                                flag = True    
 
 
     return "ok", 200
@@ -327,6 +343,60 @@ def send_mode_quick_reply(recipient_id, main_text):
         log(r.status_code)
         log(r.text)        
 
+
+# new added subject selection
+def send_subject_quick_reply(recipient_id, main_text):
+
+    params = {
+        "access_token": os.environ["PAGE_ACCESS_TOKEN"]
+    }
+    headers = {
+        "Content-Type": "application/json"
+    }
+    data = json.dumps({
+        "recipient": {
+            "id": recipient_id
+        },
+        "message": {
+            "text": main_text,
+            "quick_replies": [
+                {
+                    "content_type": "text",
+                    "title": "Mathematic",
+                    "payload": "none"
+                },
+                {
+                    "content_type": "text",
+                    "title": "Physics",
+                    "payload": "none"
+                }
+                {
+                    "content_type": "text",
+                    "title": "Chemistry",
+                    "payload": "none"
+                }
+                {
+                    "content_type": "text",
+                    "title": "Biology",
+                    "payload": "none"
+                }
+                {
+                    "content_type": "text",
+                    "title": "Geography",
+                    "payload": "none"
+                }
+                {
+                    "content_type": "text",
+                    "title": "Hisotry",
+                    "payload": "none"
+                }
+            ]
+        }
+    })
+    r = requests.post("https://graph.facebook.com/v2.6/me/messages", params=params, headers=headers, data=data)
+    if r.status_code != 200:
+        log(r.status_code)
+        log(r.text)  
 
 def send_why_quickreply(recipient_id, QID, standard_answer):
 
