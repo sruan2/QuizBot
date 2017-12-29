@@ -545,7 +545,7 @@ def select_status(user_id):
     con.row_factory = sql.Row
 
     cur = con.cursor()
-    cur.execute("select user_statusstatus from users where user_id = ?", (user_id,))
+    cur.execute("select user_status from users where user_id = ?", (user_id,))
 
     rows = cur.fetchall();
     return rows[0][0]   
