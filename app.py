@@ -87,8 +87,6 @@ def webhook():
                     if sender_id == "1497174250389598": #chatbot
                         return "irrelavant ID", 200
 
-                    log (show_status(sender_id))
-                    log (messaging_event.get("postback"))
                     if show_status(sender_id) != -1 and messaging_event.get("postback"):  # user clicked/tapped "postback" button in earlier message
                         # sender_id = messaging_event["sender"]["id"]   
                         # # sender_name = messaging_event["sender"]["name"]     
@@ -105,7 +103,6 @@ def webhook():
                         print("#"*100)
 
 
-                        log("^^^^^^^^^^^^^^^^^^^^^^^^^^"+message_text[0:9])
                         if message_text == "get started":
                             send_ready_go(sender_id, "Hi! Welcome! I'm your personal tutor Mr.Q and I'm here to help you master science! Ready? Go!"+u'\uD83D\uDE0A')
                             
@@ -446,32 +443,32 @@ def send_subject_quick_reply(recipient_id, main_text):
                 {
                     "content_type": "text",
                     "title": "Mathematic",
-                    "payload": "none"
+                    "payload": "Mathematic"
                 },
                 {
                     "content_type": "text",
                     "title": "Physics",
-                    "payload": "none"
+                    "payload": "Physics"
                 },
                 {
                     "content_type": "text",
                     "title": "Chemistry",
-                    "payload": "none"
+                    "payload": "Chemistry"
                 },
                 {
                     "content_type": "text",
                     "title": "Biology",
-                    "payload": "none"
+                    "payload": "Biology"
                 },
                 {
                     "content_type": "text",
                     "title": "Geography",
-                    "payload": "none"
+                    "payload": "Geography"
                 },
                 {
                     "content_type": "text",
                     "title": "Hisotry",
-                    "payload": "none"
+                    "payload": "Hisotry"
                 }
             ]
         }
