@@ -251,7 +251,7 @@ def webhook():
                                 send_gotit_quickreply(sender_id, "Your accumulated score is "+str(show_score(sender_id)))
 
                             else: # user's respons in natural language    
-                                if !show_status(sender_id):
+                                if not show_status(sender_id):
                                     print("not first time"+"="*50)
                                     standard_answer, score = tfidf_ins.computeScore(message_text, QID)
                                     send_message(sender_id, "Your score this round is "+str(score))
