@@ -331,6 +331,7 @@ def webhook():
                                     send_why_quickreply(sender_id, QID, standard_answer)    
                                     update_status(sender_id, 1) 
                                 else:
+                                    update_status(sender_id, 1)
                                     send_subject_quick_reply(sender_id, "Now tell me which subject you would like to choose:"+u'\uD83D\uDC47')
 
 
