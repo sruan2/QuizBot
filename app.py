@@ -11,6 +11,7 @@ from flask import Flask, request
 
 
 tfidf = visualize_sherry.tfidfTransform('model_pre_trained/model_d2v_v1')
+flag = True
 
 #conn = sqlite3.connect('QUIZBOT.db')
 #c = conn.cursor()
@@ -712,7 +713,6 @@ def setup_app(app):
     tfidf.appendQuestionKB('SciQdataset-23/question_file_2.txt')
     tfidf.appendSupportKB('SciQdataset-23/support_file_2.txt')
     tfidf.appendCorrectAnswerKB('SciQdataset-23/correct_answer_file_2.txt')
-    flag = True
     app.session = {}
     # create_table()
     greeting()
