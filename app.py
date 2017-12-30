@@ -188,7 +188,7 @@ def webhook():
                             #app.session[sender_id] = {"QID": QID}
                             send_message(sender_id, "Question."+str(QID)+": "+question)
 
-                        elif message_text == "hisotry":
+                        elif message_text == "history":
                             if show_status(sender_id):
                                 question, QID = tfidf_ins.pickNextSimilarQuestion(show_last_qid(sender_id))
                                 update_status(sender_id, 0)
@@ -378,7 +378,7 @@ def webhook():
                                 #app.session[sender_id] = {"QID": QID}
                                 send_message(sender_id, "Question."+str(QID)+": "+question)
 
-                            elif message_text == "Hisotry":
+                            elif message_text == "History":
                                 if show_status(sender_id):
                                     question, QID = tfidf_ins.pickNextSimilarQuestion(show_last_qid(sender_id))
                                     update_status(sender_id, 0)
@@ -539,8 +539,8 @@ def send_subject_quick_reply(recipient_id, main_text):
                 },
                 {
                     "content_type": "text",
-                    "title": "Hisotry",
-                    "payload": "Hisotry"
+                    "title": "History",
+                    "payload": "History"
                 }
             ]
         }
