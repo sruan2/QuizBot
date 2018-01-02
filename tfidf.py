@@ -54,6 +54,9 @@ class tfidfTransform():
             # break                 
         return picked_question, NextQID
     
+    def getAnswer(self, QID):
+        return self.QA_KB.AKB[QID].rstrip()
+
     # def computeScore(self, user_answer, QID):
     #     user_answer = user_answer.lower()
     #     picked_answer = self.AKB[QID].rstrip()
