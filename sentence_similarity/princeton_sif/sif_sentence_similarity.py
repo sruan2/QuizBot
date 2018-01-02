@@ -7,7 +7,7 @@ import numpy as np
 
 # input
 #wordfile = '../data/glove.840B.300d.txt' # word vector file, can be downloaded from GloVe website
-wordfile = '/Users/sherryruan/data/glove/glove.6B/glove.6B.300d.txt' # sherry: use glove.6B instead
+wordfile = './glove_data/glove.6B.300d.txt' # sherry: use glove.6B instead
 weightfile = './auxiliary_data/enwiki_vocab_min200.txt' # each line is a word and its frequency
 weightpara = 1e-3 # the parameter in the SIF weighting scheme, usually in the range [3e-5, 3e-3]
 rmpc = 1 # number of principal components to remove in SIF weighting scheme
