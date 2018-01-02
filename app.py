@@ -2,9 +2,13 @@ import os
 import sys
 import json
 import tfidf
+import qa_knowledgebase
 import sqlite3 as sql
 from random import randint
 from time import gmtime, strftime
+from sentence_similarity.princeton_sif import sif_sentence_similarity
+
+
 
 import requests
 from flask import Flask, request
@@ -394,6 +398,7 @@ def webhook():
                                 if not show_status(sender_id):
                                     print("not first time"+"="*50)
                                     standard_answer, score = tfidf_ins.computeScore(message_text, QID)
+                                    score = sif_sentence_similarity.answer_similarity(message_text, standard_answer)
                                     send_message(sender_id, "Your score this round is "+str(score))
                                     time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
                                     #total_score = show_score(sender_id) + score
@@ -887,10 +892,16 @@ def greeting():
 ############ SET UP ############
 def setup_app(app):
     print("\nstart\n")
-    tfidf_ins.appendQuestionKB('SciQdataset-23/question_file_2.txt')
-    tfidf_ins.appendSupportKB('SciQdataset-23/support_file_2.txt')
-    tfidf_ins.appendCorrectAnswerKB('SciQdataset-23/correct_answer_file_2.txt')
-    app.session = {}
+    # tfidf_ins.appendQuestionKB('SciQdataset-23/question_file_2.txt')
+    # tfidf_ins.appendSupportKB('SciQdataset-23/support_file_2.txt')
+    # tfidf_ins.appendCorrectAnswerKB('SciQdataset-23/correct_answer_file_2.txt')
+    model = 'model_pre_trained/model_d2v_v1'
+    question_file = 'SciQdataset-23/question_file_2.txt'
+    support_file = 'SciQdataset-23/support_file_2.txt'
+    answer_file = 'SciQdataset-23/correct_answer_file_2.txt'
+    qa_kb = qa_knowledgebase(model, question_file, support_file, answer_file)
+    tfidf_ins = tfidf.tfidfTransform(qa_kb)
+    #app.session = {}
     # create_table()
     greeting()
     print("\nafter greeting\n")
