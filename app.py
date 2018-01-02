@@ -3,7 +3,7 @@ import sys
 import json
 import tfidf
 import sys
-sys.path.append('/sentence_similarity/princeton_sif')
+sys.path.append('./sentence_similarity/princeton_sif/')
 import qa_knowledgebase
 import sqlite3 as sql
 from random import randint
