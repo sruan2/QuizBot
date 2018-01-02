@@ -2,19 +2,19 @@ import os
 import sys
 import json
 import tfidf
+import sys
+sys.path.append('/sentence_similarity/princeton_sif')
 import qa_knowledgebase
 import sqlite3 as sql
 from random import randint
 from time import gmtime, strftime
-from sentence_similarity.princeton_sif import sif_sentence_similarity
-
-
+import sif_sentence_similarity
 
 import requests
 from flask import Flask, request
 
 
-tfidf_ins = tfidf.tfidfTransform('model_pre_trained/model_d2v_v1')
+#tfidf_ins = tfidf.tfidfTransform('model_pre_trained/model_d2v_v1')
 
 
 #conn = sqlite3.connect('QUIZBOT.db')
@@ -397,8 +397,9 @@ def webhook():
                             else: # user's respons in natural language    
                                 if not show_status(sender_id):
                                     print("not first time"+"="*50)
-                                    standard_answer, score = tfidf_ins.computeScore(message_text, QID)
-                                    score = sif_sentence_similarity.answer_similarity(message_text, standard_answer)
+                                    #standard_answer, score = tfidf_ins.computeScore(message_text, QID)
+                                    standard_answer = tfidf_ins.getAnswer(QID)
+                                    score = sif_sentence_similarity.answer_similarity(standard_answer, message_text)
                                     send_message(sender_id, "Your score this round is "+str(score))
                                     time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
                                     #total_score = show_score(sender_id) + score
