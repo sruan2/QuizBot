@@ -397,9 +397,9 @@ def webhook():
                             else: # user's respons in natural language    
                                 if not show_status(sender_id):
                                     print("not first time"+"="*50)
-                                    #standard_answer, score = tfidf_ins.computeScore(message_text, QID)
-                                    standard_answer = tfidf_ins.getAnswer(QID)
-                                    score = sif_sentence_similarity.answer_similarity(standard_answer, message_text)
+                                    standard_answer, score = tfidf_ins.computeScore(message_text, QID)
+                                    #standard_answer = tfidf_ins.getAnswer(QID)
+                                    #score = sif_sentence_similarity.answer_similarity(standard_answer, message_text)
                                     send_message(sender_id, "Your score this round is "+str(score))
                                     time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
                                     #total_score = show_score(sender_id) + score
