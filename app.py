@@ -900,8 +900,11 @@ def setup_app(app):
     question_file = 'SciQdataset-23/question_file_2.txt'
     support_file = 'SciQdataset-23/support_file_2.txt'
     answer_file = 'SciQdataset-23/correct_answer_file_2.txt'
-    qa_kb = qa_knowledgebase(model, question_file, support_file, answer_file)
-    tfidf_ins = tfidf.tfidfTransform(qa_kb)
+
+    qa_kb = qa_knowledgebase(question_file, support_file, answer_file)
+    qa_md = qa_model(model)
+
+    tfidf_ins = tfidf.tfidfTransform(qa_kb, qa_md)
     #app.session = {}
     # create_table()
     greeting()

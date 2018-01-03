@@ -8,11 +8,11 @@ from sklearn.metrics.pairwise import linear_kernel
 from random import randint
 from gensim.models import Doc2Vec
 import os
-
+import qa_model
 
 class tfidfTransform():
     # initialize the object with the offline-trained model file as an input
-    def __init__(self, qa_kb):
+    def __init__(self, qa_kb, qa_md):
         # self.KB = reader.makeKB('Data/Aristo-Mini-Corpus-Dec2016/Aristo-Mini-Corpus-In-Parts/CurrentWebCorpus-allSources-v1.txt')
         print("\n" + str(os.getpid())+" tfidf initialization begins\n")
         # self.QKB = [] # question
@@ -23,6 +23,7 @@ class tfidfTransform():
         # self.MODEL = Doc2Vec.load(PreTrainedModel) # load the model in the very beginning
         self.QID = 0
         self.QA_KB = qa_kb
+        self.QA_MD = qa_md
         print("\ntfidf initialization ends\n")
     
     # FIXME --- INCLUDE SUBJECT
@@ -47,7 +48,7 @@ class tfidfTransform():
         # while True:
         # among the 1000 most similar questions, pick one
         num = randint(0, 1000)
-        NextQID = self.QA_KB.MODEL.docvecs.most_similar(QID, topn = 1000)[num][0] # among top 1000 questions, pick one and then return question id
+        NextQID = self.QA_MD.MODEL.docvecs.most_similar(QID, topn = 1000)[num][0] # among top 1000 questions, pick one and then return question id
             # if NextQID not in self.ASKED:
         picked_question = self.QA_KB.QKB[NextQID].rstrip() # find the question based on the question id
                 # self.ASKED.append(NextQID)
