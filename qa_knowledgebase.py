@@ -1,16 +1,15 @@
 
-from gensim.models import Doc2Vec
 
 class qaTransform():
 
-    def __init__(self, PreTrainedModel, QuestionFile, SupportFile, CorrectAnswerFile):
+    def __init__(self, QuestionFile, SupportFile, CorrectAnswerFile):
         # self.KB = reader.makeKB('Data/Aristo-Mini-Corpus-Dec2016/Aristo-Mini-Corpus-In-Parts/CurrentWebCorpus-allSources-v1.txt')
         print("\n" + str(os.getpid())+" tfidf initialization begins\n")
         self.QKB = [] # question
         self.SKB = [] # support
         self.AKB = [] # answer
         self.KBlength = 0
-        self.MODEL = Doc2Vec.load(PreTrainedModel) # load the model in the very beginning
+        #self.MODEL = Doc2Vec.load(PreTrainedModel) # load the model in the very beginning
         appendQuestionKB(QuestionFile)
         appendSupportKB(SupportFile)
         appendCorrectAnswerKB(CorrectAnswerFile)
