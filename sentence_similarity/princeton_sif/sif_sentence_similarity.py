@@ -1,10 +1,11 @@
+from __future__ import division
 # code adpated from https://github.com/PrincetonML/SIF: examples/sif_embedding
 
 import sys
 sys.path.append('../src')
 import data_io, params, SIF_embedding
 import numpy as np
-from __future__ import division
+
 
 # input
 #wordfile = '../data/glove.840B.300d.txt' # word vector file, can be downloaded from GloVe website
@@ -47,7 +48,7 @@ def sentences2embeddings(sentences):
 
 # Compute Coisine Similarity of first two sentences
 def semantic_similarity(vec_1, vec_2):
-    return int((np.dot(vec_1, vec_2.T) / (np.linalg.norm(vec_1) * np.linalg.norm(vec_2)))[0,0]*10) # shape is (0,0)
+    return int(((np.dot(vec_1, vec_2.T) / (np.linalg.norm(vec_1) * np.linalg.norm(vec_2)))[0,0]+1)*5) # shape is (0,0)
 
 # answer similarity API for Quizbot
 def answer_similarity(s1, s2):
