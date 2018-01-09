@@ -2,14 +2,13 @@ import os
 import sys
 import json
 import tfidf
-import sys
-sys.path.append('./sentence_similarity/princeton_sif/')
+
 import QAKnowledgebase
 import QAModel
 import sqlite3 as sql
 from random import randint
 from time import gmtime, strftime
-import sif_sentence_similarity
+from sentence_similarity.princeton_sif import sif_sentence_similarity
 
 import requests
 from flask import Flask, request
@@ -897,15 +896,15 @@ def setup_app(app):
     # tfidf_ins.appendQuestionKB('SciQdataset-23/question_file_2.txt')
     # tfidf_ins.appendSupportKB('SciQdataset-23/support_file_2.txt')
     # tfidf_ins.appendCorrectAnswerKB('SciQdataset-23/correct_answer_file_2.txt')
-    doc2vec = 'model_pre_trained/model_d2v_v1'
-    question_file = 'SciQdataset-23/question_file_2.txt'
-    support_file = 'SciQdataset-23/support_file_2.txt'
-    answer_file = 'SciQdataset-23/correct_answer_file_2.txt'
+    # doc2vec = 'model_pre_trained/model_d2v_v1'
+    # question_file = 'SciQdataset-23/question_file_2.txt'
+    # support_file = 'SciQdataset-23/support_file_2.txt'
+    # answer_file = 'SciQdataset-23/correct_answer_file_2.txt'
 
-    qa_kb = QAKnowledgebase.QATransform(question_file, support_file, answer_file)
-    qa_md = QAModel.QAModel(qa_kb)
-    qa_doc2vec = QAModel.Doc2VecModel(qa_kb, doc2vec)
-    qa_sif = QAModel.SIFModel(qa_kb)
+    # qa_kb = QAKnowledgebase.QATransform(question_file, support_file, answer_file)
+    # qa_md = QAModel.QAModel(qa_kb)
+    # qa_doc2vec = QAModel.Doc2VecModel(qa_kb, doc2vec)
+    # qa_sif = QAModel.SIFModel(qa_kb)
 
     #tfidf_ins = tfidf.tfidfTransform(qa_kb, qa_md)
     #app.session = {}
@@ -918,6 +917,15 @@ def setup_app(app):
 setup_app(app)
 
 if __name__ == '__main__':
+    doc2vec = 'model_pre_trained/model_d2v_v1'
+    question_file = 'SciQdataset-23/question_file_2.txt'
+    support_file = 'SciQdataset-23/support_file_2.txt'
+    answer_file = 'SciQdataset-23/correct_answer_file_2.txt'
+
+    qa_kb = QAKnowledgebase.QATransform(question_file, support_file, answer_file)
+    qa_md = QAModel.QAModel(qa_kb)
+    qa_doc2vec = QAModel.Doc2VecModel(qa_kb, doc2vec)
+    qa_sif = QAModel.SIFModel(qa_kb)
     context = ('/etc/letsencrypt/live/smartprimer.org/fullchain.pem', '/etc/letsencrypt/live/smartprimer.org/privkey.pem')
     app.run(host='0.0.0.0', threaded=False, debug=True, port=443, ssl_context=context)
     #app.run(port=80,debug=True)
