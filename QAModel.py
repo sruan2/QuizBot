@@ -6,7 +6,7 @@ from sklearn.metrics.pairwise import linear_kernel
 from random import randint
 import os
 
-class QAModel:
+class QAModel(object):
 
     def __init__(self, qa_kb):
         print("\n" + str(os.getpid())+" tfidf initialization begins\n")
