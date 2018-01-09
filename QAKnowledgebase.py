@@ -10,9 +10,9 @@ class QATransform():
         self.AKB = [] # answer
         self.KBlength = 0
         #self.MODEL = Doc2Vec.load(PreTrainedModel) # load the model in the very beginning
-        appendQuestionKB(QuestionFile)
-        appendSupportKB(SupportFile)
-        appendCorrectAnswerKB(CorrectAnswerFile)
+        self.appendQuestionKB(QuestionFile)
+        self.appendSupportKB(SupportFile)
+        self.appendCorrectAnswerKB(CorrectAnswerFile)
         print("\nqa_knowledgebase ends\n")
     
     def appendQuestionKB(self, QuestionFile):
