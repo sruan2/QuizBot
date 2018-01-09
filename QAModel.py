@@ -72,4 +72,4 @@ class SIFModel(QAModel):
         picked_answer = self.QA_KB.AKB[QID].rstrip()
         score = sif_sentence_similarity.answer_similarity(user_answer, picked_answer)
         print("Similarity between the standard answer and yours is: " + str(int(score)))
-        return picked_answer, int(score) 
+        return score
