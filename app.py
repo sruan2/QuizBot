@@ -272,7 +272,7 @@ def webhook():
                                 #app.session[sender_id]["answering"] = False
                                 question, QID = qa_md.pickRandomQuestion()
                                 #app.session[sender_id]["QID"] = QID
-                                send_message(sender_id, "Here's a question from different subject: "+str(QID+". ")+question)
+                                send_message(sender_id, "Here's a question from different subject: "+str(QID)+". "+question)
                                 time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
                                 insert_question(sender_id,QID,time)
                                 print("\n-3- QID is: "+str(QID)+"\n")
