@@ -25,7 +25,7 @@ class QAModel(object):
         picked_question = self.QA_KB.QKB[QID].rstrip()
         return picked_question
 
-    def getAnswer(self):
+    def getAnswer(self, QID):
 		return self.QA_KB.AKB[QID].rstrip()
     
     @abstractmethod
