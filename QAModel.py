@@ -5,7 +5,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import linear_kernel
 from random import randint
 
-class qa_model():
+class QAModel:
 
     def __init__(self, qa_kb):
         print("\n" + str(os.getpid())+" tfidf initialization begins\n")
@@ -63,7 +63,7 @@ class Doc2VecModel(qa_model):
 
 class SIFModel(qa_model):
     """docstring for Doc2VecModel"""
-    def __init__(self, qa_kb, PreTrainedModel):
+    def __init__(self, qa_kb):
         super(SIFModel, self).__init__(qa_model)
 
     def compute_score(self, user_answer, QID):

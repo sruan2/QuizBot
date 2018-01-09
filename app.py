@@ -4,7 +4,8 @@ import json
 import tfidf
 import sys
 sys.path.append('./sentence_similarity/princeton_sif/')
-import qa_knowledgebase
+import QAKnowledgebase
+import QAModel
 import sqlite3 as sql
 from random import randint
 from time import gmtime, strftime
@@ -121,86 +122,86 @@ def webhook():
                         elif message_text[0:9] == "quiz mode":
                             #app.session[sender_id]["answering"] = False
                             if show_status(sender_id):
-                                question, QID = tfidf_ins.pickRandomQuestion()
+                                question, QID = qa_md.pickRandomQuestion()
                                 update_status(sender_id, 0)
                                 time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
                                 insert_question(sender_id,QID,time)
                             else: 
                                 QID = show_last_qid(sender_id)
-                                question = tfidf_ins.pickLastQuestion(QID)
+                                question = qa_md.pickLastQuestion(QID)
                             #app.session[sender_id] = {"QID": QID, "total_score": 0}
                             #data_entry(sender_id, "Sherry Ruan", 0)
                             send_subject_quick_reply(sender_id, "Now tell me which subject you would like to choose:"+u'\uD83D\uDC47')
 
                         elif message_text == "mathematic":
                             if show_status(sender_id):
-                                question, QID = tfidf_ins.pickNextSimilarQuestion(show_last_qid(sender_id))
+                                question, QID = qa_doc2vec.pickNextSimilarQuestion(show_last_qid(sender_id))
                                 update_status(sender_id, 0)
                                 time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
                                 insert_question(sender_id,QID,time)
                             else: 
                                 QID = show_last_qid(sender_id)
-                                question = tfidf_ins.pickLastQuestion(QID)
+                                question = qa_md.pickLastQuestion(QID)
                             #app.session[sender_id] = {"QID": QID}
                             send_message(sender_id, "Question."+str(QID)+": "+question)
 
                         elif message_text == "physics":
                             if show_status(sender_id):
-                                question, QID = tfidf_ins.pickNextSimilarQuestion(show_last_qid(sender_id))
+                                question, QID = qa_doc2vec.pickNextSimilarQuestion(show_last_qid(sender_id))
                                 update_status(sender_id, 0)
                                 time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
                                 insert_question(sender_id,QID,time)
                             else: 
                                 QID = show_last_qid(sender_id)
-                                question = tfidf_ins.pickLastQuestion(QID)
+                                question = qa_md.pickLastQuestion(QID)
                             #app.session[sender_id] = {"QID": QID}
                             send_message(sender_id, "Question."+str(QID)+": "+question)
 
                         elif message_text == "chemistry":
                             if show_status(sender_id):
-                                question, QID = tfidf_ins.pickNextSimilarQuestion(show_last_qid(sender_id))
+                                question, QID = qa_doc2vec.pickNextSimilarQuestion(show_last_qid(sender_id))
                                 update_status(sender_id, 0)
                                 time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
                                 insert_question(sender_id,QID,time)
                             else: 
                                 QID = show_last_qid(sender_id)
-                                question = tfidf_ins.pickLastQuestion(QID)
+                                question = qa_md.pickLastQuestion(QID)
                             #app.session[sender_id] = {"QID": QID}
                             send_message(sender_id, "Question."+str(QID)+": "+question)
 
                         elif message_text == "biology":
                             if show_status(sender_id):
-                                question, QID = tfidf_ins.pickNextSimilarQuestion(show_last_qid(sender_id))
+                                question, QID = qa_doc2vec.pickNextSimilarQuestion(show_last_qid(sender_id))
                                 update_status(sender_id, 0)
                                 time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
                                 insert_question(sender_id,QID,time)
                             else: 
                                 QID = show_last_qid(sender_id)
-                                question = tfidf_ins.pickLastQuestion(QID)
+                                question = qa_md.pickLastQuestion(QID)
                             #app.session[sender_id] = {"QID": QID}
                             send_message(sender_id, "Question."+str(QID)+": "+question)
 
                         elif message_text == "geography":
                             if show_status(sender_id):
-                                question, QID = tfidf_ins.pickNextSimilarQuestion(show_last_qid(sender_id))
+                                question, QID = qa_doc2vec.pickNextSimilarQuestion(show_last_qid(sender_id))
                                 update_status(sender_id, 0)
                                 time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
                                 insert_question(sender_id,QID,time)
                             else: 
                                 QID = show_last_qid(sender_id)
-                                question = tfidf_ins.pickLastQuestion(QID)
+                                question = qa_md.pickLastQuestion(QID)
                             #app.session[sender_id] = {"QID": QID}
                             send_message(sender_id, "Question."+str(QID)+": "+question)
 
                         elif message_text == "history":
                             if show_status(sender_id):
-                                question, QID = tfidf_ins.pickNextSimilarQuestion(show_last_qid(sender_id))
+                                question, QID = qa_doc2vec.pickNextSimilarQuestion(show_last_qid(sender_id))
                                 update_status(sender_id, 0)
                                 time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
                                 insert_question(sender_id,QID,time)
                             else: 
                                 QID = show_last_qid(sender_id)
-                                question = tfidf_ins.pickLastQuestion(QID)
+                                question = qa_md.pickLastQuestion(QID)
                             #app.session[sender_id] = {"QID": QID}
                             send_message(sender_id, "Question."+str(QID)+": "+question)
 
@@ -208,13 +209,13 @@ def webhook():
                         elif message_text == "next question":
                             #sender_id]["answering"] = False
                             if show_status(sender_id):
-                                question, QID = tfidf_ins.pickNextSimilarQuestion(show_last_qid(sender_id))
+                                question, QID = qa_doc2vec.pickNextSimilarQuestion(show_last_qid(sender_id))
                                 update_status(sender_id, 0)
                                 time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
                                 insert_question(sender_id,QID,time)
                             else: 
                                 QID = show_last_qid(sender_id)
-                                question = tfidf_ins.pickLastQuestion(QID)
+                                question = qa_md.pickLastQuestion(QID)
                             #app.session[sender_id] = {"QID": QID}
                             send_message(sender_id, "Question."+str(QID)+": "+question)
 
@@ -222,7 +223,7 @@ def webhook():
                         # switch subject means randomly pick another one
                         elif message_text == "switch subject":
                             #app.session[sender_id]["answering"] = False
-                            question, QID = tfidf_ins.pickRandomQuestion()
+                            question, QID = qa_md.pickRandomQuestion()
                             #app.session[sender_id] = {"QID": QID}
                             send_message(sender_id, "Question."+str(QID)+": "+question)   
                             time = strftime("%Y-%m-%d %H:%M:%S", gmtime())  
@@ -270,7 +271,7 @@ def webhook():
 
                             if message_text == "Switch Subject" :
                                 #app.session[sender_id]["answering"] = False
-                                question, QID = tfidf_ins.pickRandomQuestion()
+                                question, QID = qa_md.pickRandomQuestion()
                                 #app.session[sender_id]["QID"] = QID
                                 send_message(sender_id, "Here's a question from different subject: "+str(QID+". ")+question)
                                 time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
@@ -280,12 +281,12 @@ def webhook():
                             elif message_text == "Quiz Mode "+u'\u270F':
                                 #app.session[sender_id]["answering"] = False
                                 if show_status(sender_id):
-                                    question, QID = tfidf_ins.pickRandomQuestion()
+                                    question, QID = qa_md.pickRandomQuestion()
                                     update_status(sender_id, 0)
                                     time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
                                     insert_question(sender_id,QID,time)
                                 else: 
-                                    question = tfidf_ins.pickLastQuestion(QID)
+                                    question = qa_md.pickLastQuestion(QID)
                                 #app.session[sender_id] = {"QID": QID, "total_score": 0}
                                 send_message(sender_id, "Question."+str(QID)+": "+question)
 
@@ -295,13 +296,13 @@ def webhook():
                                 #app.session[sender_id]["answering"] = False
 
                                 if show_status(sender_id):
-                                    question, QID = tfidf_ins.pickNextSimilarQuestion(show_last_qid(sender_id))
+                                    question, QID = qa_doc2vec.pickNextSimilarQuestion(show_last_qid(sender_id))
                                     update_status(sender_id, 0)
                                     time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
                                     insert_question(sender_id,QID,time)
                                     #app.session[sender_id] = {"QID": QID}
                                 else: 
-                                    question = tfidf_ins.pickLastQuestion(QID)
+                                    question = qa_md.pickLastQuestion(QID)
                                 send_message(sender_id, "Next Question "+str(QID)+": "+question)
                                 print("\n-5- QID is: "+str(QID)+"\n") 
 
@@ -324,82 +325,82 @@ def webhook():
 
                             elif message_text == "Mathematic":
                                 if show_status(sender_id):
-                                    question, QID = tfidf_ins.pickNextSimilarQuestion(show_last_qid(sender_id))
+                                    question, QID = qa_doc2vec.pickNextSimilarQuestion(show_last_qid(sender_id))
                                     update_status(sender_id, 0)
                                     time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
                                     insert_question(sender_id,QID,time)
                                 else: 
                                     QID = show_last_qid(sender_id)
-                                    question = tfidf_ins.pickLastQuestion(QID)
+                                    question = qa_md.pickLastQuestion(QID)
                                 #app.session[sender_id] = {"QID": QID}
                                 send_message(sender_id, "Question."+str(QID)+": "+question)
 
                             elif message_text == "Physics":
                                 if show_status(sender_id):
-                                    question, QID = tfidf_ins.pickNextSimilarQuestion(show_last_qid(sender_id))
+                                    question, QID = qa_doc2vec.pickNextSimilarQuestion(show_last_qid(sender_id))
                                     update_status(sender_id, 0)
                                     time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
                                     insert_question(sender_id,QID,time)
                                 else: 
                                     QID = show_last_qid(sender_id)
-                                    question = tfidf_ins.pickLastQuestion(QID)
+                                    question = qa_md.pickLastQuestion(QID)
                                 #app.session[sender_id] = {"QID": QID}
                                 send_message(sender_id, "Question."+str(QID)+": "+question)
 
                             elif message_text == "Chemistry":
                                 if show_status(sender_id):
-                                    question, QID = tfidf_ins.pickNextSimilarQuestion(show_last_qid(sender_id))
+                                    question, QID = qa_doc2vec.pickNextSimilarQuestion(show_last_qid(sender_id))
                                     update_status(sender_id, 0)
                                     time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
                                     insert_question(sender_id,QID,time)
                                 else: 
                                     QID = show_last_qid(sender_id)
-                                    question = tfidf_ins.pickLastQuestion(QID)
+                                    question = qa_md.pickLastQuestion(QID)
                                 #app.session[sender_id] = {"QID": QID}
                                 send_message(sender_id, "Question."+str(QID)+": "+question)
 
                             elif message_text == "Biology":
                                 if show_status(sender_id):
-                                    question, QID = tfidf_ins.pickNextSimilarQuestion(show_last_qid(sender_id))
+                                    question, QID = qa_doc2vec.pickNextSimilarQuestion(show_last_qid(sender_id))
                                     update_status(sender_id, 0)
                                     time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
                                     insert_question(sender_id,QID,time)
                                 else: 
                                     QID = show_last_qid(sender_id)
-                                    question = tfidf_ins.pickLastQuestion(QID)
+                                    question = qa_md.pickLastQuestion(QID)
                                 #app.session[sender_id] = {"QID": QID}
                                 send_message(sender_id, "Question."+str(QID)+": "+question)
 
                             elif message_text == "Geography":
                                 if show_status(sender_id):
-                                    question, QID = tfidf_ins.pickNextSimilarQuestion(show_last_qid(sender_id))
+                                    question, QID = qa_doc2vec.pickNextSimilarQuestion(show_last_qid(sender_id))
                                     update_status(sender_id, 0)
                                     time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
                                     insert_question(sender_id,QID,time)
                                 else: 
                                     QID = show_last_qid(sender_id)
-                                    question = tfidf_ins.pickLastQuestion(QID)
+                                    question = qa_md.pickLastQuestion(QID)
                                 #app.session[sender_id] = {"QID": QID}
                                 send_message(sender_id, "Question."+str(QID)+": "+question)
 
                             elif message_text == "History":
                                 if show_status(sender_id):
-                                    question, QID = tfidf_ins.pickNextSimilarQuestion(show_last_qid(sender_id))
+                                    question, QID = qa_doc2vec.pickNextSimilarQuestion(show_last_qid(sender_id))
                                     update_status(sender_id, 0)
                                     time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
                                     insert_question(sender_id,QID,time)
                                 else: 
                                     QID = show_last_qid(sender_id)
-                                    question = tfidf_ins.pickLastQuestion(QID)
+                                    question = qa_md.pickLastQuestion(QID)
                                 #app.session[sender_id] = {"QID": QID}
                                 send_message(sender_id, "Question."+str(QID)+": "+question)
 
                             else: # user's respons in natural language    
                                 if not show_status(sender_id):
                                     print("not first time"+"="*50)
-                                    standard_answer, score = tfidf_ins.computeScore(message_text, QID)
-                                    #standard_answer = tfidf_ins.getAnswer(QID)
-                                    #score = sif_sentence_similarity.answer_similarity(standard_answer, message_text)
+                                    #standard_answer, score = tfidf_ins.computeScore(message_text, QID)
+                                    standard_answer = qa_md.getAnswer(QID)
+                                    score = qa_sif.compute_score(message_text, QID)
                                     send_message(sender_id, "Your score this round is "+str(score))
                                     time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
                                     #total_score = show_score(sender_id) + score
@@ -896,15 +897,17 @@ def setup_app(app):
     # tfidf_ins.appendQuestionKB('SciQdataset-23/question_file_2.txt')
     # tfidf_ins.appendSupportKB('SciQdataset-23/support_file_2.txt')
     # tfidf_ins.appendCorrectAnswerKB('SciQdataset-23/correct_answer_file_2.txt')
-    model = 'model_pre_trained/model_d2v_v1'
+    doc2vec = 'model_pre_trained/model_d2v_v1'
     question_file = 'SciQdataset-23/question_file_2.txt'
     support_file = 'SciQdataset-23/support_file_2.txt'
     answer_file = 'SciQdataset-23/correct_answer_file_2.txt'
 
-    qa_kb = qa_knowledgebase(question_file, support_file, answer_file)
-    qa_md = qa_model(model)
+    qa_kb = QAKnowledgebase.QATransform(question_file, support_file, answer_file)
+    qa_md = QAModel.QAModel(qa_kb)
+    qa_doc2vec = QAModel.Doc2VecModel(qa_kb, doc2vec)
+    qa_sif = QAModel.SIFModel(qa_kb)
 
-    tfidf_ins = tfidf.tfidfTransform(qa_kb, qa_md)
+    #tfidf_ins = tfidf.tfidfTransform(qa_kb, qa_md)
     #app.session = {}
     # create_table()
     greeting()

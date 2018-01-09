@@ -1,6 +1,6 @@
 
 
-class qaTransform():
+class QATransform():
 
     def __init__(self, QuestionFile, SupportFile, CorrectAnswerFile):
         # self.KB = reader.makeKB('Data/Aristo-Mini-Corpus-Dec2016/Aristo-Mini-Corpus-In-Parts/CurrentWebCorpus-allSources-v1.txt')
