@@ -34,7 +34,7 @@ class QAModel:
     def computeScore(self): pass
 
 
-class TFIDFModel(qa_model):
+class TFIDFModel(QAModel):
     """docstring for TFIDFModel"""
     def __init__(self, qa_kb):
         super(TFIDFModel, self).__init__(qa_kb)
@@ -49,10 +49,10 @@ class TFIDFModel(qa_model):
         print("Similarity between the standard answer and yours is: " + str(int(cosine_similarities[1]*10)))
         return picked_answer, int(cosine_similarities[1]*10)   
 
-class Doc2VecModel(qa_model):
+class Doc2VecModel(QAModel):
     """docstring for Doc2VecModel"""
     def __init__(self, qa_kb, PreTrainedModel):
-        super(Doc2VecModel, self).__init__(qa_model)
+        super(Doc2VecModel, self).__init__(qa_kb)
         self.MODEL = Doc2Vec.load(PreTrainedModel) # load the model in the very beginning
 
     def pickNextSimilarQuestion(self, QID):
@@ -61,10 +61,10 @@ class Doc2VecModel(qa_model):
         picked_question = self.QA_KB.QKB[NextQID].rstrip() # find the question based on the question id
         return picked_question, NextQID
 
-class SIFModel(qa_model):
+class SIFModel(QAModel):
     """docstring for Doc2VecModel"""
     def __init__(self, qa_kb):
-        super(SIFModel, self).__init__(qa_model)
+        super(SIFModel, self).__init__(qa_kb)
 
     def compute_score(self, user_answer, QID):
         user_answer = user_answer.lower()
