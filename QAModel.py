@@ -4,6 +4,7 @@ from sentence_similarity.princeton_sif import sif_sentence_similarity
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import linear_kernel
 from random import randint
+import os
 
 class QAModel:
 
