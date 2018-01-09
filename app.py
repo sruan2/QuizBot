@@ -918,9 +918,9 @@ def setup_app(app):
 setup_app(app)
 
 if __name__ == '__main__':
-    #context = ('/etc/letsencrypt/live/smartprimer.org/fullchain.pem', '/etc/letsencrypt/live/smartprimer.org/privkey.pem')
-    #app.run(host='0.0.0.0', threaded=False, debug=True, port=443, ssl_context=context)
-    app.run(port=80,debug=True)
+    context = ('/etc/letsencrypt/live/smartprimer.org/fullchain.pem', '/etc/letsencrypt/live/smartprimer.org/privkey.pem')
+    app.run(host='0.0.0.0', threaded=False, debug=True, port=443, ssl_context=context)
+    #app.run(port=80,debug=True)
     # send_message(sender_id, str("Received. I'm here!"))
     # print(predict(raw_input("Enter something")))
     
