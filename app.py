@@ -168,8 +168,9 @@ def webhook():
                             #app.session[sender_id] = {"QID": QID}
                             send_message(sender_id, "Question."+str(QID)+": "+question)
 
-                        elif message_text == 'switch subject':
+                        elif message_text == 'switch subject' or 'sure' or message_text[0:3] == 'yup':
                             send_subject_quick_reply(sender_id, "Now tell me which subject you would like to choose:"+u'\uD83D\uDC47')
+
 
                         # look for next similar question based off the pre-trained model
                         elif message_text == "next question":
@@ -328,8 +329,9 @@ def webhook():
                                     send_why_quickreply(sender_id, QID, standard_answer)    
                                     update_status(sender_id, 1) 
                                 else:
-                                    update_status(sender_id, 1)
-                                    send_subject_quick_reply(sender_id, "Now tell me which subject you would like to choose:"+u'\uD83D\uDC47')
+                                    send_ready_go(sender_id, "That sounds interesting. Would you want more quiz questions to practice? I’m here to help?")
+                                    #update_status(sender_id, 1)
+                                    #send_subject_quick_reply(sender_id, "Now tell me which subject you would like to choose:"+u'\uD83D\uDC47')
 
 
     return "ok", 200
