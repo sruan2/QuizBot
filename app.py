@@ -919,13 +919,17 @@ setup_app(app)
 if __name__ == '__main__':
     doc2vec = 'model_pre_trained/model_d2v_v1'
     question_file = 'SciQdataset-23/question_file_2.txt'
+    subject_file = 'SciQdataset-23/question_file_subject.txt'
     support_file = 'SciQdataset-23/support_file_2.txt'
     answer_file = 'SciQdataset-23/correct_answer_file_2.txt'
 
-    qa_kb = QAKnowledgebase.QATransform(question_file, support_file, answer_file)
+    qa_kb = QAKnowledgebase.QATransform(question_file, support_file, answer_file, subject_file)
     qa_md = QAModel.QAModel(qa_kb)
     qa_doc2vec = QAModel.Doc2VecModel(qa_kb, doc2vec)
     qa_sif = QAModel.SIFModel(qa_kb)
+
+
+
     context = ('/etc/letsencrypt/live/smartprimer.org/fullchain.pem', '/etc/letsencrypt/live/smartprimer.org/privkey.pem')
     app.run(host='0.0.0.0', threaded=False, debug=True, port=443, ssl_context=context)
     #app.run(port=80,debug=True)

@@ -2,17 +2,19 @@ import os
 
 class QATransform():
 
-    def __init__(self, QuestionFile, SupportFile, CorrectAnswerFile):
+    def __init__(self, QuestionFile, SupportFile, CorrectAnswerFile, SubjectFile):
         # self.KB = reader.makeKB('Data/Aristo-Mini-Corpus-Dec2016/Aristo-Mini-Corpus-In-Parts/CurrentWebCorpus-allSources-v1.txt')
         print("\n" + str(os.getpid())+" tfidf initialization begins\n")
         self.QKB = [] # question
         self.SKB = [] # support
         self.AKB = [] # answer
+        self.SubKB = {} # subject dict
         self.KBlength = 0
         #self.MODEL = Doc2Vec.load(PreTrainedModel) # load the model in the very beginning
         self.appendQuestionKB(QuestionFile)
         self.appendSupportKB(SupportFile)
         self.appendCorrectAnswerKB(CorrectAnswerFile)
+        self.appendSubjectKB(SubjectFile)
         print("\nqa_knowledgebase ends\n")
     
     def appendQuestionKB(self, QuestionFile):
@@ -22,6 +24,15 @@ class QATransform():
                 self.QKB.append(line)
         print("="*87+"\n"+"Question KB is appended. Length is: "+str(len(self.QKB)))
         self.KBlength = len(self.QKB)
+
+    def appendSubjectKB(self, SubjectFile):
+        with open(SubjectFile, 'r') as f:
+            for i in range(len(f));
+                if f[i] in self.SubKB.keys():
+                    self.SubKB[f[i]].append(i)
+                else:
+                    self.SubKB[f[i]] = [i]
+        print("="*87+"\n"+"Subject KB is appended. Total Subject Count is: "+str(len(self.SKB)))
 
     def appendSupportKB(self, SupportFile):
         with open(SupportFile, 'r') as f:
