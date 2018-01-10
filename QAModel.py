@@ -10,7 +10,7 @@ import os
 class QAModel(object):
 
     def __init__(self, qa_kb):
-        print("\n" + str(os.getpid())+" tfidf initialization begins\n")
+        print("\n" + str(os.getpid())+" tfidf QAModel begins\n")
         self.QID = 0
         self.QA_KB = qa_kb
         print("\ntfidf initialization ends\n")
