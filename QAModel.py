@@ -41,6 +41,9 @@ class QAModel(object):
 
     def getAnswer(self, QID):
         return self.QA_KB.AKB[QID].rstrip()
+
+    def getSupport(self, QID):
+        return self.QA_KB.SKB[QID].rstrip()
     
     @abstractmethod
     def pickNextSimilarQuestion(self): pass
