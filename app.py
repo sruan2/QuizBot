@@ -134,7 +134,7 @@ def webhook():
 
                         elif message_text == "physics":
                             if show_status(sender_id):
-                                question, QID = qa_md.pickRandomQuestion(message_text)
+                                question, QID = qa_md.pickSubjectRandomQuestion(message_text)
                                 update_status(sender_id, 0)
                                 time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
                                 insert_question(sender_id,QID,time)
@@ -146,7 +146,7 @@ def webhook():
 
                         elif message_text == "chemistry":
                             if show_status(sender_id):
-                                question, QID = qa_md.pickRandomQuestion(message_text)
+                                question, QID = qa_md.pickSubjectRandomQuestion(message_text)
                                 update_status(sender_id, 0)
                                 time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
                                 insert_question(sender_id,QID,time)
@@ -158,7 +158,7 @@ def webhook():
 
                         elif message_text == "biology":
                             if show_status(sender_id):
-                                question, QID = qa_md.pickRandomQuestion(message_text)
+                                question, QID = qa_md.pickSubjectRandomQuestion(message_text)
                                 update_status(sender_id, 0)
                                 time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
                                 insert_question(sender_id,QID,time)
@@ -170,7 +170,19 @@ def webhook():
 
                         elif message_text == "geology":
                             if show_status(sender_id):
-                                question, QID = qa_md.pickRandomQuestion(message_text)
+                                question, QID = qa_md.pickSubjectRandomQuestion(message_text)
+                                update_status(sender_id, 0)
+                                time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
+                                insert_question(sender_id,QID,time)
+                            else: 
+                                QID = show_last_qid(sender_id)
+                                question = qa_md.pickLastQuestion(QID)
+                            #app.session[sender_id] = {"QID": QID}
+                            send_message(sender_id, "Question."+str(QID)+": "+question)
+
+                        elif message_text == "random":
+                            if show_status(sender_id):
+                                question, QID = qa_md.pickRandomQuestion()
                                 update_status(sender_id, 0)
                                 time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
                                 insert_question(sender_id,QID,time)
@@ -198,11 +210,9 @@ def webhook():
                         # switch subject means randomly pick another one
                         elif message_text == "switch subject":
                             #app.session[sender_id]["answering"] = False
-                            question, QID = qa_md.pickRandomQuestion()
-                            #app.session[sender_id] = {"QID": QID}
-                            send_message(sender_id, "Question."+str(QID)+": "+question)   
+                            send_subject_quick_reply(sender_id, "Now tell me which subject you would like to choose:"+u'\uD83D\uDC47') 
                             time = strftime("%Y-%m-%d %H:%M:%S", gmtime())  
-                            insert_question(sender_id,QID,time)                      
+                            insert_question(sender_id, -11, time)                      
 
 
                         elif message_text[0:9] == "answering":
@@ -245,21 +255,20 @@ def webhook():
 
 
                             if message_text == "Switch Subject" :
-                                #app.session[sender_id]["answering"] = False
-                                question, QID = qa_md.pickRandomQuestion()
-                                #app.session[sender_id]["QID"] = QID
-                                send_message(sender_id, "Here's a question from different subject: "+str(QID)+". "+question)
+
+                                send_subject_quick_reply(sender_id, "Now tell me which subject you would like to choose:"+u'\uD83D\uDC47')
                                 time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
-                                insert_question(sender_id,QID,time)
+                                insert_question(sender_id,'-11',time)
                                 print("\n-3- QID is: "+str(QID)+"\n")
 
                             elif message_text == "Quiz Mode "+u'\u270F':
                                 #app.session[sender_id]["answering"] = False
                                 if show_status(sender_id):
-                                    question, QID = qa_md.pickRandomQuestion()
-                                    update_status(sender_id, 0)
+                                    # question, QID = qa_md.pickRandomQuestion()
+                                    # update_status(sender_id, 0)
+                                    send_subject_quick_reply(sender_id, "Now tell me which subject you would like to choose:"+u'\uD83D\uDC47') 
                                     time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
-                                    insert_question(sender_id,QID,time)
+                                    #insert_question(sender_id,QID,time)
                                 else: 
                                     question = qa_md.pickLastQuestion(QID)
                                 #app.session[sender_id] = {"QID": QID, "total_score": 0}
@@ -271,8 +280,9 @@ def webhook():
                                 #app.session[sender_id]["answering"] = False
 
                                 if show_status(sender_id):
-                                    question, QID = qa_doc2vec.pickNextSimilarQuestion(show_last_qid(sender_id))
-                                    update_status(sender_id, 0)
+                                    #question, QID = qa_md.pickSubjectRandomQuestion(show_last_qid(sender_id))
+                                    #update_status(sender_id, 0)
+                                    send_subject_quick_reply(sender_id, "Now tell me which subject you would like to choose:"+u'\uD83D\uDC47') 
                                     time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
                                     insert_question(sender_id,QID,time)
                                     #app.session[sender_id] = {"QID": QID}
@@ -300,7 +310,7 @@ def webhook():
 
                             elif message_text == "Physics":
                                 if show_status(sender_id):
-                                    question, QID = qa_md.pickRandomQuestion(message_text)
+                                    question, QID = qa_md.pickSubjectRandomQuestion(message_text)
                                     update_status(sender_id, 0)
                                     time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
                                     insert_question(sender_id,QID,time)
@@ -312,7 +322,7 @@ def webhook():
 
                             elif message_text == "Chemistry":
                                 if show_status(sender_id):
-                                    question, QID = qa_md.pickRandomQuestion(message_text)
+                                    question, QID = qa_md.pickSubjectRandomQuestion(message_text)
                                     update_status(sender_id, 0)
                                     time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
                                     insert_question(sender_id,QID,time)
@@ -324,7 +334,7 @@ def webhook():
 
                             elif message_text == "Biology":
                                 if show_status(sender_id):
-                                    question, QID = qa_md.pickRandomQuestion(message_text)
+                                    question, QID = qa_md.pickSubjectRandomQuestion(message_text)
                                     update_status(sender_id, 0)
                                     time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
                                     insert_question(sender_id,QID,time)
@@ -336,7 +346,7 @@ def webhook():
 
                             elif message_text == "Geology":
                                 if show_status(sender_id):
-                                    question, QID = qa_md.pickRandomQuestion(message_text)
+                                    question, QID = qa_md.pickSubjectRandomQuestion(message_text)
                                     update_status(sender_id, 0)
                                     time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
                                     insert_question(sender_id,QID,time)
@@ -345,7 +355,18 @@ def webhook():
                                     question = qa_md.pickLastQuestion(QID)
                                 #app.session[sender_id] = {"QID": QID}
                                 send_message(sender_id, "Question."+str(QID)+": "+question)
-
+                            
+                            elif message_text == "Random":
+                                if show_status(sender_id):
+                                    question, QID = qa_md.pickRandomQuestion()
+                                    update_status(sender_id, 0)
+                                    time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
+                                    insert_question(sender_id,QID,time)
+                                else: 
+                                    QID = show_last_qid(sender_id)
+                                    question = qa_md.pickLastQuestion(QID)
+                                #app.session[sender_id] = {"QID": QID}
+                                send_message(sender_id, "Question."+str(QID)+": "+question)
 
                             else: # user's respons in natural language    
                                 if not show_status(sender_id):
@@ -490,6 +511,11 @@ def send_subject_quick_reply(recipient_id, main_text):
                     "content_type": "text",
                     "title": "Geology",
                     "payload": "Geology"
+                },
+                {
+                    "content_type": "text",
+                    "title": "Random",
+                    "payload": "Random"                
                 }
             ]
         }

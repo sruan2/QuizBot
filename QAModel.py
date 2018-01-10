@@ -4,6 +4,7 @@ from sentence_similarity.princeton_sif import sif_sentence_similarity
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import linear_kernel
 import random
+from random import randint
 import os
 
 class QAModel(object):
@@ -14,13 +15,25 @@ class QAModel(object):
         self.QA_KB = qa_kb
         print("\ntfidf initialization ends\n")
 
-    # FIXME --- INCLUDE SUBJECT
-    def pickRandomQuestion(self, subject):
+    def pickSubjectRandomQuestion(self, subject):
         print("=======================================================================================")
         subject = subject.lower()
         QID = random.choice(self.QA_KB.SubKB[subject])
         picked_question = self.QA_KB.QKB[QID].rstrip()
         return picked_question, QID
+
+    def pickRandomQuestion(self):
+        print("=======================================================================================")
+        QID = randint(0, self.QA_KB.KBlength)
+        picked_question = self.QA_KB.QKB[QID].rstrip()
+
+        # print(picked_question)
+        # user_answer = raw_input("Enter Your Answer:")
+        # answer.append(user_answer)
+        # print("Standard Answer is: "+picked_answer)
+
+        return picked_question, QID
+
 
     def pickLastQuestion(self, QID):
         picked_question = self.QA_KB.QKB[QID].rstrip()
