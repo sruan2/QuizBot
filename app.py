@@ -178,7 +178,7 @@ def webhook():
                                 time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
                                 insert_question(sender_id,QID,last_subject,time)
                             else: 
-                                QID = show_last_qid(sender_id)[0]
+                                QID = show_last_qid_subject(sender_id)[0]
                                 question = qa_md.pickLastQuestion(QID)
                             #app.session[sender_id] = {"QID": QID}
                             send_message(sender_id, "Question."+str(QID)+": "+question)
@@ -240,7 +240,7 @@ def webhook():
                                     time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
                                     insert_question(sender_id,QID,last_subject,time)
                                 else: 
-                                    QID = show_last_qid(sender_id)[0]
+                                    QID = show_last_qid_subject(sender_id)[0]
                                     question = qa_md.pickLastQuestion(QID)
                                 #app.session[sender_id] = {"QID": QID}
                                 send_message(sender_id, "Question."+str(QID)+": "+question)
@@ -675,7 +675,7 @@ def show_last_qid_subject(user_id):
     cur.execute("select qid,subject from questions where user_id = ? order by id desc limit 1", (user_id,))
 
     rows = cur.fetchall();
-    return (rows[0][0] if len(rows) > 0 else -1, rows[0][1])
+    return (rows[0][0] if len(rows) > 0 else -1, rows[0][1] if len(rows) > 0 else 'no record')
 
 # show top 10 in leaderboard
 def show_top_10():
