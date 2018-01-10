@@ -168,6 +168,9 @@ def webhook():
                             #app.session[sender_id] = {"QID": QID}
                             send_message(sender_id, "Question."+str(QID)+": "+question)
 
+                        elif message_text == 'switch subject':
+                            send_subject_quick_reply(sender_id, "Now tell me which subject you would like to choose:"+u'\uD83D\uDC47')
+
                         # look for next similar question based off the pre-trained model
                         elif message_text == "next question":
                             #sender_id]["answering"] = False
@@ -307,6 +310,9 @@ def webhook():
                                 insert_question(sender_id,QID,message_text.lower(),time)
                                 #app.session[sender_id] = {"QID": QID}
                                 send_message(sender_id, "Question."+str(QID)+": "+question)
+
+                            elif message_text == 'Switch Subject':
+                                send_subject_quick_reply(sender_id, "Now tell me which subject you would like to choose:"+u'\uD83D\uDC47')
 
                             else: # user's respons in natural language    
                                 if not show_status(sender_id):
