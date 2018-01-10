@@ -120,75 +120,51 @@ def webhook():
                             send_gotit_quickreply(sender_id, "Leaderboard: \n" + sentence) 
                         elif message_text[0:9] == "quiz mode":
                             #app.session[sender_id]["answering"] = False
-                            if show_status(sender_id):
-                                question, QID = qa_md.pickRandomQuestion()
-                                update_status(sender_id, 0)
-                                time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
-                                insert_question(sender_id,QID,time)
-                            else: 
-                                QID = show_last_qid(sender_id)
-                                question = qa_md.pickLastQuestion(QID)
+                            #update_status(sender_id, 0)
+                            #time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
+                            #insert_question(sender_id,QID,time)
+
                             #app.session[sender_id] = {"QID": QID, "total_score": 0}
                             #data_entry(sender_id, "Sherry Ruan", 0)
                             send_subject_quick_reply(sender_id, "Now tell me which subject you would like to choose:"+u'\uD83D\uDC47')
 
                         elif message_text == "physics":
-                            if show_status(sender_id):
-                                question, QID = qa_md.pickSubjectRandomQuestion(message_text)
-                                update_status(sender_id, 0)
-                                time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
-                                insert_question(sender_id,QID,time)
-                            else: 
-                                QID = show_last_qid(sender_id)
-                                question = qa_md.pickLastQuestion(QID)
+                            question, QID = qa_md.pickSubjectRandomQuestion(message_text)
+                            update_status(sender_id, 0)
+                            time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
+                            insert_question(sender_id,QID,time)
                             #app.session[sender_id] = {"QID": QID}
                             send_message(sender_id, "Question."+str(QID)+": "+question)
 
                         elif message_text == "chemistry":
-                            if show_status(sender_id):
-                                question, QID = qa_md.pickSubjectRandomQuestion(message_text)
-                                update_status(sender_id, 0)
-                                time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
-                                insert_question(sender_id,QID,time)
-                            else: 
-                                QID = show_last_qid(sender_id)
-                                question = qa_md.pickLastQuestion(QID)
+                            question, QID = qa_md.pickSubjectRandomQuestion(message_text)
+                            update_status(sender_id, 0)
+                            time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
+                            insert_question(sender_id,QID,time)
                             #app.session[sender_id] = {"QID": QID}
                             send_message(sender_id, "Question."+str(QID)+": "+question)
 
                         elif message_text == "biology":
-                            if show_status(sender_id):
-                                question, QID = qa_md.pickSubjectRandomQuestion(message_text)
-                                update_status(sender_id, 0)
-                                time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
-                                insert_question(sender_id,QID,time)
-                            else: 
-                                QID = show_last_qid(sender_id)
-                                question = qa_md.pickLastQuestion(QID)
+                            question, QID = qa_md.pickSubjectRandomQuestion(message_text)
+                            update_status(sender_id, 0)
+                            time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
+                            insert_question(sender_id,QID,time)
                             #app.session[sender_id] = {"QID": QID}
                             send_message(sender_id, "Question."+str(QID)+": "+question)
 
                         elif message_text == "geology":
-                            if show_status(sender_id):
-                                question, QID = qa_md.pickSubjectRandomQuestion(message_text)
-                                update_status(sender_id, 0)
-                                time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
-                                insert_question(sender_id,QID,time)
-                            else: 
-                                QID = show_last_qid(sender_id)
-                                question = qa_md.pickLastQuestion(QID)
+                            question, QID = qa_md.pickSubjectRandomQuestion(message_text)
+                            update_status(sender_id, 0)
+                            time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
+                            insert_question(sender_id,QID,time)
                             #app.session[sender_id] = {"QID": QID}
                             send_message(sender_id, "Question."+str(QID)+": "+question)
 
                         elif message_text == "random":
-                            if show_status(sender_id):
-                                question, QID = qa_md.pickRandomQuestion()
-                                update_status(sender_id, 0)
-                                time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
-                                insert_question(sender_id,QID,time)
-                            else: 
-                                QID = show_last_qid(sender_id)
-                                question = qa_md.pickLastQuestion(QID)
+                            question, QID = qa_md.pickSubjectRandomQuestion(message_text)
+                            update_status(sender_id, 0)
+                            time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
+                            insert_question(sender_id,QID,time)
                             #app.session[sender_id] = {"QID": QID}
                             send_message(sender_id, "Question."+str(QID)+": "+question)
 
@@ -196,24 +172,16 @@ def webhook():
                         elif message_text == "next question":
                             #sender_id]["answering"] = False
                             if show_status(sender_id):
-                                question, QID = qa_doc2vec.pickNextSimilarQuestion(show_last_qid(sender_id))
+                                last_subject = show_last_qid_subject(sender_id)[1]
+                                question, QID = qa_model.pickSubjectRandomQuestion(last_subject)
                                 update_status(sender_id, 0)
                                 time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
-                                insert_question(sender_id,QID,time)
+                                insert_question(sender_id,QID,last_subject,time)
                             else: 
-                                QID = show_last_qid(sender_id)
+                                QID = show_last_qid(sender_id)[0]
                                 question = qa_md.pickLastQuestion(QID)
                             #app.session[sender_id] = {"QID": QID}
                             send_message(sender_id, "Question."+str(QID)+": "+question)
-
-                       
-                        # switch subject means randomly pick another one
-                        elif message_text == "switch subject":
-                            #app.session[sender_id]["answering"] = False
-                            send_subject_quick_reply(sender_id, "Now tell me which subject you would like to choose:"+u'\uD83D\uDC47') 
-                            time = strftime("%Y-%m-%d %H:%M:%S", gmtime())  
-                            insert_question(sender_id, -11, time)                      
-
 
                         elif message_text[0:9] == "answering":
                             #app.session[sender_id]["answering"] = True
@@ -251,45 +219,31 @@ def webhook():
                             send_mode_quick_reply(sender_id, "Now tell me which mode you would like to choose:"+u'\uD83D\uDC47') 
 
                         else:
-                            QID = show_last_qid(sender_id)
+                            QID,SUBJECT = show_last_qid_subject(sender_id)[0]
 
-
-                            if message_text == "Switch Subject" :
-
-                                send_subject_quick_reply(sender_id, "Now tell me which subject you would like to choose:"+u'\uD83D\uDC47')
-                                time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
-                                insert_question(sender_id,'-11',time)
-                                print("\n-3- QID is: "+str(QID)+"\n")
-
-                            elif message_text == "Quiz Mode "+u'\u270F':
+                            if message_text == "Quiz Mode "+u'\u270F':
                                 #app.session[sender_id]["answering"] = False
-                                if show_status(sender_id):
                                     # question, QID = qa_md.pickRandomQuestion()
                                     # update_status(sender_id, 0)
-                                    send_subject_quick_reply(sender_id, "Now tell me which subject you would like to choose:"+u'\uD83D\uDC47') 
-                                    time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
-                                    #insert_question(sender_id,QID,time)
-                                else: 
-                                    question = qa_md.pickLastQuestion(QID)
-                                #app.session[sender_id] = {"QID": QID, "total_score": 0}
-                                send_message(sender_id, "Question."+str(QID)+": "+question)
-
+                                send_subject_quick_reply(sender_id, "Now tell me which subject you would like to choose:"+u'\uD83D\uDC47') 
+                                time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
+                                insert_question(sender_id,'-11','SWITCH_SUBJUECT',time)
                                 print("\n-4- QID is: "+str(QID)+"\n")                                 
 
                             elif message_text == "Next Question" or message_text == "Got it, next!" :
                                 #app.session[sender_id]["answering"] = False
 
                                 if show_status(sender_id):
-                                    #question, QID = qa_md.pickSubjectRandomQuestion(show_last_qid(sender_id))
-                                    #update_status(sender_id, 0)
-                                    send_subject_quick_reply(sender_id, "Now tell me which subject you would like to choose:"+u'\uD83D\uDC47') 
+                                    last_subject = show_last_qid_subject(sender_id)[1]
+                                    question, QID = qa_model.pickSubjectRandomQuestion(last_subject)
+                                    update_status(sender_id, 0)
                                     time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
-                                    insert_question(sender_id,QID,time)
-                                    #app.session[sender_id] = {"QID": QID}
+                                    insert_question(sender_id,QID,last_subject,time)
                                 else: 
+                                    QID = show_last_qid(sender_id)[0]
                                     question = qa_md.pickLastQuestion(QID)
-                                send_message(sender_id, "Next Question "+str(QID)+": "+question)
-                                print("\n-5- QID is: "+str(QID)+"\n") 
+                                #app.session[sender_id] = {"QID": QID}
+                                send_message(sender_id, "Question."+str(QID)+": "+question)
 
                             # I comment out this part as there is bug here
                             # elif app.session[sender_id]["answering"] == True:
@@ -309,62 +263,42 @@ def webhook():
 
 
                             elif message_text == "Physics":
-                                if show_status(sender_id):
-                                    question, QID = qa_md.pickSubjectRandomQuestion(message_text)
-                                    update_status(sender_id, 0)
-                                    time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
-                                    insert_question(sender_id,QID,time)
-                                else: 
-                                    QID = show_last_qid(sender_id)
-                                    question = qa_md.pickLastQuestion(QID)
+                                question, QID = qa_md.pickSubjectRandomQuestion(message_text)
+                                update_status(sender_id, 0)
+                                time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
+                                insert_question(sender_id,QID,SWITCH_SUBJUECT,time)
                                 #app.session[sender_id] = {"QID": QID}
                                 send_message(sender_id, "Question."+str(QID)+": "+question)
 
                             elif message_text == "Chemistry":
-                                if show_status(sender_id):
-                                    question, QID = qa_md.pickSubjectRandomQuestion(message_text)
-                                    update_status(sender_id, 0)
-                                    time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
-                                    insert_question(sender_id,QID,time)
-                                else: 
-                                    QID = show_last_qid(sender_id)
-                                    question = qa_md.pickLastQuestion(QID)
+                                question, QID = qa_md.pickSubjectRandomQuestion(message_text)
+                                update_status(sender_id, 0)
+                                time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
+                                insert_question(sender_id,QID,SWITCH_SUBJUECT,time)
                                 #app.session[sender_id] = {"QID": QID}
                                 send_message(sender_id, "Question."+str(QID)+": "+question)
 
                             elif message_text == "Biology":
-                                if show_status(sender_id):
-                                    question, QID = qa_md.pickSubjectRandomQuestion(message_text)
-                                    update_status(sender_id, 0)
-                                    time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
-                                    insert_question(sender_id,QID,time)
-                                else: 
-                                    QID = show_last_qid(sender_id)
-                                    question = qa_md.pickLastQuestion(QID)
+                                question, QID = qa_md.pickSubjectRandomQuestion(message_text)
+                                update_status(sender_id, 0)
+                                time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
+                                insert_question(sender_id,QID,time)
                                 #app.session[sender_id] = {"QID": QID}
                                 send_message(sender_id, "Question."+str(QID)+": "+question)
 
                             elif message_text == "Geology":
-                                if show_status(sender_id):
-                                    question, QID = qa_md.pickSubjectRandomQuestion(message_text)
-                                    update_status(sender_id, 0)
-                                    time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
-                                    insert_question(sender_id,QID,time)
-                                else: 
-                                    QID = show_last_qid(sender_id)
-                                    question = qa_md.pickLastQuestion(QID)
+                                question, QID = qa_md.pickSubjectRandomQuestion(message_text)
+                                update_status(sender_id, 0)
+                                time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
+                                insert_question(sender_id,QID,time)
                                 #app.session[sender_id] = {"QID": QID}
                                 send_message(sender_id, "Question."+str(QID)+": "+question)
                             
                             elif message_text == "Random":
-                                if show_status(sender_id):
-                                    question, QID = qa_md.pickRandomQuestion()
-                                    update_status(sender_id, 0)
-                                    time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
-                                    insert_question(sender_id,QID,time)
-                                else: 
-                                    QID = show_last_qid(sender_id)
-                                    question = qa_md.pickLastQuestion(QID)
+                                question, QID = qa_md.pickSubjectRandomQuestion(message_text)
+                                update_status(sender_id, 0)
+                                time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
+                                insert_question(sender_id,QID,SWITCH_SUBJUECT,time)
                                 #app.session[sender_id] = {"QID": QID}
                                 send_message(sender_id, "Question."+str(QID)+": "+question)
 
@@ -696,12 +630,12 @@ def insert_score(user_id,qid,answer,score,time):
             con.close()
 
 # insert asked questions
-def insert_question(user_id,qid,time):
+def insert_question(user_id,qid,subject,time):
     if request.method == 'POST':
         try:
             with sql.connect("QUIZBOT.db") as con:
                 cur = con.cursor()            
-                cur.execute("INSERT INTO questions (user_id,qid,r_time) VALUES (?,?,?)",(user_id,qid,time,))           
+                cur.execute("INSERT INTO questions (user_id,qid,subject,r_time) VALUES (?,?,?,?)",(user_id,qid,subject,time,))           
                 con.commit()
                 print ("Questions record successfully added")
         except:
@@ -733,15 +667,15 @@ def show_score(user_id):
     return rows[0][0] if len(rows) > 0 else 0
 
 # retrieve score based on user_id 
-def show_last_qid(user_id):
+def show_last_qid_subject(user_id):
     con = sql.connect("QUIZBOT.db")
     con.row_factory = sql.Row
 
     cur = con.cursor()
-    cur.execute("select qid from questions where user_id = ? order by id desc limit 1", (user_id,))
+    cur.execute("select qid,subject from questions where user_id = ? order by id desc limit 1", (user_id,))
 
     rows = cur.fetchall();
-    return rows[0][0] if len(rows) > 0 else 0
+    return (rows[0][0] if len(rows) > 0 else -1, rows[0][1])
 
 # show top 10 in leaderboard
 def show_top_10():

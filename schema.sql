@@ -22,5 +22,6 @@ create table questions(
 	id INTEGER primary key AUTOINCREMENT,
 	user_id INTEGER,
 	qid INTEGER,
+	subject TEXT,
 	r_time TEXT
 );
