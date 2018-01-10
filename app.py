@@ -301,7 +301,7 @@ def webhook():
                                 send_message(sender_id, "Question."+str(QID)+": "+question)
                             
                             elif message_text == "Random":
-                                question, QID = qa_md.pickSubjectRandomQuestion(message_text)
+                                question, QID = qa_md.pickRandomQuestion(sender_id)
                                 update_status(sender_id, 0)
                                 time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
                                 insert_question(sender_id,QID,message_text.lower(),time)
