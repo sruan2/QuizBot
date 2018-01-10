@@ -36,7 +36,7 @@ class QATransform():
                     self.SubKB[line.rstrip()] = [i]
                 i += 1
         f.close()
-        print (self.SubKB['physics'])
+        print (self.SubKB)
         print("="*87+"\n"+"Subject KB is appended. Total Subject Count is: "+str(len(self.SubKB)))
 
     def appendSupportKB(self, SupportFile):
