@@ -3,7 +3,7 @@ from gensim.models import Doc2Vec
 from sentence_similarity.princeton_sif import sif_sentence_similarity
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import linear_kernel
-from random import randint
+import random
 import os
 
 class QAModel(object):
@@ -15,9 +15,10 @@ class QAModel(object):
         print("\ntfidf initialization ends\n")
 
     # FIXME --- INCLUDE SUBJECT
-    def pickRandomQuestion(self):
+    def pickRandomQuestion(self, subject):
         print("=======================================================================================")
-        QID = randint(0, self.QA_KB.KBlength)
+        subject = subject.lower()
+        QID = random.choice(self.QA_KB.SubKB[subject])
         picked_question = self.QA_KB.QKB[QID].rstrip()
         return picked_question, QID
 
