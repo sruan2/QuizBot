@@ -27,7 +27,7 @@ class QATransform():
 
     def appendSubjectKB(self, SubjectFile):
         with open(SubjectFile, 'r') as f:
-            data = f.read().strip()
+            data = f.read().rstrip()
             for i in range(len(data)):
                 if data[i] in self.SubKB.keys():
                     self.SubKB[data[i]].append(i)
