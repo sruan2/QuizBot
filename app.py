@@ -1,6 +1,3 @@
-#!/usr/bin/python
-# -*- coding: <encoding name> -*-
-
 import os
 import sys
 import json
@@ -332,9 +329,8 @@ def webhook():
                                     send_why_quickreply(sender_id, QID, standard_answer)    
                                     update_status(sender_id, 1) 
                                 else:
-                                    send_ready_go(sender_id, "That sounds interesting. Would you want more quiz questions to practice? I’m here to help?")
-                                    #update_status(sender_id, 1)
-                                    #send_subject_quick_reply(sender_id, "Now tell me which subject you would like to choose:"+u'\uD83D\uDC47')
+                                    update_status(sender_id, 1)
+                                    send_subject_quick_reply(sender_id, "Now tell me which subject you would like to choose:"+u'\uD83D\uDC47')
 
 
     return "ok", 200
