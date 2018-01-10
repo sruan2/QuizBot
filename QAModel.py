@@ -40,6 +40,7 @@ class QAModel(object):
         return picked_question
 
     def getAnswer(self, QID):
+        print ("%"*50 + str(QID))
 		return self.QA_KB.AKB[QID].rstrip()
     
     @abstractmethod
