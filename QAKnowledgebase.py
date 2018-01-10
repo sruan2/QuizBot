@@ -33,6 +33,7 @@ class QATransform():
                     self.SubKB[data[i]].append(i)
                 else:
                     self.SubKB[data[i]] = [i]
+                print (data[i])
         f.close()
         print("="*87+"\n"+"Subject KB is appended. Total Subject Count is: "+str(len(self.SubKB)))
 
