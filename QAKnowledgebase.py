@@ -30,9 +30,9 @@ class QATransform():
             i = 0
             for line in f:
                 if line in self.SubKB.keys():
-                    self.SubKB[line].append(i)
+                    self.SubKB[line.rstrip()].append(i)
                 else:
-                    self.SubKB[line] = [i]
+                    self.SubKB[line.rstrip()] = [i]
                 i += 1
         f.close()
         print (self.SubKB.keys())
