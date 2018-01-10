@@ -174,9 +174,9 @@ def webhook():
                             if show_status(sender_id):
                                 last_subject = show_last_qid_subject(sender_id)[1]
                                 if last_subject == 'random' or last_subject == 'no record':
-                                    question, QID = qa_model.pickRandomQuestion()
+                                    question, QID = qa_md.pickRandomQuestion()
                                 else:
-                                    question, QID = qa_model.pickSubjectRandomQuestion(last_subject)
+                                    question, QID = qa_md.pickSubjectRandomQuestion(last_subject)
                                 update_status(sender_id, 0)
                                 time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
                                 insert_question(sender_id,QID,last_subject,time)
@@ -239,9 +239,9 @@ def webhook():
                                 if show_status(sender_id):
                                     last_subject = show_last_qid_subject(sender_id)[1]
                                     if last_subject == 'random' or last_subject == 'no record':
-                                        question, QID = qa_model.pickRandomQuestion()
+                                        question, QID = qa_md.pickRandomQuestion()
                                     else:
-                                        question, QID = qa_model.pickSubjectRandomQuestion(last_subject)
+                                        question, QID = qa_md.pickSubjectRandomQuestion(last_subject)
                                     update_status(sender_id, 0)
                                     time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
                                     insert_question(sender_id,QID,last_subject,time)
