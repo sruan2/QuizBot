@@ -260,7 +260,7 @@ def webhook():
                             #     send_message(sender_id, answer)    
 
                             elif message_text[:4] == "Why?":
-                                support_sentence = qa_md.get_support(QID)[:600]
+                                support_sentence = qa_md.getSupport(QID)[:600]
                                 send_gotit_quickreply(sender_id, "Here's an explanation: "+ support_sentence)
                                 time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
                                 insert_score(sender_id,QID,"why",0,time)
