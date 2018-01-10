@@ -173,7 +173,10 @@ def webhook():
                             #sender_id]["answering"] = False
                             if show_status(sender_id):
                                 last_subject = show_last_qid_subject(sender_id)[1]
-                                question, QID = qa_model.pickSubjectRandomQuestion(last_subject)
+                                if last_subject == 'random' or last_subject == 'no record':
+                                    question, QID = qa_model.pickRandomQuestion()
+                                else:
+                                    question, QID = qa_model.pickSubjectRandomQuestion(last_subject)
                                 update_status(sender_id, 0)
                                 time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
                                 insert_question(sender_id,QID,last_subject,time)
@@ -219,7 +222,7 @@ def webhook():
                             send_mode_quick_reply(sender_id, "Now tell me which mode you would like to choose:"+u'\uD83D\uDC47') 
 
                         else:
-                            QID,SUBJECT = show_last_qid_subject(sender_id)[0]
+                            QID,SUBJECT = show_last_qid_subject(sender_id)
 
                             if message_text == "Quiz Mode "+u'\u270F':
                                 #app.session[sender_id]["answering"] = False
@@ -235,7 +238,10 @@ def webhook():
 
                                 if show_status(sender_id):
                                     last_subject = show_last_qid_subject(sender_id)[1]
-                                    question, QID = qa_model.pickSubjectRandomQuestion(last_subject)
+                                    if last_subject == 'random' or last_subject == 'no record':
+                                        question, QID = qa_model.pickRandomQuestion()
+                                    else:
+                                        question, QID = qa_model.pickSubjectRandomQuestion(last_subject)
                                     update_status(sender_id, 0)
                                     time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
                                     insert_question(sender_id,QID,last_subject,time)
@@ -266,7 +272,7 @@ def webhook():
                                 question, QID = qa_md.pickSubjectRandomQuestion(message_text)
                                 update_status(sender_id, 0)
                                 time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
-                                insert_question(sender_id,QID,SWITCH_SUBJUECT,time)
+                                insert_question(sender_id,QID,message_text.lower(),time)
                                 #app.session[sender_id] = {"QID": QID}
                                 send_message(sender_id, "Question."+str(QID)+": "+question)
 
@@ -274,7 +280,7 @@ def webhook():
                                 question, QID = qa_md.pickSubjectRandomQuestion(message_text)
                                 update_status(sender_id, 0)
                                 time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
-                                insert_question(sender_id,QID,SWITCH_SUBJUECT,time)
+                                insert_question(sender_id,QID,message_text.lower(),time)
                                 #app.session[sender_id] = {"QID": QID}
                                 send_message(sender_id, "Question."+str(QID)+": "+question)
 
@@ -282,7 +288,7 @@ def webhook():
                                 question, QID = qa_md.pickSubjectRandomQuestion(message_text)
                                 update_status(sender_id, 0)
                                 time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
-                                insert_question(sender_id,QID,time)
+                                insert_question(sender_id,QID,message_text.lower(),time)
                                 #app.session[sender_id] = {"QID": QID}
                                 send_message(sender_id, "Question."+str(QID)+": "+question)
 
@@ -290,7 +296,7 @@ def webhook():
                                 question, QID = qa_md.pickSubjectRandomQuestion(message_text)
                                 update_status(sender_id, 0)
                                 time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
-                                insert_question(sender_id,QID,time)
+                                insert_question(sender_id,QID,message_text.lower(),time)
                                 #app.session[sender_id] = {"QID": QID}
                                 send_message(sender_id, "Question."+str(QID)+": "+question)
                             
@@ -298,7 +304,7 @@ def webhook():
                                 question, QID = qa_md.pickSubjectRandomQuestion(message_text)
                                 update_status(sender_id, 0)
                                 time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
-                                insert_question(sender_id,QID,SWITCH_SUBJUECT,time)
+                                insert_question(sender_id,QID,message_text.lower(),time)
                                 #app.session[sender_id] = {"QID": QID}
                                 send_message(sender_id, "Question."+str(QID)+": "+question)
 
