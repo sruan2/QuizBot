@@ -41,7 +41,7 @@ class QAModel(object):
 
     def getAnswer(self, QID):
         print ("%"*50 + str(QID))
-		return self.QA_KB.AKB[QID].rstrip()
+        return self.QA_KB.AKB[QID].rstrip()
     
     @abstractmethod
     def pickNextSimilarQuestion(self): pass
