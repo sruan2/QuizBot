@@ -862,7 +862,7 @@ setup_app(app)
 if __name__ == '__main__':
     doc2vec = 'model_pre_trained/model_d2v_v1'
     question_file = 'SciQdataset-23/question_file_2.txt'
-    subject_file = 'SciQdataset-23/question_file_subject.txt'
+    subject_file = 'SciQdataset-23/question_file_2_subject.txt'
     support_file = 'SciQdataset-23/support_file_2.txt'
     answer_file = 'SciQdataset-23/correct_answer_file_2.txt'
 
