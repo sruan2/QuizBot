@@ -29,6 +29,7 @@ class QATransform():
         with open(SubjectFile, 'r') as f:
             i = 0
             for line in f:
+                print (line)
                 if line in self.SubKB.keys():
                     self.SubKB[line.rstrip()].append(i)
                 else:
