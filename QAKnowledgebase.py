@@ -27,13 +27,13 @@ class QATransform():
 
     def appendSubjectKB(self, SubjectFile):
         with open(SubjectFile, 'r') as f:
-            data = f.read()
-            for i in range(len(data)):
-                if data[i] in self.SubKB.keys():
-                    self.SubKB[data[i]].append(i)
+            i = 0
+            for line in f:
+                if line in self.SubKB.keys():
+                    self.SubKB[line].append(i)
                 else:
-                    self.SubKB[data[i]] = [i]
-                print (data[i])
+                    self.SubKB[line] = [i]
+                i += 1
         f.close()
         print("="*87+"\n"+"Subject KB is appended. Total Subject Count is: "+str(len(self.SubKB)))
 
