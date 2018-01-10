@@ -30,13 +30,12 @@ class QATransform():
             i = 0
             for line in f:
                 print (line)
-                if line in self.SubKB.keys():
+                if line.rstrip() in self.SubKB.keys():
                     self.SubKB[line.rstrip()].append(i)
                 else:
                     self.SubKB[line.rstrip()] = [i]
                 i += 1
         f.close()
-        print (self.SubKB)
         print("="*87+"\n"+"Subject KB is appended. Total Subject Count is: "+str(len(self.SubKB)))
 
     def appendSupportKB(self, SupportFile):
