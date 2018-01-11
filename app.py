@@ -330,7 +330,7 @@ def webhook():
                                     update_status(sender_id, 1) 
                                 else:
                                     update_status(sender_id, 1)
-                                    send_subject_quick_reply(sender_id, "Now tell me which subject you would like to choose:"+u'\uD83D\uDC47')
+                                    send_interesting(sender_id, "That sounds interesting. Would you want more quiz questions to practice? I’m here to help.")
 
 
     return "ok", 200
@@ -360,6 +360,34 @@ def send_message(recipient_id, message_text):
         log(r.status_code)
         log(r.text)
 
+
+def send_interesting(recipient_id, main_text):
+
+    params = {
+        "access_token": os.environ["PAGE_ACCESS_TOKEN"]
+    }
+    headers = {
+        "Content-Type": "application/json"
+    }
+    data = json.dumps({
+        "recipient": {
+            "id": recipient_id
+        },
+        "message": {
+            "text": main_text,
+            "quick_replies": [
+                {
+                    "content_type": "text",
+                    "title": "Sure!",
+                    "payload": "yup ready"
+                }
+            ]
+        }
+    })
+    r = requests.post("https://graph.facebook.com/v2.6/me/messages", params=params, headers=headers, data=data)
+    if r.status_code != 200:
+        log(r.status_code)
+        log(r.text)
 
 def send_ready_go(recipient_id, main_text):
 
