@@ -168,7 +168,7 @@ def webhook():
                             #app.session[sender_id] = {"QID": QID}
                             send_message(sender_id, "Question."+str(QID)+": "+question)
 
-                        elif message_text == 'switch subject' or 'sure':
+                        elif message_text == 'switch subject' or message_text[:4] == 'sure':
                             send_subject_quick_reply(sender_id, "Now tell me which subject you would like to choose:"+u'\uD83D\uDC47')
 
 
@@ -237,7 +237,7 @@ def webhook():
                                 insert_question(sender_id,'-11','SWITCH_SUBJUECT',time)
                                 print("\n-4- QID is: "+str(QID)+"\n")                                 
 
-                            elif message_text == "Next Question" or message_text == "Got it, next!" :
+                            elif message_text == "Next Question" or message_text == "Got it, next!" or message_text[:4] == "Sure":
                                 #app.session[sender_id]["answering"] = False
 
                                 if show_status(sender_id):
