@@ -330,7 +330,7 @@ def webhook():
                                     update_status(sender_id, 1) 
                                 else:
                                     update_status(sender_id, 1)
-                                    send_interesting(sender_id, "Awesome"+u'\uD83D\uDC47')
+                                    send_interesting(sender_id, "That sounds interesting. Would you want more quiz questions to practice? I’m here to help."+u'\uD83D\uDC47')
                                     #send_subject_quick_reply(sender_id, "Now tell me which subject you would like to choose:"+u'\uD83D\uDC47')
 
 
