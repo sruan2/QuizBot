@@ -60,7 +60,7 @@ class TFIDFModel(QAModel):
     def compute_score(self, user_answer, QID):
         user_answer = user_answer.lower()
         #picked_answer = self.QA_KB.AKB[QID].rstrip()
-        picked_answer = super().getAnswer(QID)
+        picked_answer = super(qa_kb).getAnswer(QID)
         answer = [picked_answer]
         answer.append(user_answer)
         self.tfidf_features = TfidfVectorizer().fit_transform(answer)
@@ -78,7 +78,7 @@ class Doc2VecModel(QAModel):
         num = randint(0, 1000)
         NextQID = self.MODEL.docvecs.most_similar(QID, topn = 1000)[num][0] # among top 1000 questions, pick one and then return question id
         #picked_question = self.QA_KB.QKB[NextQID].rstrip() # find the question based on the question id
-        picked_answer = getAnswer(QID)
+        picked_answer = super(qa_kb).getAnswer(QID)
         return picked_question, NextQID
 
 class SIFModel(QAModel):
@@ -89,7 +89,7 @@ class SIFModel(QAModel):
     def compute_score(self, user_answer, QID):
         user_answer = user_answer.lower()
         #picked_answer = self.QA_KB.AKB[QID].rstrip()
-        picked_answer = super().getAnswer(QID)
+        picked_answer = super(qa_kb).getAnswer(QID)
         score = sif_sentence_similarity.answer_similarity(user_answer, picked_answer)
         print("Similarity between the standard answer and yours is: " + str(int(score)))
         return score
