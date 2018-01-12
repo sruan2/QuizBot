@@ -60,7 +60,7 @@ class TFIDFModel(QAModel):
     def compute_score(self, user_answer, QID):
         user_answer = user_answer.lower()
         #picked_answer = self.QA_KB.AKB[QID].rstrip()
-        picked_answer = getAnswer(QID)
+        picked_answer = super().getAnswer(QID)
         answer = [picked_answer]
         answer.append(user_answer)
         self.tfidf_features = TfidfVectorizer().fit_transform(answer)
@@ -89,7 +89,7 @@ class SIFModel(QAModel):
     def compute_score(self, user_answer, QID):
         user_answer = user_answer.lower()
         #picked_answer = self.QA_KB.AKB[QID].rstrip()
-        picked_answer = getAnswer(QID)
+        picked_answer = super().getAnswer(QID)
         score = sif_sentence_similarity.answer_similarity(user_answer, picked_answer)
         print("Similarity between the standard answer and yours is: " + str(int(score)))
         return score
