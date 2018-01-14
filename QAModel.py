@@ -103,7 +103,7 @@ class SIF2Model(QAModel):
         self.tokenization(qa_kb.QKB, pkl_file)
 
 
-    def tokenization(qkb, pkl_file):
+    def tokenization(self, qkb, pkl_file):
         self.tokenizer = RegexpTokenizer(r'[\w]+')
         self.tokenized_sentences = preprocess(qkb, self.tokenizer)
         pkl = open(pkl_file, 'rb')
