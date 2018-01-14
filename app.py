@@ -322,7 +322,8 @@ def webhook():
                                     #standard_answer, score = tfidf_ins.computeScore(message_text, QID)
                                     standard_answer = qa_md.getAnswer(QID)
                                     #score = qa_sif.compute_score(message_text, QID)
-                                    score = qa_tfidf.compute_score(message_text, QID)
+                                    #score = qa_tfidf.compute_score(message_text, QID)
+                                    score = qa_sif2.compute_score(message_text, QID)
                                     send_message(sender_id, "Your score this round is "+str(score))
                                     time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
                                     #total_score = show_score(sender_id) + score
@@ -916,11 +917,13 @@ if __name__ == '__main__':
     subject_file = 'SciQdataset-23/question_file_2_subject.txt'
     support_file = 'SciQdataset-23/support_file_2.txt'
     answer_file = 'SciQdataset-23/correct_answer_file_2.txt'
+    pkl_file = 'sentence_similarity/glove/glove.6B/glove.6B.300d.pkl'
 
     qa_kb = QAKnowledgebase.QATransform(question_file, support_file, answer_file, subject_file)
     qa_md = QAModel.QAModel(qa_kb)
     qa_doc2vec = QAModel.Doc2VecModel(qa_kb, doc2vec)
     qa_sif = QAModel.SIFModel(qa_kb)
+    qa_sif2 = QAModel.SIF2Model(qa_kb, pkl_file)
     qa_tfidf = QAModel.TFIDFModel(qa_kb)
 
 
