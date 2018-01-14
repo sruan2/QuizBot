@@ -8,6 +8,8 @@ import random
 from random import randint
 import os
 import pickle
+from nltk import RegexpTokenizer
+
 
 class QAModel(object):
 
