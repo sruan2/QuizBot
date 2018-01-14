@@ -1,3 +1,5 @@
+import pandas as pd
+
 glove = pd.read_csv('/home/ubuntu/QuizBot/sentence_similarity/glove/glove.6B.300d.txt', sep=" ", quoting=3, header=None, index_col=0)
 glove2 = {key: val.values for key, val in glove.T.items()}
 
