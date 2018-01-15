@@ -1,3 +1,5 @@
+import sys
+sys.path.append("/home/venv/quizbot/QuizBot/")
 from abc import ABCMeta, abstractmethod
 from gensim.models import Doc2Vec
 #from sentence_similarity.princeton_sif import sif_sentence_similarity
