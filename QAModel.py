@@ -1,6 +1,6 @@
 from abc import ABCMeta, abstractmethod
 from gensim.models import Doc2Vec
-from sentence_similarity.princeton_sif import sif_sentence_similarity
+#from sentence_similarity.princeton_sif import sif_sentence_similarity
 from sentence_similarity.sif_implementation import model
 #from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import linear_kernel
@@ -86,18 +86,18 @@ class Doc2VecModel(QAModel):
         picked_answer = super(Doc2VecModel, self).getAnswer(QID)
         return picked_question, NextQID
 
-class SIFModel(QAModel):
-    """docstring for SIFModel"""
-    def __init__(self, qa_kb):
-        super(SIFModel, self).__init__(qa_kb)
+# class SIFModel(QAModel):
+#     """docstring for SIFModel"""
+#     def __init__(self, qa_kb):
+#         super(SIFModel, self).__init__(qa_kb)
 
-    def compute_score(self, user_answer, QID):
-        user_answer = user_answer.lower()
-        #picked_answer = self.QA_KB.AKB[QID].rstrip()
-        picked_answer = super(SIFModel, self).getAnswer(QID)
-        score = sif_sentence_similarity.answer_similarity(user_answer, picked_answer)
-        print("Similarity between the standard answer and yours is: " + str(int(score)))
-        return score
+#     def compute_score(self, user_answer, QID):
+#         user_answer = user_answer.lower()
+#         #picked_answer = self.QA_KB.AKB[QID].rstrip()
+#         picked_answer = super(SIFModel, self).getAnswer(QID)
+#         score = sif_sentence_similarity.answer_similarity(user_answer, picked_answer)
+#         print("Similarity between the standard answer and yours is: " + str(int(score)))
+#         return score
 
 class SIF2Model(QAModel):
     """docstring for SIF2Model"""
