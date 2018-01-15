@@ -8,7 +8,6 @@ from sklearn.metrics.pairwise import linear_kernel
 from random import randint
 from gensim.models import Doc2Vec
 import os
-import qa_model
 
 class tfidfTransform():
     # initialize the object with the offline-trained model file as an input
