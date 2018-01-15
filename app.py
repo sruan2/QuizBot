@@ -2,6 +2,7 @@ import os
 import sys
 import json
 #import tfidf
+sys.path.append("/home/venv/quizbot/QuizBot/")
 
 import QAKnowledgebase
 import QAModel
