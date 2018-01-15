@@ -122,7 +122,7 @@ class SIF2Model(QAModel):
         picked_answer_tokenized = self.tokenized_sentences[QID]
         query = [user_answer]
         tokenized_query = model.preprocess(query, self.tokenizer)
-        V_query = emb.transform(tokenized_query)
+        V_query = self.emb.transform(tokenized_query)
         #print("similarity: " + str(cosine_similarity(V_query[0], V[0]))+ "\n")
 
         score = model.cosine_similarity(V_query[0], picked_answer_tokenized)
