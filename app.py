@@ -627,7 +627,7 @@ def send_gotit_quickreply(recipient_id, sentence):
         log(r.text) 
 
 def log(message):  # simple wrapper for logging to stdout on heroku
-    print str(message)
+    print (str(message))
     sys.stdout.flush()
 
 # def predict(incoming_msg):
