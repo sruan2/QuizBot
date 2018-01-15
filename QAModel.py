@@ -1,8 +1,6 @@
 import sys
 sys.path.append("/home/venv/quizbot/QuizBot/")
 
-reload(sys)  
-sys.setdefaultencoding('utf8')
 from abc import ABCMeta, abstractmethod
 from gensim.models import Doc2Vec
 #from sentence_similarity.princeton_sif import sif_sentence_similarity
@@ -115,7 +113,7 @@ class SIF2Model(QAModel):
         self.tokenizer = RegexpTokenizer(r'[\w]+')
         self.tokenized_sentences = model.preprocess(qkb, self.tokenizer)
         pkl = open(pkl_file, 'rb')
-        glove = pickle.load(pkl)
+        glove = pickle.load(pkl, encoding='latin1')
         print("="*80+"\nloaded glove")
         self.emb = EmbeddingVectorizer(word_vectors=glove, weighted=True, R=True)
         self.V = self.emb.fit_transform(self.tokenized_sentences) # for QuizBot replace tokenized_sentences with the entire KB answers
