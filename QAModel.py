@@ -2,7 +2,7 @@ from abc import ABCMeta, abstractmethod
 from gensim.models import Doc2Vec
 from sentence_similarity.princeton_sif import sif_sentence_similarity
 from sentence_similarity.sif_implementation import model
-from sklearn.feature_extraction.text import TfidfVectorizer
+#from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import linear_kernel
 from sentence_similarity.sif_implementation.wordembeddings import EmbeddingVectorizer
 import random
@@ -15,10 +15,10 @@ from nltk import RegexpTokenizer
 class QAModel(object):
 
     def __init__(self, qa_kb):
-        print("\n" + str(os.getpid())+" tfidf QAModel begins\n")
+        print("\n" + str(os.getpid())+" QAModel begins\n")
         self.QID = 0
         self.QA_KB = qa_kb
-        print("\ntfidf initialization ends\n")
+        print("\QAModel initialization ends\n")
 
     def pickSubjectRandomQuestion(self, subject):
         print("=======================================================================================")
@@ -57,21 +57,21 @@ class QAModel(object):
     def computeScore(self): pass
 
 
-class TFIDFModel(QAModel):
-    """docstring for TFIDFModel"""
-    def __init__(self, qa_kb):
-        super(TFIDFModel, self).__init__(qa_kb)
+# class TFIDFModel(QAModel):
+#     """docstring for TFIDFModel"""
+#     def __init__(self, qa_kb):
+#         super(TFIDFModel, self).__init__(qa_kb)
 
-    def compute_score(self, user_answer, QID):
-        user_answer = user_answer.lower()
-        #picked_answer = self.QA_KB.AKB[QID].rstrip()
-        picked_answer = super(TFIDFModel, self).getAnswer(QID)
-        answer = [picked_answer]
-        answer.append(user_answer)
-        self.tfidf_features = TfidfVectorizer().fit_transform(answer)
-        cosine_similarities = linear_kernel(self.tfidf_features[0:1], self.tfidf_features).flatten()
-        print("Similarity between the standard answer and yours is: " + str(int(cosine_similarities[1]*10)))
-        return int(cosine_similarities[1]*10)   
+#     def compute_score(self, user_answer, QID):
+#         user_answer = user_answer.lower()
+#         #picked_answer = self.QA_KB.AKB[QID].rstrip()
+#         picked_answer = super(TFIDFModel, self).getAnswer(QID)
+#         answer = [picked_answer]
+#         answer.append(user_answer)
+#         self.tfidf_features = TfidfVectorizer().fit_transform(answer)
+#         cosine_similarities = linear_kernel(self.tfidf_features[0:1], self.tfidf_features).flatten()
+#         print("Similarity between the standard answer and yours is: " + str(int(cosine_similarities[1]*10)))
+#         return int(cosine_similarities[1]*10)   
 
 class Doc2VecModel(QAModel):
     """docstring for Doc2VecModel"""
