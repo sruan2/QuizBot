@@ -1,5 +1,8 @@
 import sys
 sys.path.append("/home/venv/quizbot/QuizBot/")
+
+reload(sys)  
+sys.setdefaultencoding('utf8')
 from abc import ABCMeta, abstractmethod
 from gensim.models import Doc2Vec
 #from sentence_similarity.princeton_sif import sif_sentence_similarity
