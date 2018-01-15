@@ -1,5 +1,5 @@
 import sys
-sys.path.append("/home/venv/quizbot/QuizBot/")
+sys.path.append("/home/venv/quizbot/QuizBot/sentence_similarity/sif_implementation")
 import numpy as np
 from wordembeddings import EmbeddingVectorizer
 from nltk import RegexpTokenizer
