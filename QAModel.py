@@ -113,7 +113,7 @@ class SIF2Model(QAModel):
         glove = pickle.load(pkl)
         print("="*80+"\nloaded glove")
         self.emb = EmbeddingVectorizer(word_vectors=glove, weighted=True, R=True)
-        self.V = emb.fit_transform(self.tokenized_sentences) # for QuizBot replace tokenized_sentences with the entire KB answers
+        self.V = self.emb.fit_transform(self.tokenized_sentences) # for QuizBot replace tokenized_sentences with the entire KB answers
 
     def compute_score(self, user_answer, QID):
         user_answer = user_answer.lower()
