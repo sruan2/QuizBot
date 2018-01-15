@@ -1,7 +1,7 @@
 import os
 import sys
 import json
-import tfidf
+#import tfidf
 
 import QAKnowledgebase
 import QAModel
