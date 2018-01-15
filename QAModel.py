@@ -6,7 +6,7 @@ from gensim.models import Doc2Vec
 from sentence_similarity.sif_implementation import model
 #from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import linear_kernel
-from sentence_similarity.sif_implementation.wordembeddings import EmbeddingVectorizer
+from .sentence_similarity.sif_implementation.wordembeddings import EmbeddingVectorizer
 import random
 from random import randint
 import os
