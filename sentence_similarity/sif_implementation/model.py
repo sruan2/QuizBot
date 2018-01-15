@@ -24,7 +24,7 @@ if __name__ == '__main__': # for testing
 
     tokenized_sentences = preprocess(sentences, tokenizer)
 
-    pkl = open('/Users/sherryruan/data/glove/glove.6B/glove.6B.300d.pkl', 'rb')
+    pkl = open('/Users/sherryruan/data/glove/glove.6B/glove.6B.100d.pkl', 'rb')
 
     glove = pickle.load(pkl)
 
