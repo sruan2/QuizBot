@@ -3,6 +3,7 @@ from __future__ import division
 
 import sys
 sys.path.append('../src')
+sys.path.append('/home/venv/quizbot/QuizBot/sentence_similarity/sif_implementation')
 import data_io, params, SIF_embedding
 import numpy as np
 
