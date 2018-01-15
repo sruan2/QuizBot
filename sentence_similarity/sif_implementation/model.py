@@ -1,5 +1,7 @@
+import sys
+sys.path.append("/home/venv/quizbot/QuizBot/")
 import numpy as np
-from .wordembeddings import EmbeddingVectorizer
+from wordembeddings import EmbeddingVectorizer
 from nltk import RegexpTokenizer
 import pickle
 
