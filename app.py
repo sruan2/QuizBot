@@ -917,7 +917,7 @@ if __name__ == '__main__':
     subject_file = 'SciQdataset-23/question_file_2_subject.txt'
     support_file = 'SciQdataset-23/support_file_2.txt'
     answer_file = 'SciQdataset-23/correct_answer_file_2.txt'
-    pkl_file = 'sentence_similarity/glove/glove.6B/glove.6B.300d.pkl'
+    pkl_file = 'sentence_similarity/glove/glove.6B/glove.6B.100d.pkl'
 
     qa_kb = QAKnowledgebase.QATransform(question_file, support_file, answer_file, subject_file)
     qa_md = QAModel.QAModel(qa_kb)
