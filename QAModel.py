@@ -128,6 +128,6 @@ class SIF2Model(QAModel):
         V_query = self.emb.transform(tokenized_query)
         #print("similarity: " + str(cosine_similarity(V_query[0], V[0]))+ "\n")
 
-        score = model.cosine_similarity(V_query[0], self.V[0])
+        score = model.cosine_similarity(V_query[0], self.V[QID])
         print("Similarity between the standard answer and yours is: " + str(int(score)))
         return score
