@@ -106,12 +106,12 @@ class SIF2Model(QAModel):
     """docstring for SIF2Model"""
     def __init__(self, qa_kb, pkl_file):
         super(SIF2Model, self).__init__(qa_kb)
-        self.tokenization(qa_kb.QKB, pkl_file)
+        self.tokenization(qa_kb.AKB, pkl_file)
 
 
-    def tokenization(self, qkb, pkl_file):
+    def tokenization(self, akb, pkl_file):
         self.tokenizer = RegexpTokenizer(r'[\w]+')
-        self.tokenized_sentences = model.preprocess(qkb, self.tokenizer)
+        self.tokenized_sentences = model.preprocess(akb, self.tokenizer)
         pkl = open(pkl_file, 'rb')
         glove = pickle.load(pkl, encoding='latin1')
         print("="*80+"\nloaded glove")
