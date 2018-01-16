@@ -49,5 +49,3 @@ if __name__ == '__main__': # for testing
 
     print("similarity: " + str(cosine_similarity(V_query[0], V[0]))+ "\n")
 
-
-
