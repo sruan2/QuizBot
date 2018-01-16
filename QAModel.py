@@ -106,10 +106,10 @@ class SIF2Model(QAModel):
     """docstring for SIF2Model"""
     def __init__(self, qa_kb, pkl_file):
         super(SIF2Model, self).__init__(qa_kb)
-        self.tokenization(qa_kb.AKB, pkl_file)
+        self.init_model(qa_kb.AKB, pkl_file)
 
 
-    def tokenization(self, akb, pkl_file):
+    def init_model(self, akb, pkl_file):
         self.tokenizer = RegexpTokenizer(r'[\w]+')
         print ("6"*200)
         print (akb[0])
@@ -119,6 +119,7 @@ class SIF2Model(QAModel):
         print("="*80+"\nloaded glove")
         self.emb = EmbeddingVectorizer(word_vectors=glove, weighted=True, R=True)
         self.V = self.emb.fit_transform(self.tokenized_sentences) # for QuizBot replace tokenized_sentences with the entire KB answers
+        print("finished init sif2 model")
 
     def compute_score(self, user_answer, QID):
         user_answer = user_answer.lower()
