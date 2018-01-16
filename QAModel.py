@@ -111,6 +111,8 @@ class SIF2Model(QAModel):
 
     def tokenization(self, akb, pkl_file):
         self.tokenizer = RegexpTokenizer(r'[\w]+')
+        print ("6"*200)
+        print (akb[0])
         self.tokenized_sentences = model.preprocess(akb, self.tokenizer)
         pkl = open(pkl_file, 'rb')
         glove = pickle.load(pkl, encoding='latin1')
