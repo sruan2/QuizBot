@@ -118,6 +118,8 @@ class SIF2Model(QAModel):
         glove = pickle.load(pkl, encoding='latin1')
         print("="*80+"\nloaded glove")
         self.emb = EmbeddingVectorizer(word_vectors=glove, weighted=True, R=True)
+        if [] in tokenized_sentences:
+            print("empty item found!")
         self.V = self.emb.fit_transform(self.tokenized_sentences) # for QuizBot replace tokenized_sentences with the entire KB answers
         print("finished init sif2 model")
 
