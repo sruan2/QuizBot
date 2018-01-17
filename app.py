@@ -9,7 +9,7 @@ import QAModel
 import sqlite3 as sql
 from random import randint
 from time import gmtime, strftime
-from sentence_similarity.princeton_sif import sif_sentence_similarity
+#from sentence_similarity.princeton_sif import sif_sentence_similarity
 
 import requests
 from flask import Flask, request
