@@ -4,7 +4,7 @@ sys.path.append("/home/venv/quizbot/QuizBot/")
 from abc import ABCMeta, abstractmethod
 from gensim.models import Doc2Vec
 #from sentence_similarity.princeton_sif import sif_sentence_similarity
-from sentence_similarity.sif_implementation import model
+#from sentence_similarity.sif_implementation import wordembeddings
 #from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import linear_kernel
 from sentence_similarity.sif_implementation.wordembeddings import EmbeddingVectorizer
