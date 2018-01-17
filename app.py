@@ -786,7 +786,8 @@ def show_top_10():
 ############ thread_setting ############
 def persistent_menu():
     params = {
-        "access_token": os.environ["PAGE_ACCESS_TOKEN"]
+        #"access_token": os.environ["PAGE_ACCESS_TOKEN"]
+        "access_token": "EAATy6mWWYHwBAMtHKuxZAj77n9NZCnXzLUctSwmpDzcjJARDPXALUZAQIpgmJg8ZAKjJB2pjOFeGSlecpWZCje5pEzACZCINnxW5NMJSTLffdL8eJbS3aMWLZBS4Hl9carC2qd1c5EX3r3HA0utkaqEfrt0mNte6ygT8oEEqjm2TAZDZD"
     }
     headers = {
         "Content-Type": "application/json"
@@ -848,7 +849,8 @@ def persistent_menu():
 
 def greeting():
     params = {
-        "access_token": os.environ["PAGE_ACCESS_TOKEN"]
+        #"access_token": os.environ["PAGE_ACCESS_TOKEN"]
+        "access_token": "EAATy6mWWYHwBAMtHKuxZAj77n9NZCnXzLUctSwmpDzcjJARDPXALUZAQIpgmJg8ZAKjJB2pjOFeGSlecpWZCje5pEzACZCINnxW5NMJSTLffdL8eJbS3aMWLZBS4Hl9carC2qd1c5EX3r3HA0utkaqEfrt0mNte6ygT8oEEqjm2TAZDZD"
     }
     headers = {
         "Content-Type": "application/json"
@@ -908,6 +910,7 @@ def setup_app(app):
     greeting()
     print("\nafter greeting\n")
     persistent_menu()
+
     
 
 setup_app(app)
@@ -918,7 +921,7 @@ if __name__ == '__main__':
     subject_file = 'SciQdataset-23/question_file_2_subject.txt'
     support_file = 'SciQdataset-23/support_file_2.txt'
     answer_file = 'SciQdataset-23/correct_answer_file_2.txt'
-    pkl_file = 'sentence_similarity/glove/glove.6B/glove.6B.100d.pkl'
+    pkl_file = 'data/glove/glove.6B.100d.pkl'
 
     qa_kb = QAKnowledgebase.QATransform(question_file, support_file, answer_file, subject_file)
     qa_md = QAModel.QAModel(qa_kb)

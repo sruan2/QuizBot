@@ -4,10 +4,10 @@ sys.path.append("/home/venv/quizbot/QuizBot/")
 from abc import ABCMeta, abstractmethod
 from gensim.models import Doc2Vec
 #from sentence_similarity.princeton_sif import sif_sentence_similarity
-#from sentence_similarity.sif_implementation import wordembeddings
 #from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import linear_kernel
 from sentence_similarity.sif_implementation.wordembeddings import EmbeddingVectorizer
+from sentence_similarity.sif_implementation import utils
 import random
 from random import randint
 import os
@@ -113,14 +113,21 @@ class SIF2Model(QAModel):
         self.tokenizer = RegexpTokenizer(r'[\w]+')
         print ("6"*200)
         print (akb[0])
-        self.tokenized_sentences = model.preprocess(akb, self.tokenizer)
+        self.tokenized_sentences = utils.preprocess(akb, self.tokenizer)
         pkl = open(pkl_file, 'rb')
         glove = pickle.load(pkl, encoding='latin1')
         print("="*80+"\nloaded glove")
-        self.emb = EmbeddingVectorizer(word_vectors=glove, weighted=True, R=True)
-        if [] in tokenized_sentences:
+        self.emb = EmbeddingVectorizer(word_vectors=glove, weighted=True, R=False)
+        if [] in self.tokenized_sentences:
             print("empty item found!")
+            sys.exit()
+        # testing
+        for idx, item in enumerate(self.tokenized_sentences[170:173]):
+            print(idx)
+            print(item)
+        #self.tokenized_sentences[self.tokenized_sentences.index(["chromoplasts"])] = "removed"
         self.V = self.emb.fit_transform(self.tokenized_sentences) # for QuizBot replace tokenized_sentences with the entire KB answers
+        
         print("finished init sif2 model")
 
     def compute_score(self, user_answer, QID):
@@ -129,10 +136,10 @@ class SIF2Model(QAModel):
         #picked_answer = super(SIF2Model, self).getAnswer(QID)
         picked_answer_tokenized = self.tokenized_sentences[QID]
         query = [user_answer]
-        tokenized_query = model.preprocess(query, self.tokenizer)
+        tokenized_query = utils.preprocess(query, self.tokenizer)
         V_query = self.emb.transform(tokenized_query)
         #print("similarity: " + str(cosine_similarity(V_query[0], V[0]))+ "\n")
 
-        score = model.cosine_similarity(V_query[0], self.V[QID])
+        score = utils.cosine_similarity(V_query[0], self.V[QID])
         print("Similarity between the standard answer and yours is: " + str(int(score)))
         return score

@@ -4,13 +4,7 @@ import numpy as np
 from wordembeddings import EmbeddingVectorizer
 from nltk import RegexpTokenizer
 import pickle
-
-def preprocess(sentences, tokenizer):
-    return [tokenizer.tokenize(q.lower()) for q in sentences]
-
-def cosine_similarity(v1, v2):
-    #return int(((np.dot(v1, v2.T) / (np.linalg.norm(v1) * np.linalg.norm(v2)))[0,0]+1)*5) # shape is (0,10)
-    return int(((np.dot(v1, v2.T) / (np.linalg.norm(v1) * np.linalg.norm(v2)))+1)*5) # shape is (0,10)
+from utils import *
 
 if __name__ == '__main__': # for testing
     sentences = ['this is an example sentence', 
@@ -20,12 +14,18 @@ if __name__ == '__main__': # for testing
                 'this is me',
                 'this is a different sentence',
                 'a flying bird',
-                'a bird flies',
-                'The bird is in the sky']
+                'a bird flisflies',
+                'chromoplasts',
+                #'magnetic field',
+                #'boiling point'
+                ]
 
     tokenizer = RegexpTokenizer(r'[\w]+')
 
     tokenized_sentences = preprocess(sentences, tokenizer)
+
+    for i in tokenized_sentences:
+        print(i)
 
     pkl = open('/Users/sherryruan/data/glove/glove.6B/glove.6B.100d.pkl', 'rb')
 
