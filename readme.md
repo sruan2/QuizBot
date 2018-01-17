@@ -12,7 +12,7 @@ It is based on a python template from: (https://tutorials.botsfloor.com/creating
 ## To Run
 This app is written in Python 3. 
 
-To enter the virutal environment, `source venv/bin/activate`
+To enter the virutal environment, `source venv/bin/activate`. To exit it, `deactivate`
 
 To run the application, `python app.py`
 
