@@ -786,8 +786,7 @@ def show_top_10():
 ############ thread_setting ############
 def persistent_menu():
     params = {
-        #"access_token": os.environ["PAGE_ACCESS_TOKEN"]
-        "access_token": "EAATy6mWWYHwBAMtHKuxZAj77n9NZCnXzLUctSwmpDzcjJARDPXALUZAQIpgmJg8ZAKjJB2pjOFeGSlecpWZCje5pEzACZCINnxW5NMJSTLffdL8eJbS3aMWLZBS4Hl9carC2qd1c5EX3r3HA0utkaqEfrt0mNte6ygT8oEEqjm2TAZDZD"
+        "access_token": os.environ["PAGE_ACCESS_TOKEN"]
     }
     headers = {
         "Content-Type": "application/json"
@@ -849,8 +848,8 @@ def persistent_menu():
 
 def greeting():
     params = {
-        #"access_token": os.environ["PAGE_ACCESS_TOKEN"]
-        "access_token": "EAATy6mWWYHwBAMtHKuxZAj77n9NZCnXzLUctSwmpDzcjJARDPXALUZAQIpgmJg8ZAKjJB2pjOFeGSlecpWZCje5pEzACZCINnxW5NMJSTLffdL8eJbS3aMWLZBS4Hl9carC2qd1c5EX3r3HA0utkaqEfrt0mNte6ygT8oEEqjm2TAZDZD"
+        "access_token": os.environ["PAGE_ACCESS_TOKEN"]
+        #"access_token": "EAATy6mWWYHwBAMtHKuxZAj77n9NZCnXzLUctSwmpDzcjJARDPXALUZAQIpgmJg8ZAKjJB2pjOFeGSlecpWZCje5pEzACZCINnxW5NMJSTLffdL8eJbS3aMWLZBS4Hl9carC2qd1c5EX3r3HA0utkaqEfrt0mNte6ygT8oEEqjm2TAZDZD"
     }
     headers = {
         "Content-Type": "application/json"
