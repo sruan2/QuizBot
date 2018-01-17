@@ -14,7 +14,7 @@ This app is written in Python 3.
 
 To enter the virutal environment, `source venv/bin/activate`. To exit it, `deactivate`
 
-To run the application, `python app.py`
+To run the application, `sudo python app.py`
 
 ## Dataset
 We use the science question dataset from Allen SciQ: http://data.allenai.org/sciq/
