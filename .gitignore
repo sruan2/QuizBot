@@ -109,3 +109,6 @@ ENV/
 # Pre-trained models
 sentence_similarity/glove/
 
+# Shell scripts
+*.sh
+
