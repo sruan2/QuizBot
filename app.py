@@ -323,8 +323,8 @@ def webhook():
                                     #standard_answer, score = tfidf_ins.computeScore(message_text, QID)
                                     standard_answer = qa_md.getAnswer(QID)
                                     #score = qa_sif.compute_score(message_text, QID)
-                                    score = qa_tfidf.compute_score(message_text, QID)
-                                    # score = qa_sif2.compute_score(message_text, QID)
+                                    # score = qa_tfidf.compute_score(message_text, QID)
+                                    score = qa_sif2.compute_score(message_text, QID)
                                     send_message(sender_id, "Your score this round is "+str(score))
                                     time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
                                     #total_score = show_score(sender_id) + score
@@ -926,8 +926,8 @@ if __name__ == '__main__':
     qa_md = QAModel.QAModel(qa_kb)
     qa_doc2vec = QAModel.Doc2VecModel(qa_kb, doc2vec)
     # qa_sif = QAModel.SIFModel(qa_kb)
-    # qa_sif2 = QAModel.SIF2Model(qa_kb, pkl_file)
-    qa_tfidf = QAModel.TFIDFModel(qa_kb)
+    qa_sif2 = QAModel.SIF2Model(qa_kb, pkl_file)
+    # qa_tfidf = QAModel.TFIDFModel(qa_kb)
 
 
 
