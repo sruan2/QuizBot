@@ -115,7 +115,7 @@ class SIF2Model(QAModel):
         print (akb[0])
         self.tokenized_sentences = utils.preprocess(akb, self.tokenizer)
         pkl = open(pkl_file, 'rb')
-        glove = pickle.load(pkl)
+        glove = pickle.load(pkl, encoding='latin1')
         print("="*80+"\nloaded glove")
         self.emb = EmbeddingVectorizer(word_vectors=glove, weighted=True, R=False)
         if [] in self.tokenized_sentences:
