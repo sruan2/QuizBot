@@ -6,7 +6,8 @@ sys.path.append("/home/venv/quizbot/QuizBot/")
 
 import QAKnowledgebase
 import QAModel
-import sqlite3 as sql
+#import sqlite3 as sql
+from flask_mysqldb import MySQL
 from random import randint
 from time import gmtime, strftime
 #from sentence_similarity.princeton_sif import sif_sentence_similarity
@@ -31,6 +32,7 @@ from flask import Flask, request
 
 
 app = Flask(__name__)
+mysql = MySQL(app)
 
 
 @app.route('/test', methods=['GET'])
