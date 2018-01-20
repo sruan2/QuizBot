@@ -91,7 +91,7 @@ def webhook():
                     # sender_name = messaging_event["sender"]["name"]     
                     recipient_id = messaging_event["recipient"]["id"]  
 
-                    if sender_id == "1139924072777403": #chatbot
+                    if sender_id == "1805880356153906": #chatbot
                         return "irrelavant ID", 200
 
                     if show_status(sender_id) != -1 and messaging_event.get("postback"):  # user clicked/tapped "postback" button in earlier message
@@ -670,7 +670,7 @@ def log(message):  # simple wrapper for logging to stdout on heroku
 def insert_user(user_id,user_firstname,user_lastname,user_gender,user_status):
     if request.method == 'POST':
         try:
-            with sql.connect("QUIZBOT.db") as con:
+            with mysql.connect("QUIZBOT.db") as con:
                 cur = con.cursor()            
                 cur.execute("INSERT INTO users (user_id,user_firstname,user_lastname,user_gender,user_status) VALUES (?,?,?,?,?)",(user_id,user_firstname,user_lastname,user_gender,user_status,))           
                 con.commit()
@@ -685,7 +685,7 @@ def insert_user(user_id,user_firstname,user_lastname,user_gender,user_status):
 def update_status(user_id,status):
     if request.method == 'POST':
         try:
-            with sql.connect("QUIZBOT.db") as con:
+            with mysql.connect("QUIZBOT.db") as con:
                 cur = con.cursor()            
                 cur.execute("update users set user_status = ? where user_id = ?",(status, user_id,))           
                 con.commit()
@@ -697,8 +697,8 @@ def update_status(user_id,status):
             con.close()      
 
 def show_status(user_id):
-    con = sql.connect("QUIZBOT.db")
-    con.row_factory = sql.Row
+    con = mysql.connect("QUIZBOT.db")
+    con.row_factory = mysql.Row
 
     cur = con.cursor()
     cur.execute("select user_status from users where user_id = ?", (user_id,))
@@ -713,7 +713,7 @@ def show_status(user_id):
 def insert_score(user_id,qid,answer,score,time):
     if request.method == 'POST':
         try:
-            with sql.connect("QUIZBOT.db") as con:
+            with mysql.connect("QUIZBOT.db") as con:
                 cur = con.cursor()            
                 cur.execute("INSERT INTO scores (user_id,qid,answer,score,r_time) VALUES (?,?,?,?,?)",(user_id,qid,answer,score,time,))           
                 con.commit()
@@ -728,7 +728,7 @@ def insert_score(user_id,qid,answer,score,time):
 def insert_question(user_id,qid,subject,time):
     if request.method == 'POST':
         try:
-            with sql.connect("QUIZBOT.db") as con:
+            with mysql.connect("QUIZBOT.db") as con:
                 cur = con.cursor()            
                 cur.execute("INSERT INTO questions (user_id,qid,subject,r_time) VALUES (?,?,?,?)",(user_id,qid,subject,time,))           
                 con.commit()
@@ -740,8 +740,8 @@ def insert_question(user_id,qid,subject,time):
             con.close()
 
 def show_user_id_list():
-    con = sql.connect("QUIZBOT.db")
-    con.row_factory = sql.Row
+    con = mysql.connect("QUIZBOT.db")
+    con.row_factory = mysql.Row
 
     cur = con.cursor()
     cur.execute("select user_id from users")
@@ -752,8 +752,8 @@ def show_user_id_list():
 
 # retrieve score based on user_id 
 def show_score(user_id):
-    con = sql.connect("QUIZBOT.db")
-    con.row_factory = sql.Row
+    con = mysql.connect("QUIZBOT.db")
+    con.row_factory = mysql.Row
 
     cur = con.cursor()
     cur.execute("select sum(score) from scores group by user_id having user_id = ?", (user_id,))
@@ -763,8 +763,8 @@ def show_score(user_id):
 
 # retrieve score based on user_id 
 def show_last_qid_subject(user_id):
-    con = sql.connect("QUIZBOT.db")
-    con.row_factory = sql.Row
+    con = mysql.connect("QUIZBOT.db")
+    con.row_factory = mysql.Row
 
     cur = con.cursor()
     cur.execute("select qid,subject from questions where user_id = ? order by id desc limit 1", (user_id,))
@@ -774,8 +774,8 @@ def show_last_qid_subject(user_id):
 
 # show top 10 in leaderboard
 def show_top_10():
-    con = sql.connect("QUIZBOT.db")
-    con.row_factory = sql.Row
+    con = mysql.connect("QUIZBOT.db")
+    con.row_factory = mysql.Row
 
     cur = con.cursor()
     cur.execute("select t2.user_firstname,t2.user_lastname,t1.sc from \
