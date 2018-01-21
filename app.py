@@ -675,17 +675,21 @@ def log(message):  # simple wrapper for logging to stdout on heroku
 # insert user info
 def insert_user(user_id,user_firstname,user_lastname,user_gender,user_status):
     if request.method == 'POST':
-        try:
-            con = mysql.connection
-            cur = con.cursor()           
-            cur.execute("INSERT INTO users (user_id,user_firstname,user_lastname,user_gender,user_status) VALUES ({},{},{},{},{}})".format(user_id,user_firstname,user_lastname,user_gender,user_status))           
-            con.commit()
-            print ("User record successfully added")
-        except:
-            con.rollback()
-            print ("error in inserting user reocrd operation")
-        finally:
-            con.close()    
+        # try:
+        #     con = mysql.connection
+        #     cur = con.cursor()           
+        #     cur.execute("INSERT INTO users (user_id,user_firstname,user_lastname,user_gender,user_status) VALUES ({},{},{},{},{}})".format(user_id,user_firstname,user_lastname,user_gender,user_status))           
+        #     con.commit()
+        #     print ("User record successfully added")
+        # except:
+        #     con.rollback()
+        #     print ("error in inserting user reocrd operation")
+        # finally:
+        #     con.close()  
+        con = mysql.connection
+        cur = con.cursor()           
+        cur.execute("INSERT INTO users (user_id,user_firstname,user_lastname,user_gender,user_status) VALUES ({},{},{},{},{}})".format(user_id,user_firstname,user_lastname,user_gender,user_status))           
+        con.commit()  
 
 # update user question-answer loop status
 def update_status(user_id,status):
