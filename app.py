@@ -741,7 +741,7 @@ def insert_question(user_id,qid,subject,time):
             con.close()
 
 def show_user_id_list():
-    con = mysql.connect()
+    con = mysql.connection
     con.row_factory = mysql.Row
 
     cur = con.cursor()
@@ -753,7 +753,7 @@ def show_user_id_list():
 
 # retrieve score based on user_id 
 def show_score(user_id):
-    con = mysql.connect()
+    con = mysql.connection
     con.row_factory = mysql.Row
 
     cur = con.cursor()
@@ -764,7 +764,7 @@ def show_score(user_id):
 
 # retrieve score based on user_id 
 def show_last_qid_subject(user_id):
-    con = mysql.connect()
+    con = mysql.connection
     con.row_factory = mysql.Row
 
     cur = con.cursor()
@@ -775,7 +775,7 @@ def show_last_qid_subject(user_id):
 
 # show top 10 in leaderboard
 def show_top_10():
-    con = mysql.connect()
+    con = mysql.connection
     con.row_factory = mysql.Row
 
     cur = con.cursor()
