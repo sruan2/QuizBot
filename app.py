@@ -687,8 +687,9 @@ def insert_user(user_id,user_firstname,user_lastname,user_gender,user_status):
         # finally:
         #     con.close()  
         con = mysql.connection
-        cur = con.cursor()           
-        cur.execute('''INSERT INTO users (user_id,user_firstname,user_lastname,user_gender,user_status) VALUES ({0},{1},{2},{3},{4})'''.format(user_id,user_firstname,user_lastname,user_gender,user_status))           
+        cur = con.cursor()    
+        print ()       
+        cur.execute("INSERT INTO users (user_id,user_firstname,user_lastname,user_gender,user_status) VALUES (%s, %s, %s, %s, %s)",(user_id,user_firstname,user_lastname,user_gender,user_status))           
         con.commit()  
 
 # update user question-answer loop status
