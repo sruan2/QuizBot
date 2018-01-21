@@ -1,7 +1,6 @@
 import os
 import sys
 import json
-import tfidf
 sys.path.append("/home/venv/quizbot/QuizBot/")
 
 import QAKnowledgebase
@@ -11,6 +10,7 @@ from flask_mysqldb import MySQL
 from random import randint
 from time import gmtime, strftime
 #from similarity_model.princeton_sif import sif_sentence_similarity
+from similarity_model import tfidf
 
 import requests
 from flask import Flask, request
