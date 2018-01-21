@@ -700,10 +700,7 @@ def update_status(user_id,status):
             con.close()      
 
 def show_status(user_id):
-    con = mysql.connection
-    con.row_factory = mysql.Row
-
-    cur = con.cursor()
+    cur = mysql.connection.cursor() 
     cur.execute("select user_status from users where user_id = ?", (user_id,))
 
     rows = cur.fetchall()
@@ -741,10 +738,7 @@ def insert_question(user_id,qid,subject,time):
             con.close()
 
 def show_user_id_list():
-    con = mysql.connection
-    con.row_factory = mysql.Row
-
-    cur = con.cursor()
+    cur = mysql.connection.cursor() 
     cur.execute("select user_id from users")
 
     rows = cur.fetchall()
@@ -753,10 +747,7 @@ def show_user_id_list():
 
 # retrieve score based on user_id 
 def show_score(user_id):
-    con = mysql.connection
-    con.row_factory = mysql.Row
-
-    cur = con.cursor()
+    cur = mysql.connection.cursor() 
     cur.execute("select sum(score) from scores group by user_id having user_id = ?", (user_id,))
 
     rows = cur.fetchall();
@@ -764,10 +755,7 @@ def show_score(user_id):
 
 # retrieve score based on user_id 
 def show_last_qid_subject(user_id):
-    con = mysql.connection
-    con.row_factory = mysql.Row
-
-    cur = con.cursor()
+    cur = mysql.connection.cursor() 
     cur.execute("select qid,subject from questions where user_id = ? order by id desc limit 1", (user_id,))
 
     rows = cur.fetchall();
@@ -775,10 +763,7 @@ def show_last_qid_subject(user_id):
 
 # show top 10 in leaderboard
 def show_top_10():
-    con = mysql.connection
-    con.row_factory = mysql.Row
-
-    cur = con.cursor()
+    cur = mysql.connection.cursor() 
     cur.execute("select t2.user_firstname,t2.user_lastname,t1.sc from \
         (select user_id, sum(score) as sc from scores group by user_id order by sc desc limit 10) t1 join users t2 on t2.user_id = t1.user_id")
 
