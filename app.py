@@ -675,11 +675,10 @@ def log(message):  # simple wrapper for logging to stdout on heroku
 def insert_user(user_id,user_firstname,user_lastname,user_gender,user_status):
     if request.method == 'POST':
         try:
-            with mysql.connect("QUIZBOT.db") as con:
-                cur = con.cursor()            
-                cur.execute("INSERT INTO users (user_id,user_firstname,user_lastname,user_gender,user_status) VALUES (?,?,?,?,?)",(user_id,user_firstname,user_lastname,user_gender,user_status,))           
-                con.commit()
-                print ("User record successfully added")
+            cur = mysql.connection.cursor()           
+            cur.execute("INSERT INTO users (user_id,user_firstname,user_lastname,user_gender,user_status) VALUES (?,?,?,?,?)",(user_id,user_firstname,user_lastname,user_gender,user_status,))           
+            con.commit()
+            print ("User record successfully added")
         except:
             con.rollback()
             print ("error in inserting user reocrd operation")
@@ -690,11 +689,10 @@ def insert_user(user_id,user_firstname,user_lastname,user_gender,user_status):
 def update_status(user_id,status):
     if request.method == 'POST':
         try:
-            with mysql.connect("QUIZBOT.db") as con:
-                cur = con.cursor()            
-                cur.execute("update users set user_status = ? where user_id = ?",(status, user_id,))           
-                con.commit()
-                print ("update status successfully added")
+            cur = mysql.connection.cursor()             
+            cur.execute("update users set user_status = ? where user_id = ?",(status, user_id,))           
+            con.commit()
+            print ("update status successfully added")
         except:
             con.rollback()
             print ("error in updating user status operation")
@@ -718,11 +716,10 @@ def show_status(user_id):
 def insert_score(user_id,qid,answer,score,time):
     if request.method == 'POST':
         try:
-            with mysql.connect("QUIZBOT.db") as con:
-                cur = con.cursor()            
-                cur.execute("INSERT INTO scores (user_id,qid,answer,score,r_time) VALUES (?,?,?,?,?)",(user_id,qid,answer,score,time,))           
-                con.commit()
-                print ("Score record successfully added")
+            cur = mysql.connection.cursor()              
+            cur.execute("INSERT INTO scores (user_id,qid,answer,score,r_time) VALUES (?,?,?,?,?)",(user_id,qid,answer,score,time,))           
+            con.commit()
+            print ("Score record successfully added")
         except:
             con.rollback()
             print ("error in inserting score operation")
@@ -733,11 +730,10 @@ def insert_score(user_id,qid,answer,score,time):
 def insert_question(user_id,qid,subject,time):
     if request.method == 'POST':
         try:
-            with mysql.connect("QUIZBOT.db") as con:
-                cur = con.cursor()            
-                cur.execute("INSERT INTO questions (user_id,qid,subject,r_time) VALUES (?,?,?,?)",(user_id,qid,subject,time,))           
-                con.commit()
-                print ("Questions record successfully added")
+            cur = mysql.connection.cursor()            
+            cur.execute("INSERT INTO questions (user_id,qid,subject,r_time) VALUES (?,?,?,?)",(user_id,qid,subject,time,))           
+            con.commit()
+            print ("Questions record successfully added")
         except:
             con.rollback()
             print ("error in inserting question operation")
@@ -745,7 +741,7 @@ def insert_question(user_id,qid,subject,time):
             con.close()
 
 def show_user_id_list():
-    con = mysql.connect("QUIZBOT.db")
+    con = mysql.connect()
     con.row_factory = mysql.Row
 
     cur = con.cursor()
@@ -757,7 +753,7 @@ def show_user_id_list():
 
 # retrieve score based on user_id 
 def show_score(user_id):
-    con = mysql.connect("QUIZBOT.db")
+    con = mysql.connect()
     con.row_factory = mysql.Row
 
     cur = con.cursor()
@@ -768,7 +764,7 @@ def show_score(user_id):
 
 # retrieve score based on user_id 
 def show_last_qid_subject(user_id):
-    con = mysql.connect("QUIZBOT.db")
+    con = mysql.connect()
     con.row_factory = mysql.Row
 
     cur = con.cursor()
@@ -779,7 +775,7 @@ def show_last_qid_subject(user_id):
 
 # show top 10 in leaderboard
 def show_top_10():
-    con = mysql.connect("QUIZBOT.db")
+    con = mysql.connect()
     con.row_factory = mysql.Row
 
     cur = con.cursor()
