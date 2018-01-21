@@ -1,6 +1,6 @@
 drop table if exists users;
 create table users(
-	user_id INTEGER primary key,
+	user_id bigint primary key,
 	user_firstname TEXT,
 	user_lastname TEXT,
 	user_gender TEXT,
@@ -9,8 +9,8 @@ create table users(
 
 drop table if exists scores;
 create table scores(
-	id INTEGER primary key AUTOINCREMENT,
-	user_id INTEGER,
+	id INTEGER primary key AUTO_INCREMENT,
+	user_id bigint,
 	qid INTEGER,
 	answer TEXT,
 	score INTEGER,
@@ -19,8 +19,8 @@ create table scores(
 
 drop table if exists questions;
 create table questions(
-	id INTEGER primary key AUTOINCREMENT,
-	user_id INTEGER,
+	id INTEGER primary key AUTO_INCREMENT,
+	user_id bigint,
 	qid INTEGER,
 	subject TEXT,
 	r_time TEXT

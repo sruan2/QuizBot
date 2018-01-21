@@ -685,8 +685,8 @@ def insert_user(user_id,user_firstname,user_lastname,user_gender,user_status):
         except:
             con.rollback()
             print ("error in inserting user reocrd operation")
-        finally:
-            con.close()  
+        # finally:
+        #     con.close()  
 
 
 # update user question-answer loop status
@@ -701,8 +701,8 @@ def update_status(user_id,status):
         except:
             con.rollback()
             print ("error in updating user status operation")
-        finally:
-            con.close()      
+        # finally:
+        #     con.close()      
 
 def show_status(user_id):
     cur = mysql.connection.cursor() 
@@ -726,8 +726,8 @@ def insert_score(user_id,qid,answer,score,time):
         except:
             con.rollback()
             print ("error in inserting score operation")
-        finally:
-            con.close()
+        # finally:
+        #     con.close()
 
 # insert asked questions
 def insert_question(user_id,qid,subject,time):
@@ -741,8 +741,8 @@ def insert_question(user_id,qid,subject,time):
         except:
             con.rollback()
             print ("error in inserting question operation")
-        finally:
-            con.close()
+        # finally:
+        #     con.close()
 
 def show_user_id_list():
     cur = mysql.connection.cursor() 
