@@ -701,7 +701,7 @@ def update_status(user_id,status):
 
 def show_status(user_id):
     cur = mysql.connection.cursor() 
-    cur.execute("select user_status from users where user_id = %s", (user_id))
+    cur.execute("select user_status from users where user_id = %s", [user_id])
 
     rows = cur.fetchall()
     if len(rows) != 0:
