@@ -718,7 +718,7 @@ def insert_score(user_id,qid,answer,score,time):
         try:
             con = mysql.connection
             cur = con.cursor()              
-            cur.execute("INSERT INTO scores (user_id,qid,answer,score,r_time) VALUES (%s,%s,%s,%s,%s)",[user_id,qid,answer,score,time])           
+            cur.execute("INSERT INTO scores (user_id,qid,answer,score,r_time) VALUES ({},{},{},{},{}})".format(user_id,qid,answer,score,time))           
             con.commit()
             print ("Score record successfully added")
         except:
