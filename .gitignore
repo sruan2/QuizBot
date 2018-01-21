@@ -107,7 +107,10 @@ ENV/
 *.db
 
 # Pre-trained models
-sentence_similarity/glove/
+model_pre_trained/glove/
+
+# venv symbolic link
+venv
 
 # Shell scripts
 *.sh
