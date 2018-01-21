@@ -220,6 +220,7 @@ def webhook():
                         message_text = messaging_event["message"]["text"]  # the message's text
 
                         data = get_user_profile(sender_id)
+                        print (data)
                         sender_firstname = data['first_name']
                         sender_lastname = data['last_name']
                         sender_gender = data['gender']
