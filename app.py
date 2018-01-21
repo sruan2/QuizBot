@@ -33,10 +33,11 @@ from flask import Flask, request
 
 app = Flask(__name__)
 mysql = MySQL(app)
-app.config['MYSQL_DATABASE_USER'] = 'ubuntu'
-app.config['MYSQL_DATABASE_PASSWORD'] = 'smartprimer'
-app.config['MYSQL_DATABASE_DB'] = 'QUIZBOT'
-app.config['MYSQL_DATABASE_HOST'] = 'localhost'
+
+app.config['MYSQL_HOST'] = 'localhost'
+app.config['MYSQL_USER'] = 'ubuntu'
+app.config['MYSQL_PASSWORD'] = 'smartprimer'
+app.config['MYSQL_DB'] = 'QUIZBOT'
 mysql.init_app(app)
 
 @app.route('/test', methods=['GET'])
