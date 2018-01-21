@@ -755,7 +755,7 @@ def show_user_id_list():
 # retrieve score based on user_id 
 def show_score(user_id):
     cur = mysql.connection.cursor() 
-    cur.execute("select sum(score) from scores group by user_id having user_id = %s", (user_id))
+    cur.execute("select sum(score) from scores group by user_id having user_id = %s", [user_id])
 
     rows = cur.fetchall();
     return rows[0][0] if len(rows) > 0 else 0
