@@ -676,7 +676,7 @@ def insert_user(user_id,user_firstname,user_lastname,user_gender,user_status):
     if request.method == 'POST':
         try:
             cur = mysql.connection.cursor()           
-            cur.execute("INSERT INTO users (user_id,user_firstname,user_lastname,user_gender,user_status) VALUES (?,?,?,?,?)",(user_id,user_firstname,user_lastname,user_gender,user_status,))           
+            cur.execute("INSERT INTO users (user_id,user_firstname,user_lastname,user_gender,user_status) VALUES (%s,%s,%s,%s,%s)",(user_id,user_firstname,user_lastname,user_gender,user_status))           
             con.commit()
             print ("User record successfully added")
         except:
@@ -690,7 +690,7 @@ def update_status(user_id,status):
     if request.method == 'POST':
         try:
             cur = mysql.connection.cursor()             
-            cur.execute("update users set user_status = ? where user_id = ?",(status, user_id,))           
+            cur.execute("update users set user_status = %s where user_id = %s",(status, user_id))           
             con.commit()
             print ("update status successfully added")
         except:
@@ -701,7 +701,7 @@ def update_status(user_id,status):
 
 def show_status(user_id):
     cur = mysql.connection.cursor() 
-    cur.execute("select user_status from users where user_id = ?", (user_id,))
+    cur.execute("select user_status from users where user_id = %s", (user_id))
 
     rows = cur.fetchall()
     if len(rows) != 0:
@@ -714,7 +714,7 @@ def insert_score(user_id,qid,answer,score,time):
     if request.method == 'POST':
         try:
             cur = mysql.connection.cursor()              
-            cur.execute("INSERT INTO scores (user_id,qid,answer,score,r_time) VALUES (?,?,?,?,?)",(user_id,qid,answer,score,time,))           
+            cur.execute("INSERT INTO scores (user_id,qid,answer,score,r_time) VALUES (%s,%s,%s,%s,%s)",(user_id,qid,answer,score,time))           
             con.commit()
             print ("Score record successfully added")
         except:
@@ -728,7 +728,7 @@ def insert_question(user_id,qid,subject,time):
     if request.method == 'POST':
         try:
             cur = mysql.connection.cursor()            
-            cur.execute("INSERT INTO questions (user_id,qid,subject,r_time) VALUES (?,?,?,?)",(user_id,qid,subject,time,))           
+            cur.execute("INSERT INTO questions (user_id,qid,subject,r_time) VALUES (%s,%s,%s,%s)",(user_id,qid,subject,time))           
             con.commit()
             print ("Questions record successfully added")
         except:
@@ -748,7 +748,7 @@ def show_user_id_list():
 # retrieve score based on user_id 
 def show_score(user_id):
     cur = mysql.connection.cursor() 
-    cur.execute("select sum(score) from scores group by user_id having user_id = ?", (user_id,))
+    cur.execute("select sum(score) from scores group by user_id having user_id = %s", (user_id))
 
     rows = cur.fetchall();
     return rows[0][0] if len(rows) > 0 else 0
@@ -756,7 +756,7 @@ def show_score(user_id):
 # retrieve score based on user_id 
 def show_last_qid_subject(user_id):
     cur = mysql.connection.cursor() 
-    cur.execute("select qid,subject from questions where user_id = ? order by id desc limit 1", (user_id,))
+    cur.execute("select qid,subject from questions where user_id = %s order by id desc limit 1", (user_id))
 
     rows = cur.fetchall();
     return (rows[0][0] if len(rows) > 0 else -1, rows[0][1] if len(rows) > 0 else 'no record')
