@@ -700,7 +700,7 @@ def update_status(user_id,status):
             con.close()      
 
 def show_status(user_id):
-    con = mysql.connect()
+    con = mysql.connection
     con.row_factory = mysql.Row
 
     cur = con.cursor()
