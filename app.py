@@ -763,7 +763,7 @@ def show_score(user_id):
 # retrieve score based on user_id 
 def show_last_qid_subject(user_id):
     cur = mysql.connection.cursor() 
-    cur.execute("select qid,subject from questions where user_id = %s order by id desc limit 1", (user_id))
+    cur.execute("select qid,subject from questions where user_id = %s order by id desc limit 1", [user_id])
 
     rows = cur.fetchall();
     return (rows[0][0] if len(rows) > 0 else -1, rows[0][1] if len(rows) > 0 else 'no record')
