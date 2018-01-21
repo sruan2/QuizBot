@@ -917,13 +917,15 @@ def setup_app(app):
 setup_app(app)
 
 if __name__ == '__main__':
+    # model
     doc2vec = 'model_pre_trained/model_d2v_v1'
+    pkl_file = 'model_pre_trained/glove/glove.6B.100d.pkl'
+    # qa data
     question_file = 'SciQdataset-23/question_file_2.txt'
     subject_file = 'SciQdataset-23/question_file_2_subject.txt'
     support_file = 'SciQdataset-23/support_file_2.txt'
     answer_file = 'SciQdataset-23/correct_answer_file_2.txt'
-    pkl_file = 'model_pre_trained/glove/glove.6B.100d.pkl'
-
+    
     qa_kb = QAKnowledgebase.QATransform(question_file, support_file, answer_file, subject_file)
     qa_md = QAModel.QAModel(qa_kb)
     qa_doc2vec = QAModel.Doc2VecModel(qa_kb, doc2vec)
