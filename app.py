@@ -678,7 +678,7 @@ def insert_user(user_id,user_firstname,user_lastname,user_gender,user_status):
         try:
             con = mysql.connection
             cur = con.cursor()           
-            cur.execute("INSERT INTO users (user_id,user_firstname,user_lastname,user_gender,user_status) VALUES (%s,%s,%s,%s,%s)",[user_id,user_firstname,user_lastname,user_gender,user_status])           
+            cur.execute("INSERT INTO users (user_id,user_firstname,user_lastname,user_gender,user_status) VALUES ({},{},{},{},{}})".format(user_id,user_firstname,user_lastname,user_gender,user_status))           
             con.commit()
             print ("User record successfully added")
         except:
