@@ -688,7 +688,7 @@ def insert_user(user_id,user_firstname,user_lastname,user_gender,user_status):
         #     con.close()  
         con = mysql.connection
         cur = con.cursor()           
-        cur.execute("INSERT INTO users (user_id,user_firstname,user_lastname,user_gender,user_status) VALUES ({},{},{},{},{}})".format(user_id,user_firstname,user_lastname,user_gender,user_status))           
+        cur.execute("INSERT INTO users (user_id,user_firstname,user_lastname,user_gender,user_status) VALUES ({},{},{},{},{})".format(user_id,user_firstname,user_lastname,user_gender,user_status))           
         con.commit()  
 
 # update user question-answer loop status
@@ -722,7 +722,7 @@ def insert_score(user_id,qid,answer,score,time):
         try:
             con = mysql.connection
             cur = con.cursor()              
-            cur.execute("INSERT INTO scores (user_id,qid,answer,score,r_time) VALUES ({},{},{},{},{}})".format(user_id,qid,answer,score,time))           
+            cur.execute("INSERT INTO scores (user_id,qid,answer,score,r_time) VALUES ({},{},{},{},{})".format(user_id,qid,answer,score,time))           
             con.commit()
             print ("Score record successfully added")
         except:
