@@ -10,7 +10,7 @@ import QAModel
 from flask_mysqldb import MySQL
 from random import randint
 from time import gmtime, strftime
-#from sentence_similarity.princeton_sif import sif_sentence_similarity
+#from similarity_model.princeton_sif import sif_sentence_similarity
 
 import requests
 from flask import Flask, request
@@ -922,7 +922,7 @@ if __name__ == '__main__':
     subject_file = 'SciQdataset-23/question_file_2_subject.txt'
     support_file = 'SciQdataset-23/support_file_2.txt'
     answer_file = 'SciQdataset-23/correct_answer_file_2.txt'
-    pkl_file = 'sentence_similarity/glove/glove.6B.100d.pkl'
+    pkl_file = 'similarity_model/glove/glove.6B.100d.pkl'
 
     qa_kb = QAKnowledgebase.QATransform(question_file, support_file, answer_file, subject_file)
     qa_md = QAModel.QAModel(qa_kb)

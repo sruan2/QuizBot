@@ -3,11 +3,11 @@ sys.path.append("/home/venv/quizbot/QuizBot/")
 
 from abc import ABCMeta, abstractmethod
 from gensim.models import Doc2Vec
-#from sentence_similarity.princeton_sif import sif_sentence_similarity
+#from similarity_model.princeton_sif import sif_sentence_similarity
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import linear_kernel
-from sentence_similarity.sif_implementation.wordembeddings import EmbeddingVectorizer
-from sentence_similarity.sif_implementation import utils
+from similarity_model.sif_implementation.wordembeddings import EmbeddingVectorizer
+from similarity_model.sif_implementation import utils
 import random
 from random import randint
 import os
