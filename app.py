@@ -96,7 +96,7 @@ def webhook():
                     # sender_name = messaging_event["sender"]["name"]     
                     recipient_id = messaging_event["recipient"]["id"]  
 
-                    if sender_id == "1805880356153906": #chatbot
+                    if sender_id == "854518728062939": #chatbot
                         return "irrelavant ID", 200
 
                     if show_status(sender_id) != -1 and messaging_event.get("postback"):  # user clicked/tapped "postback" button in earlier message
