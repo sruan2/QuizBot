@@ -107,7 +107,7 @@ ENV/
 *.db
 
 # Pre-trained models
-similarity_model/glove/
+model_pre_trained/glove/
 
 # venv symbolic link
 venv
