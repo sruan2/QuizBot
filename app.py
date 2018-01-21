@@ -676,7 +676,8 @@ def log(message):  # simple wrapper for logging to stdout on heroku
 def insert_user(user_id,user_firstname,user_lastname,user_gender,user_status):
     if request.method == 'POST':
         try:
-            cur = mysql.connection.cursor()           
+            con = mysql.connection
+            cur = con.cursor()           
             cur.execute("INSERT INTO users (user_id,user_firstname,user_lastname,user_gender,user_status) VALUES (%s,%s,%s,%s,%s)",(user_id,user_firstname,user_lastname,user_gender,user_status))           
             con.commit()
             print ("User record successfully added")
@@ -690,7 +691,8 @@ def insert_user(user_id,user_firstname,user_lastname,user_gender,user_status):
 def update_status(user_id,status):
     if request.method == 'POST':
         try:
-            cur = mysql.connection.cursor()             
+            con = mysql.connection
+            cur = con.cursor()             
             cur.execute("update users set user_status = %s where user_id = %s",(status, user_id))           
             con.commit()
             print ("update status successfully added")
@@ -714,7 +716,8 @@ def show_status(user_id):
 def insert_score(user_id,qid,answer,score,time):
     if request.method == 'POST':
         try:
-            cur = mysql.connection.cursor()              
+            con = mysql.connection
+            cur = con.cursor()              
             cur.execute("INSERT INTO scores (user_id,qid,answer,score,r_time) VALUES (%s,%s,%s,%s,%s)",(user_id,qid,answer,score,time))           
             con.commit()
             print ("Score record successfully added")
@@ -728,7 +731,8 @@ def insert_score(user_id,qid,answer,score,time):
 def insert_question(user_id,qid,subject,time):
     if request.method == 'POST':
         try:
-            cur = mysql.connection.cursor()            
+            con = mysql.connection
+            cur = con.cursor()            
             cur.execute("INSERT INTO questions (user_id,qid,subject,r_time) VALUES (%s,%s,%s,%s)",(user_id,qid,subject,time))           
             con.commit()
             print ("Questions record successfully added")
