@@ -32,13 +32,13 @@ from flask import Flask, request
 
 
 app = Flask(__name__)
-
+mysql = MySQL()
 
 app.config['MYSQL_HOST'] = 'localhost'
 app.config['MYSQL_USER'] = 'ubuntu'
 app.config['MYSQL_PASSWORD'] = 'smartprimer'
 app.config['MYSQL_DB'] = 'QUIZBOT'
-mysql = MySQL(app)
+mysql.init_app(app)
 
 @app.route('/test', methods=['GET'])
 def test():
