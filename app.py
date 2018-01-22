@@ -331,8 +331,8 @@ def webhook():
                                     #standard_answer, score = tfidf_ins.computeScore(message_text, QID)
                                     standard_answer = qa_md.getAnswer(QID)
                                     #score = qa_sif.compute_score(message_text, QID)
-                                    score = qa_tfidf.compute_score(message_text, QID)
-                                    # score = qa_sif2.compute_score(message_text, QID)
+                                    # score = qa_tfidf.compute_score(message_text, QID)
+                                    score = qa_sif2.compute_score(message_text, QID)
                                     send_message(sender_id, "Your score this round is "+str(score))
                                     time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
                                     #total_score = show_score(sender_id) + score
