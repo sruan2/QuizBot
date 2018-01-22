@@ -1,15 +1,16 @@
 import os
 import sys
 import json
-import tfidf
 sys.path.append("/home/venv/quizbot/QuizBot/")
 
 import QAKnowledgebase
 import QAModel
-import sqlite3 as sql
+#import sqlite3 as sql
+from flask_mysqldb import MySQL
 from random import randint
 from time import gmtime, strftime
-#from sentence_similarity.princeton_sif import sif_sentence_similarity
+#from similarity_model.princeton_sif import sif_sentence_similarity
+from similarity_model import tfidf
 
 import requests
 from flask import Flask, request
@@ -31,7 +32,13 @@ from flask import Flask, request
 
 
 app = Flask(__name__)
+mysql = MySQL()
 
+app.config['MYSQL_HOST'] = 'localhost'
+app.config['MYSQL_USER'] = 'ubuntu'
+app.config['MYSQL_PASSWORD'] = 'smartprimer'
+app.config['MYSQL_DB'] = 'QUIZBOT_DEV'
+mysql.init_app(app)
 
 @app.route('/test', methods=['GET'])
 def test():
@@ -89,7 +96,7 @@ def webhook():
                     # sender_name = messaging_event["sender"]["name"]     
                     recipient_id = messaging_event["recipient"]["id"]  
 
-                    if sender_id == "1497174250389598": #chatbot
+                    if sender_id == "854518728062939": #chatbot
                         return "irrelavant ID", 200
 
                     if show_status(sender_id) != -1 and messaging_event.get("postback"):  # user clicked/tapped "postback" button in earlier message
@@ -213,6 +220,7 @@ def webhook():
                         message_text = messaging_event["message"]["text"]  # the message's text
 
                         data = get_user_profile(sender_id)
+                        print (data)
                         sender_firstname = data['first_name']
                         sender_lastname = data['last_name']
                         sender_gender = data['gender']
@@ -261,12 +269,12 @@ def webhook():
                             #     answer = tfidf.Featurize(message_text)
                             #     send_message(sender_id, answer)    
 
-                            elif message_text[:4] == "Why?":
+                            elif message_text[:4] == "Hint":
                                 support_sentence = qa_md.getSupport(QID)[:600]
                                 #send_gotit_quickreply(sender_id, "Here's an explanation: "+ support_sentence)
-                                send_why2_quickreply(sender_id, "Here's an explanation: " + support_sentence)
+                                send_hint2_quickreply(sender_id, "Here's an explanation: " + support_sentence)
                                 time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
-                                insert_score(sender_id,QID,"why",0,time)
+                                insert_score(sender_id,QID,"hint",0,time)
 
                             elif message_text == "Check Total Score":
                                 print ("&"*50)
@@ -323,14 +331,14 @@ def webhook():
                                     #standard_answer, score = tfidf_ins.computeScore(message_text, QID)
                                     standard_answer = qa_md.getAnswer(QID)
                                     #score = qa_sif.compute_score(message_text, QID)
-                                    score = qa_tfidf.compute_score(message_text, QID)
-                                    # score = qa_sif2.compute_score(message_text, QID)
+                                    # score = qa_tfidf.compute_score(message_text, QID)
+                                    score = qa_sif2.compute_score(message_text, QID)
                                     send_message(sender_id, "Your score this round is "+str(score))
                                     time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
                                     #total_score = show_score(sender_id) + score
                                     insert_score(sender_id,QID,message_text,score,time)
                                     #update_db(sender_id, score)
-                                    send_why_quickreply(sender_id, QID, standard_answer)    
+                                    send_hint_quickreply(sender_id, QID, standard_answer)    
                                     update_status(sender_id, 1) 
                                 else:
                                     update_status(sender_id, 1)
@@ -506,9 +514,9 @@ def send_subject_quick_reply(recipient_id, main_text):
         log(r.status_code)
         log(r.text)  
 
-def send_why_quickreply(recipient_id, QID, standard_answer):
+def send_hint_quickreply(recipient_id, QID, standard_answer):
 
-    log("sending WHY button to {recipient}: {text}".format(recipient=recipient_id, text=str(QID)))
+    log("sending HINT button to {recipient}: {text}".format(recipient=recipient_id, text=str(QID)))
 
     params = {
         "access_token": os.environ["PAGE_ACCESS_TOKEN"]
@@ -525,8 +533,8 @@ def send_why_quickreply(recipient_id, QID, standard_answer):
             "quick_replies": [
                 {
                     "content_type": "text",
-                    "title": "Why?",
-                    "payload": "WHY_"+str(QID)
+                    "title": "Hint",
+                    "payload": "Hint"+str(QID)
                 },
                 {
                     "content_type": "text",
@@ -551,9 +559,9 @@ def send_why_quickreply(recipient_id, QID, standard_answer):
         log(r.status_code)
         log(r.text)
 
-def send_why2_quickreply(recipient_id, support_sentence):
+def send_hint2_quickreply(recipient_id, support_sentence):
 
-    #log("sending WHY button to {recipient}: {text}".format(recipient=recipient_id, text=str(QID)))
+    #log("sending HINT button to {recipient}: {text}".format(recipient=recipient_id, text=str(QID)))
 
     params = {
         "access_token": os.environ["PAGE_ACCESS_TOKEN"]
@@ -570,8 +578,8 @@ def send_why2_quickreply(recipient_id, support_sentence):
             "quick_replies": [
                 {
                     "content_type": "text",
-                    "title": "Why?",
-                    "payload": "WHY_"
+                    "title": "Hint",
+                    "payload": "HINT_"
                 },
                 {
                     "content_type": "text",
@@ -617,7 +625,7 @@ def send_gotit_quickreply(recipient_id, sentence):
                 {
                     "content_type": "text",
                     "title": "Got it, next!",
-                    "payload": "WHY"
+                    "payload": "HINT"
                 }
             ]
         }
@@ -668,38 +676,37 @@ def log(message):  # simple wrapper for logging to stdout on heroku
 def insert_user(user_id,user_firstname,user_lastname,user_gender,user_status):
     if request.method == 'POST':
         try:
-            with sql.connect("QUIZBOT.db") as con:
-                cur = con.cursor()            
-                cur.execute("INSERT INTO users (user_id,user_firstname,user_lastname,user_gender,user_status) VALUES (?,?,?,?,?)",(user_id,user_firstname,user_lastname,user_gender,user_status,))           
-                con.commit()
-                print ("User record successfully added")
+            con = mysql.connection
+            cur = con.cursor()    
+            print ()       
+            cur.execute("INSERT INTO users (user_id,user_firstname,user_lastname,user_gender,user_status) VALUES (%s, %s, %s, %s, %s)",(user_id,user_firstname,user_lastname,user_gender,user_status))           
+            con.commit()  
+            print ("User record successfully added")
         except:
             con.rollback()
             print ("error in inserting user reocrd operation")
-        finally:
-            con.close()    
+        # finally:
+        #     con.close()  
+
 
 # update user question-answer loop status
 def update_status(user_id,status):
     if request.method == 'POST':
         try:
-            with sql.connect("QUIZBOT.db") as con:
-                cur = con.cursor()            
-                cur.execute("update users set user_status = ? where user_id = ?",(status, user_id,))           
-                con.commit()
-                print ("update status successfully added")
+            con = mysql.connection
+            cur = con.cursor()             
+            cur.execute("update users set user_status = %s where user_id = %s",(status, user_id))           
+            con.commit()
+            print ("update status successfully added")
         except:
             con.rollback()
             print ("error in updating user status operation")
-        finally:
-            con.close()      
+        # finally:
+        #     con.close()      
 
 def show_status(user_id):
-    con = sql.connect("QUIZBOT.db")
-    con.row_factory = sql.Row
-
-    cur = con.cursor()
-    cur.execute("select user_status from users where user_id = ?", (user_id,))
+    cur = mysql.connection.cursor() 
+    cur.execute("select user_status from users where user_id = %s", [user_id])
 
     rows = cur.fetchall()
     if len(rows) != 0:
@@ -711,37 +718,34 @@ def show_status(user_id):
 def insert_score(user_id,qid,answer,score,time):
     if request.method == 'POST':
         try:
-            with sql.connect("QUIZBOT.db") as con:
-                cur = con.cursor()            
-                cur.execute("INSERT INTO scores (user_id,qid,answer,score,r_time) VALUES (?,?,?,?,?)",(user_id,qid,answer,score,time,))           
-                con.commit()
-                print ("Score record successfully added")
+            con = mysql.connection
+            cur = con.cursor()              
+            cur.execute("INSERT INTO scores (user_id,qid,answer,score,r_time) VALUES (%s, %s, %s, %s, %s)", (user_id,qid,answer,score,time))           
+            con.commit()
+            print ("Score record successfully added")
         except:
             con.rollback()
             print ("error in inserting score operation")
-        finally:
-            con.close()
+        # finally:
+        #     con.close()
 
 # insert asked questions
 def insert_question(user_id,qid,subject,time):
     if request.method == 'POST':
         try:
-            with sql.connect("QUIZBOT.db") as con:
-                cur = con.cursor()            
-                cur.execute("INSERT INTO questions (user_id,qid,subject,r_time) VALUES (?,?,?,?)",(user_id,qid,subject,time,))           
-                con.commit()
-                print ("Questions record successfully added")
+            con = mysql.connection
+            cur = con.cursor()            
+            cur.execute("INSERT INTO questions (user_id,qid,subject,r_time) VALUES (%s,%s,%s,%s)",(user_id,qid,subject,time))           
+            con.commit()
+            print ("Questions record successfully added")
         except:
             con.rollback()
             print ("error in inserting question operation")
-        finally:
-            con.close()
+        # finally:
+        #     con.close()
 
 def show_user_id_list():
-    con = sql.connect("QUIZBOT.db")
-    con.row_factory = sql.Row
-
-    cur = con.cursor()
+    cur = mysql.connection.cursor() 
     cur.execute("select user_id from users")
 
     rows = cur.fetchall()
@@ -750,34 +754,26 @@ def show_user_id_list():
 
 # retrieve score based on user_id 
 def show_score(user_id):
-    con = sql.connect("QUIZBOT.db")
-    con.row_factory = sql.Row
-
-    cur = con.cursor()
-    cur.execute("select sum(score) from scores group by user_id having user_id = ?", (user_id,))
+    cur = mysql.connection.cursor() 
+    cur.execute("select sum(score) from scores group by user_id having user_id = %s", [user_id])
 
     rows = cur.fetchall();
     return rows[0][0] if len(rows) > 0 else 0
 
 # retrieve score based on user_id 
 def show_last_qid_subject(user_id):
-    con = sql.connect("QUIZBOT.db")
-    con.row_factory = sql.Row
-
-    cur = con.cursor()
-    cur.execute("select qid,subject from questions where user_id = ? order by id desc limit 1", (user_id,))
+    cur = mysql.connection.cursor() 
+    cur.execute("select qid,subject from questions where user_id = %s order by id desc limit 1", [user_id])
 
     rows = cur.fetchall();
     return (rows[0][0] if len(rows) > 0 else -1, rows[0][1] if len(rows) > 0 else 'no record')
 
 # show top 10 in leaderboard
 def show_top_10():
-    con = sql.connect("QUIZBOT.db")
-    con.row_factory = sql.Row
-
-    cur = con.cursor()
+    cur = mysql.connection.cursor() 
     cur.execute("select t2.user_firstname,t2.user_lastname,t1.sc from \
-        (select user_id, sum(score) as sc from scores group by user_id order by sc desc limit 10) t1 join users t2 on t2.user_id = t1.user_id")
+        (select user_id, sum(score) as sc from scores group by user_id order by sc desc limit 10) t1 join users t2 on t2.user_id = t1.user_id \
+         order by t1.sc desc")
 
     rows = cur.fetchall();
     return rows
@@ -915,24 +911,26 @@ def setup_app(app):
 setup_app(app)
 
 if __name__ == '__main__':
+    # model
     doc2vec = 'model_pre_trained/model_d2v_v1'
+    pkl_file = 'model_pre_trained/glove/glove.6B.100d.pkl'
+    # qa data
     question_file = 'SciQdataset-23/question_file_2.txt'
     subject_file = 'SciQdataset-23/question_file_2_subject.txt'
     support_file = 'SciQdataset-23/support_file_2.txt'
     answer_file = 'SciQdataset-23/correct_answer_file_2.txt'
-    pkl_file = 'sentence_similarity/glove/glove.6B.100d.pkl'
-
+    
     qa_kb = QAKnowledgebase.QATransform(question_file, support_file, answer_file, subject_file)
     qa_md = QAModel.QAModel(qa_kb)
     qa_doc2vec = QAModel.Doc2VecModel(qa_kb, doc2vec)
     # qa_sif = QAModel.SIFModel(qa_kb)
-    # qa_sif2 = QAModel.SIF2Model(qa_kb, pkl_file)
-    qa_tfidf = QAModel.TFIDFModel(qa_kb)
+    qa_sif2 = QAModel.SIF2Model(qa_kb, pkl_file)
+    # qa_tfidf = QAModel.TFIDFModel(qa_kb)
 
 
 
     context = ('/etc/letsencrypt/live/smartprimer.org/fullchain.pem', '/etc/letsencrypt/live/smartprimer.org/privkey.pem')
-    app.run(host='0.0.0.0', threaded=True, debug=True, port=443, ssl_context=context)
+    app.run(host='0.0.0.0', threaded=True, debug=True, port=8443, ssl_context=context)
     #app.run(port=80,debug=True)
     # send_message(sender_id, str("Received. I'm here!"))
     # print(predict(raw_input("Enter something")))
