@@ -578,7 +578,7 @@ def send_hint2_quickreply(recipient_id, support_sentence):
             "quick_replies": [
                 {
                     "content_type": "text",
-                    "title": "HINT",
+                    "title": "Hint",
                     "payload": "HINT_"
                 },
                 {
