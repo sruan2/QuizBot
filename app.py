@@ -924,8 +924,8 @@ if __name__ == '__main__':
     qa_md = QAModel.QAModel(qa_kb)
     qa_doc2vec = QAModel.Doc2VecModel(qa_kb, doc2vec)
     # qa_sif = QAModel.SIFModel(qa_kb)
-    # qa_sif2 = QAModel.SIF2Model(qa_kb, pkl_file)
-    qa_tfidf = QAModel.TFIDFModel(qa_kb)
+    qa_sif2 = QAModel.SIF2Model(qa_kb, pkl_file)
+    # qa_tfidf = QAModel.TFIDFModel(qa_kb)
 
 
 
