@@ -3,11 +3,11 @@ sys.path.append("/home/venv/quizbot/QuizBot/")
 
 from abc import ABCMeta, abstractmethod
 from gensim.models import Doc2Vec
-#from sentence_similarity.princeton_sif import sif_sentence_similarity
+#from similarity_model.princeton_sif import sif_sentence_similarity
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import linear_kernel
-from sentence_similarity.sif_implementation.wordembeddings import EmbeddingVectorizer
-from sentence_similarity.sif_implementation import utils
+from similarity_model.sif_implementation.wordembeddings import EmbeddingVectorizer
+from similarity_model.sif_implementation import utils
 import random
 from random import randint
 import os
@@ -106,26 +106,21 @@ class SIF2Model(QAModel):
     """docstring for SIF2Model"""
     def __init__(self, qa_kb, pkl_file):
         super(SIF2Model, self).__init__(qa_kb)
-        self.init_model(qa_kb.AKB, pkl_file)
+        self.init_model(qa_kb.AKB, pkl_file) 
 
 
     def init_model(self, akb, pkl_file):
         self.tokenizer = RegexpTokenizer(r'[\w]+')
-        print ("6"*200)
-        print (akb[0])
+        # print ("6"*200)
+        # print (akb[0])
         self.tokenized_sentences = utils.preprocess(akb, self.tokenizer)
         pkl = open(pkl_file, 'rb')
-        glove = pickle.load(pkl)
+        glove = pickle.load(pkl, encoding='latin1')
         print("="*80+"\nloaded glove")
-        self.emb = EmbeddingVectorizer(word_vectors=glove, weighted=True, R=False)
+        self.emb = EmbeddingVectorizer(word_vectors=glove, weighted=True, R=False) # just use the simple weighted version without removing PCA
         if [] in self.tokenized_sentences:
-            print("empty item found!")
-            sys.exit()
-        # testing
-        for idx, item in enumerate(self.tokenized_sentences[170:173]):
-            print(idx)
-            print(item)
-        #self.tokenized_sentences[self.tokenized_sentences.index(["chromoplasts"])] = "removed"
+            print("[ERROR] empty item found!")
+            #sys.exit()
         self.V = self.emb.fit_transform(self.tokenized_sentences) # for QuizBot replace tokenized_sentences with the entire KB answers
         
         print("finished init sif2 model")
