@@ -37,7 +37,7 @@ mysql = MySQL()
 app.config['MYSQL_HOST'] = 'localhost'
 app.config['MYSQL_USER'] = 'ubuntu'
 app.config['MYSQL_PASSWORD'] = 'smartprimer'
-app.config['MYSQL_DB'] = 'QUIZBOT'
+app.config['MYSQL_DB'] = 'QUIZBOT_DEV'
 mysql.init_app(app)
 
 @app.route('/test', methods=['GET'])
