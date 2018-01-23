@@ -96,7 +96,8 @@ def webhook():
                     # sender_name = messaging_event["sender"]["name"]     
                     recipient_id = messaging_event["recipient"]["id"]  
 
-                    if sender_id == "854518728062939": #chatbot
+                    if sender_id == os.environ["CHATBOT_ID"]: 
+                    # "854518728062939" for development chatbot
                         return "irrelavant ID", 200
 
                     if show_status(sender_id) != -1 and messaging_event.get("postback"):  # user clicked/tapped "postback" button in earlier message
@@ -958,7 +959,7 @@ if __name__ == '__main__':
 
 
     context = ('/etc/letsencrypt/live/smartprimer.org/fullchain.pem', '/etc/letsencrypt/live/smartprimer.org/privkey.pem')
-    app.run(host='0.0.0.0', threaded=True, debug=True, port=8443, ssl_context=context)
+    app.run(host='0.0.0.0', threaded=True, debug=True, port=int(os.environ["PORT"]), ssl_context=context)
     #app.run(port=80,debug=True)
     # send_message(sender_id, str("Received. I'm here!"))
     # print(predict(raw_input("Enter something")))

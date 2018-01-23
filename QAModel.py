@@ -111,8 +111,6 @@ class SIF2Model(QAModel):
 
     def init_model(self, akb, pkl_file):
         self.tokenizer = RegexpTokenizer(r'[\w]+')
-        # print ("6"*200)
-        # print (akb[0])
         self.tokenized_sentences = utils.preprocess(akb, self.tokenizer)
         pkl = open(pkl_file, 'rb')
         glove = pickle.load(pkl, encoding='latin1')
@@ -126,15 +124,23 @@ class SIF2Model(QAModel):
         print("finished init sif2 model")
 
     def compute_score(self, user_answer, QID):
-        user_answer = user_answer.lower()
-        #picked_answer = self.QA_KB.AKB[QID].rstrip()
-        #picked_answer = super(SIF2Model, self).getAnswer(QID)
-        picked_answer_tokenized = self.tokenized_sentences[QID]
-        query = [user_answer]
-        tokenized_query = utils.preprocess(query, self.tokenizer)
-        V_query = self.emb.transform(tokenized_query)
+        with open("log", "a+") as f:
+            #query = [user_answer]
+            tokenized_query = utils.preprocess(user_answer, self.tokenizer)
+            V_query = self.emb.transform(tokenized_query)
+            f.write("\nuser_answer: "+ user_answer)
+            f.write("\ntokenized_query length: " + str(len(tokenized_query))) # 1
+            f.write("\ntokenized_query[0] type: " + str(type(tokenized_query[0]))) #list
+            for t in tokenized_query:
+                f.write("\n"+str(t))
+            #f.write("V_query")
+            #f.write(V_query) #numpy.ndarray
+            f.write("\nV_query shape: "+ str(V_query.shape))
+            f.write("\nV_query[0] shape is: " + str(V_query[0].shape))
+            f.write(" self.V[QID] shape is: " + str(self.V[QID].shape))
         #print("similarity: " + str(cosine_similarity(V_query[0], V[0]))+ "\n")
 
         score = utils.cosine_similarity(V_query[0], self.V[QID])
+
         print("Similarity between the standard answer and yours is: " + str(int(score)))
         return score
