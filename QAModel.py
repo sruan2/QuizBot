@@ -106,6 +106,7 @@ class SIF2Model(QAModel):
     """docstring for SIF2Model"""
     def __init__(self, qa_kb, pkl_file):
         super(SIF2Model, self).__init__(qa_kb)
+        self.AKB = qa_kb
         self.init_model(qa_kb.AKB, pkl_file) 
 
 
@@ -140,7 +141,7 @@ class SIF2Model(QAModel):
             f.write("\nV_query[0] shape is: " + str(V_query[0].shape))
             f.write(" self.V[QID] shape is: " + str(self.V[QID].shape))
             f.write("\nQID is: " + str(QID))
-            f.write("\nAKB[QID] is: " + AKB(QID))
+            f.write("\nAKB[QID] is: " + self.AKB(QID))
             f.write("\nself.V[QID] is: " + str(self.V[QID]))
         #print("similarity: " + str(cosine_similarity(V_query[0], V[0]))+ "\n")
 
