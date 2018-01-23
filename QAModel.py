@@ -133,5 +133,6 @@ class SIF2Model(QAModel):
         #print("similarity: " + str(cosine_similarity(V_query[0], V[0]))+ "\n")
 
         score = utils.cosine_similarity(V_query[0], self.V[QID])
+        sys.exit()
         print("Similarity between the standard answer and yours is: " + str(int(score)))
         return score
