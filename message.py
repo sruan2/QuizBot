@@ -1,3 +1,5 @@
+import os
+import json
 
 def send_message(recipient_id, message_text):
 
