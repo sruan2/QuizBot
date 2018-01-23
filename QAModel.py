@@ -128,8 +128,7 @@ class SIF2Model(QAModel):
                 if (v != v).any():
                     f.write("[NAN] " + str(idx) +" " + akb[idx])
         
-        
-        print("finished init sif2 model")
+            f.write("finished init sif2 model")
 
     def compute_score(self, user_answer, QID):
         with open("log", "a+") as f:
