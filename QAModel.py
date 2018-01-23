@@ -111,8 +111,6 @@ class SIF2Model(QAModel):
 
     def init_model(self, akb, pkl_file):
         self.tokenizer = RegexpTokenizer(r'[\w]+')
-        # print ("6"*200)
-        # print (akb[0])
         self.tokenized_sentences = utils.preprocess(akb, self.tokenizer)
         pkl = open(pkl_file, 'rb')
         glove = pickle.load(pkl, encoding='latin1')
@@ -126,13 +124,12 @@ class SIF2Model(QAModel):
         print("finished init sif2 model")
 
     def compute_score(self, user_answer, QID):
-        user_answer = user_answer.lower()
-        #picked_answer = self.QA_KB.AKB[QID].rstrip()
-        #picked_answer = super(SIF2Model, self).getAnswer(QID)
         picked_answer_tokenized = self.tokenized_sentences[QID]
         query = [user_answer]
         tokenized_query = utils.preprocess(query, self.tokenizer)
         V_query = self.emb.transform(tokenized_query)
+        print("==========\nV_query[0] shape is: " + str(V_query[0].shape))
+        print("self.V[QID] shape is: " + str(self.V[QID].shape))
         #print("similarity: " + str(cosine_similarity(V_query[0], V[0]))+ "\n")
 
         score = utils.cosine_similarity(V_query[0], self.V[QID])
