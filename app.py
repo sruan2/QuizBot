@@ -955,7 +955,7 @@ if __name__ == '__main__':
     model = os.envirn("MODEL")
     if model == "TFIDF":
         qa_model = QAModel.TFIDFModel(qa_kb)
-    elif model == "SIF:
+    elif model == "SIF":
         qa_model = QAModel.SIFModel(qa_kb)
     elif model == "SIF2":
         qa_model = QAModel.SIF2Model(qa_kb, pkl_file)
