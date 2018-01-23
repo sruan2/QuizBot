@@ -146,11 +146,17 @@ class SIF2Model(QAModel):
                 f.write("\n"+str(t))
             #f.write("V_query")
             #f.write(V_query) #numpy.ndarray
-            # f.write("\nV_query shape: "+ str(V_query.shape))
-            # f.write("\nV_query[0] shape is: " + str(V_query[0].shape))
+            f.write("\nV_query shape: "+ str(V_query.shape))
+            f.write("\nV_query[0] shape is: " + str(V_query[0].shape))
             #f.write(" self.V[QID] shape is: " + str(self.V[QID].shape))
             f.write("\nQID is: " + str(QID))
             f.write("\nAKB[QID] is: " + self.AKB[QID])
+             f.write("\ntokenized_answer length: " + str(len(tokenized_answer))) # 1
+            f.write("\ntokenized_answer[0] type: " + str(type(tokenized_answer[0]))) #list
+            for t in tokenized_answer
+                f.write("\n"+str(t))
+             f.write("\nV_answer shape: "+ str(V_answer.shape))
+            f.write("\nV_answer[0] shape is: " + str(V_answer[0].shape))
             #f.write("\nself.V[QID] is: " + str(self.V[QID]))
         #print("similarity: " + str(cosine_similarity(V_query[0], V[0]))+ "\n")
 
