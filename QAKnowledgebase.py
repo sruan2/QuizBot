@@ -15,10 +15,9 @@ class QATransform():
         self.appendCorrectAnswerKB(CorrectAnswerFile)
         self.appendSubjectKB(SubjectFile)
 
-        assert(len(QuestionFile) == len(SupportFile))
-        assert(len(QuestionFile) == len(CorrectAnswerFile))
-        assert(len(QuestionFile) == len(SubjectFile))
-
+        assert(len(self.QKB) == len(self.SKB))
+        assert(len(self.QKB) == len(self.AKB))
+        
         print("\n" + str(os.getpid()) + "Finished QA knowledgebase Construction\n")
     
     def appendQuestionKB(self, QuestionFile):
@@ -38,8 +37,10 @@ class QATransform():
                 else:
                     self.SubKB[line.rstrip()] = [i]
                 i += 1
-        f.close()
+        assert(i == self.KBlength)
         print("="*87+"\n"+"Subject KB is appended. Total Subject Count is: "+str(len(self.SubKB)))
+        print("="*87+"\n"+"Subject KB is appended. Length is: "+str(i))
+
 
     def appendSupportKB(self, SupportFile):
         with open(SupportFile, 'r') as f:
