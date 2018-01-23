@@ -55,21 +55,3 @@ class QATransform():
             for line in f:
                 self.AKB.append(line)
         print("="*87+"\n"+"Correct Answer KB is appended. Length is: "+str(len(self.AKB)))
-
-
-    # def LoadQuery(self):
-    #     query = raw_input("="*87+"\n"+"Enter a query: ")
-    #     print("="*87+"\n"+"Your query is: "+query)
-    #     self.QKB = [query] + self.QKB # concat
-    #     self.query = query
-    #     return query 
-    
-    # def Featurize(self, query):
-    #     self.QKB = [query] + self.QKB # concat
-    #     self.tfidf_features = TfidfVectorizer().fit_transform(self.QKB)
-    #     cosine_similarities = linear_kernel(self.tfidf_features[0:1], self.tfidf_features).flatten()
-    #     related_docs_indices = cosine_similarities.argsort()[:-10:-1]
-    #     index = related_docs_indices[1]
-        
-    #     print("Here is the answer!\n")
-    #     return self.AKB[int(index)-1]

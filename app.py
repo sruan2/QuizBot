@@ -1,8 +1,7 @@
 import os
-import sys
 import json
+import sys
 sys.path.append("/home/venv/quizbot/QuizBot/")
-
 import QAKnowledgebase
 import QAModel
 #import sqlite3 as sql
@@ -11,9 +10,7 @@ from random import randint
 from time import gmtime, strftime
 #from similarity_model.princeton_sif import sif_sentence_similarity
 from similarity_model import tfidf
-
 from flask import Flask, request
-
 from message import *
 
 
@@ -33,8 +30,8 @@ from message import *
 
 
 app = Flask(__name__)
-mysql = MySQL()
 
+mysql = MySQL()
 app.config['MYSQL_HOST'] = os.environ["DB_HOST"]
 app.config['MYSQL_USER'] = os.environ["DB_USER"]
 app.config['MYSQL_PASSWORD'] = os.environ["DB_PASSWORD"]
@@ -345,8 +342,6 @@ def webhook():
                                     send_interesting(sender_id, "That sounds interesting. Would you want more quiz questions to practice? I'm here to help :) ")
                                     
                                     #send_subject_quick_reply(sender_id, "Now tell me which subject you would like to choose:"+u'\uD83D\uDC47')
-
-
     return "ok", 200
 
 # ========================= Database =========================
