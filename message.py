@@ -1,5 +1,6 @@
 import os
 import json
+import requests
 
 def send_message(recipient_id, message_text):
 
