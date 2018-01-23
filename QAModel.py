@@ -15,6 +15,7 @@ import pickle
 from nltk import RegexpTokenizer
 
 
+
 class QAModel(object):
 
     def __init__(self, qa_kb):
@@ -106,35 +107,59 @@ class SIF2Model(QAModel):
     """docstring for SIF2Model"""
     def __init__(self, qa_kb, pkl_file):
         super(SIF2Model, self).__init__(qa_kb)
-        self.init_model(qa_kb.AKB, pkl_file) 
+        self.AKB = qa_kb.AKB
+        self.init_model(qa_kb.SKB, pkl_file)  # use support to fit
 
 
     def init_model(self, akb, pkl_file):
         self.tokenizer = RegexpTokenizer(r'[\w]+')
-        # print ("6"*200)
-        # print (akb[0])
         self.tokenized_sentences = utils.preprocess(akb, self.tokenizer)
         pkl = open(pkl_file, 'rb')
         glove = pickle.load(pkl, encoding='latin1')
         print("="*80+"\nloaded glove")
         self.emb = EmbeddingVectorizer(word_vectors=glove, weighted=True, R=False) # just use the simple weighted version without removing PCA
-        if [] in self.tokenized_sentences:
-            print("[ERROR] empty item found!")
-            #sys.exit()
-        self.V = self.emb.fit_transform(self.tokenized_sentences) # for QuizBot replace tokenized_sentences with the entire KB answers
+        # if [] in self.tokenized_sentences:
+        #     with open("log", "a+") as f:
+        #         f.write("[ERROR] empty item found!")
+        #     #sys.exit()
+        # self.V = self.emb.fit_transform(self.tokenized_sentences) # for QuizBot replace tokenized_sentences with the entire KB answers
+        # with open("log", "a+") as f:
+        #     for idx, v in enumerate(self.V):
+        #         if (v != v).any():
+        #             f.write("[NAN] " + str(idx) +" " + akb[idx])
         
-        print("finished init sif2 model")
+        #     f.write("finished init sif2 model")
 
     def compute_score(self, user_answer, QID):
-        user_answer = user_answer.lower()
-        #picked_answer = self.QA_KB.AKB[QID].rstrip()
-        #picked_answer = super(SIF2Model, self).getAnswer(QID)
-        picked_answer_tokenized = self.tokenized_sentences[QID]
-        query = [user_answer]
-        tokenized_query = utils.preprocess(query, self.tokenizer)
-        V_query = self.emb.transform(tokenized_query)
+        with open("log", "a+") as f:
+            tokenized_query = utils.preprocess([user_answer], self.tokenizer)
+            V_query = self.emb.transform(tokenized_query)
+
+            tokenized_answer = utils.preprocess([self.AKB[QID]], self.tokenizer)
+            V_answer = self.emb.transform(tokenized_answer)
+
+            f.write("\nuser_answer: "+ user_answer)
+            f.write("\ntokenized_query length: " + str(len(tokenized_query))) # 1
+            f.write("\ntokenized_query[0] type: " + str(type(tokenized_query[0]))) #list
+            for t in tokenized_query:
+                f.write("\n"+str(t))
+            #f.write("V_query")
+            #f.write(V_query) #numpy.ndarray
+            f.write("\nV_query shape: "+ str(V_query.shape))
+            f.write("\nV_query[0] shape is: " + str(V_query[0].shape))
+            #f.write(" self.V[QID] shape is: " + str(self.V[QID].shape))
+            f.write("\nQID is: " + str(QID))
+            f.write("\nAKB[QID] is: " + self.AKB[QID])
+            f.write("\ntokenized_answer length: " + str(len(tokenized_answer))) # 1
+            f.write("\ntokenized_answer[0] type: " + str(type(tokenized_answer[0]))) #list
+            for t in tokenized_answer:
+                f.write("\n"+str(t))
+            f.write("\nV_answer shape: "+ str(V_answer.shape))
+            f.write("\nV_answer[0] shape is: " + str(V_answer[0].shape))
+            #f.write("\nself.V[QID] is: " + str(self.V[QID]))
         #print("similarity: " + str(cosine_similarity(V_query[0], V[0]))+ "\n")
 
-        score = utils.cosine_similarity(V_query[0], self.V[QID])
+        score = utils.cosine_similarity(V_query[0], V_answer[0])
+
         print("Similarity between the standard answer and yours is: " + str(int(score)))
         return score
