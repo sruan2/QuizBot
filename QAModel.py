@@ -15,7 +15,6 @@ import pickle
 from nltk import RegexpTokenizer
 
 
-
 class QAModel(object):
 
     def __init__(self, qa_kb):
@@ -103,6 +102,7 @@ class SIFModel(QAModel):
         print("Similarity between the standard answer and yours is: " + str(int(score)))
         return score
 
+################### Sherry is fixing this, please do not touch ######################
 class SIF2Model(QAModel):
     """docstring for SIF2Model"""
     def __init__(self, qa_kb, pkl_file):
