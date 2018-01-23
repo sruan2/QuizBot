@@ -12,7 +12,6 @@ from time import gmtime, strftime
 #from similarity_model.princeton_sif import sif_sentence_similarity
 from similarity_model import tfidf
 
-import requests
 from flask import Flask, request
 
 from message import *
