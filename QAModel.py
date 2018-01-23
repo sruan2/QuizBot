@@ -140,6 +140,7 @@ class SIF2Model(QAModel):
             f.write("\nV_query[0] shape is: " + str(V_query[0].shape))
             f.write(" self.V[QID] shape is: " + str(self.V[QID].shape))
             f.write("\nQID is: " + str(QID))
+            f.write("\nAKB[QID] is: " + AKB(QID))
             f.write("\nself.V[QID] is: " + str(self.V[QID]))
         #print("similarity: " + str(cosine_similarity(V_query[0], V[0]))+ "\n")
 
