@@ -132,9 +132,9 @@ class SIF2Model(QAModel):
             f.write("\ntokenized_query length: " + str(len(tokenized_query)))
             f.write("\ntokenized_query[0] type: " + str(type(tokenized_query[0])))
             for t in tokenized_query:
-                f.write(str(t))
-            f.write("V_query")
-            f.write(V_query)
+                f.write("\n"+str(t))
+            #f.write("V_query")
+            #f.write(V_query) #numpy.ndarray
             f.write("\nV_query shape: "+ str(V_query.shape))
             f.write("\nV_query[0] shape is: " + str(V_query[0].shape))
             f.write(" self.V[QID] shape is: " + str(self.V[QID].shape))
