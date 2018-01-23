@@ -117,7 +117,8 @@ class SIF2Model(QAModel):
         print("="*80+"\nloaded glove")
         self.emb = EmbeddingVectorizer(word_vectors=glove, weighted=True, R=False) # just use the simple weighted version without removing PCA
         if [] in self.tokenized_sentences:
-            print("[ERROR] empty item found!")
+            with open("log", "a+") as f:
+                f.write("[ERROR] empty item found!")
             #sys.exit()
         self.V = self.emb.fit_transform(self.tokenized_sentences) # for QuizBot replace tokenized_sentences with the entire KB answers
         
