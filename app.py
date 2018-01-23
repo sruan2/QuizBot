@@ -101,6 +101,7 @@ def webhook():
 
                     print ("^"*200)
                     print (show_status(sender_id))
+                    print (messaging_event.get("postback"))
                     if show_status(sender_id) != -1 and messaging_event.get("postback"):  # user clicked/tapped "postback" button in earlier message
                         # sender_id = messaging_event["sender"]["id"]   
                         # # sender_name = messaging_event["sender"]["name"]     
