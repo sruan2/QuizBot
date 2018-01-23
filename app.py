@@ -120,7 +120,6 @@ def webhook():
                         print (message_text)
 
                         if message_text == "get started":
-                            update_status(sender_id, 1)
                             send_ready_go(sender_id, "Hi! Welcome! I'm your personal tutor Mr.Q and I'm here to help you master science! Ready? Go!"+u'\uD83D\uDE0A')
                             
                         elif "yup! i'm ready!" in message_text:
