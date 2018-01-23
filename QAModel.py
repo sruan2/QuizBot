@@ -153,7 +153,7 @@ class SIF2Model(QAModel):
             f.write("\nAKB[QID] is: " + self.AKB[QID])
             f.write("\ntokenized_answer length: " + str(len(tokenized_answer))) # 1
             f.write("\ntokenized_answer[0] type: " + str(type(tokenized_answer[0]))) #list
-            for t in tokenized_answer
+            for t in tokenized_answer:
                 f.write("\n"+str(t))
             f.write("\nV_answer shape: "+ str(V_answer.shape))
             f.write("\nV_answer[0] shape is: " + str(V_answer[0].shape))
