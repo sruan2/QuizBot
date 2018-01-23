@@ -96,7 +96,7 @@ def webhook():
                     # sender_name = messaging_event["sender"]["name"]     
                     recipient_id = messaging_event["recipient"]["id"]  
 
-                    if sender_id == "1497174250389598": #chatbot
+                    if sender_id == os.environ["CHATBOT_ID"]: 
                         return "irrelavant ID", 200
 
                     if show_status(sender_id) != -1 and messaging_event.get("postback"):  # user clicked/tapped "postback" button in earlier message
@@ -269,12 +269,12 @@ def webhook():
                             #     answer = tfidf.Featurize(message_text)
                             #     send_message(sender_id, answer)    
 
-                            elif message_text[:4] == "Hint":
+                            elif message_text[:4] == "Why":
                                 support_sentence = qa_md.getSupport(QID)[:600]
                                 #send_gotit_quickreply(sender_id, "Here's an explanation: "+ support_sentence)
-                                send_hint2_quickreply(sender_id, "Here's an explanation: " + support_sentence)
+                                send_why2_quickreply(sender_id, "Here's an explanation: " + support_sentence)
                                 time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
-                                insert_score(sender_id,QID,"hint",0,time)
+                                insert_score(sender_id,QID,"why",0,time)
 
                             elif message_text == "Check Total Score":
                                 print ("&"*50)
@@ -338,11 +338,11 @@ def webhook():
                                     #total_score = show_score(sender_id) + score
                                     insert_score(sender_id,QID,message_text,score,time)
                                     #update_db(sender_id, score)
-                                    send_hint_quickreply(sender_id, QID, standard_answer)    
+                                    send_why_quickreply(sender_id, QID, standard_answer)    
                                     update_status(sender_id, 1) 
                                 else:
                                     update_status(sender_id, 1)
-                                    send_interesting(sender_id, "Thans sounds interesting. Would you want more quiz questions to practice? I'm here to help")
+                                    send_interesting(sender_id, "That sounds interesting. Would you want more quiz questions to practice? I'm here to help :) ")
                                     
                                     #send_subject_quick_reply(sender_id, "Now tell me which subject you would like to choose:"+u'\uD83D\uDC47')
 
@@ -514,9 +514,9 @@ def send_subject_quick_reply(recipient_id, main_text):
         log(r.status_code)
         log(r.text)  
 
-def send_hint_quickreply(recipient_id, QID, standard_answer):
+def send_why_quickreply(recipient_id, QID, standard_answer):
 
-    log("sending HINT button to {recipient}: {text}".format(recipient=recipient_id, text=str(QID)))
+    log("sending WHY button to {recipient}: {text}".format(recipient=recipient_id, text=str(QID)))
 
     params = {
         "access_token": os.environ["PAGE_ACCESS_TOKEN"]
@@ -533,8 +533,8 @@ def send_hint_quickreply(recipient_id, QID, standard_answer):
             "quick_replies": [
                 {
                     "content_type": "text",
-                    "title": "Hint",
-                    "payload": "Hint"+str(QID)
+                    "title": "Why",
+                    "payload": "Why"+str(QID)
                 },
                 {
                     "content_type": "text",
@@ -559,9 +559,9 @@ def send_hint_quickreply(recipient_id, QID, standard_answer):
         log(r.status_code)
         log(r.text)
 
-def send_hint2_quickreply(recipient_id, support_sentence):
+def send_why2_quickreply(recipient_id, support_sentence):
 
-    #log("sending HINT button to {recipient}: {text}".format(recipient=recipient_id, text=str(QID)))
+    #log("sending WHY button to {recipient}: {text}".format(recipient=recipient_id, text=str(QID)))
 
     params = {
         "access_token": os.environ["PAGE_ACCESS_TOKEN"]
@@ -578,8 +578,8 @@ def send_hint2_quickreply(recipient_id, support_sentence):
             "quick_replies": [
                 {
                     "content_type": "text",
-                    "title": "Hint",
-                    "payload": "HINT_"
+                    "title": "Why",
+                    "payload": "WHY_"
                 },
                 {
                     "content_type": "text",
@@ -625,7 +625,7 @@ def send_gotit_quickreply(recipient_id, sentence):
                 {
                     "content_type": "text",
                     "title": "Got it, next!",
-                    "payload": "HINT"
+                    "payload": "WHY"
                 }
             ]
         }
@@ -930,7 +930,7 @@ if __name__ == '__main__':
 
 
     context = ('/etc/letsencrypt/live/smartprimer.org/fullchain.pem', '/etc/letsencrypt/live/smartprimer.org/privkey.pem')
-    app.run(host='0.0.0.0', threaded=True, debug=True, port=443, ssl_context=context)
+    app.run(host='0.0.0.0', threaded=True, debug=True, port=int(os.environ["PORT"]), ssl_context=context)
     #app.run(port=80,debug=True)
     # send_message(sender_id, str("Received. I'm here!"))
     # print(predict(raw_input("Enter something")))
