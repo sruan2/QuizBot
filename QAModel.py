@@ -13,6 +13,7 @@ from random import randint
 import os
 import pickle
 from nltk import RegexpTokenizer
+import math
 
 
 class QAModel(object):
@@ -122,6 +123,11 @@ class SIF2Model(QAModel):
                 f.write("[ERROR] empty item found!")
             #sys.exit()
         self.V = self.emb.fit_transform(self.tokenized_sentences) # for QuizBot replace tokenized_sentences with the entire KB answers
+        with open("log", "a+") as f:
+            for idx, v in enumerate(self.V):
+                if math.isnan(e):
+                    f.write("[NAN] " + str(idx) +" " + akb[idx])
+        
         
         print("finished init sif2 model")
 
