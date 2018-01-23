@@ -113,6 +113,7 @@ def webhook():
                         #print(message_text)
                         print("#"*100)
 
+                        print (message_text)
 
                         if message_text == "get started":
                             send_ready_go(sender_id, "Hi! Welcome! I'm your personal tutor Mr.Q and I'm here to help you master science! Ready? Go!"+u'\uD83D\uDE0A')
