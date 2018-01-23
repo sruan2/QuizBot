@@ -117,6 +117,9 @@ def webhook():
                         if message_text == "get started":
                             send_ready_go(sender_id, "Hi! Welcome! I'm your personal tutor Mr.Q and I'm here to help you master science! Ready? Go!"+u'\uD83D\uDE0A')
                             
+                        elif "yup! I'm ready!" in message_text:
+                            send_mode_quick_reply(sender_id, "Now tell me which mode you would like to choose:"+u'\uD83D\uDC47') 
+                            
                         elif message_text == "check total score":
                             score = show_score(sender_id)
                             send_gotit_quickreply(sender_id, "Your total score is "+str(score)+". Keep moving!") 
