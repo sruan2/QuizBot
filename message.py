@@ -45,6 +45,7 @@ def send_interesting(recipient_id, main_text):
                 {
                     "content_type": "text",
                     "title": "Sure!",
+                    "type":"postback",
                     "payload": "yup ready"
                 }
             ]
@@ -73,6 +74,7 @@ def send_hint(recipient_id, main_text):
                 {
                     "content_type": "text",
                     "title": "Sure!",
+                    "type":"postback",
                     "payload": "yup ready"
                 }
             ]
@@ -101,6 +103,7 @@ def send_ready_go(recipient_id, main_text):
                 {
                     "content_type": "text",
                     "title": "Yup! I'm ready! "+u'\u270A',
+                    "type":"postback",
                     "payload": "yup ready"
                 }
             ]
@@ -129,11 +132,13 @@ def send_mode_quick_reply(recipient_id, main_text):
                 {
                     "content_type": "text",
                     "title": "Quiz Mode "+u'\u270F',
+                    "type":"postback",
                     "payload": "none"
                 },
                 {
                     "content_type": "text",
                     "title": "Answering Mode"+u'\uD83D\uDE3A',
+                    "type":"postback",
                     "payload": "none"
                 }
             ]
@@ -164,26 +169,31 @@ def send_subject_quick_reply(recipient_id, main_text):
                 {
                     "content_type": "text",
                     "title": "Physics",
+                    "type":"postback",
                     "payload": "Physics"
                 },
                 {
                     "content_type": "text",
                     "title": "Chemistry",
+                    "type":"postback",
                     "payload": "Chemistry"
                 },
                 {
                     "content_type": "text",
                     "title": "Biology",
+                    "type":"postback",
                     "payload": "Biology"
                 },
                 {
                     "content_type": "text",
                     "title": "Geology",
+                    "type":"postback",
                     "payload": "Geology"
                 },
                 {
                     "content_type": "text",
                     "title": "Random",
+                    "type":"postback",
                     "payload": "Random"                
                 }
             ]
@@ -214,21 +224,25 @@ def send_why_quickreply(recipient_id, QID, standard_answer):
                 {
                     "content_type": "text",
                     "title": "Why",
+                    "type":"postback",
                     "payload": "Why"+str(QID)
                 },
                 {
                     "content_type": "text",
                     "title": "Next Question",
+                    "type":"postback",
                     "payload": "NEXT_QUESTION"
                 },
                 {
                     "content_type": "text",
                     "title":"Switch Subject",
+                    "type":"postback",
                     "payload":"SWITCH_SUBJUECT"
                 },                 
                 {
                     "content_type": "text",
                     "title": "Check Total Score",
+                    "type":"postback",
                     "payload": "CHECK_TOTAL_SCORE"
                 }
             ]
@@ -259,21 +273,25 @@ def send_why2_quickreply(recipient_id, support_sentence):
                 {
                     "content_type": "text",
                     "title": "Why",
+                    "type":"postback",
                     "payload": "WHY_"
                 },
                 {
                     "content_type": "text",
                     "title": "Next Question",
+                    "type":"postback",
                     "payload": "NEXT_QUESTION"
                 },
                 {
                     "content_type": "text",
                     "title":"Switch Subject",
+                    "type":"postback",
                     "payload":"SWITCH_SUBJUECT"
                 },                 
                 {
                     "content_type": "text",
                     "title": "Check Total Score",
+                    "type":"postback",
                     "payload": "CHECK_TOTAL_SCORE"
                 }
             ]
@@ -305,6 +323,7 @@ def send_gotit_quickreply(recipient_id, sentence):
                 {
                     "content_type": "text",
                     "title": "Got it, next!",
+                    "type":"postback",
                     "payload": "WHY"
                 }
             ]
