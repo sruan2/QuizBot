@@ -98,6 +98,9 @@ def webhook():
                     # "854518728062939" for development chatbot
                         return "irrelavant ID", 200
 
+
+                    print ("^"*200)
+                    print (show_status(sender_id))
                     if show_status(sender_id) != -1 and messaging_event.get("postback"):  # user clicked/tapped "postback" button in earlier message
                         # sender_id = messaging_event["sender"]["id"]   
                         # # sender_name = messaging_event["sender"]["name"]     
@@ -276,6 +279,11 @@ def webhook():
                             # elif app.session[sender_id]["answering"] == True:
                             #     answer = tfidf.Featurize(message_text)
                             #     send_message(sender_id, answer)    
+
+                            elif "yup! i'm ready!" in message_text:
+                                update_status(sender_id, 1)
+                                send_mode_quick_reply(sender_id, "Now tell me which mode you would like to choose:"+u'\uD83D\uDC47') 
+
 
                             elif message_text[:4] == "Why":
                                 support_sentence = qa_md.getSupport(QID)[:600]
