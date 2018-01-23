@@ -129,7 +129,7 @@ class SIF2Model(QAModel):
             tokenized_query = utils.preprocess(query, self.tokenizer)
             V_query = self.emb.transform(tokenized_query)
             f.write("\nuser_answer: "+ user_answer)
-            f.write("tokenized_query")
+            f.write("tokenized_query shape" + str(tokenized_query.shape))
             for t in tokenized_query:
                 f.write(t)
             f.write("V_query")
