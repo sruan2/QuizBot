@@ -155,7 +155,7 @@ class SIF2Model(QAModel):
             f.write("\ntokenized_answer[0] type: " + str(type(tokenized_answer[0]))) #list
             for t in tokenized_answer
                 f.write("\n"+str(t))
-             f.write("\nV_answer shape: "+ str(V_answer.shape))
+            f.write("\nV_answer shape: "+ str(V_answer.shape))
             f.write("\nV_answer[0] shape is: " + str(V_answer[0].shape))
             #f.write("\nself.V[QID] is: " + str(self.V[QID]))
         #print("similarity: " + str(cosine_similarity(V_query[0], V[0]))+ "\n")
