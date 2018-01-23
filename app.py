@@ -34,10 +34,10 @@ from flask import Flask, request
 app = Flask(__name__)
 mysql = MySQL()
 
-app.config['MYSQL_HOST'] = 'localhost'
-app.config['MYSQL_USER'] = 'ubuntu'
-app.config['MYSQL_PASSWORD'] = 'smartprimer'
-app.config['MYSQL_DB'] = 'QUIZBOT_DEV'
+app.config['MYSQL_HOST'] = os.environ["DB_HOST"]
+app.config['MYSQL_USER'] = os.environ["DB_USER"]
+app.config['MYSQL_PASSWORD'] = os.environ["DB_PASSWORD"]
+app.config['MYSQL_DB'] = os.environ["DB"]
 mysql.init_app(app)
 
 @app.route('/test', methods=['GET'])
@@ -376,6 +376,34 @@ def send_message(recipient_id, message_text):
 
 
 def send_interesting(recipient_id, main_text):
+
+    params = {
+        "access_token": os.environ["PAGE_ACCESS_TOKEN"]
+    }
+    headers = {
+        "Content-Type": "application/json"
+    }
+    data = json.dumps({
+        "recipient": {
+            "id": recipient_id
+        },
+        "message": {
+            "text": main_text,
+            "quick_replies": [
+                {
+                    "content_type": "text",
+                    "title": "Sure!",
+                    "payload": "yup ready"
+                }
+            ]
+        }
+    })
+    r = requests.post("https://graph.facebook.com/v2.6/me/messages", params=params, headers=headers, data=data)
+    if r.status_code != 200:
+        log(r.status_code)
+        log(r.text)
+
+def send_hint(recipient_id, main_text):
 
     params = {
         "access_token": os.environ["PAGE_ACCESS_TOKEN"]
