@@ -96,7 +96,7 @@ def webhook():
                     # sender_name = messaging_event["sender"]["name"]     
                     recipient_id = messaging_event["recipient"]["id"]  
 
-                    if sender_id == os.environ["CHATBOT_ID"] 
+                    if sender_id == os.environ["CHATBOT_ID"]: 
                     # "854518728062939" for development chatbot
                         return "irrelavant ID", 200
 
