@@ -132,7 +132,6 @@ class SIF2Model(QAModel):
 
     def compute_score(self, user_answer, QID):
         with open("log", "a+") as f:
-            #query = [user_answer]
             tokenized_query = utils.preprocess([user_answer], self.tokenizer)
             V_query = self.emb.transform(tokenized_query)
 
