@@ -129,7 +129,7 @@ class SIF2Model(QAModel):
             tokenized_query = utils.preprocess(query, self.tokenizer)
             V_query = self.emb.transform(tokenized_query)
             f.write("\nuser_answer: "+ user_answer)
-            f.write("\nV_query shape: "+V_query.shape)
+            f.write("\nV_query shape: "+ str(V_query.shape))
             f.write("\nV_query[0] shape is: " + str(V_query[0].shape))
             f.write(" self.V[QID] shape is: " + str(self.V[QID].shape))
         #print("similarity: " + str(cosine_similarity(V_query[0], V[0]))+ "\n")
