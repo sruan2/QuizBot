@@ -242,6 +242,9 @@ def webhook():
                         else:
                             QID,SUBJECT = show_last_qid_subject(sender_id)
 
+                            print ("^"*100)
+                            print (message_text)
+
                             if message_text == "Quiz Mode "+u'\u270F':
                                 #app.session[sender_id]["answering"] = False
                                     # question, QID = qa_md.pickRandomQuestion()
