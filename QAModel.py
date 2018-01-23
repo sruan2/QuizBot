@@ -108,7 +108,7 @@ class SIF2Model(QAModel):
     def __init__(self, qa_kb, pkl_file):
         super(SIF2Model, self).__init__(qa_kb)
         self.AKB = qa_kb.AKB
-        self.init_model(qa_kb.AKB, pkl_file) 
+        self.init_model(qa_kb.SKB, pkl_file)  # use support to fit
 
 
     def init_model(self, akb, pkl_file):
@@ -133,8 +133,12 @@ class SIF2Model(QAModel):
     def compute_score(self, user_answer, QID):
         with open("log", "a+") as f:
             #query = [user_answer]
-            tokenized_query = utils.preprocess(user_answer, self.tokenizer)
+            tokenized_query = utils.preprocess([user_answer], self.tokenizer)
             V_query = self.emb.transform(tokenized_query)
+
+            tokenized_answer = utils.preprocess([self.AKB[QID]], self.tokenizer)
+            V_answer = self.emb.transform(tokenized_answer)
+
             f.write("\nuser_answer: "+ user_answer)
             f.write("\ntokenized_query length: " + str(len(tokenized_query))) # 1
             f.write("\ntokenized_query[0] type: " + str(type(tokenized_query[0]))) #list
@@ -150,7 +154,7 @@ class SIF2Model(QAModel):
             f.write("\nself.V[QID] is: " + str(self.V[QID]))
         #print("similarity: " + str(cosine_similarity(V_query[0], V[0]))+ "\n")
 
-        score = utils.cosine_similarity(V_query[0], self.V[QID])
+        score = utils.cosine_similarity(V_query[0], V_answer[0])
 
         print("Similarity between the standard answer and yours is: " + str(int(score)))
         return score
