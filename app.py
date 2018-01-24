@@ -280,7 +280,7 @@ def webhook():
                             #     answer = tfidf.Featurize(message_text)
                             #     send_message(sender_id, answer)    
 
-                            elif "yup! i'm ready!" in message_text:
+                            elif "Yup! I'm Ready!" in message_text:
                                 update_status(sender_id, 1)
                                 send_mode_quick_reply(sender_id, "Now tell me which mode you would like to choose:"+u'\uD83D\uDC47') 
 
