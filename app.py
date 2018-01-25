@@ -4,28 +4,12 @@ import sys
 sys.path.append("/home/venv/quizbot/QuizBot/")
 import QAKnowledgebase
 import QAModel
-#import sqlite3 as sql
 from flask_mysqldb import MySQL
 from random import randint
 from time import gmtime, strftime
-#from similarity_model.princeton_sif import sif_sentence_similarity
 from similarity_model import tfidf
 from flask import Flask, request
 from message import *
-
-
-#tfidf_ins = tfidf.tfidfTransform('model_pre_trained/model_d2v_v1')
-
-
-#conn = sqlite3.connect('QUIZBOT.db')
-#c = conn.cursor()
-
-# print "Opened database successfully";
-
-
-# conn.execute('CREATE TABLE score (user_id INTEGER, score DECIMAL')
-# print "Table created successfully";
-# conn.close()
 
 
 
@@ -99,9 +83,6 @@ def webhook():
                         return "irrelavant ID", 200
 
 
-                    print ("^"*200)
-                    print (show_status(sender_id))
-                    print (messaging_event.get("postback"))
                     if show_status(sender_id) != -1 and messaging_event.get("postback"):  # user clicked/tapped "postback" button in earlier message
                         # sender_id = messaging_event["sender"]["id"]   
                         # # sender_name = messaging_event["sender"]["name"]     
@@ -114,10 +95,6 @@ def webhook():
                          
                         log("Inside postback")
                         message_text = message_text.lower()
-                        #print(message_text)
-                        print("#"*100)
-
-                        print (message_text)
 
                         if message_text == "get started":
                             send_ready_go(sender_id, "Hi! Welcome! I'm your personal tutor Mr.Q and I'm here to help you master science! Ready? Go!"+u'\uD83D\uDE0A')
@@ -135,13 +112,6 @@ def webhook():
                             sentence = ("\n").join(["No." + str(i + 1) + " " + str(records[i][0]+' '+records[i][1]) + ": " + str(records[i][2]) for i in range(len(records))])
                             send_gotit_quickreply(sender_id, "Leaderboard: \n" + sentence) 
                         elif message_text[0:9] == "quiz mode":
-                            #app.session[sender_id]["answering"] = False
-                            #update_status(sender_id, 0)
-                            #time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
-                            #insert_question(sender_id,QID,time)
-
-                            #app.session[sender_id] = {"QID": QID, "total_score": 0}
-                            #data_entry(sender_id, "Sherry Ruan", 0)
                             send_subject_quick_reply(sender_id, "Now tell me which subject you would like to choose:"+u'\uD83D\uDC47')
 
                         elif message_text == "physics":
@@ -149,7 +119,6 @@ def webhook():
                             update_status(sender_id, 0)
                             time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
                             insert_question(sender_id,QID,time)
-                            #app.session[sender_id] = {"QID": QID}
                             send_message(sender_id, "Question."+str(QID)+": "+question)
 
                         elif message_text == "chemistry":
@@ -157,7 +126,6 @@ def webhook():
                             update_status(sender_id, 0)
                             time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
                             insert_question(sender_id,QID,time)
-                            #app.session[sender_id] = {"QID": QID}
                             send_message(sender_id, "Question."+str(QID)+": "+question)
 
                         elif message_text == "biology":
@@ -165,7 +133,6 @@ def webhook():
                             update_status(sender_id, 0)
                             time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
                             insert_question(sender_id,QID,time)
-                            #app.session[sender_id] = {"QID": QID}
                             send_message(sender_id, "Question."+str(QID)+": "+question)
 
                         elif message_text == "geology":
@@ -173,7 +140,6 @@ def webhook():
                             update_status(sender_id, 0)
                             time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
                             insert_question(sender_id,QID,time)
-                            #app.session[sender_id] = {"QID": QID}
                             send_message(sender_id, "Question."+str(QID)+": "+question)
 
                         elif message_text == "random":
@@ -181,7 +147,6 @@ def webhook():
                             update_status(sender_id, 0)
                             time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
                             insert_question(sender_id,QID,time)
-                            #app.session[sender_id] = {"QID": QID}
                             send_message(sender_id, "Question."+str(QID)+": "+question)
 
                         elif message_text == 'switch subject' or message_text[:4] == 'sure':
@@ -190,7 +155,6 @@ def webhook():
 
                         # look for next similar question based off the pre-trained model
                         elif message_text == "next question":
-                            #sender_id]["answering"] = False
                             if show_status(sender_id):
                                 last_subject = show_last_qid_subject(sender_id)[1]
                                 if last_subject == 'random' or last_subject == 'no record':
@@ -203,12 +167,9 @@ def webhook():
                             else: 
                                 QID = show_last_qid_subject(sender_id)[0]
                                 question = qa_md.pickLastQuestion(QID)
-                            #app.session[sender_id] = {"QID": QID}
                             send_message(sender_id, "Question."+str(QID)+": "+question)
 
                         elif message_text[0:9] == "answering":
-                            #app.session[sender_id]["answering"] = True
-                            #data_entry(sender_id, "Sherry Ruan", 0)
                             send_message(sender_id, "I'm here to answer your questions! Just type your question below :-) ")
 
 
@@ -236,7 +197,6 @@ def webhook():
                         if not int(sender_id) in show_user_id_list():
 
                             print("first time user"+"="*50)
-                            #app.session[sender_id] = {"QID": 0, "total_score": 0, "answering": False}
                             time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
                             insert_user(sender_id,sender_firstname,sender_lastname,sender_gender,1)
                             insert_score(sender_id, -1,message_text,0,time)
@@ -249,16 +209,12 @@ def webhook():
                             print (message_text)
 
                             if message_text == "Quiz Mode "+u'\u270F':
-                                #app.session[sender_id]["answering"] = False
-                                    # question, QID = qa_md.pickRandomQuestion()
-                                    # update_status(sender_id, 0)
                                 send_subject_quick_reply(sender_id, "Now tell me which subject you would like to choose:"+u'\uD83D\uDC47') 
                                 time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
                                 insert_question(sender_id,'-11','SWITCH_SUBJUECT',time)
                                 print("\n-4- QID is: "+str(QID)+"\n")                                 
 
                             elif message_text == "Next Question" or message_text == "Got it, next!" or message_text[:4] == "Sure":
-                                #app.session[sender_id]["answering"] = False
 
                                 if show_status(sender_id):
                                     last_subject = show_last_qid_subject(sender_id)[1]
@@ -272,7 +228,6 @@ def webhook():
                                 else: 
                                     QID = show_last_qid_subject(sender_id)[0]
                                     question = qa_md.pickLastQuestion(QID)
-                                #app.session[sender_id] = {"QID": QID}
                                 send_message(sender_id, "Question."+str(QID)+": "+question)
 
                             # I comment out this part as there is bug here
@@ -287,7 +242,6 @@ def webhook():
 
                             elif message_text[:4] == "Why":
                                 support_sentence = qa_md.getSupport(QID)[:600]
-                                #send_gotit_quickreply(sender_id, "Here's an explanation: "+ support_sentence)
                                 send_why2_quickreply(sender_id, "Here's an explanation: " + support_sentence)
                                 time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
                                 insert_score(sender_id,QID,"why",0,time)
@@ -303,7 +257,6 @@ def webhook():
                                 update_status(sender_id, 0)
                                 time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
                                 insert_question(sender_id,QID,message_text.lower(),time)
-                                #app.session[sender_id] = {"QID": QID}
                                 send_message(sender_id, "Question."+str(QID)+": "+question)
 
                             elif message_text == "Chemistry":
@@ -311,7 +264,6 @@ def webhook():
                                 update_status(sender_id, 0)
                                 time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
                                 insert_question(sender_id,QID,message_text.lower(),time)
-                                #app.session[sender_id] = {"QID": QID}
                                 send_message(sender_id, "Question."+str(QID)+": "+question)
 
                             elif message_text == "Biology":
@@ -319,7 +271,6 @@ def webhook():
                                 update_status(sender_id, 0)
                                 time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
                                 insert_question(sender_id,QID,message_text.lower(),time)
-                                #app.session[sender_id] = {"QID": QID}
                                 send_message(sender_id, "Question."+str(QID)+": "+question)
 
                             elif message_text == "Geology":
@@ -327,7 +278,6 @@ def webhook():
                                 update_status(sender_id, 0)
                                 time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
                                 insert_question(sender_id,QID,message_text.lower(),time)
-                                #app.session[sender_id] = {"QID": QID}
                                 send_message(sender_id, "Question."+str(QID)+": "+question)
                             
                             elif message_text == "Random":
@@ -335,7 +285,6 @@ def webhook():
                                 update_status(sender_id, 0)
                                 time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
                                 insert_question(sender_id,QID,message_text.lower(),time)
-                                #app.session[sender_id] = {"QID": QID}
                                 send_message(sender_id, "Question."+str(QID)+": "+question)
 
                             elif message_text.lower() == 'switch subject':
@@ -344,14 +293,11 @@ def webhook():
                             else: # user's respons in natural language    
                                 if not show_status(sender_id):
                                     print("not first time"+"="*50)
-                                    #standard_answer, score = tfidf_ins.computeScore(message_text, QID)
                                     standard_answer = qa_md.getAnswer(QID)
                                     score = qa_model.compute_score(message_text, QID)
                                     send_message(sender_id, "Your score this round is "+str(score))
                                     time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
-                                    #total_score = show_score(sender_id) + score
                                     insert_score(sender_id,QID,message_text,score,time)
-                                    #update_db(sender_id, score)
                                     send_why_quickreply(sender_id, QID, standard_answer)    
                                     update_status(sender_id, 1) 
                                 else:
@@ -474,22 +420,6 @@ def show_top_10():
 ############ SET UP ############
 def setup_app(app):
     print("\nstart\n")
-    # tfidf_ins.appendQuestionKB('SciQdataset-23/question_file_2.txt')
-    # tfidf_ins.appendSupportKB('SciQdataset-23/support_file_2.txt')
-    # tfidf_ins.appendCorrectAnswerKB('SciQdataset-23/correct_answer_file_2.txt')
-    # doc2vec = 'model_pre_trained/model_d2v_v1'
-    # question_file = 'SciQdataset-23/question_file_2.txt'
-    # support_file = 'SciQdataset-23/support_file_2.txt'
-    # answer_file = 'SciQdataset-23/correct_answer_file_2.txt'
-
-    # qa_kb = QAKnowledgebase.QATransform(question_file, support_file, answer_file)
-    # qa_md = QAModel.QAModel(qa_kb)
-    # qa_doc2vec = QAModel.Doc2VecModel(qa_kb, doc2vec)
-    # qa_sif = QAModel.SIFModel(qa_kb)
-
-    #tfidf_ins = tfidf.tfidfTransform(qa_kb, qa_md)
-    #app.session = {}
-    # create_table()
     greeting()
     print("\nafter greeting\n")
     persistent_menu()
@@ -525,6 +455,4 @@ if __name__ == '__main__':
     context = ('/etc/letsencrypt/live/smartprimer.org/fullchain.pem', '/etc/letsencrypt/live/smartprimer.org/privkey.pem')
     app.run(host='0.0.0.0', threaded=True, debug=True, port=int(os.environ["PORT"]), ssl_context=context)
     #app.run(port=80,debug=True)
-    # send_message(sender_id, str("Received. I'm here!"))
-    # print(predict(raw_input("Enter something")))
     
