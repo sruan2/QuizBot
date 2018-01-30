@@ -251,6 +251,10 @@ def webhook():
                                 print (str(show_score(sender_id)))
                                 send_gotit_quickreply(sender_id, "Your accumulated score is "+str(show_score(sender_id)))
 
+                            elif message_text == "Report Bug":
+                                time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
+                                insert_score(sender_id,-1,message_text,-1,time)
+                                send_interesting(sender_id, "Thanks for reporting! Would you want more questions to practice? :) ")
 
                             elif message_text == "Physics":
                                 question, QID = qa_md.pickSubjectRandomQuestion(message_text)
