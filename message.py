@@ -230,6 +230,11 @@ def send_why_quickreply(recipient_id, QID, standard_answer):
                     "content_type": "text",
                     "title": "Check Total Score",
                     "payload": "<POSTBACK_PAYLOAD>"
+                },
+                {
+                    "content_type": "text",
+                    "title": "Report Bug",
+                    "payload": "<POSTBACK_PAYLOAD>"
                 }
             ]
         }
@@ -333,48 +338,48 @@ def persistent_menu():
     }
     data = json.dumps({
         "persistent_menu":[
-          {
-            "locale":"default",
-            "composer_input_disabled": False,
-            "call_to_actions":[
-              {
-                "title":"Change Mode",
-                "type":"nested",
+            {
+                "locale":"default",
+                "composer_input_disabled": False,
                 "call_to_actions":[
-                  {
-                    "title":"Quiz Mode "+u'\u270F',
-                    "type":"postback",
-                    "payload":"quiz mode"
-                  },
-                  {
-                    "title":"Answering Mode"+u'\uD83D\uDE3A',
-                    "type":"postback",
-                    "payload":"question answering mode"
-                  }              
-                ]
-              },
-              {
-                "title":"Progress Report",
-                "type":"nested",
-                "call_to_actions":[
-                  {
-                    "title":"Check Total Score",
-                    "type":"postback",
-                    "payload":"MENU_SCORE"
-                  },
-                  {
-                    "title":"Check Leaderboard",
-                    "type":"postback",
-                    "payload":"MENU_LEADERBOARD"
-                  }
-                ]
-              },
-              {
-                "type":"web_url",
-                "title":"Invite Friends! "+u'\U0001F604',
-                "url":"https://www.facebook.com/sharer/sharer.php?u=https%3A//www.facebook.com/quizzzbot/",
-                "webview_height_ratio":"full"
-              }
+                {
+                    "title":"Change Mode",
+                    "type":"nested",
+                    "call_to_actions":[
+                        {
+                            "title":"Quiz Mode "+u'\u270F',
+                            "type":"postback",
+                            "payload":"quiz mode"
+                        },
+                        {
+                            "title":"Answering Mode"+u'\uD83D\uDE3A',
+                            "type":"postback",
+                            "payload":"question answering mode"
+                        }              
+                        ]
+                },
+                {
+                    "title":"Progress Report",
+                    "type":"nested",
+                    "call_to_actions":[
+                    {
+                        "title":"Check Total Score",
+                        "type":"postback",
+                        "payload":"MENU_SCORE"
+                    },
+                    {
+                        "title":"Check Leaderboard",
+                        "type":"postback",
+                        "payload":"MENU_LEADERBOARD"
+                    }
+                    ]
+                },
+                {
+                    "type":"web_url",
+                    "title":"Invite Friends! "+u'\U0001F604',
+                    "url":"https://www.facebook.com/sharer/sharer.php?u=https%3A//www.facebook.com/quizzzbot/",
+                    "webview_height_ratio":"full"
+                }
             ]
           }
         ]        
@@ -396,19 +401,20 @@ def greeting():
     }
     data1 = json.dumps({
         "greeting":[
-          {
-            "locale":"default",
-            "text":"Hello!"
-          }, {
-            "locale":"en_US",
-            "text":"Welcome to QuizBot made by Sherry!"
-          }
+            {
+                "locale":"default",
+                "text":"Hello!"
+            }, 
+            {
+                "locale":"en_US",
+                "text":"Welcome to QuizBot made by Sherry!"
+            }
         ]
     })
     data2 = json.dumps({
-      "get_started":{
+        "get_started":{
         "payload":"<GET_STARTED_PAYLOAD>"
-      }
+        }
     })
 
     r = requests.post("https://graph.facebook.com/v2.6/me/messenger_profile", params=params, headers=headers, data=data2)
