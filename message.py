@@ -71,6 +71,7 @@ def send_hint(recipient_id, main_text):
             "text": main_text,
             "quick_replies": [
                 {
+                    "type":"postback",
                     "content_type": "text",
                     "title": "Sure!",
                     "payload": "<POSTBACK_PAYLOAD>"
@@ -99,6 +100,7 @@ def send_ready_go(recipient_id, main_text):
             "text": main_text,
             "quick_replies": [
                 {
+                    "type":"postback",
                     "content_type": "text",
                     "title": "Yup! I'm ready! "+u'\u270A',
                     "payload": "<POSTBACK_PAYLOAD>"
@@ -128,11 +130,13 @@ def send_mode_quick_reply(recipient_id, main_text):
             "quick_replies": [
                 {
                     "content_type": "text",
+                    "type":"postback",
                     "title": "Quiz Mode "+u'\u270F',
                     "payload": "none"
                 },
                 {
                     "content_type": "text",
+                    "type":"postback",
                     "title": "Answering Mode"+u'\uD83D\uDE3A',
                     "payload": "none"
                 }
@@ -163,26 +167,31 @@ def send_subject_quick_reply(recipient_id, main_text):
             "quick_replies": [
                 {
                     "content_type": "text",
+                    "type":"postback",
                     "title": "Physics",
                     "payload": "<POSTBACK_PAYLOAD>"
                 },
                 {
                     "content_type": "text",
+                    "type":"postback",
                     "title": "Chemistry",
                     "payload": "<POSTBACK_PAYLOAD>"
                 },
                 {
                     "content_type": "text",
+                    "type":"postback",
                     "title": "Biology",
                     "payload": "<POSTBACK_PAYLOAD>"
                 },
                 {
                     "content_type": "text",
+                    "type":"postback",
                     "title": "Geology",
                     "payload": "<POSTBACK_PAYLOAD>"
                 },
                 {
                     "content_type": "text",
+                    "type":"postback",
                     "title": "Random",
                     "payload": "<POSTBACK_PAYLOAD>"                
                 }
@@ -213,26 +222,31 @@ def send_why_quickreply(recipient_id, QID, standard_answer):
             "quick_replies": [
                 {
                     "content_type": "text",
+                    "type":"postback",
                     "title": "Why",
                     "payload": "Why"+str(QID)
                 },
                 {
                     "content_type": "text",
+                    "type":"postback",
                     "title": "Next Question",
                     "payload": "<POSTBACK_PAYLOAD>"
                 },
                 {
                     "content_type": "text",
+                    "type":"postback",
                     "title":"Switch Subject",
                     "payload":"<POSTBACK_PAYLOAD>"
                 },                 
                 {
                     "content_type": "text",
+                    "type":"postback",
                     "title": "Check Total Score",
                     "payload": "<POSTBACK_PAYLOAD>"
                 },
                 {
                     "content_type": "text",
+                    "type":"postback",
                     "title": "Report Bug",
                     "payload": "<POSTBACK_PAYLOAD>"
                 }
@@ -263,21 +277,25 @@ def send_why2_quickreply(recipient_id, support_sentence):
             "quick_replies": [
                 {
                     "content_type": "text",
+                    "type":"postback",
                     "title": "Why",
                     "payload": "<POSTBACK_PAYLOAD>"
                 },
                 {
                     "content_type": "text",
+                    "type":"postback",
                     "title": "Next Question",
                     "payload": "<POSTBACK_PAYLOAD>"
                 },
                 {
                     "content_type": "text",
+                    "type":"postback",
                     "title":"Switch Subject",
                     "payload":"<POSTBACK_PAYLOAD>"
                 },                 
                 {
                     "content_type": "text",
+                    "type":"postback",
                     "title": "Check Total Score",
                     "payload": "<POSTBACK_PAYLOAD>"
                 }
@@ -309,6 +327,7 @@ def send_gotit_quickreply(recipient_id, sentence):
             "quick_replies": [
                 {
                     "content_type": "text",
+                    "type":"postback",
                     "title": "Got it, next!",
                     "payload": "<POSTBACK_PAYLOAD>"
                 }
