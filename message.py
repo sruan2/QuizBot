@@ -130,13 +130,11 @@ def send_mode_quick_reply(recipient_id, main_text):
             "quick_replies": [
                 {
                     "content_type": "text",
-                    "type":"postback",
                     "title": "Quiz Mode "+u'\u270F',
                     "payload": "none"
                 },
                 {
                     "content_type": "text",
-                    "type":"postback",
                     "title": "Answering Mode"+u'\uD83D\uDE3A',
                     "payload": "none"
                 }
@@ -167,31 +165,26 @@ def send_subject_quick_reply(recipient_id, main_text):
             "quick_replies": [
                 {
                     "content_type": "text",
-                    "type":"postback",
                     "title": "Physics",
                     "payload": "<POSTBACK_PAYLOAD>"
                 },
                 {
                     "content_type": "text",
-                    "type":"postback",
                     "title": "Chemistry",
                     "payload": "<POSTBACK_PAYLOAD>"
                 },
                 {
                     "content_type": "text",
-                    "type":"postback",
                     "title": "Biology",
                     "payload": "<POSTBACK_PAYLOAD>"
                 },
                 {
                     "content_type": "text",
-                    "type":"postback",
                     "title": "Geology",
                     "payload": "<POSTBACK_PAYLOAD>"
                 },
                 {
                     "content_type": "text",
-                    "type":"postback",
                     "title": "Random",
                     "payload": "<POSTBACK_PAYLOAD>"                
                 }
