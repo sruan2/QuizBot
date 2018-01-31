@@ -215,25 +215,21 @@ def send_why_quickreply(recipient_id, QID, standard_answer):
             "quick_replies": [
                 {
                     "content_type": "text",
-                    "type":"postback",
                     "title": "Why",
                     "payload": "Why"+str(QID)
                 },
                 {
                     "content_type": "text",
-                    "type":"postback",
                     "title": "Next Question",
                     "payload": "<POSTBACK_PAYLOAD>"
                 },
                 {
                     "content_type": "text",
-                    "type":"postback",
                     "title":"Switch Subject",
                     "payload":"<POSTBACK_PAYLOAD>"
                 },                 
                 {
                     "content_type": "text",
-                    "type":"postback",
                     "title": "Check Total Score",
                     "payload": "<POSTBACK_PAYLOAD>"
                 }
@@ -264,25 +260,21 @@ def send_why2_quickreply(recipient_id, support_sentence):
             "quick_replies": [
                 {
                     "content_type": "text",
-                    "type":"postback",
                     "title": "Why",
                     "payload": "<POSTBACK_PAYLOAD>"
                 },
                 {
                     "content_type": "text",
-                    "type":"postback",
                     "title": "Next Question",
                     "payload": "<POSTBACK_PAYLOAD>"
                 },
                 {
                     "content_type": "text",
-                    "type":"postback",
                     "title":"Switch Subject",
                     "payload":"<POSTBACK_PAYLOAD>"
                 },                 
                 {
                     "content_type": "text",
-                    "type":"postback",
                     "title": "Check Total Score",
                     "payload": "<POSTBACK_PAYLOAD>"
                 }
@@ -314,7 +306,6 @@ def send_gotit_quickreply(recipient_id, sentence):
             "quick_replies": [
                 {
                     "content_type": "text",
-                    "type":"postback",
                     "title": "Got it, next!",
                     "payload": "<POSTBACK_PAYLOAD>"
                 }
