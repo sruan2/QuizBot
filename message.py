@@ -243,12 +243,6 @@ def send_why_quickreply(recipient_id, QID, standard_answer):
                     "type":"postback",
                     "title": "Check Total Score",
                     "payload": "<POSTBACK_PAYLOAD>"
-                },
-                {
-                    "content_type": "text",
-                    "type":"postback",
-                    "title": "Report Bug",
-                    "payload": "<POSTBACK_PAYLOAD>"
                 }
             ]
         }
