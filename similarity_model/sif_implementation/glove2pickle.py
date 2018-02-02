@@ -9,11 +9,11 @@ import pandas as pd
 # output.close()
 
 
-glove = pd.read_csv('/home/ubuntu/quizbot_dev/model_pre_trained/glove/glove.6B.100d.txt', sep=" ", quoting=3, header=None, index_col=0)
+glove = pd.read_csv('/home/ubuntu/quizbot_dev/model_pre_trained/glove.6B.100d.txt', sep=" ", quoting=3, header=None, index_col=0)
 glove2 = {key: val.values for key, val in glove.T.items()}
 
 import _pickle as cpickle
-with open('/home/ubuntu/quizbot_dev/model_pre_trained/glove/glove.6B/glove.6B.100d.pkl', 'wb') as output:
+with open('/home/ubuntu/quizbot_dev/model_pre_trained/glove.6B.100d.pkl', 'wb') as output:
     cPickle.dump(glove2, output)
 output.close()
 
