@@ -10,7 +10,7 @@ def send_a_question(recipient_id, question):
                      "Let's try this one: ",
                      "Could you tell the answer to this one: "]
 
-    ending_part = " Please note that you will earn at most 3 points if you ask for a hint."
+    ending_part = " (Please note that you will earn at most 3 points if you ask for a hint.)"
 
     params = {
         "access_token": os.environ["PAGE_ACCESS_TOKEN"]
