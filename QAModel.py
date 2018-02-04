@@ -122,14 +122,15 @@ class SIF2Model(QAModel):
         V_answer = self.emb.transform(tokenized_answer)    
         # transform the user's answer
         tokenized_query = utils.preprocess([user_answer], self.tokenizer)
+        print(tokenized_query)
         not_empty = False
         for user_word in tokenized_query: # for out of vocabulary words
             if user_word in self.glove:
                 not_empty = True
                 break
-        if not_empty:
+        if not not_empty:
             return -1 # transformed V_query won't exist since it will be empty (nont of the words exist in glove)
-        V_query = self.emb.transform(safe_tokenized_query)      
+        V_query = self.emb.transform(tokenized_query)      
         score = int(utils.cosine_similarity(V_query[0], V_answer[0]) * 10)
         return score
 
