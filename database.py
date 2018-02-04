@@ -7,13 +7,12 @@ def insert_user(mysql, user_id,user_firstname,user_lastname,user_gender,user_sta
         try:
             con = mysql.connection
             cur = con.cursor()    
-            print ()       
             cur.execute("INSERT INTO users (user_id,user_firstname,user_lastname,user_gender,user_status) VALUES (%s, %s, %s, %s, %s)",(user_id,user_firstname,user_lastname,user_gender,user_status))           
             con.commit()  
-            print ("User record successfully added")
+            print("[QUIZBOT-DATABASE] PID " + str(os.getpid())+": User record successfully added")
         except:
             con.rollback()
-            print ("error in inserting user reocrd operation")
+            print("[QUIZBOT-BUG] PID " + str(os.getpid())+": Error in inserting user reocrd operation")
         # finally:
         #     con.close()  
 
@@ -26,10 +25,10 @@ def update_status(mysql, user_id, status):
             cur = con.cursor()             
             cur.execute("update users set user_status = %s where user_id = %s",(status, user_id))           
             con.commit()
-            print ("update status successfully added")
+            print("[QUIZBOT-DATABASE] PID " + str(os.getpid())+": Update status successfully added")
         except:
             con.rollback()
-            print ("error in updating user status operation")
+            print("[QUIZBOT-BUG] PID " + str(os.getpid())+": Error in updating user status operation")
         # finally:
         #     con.close()      
 
@@ -51,10 +50,10 @@ def insert_score(mysql, user_id,qid,answer,score,time):
             cur = con.cursor()              
             cur.execute("INSERT INTO scores (user_id,qid,answer,score,r_time) VALUES (%s, %s, %s, %s, %s)", (user_id,qid,answer,score,time))           
             con.commit()
-            print ("Score record successfully added")
+            print("[QUIZBOT-DATABASE] PID " + str(os.getpid())+": Score record successfully added")
         except:
             con.rollback()
-            print ("error in inserting score operation")
+            print("[QUIZBOT-BUG] PID " + str(os.getpid())+": error in inserting score operation")
         # finally:
         #     con.close()
 
@@ -66,10 +65,10 @@ def insert_question(mysql, user_id,qid,subject,time):
             cur = con.cursor()            
             cur.execute("INSERT INTO questions (user_id,qid,subject,r_time) VALUES (%s,%s,%s,%s)",(user_id,qid,subject,time))           
             con.commit()
-            print ("Questions record successfully added")
+            print("[QUIZBOT-DATABASE] PID " + str(os.getpid())+": Questions record successfully added")
         except:
             con.rollback()
-            print ("error in inserting question operation")
+            print("[QUIZBOT-BUG] PID " + str(os.getpid())+": Error in inserting question operation")
         # finally:
         #     con.close()
 

@@ -24,7 +24,6 @@ def send_a_question(recipient_id, question):
             "text": random.choice(starting_part) + question,
             "quick_replies": [
                 {
-                    "type":"postback",
                     "content_type": "text",
                     "title": "I need a hint ...",
                     "payload": "I_NEED_A_HINT"
@@ -104,7 +103,6 @@ def send_hint(recipient_id, main_text):
             "text": main_text,
             "quick_replies": [
                 {
-                    "type":"postback",
                     "content_type": "text",
                     "title": "Sure!",
                     "payload": "SURE!"
@@ -406,7 +404,7 @@ def persistent_menu():
           }
         ]        
     })
-    print("[QUIZBOT] PID " + str(os.getpid())+": persistent menu loaded")
+    print("[QUIZBOT] PID " + str(os.getpid())+": Persistent menu loaded")
     r = requests.post("https://graph.facebook.com/v2.6/me/messenger_profile", params=params, headers=headers, data=data)
     if r.status_code != 200:
         log(r.status_code)
