@@ -16,7 +16,7 @@ class ConstructQA():
         self.SubKB = [] # subject
         self.DifficultyKB = [] # difficulty level
         self.SubDict = {} # subject dict
-        self.KBlength = 0
+        self.KBlength = len(data)
         
         for entry in data:
             self.QKB.append(entry["question"])
@@ -28,7 +28,8 @@ class ConstructQA():
             self.DifficultyKB.append(entry["difficulty"])
         self.appendSubDict()
         
-        print("[QUIZBOT] " + str(os.getpid()) + ": Finished QA Knowledgebase Construction\n")
+        print("[QUIZBOT] Finished QA Knowledgebase Construction\n")
+        print("[QUIZBOT] Total Number of Questions: " +str(len(self.KBlength))"\n")
     
     def appendSubDict(self):       
         for i, subject in enumerate(self.SubKB):
