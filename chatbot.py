@@ -85,7 +85,7 @@ def respond_to_postback(payload, message_text, sender_id, qa_model, mysql):
     elif payload == "REPORT_BUG":
         time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
         insert_score(mysql,sender_id,-1,message_text,-1,time)
-        send_why3_quickreply(sender_id, "Thanks for letting us know. We will use your feedback to improve our algorithm! Now what would you like to do next?")
+        send_why2_quickreply(sender_id, "Thanks for letting us know. We will use your feedback to improve our algorithm! Now what would you like to do next?")
 
     # look for next similar question based off the pre-trained model
     elif payload == "NEXT_QUESTION":
@@ -163,7 +163,7 @@ def respond_to_messagetext(message_text, sender_id, qa_model, mysql):
     elif message_text == "report bug":
         time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
         insert_score(mysql, sender_id,-1,message_text,-1,time)
-        send_why3_quickreply(sender_id, "Thanks for letting us know. We will use your feedback to improve our algorithm! Now what would you like to do next?")
+        send_why2_quickreply(sender_id, "Thanks for letting us know. We will use your feedback to improve our algorithm! Now what would you like to do next?")
 
     elif message_text == "physics":
         question, QID = qa_model.pickSubjectRandomQuestion(message_text)
