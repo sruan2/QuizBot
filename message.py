@@ -373,9 +373,8 @@ def persistent_menu():
           }
         ]        
     })
+    print("[QUIZBOT] persistent menu loaded")
     r = requests.post("https://graph.facebook.com/v2.6/me/messenger_profile", params=params, headers=headers, data=data)
-    print("*"*100)
-    print("PERSISTENT MENU")
     if r.status_code != 200:
         log(r.status_code)
         log(r.text) 
@@ -408,15 +407,11 @@ def greeting():
     })
 
     r = requests.post("https://graph.facebook.com/v2.6/me/messenger_profile", params=params, headers=headers, data=data2)
-    print("*"*100)
-    print("GET STARTED")
     if r.status_code != 200:
         log(r.status_code)
         log(r.text)
 
     r = requests.post("https://graph.facebook.com/v2.6/me/messenger_profile", params=params, headers=headers, data=data1)
-    print("*"*100)
-    print("GREETING")
     if r.status_code != 200:
         log(r.status_code)
         log(r.text)
