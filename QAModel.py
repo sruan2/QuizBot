@@ -105,8 +105,8 @@ class SIF2Model(QAModel):
     def __init__(self, qa_kb, pkl_file):
         super(SIF2Model, self).__init__(qa_kb)
         self.AKB = qa_kb.AKB
-        self.init_model(qa_kb.SKB, pkl_file)  # use support to fit
         self.glove = pickle.load(pkl, encoding='latin1')
+        self.init_model(qa_kb.SKB, pkl_file)  # use support to fit
 
     def init_model(self, sentences, pkl_file):
         self.tokenizer = RegexpTokenizer(r'[\w]+')
