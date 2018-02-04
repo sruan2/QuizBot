@@ -43,7 +43,7 @@ class QAModel(object):
             answer = self.QA_KB.AKB[QID][0]
         except:
             answer = ""
-            print("[QUIZBOT-BUG] PID " + str(os.getpid())+": Index %d does not exist in AKB" % QID)
+            print("[BUG] PID " + str(os.getpid())+": Index %d does not exist in AKB" % QID)
         return answer
 
     def getSupport(self, QID):
@@ -51,7 +51,7 @@ class QAModel(object):
             support = self.QA_KB.SKB[QID]
         except:
             support = ""
-            print("[QUIZBOT-BUG] PID " + str(os.getpid())+": Index %d does not exist in SKB" % QID)
+            print("[BUG] PID " + str(os.getpid())+": Index %d does not exist in SKB" % QID)
         return support
     
     @abstractmethod

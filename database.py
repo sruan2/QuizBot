@@ -10,10 +10,10 @@ def insert_user(mysql, user_id,user_firstname,user_lastname,user_gender,user_sta
             cur = con.cursor()    
             cur.execute("INSERT INTO users (user_id,user_firstname,user_lastname,user_gender,user_status) VALUES (%s, %s, %s, %s, %s)",(user_id,user_firstname,user_lastname,user_gender,user_status))           
             con.commit()  
-            print("[QUIZBOT-DATABASE] PID " + str(os.getpid())+": User record successfully added")
+            print("[DATABASE] PID " + str(os.getpid())+": User record successfully added")
         except:
             con.rollback()
-            print("[QUIZBOT-BUG] PID " + str(os.getpid())+": Error in inserting user reocrd operation")
+            print("[BUG] PID " + str(os.getpid())+": Error in inserting user reocrd operation")
         # finally:
         #     con.close()  
 
@@ -26,10 +26,10 @@ def update_status(mysql, user_id, status):
             cur = con.cursor()             
             cur.execute("update users set user_status = %s where user_id = %s",(status, user_id))           
             con.commit()
-            print("[QUIZBOT-DATABASE] PID " + str(os.getpid())+": Update status successfully added")
+            print("[DATABASE] PID " + str(os.getpid())+": Update status successfully added")
         except:
             con.rollback()
-            print("[QUIZBOT-BUG] PID " + str(os.getpid())+": Error in updating user status operation")
+            print("[BUG] PID " + str(os.getpid())+": Error in updating user status operation")
         # finally:
         #     con.close()      
 
@@ -51,10 +51,10 @@ def insert_score(mysql, user_id,qid,answer,score,time):
             cur = con.cursor()              
             cur.execute("INSERT INTO scores (user_id,qid,answer,score,r_time) VALUES (%s, %s, %s, %s, %s)", (user_id,qid,answer,score,time))           
             con.commit()
-            print("[QUIZBOT-DATABASE] PID " + str(os.getpid())+": Score record successfully added")
+            print("[DATABASE] PID " + str(os.getpid())+": Score record successfully added")
         except:
             con.rollback()
-            print("[QUIZBOT-BUG] PID " + str(os.getpid())+": error in inserting score operation")
+            print("[BUG] PID " + str(os.getpid())+": error in inserting score operation")
         # finally:
         #     con.close()
 
