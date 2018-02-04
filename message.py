@@ -315,12 +315,6 @@ def send_gotit_quickreply(recipient_id, sentence):
         log(r.status_code)
         log(r.text) 
 
-def log(message):  # simple wrapper for logging to stdout on heroku
-    print (str(message))
-    sys.stdout.flush()
-
-
-
 
 
 ############ persistent menu ############
@@ -426,3 +420,8 @@ def greeting():
     if r.status_code != 200:
         log(r.status_code)
         log(r.text)
+
+
+def log(message):  # simple wrapper for logging to stdout on heroku
+    print (str(message))
+    sys.stdout.flush()
