@@ -130,7 +130,7 @@ def respond_to_messagetext(message_text, sender_id, qa_model, mysql):
         insert_score(mysql, sender_id,QID,"why",0,time)
 
     elif message_text == "check total score":
-        send_gotit_quickreply(sender_id, "Your accumulated score is "+str(show_score(sender_id)))
+        send_gotit_quickreply(sender_id, "Your accumulated score is "+str(show_score(mysql, sender_id)))
 
     elif message_text == "report bug":
         time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
