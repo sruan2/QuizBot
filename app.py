@@ -95,7 +95,7 @@ def webhook():
                         print("$"*100)
                         print(messaging_event["message"]) 
                         payload = messaging_event["message"]["quick_reply"]["payload"] # the button's payload
-                        message_text = messaging_event["message"]["quick_reply"]["text"]  # the button's text
+                        message_text = messaging_event["message"]["text"]  # the button's text
                         print("[QUIZBOT] PID " + str(os.getpid())+": Received a POSTBACK")
                         print("[QUIZBOT] PID " + str(os.getpid())+": Payload is \""+payload+"\"")
                         print("[QUIZBOT] PID " + str(os.getpid())+": Message Text is \""+message_text+"\"")
