@@ -86,7 +86,7 @@ def webhook():
                     print("[QUIZBOT] PID " + str(os.getpid())+": Received from " + sender_firstname)
 
                     # user clicked/tapped "postback" button in earlier message
-                    if database.show_status(mysql, sender_id) != -1 and messaging_event.get("postback"):  
+                    if messaging_event.get("postback"):  
                         payload = messaging_event["postback"]["payload"] # the button's payload
                         message_text = messaging_event["postback"]["title"]  # the button's text
                         print("[QUIZBOT] PID " + str(os.getpid())+": Received a postback")
@@ -109,7 +109,7 @@ def webhook():
                             time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
                             database.insert_user(mysql, sender_id, sender_firstname, sender_lastname, sender_gender, 1)
                             database.insert_score(mysql, sender_id, -1, message_text, 0, time)
-                            message.send_mode_quick_reply(sender_id) 
+                            message.choose_mode_quick_reply(sender_id) 
 
                         else:
                             chatbot.respond_to_messagetext(message_text, sender_id, qa_model, mysql)
