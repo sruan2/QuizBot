@@ -90,8 +90,18 @@ def webhook():
                     sender_gender = data['gender']
                     #print("[QUIZBOT] PID " + str(os.getpid())+": Talking to " + sender_firstname)
 
-                    # user clicked/tapped "postback" button in earlier message
-                    if messaging_event.get("message"):  
+                    # user clicked/tapped "postback" button in Persistent menu
+                    if messaging_event.get("postback"):  
+                        payload = messaging_event["postback"]["payload"] # the button's payload
+                        message_text = messaging_event["postback"]["title"]  # the button's text
+                        print("[QUIZBOT] PID " + str(os.getpid())+": Received a POSTBACK")
+                        print("[QUIZBOT] PID " + str(os.getpid())+": Payload is \""+payload+"\"")
+                        print("[QUIZBOT] PID " + str(os.getpid())+": Message Text is \""+message_text+"\"")
+                        chatbot.respond_to_postback(payload, message_text, sender_id, qa_model, mysql)
+
+                    
+                    elif messaging_event.get("message"):  
+                        # user clicked/tapped "postback" button
                         if "quick_reply" in messaging_event.get("message"): 
                             print("$"*100)
                             print(messaging_event["message"]) 
@@ -102,7 +112,7 @@ def webhook():
                             print("[QUIZBOT] PID " + str(os.getpid())+": Message Text is \""+message_text+"\"")
                             chatbot.respond_to_postback(payload, message_text, sender_id, qa_model, mysql)
 
-                    # someone sent us a message
+                        # someone sent us a message
                         elif not "text" in messaging_event["message"]:
                             return "key error", 200
                         
