@@ -2,10 +2,43 @@ import os
 import json
 import requests
 import sys
+import random
+
+def send_a_question(recipient_id, question):
+
+    starting_part = ["Here's a question for you! ",
+                     "Let's try this one: ",
+                     "Could you tell the answer to this one? "]
+
+    params = {
+        "access_token": os.environ["PAGE_ACCESS_TOKEN"]
+    }
+    headers = {
+        "Content-Type": "application/json"
+    }
+    data = json.dumps({
+        "recipient": {
+            "id": recipient_id
+        },
+        "message": {
+            "text": random.choice(starting_part) + question,
+            "quick_replies": [
+                {
+                    "content_type": "text",
+                    "title": "I need a hint ...",
+                    "payload": "I_NEED_A_HINT"
+                }
+            ]
+        }
+    })
+    r = requests.post("https://graph.facebook.com/v2.6/me/messages", params=params, headers=headers, data=data)
+    if r.status_code != 200:
+        log(r.status_code)
+        log(r.text)
+
 
 def send_message(recipient_id, message_text):
 
-    log("sending message to {recipient}: {text}".format(recipient=recipient_id, text=message_text))
     params = {
         "access_token": os.environ["PAGE_ACCESS_TOKEN"]
     }
