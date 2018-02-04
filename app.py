@@ -90,9 +90,6 @@ def webhook():
                     sender_gender = data['gender']
                     #print("[QUIZBOT] PID " + str(os.getpid())+": Talking to " + sender_firstname)
 
-
-                    print("^"*100)
-                    print(messaging_event)
                     # user clicked/tapped "postback" button in earlier message
                     if messaging_event.get("message"):  
                         if "quick_reply" in messaging_event.get("message"): 
