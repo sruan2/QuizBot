@@ -69,7 +69,7 @@ def respond_to_postback(payload, message_text, sender_id, qa_model, mysql):
         insert_question(mysql, sender_id,QID,time)
         send_a_question(sender_id, question)
 
-    elif payload == 'SWITCH_SUBJECT' or message_text[:4] == 'SURE':
+    elif payload == 'SWITCH_SUBJECT' or payload == 'SURE':
         send_subject_quick_reply(sender_id, "Now tell me which subject you would like to choose:"+u'\uD83D\uDC47')
 
 
