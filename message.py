@@ -111,7 +111,7 @@ def send_ready_go(recipient_id, main_text):
         log(r.status_code)
         log(r.text)
 
-def send_mode_quick_reply(recipient_id):
+def choose_mode_quick_reply(recipient_id):
 
     params = {
         "access_token": os.environ["PAGE_ACCESS_TOKEN"]
