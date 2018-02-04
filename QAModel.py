@@ -116,14 +116,15 @@ class SIF2Model(QAModel):
         self.emb = EmbeddingVectorizer(word_vectors=self.glove, weighted=True, R=False) # just use the simple weighted version without removing PCA
 
     def compute_score(self, user_answer, QID):
+        # transform the correct answer
         correct_answer = self.AKB[QID][0]
         tokenized_answer = utils.preprocess([correct_answer], self.tokenizer)
         V_answer = self.emb.transform(tokenized_answer)    
-        
+        # transform the user's answer
         tokenized_query = utils.preprocess([user_answer], self.tokenizer)
         not_empty = False
         for user_word in tokenized_query: # for out of vocabulary words
-            if user_word in glove:
+            if user_word in self.glove:
                 not_empty = True
                 break
         if not_empty:
