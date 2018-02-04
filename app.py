@@ -1,7 +1,7 @@
 import os
 import json
 import sys
-sys.path.append("/home/venv/quizbot/QuizBot/")
+#sys.path.append("/home/venv/quizbot/QuizBot/")
 import QAKnowledgebase
 import QAModel
 from flask_mysqldb import MySQL
@@ -12,9 +12,9 @@ from flask import Flask, request
 from message import *
 
 
-
 app = Flask(__name__)
 
+# ================== MySQL Setup ==================
 mysql = MySQL()
 app.config['MYSQL_HOST'] = os.environ["DB_HOST"]
 app.config['MYSQL_USER'] = os.environ["DB_USER"]
@@ -22,9 +22,11 @@ app.config['MYSQL_PASSWORD'] = os.environ["DB_PASSWORD"]
 app.config['MYSQL_DB'] = os.environ["DB"]
 mysql.init_app(app)
 
+
 @app.route('/test', methods=['GET'])
 def test():
     return "test", 200
+
 
 @app.route('/', methods=['GET'])
 def verify():
@@ -34,15 +36,14 @@ def verify():
         if not request.args.get("hub.verify_token") == os.environ["VERIFY_TOKEN"]:
             return "Verification token mismatch", 403
         return request.args["hub.challenge"], 200
-
     return "Hello world", 200
+
 
 @app.route('/', methods=['GET'])
 def get_user_profile(recipient_id):
     # based on user id retrive user name
     # could protentially retive more user profile, e.g. profile_pic, locale, timezone, gender, last_ad_referral, etc.
-    log("getting user profile from user_id: {recipient}".format(recipient=recipient_id))
-
+    log("[QUIZBOT] Getting user profile from user_id: {recipient}".format(recipient=recipient_id))
     r = requests.get("https://graph.facebook.com/v2.6/{psid}?fields=first_name,last_name,gender&access_token={token}".format(psid=recipient_id,token=os.environ["PAGE_ACCESS_TOKEN"]))
     if r.status_code != 200:
         log(r.status_code)
@@ -51,22 +52,18 @@ def get_user_profile(recipient_id):
     data = json.loads(r.text)
     return data
 
+
 @app.route('/', methods=['POST'])
 def webhook():
 
-    #print("\nwebhook\n")
-
-    # endpoint for processing incoming messaging events
-
+    log("[QUIZBOT] Enter webhook") # endpoint for processing incoming messaging events
+    
     data = request.get_json()
     
     if data["object"] == "page":
         for entry in data["entry"]:
-            #print("\n\entry\n")
-
             if entry.get("messaging"):
                 for messaging_event in entry["messaging"]:
-                    #print("\n\messaging_event\n")
 
                     if messaging_event.get("delivery"):  # delivery confirmation
                         pass
@@ -75,103 +72,22 @@ def webhook():
                         pass
 
                     sender_id = messaging_event["sender"]["id"]   
-                    # sender_name = messaging_event["sender"]["name"]     
+
+                    if sender_id == os.environ["CHATBOT_ID"]: # return if this message is sent from the chatbot
+                        return "Chatbot ID", 200
+
+                    sender_name = messaging_event["sender"]["name"]     
                     recipient_id = messaging_event["recipient"]["id"]  
 
-                    if sender_id == os.environ["CHATBOT_ID"]: 
-                    # "854518728062939" for development chatbot
-                        return "irrelavant ID", 200
-
-
                     if show_status(sender_id) != -1 and messaging_event.get("postback"):  # user clicked/tapped "postback" button in earlier message
-                        # sender_id = messaging_event["sender"]["id"]   
-                        # # sender_name = messaging_event["sender"]["name"]     
-                        # recipient_id = messaging_event["recipient"]["id"]  
-                        
-                        # if sender_id == "1497174250389598": #chatbot
-                        #     return "irrelavant ID", 200
 
-                        message_text = messaging_event["postback"]["title"] # the button's payload
+                        message_text = messaging_event["postback"]["title"].lower() # the button's payload
                          
-                        log("Inside postback")
-                        message_text = message_text.lower()
+                        log("[QUIZBOT] Inside postback")
 
-                        if message_text == "get started":
-                            send_ready_go(sender_id, "Hi! Welcome! I'm your personal tutor Mr.Q and I'm here to help you master science! Ready? Go!"+u'\uD83D\uDE0A')
-                            
-                        elif "yup! i'm ready!" in message_text:
-                            update_status(sender_id, 1)
-                            send_mode_quick_reply(sender_id, "Now tell me which mode you would like to choose:"+u'\uD83D\uDC47') 
+                        respond_to_postback(message_text, mysql)
 
-                        elif message_text == "check total score":
-                            score = show_score(sender_id)
-                            send_gotit_quickreply(sender_id, "Your total score is "+str(score)+". Keep moving!") 
-
-                        elif message_text == "check leaderboard":
-                            records = show_top_10()
-                            sentence = ("\n").join(["No." + str(i + 1) + " " + str(records[i][0]+' '+records[i][1]) + ": " + str(records[i][2]) for i in range(len(records))])
-                            send_gotit_quickreply(sender_id, "Leaderboard: \n" + sentence) 
-                        elif message_text[0:9] == "quiz mode":
-                            send_subject_quick_reply(sender_id, "Now tell me which subject you would like to choose:"+u'\uD83D\uDC47')
-
-                        elif message_text == "physics":
-                            question, QID = qa_md.pickSubjectRandomQuestion(message_text)
-                            update_status(sender_id, 0)
-                            time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
-                            insert_question(sender_id,QID,time)
-                            send_message(sender_id, "Question."+str(QID)+": "+question)
-
-                        elif message_text == "chemistry":
-                            question, QID = qa_md.pickSubjectRandomQuestion(message_text)
-                            update_status(sender_id, 0)
-                            time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
-                            insert_question(sender_id,QID,time)
-                            send_message(sender_id, "Question."+str(QID)+": "+question)
-
-                        elif message_text == "biology":
-                            question, QID = qa_md.pickSubjectRandomQuestion(message_text)
-                            update_status(sender_id, 0)
-                            time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
-                            insert_question(sender_id,QID,time)
-                            send_message(sender_id, "Question."+str(QID)+": "+question)
-
-                        elif message_text == "geology":
-                            question, QID = qa_md.pickSubjectRandomQuestion(message_text)
-                            update_status(sender_id, 0)
-                            time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
-                            insert_question(sender_id,QID,time)
-                            send_message(sender_id, "Question."+str(QID)+": "+question)
-
-                        elif message_text == "random":
-                            question, QID = qa_md.pickSubjectRandomQuestion(message_text)
-                            update_status(sender_id, 0)
-                            time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
-                            insert_question(sender_id,QID,time)
-                            send_message(sender_id, "Question."+str(QID)+": "+question)
-
-                        elif message_text == 'switch subject' or message_text[:4] == 'sure':
-                            send_subject_quick_reply(sender_id, "Now tell me which subject you would like to choose:"+u'\uD83D\uDC47')
-
-
-                        # look for next similar question based off the pre-trained model
-                        elif message_text == "next question":
-                            if show_status(sender_id):
-                                last_subject = show_last_qid_subject(sender_id)[1]
-                                if last_subject == 'random' or last_subject == 'no record':
-                                    question, QID = qa_md.pickRandomQuestion()
-                                else:
-                                    question, QID = qa_md.pickSubjectRandomQuestion(last_subject)
-                                update_status(sender_id, 0)
-                                time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
-                                insert_question(sender_id,QID,last_subject,time)
-                            else: 
-                                QID = show_last_qid_subject(sender_id)[0]
-                                question = qa_md.pickLastQuestion(QID)
-                            send_message(sender_id, "Question."+str(QID)+": "+question)
-
-                        elif message_text[0:9] == "answering":
-                            send_message(sender_id, "I'm here to answer your questions! Just type your question below :-) ")
-
+########### sherry's refactor up here ################
 
                     elif messaging_event.get("message"):  # someone sent us a message
                         # sender_id = messaging_event["sender"]["id"]        # the facebook ID of the person sending you the message
@@ -198,8 +114,8 @@ def webhook():
 
                             print("first time user"+"="*50)
                             time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
-                            insert_user(sender_id,sender_firstname,sender_lastname,sender_gender,1)
-                            insert_score(sender_id, -1,message_text,0,time)
+                            insert_user(mysql, sender_id,sender_firstname,sender_lastname,sender_gender,1)
+                            insert_score(mysql, sender_id, -1,message_text,0,time)
                             send_mode_quick_reply(sender_id, "Now tell me which mode you would like to choose:"+u'\uD83D\uDC47') 
 
                         else:
@@ -211,7 +127,7 @@ def webhook():
                             if message_text == "Quiz Mode "+u'\u270F':
                                 send_subject_quick_reply(sender_id, "Now tell me which subject you would like to choose:"+u'\uD83D\uDC47') 
                                 time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
-                                insert_question(sender_id,'-11','SWITCH_SUBJUECT',time)
+                                insert_question(mysql, sender_id,'-11','SWITCH_SUBJUECT',time)
                                 print("\n-4- QID is: "+str(QID)+"\n")                                 
 
                             elif message_text == "Next Question" or message_text == "Got it, next!" or message_text[:4] == "Sure":
@@ -222,9 +138,9 @@ def webhook():
                                         question, QID = qa_md.pickRandomQuestion()
                                     else:
                                         question, QID = qa_md.pickSubjectRandomQuestion(last_subject)
-                                    update_status(sender_id, 0)
+                                    update_status(mysql, sender_id, 0)
                                     time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
-                                    insert_question(sender_id,QID,last_subject,time)
+                                    insert_question(mysql, sender_id,QID,last_subject,time)
                                 else: 
                                     QID = show_last_qid_subject(sender_id)[0]
                                     question = qa_md.pickLastQuestion(QID)
@@ -236,7 +152,7 @@ def webhook():
                             #     send_message(sender_id, answer)    
 
                             elif "Yup! I'm ready!" in message_text:
-                                update_status(sender_id, 1)
+                                update_status(mysql, sender_id, 1)
                                 send_mode_quick_reply(sender_id, "Now tell me which mode you would like to choose:"+u'\uD83D\uDC47') 
 
 
@@ -244,11 +160,11 @@ def webhook():
                                 support_sentence = qa_md.getSupport(QID)[:600]
                                 send_why2_quickreply(sender_id, "Here's an explanation: " + support_sentence)
                                 time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
-                                insert_score(sender_id,QID,"why",0,time)
+                                insert_score(mysql, sender_id,QID,"why",0,time)
 
                             elif message_text == "Check Total Score":
                                 print ("&"*50)
-                                print (str(show_score(sender_id)))
+                                print (str(show_score(mysql, sender_id)))
                                 send_gotit_quickreply(sender_id, "Your accumulated score is "+str(show_score(sender_id)))
 
                             elif message_text == "Report Bug":
@@ -258,37 +174,37 @@ def webhook():
 
                             elif message_text == "Physics":
                                 question, QID = qa_md.pickSubjectRandomQuestion(message_text)
-                                update_status(sender_id, 0)
+                                update_status(mysql, sender_id, 0)
                                 time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
-                                insert_question(sender_id,QID,message_text.lower(),time)
+                                insert_question(mysql, sender_id,QID,message_text.lower(),time)
                                 send_message(sender_id, "Question."+str(QID)+": "+question)
 
                             elif message_text == "Chemistry":
                                 question, QID = qa_md.pickSubjectRandomQuestion(message_text)
-                                update_status(sender_id, 0)
+                                update_status(mysql, sender_id, 0)
                                 time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
-                                insert_question(sender_id,QID,message_text.lower(),time)
+                                insert_question(mysql, sender_id,QID,message_text.lower(),time)
                                 send_message(sender_id, "Question."+str(QID)+": "+question)
 
                             elif message_text == "Biology":
                                 question, QID = qa_md.pickSubjectRandomQuestion(message_text)
-                                update_status(sender_id, 0)
+                                update_status(mysql, sender_id, 0)
                                 time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
-                                insert_question(sender_id,QID,message_text.lower(),time)
+                                insert_question(mysql, sender_id,QID,message_text.lower(),time)
                                 send_message(sender_id, "Question."+str(QID)+": "+question)
 
                             elif message_text == "Geology":
                                 question, QID = qa_md.pickSubjectRandomQuestion(message_text)
-                                update_status(sender_id, 0)
+                                update_status(mysql, sender_id, 0)
                                 time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
-                                insert_question(sender_id,QID,message_text.lower(),time)
+                                insert_question(mysql, sender_id,QID,message_text.lower(),time)
                                 send_message(sender_id, "Question."+str(QID)+": "+question)
                             
                             elif message_text == "Random":
                                 question, QID = qa_md.pickRandomQuestion()
-                                update_status(sender_id, 0)
+                                update_status(mysql, sender_id, 0)
                                 time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
-                                insert_question(sender_id,QID,message_text.lower(),time)
+                                insert_question(mysql, sender_id,QID,message_text.lower(),time)
                                 send_message(sender_id, "Question."+str(QID)+": "+question)
 
                             elif message_text.lower() == 'switch subject':
@@ -301,122 +217,17 @@ def webhook():
                                     score = qa_model.compute_score(message_text, QID)
                                     send_message(sender_id, "Your score this round is "+str(score))
                                     time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
-                                    insert_score(sender_id,QID,message_text,score,time)
+                                    insert_score(mysql, sender_id,QID,message_text,score,time)
                                     send_why_quickreply(sender_id, QID, standard_answer)    
-                                    update_status(sender_id, 1) 
+                                    update_status(mysql, sender_id, 1) 
                                 else:
-                                    update_status(sender_id, 1)
+                                    update_status(mysql, sender_id, 1)
                                     send_interesting(sender_id, "That sounds interesting. Would you want more quiz questions to practice? I'm here to help :) ")
                                     
                                     #send_subject_quick_reply(sender_id, "Now tell me which subject you would like to choose:"+u'\uD83D\uDC47')
     return "ok", 200
 
-# ========================= Database =========================
-# insert user info
-def insert_user(user_id,user_firstname,user_lastname,user_gender,user_status):
-    if request.method == 'POST':
-        try:
-            con = mysql.connection
-            cur = con.cursor()    
-            print ()       
-            cur.execute("INSERT INTO users (user_id,user_firstname,user_lastname,user_gender,user_status) VALUES (%s, %s, %s, %s, %s)",(user_id,user_firstname,user_lastname,user_gender,user_status))           
-            con.commit()  
-            print ("User record successfully added")
-        except:
-            con.rollback()
-            print ("error in inserting user reocrd operation")
-        # finally:
-        #     con.close()  
 
-
-# update user question-answer loop status
-def update_status(user_id,status):
-    if request.method == 'POST':
-        try:
-            con = mysql.connection
-            cur = con.cursor()             
-            cur.execute("update users set user_status = %s where user_id = %s",(status, user_id))           
-            con.commit()
-            print ("update status successfully added")
-        except:
-            con.rollback()
-            print ("error in updating user status operation")
-        # finally:
-        #     con.close()      
-
-def show_status(user_id):
-    cur = mysql.connection.cursor() 
-    cur.execute("select user_status from users where user_id = %s", [user_id])
-
-    rows = cur.fetchall()
-    if len(rows) != 0:
-        return rows[0][0] 
-    else:
-        return -1
-
-# insert user score
-def insert_score(user_id,qid,answer,score,time):
-    if request.method == 'POST':
-        try:
-            con = mysql.connection
-            cur = con.cursor()              
-            cur.execute("INSERT INTO scores (user_id,qid,answer,score,r_time) VALUES (%s, %s, %s, %s, %s)", (user_id,qid,answer,score,time))           
-            con.commit()
-            print ("Score record successfully added")
-        except:
-            con.rollback()
-            print ("error in inserting score operation")
-        # finally:
-        #     con.close()
-
-# insert asked questions
-def insert_question(user_id,qid,subject,time):
-    if request.method == 'POST':
-        try:
-            con = mysql.connection
-            cur = con.cursor()            
-            cur.execute("INSERT INTO questions (user_id,qid,subject,r_time) VALUES (%s,%s,%s,%s)",(user_id,qid,subject,time))           
-            con.commit()
-            print ("Questions record successfully added")
-        except:
-            con.rollback()
-            print ("error in inserting question operation")
-        # finally:
-        #     con.close()
-
-def show_user_id_list():
-    cur = mysql.connection.cursor() 
-    cur.execute("select user_id from users")
-
-    rows = cur.fetchall()
-    return [x[0] for x in rows]   
-
-
-# retrieve score based on user_id 
-def show_score(user_id):
-    cur = mysql.connection.cursor() 
-    cur.execute("select sum(score) from scores group by user_id having user_id = %s", [user_id])
-
-    rows = cur.fetchall();
-    return rows[0][0] if len(rows) > 0 else 0
-
-# retrieve score based on user_id 
-def show_last_qid_subject(user_id):
-    cur = mysql.connection.cursor() 
-    cur.execute("select qid,subject from questions where user_id = %s order by id desc limit 1", [user_id])
-
-    rows = cur.fetchall();
-    return (rows[0][0] if len(rows) > 0 else -1, rows[0][1] if len(rows) > 0 else 'no record')
-
-# show top 10 in leaderboard
-def show_top_10():
-    cur = mysql.connection.cursor() 
-    cur.execute("select t2.user_firstname,t2.user_lastname,t1.sc from \
-        (select user_id, sum(score) as sc from scores group by user_id order by sc desc limit 10) t1 join users t2 on t2.user_id = t1.user_id \
-         order by t1.sc desc")
-
-    rows = cur.fetchall();
-    return rows
     
 
 
