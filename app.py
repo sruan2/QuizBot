@@ -89,7 +89,7 @@ def webhook():
                     if database.show_status(mysql, sender_id) != -1 and messaging_event.get("postback"):  
                         message_text = messaging_event["postback"]["title"].lower() # the button's payload
                         print("[QUIZBOT] PID " + str(os.getpid())+": Received a postback")
-                        chatbot.respond_to_postback(message_text, sender_id, mysql)
+                        chatbot.respond_to_postback(message_text, sender_id, qa_model, mysql)
 
                     # someone sent us a message
                     elif messaging_event.get("message"):  
