@@ -89,7 +89,7 @@ def webhook():
                     if database.show_status(mysql, sender_id) != -1 and messaging_event.get("postback"):  
                         message_text = messaging_event["postback"]["title"] # the button's payload
                         print("[QUIZBOT] PID " + str(os.getpid())+": Received a postback")
-                        print("[QUIZBOT] PID " + str(os.getpid())+": \"message_text\"")
+                        print("[QUIZBOT] PID " + str(os.getpid())+": \""+message_text+"\"")
                         chatbot.respond_to_postback(message_text, sender_id, qa_model, mysql)
 
                     # someone sent us a message
@@ -99,7 +99,7 @@ def webhook():
                             
                         message_text = messaging_event["message"]["text"]  # the message's text
                         print("[QUIZBOT] PID " + str(os.getpid())+": Received a message")
-                        print("[QUIZBOT] PID " + str(os.getpid())+": \"message_text\"")
+                        print("[QUIZBOT] PID " + str(os.getpid())+": \""+message_text+"\"")
                         
                         # first-time user
                         if not int(sender_id) in database.show_user_id_list(mysql):
@@ -130,7 +130,6 @@ if __name__ == '__main__':
     json_file = 'SciQdataset-23/200questions.json'
     
     qa_kb = QAKnowledgebase.ConstructQA(json_file)
-    qa_md = QAModel.QAModel(qa_kb)
     qa_doc2vec = QAModel.Doc2VecModel(qa_kb, doc2vec)
 
     # select the right model to load based on environment variable "MODEL", which is set in ./start_server.sh
