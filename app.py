@@ -59,7 +59,6 @@ def get_user_profile(recipient_id):
 def webhook():
 
     log("[QUIZBOT] Enter webhook") # endpoint for processing incoming messaging events
-    
     data = request.get_json()
     
     if data["object"] == "page":
@@ -73,166 +72,46 @@ def webhook():
                     if messaging_event.get("optin"):  # optin confirmation
                         pass
 
-                    sender_id = messaging_event["sender"]["id"]   
-                    recipient_id = messaging_event["recipient"]["id"]  
-
+                    sender_id = messaging_event["sender"]["id"]        # the facebook ID of the person sending you the message
+                    recipient_id = messaging_event["recipient"]["id"]  # the recipient's ID, which should be your page's facebook ID
+                    
                     if sender_id == os.environ["CHATBOT_ID"]: # return if this message is sent from the chatbot
                         return "Chatbot ID", 200
 
-                    if show_status(mysql, sender_id) != -1 and messaging_event.get("postback"):  # user clicked/tapped "postback" button in earlier message
+                    data = get_user_profile(sender_id)
+                    sender_firstname = data['first_name']
+                    sender_lastname = data['last_name']
+                    sender_gender = data['gender']
+                    print("[QUIZBOT] PID " + str(os.getpid())+": Received from " + sender_firstname)
 
+                    # user clicked/tapped "postback" button in earlier message
+                    if show_status(mysql, sender_id) != -1 and messaging_event.get("postback"):  
                         message_text = messaging_event["postback"]["title"].lower() # the button's payload
-                         
-                        log("[QUIZBOT] Inside postback")
-
+                        print("[QUIZBOT] PID " + str(os.getpid())+": Received a postback")
                         chatbot.respond_to_postback(message_text, sender_id, mysql)
 
-########### sherry's refactor up here ################
-
-                    elif messaging_event.get("message"):  # someone sent us a message
-                        # sender_id = messaging_event["sender"]["id"]        # the facebook ID of the person sending you the message
-                        # recipient_id = messaging_event["recipient"]["id"]  # the recipient's ID, which should be your page's facebook ID
-                        print("sender ID is: "+sender_id)
-                        print("recipient ID is: "+recipient_id)
-                        
-                        # if sender_id == "1497174250389598": #chatbot
-                        #     return "irrelavant ID", 200
-                        
-                        #send_message(sender_id, "Your sender ID is: "+sender_id)
+                    # someone sent us a message
+                    elif messaging_event.get("message"):  
                         if not "text" in messaging_event["message"]:
                             return "key error", 200
                             
                         message_text = messaging_event["message"]["text"]  # the message's text
-
-                        data = get_user_profile(sender_id)
-                        print (data)
-                        sender_firstname = data['first_name']
-                        sender_lastname = data['last_name']
-                        sender_gender = data['gender']
-
+                        print("[QUIZBOT] PID " + str(os.getpid())+": Received a message")
+                        
+                        # first-time user
                         if not int(sender_id) in show_user_id_list(mysql):
-
-                            print("first time user"+"="*50)
+                            print("[QUIZBOT] PID " + str(os.getpid())+": This is a new user!")
                             time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
                             insert_user(mysql, sender_id,sender_firstname,sender_lastname,sender_gender,1)
                             insert_score(mysql, sender_id, -1,message_text,0,time)
-                            send_mode_quick_reply(sender_id, "Now tell me which mode you would like to choose:"+u'\uD83D\uDC47') 
+                            send_mode_quick_reply(sender_id) 
 
                         else:
-                            QID,SUBJECT = show_last_qid_subject(mysql, sender_id)
-
-                            print ("^"*100)
-                            print (message_text)
-
-                            if message_text == "Quiz Mode "+u'\u270F':
-                                send_subject_quick_reply(sender_id, "Now tell me which subject you would like to choose:"+u'\uD83D\uDC47') 
-                                time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
-                                insert_question(mysql, sender_id,'-11','SWITCH_SUBJUECT',time)
-                                print("\n-4- QID is: "+str(QID)+"\n")                                 
-
-                            elif message_text == "Next Question" or message_text == "Got it, next!" or message_text[:4] == "Sure":
-
-                                if show_status(mysql, sender_id):
-                                    last_subject = show_last_qid_subject(mysql, sender_id)[1]
-                                    if last_subject == 'random' or last_subject == 'no record':
-                                        question, QID = qa_md.pickRandomQuestion()
-                                    else:
-                                        question, QID = qa_md.pickSubjectRandomQuestion(last_subject)
-                                    update_status(mysql, sender_id, 0)
-                                    time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
-                                    insert_question(mysql, sender_id,QID,last_subject,time)
-                                else: 
-                                    QID = show_last_qid_subject(mysql, sender_id)[0]
-                                    question = qa_md.pickLastQuestion(QID)
-                                send_message(sender_id, "Question."+str(QID)+": "+question)
-
-                            # I comment out this part as there is bug here
-                            # elif app.session[sender_id]["answering"] == True:
-                            #     answer = tfidf.Featurize(message_text)
-                            #     send_message(sender_id, answer)    
-
-                            elif "Yup! I'm ready!" in message_text:
-                                update_status(mysql, sender_id, 1)
-                                send_mode_quick_reply(sender_id, "Now tell me which mode you would like to choose:"+u'\uD83D\uDC47') 
-
-
-                            elif message_text[:4] == "Why":
-                                support_sentence = qa_md.getSupport(QID)[:600]
-                                send_why2_quickreply(sender_id, "Here's an explanation: " + support_sentence)
-                                time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
-                                insert_score(mysql, sender_id,QID,"why",0,time)
-
-                            elif message_text == "Check Total Score":
-                                print ("&"*50)
-                                print (str(show_score(mysql, sender_id)))
-                                send_gotit_quickreply(sender_id, "Your accumulated score is "+str(show_score(sender_id)))
-
-                            elif message_text == "Report Bug":
-                                time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
-                                insert_score(sender_id,-1,message_text,-1,time)
-                                send_interesting(sender_id, "Thanks for reporting! Would you want more questions to practice? :) ")
-
-                            elif message_text == "Physics":
-                                question, QID = qa_md.pickSubjectRandomQuestion(message_text)
-                                update_status(mysql, sender_id, 0)
-                                time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
-                                insert_question(mysql, sender_id,QID,message_text.lower(),time)
-                                send_message(sender_id, "Question."+str(QID)+": "+question)
-
-                            elif message_text == "Chemistry":
-                                question, QID = qa_md.pickSubjectRandomQuestion(message_text)
-                                update_status(mysql, sender_id, 0)
-                                time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
-                                insert_question(mysql, sender_id,QID,message_text.lower(),time)
-                                send_message(sender_id, "Question."+str(QID)+": "+question)
-
-                            elif message_text == "Biology":
-                                question, QID = qa_md.pickSubjectRandomQuestion(message_text)
-                                update_status(mysql, sender_id, 0)
-                                time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
-                                insert_question(mysql, sender_id,QID,message_text.lower(),time)
-                                send_message(sender_id, "Question."+str(QID)+": "+question)
-
-                            elif message_text == "Geology":
-                                question, QID = qa_md.pickSubjectRandomQuestion(message_text)
-                                update_status(mysql, sender_id, 0)
-                                time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
-                                insert_question(mysql, sender_id,QID,message_text.lower(),time)
-                                send_message(sender_id, "Question."+str(QID)+": "+question)
-                            
-                            elif message_text == "Random":
-                                question, QID = qa_md.pickRandomQuestion()
-                                update_status(mysql, sender_id, 0)
-                                time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
-                                insert_question(mysql, sender_id,QID,message_text.lower(),time)
-                                send_message(sender_id, "Question."+str(QID)+": "+question)
-
-                            elif message_text.lower() == 'switch subject':
-                                send_subject_quick_reply(sender_id, "Now tell me which subject you would like to choose:"+u'\uD83D\uDC47')
-
-                            else: # user's respons in natural language    
-                                if not show_status(mysql, sender_id):
-                                    print("not first time"+"="*50)
-                                    standard_answer = qa_md.getAnswer(QID)
-                                    score = qa_model.compute_score(message_text, QID)
-                                    send_message(sender_id, "Your score this round is "+str(score))
-                                    time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
-                                    insert_score(mysql, sender_id,QID,message_text,score,time)
-                                    send_why_quickreply(sender_id, QID, standard_answer)    
-                                    update_status(mysql, sender_id, 1) 
-                                else:
-                                    update_status(mysql, sender_id, 1)
-                                    send_interesting(sender_id, "That sounds interesting. Would you want more quiz questions to practice? I'm here to help :) ")
-                                    
-                                    #send_subject_quick_reply(sender_id, "Now tell me which subject you would like to choose:"+u'\uD83D\uDC47')
+                            respond_to_messagetext(message_text, sender_id, mysql)
     return "ok", 200
 
 
-    
-
-
-
-############ SET UP ############
+# ================== SET UP ==================
 def setup_app(app):
     print("[QUIZBOT] PID " + str(os.getpid())+": ============ Start the app ============")
     greeting()
