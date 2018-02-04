@@ -242,7 +242,7 @@ def send_why_quickreply(recipient_id, QID, standard_answer):
             "id": recipient_id
         },
         "message": {
-            "text": "Standard answer is " +standard_answer,
+            "text": "Coorect answer is " +standard_answer,
             "quick_replies": [
                 {
                     "content_type": "text",
