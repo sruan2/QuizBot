@@ -47,7 +47,13 @@ class QAModel(object):
         return picked_question
 
     def getAnswer(self, QID):
-        return self.QA_KB.AKB[QID].rstrip()
+        try:
+            answer = self.QA_KB.AKB[QID].rstrip()
+        except:
+            answer = ""
+            print("[QUIZBOT-BUG] Answer does not exist")
+        return answer
+
 
     def getSupport(self, QID):
         return self.QA_KB.SKB[QID].rstrip()
