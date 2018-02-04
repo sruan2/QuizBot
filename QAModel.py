@@ -1,13 +1,11 @@
 import sys
-#sys.path.append("/home/venv/quizbot/QuizBot/")
-
 from abc import ABCMeta, abstractmethod
 from gensim.models import Doc2Vec
-#from similarity_model.princeton_sif import sif_sentence_similarity
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import linear_kernel
 from similarity_model.sif_implementation.wordembeddings import EmbeddingVectorizer
 from similarity_model.sif_implementation import utils
+#from similarity_model.princeton_sif import sif_sentence_similarity
 import random
 from random import randint
 import os
@@ -60,9 +58,9 @@ class QAModel(object):
     @abstractmethod
     def computeScore(self): pass
 
-
+# This is a working baseline model
 class TFIDFModel(QAModel):
-    """docstring for TFIDFModel"""
+    """docstring for TFIDF"""
     def __init__(self, qa_kb):
         super(TFIDFModel, self).__init__(qa_kb)
 
@@ -74,9 +72,9 @@ class TFIDFModel(QAModel):
         answer.append(user_answer)
         self.tfidf_features = TfidfVectorizer().fit_transform(answer)
         cosine_similarities = linear_kernel(self.tfidf_features[0:1], self.tfidf_features).flatten()
-        #print("Similarity between the standard answer and yours is: " + str(int(cosine_similarities[1]*10)))
         return int(cosine_similarities[1]*10)   
 
+# This is pretrained by Zhengneng
 class Doc2VecModel(QAModel):
     """docstring for Doc2VecModel"""
     def __init__(self, qa_kb, PreTrainedModel):
@@ -86,10 +84,10 @@ class Doc2VecModel(QAModel):
     def pickNextSimilarQuestion(self, QID):
         num = randint(0, 1000)
         NextQID = self.MODEL.docvecs.most_similar(QID, topn = 1000)[num][0] # among top 1000 questions, pick one and then return question id
-        #picked_question = self.QA_KB.QKB[NextQID].rstrip() # find the question based on the question id
         picked_answer = super(Doc2VecModel, self).getAnswer(QID)
         return picked_question, NextQID
 
+# Sherry: This is based on Princeton's original implementation. Not sure if this working, haven't tested it out yet.
 class SIFModel(QAModel):
     """docstring for SIFModel"""
     def __init__(self, qa_kb):
@@ -97,10 +95,8 @@ class SIFModel(QAModel):
 
     def compute_score(self, user_answer, QID):
         user_answer = user_answer.lower()
-        #picked_answer = self.QA_KB.AKB[QID].rstrip()
         picked_answer = super(SIFModel, self).getAnswer(QID)
         score = sif_sentence_similarity.answer_similarity(user_answer, picked_answer)
-        #print("Similarity between the standard answer and yours is: " + str(int(score)))
         return score
 
 ################### Sherry is fixing this, please do not touch ######################
@@ -111,56 +107,19 @@ class SIF2Model(QAModel):
         self.AKB = qa_kb.AKB
         self.init_model(qa_kb.SKB, pkl_file)  # use support to fit
 
-
-    def init_model(self, akb, pkl_file):
+    def init_model(self, sentences, pkl_file):
         self.tokenizer = RegexpTokenizer(r'[\w]+')
-        self.tokenized_sentences = utils.preprocess(akb, self.tokenizer)
+        self.tokenized_sentences = utils.preprocess(sentences, self.tokenizer)
         pkl = open(pkl_file, 'rb')
         glove = pickle.load(pkl, encoding='latin1')
-        print("="*80+"\nloaded glove")
+        print("[QUIZBOT] PID " + str(os.getpid())+": Loaded "+pkl_file)
         self.emb = EmbeddingVectorizer(word_vectors=glove, weighted=True, R=False) # just use the simple weighted version without removing PCA
-        # if [] in self.tokenized_sentences:
-        #     with open("log", "a+") as f:
-        #         f.write("[ERROR] empty item found!")
-        #     #sys.exit()
-        # self.V = self.emb.fit_transform(self.tokenized_sentences) # for QuizBot replace tokenized_sentences with the entire KB answers
-        # with open("log", "a+") as f:
-        #     for idx, v in enumerate(self.V):
-        #         if (v != v).any():
-        #             f.write("[NAN] " + str(idx) +" " + akb[idx])
-        
-        #     f.write("finished init sif2 model")
 
     def compute_score(self, user_answer, QID):
-        with open("log", "a+") as f:
-            tokenized_query = utils.preprocess([user_answer], self.tokenizer)
-            V_query = self.emb.transform(tokenized_query)
-
-            tokenized_answer = utils.preprocess([self.AKB[QID]], self.tokenizer)
-            V_answer = self.emb.transform(tokenized_answer)
-
-            f.write("\nuser_answer: "+ user_answer)
-            f.write("\ntokenized_query length: " + str(len(tokenized_query))) # 1
-            f.write("\ntokenized_query[0] type: " + str(type(tokenized_query[0]))) #list
-            for t in tokenized_query:
-                f.write("\n"+str(t))
-            #f.write("V_query")
-            #f.write(V_query) #numpy.ndarray
-            f.write("\nV_query shape: "+ str(V_query.shape))
-            f.write("\nV_query[0] shape is: " + str(V_query[0].shape))
-            #f.write(" self.V[QID] shape is: " + str(self.V[QID].shape))
-            f.write("\nQID is: " + str(QID))
-            f.write("\nAKB[QID] is: " + self.AKB[QID])
-            f.write("\ntokenized_answer length: " + str(len(tokenized_answer))) # 1
-            f.write("\ntokenized_answer[0] type: " + str(type(tokenized_answer[0]))) #list
-            for t in tokenized_answer:
-                f.write("\n"+str(t))
-            f.write("\nV_answer shape: "+ str(V_answer.shape))
-            f.write("\nV_answer[0] shape is: " + str(V_answer[0].shape))
-            #f.write("\nself.V[QID] is: " + str(self.V[QID]))
-        #print("similarity: " + str(cosine_similarity(V_query[0], V[0]))+ "\n")
-
+        tokenized_query = utils.preprocess([user_answer], self.tokenizer)
+        V_query = self.emb.transform(tokenized_query)
+        correct_answer = self.AKB[QID][0]
+        tokenized_answer = utils.preprocess([correct_answer], self.tokenizer)
+        V_answer = self.emb.transform(tokenized_answer)          
         score = utils.cosine_similarity(V_query[0], V_answer[0])
-
-        print("Similarity between the standard answer and yours is: " + str(int(score)))
         return score
