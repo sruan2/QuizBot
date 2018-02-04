@@ -82,7 +82,7 @@ def respond_to_postback(payload, message_text, sender_id, qa_model, mysql):
     elif payload == "CHECK_TOTAL_SCORE":
         send_gotit_quickreply(sender_id, "Your accumulated points are "+str(show_score(mysql, sender_id)))
 
-    elif payload = "REPORT_BUG":
+    elif payload == "REPORT_BUG":
         time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
         insert_score(sender_id,-1,message_text,-1,time)
         send_why3_quickreply(sender_id, "Thanks for letting us know. We will use your feedback to improve our algorithm! Now what would you like to do next?")
