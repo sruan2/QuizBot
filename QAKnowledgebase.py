@@ -29,7 +29,7 @@ class ConstructQA():
         self.appendSubDict()
         
         print("[QUIZBOT] Finished QA Knowledgebase Construction")
-        print("[QUIZBOT] Total Number of Questions: " +str(len(self.KBlength)))
+        print("[QUIZBOT] Total Number of Questions: " +str(self.KBlength))
     
     def appendSubDict(self):       
         for i, subject in enumerate(self.SubKB):
