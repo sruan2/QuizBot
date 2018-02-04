@@ -45,11 +45,11 @@ def verify():
 def get_user_profile(recipient_id):
     # based on user id retrive user name
     # could protentially retive more user profile, e.g. profile_pic, locale, timezone, gender, last_ad_referral, etc.
-    log("[QUIZBOT] Getting user profile from user_id: {recipient}".format(recipient=recipient_id))
+    print("[QUIZBOT] PID " + str(os.getpid())+": Getting user profile from user_id: {recipient}".format(recipient=recipient_id))
     r = requests.get("https://graph.facebook.com/v2.6/{psid}?fields=first_name,last_name,gender&access_token={token}".format(psid=recipient_id,token=os.environ["PAGE_ACCESS_TOKEN"]))
     if r.status_code != 200:
-        log(r.status_code)
-        log(r.text)
+        print(r.status_code)
+        print(r.text)
         return
     data = json.loads(r.text)
     return data
@@ -58,7 +58,7 @@ def get_user_profile(recipient_id):
 @app.route('/', methods=['POST'])
 def webhook():
 
-    log("[QUIZBOT] Enter webhook") # endpoint for processing incoming messaging events
+    print("[QUIZBOT] PID " + str(os.getpid())+": Enter webhook") # endpoint for processing incoming messaging events
     data = request.get_json()
     
     if data["object"] == "page":
