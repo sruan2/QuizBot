@@ -145,7 +145,7 @@ if __name__ == '__main__':
     json_file = 'SciQdataset-23/200questions.json'
     
     qa_kb = QAKnowledgebase.ConstructQA(json_file)
-    qa_doc2vec = QAModel.Doc2VecModel(qa_kb, doc2vec)
+    #qa_doc2vec = QAModel.Doc2VecModel(qa_kb, doc2vec)
 
     # select the right model to load based on environment variable "MODEL", which is set in ./start_server.sh
     model = os.environ["MODEL"]
