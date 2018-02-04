@@ -9,8 +9,8 @@ from random import randint
 from time import gmtime, strftime
 from similarity_model import tfidf
 from flask import Flask, request
-from message import *
-from database import *
+import message
+import database
 import chatbot
 
 
@@ -102,9 +102,9 @@ def webhook():
                         if not int(sender_id) in show_user_id_list(mysql):
                             print("[QUIZBOT] PID " + str(os.getpid())+": This is a new user!")
                             time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
-                            insert_user(mysql, sender_id, sender_firstname, sender_lastname, sender_gender, 1)
-                            insert_score(mysql, sender_id, -1, message_text, 0, time)
-                            send_mode_quick_reply(sender_id) 
+                            database.insert_user(mysql, sender_id, sender_firstname, sender_lastname, sender_gender, 1)
+                            database.insert_score(mysql, sender_id, -1, message_text, 0, time)
+                            message.send_mode_quick_reply(sender_id) 
 
                         else:
                             chatbot.respond_to_messagetext(message_text, sender_id, mysql)
