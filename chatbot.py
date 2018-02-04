@@ -79,6 +79,10 @@ def respond_to_postback(payload, message_text, sender_id, qa_model, mysql):
         time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
         insert_score(mysql, sender_id,QID,"why",0,time)        
 
+    elif payload == "CHECK_TOTAL_SCORE":
+        send_gotit_quickreply(sender_id, "Your accumulated points are "+str(show_score(mysql, sender_id)))
+
+
     # look for next similar question based off the pre-trained model
     elif payload == "NEXT_QUESTION":
         QID, _ = show_last_qid_subject(mysql, sender_id) # retrieve the qid and the subject from database
