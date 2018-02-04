@@ -114,8 +114,8 @@ def webhook():
 # ================== SET UP ==================
 def setup_app(app):
     print("[QUIZBOT] PID " + str(os.getpid())+": ============ Start the app ============")
-    greeting()
-    persistent_menu()
+    message.greeting()
+    message.persistent_menu()
 
 setup_app(app)
 
