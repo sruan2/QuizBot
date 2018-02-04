@@ -76,7 +76,7 @@ def respond_to_postback(payload, message_text, sender_id, qa_model, mysql):
     # look for next similar question based off the pre-trained model
     elif payload == "NEXT_QUESTION":
         if show_status(mysql, sender_id):
-            last_subject = show_last_qid_subject(sender_id)[1]
+            last_subject = show_last_qid_subject(mysql, sender_id)[1]
             if last_subject == 'random' or last_subject == 'no record':
                 question, QID = qa_model.pickRandomQuestion()
             else:
@@ -85,7 +85,7 @@ def respond_to_postback(payload, message_text, sender_id, qa_model, mysql):
             time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
             insert_question(mysql, sender_id,QID,last_subject,time)
         else: 
-            QID = show_last_qid_subject(sender_id)[0]
+            QID = show_last_qid_subject(mysql, sender_id)[0]
             question = qa_model.pickLastQuestion(QID)
         send_a_question(sender_id, question)
 
