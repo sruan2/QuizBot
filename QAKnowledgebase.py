@@ -20,7 +20,7 @@ class ConstructQA():
         
         for entry in data:
             self.QKB.append(entry["question"])
-            self.AKB.append(entry["answer"])
+            self.AKB.append(entry["correct_answer"])
             self.D1KB.append(entry["distractor1"])
             self.D2KB.append(entry["distractor2"])
             self.D3KB.append(entry["distractor3"])
