@@ -54,7 +54,7 @@ def get_user_profile(recipient_id):
 @app.route('/', methods=['POST'])
 def webhook():
 
-    print("\nwebhook\n")
+    #print("\nwebhook\n")
 
     # endpoint for processing incoming messaging events
 
@@ -62,11 +62,11 @@ def webhook():
     
     if data["object"] == "page":
         for entry in data["entry"]:
-            print("\n\entry\n")
+            #print("\n\entry\n")
 
             if entry.get("messaging"):
                 for messaging_event in entry["messaging"]:
-                    print("\n\messaging_event\n")
+                    #print("\n\messaging_event\n")
 
                     if messaging_event.get("delivery"):  # delivery confirmation
                         pass
@@ -434,14 +434,15 @@ if __name__ == '__main__':
     # model
     doc2vec = 'model_pre_trained/model_d2v_v1'
     pkl_file = 'model_pre_trained/glove/glove.6B.100d.pkl'
-    # qa data
+    # QA json data
     json_file = 'SciQdataset-23/200questions.json'
     
     qa_kb = QAKnowledgebase.ConstructQA(json_file)
     qa_md = QAModel.QAModel(qa_kb)
     qa_doc2vec = QAModel.Doc2VecModel(qa_kb, doc2vec)
 
-    # select the right model to load based on environment variable "MODEL" which is set in ./start_server.sh
+    # select the right model to load based on environment variable "MODEL",
+    # which is set in ./start_server.sh
     model = os.environ["MODEL"]
     if model == "TFIDF":
         qa_model = QAModel.TFIDFModel(qa_kb)
@@ -450,7 +451,7 @@ if __name__ == '__main__':
     elif model == "SIF2":
         qa_model = QAModel.SIF2Model(qa_kb, pkl_file)
 
-
     context = ('/etc/letsencrypt/live/smartprimer.org/fullchain.pem', '/etc/letsencrypt/live/smartprimer.org/privkey.pem')
+
     app.run(host='0.0.0.0', threaded=True, debug=True, port=int(os.environ["PORT"]), ssl_context=context)
     
