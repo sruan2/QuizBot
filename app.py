@@ -131,7 +131,7 @@ def webhook():
 
                             elif message_text == "Next Question" or message_text == "Got it, next!" or message_text[:4] == "Sure":
 
-                                if show_status(sender_id):
+                                if show_status(mysql, sender_id):
                                     last_subject = show_last_qid_subject(mysql, sender_id)[1]
                                     if last_subject == 'random' or last_subject == 'no record':
                                         question, QID = qa_md.pickRandomQuestion()
@@ -210,7 +210,7 @@ def webhook():
                                 send_subject_quick_reply(sender_id, "Now tell me which subject you would like to choose:"+u'\uD83D\uDC47')
 
                             else: # user's respons in natural language    
-                                if not show_status(sender_id):
+                                if not show_status(mysql, sender_id):
                                     print("not first time"+"="*50)
                                     standard_answer = qa_md.getAnswer(QID)
                                     score = qa_model.compute_score(message_text, QID)
@@ -233,7 +233,7 @@ def webhook():
 
 ############ SET UP ############
 def setup_app(app):
-    print("[QUIZBOT] PID " + str(os.getpid())+": ============ Start the server ============")
+    print("[QUIZBOT] PID " + str(os.getpid())+": ============ Start the app ============")
     greeting()
     persistent_menu()
 
