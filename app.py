@@ -14,6 +14,7 @@ import message
 import database
 import chatbot
 
+# hide http print
 import logging
 log = logging.getLogger('werkzeug')
 log.setLevel(logging.ERROR)
@@ -87,7 +88,7 @@ def webhook():
                     sender_firstname = data['first_name']
                     sender_lastname = data['last_name']
                     sender_gender = data['gender']
-                    print("[QUIZBOT] PID " + str(os.getpid())+": Received from " + sender_firstname)
+                    print("[QUIZBOT] PID " + str(os.getpid())+": Talking to " + sender_firstname)
 
                     # user clicked/tapped "postback" button in earlier message
                     if messaging_event.get("postback"):  
@@ -104,9 +105,7 @@ def webhook():
                             return "key error", 200
                             
                         message_text = messaging_event["message"]["text"]  # the message's text
-                        payload = messaging_event["message"]["payload"] # the button's payload
                         print("[QUIZBOT] PID " + str(os.getpid())+": Received a message")
-                        print("[QUIZBOT] PID " + str(os.getpid())+": Payload \""+payload+"\"")
                         print("[QUIZBOT] PID " + str(os.getpid())+": Message Text \""+message_text+"\"")
                         
                         # first-time user

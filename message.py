@@ -24,6 +24,7 @@ def send_a_question(recipient_id, question):
             "text": random.choice(starting_part) + question,
             "quick_replies": [
                 {
+                    "type":"postback",
                     "content_type": "text",
                     "title": "I need a hint ...",
                     "payload": "I_NEED_A_HINT"
