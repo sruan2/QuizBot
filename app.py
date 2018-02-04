@@ -91,9 +91,11 @@ def webhook():
                     #print("[QUIZBOT] PID " + str(os.getpid())+": Talking to " + sender_firstname)
 
                     # user clicked/tapped "postback" button in earlier message
-                    if messaging_event.get("quick_reply"):  
-                        payload = messaging_event["quick_reply"]["payload"] # the button's payload
-                        message_text = messaging_event["postback"]["title"]  # the button's text
+                    if messaging_event.get("message").get("quick_reply"):  
+                        print("$"*100)
+                        print(messaging_event["message"]) 
+                        payload = messaging_event["message"]["quick_reply"]["payload"] # the button's payload
+                        message_text = messaging_event["message"]["quick_reply"]["text"]  # the button's text
                         print("[QUIZBOT] PID " + str(os.getpid())+": Received a POSTBACK")
                         print("[QUIZBOT] PID " + str(os.getpid())+": Payload is \""+payload+"\"")
                         print("[QUIZBOT] PID " + str(os.getpid())+": Message Text is \""+message_text+"\"")
