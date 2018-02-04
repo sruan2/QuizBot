@@ -112,7 +112,7 @@ class SIF2Model(QAModel):
         self.tokenized_sentences = utils.preprocess(sentences, self.tokenizer)
         pkl = open(pkl_file, 'rb')
         glove = pickle.load(pkl, encoding='latin1')
-        print("[QUIZBOT] PID " + str(os.getpid())+": Loaded "+pkl)
+        print("[QUIZBOT] PID " + str(os.getpid())+": Loaded "+pkl_file)
         self.emb = EmbeddingVectorizer(word_vectors=glove, weighted=True, R=False) # just use the simple weighted version without removing PCA
 
     def compute_score(self, user_answer, QID):
