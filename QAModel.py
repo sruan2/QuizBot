@@ -18,20 +18,19 @@ from nltk import RegexpTokenizer
 class QAModel(object):
 
     def __init__(self, qa_kb):
-        print("\n" + str(os.getpid())+" QAModel begins\n")
+        print("[QUIZBOT] " + str(os.getpid())+": QAModel begins\n")
         self.QID = 0
         self.QA_KB = qa_kb
-        print("\QAModel initialization ends\n")
+        print("[QUIZBOT] " + str(os.getpid())+": QAModel initialization ends\n")
 
     def pickSubjectRandomQuestion(self, subject):
-        print("=======================================================================================")
         subject = subject.lower()
-        QID = random.choice(self.QA_KB.SubKB[subject])
+        QID = random.choice(self.QA_KB.SubDict[subject])
         picked_question = self.QA_KB.QKB[QID].rstrip()
         return picked_question, QID
 
     def pickRandomQuestion(self):
-        print("=======================================================================================")
+        print("="*87)
         QID = randint(0, self.QA_KB.KBlength)
         picked_question = self.QA_KB.QKB[QID].rstrip()
 
