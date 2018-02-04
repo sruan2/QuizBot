@@ -73,6 +73,7 @@ def respond_to_postback(payload, message_text, sender_id, qa_model, mysql):
         send_subject_quick_reply(sender_id, "Now tell me which subject you would like to choose:"+u'\uD83D\uDC47')
 
     elif payload == "WHY":
+        QID, _ = show_last_qid_subject(mysql, sender_id) # retrieve the qid and the subject from database
         support_sentence = qa_model.getSupport(QID)
         send_why2_quickreply(sender_id, "Here's an explanation: " + support_sentence)
         time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
@@ -80,6 +81,7 @@ def respond_to_postback(payload, message_text, sender_id, qa_model, mysql):
 
     # look for next similar question based off the pre-trained model
     elif payload == "NEXT_QUESTION":
+        QID, _ = show_last_qid_subject(mysql, sender_id) # retrieve the qid and the subject from database
         if show_status(mysql, sender_id):
             last_subject = show_last_qid_subject(mysql, sender_id)[1]
             if last_subject == 'random' or last_subject == 'no record':
