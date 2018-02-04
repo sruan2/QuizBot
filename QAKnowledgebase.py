@@ -33,7 +33,7 @@ class ConstructQA():
     def appendSubDict(self):       
         for i, subject in enumerate(self.SubKB):
             if subject in self.SubDict.keys():
-                self.SubKB[subject].append(i)
+                self.SubDict[subject].append(i)
             else:
-                self.SubKB[subject] = [i]
+                self.SubDict[subject] = [i]
         print("[QUIZBOT] Finished Subject Dictionary Construction. Total Subject Count is: "+str(len(self.SubKB)))
