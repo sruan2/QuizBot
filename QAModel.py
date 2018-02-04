@@ -105,15 +105,14 @@ class SIF2Model(QAModel):
     def __init__(self, qa_kb, pkl_file):
         super(SIF2Model, self).__init__(qa_kb)
         self.AKB = qa_kb.AKB
+        pkl = open(pkl_file, 'rb')
         self.glove = pickle.load(pkl, encoding='latin1')
-        self.init_model(qa_kb.SKB, pkl_file)  # use support to fit
+        print("[QUIZBOT] PID " + str(os.getpid())+": Loaded "+pkl_file)
+        self.init_model(qa_kb.SKB)  # use support to fit
 
-    def init_model(self, sentences, pkl_file):
+    def init_model(self, sentences):
         self.tokenizer = RegexpTokenizer(r'[\w]+')
         self.tokenized_sentences = utils.preprocess(sentences, self.tokenizer)
-        pkl = open(pkl_file, 'rb')
-        
-        print("[QUIZBOT] PID " + str(os.getpid())+": Loaded "+pkl_file)
         self.emb = EmbeddingVectorizer(word_vectors=self.glove, weighted=True, R=False) # just use the simple weighted version without removing PCA
 
     def compute_score(self, user_answer, QID):
