@@ -373,7 +373,7 @@ def persistent_menu():
           }
         ]        
     })
-    print("[QUIZBOT] persistent menu loaded")
+    print("[QUIZBOT] PID " + str(os.getpid())+": persistent menu loaded")
     r = requests.post("https://graph.facebook.com/v2.6/me/messenger_profile", params=params, headers=headers, data=data)
     if r.status_code != 200:
         log(r.status_code)

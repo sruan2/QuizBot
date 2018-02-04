@@ -109,7 +109,7 @@ def webhook():
                         sender_lastname = data['last_name']
                         sender_gender = data['gender']
 
-                        if not int(sender_id) in show_user_id_list():
+                        if not int(sender_id) in show_user_id_list(mysql):
 
                             print("first time user"+"="*50)
                             time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
@@ -233,7 +233,7 @@ def webhook():
 
 ############ SET UP ############
 def setup_app(app):
-    print("[QUIZBOT] ============ Start the server ============\n")
+    print("[QUIZBOT] PID " + str(os.getpid())+": ============ Start the server ============\n")
     greeting()
     persistent_menu()
 
