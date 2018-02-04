@@ -1,5 +1,5 @@
 import sys
-sys.path.append("/home/venv/quizbot/QuizBot/")
+#sys.path.append("/home/venv/quizbot/QuizBot/")
 
 from abc import ABCMeta, abstractmethod
 from gensim.models import Doc2Vec
@@ -15,44 +15,44 @@ import pickle
 from nltk import RegexpTokenizer
 
 
-
 class QAModel(object):
 
     def __init__(self, qa_kb):
-        print("\n" + str(os.getpid())+" QAModel begins\n")
+        print("[QUIZBOT] PID " + str(os.getpid())+": QAModel initialization begins")
         self.QID = 0
         self.QA_KB = qa_kb
-        print("\QAModel initialization ends\n")
+        print("[QUIZBOT] PID " + str(os.getpid())+": QAModel initialization ends")
 
     def pickSubjectRandomQuestion(self, subject):
-        print("=======================================================================================")
         subject = subject.lower()
-        QID = random.choice(self.QA_KB.SubKB[subject])
-        picked_question = self.QA_KB.QKB[QID].rstrip()
+        QID = random.choice(self.QA_KB.SubDict[subject])
+        picked_question = self.QA_KB.QKB[QID]
         return picked_question, QID
 
     def pickRandomQuestion(self):
-        print("=======================================================================================")
         QID = randint(0, self.QA_KB.KBlength)
-        picked_question = self.QA_KB.QKB[QID].rstrip()
-
-        # print(picked_question)
-        # user_answer = raw_input("Enter Your Answer:")
-        # answer.append(user_answer)
-        # print("Standard Answer is: "+picked_answer)
-
+        picked_question = self.QA_KB.QKB[QID]
         return picked_question, QID
 
-
     def pickLastQuestion(self, QID):
-        picked_question = self.QA_KB.QKB[QID].rstrip()
+        picked_question = self.QA_KB.QKB[QID]
         return picked_question
 
     def getAnswer(self, QID):
-        return self.QA_KB.AKB[QID].rstrip()
+        try:
+            answer = self.QA_KB.AKB[QID][0]
+        except:
+            answer = ""
+            print("[BUG] PID " + str(os.getpid())+": Index %d does not exist in AKB" % QID)
+        return answer
 
     def getSupport(self, QID):
-        return self.QA_KB.SKB[QID].rstrip()
+        try:
+            support = self.QA_KB.SKB[QID]
+        except:
+            support = ""
+            print("[BUG] PID " + str(os.getpid())+": Index %d does not exist in SKB" % QID)
+        return support
     
     @abstractmethod
     def pickNextSimilarQuestion(self): pass
@@ -74,7 +74,7 @@ class TFIDFModel(QAModel):
         answer.append(user_answer)
         self.tfidf_features = TfidfVectorizer().fit_transform(answer)
         cosine_similarities = linear_kernel(self.tfidf_features[0:1], self.tfidf_features).flatten()
-        print("Similarity between the standard answer and yours is: " + str(int(cosine_similarities[1]*10)))
+        #print("Similarity between the standard answer and yours is: " + str(int(cosine_similarities[1]*10)))
         return int(cosine_similarities[1]*10)   
 
 class Doc2VecModel(QAModel):
@@ -100,9 +100,10 @@ class SIFModel(QAModel):
         #picked_answer = self.QA_KB.AKB[QID].rstrip()
         picked_answer = super(SIFModel, self).getAnswer(QID)
         score = sif_sentence_similarity.answer_similarity(user_answer, picked_answer)
-        print("Similarity between the standard answer and yours is: " + str(int(score)))
+        #print("Similarity between the standard answer and yours is: " + str(int(score)))
         return score
 
+################### Sherry is fixing this, please do not touch ######################
 class SIF2Model(QAModel):
     """docstring for SIF2Model"""
     def __init__(self, qa_kb, pkl_file):
