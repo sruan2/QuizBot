@@ -94,9 +94,9 @@ def webhook():
                     if messaging_event.get("postback"):  
                         payload = messaging_event["postback"]["payload"] # the button's payload
                         message_text = messaging_event["postback"]["title"]  # the button's text
-                        print("[QUIZBOT] PID " + str(os.getpid())+": Received a postback")
-                        print("[QUIZBOT] PID " + str(os.getpid())+": Payload \""+payload+"\"")
-                        print("[QUIZBOT] PID " + str(os.getpid())+": Message Text \""+message_text+"\"")
+                        print("[QUIZBOT] PID " + str(os.getpid())+": Received a POSTBACK")
+                        print("[QUIZBOT] PID " + str(os.getpid())+": Payload is \""+payload+"\"")
+                        print("[QUIZBOT] PID " + str(os.getpid())+": Message Text is \""+message_text+"\"")
                         chatbot.respond_to_postback(payload, message_text, sender_id, qa_model, mysql)
 
                     # someone sent us a message
@@ -105,8 +105,8 @@ def webhook():
                             return "key error", 200
                             
                         message_text = messaging_event["message"]["text"]  # the message's text
-                        print("[QUIZBOT] PID " + str(os.getpid())+": Received a message")
-                        print("[QUIZBOT] PID " + str(os.getpid())+": Message Text \""+message_text+"\"")
+                        print("[QUIZBOT] PID " + str(os.getpid())+": Received a MESSAGE")
+                        print("[QUIZBOT] PID " + str(os.getpid())+": Message Text is \""+message_text+"\"")
                         
                         # first-time user
                         if not int(sender_id) in database.show_user_id_list(mysql):
