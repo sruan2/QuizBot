@@ -31,11 +31,9 @@ class ConstructQA():
         print("[QUIZBOT] " + str(os.getpid()) + ": Finished QA Knowledgebase Construction\n")
     
     def appendSubDict(self):       
-        i = 0 # index of questions
-        for line in f:
-            if line.rstrip() in self.SubDict.keys():
-                self.SubKB[line.rstrip()].append(i)
+        for i, subject in enumerate(self.SubKB):
+            if subject in self.SubDict.keys():
+                self.SubKB[subject].append(i)
             else:
-                self.SubKB[line.rstrip()] = [i]
-            i += 1
+                self.SubKB[subject] = [i]
         print("[QUIZBOT] Finished Subject Dictionary Construction. Total Subject Count is: "+str(len(self.SubKB)))
