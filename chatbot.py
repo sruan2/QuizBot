@@ -9,7 +9,8 @@ def respond_to_postback(payload, message_text, sender_id, qa_model, mysql):
 
     if payload == "GET_STARTED_PAYLOAD":
         send_ready_go(sender_id, "Hi! Welcome! I'm your personal tutor Mr Owl and I'm here to help you master science! Ready? Go!"+u'\uD83D\uDE0A')
-        
+    
+    ######## Sherry: Seems that none of the following conditions is ever met ###################    
     elif payload == "YUP_IM_READY":
         update_status(mysql, sender_id, 1)
         choose_mode_quick_reply(sender_id) 
@@ -100,6 +101,9 @@ def respond_to_messagetext(message_text, sender_id, qa_model, mysql):
         send_subject_quick_reply(sender_id, "Now tell me which subject you would like to choose:"+u'\uD83D\uDC47') 
         time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
         insert_question(mysql, sender_id,'-11','SWITCH_SUBJUECT',time)
+
+    #elif message_text == "I need a hint ...":
+        #send_multiple_choice()
                                    
 
     elif message_text == "next question" or message_text == "got it, next!" or message_text[:4] == "sure":
@@ -135,7 +139,7 @@ def respond_to_messagetext(message_text, sender_id, qa_model, mysql):
         insert_score(mysql, sender_id,QID,"why",0,time)
 
     elif message_text == "check total score":
-        send_gotit_quickreply(sender_id, "Your accumulated score is "+str(show_score(mysql, sender_id)))
+        send_gotit_quickreply(sender_id, "Your accumulated points are "+str(show_score(mysql, sender_id)))
 
     elif message_text == "report bug":
         time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
@@ -184,7 +188,7 @@ def respond_to_messagetext(message_text, sender_id, qa_model, mysql):
         if not show_status(mysql, sender_id):
             standard_answer = qa_model.getAnswer(QID)
             score = qa_model.compute_score(message_text, QID)
-            send_message(sender_id, "Your score this round is "+str(score))
+            send_message(sender_id, "You earned "+str(score)+ " points!")
             time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
             insert_score(mysql, sender_id,QID,message_text,score,time)
             send_why_quickreply(sender_id, QID, standard_answer)    
