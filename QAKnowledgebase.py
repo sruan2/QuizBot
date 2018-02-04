@@ -1,15 +1,33 @@
 import os
+import json
 
-class QATransform():
+class ConstructQA():
 
-    def __init__(self, QuestionFile, SupportFile, CorrectAnswerFile, SubjectFile):
-        print("\n" + str(os.getpid()) + "Begin to construct QA knowledgebase\n")
+    def __init__(self, jsonFile):
+        print("\n" + str(os.getpid()) + ": Begin to construct QA knowledgebase\n")
+        data = json.load(open('../SciQdataset-23/test.json'))
+
         self.QKB = [] # question
         self.SKB = [] # support
         self.AKB = [] # answer
-        self.SubKB = {} # subject dict
+        self.D1KB = [] # distractor 1
+        self.D2KB = [] # distractor 2
+        self.D3KB = [] # distractor 3
+        self.SubKB = [] # subject
+        self.DifficultyKB = [] # difficulty level
+        self.SubDict = {} # subject dict
         self.KBlength = 0
         
+        for entry in data:
+            self.QKB.append(entry["question"])
+            self.AKB.append(entry["answer"])
+            self.D1KB.append(entry["distractor1"])
+            self.D2KB.append(entry["distractor2"])
+            self.D3KB.append(entry["distractor3"])
+            self.SubKB.append(entry["subject"])
+            self.DifficultyKB.append(entry["difficulty"])
+
+
         self.appendQuestionKB(QuestionFile)
         self.appendSupportKB(SupportFile)
         self.appendCorrectAnswerKB(CorrectAnswerFile)

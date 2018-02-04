@@ -6,7 +6,6 @@ import sys
 def send_message(recipient_id, message_text):
 
     log("sending message to {recipient}: {text}".format(recipient=recipient_id, text=message_text))
-
     params = {
         "access_token": os.environ["PAGE_ACCESS_TOKEN"]
     }
@@ -289,7 +288,6 @@ def send_why2_quickreply(recipient_id, support_sentence):
 
 def send_gotit_quickreply(recipient_id, sentence):
 
-    
     params = {
         "access_token": os.environ["PAGE_ACCESS_TOKEN"]
     }
@@ -325,7 +323,7 @@ def log(message):  # simple wrapper for logging to stdout on heroku
 
 
 
-############ thread_setting ############
+############ persistent menu ############
 def persistent_menu():
     params = {
         "access_token": os.environ["PAGE_ACCESS_TOKEN"]
@@ -388,10 +386,11 @@ def persistent_menu():
         log(r.status_code)
         log(r.text) 
 
+
+############ greeting ############
 def greeting():
     params = {
         "access_token": os.environ["PAGE_ACCESS_TOKEN"]
-        #"access_token": "EAATy6mWWYHwBAMtHKuxZAj77n9NZCnXzLUctSwmpDzcjJARDPXALUZAQIpgmJg8ZAKjJB2pjOFeGSlecpWZCje5pEzACZCINnxW5NMJSTLffdL8eJbS3aMWLZBS4Hl9carC2qd1c5EX3r3HA0utkaqEfrt0mNte6ygT8oEEqjm2TAZDZD"
     }
     headers = {
         "Content-Type": "application/json"

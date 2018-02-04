@@ -428,8 +428,6 @@ def setup_app(app):
     print("\nafter greeting\n")
     persistent_menu()
 
-    
-
 setup_app(app)
 
 if __name__ == '__main__':
@@ -437,12 +435,9 @@ if __name__ == '__main__':
     doc2vec = 'model_pre_trained/model_d2v_v1'
     pkl_file = 'model_pre_trained/glove/glove.6B.100d.pkl'
     # qa data
-    question_file = 'SciQdataset-23/question_file_2.txt'
-    subject_file = 'SciQdataset-23/question_file_2_subject.txt'
-    support_file = 'SciQdataset-23/support_file_2.txt'
-    answer_file = 'SciQdataset-23/correct_answer_file_2.txt'
+    json_file = 'SciQdataset-23/200questions.json'
     
-    qa_kb = QAKnowledgebase.QATransform(question_file, support_file, answer_file, subject_file)
+    qa_kb = QAKnowledgebase.ConstructQA(json_file)
     qa_md = QAModel.QAModel(qa_kb)
     qa_doc2vec = QAModel.Doc2VecModel(qa_kb, doc2vec)
 
@@ -458,5 +453,4 @@ if __name__ == '__main__':
 
     context = ('/etc/letsencrypt/live/smartprimer.org/fullchain.pem', '/etc/letsencrypt/live/smartprimer.org/privkey.pem')
     app.run(host='0.0.0.0', threaded=True, debug=True, port=int(os.environ["PORT"]), ssl_context=context)
-    #app.run(port=80,debug=True)
     
