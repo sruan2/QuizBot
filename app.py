@@ -101,6 +101,14 @@ def webhook():
 
                     
                     elif messaging_event.get("message"):  
+
+                        # user sent an attachment: i.e., audio
+                        if "attachments" in messaging_event.get("message"): 
+                            if messaging_event["message"]["attachments"]["type"] == "audio":
+                                print("[QUIZBOT] PID " + str(os.getpid())+": Received an AUDIO attachment")
+                                audio_url = messaging_event["message"]["attachments"]["payload"]["url"]
+
+
                         # user clicked/tapped "postback" button in earlier message
                         if "quick_reply" in messaging_event.get("message"): 
                             payload = messaging_event["message"]["quick_reply"]["payload"] # the button's payload
