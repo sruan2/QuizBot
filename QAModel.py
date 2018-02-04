@@ -118,7 +118,8 @@ class SIF2Model(QAModel):
     def compute_score(self, user_answer, QID):
         tokenized_query = utils.preprocess([user_answer], self.tokenizer)
         V_query = self.emb.transform(tokenized_query)
-        tokenized_answer = utils.preprocess([self.AKB[QID]], self.tokenizer)
+        correct_answer = self.AKB[QID][0]
+        tokenized_answer = utils.preprocess([correct_answer], self.tokenizer)
         V_answer = self.emb.transform(tokenized_answer)          
         score = utils.cosine_similarity(V_query[0], V_answer[0])
         return score
