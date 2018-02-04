@@ -74,7 +74,7 @@ class TFIDFModel(QAModel):
         answer.append(user_answer)
         self.tfidf_features = TfidfVectorizer().fit_transform(answer)
         cosine_similarities = linear_kernel(self.tfidf_features[0:1], self.tfidf_features).flatten()
-        print("Similarity between the standard answer and yours is: " + str(int(cosine_similarities[1]*10)))
+        #print("Similarity between the standard answer and yours is: " + str(int(cosine_similarities[1]*10)))
         return int(cosine_similarities[1]*10)   
 
 class Doc2VecModel(QAModel):
@@ -100,7 +100,7 @@ class SIFModel(QAModel):
         #picked_answer = self.QA_KB.AKB[QID].rstrip()
         picked_answer = super(SIFModel, self).getAnswer(QID)
         score = sif_sentence_similarity.answer_similarity(user_answer, picked_answer)
-        print("Similarity between the standard answer and yours is: " + str(int(score)))
+        #print("Similarity between the standard answer and yours is: " + str(int(score)))
         return score
 
 ################### Sherry is fixing this, please do not touch ######################

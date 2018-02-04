@@ -230,7 +230,7 @@ def send_subject_quick_reply(recipient_id, main_text):
 
 def send_why_quickreply(recipient_id, QID, standard_answer):
 
-    log("sending WHY button to {recipient}: {text}".format(recipient=recipient_id, text=str(QID)))
+    #log("sending WHY button to {recipient}: {text}".format(recipient=recipient_id, text=str(QID)))
 
     params = {
         "access_token": os.environ["PAGE_ACCESS_TOKEN"]
