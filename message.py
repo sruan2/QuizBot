@@ -99,10 +99,9 @@ def send_ready_go(recipient_id, main_text):
             "text": main_text,
             "quick_replies": [
                 {
-                    "type":"postback",
                     "content_type": "text",
                     "title": "Yup! I'm ready! "+u'\u270A',
-                    "payload": "<POSTBACK_PAYLOAD>"
+                    "payload": "YUP_IM_READY"
                 }
             ]
         }
