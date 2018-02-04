@@ -10,6 +10,7 @@ from time import gmtime, strftime
 from similarity_model import tfidf
 from flask import Flask, request
 from message import *
+from database import *
 
 
 app = Flask(__name__)
