@@ -31,7 +31,7 @@ def respond_to_postback(payload, message_text, sender_id, qa_model, mysql):
         send_why2_quickreply(sender_id, "Here's a hint: " + support_sentence)
 
     
-    elif payload == "QUIZ_MODE":
+    elif payload == "PRACTICE_MODE":
         send_subject_quick_reply(sender_id, "Now tell me which subject you would like to choose:"+u'\uD83D\uDC47')
 
     elif payload == "PHYSICS":
@@ -104,7 +104,7 @@ def respond_to_postback(payload, message_text, sender_id, qa_model, mysql):
             question = qa_model.pickLastQuestion(QID)
         send_a_question(sender_id, question)
 
-    elif payload == "ANSWERING_MODE":
+    elif payload == "CHALLENGE_MODE":
         send_message(sender_id, "I'm here to answer your questions! Just type your question below :-) ")
 
 
@@ -116,7 +116,7 @@ def respond_to_messagetext(message_text, sender_id, qa_model, mysql):
     message_text = message_text.lower()
     QID, _ = show_last_qid_subject(mysql, sender_id) # retrieve the qid and the subject from database
 
-    if message_text == "quiz mode "+u'\u270F':
+    if message_text == "Practice Mode "+u'\u270F':
         send_subject_quick_reply(sender_id, "Now tell me which subject you would like to choose:"+u'\uD83D\uDC47') 
         time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
         insert_question(mysql, sender_id,'-11','SWITCH_SUBJUECT',time)
