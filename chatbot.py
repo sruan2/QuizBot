@@ -19,58 +19,58 @@ def respond_to_postback(payload, message_text, sender_id, qa_model, mysql):
         support_sentence = qa_model.getSupport(QID)
         send_why2_quickreply(sender_id, "Here's a hint: " + support_sentence)
 
-    elif message_text == "check total score":
+    elif message_text == "CHECK_TOTAL_SCORE":
         score = show_score(mysql, sender_id)
         send_gotit_quickreply(sender_id, "Your total score is "+str(score)+". Keep moving!") 
 
-    elif message_text == "check leaderboard":
+    elif message_text == "MENU_LEADERBOARD":
         records = show_top_10(mysql)
         sentence = ("\n").join(["No." + str(i + 1) + " " + str(records[i][0]+' '+records[i][1]) + ": " + str(records[i][2]) for i in range(len(records))])
         send_gotit_quickreply(sender_id, "Leaderboard: \n" + sentence) 
     elif message_text[0:9] == "quiz mode":
         send_subject_quick_reply(sender_id, "Now tell me which subject you would like to choose:"+u'\uD83D\uDC47')
 
-    elif message_text == "physics":
+    elif message_text == "PHYSICS":
         question, QID = qa_model.pickSubjectRandomQuestion(message_text)
         update_status(mysql, sender_id, 0)
         time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
         insert_question(mysql, sender_id,QID,time)
         send_a_question(sender_id, question)
 
-    elif message_text == "chemistry":
+    elif message_text == "CHEMISTRY":
         question, QID = qa_model.pickSubjectRandomQuestion(message_text)
         update_status(mysql, sender_id, 0)
         time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
         insert_question(sender_id,QID,time)
         send_a_question(sender_id, question)
 
-    elif message_text == "biology":
+    elif message_text == "BIOLOGY":
         question, QID = qa_model.pickSubjectRandomQuestion(message_text)
         update_status(mysql, sender_id, 0)
         time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
         insert_question(mysql, sender_id,QID,time)
         send_a_question(sender_id, question)
 
-    elif message_text == "geology":
+    elif message_text == "GEOLOGY":
         question, QID = qa_model.pickSubjectRandomQuestion(message_text)
         update_status(mysql, sender_id, 0)
         time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
         insert_question(mysql, sender_id,QID,time)
         send_a_question(sender_id, question)
 
-    elif message_text == "random":
+    elif message_text == "RANDOM":
         question, QID = qa_model.pickSubjectRandomQuestion(message_text)
         update_status(mysql, sender_id, 0)
         time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
         insert_question(mysql, sender_id,QID,time)
         send_a_question(sender_id, question)
 
-    elif message_text == 'switch subject' or message_text[:4] == 'sure':
+    elif message_text == 'SWITCH_SUBJUECT' or message_text[:4] == 'SURE':
         send_subject_quick_reply(sender_id, "Now tell me which subject you would like to choose:"+u'\uD83D\uDC47')
 
 
     # look for next similar question based off the pre-trained model
-    elif message_text == "next question":
+    elif message_text == "NEXT_QUESTION":
         if show_status(mysql, sender_id):
             last_subject = show_last_qid_subject(sender_id)[1]
             if last_subject == 'random' or last_subject == 'no record':
@@ -85,7 +85,7 @@ def respond_to_postback(payload, message_text, sender_id, qa_model, mysql):
             question = qa_model.pickLastQuestion(QID)
         send_a_question(sender_id, question)
 
-    elif message_text[0:9] == "answering":
+    elif message_text[0:9] == "ANSWERING":
         send_message(sender_id, "I'm here to answer your questions! Just type your question below :-) ")
 
 
