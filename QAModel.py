@@ -116,10 +116,16 @@ class SIF2Model(QAModel):
         self.emb = EmbeddingVectorizer(word_vectors=glove, weighted=True, R=False) # just use the simple weighted version without removing PCA
 
     def compute_score(self, user_answer, QID):
-        tokenized_query = utils.preprocess([user_answer], self.tokenizer)
-        V_query = self.emb.transform(tokenized_query)
         correct_answer = self.AKB[QID][0]
         tokenized_answer = utils.preprocess([correct_answer], self.tokenizer)
-        V_answer = self.emb.transform(tokenized_answer)          
-        score = utils.cosine_similarity(V_query[0], V_answer[0])
-        return score
+        V_answer = self.emb.transform(tokenized_answer)    
+        if user_answer in glove:
+            tokenized_query = utils.preprocess([user_answer], self.tokenizer)
+            V_query = self.emb.transform(tokenized_query)      
+            score = int(utils.cosine_similarity(V_query[0], V_answer[0]) * 10)
+            return score
+        return -1
+        
+
+
+
