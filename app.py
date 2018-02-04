@@ -9,6 +9,7 @@ from random import randint
 from time import gmtime, strftime
 from similarity_model import tfidf
 from flask import Flask, request
+import requests
 import message
 import database
 import chatbot
