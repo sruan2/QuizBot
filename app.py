@@ -118,7 +118,7 @@ def webhook():
                             send_mode_quick_reply(sender_id, "Now tell me which mode you would like to choose:"+u'\uD83D\uDC47') 
 
                         else:
-                            QID,SUBJECT = show_last_qid_subject(sender_id)
+                            QID,SUBJECT = show_last_qid_subject(mysql, sender_id)
 
                             print ("^"*100)
                             print (message_text)
@@ -132,7 +132,7 @@ def webhook():
                             elif message_text == "Next Question" or message_text == "Got it, next!" or message_text[:4] == "Sure":
 
                                 if show_status(sender_id):
-                                    last_subject = show_last_qid_subject(sender_id)[1]
+                                    last_subject = show_last_qid_subject(mysql, sender_id)[1]
                                     if last_subject == 'random' or last_subject == 'no record':
                                         question, QID = qa_md.pickRandomQuestion()
                                     else:
@@ -141,7 +141,7 @@ def webhook():
                                     time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
                                     insert_question(mysql, sender_id,QID,last_subject,time)
                                 else: 
-                                    QID = show_last_qid_subject(sender_id)[0]
+                                    QID = show_last_qid_subject(mysql, sender_id)[0]
                                     question = qa_md.pickLastQuestion(QID)
                                 send_message(sender_id, "Question."+str(QID)+": "+question)
 
@@ -233,7 +233,7 @@ def webhook():
 
 ############ SET UP ############
 def setup_app(app):
-    print("[QUIZBOT] PID " + str(os.getpid())+": ============ Start the server ============\n")
+    print("[QUIZBOT] PID " + str(os.getpid())+": ============ Start the server ============")
     greeting()
     persistent_menu()
 
