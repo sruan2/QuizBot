@@ -66,10 +66,10 @@ def insert_question(mysql, user_id,qid,subject,time):
             cur = con.cursor()            
             cur.execute("INSERT INTO questions (user_id,qid,subject,r_time) VALUES (%s,%s,%s,%s)",(user_id,qid,subject,time))           
             con.commit()
-            print("[QUIZBOT-DATABASE] PID " + str(os.getpid())+": Questions record successfully added")
+            print("[DATABASE] PID " + str(os.getpid())+": Questions record successfully added")
         except:
             con.rollback()
-            print("[QUIZBOT-BUG] PID " + str(os.getpid())+": Error in inserting question operation")
+            print("[BUG] PID " + str(os.getpid())+": Error in inserting question operation")
         # finally:
         #     con.close()
 
