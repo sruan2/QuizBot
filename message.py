@@ -112,7 +112,7 @@ def send_ready_go(recipient_id, main_text):
         log(r.status_code)
         log(r.text)
 
-def send_mode_quick_reply(recipient_id, main_text):
+def send_mode_quick_reply(recipient_id):
 
     params = {
         "access_token": os.environ["PAGE_ACCESS_TOKEN"]
@@ -125,7 +125,7 @@ def send_mode_quick_reply(recipient_id, main_text):
             "id": recipient_id
         },
         "message": {
-            "text": main_text,
+            "text": "Now tell me which mode you would like to choose:"+u'\uD83D\uDC47',
             "quick_replies": [
                 {
                     "content_type": "text",
