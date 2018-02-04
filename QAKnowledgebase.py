@@ -1,75 +1,42 @@
 import os
+import json
 
-class QATransform():
+class ConstructQA():
 
-    def __init__(self, QuestionFile, SupportFile, CorrectAnswerFile, SubjectFile):
-        print("\n" + str(os.getpid()) + "Begin to construct QA knowledgebase\n")
+    def __init__(self, jsonFile):
+        print("[QUIZBOT] PID " + str(os.getpid())+": Begin to Construct QA Knowledgebase")
+        data = json.load(open('SciQdataset-23/230questions.json'))
+
         self.QKB = [] # question
         self.SKB = [] # support
-        self.AKB = [] # answer
-        self.SubKB = {} # subject dict
-        self.KBlength = 0
+        self.AKB = [] # correct answer (NOTE THIS IS A LIST!)
+        self.D1KB = [] # distractor 1
+        self.D2KB = [] # distractor 2
+        self.D3KB = [] # distractor 3
+        self.SubKB = [] # subject
+        self.DifficultyKB = [] # difficulty level
+        self.SubDict = {} # subject dict
+        self.KBlength = len(data)
         
-        self.appendQuestionKB(QuestionFile)
-        self.appendSupportKB(SupportFile)
-        self.appendCorrectAnswerKB(CorrectAnswerFile)
-        self.appendSubjectKB(SubjectFile)
-
-        assert(len(self.QKB) == len(self.SKB))
-        assert(len(self.QKB) == len(self.AKB))
+        for entry in data:
+            self.QKB.append(entry["question"])
+            self.AKB.append(entry["correct_answer"])
+            self.SKB.append(entry["support"])
+            self.D1KB.append(entry["distractor1"])
+            self.D2KB.append(entry["distractor2"])
+            self.D3KB.append(entry["distractor3"])
+            self.SubKB.append(entry["subject"])
+            self.DifficultyKB.append(entry["difficulty"])
+        self.appendSubDict()
         
-        print("\n" + str(os.getpid()) + "Finished QA knowledgebase Construction\n")
+        print("[QUIZBOT] PID " + str(os.getpid())+": Finished QA Knowledgebase Construction")
+        print("[QUIZBOT] PID " + str(os.getpid())+": Total Number of Questions: " +str(self.KBlength))
     
-    def appendQuestionKB(self, QuestionFile):
-        with open(QuestionFile, 'r') as f:
-            print("="*87+"\n"+"File opened: "+QuestionFile)
-            for line in f:
-                self.QKB.append(line)
-        print("="*87+"\n"+"Question KB is appended. Length is: "+str(len(self.QKB)))
-        self.KBlength = len(self.QKB)
-
-    def appendSubjectKB(self, SubjectFile):
-        with open(SubjectFile, 'r') as f:
-            i = 0
-            for line in f:
-                if line.rstrip() in self.SubKB.keys():
-                    self.SubKB[line.rstrip()].append(i)
-                else:
-                    self.SubKB[line.rstrip()] = [i]
-                i += 1
-        assert(i == self.KBlength)
-        print("="*87+"\n"+"Subject KB is appended. Total Subject Count is: "+str(len(self.SubKB)))
-        print("="*87+"\n"+"Subject KB is appended. Length is: "+str(i))
-
-
-    def appendSupportKB(self, SupportFile):
-        with open(SupportFile, 'r') as f:
-            print("="*87+"\n"+"File opened: "+SupportFile)
-            for line in f:
-                self.SKB.append(line)
-        print("="*87+"\n"+"Support KB is appended. Length is: "+str(len(self.SKB)))
-
-    def appendCorrectAnswerKB(self, CorrectAnswerFile):
-        with open(CorrectAnswerFile, 'r') as f:
-            print("="*87+"\n"+"File opened: "+CorrectAnswerFile)
-            for line in f:
-                self.AKB.append(line)
-        print("="*87+"\n"+"Correct Answer KB is appended. Length is: "+str(len(self.AKB)))
-
-
-    # def LoadQuery(self):
-    #     query = raw_input("="*87+"\n"+"Enter a query: ")
-    #     print("="*87+"\n"+"Your query is: "+query)
-    #     self.QKB = [query] + self.QKB # concat
-    #     self.query = query
-    #     return query 
-    
-    # def Featurize(self, query):
-    #     self.QKB = [query] + self.QKB # concat
-    #     self.tfidf_features = TfidfVectorizer().fit_transform(self.QKB)
-    #     cosine_similarities = linear_kernel(self.tfidf_features[0:1], self.tfidf_features).flatten()
-    #     related_docs_indices = cosine_similarities.argsort()[:-10:-1]
-    #     index = related_docs_indices[1]
-        
-    #     print("Here is the answer!\n")
-    #     return self.AKB[int(index)-1]
+    def appendSubDict(self):       
+        for i, subject in enumerate(self.SubKB):
+            if subject in self.SubDict.keys():
+                self.SubDict[subject].append(i)
+            else:
+                self.SubDict[subject] = [i]
+        print("[QUIZBOT] PID " + str(os.getpid())+": Finished Subject Dictionary Construction")
+        print("[QUIZBOT] PID " + str(os.getpid())+": Total Subject Count is: "+str(len(self.SubDict)))
