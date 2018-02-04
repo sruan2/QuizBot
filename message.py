@@ -10,6 +10,8 @@ def send_a_question(recipient_id, question):
                      "Let's try this one: ",
                      "Could you tell the answer to this one: "]
 
+    ending_part = " Please note that you will earn at most 3 points if you ask for a hint."
+
     params = {
         "access_token": os.environ["PAGE_ACCESS_TOKEN"]
     }
@@ -21,7 +23,7 @@ def send_a_question(recipient_id, question):
             "id": recipient_id
         },
         "message": {
-            "text": random.choice(starting_part) + question,
+            "text": random.choice(starting_part) + question + ending_part,
             "quick_replies": [
                 {
                     "content_type": "text",
@@ -241,7 +243,7 @@ def send_why_quickreply(recipient_id, QID, standard_answer):
             "id": recipient_id
         },
         "message": {
-            "text": "Coorect answer is " +standard_answer,
+            "text": "Correct answer is " +standard_answer,
             "quick_replies": [
                 {
                     "content_type": "text",
@@ -257,12 +259,12 @@ def send_why_quickreply(recipient_id, QID, standard_answer):
                     "content_type": "text",
                     "title":"Switch Subject",
                     "payload":"SWITCH_SUBJECT"
-                },                 
+                },
                 {
                     "content_type": "text",
-                    "title": "Check Total Score",
-                    "payload": "CHECK_TOTAL_SCORE"
-                }
+                    "title": "Wait, I got it right...",
+                    "payload": "REPORT"
+                },                 
             ]
         }
     })
