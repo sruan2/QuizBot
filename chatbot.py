@@ -4,10 +4,10 @@ from time import gmtime, strftime
 
 
 # ================= Chatbot's reply to a postback =================
-def respond_to_postback(message_text, sender_id, qa_model, mysql):
+def respond_to_postback(payload, message_text, sender_id, qa_model, mysql):
     message_text = message_text.lower()
 
-    if message_text == "get started":
+    if payload == GET_STARTED_PAYLOAD:
         send_ready_go(sender_id, "Hi! Welcome! I'm your personal tutor Mr.Q and I'm here to help you master science! Ready? Go!"+u'\uD83D\uDE0A')
         
     elif "yup! i'm ready!" in message_text:
