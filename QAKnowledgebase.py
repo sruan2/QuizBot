@@ -30,7 +30,7 @@ class ConstructQA():
         
         print("[QUIZBOT] " + str(os.getpid()) + ": Finished QA Knowledgebase Construction\n")
     
-    def appendSubDict(self, SubjectFile):       
+    def appendSubDict(self):       
         i = 0 # index of questions
         for line in f:
             if line.rstrip() in self.SubDict.keys():
