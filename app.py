@@ -108,7 +108,7 @@ def webhook():
                             message.send_mode_quick_reply(sender_id) 
 
                         else:
-                            chatbot.respond_to_messagetext(message_text, sender_id, mysql)
+                            chatbot.respond_to_messagetext(message_text, sender_id, qa_model, mysql)
     return "ok", 200
 
 
