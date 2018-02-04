@@ -371,12 +371,12 @@ def persistent_menu():
                         {
                             "title":"Quiz Mode "+u'\u270F',
                             "type":"postback",
-                            "payload":"quiz mode"
+                            "payload":"QUIZ_MODE"
                         },
                         {
                             "title":"Answering Mode"+u'\uD83D\uDE3A',
                             "type":"postback",
-                            "payload":"question answering mode"
+                            "payload":"ANSWERING_MODE"
                         }              
                         ]
                 },
