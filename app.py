@@ -85,7 +85,7 @@ def webhook():
                          
                         log("[QUIZBOT] Inside postback")
 
-                        chatbot.respond_to_postback(message_text, mysql)
+                        chatbot.respond_to_postback(message_text, sender_id, mysql)
 
 ########### sherry's refactor up here ################
 
