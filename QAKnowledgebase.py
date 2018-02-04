@@ -37,4 +37,5 @@ class ConstructQA():
                 self.SubDict[subject].append(i)
             else:
                 self.SubDict[subject] = [i]
-        print("[QUIZBOT] Finished Subject Dictionary Construction. Total Subject Count is: "+str(len(self.SubKB)))
+        print("[QUIZBOT] Finished Subject Dictionary Construction")
+        print("[QUIZBOT] Total Subject Count is: "+str(len(self.SubDict)))

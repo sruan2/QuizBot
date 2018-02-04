@@ -18,29 +18,21 @@ from nltk import RegexpTokenizer
 class QAModel(object):
 
     def __init__(self, qa_kb):
-        print("[QUIZBOT] " + str(os.getpid())+": QAModel begins\n")
+        print("[QUIZBOT] " + str(os.getpid())+": QAModel begins")
         self.QID = 0
         self.QA_KB = qa_kb
-        print("[QUIZBOT] " + str(os.getpid())+": QAModel initialization ends\n")
+        print("[QUIZBOT] " + str(os.getpid())+": QAModel initialization ends")
 
     def pickSubjectRandomQuestion(self, subject):
         subject = subject.lower()
         QID = random.choice(self.QA_KB.SubDict[subject])
-        picked_question = self.QA_KB.QKB[QID].rstrip()
+        picked_question = self.QA_KB.QKB[QID]
         return picked_question, QID
 
     def pickRandomQuestion(self):
-        print("="*87)
         QID = randint(0, self.QA_KB.KBlength)
-        picked_question = self.QA_KB.QKB[QID].rstrip()
-
-        # print(picked_question)
-        # user_answer = raw_input("Enter Your Answer:")
-        # answer.append(user_answer)
-        # print("Standard Answer is: "+picked_answer)
-
+        picked_question = self.QA_KB.QKB[QID]
         return picked_question, QID
-
 
     def pickLastQuestion(self, QID):
         picked_question = self.QA_KB.QKB[QID].rstrip()
@@ -51,9 +43,8 @@ class QAModel(object):
             answer = self.QA_KB.AKB[QID].rstrip()
         except:
             answer = ""
-            print("[QUIZBOT-BUG] Answer does not exist")
+            print("[QUIZBOT-BUG] Index %d does not exist in Answer KB" % QID)
         return answer
-
 
     def getSupport(self, QID):
         return self.QA_KB.SKB[QID].rstrip()
