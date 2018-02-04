@@ -11,6 +11,7 @@ from similarity_model import tfidf
 from flask import Flask, request
 from message import *
 from database import *
+import chatbot
 
 
 app = Flask(__name__)
@@ -84,7 +85,7 @@ def webhook():
                          
                         log("[QUIZBOT] Inside postback")
 
-                        respond_to_postback(message_text, mysql)
+                        chatbot.respond_to_postback(message_text, mysql)
 
 ########### sherry's refactor up here ################
 
