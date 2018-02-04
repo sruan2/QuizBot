@@ -88,7 +88,7 @@ def respond_to_postback(payload, message_text, sender_id, qa_model, mysql):
         send_why2_quickreply(sender_id, "Thanks for letting us know. We will use your feedback to improve our algorithm! Now what would you like to do next?")
 
     # look for next similar question based off the pre-trained model
-    elif payload == "NEXT_QUESTION":
+    elif payload == "NEXT_QUESTION" or payload == "GOT_IT_NEXT":
         QID, _ = show_last_qid_subject(mysql, sender_id) # retrieve the qid and the subject from database
         if show_status(mysql, sender_id):
             last_subject = show_last_qid_subject(mysql, sender_id)[1]
