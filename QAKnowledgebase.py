@@ -5,7 +5,7 @@ class ConstructQA():
 
     def __init__(self, jsonFile):
         print("[QUIZBOT] "+str(os.getpid()) + ": Begin to Construct QA Knowledgebase\n")
-        data = json.load(open('SciQdataset-23/test.json'))
+        data = json.load(open('SciQdataset-23/230questions.json'))
 
         self.QKB = [] # question
         self.SKB = [] # support
