@@ -10,7 +10,7 @@ def send_a_question(recipient_id, question):
                      "Let's try this one: ",
                      "Could you tell the answer to this one: "]
 
-    ending_part = " (Please note that you will earn at most 3 points if you ask for a hint.)"
+    ending_part = "\n(Please note that you will earn at most 3 points if you ask for a hint!)"
 
     params = {
         "access_token": os.environ["PAGE_ACCESS_TOKEN"]
@@ -369,14 +369,14 @@ def persistent_menu():
                     "type":"nested",
                     "call_to_actions":[
                         {
-                            "title":"Quiz Mode "+u'\u270F',
+                            "title":"Practice Mode "+u'\u270F',
                             "type":"postback",
-                            "payload":"QUIZ_MODE"
+                            "payload":"PRACTICE_MODE"
                         },
                         {
-                            "title":"Answering Mode"+u'\uD83D\uDE3A',
+                            "title":"Challenge Mode "+u'\uD83D\uDE3A',
                             "type":"postback",
-                            "payload":"ANSWERING_MODE"
+                            "payload":"CHALLENGE_MODE"
                         }              
                         ]
                 },
