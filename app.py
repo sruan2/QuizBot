@@ -91,37 +91,38 @@ def webhook():
                     #print("[QUIZBOT] PID " + str(os.getpid())+": Talking to " + sender_firstname)
 
                     # user clicked/tapped "postback" button in earlier message
-                    if "quick_reply" in messaging_event.get("message"):  
-                        print("$"*100)
-                        print(messaging_event["message"]) 
-                        payload = messaging_event["message"]["quick_reply"]["payload"] # the button's payload
-                        message_text = messaging_event["message"]["text"]  # the button's text
-                        print("[QUIZBOT] PID " + str(os.getpid())+": Received a POSTBACK")
-                        print("[QUIZBOT] PID " + str(os.getpid())+": Payload is \""+payload+"\"")
-                        print("[QUIZBOT] PID " + str(os.getpid())+": Message Text is \""+message_text+"\"")
-                        chatbot.respond_to_postback(payload, message_text, sender_id, qa_model, mysql)
+                    if messaging_event.get("message"):  
+                        if "quick_reply" in messaging_event.get("message"): 
+                            print("$"*100)
+                            print(messaging_event["message"]) 
+                            payload = messaging_event["message"]["quick_reply"]["payload"] # the button's payload
+                            message_text = messaging_event["message"]["text"]  # the button's text
+                            print("[QUIZBOT] PID " + str(os.getpid())+": Received a POSTBACK")
+                            print("[QUIZBOT] PID " + str(os.getpid())+": Payload is \""+payload+"\"")
+                            print("[QUIZBOT] PID " + str(os.getpid())+": Message Text is \""+message_text+"\"")
+                            chatbot.respond_to_postback(payload, message_text, sender_id, qa_model, mysql)
 
                     # someone sent us a message
-                    elif messaging_event.get("message"):  
-                        if not "text" in messaging_event["message"]:
+                        elif not "text" in messaging_event["message"]:
                             return "key error", 200
-                            
-                        print("*"*100)
-                        print(messaging_event["message"])                        
-                        message_text = messaging_event["message"]["text"]  # the message's text
-                        print("[QUIZBOT] PID " + str(os.getpid())+": Received a MESSAGE")
-                        print("[QUIZBOT] PID " + str(os.getpid())+": Message Text is \""+message_text+"\"")
                         
-                        # first-time user
-                        if not int(sender_id) in database.show_user_id_list(mysql):
-                            print("[QUIZBOT] PID " + str(os.getpid())+": This is a new user!")
-                            time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
-                            database.insert_user(mysql, sender_id, sender_firstname, sender_lastname, sender_gender, 1)
-                            database.insert_score(mysql, sender_id, -1, message_text, 0, time)
-                            message.choose_mode_quick_reply(sender_id) 
-
                         else:
-                            chatbot.respond_to_messagetext(message_text, sender_id, qa_model, mysql)
+                            print("*"*100)
+                            print(messaging_event["message"])                        
+                            message_text = messaging_event["message"]["text"]  # the message's text
+                            print("[QUIZBOT] PID " + str(os.getpid())+": Received a MESSAGE")
+                            print("[QUIZBOT] PID " + str(os.getpid())+": Message Text is \""+message_text+"\"")
+                            
+                            # first-time user
+                            if not int(sender_id) in database.show_user_id_list(mysql):
+                                print("[QUIZBOT] PID " + str(os.getpid())+": This is a new user!")
+                                time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
+                                database.insert_user(mysql, sender_id, sender_firstname, sender_lastname, sender_gender, 1)
+                                database.insert_score(mysql, sender_id, -1, message_text, 0, time)
+                                message.choose_mode_quick_reply(sender_id) 
+
+                            else:
+                                chatbot.respond_to_messagetext(message_text, sender_id, qa_model, mysql)
     return "ok", 200
 
 
