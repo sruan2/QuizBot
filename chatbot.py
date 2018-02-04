@@ -92,7 +92,7 @@ def respond_to_messagetext(message_text, sender_id, qa_model, mysql):
         send_subject_quick_reply(sender_id, "Now tell me which subject you would like to choose:"+u'\uD83D\uDC47') 
         time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
         insert_question(mysql, sender_id,'-11','SWITCH_SUBJUECT',time)
-        print("\n-4- QID is: "+str(QID)+"\n")                                 
+                                   
 
     elif message_text == "Next Question" or message_text == "Got it, next!" or message_text[:4] == "Sure":
 
