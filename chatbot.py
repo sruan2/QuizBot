@@ -121,7 +121,7 @@ def respond_to_messagetext(message_text, sender_id, qa_model, mysql):
 
 
     elif message_text[:4] == "Why":
-        support_sentence = qa_model.getSupport(QID)[:600]
+        support_sentence = qa_model.getSupport(QID)
         send_why2_quickreply(sender_id, "Here's an explanation: " + support_sentence)
         time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
         insert_score(mysql, sender_id,QID,"why",0,time)

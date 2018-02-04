@@ -43,11 +43,16 @@ class QAModel(object):
             answer = self.QA_KB.AKB[QID][0]
         except:
             answer = ""
-            print("[QUIZBOT-BUG] Index %d does not exist in AKB" % QID)
+            print("[QUIZBOT-BUG] PID " + str(os.getpid())+": Index %d does not exist in AKB" % QID)
         return answer
 
     def getSupport(self, QID):
-        return self.QA_KB.SKB[QID].rstrip()
+        try:
+            support = self.QA_KB.SKB[QID][0]
+        except:
+            support = ""
+            print("[QUIZBOT-BUG] PID " + str(os.getpid())+": Index %d does not exist in SKB" % QID)
+        return support
     
     @abstractmethod
     def pickNextSimilarQuestion(self): pass
