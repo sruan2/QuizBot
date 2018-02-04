@@ -1,5 +1,6 @@
 from message import *
 from database import *
+from time import gmtime, strftime
 
 
 # ================= Chatbot's reply to a postback =================
