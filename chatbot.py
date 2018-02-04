@@ -3,7 +3,7 @@ from database import *
 
 
 # ================= Chatbot's reply to a postback =================
-def respond_to_postback(message_text, sender_id, mysql):
+def respond_to_postback(message_text, sender_id, qa_model, mysql):
     if message_text == "get started":
         send_ready_go(sender_id, "Hi! Welcome! I'm your personal tutor Mr.Q and I'm here to help you master science! Ready? Go!"+u'\uD83D\uDE0A')
         
@@ -23,35 +23,35 @@ def respond_to_postback(message_text, sender_id, mysql):
         send_subject_quick_reply(sender_id, "Now tell me which subject you would like to choose:"+u'\uD83D\uDC47')
 
     elif message_text == "physics":
-        question, QID = qa_md.pickSubjectRandomQuestion(message_text)
+        question, QID = qa_model.pickSubjectRandomQuestion(message_text)
         update_status(mysql, sender_id, 0)
         time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
         insert_question(mysql, sender_id,QID,time)
         send_message(sender_id, "Question."+str(QID)+": "+question)
 
     elif message_text == "chemistry":
-        question, QID = qa_md.pickSubjectRandomQuestion(message_text)
+        question, QID = qa_model.pickSubjectRandomQuestion(message_text)
         update_status(mysql, sender_id, 0)
         time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
         insert_question(sender_id,QID,time)
         send_message(sender_id, "Question."+str(QID)+": "+question)
 
     elif message_text == "biology":
-        question, QID = qa_md.pickSubjectRandomQuestion(message_text)
+        question, QID = qa_model.pickSubjectRandomQuestion(message_text)
         update_status(mysql, sender_id, 0)
         time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
         insert_question(mysql, sender_id,QID,time)
         send_message(sender_id, "Question."+str(QID)+": "+question)
 
     elif message_text == "geology":
-        question, QID = qa_md.pickSubjectRandomQuestion(message_text)
+        question, QID = qa_model.pickSubjectRandomQuestion(message_text)
         update_status(mysql, sender_id, 0)
         time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
         insert_question(mysql, sender_id,QID,time)
         send_message(sender_id, "Question."+str(QID)+": "+question)
 
     elif message_text == "random":
-        question, QID = qa_md.pickSubjectRandomQuestion(message_text)
+        question, QID = qa_model.pickSubjectRandomQuestion(message_text)
         update_status(mysql, sender_id, 0)
         time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
         insert_question(mysql, sender_id,QID,time)
@@ -66,15 +66,15 @@ def respond_to_postback(message_text, sender_id, mysql):
         if show_status(mysql, sender_id):
             last_subject = show_last_qid_subject(sender_id)[1]
             if last_subject == 'random' or last_subject == 'no record':
-                question, QID = qa_md.pickRandomQuestion()
+                question, QID = qa_model.pickRandomQuestion()
             else:
-                question, QID = qa_md.pickSubjectRandomQuestion(last_subject)
+                question, QID = qa_model.pickSubjectRandomQuestion(last_subject)
             update_status(mysql, sender_id, 0)
             time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
             insert_question(mysql, sender_id,QID,last_subject,time)
         else: 
             QID = show_last_qid_subject(sender_id)[0]
-            question = qa_md.pickLastQuestion(QID)
+            question = qa_model.pickLastQuestion(QID)
         send_message(sender_id, "Question."+str(QID)+": "+question)
 
     elif message_text[0:9] == "answering":
@@ -84,7 +84,7 @@ def respond_to_postback(message_text, sender_id, mysql):
 
 
 # ================= Chatbot's reply to a message text =================
-def respond_to_messagetext(message_text, sender_id, mysql):
+def respond_to_messagetext(message_text, sender_id, qa_model, mysql):
     QID, _ = show_last_qid_subject(mysql, sender_id) # retrieve the qid and the subject from database
 
     if message_text == "Quiz Mode "+u'\u270F':
@@ -98,15 +98,15 @@ def respond_to_messagetext(message_text, sender_id, mysql):
         if show_status(mysql, sender_id):
             last_subject = show_last_qid_subject(mysql, sender_id)[1]
             if last_subject == 'random' or last_subject == 'no record':
-                question, QID = qa_md.pickRandomQuestion()
+                question, QID = qa_model.pickRandomQuestion()
             else:
-                question, QID = qa_md.pickSubjectRandomQuestion(last_subject)
+                question, QID = qa_model.pickSubjectRandomQuestion(last_subject)
             update_status(mysql, sender_id, 0)
             time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
             insert_question(mysql, sender_id,QID,last_subject,time)
         else: 
             QID = show_last_qid_subject(mysql, sender_id)[0]
-            question = qa_md.pickLastQuestion(QID)
+            question = qa_model.pickLastQuestion(QID)
         send_message(sender_id, "Question."+str(QID)+": "+question)
 
     # I comment out this part as there is bug here
@@ -120,7 +120,7 @@ def respond_to_messagetext(message_text, sender_id, mysql):
 
 
     elif message_text[:4] == "Why":
-        support_sentence = qa_md.getSupport(QID)[:600]
+        support_sentence = qa_model.getSupport(QID)[:600]
         send_why2_quickreply(sender_id, "Here's an explanation: " + support_sentence)
         time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
         insert_score(mysql, sender_id,QID,"why",0,time)
@@ -136,35 +136,35 @@ def respond_to_messagetext(message_text, sender_id, mysql):
         send_interesting(sender_id, "Thanks for reporting! Would you want more questions to practice? :) ")
 
     elif message_text == "Physics":
-        question, QID = qa_md.pickSubjectRandomQuestion(message_text)
+        question, QID = qa_model.pickSubjectRandomQuestion(message_text)
         update_status(mysql, sender_id, 0)
         time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
         insert_question(mysql, sender_id,QID,message_text.lower(),time)
         send_message(sender_id, "Question."+str(QID)+": "+question)
 
     elif message_text == "Chemistry":
-        question, QID = qa_md.pickSubjectRandomQuestion(message_text)
+        question, QID = qa_model.pickSubjectRandomQuestion(message_text)
         update_status(mysql, sender_id, 0)
         time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
         insert_question(mysql, sender_id,QID,message_text.lower(),time)
         send_message(sender_id, "Question."+str(QID)+": "+question)
 
     elif message_text == "Biology":
-        question, QID = qa_md.pickSubjectRandomQuestion(message_text)
+        question, QID = qa_model.pickSubjectRandomQuestion(message_text)
         update_status(mysql, sender_id, 0)
         time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
         insert_question(mysql, sender_id,QID,message_text.lower(),time)
         send_message(sender_id, "Question."+str(QID)+": "+question)
 
     elif message_text == "Geology":
-        question, QID = qa_md.pickSubjectRandomQuestion(message_text)
+        question, QID = qa_model.pickSubjectRandomQuestion(message_text)
         update_status(mysql, sender_id, 0)
         time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
         insert_question(mysql, sender_id,QID,message_text.lower(),time)
         send_message(sender_id, "Question."+str(QID)+": "+question)
     
     elif message_text == "Random":
-        question, QID = qa_md.pickRandomQuestion()
+        question, QID = qa_model.pickRandomQuestion()
         update_status(mysql, sender_id, 0)
         time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
         insert_question(mysql, sender_id,QID,message_text.lower(),time)
@@ -176,7 +176,7 @@ def respond_to_messagetext(message_text, sender_id, mysql):
     else: # user's respons in natural language    
         if not show_status(mysql, sender_id):
             print("not first time"+"="*50)
-            standard_answer = qa_md.getAnswer(QID)
+            standard_answer = qa_model.getAnswer(QID)
             score = qa_model.compute_score(message_text, QID)
             send_message(sender_id, "Your score this round is "+str(score))
             time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
