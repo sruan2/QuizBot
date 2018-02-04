@@ -88,7 +88,7 @@ def webhook():
                     # user clicked/tapped "postback" button in earlier message
                     if database.show_status(mysql, sender_id) != -1 and messaging_event.get("postback"):  
                         payload = messaging_event["postback"]["payload"] # the button's payload
-                        message_text = messaging_event["message"]["text"]  # the message's text
+                        message_text = messaging_event["message"]["title"]  # the button's text
                         print("[QUIZBOT] PID " + str(os.getpid())+": Received a postback")
                         print("[QUIZBOT] PID " + str(os.getpid())+": Payload \""+payload+"\"")
                         print("[QUIZBOT] PID " + str(os.getpid())+": Message Text \""+message_text+"\"")
