@@ -8,16 +8,16 @@ def respond_to_postback(payload, message_text, sender_id, qa_model, mysql):
     message_text = message_text.lower()
 
     if payload == "GET_STARTED_PAYLOAD":
-        send_ready_go(sender_id, "Hi! Welcome! I'm your personal tutor Mr Owl and \
-            I'm here to help you master science! Ready? Go!"+u'\uD83D\uDE0A')
+        send_ready_go(sender_id, "Hi! Welcome! I'm your personal tutor Mr Owl and I'm here to help you master science! Ready? Go!"+u'\uD83D\uDE0A')
         
     elif payload == "YUP_IM_READY":
         update_status(mysql, sender_id, 1)
         choose_mode_quick_reply(sender_id) 
 
     elif payload == "I_NEED_A_HINT":
-        update_status(mysql, sender_id, 1)
-        choose_mode_quick_reply(sender_id) 
+        QID, _ = show_last_qid_subject(mysql, sender_id) # retrieve the qid and the subject from database
+        support_sentence = qa_model.getSupport(QID)
+        send_why2_quickreply(sender_id, "Here's a hint: " + support_sentence)
 
     elif message_text == "check total score":
         score = show_score(mysql, sender_id)

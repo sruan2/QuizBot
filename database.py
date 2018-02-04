@@ -19,7 +19,7 @@ def insert_user(mysql, user_id,user_firstname,user_lastname,user_gender,user_sta
 
 
 # update user question-answer loop status
-def update_status(mysql, user_id,status):
+def update_status(mysql, user_id, status):
     if request.method == 'POST':
         try:
             con = mysql.connection
