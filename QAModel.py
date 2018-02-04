@@ -18,10 +18,10 @@ from nltk import RegexpTokenizer
 class QAModel(object):
 
     def __init__(self, qa_kb):
-        print("[QUIZBOT] " + str(os.getpid())+": QAModel begins")
+        print("[QUIZBOT] PID " + str(os.getpid())+": QAModel initialization begins")
         self.QID = 0
         self.QA_KB = qa_kb
-        print("[QUIZBOT] " + str(os.getpid())+": QAModel initialization ends")
+        print("[QUIZBOT] PID " + str(os.getpid())+": QAModel initialization ends")
 
     def pickSubjectRandomQuestion(self, subject):
         subject = subject.lower()
@@ -35,15 +35,15 @@ class QAModel(object):
         return picked_question, QID
 
     def pickLastQuestion(self, QID):
-        picked_question = self.QA_KB.QKB[QID].rstrip()
+        picked_question = self.QA_KB.QKB[QID]
         return picked_question
 
     def getAnswer(self, QID):
         try:
-            answer = self.QA_KB.AKB[QID].rstrip()
+            answer = self.QA_KB.AKB[QID][0]
         except:
             answer = ""
-            print("[QUIZBOT-BUG] Index %d does not exist in Answer KB" % QID)
+            print("[QUIZBOT-BUG] Index %d does not exist in AKB" % QID)
         return answer
 
     def getSupport(self, QID):

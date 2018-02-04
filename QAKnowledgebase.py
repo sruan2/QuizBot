@@ -4,12 +4,12 @@ import json
 class ConstructQA():
 
     def __init__(self, jsonFile):
-        print("[QUIZBOT] "+str(os.getpid()) + ": Begin to Construct QA Knowledgebase\n")
+        print("[QUIZBOT] Begin to Construct QA Knowledgebase")
         data = json.load(open('SciQdataset-23/230questions.json'))
 
         self.QKB = [] # question
         self.SKB = [] # support
-        self.AKB = [] # answer
+        self.AKB = [] # correct answer (NOTE THIS IS A LIST!)
         self.D1KB = [] # distractor 1
         self.D2KB = [] # distractor 2
         self.D3KB = [] # distractor 3
