@@ -5,7 +5,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import linear_kernel
 from similarity_model.sif_implementation.wordembeddings import EmbeddingVectorizer
 from similarity_model.sif_implementation import utils
-from similarity_model.princeton_sif import sif_sentence_similarity
+#from similarity_model.princeton_sif import sif_sentence_similarity
 import random
 from random import randint
 import os
