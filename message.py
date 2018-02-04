@@ -27,7 +27,7 @@ def send_a_question(recipient_id, question):
             "quick_replies": [
                 {
                     "content_type": "text",
-                    "title": "I need a hint ...",
+                    "title": "I need a hint...",
                     "payload": "I_NEED_A_HINT"
                 }
             ]
@@ -162,13 +162,13 @@ def choose_mode_quick_reply(recipient_id):
             "quick_replies": [
                 {
                     "content_type": "text",
-                    "title": "Quiz Mode "+u'\u270F',
-                    "payload": "QUIZ_MODE"
+                    "title": "Practice Mode "+u'\u270F',
+                    "payload": "PRACTICE_MODE"
                 },
                 {
                     "content_type": "text",
-                    "title": "Answering Mode"+u'\uD83D\uDE3A',
-                    "payload": "ANSWERING_MODE"
+                    "title": "Challenge Mode"+u'\uD83D\uDE3A',
+                    "payload": "CHALLENGE_MODE"
                 }
             ]
         }
@@ -243,7 +243,7 @@ def send_why_quickreply(recipient_id, QID, standard_answer):
             "id": recipient_id
         },
         "message": {
-            "text": "Correct answer is " +standard_answer,
+            "text": "Correct answer is " + standard_answer,
             "quick_replies": [
                 {
                     "content_type": "text",

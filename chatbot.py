@@ -8,7 +8,8 @@ def respond_to_postback(payload, message_text, sender_id, qa_model, mysql):
     message_text = message_text.lower()
 
     if payload == "GET_STARTED_PAYLOAD":
-        send_ready_go(sender_id, "Hi! Welcome! I'm your personal tutor Mr Owl and I'm here to help you master science! Ready? Go! "+u'\uD83D\uDE0A')
+        welcome = "Hi! Welcome! I'm your personal tutor Mr Owl and I'm here to help you master science! Ready? Go! "+u'\uD83D\uDE0A'
+        send_ready_go(sender_id, welcome)
 
     elif payload == "MENU_SCORE":
         score = show_score(mysql, sender_id)
@@ -105,7 +106,7 @@ def respond_to_messagetext(message_text, sender_id, qa_model, mysql):
         time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
         insert_question(mysql, sender_id,'-11','SWITCH_SUBJUECT',time)
 
-    #elif message_text == "I need a hint ...":
+    #elif message_text == "I need a hint...":
         #send_multiple_choice()
                                    
 
