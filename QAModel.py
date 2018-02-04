@@ -58,9 +58,9 @@ class QAModel(object):
     @abstractmethod
     def computeScore(self): pass
 
-
+# This is a working baseline model
 class TFIDFModel(QAModel):
-    """docstring for TFIDFModel"""
+    """docstring for TFIDF"""
     def __init__(self, qa_kb):
         super(TFIDFModel, self).__init__(qa_kb)
 
@@ -74,6 +74,7 @@ class TFIDFModel(QAModel):
         cosine_similarities = linear_kernel(self.tfidf_features[0:1], self.tfidf_features).flatten()
         return int(cosine_similarities[1]*10)   
 
+# This is pretrained by Zhengneng
 class Doc2VecModel(QAModel):
     """docstring for Doc2VecModel"""
     def __init__(self, qa_kb, PreTrainedModel):
@@ -86,6 +87,7 @@ class Doc2VecModel(QAModel):
         picked_answer = super(Doc2VecModel, self).getAnswer(QID)
         return picked_question, NextQID
 
+# Sherry: This is based on Princeton's original implementation. Not sure if this working, haven't tested it out yet.
 class SIFModel(QAModel):
     """docstring for SIFModel"""
     def __init__(self, qa_kb):
@@ -105,21 +107,18 @@ class SIF2Model(QAModel):
         self.AKB = qa_kb.AKB
         self.init_model(qa_kb.SKB, pkl_file)  # use support to fit
 
-
-    def init_model(self, akb, pkl_file):
+    def init_model(self, sentences, pkl_file):
         self.tokenizer = RegexpTokenizer(r'[\w]+')
-        self.tokenized_sentences = utils.preprocess(akb, self.tokenizer)
+        self.tokenized_sentences = utils.preprocess(sentences, self.tokenizer)
         pkl = open(pkl_file, 'rb')
         glove = pickle.load(pkl, encoding='latin1')
-        print("="*80+"\nloaded glove")
+        print("[QUIZBOT] PID " + str(os.getpid())+": Loaded "+pkl)
         self.emb = EmbeddingVectorizer(word_vectors=glove, weighted=True, R=False) # just use the simple weighted version without removing PCA
 
     def compute_score(self, user_answer, QID):
-        with open("log", "a+") as f:
-            tokenized_query = utils.preprocess([user_answer], self.tokenizer)
-            V_query = self.emb.transform(tokenized_query)
-
-            tokenized_answer = utils.preprocess([self.AKB[QID]], self.tokenizer)
-            V_answer = self.emb.transform(tokenized_answer)          
+        tokenized_query = utils.preprocess([user_answer], self.tokenizer)
+        V_query = self.emb.transform(tokenized_query)
+        tokenized_answer = utils.preprocess([self.AKB[QID]], self.tokenizer)
+        V_answer = self.emb.transform(tokenized_answer)          
         score = utils.cosine_similarity(V_query[0], V_answer[0])
         return score
