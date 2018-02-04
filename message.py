@@ -263,7 +263,7 @@ def send_why_quickreply(recipient_id, QID, standard_answer):
                 {
                     "content_type": "text",
                     "title": "Wait, I got it right...",
-                    "payload": "REPORT"
+                    "payload": "REPORT_BUG"
                 },                 
             ]
         }
@@ -357,6 +357,7 @@ def send_why3_quickreply(recipient_id, support_sentence):
     if r.status_code != 200:
         log(r.status_code)
         log(r.text)
+
 
 def send_gotit_quickreply(recipient_id, sentence):
 
