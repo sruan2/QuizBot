@@ -22,7 +22,7 @@ def send_a_question(recipient_id, question):
             "id": recipient_id
         },
         "message": {
-            "text": random.choice(starting_part) + question
+            "text": random.choice(starting_part) + question,
             "quick_replies": [
                 {
                     "content_type": "text",
