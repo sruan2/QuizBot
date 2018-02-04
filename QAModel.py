@@ -125,7 +125,7 @@ class SIF2Model(QAModel):
         print(tokenized_query)
         not_empty = False
         for user_word in tokenized_query: # for out of vocabulary words
-            if user_word in self.glove:
+            if user_word[0] in self.glove:
                 not_empty = True
                 break
         if not not_empty:
