@@ -78,7 +78,7 @@ def webhook():
                     if sender_id == os.environ["CHATBOT_ID"]: # return if this message is sent from the chatbot
                         return "Chatbot ID", 200
 
-                    if show_status(sender_id) != -1 and messaging_event.get("postback"):  # user clicked/tapped "postback" button in earlier message
+                    if show_status(mysql, sender_id) != -1 and messaging_event.get("postback"):  # user clicked/tapped "postback" button in earlier message
 
                         message_text = messaging_event["postback"]["title"].lower() # the button's payload
                          
