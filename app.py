@@ -232,9 +232,8 @@ def webhook():
 
 ############ SET UP ############
 def setup_app(app):
-    print("\nstart\n")
+    print("[QUIZBOT] ============ Start the server ============\n")
     greeting()
-    print("\nafter greeting\n")
     persistent_menu()
 
 setup_app(app)
@@ -250,8 +249,7 @@ if __name__ == '__main__':
     qa_md = QAModel.QAModel(qa_kb)
     qa_doc2vec = QAModel.Doc2VecModel(qa_kb, doc2vec)
 
-    # select the right model to load based on environment variable "MODEL",
-    # which is set in ./start_server.sh
+    # select the right model to load based on environment variable "MODEL", which is set in ./start_server.sh
     model = os.environ["MODEL"]
     if model == "TFIDF":
         qa_model = QAModel.TFIDFModel(qa_kb)
