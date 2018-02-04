@@ -88,7 +88,7 @@ def webhook():
                     sender_firstname = data['first_name']
                     sender_lastname = data['last_name']
                     sender_gender = data['gender']
-                    print("[QUIZBOT] PID " + str(os.getpid())+": Talking to " + sender_firstname)
+                    #print("[QUIZBOT] PID " + str(os.getpid())+": Talking to " + sender_firstname)
 
                     # user clicked/tapped "postback" button in earlier message
                     if messaging_event.get("postback"):  

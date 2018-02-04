@@ -9,6 +9,15 @@ def respond_to_postback(payload, message_text, sender_id, qa_model, mysql):
 
     if payload == "GET_STARTED_PAYLOAD":
         send_ready_go(sender_id, "Hi! Welcome! I'm your personal tutor Mr Owl and I'm here to help you master science! Ready? Go!"+u'\uD83D\uDE0A')
+
+    elif payload == "MENU_SCORE":
+        score = show_score(mysql, sender_id)
+        send_gotit_quickreply(sender_id, "Your total score is "+str(score)+". Keep moving!") 
+
+    elif payload == "MENU_LEADERBOARD":
+        records = show_top_10(mysql)
+        sentence = ("\n").join(["No." + str(i + 1) + " " + str(records[i][0]+' '+records[i][1]) + ": " + str(records[i][2]) for i in range(len(records))])
+        send_gotit_quickreply(sender_id, "Leaderboard: \n" + sentence) 
     
     ######## Sherry: Seems that none of the following conditions is ever met ###################    
     elif payload == "YUP_IM_READY":
@@ -20,14 +29,7 @@ def respond_to_postback(payload, message_text, sender_id, qa_model, mysql):
         support_sentence = qa_model.getSupport(QID)
         send_why2_quickreply(sender_id, "Here's a hint: " + support_sentence)
 
-    elif message_text == "CHECK_TOTAL_SCORE":
-        score = show_score(mysql, sender_id)
-        send_gotit_quickreply(sender_id, "Your total score is "+str(score)+". Keep moving!") 
-
-    elif message_text == "MENU_LEADERBOARD":
-        records = show_top_10(mysql)
-        sentence = ("\n").join(["No." + str(i + 1) + " " + str(records[i][0]+' '+records[i][1]) + ": " + str(records[i][2]) for i in range(len(records))])
-        send_gotit_quickreply(sender_id, "Leaderboard: \n" + sentence) 
+    
     elif message_text[0:9] == "quiz mode":
         send_subject_quick_reply(sender_id, "Now tell me which subject you would like to choose:"+u'\uD83D\uDC47')
 
@@ -88,6 +90,7 @@ def respond_to_postback(payload, message_text, sender_id, qa_model, mysql):
 
     elif message_text[0:9] == "ANSWERING":
         send_message(sender_id, "I'm here to answer your questions! Just type your question below :-) ")
+
 
 
 
