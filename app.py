@@ -90,11 +90,9 @@ def webhook():
                     sender_gender = data['gender']
                     #print("[QUIZBOT] PID " + str(os.getpid())+": Talking to " + sender_firstname)
 
-                    print("*"*100)
-                    print(messaging_event)
                     # user clicked/tapped "postback" button in earlier message
-                    if messaging_event.get("postback"):  
-                        payload = messaging_event["postback"]["payload"] # the button's payload
+                    if messaging_event.get("quick_reply"):  
+                        payload = messaging_event["quick_reply"]["payload"] # the button's payload
                         message_text = messaging_event["postback"]["title"]  # the button's text
                         print("[QUIZBOT] PID " + str(os.getpid())+": Received a POSTBACK")
                         print("[QUIZBOT] PID " + str(os.getpid())+": Payload is \""+payload+"\"")
@@ -106,6 +104,8 @@ def webhook():
                         if not "text" in messaging_event["message"]:
                             return "key error", 200
                             
+                        print("*"*100)
+                        print(messaging_event["message"])                        
                         message_text = messaging_event["message"]["text"]  # the message's text
                         print("[QUIZBOT] PID " + str(os.getpid())+": Received a MESSAGE")
                         print("[QUIZBOT] PID " + str(os.getpid())+": Message Text is \""+message_text+"\"")
