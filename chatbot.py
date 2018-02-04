@@ -72,6 +72,11 @@ def respond_to_postback(payload, message_text, sender_id, qa_model, mysql):
     elif payload == 'SWITCH_SUBJECT' or payload == 'SURE':
         send_subject_quick_reply(sender_id, "Now tell me which subject you would like to choose:"+u'\uD83D\uDC47')
 
+    elif payload == "WHY":
+        support_sentence = qa_model.getSupport(QID)
+        send_why2_quickreply(sender_id, "Here's an explanation: " + support_sentence)
+        time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
+        insert_score(mysql, sender_id,QID,"why",0,time)        
 
     # look for next similar question based off the pre-trained model
     elif payload == "NEXT_QUESTION":
