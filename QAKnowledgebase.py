@@ -4,7 +4,7 @@ import json
 class ConstructQA():
 
     def __init__(self, jsonFile):
-        log("[QUIZBOT] Begin to Construct QA Knowledgebase")
+        print("[QUIZBOT] Begin to Construct QA Knowledgebase")
         data = json.load(open('SciQdataset-23/230questions.json'))
 
         self.QKB = [] # question
@@ -28,8 +28,8 @@ class ConstructQA():
             self.DifficultyKB.append(entry["difficulty"])
         self.appendSubDict()
         
-        log("[QUIZBOT] Finished QA Knowledgebase Construction")
-        log("[QUIZBOT] Total Number of Questions: " +str(self.KBlength))
+        print("[QUIZBOT] Finished QA Knowledgebase Construction")
+        print("[QUIZBOT] Total Number of Questions: " +str(self.KBlength))
     
     def appendSubDict(self):       
         for i, subject in enumerate(self.SubKB):
@@ -37,5 +37,5 @@ class ConstructQA():
                 self.SubDict[subject].append(i)
             else:
                 self.SubDict[subject] = [i]
-        log("[QUIZBOT] Finished Subject Dictionary Construction")
-        log("[QUIZBOT] Total Subject Count is: "+str(len(self.SubDict)))
+        print("[QUIZBOT] Finished Subject Dictionary Construction")
+        print("[QUIZBOT] Total Subject Count is: "+str(len(self.SubDict)))
