@@ -5,6 +5,8 @@ from time import gmtime, strftime
 
 # ================= Chatbot's reply to a postback =================
 def respond_to_postback(message_text, sender_id, qa_model, mysql):
+    message_text = message_text.lower()
+
     if message_text == "get started":
         send_ready_go(sender_id, "Hi! Welcome! I'm your personal tutor Mr.Q and I'm here to help you master science! Ready? Go!"+u'\uD83D\uDE0A')
         
@@ -86,15 +88,16 @@ def respond_to_postback(message_text, sender_id, qa_model, mysql):
 
 # ================= Chatbot's reply to a message text =================
 def respond_to_messagetext(message_text, sender_id, qa_model, mysql):
+    message_text = message_text.lower()
     QID, _ = show_last_qid_subject(mysql, sender_id) # retrieve the qid and the subject from database
 
-    if message_text == "Quiz Mode "+u'\u270F':
+    if message_text == "quiz mode "+u'\u270F':
         send_subject_quick_reply(sender_id, "Now tell me which subject you would like to choose:"+u'\uD83D\uDC47') 
         time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
         insert_question(mysql, sender_id,'-11','SWITCH_SUBJUECT',time)
                                    
 
-    elif message_text == "Next Question" or message_text == "Got it, next!" or message_text[:4] == "Sure":
+    elif message_text == "next question" or message_text == "got it, next!" or message_text[:4] == "sure":
 
         if show_status(mysql, sender_id):
             last_subject = show_last_qid_subject(mysql, sender_id)[1]
@@ -115,68 +118,65 @@ def respond_to_messagetext(message_text, sender_id, qa_model, mysql):
     #     answer = tfidf.Featurize(message_text)
     #     send_message(sender_id, answer)    
 
-    elif "Yup! I'm ready!" in message_text:
+    elif "yup! i'm ready!" in message_text:
         update_status(mysql, sender_id, 1)
         send_mode_quick_reply(sender_id, "Now tell me which mode you would like to choose:"+u'\uD83D\uDC47') 
 
 
-    elif message_text[:4] == "Why":
+    elif message_text[:4] == "why":
         support_sentence = qa_model.getSupport(QID)
         send_why2_quickreply(sender_id, "Here's an explanation: " + support_sentence)
         time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
         insert_score(mysql, sender_id,QID,"why",0,time)
 
-    elif message_text == "Check Total Score":
-        print ("&"*50)
-        print (str(show_score(mysql, sender_id)))
+    elif message_text == "check total score":
         send_gotit_quickreply(sender_id, "Your accumulated score is "+str(show_score(sender_id)))
 
-    elif message_text == "Report Bug":
+    elif message_text == "report bug":
         time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
         insert_score(sender_id,-1,message_text,-1,time)
         send_interesting(sender_id, "Thanks for reporting! Would you want more questions to practice? :) ")
 
-    elif message_text == "Physics":
+    elif message_text == "physics":
         question, QID = qa_model.pickSubjectRandomQuestion(message_text)
         update_status(mysql, sender_id, 0)
         time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
         insert_question(mysql, sender_id,QID,message_text.lower(),time)
         send_message(sender_id, "Question."+str(QID)+": "+question)
 
-    elif message_text == "Chemistry":
+    elif message_text == "chemistry":
         question, QID = qa_model.pickSubjectRandomQuestion(message_text)
         update_status(mysql, sender_id, 0)
         time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
         insert_question(mysql, sender_id,QID,message_text.lower(),time)
         send_message(sender_id, "Question."+str(QID)+": "+question)
 
-    elif message_text == "Biology":
+    elif message_text == "biology":
         question, QID = qa_model.pickSubjectRandomQuestion(message_text)
         update_status(mysql, sender_id, 0)
         time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
         insert_question(mysql, sender_id,QID,message_text.lower(),time)
         send_message(sender_id, "Question."+str(QID)+": "+question)
 
-    elif message_text == "Geology":
+    elif message_text == "geology":
         question, QID = qa_model.pickSubjectRandomQuestion(message_text)
         update_status(mysql, sender_id, 0)
         time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
         insert_question(mysql, sender_id,QID,message_text.lower(),time)
         send_message(sender_id, "Question."+str(QID)+": "+question)
     
-    elif message_text == "Random":
+    elif message_text == "random":
         question, QID = qa_model.pickRandomQuestion()
         update_status(mysql, sender_id, 0)
         time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
         insert_question(mysql, sender_id,QID,message_text.lower(),time)
         send_message(sender_id, "Question."+str(QID)+": "+question)
 
-    elif message_text.lower() == 'switch subject':
+    elif message_text == 'switch subject':
         send_subject_quick_reply(sender_id, "Now tell me which subject you would like to choose:"+u'\uD83D\uDC47')
 
     else: # user's respons in natural language    
         if not show_status(mysql, sender_id):
-            print("not first time"+"="*50)
             standard_answer = qa_model.getAnswer(QID)
             score = qa_model.compute_score(message_text, QID)
             send_message(sender_id, "Your score this round is "+str(score))

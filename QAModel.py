@@ -48,7 +48,7 @@ class QAModel(object):
 
     def getSupport(self, QID):
         try:
-            support = self.QA_KB.SKB[QID][0]
+            support = self.QA_KB.SKB[QID]
         except:
             support = ""
             print("[QUIZBOT-BUG] PID " + str(os.getpid())+": Index %d does not exist in SKB" % QID)
