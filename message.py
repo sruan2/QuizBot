@@ -8,7 +8,7 @@ def send_a_question(recipient_id, question):
 
     starting_part = ["Here's a question for you! ",
                      "Let's try this one: ",
-                     "Could you tell the answer to this one? "]
+                     "Could you tell the answer to this one: "]
 
     params = {
         "access_token": os.environ["PAGE_ACCESS_TOKEN"]
