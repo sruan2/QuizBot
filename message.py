@@ -5,6 +5,7 @@ import sys
 import random
 
 def send_picture(user_id, imageUrl, title="", subtitle=""):
+    print("sending pictures")
     if title != "":
         data = {"recipient": {"id": user_id},
                   "message":{
