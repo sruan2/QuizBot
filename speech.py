@@ -55,7 +55,7 @@ def speech_to_text_google(speech_file):
         body={
             'config': {
                 'encoding': 'LINEAR16',
-                #'sampleRate': 48000,
+                'sampleRate': 8000,
                 'maxAlternatives': 1,
             },
             'audio': {
