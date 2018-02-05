@@ -105,6 +105,9 @@ class SIF2Model(QAModel):
     def __init__(self, qa_kb, pkl_file):
         super(SIF2Model, self).__init__(qa_kb)
         self.AKB = qa_kb.AKB
+        self.D1KB = qa_kb.D1KB
+        self.D2KB = qa_kb.D2KB
+        self.D3KB = qa_kb.D3KB
         pkl = open(pkl_file, 'rb')
         self.glove = pickle.load(pkl, encoding='latin1')
         print("[QUIZBOT] PID " + str(os.getpid())+": Loaded "+pkl_file)

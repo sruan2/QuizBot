@@ -33,6 +33,11 @@ def respond_to_postback(payload, message_text, sender_id, qa_model, mysql):
     elif payload == "PRACTICE_MODE":
         send_subject_quick_reply(sender_id, "Now tell me which subject you would like to choose:"+u'\uD83D\uDC47')
 
+
+    elif payload == "D1KB":
+        
+
+
     elif payload == "PHYSICS":
         question, QID = qa_model.pickSubjectRandomQuestion(message_text)
         update_status(mysql, sender_id, 0)
