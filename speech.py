@@ -115,7 +115,7 @@ def run_quickstart(file_name):
 
     config = types.RecognitionConfig(
         encoding=enums.RecognitionConfig.AudioEncoding.LINEAR16,
-        sample_rate_hertz=16000,
+        sample_rate_hertz=48000,
         language_code='en-US')
 
     # Detects speech in the audio file
