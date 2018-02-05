@@ -116,7 +116,8 @@ def webhook():
                         elif "attachments" in messaging_event.get("message"): 
                             if messaging_event["message"]["attachments"][0]["type"] == "audio": # only getting the first attachment
                                 print("[QUIZBOT] PID " + str(os.getpid())+": Received an AUDIO attachment")
-                                audio_url = messaging_event["message"]["attachments"]["payload"]["url"]
+                                audio_url = messaging_event["message"]["attachments"][0]["payload"]["url"]
+
 
                         # someone sent us a message
                         elif not "text" in messaging_event["message"]:
