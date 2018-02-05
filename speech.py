@@ -49,14 +49,6 @@ def speech_to_text_google(speech_file):
     response = service_request.execute()
     print(json.dumps(response))
 
-# if __name__ == '__main__':
-#     parser = argparse.ArgumentParser()
-#     parser.add_argument(
-#         'speech_file', help='Full path of audio file to be recognized')
-#     args = parser.parse_args()
-#     main(args.speech_file)
-
-
 
 def transcribe(audio_url):
     raw_audio = convert(audio_url)
@@ -72,7 +64,6 @@ def convert(file_path):
         raw_audio = pipe.stdout.read()
         return raw_audio
         
-    except Exception, e:
-        print Exception
-        print e
-        traceback.print_exc()
+    except:
+        print("[BUG] PID " + str(os.getpid())+": Transcription failed")
+        return ""
