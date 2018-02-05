@@ -86,16 +86,18 @@ def transcribe(audio_url):
     with open('gcloud_speech/fb.aac', "wb") as handle:
         handle.write(aacfile.read())
 
-    cmdline = ['avconv',
-               '-i',
-               'gcloud_speech/fb.aac',
-               '-f',
-               "s16le",
-               "-ac",
-               "1",
-               "-ar",
-               "16k"
-               'gcloud_speech/fb.raw']
+    # cmdline = ['avconv',
+    #            '-i',
+    #            'gcloud_speech/fb.aac',
+    #            '-f',
+    #            "s16le",
+    #            "-ac",
+    #            "1",
+    #            "-ar",
+    #            "16k"
+    #            'gcloud_speech/fb.raw']
+    
+    cmdline = ['avconv', '-i', 'gcloud_speech/fb.aac', '-y', '-ar', '48000', '-ac', '1', 'gcloud_speech/fb.flac']
     sp.call(cmdline)
 
     return run_quickstart('gcloud_speech/fb.raw')
@@ -136,8 +138,8 @@ def run_quickstart(file_name):
         audio = types.RecognitionAudio(content=content)
 
     config = types.RecognitionConfig(
-        encoding=enums.RecognitionConfig.AudioEncoding.LINEAR16,
-        sample_rate_hertz=16000,
+        encoding=enums.RecognitionConfig.AudioEncoding.FLAC,
+        sample_rate_hertz=48000,
         language_code='en-US')
 
     # Detects speech in the audio file
