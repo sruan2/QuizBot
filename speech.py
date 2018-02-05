@@ -6,10 +6,10 @@ def transcribe(audio_url):
     #print(audio_url)
     name = audio_url[-8:]
     aacfile = urlopen(audio_url)
-    with open('gcloud_speech/'+name+'fb.aac', "wb") as handle:
+    with open('gcloud_speech/'+name+'.aac', "wb") as handle:
         handle.write(aacfile.read())
     
-    cmdline = ['avconv', '-i', 'gcloud_speech/fb.aac', '-y', '-ar', '48000', '-ac', '1', 'gcloud_speech/'+name+'.flac']
+    cmdline = ['avconv', '-i', 'gcloud_speech/'+name+'.aac', '-y', '-ar', '48000', '-ac', '1', 'gcloud_speech/'+name+'.flac']
     sp.call(cmdline)
 
     return run_quickstart('gcloud_speech/'+name+'.flac')
