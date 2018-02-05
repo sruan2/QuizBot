@@ -40,15 +40,16 @@ def speech_to_text_google(speech_file):
     """
     # [START construct_request]
     # Method 1. Take in file input
-    # with open(speech_file, 'rb') as speech: # --> for file
-        # Base64 encode the binary audio file for inclusion in the JSON
-        # request.
-        # speech_content = base64.b64encode(speech.read())
+    with open(speech_file, 'rb') as speech: # --> for file
+        Base64 encode the binary audio file for inclusion in the JSON
+        request.
+        speech_content = base64.b64encode(speech.read())
 
     # Method 2. Take in raw binary input
     # Base64 encode the binary audio file for inclusion in the JSON
     # request.
-    speech_content = base64.b64encode(speech_file)
+    
+    #speech_content = base64.b64encode(speech_file)
 
     service = get_speech_service()
     service_request = service.speech().syncrecognize(
@@ -75,7 +76,9 @@ def speech_to_text_google(speech_file):
         final_result = "Sorry I couldn't recognize that"
     return final_result
 
-
+if __name__ = "__main__":
+    final_result = speech_to_text_google("gcloud_speech/test.m4a")
+    print("final_result")
 
 
 def transcribe(audio_url):
