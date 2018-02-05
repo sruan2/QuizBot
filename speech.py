@@ -78,6 +78,7 @@ def speech_to_text_google(speech_file):
 
 def transcribe(audio_url):
     #raw_audio = convert(audio_url)
+    print(audio_url)
     return speech_to_text_google(audio_url)
 
 def convert(audio_url):
