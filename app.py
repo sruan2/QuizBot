@@ -124,6 +124,7 @@ def webhook():
                                     message.send_message(sender_id, "You said: " + final_result)
                                 else:
                                     message.send_message(sender_id, "Sorry, I could not recognize it :/")
+                                chatbot.respond_to_messagetext(final_result, sender_id, qa_model, mysql)
 
 
                         # someone sent us a message
