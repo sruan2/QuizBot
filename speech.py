@@ -1,7 +1,6 @@
 import subprocess as sp, os, traceback
 from urllib.request import urlopen
-import speech_recognition as sr
-import os
+
 
 # # path to ffmpeg bin
 # FFMPEG_PATH = "/usr/bin/ffmpeg"
