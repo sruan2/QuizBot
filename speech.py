@@ -75,10 +75,6 @@ def speech_to_text_google(speech_file):
         final_result = "Sorry I couldn't recognize that"
     return final_result
 
-if __name__ == "__main__":
-    final_result = speech_to_text_google("gcloud_speech/test.wav")
-    print(final_result)
-
 
 def transcribe(audio_url):
     raw_audio = convert(audio_url)
@@ -94,3 +90,7 @@ def convert(audio_url):
     return raw_audio
         
 
+### testing ###
+if __name__ == "__main__":
+    final_result = speech_to_text_google("gcloud_speech/test.mp4")
+    print(final_result)
