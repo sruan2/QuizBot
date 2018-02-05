@@ -1,21 +1,26 @@
-import argparse
-import base64
-import json
-
-from googleapiclient import discovery
-import httplib2
-from oauth2client.client import GoogleCredentials
-
 import subprocess as sp, os, traceback
 
 # path to ffmpeg bin
 FFMPEG_PATH = "/home/ubuntu/quizbot_dev/ffmpeg/"
 #os.environ['FFMPEG_PATH']
 
+# [START import_libraries]
+import base64
+import json
+
+from googleapiclient import discovery
+import httplib2
+from oauth2client.client import GoogleCredentials
+# [END import_libraries]
+
+
+# [START authenticating]
 DISCOVERY_URL = ('https://{api}.googleapis.com/$discovery/rest?'
                  'version={apiVersion}')
 
 
+# Application default credentials provided by env variable
+# GOOGLE_APPLICATION_CREDENTIALS
 def get_speech_service():
     credentials = GoogleCredentials.get_application_default().create_scoped(
         ['https://www.googleapis.com/auth/cloud-platform'])
@@ -24,30 +29,53 @@ def get_speech_service():
 
     return discovery.build(
         'speech', 'v1beta1', http=http, discoveryServiceUrl=DISCOVERY_URL)
+# [END authenticating]
 
 
 def speech_to_text_google(speech_file):
     """Transcribe the given audio file.
-
     Args:
         speech_file: the name of the audio file.
+        Hung's modification: take in binary raw input
     """
+    # [START construct_request]
+    # Method 1. Take in file input
+    # with open(speech_file, 'rb') as speech: # --> for file
+        # Base64 encode the binary audio file for inclusion in the JSON
+        # request.
+        # speech_content = base64.b64encode(speech.read())
+
+    # Method 2. Take in raw binary input
+    # Base64 encode the binary audio file for inclusion in the JSON
+    # request.
     speech_content = base64.b64encode(speech_file)
 
     service = get_speech_service()
     service_request = service.speech().syncrecognize(
         body={
             'config': {
-                'encoding': 'LINEAR16',  # raw 16-bit signed LE samples
-                'sampleRate': 16000,  # 16 khz
-                'languageCode': 'en-US',  # a BCP-47 language tag
+                'encoding': 'LINEAR16',
+                'sampleRate': 8000,
+                'maxAlternatives': 1,
             },
             'audio': {
                 'content': speech_content.decode('UTF-8')
                 }
             })
-    response = service_request.execute()
-    print(json.dumps(response))
+    # [END construct_request]
+    # [START send_request]
+    response = service_request.execute() # return a dict object
+    # [END send_request]
+    if 'results' in response:
+        results =  sorted(response['results'], reverse=True)
+        print results
+        final_result = results[0]['alternatives'][0]['transcript']
+    else:
+        print json.dumps(response)
+        final_result = "Sorry I couldn't recognize that"
+    return final_result
+
+
 
 
 def transcribe(audio_url):
