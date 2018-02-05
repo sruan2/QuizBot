@@ -124,7 +124,7 @@ def send_interesting(recipient_id, main_text):
         log(r.status_code)
         log(r.text)
 
-def send_hint(recipient_id, main_text):
+def send_hint(recipient_id, qa_model, qid):
 
     params = {
         "access_token": os.environ["PAGE_ACCESS_TOKEN"]
@@ -137,13 +137,27 @@ def send_hint(recipient_id, main_text):
             "id": recipient_id
         },
         "message": {
-            "text": main_text,
             "quick_replies": [
                 {
                     "content_type": "text",
-                    "title": "Sure!",
-                    "payload": "SURE!"
-                }
+                    "title": qa_model.D1KB[qid],
+                    "payload": "D1KB"
+                },
+                {
+                    "content_type": "text",
+                    "title": qa_model.D2KB[qid],
+                    "payload": "D2KB!"
+                },
+                {
+                    "content_type": "text",
+                    "title": qa_model.D3KB[qid],
+                    "payload": "D3KB!"
+                },
+                {
+                    "content_type": "text",
+                    "title": qa_model.AKB[qid],
+                    "payload": "AKB!"
+                },
             ]
         }
     })
