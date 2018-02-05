@@ -76,7 +76,7 @@ def speech_to_text_google(speech_file):
     return final_result
 
 if __name__ == "__main__":
-    final_result = speech_to_text_google("gcloud_speech/test.m4a")
+    final_result = speech_to_text_google("gcloud_speech/test.wav")
     print(final_result)
 
 
