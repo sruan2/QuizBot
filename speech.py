@@ -1,5 +1,5 @@
 import subprocess as sp, os, traceback
-import urllib2
+from urllib.request import urlopen
 import speech_recognition as sr
 import os
 
@@ -83,7 +83,7 @@ import os
 def transcribe(audio_url):
     #raw_audio = convert(audio_url)
     print(audio_url)
-    aacfile = urllib2.urlopen(audio_url)
+    aacfile = urlopen(audio_url)
     with open("test.mp4", "wb") as handle:
         handle.write(aacfile.read())
 
