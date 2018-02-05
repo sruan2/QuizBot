@@ -112,9 +112,9 @@ def webhook():
                             print("[QUIZBOT] PID " + str(os.getpid())+": Message Text is \""+message_text+"\"")
                             chatbot.respond_to_postback(payload, message_text, sender_id, qa_model, mysql)
 
-                         # user sent an attachment: i.e., audio
+                        # user sent an attachment: i.e., audio
                         elif "attachments" in messaging_event.get("message"): 
-                            if messaging_event["message"]["attachments"]["type"] == "audio":
+                            if messaging_event["message"]["attachments"][0]["type"] == "audio": # only getting the first attachment
                                 print("[QUIZBOT] PID " + str(os.getpid())+": Received an AUDIO attachment")
                                 audio_url = messaging_event["message"]["attachments"]["payload"]["url"]
 
