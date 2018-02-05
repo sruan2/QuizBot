@@ -54,9 +54,10 @@ def speech_to_text_google(speech_file):
     service_request = service.speech().syncrecognize(
         body={
             'config': {
-                'encoding': 'LINEAR16',
-                'sampleRate': 8000,
-                'maxAlternatives': 1,
+                "encoding":"FLAC",
+                "sampleRateHertz": 16000,
+                "languageCode": "en-US",
+                "enableWordTimeOffsets": false
             },
             'audio': {
                 'content': speech_content.decode('UTF-8')
