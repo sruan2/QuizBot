@@ -100,7 +100,7 @@ def transcribe(audio_url):
     cmdline = ['avconv', '-i', 'gcloud_speech/fb.aac', '-y', '-ar', '48000', '-ac', '1', 'gcloud_speech/fb.flac']
     sp.call(cmdline)
 
-    return run_quickstart('gcloud_speech/fb.raw')
+    return run_quickstart('gcloud_speech/fb.flac')
 
 # def convert(audio_url):
 #     command = [
