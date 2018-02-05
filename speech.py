@@ -124,10 +124,7 @@ def run_quickstart(file_name):
     for result in response.results:
         print('Transcript: {}'.format(result.alternatives[0].transcript))
     # [END speech_quickstart]
-
-
-if __name__ == '__main__':
-    run_quickstart()        
+      
 
 ### testing ###
 if __name__ == "__main__":
