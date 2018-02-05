@@ -35,8 +35,15 @@ def respond_to_postback(payload, message_text, sender_id, qa_model, mysql):
         send_subject_quick_reply(sender_id, "Now tell me which subject you would like to choose:"+u'\uD83D\uDC47')
 
 
-    elif payload == "D1KB":
-        
+    elif payload == "D1KB" or payload == "D2KB" or payload == "D3KB":
+        QID, _ = show_last_qid_subject(mysql, sender_id) # retrieve the qid and the subject from database
+        standard_answer = qa_model.getAnswer(QID)
+        score = 0
+        send_message(sender_id, "You earned "+str(score)+ " points!")
+        time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
+        insert_score(mysql, sender_id,QID,payload,score,time)
+        send_why_quickreply(sender_id, QID, standard_answer)    
+        update_status(mysql, sender_id, 1)         
 
 
     elif payload == "PHYSICS":
