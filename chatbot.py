@@ -9,7 +9,7 @@ def respond_to_postback(payload, message_text, sender_id, qa_model, mysql):
 
     if payload == "GET_STARTED_PAYLOAD":
         welcome = "Hi! Welcome! I'm your personal tutor Mr Owl and I'm here to help you master science! Ready? Go! "+u'\uD83D\uDE0A'
-        send_picture(sender_id, "https://ibb.co/mOOD0c", "hello", "hiiiii")
+        send_picture(sender_id, "https://drive.google.com/file/d/1_6kYOdkQm0S1YGkoTGTFAs9Sq_NoR0u9/view?usp=sharing", "hello", "hiiiii")
         send_ready_go(sender_id, welcome)
 
     elif payload == "MENU_SCORE":
