@@ -13,6 +13,7 @@ import requests
 import message
 import database
 import chatbot
+import speech
 
 # hide http print
 import logging
@@ -117,6 +118,8 @@ def webhook():
                             if messaging_event["message"]["attachments"][0]["type"] == "audio": # only getting the first attachment
                                 print("[QUIZBOT] PID " + str(os.getpid())+": Received an AUDIO attachment")
                                 audio_url = messaging_event["message"]["attachments"][0]["payload"]["url"]
+                                final_result = speech.speech_to_text_google(audio_url)
+                                print("[QUIZBOT] PID " + str(os.getpid())+": Transcribed Text is \""+final_result+"\"")
 
 
                         # someone sent us a message
