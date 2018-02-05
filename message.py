@@ -141,23 +141,23 @@ def send_hint(recipient_id, qa_model, qid):
             "quick_replies": [
                 {
                     "content_type": "text",
-                    "title": qa_model.D1KB[qid],
+                    "title": str(qa_model.D1KB[qid]),
                     "payload": "D1KB"
                 },
                 {
                     "content_type": "text",
-                    "title": qa_model.D2KB[qid],
-                    "payload": "D2KB!"
+                    "title": str(qa_model.D2KB[qid]),
+                    "payload": "D2KB"
                 },
                 {
                     "content_type": "text",
-                    "title": qa_model.D3KB[qid],
-                    "payload": "D3KB!"
+                    "title": str(qa_model.D3KB[qid]),
+                    "payload": "D3KB"
                 },
                 {
                     "content_type": "text",
-                    "title": qa_model.AKB[qid],
-                    "payload": "AKB!"
+                    "title": str(qa_model.AKB[qid]),
+                    "payload": "AKB"
                 },
             ]
         }
