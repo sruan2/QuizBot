@@ -145,10 +145,12 @@ def run_quickstart(file_name):
     # Detects speech in the audio file
     response = client.recognize(config, audio)
 
+    final_result = ""
+
     for result in response.results:
-        print('Transcript: {}'.format(result.alternatives[0].transcript))
+        final_result += result.alternatives[0].transcript
     # [END speech_quickstart]
-      
+    return final_result
 
 ### testing ###
 if __name__ == "__main__":
