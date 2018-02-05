@@ -83,19 +83,22 @@ def transcribe(audio_url):
     #raw_audio = convert(audio_url)
     print(audio_url)
     aacfile = urlopen(audio_url)
-    with open('gcloud_speech/fb.mp4', "wb") as handle:
+    with open('gcloud_speech/fb.aac', "wb") as handle:
         handle.write(aacfile.read())
 
     cmdline = ['avconv',
                '-i',
-               'gcloud_speech/fb.mp4',
-               '-vn',
+               'gcloud_speech/fb.aac',
                '-f',
-               'wav',
-               'gcloud_speech/fb.wav']
+               "s16le",
+               "-ac",
+               "1",
+               "-ar",
+               "16k"
+               'gcloud_speech/fb.raw']
     sp.call(cmdline)
 
-    return run_quickstart('gcloud_speech/fb.wav')
+    return run_quickstart('gcloud_speech/fb.raw')
 
 # def convert(audio_url):
 #     command = [
