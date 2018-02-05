@@ -32,8 +32,7 @@ def speech_to_text_google(speech_file):
     Args:
         speech_file: the name of the audio file.
     """
-    with open(speech_file, 'rb') as speech:
-        speech_content = base64.b64encode(speech.read())
+    speech_content = base64.b64encode(speech_file)
 
     service = get_speech_service()
     service_request = service.speech().syncrecognize(
