@@ -41,8 +41,7 @@ def speech_to_text_google(speech_file):
     # [START construct_request]
     # Method 1. Take in file input
     with open(speech_file, 'rb') as speech: # --> for file
-        Base64 encode the binary audio file for inclusion in the JSON
-        request.
+        #Base64 encode the binary audio file for inclusion in the JSON request.
         speech_content = base64.b64encode(speech.read())
 
     # Method 2. Take in raw binary input
