@@ -9,7 +9,7 @@ from oauth2client.client import GoogleCredentials
 import subprocess as sp, os, traceback
 
 # path to ffmpeg bin
-FFMPEG_PATH = "ffmpeg"
+FFMPEG_PATH = "/home/ubuntu/quizbot_dev/ffmpeg/"
 #os.environ['FFMPEG_PATH']
 
 DISCOVERY_URL = ('https://{api}.googleapis.com/$discovery/rest?'
