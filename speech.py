@@ -128,5 +128,5 @@ def run_quickstart(file_name):
 
 ### testing ###
 if __name__ == "__main__":
-    run_quickstart("gcloud_speech/quit.raw")
+    run_quickstart("gcloud_speech/test.ma4")
     
