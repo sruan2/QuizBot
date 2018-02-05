@@ -83,7 +83,7 @@ def transcribe(audio_url):
     #raw_audio = convert(audio_url)
     print(audio_url)
     aacfile = urlopen(audio_url)
-    with open("test.mp4", "wb") as handle:
+    with open('gcloud_speech/fb.mp4', "wb") as handle:
         handle.write(aacfile.read())
 
     cmdline = ['avconv',
