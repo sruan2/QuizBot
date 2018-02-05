@@ -66,7 +66,6 @@ class TFIDFModel(QAModel):
 
     def compute_score(self, user_answer, QID):
         user_answer = user_answer.lower()
-        #picked_answer = self.QA_KB.AKB[QID].rstrip()
         picked_answer = super(TFIDFModel, self).getAnswer(QID)
         answer = [picked_answer]
         answer.append(user_answer)
@@ -120,7 +119,7 @@ class SIF2Model(QAModel):
 
     def compute_score(self, user_answer, QID):
         # transform the correct answer
-        correct_answer = self.AKB[QID][0]
+        correct_answer = self.QA_KB.AKB[QID][0]
         tokenized_answer = utils.preprocess([correct_answer], self.tokenizer)
         V_answer = self.emb.transform(tokenized_answer)    
         # transform the user's answer

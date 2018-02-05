@@ -4,6 +4,42 @@ import requests
 import sys
 import random
 
+def send_picture(user_id, imageUrl, title="", subtitle=""):
+    print("sending pictures")
+    if title != "":
+        data = {"recipient": {"id": user_id},
+                  "message":{
+                      "attachment": {
+                          "type": "template",
+                          "payload": {
+                              "template_type": "generic",
+                              "elements": [{
+                                  "title": title,
+                                  "subtitle": subtitle,
+                                  "image_url": imageUrl
+                              }]
+                          }
+                      }
+                    }
+              }
+    else:
+        data = { "recipient": {"id": user_id},
+                "message":{
+                  "attachment": {
+                      "type": "image",
+                      "payload": {
+                          "url": imageUrl
+                      }
+                  }
+                }
+            }
+    r = requests.post("https://graph.facebook.com/v2.6/me/messages",
+                      params={"access_token": os.environ["PAGE_ACCESS_TOKEN"]},
+                      data=json.dumps(data),
+                      headers={'Content-type': 'application/json'})
+    if r.status_code != requests.codes.ok:
+        print(r.text)    
+
 def send_a_question(recipient_id, question):
 
     starting_part = ["Here's a question for you! ",
