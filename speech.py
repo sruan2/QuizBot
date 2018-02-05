@@ -57,7 +57,7 @@ def speech_to_text_google(speech_file):
                 "encoding":"FLAC",
                 "sampleRateHertz": 16000,
                 "languageCode": "en-US",
-                "enableWordTimeOffsets": false
+                "enableWordTimeOffsets": False
             },
             'audio': {
                 'content': speech_content.decode('UTF-8')
