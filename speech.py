@@ -54,12 +54,12 @@ def transcribe(audio_url):
     raw_audio = convert(audio_url)
     return speech_to_text_google(raw_audio)
 
-def convert(file_path):
+def convert(audio_url):
     command = [
-        FFMPEG_PATH, '-i', file_path, '-y', '-loglevel', '16','-threads', '8',  '-c:v', 'mp4' , '-f', 'wav' , '-'
+        FFMPEG_PATH, '-i', audio_url, '-y', '-loglevel', '16','-threads', '8',  '-c:v', 'mp4' , '-f', 'wav' , '-'
     ]
     # Get raw audio from stdout of ffmpeg shell command
-    pipe = sp.Popen(command, stdout=sp.PIPE, bufsize=10**8)
+    pipe = sp.Popen(command, stdout=sp.PIPE, bufsize=10**8, shell=True)
     raw_audio = pipe.stdout.read()
     return raw_audio
         
