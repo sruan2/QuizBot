@@ -120,6 +120,7 @@ def webhook():
                                 audio_url = messaging_event["message"]["attachments"][0]["payload"]["url"]
                                 final_result = speech.transcribe(audio_url)
                                 print("[QUIZBOT] PID " + str(os.getpid())+": Transcribed Text is \""+final_result+"\"")
+                                send_message(sender_id, final_result)
 
 
                         # someone sent us a message
