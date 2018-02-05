@@ -54,10 +54,9 @@ def speech_to_text_google(speech_file):
     service_request = service.speech().syncrecognize(
         body={
             'config': {
-                "encoding":"FLAC",
-                "sampleRateHertz": 16000,
-                "languageCode": "en-US",
-                "enableWordTimeOffsets": False
+                'encoding': 'LINEAR16',
+                'sampleRate': 8000,
+                'maxAlternatives': 1,
             },
             'audio': {
                 'content': speech_content.decode('UTF-8')
@@ -93,5 +92,5 @@ def convert(audio_url):
 
 ### testing ###
 if __name__ == "__main__":
-    final_result = speech_to_text_google("gcloud_speech/test.mp4")
+    final_result = speech_to_text_google("gcloud_speech/quit.raw")
     print(final_result)
