@@ -27,8 +27,7 @@ def respond_to_postback(payload, message_text, sender_id, qa_model, mysql):
 
     elif payload == "I_NEED_A_HINT":
         QID, _ = show_last_qid_subject(mysql, sender_id) # retrieve the qid and the subject from database
-        support_sentence = qa_model.getSupport(QID)
-        send_why2_quickreply(sender_id, "Here's a hint: " + support_sentence)
+        send_hint(sender_id, qa_model, QID)
 
     
     elif payload == "PRACTICE_MODE":
