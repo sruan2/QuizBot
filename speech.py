@@ -61,10 +61,10 @@ def speech_to_text_google(speech_file):
     response = service_request.execute() # return a dict object
     # [END send_request]
     if 'results' in response:
-    	results =  sorted(response['results'], reverse=True)
-    	print(results)
-    	final_result = results[0]['alternatives'][0]['transcript']
+        results =  sorted(response['results'], reverse=True)
+        print(results)
+        final_result = results[0]['alternatives'][0]['transcript']
     else:
-		print(json.dumps(response))
-		final_result = "Sorry I couldn't recognize that"
+        print(json.dumps(response))
+        final_result = "Sorry I couldn't recognize that"
     return final_result
