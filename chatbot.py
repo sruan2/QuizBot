@@ -9,6 +9,7 @@ def respond_to_postback(payload, message_text, sender_id, qa_model, mysql):
 
     if payload == "GET_STARTED_PAYLOAD":
         welcome = "Hi! Welcome! I'm your personal tutor Mr Owl and I'm here to help you master science! Ready? Go! "+u'\uD83D\uDE0A'
+        send_picture(sender_id, "pictures/Owl_Design_Orange.psd", "hello", "hiiiii")
         send_ready_go(sender_id, welcome)
 
     elif payload == "MENU_SCORE":
