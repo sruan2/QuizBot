@@ -44,7 +44,7 @@ def respond_to_postback(payload, message_text, sender_id, qa_model, mysql):
         msg_giveup_yes = "That’s okay, you’ll get it next time! ☺️"
         QID, _ = show_last_qid_subject(mysql, sender_id) # retrieve the qid and the subject from database
         standard_answer = qa_model.getAnswer(QID)
-        insert_score(mysql, sender_id,QID,payload,score)
+        insert_score(mysql, sender_id,QID,payload,0)
         send_correct_answer(sender_id, QID, standard_answer)    
         update_status(mysql, sender_id, 1)
         # show answer
