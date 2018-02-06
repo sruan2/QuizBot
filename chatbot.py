@@ -158,10 +158,11 @@ def respond_to_postback(payload, message_text, sender_id, qa_model, mysql):
         QID, _ = show_last_qid_subject(mysql, sender_id) # retrieve the qid and the subject from database
         if show_status(mysql, sender_id):
             last_subject = show_last_qid_subject(mysql, sender_id)[1]
-            if last_subject == 'random' or last_subject == 'no record':
-                question, QID = qa_model.pickRandomQuestion()
-            else:
+            #if last_subject == 'random' or last_subject == 'no record':
+            if last_subject in ["physics", "chemistry", "biology", "geology"]:
                 question, QID = qa_model.pickSubjectRandomQuestion(last_subject)
+            else:
+                question, QID = qa_model.pickRandomQuestion()
             update_status(mysql, sender_id, 0)
             insert_question(mysql, sender_id,QID,last_subject)
         else: 
