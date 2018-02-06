@@ -32,7 +32,7 @@ def respond_to_postback(payload, message_text, sender_id, qa_model, mysql):
         choose_mode_quick_reply(sender_id) 
 
     elif payload == "I_NEED_A_HINT":
-        msg_hint = "Okay. Which is these is the right answer?👇"
+        msg_hint = "Okay. Which of these is the right answer?👇"
         QID, _ = show_last_qid_subject(mysql, sender_id) # retrieve the qid and the subject from database
         send_hint(sender_id, msg_hint, qa_model, QID)
 
@@ -51,7 +51,8 @@ def respond_to_postback(payload, message_text, sender_id, qa_model, mysql):
         # show answer
 
     elif payload == "GIVEUP_NO":
-        msg_hint = "Okay! Let's try again 💪 Tell me your answer:"
+        msg_giveup_no = "Okay! Let's try again 💪 Tell me your answer:"
+        send_message(sender_id, msg_giveup_no)
         # QID, _ = show_last_qid_subject(mysql, sender_id) # retrieve the qid and the subject from database
         # question = qa_model.QA_KB.QKB[QID]
         # send_a_question(sender_id, question)
