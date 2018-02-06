@@ -44,7 +44,8 @@ def show_status(mysql, user_id):
         return -1
 
 # insert user score
-def insert_score(mysql, user_id,qid,answer,score,time):
+def insert_score(mysql, user_id,qid,answer,score):
+    time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
     if request.method == 'POST':
         try:
             con = mysql.connection
@@ -60,6 +61,7 @@ def insert_score(mysql, user_id,qid,answer,score,time):
 
 # insert asked questions
 def insert_question(mysql, user_id,qid,subject,time):
+    time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
     if request.method == 'POST':
         try:
             con = mysql.connection
