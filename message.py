@@ -157,7 +157,7 @@ def send_hint(recipient_id, main_text, qa_model, qid):
                 },
                 {
                     "content_type": "text",
-                    "title": str(qa_model.AKB[qid]),
+                    "title": str(qa_model.AKB[qid][0]),
                     "payload": "AKB"
                 },
             ]
