@@ -40,13 +40,11 @@ def respond_to_postback(payload, message_text, sender_id, qa_model, mysql):
         send_giveup(sender_id)
 
     elif payload == "GIVEUP_YES":
-        send_message(sender_id, "I'm sorry, but you didn't earn any point 😞")
+        send_message(sender_id, "I'm sorry, but you didn't earn any point this time 😞")
         msg_giveup_yes = "That’s okay, you’ll get it next time! ☺️"
-        send_giveup(sender_id, msg_giveup_yes)
         QID, _ = show_last_qid_subject(mysql, sender_id) # retrieve the qid and the subject from database
         standard_answer = qa_model.getAnswer(QID)
-        time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
-        insert_score(mysql, sender_id,QID,payload,score,time)
+        insert_score(mysql, sender_id,QID,payload,score)
         send_correct_answer(sender_id, QID, standard_answer)    
         update_status(mysql, sender_id, 1)
         # show answer
@@ -66,7 +64,9 @@ def respond_to_postback(payload, message_text, sender_id, qa_model, mysql):
     elif payload == "D1KB" or payload == "D2KB" or payload == "D3KB":
         QID, _ = show_last_qid_subject(mysql, sender_id) # retrieve the qid and the subject from database
         standard_answer = qa_model.getAnswer(QID)
-        send_message(sender_id, "I'm sorry, but you didn't earn any point 😞")
+        msglist_incorrect = ["I'm sorry, but that was incorrect. You didn't earn any point 😞",
+                             "That's not quite right. You didn't earn any point 😞"]
+        send_message(sender_id, random.choice(msglist_incorrect))
         insert_score(mysql, sender_id,QID,payload,0)
         send_correct_answer(sender_id, QID, standard_answer)    
         update_status(mysql, sender_id, 1)         

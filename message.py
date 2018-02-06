@@ -60,7 +60,7 @@ def send_a_question(recipient_id, question):
             "id": recipient_id
         },
         "message": {
-            "text": random.choice(starting_part) + "<b>"+question+"</b>" + ending_part,
+            "text": random.choice(starting_part) + "```"+question+"```" + ending_part,
             "quick_replies": [
                 {
                     "content_type": "text",
