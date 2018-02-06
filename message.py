@@ -132,20 +132,7 @@ def send_interesting(recipient_id, main_text):
         log(r.text)
 
 def send_hint(recipient_id, main_text, qa_model, qid):
-
-    params = {
-        "access_token": os.environ["PAGE_ACCESS_TOKEN"]
-    }
-    headers = {
-        "Content-Type": "application/json"
-    }
-    data = json.dumps({
-        "recipient": {
-            "id": recipient_id
-        },
-        "message": {
-            "text" : main_text,
-            "quick_replies": random.shuffle([
+    options = [
                 {
                     "content_type": "text",
                     "title": str(qa_model.D1KB[qid]),
@@ -171,7 +158,21 @@ def send_hint(recipient_id, main_text, qa_model, qid):
                     "title": "I don’t know 😓",
                     "payload": "I_DONT_KNOW"
                 }
-            ])
+            ]
+    random.shuffle(options)
+    params = {
+        "access_token": os.environ["PAGE_ACCESS_TOKEN"]
+    }
+    headers = {
+        "Content-Type": "application/json"
+    }
+    data = json.dumps({
+        "recipient": {
+            "id": recipient_id
+        },
+        "message": {
+            "text" : main_text,
+            "quick_replies": options
         }
     })
     r = requests.post("https://graph.facebook.com/v2.6/me/messages", params=params, headers=headers, data=data)
@@ -520,7 +521,7 @@ def greeting():
             }, 
             {
                 "locale":"en_US",
-                "text":"Welcome to QuizBot made by Stanford!"
+                "text":"Welcome to QuizBot created by Stanford!"
             }
         ]
     })
