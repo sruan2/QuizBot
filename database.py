@@ -60,7 +60,7 @@ def insert_score(mysql, user_id,qid,answer,score):
         #     con.close()
 
 # insert asked questions
-def insert_question(mysql, user_id,qid,subject,time):
+def insert_question(mysql, user_id,qid,subject):
     time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
     if request.method == 'POST':
         try:
