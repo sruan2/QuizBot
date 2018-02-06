@@ -51,8 +51,9 @@ def respond_to_postback(payload, message_text, sender_id, qa_model, mysql):
         # show answer
 
     elif payload == "GIVEUP_NO":
-        msg_giveup_no = "Okay! Let's try again 💪 Tell me your answer:"
-        send_message(sender_id, msg_giveup_no)
+        msg_giveup_no = "Okay! Let's try again 💪 Tell me which of these is the right answer:"
+        QID, _ = show_last_qid_subject(mysql, sender_id) # retrieve the qid and the subject from database
+        send_hint(sender_id, msg_giveup_no, qa_model, QID)
         # QID, _ = show_last_qid_subject(mysql, sender_id) # retrieve the qid and the subject from database
         # question = qa_model.QA_KB.QKB[QID]
         # send_a_question(sender_id, question)
