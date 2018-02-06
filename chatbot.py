@@ -137,11 +137,13 @@ def respond_to_postback(payload, message_text, sender_id, qa_model, mysql):
         QID, _ = show_last_qid_subject(mysql, sender_id) # retrieve the qid and the subject from database
         support_sentence = qa_model.getSupport(QID)
         send_message(sender_id, "Here's an explanation") 
-        send_explanation(sender_id, support_sentence)
-        insert_score(mysql, sender_id,QID,"why",0)        
+        send_explanation(sender_id, support_sentence) 
 
     elif payload == "CHECK_TOTAL_SCORE":
-        send_gotit_quickreply(sender_id, "Your accumulated points are "+str(show_score(mysql, sender_id)))
+        totalscore = str(show_score(mysql, sender_id))
+        msglist_total_score = ["Your total score is "+totalscore+". Keep it up! 👊",
+                              "Your total score is "+totalscore+". Great work! 👊"]
+        send_gotit_quickreply(sender_id, random.choice(msglist_total_score))
 
     elif payload == "REPORT_BUG":
         insert_score(mysql,sender_id,-1,message_text,-1)
@@ -261,6 +263,7 @@ def respond_to_messagetext(message_text, sender_id, qa_model, mysql):
                                     "That's not quite right. You didn't earn any point 😞"]
                 send_message(sender_id, random.choice(msglist_incorrect))
                 insert_score(mysql, sender_id, QID, message_text, 0)
+                send_correct_answer(sender_id, QID, standard_answer)
             elif score < 10:
                 send_message(sender_id, "You earned "+str(score)+ " points!")
                 send_correct_answer(sender_id, QID, standard_answer)

@@ -371,9 +371,6 @@ def send_correct_answer(recipient_id, QID, standard_answer):
         log(r.text)
 
 def send_explanation(recipient_id, explanation):
-
-    #log("sending WHY button to {recipient}: {text}".format(recipient=recipient_id, text=str(QID)))
-
     params = {
         "access_token": os.environ["PAGE_ACCESS_TOKEN"]
     }
@@ -394,8 +391,8 @@ def send_explanation(recipient_id, explanation):
                 },
                 {
                     "content_type": "text",
-                    "title":"Switch Subject!",
-                    "payload":"SWITCH_SUBJECT"
+                    "title": "Switch Subject!",
+                    "payload": "SWITCH_SUBJECT"
                 }
             ]
         }
@@ -406,9 +403,6 @@ def send_explanation(recipient_id, explanation):
         log(r.text)
 
 def send_why2_quickreply(recipient_id, support_sentence):
-
-    #log("sending WHY button to {recipient}: {text}".format(recipient=recipient_id, text=str(QID)))
-
     params = {
         "access_token": os.environ["PAGE_ACCESS_TOKEN"]
     }
