@@ -198,12 +198,12 @@ def send_giveup(recipient_id):
             "quick_replies": [
                 {
                     "content_type": "text",
-                    "title": "Show me the answer.",
+                    "title": "Yes, answer please.",
                     "payload": "GIVEUP_YES"
                 },
                 {
                     "content_type": "text",
-                    "title": "I want to try again.",
+                    "title": "No, I'll try again!",
                     "payload": "GIVEUP_NO"
                 }
             ]
