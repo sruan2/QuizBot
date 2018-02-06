@@ -42,12 +42,21 @@ def respond_to_postback(payload, message_text, sender_id, qa_model, mysql):
         send_giveup(sender_id)
 
     elif payload == "GIVEUP_YES":
+        send_message(sender_id, "I'm sorry, but you didn't earn any point 😞")
         msg_giveup_yes = "That’s okay, you’ll get it next time! ☺️"
         send_giveup(sender_id, msg_giveup_yes)
+        QID, _ = show_last_qid_subject(mysql, sender_id) # retrieve the qid and the subject from database
+        standard_answer = qa_model.getAnswer(QID)
+        time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
+        insert_score(mysql, sender_id,QID,payload,score,time)
+        send_correct_answer(sender_id, QID, standard_answer)    
+        update_status(mysql, sender_id, 1)
         # show answer
 
     elif payload == "GIVEUP_NO":
-        pass
+        msg_hint = "Okay. Which is these is the right answer?👇"
+        QID, _ = show_last_qid_subject(mysql, sender_id) # retrieve the qid and the subject from database
+        send_hint(sender_id, msg_hint, qa_model, QID)
         # ask the question again
         
     
@@ -59,11 +68,10 @@ def respond_to_postback(payload, message_text, sender_id, qa_model, mysql):
     elif payload == "D1KB" or payload == "D2KB" or payload == "D3KB":
         QID, _ = show_last_qid_subject(mysql, sender_id) # retrieve the qid and the subject from database
         standard_answer = qa_model.getAnswer(QID)
-        score = 0
-        send_message(sender_id, "You earned "+str(score)+ " points!")
+        send_message(sender_id, "I'm sorry, but you didn't earn any point 😞")
         time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
         insert_score(mysql, sender_id,QID,payload,score,time)
-        send_why_quickreply(sender_id, QID, standard_answer)    
+        send_correct_answer(sender_id, QID, standard_answer)    
         update_status(mysql, sender_id, 1)         
 
     elif payload == "AKB":
@@ -73,7 +81,7 @@ def respond_to_postback(payload, message_text, sender_id, qa_model, mysql):
         send_message(sender_id, "You earned "+str(score)+ " points!")
         time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
         insert_score(mysql, sender_id,QID,payload,score,time)
-        send_why_quickreply(sender_id, QID, standard_answer)    
+        send_correct_answer(sender_id, QID, standard_answer)    
         update_status(mysql, sender_id, 1)        
 
     elif payload == "PHYSICS":
@@ -272,7 +280,7 @@ def respond_to_messagetext(message_text, sender_id, qa_model, mysql):
             send_message(sender_id, "You earned "+str(score)+ " points!")
             time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
             insert_score(mysql, sender_id,QID,message_text,score,time)
-            send_why_quickreply(sender_id, QID, standard_answer)    
+            send_correct_answer(sender_id, QID, standard_answer)    
             update_status(mysql, sender_id, 1) 
         else:
             update_status(mysql, sender_id, 1)

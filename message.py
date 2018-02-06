@@ -420,7 +420,7 @@ def choose_subject_quick_reply(recipient_id, main_text):
         log(r.status_code)
         log(r.text)  
 
-def send_why_quickreply(recipient_id, QID, standard_answer):
+def send_correct_answer(recipient_id, QID, standard_answer):
 
     #log("sending WHY button to {recipient}: {text}".format(recipient=recipient_id, text=str(QID)))
 
