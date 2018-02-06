@@ -3,6 +3,7 @@ import json
 import requests
 import sys
 import random
+from random import randint
 
 def send_picture(user_id, imageUrl, title="", subtitle=""):
     print("sending pictures")
