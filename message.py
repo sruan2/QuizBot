@@ -616,7 +616,7 @@ def greeting():
             }, 
             {
                 "locale":"en_US",
-                "text":"Welcome to QuizBot made by Sherry!"
+                "text":"Welcome to QuizBot made by Stanford!"
             }
         ]
     })

@@ -26,7 +26,6 @@ def respond_to_postback(payload, message_text, sender_id, qa_model, mysql):
         sentence = ("\n").join(["No." + str(i + 1) + " " + str(records[i][0]+' '+records[i][1]) + ": " + str(records[i][2]) for i in range(len(records))])
         send_gotit_quickreply(sender_id, "Leaderboard: \n" + sentence) 
     
-    ######## Sherry: Seems that none of the following conditions is ever met ###################    
     elif payload == "YUP_IM_READY":
         update_status(mysql, sender_id, 1)
         msg_great_get_started = "“Great! Let’s get started 🚀”"
@@ -140,7 +139,7 @@ def respond_to_postback(payload, message_text, sender_id, qa_model, mysql):
         send_a_question(sender_id, question)
 
     elif payload == 'SWITCH_SUBJECT' or payload == 'SURE':
-        send_subject_quick_reply(sender_id, "Now tell me which subject you would like to choose:"+u'\uD83D\uDC47')
+        choose_subject_quick_reply(sender_id, "Now tell me which subject you would like to choose:"+u'\uD83D\uDC47')
 
     elif payload == "WHY":
         QID, _ = show_last_qid_subject(mysql, sender_id) # retrieve the qid and the subject from database
@@ -187,7 +186,7 @@ def respond_to_messagetext(message_text, sender_id, qa_model, mysql):
     QID, _ = show_last_qid_subject(mysql, sender_id) # retrieve the qid and the subject from database
 
     if message_text == "Practice Mode "+u'\u270F':
-        send_subject_quick_reply(sender_id, "Now tell me which subject you would like to choose:"+u'\uD83D\uDC47') 
+        choose_subject_quick_reply(sender_id, "Now tell me which subject you would like to choose:"+u'\uD83D\uDC47') 
         time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
         insert_question(mysql, sender_id,'-11','SWITCH_SUBJUECT',time)
 
@@ -271,7 +270,7 @@ def respond_to_messagetext(message_text, sender_id, qa_model, mysql):
         send_a_question(sender_id, question)
 
     elif message_text == 'switch subject':
-        send_subject_quick_reply(sender_id, "Now tell me which subject you would like to choose:"+u'\uD83D\uDC47')
+        choose_subject_quick_reply(sender_id, "Now tell me which subject you would like to choose:"+u'\uD83D\uDC47')
 
     else: # user's respons in natural language    
         if not show_status(mysql, sender_id):
