@@ -11,7 +11,7 @@ def respond_to_postback(payload, message_text, sender_id, qa_model, mysql):
         msg_intro_1 = "Hi there! My name is Mr. Owl 🦉 and I’m here to help you learn all about science 🔬"
         msg_intro_2 = "Here’s how it works. I ask you questions, and you give me answers. If you get the right answer, you earn points! 🎉"
         msg_intro_3 = "So, are you ready?"
-        send_picture(sender_id, "https://www.smartprimer.org:8443/pictures/0-Owl_Design_Orange_cap.png", "", "")
+        send_picture(sender_id, "https://www.smartprimer.org:8443/pictures/Owl_Design_Orange_cap.png", "", "")
         send_message(sender_id, msg_intro_1)
         send_message(sender_id, msg_intro_2)
         send_ready_go(sender_id, msg_intro_3)
