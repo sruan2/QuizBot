@@ -53,7 +53,7 @@ def respond_to_postback(payload, message_text, sender_id, qa_model, mysql):
     elif payload == "GIVEUP_NO":
         msg_hint = "Okay! Let's try again 💪"
         QID, _ = show_last_qid_subject(mysql, sender_id) # retrieve the qid and the subject from database
-        question = qa_model.qa_kb.QKB[QID]
+        question = qa_model.QA_KB.QKB[QID]
         send_a_question(sender_id, question)
         # ask the question again
         
