@@ -84,7 +84,7 @@ def respond_to_postback(payload, message_text, sender_id, qa_model, mysql):
         update_status(mysql, sender_id, 1)        
 
     elif payload == "PHYSICS":
-        msglist_subject = ["All right! Let’s I’ll quiz you on Physics!",
+        msglist_subject = ["All right! I’ll quiz you on Physics!",
                            "Okay! Let’s see how much you know about Physics!"]
         msg_subject = random.choice(msglist_subject)
         send_message(sender_id, msg_subject)
