@@ -12,7 +12,7 @@ def respond_to_postback(payload, message_text, sender_id, qa_model, mysql):
         msg_intro_1 = "Hi there! My name is Mr. Owl 🦉 and I’m here to help you learn all about science 🔬"
         msg_intro_2 = "Here’s how it works. I ask you questions, and you give me answers. If you get the right answer, you earn points! 🎉"
         msg_intro_3 = "So, are you ready?"
-        send_picture(sender_id, "pictures/0-Owl_Design_Orange-psd.png", "", "")
+        send_picture(sender_id, "/home/ubuntu/quizbot_dev/pictures/0-Owl_Design_Orange-psd.png", "", "")
         send_message(sender_id, msg_intro_1)
         send_message(sender_id, msg_intro_2)
         send_ready_go(sender_id, msg_intro_3)
@@ -84,7 +84,7 @@ def respond_to_postback(payload, message_text, sender_id, qa_model, mysql):
         question, QID = qa_model.pickSubjectRandomQuestion("physics")
         update_status(mysql, sender_id, 0)
         time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
-        insert_question(mysql, sender_id,QID,message_text,time)
+        #insert_question(mysql, sender_id,QID,message_text,time)
         send_a_question(sender_id, question)
 
     elif payload == "CHEMISTRY":
@@ -95,7 +95,7 @@ def respond_to_postback(payload, message_text, sender_id, qa_model, mysql):
         question, QID = qa_model.pickSubjectRandomQuestion("chemistry")
         update_status(mysql, sender_id, 0)
         time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
-        insert_question(mysql, sender_id,QID,message_text,time)
+        #insert_question(mysql, sender_id,QID,message_text,time)
         send_a_question(sender_id, question)
 
     elif payload == "BIOLOGY":
@@ -106,7 +106,7 @@ def respond_to_postback(payload, message_text, sender_id, qa_model, mysql):
         question, QID = qa_model.pickSubjectRandomQuestion("biology")
         update_status(mysql, sender_id, 0)
         time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
-        insert_question(mysql, sender_id,QID,message_text,time)
+        #insert_question(mysql, sender_id,QID,message_text,time)
         send_a_question(sender_id, question)
 
     elif payload == "GEOLOGY":
@@ -117,7 +117,7 @@ def respond_to_postback(payload, message_text, sender_id, qa_model, mysql):
         question, QID = qa_model.pickSubjectRandomQuestion("geology")
         update_status(mysql, sender_id, 0)
         time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
-        insert_question(mysql, sender_id,QID, message_text,time)
+        #insert_question(mysql, sender_id,QID, message_text,time)
         send_a_question(sender_id, question)
 
     elif payload == "RANDOM":
@@ -128,7 +128,7 @@ def respond_to_postback(payload, message_text, sender_id, qa_model, mysql):
         question, QID = qa_model.pickSubjectRandomQuestion(message_text)
         update_status(mysql, sender_id, 0)
         time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
-        insert_question(mysql, sender_id,QID,message_text,time)
+        #insert_question(mysql, sender_id,QID,message_text,time)
         send_a_question(sender_id, question)
 
     elif payload == 'SWITCH_SUBJECT' or payload == 'SURE':
