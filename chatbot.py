@@ -1,6 +1,7 @@
 from message import *
 from database import *
 from time import gmtime, strftime
+import random
 
 
 # ================= Chatbot's reply to a postback =================
@@ -8,10 +9,13 @@ def respond_to_postback(payload, message_text, sender_id, qa_model, mysql):
     message_text = message_text.lower()
 
     if payload == "GET_STARTED_PAYLOAD":
-        intro_1 = "Hi there! My name is Mr. Owl 🦉 and I’m here to help you learn all about science 🔬"
-        welcome = "Hi! Welcome! I'm your personal tutor Mr Owl and I'm here to help you master science! Ready? Go! "+u'\uD83D\uDE0A'
+        msg_intro_1 = "Hi there! My name is Mr. Owl 🦉 and I’m here to help you learn all about science 🔬"
+        msg_intro_2 = "Here’s how it works. I ask you questions, and you give me answers. If you get the right answer, you earn points! 🎉"
+        msg_intro_3 = "So, are you ready?"
         send_picture(sender_id, "https://lh3.googleusercontent.com/3xMTHXRP2WpVISylhzubvU5b1ffCnLRDGLNRyLjtLYvudOekwpjU15k1AyKUQPRoAu8t9X5dgSO0oU8HKW29z41edjSQC3s5bbStHAQ9WpLN61dchCTdc3dM1VIChuMybCBrRbYB", "", "")
-        send_ready_go(sender_id, intro_1)
+        send_message(sender_id, msg_intro_1)
+        send_message(sender_id, msg_intro_2)
+        send_ready_go(sender_id, msg_intro_3)
 
     elif payload == "MENU_SCORE":
         score = show_score(mysql, sender_id)
@@ -25,15 +29,30 @@ def respond_to_postback(payload, message_text, sender_id, qa_model, mysql):
     ######## Sherry: Seems that none of the following conditions is ever met ###################    
     elif payload == "YUP_IM_READY":
         update_status(mysql, sender_id, 1)
+        msg_great_get_started = "“Great! Let’s get started 🚀”"
+        send_message(sender_id, msg_great_get_started)
         choose_mode_quick_reply(sender_id) 
 
     elif payload == "I_NEED_A_HINT":
+        msg_hint = "Okay. Which is these is the right answer?👇"
         QID, _ = show_last_qid_subject(mysql, sender_id) # retrieve the qid and the subject from database
-        send_hint(sender_id, "Please select from the following 4 options :)", qa_model, QID)
+        send_hint(sender_id, msg_hint, qa_model, QID)
 
+    elif payload == "I_DONT_KNOW":
+        send_giveup(sender_id)
+
+    elif payload == "GIVEUP_YES":
+        msg_giveup_yes = "That’s okay, you’ll get it next time! ☺️"
+        send_giveup(sender_id, msg_giveup_yes)
+        # show answer
+
+    elif payload == "GIVEUP_NO":
+        # ask the question again
+        
     
     elif payload == "PRACTICE_MODE":
-        send_subject_quick_reply(sender_id, "Now tell me which subject you would like to choose:"+u'\uD83D\uDC47')
+      msg_choose_mode = "Sure, which subject would you like me to quiz you on?👇"
+        choose_subject_quick_reply(sender_id, msg_choose_mode)
 
 
     elif payload == "D1KB" or payload == "D2KB" or payload == "D3KB":
@@ -57,6 +76,10 @@ def respond_to_postback(payload, message_text, sender_id, qa_model, mysql):
         update_status(mysql, sender_id, 1)        
 
     elif payload == "PHYSICS":
+        msglist_subject = ["All right! Let’s I’ll quiz you on Physics!",
+                           "Okay! Let’s see how much you know about Physics!"]
+        msg_subject = random.choice(msglist_subject)
+        send_message(sender_id, msg_subject)
         question, QID = qa_model.pickSubjectRandomQuestion(message_text)
         update_status(mysql, sender_id, 0)
         time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
@@ -64,6 +87,10 @@ def respond_to_postback(payload, message_text, sender_id, qa_model, mysql):
         send_a_question(sender_id, question)
 
     elif payload == "CHEMISTRY":
+        msglist_subject = ["All right! Let’s I’ll quiz you on Chemistry!",
+                           "Okay! Let’s see how much you know about Chemistry!"]
+        msg_subject = random.choice(msglist_subject)
+        send_message(sender_id, msg_subject)
         question, QID = qa_model.pickSubjectRandomQuestion(message_text)
         update_status(mysql, sender_id, 0)
         time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
@@ -71,6 +98,10 @@ def respond_to_postback(payload, message_text, sender_id, qa_model, mysql):
         send_a_question(sender_id, question)
 
     elif payload == "BIOLOGY":
+        msglist_subject = ["All right! Let’s I’ll quiz you on Biology!",
+                           "Okay! Let’s see how much you know about Biology!"]
+        msg_subject = random.choice(msglist_subject)
+        send_message(sender_id, msg_subject)
         question, QID = qa_model.pickSubjectRandomQuestion(message_text)
         update_status(mysql, sender_id, 0)
         time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
@@ -78,6 +109,10 @@ def respond_to_postback(payload, message_text, sender_id, qa_model, mysql):
         send_a_question(sender_id, question)
 
     elif payload == "GEOLOGY":
+        msglist_subject = ["All right! Let’s I’ll quiz you on Geology!",
+                     "Okay! Let’s see how much you know about Geology!"]
+        msg_subject = random.choice(msglist_subject)
+        send_message(sender_id, msg_subject)
         question, QID = qa_model.pickSubjectRandomQuestion(message_text)
         update_status(mysql, sender_id, 0)
         time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
@@ -85,6 +120,10 @@ def respond_to_postback(payload, message_text, sender_id, qa_model, mysql):
         send_a_question(sender_id, question)
 
     elif payload == "RANDOM":
+        msglist_random =["Okay! Let’s mix it up! 🎲",
+                     "All right! A little bit of everything! 🎲"]
+        msg_random = random.choice(msglist_random)
+        send_message(sender_id, msg_random)
         question, QID = qa_model.pickSubjectRandomQuestion(message_text)
         update_status(mysql, sender_id, 0)
         time = strftime("%Y-%m-%d %H:%M:%S", gmtime())

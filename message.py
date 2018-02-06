@@ -43,9 +43,10 @@ def send_picture(user_id, imageUrl, title="", subtitle=""):
 
 def send_a_question(recipient_id, question):
 
-    starting_part = ["Here's a question for you! ",
-                     "Let's try this one: ",
-                     "Could you tell the answer to this one: "]
+    starting_part = ["Here's a question for you:\n",
+                     "Let's try this one:\n",
+                     "Could you answer this one for me?\n",
+                     "Let's ee if you can get this one:\n"]
 
     ending_part = "\n(Please note that you will earn at most 3 points if you ask for a hint!)"
 
@@ -64,8 +65,13 @@ def send_a_question(recipient_id, question):
             "quick_replies": [
                 {
                     "content_type": "text",
-                    "title": "I need a hint...",
+                    "title": "I need a hint 🤔",
                     "payload": "I_NEED_A_HINT"
+                },
+                {
+                    "content_type": "text",
+                    "title": "I don’t know 😓",
+                    "payload": "I_DONT_KNOW"
                 }
             ]
         }
@@ -162,6 +168,11 @@ def send_hint(recipient_id, main_text, qa_model, qid):
                         "content_type": "text",
                         "title": str(qa_model.AKB[qid][0]),
                         "payload": "AKB"
+                    },
+                    {
+                        "content_type": "text",
+                        "title": "I don’t know 😓",
+                        "payload": "I_DONT_KNOW"
                     }
                 ]
             }
@@ -264,6 +275,40 @@ def send_hint(recipient_id, main_text, qa_model, qid):
         log(r.status_code)
         log(r.text)
 
+
+def send_giveup(recipient_id):
+
+    params = {
+        "access_token": os.environ["PAGE_ACCESS_TOKEN"]
+    }
+    headers = {
+        "Content-Type": "application/json"
+    }
+    data = json.dumps({
+        "recipient": {
+            "id": recipient_id
+        },
+        "message": {
+            "text": "Are you sure you want to give up?",
+            "quick_replies": [
+                {
+                    "content_type": "text",
+                    "title": "Yes, show me the answer.",
+                    "payload": "GIVEUP_YES"
+                },
+                {
+                    "content_type": "text",
+                    "title": "No, I want to try again.",
+                    "payload": "GIVEUP_NO"
+                }
+            ]
+        }
+    })
+    r = requests.post("https://graph.facebook.com/v2.6/me/messages", params=params, headers=headers, data=data)
+    if r.status_code != 200:
+        log(r.status_code)
+        log(r.text)
+
 def send_ready_go(recipient_id, main_text):
 
     params = {
@@ -305,16 +350,16 @@ def choose_mode_quick_reply(recipient_id):
             "id": recipient_id
         },
         "message": {
-            "text": "Now tell me which mode you would like to choose:"+u'\uD83D\uDC47',
+            "text": "Okay, what would you like to do?",
             "quick_replies": [
                 {
                     "content_type": "text",
-                    "title": "Practice Mode "+u'\u270F',
+                    "title": "Quiz me 🤓",
                     "payload": "PRACTICE_MODE"
                 },
                 {
                     "content_type": "text",
-                    "title": "Challenge Mode"+u'\uD83D\uDE3A',
+                    "title": "I have a question❓",
                     "payload": "CHALLENGE_MODE"
                 }
             ]
@@ -327,7 +372,7 @@ def choose_mode_quick_reply(recipient_id):
 
 
 # new added subject selection
-def send_subject_quick_reply(recipient_id, main_text):
+def choose_subject_quick_reply(recipient_id, main_text):
 
     params = {
         "access_token": os.environ["PAGE_ACCESS_TOKEN"]
@@ -344,27 +389,27 @@ def send_subject_quick_reply(recipient_id, main_text):
             "quick_replies": [
                 {
                     "content_type": "text",
-                    "title": "Physics",
+                    "title": "Physics 🚗",
                     "payload": "PHYSICS"
                 },
                 {
                     "content_type": "text",
-                    "title": "Chemistry",
+                    "title": "Chemistry ⚗️",
                     "payload": "CHEMISTRY"
                 },
                 {
                     "content_type": "text",
-                    "title": "Biology",
+                    "title": "Biology 🔬",
                     "payload": "BIOLOGY"
                 },
                 {
                     "content_type": "text",
-                    "title": "Geology",
+                    "title": "Geology ⛰",
                     "payload": "GEOLOGY"
                 },
                 {
                     "content_type": "text",
-                    "title": "Random",
+                    "title": "andom 🎲",
                     "payload": "RANDOM"                
                 }
             ]
