@@ -6,7 +6,6 @@ import QAKnowledgebase
 import QAModel
 from flask_mysqldb import MySQL
 from random import randint
-from time import gmtime, strftime
 from similarity_model import tfidf
 from flask import Flask, request, send_from_directory
 import requests
