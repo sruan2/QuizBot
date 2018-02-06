@@ -40,7 +40,7 @@ def respond_to_postback(payload, message_text, sender_id, qa_model, mysql):
         send_giveup(sender_id)
 
     elif payload == "GIVEUP_YES":
-        send_message(sender_id, "I'm sorry, but you didn't earn any point this time 😞")
+        send_message(sender_id, "You didn't earn any point this time.")
         msg_giveup_yes = "That’s okay, you’ll get it next time! ☺️"
         send_message(sender_id, msg_giveup_yes)
         QID, _ = show_last_qid_subject(mysql, sender_id) # retrieve the qid and the subject from database
@@ -51,10 +51,10 @@ def respond_to_postback(payload, message_text, sender_id, qa_model, mysql):
         # show answer
 
     elif payload == "GIVEUP_NO":
-        msg_hint = "Okay! Let's try again 💪"
-        QID, _ = show_last_qid_subject(mysql, sender_id) # retrieve the qid and the subject from database
-        question = qa_model.QA_KB.QKB[QID]
-        send_a_question(sender_id, question)
+        msg_hint = "Okay! Let's try again 💪 Tell me your answer:"
+        # QID, _ = show_last_qid_subject(mysql, sender_id) # retrieve the qid and the subject from database
+        # question = qa_model.QA_KB.QKB[QID]
+        # send_a_question(sender_id, question)
         # ask the question again
         
     
@@ -148,8 +148,9 @@ def respond_to_postback(payload, message_text, sender_id, qa_model, mysql):
         send_gotit_quickreply(sender_id, random.choice(msglist_total_score))
 
     elif payload == "REPORT_BUG":
+        msg_report_bug = "Okay, I’ll take a note of that. Thanks for the feedback! 👍"
         insert_score(mysql,sender_id,-1,message_text,-1)
-        send_why2_quickreply(sender_id, "Thanks for letting us know. We will use your feedback to improve our algorithm! Now what would you like to do next?")
+        send_bugreport(sender_id, msg_report_bug)
 
     # look for next similar question based off the pre-trained model
     elif payload == "NEXT_QUESTION" or payload == "GOT_IT_NEXT":
