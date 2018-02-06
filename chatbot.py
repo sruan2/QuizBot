@@ -90,7 +90,7 @@ def respond_to_postback(payload, message_text, sender_id, qa_model, mysql):
         send_message(sender_id, msg_subject)
         question, QID = qa_model.pickSubjectRandomQuestion("physics")
         update_status(mysql, sender_id, 0)
-        #insert_question(mysql, sender_id,QID,message_text) # contains an emoji
+        insert_question(mysql, sender_id, QID, payload) # contains an emoji
         send_a_question(sender_id, question)
 
     elif payload == "CHEMISTRY":
@@ -100,7 +100,7 @@ def respond_to_postback(payload, message_text, sender_id, qa_model, mysql):
         send_message(sender_id, msg_subject)
         question, QID = qa_model.pickSubjectRandomQuestion("chemistry")
         update_status(mysql, sender_id, 0)
-        #insert_question(mysql, sender_id,QID,message_text)
+        insert_question(mysql, sender_id,QID,payload)
         send_a_question(sender_id, question)
 
     elif payload == "BIOLOGY":
@@ -110,7 +110,7 @@ def respond_to_postback(payload, message_text, sender_id, qa_model, mysql):
         send_message(sender_id, msg_subject)
         question, QID = qa_model.pickSubjectRandomQuestion("biology")
         update_status(mysql, sender_id, 0)
-        #insert_question(mysql, sender_id,QID,message_text)
+        insert_question(mysql, sender_id,QID,payload)
         send_a_question(sender_id, question)
 
     elif payload == "GEOLOGY":
@@ -120,7 +120,7 @@ def respond_to_postback(payload, message_text, sender_id, qa_model, mysql):
         send_message(sender_id, msg_subject)
         question, QID = qa_model.pickSubjectRandomQuestion("geology")
         update_status(mysql, sender_id, 0)
-        #insert_question(mysql, sender_id,QID, message_text)
+        insert_question(mysql, sender_id,QID, payload)
         send_a_question(sender_id, question)
 
     elif payload == "RANDOM":
@@ -130,7 +130,7 @@ def respond_to_postback(payload, message_text, sender_id, qa_model, mysql):
         send_message(sender_id, msg_random)
         question, QID = qa_model.pickRandomQuestion()
         update_status(mysql, sender_id, 0)
-        #insert_question(mysql, sender_id,QID,message_text)
+        insert_question(mysql, sender_id,QID,payload)
         send_a_question(sender_id, question)
 
     elif payload == 'SWITCH_SUBJECT' or payload == 'SURE':
