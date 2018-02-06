@@ -8,7 +8,7 @@ from flask_mysqldb import MySQL
 from random import randint
 from time import gmtime, strftime
 from similarity_model import tfidf
-from flask import Flask, request
+from flask import Flask, request, send_from_directory
 import requests
 import message
 import database
@@ -21,7 +21,7 @@ log = logging.getLogger('werkzeug')
 log.setLevel(logging.ERROR)
 
 
-app = Flask(__name__)
+app = Flask(__name__, static_url_path='')
 
 # ================== MySQL Setup ==================
 mysql = MySQL()
@@ -30,6 +30,11 @@ app.config['MYSQL_USER'] = os.environ["DB_USER"]
 app.config['MYSQL_PASSWORD'] = os.environ["DB_PASSWORD"]
 app.config['MYSQL_DB'] = os.environ["DB"]
 mysql.init_app(app)
+
+
+@app.route('/pictures/<path:path>')
+def send_pictures(path):
+    return send_from_directory('pictures', path)
 
 
 @app.route('/test', methods=['GET'])
