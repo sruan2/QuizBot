@@ -11,6 +11,7 @@ from random import randint
 import os
 import pickle
 from nltk import RegexpTokenizer
+import math
 
 
 class QAModel(object):
@@ -133,7 +134,7 @@ class SIF2Model(QAModel):
         if not not_empty:
             return -1 # transformed V_query won't exist since it will be empty (nont of the words exist in glove)
         V_query = self.emb.transform(tokenized_query)      
-        score = int(utils.cosine_similarity(V_query[0], V_answer[0]) * 10)
+        score = math.ceil(utils.cosine_similarity(V_query[0], V_answer[0]) * 10)
         return score
 
         

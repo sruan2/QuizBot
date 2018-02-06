@@ -1,6 +1,6 @@
 from flask import request
 import os
-
+from time import gmtime, strftime
 
 # insert user info
 def insert_user(mysql, user_id,user_firstname,user_lastname,user_gender,user_status):

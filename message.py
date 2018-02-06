@@ -45,9 +45,9 @@ def send_a_question(recipient_id, question):
     starting_part = ["Here's a question for you:\n",
                      "Let's try this one:\n",
                      "Could you answer this one for me?\n",
-                     "Let's ee if you can get this one:\n"]
+                     "Let's see if you can get this one:\n"]
 
-    ending_part = "\n(Please note that you will earn at most 3 points if you ask for a hint!)"
+    ending_part = "\nPlease note that you will earn at most 3 points if you ask for a hint!"
 
     params = {
         "access_token": os.environ["PAGE_ACCESS_TOKEN"]
@@ -60,7 +60,7 @@ def send_a_question(recipient_id, question):
             "id": recipient_id
         },
         "message": {
-            "text": random.choice(starting_part) + question + ending_part,
+            "text": random.choice(starting_part) + "<b>"+question+"</b>" + ending_part,
             "quick_replies": [
                 {
                     "content_type": "text",
@@ -153,13 +153,13 @@ def send_hint(recipient_id, main_text, qa_model, qid):
                     "title": str(qa_model.AKB[qid][0]),
                     "payload": "AKB"
                 },
-                {
+            ]
+    random.shuffle(options)
+    options.append({
                     "content_type": "text",
                     "title": "I don’t know 😓",
                     "payload": "I_DONT_KNOW"
-                }
-            ]
-    random.shuffle(options)
+                })
     params = {
         "access_token": os.environ["PAGE_ACCESS_TOKEN"]
     }
