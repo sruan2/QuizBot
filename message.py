@@ -3,7 +3,6 @@ import json
 import requests
 import sys
 import random
-from random import randint
 
 def send_picture(user_id, imageUrl, title="", subtitle=""):
     print("sending pictures")
@@ -148,7 +147,7 @@ def send_hint(recipient_id, main_text, qa_model, qid):
             },
             "message": {
                 "text" : main_text,
-                "quick_replies": [
+                "quick_replies": random.shuffle([
                     {
                         "content_type": "text",
                         "title": str(qa_model.D1KB[qid]),
@@ -174,100 +173,7 @@ def send_hint(recipient_id, main_text, qa_model, qid):
                         "title": "I don’t know 😓",
                         "payload": "I_DONT_KNOW"
                     }
-                ]
-            }
-        })
-    elif i == 1:
-        data = json.dumps({
-            "recipient": {
-                "id": recipient_id
-            },
-            "message": {
-                "text" : main_text,
-                "quick_replies": [
-                    {
-                        "content_type": "text",
-                        "title": str(qa_model.D1KB[qid]),
-                        "payload": "D1KB"
-                    },
-                    {
-                        "content_type": "text",
-                        "title": str(qa_model.D2KB[qid]),
-                        "payload": "D2KB"
-                    },
-                    {
-                        "content_type": "text",
-                        "title": str(qa_model.AKB[qid][0]),
-                        "payload": "AKB"
-                    },
-                    {
-                        "content_type": "text",
-                        "title": str(qa_model.D3KB[qid]),
-                        "payload": "D3KB"
-                    }
-                ]
-            }
-        })
-    elif i == 2:
-        data = json.dumps({
-            "recipient": {
-                "id": recipient_id
-            },
-            "message": {
-                "text" : main_text,
-                "quick_replies": [
-                    {
-                        "content_type": "text",
-                        "title": str(qa_model.D1KB[qid]),
-                        "payload": "D1KB"
-                    },
-                    {
-                        "content_type": "text",
-                        "title": str(qa_model.AKB[qid][0]),
-                        "payload": "AKB"
-                    },
-                    {
-                        "content_type": "text",
-                        "title": str(qa_model.D2KB[qid]),
-                        "payload": "D2KB"
-                    },
-                    {
-                        "content_type": "text",
-                        "title": str(qa_model.D3KB[qid]),
-                        "payload": "D3KB"
-                    }
-                ]
-            }
-        })
-    else :
-        data = json.dumps({
-            "recipient": {
-                "id": recipient_id
-            },
-            "message": {
-                "text" : main_text,
-                "quick_replies": [
-                    {
-                        "content_type": "text",
-                        "title": str(qa_model.AKB[qid][0]),
-                        "payload": "AKB"
-                    },
-                    {
-                        "content_type": "text",
-                        "title": str(qa_model.D1KB[qid]),
-                        "payload": "D1KB"
-                    },
-                    {
-                        "content_type": "text",
-                        "title": str(qa_model.D2KB[qid]),
-                        "payload": "D2KB"
-                    },
-                    {
-                        "content_type": "text",
-                        "title": str(qa_model.D3KB[qid]),
-                        "payload": "D3KB"
-                    }
-                ]
+                ])
             }
         })
     r = requests.post("https://graph.facebook.com/v2.6/me/messages", params=params, headers=headers, data=data)
