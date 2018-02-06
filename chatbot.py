@@ -277,7 +277,7 @@ def respond_to_messagetext(message_text, sender_id, qa_model, mysql):
                 msglist_correct = ["That’s right! 🎉", "Correct! 🎊" or "Good job! 🙌"]
                 msg_correct = random.choice(msglist_correct)
                 send_message(sender_id, msg_correct)
-                send_message("You earned 10 points!")
+                send_message(sender_id, "You earned 10 points!")
             insert_score(mysql, sender_id, QID, message_text, score)
             update_status(mysql, sender_id, 1) 
         else:
