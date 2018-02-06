@@ -1,6 +1,6 @@
 from flask import request
 import os
-
+from time import gmtime, strftime
 
 # insert user info
 def insert_user(mysql, user_id,user_firstname,user_lastname,user_gender,user_status):
@@ -44,7 +44,8 @@ def show_status(mysql, user_id):
         return -1
 
 # insert user score
-def insert_score(mysql, user_id,qid,answer,score,time):
+def insert_score(mysql, user_id,qid,answer,score):
+    time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
     if request.method == 'POST':
         try:
             con = mysql.connection
@@ -59,17 +60,18 @@ def insert_score(mysql, user_id,qid,answer,score,time):
         #     con.close()
 
 # insert asked questions
-def insert_question(mysql, user_id,qid,subject,time):
+def insert_question(mysql, user_id,qid,subject):
+    time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
     if request.method == 'POST':
         try:
             con = mysql.connection
             cur = con.cursor()            
             cur.execute("INSERT INTO questions (user_id,qid,subject,r_time) VALUES (%s,%s,%s,%s)",(user_id,qid,subject,time))           
             con.commit()
-            print("[QUIZBOT-DATABASE] PID " + str(os.getpid())+": Questions record successfully added")
+            print("[DATABASE] PID " + str(os.getpid())+": Questions record successfully added")
         except:
             con.rollback()
-            print("[QUIZBOT-BUG] PID " + str(os.getpid())+": Error in inserting question operation")
+            print("[BUG] PID " + str(os.getpid())+": Error in inserting question operation")
         # finally:
         #     con.close()
 
@@ -101,7 +103,7 @@ def show_last_qid_subject(mysql, user_id):
 def show_top_10(mysql):
     cur = mysql.connection.cursor() 
     cur.execute("select t2.user_firstname,t2.user_lastname,t1.sc from \
-        (select user_id, sum(score) as sc from scores group by user_id order by sc desc limit 10) t1 join users t2 on t2.user_id = t1.user_id \
+        (select user_id, sum(score) as sc from scores group by user_id having sum(score) != 0 order by sc desc limit 10) t1 join users t2 on t2.user_id = t1.user_id \
          order by t1.sc desc")
 
     rows = cur.fetchall();

@@ -4,13 +4,50 @@ import requests
 import sys
 import random
 
+def send_picture(user_id, imageUrl, title="", subtitle=""):
+    print("sending pictures")
+    if title != "":
+        data = {"recipient": {"id": user_id},
+                  "message":{
+                      "attachment": {
+                          "type": "template",
+                          "payload": {
+                              "template_type": "generic",
+                              "elements": [{
+                                  "title": title,
+                                  "subtitle": subtitle,
+                                  "image_url": imageUrl
+                              }]
+                          }
+                      }
+                    }
+              }
+    else:
+        data = { "recipient": {"id": user_id},
+                "message":{
+                  "attachment": {
+                      "type": "image",
+                      "payload": {
+                          "url": imageUrl
+                      }
+                  }
+                }
+            }
+    r = requests.post("https://graph.facebook.com/v2.6/me/messages",
+                      params={"access_token": os.environ["PAGE_ACCESS_TOKEN"]},
+                      data=json.dumps(data),
+                      headers={'Content-type': 'application/json'})
+    if r.status_code != requests.codes.ok:
+        print(r.text)    
+
 def send_a_question(recipient_id, question):
 
-    starting_part = ["Here's a question for you! ",
-                     "Let's try this one: ",
-                     "Could you tell the answer to this one: "]
+    starting_part = ["Here's a question for you:\n",
+                     "Let's try this one:\n",
+                     "Could you answer this one for me?\n",
+                     "Let's see if you can get this one:\n"]
 
-    ending_part = " (Please note that you will earn at most 3 points if you ask for a hint.)"
+    ending_part = "\nPlease note that you will earn at most 3 points if you ask for a hint!"
 
     params = {
         "access_token": os.environ["PAGE_ACCESS_TOKEN"]
@@ -23,12 +60,17 @@ def send_a_question(recipient_id, question):
             "id": recipient_id
         },
         "message": {
-            "text": random.choice(starting_part) + question + ending_part,
+            "text": random.choice(starting_part) + "\n\""+question+"\"\n" + ending_part,
             "quick_replies": [
                 {
                     "content_type": "text",
-                    "title": "I need a hint ...",
+                    "title": "I need a hint 🤔",
                     "payload": "I_NEED_A_HINT"
+                },
+                {
+                    "content_type": "text",
+                    "title": "I don’t know 😓",
+                    "payload": "I_DONT_KNOW"
                 }
             ]
         }
@@ -89,7 +131,57 @@ def send_interesting(recipient_id, main_text):
         log(r.status_code)
         log(r.text)
 
-def send_hint(recipient_id, main_text):
+def send_hint(recipient_id, main_text, qa_model, qid):
+    options = [
+                {
+                    "content_type": "text",
+                    "title": str(qa_model.D1KB[qid]),
+                    "payload": "D1KB"
+                },
+                {
+                    "content_type": "text",
+                    "title": str(qa_model.D2KB[qid]),
+                    "payload": "D2KB"
+                },
+                {
+                    "content_type": "text",
+                    "title": str(qa_model.D3KB[qid]),
+                    "payload": "D3KB"
+                },
+                {
+                    "content_type": "text",
+                    "title": str(qa_model.AKB[qid][0]),
+                    "payload": "AKB"
+                },
+            ]
+    random.shuffle(options)
+    options.append({
+                    "content_type": "text",
+                    "title": "I don’t know 😓",
+                    "payload": "I_DONT_KNOW"
+                })
+    params = {
+        "access_token": os.environ["PAGE_ACCESS_TOKEN"]
+    }
+    headers = {
+        "Content-Type": "application/json"
+    }
+    data = json.dumps({
+        "recipient": {
+            "id": recipient_id
+        },
+        "message": {
+            "text" : main_text,
+            "quick_replies": options
+        }
+    })
+    r = requests.post("https://graph.facebook.com/v2.6/me/messages", params=params, headers=headers, data=data)
+    if r.status_code != 200:
+        log(r.status_code)
+        log(r.text)
+
+
+def send_giveup(recipient_id):
 
     params = {
         "access_token": os.environ["PAGE_ACCESS_TOKEN"]
@@ -102,12 +194,17 @@ def send_hint(recipient_id, main_text):
             "id": recipient_id
         },
         "message": {
-            "text": main_text,
+            "text": "Are you sure you want to give up?",
             "quick_replies": [
                 {
                     "content_type": "text",
-                    "title": "Sure!",
-                    "payload": "SURE!"
+                    "title": "Yes, answer please.",
+                    "payload": "GIVEUP_YES"
+                },
+                {
+                    "content_type": "text",
+                    "title": "No, I'll try again!",
+                    "payload": "GIVEUP_NO"
                 }
             ]
         }
@@ -158,17 +255,17 @@ def choose_mode_quick_reply(recipient_id):
             "id": recipient_id
         },
         "message": {
-            "text": "Now tell me which mode you would like to choose:"+u'\uD83D\uDC47',
+            "text": "Okay, what would you like to do?",
             "quick_replies": [
                 {
                     "content_type": "text",
-                    "title": "Quiz Mode "+u'\u270F',
-                    "payload": "QUIZ_MODE"
+                    "title": "Quiz me 🤓",
+                    "payload": "PRACTICE_MODE"
                 },
                 {
                     "content_type": "text",
-                    "title": "Answering Mode"+u'\uD83D\uDE3A',
-                    "payload": "ANSWERING_MODE"
+                    "title": "I have a question❓",
+                    "payload": "CHALLENGE_MODE"
                 }
             ]
         }
@@ -180,7 +277,7 @@ def choose_mode_quick_reply(recipient_id):
 
 
 # new added subject selection
-def send_subject_quick_reply(recipient_id, main_text):
+def choose_subject_quick_reply(recipient_id, main_text):
 
     params = {
         "access_token": os.environ["PAGE_ACCESS_TOKEN"]
@@ -197,27 +294,27 @@ def send_subject_quick_reply(recipient_id, main_text):
             "quick_replies": [
                 {
                     "content_type": "text",
-                    "title": "Physics",
+                    "title": "Physics 🚗",
                     "payload": "PHYSICS"
                 },
                 {
                     "content_type": "text",
-                    "title": "Chemistry",
+                    "title": "Chemistry ⚗️",
                     "payload": "CHEMISTRY"
                 },
                 {
                     "content_type": "text",
-                    "title": "Biology",
+                    "title": "Biology 🔬",
                     "payload": "BIOLOGY"
                 },
                 {
                     "content_type": "text",
-                    "title": "Geology",
+                    "title": "Geology ⛰",
                     "payload": "GEOLOGY"
                 },
                 {
                     "content_type": "text",
-                    "title": "Random",
+                    "title": "Random 🎲",
                     "payload": "RANDOM"                
                 }
             ]
@@ -228,7 +325,7 @@ def send_subject_quick_reply(recipient_id, main_text):
         log(r.status_code)
         log(r.text)  
 
-def send_why_quickreply(recipient_id, QID, standard_answer):
+def send_correct_answer(recipient_id, QID, standard_answer):
 
     #log("sending WHY button to {recipient}: {text}".format(recipient=recipient_id, text=str(QID)))
 
@@ -243,27 +340,27 @@ def send_why_quickreply(recipient_id, QID, standard_answer):
             "id": recipient_id
         },
         "message": {
-            "text": "Correct answer is " +standard_answer,
+            "text": "The correct answer is " + "\""+standard_answer+"\"",
             "quick_replies": [
                 {
                     "content_type": "text",
-                    "title": "Why",
+                    "title": "Why?",
                     "payload": "WHY"
                 },
                 {
                     "content_type": "text",
-                    "title": "Next Question",
+                    "title": "Next question 💪",
                     "payload": "NEXT_QUESTION"
                 },
                 {
                     "content_type": "text",
-                    "title":"Switch Subject",
+                    "title":"Switch Subject!",
                     "payload":"SWITCH_SUBJECT"
                 },
                 {
                     "content_type": "text",
-                    "title": "Wait, I got it right...",
-                    "payload": "REPORT"
+                    "title": "Wait, I got it right 😡",
+                    "payload": "REPORT_BUG"
                 },                 
             ]
         }
@@ -273,10 +370,71 @@ def send_why_quickreply(recipient_id, QID, standard_answer):
         log(r.status_code)
         log(r.text)
 
+def send_explanation(recipient_id, explanation):
+    params = {
+        "access_token": os.environ["PAGE_ACCESS_TOKEN"]
+    }
+    headers = {
+        "Content-Type": "application/json"
+    }
+    data = json.dumps({
+        "recipient": {
+            "id": recipient_id
+        },
+        "message": {
+            "text": explanation,
+            "quick_replies": [
+                {
+                    "content_type": "text",
+                    "title": "Next question 💪",
+                    "payload": "NEXT_QUESTION"
+                },
+                {
+                    "content_type": "text",
+                    "title": "Switch Subject!",
+                    "payload": "SWITCH_SUBJECT"
+                }
+            ]
+        }
+    })
+    r = requests.post("https://graph.facebook.com/v2.6/me/messages", params=params, headers=headers, data=data)
+    if r.status_code != 200:
+        log(r.status_code)
+        log(r.text)
+
+def send_bugreport(recipient_id, text):
+    params = {
+        "access_token": os.environ["PAGE_ACCESS_TOKEN"]
+    }
+    headers = {
+        "Content-Type": "application/json"
+    }
+    data = json.dumps({
+        "recipient": {
+            "id": recipient_id
+        },
+        "message": {
+            "text": text,
+            "quick_replies": [
+                {
+                    "content_type": "text",
+                    "title": "Next question 💪",
+                    "payload": "NEXT_QUESTION"
+                },
+                {
+                    "content_type": "text",
+                    "title": "Switch Subject!",
+                    "payload": "SWITCH_SUBJECT"
+                }
+            ]
+        }
+    })
+    r = requests.post("https://graph.facebook.com/v2.6/me/messages", params=params, headers=headers, data=data)
+    if r.status_code != 200:
+        log(r.status_code)
+        log(r.text)        
+
 def send_why2_quickreply(recipient_id, support_sentence):
-
-    #log("sending WHY button to {recipient}: {text}".format(recipient=recipient_id, text=str(QID)))
-
     params = {
         "access_token": os.environ["PAGE_ACCESS_TOKEN"]
     }
@@ -304,11 +462,6 @@ def send_why2_quickreply(recipient_id, support_sentence):
                     "content_type": "text",
                     "title":"Switch Subject",
                     "payload":"SWITCH_SUBJECT"
-                },                 
-                {
-                    "content_type": "text",
-                    "title": "Check Total Score",
-                    "payload": "CHECK_TOTAL_SCORE"
                 }
             ]
         }
@@ -369,14 +522,14 @@ def persistent_menu():
                     "type":"nested",
                     "call_to_actions":[
                         {
-                            "title":"Quiz Mode "+u'\u270F',
+                            "title":"Practice Mode "+u'\u270F',
                             "type":"postback",
-                            "payload":"quiz mode"
+                            "payload":"PRACTICE_MODE"
                         },
                         {
-                            "title":"Answering Mode"+u'\uD83D\uDE3A',
+                            "title":"Challenge Mode "+u'\uD83D\uDE3A',
                             "type":"postback",
-                            "payload":"question answering mode"
+                            "payload":"CHALLENGE_MODE"
                         }              
                         ]
                 },
@@ -429,7 +582,7 @@ def greeting():
             }, 
             {
                 "locale":"en_US",
-                "text":"Welcome to QuizBot made by Sherry!"
+                "text":"Welcome to QuizBot created by Stanford!"
             }
         ]
     })
