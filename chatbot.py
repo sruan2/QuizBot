@@ -69,7 +69,7 @@ def respond_to_postback(payload, message_text, sender_id, qa_model, mysql):
         standard_answer = qa_model.getAnswer(QID)
         send_message(sender_id, "I'm sorry, but you didn't earn any point 😞")
         time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
-        insert_score(mysql, sender_id,QID,payload,score,time)
+        insert_score(mysql, sender_id,QID,payload,0,time)
         send_correct_answer(sender_id, QID, standard_answer)    
         update_status(mysql, sender_id, 1)         
 
