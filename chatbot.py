@@ -268,16 +268,15 @@ def respond_to_messagetext(message_text, sender_id, qa_model, mysql):
                 msglist_incorrect = ["I'm sorry, but that was incorrect. You didn't earn any point 😞",
                                     "That's not quite right. You didn't earn any point 😞"]
                 send_message(sender_id, random.choice(msglist_incorrect))
-                insert_score(mysql, sender_id, QID, message_text, 0)
-                send_correct_answer(sender_id, QID, standard_answer)
+                #insert_score(mysql, sender_id, QID, message_text, 0)
             elif score < 10:
                 send_message(sender_id, "You earned "+str(score)+ " points!")
-                send_correct_answer(sender_id, QID, standard_answer)
             else:
                 msglist_correct = ["That’s right! 🎉", "Correct! 🎊" or "Good job! 🙌"]
                 msg_correct = random.choice(msglist_correct)
                 send_message(sender_id, msg_correct)
                 send_message(sender_id, "You earned 10 points!")
+            send_correct_answer(sender_id, QID, standard_answer)
             insert_score(mysql, sender_id, QID, message_text, score)
             update_status(mysql, sender_id, 1) 
         else:
