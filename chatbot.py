@@ -28,7 +28,7 @@ def respond_to_postback(payload, message_text, sender_id, qa_model, mysql):
 
     elif payload == "I_NEED_A_HINT":
         QID, _ = show_last_qid_subject(mysql, sender_id) # retrieve the qid and the subject from database
-        send_hint(sender_id, "Please select from the following 4 options :)",qa_model, QID)
+        send_hint(sender_id, "Please select from the following 4 options :)", qa_model, QID)
 
     
     elif payload == "PRACTICE_MODE":
@@ -47,6 +47,7 @@ def respond_to_postback(payload, message_text, sender_id, qa_model, mysql):
 
     elif payload == "AKB":
         QID, _ = show_last_qid_subject(mysql, sender_id) # retrieve the qid and the subject from database
+        standard_answer = qa_model.getAnswer(QID)
         score = 3
         send_message(sender_id, "You earned "+str(score)+ " points!")
         time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
