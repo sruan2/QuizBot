@@ -139,43 +139,41 @@ def send_hint(recipient_id, main_text, qa_model, qid):
     headers = {
         "Content-Type": "application/json"
     }
-    i = randint(0, 4)
-    if i == 0:
-        data = json.dumps({
-            "recipient": {
-                "id": recipient_id
-            },
-            "message": {
-                "text" : main_text,
-                "quick_replies": random.shuffle([
-                    {
-                        "content_type": "text",
-                        "title": str(qa_model.D1KB[qid]),
-                        "payload": "D1KB"
-                    },
-                    {
-                        "content_type": "text",
-                        "title": str(qa_model.D2KB[qid]),
-                        "payload": "D2KB"
-                    },
-                    {
-                        "content_type": "text",
-                        "title": str(qa_model.D3KB[qid]),
-                        "payload": "D3KB"
-                    },
-                    {
-                        "content_type": "text",
-                        "title": str(qa_model.AKB[qid][0]),
-                        "payload": "AKB"
-                    },
-                    {
-                        "content_type": "text",
-                        "title": "I don’t know 😓",
-                        "payload": "I_DONT_KNOW"
-                    }
-                ])
-            }
-        })
+    data = json.dumps({
+        "recipient": {
+            "id": recipient_id
+        },
+        "message": {
+            "text" : main_text,
+            "quick_replies": random.shuffle([
+                {
+                    "content_type": "text",
+                    "title": str(qa_model.D1KB[qid]),
+                    "payload": "D1KB"
+                },
+                {
+                    "content_type": "text",
+                    "title": str(qa_model.D2KB[qid]),
+                    "payload": "D2KB"
+                },
+                {
+                    "content_type": "text",
+                    "title": str(qa_model.D3KB[qid]),
+                    "payload": "D3KB"
+                },
+                {
+                    "content_type": "text",
+                    "title": str(qa_model.AKB[qid][0]),
+                    "payload": "AKB"
+                },
+                {
+                    "content_type": "text",
+                    "title": "I don’t know 😓",
+                    "payload": "I_DONT_KNOW"
+                }
+            ])
+        }
+    })
     r = requests.post("https://graph.facebook.com/v2.6/me/messages", params=params, headers=headers, data=data)
     if r.status_code != 200:
         log(r.status_code)
