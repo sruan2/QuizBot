@@ -42,6 +42,7 @@ def respond_to_postback(payload, message_text, sender_id, qa_model, mysql):
     elif payload == "GIVEUP_YES":
         send_message(sender_id, "I'm sorry, but you didn't earn any point this time 😞")
         msg_giveup_yes = "That’s okay, you’ll get it next time! ☺️"
+        send_message(sender_id, msg_giveup_yes)
         QID, _ = show_last_qid_subject(mysql, sender_id) # retrieve the qid and the subject from database
         standard_answer = qa_model.getAnswer(QID)
         insert_score(mysql, sender_id,QID,payload,0)
@@ -50,9 +51,10 @@ def respond_to_postback(payload, message_text, sender_id, qa_model, mysql):
         # show answer
 
     elif payload == "GIVEUP_NO":
-        msg_hint = "Okay! Which is these is the right answer?👇"
+        msg_hint = "Okay! Let's try again 💪"
         QID, _ = show_last_qid_subject(mysql, sender_id) # retrieve the qid and the subject from database
-        send_hint(sender_id, msg_hint, qa_model, QID)
+        question = qa_model.qa_kb.QKB[QID]
+        send_a_question(sender_id, question)
         # ask the question again
         
     
@@ -166,7 +168,8 @@ def respond_to_postback(payload, message_text, sender_id, qa_model, mysql):
         send_a_question(sender_id, question)
 
     elif payload == "CHALLENGE_MODE":
-        send_message(sender_id, "I'm here to answer your questions! Just type your question below :-) ")
+        send_message(sender_id, "The developers are working hard to get this feature implemented...")
+        choose_mode_quick_reply(sender_id) 
 
 
 
