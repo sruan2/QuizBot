@@ -104,7 +104,7 @@ def respond_to_postback(payload, message_text, sender_id, qa_model, mysql):
         send_a_question(sender_id, question)
 
     elif payload == "BIOLOGY":
-        msglist_subject = ["All right! Let’s I’ll quiz you on Biology!",
+        msglist_subject = ["All right! I’ll quiz you on Biology!",
                            "Okay! Let’s see how much you know about Biology!"]
         msg_subject = random.choice(msglist_subject)
         send_message(sender_id, msg_subject)
@@ -114,7 +114,7 @@ def respond_to_postback(payload, message_text, sender_id, qa_model, mysql):
         send_a_question(sender_id, question)
 
     elif payload == "GEOLOGY":
-        msglist_subject = ["All right! Let’s I’ll quiz you on Geology!",
+        msglist_subject = ["All right! I’ll quiz you on Geology!",
                      "Okay! Let’s see how much you know about Geology!"]
         msg_subject = random.choice(msglist_subject)
         send_message(sender_id, msg_subject)
