@@ -103,7 +103,7 @@ def show_last_qid_subject(mysql, user_id):
 def show_top_10(mysql):
     cur = mysql.connection.cursor() 
     cur.execute("select t2.user_firstname,t2.user_lastname,t1.sc from \
-        (select user_id, sum(score) as sc from scores group by user_id order by sc desc limit 10) t1 join users t2 on t2.user_id = t1.user_id \
+        (select user_id, sum(score) as sc from scores group by user_id having sum(score) != 0 order by sc desc limit 10) t1 join users t2 on t2.user_id = t1.user_id \
          order by t1.sc desc")
 
     rows = cur.fetchall();
