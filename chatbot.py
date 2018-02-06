@@ -126,7 +126,7 @@ def respond_to_postback(payload, message_text, sender_id, qa_model, mysql):
                      "All right! A little bit of everything! 🎲"]
         msg_random = random.choice(msglist_random)
         send_message(sender_id, msg_random)
-        question, QID = qa_model.pickSubjectRandomQuestion(message_text)
+        question, QID = qa_model.pickSubjectRandomQuestion("random")
         update_status(mysql, sender_id, 0)
         #insert_question(mysql, sender_id,QID,message_text)
         send_a_question(sender_id, question)
