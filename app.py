@@ -144,9 +144,8 @@ def webhook():
                             # first-time user
                             if not int(sender_id) in database.show_user_id_list(mysql):
                                 print("[QUIZBOT] PID " + str(os.getpid())+": This is a new user!")
-                                time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
                                 database.insert_user(mysql, sender_id, sender_firstname, sender_lastname, sender_gender, 1)
-                                database.insert_score(mysql, sender_id, -1, message_text, 0, time)
+                                database.insert_score(mysql, sender_id, -1, message_text, 0)
                                 message.choose_mode_quick_reply(sender_id) 
 
                             else:

@@ -68,8 +68,7 @@ def respond_to_postback(payload, message_text, sender_id, qa_model, mysql):
         QID, _ = show_last_qid_subject(mysql, sender_id) # retrieve the qid and the subject from database
         standard_answer = qa_model.getAnswer(QID)
         send_message(sender_id, "I'm sorry, but you didn't earn any point 😞")
-        time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
-        insert_score(mysql, sender_id,QID,payload,0,time)
+        insert_score(mysql, sender_id,QID,payload,0)
         send_correct_answer(sender_id, QID, standard_answer)    
         update_status(mysql, sender_id, 1)         
 
@@ -78,8 +77,7 @@ def respond_to_postback(payload, message_text, sender_id, qa_model, mysql):
         standard_answer = qa_model.getAnswer(QID)
         score = 3
         send_message(sender_id, "You earned "+str(score)+ " points!")
-        time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
-        insert_score(mysql, sender_id,QID,payload,score,time)
+        insert_score(mysql, sender_id,QID,payload,score)
         send_correct_answer(sender_id, QID, standard_answer)    
         update_status(mysql, sender_id, 1)        
 
@@ -90,8 +88,7 @@ def respond_to_postback(payload, message_text, sender_id, qa_model, mysql):
         send_message(sender_id, msg_subject)
         question, QID = qa_model.pickSubjectRandomQuestion("physics")
         update_status(mysql, sender_id, 0)
-        time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
-        #insert_question(mysql, sender_id,QID,message_text,time)
+        #insert_question(mysql, sender_id,QID,message_text) # contains an emoji
         send_a_question(sender_id, question)
 
     elif payload == "CHEMISTRY":
@@ -101,8 +98,7 @@ def respond_to_postback(payload, message_text, sender_id, qa_model, mysql):
         send_message(sender_id, msg_subject)
         question, QID = qa_model.pickSubjectRandomQuestion("chemistry")
         update_status(mysql, sender_id, 0)
-        time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
-        #insert_question(mysql, sender_id,QID,message_text,time)
+        #insert_question(mysql, sender_id,QID,message_text)
         send_a_question(sender_id, question)
 
     elif payload == "BIOLOGY":
@@ -112,8 +108,7 @@ def respond_to_postback(payload, message_text, sender_id, qa_model, mysql):
         send_message(sender_id, msg_subject)
         question, QID = qa_model.pickSubjectRandomQuestion("biology")
         update_status(mysql, sender_id, 0)
-        time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
-        #insert_question(mysql, sender_id,QID,message_text,time)
+        #insert_question(mysql, sender_id,QID,message_text)
         send_a_question(sender_id, question)
 
     elif payload == "GEOLOGY":
@@ -123,8 +118,7 @@ def respond_to_postback(payload, message_text, sender_id, qa_model, mysql):
         send_message(sender_id, msg_subject)
         question, QID = qa_model.pickSubjectRandomQuestion("geology")
         update_status(mysql, sender_id, 0)
-        time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
-        #insert_question(mysql, sender_id,QID, message_text,time)
+        #insert_question(mysql, sender_id,QID, message_text)
         send_a_question(sender_id, question)
 
     elif payload == "RANDOM":
@@ -134,8 +128,7 @@ def respond_to_postback(payload, message_text, sender_id, qa_model, mysql):
         send_message(sender_id, msg_random)
         question, QID = qa_model.pickSubjectRandomQuestion(message_text)
         update_status(mysql, sender_id, 0)
-        time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
-        #insert_question(mysql, sender_id,QID,message_text,time)
+        #insert_question(mysql, sender_id,QID,message_text)
         send_a_question(sender_id, question)
 
     elif payload == 'SWITCH_SUBJECT' or payload == 'SURE':
@@ -145,15 +138,13 @@ def respond_to_postback(payload, message_text, sender_id, qa_model, mysql):
         QID, _ = show_last_qid_subject(mysql, sender_id) # retrieve the qid and the subject from database
         support_sentence = qa_model.getSupport(QID)
         send_why2_quickreply(sender_id, "Here's an explanation: " + support_sentence)
-        time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
-        insert_score(mysql, sender_id,QID,"why",0,time)        
+        insert_score(mysql, sender_id,QID,"why",0)        
 
     elif payload == "CHECK_TOTAL_SCORE":
         send_gotit_quickreply(sender_id, "Your accumulated points are "+str(show_score(mysql, sender_id)))
 
     elif payload == "REPORT_BUG":
-        time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
-        insert_score(mysql,sender_id,-1,message_text,-1,time)
+        insert_score(mysql,sender_id,-1,message_text,-1)
         send_why2_quickreply(sender_id, "Thanks for letting us know. We will use your feedback to improve our algorithm! Now what would you like to do next?")
 
     # look for next similar question based off the pre-trained model
@@ -166,8 +157,7 @@ def respond_to_postback(payload, message_text, sender_id, qa_model, mysql):
             else:
                 question, QID = qa_model.pickSubjectRandomQuestion(last_subject)
             update_status(mysql, sender_id, 0)
-            time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
-            insert_question(mysql, sender_id,QID,last_subject,time)
+            insert_question(mysql, sender_id,QID,last_subject)
         else: 
             QID = show_last_qid_subject(mysql, sender_id)[0]
             question = qa_model.pickLastQuestion(QID)
@@ -187,8 +177,7 @@ def respond_to_messagetext(message_text, sender_id, qa_model, mysql):
 
     if message_text == "Practice Mode "+u'\u270F':
         choose_subject_quick_reply(sender_id, "Now tell me which subject you would like to choose:"+u'\uD83D\uDC47') 
-        time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
-        insert_question(mysql, sender_id,'-11','SWITCH_SUBJUECT',time)
+        insert_question(mysql, sender_id,'-11','SWITCH_SUBJUECT')
 
     #elif message_text == "I need a hint...":
         #send_multiple_choice()
@@ -203,8 +192,7 @@ def respond_to_messagetext(message_text, sender_id, qa_model, mysql):
             else:
                 question, QID = qa_model.pickSubjectRandomQuestion(last_subject)
             update_status(mysql, sender_id, 0)
-            time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
-            insert_question(mysql, sender_id,QID,last_subject,time)
+            insert_question(mysql, sender_id,QID,last_subject)
         else: 
             QID = show_last_qid_subject(mysql, sender_id)[0]
             question = qa_model.pickLastQuestion(QID)
@@ -223,50 +211,43 @@ def respond_to_messagetext(message_text, sender_id, qa_model, mysql):
     elif message_text[:4] == "why":
         support_sentence = qa_model.getSupport(QID)
         send_why2_quickreply(sender_id, "Here's an explanation: " + support_sentence)
-        time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
-        insert_score(mysql, sender_id,QID,"why",0,time)
+        insert_score(mysql, sender_id,QID,"why",0)
 
     elif message_text == "check total score":
         send_gotit_quickreply(sender_id, "Your accumulated points are "+str(show_score(mysql, sender_id)))
 
     elif message_text == "report bug":
-        time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
-        insert_score(mysql, sender_id,-1,message_text,-1,time)
+        insert_score(mysql, sender_id,-1,message_text,-1)
         send_why2_quickreply(sender_id, "Thanks for letting us know. We will use your feedback to improve our algorithm! Now what would you like to do next?")
 
     elif message_text == "physics":
         question, QID = qa_model.pickSubjectRandomQuestion(message_text)
         update_status(mysql, sender_id, 0)
-        time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
-        insert_question(mysql, sender_id,QID,message_text.lower(),time)
+        insert_question(mysql, sender_id,QID,message_text.lower())
         send_a_question(sender_id, question)
 
     elif message_text == "chemistry":
         question, QID = qa_model.pickSubjectRandomQuestion(message_text)
         update_status(mysql, sender_id, 0)
-        time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
-        insert_question(mysql, sender_id,QID,message_text.lower(),time)
+        insert_question(mysql, sender_id,QID,message_text.lower())
         send_a_question(sender_id, question)
 
     elif message_text == "biology":
         question, QID = qa_model.pickSubjectRandomQuestion(message_text)
         update_status(mysql, sender_id, 0)
-        time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
-        insert_question(mysql, sender_id,QID,message_text.lower(),time)
+        insert_question(mysql, sender_id,QID,message_text.lower())
         send_a_question(sender_id, question)
 
     elif message_text == "geology":
         question, QID = qa_model.pickSubjectRandomQuestion(message_text)
         update_status(mysql, sender_id, 0)
-        time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
-        insert_question(mysql, sender_id,QID,message_text.lower(),time)
+        insert_question(mysql, sender_id,QID,message_text.lower())
         send_a_question(sender_id, question)
     
     elif message_text == "random":
         question, QID = qa_model.pickRandomQuestion()
         update_status(mysql, sender_id, 0)
-        time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
-        insert_question(mysql, sender_id,QID,message_text.lower(),time)
+        insert_question(mysql, sender_id,QID,message_text.lower())
         send_a_question(sender_id, question)
 
     elif message_text == 'switch subject':
@@ -277,8 +258,7 @@ def respond_to_messagetext(message_text, sender_id, qa_model, mysql):
             standard_answer = qa_model.getAnswer(QID)
             score = qa_model.compute_score(message_text, QID)
             send_message(sender_id, "You earned "+str(score)+ " points!")
-            time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
-            insert_score(mysql, sender_id,QID,message_text,score,time)
+            insert_score(mysql, sender_id,QID,message_text,score)
             send_correct_answer(sender_id, QID, standard_answer)    
             update_status(mysql, sender_id, 1) 
         else:
