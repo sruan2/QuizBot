@@ -47,11 +47,12 @@ def respond_to_postback(payload, message_text, sender_id, qa_model, mysql):
         # show answer
 
     elif payload == "GIVEUP_NO":
+        pass
         # ask the question again
         
     
     elif payload == "PRACTICE_MODE":
-      msg_choose_mode = "Sure, which subject would you like me to quiz you on?👇"
+        msg_choose_mode = "Sure, which subject would you like me to quiz you on?👇"
         choose_subject_quick_reply(sender_id, msg_choose_mode)
 
 
