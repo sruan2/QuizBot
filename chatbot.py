@@ -11,7 +11,7 @@ def respond_to_postback(payload, message_text, sender_id, qa_model, mysql):
         msg_intro_1 = "Hi there! My name is Mr. Owl 🦉 and I’m here to help you learn all about science 🔬"
         msg_intro_2 = "Here’s how it works. I ask you questions, and you give me answers. If you get the right answer, you earn points! 🎉"
         msg_intro_3 = "So, are you ready?"
-        send_picture(sender_id, "https://www.smartprimer.org:8443/pictures/0-Owl_Design_Orange-psd.png", "", "")
+        send_picture(sender_id, "https://www.smartprimer.org:8443/pictures/0-Owl_Design_Orange_cap.png", "", "")
         send_message(sender_id, msg_intro_1)
         send_message(sender_id, msg_intro_2)
         send_ready_go(sender_id, msg_intro_3)
@@ -136,7 +136,8 @@ def respond_to_postback(payload, message_text, sender_id, qa_model, mysql):
     elif payload == "WHY":
         QID, _ = show_last_qid_subject(mysql, sender_id) # retrieve the qid and the subject from database
         support_sentence = qa_model.getSupport(QID)
-        send_why2_quickreply(sender_id, "Here's an explanation: " + support_sentence)
+        send_message(sender_id, "Here's an explanation") 
+        send_explanation(sender_id, support_sentence)
         insert_score(mysql, sender_id,QID,"why",0)        
 
     elif payload == "CHECK_TOTAL_SCORE":
@@ -210,7 +211,6 @@ def respond_to_messagetext(message_text, sender_id, qa_model, mysql):
     elif message_text[:4] == "why":
         support_sentence = qa_model.getSupport(QID)
         send_why2_quickreply(sender_id, "Here's an explanation: " + support_sentence)
-        insert_score(mysql, sender_id,QID,"why",0)
 
     elif message_text == "check total score":
         send_gotit_quickreply(sender_id, "Your accumulated points are "+str(show_score(mysql, sender_id)))
@@ -240,13 +240,13 @@ def respond_to_messagetext(message_text, sender_id, qa_model, mysql):
     elif message_text == "geology":
         question, QID = qa_model.pickSubjectRandomQuestion(message_text)
         update_status(mysql, sender_id, 0)
-        insert_question(mysql, sender_id,QID,message_text.lower())
+        insert_question(mysql, sender_id,QID,message_text)
         send_a_question(sender_id, question)
     
     elif message_text == "random":
         question, QID = qa_model.pickRandomQuestion()
         update_status(mysql, sender_id, 0)
-        insert_question(mysql, sender_id,QID,message_text.lower())
+        insert_question(mysql, sender_id, QID, message_text)
         send_a_question(sender_id, question)
 
     elif message_text == 'switch subject':
@@ -269,7 +269,7 @@ def respond_to_messagetext(message_text, sender_id, qa_model, mysql):
                 msg_correct = random.choice(msglist_correct)
                 send_message(sender_id, msg_correct)
                 send_message("You earned 10 points!")
-            insert_score(mysql, sender_id,QID,message_text,score)
+            insert_score(mysql, sender_id, QID, message_text, score)
             update_status(mysql, sender_id, 1) 
         else:
             update_status(mysql, sender_id, 1)
