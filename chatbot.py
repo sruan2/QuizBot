@@ -1,6 +1,5 @@
 from message import *
 from database import *
-from time import gmtime, strftime
 import random
 
 
@@ -53,7 +52,7 @@ def respond_to_postback(payload, message_text, sender_id, qa_model, mysql):
         # show answer
 
     elif payload == "GIVEUP_NO":
-        msg_hint = "Okay. Which is these is the right answer?👇"
+        msg_hint = "Okay! Which is these is the right answer?👇"
         QID, _ = show_last_qid_subject(mysql, sender_id) # retrieve the qid and the subject from database
         send_hint(sender_id, msg_hint, qa_model, QID)
         # ask the question again
@@ -257,9 +256,20 @@ def respond_to_messagetext(message_text, sender_id, qa_model, mysql):
         if not show_status(mysql, sender_id):
             standard_answer = qa_model.getAnswer(QID)
             score = qa_model.compute_score(message_text, QID)
-            send_message(sender_id, "You earned "+str(score)+ " points!")
+            if score < 5:
+                msglist_incorrect = ["I'm sorry, but that was incorrect. You didn't earn any point 😞",
+                                    "That's not quite right. You didn't earn any point 😞"]
+                send_message(sender_id, random.choice(msglist_incorrect))
+                insert_score(mysql, sender_id, QID, message_text, 0)
+            elif score < 10:
+                send_message(sender_id, "You earned "+str(score)+ " points!")
+                send_correct_answer(sender_id, QID, standard_answer)
+            else:
+                msglist_correct = ["That’s right! 🎉", "Correct! 🎊" or "Good job! 🙌"]
+                msg_correct = random.choice(msglist_correct)
+                send_message(sender_id, msg_correct)
+                send_message("You earned 10 points!")
             insert_score(mysql, sender_id,QID,message_text,score)
-            send_correct_answer(sender_id, QID, standard_answer)    
             update_status(mysql, sender_id, 1) 
         else:
             update_status(mysql, sender_id, 1)
