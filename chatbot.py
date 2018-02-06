@@ -81,7 +81,7 @@ def respond_to_postback(payload, message_text, sender_id, qa_model, mysql):
                            "Okay! Let’s see how much you know about Physics!"]
         msg_subject = random.choice(msglist_subject)
         send_message(sender_id, msg_subject)
-        question, QID = qa_model.pickSubjectRandomQuestion(message_text)
+        question, QID = qa_model.pickSubjectRandomQuestion("physics")
         update_status(mysql, sender_id, 0)
         time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
         insert_question(mysql, sender_id,QID,message_text.lower(),time)
@@ -92,7 +92,7 @@ def respond_to_postback(payload, message_text, sender_id, qa_model, mysql):
                            "Okay! Let’s see how much you know about Chemistry!"]
         msg_subject = random.choice(msglist_subject)
         send_message(sender_id, msg_subject)
-        question, QID = qa_model.pickSubjectRandomQuestion(message_text)
+        question, QID = qa_model.pickSubjectRandomQuestion("chemistry")
         update_status(mysql, sender_id, 0)
         time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
         insert_question(mysql, sender_id,QID,message_text.lower(),time)
@@ -103,7 +103,7 @@ def respond_to_postback(payload, message_text, sender_id, qa_model, mysql):
                            "Okay! Let’s see how much you know about Biology!"]
         msg_subject = random.choice(msglist_subject)
         send_message(sender_id, msg_subject)
-        question, QID = qa_model.pickSubjectRandomQuestion(message_text)
+        question, QID = qa_model.pickSubjectRandomQuestion("biology")
         update_status(mysql, sender_id, 0)
         time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
         insert_question(mysql, sender_id,QID,message_text.lower(),time)
@@ -114,7 +114,7 @@ def respond_to_postback(payload, message_text, sender_id, qa_model, mysql):
                      "Okay! Let’s see how much you know about Geology!"]
         msg_subject = random.choice(msglist_subject)
         send_message(sender_id, msg_subject)
-        question, QID = qa_model.pickSubjectRandomQuestion(message_text)
+        question, QID = qa_model.pickSubjectRandomQuestion("geology")
         update_status(mysql, sender_id, 0)
         time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
         insert_question(mysql, sender_id,QID,message_text.lower(),time)
