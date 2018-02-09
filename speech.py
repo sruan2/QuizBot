@@ -7,7 +7,7 @@ FFMPEG_PATH = os.environ['FFMPEG_PATH']
 
 def convert(file_path):
     command = [
-        FFMPEG_PATH, '-i', file_path, '-y', '-loglevel', '16','-threads', '2', '-c:a', 'opus', '-f', 'ogg', '-'
+        FFMPEG_PATH, '-i', file_path, '-y', '-loglevel', '16','-threads', '2', '-f', 'flac', '-'
         ##'wget', '-O', '-', file_path
     ]
     # Get raw audio from stdout of ffmpeg shell command
@@ -65,8 +65,8 @@ def speech_to_text_google(speech_file):
     service_request = service.speech().syncrecognize(
         body={
             'config': {
-                'encoding': 'OGG_OPUS',
-                'sampleRate': 48000,
+                'encoding': 'FLAC',
+                # 'sampleRate': 48000,
                 'maxAlternatives': 1,
             },
             'audio': {
