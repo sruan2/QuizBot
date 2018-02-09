@@ -7,8 +7,8 @@ FFMPEG_PATH = os.environ['FFMPEG_PATH']
 
 def convert(file_path):
     command = [
-        #FFMPEG_PATH, '-i', file_path, '-y', '-loglevel', '16','-threads', '8',  '-c:v', 'mp4' , '-f', 'wav' , '-'
-        'wget', '-O', '-', file_path
+        FFMPEG_PATH, '-i', file_path, '-y', '-loglevel', '16','-threads', '2', '-c:a', 'opus', '-f', 'ogg', '-'
+        #'wget', '-O', '-', file_path
     ]
     # Get raw audio from stdout of ffmpeg shell command
     pipe = sp.Popen(command, stdout=sp.PIPE, bufsize=10**8)
@@ -65,8 +65,8 @@ def speech_to_text_google(speech_file):
     service_request = service.speech().syncrecognize(
         body={
             'config': {
-                'encoding': 'LINEAR16',
-                'sampleRate': 8000,
+                'encoding': 'OGG_OPUS',
+                'sampleRate': 48000,
                 'maxAlternatives': 1,
             },
             'audio': {
