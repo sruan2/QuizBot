@@ -122,11 +122,14 @@ def webhook():
                         elif "attachments" in messaging_event.get("message"): 
                             if messaging_event["message"]["attachments"][0]["type"] == "audio": # only getting the first attachment
                                 print("[QUIZBOT] PID " + str(os.getpid())+": Received an AUDIO attachment")
-                                print("FB received audio: " + str(time.time()))
+                                receive_time = time.time()
+                                print("FB received audio: " + str(receive_time))
                                 audio_url = messaging_event["message"]["attachments"][0]["payload"]["url"]
                                 final_result = speech.transcribe(audio_url)
-                                print("[QUIZBOT] PID " + str(os.getpid())+": Transcribed Text is \""+final_result+"\"")
-                                print("FB received transcription: " + str(time.time()))
+                                #print("[QUIZBOT] PID " + str(os.getpid())+": Transcribed Text is \""+final_result+"\"")
+                                finish_time = time.time()
+                                print("FB received transcription: " + str(finish_time))
+                                print("Total time: " + str(finish_time-receive_time))
                                 if final_result != "":
                                     message.send_message(sender_id, "You said: " + final_result)
                                     print("FB print out transcription: " + str(time.time()))

@@ -78,22 +78,26 @@ def speech_to_text_google(speech_file):
     # [END send_request]
     if 'results' in response:
       results =  sorted(response['results'], reverse=True)
-      print(results)
+      #print(results)
       final_result = results[0]['alternatives'][0]['transcript']
     else:
-      print(json.dumps(response))
+      #print(json.dumps(response))
       final_result = "Sorry I couldn't recognize that"
     return final_result
 
 
 def transcribe(audio_url):
-    print("Start conversion: " + str(time.time()))
+    time1 = time.time()
+    #print("Start conversion: " + str(time.time()))
     raw_audio = convert(audio_url)
-    print("Finish conversion: " + str(time.time()))
-    print(len(raw_audio))
-    print("Send to Google: " + str(time.time()))
+    time2 = time.time()
+    print("conversion: " + str(time2 - time1))
+    #print(len(raw_audio))
+    time3 = time.time()
+    #print("Send to Google: " + str(time.time()))
     final_result = speech_to_text_google(raw_audio)
-    print("Return from Google: " + str(time.time()))
+    time4= time.time()
+    print("Google: " + str(time4 - time3))
     #print("=============\n"+final_result)
     return final_result
 
