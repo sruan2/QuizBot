@@ -123,16 +123,16 @@ def webhook():
                             if messaging_event["message"]["attachments"][0]["type"] == "audio": # only getting the first attachment
                                 print("[QUIZBOT] PID " + str(os.getpid())+": Received an AUDIO attachment")
                                 receive_time = time.time()
-                                print("FB received audio: " + str(receive_time))
+                                #print("FB received audio: " + str(receive_time))
                                 audio_url = messaging_event["message"]["attachments"][0]["payload"]["url"]
                                 final_result = speech.transcribe(audio_url)
                                 #print("[QUIZBOT] PID " + str(os.getpid())+": Transcribed Text is \""+final_result+"\"")
                                 finish_time = time.time()
-                                print("FB received transcription: " + str(finish_time))
+                                #print("FB received transcription: " + str(finish_time))
                                 print("Total time: " + str(finish_time-receive_time))
                                 if final_result != "":
                                     message.send_message(sender_id, "You said: " + final_result)
-                                    print("FB print out transcription: " + str(time.time()))
+                                    #print("FB print out transcription: " + str(time.time()))
                                 else:
                                     message.send_message(sender_id, "Sorry, I could not recognize it :/")
                                 chatbot.respond_to_messagetext(final_result, sender_id, qa_model, mysql)
