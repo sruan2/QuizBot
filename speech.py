@@ -1,5 +1,6 @@
 import subprocess as sp, os, traceback
 from urllib.request import urlopen
+import time
 
 # path to ffmpeg bin
 FFMPEG_PATH = os.environ['FFMPEG_PATH'] 
@@ -86,9 +87,13 @@ def speech_to_text_google(speech_file):
 
 
 def transcribe(audio_url):
+    print("Start conversion: " + str(time.time()))
     raw_audio = convert(audio_url)
+    print("Finish conversion: " + str(time.time()))
     print(len(raw_audio))
+    print("Send to Google: " + str(time.time()))
     final_result = speech_to_text_google(raw_audio)
+    print("Return from Google: " + str(time.time()))
     #print("=============\n"+final_result)
     return final_result
 

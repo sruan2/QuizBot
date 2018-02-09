@@ -13,6 +13,7 @@ import message
 import database
 import chatbot
 import speech
+import time
 
 # hide http print
 import logging
@@ -121,12 +122,14 @@ def webhook():
                         elif "attachments" in messaging_event.get("message"): 
                             if messaging_event["message"]["attachments"][0]["type"] == "audio": # only getting the first attachment
                                 print("[QUIZBOT] PID " + str(os.getpid())+": Received an AUDIO attachment")
+                                print("FB received audio: " + str(time.time()))
                                 audio_url = messaging_event["message"]["attachments"][0]["payload"]["url"]
                                 final_result = speech.transcribe(audio_url)
-                                
                                 print("[QUIZBOT] PID " + str(os.getpid())+": Transcribed Text is \""+final_result+"\"")
+                                print("FB received transcription: " + str(time.time()))
                                 if final_result != "":
                                     message.send_message(sender_id, "You said: " + final_result)
+                                    print("FB print out transcription: " + str(time.time()))
                                 else:
                                     message.send_message(sender_id, "Sorry, I could not recognize it :/")
                                 chatbot.respond_to_messagetext(final_result, sender_id, qa_model, mysql)
