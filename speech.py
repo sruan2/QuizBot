@@ -7,7 +7,8 @@ FFMPEG_PATH = os.environ['FFMPEG_PATH']
 
 def convert(file_path):
     command = [
-        FFMPEG_PATH, '-i', file_path, '-y', '-loglevel', '16','-threads', '8',  '-c:v', 'mp4' , '-f', 'wav' , '-'
+        #FFMPEG_PATH, '-i', file_path, '-y', '-loglevel', '16','-threads', '8',  '-c:v', 'mp4' , '-f', 'wav' , '-'
+        'wget', '-O', '-', file_path
     ]
     # Get raw audio from stdout of ffmpeg shell command
     pipe = sp.Popen(command, stdout=sp.PIPE, bufsize=10**8)
