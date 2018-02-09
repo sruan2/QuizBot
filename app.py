@@ -125,6 +125,7 @@ def webhook():
                                 receive_time = time.time()
                                 #print("FB received audio: " + str(receive_time))
                                 audio_url = messaging_event["message"]["attachments"][0]["payload"]["url"]
+                                print("url is "+ audio_url)
                                 final_result = speech.transcribe(audio_url)
                                 #print("[QUIZBOT] PID " + str(os.getpid())+": Transcribed Text is \""+final_result+"\"")
                                 finish_time = time.time()
