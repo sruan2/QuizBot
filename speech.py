@@ -1,18 +1,32 @@
 import subprocess as sp, os, traceback
 from urllib.request import urlopen
 
+# path to ffmpeg bin
+FFMPEG_PATH = os.environ['FFMPEG_PATH'] 
+
+def convert(file_path):
+    command = [
+        FFMPEG_PATH, '-i', file_path, '-y', '-loglevel', '16','-threads', '8',  '-c:v', 'mp4' , '-f', 'wav' , '-'
+    ]
+    # Get raw audio from stdout of ffmpeg shell command
+    pipe = sp.Popen(command, stdout=sp.PIPE, bufsize=10**8)
+    raw_audio = pipe.stdout.read()
+    return raw_audio
 
 def transcribe(audio_url):
-    #print(audio_url)
-    name = audio_url[-8:]
-    aacfile = urlopen(audio_url)
-    with open('gcloud_speech/'+name+'.aac', "wb") as handle:
-        handle.write(aacfile.read())
-    
-    cmdline = ['avconv', '-i', 'gcloud_speech/'+name+'.aac', '-y', '-ar', '48000', '-ac', '1', 'gcloud_speech/'+name+'.flac']
-    sp.call(cmdline)
+    raw_audio = convert(audio_url)
 
-    return run_quickstart('gcloud_speech/'+name+'.flac')
+
+    # #print(audio_url)
+    # name = audio_url[-8:]
+    # aacfile = urlopen(audio_url)
+    # with open('gcloud_speech/'+name+'.aac', "wb") as handle:
+    #     handle.write(aacfile.read())
+    
+    # cmdline = ['avconv', '-i', 'gcloud_speech/'+name+'.aac', '-y', '-ar', '48000', '-ac', '1', 'gcloud_speech/'+name+'.flac']
+    # sp.call(cmdline)
+
+    # return run_quickstart('gcloud_speech/'+name+'.flac')
 
 
 def run_quickstart(file_name):
