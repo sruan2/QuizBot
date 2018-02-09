@@ -1,3 +1,4 @@
+# coding: utf8
 from message import *
 from database import *
 import random
