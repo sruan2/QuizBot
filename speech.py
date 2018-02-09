@@ -89,7 +89,8 @@ def transcribe(audio_url):
     raw_audio = convert(audio_url)
     print(len(raw_audio))
     final_result = speech_to_text_google(raw_audio)
-    print("=============\n"+final_result)
+    #print("=============\n"+final_result)
+    return final_result
 
 
     # #print(audio_url)
