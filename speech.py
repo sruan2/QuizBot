@@ -80,7 +80,7 @@ def speech_to_text_google(speech_file):
       print(results)
       final_result = results[0]['alternatives'][0]['transcript']
     else:
-    print(json.dumps(response))
+      print(json.dumps(response))
     final_result = "Sorry I couldn't recognize that"
     return final_result
 
