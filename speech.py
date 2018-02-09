@@ -15,6 +15,7 @@ def convert(file_path):
 
 def transcribe(audio_url):
     raw_audio = convert(audio_url)
+    print(len(raw_audio))
 
 
     # #print(audio_url)
