@@ -40,15 +40,11 @@ def send_picture(user_id, imageUrl, title="", subtitle=""):
     if r.status_code != requests.codes.ok:
         print(r.text)    
 
-def send_a_question(recipient_id, question):
-
-    starting_part = ["Here's a question for you:\n",
-                     "Let's try this one:\n",
-                     "Could you answer this one for me?\n",
-                     "Let's see if you can get this one:\n"]
-
-    ending_part = "\nPlease note that you will earn at most 3 points if you ask for a hint!"
-
+def send_starting_question(recipient_id):
+    starting_part = ["Here's a question for you:",
+                     "Let's try this one:",
+                     "Could you answer this one for me?",
+                     "Let's see if you can get this one:"]  
     params = {
         "access_token": os.environ["PAGE_ACCESS_TOKEN"]
     }
@@ -60,7 +56,40 @@ def send_a_question(recipient_id, question):
             "id": recipient_id
         },
         "message": {
-            "text": random.choice(starting_part) + "\n\""+question+"\"\n" + ending_part,
+            "text": random.choice(starting_part),
+            "quick_replies": [
+                {
+                    "content_type": "text",
+                    "title": "I need a hint 🤔",
+                    "payload": "I_NEED_A_HINT"
+                },
+                {
+                    "content_type": "text",
+                    "title": "I don’t know 😓",
+                    "payload": "I_DONT_KNOW"
+                }
+            ]
+        }
+    })
+    r = requests.post("https://graph.facebook.com/v2.6/me/messages", params=params, headers=headers, data=data)
+    if r.status_code != 200:
+        log(r.status_code)
+        log(r.text)
+
+def send_a_question(recipient_id, question):
+    #ending_part = "\nPlease note that you will earn at most 3 points if you ask for a hint!"
+    params = {
+        "access_token": os.environ["PAGE_ACCESS_TOKEN"]
+    }
+    headers = {
+        "Content-Type": "application/json"
+    }
+    data = json.dumps({
+        "recipient": {
+            "id": recipient_id
+        },
+        "message": {
+            "text": question,
             "quick_replies": [
                 {
                     "content_type": "text",
@@ -359,7 +388,7 @@ def send_correct_answer(recipient_id, QID, standard_answer):
                 },
                 {
                     "content_type": "text",
-                    "title": "Wait, I got it right 😡",
+                    "title": "Wait, I'm right 😡",
                     "payload": "REPORT_BUG"
                 },                 
             ]
