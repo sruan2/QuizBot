@@ -196,11 +196,7 @@ def respond_to_messagetext(message_text, sender_id, qa_model, mysql):
 
     if message_text == "Practice Mode "+u'\u270F':
         choose_subject_quick_reply(sender_id, "Now tell me which subject you would like to choose:"+u'\uD83D\uDC47') 
-        insert_question(mysql, sender_id,'-11','SWITCH_SUBJUECT')
-
-    #elif message_text == "I need a hint...":
-        #send_multiple_choice()
-                                   
+        insert_question(mysql, sender_id,'-11','SWITCH_SUBJUECT')                                   
 
     elif message_text == "next question" or message_text == "got it, next!" or message_text[:4] == "sure":
 
@@ -216,12 +212,7 @@ def respond_to_messagetext(message_text, sender_id, qa_model, mysql):
             QID = show_last_qid_subject(mysql, sender_id)[0]
             question = qa_model.pickLastQuestion(QID)
         send_starting_question(sender_id)    
-        send_a_question(sender_id, question)
-
-    # I comment out this part as there is bug here
-    # elif app.session[sender_id]["answering"] == True:
-    #     answer = tfidf.Featurize(message_text)
-    #     send_message(sender_id, answer)    
+        send_a_question(sender_id, question) 
 
     elif "yup! i'm ready!" in message_text:
         update_status(mysql, sender_id, 1)
