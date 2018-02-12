@@ -463,6 +463,34 @@ def send_bugreport(recipient_id, text):
         log(r.status_code)
         log(r.text)        
 
+def send_reminder(recipient_id, user_name):
+    params = {
+        "access_token": os.environ["PAGE_ACCESS_TOKEN"]
+    }
+    headers = {
+        "Content-Type": "application/json"
+    }
+    data = json.dumps({
+        "recipient": {
+            "id": recipient_id
+        },
+        "message": {
+            "text": user_name + ", you haven't talked to me for more than a day, would you like to continue with me now?",
+            "quick_replies": [
+                {
+                    "content_type": "text",
+                    "title": "Continue 💪",
+                    "payload": "CONTINUE"
+                }
+            ]
+        }
+    })
+    r = requests.post("https://graph.facebook.com/v2.6/me/messages", params=params, headers=headers, data=data)
+    if r.status_code != 200:
+        log(r.status_code)
+        log(r.text)    
+
+
 def send_why2_quickreply(recipient_id, support_sentence):
     params = {
         "access_token": os.environ["PAGE_ACCESS_TOKEN"]
