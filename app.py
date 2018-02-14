@@ -14,6 +14,7 @@ import database
 import chatbot
 import speech
 import time
+import reminder
 
 # hide http print
 import logging
