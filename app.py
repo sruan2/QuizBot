@@ -31,6 +31,7 @@ app.config['MYSQL_USER'] = os.environ["DB_USER"]
 app.config['MYSQL_PASSWORD'] = os.environ["DB_PASSWORD"]
 app.config['MYSQL_DB'] = os.environ["DB"]
 mysql.init_app(app)
+reminder.RepeatedTimer(86400.0, message.send_reminder, database.show_inactive_user(mysql))
 
 
 @app.route('/pictures/<path:path>')
@@ -166,7 +167,6 @@ def setup_app(app):
     print("[QUIZBOT] PID " + str(os.getpid())+": ============ Start the app ============")
     message.greeting()
     message.persistent_menu()
-    rt = reminder.RepeatedTimer(86400.0, message.send_reminder, database.show_inactive_us(mysql))
 
 setup_app(app)
 
