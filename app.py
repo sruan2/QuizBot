@@ -93,10 +93,12 @@ def webhook():
                         return "Chatbot ID", 200
 
                     data = get_user_profile(sender_id)
-                    print(data)
                     sender_firstname = data['first_name']
                     sender_lastname = data['last_name']
-                    sender_gender = data['gender']
+                    if 'gender' in data:
+                        sender_gender = data['gender']
+                    else:
+                        sender_gender = 'unknown'
                     #print("[QUIZBOT] PID " + str(os.getpid())+": Talking to " + sender_firstname)
 
                     # user clicked/tapped "postback" button in Persistent menu
