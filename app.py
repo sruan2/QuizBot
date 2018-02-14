@@ -31,7 +31,6 @@ app.config['MYSQL_USER'] = os.environ["DB_USER"]
 app.config['MYSQL_PASSWORD'] = os.environ["DB_PASSWORD"]
 app.config['MYSQL_DB'] = os.environ["DB"]
 mysql.init_app(app)
-reminder.RepeatedTimer(86400.0, message.send_reminder, database.show_inactive_user(mysql))
 
 
 @app.route('/pictures/<path:path>')
@@ -72,6 +71,7 @@ def get_user_profile(recipient_id):
 @app.route('/', methods=['POST'])
 def webhook():
 
+    reminder.RepeatedTimer(86400.0, message.send_reminder, database.show_inactive_user(mysql))
     #print("[QUIZBOT] PID " + str(os.getpid())+": Enter webhook") # endpoint for processing incoming messaging events
     data = request.get_json()
     
