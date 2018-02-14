@@ -43,6 +43,9 @@ def test():
     return "test", 200
 
 
+@app.route('/')
+reminder.RepeatedTimer(300.0, message.send_reminder, database.show_inactive_user(mysql))
+
 @app.route('/', methods=['GET'])
 def verify():
     # when the endpoint is registered as a webhook, it must echo back
@@ -71,7 +74,7 @@ def get_user_profile(recipient_id):
 @app.route('/', methods=['POST'])
 def webhook():
 
-    reminder.RepeatedTimer(300.0, message.send_reminder, database.show_inactive_user(mysql))
+    
     #print("[QUIZBOT] PID " + str(os.getpid())+": Enter webhook") # endpoint for processing incoming messaging events
     data = request.get_json()
     
