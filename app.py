@@ -165,6 +165,7 @@ def setup_app(app):
     print("[QUIZBOT] PID " + str(os.getpid())+": ============ Start the app ============")
     message.greeting()
     message.persistent_menu()
+    rt = reminder.RepeatedTimer(86400.0, send_reminder, show_inactive_us(mysql))
 
 setup_app(app)
 
