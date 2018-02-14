@@ -110,7 +110,7 @@ def show_top_10(mysql):
     return rows
 
 # show users who are inactive for the last 24hr
-def show_inactive_us(mysql):
+def show_inactive_user(mysql):
     current_datetime = strftime("%Y-%m-%d %H:%M:%S", gmtime())
     cur = mysql.connection.cursor() 
     cur.execute("select distinct s.user_id, user_firstname from users, scores s where STR_TO_DATE(%s, '%Y-%m-%d %H:%i:%s') - \
