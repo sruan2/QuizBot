@@ -71,7 +71,7 @@ def get_user_profile(recipient_id):
 @app.route('/', methods=['POST'])
 def webhook():
 
-    reminder.RepeatedTimer(86400.0, message.send_reminder, database.show_inactive_user(mysql))
+    #reminder.RepeatedTimer(86400.0, message.send_reminder, database.show_inactive_user(mysql))
     #print("[QUIZBOT] PID " + str(os.getpid())+": Enter webhook") # endpoint for processing incoming messaging events
     data = request.get_json()
     
