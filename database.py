@@ -115,8 +115,8 @@ def show_inactive_user(mysql):
     date_format_sql = "%Y-%m-%d %H:%i:%s"
     current_datetime = strftime(date_format_time, gmtime())
     cur = mysql.connection.cursor() 
-    cur.execute("select distinct s.user_id, user_firstname from users, scores s where STR_TO_DATE(%s, %s) - \
-        STR_TO_DATE(s.r_time, %s) > 1000000", [current_datetime, date_format_sql, date_format_sql])
+    cur.execute("select distinct s.user_id, user_firstname from users, (select user_id, max(r_time) as r_time from scores group by user_id) s \
+        where STR_TO_DATE(%s, %s) - STR_TO_DATE(r_time, %s) > 1000000 limit 10;", [current_datetime, date_format_sql, date_format_sql])
 
     rows = cur.fetchall();
     return rows
