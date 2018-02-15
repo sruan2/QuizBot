@@ -16,7 +16,7 @@ class RepeatedTimer(object):
         self.function(*self.args, **self.kwargs)
 
     def start(self):
-        print("thread starts...")
+        print("[QUIZBOT] PID " + str(os.getpid())+": Thread Starts")
         if not self.is_running:
             self._timer = Timer(self.interval, self._run)
             self._timer.start()
