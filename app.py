@@ -43,10 +43,8 @@ def test():
     return "test", 200
 
 
-@app.route('/')
-def reminder_send():
-    print("sending reminderrrrr")
-    return reminder.RepeatedTimer(20.0, message.send_reminder, database.show_inactive_user(mysql))
+with app.app_context():
+    reminder.RepeatedTimer(20.0, message.send_reminder, database.show_inactive_user(mysql))
 
 @app.route('/', methods=['GET'])
 def verify():
