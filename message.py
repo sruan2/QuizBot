@@ -464,7 +464,9 @@ def send_bugreport(recipient_id, text):
         log(r.text)        
 
 def send_reminder(list):
+    print("reminder sending to...")
     for recipient_id, user_name in list:
+        print(recipient_id + ': ' + user_name)
         params = {
             "access_token": os.environ["PAGE_ACCESS_TOKEN"]
         }

@@ -16,6 +16,7 @@ class RepeatedTimer(object):
         self.function(*self.args, **self.kwargs)
 
     def start(self):
+        print("thread starts...")
         if not self.is_running:
             self._timer = Timer(self.interval, self._run)
             self._timer.start()
