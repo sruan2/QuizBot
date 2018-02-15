@@ -466,7 +466,7 @@ def send_bugreport(recipient_id, text):
         log(r.text)        
 
 def send_reminder(list):
-    for recipient_id, user_name in list:
+    for recipient_id, user_name in ['1805880356153906', 'Nathan']:
         params = {
             "access_token": os.environ["PAGE_ACCESS_TOKEN"]
         }
@@ -493,7 +493,7 @@ def send_reminder(list):
             log(r.status_code)
             log(r.text)    
         else:
-            print("[QUIZBOT] PID " + str(os.getpid())+": Sent Reminder To " + str(user_name) + "With ID " + str(recipient_id) + " AT " + strftime("%Y-%m-%d %H:%M:%S", gmtime()))
+            print("[QUIZBOT] PID " + str(os.getpid())+": Sent Reminder To " + str(user_name) + " With ID " + str(recipient_id) + " At " + strftime("%Y-%m-%d %H:%M:%S", gmtime()))
 
 def send_why2_quickreply(recipient_id, support_sentence):
     params = {
