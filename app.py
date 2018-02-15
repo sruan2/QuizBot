@@ -175,6 +175,7 @@ def setup_app(app):
     print("[QUIZBOT] PID " + str(os.getpid())+": ============ Start the app ============")
     message.greeting()
     message.persistent_menu()
+    reminder_send()
 
 setup_app(app)
 
