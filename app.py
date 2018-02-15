@@ -153,7 +153,7 @@ def webhook():
 
 
 with app.app_context():
-    reminder.RepeatedTimer(20.0, message.send_reminder, database.show_inactive_user(mysql))
+    reminder.RepeatedTimer(86400.0, message.send_reminder, database.show_inactive_user(mysql))
 
 # ================== SET UP ==================
 def setup_app(app):
