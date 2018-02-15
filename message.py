@@ -466,7 +466,7 @@ def send_bugreport(recipient_id, text):
         log(r.text)        
 
 def send_reminder(list):
-    for recipient_id, user_name in ['1805880356153906', 'Nathan']:
+    for recipient_id, user_name in [('1805880356153906', 'Nathan')]:
         params = {
             "access_token": os.environ["PAGE_ACCESS_TOKEN"]
         }
