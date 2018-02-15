@@ -43,9 +43,6 @@ def test():
     return "test", 200
 
 
-with app.app_context():
-    reminder.RepeatedTimer(20.0, message.send_reminder, database.show_inactive_user(mysql))
-
 @app.route('/', methods=['GET'])
 def verify():
     # when the endpoint is registered as a webhook, it must echo back
@@ -56,19 +53,6 @@ def verify():
         return request.args["hub.challenge"], 200
     return "Hello world", 200
 
-
-@app.route('/', methods=['GET'])
-def get_user_profile(recipient_id):
-    # based on user id retrive user name
-    # could protentially retive more user profile, e.g. profile_pic, locale, timezone, gender, last_ad_referral, etc.
-    #print("[QUIZBOT] PID " + str(os.getpid())+": Getting user profile from user_id: {recipient}".format(recipient=recipient_id))
-    r = requests.get("https://graph.facebook.com/v2.6/{psid}?fields=first_name,last_name,gender&access_token={token}".format(psid=recipient_id,token=os.environ["PAGE_ACCESS_TOKEN"]))
-    if r.status_code != 200:
-        print(r.status_code)
-        print(r.text)
-        return
-    data = json.loads(r.text)
-    return data
 
 
 @app.route('/', methods=['POST'])
@@ -168,11 +152,28 @@ def webhook():
     return "ok", 200
 
 
+with app.app_context():
+    reminder.RepeatedTimer(20.0, message.send_reminder, database.show_inactive_user(mysql))
+
 # ================== SET UP ==================
 def setup_app(app):
     print("[QUIZBOT] PID " + str(os.getpid())+": ============ Start the app ============")
     message.greeting()
     message.persistent_menu()
+
+
+def get_user_profile(recipient_id):
+    # based on user id retrive user name
+    # could protentially retive more user profile, e.g. profile_pic, locale, timezone, gender, last_ad_referral, etc.
+    #print("[QUIZBOT] PID " + str(os.getpid())+": Getting user profile from user_id: {recipient}".format(recipient=recipient_id))
+    r = requests.get("https://graph.facebook.com/v2.6/{psid}?fields=first_name,last_name,gender&access_token={token}".format(psid=recipient_id,token=os.environ["PAGE_ACCESS_TOKEN"]))
+    if r.status_code != 200:
+        print(r.status_code)
+        print(r.text)
+        return
+    data = json.loads(r.text)
+    return data
+
 
 setup_app(app)
 
