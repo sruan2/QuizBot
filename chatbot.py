@@ -68,7 +68,7 @@ def respond_to_postback(payload, message_text, sender_id, qa_model, mysql):
         choose_subject_quick_reply(sender_id, msg_choose_mode)
 
 
-    elif payload == "D1KB" or payload == "D2KB" or payload == "D3KB":
+    elif payload == "DKB":
         QID, _ = show_last_qid_subject(mysql, sender_id) # retrieve the qid and the subject from database
         standard_answer = qa_model.getAnswer(QID)
         msglist_incorrect = ["I'm sorry, but that was incorrect. You didn't earn any points 😞",
@@ -126,6 +126,17 @@ def respond_to_postback(payload, message_text, sender_id, qa_model, mysql):
         msg_subject = random.choice(msglist_subject)
         send_message(sender_id, msg_subject)
         question, QID = qa_model.pickSubjectRandomQuestion("geology")
+        update_status(mysql, sender_id, 0)
+        insert_question(mysql, sender_id,QID, payload)
+        send_starting_question(sender_id)
+        send_a_question(sender_id, question)
+
+    elif payload == "GRE":
+        msglist_subject = ["All right! I’ll quiz you on GRE!",
+                     "Okay! Let’s see how much you know about GRE!"]
+        msg_subject = random.choice(msglist_subject)
+        send_message(sender_id, msg_subject)
+        question, QID = qa_model.pickSubjectRandomQuestion("gre")
         update_status(mysql, sender_id, 0)
         insert_question(mysql, sender_id,QID, payload)
         send_starting_question(sender_id)
