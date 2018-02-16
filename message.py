@@ -171,6 +171,12 @@ def send_hint(recipient_id, main_text, qa_model, qid):
                     "title": str(x),
                     "payload": "DKB"
                 })
+    for x in qa_model.AKB[qid]:
+        options.append({
+                    "content_type": "text",
+                    "title": str(x),
+                    "payload": "AKB"
+                })
     random.shuffle(options)
     options.append({
                     "content_type": "text",
