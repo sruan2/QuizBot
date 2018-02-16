@@ -163,28 +163,14 @@ def send_interesting(recipient_id, main_text):
         log(r.text)
 
 def send_hint(recipient_id, main_text, qa_model, qid):
-    options = [
-                {
+
+    options = []
+    for x in qa_model.DKB[qid]:
+        options.append({
                     "content_type": "text",
-                    "title": str(qa_model.D1KB[qid]),
-                    "payload": "D1KB"
-                },
-                {
-                    "content_type": "text",
-                    "title": str(qa_model.D2KB[qid]),
-                    "payload": "D2KB"
-                },
-                {
-                    "content_type": "text",
-                    "title": str(qa_model.D3KB[qid]),
-                    "payload": "D3KB"
-                },
-                {
-                    "content_type": "text",
-                    "title": str(qa_model.AKB[qid][0]),
-                    "payload": "AKB"
-                },
-            ]
+                    "title": str(x),
+                    "payload": "DKB"
+                })
     random.shuffle(options)
     options.append({
                     "content_type": "text",
@@ -342,6 +328,11 @@ def choose_subject_quick_reply(recipient_id, main_text):
                     "content_type": "text",
                     "title": "Geology ⛰",
                     "payload": "GEOLOGY"
+                },
+                {
+                    "content_type": "text",
+                    "title": "GRE 🔠",
+                    "payload": "GRE"
                 },
                 {
                     "content_type": "text",

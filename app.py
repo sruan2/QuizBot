@@ -182,8 +182,7 @@ if __name__ == '__main__':
     doc2vec = 'model_pre_trained/model_d2v_v1'
     pkl_file = 'model_pre_trained/glove/glove.6B.100d.pkl'
     # QA json data
-    json_file = 'SciQdataset-23/230questions.json'
-    json_file_gre = 'SciQdataset-23/kmf_gre50.json'
+    json_file = 'SciQdataset-23/230_gre.json'
     
     qa_kb = QAKnowledgebase.ConstructQA(json_file)
 
