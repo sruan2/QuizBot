@@ -152,8 +152,8 @@ def webhook():
     return "ok", 200
 
 
-with app.app_context():
-    reminder.RepeatedTimer(86400.0, message.send_reminder, database.show_inactive_user(mysql))
+#with app.app_context():
+#    reminder.RepeatedTimer(86400.0, message.send_reminder, database.show_inactive_user(mysql))
 
 # ================== SET UP ==================
 def setup_app(app):
@@ -183,6 +183,7 @@ if __name__ == '__main__':
     pkl_file = 'model_pre_trained/glove/glove.6B.100d.pkl'
     # QA json data
     json_file = 'SciQdataset-23/230questions.json'
+    json_file_gre = 'SciQdataset-23/kmf_gre50.json'
     
     qa_kb = QAKnowledgebase.ConstructQA(json_file)
 
