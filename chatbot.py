@@ -2,7 +2,7 @@
 from message import *
 from database import *
 import random
-from leaderboard.generate_leaderboard import *
+#from leaderboard.generate_leaderboard import *
 
 
 # ================= Chatbot's reply to a postback =================
