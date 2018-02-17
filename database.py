@@ -100,14 +100,24 @@ def show_last_qid_subject(mysql, user_id):
     return (rows[0][0] if len(rows) > 0 else -1, rows[0][1] if len(rows) > 0 else 'no record')
 
 # show top 10 in leaderboard
-def show_top_10(mysql):
+def show_top_5(mysql):
     cur = mysql.connection.cursor() 
     cur.execute("select t2.user_firstname,t2.user_lastname,t1.sc from \
-        (select user_id, sum(score) as sc from scores group by user_id order by sc desc limit 10) t1 join users t2 on t2.user_id = t1.user_id \
+        (select user_id, sum(score) as sc from scores group by user_id order by sc desc limit 5) t1 join users t2 on t2.user_id = t1.user_id \
          order by t1.sc desc")
 
     rows = cur.fetchall();
     return rows
+
+def show_current_ranking(mysql, id):
+    cur = mysql.connection.cursor() 
+    cur.execute("SELECT user_firstname, user_lastname, sc, rn from \
+        (SELECT  user_id, sc, @uid:=@uid+1 AS rn FROM (SELECT @uid:= 0) s, (select user_id, sum(score) as sc from \
+            scores group by user_id order by sc desc) a ) t1 join users t2 on t2.user_id = t1.user_id and t1.user_id = id")
+
+    rows = cur.fetchall();
+    return rows
+
 
 # show users who are inactive for the last 24hr
 def show_inactive_user(mysql):
