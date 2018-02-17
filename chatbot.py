@@ -27,6 +27,7 @@ def respond_to_postback(payload, message_text, sender_id, qa_model, mysql):
         records = show_top_5(mysql)
         sentence = ("\n").join(["No." + str(i + 1) + " " + str(records[i][0]+' '+records[i][1]) + ": " + str(records[i][2]) for i in range(len(records))])
         send_gotit_quickreply(sender_id, "Leaderboard: \n" + sentence) 
+        
     
     elif payload == "YUP_IM_READY" or payload == "CONTINUE":
         update_status(mysql, sender_id, 1)
@@ -207,77 +208,77 @@ def respond_to_messagetext(message_text, sender_id, qa_model, mysql):
 
     if message_text == "Practice Mode "+u'\u270F':
         choose_subject_quick_reply(sender_id, "Now tell me which subject you would like to choose:"+u'\uD83D\uDC47') 
-        insert_question(mysql, sender_id,'-11','SWITCH_SUBJUECT')                                   
+        insert_question(mysql, sender_id,'-11','PRACTICE_MODE')                                   
 
-    elif message_text == "next question" or message_text == "got it, next!" or message_text[:4] == "sure":
+    # elif message_text == "next question" or message_text == "got it, next!" or message_text[:4] == "sure":
 
-        if show_status(mysql, sender_id):
-            last_subject = show_last_qid_subject(mysql, sender_id)[1]
-            if last_subject == 'random' or last_subject == 'no record':
-                question, QID = qa_model.pickRandomQuestion()
-            else:
-                question, QID = qa_model.pickSubjectRandomQuestion(last_subject)
-            update_status(mysql, sender_id, 0)
-            insert_question(mysql, sender_id,QID,last_subject)
-        else: 
-            QID = show_last_qid_subject(mysql, sender_id)[0]
-            question = qa_model.pickLastQuestion(QID)
-        send_starting_question(sender_id)    
-        send_a_question(sender_id, question) 
+    #     if show_status(mysql, sender_id):
+    #         last_subject = show_last_qid_subject(mysql, sender_id)[1]
+    #         if last_subject == 'random' or last_subject == 'no record':
+    #             question, QID = qa_model.pickRandomQuestion()
+    #         else:
+    #             question, QID = qa_model.pickSubjectRandomQuestion(last_subject)
+    #         update_status(mysql, sender_id, 0)
+    #         insert_question(mysql, sender_id,QID,last_subject)
+    #     else: 
+    #         QID = show_last_qid_subject(mysql, sender_id)[0]
+    #         question = qa_model.pickLastQuestion(QID)
+    #     send_starting_question(sender_id)    
+    #     send_a_question(sender_id, question) 
 
-    elif "yup! i'm ready!" in message_text:
-        update_status(mysql, sender_id, 1)
-        choose_mode_quick_reply(sender_id) 
+    # elif "yup! i'm ready!" in message_text:
+    #     update_status(mysql, sender_id, 1)
+    #     choose_mode_quick_reply(sender_id) 
 
 
-    elif message_text[:4] == "why":
-        support_sentence = qa_model.getSupport(QID)
-        send_why2_quickreply(sender_id, "Here's an explanation: " + support_sentence)
+    # elif message_text[:4] == "why":
+    #     support_sentence = qa_model.getSupport(QID)
+    #     send_why2_quickreply(sender_id, "Here's an explanation: " + support_sentence)
 
-    elif message_text == "check total score":
-        send_gotit_quickreply(sender_id, "Your accumulated points are "+str(show_score(mysql, sender_id)))
+    # elif message_text == "check total score":
+    #     send_gotit_quickreply(sender_id, "Your accumulated points are "+str(show_score(mysql, sender_id)))
 
-    elif message_text == "report bug":
-        insert_score(mysql, sender_id,-1,message_text,-1)
-        send_why2_quickreply(sender_id, "Thanks for letting us know. We will use your feedback to improve our algorithm! Now what would you like to do next?")
+    # elif message_text == "report bug":
+    #     insert_score(mysql, sender_id,-1,message_text,-1)
+    #     send_why2_quickreply(sender_id, "Thanks for letting us know. We will use your feedback to improve our algorithm! Now what would you like to do next?")
 
-    elif message_text == "physics":
-        question, QID = qa_model.pickSubjectRandomQuestion(message_text)
-        update_status(mysql, sender_id, 0)
-        insert_question(mysql, sender_id,QID,message_text.lower())
-        send_starting_question(sender_id)
-        send_a_question(sender_id, question)
+    # elif message_text == "physics":
+    #     question, QID = qa_model.pickSubjectRandomQuestion(message_text)
+    #     update_status(mysql, sender_id, 0)
+    #     insert_question(mysql, sender_id,QID,message_text.lower())
+    #     send_starting_question(sender_id)
+    #     send_a_question(sender_id, question)
 
-    elif message_text == "chemistry":
-        question, QID = qa_model.pickSubjectRandomQuestion(message_text)
-        update_status(mysql, sender_id, 0)
-        insert_question(mysql, sender_id,QID,message_text.lower())
-        send_starting_question(sender_id)
-        send_a_question(sender_id, question)
+    # elif message_text == "chemistry":
+    #     question, QID = qa_model.pickSubjectRandomQuestion(message_text)
+    #     update_status(mysql, sender_id, 0)
+    #     insert_question(mysql, sender_id,QID,message_text.lower())
+    #     send_starting_question(sender_id)
+    #     send_a_question(sender_id, question)
 
-    elif message_text == "biology":
-        question, QID = qa_model.pickSubjectRandomQuestion(message_text)
-        update_status(mysql, sender_id, 0)
-        insert_question(mysql, sender_id,QID,message_text.lower())
-        send_starting_question(sender_id)
-        send_a_question(sender_id, question)
+    # elif message_text == "biology":
+    #     question, QID = qa_model.pickSubjectRandomQuestion(message_text)
+    #     update_status(mysql, sender_id, 0)
+    #     insert_question(mysql, sender_id,QID,message_text.lower())
+    #     send_starting_question(sender_id)
+    #     send_a_question(sender_id, question)
 
-    elif message_text == "geology":
-        question, QID = qa_model.pickSubjectRandomQuestion(message_text)
-        update_status(mysql, sender_id, 0)
-        insert_question(mysql, sender_id,QID,message_text)
-        send_starting_question(sender_id)
-        send_a_question(sender_id, question)
+    # elif message_text == "geology":
+    #     question, QID = qa_model.pickSubjectRandomQuestion(message_text)
+    #     update_status(mysql, sender_id, 0)
+    #     insert_question(mysql, sender_id,QID,message_text)
+    #     send_starting_question(sender_id)
+    #     send_a_question(sender_id, question)
     
-    elif message_text == "random":
-        question, QID = qa_model.pickRandomQuestion()
-        update_status(mysql, sender_id, 0)
-        insert_question(mysql, sender_id, QID, message_text)
-        send_starting_question(sender_id)
-        send_a_question(sender_id, question)
+    # elif message_text == "random":
+    #     question, QID = qa_model.pickRandomQuestion()
+    #     update_status(mysql, sender_id, 0)
+    #     insert_question(mysql, sender_id, QID, message_text)
+    #     send_starting_question(sender_id)
+    #     send_a_question(sender_id, question)
 
-    elif message_text == 'switch subject':
-        choose_subject_quick_reply(sender_id, "Now tell me which subject you would like to choose:"+u'\uD83D\uDC47')
+    # elif message_text == 'switch subject':
+    #     choose_subject_quick_reply(sender_id, "Now tell me which subject you would like to choose:"+u'\uD83D\uDC47')
 
     else: # user's respons in natural language    
         if not show_status(mysql, sender_id):
