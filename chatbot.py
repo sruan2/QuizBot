@@ -24,7 +24,7 @@ def respond_to_postback(payload, message_text, sender_id, qa_model, mysql):
         send_gotit_quickreply(sender_id, "Your total score is "+str(score)+". Keep moving!") 
 
     elif payload == "MENU_LEADERBOARD":
-        records = show_top_10(mysql)
+        records = show_top_5(mysql)
         sentence = ("\n").join(["No." + str(i + 1) + " " + str(records[i][0]+' '+records[i][1]) + ": " + str(records[i][2]) for i in range(len(records))])
         send_gotit_quickreply(sender_id, "Leaderboard: \n" + sentence) 
     
