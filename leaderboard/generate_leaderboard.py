@@ -19,7 +19,7 @@ def generate(top_5_users, current_user, background_url = 'https://www.smartprime
         '<div class="place3"><div class="top-rank">3</div><div class="name">'+names[2]+'</div><div class="score">'+str(top_5_users[2][2])+'</div></div>' + \
         '<div class="place4"><div class="top-rank">4</div><div class="name">'+names[3]+'</div><div class="score">'+str(top_5_users[3][2])+'</div></div>' + \
         '<div class="place5"><div class="top-rank">5</div><div class="name">'+names[4]+'</div><div class="score">'+str(top_5_users[4][2])+'</div></div>' + \
-        '<div class="you"><div class="your-rank">'+str(current_user[3])+'</div><div class="name">'+current_user[0]+' '+current_user[1]+'</div><div class="score">'+str(current_user[2])+'</div></div></div>'
+        '<div class="you"><div class="your-rank">'+str(int(current_user[3]))+'</div><div class="name">'+current_user[0]+' '+current_user[1]+'</div><div class="score">'+str(current_user[2])+'</div></div></div>'
     html = font + css + body
     options = {
         'format': 'png',
