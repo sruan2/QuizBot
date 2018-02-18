@@ -31,8 +31,8 @@ def generate(top_5_users, current_user, background_url = 'https://www.smartprime
         # 'xvfb': ''
     }
     output_name = 'leaderboard_'+uuid.uuid4().hex+'.png'
-    output_location = 'https://www.smartprimer.org:8443/leaderboard/'
-    imgkit.from_string(html, "./leaderboard/"+output_name, options=options)
+    output_location = 'https://www.smartprimer.org:8443/pictures/'
+    imgkit.from_string(html, "./pictures/"+output_name, options=options)
     print (output_location + output_name)
     return output_location + output_name
 
