@@ -116,7 +116,7 @@ def show_current_ranking(mysql, id):
             scores group by user_id order by sc desc) a ) t1 join users t2 on t2.user_id = t1.user_id and t1.user_id = %s", [id])
 
     rows = cur.fetchall();
-    return rows
+    return rows[0]
 
 
 # show users who are inactive for the last 24hr
