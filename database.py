@@ -113,7 +113,7 @@ def show_current_ranking(mysql, id):
     cur = mysql.connection.cursor() 
     cur.execute("SELECT user_firstname, user_lastname, sc, rn from \
         (SELECT  user_id, sc, @uid:=@uid+1 AS rn FROM (SELECT @uid:= 0) s, (select user_id, sum(score) as sc from \
-            scores group by user_id order by sc desc) a ) t1 join users t2 on t2.user_id = t1.user_id and t1.user_id = id")
+            scores group by user_id order by sc desc) a ) t1 join users t2 on t2.user_id = t1.user_id and t1.user_id = %s", [id])
 
     rows = cur.fetchall();
     return rows
