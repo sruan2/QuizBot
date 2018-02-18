@@ -30,9 +30,9 @@ def generate(top_5_users, current_user, background_url = 'https://www.smartprime
         'zoom': 0.5,        # reduce dimensions in half
         # 'xvfb': ''
     }
-    output_name = './leaderboard/leaderboard_'+uuid.uuid4().hex+'.png'
+    output_name = 'leaderboard_'+uuid.uuid4().hex+'.png'
     output_location = 'https://www.smartprimer.org:8443/leaderboard/'
-    imgkit.from_string(html, output_name, options=options)
+    imgkit.from_string(html, "./leaderboard/"+output_name, options=options)
     return output_location + output_name
 
 if __name__ == "__main__":
