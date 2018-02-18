@@ -29,7 +29,7 @@ def respond_to_postback(payload, message_text, sender_id, qa_model, mysql):
         cur_ranking = show_current_ranking(mysql, sender_id)
         sentence = ("\n").join(["No." + str(i + 1) + " " + str(records[i][0]+' '+records[i][1]) + ": " + str(records[i][2]) for i in range(len(records))])
         send_gotit_quickreply(sender_id, "Leaderboard: \n" + sentence)
-        send_picture(sender_id, generate(records, cur_ranking), "", "") 
+        send_picture(sender_id, str(generate(records, cur_ranking)), "", "") 
         
     
     elif payload == "YUP_IM_READY" or payload == "CONTINUE":
