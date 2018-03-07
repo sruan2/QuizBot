@@ -223,11 +223,27 @@ def respond_to_messagetext(message_text, sender_id, qa_model, mysql):
                 question, QID = qa_model.pickRandomQuestion()
             update_status(mysql, sender_id, 0)
             insert_question(mysql, sender_id,QID,last_subject)
+            send_starting_question(sender_id)
+            send_a_question(sender_id, question)
         else: 
-            QID = show_last_qid_subject(mysql, sender_id)[0]
-            question = qa_model.pickLastQuestion(QID)
-        send_starting_question(sender_id)
-        send_a_question(sender_id, question)
+            standard_answer = qa_model.getAnswer(QID)
+            score = qa_model.compute_score(message_text, QID)
+            if score < 5:
+                msglist_incorrect = ["I'm sorry, but that was incorrect. You didn't earn any points 😞",
+                                    "That's not quite right. You didn't earn any points 😞"]
+                send_message(sender_id, random.choice(msglist_incorrect))
+                #insert_score(mysql, sender_id, QID, message_text, 0)
+            elif score < 10:
+                send_message(sender_id, "You earned "+str(score)+ " points!")
+            else:
+                msglist_correct = ["That’s right! 🎉", "Correct! 🎊" or "Good job! 🙌"]
+                msg_correct = random.choice(msglist_correct)
+                send_message(sender_id, msg_correct)
+                send_message(sender_id, "You earned 10 points!")
+            send_correct_answer(sender_id, QID, standard_answer)
+            insert_score(mysql, sender_id, QID, message_text, score)
+            update_status(mysql, sender_id, 1) 
+        
 
     # elif "yup! i'm ready!" in message_text:
     #     update_status(mysql, sender_id, 1)
