@@ -212,21 +212,22 @@ def respond_to_messagetext(message_text, sender_id, qa_model, mysql):
         choose_subject_quick_reply(sender_id, "Now tell me which subject you would like to choose:"+u'\uD83D\uDC47') 
         insert_question(mysql, sender_id,'-11','PRACTICE_MODE')                                   
 
-    # elif message_text == "next question" or message_text == "got it, next!" or message_text[:4] == "sure":
-
-    #     if show_status(mysql, sender_id):
-    #         last_subject = show_last_qid_subject(mysql, sender_id)[1]
-    #         if last_subject == 'random' or last_subject == 'no record':
-    #             question, QID = qa_model.pickRandomQuestion()
-    #         else:
-    #             question, QID = qa_model.pickSubjectRandomQuestion(last_subject)
-    #         update_status(mysql, sender_id, 0)
-    #         insert_question(mysql, sender_id,QID,last_subject)
-    #     else: 
-    #         QID = show_last_qid_subject(mysql, sender_id)[0]
-    #         question = qa_model.pickLastQuestion(QID)
-    #     send_starting_question(sender_id)    
-    #     send_a_question(sender_id, question) 
+    elif message_text == "next question" or message_text == "got it, next!" or message_text[:4] == "sure":
+        QID, _ = show_last_qid_subject(mysql, sender_id) # retrieve the qid and the subject from database
+        if show_status(mysql, sender_id):
+            last_subject = show_last_qid_subject(mysql, sender_id)[1]
+            #if last_subject == 'random' or last_subject == 'no record':
+            if last_subject in ["PHYSICS", "CHEMISTRY", "BIOLOGY", "GEOLOGY", "GRE"]:
+                question, QID = qa_model.pickSubjectRandomQuestion(last_subject)
+            else:
+                question, QID = qa_model.pickRandomQuestion()
+            update_status(mysql, sender_id, 0)
+            insert_question(mysql, sender_id,QID,last_subject)
+        else: 
+            QID = show_last_qid_subject(mysql, sender_id)[0]
+            question = qa_model.pickLastQuestion(QID)
+        send_starting_question(sender_id)
+        send_a_question(sender_id, question)
 
     # elif "yup! i'm ready!" in message_text:
     #     update_status(mysql, sender_id, 1)
