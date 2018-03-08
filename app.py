@@ -76,8 +76,8 @@ def webhook():
                     sender_id = messaging_event["sender"]["id"]        # the facebook ID of the person sending you the message
                     recipient_id = messaging_event["recipient"]["id"]  # the recipient's ID, which should be your page's facebook ID
                     
-                    if sender_id == os.environ["CHATBOT_ID"]: # return if this message is sent from the chatbot
-                        return "Chatbot ID", 200
+                    # if sender_id == os.environ["CHATBOT_ID"]: # return if this message is sent from the chatbot
+                    #     return "Chatbot ID", 200
 
                     data = get_user_profile(sender_id)
                     sender_firstname = data['first_name']
