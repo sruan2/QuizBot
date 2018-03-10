@@ -38,6 +38,10 @@ def send_pictures(path):
     return send_from_directory('pictures', path)
 
 
+@app.route('/tmp/pictures/<path:path>')
+def send_lb_pictures(path):
+    return send_from_directory('/tmp/pictures', path)
+
 @app.route('/test', methods=['GET'])
 def test():
     return "test", 200
