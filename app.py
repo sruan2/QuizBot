@@ -102,7 +102,7 @@ def webhook():
                         chatbot.respond_to_postback(payload, message_text, sender_id, qa_model, mysql)
 
                     
-                    elif messaging_event.get("message"): 
+                    elif messaging_event.get("message"):  
                         # user clicked/tapped "postback" button in earlier message
                         if "quick_reply" in messaging_event.get("message"): 
                             payload = messaging_event["message"]["quick_reply"]["payload"] # the button's payload
