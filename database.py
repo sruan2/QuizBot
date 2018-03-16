@@ -100,11 +100,36 @@ def show_last_qid_subject(mysql, user_id):
     return (rows[0][0] if len(rows) > 0 else -1, rows[0][1] if len(rows) > 0 else 'no record')
 
 # show top 10 in leaderboard
-def show_top_10(mysql):
+def show_top_5(mysql):
     cur = mysql.connection.cursor() 
     cur.execute("select t2.user_firstname,t2.user_lastname,t1.sc from \
-        (select user_id, sum(score) as sc from scores group by user_id having sum(score) != 0 order by sc desc limit 10) t1 join users t2 on t2.user_id = t1.user_id \
-         order by t1.sc desc")
+        (select user_id, sum(score) as sc from scores group by user_id order by sc desc) t1 join users t2 on t2.user_id = t1.user_id \
+         order by t1.sc desc limit 5")
 
     rows = cur.fetchall();
     return rows
+
+def show_current_ranking(mysql, id):
+    cur = mysql.connection.cursor() 
+    cur.execute("SELECT user_firstname, user_lastname, sc, rn from \
+        (SELECT  user_id, sc, @uid:=@uid+1 AS rn FROM (SELECT @uid:= 0) s, (select user_id, sum(score) as sc from \
+            scores group by user_id order by sc desc) a ) t1 join users t2 on t2.user_id = t1.user_id and t1.user_id = %s", [id])
+
+    rows = cur.fetchall();
+    return rows[0]
+
+
+# show users who are inactive for the last 24hr
+def show_inactive_user(mysql):
+    date_format_time = "%Y-%m-%d %H:%M:%S"
+    date_format_sql = "%Y-%m-%d %H:%i:%s"
+    current_datetime = strftime(date_format_time, gmtime())
+    cur = mysql.connection.cursor() 
+    cur.execute("select distinct s.user_id, user_firstname from users, (select user_id, max(r_time) as r_time from scores group by user_id) s \
+        where STR_TO_DATE(%s, %s) - STR_TO_DATE(r_time, %s) > 1000000 limit 10;", [current_datetime, date_format_sql, date_format_sql])
+
+    rows = cur.fetchall();
+    return rows
+
+
+

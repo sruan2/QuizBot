@@ -13,6 +13,8 @@ import message
 import database
 import chatbot
 import speech
+import time
+import reminder
 
 # hide http print
 import logging
@@ -36,6 +38,10 @@ def send_pictures(path):
     return send_from_directory('pictures', path)
 
 
+@app.route('/tmp/pictures/<path:path>')
+def send_lb_pictures(path):
+    return send_from_directory('./tmp/pictures', path)
+
 @app.route('/test', methods=['GET'])
 def test():
     return "test", 200
@@ -52,23 +58,11 @@ def verify():
     return "Hello world", 200
 
 
-@app.route('/', methods=['GET'])
-def get_user_profile(recipient_id):
-    # based on user id retrive user name
-    # could protentially retive more user profile, e.g. profile_pic, locale, timezone, gender, last_ad_referral, etc.
-    #print("[QUIZBOT] PID " + str(os.getpid())+": Getting user profile from user_id: {recipient}".format(recipient=recipient_id))
-    r = requests.get("https://graph.facebook.com/v2.6/{psid}?fields=first_name,last_name,gender&access_token={token}".format(psid=recipient_id,token=os.environ["PAGE_ACCESS_TOKEN"]))
-    if r.status_code != 200:
-        print(r.status_code)
-        print(r.text)
-        return
-    data = json.loads(r.text)
-    return data
-
 
 @app.route('/', methods=['POST'])
 def webhook():
 
+    
     #print("[QUIZBOT] PID " + str(os.getpid())+": Enter webhook") # endpoint for processing incoming messaging events
     data = request.get_json()
     
@@ -86,13 +80,16 @@ def webhook():
                     sender_id = messaging_event["sender"]["id"]        # the facebook ID of the person sending you the message
                     recipient_id = messaging_event["recipient"]["id"]  # the recipient's ID, which should be your page's facebook ID
                     
-                    if sender_id == os.environ["CHATBOT_ID"]: # return if this message is sent from the chatbot
-                        return "Chatbot ID", 200
+                    # if sender_id == os.environ["CHATBOT_ID"]: # return if this message is sent from the chatbot
+                    #     return "Chatbot ID", 200
 
                     data = get_user_profile(sender_id)
                     sender_firstname = data['first_name']
                     sender_lastname = data['last_name']
-                    sender_gender = data['gender']
+                    if 'gender' in data:
+                        sender_gender = data['gender']
+                    else:
+                        sender_gender = 'unknown'
                     #print("[QUIZBOT] PID " + str(os.getpid())+": Talking to " + sender_firstname)
 
                     # user clicked/tapped "postback" button in Persistent menu
@@ -119,11 +116,18 @@ def webhook():
                         elif "attachments" in messaging_event.get("message"): 
                             if messaging_event["message"]["attachments"][0]["type"] == "audio": # only getting the first attachment
                                 print("[QUIZBOT] PID " + str(os.getpid())+": Received an AUDIO attachment")
+                                receive_time = time.time()
+                                #print("FB received audio: " + str(receive_time))
                                 audio_url = messaging_event["message"]["attachments"][0]["payload"]["url"]
+                                print("url is "+ audio_url)
                                 final_result = speech.transcribe(audio_url)
-                                print("[QUIZBOT] PID " + str(os.getpid())+": Transcribed Text is \""+final_result+"\"")
+                                #print("[QUIZBOT] PID " + str(os.getpid())+": Transcribed Text is \""+final_result+"\"")
+                                finish_time = time.time()
+                                #print("FB received transcription: " + str(finish_time))
+                                print("Total time: " + str(finish_time-receive_time))
                                 if final_result != "":
                                     message.send_message(sender_id, "You said: " + final_result)
+                                    #print("FB print out transcription: " + str(time.time()))
                                 else:
                                     message.send_message(sender_id, "Sorry, I could not recognize it :/")
                                 chatbot.respond_to_messagetext(final_result, sender_id, qa_model, mysql)
@@ -149,11 +153,28 @@ def webhook():
     return "ok", 200
 
 
+#with app.app_context():
+#    reminder.RepeatedTimer(86400.0, message.send_reminder, database.show_inactive_user(mysql))
+
 # ================== SET UP ==================
 def setup_app(app):
     print("[QUIZBOT] PID " + str(os.getpid())+": ============ Start the app ============")
     message.greeting()
     message.persistent_menu()
+
+
+def get_user_profile(recipient_id):
+    # based on user id retrive user name
+    # could protentially retive more user profile, e.g. profile_pic, locale, timezone, gender, last_ad_referral, etc.
+    #print("[QUIZBOT] PID " + str(os.getpid())+": Getting user profile from user_id: {recipient}".format(recipient=recipient_id))
+    r = requests.get("https://graph.facebook.com/v2.6/{psid}?fields=first_name,last_name,gender&access_token={token}".format(psid=recipient_id,token=os.environ["PAGE_ACCESS_TOKEN"]))
+    if r.status_code != 200:
+        print(r.status_code)
+        print(r.text)
+        return
+    data = json.loads(r.text)
+    return data
+
 
 setup_app(app)
 
@@ -162,7 +183,7 @@ if __name__ == '__main__':
     doc2vec = 'model_pre_trained/model_d2v_v1'
     pkl_file = 'model_pre_trained/glove/glove.6B.100d.pkl'
     # QA json data
-    json_file = 'SciQdataset-23/230questions.json'
+    json_file = 'QAdataset/230_gre.json'
     
     qa_kb = QAKnowledgebase.ConstructQA(json_file)
 

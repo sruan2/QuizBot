@@ -1,5 +1,6 @@
-
+wkhtmltox/
 gcloud_speech/*
+fonts/
 
 # Mac
 **/.DS_Store
@@ -118,3 +119,5 @@ venv
 # Shell scripts
 *.sh
 
+# tmp files
+tmp/

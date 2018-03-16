@@ -10,9 +10,7 @@ class ConstructQA():
         self.QKB = [] # question
         self.SKB = [] # support
         self.AKB = [] # correct answer (NOTE THIS IS A LIST!)
-        self.D1KB = [] # distractor 1
-        self.D2KB = [] # distractor 2
-        self.D3KB = [] # distractor 3
+        self.DKB = [] # distractor 1
         self.SubKB = [] # subject
         self.DifficultyKB = [] # difficulty level
         self.SubDict = {} # subject dict
@@ -22,9 +20,7 @@ class ConstructQA():
             self.QKB.append(entry["question"])
             self.AKB.append(entry["correct_answer"])
             self.SKB.append(entry["support"])
-            self.D1KB.append(entry["distractor1"])
-            self.D2KB.append(entry["distractor2"])
-            self.D3KB.append(entry["distractor3"])
+            self.DKB.append(entry["distractor"])
             self.SubKB.append(entry["subject"])
             self.DifficultyKB.append(entry["difficulty"])
         self.appendSubDict()

@@ -3,6 +3,8 @@ import json
 import requests
 import sys
 import random
+from time import gmtime, strftime
+
 
 def send_picture(user_id, imageUrl, title="", subtitle=""):
     print("sending pictures")
@@ -40,15 +42,11 @@ def send_picture(user_id, imageUrl, title="", subtitle=""):
     if r.status_code != requests.codes.ok:
         print(r.text)    
 
-def send_a_question(recipient_id, question):
-
-    starting_part = ["Here's a question for you:\n",
-                     "Let's try this one:\n",
-                     "Could you answer this one for me?\n",
-                     "Let's see if you can get this one:\n"]
-
-    ending_part = "\nPlease note that you will earn at most 3 points if you ask for a hint!"
-
+def send_starting_question(recipient_id):
+    starting_part = ["Here's a question for you:",
+                     "Let's try this one:",
+                     "Could you answer this one for me?",
+                     "Let's see if you can get this one:"]  
     params = {
         "access_token": os.environ["PAGE_ACCESS_TOKEN"]
     }
@@ -60,7 +58,40 @@ def send_a_question(recipient_id, question):
             "id": recipient_id
         },
         "message": {
-            "text": random.choice(starting_part) + "\n\""+question+"\"\n" + ending_part,
+            "text": random.choice(starting_part),
+            "quick_replies": [
+                {
+                    "content_type": "text",
+                    "title": "I need a hint 🤔",
+                    "payload": "I_NEED_A_HINT"
+                },
+                {
+                    "content_type": "text",
+                    "title": "I don’t know 😓",
+                    "payload": "I_DONT_KNOW"
+                }
+            ]
+        }
+    })
+    r = requests.post("https://graph.facebook.com/v2.6/me/messages", params=params, headers=headers, data=data)
+    if r.status_code != 200:
+        log(r.status_code)
+        log(r.text)
+
+def send_a_question(recipient_id, question):
+    #ending_part = "\nPlease note that you will earn at most 3 points if you ask for a hint!"
+    params = {
+        "access_token": os.environ["PAGE_ACCESS_TOKEN"]
+    }
+    headers = {
+        "Content-Type": "application/json"
+    }
+    data = json.dumps({
+        "recipient": {
+            "id": recipient_id
+        },
+        "message": {
+            "text": question,
             "quick_replies": [
                 {
                     "content_type": "text",
@@ -132,28 +163,20 @@ def send_interesting(recipient_id, main_text):
         log(r.text)
 
 def send_hint(recipient_id, main_text, qa_model, qid):
-    options = [
-                {
+
+    options = []
+    for x in qa_model.DKB[qid]:
+        options.append({
                     "content_type": "text",
-                    "title": str(qa_model.D1KB[qid]),
-                    "payload": "D1KB"
-                },
-                {
+                    "title": str(x),
+                    "payload": "DKB"
+                })
+    for x in qa_model.AKB[qid]:
+        options.append({
                     "content_type": "text",
-                    "title": str(qa_model.D2KB[qid]),
-                    "payload": "D2KB"
-                },
-                {
-                    "content_type": "text",
-                    "title": str(qa_model.D3KB[qid]),
-                    "payload": "D3KB"
-                },
-                {
-                    "content_type": "text",
-                    "title": str(qa_model.AKB[qid][0]),
+                    "title": str(x),
                     "payload": "AKB"
-                },
-            ]
+                })
     random.shuffle(options)
     options.append({
                     "content_type": "text",
@@ -314,6 +337,11 @@ def choose_subject_quick_reply(recipient_id, main_text):
                 },
                 {
                     "content_type": "text",
+                    "title": "GRE 🔠",
+                    "payload": "GRE"
+                },
+                {
+                    "content_type": "text",
                     "title": "Random 🎲",
                     "payload": "RANDOM"                
                 }
@@ -359,7 +387,7 @@ def send_correct_answer(recipient_id, QID, standard_answer):
                 },
                 {
                     "content_type": "text",
-                    "title": "Wait, I got it right 😡",
+                    "title": "Wait, I'm right 😡",
                     "payload": "REPORT_BUG"
                 },                 
             ]
@@ -433,6 +461,36 @@ def send_bugreport(recipient_id, text):
     if r.status_code != 200:
         log(r.status_code)
         log(r.text)        
+
+def send_reminder(list):
+    for recipient_id, user_name in list:
+        params = {
+            "access_token": os.environ["PAGE_ACCESS_TOKEN"]
+        }
+        headers = {
+            "Content-Type": "application/json"
+        }
+        data = json.dumps({
+            "recipient": {
+                "id": recipient_id
+            },
+            "message": {
+                "text": user_name + ", you haven't talked to me for more than a day, would you like to continue the conversation with me now?",
+                "quick_replies": [
+                    {
+                        "content_type": "text",
+                        "title": "Continue 💪",
+                        "payload": "CONTINUE"
+                    }
+                ]
+            }
+        })
+        r = requests.post("https://graph.facebook.com/v2.6/me/messages", params=params, headers=headers, data=data)
+        if r.status_code != 200:
+            log(r.status_code)
+            log(r.text)    
+        else:
+            print("[QUIZBOT] PID " + str(os.getpid())+": Sent Reminder To " + str(user_name) + " With ID " + str(recipient_id) + " At " + strftime("%Y-%m-%d %H:%M:%S", gmtime()))
 
 def send_why2_quickreply(recipient_id, support_sentence):
     params = {
