@@ -103,8 +103,6 @@ def webhook():
 
                     
                     elif messaging_event.get("message"):  
-
-
                         # user clicked/tapped "postback" button in earlier message
                         if "quick_reply" in messaging_event.get("message"): 
                             payload = messaging_event["message"]["quick_reply"]["payload"] # the button's payload
