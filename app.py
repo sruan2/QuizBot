@@ -132,7 +132,6 @@ def webhook():
                                     message.send_message(sender_id, "Sorry, I could not recognize it :/")
                                 chatbot.respond_to_messagetext(final_result, sender_id, qa_model, mysql)
 
-
                         # someone sent us a message
                         elif not "text" in messaging_event["message"]:
                             return "key error", 200
