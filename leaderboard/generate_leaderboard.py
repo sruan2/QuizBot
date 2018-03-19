@@ -17,8 +17,8 @@ def generate(top_5_users, current_user, background_url = 'https://www.smartprime
     css = '<style>.place5,.place1,.place4,.place2,.place3,.you{position:absolute}.container{font-size:1.8em;font-family:Raleway,sans-serif}.top-rank,.your-rank{left:60px;font-size:1.2em}.place1{top:220px}.place2{top:319px}.place3{top:418px}.place4{top:517px}.place5{top:616px}.you{top:745px}.name,.score,.top-rank,.your-rank{position:relative}.your-rank{color:orange}.name{left:130px;bottom:34px}.score{left:350px;bottom:68px}</style>'
     body ='<div class="container"><img src="'+background_url+'"/>' 
         
-    for i in range(1, maxLen+1):
-        body += '<div class="place1"><div class="top-rank">' + str(i) + '</div><div class="score">'+str(top_5_users[i][2])+'</div></div>'
+    for i in range(maxLen):
+        body += '<div class="place1"><div class="top-rank">' + str(i+1) + '</div><div class="score">'+str(top_5_users[i][2])+'</div></div>'
 
     body += '<div class="you"><div class="your-rank">'+str(int(current_user[3]))+'</div><div class="name">'+current_user[0]+' '+current_user[1]+'</div><div class="score">'+str(current_user[2])+'</div></div></div>'
     html = font + css + body
