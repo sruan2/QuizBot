@@ -10,16 +10,16 @@ def generate(top_5_users, current_user, background_url = 'https://www.smartprime
     Returns:
         output_url (str): URL of the output image.
     """
-    names = [top_5_users[i][0]+' '+top_5_users[i][1] for i in range(5)]
+    length = max(5, len(top_5_users))
+    names = [top_5_users[i][0]+' '+top_5_users[i][1] for i in range(length)]
     font = '<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">'
     css = '<style>.place5,.place1,.place4,.place2,.place3,.you{position:absolute}.container{font-size:1.8em;font-family:Raleway,sans-serif}.top-rank,.your-rank{left:60px;font-size:1.2em}.place1{top:220px}.place2{top:319px}.place3{top:418px}.place4{top:517px}.place5{top:616px}.you{top:745px}.name,.score,.top-rank,.your-rank{position:relative}.your-rank{color:orange}.name{left:130px;bottom:34px}.score{left:350px;bottom:68px}</style>'
-    body ='<div class="container"><img src="'+background_url+'"/>' + \
-        '<div class="place1"><div class="top-rank">1</div><div class="name">'+names[0]+'</div><div class="score">'+str(top_5_users[0][2])+'</div></div>' + \
-        '<div class="place2"><div class="top-rank">2</div><div class="name">'+names[1]+'</div><div class="score">'+str(top_5_users[1][2])+'</div></div>' + \
-        '<div class="place3"><div class="top-rank">3</div><div class="name">'+names[2]+'</div><div class="score">'+str(top_5_users[2][2])+'</div></div>' + \
-        '<div class="place4"><div class="top-rank">4</div><div class="name">'+names[3]+'</div><div class="score">'+str(top_5_users[3][2])+'</div></div>' + \
-        '<div class="place5"><div class="top-rank">5</div><div class="name">'+names[4]+'</div><div class="score">'+str(top_5_users[4][2])+'</div></div>' + \
-        '<div class="you"><div class="your-rank">'+str(int(current_user[3]))+'</div><div class="name">'+current_user[0]+' '+current_user[1]+'</div><div class="score">'+str(current_user[2])+'</div></div></div>'
+    body ='<div class="container"><img src="'+background_url+'"/>' 
+
+    for i in range(length):
+        body += '<div class="place'+str(i+1)+'"><div class="top-rank">'+str(i+1)+'</div><div class="name">'+names[i]+'</div><div class="score">'+str(top_5_users[i][2])+'</div></div>'
+
+    body += '<div class="you"><div class="your-rank">'+str(int(current_user[3]))+'</div><div class="name">'+current_user[0]+' '+current_user[1]+'</div><div class="score">'+str(current_user[2])+'</div></div></div>'
     html = font + css + body
     options = {
         'format': 'png',
