@@ -145,6 +145,18 @@ def respond_to_postback(payload, message_text, sender_id, qa_model, mysql):
         send_starting_question(sender_id)
         send_a_question(sender_id, question)
 
+    elif payload == "SAFETY":
+        msglist_subject = ["All right! I’ll quiz you on SAFETY!",
+                     "Okay! Let’s see how much you know about SAFETY!"]
+        msg_subject = random.choice(msglist_subject)
+        send_message(sender_id, msg_subject)
+        question, QID = qa_model.pickSubjectRandomQuestion("safety")
+        update_status(mysql, sender_id, 0)
+        insert_question(mysql, sender_id,QID, payload)
+        send_starting_question(sender_id)
+        send_a_question(sender_id, question)
+
+
     elif payload == "RANDOM":
         msglist_random =["Okay! Let’s mix it up! 🎲",
                      "All right! A little bit of everything! 🎲"]
@@ -183,7 +195,7 @@ def respond_to_postback(payload, message_text, sender_id, qa_model, mysql):
         if show_status(mysql, sender_id):
             last_subject = show_last_qid_subject(mysql, sender_id)[1]
             #if last_subject == 'random' or last_subject == 'no record':
-            if last_subject in ["PHYSICS", "CHEMISTRY", "BIOLOGY", "GEOLOGY", "GRE"]:
+            if last_subject in ["PHYSICS", "CHEMISTRY", "BIOLOGY", "GEOLOGY", "GRE", "SAFETY"]:
                 question, QID = qa_model.pickSubjectRandomQuestion(last_subject)
             else:
                 question, QID = qa_model.pickRandomQuestion()
@@ -217,7 +229,7 @@ def respond_to_messagetext(message_text, sender_id, qa_model, mysql):
         if show_status(mysql, sender_id):
             last_subject = show_last_qid_subject(mysql, sender_id)[1]
             #if last_subject == 'random' or last_subject == 'no record':
-            if last_subject in ["PHYSICS", "CHEMISTRY", "BIOLOGY", "GEOLOGY", "GRE"]:
+            if last_subject in ["PHYSICS", "CHEMISTRY", "BIOLOGY", "GEOLOGY", "GRE", "SAFETY"]:
                 question, QID = qa_model.pickSubjectRandomQuestion(last_subject)
             else:
                 question, QID = qa_model.pickRandomQuestion()
