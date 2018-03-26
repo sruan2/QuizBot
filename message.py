@@ -342,6 +342,11 @@ def choose_subject_quick_reply(recipient_id, main_text):
                 },
                 {
                     "content_type": "text",
+                    "title": "SAFETY ️🛠",
+                    "payload": "SAFETY"
+                },
+                {
+                    "content_type": "text",
                     "title": "Random 🎲",
                     "payload": "RANDOM"                
                 }
