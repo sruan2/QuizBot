@@ -94,7 +94,7 @@ def webhook():
                     if not int(sender_id) in database.show_user_id_list(mysql):
                         print("[QUIZBOT] PID " + str(os.getpid())+": This is a new user!")
                         database.insert_user(mysql, sender_id, sender_firstname, sender_lastname, sender_gender, 1)
-                        database.insert_score(mysql, sender_id, -1, message_text, 0)
+                        database.insert_score(mysql, sender_id, -1, "new_user", 0)
                         message.choose_mode_quick_reply(sender_id) 
                     #print("[QUIZBOT] PID " + str(os.getpid())+": Talking to " + sender_firstname)
 
