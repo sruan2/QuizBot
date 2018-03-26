@@ -142,6 +142,8 @@ def webhook():
                             print("[QUIZBOT] PID " + str(os.getpid())+": Message Text is \""+message_text+"\"")
                             
                             # first-time user
+                            print ("+"*60)
+                            print (sender_id)
                             if not int(sender_id) in database.show_user_id_list(mysql):
                                 print("[QUIZBOT] PID " + str(os.getpid())+": This is a new user!")
                                 database.insert_user(mysql, sender_id, sender_firstname, sender_lastname, sender_gender, 1)
