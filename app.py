@@ -80,12 +80,6 @@ def webhook():
                     sender_id = messaging_event["sender"]["id"]        # the facebook ID of the person sending you the message
                     recipient_id = messaging_event["recipient"]["id"]  # the recipient's ID, which should be your page's facebook ID
                     
-                    # first-time user
-                    if not int(sender_id) in database.show_user_id_list(mysql):
-                        print("[QUIZBOT] PID " + str(os.getpid())+": This is a new user!")
-                        database.insert_user(mysql, sender_id, sender_firstname, sender_lastname, sender_gender, 1)
-                        database.insert_score(mysql, sender_id, -1, message_text, 0)
-                        message.choose_mode_quick_reply(sender_id)       
                     # if sender_id == os.environ["CHATBOT_ID"]: # return if this message is sent from the chatbot
                     #     return "Chatbot ID", 200
 
@@ -146,7 +140,20 @@ def webhook():
                             message_text = messaging_event["message"]["text"]  # the message's text
                             print("[QUIZBOT] PID " + str(os.getpid())+": Received a MESSAGE")
                             print("[QUIZBOT] PID " + str(os.getpid())+": Message Text is \""+message_text+"\"")
-                            chatbot.respond_to_messagetext(message_text, sender_id, qa_model, mysql)
+                            
+                            # first-time user
+                            print ("= ="*60)
+                            print (sender_id)
+                            print ("= ="*60)
+                            print (database.show_user_id_list(mysql))
+                            if not int(sender_id) in database.show_user_id_list(mysql):
+                                print("[QUIZBOT] PID " + str(os.getpid())+": This is a new user!")
+                                database.insert_user(mysql, sender_id, sender_firstname, sender_lastname, sender_gender, 1)
+                                database.insert_score(mysql, sender_id, -1, message_text, 0)
+                                message.choose_mode_quick_reply(sender_id) 
+
+                            else:
+                                chatbot.respond_to_messagetext(message_text, sender_id, qa_model, mysql)
     return "ok", 200
 
 
