@@ -90,6 +90,12 @@ def webhook():
                         sender_gender = data['gender']
                     else:
                         sender_gender = 'unknown'
+                    # first-time user
+                    if not int(sender_id) in database.show_user_id_list(mysql):
+                        print("[QUIZBOT] PID " + str(os.getpid())+": This is a new user!")
+                        database.insert_user(mysql, sender_id, sender_firstname, sender_lastname, sender_gender, 1)
+                        database.insert_score(mysql, sender_id, -1, message_text, 0)
+                        message.choose_mode_quick_reply(sender_id) 
                     #print("[QUIZBOT] PID " + str(os.getpid())+": Talking to " + sender_firstname)
 
                     # user clicked/tapped "postback" button in Persistent menu
@@ -140,20 +146,7 @@ def webhook():
                             message_text = messaging_event["message"]["text"]  # the message's text
                             print("[QUIZBOT] PID " + str(os.getpid())+": Received a MESSAGE")
                             print("[QUIZBOT] PID " + str(os.getpid())+": Message Text is \""+message_text+"\"")
-                            
-                            # first-time user
-                            print ("= ="*60)
-                            print (sender_id)
-                            print ("= ="*60)
-                            print (database.show_user_id_list(mysql))
-                            if not int(sender_id) in database.show_user_id_list(mysql):
-                                print("[QUIZBOT] PID " + str(os.getpid())+": This is a new user!")
-                                database.insert_user(mysql, sender_id, sender_firstname, sender_lastname, sender_gender, 1)
-                                database.insert_score(mysql, sender_id, -1, message_text, 0)
-                                message.choose_mode_quick_reply(sender_id) 
-
-                            else:
-                                chatbot.respond_to_messagetext(message_text, sender_id, qa_model, mysql)
+                            chatbot.respond_to_messagetext(message_text, sender_id, qa_model, mysql)
     return "ok", 200
 
 
