@@ -10,10 +10,8 @@ def generate(top_5_users, current_user, background_url = 'https://www.smartprime
     Returns:
         output_url (str): URL of the output image.
     """
-    length = max(5, len(top_5_users))
+    length = min(5, len(top_5_users))
 
-    print ("="*50)
-    print (top_5_users)
     names = [top_5_users[i][0]+' '+top_5_users[i][1] for i in range(length)]
     font = '<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">'
     css = '<style>.place5,.place1,.place4,.place2,.place3,.you{position:absolute}.container{font-size:1.8em;font-family:Raleway,sans-serif}.top-rank,.your-rank{left:60px;font-size:1.2em}.place1{top:220px}.place2{top:319px}.place3{top:418px}.place4{top:517px}.place5{top:616px}.you{top:745px}.name,.score,.top-rank,.your-rank{position:relative}.your-rank{color:orange}.name{left:130px;bottom:34px}.score{left:350px;bottom:68px}</style>'
