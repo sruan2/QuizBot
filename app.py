@@ -77,8 +77,6 @@ def webhook():
                     if messaging_event.get("optin"):  # optin confirmation
                         pass
 
-                    print ("=  = "*20)
-                    print (messaging_event)
                     sender_id = messaging_event["sender"]["id"]        # the facebook ID of the person sending you the message
                     if sender_id == '1497174250389598' :
                         continue
@@ -88,9 +86,6 @@ def webhook():
                     #     return "Chatbot ID", 200
 
                     data = get_user_profile(sender_id)
-                    print ("="*50)
-                    print (sender_id)
-                    print (data)
                     sender_firstname = data['first_name']
                     sender_lastname = data['last_name']
                     if 'gender' in data:
