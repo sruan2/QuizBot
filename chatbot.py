@@ -40,6 +40,7 @@ def respond_to_postback(payload, message_text, sender_id, qa_model, mysql):
     elif payload == "I_NEED_A_HINT":
         msg_hint = "Okay. Which of these is the right answer?👇"
         QID, _ = show_last_qid_subject(mysql, sender_id) # retrieve the qid and the subject from database
+        print (qa_model.DKB[QID])
         send_hint(sender_id, msg_hint, qa_model, QID)
 
     elif payload == "I_DONT_KNOW":
