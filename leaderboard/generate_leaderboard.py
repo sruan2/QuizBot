@@ -1,5 +1,6 @@
 import imgkit # make sure this is installed
 import uuid
+import os
 
 def generate(top_5_users, current_user, background_url = 'https://www.smartprimer.org:8443/pictures/leaderboard_background.png'):
     """Generates a leaderboard using the provided input.
