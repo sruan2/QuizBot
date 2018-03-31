@@ -22,13 +22,17 @@ def respond_to_postback(payload, message_text, sender_id, qa_model, mysql):
 
     elif payload == "MENU_SCORE":
         score = show_score(mysql, sender_id)
-        send_gotit_quickreply(sender_id, "Your total score is "+str(score)+". Keep moving!") 
+        send_gotit_quickreply(sender_id, "Your total score is "+str(score)+". Keep moving!", False) 
 
     elif payload == "MENU_LEADERBOARD":
         records = show_top_5(mysql)
         cur_ranking = show_current_ranking(mysql, sender_id)
         sentence = ("\n").join(["No." + str(i + 1) + " " + str(records[i][0]+' '+records[i][1]) + ": " + str(records[i][2]) for i in range(len(records))])
         send_picture(sender_id, str(generate(records, cur_ranking)), "", "") 
+        if int(cur_ranking) <= 5:
+            send_gotit_quickreply(sender_id, "Keep on the good work!", True) 
+        else:
+            send_gotit_quickreply(sender_id, "Work harder, you can make it!", True) 
         
     
     elif payload == "YUP_IM_READY" or payload == "CONTINUE":
@@ -183,7 +187,7 @@ def respond_to_postback(payload, message_text, sender_id, qa_model, mysql):
         totalscore = str(show_score(mysql, sender_id))
         msglist_total_score = ["Your total score is "+totalscore+". Keep it up! 👊",
                               "Your total score is "+totalscore+". Great work! 👊"]
-        send_gotit_quickreply(sender_id, random.choice(msglist_total_score))
+        send_gotit_quickreply(sender_id, random.choice(msglist_total_score), False)
 
     elif payload == "REPORT_BUG":
         msg_report_bug = "Okay, I’ll take a note of that. Thanks for the feedback! 👍"
