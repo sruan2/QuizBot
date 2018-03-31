@@ -498,8 +498,8 @@ def send_reminder(list):
             print("[QUIZBOT] PID " + str(os.getpid())+": Sent Reminder To " + str(user_name) + " With ID " + str(recipient_id) + " At " + strftime("%Y-%m-%d %H:%M:%S", gmtime()))
 
 
-def send_gotit_quickreply(recipient_id, sentence):
-
+def send_gotit_quickreply(recipient_id, sentence, flag):
+    # if flag is True, that's leaderboard view, otherwise is general
     params = {
         "access_token": os.environ["PAGE_ACCESS_TOKEN"]
     }
@@ -507,7 +507,7 @@ def send_gotit_quickreply(recipient_id, sentence):
         "Content-Type": "application/json"
     }
     
-    data = json.dumps({
+    result = {
         "recipient": {
             "id": recipient_id
         },
@@ -521,7 +521,11 @@ def send_gotit_quickreply(recipient_id, sentence):
                 }
             ]
         }
-    })
+
+    } 
+    if flag:
+        result["message"]["quick_replies"]["title"] = "Got it, quiz me more!"
+    data = json.dumps(result)
     r = requests.post("https://graph.facebook.com/v2.6/me/messages", params=params, headers=headers, data=data)
     if r.status_code != 200:
         log(r.status_code)
