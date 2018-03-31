@@ -317,37 +317,37 @@ def choose_subject_quick_reply(recipient_id, main_text):
             "quick_replies": [
                 {
                     "content_type": "text",
-                    "title": "Physics 🚗",
+                    "title": "Physics🚗",
                     "payload": "PHYSICS"
                 },
                 {
                     "content_type": "text",
-                    "title": "Chemistry ⚗️",
+                    "title": "Chemistry⚗️",
                     "payload": "CHEMISTRY"
                 },
                 {
                     "content_type": "text",
-                    "title": "Biology 🔬",
+                    "title": "Biology🔬",
                     "payload": "BIOLOGY"
                 },
                 {
                     "content_type": "text",
-                    "title": "Geology ⛰",
+                    "title": "Geology⛰",
                     "payload": "GEOLOGY"
                 },
                 {
                     "content_type": "text",
-                    "title": "GRE 🔠",
+                    "title": "GRE🔠",
                     "payload": "GRE"
                 },
                 {
                     "content_type": "text",
-                    "title": "SAFETY ️🛠",
+                    "title": "SAFETY️🛠",
                     "payload": "SAFETY"
                 },
                 {
                     "content_type": "text",
-                    "title": "Random 🎲",
+                    "title": "Random🎲",
                     "payload": "RANDOM"                
                 }
             ]
