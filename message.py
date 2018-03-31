@@ -524,7 +524,7 @@ def send_gotit_quickreply(recipient_id, sentence, flag):
 
     } 
     if flag:
-        result["message"]["quick_replies"]["title"] = "Got it, quiz me more!"
+        result["message"]["quick_replies"][0]["title"] = "Got it, quiz me more!"
     data = json.dumps(result)
     r = requests.post("https://graph.facebook.com/v2.6/me/messages", params=params, headers=headers, data=data)
     if r.status_code != 200:
