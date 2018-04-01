@@ -317,32 +317,37 @@ def choose_subject_quick_reply(recipient_id, main_text):
             "quick_replies": [
                 {
                     "content_type": "text",
-                    "title": "Physics 🚗",
+                    "title": "Physics🚗",
                     "payload": "PHYSICS"
                 },
                 {
                     "content_type": "text",
-                    "title": "Chemistry ⚗️",
+                    "title": "Chemistry⚗️",
                     "payload": "CHEMISTRY"
                 },
                 {
                     "content_type": "text",
-                    "title": "Biology 🔬",
+                    "title": "Biology🔬",
                     "payload": "BIOLOGY"
                 },
                 {
                     "content_type": "text",
-                    "title": "Geology ⛰",
+                    "title": "Geology⛰",
                     "payload": "GEOLOGY"
                 },
                 {
                     "content_type": "text",
-                    "title": "GRE 🔠",
+                    "title": "GRE🔠",
                     "payload": "GRE"
                 },
                 {
                     "content_type": "text",
-                    "title": "Random 🎲",
+                    "title": "Safety🛠",
+                    "payload": "SAFETY"
+                },
+                {
+                    "content_type": "text",
+                    "title": "Random🎲",
                     "payload": "RANDOM"                
                 }
             ]
@@ -492,46 +497,9 @@ def send_reminder(list):
         else:
             print("[QUIZBOT] PID " + str(os.getpid())+": Sent Reminder To " + str(user_name) + " With ID " + str(recipient_id) + " At " + strftime("%Y-%m-%d %H:%M:%S", gmtime()))
 
-def send_why2_quickreply(recipient_id, support_sentence):
-    params = {
-        "access_token": os.environ["PAGE_ACCESS_TOKEN"]
-    }
-    headers = {
-        "Content-Type": "application/json"
-    }
-    data = json.dumps({
-        "recipient": {
-            "id": recipient_id
-        },
-        "message": {
-            "text": support_sentence,
-            "quick_replies": [
-                {
-                    "content_type": "text",
-                    "title": "Why",
-                    "payload": "WHY"
-                },
-                {
-                    "content_type": "text",
-                    "title": "Next Question",
-                    "payload": "NEXT_QUESTION"
-                },
-                {
-                    "content_type": "text",
-                    "title":"Switch Subject",
-                    "payload":"SWITCH_SUBJECT"
-                }
-            ]
-        }
-    })
-    r = requests.post("https://graph.facebook.com/v2.6/me/messages", params=params, headers=headers, data=data)
-    if r.status_code != 200:
-        log(r.status_code)
-        log(r.text)
 
-
-def send_gotit_quickreply(recipient_id, sentence):
-
+def send_gotit_quickreply(recipient_id, sentence, flag):
+    # if flag is True, that's leaderboard view, otherwise is general
     params = {
         "access_token": os.environ["PAGE_ACCESS_TOKEN"]
     }
@@ -539,7 +507,7 @@ def send_gotit_quickreply(recipient_id, sentence):
         "Content-Type": "application/json"
     }
     
-    data = json.dumps({
+    result = {
         "recipient": {
             "id": recipient_id
         },
@@ -553,7 +521,11 @@ def send_gotit_quickreply(recipient_id, sentence):
                 }
             ]
         }
-    })
+
+    } 
+    if flag:
+        result["message"]["quick_replies"][0]["title"] = "Got it, quiz me more!"
+    data = json.dumps(result)
     r = requests.post("https://graph.facebook.com/v2.6/me/messages", params=params, headers=headers, data=data)
     if r.status_code != 200:
         log(r.status_code)

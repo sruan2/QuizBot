@@ -76,7 +76,7 @@ def webhook():
 
                     if messaging_event.get("optin"):  # optin confirmation
                         pass
-
+   
                     sender_id = messaging_event["sender"]["id"]        # the facebook ID of the person sending you the message
                     recipient_id = messaging_event["recipient"]["id"]  # the recipient's ID, which should be your page's facebook ID
                     
@@ -90,6 +90,12 @@ def webhook():
                         sender_gender = data['gender']
                     else:
                         sender_gender = 'unknown'
+                    # first-time user
+                    if not int(sender_id) in database.show_user_id_list(mysql):
+                        print("[QUIZBOT] PID " + str(os.getpid())+": This is a new user!")
+                        database.insert_user(mysql, sender_id, sender_firstname, sender_lastname, sender_gender, 1)
+                        database.insert_score(mysql, sender_id, -1, "new_user", 0)
+                        message.choose_mode_quick_reply(sender_id) 
                     #print("[QUIZBOT] PID " + str(os.getpid())+": Talking to " + sender_firstname)
 
                     # user clicked/tapped "postback" button in Persistent menu
@@ -140,16 +146,7 @@ def webhook():
                             message_text = messaging_event["message"]["text"]  # the message's text
                             print("[QUIZBOT] PID " + str(os.getpid())+": Received a MESSAGE")
                             print("[QUIZBOT] PID " + str(os.getpid())+": Message Text is \""+message_text+"\"")
-                            
-                            # first-time user
-                            if not int(sender_id) in database.show_user_id_list(mysql):
-                                print("[QUIZBOT] PID " + str(os.getpid())+": This is a new user!")
-                                database.insert_user(mysql, sender_id, sender_firstname, sender_lastname, sender_gender, 1)
-                                database.insert_score(mysql, sender_id, -1, message_text, 0)
-                                message.choose_mode_quick_reply(sender_id) 
-
-                            else:
-                                chatbot.respond_to_messagetext(message_text, sender_id, qa_model, mysql)
+                            chatbot.respond_to_messagetext(message_text, sender_id, qa_model, mysql)
     return "ok", 200
 
 
@@ -183,7 +180,7 @@ if __name__ == '__main__':
     doc2vec = 'model_pre_trained/model_d2v_v1'
     pkl_file = 'model_pre_trained/glove/glove.6B.100d.pkl'
     # QA json data
-    json_file = 'QAdataset/230_gre.json'
+    json_file = 'QAdataset/230_gre_safety.json'
     
     qa_kb = QAKnowledgebase.ConstructQA(json_file)
 

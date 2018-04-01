@@ -22,13 +22,17 @@ def respond_to_postback(payload, message_text, sender_id, qa_model, mysql):
 
     elif payload == "MENU_SCORE":
         score = show_score(mysql, sender_id)
-        send_gotit_quickreply(sender_id, "Your total score is "+str(score)+". Keep moving!") 
+        send_gotit_quickreply(sender_id, "Your total score is "+str(score)+". Keep moving!", False) 
 
     elif payload == "MENU_LEADERBOARD":
         records = show_top_5(mysql)
         cur_ranking = show_current_ranking(mysql, sender_id)
         sentence = ("\n").join(["No." + str(i + 1) + " " + str(records[i][0]+' '+records[i][1]) + ": " + str(records[i][2]) for i in range(len(records))])
         send_picture(sender_id, str(generate(records, cur_ranking)), "", "") 
+        if cur_ranking[3] <= 5:
+            send_gotit_quickreply(sender_id, "Keep on the good work!", True) 
+        else:
+            send_gotit_quickreply(sender_id, "Work harder, you can make it!", True) 
         
     
     elif payload == "YUP_IM_READY" or payload == "CONTINUE":
@@ -40,6 +44,7 @@ def respond_to_postback(payload, message_text, sender_id, qa_model, mysql):
     elif payload == "I_NEED_A_HINT":
         msg_hint = "Okay. Which of these is the right answer?👇"
         QID, _ = show_last_qid_subject(mysql, sender_id) # retrieve the qid and the subject from database
+        print (qa_model.DKB[QID])
         send_hint(sender_id, msg_hint, qa_model, QID)
 
     elif payload == "I_DONT_KNOW":
@@ -145,6 +150,18 @@ def respond_to_postback(payload, message_text, sender_id, qa_model, mysql):
         send_starting_question(sender_id)
         send_a_question(sender_id, question)
 
+    elif payload == "SAFETY":
+        msglist_subject = ["All right! I’ll quiz you on SAFETY!",
+                     "Okay! Let’s see how much you know about SAFETY!"]
+        msg_subject = random.choice(msglist_subject)
+        send_message(sender_id, msg_subject)
+        question, QID = qa_model.pickSubjectRandomQuestion("safety")
+        update_status(mysql, sender_id, 0)
+        insert_question(mysql, sender_id,QID, payload)
+        send_starting_question(sender_id)
+        send_a_question(sender_id, question)
+
+
     elif payload == "RANDOM":
         msglist_random =["Okay! Let’s mix it up! 🎲",
                      "All right! A little bit of everything! 🎲"]
@@ -170,7 +187,7 @@ def respond_to_postback(payload, message_text, sender_id, qa_model, mysql):
         totalscore = str(show_score(mysql, sender_id))
         msglist_total_score = ["Your total score is "+totalscore+". Keep it up! 👊",
                               "Your total score is "+totalscore+". Great work! 👊"]
-        send_gotit_quickreply(sender_id, random.choice(msglist_total_score))
+        send_gotit_quickreply(sender_id, random.choice(msglist_total_score), False)
 
     elif payload == "REPORT_BUG":
         msg_report_bug = "Okay, I’ll take a note of that. Thanks for the feedback! 👍"
@@ -183,7 +200,7 @@ def respond_to_postback(payload, message_text, sender_id, qa_model, mysql):
         if show_status(mysql, sender_id):
             last_subject = show_last_qid_subject(mysql, sender_id)[1]
             #if last_subject == 'random' or last_subject == 'no record':
-            if last_subject in ["PHYSICS", "CHEMISTRY", "BIOLOGY", "GEOLOGY", "GRE"]:
+            if last_subject in ["PHYSICS", "CHEMISTRY", "BIOLOGY", "GEOLOGY", "GRE", "SAFETY"]:
                 question, QID = qa_model.pickSubjectRandomQuestion(last_subject)
             else:
                 question, QID = qa_model.pickRandomQuestion()
@@ -217,7 +234,7 @@ def respond_to_messagetext(message_text, sender_id, qa_model, mysql):
         if show_status(mysql, sender_id):
             last_subject = show_last_qid_subject(mysql, sender_id)[1]
             #if last_subject == 'random' or last_subject == 'no record':
-            if last_subject in ["PHYSICS", "CHEMISTRY", "BIOLOGY", "GEOLOGY", "GRE"]:
+            if last_subject in ["PHYSICS", "CHEMISTRY", "BIOLOGY", "GEOLOGY", "GRE", "SAFETY"]:
                 question, QID = qa_model.pickSubjectRandomQuestion(last_subject)
             else:
                 question, QID = qa_model.pickRandomQuestion()
