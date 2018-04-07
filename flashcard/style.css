@@ -17,9 +17,10 @@ body, html {
 }
 
 .card {
-    width: 80vw;
+    width: 65vw;
     height: 40vh;
     text-align: center;
+    margin: 10px;
 }
 
 .card-body {
