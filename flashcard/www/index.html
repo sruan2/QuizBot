@@ -15,8 +15,6 @@
   <body>
 
       <div id="container">
-          <div id="content">
-            <button class="btn btn-sm btn-outline-dark" onclick="prev()">←</button>
             <div class="card">
                 <div class="card-body" onclick="flip()">
                     <p id="front">This is the front of the card.</p>
@@ -26,8 +24,10 @@
                     </div>
                 </div>
             </div>
-            <button class="btn btn-sm btn-outline-dark" onclick="next()">→</button>
-        </div>
+            <div class="buttons">
+                <button class="btn btn-sm btn-outline-dark" onclick="prev()">←</button>
+                <button class="btn btn-sm btn-outline-dark" onclick="next()">→</button>
+            </div>
     </div>
 
 
