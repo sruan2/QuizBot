@@ -1,0 +1,36 @@
+body, html {
+  height: 100%;
+  font-size: 1.1em;
+}
+
+#container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.card {
+    width: 65vw;
+    height: 40vh;
+    text-align: center;
+    margin: 10px;
+}
+
+.card-body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#footer {
+    position: absolute;
+    bottom: 0;
+    font-size: 0.6em;
+}
