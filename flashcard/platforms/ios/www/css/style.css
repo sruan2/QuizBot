@@ -6,18 +6,18 @@ body, html {
 #container {
   height: 100%;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
 }
 
-#content {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+.btn {
+    width: 38vw;
+    margin: 1vw;
 }
 
 .card {
-    width: 65vw;
+    width: 80vw;
     height: 40vh;
     text-align: center;
     margin: 10px;
