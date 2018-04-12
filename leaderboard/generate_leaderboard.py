@@ -15,7 +15,7 @@ def generate(top_5_users, current_user, background_url = 'https://www.smartprime
     names = [top_5_users[i][0]+' '+top_5_users[i][1] for i in range(length)]
     font = '<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">'
     css = '<style>.place5,.place1,.place4,.place2,.place3,.you{position:absolute}.container{font-size:1.8em;font-family:Raleway,sans-serif}.top-rank,.your-rank{left:60px;font-size:1.2em}.place1{top:220px}.place2{top:319px}.place3{top:418px}.place4{top:517px}.place5{top:616px}.you{top:745px}.name,.score,.top-rank,.your-rank{position:relative}.your-rank{color:orange}.name{left:130px;bottom:34px}.score{left:350px;bottom:68px}</style>'
-    body ='<div class="container"><img src="'+background_url+'"/>' 
+    body ='<div class="container"><img src="'+background_url+'"/>'
 
     for i in range(length):
         body += '<div class="place'+str(i+1)+'"><div class="top-rank">'+str(i+1)+'</div><div class="name">'+names[i]+'</div><div class="score">'+str(top_5_users[i][2])+'</div></div>'
@@ -24,11 +24,11 @@ def generate(top_5_users, current_user, background_url = 'https://www.smartprime
     html = font + css + body
     options = {
         'format': 'png',
-        'crop-h': '445',    # must have height = 890px (see zoom)
-        'crop-w': '250',    # must have width = 500px (see zoom)
-        'crop-x': '4',
-        'crop-y': '4',
-        'zoom': 0.5,        # reduce dimensions in half
+        'crop-h': '712',    # must have height = 890px (see zoom)
+        'crop-w': '400',    # must have width = 500px (see zoom)
+        'crop-x': '6',
+        'crop-y': '6',
+        'zoom': 0.8,        # reduce dimensions
         # 'xvfb': ''
     }
     output_name = 'leaderboard_'+uuid.uuid4().hex+'.png'
