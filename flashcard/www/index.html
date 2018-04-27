@@ -15,10 +15,16 @@
 <body>
 
     <div id="container">
+        <div class="toggle">
+            <button class="btn btn-sm btn-outline-success element-front" onclick="hint()">choices</button>
+            <button class="btn btn-sm btn-outline-danger element-back" onclick="explanation()">explanation</button>
+        </div>
         <div class="card">
             <div class="card-body" onclick="flip()">
-                <p id="front">This is the front of the card.</p>
-                <p id="back">This is the back of the card.</p>
+                <p id="front" class="element-front">This is the front of the card.</p>
+                <p id="back" class="element-back">This is the back of the card.</p>
+                <p id="hint">This is the question hint.</p>
+                <p id="explanation">This is the answer explanation.</p>
                 <div id="footer">
                     <p class="text-muted">(tap the card to flip)</p>
                 </div>
