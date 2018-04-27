@@ -1,7 +1,9 @@
 $('document').ready(
     function() {
-        $('#front').show();
-        $('#back').hide();
+        $('.element-front').show();
+        $('.element-back').hide();
+        $('#hint').hide();
+        $('#explanation').hide();
         $index = 0;
         update();
     }
@@ -9,13 +11,35 @@ $('document').ready(
 
 function flip() {
     if ($('#front').is(":visible")) {
-        $('#front').hide();
-        $('#back').show();
+        $('.element-front').hide();
+        $('.element-back').show();
+        $('#hint').hide();
     } else {
-        $('#front').show();
-        $('#back').hide();
+        $('.element-front').show();
+        $('.element-back').hide();
+        $('#explanation').hide();
     }
 };
+
+function hint() {
+    if ($('#hint').is(":visible")) {
+        $('#front').show();
+        $('#hint').hide();
+    } else {
+        $('#front').hide();
+        $('#hint').show();
+    }
+}
+
+function explanation() {
+    if ($('#explanation').is(":visible")) {
+        $('#back').show();
+        $('#explanation').hide();
+    } else {
+        $('#back').hide();
+        $('#explanation').show();
+    }
+}
 
 function next() {
     $index = $index < $questions.length - 1 ? $index + 1 : 0;
@@ -29,6 +53,26 @@ function prev() {
 
 function update() {
     // $questions are imported from questions.js
-    $('#front').html($questions[$index].question);
-    $('#back').html($questions[$index].correct_answer[0]);
+    $('#front').html("Q: " + $questions[$index].question);
+    $('#back').html("A: " + $questions[$index].correct_answer[0]);
+    $('#explanation').html("Explanation: " + $questions[$index].support);
+
+    $choices = shuffle($questions[$index].distractor.concat($questions[$index].correct_answer));
+    $hints = ""
+    for ($c in $choices) {
+        $hints += (parseInt($c)+1) + ". " + $choices[$c] + "<br />"
+    }
+    $('#hint').html($hints);
+
+}
+
+function shuffle(a) {
+    var j, x, i;
+    for (i = a.length - 1; i > 0; i--) {
+        j = Math.floor(Math.random() * (i + 1));
+        x = a[i];
+        a[i] = a[j];
+        a[j] = x;
+    }
+    return a;
 }

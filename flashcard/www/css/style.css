@@ -16,6 +16,11 @@ body, html {
     margin: 1vw;
 }
 
+.toggle {
+    align-self: flex-end;
+    margin-right: 10vw;
+}
+
 .card {
     width: 80vw;
     height: 40vh;
@@ -33,4 +38,8 @@ body, html {
     position: absolute;
     bottom: 0;
     font-size: 0.6em;
+}
+
+#hint, #explanation {
+    font-size: 0.8em;
 }
