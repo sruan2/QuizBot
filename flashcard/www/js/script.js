@@ -39,6 +39,8 @@ function update() {
         $hints += "<li>" + $choices[$c] + "</li>"
     }
     $('#hint').html($hints + "</ol>");
+
+    $('#qid').html("Question " + parseInt($index + 1));
 }
 
 function shuffle(a) {
