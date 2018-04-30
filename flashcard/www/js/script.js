@@ -2,8 +2,6 @@ $('document').ready(
     function() {
         $('.element-front').show();
         $('.element-back').hide();
-        $('#hint').hide();
-        $('#explanation').hide();
         $index = 0;
         update();
     }
@@ -13,33 +11,11 @@ function flip() {
     if ($('#front').is(":visible")) {
         $('.element-front').hide();
         $('.element-back').show();
-        $('#hint').hide();
     } else {
         $('.element-front').show();
         $('.element-back').hide();
-        $('#explanation').hide();
     }
 };
-
-function hint() {
-    if ($('#hint').is(":visible")) {
-        $('#front').show();
-        $('#hint').hide();
-    } else {
-        $('#front').hide();
-        $('#hint').show();
-    }
-}
-
-function explanation() {
-    if ($('#explanation').is(":visible")) {
-        $('#back').show();
-        $('#explanation').hide();
-    } else {
-        $('#back').hide();
-        $('#explanation').show();
-    }
-}
 
 function next() {
     $index = $index < $questions.length - 1 ? $index + 1 : 0;
@@ -55,15 +31,14 @@ function update() {
     // $questions are imported from questions.js
     $('#front').html("Q: " + $questions[$index].question);
     $('#back').html("A: " + $questions[$index].correct_answer[0]);
-    $('#explanation').html("Explanation: " + $questions[$index].support);
+    $('#explanation').html($questions[$index].support);
 
     $choices = shuffle($questions[$index].distractor.concat($questions[$index].correct_answer));
-    $hints = ""
+    $hints = "<p>The answer is one of the following:</p><ol>"
     for ($c in $choices) {
-        $hints += (parseInt($c)+1) + ". " + $choices[$c] + "<br />"
+        $hints += "<li>" + $choices[$c] + "</li>"
     }
-    $('#hint').html($hints);
-
+    $('#hint').html($hints + "</ol>");
 }
 
 function shuffle(a) {

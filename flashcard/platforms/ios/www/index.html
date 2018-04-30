@@ -16,15 +16,13 @@
 
     <div id="container">
         <div class="toggle">
-            <button class="btn btn-sm btn-outline-success element-front" onclick="hint()">choices</button>
-            <button class="btn btn-sm btn-outline-danger element-back" onclick="explanation()">explanation</button>
+            <button class="btn btn-sm btn-outline-success element-front" data-toggle="modal" data-target="#hintModal">hint</button>
+            <button class="btn btn-sm btn-outline-danger element-back" data-toggle="modal" data-target="#explanationModal">explanation</button>
         </div>
         <div class="card">
             <div class="card-body" onclick="flip()">
                 <p id="front" class="element-front">This is the front of the card.</p>
                 <p id="back" class="element-back">This is the back of the card.</p>
-                <p id="hint">This is the question hint.</p>
-                <p id="explanation">This is the answer explanation.</p>
                 <div id="footer">
                     <p class="text-muted">(tap the card to flip)</p>
                 </div>
@@ -33,6 +31,38 @@
         <div class="buttons">
             <button class="btn btn-sm btn-outline-dark" onclick="prev()">←</button>
             <button class="btn btn-sm btn-outline-dark" onclick="next()">→</button>
+        </div>
+    </div>
+
+    <div class="modal fade" id="hintModal" tabindex="-1" role="dialog" aria-labelledby="hintModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Hint</h5>
+                </div>
+                <div id="hint" class="modal-body">
+                    This is a hint.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-sm btn-outline-secondary" data-dismiss="modal">close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="explanationModal" tabindex="-1" role="dialog" aria-labelledby="explanationModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Explanation</h5>
+                </div>
+                <div id="explanation" class="modal-body">
+                    This is an explanation.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-sm btn-outline-secondary" data-dismiss="modal">close</button>
+                </div>
+            </div>
         </div>
     </div>
 
