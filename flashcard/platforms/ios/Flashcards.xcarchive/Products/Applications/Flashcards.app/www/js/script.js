@@ -1,5 +1,6 @@
 $('document').ready(
     function() {
+        FastClick.attach(document.body);
         $('.element-front').show();
         $('.element-back').hide();
         $index = 0;
@@ -39,6 +40,8 @@ function update() {
         $hints += "<li>" + $choices[$c] + "</li>"
     }
     $('#hint').html($hints + "</ol>");
+
+    $('#qid').html("Question " + parseInt($index + 1));
 }
 
 function shuffle(a) {
