@@ -1,5 +1,6 @@
 $('document').ready(
     function() {
+        FastClick.attach(document.body);
         $('.element-front').show();
         $('.element-back').hide();
         $index = 0;
