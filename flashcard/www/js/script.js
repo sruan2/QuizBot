@@ -3,10 +3,39 @@ $('document').ready(
         FastClick.attach(document.body);
         $('.element-front').show();
         $('.element-back').hide();
-        $index = 0;
-        update();
+        $data = {
+            science: [],
+            gre: [],
+            safety: [],
+        };
+        for ($q in $questions) {
+            if ($questions[$q].subject === 'gre') {
+                $data['gre'].push($questions[$q]);
+            } else if ($questions[$q].subject === 'safety') {
+                $data['safety'].push($questions[$q]);
+            } else {
+                $data['science'].push($questions[$q]);
+            }
+        }
+        for ($d in $data) {
+            shuffle($data[$d]);
+        }
+        $index = {
+            science: 0,
+            gre: 0,
+            safety: 0,
+        };
+        change('science');
     }
 );
+
+function change(subject) {
+    $subject = subject;
+    if (!$('#front').is(":visible")) {
+        flip();
+    }
+    update();
+}
 
 function flip() {
     if ($('#front').is(":visible")) {
@@ -19,29 +48,36 @@ function flip() {
 };
 
 function next() {
-    $index = $index < $questions.length - 1 ? $index + 1 : 0;
+    $index[$subject] = $index[$subject] < $data[$subject].length - 1 ? $index[$subject] + 1 : 0;
+    if (!$('#front').is(":visible")) {
+        flip();
+    }
     update();
 }
 
 function prev() {
-    $index = $index > 0 ? $index - 1 : $questions.length - 1;
+    $index[$subject] = $index[$subject] > 0 ? $index[$subject] - 1 : $data[$subject].length - 1;
+    if (!$('#front').is(":visible")) {
+        flip();
+    }
     update();
 }
 
 function update() {
     // $questions are imported from questions.js
-    $('#front').html("Q: " + $questions[$index].question);
-    $('#back').html("A: " + $questions[$index].correct_answer[0]);
-    $('#explanation').html($questions[$index].support);
+    $question = $data[$subject][$index[$subject]];
+    $('#front').html("Q: " + $question.question);
+    $('#back').html("A: " + $question.correct_answer[0]);
+    $('#explanation').html($question.support);
 
-    $choices = shuffle($questions[$index].distractor.concat($questions[$index].correct_answer));
+    $choices = shuffle($question.distractor.concat($question.correct_answer));
     $hints = "<p>The answer is one of the following:</p><ol>"
     for ($c in $choices) {
         $hints += "<li>" + $choices[$c] + "</li>"
     }
     $('#hint').html($hints + "</ol>");
 
-    $('#qid').html("Question " + parseInt($index + 1));
+    $('#qid').html("Question " + parseInt($index[$subject] + 1));
 }
 
 function shuffle(a) {
