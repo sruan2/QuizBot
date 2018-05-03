@@ -14,6 +14,20 @@
 </head>
 <body>
 
+    <div id="tabs">
+        <ul class="nav nav-tabs nav-justified" id="myTab" role="tablist">
+            <li class="nav-item">
+                <a class="nav-link active" id="science-tab" data-toggle="tab" href="#science" onclick="change('science')">Science</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="gre-tab" data-toggle="tab" href="#gre" onclick="change('gre')">GRE</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="safety-tab" data-toggle="tab" href="#safety" onclick="change('safety')">Safety</a>
+            </li>
+        </ul>
+    </div>
+
     <div id="container">
         <div class="buttons">
             <button id="qid" class="btn btn-sm btn-link" disabled>Question</button>
@@ -24,7 +38,7 @@
             <div class="card-body" onclick="flip()">
                 <p id="front" class="element-front">This is the front of the card.</p>
                 <p id="back" class="element-back">This is the back of the card.</p>
-                <div id="footer">
+                <div class="footer">
                     <p class="text-muted">(tap the card to flip)</p>
                 </div>
             </div>
