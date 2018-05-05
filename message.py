@@ -169,13 +169,13 @@ def send_hint(recipient_id, main_text, qa_model, qid):
         options.append({
                     "content_type": "text",
                     "title": str(x),
-                    "payload": "BUTTON_DKB"
+                    "payload": "BUTTON_DKB_"+str(x)
                 })
     for x in qa_model.AKB[qid]:
         options.append({
                     "content_type": "text",
                     "title": str(x),
-                    "payload": "BUTTON_AKB"
+                    "payload": "BUTTON_AKB_"+str(x)
                 })
     random.shuffle(options)
     options.append({

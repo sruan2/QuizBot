@@ -76,7 +76,7 @@ def respond_to_postback(payload, message_text, sender_id, qa_model, mysql):
         choose_subject_quick_reply(sender_id, msg_choose_mode)
 
 
-    elif payload == "BUTTON_DKB":
+    elif payload[:10] == "BUTTON_DKB":
         QID, _ = show_last_qid_subject(mysql, sender_id) # retrieve the qid and the subject from database
         standard_answer = qa_model.getAnswer(QID)
         msglist_incorrect = ["I'm sorry, but that was incorrect. You didn't earn any points 😞",
@@ -86,7 +86,7 @@ def respond_to_postback(payload, message_text, sender_id, qa_model, mysql):
         send_correct_answer(sender_id, QID, standard_answer)    
         update_status(mysql, sender_id, 1)         
 
-    elif payload == "BUTTON_AKB":
+    elif payload[:10] == "BUTTON_AKB":
         QID, _ = show_last_qid_subject(mysql, sender_id) # retrieve the qid and the subject from database
         standard_answer = qa_model.getAnswer(QID)
         score = 3
