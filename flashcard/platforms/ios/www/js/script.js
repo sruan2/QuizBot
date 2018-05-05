@@ -26,7 +26,8 @@ $('document').ready(
             gre: 0,
             safety: 0,
         };
-        change('science');
+        $subject = 'science';
+        update();
     }
 );
 
@@ -35,18 +36,7 @@ function change(subject) {
     if (!$('#front').is(":visible")) {
         flip();
     }
-    $.ajax({
-        url: 'https://www.smartprimer.org:5000/test',
-        type: 'GET',
-        data: {
-            user: $user,
-            timestamp: new Date(),
-            subject: $subject,
-        },
-        complete: function(data) {
-            console.log({user: $user, timestamp: new Date().toString(), subject: $subject});
-        }
-    });
+    log('switch to ' + subject)
     update();
 }
 
