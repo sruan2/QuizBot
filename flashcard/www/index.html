@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Flashcards</title>
+
+</head>
+<body>
+
+    <div id="tabs">
+        <ul class="nav nav-tabs nav-justified" id="myTab" role="tablist">
+            <li class="nav-item">
+                <a class="nav-link active" id="science-tab" data-toggle="tab" href="#science" onclick="change('science')">Science</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="gre-tab" data-toggle="tab" href="#gre" onclick="change('gre')">GRE</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="safety-tab" data-toggle="tab" href="#safety" onclick="change('safety')">Safety</a>
+            </li>
+        </ul>
+    </div>
+
+    <div id="container">
+        <div class="buttons">
+            <button id="qid" class="btn btn-sm btn-link" disabled>Question</button>
+            <button class="btn btn-sm btn-outline-success element-front" data-toggle="modal" data-target="#hintModal">hint</button>
+            <button class="btn btn-sm btn-outline-danger element-back" data-toggle="modal" data-target="#explanationModal">explanation</button>
+        </div>
+        <div class="card">
+            <div class="card-body" onclick="flip()">
+                <p id="front" class="element-front">This is the front of the card.</p>
+                <p id="back" class="element-back">This is the back of the card.</p>
+                <div class="footer">
+                    <p class="text-muted">(tap the card to flip)</p>
+                </div>
+            </div>
+        </div>
+        <div class="buttons">
+            <button class="btn btn-sm btn-outline-dark" onclick="prev()">←</button>
+            <button class="btn btn-sm btn-outline-dark" onclick="next()">→</button>
+        </div>
+    </div>
+
+    <div class="modal fade" id="hintModal" tabindex="-1" role="dialog" aria-labelledby="hintModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Hint</h5>
+                </div>
+                <div id="hint" class="modal-body">
+                    This is a hint.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-sm btn-outline-secondary" data-dismiss="modal">close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="explanationModal" tabindex="-1" role="dialog" aria-labelledby="explanationModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Explanation</h5>
+                </div>
+                <div id="explanation" class="modal-body">
+                    This is an explanation.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-sm btn-outline-secondary" data-dismiss="modal">close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <script src="js/fastclick.js"></script>
+
+    <script src="js/questions.js"></script>
+    <script src="js/script.js"></script>
+
+</body>
+</html>

@@ -63,12 +63,12 @@ def send_starting_question(recipient_id):
                 {
                     "content_type": "text",
                     "title": "I need a hint 🤔",
-                    "payload": "I_NEED_A_HINT"
+                    "payload": "BUTTON_I_NEED_A_HINT"
                 },
                 {
                     "content_type": "text",
                     "title": "I don’t know 😓",
-                    "payload": "I_DONT_KNOW"
+                    "payload": "BUTTON_I_DONT_KNOW"
                 }
             ]
         }
@@ -96,12 +96,12 @@ def send_a_question(recipient_id, question):
                 {
                     "content_type": "text",
                     "title": "I need a hint 🤔",
-                    "payload": "I_NEED_A_HINT"
+                    "payload": "BUTTON_I_NEED_A_HINT"
                 },
                 {
                     "content_type": "text",
                     "title": "I don’t know 😓",
-                    "payload": "I_DONT_KNOW"
+                    "payload": "BUTTON_I_DONT_KNOW"
                 }
             ]
         }
@@ -152,7 +152,7 @@ def send_interesting(recipient_id, main_text):
                 {
                     "content_type": "text",
                     "title": "Sure!",
-                    "payload": "SURE"
+                    "payload": "BUTTON_SURE"
                 }
             ]
         }
@@ -169,19 +169,19 @@ def send_hint(recipient_id, main_text, qa_model, qid):
         options.append({
                     "content_type": "text",
                     "title": str(x),
-                    "payload": "DKB"
+                    "payload": "BUTTON_DKB"
                 })
     for x in qa_model.AKB[qid]:
         options.append({
                     "content_type": "text",
                     "title": str(x),
-                    "payload": "AKB"
+                    "payload": "BUTTON_AKB"
                 })
     random.shuffle(options)
     options.append({
                     "content_type": "text",
                     "title": "I don’t know 😓",
-                    "payload": "I_DONT_KNOW"
+                    "payload": "BUTTON_I_DONT_KNOW"
                 })
     params = {
         "access_token": os.environ["PAGE_ACCESS_TOKEN"]
@@ -222,12 +222,12 @@ def send_giveup(recipient_id):
                 {
                     "content_type": "text",
                     "title": "Yes, answer please.",
-                    "payload": "GIVEUP_YES"
+                    "payload": "BUTTON_GIVEUP_YES"
                 },
                 {
                     "content_type": "text",
                     "title": "No, I'll try again!",
-                    "payload": "GIVEUP_NO"
+                    "payload": "BUTTON_GIVEUP_NO"
                 }
             ]
         }
@@ -255,7 +255,7 @@ def send_ready_go(recipient_id, main_text):
                 {
                     "content_type": "text",
                     "title": "Yup! I'm ready! "+u'\u270A',
-                    "payload": "YUP_IM_READY"
+                    "payload": "BUTTON_YUP_IM_READY"
                 }
             ]
         }
@@ -283,12 +283,12 @@ def choose_mode_quick_reply(recipient_id):
                 {
                     "content_type": "text",
                     "title": "Quiz me 🤓",
-                    "payload": "PRACTICE_MODE"
+                    "payload": "BUTTON_PRACTICE_MODE"
                 },
                 {
                     "content_type": "text",
                     "title": "I have a question❓",
-                    "payload": "CHALLENGE_MODE"
+                    "payload": "BUTTON_CHALLENGE_MODE"
                 }
             ]
         }
@@ -317,38 +317,38 @@ def choose_subject_quick_reply(recipient_id, main_text):
             "quick_replies": [
                 {
                     "content_type": "text",
-                    "title": "Physics 🚗",
-                    "payload": "PHYSICS"
+                    "title": "Physics🚗",
+                    "payload": "BUTTON_PHYSICS"
                 },
                 {
                     "content_type": "text",
-                    "title": "Chemistry ⚗️",
-                    "payload": "CHEMISTRY"
+                    "title": "Chemistry⚗️",
+                    "payload": "BUTTON_CHEMISTRY"
                 },
                 {
                     "content_type": "text",
-                    "title": "Biology 🔬",
-                    "payload": "BIOLOGY"
+                    "title": "Biology🔬",
+                    "payload": "BUTTON_BIOLOGY"
                 },
                 {
                     "content_type": "text",
-                    "title": "Geology ⛰",
-                    "payload": "GEOLOGY"
+                    "title": "Geology⛰",
+                    "payload": "BUTTON_GEOLOGY"
                 },
                 {
                     "content_type": "text",
-                    "title": "GRE 🔠",
-                    "payload": "GRE"
+                    "title": "GRE🔠",
+                    "payload": "BUTTON_GRE"
                 },
                 {
                     "content_type": "text",
-                    "title": "SAFETY ️🛠",
-                    "payload": "SAFETY"
+                    "title": "Safety🛠",
+                    "payload": "BUTTON_SAFETY"
                 },
                 {
                     "content_type": "text",
-                    "title": "Random 🎲",
-                    "payload": "RANDOM"                
+                    "title": "Random🎲",
+                    "payload": "BUTTON_RANDOM"                
                 }
             ]
         }
@@ -378,22 +378,22 @@ def send_correct_answer(recipient_id, QID, standard_answer):
                 {
                     "content_type": "text",
                     "title": "Why?",
-                    "payload": "WHY"
+                    "payload": "BUTTON_WHY"
                 },
                 {
                     "content_type": "text",
                     "title": "Next question 💪",
-                    "payload": "NEXT_QUESTION"
+                    "payload": "BUTTON_NEXT_QUESTION"
                 },
                 {
                     "content_type": "text",
                     "title":"Switch Subject!",
-                    "payload":"SWITCH_SUBJECT"
+                    "payload":"BUTTON_SWITCH_SUBJECT"
                 },
                 {
                     "content_type": "text",
                     "title": "Wait, I'm right 😡",
-                    "payload": "REPORT_BUG"
+                    "payload": "BUTTON_REPORT_BUG"
                 },                 
             ]
         }
@@ -420,12 +420,12 @@ def send_explanation(recipient_id, explanation):
                 {
                     "content_type": "text",
                     "title": "Next question 💪",
-                    "payload": "NEXT_QUESTION"
+                    "payload": "BUTTON_NEXT_QUESTION"
                 },
                 {
                     "content_type": "text",
                     "title": "Switch Subject!",
-                    "payload": "SWITCH_SUBJECT"
+                    "payload": "BUTTON_SWITCH_SUBJECT"
                 }
             ]
         }
@@ -452,12 +452,12 @@ def send_bugreport(recipient_id, text):
                 {
                     "content_type": "text",
                     "title": "Next question 💪",
-                    "payload": "NEXT_QUESTION"
+                    "payload": "BUTTON_NEXT_QUESTION"
                 },
                 {
                     "content_type": "text",
                     "title": "Switch Subject!",
-                    "payload": "SWITCH_SUBJECT"
+                    "payload": "BUTTON_SWITCH_SUBJECT"
                 }
             ]
         }
@@ -485,7 +485,7 @@ def send_reminder(list):
                     {
                         "content_type": "text",
                         "title": "Continue 💪",
-                        "payload": "CONTINUE"
+                        "payload": "BUTTON_CONTINUE"
                     }
                 ]
             }
@@ -497,46 +497,9 @@ def send_reminder(list):
         else:
             print("[QUIZBOT] PID " + str(os.getpid())+": Sent Reminder To " + str(user_name) + " With ID " + str(recipient_id) + " At " + strftime("%Y-%m-%d %H:%M:%S", gmtime()))
 
-def send_why2_quickreply(recipient_id, support_sentence):
-    params = {
-        "access_token": os.environ["PAGE_ACCESS_TOKEN"]
-    }
-    headers = {
-        "Content-Type": "application/json"
-    }
-    data = json.dumps({
-        "recipient": {
-            "id": recipient_id
-        },
-        "message": {
-            "text": support_sentence,
-            "quick_replies": [
-                {
-                    "content_type": "text",
-                    "title": "Why",
-                    "payload": "WHY"
-                },
-                {
-                    "content_type": "text",
-                    "title": "Next Question",
-                    "payload": "NEXT_QUESTION"
-                },
-                {
-                    "content_type": "text",
-                    "title":"Switch Subject",
-                    "payload":"SWITCH_SUBJECT"
-                }
-            ]
-        }
-    })
-    r = requests.post("https://graph.facebook.com/v2.6/me/messages", params=params, headers=headers, data=data)
-    if r.status_code != 200:
-        log(r.status_code)
-        log(r.text)
 
-
-def send_gotit_quickreply(recipient_id, sentence):
-
+def send_gotit_quickreply(recipient_id, sentence, flag):
+    # if flag is True, that's leaderboard view, otherwise is general
     params = {
         "access_token": os.environ["PAGE_ACCESS_TOKEN"]
     }
@@ -544,7 +507,7 @@ def send_gotit_quickreply(recipient_id, sentence):
         "Content-Type": "application/json"
     }
     
-    data = json.dumps({
+    result = {
         "recipient": {
             "id": recipient_id
         },
@@ -554,11 +517,15 @@ def send_gotit_quickreply(recipient_id, sentence):
                 {
                     "content_type": "text",
                     "title": "Got it, next!",
-                    "payload": "GOT_IT_NEXT"
+                    "payload": "BUTTON_GOT_IT_NEXT"
                 }
             ]
         }
-    })
+
+    } 
+    if flag:
+        result["message"]["quick_replies"][0]["title"] = "Got it, quiz me more!"
+    data = json.dumps(result)
     r = requests.post("https://graph.facebook.com/v2.6/me/messages", params=params, headers=headers, data=data)
     if r.status_code != 200:
         log(r.status_code)
@@ -587,12 +554,12 @@ def persistent_menu():
                         {
                             "title":"Practice Mode "+u'\u270F',
                             "type":"postback",
-                            "payload":"PRACTICE_MODE"
+                            "payload":"MENU_PRACTICE_MODE"
                         },
                         {
                             "title":"Challenge Mode "+u'\uD83D\uDE3A',
                             "type":"postback",
-                            "payload":"CHALLENGE_MODE"
+                            "payload":"MENU_CHALLENGE_MODE"
                         }              
                         ]
                 },
