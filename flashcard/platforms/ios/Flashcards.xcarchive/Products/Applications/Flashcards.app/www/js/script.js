@@ -1,5 +1,6 @@
 $('document').ready(
     function() {
+        $user = 'brycetham'
         FastClick.attach(document.body);
         $('.element-front').show();
         $('.element-back').hide();
@@ -34,6 +35,18 @@ function change(subject) {
     if (!$('#front').is(":visible")) {
         flip();
     }
+    $.ajax({
+        url: 'https://www.smartprimer.org:5000/test',
+        type: 'GET',
+        data: {
+            user: $user,
+            timestamp: new Date(),
+            subject: $subject,
+        },
+        complete: function(data) {
+            console.log({user: $user, timestamp: new Date().toString(), subject: $subject});
+        }
+    });
     update();
 }
 
