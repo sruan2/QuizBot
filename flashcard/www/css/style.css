@@ -42,3 +42,8 @@ body, html {
     bottom: 0;
     font-size: 0.8em;
 }
+
+#username {
+    color: gray;
+    right: 5vw;
+}
