@@ -51,6 +51,10 @@
         </div>
     </div>
 
+    <div id="username" class="footer">
+        <p>Logging data as <span id="userLabel">anonymous</span>. <u data-toggle="modal" data-target="#userModal">Not you?</u>
+    </div>
+
     <div class="modal fade" id="hintModal" tabindex="-1" role="dialog" aria-labelledby="hintModalLabel" aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
@@ -78,6 +82,23 @@
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-sm btn-outline-secondary" data-dismiss="modal">close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="userModal" tabindex="-1" role="dialog" aria-labelledby="userModal" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Set Username</h5>
+                </div>
+                <div id="explanation" class="modal-body">
+                    <p>This is the username used to collect data about your flashcard app usage. Please only use the username assigned to you.</p>
+                    <input class="form-control" id="userInput" placeholder="Enter your username" />
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-sm btn-outline-primary" data-dismiss="modal" onclick="save()">save</button>
                 </div>
             </div>
         </div>

@@ -1,6 +1,6 @@
 $('document').ready(
     function() {
-        $user = 'brycetham'
+        load();
         FastClick.attach(document.body);
         $('.element-front').show();
         $('.element-back').hide();
@@ -92,4 +92,24 @@ function shuffle(a) {
         a[j] = x;
     }
     return a;
+}
+
+function load() {
+    if (!window.localStorage.getItem('username')) {
+        $('#userModal').modal();
+        $user = 'anonymous';
+    } else {
+        $user = window.localStorage.getItem('username');
+        $('#userLabel').html($user);
+        $("#userInput").attr("value", $user);
+    }
+}
+
+function save() {
+    $user = $('#userInput').val();
+    if (!$user) {
+        $user = 'anonymous';
+    }
+    $('#userLabel').html($user);
+    window.localStorage.setItem('username', $user);
 }
