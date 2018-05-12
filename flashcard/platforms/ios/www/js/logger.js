@@ -6,6 +6,10 @@ function onDeviceReady() {
     log("app startup");
     document.addEventListener("pause", onPause, false);
     document.addEventListener("resume", onResume, false);
+    cordova.plugins.notification.local.schedule({
+        text: 'Remember to do some flashcards today!',
+        trigger: { every: { hour: 22, minute: 35 } }
+    });
 }
 
 function onPause() {

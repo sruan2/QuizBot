@@ -24,5 +24,6 @@
     </platform>
     <plugin name="cordova-plugin-whitelist" spec="1" />
     <preference name="DisallowOverscroll" value="true" />
+    <plugin name="cordova-plugin-local-notification" spec="^0.9.0-beta.2" />
     <engine name="ios" spec="^4.5.4" />
 </widget>
