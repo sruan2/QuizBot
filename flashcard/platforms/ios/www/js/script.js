@@ -97,11 +97,11 @@ function shuffle(a) {
 function load() {
     if (!window.localStorage.getItem('username')) {
         $('#userModal').modal();
-        $user = 'anonymous';
+        $("#userInput").val('');
     } else {
         $user = window.localStorage.getItem('username');
         $('#userLabel').html($user);
-        $("#userInput").attr("value", $user);
+        $("#userInput").val($user);
     }
 }
 
