@@ -1,5 +1,6 @@
 $('document').ready(
     function() {
+        load();
         FastClick.attach(document.body);
         $('.element-front').show();
         $('.element-back').hide();
@@ -25,7 +26,8 @@ $('document').ready(
             gre: 0,
             safety: 0,
         };
-        change('science');
+        $subject = 'science';
+        update();
     }
 );
 
@@ -34,6 +36,7 @@ function change(subject) {
     if (!$('#front').is(":visible")) {
         flip();
     }
+    log('switch to ' + subject)
     update();
 }
 
@@ -89,4 +92,24 @@ function shuffle(a) {
         a[j] = x;
     }
     return a;
+}
+
+function load() {
+    if (!window.localStorage.getItem('username')) {
+        $('#userModal').modal();
+        $user = 'anonymous';
+    } else {
+        $user = window.localStorage.getItem('username');
+        $('#userLabel').html($user);
+        $("#userInput").attr("value", $user);
+    }
+}
+
+function save() {
+    $user = $('#userInput').val();
+    if (!$user) {
+        $user = 'anonymous';
+    }
+    $('#userLabel').html($user);
+    window.localStorage.setItem('username', $user);
 }
