@@ -9,10 +9,12 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
 
+    <script type="text/javascript" charset="utf-8" src="cordova.js"></script>
+
     <title>Flashcards</title>
 
 </head>
-<body>
+<body onload="onLoad()">
 
     <div id="tabs">
         <ul class="nav nav-tabs nav-justified" id="myTab" role="tablist">
@@ -49,6 +51,10 @@
         </div>
     </div>
 
+    <div id="username" class="footer">
+        <p>Logging data as <span id="userLabel">anonymous</span>. <u data-toggle="modal" data-target="#userModal">Not you?</u>
+    </div>
+
     <div class="modal fade" id="hintModal" tabindex="-1" role="dialog" aria-labelledby="hintModalLabel" aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
@@ -81,6 +87,23 @@
         </div>
     </div>
 
+    <div class="modal fade" id="userModal" tabindex="-1" role="dialog" aria-labelledby="userModal" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Set Username</h5>
+                </div>
+                <div id="explanation" class="modal-body">
+                    <p>This is the username used to collect data about your flashcard app usage. Please only use the username assigned to you.</p>
+                    <input class="form-control" id="userInput" placeholder="Enter your username" />
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-sm btn-outline-primary" data-dismiss="modal" onclick="save()">save</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="js/jquery-3.3.1.min.js"></script>
@@ -88,8 +111,8 @@
     <script src="js/bootstrap.min.js"></script>
 
     <script src="js/fastclick.js"></script>
-
     <script src="js/questions.js"></script>
+    <script src="js/logger.js"></script>
     <script src="js/script.js"></script>
 
 </body>
