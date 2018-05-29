@@ -91,11 +91,18 @@
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Set Username</h5>
+                    <h5 class="modal-title" id="exampleModalLabel">Set User Name</h5>
                 </div>
                 <div id="explanation" class="modal-body">
-                    <p>This is the username used to collect data about your flashcard app usage. Please only use the username assigned to you.</p>
-                    <input class="form-control" id="userInput" placeholder="Enter your username" />
+                    <p>This is the name used to collect data about your flashcard app usage. Your data will only be used for research purposes.</p>
+                    <form>
+                        <div class="form-group">
+                            <input class="form-control" id="firstname" placeholder="First name" />
+                        </div>
+                        <div class="form-group">
+                            <input class="form-control" id="lastname" placeholder="Last name" />
+                        </div>
+                    </form>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-sm btn-outline-primary" data-dismiss="modal" onclick="save()">save</button>
