@@ -115,3 +115,11 @@ function save() {
     $('#userLabel').html($user.firstname + ' ' + $user.lastname);
     window.localStorage.setItem('user', JSON.stringify($user));
 }
+
+function hint() {
+    log('toggle hint');
+}
+
+function explanation() {
+    log('toggle explanation');
+}
