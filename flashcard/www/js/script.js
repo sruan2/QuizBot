@@ -36,7 +36,7 @@ function change(subject) {
     if (!$('#front').is(":visible")) {
         flip();
     }
-    log('switch to ' + subject)
+    log('change to ' + subject)
     update();
 }
 
@@ -48,6 +48,7 @@ function flip() {
         $('.element-front').show();
         $('.element-back').hide();
     }
+    log("card flip");
 };
 
 function next() {
@@ -55,6 +56,7 @@ function next() {
     if (!$('#front').is(":visible")) {
         flip();
     }
+    log("card next");
     update();
 }
 
@@ -63,6 +65,7 @@ function prev() {
     if (!$('#front').is(":visible")) {
         flip();
     }
+    log("card prev");
     update();
 }
 
@@ -95,21 +98,20 @@ function shuffle(a) {
 }
 
 function load() {
-    if (!window.localStorage.getItem('username')) {
+    if (!window.localStorage.getItem('user')) {
         $('#userModal').modal();
-        $("#userInput").val('');
+        $('#firstname').val('');
+        $('#lastname').val('');
     } else {
-        $user = window.localStorage.getItem('username');
-        $('#userLabel').html($user);
-        $("#userInput").val($user);
+        $user = JSON.parse(window.localStorage.getItem('user'));
+        $('#userLabel').html($user.firstname + ' ' + $user.lastname);
+        $('#firstname').val($user.firstname);
+        $('#lastname').val($user.lastname);
     }
 }
 
 function save() {
-    $user = $('#userInput').val();
-    if (!$user) {
-        $user = 'anonymous';
-    }
-    $('#userLabel').html($user);
-    window.localStorage.setItem('username', $user);
+    $user = {firstname: $('#firstname').val(), lastname: $('#lastname').val()};
+    $('#userLabel').html($user.firstname + ' ' + $user.lastname);
+    window.localStorage.setItem('user', JSON.stringify($user));
 }
