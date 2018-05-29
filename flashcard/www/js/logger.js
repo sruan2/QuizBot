@@ -25,12 +25,14 @@ function log(message) {
         url: 'https://www.smartprimer.org:5000/test',
         type: 'GET',
         data: {
-            user: $user,
-            timestamp: new Date(),
-            message: message,
+            data: {
+                firstname: $user.firstname,
+                lastname: $user.lastname,
+                action: message
+            }
         },
         complete: function(data) {
-            console.log({user: $user, timestamp: new Date().toString(), message: message});
+            console.log({firstname: $user.firstname, lastname: $user.lastname, action: message});
         }
     });
 }
