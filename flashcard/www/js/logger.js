@@ -28,11 +28,13 @@ function log(message) {
             data: {
                 firstname: $user.firstname,
                 lastname: $user.lastname,
-                action: message
+                user_id: $user.id,
+                qid: $question.id,
+                event: message
             }
         },
         complete: function(data) {
-            console.log({firstname: $user.firstname, lastname: $user.lastname, action: message});
+            console.log({firstname: $user.firstname, lastname: $user.lastname, user_id: $user.id, qid: $question.id, event: message});
         }
     });
 }
