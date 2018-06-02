@@ -181,7 +181,7 @@ if __name__ == '__main__':
     pkl_file = 'model_pre_trained/glove/glove.6B.100d.pkl'
 
     # QA json data
-    json_file = 'QAdataset/230_gre_safety.json'
+    json_file = 'QAdataset/questions_filtered_150.json'
 
     qa_kb = QAKnowledgebase.ConstructQA(json_file)
 
