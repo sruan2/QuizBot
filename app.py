@@ -18,10 +18,11 @@ import QAModel
 from utils import pretty_print
 
 
-# ================== Flash App Setup ==================
+# ================== Global Varaibles ==================
+#  Flash App Setup
 app = Flask(__name__, static_url_path='')
 
-# ================== MySQL Setup ==================
+# MySQL Setup
 mysql = MySQL()
 app.config['MYSQL_HOST'] = os.environ["DB_HOST"]
 app.config['MYSQL_USER'] = os.environ["DB_USER"]
@@ -80,12 +81,14 @@ def webhook():
             if messaging_event.get("optin"):  # optin confirmation
                 continue
 
-            sender_id = messaging_event["sender"]["id"]        # the facebook ID of the person sending you the message
-            recipient_id = messaging_event["recipient"]["id"]  # the recipient's ID, which should be your page's facebook ID
+            # the facebook ID of the person sending you the message
+            sender_id = messaging_event["sender"]["id"]
 
             # Sherry: don't need this anymore because we can disable it in Facebook Developer Setting
             # if sender_id == os.environ["CHATBOT_ID"]: # return if this message is sent from the chatbot
             #     return "Chatbot ID", 200
+            # the recipient's ID, which should be your page's facebook ID
+            # recipient_id = messaging_event["recipient"]["id"]
 
             # Get user data
             data = _get_user_profile(sender_id)
@@ -110,7 +113,7 @@ def webhook():
                 pretty_print("Received a Postback from Persistent Menu", mode='QuizBot')
                 pretty_print("Payload is \""+payload+"\"")
                 pretty_print("Message Text is \""+message_text+"\"")
-                chatbot.respond_to_postback(payload, message_text, sender_id, qa_model, mysql)
+                chatbot.respond_to_payload(payload, message_text, sender_id, qa_model, mysql)
 
 
             elif messaging_event.get("message"):
@@ -118,10 +121,10 @@ def webhook():
                 if "quick_reply" in messaging_event.get("message"):
                     payload = messaging_event["message"]["quick_reply"]["payload"] # the button's payload
                     message_text = messaging_event["message"]["text"]  # the button's text
-                    pretty_print("Received a Payload from an earlier message", mode="QuizBot")
+                    pretty_print("Received a quick reply from an earlier message", mode="QuizBot")
                     pretty_print("Payload is \""+payload+"\"")
                     pretty_print("Message Text is \""+message_text+"\"")
-                    chatbot.respond_to_postback(payload, message_text, sender_id, qa_model, mysql)
+                    chatbot.respond_to_payload(payload, message_text, sender_id, qa_model, mysql)
 
                 # user sent an attachment: i.e., audio
                 elif "attachments" in messaging_event.get("message"):
@@ -159,11 +162,11 @@ def webhook():
 #    reminder.RepeatedTimer(86400.0, message.send_reminder, database.show_inactive_user(mysql))
 
 
-def _get_user_profile(recipient_id):
+def _get_user_profile(sender_id):
     # based on user id retrive user name
     # could protentially retive more user profile, e.g. profile_pic, locale, timezone, gender, last_ad_referral, etc.
     r = requests.get("https://graph.facebook.com/v2.6/{psid}?fields=first_name,last_name,gender"
-                     "&access_token={token}".format(psid=recipient_id,token=os.environ["PAGE_ACCESS_TOKEN"]))
+                     "&access_token={token}".format(psid=sender_id, token=access_token))
     if r.status_code != 200:
         print(r.status_code)
         print(r.text)
