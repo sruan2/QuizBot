@@ -25,13 +25,11 @@ function log(message) {
         url: 'https://www.smartprimer.org:5000/logdata',
         type: 'POST',
         data: {
-            data: {
-                firstname: $user.firstname,
-                lastname: $user.lastname,
-                user_id: $user.id,
-                qid: $question.id,
-                event: message
-            }
+            firstname: $user.firstname,
+            lastname: $user.lastname,
+            user_id: $user.id,
+            qid: $question.id,
+            event: message
         },
         complete: function(data) {
             console.log({firstname: $user.firstname, lastname: $user.lastname, user_id: $user.id, qid: $question.id, event: message});
