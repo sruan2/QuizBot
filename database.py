@@ -146,8 +146,8 @@ def insert_user_flashcard(mysql,user_id,user_firstname,user_lastname):
         except:
             con.rollback()
             print("[FC BUG] PID " + str(os.getpid())+": Error in inserting FLASHCARD user reocrd operation")
-        finally:
-            con.close()  
+        # finally:
+        #     con.close()  
 
 # insert flashcard user action
 def insert_user_action_flashcard(mysql, user_id, qid, user_action):
@@ -162,5 +162,5 @@ def insert_user_action_flashcard(mysql, user_id, qid, user_action):
         except:
             con.rollback()
             print("[FC BUG] PID " + str(os.getpid())+": Error in inserting FLASHCARD user action reocrd operation")
-        finally:
-            con.close()  
+        # finally:
+        #     con.close()  
