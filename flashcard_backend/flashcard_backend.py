@@ -31,7 +31,7 @@ def verify():
 @app.route('/logdata', methods=['POST'])
 def webhook():
 
-    print (request.get_json())
+    print (request)
     data = request.get_json()['data']
     sender_id = data['user_id']
     if not int(sender_id) in database.show_user_id_list(mysql):
