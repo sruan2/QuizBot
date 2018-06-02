@@ -1,6 +1,7 @@
 import sys
 sys.path.append("../")
 import os
+import json
 from flask import Flask
 from flask import request
 from flask_mysqldb import MySQL
@@ -31,12 +32,7 @@ def verify():
 @app.route('/logdata', methods=['POST'])
 def webhook():
 
-    print ("="*50)
-    print (request)
-    print ("="*50)
-    print (request.data)
-    #data = request.get_json()
-    print ("* *" * 50)
+    data=json.loads(request.data)
     print (data)
     sender_id = data['user_id']
     if not int(sender_id) in database.show_user_id_list(mysql):
