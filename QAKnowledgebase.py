@@ -26,7 +26,7 @@ class QAKnowlegeBase():
             self.DKB.append(entry["distractor"])
             # group all science subjects together
             if entry["subject"] in ("physics, chemistry, geology, biology"):
-                self.SubKB.append(entry["science"])
+                self.SubKB.append("science")
             else:
                 self.SubKB.append(entry["subject"])
 
