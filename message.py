@@ -590,7 +590,7 @@ def persistent_menu(access_token):
           }
         ]
     })
-    pretty_print("Persistent menu loaded", mode="QuizBot")
+    pretty_print("Persistent menu loaded", mode="Message")
     r = requests.post("https://graph.facebook.com/v2.6/me/messenger_profile", params=params, headers=headers, data=data)
     if r.status_code != 200:
         log(r.status_code)

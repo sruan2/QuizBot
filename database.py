@@ -1,21 +1,22 @@
 from flask import request
 import os
 from time import gmtime, strftime
+from utils import pretty_print
 
 # insert user info
 def insert_user(mysql, user_id,user_firstname,user_lastname,user_gender,user_status):
     if request.method == 'POST':
         try:
             con = mysql.connection
-            cur = con.cursor()    
-            cur.execute("INSERT INTO users (user_id,user_firstname,user_lastname,user_gender,user_status) VALUES (%s, %s, %s, %s, %s)",(user_id,user_firstname,user_lastname,user_gender,user_status))           
-            con.commit()  
-            print("[DATABASE] PID " + str(os.getpid())+": User record successfully added")
+            cur = con.cursor()
+            cur.execute("INSERT INTO users (user_id,user_firstname,user_lastname,user_gender,user_status) VALUES (%s, %s, %s, %s, %s)",(user_id,user_firstname,user_lastname,user_gender,user_status))
+            con.commit()
+            pretty_print("User record successfully added", mode="Database")
         except:
             con.rollback()
-            print("[BUG] PID " + str(os.getpid())+": Error in inserting user reocrd operation")
+            pretty_print("Error in inserting user reocrd operation", mode="BUG!")
         # finally:
-        #     con.close()  
+        #     con.close()
 
 
 # update user question-answer loop status
@@ -23,23 +24,23 @@ def update_status(mysql, user_id, status):
     if request.method == 'POST':
         try:
             con = mysql.connection
-            cur = con.cursor()             
-            cur.execute("update users set user_status = %s where user_id = %s",(status, user_id))           
+            cur = con.cursor()
+            cur.execute("update users set user_status = %s where user_id = %s",(status, user_id))
             con.commit()
-            print("[DATABASE] PID " + str(os.getpid())+": Update status successfully added")
+            pretty_print("Update status successfully added", mode="Database")
         except:
             con.rollback()
-            print("[BUG] PID " + str(os.getpid())+": Error in updating user status operation")
+            pretty_print("Error in updating user status operation", mode="BUG!")
         # finally:
-        #     con.close()      
+        #     con.close()
 
 def show_status(mysql, user_id):
-    cur = mysql.connection.cursor() 
+    cur = mysql.connection.cursor()
     cur.execute("select user_status from users where user_id = %s", [user_id])
 
     rows = cur.fetchall()
     if len(rows) != 0:
-        return rows[0][0] 
+        return rows[0][0]
     else:
         return -1
 
@@ -49,13 +50,13 @@ def insert_score(mysql, user_id,qid,answer,score):
     if request.method == 'POST':
         try:
             con = mysql.connection
-            cur = con.cursor()              
-            cur.execute("INSERT INTO scores (user_id,qid,answer,score,r_time) VALUES (%s, %s, %s, %s, %s)", (user_id,qid,answer,score,time))           
+            cur = con.cursor()
+            cur.execute("INSERT INTO scores (user_id,qid,answer,score,r_time) VALUES (%s, %s, %s, %s, %s)", (user_id,qid,answer,score,time))
             con.commit()
-            print("[DATABASE] PID " + str(os.getpid())+": Score record successfully added")
+            pretty_print("Score record successfully added", mode="Database")
         except:
             con.rollback()
-            print("[BUG] PID " + str(os.getpid())+": error in inserting score operation")
+            pretty_print("error in inserting score operation", mode="BUG!")
         # finally:
         #     con.close()
 
@@ -65,35 +66,35 @@ def insert_question(mysql, user_id,qid,subject):
     if request.method == 'POST':
         try:
             con = mysql.connection
-            cur = con.cursor()            
-            cur.execute("INSERT INTO questions (user_id,qid,subject,r_time) VALUES (%s,%s,%s,%s)",(user_id,qid,subject,time))           
+            cur = con.cursor()
+            cur.execute("INSERT INTO questions (user_id,qid,subject,r_time) VALUES (%s,%s,%s,%s)",(user_id,qid,subject,time))
             con.commit()
-            print("[DATABASE] PID " + str(os.getpid())+": Questions record successfully added")
+            pretty_print("Questions record successfully added", mode="Database")
         except:
             con.rollback()
-            print("[BUG] PID " + str(os.getpid())+": Error in inserting question operation")
+            pretty_print("Error in inserting question operation", mode="BUG!")
         # finally:
         #     con.close()
 
 def show_user_id_list(mysql):
-    cur = mysql.connection.cursor() 
+    cur = mysql.connection.cursor()
     cur.execute("select user_id from users")
 
     rows = cur.fetchall()
-    return [x[0] for x in rows]   
+    return [x[0] for x in rows]
 
 
-# retrieve score based on user_id 
+# retrieve score based on user_id
 def show_score(mysql, user_id):
-    cur = mysql.connection.cursor() 
+    cur = mysql.connection.cursor()
     cur.execute("select sum(score) from scores group by user_id having user_id = %s", [user_id])
 
     rows = cur.fetchall();
     return rows[0][0] if len(rows) > 0 else 0
 
-# retrieve score based on user_id 
+# retrieve score based on user_id
 def show_last_qid_subject(mysql, user_id):
-    cur = mysql.connection.cursor() 
+    cur = mysql.connection.cursor()
     cur.execute("select qid,subject from questions where user_id = %s order by id desc limit 1", [user_id])
 
     rows = cur.fetchall();
@@ -101,7 +102,7 @@ def show_last_qid_subject(mysql, user_id):
 
 # show top 10 in leaderboard
 def show_top_5(mysql):
-    cur = mysql.connection.cursor() 
+    cur = mysql.connection.cursor()
     cur.execute("select t2.user_firstname,t2.user_lastname,t1.sc from \
         (select user_id, sum(score) as sc from scores group by user_id order by sc desc) t1 join users t2 on t2.user_id = t1.user_id \
          order by t1.sc desc limit 5")
@@ -110,7 +111,7 @@ def show_top_5(mysql):
     return rows
 
 def show_current_ranking(mysql, id):
-    cur = mysql.connection.cursor() 
+    cur = mysql.connection.cursor()
     cur.execute("SELECT user_firstname, user_lastname, sc, rn from \
         (SELECT  user_id, sc, @uid:=@uid+1 AS rn FROM (SELECT @uid:= 0) s, (select user_id, sum(score) as sc from \
             scores group by user_id order by sc desc) a ) t1 join users t2 on t2.user_id = t1.user_id and t1.user_id = %s", [id])
@@ -124,7 +125,7 @@ def show_inactive_user(mysql):
     date_format_time = "%Y-%m-%d %H:%M:%S"
     date_format_sql = "%Y-%m-%d %H:%i:%s"
     current_datetime = strftime(date_format_time, gmtime())
-    cur = mysql.connection.cursor() 
+    cur = mysql.connection.cursor()
     cur.execute("select distinct s.user_id, user_firstname from users, (select user_id, max(r_time) as r_time from scores group by user_id) s \
         where STR_TO_DATE(%s, %s) - STR_TO_DATE(r_time, %s) > 1000000 limit 10;", [current_datetime, date_format_sql, date_format_sql])
 
@@ -139,15 +140,15 @@ def insert_user_flashcard(mysql,user_id,user_firstname,user_lastname):
     if request.method == 'POST':
         try:
             con = mysql.connection
-            cur = con.cursor()    
-            cur.execute("INSERT INTO users (user_id,user_firstname,user_lastname) VALUES (%s, %s, %s)",(user_id,user_firstname,user_lastname))           
-            con.commit()  
-            print("[FC DATABASE] PID " + str(os.getpid())+":FLASHCARD User record successfully added")
+            cur = con.cursor()
+            cur.execute("INSERT INTO users (user_id,user_firstname,user_lastname) VALUES (%s, %s, %s)",(user_id,user_firstname,user_lastname))
+            con.commit()
+            pretty_print("Flashcard User record successfully added", mode="FC Database")
         except:
             con.rollback()
-            print("[FC BUG] PID " + str(os.getpid())+": Error in inserting FLASHCARD user reocrd operation")
+            pretty_print("Error in inserting Flashcard user reocrd operation", mode="FC BUG!")
         # finally:
-        #     con.close()  
+        #     con.close()
 
 # insert flashcard user action
 def insert_user_action_flashcard(mysql, user_id, qid, user_action):
@@ -155,12 +156,12 @@ def insert_user_action_flashcard(mysql, user_id, qid, user_action):
     if request.method == 'POST':
         try:
             con = mysql.connection
-            cur = con.cursor()    
-            cur.execute("INSERT INTO action (user_id, qid, event, r_time) VALUES (%s, %s, %s, %s)",(user_id, qid, user_action, time))           
-            con.commit()  
-            print("[FC DATABASE] PID " + str(os.getpid())+":FLASHCARD User action record successfully added")
+            cur = con.cursor()
+            cur.execute("INSERT INTO action (user_id, qid, event, r_time) VALUES (%s, %s, %s, %s)",(user_id, qid, user_action, time))
+            con.commit()
+            pretty_print("FLASHCARD User action record successfully added", mode="FC Database")
         except:
             con.rollback()
-            print("[FC BUG] PID " + str(os.getpid())+": Error in inserting FLASHCARD user action reocrd operation")
+            pretty_print("Error in inserting FLASHCARD user action reocrd operation", mode="FC BUG!")
         # finally:
-        #     con.close()  
+        #     con.close()

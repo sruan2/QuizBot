@@ -178,7 +178,7 @@ def setup(app):
     log = logging.getLogger('werkzeug')
     log.setLevel(logging.ERROR)
 
-    pretty_print("============ Start the app ============", mode='Flask')
+    pretty_print("============ Start the app ============", mode='App')
     message.send_greeting(access_token)
     message.persistent_menu(access_token)
 
