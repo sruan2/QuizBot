@@ -6,7 +6,7 @@ from leaderboard.generate_leaderboard import *
 
 
 # ================= Chatbot's reply to a postback =================
-def respond_to_postback(payload, message_text, sender_id, qa_model, mysql):
+def respond_to_payload(payload, message_text, sender_id, qa_model, mysql):
     message_text = message_text.lower()
 
     if payload == "GET_STARTED_PAYLOAD":
@@ -22,24 +22,24 @@ def respond_to_postback(payload, message_text, sender_id, qa_model, mysql):
 
     elif payload == "MENU_SCORE":
         score = show_score(mysql, sender_id)
-        send_gotit_quickreply(sender_id, "Your total score is "+str(score)+". Keep moving!", False) 
+        send_gotit_quickreply(sender_id, "Your total score is "+str(score)+". Keep moving!", False)
 
     elif payload == "MENU_LEADERBOARD":
         records = show_top_5(mysql)
         cur_ranking = show_current_ranking(mysql, sender_id)
         sentence = ("\n").join(["No." + str(i + 1) + " " + str(records[i][0]+' '+records[i][1]) + ": " + str(records[i][2]) for i in range(len(records))])
-        send_picture(sender_id, str(generate(records, cur_ranking)), "", "") 
+        send_picture(sender_id, str(generate(records, cur_ranking)), "", "")
         if cur_ranking[3] <= 5:
-            send_gotit_quickreply(sender_id, "Keep on the good work!", True) 
+            send_gotit_quickreply(sender_id, "Keep on the good work!", True)
         else:
-            send_gotit_quickreply(sender_id, "Work harder, you can make it!", True) 
-        
-    
+            send_gotit_quickreply(sender_id, "Work harder, you can make it!", True)
+
+
     elif payload == "BUTTON_YUP_IM_READY" or payload == "BUTTON_CONTINUE":
         update_status(mysql, sender_id, 1)
         msg_great_get_started = "Great! Let’s get started 🚀"
         send_message(sender_id, msg_great_get_started)
-        choose_mode_quick_reply(sender_id) 
+        choose_mode_quick_reply(sender_id)
 
     elif payload == "BUTTON_I_NEED_A_HINT":
         msg_hint = "Okay. Which of these is the right answer?👇"
@@ -57,7 +57,7 @@ def respond_to_postback(payload, message_text, sender_id, qa_model, mysql):
         QID, _ = show_last_qid_subject(mysql, sender_id) # retrieve the qid and the subject from database
         standard_answer = qa_model.getAnswer(QID)
         insert_score(mysql, sender_id,QID,payload,0)
-        send_correct_answer(sender_id, QID, standard_answer)    
+        send_correct_answer(sender_id, QID, standard_answer)
         update_status(mysql, sender_id, 1)
         # show answer
 
@@ -69,8 +69,8 @@ def respond_to_postback(payload, message_text, sender_id, qa_model, mysql):
         # question = qa_model.QA_KB.QKB[QID]
         # send_a_question(sender_id, question)
         # ask the question again
-        
-    
+
+
     elif payload == "BUTTON_PRACTICE_MODE":
         msg_choose_mode = "Sure, which subject would you like me to quiz you on?👇"
         choose_subject_quick_reply(sender_id, msg_choose_mode)
@@ -83,8 +83,8 @@ def respond_to_postback(payload, message_text, sender_id, qa_model, mysql):
                              "That's not quite right. You didn't earn any points 😞"]
         send_message(sender_id, random.choice(msglist_incorrect))
         insert_score(mysql, sender_id,QID,payload,0)
-        send_correct_answer(sender_id, QID, standard_answer)    
-        update_status(mysql, sender_id, 1)         
+        send_correct_answer(sender_id, QID, standard_answer)
+        update_status(mysql, sender_id, 1)
 
     elif payload[:10] == "BUTTON_AKB":
         QID, _ = show_last_qid_subject(mysql, sender_id) # retrieve the qid and the subject from database
@@ -92,8 +92,8 @@ def respond_to_postback(payload, message_text, sender_id, qa_model, mysql):
         score = 3
         send_message(sender_id, "You earned "+str(score)+ " points!")
         insert_score(mysql, sender_id,QID,payload,score)
-        send_correct_answer(sender_id, QID, standard_answer)    
-        update_status(mysql, sender_id, 1)        
+        send_correct_answer(sender_id, QID, standard_answer)
+        update_status(mysql, sender_id, 1)
 
     elif payload == "BUTTON_PHYSICS":
         msglist_subject = ["All right! I’ll quiz you on physics!",
@@ -180,8 +180,8 @@ def respond_to_postback(payload, message_text, sender_id, qa_model, mysql):
     elif payload == "BUTTON_WHY":
         QID, _ = show_last_qid_subject(mysql, sender_id) # retrieve the qid and the subject from database
         support_sentence = qa_model.getSupport(QID)
-        send_message(sender_id, "Here's an explanation: ") 
-        send_explanation(sender_id, support_sentence) 
+        send_message(sender_id, "Here's an explanation: ")
+        send_explanation(sender_id, support_sentence)
 
     elif payload == "BUTTON_CHECK_TOTAL_SCORE":
         totalscore = str(show_score(mysql, sender_id))
@@ -206,7 +206,7 @@ def respond_to_postback(payload, message_text, sender_id, qa_model, mysql):
                 question, QID = qa_model.pickRandomQuestion()
             update_status(mysql, sender_id, 0)
             insert_question(mysql, sender_id,QID,last_subject)
-        else: 
+        else:
             QID = show_last_qid_subject(mysql, sender_id)[0]
             question = qa_model.pickLastQuestion(QID)
         send_starting_question(sender_id)
@@ -214,10 +214,7 @@ def respond_to_postback(payload, message_text, sender_id, qa_model, mysql):
 
     elif payload == "BUTTON_CHALLENGE_MODE":
         send_message(sender_id, "The developers are working hard to get this feature implemented...")
-        choose_mode_quick_reply(sender_id) 
-
-
-
+        choose_mode_quick_reply(sender_id)
 
 
 # ================= Chatbot's reply to a message text =================
@@ -226,8 +223,8 @@ def respond_to_messagetext(message_text, sender_id, qa_model, mysql):
     QID, _ = show_last_qid_subject(mysql, sender_id) # retrieve the qid and the subject from database
 
     if message_text == "Practice Mode "+u'\u270F':
-        choose_subject_quick_reply(sender_id, "Now tell me which subject you would like to choose:"+u'\uD83D\uDC47') 
-        insert_question(mysql, sender_id,'-11','MENU_PRACTICE_MODE')                                   
+        choose_subject_quick_reply(sender_id, "Now tell me which subject you would like to choose:"+u'\uD83D\uDC47')
+        insert_question(mysql, sender_id,'-11','MENU_PRACTICE_MODE')
 
     elif message_text == "next question" or message_text == "got it, next!" or message_text[:4] == "sure":
         QID, _ = show_last_qid_subject(mysql, sender_id) # retrieve the qid and the subject from database
@@ -242,7 +239,7 @@ def respond_to_messagetext(message_text, sender_id, qa_model, mysql):
             insert_question(mysql, sender_id,QID,last_subject)
             send_starting_question(sender_id)
             send_a_question(sender_id, question)
-        else: 
+        else:
             standard_answer = qa_model.getAnswer(QID)
             score = qa_model.compute_score(message_text, QID)
             if score < 5:
@@ -259,10 +256,10 @@ def respond_to_messagetext(message_text, sender_id, qa_model, mysql):
                 send_message(sender_id, "You earned 10 points!")
             send_correct_answer(sender_id, QID, standard_answer)
             insert_score(mysql, sender_id, QID, message_text, score)
-            update_status(mysql, sender_id, 1) 
-        
+            update_status(mysql, sender_id, 1)
 
-    else: # user's respons in natural language    
+
+    else: # user's respons in natural language
         if not show_status(mysql, sender_id):
             standard_answer = qa_model.getAnswer(QID)
             score = qa_model.compute_score(message_text, QID)
@@ -280,7 +277,7 @@ def respond_to_messagetext(message_text, sender_id, qa_model, mysql):
                 send_message(sender_id, "You earned 10 points!")
             send_correct_answer(sender_id, QID, standard_answer)
             insert_score(mysql, sender_id, QID, message_text, score)
-            update_status(mysql, sender_id, 1) 
+            update_status(mysql, sender_id, 1)
         else:
             update_status(mysql, sender_id, 1)
             send_interesting(sender_id, "That sounds interesting. Would you want more quiz questions to practice? I'm here to help :) ")
