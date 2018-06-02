@@ -21,18 +21,13 @@ function onResume() {
 }
 
 function log(message) {
+    var json = {firstname: $user.firstname, lastname: $user.lastname, user_id: $user.id, qid: $question.id, event: message};
     $.ajax({
         url: 'https://www.smartprimer.org:5000/logdata',
         type: 'POST',
-        data: {
-            firstname: $user.firstname,
-            lastname: $user.lastname,
-            user_id: $user.id,
-            qid: $question.id,
-            event: message
-        },
-        complete: function(data) {
-            console.log({firstname: $user.firstname, lastname: $user.lastname, user_id: $user.id, qid: $question.id, event: message});
+        data: json,
+        complete: function() {
+            console.log(json);
         }
     });
 }
