@@ -13,14 +13,16 @@ import pickle
 from nltk import RegexpTokenizer
 import math
 
+from utils import pretty_print
+
 
 class QAModel(object):
 
     def __init__(self, qa_kb):
-        print("[QUIZBOT] PID " + str(os.getpid())+": QAModel initialization begins")
+        pretty_print("QAModel initialization begins", mode="QA Model")
         self.QID = 0
         self.QA_KB = qa_kb
-        print("[QUIZBOT] PID " + str(os.getpid())+": QAModel initialization ends")
+        pretty_print("QAModel initialization ends", mode="QA Model")
 
     def pickSubjectRandomQuestion(self, subject):
         subject = subject.lower()
@@ -108,7 +110,7 @@ class SIF2Model(QAModel):
         self.DKB = qa_kb.DKB
         pkl = open(pkl_file, 'rb')
         self.glove = pickle.load(pkl, encoding='latin1')
-        print("[QUIZBOT] PID " + str(os.getpid())+": Loaded "+pkl_file)
+        pretty_print("Loaded "+pkl_file, mode="QA Model")
         self.init_model(qa_kb.SKB)  # use support to fit
 
     def init_model(self, sentences):
