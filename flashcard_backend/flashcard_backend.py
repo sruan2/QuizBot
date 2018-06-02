@@ -28,7 +28,7 @@ def verify():
     print("received")
     return "test", 200
 
-@app.route('/logdata', methods=['POST'])
+@app.route('/logdata', methods=['OPTIONS'])
 def webhook():
 
     print ("="*50)
