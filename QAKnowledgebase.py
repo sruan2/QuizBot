@@ -43,5 +43,5 @@ class QAKnowlegeBase():
                 self.SubDict[subject] = [i]
 
         pretty_print("Total Subject Count is: "+str(len(self.SubDict)))
-        for subject in self.subKB.keys():
+        for subject in self.SubKB.keys():
             pretty_print("{}: {}".format(subject, len(self.subKB[subject])))
