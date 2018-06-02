@@ -19,10 +19,9 @@ from utils import pretty_print
 class QAModel(object):
 
     def __init__(self, qa_kb):
-        pretty_print("QAModel initialization begins", mode="QA Model")
+        pretty_print("QAModel initialization", mode="QA Model")
         self.QID = 0
         self.QA_KB = qa_kb
-        pretty_print("QAModel initialization ends", mode="QA Model")
 
     def pickSubjectRandomQuestion(self, subject):
         subject = subject.lower()
@@ -66,6 +65,7 @@ class TFIDFModel(QAModel):
     """a working baseline model: TFIDF"""
     def __init__(self, qa_kb):
         super(TFIDFModel, self).__init__(qa_kb)
+        pretty_print('TFIDF Model')
 
     def compute_score(self, user_answer, QID):
         user_answer = user_answer.lower()
@@ -83,6 +83,7 @@ class Doc2VecModel(QAModel):
         pretrained_model_file = 'model_pre_trained/model_d2v_v1'
         super(Doc2VecModel, self).__init__(qa_kb)
         self.MODEL = Doc2Vec.load(pretrained_model_file) # load the model in the very beginning
+        pretty_print('Doc2Vec Model')
 
     def pickNextSimilarQuestion(self, QID):
         num = randint(0, 1000)
@@ -94,6 +95,7 @@ class Doc2VecModel(QAModel):
 class SIFModel(QAModel):
     def __init__(self, qa_kb):
         super(SIFModel, self).__init__(qa_kb)
+        pretty_print('SIF Model')
 
     def compute_score(self, user_answer, QID):
         user_answer = user_answer.lower()
@@ -110,8 +112,9 @@ class SIF2Model(QAModel):
         self.DKB = qa_kb.DKB
         pkl = open(pkl_file, 'rb')
         self.glove = pickle.load(pkl, encoding='latin1')
-        pretty_print("Loaded "+pkl_file, mode="QA Model")
         self.init_model(qa_kb.SKB)  # use support to fit
+        pretty_print("Loaded "+pkl_file, mode="QA Model")
+        pretty_print('SIF2 Model')
 
     def init_model(self, sentences):
         self.tokenizer = RegexpTokenizer(r'[\w]+')

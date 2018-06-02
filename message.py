@@ -4,6 +4,7 @@ import requests
 import sys
 import random
 from time import gmtime, strftime
+from utils import pretty_print
 
 
 def send_picture(user_id, imageUrl, title="", subtitle=""):
@@ -40,13 +41,13 @@ def send_picture(user_id, imageUrl, title="", subtitle=""):
                       data=json.dumps(data),
                       headers={'Content-type': 'application/json'})
     if r.status_code != requests.codes.ok:
-        print(r.text)    
+        print(r.text)
 
 def send_starting_question(recipient_id):
     starting_part = ["Here's a question for you:",
                      "Let's try this one:",
                      "Could you answer this one for me?",
-                     "Let's see if you can get this one:"]  
+                     "Let's see if you can get this one:"]
     params = {
         "access_token": os.environ["PAGE_ACCESS_TOKEN"]
     }
@@ -296,7 +297,7 @@ def choose_mode_quick_reply(recipient_id):
     r = requests.post("https://graph.facebook.com/v2.6/me/messages", params=params, headers=headers, data=data)
     if r.status_code != 200:
         log(r.status_code)
-        log(r.text)        
+        log(r.text)
 
 
 # new added subject selection
@@ -348,7 +349,7 @@ def choose_subject_quick_reply(recipient_id, main_text):
                 {
                     "content_type": "text",
                     "title": "Random🎲",
-                    "payload": "BUTTON_RANDOM"                
+                    "payload": "BUTTON_RANDOM"
                 }
             ]
         }
@@ -356,7 +357,7 @@ def choose_subject_quick_reply(recipient_id, main_text):
     r = requests.post("https://graph.facebook.com/v2.6/me/messages", params=params, headers=headers, data=data)
     if r.status_code != 200:
         log(r.status_code)
-        log(r.text)  
+        log(r.text)
 
 def send_correct_answer(recipient_id, QID, standard_answer):
 
@@ -394,7 +395,7 @@ def send_correct_answer(recipient_id, QID, standard_answer):
                     "content_type": "text",
                     "title": "Wait, I'm right 😡",
                     "payload": "BUTTON_REPORT_BUG"
-                },                 
+                },
             ]
         }
     })
@@ -465,7 +466,7 @@ def send_bugreport(recipient_id, text):
     r = requests.post("https://graph.facebook.com/v2.6/me/messages", params=params, headers=headers, data=data)
     if r.status_code != 200:
         log(r.status_code)
-        log(r.text)        
+        log(r.text)
 
 def send_reminder(list):
     for recipient_id, user_name in list:
@@ -493,7 +494,7 @@ def send_reminder(list):
         r = requests.post("https://graph.facebook.com/v2.6/me/messages", params=params, headers=headers, data=data)
         if r.status_code != 200:
             log(r.status_code)
-            log(r.text)    
+            log(r.text)
         else:
             print("[QUIZBOT] PID " + str(os.getpid())+": Sent Reminder To " + str(user_name) + " With ID " + str(recipient_id) + " At " + strftime("%Y-%m-%d %H:%M:%S", gmtime()))
 
@@ -506,7 +507,7 @@ def send_gotit_quickreply(recipient_id, sentence, flag):
     headers = {
         "Content-Type": "application/json"
     }
-    
+
     result = {
         "recipient": {
             "id": recipient_id
@@ -522,21 +523,21 @@ def send_gotit_quickreply(recipient_id, sentence, flag):
             ]
         }
 
-    } 
+    }
     if flag:
         result["message"]["quick_replies"][0]["title"] = "Got it, quiz me more!"
     data = json.dumps(result)
     r = requests.post("https://graph.facebook.com/v2.6/me/messages", params=params, headers=headers, data=data)
     if r.status_code != 200:
         log(r.status_code)
-        log(r.text) 
+        log(r.text)
 
 
 
 ############ persistent menu ############
-def persistent_menu():
+def persistent_menu(access_token):
     params = {
-        "access_token": os.environ["PAGE_ACCESS_TOKEN"]
+        "access_token": access_token
     }
     headers = {
         "Content-Type": "application/json"
@@ -560,7 +561,7 @@ def persistent_menu():
                             "title":"Challenge Mode "+u'\uD83D\uDE3A',
                             "type":"postback",
                             "payload":"MENU_CHALLENGE_MODE"
-                        }              
+                        }
                         ]
                 },
                 {
@@ -587,19 +588,19 @@ def persistent_menu():
                 }
             ]
           }
-        ]        
+        ]
     })
-    print("[QUIZBOT] PID " + str(os.getpid())+": Persistent menu loaded")
+    pretty_print("Persistent menu loaded", mode="QuizBot")
     r = requests.post("https://graph.facebook.com/v2.6/me/messenger_profile", params=params, headers=headers, data=data)
     if r.status_code != 200:
         log(r.status_code)
-        log(r.text) 
+        log(r.text)
 
 
 ############ greeting ############
-def greeting():
+def send_greeting(access_token):
     params = {
-        "access_token": os.environ["PAGE_ACCESS_TOKEN"]
+        "access_token":access_token
     }
     headers = {
         "Content-Type": "application/json"
@@ -609,7 +610,7 @@ def greeting():
             {
                 "locale":"default",
                 "text":"Hello!"
-            }, 
+            },
             {
                 "locale":"en_US",
                 "text":"Welcome to QuizBot created by Stanford!"
@@ -634,5 +635,5 @@ def greeting():
 
 
 def log(message):  # simple wrapper for logging to stdout on heroku
-    print (str(message))
+    print(str(message))
     sys.stdout.flush()
