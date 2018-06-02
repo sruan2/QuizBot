@@ -1,7 +1,6 @@
 import os
 import json
 import sys
-#sys.path.append("/home/venv/quizbot/QuizBot/")
 import QAKnowledgebase
 import QAModel
 from flask_mysqldb import MySQL

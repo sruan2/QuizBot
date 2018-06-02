@@ -1,3 +1,6 @@
+import sys
+sys.path.append("../")
+
 from flask import Flask
 from flask import request
 import database
