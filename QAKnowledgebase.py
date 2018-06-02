@@ -28,7 +28,7 @@ class QAKnowlegeBase():
 
         self.appendSubDict()
 
-        print("\t\t\tTotal Number of Questions: " +str(self.KBlength))
+        print("\t\t\t\tTotal Number of Questions: " +str(self.KBlength))
         print("[QUIZBOT] PID " + str(os.getpid())+": Finished QA Knowledgebase Construction")
 
     def appendSubDict(self):
@@ -37,4 +37,4 @@ class QAKnowlegeBase():
                 self.SubDict[subject].append(i)  # append index in list, not qid
             else:
                 self.SubDict[subject] = [i]
-        print("\t\t\tTotal Subject Count is: "+str(len(self.SubDict)))
+        print("\t\t\t\tTotal Subject Count is: "+str(len(self.SubDict)))
