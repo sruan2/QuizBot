@@ -1,26 +1,25 @@
+'''Flash application for quizbot'''
+
 import os
 import json
-import sys
-import QAKnowledgebase
-import QAModel
-from flask_mysqldb import MySQL
 from random import randint
-from similarity_model import tfidf
 from flask import Flask, request, send_from_directory
 import requests
+import time
+import logging
+from flask_mysqldb import MySQL
+
 import message
 import database
 import chatbot
 import speech
-import time
 import reminder
-
-# hide http print
-import logging
-log = logging.getLogger('werkzeug')
-log.setLevel(logging.ERROR)
+import QAKnowledgebase
+import QAModel
+from similarity_model import tfidf
 
 
+# ================== Flash app Setup ==================
 app = Flask(__name__, static_url_path='')
 
 # ================== MySQL Setup ==================
@@ -41,6 +40,7 @@ def send_pictures(path):
 def send_lb_pictures(path):
     return send_from_directory('./tmp/pictures', path)
 
+
 @app.route('/test', methods=['GET'])
 def test():
     return "test", 200
@@ -57,14 +57,11 @@ def verify():
     return "Hello world", 200
 
 
-
 @app.route('/', methods=['POST'])
 def webhook():
-
-    
     #print("[QUIZBOT] PID " + str(os.getpid())+": Enter webhook") # endpoint for processing incoming messaging events
     data = request.get_json()
-    
+
     if data["object"] == "page":
         for entry in data["entry"]:
             if entry.get("messaging"):
@@ -75,14 +72,14 @@ def webhook():
 
                     if messaging_event.get("optin"):  # optin confirmation
                         pass
-   
+
                     sender_id = messaging_event["sender"]["id"]        # the facebook ID of the person sending you the message
                     recipient_id = messaging_event["recipient"]["id"]  # the recipient's ID, which should be your page's facebook ID
-                    
+
                     # if sender_id == os.environ["CHATBOT_ID"]: # return if this message is sent from the chatbot
                     #     return "Chatbot ID", 200
 
-                    data = get_user_profile(sender_id)
+                    data = _get_user_profile(sender_id)
                     sender_firstname = data['first_name']
                     sender_lastname = data['last_name']
                     if 'gender' in data:
@@ -94,11 +91,11 @@ def webhook():
                         print("[QUIZBOT] PID " + str(os.getpid())+": This is a new user!")
                         database.insert_user(mysql, sender_id, sender_firstname, sender_lastname, sender_gender, 1)
                         database.insert_score(mysql, sender_id, -1, "new_user", 0)
-                        message.choose_mode_quick_reply(sender_id) 
+                        message.choose_mode_quick_reply(sender_id)
                     #print("[QUIZBOT] PID " + str(os.getpid())+": Talking to " + sender_firstname)
 
                     # user clicked/tapped "postback" button in Persistent menu
-                    if messaging_event.get("postback"):  
+                    if messaging_event.get("postback"):
                         payload = messaging_event["postback"]["payload"] # the button's payload
                         message_text = messaging_event["postback"]["title"]  # the button's text
                         print("[QUIZBOT] PID " + str(os.getpid())+": Received a POSTBACK from Persistent Menu")
@@ -106,10 +103,10 @@ def webhook():
                         print("[QUIZBOT] PID " + str(os.getpid())+": Message Text is \""+message_text+"\"")
                         chatbot.respond_to_postback(payload, message_text, sender_id, qa_model, mysql)
 
-                    
-                    elif messaging_event.get("message"):  
+
+                    elif messaging_event.get("message"):
                         # user clicked/tapped "postback" button in earlier message
-                        if "quick_reply" in messaging_event.get("message"): 
+                        if "quick_reply" in messaging_event.get("message"):
                             payload = messaging_event["message"]["quick_reply"]["payload"] # the button's payload
                             message_text = messaging_event["message"]["text"]  # the button's text
                             print("[QUIZBOT] PID " + str(os.getpid())+": Received a POSTBACK from earlier message")
@@ -118,7 +115,7 @@ def webhook():
                             chatbot.respond_to_postback(payload, message_text, sender_id, qa_model, mysql)
 
                         # user sent an attachment: i.e., audio
-                        elif "attachments" in messaging_event.get("message"): 
+                        elif "attachments" in messaging_event.get("message"):
                             if messaging_event["message"]["attachments"][0]["type"] == "audio": # only getting the first attachment
                                 print("[QUIZBOT] PID " + str(os.getpid())+": Received an AUDIO attachment")
                                 receive_time = time.time()
@@ -140,8 +137,8 @@ def webhook():
                         # someone sent us a message
                         elif not "text" in messaging_event["message"]:
                             return "key error", 200
-                        
-                        else:                      
+
+                        else:
                             message_text = messaging_event["message"]["text"]  # the message's text
                             print("[QUIZBOT] PID " + str(os.getpid())+": Received a MESSAGE")
                             print("[QUIZBOT] PID " + str(os.getpid())+": Message Text is \""+message_text+"\"")
@@ -154,12 +151,16 @@ def webhook():
 
 # ================== SET UP ==================
 def setup_app(app):
+    # hide http print
+    log = logging.getLogger('werkzeug')
+    log.setLevel(logging.ERROR)
+
     print("[QUIZBOT] PID " + str(os.getpid())+": ============ Start the app ============")
     message.greeting()
     message.persistent_menu()
 
 
-def get_user_profile(recipient_id):
+def _get_user_profile(recipient_id):
     # based on user id retrive user name
     # could protentially retive more user profile, e.g. profile_pic, locale, timezone, gender, last_ad_referral, etc.
     #print("[QUIZBOT] PID " + str(os.getpid())+": Getting user profile from user_id: {recipient}".format(recipient=recipient_id))
@@ -172,15 +173,16 @@ def get_user_profile(recipient_id):
     return data
 
 
-setup_app(app)
-
 if __name__ == '__main__':
+    setup_app(app)
+
     # model
     doc2vec = 'model_pre_trained/model_d2v_v1'
     pkl_file = 'model_pre_trained/glove/glove.6B.100d.pkl'
+
     # QA json data
     json_file = 'QAdataset/230_gre_safety.json'
-    
+
     qa_kb = QAKnowledgebase.ConstructQA(json_file)
 
     # select the right model to load based on environment variable "MODEL", which is set in ./start_server.sh
@@ -197,4 +199,4 @@ if __name__ == '__main__':
     context = ('/etc/letsencrypt/live/smartprimer.org/fullchain.pem', '/etc/letsencrypt/live/smartprimer.org/privkey.pem')
 
     app.run(host='0.0.0.0', threaded=True, debug=True, port=int(os.environ["PORT"]), ssl_context=context)
-    
+
