@@ -5,7 +5,7 @@ import json
 from flask import Flask
 from flask import request
 from flask_mysqldb import MySQL
-from database import *
+import database
 
 
 
@@ -35,13 +35,15 @@ def webhook():
     data=json.loads(request.data.decode("utf-8"))
     print (data)
     sender_id = data['user_id']
+    qid = data['qid']
+    user_action = data['event']
     if not int(sender_id) in database.show_user_id_list(mysql):
         sender_firstname = data['firstname']
         sender_lastname = data['lastname']
         print("[FLASHCARD] PID " + str(os.getpid())+": This is a new user!")
         database.insert_user_flashcard(mysql, sender_id, sender_firstname, sender_lastname)
 
-    insert_user_action_flashcard(mysql, sender_id, qid, user_action)
+    database.insert_user_action_flashcard(mysql, sender_id, qid, user_action)
     print("[FLASHCARD] PID " + str(os.getpid())+": Record FLASHCARD user action successfully")
 
     return "ok", 200
