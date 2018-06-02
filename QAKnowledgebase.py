@@ -24,7 +24,11 @@ class QAKnowlegeBase():
             self.AKB.append(entry["correct_answer"])
             self.SKB.append(entry["support"])
             self.DKB.append(entry["distractor"])
-            self.SubKB.append(entry["subject"])
+            # group all science subjects together
+            if entry["subject"] in ("physics, chemistry, geology, biology"):
+                self.SubKB.append(entry["science"])
+            else:
+                self.SubKB.append(entry["subject"])
 
         self.appendSubDict()
 
@@ -37,4 +41,7 @@ class QAKnowlegeBase():
                 self.SubDict[subject].append(i)  # append index in list, not qid
             else:
                 self.SubDict[subject] = [i]
+
         pretty_print("Total Subject Count is: "+str(len(self.SubDict)))
+        for subject in self.subKB.keys():
+            pretty_print("{}: {}".format(subject, len(self.subKB[subject])))
