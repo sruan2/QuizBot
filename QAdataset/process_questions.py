@@ -19,40 +19,33 @@ with open('questions_filtered_150.json', 'w') as out_file:
 
 # split questions into pre-test and post-test
 
-science_questions = []
-gre_questions = []
-safety_questions = []
+def process_test(name, seed):
 
-for q in questions:
-    if q['subject'] == 'gre':
-        gre_questions.append(q)
-    elif q['subject'] == 'safety':
-        safety_questions.append(q)
-    else:
-        science_questions.append(q)
+    random.seed(seed)
 
-pretest_questions = []
-posttest_questions = []
+    science_questions = []
+    gre_questions = []
+    safety_questions = []
 
-for data in [science_questions, gre_questions, safety_questions]:
+    for q in questions:
+        if q['subject'] == 'gre':
+            gre_questions.append(q)
+        elif q['subject'] == 'safety':
+            safety_questions.append(q)
+        else:
+            science_questions.append(q)
 
-    random.shuffle(data)
-    pre_data = data[:20]
-    post_data = data[10:30]
+    test_questions = []
 
-    for i in range(10):
-        post_data[i]['v'] = 'old'
-    for i in range(10, 20):
-        post_data[i]['v'] = 'new'
+    for data in [science_questions, gre_questions, safety_questions]:
 
-    pretest_questions.extend(pre_data)
-    posttest_questions.extend(post_data)
+        random.shuffle(data)
+        test_questions.extend(data[:20])
 
-random.shuffle(pretest_questions)
-random.shuffle(posttest_questions)
+    random.shuffle(test_questions)
 
-with open('questions_pretest_60.json', 'w') as out_file:
-    json.dump(pretest_questions, out_file)
+    with open(name, 'w') as out_file:
+        json.dump(test_questions, out_file)
 
-with open('questions_posttest_60.json', 'w') as out_file:
-    json.dump(posttest_questions, out_file)
+process_test('questions_pretest_60.json', 42)
+process_test('questions_posttest_60.json', 448)
