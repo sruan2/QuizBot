@@ -22,8 +22,8 @@ function onResume() {
 
 function log(message) {
     $.ajax({
-        url: 'https://www.smartprimer.org:5000/test',
-        type: 'GET',
+        url: 'https://www.smartprimer.org:5000/logdata',
+        type: 'POST',
         data: {
             data: {
                 firstname: $user.firstname,
