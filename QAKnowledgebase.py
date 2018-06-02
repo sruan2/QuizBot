@@ -1,12 +1,12 @@
 '''QA Knowledgebase for safety, gre, and science questions'''
 
-import os
 import json
+from utils import pretty_print
 
 class QAKnowlegeBase():
 
     def __init__(self, jsonFile):
-        print("[QUIZBOT] PID " + str(os.getpid())+": Begin to Construct QA Knowledgebase")
+        pretty_print("Begin to Construct QA Knowledgebase", mode="QA KB")
         data = json.load(open(jsonFile))
 
         self.QID = [] # questin id
@@ -28,8 +28,8 @@ class QAKnowlegeBase():
 
         self.appendSubDict()
 
-        print("\t\t\t\tTotal Number of Questions: " +str(self.KBlength))
-        print("[QUIZBOT] PID " + str(os.getpid())+": Finished QA Knowledgebase Construction")
+        pretty_print("Total Number of Questions: " +str(self.KBlength))
+        pretty_print("Finished QA Knowledgebase Construction", mode="QA KB")
 
     def appendSubDict(self):
         for i, subject in enumerate(self.SubKB):
@@ -37,4 +37,4 @@ class QAKnowlegeBase():
                 self.SubDict[subject].append(i)  # append index in list, not qid
             else:
                 self.SubDict[subject] = [i]
-        print("\t\t\t\tTotal Subject Count is: "+str(len(self.SubDict)))
+        pretty_print("Total Subject Count is: "+str(len(self.SubDict)))

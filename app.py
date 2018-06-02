@@ -104,7 +104,7 @@ def webhook():
             if messaging_event.get("postback"):
                 payload = messaging_event["postback"]["payload"] # the button's payload
                 message_text = messaging_event["postback"]["title"]  # the button's text
-                pretty_print("Received a Postback from Persistent Menu")
+                pretty_print("Received a Postback from Persistent Menu", mode='QuizBot')
                 pretty_print("Payload is \""+payload+"\"")
                 pretty_print("Message Text is \""+message_text+"\"")
                 chatbot.respond_to_postback(payload, message_text, sender_id, qa_model, mysql)
@@ -175,7 +175,7 @@ def setup(app):
     log = logging.getLogger('werkzeug')
     log.setLevel(logging.ERROR)
 
-    print("[QUIZBOT] PID " + str(os.getpid())+": ============ Start the app ============")
+    pretty_print("============ Start the app ============", mode='Flask')
     message.greeting()
     message.persistent_menu()
 
