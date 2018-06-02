@@ -52,7 +52,7 @@ class QAModel(object):
             support = ""
             print("[BUG] PID " + str(os.getpid())+": Index %d does not exist in SKB" % QID)
         return support
-    
+
     @abstractmethod
     def pickNextSimilarQuestion(self): pass
 
@@ -72,14 +72,15 @@ class TFIDFModel(QAModel):
         answer.append(user_answer)
         self.tfidf_features = TfidfVectorizer().fit_transform(answer)
         cosine_similarities = linear_kernel(self.tfidf_features[0:1], self.tfidf_features).flatten()
-        return int(cosine_similarities[1]*10)   
+        return int(cosine_similarities[1]*10)
 
 # This is pretrained by Zhengneng
 class Doc2VecModel(QAModel):
     """docstring for Doc2VecModel"""
     def __init__(self, qa_kb, PreTrainedModel):
+        pretrained_model_file = 'model_pre_trained/model_d2v_v1'
         super(Doc2VecModel, self).__init__(qa_kb)
-        self.MODEL = Doc2Vec.load(PreTrainedModel) # load the model in the very beginning
+        self.MODEL = Doc2Vec.load(pretrained_model_file) # load the model in the very beginning
 
     def pickNextSimilarQuestion(self, QID):
         num = randint(0, 1000)
@@ -103,6 +104,7 @@ class SIFModel(QAModel):
 class SIF2Model(QAModel):
     """docstring for SIF2Model"""
     def __init__(self, qa_kb, pkl_file):
+        pkl_file = 'model_pre_trained/glove/glove.6B.100d.pkl'
         super(SIF2Model, self).__init__(qa_kb)
         self.AKB = qa_kb.AKB
         self.DKB = qa_kb.DKB
@@ -120,7 +122,7 @@ class SIF2Model(QAModel):
         # transform the correct answer
         correct_answer = self.QA_KB.AKB[QID][0]
         tokenized_answer = utils.preprocess([correct_answer], self.tokenizer)
-        V_answer = self.emb.transform(tokenized_answer)    
+        V_answer = self.emb.transform(tokenized_answer)
         # transform the user's answer
         tokenized_query = utils.preprocess([user_answer], self.tokenizer)
         print(tokenized_query)
@@ -131,11 +133,11 @@ class SIF2Model(QAModel):
                 break
         if not not_empty:
             return -1 # transformed V_query won't exist since it will be empty (nont of the words exist in glove)
-        V_query = self.emb.transform(tokenized_query)      
+        V_query = self.emb.transform(tokenized_query)
         score = math.ceil(utils.cosine_similarity(V_query[0], V_answer[0]) * 10)
         return score
 
-        
+
 
 
 
