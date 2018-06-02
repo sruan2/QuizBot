@@ -14,9 +14,8 @@ import database
 import chatbot
 import speech
 import reminder
-import QAKnowledgebase
+from QAKnowledgebase import ConstructQA
 import QAModel
-from similarity_model import tfidf
 
 
 # ================== Flash app Setup ==================
@@ -183,7 +182,7 @@ if __name__ == '__main__':
     # QA json data
     json_file = 'QAdataset/questions_filtered_150.json'
 
-    qa_kb = QAKnowledgebase.ConstructQA(json_file)
+    qa_kb = ConstructQA(json_file)
 
     # select the right model to load based on environment variable "MODEL", which is set in ./start_server.sh
     model = os.environ["MODEL"]
