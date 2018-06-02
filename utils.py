@@ -1,6 +1,6 @@
 import os
 
-def pretty_print(message, mode):
+def pretty_print(message, mode=None):
     if not mode:
         print('\t\t\t\t'+message)
     else:
