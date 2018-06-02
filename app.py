@@ -29,6 +29,9 @@ app.config['MYSQL_PASSWORD'] = os.environ["DB_PASSWORD"]
 app.config['MYSQL_DB'] = os.environ["DB"]
 mysql.init_app(app)
 
+# access_token for facebook messenger
+access_token = os.environ["PAGE_ACCESS_TOKEN"]
+
 
 # For static pictures such as owl
 @app.route('/pictures/<path:path>')
@@ -176,8 +179,8 @@ def setup(app):
     log.setLevel(logging.ERROR)
 
     pretty_print("============ Start the app ============", mode='Flask')
-    message.greeting()
-    message.persistent_menu()
+    message.send_greeting(access_token)
+    message.persistent_menu(access_token)
 
 
 if __name__ == '__main__':
