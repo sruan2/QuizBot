@@ -25,7 +25,6 @@ function log(message) {
     $.ajax({
         url: 'https://www.smartprimer.org:5000/logdata',
         type: 'POST',
-        contentType: 'text/plain',
         data: JSON.stringify(json),
         complete: function() {
             console.log('Logged: ' + JSON.stringify(json));
