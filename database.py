@@ -132,4 +132,35 @@ def show_inactive_user(mysql):
     return rows
 
 
+########## FLASHCARD ##########
 
+# insert flashcard user info
+def insert_user_flashcard(mysql,user_id,user_firstname,user_lastname):
+    if request.method == 'POST':
+        try:
+            con = mysql.connection
+            cur = con.cursor()    
+            cur.execute("INSERT INTO users (user_id,user_firstname,user_lastname) VALUES (%s, %s, %s)",(user_id,user_firstname,user_lastname))           
+            con.commit()  
+            print("[FC DATABASE] PID " + str(os.getpid())+":FLASHCARD User record successfully added")
+        except:
+            con.rollback()
+            print("[FC BUG] PID " + str(os.getpid())+": Error in inserting FLASHCARD user reocrd operation")
+        finally:
+            con.close()  
+
+# insert flashcard user action
+def insert_user_action_flashcard(mysql, user_id, qid, user_action):
+    time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
+    if request.method == 'POST':
+        try:
+            con = mysql.connection
+            cur = con.cursor()    
+            cur.execute("INSERT INTO action (user_id, qid, event, r_time) VALUES (%s, %s, %s, %s)",(user_id, qid, user_action, time))           
+            con.commit()  
+            print("[FC DATABASE] PID " + str(os.getpid())+":FLASHCARD User action record successfully added")
+        except:
+            con.rollback()
+            print("[FC BUG] PID " + str(os.getpid())+": Error in inserting FLASHCARD user action reocrd operation")
+        finally:
+            con.close()  
