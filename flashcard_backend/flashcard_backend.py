@@ -34,7 +34,7 @@ def webhook():
     print ("="*50)
     print (request)
     print ("="*50)
-    print (request.data())
+    print (request.data)
     #data = request.get_json()
     print ("* *" * 50)
     print (data)
