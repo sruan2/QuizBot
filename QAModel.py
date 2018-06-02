@@ -59,9 +59,9 @@ class QAModel(object):
     @abstractmethod
     def computeScore(self): pass
 
-# This is a working baseline model
+
 class TFIDFModel(QAModel):
-    """docstring for TFIDF"""
+    """a working baseline model: TFIDF"""
     def __init__(self, qa_kb):
         super(TFIDFModel, self).__init__(qa_kb)
 
@@ -74,10 +74,10 @@ class TFIDFModel(QAModel):
         cosine_similarities = linear_kernel(self.tfidf_features[0:1], self.tfidf_features).flatten()
         return int(cosine_similarities[1]*10)
 
-# This is pretrained by Zhengneng
+
 class Doc2VecModel(QAModel):
-    """docstring for Doc2VecModel"""
-    def __init__(self, qa_kb, PreTrainedModel):
+    """Doc2VecModel, pretrained by Zhengneng"""
+    def __init__(self, qa_kb):
         pretrained_model_file = 'model_pre_trained/model_d2v_v1'
         super(Doc2VecModel, self).__init__(qa_kb)
         self.MODEL = Doc2Vec.load(pretrained_model_file) # load the model in the very beginning
@@ -90,7 +90,6 @@ class Doc2VecModel(QAModel):
 
 # Sherry: This is based on Princeton's original implementation. Not sure if this working, haven't tested it out yet.
 class SIFModel(QAModel):
-    """docstring for SIFModel"""
     def __init__(self, qa_kb):
         super(SIFModel, self).__init__(qa_kb)
 
@@ -102,8 +101,7 @@ class SIFModel(QAModel):
 
 ################### Sherry is fixing this, please do not touch ######################
 class SIF2Model(QAModel):
-    """docstring for SIF2Model"""
-    def __init__(self, qa_kb, pkl_file):
+    def __init__(self, qa_kb):
         pkl_file = 'model_pre_trained/glove/glove.6B.100d.pkl'
         super(SIF2Model, self).__init__(qa_kb)
         self.AKB = qa_kb.AKB
