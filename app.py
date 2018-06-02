@@ -14,7 +14,7 @@ import database
 import chatbot
 import speech
 import reminder
-from QAKnowledgebase import ConstructQA
+from QAKnowledgebase import QAKnowlegeBase
 import QAModel
 
 
@@ -105,8 +105,8 @@ def webhook():
                 payload = messaging_event["postback"]["payload"] # the button's payload
                 message_text = messaging_event["postback"]["title"]  # the button's text
                 print("[QUIZBOT] PID " + str(os.getpid())+": Received a POSTBACK from Persistent Menu")
-                print("\t\t\t[QUIZBOT] PID " + str(os.getpid())+": Payload is \""+payload+"\"")
-                print("\t\t\t[QUIZBOT] PID " + str(os.getpid())+": Message Text is \""+message_text+"\"")
+                print("\t\t\tPayload is \""+payload+"\"")
+                print("\t\t\tMessage Text is \""+message_text+"\"")
                 chatbot.respond_to_postback(payload, message_text, sender_id, qa_model, mysql)
 
 
@@ -186,7 +186,7 @@ if __name__ == '__main__':
 
     # Read QA json data and construct the QA knowledge base
     json_file = 'QAdataset/questions_filtered_150.json'
-    qa_kb = ConstructQA(json_file)
+    qa_kb = QAKnowlegeBase(json_file)
 
     # Select the right model to load based on environment variable "MODEL"
     # which is set in ./start_server.sh
