@@ -11,7 +11,7 @@ for data_set in ['sci_data', 'safety_data', 'gre_data']:
         questions.extend(data)
 
 for q in range(len(questions)):
-    questions[q]['id'] = q + 1
+    questions[q]['id'] = q
 
 with open('questions_filtered_150.json', 'w') as out_file:
     json.dump(questions, out_file)
