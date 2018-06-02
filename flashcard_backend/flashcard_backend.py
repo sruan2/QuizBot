@@ -35,7 +35,7 @@ def webhook():
     print (request)
     print ("="*50)
     print (request.get_json(force=True))
-    data = request.get_json(force=True)['data']
+    data = request.get_json(force=True)
     print ("* *" * 50)
     print (data)
     sender_id = data['user_id']
