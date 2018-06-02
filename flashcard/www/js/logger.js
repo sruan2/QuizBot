@@ -26,9 +26,9 @@ function log(message) {
         url: 'https://www.smartprimer.org:5000/logdata',
         type: 'POST',
         contentType: 'application/json',
-        data: JSON.stringify(json),
+        data: json,
         complete: function() {
-            console.log('Logged: ' + json);
+            console.log('Logged: ' + JSON.stringify(json));
         }
     });
 }
