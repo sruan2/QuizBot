@@ -25,9 +25,10 @@ function log(message) {
     $.ajax({
         url: 'https://www.smartprimer.org:5000/logdata',
         type: 'POST',
-        data: json,
+        contentType: 'application/json',
+        data: JSON.stringify(json),
         complete: function() {
-            console.log(json);
+            console.log('Logged: ' + json);
         }
     });
 }
