@@ -3,6 +3,7 @@ sys.path.append("../")
 
 from flask import Flask
 from flask import request
+from flask_mysqldb import MySQL
 import database
 
 
