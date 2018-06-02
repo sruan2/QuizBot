@@ -196,9 +196,9 @@ if __name__ == '__main__':
     elif model == "SIF":
         qa_model = QAModel.SIFModel(qa_kb)
     elif model == "SIF2":
-        qa_model = QAModel.SIF2Model(qa_kb, pkl_file)
+        qa_model = QAModel.SIF2Model(qa_kb)
     elif model == "DOC2VEC":
-        qa_model = QAModel.Doc2VecModel(qa_kb, doc2vec)
+        qa_model = QAModel.Doc2VecModel(qa_kb)
 
     context = ('/etc/letsencrypt/live/smartprimer.org/fullchain.pem', '/etc/letsencrypt/live/smartprimer.org/privkey.pem')
 
