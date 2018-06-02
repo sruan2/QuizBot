@@ -8,7 +8,7 @@ function onDeviceReady() {
     document.addEventListener("resume", onResume, false);
     cordova.plugins.notification.local.schedule({
         text: 'Remember to do some flashcards today!',
-        trigger: { every: { hour: 22, minute: 0 } }
+        trigger: { every: { hour: 20, minute: 0 } }
     });
 }
 
