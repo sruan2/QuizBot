@@ -36,7 +36,7 @@ function change(subject) {
     if (!$('#front').is(":visible")) {
         flip();
     }
-    log('switch to ' + subject)
+    log('change to ' + subject)
     update();
 }
 
@@ -48,6 +48,7 @@ function flip() {
         $('.element-front').show();
         $('.element-back').hide();
     }
+    log("card flip");
 };
 
 function next() {
@@ -55,6 +56,7 @@ function next() {
     if (!$('#front').is(":visible")) {
         flip();
     }
+    log("card next");
     update();
 }
 
@@ -63,6 +65,7 @@ function prev() {
     if (!$('#front').is(":visible")) {
         flip();
     }
+    log("card prev");
     update();
 }
 
@@ -80,7 +83,7 @@ function update() {
     }
     $('#hint').html($hints + "</ol>");
 
-    $('#qid').html("Question " + parseInt($index[$subject] + 1));
+    $('#qid').html("Question " + $question.id);
 }
 
 function shuffle(a) {
@@ -95,21 +98,44 @@ function shuffle(a) {
 }
 
 function load() {
-    if (!window.localStorage.getItem('username')) {
+    if (!window.localStorage.getItem('user')) {
         $('#userModal').modal();
-        $("#userInput").val('');
+        $('#firstname').val('');
+        $('#lastname').val('');
     } else {
-        $user = window.localStorage.getItem('username');
-        $('#userLabel').html($user);
-        $("#userInput").val($user);
+        $user = JSON.parse(window.localStorage.getItem('user'));
+        $('#userLabel').html($user.firstname + ' ' + $user.lastname);
+        $('#firstname').val($user.firstname);
+        $('#lastname').val($user.lastname);
     }
 }
 
 function save() {
-    $user = $('#userInput').val();
-    if (!$user) {
-        $user = 'anonymous';
+    var firstname = $('#firstname').val();
+    var lastname = $('#lastname').val();
+    var uid = encode(firstname + lastname);
+    $user = {firstname: firstname, lastname: lastname, id: uid};
+    $('#userLabel').html($user.firstname + ' ' + $user.lastname);
+    window.localStorage.setItem('user', JSON.stringify($user));
+}
+
+function hint() {
+    log('toggle hint');
+}
+
+function explanation() {
+    log('toggle explanation');
+}
+
+function encode(str){
+	var hash = 0;
+	if (str.length == 0) {
+        return hash;
     }
-    $('#userLabel').html($user);
-    window.localStorage.setItem('username', $user);
+	for (i = 0; i < str.length; i++) {
+		char = str.charCodeAt(i);
+		hash = ((hash<<5)-hash)+char;
+		hash = hash & hash; // Convert to 32bit integer
+	}
+	return Math.abs(hash);
 }

@@ -8,7 +8,7 @@ function onDeviceReady() {
     document.addEventListener("resume", onResume, false);
     cordova.plugins.notification.local.schedule({
         text: 'Remember to do some flashcards today!',
-        trigger: { every: { hour: 22, minute: 0 } }
+        trigger: { every: { hour: 20, minute: 0 } }
     });
 }
 
@@ -21,16 +21,14 @@ function onResume() {
 }
 
 function log(message) {
+    var json = {firstname: $user.firstname, lastname: $user.lastname, user_id: $user.id, qid: $question.id, event: message};
     $.ajax({
-        url: 'https://www.smartprimer.org:5000/test',
-        type: 'GET',
-        data: {
-            user: $user,
-            timestamp: new Date(),
-            message: message,
-        },
-        complete: function(data) {
-            console.log({user: $user, timestamp: new Date().toString(), message: message});
+        url: 'https://www.smartprimer.org:5000/logdata',
+        type: 'POST',
+        contentType: 'text/plain',
+        data: JSON.stringify(json),
+        complete: function() {
+            console.log('Logged: ' + JSON.stringify(json));
         }
     });
 }
