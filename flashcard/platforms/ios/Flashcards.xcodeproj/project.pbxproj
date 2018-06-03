@@ -253,7 +253,7 @@
 				LastUpgradeCheck = 510;
 				TargetAttributes = {
 					1D6058900D05DD3D006BFB54 = {
-						DevelopmentTeam = A8JCQDK59Q;
+						DevelopmentTeam = SM94AGM8Y6;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -369,7 +369,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
-				DEVELOPMENT_TEAM = A8JCQDK59Q;
+				DEVELOPMENT_TEAM = SM94AGM8Y6;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -379,7 +379,7 @@
 				INFOPLIST_FILE = "Flashcards/Flashcards-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = stanford.smartprimer.flashcards;
+				PRODUCT_BUNDLE_IDENTIFIER = io.smartprimer.quizbot.flashcards;
 				PRODUCT_NAME = Flashcards;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -398,7 +398,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = YES;
-				DEVELOPMENT_TEAM = A8JCQDK59Q;
+				DEVELOPMENT_TEAM = SM94AGM8Y6;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Flashcards/Flashcards-Prefix.pch";
 				GCC_THUMB_SUPPORT = NO;
@@ -406,7 +406,7 @@
 				INFOPLIST_FILE = "Flashcards/Flashcards-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = stanford.smartprimer.flashcards;
+				PRODUCT_BUNDLE_IDENTIFIER = io.smartprimer.quizbot.flashcards;
 				PRODUCT_NAME = Flashcards;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
