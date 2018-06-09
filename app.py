@@ -46,11 +46,13 @@ def send_lb_pictures(path):
     return send_from_directory('./tmp/pictures', path)
 
 
+# go to https://smartprimer.org:8443/test
 @app.route('/test', methods=['GET'])
 def test():
     return "test", 200
 
 
+# go to https://smartprimer.org:8443
 @app.route('/', methods=['GET'])
 def verify():
     # when the endpoint is registered as a webhook, it must echo back
@@ -66,6 +68,9 @@ def verify():
 def webhook():
     # endpoint for processing incoming messaging events
     #print("[QUIZBOT] PID " + str(os.getpid())+": Enter webhook")
+
+    pretty_print('Received a msg from a user', mode='App')
+
     data = request.get_json()
 
     if data["object"] != "page":
@@ -209,5 +214,6 @@ if __name__ == '__main__':
     context = ('/etc/letsencrypt/live/smartprimer.org/fullchain.pem',
                '/etc/letsencrypt/live/smartprimer.org/privkey.pem')
 
+    pretty_print('run app', mode='App')
     app.run(host='0.0.0.0', threaded=True, debug=True, port=int(os.environ["PORT"]), ssl_context=context)
 

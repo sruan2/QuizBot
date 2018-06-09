@@ -316,25 +316,30 @@ def choose_subject_quick_reply(recipient_id, main_text):
         "message": {
             "text": main_text,
             "quick_replies": [
+                # {
+                #     "content_type": "text",
+                #     "title": "Physics🚗",
+                #     "payload": "BUTTON_PHYSICS"
+                # },
+                # {
+                #     "content_type": "text",
+                #     "title": "Chemistry⚗️",
+                #     "payload": "BUTTON_CHEMISTRY"
+                # },
+                # {
+                #     "content_type": "text",
+                #     "title": "Biology🔬",
+                #     "payload": "BUTTON_BIOLOGY"
+                # },
+                # {
+                #     "content_type": "text",
+                #     "title": "Geology⛰",
+                #     "payload": "BUTTON_GEOLOGY"
+                # },
                 {
                     "content_type": "text",
-                    "title": "Physics🚗",
-                    "payload": "BUTTON_PHYSICS"
-                },
-                {
-                    "content_type": "text",
-                    "title": "Chemistry⚗️",
-                    "payload": "BUTTON_CHEMISTRY"
-                },
-                {
-                    "content_type": "text",
-                    "title": "Biology🔬",
-                    "payload": "BUTTON_BIOLOGY"
-                },
-                {
-                    "content_type": "text",
-                    "title": "Geology⛰",
-                    "payload": "BUTTON_GEOLOGY"
+                    "title": "Science",
+                    "payload": "BUTTON_SCIENCE"
                 },
                 {
                     "content_type": "text",
@@ -613,7 +618,7 @@ def send_greeting(access_token):
             },
             {
                 "locale":"en_US",
-                "text":"Welcome to QuizBot created by Stanford!"
+                "text":"TESTING 123 Welcome to QuizBot created by Stanford!"
             }
         ]
     })
