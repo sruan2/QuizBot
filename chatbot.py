@@ -95,45 +95,56 @@ def respond_to_payload(payload, message_text, sender_id, qa_model, mysql):
         send_correct_answer(sender_id, QID, standard_answer)
         update_status(mysql, sender_id, 1)
 
-    elif payload == "BUTTON_PHYSICS":
-        msglist_subject = ["All right! I’ll quiz you on physics!",
-                           "Okay! Let’s see how much you know about physics!"]
-        msg_subject = random.choice(msglist_subject)
-        send_message(sender_id, msg_subject)
-        question, QID = qa_model.pickSubjectRandomQuestion("physics")
-        update_status(mysql, sender_id, 0)
-        insert_question(mysql, sender_id, QID, payload) # contains an emoji
-        send_starting_question(sender_id)
-        send_a_question(sender_id, question)
+    # elif payload == "BUTTON_PHYSICS":
+    #     msglist_subject = ["All right! I’ll quiz you on physics!",
+    #                        "Okay! Let’s see how much you know about physics!"]
+    #     msg_subject = random.choice(msglist_subject)
+    #     send_message(sender_id, msg_subject)
+    #     question, QID = qa_model.pickSubjectRandomQuestion("physics")
+    #     update_status(mysql, sender_id, 0)
+    #     insert_question(mysql, sender_id, QID, payload) # contains an emoji
+    #     send_starting_question(sender_id)
+    #     send_a_question(sender_id, question)
 
-    elif payload == "BUTTON_CHEMISTRY":
-        msglist_subject = ["All right! Let’s I’ll quiz you on chemistry!",
-                           "Okay! Let’s see how much you know about chemistry!"]
-        msg_subject = random.choice(msglist_subject)
-        send_message(sender_id, msg_subject)
-        question, QID = qa_model.pickSubjectRandomQuestion("chemistry")
-        update_status(mysql, sender_id, 0)
-        insert_question(mysql, sender_id,QID,payload)
-        send_starting_question(sender_id)
-        send_a_question(sender_id, question)
+    # elif payload == "BUTTON_CHEMISTRY":
+    #     msglist_subject = ["All right! Let’s I’ll quiz you on chemistry!",
+    #                        "Okay! Let’s see how much you know about chemistry!"]
+    #     msg_subject = random.choice(msglist_subject)
+    #     send_message(sender_id, msg_subject)
+    #     question, QID = qa_model.pickSubjectRandomQuestion("chemistry")
+    #     update_status(mysql, sender_id, 0)
+    #     insert_question(mysql, sender_id,QID,payload)
+    #     send_starting_question(sender_id)
+    #     send_a_question(sender_id, question)
 
-    elif payload == "BUTTON_BIOLOGY":
-        msglist_subject = ["All right! I’ll quiz you on biology!",
-                           "Okay! Let’s see how much you know about biology!"]
-        msg_subject = random.choice(msglist_subject)
-        send_message(sender_id, msg_subject)
-        question, QID = qa_model.pickSubjectRandomQuestion("biology")
-        update_status(mysql, sender_id, 0)
-        insert_question(mysql, sender_id,QID,payload)
-        send_starting_question(sender_id)
-        send_a_question(sender_id, question)
+    # elif payload == "BUTTON_BIOLOGY":
+    #     msglist_subject = ["All right! I’ll quiz you on biology!",
+    #                        "Okay! Let’s see how much you know about biology!"]
+    #     msg_subject = random.choice(msglist_subject)
+    #     send_message(sender_id, msg_subject)
+    #     question, QID = qa_model.pickSubjectRandomQuestion("biology")
+    #     update_status(mysql, sender_id, 0)
+    #     insert_question(mysql, sender_id,QID,payload)
+    #     send_starting_question(sender_id)
+    #     send_a_question(sender_id, question)
 
-    elif payload == "BUTTON_GEOLOGY":
-        msglist_subject = ["All right! I’ll quiz you on geology!",
-                     "Okay! Let’s see how much you know about geology!"]
+    # elif payload == "BUTTON_GEOLOGY":
+    #     msglist_subject = ["All right! I’ll quiz you on geology!",
+    #                  "Okay! Let’s see how much you know about geology!"]
+    #     msg_subject = random.choice(msglist_subject)
+    #     send_message(sender_id, msg_subject)
+    #     question, QID = qa_model.pickSubjectRandomQuestion("geology")
+    #     update_status(mysql, sender_id, 0)
+    #     insert_question(mysql, sender_id,QID, payload)
+    #     send_starting_question(sender_id)
+    #     send_a_question(sender_id, question)
+
+    elif payload == "BUTTON_SCIENCE":
+        msglist_subject = ["All right! I’ll quiz you on science!",
+                     "Okay! Let’s see how much you know about science!"]
         msg_subject = random.choice(msglist_subject)
         send_message(sender_id, msg_subject)
-        question, QID = qa_model.pickSubjectRandomQuestion("geology")
+        question, QID = qa_model.pickSubjectRandomQuestion("science")
         update_status(mysql, sender_id, 0)
         insert_question(mysql, sender_id,QID, payload)
         send_starting_question(sender_id)
@@ -200,7 +211,7 @@ def respond_to_payload(payload, message_text, sender_id, qa_model, mysql):
         if show_status(mysql, sender_id):
             last_subject = show_last_qid_subject(mysql, sender_id)[1]
             #if last_subject == 'random' or last_subject == 'no record':
-            if last_subject in ["PHYSICS", "CHEMISTRY", "BIOLOGY", "GEOLOGY", "GRE", "SAFETY"]:
+            if last_subject in ["SCIENCE", "GRE", "SAFETY"]:
                 question, QID = qa_model.pickSubjectRandomQuestion(last_subject)
             else:
                 question, QID = qa_model.pickRandomQuestion()
@@ -230,8 +241,7 @@ def respond_to_messagetext(message_text, sender_id, qa_model, mysql):
         QID, _ = show_last_qid_subject(mysql, sender_id) # retrieve the qid and the subject from database
         if show_status(mysql, sender_id):
             last_subject = show_last_qid_subject(mysql, sender_id)[1]
-            #if last_subject == 'random' or last_subject == 'no record':
-            if last_subject in ["BUTTON_PHYSICS", "BUTTON_CHEMISTRY", "BUTTON_BIOLOGY", "BUTTON_GEOLOGY", "BUTTON_GRE", "BUTTON_SAFETY"]:
+            if last_subject in ["BUTTON_SCIENCE", "BUTTON_GRE", "BUTTON_SAFETY"]:
                 question, QID = qa_model.pickSubjectRandomQuestion(last_subject)
             else:
                 question, QID = qa_model.pickRandomQuestion()
