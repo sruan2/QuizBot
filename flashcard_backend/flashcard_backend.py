@@ -29,11 +29,10 @@ def verify():
     print("received")
     return "test", 200
 
-@app.route('/logdata', methods=['POST'])
+@app.route('/logdata', methods=['GET'])
 def webhook():
 
     data=json.loads(request.data.decode("utf-8"))
-    print (data)
     sender_id = data['user_id']
     qid = data['qid']
     user_action = data['event']
