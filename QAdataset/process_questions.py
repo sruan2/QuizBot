@@ -5,17 +5,20 @@ import random
 
 questions = []
 
-for data_set in ['sci_data', 'safety_data', 'gre_data']:
-    with open(data_set + '_filtered_50.json') as data_file:
-        data = json.load(data_file)
-        questions.extend(data)
+# for data_set in ['sci_data', 'safety_data', 'gre_data']:
+#     with open(data_set + '_filtered_50.json') as data_file:
+#         data = json.load(data_file)
+#         questions.extend(data)
 
-for q in range(len(questions)):
-    questions[q]['id'] = q
+# for q in range(len(questions)):
+#     questions[q]['id'] = q
 
-with open('questions_filtered_150.json', 'w') as out_file:
-    json.dump(questions, out_file)
+# with open('questions_filtered_150.json', 'w') as out_file:
+#     json.dump(questions, out_file)
 
+with open('questions_filtered_150.json') as data_file:
+    data = json.load(data_file)
+    questions.extend(data)
 
 # split questions into pre-test and post-test
 
