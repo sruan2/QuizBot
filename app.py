@@ -57,9 +57,12 @@ def test():
 def verify():
     # when the endpoint is registered as a webhook, it must echo back
     # the 'hub.challenge' value it receives in the query arguments
+    print('verify')
     if request.args.get("hub.mode") == "subscribe" and request.args.get("hub.challenge"):
         if not request.args.get("hub.verify_token") == os.environ["VERIFY_TOKEN"]:
+            print('403')
             return "Verification token mismatch", 403
+        print('200')
         return request.args["hub.challenge"], 200
     return "Hello world", 200
 
@@ -183,8 +186,8 @@ def _get_user_profile(sender_id):
 # ================== SET UP ==================
 def setup(app):
     # hide http print
-    log = logging.getLogger('werkzeug')
-    log.setLevel(logging.ERROR)
+    # log = logging.getLogger('werkzeug')
+    # log.setLevel(logging.ERROR)
 
     pretty_print("============ Start the app ============", mode='App')
     message.send_greeting(access_token)
