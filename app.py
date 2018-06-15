@@ -99,13 +99,18 @@ def webhook():
             # recipient_id = messaging_event["recipient"]["id"]
 
             # Get user data
-            data = _get_user_profile(sender_id)
-            sender_firstname = data['first_name']
-            sender_lastname = data['last_name']
-            if 'gender' in data:
-                sender_gender = data['gender']
-            else:
-                sender_gender = 'unknown'
+            # data = _get_user_profile(sender_id)
+            # sender_firstname = data['first_name']
+            # sender_lastname = data['last_name']
+            # if 'gender' in data:
+            #     sender_gender = data['gender']
+            # else:
+            #     sender_gender = 'unknown'
+
+            # Sherry: add fake sender data info to make the app run for now
+            sender_firstname = 'first name'
+            sender_lastname = 'last name'
+            sender_gender = 'unknown'
 
             # first-time user
             if not int(sender_id) in database.show_user_id_list(mysql):
@@ -135,24 +140,24 @@ def webhook():
                     chatbot.respond_to_payload(payload, message_text, sender_id, qa_model, mysql)
 
                 # user sent an attachment: i.e., audio
-                elif "attachments" in messaging_event.get("message"):
-                    if messaging_event["message"]["attachments"][0]["type"] == "audio": # only getting the first attachment
-                        print("[QUIZBOT] PID " + str(os.getpid())+": Received an AUDIO attachment")
-                        receive_time = time.time()
-                        #print("FB received audio: " + str(receive_time))
-                        audio_url = messaging_event["message"]["attachments"][0]["payload"]["url"]
-                        print("\t\t\t\turl is "+ audio_url)
-                        final_result = speech.transcribe(audio_url)
-                        #print("[QUIZBOT] PID " + str(os.getpid())+": Transcribed Text is \""+final_result+"\"")
-                        finish_time = time.time()
-                        #print("FB received transcription: " + str(finish_time))
-                        print("\t\t\t\tTotal time: " + str(finish_time-receive_time))
-                        if final_result != "":
-                            message.send_message(sender_id, "You said: " + final_result)
-                            #print("FB print out transcription: " + str(time.time()))
-                        else:
-                            message.send_message(sender_id, "Sorry, I could not recognize it :/")
-                        chatbot.respond_to_messagetext(final_result, sender_id, qa_model, mysql)
+                # elif "attachments" in messaging_event.get("message"):
+                #     if messaging_event["message"]["attachments"][0]["type"] == "audio": # only getting the first attachment
+                #         print("[QUIZBOT] PID " + str(os.getpid())+": Received an AUDIO attachment")
+                #         receive_time = time.time()
+                #         #print("FB received audio: " + str(receive_time))
+                #         audio_url = messaging_event["message"]["attachments"][0]["payload"]["url"]
+                #         print("\t\t\t\turl is "+ audio_url)
+                #         final_result = speech.transcribe(audio_url)
+                #         #print("[QUIZBOT] PID " + str(os.getpid())+": Transcribed Text is \""+final_result+"\"")
+                #         finish_time = time.time()
+                #         #print("FB received transcription: " + str(finish_time))
+                #         print("\t\t\t\tTotal time: " + str(finish_time-receive_time))
+                #         if final_result != "":
+                #             message.send_message(sender_id, "You said: " + final_result)
+                #             #print("FB print out transcription: " + str(time.time()))
+                #         else:
+                #             message.send_message(sender_id, "Sorry, I could not recognize it :/")
+                #         chatbot.respond_to_messagetext(final_result, sender_id, qa_model, mysql)
 
                 # someone sent us a message
                 elif not "text" in messaging_event["message"]:
@@ -173,7 +178,10 @@ def webhook():
 def _get_user_profile(sender_id):
     # based on user id retrive user name
     # could protentially retive more user profile, e.g. profile_pic, locale, timezone, gender, last_ad_referral, etc.
-    r = requests.get("https://graph.facebook.com/v2.6/{psid}?fields=first_name,last_name,gender"
+    # r = requests.get("https://graph.facebook.com/v2.6/{psid}?fields=first_name,last_name,gender"
+    #                  "&access_token={token}".format(psid=sender_id, token=access_token))
+    # Sherry: remove gender to test if we can get information from facebook
+    r = requests.get("https://graph.facebook.com/v2.6/{psid}?fields=first_name,last_name"
                      "&access_token={token}".format(psid=sender_id, token=access_token))
     if r.status_code != 200:
         print(r.status_code)
