@@ -22,6 +22,8 @@ def process_test():
 
     for q in questions:
         if q['subject'] == 'gre':
+            cleanr = re.compile('<p>Here are the vocabulary definitions:</p><ul><li>')
+            q['support'] = re.sub(cleanr, '', q['support'])
             cleanr = re.compile('</p><ul>')
             q['support'] = re.sub(cleanr, '</p>', q['support'])
             cleanr = re.compile('</li></ul>')
