@@ -27,8 +27,6 @@ def process_test():
             q['support'] = re.sub(cleanr, '</p>', q['support'])
             cleanr = re.compile('</li></ul>')
             q['support'] = re.sub(cleanr, '</p>', q['support'])
-            cleanr = re.compile('</li><li>')
-            q['support'] = re.sub(cleanr, '</p>', q['support'])
             cleanr = re.compile('<.*?>')
             q['support'] = re.sub(cleanr, '\n', q['support'])
 
