@@ -15,9 +15,10 @@ with open('questions_filtered_150.json') as data_file:
     data = json.load(data_file)
     questions.extend(data)
 
-''' remove the html syntax for the gre support text '''
-def process_test():
 
+def process_test():
+    ''' remove the html syntax for the gre support text '''
+    
     test_questions = []
 
     for q in questions:
