@@ -176,7 +176,7 @@ def webhook():
 
 
 with app.app_context():
-    reminder.RepeatedTimer(60.0, message.send_reminder, [1805880356153906, 1139924072777403, 1850388251650155])
+    reminder.RepeatedTimer(60.0, message.send_reminder, [’1805880356153906‘, ’1139924072777403‘, ’1850388251650155‘])
 #    reminder.RepeatedTimer(86400.0, message.send_reminder, database.show_inactive_user(mysql))
 
 
