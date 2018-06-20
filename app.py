@@ -93,24 +93,25 @@ def webhook():
             sender_id = messaging_event["sender"]["id"]
 
             # Sherry: don't need this anymore because we can disable it in Facebook Developer Setting
-            # if sender_id == os.environ["CHATBOT_ID"]: # return if this message is sent from the chatbot
-            #     return "Chatbot ID", 200
+            if sender_id == os.environ["CHATBOT_ID"]: # return if this message is sent from the chatbot
+                return "Chatbot ID", 200
             # the recipient's ID, which should be your page's facebook ID
-            # recipient_id = messaging_event["recipient"]["id"]
+            recipient_id = messaging_event["recipient"]["id"]
 
             # Get user data
-            # data = _get_user_profile(sender_id)
-            # sender_firstname = data['first_name']
-            # sender_lastname = data['last_name']
-            # if 'gender' in data:
-            #     sender_gender = data['gender']
-            # else:
-            #     sender_gender = 'unknown'
+            data = _get_user_profile(sender_id)
+            sender_firstname = data['first_name']
+            sender_lastname = data['last_name']
+
+            if 'gender' in data:
+                sender_gender = data['gender']
+            else:
+                sender_gender = 'unknown'
 
             # Sherry: add fake sender data info to make the app run for now
-            sender_firstname = 'first name'
-            sender_lastname = 'last name'
-            sender_gender = 'unknown'
+            # sender_firstname = 'first name'
+            # sender_lastname = 'last name'
+            # sender_gender = 'unknown'
 
             # first-time user
             if not int(sender_id) in database.show_user_id_list(mysql):
@@ -118,6 +119,9 @@ def webhook():
                 database.insert_user(mysql, sender_id, sender_firstname, sender_lastname, sender_gender, 1)
                 database.insert_score(mysql, sender_id, -1, "new_user", 0)
                 message.choose_mode_quick_reply(sender_id)
+
+            # Liwei: update the user's name 
+            # database.update_user_name(mysql, sender_id, sender_firstname, sender_lastname)
 
             # User clicked/tapped "postback" button in Persistent menu
             if messaging_event.get("postback"):
@@ -171,8 +175,11 @@ def webhook():
     return "ok", 200
 
 
-#with app.app_context():
+with app.app_context():
+    reminder.RepeatedTimer(7200.0, message.send_reminder, [['1805880356153906', 'Nathan'], ['1139924072777403', 'Sherry'], ['1850388251650155', 'Liwei']])
 #    reminder.RepeatedTimer(86400.0, message.send_reminder, database.show_inactive_user(mysql))
+
+
 
 
 def _get_user_profile(sender_id):
@@ -207,7 +214,7 @@ if __name__ == '__main__':
     setup(app)
 
     # Read QA json data and construct the QA knowledge base
-    json_file = 'QAdataset/questions_filtered_150.json'
+    json_file = 'QAdataset/questions_filtered_150_quizbot.json'
     qa_kb = QAKnowlegeBase(json_file)
 
     # Select the right model to load based on environment variable "MODEL"
