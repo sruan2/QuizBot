@@ -32,7 +32,7 @@ class QAKnowlegeBase():
 
         self.appendSubDict()
 
-        pretty_print("Total Number of Questions: " +str(self.KBlength))
+        pretty_print("Total Number of Questions: " + str(self.KBlength))
         pretty_print("Finished QA Knowledgebase Construction", mode="QA KB")
 
     def appendSubDict(self):
