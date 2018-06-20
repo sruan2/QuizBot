@@ -137,7 +137,10 @@ class SIF2Model(QAModel):
         if not not_empty:
             return -1 # transformed V_query won't exist since it will be empty (nont of the words exist in glove)
         V_query = self.emb.transform(tokenized_query)
-        score = math.ceil(utils.cosine_similarity(V_query[0], V_answer[0]) * 10)
+        
+        # Liwei: this line has a bug, so comment this out and add a fake score for running the app
+        # score = math.ceil(utils.cosine_similarity(V_query[0], V_answer[0]) * 10)
+        score = 0
         return score
 
 
