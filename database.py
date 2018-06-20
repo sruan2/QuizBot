@@ -18,7 +18,6 @@ def insert_user(mysql, user_id,user_firstname,user_lastname,user_gender,user_sta
         # finally:
         #     con.close()
 
-
 # update user question-answer loop status
 def update_status(mysql, user_id, status):
     if request.method == 'POST':
@@ -33,6 +32,19 @@ def update_status(mysql, user_id, status):
             pretty_print("Error in updating user status operation", mode="BUG!")
         # finally:
         #     con.close()
+
+# update the user name
+def update_user_name(mysql,user_id,user_firstname,user_lastname):
+    if request.method == 'POST':
+        try:
+            con = mysql.connection
+            cur = con.cursor()
+            cur.execute("update users set user_firstname = %s, user_lastname = %s where user_id = %s",(user_firstname, user_lastname, user_id))
+            con.commit()
+            pretty_print("Update name successfully added", mode="Database")
+        except:
+            con.rollback()
+            pretty_print("Error in updating user name operation", mode="BUG!")
 
 def show_status(mysql, user_id):
     cur = mysql.connection.cursor()
@@ -61,7 +73,7 @@ def insert_score(mysql, user_id,qid,answer,score):
         #     con.close()
 
 # insert asked questions
-def insert_question(mysql, user_id,qid,subject):
+def insert_question(mysql, user_id, qid, subject):
     time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
     if request.method == 'POST':
         try:
@@ -82,7 +94,6 @@ def show_user_id_list(mysql):
 
     rows = cur.fetchall()
     return [x[0] for x in rows]
-
 
 # retrieve score based on user_id
 def show_score(mysql, user_id):
@@ -119,7 +130,6 @@ def show_current_ranking(mysql, id):
     rows = cur.fetchall();
     return rows[0]
 
-
 # show users who are inactive for the last 24hr
 def show_inactive_user(mysql):
     date_format_time = "%Y-%m-%d %H:%M:%S"
@@ -131,7 +141,6 @@ def show_inactive_user(mysql):
 
     rows = cur.fetchall();
     return rows
-
 
 ########## FLASHCARD ##########
 

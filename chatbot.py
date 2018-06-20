@@ -2,6 +2,7 @@
 from message import *
 from database import *
 import random
+import time
 from leaderboard.generate_leaderboard import *
 
 
@@ -10,29 +11,38 @@ def respond_to_payload(payload, message_text, sender_id, qa_model, mysql):
     message_text = message_text.lower()
 
     if payload == "GET_STARTED_PAYLOAD":
-        msg_intro_1 = "Hi there! My name is Mr. Owl 🦉 and I’m here to help you learn all about science 🔬"
-        msg_intro_2 = "Here’s how it works. I ask you questions, and you give me answers. If you get the right answer, you earn points! 🎉"
-        msg_intro_3 = "For each question, you get 10 points if you get it right. You can also ask for a hint but you will get at most 3 points. You can click on the menu button to see the leaderboard. Also, feel free to send me voice messages since I can understand them too!"
-        msg_intro_4 = "So, are you ready?"
-        send_picture(sender_id, "https://www.smartprimer.org:8443/pictures/Owl_Design_Orange_cap.png", "", "")
-        send_message(sender_id, msg_intro_1)
-        send_message(sender_id, msg_intro_2)
-        send_ready_go(sender_id, msg_intro_3)
-        send_ready_go(sender_id, msg_intro_4)
+        msg_intro_1 = []
+        msg_intro_2 = "So, are you ready?"
+        msg_intro_1.append("Hi there! My name is Mr. Owl 🦉 and I’m here to help you learn all about science🔬, verbal reasoning (GRE)📖, and safety🔥!")
+        msg_intro_1.append("Here’s how it works. I ask you questions, and you give me answers.")
+        msg_intro_1.append("If you get the right answer, you earn points! 🎉")
+        msg_intro_1.append("For each question, you get 10 points if you get it right.")
+        msg_intro_1.append("You can also ask for a hint but you will get at most 3 points.")
+        msg_intro_1.append("You can click on the menu button to see your total score.")
+        msg_intro_1.append("You can also switch the subjects using the menu button.")
+        msg_intro_1.append("I hope you enjoy the leaning journey!📝")
+
+        send_picture(sender_id, "https://www.smartprimer.org:8443/pictures/Owl_Design_Orange_zoom.png", "", "")
+        for msg in msg_intro_1:
+            send_message(sender_id, msg)
+            time.sleep(0.6) 
+        time.sleep(0.6) 
+        send_ready_go(sender_id, msg_intro_2)
 
     elif payload == "MENU_SCORE":
         score = show_score(mysql, sender_id)
         send_gotit_quickreply(sender_id, "Your total score is "+str(score)+". Keep moving!", False)
 
-    elif payload == "MENU_LEADERBOARD":
-        records = show_top_5(mysql)
-        cur_ranking = show_current_ranking(mysql, sender_id)
-        sentence = ("\n").join(["No." + str(i + 1) + " " + str(records[i][0]+' '+records[i][1]) + ": " + str(records[i][2]) for i in range(len(records))])
-        send_picture(sender_id, str(generate(records, cur_ranking)), "", "")
-        if cur_ranking[3] <= 5:
-            send_gotit_quickreply(sender_id, "Keep on the good work!", True)
-        else:
-            send_gotit_quickreply(sender_id, "Work harder, you can make it!", True)
+    # Liwei: Remove functionality for user study.
+    # elif payload == "MENU_LEADERBOARD":
+    #     records = show_top_5(mysql)
+    #     cur_ranking = show_current_ranking(mysql, sender_id)
+    #     sentence = ("\n").join(["No." + str(i + 1) + " " + str(records[i][0]+' '+records[i][1]) + ": " + str(records[i][2]) for i in range(len(records))])
+    #     send_picture(sender_id, str(generate(records, cur_ranking)), "", "")
+    #     if cur_ranking[3] <= 5:
+    #         send_gotit_quickreply(sender_id, "Keep on the good work!", True)
+    #     else:
+    #         send_gotit_quickreply(sender_id, "Work harder, you can make it!", True)
 
 
     elif payload == "BUTTON_YUP_IM_READY" or payload == "BUTTON_CONTINUE":
@@ -70,10 +80,10 @@ def respond_to_payload(payload, message_text, sender_id, qa_model, mysql):
         # send_a_question(sender_id, question)
         # ask the question again
 
-
-    elif payload == "BUTTON_PRACTICE_MODE":
-        msg_choose_mode = "Sure, which subject would you like me to quiz you on?👇"
-        choose_subject_quick_reply(sender_id, msg_choose_mode)
+    # Liwei: Remove this functionality for user study.
+    # elif payload == "BUTTON_PRACTICE_MODE":
+    #     msg_choose_mode = "Sure, which subject would you like me to quiz you on?👇"
+    #     choose_subject_quick_reply(sender_id, msg_choose_mode)
 
 
     elif payload[:10] == "BUTTON_DKB":
@@ -146,7 +156,7 @@ def respond_to_payload(payload, message_text, sender_id, qa_model, mysql):
         send_message(sender_id, msg_subject)
         question, QID = qa_model.pickSubjectRandomQuestion("science")
         update_status(mysql, sender_id, 0)
-        insert_question(mysql, sender_id,QID, payload)
+        insert_question(mysql, sender_id, QID, payload)
         send_starting_question(sender_id)
         send_a_question(sender_id, question)
 
@@ -157,7 +167,7 @@ def respond_to_payload(payload, message_text, sender_id, qa_model, mysql):
         send_message(sender_id, msg_subject)
         question, QID = qa_model.pickSubjectRandomQuestion("gre")
         update_status(mysql, sender_id, 0)
-        insert_question(mysql, sender_id,QID, payload)
+        insert_question(mysql, sender_id, QID, payload)
         send_starting_question(sender_id)
         send_a_question(sender_id, question)
 
@@ -168,10 +178,9 @@ def respond_to_payload(payload, message_text, sender_id, qa_model, mysql):
         send_message(sender_id, msg_subject)
         question, QID = qa_model.pickSubjectRandomQuestion("safety")
         update_status(mysql, sender_id, 0)
-        insert_question(mysql, sender_id,QID, payload)
+        insert_question(mysql, sender_id, QID, payload)
         send_starting_question(sender_id)
         send_a_question(sender_id, question)
-
 
     elif payload == "BUTTON_RANDOM":
         msglist_random =["Okay! Let’s mix it up! 🎲",
@@ -180,7 +189,7 @@ def respond_to_payload(payload, message_text, sender_id, qa_model, mysql):
         send_message(sender_id, msg_random)
         question, QID = qa_model.pickRandomQuestion()
         update_status(mysql, sender_id, 0)
-        insert_question(mysql, sender_id,QID,payload)
+        insert_question(mysql, sender_id, QID, payload)
         send_starting_question(sender_id)
         send_a_question(sender_id, question)
 
@@ -211,21 +220,27 @@ def respond_to_payload(payload, message_text, sender_id, qa_model, mysql):
         if show_status(mysql, sender_id):
             last_subject = show_last_qid_subject(mysql, sender_id)[1]
             #if last_subject == 'random' or last_subject == 'no record':
-            if last_subject in ["SCIENCE", "GRE", "SAFETY"]:
-                question, QID = qa_model.pickSubjectRandomQuestion(last_subject)
+            if last_subject in ["BUTTON_SCIENCE", "BUTTON_GRE", "BUTTON_SAFETY"]:
+                if last_subject == "BUTTON_SCIENCE":
+                    question, QID = qa_model.pickSubjectRandomQuestion("science")
+                elif last_subject == "BUTTON_GRE":
+                    question, QID = qa_model.pickSubjectRandomQuestion("gre")
+                elif last_subject == "BUTTON_SAFETY":
+                    question, QID = qa_model.pickSubjectRandomQuestion("safety")
             else:
                 question, QID = qa_model.pickRandomQuestion()
             update_status(mysql, sender_id, 0)
-            insert_question(mysql, sender_id,QID,last_subject)
+            insert_question(mysql, sender_id, QID,last_subject)
         else:
             QID = show_last_qid_subject(mysql, sender_id)[0]
             question = qa_model.pickLastQuestion(QID)
         send_starting_question(sender_id)
         send_a_question(sender_id, question)
 
-    elif payload == "BUTTON_CHALLENGE_MODE":
-        send_message(sender_id, "The developers are working hard to get this feature implemented...")
-        choose_mode_quick_reply(sender_id)
+    # Liwei: Remove this functionality for user study.
+    # elif payload == "BUTTON_CHALLENGE_MODE":
+    #     send_message(sender_id, "The developers are working hard to get this feature implemented...")
+    #     choose_mode_quick_reply(sender_id)
 
 
 # ================= Chatbot's reply to a message text =================
@@ -269,7 +284,7 @@ def respond_to_messagetext(message_text, sender_id, qa_model, mysql):
             update_status(mysql, sender_id, 1)
 
 
-    else: # user's respons in natural language
+    else: # user's response in natural language
         if not show_status(mysql, sender_id):
             standard_answer = qa_model.getAnswer(QID)
             score = qa_model.compute_score(message_text, QID)

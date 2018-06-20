@@ -121,6 +121,8 @@ def send_message(recipient_id, message_text):
     headers = {
         "Content-Type": "application/json"
     }
+    
+    # send text message
     data = json.dumps({
         "recipient": {
             "id": recipient_id
@@ -133,7 +135,18 @@ def send_message(recipient_id, message_text):
     if r.status_code != 200:
         log(r.status_code)
         log(r.text)
-
+   
+    # display sender actions
+    data = json.dumps({
+        "recipient": {
+            "id": recipient_id
+        },
+        "sender_action": "typing_on"
+    })
+    r = requests.post("https://graph.facebook.com/v2.6/me/messages", params=params, headers=headers, data=data)
+    if r.status_code != 200:
+        log(r.status_code)
+        log(r.text)
 
 def send_interesting(recipient_id, main_text):
 
@@ -246,6 +259,7 @@ def send_ready_go(recipient_id, main_text):
     headers = {
         "Content-Type": "application/json"
     }
+
     data = json.dumps({
         "recipient": {
             "id": recipient_id
@@ -338,7 +352,7 @@ def choose_subject_quick_reply(recipient_id, main_text):
                 # },
                 {
                     "content_type": "text",
-                    "title": "Science",
+                    "title": "Science🔬",
                     "payload": "BUTTON_SCIENCE"
                 },
                 {
@@ -553,19 +567,47 @@ def persistent_menu(access_token):
                 "locale":"default",
                 "composer_input_disabled": False,
                 "call_to_actions":[
+
+                # Liwei: Remove this functionality for user study
+                # {
+                #     "title":"Change Mode",
+                #     "type":"nested",
+                #     "call_to_actions":[
+                #         {
+                #             "title":"Practice Mode "+u'\u270F',
+                #             "type":"postback",
+                #             "payload":"MENU_PRACTICE_MODE"
+                #         },
+                #         {
+                #             "title":"Challenge Mode "+u'\uD83D\uDE3A',
+                #             "type":"postback",
+                #             "payload":"MENU_CHALLENGE_MODE"
+                #         }
+                #         ]
+                # },
                 {
-                    "title":"Change Mode",
+                    "title":"Change Subject",
                     "type":"nested",
                     "call_to_actions":[
                         {
-                            "title":"Practice Mode "+u'\u270F',
+                            "title":"Science🔬",
                             "type":"postback",
-                            "payload":"MENU_PRACTICE_MODE"
+                            "payload":"BUTTON_SCIENCE"
                         },
                         {
-                            "title":"Challenge Mode "+u'\uD83D\uDE3A',
+                            "title":"GRE🔠",
                             "type":"postback",
-                            "payload":"MENU_CHALLENGE_MODE"
+                            "payload":"BUTTON_GRE"
+                        },
+                        {
+                            "title":"Safety🛠",
+                            "type":"postback",
+                            "payload":"BUTTON_SAFETY"
+                        },
+                        {
+                            "title":"Random🎲",
+                            "type":"postback",
+                            "payload":"BUTTON_RANDOM"
                         }
                         ]
                 },
@@ -577,20 +619,22 @@ def persistent_menu(access_token):
                         "title":"Check Total Score",
                         "type":"postback",
                         "payload":"MENU_SCORE"
-                    },
-                    {
-                        "title":"Check Leaderboard",
-                        "type":"postback",
-                        "payload":"MENU_LEADERBOARD"
                     }
+                    # Liwei: Remove this functionality for user study
+                    # {
+                    #     "title":"Check Leaderboard",
+                    #     "type":"postback",
+                    #     "payload":"MENU_LEADERBOARD"
+                    # }
                     ]
-                },
-                {
-                    "type":"web_url",
-                    "title":"Invite Friends! "+u'\U0001F604',
-                    "url":"https://www.facebook.com/sharer/sharer.php?u=https%3A//www.facebook.com/quizzzbot/",
-                    "webview_height_ratio":"full"
                 }
+                # Liwei: Remove this functionality for user study
+                # {
+                #     "type":"web_url",
+                #     "title":"Invite Friends! "+u'\U0001F604',
+                #     "url":"https://www.facebook.com/sharer/sharer.php?u=https%3A//www.facebook.com/quizzzbot/",
+                #     "webview_height_ratio":"full"
+                # }
             ]
           }
         ]
@@ -618,7 +662,7 @@ def send_greeting(access_token):
             },
             {
                 "locale":"en_US",
-                "text":"TESTING 123 Welcome to QuizBot created by Stanford!"
+                "text":"Hi, we are a group of researchers from Stanford University Computer Science Department. Thank you for trying out the QuizBot!"
             }
         ]
     })
@@ -637,7 +681,6 @@ def send_greeting(access_token):
     if r.status_code != 200:
         log(r.status_code)
         log(r.text)
-
 
 def log(message):  # simple wrapper for logging to stdout on heroku
     print(str(message))
