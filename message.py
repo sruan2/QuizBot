@@ -569,22 +569,22 @@ def persistent_menu(access_token):
                         }
                         ]
                 },
-                {
-                    "title":"Progress Report",
-                    "type":"nested",
-                    "call_to_actions":[
-                    {
-                        "title":"Check Total Score",
-                        "type":"postback",
-                        "payload":"MENU_SCORE"
-                    },
-                    {
-                        "title":"Check Leaderboard",
-                        "type":"postback",
-                        "payload":"MENU_LEADERBOARD"
-                    }
-                    ]
-                },
+                # {
+                #     "title":"Progress Report",
+                #     "type":"nested",
+                #     "call_to_actions":[
+                #     {
+                #         "title":"Check Total Score",
+                #         "type":"postback",
+                #         "payload":"MENU_SCORE"
+                #     },
+                #     {
+                #         "title":"Check Leaderboard",
+                #         "type":"postback",
+                #         "payload":"MENU_LEADERBOARD"
+                #     }
+                #     ]
+                # },
                 {
                     "type":"web_url",
                     "title":"Invite Friends! "+u'\U0001F604',
