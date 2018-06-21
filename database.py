@@ -1,6 +1,7 @@
 from flask import request
 import os
 from time import gmtime, strftime
+from datetime import datetime
 from utils import pretty_print
 
 # insert user info
@@ -98,7 +99,7 @@ def show_user_id_list(mysql):
 # retrieve score based on user_id
 def show_score(mysql, user_id):
     cur = mysql.connection.cursor()
-    cur.execute("select sum(score) from scores group by user_id having user_id = %s", [user_id])
+    cur.execute("SELECT sum(score) from scores group by user_id having user_id = %s", [user_id])
 
     rows = cur.fetchall();
     return rows[0][0] if len(rows) > 0 else 0
@@ -106,7 +107,7 @@ def show_score(mysql, user_id):
 # retrieve score based on user_id
 def show_last_qid_subject(mysql, user_id):
     cur = mysql.connection.cursor()
-    cur.execute("select qid,subject from questions where user_id = %s order by id desc limit 1", [user_id])
+    cur.execute("SELECT qid,subject from questions where user_id = %s order by id desc limit 1", [user_id])
 
     rows = cur.fetchall();
     return (rows[0][0] if len(rows) > 0 else -1, rows[0][1] if len(rows) > 0 else 'no record')
@@ -114,7 +115,7 @@ def show_last_qid_subject(mysql, user_id):
 # show top 10 in leaderboard
 def show_top_5(mysql):
     cur = mysql.connection.cursor()
-    cur.execute("select t2.user_firstname,t2.user_lastname,t1.sc from \
+    cur.execute("SELECT t2.user_firstname,t2.user_lastname,t1.sc from \
         (select user_id, sum(score) as sc from scores group by user_id order by sc desc) t1 join users t2 on t2.user_id = t1.user_id \
          order by t1.sc desc limit 5")
 
@@ -135,12 +136,17 @@ def show_inactive_user(mysql):
     date_format_time = "%Y-%m-%d %H:%M:%S"
     date_format_sql = "%Y-%m-%d %H:%i:%s"
     current_datetime = strftime(date_format_time, gmtime())
+
     cur = mysql.connection.cursor()
-    cur.execute("select distinct s.user_id, user_firstname from users, (select user_id, max(r_time) as r_time from scores group by user_id) s \
-        where STR_TO_DATE(%s, %s) - STR_TO_DATE(r_time, %s) > 1000000 limit 10;", [current_datetime, date_format_sql, date_format_sql])
+    # cur.execute("SELECT s.user_id, user_firstname FROM users, (SELECT user_id, max(r_time) AS r_time FROM scores GROUP BY user_id) s \
+    #     WHERE STR_TO_DATE(%s, %s) - STR_TO_DATE(r_time, %s) > 1000000 LIMIT 10;", [current_datetime, date_format_sql, date_format_sql])
+
+    cur.execute("SELECT t2.user_id, t2.user_firstname, t1.r_time from (select user_id, max(r_time) as r_time from scores group by user_id) t1 \
+        join users t2 on t2.user_id = t1.user_id order by t1.r_time ")
 
     rows = cur.fetchall();
-    return rows
+    return [row[:2] for row in rows if (datetime.strptime(current_datetime, date_format_time) - datetime.strptime(row[2], date_format_time)).days]
+
 
 ########## FLASHCARD ##########
 

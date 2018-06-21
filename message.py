@@ -177,7 +177,7 @@ def send_interesting(recipient_id, main_text):
         log(r.text)
 
 def send_hint(recipient_id, main_text, qa_model, qid):
-
+    message_text = ""
     options = []
     for x in qa_model.DKB[qid]:
         options.append({
@@ -192,6 +192,14 @@ def send_hint(recipient_id, main_text, qa_model, qid):
                     "payload": "BUTTON_AKB_"+str(x)
                 })
     random.shuffle(options)
+
+    for i in range(len(options)):
+        message_text += "<"
+        message_text += str(i+1) 
+        message_text += "> "
+        message_text += str(options[i]["title"])
+        message_text += "\n"
+    
     options.append({
                     "content_type": "text",
                     "title": "I don’t know 😓",
@@ -208,8 +216,7 @@ def send_hint(recipient_id, main_text, qa_model, qid):
             "id": recipient_id
         },
         "message": {
-            "text" : main_text,
-            "quick_replies": options
+            "text" : main_text
         }
     })
     r = requests.post("https://graph.facebook.com/v2.6/me/messages", params=params, headers=headers, data=data)
@@ -217,6 +224,19 @@ def send_hint(recipient_id, main_text, qa_model, qid):
         log(r.status_code)
         log(r.text)
 
+    data = json.dumps({
+        "recipient": {
+            "id": recipient_id
+        },
+        "message": {
+            "text" : message_text,
+            "quick_replies": options
+        }
+    })
+    r = requests.post("https://graph.facebook.com/v2.6/me/messages", params=params, headers=headers, data=data)
+    if r.status_code != 200:
+        log(r.status_code)
+        log(r.text)
 
 def send_giveup(recipient_id):
 
@@ -293,18 +313,19 @@ def choose_mode_quick_reply(recipient_id):
             "id": recipient_id
         },
         "message": {
-            "text": "Okay, what would you like to do?",
+            # "text": "Okay, what would you like to do?",
+            "text": "Let’s get started 🚀",    
             "quick_replies": [
                 {
                     "content_type": "text",
                     "title": "Quiz me 🤓",
                     "payload": "BUTTON_PRACTICE_MODE"
-                },
-                {
-                    "content_type": "text",
-                    "title": "I have a question❓",
-                    "payload": "BUTTON_CHALLENGE_MODE"
                 }
+                # {
+                #     "content_type": "text",
+                #     "title": "I have a question❓",
+                #     "payload": "BUTTON_CHALLENGE_MODE"
+                # }
             ]
         }
     })
@@ -488,6 +509,7 @@ def send_bugreport(recipient_id, text):
         log(r.text)
 
 def send_reminder(list):
+
     for recipient_id, user_name in list:
         params = {
             "access_token": os.environ["PAGE_ACCESS_TOKEN"]

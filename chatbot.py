@@ -7,13 +7,13 @@ from leaderboard.generate_leaderboard import *
 
 
 # ================= Chatbot's reply to a postback =================
-def respond_to_payload(payload, message_text, sender_id, qa_model, mysql):
+def respond_to_payload(payload, message_text, sender_id, sender_firstname, qa_model, mysql):
     message_text = message_text.lower()
 
     if payload == "GET_STARTED_PAYLOAD":
         msg_intro_1 = []
         msg_intro_2 = "So, are you ready?"
-        msg_intro_1.append("Hi there! My name is Mr. Owl 🦉 and I’m here to help you learn all about science🔬, verbal reasoning (GRE)📖, and safety🔥!")
+        msg_intro_1.append("Hi " + sender_firstname + "! My name is Mr. Owl 🦉 and I’m here to help you learn all about science🔬, verbal reasoning (GRE)📖, and safety🔥!")
         msg_intro_1.append("Here’s how it works. I ask you questions, and you give me answers.")
         msg_intro_1.append("If you get the right answer, you earn points! 🎉")
         msg_intro_1.append("For each question, you get 10 points if you get it right.")
@@ -47,7 +47,7 @@ def respond_to_payload(payload, message_text, sender_id, qa_model, mysql):
 
     elif payload == "BUTTON_YUP_IM_READY" or payload == "BUTTON_CONTINUE":
         update_status(mysql, sender_id, 1)
-        msg_great_get_started = "Great! Let’s get started 🚀"
+        msg_great_get_started = "Great!"
         send_message(sender_id, msg_great_get_started)
         choose_mode_quick_reply(sender_id)
 
@@ -80,10 +80,9 @@ def respond_to_payload(payload, message_text, sender_id, qa_model, mysql):
         # send_a_question(sender_id, question)
         # ask the question again
 
-    # Liwei: Remove this functionality for user study.
-    # elif payload == "BUTTON_PRACTICE_MODE":
-    #     msg_choose_mode = "Sure, which subject would you like me to quiz you on?👇"
-    #     choose_subject_quick_reply(sender_id, msg_choose_mode)
+    elif payload == "BUTTON_PRACTICE_MODE":
+        msg_choose_mode = "Sure, which subject would you like me to quiz you on?👇"
+        choose_subject_quick_reply(sender_id, msg_choose_mode)
 
 
     elif payload[:10] == "BUTTON_DKB":

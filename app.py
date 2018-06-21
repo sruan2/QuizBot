@@ -121,7 +121,7 @@ def webhook():
                 message.choose_mode_quick_reply(sender_id)
 
             # Liwei: update the user's name 
-            # database.update_user_name(mysql, sender_id, sender_firstname, sender_lastname)
+            database.update_user_name(mysql, sender_id, sender_firstname, sender_lastname)
 
             # User clicked/tapped "postback" button in Persistent menu
             if messaging_event.get("postback"):
@@ -130,7 +130,7 @@ def webhook():
                 pretty_print("Received a Postback from Persistent Menu", mode='QuizBot')
                 pretty_print("Payload is \""+payload+"\"")
                 pretty_print("Message Text is \""+message_text+"\"")
-                chatbot.respond_to_payload(payload, message_text, sender_id, qa_model, mysql)
+                chatbot.respond_to_payload(payload, message_text, sender_id, sender_firstname, qa_model, mysql)
 
 
             elif messaging_event.get("message"):
@@ -141,7 +141,7 @@ def webhook():
                     pretty_print("Received a quick reply from an earlier message", mode="QuizBot")
                     pretty_print("Payload is \""+payload+"\"")
                     pretty_print("Message Text is \""+message_text+"\"")
-                    chatbot.respond_to_payload(payload, message_text, sender_id, qa_model, mysql)
+                    chatbot.respond_to_payload(payload, message_text, sender_id, sender_firstname, qa_model, mysql)
 
                 # user sent an attachment: i.e., audio
                 # elif "attachments" in messaging_event.get("message"):
@@ -176,11 +176,10 @@ def webhook():
 
 
 with app.app_context():
-    reminder.RepeatedTimer(7200.0, message.send_reminder, [['1805880356153906', 'Nathan'], ['1139924072777403', 'Sherry'], ['1850388251650155', 'Liwei']])
-#    reminder.RepeatedTimer(86400.0, message.send_reminder, database.show_inactive_user(mysql))
-
-
-
+    # reminder.RepeatedTimer(7200.0, message.send_reminder, [['1805880356153906', 'Nathan'], ['1139924072777403', 'Sherry'], ['1850388251650155', 'Liwei']])
+    reminder.RepeatedTimer(86400.0, message.send_reminder, database.show_inactive_user(mysql))
+    # reminder.RepeatedTimer(60.0, message.send_reminder, database.show_inactive_user(mysql))
+    
 
 def _get_user_profile(sender_id):
     # based on user id retrive user name
@@ -205,7 +204,7 @@ def setup(app):
     # log.setLevel(logging.ERROR)
 
     pretty_print("============ Start the app ============", mode='App')
-    message.send_greeting(access_token)
+    # message.send_greeting(access_token)
     message.persistent_menu(access_token)
 
 
@@ -234,4 +233,3 @@ if __name__ == '__main__':
 
     pretty_print('run app', mode='App')
     app.run(host='0.0.0.0', threaded=True, debug=True, port=int(os.environ["PORT"]), ssl_context=context)
-
