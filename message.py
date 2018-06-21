@@ -633,6 +633,29 @@ def persistent_menu(access_token):
                         }
                         ]
                 },
+<<<<<<< HEAD
+                # {
+                #     "title":"Progress Report",
+                #     "type":"nested",
+                #     "call_to_actions":[
+                #     {
+                #         "title":"Check Total Score",
+                #         "type":"postback",
+                #         "payload":"MENU_SCORE"
+                #     },
+                #     {
+                #         "title":"Check Leaderboard",
+                #         "type":"postback",
+                #         "payload":"MENU_LEADERBOARD"
+                #     }
+                #     ]
+                # },
+                {
+                    "type":"web_url",
+                    "title":"Invite Friends! "+u'\U0001F604',
+                    "url":"https://www.facebook.com/sharer/sharer.php?u=https%3A//www.facebook.com/quizzzbot/",
+                    "webview_height_ratio":"full"
+=======
                 {
                     "title":"Progress Report",
                     "type":"nested",
@@ -649,6 +672,7 @@ def persistent_menu(access_token):
                     #     "payload":"MENU_LEADERBOARD"
                     # }
                     ]
+>>>>>>> e4735e1d5133d21427c50597248eb09238de891d
                 }
                 # Liwei: Remove this functionality for user study
                 # {
