@@ -10,24 +10,44 @@ from leaderboard.generate_leaderboard import *
 def respond_to_payload(payload, message_text, sender_id, sender_firstname, qa_model, mysql):
     message_text = message_text.lower()
 
-    if payload == "GET_STARTED_PAYLOAD":
-        msg_intro_1 = []
-        msg_intro_2 = "So, are you ready?"
-        msg_intro_1.append("Hi " + sender_firstname + "! My name is Mr. Owl 🦉 and I’m here to help you learn all about science🔬, verbal reasoning (GRE)📖, and safety🔥!")
-        msg_intro_1.append("Here’s how it works. I ask you questions, and you give me answers.")
-        msg_intro_1.append("If you get the right answer, you earn points! 🎉")
-        msg_intro_1.append("For each question, you get 10 points if you get it right.")
-        msg_intro_1.append("You can also ask for a hint but you will get at most 3 points.")
-        msg_intro_1.append("You can click on the menu button to see your total score.")
-        msg_intro_1.append("You can also switch the subjects using the menu button.")
-        msg_intro_1.append("I hope you enjoy the leaning journey!📝")
-
+    if payload == "GET_STARTED_PAYLOAD_1":
+        msg_intro_1 = "Hi " + sender_firstname + "! My name is Mr. Owl 🦉 and I’m here to help you learn all about science🔬, verbal reasoning (GRE)📖, and safety🔥!"
         send_picture(sender_id, "https://www.smartprimer.org:8443/pictures/Owl_Design_Orange_zoom.png", "", "")
-        for msg in msg_intro_1:
+        time.sleep(0.6)
+        send_get_it(sender_id, msg_intro_1, "GET_STARTED_PAYLOAD_2")
+
+    elif payload == "GET_STARTED_PAYLOAD_2":
+        msg_intro_2 = []
+        msg_intro_2.append("Here’s how it works. I ask you questions, and you give me answers.")
+        msg_intro_2.append("If you get the right answer, you earn points! 🎉")
+        msg_intro_3 = "For each question, you get 10 points if you get it right."
+
+        time.sleep(0.6)
+        for msg in msg_intro_2:
+            send_message(sender_id, msg)
+            time.sleep(0.6)
+        send_get_it(sender_id, msg_intro_3, "GET_STARTED_PAYLOAD_3")
+
+    elif payload == "GET_STARTED_PAYLOAD_3":
+        msg_intro_4 = []
+        msg_intro_4.append("You can also ask for a hint but you will get at most 3 points.")
+        msg_intro_4.append("You can click on the menu button to see your total score.")
+        msg_intro_5 = "You can also switch the subjects using the menu button."
+
+        time.sleep(0.6)
+        for msg in msg_intro_4:
             send_message(sender_id, msg)
             time.sleep(0.6) 
-        time.sleep(0.6) 
-        send_ready_go(sender_id, msg_intro_2)
+        send_get_it(sender_id, msg_intro_5, "GET_STARTED_PAYLOAD_4")
+
+    elif payload == "GET_STARTED_PAYLOAD_4":
+        msg_intro_6 = "I hope you enjoy the leaning journey!📝"
+        msg_intro_7 = "So, are you ready?"
+
+        time.sleep(0.6)
+        send_message(sender_id, msg_intro_6)
+        time.sleep(0.6)
+        send_ready_go(sender_id, msg_intro_7)
 
     elif payload == "MENU_SCORE":
         score = show_score(mysql, sender_id)
