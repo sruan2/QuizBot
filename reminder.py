@@ -1,5 +1,6 @@
 from threading import Timer
 import os
+from utils import pretty_print
 
 class RepeatedTimer(object):
     def __init__(self, interval, function, *args, **kwargs):
@@ -17,7 +18,7 @@ class RepeatedTimer(object):
         self.function(*self.args, **self.kwargs)
 
     def start(self):
-        print("[QUIZBOT] PID " + str(os.getpid())+": Thread Starts")
+        pretty_print('RepeatedTimer starts', mode='Reminder')
         if not self.is_running:
             self._timer = Timer(self.interval, self._run)
             self._timer.start()
