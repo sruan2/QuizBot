@@ -37,7 +37,7 @@ def respond_to_payload(payload, message_text, sender_id, sender_firstname, qa_mo
         time.sleep(0.6)
         for msg in msg_intro_4:
             send_message(sender_id, msg)
-            time.sleep(0.6) 
+            time.sleep(0.6)
         send_get_it(sender_id, msg_intro_5, "GET_STARTED_PAYLOAD_4")
 
     elif payload == "GET_STARTED_PAYLOAD_4":
@@ -74,7 +74,7 @@ def respond_to_payload(payload, message_text, sender_id, sender_firstname, qa_mo
     elif payload == "BUTTON_I_NEED_A_HINT":
         msg_hint = "Okay. Which of these is the right answer?👇"
         QID, _ = show_last_qid_subject(mysql, sender_id) # retrieve the qid and the subject from database
-        print (qa_model.DKB[QID])
+        pretty_print(qa_model.DKB[QID], mode='QID')
         send_hint(sender_id, msg_hint, qa_model, QID)
 
     elif payload == "BUTTON_I_DONT_KNOW":
