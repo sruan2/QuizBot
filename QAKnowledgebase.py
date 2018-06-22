@@ -1,38 +1,47 @@
-import os
-import json
+'''QA Knowledgebase for safety, gre, and science questions'''
 
-class ConstructQA():
+import json
+from utils import pretty_print
+
+class QAKnowlegeBase():
 
     def __init__(self, jsonFile):
-        print("[QUIZBOT] PID " + str(os.getpid())+": Begin to Construct QA Knowledgebase")
+        pretty_print("Begin to Construct QA Knowledgebase", mode="QA KB")
         data = json.load(open(jsonFile))
 
+        self.QID = [] # questin id
         self.QKB = [] # question
         self.SKB = [] # support
         self.AKB = [] # correct answer (NOTE THIS IS A LIST!)
-        self.DKB = [] # distractor 1
+        self.DKB = [] # distractors
         self.SubKB = [] # subject
-        self.DifficultyKB = [] # difficulty level
         self.SubDict = {} # subject dict
         self.KBlength = len(data)
-        
+
         for entry in data:
+            self.QID.append(entry['id'])
             self.QKB.append(entry["question"])
             self.AKB.append(entry["correct_answer"])
             self.SKB.append(entry["support"])
             self.DKB.append(entry["distractor"])
-            self.SubKB.append(entry["subject"])
-            self.DifficultyKB.append(entry["difficulty"])
+            # group all science subjects together
+            if entry["subject"] in ("physics, chemistry, geology, biology"):
+                self.SubKB.append("science")
+            else:
+                self.SubKB.append(entry["subject"])
+
         self.appendSubDict()
-        
-        print("[QUIZBOT] PID " + str(os.getpid())+": Finished QA Knowledgebase Construction")
-        print("[QUIZBOT] PID " + str(os.getpid())+": Total Number of Questions: " +str(self.KBlength))
-    
-    def appendSubDict(self):       
+
+        pretty_print("Total Number of Questions: " + str(self.KBlength))
+        pretty_print("Finished QA Knowledgebase Construction", mode="QA KB")
+
+    def appendSubDict(self):
         for i, subject in enumerate(self.SubKB):
             if subject in self.SubDict.keys():
-                self.SubDict[subject].append(i)
+                self.SubDict[subject].append(i)  # append index in list, not qid
             else:
                 self.SubDict[subject] = [i]
-        print("[QUIZBOT] PID " + str(os.getpid())+": Finished Subject Dictionary Construction")
-        print("[QUIZBOT] PID " + str(os.getpid())+": Total Subject Count is: "+str(len(self.SubDict)))
+
+        pretty_print("Total Subject Count is: "+str(len(self.SubDict)))
+        for subject in self.SubDict.keys():
+            pretty_print("{}: {}".format(subject, len(self.SubDict[subject])))
