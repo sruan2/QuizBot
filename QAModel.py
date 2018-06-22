@@ -1,19 +1,19 @@
 import sys
+import os
 from abc import ABCMeta, abstractmethod
 from gensim.models import Doc2Vec
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import linear_kernel
-from similarity_model.sif_implementation.wordembeddings import EmbeddingVectorizer
-from similarity_model.sif_implementation import utils
-#from similarity_model.princeton_sif import sif_sentence_similarity
 import random
 from random import randint
-import os
 import pickle
 from nltk import RegexpTokenizer
 import math
 
 from utils import pretty_print
+from similarity_model.sif_implementation.wordembeddings import EmbeddingVectorizer
+from similarity_model.sif_implementation import utils
+#from similarity_model.princeton_sif import sif_sentence_similarity
 
 
 class QAModel(object):
@@ -65,6 +65,8 @@ class TFIDFModel(QAModel):
     """a working baseline model: TFIDF"""
     def __init__(self, qa_kb):
         super(TFIDFModel, self).__init__(qa_kb)
+        self.AKB = qa_kb.AKB
+        self.DKB = qa_kb.DKB
         pretty_print('TFIDF Model')
 
     def compute_score(self, user_answer, QID):
@@ -137,7 +139,7 @@ class SIF2Model(QAModel):
         if not not_empty:
             return -1 # transformed V_query won't exist since it will be empty (nont of the words exist in glove)
         V_query = self.emb.transform(tokenized_query)
-        
+
         # Liwei: this line has a bug, so comment this out and add a fake score for running the app
         # score = math.ceil(utils.cosine_similarity(V_query[0], V_answer[0]) * 10)
         score = 0
