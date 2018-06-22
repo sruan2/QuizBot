@@ -1,1 +1,2328 @@
-$questions = [{"distractor": ["Bones", "Muscles", "Thumbs"], "difficulty": 0, "support": "Figure 29.7 Vertebrata are characterized by the presence of a backbone, such as the one that runs through the middle of this fish. All vertebrates are in the Craniata clade and have a cranium. (credit: Ernest V. More; taken at Smithsonian Museum of Natural History, Washington, D.", "correct_answer": ["backbone"], "subject": "chemistry", "question": "Vertebrata are characterized by the presence of what?"}, {"distractor": ["depth", "latitude", "variation"], "difficulty": 0, "support": "As you know, the surface of Earth is not flat. Some places are high, and some places are low. For example, mountain ranges like the Sierra Nevada in California or the Andes in South America are high above the surrounding areas. An accurate location must take into account the third dimension. Elevation is the height above or below sea level. Sea level refers to the height of the ocean\u2019s surface. This is the midpoint between high and low tide. Sea level can vary from place to place, but scientists base their elevation measurements on the average, or mean, sea level to make sure they have a standard reference point.", "correct_answer": ["elevation"], "subject": "biology", "question": "What is the height above or below sea level called?"}, {"distractor": ["mountain ranges", "fossils", "magma"], "difficulty": 0, "support": "Tree rings, ice cores, and varves indicate the environmental conditions at the time they were made.", "correct_answer": ["tree rings"], "subject": "biology", "question": "Ice cores, varves and what else indicate the environmental conditions at the time of their creation?"}, {"distractor": ["produce hormones", "nitrogen hormones", "Human Hormones"], "difficulty": 0, "support": "Plant hormones are chemical signals that control different processes in plants.", "correct_answer": ["plant hormones"], "subject": "chemistry", "question": "What chemical signals in plants control different processes?"}, {"distractor": ["vines", "fungus", "shrubs"], "difficulty": 0, "support": "Figure 44.18 Deciduous trees are the dominant plant in the temperate forest. (credit: Oliver Herold).", "correct_answer": ["deciduous"], "subject": "geology", "question": "Which type of tree is dominant in temperate forests?"}, {"distractor": ["increased viscosity", "low viscosity", "intense viscosity"], "difficulty": 0, "support": "There is also a correlation between viscosity and molecular shape. Liquids consisting of long, flexible molecules tend to have higher viscosities than those composed of more spherical or shorter-chain molecules. The longer the molecules, the easier it is for them to become \u201ctangled\u201d with one another, making it more difficult for them to move past one another. London dispersion forces also increase with chain length. Due to a combination of these two effects, long-chain hydrocarbons (such as motor oils) are highly viscous.", "correct_answer": ["highly viscous"], "subject": "chemistry", "question": "What kind of viscosity is found in long-chain hydrocarbons?"}, {"distractor": ["about 2 meters", "about 2 feet", "2 inches"], "difficulty": 0, "support": "Besides seamounts, there are long, very tall (about 2 km) mountain ranges. These ranges are connected so that they form huge ridge systems called mid-ocean ridges ( Figure below ). The mid-ocean ridges form from volcanic eruptions. Lava from inside Earth breaks through the crust and creates the mountains.", "correct_answer": ["about 2 km"], "subject": "geology", "question": "About how tall can mid-ocean ridges be?"}, {"distractor": ["spiders", "crustaceans", "corals"], "difficulty": 0, "support": "This Monarch caterpillar is an invertebrate. It is also an insect and an arthropod. Of all the animal species, it is estimated that well over 90% are invertebrates. Of all invertebrates, the insects are by far the most numerous. There are so many species of insects that scientists have yet to discover them all, let alone name or count them. Estimates of the total number of insect species fall in the range of 1 to 30 million. So, it helps if there are methods to classify not just the insects, but all invertebrates.", "correct_answer": ["insects"], "subject": "biology", "question": "What are by far the most common type of invertebrate?"}, {"distractor": ["magma", "organisms", "glaciers"], "difficulty": 0, "support": "Waves may also deposit sediments to form sandbars and barrier islands . You can see examples of these landforms in Figure below .", "correct_answer": ["sediments"], "subject": "chemistry", "question": "What do waves deposit to form sandbars and barrier islands?"}, {"distractor": ["virus reproductive system\u200b", "plant reproductive system\u200b", "female reproductive system\u200b"], "difficulty": 0, "support": "Male reproductive organs include the penis, testes, and epididymis.", "correct_answer": ["male reproductive system"], "subject": "physics", "question": "Penis, testes, and epididymis are organs in what system?"}, {"distractor": ["flowering", "rooting", "growth"], "difficulty": 0, "support": "Almost all plants make food by photosynthesis . Only about 1 percent of the estimated 300,000 species of plants have lost the ability to photosynthesize. These other species are consumers, many of them predators. How do plants prey on other organisms? The Venus fly trap in Figure below shows one way this occurs.", "correct_answer": ["photosynthesis"], "subject": "biology", "question": "Only about one percent of plants have lost what ability, turning them into consumers and even predators, instead of producers?"}, {"distractor": ["luminescence", "radiation", "mitosis"], "difficulty": 0, "support": "A neon light produces visible light by electroluminescence. The bulb is a glass tube that contains the noble gas neon. When electricity passes through the gas, it excites electrons of neon atoms, causing them to give off visible light. Neon produces red light. Other noble gases are also used in lights, and they produce light of different colors. For example, krypton produces violet light, and argon produces blue light.", "correct_answer": ["electroluminescence"], "subject": "chemistry", "question": "How does a neon light produce visible light?"}, {"distractor": ["tails", "webbed feet", "beaks"], "difficulty": 0, "support": "Wings evolved in a bird ancestor that lived in trees. Thus, wings are modified arms that helped the animal glide from branch to branch.", "correct_answer": ["wings"], "subject": "physics", "question": "The bird ancestor that lived in trees developed what feature commonly associated with birds?"}, {"distractor": ["enzymes", "carbon", "nitrogen"], "difficulty": 0, "support": "Today, most living things use oxygen to make ATP from glucose. However, many living things can also make ATP without oxygen. This is true of some plants and fungi and also of many bacteria. These organisms use aerobic respiration when oxygen is present, but when oxygen is in short supply, they use anaerobic respiration instead. Certain bacteria can only use anaerobic respiration. In fact, they may not be able to survive at all in the presence of oxygen.", "correct_answer": ["oxygen"], "subject": "chemistry", "question": "What do most living things use to make atp from glucose?"}, {"distractor": ["Olivine and quartz", "Micas\t and feldspar", "Micas\t and quartz"], "difficulty": 0, "support": "Feldspar and quartz are the two most common silicates. In beryl, the silicate pyramids join together as rings. Biotite is mica. It can be broken apart into thin, flexible sheets. Compare the beryl and the biotite shown in Figure below .", "correct_answer": ["feldspar and quartz"], "subject": "biology", "question": "What are the two most common silicates?"}, {"distractor": ["temperature", "pressure", "ambient"], "difficulty": 0, "support": "Humidity is the amount of water vapor in the air. High humidity increases the chances of clouds and precipitation.", "correct_answer": ["humidity"], "subject": "chemistry", "question": "What term means the amount of water vapor in the air?"}, {"distractor": ["animal", "reproductive", "heterotroph"], "difficulty": 0, "support": "All but one of the structures described above are found in plant cells as well as animal cells. The only exception is centrioles, which are not found in plant cells. Plant cells have three additional structures that are not found in animals cells. These include a cell wall, large central vacuole, and organelles called plastids. You can see these structures in the model of a plant cell in Figure below . You can also see them in the interactive plant cell at this link:.", "correct_answer": ["plant"], "subject": "biology", "question": "Presence of a cell wall, large central vacuole, and organelles called plastids distinguish what type of cell?"}, {"distractor": ["bleeding", "balding", "bruising"], "difficulty": 0, "support": "Mammals raise their hair with tiny muscles in the skin. Even humans automatically contract these muscles when they are cold. They cause \u201cgoosebumps,\u201d as shown here.", "correct_answer": ["goosebumps"], "subject": "biology", "question": "What happens when mammals raise their hair with tiny muscles in the skin?"}, {"distractor": ["epilepsy", "senility", "growth spurt"], "difficulty": 0, "support": "For a long time, scientists considered fungi to be members of the plant kingdom because they have obvious similarities with plants. Both fungi and plants are immobile, have cell walls, and grow in soil. Some fungi, such as lichens , even look like plants (see Figure below ).", "correct_answer": ["bone fractures"], "subject": "biology", "question": "What are people with osteoporosis at increased risk of?"}, {"distractor": ["on the surface", "in molecules", "inside atoms"], "difficulty": 0, "support": "energy that is stored in the connections between atoms in a chemical substance.", "correct_answer": ["between atoms"], "subject": "chemistry", "question": "Where is energy stored in a chemical substance?"}, {"distractor": ["potasium", "calcium", "hydrogen"], "difficulty": 0, "support": "When organisms die and decompose, their nitrogen is returned to the soil as ammonium ions. Nitrifying bacteria change some of the ammonium ions into nitrates.", "correct_answer": ["nitrogen"], "subject": "chemistry", "question": "Upon death of an organism, during composition, what returns to the soil as ammonium ions?"}, {"distractor": ["spores", "photosynthesis", "asexual reproduction"], "difficulty": 0, "support": "Most insects can reproduce very quickly within a short period of time. With a short generation time, they evolve faster and can quickly adjust to environmental changes. Most insects reproduce by sexual reproduction . The female produces eggs, which are fertilized by the male, and then the eggs are usually placed near the required food. In some insects, there is asexual reproduction during which the offspring come from a single parent. In this type of reproduction, the offspring are almost identical to the mother. This is most often seen in aphids and scale insects.", "correct_answer": ["sexual reproduction"], "subject": "biology", "question": "Most insects reproduce quickly and through what type of reproduction?"}, {"distractor": ["calcium", "copper", "magnetite"], "difficulty": 0, "support": "Metals represent approximately 25% of the elemental makeup of the Earth's crust. The bulk of these metals, primarily aluminum, iron, calcium, sodium, potassium, and magnesium, are typically found in combined form. The most abundant metal is aluminum, which occurs almost exclusively as the ionic mineral bauxite. The other most common metals, including iron, sodium, potassium, magnesium, and calcium, are also found primarily as the cationic portion of an ionic compound. Very few metals actually occur naturally as pure substances. The ones that do are often referred to as precious or semi-precious metals.", "correct_answer": ["aluminum"], "subject": "physics", "question": "What is the most abundant metal of the earth's crust?"}, {"distractor": ["heavy energy", "mechanical energy", "Newton's energy"], "difficulty": 0, "support": "The total kinetic energy of moving particles of matter is called thermal energy.", "correct_answer": ["thermal energy"], "subject": "physics", "question": "What is the term for the total kinetic energy of moving particles of matter?"}, {"distractor": ["eyelid", "retina", "iris"], "difficulty": 0, "support": "Take-Home Experiment: The Pupil Look at the central transparent area of someone\u2019s eye, the pupil, in normal room light. Estimate the diameter of the pupil. Now turn off the lights and darken the room. After a few minutes turn on the lights and promptly estimate the diameter of the pupil. What happens to the pupil as the eye adjusts to the room light? Explain your observations. The eye can detect an impressive amount of detail, considering how small the image is on the retina. To get some idea of how small the image can be, consider the following example.", "correct_answer": ["pupil"], "subject": "physics", "question": "What part of the eye allows light to enter?"}, {"distractor": ["amps", "amperes", "thermals"], "difficulty": 0, "support": "Chemical reactions involve a transfer of heat energy. Measured in joules.", "correct_answer": ["joules"], "subject": "chemistry", "question": "Chemical reactions involve a transfer of heat energy. measured in what?"}, {"distractor": ["digestion", "spermatogenesis", "circulation"], "difficulty": 0, "support": "Cellular respiration and photosynthesis are like two sides of the same coin. This is clear from the diagram in Figure below . The products of photosynthesis are needed for cellular respiration. The products of cellular respiration are needed for photosynthesis. Together, the two processes store and release energy in virtually all living things.", "correct_answer": ["photosynthesis"], "subject": "biology", "question": "The products of what process are needed for cellular respiration, and vice versa?"}, {"distractor": ["inorganic material", "living organisms", "carnivorous organisms"], "difficulty": 0, "support": "Most fungi get organic compounds from dead organisms. They are decomposers called saprotrophs. A saprotroph feeds on any remaining organic matter after other decomposers do their work. Fungi use enzymes to digest organic remains and then absorb the resulting organic compounds. As decomposers, fungi are vital for the health of ecosystems. They break down nonliving organic matter and release the nutrients into the soil. Plants can then use the nutrients and pass them on to herbivores and other consumers.", "correct_answer": ["dead organisms"], "subject": "chemistry", "question": "Most fungi get organic compounds from what?"}, {"distractor": ["become super novas", "explode", "consumed by black hole"], "difficulty": 0, "support": "A more massive star ends its life in a more dramatic way. Very massive stars become red supergiants . Unlike a red giant, when all the helium in a red supergiant is gone, fusion continues. Lighter atoms fuse into heavier atoms up to iron atoms. Creating elements heavier than iron through fusion uses more energy than it produces. For this reason, stars do not ordinarily form any heavier elements. When there are no more elements for the star to fuse, the core succumbs to gravity and collapses.", "correct_answer": ["become red supergiants"], "subject": "physics", "question": "How do very massive stars end their lives?"}, {"distractor": ["combustion ions", "calcium ions", "monoxide ions"], "difficulty": 0, "support": "The strength of a base depends on the concentration of hydroxide ions it produces when dissolved in water. For example, sodium hydroxide completely breaks down into ions in water, so it is a strong base. However, only a fraction of ammonia breaks down into ions, so it is a weak base.", "correct_answer": ["hydroxide ions"], "subject": "chemistry", "question": "The strength of a base depends on the concentration of _______ it produces when dissolved in water?"}, {"distractor": ["the sun", "significant water pressure", "tsunamis"], "difficulty": 0, "support": "Organisms that live deep in the ocean must be able to withstand extreme water pressure, very cold water, and complete darkness. However, even here, thriving communities of living things can be found. Organisms cluster around hydrothermal vents in the ocean floor. The vents release hot water containing chemicals that would be toxic to most other living things. The producers among them are single-celled chemoautotrophs. They make food using energy stored in the chemicals. The tube worms in this chapter's opening photo depend on these chemoautotrophs for food.", "correct_answer": ["extreme water pressure"], "subject": "biology", "question": "Organisms that live deep in the ocean must be able to withstand what?"}, {"distractor": ["large nervous system", "cerebral cortex", "limbic system"], "difficulty": 0, "support": "The central nervous system includes the brain and spinal cord. The brain serves as the control center of the nervous system and the body as a whole. It consists of three major parts: the cerebrum, cerebellum, and brain stem. The spinal cord carries nerve impulses back and forth between the body and brain.", "correct_answer": ["central nervous system"], "subject": "chemistry", "question": "Which system are the brain and spinal cord apart of?"}, {"distractor": ["inhibitor", "metabolites", "polymers"], "difficulty": 0, "support": "Enzymes are biochemical catalysts that speed up biochemical reactions. Without enzymes, most chemical reactions in living things would occur too slowly to keep organisms alive.", "correct_answer": ["enzymes"], "subject": "chemistry", "question": "What are biochemical catalysts that speed up biochemical reactions?"}, {"distractor": ["speedometer", "thermometer", "scale"], "difficulty": 0, "support": "An analytical balance makes very sensitive mass measurements in a laboratory, usually in grams.", "correct_answer": ["analytical balance"], "subject": "physics", "question": "What instrument is used to make very sensitive mass measurements in a laboratory, usually in grams?"}, {"distractor": ["enemies", "water", "honey"], "difficulty": 0, "support": "There are many other examples of innate behaviors. For example, did you know that honeybees dance? The honeybee pictured below has found a source of food ( Figure below ). When the bee returns to its hive, it will do a dance. This dance is called the waggle dance . The way the bee moves during its dance tells other bees in the hive where to find the food. Honeybees can do the waggle dance without learning it from other bees, so it is an innate behavior.", "correct_answer": ["food"], "subject": "biology", "question": "A bee will sometimes do a dance to tell other bees in the hive where to find what?"}, {"distractor": ["cones and tubes", "holes and cones", "tubes and rods"], "difficulty": 0, "support": "The lens focuses light on the retina , which covers the back of the inside of the eye. The retina has light-sensing photoreceptor cells called rods and cones. Rods let us see in dim light. Cones let us detect light of different colors.", "correct_answer": ["rods and cones"], "subject": "biology", "question": "The lens focuses light on the retina , which covers the back of the inside of the eye. the retina has light-sensing photoreceptor cells called?"}, {"distractor": ["nucleic factors", "conditional factors", "diverse factors"], "difficulty": 0, "support": "Ecology is the study of ecosystems. That is, ecology is the study of how living organisms interact with each other and with the nonliving part of their environment. An ecosystem consists of all the nonliving factors and living organisms interacting in the same habitat . Recall that living organisms are biotic factors . The biotic factors of an ecosystem include all the populations in a habitat, such as all the species of plants, animals, and fungi, as well as all the micro-organisms. Also recall that the nonliving factors are called abiotic factors . Abiotic factors include temperature, water, soil, and air.", "correct_answer": ["abiotic factors"], "subject": "geology", "question": "Temperature, water, soil, and air are examples of nonliving factors of an ecosystem, also termed what?"}, {"distractor": ["mineral activity", "oceanic activity", "deserts activity"], "difficulty": 0, "support": "When you look at the Moon from Earth, you notice dark and light areas. The maria are dark, solid, flat areas of lava (mostly basalt). Maria covers around 16% of the Moon\u2019s surface, mostly on the near side. The maria formed about 3.0 to 4.0 billion years ago, when the Moon was continually bombarded by meteoroids ( Figure below ). Large meteorites broke through the Moon\u2019s newly formed surface. This eventually caused magma to flow out and fill the craters. Scientists estimate volcanic activity on the Moon ended about 1.2 billion years ago.", "correct_answer": ["volcanic activity"], "subject": "chemistry", "question": "Although magma once filled our moon's craters, what is thought to have ended there over a billion years ago?"}, {"distractor": ["muscular system", "endocrine system", "irculatory system"], "difficulty": 0, "support": "Human senses include sight, hearing, balance, taste, smell, and touch. Sensory organs such as the eyes contain cells called sensory receptors that respond to particular sensory stimuli. Sensory nerves carry nerve impulses from sensory receptors to the central nervous system. The brain interprets the nerve impulses to form a response.", "correct_answer": ["central nervous"], "subject": "biology", "question": "Sensory nerves carry nerve impulses from sensory receptors to what system?"}, {"distractor": ["vascular", "striated", "alveoli"], "difficulty": 0, "support": "Smooth muscle regulates air flow in lungs.", "correct_answer": ["smooth"], "subject": "chemistry", "question": "Which kind of muscle regulates air flow in lungs?"}, {"distractor": ["sigma bonds", "omega bonds", "theta bonds"], "difficulty": 0, "support": "Sigma bonds are formed by the end-to-end overlap of bonding orbitals. Pi bonds are formed by the side-to-side overlap of p orbitals. Single bonds are normally sigma bonds. A double or triple bond consists of one sigma bond and either one or two pi bonds.", "correct_answer": ["pi bonds"], "subject": "chemistry", "question": "What type of bonds are formed by the side-to-side overlap of p orbitals?"}, {"distractor": ["17th", "7th", "1st"], "difficulty": 0, "support": "After menstruation, the endometrium begins to build up again. At the same time, a follicle starts maturing in an ovary. Ovulation occurs around day 14 of the cycle. After it occurs, the endometrium continues to build up in preparation for a fertilized egg. What happens next depends on whether the egg is fertilized.", "correct_answer": ["14th"], "subject": "biology", "question": "On what day of the cycle does ovulation usually occur?"}, {"distractor": ["vertebrate", "nematode", "arthropod"], "difficulty": 0, "support": "The majority of living animals are invertebrates. Invertebrates lack a backbone.", "correct_answer": ["invertebrate"], "subject": "biology", "question": "The majority of animals belong to what category, characterized by the lack of a backbone?"}, {"distractor": ["nerve column", "pillar", "brain stem"], "difficulty": 0, "support": "animal in Phylum Chordata that has a vertebral column, or backbone.", "correct_answer": ["backbone"], "subject": "biology", "question": "What is another name for the vertebral column?"}, {"distractor": ["boiling", "change", "freezing"], "difficulty": 0, "support": "The temperature at which a substance melts is called its melting point. Melting point is a physical property of matter. The gold pictured in the Figure above , for example, has a melting point of 1064\u00b0C. This is a high melting point, and most other metals also have high melting points. The melting point of ice, in comparison, is much lower at 0\u00b0C. Many substances have even lower melting points. For example, the melting point of oxygen is -222\u00b0C.", "correct_answer": ["melting"], "subject": "chemistry", "question": "The temperature at which a substance melts is called its what point?"}, {"distractor": ["gravity", "change", "interference"], "difficulty": 0, "support": "9.80 m/s^2 . When we say that an acceleration is 45 g 's, it is 45\u00d79.80 m/s^2 , which is approximately 440 m/s^2 . ) While living subjects are not used any more, land speeds of 10,000 km/h have been obtained with rocket sleds. In this example, as in the preceding one, the system of interest is obvious. We will see in later examples that choosing the system of interest is crucial\u2014and the choice is not always obvious. Newton\u2019s second law of motion is more than a definition; it is a relationship among acceleration, force, and mass. It can help us make predictions. Each of those physical quantities can be defined independently, so the second law tells us something basic and universal about nature. The next section introduces the third and final law of motion.", "correct_answer": ["motion"], "subject": "physics", "question": "Newton\u2019s second law of what is more than a definition; it is a relationship among acceleration, force, and mass?"}, {"distractor": ["Transition", "Growth and Development", "parthenogenesis"], "difficulty": 0, "support": "With a few exceptions, all insect life begins as an egg. After leaving the egg, insects must grow and transform until reaching adulthood. Only the adult insect can mate and reproduce. The physical transformation of an insect from one stage of its life cycle to another is known as metamorphosis .", "correct_answer": ["metamorphosis"], "subject": "chemistry", "question": "What is the physical transformation of an insect moving through stages of life?"}, {"distractor": ["a economical one", "a lateral one", "a thermodynamic one"], "difficulty": 0, "support": "When equal amounts of a strong acid such as hydrochloric acid are mixed with a strong base such as sodium hydroxide, the result is a neutral solution. The products of the reaction do not have the characteristics of either an acid or a base. Here is the balanced molecular equation.", "correct_answer": ["a neutral one"], "subject": "chemistry", "question": "When equal amounts of a strong acid such as hydrochloric acid are mixed with a strong base such as sodium hydroxide, the result is what kind of solution?"}, {"distractor": ["air streams", "cause streams", "burst streams"], "difficulty": 0, "support": "Jet streams are fast moving rivers of air going in opposite directions.", "correct_answer": ["jet streams"], "subject": "geology", "question": "What are fast moving rivers of air that are going in opposite directions called?"}, {"distractor": ["bladder", "lungs", "liver"], "difficulty": 0, "support": "Kidney Function and Physiology Kidneys filter blood in a three-step process. First, the nephrons filter blood that runs through the capillary network in the glomerulus. Almost all solutes, except for proteins, are filtered out into the glomerulus by a process called glomerular filtration. Second, the filtrate is collected in the renal tubules. Most of the solutes get reabsorbed in the PCT by a process called tubular reabsorption. In the loop of Henle, the filtrate continues to exchange solutes and water with the renal medulla and the peritubular capillary network. Water is also reabsorbed during this step. Then, additional solutes and wastes are secreted into the kidney tubules during tubular secretion, which is, in essence, the opposite process to tubular reabsorption. The collecting ducts collect filtrate coming from the nephrons and fuse in the medullary papillae. From here, the papillae deliver the filtrate, now called urine, into the minor calyces that eventually connect to the ureters through the renal pelvis. This entire process is illustrated in Figure 41.7.", "correct_answer": ["kidneys"], "subject": "chemistry", "question": "Nephrons, renal tubules and the loop of henle are part of the process of blood filtration by what organs?"}, {"distractor": ["birth cycles", "gene pools", "mutations"], "difficulty": 0, "support": "Figure 11.9 Fungi, such as black bread mold (Rhizopus nigricans), have haploid-dominant life cycles. The haploid multicellular stage produces specialized haploid cells by mitosis that fuse to form a diploid zygote. The zygote undergoes meiosis to produce haploid spores. Each spore gives rise to a multicellular haploid organism by mitosis. (credit \u201czygomycota\u201d micrograph: modification of work by \u201cFanaberka\u201d/Wikimedia Commons).", "correct_answer": ["life cycles"], "subject": "biology", "question": "Fungi, such as black bread mold (rhizopus nigricans), have haploid-dominant what?"}, {"distractor": ["diode", "cathode", "calomel"], "difficulty": 0, "support": "The electrode at which oxidation occurs is called the anode . The zinc anode gradually diminishes as the cell operates due to the loss of zinc metal. The zinc ion concentration in the half-cell increases. Because of the production of electrons at the anode, it is labeled as the negative electrode.", "correct_answer": ["the anode"], "subject": "chemistry", "question": "The electrode at which oxidation occurs is called?"}, {"distractor": ["iris", "pupil", "cornea"], "difficulty": 0, "support": "As just described, the eyes collect and focus visible light. The lens and other structures of the eye work together to focus a real image on the retina. The image is upside-down and reduced in size, as you can see in Figure below . The image reaches the brain as electrical signals that travel through the optic nerve. The brain interprets the signals as shape, color, and brightness. It also interprets the image as though it were right-side up. The brain does this automatically, so what we see is always right-side up. The brain also \u201ctells\u201d us what we are seeing.", "correct_answer": ["retina"], "subject": "chemistry", "question": "The lens and other parts of the eye work together to focus a real image on what eye structure?"}, {"distractor": ["food", "gravity", "evolution"], "difficulty": 0, "support": "Energy provides the ability to move or change matter from one state to another (for example, from solid to liquid). Every living thing needs energy to live and grow. Your body gets its energy from food, but that is only a small part of the energy you use every day. Cooking your food takes energy, and so does keeping it cold in the refrigerator or the freezer. The same is true for heating or cooling your home. Whether you are turning on a light in the kitchen or riding in a car to school, you are using energy. Billions of people all around the world use energy, so there is a huge demand for resources to provide all of this energy. Why do we need so much energy? The main reason is that almost everything that happens on Earth involves energy.", "correct_answer": ["energy"], "subject": "physics", "question": "What is required to move or change matter from one state to another?"}, {"distractor": ["California condor", "peregrine falcon", "pteradactyl"], "difficulty": 0, "support": "Although not as famous as its bald cousin, Golden Eagles are much easier to find in Northern California - one of the largest breeding populations for Golden Eagles. The largest of the raptors, Golden Eagles weigh typically between 8 and 12 pounds, and their wing span is around 6 to 7 feet. These eagles dive towards earth to catch prey, and can reach speeds of up to 200 mph! Meet one of the largest birds of prey at http://www. kqed. org/quest/television/cool-critters-the-golden-eagle .", "correct_answer": ["golden eagles"], "subject": "biology", "question": "What living species of bird is considered the  largest of the raptors?"}, {"distractor": ["electrons", "ions", "epidermis"], "difficulty": 0, "support": "The nucleus is at the center of the atom. It contains positive protons and neutral neutrons. Negative electrons constantly move about the nucleus.", "correct_answer": ["nucleus"], "subject": "physics", "question": "What contains positive protons and neutral neutrons?"}, {"distractor": ["skin", "taste buds", "hairs"], "difficulty": 0, "support": "Turtles may appear slow and harmless when they are out of the water, but in the water is another story. Turtles can be either herbivores or carnivores, with most sea turtles carnivorous . Turtles have a rigid beak and use their jaws to cut and chew food. Instead of teeth, the upper and lower jaws of the turtle are covered by horny ridges. Carnivorous, or animal-eating turtles usually have knife-sharp ridges for slicing through their prey. But as the turtle is not a very fast animal, and it cannot quickly turn its head to snap at prey, it does have some limitations. Sea turtles typically feed on jellyfish, sponges and other soft-bodied organisms. Some species of sea turtle with stronger jaws eat shellfish, while other species, such as the green sea turtle, do not eat any meat at all. Herbivorous turtles have serrated ridges that help them cut through tough plants.", "correct_answer": ["teeth"], "subject": "physics", "question": "Horny ridges on the jaws serve the same function as what, for turtles?"}, {"distractor": ["hydrogen", "carbon", "sulfur"], "difficulty": 0, "support": "Natural gas is mostly methane. Natural gas is usually found with petroleum. People prefer to burn natural gas when possible because it is relatively clean.", "correct_answer": ["methane"], "subject": "geology", "question": "Natural gas is the predominately made up of?"}, {"distractor": ["lungs", "tongue", "ears"], "difficulty": 0, "support": "The kidneys play many vital roles in homeostasis. They filter all the blood in the body many times each day and produce a total of about 1.5 liters of urine. The kidneys control the amount of water, ions, and other substances in the blood by excreting more or less of them in urine. The kidneys also secrete hormones that help maintain homeostasis. Erythropoietin, for example, is a kidney hormone that stimulates bone marrow to produce red blood cells when more are needed. The kidneys themselves are also regulated by hormones. For example, antidiuretic hormone from the hypothalamus stimulates the kidneys to produce more concentrated urine when the body is low on water.", "correct_answer": ["kidneys"], "subject": "chemistry", "question": "Which  organs control the amount of water, ions, and other substances in the blood by excreting more or less of them in urine?"}, {"distractor": ["one quark", "one joule", "one ohm"], "difficulty": 0, "support": "The relative scale of atomic masses in amu is also a relative scale of masses in grams. We said before that the mole is officially equal to the number of carbon atoms in exactly 12 g of carbon-12. In other words, one carbon-12 atom has a mass of exactly 12 amu, and one mole of carbon atoms has a mass of exactly 12 grams. This relationship is true for all substances. If one atom of helium has a mass of 4.00 amu, one mole of helium atoms has a mass of 4.00 g. One molecule of water has a mass of 18.0 amu, so one mole of water molecules has a mass of 18.0 grams. Molar mass is defined as the mass of one mole of representative particles of a substance. It is expressed in units of grams per mole (g/mol).", "correct_answer": ["one mole"], "subject": "physics", "question": "What unit of measurement is defined to be the number of atoms in 12g of carbon-12?"}, {"distractor": ["echolocation", "sensory perception", "projection"], "difficulty": 0, "support": "Vision involves sensing and focusing light from people and objects. The steps involved are as follows:.", "correct_answer": ["vision"], "subject": "physics", "question": "What involves sensing and focusing light from people and objects?"}, {"distractor": ["rodent", "bat", "carnivore"], "difficulty": 0, "support": "Marsupials have a different way of reproducing that reduces the mother\u2019s risks. A marsupial is a therian mammal in which the embryo is born at an early, immature stage. The embryo completes its development outside the mother\u2019s body in a pouch on her belly. Only a minority of therian mammals are marsupials. They live mainly in Australia. Examples of marsupials are pictured in Figure below .", "correct_answer": ["a marsupial"], "subject": "biology", "question": "What is a therian mammal in which the embryo is born at an early, immature stage?"}, {"distractor": ["nutrients", "mirrors", "Permable"], "difficulty": 0, "support": "Figure 3.7 Osmosis Osmosis is the diffusion of water through a semipermeable membrane down its concentration gradient. If a membrane is permeable to water, though not to a solute, water will equalize its own concentration by diffusing to the side of lower water concentration (and thus the side of higher solute concentration). In the beaker on the left, the solution on the right side of the membrane is hypertonic.", "correct_answer": ["osmosis"], "subject": "chemistry", "question": "What is the diffusion of water through a semipermeable membrane down its concentration gradient"}, {"distractor": ["isomers", "electrons", "nuclei"], "difficulty": 0, "support": "Isotopes are named for their number of protons plus neutrons. If a carbon atom had seven neutrons, what would it be named?.", "correct_answer": ["neutrons"], "subject": "physics", "question": "Isotopes are named for their number of protons plus what?"}, {"distractor": ["work", "energy", "pressure"], "difficulty": 0, "support": "Torque is equal to the cross product as stated above. In general, one can simplify by saying that the torque is equal to the force acting on the object multiplied by the perpendicular distance from the application of the force to the rotational axis. Say you had a seesaw. It is easier to exert torque, get the seesaw to move, if you pushed on the board near the end rather than near the middle. It is the rotational version of Force.", "correct_answer": ["torque"], "subject": "physics", "question": "In phyisics, what is considered to be the rotational version of force?"}, {"distractor": ["fibers", "veins", "cords"], "difficulty": 0, "support": "Skeletal muscles are attached to the skeleton by tough connective tissues called tendons (see Figure above ). Many skeletal muscles are attached to the ends of bones that meet at a joint . The muscles span the joint and connect the bones. When the muscles contract, they pull on the bones, causing them to move.", "correct_answer": ["tendons"], "subject": "biology", "question": "Skeletal muscles are attached to the skeleton by tough connective tissues called what?"}, {"distractor": ["thought", "smell", "hearing"], "difficulty": 0, "support": "The ability to see is called vision . This ability depends on more than healthy eyes. It also depends on certain parts of the brain, because the brain and eyes work together to allow us to see. The eyes collect and focus visible light. The lens and other structures of the eye work together to focus an image on the retina. The image is upside-down and reduced in size, as you can see in the Figure below . Cells in the retina change the image to electrical signals that travel to the brain through the optic nerve. The brain interprets the electrical signals as shape, color, and brightness. It also interprets the image as though it were right-side up. The brain does this automatically, so what we see always appears right-side up. The brain also interprets what we are seeing.", "correct_answer": ["vision"], "subject": "chemistry", "question": "What is the ability to see called?"}, {"distractor": ["bee and pollen", "root and pollen", "salt and pollen"], "difficulty": 0, "support": "CHAPTER SUMMARY 26.1 Evolution of Seed Plants Seed plants appeared about one million years ago, during the Carboniferous period. Two major innovations\u2014seed and pollen\u2014allowed seed plants to reproduce in the absence of water. The gametophytes of seed plants shrank, while the sporophytes became prominent structures and the diploid stage became the longest phase of the lifecycle. Gymnosperms became the dominant group during the Triassic. In these, pollen grains and seeds protect against desiccation. The seed, unlike a spore, is a diploid embryo surrounded by storage tissue and protective layers. It is equipped to delay germination until growth conditions are optimal. Angiosperms bear both flowers and fruit. The structures protect the gametes and the embryo during its development. Angiosperms appeared during the Mesozoic era and have become the dominant plant life in terrestrial habitats.", "correct_answer": ["seed and pollen"], "subject": "physics", "question": "Which two major innovations allowed seed plants to reproduce in the absence of water?"}, {"distractor": ["motion", "mineral", "demand"], "difficulty": 0, "support": "Chemistry in Everyday Life Decomposition of Water / Production of Hydrogen Water consists of the elements hydrogen and oxygen combined in a 2 to 1 ratio. Water can be broken down into hydrogen and oxygen gases by the addition of energy. One way to do this is with a battery or power supply, as shown in (Figure 1.15).", "correct_answer": ["energy"], "subject": "chemistry", "question": "Water can be broken down into hydrogen and oxygen gases by the addition of what?"}, {"distractor": ["isochord", "botachord", "laxchord"], "difficulty": 0, "support": "Did you know that fish, amphibians, reptiles, birds, and mammals are all related? They are all chordates. Chordates are a group of animals that includes vertebrates, as well as several closely related invertebrates. Chordates (phylum Chordata ) are named after a feature they all share, a notochord. A notochord is a hollow nerve cord along the back.", "correct_answer": ["notochord"], "subject": "biology", "question": "What anatomical feature is shared by all chordates?"}, {"distractor": ["invisible light", "sunlight", "ultraviolet light"], "difficulty": 0, "support": "The electromagnetic spectrum encompasses a very wide range of wavelengths and frequencies. Visible light is only a very small portion of the spectrum with wavelengths from 400-700 nm.", "correct_answer": ["visible light"], "subject": "chemistry", "question": "With wavelengths from 400-700 nm, what kind of light represents only a very small portion of the spectrum?"}, {"distractor": ["dna and egg", "sperm and dna", "uteral and sperm"], "difficulty": 0, "support": "The life cycle of a plant is very different from the life cycle of an animal. Humans are made entirely of diploid cells (cells with two sets of chromosomes, referred to as ''2n''). Our only cells that are haploid cells (cells with one set of chromosomes, ''n'') are sperm and egg cells. Plants, however, can live when they are are at the stage of having haploid cells or diploid cells. If a plant has a haploid chromosome number of 20, what is the diploid chromosome number? If the diploid chromosome number is 20, what is the haploid number?.", "correct_answer": ["sperm and egg"], "subject": "biology", "question": "In humans, the only haploid cells are what reproductive cells?"}, {"distractor": ["zones", "crystals", "faults"], "difficulty": 0, "support": "The lithosphere is divided into a dozen major and several minor plates. Each plate is named for the continent or ocean basin it contains. Some plates are made of all oceanic lithosphere. A few are all continental lithosphere. But most plates are made of a combination of both.", "correct_answer": ["plates"], "subject": "geology", "question": "The lithosphere is divided into a dozen major and several minor what?"}, {"distractor": ["toddler", "newborn", "fetus"], "difficulty": 0, "support": "For the first year after birth, a baby is called an infant. Childhood begins at age two and continues until adolescence. Adolescence is the last stage of life before adulthood.", "correct_answer": ["infant"], "subject": "physics", "question": "During the first year after birth, what is a baby called?"}, {"distractor": ["indices", "suffixes", "digits"], "difficulty": 0, "support": "Prefixes are used to indicate the number of atoms of an element that are in the compound.", "correct_answer": ["prefixes"], "subject": "physics", "question": "What are used to indicate the number of atoms of an element that are in the compound?"}, {"distractor": ["fundamental units", "calculated measure", "known units"], "difficulty": 0, "support": "Derived units can be expressed as some combination of base units. Examples of derived units are area, volume, and speed.", "correct_answer": ["derived units"], "subject": "physics", "question": "Area, volume, and speed are all examples of what type of units?"}, {"distractor": ["magnetic", "potential", "thermal"], "difficulty": 0, "support": "Why do the air and sand of Death Valley feel so hot? It\u2019s because their particles are moving very rapidly. Anything that is moving has kinetic energy, and the faster it is moving, the more kinetic energy it has. The total kinetic energy of moving particles of matter is called thermal energy . It\u2019s not just hot things such as the air and sand of Death Valley that have thermal energy. All matter has thermal energy, even matter that feels cold. That\u2019s because the particles of all matter are in constant motion and have kinetic energy.", "correct_answer": ["kinetic"], "subject": "physics", "question": "Anything moving has what type of energy?"}, {"distractor": ["skeletons", "speed", "insulation"], "difficulty": 0, "support": "Camouflage by the dead leaf mantis makes it less visible to both its predators and prey. If alarmed, it lies motionless on the rainforest floor of Madagascar, Africa, camouflaged among the actual dead leaves. It eats other animals up to the size of small lizards.", "correct_answer": ["camouflage"], "subject": "biology", "question": "What is the adaptation that certain animals use to become less visible to predators and prey?"}, {"distractor": ["biology", "biochemistry", "climatology"], "difficulty": 0, "support": "Most biological sciences are specialized areas of study. Biology includes biochemistry, cell biology, microbiology, immunology, genetics, physiology, zoology, ecology, evolutionary biology, and botany. Biochemistry is the study of the chemicals that make up life. Cell biology is the study of life at the level of the cell. Microbiology is the study of microscopic organisms. Immunology is the study of an organism's resistance to disease. Genetics is the study of how organisms pass traits to their offspring. The study of how the human body works is called physiology. Zoology is the study of animals. The study of how organisms interact with their environment and each other is called ecology. Evolutionary biology is the study of how populations and species change over time. Botany is the study of plants. The four unifying principles are important foundations for each and every field of biology. Applied fields of biology such as medicine and genetic research involve many specialized areas of study.", "correct_answer": ["ecology"], "subject": "biology", "question": "What do you call the study of how organisms interact with their environment and each other?"}, {"distractor": ["umbilical", "uterine", "protein"], "difficulty": 0, "support": "During childbirth , a baby passes from the uterus, through the vagina, and out of the mother\u2019s body. Childbirth usually starts when the amniotic sac breaks.", "correct_answer": ["amniotic"], "subject": "chemistry", "question": "Childbirth usually starts when which sac breaks?"}, {"distractor": ["bacterial", "parasite", "exploration"], "difficulty": 0, "support": "Implantation occurs when the developing embryo fixes itself to the side of the uterus.", "correct_answer": ["implantation"], "subject": "biology", "question": "What is the term for when an embryo fixes itself to the side of the uterus?"}, {"distractor": ["plasma", "chemical reaction", "pigment"], "difficulty": 0, "support": "When exposed to ultraviolet, some substances, such as minerals, glow in characteristic visible wavelengths, a process called fluorescence. So-called black lights emit ultraviolet to cause posters and clothing to fluoresce in the visible. Ultraviolet is also used in special microscopes to detect details smaller than those observable with longer-wavelength visible-light microscopes. Things Great and Small: A Submicroscopic View of X-Ray Production X-rays can be created in a high-voltage discharge. They are emitted in the material struck by electrons in the discharge current. There are two mechanisms by which the electrons create X-rays. The first method is illustrated in Figure 24.18. An electron is accelerated in an evacuated tube by a high positive voltage. The electron strikes a metal plate (e. , copper) and produces X-rays. Since this is a high-voltage discharge, the electron gains sufficient energy to ionize the atom.", "correct_answer": ["fluorescence"], "subject": "geology", "question": "When exposed to ultraviolet, some substances, such as minerals, glow in characteristic visible wavelengths, a process called this?"}, {"distractor": ["allergy", "schizophrenia", "malnutrition"], "difficulty": 0, "support": "Cancer is a disease that occurs when the cell cycle is no longer regulated. Cancer cells grow rapidly and may form a mass of abnormal cells called a tumor.", "correct_answer": ["cancer"], "subject": "biology", "question": "What disease occurs when the cell cycle is no longer regulated?"}, {"distractor": ["Will float", "Will dissolve", "Will break up"], "difficulty": 0, "support": "Floating and Sinking Drop a lump of clay in water. It will sink. Then mold the lump of clay into the shape of a boat, and it will float. Because of its shape, the boat displaces more water than the lump and experiences a greater buoyant force. The same is true of steel ships.", "correct_answer": ["it will sink"], "subject": "geology", "question": "If a lump of clay is dropped into water, what will occur?"}, {"distractor": ["stomach", "brain", "lungs"], "difficulty": 0, "support": "Touch is the ability to sense pain, pressure, or temperature. Nerve cells that sense touch are found mainly in the skin. The skin on the palms, soles, face, and lips has the most neurons. Neurons that sense pain are also found inside the body inside the body in the tongue, joints, muscles, and other organs.", "correct_answer": ["skin"], "subject": "biology", "question": "Nerve cells that sense touch are found mainly where?"}, {"distractor": ["a forest", "a lake", "a crater"], "difficulty": 0, "support": "Courtesy of the US Geological Survey. Concentric circles on a topographic map indicate a hill . Public Domain.", "correct_answer": ["a hill"], "subject": "geology", "question": "What do concentric circles on a topographic map indicate?"}, {"distractor": ["lung", "respiratory sacs", "ganglion"], "difficulty": 0, "support": "The bronchioles lead to the alveoli. Alveoli are the little sacs at the end of the bronchioles ( Figure below ). They look like little bunches of grapes. Oxygen is exchanged for carbon dioxide in the alveoli. That means oxygen enters the blood, and carbon dioxide moves out of the blood. The gases are exchanged between the blood and alveoli by simple diffusion.", "correct_answer": ["alveoli"], "subject": "chemistry", "question": "What are the little sacs at the end of the bronchioles called?"}, {"distractor": ["yearly", "weekly", "quarterly"], "difficulty": 0, "support": "If you are a young woman, getting in the habit of performing a monthly breast self-exam is a good idea. Lumps or other subtle changes in the breasts may indicate breast cancer. The outcome is typically better if breast cancer is caught and treated early.", "correct_answer": ["monthly"], "subject": "biology", "question": "How often should women perform a breast self-exam?"}, {"distractor": ["moons", "craters", "satellites"], "difficulty": 0, "support": "An animation of dark spokes in Saturn\u2019s rings is seen here: http://en. wikipedia. org/wiki/File:Saturn_ring_spokes_PIA11144_300px_secs15.5to23_20080926. ogv . The spokes appear seasonally and their origin is as yet unknown.", "correct_answer": ["rings"], "subject": "biology", "question": "The spokes of what structures that distinguish saturn appear seasonally, with an origin as yet unknown?"}, {"distractor": ["muscle", "muscle", "feathers"], "difficulty": 0, "support": "Hair is a fiber that is found only in mammals. Its main component is keratin. A hair shaft consists of dead, keratin-filled cells that overlap each other like the shingles on a roof (see Figure below ). Like roof shingles, the overlapping cells help shed water from the hair.", "correct_answer": ["hair"], "subject": "biology", "question": "What is a fiber that is found only in mammals?"}, {"distractor": ["tongue", "eye", "knee"], "difficulty": 0, "support": "Muscles That Move the Head The head, attached to the top of the vertebral column, is balanced, moved, and rotated by the neck muscles (Table 11.5). When these muscles act unilaterally, the head rotates. When they contract bilaterally, the head flexes or extends. The major muscle that laterally flexes and rotates the head is the sternocleidomastoid. In addition, both muscles working together are the flexors of the head. Place your fingers on both sides of the neck and turn your head to the left and to the right. You will feel the movement originate there. This muscle divides the neck into anterior and posterior triangles when viewed from the side (Figure 11.14).", "correct_answer": ["head"], "subject": "physics", "question": "The sternocleidomastoid is the major muscle that laterally flexes and rotates what?"}, {"distractor": ["mosses", "ferns", "fertilizer plants"], "difficulty": 0, "support": "30.4 Human welfare depends greatly on seed plants.", "correct_answer": ["seed plants"], "subject": "biology", "question": "What type of plants does human welfare depend greatly on?"}, {"distractor": ["chromosomes", "ions", "electrons"], "difficulty": 0, "support": "Secondary alcohols are oxidized to form ketones.", "correct_answer": ["ketones"], "subject": "biology", "question": "What forms when secondary alcohols oxidize?"}, {"distractor": ["Monocyte Cells", "heterogeneous cells", "crustal cells"], "difficulty": 0, "support": "Prokaryotic cells are cells without a nucleus. They are found in single-celled organisms. Eukaryotic cells are cells with a nucleus and other organelles. They are found mainly in multicellular organisms.", "correct_answer": ["prokaryotic cells"], "subject": "biology", "question": "What are cells without a nucleus called?"}, {"distractor": ["muscles", "organs", "lungs"], "difficulty": 0, "support": "Bones, cartilage, and ligaments make up the skeletal system.", "correct_answer": ["ligaments"], "subject": "chemistry", "question": "Bones, cartilage, and what other thing make up the skeletal system?"}, {"distractor": ["enzymes", "acids", "electrolytes"], "difficulty": 0, "support": "The hypothalamus is actually part of the brain, but it also secretes hormones. Some of its hormones go directly to the pituitary gland in the endocrine system. These hypothalamus hormones tell the pituitary to either secrete or stop secreting its hormones. In this way, the hypothalamus provides a link between the nervous and endocrine systems.", "correct_answer": ["hormones"], "subject": "chemistry", "question": "The hypothalamus is actually part of the brain, but it also secretes what?"}, {"distractor": ["pulmonary edema", "gigantism", "fibrosis"], "difficulty": 0, "support": "Roundworms can be free-living organisms, but they are probably best known for their role as significant plant and animal parasites. Most Nematodes are parasitic, with over 16,000 parasitic species described. Heartworms, which cause serious disease in dogs while living in the heart and blood vessels, are a type of roundworm. Roundworms can also cause disease in humans. Elephantiasis, a disease characterized by the extreme swelling of the limbs ( Figure below ), is caused by infection with a type of roundworm.", "correct_answer": ["elephantiasis"], "subject": "biology", "question": "What disease characterized by the extreme swelling of the limbs is caused by infection with a type of roundworm?"}, {"distractor": ["theoretical oceanography", "experimental oceanography", "thermal oceanography"], "difficulty": 0, "support": "There are many branches of oceanography. Physical oceanography is the study of water movement, like waves and ocean currents. Physical oceanographers ask when or if a tsunami will hit a shoreline. Marine geologists look at rocks and structures in the ocean basins. These scientists ask how new ocean crust forms. Chemical oceanographers study the natural elements in ocean water. Chemical oceanographers might be concerned with where carbon dioxide goes in the oceans. Marine biologists look at marine life. There are lots of questions to ask about marine life!.", "correct_answer": ["physical oceanography"], "subject": "biology", "question": "What is the study of water movement, including waves and ocean currents?"}, {"distractor": ["body", "tail", "nucleus"], "difficulty": 0, "support": "The head of the sperm contains the nucleus. The nucleus holds the DNA of the cell. The head also contains enzymes that help the sperm break through the cell membrane of an egg.", "correct_answer": ["head"], "subject": "biology", "question": "What part of the sperm contains the nucleus?"}, {"distractor": ["ganglion", "idioma", "goychay"], "difficulty": 0, "support": "There are many types of asexual spores. Conidiospores are unicellular or multicellular spores that are released directly from the tip or side of the hypha. Other asexual spores originate in the fragmentation of a hypha to form single cells that are released as spores; some of these have a thick wall surrounding the fragment. Yet others bud off the vegetative parent cell. Sporangiospores are produced in a sporangium (Figure 24.9).", "correct_answer": ["hypha"], "subject": "biology", "question": "There are many types of asexual spores. conidiospores are unicellular or multicellular spores that are released directly from the tip or side of this?"}, {"distractor": ["carbon rain", "dioxide rain", "acid snow"], "difficulty": 0, "support": "Acid rain forms when nitrogen and sulfur oxides in air dissolve in rain ( Figure below ). This forms nitric and sulfuric acids. Both are strong acids. Acid rain with a pH as low as 4.0 is now common in many areas. Acid fog may be even more acidic than acid rain. Fog with a pH as low as 1.7 has been recorded. That\u2019s the same pH as toilet bowl cleaner!.", "correct_answer": ["acid rain"], "subject": "chemistry", "question": "What forms when nitrogen and sulfur oxides in air dissolve in rain?"}, {"distractor": ["killing organisms", "accumulating dead organisms", "producing dead organisms"], "difficulty": 0, "support": "Mushrooms gain their energy from decomposing dead organisms. Explain why a mushroom is not a plant.", "correct_answer": ["decomposing dead organisms"], "subject": "physics", "question": "Where do mushrooms get their energy?"}, {"distractor": ["sporozoans", "pores", "pistills"], "difficulty": 0, "support": "Gibberellins are hormones that cause the plant to grow. When gibberellins are applied to plants by scientists, the stems grow longer. Some gardeners or horticulture scientists add gibberellins to increase the growth of plants. Dwarf plants (small plants), on the other hand, have low levels of gibberellins ( Figure below ). Another function of gibberellins is to stop dormancy (resting time) of seeds and buds. Gibberellins signal that it\u2019s time for a seed to germinate (sprout) or for a bud to open.", "correct_answer": ["gibberellins"], "subject": "biology", "question": "What are the hormones that cause a plant to grow?"}, {"distractor": ["stomach", "esophagus", "large intestine"], "difficulty": 0, "support": "The ileum is the last part of the small intestine. It is covered with villi like the jejunum. A few remaining nutrients are absorbed in the ileum. From the ileum, any remaining food waste passes into the large intestine.", "correct_answer": ["small intestine"], "subject": "physics", "question": "The ileum is the last part of what digestive system organ?"}, {"distractor": ["neutrons", "lipids", "proteins"], "difficulty": 0, "support": "If you zoom in very close on a leaf of a plant, or on the skin on your hand, or a drop of blood, you will find cells, you will find cells ( Figure below ). Cells are the smallest structural and functional unit of all living organisms. Most cells are so small that they are usually visible only through a microscope. Some organisms, like bacteria, plankton that live in the ocean, or the Paramecium, shown in Figure below , are unicellular, made of just one cell. Other organisms have millions, billions, or trillions of cells.", "correct_answer": ["cells"], "subject": "biology", "question": "What are the smallest structural and functional unit of all living organisms?"}, {"distractor": ["upper limb", "genitals", "cranium"], "difficulty": 0, "support": "Appendicular System: Congenital Clubfoot Clubfoot, also known as talipes, is a congenital (present at birth) disorder of unknown cause and is the most common deformity of the lower limb. It affects the foot and ankle, causing the foot to be twisted inward at a sharp angle, like the head of a golf club (Figure 8.21). Clubfoot has a frequency of about 1 out of every 1,000 births, and is twice as likely to occur in a male child as in a female child. In 50 percent of cases, both feet are affected.", "correct_answer": ["lower limb"], "subject": "biology", "question": "Clubfoot, also known as talipes, is a congenital (present at birth) disorder of unknown cause and is the most common deformity of what?"}, {"distractor": ["spores", "toxins", "organic"], "difficulty": 0, "support": "In the case of Dolly, cells from the mammary glands were taken from the adult that was to be cloned. But other somatic cells can be used. Somatic cells come from the body and are not gametes like sperm or egg.", "correct_answer": ["gametes"], "subject": "biology", "question": "Somatic cells come from the body and are not what, like sperm or eggs are?"}, {"distractor": ["hydrocarbons", "nitric acid", "calcium oxides"], "difficulty": 0, "support": "Nitrogen oxides include nitric oxide (NO) and nitrogen dioxide (NO 2 ). Nitrogen oxides form when nitrogen and oxygen combine at high temperatures. This occurs in hot exhausts from vehicles, factories, and power plants.", "correct_answer": ["nitrogen oxides"], "subject": "chemistry", "question": "What forms when nitrogen and oxygen combine at high temperatures?"}, {"distractor": ["pie chart", "venn diagram", "circle graph"], "difficulty": 0, "support": "Bar graphs are especially useful for comparing values for different types of things. The bar graph in Figure below shows the number of vehicles of each type that passed the checkpoint.", "correct_answer": ["bar graph"], "subject": "physics", "question": "A diagram in which the numerical values of variables are represented by the height or length of lines or rectangles of equal width is called?"}, {"distractor": ["replication", "adenylate", "chromosome"], "difficulty": 0, "support": "DNA replication. The two DNA strands are opened by helicase. The strands are held open by a single strand of binding proteins, preventing premature reannealing. Topoisomerase solves the problem caused by tension generated by winding/unwinding of DNA. This enzyme wraps around DNA and makes a cut permitting the helix to spin and relax. Once DNA is relaxed, topoisomerase reconnects broken strands. DNA primase synthesizes a short RNA primer which initiates the Okazaki fragment. Okazaki fragments are attached by DNA ligase.", "correct_answer": ["helicase"], "subject": "biology", "question": "What opens two strands of dna?"}, {"distractor": ["islands", "volcanic sediment", "mountains"], "difficulty": 0, "support": "Microcontinents come together to create continents and supercontinents.", "correct_answer": ["microcontinents"], "subject": "chemistry", "question": "What come together to create continents and supercontinents?"}, {"distractor": ["producer", "predator", "consumer"], "difficulty": 0, "support": "Scavengers consume the soft tissues of dead animals. Examples of scavengers include vultures, raccoons, and blowflies.", "correct_answer": ["scavengers"], "subject": "physics", "question": "Vultures, raccoons and blowflies are examples of what?"}, {"distractor": ["equivalent biomes", "old biomes", "fossil biomes"], "difficulty": 0, "support": "Terrestrial biomes are classified by climatic factors and types of primary producers. The world map in Figure below shows where 13 major terrestrial biomes are found.", "correct_answer": ["terrestrial biomes"], "subject": "geology", "question": "What are classified by climatic factors and types of primary producers?"}, {"distractor": ["aspects", "phlylum", "species"], "difficulty": 0, "support": "Modern taxonomists have reordered many groups of organisms since Linnaeus. The main categories that biologists use are listed here from the most specific to the least specific category ( Figure below ). All organisms can be classified into one of three domains , the least specific grouping. The three domains are Bacteria, Archaea, and Eukarya. The Kingdom is the next category after the Domain. All life is divided among six kingdoms: Kingdom Bacteria, Kingdom Archaea, Kingdom Protista, Kingdom Plantae, Kingdom Fungi, and Kingdom Animalia.", "correct_answer": ["domains"], "subject": "biology", "question": "All organisms can be classified into one of three of this least specific grouping?"}, {"distractor": ["veins", "pulmonary", "coronary"], "difficulty": 0, "support": "Arteries, Veins, and Capillaries The blood from the heart is carried through the body by a complex network of blood vessels (Figure 40.15). Arteries take blood away from the heart. The main artery is the aorta that branches into major arteries that take blood to different limbs and organs. These major arteries include the carotid artery that takes blood to the brain, the brachial arteries that take blood to the arms, and the thoracic artery that takes blood to the thorax and then into the hepatic, renal, and gastric arteries for the liver, kidney, and stomach, respectively. The iliac artery takes blood to the lower limbs. The major arteries diverge into minor arteries, and then smaller vessels called arterioles, to reach more deeply into the muscles and organs of the body.", "correct_answer": ["carotid"], "subject": "chemistry", "question": "What artery takes blood to the brain?"}, {"distractor": ["helium", "carbon", "boron"], "difficulty": 0, "support": "The Bohr model works only for the hydrogen atom.", "correct_answer": ["hydrogen"], "subject": "physics", "question": "The bohr model works only for which atom?"}, {"distractor": ["covalent bonds", "potassium bonds", "helium bonds"], "difficulty": 0, "support": "The base-pairing nature of DNA. Adenine always pairs with thymine, and they are held together with two hydrogen bonds. The guanine-cytosine base pair is held together with three hydrogen bonds. Note that one sugar-phosphate backbone is in the 5\u2019 \u2192 3\u2019 direction, with the other strand in the opposite 3\u2019 \u2192 5\u2019 orientation. Notice that the 5'-end begins with a free (not attached to the sugar of another nucleotide) phosphate group, while the 3'-end has a free (not attached to the phosphate group of another nucleotide) deoxyribose sugar.", "correct_answer": ["hydrogen bonds"], "subject": "physics", "question": "What holds together adenine and thymine?"}, {"distractor": ["hydrogen", "carbon", "nitrogen"], "difficulty": 0, "support": "Approximately 20% of the atmosphere is oxygen. This gas is essential for life. In environments where oxygen is in low supply, it can be provided from a tank. Since gases are very compressible, a large amount of oxygen can be stored in a relatively small container. When it is released, the volume expands and the pressure decreases. The gas is then available for breathing under normal pressure.", "correct_answer": ["oxygen"], "subject": "chemistry", "question": "Approximately 20% of the atmosphere is made of which element?"}, {"distractor": ["phenotype bonds", "magnetic bonds", "dissonance bonds"], "difficulty": 0, "support": "Compound forms when atoms of nonmetals form molecules that are held together by covalent bonds.", "correct_answer": ["covalent bonds"], "subject": "chemistry", "question": "Compound forms when atoms of nonmetals form molecules that are held together by what?"}, {"distractor": ["rat", "rabbit", "elephant"], "difficulty": 0, "support": "Figure 33.4 The mouse has a much higher metabolic rate than the elephant. (credit \u201cmouse\u201d: modification of work by Magnus Kjaergaard; credit \u201celephant\u201d: modification of work by \u201cTheLizardQueen\u201d/Flickr).", "correct_answer": ["mouse"], "subject": "biology", "question": "Which has a higher metabolic rate, a mouse or an elephant?"}, {"distractor": ["groundwater", "animals", "evaporation"], "difficulty": 0, "support": "They are full of energy. Energy in the form of glucose. Fruit and vegetable plants, like all plants, are autotrophs and producers, producing energy from sunlight. The energy from sunlight is briefly held in NADPH and ATP, which is needed to drive the formation of sugars such as glucose. And this all happens in the Calvin Cycle.", "correct_answer": ["sunlight"], "subject": "physics", "question": "Where does the energy produced by plants come from?"}, {"distractor": ["crust, core, magma", "oceans, land, air", "troposphere, atomosphere, xerosphere"], "difficulty": 0, "support": "From outside to inside, Earth is divided into crust, mantle, and core. Each has a different chemical makeup. Earth can also be divided into layers with different properties. The two most important are lithosphere and asthenosphere.", "correct_answer": ["crust, mantle, core"], "subject": "physics", "question": "What three parts is the earth divided into?"}, {"distractor": ["cooking electrcal energy", "storing electrical energy", "stopping electrical ebergy"], "difficulty": 0, "support": "Alternating Current (AC): Voltage pushes (so current flows) in alternate directions, back and forth. In the US they reverse direction 60 times a second (60 Hz). AC is more convenient than DC for transporting electrical energy. Below is a plot of voltage vs. time for a standard circuit in the USA.", "correct_answer": ["transporting electrcal energy"], "subject": "chemistry", "question": "Ac is better than dc for doing what?"}, {"distractor": ["susceptible variation", "recessive variation", "alternative variation"], "difficulty": 0, "support": "Asexual reproduction has the advantage of occurring quickly. Sexual reproduction has the advantage of creating genetic variation. This can help a species adapt to environmental change. The genetic variation arises due to crossing over, independent assortment, and the random union of gametes.", "correct_answer": ["genetic variation"], "subject": "biology", "question": "What arises due to crossing over, independent assortment, and the random union of gametes?"}, {"distractor": ["uplift muscle fibers", "luminous muscle fibers", "heart muscle fibers"], "difficulty": 0, "support": "Skeletal Muscle Fiber Structure and Function Each skeletal muscle fiber is a skeletal muscle cell. Within each muscle fiber are myofibrils, long cylindrical structures that lie parallel to the muscle fiber. Myofibrils run the entire length of the muscle fiber. They attach to the plasma membrane, called the sarcolemma, at their ends, so that as myofibrils shorten, the entire muscle cell contracts (Figure 16.18).", "correct_answer": ["skeletal muscle fibers"], "subject": "biology", "question": "Myofibrils are long cylindrical structures that lie parallel to and run the entire length of what fibers?"}, {"distractor": ["loops electron", "modular electron", "Water electron"], "difficulty": 0, "support": "Hydrogen atoms form only one covalent bond because they have only one valence electron to pair.", "correct_answer": ["valence electron"], "subject": "physics", "question": "Hydrogen atoms form only one covalent bond because they have only one have one of what to pair with it?"}, {"distractor": ["molecule", "calcite", "phosphate"], "difficulty": 0, "support": "Figure 11.33 Detergents contain a nonpolar hydrocarbon end (blue) and an ionic end (red). The ionic end can be either a sulfate or a sulfonate. The length of the hydrocarbon end can vary from detergent to detergent.", "correct_answer": ["sulfonate"], "subject": "chemistry", "question": "The ionic end of a detergent can either be a sulfate or what?"}, {"distractor": ["reticular", "porous", "osmotic"], "difficulty": 0, "support": "The inside of the small intestine has many folds, called villi. Microvilli are lined with blood vessels as well as lymphatic vessels. The inside of the small intestine is called the lumen. Figure 34.19 Which of the following statements about digestive processes is true? a. Amylase, maltase and lactase in the mouth digest carbohydrates. Trypsin and lipase in the stomach digest protein. Bile emulsifies lipids in the small intestine. No food is absorbed until the small intestine.", "correct_answer": ["lumen"], "subject": "chemistry", "question": "The inside of the small intestine has many folds, called villi. microvilli are lined with blood vessels as well as lymphatic vessels. the inside of the small intestine is called this?"}, {"distractor": ["insects", "mammals", "reptiles"], "difficulty": 0, "support": "Birds are thought to have evolved from theropod dinosaurs around 150 million years ago. Their ancestor may have been similar to the extinct theropod Deinonychus, whose fossils convinced most scientists that birds evolved from dinosaurs. Scientist still don\u2019t know how or why wings and flight evolved, but they continue to search for answers.", "correct_answer": ["birds"], "subject": "biology", "question": "What broad animal group is thought to have evolved from theropod dinosaurs around 150 million years ago?"}, {"distractor": ["stomach", "lung", "liver"], "difficulty": 0, "support": "Compared with the nearest evolutionary relative, the chimpanzee, the human has a brain that is huge. At a point in the past, a common ancestor gave rise to the two species of humans and chimpanzees. That evolutionary history is long and is still an area of intense study. But something happened to increase the size of the human brain relative to the chimpanzee. Read this article (http://openstaxcollege. org/l/hugebrain) in which the author explores the current understanding of why this happened. According to one hypothesis about the expansion of brain size, what tissue might have been sacrificed so energy was available to grow our larger brain? Based on what you know about that tissue and nervous tissue, why would there be a trade-off between them in terms of energy use?.", "correct_answer": ["brain"], "subject": "biology", "question": "During evolution, something happened to increase the size of what organ in humans, relative to that of the chimpanzee?"}, {"distractor": ["plasma", "hydrogen", "hematocrit"], "difficulty": 0, "support": "What do you see when you look at this picture? Is it just a mass of tangled ribbons? Look closely. It\u2019s actually a complex pattern of three-dimensional shapes. It represents the structure of a common chemical found inside living cells. The chemical is a protein called hemoglobin. It is the protein in red blood cells which transports oxygen around the body.", "correct_answer": ["hemoglobin"], "subject": "biology", "question": "What is the protein in red blood cells which transports oxygen around the body?"}, {"distractor": ["vestigial organs", "layer organs", "bypass organs"], "difficulty": 0, "support": "Other organs involved in digestion include the liver, gall bladder, and pancreas. They are called accessory organs because food does not pass through them. Instead, they secrete or store substances needed for digestion.", "correct_answer": ["accessory organs"], "subject": "chemistry", "question": "Organs involved in digestion that do not have food pass through them are called?"}, {"distractor": ["viruses", "receptors", "microorganisms"], "difficulty": 0, "support": "Laura Guerin. At a synapse, neurotransmitters are released to carry a nerve impulse from one neuron to the next . CC BY-NC 3.0.", "correct_answer": ["neurotransmitters"], "subject": "physics", "question": "At a synapse, what objects are released to carry a nerve impulse from one neuron to the next?"}, {"distractor": ["rolled force", "quarter force", "kinetic force"], "difficulty": 0, "support": "The net force is found by subtracting the frictional force from the applied force.", "correct_answer": ["net force"], "subject": "physics", "question": "In physics, when one subtracts the frictional force from the applied force what is the result?"}, {"distractor": ["ocean floor", "groundwater", "water table"], "difficulty": 0, "support": "Skyscrapers and other large structures built on soft ground must be anchored to bedrock. Sometimes the bedrock lies hundreds of meters below the ground surface.", "correct_answer": ["bedrock"], "subject": "biology", "question": "Skyscrapers and other large structures built on soft ground must be anchored to what, located below the ground surface?"}, {"distractor": ["surface", "height", "weight"], "difficulty": 0, "support": "The cardiovascular system also plays a role in maintaining body temperature. It helps to keep you warm by moving warm blood around your body. Your blood vessels also control your body temperature to keep you from getting too hot or too cold. When your brain senses that your body temperature is increasing, it sends messages to the blood vessels in the skin to increase in diameter. Increasing the diameter of the blood vessels increases the amount of blood and heat that moves near the skin's surface. The heat is then released from the skin. This helps you cool down. What do you think your blood vessels do when your body temperature is decreasing?.", "correct_answer": ["diameter"], "subject": "chemistry", "question": "When your brain senses that your body temperature is increasing, it sends messages to the blood vessels in the skin to increase in what?"}, {"distractor": ["shark", "abalone", "moray"], "difficulty": 0, "support": "Lampreys Lampreys lack scales but have fins and a partial backbone. Their mouth is surrounded by a large round sucker with teeth. They use the sucker to suck the blood of other fish. lampreys.", "correct_answer": ["lamprey"], "subject": "chemistry", "question": "Which fish has a round sucker used to suck the blood of other fish?"}, {"distractor": ["thermal", "genetic", "atmospheric"], "difficulty": 0, "support": "Any time the physical properties of a substance are changed, we can say the substance has undergone a physical change . All substances undergo physical changes where there is a change in the form of the substance but not in its chemical composition. For instance, the grinding of granular sugar into powdered sugar is a physical change. Similarly, dissolving sugar in water is a physical change. We can also use physical changes to separate mixtures into their components. There are a variety of methods used, and the best procedure depends largely on the nature of the mixture. Depending on the states of matter involved, the relative sizes of the mixtures components, and whether the mixture is homogeneous or heterogeneous will determine the necessary separation technique.", "correct_answer": ["physical"], "subject": "chemistry", "question": "What type of change is undergone when the physical properties of a substance are changed?"}, {"distractor": ["nervous system", "urinary system", "endocrine system"], "difficulty": 0, "support": "Digestive enzymes are released, or secreted, by the organs of the digestive system. These enzymes include proteases that digest proteins, and nucleases that digest nucleic acids. Examples of digestive enzymes are:.", "correct_answer": ["digestive system"], "subject": "biology", "question": "Digestive enzymes are released, or secreted, by the organs of which body system?"}, {"distractor": ["quantum years", "light months", "gravity years"], "difficulty": 0, "support": "Astronomers use light years as the unit to describe distances in space. Remember that a light year is the distance light travels in one year.", "correct_answer": ["light years"], "subject": "physics", "question": "What unit do astronomers use to describe distances in space?"}, {"distractor": ["erythrocytes", "lipocytes", "osteoclasts"], "difficulty": 0, "support": "Neurons Neurons are the cells considered to be the basis of nervous tissue. They are responsible for the electrical signals that communicate information about sensations, and that produce movements in response to those stimuli, along with inducing thought processes within the brain. An important part of the function of neurons is in their structure, or shape. The threedimensional shape of these cells makes the immense numbers of connections within the nervous system possible.", "correct_answer": ["neurons"], "subject": "biology", "question": "What cells are the basis of nervous tissue?"}, {"distractor": ["calcites", "lead", "ligands"], "difficulty": 0, "support": "Pure carbon can exist in different forms, depending on how its atoms are arranged. The forms include diamond, graphite, and fullerenes. All three forms exist as crystals, but they have different structures. Their different structures, in turn, give them different properties. You can learn more about them in Table below .", "correct_answer": ["fullerenes"], "subject": "physics", "question": "Pure carbon can exist in different forms, depending on how its atoms are arranged. the forms include diamond, graphite, and what else?"}, {"distractor": ["cranial cavity", "oral cavity", "thoracic cavity"], "difficulty": 0, "support": "and is part of the heart wall. The pericardial cavity, filled with lubricating serous fluid, lies between the epicardium and the pericardium. In most organs within the body, visceral serous membranes such as the epicardium are microscopic. However, in the case of the heart, it is not a microscopic layer but rather a macroscopic layer, consisting of a simple squamous epithelium called a mesothelium, reinforced with loose, irregular, or areolar connective tissue that attaches to the pericardium. This mesothelium secretes the lubricating serous fluid that fills the pericardial cavity and reduces friction as the heart contracts. Figure 19.5 illustrates the pericardial membrane and the layers of the heart.", "correct_answer": ["pericardial cavity"], "subject": "physics", "question": "Which cavity, filled with lubricating serous fluid, lies between the epicardium and the pericardium?"}, {"distractor": ["the ureter", "the penis", "the glans"], "difficulty": 0, "support": "Most common disorders of the male reproductive system involve the testes. They include injuries and cancer.", "correct_answer": ["the testes"], "subject": "biology", "question": "What part of the male reproductive system is involved with the most common disorders?"}, {"distractor": ["rock", "limestone", "crust"], "difficulty": 0, "support": "Magma beneath a volcano erupts onto the volcano\u2019s surface. Layer upon layer of lava creates a volcano.", "correct_answer": ["lava"], "subject": "chemistry", "question": "Layers of what create a volcano?"}, {"distractor": ["personal hygiene", "experimental control", "ionization"], "difficulty": 0, "support": "In the microbiology lab, aseptic technique refers to the procedures that are carried out under sterile conditions. Scientists who study microbes are called microbiologists. Microbiologists must carry out their lab work using the aseptic technique to prevent microbial contamination of themselves, contamination of the environment they are working in, including work surfaces or equipment, and contamination of the sample they are working on. Bacteria live on just about every surface on Earth, so if a scientist wants to grow a particular type of bacterium in the lab, he or she needs to be able to sterilize their equipment to prevent contamination by other bacteria or microorganisms. The aseptic technique is also used in medicine, where it is important to keep the human body free of contamination.", "correct_answer": ["aseptic"], "subject": "biology", "question": "In the microbiology lab, what technique refers to the procedures that are carried out under sterile conditions?"}, {"distractor": ["anode cell", "stimulation cell", "voltaic cell"], "difficulty": 0, "support": "Connecting a magnesium rod to an underground steel pipeline protects the pipeline from corrosion. Because magnesium (E\u00b0 = \u22122.37 V) is much more easily oxidized than iron (E\u00b0 = \u22120.45 V), the Mg rod acts as the anode in a galvanic cell. The pipeline is therefore forced to act as the cathode at which oxygen is reduced. The soil between the anode and the cathode acts as a salt bridge that completes the electrical circuit and maintains electrical neutrality. As Mg(s) is oxidized to Mg2+ at the anode, anions in the soil, such as nitrate, diffuse toward the anode to neutralize the positive charge. Simultaneously, cations in the soil, such as H+ or NH4+, diffuse toward the cathode, where they replenish the protons that are consumed as oxygen is reduced. A similar strategy uses many miles of somewhat less reactive zinc wire to protect the Alaska oil pipeline.", "correct_answer": ["galvanic cell"], "subject": "chemistry", "question": "Connecting a magnesium rod to an underground steel pipeline protects the pipeline from corrosion. because magnesium (e\u00b0 = \u22122.37 v) is much more easily oxidized than iron (e\u00b0 = \u22120.45 v), the mg rod acts as the anode in a what?"}, {"distractor": ["nucleus", "Golgi apparatus", "enzyme"], "difficulty": 0, "support": "As the Figure below (a) and (b) shows, a mitochondrion has two phospholipids membranes. The smooth outer membrane separates the mitochondrion from the cytosol. The inner membrane has many folds, called cristae . These cristae greatly increase the membrane surface area for integral proteins. Many proteins involved in cellular respiration are embedded in this inner membrane. The greater surface area allows more proteins to be located there, resulting in more cellular respiration reactions, and more ATP synthesis. ATP is produced by the enzyme ATP synthase, which is a membrane protein of the mitochondria inner membrane. The fluid-filled inside of the mitochondrian, called matrix , is where most of the cell\u2019s ATP is made.", "correct_answer": ["mitochondria"], "subject": "biology", "question": "Matrix is the term for the fluid-filled interior of what structure, where most of the cell\u2019s atp is made?"}, {"distractor": ["humidity", "spin cycle", "tidal"], "difficulty": 0, "support": "Wind is only air moving over Earth\u2019s surface, but it can cause a lot of erosion. Look at Figure below . It will give you an idea of just how much erosion wind can cause. The dust storm in the photo occurred in Arizona. All that dust in the air was picked up and carried by the wind. The wind may carry the dust for hundreds of kilometers before depositing it.", "correct_answer": ["wind"], "subject": "physics", "question": "What is the term for air moving over earth\u2019s surface?"}, {"distractor": ["bones", "ovaries", "heart"], "difficulty": 0, "support": "Pleura of the Lungs Each lung is enclosed within a cavity that is surrounded by the pleura. The pleura (plural = pleurae) is a serous membrane that surrounds the lung. The right and left pleurae, which enclose the right and left lungs, respectively, are separated by the mediastinum. The pleurae consist of two layers. The visceral pleura is the layer that is superficial to the lungs, and extends into and lines the lung fissures (Figure 22.14). In contrast, the parietal pleura is the outer layer that connects to the thoracic wall, the mediastinum, and the diaphragm. The visceral and parietal pleurae connect to each other at the hilum. The pleural cavity is the space between the visceral and parietal layers.", "correct_answer": ["lungs"], "subject": "biology", "question": "Each of what paired organs is enclosed within a cavity surrounded by the pleura?"}, {"distractor": ["ribosomes", "cells", "receptors"], "difficulty": 0, "support": "Centrioles are organelles involved in cell division. They help organize the chromosomes before cell division so that each daughter cell has the correct number of chromosomes after the cell divides. Centrioles are found only in animal cells and are located near the nucleus (see Figure above ).", "correct_answer": ["chromosomes"], "subject": "biology", "question": "Centrioles help organize the chromosomes before cell division so that each daughter cell has the correct number of what?"}, {"distractor": ["gastrointestinal", "atypical", "mutation"], "difficulty": 0, "support": "Marsupial development is less risky for the mother. However, the embryo is fragile, so it may be less likely to survive than the fetus of a placental mammal.", "correct_answer": ["marsupial"], "subject": "biology", "question": "What development is less risky for the mother?"}, {"distractor": ["pressures in nuclei", "destruction of nuclei", "separation of nuclei"], "difficulty": 0, "support": "You probably associate the term decay with images like the one above. But when it comes to atoms, decay has a different meaning. Decay in chemistry refers to changes in the nuclei of certain atoms.", "correct_answer": ["changes in nuclei"], "subject": "chemistry", "question": "What does the term decay in chemistry refer to with regards to atoms?"}, {"distractor": ["it patterns it", "it is unchanged", "it decreases it"], "difficulty": 0, "support": "When the temperature of reactants is higher, the rate of the reaction is faster. At higher temperatures, particles of reactants have more energy, so they move faster. As a result, they are more likely to bump into one another and to collide with greater force. For example, food spoils because of chemical reactions, and these reactions occur faster at higher temperatures (see the bread on the left in the Figure below ). This is why we store foods in the refrigerator or freezer (like the bread on the right in the Figure below ). The lower temperature slows the rate of spoilage.", "correct_answer": ["it increases it"], "subject": "chemistry", "question": "How does increasing the temperature of reactants affect the rate of their reaction?"}, {"distractor": ["cycle", "solar", "planetary"], "difficulty": 0, "support": "Sometimes a full moon moves through Earth's shadow. This is a lunar eclipse ( Figure below ). During a total lunar eclipse, the Moon travels completely in Earth\u2019s umbra. During a partial lunar eclipse, only a portion of the Moon enters Earth\u2019s umbra. When the Moon passes through Earth\u2019s penumbra, it is a penumbral eclipse. Since Earth\u2019s shadow is large, a lunar eclipse lasts for hours. Anyone with a view of the Moon can see a lunar eclipse.", "correct_answer": ["lunar"], "subject": "physics", "question": "What type of eclipse happens when a full moon moves through earth's shadow?"}, {"distractor": ["carbon", "mineral", "thermal"], "difficulty": 0, "support": "Dynamite is another example of chemical potential energy. The major component of dynamite is nitroglycerin, a very unstable material. By mixing it with diatomaceous earth, the stability is increased and it is less likely to explode if it receives a physical shock. When ignited, the nitroglycerin explodes rapidly, releasing large amounts of nitrogen and other gases along with a massive amount of heat.", "correct_answer": ["chemical"], "subject": "physics", "question": "Dynamite is an example of what type of potential energy?"}, {"distractor": ["neutrons and electrons", "cells and electrons", "neutrons and protons"], "difficulty": 0, "support": "All the atoms of a given element have the same number of protons and electrons, but they may vary in their numbers of neutrons. Atoms of the same element that differ in their numbers of neutrons are called isotopes.", "correct_answer": ["protons and electrons"], "subject": "physics", "question": "All the atoms of a given element have the same number what?"}, {"distractor": ["eggs", "axons", "cells"], "difficulty": 0, "support": "Characteristics of life are controlled by genes, which are passed from parents to offspring, and are located on chromosomes, like the one shown here, that are found in every cell. The gene theory is one of the unifying principles of biology.", "correct_answer": ["genes"], "subject": "biology", "question": "What structures located on chromosomes control characteristics of life and are passed from parents to offspring?"}, {"distractor": ["harmonic compound", "magnetic compound", "saline compound"], "difficulty": 0, "support": "The lattice energy is usually the most important energy factor in determining the stability of an ionic compound.", "correct_answer": ["ionic compound"], "subject": "physics", "question": "The lattice energy is usually the most important energy factor in determining the stability of what?"}, {"distractor": ["flowers", "bacteria", "animals"], "difficulty": 0, "support": "People remove a lot of vegetation. They log forests or prepare the land for farming or construction. Even just walking or riding your bike over the same place can kill the grass. But plants help to hold the soil in place ( Figure below ). Without plants to protect it, soil may be carried away by wind or running water. In many areas, soil is eroding faster than it is forming. In these locations, soil is a non-renewable resource.", "correct_answer": ["plants"], "subject": "biology", "question": "What kind of organisms helps hold soil in place to slow erosion?"}, {"distractor": ["Neptune", "Mercury", "Jupiter"], "difficulty": 0, "support": "Named after the Roman goddess of love, Venus is the only planet named after a female. Venus is sometimes called Earth\u2019s \u201csister planet. \u201d But just how similar is Venus to Earth? Venus is our nearest neighbor. Venus is most like Earth in size.", "correct_answer": ["venus"], "subject": "chemistry", "question": "Which planet is named after the roman goddess of love?"}, {"distractor": ["black rods", "dwarf stars", "red holes"], "difficulty": 0, "support": "If the core remaining after a supernova is more than about 5 times the mass of the Sun, the core collapses to become a black hole . Black holes are so dense that not even light can escape their gravity. For that reason, we can't see black holes. How can we know something exists if radiation can't escape it? We know a black hole is there by the effect that it has on objects around it. Also, some radiation leaks out around its edges. A black hole isn't a hole at all. It is the tremendously dense core of a supermassive star.", "correct_answer": ["black holes"], "subject": "physics", "question": "In astronomy, what are so dense that not even light can escape their gravity?"}, {"distractor": ["proteins", "enzymes", "carbohydrates"], "difficulty": 0, "support": "Summary Covalent inorganic compounds are named by a procedure similar to that used for ionic compounds, using prefixes to indicate the numbers of atoms in the molecular formula. The simplest organic compounds are the hydrocarbons, which containonly carbon and hydrogen. Alkanes contain only carbon\u2013hydrogen and carbon\u2013carbon single bonds, alkenes contain at least one carbon\u2013carbon double bond, and alkynes contain one or more carbon\u2013carbon triple bonds. Hydrocarbons can also be cyclic, with the.", "correct_answer": ["hydrocarbons"], "subject": "chemistry", "question": "What are the simplest organic compounds?"}, {"distractor": ["skull", "radius", "ulna"], "difficulty": 0, "support": "Classification Features of Animals Animals are classified according to morphological and developmental characteristics, such as a body plan. With the exception of sponges, the animal body plan is symmetrical. This means that their distribution of body parts is balanced along an axis. Additional characteristics that contribute to animal classification include the number of tissue layers formed during development, the presence or absence of an internal body cavity, and other features of embryological development.", "correct_answer": ["axis"], "subject": "biology", "question": "Animals are classified according to morphological and developmental characteristics, such as a body plan. with the exception of sponges, the animal body plan is symmetrical. this means that their distribution of body parts is balanced along this?"}, {"distractor": ["interspecies competition", "commensalism", "adaptive behavior"], "difficulty": 0, "support": "Intraspecific competition occurs between members of the same species. It improves the species\u2019 adaptations.", "correct_answer": ["intraspecific competition"], "subject": "biology", "question": "Competition that occurs between members of the same species, which improves the species\u2019 adaptations, is called what?"}, {"distractor": ["liquid charge", "stellar charge", "sunlight charge"], "difficulty": 0, "support": "When we were dealing with electrical effects, it was very useful to speak of an electric field that surrounded an electric charge. In the same way, we can imagine a magnetic field surrounding a magnetic pole. The force that one magnet exerts on another can be described as the interaction between one magnet and the magnetic field of the other magnet. Magnetic field lines go from the north magnetic pole to the south magnetic pole. We define the magnetic field at any point as a vector (represented by the letter B ) whose direction is from north to south magnetic poles.", "correct_answer": ["electrical charge"], "subject": "physics", "question": "When we were dealing with electrical effects, it was very useful to speak of an electric field that surrounded what?"}, {"distractor": ["surface energy", "membrane energy", "specific energy"], "difficulty": 0, "support": "All chemical reactions, including exothermic reactions, need activation energy to get started.", "correct_answer": ["activation energy"], "subject": "chemistry", "question": "Exothermic reactions, like all chemical reactions, require what to get started?"}, {"distractor": ["fish", "reptiles", "mammals"], "difficulty": 0, "support": "Amphibians are the first true tetrapods , or vertebrates with four limbs. Amphibians have less variation in size than fish, ranging in length from 1 centimeter (2.5 inches) to 1.5 meters (about 5 feet). They generally have moist skin without scales. Their skin contains keratin , a tough, fibrous protein found in the skin, scales, feathers, hair, and nails of tetrapod vertebrates, from amphibians to humans. Some forms of keratin are tougher than others. The form in amphibian skin is not very tough, and it allows gases and water to pass through their skin.", "correct_answer": ["amphibians"], "subject": "biology", "question": "What broad group of animals are the first true tetrapods, vertebrates with four limbs?"}, {"distractor": ["sleeping", "reducing", "changing"], "difficulty": 0, "support": "Telomerase is not active in adult somatic cells. Adult somatic cells that undergo cell division continue to have their telomeres shortened. This essentially means that telomere shortening is associated with aging. In 2010, scientists found [1] that telomerase can reverse some age-related conditions in mice, and this may have potential in regenerative medicine. Mariella Jaskelioff, et al. , \u201cTelomerase reactivation reverses tissue degeneration in aged telomerase-deficient mice,\u201d Nature, 469 (2011):102\u20137.", "correct_answer": ["aging"], "subject": "biology", "question": "What is telomere shortening associated with?"}, {"distractor": ["hydrogen peroxide", "carbon monoxide", "nitrous oxide"], "difficulty": 0, "support": "Carbon dioxide is given off when dead organisms and other organic materials decompose.", "correct_answer": ["carbon dioxide"], "subject": "chemistry", "question": "What gas is released when dead organisms and other organic materials decompose?"}, {"distractor": ["convex lens", "surface lens", "glass lens"], "difficulty": 0, "support": "A concave lens is thicker at the edges than it is in the middle. This causes rays of light to diverge. The light forms a virtual image that is right-side up and smaller than the object.", "correct_answer": ["concave lens"], "subject": "chemistry", "question": "What type of lens is thicker at the edges than it is in the middle?"}, {"distractor": ["optimistic about", "convinced by", "happy with", "sanguine about"], "difficulty": 0, "support": "http://ugcv2.kmf.com/api/gre/explain/31486/current", "correct_answer": ["unsympathetic to"], "subject": "gre", "question": "While not _____ the arguments in favor of the proposal for new highway construction, the governor nevertheless decided to veto the proposal."}, {"distractor": ["instructive", "complex", "educational", "explicit"], "difficulty": 0, "support": "http://ugcv2.kmf.com/api/gre/explain/31418/current", "correct_answer": ["prolix", "long-winded"], "subject": "gre", "question": "At nearly 450 pages, the novel is _____ : the author does not often resist the temptation to finish off a chapter, section, or even paragraph with some unnecessary flourish."}, {"distractor": ["growth", "politics", "ideology", "differentiation"], "difficulty": 0, "support": "http://ugcv2.kmf.com/api/gre/explain/31484/current", "correct_answer": ["cooperation"], "subject": "gre", "question": "By recognizing commonalities among all the major political parties and by promoting a collaborative decision-making process, the prime minister has made good on his promise to cultivate a leadership style that emphasizes _____ ."}, {"distractor": ["materialize", "prosper", "flourish", "scuffle"], "difficulty": 0, "support": "http://ugcv2.kmf.com/api/gre/explain/31434/current", "correct_answer": ["disintegrate", "crumble"], "subject": "gre", "question": "The remarkable thing about the mayoral race, in retrospect, is that so many people wanted the job of managing a municipality so obviously about to _____ ."}, {"distractor": ["cooperate", "instruct", "conspire", "dominate"], "difficulty": 0, "support": "http://ugcv2.kmf.com/api/gre/explain/31480/current", "correct_answer": ["dissemble"], "subject": "gre", "question": "Researchers have observed chimpanzees feigning injury in order to influence other members of the group, thus showing that the capacity to _____ is not uniquely human."}, {"distractor": ["ironic", "provocative", "witty", "stimulating"], "difficulty": 0, "support": "http://ugcv2.kmf.com/api/gre/explain/31409/current", "correct_answer": ["banal", "insipid"], "subject": "gre", "question": "Torpey\u2019s study has turned a seemingly _____ topic, the passport, into a fascinating one by making an original contribution to the sociology of the state."}, {"distractor": ["mimic", "relish", "are confounded by", "are puzzled by"], "difficulty": 0, "support": "http://ugcv2.kmf.com/api/gre/explain/31408/current", "correct_answer": ["recognize", "can make out"], "subject": "gre", "question": "That people _____ the musical features of birdsongs suggests that despite the vast evolutionary gulf between birds and mammals, songbirds and humans share some common auditory perceptual abilities."}, {"distractor": ["ignore", "discount", "teach", "cow"], "difficulty": 0, "support": "http://ugcv2.kmf.com/api/gre/explain/31473/current", "correct_answer": ["woo"], "subject": "gre", "question": "This composer has never courted popularity: her rugged modernism seems to defy rather than _____ to the audience."}, {"distractor": ["culprit", "recipe", "explanation", "refuge"], "difficulty": 0, "support": "http://ugcv2.kmf.com/api/gre/explain/31482/current", "correct_answer": ["panacea"], "subject": "gre", "question": "Although economic growth has conventionally been viewed as the _____ for poverty in underdeveloped regions, this prescription\u2019s negative environmental side effects are becoming a concern."}, {"distractor": ["integrative", "doctrinaire", "dogmatic", "synthesizing"], "difficulty": 0, "support": "http://ugcv2.kmf.com/api/gre/explain/31415/current", "correct_answer": ["iconoclastic", "heterodox"], "subject": "gre", "question": "Mr. Hirsch says he will aim to preserve the foundation\u2019s support of _____ thinkers, individuals who are going against the trends in a field or an acknowledged set of opinions."}, {"distractor": ["perspicacity", "callousness", "clearheadedness", "insensitivity"], "difficulty": 0, "support": "http://ugcv2.kmf.com/api/gre/explain/31428/current", "correct_answer": ["capriciousness", "fickleness"], "subject": "gre", "question": "The mayor is more ideologically consistent than is widely believed: her long-term commitment to tax reform, for example, is not indicative of _____ ."}, {"distractor": ["resist", "improve", "enhance", "restore"], "difficulty": 0, "support": "http://ugcv2.kmf.com/api/gre/explain/31406/current", "correct_answer": ["impair", "compromise"], "subject": "gre", "question": "Retrofitted with stabilizing devices, some of which _____ its aesthetics, the bridge has been reopened, no longer prone to excessive swaying but not quite the breathtaking structure it originally was."}, {"distractor": ["hypocrite", "egotist", "braggart", "coward"], "difficulty": 0, "support": "http://ugcv2.kmf.com/api/gre/explain/31440/current", "correct_answer": ["sycophant", "adulator"], "subject": "gre", "question": "Despite relying on the well-to-do for commissions, the portrait painter was no _____ : he depicted the character of those he painted as he perceived it."}, {"distractor": ["a global", "an uncomplicated", "a vast", "an immense"], "difficulty": 0, "support": "http://ugcv2.kmf.com/api/gre/explain/31410/current", "correct_answer": ["a homogeneous", "a uniform"], "subject": "gre", "question": "Britain is attractive to worldwide advertisers because it is _____ market, so there is no need to tailor advertisements for different parts of the country."}, {"distractor": ["complex", "dubious", "conclusive", "irrefutable"], "difficulty": 0, "support": "http://ugcv2.kmf.com/api/gre/explain/31432/current", "correct_answer": ["competing", "contending"], "subject": "gre", "question": "Biologists agree that snakes descended from lizards, but exactly where this first happened has been a matter of debate since the 1800s, when two _____ theories emerged."}, {"distractor": ["blithe", "phlegmatic", "apathetic", "cunning"], "difficulty": 0, "support": "http://ugcv2.kmf.com/api/gre/explain/31487/current", "correct_answer": ["mercurial"], "subject": "gre", "question": "The children\u2019s _____ natures were in sharp contrast to the even-tempered dispositions of their parents."}, {"distractor": ["commensurate", "proportionate", "imperative", "voluntary"], "difficulty": 0, "support": "http://ugcv2.kmf.com/api/gre/explain/31413/current", "correct_answer": ["kindred", "affiliated"], "subject": "gre", "question": "Through its state associations, the American Medical Association controlled who could become a physician and dominated _____ professions like nursing and occupational therapy."}, {"distractor": ["potential", "misuse", "popularity", "prevalence"], "difficulty": 0, "support": "http://ugcv2.kmf.com/api/gre/explain/31424/current", "correct_answer": ["efficacy", "usefulness"], "subject": "gre", "question": "A recent study suggests that vitamin E supplements, despite widespread belief in their _____ , are no better than sugar pills for delaying the onset of the degenerative disease."}, {"distractor": ["incompatible", "devalued", "ubiquitous", "everywhere"], "difficulty": 0, "support": "http://ugcv2.kmf.com/api/gre/explain/31420/current", "correct_answer": ["obsolete", "outmoded"], "subject": "gre", "question": "Some analysts worry about consumers\u2019 perception that the electronics industry is always on the verge of major breakthroughs; that perception could hurt the industry by making consumers reluctant to buy products they believe will soon be _____ ."}, {"distractor": ["predict", "mitigate", "question", "personalize"], "difficulty": 0, "support": "http://ugcv2.kmf.com/api/gre/explain/31478/current", "correct_answer": ["dictate"], "subject": "gre", "question": "In searching for norms in the sense of authoritative standards of what ought to be, rather than in the sense of what is average and thus can be considered normal, normative ethics aims to _____ ."}, {"distractor": ["invaluable", "sporadic", "scanty", "questionable"], "difficulty": 0, "support": "http://ugcv2.kmf.com/api/gre/explain/31416/current", "correct_answer": ["ubiquitous", "omnipresent"], "subject": "gre", "question": "In France cultural subsidies are _____ : producers of just about any film can get an advance from the government against box-office receipts, even though most such loans are never fully repaid."}, {"distractor": ["ridiculed", "disseminated", "promulgated", "marginalized"], "difficulty": 0, "support": "http://ugcv2.kmf.com/api/gre/explain/31407/current", "correct_answer": ["doubted", "disbelieved"], "subject": "gre", "question": "Although cosmic objects have struck Earth since the planet\u2019s very formation, humanity has only recently become aware of these events: two centuries ago the idea that objects orbiting the Sun could collide with Earth was widely _____ ."}, {"distractor": ["theory", "juxtaposition", "collision", "hypothesis"], "difficulty": 0, "support": "http://ugcv2.kmf.com/api/gre/explain/31433/current", "correct_answer": ["susceptibility", "characteristic"], "subject": "gre", "question": "A particular bacterium that has never encountered a particular virus will usually succumb to it, a _____ that may, surprisingly, be beneficial to the colony in which the bacterium lives."}, {"distractor": ["exacerbate", "specify", "identify", "stabilize"], "difficulty": 0, "support": "http://ugcv2.kmf.com/api/gre/explain/31419/current", "correct_answer": ["mitigate", "ameliorate"], "subject": "gre", "question": "If researchers can determine exactly what is wrong with people who suffer from this condition, they may be able to suggest drug therapies or other treatments that could _____ the effects of the damage."}, {"distractor": ["unaware of", "scornful of", "unimpressed by", "coping with"], "difficulty": 0, "support": "http://ugcv2.kmf.com/api/gre/explain/31475/current", "correct_answer": ["susceptible to"], "subject": "gre", "question": "Early studies often concluded that the public was _____ the propagandistic influence of mass communications, but one recent study indicates that, on the contrary, mass communications seldom produce marked changes in social attitudes or actions."}, {"distractor": ["derivative", "imitative", "insightful", "surprising"], "difficulty": 0, "support": "http://ugcv2.kmf.com/api/gre/explain/31430/current", "correct_answer": ["original", "innovative"], "subject": "gre", "question": "Although relying on much of the recent scholarship on the bison, Lott\u2019s book is a distinctly _____ and even idiosyncratic contribution to the field."}, {"distractor": ["trivial", "detectable", "substantive", "inconsequential"], "difficulty": 0, "support": "http://ugcv2.kmf.com/api/gre/explain/31438/current", "correct_answer": ["deleterious", "detrimental"], "subject": "gre", "question": "Although the compound is abundant in the environment at large, its presence in the air is not _____ ; only in the form of underwater sediment does it cause damage."}, {"distractor": ["arcane", "equivocal", "ambivalent", "irresolute"], "difficulty": 0, "support": "http://ugcv2.kmf.com/api/gre/explain/31483/current", "correct_answer": ["sanguine"], "subject": "gre", "question": "Even as the economy struggled, the secretary stood by his _____ long-term outlook, saying that technology was allowing businesses to make deep-rooted improvements in their productivity, the best indicator of an economy\u2019s ability to grow."}, {"distractor": ["buoyant", "premonitory", "laudatory", "temperate"], "difficulty": 0, "support": "http://ugcv2.kmf.com/api/gre/explain/31485/current", "correct_answer": ["acerbic"], "subject": "gre", "question": "In his unexpurgated autobiography, Mark Twain commented freely on the flaws and foibles of his country, making some observations so _____ that his heirs and editors feared they would damage Twain\u2019s reputation if not withheld."}, {"distractor": ["skeptics", "experts", "zealots", "authorities"], "difficulty": 0, "support": "http://ugcv2.kmf.com/api/gre/explain/31439/current", "correct_answer": ["nonspecialists", "laypersons"], "subject": "gre", "question": "Deacon attempts what seems impossible: a book rich in scientific insights, in a demanding discipline, that nevertheless is accessible to _____ ."}, {"distractor": ["an amiable", "a beautiful", "a prudent", "a stunning"], "difficulty": 0, "support": "http://ugcv2.kmf.com/api/gre/explain/31431/current", "correct_answer": ["a sullen", "a surly"], "subject": "gre", "question": "Family photos of the author suggest that she was _____ child: she seemed to wear a permanent frown."}, {"distractor": ["staple", "supplement", "herald", "harbinger"], "difficulty": 0, "support": "http://ugcv2.kmf.com/api/gre/explain/31422/current", "correct_answer": ["panacea", "cure-all"], "subject": "gre", "question": "In The Simple Soybean, the author is much less restrained in his enthusiasm for the bean\u2019s medical efficacy than he is in his technical writings, but he still cautions against treating soy as a _____ ."}, {"distractor": ["brilliance", "dynamism", "egoism", "punctiliousness"], "difficulty": 0, "support": "http://ugcv2.kmf.com/api/gre/explain/31476/current", "correct_answer": ["fecklessness"], "subject": "gre", "question": "The media once portrayed the governor as anything but ineffective; they now, however, make her out to be the epitome of _____ ."}, {"distractor": ["a ruthless", "a creative", "an industrious", "an effective"], "difficulty": 0, "support": "http://ugcv2.kmf.com/api/gre/explain/31425/current", "correct_answer": ["a canny", "a shrewd"], "subject": "gre", "question": "Despite her relaxed and flexible style, Ms. de la Fressange is _____ businesswoman who knows how to market her brand: herself."}, {"distractor": ["incensed over", "undecided about", "mortified over", "embarrassed about"], "difficulty": 0, "support": "http://ugcv2.kmf.com/api/gre/explain/31414/current", "correct_answer": ["rallying behind", "coalescing around"], "subject": "gre", "question": "In a strong indication of the way the entire party is _____ the candidate with moderate credentials, the outspokenly conservative former mayor of a major city has promised to raise a substantial amount of money for the candidate\u2019s campaign."}, {"distractor": ["rural", "novel", "unfamiliar", "quotidian"], "difficulty": 0, "support": "http://ugcv2.kmf.com/api/gre/explain/31421/current", "correct_answer": ["divergent", "disparate"], "subject": "gre", "question": "After people began to make the transition from gathering food to producing food, human societies followed markedly _____ courses; some adopted herding, others took to tillage, and still others stuck to foraging."}, {"distractor": ["expensive", "specialized", "sinister", "unreliable"], "difficulty": 0, "support": "http://ugcv2.kmf.com/api/gre/explain/31474/current", "correct_answer": ["commonplace"], "subject": "gre", "question": "The sight of a single actor portraying several characters in the same scene is no longer a shock to the average moviegoer, such special-effects trickery having become so _____ ."}, {"distractor": ["a scintillating", "a controversial", "an incendiary", "a veracious"], "difficulty": 0, "support": "http://ugcv2.kmf.com/api/gre/explain/31477/current", "correct_answer": ["a pathetic"], "subject": "gre", "question": "For most of the first half of the nineteenth century, science at the university was in _____ state, despite the presence of numerous luminaries."}, {"distractor": ["detailed", "biased", "self-evident", "complete"], "difficulty": 0, "support": "http://ugcv2.kmf.com/api/gre/explain/31423/current", "correct_answer": ["cursory", "perfunctory"], "subject": "gre", "question": "Parkin\u2019s characterization of the movement as neoscholastic is too _____ to be accepted without further investigation."}, {"distractor": ["quandary", "advantage", "discrepancy", "predicament"], "difficulty": 0, "support": "http://ugcv2.kmf.com/api/gre/explain/31437/current", "correct_answer": ["novelty", "innovation"], "subject": "gre", "question": "Consumers may think that genetic engineering of foods is something new, but humans have been modifying plants for ages; the _____ is not that new genes are introduced but that genes can now be moved from one species to another."}, {"distractor": ["naive", "precocious", "ambitious", "assiduous"], "difficulty": 0, "support": "http://ugcv2.kmf.com/api/gre/explain/31479/current", "correct_answer": ["impecunious"], "subject": "gre", "question": "When she first came to France from Bulgaria, she was hardly the _____ student she later made herself out to be, since she had access to considerable family wealth."}, {"distractor": ["revered", "proposed", "elevated", "intriguing"], "difficulty": 0, "support": "http://ugcv2.kmf.com/api/gre/explain/31481/current", "correct_answer": ["misleading"], "subject": "gre", "question": "The name of the Sloane Matthew Library has long been _____ ; even longtime city residents assume it is a run-of-the-mill library, never suspecting what art treasures it contains."}, {"distractor": ["meager", "agreeable", "beneficial", "productive"], "difficulty": 0, "support": "http://ugcv2.kmf.com/api/gre/explain/31417/current", "correct_answer": ["acute", "severe"], "subject": "gre", "question": "The problem of avoiding duplicate names\u2014such as for Internet domain names or for e-mail accounts\u2014is particularly _____ when the name has to fit into a format that allows only a finite number of possibilities."}, {"distractor": ["unconcerned with", "amused by", "bothered by", "indifferent to"], "difficulty": 0, "support": "http://ugcv2.kmf.com/api/gre/explain/31436/current", "correct_answer": ["fixated on", "obsessed with"], "subject": "gre", "question": "In film studies\u2014a visually oriented discipline that is _____ backlit close-ups, eyeline matches, and voyeuristic gazes\u2014scholars have often been tone-deaf to the sounds of music."}, {"distractor": ["fortuitous", "popular", "serendipitous", "lucrative"], "difficulty": 0, "support": "http://ugcv2.kmf.com/api/gre/explain/31411/current", "correct_answer": ["foresighted", "prescient"], "subject": "gre", "question": "The band\u2019s long-standing strategy of laying leisurely explorations atop a steady funk beat has proven to be surprisingly _____ : a concert in Cologne from 1972 sounds as if it could have taken place today."}, {"distractor": ["orthodox", "mainstream", "definitive", "conditional"], "difficulty": 0, "support": "http://ugcv2.kmf.com/api/gre/explain/31427/current", "correct_answer": ["marginal", "peripheral"], "subject": "gre", "question": "The process of establishing a literary canon is seen by some as, in part, an attempt by certain scholars to make their own labors central and to relegate the work of others to _____ status."}, {"distractor": ["persistence", "deterioration", "ambition", "decline"], "difficulty": 0, "support": "http://ugcv2.kmf.com/api/gre/explain/31435/current", "correct_answer": ["talent", "genius"], "subject": "gre", "question": "It is a testimony to Roth\u2019s _____ that he could not quite bring himself to write a book as dull and flat as his original conception for his novel Everyman seemed to demand."}, {"distractor": ["advantages", "revivals", "benefits", "pretensions"], "difficulty": 0, "support": "http://ugcv2.kmf.com/api/gre/explain/31412/current", "correct_answer": ["blemishes", "defects"], "subject": "gre", "question": "Factory production made an absence of imperfections so blandly commonplace that the _____ of hand-produced goods were now cherished where they once might have been shunned."}, {"distractor": ["futile", "ephemeral", "controversial", "transitory"], "difficulty": 0, "support": "http://ugcv2.kmf.com/api/gre/explain/31426/current", "correct_answer": ["pressing", "critical"], "subject": "gre", "question": "If big sums are to be spent on cleaning up environmental disasters, it is better to spend them on unglamorous but _____ problems such as unsanitary water in Third World countries."}, {"distractor": ["remarkable", "urban", "noteworthy", "spurious"], "difficulty": 0, "support": "http://ugcv2.kmf.com/api/gre/explain/31429/current", "correct_answer": ["bucolic", "pastoral"], "subject": "gre", "question": "At first glance Watkins Park, with its meandering stream and its thicket of greenery, seems _____ ; however, upon closer inspection one is quickly reminded that the park is in the middle of a major city."}, {"support": "Get the blood circulating.", "difficulty": 0, "question": "If your co-worker needs CPR but you are not trained in it, which of the following should you do?", "distractor": ["Give rescue breaths only", "Wait for emergency personnel to arrive", "Lift the patient\u2019s head"], "url": "https://www.mysafetysign.com/free-first-aid-quiz", "subject": "safety", "correct_answer": ["Perform chest compressions only"]}, {"support": "Jack of _____ trades.", "difficulty": 0, "question": "Which of these is a symptom of a heatstroke?", "distractor": ["Rapid, strong pulse", "Hallucinations", "Throbbing headache", "High body temperature"], "url": "https://www.mysafetysign.com/free-first-aid-quiz", "subject": "safety", "correct_answer": ["All of the above"]}, {"support": "Always try to get the food out first.", "difficulty": 0, "question": "Which of the following is the correct method for saving someone from choking?", "distractor": ["Five abdominal thrusts followed by five back blows if needed", "Back blows only", "Abdominal thrusts only"], "url": "https://www.mysafetysign.com/free-first-aid-quiz", "subject": "safety", "correct_answer": ["Five back blows followed by five abdominal thrusts if necessary"]}, {"support": "CPR begins with chest compressions.", "difficulty": 0, "question": "CPR involves..", "distractor": ["Rescue breaths & abdominal thrusts", "Chest compression & abdominal thrusts", "Abdominal thrusts & finger sweeps"], "url": "https://www.mysafetysign.com/free-first-aid-quiz", "subject": "safety", "correct_answer": ["Chest compressions & rescue breaths"]}, {"support": "Water, as usual, puts out fire.", "difficulty": 0, "question": "First aid treatment for a chemical burn involves\u2026", "distractor": ["Applying ointment over the affected area", "Removing dead skin", "Neutralizing the chemical"], "url": "https://www.mysafetysign.com/free-first-aid-quiz", "subject": "safety", "correct_answer": ["Flushing the chemicals off the affected area with cool, gently running water for 10 to 20 minutes"]}, {"support": "I\u2019m _____ ears.", "difficulty": 0, "question": "What first aid should you give to someone who is having a heart attack?", "distractor": ["Call 911 or your local emergency number", "Perform CPR", "Loosen his/her  clothing"], "url": "https://www.mysafetysign.com/free-first-aid-quiz", "subject": "safety", "correct_answer": ["All of the above"]}, {"support": "The maximum temperature of a traditional hot tub.", "difficulty": 0, "question": "At which water temperature should you bathe frostbitten skin?", "distractor": ["At 32 F (0\u00b0C)", "Between 120 to 150 F (50 to 70\u00b0C)", "You should never submerge frostbite into water"], "url": "https://www.mysafetysign.com/free-first-aid-quiz", "subject": "safety", "correct_answer": ["Between 104 to 107.6 F (40 to 42\u00b0C)"]}, {"support": "A treasure ____.", "difficulty": 0, "question": "Which of the following is the most common symptom of a heart attack?", "distractor": ["Nausea", "Shortness of breath", "Cough"], "url": "https://www.mysafetysign.com/free-first-aid-quiz", "subject": "safety", "correct_answer": ["Chest Pain"]}, {"support": "While treating a cut, you want to minimize irritation. .", "difficulty": 0, "question": "Which of the following should you NOT do while treating cuts and scrapes?", "distractor": ["Apply pressure on the wound with a clean cloth or bandage", "Apply an antibiotic to the wound", "Cover the wound"], "url": "https://www.mysafetysign.com/free-first-aid-quiz", "subject": "safety", "correct_answer": ["Wash the wound with soap"]}, {"support": "A rock band called _____ Eye Blind.", "difficulty": 0, "question": "Which of the following is the most serious burn that destroys skin and underlying tissue?", "distractor": ["First-degree burns", "Second-degree burns"], "url": "https://www.mysafetysign.com/free-first-aid-quiz", "subject": "safety", "correct_answer": ["Third-degree burns"]}, {"support": "It is not ABC anymore.", "difficulty": 0, "question": "What is the correct order of airway, breathing, and circulation in the CPR process?", "distractor": ["Airway, breastbone, chest", "Airway, breathing, circulation", "Back, circulation, airway"], "url": "https://www.mysafetysign.com/free-first-aid-quiz", "subject": "safety", "correct_answer": ["Chest compressions, airway, breathing"]}, {"support": "Trained individuals can probably treat the victim better than you can.", "difficulty": 0, "question": "Which of the following should you do first when your co-worker has suffered an electrical shock?", "distractor": ["Move the victim away from the electrical source with a help of a non-conducting object", "Shut off the source of electricity if possible", "Check the victim\u2019s breathing and pulse.  Begin CPR if necessary", "Lay the victim down with his/her head lower than the rest of the body"], "url": "https://www.mysafetysign.com/free-first-aid-quiz", "subject": "safety", "correct_answer": ["Call 911 or bring in an emergency medical team"]}, {"support": "Calling a doctor is the final step.", "difficulty": 0, "question": "Arrange in the correct the steps to take when someone splashes a chemical into the eye.(i) Call a doctor(ii) Take out any contact lenses(iii) Flush the eyes with plenty of water(iv) Wash your hands with soap and water", "distractor": ["ii, iii, iv, i", "i, iii, iv, ii", "iv, ii, iii, i"], "url": "https://www.mysafetysign.com/free-first-aid-quiz", "subject": "safety", "correct_answer": ["iii, iv, ii, i"]}, {"support": "There are ___ months in a year.", "difficulty": 0, "question": "How long can high-acid canned food such as tomatoes be stored?", "distractor": ["10 to 30 days", "2 to 6 months", "2 to 4 years"], "url": "https://www.mysafetysign.com/free-food-safety-quiz", "subject": "safety", "correct_answer": ["12 to 18 months"]}, {"support": "This department\u2019s mission is to provide leadership on food, agriculture, and natural resources.", "difficulty": 0, "question": "Which of the following agencies inspects, grades, and enforces standards of quality and wholesomeness for meat, poultry, milk, eggs, and grains?", "distractor": ["CDC", "FDA", "EPA"], "url": "https://www.mysafetysign.com/free-food-safety-quiz", "subject": "safety", "correct_answer": ["USDA"]}, {"support": "Check to make sure your food has not been tampered with.", "difficulty": 0, "question": "Which of the following should you NOT do while buying food?", "distractor": ["Select fish, poultry, eggs and meat towards the end of the shopping trip", "Wrap up perishable items so that their juices do not drip onto other items", "Buy frozen or refrigerated items after purchasing non-perishables"], "url": "https://www.mysafetysign.com/free-food-safety-quiz", "subject": "safety", "correct_answer": ["Buy items in dented or bulging cans"]}, {"support": "A (mostly) healthy temperature for humans to survive in.", "difficulty": 0, "question": "What range of temperature is considered a danger zone for food to collect bacteria?", "distractor": ["0\u00b0F to40\u00b0F", "135\u00b0F to200\u00b0F", "Anything above 200\u00b0F"], "url": "https://www.mysafetysign.com/free-food-safety-quiz", "subject": "safety", "correct_answer": ["40\u00b0F to 135\u00b0F"]}, {"support": "What came first, the chicken or the ______?", "difficulty": 0, "question": "The following is a list of food items and the minimum internal food temperature at which they should be cooked. Which of these is incorrect?", "distractor": ["Fish and Shellfish \u2013 145 degrees Fahrenheit", "Leftovers - 165 degrees Fahrenheit", "Ground beef \u2013 160 degrees Fahrenheit"], "url": "https://www.mysafetysign.com/free-food-safety-quiz", "subject": "safety", "correct_answer": ["Eggs \u2013 145 degrees Fahrenheit"]}, {"support": "\u201c____ Questions\u201d.", "difficulty": 0, "question": "For how long (at a minimum) should you wash your hands before and after handling food?", "distractor": ["15 seconds", "30 seconds", "60 seconds"], "url": "https://www.mysafetysign.com/free-food-safety-quiz", "subject": "safety", "correct_answer": ["20 seconds"]}, {"support": "It takes ____ to tango.", "difficulty": 0, "question": "Perishable foods should be refrigerated within ___ hours of purchase.", "distractor": ["One and a half", "Two and a half", "Three"], "url": "https://www.mysafetysign.com/free-food-safety-quiz", "subject": "safety", "correct_answer": ["Two"]}, {"support": "The entry character limit on Twitter.", "difficulty": 0, "question": "Hot foods should be maintainedat a temperature of ____degrees Fahrenheit or higher.", "distractor": ["100", "120", "135"], "url": "https://www.mysafetysign.com/free-food-safety-quiz", "subject": "safety", "correct_answer": ["140"]}, {"support": "Less is best.", "difficulty": 0, "question": "What storage time is recommended to keep ground beef from spoiling or becoming dangerous to eat?", "distractor": ["3-4 days", "5-6 days", "7 days"], "url": "https://www.mysafetysign.com/free-food-safety-quiz", "subject": "safety", "correct_answer": ["1-2 days"]}, {"support": "Anybody who is not at his/her peak state of health is at a greater risk of contracting an illness than those who are.", "difficulty": 0, "question": "Everyone is at a risk of contracting a food-borne illness. However, some are at a greater risk of falling ill or even dying of infection, including:", "distractor": ["Infants", "Pregnant women", "People with weakened immune systems (those with HIV/AIDS, cancer, diabetes etc)"], "url": "https://www.mysafetysign.com/free-food-safety-quiz", "subject": "safety", "correct_answer": ["All of the above"]}, {"support": "The number of weeks in a fortnight.", "difficulty": 0, "question": "What is the maximum amount of time perishable food should be left out?", "distractor": ["1.5 hours", "3 hours", "3.5 hours"], "url": "https://www.mysafetysign.com/free-food-safety-quiz", "subject": "safety", "correct_answer": ["2 hours"]}, {"support": "Pasteurization makes milk healthful.", "difficulty": 0, "question": "Which of the following is FALSE about pasteurization?", "distractor": ["It does kill harmful bacteria", "Even if the milk is pasteurized, it is not safe to leave it out of the refrigerator for an extended period of time", "All of the above"], "url": "https://www.mysafetysign.com/free-food-safety-quiz", "subject": "safety", "correct_answer": ["It reduces milk\u2019s nutritional value"]}, {"support": "The method is named after the French chemist, Louis Pasteur.", "difficulty": 0, "question": "Which of the following processes kills harmful bacteria in milk?", "distractor": ["Sterilization", "Preservation", "Fermentation"], "url": "https://www.mysafetysign.com/free-food-safety-quiz", "subject": "safety", "correct_answer": ["Pasteurization"]}, {"support": "Also known as dry ice.", "difficulty": 0, "question": "Which of the following fire extinguishers is used to put out fires caused by flammable liquids?", "distractor": ["Class A water fire extinguishers", "Class C dry chemical fire extinguisher", "None of the above"], "url": "https://www.mysafetysign.com/free-fire-safety-quiz", "subject": "safety", "correct_answer": ["Class B carbon dioxide fire extinguisher"]}, {"support": "Where it\u2019s hottest.", "difficulty": 0, "question": "Where should you aim a fire extinguisher nozzle when putting out a fire?", "distractor": ["At the top of the fire", "At the center of the fire", "Away from the fire"], "url": "https://www.mysafetysign.com/free-fire-safety-quiz", "subject": "safety", "correct_answer": ["At the base of the fire"]}, {"support": "You should ideally keep the workplace free of combustibles of any kind.", "difficulty": 0, "question": "What can you do to help prevent a fire at work?", "distractor": ["Clutter your workspace with paper and other combustibles", "Use electrical wires near flammable gases and liquids", "Avoid cleaning up oil spills and chemical spills"], "url": "https://www.mysafetysign.com/free-fire-safety-quiz", "subject": "safety", "correct_answer": ["Avoid using electrical equipment near flammable gases, vapors, and liquids"]}, {"support": "ASAP.", "difficulty": 0, "question": "When should employees be informed of the fire hazards to which they are exposed at work?", "distractor": ["Within two days of the initial assignment", "Within 30 days of the initial assignment", "Within 90 days of the initial assignment"], "url": "https://www.mysafetysign.com/free-fire-safety-quiz", "subject": "safety", "correct_answer": ["Upon the initial assignment"]}, {"support": "____\u2019s well that ends well.", "difficulty": 0, "question": "Before an emergency occurs, you should\u2026", "distractor": ["Be able to recognize the sound/signal of a fire or evacuation alarm", "Know the person to contact in an emergency", "Be aware of the pathways to a minimum of 2 exits from every area of the workplace", "Know the location of the fire alarms and how to use them"], "url": "https://www.mysafetysign.com/free-fire-safety-quiz", "subject": "safety", "correct_answer": ["All of the above"]}, {"support": "A fire alarm can alert people to danger, and can minimize loss of life and property.", "difficulty": 0, "question": "When you discover a fire, you should\u2026", "distractor": ["Use a fire extinguisher to put out the fire, even if you\u2019ve never used a fire extinguisher before", "Stay in the building until you figure out a way to extinguish the fire", "Run out of the building without warning others of the fire"], "url": "https://www.mysafetysign.com/free-fire-safety-quiz", "subject": "safety", "correct_answer": ["Pull the fire alarm and call the fire department"]}, {"support": "The number of players on an American football team.", "difficulty": 0, "question": "Workplaces with a minimum of ____ employees need to have a written fire prevention program in place.", "distractor": ["5", "20", "25"], "url": "https://www.mysafetysign.com/free-fire-safety-quiz", "subject": "safety", "correct_answer": ["11"]}, {"support": "Not carbon.", "difficulty": 0, "question": "Which of the following fire extinguishers is used to put out Class A fires?", "distractor": ["CO2", "Water", "Multi-purpose dry chemical", "Both a and b"], "url": "https://www.mysafetysign.com/free-fire-safety-quiz", "subject": "safety", "correct_answer": ["Both b and c"]}, {"support": "Also the name of a popular hip-hop song by Flo Rida.", "difficulty": 0, "question": "Which of the following should you do if you are unable to evacuate a burning building?", "distractor": ["Open the doors and windows to let the smoke out", "Break windows", "Breathe through your mouth"], "url": "https://www.mysafetysign.com/free-fire-safety-quiz", "subject": "safety", "correct_answer": ["Stay low under the smoke"]}, {"support": "To _____ the buck.", "difficulty": 0, "question": "Which of the following is the acronym describing the correct sequence of using a fire extinguisher?", "distractor": ["PULL", "PUSH", "None of the above"], "url": "https://www.mysafetysign.com/free-fire-safety-quiz", "subject": "safety", "correct_answer": ["PASS"]}, {"support": "Once you\u2019re out of trouble, there\u2019s no point in jumping into it again.", "difficulty": 0, "question": "Which of the following should you NOT do during a fire emergency?", "distractor": ["Evacuate a building through designated exit routes", "Keep fire doors shut to prevent the fire from spreading", "Crawl low under the smoke while breathing only through your nose"], "url": "https://www.mysafetysign.com/free-fire-safety-quiz", "subject": "safety", "correct_answer": ["Re-enter the building without the permission of authorities"]}, {"support": "Adjusting work conditions and demands to match the capabilities of workers.", "difficulty": 0, "question": "The most effective way to prevent back injuries at work is to\u2026", "distractor": ["Prohibit workers from lifting any heavy objects", "Have  a separate staff which lifts loads and objects", "None of the above"], "url": "https://www.mysafetysign.com/free-back-safety-quiz", "subject": "safety", "correct_answer": ["Implement an ergonomics program that redesigns tasks and work environment with an eye toward minimizing back hazards"]}, {"support": "Add 3 to this number and you get the total number of minutes in an NBA game.", "difficulty": 0, "question": "Back injuries are the leading cause of work-related disabilities for people under the age of\u2026", "distractor": ["50", "55", "None of the above"], "url": "https://www.mysafetysign.com/free-back-safety-quiz", "subject": "safety", "correct_answer": ["45"]}, {"support": "____ is well that ends well.", "difficulty": 0, "question": "Which of the following can ease back pain caused by standing for long hours?", "distractor": ["Anti-fatigue mats", "Comfortable footwear", "Soft flooring", "Change in standing position"], "url": "https://www.mysafetysign.com/free-back-safety-quiz", "subject": "safety", "correct_answer": ["All of the above"]}, {"support": "___ is fair in love and war.", "difficulty": 0, "question": "Which of the following causes back injuries?", "distractor": ["Lifting objects incorrectly", "Being physically unfit", "Poor posture"], "url": "https://www.mysafetysign.com/free-back-safety-quiz", "subject": "safety", "correct_answer": ["All of the above"]}, {"support": "Area _____ .", "difficulty": 0, "question": "The NIOSH maximum recommended load weight to be lifted under ideal conditions is -", "distractor": ["45 pounds", "77 pounds", "None of the above"], "url": "https://www.mysafetysign.com/free-back-safety-quiz", "subject": "safety", "correct_answer": ["51 pounds"]}, {"support": "But you SHOULD do this when you\u2019re attempting to parallel ski.", "difficulty": 0, "question": "Which of the following should you NOT do while lifting objects?", "distractor": ["Keep the object close to your body", "Keep your back straight", "Bend at the knees"], "url": "https://www.mysafetysign.com/free-back-safety-quiz", "subject": "safety", "correct_answer": ["Keep your feet together"]}, {"support": "______ and shout!", "difficulty": 0, "question": "Which of the following should you NOT do when lowering a load?", "distractor": ["Keep the load close to your body", "Bend your knees", "All of the above"], "url": "https://www.mysafetysign.com/free-back-safety-quiz", "subject": "safety", "correct_answer": ["Twist your body"]}, {"support": "___ is fair in love and war.", "difficulty": 0, "question": "Which of the following is a long-term, negative result of exposure to loud noise?", "distractor": ["Decreased productivity", "Psychological and physical stress", "Interrupted concentration and communication", "Accidents and injuries at work due to one's inability to hear warning signals"], "url": "https://www.mysafetysign.com/free-hearing-conservation-quiz", "subject": "safety", "correct_answer": ["All of the above"]}, {"support": "Technology has been paramount to protecting workers\u2019 ears.", "difficulty": 0, "question": "The most effective way to avoid hearing loss at work is to \u2026.", "distractor": ["Stay away from loud noises and refuse to work", "Listen to music that is louder than the noise level at work", "Use hearing protection, such as earplugs, regardless of whether or not communication is essential at the office"], "url": "https://www.mysafetysign.com/free-hearing-conservation-quiz", "subject": "safety", "correct_answer": ["Monitor noise levels through engineering and administrative controls"]}, {"support": "To burn the candle at _____ ends.", "difficulty": 0, "question": "Which of the following is a warning sign that your workplace may be too noisy?", "distractor": ["You hear a humming or ringing in your ears when you leave your workplace", "You constantly pull your ears", "You have to shout to a person who\u2019s an arm\u2019s length away in order to be heard."], "url": "https://www.mysafetysign.com/free-hearing-conservation-quiz", "subject": "safety", "correct_answer": ["Both a and c"]}, {"support": "Two thirds of a typical pregnancy.", "difficulty": 0, "question": "Baseline audiograms should be provided within ___ of an employee\u2019s first exposure to a noise level equal to or exceeding an average of 85 decibels every hour for eight hours.", "distractor": ["9 months", "10 months", "11 months"], "url": "https://www.mysafetysign.com/free-hearing-conservation-quiz", "subject": "safety", "correct_answer": ["6 months"]}, {"support": "Chad Ochocinco\u2019s NFL jersey.", "difficulty": 0, "question": "Continuous exposure to noise levels at ____ decibels (dB) or above can cause hearing loss.", "distractor": ["80", "75", "70"], "url": "https://www.mysafetysign.com/free-hearing-conservation-quiz", "subject": "safety", "correct_answer": ["85"]}, {"support": "_____ of Music.", "difficulty": 0, "question": "To what does the acronym SLM refer?", "distractor": ["St. Leonard\u2019s Motors", "Service Lifecycle Management", "Silent Language Management"], "url": "https://www.mysafetysign.com/free-hearing-conservation-quiz", "subject": "safety", "correct_answer": ["Sound Level Meter"]}]
+$questions = [
+  {
+    "support": "The surface of Earth is not flat. Some places are high, and some places are low. For example, mountain ranges like the Sierra Nevada in California or the Andes in South America are high above the surrounding areas. An accurate location must take into account the third dimension. Elevation is the height above or below sea level. Sea level refers to the height of the ocean’s surface. This is the midpoint between high and low tide. Sea level can vary from place to place, but scientists base their elevation measurements on the average, or mean, sea level to make sure they have a standard reference point.",
+    "question": "What is the height above or below sea level called?",
+    "distractor": [
+      "depth",
+      "latitude",
+      "variation"
+    ],
+    "difficulty": 0,
+    "correct_answer": [
+      "elevation"
+    ],
+    "id": 0,
+    "subject": "geology"
+  },
+  {
+    "support": "There is also a correlation between viscosity and molecular shape. Liquids consisting of long, flexible molecules tend to have higher viscosities than those composed of more spherical or shorter-chain molecules. The longer the molecules, the easier it is for them to become “tangled” with one another, making it more difficult for them to move past one another. London dispersion forces also increase with chain length. Due to a combination of these two effects, long-chain hydrocarbons (such as motor oils) are highly viscous.",
+    "question": "What kind of viscosity is found in long-chain hydrocarbons?",
+    "distractor": [
+      "increased viscosity",
+      "low viscosity",
+      "intense viscosity"
+    ],
+    "difficulty": 0,
+    "correct_answer": [
+      "high viscousity"
+    ],
+    "id": 1,
+    "subject": "chemistry"
+  },
+  {
+    "support": "Of all the animal species, it is estimated that well over 90% are invertebrates. Of all invertebrates, the insects are by far the most numerous. There are so many species of insects that scientists have yet to discover them all, let alone name or count them. Estimates of the total number of insect species fall in the range of 1 to 30 million. So, it helps if there are methods to classify not just the insects, but all invertebrates.",
+    "question": "What are by far the most common type of invertebrate?",
+    "distractor": [
+      "spiders",
+      "crustaceans",
+      "corals"
+    ],
+    "difficulty": 0,
+    "correct_answer": [
+      "insects"
+    ],
+    "id": 2,
+    "subject": "biology"
+  },
+  {
+    "support": "A neon light produces visible light by electroluminescence. The bulb is a glass tube that contains the noble gas neon. When electricity passes through the gas, it excites electrons of neon atoms, causing them to give off visible light. Neon produces red light. Other noble gases are also used in lights, and they produce light of different colors. For example, krypton produces violet light, and argon produces blue light.",
+    "question": "How does a neon light produce visible light?",
+    "distractor": [
+      "luminescence",
+      "radiation",
+      "mitosis"
+    ],
+    "difficulty": 0,
+    "correct_answer": [
+      "electroluminescence"
+    ],
+    "id": 3,
+    "subject": "chemistry"
+  },
+  {
+    "support": "Today, most living things use oxygen to make ATP from glucose. However, many living things can also make ATP without oxygen. This is true of some plants and fungi and also of many bacteria. These organisms use aerobic respiration when oxygen is present, but when oxygen is in short supply, they use anaerobic respiration instead. Certain bacteria can only use anaerobic respiration. In fact, they may not be able to survive at all in the presence of oxygen.",
+    "question": "What do most living things use to make ATP from glucose?",
+    "distractor": [
+      "enzymes",
+      "carbon",
+      "nitrogen"
+    ],
+    "difficulty": 0,
+    "correct_answer": [
+      "oxygen"
+    ],
+    "id": 4,
+    "subject": "biology"
+  },
+  {
+    "support": "Most insects can reproduce very quickly within a short period of time. With a short generation time, they evolve faster and can quickly adjust to environmental changes. Most insects reproduce by sexual reproduction. The female produces eggs, which are fertilized by the male, and then the eggs are usually placed near the required food. In some insects, there is asexual reproduction during which the offspring come from a single parent. In this type of reproduction, the offspring are almost identical to the mother. This is most often seen in aphids and scale insects.",
+    "question": "Most insects reproduce quickly and through what type of reproduction?",
+    "distractor": [
+      "spores",
+      "photosynthesis",
+      "asexual reproduction"
+    ],
+    "difficulty": 0,
+    "correct_answer": [
+      "sexual reproduction"
+    ],
+    "id": 5,
+    "subject": "biology"
+  },
+  {
+    "support": "Metals represent approximately 25% of the elemental makeup of the Earth's crust. The bulk of these metals, primarily aluminum, iron, calcium, sodium, potassium, and magnesium, are typically found in combined form. The most abundant metal is aluminum, which occurs almost exclusively as the ionic mineral bauxite. The other most common metals, including iron, sodium, potassium, magnesium, and calcium, are also found primarily as the cationic portion of an ionic compound. Very few metals actually occur naturally as pure substances. The ones that do are often referred to as precious or semi-precious metals.",
+    "question": "What is the most abundant metal of the earth's crust?",
+    "distractor": [
+      "calcium",
+      "copper",
+      "magnetite"
+    ],
+    "difficulty": 0,
+    "correct_answer": [
+      "aluminum"
+    ],
+    "id": 6,
+    "subject": "geology"
+  },
+  {
+    "support": "Cellular respiration and photosynthesis are like two sides of the same coin. The products of photosynthesis are needed for cellular respiration. The products of cellular respiration are needed for photosynthesis. Together, the two processes store and release energy in virtually all living things.",
+    "question": "The products of what process are needed for cellular respiration, and vice versa?",
+    "distractor": [
+      "digestion",
+      "spermatogenesis",
+      "circulation"
+    ],
+    "difficulty": 0,
+    "correct_answer": [
+      "photosynthesis"
+    ],
+    "id": 7,
+    "subject": "biology"
+  },
+  {
+    "support": "Most fungi get organic compounds from dead organisms. They are decomposers called saprotrophs. A saprotroph feeds on any remaining organic matter after other decomposers do their work. Fungi use enzymes to digest organic remains and then absorb the resulting organic compounds. As decomposers, fungi are vital for the health of ecosystems. They break down nonliving organic matter and release the nutrients into the soil. Plants can then use the nutrients and pass them on to herbivores and other consumers.",
+    "question": "Most fungi get organic compounds from what?",
+    "distractor": [
+      "inorganic material",
+      "living organisms",
+      "carnivorous organisms"
+    ],
+    "difficulty": 0,
+    "correct_answer": [
+      "dead organisms"
+    ],
+    "id": 8,
+    "subject": "biology"
+  },
+  {
+    "support": "A more massive star ends its life in a more dramatic way. Very massive stars become red supergiants . Unlike a red giant, when all the helium in a red supergiant is gone, fusion continues. Lighter atoms fuse into heavier atoms up to iron atoms. Creating elements heavier than iron through fusion uses more energy than it produces. For this reason, stars do not ordinarily form any heavier elements. When there are no more elements for the star to fuse, the core succumbs to gravity and collapses.",
+    "question": "How do very massive stars end their lives?",
+    "distractor": [
+      "become super novas",
+      "explode",
+      "consumed by black hole"
+    ],
+    "difficulty": 0,
+    "correct_answer": [
+      "become red supergiants"
+    ],
+    "id": 9,
+    "subject": "physics"
+  },
+  {
+    "support": "The strength of a base depends on the concentration of hydroxide ions it produces when dissolved in water. For example, sodium hydroxide completely breaks down into ions in water, so it is a strong base. However, only a fraction of ammonia breaks down into ions, so it is a weak base.",
+    "question": "The strength of a base depends on the concentration of _______ it produces when dissolved in water?",
+    "distractor": [
+      "combustion ions",
+      "calcium ions",
+      "monoxide ions"
+    ],
+    "difficulty": 0,
+    "correct_answer": [
+      "hydroxide ions"
+    ],
+    "id": 10,
+    "subject": "chemistry"
+  },
+  {
+    "support": "Organisms that live deep in the ocean must be able to withstand extreme water pressure, very cold water, and complete darkness. However, even here, thriving communities of living things can be found. Organisms cluster around hydrothermal vents in the ocean floor. The vents release hot water containing chemicals that would be toxic to most other living things. The producers among them are single-celled chemoautotrophs. They make food using energy stored in the chemicals.",
+    "question": "Organisms that live deep in the ocean must be able to withstand what?",
+    "distractor": [
+      "the sun",
+      "significant water pressure",
+      "tsunamis"
+    ],
+    "difficulty": 0,
+    "correct_answer": [
+      "extreme water pressure"
+    ],
+    "id": 11,
+    "subject": "biology"
+  },
+  {
+    "support": "The central nervous system includes the brain and spinal cord. The brain serves as the control center of the nervous system and the body as a whole. It consists of three major parts: the cerebrum, cerebellum, and brain stem. The spinal cord carries nerve impulses back and forth between the body and brain.",
+    "question": "Which system are the brain and spinal cord a part of?",
+    "distractor": [
+      "large nervous system",
+      "cerebral cortex",
+      "limbic system"
+    ],
+    "difficulty": 0,
+    "correct_answer": [
+      "central nervous system"
+    ],
+    "id": 12,
+    "subject": "biology"
+  },
+  {
+    "support": "There are many other examples of innate behaviors. For example, did you know that honeybees dance? When the bee returns to its hive, it will do a dance. This dance is called the waggle dance. The way the bee moves during its dance tells other bees in the hive where to find the food. Honeybees can do the waggle dance without learning it from other bees, so it is an innate behavior.",
+    "question": "A bee will sometimes do a dance to tell other bees in the hive where to find what?",
+    "distractor": [
+      "enemies",
+      "water",
+      "honey"
+    ],
+    "difficulty": 0,
+    "correct_answer": [
+      "food"
+    ],
+    "id": 13,
+    "subject": "biology"
+  },
+  {
+    "support": "Ecology is the study of ecosystems. That is, ecology is the study of how living organisms interact with each other and with the nonliving part of their environment. An ecosystem consists of all the nonliving factors and living organisms interacting in the same habitat. Recall that living organisms are biotic factors. The biotic factors of an ecosystem include all the populations in a habitat, such as all the species of plants, animals, and fungi, as well as all the micro-organisms. Also recall that the nonliving factors are called abiotic factors. Abiotic factors include temperature, water, soil, and air.",
+    "question": "Temperature, water, soil, and air are examples of nonliving factors of an ecosystem, also termed what?",
+    "distractor": [
+      "nucleic factors",
+      "conditional factors",
+      "diverse factors"
+    ],
+    "difficulty": 0,
+    "correct_answer": [
+      "abiotic factors"
+    ],
+    "id": 14,
+    "subject": "geology"
+  },
+  {
+    "support": "When you look at the Moon from Earth, you notice dark and light areas. The maria are dark, solid, flat areas of lava (mostly basalt). Maria covers around 16% of the Moon’s surface, mostly on the near side. The maria formed about 3.0 to 4.0 billion years ago, when the Moon was continually bombarded by meteoroids. Large meteorites broke through the Moon’s newly formed surface. This eventually caused magma to flow out and fill the craters. Scientists estimate volcanic activity on the Moon ended about 1.2 billion years ago.",
+    "question": "Although magma once filled our moon's craters, what is thought to have ended there over a billion years ago?",
+    "distractor": [
+      "mineral activity",
+      "oceanic activity",
+      "deserts activity"
+    ],
+    "difficulty": 0,
+    "correct_answer": [
+      "volcanic activity"
+    ],
+    "id": 15,
+    "subject": "geology"
+  },
+  {
+    "support": "Human senses include sight, hearing, balance, taste, smell, and touch. Sensory organs such as the eyes contain cells called sensory receptors that respond to particular sensory stimuli. Sensory nerves carry nerve impulses from sensory receptors to the central nervous system. The brain interprets the nerve impulses to form a response.",
+    "question": "Sensory nerves carry nerve impulses from sensory receptors to what system?",
+    "distractor": [
+      "muscular system",
+      "endocrine system",
+      "irculatory system"
+    ],
+    "difficulty": 0,
+    "correct_answer": [
+      "central nervous system"
+    ],
+    "id": 16,
+    "subject": "biology"
+  },
+  {
+    "support": "Sigma bonds are formed by the end-to-end overlap of bonding orbitals. Pi bonds are formed by the side-to-side overlap of p orbitals. Single bonds are normally sigma bonds. A double or triple bond consists of one sigma bond and either one or two pi bonds.",
+    "question": "What type of bonds are formed by the side-to-side overlap of p orbitals?",
+    "distractor": [
+      "sigma bonds",
+      "omega bonds",
+      "theta bonds"
+    ],
+    "difficulty": 0,
+    "correct_answer": [
+      "pi bonds"
+    ],
+    "id": 17,
+    "subject": "chemistry"
+  },
+  {
+    "support": "After menstruation, the endometrium begins to build up again. At the same time, a follicle starts maturing in an ovary. Ovulation occurs around day 14 of the cycle. After it occurs, the endometrium continues to build up in preparation for a fertilized egg. What happens next depends on whether the egg is fertilized.",
+    "question": "On what day of the cycle does ovulation usually occur?",
+    "distractor": [
+      "17th",
+      "7th",
+      "1st"
+    ],
+    "difficulty": 0,
+    "correct_answer": [
+      "14th"
+    ],
+    "id": 18,
+    "subject": "biology"
+  },
+  {
+    "support": "The electrode at which oxidation occurs is called the anode. The zinc anode gradually diminishes as the cell operates due to the loss of zinc metal. The zinc ion concentration in the half-cell increases. Because of the production of electrons at the anode, it is labeled as the negative electrode.",
+    "question": "The electrode at which oxidation occurs is called the what?",
+    "distractor": [
+      "diode",
+      "cathode",
+      "calomel"
+    ],
+    "difficulty": 0,
+    "correct_answer": [
+      "anode"
+    ],
+    "id": 19,
+    "subject": "chemistry"
+  },
+  {
+    "support": "DNA replication. The two DNA strands are opened by helicase. The strands are held open by a single strand of binding proteins, preventing premature reannealing. Topoisomerase solves the problem caused by tension generated by winding/unwinding of DNA. This enzyme wraps around DNA and makes a cut permitting the helix to spin and relax. Once DNA is relaxed, topoisomerase reconnects broken strands. DNA primase synthesizes a short RNA primer which initiates the Okazaki fragment. Okazaki fragments are attached by DNA ligase.",
+    "question": "What opens two strands of DNA?",
+    "distractor": [
+      "replication",
+      "adenylate",
+      "chromosome"
+    ],
+    "difficulty": 0,
+    "correct_answer": [
+      "helicase"
+    ],
+    "id": 20,
+    "subject": "biology"
+  },
+  {
+    "support": "Although not as famous as its bald cousin, Golden Eagles are much easier to find in Northern California - one of the largest breeding populations for Golden Eagles. The largest of the raptors, Golden Eagles weigh typically between 8 and 12 pounds, and their wing span is around 6 to 7 feet. These eagles dive towards earth to catch prey, and can reach speeds of up to 200 mph!",
+    "question": "What living species of bird is considered the largest of the raptors?",
+    "distractor": [
+      "California condor",
+      "peregrine falcon",
+      "pterodactyl"
+    ],
+    "difficulty": 0,
+    "correct_answer": [
+      "golden eagles"
+    ],
+    "id": 21,
+    "subject": "biology"
+  },
+  {
+    "support": "The kidneys play many vital roles in homeostasis. They filter all the blood in the body many times each day and produce a total of about 1.5 liters of urine. The kidneys control the amount of water, ions, and other substances in the blood by excreting more or less of them in urine. The kidneys also secrete hormones that help maintain homeostasis. Erythropoietin, for example, is a kidney hormone that stimulates bone marrow to produce red blood cells when more are needed. The kidneys themselves are also regulated by hormones. For example, antidiuretic hormone from the hypothalamus stimulates the kidneys to produce more concentrated urine when the body is low on water.",
+    "question": "Which organs control the amount of water, ions, and other substances in the blood by excreting more or less of them in urine?",
+    "distractor": [
+      "lungs",
+      "tongue",
+      "ears"
+    ],
+    "difficulty": 0,
+    "correct_answer": [
+      "kidneys"
+    ],
+    "id": 22,
+    "subject": "biology"
+  },
+  {
+    "support": "The relative scale of atomic masses in amu is also a relative scale of masses in grams. The mole is officially equal to the number of carbon atoms in exactly 12 g of carbon-12. In other words, one carbon-12 atom has a mass of exactly 12 amu, and one mole of carbon atoms has a mass of exactly 12 grams. This relationship is true for all substances. If one atom of helium has a mass of 4.00 amu, one mole of helium atoms has a mass of 4.00 g. One molecule of water has a mass of 18.0 amu, so one mole of water molecules has a mass of 18.0 grams. Molar mass is defined as the mass of one mole of representative particles of a substance. It is expressed in units of grams per mole (g/mol).",
+    "question": "What unit of measurement is defined to be the number of atoms in 12g of carbon-12?",
+    "distractor": [
+      "one quark",
+      "one joule",
+      "one ohm"
+    ],
+    "difficulty": 0,
+    "correct_answer": [
+      "one mole"
+    ],
+    "id": 23,
+    "subject": "physics"
+  },
+  {
+    "support": "Marsupials have a different way of reproducing that reduces the mother’s risks. A marsupial is a therian mammal in which the embryo is born at an early, immature stage. The embryo completes its development outside the mother’s body in a pouch on her belly. Only a minority of therian mammals are marsupials. They live mainly in Australia.",
+    "question": "What is a therian mammal in which the embryo is born at an early, immature stage?",
+    "distractor": [
+      "rodent",
+      "bat",
+      "carnivore"
+    ],
+    "difficulty": 0,
+    "correct_answer": [
+      "marsupial"
+    ],
+    "id": 24,
+    "subject": "biology"
+  },
+  {
+    "support": "Osmosis is the diffusion of water through a semipermeable membrane down its concentration gradient. If a membrane is permeable to water, though not to a solute, water will equalize its own concentration by diffusing to the side of lower water concentration (and thus the side of higher solute concentration). In the beaker on the left, the solution on the right side of the membrane is hypertonic.",
+    "question": "What is the diffusion of water through a semipermeable membrane down its concentration gradient",
+    "distractor": [
+      "nutrients",
+      "mirrors",
+      "Permable"
+    ],
+    "difficulty": 0,
+    "correct_answer": [
+      "osmosis"
+    ],
+    "id": 25,
+    "subject": "chemistry"
+  },
+  {
+    "support": "Skeletal muscles are attached to the skeleton by tough connective tissues called tendons. Many skeletal muscles are attached to the ends of bones that meet at a joint. The muscles span the joint and connect the bones. When the muscles contract, they pull on the bones, causing them to move.",
+    "question": "Skeletal muscles are attached to the skeleton by tough connective tissues called what?",
+    "distractor": [
+      "fibers",
+      "veins",
+      "cords"
+    ],
+    "difficulty": 0,
+    "correct_answer": [
+      "tendons"
+    ],
+    "id": 26,
+    "subject": "biology"
+  },
+  {
+    "support": "The lithosphere is divided into a dozen major and several minor plates. Each plate is named for the continent or ocean basin it contains. Some plates are made of all oceanic lithosphere. A few are all continental lithosphere. But most plates are made of a combination of both.",
+    "question": "The lithosphere is divided into a dozen major and several minor what?",
+    "distractor": [
+      "zones",
+      "crystals",
+      "faults"
+    ],
+    "difficulty": 0,
+    "correct_answer": [
+      "plates"
+    ],
+    "id": 27,
+    "subject": "geology"
+  },
+  {
+    "support": "Why do the air and sand of Death Valley feel so hot? It’s because their particles are moving very rapidly. Anything that is moving has kinetic energy, and the faster it is moving, the more kinetic energy it has. The total kinetic energy of moving particles of matter is called thermal energy. It’s not just hot things such as the air and sand of Death Valley that have thermal energy. All matter has thermal energy, even matter that feels cold. That’s because the particles of all matter are in constant motion and have kinetic energy.",
+    "question": "Anything moving has what type of energy?",
+    "distractor": [
+      "magnetic",
+      "potential",
+      "thermal"
+    ],
+    "difficulty": 0,
+    "correct_answer": [
+      "kinetic"
+    ],
+    "id": 28,
+    "subject": "physics"
+  },
+  {
+    "support": "The total kinetic energy of moving particles of matter is called thermal energy.",
+    "question": "What is the term for the total kinetic energy of moving particles of matter?",
+    "distractor": [
+      "heavy energy",
+      "mechanical energy",
+      "Newton's energy"
+    ],
+    "difficulty": 0,
+    "correct_answer": [
+      "thermal energy"
+    ],
+    "id": 29,
+    "subject": "physics"
+  },
+  {
+    "support": "Touch is the ability to sense pain, pressure, or temperature. Nerve cells that sense touch are found mainly in the skin. The skin on the palms, soles, face, and lips has the most neurons. Neurons that sense pain are also found inside the body inside the body in the tongue, joints, muscles, and other organs.",
+    "question": "Nerve cells that sense touch are found mainly where?",
+    "distractor": [
+      "stomach",
+      "brain",
+      "lungs"
+    ],
+    "difficulty": 0,
+    "correct_answer": [
+      "skin"
+    ],
+    "id": 30,
+    "subject": "biology"
+  },
+  {
+    "support": "The bronchioles lead to the alveoli. Alveoli are the little sacs at the end of the bronchioles. They look like little bunches of grapes. Oxygen is exchanged for carbon dioxide in the alveoli. That means oxygen enters the blood, and carbon dioxide moves out of the blood. The gases are exchanged between the blood and alveoli by simple diffusion.",
+    "question": "What are the little sacs at the end of the bronchioles called?",
+    "distractor": [
+      "lung",
+      "respiratory sacs",
+      "ganglion"
+    ],
+    "difficulty": 0,
+    "correct_answer": [
+      "alveoli"
+    ],
+    "id": 31,
+    "subject": "biology"
+  },
+  {
+    "support": "If you are a young woman, getting in the habit of performing a monthly breast self-exam is a good idea. Lumps or other subtle changes in the breasts may indicate breast cancer. The outcome is typically better if breast cancer is caught and treated early.",
+    "question": "How often should women perform a breast self-exam?",
+    "distractor": [
+      "yearly",
+      "weekly",
+      "quarterly"
+    ],
+    "difficulty": 0,
+    "correct_answer": [
+      "monthly"
+    ],
+    "id": 32,
+    "subject": "biology"
+  },
+  {
+    "support": "Hair is a fiber that is found only in mammals. Its main component is keratin. A hair shaft consists of dead, keratin-filled cells that overlap each other like the shingles on a roof. Like roof shingles, the overlapping cells help shed water from the hair.",
+    "question": "What is a fiber that is found only in mammals?",
+    "distractor": [
+      "nails",
+      "muscle",
+      "feathers"
+    ],
+    "difficulty": 0,
+    "correct_answer": [
+      "hair"
+    ],
+    "id": 33,
+    "subject": "biology"
+  },
+  {
+    "support": "The hypothalamus is actually part of the brain, but it also secretes hormones. Some of its hormones go directly to the pituitary gland in the endocrine system. These hypothalamus hormones tell the pituitary to either secrete or stop secreting its hormones. In this way, the hypothalamus provides a link between the nervous and endocrine systems.",
+    "question": "The hypothalamus is actually part of the brain, but it also secretes what?",
+    "distractor": [
+      "enzymes",
+      "acids",
+      "electrolytes"
+    ],
+    "difficulty": 0,
+    "correct_answer": [
+      "hormones"
+    ],
+    "id": 34,
+    "subject": "biology"
+  },
+  {
+    "support": "Roundworms can be free-living organisms, but they are probably best known for their role as significant plant and animal parasites. Most Nematodes are parasitic, with over 16,000 parasitic species described. Heartworms, which cause serious disease in dogs while living in the heart and blood vessels, are a type of roundworm. Roundworms can also cause disease in humans. Elephantiasis, a disease characterized by the extreme swelling of the limbs, is caused by infection with a type of roundworm.",
+    "question": "What disease characterized by the extreme swelling of the limbs is caused by infection with a type of roundworm?",
+    "distractor": [
+      "pulmonary edema",
+      "gigantism",
+      "fibrosis"
+    ],
+    "difficulty": 0,
+    "correct_answer": [
+      "elephantiasis"
+    ],
+    "id": 35,
+    "subject": "biology"
+  },
+  {
+    "support": "Acid rain forms when nitrogen and sulfur oxides in air dissolve in rain. This forms nitric and sulfuric acids. Both are strong acids. Acid rain with a pH as low as 4.0 is now common in many areas. Acid fog may be even more acidic than acid rain. Fog with a pH as low as 1.7 has been recorded. That’s the same pH as toilet bowl cleaner!",
+    "question": "What forms when nitrogen and sulfur oxides in air dissolve in rain?",
+    "distractor": [
+      "carbon rain",
+      "dioxide rain",
+      "acid snow"
+    ],
+    "difficulty": 0,
+    "correct_answer": [
+      "acid rain"
+    ],
+    "id": 36,
+    "subject": "chemistry"
+  },
+  {
+    "support": "Gibberellins are hormones that cause the plant to grow. When gibberellins are applied to plants by scientists, the stems grow longer. Some gardeners or horticulture scientists add gibberellins to increase the growth of plants. Dwarf plants (small plants), on the other hand, have low levels of gibberellins. Another function of gibberellins is to stop dormancy (resting time) of seeds and buds. Gibberellins signal that it’s time for a seed to germinate (sprout) or for a bud to open.",
+    "question": "What are the hormones that cause a plant to grow?",
+    "distractor": [
+      "sporozoans",
+      "pores",
+      "pistills"
+    ],
+    "difficulty": 0,
+    "correct_answer": [
+      "gibberellins"
+    ],
+    "id": 37,
+    "subject": "biology"
+  },
+  {
+    "support": "The two DNA strands are opened by helicase. The strands are held open by a single strand of binding proteins, preventing premature reannealing. Topoisomerase solves the problem caused by tension generated by winding/unwinding of DNA. This enzyme wraps around DNA and makes a cut permitting the helix to spin and relax. Once DNA is relaxed, topoisomerase reconnects broken strands. DNA primase synthesizes a short RNA primer which initiates the Okazaki fragment. Okazaki fragments are attached by DNA ligase.",
+    "question": "What opens two strands of DNA?",
+    "distractor": [
+      "replication",
+      "adenylate",
+      "chromosome"
+    ],
+    "difficulty": 0,
+    "correct_answer": [
+      "helicase"
+    ],
+    "id": 38,
+    "subject": "biology"
+  },
+  {
+    "support": "Modern taxonomists have reordered many groups of organisms since Linnaeus. The main categories that biologists use are listed here from the most specific to the least specific category. All organisms can be classified into one of three domains, the least specific grouping. The three domains are Bacteria, Archaea, and Eukarya. The Kingdom is the next category after the Domain. All life is divided among six kingdoms: Kingdom Bacteria, Kingdom Archaea, Kingdom Protista, Kingdom Plantae, Kingdom Fungi, and Kingdom Animalia.",
+    "question": "All organisms can be classified into one of three of this least specific grouping?",
+    "distractor": [
+      "aspects",
+      "phlylum",
+      "species"
+    ],
+    "difficulty": 0,
+    "correct_answer": [
+      "domains"
+    ],
+    "id": 39,
+    "subject": "biology"
+  },
+  {
+    "support": "The blood from the heart is carried through the body by a complex network of blood vessels. Arteries take blood away from the heart. The main artery is the aorta that branches into major arteries that take blood to different limbs and organs. These major arteries include the carotid artery that takes blood to the brain, the brachial arteries that take blood to the arms, and the thoracic artery that takes blood to the thorax and then into the hepatic, renal, and gastric arteries for the liver, kidney, and stomach, respectively. The iliac artery takes blood to the lower limbs. The major arteries diverge into minor arteries, and then smaller vessels called arterioles, to reach more deeply into the muscles and organs of the body.",
+    "question": "What artery takes blood to the brain?",
+    "distractor": [
+      "veins",
+      "pulmonary",
+      "coronary"
+    ],
+    "difficulty": 0,
+    "correct_answer": [
+      "carotid"
+    ],
+    "id": 40,
+    "subject": "biology"
+  },
+
+  {
+    "support": "Muscles That Move the Head The head, attached to the top of the vertebral column, is balanced, moved, and rotated by the neck muscles (Table 11.5). When these muscles act unilaterally, the head rotates. When they contract bilaterally, the head flexes or extends. The major muscle that laterally flexes and rotates the head is the sternocleidomastoid. In addition, both muscles working together are the flexors of the head. Place your fingers on both sides of the neck and turn your head to the left and to the right. You will feel the movement originate there. This muscle divides the neck into anterior and posterior triangles when viewed from the side (Figure 11.14).",
+    "question": "The sternocleidomastoid is the major muscle that laterally flexes and rotates what?",
+    "distractor": [
+      "tongue",
+      "eye",
+      "knee"
+    ],
+    "difficulty": 0,
+    "correct_answer": [
+      "head"
+    ],
+    "id": 41,
+    "subject": "physics"
+  },
+  {
+    "support": "Asexual reproduction has the advantage of occurring quickly. Sexual reproduction has the advantage of creating genetic variation. This can help a species adapt to environmental change. The genetic variation arises due to crossing over, independent assortment, and the random union of gametes.",
+    "question": "What arises due to crossing over, independent assortment, and the random union of gametes?",
+    "distractor": [
+      "susceptible variation",
+      "recessive variation",
+      "alternative variation"
+    ],
+    "difficulty": 0,
+    "correct_answer": [
+      "genetic variation"
+    ],
+    "id": 42,
+    "subject": "biology"
+  },
+  {
+    "support": "Each skeletal muscle fiber is a skeletal muscle cell. Within each muscle fiber are myofibrils, long cylindrical structures that lie parallel to the muscle fiber. Myofibrils run the entire length of the muscle fiber. They attach to the plasma membrane, called the sarcolemma, at their ends, so that as myofibrils shorten, the entire muscle cell contracts.",
+    "question": "Myofibrils are long cylindrical structures that lie parallel to and run the entire length of what fibers?",
+    "distractor": [
+      "uplift muscle fibers",
+      "luminous muscle fibers",
+      "heart muscle fibers"
+    ],
+    "difficulty": 0,
+    "correct_answer": [
+      "skeletal muscle fibers"
+    ],
+    "id": 43,
+    "subject": "biology"
+  },
+  {
+    "support": "Birds are thought to have evolved from theropod dinosaurs around 150 million years ago. Their ancestor may have been similar to the extinct theropod Deinonychus, whose fossils convinced most scientists that birds evolved from dinosaurs. Scientist still don’t know how or why wings and flight evolved, but they continue to search for answers.",
+    "question": "What broad animal group is thought to have evolved from theropod dinosaurs around 150 million years ago?",
+    "distractor": [
+      "insects",
+      "mammals",
+      "reptiles"
+    ],
+    "difficulty": 0,
+    "correct_answer": [
+      "birds"
+    ],
+    "id": 44,
+    "subject": "biology"
+  },
+  {
+    "support": "The cardiovascular system also plays a role in maintaining body temperature. It helps to keep you warm by moving warm blood around your body. Your blood vessels also control your body temperature to keep you from getting too hot or too cold. When your brain senses that your body temperature is increasing, it sends messages to the blood vessels in the skin to increase in diameter. Increasing the diameter of the blood vessels increases the amount of blood and heat that moves near the skin's surface. The heat is then released from the skin. This helps you cool down.",
+    "question": "When your brain senses that your body temperature is increasing, it sends messages to the blood vessels in the skin to increase in what?",
+    "distractor": [
+      "surface",
+      "height",
+      "weight"
+    ],
+    "difficulty": 0,
+    "correct_answer": [
+      "diameter"
+    ],
+    "id": 45,
+    "subject": "biology"
+  },
+  {
+    "support": "Terrestrial biomes are classified by climatic factors and types of primary producers. The world map in Figure below shows where 13 major terrestrial biomes are found.",
+    "question": "What are classified by climatic factors and types of primary producers?",
+    "distractor": [
+      "equivalent biomes",
+      "old biomes",
+      "fossil biomes"
+    ],
+    "difficulty": 0,
+    "correct_answer": [
+      "terrestrial biomes"
+    ],
+    "id": 46,
+    "subject": "geology"
+  },
+  {
+    "support": "Neurons are the cells considered to be the basis of nervous tissue. They are responsible for the electrical signals that communicate information about sensations, and that produce movements in response to those stimuli, along with inducing thought processes within the brain. An important part of the function of neurons is in their structure, or shape. The threedimensional shape of these cells makes the immense numbers of connections within the nervous system possible.",
+    "question": "What cells are the basis of nervous tissue?",
+    "distractor": [
+      "erythrocytes",
+      "lipocytes",
+      "osteoclasts"
+    ],
+    "difficulty": 0,
+    "correct_answer": [
+      "neurons"
+    ],
+    "id": 47,
+    "subject": "biology"
+  },
+  {
+    "support": "Dynamite is an example of chemical potential energy. The major component of dynamite is nitroglycerin, a very unstable material. By mixing it with diatomaceous earth, the stability is increased and it is less likely to explode if it receives a physical shock. When ignited, the nitroglycerin explodes rapidly, releasing large amounts of nitrogen and other gases along with a massive amount of heat.",
+    "question": "Dynamite is an example of what type of potential energy?",
+    "distractor": [
+      "carbon",
+      "mineral",
+      "thermal"
+    ],
+    "difficulty": 0,
+    "correct_answer": [
+      "chemical"
+    ],
+    "id": 48,
+    "subject": "physics"
+  },
+  {
+    "support": "Amphibians are the first true tetrapods, or vertebrates with four limbs. Amphibians have less variation in size than fish, ranging in length from 1 centimeter (2.5 inches) to 1.5 meters (about 5 feet). They generally have moist skin without scales. Their skin contains keratin, a tough, fibrous protein found in the skin, scales, feathers, hair, and nails of tetrapod vertebrates, from amphibians to humans. Some forms of keratin are tougher than others. The form in amphibian skin is not very tough, and it allows gases and water to pass through their skin.",
+    "question": "What broad group of animals are the first true tetrapods?",
+    "distractor": [
+      "fish",
+      "reptiles",
+      "mammals"
+    ],
+    "difficulty": 0,
+    "correct_answer": [
+      "amphibians"
+    ],
+    "id": 49,
+    "subject": "biology"
+  },
+  {
+    "url": "https://www.mysafetysign.com/free-first-aid-quiz",
+    "support": "According to Mayo Clinic, it's far better to do something than to do nothing at all if you're fearful that your knowledge or abilities arent 100 percent complete. If you're not trained in CPR, then provide hands-only CPR. That means uninterrupted chest compressions of about 100 a minute until paramedics arrive. You don't need to try rescue breathing.",
+    "question": "If your co-worker needs CPR but you are not trained in it, what should you do?",
+    "distractor": [
+      "Give rescue breaths only",
+      "Wait for emergency personnel to arrive",
+      "Lift the patient's head"
+    ],
+    "difficulty": 0,
+    "correct_answer": [
+      "Perform chest compressions only"
+    ],
+    "id": 50,
+    "subject": "safety"
+  },
+  {
+    "url": "https://www.mysafetysign.com/free-first-aid-quiz",
+    "support": "The first 10 to 15 seconds after exposure to a hazardous substance, especially a corrosive substance, are critical. Delaying treatment, even for a few seconds, may cause serious injury. So, flushing with plenty of water is the first step to take. 20 minutes is generally considered adequate, but for corrosive chemicals as long as 60 minutes may be required.",
+    "question": "Arrange in the correct the steps to take when someone splashes a chemical into the eye: (i) call a doctor, (ii) take out any contact lenses, (iii) flush the eyes with plenty of water, (iv) wash your hands with soap and water.",
+    "distractor": [
+      "ii, iii, iv, i",
+      "i, iii, iv, ii",
+      "iv, ii, iii, i"
+    ],
+    "difficulty": 0,
+    "correct_answer": [
+      "iii, iv, ii, i"
+    ],
+    "id": 51,
+    "subject": "safety"
+  },
+  {
+    "url": "https://www.mysafetysign.com/free-first-aid-quiz",
+    "support": "Red Cross recommends a five-and-five approach while delivering first aid to a choking victim: give 5 back blows (between the persons shoulder blades with the heel of your hand) and give 5 abdominal thrusts (also known as the Heimlich maneuver). Alternate between 5 blows and 5 thrusts until the blockage is dislodged.",
+    "question": "What is the correct method for saving someone from choking?",
+    "distractor": [
+      "Five abdominal thrusts followed by five back blows if needed",
+      "Back blows only",
+      "Abdominal thrusts only"
+    ],
+    "difficulty": 0,
+    "correct_answer": [
+      "Five back blows followed by five abdominal thrusts if necessary"
+    ],
+    "id": 52,
+    "subject": "safety"
+  },
+  {
+    "url": "https://www.mysafetysign.com/free-first-aid-quiz",
+    "support": "Although cuts and scrapes do not require the victim to visit an emergency room, proper care is needed to avoid infections. If you're treating wounds, Mayo Clinic advises you to stop the bleeding by applying gentle pressure on the wound for 20 to 30 minutes; use clear water to clean the wound and tweezers cleaned with alcohol to remove particles from the wound, if there are any; avoid using soap as it may cause irritation; apply an antibiotic to the affected area; cover the wound to keep harmful bacteria out; and change the dressing regularly or when it becomes wet or dirty. For wounds that are deeper than 1/4 inch or 6 millimeters, visit a health practitioner to get stitches.",
+    "question": "What should you NOT do while treating cuts and scrapes?",
+    "distractor": [
+      "Apply pressure on the wound with a clean cloth or bandage",
+      "Apply an antibiotic to the wound",
+      "Cover the wound"
+    ],
+    "difficulty": 0,
+    "correct_answer": [
+      "Wash the wound with soap"
+    ],
+    "id": 53,
+    "subject": "safety"
+  },
+  {
+    "url": "https://www.mysafetysign.com/free-first-aid-quiz",
+    "support": "You should not give anything to a heart attack victim unless it is his or her own medication. Ask if the person takes any chest pain medication for a known heart condition, such as nitroglycerin, and help them take it. If the pain does not go away promptly with rest or within 3 minutes of taking nitroglycerin, call for emergency medical help.",
+    "question": "Should you give an over-the-counter medicine to a person who is having a heart attack?",
+    "distractor": [
+      "Yes"
+    ],
+    "difficulty": 0,
+    "correct_answer": [
+      "No"
+    ],
+    "id": 54,
+    "subject": "safety"
+  },
+  {
+    "url": "https://www.mysafetysign.com/free-first-aid-quiz",
+    "support": "Mayo Clinic advises that a first aider should position an unconscious person on his/her back and raise his/her legs by 30 centimeters (12 inches). Raising the patient's legs above heart level will restore blood flow to the brain. The next step is to loosen the patient's collar, belt or any other constrictive clothing. In case the person does not regain consciousness, you should call 911 or your local emergency number. Next, check the patient's airway to ensure it is clear. Finally, the first aid provider should check for signs of life including breathing, coughing or any movement. If those are absent, begin CPR.",
+    "question": "Arrange in the correct order the following treatment steps for somebody who has lost consciousness: (i) call 911 or inform someone of the situation, (ii) begin CPR, (iii) check the patient's airway to make sure it is clear, (iv) place the victim on his/her back, (v) check signs of life (coughing, breathing, or movement).",
+    "distractor": [
+      "i, ii, iii, iv, v",
+      "v, iv, iii, i, ii",
+      "ii, iv, iii, v, i"
+    ],
+    "difficulty": 0,
+    "correct_answer": [
+      "iv, i, iii, v, ii"
+    ],
+    "id": 55,
+    "subject": "safety"
+  },
+  {
+    "url": "https://www.mysafetysign.com/free-first-aid-quiz",
+    "support": "Frostbitten body parts should be warmed gradually in water that is 104 to 107.6 F (40 to 42 C). Additionally, you can wrap or cover the frostbite in a warm blanket. Dont use direct heat, such as a stove, heat lamp, fireplace or heating pad, because these can cause burns before you feel them on your numb skin.",
+    "question": "At what water temperature should you bathe frostbitten skin?",
+    "distractor": [
+      "At 32 F (0 C)",
+      "Between 120 to 150 F (50 to 70 C)",
+      "You should never submerge frostbite into water"
+    ],
+    "difficulty": 0,
+    "correct_answer": [
+      "Between 104 to 107.6 F (40 to 42 C)"
+    ],
+    "id": 56,
+    "subject": "safety"
+  },
+  {
+    "url": "https://www.mysafetysign.com/free-first-aid-quiz",
+    "support": "In 2010, the American Heart Association (AHA) changed CPR's longstanding A-B-C (Airway, Breathing, Compressions) sequence to C-A-B (Compressions, Airway, Breathing).",
+    "question": "What is the correct order of airway, breathing, and circulation in the CPR process?",
+    "distractor": [
+      "Airway, breastbone, chest",
+      "Airway, breathing, circulation",
+      "Back, circulation, airway"
+    ],
+    "difficulty": 0,
+    "correct_answer": [
+      "Chest compressions, airway, breathing"
+    ],
+    "id": 57,
+    "subject": "safety"
+  },
+  {
+    "url": "https://www.mysafetysign.com/free-first-aid-quiz",
+    "support": "According to the Centers for Disease Control and Prevention, a person's body temperature can rise to 106 F or higher within a span of 10 to 15 minutes, in case of a heatstroke. In the absence of emergency treatment, a person suffering from heatstroke can also die or become physically impaired. In case you find the above symptoms in your co-worker, CDC advises that you call 911 and inform your supervisor. Take the patient to a cool, shaded area; spray, sponge, or soak him/her in water; and fan his/her body",
+    "question": "What is a symptom of a heatstroke?",
+    "distractor": [
+      "Rapid strong pulse",
+      "Hallucinations",
+      "Throbbing headache",
+      "High body temperature"
+    ],
+    "difficulty": 0,
+    "correct_answer": [
+      "Rapid strong pulse, hallucinations, throbbing headache, and high body temperature"
+    ],
+    "id": 58,
+    "subject": "safety"
+  },
+  {
+    "url": "https://www.mysafetysign.com/free-first-aid-quiz",
+    "support": "MedlinePlus recommends that you perform the following steps to administer first aid for chemical burns: You should first remove the cause of the chemical burn. Do not come in contact with the chemical yourself. In case it is a dry chemical, brush off the excess taking care to avoid your eyes. Remove any contaminated jewelry or clothing. Flush the chemicals off the affected area using cool water for 15 minutes or more. If the victim appears faint or pale, or if there is rapid or shallow breathing, treat him/her for shock. Apply cool, wet compresses to relieve the pain. Wrap the affected area with a clean cloth or dry sterile dressing and keep the area away from friction and pressure.",
+    "question": "First aid treatment for a chemical burn involves what?",
+    "distractor": [
+      "Applying ointment over the affected area",
+      "Removing dead skin",
+      "Neutralizing the chemical"
+    ],
+    "difficulty": 0,
+    "correct_answer": [
+      "Flushing the chemicals off the affected area with cool, gently running water for 10 to 20 minutes"
+    ],
+    "id": 59,
+    "subject": "safety"
+  },
+  {
+    "url": "https://www.mysafetysign.com/free-first-aid-quiz",
+    "support": "According to MedlinePlus at the National Institutes of Health, chest pain is the most common symptom of a heart attack. Chest pain may present in only one part of the patient's body, or shift from the chest to shoulder, arms, neck, jaw, belly or back",
+    "question": "What is the most common symptom of a heart attack?",
+    "distractor": [
+      "Nausea",
+      "Shortness of breath",
+      "Cough"
+    ],
+    "difficulty": 0,
+    "correct_answer": [
+      "Chest Pain"
+    ],
+    "id": 60,
+    "subject": "safety"
+  },
+  {
+    "url": "https://www.mysafetysign.com/free-first-aid-quiz",
+    "support": "The first thing you should do is call 911 or your local emergency number. While waiting for health professionals, administer first aid.",
+    "question": "What first aid should you give to someone who is having a heart attack?",
+    "distractor": [
+      "Call 911 or your local emergency number",
+      "Perform CPR",
+      "Loosen his/her clothing"
+    ],
+    "difficulty": 0,
+    "correct_answer": [
+      "Call 911, perform CPR, and loosen his/her clothing"
+    ],
+    "id": 61,
+    "subject": "safety"
+  },
+  {
+    "url": "https://www.mysafetysign.com/free-first-aid-quiz",
+    "support": "While giving water can help dilute a chemical, you should NOT automatically assume that you should induce vomiting in someone who has ingested a chemical. You should call your local Poison Control Center or a doctor and obtain advice on what steps to take.",
+    "question": "True or false: when someone swallows a chemical, immediately have the person drink water and then induce vomiting.",
+    "distractor": [
+      "True"
+    ],
+    "difficulty": 0,
+    "correct_answer": [
+      "False"
+    ],
+    "id": 62,
+    "subject": "safety"
+  },
+  {
+    "url": "https://www.mysafetysign.com/free-first-aid-quiz",
+    "support": "Practitioners of first aid need to obtain advance consent or permission, the so-called expressed consent from the patient. To obtain consent, you should identify yourself, describe your level of medical training, and ask if it is all right to help. While administering first aid to an unresponsive victim, consent is implied or assumed, given that a reasonable person would grant permission to receive first aid care if able to do so.",
+    "question": "True or false: you are not required to ask a victim's permission to perform first aid.",
+    "distractor": [
+      "True"
+    ],
+    "difficulty": 0,
+    "correct_answer": [
+      "False"
+    ],
+    "id": 63,
+    "subject": "safety"
+  },
+  {
+    "url": "https://www.mysafetysign.com/free-food-safety-quiz",
+    "support": "According to the United States Department of Agriculture (USDA), In general, high-acid canned food such as tomatoes, grapefruit, and pineapple can be stored on the shelf for 12 to 18 months. Low-acid canned food such as meat, poultry, fish, and most vegetables will keep 2 to 5 years if the can remains in good condition and has been stored in a cool, clean, and dry place.",
+    "question": "How long can high-acid canned food such as tomatoes be stored?",
+    "distractor": [
+      "10 to 30 days",
+      "2 to 6 months",
+      "2 to 4 years"
+    ],
+    "difficulty": 0,
+    "correct_answer": [
+      "12 to 18 months"
+    ],
+    "id": 64,
+    "subject": "safety"
+  },
+  {
+    "url": "https://www.mysafetysign.com/free-earthquake-safety-quiz",
+    "support": "CERT members help with disaster preparedness as well as disaster relief. Be aware if your community has one. Have their number handy and contact them in case of emergency after a quake if professional responders are not immediately available.",
+    "question": "What does CERT stand for?",
+    "distractor": [
+      "Community Experimental Research Team",
+      "Central Emergency Response Terminal",
+      "Controlled Evacuation and Response Tactics"
+    ],
+    "difficulty": 0,
+    "correct_answer": [
+      "Community Emergency Response Team"
+    ],
+    "id": 65,
+    "subject": "safety"
+  },
+  {
+    "url": "https://www.mysafetysign.com/free-food-safety-quiz",
+    "support": "United States Department of Agriculture says, everyone is at risk for getting a foodborne illness. However, some people are at greater risk for experiencing a more serious illness or even death should they get a food borne illness. Those at greater risk are infants, young children, pregnant women and their unborn babies, older adults, and people with weakened immune systems (such as those with HIV/AIDS, cancer, diabetes, kidney disease, and transplant patients).",
+    "question": "Everyone is at a risk of contracting a food-borne illness. However, who are at a greater risk of falling ill or even dying of infection?",
+    "distractor": [
+      "Infants",
+      "Pregnant women",
+      "People with weakened immune systems (those with HIV/AIDS, cancer, diabetes etc.)"
+    ],
+    "difficulty": 0,
+    "correct_answer": [
+      "Infants, pregnant women, and people with weakened immune systems"
+    ],
+    "id": 66,
+    "subject": "safety"
+  },
+  {
+    "url": "https://www.mysafetysign.com/free-food-safety-quiz",
+    "support": "As per healthvermont.gov, Salmonella is commonly found in raw food products that come from animals, such as eggs, egg products, meat, meat products, unpasteurized milk, or other unpasteurized dairy products. Thorough cooking and processing effectively kills salmonella bacteria.",
+    "question": "What foods is most commonly associated with Salmonella?",
+    "distractor": [
+      "Raw meat",
+      "Raw vegetables",
+      "Unpasteurized dairy products"
+    ],
+    "difficulty": 0,
+    "correct_answer": [
+      "Both raw meat and unpasteurized dairy products"
+    ],
+    "id": 67,
+    "subject": "safety"
+  },
+  {
+    "url": "https://www.mysafetysign.com/free-fall-protection-quiz",
+    "support": "OSHA prohibits working on or from scaffolds when winds are above 40 miles/hour except in cases when a competent person has concluded that it is safe for workers to be on a scaffold and these workers are protected by wind screens or fall arrest systems.",
+    "question": "Working on scaffold during winds above ____ miles per hour is prohibited by OSHA.",
+    "distractor": [
+      "10",
+      "25",
+      "50"
+    ],
+    "difficulty": 0,
+    "correct_answer": [
+      "40"
+    ],
+    "id": 68,
+    "subject": "safety"
+  },
+  {
+    "url": "https://www.mysafetysign.com/free-forklift-safety-quiz",
+    "support": "According to OSHA, Std No. 1910.178(n)(5), 'Railroad tracks shall be crossed diagonally wherever possible. Parking closer than 8 feet from the center of railroad tracks is prohibited.'",
+    "question": "What is the minimum distance that should separate a parked forklift from a railroad junction?",
+    "distractor": [
+      "5 feet",
+      "15 feet",
+      "25 feet"
+    ],
+    "difficulty": 0,
+    "correct_answer": [
+      "8 feet"
+    ],
+    "id": 69,
+    "subject": "safety"
+  },
+  {
+    "url": "https://www.mysafetysign.com/free-food-safety-quiz",
+    "support": "The United States Department of Agriculture (informally called the USDA or Agriculture Department) is the federal executive division formed to develop and execute U.S. federal government policy on food, farming and agriculture.",
+    "question": "What agency inspects, grades, and enforces standards of quality and wholesomeness for meat, poultry, milk, eggs, and grains?",
+    "distractor": [
+      "CDC",
+      "FDA",
+      "EPA"
+    ],
+    "difficulty": 0,
+    "correct_answer": [
+      "USDA"
+    ],
+    "id": 70,
+    "subject": "safety"
+  },
+  {
+    "url": "https://www.mysafetysign.com/free-food-safety-quiz",
+    "support": "Eggs should be cooked at a minimum internal temperature of 160 degree Fahrenheit. The Centers for Disease Control and Prevention explains why: a type of bacterium, Salmonella, can be on both the outside and inside of eggs that appear to be normal, and if the eggs are eaten raw or lightly cooked, the bacterium can cause illness.",
+    "question": "The hint shows a list of food items and the minimum internal food temperature at which they should be cooked. Which of these is incorrect?",
+    "distractor": [
+      "Fish and Shellfish: 145 degrees Fahrenheit",
+      "Leftovers: 165 degrees Fahrenheit",
+      "Ground beef: 160 degrees Fahrenheit"
+    ],
+    "difficulty": 0,
+    "correct_answer": [
+      "Eggs: 145 degrees Fahrenheit"
+    ],
+    "id": 71,
+    "subject": "safety"
+  },
+  {
+    "url": "https://www.mysafetysign.com/free-food-safety-quiz",
+    "support": "United States Department of Agriculture (USDA) states that you cannot always see, taste, or smell harmful bacteria that may cause illness.",
+    "question": "True or false: you can always smell, see, or taste harmful bacteria in food that can cause illness.",
+    "distractor": [
+      "True"
+    ],
+    "difficulty": 0,
+    "correct_answer": [
+      "False"
+    ],
+    "id": 72,
+    "subject": "safety"
+  },
+  {
+    "url": "https://www.mysafetysign.com/free-food-safety-quiz",
+    "support": "Perishable food should not be left out more than 2 hours at room temperature (1 hour when the temperature is above 90 F)",
+    "question": "What is the maximum amount of time perishable food should be left out?",
+    "distractor": [
+      "1.5 hours",
+      "3 hours",
+      "3.5 hours"
+    ],
+    "difficulty": 0,
+    "correct_answer": [
+      "2 hours"
+    ],
+    "id": 73,
+    "subject": "safety"
+  },
+  {
+    "url": "https://www.mysafetysign.com/free-food-safety-quiz",
+    "support": "People can get sick by consuming food contaminated by the following three major hazards: physical (objects such ashair, nails, jewelry, glass, staples, and bandages in food are categorized as physical hazards), chemical (substances that are added during food handling or that occur naturally can cause food-borne illness; examples include certain metals, pesticides, and cleaning agents), and biological (germs that are not visible to the naked eye like those carried by bacteria, viruses, and parasites).",
+    "question": "What three major factors cause food contamination?",
+    "distractor": [
+      "Physical, biological, and radiological",
+      "Physical, psychological, and health",
+      "Physical, chemical, and psychosocial"
+    ],
+    "difficulty": 0,
+    "correct_answer": [
+      "Physical, biological, and chemical"
+    ],
+    "id": 74,
+    "subject": "safety"
+  },
+  {
+    "url": "https://www.mysafetysign.com/free-food-safety-quiz",
+    "support": "According to U.S. Food and Drug Administration, pasteurizing milk DOES NOT cause lactose intolerance and allergic reactions. But, both raw milk and pasteurized milk can cause allergic reactions in people sensitive to milk proteins.",
+    "question": "True or false: individuals who are lactose-intolerant can consume pasteurized milk without negative side effects.",
+    "distractor": [
+      "True"
+    ],
+    "difficulty": 0,
+    "correct_answer": [
+      "False"
+    ],
+    "id": 75,
+    "subject": "safety"
+  },
+  {
+    "url": "https://www.mysafetysign.com/free-fall-protection-quiz",
+    "support": "The ladder must extend at least 3 ft (36 inches) above the landing surface to allow worker a hand hold for climbing up and down the ladder.",
+    "question": "When using a ladder to climb a roof, the ladder must extend at least___ above it.",
+    "distractor": [
+      "18",
+      "24",
+      "30"
+    ],
+    "difficulty": 0,
+    "correct_answer": [
+      "36"
+    ],
+    "id": 76,
+    "subject": "safety"
+  },
+  {
+    "url": "https://www.mysafetysign.com/free-fire-safety-quiz",
+    "support": "You should always aim at the base of the fire and never the flames. To put out a fire, it is important that you extinguish the fuel. If you aim at the flames, the extinguishing agent will fly through them without putting out the fire.",
+    "question": "Where should you aim a fire extinguisher nozzle when putting out a fire?",
+    "distractor": [
+      "At the top of the fire",
+      "At the center of the fire",
+      "Away from the fire"
+    ],
+    "difficulty": 0,
+    "correct_answer": [
+      "At the base of the fire"
+    ],
+    "id": 77,
+    "subject": "safety"
+  },
+  {
+    "url": "https://www.mysafetysign.com/free-fire-safety-quiz",
+    "support": "According to the U.S. Fire Administration, you should not go back inside a burning building. Apart from the risk of burning, the increasingly depleted oxygen levels and high amount of toxic gases could pose a great hazard to your life. Leave the fire-fighting to the authorities, even if you know that someone is stuck inside the burning building.",
+    "question": "What should you NOT do during a fire emergency?",
+    "distractor": [
+      "Evacuate a building through designated exit routes",
+      "Keep fire doors shut to prevent the fire from spreading",
+      "Crawl low under the smoke while breathing only through your nose"
+    ],
+    "difficulty": 0,
+    "correct_answer": [
+      "Re-enter the building without the permission of authorities"
+    ],
+    "id": 78,
+    "subject": "safety"
+  },
+  {
+    "url": "https://www.mysafetysign.com/free-fire-safety-quiz",
+    "support": "Employers can choose to authorize some or all employees to use portable extinguishers. In both cases, employers should provide employees sufficient training to do so.",
+    "question": "True or false: portable fire extinguishers should only be used by trained employees.",
+    "distractor": [
+      "False"
+    ],
+    "difficulty": 0,
+    "correct_answer": [
+      "True"
+    ],
+    "id": 79,
+    "subject": "safety"
+  },
+  {
+    "url": "https://www.mysafetysign.com/free-fire-safety-quiz",
+    "support": "Every fire alarm should receive the same reaction, regardless of whether there is actually a fire or not. Even when you do not see any signs of fire, you should take appropriate steps when an alarm is sounded. Moreover, all false alarms should be reported to the authorities.",
+    "question": "True or false: even when there are no signs of a fire, you should respond to every fire alarm as if it were real.",
+    "distractor": [
+      "False"
+    ],
+    "difficulty": 0,
+    "correct_answer": [
+      "True"
+    ],
+    "id": 80,
+    "subject": "safety"
+  },
+  {
+    "url": "https://www.mysafetysign.com/free-fire-safety-quiz",
+    "support": "OSHA Standard number 1910.39(d) states, an employer must inform employees upon initial assignment to a job of the fire hazards to which they are exposed. An employer must also review with each employee those parts of the fire prevention plan necessary for self-protection.",
+    "question": "When should employees be informed of the fire hazards to which they are exposed at work?",
+    "distractor": [
+      "Within two days of the initial assignment",
+      "Within 30 days of the initial assignment",
+      "Within 90 days of the initial assignment"
+    ],
+    "difficulty": 0,
+    "correct_answer": [
+      "Upon the initial assignment"
+    ],
+    "id": 81,
+    "subject": "safety"
+  },
+  {
+    "url": "https://www.mysafetysign.com/free-fire-safety-quiz",
+    "support": "Class A fires include fires in ordinary combustibles: paper, wood, cloth, rubber, and many plastics. Water based fire extinguishers and multi-purpose dry chemical based fire extinguishers are suitable for Class A fires. However, ordinary dry chemical fire extinguishers are suitable for only Class B and Class C fires",
+    "question": "Which fire extinguishers are used to put out Class A fires?",
+    "distractor": [
+      "CO2 only",
+      "Water only",
+      "Multi-purpose dry chemical only",
+      "Both CO2 and water"
+    ],
+    "difficulty": 0,
+    "correct_answer": [
+      "Both water and multi-purpose dry chemical"
+    ],
+    "id": 82,
+    "subject": "safety"
+  },
+  {
+    "url": "https://www.mysafetysign.com/free-fire-safety-quiz",
+    "support": "Class B fire extinguishers use carbon dioxide as the fire-fighting agent and can extinguish oils, paints, lacquers, grease, solvents, and flammable liquids. Fires on plastic surfaces can be put out via a Class A fire extinguisher, which uses water.",
+    "question": "The hint shows a list of fire extinguisher types matched with surfaces on which they can be used. Which is the incorrect option?",
+    "distractor": [
+      "Class A - Cloth, wood, paper, and rubber",
+      "Class C - Wiring, fuse boxes, electrical equipment, and computers",
+      "Class D - Combustible metals such as magnesium, potassium, titanium, and sodium",
+      "Class K - Cooking fluids such as fats and oils"
+    ],
+    "difficulty": 0,
+    "correct_answer": [
+      "Class B - Plastics, polyethylene, styrofoam"
+    ],
+    "id": 83,
+    "subject": "safety"
+  },
+  {
+    "url": "https://www.mysafetysign.com/free-fire-safety-quiz",
+    "support": "The Sound Level Meter is an instrument used to measure noise levels.",
+    "question": "To what does the acronym SLM refer?",
+    "distractor": [
+      "Service Lifecycle Management",
+      "System Level Monitor",
+      "Sound Loudness Methods"
+    ],
+    "difficulty": 0,
+    "correct_answer": [
+      "Sound Level Meter"
+    ],
+    "id": 84,
+    "subject": "safety"
+  },
+  {
+    "url": "https://www.mysafetysign.com/free-fire-safety-quiz",
+    "support": "When you discover a fire, you should do the following: help the people in immediate danger; alert everyone around you by shouting \"Fire!\"; pull the fire alarm; call the fire department; and close the door behind you to help confine the fire. Just be sure not to lock the door, so that the fire department can get in. Finally, of course, leave the building with your co-workers.",
+    "question": "When you discover a fire, you should do what?",
+    "distractor": [
+      "Use a fire extinguisher to put out the fire, even if you've never used a fire extinguisher before",
+      "Stay in the building until you figure out a way to extinguish the fire",
+      "Run out of the building without warning others of the fire"
+    ],
+    "difficulty": 0,
+    "correct_answer": [
+      "Pull the fire alarm and call the fire department"
+    ],
+    "id": 85,
+    "subject": "safety"
+  },
+  {
+    "url": "https://www.mysafetysign.com/free-fire-safety-quiz",
+    "support": "According to OSHA, employers are not required to provide portable fire extinguishers in the office. But if they do, they must set up an educational program to acquaint employees with the general principles of fire extinguisher use.",
+    "question": "True or false: all workplaces need to provide portable fire extinguishers.",
+    "distractor": [
+      "True"
+    ],
+    "difficulty": 0,
+    "correct_answer": [
+      "False"
+    ],
+    "id": 86,
+    "subject": "safety"
+  },
+  {
+    "url": "https://www.mysafetysign.com/free-fire-safety-quiz",
+    "support": "Flammable liquids include oils, gasoline, paints, grease, lacquers, and solvents. Class B carbon dioxide fire extinguishers are used to put out fires caused by flammable liquids.",
+    "question": "Which fire extinguishers are used to put out fires caused by flammable liquids?",
+    "distractor": [
+      "Class A water fire extinguishers",
+      "Class C dry chemical fire extinguisher"
+    ],
+    "difficulty": 0,
+    "correct_answer": [
+      "Class B carbon dioxide fire extinguisher"
+    ],
+    "id": 87,
+    "subject": "safety"
+  },
+  {
+    "url": "https://www.mysafetysign.com/free-fire-safety-quiz",
+    "support": "If you're unable to escape the building, you should create an area of refuge by: sealing the room (stuff wet cloth around cracks in doors, and seal up vents; this stops the smoke from coming through such openings), keeping windows and doors closed (do not break windows; smoke and flames can come in from the inside; crack open a window slightly if you need air), staying low under smoke (smoke, heat, and poisonous gases rise, leaving the freshest air closer to the floor; remember to cover your nose and mouth with a wet cloth), breathing only through your nose, and hanging something in the window to signal for help.",
+    "question": "What should you do if you are unable to evacuate a burning building?",
+    "distractor": [
+      "Open the doors and windows to let the smoke out",
+      "Break windows",
+      "Breathe through your mouth"
+    ],
+    "difficulty": 0,
+    "correct_answer": [
+      "Stay low under the smoke"
+    ],
+    "id": 88,
+    "subject": "safety"
+  },
+  {
+    "url": "https://www.mysafetysign.com/free-fire-safety-quiz",
+    "support": "Employers should provide their workers with the fire prevention plan in writing when there are 11 or more employees at a workplace. In a workplace with 10 or fewer employees, the fire prevention plan may be communicated verbally.",
+    "question": "Workplaces with a minimum of ____ employees need to have a written fire prevention program in place.",
+    "distractor": [
+      "5",
+      "20",
+      "25"
+    ],
+    "difficulty": 0,
+    "correct_answer": [
+      "11"
+    ],
+    "id": 89,
+    "subject": "safety"
+  },
+  {
+    "url": "https://www.mysafetysign.com/free-fire-safety-quiz",
+    "support": "Although in some cases fire doors are used as emergency exits in the event of a fire, the primary function of a fire door is to act as a fire barrier and contain fire and smoke to prevent it from entering parts of the building unaffected by fire at the time.",
+    "question": "True or false: the primary function of a fire door is to exit a building in case of fire.",
+    "distractor": [
+      "True"
+    ],
+    "difficulty": 0,
+    "correct_answer": [
+      "False"
+    ],
+    "id": 90,
+    "subject": "safety"
+  },
+  {
+    "url": "https://www.mysafetysign.com/free-fire-safety-quiz",
+    "support": "The extinguisher should be discharges using the P.A.S.S technique: pull, aim, squeeze, and sweep. Pull the pin to break the tamper seal. Aim low, pointing the nozzle of the fire extinguisher at the base of the fire. Squeeze the handle to release the extinguishing agent. Sweep from one side to the other at the base of the fire till it extinguishes. Repeat in the event of re-ignition.",
+    "question": "What is the acronym describing the correct sequence of using a fire extinguisher?",
+    "distractor": [
+      "PULL",
+      "PUSH"
+    ],
+    "difficulty": 0,
+    "correct_answer": [
+      "PASS"
+    ],
+    "id": 91,
+    "subject": "safety"
+  },
+  {
+    "url": "https://www.mysafetysign.com/free-pesticide-hazard-quiz",
+    "support": "One of the illnesses covered under the Sentinel Event Notification System for Occupational Risk (SENSOR) program (which builds and maintains occupational illness and injury surveillance capacity within state health departments) is acute occupational pesticide-related injuries and illnesses. Supported by NIOSH (National Institute of Occupational Safety and Health), a total of 12 states participate in the SENSOR-Pesticides program. In addition to keeping a record of the number of acute occupational pesticide-related cases, SENSOR’s surveillance systems also develop preventive methods designed to mitigate pesticide hazards.",
+    "question": "The pesticides program SENSOR-Pesticides monitors ____________________.",
+    "distractor": [
+      "The amount of pesticides used in the U.S. annually",
+      "Preventive measures undertaken during pesticide use",
+      "Toxicity levels of pesticides"
+    ],
+    "difficulty": 0,
+    "correct_answer": [
+      "Pesticide-related illnesses and injuries in the U.S."
+    ],
+    "id": 92,
+    "subject": "safety"
+  },
+  {
+    "url": "https://www.mysafetysign.com/free-back-safety-quiz",
+    "support": "Workers often lift more weight under the illusion that use of back belts increases the lifting capability of a worker. There has not been sufficient evidence to support this fact and hence it cannot be held true.",
+    "question": "True or false: if you wear a back belt, you can lift more weight than you could without a belt.",
+    "distractor": [
+      "True"
+    ],
+    "difficulty": 0,
+    "correct_answer": [
+      "False"
+    ],
+    "id": 93,
+    "subject": "safety"
+  },
+  {
+    "url": "https://www.mysafetysign.com/free-back-safety-quiz",
+    "support": "The AAOS lists its instructions for properly lifting a heavy object: plan ahead before lifting an object (decide in advance where the load will be placed after it has been lifted; the path in between where the load is kept and where it has to be placed should be free from obstacles), keep yourself close to the object you wish to lift, keep your feet shoulder-width apart (this gives you a solid base to support), bend at your knees, tighten the stomach muscles, lift the load with your leg muscles as you stand up (leg muscles are stronger than back muscles), and do not lift an object which is too heavy or has an awkward shape all alone (get help).",
+    "question": "What should you NOT do while lifting objects?",
+    "distractor": [
+      "Keep the object close to your body",
+      "Keep your back straight",
+      "Bend at the knees"
+    ],
+    "difficulty": 0,
+    "correct_answer": [
+      "Keep your feet together"
+    ],
+    "id": 94,
+    "subject": "safety"
+  },
+  {
+    "url": "https://www.mysafetysign.com/free-back-safety-quiz",
+    "support": "The Lifting Index is calculated by dividing the weight of the load lifted by the Recommended Weight Limit. NIOSH has established the following guidelines: Lifting Index of 1.00 or less is acceptable, Lifting Index of greater than 1.00 up to 3.00 indicates a need for task and/or administrative changes, and Lifting Index of greater than 3.00 is unacceptably hazardous and engineering changes are required.",
+    "question": "True or false: the NIOSH Lifting Index estimates the level of physical stress associated with a particular manual lifting task.",
+    "distractor": [
+      "False"
+    ],
+    "difficulty": 0,
+    "correct_answer": [
+      "True"
+    ],
+    "id": 95,
+    "subject": "safety"
+  },
+  {
+    "url": "https://www.mysafetysign.com/free-pesticide-hazard-quiz",
+    "support": "Workers’ inability to make proper use of their right (under the Worker Protection Standard issued by the EPA) to report violations often stems from lack of awareness, making the employers’ contribution to training and education all the more important. Employers can help lower the rate of pesticide exposure through comprehensive training on each chemical, educating workers about their rights, strategizing on preventive methods, making workers comprehend label information on pesticide containers, and providing workers with proper PPE.",
+    "question": "How can employers help lower the rate of pesticide exposure?",
+    "distractor": [
+      "By letting workers learn about the risks on the job",
+      "By not letting workers know that they are working with toxic chemicals",
+      "Through short training sessions every 5 years"
+    ],
+    "difficulty": 0,
+    "correct_answer": [
+      "Through comprehensive training on each chemical and educating workers about their rights"
+    ],
+    "id": 96,
+    "subject": "safety"
+  },
+  {
+    "url": "https://www.mysafetysign.com/free-back-safety-quiz",
+    "support": "To lower a load, you should make use of its edge, bend your knees, keep the load close to their body, and avoid twisting your torso.",
+    "question": "What should you NOT do when lowering a load?",
+    "distractor": [
+      "Keep the load close to your body",
+      "Bend your knees",
+      "Twist your body, keep the load close, and bend your knees"
+    ],
+    "difficulty": 0,
+    "correct_answer": [
+      "Twist your body"
+    ],
+    "id": 97,
+    "subject": "safety"
+  },
+  {
+    "url": "https://www.mysafetysign.com/free-back-safety-quiz",
+    "support": "Some workplaces cannot provide end-to-end carpeted or other soft flooring due to several reasons. Anti-fatigue mats in such cases can be a big help. Specially designed for unique work environment (wet, sterile etc.), anti-fatigue mats can help ease discomfort by providing adequate support to feet and reducing stress on the lower back.",
+    "question": "True or false: when flooring cannot be changed to provide cushion, anti-fatigue mats can help ease discomfort to the feet and back.",
+    "distractor": [
+      "False"
+    ],
+    "difficulty": 0,
+    "correct_answer": [
+      "True"
+    ],
+    "id": 98,
+    "subject": "safety"
+  },
+  {
+    "url": "https://www.mysafetysign.com/free-back-safety-quiz",
+    "support": "After two studies, the National Institute for Occupational Safety and Health has concluded that there isn't sufficient evidence which proves that back belts work as a preventative measure against back injuries.",
+    "question": "True or false: wearing a back belt is a proven way to minimize the risk of back injury at work.",
+    "distractor": [
+      "True"
+    ],
+    "difficulty": 0,
+    "correct_answer": [
+      "False"
+    ],
+    "id": 99,
+    "subject": "safety"
+  },
+  {
+    "url": "http://gre.kmf.com/practise/exercise/553/152736570620606599/0/0/0/0/0/0",
+    "support": "<p>Here are the vocabulary definitions:</p><ul><li>Sorrow: a feeling of grief</li><li>Jubilance: a feeling of extreme joy</li><li>Mischievousness: an attribute of mischievous children</li><li>Vision: a vivid mental image</li><li>Liveliness: general activity and motion</li></ul>",
+    "question": "Despite the smile that spread from ear to ear, the eyes relayed a certain _____ .",
+    "distractor": [
+      "jubilance",
+      "mischievousness",
+      "vision",
+      "liveliness"
+    ],
+    "correct_answer": [
+      "sorrow"
+    ],
+    "id": 100,
+    "subject": "gre"
+  },
+  {
+    "url": "http://gre.kmf.com/practise/exercise/553/152736570620606599/5ekxgk/0/0/0/0/0",
+    "support": "<p>Here are the vocabulary definitions:</p><ul><li>Scant: less than the correct or legal or full amount often deliberately so</li><li>Mixed: consisting of a haphazard assortment of different kinds</li><li>Undue: not yet payable</li><li>Inconsistent: displaying a lack of consistency</li><li>Obtrusive: sticking out; protruding</li></ul>",
+    "question": "Some historians see the Jacksonians as little more than ruthless capitalists who had _____ regard for individual welfare.",
+    "distractor": [
+      "mixed",
+      "undue",
+      "inconsistent",
+      "obtrusive"
+    ],
+    "correct_answer": [
+      "scant"
+    ],
+    "id": 101,
+    "subject": "gre"
+  },
+  {
+    "url": "http://gre.kmf.com/practise/exercise/553/152736570620606599/a9kxhk/0/0/0/0/0",
+    "support": "<p>Here are the vocabulary definitions:</p><ul><li>Static: showing little or no change</li><li>Transient: of a mental act; causing effects outside the mind</li><li>Maladjusted: poorly adjusted to demands and stresses of daily living</li><li>Disturbed: having the place or position changed</li><li>Discreet: marked by prudence or modesty and wise self-restraint</li></ul>",
+    "question": "One of social science's major themes is that of stability versus change; to what extent are individual personalities _____ yet different over time?",
+    "distractor": [
+      "transient",
+      "maladjusted",
+      "disturbed",
+      "discreet"
+    ],
+    "correct_answer": [
+      "static"
+    ],
+    "id": 102,
+    "subject": "gre"
+  },
+  {
+    "url": "http://gre.kmf.com/practise/exercise/553/152736570620606599/55kxik/0/0/0/0/0",
+    "support": "<p>Here are the vocabulary definitions:</p><ul><li>Prodigious: so great in size or force or extent as to elicit awe</li><li>Persistent: lasting or enduring tenaciously</li><li>Invaluable: having incalculable monetary, intellectual, or spiritual worth</li><li>Incredulous: not disposed or willing to believe; unbelieving</li><li>Severe: intensely or extremely bad or unpleasant in degree or quality</li></ul>",
+    "question": "The Erie Canal's completion caused _____ economic ripples; property values and industrial output along its route rose exponentially.",
+    "distractor": [
+      "persistent",
+      "invaluable",
+      "incredulous",
+      "severe"
+    ],
+    "correct_answer": [
+      "prodigious"
+    ],
+    "id": 103,
+    "subject": "gre"
+  },
+  {
+    "url": "http://gre.kmf.com/practise/exercise/553/152736570620606599/48kxjk/0/0/0/0/0",
+    "support": "<p>Here are the vocabulary definitions:</p><ul><li>Stolidity: apathy demonstrated by an absence of emotional reactions</li><li>Amazement: the feeling that accompanies something extremely surprising</li><li>Exasperation: an exasperated feeling of annoyance</li><li>Alarm: cause to be unpleasantly surprised</li><li>Perplexity: trouble or confusion resulting from complexity</li></ul>",
+    "question": "Voters have become so inured to the fickle nature of politicians that they responded to the levy of a new tax with _____ .",
+    "distractor": [
+      "amazement",
+      "exasperation",
+      "alarm",
+      "perplexity"
+    ],
+    "correct_answer": [
+      "stolidity"
+    ],
+    "id": 104,
+    "subject": "gre"
+  },
+  {
+    "url": "http://gre.kmf.com/practise/exercise/553/152736570620606599/d0kxkk/0/0/0/0/0",
+    "support": "<p>Here are the vocabulary definitions:</p><ul><li>Contradiction: opposition between two conflicting forces or ideas</li><li>Monotony: the quality of wearisome constancy, routine, and lack of variety</li><li>Benefit: something that is advantageous or good</li><li>Foreseeability: able to have prescience of or to know in advance</li><li>Genius: an exceptional intellectual ability and originality</li></ul>",
+    "question": "The division between child-rearing goals that emphasize originality and personalization and those that place emphasis on adoption of conventions and compliance with rules discloses a _____ that stems from the principles on which these goals are based.",
+    "distractor": [
+      "monotony",
+      "benefit",
+      "foreseeability",
+      "genius"
+    ],
+    "correct_answer": [
+      "contradiction"
+    ],
+    "id": 105,
+    "subject": "gre"
+  },
+  {
+    "url": "http://gre.kmf.com/practise/exercise/553/152736570620606599/9fl06k/0/0/0/0/0",
+    "support": "<p>Here are the vocabulary definitions:</p><ul><li>Erudite: having or showing profound knowledge</li><li>Lucid: easily understood</li><li>Didactic: intended for instruction</li><li>Panegyrical: formally expressing praise</li><li>Rational: consistent with or based on or using reason</li></ul>",
+    "question": "Despite her mentor's advice that she attempt to sound consistently _____ , the graduate student often resorted to using slang when presenting significant parts of her thesis, her habitual speech patterns overriding her years of learning.",
+    "distractor": [
+      "lucid",
+      "didactic",
+      "panegyrical",
+      "rational"
+    ],
+    "correct_answer": [
+      "erudite"
+    ],
+    "id": 106,
+    "subject": "gre"
+  },
+  {
+    "url": "http://gre.kmf.com/practise/exercise/553/152736570620606599/cfl0xk/0/0/0/0/0",
+    "support": "<p>Here are the vocabulary definitions:</p><ul><li>Diverge: move or draw apart</li><li>Divulge: make known to the public information that was previously known only to a few people or that was meant to be kept a secret</li><li>Retreat: pull back or move away or backward</li><li>Retrench: tighten one's belt; use resources carefully</li><li>Fuse: mix together different elements</li></ul>",
+    "question": "Western culture has so influenced Middle Eastern music that even the latter's roles of composer and performer, at one time inseparable, have now begun to _____ .",
+    "distractor": [
+      "divulge",
+      "retreat",
+      "retrench",
+      "fuse"
+    ],
+    "correct_answer": [
+      "diverge"
+    ],
+    "id": 107,
+    "subject": "gre"
+  },
+  {
+    "url": "http://gre.kmf.com/practise/exercise/553/152736570620606599/46l0zk/0/0/0/0/0",
+    "support": "<p>Here are the vocabulary definitions:</p><ul><li>Soporific: sleep inducing</li><li>Sedulous: marked by care and persistent effort</li><li>Coruscating: reflecting brightly</li><li>Debilitating: impairing the strength and vitality</li><li>Penetrating: able or tending to penetrate; piercing; sharp</li></ul>",
+    "question": "Although tranquilizers usually have a _____ effect, this is not always the case, especially when the abuse of these drugs results in a failure to induce the much-desired sleep.",
+    "distractor": [
+      "sedulous",
+      "coruscating",
+      "debilitating",
+      "penetrating"
+    ],
+    "correct_answer": [
+      "soporific"
+    ],
+    "id": 108,
+    "subject": "gre"
+  },
+  {
+    "url": "http://gre.kmf.com/practise/exercise/553/152736570620606599/dfl19k/0/0/0/0/0",
+    "support": "<p>Here are the vocabulary definitions:</p><ul><li>Axiomatic: evident without proof or argument</li><li>Historic: belonging to the past; of what is important or famous in the past</li><li>Disputable: capable of being disproved</li><li>Ubiquitous: being present everywhere at once</li><li>Empirical: derived from experiment and observation rather than theory</li></ul>",
+    "question": "Science and religion each have core tenets that are considered _____ ; however, because some scientific tenets are in conflict with some religious ones, these tenets cannot all be correct.",
+    "distractor": [
+      "historic",
+      "disputable",
+      "ubiquitous",
+      "empirical"
+    ],
+    "correct_answer": [
+      "axiomatic"
+    ],
+    "id": 109,
+    "subject": "gre"
+  },
+  {
+    "url": "http://gre.kmf.com/practise/exercise/553/152736570620606599/77l1ck/0/0/0/0/0",
+    "support": "<p>Here are the vocabulary definitions:</p><ul><li>Shallow: lacking depth</li><li>Maladaptive: showing faulty adaptation</li><li>Insincere: lacking sincerity</li><li>Unusual: not usual or common or ordinary</li><li>Insignificant: signifying nothing</li></ul>",
+    "question": "Oscar Wilde's The Importance of Being Earnest satirizes the _____ nature of upper crust British society; its characters take trivial concerns seriously while glibly dismissing important ones.",
+    "distractor": [
+      "maladaptive",
+      "insincere",
+      "unusual",
+      "insignificant"
+    ],
+    "correct_answer": [
+      "shallow"
+    ],
+    "id": 110,
+    "subject": "gre"
+  },
+  {
+    "url": "http://gre.kmf.com/practise/exercise/553/152736570620606599/bdl1zk/0/0/0/0/0",
+    "support": "<p>Here are the vocabulary definitions:</p><ul><li>Systematic: characterized by order and planning</li><li>Inexact: not exact</li><li>Aggressive: having or showing determination and energetic pursuit of your ends</li><li>Random: lacking any definite plan or order or purpose; governed by or depending on chance</li><li>Shameless: feeling no shame</li></ul>",
+    "question": "Despite what _____ philosophies of child-rearing suggest, there is no imperative that the day-to-day action of raising a child be simple, unambiguous and unchanging-no requirement, in other words, ensures that life follow philosophy.",
+    "distractor": [
+      "inexact",
+      "aggressive",
+      "random",
+      "shameless"
+    ],
+    "correct_answer": [
+      "systematic"
+    ],
+    "id": 111,
+    "subject": "gre"
+  },
+  {
+    "url": "http://gre.kmf.com/practise/exercise/553/152736570620606599/8bl23k/0/0/0/0/0",
+    "support": "<p>Here are the vocabulary definitions:</p><ul><li>Insolvent: unable to meet or discharge financial obligations</li><li>Former: preceding in time; prior or earlier</li><li>Unlikely: not likely to be true or to occur or to have occurred</li><li>Perturbed: thrown into a state of agitated confusion</li><li>Eccentric: conspicuously or grossly unconventional or unusual</li></ul>",
+    "question": "Having squandered his life's savings on unprofitable business ventures, the _____ entrepreneur was forced to live in squalor.",
+    "distractor": [
+      "former",
+      "unlikely",
+      "perturbed",
+      "eccentric"
+    ],
+    "correct_answer": [
+      "insolvent"
+    ],
+    "id": 112,
+    "subject": "gre"
+  },
+  {
+    "url": "http://gre.kmf.com/practise/exercise/44/152736637597563714/0/0/0/0/0/0",
+    "support": "<p>Here are the vocabulary definitions:</p><ul><li>Ineluctable: impossible to avoid or evade</li><li>Desultory: marked by lack of definite plan or regularity or purpose; jumping from one thing to another</li><li>Endemic: of or relating to a disease</li><li>Salient: having a quality that thrusts itself into attention</li><li>Seminal: having possibilities of future development</li></ul>",
+    "question": "Video game enthusiasts know that, while the astounding advances in technological innovation might increase the level of fun of the gaming experience, such a result is by no means _____ .",
+    "distractor": [
+      "desultory",
+      "endemic",
+      "salient",
+      "seminal"
+    ],
+    "correct_answer": [
+      "ineluctable"
+    ],
+    "id": 113,
+    "subject": "gre"
+  },
+  {
+    "url": "http://gre.kmf.com/practise/exercise/44/152736637597563714/3ck3ik/0/0/0/0/0",
+    "support": "<p>Here are the vocabulary definitions:</p><ul><li>Iconoclastic: characterized by attacks on established beliefs or institutions</li><li>Blithe: lacking or showing a lack of due concern</li><li>Inveterate: habitual</li><li>Meretricious: like or relating to a prostitute</li><li>Meritless: without merit; of little or no value or use</li></ul>",
+    "question": "Dismissed by the establishment, professing nothing but disdain for the canon, and yet beloved by his followers who trumpet his _____ opinions, the raffish pundit is laughing all the way to the bank.",
+    "distractor": [
+      "blithe",
+      "inveterate",
+      "meretricious",
+      "meritless"
+    ],
+    "correct_answer": [
+      "iconoclastic"
+    ],
+    "id": 114,
+    "subject": "gre"
+  },
+  {
+    "url": "http://gre.kmf.com/practise/exercise/44/152736637597563714/3bk3mk/0/0/0/0/0",
+    "support": "<p>Here are the vocabulary definitions:</p><ul><li>Undeveloped: not developed, mature, or fully formulated</li><li>Polished: perfected or made shiny and smooth</li><li>Convoluted: rolled longitudinally upon itself</li><li>Prosaic: not fanciful or imaginative</li><li>Tortuous: highly complex or intricate and occasionally devious</li></ul>",
+    "question": "Although his latest project was relatively _____ - little more than a few basic plot points scribbled on a napkin - the veteran screenwriter easily sold the story to a major Hollywood studio.",
+    "distractor": [
+      "polished",
+      "convoluted",
+      "prosaic",
+      "tortuous"
+    ],
+    "correct_answer": [
+      "undeveloped"
+    ],
+    "id": 115,
+    "subject": "gre"
+  },
+  {
+    "url": "http://gre.kmf.com/practise/exercise/44/152736637597563714/e4k3nk/0/0/0/0/0",
+    "support": "<p>Here are the vocabulary definitions:</p><ul><li>Adverse: contrary to your interests or welfare</li><li>Stimulating: rousing or quickening activity or the senses</li><li>Balmy: mild and refreshing; soft; soothing</li><li>Appealing: able to attract interest or draw favorable attention</li><li>Duplicitous: marked by deliberate deceptiveness especially by pretending one set of feelings and acting under the influence of another</li></ul>",
+    "question": "Despite being located in hot and sunny California, San Francisco is famous for its _____ weather, engendered by the confluence of two different meteorological systems in the Bay Area.",
+    "distractor": [
+      "stimulating",
+      "balmy",
+      "appealing",
+      "duplicitous"
+    ],
+    "correct_answer": [
+      "adverse"
+    ],
+    "id": 116,
+    "subject": "gre"
+  },
+  {
+    "url": "http://gre.kmf.com/practise/exercise/44/152736637597563714/31k3ok/0/0/0/0/0",
+    "support": "<p>Here are the vocabulary definitions:</p><ul><li>Dubious: fraught with uncertainty or doubt</li><li>Powerful: having great power or force or potency or effect</li><li>Prosperous: in fortunate circumstances financially; moderately rich</li><li>Solvent: capable of meeting financial obligations</li><li>Fortuitous: having no cause or apparent cause</li></ul>",
+    "question": "Possessing few natural resources upon its newly-granted independence in 1863, Singapore remained economically _____ until an influx of industrialization and foreign investment took hold there.",
+    "distractor": [
+      "powerful",
+      "prosperous",
+      "solvent",
+      "fortuitous"
+    ],
+    "correct_answer": [
+      "dubious"
+    ],
+    "id": 117,
+    "subject": "gre"
+  },
+  {
+    "url": "http://gre.kmf.com/practise/exercise/44/152736637597563714/f2k3qk/0/0/0/0/0",
+    "support": "<p>Here are the vocabulary definitions:</p><ul><li>Hampered: prevent the progress or free movement of</li><li>Advanced: move or bring forward</li><li>Ameliorated: to make better</li><li>Supplanted: take the place or move into the position of</li><li>Enhanced: increased or intensified in value or beauty or quality</li></ul>",
+    "question": "Even though legislators claimed the Contagious Diseases Acts strengthened the nation, social purists argued the Acts _____ the nation's moral growth by encouraging licentious behavior.",
+    "distractor": [
+      "advanced",
+      "ameliorated",
+      "supplanted",
+      "enhanced"
+    ],
+    "correct_answer": [
+      "hampered"
+    ],
+    "id": 118,
+    "subject": "gre"
+  },
+  {
+    "url": "http://gre.kmf.com/practise/exercise/44/152736637597563714/91k3rk/0/0/0/0/0",
+    "support": "<p>Here are the vocabulary definitions:</p><ul><li>Unadorned: not decorated with something to increase its beauty or distinction</li><li>Posh: elegant and fashionable</li><li>Intricate: having many complexly arranged elements; elaborate</li><li>Refulgent: radiating or as if radiating light</li><li>Grandiose: impressive because of unnecessary largeness or grandeur; used to show disapproval</li></ul>",
+    "question": "The new lecture hall's _____ design reflected the architect's minimalist influences.",
+    "distractor": [
+      "posh",
+      "intricate",
+      "refulgent",
+      "grandiose"
+    ],
+    "correct_answer": [
+      "unadorned"
+    ],
+    "id": 119,
+    "subject": "gre"
+  },
+  {
+    "url": "http://gre.kmf.com/practise/exercise/44/152736637597563714/9fk3uk/0/0/0/0/0",
+    "support": "<p>Here are the vocabulary definitions:</p><ul><li>Commensurate: corresponding in size or degree or extent</li><li>Innocuous: not injurious to physical or mental health</li><li>Halcyon: idyllically calm and peaceful; suggesting happy tranquillity</li><li>Malleable: easily influenced</li><li>Tractable: easily managed (controlled or taught or molded</li></ul>",
+    "question": "Modern tennis fans have come to realize that, although, quantum technological leaps in racquet technology have lead to _____ increases in the speed and power with which players can hit the ball, this has not necessarily lead to a more entertaining game.",
+    "distractor": [
+      "innocuous",
+      "halcyon",
+      "malleable",
+      "tractable"
+    ],
+    "correct_answer": [
+      "commensurate"
+    ],
+    "id": 120,
+    "subject": "gre"
+  },
+  {
+    "url": "http://gre.kmf.com/practise/exercise/44/152736637597563714/8ak3vk/0/0/0/0/0",
+    "support": "<p>Here are the vocabulary definitions:</p><ul><li>Innervates: to supply with nerves</li><li>Eviscerates: surgically remove a part of a structure or an organ</li><li>Enervates: weaken mentally or morally</li><li>Assuages: cause to be more favorably inclined; gain the good will of</li><li>Pervades: spread or diffuse through</li></ul>",
+    "question": "Many Major League Baseball relief pitchers choose an electrifying theme song to play as they take the mound; the song _____ their fans and instills fear in their opponents.",
+    "distractor": [
+      "eviscerates",
+      "enervates",
+      "assuages",
+      "pervades"
+    ],
+    "correct_answer": [
+      "innervates"
+    ],
+    "id": 121,
+    "subject": "gre"
+  },
+  {
+    "url": "http://gre.kmf.com/practise/exercise/44/152736637597563714/6fk3wk/0/0/0/0/0",
+    "support": "<p>Here are the vocabulary definitions:</p><ul><li>Maladroit: not adroit; unskillful; awkward;</li><li>Petulant: easily irritated or annoyed</li><li>Elegant: refined and tasteful in appearance or behavior or style</li><li>Audacious: invulnerable to fear or intimidation</li><li>Multifaceted: having many aspects or phases</li></ul>",
+    "question": "Emmet Ray, a fictional jazz guitarist in Woody Allen's film Sweet and Lowdown, is a paradoxical character; while he displays sophisticated musical artistry, his personality is typically _____ .",
+    "distractor": [
+      "petulant",
+      "elegant",
+      "audacious",
+      "multifaceted"
+    ],
+    "correct_answer": [
+      "maladroit"
+    ],
+    "id": 122,
+    "subject": "gre"
+  },
+  {
+    "url": "http://gre.kmf.com/practise/exercise/43/152736649475139095/0/0/0/0/0/0",
+    "support": "<p>Here are the vocabulary definitions:</p><ul><li>Cherished: characterized by feeling or showing fond affection for</li><li>Abhorred: find repugnant</li><li>Owned: to have or hold as one's own; possess</li><li>Loathed: find repugnant</li><li>Managed: be successful; achieve a goal</li></ul>",
+    "question": "Susan _____ the theater; she bought tickets for all the shows put on by the local drama group.",
+    "distractor": [
+      "abhorred",
+      "owned",
+      "loathed",
+      "managed"
+    ],
+    "correct_answer": [
+      "cherished"
+    ],
+    "id": 123,
+    "subject": "gre"
+  },
+  {
+    "url": "http://gre.kmf.com/practise/exercise/43/152736649475139095/92k2fk/0/0/0/0/0",
+    "support": "<p>Here are the vocabulary definitions:</p><ul><li>Dilettante: a person who takes up an art, activity, or subject merely for amusement, especially in a desultory or superficial way</li><li>Philanderer: a man who makes love with a woman he cannot or will not marry</li><li>Mentor: a wise and trusted counselor or teacher</li><li>Specialist: a person who devotes himself or herself to one subject or to one particular branch of a subject or pursuit</li><li>Eccentric: a person who has an unusual, peculiar, or odd personality, set of beliefs, or behavior pattern</li></ul>",
+    "question": "Currently _____ in philately, Roger decided to pursue his new hobby because he had already become an expert numismatist.",
+    "distractor": [
+      "a philanderer",
+      "a mentor",
+      "a specialist",
+      "an eccentric"
+    ],
+    "correct_answer": [
+      "a dilettante"
+    ],
+    "id": 124,
+    "subject": "gre"
+  },
+  {
+    "url": "http://gre.kmf.com/practise/exercise/43/152736649475139095/a6k2hk/0/0/0/0/0",
+    "support": "<p>Here are the vocabulary definitions:</p><ul><li>Enervation: lack of vitality</li><li>Bellicosity: a natural disposition to fight</li><li>Pugnacity: a natural disposition to be hostile</li><li>Pacification: the act of appeasing someone or causing someone to be more favorably inclined</li><li>Aggravation: an exasperated feeling of annoyance</li></ul>",
+    "question": "Prior to taking on the new invader, the defending army had engaged in arduous combat; it is likely that the _____ resulting from waging two battles in two days played a part in its subsequent defeat.",
+    "distractor": [
+      "bellicosity",
+      "pugnacity",
+      "pacification",
+      "aggravation"
+    ],
+    "correct_answer": [
+      "enervation"
+    ],
+    "id": 125,
+    "subject": "gre"
+  },
+  {
+    "url": "http://gre.kmf.com/practise/exercise/43/152736649475139095/f8k2kk/0/0/0/0/0",
+    "support": "<p>Here are the vocabulary definitions:</p><ul><li>Mediocrity: ordinariness as a consequence of being average and not outstanding</li><li>Profundity: wisdom that is recondite and abstruse and profound</li><li>Stoicism: an indifference to pleasure or pain</li><li>Aptitude: inherent ability</li><li>Malleability: the property of being malleable; adaptability</li></ul>",
+    "question": "Ironically, the myth of Martin Van Buren's _____ was due largely to circumstances that had little to do with Van Buren himself; in reality, of all the U.S. presidents since Andrew Jackson, Van Buren exceeded the average in education, intellect, and experience.",
+    "distractor": [
+      "profundity",
+      "stoicism",
+      "aptitude",
+      "malleability"
+    ],
+    "correct_answer": [
+      "mediocrity"
+    ],
+    "id": 126,
+    "subject": "gre"
+  },
+  {
+    "url": "http://gre.kmf.com/practise/exercise/43/152736649475139095/5ck2mk/0/0/0/0/0",
+    "support": "<p>Here are the vocabulary definitions:</p><ul><li>Obfuscate: make obscure or unclear</li><li>Vituperate: spread negative information about</li><li>Illuminate: make lighter or brighter</li><li>Covet: wish, long, or crave for something, especially the property of another person</li><li>Desiccate: to dry thoroughly; dry up</li></ul>",
+    "question": "While she may have answered him truthfully - in the strictest sense of the word - it became clear to Sergei after the incident that Sheryl had actually been trying to _____ .",
+    "distractor": [
+      "vituperate",
+      "illuminate",
+      "covet",
+      "desiccate"
+    ],
+    "correct_answer": [
+      "obfuscate"
+    ],
+    "id": 127,
+    "subject": "gre"
+  },
+  {
+    "url": "http://gre.kmf.com/practise/exercise/43/152736649475139095/69k2nk/0/0/0/0/0",
+    "support": "<p>Here are the vocabulary definitions:</p><ul><li>Succinctness: terseness and economy in writing and speaking achieved by expressing a great deal in just a few words</li><li>Enlargement: the act of increasing something</li><li>Garrulousness: the quality of being wordy and talkative</li><li>Gregariousness: the quality of being gregarious; having a dislike of being alone</li><li>Perspicacity: intelligence manifested by being astute (as in business dealings</li></ul>",
+    "question": "Certainly a roundabout narrative, the book - much like the others in the author's pseudo-autobiographical series - proved to be unpopular among those who preferred _____ to loquaciousness.",
+    "distractor": [
+      "enlargement",
+      "garrulousness",
+      "gregariousness",
+      "perspicacity"
+    ],
+    "correct_answer": [
+      "succinctness"
+    ],
+    "id": 128,
+    "subject": "gre"
+  },
+  {
+    "url": "http://gre.kmf.com/practise/exercise/43/152736649475139095/f0k2pk/0/0/0/0/0",
+    "support": "<p>Here are the vocabulary definitions:</p><ul><li>Rancor: a feeling of deep and bitter anger and ill-will</li><li>Camaraderie: the quality of affording easy familiarity and sociability</li><li>Adulation: servile flattery; exaggerated and hypocritical praise</li><li>Facetiousness: playful humor</li><li>Hubris: overbearing pride or presumption</li></ul>",
+    "question": "Although they stood with the congressman in a tenuous display of solidarity, the incensed commissioners could not conceal their _____ .",
+    "distractor": [
+      "camaraderie",
+      "adulation",
+      "facetiousness",
+      "hubris"
+    ],
+    "correct_answer": [
+      "rancor"
+    ],
+    "id": 129,
+    "subject": "gre"
+  },
+  {
+    "url": "http://gre.kmf.com/practise/exercise/43/152736649475139095/eek2tk/0/0/0/0/0",
+    "support": "<p>Here are the vocabulary definitions:</p><ul><li>Eloquent: expressing yourself readily, clearly, effectively</li><li>Deceptive: causing one to believe what is not true or fail to believe what is true</li><li>Lengthy: relatively long in duration; tediously protracted</li><li>Crafty: marked by skill in deception</li><li>Impromptu: with little or no preparation or forethought</li></ul>",
+    "question": "The defense attorney's _____ closing statement was not enough to sway the jurors in his client's favor; stirring words could not conceal the defendant's evident guilt.",
+    "distractor": [
+      "deceptive",
+      "lengthy",
+      "crafty",
+      "impromptu"
+    ],
+    "correct_answer": [
+      "eloquent"
+    ],
+    "id": 130,
+    "subject": "gre"
+  },
+  {
+    "url": "http://gre.kmf.com/practise/exercise/43/152736649475139095/cbk2vk/0/0/0/0/0",
+    "support": "<p>Here are the vocabulary definitions:</p><ul><li>Repudiated: cast off</li><li>Placated: cause to be more favorably inclined; gain the good will of</li><li>Extolled: praise, glorify, or honor</li><li>Circumscribed: subject to limits or subjected to limits</li><li>Tempered: made hard or flexible or resilient especially by heat treatment</li></ul>",
+    "question": "In 1770s colonial New England, Puritans _____ the celebration of Christmas, which they considered to be an odious reminder of the Pope's tyranny.",
+    "distractor": [
+      "placated",
+      "extolled",
+      "circumscribed",
+      "tempered"
+    ],
+    "correct_answer": [
+      "repudiated"
+    ],
+    "id": 131,
+    "subject": "gre"
+  },
+  {
+    "url": "http://gre.kmf.com/practise/exercise/43/152736649475139095/0ck2xk/0/0/0/0/0",
+    "support": "<p>Here are the vocabulary definitions:</p><ul><li>Indulgently: benignly lenient or permissive</li><li>Aggressively: characterized by or tending toward unprovoked offensives, attacks, invasions, or the like</li><li>Quixotically: extravagantly chivalrous or romantic</li><li>Fortuitously: by good fortune</li><li>Belligerently: with hostility; in a belligerent hostile manner</li></ul>",
+    "question": "Many dog owners treat their pets too _____ , forgetting that canines have evolved in competitive environments in which emotional coddling was a sign of weakness.",
+    "distractor": [
+      "aggressively",
+      "quixotically",
+      "fortuitously",
+      "belligerently"
+    ],
+    "correct_answer": [
+      "indulgently"
+    ],
+    "id": 132,
+    "subject": "gre"
+  },
+  {
+    "url": "http://gre.kmf.com/practise/exercise/43/152736649475139095/28k2zk/0/0/0/0/0",
+    "support": "<p>Here are the vocabulary definitions:</p><ul><li>Obsequious: attempting to win favor from influential people by flattery</li><li>Natty: marked by up-to-dateness in dress and manners</li><li>Profligate: recklessly wasteful</li><li>Rapacious: living by preying on other animals especially by catching living prey</li><li>Sententious: abounding in or given to pompous or aphoristic moralizing</li></ul>",
+    "question": "Repulsed by _____ employees, the executive informed his staff that he preferred constructive criticism to calculated flattery.",
+    "distractor": [
+      "natty",
+      "profligate",
+      "rapacious",
+      "sententious"
+    ],
+    "correct_answer": [
+      "obsequious"
+    ],
+    "id": 133,
+    "subject": "gre"
+  },
+  {
+    "url": "http://gre.kmf.com/practise/exercise/43/152736649475139095/26k30k/0/0/0/0/0",
+    "support": "<p>Here are the vocabulary definitions:</p><ul><li>Recondite: difficult to penetrate; incomprehensible to one of ordinary understanding or knowledge</li><li>Banal: repeated too often; overfamiliar through overuse</li><li>Elegiac: resembling or characteristic of or appropriate to an elegy</li><li>Mundane: found in the ordinary course of events</li><li>Panegyric: formally expressing praise</li></ul>",
+    "question": "Students may consider modernist works such as James Joyce's Finnegan's Wake to be more _____ than Victorian prose: Victorian narratives are linear and predictable, while Joyce's tortuous plots are fragmented and fickle, and they confound the reader.",
+    "distractor": [
+      "banal",
+      "elegiac",
+      "mundane",
+      "panegyric"
+    ],
+    "correct_answer": [
+      "recondite"
+    ],
+    "id": 134,
+    "subject": "gre"
+  },
+  {
+    "url": "http://gre.kmf.com/practise/exercise/43/152736649475139095/2ek32k/0/0/0/0/0",
+    "support": "<p>Here are the vocabulary definitions:</p><ul><li>Appraisal: the classification of someone or something with respect to its worth</li><li>Fortification: defensive structure consisting of walls or mounds built around a stronghold to strengthen it</li><li>Adulteration: being mixed with extraneous material; the product of adulterating</li><li>Accretion: an increase by natural growth or addition</li><li>Adumbration: the act of providing vague advance indications; representing beforehand</li></ul>",
+    "question": "Ancient generals, lacking modern technologies such as radio and satellite communication, often found that one of the most significant challenges in warfare was accurate _____ of the myriad of changes on the battlefield or in the campaign.",
+    "distractor": [
+      "fortification",
+      "adulteration",
+      "accretion",
+      "adumbration"
+    ],
+    "correct_answer": [
+      "appraisal"
+    ],
+    "id": 135,
+    "subject": "gre"
+  },
+  {
+    "url": "http://gre.kmf.com/practise/exercise/43/152736649475139095/9bk33k/0/0/0/0/0",
+    "support": "<p>Here are the vocabulary definitions:</p><ul><li>Cogency: persuasive relevance</li><li>Prescience: the power to foresee the future</li><li>Erudition: profound scholarly knowledge</li><li>Evasiveness: intentionally vague or ambiguous</li><li>Control: exercise authoritative control or power over</li></ul>",
+    "question": "In psychological literature, the \"sleeper effect\" refers to the phenomenon in which a persuasive message from a trustworthy source loses _____ over time, while the efficacy of a message from a less credible source simultaneously increases.",
+    "distractor": [
+      "prescience",
+      "erudition",
+      "evasiveness",
+      "control"
+    ],
+    "correct_answer": [
+      "cogency"
+    ],
+    "id": 136,
+    "subject": "gre"
+  },
+  {
+    "url": "http://gre.kmf.com/practise/exercise/43/152736649475139095/f9k34k/0/0/0/0/0",
+    "support": "<p>Here are the vocabulary definitions:</p><ul><li>Abnegation: the denial and rejection of a doctrine or belief</li><li>Vacillation: indecision in speech or action</li><li>Castigation: a severe scolding</li><li>Asceticism: the doctrine that through renunciation of worldly pleasures it is possible to achieve a high spiritual or intellectual state</li><li>Misanthropy: hatred of mankind</li></ul>",
+    "question": "Pundits do not believe that the sporadic calls for her ouster-outcries spurred by both her unusual lifestyle and social policies-have compelled the monarch to seriously consider _____ .",
+    "distractor": [
+      "vacillation",
+      "castigation",
+      "asceticism",
+      "misanthropy"
+    ],
+    "correct_answer": [
+      "abnegation"
+    ],
+    "id": 137,
+    "subject": "gre"
+  },
+  {
+    "url": "http://gre.kmf.com/practise/exercise/43/152736649475139095/67k37k/0/0/0/0/0",
+    "support": "<p>Here are the vocabulary definitions:</p><ul><li>Equanimity: steadiness of mind under stress</li><li>Impracticality: concerned with theoretical possibilities rather than actual use</li><li>Cynicism: a cynical feeling of distrust</li><li>Zeal: a feeling of strong eagerness usually in favor of a person or cause</li><li>Malevolence: wishing evil to others</li></ul>",
+    "question": "Dolly Madison, the wife of President James Madison, was known especially for her _____ , remaining calm even as the British invaded Washington D.C. during the War of 1812.",
+    "distractor": [
+      "impracticality",
+      "cynicism",
+      "zeal",
+      "malevolence"
+    ],
+    "correct_answer": [
+      "equanimity"
+    ],
+    "id": 138,
+    "subject": "gre"
+  },
+  {
+    "url": "http://gre.kmf.com/practise/exercise/43/152736649475139095/70k38k/0/0/0/0/0",
+    "support": "<p>Here are the vocabulary definitions:</p><ul><li>Introverted: given to examining own sensory and perceptual experiences</li><li>Extroverted: not introspective; examining what is outside yourself</li><li>Gregarious: fond of the company of others; sociable</li><li>Lackluster: lacking brilliance or vitality</li><li>Jaded: exhausted</li></ul>",
+    "question": "Seth was extremely _____ and did not enjoy activities that required effort to meet new people.",
+    "distractor": [
+      "extroverted",
+      "gregarious",
+      "lackluster",
+      "jaded"
+    ],
+    "correct_answer": [
+      "introverted"
+    ],
+    "id": 139,
+    "subject": "gre"
+  },
+  {
+    "url": "http://gre.kmf.com/practise/exercise/43/152736649475139095/5ak3ak/0/0/0/0/0",
+    "support": "<p>Here are the vocabulary definitions:</p><ul><li>Iniquitous: wicked because it is believed to be a sin</li><li>Fathomable: to measure the depth of by means of a sounding line; sound</li><li>Splenetic: of or relating to the spleen</li><li>Diaphanous: so thin as to transmit light</li><li>Dilatory: wasting time</li></ul>",
+    "question": "Some religious leaders have declared inaction on environmental issues to be _____ , because it may now be considered a sin to pollute the earth.",
+    "distractor": [
+      "fathomable",
+      "splenetic",
+      "diaphanous",
+      "dilatory"
+    ],
+    "correct_answer": [
+      "iniquitous"
+    ],
+    "id": 140,
+    "subject": "gre"
+  },
+  {
+    "url": "http://gre.kmf.com/practise/exercise/43/152736649475139095/f7k3bk/0/0/0/0/0",
+    "support": "<p>Here are the vocabulary definitions:</p><ul><li>Fatuous: extremely silly or stupid</li><li>Pithy: concise and full of meaning</li><li>Indolent: disinclined to work or exertion</li><li>Hackneyed: repeated too often; overfamiliar through overuse</li><li>Precarious: affording no ease or reassurance</li></ul>",
+    "question": "Because he ate high-calorie snacks while riding the exercise bike, Julie ridiculed DeRay's workout philosophy as _____ .",
+    "distractor": [
+      "pithy",
+      "indolent",
+      "hackneyed",
+      "precarious"
+    ],
+    "correct_answer": [
+      "fatuous"
+    ],
+    "id": 141,
+    "subject": "gre"
+  },
+  {
+    "url": "http://gre.kmf.com/practise/exercise/43/152736649475139095/a4k3dk/0/0/0/0/0",
+    "support": "<p>Here are the vocabulary definitions:</p><ul><li>Tyro: someone new to a field or activity</li><li>Pilgrim: someone who journeys in foreign lands</li><li>Iconoclast: a destroyer of images used in religious worship</li><li>Ascetic: pertaining to or characteristic of an ascetic or the practice of rigorous self-discipline</li><li>Poseur: a person who habitually pretends to be something he is not</li></ul>",
+    "question": "The recent convert, still a _____ with respect to the rites of her church, did not yet feel completely comfortable in her new faith.",
+    "distractor": [
+      "pilgrim",
+      "iconoclast",
+      "ascetic",
+      "poseur"
+    ],
+    "correct_answer": [
+      "tyro"
+    ],
+    "id": 142,
+    "subject": "gre"
+  },
+  {
+    "url": "http://gre.kmf.com/practise/exercise/41/152736672650466929/0/0/0/0/0/0",
+    "support": "<p>Here are the vocabulary definitions:</p><ul><li>Temperaments: the combination of mental, physical, and emotional traits</li><li>Initiations: a formal entry into an organization or position or office</li><li>Implementations: the act of accomplishing some aim or executing some order</li><li>Aptitudes: inherent ability</li><li>Rationalizations: the cognitive process of making something seem consistent with or based on reason</li></ul>",
+    "question": "Just as different people can have very different personalities, so too can pets - even those of the same species and breed possess varied _____ .",
+    "distractor": [
+      "initiations",
+      "implementations",
+      "aptitudes",
+      "rationalizations"
+    ],
+    "correct_answer": [
+      "temperaments"
+    ],
+    "id": 143,
+    "subject": "gre"
+  },
+  {
+    "url": "http://gre.kmf.com/practise/exercise/41/152736672650466929/75k17k/0/0/0/0/0",
+    "support": "<p>Here are the vocabulary definitions:</p><ul><li>Renowned: widely known and esteemed</li><li>Infamous: known widely and usually unfavorably</li><li>Contingent: possible but not certain to occur</li><li>Cogent: powerfully persuasive</li><li>Insistent: repetitive and persistent</li></ul>",
+    "question": "If one were asked who transmitted the first radio broadcast of the human voice, one might guess the _____ inventor Guglielmo Marconi, but in fact the feat was accomplished by the much less well-known Reginald Fessenden.",
+    "distractor": [
+      "infamous",
+      "contingent",
+      "cogent",
+      "insistent"
+    ],
+    "correct_answer": [
+      "renowned"
+    ],
+    "id": 144,
+    "subject": "gre"
+  },
+  {
+    "url": "http://gre.kmf.com/practise/exercise/41/152736672650466929/07k19k/0/0/0/0/0",
+    "support": "<p>Here are the vocabulary definitions:</p><ul><li>Touted: advertize in strongly positive terms</li><li>Proscribed: excluded from use or mention</li><li>Refuted: overthrow by argument, evidence, or proof</li><li>Undermined: destroy property or hinder normal operations</li><li>Admonished: advise or counsel in terms of someone's behavior</li></ul>",
+    "question": "Now known as Administrative Professionals' Day, Secretaries' Day was created in 1952 by Harry F. Klemfuss, a public relations professional who _____ the value and significance of administrative assistants in order to attract more women to the profession.",
+    "distractor": [
+      "proscribed",
+      "refuted",
+      "undermined",
+      "admonished"
+    ],
+    "correct_answer": [
+      "touted"
+    ],
+    "id": 145,
+    "subject": "gre"
+  },
+  {
+    "url": "http://gre.kmf.com/practise/exercise/41/152736672650466929/29k1bk/0/0/0/0/0",
+    "support": "<p>Here are the vocabulary definitions:</p><ul><li>Evokes: call forth emotions, feelings, and responses</li><li>Admires: feel admiration for</li><li>Obfuscates: make obscure or unclear</li><li>Disenchants: free from enchantment</li><li>Sanctions: give sanction to</li></ul>",
+    "question": "With a similar contrast between a partly cloudy sky and a dark street, the cover of the recent rock CD _____ a famous surrealist painting from the early 1900s.",
+    "distractor": [
+      "admires",
+      "obfuscates",
+      "disenchants",
+      "sanctions"
+    ],
+    "correct_answer": [
+      "evokes"
+    ],
+    "id": 146,
+    "subject": "gre"
+  },
+  {
+    "url": "http://gre.kmf.com/practise/exercise/41/152736672650466929/aak1ck/0/0/0/0/0",
+    "support": "<p>Here are the vocabulary definitions:</p><ul><li>Apotheosized: deify or glorify</li><li>Relegated: to send or consign to an inferior position, place, or condition</li><li>Abrogated: revoke formally</li><li>Annulled: declare invalid</li><li>Criticized: find fault with; express criticism of; point out real or perceived flaws</li></ul>",
+    "question": "Although John F. Kennedy was known for his carefree flag football games, Gerald Ford should be _____ as our football president: he turned down offers to play for two National Football League teams in order to pursue a career in public service.",
+    "distractor": [
+      "relegated",
+      "abrogated",
+      "annulled",
+      "criticized"
+    ],
+    "correct_answer": [
+      "apotheosized"
+    ],
+    "id": 147,
+    "subject": "gre"
+  },
+  {
+    "url": "http://gre.kmf.com/practise/exercise/41/152736672650466929/0ek1dk/0/0/0/0/0",
+    "support": "<p>Here are the vocabulary definitions:</p><ul><li>Sycophants: a person who tries to please someone in order to gain a personal advantage</li><li>Pedants: a person who pays more attention to formal rules and book learning than they merit</li><li>Benefactors: a person who helps people or institutions especially with financial help</li><li>Adversaries: someone who offers opposition</li><li>Mavericks: someone who exhibits great independence in thought and action</li></ul>",
+    "question": "Though many _____ endlessly praised his work, Dan often wished for some honest criticism.",
+    "distractor": [
+      "pedants",
+      "benefactors",
+      "adversaries",
+      "mavericks"
+    ],
+    "correct_answer": [
+      "sycophants"
+    ],
+    "id": 148,
+    "subject": "gre"
+  },
+  {
+    "url": "http://gre.kmf.com/practise/exercise/41/152736672650466929/b6k1hk/0/0/0/0/0",
+    "support": "<p>Here are the vocabulary definitions:</p><ul><li>Rail: complain bitterly</li><li>Waffle: pause or hold back in uncertainty or unwillingness</li><li>Dissemble: make believe with the intent to deceive</li><li>Grieve: feel grief</li><li>Mince: make less severe or harsh</li></ul>",
+    "question": "Sheila would often _____ about her boyfriend's habits, but everyone could tell that her seemingly bitter complaints were mostly facetious.",
+    "distractor": [
+      "waffle",
+      "dissemble",
+      "grieve",
+      "mince"
+    ],
+    "correct_answer": [
+      "rail"
+    ],
+    "id": 149,
+    "subject": "gre"
+  }
+]

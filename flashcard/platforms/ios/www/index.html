@@ -9,10 +9,12 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
 
+    <script type="text/javascript" charset="utf-8" src="cordova.js"></script>
+
     <title>Flashcards</title>
 
 </head>
-<body>
+<body onload="onLoad()">
 
     <div id="tabs">
         <ul class="nav nav-tabs nav-justified" id="myTab" role="tablist">
@@ -25,14 +27,17 @@
             <li class="nav-item">
                 <a class="nav-link" id="safety-tab" data-toggle="tab" href="#safety" onclick="change('safety')">Safety</a>
             </li>
+            <li class="nav-item">
+                <a class="nav-link" id="random-tab" data-toggle="tab" href="#random" onclick="change('random')">Random</a>
+            </li>
         </ul>
     </div>
 
     <div id="container">
         <div class="buttons">
-            <button id="qid" class="btn btn-sm btn-link" disabled>Question</button>
-            <button class="btn btn-sm btn-outline-success element-front" data-toggle="modal" data-target="#hintModal">hint</button>
-            <button class="btn btn-sm btn-outline-danger element-back" data-toggle="modal" data-target="#explanationModal">explanation</button>
+            <!-- <button id="qid" class="btn btn-sm btn-link" disabled>Question</button> -->
+            <button class="btn element-front" data-toggle="modal" data-target="#hintModal" onclick="hint()">hint</button>
+            <button class="btn element-back" data-toggle="modal" data-target="#explanationModal" onclick="explanation()">explanation</button>
         </div>
         <div class="card">
             <div class="card-body" onclick="flip()">
@@ -44,9 +49,14 @@
             </div>
         </div>
         <div class="buttons">
-            <button class="btn btn-sm btn-outline-dark" onclick="prev()">←</button>
-            <button class="btn btn-sm btn-outline-dark" onclick="next()">→</button>
+            <button class="prev" onclick="prev()">←</button>
+            <button class="next" onclick="next()">→</button>
         </div>
+    </div>
+
+    <div id="username" class="footer">
+        <p>Logging data as <span id="userLabel" class="bold">anonymous</span> 
+            <!-- <u data-toggle="modal" data-target="#userModal" onclick="load()">Not you?</u> -->
     </div>
 
     <div class="modal fade" id="hintModal" tabindex="-1" role="dialog" aria-labelledby="hintModalLabel" aria-hidden="true">
@@ -59,7 +69,7 @@
                     This is a hint.
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-sm btn-outline-secondary" data-dismiss="modal">close</button>
+                    <button type="button" class="btn" onclick="" data-dismiss="modal">close</button>
                 </div>
             </div>
         </div>
@@ -75,7 +85,32 @@
                     This is an explanation.
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-sm btn-outline-secondary" data-dismiss="modal">close</button>
+                    <button type="button" class="btn" onclick="" data-dismiss="modal">close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="userModal" tabindex="-1" role="dialog" aria-labelledby="userModal" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Set User Name</h5>
+                </div>
+                <div id="explanation" class="modal-body">
+                    <p>Hi, we are a group of researchers from Stanford University Computer Science Department. Welcome to try out the QuizBot and enjoy your learning journey!</p>
+                    <p>This is the name used to collect data about your flashcard app usage. Your data will only be used for research purposes.</p>
+                    <form>
+                        <div class="form-group">
+                            <input class="form-control" id="firstname" placeholder="First name" />
+                        </div>
+                        <div class="form-group">
+                            <input class="form-control" id="lastname" placeholder="Last name" />
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn" data-dismiss="modal" onclick="save()">save</button>
                 </div>
             </div>
         </div>
@@ -88,8 +123,8 @@
     <script src="js/bootstrap.min.js"></script>
 
     <script src="js/fastclick.js"></script>
-
     <script src="js/questions.js"></script>
+    <script src="js/logger.js"></script>
     <script src="js/script.js"></script>
 
 </body>

@@ -1,5 +1,6 @@
 $('document').ready(
     function() {
+        load();
         FastClick.attach(document.body);
         $('.element-front').show();
         $('.element-back').hide();
@@ -25,7 +26,8 @@ $('document').ready(
             gre: 0,
             safety: 0,
         };
-        change('science');
+        $subject = 'science';
+        update();
     }
 );
 
@@ -34,6 +36,7 @@ function change(subject) {
     if (!$('#front').is(":visible")) {
         flip();
     }
+    log('change to ' + subject)
     update();
 }
 
@@ -45,6 +48,7 @@ function flip() {
         $('.element-front').show();
         $('.element-back').hide();
     }
+    log("card flip");
 };
 
 function next() {
@@ -52,6 +56,7 @@ function next() {
     if (!$('#front').is(":visible")) {
         flip();
     }
+    log("card next");
     update();
 }
 
@@ -60,6 +65,7 @@ function prev() {
     if (!$('#front').is(":visible")) {
         flip();
     }
+    log("card prev");
     update();
 }
 
@@ -77,7 +83,7 @@ function update() {
     }
     $('#hint').html($hints + "</ol>");
 
-    $('#qid').html("Question " + parseInt($index[$subject] + 1));
+    $('#qid').html("Question " + $question.id);
 }
 
 function shuffle(a) {
@@ -89,4 +95,47 @@ function shuffle(a) {
         a[j] = x;
     }
     return a;
+}
+
+function load() {
+    if (!window.localStorage.getItem('user')) {
+        $('#userModal').modal();
+        $('#firstname').val('');
+        $('#lastname').val('');
+    } else {
+        $user = JSON.parse(window.localStorage.getItem('user'));
+        $('#userLabel').html($user.firstname + ' ' + $user.lastname);
+        $('#firstname').val($user.firstname);
+        $('#lastname').val($user.lastname);
+    }
+}
+
+function save() {
+    var firstname = $('#firstname').val();
+    var lastname = $('#lastname').val();
+    var uid = encode(firstname + lastname);
+    $user = {firstname: firstname, lastname: lastname, id: uid};
+    $('#userLabel').html($user.firstname + ' ' + $user.lastname);
+    window.localStorage.setItem('user', JSON.stringify($user));
+}
+
+function hint() {
+    log('toggle hint');
+}
+
+function explanation() {
+    log('toggle explanation');
+}
+
+function encode(str){
+	var hash = 0;
+	if (str.length == 0) {
+        return hash;
+    }
+	for (i = 0; i < str.length; i++) {
+		char = str.charCodeAt(i);
+		hash = ((hash<<5)-hash)+char;
+		hash = hash & hash; // Convert to 32bit integer
+	}
+	return Math.abs(hash);
 }
