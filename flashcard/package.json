@@ -22,8 +22,6 @@
             "cordova-plugin-whitelist": {},
             "cordova-plugin-local-notification": {}
         },
-        "platforms": [
-            "ios"
-        ]
+        "platforms": []
     }
 }

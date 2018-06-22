@@ -27,17 +27,17 @@
             <li class="nav-item">
                 <a class="nav-link" id="safety-tab" data-toggle="tab" href="#safety" onclick="change('safety')">Safety</a>
             </li>
-<!--             <li class="nav-item">
+            <li class="nav-item">
                 <a class="nav-link" id="random-tab" data-toggle="tab" href="#random" onclick="change('random')">Random</a>
-            </li> -->
+            </li>
         </ul>
     </div>
 
     <div id="container">
         <div class="buttons">
-            <button id="qid" class="btn btn-sm btn-link" disabled>Question</button>
-            <button class="btn btn-sm btn-outline-success element-front" data-toggle="modal" data-target="#hintModal" onclick="hint()">hint</button>
-            <button class="btn btn-sm btn-outline-danger element-back" data-toggle="modal" data-target="#explanationModal" onclick="explanation()">explanation</button>
+            <!-- <button id="qid" class="btn btn-sm btn-link" disabled>Question</button> -->
+            <button class="cusbtn element-front" data-toggle="modal" data-target="#hintModal" onclick="hint()">hint</button>
+            <button class="cusbtn element-back" data-toggle="modal" data-target="#explanationModal" onclick="explanation()">explanation</button>
         </div>
         <div class="card">
             <div class="card-body" onclick="flip()">
@@ -55,7 +55,7 @@
     </div>
 
     <div id="username" class="footer">
-        <p>Logging data as <span id="userLabel">anonymous</span>. 
+        <p>Logging data as <span id="userLabel" class="bold">anonymous</span> 
             <!-- <u data-toggle="modal" data-target="#userModal" onclick="load()">Not you?</u> -->
     </div>
 
@@ -69,7 +69,7 @@
                     This is a hint.
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-sm btn-outline-secondary" data-dismiss="modal">close</button>
+                    <button type="button" class="cusbtn" data-dismiss="modal">close</button>
                 </div>
             </div>
         </div>
@@ -85,7 +85,7 @@
                     This is an explanation.
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-sm btn-outline-secondary" data-dismiss="modal">close</button>
+                    <button type="button" class="cusbtn" data-dismiss="modal">close</button>
                 </div>
             </div>
         </div>
@@ -98,7 +98,7 @@
                     <h5 class="modal-title" id="exampleModalLabel">Set User Name</h5>
                 </div>
                 <div id="explanation" class="modal-body">
-                    <p>Hi, we are a group of researchers from Stanford University Computer Science Department. Welcome to try out the QuizBot and enjoy your learning journey!</p>
+                    <p>Hi, we are a group of researchers from Stanford University Computer Science Department. </p>
                     <p>This is the name used to collect data about your flashcard app usage. Your data will only be used for research purposes.</p>
                     <form>
                         <div class="form-group">
@@ -110,7 +110,7 @@
                     </form>
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-sm btn-outline-primary" data-dismiss="modal" onclick="save()">save</button>
+                    <button type="button" class="cusbtn" data-dismiss="modal" onclick="save()">save</button>
                 </div>
             </div>
         </div>
