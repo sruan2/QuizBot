@@ -8,8 +8,10 @@ $('document').ready(
             science: [],
             gre: [],
             safety: [],
+            random: [],
         };
         for ($q in $questions) {
+            $data['random'].push($questions[$q]);
             if ($questions[$q].subject === 'gre') {
                 $data['gre'].push($questions[$q]);
             } else if ($questions[$q].subject === 'safety') {
@@ -25,6 +27,7 @@ $('document').ready(
             science: 0,
             gre: 0,
             safety: 0,
+            random: 0,
         };
         $subject = 'science';
         update();
@@ -45,8 +48,8 @@ function flip() {
         $('.element-front').hide();
         $('.element-back').show();
     } else {
-        $('.element-front').show();
         $('.element-back').hide();
+        $('.element-front').show();
     }
     log("card flip");
 };

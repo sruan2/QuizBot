@@ -7,19 +7,19 @@
     "files": {}
   },
   "installed_plugins": {
-    "cordova-plugin-whitelist": {
-      "PACKAGE_NAME": "io.smartprimer.flashcards"
-    },
     "cordova-plugin-local-notification": {
-      "PACKAGE_NAME": "io.smartprimer.flashcards"
+      "PACKAGE_NAME": "io.smartprimer.quizbot.flashcards"
+    },
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "io.smartprimer.quizbot.flashcards"
     }
   },
   "dependent_plugins": {
-    "cordova-plugin-device": {
-      "PACKAGE_NAME": "io.smartprimer.flashcards"
-    },
     "cordova-plugin-badge": {
-      "PACKAGE_NAME": "io.smartprimer.flashcards"
+      "PACKAGE_NAME": "io.smartprimer.quizbot.flashcards"
+    },
+    "cordova-plugin-device": {
+      "PACKAGE_NAME": "io.smartprimer.quizbot.flashcards"
     }
   }
 }

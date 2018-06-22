@@ -14,9 +14,39 @@ body, html {
   justify-content: center;
 }
 
-.btn {
+/*.btn {
     width: 38vw;
     margin: 1vw;
+}*/
+
+.btn {
+    width: 50vw;
+    margin: 1vw;
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 17px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background-color: #457CF6;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+
+.btn:focus {
+    outline: none;
+}
+
+.btn:active:focus {
+    background-color: #2C3BBC;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.bold {
+  font-weight:bold;
 }
 
 .toggle {
@@ -31,6 +61,10 @@ body, html {
     margin: 10px;
 }
 
+.card:focus {
+    outline: none;
+}
+
 .card-body {
     display: flex;
     align-items: center;
@@ -41,6 +75,54 @@ body, html {
     position: absolute;
     bottom: 0;
     font-size: 0.8em;
+}
+
+.prev {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background-color: #457CF6;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+
+.prev:focus {
+    outline: none;
+}
+
+.prev:active:focus {
+    background-color: #2C3BBC;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.next {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background-color: #457CF6;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+
+.next:focus {
+    outline: none;
+}
+
+.next:active:focus {
+  background-color: #2C3BBC;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
 }
 
 #username {
