@@ -69,10 +69,7 @@ def verify():
 
 @app.route('/', methods=['POST'])
 def webhook():
-    # endpoint for processing incoming messaging events
-    #print("[QUIZBOT] PID " + str(os.getpid())+": Enter webhook")
-
-    pretty_print('Received a msg from a user', mode='App')
+    '''endpoint for processing incoming messaging events'''
 
     data = request.get_json()
 
@@ -108,11 +105,6 @@ def webhook():
             else:
                 sender_gender = 'unknown'
 
-            # Sherry: add fake sender data info to make the app run for now
-            # sender_firstname = 'first name'
-            # sender_lastname = 'last name'
-            # sender_gender = 'unknown'
-
             # first-time user
             if not int(sender_id) in database.show_user_id_list(mysql):
                 pretty_print('This is a new user!', mode='QuizBot')
@@ -120,7 +112,7 @@ def webhook():
                 database.insert_score(mysql, sender_id, -1, "new_user", 0)
                 message.choose_mode_quick_reply(sender_id)
 
-            # Liwei: update the user's name 
+            # Liwei: update the user's name
             database.update_user_name(mysql, sender_id, sender_firstname, sender_lastname)
 
             # User clicked/tapped "postback" button in Persistent menu
@@ -179,7 +171,7 @@ with app.app_context():
     # reminder.RepeatedTimer(7200.0, message.send_reminder, [['1805880356153906', 'Nathan'], ['1139924072777403', 'Sherry'], ['1850388251650155', 'Liwei']])
     reminder.RepeatedTimer(86400.0, message.send_reminder, database.show_inactive_user(mysql))
     # reminder.RepeatedTimer(60.0, message.send_reminder, database.show_inactive_user(mysql))
-    
+
 
 def _get_user_profile(sender_id):
     # based on user id retrive user name
@@ -200,8 +192,8 @@ def _get_user_profile(sender_id):
 # ================== SET UP ==================
 def setup(app):
     # hide http print
-    # log = logging.getLogger('werkzeug')
-    # log.setLevel(logging.ERROR)
+    log = logging.getLogger('werkzeug')
+    log.setLevel(logging.ERROR)
 
     pretty_print("============ Start the app ============", mode='App')
     message.send_greeting(access_token)
@@ -218,7 +210,8 @@ if __name__ == '__main__':
 
     # Select the right model to load based on environment variable "MODEL"
     # which is set in ./start_server.sh
-    model = os.environ["MODEL"]
+    # model = os.environ["MODEL"]
+    model = "TFIDF"  # Sherry: use TFIDF for now
     if model == "TFIDF":
         qa_model = QAModel.TFIDFModel(qa_kb)
     elif model == "SIF":
