@@ -204,7 +204,7 @@ def setup(app):
     # log.setLevel(logging.ERROR)
 
     pretty_print("============ Start the app ============", mode='App')
-    # message.send_greeting(access_token)
+    message.send_greeting(access_token)
     message.persistent_menu(access_token)
 
 

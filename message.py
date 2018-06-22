@@ -6,6 +6,50 @@ import random
 from time import gmtime, strftime
 from utils import pretty_print
 
+def send_get_it(recipient_id, main_text, payload):
+    content = ["Got it💡", "Got it 👊🏼", "Got it 📍", "Sure ✅", "Tap me👇🏼", "Yes, continue 👉🏼", "Next 💪🏼", "Continue 👉🏼", "Continue ▶️", "Next ➡️"]
+    random.shuffle(content)
+
+    params = {
+        "access_token": os.environ["PAGE_ACCESS_TOKEN"]
+    }
+    headers = {
+        "Content-Type": "application/json"
+    }
+    # display sender actions
+    data = json.dumps({
+        "recipient": {
+            "id": recipient_id
+        },
+        "sender_action": "typing_on"
+    })
+    r = requests.post("https://graph.facebook.com/v2.6/me/messages", params=params, headers=headers, data=data)
+    if r.status_code != 200:
+        log(r.status_code)
+        log(r.text)   
+        
+    # send text message
+    data = json.dumps({
+        "recipient": {
+            "id": recipient_id
+        },
+        "message": {
+            "text": main_text,
+            "quick_replies": [
+                {
+                    "content_type": "text",
+                    "title": content[0],
+                    "payload": payload
+                }
+            ]
+        }
+    })
+    r = requests.post("https://graph.facebook.com/v2.6/me/messages", params=params, headers=headers, data=data)
+    if r.status_code != 200:
+        log(r.status_code)
+        log(r.text)
+   
+
 
 def send_picture(user_id, imageUrl, title="", subtitle=""):
     print("sending pictures")
@@ -80,7 +124,6 @@ def send_starting_question(recipient_id):
         log(r.text)
 
 def send_a_question(recipient_id, question):
-    #ending_part = "\nPlease note that you will earn at most 3 points if you ask for a hint!"
     params = {
         "access_token": os.environ["PAGE_ACCESS_TOKEN"]
     }
@@ -114,14 +157,24 @@ def send_a_question(recipient_id, question):
 
 
 def send_message(recipient_id, message_text):
-
     params = {
         "access_token": os.environ["PAGE_ACCESS_TOKEN"]
     }
     headers = {
         "Content-Type": "application/json"
     }
-    
+    # display sender actions
+    data = json.dumps({
+        "recipient": {
+            "id": recipient_id
+        },
+        "sender_action": "typing_on"
+    })
+    r = requests.post("https://graph.facebook.com/v2.6/me/messages", params=params, headers=headers, data=data)
+    if r.status_code != 200:
+        log(r.status_code)
+        log(r.text)   
+
     # send text message
     data = json.dumps({
         "recipient": {
@@ -130,18 +183,6 @@ def send_message(recipient_id, message_text):
         "message": {
             "text": message_text
         }
-    })
-    r = requests.post("https://graph.facebook.com/v2.6/me/messages", params=params, headers=headers, data=data)
-    if r.status_code != 200:
-        log(r.status_code)
-        log(r.text)
-   
-    # display sender actions
-    data = json.dumps({
-        "recipient": {
-            "id": recipient_id
-        },
-        "sender_action": "typing_on"
     })
     r = requests.post("https://graph.facebook.com/v2.6/me/messages", params=params, headers=headers, data=data)
     if r.status_code != 200:
@@ -179,6 +220,8 @@ def send_interesting(recipient_id, main_text):
 def send_hint(recipient_id, main_text, qa_model, qid):
     message_text = ""
     options = []
+    index = ["1️⃣", "2️⃣", "3️⃣", "4️⃣", "5️⃣", "6️⃣", "7️⃣", "8️⃣", "9️⃣", "🔟"]
+
     for x in qa_model.DKB[qid]:
         options.append({
                     "content_type": "text",
@@ -194,12 +237,12 @@ def send_hint(recipient_id, main_text, qa_model, qid):
     random.shuffle(options)
 
     for i in range(len(options)):
-        message_text += "<"
-        message_text += str(i+1) 
-        message_text += "> "
+        message_text += index[i%10]
+        message_text += " "
         message_text += str(options[i]["title"])
         message_text += "\n"
-    
+        options[i]["title"] = index[i%10]
+
     options.append({
                     "content_type": "text",
                     "title": "I don’t know 😓",
@@ -378,7 +421,7 @@ def choose_subject_quick_reply(recipient_id, main_text):
                 },
                 {
                     "content_type": "text",
-                    "title": "GRE🔠",
+                    "title": "GRE 🔠",
                     "payload": "BUTTON_GRE"
                 },
                 {
@@ -388,7 +431,7 @@ def choose_subject_quick_reply(recipient_id, main_text):
                 },
                 {
                     "content_type": "text",
-                    "title": "Random🎲",
+                    "title": "Random 🎲",
                     "payload": "BUTTON_RANDOM"
                 }
             ]
@@ -430,12 +473,12 @@ def send_correct_answer(recipient_id, QID, standard_answer):
                     "content_type": "text",
                     "title":"Switch Subject!",
                     "payload":"BUTTON_SWITCH_SUBJECT"
-                },
-                {
-                    "content_type": "text",
-                    "title": "Wait, I'm right 😡",
-                    "payload": "BUTTON_REPORT_BUG"
-                },
+                }
+                # {
+                #     "content_type": "text",
+                #     "title": "Wait, I'm right 😡",
+                #     "payload": "BUTTON_REPORT_BUG"
+                # },
             ]
         }
     })
@@ -608,7 +651,7 @@ def persistent_menu(access_token):
                 #         ]
                 # },
                 {
-                    "title":"Change Subject",
+                    "title":"Change Subject 🔁",
                     "type":"nested",
                     "call_to_actions":[
                         {
@@ -617,7 +660,7 @@ def persistent_menu(access_token):
                             "payload":"BUTTON_SCIENCE"
                         },
                         {
-                            "title":"GRE🔠",
+                            "title":"GRE 🔠",
                             "type":"postback",
                             "payload":"BUTTON_GRE"
                         },
@@ -627,13 +670,12 @@ def persistent_menu(access_token):
                             "payload":"BUTTON_SAFETY"
                         },
                         {
-                            "title":"Random🎲",
+                            "title":"Random 🎲",
                             "type":"postback",
                             "payload":"BUTTON_RANDOM"
                         }
                         ]
                 },
-<<<<<<< HEAD
                 # {
                 #     "title":"Progress Report",
                 #     "type":"nested",
@@ -650,29 +692,33 @@ def persistent_menu(access_token):
                 #     }
                 #     ]
                 # },
+                # {
+                #     "type":"web_url",
+                #     "title":"Invite Friends! "+u'\U0001F604',
+                #     "url":"https://www.facebook.com/sharer/sharer.php?u=https%3A//www.facebook.com/quizzzbot/",
+                #     "webview_height_ratio":"full"
                 {
-                    "type":"web_url",
-                    "title":"Invite Friends! "+u'\U0001F604',
-                    "url":"https://www.facebook.com/sharer/sharer.php?u=https%3A//www.facebook.com/quizzzbot/",
-                    "webview_height_ratio":"full"
-=======
-                {
-                    "title":"Progress Report",
-                    "type":"nested",
-                    "call_to_actions":[
-                    {
-                        "title":"Check Total Score",
-                        "type":"postback",
-                        "payload":"MENU_SCORE"
-                    }
+                    "title":"Check Total Score 📝",
+                    "type":"postback",
+                    "payload":"MENU_SCORE"
+                    # "call_to_actions":[
+                    # {
+                    #     "title":"Check Total Score",
+                    #     "type":"postback",
+                    #     "payload":"MENU_SCORE"
+                    # }
                     # Liwei: Remove this functionality for user study
                     # {
                     #     "title":"Check Leaderboard",
                     #     "type":"postback",
                     #     "payload":"MENU_LEADERBOARD"
                     # }
-                    ]
->>>>>>> e4735e1d5133d21427c50597248eb09238de891d
+                    # ]
+                },
+                {
+                    "title":"Report Bug 🔧",
+                    "type":"postback",
+                    "payload":"BUTTON_REPORT_BUG"
                 }
                 # Liwei: Remove this functionality for user study
                 # {
@@ -700,21 +746,21 @@ def send_greeting(access_token):
     headers = {
         "Content-Type": "application/json"
     }
-    data1 = json.dumps({
-        "greeting":[
-            {
-                "locale":"default",
-                "text":"Hello!"
-            },
-            {
-                "locale":"en_US",
-                "text":"Hi, we are a group of researchers from Stanford University Computer Science Department. Thank you for trying out the QuizBot!"
-            }
-        ]
-    })
+    # data1 = json.dumps({
+    #     "greeting":[
+    #         {
+    #             "locale":"default",
+    #             "text":"Hello!"
+    #         },
+    #         {
+    #             "locale":"en_US",
+    #             "text":"Hi, we are a group of researchers from Stanford University Computer Science Department. Thank you for trying out the QuizBot!"
+    #         }
+    #     ]
+    # })
     data2 = json.dumps({
         "get_started":{
-        "payload":"GET_STARTED_PAYLOAD"
+        "payload":"GET_STARTED_PAYLOAD_1"
         }
     })
 
@@ -723,10 +769,10 @@ def send_greeting(access_token):
         log(r.status_code)
         log(r.text)
 
-    r = requests.post("https://graph.facebook.com/v2.6/me/messenger_profile", params=params, headers=headers, data=data1)
-    if r.status_code != 200:
-        log(r.status_code)
-        log(r.text)
+    # r = requests.post("https://graph.facebook.com/v2.6/me/messenger_profile", params=params, headers=headers, data=data1)
+    # if r.status_code != 200:
+    #     log(r.status_code)
+    #     log(r.text)
 
 def log(message):  # simple wrapper for logging to stdout on heroku
     print(str(message))
