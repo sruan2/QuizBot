@@ -1,3 +1,7 @@
+flashcard/platforms/ios/CordovaLib/CordovaLib.xcodeproj/xcuserdata
+flashcard/platforms/ios/Flashcards.xcworkspace/xcuserdata
+
+
 wkhtmltox/
 gcloud_speech/*
 fonts/
@@ -118,7 +122,8 @@ model_pre_trained/glove/
 venv
 
 # Shell scripts
-*.sh
+/*.sh
+flashcard_backend/start_server_flashcard.sh
 
 # tmp files
 tmp/

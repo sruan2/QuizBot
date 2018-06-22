@@ -1,26 +1,27 @@
 import sys
+import os
 from abc import ABCMeta, abstractmethod
 from gensim.models import Doc2Vec
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import linear_kernel
-from similarity_model.sif_implementation.wordembeddings import EmbeddingVectorizer
-from similarity_model.sif_implementation import utils
-#from similarity_model.princeton_sif import sif_sentence_similarity
 import random
 from random import randint
-import os
 import pickle
 from nltk import RegexpTokenizer
 import math
+
+from utils import pretty_print
+from similarity_model.sif_implementation.wordembeddings import EmbeddingVectorizer
+from similarity_model.sif_implementation import utils
+#from similarity_model.princeton_sif import sif_sentence_similarity
 
 
 class QAModel(object):
 
     def __init__(self, qa_kb):
-        print("[QUIZBOT] PID " + str(os.getpid())+": QAModel initialization begins")
+        pretty_print("QAModel initialization", mode="QA Model")
         self.QID = 0
         self.QA_KB = qa_kb
-        print("[QUIZBOT] PID " + str(os.getpid())+": QAModel initialization ends")
 
     def pickSubjectRandomQuestion(self, subject):
         subject = subject.lower()
@@ -52,18 +53,21 @@ class QAModel(object):
             support = ""
             print("[BUG] PID " + str(os.getpid())+": Index %d does not exist in SKB" % QID)
         return support
-    
+
     @abstractmethod
     def pickNextSimilarQuestion(self): pass
 
     @abstractmethod
     def computeScore(self): pass
 
-# This is a working baseline model
+
 class TFIDFModel(QAModel):
-    """docstring for TFIDF"""
+    """a working baseline model: TFIDF"""
     def __init__(self, qa_kb):
         super(TFIDFModel, self).__init__(qa_kb)
+        self.AKB = qa_kb.AKB
+        self.DKB = qa_kb.DKB
+        pretty_print('TFIDF Model')
 
     def compute_score(self, user_answer, QID):
         user_answer = user_answer.lower()
@@ -72,14 +76,16 @@ class TFIDFModel(QAModel):
         answer.append(user_answer)
         self.tfidf_features = TfidfVectorizer().fit_transform(answer)
         cosine_similarities = linear_kernel(self.tfidf_features[0:1], self.tfidf_features).flatten()
-        return int(cosine_similarities[1]*10)   
+        return int(cosine_similarities[1]*10)
 
-# This is pretrained by Zhengneng
+
 class Doc2VecModel(QAModel):
-    """docstring for Doc2VecModel"""
-    def __init__(self, qa_kb, PreTrainedModel):
+    """Doc2VecModel, pretrained by Zhengneng"""
+    def __init__(self, qa_kb):
+        pretrained_model_file = 'model_pre_trained/model_d2v_v1'
         super(Doc2VecModel, self).__init__(qa_kb)
-        self.MODEL = Doc2Vec.load(PreTrainedModel) # load the model in the very beginning
+        self.MODEL = Doc2Vec.load(pretrained_model_file) # load the model in the very beginning
+        pretty_print('Doc2Vec Model')
 
     def pickNextSimilarQuestion(self, QID):
         num = randint(0, 1000)
@@ -89,9 +95,9 @@ class Doc2VecModel(QAModel):
 
 # Sherry: This is based on Princeton's original implementation. Not sure if this working, haven't tested it out yet.
 class SIFModel(QAModel):
-    """docstring for SIFModel"""
     def __init__(self, qa_kb):
         super(SIFModel, self).__init__(qa_kb)
+        pretty_print('SIF Model')
 
     def compute_score(self, user_answer, QID):
         user_answer = user_answer.lower()
@@ -101,15 +107,16 @@ class SIFModel(QAModel):
 
 ################### Sherry is fixing this, please do not touch ######################
 class SIF2Model(QAModel):
-    """docstring for SIF2Model"""
-    def __init__(self, qa_kb, pkl_file):
+    def __init__(self, qa_kb):
+        pkl_file = 'model_pre_trained/glove/glove.6B.100d.pkl'
         super(SIF2Model, self).__init__(qa_kb)
         self.AKB = qa_kb.AKB
         self.DKB = qa_kb.DKB
         pkl = open(pkl_file, 'rb')
         self.glove = pickle.load(pkl, encoding='latin1')
-        print("[QUIZBOT] PID " + str(os.getpid())+": Loaded "+pkl_file)
         self.init_model(qa_kb.SKB)  # use support to fit
+        pretty_print("Loaded "+pkl_file, mode="QA Model")
+        pretty_print('SIF2 Model')
 
     def init_model(self, sentences):
         self.tokenizer = RegexpTokenizer(r'[\w]+')
@@ -120,7 +127,7 @@ class SIF2Model(QAModel):
         # transform the correct answer
         correct_answer = self.QA_KB.AKB[QID][0]
         tokenized_answer = utils.preprocess([correct_answer], self.tokenizer)
-        V_answer = self.emb.transform(tokenized_answer)    
+        V_answer = self.emb.transform(tokenized_answer)
         # transform the user's answer
         tokenized_query = utils.preprocess([user_answer], self.tokenizer)
         print(tokenized_query)
@@ -131,11 +138,14 @@ class SIF2Model(QAModel):
                 break
         if not not_empty:
             return -1 # transformed V_query won't exist since it will be empty (nont of the words exist in glove)
-        V_query = self.emb.transform(tokenized_query)      
-        score = math.ceil(utils.cosine_similarity(V_query[0], V_answer[0]) * 10)
+        V_query = self.emb.transform(tokenized_query)
+
+        # Liwei: this line has a bug, so comment this out and add a fake score for running the app
+        # score = math.ceil(utils.cosine_similarity(V_query[0], V_answer[0]) * 10)
+        score = 0
         return score
 
-        
+
 
 
 
