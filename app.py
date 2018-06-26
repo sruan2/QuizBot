@@ -70,8 +70,10 @@ def verify():
 @app.route('/', methods=['POST'])
 def webhook():
     '''endpoint for processing incoming messaging events'''
-
     data = request.get_json()
+
+    # print("-------------------------------------")
+    # print(data)
 
     if data["object"] != "page":
         return "Object is not a page", 200
@@ -97,6 +99,8 @@ def webhook():
 
             # Get user data
             data = _get_user_profile(sender_id)
+            # print("-------------------------------------")
+            # print(data)
             sender_firstname = data['first_name']
             sender_lastname = data['last_name']
 
@@ -104,6 +108,10 @@ def webhook():
                 sender_gender = data['gender']
             else:
                 sender_gender = 'unknown'
+
+            # sender_firstname = 'first name'
+            # sender_lastname = 'last name'
+            # sender_gender = 'unknown'
 
             # first-time user
             if not int(sender_id) in database.show_user_id_list(mysql):
@@ -113,7 +121,7 @@ def webhook():
                 message.choose_mode_quick_reply(sender_id)
 
             # Liwei: update the user's name
-            database.update_user_name(mysql, sender_id, sender_firstname, sender_lastname)
+            # database.update_user_name(mysql, sender_id, sender_firstname, sender_lastname)
 
             # User clicked/tapped "postback" button in Persistent menu
             if messaging_event.get("postback"):

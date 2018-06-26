@@ -12,7 +12,7 @@ def respond_to_payload(payload, message_text, sender_id, sender_firstname, qa_mo
 
     if payload == "GET_STARTED_PAYLOAD_1":
         msg_intro_1 = "Hi " + sender_firstname + "! My name is Mr. Owl 🦉 and I’m here to help you learn all about science🔬, verbal reasoning (GRE)📖, and safety🔥!"
-        send_picture(sender_id, "https://www.smartprimer.org:8443/pictures/Owl_Design_Orange_zoom.png", "", "")
+        send_picture(sender_id, "https://www.smartprimer.org:8443/pictures/owlyellow.png", "", "")
         time.sleep(0.6)
         send_get_it(sender_id, msg_intro_1, "GET_STARTED_PAYLOAD_2")
 
