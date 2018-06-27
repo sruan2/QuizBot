@@ -7,7 +7,6 @@ import requests
 import time
 import logging
 from flask_mysqldb import MySQL
-
 import message
 import database
 import chatbot

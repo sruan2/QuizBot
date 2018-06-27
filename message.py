@@ -3,10 +3,16 @@ import json
 import requests
 import sys
 import random
+import time
 from time import gmtime, strftime
 from utils import pretty_print
 
-def send_get_it(recipient_id, main_text, payload):
+def send_get_it(recipient_id, main_text, sleep_time, payload):
+    time.sleep(sleep_time)
+    for msg in main_text[:-1]:
+        send_message(recipient_id, msg)
+        time.sleep(sleep_time)
+
     content = ["Got it💡", "Got it 👊🏼", "Got it 📍", "Sure ✅", "Tap me👇🏼", "Yes, continue 👉🏼", "Next 💪🏼", "Continue 👉🏼", "Continue ▶️", "Next ➡️"]
     random.shuffle(content)
 
@@ -34,7 +40,7 @@ def send_get_it(recipient_id, main_text, payload):
             "id": recipient_id
         },
         "message": {
-            "text": main_text,
+            "text": main_text[-1],
             "quick_replies": [
                 {
                     "content_type": "text",
@@ -394,26 +400,6 @@ def choose_subject_quick_reply(recipient_id, main_text):
         "message": {
             "text": main_text,
             "quick_replies": [
-                # {
-                #     "content_type": "text",
-                #     "title": "Physics🚗",
-                #     "payload": "BUTTON_PHYSICS"
-                # },
-                # {
-                #     "content_type": "text",
-                #     "title": "Chemistry⚗️",
-                #     "payload": "BUTTON_CHEMISTRY"
-                # },
-                # {
-                #     "content_type": "text",
-                #     "title": "Biology🔬",
-                #     "payload": "BUTTON_BIOLOGY"
-                # },
-                # {
-                #     "content_type": "text",
-                #     "title": "Geology⛰",
-                #     "payload": "BUTTON_GEOLOGY"
-                # },
                 {
                     "content_type": "text",
                     "title": "Science🔬",
@@ -443,9 +429,6 @@ def choose_subject_quick_reply(recipient_id, main_text):
         log(r.text)
 
 def send_correct_answer(recipient_id, QID, standard_answer):
-
-    #log("sending WHY button to {recipient}: {text}".format(recipient=recipient_id, text=str(QID)))
-
     params = {
         "access_token": os.environ["PAGE_ACCESS_TOKEN"]
     }
@@ -474,11 +457,6 @@ def send_correct_answer(recipient_id, QID, standard_answer):
                     "title":"Switch Subject!",
                     "payload":"BUTTON_SWITCH_SUBJECT"
                 }
-                # {
-                #     "content_type": "text",
-                #     "title": "Wait, I'm right 😡",
-                #     "payload": "BUTTON_REPORT_BUG"
-                # },
             ]
         }
     })
@@ -632,26 +610,8 @@ def persistent_menu(access_token):
                 "locale":"default",
                 "composer_input_disabled": False,
                 "call_to_actions":[
-
-                # Liwei: Remove this functionality for user study
-                # {
-                #     "title":"Change Mode",
-                #     "type":"nested",
-                #     "call_to_actions":[
-                #         {
-                #             "title":"Practice Mode "+u'\u270F',
-                #             "type":"postback",
-                #             "payload":"MENU_PRACTICE_MODE"
-                #         },
-                #         {
-                #             "title":"Challenge Mode "+u'\uD83D\uDE3A',
-                #             "type":"postback",
-                #             "payload":"MENU_CHALLENGE_MODE"
-                #         }
-                #         ]
-                # },
                 {
-                    "title":"Change Subject 🔁",
+                    "title":"Change Subject 🔀",
                     "type":"nested",
                     "call_to_actions":[
                         {
@@ -674,58 +634,43 @@ def persistent_menu(access_token):
                             "type":"postback",
                             "payload":"BUTTON_RANDOM"
                         }
-                        ]
+                    ]
                 },
-                # {
-                #     "title":"Progress Report",
-                #     "type":"nested",
-                #     "call_to_actions":[
-                #     {
-                #         "title":"Check Total Score",
-                #         "type":"postback",
-                #         "payload":"MENU_SCORE"
-                #     },
-                #     {
-                #         "title":"Check Leaderboard",
-                #         "type":"postback",
-                #         "payload":"MENU_LEADERBOARD"
-                #     }
-                #     ]
-                # },
-                # {
-                #     "type":"web_url",
-                #     "title":"Invite Friends! "+u'\U0001F604',
-                #     "url":"https://www.facebook.com/sharer/sharer.php?u=https%3A//www.facebook.com/quizzzbot/",
-                #     "webview_height_ratio":"full"
                 {
                     "title":"Check Total Score 📝",
                     "type":"postback",
                     "payload":"MENU_SCORE"
-                    # "call_to_actions":[
-                    # {
-                    #     "title":"Check Total Score",
-                    #     "type":"postback",
-                    #     "payload":"MENU_SCORE"
-                    # }
-                    # Liwei: Remove this functionality for user study
-                    # {
-                    #     "title":"Check Leaderboard",
-                    #     "type":"postback",
-                    #     "payload":"MENU_LEADERBOARD"
-                    # }
-                    # ]
                 },
                 {
-                    "title":"Report Bug 🔧",
-                    "type":"postback",
-                    "payload":"BUTTON_REPORT_BUG"
+                    "title":"More📍",
+                    "type":"nested",
+                    "call_to_actions":[
+                        {
+                            "title":"Report Bug 🔧",
+                            "type":"postback",
+                            "payload":"BUTTON_REPORT_BUG"
+                        },
+                        {
+                            "title":"User Manual 👩🏻‍💻👨🏻‍💻",
+                            "type":"postback",
+                            "payload":"BUTTON_USER_MANUAL_1"
+                        },
+                        {
+                            "title":"About QuizBot 🔖",
+                            "type":"postback",
+                            "payload":"BUTTON_ABOUT_QUIZBOT"
+                        },
+                        {
+                            "title":"Contact ☎️",
+                            "type":"postback",
+                            "payload":"BUTTON_CONTACT"
+                        }               
+                    ]
                 }
-                # Liwei: Remove this functionality for user study
                 # {
-                #     "type":"web_url",
-                #     "title":"Invite Friends! "+u'\U0001F604',
-                #     "url":"https://www.facebook.com/sharer/sharer.php?u=https%3A//www.facebook.com/quizzzbot/",
-                #     "webview_height_ratio":"full"
+                #     "title":"Report Bug 🔧",
+                #     "type":"postback",
+                #     "payload":"BUTTON_REPORT_BUG"
                 # }
             ]
           }
