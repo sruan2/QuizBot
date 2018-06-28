@@ -134,7 +134,7 @@ def show_inactive_user(mysql):
         join users t2 on t2.user_id = t1.user_id order by t1.r_time ")
 
     rows = cur.fetchall();
-    return [row[:2] for row in rows if (datetime.strptime(current_datetime, date_format_time) - datetime.strptime(row[2], date_format_time)).days]
+    return [row[:2] for row in rows if (datetime.strptime(current_datetime, date_format_time) - datetime.strptime("2018-06-28 00:00:00", date_format_time)).days]
 
 
 ########## FLASHCARD ##########
