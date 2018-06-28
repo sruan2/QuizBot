@@ -530,35 +530,41 @@ def send_bugreport(recipient_id, text):
         log(r.text)
 
 def send_reminder(list):
-
+    count_sent = {}
     for recipient_id, user_name in list:
-        params = {
-            "access_token": os.environ["PAGE_ACCESS_TOKEN"]
-        }
-        headers = {
-            "Content-Type": "application/json"
-        }
-        data = json.dumps({
-            "recipient": {
-                "id": recipient_id
-            },
-            "message": {
-                "text": user_name + ", you haven't talked to me for more than a day, would you like to continue the conversation with me now?",
-                "quick_replies": [
-                    {
-                        "content_type": "text",
-                        "title": "Continue 💪",
-                        "payload": "BUTTON_CONTINUE"
-                    }
-                ]
+
+        if recipient_id not in count_sent:
+            count_sent[recipient_id] = 0
+
+        if count_sent[recipient_id] < 7:
+            count_sent[recipient_id] += 1
+            params = {
+                "access_token": os.environ["PAGE_ACCESS_TOKEN"]
             }
-        })
-        r = requests.post("https://graph.facebook.com/v2.6/me/messages", params=params, headers=headers, data=data)
-        if r.status_code != 200:
-            log(r.status_code)
-            log(r.text)
-        else:
-            print("[QUIZBOT] PID " + str(os.getpid())+": Sent Reminder To " + str(user_name) + " With ID " + str(recipient_id) + " At " + strftime("%Y-%m-%d %H:%M:%S", gmtime()))
+            headers = {
+                "Content-Type": "application/json"
+            }
+            data = json.dumps({
+                "recipient": {
+                    "id": recipient_id
+                },
+                "message": {
+                    "text": user_name + ", you haven't talked to me for more than a day, would you like to continue the conversation with me now?",
+                    "quick_replies": [
+                        {
+                            "content_type": "text",
+                            "title": "Continue 💪",
+                            "payload": "BUTTON_CONTINUE"
+                        }
+                    ]
+                }
+            })
+            r = requests.post("https://graph.facebook.com/v2.6/me/messages", params=params, headers=headers, data=data)
+            if r.status_code != 200:
+                log(r.status_code)
+                log(r.text)
+            else:
+                print("[QUIZBOT] PID " + str(os.getpid())+": Sent Reminder To " + str(user_name) + " With ID " + str(recipient_id) + " At " + strftime("%Y-%m-%d %H:%M:%S", gmtime()))
 
 
 def send_gotit_quickreply(recipient_id, sentence, flag):
