@@ -16,25 +16,14 @@ def send_get_it(recipient_id, main_text, sleep_time, payload):
     content = ["Got it💡", "Got it 👊🏼", "Got it 📍", "Sure ✅", "Tap me👇🏼", "Yes, continue 👉🏼", "Next 💪🏼", "Continue 👉🏼", "Continue ▶️", "Next ➡️"]
     random.shuffle(content)
 
+    send_typing_action(recipient_id)
+
     params = {
         "access_token": os.environ["PAGE_ACCESS_TOKEN"]
     }
     headers = {
         "Content-Type": "application/json"
     }
-    # display sender actions
-    data = json.dumps({
-        "recipient": {
-            "id": recipient_id
-        },
-        "sender_action": "typing_on"
-    })
-    r = requests.post("https://graph.facebook.com/v2.6/me/messages", params=params, headers=headers, data=data)
-    if r.status_code != 200:
-        log(r.status_code)
-        log(r.text)   
-        
-    # send text message
     data = json.dumps({
         "recipient": {
             "id": recipient_id
@@ -54,7 +43,95 @@ def send_get_it(recipient_id, main_text, sleep_time, payload):
     if r.status_code != 200:
         log(r.status_code)
         log(r.text)
+
+
+
+def send_if_new(recipient_id, main_text):
+    params = {
+        "access_token": os.environ["PAGE_ACCESS_TOKEN"]
+    }
+    headers = {
+        "Content-Type": "application/json"
+    }
+    data = json.dumps({
+        "recipient": {
+            "id": recipient_id
+        },
+        "message": {
+            "text": main_text,
+            "quick_replies": [
+                {
+                    "content_type": "text",
+                    "title": "I'm a new user.",
+                    "payload": "GET_READY"
+                },
+                {
+                    "content_type": "text",
+                    "title": "Resume Learning",
+                    "payload": "BUTTON_GOT_IT_NEXT"
+                }
+            ]
+        }
+    })
+    r = requests.post("https://graph.facebook.com/v2.6/me/messages", params=params, headers=headers, data=data)
+    if r.status_code != 200:
+        log(r.status_code)
+        log(r.text)
+
+
+
+def send_typing_action(recipient_id):
+    params = {
+        "access_token": os.environ["PAGE_ACCESS_TOKEN"]
+    }
+    headers = {
+        "Content-Type": "application/json"
+    }
+    data = json.dumps({
+        "recipient": {
+            "id": recipient_id
+        },
+        "sender_action": "typing_on"
+    })
+    r = requests.post("https://graph.facebook.com/v2.6/me/messages", params=params, headers=headers, data=data)
+    if r.status_code != 200:
+        log(r.status_code)
+        log(r.text)   
    
+def send_if_user_manual(recipient_id):
+    send_message(recipient_id, "Do you want me to guide you through how this works? 🦉")
+
+    params = {
+        "access_token": os.environ["PAGE_ACCESS_TOKEN"]
+    }
+    headers = {
+        "Content-Type": "application/json"
+    } 
+    data = json.dumps({
+        "recipient": {
+            "id": recipient_id
+        },
+        "message": {
+            "text": main_text[-1],
+            "quick_replies": [
+                {
+                    "content_type": "text",
+                    "title": "Yes, user manual!",
+                    "payload": "BUTTON_USER_MANUAL_1"
+                },
+                {
+                    "content_type": "text",
+                    "title": "Skip user manual.",
+                    "payload": "GET_STARTED_PAYLOAD_5"
+                }
+            ]
+        }
+    })
+    r = requests.post("https://graph.facebook.com/v2.6/me/messages", params=params, headers=headers, data=data)
+    if r.status_code != 200:
+        log(r.status_code)
+        log(r.text)
+
 
 
 def send_picture(user_id, imageUrl, title="", subtitle=""):
@@ -705,7 +782,7 @@ def send_greeting(access_token):
     # })
     data2 = json.dumps({
         "get_started":{
-        "payload":"GET_STARTED_PAYLOAD_1"
+        "payload":"GET_INTRO_1"
         }
     })
 
