@@ -16,8 +16,6 @@ def insert_user(mysql, user_id,user_firstname,user_lastname,user_gender,user_sta
         except:
             con.rollback()
             pretty_print("Error in inserting user reocrd operation", mode="BUG!")
-        # finally:
-        #     con.close()
 
 # update user question-answer loop status
 def update_status(mysql, user_id, status):
@@ -31,8 +29,6 @@ def update_status(mysql, user_id, status):
         except:
             con.rollback()
             pretty_print("Error in updating user status operation", mode="BUG!")
-        # finally:
-        #     con.close()
 
 # update the user name
 def update_user_name(mysql,user_id,user_firstname,user_lastname):
@@ -70,8 +66,6 @@ def insert_score(mysql, user_id,qid,answer,score):
         except:
             con.rollback()
             pretty_print("error in inserting score operation", mode="BUG!")
-        # finally:
-        #     con.close()
 
 # insert asked questions
 def insert_question(mysql, user_id, qid, subject):
@@ -86,8 +80,6 @@ def insert_question(mysql, user_id, qid, subject):
         except:
             con.rollback()
             pretty_print("Error in inserting question operation", mode="BUG!")
-        # finally:
-        #     con.close()
 
 def show_user_id_list(mysql):
     cur = mysql.connection.cursor()
@@ -138,18 +130,14 @@ def show_inactive_user(mysql):
     current_datetime = strftime(date_format_time, gmtime())
 
     cur = mysql.connection.cursor()
-    # cur.execute("SELECT s.user_id, user_firstname FROM users, (SELECT user_id, max(r_time) AS r_time FROM scores GROUP BY user_id) s \
-    #     WHERE STR_TO_DATE(%s, %s) - STR_TO_DATE(r_time, %s) > 1000000 LIMIT 10;", [current_datetime, date_format_sql, date_format_sql])
-
     cur.execute("SELECT t2.user_id, t2.user_firstname, t1.r_time from (select user_id, max(r_time) as r_time from scores group by user_id) t1 \
         join users t2 on t2.user_id = t1.user_id order by t1.r_time ")
 
     rows = cur.fetchall();
-    return [row[:2] for row in rows if (datetime.strptime(current_datetime, date_format_time) - datetime.strptime(row[2], date_format_time)).days]
+    return [row[:2] for row in rows if (datetime.strptime(current_datetime, date_format_time) - datetime.strptime("2018-06-28 00:00:00", date_format_time)).days]
 
 
 ########## FLASHCARD ##########
-
 # insert flashcard user info
 def insert_user_flashcard(mysql,user_id,user_firstname,user_lastname):
     if request.method == 'POST':
@@ -162,8 +150,6 @@ def insert_user_flashcard(mysql,user_id,user_firstname,user_lastname):
         except:
             con.rollback()
             pretty_print("Error in inserting Flashcard user reocrd operation", mode="FC BUG!")
-        # finally:
-        #     con.close()
 
 # insert flashcard user action
 def insert_user_action_flashcard(mysql, user_id, qid, user_action):
@@ -178,5 +164,3 @@ def insert_user_action_flashcard(mysql, user_id, qid, user_action):
         except:
             con.rollback()
             pretty_print("Error in inserting FLASHCARD user action reocrd operation", mode="FC BUG!")
-        # finally:
-        #     con.close()
