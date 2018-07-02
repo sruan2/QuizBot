@@ -20,57 +20,30 @@ def respond_to_payload(payload, message_text, sender_id, sender_firstname, qa_mo
         msg_intro_2.append("Here’s how it works. 📗")
         msg_intro_2.append("I ask you questions❓, and you give me answers ✅.")
         msg_intro_2.append("If you get the right answer, you earn points! 🎉")
-        send_get_it(sender_id, msg_intro_2, 0.6, "BUTTON_USER_MANUAL_1")
+        send_get_it(sender_id, msg_intro_2, 0.6, "GET_INTRO_3")
 
-    elif payload == "BUTTON_USER_MANUAL_1":
+    elif payload == "GET_INTRO_3":
         msg_user_manual = []
-        msg_user_manual.append("To study the questions, you can type in ⌨️ your answers in the text field and the QuizBot will evaluate the answers for you.")
+        msg_user_manual.append("To study the questions, you can type in ⌨️ your answers in the text field and QuizBot will evaluate the answers for you.")
         msg_user_manual.append("For each question, you get 🔟 points if you get it right.")
         send_picture(sender_id, "https://www.smartprimer.org:443/pictures/typeanswer.png", "", "")
-        send_get_it(sender_id, msg_user_manual, 0.6, "BUTTON_USER_MANUAL_2")
+        send_get_it(sender_id, msg_user_manual, 0.6, "GET_INTRO_4")
 
-    elif payload == "BUTTON_USER_MANUAL_2":
+    elif payload == "GET_INTRO_4":
         msg_user_manual = []
         msg_user_manual.append("If you don't know the answers, then feel free to tap on the hint button.💡")
         msg_user_manual.append("The hint will give you a list of potential answers and you can select one from them. 🔠")
         msg_user_manual.append("If you choose the correct answer, then you will get at most 3️⃣ points.")
         send_picture(sender_id, "https://www.smartprimer.org:443/pictures/needhintbutton.png", "", "")
         send_picture(sender_id, "https://www.smartprimer.org:443/pictures/hintoptions.png", "", "")
-        send_get_it(sender_id, msg_user_manual, 0.6, "BUTTON_USER_MANUAL_3")
+        send_get_it(sender_id, msg_user_manual, 0.6, "GET_INTRO_5")
 
-    elif payload == "BUTTON_USER_MANUAL_3":
-        msg_user_manual = []
-        msg_user_manual.append("You can click on the quick reply buttons to proceed to the next steps. 🔜")
-        send_picture(sender_id, "https://www.smartprimer.org:443/pictures/quickreplybutton.png", "", "")
-        send_get_it(sender_id, msg_user_manual, 0.6, "BUTTON_USER_MANUAL_4")
-
-    elif payload == "BUTTON_USER_MANUAL_4":
+    elif payload == "GET_INTRO_5":
         msg_user_manual = []
         msg_user_manual.append("To discover more abilities of me, you can click on the menu button.👆🏼")
         send_picture(sender_id, "https://www.smartprimer.org:443/pictures/menubutton.jpg", "", "")
-        send_get_it(sender_id, msg_user_manual, 0.6, "BUTTON_USER_MANUAL_5")
+        send_get_it(sender_id, msg_user_manual, 0.6, "GET_READY")
 
-    elif payload == "BUTTON_USER_MANUAL_5":
-        msg_user_manual = []
-        msg_user_manual.append("You can track your learning progress by clicking on the menu button to see your total score. 📝")
-        send_picture(sender_id, "https://www.smartprimer.org:443/pictures/totalscorebutton.png", "", "")
-        send_get_it(sender_id, msg_user_manual, 0.6, "BUTTON_USER_MANUAL_6")
-
-    elif payload == "BUTTON_USER_MANUAL_6":
-        msg_user_manual = []
-        msg_user_manual.append("You can change the subjects from the menu as well! 🔀")
-        send_picture(sender_id, "https://www.smartprimer.org:443/pictures/changesubjects.jpg", "", "")
-        send_get_it(sender_id, msg_user_manual, 0.6, "BUTTON_USER_MANUAL_7")
-
-    elif payload == "BUTTON_USER_MANUAL_7":
-        msg_user_manual = []
-        msg_user_manual.append("To look for other informations, you can click on the more button in the menu.📍")
-        send_picture(sender_id, "https://www.smartprimer.org:443/pictures/morebutton.png", "", "")
-        send_get_it(sender_id, msg_user_manual, 0.6, "BUTTON_USER_MANUAL_8")
-
-    elif payload == "BUTTON_USER_MANUAL_8":
-        msg_user_manual = "Okay, you are all set! 🎉"
-        send_if_new(sender_id, msg_user_manual)
 
     elif payload == "GET_READY":
         msg_ready_1 = "I hope you enjoy the learning journey! 💯"
@@ -218,6 +191,55 @@ def respond_to_payload(payload, message_text, sender_id, sender_firstname, qa_mo
         msg_about_quizbot.append("I'm designed by a group of researchers from Stanford University Computer Science Department. ")
         msg_about_quizbot.append("I use technology in a scientific and interactive way to help you learn knowledge.")
         send_get_it(sender_id, msg_about_quizbot, 0.6, "BUTTON_CONTINUE")
+
+
+
+
+
+    elif payload == "BUTTON_USER_MANUAL_1":
+        msg_user_manual = []
+        msg_user_manual.append("To study the questions, you can type in ⌨️ your answers in the text field and QuizBot will evaluate the answers for you.")
+        msg_user_manual.append("For each question, you get 🔟 points if you get it right.")
+        send_picture(sender_id, "https://www.smartprimer.org:443/pictures/typeanswer.png", "", "")
+        send_get_it(sender_id, msg_user_manual, 0.6, "BUTTON_USER_MANUAL_2")
+
+    elif payload == "BUTTON_USER_MANUAL_2":
+        msg_user_manual = []
+        msg_user_manual.append("If you don't know the answers, then feel free to tap on the hint button.💡")
+        msg_user_manual.append("The hint will give you a list of potential answers and you can select one from them. 🔠")
+        msg_user_manual.append("If you choose the correct answer, then you will get at most 3️⃣ points.")
+        send_picture(sender_id, "https://www.smartprimer.org:443/pictures/needhintbutton.png", "", "")
+        send_picture(sender_id, "https://www.smartprimer.org:443/pictures/hintoptions.png", "", "")
+        send_get_it(sender_id, msg_user_manual, 0.6, "BUTTON_USER_MANUAL_3")
+
+    elif payload == "BUTTON_USER_MANUAL_3":
+        msg_user_manual = []
+        msg_user_manual.append("To discover more abilities of me, you can click on the menu button.👆🏼")
+        send_picture(sender_id, "https://www.smartprimer.org:443/pictures/menubutton.jpg", "", "")
+        send_get_it(sender_id, msg_user_manual, 0.6, "BUTTON_USER_MANUAL_4")
+
+    elif payload == "BUTTON_USER_MANUAL_4":
+        msg_user_manual = []
+        msg_user_manual.append("You can change the subjects from the menu! 🔀")
+        send_picture(sender_id, "https://www.smartprimer.org:443/pictures/changesubjects_1.jpg", "", "")
+        send_picture(sender_id, "https://www.smartprimer.org:443/pictures/changesubjects_2.jpg", "", "")
+        send_get_it(sender_id, msg_user_manual, 0.6, "BUTTON_USER_MANUAL_5")
+
+    elif payload == "BUTTON_USER_MANUAL_5":
+        msg_user_manual = []
+        msg_user_manual.append("You can track your learning progress by clicking on the menu button to see your total score. 📝")
+        send_picture(sender_id, "https://www.smartprimer.org:443/pictures/totalscorebutton.png", "", "")
+        send_get_it(sender_id, msg_user_manual, 0.6, "BUTTON_USER_MANUAL_6")
+
+    elif payload == "BUTTON_USER_MANUAL_6":
+        msg_user_manual = []
+        msg_user_manual.append("To look for other informations, you can click on the more button in the menu.📍")
+        send_picture(sender_id, "https://www.smartprimer.org:443/pictures/morebutton.png", "", "")
+        send_get_it(sender_id, msg_user_manual, 0.6, "BUTTON_USER_MANUAL_7")
+
+    elif payload == "BUTTON_USER_MANUAL_7":
+        msg_user_manual = "Okay, you are all set! 🎉"
+        send_get_it(sender_id, msg_user_manual, 0.6, "BUTTON_GOT_IT_NEXT")
 
     elif payload == "BUTTON_CONTACT":
         msg_contact = []
