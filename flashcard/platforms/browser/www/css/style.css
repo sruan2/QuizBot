@@ -14,10 +14,19 @@ body, html {
   justify-content: center;
 }
 
-/*.btn {
+.btn {
     width: 38vw;
     margin: 1vw;
-}*/
+}
+
+.btn:focus {
+    outline: none;
+}
+
+.btn:focus,.btn:active {
+   outline: none !important;
+   box-shadow: none;
+}
 
 .cusbtn {
     width: 50vw;
@@ -34,11 +43,9 @@ body, html {
     border-radius: 15px;
     box-shadow: 0 9px #999;
 }
-
 .cusbtn:focus {
     outline: none;
 }
-
 .cusbtn:active:focus {
   background-color: #3D4380;
   box-shadow: 0 5px #666;
@@ -88,11 +95,9 @@ body, html {
     border-radius: 15px;
     box-shadow: 0 9px #999;
 }
-
 .prev:focus {
     outline: none;
 }
-
 .prev:active:focus {
     background-color: #3D4380;
     box-shadow: 0 5px #666;
@@ -112,11 +117,9 @@ body, html {
     border-radius: 15px;
     box-shadow: 0 9px #999;
 }
-
 .next:focus {
     outline: none;
 }
-
 .next:active:focus {
   background-color: #3D4380;
   box-shadow: 0 5px #666;

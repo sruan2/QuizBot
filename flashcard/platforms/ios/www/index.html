@@ -1,131 +1,133 @@
 <!doctype html>
 <html lang="en">
-<head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <script type="text/javascript" charset="utf-8" src="cordova.js"></script>
+        <script type="text/javascript"> document.addEventListener('click', function(e) { if(document.activeElement.toString() == '[object HTMLButtonElement]'){ document.activeElement.blur(); } }); </script>
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/style.css">
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">
 
-    <script type="text/javascript" charset="utf-8" src="cordova.js"></script>
+        <!-- Color theme for statusbar -->
+        <meta name="theme-color" content="#2196f3">
 
-    <title>Flashcards</title>
-
-</head>
-<body onload="onLoad()">
-
-    <div id="tabs">
-        <ul class="nav nav-tabs nav-justified" id="myTab" role="tablist">
-            <li class="nav-item">
-                <a class="nav-link active" id="science-tab" data-toggle="tab" href="#science" onclick="change('science')">Science</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" id="gre-tab" data-toggle="tab" href="#gre" onclick="change('gre')">GRE</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" id="safety-tab" data-toggle="tab" href="#safety" onclick="change('safety')">Safety</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" id="random-tab" data-toggle="tab" href="#random" onclick="change('random')">Random</a>
-            </li>
-        </ul>
-    </div>
-
-    <div id="container">
-        <div class="buttons">
-            <!-- <button id="qid" class="btn btn-sm btn-link" disabled>Question</button> -->
-            <button class="btn element-front" data-toggle="modal" data-target="#hintModal" onclick="hint()">hint</button>
-            <button class="btn element-back" data-toggle="modal" data-target="#explanationModal" onclick="explanation()">explanation</button>
+        <title>Flashcards</title>
+    </head>
+    
+    <body onload="onLoad()">
+        
+        <div id="tabs">
+            <ul class="nav nav-tabs nav-justified" id="myTab" role="tablist">
+                <li class="nav-item">
+                    <a class="nav-link active" id="science-tab" data-toggle="tab" href="#science" onclick="change('science')">Science</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="gre-tab" data-toggle="tab" href="#gre" onclick="change('gre')">GRE</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="safety-tab" data-toggle="tab" href="#safety" onclick="change('safety')">Safety</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="random-tab" data-toggle="tab" href="#random" onclick="change('random')">Random</a>
+                </li>
+            </ul>
         </div>
-        <div class="card">
-            <div class="card-body" onclick="flip()">
-                <p id="front" class="element-front">This is the front of the card.</p>
-                <p id="back" class="element-back">This is the back of the card.</p>
-                <div class="footer">
-                    <p class="text-muted">(tap the card to flip)</p>
+        
+        <div id="container">
+            <div class="buttons">
+                <button class="btn btn-lg btn-outline-success element-front" data-toggle="modal" data-target="#hintModal" onclick="hint()">hint</button>
+                <button class="btn btn-lg btn-outline-warning element-back" data-toggle="modal" data-target="#explanationModal" onclick="explanation()">explanation</button>
+            </div>
+            <div class="card">
+                <div class="card-body" onclick="flip()">
+                    <p id="front" class="element-front">This is the front of the card.</p>
+                    <p id="back" class="element-back">This is the back of the card.</p>
+                    <div class="footer">
+                        <p class="text-muted">(tap the card to flip)</p>
+                    </div>
+                </div>
+            </div>
+            <div class="buttons">
+                <button href="#" class="btn btn-lg btn-primary" onclick="prev()">←</button>
+                <button href="#" class="btn btn-lg btn-primary" onclick="next()">→</button>
+            </div>
+        </div>
+        
+        <div id="username" class="footer">
+            <p>Logging data as <span id="userLabel" class="bold">anonymous</span>
+        </div>
+        
+        <div class="modal fade" id="hintModal" tabindex="-1" role="dialog" aria-labelledby="hintModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Hint</h5>
+                    </div>
+                    <div id="hint" class="modal-body">
+                        This is a hint.
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-sm btn-outline-secondary" data-dismiss="modal">close</button>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="buttons">
-            <button class="prev" onclick="prev()">←</button>
-            <button class="next" onclick="next()">→</button>
-        </div>
-    </div>
-
-    <div id="username" class="footer">
-        <p>Logging data as <span id="userLabel" class="bold">anonymous</span> 
-            <!-- <u data-toggle="modal" data-target="#userModal" onclick="load()">Not you?</u> -->
-    </div>
-
-    <div class="modal fade" id="hintModal" tabindex="-1" role="dialog" aria-labelledby="hintModalLabel" aria-hidden="true">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Hint</h5>
-                </div>
-                <div id="hint" class="modal-body">
-                    This is a hint.
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn" onclick="" data-dismiss="modal">close</button>
+        
+        <div class="modal fade" id="explanationModal" tabindex="-1" role="dialog" aria-labelledby="explanationModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Explanation</h5>
+                    </div>
+                    <div id="explanation" class="modal-body">
+                        This is an explanation.
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-sm btn-outline-secondary" data-dismiss="modal">close</button>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-
-    <div class="modal fade" id="explanationModal" tabindex="-1" role="dialog" aria-labelledby="explanationModalLabel" aria-hidden="true">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Explanation</h5>
-                </div>
-                <div id="explanation" class="modal-body">
-                    This is an explanation.
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn" onclick="" data-dismiss="modal">close</button>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="modal fade" id="userModal" tabindex="-1" role="dialog" aria-labelledby="userModal" aria-hidden="true">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Set User Name</h5>
-                </div>
-                <div id="explanation" class="modal-body">
-                    <p>Hi, we are a group of researchers from Stanford University Computer Science Department. Welcome to try out the QuizBot and enjoy your learning journey!</p>
-                    <p>This is the name used to collect data about your flashcard app usage. Your data will only be used for research purposes.</p>
-                    <form>
-                        <div class="form-group">
-                            <input class="form-control" id="firstname" placeholder="First name" />
-                        </div>
-                        <div class="form-group">
-                            <input class="form-control" id="lastname" placeholder="Last name" />
-                        </div>
-                    </form>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn" data-dismiss="modal" onclick="save()">save</button>
+        
+        <div class="modal fade" id="userModal" tabindex="-1" role="dialog" aria-labelledby="userModal" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Set User Name</h5>
+                    </div>
+                    <div id="explanation" class="modal-body">
+                        <p>Hi, we are a group of researchers from Stanford University Computer Science Department. </p>
+                        <p>This is the name used to collect data about your flashcard app usage. Your data will only be used for research purposes.</p>
+                        <form>
+                            <div class="form-group">
+                                <input class="form-control" id="firstname" placeholder="First name" />
+                            </div>
+                            <div class="form-group">
+                                <input class="form-control" id="lastname" placeholder="Last name" />
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-sm btn-outline-success" data-dismiss="modal" onclick="save()">save</button>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="js/jquery-3.3.1.min.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-
-    <script src="js/fastclick.js"></script>
-    <script src="js/questions.js"></script>
-    <script src="js/logger.js"></script>
-    <script src="js/script.js"></script>
-
-</body>
+        
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="js/jquery-3.3.1.min.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        
+        <script src="js/fastclick.js"></script>
+        <script src="js/questions.js"></script>
+        <script src="js/logger.js"></script>
+        <script src="js/script.js"></script>
+        
+    </body>
 </html>

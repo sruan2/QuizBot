@@ -5,51 +5,85 @@ import random
 import time
 from leaderboard.generate_leaderboard import *
 
-
 # ================= Chatbot's reply to a postback =================
 def respond_to_payload(payload, message_text, sender_id, sender_firstname, qa_model, mysql):
     message_text = message_text.lower()
 
-    if payload == "GET_STARTED_PAYLOAD_1":
+    if payload == "GET_INTRO_1":
         msg_intro_1 = []
         msg_intro_1.append("Hi " + sender_firstname + "! My name is Mr. Owl 🦉 and I’m here to help you learn all about science🔬, verbal reasoning (GRE)📖, and safety🔥!")
         send_picture(sender_id, "https://www.smartprimer.org:443/pictures/owlyellow.png", "", "")
-        send_get_it(sender_id, msg_intro_1, 0.6, "GET_STARTED_PAYLOAD_2")
+        send_get_it(sender_id, msg_intro_1, 0.6, "GET_INTRO_2")
 
-    elif payload == "GET_STARTED_PAYLOAD_2":
+    elif payload == "GET_INTRO_2":
         msg_intro_2 = []
-        msg_intro_2.append("Here’s how it works.")
+        msg_intro_2.append("Here’s how it works. 📗")
         msg_intro_2.append("I ask you questions❓, and you give me answers ✅.")
         msg_intro_2.append("If you get the right answer, you earn points! 🎉")
-        msg_intro_2.append("For each question, you get 10 points if you get it right.")
-        send_get_it(sender_id, msg_intro_2, 0.6, "GET_STARTED_PAYLOAD_3")
+        send_get_it(sender_id, msg_intro_2, 0.6, "BUTTON_USER_MANUAL_1")
 
-    elif payload == "GET_STARTED_PAYLOAD_3":
-        msg_intro_3 = []
-        msg_intro_3.append("To discover more abilities of me, you can click on the menu button shown above.👆🏼")
+    elif payload == "BUTTON_USER_MANUAL_1":
+        msg_user_manual = []
+        msg_user_manual.append("To study the questions, you can type in ⌨️ your answers in the text field and the QuizBot will evaluate the answers for you.")
+        msg_user_manual.append("For each question, you get 🔟 points if you get it right.")
+        send_picture(sender_id, "https://www.smartprimer.org:443/pictures/typeanswer.png", "", "")
+        send_get_it(sender_id, msg_user_manual, 0.6, "BUTTON_USER_MANUAL_2")
+
+    elif payload == "BUTTON_USER_MANUAL_2":
+        msg_user_manual = []
+        msg_user_manual.append("If you don't know the answers, then feel free to tap on the hint button.💡")
+        msg_user_manual.append("The hint will give you a list of potential answers and you can select one from them. 🔠")
+        msg_user_manual.append("If you choose the correct answer, then you will get at most 3️⃣ points.")
+        send_picture(sender_id, "https://www.smartprimer.org:443/pictures/needhintbutton.png", "", "")
+        send_picture(sender_id, "https://www.smartprimer.org:443/pictures/hintoptions.png", "", "")
+        send_get_it(sender_id, msg_user_manual, 0.6, "BUTTON_USER_MANUAL_3")
+
+    elif payload == "BUTTON_USER_MANUAL_3":
+        msg_user_manual = []
+        msg_user_manual.append("You can click on the quick reply buttons to proceed to the next steps. 🔜")
+        send_picture(sender_id, "https://www.smartprimer.org:443/pictures/quickreplybutton.png", "", "")
+        send_get_it(sender_id, msg_user_manual, 0.6, "BUTTON_USER_MANUAL_4")
+
+    elif payload == "BUTTON_USER_MANUAL_4":
+        msg_user_manual = []
+        msg_user_manual.append("To discover more abilities of me, you can click on the menu button.👆🏼")
         send_picture(sender_id, "https://www.smartprimer.org:443/pictures/menubutton.jpg", "", "")
-        send_get_it(sender_id, msg_intro_3, 0.6, "GET_STARTED_PAYLOAD_4")
+        send_get_it(sender_id, msg_user_manual, 0.6, "BUTTON_USER_MANUAL_5")
 
-    elif payload == "GET_STARTED_PAYLOAD_4":
-        msg_intro_4 = []
-        msg_intro_4.append("Feel free to ask for a hint when you get stuck and you will get at most 3 points.📗")
-        msg_intro_4.append("You can track your learning progress by clicking on the menu button to see your total score. 💯")
-        msg_intro_4.append("You can also switch the subjects using the menu button. 🔀")
+    elif payload == "BUTTON_USER_MANUAL_5":
+        msg_user_manual = []
+        msg_user_manual.append("You can track your learning progress by clicking on the menu button to see your total score. 📝")
+        send_picture(sender_id, "https://www.smartprimer.org:443/pictures/totalscorebutton.png", "", "")
+        send_get_it(sender_id, msg_user_manual, 0.6, "BUTTON_USER_MANUAL_6")
 
-        send_get_it(sender_id, msg_intro_4, 0.6, "GET_STARTED_PAYLOAD_5")
+    elif payload == "BUTTON_USER_MANUAL_6":
+        msg_user_manual = []
+        msg_user_manual.append("You can change the subjects from the menu as well! 🔀")
+        send_picture(sender_id, "https://www.smartprimer.org:443/pictures/changesubjects.jpg", "", "")
+        send_get_it(sender_id, msg_user_manual, 0.6, "BUTTON_USER_MANUAL_7")
 
-    elif payload == "GET_STARTED_PAYLOAD_5":
-        msg_intro_5 = "I hope you enjoy the leaning journey!📝"
-        msg_intro_6 = "So, are you ready?"
+    elif payload == "BUTTON_USER_MANUAL_7":
+        msg_user_manual = []
+        msg_user_manual.append("To look for other informations, you can click on the more button in the menu.📍")
+        send_picture(sender_id, "https://www.smartprimer.org:443/pictures/morebutton.png", "", "")
+        send_get_it(sender_id, msg_user_manual, 0.6, "BUTTON_USER_MANUAL_8")
+
+    elif payload == "BUTTON_USER_MANUAL_8":
+        msg_user_manual = "Okay, you are all set! 🎉"
+        send_if_new(sender_id, msg_user_manual)
+
+    elif payload == "GET_READY":
+        msg_ready_1 = "I hope you enjoy the learning journey! 💯"
+        msg_ready_2 = "So, are you ready?"
 
         time.sleep(0.6)
-        send_message(sender_id, msg_intro_5)
+        send_message(sender_id, msg_ready_1)
         time.sleep(0.6)
-        send_ready_go(sender_id, msg_intro_6)
+        send_ready_go(sender_id, msg_ready_2)
 
     elif payload == "MENU_SCORE":
         score = show_score(mysql, sender_id)
-        send_gotit_quickreply(sender_id, "Your total score is "+str(score)+". Keep moving!", False)
+        send_gotit_quickreply(sender_id, "Your total score is " + str(score) + ". Keep moving! 💪🏼", False)
 
     elif payload == "BUTTON_YUP_IM_READY":
         update_status(mysql, sender_id, 1)
@@ -67,7 +101,7 @@ def respond_to_payload(payload, message_text, sender_id, sender_firstname, qa_mo
         send_gotit_quickreply(sender_id, msg_continue[0], False)
 
     elif payload == "BUTTON_I_NEED_A_HINT":
-        msg_hint = "Okay. Which of these is the right answer?👇"
+        msg_hint = "Okay. Which of these is the right answer?👇🏼"
         QID, _ = show_last_qid_subject(mysql, sender_id) # retrieve the qid and the subject from database
         pretty_print(qa_model.DKB[QID], mode='QID')
         send_hint(sender_id, msg_hint, qa_model, QID)
@@ -86,12 +120,12 @@ def respond_to_payload(payload, message_text, sender_id, sender_firstname, qa_mo
         update_status(mysql, sender_id, 1)
 
     elif payload == "BUTTON_GIVEUP_NO":
-        msg_giveup_no = "Okay! Let's try again 💪 Tell me which of these is the right answer:"
+        msg_giveup_no = "Okay! Let's try again 💪🏼 Tell me which of these is the right answer:"
         QID, _ = show_last_qid_subject(mysql, sender_id) # retrieve the qid and the subject from database
         send_hint(sender_id, msg_giveup_no, qa_model, QID)
 
     elif payload == "BUTTON_PRACTICE_MODE":
-        msg_choose_mode = "Sure, which subject would you like me to quiz you on?👇"
+        msg_choose_mode = "Sure, which subject would you like me to quiz you on?👇🏼"
         choose_subject_quick_reply(sender_id, msg_choose_mode)
 
     elif payload[:10] == "BUTTON_DKB":
@@ -158,7 +192,7 @@ def respond_to_payload(payload, message_text, sender_id, sender_firstname, qa_mo
         send_a_question(sender_id, question)
 
     elif payload == 'BUTTON_SWITCH_SUBJECT' or payload == 'BUTTON_SURE':
-        msg_choose_mode = "Sure, which subject would you like me to quiz you on?👇"
+        msg_choose_mode = "Sure, which subject would you like me to quiz you on?👇🏼"
         choose_subject_quick_reply(sender_id, msg_choose_mode)
 
     elif payload == "BUTTON_WHY":
@@ -169,12 +203,12 @@ def respond_to_payload(payload, message_text, sender_id, sender_firstname, qa_mo
 
     elif payload == "BUTTON_CHECK_TOTAL_SCORE":
         totalscore = str(show_score(mysql, sender_id))
-        msglist_total_score = ["Your total score is "+totalscore+". Keep it up! 👊",
-                              "Your total score is "+totalscore+". Great work! 👊"]
+        msglist_total_score = ["Your total score is "+totalscore+". Keep it up! 💪🏼",
+                              "Your total score is "+totalscore+". Great work! 💪🏼"]
         send_gotit_quickreply(sender_id, random.choice(msglist_total_score), False)
 
     elif payload == "BUTTON_REPORT_BUG":
-        msg_report_bug = "Okay, I’ll take a note of that. Thanks for the feedback! 👍"
+        msg_report_bug = "Okay, I’ll take a note of that. Thanks for the feedback! 👍🏼"
         insert_score(mysql,sender_id,-1,message_text,-1)
         send_bugreport(sender_id, msg_report_bug)
 
@@ -190,44 +224,6 @@ def respond_to_payload(payload, message_text, sender_id, sender_firstname, qa_mo
         msg_contact.append("If you have any questions, please contact the Protocol Director, Sherry Ruan at ssruan@stanford.edu, or Liwei Jiang at ljiang@colby.edu.")
         send_get_it(sender_id, msg_contact, 0.6, "BUTTON_CONTINUE")
 
-    elif payload == "BUTTON_USER_MANUAL_1":
-        msg_user_manual = []
-        msg_user_manual.append("To get started, you can click on the get started button. ▶️")
-        msg_user_manual.append("Doing so will enable the QuizBot to access your public information (First Name, Last Name).")
-        send_picture(sender_id, "https://www.smartprimer.org:443/pictures/getstartedbutton.png", "", "")
-        send_get_it(sender_id, msg_user_manual, 0.6, "BUTTON_USER_MANUAL_2")
-
-    elif payload == "BUTTON_USER_MANUAL_2":
-        msg_user_manual = []
-        msg_user_manual.append("You can click on the quick reply buttons to proceed to the next steps. 🔜")
-        send_picture(sender_id, "https://www.smartprimer.org:443/pictures/quickreplybutton.png", "", "")
-        send_get_it(sender_id, msg_user_manual, 0.6, "BUTTON_USER_MANUAL_3")
-
-    elif payload == "BUTTON_USER_MANUAL_3":
-        msg_user_manual = []
-        msg_user_manual.append("To study the questions, you can type in your answers in the test field and the QuizBot will evaluate the answers for you. ⌨️")
-        send_picture(sender_id, "https://www.smartprimer.org:443/pictures/typeanswer.png", "", "")
-        send_get_it(sender_id, msg_user_manual, 0.6, "BUTTON_USER_MANUAL_4")
-
-    elif payload == "BUTTON_USER_MANUAL_4":
-        msg_user_manual = []
-        msg_user_manual.append("If you don't know the answers, then you can tap on the hint button.💡")
-        msg_user_manual.append("The hint will give you a list of potential answers and you can select one from them.👇🏼")
-        send_picture(sender_id, "https://www.smartprimer.org:443/pictures/needhintbutton.png", "", "")
-        send_picture(sender_id, "https://www.smartprimer.org:443/pictures/hintoptions.png", "", "")
-        send_get_it(sender_id, msg_user_manual, 0.6, "BUTTON_USER_MANUAL_5")
-
-    elif payload == "BUTTON_USER_MANUAL_5":
-        msg_user_manual = []
-        msg_user_manual.append("You can switch the subjects from the menu as well! 🔀")
-        send_picture(sender_id, "https://www.smartprimer.org:443/pictures/menubutton.jpg", "", "")
-        send_picture(sender_id, "https://www.smartprimer.org:443/pictures/changesubjects.jpg", "", "")
-        send_get_it(sender_id, msg_user_manual, 0.6, "BUTTON_USER_MANUAL_6")
-
-    elif payload == "BUTTON_USER_MANUAL_6":
-        msg_user_manual = []
-        msg_user_manual.append("Okay, you are all set.")
-        send_get_it(sender_id, msg_user_manual, 0.6, "BUTTON_GOT_IT_NEXT")
 
     # look for next similar question based off the pre-trained model
     elif payload == "BUTTON_NEXT_QUESTION" or payload == "BUTTON_GOT_IT_NEXT":
@@ -285,7 +281,7 @@ def respond_to_messagetext(message_text, sender_id, qa_model, mysql):
             elif score < 10:
                 send_message(sender_id, "You earned "+str(score)+ " points!")
             else:
-                msglist_correct = ["That’s right! 🎉", "Correct! 🎊" or "Good job! 🙌"]
+                msglist_correct = ["That’s right! 🎉", "Correct! 🎊" or "Good job! 🙌🏼"]
                 msg_correct = random.choice(msglist_correct)
                 send_message(sender_id, msg_correct)
                 send_message(sender_id, "You earned 10 points!")
@@ -306,7 +302,7 @@ def respond_to_messagetext(message_text, sender_id, qa_model, mysql):
             elif score < 10:
                 send_message(sender_id, "You earned "+str(score)+ " points!")
             else:
-                msglist_correct = ["That’s right! 🎉", "Correct! 🎊" or "Good job! 🙌"]
+                msglist_correct = ["That’s right! 🎉", "Correct! 🎊" or "Good job! 🙌🏼"]
                 msg_correct = random.choice(msglist_correct)
                 send_message(sender_id, msg_correct)
                 send_message(sender_id, "You earned 10 points!")
