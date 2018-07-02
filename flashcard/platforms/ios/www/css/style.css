@@ -14,12 +14,21 @@ body, html {
   justify-content: center;
 }
 
-/*.btn {
+.btn {
     width: 38vw;
     margin: 1vw;
-}*/
+}
 
-.btn {
+.btn:focus {
+    outline: none;
+}
+
+.btn:focus,.btn:active {
+   outline: none !important;
+   box-shadow: none;
+}
+
+.cusbtn {
     width: 50vw;
     margin: 1vw;
     display: inline-block;
@@ -34,15 +43,13 @@ body, html {
     border-radius: 15px;
     box-shadow: 0 9px #999;
 }
-
-.btn:focus {
+.cusbtn:focus {
     outline: none;
 }
-
-.btn:active:focus {
-    background-color: #2C3BBC;
-    box-shadow: 0 5px #666;
-    transform: translateY(4px);
+.cusbtn:active:focus {
+  background-color: #3D4380;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
 }
 
 .bold {
@@ -59,10 +66,8 @@ body, html {
     height: 40vh;
     text-align: center;
     margin: 10px;
-}
-
-.card:focus {
-    outline: none;
+    box-shadow: 1px 2px #B3B3B3;
+    background-color: #EEEEF1;
 }
 
 .card-body {
@@ -90,13 +95,11 @@ body, html {
     border-radius: 15px;
     box-shadow: 0 9px #999;
 }
-
 .prev:focus {
     outline: none;
 }
-
 .prev:active:focus {
-    background-color: #2C3BBC;
+    background-color: #3D4380;
     box-shadow: 0 5px #666;
     transform: translateY(4px);
 }
@@ -114,13 +117,11 @@ body, html {
     border-radius: 15px;
     box-shadow: 0 9px #999;
 }
-
 .next:focus {
     outline: none;
 }
-
 .next:active:focus {
-  background-color: #2C3BBC;
+  background-color: #3D4380;
   box-shadow: 0 5px #666;
   transform: translateY(4px);
 }
