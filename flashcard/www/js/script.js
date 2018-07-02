@@ -4,6 +4,12 @@ $('document').ready(
         FastClick.attach(document.body);
         $('.element-front').show();
         $('.element-back').hide();
+        
+        $(".btn").click(function(event) {
+            // remove focus of the button.
+            $(this).blur();
+        });
+
         $data = {
             science: [],
             gre: [],
