@@ -35,7 +35,7 @@ class BaseSequencingModel():
 
 
     @abstractmethod
-    def updateHistory(self):
+    def updateHistory(self, outcome):
         # TODO:
         # a history of correctness
         pass

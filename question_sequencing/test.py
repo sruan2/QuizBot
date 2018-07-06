@@ -4,8 +4,9 @@
 '''
 
 from random_model import RandomSequencingModel
+from leitner_model import LeitnerSequencingModel
 from QAKnowledgebase import QAKnowlegeBase
-
+import random
 
 '''Module-level constants'''
 ITERATIONS = 20
@@ -17,11 +18,12 @@ if __name__ == '__main__':
     qa_kb = QAKnowlegeBase(json_file)
 
     # Construct the question sequencing model from here
-    random_model = RandomSequencingModel(qa_kb)
-
+    model = LeitnerSequencingModel(qa_kb)
 
     # Run the simulation for 20 iterations
     for i in range(ITERATIONS):
-        picked_question, QID = random_model.pickNextQuestion()
-        print(QID)
+        picked_question, QID = model.pickNextQuestion()
+        outcome = 1 if random.random() < 0.9 else 0 
+        model.updateHistory(outcome)
+        print("item {} outcome {} current queue {}".format(QID, outcome, model.curr_q))
 
