@@ -1,0 +1,495 @@
+{
+    "BUTTON_ABOUT_QUIZBOT": {
+        "conversation": {
+            "conversation_1": {
+                "message": [
+                    {
+                        "source": "LOCAL", 
+                        "text": "I'm Mr. Owl \ud83e\udd89 and I'm a QuizBot to help you learn about science\ud83d\udd2c, verbal reasoning (GRE)\ud83d\udcd6, and safety\ud83d\udd25."
+                    }, 
+                    {
+                        "source": "LOCAL", 
+                        "text": "I'm designed by a group of researchers from Stanford University Computer Science Department."
+                    }, 
+                    {
+                        "source": "LOCAL", 
+                        "text": "I use technology in a scientific and interactive way to help you learn knowledge."
+                    }
+                ], 
+                "quick_reply": {
+                    "payload": [
+                        "BUTTON_CONTINUE"
+                    ], 
+                    "source": [
+                        "TEMPLATE"
+                    ], 
+                    "title": [
+                        "GOT_IT"
+                    ]
+                }
+            }
+        }
+    }, 
+    "BUTTON_CONTACT": {
+        "conversation": {
+            "conversation_1": {
+                "message": [
+                    {
+                        "source": "LOCAL", 
+                        "text": "If you have any questions, please contact the Protocol Director, Sherry Ruan at ssruan@stanford.edu, or Liwei Jiang at ljiang@colby.edu."
+                    }
+                ], 
+                "quick_reply": {
+                    "payload": [
+                        "BUTTON_CONTINUE"
+                    ], 
+                    "source": [
+                        "TEMPLATE"
+                    ], 
+                    "title": [
+                        "GOT_IT"
+                    ]
+                }
+            }
+        }
+    }, 
+    "BUTTON_I_DONT_KNOW": {
+        "conversation": {
+            "conversation_1": {
+                "message": [
+                    {
+                        "source": "LOCAL", 
+                        "text": "Are you sure you want to give up?"
+                    }
+                ], 
+                "quick_reply": {
+                    "payload": [
+                        "BUTTON_GIVEUP_YES", 
+                        "BUTTON_GIVEUP_NO"
+                    ], 
+                    "source": [
+                        "LOCAL", 
+                        "LOCAL"
+                    ], 
+                    "title": [
+                        "Yes, answer please.", 
+                        "No, I'll try again!"
+                    ]
+                }
+            }
+        }
+    }, 
+    "BUTTON_USER_MANUAL_1": {
+        "conversation": {
+            "conversation_1": {
+                "message": [
+                    {
+                        "source": "LOCAL", 
+                        "text": "To study the questions, you can type in \u2328\ufe0f your answers in the text field and QuizBot will evaluate the answers for you."
+                    }, 
+                    {
+                        "source": "LOCAL", 
+                        "text": "For each question, you get \ud83d\udd1f points if you get it right."
+                    }
+                ], 
+                "quick_reply": {
+                    "payload": [
+                        "BUTTON_USER_MANUAL_2"
+                    ], 
+                    "source": [
+                        "TEMPLATE"
+                    ], 
+                    "title": [
+                        "GOT_IT"
+                    ]
+                }
+            }
+        }, 
+        "image": {
+            "image_1": {
+                "image_url": "https://www.smartprimer.org:8443/pictures/typeanswer.png", 
+                "template_type": "image"
+            }
+        }
+    }, 
+    "BUTTON_USER_MANUAL_2": {
+        "conversation": {
+            "conversation_1": {
+                "message": [
+                    {
+                        "source": "LOCAL", 
+                        "text": "If you don't know the answers, then feel free to tap on the hint button.\ud83d\udca1"
+                    }, 
+                    {
+                        "source": "LOCAL", 
+                        "text": "The hint will give you a list of potential answers and you can select one from them. \ud83d\udd20"
+                    }, 
+                    {
+                        "source": "LOCAL", 
+                        "text": "If you choose the correct answer, then you will get at most 3\ufe0f\u20e3 points."
+                    }
+                ], 
+                "quick_reply": {
+                    "payload": [
+                        "BUTTON_USER_MANUAL_3"
+                    ], 
+                    "source": [
+                        "TEMPLATE"
+                    ], 
+                    "title": [
+                        "GOT_IT"
+                    ]
+                }
+            }
+        }, 
+        "image": {
+            "image_1": {
+                "image_url": "https://www.smartprimer.org:8443/pictures/needhintbutton.png", 
+                "template_type": "image"
+            }, 
+            "image_2": {
+                "image_url": "https://www.smartprimer.org:8443/pictures/hintoptions.png", 
+                "template_type": "image"
+            }
+        }
+    }, 
+    "BUTTON_USER_MANUAL_3": {
+        "conversation": {
+            "conversation_1": {
+                "message": [
+                    {
+                        "source": "LOCAL", 
+                        "text": "To discover more abilities of me, you can click on the menu button.\ud83d\udc46\ud83c\udffc"
+                    }
+                ], 
+                "quick_reply": {
+                    "payload": [
+                        "BUTTON_USER_MANUAL_4"
+                    ], 
+                    "source": [
+                        "TEMPLATE"
+                    ], 
+                    "title": [
+                        "GOT_IT"
+                    ]
+                }
+            }
+        }, 
+        "image": {
+            "image_1": {
+                "image_url": "https://www.smartprimer.org:8443/pictures/menubutton.jpg", 
+                "template_type": "image"
+            }
+        }
+    }, 
+    "BUTTON_USER_MANUAL_4": {
+        "conversation": {
+            "conversation_1": {
+                "message": [
+                    {
+                        "source": "LOCAL", 
+                        "text": "You can change the subjects from the menu! \ud83d\udd00"
+                    }
+                ], 
+                "quick_reply": {
+                    "payload": [
+                        "BUTTON_USER_MANUAL_5"
+                    ], 
+                    "source": [
+                        "TEMPLATE"
+                    ], 
+                    "title": [
+                        "GOT_IT"
+                    ]
+                }
+            }
+        }, 
+        "image": {
+            "image_1": {
+                "image_url": "https://www.smartprimer.org:8443/pictures/changesubjects_1.jpg", 
+                "template_type": "image"
+            }, 
+            "image_2": {
+                "image_url": "https://www.smartprimer.org:8443/pictures/changesubjects_2.jpg", 
+                "template_type": "image"
+            }
+        }
+    }, 
+    "BUTTON_USER_MANUAL_5": {
+        "conversation": {
+            "conversation_1": {
+                "message": [
+                    {
+                        "source": "LOCAL", 
+                        "text": "You can track your learning progress by clicking on the menu button to see your total score. \ud83d\udcdd"
+                    }
+                ], 
+                "quick_reply": {
+                    "payload": [
+                        "BUTTON_USER_MANUAL_6"
+                    ], 
+                    "source": [
+                        "TEMPLATE"
+                    ], 
+                    "title": [
+                        "GOT_IT"
+                    ]
+                }
+            }
+        }, 
+        "image": {
+            "image_1": {
+                "image_url": "https://www.smartprimer.org:8443/pictures/totalscorebutton.png", 
+                "template_type": "image"
+            }
+        }
+    }, 
+    "BUTTON_USER_MANUAL_6": {
+        "conversation": {
+            "conversation_1": {
+                "message": [
+                    {
+                        "source": "LOCAL", 
+                        "text": "To look for other informations, you can click on the more button in the menu.\ud83d\udccd"
+                    }
+                ], 
+                "quick_reply": {
+                    "payload": [
+                        "BUTTON_USER_MANUAL_7"
+                    ], 
+                    "source": [
+                        "TEMPLATE"
+                    ], 
+                    "title": [
+                        "GOT_IT"
+                    ]
+                }
+            }
+        }, 
+        "image": {
+            "image_1": {
+                "image_url": "https://www.smartprimer.org:8443/pictures/morebutton.png", 
+                "template_type": "image"
+            }
+        }
+    }, 
+    "BUTTON_USER_MANUAL_7": {
+        "conversation": {
+            "conversation_1": {
+                "message": [
+                    {
+                        "source": "LOCAL", 
+                        "text": "Okay, you are all set! \ud83c\udf89"
+                    }
+                ], 
+                "quick_reply": {
+                    "payload": [
+                        "BUTTON_GOT_IT_NEXT"
+                    ], 
+                    "source": [
+                        "TEMPLATE"
+                    ], 
+                    "title": [
+                        "GOT_IT"
+                    ]
+                }
+            }
+        }
+    }, 
+    "BUTTON_YUP_IM_READY": {
+        "conversation": {
+            "conversation_1": {
+                "message": [
+                    {
+                        "source": "LOCAL", 
+                        "text": "Great!"
+                    }, 
+                    {
+                        "source": "LOCAL", 
+                        "text": "Let\u2019s get started \ud83d\ude80"
+                    }
+                ], 
+                "quick_reply": {
+                    "payload": [
+                        "BUTTON_PRACTICE_MODE"
+                    ], 
+                    "source": [
+                        "LOCAL"
+                    ], 
+                    "title": [
+                        "Quiz me \ud83e\udd13"
+                    ]
+                }
+            }
+        }
+    }, 
+    "GET_INTRO_1": {
+        "image": {
+            "image_1": {
+                "image_url": "https://www.smartprimer.org:8443/pictures/owlyellow.png", 
+                "template_type": "image"
+            }
+        }
+    }, 
+    "GET_INTRO_2": {
+        "conversation": {
+            "conversation_1": {
+                "message": [
+                    {
+                        "source": "LOCAL", 
+                        "text": "Here\u2019s how it works. \ud83d\udcd7"
+                    }, 
+                    {
+                        "source": "LOCAL", 
+                        "text": "I ask you questions\u2753, and you give me answers \u2705."
+                    }, 
+                    {
+                        "source": "LOCAL", 
+                        "text": "If you get the right answer, you earn points! \ud83c\udf89"
+                    }
+                ], 
+                "quick_reply": {
+                    "payload": [
+                        "GET_INTRO_3"
+                    ], 
+                    "source": [
+                        "TEMPLATE"
+                    ], 
+                    "title": [
+                        "GOT_IT"
+                    ]
+                }
+            }
+        }
+    }, 
+    "GET_INTRO_3": {
+        "conversation": {
+            "conversation_1": {
+                "message": [
+                    {
+                        "source": "LOCAL", 
+                        "text": "To study the questions, you can type in \u2328\ufe0f your answers in the text field and QuizBot will evaluate the answers for you."
+                    }, 
+                    {
+                        "source": "LOCAL", 
+                        "text": "For each question, you get \ud83d\udd1f points if you get it right."
+                    }
+                ], 
+                "quick_reply": {
+                    "payload": [
+                        "GET_INTRO_4"
+                    ], 
+                    "source": [
+                        "TEMPLATE"
+                    ], 
+                    "title": [
+                        "GOT_IT"
+                    ]
+                }
+            }
+        }, 
+        "image": {
+            "image_1": {
+                "image_url": "https://www.smartprimer.org:8443/pictures/typeanswer.png", 
+                "template_type": "image"
+            }
+        }
+    }, 
+    "GET_INTRO_4": {
+        "conversation": {
+            "conversation_1": {
+                "message": [
+                    {
+                        "source": "LOCAL", 
+                        "text": "If you don't know the answers, then feel free to tap on the hint button.\ud83d\udca1"
+                    }, 
+                    {
+                        "source": "LOCAL", 
+                        "text": "The hint will give you a list of potential answers and you can select one from them. \ud83d\udd20"
+                    }, 
+                    {
+                        "source": "LOCAL", 
+                        "text": "If you choose the correct answer, then you will get at most 3\ufe0f\u20e3 points."
+                    }
+                ], 
+                "quick_reply": {
+                    "payload": [
+                        "GET_INTRO_5"
+                    ], 
+                    "source": [
+                        "TEMPLATE"
+                    ], 
+                    "title": [
+                        "GOT_IT"
+                    ]
+                }
+            }
+        }, 
+        "image": {
+            "image_1": {
+                "image_url": "https://www.smartprimer.org:8443/pictures/needhintbutton.png", 
+                "template_type": "image"
+            }, 
+            "image_2": {
+                "image_url": "https://www.smartprimer.org:8443/pictures/hintoptions.png", 
+                "template_type": "image"
+            }
+        }
+    }, 
+    "GET_INTRO_5": {
+        "conversation": {
+            "conversation_1": {
+                "message": [
+                    {
+                        "source": "LOCAL", 
+                        "text": "To discover more abilities of me, you can click on the menu button.\ud83d\udc46\ud83c\udffc"
+                    }
+                ], 
+                "quick_reply": {
+                    "payload": [
+                        "GET_READY"
+                    ], 
+                    "source": [
+                        "TEMPLATE"
+                    ], 
+                    "title": [
+                        "GOT_IT"
+                    ]
+                }
+            }
+        }, 
+        "image": {
+            "image_1": {
+                "image_url": "https://www.smartprimer.org:8443/pictures/menubutton.jpg", 
+                "template_type": "image"
+            }
+        }
+    }, 
+    "GET_READY": {
+        "conversation": {
+            "conversation_1": {
+                "message": [
+                    {
+                        "source": "LOCAL", 
+                        "text": "I hope you enjoy the learning journey! \ud83d\udcaf"
+                    }, 
+                    {
+                        "source": "LOCAL", 
+                        "text": "So, are you ready?"
+                    }
+                ], 
+                "quick_reply": {
+                    "payload": [
+                        "BUTTON_YUP_IM_READY"
+                    ], 
+                    "source": [
+                        "LOCAL"
+                    ], 
+                    "title": [
+                        "Yup! I'm ready! \u270a\ud83c\udffc"
+                    ]
+                }
+            }
+        }
+    }
+}

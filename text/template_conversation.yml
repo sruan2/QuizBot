@@ -1,0 +1,386 @@
+# template_conversation.yml
+# Author: Liwei Jiang
+# Date: 05/07/2018
+# Usage: yaml file containts conversation sources.
+
+TEMPLATE:
+
+  GOT_IT:
+    - Got it 💡
+    - Got it 👊🏼
+    - Got it 💪🏼
+    - Got it 📍
+    - Got it 👉🏼
+    - Got it ✅
+    - Got it 🙌🏼
+    - Got it 💥
+    - Got it 👍🏼
+    - Got it 👏🏼
+    - Got it ✔️
+    - Sure 💡
+    - Sure 👊🏼
+    - Sure 💪🏼
+    - Sure 📍
+    - Sure 👉🏼
+    - Sure ✅
+    - Sure 🙌🏼
+    - Sure 💥
+    - Sure 👍🏼
+    - Sure 👏🏼
+    - Sure ✔️
+    - Tap me 💡
+    - Tap me 👇🏼
+    - Tap me 👊🏼
+    - Tap me 💪🏼
+    - Tap me 📍
+    - Tap me 👉🏼
+    - Tap me ✅
+    - Tap me 🙌🏼
+    - Tap me 💥
+    - Tap me 👍🏼
+    - Tap me 👏🏼
+    - Tap me ✔️
+    - Yes, continue ▶️
+    - Yes, continue ➡️
+    - Yes, continue 💡
+    - Yes, continue 👊🏼
+    - Yes, continue 💪🏼
+    - Yes, continue 📍
+    - Yes, continue 👉🏼
+    - Yes, continue ✅
+    - Yes, continue 🙌🏼
+    - Yes, continue 💥
+    - Yes, continue 👍🏼
+    - Yes, continue 👏🏼
+    - Yes, continue ✔️
+    - Continue ▶️
+    - Continue ➡️
+    - Continue 💡
+    - Continue 👊🏼
+    - Continue 💪🏼
+    - Continue 📍
+    - Continue 👉🏼
+    - Continue ✅
+    - Continue 🙌🏼
+    - Continue 💥
+    - Continue 👍🏼
+    - Continue 👏🏼
+    - Continue ✔️
+    - Next ▶️
+    - Next ➡️
+    - Next 💡
+    - Next 👊🏼
+    - Next 💪🏼
+    - Next 📍
+    - Next 👉🏼
+    - Next ✅
+    - Next 🙌🏼
+    - Next 💥
+    - Next 👍🏼
+    - Next 👏🏼
+    - Next ✔️
+    - Alrighty 💡
+    - Alrighty 👊🏼
+    - Alrighty 💪🏼
+    - Alrighty 📍
+    - Alrighty 👉🏼
+    - Alrighty ✅
+    - Alrighty 🙌🏼
+    - Alrighty 💥
+    - Alrighty 👍🏼
+    - Alrighty 👏🏼
+    - Alrighty ✔️ 
+    - Alright 💡
+    - Alright 👊🏼
+    - Alright 💪🏼
+    - Alright 📍
+    - Alright 👉🏼
+    - Alright ✅
+    - Alright 🙌🏼
+    - Alright 💥
+    - Alright 👍🏼
+    - Alright 👏🏼
+    - Alright ✔️ 
+    - Okay 💡
+    - Okay 👊🏼
+    - Okay 💪🏼
+    - Okay 📍
+    - Okay 👉🏼
+    - Okay ✅
+    - Okay 🙌🏼
+    - Okay 💥
+    - Okay 👍🏼
+    - Okay 👏🏼
+    - Okay ✔️ 
+    - OK 💡
+    - OK 👊🏼
+    - OK 💪🏼
+    - OK 📍
+    - OK 👉🏼
+    - OK ✅
+    - OK 🙌🏼
+    - OK 💥
+    - OK 👍🏼
+    - OK 👏🏼
+    - OK ✔️ 
+    - I see 💡
+    - I see 👊🏼
+    - I see 💪🏼
+    - I see 📍
+    - I see 👉🏼
+    - I see ✅
+    - I see 🙌🏼
+    - I see 💥
+    - I see 👍🏼
+    - I see 👏🏼
+    - I see ✔️ 
+
+
+  QUESTION:
+    - "Here's a question for you:"
+    - "Let's try this one."
+    - "Could you answer this one for me?"
+    - "Let's see if you can get this one."
+    - "Let's try this question."
+    - "Would you answer this question for me?"
+    - "I think you'll like this question."
+    - "Let's take a look at this question."
+    - "Let's see if you can answer this question."
+    - "Let's see if you would answer this one."
+    - "How about this next one:"
+    - "What about this next question:"
+    - "Alrighty, let's try this one."
+
+
+  CHOOSE_SUBJECT:
+    - Sure, which subject would you like me to quiz you on?👇🏼
+    - Sure, which subject would you want to study?👇🏼
+    - Okay, which subject would you like to choose?👇🏼
+    - Sure, now tell me which subject you would like to choose.👇🏼
+    - Okay, now tell me which subject you would like to study.👇🏼
+    - OK, which of the following subjects would you like to study?👇🏼
+    - Sure, which of the following subjects would you like me to quiz you on?👇🏼
+
+
+  EXPLANATION:
+    - "Here's an explanation:"
+    - "This is why:"
+    - "This is an explanation of the question:"
+
+
+
+STATE:
+  QUESTION:
+    message:
+      source:
+        TEMPLATE
+      text:
+        QUESTION
+    quick_reply:  
+      message:
+        source:
+          LOCAL
+        text:
+          "{}"
+      source:
+        - LOCAL
+        - LOCAL
+      title:
+        - I need a hint 🤔
+        - I don’t know 😓
+      payload:
+        - BUTTON_I_NEED_A_HINT
+        - BUTTON_I_DONT_KNOW
+
+  CORRECT_ANSWER:
+    quick_reply:  
+      message:
+        source:
+          LOCAL
+        text:
+          "The correct answer is {}."
+      source:
+        - LOCAL
+        - LOCAL
+        - LOCAL
+      title:
+        - Why?
+        - Next question 💪🏼
+        - Switch Subject 🔀
+      payload:
+        - BUTTON_WHY
+        - BUTTON_NEXT_QUESTION
+        - BUTTON_SWITCH_SUBJECT
+
+  SAY_HI:
+    quick_reply:
+      message:
+        source:
+          LOCAL
+        text:
+          Hi {}! My name is Mr. Owl 🦉 and I’m here to help you learn all about science🔬, verbal reasoning (GRE)📖, and safety🔥!
+      source:
+        - TEMPLATE
+      title:
+        - GOT_IT
+      payload:
+        - GET_INTRO_2
+
+  CHOOSE_SUBJECT:
+    quick_reply:
+      message:
+        source:
+          TEMPLATE
+        text:
+          CHOOSE_SUBJECT
+      source:
+        - LOCAL
+        - LOCAL
+        - LOCAL
+        - LOCAL
+      title:
+        - Science🔬
+        - GRE 🔠
+        - Safety🛠
+        - Random 🎲
+      payload:
+        - BUTTON_SCIENCE
+        - BUTTON_GRE
+        - BUTTON_SAFETY
+        - BUTTON_RANDOM
+
+
+  EXPLANATION:
+    message:
+      source:
+        TEMPLATE
+      text:
+        EXPLANATION
+    quick_reply:  
+      message:
+        source:
+          LOCAL
+        text:
+          "{}"
+      source:
+        - LOCAL
+        - LOCAL
+      title:
+        - Next question 💪
+        - I don’t know 😓
+      payload:
+        - BUTTON_NEXT_QUESTION
+        - BUTTON_SWITCH_SUBJECT
+
+
+  PERSISTENT_MENU:
+    persistent_menu:
+      - locale:
+          default
+        composer_input_disabled: 
+          False
+        call_to_actions:
+          - title: 
+              Change Subject 🔀
+            type: 
+              nested
+            call_to_actions:
+              - title: 
+                  Science🔬
+                type: 
+                  postback
+                payload: 
+                  BUTTON_SCIENCE
+              - title: 
+                  GRE 🔠
+                type: 
+                  postback
+                payload: 
+                  BUTTON_GRE
+              - title: 
+                  Safety🛠
+                type: 
+                  postback
+                payload: 
+                  BUTTON_SAFETY
+              - title: 
+                  Random 🎲
+                type: 
+                  postback
+                payload: 
+                  BUTTON_RANDOM
+          - title: 
+              Check Total Score 📝
+            type: 
+              postback
+            payload: 
+              MENU_SCORE
+          - title: 
+              More📍
+            type: 
+              nested
+            call_to_actions:
+              - title: 
+                  Report Bug 🔧
+                type: 
+                  postback
+                payload: 
+                  BUTTON_REPORT_BUG
+              - title: 
+                  User Manual 👩🏻‍💻👨🏻‍💻
+                type: 
+                  postback
+                payload:
+                  BUTTON_USER_MANUAL_1
+              - title: 
+                  About QuizBot 🔖
+                type: 
+                  postback
+                payload: 
+                  BUTTON_ABOUT_QUIZBOT
+              - title: 
+                  Contact ☎️
+                type: 
+                  postback
+                payload: 
+                  BUTTON_CONTACT
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
