@@ -2,6 +2,7 @@
 
 2018 July 5
 '''
+
 import sys
 sys.path.append('../')
 from abc import abstractmethod
@@ -18,7 +19,9 @@ class BaseSequencingModel():
         '''
         pretty_print("Question sequencing model initialization", mode="Seq Model")
         self.QA_KB = qa_kb
-        self.correct_history = None
+        # a dictionary mapping 150 questions to user's answer history
+        self.correct_history = {}
+
 
     @abstractmethod
     def pickNextQuestion(self):
@@ -30,6 +33,8 @@ class BaseSequencingModel():
         '''
         return None
 
+
+    @abstractmethod
     def updateHistory(self):
         # TODO:
         # a history of correctness
