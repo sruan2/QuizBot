@@ -2,8 +2,11 @@
 
 2018 July 5
 '''
-
+import sys
+sys.path.append('../')
 from abc import abstractmethod
+
+from utils import pretty_print
 
 class BaseSequencingModel():
 
@@ -13,7 +16,7 @@ class BaseSequencingModel():
         Args:
             qa_kb: knowledge base containing all question data
         '''
-        pretty_print("Question sequencing model initialization", mode="Base")
+        pretty_print("Question sequencing model initialization", mode="Seq Model")
         self.QA_KB = qa_kb
         self.correct_history = None
 
@@ -30,7 +33,7 @@ class BaseSequencingModel():
     def updateHistory(self):
         # TODO:
         # a history of correctness
-
+        pass
 
 
 

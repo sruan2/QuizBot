@@ -5,7 +5,6 @@ from gensim.models import Doc2Vec
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import linear_kernel
 import random
-from random import randint
 import pickle
 from nltk import RegexpTokenizer
 import math
@@ -43,7 +42,7 @@ class QAModel(object):
             answer = self.QA_KB.AKB[QID][0]
         except:
             answer = ""
-            print("[BUG] PID " + str(os.getpid())+": Index %d does not exist in AKB" % QID)
+            pretty_print("Index %d does not exist in AKB" % QID, mode='BUG!')
         return answer
 
     def getSupport(self, QID):
@@ -51,7 +50,7 @@ class QAModel(object):
             support = self.QA_KB.SKB[QID]
         except:
             support = ""
-            print("[BUG] PID " + str(os.getpid())+": Index %d does not exist in SKB" % QID)
+            pretty_print("[Index %d does not exist in SKB" % QID, mode='BUG!')
         return support
 
     @abstractmethod
