@@ -14,6 +14,7 @@ from utils import pretty_print
 from similarity_model.sif_implementation.wordembeddings import EmbeddingVectorizer
 from similarity_model.sif_implementation import utils
 #from similarity_model.princeton_sif import sif_sentence_similarity
+from question_sequencing.random_model import RandomSequencingModel
 
 
 class QAModel(object):
@@ -22,6 +23,7 @@ class QAModel(object):
         pretty_print("QAModel initialization", mode="QA Model")
         self.QID = 0
         self.QA_KB = qa_kb
+        self.sequencing_model = RandomSequencingModel(qa_kb)
 
     def pickSubjectRandomQuestion(self, subject):
         subject = subject.lower()
@@ -30,9 +32,7 @@ class QAModel(object):
         return picked_question, QID
 
     def pickRandomQuestion(self):
-        QID = randint(0, self.QA_KB.KBlength)
-        picked_question = self.QA_KB.QKB[QID]
-        return picked_question, QID
+        return self.sequencing_model.pickNextQuestion()
 
     def pickLastQuestion(self, QID):
         picked_question = self.QA_KB.QKB[QID]
