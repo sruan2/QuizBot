@@ -292,6 +292,7 @@ def send_reminder(list):
                 }
             })
             r = requests.post("https://graph.facebook.com/v2.6/me/messages", params=PRAMS, headers=HEADERS, data=data)
+            insert_question(mysql, recipient_id, -2, "Reminder")
             if r.status_code != 200:
                 log(r.status_code)
                 log(r.text)
