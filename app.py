@@ -1,5 +1,6 @@
 '''Flash application for quizbot'''
 import os
+import yaml
 import json
 from random import randint
 from flask import Flask, request, send_from_directory
@@ -7,6 +8,10 @@ import requests
 import time
 import logging
 from flask_mysqldb import MySQL
+
+import sys
+sys.path.append('./question_sequencing')
+
 import message
 import database
 import chatbot
@@ -71,9 +76,6 @@ def webhook():
     '''endpoint for processing incoming messaging events'''
     data = request.get_json()
 
-    # print("-------------------------------------")
-    # print(data)
-
     if data["object"] != "page":
         return "Object is not a page", 200
 
@@ -89,7 +91,6 @@ def webhook():
 
             # the facebook ID of the person sending you the message
             sender_id = messaging_event["sender"]["id"]
-
             # Sherry: don't need this anymore because we can disable it in Facebook Developer Setting
             if sender_id == os.environ["CHATBOT_ID"]: # return if this message is sent from the chatbot
                 return "Chatbot ID", 200
@@ -123,8 +124,7 @@ def webhook():
                 pretty_print("Received a Postback from Persistent Menu", mode='QuizBot')
                 pretty_print("Payload is \""+payload+"\"")
                 pretty_print("Message Text is \""+message_text+"\"")
-                chatbot.respond_to_payload(payload, message_text, sender_id, sender_firstname, qa_model, mysql)
-
+                chatbot.respond_to_payload(payload, message_text, sender_id, sender_firstname, qa_model, chatbot_text, template_conversation, mysql)
 
             elif messaging_event.get("message"):
                 # user clicked/tapped "postback" button in earlier message
@@ -134,27 +134,7 @@ def webhook():
                     pretty_print("Received a quick reply from an earlier message", mode="QuizBot")
                     pretty_print("Payload is \""+payload+"\"")
                     pretty_print("Message Text is \""+message_text+"\"")
-                    chatbot.respond_to_payload(payload, message_text, sender_id, sender_firstname, qa_model, mysql)
-
-                # user sent an attachment: i.e., audio
-                # elif "attachments" in messaging_event.get("message"):
-                #     if messaging_event["message"]["attachments"][0]["type"] == "audio": # only getting the first attachment
-                #         print("[QUIZBOT] PID " + str(os.getpid())+": Received an AUDIO attachment")
-                #         receive_time = time.time()
-                #         #print("FB received audio: " + str(receive_time))
-                #         audio_url = messaging_event["message"]["attachments"][0]["payload"]["url"]
-                #         print("\t\t\t\turl is "+ audio_url)
-                #         final_result = speech.transcribe(audio_url)
-                #         #print("[QUIZBOT] PID " + str(os.getpid())+": Transcribed Text is \""+final_result+"\"")
-                #         finish_time = time.time()
-                #         #print("FB received transcription: " + str(finish_time))
-                #         print("\t\t\t\tTotal time: " + str(finish_time-receive_time))
-                #         if final_result != "":
-                #             message.send_message(sender_id, "You said: " + final_result)
-                #             #print("FB print out transcription: " + str(time.time()))
-                #         else:
-                #             message.send_message(sender_id, "Sorry, I could not recognize it :/")
-                #         chatbot.respond_to_messagetext(final_result, sender_id, qa_model, mysql)
+                    chatbot.respond_to_payload(payload, message_text, sender_id, sender_firstname, qa_model, chatbot_text, template_conversation, mysql)
 
                 # someone sent us a message
                 elif not "text" in messaging_event["message"]:
@@ -164,7 +144,7 @@ def webhook():
                     message_text = messaging_event["message"]["text"]  # the message's text
                     pretty_print("Received a Message", mode="QuizBot")
                     pretty_print("Message Text is \""+message_text+"\"")
-                    chatbot.respond_to_messagetext(message_text, sender_id, qa_model, mysql)
+                    chatbot.respond_to_messagetext(message_text, sender_id, qa_model, chatbot_text, template_conversation, mysql)
     return "ok", 200
 
 
@@ -191,20 +171,50 @@ def _get_user_profile(sender_id):
 
 
 # ================== SET UP ==================
-def setup(app):
+def setup(app, chatbot_text):
     # hide http print
     log = logging.getLogger('werkzeug')
     log.setLevel(logging.ERROR)
 
     pretty_print("============ Start the app ============", mode='App')
-    message.send_greeting(access_token)
-    message.persistent_menu(access_token)
+    message.send_greeting()
+    pretty_print("Greeting sent", mode="Message")
+    message.persistent_menu(template_conversation)
+    pretty_print("Persistent menu loaded", mode="Message")
+
+
+def yaml_to_json(chatbot_text_file_name, template_conversation_file_name):
+    with open(chatbot_text_file_name + ".yml", 'r') as stream:
+        try:
+            data = yaml.load(stream)
+            with open(chatbot_text_file_name + ".json", 'w') as outfile:
+                json.dump(data, outfile, sort_keys=True, indent=4)
+        except yaml.YAMLError as exc:
+            print(exc)
+
+    with open(template_conversation_file_name + ".yml", 'r') as stream:
+        try:
+            data = yaml.load(stream)
+            with open(template_conversation_file_name + ".json", 'w') as outfile:
+                json.dump(data, outfile, sort_keys=True, indent=4)
+        except yaml.YAMLError as exc:
+            print(exc)
+
+
+def load_source(chatbot_text_file_name, template_conversation_file_name):
+    with open(chatbot_text_file_name + ".json") as data_file:
+        chatbot_text = json.load(data_file)
+    with open(template_conversation_file_name + ".json") as data_file:
+        template_conversation = json.load(data_file)
+
+    return chatbot_text, template_conversation
 
 
 if __name__ == '__main__':
+    # Load conversation source text file
+    chatbot_text, template_conversation = load_source("text/chatbot_text", "text/template_conversation")
     # Set up Flask app and MySQL
-    setup(app)
-
+    setup(app, chatbot_text)
     # Read QA json data and construct the QA knowledge base
     json_file = 'QAdataset/questions_filtered_150_quizbot.json'
     qa_kb = QAKnowlegeBase(json_file)
