@@ -10,11 +10,11 @@ import time
 
 
 class LeitnerSequencingModel(BaseSequencingModel):
-    '''Pick next question randomly'''
+    '''Pick next question using leitner sequence model'''
 
     def __init__(self, qa_kb, arrival_prob = 0.9):
         BaseSequencingModel.__init__(self, qa_kb)
-        # probability selecting frmo group 0
+        # probability selecting from group 0
         self.arrival_prob = arrival_prob 
         self.num_items = self.QA_KB.KBlength
         self.queues = [Queue()]

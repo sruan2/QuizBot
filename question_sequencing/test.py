@@ -5,6 +5,7 @@
 
 from random_model import RandomSequencingModel
 from leitner_model import LeitnerSequencingModel
+from SM2_model import SM2SequencingModel
 from QAKnowledgebase import QAKnowlegeBase
 import random
 
@@ -27,3 +28,11 @@ if __name__ == '__main__':
         model.updateHistory(outcome)
         print("item {} outcome {} current queue {}".format(QID, outcome, model.curr_q))
 
+    model = SM2SequencingModel(qa_kb)
+
+    for i in range(ITERATIONS):
+    	picked_question, QID = model.pickNextQuestion()
+    	outcome = 1 if random.random() < 0.9 else 0
+    	model.updateHistory(outcome)
+    	print("priority {}".format(model.order[0][0]))
+    	print("item {} outcome {}".format(QID, outcome))
