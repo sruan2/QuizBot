@@ -7,10 +7,10 @@
                     "text": "CHOOSE_SUBJECT"
                 }, 
                 "payload": [
-                    "BUTTON_SCIENCE", 
-                    "BUTTON_GRE", 
-                    "BUTTON_SAFETY", 
-                    "BUTTON_RANDOM"
+                    "SCIENCE", 
+                    "GRE", 
+                    "SAFETY", 
+                    "RANDOM"
                 ], 
                 "source": [
                     "LOCAL", 
@@ -33,9 +33,9 @@
                     "text": "The correct answer is {}."
                 }, 
                 "payload": [
-                    "BUTTON_WHY", 
-                    "BUTTON_NEXT_QUESTION", 
-                    "BUTTON_SWITCH_SUBJECT"
+                    "WHY", 
+                    "NEXT_QUESTION", 
+                    "SWITCH_SUBJECT"
                 ], 
                 "source": [
                     "LOCAL", 
@@ -60,8 +60,8 @@
                     "text": "{}"
                 }, 
                 "payload": [
-                    "BUTTON_NEXT_QUESTION", 
-                    "BUTTON_SWITCH_SUBJECT"
+                    "NEXT_QUESTION", 
+                    "SWITCH_SUBJECT"
                 ], 
                 "source": [
                     "LOCAL", 
@@ -73,6 +73,11 @@
                 ]
             }
         }, 
+        "GET_STARTED": {
+            "get_started": {
+                "payload": "GET_INTRO_1"
+            }
+        }, 
         "PERSISTENT_MENU": {
             "persistent_menu": [
                 {
@@ -80,22 +85,22 @@
                         {
                             "call_to_actions": [
                                 {
-                                    "payload": "BUTTON_SCIENCE", 
+                                    "payload": "SCIENCE", 
                                     "title": "Science\ud83d\udd2c", 
                                     "type": "postback"
                                 }, 
                                 {
-                                    "payload": "BUTTON_GRE", 
+                                    "payload": "GRE", 
                                     "title": "GRE \ud83d\udd20", 
                                     "type": "postback"
                                 }, 
                                 {
-                                    "payload": "BUTTON_SAFETY", 
+                                    "payload": "SAFETY", 
                                     "title": "Safety\ud83d\udee0", 
                                     "type": "postback"
                                 }, 
                                 {
-                                    "payload": "BUTTON_RANDOM", 
+                                    "payload": "RANDOM", 
                                     "title": "Random \ud83c\udfb2", 
                                     "type": "postback"
                                 }
@@ -104,29 +109,29 @@
                             "type": "nested"
                         }, 
                         {
-                            "payload": "MENU_SCORE", 
+                            "payload": "CHECK_TOTAL_SCORE", 
                             "title": "Check Total Score \ud83d\udcdd", 
                             "type": "postback"
                         }, 
                         {
                             "call_to_actions": [
                                 {
-                                    "payload": "BUTTON_REPORT_BUG", 
+                                    "payload": "REPORT_BUG", 
                                     "title": "Report Bug \ud83d\udd27", 
                                     "type": "postback"
                                 }, 
                                 {
-                                    "payload": "BUTTON_USER_MANUAL_1", 
+                                    "payload": "USER_MANUAL_1", 
                                     "title": "User Manual \ud83d\udc69\ud83c\udffb\u200d\ud83d\udcbb\ud83d\udc68\ud83c\udffb\u200d\ud83d\udcbb", 
                                     "type": "postback"
                                 }, 
                                 {
-                                    "payload": "BUTTON_ABOUT_QUIZBOT", 
+                                    "payload": "ABOUT_QUIZBOT", 
                                     "title": "About QuizBot \ud83d\udd16", 
                                     "type": "postback"
                                 }, 
                                 {
-                                    "payload": "BUTTON_CONTACT", 
+                                    "payload": "CONTACT", 
                                     "title": "Contact \u260e\ufe0f", 
                                     "type": "postback"
                                 }
@@ -151,8 +156,8 @@
                     "text": "{}"
                 }, 
                 "payload": [
-                    "BUTTON_I_NEED_A_HINT", 
-                    "BUTTON_I_DONT_KNOW"
+                    "I_NEED_A_HINT", 
+                    "I_DONT_KNOW"
                 ], 
                 "source": [
                     "LOCAL", 
@@ -168,7 +173,7 @@
             "quick_reply": {
                 "message": {
                     "source": "LOCAL", 
-                    "text": "Hi {}! My name is Mr. Owl \ud83e\udd89 and I\u2019m here to help you learn all about science\ud83d\udd2c, verbal reasoning (GRE)\ud83d\udcd6, and safety\ud83d\udd25!"
+                    "text": "Hi {}! My name is Mr.Penguin \ud83d\udc27 and I\u2019m here to help you learn all about science\ud83d\udd2c, verbal reasoning (GRE)\ud83d\udcd6, and safety\ud83d\udd25!"
                 }, 
                 "payload": [
                     "GET_INTRO_2"
@@ -180,9 +185,31 @@
                     "GOT_IT"
                 ]
             }
+        }, 
+        "TOTAL_SCORE": {
+            "quick_reply": {
+                "message": {
+                    "source": "TEMPLATE", 
+                    "text": "TOTAL_SCORE"
+                }, 
+                "payload": [
+                    "NEXT_QUESTION"
+                ], 
+                "source": [
+                    "TEMPLATE"
+                ], 
+                "title": [
+                    "GOT_IT"
+                ]
+            }
         }
     }, 
     "TEMPLATE": {
+        "BUGREPORT": [
+            "Okay, I\u2019ll take a note of that. Thanks for the feedback! \ud83d\udc4d\ud83c\udffc", 
+            "Alrighty, thank you for your feedback. I'll take a note of that!", 
+            "Thank you for your bug report. I'll take a look at that!"
+        ], 
         "CHOOSE_SUBJECT": [
             "Sure, which subject would you like me to quiz you on?\ud83d\udc47\ud83c\udffc", 
             "Sure, which subject would you want to study?\ud83d\udc47\ud83c\udffc", 
@@ -192,10 +219,21 @@
             "OK, which of the following subjects would you like to study?\ud83d\udc47\ud83c\udffc", 
             "Sure, which of the following subjects would you like me to quiz you on?\ud83d\udc47\ud83c\udffc"
         ], 
+        "CONTINUE": [
+            "Great! Let's move on.", 
+            "Okay, let's continue.", 
+            "All right! Let's move on.", 
+            "Let's continue learning.", 
+            "Let's continue with the next question.", 
+            "Alrighty, let's continue learning.", 
+            "Good! Let's move on.", 
+            "Great! Let's resuming learning."
+        ], 
         "EXPLANATION": [
             "Here's an explanation:", 
             "This is why:", 
-            "This is an explanation of the question:"
+            "This is an explanation of the question:", 
+            "I hope this explanation could help you understand the the question."
         ], 
         "GOT_IT": [
             "Got it \ud83d\udca1", 
@@ -341,6 +379,13 @@
             "How about this next one:", 
             "What about this next question:", 
             "Alrighty, let's try this one."
+        ], 
+        "TOTAL_SCORE": [
+            "Your total score is {}. Keep it up! \ud83d\udcaa\ud83c\udffc", 
+            "Your total score is {}. Great work! \ud83d\udcaa\ud83c\udffc", 
+            "Your total score is {}. Good job! \ud83d\udcaa\ud83c\udffc", 
+            "Your total score is {}. Excellent work! \ud83d\udcaa\ud83c\udffc", 
+            "Your total score is {}. Awesome work! \ud83d\udcaa\ud83c\udffc"
         ]
     }
 }

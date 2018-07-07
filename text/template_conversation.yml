@@ -4,7 +4,6 @@
 # Usage: yaml file containts conversation sources.
 
 TEMPLATE:
-
   GOT_IT:
     - Got it 💡
     - Got it 👊🏼
@@ -135,7 +134,6 @@ TEMPLATE:
     - I see 👏🏼
     - I see ✔️ 
 
-
   QUESTION:
     - "Here's a question for you:"
     - "Let's try this one."
@@ -151,7 +149,6 @@ TEMPLATE:
     - "What about this next question:"
     - "Alrighty, let's try this one."
 
-
   CHOOSE_SUBJECT:
     - Sure, which subject would you like me to quiz you on?👇🏼
     - Sure, which subject would you want to study?👇🏼
@@ -161,12 +158,63 @@ TEMPLATE:
     - OK, which of the following subjects would you like to study?👇🏼
     - Sure, which of the following subjects would you like me to quiz you on?👇🏼
 
-
   EXPLANATION:
     - "Here's an explanation:"
     - "This is why:"
     - "This is an explanation of the question:"
+    - "I hope this explanation could help you understand the the question."
 
+  BUGREPORT:
+    - Okay, I’ll take a note of that. Thanks for the feedback! 👍🏼
+    - Alrighty, thank you for your feedback. I'll take a note of that!
+    - Thank you for your bug report. I'll take a look at that!
+
+  CONTINUE:
+    - Great! Let's move on.
+    - Okay, let's continue.
+    - All right! Let's move on.
+    - Let's continue learning.
+    - Let's continue with the next question.
+    - Alrighty, let's continue learning.
+    - Good! Let's move on.
+    - Great! Let's resuming learning.
+
+  TOTAL_SCORE:
+    - Your total score is {}. Keep it up! 💪🏼
+    - Your total score is {}. Great work! 💪🏼
+    - Your total score is {}. Good job! 💪🏼
+    - Your total score is {}. Excellent work! 💪🏼
+    - Your total score is {}. Awesome work! 💪🏼
+
+  INDEX:
+    - "1️⃣"
+    - "2️⃣" 
+    - "3️⃣" 
+    - "4️⃣" 
+    - "5️⃣" 
+    - "6️⃣" 
+    - "7️⃣" 
+    - "8️⃣" 
+    - "9️⃣" 
+    - "🔟"
+
+  SUBJECT:
+    - All right! I’ll quiz you on {}!
+    - Okay! Let’s see how much you know about {}!
+
+  RANDOM:
+    - Okay! Let’s mix it up! 🎲
+    - All right! A little bit of everything! 🎲
+
+  ANSWER_NOT_CORRECT:
+    - I'm sorry, but that was incorrect. You didn't earn any points 😞
+    - That's not quite right. You didn't earn any points 😞
+
+  ANSWER_CORRECT:
+    - That’s right! 🎉
+    - Correct! 🎊
+    - Good job! 🙌🏼
+    
 
 
 STATE:
@@ -189,8 +237,8 @@ STATE:
         - I need a hint 🤔
         - I don’t know 😓
       payload:
-        - BUTTON_I_NEED_A_HINT
-        - BUTTON_I_DONT_KNOW
+        - I_NEED_A_HINT
+        - I_DONT_KNOW
 
   CORRECT_ANSWER:
     quick_reply:  
@@ -208,9 +256,9 @@ STATE:
         - Next question 💪🏼
         - Switch Subject 🔀
       payload:
-        - BUTTON_WHY
-        - BUTTON_NEXT_QUESTION
-        - BUTTON_SWITCH_SUBJECT
+        - WHY
+        - NEXT_QUESTION
+        - SWITCH_SUBJECT
 
   SAY_HI:
     quick_reply:
@@ -218,7 +266,7 @@ STATE:
         source:
           LOCAL
         text:
-          Hi {}! My name is Mr. Owl 🦉 and I’m here to help you learn all about science🔬, verbal reasoning (GRE)📖, and safety🔥!
+          Hi {}! My name is Mr.Penguin 🐧 and I’m here to help you learn all about science🔬, verbal reasoning (GRE)📖, and safety🔥!
       source:
         - TEMPLATE
       title:
@@ -244,11 +292,10 @@ STATE:
         - Safety🛠
         - Random 🎲
       payload:
-        - BUTTON_SCIENCE
-        - BUTTON_GRE
-        - BUTTON_SAFETY
-        - BUTTON_RANDOM
-
+        - SCIENCE
+        - GRE
+        - SAFETY
+        - RANDOM
 
   EXPLANATION:
     message:
@@ -269,8 +316,35 @@ STATE:
         - Next question 💪
         - I don’t know 😓
       payload:
-        - BUTTON_NEXT_QUESTION
-        - BUTTON_SWITCH_SUBJECT
+        - NEXT_QUESTION
+        - SWITCH_SUBJECT
+
+  TOTAL_SCORE:
+    quick_reply:  
+      message:
+        source:
+          TEMPLATE
+        text:
+          TOTAL_SCORE
+      source:
+        - TEMPLATE
+      title:
+        - GOT_IT
+      payload:
+        - NEXT_QUESTION
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
   PERSISTENT_MENU:
@@ -290,31 +364,31 @@ STATE:
                 type: 
                   postback
                 payload: 
-                  BUTTON_SCIENCE
+                  SCIENCE
               - title: 
                   GRE 🔠
                 type: 
                   postback
                 payload: 
-                  BUTTON_GRE
+                  GRE
               - title: 
                   Safety🛠
                 type: 
                   postback
                 payload: 
-                  BUTTON_SAFETY
+                  SAFETY
               - title: 
                   Random 🎲
                 type: 
                   postback
                 payload: 
-                  BUTTON_RANDOM
+                  RANDOM
           - title: 
               Check Total Score 📝
             type: 
               postback
             payload: 
-              MENU_SCORE
+              CHECK_TOTAL_SCORE
           - title: 
               More📍
             type: 
@@ -325,26 +399,30 @@ STATE:
                 type: 
                   postback
                 payload: 
-                  BUTTON_REPORT_BUG
+                  REPORT_BUG
               - title: 
                   User Manual 👩🏻‍💻👨🏻‍💻
                 type: 
                   postback
                 payload:
-                  BUTTON_USER_MANUAL_1
+                  USER_MANUAL_1
               - title: 
                   About QuizBot 🔖
                 type: 
                   postback
                 payload: 
-                  BUTTON_ABOUT_QUIZBOT
+                  ABOUT_QUIZBOT
               - title: 
                   Contact ☎️
                 type: 
                   postback
                 payload: 
-                  BUTTON_CONTACT
+                  CONTACT
 
+  GET_STARTED:
+    get_started:
+      payload: 
+        GET_INTRO_1
 
 
 
