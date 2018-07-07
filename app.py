@@ -177,8 +177,8 @@ def setup(app, chatbot_text):
     log.setLevel(logging.ERROR)
 
     pretty_print("============ Start the app ============", mode='App')
-    message.send_greeting()
-    pretty_print("Greeting sent", mode="Message")
+    message.init_payload(template_conversation)
+    pretty_print("Initiaize the payloads", mode="Message")
     message.persistent_menu(template_conversation)
     pretty_print("Persistent menu loaded", mode="Message")
 

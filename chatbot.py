@@ -34,78 +34,76 @@ def respond_to_payload(payload, message_text, sender_id, sender_firstname, qa_mo
     elif payload == "GET_READY":
         send_conversation(sender_id, payload, chatbot_text, template_conversation, "conversation_1")
 
-    elif payload == "BUTTON_YUP_IM_READY":
+    elif payload == "YUP_IM_READY":
         update_status(mysql, sender_id, 1)
         send_conversation(sender_id, payload, chatbot_text, template_conversation, "conversation_1")
 
-
-
-
-
-    elif payload == "MENU_SCORE":
-        score = show_score(mysql, sender_id)
-        send_gotit_quickreply(sender_id, "Your total score is " + str(score) + ". Keep moving! 💪🏼", False)
-
-
-
-
-    elif payload == "BUTTON_CONTINUE":
-        update_status(mysql, sender_id, 1)
-        msg_continue = ["Great! Let's move on.", 
-                        "Okay, let's continue.", 
-                        "All right! Let's move on.", 
-                        "Let's continue learning."]
-        random.shuffle(msg_continue)
-        send_gotit_quickreply(sender_id, msg_continue[0], False)
-
-    elif payload == "BUTTON_I_NEED_A_HINT":
-        msg_hint = "Okay. Which of these is the right answer?👇🏼"
-        QID, _ = show_last_qid_subject(mysql, sender_id) # retrieve the qid and the subject from database
-        pretty_print(qa_model.DKB[QID], mode='QID')
-        send_hint(sender_id, msg_hint, qa_model, QID)
-
-    elif payload == "BUTTON_I_DONT_KNOW":
+    elif payload == "ABOUT_QUIZBOT":
         send_conversation(sender_id, payload, chatbot_text, template_conversation, "conversation_1")
 
-    elif payload == "BUTTON_GIVEUP_YES":
-        send_message(sender_id, "You didn't earn any points this time.")
-        msg_giveup_yes = "That’s okay, you’ll get it next time! ☺️"
-        send_message(sender_id, msg_giveup_yes)
-        QID, _ = show_last_qid_subject(mysql, sender_id) # retrieve the qid and the subject from database
-        standard_answer = qa_model.getAnswer(QID)
-        insert_score(mysql, sender_id,QID,payload,0)
-        send_correct_answer(sender_id, template_conversation, standard_answer)
+    elif payload == "USER_MANUAL_1":
+        send_image(sender_id, payload, chatbot_text, "image_1")
+        send_conversation(sender_id, payload, chatbot_text, template_conversation, "conversation_1")
+
+    elif payload == "USER_MANUAL_2":
+        send_image(sender_id, payload, chatbot_text, "image_1")
+        send_image(sender_id, payload, chatbot_text, "image_2")
+        send_conversation(sender_id, payload, chatbot_text, template_conversation, "conversation_1")
+
+    elif payload == "USER_MANUAL_3":
+        send_image(sender_id, payload, chatbot_text, "image_1")
+        send_conversation(sender_id, payload, chatbot_text, template_conversation, "conversation_1")
+
+    elif payload == "USER_MANUAL_4":
+        send_image(sender_id, payload, chatbot_text, "image_1")
+        send_image(sender_id, payload, chatbot_text, "image_2")
+        send_conversation(sender_id, payload, chatbot_text, template_conversation, "conversation_1")
+
+    elif payload == "USER_MANUAL_5":
+        send_image(sender_id, payload, chatbot_text, "image_1")
+        send_conversation(sender_id, payload, chatbot_text, template_conversation, "conversation_1")
+
+    elif payload == "USER_MANUAL_6":
+        send_image(sender_id, payload, chatbot_text, "image_1")
+        send_conversation(sender_id, payload, chatbot_text, template_conversation, "conversation_1")
+
+    elif payload == "USER_MANUAL_7":
+        send_conversation(sender_id, payload, chatbot_text, template_conversation, "conversation_1")
+
+    elif payload == "CONTACT":
+        send_conversation(sender_id, payload, chatbot_text, template_conversation, "conversation_1")
+
+    elif payload == "REPORT_BUG":
+        insert_score(mysql,sender_id,-1,message_text,-1)
+        send_conversation(sender_id, payload, chatbot_text, template_conversation, "conversation_1")
+
+    elif payload == "CONTINUE":
         update_status(mysql, sender_id, 1)
+        send_conversation(sender_id, payload, chatbot_text, template_conversation, "conversation_1")
 
-    elif payload == "BUTTON_GIVEUP_NO":
-        msg_giveup_no = "Okay! Let's try again 💪🏼 Tell me which of these is the right answer:"
-        QID, _ = show_last_qid_subject(mysql, sender_id) # retrieve the qid and the subject from database
-        send_hint(sender_id, msg_giveup_no, qa_model, QID)
+    elif payload == "CHECK_TOTAL_SCORE":
+        total_score = str(show_score(mysql, sender_id))
+        send_total_score(sender_id, template_conversation, total_score)
 
-    elif payload == "BUTTON_PRACTICE_MODE":
-        msg_choose_mode = "Sure, which subject would you like me to quiz you on?👇🏼"
+    elif payload == "I_DONT_KNOW":
+        send_conversation(sender_id, payload, chatbot_text, template_conversation, "conversation_1")
+
+    elif payload == "WHY":
+        QID, _ = show_last_qid_subject(mysql, sender_id)
+        explanation_sentence = qa_model.getSupport(QID)
+        send_explanation(sender_id, template_conversation, explanation_sentence)
+
+    elif payload == "SWITCH_SUBJECT":
         send_choose_subject(sender_id, template_conversation)
 
-    elif payload[:10] == "BUTTON_DKB":
-        QID, _ = show_last_qid_subject(mysql, sender_id) # retrieve the qid and the subject from database
-        standard_answer = qa_model.getAnswer(QID)
-        msglist_incorrect = ["I'm sorry, but that was incorrect. You didn't earn any points 😞",
-                             "That's not quite right. You didn't earn any points 😞"]
-        send_message(sender_id, random.choice(msglist_incorrect))
-        insert_score(mysql, sender_id,QID,payload,0)
-        send_correct_answer(sender_id, template_conversation, standard_answer)
-        update_status(mysql, sender_id, 1)
 
-    elif payload[:10] == "BUTTON_AKB":
-        QID, _ = show_last_qid_subject(mysql, sender_id) # retrieve the qid and the subject from database
-        standard_answer = qa_model.getAnswer(QID)
-        score = 3
-        send_message(sender_id, "You earned "+str(score)+ " points!")
-        insert_score(mysql, sender_id,QID,payload,score)
-        send_correct_answer(sender_id, template_conversation, standard_answer)
-        update_status(mysql, sender_id, 1)
 
-    elif payload == "BUTTON_SCIENCE":
+
+
+
+
+
+    elif payload == "SCIENCE":
         msglist_subject = ["All right! I’ll quiz you on science!",
                      "Okay! Let’s see how much you know about science!"]
         msg_subject = random.choice(msglist_subject)
@@ -115,7 +113,7 @@ def respond_to_payload(payload, message_text, sender_id, sender_firstname, qa_mo
         insert_question(mysql, sender_id, QID, payload)
         send_question(sender_id, template_conversation, question)
 
-    elif payload == "BUTTON_GRE":
+    elif payload == "GRE":
         msglist_subject = ["All right! I’ll quiz you on GRE!",
                      "Okay! Let’s see how much you know about GRE!"]
         msg_subject = random.choice(msglist_subject)
@@ -125,7 +123,7 @@ def respond_to_payload(payload, message_text, sender_id, sender_firstname, qa_mo
         insert_question(mysql, sender_id, QID, payload)
         send_question(sender_id, template_conversation, question)
 
-    elif payload == "BUTTON_SAFETY":
+    elif payload == "SAFETY":
         msglist_subject = ["All right! I’ll quiz you on SAFETY!",
                      "Okay! Let’s see how much you know about SAFETY!"]
         msg_subject = random.choice(msglist_subject)
@@ -134,7 +132,8 @@ def respond_to_payload(payload, message_text, sender_id, sender_firstname, qa_mo
         update_status(mysql, sender_id, 0)
         insert_question(mysql, sender_id, QID, payload)
         send_question(sender_id, template_conversation, question)
-    elif payload == "BUTTON_RANDOM":
+
+    elif payload == "RANDOM":
         msglist_random = ["Okay! Let’s mix it up! 🎲",
                      "All right! A little bit of everything! 🎲"]
         msg_random = random.choice(msglist_random)
@@ -144,74 +143,75 @@ def respond_to_payload(payload, message_text, sender_id, sender_firstname, qa_mo
         insert_question(mysql, sender_id, QID, payload)
         send_question(sender_id, template_conversation, question)
 
-    elif payload == 'BUTTON_SWITCH_SUBJECT' or payload == 'BUTTON_SURE':
+
+
+
+
+
+
+
+
+
+    elif payload == "I_NEED_A_HINT":
+        msg_hint = "Okay. Which of these is the right answer?👇🏼"
+        QID, _ = show_last_qid_subject(mysql, sender_id)
+        send_hint(sender_id, msg_hint, qa_model, QID)
+
+
+    elif payload == "GIVEUP_YES":
+        send_message(sender_id, "You didn't earn any points this time.")
+        msg_giveup_yes = "That’s okay, you’ll get it next time! ☺️"
+        send_message(sender_id, msg_giveup_yes)
+        QID, _ = show_last_qid_subject(mysql, sender_id) 
+        standard_answer = qa_model.getAnswer(QID)
+        insert_score(mysql, sender_id, QID, payload, 0)
+        send_correct_answer(sender_id, template_conversation, standard_answer)
+        update_status(mysql, sender_id, 1)
+
+    elif payload == "GIVEUP_NO":
+        msg_giveup_no = "Okay! Let's try again 💪🏼 Tell me which of these is the right answer:"
+        QID, _ = show_last_qid_subject(mysql, sender_id)
+        send_hint(sender_id, msg_giveup_no, qa_model, QID)
+
+    elif payload == "PRACTICE_MODE":
         msg_choose_mode = "Sure, which subject would you like me to quiz you on?👇🏼"
         send_choose_subject(sender_id, template_conversation)
 
-    elif payload == "BUTTON_WHY":
-        QID, _ = show_last_qid_subject(mysql, sender_id) # retrieve the qid and the subject from database
-        support_sentence = qa_model.getSupport(QID)
-        send_explanation(sender_id, template_conversation, support_sentence)
+    elif payload[:10] == "DKB":
+        QID, _ = show_last_qid_subject(mysql, sender_id)
+        standard_answer = qa_model.getAnswer(QID)
+        msglist_incorrect = ["I'm sorry, but that was incorrect. You didn't earn any points 😞",
+                             "That's not quite right. You didn't earn any points 😞"]
+        send_message(sender_id, random.choice(msglist_incorrect))
+        insert_score(mysql, sender_id,QID,payload,0)
+        send_correct_answer(sender_id, template_conversation, standard_answer)
+        update_status(mysql, sender_id, 1)
 
-    elif payload == "BUTTON_CHECK_TOTAL_SCORE":
-        totalscore = str(show_score(mysql, sender_id))
-        msglist_total_score = ["Your total score is "+totalscore+". Keep it up! 💪🏼",
-                              "Your total score is "+totalscore+". Great work! 💪🏼"]
-        send_gotit_quickreply(sender_id, random.choice(msglist_total_score), False)
-
-    elif payload == "BUTTON_REPORT_BUG":
-        msg_report_bug = "Okay, I’ll take a note of that. Thanks for the feedback! 👍🏼"
-        insert_score(mysql,sender_id,-1,message_text,-1)
-        send_bugreport(sender_id, msg_report_bug)
-
-    elif payload == "BUTTON_ABOUT_QUIZBOT":
-        send_conversation(sender_id, payload, chatbot_text, template_conversation, "conversation_1")
-
-    elif payload == "BUTTON_USER_MANUAL_1":
-        send_image(sender_id, payload, chatbot_text, "image_1")
-        send_conversation(sender_id, payload, chatbot_text, template_conversation, "conversation_1")
-
-    elif payload == "BUTTON_USER_MANUAL_2":
-        send_image(sender_id, payload, chatbot_text, "image_1")
-        send_image(sender_id, payload, chatbot_text, "image_2")
-        send_conversation(sender_id, payload, chatbot_text, template_conversation, "conversation_1")
-
-    elif payload == "BUTTON_USER_MANUAL_3":
-        send_image(sender_id, payload, chatbot_text, "image_1")
-        send_conversation(sender_id, payload, chatbot_text, template_conversation, "conversation_1")
-
-    elif payload == "BUTTON_USER_MANUAL_4":
-        send_image(sender_id, payload, chatbot_text, "image_1")
-        send_image(sender_id, payload, chatbot_text, "image_2")
-        send_conversation(sender_id, payload, chatbot_text, template_conversation, "conversation_1")
-
-    elif payload == "BUTTON_USER_MANUAL_5":
-        send_image(sender_id, payload, chatbot_text, "image_1")
-        send_conversation(sender_id, payload, chatbot_text, template_conversation, "conversation_1")
-
-    elif payload == "BUTTON_USER_MANUAL_6":
-        send_image(sender_id, payload, chatbot_text, "image_1")
-        send_conversation(sender_id, payload, chatbot_text, template_conversation, "conversation_1")
-
-    elif payload == "BUTTON_USER_MANUAL_7":
-        send_conversation(sender_id, payload, chatbot_text, template_conversation, "conversation_1")
-
-    elif payload == "BUTTON_CONTACT":
-        send_conversation(sender_id, payload, chatbot_text, template_conversation, "conversation_1")
+    elif payload[:10] == "AKB":
+        QID, _ = show_last_qid_subject(mysql, sender_id)
+        standard_answer = qa_model.getAnswer(QID)
+        score = 3
+        send_message(sender_id, "You earned "+str(score)+ " points!")
+        insert_score(mysql, sender_id,QID,payload,score)
+        send_correct_answer(sender_id, template_conversation, standard_answer)
+        update_status(mysql, sender_id, 1)
 
 
-    # look for next similar question based off the pre-trained model
-    elif payload == "BUTTON_NEXT_QUESTION" or payload == "BUTTON_GOT_IT_NEXT":
-        QID, _ = show_last_qid_subject(mysql, sender_id) # retrieve the qid and the subject from database
+
+
+
+
+
+    elif payload == "NEXT_QUESTION":
+        QID, _ = show_last_qid_subject(mysql, sender_id)
         if show_status(mysql, sender_id):
             last_subject = show_last_qid_subject(mysql, sender_id)[1]
-            #if last_subject == 'random' or last_subject == 'no record':
-            if last_subject in ["BUTTON_SCIENCE", "BUTTON_GRE", "BUTTON_SAFETY"]:
-                if last_subject == "BUTTON_SCIENCE":
+            if last_subject in ["SCIENCE", "GRE", "SAFETY"]:
+                if last_subject == "SCIENCE":
                     question, QID = qa_model.pickSubjectRandomQuestion("science")
-                elif last_subject == "BUTTON_GRE":
+                elif last_subject == "GRE":
                     question, QID = qa_model.pickSubjectRandomQuestion("gre")
-                elif last_subject == "BUTTON_SAFETY":
+                elif last_subject == "SAFETY":
                     question, QID = qa_model.pickSubjectRandomQuestion("safety")
             else:
                 question, QID = qa_model.pickRandomQuestion()
@@ -224,21 +224,18 @@ def respond_to_payload(payload, message_text, sender_id, sender_firstname, qa_mo
 
 
 def respond_to_messagetext(message_text, sender_id, qa_model, chatbot_text, template_conversation, mysql):
-    '''
-        ================= Chatbot's reply to a message text =================
-    '''
     message_text = message_text.lower()
-    QID, _ = show_last_qid_subject(mysql, sender_id) # retrieve the qid and the subject from database
+    QID, _ = show_last_qid_subject(mysql, sender_id)
 
     if message_text == "Practice Mode "+u'\u270F':
         send_choose_subject_quick_reply(sender_id, template_conversation)
         insert_question(mysql, sender_id,'-11','MENU_PRACTICE_MODE')
 
     elif message_text == "next question" or message_text == "got it, next!" or message_text[:4] == "sure":
-        QID, _ = show_last_qid_subject(mysql, sender_id) # retrieve the qid and the subject from database
+        QID, _ = show_last_qid_subject(mysql, sender_id)
         if show_status(mysql, sender_id):
             last_subject = show_last_qid_subject(mysql, sender_id)[1]
-            if last_subject in ["BUTTON_SCIENCE", "BUTTON_GRE", "BUTTON_SAFETY"]:
+            if last_subject in ["SCIENCE", "GRE", "SAFETY"]:
                 question, QID = qa_model.pickSubjectRandomQuestion(last_subject)
             else:
                 question, QID = qa_model.pickRandomQuestion()
@@ -252,7 +249,6 @@ def respond_to_messagetext(message_text, sender_id, qa_model, chatbot_text, temp
                 msglist_incorrect = ["I'm sorry, but that was incorrect. You didn't earn any points 😞",
                                     "That's not quite right. You didn't earn any points 😞"]
                 send_message(sender_id, random.choice(msglist_incorrect))
-                #insert_score(mysql, sender_id, QID, message_text, 0)
             elif score < 10:
                 send_message(sender_id, "You earned "+str(score)+ " points!")
             else:
@@ -265,7 +261,7 @@ def respond_to_messagetext(message_text, sender_id, qa_model, chatbot_text, temp
             update_status(mysql, sender_id, 1)
 
 
-    else: # user's response in natural language
+    else:
         if not show_status(mysql, sender_id):
             standard_answer = qa_model.getAnswer(QID)
             score = qa_model.compute_score(message_text, QID)
@@ -273,7 +269,6 @@ def respond_to_messagetext(message_text, sender_id, qa_model, chatbot_text, temp
                 msglist_incorrect = ["I'm sorry, but that was incorrect. You didn't earn any points 😞",
                                     "That's not quite right. You didn't earn any points 😞"]
                 send_message(sender_id, random.choice(msglist_incorrect))
-                #insert_score(mysql, sender_id, QID, message_text, 0)
             elif score < 10:
                 send_message(sender_id, "You earned "+str(score)+ " points!")
             else:
@@ -287,6 +282,6 @@ def respond_to_messagetext(message_text, sender_id, qa_model, chatbot_text, temp
         else:
             update_status(mysql, sender_id, 1)
             response_message = ["That sounds interesting. Would you want more quiz questions to practice? I'm here to help 😄"]
-            send_conversation(sender_id, DELAY_TIME, response_message, "BUTTON_SURE")
+            send_conversation(sender_id, DELAY_TIME, response_message, "SURE")
 
 

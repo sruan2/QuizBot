@@ -9,8 +9,7 @@ GET_INTRO_1:
       template_type: 
         image
       image_url: 
-        https://www.smartprimer.org:8443/pictures/owlyellow.png
-
+        https://www.smartprimer.org:8443/pictures/avatar/quizbot_avatar.png
 
 GET_INTRO_2:
   conversation:
@@ -19,16 +18,15 @@ GET_INTRO_2:
         - source:
             LOCAL
           text:
-            Here’s how it works. 📗
+            Here’s how it works.
         - source:
             LOCAL
           text:
-            I ask you questions❓, and you give me answers ✅.
+            I ask you questions❓, and you give me answers.
         - source:
             LOCAL
           text:
             If you get the right answer, you earn points! 🎉
-
       quick_reply:
         source:
           - TEMPLATE
@@ -37,14 +35,13 @@ GET_INTRO_2:
         payload:
           - GET_INTRO_3
 
-
 GET_INTRO_3:
   image:
     image_1:
       template_type: 
         image
       image_url: 
-        https://www.smartprimer.org:8443/pictures/typeanswer.png
+        https://www.smartprimer.org:8443/pictures/user_manual/typeanswer.png
   conversation:
     conversation_1:
       message:
@@ -64,19 +61,18 @@ GET_INTRO_3:
         payload:
           - GET_INTRO_4
 
-
 GET_INTRO_4:
   image:
     image_1:
       template_type: 
         image
       image_url: 
-        https://www.smartprimer.org:8443/pictures/needhintbutton.png
+        https://www.smartprimer.org:8443/pictures/user_manual/needhintbutton.png
     image_2:
       template_type: 
         image
       image_url: 
-        https://www.smartprimer.org:8443/pictures/hintoptions.png
+        https://www.smartprimer.org:8443/pictures/user_manual/hintoptions.png
   conversation:
     conversation_1:
       message:
@@ -103,15 +99,13 @@ GET_INTRO_4:
         payload:
           - GET_INTRO_5
 
-
 GET_INTRO_5:
   image:
     image_1:
       template_type: 
         image
       image_url: 
-        https://www.smartprimer.org:8443/pictures/menubutton.jpg
-
+        https://www.smartprimer.org:8443/pictures/user_manual/menubutton.jpg
   conversation:
     conversation_1:
       message:
@@ -127,14 +121,13 @@ GET_INTRO_5:
         payload:
           - GET_READY
 
-
-BUTTON_USER_MANUAL_1:
+USER_MANUAL_1:
   image:
     image_1:
       template_type: 
         image
       image_url: 
-        https://www.smartprimer.org:8443/pictures/typeanswer.png
+        https://www.smartprimer.org:8443/pictures/user_manual/typeanswer.png
   conversation:
     conversation_1:
       message:
@@ -152,21 +145,20 @@ BUTTON_USER_MANUAL_1:
         title:
           - GOT_IT
         payload:
-          - BUTTON_USER_MANUAL_2  
+          - USER_MANUAL_2  
 
-
-BUTTON_USER_MANUAL_2:
+USER_MANUAL_2:
   image:
     image_1:
       template_type: 
         image
       image_url: 
-        https://www.smartprimer.org:8443/pictures/needhintbutton.png
+        https://www.smartprimer.org:8443/pictures/user_manual/needhintbutton.png
     image_2:
       template_type: 
         image
       image_url: 
-        https://www.smartprimer.org:8443/pictures/hintoptions.png
+        https://www.smartprimer.org:8443/pictures/user_manual/hintoptions.png
   conversation:
     conversation_1:
       message:
@@ -188,16 +180,15 @@ BUTTON_USER_MANUAL_2:
         title:
           - GOT_IT
         payload:
-          - BUTTON_USER_MANUAL_3   
+          - USER_MANUAL_3   
 
-
-BUTTON_USER_MANUAL_3:
+USER_MANUAL_3:
   image:
     image_1:
       template_type: 
         image
       image_url: 
-        https://www.smartprimer.org:8443/pictures/menubutton.jpg
+        https://www.smartprimer.org:8443/pictures/user_manual/menubutton.jpg
   conversation:
     conversation_1:
       message:
@@ -211,21 +202,20 @@ BUTTON_USER_MANUAL_3:
         title:
           - GOT_IT
         payload:
-          - BUTTON_USER_MANUAL_4  
+          - USER_MANUAL_4  
 
-
-BUTTON_USER_MANUAL_4:
+USER_MANUAL_4:
   image:
     image_1:
       template_type: 
         image
       image_url: 
-        https://www.smartprimer.org:8443/pictures/changesubjects_1.jpg
+        https://www.smartprimer.org:8443/pictures/user_manual/changesubjects_1.jpg
     image_2:
       template_type: 
         image
       image_url: 
-        https://www.smartprimer.org:8443/pictures/changesubjects_2.jpg
+        https://www.smartprimer.org:8443/pictures/user_manual/changesubjects_2.jpg
   conversation:
     conversation_1:
       message:
@@ -239,16 +229,15 @@ BUTTON_USER_MANUAL_4:
         title:
           - GOT_IT
         payload:
-          - BUTTON_USER_MANUAL_5   
+          - USER_MANUAL_5   
 
-
-BUTTON_USER_MANUAL_5:
+USER_MANUAL_5:
   image:
     image_1:
       template_type: 
         image
       image_url: 
-        https://www.smartprimer.org:8443/pictures/totalscorebutton.png
+        https://www.smartprimer.org:8443/pictures/user_manual/totalscorebutton.png
   conversation:
     conversation_1:
       message:
@@ -262,16 +251,15 @@ BUTTON_USER_MANUAL_5:
         title:
           - GOT_IT
         payload:
-          - BUTTON_USER_MANUAL_6   
+          - USER_MANUAL_6   
 
-
-BUTTON_USER_MANUAL_6:
+USER_MANUAL_6:
   image:
     image_1:
       template_type: 
         image
       image_url: 
-        https://www.smartprimer.org:8443/pictures/morebutton.png
+        https://www.smartprimer.org:8443/pictures/user_manual/morebutton.png
   conversation:
     conversation_1:
       message:
@@ -285,10 +273,9 @@ BUTTON_USER_MANUAL_6:
         title:
           - GOT_IT
         payload:
-          - BUTTON_USER_MANUAL_7   
+          - USER_MANUAL_7   
 
-
-BUTTON_USER_MANUAL_7:
+USER_MANUAL_7:
   conversation:
     conversation_1:
       message:
@@ -302,10 +289,9 @@ BUTTON_USER_MANUAL_7:
         title:
           - GOT_IT
         payload:
-          - BUTTON_GOT_IT_NEXT   
+          - NEXT_QUESTION   
 
-
-BUTTON_CONTACT:
+CONTACT:
   conversation:
     conversation_1:
       message:
@@ -320,10 +306,9 @@ BUTTON_CONTACT:
         title:
           - GOT_IT
         payload:
-          - BUTTON_CONTINUE  
+          - CONTINUE  
 
-
-BUTTON_ABOUT_QUIZBOT:
+ABOUT_QUIZBOT:
   conversation:
     conversation_1:
       message:
@@ -345,8 +330,7 @@ BUTTON_ABOUT_QUIZBOT:
         title:
           - GOT_IT
         payload:
-          - BUTTON_CONTINUE   
-
+          - CONTINUE   
 
 GET_READY:
   conversation:
@@ -366,10 +350,9 @@ GET_READY:
         title:
           - Yup! I'm ready! ✊🏼
         payload:
-          - BUTTON_YUP_IM_READY    
+          - YUP_IM_READY    
 
-
-BUTTON_YUP_IM_READY:
+YUP_IM_READY:
   conversation:
     conversation_1:
       message:
@@ -387,10 +370,9 @@ BUTTON_YUP_IM_READY:
         title:
           - Quiz me 🤓
         payload:
-          - BUTTON_PRACTICE_MODE  
+          - PRACTICE_MODE  
 
-
-BUTTON_I_DONT_KNOW:
+I_DONT_KNOW:
   conversation:
     conversation_1:
       message:
@@ -406,21 +388,55 @@ BUTTON_I_DONT_KNOW:
           - Yes, answer please.
           - No, I'll try again!
         payload:
-          - BUTTON_GIVEUP_YES  
-          - BUTTON_GIVEUP_NO
+          - GIVEUP_YES  
+          - GIVEUP_NO
+
+REPORT_BUG:
+  conversation:
+    conversation_1:
+      message:
+        - source:
+            TEMPLATE
+          text:
+            BUGREPORT
+      quick_reply:
+        source:
+          - LOCAL
+          - LOCAL
+        title:
+          - Next question 💪
+          - Switch Subject 🔀
+        payload:
+          - NEXT_QUESTION  
+          - SWITCH_SUBJECT  
+
+CONTINUE:
+  conversation:
+    conversation_1:
+      message:
+        - source:
+            TEMPLATE
+          text:
+            CONTINUE
+      quick_reply:
+        source:
+          - TEMPLATE
+        title:
+          - GOT_IT
+        payload:
+          - NEXT_QUESTION  
 
 
-
-
-
-
-
-
-
-
-
-
-
+SCIENCE:
+  paragraph_format:
+    paragraph_format_1:
+      - source:
+          TEMPLATE
+        text:
+          SUBJECT
+        num_to_fill:
+          1
+          
 
 
 

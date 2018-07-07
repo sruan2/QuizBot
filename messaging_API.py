@@ -61,3 +61,10 @@ def send_persistent_menu(persistent_menu_data):
     data = template.create_persistent_menu_json(persistent_menu_data)
     send_data(data, "messenger_profile")
 
+
+def send_get_started(get_started_data):
+    '''
+        This function initializes the payloads.
+    '''
+    data = template.create_get_started_json(get_started_data)
+    send_data(data, "messenger_profile")
