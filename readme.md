@@ -17,9 +17,9 @@ We combined all the commands needed to start the application in a script on our 
 Contact Sherry if you need to access the AWS server. Before using the server, you should be familiar with basic [Linux commands](https://practicalunix.org/video-schedule) such as [screen](https://www.tecmint.com/screen-command-examples-to-manage-linux-terminals/) and ssh.
 
 ### Flash Card App
-Flash card front end is written in html, css, and javascript and is converted to a mobile app using [Cordova](https://cordova.apache.org/).
+Flash card front end is written in html, css, and javascript and is converted to a mobile app using [Cordova](https://cordova.apache.org/). Its source code is in `flashcard/www/`.
 
-The backend is written in Python Flask and hosted on our AWS server.
+The backend is written in Python Flask and hosted on our AWS server. Its source code is in `flashcard_backend/`.
 
 ## Try Out Our Apps
 
