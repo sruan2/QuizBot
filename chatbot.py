@@ -1,14 +1,29 @@
 # coding: utf8
-from message import *
-from database import *
 import random
 import time
 from leaderboard.generate_leaderboard import *
+from message import *
+from database import *
 # import text.chatbot_text as txt
 
 
 # ================= Chatbot's reply to a postback =================
 def respond_to_payload(payload, message_text, sender_id, sender_firstname, qa_model, chatbot_text, template_conversation, mysql):
+    '''Docstring of this function
+
+    Args:
+        payload:
+        message_text:
+        sender_id:
+        sender_firstname:
+        qa_model:
+        chatbot_text:
+        template_conversation:
+        mysql:
+
+    Returns:
+
+    '''
     message_text = message_text.lower()
 
     if payload == "GET_INTRO_1":
@@ -162,7 +177,7 @@ def respond_to_payload(payload, message_text, sender_id, sender_firstname, qa_mo
         send_message(sender_id, "You didn't earn any points this time.")
         msg_giveup_yes = "That’s okay, you’ll get it next time! ☺️"
         send_message(sender_id, msg_giveup_yes)
-        QID, _ = show_last_qid_subject(mysql, sender_id) 
+        QID, _ = show_last_qid_subject(mysql, sender_id)
         standard_answer = qa_model.getAnswer(QID)
         insert_score(mysql, sender_id, QID, payload, 0)
         send_correct_answer(sender_id, template_conversation, standard_answer)
