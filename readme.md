@@ -1,5 +1,5 @@
 # Quiz Bot 
-This is an educational chatbot for science question asking and answering hosted on Facebook Messenger platform.
+This is an AI-powered educational chatbot for memorizing knowledge. Users can play with it through Facebook Messenger.
 
 ## Wiki
 
@@ -12,11 +12,11 @@ It is based on a python template from: https://tutorials.botsfloor.com/creating-
 ## To Run
 This app is written in Python 3 and deployed on our AWS server (under the ubuntu account). 
 
-To enter the virutal environment, run `source venv/bin/activate` on the AWS server. To exit the virtual environtment, `deactivate`
+To enter the virutal environment, run `source venv/bin/activate` on the AWS server. To exit the virtual environtment, run `deactivate`
 
-We combined all the commands needed to start the application in a script in our server. So to start the application on AWS, enter a screen and simply run `./start_server.sh`.
+We combined all the commands needed to start the application in a script on our server. So to start the application, log on to aws, enter a screen, and simply run `./start_server.sh`.
 
-Contact Sherry if you need to access the AWS server. Before using the server, you should be familiar with basic Linux commands  such as [screen](https://www.tecmint.com/screen-command-examples-to-manage-linux-terminals/).
+Contact Sherry if you need to access the AWS server. Before using the server, you should be familiar with basic [Linux commands](https://practicalunix.org/video-schedule) such as [screen](https://www.tecmint.com/screen-command-examples-to-manage-linux-terminals/) and ssh.
 
 ## Try Out Our Apps
 
