@@ -43,7 +43,7 @@ def send_image(recipient_id, payload, chatbot_text, image_id):
     '''
     messaging_API.send_typing_action(recipient_id)
     image_data = chatbot_text[payload]["image"][image_id]
-    image_data["image_url"].format()
+    image_data["image_url"].format(os.environ["PORT"])
     messaging_API.send_image(recipient_id, image_data)
 
 
