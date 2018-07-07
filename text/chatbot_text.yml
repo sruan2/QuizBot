@@ -9,7 +9,7 @@ GET_INTRO_1:
       template_type: 
         image
       image_url: 
-        https://www.smartprimer.org:8443/pictures/avatar/quizbot_avatar.png
+        https://www.smartprimer.org:{}/pictures/avatar/quizbot_avatar.png
 
 GET_INTRO_2:
   conversation:
@@ -41,7 +41,7 @@ GET_INTRO_3:
       template_type: 
         image
       image_url: 
-        https://www.smartprimer.org:8443/pictures/user_manual/typeanswer.png
+        https://www.smartprimer.org:{}/pictures/user_manual/typeanswer.png
   conversation:
     conversation_1:
       message:
@@ -67,12 +67,12 @@ GET_INTRO_4:
       template_type: 
         image
       image_url: 
-        https://www.smartprimer.org:8443/pictures/user_manual/needhintbutton.png
+        https://www.smartprimer.org:{}/pictures/user_manual/needhintbutton.png
     image_2:
       template_type: 
         image
       image_url: 
-        https://www.smartprimer.org:8443/pictures/user_manual/hintoptions.png
+        https://www.smartprimer.org:{}/pictures/user_manual/hintoptions.png
   conversation:
     conversation_1:
       message:
@@ -105,7 +105,7 @@ GET_INTRO_5:
       template_type: 
         image
       image_url: 
-        https://www.smartprimer.org:8443/pictures/user_manual/menubutton.jpg
+        https://www.smartprimer.org:{}/pictures/user_manual/menubutton.jpg
   conversation:
     conversation_1:
       message:
@@ -127,7 +127,7 @@ USER_MANUAL_1:
       template_type: 
         image
       image_url: 
-        https://www.smartprimer.org:8443/pictures/user_manual/typeanswer.png
+        https://www.smartprimer.org:{}/pictures/user_manual/typeanswer.png
   conversation:
     conversation_1:
       message:
@@ -153,12 +153,12 @@ USER_MANUAL_2:
       template_type: 
         image
       image_url: 
-        https://www.smartprimer.org:8443/pictures/user_manual/needhintbutton.png
+        https://www.smartprimer.org:{}/pictures/user_manual/needhintbutton.png
     image_2:
       template_type: 
         image
       image_url: 
-        https://www.smartprimer.org:8443/pictures/user_manual/hintoptions.png
+        https://www.smartprimer.org:{}/pictures/user_manual/hintoptions.png
   conversation:
     conversation_1:
       message:
@@ -188,7 +188,7 @@ USER_MANUAL_3:
       template_type: 
         image
       image_url: 
-        https://www.smartprimer.org:8443/pictures/user_manual/menubutton.jpg
+        https://www.smartprimer.org:{}/pictures/user_manual/menubutton.jpg
   conversation:
     conversation_1:
       message:
@@ -210,12 +210,12 @@ USER_MANUAL_4:
       template_type: 
         image
       image_url: 
-        https://www.smartprimer.org:8443/pictures/user_manual/changesubjects_1.jpg
+        https://www.smartprimer.org:{}/pictures/user_manual/changesubjects_1.jpg
     image_2:
       template_type: 
         image
       image_url: 
-        https://www.smartprimer.org:8443/pictures/user_manual/changesubjects_2.jpg
+        https://www.smartprimer.org:{}/pictures/user_manual/changesubjects_2.jpg
   conversation:
     conversation_1:
       message:
@@ -237,7 +237,7 @@ USER_MANUAL_5:
       template_type: 
         image
       image_url: 
-        https://www.smartprimer.org:8443/pictures/user_manual/totalscorebutton.png
+        https://www.smartprimer.org:{}/pictures/user_manual/totalscorebutton.png
   conversation:
     conversation_1:
       message:
@@ -259,7 +259,7 @@ USER_MANUAL_6:
       template_type: 
         image
       image_url: 
-        https://www.smartprimer.org:8443/pictures/user_manual/morebutton.png
+        https://www.smartprimer.org:{}/pictures/user_manual/morebutton.png
   conversation:
     conversation_1:
       message:
