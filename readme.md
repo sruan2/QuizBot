@@ -43,6 +43,10 @@ Safety questions from https://www.mysafetysign.com/safety-quiz (data scraping do
 
 GRE questions from http://gre.kmf.com/practise (data scraping done by Sherry)
 
+All the 150 questions are manually reviewed by us to ensure quality.
+
+Question data (and the scripts to scrape them) are in `QAdataset/`
+
 ## Features
 The chatbot has the following functionalities:
 
