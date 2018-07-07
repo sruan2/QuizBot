@@ -5,7 +5,6 @@ from gensim.models import Doc2Vec
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import linear_kernel
 import random
-from random import randint
 import pickle
 from nltk import RegexpTokenizer
 import math
@@ -14,6 +13,7 @@ from utils import pretty_print
 from similarity_model.sif_implementation.wordembeddings import EmbeddingVectorizer
 from similarity_model.sif_implementation import utils
 #from similarity_model.princeton_sif import sif_sentence_similarity
+from question_sequencing.random_model import RandomSequencingModel
 
 
 class QAModel(object):
@@ -22,6 +22,7 @@ class QAModel(object):
         pretty_print("QAModel initialization", mode="QA Model")
         self.QID = 0
         self.QA_KB = qa_kb
+        self.sequencing_model = RandomSequencingModel(qa_kb)
 
     def pickSubjectRandomQuestion(self, subject):
         subject = subject.lower()
@@ -30,9 +31,7 @@ class QAModel(object):
         return picked_question, QID
 
     def pickRandomQuestion(self):
-        QID = randint(0, self.QA_KB.KBlength)
-        picked_question = self.QA_KB.QKB[QID]
-        return picked_question, QID
+        return self.sequencing_model.pickNextQuestion()
 
     def pickLastQuestion(self, QID):
         picked_question = self.QA_KB.QKB[QID]
@@ -43,7 +42,7 @@ class QAModel(object):
             answer = self.QA_KB.AKB[QID][0]
         except:
             answer = ""
-            print("[BUG] PID " + str(os.getpid())+": Index %d does not exist in AKB" % QID)
+            pretty_print("Index %d does not exist in AKB" % QID, mode='BUG!')
         return answer
 
     def getSupport(self, QID):
@@ -51,7 +50,7 @@ class QAModel(object):
             support = self.QA_KB.SKB[QID]
         except:
             support = ""
-            print("[BUG] PID " + str(os.getpid())+": Index %d does not exist in SKB" % QID)
+            pretty_print("[Index %d does not exist in SKB" % QID, mode='BUG!')
         return support
 
     @abstractmethod

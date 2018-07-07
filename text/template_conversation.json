@@ -1,0 +1,346 @@
+{
+    "STATE": {
+        "CHOOSE_SUBJECT": {
+            "quick_reply": {
+                "message": {
+                    "source": "TEMPLATE", 
+                    "text": "CHOOSE_SUBJECT"
+                }, 
+                "payload": [
+                    "BUTTON_SCIENCE", 
+                    "BUTTON_GRE", 
+                    "BUTTON_SAFETY", 
+                    "BUTTON_RANDOM"
+                ], 
+                "source": [
+                    "LOCAL", 
+                    "LOCAL", 
+                    "LOCAL", 
+                    "LOCAL"
+                ], 
+                "title": [
+                    "Science\ud83d\udd2c", 
+                    "GRE \ud83d\udd20", 
+                    "Safety\ud83d\udee0", 
+                    "Random \ud83c\udfb2"
+                ]
+            }
+        }, 
+        "CORRECT_ANSWER": {
+            "quick_reply": {
+                "message": {
+                    "source": "LOCAL", 
+                    "text": "The correct answer is {}."
+                }, 
+                "payload": [
+                    "BUTTON_WHY", 
+                    "BUTTON_NEXT_QUESTION", 
+                    "BUTTON_SWITCH_SUBJECT"
+                ], 
+                "source": [
+                    "LOCAL", 
+                    "LOCAL", 
+                    "LOCAL"
+                ], 
+                "title": [
+                    "Why?", 
+                    "Next question \ud83d\udcaa\ud83c\udffc", 
+                    "Switch Subject \ud83d\udd00"
+                ]
+            }
+        }, 
+        "EXPLANATION": {
+            "message": {
+                "source": "TEMPLATE", 
+                "text": "EXPLANATION"
+            }, 
+            "quick_reply": {
+                "message": {
+                    "source": "LOCAL", 
+                    "text": "{}"
+                }, 
+                "payload": [
+                    "BUTTON_NEXT_QUESTION", 
+                    "BUTTON_SWITCH_SUBJECT"
+                ], 
+                "source": [
+                    "LOCAL", 
+                    "LOCAL"
+                ], 
+                "title": [
+                    "Next question \ud83d\udcaa", 
+                    "I don\u2019t know \ud83d\ude13"
+                ]
+            }
+        }, 
+        "PERSISTENT_MENU": {
+            "persistent_menu": [
+                {
+                    "call_to_actions": [
+                        {
+                            "call_to_actions": [
+                                {
+                                    "payload": "BUTTON_SCIENCE", 
+                                    "title": "Science\ud83d\udd2c", 
+                                    "type": "postback"
+                                }, 
+                                {
+                                    "payload": "BUTTON_GRE", 
+                                    "title": "GRE \ud83d\udd20", 
+                                    "type": "postback"
+                                }, 
+                                {
+                                    "payload": "BUTTON_SAFETY", 
+                                    "title": "Safety\ud83d\udee0", 
+                                    "type": "postback"
+                                }, 
+                                {
+                                    "payload": "BUTTON_RANDOM", 
+                                    "title": "Random \ud83c\udfb2", 
+                                    "type": "postback"
+                                }
+                            ], 
+                            "title": "Change Subject \ud83d\udd00", 
+                            "type": "nested"
+                        }, 
+                        {
+                            "payload": "MENU_SCORE", 
+                            "title": "Check Total Score \ud83d\udcdd", 
+                            "type": "postback"
+                        }, 
+                        {
+                            "call_to_actions": [
+                                {
+                                    "payload": "BUTTON_REPORT_BUG", 
+                                    "title": "Report Bug \ud83d\udd27", 
+                                    "type": "postback"
+                                }, 
+                                {
+                                    "payload": "BUTTON_USER_MANUAL_1", 
+                                    "title": "User Manual \ud83d\udc69\ud83c\udffb\u200d\ud83d\udcbb\ud83d\udc68\ud83c\udffb\u200d\ud83d\udcbb", 
+                                    "type": "postback"
+                                }, 
+                                {
+                                    "payload": "BUTTON_ABOUT_QUIZBOT", 
+                                    "title": "About QuizBot \ud83d\udd16", 
+                                    "type": "postback"
+                                }, 
+                                {
+                                    "payload": "BUTTON_CONTACT", 
+                                    "title": "Contact \u260e\ufe0f", 
+                                    "type": "postback"
+                                }
+                            ], 
+                            "title": "More\ud83d\udccd", 
+                            "type": "nested"
+                        }
+                    ], 
+                    "composer_input_disabled": false, 
+                    "locale": "default"
+                }
+            ]
+        }, 
+        "QUESTION": {
+            "message": {
+                "source": "TEMPLATE", 
+                "text": "QUESTION"
+            }, 
+            "quick_reply": {
+                "message": {
+                    "source": "LOCAL", 
+                    "text": "{}"
+                }, 
+                "payload": [
+                    "BUTTON_I_NEED_A_HINT", 
+                    "BUTTON_I_DONT_KNOW"
+                ], 
+                "source": [
+                    "LOCAL", 
+                    "LOCAL"
+                ], 
+                "title": [
+                    "I need a hint \ud83e\udd14", 
+                    "I don\u2019t know \ud83d\ude13"
+                ]
+            }
+        }, 
+        "SAY_HI": {
+            "quick_reply": {
+                "message": {
+                    "source": "LOCAL", 
+                    "text": "Hi {}! My name is Mr. Owl \ud83e\udd89 and I\u2019m here to help you learn all about science\ud83d\udd2c, verbal reasoning (GRE)\ud83d\udcd6, and safety\ud83d\udd25!"
+                }, 
+                "payload": [
+                    "GET_INTRO_2"
+                ], 
+                "source": [
+                    "TEMPLATE"
+                ], 
+                "title": [
+                    "GOT_IT"
+                ]
+            }
+        }
+    }, 
+    "TEMPLATE": {
+        "CHOOSE_SUBJECT": [
+            "Sure, which subject would you like me to quiz you on?\ud83d\udc47\ud83c\udffc", 
+            "Sure, which subject would you want to study?\ud83d\udc47\ud83c\udffc", 
+            "Okay, which subject would you like to choose?\ud83d\udc47\ud83c\udffc", 
+            "Sure, now tell me which subject you would like to choose.\ud83d\udc47\ud83c\udffc", 
+            "Okay, now tell me which subject you would like to study.\ud83d\udc47\ud83c\udffc", 
+            "OK, which of the following subjects would you like to study?\ud83d\udc47\ud83c\udffc", 
+            "Sure, which of the following subjects would you like me to quiz you on?\ud83d\udc47\ud83c\udffc"
+        ], 
+        "EXPLANATION": [
+            "Here's an explanation:", 
+            "This is why:", 
+            "This is an explanation of the question:"
+        ], 
+        "GOT_IT": [
+            "Got it \ud83d\udca1", 
+            "Got it \ud83d\udc4a\ud83c\udffc", 
+            "Got it \ud83d\udcaa\ud83c\udffc", 
+            "Got it \ud83d\udccd", 
+            "Got it \ud83d\udc49\ud83c\udffc", 
+            "Got it \u2705", 
+            "Got it \ud83d\ude4c\ud83c\udffc", 
+            "Got it \ud83d\udca5", 
+            "Got it \ud83d\udc4d\ud83c\udffc", 
+            "Got it \ud83d\udc4f\ud83c\udffc", 
+            "Got it \u2714\ufe0f", 
+            "Sure \ud83d\udca1", 
+            "Sure \ud83d\udc4a\ud83c\udffc", 
+            "Sure \ud83d\udcaa\ud83c\udffc", 
+            "Sure \ud83d\udccd", 
+            "Sure \ud83d\udc49\ud83c\udffc", 
+            "Sure \u2705", 
+            "Sure \ud83d\ude4c\ud83c\udffc", 
+            "Sure \ud83d\udca5", 
+            "Sure \ud83d\udc4d\ud83c\udffc", 
+            "Sure \ud83d\udc4f\ud83c\udffc", 
+            "Sure \u2714\ufe0f", 
+            "Tap me \ud83d\udca1", 
+            "Tap me \ud83d\udc47\ud83c\udffc", 
+            "Tap me \ud83d\udc4a\ud83c\udffc", 
+            "Tap me \ud83d\udcaa\ud83c\udffc", 
+            "Tap me \ud83d\udccd", 
+            "Tap me \ud83d\udc49\ud83c\udffc", 
+            "Tap me \u2705", 
+            "Tap me \ud83d\ude4c\ud83c\udffc", 
+            "Tap me \ud83d\udca5", 
+            "Tap me \ud83d\udc4d\ud83c\udffc", 
+            "Tap me \ud83d\udc4f\ud83c\udffc", 
+            "Tap me \u2714\ufe0f", 
+            "Yes, continue \u25b6\ufe0f", 
+            "Yes, continue \u27a1\ufe0f", 
+            "Yes, continue \ud83d\udca1", 
+            "Yes, continue \ud83d\udc4a\ud83c\udffc", 
+            "Yes, continue \ud83d\udcaa\ud83c\udffc", 
+            "Yes, continue \ud83d\udccd", 
+            "Yes, continue \ud83d\udc49\ud83c\udffc", 
+            "Yes, continue \u2705", 
+            "Yes, continue \ud83d\ude4c\ud83c\udffc", 
+            "Yes, continue \ud83d\udca5", 
+            "Yes, continue \ud83d\udc4d\ud83c\udffc", 
+            "Yes, continue \ud83d\udc4f\ud83c\udffc", 
+            "Yes, continue \u2714\ufe0f", 
+            "Continue \u25b6\ufe0f", 
+            "Continue \u27a1\ufe0f", 
+            "Continue \ud83d\udca1", 
+            "Continue \ud83d\udc4a\ud83c\udffc", 
+            "Continue \ud83d\udcaa\ud83c\udffc", 
+            "Continue \ud83d\udccd", 
+            "Continue \ud83d\udc49\ud83c\udffc", 
+            "Continue \u2705", 
+            "Continue \ud83d\ude4c\ud83c\udffc", 
+            "Continue \ud83d\udca5", 
+            "Continue \ud83d\udc4d\ud83c\udffc", 
+            "Continue \ud83d\udc4f\ud83c\udffc", 
+            "Continue \u2714\ufe0f", 
+            "Next \u25b6\ufe0f", 
+            "Next \u27a1\ufe0f", 
+            "Next \ud83d\udca1", 
+            "Next \ud83d\udc4a\ud83c\udffc", 
+            "Next \ud83d\udcaa\ud83c\udffc", 
+            "Next \ud83d\udccd", 
+            "Next \ud83d\udc49\ud83c\udffc", 
+            "Next \u2705", 
+            "Next \ud83d\ude4c\ud83c\udffc", 
+            "Next \ud83d\udca5", 
+            "Next \ud83d\udc4d\ud83c\udffc", 
+            "Next \ud83d\udc4f\ud83c\udffc", 
+            "Next \u2714\ufe0f", 
+            "Alrighty \ud83d\udca1", 
+            "Alrighty \ud83d\udc4a\ud83c\udffc", 
+            "Alrighty \ud83d\udcaa\ud83c\udffc", 
+            "Alrighty \ud83d\udccd", 
+            "Alrighty \ud83d\udc49\ud83c\udffc", 
+            "Alrighty \u2705", 
+            "Alrighty \ud83d\ude4c\ud83c\udffc", 
+            "Alrighty \ud83d\udca5", 
+            "Alrighty \ud83d\udc4d\ud83c\udffc", 
+            "Alrighty \ud83d\udc4f\ud83c\udffc", 
+            "Alrighty \u2714\ufe0f", 
+            "Alright \ud83d\udca1", 
+            "Alright \ud83d\udc4a\ud83c\udffc", 
+            "Alright \ud83d\udcaa\ud83c\udffc", 
+            "Alright \ud83d\udccd", 
+            "Alright \ud83d\udc49\ud83c\udffc", 
+            "Alright \u2705", 
+            "Alright \ud83d\ude4c\ud83c\udffc", 
+            "Alright \ud83d\udca5", 
+            "Alright \ud83d\udc4d\ud83c\udffc", 
+            "Alright \ud83d\udc4f\ud83c\udffc", 
+            "Alright \u2714\ufe0f", 
+            "Okay \ud83d\udca1", 
+            "Okay \ud83d\udc4a\ud83c\udffc", 
+            "Okay \ud83d\udcaa\ud83c\udffc", 
+            "Okay \ud83d\udccd", 
+            "Okay \ud83d\udc49\ud83c\udffc", 
+            "Okay \u2705", 
+            "Okay \ud83d\ude4c\ud83c\udffc", 
+            "Okay \ud83d\udca5", 
+            "Okay \ud83d\udc4d\ud83c\udffc", 
+            "Okay \ud83d\udc4f\ud83c\udffc", 
+            "Okay \u2714\ufe0f", 
+            "OK \ud83d\udca1", 
+            "OK \ud83d\udc4a\ud83c\udffc", 
+            "OK \ud83d\udcaa\ud83c\udffc", 
+            "OK \ud83d\udccd", 
+            "OK \ud83d\udc49\ud83c\udffc", 
+            "OK \u2705", 
+            "OK \ud83d\ude4c\ud83c\udffc", 
+            "OK \ud83d\udca5", 
+            "OK \ud83d\udc4d\ud83c\udffc", 
+            "OK \ud83d\udc4f\ud83c\udffc", 
+            "OK \u2714\ufe0f", 
+            "I see \ud83d\udca1", 
+            "I see \ud83d\udc4a\ud83c\udffc", 
+            "I see \ud83d\udcaa\ud83c\udffc", 
+            "I see \ud83d\udccd", 
+            "I see \ud83d\udc49\ud83c\udffc", 
+            "I see \u2705", 
+            "I see \ud83d\ude4c\ud83c\udffc", 
+            "I see \ud83d\udca5", 
+            "I see \ud83d\udc4d\ud83c\udffc", 
+            "I see \ud83d\udc4f\ud83c\udffc", 
+            "I see \u2714\ufe0f"
+        ], 
+        "QUESTION": [
+            "Here's a question for you:", 
+            "Let's try this one.", 
+            "Could you answer this one for me?", 
+            "Let's see if you can get this one.", 
+            "Let's try this question.", 
+            "Would you answer this question for me?", 
+            "I think you'll like this question.", 
+            "Let's take a look at this question.", 
+            "Let's see if you can answer this question.", 
+            "Let's see if you would answer this one.", 
+            "How about this next one:", 
+            "What about this next question:", 
+            "Alrighty, let's try this one."
+        ]
+    }
+}
