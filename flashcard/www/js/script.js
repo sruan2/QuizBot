@@ -4,7 +4,7 @@ $('document').ready(
         FastClick.attach(document.body);
         $('.element-front').show();
         $('.element-back').hide();
-        
+
         $(".btn").click(function(event) {
             // remove focus of the button.
             $(this).blur();
@@ -53,11 +53,12 @@ function flip() {
     if ($('#front').is(":visible")) {
         $('.element-front').hide();
         $('.element-back').show();
+        log("card flip to answer");
     } else {
         $('.element-back').hide();
         $('.element-front').show();
+        log("card flip to question");
     }
-    log("card flip");
 };
 
 function next() {
