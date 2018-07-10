@@ -371,20 +371,6 @@ STATE:
       payload:
         - NEXT_QUESTION
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   PERSISTENT_MENU:
     persistent_menu:
       - locale:
@@ -461,42 +447,4 @@ STATE:
     get_started:
       payload: 
         GET_INTRO_1
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

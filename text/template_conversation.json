@@ -44,8 +44,8 @@
                 ], 
                 "title": [
                     "Why?", 
-                    "Next question", 
-                    "Switch Subject"
+                    "Next question \ud83d\udcaa\ud83c\udffc", 
+                    "Switch Subject \ud83d\udd00"
                 ]
             }
         }, 
@@ -67,7 +67,7 @@
                     "LOCAL"
                 ], 
                 "title": [
-                    "Next question"
+                    "Next question \ud83d\udcaa"
                 ]
             }
         }, 
@@ -162,8 +162,8 @@
                     "LOCAL"
                 ], 
                 "title": [
-                    "I need a hint", 
-                    "I don\u2019t know"
+                    "I need a hint \ud83e\udd14", 
+                    "I don\u2019t know \ud83d\ude13"
                 ]
             }
         }, 
@@ -188,7 +188,7 @@
             "quick_reply": {
                 "message": {
                     "source": "LOCAL", 
-                    "text": "Your total score is {}. Keep it up!"
+                    "text": "Your total score is {}. Keep it up! \ud83d\udcaa\ud83c\udffc"
                 }, 
                 "payload": [
                     "NEXT_QUESTION"
@@ -203,8 +203,11 @@
         }
     }, 
     "TEMPLATE": {
-        "AKB": [
-            "You earned 3 points! Keep it up!"
+        "10_POINT": [
+            "You earned 10 points!"
+        ], 
+        "3_POINT": [
+            "You earned 3 points! Keep it up! \ud83d\udcaa\ud83c\udffc"
         ], 
         "ANSWER_CORRECT": [
             "That\u2019s right! \ud83c\udf89", 
@@ -212,22 +215,22 @@
             "Good job! \ud83d\ude4c\ud83c\udffc"
         ], 
         "ANSWER_NOT_CORRECT": [
-            "I'm sorry, but that was incorrect. You didn't earn any points", 
-            "That's not quite right. You didn't earn any points"
+            "I'm sorry, but that was incorrect. You didn't earn any points \ud83d\ude1e", 
+            "That's not quite right. You didn't earn any points \ud83d\ude1e"
         ], 
         "BUGREPORT": [
-            "Okay, I\u2019ll take a note of that. Thanks for the feedback!", 
+            "Okay, I\u2019ll take a note of that. Thanks for the feedback! \ud83d\udc4d\ud83c\udffc", 
             "Alrighty, thank you for your feedback. I'll take a note of that!", 
             "Thank you for your bug report. I'll take a look at that!"
         ], 
         "CHOOSE_SUBJECT": [
-            "Sure, which subject would you like me to quiz you on?", 
-            "Sure, which subject would you want to study?", 
-            "Okay, which subject would you like to choose?", 
-            "Sure, now tell me which subject you would like to choose.", 
-            "Okay, now tell me which subject you would like to study.", 
-            "OK, which of the following subjects would you like to study?", 
-            "Sure, which of the following subjects would you like me to quiz you on?"
+            "Sure, which subject would you like me to quiz you on?\ud83d\udc47\ud83c\udffc", 
+            "Sure, which subject would you want to study?\ud83d\udc47\ud83c\udffc", 
+            "Okay, which subject would you like to choose?\ud83d\udc47\ud83c\udffc", 
+            "Sure, now tell me which subject you would like to choose.\ud83d\udc47\ud83c\udffc", 
+            "Okay, now tell me which subject you would like to study.\ud83d\udc47\ud83c\udffc", 
+            "OK, which of the following subjects would you like to study?\ud83d\udc47\ud83c\udffc", 
+            "Sure, which of the following subjects would you like me to quiz you on?\ud83d\udc47\ud83c\udffc"
         ], 
         "CONTINUE": [
             "Great! Let's move on.", 
@@ -240,16 +243,16 @@
             "Great! Let's resuming learning."
         ], 
         "DKB": [
-            "I'm sorry, but that was incorrect. You didn't earn any points.", 
-            "That's not quite right. You didn't earn any points."
+            "I'm sorry, but that was incorrect. You didn't earn any points \ud83d\ude1e", 
+            "That's not quite right. You didn't earn any points \ud83d\ude1e"
         ], 
         "ENCOURAGE_NO_GIVEUP": [
-            "Okay! Let's try again. Tell me which of these is the right answer:", 
+            "Okay! Let's try again \ud83d\udcaa\ud83c\udffc Tell me which of these is the right answer:", 
             "Sure, let's try this again! Which of the following is the correct answer?"
         ], 
         "ENCOURAGE_YES_GIVEUP": [
-            "That\u2019s okay, you\u2019ll get it next time!", 
-            "That's fine, you'll nail it next time!"
+            "That\u2019s okay, you\u2019ll get it next time! \u263a\ufe0f", 
+            "That's fine, you'll nail it next time! \u263a\ufe0f"
         ], 
         "EXPLANATION": [
             "Here's an explanation:", 
@@ -258,16 +261,134 @@
             "I hope this explanation could help you understand the the question."
         ], 
         "GOT_IT": [
-            "Got it", 
-            "Sure", 
-            "Tap me", 
-            "Yes, continue", 
-            "Continue", 
-            "Next", 
-            "Alright", 
-            "Okay", 
-            "OK", 
-            "I see"
+            "Got it \ud83d\udca1", 
+            "Got it \ud83d\udc4a\ud83c\udffc", 
+            "Got it \ud83d\udcaa\ud83c\udffc", 
+            "Got it \ud83d\udccd", 
+            "Got it \ud83d\udc49\ud83c\udffc", 
+            "Got it \u2705", 
+            "Got it \ud83d\ude4c\ud83c\udffc", 
+            "Got it \ud83d\udca5", 
+            "Got it \ud83d\udc4d\ud83c\udffc", 
+            "Got it \ud83d\udc4f\ud83c\udffc", 
+            "Got it \u2714\ufe0f", 
+            "Sure \ud83d\udca1", 
+            "Sure \ud83d\udc4a\ud83c\udffc", 
+            "Sure \ud83d\udcaa\ud83c\udffc", 
+            "Sure \ud83d\udccd", 
+            "Sure \ud83d\udc49\ud83c\udffc", 
+            "Sure \u2705", 
+            "Sure \ud83d\ude4c\ud83c\udffc", 
+            "Sure \ud83d\udca5", 
+            "Sure \ud83d\udc4d\ud83c\udffc", 
+            "Sure \ud83d\udc4f\ud83c\udffc", 
+            "Sure \u2714\ufe0f", 
+            "Tap me \ud83d\udca1", 
+            "Tap me \ud83d\udc47\ud83c\udffc", 
+            "Tap me \ud83d\udc4a\ud83c\udffc", 
+            "Tap me \ud83d\udcaa\ud83c\udffc", 
+            "Tap me \ud83d\udccd", 
+            "Tap me \ud83d\udc49\ud83c\udffc", 
+            "Tap me \u2705", 
+            "Tap me \ud83d\ude4c\ud83c\udffc", 
+            "Tap me \ud83d\udca5", 
+            "Tap me \ud83d\udc4d\ud83c\udffc", 
+            "Tap me \ud83d\udc4f\ud83c\udffc", 
+            "Tap me \u2714\ufe0f", 
+            "Yes, continue \u25b6\ufe0f", 
+            "Yes, continue \u27a1\ufe0f", 
+            "Yes, continue \ud83d\udca1", 
+            "Yes, continue \ud83d\udc4a\ud83c\udffc", 
+            "Yes, continue \ud83d\udcaa\ud83c\udffc", 
+            "Yes, continue \ud83d\udccd", 
+            "Yes, continue \ud83d\udc49\ud83c\udffc", 
+            "Yes, continue \u2705", 
+            "Yes, continue \ud83d\ude4c\ud83c\udffc", 
+            "Yes, continue \ud83d\udca5", 
+            "Yes, continue \ud83d\udc4d\ud83c\udffc", 
+            "Yes, continue \ud83d\udc4f\ud83c\udffc", 
+            "Yes, continue \u2714\ufe0f", 
+            "Continue \u25b6\ufe0f", 
+            "Continue \u27a1\ufe0f", 
+            "Continue \ud83d\udca1", 
+            "Continue \ud83d\udc4a\ud83c\udffc", 
+            "Continue \ud83d\udcaa\ud83c\udffc", 
+            "Continue \ud83d\udccd", 
+            "Continue \ud83d\udc49\ud83c\udffc", 
+            "Continue \u2705", 
+            "Continue \ud83d\ude4c\ud83c\udffc", 
+            "Continue \ud83d\udca5", 
+            "Continue \ud83d\udc4d\ud83c\udffc", 
+            "Continue \ud83d\udc4f\ud83c\udffc", 
+            "Continue \u2714\ufe0f", 
+            "Next \u25b6\ufe0f", 
+            "Next \u27a1\ufe0f", 
+            "Next \ud83d\udca1", 
+            "Next \ud83d\udc4a\ud83c\udffc", 
+            "Next \ud83d\udcaa\ud83c\udffc", 
+            "Next \ud83d\udccd", 
+            "Next \ud83d\udc49\ud83c\udffc", 
+            "Next \u2705", 
+            "Next \ud83d\ude4c\ud83c\udffc", 
+            "Next \ud83d\udca5", 
+            "Next \ud83d\udc4d\ud83c\udffc", 
+            "Next \ud83d\udc4f\ud83c\udffc", 
+            "Next \u2714\ufe0f", 
+            "Alrighty \ud83d\udca1", 
+            "Alrighty \ud83d\udc4a\ud83c\udffc", 
+            "Alrighty \ud83d\udcaa\ud83c\udffc", 
+            "Alrighty \ud83d\udccd", 
+            "Alrighty \ud83d\udc49\ud83c\udffc", 
+            "Alrighty \u2705", 
+            "Alrighty \ud83d\ude4c\ud83c\udffc", 
+            "Alrighty \ud83d\udca5", 
+            "Alrighty \ud83d\udc4d\ud83c\udffc", 
+            "Alrighty \ud83d\udc4f\ud83c\udffc", 
+            "Alrighty \u2714\ufe0f", 
+            "Alright \ud83d\udca1", 
+            "Alright \ud83d\udc4a\ud83c\udffc", 
+            "Alright \ud83d\udcaa\ud83c\udffc", 
+            "Alright \ud83d\udccd", 
+            "Alright \ud83d\udc49\ud83c\udffc", 
+            "Alright \u2705", 
+            "Alright \ud83d\ude4c\ud83c\udffc", 
+            "Alright \ud83d\udca5", 
+            "Alright \ud83d\udc4d\ud83c\udffc", 
+            "Alright \ud83d\udc4f\ud83c\udffc", 
+            "Alright \u2714\ufe0f", 
+            "Okay \ud83d\udca1", 
+            "Okay \ud83d\udc4a\ud83c\udffc", 
+            "Okay \ud83d\udcaa\ud83c\udffc", 
+            "Okay \ud83d\udccd", 
+            "Okay \ud83d\udc49\ud83c\udffc", 
+            "Okay \u2705", 
+            "Okay \ud83d\ude4c\ud83c\udffc", 
+            "Okay \ud83d\udca5", 
+            "Okay \ud83d\udc4d\ud83c\udffc", 
+            "Okay \ud83d\udc4f\ud83c\udffc", 
+            "Okay \u2714\ufe0f", 
+            "OK \ud83d\udca1", 
+            "OK \ud83d\udc4a\ud83c\udffc", 
+            "OK \ud83d\udcaa\ud83c\udffc", 
+            "OK \ud83d\udccd", 
+            "OK \ud83d\udc49\ud83c\udffc", 
+            "OK \u2705", 
+            "OK \ud83d\ude4c\ud83c\udffc", 
+            "OK \ud83d\udca5", 
+            "OK \ud83d\udc4d\ud83c\udffc", 
+            "OK \ud83d\udc4f\ud83c\udffc", 
+            "OK \u2714\ufe0f", 
+            "I see \ud83d\udca1", 
+            "I see \ud83d\udc4a\ud83c\udffc", 
+            "I see \ud83d\udcaa\ud83c\udffc", 
+            "I see \ud83d\udccd", 
+            "I see \ud83d\udc49\ud83c\udffc", 
+            "I see \u2705", 
+            "I see \ud83d\ude4c\ud83c\udffc", 
+            "I see \ud83d\udca5", 
+            "I see \ud83d\udc4d\ud83c\udffc", 
+            "I see \ud83d\udc4f\ud83c\udffc", 
+            "I see \u2714\ufe0f"
         ], 
         "GRE": [
             "All right! I\u2019ll quiz you on GRE!", 
@@ -286,7 +407,7 @@
             "\ud83d\udd1f"
         ], 
         "NEED_HINT": [
-            "Okay. Which of these is the right answer?", 
+            "Okay. Which of these is the right answer?\ud83d\udc47\ud83c\udffc\"", 
             "Which of the following options is the right answer?", 
             "Alrighty, which of the following options is the answer of the question?"
         ], 
@@ -311,8 +432,8 @@
             "Alrighty, let's try this one."
         ], 
         "RANDOM": [
-            "Okay! Let\u2019s mix it up!", 
-            "All right! A little bit of everything!"
+            "Okay! Let\u2019s mix it up! \ud83c\udfb2", 
+            "All right! A little bit of everything! \ud83c\udfb2"
         ], 
         "SAFETY": [
             "All right! I\u2019ll quiz you on safety!", 
@@ -322,12 +443,17 @@
             "All right! I\u2019ll quiz you on science!", 
             "Okay! Let\u2019s see how much you know about science!"
         ], 
+        "SUBJECT": [
+            "SCIENCE", 
+            "GRE", 
+            "SAFETY"
+        ], 
         "TOTAL_SCORE": [
-            "Your total score is {}. Keep it up!", 
-            "Your total score is {}. Great work!", 
-            "Your total score is {}. Good job!", 
-            "Your total score is {}. Excellent work!", 
-            "Your total score is {}. Awesome work!"
+            "Your total score is {}. Keep it up! \ud83d\udcaa\ud83c\udffc", 
+            "Your total score is {}. Great work! \ud83d\udcaa\ud83c\udffc", 
+            "Your total score is {}. Good job! \ud83d\udcaa\ud83c\udffc", 
+            "Your total score is {}. Excellent work! \ud83d\udcaa\ud83c\udffc", 
+            "Your total score is {}. Awesome work! \ud83d\udcaa\ud83c\udffc"
         ]
     }
 }

@@ -34,7 +34,7 @@
         "sentence": {
             "sentence_1": {
                 "source": "TEMPLATE", 
-                "text": "AKB"
+                "text": "3_POINT"
             }
         }
     }, 
@@ -261,6 +261,20 @@
             }
         }
     }, 
+    "GIVEUP_NO": {
+        "paragraph": {
+            "paragraph_1": [
+                {
+                    "source": "TEMPLATE", 
+                    "text": "NO_POINT"
+                }, 
+                {
+                    "source": "TEMPLATE", 
+                    "text": "ENCOURAGE_NO_GIVEUP"
+                }
+            ]
+        }
+    }, 
     "GIVEUP_YES": {
         "paragraph": {
             "paragraph_1": [
@@ -306,6 +320,51 @@
                         "No, I'll try again!"
                     ]
                 }
+            }
+        }
+    }, 
+    "MESSAGE_TEXT": {
+        "conversation": {
+            "conversation_1": {
+                "message": [
+                    {
+                        "source": "LOCAL", 
+                        "text": "That sounds interesting. Would you want more quiz questions to practice? I'm here to help \ud83d\ude04"
+                    }
+                ], 
+                "quick_reply": {
+                    "payload": [
+                        "NEXT_QUESTION"
+                    ], 
+                    "source": [
+                        "LOCAL"
+                    ], 
+                    "title": [
+                        "GOT_IT"
+                    ]
+                }
+            }
+        }, 
+        "paragraph": {
+            "paragraph_1": [
+                {
+                    "source": "TEMPLATE", 
+                    "text": "ANSWER_CORRECT"
+                }, 
+                {
+                    "source": "TEMPLATE", 
+                    "text": "10_POINT"
+                }
+            ]
+        }, 
+        "sentence": {
+            "sentence_1": {
+                "source": "TEMPLATE", 
+                "text": "ANSWER_NOT_CORRECT"
+            }, 
+            "sentence_2": {
+                "source": "TEMPLATE", 
+                "text": "3_POINT"
             }
         }
     }, 
