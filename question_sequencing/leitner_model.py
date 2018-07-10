@@ -12,7 +12,7 @@ import time
 class LeitnerSequencingModel(BaseSequencingModel):
     '''Pick next question using leitner sequence model'''
 
-    def __init__(self, qa_kb, arrival_prob = 0.9):
+    def __init__(self, qa_kb, arrival_prob = 0.7):
         BaseSequencingModel.__init__(self, qa_kb)
         # probability selecting from group 0
         self.arrival_prob = arrival_prob 
