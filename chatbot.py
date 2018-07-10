@@ -4,27 +4,23 @@ import time
 from leaderboard.generate_leaderboard import *
 from message import *
 from database import *
-# import text.chatbot_text as txt
 
 
-# ================= Chatbot's reply to a postback =================
-def respond_to_payload(payload, message_text, sender_id, sender_firstname, qa_model, chatbot_text, template_conversation, mysql):
-    '''Docstring of this function
-
-    Args:
-        payload:
-        message_text:
-        sender_id:
-        sender_firstname:
-        qa_model:
-        chatbot_text:
-        template_conversation:
-        mysql:
-
-    Returns:
-
+def respond_to_payload(payload, sender_id, sender_firstname, qa_model, chatbot_text, template_conversation, mysql):
     '''
-    message_text = message_text.lower()
+        This function responds to the QuizBot's payload states.
+
+        Args:
+            payload: chatbot's payload state
+            sender_id: the sender's unique id assigned by Facebook Messenger
+            sender_firstname: the sender's first name requested from the Facebook profile
+            qa_model: the question answering model containing information about the question dataset
+            chatbot_text: the json structure containing the chatbot's text/conversation source
+            template_conversation: the json structure containing the conversation and state templates 
+            mysql: database
+
+        Returns:
+    '''
 
     if payload == "GET_INTRO_1":
         send_image(sender_id, payload, chatbot_text, "image_1")
@@ -51,9 +47,6 @@ def respond_to_payload(payload, message_text, sender_id, sender_firstname, qa_mo
 
     elif payload == "YUP_IM_READY":
         update_status(mysql, sender_id, 1)
-        send_conversation(sender_id, payload, chatbot_text, template_conversation, "conversation_1")
-
-    elif payload == "ABOUT_QUIZBOT":
         send_conversation(sender_id, payload, chatbot_text, template_conversation, "conversation_1")
 
     elif payload == "USER_MANUAL_1":
@@ -85,11 +78,14 @@ def respond_to_payload(payload, message_text, sender_id, sender_firstname, qa_mo
     elif payload == "USER_MANUAL_7":
         send_conversation(sender_id, payload, chatbot_text, template_conversation, "conversation_1")
 
+    elif payload == "ABOUT_QUIZBOT":
+        send_conversation(sender_id, payload, chatbot_text, template_conversation, "conversation_1")
+
     elif payload == "CONTACT":
         send_conversation(sender_id, payload, chatbot_text, template_conversation, "conversation_1")
 
     elif payload == "REPORT_BUG":
-        insert_score(mysql,sender_id,-1,message_text,-1)
+        insert_score(mysql, sender_id, -1, payload, -1)
         send_conversation(sender_id, payload, chatbot_text, template_conversation, "conversation_1")
 
     elif payload == "CONTINUE":
@@ -97,148 +93,80 @@ def respond_to_payload(payload, message_text, sender_id, sender_firstname, qa_mo
         send_conversation(sender_id, payload, chatbot_text, template_conversation, "conversation_1")
 
     elif payload == "CHECK_TOTAL_SCORE":
-        total_score = str(show_score(mysql, sender_id))
-        send_total_score(sender_id, template_conversation, total_score)
+        send_total_score(sender_id, template_conversation, str(show_score(mysql, sender_id)))
 
     elif payload == "I_DONT_KNOW":
         send_conversation(sender_id, payload, chatbot_text, template_conversation, "conversation_1")
 
     elif payload == "WHY":
-        QID, _ = show_last_qid_subject(mysql, sender_id)
-        explanation_sentence = qa_model.getSupport(QID)
-        send_explanation(sender_id, template_conversation, explanation_sentence)
+        send_explanation(sender_id, template_conversation, mysql, explanation_sentence)
 
     elif payload == "SWITCH_SUBJECT":
         send_choose_subject(sender_id, template_conversation)
 
-
-
-
-
-
-
-
     elif payload == "SCIENCE":
-        msglist_subject = ["All right! I’ll quiz you on science!",
-                     "Okay! Let’s see how much you know about science!"]
-        msg_subject = random.choice(msglist_subject)
-        send_message(sender_id, msg_subject)
-        question, QID = qa_model.pickSubjectRandomQuestion("science")
-        update_status(mysql, sender_id, 0)
-        insert_question(mysql, sender_id, QID, payload)
-        send_question(sender_id, template_conversation, question)
+        send_sentence(sender_id, payload, chatbot_text, template_conversation, "sentence_1")
+        send_question(sender_id, template_conversation, payload, qa_model, mysql, "science")
 
     elif payload == "GRE":
-        msglist_subject = ["All right! I’ll quiz you on GRE!",
-                     "Okay! Let’s see how much you know about GRE!"]
-        msg_subject = random.choice(msglist_subject)
-        send_message(sender_id, msg_subject)
-        question, QID = qa_model.pickSubjectRandomQuestion("gre")
-        update_status(mysql, sender_id, 0)
-        insert_question(mysql, sender_id, QID, payload)
-        send_question(sender_id, template_conversation, question)
+        send_sentence(sender_id, payload, chatbot_text, template_conversation, "sentence_1")
+        send_question(sender_id, template_conversation, payload, qa_model, mysql, "gre")
 
     elif payload == "SAFETY":
-        msglist_subject = ["All right! I’ll quiz you on SAFETY!",
-                     "Okay! Let’s see how much you know about SAFETY!"]
-        msg_subject = random.choice(msglist_subject)
-        send_message(sender_id, msg_subject)
-        question, QID = qa_model.pickSubjectRandomQuestion("safety")
-        update_status(mysql, sender_id, 0)
-        insert_question(mysql, sender_id, QID, payload)
-        send_question(sender_id, template_conversation, question)
+        send_sentence(sender_id, payload, chatbot_text, template_conversation, "sentence_1")
+        send_question(sender_id, template_conversation, payload, qa_model, mysql, "safety")
 
     elif payload == "RANDOM":
-        msglist_random = ["Okay! Let’s mix it up! 🎲",
-                     "All right! A little bit of everything! 🎲"]
-        msg_random = random.choice(msglist_random)
-        send_message(sender_id, msg_random)
-        question, QID = qa_model.pickRandomQuestion()
-        update_status(mysql, sender_id, 0)
-        insert_question(mysql, sender_id, QID, payload)
-        send_question(sender_id, template_conversation, question)
-
-
-
-
-
-
-
-
-
-
-    elif payload == "I_NEED_A_HINT":
-        msg_hint = "Okay. Which of these is the right answer?👇🏼"
-        QID, _ = show_last_qid_subject(mysql, sender_id)
-        send_hint(sender_id, msg_hint, qa_model, QID)
-
+        send_sentence(sender_id, payload, chatbot_text, template_conversation, "sentence_1")
+        send_question(sender_id, template_conversation, payload, qa_model, mysql, "random")
 
     elif payload == "GIVEUP_YES":
-        send_message(sender_id, "You didn't earn any points this time.")
-        msg_giveup_yes = "That’s okay, you’ll get it next time! ☺️"
-        send_message(sender_id, msg_giveup_yes)
-        QID, _ = show_last_qid_subject(mysql, sender_id)
-        standard_answer = qa_model.getAnswer(QID)
-        insert_score(mysql, sender_id, QID, payload, 0)
-        send_correct_answer(sender_id, template_conversation, standard_answer)
-        update_status(mysql, sender_id, 1)
-
-    elif payload == "GIVEUP_NO":
-        msg_giveup_no = "Okay! Let's try again 💪🏼 Tell me which of these is the right answer:"
-        QID, _ = show_last_qid_subject(mysql, sender_id)
-        send_hint(sender_id, msg_giveup_no, qa_model, QID)
+        send_paragraph(sender_id, payload, chatbot_text, template_conversation, "paragraph_1")
+        send_correct_answer(sender_id, payload, template_conversation, qa_model, 0, mysql)
 
     elif payload == "PRACTICE_MODE":
-        msg_choose_mode = "Sure, which subject would you like me to quiz you on?👇🏼"
         send_choose_subject(sender_id, template_conversation)
 
-    elif payload[:10] == "DKB":
-        QID, _ = show_last_qid_subject(mysql, sender_id)
-        standard_answer = qa_model.getAnswer(QID)
-        msglist_incorrect = ["I'm sorry, but that was incorrect. You didn't earn any points 😞",
-                             "That's not quite right. You didn't earn any points 😞"]
-        send_message(sender_id, random.choice(msglist_incorrect))
-        insert_score(mysql, sender_id,QID,payload,0)
-        send_correct_answer(sender_id, template_conversation, standard_answer)
-        update_status(mysql, sender_id, 1)
+    elif payload[:10] == "BUTTON_DKB":
+        send_sentence(sender_id, payload[:10], chatbot_text, template_conversation, "sentence_1")
+        send_correct_answer(sender_id, payload, template_conversation, qa_model, 0, mysql)
 
-    elif payload[:10] == "AKB":
-        QID, _ = show_last_qid_subject(mysql, sender_id)
-        standard_answer = qa_model.getAnswer(QID)
-        score = 3
-        send_message(sender_id, "You earned "+str(score)+ " points!")
-        insert_score(mysql, sender_id,QID,payload,score)
-        send_correct_answer(sender_id, template_conversation, standard_answer)
-        update_status(mysql, sender_id, 1)
+    elif payload[:10] == "BUTTON_AKB":
+        send_sentence(sender_id, payload[:10], chatbot_text, template_conversation, "sentence_1")
+        send_correct_answer(sender_id, payload, template_conversation, qa_model, 3, mysql)
 
+    elif payload == "NEED_HINT":
+        send_sentence(sender_id, payload[:10], chatbot_text, template_conversation, "sentence_1")
+        send_hint(sender_id, qa_model, mysql)
 
-
-
-
-
+    elif payload == "GIVEUP_NO":
+        send_sentence(sender_id, payload[:10], chatbot_text, template_conversation, "sentence_1")
+        send_hint(sender_id, qa_model, mysql)
 
     elif payload == "NEXT_QUESTION":
-        QID, _ = show_last_qid_subject(mysql, sender_id)
         if show_status(mysql, sender_id):
-            last_subject = show_last_qid_subject(mysql, sender_id)[1]
-            if last_subject in ["SCIENCE", "GRE", "SAFETY"]:
-                if last_subject == "SCIENCE":
-                    question, QID = qa_model.pickSubjectRandomQuestion("science")
-                elif last_subject == "GRE":
-                    question, QID = qa_model.pickSubjectRandomQuestion("gre")
-                elif last_subject == "SAFETY":
-                    question, QID = qa_model.pickSubjectRandomQuestion("safety")
-            else:
-                question, QID = qa_model.pickRandomQuestion()
-            update_status(mysql, sender_id, 0)
-            insert_question(mysql, sender_id, QID,last_subject)
+            subject = show_last_qid_subject(mysql, sender_id)[1] 
+            subject = subject if subject in ["SCIENCE", "GRE", "SAFETY"] else "random"
+            send_question(sender_id, template_conversation, payload = payload, qa_model = qa_model, mysql = mysql, subject = subject.lower())
         else:
             QID = show_last_qid_subject(mysql, sender_id)[0]
-            question = qa_model.pickLastQuestion(QID)
-        send_question(sender_id, template_conversation, question)
+            send_question(sender_id, template_conversation, question = qa_model.pickLastQuestion(QID))
 
 
 def respond_to_messagetext(message_text, sender_id, qa_model, chatbot_text, template_conversation, mysql):
+    '''
+        This function responds to the user's message texts.
+
+        Args:
+            message_text: the user's message text
+            sender_id: the sender's unique id assigned by Facebook Messenger
+            qa_model: the question answering model containing information about the question dataset
+            chatbot_text: the json structure containing the chatbot's text/conversation source
+            template_conversation: the json structure containing the conversation and state templates 
+            mysql: database
+
+        Returns:
+    '''
     message_text = message_text.lower()
     QID, _ = show_last_qid_subject(mysql, sender_id)
 
@@ -247,56 +175,35 @@ def respond_to_messagetext(message_text, sender_id, qa_model, chatbot_text, temp
         insert_question(mysql, sender_id,'-11','MENU_PRACTICE_MODE')
 
     elif message_text == "next question" or message_text == "got it, next!" or message_text[:4] == "sure":
-        QID, _ = show_last_qid_subject(mysql, sender_id)
         if show_status(mysql, sender_id):
-            last_subject = show_last_qid_subject(mysql, sender_id)[1]
-            if last_subject in ["SCIENCE", "GRE", "SAFETY"]:
-                question, QID = qa_model.pickSubjectRandomQuestion(last_subject)
-            else:
-                question, QID = qa_model.pickRandomQuestion()
-            update_status(mysql, sender_id, 0)
-            insert_question(mysql, sender_id,QID,last_subject)
-            send_question(sender_id, template_conversation, question)
+            subject = show_last_qid_subject(mysql, sender_id)[1] 
+            subject = subject if subject in ["SCIENCE", "GRE", "SAFETY"] else "random"
+            send_question(sender_id, template_conversation, payload = payload, qa_model = qa_model, mysql = mysql, subject = subject.lower())
         else:
-            standard_answer = qa_model.getAnswer(QID)
             score = qa_model.compute_score(message_text, QID)
             if score < 5:
-                msglist_incorrect = ["I'm sorry, but that was incorrect. You didn't earn any points 😞",
-                                    "That's not quite right. You didn't earn any points 😞"]
-                send_message(sender_id, random.choice(msglist_incorrect))
-            elif score < 10:
-                send_message(sender_id, "You earned "+str(score)+ " points!")
+                send_sentence(sender_id, payload[:10], chatbot_text, template_conversation, "sentence_1")
+                send_correct_answer(recipient_id, payload, template_conversation, qa_model, 0, mysql)
+            elif score < 10 and score >= 5:
+                send_sentence(sender_id, payload[:10], chatbot_text, template_conversation, "sentence_2")
+                send_correct_answer(recipient_id, payload, template_conversation, qa_model, 3, mysql)
             else:
-                msglist_correct = ["That’s right! 🎉", "Correct! 🎊", "Good job! 🙌🏼"]
-                msg_correct = random.choice(msglist_correct)
-                send_message(sender_id, msg_correct)
-                send_message(sender_id, "You earned 10 points!")
-            send_correct_answer(sender_id, template_conversation, standard_answer)
-            insert_score(mysql, sender_id, QID, message_text, score)
-            update_status(mysql, sender_id, 1)
-
-
+                send_paragraph(sender_id, payload, chatbot_text, template_conversation, "paragraph_1")
+                send_correct_answer(recipient_id, payload, template_conversation, qa_model, 10, mysql)
     else:
         if not show_status(mysql, sender_id):
-            standard_answer = qa_model.getAnswer(QID)
             score = qa_model.compute_score(message_text, QID)
             if score < 5:
-                msglist_incorrect = ["I'm sorry, but that was incorrect. You didn't earn any points 😞",
-                                    "That's not quite right. You didn't earn any points 😞"]
-                send_message(sender_id, random.choice(msglist_incorrect))
+                send_sentence(sender_id, payload[:10], chatbot_text, template_conversation, "sentence_1")
+                send_correct_answer(recipient_id, payload, template_conversation, qa_model, 0, mysql)
             elif score < 10:
-                send_message(sender_id, "You earned "+str(score)+ " points!")
+                send_sentence(sender_id, payload[:10], chatbot_text, template_conversation, "sentence_2")
+                send_correct_answer(recipient_id, payload, template_conversation, qa_model, 3, mysql)
             else:
-                msglist_correct = ["That’s right! 🎉", "Correct! 🎊", "Good job! 🙌🏼"]
-                msg_correct = random.choice(msglist_correct)
-                send_message(sender_id, msg_correct)
-                send_message(sender_id, "You earned 10 points!")
-            send_correct_answer(sender_id, template_conversation, standard_answer)
-            insert_score(mysql, sender_id, QID, message_text, score)
-            update_status(mysql, sender_id, 1)
+                send_paragraph(sender_id, payload, chatbot_text, template_conversation, "paragraph_1")
+                send_correct_answer(recipient_id, payload, template_conversation, qa_model, 10, mysql)
         else:
             update_status(mysql, sender_id, 1)
             response_message = ["That sounds interesting. Would you want more quiz questions to practice? I'm here to help 😄"]
             send_conversation(sender_id, DELAY_TIME, response_message, "SURE")
-
 

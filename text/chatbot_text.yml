@@ -315,7 +315,7 @@ ABOUT_QUIZBOT:
         - source:
             LOCAL
           text:
-            I'm Mr. Owl 🦉 and I'm a QuizBot to help you learn about science🔬, verbal reasoning (GRE)📖, and safety🔥.
+            I'm Mr.Penguin 🐧 and I'm a QuizBot to help you learn about science🔬, verbal reasoning (GRE)📖, and safety🔥.
         - source:
             LOCAL
           text:
@@ -426,48 +426,109 @@ CONTINUE:
         payload:
           - NEXT_QUESTION  
 
-
 SCIENCE:
-  paragraph_format:
-    paragraph_format_1:
+  sentence:
+    sentence_1:
+      source:
+        TEMPLATE
+      text:
+        SCIENCE
+          
+GRE:
+  sentence:
+    sentence_1:
+      source:
+        TEMPLATE
+      text:
+        GRE
+
+SAFETY:
+  sentence:
+    sentence_1:
+      source:
+        TEMPLATE
+      text:
+        SAFETY
+
+RANDOM:
+  sentence:
+    sentence_1:
+      source:
+        TEMPLATE
+      text:
+        RANDOM
+
+NEED_HINT:
+  sentence:
+    sentence_1:
+      source:
+        TEMPLATE
+      text:
+        NEED_HINT 
+
+GIVEUP_YES:
+  paragraph:
+    paragraph_1:
       - source:
           TEMPLATE
         text:
-          SUBJECT
-        num_to_fill:
-          1
-          
+          NO_POINT
+      - source:
+          TEMPLATE
+        text:
+          ENCOURAGE_YES_GIVEUP
+
+GIVEUP_NO:
+  paragraph:
+    paragraph_1:
+      - source:
+          TEMPLATE
+        text:
+          NO_POINT
+      - source:
+          TEMPLATE
+        text:
+          ENCOURAGE_NO_GIVEUP
+
+BUTTON_DKB:
+  sentence:
+    sentence_1:
+      source:
+        TEMPLATE
+      text:
+        DKB 
+
+BUTTON_AKB:
+  sentence:
+    sentence_1:
+      source:
+        TEMPLATE
+      text:
+        3_POINT
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+MESSAGE_TEXT:
+  sentence:
+    sentence_1:
+      source:
+        TEMPLATE
+      text:
+        ANSWER_NOT_CORRECT 
+    sentence_2:
+      source:
+        TEMPLATE
+      text:
+        3_POINT
+  paragraph:
+    paragraph_1:
+      - source:
+          TEMPLATE
+        text:
+          ANSWER_CORRECT
+      - source:
+          TEMPLATE
+        text:
+          10_POINT
 
 
 

@@ -5,7 +5,7 @@
                 "message": [
                     {
                         "source": "LOCAL", 
-                        "text": "I'm Mr. Owl \ud83e\udd89 and I'm a QuizBot to help you learn about science\ud83d\udd2c, verbal reasoning (GRE)\ud83d\udcd6, and safety\ud83d\udd25."
+                        "text": "I'm Mr.Penguin \ud83d\udc27 and I'm a QuizBot to help you learn about science\ud83d\udd2c, verbal reasoning (GRE)\ud83d\udcd6, and safety\ud83d\udd25."
                     }, 
                     {
                         "source": "LOCAL", 
@@ -27,6 +27,22 @@
                         "GOT_IT"
                     ]
                 }
+            }
+        }
+    }, 
+    "BUTTON_AKB": {
+        "sentence": {
+            "sentence_1": {
+                "source": "TEMPLATE", 
+                "text": "AKB"
+            }
+        }
+    }, 
+    "BUTTON_DKB": {
+        "sentence": {
+            "sentence_1": {
+                "source": "TEMPLATE", 
+                "text": "DKB"
             }
         }
     }, 
@@ -79,7 +95,7 @@
     "GET_INTRO_1": {
         "image": {
             "image_1": {
-                "image_url": "https://www.smartprimer.org:8443/pictures/avatar/quizbot_avatar.png", 
+                "image_url": "https://www.smartprimer.org:{}/pictures/avatar/quizbot_avatar.png", 
                 "template_type": "image"
             }
         }
@@ -143,7 +159,7 @@
         }, 
         "image": {
             "image_1": {
-                "image_url": "https://www.smartprimer.org:8443/pictures/user_manual/typeanswer.png", 
+                "image_url": "https://www.smartprimer.org:{}/pictures/user_manual/typeanswer.png", 
                 "template_type": "image"
             }
         }
@@ -180,11 +196,11 @@
         }, 
         "image": {
             "image_1": {
-                "image_url": "https://www.smartprimer.org:8443/pictures/user_manual/needhintbutton.png", 
+                "image_url": "https://www.smartprimer.org:{}/pictures/user_manual/needhintbutton.png", 
                 "template_type": "image"
             }, 
             "image_2": {
-                "image_url": "https://www.smartprimer.org:8443/pictures/user_manual/hintoptions.png", 
+                "image_url": "https://www.smartprimer.org:{}/pictures/user_manual/hintoptions.png", 
                 "template_type": "image"
             }
         }
@@ -213,7 +229,7 @@
         }, 
         "image": {
             "image_1": {
-                "image_url": "https://www.smartprimer.org:8443/pictures/user_manual/menubutton.jpg", 
+                "image_url": "https://www.smartprimer.org:{}/pictures/user_manual/menubutton.jpg", 
                 "template_type": "image"
             }
         }
@@ -245,6 +261,28 @@
             }
         }
     }, 
+    "GIVEUP_YES": {
+        "paragraph": {
+            "paragraph_1": [
+                {
+                    "source": "TEMPLATE", 
+                    "text": "NO_POINT"
+                }, 
+                {
+                    "source": "TEMPLATE", 
+                    "text": "ENCOURAGE_YES_GIVEUP"
+                }
+            ]
+        }
+    }, 
+    "GRE": {
+        "sentence": {
+            "sentence_1": {
+                "source": "TEMPLATE", 
+                "text": "GRE"
+            }
+        }
+    }, 
     "I_DONT_KNOW": {
         "conversation": {
             "conversation_1": {
@@ -271,6 +309,22 @@
             }
         }
     }, 
+    "NEED_HINT": {
+        "sentence": {
+            "sentence_1": {
+                "source": "TEMPLATE", 
+                "text": "NEED_HINT"
+            }
+        }
+    }, 
+    "RANDOM": {
+        "sentence": {
+            "sentence_1": {
+                "source": "TEMPLATE", 
+                "text": "RANDOM"
+            }
+        }
+    }, 
     "REPORT_BUG": {
         "conversation": {
             "conversation_1": {
@@ -294,6 +348,22 @@
                         "Switch Subject \ud83d\udd00"
                     ]
                 }
+            }
+        }
+    }, 
+    "SAFETY": {
+        "sentence": {
+            "sentence_1": {
+                "source": "TEMPLATE", 
+                "text": "SAFETY"
+            }
+        }
+    }, 
+    "SCIENCE": {
+        "sentence": {
+            "sentence_1": {
+                "source": "TEMPLATE", 
+                "text": "SCIENCE"
             }
         }
     }, 
@@ -325,7 +395,7 @@
         }, 
         "image": {
             "image_1": {
-                "image_url": "https://www.smartprimer.org:8443/pictures/user_manual/typeanswer.png", 
+                "image_url": "https://www.smartprimer.org:{}/pictures/user_manual/typeanswer.png", 
                 "template_type": "image"
             }
         }
@@ -362,11 +432,11 @@
         }, 
         "image": {
             "image_1": {
-                "image_url": "https://www.smartprimer.org:8443/pictures/user_manual/needhintbutton.png", 
+                "image_url": "https://www.smartprimer.org:{}/pictures/user_manual/needhintbutton.png", 
                 "template_type": "image"
             }, 
             "image_2": {
-                "image_url": "https://www.smartprimer.org:8443/pictures/user_manual/hintoptions.png", 
+                "image_url": "https://www.smartprimer.org:{}/pictures/user_manual/hintoptions.png", 
                 "template_type": "image"
             }
         }
@@ -395,7 +465,7 @@
         }, 
         "image": {
             "image_1": {
-                "image_url": "https://www.smartprimer.org:8443/pictures/user_manual/menubutton.jpg", 
+                "image_url": "https://www.smartprimer.org:{}/pictures/user_manual/menubutton.jpg", 
                 "template_type": "image"
             }
         }
@@ -424,11 +494,11 @@
         }, 
         "image": {
             "image_1": {
-                "image_url": "https://www.smartprimer.org:8443/pictures/user_manual/changesubjects_1.jpg", 
+                "image_url": "https://www.smartprimer.org:{}/pictures/user_manual/changesubjects_1.jpg", 
                 "template_type": "image"
             }, 
             "image_2": {
-                "image_url": "https://www.smartprimer.org:8443/pictures/user_manual/changesubjects_2.jpg", 
+                "image_url": "https://www.smartprimer.org:{}/pictures/user_manual/changesubjects_2.jpg", 
                 "template_type": "image"
             }
         }
@@ -457,7 +527,7 @@
         }, 
         "image": {
             "image_1": {
-                "image_url": "https://www.smartprimer.org:8443/pictures/user_manual/totalscorebutton.png", 
+                "image_url": "https://www.smartprimer.org:{}/pictures/user_manual/totalscorebutton.png", 
                 "template_type": "image"
             }
         }
@@ -486,7 +556,7 @@
         }, 
         "image": {
             "image_1": {
-                "image_url": "https://www.smartprimer.org:8443/pictures/user_manual/morebutton.png", 
+                "image_url": "https://www.smartprimer.org:{}/pictures/user_manual/morebutton.png", 
                 "template_type": "image"
             }
         }
