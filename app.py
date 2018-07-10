@@ -47,7 +47,7 @@ def send_pictures(path):
 # For tmp picture files such as dynamically generated leaderboard
 @app.route('/tmp/pictures/<path:path>')
 def send_lb_pictures(path):
-    return send_from_directory('./tmp/pictures', path)
+    return send_from_directory('../tmp/pictures', path)
 
 
 # go to https://smartprimer.org:8443/test
@@ -124,7 +124,7 @@ def webhook():
                 pretty_print("Received a Postback from Persistent Menu", mode='QuizBot')
                 pretty_print("Payload is \""+payload+"\"")
                 pretty_print("Message Text is \""+message_text+"\"")
-                chatbot.respond_to_payload(payload, message_text, sender_id, sender_firstname, qa_model, chatbot_text, template_conversation, mysql)
+                chatbot.respond_to_payload(payload, sender_id, sender_firstname, qa_model, chatbot_text, template_conversation, mysql)
 
             elif messaging_event.get("message"):
                 # user clicked/tapped "postback" button in earlier message
@@ -134,7 +134,7 @@ def webhook():
                     pretty_print("Received a quick reply from an earlier message", mode="QuizBot")
                     pretty_print("Payload is \""+payload+"\"")
                     pretty_print("Message Text is \""+message_text+"\"")
-                    chatbot.respond_to_payload(payload, message_text, sender_id, sender_firstname, qa_model, chatbot_text, template_conversation, mysql)
+                    chatbot.respond_to_payload(payload, sender_id, sender_firstname, qa_model, chatbot_text, template_conversation, mysql)
 
                 # someone sent us a message
                 elif not "text" in messaging_event["message"]:
@@ -149,9 +149,7 @@ def webhook():
 
 
 with app.app_context():
-    # reminder.RepeatedTimer(7200.0, message.send_reminder, [['1805880356153906', 'Nathan'], ['1139924072777403', 'Sherry'], ['1850388251650155', 'Liwei']])
     reminder.RepeatedTimer(86400.0, message.send_reminder, database.show_inactive_user(mysql))
-    # reminder.RepeatedTimer(60.0, message.send_reminder, database.show_inactive_user(mysql))
 
 
 def _get_user_profile(sender_id):

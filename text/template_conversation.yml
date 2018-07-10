@@ -198,14 +198,6 @@ TEMPLATE:
     - "9️⃣" 
     - "🔟"
 
-  SUBJECT:
-    - All right! I’ll quiz you on {}!
-    - Okay! Let’s see how much you know about {}!
-
-  RANDOM:
-    - Okay! Let’s mix it up! 🎲
-    - All right! A little bit of everything! 🎲
-
   ANSWER_NOT_CORRECT:
     - I'm sorry, but that was incorrect. You didn't earn any points 😞
     - That's not quite right. You didn't earn any points 😞
@@ -214,7 +206,55 @@ TEMPLATE:
     - That’s right! 🎉
     - Correct! 🎊
     - Good job! 🙌🏼
+
+  SUBJECT:
+    - SCIENCE
+    - GRE
+    - SAFETY
     
+  SCIENCE:
+    - All right! I’ll quiz you on science!
+    - Okay! Let’s see how much you know about science!
+
+  GRE:
+    - All right! I’ll quiz you on GRE!
+    - Okay! Let’s see how much you know about GRE!
+
+  SAFETY:
+    - All right! I’ll quiz you on safety!
+    - Okay! Let’s see how much you know about safety!
+
+  RANDOM:
+    - Okay! Let’s mix it up! 🎲
+    - All right! A little bit of everything! 🎲
+
+  NEED_HINT:
+    - Okay. Which of these is the right answer?👇🏼"
+    - Which of the following options is the right answer?
+    - Alrighty, which of the following options is the answer of the question?
+
+  NO_POINT:
+    - You didn't earn any points this time.
+    - You didn't get it right this time.
+    - I'm sorry, you didn't earn any points this time.
+
+  ENCOURAGE_YES_GIVEUP:
+    - That’s okay, you’ll get it next time! ☺️
+    - That's fine, you'll nail it next time! ☺️
+
+  ENCOURAGE_NO_GIVEUP:
+    - "Okay! Let's try again 💪🏼 Tell me which of these is the right answer:"
+    - "Sure, let's try this again! Which of the following is the correct answer?"
+
+  DKB:
+    - I'm sorry, but that was incorrect. You didn't earn any points 😞
+    - That's not quite right. You didn't earn any points 😞
+
+  3_POINT:
+    - You earned 3 points! Keep it up! 💪🏼
+
+  10_POINT:
+    - You earned 10 points!
 
 
 STATE:
@@ -237,7 +277,7 @@ STATE:
         - I need a hint 🤔
         - I don’t know 😓
       payload:
-        - I_NEED_A_HINT
+        - NEED_HINT
         - I_DONT_KNOW
 
   CORRECT_ANSWER:
@@ -314,18 +354,16 @@ STATE:
         - LOCAL
       title:
         - Next question 💪
-        - I don’t know 😓
       payload:
         - NEXT_QUESTION
-        - SWITCH_SUBJECT
 
   TOTAL_SCORE:
     quick_reply:  
       message:
         source:
-          TEMPLATE
+          LOCAL
         text:
-          TOTAL_SCORE
+          Your total score is {}. Keep it up! 💪🏼
       source:
         - TEMPLATE
       title:

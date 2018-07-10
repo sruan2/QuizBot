@@ -33,6 +33,16 @@ class QAModel(object):
     def pickRandomQuestion(self):
         return self.sequencing_model.pickNextQuestion()
 
+    def pickQuestion(self, subject):
+
+        if subject == "random":
+            return self.sequencing_model.pickNextQuestion()
+        else:
+            subject = subject.lower()
+            QID = random.choice(self.QA_KB.SubDict[subject])
+            picked_question = self.QA_KB.QKB[QID]
+            return picked_question, QID
+            
     def pickLastQuestion(self, QID):
         picked_question = self.QA_KB.QKB[QID]
         return picked_question

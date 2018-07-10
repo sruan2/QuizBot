@@ -10,7 +10,7 @@ from utils import log
 PRAMS = {"access_token": os.environ["PAGE_ACCESS_TOKEN"]}
 HEADERS = {"Content-Type": "application/json"}
 
-DELAY_TIME = 0
+DELAY_TIME = 1
 
 def send_data(data, data_type = "messages"):
     r = requests.post("https://graph.facebook.com/v2.6/me/" + data_type, params=PRAMS, headers=HEADERS, data=data)
@@ -32,6 +32,7 @@ def send_image(recipient_id, image_data):
     '''
         This function sends an image to the specified recipient.
     '''
+    send_typing_action(recipient_id)
     data = template.create_image_template_json(recipient_id, image_data)
     send_data(data)
 
