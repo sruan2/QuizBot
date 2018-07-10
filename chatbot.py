@@ -204,6 +204,5 @@ def respond_to_messagetext(message_text, sender_id, qa_model, chatbot_text, temp
                 send_correct_answer(recipient_id, payload, template_conversation, qa_model, 10, mysql)
         else:
             update_status(mysql, sender_id, 1)
-            response_message = ["That sounds interesting. Would you want more quiz questions to practice? I'm here to help 😄"]
-            send_conversation(sender_id, DELAY_TIME, response_message, "SURE")
+            send_conversation(sender_id, "MESSAGE_TEXT", chatbot_text, template_conversation, conversation_id)
 

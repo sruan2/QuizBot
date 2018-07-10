@@ -506,7 +506,6 @@ BUTTON_AKB:
       text:
         3_POINT
 
-
 MESSAGE_TEXT:
   sentence:
     sentence_1:
@@ -530,17 +529,18 @@ MESSAGE_TEXT:
         text:
           10_POINT
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+  conversation:
+    conversation_1:
+      message:
+        - source:
+            LOCAL
+          text:
+            That sounds interesting. Would you want more quiz questions to practice? I'm here to help 😄
+      quick_reply:
+        source:
+          - LOCAL
+        title:
+          - GOT_IT
+        payload:
+          - NEXT_QUESTION 
 

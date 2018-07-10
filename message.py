@@ -8,11 +8,16 @@ import time
 import messaging_API
 from message import *
 from database import *
-from utils import pretty_print
-from utils import log
+from utils import *
 
 PRAMS = {"access_token": os.environ["PAGE_ACCESS_TOKEN"]}
 HEADERS = {"Content-Type": "application/json"}
+
+def send_data(data, data_type = "messages"):
+    r = requests.post("https://graph.facebook.com/v2.6/me/" + data_type, params=PRAMS, headers=HEADERS, data=data)
+    if r.status_code != 200:
+        log(r.status_code)
+        log(r.text)  
 
 
 def persistent_menu(template_conversation):
@@ -331,8 +336,8 @@ def send_reminder(list):
             r = requests.post("https://graph.facebook.com/v2.6/me/messages", params=PRAMS, headers=HEADERS, data=data)
             insert_question(mysql, recipient_id, -2, "Reminder")
             if r.status_code != 200:
-                # log(r.status_code)
-                # log(r.text)
+                log(r.status_code)
+                log(r.text)
             else:
                 print("[QUIZBOT] PID " + str(os.getpid())+": Sent Reminder To " + str(user_name) + " With ID " + str(recipient_id) + " At " + time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime()))
 
