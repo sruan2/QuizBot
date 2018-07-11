@@ -8,7 +8,7 @@ from flask import request
 from flask import render_template
 #from flask_mysqldb import MySQL
 import database
-from dash_model import DASHSequencingModel
+from random_model import RandomSequencingModel
 from QAKnowledgebase import QAKnowlegeBase
 
 
@@ -25,13 +25,15 @@ app = Flask(__name__, static_url_path='')
 # ================== Load Sequencing Model ==================
 json_file = '../QAdataset/questions_filtered_150_quizbot.json'
 qa_kb = QAKnowlegeBase(json_file)
-model = DASHSequencingModel(qa_kb)
+model = RandomSequencingModel(qa_kb)
 
 
 @app.route('/')
 def index():
-    picked_question, QID = model.pickNextQuestion()
-    return render_template('index.html', qid=QID)
+    question, QID = model.pickNextQuestion()
+    print(QID)
+    print(question)
+    return render_template('index.html', qid=QID, question=question)
 
 @app.route('/test', methods=['GET'])
 def verify():

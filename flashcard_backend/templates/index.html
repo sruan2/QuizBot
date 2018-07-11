@@ -44,16 +44,16 @@
             </div>
             <div class="card">
                 <div class="card-body" onclick="flip()">
-                    <p id="front" class="element-front">This is the front of the card.</p>
+                    <p id="front" class="element-front">{{question}}</p>
                     <p id="back" class="element-back">This is the back of the card.</p>
                     <div class="footer">
-                        <p class="text-muted">(tap the card to flip to question {{qid}})</p>
+                        <p class="text-muted">(This is question {{qid}})</p>
                     </div>
                 </div>
             </div>
             <div class="buttons">
                 <button class="btn btn-lg btn-primary" onclick="prev()">←</button>
-                <button class="btn btn-lg btn-primary" onclick="next({{qid}})">→</button>
+                <button class="btn btn-lg btn-primary" onclick="next()">→</button>
             </div>
         </div>
 
