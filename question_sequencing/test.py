@@ -6,8 +6,10 @@
 from random_model import RandomSequencingModel
 from leitner_model import LeitnerSequencingModel
 from SM2_model import SM2SequencingModel
+from dash_model import DASHSequencingModel
 from QAKnowledgebase import QAKnowlegeBase
 import random
+import time
 
 '''Module-level constants'''
 ITERATIONS = 20
@@ -19,20 +21,28 @@ if __name__ == '__main__':
     qa_kb = QAKnowlegeBase(json_file)
 
     # Construct the question sequencing model from here
-    model = LeitnerSequencingModel(qa_kb)
+    # model = LeitnerSequencingModel(qa_kb)
 
-    # Run the simulation for 20 iterations
+    # # Run the simulation for 20 iterations
+    # for i in range(ITERATIONS):
+    #     picked_question, QID = model.pickNextQuestion()
+    #     outcome = 1 if random.random() < 0.9 else 0 
+    #     model.updateHistory(outcome)
+    #     print("item {} outcome {} current queue {}".format(QID, outcome, model.curr_q))
+
+    # model = SM2SequencingModel(qa_kb)
+
+    # for i in range(ITERATIONS):
+    # 	picked_question, QID = model.pickNextQuestion()
+    # 	outcome = 1 if random.random() < 0.9 else 0
+    # 	model.updateHistory(outcome)
+    # 	print("priority {}".format(model.order[0][0]))
+    # 	print("item {} outcome {}".format(QID, outcome))
+
+    model = DASHSequencingModel(qa_kb)
     for i in range(ITERATIONS):
         picked_question, QID = model.pickNextQuestion()
-        outcome = 1 if random.random() < 0.9 else 0 
+        outcome = 1 if random.random() < 0.5 else 0
         model.updateHistory(outcome)
-        print("item {} outcome {} current queue {}".format(QID, outcome, model.curr_q))
-
-    model = SM2SequencingModel(qa_kb)
-
-    for i in range(ITERATIONS):
-    	picked_question, QID = model.pickNextQuestion()
-    	outcome = 1 if random.random() < 0.9 else 0
-    	model.updateHistory(outcome)
-    	print("priority {}".format(model.order[0][0]))
-    	print("item {} outcome {}".format(QID, outcome))
+        time.sleep(0.5)
+        print("item {} outcome {}".format(QID, outcome))
