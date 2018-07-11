@@ -63,6 +63,8 @@ function flip() {
 
 function next() {
     $index[$subject] = $index[$subject] < $data[$subject].length - 1 ? $index[$subject] + 1 : 0;
+    console.log('subject: '+$subject);
+    console.log('index: '+$index[$subject]);
     if (!$('#front').is(":visible")) {
         flip();
     }
