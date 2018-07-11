@@ -4,9 +4,10 @@ import os
 import json
 from flask import Flask
 from flask import request
+from flask import render_template
 from flask_mysqldb import MySQL
 import database
-
+import code
 
 
 app = Flask(__name__, static_url_path='')
@@ -22,7 +23,7 @@ mysql.init_app(app)
 
 @app.route('/')
 def index():
-    return 'Hello world'
+    return render_template('index.html', qid=1234)
 
 @app.route('/test', methods=['GET'])
 def verify():
@@ -33,6 +34,9 @@ def verify():
 def webhook():
 
     data=json.loads(request.data.decode("utf-8"))
+    #code.interact(local=locals())
+    print("ip:")
+    print(request.remote_addr)
     sender_id = data['user_id']
     qid = data['qid']
     user_action = data['event']
