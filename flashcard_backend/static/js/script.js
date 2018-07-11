@@ -61,8 +61,9 @@ function flip() {
     }
 };
 
-function next() {
+function next(qid) {
     $index[$subject] = $index[$subject] < $data[$subject].length - 1 ? $index[$subject] + 1 : 0;
+    console.log('qid: '+qid);
     console.log('subject: '+$subject);
     console.log('index: '+$index[$subject]);
     if (!$('#front').is(":visible")) {

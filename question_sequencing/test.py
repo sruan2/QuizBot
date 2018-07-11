@@ -3,13 +3,15 @@
 2018 July 6
 '''
 
+import random
+import time
+
 from random_model import RandomSequencingModel
 from leitner_model import LeitnerSequencingModel
 from SM2_model import SM2SequencingModel
 from dash_model import DASHSequencingModel
 from QAKnowledgebase import QAKnowlegeBase
-import random
-import time
+
 
 '''Module-level constants'''
 ITERATIONS = 20
@@ -26,7 +28,7 @@ if __name__ == '__main__':
     # # Run the simulation for 20 iterations
     # for i in range(ITERATIONS):
     #     picked_question, QID = model.pickNextQuestion()
-    #     outcome = 1 if random.random() < 0.9 else 0 
+    #     outcome = 1 if random.random() < 0.9 else 0
     #     model.updateHistory(outcome)
     #     print("item {} outcome {} current queue {}".format(QID, outcome, model.curr_q))
 
