@@ -36,7 +36,7 @@ $('document').ready(
             random: 0,
         };
         $subject = 'science';
-        update();
+        //update();
     }
 );
 
@@ -46,7 +46,7 @@ function change(subject) {
         flip();
     }
     log('change to ' + subject)
-    update();
+    //update();
 }
 
 function flip() {
@@ -61,16 +61,30 @@ function flip() {
     }
 };
 
-function next(qid) {
-    $index[$subject] = $index[$subject] < $data[$subject].length - 1 ? $index[$subject] + 1 : 0;
-    console.log('qid: '+qid);
-    console.log('subject: '+$subject);
-    console.log('index: '+$index[$subject]);
-    if (!$('#front').is(":visible")) {
-        flip();
-    }
-    log("card next");
-    update();
+// Sherry: comment out for a new next question which loads the next question from backend instead
+// function next() {
+//     $index[$subject] = $index[$subject] < $data[$subject].length - 1 ? $index[$subject] + 1 : 0;
+//     console.log('qid: '+qid);
+//     console.log('subject: '+$subject);
+//     console.log('index: '+$index[$subject]);
+//     if (!$('#front').is(":visible")) {
+//         flip();
+//     }
+//     log("card next");
+//     update();
+// }
+
+function next() {
+    // $index[$subject] = $index[$subject] < $data[$subject].length - 1 ? $index[$subject] + 1 : 0;
+    // console.log('qid: '+qid);
+    // console.log('subject: '+$subject);
+    // console.log('index: '+$index[$subject]);
+    // if (!$('#front').is(":visible")) {
+    //     flip();
+    // }
+    // log("card next");
+    // update();
+    window.location.reload(true);
 }
 
 function prev() {
@@ -82,22 +96,22 @@ function prev() {
     update();
 }
 
-function update() {
-    // $questions are imported from questions.js
-    $question = $data[$subject][$index[$subject]];
-    $('#front').html("Q: " + $question.question);
-    $('#back').html("A: " + $question.correct_answer[0]);
-    $('#explanation').html($question.support);
+// function update() {
+//     // $questions are imported from questions.js
+//     $question = $data[$subject][$index[$subject]];
+//     $('#front').html("Q: " + $question.question);
+//     $('#back').html("A: " + $question.correct_answer[0]);
+//     $('#explanation').html($question.support);
 
-    $choices = shuffle($question.distractor.concat($question.correct_answer));
-    $hints = "<p>The answer is one of the following:</p><ol>"
-    for ($c in $choices) {
-        $hints += "<li>" + $choices[$c] + "</li>"
-    }
-    $('#hint').html($hints + "</ol>");
+//     $choices = shuffle($question.distractor.concat($question.correct_answer));
+//     $hints = "<p>The answer is one of the following:</p><ol>"
+//     for ($c in $choices) {
+//         $hints += "<li>" + $choices[$c] + "</li>"
+//     }
+//     $('#hint').html($hints + "</ol>");
 
-    $('#qid').html("Question " + $question.id);
-}
+//     $('#qid').html("Question " + $question.id);
+// }
 
 function shuffle(a) {
     var j, x, i;
