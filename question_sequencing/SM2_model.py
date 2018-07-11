@@ -5,6 +5,7 @@
 
 from base_model import BaseSequencingModel
 import heapq
+import random
 
 class Question():
     def __init__(self, id):
@@ -25,9 +26,13 @@ class SM2SequencingModel(BaseSequencingModel):
         self.cur_question = None       
         self.num_items = self.QA_KB.KBlength                        
         self.questions = [Question(i) for i in range(self.num_items)]
-        self.order = []
-        for i in range(self.num_items):
-            heapq.heappush(self.order, (self.questions[i].priority, self.questions[i]))
+        self.subjects = self.QA_KB.SubKB
+        self.current_subject = 'random'
+        self.subject_order = {subject : [] for subject in self.QA_KB.SubKB}
+
+        for subject, question_list in self.QA_KB.SubDict.items():
+            for qid in question_list:
+                heapq.heappush(self.subject_order[subject], (self.questions[qid].priority, self.questions[qid]))
 
     # get the time until next viewing
     def get_interval(self, n, question):
@@ -37,8 +42,16 @@ class SM2SequencingModel(BaseSequencingModel):
         else:
             return self.get_interval(n-1, question)*ef
 
-    def pickNextQuestion(self):
-        priority, question = heapq.heappop(self.order)
+    def pickNextQuestion(self, subject = 'random'):
+        # pick a random subject if random
+        if subject == 'random':
+            subject = random.choice(self.subjects)
+
+        # update the current subject
+        self.current_subject = subject
+        order = self.subject_order[self.current_subject]
+
+        priority, question = heapq.heappop(order)
         self.cur_question = question
         QID = question.id
         picked_question = self.QA_KB.QKB[QID]
@@ -58,4 +71,4 @@ class SM2SequencingModel(BaseSequencingModel):
                 question.easiness += 0.1 - (5-response)*(0.08+(5-response)*0.02)
 
         question.priority += self.get_interval(question.num_repetitions, question)
-        heapq.heappush(self.order, (question.priority, question))
+        heapq.heappush(self.subject_order[self.current_subject], (question.priority, question))
