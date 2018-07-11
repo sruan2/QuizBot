@@ -7,10 +7,6 @@
         <meta name="apple-mobile-web-app-capable" content="yes">
         <script type="text/javascript" charset="utf-8" src="cordova.js"></script>
         <script type="text/javascript"> document.addEventListener('click', function(e) { if(document.activeElement.toString() == '[object HTMLButtonElement]'){ document.activeElement.blur(); } }); </script>
-        <!-- <script>
-            var data = JSON.parse('{{ data }}');
-            document.getElementById('front').innerHTML = data.qid;
-        </script> -->
 
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -57,7 +53,7 @@
             </div>
             <div class="buttons">
                 <button class="btn btn-lg btn-primary" onclick="prev()">←</button>
-                <button class="btn btn-lg btn-primary" onclick="next()">→</button>
+                <button class="btn btn-lg btn-primary" onclick="next({{qid}})">→</button>
             </div>
         </div>
 

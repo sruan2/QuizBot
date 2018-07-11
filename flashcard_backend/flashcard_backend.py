@@ -1,5 +1,6 @@
 import sys
 sys.path.append("../")
+sys.path.append("../question_sequencing")
 import os
 import json
 from flask import Flask
@@ -7,6 +8,8 @@ from flask import request
 from flask import render_template
 #from flask_mysqldb import MySQL
 import database
+from dash_model import DASHSequencingModel
+from QAKnowledgebase import QAKnowlegeBase
 
 
 app = Flask(__name__, static_url_path='')
@@ -19,10 +22,16 @@ app = Flask(__name__, static_url_path='')
 # app.config['MYSQL_DB'] = os.environ["DB"]
 # mysql.init_app(app)
 
+# ================== Load Sequencing Model ==================
+json_file = '../QAdataset/questions_filtered_150_quizbot.json'
+qa_kb = QAKnowlegeBase(json_file)
+model = DASHSequencingModel(qa_kb)
+
 
 @app.route('/')
 def index():
-    return render_template('index.html', qid=1234)
+    picked_question, QID = model.pickNextQuestion()
+    return render_template('index.html', qid=QID)
 
 @app.route('/test', methods=['GET'])
 def verify():
