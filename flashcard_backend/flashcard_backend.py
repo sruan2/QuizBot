@@ -5,20 +5,19 @@ import json
 from flask import Flask
 from flask import request
 from flask import render_template
-from flask_mysqldb import MySQL
+#from flask_mysqldb import MySQL
 import database
-import code
 
 
 app = Flask(__name__, static_url_path='')
 
 # ================== MySQL Setup ==================
-mysql = MySQL()
-app.config['MYSQL_HOST'] = os.environ["DB_HOST"]
-app.config['MYSQL_USER'] = os.environ["DB_USER"]
-app.config['MYSQL_PASSWORD'] = os.environ["DB_PASSWORD"]
-app.config['MYSQL_DB'] = os.environ["DB"]
-mysql.init_app(app)
+# mysql = MySQL()
+# app.config['MYSQL_HOST'] = os.environ["DB_HOST"]
+# app.config['MYSQL_USER'] = os.environ["DB_USER"]
+# app.config['MYSQL_PASSWORD'] = os.environ["DB_PASSWORD"]
+# app.config['MYSQL_DB'] = os.environ["DB"]
+# mysql.init_app(app)
 
 
 @app.route('/')
@@ -40,18 +39,19 @@ def webhook():
     sender_id = data['user_id']
     qid = data['qid']
     user_action = data['event']
-    if not int(sender_id) in database.show_user_id_list(mysql):
-        sender_firstname = data['firstname']
-        sender_lastname = data['lastname']
-        print("[FLASHCARD] PID " + str(os.getpid())+": This is a new user!")
-        database.insert_user_flashcard(mysql, sender_id, sender_firstname, sender_lastname)
+    # if not int(sender_id) in database.show_user_id_list(mysql):
+    #     sender_firstname = data['firstname']
+    #     sender_lastname = data['lastname']
+    #     print("[FLASHCARD] PID " + str(os.getpid())+": This is a new user!")
+    #     database.insert_user_flashcard(mysql, sender_id, sender_firstname, sender_lastname)
 
-    database.insert_user_action_flashcard(mysql, sender_id, qid, user_action)
+    # database.insert_user_action_flashcard(mysql, sender_id, qid, user_action)
     print("[FLASHCARD] PID " + str(os.getpid())+": Record FLASHCARD user action successfully")
 
     return "ok", 200
 
 
 if __name__ == '__main__':
-    context = ('/etc/letsencrypt/live/smartprimer.org/fullchain.pem', '/etc/letsencrypt/live/smartprimer.org/privkey.pem')
-    app.run(debug=True, host='0.0.0.0', port=5000, ssl_context=context)
+    #context = ('/etc/letsencrypt/live/smartprimer.org/fullchain.pem', '/etc/letsencrypt/live/smartprimer.org/privkey.pem')
+    #app.run(debug=True, host='0.0.0.0', port=5000, ssl_context=context)
+    app.run(debug=True, host='0.0.0.0', port=5000)
