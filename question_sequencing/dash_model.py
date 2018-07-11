@@ -20,7 +20,7 @@ def sigmoid(x):
 
 class DASHSequencingModel(BaseSequencingModel):
     '''Pick next question using leitner sequence model'''
-    def __init__(self, qa_kb, max_steps = 1000, num_windows = 100, threshold = 0.01, student_ability = 0, decay_student_ability = 0):
+    def __init__(self, qa_kb, max_steps = 1000, num_windows = 100, threshold = 0.001, student_ability = 0, decay_student_ability = 0):
         BaseSequencingModel.__init__(self, qa_kb)
         self.num_items = self.QA_KB.KBlength
         self.num_windows = num_windows
@@ -76,11 +76,22 @@ class DASHSequencingModel(BaseSequencingModel):
         delays = self.update_time - self.last_viewed
         return m / (1 + self.delay_coeff * delays)**f
 
-    def pickNextQuestion(self):
+    def pickNextQuestion(self, subject = 'random'):
         likelihoods = self.get_likelihoods() 
         # pick next item by closest to threshold
-        self.curr_item = np.argmin(np.abs(likelihoods - self.threshold))
-        print(likelihoods[self.curr_item])
+        if subject == 'random':
+            id_list = list(range(self.num_items))
+        else:
+            id_list = self.QA_KB.SubDict[subject]
+
+        # only set the threshold distances of the ids of the current subject
+        threshold_distances = np.full(self.num_items, 999.0)
+        distances = np.abs(likelihoods - self.threshold)
+        np.put(threshold_distances, id_list, list(distances[id_list]))
+
+        # self.curr_item = np.argmin(threshold_distances)
+        self.curr_item = np.argmin(threshold_distances)
+        print('likelihood is ', likelihoods[self.curr_item])
         picked_question = self.QA_KB.QKB[self.curr_item]
         return picked_question, self.curr_item
 
