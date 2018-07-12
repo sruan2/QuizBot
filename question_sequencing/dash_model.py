@@ -20,7 +20,7 @@ def sigmoid(x):
 
 class DASHSequencingModel(BaseSequencingModel):
     '''Pick next question using leitner sequence model'''
-    def __init__(self, qa_kb, max_steps = 1000, num_windows = 100, threshold = 0.001, student_ability = 0, decay_student_ability = 0):
+    def __init__(self, qa_kb, max_steps = 1000, num_windows = 100, threshold = 0.01, student_ability = 0, decay_student_ability = 0):
         BaseSequencingModel.__init__(self, qa_kb)
         self.num_items = self.QA_KB.KBlength
         self.num_windows = num_windows
@@ -76,7 +76,21 @@ class DASHSequencingModel(BaseSequencingModel):
         delays = self.update_time - self.last_viewed
         return m / (1 + self.delay_coeff * delays)**f
 
-    def pickNextQuestion(self, subject = 'random'):
+    # random question selection
+    def pickRandomQuestion(self, subject):
+        if subject == 'random':
+            QID = np.random.randint(0, self.QA_KB.KBlength)
+        # if subject is not random, then pick from the respective subject question bank
+        else:
+            QID = np.random.choice(self.QA_KB.SubDict[subject])
+
+        # set current item 
+        self.curr_item = QID
+
+        picked_question = self.QA_KB.QKB[QID]
+        return picked_question, QID
+ 
+    def thresholdPickQuestion(self, subject = 'random'):
         likelihoods = self.get_likelihoods() 
         # pick next item by closest to threshold
         if subject == 'random':
@@ -95,6 +109,13 @@ class DASHSequencingModel(BaseSequencingModel):
         picked_question = self.QA_KB.QKB[self.curr_item]
         return picked_question, self.curr_item
 
+    # pick threshold based review every 10 steps, otherwise pick random
+    def pickNextQuestion(self, subject = 'random'):
+        if self.curr_step % 10 == 0:
+            return self.thresholdPickQuestion(subject)
+        else:
+            return self.pickRandomQuestion(subject)
+         
     # updates the queues and the history 
     # outcome is either 0 or 1, if the user answered correctly 
     # item is the index of the last item
