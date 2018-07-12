@@ -6,6 +6,7 @@ import json
 from flask import Flask
 from flask import request
 from flask import render_template
+from flask import jsonify
 #from flask_mysqldb import MySQL
 import database
 from random_model import RandomSequencingModel
@@ -30,10 +31,20 @@ model = RandomSequencingModel(qa_kb)
 
 @app.route('/')
 def index():
+    return render_template('index.html')
+
+@app.route("/question_data")
+def fetch_question():
     question, QID = model.pickNextQuestion()
+    data = {'question': question,
+            'qid': QID,
+            'correct_answer': 'testing correct answer',
+            'support': 'testing support',
+            'distractor': ['0', '1'],
+            'explanation': 'testing explanation'}
     print(QID)
     print(question)
-    return render_template('index.html', qid=QID, question=question)
+    return jsonify(data)
 
 @app.route('/test', methods=['GET'])
 def verify():
@@ -42,11 +53,7 @@ def verify():
 
 @app.route('/logdata', methods=['POST'])
 def webhook():
-
     data=json.loads(request.data.decode("utf-8"))
-    #code.interact(local=locals())
-    print("ip:")
-    print(request.remote_addr)
     sender_id = data['user_id']
     qid = data['qid']
     user_action = data['event']
