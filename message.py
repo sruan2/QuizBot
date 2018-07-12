@@ -341,3 +341,28 @@ def send_reminder(list):
             else:
                 print("[QUIZBOT] PID " + str(os.getpid())+": Sent Reminder To " + str(user_name) + " With ID " + str(recipient_id) + " At " + time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime()))
 
+
+
+
+
+
+curl -X POST -H "Content-Type: application/json" -d '{    
+                "message": {
+                    "text": "You haven't talked to me for more than a day, would you like to continue the conversation with me now?",
+                    "quick_replies": [
+                        {
+                            "content_type": "text",
+                            "title": "Continue",
+                            "payload": "BUTTON_CONTINUE"
+                        }
+                    ]
+                }
+}' "https://graph.facebook.com/v2.11/me/message_creatives?access_token=EAABiIrir93oBAOW47y6zfcgZCZAbv2MbkfjpnZAs2XLSherher7q7CUZB7HNuTZA6s0Ks4J0KQvZAY9381S6hhKbkGkP2oCntfHrRB7tIKiSwwfFZCaSCn1zRKJG285ZCUs4R98qPwK7pSChwRcLMUW7ydKw83LUBZCQD9j3VgoHjQwZDZD"
+
+
+
+
+
+
+
+
