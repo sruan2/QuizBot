@@ -115,7 +115,7 @@ def webhook():
                 message.choose_mode_quick_reply(sender_id)
 
             # Liwei: update the user's name
-            database.update_user_name(mysql, sender_id, sender_firstname, sender_lastname)
+            # database.update_user_name(mysql, sender_id, sender_firstname, sender_lastname)
 
             # User clicked/tapped "postback" button in Persistent menu
             if messaging_event.get("postback"):
