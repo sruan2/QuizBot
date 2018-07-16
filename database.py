@@ -1,6 +1,6 @@
-from flask import request
 import os
-from time import gmtime, strftime
+from flask import request
+from time import *
 from datetime import datetime
 from utils import pretty_print
 
@@ -55,7 +55,7 @@ def show_status(mysql, user_id):
 
 # insert user score
 def insert_score(mysql, user_id,qid,answer,score):
-    time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
+    time = strftime("%Y-%m-%d %H:%M:%S", localtime())
     if request.method == 'POST':
         try:
             con = mysql.connection
@@ -69,7 +69,7 @@ def insert_score(mysql, user_id,qid,answer,score):
 
 # insert asked questions
 def insert_question(mysql, user_id, qid, subject):
-    time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
+    time = strftime("%Y-%m-%d %H:%M:%S", localtime())
     if request.method == 'POST':
         try:
             con = mysql.connection
@@ -123,18 +123,33 @@ def show_current_ranking(mysql, id):
     rows = cur.fetchall();
     return rows[0]
 
+# show users who is newly added after 2018-07-12
+def show_users_newly_added(mysql):
+    date_format_time = "%Y-%m-%d %H:%M:%S"
+    date_format_sql = "%Y-%m-%d %H:%i:%s"
+    current_datetime = strftime(date_format_time, localtime())
+
+    cur = mysql.connection.cursor()
+    cur.execute("SELECT t2.user_id, t2.user_firstname, t1.r_time from (select user_id, min(r_time) as r_time from scores group by user_id) t1 \
+        join users t2 on t2.user_id = t1.user_id order by t1.r_time ")
+
+    rows = cur.fetchall();
+    return [row[:2] for row in rows if (datetime.strptime(row[2], date_format_time) - datetime.strptime("2018-07-15 00:00:00", date_format_time)).days > 0]
+    
+
 # show users who are inactive for the last 24hr
 def show_inactive_user(mysql):
     date_format_time = "%Y-%m-%d %H:%M:%S"
     date_format_sql = "%Y-%m-%d %H:%i:%s"
-    current_datetime = strftime(date_format_time, gmtime())
+    current_datetime = strftime(date_format_time, localtime())
 
     cur = mysql.connection.cursor()
     cur.execute("SELECT t2.user_id, t2.user_firstname, t1.r_time from (select user_id, max(r_time) as r_time from scores group by user_id) t1 \
         join users t2 on t2.user_id = t1.user_id order by t1.r_time ")
 
     rows = cur.fetchall();
-    return [row[:2] for row in rows if (datetime.strptime(current_datetime, date_format_time) - datetime.strptime("2018-06-28 00:00:00", date_format_time)).days]
+    return [row[:2] for row in rows if (datetime.strptime(current_datetime, date_format_time) - datetime.strptime(row[2], date_format_time)).days]
+
 
 
 ########## FLASHCARD ##########
@@ -153,7 +168,7 @@ def insert_user_flashcard(mysql,user_id,user_firstname,user_lastname):
 
 # insert flashcard user action
 def insert_user_action_flashcard(mysql, user_id, qid, user_action):
-    time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
+    time = strftime("%Y-%m-%d %H:%M:%S", localtime())
     if request.method == 'POST':
         try:
             con = mysql.connection

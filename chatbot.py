@@ -99,7 +99,7 @@ def respond_to_payload(payload, sender_id, sender_firstname, qa_model, chatbot_t
         send_conversation(sender_id, payload, chatbot_text, template_conversation, "conversation_1")
 
     elif payload == "WHY":
-        send_explanation(sender_id, template_conversation, mysql, explanation_sentence)
+        send_explanation(sender_id, template_conversation, qa_model, mysql)
 
     elif payload == "SWITCH_SUBJECT":
         send_choose_subject(sender_id, template_conversation)
@@ -182,26 +182,26 @@ def respond_to_messagetext(message_text, sender_id, qa_model, chatbot_text, temp
         else:
             score = qa_model.compute_score(message_text, QID)
             if score < 5:
-                send_sentence(sender_id, payload[:10], chatbot_text, template_conversation, "sentence_1")
-                send_correct_answer(recipient_id, payload, template_conversation, qa_model, 0, mysql)
+                send_sentence(sender_id, "MESSAGE_TEXT", chatbot_text, template_conversation, "sentence_1")
+                send_correct_answer(sender_id, "MESSAGE_TEXT", template_conversation, qa_model, 0, mysql)
             elif score < 10 and score >= 5:
-                send_sentence(sender_id, payload[:10], chatbot_text, template_conversation, "sentence_2")
-                send_correct_answer(recipient_id, payload, template_conversation, qa_model, 3, mysql)
+                send_sentence(sender_id, "MESSAGE_TEXT", chatbot_text, template_conversation, "sentence_2")
+                send_correct_answer(sender_id, "MESSAGE_TEXT", template_conversation, qa_model, 3, mysql)
             else:
-                send_paragraph(sender_id, payload, chatbot_text, template_conversation, "paragraph_1")
-                send_correct_answer(recipient_id, payload, template_conversation, qa_model, 10, mysql)
+                send_paragraph(sender_id, "MESSAGE_TEXT", chatbot_text, template_conversation, "paragraph_1")
+                send_correct_answer(sender_id, "MESSAGE_TEXT", template_conversation, qa_model, 10, mysql)
     else:
         if not show_status(mysql, sender_id):
             score = qa_model.compute_score(message_text, QID)
             if score < 5:
-                send_sentence(sender_id, payload[:10], chatbot_text, template_conversation, "sentence_1")
-                send_correct_answer(recipient_id, payload, template_conversation, qa_model, 0, mysql)
+                send_sentence(sender_id, "MESSAGE_TEXT", chatbot_text, template_conversation, "sentence_1")
+                send_correct_answer(sender_id, "MESSAGE_TEXT", template_conversation, qa_model, 0, mysql)
             elif score < 10:
-                send_sentence(sender_id, payload[:10], chatbot_text, template_conversation, "sentence_2")
-                send_correct_answer(recipient_id, payload, template_conversation, qa_model, 3, mysql)
+                send_sentence(sender_id, "MESSAGE_TEXT", chatbot_text, template_conversation, "sentence_2")
+                send_correct_answer(sender_id, "MESSAGE_TEXT", template_conversation, qa_model, 3, mysql)
             else:
-                send_paragraph(sender_id, payload, chatbot_text, template_conversation, "paragraph_1")
-                send_correct_answer(recipient_id, payload, template_conversation, qa_model, 10, mysql)
+                send_paragraph(sender_id, "MESSAGE_TEXT", chatbot_text, template_conversation, "paragraph_1")
+                send_correct_answer(sender_id, "MESSAGE_TEXT", template_conversation, qa_model, 10, mysql)
         else:
             update_status(mysql, sender_id, 1)
             send_conversation(sender_id, "MESSAGE_TEXT", chatbot_text, template_conversation, conversation_id)

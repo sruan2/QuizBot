@@ -44,6 +44,7 @@ create table conversation(
 	user_id bigint,
 	dialog TEXT,
 	type TEXT,
+	subject TEXT,
 	timestamp TEXT,
 	qid INTEGER,
 	score INTEGER

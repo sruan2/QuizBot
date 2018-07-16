@@ -5,7 +5,7 @@
 from random import randint
 
 from base_model import BaseSequencingModel
-
+					  
 
 
 class RandomSequencingModel(BaseSequencingModel):
