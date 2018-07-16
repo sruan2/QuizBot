@@ -6,6 +6,7 @@ from random import randint
 from flask import Flask, request, send_from_directory
 import requests
 import time
+from datetime import datetime
 import logging
 from flask_mysqldb import MySQL
 
@@ -115,7 +116,7 @@ def webhook():
                 message.choose_mode_quick_reply(sender_id)
 
             # Liwei: update the user's name
-            database.update_user_name(mysql, sender_id, sender_firstname, sender_lastname)
+            # database.update_user_name(mysql, sender_id, sender_firstname, sender_lastname)
 
             # User clicked/tapped "postback" button in Persistent menu
             if messaging_event.get("postback"):
@@ -148,16 +149,35 @@ def webhook():
     return "ok", 200
 
 
+def get_offset_time(hour, minute, second):
+    FMT = "%Y-%m-%d %H:%M:%S"
+    cur_time = time.localtime()
+
+    _year = cur_time.tm_year
+    _mon = cur_time.tm_mon
+    _mday = cur_time.tm_mday
+    _hour = hour
+    _min = minute
+    _sec = second
+    _wday = cur_time.tm_wday
+    _yday = cur_time.tm_yday
+    _isdst = cur_time.tm_isdst
+
+    cur_time = time.strftime(FMT, cur_time)
+    offset_time = time.strftime(FMT, (_year, _mon, _mday, _hour, _min, _sec, _wday, _yday, _isdst))
+    tdelta = datetime.strptime(offset_time, FMT) - datetime.strptime(cur_time, FMT)
+
+    return tdelta.seconds
+
+
 with app.app_context():
-    reminder.RepeatedTimer(86400.0, message.send_reminder, database.show_inactive_user(mysql))
+    reminder_object = message.Reminder()
+    tdelta = get_offset_time(20, 0, 0)
+    active_list = database.show_users_newly_added(mysql) + [(1850388251650155, 'Liwei'), (1139924072777403, 'Sherry'), (1805880356153906, 'Nathan')]
+    reminder.RepeatedTimer(tdelta, 86400, reminder_object.send_reminder, active_list)
 
 
 def _get_user_profile(sender_id):
-    # based on user id retrive user name
-    # could protentially retive more user profile, e.g. profile_pic, locale, timezone, gender, last_ad_referral, etc.
-    # r = requests.get("https://graph.facebook.com/v2.6/{psid}?fields=first_name,last_name,gender"
-    #                  "&access_token={token}".format(psid=sender_id, token=access_token))
-    # Sherry: remove gender to test if we can get information from facebook
     r = requests.get("https://graph.facebook.com/v2.6/{psid}?fields=first_name,last_name"
                      "&access_token={token}".format(psid=sender_id, token=access_token))
     if r.status_code != 200:
@@ -169,18 +189,6 @@ def _get_user_profile(sender_id):
 
 
 # ================== SET UP ==================
-def setup(app, chatbot_text):
-    # hide http print
-    log = logging.getLogger('werkzeug')
-    log.setLevel(logging.ERROR)
-
-    pretty_print("============ Start the app ============", mode='App')
-    message.init_payload(template_conversation)
-    pretty_print("Initiaize the payloads", mode="Message")
-    message.persistent_menu(template_conversation)
-    pretty_print("Persistent menu loaded", mode="Message")
-
-
 def yaml_to_json(chatbot_text_file_name, template_conversation_file_name):
     with open(chatbot_text_file_name + ".yml", 'r') as stream:
         try:
@@ -208,19 +216,28 @@ def load_source(chatbot_text_file_name, template_conversation_file_name):
     return chatbot_text, template_conversation
 
 
+def setup(chatbot_text):
+    log = logging.getLogger('werkzeug')
+    log.setLevel(logging.ERROR)
+
+    pretty_print("============ Start the app ============", mode='App')
+    message.init_payload(template_conversation)
+    pretty_print("Initiaize the payloads", mode="Initialization")
+    message.persistent_menu(template_conversation)
+    pretty_print("Persistent menu loaded", mode="Initialization")
+
+
 if __name__ == '__main__':
     # Load conversation source text file
     chatbot_text, template_conversation = load_source("text/chatbot_text", "text/template_conversation")
     # Set up Flask app and MySQL
-    setup(app, chatbot_text)
+
+    setup(chatbot_text)
     # Read QA json data and construct the QA knowledge base
     json_file = 'QAdataset/questions_filtered_150_quizbot.json'
     qa_kb = QAKnowlegeBase(json_file)
 
-    # Select the right model to load based on environment variable "MODEL"
-    # which is set in ./start_server.sh
-    # model = os.environ["MODEL"]
-    model = "TFIDF"  # Sherry: use TFIDF for now
+    model = os.environ["MODEL"]
     if model == "TFIDF":
         qa_model = QAModel.TFIDFModel(qa_kb)
     elif model == "SIF":
@@ -234,4 +251,4 @@ if __name__ == '__main__':
                '/etc/letsencrypt/live/smartprimer.org/privkey.pem')
 
     pretty_print('run app', mode='App')
-    app.run(host='0.0.0.0', threaded=True, debug=True, port=int(os.environ["PORT"]), ssl_context=context)
+    app.run(host='0.0.0.0', threaded=True, debug=True, use_reloader=False, ssl_context=context, port=int(os.environ["PORT"]))

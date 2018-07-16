@@ -211,7 +211,7 @@ def send_correct_answer(recipient_id, payload, template_conversation, qa_model, 
     update_status(mysql, recipient_id, 1)
 
 
-def send_explanation(recipient_id, template_conversation, mysql, explanation):
+def send_explanation(recipient_id, template_conversation, qa_model, mysql):
     '''
         This function sends the explanation of a question to the specified recipient.
 
@@ -229,7 +229,7 @@ def send_explanation(recipient_id, template_conversation, mysql, explanation):
     message_data = template_conversation["STATE"]["EXPLANATION"]["message"]
     messaging_API.send_message(recipient_id, template_conversation, message_data)
     
-    send_format_quick_reply_text(recipient_id, template_conversation, "EXPLANATION", explanation)
+    send_format_quick_reply_text(recipient_id, template_conversation, "EXPLANATION", explanation_sentence)
 
 
 def send_total_score(recipient_id, template_conversation, total_score):
@@ -302,65 +302,49 @@ def send_hint(recipient_id, qa_model, mysql):
     send_data(data)
 
 
-def send_reminder(list):
-    '''
-        This function sends a reminder to the specified recipient.
-            Args:
-                list: a list of user ids to which the reminder is sent
-           
-            Returns:
-    '''
-    count_sent = {}
-    for recipient_id, user_name in list:
+class Reminder():
 
-        if recipient_id not in count_sent:
-            count_sent[recipient_id] = 0
-
-        if count_sent[recipient_id] < 7:
-            count_sent[recipient_id] += 1
-            data = json.dumps({
-                "recipient": {
-                    "id": recipient_id
-                },
-                "message": {
-                    "text": user_name + ", you haven't talked to me for more than a day, would you like to continue the conversation with me now?",
-                    "quick_replies": [
-                        {
-                            "content_type": "text",
-                            "title": "Continue 💪",
-                            "payload": "BUTTON_CONTINUE"
-                        }
-                    ]
-                }
-            })
-            r = requests.post("https://graph.facebook.com/v2.6/me/messages", params=PRAMS, headers=HEADERS, data=data)
-            insert_question(mysql, recipient_id, -2, "Reminder")
-            if r.status_code != 200:
-                log(r.status_code)
-                log(r.text)
-            else:
-                print("[QUIZBOT] PID " + str(os.getpid())+": Sent Reminder To " + str(user_name) + " With ID " + str(recipient_id) + " At " + time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime()))
+    def __init__(self):
+        self.users = {}
 
 
+    def send_reminder(self, list):
+        '''
+            This function sends a reminder to the specified recipient.
+                Args:
+                    list: a list of user ids to which the reminder is sent
+               
+                Returns:
+        '''
+        print(self.users)
+        for recipient_id, user_name in list:
 
+            if recipient_id not in self.users:
+                self.users[recipient_id] = 0
 
-
-
-curl -X POST -H "Content-Type: application/json" -d '{    
-                "message": {
-                    "text": "You haven't talked to me for more than a day, would you like to continue the conversation with me now?",
-                    "quick_replies": [
-                        {
-                            "content_type": "text",
-                            "title": "Continue",
-                            "payload": "BUTTON_CONTINUE"
-                        }
-                    ]
-                }
-}' "https://graph.facebook.com/v2.11/me/message_creatives?access_token=EAABiIrir93oBAOW47y6zfcgZCZAbv2MbkfjpnZAs2XLSherher7q7CUZB7HNuTZA6s0Ks4J0KQvZAY9381S6hhKbkGkP2oCntfHrRB7tIKiSwwfFZCaSCn1zRKJG285ZCUs4R98qPwK7pSChwRcLMUW7ydKw83LUBZCQD9j3VgoHjQwZDZD"
-
-
-
+            if self.users[recipient_id] < 7:
+                self.users[recipient_id] += 1
+                data = json.dumps({
+                    "recipient": {
+                        "id": recipient_id
+                    },
+                    "message": {
+                        "text": user_name + ", you haven't talked to me for more than a day, would you like to continue the conversation with me now?",
+                        "quick_replies": [
+                            {
+                                "content_type": "text",
+                                "title": "Continue 💪",
+                                "payload": "BUTTON_CONTINUE"
+                            }
+                        ]
+                    }
+                })
+                r = requests.post("https://graph.facebook.com/v2.6/me/messages", params=PRAMS, headers=HEADERS, data=data)
+                if r.status_code != 200:
+                    log(r.status_code)
+                    log(r.text)
+                else:
+                    print("[QUIZBOT] PID " + str(os.getpid())+": Sent Reminder To " + str(user_name) + " With ID " + str(recipient_id) + " At " + strftime("%Y-%m-%d %H:%M:%S", localtime()))
 
 
 
