@@ -59,8 +59,15 @@ class LeitnerSequencingModel(BaseSequencingModel):
           self.curr_q = np.random.choice(range(num_queues), p=p)
         self.curr_item = queues[self.curr_q].get(False)
 
-        picked_question = self.QA_KB.QKB[self.curr_item]
-        return picked_question, self.curr_item
+        QID = self.curr_item
+
+        data = {'question' : self.QA_KB.QKB[QID],
+                'qid' : QID,
+                'correct_answer': self.QA_KB.AKB[QID],
+                'support' : self.QA_KB.SKB[QID],
+                'distractor' : self.QA_KB.DKB[QID]}
+                
+        return data
 
     # updates the queues and the history 
     # outcome is either 0 or 1, if the user answered correctly 

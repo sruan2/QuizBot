@@ -14,7 +14,7 @@ from QAKnowledgebase import QAKnowlegeBase
 
 
 '''Module-level constants'''
-ITERATIONS = 50
+ITERATIONS = 20
 
 
 if __name__ == '__main__':
@@ -46,9 +46,9 @@ if __name__ == '__main__':
 
     model = DASHSequencingModel(qa_kb)
     for i in range(ITERATIONS):
-        picked_question, QID = model.pickNextQuestion('science')
+        data = model.pickNextQuestion('science')
         outcome = 1 if random.random() < 0.5 else 0
         model.updateHistory(outcome)
-        time.sleep(0.5)
-        print(picked_question)
-        print("item {} outcome {}".format(QID, outcome))
+        # time.sleep(0.5)
+        print(data['qid'])
+        # print("item {} outcome {}".format(data['qid'], outcome))

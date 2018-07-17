@@ -54,8 +54,14 @@ class SM2SequencingModel(BaseSequencingModel):
         priority, question = heapq.heappop(order)
         self.cur_question = question
         QID = question.id
-        picked_question = self.QA_KB.QKB[QID]
-        return picked_question, QID
+        
+        data = {'question' : self.QA_KB.QKB[QID],
+                'qid' : QID,
+                'correct_answer': self.QA_KB.AKB[QID],
+                'support' : self.QA_KB.SKB[QID],
+                'distractor' : self.QA_KB.DKB[QID]}
+
+        return data
 
     def updateHistory(self, outcome):
         '''update the easiness factor and the history'''
