@@ -33,54 +33,36 @@ model = RandomSequencingModel(qa_kb)
 def index():
     return render_template('index.html')
 
+
 @app.route("/question_data")
 def fetch_question():
-    question, QID = model.pickNextQuestion()
-    data = {'question': question,
-            'qid': QID,
-            'correct_answer': 'testing correct answer',
-            'support': 'testing support',
-            'distractor': ['0', '1'],
-            'explanation': 'testing explanation'}
-    print(QID)
-    print(question)
+    data = model.pickNextQuestion()
     return jsonify(data)
+
 
 @app.route("/question_data_gre")
 def fetch_question():
-    question, QID = model.pickNextQuestion('gre')
-    data = {'question': question,
-            'qid': QID,
-            'correct_answer': 'testing correct answer',
-            'support': 'testing support',
-            'distractor': ['0', '1'],
-            'explanation': 'testing explanation'}
-    print(QID)
-    print(question)
+    data = model.pickNextQuestion('gre')
     return jsonify(data)
+
 
 @app.route("/question_data_science")
 def fetch_question():
-    question, QID = model.pickNextQuestion('science')
-    data = {'question': question,
-            'qid': QID,
-            'correct_answer': 'testing correct answer',
-            'support': 'testing support',
-            'distractor': ['0', '1'],
-            'explanation': 'testing explanation'}
-    print(QID)
-    print(question)
+    data = model.pickNextQuestion('science')
     return jsonify(data)
+
 
 @app.route("/question_data_safety")
 def fetch_question():
     data = model.pickNextQuestion('safety')
     return jsonify(data)
 
+
 @app.route('/test', methods=['GET'])
 def verify():
     print("received")
     return "test", 200
+
 
 @app.route('/logdata', methods=['POST'])
 def webhook():
