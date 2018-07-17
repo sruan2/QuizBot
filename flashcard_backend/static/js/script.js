@@ -133,6 +133,7 @@ function fetch_question(){
     fetch('/question_data').then(function(response) {
           response.json().then(function(json) {
             question = json;
+            console.log(question);
             update(question);
           });
         });
