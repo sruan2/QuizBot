@@ -6,7 +6,6 @@ import sys
 import random
 import time
 import messaging_API
-from message import *
 from database import *
 from utils import *
 
@@ -303,9 +302,9 @@ def send_hint(recipient_id, qa_model, mysql):
 
 
 class Reminder():
-
-    def __init__(self):
+    def __init__(self, template_conversation):
         self.users = {}
+        self.template_conversation = template_conversation
 
 
     def send_reminder(self, list):
@@ -318,35 +317,14 @@ class Reminder():
         '''
         print(self.users)
         for recipient_id, user_name in list:
-
             if recipient_id not in self.users:
                 self.users[recipient_id] = 0
-
             if self.users[recipient_id] < 7:
                 self.users[recipient_id] += 1
-                data = json.dumps({
-                    "recipient": {
-                        "id": recipient_id
-                    },
-                    "message": {
-                        "text": user_name + ", you haven't talked to me for more than a day, would you like to continue the conversation with me now?",
-                        "quick_replies": [
-                            {
-                                "content_type": "text",
-                                "title": "Continue 💪",
-                                "payload": "BUTTON_CONTINUE"
-                            }
-                        ]
-                    }
-                })
-                r = requests.post("https://graph.facebook.com/v2.6/me/messages", params=PRAMS, headers=HEADERS, data=data)
-                if r.status_code != 200:
-                    log(r.status_code)
-                    log(r.text)
-                else:
-                    print("[QUIZBOT] PID " + str(os.getpid())+": Sent Reminder To " + str(user_name) + " With ID " + str(recipient_id) + " At " + strftime("%Y-%m-%d %H:%M:%S", localtime()))
-
-
-
+                image_data = self.template_conversation["STATE"]["REMINDER"]["image"]
+                image_data["image_url"] = image_data["image_url"].format(os.environ["PORT"])
+                messaging_API.send_image(recipient_id, image_data)
+                send_format_quick_reply_text(recipient_id, self.template_conversation, "REMINDER", user_name)
+                print("[QUIZBOT] PID " + str(os.getpid())+": Sent Reminder To " + str(user_name) + " With ID " + str(recipient_id) + " At " + strftime("%Y-%m-%d %H:%M:%S", localtime()))
 
 

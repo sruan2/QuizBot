@@ -47,6 +47,7 @@ def respond_to_payload(payload, sender_id, sender_firstname, qa_model, chatbot_t
 
     elif payload == "YUP_IM_READY":
         update_status(mysql, sender_id, 1)
+        insert_question(mysql, sender_id, -1, payload)
         send_conversation(sender_id, payload, chatbot_text, template_conversation, "conversation_1")
 
     elif payload == "USER_MANUAL_1":
@@ -105,18 +106,52 @@ def respond_to_payload(payload, sender_id, sender_firstname, qa_model, chatbot_t
         send_choose_subject(sender_id, template_conversation)
 
     elif payload == "SCIENCE":
+        QID = show_last_qid_subject(mysql, sender_id)[0] 
+        if QID >= 50 and QID < 100:
+            send_image(sender_id, payload, chatbot_text, "SAFETY")
+        elif QID >= 100 and QID < 150:
+            send_image(sender_id, payload, chatbot_text, "GRE")
+        else:
+            send_image(sender_id, payload, chatbot_text, "NORMAL")
+
         send_sentence(sender_id, payload, chatbot_text, template_conversation, "sentence_1")
         send_question(sender_id, template_conversation, payload, qa_model, mysql, "science")
 
     elif payload == "GRE":
+        QID = show_last_qid_subject(mysql, sender_id)[0] 
+        if QID >= 0 and QID < 50:
+            send_image(sender_id, payload, chatbot_text, "SCIENCE")
+        elif QID >= 50 and QID < 100:
+            send_image(sender_id, payload, chatbot_text, "SAFETY")
+        else:
+            send_image(sender_id, payload, chatbot_text, "NORMAL")
+
         send_sentence(sender_id, payload, chatbot_text, template_conversation, "sentence_1")
         send_question(sender_id, template_conversation, payload, qa_model, mysql, "gre")
 
     elif payload == "SAFETY":
+        QID = show_last_qid_subject(mysql, sender_id)[0] 
+        if QID >= 0 and QID < 50:
+            send_image(sender_id, payload, chatbot_text, "SCIENCE")
+        elif QID >= 100 and QID < 150:
+            send_image(sender_id, payload, chatbot_text, "GRE")
+        else:
+            send_image(sender_id, payload, chatbot_text, "NORMAL")
+
         send_sentence(sender_id, payload, chatbot_text, template_conversation, "sentence_1")
         send_question(sender_id, template_conversation, payload, qa_model, mysql, "safety")
 
     elif payload == "RANDOM":
+        QID = show_last_qid_subject(mysql, sender_id)[0] 
+        if QID >= 0 and QID < 50:
+            send_image(sender_id, payload, chatbot_text, "SCIENCE")
+        elif QID >= 50 and QID < 100:
+            send_image(sender_id, payload, chatbot_text, "SAFETY")
+        elif QID >= 100 and QID < 150:
+            send_image(sender_id, payload, chatbot_text, "GRE")
+        else:
+            send_image(sender_id, payload, chatbot_text, "NORMAL")
+
         send_sentence(sender_id, payload, chatbot_text, template_conversation, "sentence_1")
         send_question(sender_id, template_conversation, payload, qa_model, mysql, "random")
 
@@ -143,6 +178,24 @@ def respond_to_payload(payload, sender_id, sender_firstname, qa_model, chatbot_t
         send_sentence(sender_id, payload[:10], chatbot_text, template_conversation, "sentence_1")
         send_hint(sender_id, qa_model, mysql)
 
+    # elif payload == "INTERACT":
+    #     science, safety, gre = show_all_qid(mysql, sender_id)
+    #     num_science = len(science)
+    #     num_safety = len(science)
+    #     num_gre = len(science)
+
+    #     if num_science >= num_safety and num_science >= num_gre:
+    #         send_image(sender_id, payload, chatbot_text, "SCIENCE")
+    #         send_conversation(sender_id, payload, chatbot_text, template_conversation, "SCIENCE")         
+
+    #     elif num_safety >= num_science and num_safety >= num_gre:
+    #         send_image(sender_id, payload, chatbot_text, "SAFETY")
+    #         send_conversation(sender_id, payload, chatbot_text, template_conversation, "SAFETY")    
+
+    #     elif num_gre >= num_science and num_gre >= num_safety:
+    #         send_image(sender_id, payload, chatbot_text, "GRE")
+    #         send_conversation(sender_id, payload, chatbot_text, template_conversation, "GRE")    
+
     elif payload == "NEXT_QUESTION":
         if show_status(mysql, sender_id):
             subject = show_last_qid_subject(mysql, sender_id)[1] 
@@ -151,6 +204,7 @@ def respond_to_payload(payload, sender_id, sender_firstname, qa_model, chatbot_t
         else:
             QID = show_last_qid_subject(mysql, sender_id)[0]
             send_question(sender_id, template_conversation, question = qa_model.pickLastQuestion(QID))
+
 
 
 def respond_to_messagetext(message_text, sender_id, qa_model, chatbot_text, template_conversation, mysql):

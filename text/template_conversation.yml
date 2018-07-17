@@ -183,12 +183,9 @@ TEMPLATE:
     - Let's continue with the next question.
     - Alrighty, let's continue learning.
     - Good! Let's move on.
-<<<<<<< HEAD
     - Great! Let's resume learning.
-=======
     - Great! Let's resuming learning.
     - Cool! Let's keep going.
->>>>>>> 5dd954a723c01181313ceee7ae31246d2b204839
 
   TOTAL_SCORE:
     - Your total score is {}. Keep it up! 💪🏼
@@ -254,6 +251,19 @@ TEMPLATE:
     - Good choice! Let's see what you know about safety!
     - Awesome! Let's learn about safety!
 
+
+  GOOD_JOB_SCIENCE:
+    - You've done a very good job in science! Congrats!
+    - You are becoming a master in science!
+
+  GOOD_JOB_SAFETY:
+    - You've done a very good job in safety! Congrats!
+    - You are becoming a master in safety!
+
+  GOOD_JOB_GRE:
+    - You've done a very good job in GRE! Congrats!
+    - You are becoming a master in GRE!
+
   RANDOM:
     - Okay! Let’s mix it up! 🎲
     - All right! A little bit of everything! 🎲
@@ -291,6 +301,10 @@ TEMPLATE:
     - "Alright! Let's do it again! Which of these is the answer?"
     - "Don't give up! Which answer is correct?"
 
+  ENCOURAGE:
+    - Keep up the good work!
+    - Let's continue the good work!
+
   DKB:
     - I'm sorry, but that was incorrect. You didn't earn any points 😞
     - That's not quite right. You didn't earn any points 😞
@@ -309,6 +323,9 @@ TEMPLATE:
     - Tremendous! That earned you 10 points!
     - Wow! Great job! You just got 10 points!
 
+  REMINDER:
+    - "{}, you haven't talked to me for a while. Do you want to continue the conversation with me?"
+    - " Hi {}, you haven't talked to me for a while. Would you like to resume the learning with me?"
 
 STATE:
   QUESTION:
@@ -424,6 +441,25 @@ STATE:
       payload:
         - NEXT_QUESTION
 
+  REMINDER:
+    image:
+        template_type: 
+          image
+        image_url: 
+          https://www.smartprimer.org:{}/pictures/avatar/penguinnormal_happy.png
+    quick_reply:  
+      message:
+        source:
+          LOCAL
+        text:
+          Hi {}, you haven't talked to me for a while. Would you like to resume the learning with me?
+      source:
+        - TEMPLATE
+      title:
+        - GOT_IT
+      payload:
+        - NEXT_QUESTION 
+
   PERSISTENT_MENU:
     persistent_menu:
       - locale:
@@ -495,6 +531,7 @@ STATE:
                   postback
                 payload: 
                   CONTACT
+                  
 
   GET_STARTED:
     get_started:

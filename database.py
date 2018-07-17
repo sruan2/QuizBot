@@ -17,6 +17,7 @@ def insert_user(mysql, user_id,user_firstname,user_lastname,user_gender,user_sta
             con.rollback()
             pretty_print("Error in inserting user reocrd operation", mode="BUG!")
 
+
 # update user question-answer loop status
 def update_status(mysql, user_id, status):
     if request.method == 'POST':
@@ -29,6 +30,7 @@ def update_status(mysql, user_id, status):
         except:
             con.rollback()
             pretty_print("Error in updating user status operation", mode="BUG!")
+
 
 # update the user name
 def update_user_name(mysql,user_id,user_firstname,user_lastname):
@@ -43,6 +45,7 @@ def update_user_name(mysql,user_id,user_firstname,user_lastname):
             con.rollback()
             pretty_print("Error in updating user name operation", mode="BUG!")
 
+
 def show_status(mysql, user_id):
     cur = mysql.connection.cursor()
     cur.execute("select user_status from user where user_id = %s", [user_id])
@@ -53,8 +56,9 @@ def show_status(mysql, user_id):
     else:
         return -1
 
+
 # insert user score
-def insert_score(mysql, user_id,qid,answer,score):
+def insert_score(mysql, user_id, qid, answer, score):
     time = strftime("%Y-%m-%d %H:%M:%S", localtime())
     if request.method == 'POST':
         try:
@@ -66,6 +70,7 @@ def insert_score(mysql, user_id,qid,answer,score):
         except:
             con.rollback()
             pretty_print("error in inserting score operation", mode="BUG!")
+
 
 # insert asked questions
 def insert_question(mysql, user_id, qid, subject):
@@ -81,12 +86,14 @@ def insert_question(mysql, user_id, qid, subject):
             con.rollback()
             pretty_print("Error in inserting question operation", mode="BUG!")
 
+
 def show_user_id_list(mysql):
     cur = mysql.connection.cursor()
     cur.execute("select user_id from user")
 
     rows = cur.fetchall()
     return [x[0] for x in rows]
+
 
 # retrieve score based on user_id
 def show_score(mysql, user_id):
@@ -96,13 +103,29 @@ def show_score(mysql, user_id):
     rows = cur.fetchall();
     return rows[0][0] if len(rows) > 0 else 0
 
+
 # retrieve score based on user_id
 def show_last_qid_subject(mysql, user_id):
     cur = mysql.connection.cursor()
     cur.execute("SELECT qid,subject from questions where user_id = %s order by id desc limit 1", [user_id])
 
     rows = cur.fetchall();
-    return (rows[0][0] if len(rows) > 0 else -1, rows[0][1] if len(rows) > 0 else 'no record')
+    return (rows[0][0] if len(rows) > 0 else -1, rows[0][1] if len(rows) > 0 else (-1, 'no record'))
+
+
+# retrieve all qids
+def show_all_qid(mysql, user_id):
+    cur = mysql.connection.cursor()
+    cur.execute("SELECT qid,subject from questions where user_id = %s order by id", [user_id])
+
+    rows = cur.fetchall();
+    rows = [r[0] for r in rows]
+    rows.sort()
+    science = [r for r in rows if r >= 0 and r < 50]
+    safety = [r for r in rows if r >= 50 and r < 100]
+    gre = [r for r in rows if r >= 100 and r < 150]
+    return science, safety, gre
+
 
 # show top 10 in leaderboard
 def show_top_5(mysql):
@@ -114,6 +137,7 @@ def show_top_5(mysql):
     rows = cur.fetchall();
     return rows
 
+
 def show_current_ranking(mysql, id):
     cur = mysql.connection.cursor()
     cur.execute("SELECT user_firstname, user_lastname, sc, rn from \
@@ -122,6 +146,7 @@ def show_current_ranking(mysql, id):
 
     rows = cur.fetchall();
     return rows[0]
+
 
 # show users who is newly added after 2018-07-12
 def show_users_newly_added(mysql):
@@ -151,7 +176,6 @@ def show_inactive_user(mysql):
     return [row[:2] for row in rows if (datetime.strptime(current_datetime, date_format_time) - datetime.strptime(row[2], date_format_time)).days]
 
 
-
 ########## FLASHCARD ##########
 # insert flashcard user info
 def insert_user_flashcard(mysql,user_id,user_firstname,user_lastname):
@@ -165,6 +189,7 @@ def insert_user_flashcard(mysql,user_id,user_firstname,user_lastname):
         except:
             con.rollback()
             pretty_print("Error in inserting Flashcard user reocrd operation", mode="FC BUG!")
+
 
 # insert flashcard user action
 def insert_user_action_flashcard(mysql, user_id, qid, user_action):
