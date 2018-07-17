@@ -13,7 +13,7 @@
                     }, 
                     {
                         "source": "LOCAL", 
-                        "text": "I use technology in a scientific and interactive way to help you learn knowledge."
+                        "text": "I use technology in a scientific and NEXT_QUESTIONive way to help you learn knowledge."
                     }
                 ], 
                 "quick_reply": {
@@ -110,7 +110,7 @@
                     }, 
                     {
                         "source": "LOCAL", 
-                        "text": "I ask you questions\u2753, and you give me answers."
+                        "text": "I ask you questions, and you give me answers."
                     }, 
                     {
                         "source": "LOCAL", 
@@ -137,7 +137,7 @@
                 "message": [
                     {
                         "source": "LOCAL", 
-                        "text": "To study the questions, you can type in \u2328\ufe0f your answers in the text field and QuizBot will evaluate the answers for you."
+                        "text": "To study the questions, you can type in your answers in the text field and QuizBot will evaluate the answers for you."
                     }, 
                     {
                         "source": "LOCAL", 
@@ -170,11 +170,11 @@
                 "message": [
                     {
                         "source": "LOCAL", 
-                        "text": "If you don't know the answers, then feel free to tap on the hint button.\ud83d\udca1"
+                        "text": "If you don't know the answers, then feel free to tap on the hint button."
                     }, 
                     {
                         "source": "LOCAL", 
-                        "text": "The hint will give you a list of potential answers and you can select one from them. \ud83d\udd20"
+                        "text": "The hint will give you a list of potential answers and you can select one from them."
                     }, 
                     {
                         "source": "LOCAL", 
@@ -290,10 +290,111 @@
         }
     }, 
     "GRE": {
+        "image": {
+            "NORMAL": {
+                "image_url": "https://www.smartprimer.org:{}/pictures/avatar/evolvenormal_reading.gif", 
+                "template_type": "image"
+            }, 
+            "SAFETY": {
+                "image_url": "https://www.smartprimer.org:{}/pictures/avatar/evolvesafety_reading.gif", 
+                "template_type": "image"
+            }, 
+            "SCIENCE": {
+                "image_url": "https://www.smartprimer.org:{}/pictures/avatar/evolvescientist_reading.gif", 
+                "template_type": "image"
+            }
+        }, 
         "sentence": {
             "sentence_1": {
                 "source": "TEMPLATE", 
                 "text": "GRE"
+            }
+        }
+    }, 
+    "INTERACT": {
+        "conversation": {
+            "GRE": {
+                "message": [
+                    {
+                        "source": "TEMPLATE", 
+                        "text": "GOOD_JOB_GRE"
+                    }, 
+                    {
+                        "source": "TEMPLATE", 
+                        "text": "ENCOURAGE"
+                    }
+                ], 
+                "quick_reply": {
+                    "payload": [
+                        "NEXT_QUESTION"
+                    ], 
+                    "source": [
+                        "TEMPLATE"
+                    ], 
+                    "title": [
+                        "GOT_IT"
+                    ]
+                }
+            }, 
+            "SAFETY": {
+                "message": [
+                    {
+                        "source": "TEMPLATE", 
+                        "text": "GOOD_JOB_SAFETY"
+                    }, 
+                    {
+                        "source": "TEMPLATE", 
+                        "text": "ENCOURAGE"
+                    }
+                ], 
+                "quick_reply": {
+                    "payload": [
+                        "NEXT_QUESTION"
+                    ], 
+                    "source": [
+                        "TEMPLATE"
+                    ], 
+                    "title": [
+                        "GOT_IT"
+                    ]
+                }
+            }, 
+            "SCIENCE": {
+                "message": [
+                    {
+                        "source": "TEMPLATE", 
+                        "text": "GOOD_JOB_SCIENCE"
+                    }, 
+                    {
+                        "source": "TEMPLATE", 
+                        "text": "ENCOURAGE"
+                    }
+                ], 
+                "quick_reply": {
+                    "payload": [
+                        "NEXT_QUESTION"
+                    ], 
+                    "source": [
+                        "TEMPLATE"
+                    ], 
+                    "title": [
+                        "GOT_IT"
+                    ]
+                }
+            }
+        }, 
+        "image": {
+            "GRE": {
+                "image_url": "https://www.smartprimer.org:{}/pictures/avatar/penguinreading_happy.png", 
+                "template_type": "image"
+            }, 
+            "SAFETY": {
+                "image_url": "https://www.smartprimer.org:{}/pictures/avatar/penguinsafety_happy.png", 
+                "template_type": "image"
+            }, 
+            "SCIENCE": {
+                "image_url": "https://www.smartprimer.org:{}/pictures/avatar/penguinscientist_happy.png", 
+                "template_type": "image"
             }
         }
     }, 
@@ -337,7 +438,7 @@
                         "NEXT_QUESTION"
                     ], 
                     "source": [
-                        "LOCAL"
+                        "TEMPLATE"
                     ], 
                     "title": [
                         "GOT_IT"
@@ -377,6 +478,24 @@
         }
     }, 
     "RANDOM": {
+        "image": {
+            "GRE": {
+                "image_url": "https://www.smartprimer.org:{}/pictures/avatar/evolvereading_normal.gif", 
+                "template_type": "image"
+            }, 
+            "NORMAL": {
+                "image_url": "https://www.smartprimer.org:{}/pictures/avatar/celebration.gif", 
+                "template_type": "image"
+            }, 
+            "SAFETY": {
+                "image_url": "https://www.smartprimer.org:{}/pictures/avatar/evolvesafety_normal.gif", 
+                "template_type": "image"
+            }, 
+            "SCIENCE": {
+                "image_url": "https://www.smartprimer.org:{}/pictures/avatar/evolvescientist_normal.gif", 
+                "template_type": "image"
+            }
+        }, 
         "sentence": {
             "sentence_1": {
                 "source": "TEMPLATE", 
@@ -411,6 +530,20 @@
         }
     }, 
     "SAFETY": {
+        "image": {
+            "GRE": {
+                "image_url": "https://www.smartprimer.org:{}/pictures/avatar/evolvereading_safety.gif", 
+                "template_type": "image"
+            }, 
+            "NORMAL": {
+                "image_url": "https://www.smartprimer.org:{}/pictures/avatar/evolvenormal_safety.gif", 
+                "template_type": "image"
+            }, 
+            "SCIENCE": {
+                "image_url": "https://www.smartprimer.org:{}/pictures/avatar/evolvescientist_safety.gif", 
+                "template_type": "image"
+            }
+        }, 
         "sentence": {
             "sentence_1": {
                 "source": "TEMPLATE", 
@@ -419,6 +552,20 @@
         }
     }, 
     "SCIENCE": {
+        "image": {
+            "GRE": {
+                "image_url": "https://www.smartprimer.org:{}/pictures/avatar/evolvereading_scientist.gif", 
+                "template_type": "image"
+            }, 
+            "NORMAL": {
+                "image_url": "https://www.smartprimer.org:{}/pictures/avatar/evolvenormal_scientist.gif", 
+                "template_type": "image"
+            }, 
+            "SAFETY": {
+                "image_url": "https://www.smartprimer.org:{}/pictures/avatar/evolvesafety_scientist.gif", 
+                "template_type": "image"
+            }
+        }, 
         "sentence": {
             "sentence_1": {
                 "source": "TEMPLATE", 
@@ -432,7 +579,7 @@
                 "message": [
                     {
                         "source": "LOCAL", 
-                        "text": "To study the questions, you can type in \u2328\ufe0f your answers in the text field and QuizBot will evaluate the answers for you."
+                        "text": "To study the questions, you can type in your answers in the text field and QuizBot will evaluate the answers for you."
                     }, 
                     {
                         "source": "LOCAL", 
@@ -465,11 +612,11 @@
                 "message": [
                     {
                         "source": "LOCAL", 
-                        "text": "If you don't know the answers, then feel free to tap on the hint button.\ud83d\udca1"
+                        "text": "If you don't know the answers, then feel free to tap on the hint button."
                     }, 
                     {
                         "source": "LOCAL", 
-                        "text": "The hint will give you a list of potential answers and you can select one from them. \ud83d\udd20"
+                        "text": "The hint will give you a list of potential answers and you can select one from them."
                     }, 
                     {
                         "source": "LOCAL", 

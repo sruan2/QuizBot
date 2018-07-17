@@ -113,7 +113,6 @@ def webhook():
                 pretty_print('This is a new user!', mode='QuizBot')
                 database.insert_user(mysql, sender_id, sender_firstname, sender_lastname, sender_gender, 1)
                 database.insert_score(mysql, sender_id, -1, "new_user", 0)
-                message.choose_mode_quick_reply(sender_id)
 
             # Liwei: update the user's name
             # database.update_user_name(mysql, sender_id, sender_firstname, sender_lastname)
@@ -147,34 +146,6 @@ def webhook():
                     pretty_print("Message Text is \""+message_text+"\"")
                     chatbot.respond_to_messagetext(message_text, sender_id, qa_model, chatbot_text, template_conversation, mysql)
     return "ok", 200
-
-
-def get_offset_time(hour, minute, second):
-    FMT = "%Y-%m-%d %H:%M:%S"
-    cur_time = time.localtime()
-
-    _year = cur_time.tm_year
-    _mon = cur_time.tm_mon
-    _mday = cur_time.tm_mday
-    _hour = hour
-    _min = minute
-    _sec = second
-    _wday = cur_time.tm_wday
-    _yday = cur_time.tm_yday
-    _isdst = cur_time.tm_isdst
-
-    cur_time = time.strftime(FMT, cur_time)
-    offset_time = time.strftime(FMT, (_year, _mon, _mday, _hour, _min, _sec, _wday, _yday, _isdst))
-    tdelta = datetime.strptime(offset_time, FMT) - datetime.strptime(cur_time, FMT)
-
-    return tdelta.seconds
-
-
-with app.app_context():
-    reminder_object = message.Reminder()
-    tdelta = get_offset_time(20, 0, 0)
-    active_list = database.show_users_newly_added(mysql) + [(1850388251650155, 'Liwei'), (1139924072777403, 'Sherry'), (1805880356153906, 'Nathan')]
-    reminder.RepeatedTimer(tdelta, 86400, reminder_object.send_reminder, active_list)
 
 
 def _get_user_profile(sender_id):
@@ -227,11 +198,39 @@ def setup(chatbot_text):
     pretty_print("Persistent menu loaded", mode="Initialization")
 
 
-if __name__ == '__main__':
+def get_offset_time(hour, minute, second):
+    FMT = "%Y-%m-%d %H:%M:%S"
+    cur_time = time.localtime()
+
+    _year = cur_time.tm_year
+    _mon = cur_time.tm_mon
+    _mday = cur_time.tm_mday
+    _hour = hour
+    _min = minute
+    _sec = second
+    _wday = cur_time.tm_wday
+    _yday = cur_time.tm_yday
+    _isdst = cur_time.tm_isdst
+
+    cur_time = time.strftime(FMT, cur_time)
+    offset_time = time.strftime(FMT, (_year, _mon, _mday, _hour, _min, _sec, _wday, _yday, _isdst))
+    tdelta = datetime.strptime(offset_time, FMT) - datetime.strptime(cur_time, FMT)
+
+    return tdelta.seconds
+
+
+with app.app_context():
     # Load conversation source text file
     chatbot_text, template_conversation = load_source("text/chatbot_text", "text/template_conversation")
-    # Set up Flask app and MySQL
+    
+    reminder_object = message.Reminder(template_conversation)
+    tdelta = get_offset_time(20, 00, 0)
+    active_list = database.show_users_newly_added(mysql) + [(1850388251650155, 'Liwei'), (1139924072777403, 'Sherry'), (1805880356153906, 'Nathan')]
+    reminder.RepeatedTimer(tdelta, 86400, reminder_object.send_reminder, active_list)
 
+
+if __name__ == '__main__':
+    # Set up Flask app and MySQL
     setup(chatbot_text)
     # Read QA json data and construct the QA knowledge base
     json_file = 'QAdataset/questions_filtered_150_quizbot.json'
