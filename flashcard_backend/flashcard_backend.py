@@ -46,6 +46,37 @@ def fetch_question():
     print(question)
     return jsonify(data)
 
+@app.route("/question_data_gre")
+def fetch_question():
+    question, QID = model.pickNextQuestion('gre')
+    data = {'question': question,
+            'qid': QID,
+            'correct_answer': 'testing correct answer',
+            'support': 'testing support',
+            'distractor': ['0', '1'],
+            'explanation': 'testing explanation'}
+    print(QID)
+    print(question)
+    return jsonify(data)
+
+@app.route("/question_data_science")
+def fetch_question():
+    question, QID = model.pickNextQuestion('science')
+    data = {'question': question,
+            'qid': QID,
+            'correct_answer': 'testing correct answer',
+            'support': 'testing support',
+            'distractor': ['0', '1'],
+            'explanation': 'testing explanation'}
+    print(QID)
+    print(question)
+    return jsonify(data)
+
+@app.route("/question_data_safety")
+def fetch_question():
+    data = model.pickNextQuestion('safety')
+    return jsonify(data)
+
 @app.route('/test', methods=['GET'])
 def verify():
     print("received")
@@ -57,13 +88,21 @@ def webhook():
     sender_id = data['user_id']
     qid = data['qid']
     user_action = data['event']
-    # if not int(sender_id) in database.show_user_id_list(mysql):
-    #     sender_firstname = data['firstname']
-    #     sender_lastname = data['lastname']
-    #     print("[FLASHCARD] PID " + str(os.getpid())+": This is a new user!")
-    #     database.insert_user_flashcard(mysql, sender_id, sender_firstname, sender_lastname)
 
-    # database.insert_user_action_flashcard(mysql, sender_id, qid, user_action)
+    if not int(sender_id) in database.show_user_id_list(mysql):
+        sender_firstname = data['firstname']
+        sender_lastname = data['lastname']
+        print("[FLASHCARD] PID " + str(os.getpid())+": This is a new user!")
+        database.insert_user_flashcard(mysql, sender_id, sender_firstname, sender_lastname)
+
+    database.insert_user_action_flashcard(mysql, sender_id, qid, user_action)
+
+    # send user feedback to the question sequencing model
+    if user_action == 'GOT IT':
+        model.updateHistory(1)
+    elif user_action == 'NOT GOT IT':
+        model.updateHistory(0)
+
     print("[FLASHCARD] PID " + str(os.getpid())+": Record FLASHCARD user action successfully")
 
     return "ok", 200
