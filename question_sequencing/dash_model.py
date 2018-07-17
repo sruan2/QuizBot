@@ -87,8 +87,13 @@ class DASHSequencingModel(BaseSequencingModel):
         # set current item 
         self.curr_item = QID
 
-        picked_question = self.QA_KB.QKB[QID]
-        return picked_question, QID
+        data = {'question' : self.QA_KB.QKB[QID],
+                'qid' : QID,
+                'correct_answer': self.QA_KB.AKB[QID],
+                'support' : self.QA_KB.SKB[QID],
+                'distractor' : self.QA_KB.DKB[QID]}
+
+        return data
  
     def thresholdPickQuestion(self, subject = 'random'):
         likelihoods = self.get_likelihoods() 
@@ -106,16 +111,24 @@ class DASHSequencingModel(BaseSequencingModel):
         # self.curr_item = np.argmin(threshold_distances)
         self.curr_item = np.argmin(threshold_distances)
         print('likelihood is ', likelihoods[self.curr_item])
-        picked_question = self.QA_KB.QKB[self.curr_item]
-        return picked_question, self.curr_item
+
+        QID = self.curr_item
+        
+        data = {'question' : self.QA_KB.QKB[QID],
+                'qid' : QID,
+                'correct_answer': self.QA_KB.AKB[QID],
+                'support' : self.QA_KB.SKB[QID],
+                'distractor' : self.QA_KB.DKB[QID]}
+
+        return data
 
     # pick threshold based review every 10 steps, otherwise pick random
     def pickNextQuestion(self, subject = 'random'):
-        if self.curr_step % 10 == 0:
+        if self.curr_step % 5 == 0:
             return self.thresholdPickQuestion(subject)
         else:
             return self.pickRandomQuestion(subject)
-         
+
     # updates the queues and the history 
     # outcome is either 0 or 1, if the user answered correctly 
     # item is the index of the last item
