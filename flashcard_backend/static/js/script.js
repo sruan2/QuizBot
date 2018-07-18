@@ -1,44 +1,19 @@
 $('document').ready(
     function() {
+        $subject = 'science';
         fetch_question()
         load();
         FastClick.attach(document.body);
         $('.element-front').show();
         $('.element-back').hide();
 
+        // remove focus of the button.
         $(".btn").click(function(event) {
-            // remove focus of the button.
             $(this).blur();
         });
-
-        // $data = {
-        //     science: [],
-        //     gre: [],
-        //     safety: [],
-        //     random: [],
-        // };
-        // for ($q in $questions) {
-        //     $data['random'].push($questions[$q]);
-        //     if ($questions[$q].subject === 'gre') {
-        //         $data['gre'].push($questions[$q]);
-        //     } else if ($questions[$q].subject === 'safety') {
-        //         $data['safety'].push($questions[$q]);
-        //     } else {
-        //         $data['science'].push($questions[$q]);
-        //     }
-        // }
-        // for ($d in $data) {
-        //     shuffle($data[$d]);
-        // }
-        // $index = {
-        //     science: 0,
-        //     gre: 0,
-        //     safety: 0,
-        //     random: 0,
-        // };
-        $subject = 'science';
     }
-);
+)
+
 
 function change(subject) {
     $subject = subject;
@@ -46,8 +21,8 @@ function change(subject) {
         flip();
     }
     log('change to ' + subject)
-    //update();
 }
+
 
 function flip() {
     if ($('#front').is(":visible")) {
@@ -59,38 +34,21 @@ function flip() {
         $('.element-front').show();
         log("card flip to question");
     }
-};
+}
 
-// Sherry: comment out for a new next question which loads the next question from backend instead
-// function next() {
-//     $index[$subject] = $index[$subject] < $data[$subject].length - 1 ? $index[$subject] + 1 : 0;
-//     console.log('qid: '+qid);
-//     console.log('subject: '+$subject);
-//     console.log('index: '+$index[$subject]);
-//     if (!$('#front').is(":visible")) {
-//         flip();
-//     }
-//     log("card next");
-//     update();
-// }
 
-function next() {
+function got_it() {
     fetch_question();
 }
 
-function prev() {
-    $index[$subject] = $index[$subject] > 0 ? $index[$subject] - 1 : $data[$subject].length - 1;
-    if (!$('#front').is(":visible")) {
-        flip();
-    }
-    log("card prev");
-    update();
+
+function not_got_it() {
+    fetch_question();
 }
 
+
 function update(question) {
-    // $questions are imported from questions.js
-    //$question = $data[$subject][$index[$subject]];
-    console.log('update:'+question['qid']);
+    // console.log('update:' + question['qid']);
     $('#front').html("Q: " + question['question']);
     $('#back').html("A: " + question['correct_answer']);
     $('#explanation').html(question['support']);
@@ -105,6 +63,7 @@ function update(question) {
     $('#qid').html("Question " + question['qid']);
 }
 
+
 function shuffle(a) {
     var j, x, i;
     for (i = a.length - 1; i > 0; i--) {
@@ -115,6 +74,7 @@ function shuffle(a) {
     }
     return a;
 }
+
 
 function load() {
     if (!window.localStorage.getItem('user')) {
@@ -129,15 +89,42 @@ function load() {
     }
 }
 
-function fetch_question(){
-    fetch('/question_data').then(function(response) {
-          response.json().then(function(json) {
-            question = json;
-            console.log(question);
-            update(question);
-          });
+
+function fetch_question() {
+    if ($subject === "science" ) {
+        fetch('/question_data_science').then(function(response) {
+            response.json().then(function(json) {
+                $question = json;
+                update($question);
+            });
         });
+    }
+    else if ($subject === "safety" ) {
+        fetch('/question_data_safety').then(function(response) {
+            response.json().then(function(json) {
+                $question = json;
+                update($question);
+            });
+        });
+    }
+    else if ($subject === "gre" ) {
+        fetch('/question_data_gre').then(function(response) {
+            response.json().then(function(json) {
+                $question = json;
+                update($question);
+            });
+        });
+    }
+    else {
+        fetch('/question_data').then(function(response) {
+            response.json().then(function(json) {
+                $question = json;
+                update($question);
+            });
+        });
+    }
 }
+
 
 function save() {
     var firstname = $('#firstname').val();
@@ -148,15 +135,18 @@ function save() {
     window.localStorage.setItem('user', JSON.stringify($user));
 }
 
+
 function hint() {
     log('toggle hint');
 }
+
 
 function explanation() {
     log('toggle explanation');
 }
 
-function encode(str){
+
+function encode(str) {
 	var hash = 0;
 	if (str.length == 0) {
         return hash;
