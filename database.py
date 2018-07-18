@@ -5,12 +5,13 @@ from datetime import datetime
 from utils import pretty_print
 
 # insert user info
-def insert_user(mysql, user_id,user_firstname,user_lastname,user_gender,user_status):
+def insert_user(mysql, user_id,user_firstname,user_lastname,user_status):
+    time = strftime("%Y-%m-%d %H:%M:%S", localtime())
     if request.method == 'POST':
         try:
             con = mysql.connection
             cur = con.cursor()
-            cur.execute("INSERT INTO user (user_id,user_firstname,user_lastname,user_gender,user_status) VALUES (%s, %s, %s, %s, %s)",(user_id,user_firstname,user_lastname,user_gender,user_status))
+            cur.execute("INSERT INTO user (user_id,user_firstname,user_lastname,user_status,reg_time) VALUES (%s, %s, %s, %s, %s)",(user_id,user_firstname,user_lastname,user_status,time))
             con.commit()
             pretty_print("User record successfully added", mode="Database")
         except:
