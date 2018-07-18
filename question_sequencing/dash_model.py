@@ -76,13 +76,58 @@ class DASHSequencingModel(BaseSequencingModel):
         delays = self.update_time - self.last_viewed
         return m / (1 + self.delay_coeff * delays)**f
 
-    def pickNextQuestion(self):
+    # random question selection
+    def pickRandomQuestion(self, subject):
+        if subject == 'random':
+            QID = np.random.randint(0, self.QA_KB.KBlength)
+        # if subject is not random, then pick from the respective subject question bank
+        else:
+            QID = np.random.choice(self.QA_KB.SubDict[subject])
+
+        # set current item 
+        self.curr_item = QID
+
+        data = {'question' : self.QA_KB.QKB[QID],
+                'qid' : QID,
+                'correct_answer': self.QA_KB.AKB[QID],
+                'support' : self.QA_KB.SKB[QID],
+                'distractor' : self.QA_KB.DKB[QID]}
+
+        return data
+ 
+    def thresholdPickQuestion(self, subject = 'random'):
         likelihoods = self.get_likelihoods() 
         # pick next item by closest to threshold
-        self.curr_item = np.argmin(np.abs(likelihoods - self.threshold))
-        print(likelihoods[self.curr_item])
-        picked_question = self.QA_KB.QKB[self.curr_item]
-        return picked_question, self.curr_item
+        if subject == 'random':
+            id_list = list(range(self.num_items))
+        else:
+            id_list = self.QA_KB.SubDict[subject]
+
+        # only set the threshold distances of the ids of the current subject
+        threshold_distances = np.full(self.num_items, 999.0)
+        distances = np.abs(likelihoods - self.threshold)
+        np.put(threshold_distances, id_list, list(distances[id_list]))
+
+        # self.curr_item = np.argmin(threshold_distances)
+        self.curr_item = np.argmin(threshold_distances)
+        print('likelihood is ', likelihoods[self.curr_item])
+
+        QID = self.curr_item
+        
+        data = {'question' : self.QA_KB.QKB[QID],
+                'qid' : QID,
+                'correct_answer': self.QA_KB.AKB[QID],
+                'support' : self.QA_KB.SKB[QID],
+                'distractor' : self.QA_KB.DKB[QID]}
+
+        return data
+
+    # pick threshold based review every 10 steps, otherwise pick random
+    def pickNextQuestion(self, subject = 'random'):
+        if self.curr_step % 5 == 0:
+            return self.thresholdPickQuestion(subject)
+        else:
+            return self.pickRandomQuestion(subject)
 
     # updates the queues and the history 
     # outcome is either 0 or 1, if the user answered correctly 
