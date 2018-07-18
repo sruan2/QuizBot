@@ -171,11 +171,11 @@ def respond_to_payload(payload, sender_id, sender_firstname, qa_model, chatbot_t
         send_correct_answer(sender_id, payload, template_conversation, qa_model, 3, mysql)
 
     elif payload == "NEED_HINT":
-        send_sentence(sender_id, payload[:10], chatbot_text, template_conversation, "sentence_1")
+        send_sentence(sender_id, payload, chatbot_text, template_conversation, "sentence_1")
         send_hint(sender_id, qa_model, mysql)
 
     elif payload == "GIVEUP_NO":
-        send_sentence(sender_id, payload[:10], chatbot_text, template_conversation, "sentence_1")
+        send_paragraph(sender_id, payload, chatbot_text, template_conversation, "paragraph_1")
         send_hint(sender_id, qa_model, mysql)
 
     # elif payload == "INTERACT":
