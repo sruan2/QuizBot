@@ -1,5 +1,6 @@
 $('document').ready(
     function() {
+        fetch_question()
         load();
         FastClick.attach(document.body);
         $('.element-front').show();
@@ -10,33 +11,32 @@ $('document').ready(
             $(this).blur();
         });
 
-        $data = {
-            science: [],
-            gre: [],
-            safety: [],
-            random: [],
-        };
-        for ($q in $questions) {
-            $data['random'].push($questions[$q]);
-            if ($questions[$q].subject === 'gre') {
-                $data['gre'].push($questions[$q]);
-            } else if ($questions[$q].subject === 'safety') {
-                $data['safety'].push($questions[$q]);
-            } else {
-                $data['science'].push($questions[$q]);
-            }
-        }
-        for ($d in $data) {
-            shuffle($data[$d]);
-        }
-        $index = {
-            science: 0,
-            gre: 0,
-            safety: 0,
-            random: 0,
-        };
+        // $data = {
+        //     science: [],
+        //     gre: [],
+        //     safety: [],
+        //     random: [],
+        // };
+        // for ($q in $questions) {
+        //     $data['random'].push($questions[$q]);
+        //     if ($questions[$q].subject === 'gre') {
+        //         $data['gre'].push($questions[$q]);
+        //     } else if ($questions[$q].subject === 'safety') {
+        //         $data['safety'].push($questions[$q]);
+        //     } else {
+        //         $data['science'].push($questions[$q]);
+        //     }
+        // }
+        // for ($d in $data) {
+        //     shuffle($data[$d]);
+        // }
+        // $index = {
+        //     science: 0,
+        //     gre: 0,
+        //     safety: 0,
+        //     random: 0,
+        // };
         $subject = 'science';
-        update();
     }
 );
 
@@ -46,7 +46,7 @@ function change(subject) {
         flip();
     }
     log('change to ' + subject)
-    update();
+    //update();
 }
 
 function flip() {
@@ -61,15 +61,21 @@ function flip() {
     }
 };
 
+// Sherry: comment out for a new next question which loads the next question from backend instead
+// function next() {
+//     $index[$subject] = $index[$subject] < $data[$subject].length - 1 ? $index[$subject] + 1 : 0;
+//     console.log('qid: '+qid);
+//     console.log('subject: '+$subject);
+//     console.log('index: '+$index[$subject]);
+//     if (!$('#front').is(":visible")) {
+//         flip();
+//     }
+//     log("card next");
+//     update();
+// }
+
 function next() {
-    $index[$subject] = $index[$subject] < $data[$subject].length - 1 ? $index[$subject] + 1 : 0;
-    console.log('subject: '+$subject);
-    console.log('index: '+$index[$subject]);
-    if (!$('#front').is(":visible")) {
-        flip();
-    }
-    log("card next");
-    update();
+    fetch_question();
 }
 
 function prev() {
@@ -81,21 +87,22 @@ function prev() {
     update();
 }
 
-function update() {
+function update(question) {
     // $questions are imported from questions.js
-    $question = $data[$subject][$index[$subject]];
-    $('#front').html("Q: " + $question.question);
-    $('#back').html("A: " + $question.correct_answer[0]);
-    $('#explanation').html($question.support);
+    //$question = $data[$subject][$index[$subject]];
+    console.log('update:'+question['qid']);
+    $('#front').html("Q: " + question['question']);
+    $('#back').html("A: " + question['correct_answer']);
+    $('#explanation').html(question['support']);
 
-    $choices = shuffle($question.distractor.concat($question.correct_answer));
+    $choices = shuffle(question['distractor'].concat(question['correct_answer']));
     $hints = "<p>The answer is one of the following:</p><ol>"
     for ($c in $choices) {
         $hints += "<li>" + $choices[$c] + "</li>"
     }
     $('#hint').html($hints + "</ol>");
 
-    $('#qid').html("Question " + $question.id);
+    $('#qid').html("Question " + question['qid']);
 }
 
 function shuffle(a) {
@@ -120,6 +127,16 @@ function load() {
         $('#firstname').val($user.firstname);
         $('#lastname').val($user.lastname);
     }
+}
+
+function fetch_question(){
+    fetch('/question_data').then(function(response) {
+          response.json().then(function(json) {
+            question = json;
+            console.log(question);
+            update(question);
+          });
+        });
 }
 
 function save() {

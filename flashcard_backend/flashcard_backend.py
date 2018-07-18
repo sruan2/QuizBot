@@ -1,45 +1,76 @@
 import sys
 sys.path.append("../")
+sys.path.append("../question_sequencing")
 import os
 import json
 from flask import Flask
 from flask import request
 from flask import render_template
-from flask_mysqldb import MySQL
+from flask import jsonify
+#from flask_mysqldb import MySQL
 import database
-import code
+from random_model import RandomSequencingModel
+from QAKnowledgebase import QAKnowlegeBase
 
 
 app = Flask(__name__, static_url_path='')
 
 # ================== MySQL Setup ==================
-mysql = MySQL()
-app.config['MYSQL_HOST'] = os.environ["DB_HOST"]
-app.config['MYSQL_USER'] = os.environ["DB_USER"]
-app.config['MYSQL_PASSWORD'] = os.environ["DB_PASSWORD"]
-app.config['MYSQL_DB'] = os.environ["DB"]
-mysql.init_app(app)
+# mysql = MySQL()
+# app.config['MYSQL_HOST'] = os.environ["DB_HOST"]
+# app.config['MYSQL_USER'] = os.environ["DB_USER"]
+# app.config['MYSQL_PASSWORD'] = os.environ["DB_PASSWORD"]
+# app.config['MYSQL_DB'] = os.environ["DB"]
+# mysql.init_app(app)
+
+# ================== Load Sequencing Model ==================
+json_file = '../QAdataset/questions_filtered_150_quizbot.json'
+qa_kb = QAKnowlegeBase(json_file)
+model = RandomSequencingModel(qa_kb)
 
 
 @app.route('/')
 def index():
-    return render_template('index.html', qid=1234)
+    return render_template('index.html')
+
+
+@app.route("/question_data")
+def fetch_question():
+    data = model.pickNextQuestion()
+    return jsonify(data)
+
+
+@app.route("/question_data_gre")
+def fetch_question():
+    data = model.pickNextQuestion('gre')
+    return jsonify(data)
+
+
+@app.route("/question_data_science")
+def fetch_question():
+    data = model.pickNextQuestion('science')
+    return jsonify(data)
+
+
+@app.route("/question_data_safety")
+def fetch_question():
+    data = model.pickNextQuestion('safety')
+    return jsonify(data)
+
 
 @app.route('/test', methods=['GET'])
 def verify():
     print("received")
     return "test", 200
 
+
 @app.route('/logdata', methods=['POST'])
 def webhook():
-
     data=json.loads(request.data.decode("utf-8"))
-    #code.interact(local=locals())
-    print("ip:")
-    print(request.remote_addr)
     sender_id = data['user_id']
     qid = data['qid']
     user_action = data['event']
+
     if not int(sender_id) in database.show_user_id_list(mysql):
         sender_firstname = data['firstname']
         sender_lastname = data['lastname']
@@ -47,11 +78,19 @@ def webhook():
         database.insert_user_flashcard(mysql, sender_id, sender_firstname, sender_lastname)
 
     database.insert_user_action_flashcard(mysql, sender_id, qid, user_action)
+
+    # send user feedback to the question sequencing model
+    if user_action == 'GOT IT':
+        model.updateHistory(1)
+    elif user_action == 'NOT GOT IT':
+        model.updateHistory(0)
+
     print("[FLASHCARD] PID " + str(os.getpid())+": Record FLASHCARD user action successfully")
 
     return "ok", 200
 
 
 if __name__ == '__main__':
-    context = ('/etc/letsencrypt/live/smartprimer.org/fullchain.pem', '/etc/letsencrypt/live/smartprimer.org/privkey.pem')
-    app.run(debug=True, host='0.0.0.0', port=5000, ssl_context=context)
+    #context = ('/etc/letsencrypt/live/smartprimer.org/fullchain.pem', '/etc/letsencrypt/live/smartprimer.org/privkey.pem')
+    #app.run(debug=True, host='0.0.0.0', port=5000, ssl_context=context)
+    app.run(debug=True, host='0.0.0.0', port=5000)
