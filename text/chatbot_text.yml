@@ -554,10 +554,6 @@ GIVEUP_NO:
       - source:
           TEMPLATE
         text:
-          NO_POINT
-      - source:
-          TEMPLATE
-        text:
           ENCOURAGE_NO_GIVEUP
 
 BUTTON_DKB:
@@ -647,10 +643,6 @@ INTERACT:
         payload:
           - NEXT_QUESTION  
 
-
-
-
-
 MESSAGE_TEXT:
   sentence:
     sentence_1:
@@ -673,7 +665,6 @@ MESSAGE_TEXT:
           TEMPLATE
         text:
           10_POINT
-
   conversation:
     conversation_1:
       message:
@@ -688,18 +679,4 @@ MESSAGE_TEXT:
           - GOT_IT
         payload:
           - NEXT_QUESTION 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
