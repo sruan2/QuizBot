@@ -111,7 +111,7 @@ def webhook():
             # first-time user
             if not int(sender_id) in database.show_user_id_list(mysql):
                 pretty_print('This is a new user!', mode='QuizBot')
-                database.insert_user(mysql, sender_id, sender_firstname, sender_lastname, sender_gender, 1)
+                database.insert_user(mysql, sender_id, sender_firstname, sender_lastname, 1)
                 database.insert_score(mysql, sender_id, -1, "new_user", 0)
 
             # Liwei: update the user's name
