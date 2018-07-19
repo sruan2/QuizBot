@@ -1,8 +1,6 @@
 import numpy as np
 
-# textFile = 'C:/Users/Justin Xu/Desktop/paragram_vectors.txt'
-# textFile = 'C:/Users/Justin Xu/Desktop/paragram_300_sl999/paragram_300_sl999/paragram_300_sl999.txt~'
-textFile = 'C:/Users/Justin Xu/Desktop/SciQ dataset-2 3/vectors.txt'
+textFile = 'vectors.txt'
 
 def getWordmap(textfile):
     wordMap={}
@@ -19,8 +17,7 @@ def getWordmap(textfile):
     return wordMap
 
 paragram = getWordmap(textFile)
-# pickleFile = 'C:/Users/Justin Xu/Desktop/paragram_vectors_big.pkl'
-pickleFile = 'C:/Users/Justin Xu/Desktop/SciQ dataset-2 3/vectors.pkl'
+pickleFile = 'vectors.pkl'
 
 import _pickle as cPickle
 with open(pickleFile, 'wb') as output:
