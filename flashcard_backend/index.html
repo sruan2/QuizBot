@@ -1,39 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        
+        <title>Flashcards</title>
+    </head>
 
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-
-    <meta name="mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-capable" content="yes">
-
-    <title>Archimedes Story</title>
-
-    <!-- Custom CSS -->
-    <link href="css/splitPanes.css" rel="stylesheet">
-
-    <!-- JS -->
-    <script src="js/jquery.js"></script>
-    <script src="js/communicationChild.js"></script>
-    <script src="js/communicationParent.js"></script>
-</head>
-
-<body>
-
-  <div>
-    <!-- Displays the Archimedes story sequence on the left and the chat interface to interact with Ada on the right -->
-<!--     <iframe id="primer" class="main full" src="http://smartprimer.org/cordova/www/CandyMan_Start.html" ></iframe>
-    <iframe id="chat" class="ada hidden" src="http://smartprimer.org:8000/user"></iframe>
- -->
-    <!-- Uncomment iframes to test locally -->
-    <iframe id="primer" class="main full" src="CandyMan_Start.html" ></iframe>
-    <iframe id="chat" class="ada hidden" src="http://localhost:8000/"></iframe> 
-
-  </div>
-</body>
-
+    <body>
+        <div>
+            <iframe src="https://www.smartprimer.org:5000/" id="flashcard" scrolling="no" frameborder="0" style="position: relative; height: 100vh; width: 100%;">
+            </iframe>
+        </div>
+    </body>
 </html>

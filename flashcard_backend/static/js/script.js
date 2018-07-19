@@ -39,11 +39,13 @@ function flip() {
 
 function got_it() {
     fetch_question();
+    log('GOT IT');
 }
 
 
 function not_got_it() {
     fetch_question();
+    log('NOT GOT IT');
 }
 
 
