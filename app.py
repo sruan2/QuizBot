@@ -113,6 +113,7 @@ def webhook():
                 pretty_print('This is a new user!', mode='QuizBot')
                 database.insert_user(mysql, sender_id, sender_firstname, sender_lastname, 1)
                 database.insert_score(mysql, sender_id, -1, "new_user", 0)
+                database.insert_conversation(mysql, sender_id, -1, "new_user", "new_user", "new_user", 0)
 
             # Liwei: update the user's name
             # database.update_user_name(mysql, sender_id, sender_firstname, sender_lastname)

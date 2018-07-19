@@ -48,8 +48,14 @@ def send_image(recipient_id, image_data):
 
     if image_data["template_type"] == "generic":
         insert_score(mysql, recipient_id, -1, data["recipient"]["message"]["attachment"]["payload"]["elements"]["image_url"], "chatbot_image", 0)
+        #insert_conversation(mysql, user_id, qid, type, subject, dialog, score)
+        database.insert_conversation(mysql, recipient_id, -1, "chatbot_image", "chatbot_image", \
+            data["recipient"]["message"]["attachment"]["payload"]["elements"]["image_url"], 0)
     else:
         insert_score(mysql, recipient_id, -1, data["recipient"]["message"]["attachment"]["payload"]["url"], "chatbot_image", 0)
+        #insert_conversation(mysql, user_id, qid, type, subject, dialog, score)
+        database.insert_conversation(mysql, recipient_id, -1, "chatbot_image", "chatbot_image", \
+            data["recipient"]["message"]["attachment"]["payload"]["url"], 0)
 
 
 def send_message(recipient_id, template_conversation, message_data):
@@ -61,6 +67,8 @@ def send_message(recipient_id, template_conversation, message_data):
     send_data(data)
 
     insert_score(mysql, recipient_id, -1, data["message"]["text"], "chatbot_text", 0)    
+    #insert_conversation(mysql, user_id, qid, type, subject, dialog, score)
+    database.insert_conversation(mysql, recipient_id, -1, "chatbot_message", "chatbot_message", data["message"]["text"], 0)
 
 
 def send_quick_reply(recipient_id, template_conversation, quick_reply_data, message_data = ""):
