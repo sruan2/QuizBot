@@ -2,10 +2,11 @@ import os
 import json
 import requests
 import random
-import time
+from time import *
 import template
 from utils import pretty_print
 from utils import log
+from database import *
 
 PRAMS = {"access_token": os.environ["PAGE_ACCESS_TOKEN"]}
 HEADERS = {"Content-Type": "application/json"}
@@ -23,7 +24,7 @@ def send_typing_action(recipient_id):
     '''
         This function delays the reply and sends a typing action to the specified recipient.
     '''
-    time.sleep(DELAY_TIME)
+    sleep(DELAY_TIME)
     data = template.create_typing_action_template_json(recipient_id)
     send_data(data)
 
@@ -36,6 +37,11 @@ def send_image(recipient_id, image_data):
     data = template.create_image_template_json(recipient_id, image_data)
     send_data(data)
 
+    # if image_data["template_type"] == "generic":
+    #     insert_score(mysql, recipient_id, -1, data["recipient"]["message"]["attachment"]["payload"]["elements"]["image_url"], "chatbot_image", 0)
+    # else:
+    #     insert_score(mysql, recipient_id, -1, data["recipient"]["message"]["attachment"]["payload"]["url"], "chatbot_image", 0)
+
 
 def send_message(recipient_id, template_conversation, message_data):
     '''
@@ -44,6 +50,8 @@ def send_message(recipient_id, template_conversation, message_data):
     send_typing_action(recipient_id)
     data = template.create_message_template_json(recipient_id, template_conversation, message_data)
     send_data(data)
+
+    # insert_score(mysql, recipient_id, -1, data["message"]["text"], "chatbot_text", 0)    
 
 
 def send_quick_reply(recipient_id, template_conversation, quick_reply_data, message_data = ""):

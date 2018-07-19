@@ -167,6 +167,27 @@
                 ]
             }
         }, 
+        "REMINDER": {
+            "image": {
+                "image_url": "https://www.smartprimer.org:{}/pictures/avatar/penguinnormal_happy.png", 
+                "template_type": "image"
+            }, 
+            "quick_reply": {
+                "message": {
+                    "source": "LOCAL", 
+                    "text": "Hi {}, you haven't talked to me for a while. Would you like to resume the learning with me?"
+                }, 
+                "payload": [
+                    "NEXT_QUESTION"
+                ], 
+                "source": [
+                    "TEMPLATE"
+                ], 
+                "title": [
+                    "GOT_IT"
+                ]
+            }
+        }, 
         "SAY_HI": {
             "quick_reply": {
                 "message": {
@@ -204,24 +225,36 @@
     }, 
     "TEMPLATE": {
         "10_POINT": [
-            "You earned 10 points!"
+            "You earned 10 points!", 
+            "Awesome! You got 10 points!", 
+            "Tremendous! That earned you 10 points!", 
+            "Wow! Great job! You just got 10 points!"
         ], 
         "3_POINT": [
-            "You earned 3 points! Keep it up! \ud83d\udcaa\ud83c\udffc"
+            "You earned 3 points! Keep it up! \ud83d\udcaa\ud83c\udffc", 
+            "Nice! You got 3 points!!", 
+            "Great work! That eraned you 3 points!", 
+            "Let's keep it rolling! You just got 3 points!"
         ], 
         "ANSWER_CORRECT": [
             "That\u2019s right! \ud83c\udf89", 
             "Correct! \ud83c\udf8a", 
-            "Good job! \ud83d\ude4c\ud83c\udffc"
+            "Good job! \ud83d\ude4c\ud83c\udffc", 
+            "Nice! \ud83c\udf4e", 
+            "Good Answer! \u2705", 
+            "Fantastic! \ud83d\udcaf"
         ], 
         "ANSWER_NOT_CORRECT": [
             "I'm sorry, but that was incorrect. You didn't earn any points \ud83d\ude1e", 
-            "That's not quite right. You didn't earn any points \ud83d\ude1e"
+            "That's not quite right. You didn't earn any points \ud83d\ude1e", 
+            "Oops, that answer was incorrect. You didn't earn any points \ud83d\ude1e", 
+            "That wasn't quite what we were looking for. You didn't earn any points \ud83d\ude1e"
         ], 
         "BUGREPORT": [
             "Okay, I\u2019ll take a note of that. Thanks for the feedback! \ud83d\udc4d\ud83c\udffc", 
             "Alrighty, thank you for your feedback. I'll take a note of that!", 
-            "Thank you for your bug report. I'll take a look at that!"
+            "Thank you for your bug report. I'll take a look at that!", 
+            "Thanks for the feedback! I'll take a note of that!"
         ], 
         "CHOOSE_SUBJECT": [
             "Sure, which subject would you like me to quiz you on?\ud83d\udc47\ud83c\udffc", 
@@ -230,7 +263,10 @@
             "Sure, now tell me which subject you would like to choose.\ud83d\udc47\ud83c\udffc", 
             "Okay, now tell me which subject you would like to study.\ud83d\udc47\ud83c\udffc", 
             "OK, which of the following subjects would you like to study?\ud83d\udc47\ud83c\udffc", 
-            "Sure, which of the following subjects would you like me to quiz you on?\ud83d\udc47\ud83c\udffc"
+            "Sure, which of the following subjects would you like me to quiz you on?\ud83d\udc47\ud83c\udffc", 
+            "Cool, which subject do you want to study?\ud83d\udc47\ud83c\udffc", 
+            "Cool, let's pick one of the following subjects?\ud83d\udc47\ud83c\udffc", 
+            "Cool, which subject would you like to study?\ud83d\udc47\ud83c\udffc"
         ], 
         "CONTINUE": [
             "Great! Let's move on.", 
@@ -240,25 +276,51 @@
             "Let's continue with the next question.", 
             "Alrighty, let's continue learning.", 
             "Good! Let's move on.", 
-            "Great! Let's resuming learning."
+            "Great! Let's resume learning.", 
+            "Great! Let's resuming learning.", 
+            "Cool! Let's keep going."
         ], 
         "DKB": [
             "I'm sorry, but that was incorrect. You didn't earn any points \ud83d\ude1e", 
-            "That's not quite right. You didn't earn any points \ud83d\ude1e"
+            "That's not quite right. You didn't earn any points \ud83d\ude1e", 
+            "Oops, that wasn't quite correct. You didn't earn any points \ud83d\ude1e", 
+            "Hmm, that wasn't quite right. You didn't earn any points \ud83d\ude1e"
+        ], 
+        "ENCOURAGE": [
+            "Keep up the good work!", 
+            "Let's continue the good work!"
         ], 
         "ENCOURAGE_NO_GIVEUP": [
             "Okay! Let's try again \ud83d\udcaa\ud83c\udffc Tell me which of these is the right answer:", 
-            "Sure, let's try this again! Which of the following is the correct answer?"
+            "Sure, let's try this again! Which of the following is the correct answer?", 
+            "Try again! Which of the following answers is correct?", 
+            "Alright! Let's do it again! Which of these is the answer?", 
+            "Don't give up! Which answer is correct?"
         ], 
         "ENCOURAGE_YES_GIVEUP": [
             "That\u2019s okay, you\u2019ll get it next time! \u263a\ufe0f", 
-            "That's fine, you'll nail it next time! \u263a\ufe0f"
+            "That's fine, you'll nail it next time! \u263a\ufe0f", 
+            "Keep trying, you'll get it next time! \u263a\ufe0f", 
+            "Don't give up, you'll get it next time! \u263a"
         ], 
         "EXPLANATION": [
             "Here's an explanation:", 
             "This is why:", 
             "This is an explanation of the question:", 
-            "I hope this explanation could help you understand the the question."
+            "I hope this explanation could help you understand the the question.", 
+            "Here's why:"
+        ], 
+        "GOOD_JOB_GRE": [
+            "You've done a very good job in GRE! Congrats!", 
+            "You are becoming a master in GRE!"
+        ], 
+        "GOOD_JOB_SAFETY": [
+            "You've done a very good job in safety! Congrats!", 
+            "You are becoming a master in safety!"
+        ], 
+        "GOOD_JOB_SCIENCE": [
+            "You've done a very good job in science! Congrats!", 
+            "You are becoming a master in science!"
         ], 
         "GOT_IT": [
             "Got it \ud83d\udca1", 
@@ -392,7 +454,11 @@
         ], 
         "GRE": [
             "All right! I\u2019ll quiz you on GRE!", 
-            "Okay! Let\u2019s see how much you know about GRE!"
+            "Okay! Let\u2019s see how much you know about GRE!", 
+            "Cool! Here's some questions on the GRE!", 
+            "Let's answer some questions about the GRE!", 
+            "Let's test your knowledge on the GRE!", 
+            "Awesome! Let's learn about the GRE!"
         ], 
         "INDEX": [
             "1\ufe0f\u20e3", 
@@ -409,12 +475,17 @@
         "NEED_HINT": [
             "Okay. Which of these is the right answer?\ud83d\udc47\ud83c\udffc\"", 
             "Which of the following options is the right answer?", 
-            "Alrighty, which of the following options is the answer of the question?"
+            "Alrighty, which of the following options is the answer of the question?", 
+            "Okay. I'll give you some choices.", 
+            "It's one of the following choices.", 
+            "Pick one of the following answers."
         ], 
         "NO_POINT": [
             "You didn't earn any points this time.", 
             "You didn't get it right this time.", 
-            "I'm sorry, you didn't earn any points this time."
+            "I'm sorry, you didn't earn any points this time.", 
+            "Oops, no points this time.", 
+            "Oh no! That didn't earn any points."
         ], 
         "QUESTION": [
             "Here's a question for you:", 
@@ -429,19 +500,39 @@
             "Let's see if you would answer this one.", 
             "How about this next one:", 
             "What about this next question:", 
-            "Alrighty, let's try this one."
+            "Alrighty, let's try this one.", 
+            "See if you can answer this next one."
         ], 
         "RANDOM": [
             "Okay! Let\u2019s mix it up! \ud83c\udfb2", 
-            "All right! A little bit of everything! \ud83c\udfb2"
+            "All right! A little bit of everything! \ud83c\udfb2", 
+            "I see you! Let's leave it up to chance! \ud83c\udfb2", 
+            "Cool! Let's learn everything! \ud83c\udfb2", 
+            "Let's answer some questions about everything! \ud83c\udfb2", 
+            "Let's quiz you on a little bit of everything! \ud83c\udfb2", 
+            "Nice! Enjoy a little variety? Let's answer some questions! \ud83c\udfb2"
+        ], 
+        "REMINDER": [
+            "{}, you haven't talked to me for a while. Do you want to continue the conversation with me?", 
+            " Hi {}, you haven't talked to me for a while. Would you like to resume the learning with me?"
         ], 
         "SAFETY": [
             "All right! I\u2019ll quiz you on safety!", 
-            "Okay! Let\u2019s see how much you know about safety!"
+            "Okay! Let\u2019s see how much you know about safety!", 
+            "Safety first! Here's some questions on safety!", 
+            "Let's answer some questions about safety!", 
+            "Let's test your knowledge on safety!", 
+            "Good choice! Let's see what you know about safety!", 
+            "Awesome! Let's learn about safety!"
         ], 
         "SCIENCE": [
             "All right! I\u2019ll quiz you on science!", 
-            "Okay! Let\u2019s see how much you know about science!"
+            "Okay! Let\u2019s see how much you know about science!", 
+            "Science rules! Let's see what you know.", 
+            "Awesome! Here's some questions on science!", 
+            "Let's answer some questions about science!", 
+            "Let's test your knowledge on science!", 
+            "Awesome! Let's learn about science!"
         ], 
         "SUBJECT": [
             "SCIENCE", 

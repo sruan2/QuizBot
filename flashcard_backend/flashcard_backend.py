@@ -13,7 +13,8 @@ from random_model import RandomSequencingModel
 from QAKnowledgebase import QAKnowlegeBase
 
 
-app = Flask(__name__, static_url_path='')
+app = Flask(__name__)
+app.config['SEND_FILE_MAX_AGE_DEFAULT'] = 0
 
 # ================== MySQL Setup ==================
 # mysql = MySQL()
@@ -41,19 +42,19 @@ def fetch_question():
 
 
 @app.route("/question_data_gre")
-def fetch_question():
+def fetch_question_gre():
     data = model.pickNextQuestion('gre')
     return jsonify(data)
 
 
 @app.route("/question_data_science")
-def fetch_question():
+def fetch_question_science():
     data = model.pickNextQuestion('science')
     return jsonify(data)
 
 
 @app.route("/question_data_safety")
-def fetch_question():
+def fetch_question_safety():
     data = model.pickNextQuestion('safety')
     return jsonify(data)
 
@@ -86,11 +87,11 @@ def webhook():
         model.updateHistory(0)
 
     print("[FLASHCARD] PID " + str(os.getpid())+": Record FLASHCARD user action successfully")
-
+# 
     return "ok", 200
 
 
 if __name__ == '__main__':
     #context = ('/etc/letsencrypt/live/smartprimer.org/fullchain.pem', '/etc/letsencrypt/live/smartprimer.org/privkey.pem')
     #app.run(debug=True, host='0.0.0.0', port=5000, ssl_context=context)
-    app.run(debug=True, host='0.0.0.0', port=5000)
+    app.run(debug=True, host='0.0.0.0', use_reloader=False, port=5000)
