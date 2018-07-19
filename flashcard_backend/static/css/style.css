@@ -66,8 +66,8 @@ body, html {
     height: 40vh;
     text-align: center;
     margin: 10px;
-    box-shadow: 1px 2px #B3B3B3;
-    background-color: #EEEEF1;
+    border-color: #DFDFDF;
+    border-width: 2px;
 }
 
 .card-body {

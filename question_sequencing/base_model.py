@@ -24,7 +24,7 @@ class BaseSequencingModel():
 
 
     @abstractmethod
-    def pickNextQuestion(self):
+    def pickNextQuestion(self, subject = "random"):
         '''Return the next question customized for the given student
         Returns:
             picked_question: str of picked question text.
