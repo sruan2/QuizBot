@@ -37,13 +37,13 @@ def init_payload(template_conversation):
     messaging_API.send_get_started(json.dumps(template_conversation["STATE"]["GET_STARTED"]))
 
 
-def send_image(recipient_id, payload, chatbot_text, image_id):
+def send_image(mysql, recipient_id, payload, chatbot_text, image_id):
     '''
         This function sends an image to the specified recipient.
     '''
     messaging_API.send_typing_action(recipient_id)
     image_data = chatbot_text[payload]["image"][image_id]
-    messaging_API.send_image(recipient_id, image_data)
+    messaging_API.send_image(mysql, recipient_id, image_data)
 
 
 def send_sentence(recipient_id, payload, chatbot_text, template_conversation, sentence_id):
@@ -51,7 +51,7 @@ def send_sentence(recipient_id, payload, chatbot_text, template_conversation, se
         This function sends a single sentence to the specified recipient.
     '''
     message_data = chatbot_text[payload]["sentence"][sentence_id]
-    messaging_API.send_message(recipient_id, template_conversation, message_data)
+    messaging_API.send_message(mysql, recipient_id, template_conversation, message_data)
 
 
 def send_paragraph(recipient_id, payload, chatbot_text, template_conversation, paragraph_id):
@@ -63,10 +63,10 @@ def send_paragraph(recipient_id, payload, chatbot_text, template_conversation, p
 
     for i in range(num_sentence):
         message_data = paragraph_data[i]
-        messaging_API.send_message(recipient_id, template_conversation, message_data)
+        messaging_API.send_message(mysql, recipient_id, template_conversation, message_data)
 
 
-def send_conversation(recipient_id, payload, chatbot_text, template_conversation, conversation_id):
+def send_conversation(mysql, recipient_id, payload, chatbot_text, template_conversation, conversation_id):
     '''
         This function sends a list of texts, with a short delay and typing action in between scentences, 
         along with a set of quick reply button to continue the conversation, to the specified recipient.
@@ -76,7 +76,7 @@ def send_conversation(recipient_id, payload, chatbot_text, template_conversation
 
     message_data = conversation_data["message"]
     for msg in message_data[:-1]:
-        messaging_API.send_message(recipient_id, template_conversation, msg)
+        messaging_API.send_message(mysql, recipient_id, template_conversation, msg)
 
     quick_reply_data = conversation_data["quick_reply"]
     messaging_API.send_quick_reply(recipient_id, template_conversation, quick_reply_data, message_data[-1])
@@ -99,7 +99,7 @@ def send_question(recipient_id, template_conversation, question):
     question_data = template_conversation["STATE"]["QUESTION"]
 
     message_data = question_data["message"]
-    messaging_API.send_message(recipient_id, template_conversation, message_data)
+    messaging_API.send_message(mysql, recipient_id, template_conversation, message_data)
     
     quick_reply_data = question_data["quick_reply"]
     question_format = quick_reply_data["message"]["text"]
@@ -141,7 +141,7 @@ def send_explanation(recipient_id, template_conversation, explanation):
     explanation_data = template_conversation["STATE"]["EXPLANATION"]
 
     message_data = explanation_data["message"]
-    messaging_API.send_message(recipient_id, template_conversation, message_data)
+    messaging_API.send_message(mysql, recipient_id, template_conversation, message_data)
     
     quick_reply_data = explanation_data["quick_reply"]
     explanation_format = quick_reply_data["message"]["text"]
@@ -307,7 +307,7 @@ def log(message):
     print(str(message))
     sys.stdout.flush()
 
-def send_message(sender_id, msg_subject):
+def send_message(mysql, sender_id, msg_subject):
     pass
 
 

@@ -14,13 +14,6 @@ HEADERS = {"Content-Type": "application/json"}
 
 DELAY_TIME = 1
 
-# MySQL Setup
-mysql = MySQL()
-app.config['MYSQL_HOST'] = os.environ["DB_HOST"]
-app.config['MYSQL_USER'] = os.environ["DB_USER"]
-app.config['MYSQL_PASSWORD'] = os.environ["DB_PASSWORD"]
-app.config['MYSQL_DB'] = os.environ["DB"]
-mysql.init_app(app)
 
 def send_data(data, data_type = "messages"):
     r = requests.post("https://graph.facebook.com/v2.6/me/" + data_type, params=PRAMS, headers=HEADERS, data=data)
@@ -38,7 +31,7 @@ def send_typing_action(recipient_id):
     send_data(data)
 
 
-def send_image(recipient_id, image_data):
+def send_image(mysql,recipient_id, image_data):
     '''
         This function sends an image to the specified recipient.
     '''
@@ -58,7 +51,7 @@ def send_image(recipient_id, image_data):
             data["recipient"]["message"]["attachment"]["payload"]["url"], 0)
 
 
-def send_message(recipient_id, template_conversation, message_data):
+def send_message(mysql, recipient_id, template_conversation, message_data):
     '''
         This function sends a text message, with a short delay and typing action at the beginning, to the specified recipient.
     '''

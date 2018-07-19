@@ -6,7 +6,7 @@ from message import *
 from database import *
 
 
-def respond_to_payload(payload, sender_id, sender_firstname, qa_model, chatbot_text, template_conversation, mysql):
+def respond_to_payload(mysql, payload, sender_id, sender_firstname, qa_model, chatbot_text, template_conversation, mysql):
     '''
         This function responds to the QuizBot's payload states.
 
@@ -23,84 +23,84 @@ def respond_to_payload(payload, sender_id, sender_firstname, qa_model, chatbot_t
     '''
 
     if payload == "GET_INTRO_1":
-        send_image(sender_id, payload, chatbot_text, "image_1")
+        send_image(mysql, sender_id, payload, chatbot_text, "image_1")
         send_say_hi(sender_id, template_conversation, sender_firstname)
 
     elif payload == "GET_INTRO_2":
-        send_conversation(sender_id, payload, chatbot_text, template_conversation, "conversation_1")
+        send_conversation(mysql, sender_id, payload, chatbot_text, template_conversation, "conversation_1")
 
     elif payload == "GET_INTRO_3":
-        send_image(sender_id, payload, chatbot_text, "image_1")
-        send_conversation(sender_id, payload, chatbot_text, template_conversation, "conversation_1")
+        send_image(mysql, sender_id, payload, chatbot_text, "image_1")
+        send_conversation(mysql, sender_id, payload, chatbot_text, template_conversation, "conversation_1")
 
     elif payload == "GET_INTRO_4":
-        send_image(sender_id, payload, chatbot_text, "image_1")
-        send_image(sender_id, payload, chatbot_text, "image_2")
-        send_conversation(sender_id, payload, chatbot_text, template_conversation, "conversation_1")
+        send_image(mysql, sender_id, payload, chatbot_text, "image_1")
+        send_image(mysql, sender_id, payload, chatbot_text, "image_2")
+        send_conversation(mysql, sender_id, payload, chatbot_text, template_conversation, "conversation_1")
 
     elif payload == "GET_INTRO_5":
-        send_image(sender_id, payload, chatbot_text, "image_1")
-        send_conversation(sender_id, payload, chatbot_text, template_conversation, "conversation_1")
+        send_image(mysql, sender_id, payload, chatbot_text, "image_1")
+        send_conversation(mysql, sender_id, payload, chatbot_text, template_conversation, "conversation_1")
 
     elif payload == "GET_READY":
-        send_conversation(sender_id, payload, chatbot_text, template_conversation, "conversation_1")
+        send_conversation(mysql, sender_id, payload, chatbot_text, template_conversation, "conversation_1")
 
     elif payload == "YUP_IM_READY":
         update_status(mysql, sender_id, 1)
         insert_question(mysql, sender_id, -1, payload)
-        send_conversation(sender_id, payload, chatbot_text, template_conversation, "conversation_1")
+        send_conversation(mysql, sender_id, payload, chatbot_text, template_conversation, "conversation_1")
 
     elif payload == "USER_MANUAL_1":
-        send_image(sender_id, payload, chatbot_text, "image_1")
-        send_conversation(sender_id, payload, chatbot_text, template_conversation, "conversation_1")
+        send_image(mysql, sender_id, payload, chatbot_text, "image_1")
+        send_conversation(mysql, sender_id, payload, chatbot_text, template_conversation, "conversation_1")
 
     elif payload == "USER_MANUAL_2":
-        send_image(sender_id, payload, chatbot_text, "image_1")
-        send_image(sender_id, payload, chatbot_text, "image_2")
-        send_conversation(sender_id, payload, chatbot_text, template_conversation, "conversation_1")
+        send_image(mysql, sender_id, payload, chatbot_text, "image_1")
+        send_image(mysql, sender_id, payload, chatbot_text, "image_2")
+        send_conversation(mysql, sender_id, payload, chatbot_text, template_conversation, "conversation_1")
 
     elif payload == "USER_MANUAL_3":
-        send_image(sender_id, payload, chatbot_text, "image_1")
-        send_conversation(sender_id, payload, chatbot_text, template_conversation, "conversation_1")
+        send_image(mysql, sender_id, payload, chatbot_text, "image_1")
+        send_conversation(mysql, sender_id, payload, chatbot_text, template_conversation, "conversation_1")
 
     elif payload == "USER_MANUAL_4":
-        send_image(sender_id, payload, chatbot_text, "image_1")
-        send_image(sender_id, payload, chatbot_text, "image_2")
-        send_conversation(sender_id, payload, chatbot_text, template_conversation, "conversation_1")
+        send_image(mysql, sender_id, payload, chatbot_text, "image_1")
+        send_image(mysql, sender_id, payload, chatbot_text, "image_2")
+        send_conversation(mysql, sender_id, payload, chatbot_text, template_conversation, "conversation_1")
 
     elif payload == "USER_MANUAL_5":
-        send_image(sender_id, payload, chatbot_text, "image_1")
-        send_conversation(sender_id, payload, chatbot_text, template_conversation, "conversation_1")
+        send_image(mysql, sender_id, payload, chatbot_text, "image_1")
+        send_conversation(mysql, sender_id, payload, chatbot_text, template_conversation, "conversation_1")
 
     elif payload == "USER_MANUAL_6":
-        send_image(sender_id, payload, chatbot_text, "image_1")
-        send_conversation(sender_id, payload, chatbot_text, template_conversation, "conversation_1")
+        send_image(mysql, sender_id, payload, chatbot_text, "image_1")
+        send_conversation(mysql, sender_id, payload, chatbot_text, template_conversation, "conversation_1")
 
     elif payload == "USER_MANUAL_7":
-        send_conversation(sender_id, payload, chatbot_text, template_conversation, "conversation_1")
+        send_conversation(mysql, sender_id, payload, chatbot_text, template_conversation, "conversation_1")
 
     elif payload == "ABOUT_QUIZBOT":
-        send_conversation(sender_id, payload, chatbot_text, template_conversation, "conversation_1")
+        send_conversation(mysql, sender_id, payload, chatbot_text, template_conversation, "conversation_1")
 
     elif payload == "CONTACT":
-        send_conversation(sender_id, payload, chatbot_text, template_conversation, "conversation_1")
+        send_conversation(mysql, sender_id, payload, chatbot_text, template_conversation, "conversation_1")
 
     elif payload == "REPORT_BUG":
         insert_score(mysql, sender_id, -1, payload, -1)
         #insert_conversation(mysql, user_id, qid, type, subject, dialog, score)
         database.insert_conversation(mysql, sender_id, -1, "report_bug", "report_bug", payload, 0)
 
-        send_conversation(sender_id, payload, chatbot_text, template_conversation, "conversation_1")
+        send_conversation(mysql, sender_id, payload, chatbot_text, template_conversation, "conversation_1")
 
     elif payload == "CONTINUE":
         update_status(mysql, sender_id, 1)
-        send_conversation(sender_id, payload, chatbot_text, template_conversation, "conversation_1")
+        send_conversation(mysql, sender_id, payload, chatbot_text, template_conversation, "conversation_1")
 
     elif payload == "CHECK_TOTAL_SCORE":
         send_total_score(sender_id, template_conversation, str(show_score(mysql, sender_id)))
 
     elif payload == "I_DONT_KNOW":
-        send_conversation(sender_id, payload, chatbot_text, template_conversation, "conversation_1")
+        send_conversation(mysql, sender_id, payload, chatbot_text, template_conversation, "conversation_1")
 
     elif payload == "WHY":
         send_explanation(sender_id, template_conversation, qa_model, mysql)
@@ -111,11 +111,11 @@ def respond_to_payload(payload, sender_id, sender_firstname, qa_model, chatbot_t
     elif payload == "SCIENCE":
         QID = show_last_qid_subject(mysql, sender_id)[0] 
         if QID >= 50 and QID < 100:
-            send_image(sender_id, payload, chatbot_text, "SAFETY")
+            send_image(mysql, sender_id, payload, chatbot_text, "SAFETY")
         elif QID >= 100 and QID < 150:
-            send_image(sender_id, payload, chatbot_text, "GRE")
+            send_image(mysql, sender_id, payload, chatbot_text, "GRE")
         else:
-            send_image(sender_id, payload, chatbot_text, "NORMAL")
+            send_image(mysql, sender_id, payload, chatbot_text, "NORMAL")
 
         send_sentence(sender_id, payload, chatbot_text, template_conversation, "sentence_1")
         send_question(sender_id, template_conversation, payload, qa_model, mysql, "science")
@@ -123,11 +123,11 @@ def respond_to_payload(payload, sender_id, sender_firstname, qa_model, chatbot_t
     elif payload == "GRE":
         QID = show_last_qid_subject(mysql, sender_id)[0] 
         if QID >= 0 and QID < 50:
-            send_image(sender_id, payload, chatbot_text, "SCIENCE")
+            send_image(mysql, sender_id, payload, chatbot_text, "SCIENCE")
         elif QID >= 50 and QID < 100:
-            send_image(sender_id, payload, chatbot_text, "SAFETY")
+            send_image(mysql, sender_id, payload, chatbot_text, "SAFETY")
         else:
-            send_image(sender_id, payload, chatbot_text, "NORMAL")
+            send_image(mysql, sender_id, payload, chatbot_text, "NORMAL")
 
         send_sentence(sender_id, payload, chatbot_text, template_conversation, "sentence_1")
         send_question(sender_id, template_conversation, payload, qa_model, mysql, "gre")
@@ -135,11 +135,11 @@ def respond_to_payload(payload, sender_id, sender_firstname, qa_model, chatbot_t
     elif payload == "SAFETY":
         QID = show_last_qid_subject(mysql, sender_id)[0] 
         if QID >= 0 and QID < 50:
-            send_image(sender_id, payload, chatbot_text, "SCIENCE")
+            send_image(mysql, sender_id, payload, chatbot_text, "SCIENCE")
         elif QID >= 100 and QID < 150:
             send_image(sender_id, payload, chatbot_text, "GRE")
         else:
-            send_image(sender_id, payload, chatbot_text, "NORMAL")
+            send_image(mysql, sender_id, payload, chatbot_text, "NORMAL")
 
         send_sentence(sender_id, payload, chatbot_text, template_conversation, "sentence_1")
         send_question(sender_id, template_conversation, payload, qa_model, mysql, "safety")
@@ -147,13 +147,13 @@ def respond_to_payload(payload, sender_id, sender_firstname, qa_model, chatbot_t
     elif payload == "RANDOM":
         QID = show_last_qid_subject(mysql, sender_id)[0] 
         if QID >= 0 and QID < 50:
-            send_image(sender_id, payload, chatbot_text, "SCIENCE")
+            send_image(mysql, sender_id, payload, chatbot_text, "SCIENCE")
         elif QID >= 50 and QID < 100:
-            send_image(sender_id, payload, chatbot_text, "SAFETY")
+            send_image(mysql, sender_id, payload, chatbot_text, "SAFETY")
         elif QID >= 100 and QID < 150:
-            send_image(sender_id, payload, chatbot_text, "GRE")
+            send_image(mysql, sender_id, payload, chatbot_text, "GRE")
         else:
-            send_image(sender_id, payload, chatbot_text, "NORMAL")
+            send_image(mysql, sender_id, payload, chatbot_text, "NORMAL")
 
         send_sentence(sender_id, payload, chatbot_text, template_conversation, "sentence_1")
         send_question(sender_id, template_conversation, payload, qa_model, mysql, "random")
@@ -261,5 +261,5 @@ def respond_to_messagetext(message_text, sender_id, qa_model, chatbot_text, temp
                 send_correct_answer(sender_id, "MESSAGE_TEXT", template_conversation, qa_model, 10, mysql)
         else:
             update_status(mysql, sender_id, 1)
-            send_conversation(sender_id, "MESSAGE_TEXT", chatbot_text, template_conversation, conversation_id)
+            send_conversation(mysql, sender_id, "MESSAGE_TEXT", chatbot_text, template_conversation, conversation_id)
 
