@@ -204,6 +204,8 @@ def send_correct_answer(recipient_id, payload, template_conversation, qa_model, 
     QID, _ = show_last_qid_subject(mysql, recipient_id)
     standard_answer = qa_model.getAnswer(QID)
     insert_score(mysql, recipient_id, QID, payload, score)
+    #insert_conversation(mysql, user_id, qid, type, subject, dialog, score)
+    database.insert_conversation(mysql, recipient_id, QID, "user_typing", "subject", payload, score)
 
     send_format_quick_reply_text(recipient_id, template_conversation, "CORRECT_ANSWER", standard_answer)
 

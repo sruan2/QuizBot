@@ -87,6 +87,9 @@ def respond_to_payload(payload, sender_id, sender_firstname, qa_model, chatbot_t
 
     elif payload == "REPORT_BUG":
         insert_score(mysql, sender_id, -1, payload, -1)
+        #insert_conversation(mysql, user_id, qid, type, subject, dialog, score)
+        database.insert_conversation(mysql, sender_id, -1, "report_bug", "report_bug", payload, 0)
+
         send_conversation(sender_id, payload, chatbot_text, template_conversation, "conversation_1")
 
     elif payload == "CONTINUE":

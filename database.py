@@ -73,6 +73,21 @@ def insert_score(mysql, user_id, qid, answer, score):
             pretty_print("error in inserting score operation", mode="BUG!")
 
 
+# insert user conversation
+def insert_conversation(mysql, user_id, qid, type, subject, dialog, score):
+    time = strftime("%Y-%m-%d %H:%M:%S", localtime())
+    if request.method == 'POST':
+        try:
+            con = mysql.connection
+            cur = con.cursor()
+            cur.execute("INSERT INTO conversation (user_id,qid,dialog,score, type, subject, r_time) VALUES (%s, %s, %s, %s, %s)", (user_id,qid,dialog,score,type,subject,time))
+            con.commit()
+            pretty_print("Score record successfully added", mode="Database")
+        except:
+            con.rollback()
+            pretty_print("error in inserting score operation", mode="BUG!")
+
+
 # insert asked questions
 def insert_question(mysql, user_id, qid, subject):
     time = strftime("%Y-%m-%d %H:%M:%S", localtime())
