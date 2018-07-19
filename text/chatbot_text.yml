@@ -22,7 +22,7 @@ GET_INTRO_2:
         - source:
             LOCAL
           text:
-            I ask you questions❓, and you give me answers.
+            I ask you questions, and you give me answers.
         - source:
             LOCAL
           text:
@@ -48,7 +48,7 @@ GET_INTRO_3:
         - source:
             LOCAL
           text:
-            To study the questions, you can type in ⌨️ your answers in the text field and QuizBot will evaluate the answers for you.
+            To study the questions, you can type in your answers in the text field and QuizBot will evaluate the answers for you.
         - source:
             LOCAL
           text:
@@ -79,12 +79,12 @@ GET_INTRO_4:
         - source:
             LOCAL
           text:
-            If you don't know the answers, then feel free to tap on the hint button.💡
+            If you don't know the answers, then feel free to tap on the hint button.
         
         - source:
             LOCAL
           text:
-            The hint will give you a list of potential answers and you can select one from them. 🔠
+            The hint will give you a list of potential answers and you can select one from them.
 
         - source:
             LOCAL
@@ -134,7 +134,7 @@ USER_MANUAL_1:
         - source:
             LOCAL
           text:
-            To study the questions, you can type in ⌨️ your answers in the text field and QuizBot will evaluate the answers for you.
+            To study the questions, you can type in your answers in the text field and QuizBot will evaluate the answers for you.
         - source:
             LOCAL
           text:
@@ -165,11 +165,11 @@ USER_MANUAL_2:
         - source:
             LOCAL
           text:
-            If you don't know the answers, then feel free to tap on the hint button.💡
+            If you don't know the answers, then feel free to tap on the hint button. 
         - source:
             LOCAL
           text:
-            The hint will give you a list of potential answers and you can select one from them. 🔠
+            The hint will give you a list of potential answers and you can select one from them.
         - source:
             LOCAL
           text:
@@ -323,7 +323,7 @@ ABOUT_QUIZBOT:
         - source:
             LOCAL
           text:
-            I use technology in a scientific and interactive way to help you learn knowledge.
+            I use technology in a scientific and NEXT_QUESTIONive way to help you learn knowledge.
       quick_reply:
         source:
           - TEMPLATE
@@ -433,7 +433,23 @@ SCIENCE:
         TEMPLATE
       text:
         SCIENCE
-          
+  image:
+    SAFETY:
+      template_type: 
+        image
+      image_url: 
+        https://www.smartprimer.org:{}/pictures/avatar/evolvesafety_scientist.gif
+    GRE:
+      template_type: 
+        image
+      image_url: 
+        https://www.smartprimer.org:{}/pictures/avatar/evolvereading_scientist.gif
+    NORMAL:
+      template_type: 
+        image
+      image_url: 
+        https://www.smartprimer.org:{}/pictures/avatar/evolvenormal_scientist.gif 
+
 GRE:
   sentence:
     sentence_1:
@@ -441,6 +457,22 @@ GRE:
         TEMPLATE
       text:
         GRE
+  image:
+    SAFETY:
+      template_type: 
+        image
+      image_url: 
+        https://www.smartprimer.org:{}/pictures/avatar/evolvesafety_reading.gif
+    SCIENCE:
+      template_type: 
+        image
+      image_url: 
+        https://www.smartprimer.org:{}/pictures/avatar/evolvescientist_reading.gif
+    NORMAL:
+      template_type: 
+        image
+      image_url: 
+        https://www.smartprimer.org:{}/pictures/avatar/evolvenormal_reading.gif
 
 SAFETY:
   sentence:
@@ -449,6 +481,22 @@ SAFETY:
         TEMPLATE
       text:
         SAFETY
+  image:
+    SCIENCE:
+      template_type: 
+        image
+      image_url: 
+        https://www.smartprimer.org:{}/pictures/avatar/evolvescientist_safety.gif
+    GRE:
+      template_type: 
+        image
+      image_url: 
+        https://www.smartprimer.org:{}/pictures/avatar/evolvereading_safety.gif
+    NORMAL:
+      template_type: 
+        image
+      image_url: 
+        https://www.smartprimer.org:{}/pictures/avatar/evolvenormal_safety.gif
 
 RANDOM:
   sentence:
@@ -457,6 +505,28 @@ RANDOM:
         TEMPLATE
       text:
         RANDOM
+  image:
+    SAFETY:
+      template_type: 
+        image
+      image_url: 
+        https://www.smartprimer.org:{}/pictures/avatar/evolvesafety_normal.gif
+    SCIENCE:
+      template_type: 
+        image
+      image_url: 
+        https://www.smartprimer.org:{}/pictures/avatar/evolvescientist_normal.gif
+    GRE:
+      template_type: 
+        image
+      image_url: 
+        https://www.smartprimer.org:{}/pictures/avatar/evolvereading_normal.gif
+    NORMAL:
+      template_type: 
+        image
+      image_url: 
+        https://www.smartprimer.org:{}/pictures/avatar/celebration.gif
+
 
 NEED_HINT:
   sentence:
@@ -484,10 +554,6 @@ GIVEUP_NO:
       - source:
           TEMPLATE
         text:
-          NO_POINT
-      - source:
-          TEMPLATE
-        text:
           ENCOURAGE_NO_GIVEUP
 
 BUTTON_DKB:
@@ -505,6 +571,77 @@ BUTTON_AKB:
         TEMPLATE
       text:
         3_POINT
+
+INTERACT:
+  image:
+    SCIENCE:
+      template_type: 
+        image
+      image_url: 
+        https://www.smartprimer.org:{}/pictures/avatar/penguinscientist_happy.png
+    SAFETY:
+      template_type: 
+        image
+      image_url: 
+        https://www.smartprimer.org:{}/pictures/avatar/penguinsafety_happy.png
+    GRE:
+      template_type: 
+        image
+      image_url: 
+        https://www.smartprimer.org:{}/pictures/avatar/penguinreading_happy.png
+
+  conversation:
+    SCIENCE:
+      message:
+        - source:
+            TEMPLATE
+          text:
+            GOOD_JOB_SCIENCE
+        - source:
+            TEMPLATE
+          text:
+            ENCOURAGE
+      quick_reply:
+        source:
+          - TEMPLATE
+        title:
+          - GOT_IT
+        payload:
+          - NEXT_QUESTION   
+    SAFETY:
+      message:
+        - source:
+            TEMPLATE
+          text:
+            GOOD_JOB_SAFETY
+        - source:
+            TEMPLATE
+          text:
+            ENCOURAGE
+      quick_reply:
+        source:
+          - TEMPLATE
+        title:
+          - GOT_IT
+        payload:
+          - NEXT_QUESTION   
+    GRE:
+      message:
+        - source:
+            TEMPLATE
+          text:
+            GOOD_JOB_GRE
+        - source:
+            TEMPLATE
+          text:
+            ENCOURAGE
+      quick_reply:
+        source:
+          - TEMPLATE
+        title:
+          - GOT_IT
+        payload:
+          - NEXT_QUESTION  
 
 MESSAGE_TEXT:
   sentence:
@@ -528,7 +665,6 @@ MESSAGE_TEXT:
           TEMPLATE
         text:
           10_POINT
-
   conversation:
     conversation_1:
       message:
@@ -538,7 +674,7 @@ MESSAGE_TEXT:
             That sounds interesting. Would you want more quiz questions to practice? I'm here to help 😄
       quick_reply:
         source:
-          - LOCAL
+          - TEMPLATE
         title:
           - GOT_IT
         payload:
