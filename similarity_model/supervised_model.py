@@ -1,19 +1,18 @@
 import sys
 sys.path.append("..")
 import numpy as np
-from sif_implementation.wordembeddings import EmbeddingVectorizer
 from nltk import RegexpTokenizer
-from QAKnowledgebase import QAKnowlegeBase
-
 from keras.models import Sequential, Model
 from keras.layers import Dense, Input, concatenate
 from keras.optimizers import Adam
-
 import pickle
+
+from sif_implementation.wordembeddings import EmbeddingVectorizer
+from QAKnowledgebase import QAKnowlegeBase
 from sif_implementation.utils import *
 
 '''This is the test function for semi supervised model 
-
+   code taken from https://github.com/jorisvandenbossche/wordembeddings
 2018 July 6
 '''
 
@@ -72,11 +71,35 @@ def evaluate_model(model, emb, pair_one, pair_two):
 	pred_score = np.dot(predicted, np.array([1,2,3,4,5]))
 	return pred_score
 
+# repeat data such that the 
+def repeat_data(pair_one, pair_two, pair_scores):
+	one_labeled_data = [i for i in range(len(pair_scores)) if pair_scores[i] == 1]
+	five_labeled_data = [i for i in range(len(pair_scores)) if pair_scores[i] == 5]
+	print(len(one_labeled_data), len(five_labeled_data))
+
+	# repeat the five_labeled data to match size of one labeled
+	five_labeled_data = np.hstack((np.array(five_labeled_data),
+		np.random.choice(five_labeled_data, len(one_labeled_data) - len(five_labeled_data))))
+	print('five labeled data length: ', len(five_labeled_data))
+	print('one labeled data length: ', len(one_labeled_data))
+	indices = np.hstack((one_labeled_data, five_labeled_data))
+	np.random.shuffle(indices)
+	print('total data length: ', len(indices))
+
+	pair_one = [pair_one[i] for i in indices]
+	pair_two = [pair_two[i] for i in indices]
+	pair_scores = np.array([pair_scores[i] for i in indices])
+	print(pair_scores)
+
+	return pair_one, pair_two, pair_scores
+
 if __name__ == '__main__': # for testing
 	relatedness_pairs = np.genfromtxt('relatedness_scores.csv', dtype = str, delimiter = ',')
 	pair_one = relatedness_pairs[:,0]
 	pair_two = relatedness_pairs[:,1]
 	pair_scores = relatedness_pairs[:,2].astype(float)
+
+	pair_one, pair_two, pair_scores = repeat_data(pair_one, pair_two, pair_scores)	
 
 	# file in the form of a dictionary {vocab word : numpy array} edit the Input size
 	file = 'mittens_model.pkl'
@@ -88,7 +111,6 @@ if __name__ == '__main__': # for testing
 		glove = pickle.load(pkl)
 		print("="*80+"\nloaded vectors")
 
-
 	emb = EmbeddingVectorizer(word_vectors=glove, weighted=True, R=True)
 	fit_model(emb)
 
@@ -97,26 +119,25 @@ if __name__ == '__main__': # for testing
 	model = init_model()	
 
 	y = to_float_dummies(pair_scores, np.array([1,2,3,4,5]))
+	print(y)
 
 	model.compile(optimizer=Adam(lr=0.001, beta_1=0.9, beta_2=0.999, epsilon=1e-08),
 			  loss='kullback_leibler_divergence',
 			  metrics=['accuracy'])	
 
-	model.fit([g1_dot_g2, g1_abs_g2], y, epochs=20)
+	# sample_weight = np.array([1 if pair_scores[i] == 1 else 10 for i in range(len(pair_scores))])
+	model.fit([g1_dot_g2, g1_abs_g2], y, epochs=200, verbose=2, validation_split = 0)
 
 	pred_score = evaluate_model(model, emb, pair_one, pair_two)
-	print(pred_score)
+	# print(pred_score)
 
-	test_pair_one = np.array(['reproduce asexually and sexually', 'true', 'false', '2 hour', 'insects', 'yes'])
-	test_pair_two = np.array(['reproduce sexually and asexually', 'yes', 'no', '2 hours', 'insect', 'no'])
+	test_pair_one = np.array(['you are right', 'you are right', 'true', 'yes', 'right', 'a mathemematician found a solution to the problem'])
+	test_pair_two = np.array(['you are correct', 'you are wrong', 'yes', 'yes', 'correct', 'A problem was solved by a young mathematician'])
 
 	test_scores = evaluate_model(model, emb, test_pair_one, test_pair_two)
+	# transform test scores so that its on a 0-1 scale
+	test_scores = (test_scores - 1) / 4
 
 	for i,j,k in zip(test_pair_one, test_pair_two, test_scores):
 		print('{}, {}, score: {}'.format(i,j,k))
-
-
-
-
-
 
