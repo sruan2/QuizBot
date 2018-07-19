@@ -79,7 +79,8 @@ if __name__ == '__main__': # for testing
 	pair_scores = relatedness_pairs[:,2].astype(float)
 
 	# file in the form of a dictionary {vocab word : numpy array} edit the Input size
-	file = 'glove.6B.100d.pkl'
+	file = 'mittens_model.pkl'
+	# file = 'glove.6B.100d.pkl'
 	# file = 'vectors.pkl'
 
 	# open the file from pretrained vector model. This one is of size 100
@@ -101,16 +102,18 @@ if __name__ == '__main__': # for testing
 			  loss='kullback_leibler_divergence',
 			  metrics=['accuracy'])	
 
-	model.fit([g1_dot_g2, g1_abs_g2], y, epochs=200)
+	model.fit([g1_dot_g2, g1_abs_g2], y, epochs=20)
 
 	pred_score = evaluate_model(model, emb, pair_one, pair_two)
 	print(pred_score)
 
-	test_pair_one = np.array(['reproduce asexually and sexually', 'true', 'false', '2 hour', 'insects'])
-	test_pair_two = np.array(['reproduce sexually and asexually', 'yes', 'no', '2 hours', 'insect'])
+	test_pair_one = np.array(['reproduce asexually and sexually', 'true', 'false', '2 hour', 'insects', 'yes'])
+	test_pair_two = np.array(['reproduce sexually and asexually', 'yes', 'no', '2 hours', 'insect', 'no'])
 
 	test_scores = evaluate_model(model, emb, test_pair_one, test_pair_two)
-	print(test_scores)
+
+	for i,j,k in zip(test_pair_one, test_pair_two, test_scores):
+		print('{}, {}, score: {}'.format(i,j,k))
 
 
 

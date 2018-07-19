@@ -26,7 +26,8 @@ if __name__ == '__main__': # for testing
 
     tokenized_sentences = preprocess(sentences, tokenizer)
 
-    file = 'glove.6B.100d.pkl'
+    file = 'mittens_model.pkl'
+    # file = 'glove.6B.100d.pkl'
     # file = 'glove.6B.300d.pkl'
     # file = 'mittens_model.pkl'
     # file = 'vectors.pkl'
