@@ -7,7 +7,7 @@ from flask import Flask
 from flask import request
 from flask import render_template
 from flask import jsonify
-#from flask_mysqldb import MySQL
+from flask_mysqldb import MySQL
 import database
 from random_model import RandomSequencingModel
 from QAKnowledgebase import QAKnowlegeBase
@@ -17,12 +17,12 @@ app = Flask(__name__)
 app.config['SEND_FILE_MAX_AGE_DEFAULT'] = 0
 
 # ================== MySQL Setup ==================
-# mysql = MySQL()
-# app.config['MYSQL_HOST'] = os.environ["DB_HOST"]
-# app.config['MYSQL_USER'] = os.environ["DB_USER"]
-# app.config['MYSQL_PASSWORD'] = os.environ["DB_PASSWORD"]
-# app.config['MYSQL_DB'] = os.environ["DB"]
-# mysql.init_app(app)
+mysql = MySQL()
+app.config['MYSQL_HOST'] = os.environ["DB_HOST"]
+app.config['MYSQL_USER'] = os.environ["DB_USER"]
+app.config['MYSQL_PASSWORD'] = os.environ["DB_PASSWORD"]
+app.config['MYSQL_DB'] = os.environ["DB"]
+mysql.init_app(app)
 
 # ================== Load Sequencing Model ==================
 json_file = '../QAdataset/questions_filtered_150_quizbot.json'
@@ -87,11 +87,10 @@ def webhook():
         model.updateHistory(0)
 
     print("[FLASHCARD] PID " + str(os.getpid())+": Record FLASHCARD user action successfully")
-# 
     return "ok", 200
 
 
 if __name__ == '__main__':
-    #context = ('/etc/letsencrypt/live/smartprimer.org/fullchain.pem', '/etc/letsencrypt/live/smartprimer.org/privkey.pem')
-    #app.run(debug=True, host='0.0.0.0', port=5000, ssl_context=context)
-    app.run(debug=True, host='0.0.0.0', use_reloader=False, port=5000)
+    context = ('/etc/letsencrypt/live/smartprimer.org/fullchain.pem', '/etc/letsencrypt/live/smartprimer.org/privkey.pem')
+    app.run(debug=True, host='0.0.0.0', use_reloader=False, port=5000, ssl_context=context)
+    # app.run(debug=True, host='0.0.0.0', use_reloader=False, port=5000)
