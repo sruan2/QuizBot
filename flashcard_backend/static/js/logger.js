@@ -24,6 +24,7 @@ function log(message) {
     var json = {firstname: $user.firstname, lastname: $user.lastname, user_id: $user.id, qid: $question.id, event: message, timestamp: new Date().toISOString().slice(0, 19).replace('T', ' ')};
     $.ajax({
         url: 'https://www.smartprimer.org:5000/logdata',
+        //url:'https://localhost:5000/logdata',
         type: 'POST',
         contentType: 'text/plain',
         data: JSON.stringify(json),
