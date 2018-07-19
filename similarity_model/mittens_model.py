@@ -31,9 +31,18 @@ with open(vocab_file, 'rb') as pkl:
 # convert to numpy array
 cooccurrence = cooccurrence.toarray()
 
+glove_vocab = glove.keys()
+# indices for vocab thats not in glove
+missing_words = np.array([i for i in range(len(vocab)) if vocab[i] not in glove_vocab])
+
+cooccurrence = cooccurrence[missing_words][:,missing_words]
+vocab = list(np.array(vocab)[missing_words])
+
 # check if sizes match up
 print(len(vocab))
 print(cooccurrence.shape)
+
+print('size of glove vocab {}'.format(len(glove)))
 
 mittens_model = Mittens(n=100, max_iter=1000)
 # Note: n must match the original embedding dimension
@@ -42,9 +51,14 @@ new_embeddings = mittens_model.fit(
     vocab=vocab,
     initial_embedding_dict=glove)
 
+print()
+print('size of new embeddings vocab {}'.format(len(new_embeddings)))
+
 # transform the vectors into a dictionary mapping and then append the vocabulary to glove
-embeddings_dict = {key:np.array(vector) for key,vector in zip(cooccurrence.index, new_embeddings)}
+embeddings_dict = {key:np.array(vector) for key,vector in zip(vocab, new_embeddings)}
 glove.update(embeddings_dict)
+
+print('size of updated glove vocab {}'.format(len(glove)))
 
 import _pickle as cPickle
 
