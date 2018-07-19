@@ -7,11 +7,20 @@ import template
 from utils import pretty_print
 from utils import log
 from database import *
+from flask_mysqldb import MySQL
 
 PRAMS = {"access_token": os.environ["PAGE_ACCESS_TOKEN"]}
 HEADERS = {"Content-Type": "application/json"}
 
 DELAY_TIME = 1
+
+# MySQL Setup
+mysql = MySQL()
+app.config['MYSQL_HOST'] = os.environ["DB_HOST"]
+app.config['MYSQL_USER'] = os.environ["DB_USER"]
+app.config['MYSQL_PASSWORD'] = os.environ["DB_PASSWORD"]
+app.config['MYSQL_DB'] = os.environ["DB"]
+mysql.init_app(app)
 
 def send_data(data, data_type = "messages"):
     r = requests.post("https://graph.facebook.com/v2.6/me/" + data_type, params=PRAMS, headers=HEADERS, data=data)
@@ -37,10 +46,10 @@ def send_image(recipient_id, image_data):
     data = template.create_image_template_json(recipient_id, image_data)
     send_data(data)
 
-    # if image_data["template_type"] == "generic":
-    #     insert_score(mysql, recipient_id, -1, data["recipient"]["message"]["attachment"]["payload"]["elements"]["image_url"], "chatbot_image", 0)
-    # else:
-    #     insert_score(mysql, recipient_id, -1, data["recipient"]["message"]["attachment"]["payload"]["url"], "chatbot_image", 0)
+    if image_data["template_type"] == "generic":
+        insert_score(mysql, recipient_id, -1, data["recipient"]["message"]["attachment"]["payload"]["elements"]["image_url"], "chatbot_image", 0)
+    else:
+        insert_score(mysql, recipient_id, -1, data["recipient"]["message"]["attachment"]["payload"]["url"], "chatbot_image", 0)
 
 
 def send_message(recipient_id, template_conversation, message_data):
@@ -51,7 +60,7 @@ def send_message(recipient_id, template_conversation, message_data):
     data = template.create_message_template_json(recipient_id, template_conversation, message_data)
     send_data(data)
 
-    # insert_score(mysql, recipient_id, -1, data["message"]["text"], "chatbot_text", 0)    
+    insert_score(mysql, recipient_id, -1, data["message"]["text"], "chatbot_text", 0)    
 
 
 def send_quick_reply(recipient_id, template_conversation, quick_reply_data, message_data = ""):
