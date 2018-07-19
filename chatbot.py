@@ -6,7 +6,7 @@ from message import *
 from database import *
 
 
-def respond_to_payload(mysql, payload, sender_id, sender_firstname, qa_model, chatbot_text, template_conversation, mysql):
+def respond_to_payload(payload, sender_id, sender_firstname, qa_model, chatbot_text, template_conversation, mysql):
     '''
         This function responds to the QuizBot's payload states.
 
