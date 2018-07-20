@@ -7,6 +7,7 @@ from keras.layers import Dense, Input, concatenate
 from keras.optimizers import Adam
 import pickle
 
+from messages import MESSAGES
 from sif_implementation.wordembeddings import EmbeddingVectorizer
 from QAKnowledgebase import QAKnowlegeBase
 from sif_implementation.utils import *
@@ -43,7 +44,14 @@ def to_float_dummies(scores, integer_scores):
 	return diffs
 
 # fit the unsupervised embedding model to the quizbot answer database
-def fit_model(emb):
+def fit_model(glove_file):
+	# open the file from pretrained vector model. This one is of size 100
+	with open(glove_file, 'rb') as pkl:
+		glove = pickle.load(pkl)
+		print("="*80+"\nloaded vectors")
+
+	emb = EmbeddingVectorizer(word_vectors=glove, weighted=True, R=True)
+
 	json_file = '../QAdataset/questions_filtered_150_quizbot.json'
 	qa_kb = QAKnowlegeBase(json_file)
 
@@ -54,6 +62,7 @@ def fit_model(emb):
 
 	tokenized_sentences = preprocess(sentences, tokenizer)
 	V = emb.fit_transform(tokenized_sentences)
+	return emb
 
 # transform data to put into the NN model from word pairs to dot product and abstolute value
 def transform_data(emb, pair_one, pair_two):
@@ -75,7 +84,8 @@ def evaluate_model(model, emb, pair_one, pair_two):
 def repeat_data(pair_one, pair_two, pair_scores):
 	one_labeled_data = [i for i in range(len(pair_scores)) if pair_scores[i] == 1]
 	five_labeled_data = [i for i in range(len(pair_scores)) if pair_scores[i] == 5]
-	print(len(one_labeled_data), len(five_labeled_data))
+	print('number of one labeled: ', len(one_labeled_data))
+	print('number of five labeled: ', len(five_labeled_data))
 
 	# repeat the five_labeled data to match size of one labeled
 	five_labeled_data = np.hstack((np.array(five_labeled_data),
@@ -89,48 +99,53 @@ def repeat_data(pair_one, pair_two, pair_scores):
 	pair_one = [pair_one[i] for i in indices]
 	pair_two = [pair_two[i] for i in indices]
 	pair_scores = np.array([pair_scores[i] for i in indices])
-	print(pair_scores)
 
 	return pair_one, pair_two, pair_scores
 
-if __name__ == '__main__': # for testing
-	relatedness_pairs = np.genfromtxt('relatedness_scores.csv', dtype = str, delimiter = ',')
+def fit_supervised_model(model, emb, csv_file):
+	relatedness_pairs = np.genfromtxt(csv_file, dtype = str, delimiter = ',')
 	pair_one = relatedness_pairs[:,0]
 	pair_two = relatedness_pairs[:,1]
 	pair_scores = relatedness_pairs[:,2].astype(float)
 
 	pair_one, pair_two, pair_scores = repeat_data(pair_one, pair_two, pair_scores)	
-
-	# file in the form of a dictionary {vocab word : numpy array} edit the Input size
-	file = 'mittens_model.pkl'
-	# file = 'glove.6B.100d.pkl'
-	# file = 'vectors.pkl'
-
-	# open the file from pretrained vector model. This one is of size 100
-	with open(file, 'rb') as pkl:
-		glove = pickle.load(pkl)
-		print("="*80+"\nloaded vectors")
-
-	emb = EmbeddingVectorizer(word_vectors=glove, weighted=True, R=True)
-	fit_model(emb)
-
 	g1_dot_g2, g1_abs_g2 = transform_data(emb, pair_one, pair_two)
-
-	model = init_model()	
-
 	y = to_float_dummies(pair_scores, np.array([1,2,3,4,5]))
-	print(y)
 
 	model.compile(optimizer=Adam(lr=0.001, beta_1=0.9, beta_2=0.999, epsilon=1e-08),
 			  loss='kullback_leibler_divergence',
 			  metrics=['accuracy'])	
 
 	# sample_weight = np.array([1 if pair_scores[i] == 1 else 10 for i in range(len(pair_scores))])
-	model.fit([g1_dot_g2, g1_abs_g2], y, epochs=200, verbose=2, validation_split = 0)
+	model.fit([g1_dot_g2, g1_abs_g2], y, epochs=100, verbose=2, validation_split = 0)
 
-	pred_score = evaluate_model(model, emb, pair_one, pair_two)
-	# print(pred_score)
+	return model
 
+if __name__ == '__main__': # for testing
+	csv_file = 'relatedness_scores.csv'
+
+	# file in the form of a dictionary {vocab word : numpy array} edit the Input size
+	glove_file = 'mittens_model.pkl'
+	
+	emb = fit_model(glove_file)
+	model = init_model()
+	model = fit_supervised_model(model, emb, csv_file)
+
+	# construct the message pairs to pass to the model
+	test_pair_one = []
+	test_pair_two = []
+	for message1 in MESSAGES:
+		for message2 in MESSAGES:
+			test_pair_one.append(message1)
+			test_pair_two.append(message2)	
+
+	# convert the scores so that they are on 0-1 scale
+	test_scores = evaluate_model(model, emb, np.array(test_pair_one), np.array(test_pair_two))
+	corr = ((test_scores - 1) / 4).reshape(len(MESSAGES), len(MESSAGES))
+	labels = MESSAGES
+	plot_similarity(MESSAGES, corr, 90, 'semi_supervised_heatmap.png')
+
+	# test various other pairs of words
 	test_pair_one = np.array(['you are right', 'you are right', 'true', 'yes', 'right', 'a mathemematician found a solution to the problem'])
 	test_pair_two = np.array(['you are correct', 'you are wrong', 'yes', 'yes', 'correct', 'A problem was solved by a young mathematician'])
 
