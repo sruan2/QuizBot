@@ -1,13 +1,14 @@
-import sys
-import os
-from abc import ABCMeta, abstractmethod
+'''QA Model that is responsible for loading QA knowledge base, picking questions,
+and computing similarity scores'''
+
+
+import pickle
+import math
+from abc import abstractmethod
 from gensim.models import Doc2Vec
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import linear_kernel
-import random
-import pickle
 from nltk import RegexpTokenizer
-import math
 
 from utils import pretty_print
 from similarity_model.sif_implementation.wordembeddings import EmbeddingVectorizer
@@ -17,35 +18,32 @@ from question_sequencing.random_model import RandomSequencingModel
 
 
 class QAModel(object):
-
+    '''Base class of QAModel'''
     def __init__(self, qa_kb):
         pretty_print("QAModel initialization", mode="QA Model")
         self.QID = 0
         self.QA_KB = qa_kb
         self.sequencing_model = RandomSequencingModel(qa_kb)
 
-    def pickSubjectRandomQuestion(self, subject):
-        subject = subject.lower()
-        QID = random.choice(self.QA_KB.SubDict[subject])
-        picked_question = self.QA_KB.QKB[QID]
-        return picked_question, QID
+    # def pickSubjectRandomQuestion(self, subject):
+    #     subject = subject.lower()
+    #     QID = random.choice(self.QA_KB.SubDict[subject])
+    #     picked_question = self.QA_KB.QKB[QID]
+    #     return picked_question, QID
 
-    def pickRandomQuestion(self):
-        return self.sequencing_model.pickNextQuestion()
+    # def pickRandomQuestion(self):
+    #     return self.sequencing_model.pickNextQuestion()
 
     def pickQuestion(self, subject):
+        '''Pick the next question based on the sequencing_model defined'''
+        data = self.sequencing_model.pickNextQuestion(subject)
+        picked_question = data['question']
+        QID = data['qid']
+        return picked_question, QID
 
-        if subject == "random":
-            return self.sequencing_model.pickNextQuestion()
-        else:
-            subject = subject.lower()
-            QID = random.choice(self.QA_KB.SubDict[subject])
-            picked_question = self.QA_KB.QKB[QID]
-            return picked_question, QID
-            
-    def pickLastQuestion(self, QID):
-        picked_question = self.QA_KB.QKB[QID]
-        return picked_question
+    # def pickLastQuestion(self, QID):
+    #     picked_question = self.QA_KB.QKB[QID]
+    #     return picked_question
 
     def getAnswer(self, QID):
         try:
@@ -72,6 +70,7 @@ class QAModel(object):
 
 class TFIDFModel(QAModel):
     """a working baseline model: TFIDF"""
+
     def __init__(self, qa_kb):
         super(TFIDFModel, self).__init__(qa_kb)
         self.AKB = qa_kb.AKB
@@ -84,23 +83,28 @@ class TFIDFModel(QAModel):
         answer = [picked_answer]
         answer.append(user_answer)
         self.tfidf_features = TfidfVectorizer().fit_transform(answer)
-        cosine_similarities = linear_kernel(self.tfidf_features[0:1], self.tfidf_features).flatten()
+        cosine_similarities = linear_kernel(
+            self.tfidf_features[0:1], self.tfidf_features).flatten()
         return int(cosine_similarities[1]*10)
 
 
 class Doc2VecModel(QAModel):
     """Doc2VecModel, pretrained by Zhengneng"""
+
     def __init__(self, qa_kb):
         pretrained_model_file = 'model_pre_trained/model_d2v_v1'
         super(Doc2VecModel, self).__init__(qa_kb)
-        self.MODEL = Doc2Vec.load(pretrained_model_file) # load the model in the very beginning
+        # load the model in the very beginning
+        self.MODEL = Doc2Vec.load(pretrained_model_file)
         pretty_print('Doc2Vec Model')
 
     def pickNextSimilarQuestion(self, QID):
         num = randint(0, 1000)
-        NextQID = self.MODEL.docvecs.most_similar(QID, topn = 1000)[num][0] # among top 1000 questions, pick one and then return question id
+        # among top 1000 questions, pick one and then return question id
+        NextQID = self.MODEL.docvecs.most_similar(QID, topn=1000)[num][0]
         picked_answer = super(Doc2VecModel, self).getAnswer(QID)
         return picked_question, NextQID
+
 
 # Sherry: This is based on Princeton's original implementation. Not sure if this working, haven't tested it out yet.
 class SIFModel(QAModel):
@@ -111,8 +115,10 @@ class SIFModel(QAModel):
     def compute_score(self, user_answer, QID):
         user_answer = user_answer.lower()
         picked_answer = super(SIFModel, self).getAnswer(QID)
-        score = sif_sentence_similarity.answer_similarity(user_answer, picked_answer)
+        score = sif_sentence_similarity.answer_similarity(
+            user_answer, picked_answer)
         return score
+
 
 ################### Sherry is fixing this, please do not touch ######################
 class SIF2Model(QAModel):
@@ -130,7 +136,9 @@ class SIF2Model(QAModel):
     def init_model(self, sentences):
         self.tokenizer = RegexpTokenizer(r'[\w]+')
         self.tokenized_sentences = utils.preprocess(sentences, self.tokenizer)
-        self.emb = EmbeddingVectorizer(word_vectors=self.glove, weighted=True, R=False) # just use the simple weighted version without removing PCA
+        # just use the simple weighted version without removing PCA
+        self.emb = EmbeddingVectorizer(
+            word_vectors=self.glove, weighted=True, R=False)
 
     def compute_score(self, user_answer, QID):
         # transform the correct answer
@@ -141,20 +149,16 @@ class SIF2Model(QAModel):
         tokenized_query = utils.preprocess([user_answer], self.tokenizer)
         print(tokenized_query)
         not_empty = False
-        for user_word in tokenized_query[0]: # for out of vocabulary words
+        for user_word in tokenized_query[0]:  # for out of vocabulary words
             if user_word in self.glove:
                 not_empty = True
                 break
         if not not_empty:
-            return -1 # transformed V_query won't exist since it will be empty (nont of the words exist in glove)
+            # transformed V_query won't exist since it will be empty (nont of the words exist in glove)
+            return -1
         V_query = self.emb.transform(tokenized_query)
 
         # Liwei: this line has a bug, so comment this out and add a fake score for running the app
         # score = math.ceil(utils.cosine_similarity(V_query[0], V_answer[0]) * 10)
         score = 0
         return score
-
-
-
-
-
