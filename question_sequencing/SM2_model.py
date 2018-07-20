@@ -9,10 +9,11 @@ from collections import defaultdict
 from base_model import BaseSequencingModel
 
 class Question():
-    def __init__(self, id):
+    def __init__(self, id, subject):
         self.easiness = 2.5
         self.num_repetitions = 0
         self.priority = id
+        self.subject = subject 
         self.id = id
 
     # for heap item comparison
@@ -29,10 +30,10 @@ class SM2SequencingModel(BaseSequencingModel):
 
         def init_order():
             subject_order = {subject : [] for subject in self.QA_KB.SubKB}
-            questions = [Question(i) for i in range(self.num_items)]
             for subject, question_list in self.QA_KB.SubDict.items():
                 for qid in question_list:
-                    heapq.heappush(subject_order[subject], (qid, questions[qid]))
+                    question = Question(qid, subject)
+                    heapq.heappush(subject_order[subject], (question.priority, question))
             return subject_order
 
         # maps from user id to the respective parameters necessary for the model
@@ -70,7 +71,8 @@ class SM2SequencingModel(BaseSequencingModel):
         return data
 
     # subjection to do update simulations to parameters
-    def updateParameters(self, subject, question, outcome, user_id):
+    def updateParameters(self, question, outcome, user_id):
+        subject = question.subject
         if not outcome:
             question.num_repetitions = 0
         else:
@@ -90,4 +92,4 @@ class SM2SequencingModel(BaseSequencingModel):
         question = self.cur_question[user_id]
         subject = self.current_subject[user_id]
 
-        self.updateParameters(subject, question, outcome, user_id)
+        self.updateParameters(question, outcome, user_id)
