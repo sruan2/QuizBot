@@ -16,7 +16,7 @@ def respond_to_payload(payload, sender_id, sender_firstname, qa_model, chatbot_t
             sender_firstname: the sender's first name requested from the Facebook profile
             qa_model: the question answering model containing information about the question dataset
             chatbot_text: the json structure containing the chatbot's text/conversation source
-            template_conversation: the json structure containing the conversation and state templates 
+            template_conversation: the json structure containing the conversation and state templates
             mysql: database
 
         Returns:
@@ -109,7 +109,7 @@ def respond_to_payload(payload, sender_id, sender_firstname, qa_model, chatbot_t
         send_choose_subject(sender_id, template_conversation)
 
     elif payload == "SCIENCE":
-        QID = show_last_qid_subject(mysql, sender_id)[0] 
+        QID = show_last_qid_subject(mysql, sender_id)[0]
         if QID >= 50 and QID < 100:
             send_image(mysql, sender_id, payload, chatbot_text, "SAFETY")
         elif QID >= 100 and QID < 150:
@@ -121,7 +121,7 @@ def respond_to_payload(payload, sender_id, sender_firstname, qa_model, chatbot_t
         send_question(sender_id, template_conversation, payload, qa_model, mysql, "science")
 
     elif payload == "GRE":
-        QID = show_last_qid_subject(mysql, sender_id)[0] 
+        QID = show_last_qid_subject(mysql, sender_id)[0]
         if QID >= 0 and QID < 50:
             send_image(mysql, sender_id, payload, chatbot_text, "SCIENCE")
         elif QID >= 50 and QID < 100:
@@ -133,7 +133,7 @@ def respond_to_payload(payload, sender_id, sender_firstname, qa_model, chatbot_t
         send_question(sender_id, template_conversation, payload, qa_model, mysql, "gre")
 
     elif payload == "SAFETY":
-        QID = show_last_qid_subject(mysql, sender_id)[0] 
+        QID = show_last_qid_subject(mysql, sender_id)[0]
         if QID >= 0 and QID < 50:
             send_image(mysql, sender_id, payload, chatbot_text, "SCIENCE")
         elif QID >= 100 and QID < 150:
@@ -145,7 +145,7 @@ def respond_to_payload(payload, sender_id, sender_firstname, qa_model, chatbot_t
         send_question(sender_id, template_conversation, payload, qa_model, mysql, "safety")
 
     elif payload == "RANDOM":
-        QID = show_last_qid_subject(mysql, sender_id)[0] 
+        QID = show_last_qid_subject(mysql, sender_id)[0]
         if QID >= 0 and QID < 50:
             send_image(mysql, sender_id, payload, chatbot_text, "SCIENCE")
         elif QID >= 50 and QID < 100:
@@ -189,24 +189,24 @@ def respond_to_payload(payload, sender_id, sender_firstname, qa_model, chatbot_t
 
     #     if num_science >= num_safety and num_science >= num_gre:
     #         send_image(sender_id, payload, chatbot_text, "SCIENCE")
-    #         send_conversation(sender_id, payload, chatbot_text, template_conversation, "SCIENCE")         
+    #         send_conversation(sender_id, payload, chatbot_text, template_conversation, "SCIENCE")
 
     #     elif num_safety >= num_science and num_safety >= num_gre:
     #         send_image(sender_id, payload, chatbot_text, "SAFETY")
-    #         send_conversation(sender_id, payload, chatbot_text, template_conversation, "SAFETY")    
+    #         send_conversation(sender_id, payload, chatbot_text, template_conversation, "SAFETY")
 
     #     elif num_gre >= num_science and num_gre >= num_safety:
     #         send_image(sender_id, payload, chatbot_text, "GRE")
-    #         send_conversation(sender_id, payload, chatbot_text, template_conversation, "GRE")    
+    #         send_conversation(sender_id, payload, chatbot_text, template_conversation, "GRE")
 
     elif payload == "NEXT_QUESTION":
         if show_status(mysql, sender_id):
-            subject = show_last_qid_subject(mysql, sender_id)[1] 
+            subject = show_last_qid_subject(mysql, sender_id)[1]
             subject = subject if subject in ["SCIENCE", "GRE", "SAFETY"] else "random"
             send_question(sender_id, template_conversation, payload = payload, qa_model = qa_model, mysql = mysql, subject = subject.lower())
         else:
             QID = show_last_qid_subject(mysql, sender_id)[0]
-            send_question(sender_id, template_conversation, question = qa_model.pickLastQuestion(QID))
+            send_question(sender_id, template_conversation, question = qa_model.pickQuestion(subject='random'))
 
 
 
@@ -219,7 +219,7 @@ def respond_to_messagetext(message_text, sender_id, qa_model, chatbot_text, temp
             sender_id: the sender's unique id assigned by Facebook Messenger
             qa_model: the question answering model containing information about the question dataset
             chatbot_text: the json structure containing the chatbot's text/conversation source
-            template_conversation: the json structure containing the conversation and state templates 
+            template_conversation: the json structure containing the conversation and state templates
             mysql: database
 
         Returns:
@@ -233,7 +233,7 @@ def respond_to_messagetext(message_text, sender_id, qa_model, chatbot_text, temp
 
     elif message_text == "next question" or message_text == "got it, next!" or message_text[:4] == "sure":
         if show_status(mysql, sender_id):
-            subject = show_last_qid_subject(mysql, sender_id)[1] 
+            subject = show_last_qid_subject(mysql, sender_id)[1]
             subject = subject if subject in ["SCIENCE", "GRE", "SAFETY"] else "random"
             send_question(sender_id, template_conversation, payload = payload, qa_model = qa_model, mysql = mysql, subject = subject.lower())
         else:

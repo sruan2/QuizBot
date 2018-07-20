@@ -22,6 +22,12 @@ if __name__ == '__main__':
     json_file = '../QAdataset/questions_filtered_150_quizbot.json'
     qa_kb = QAKnowlegeBase(json_file)
 
+    model = RandomSequencingModel(qa_kb)
+
+    for i in range(ITERATIONS):
+        data = model.pickNextQuestion(user_id = 5, subject = 'science')
+        print(data['qid'])
+        
     # Construct the question sequencing model from here
     model = LeitnerSequencingModel(qa_kb)
 
