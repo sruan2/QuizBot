@@ -17,35 +17,32 @@ from question_sequencing.random_model import RandomSequencingModel
 
 
 class QAModel(object):
-
+    '''QA Model that is responsible for loading QA knowledge base,
+    picking question, and computing similarity scores'''
     def __init__(self, qa_kb):
         pretty_print("QAModel initialization", mode="QA Model")
         self.QID = 0
         self.QA_KB = qa_kb
         self.sequencing_model = RandomSequencingModel(qa_kb)
 
-    def pickSubjectRandomQuestion(self, subject):
-        subject = subject.lower()
-        QID = random.choice(self.QA_KB.SubDict[subject])
-        picked_question = self.QA_KB.QKB[QID]
-        return picked_question, QID
+    # def pickSubjectRandomQuestion(self, subject):
+    #     subject = subject.lower()
+    #     QID = random.choice(self.QA_KB.SubDict[subject])
+    #     picked_question = self.QA_KB.QKB[QID]
+    #     return picked_question, QID
 
-    def pickRandomQuestion(self):
-        return self.sequencing_model.pickNextQuestion()
+    # def pickRandomQuestion(self):
+    #     return self.sequencing_model.pickNextQuestion()
 
     def pickQuestion(self, subject):
+        data = self.sequencing_model.pickNextQuestion(subject)
+        picked_question = data['question']
+        QID = data['qid']
+        return picked_question, QID
 
-        if subject == "random":
-            return self.sequencing_model.pickNextQuestion()
-        else:
-            subject = subject.lower()
-            QID = random.choice(self.QA_KB.SubDict[subject])
-            picked_question = self.QA_KB.QKB[QID]
-            return picked_question, QID
-            
-    def pickLastQuestion(self, QID):
-        picked_question = self.QA_KB.QKB[QID]
-        return picked_question
+    # def pickLastQuestion(self, QID):
+    #     picked_question = self.QA_KB.QKB[QID]
+    #     return picked_question
 
     def getAnswer(self, QID):
         try:
@@ -102,6 +99,7 @@ class Doc2VecModel(QAModel):
         picked_answer = super(Doc2VecModel, self).getAnswer(QID)
         return picked_question, NextQID
 
+
 # Sherry: This is based on Princeton's original implementation. Not sure if this working, haven't tested it out yet.
 class SIFModel(QAModel):
     def __init__(self, qa_kb):
@@ -113,6 +111,7 @@ class SIFModel(QAModel):
         picked_answer = super(SIFModel, self).getAnswer(QID)
         score = sif_sentence_similarity.answer_similarity(user_answer, picked_answer)
         return score
+
 
 ################### Sherry is fixing this, please do not touch ######################
 class SIF2Model(QAModel):
