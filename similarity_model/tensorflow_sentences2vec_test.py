@@ -20,7 +20,7 @@ def run_and_plot(session_, input_tensor_, messages_, encoding_tensor):
 	message_embeddings_ = session_.run(
 	  encoding_tensor, feed_dict={input_tensor_: messages_})
 	corr = np.inner(message_embeddings_, message_embeddings_)
-	plot_similarity(MESSAGES, corr, 90, 'tensorflow_heatmap.png')
+	plot_similarity(MESSAGES, corr, 90, 'heatmaps/tensorflow_heatmap.png')
 
 similarity_input_placeholder = tf.placeholder(tf.string, shape=(None))
 similarity_message_encodings = embed(similarity_input_placeholder)
