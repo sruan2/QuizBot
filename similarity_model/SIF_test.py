@@ -52,7 +52,7 @@ if __name__ == '__main__': # for testing
     corr = np.inner(message_embeddings,message_embeddings)
 
     # plot the heat map
-    plot_similarity(MESSAGES, corr, 90, 'mittens_heatmap.png')
+    plot_similarity(MESSAGES, corr, 90, 'heatmaps/mittens_heatmap.png')
  
     # # for new query, cal emb.transform instead of emb.fit_transform
     # queryAnswers = [('hypothesis','hypotheses'),

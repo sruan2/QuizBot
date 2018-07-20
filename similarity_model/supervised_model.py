@@ -126,7 +126,7 @@ if __name__ == '__main__': # for testing
 
 	# file in the form of a dictionary {vocab word : numpy array} edit the Input size
 	glove_file = 'mittens_model.pkl'
-	
+
 	emb = fit_model(glove_file)
 	model = init_model()
 	model = fit_supervised_model(model, emb, csv_file)
@@ -143,7 +143,7 @@ if __name__ == '__main__': # for testing
 	test_scores = evaluate_model(model, emb, np.array(test_pair_one), np.array(test_pair_two))
 	corr = ((test_scores - 1) / 4).reshape(len(MESSAGES), len(MESSAGES))
 	labels = MESSAGES
-	plot_similarity(MESSAGES, corr, 90, 'semi_supervised_heatmap.png')
+	plot_similarity(MESSAGES, corr, 90, 'heatmaps/semi_supervised_heatmap.png')
 
 	# test various other pairs of words
 	test_pair_one = np.array(['you are right', 'you are right', 'true', 'yes', 'right', 'a mathemematician found a solution to the problem'])
