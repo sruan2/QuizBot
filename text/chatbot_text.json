@@ -31,18 +31,45 @@
         }
     }, 
     "BUTTON_AKB": {
-        "sentence": {
-            "sentence_1": {
-                "source": "TEMPLATE", 
-                "text": "3_POINT"
-            }
+        "paragraph": {
+            "paragraph_1": [
+                {
+                    "source": "TEMPLATE", 
+                    "text": "CORRECT_HINT"
+                }
+            ]
         }
     }, 
     "BUTTON_DKB": {
-        "sentence": {
-            "sentence_1": {
-                "source": "TEMPLATE", 
-                "text": "DKB"
+        "paragraph": {
+            "paragraph_1": [
+                {
+                    "source": "TEMPLATE", 
+                    "text": "DKB"
+                }
+            ]
+        }
+    }, 
+    "CHAT_WITH_ME": {
+        "conversation": {
+            "conversation_1": {
+                "message": [
+                    {
+                        "source": "TEMPLATE", 
+                        "text": "CHAT_WITH_ME"
+                    }
+                ], 
+                "quick_reply": {
+                    "payload": [
+                        "JOKE"
+                    ], 
+                    "source": [
+                        "TEMPLATE"
+                    ], 
+                    "title": [
+                        "GOT_IT"
+                    ]
+                }
             }
         }
     }, 
@@ -114,7 +141,7 @@
                     }, 
                     {
                         "source": "LOCAL", 
-                        "text": "If you get the right answer, you earn points! \ud83c\udf89"
+                        "text": "We will learn fun stuff together!"
                     }
                 ], 
                 "quick_reply": {
@@ -138,10 +165,6 @@
                     {
                         "source": "LOCAL", 
                         "text": "To study the questions, you can type in your answers in the text field and QuizBot will evaluate the answers for you."
-                    }, 
-                    {
-                        "source": "LOCAL", 
-                        "text": "For each question, you get \ud83d\udd1f points if you get it right."
                     }
                 ], 
                 "quick_reply": {
@@ -175,10 +198,6 @@
                     {
                         "source": "LOCAL", 
                         "text": "The hint will give you a list of potential answers and you can select one from them."
-                    }, 
-                    {
-                        "source": "LOCAL", 
-                        "text": "If you choose the correct answer, then you will get at most 3\ufe0f\u20e3 points."
                     }
                 ], 
                 "quick_reply": {
@@ -300,98 +319,13 @@
                 "template_type": "image"
             }
         }, 
-        "sentence": {
-            "sentence_1": {
-                "source": "TEMPLATE", 
-                "text": "GRE"
-            }
-        }
-    }, 
-    "INTERACT": {
-        "conversation": {
-            "GRE": {
-                "message": [
-                    {
-                        "source": "TEMPLATE", 
-                        "text": "GOOD_JOB_GRE"
-                    }, 
-                    {
-                        "source": "TEMPLATE", 
-                        "text": "ENCOURAGE"
-                    }
-                ], 
-                "quick_reply": {
-                    "payload": [
-                        "NEXT_QUESTION"
-                    ], 
-                    "source": [
-                        "TEMPLATE"
-                    ], 
-                    "title": [
-                        "GOT_IT"
-                    ]
+        "paragraph": {
+            "paragraph_1": [
+                {
+                    "source": "TEMPLATE", 
+                    "text": "GRE"
                 }
-            }, 
-            "SAFETY": {
-                "message": [
-                    {
-                        "source": "TEMPLATE", 
-                        "text": "GOOD_JOB_SAFETY"
-                    }, 
-                    {
-                        "source": "TEMPLATE", 
-                        "text": "ENCOURAGE"
-                    }
-                ], 
-                "quick_reply": {
-                    "payload": [
-                        "NEXT_QUESTION"
-                    ], 
-                    "source": [
-                        "TEMPLATE"
-                    ], 
-                    "title": [
-                        "GOT_IT"
-                    ]
-                }
-            }, 
-            "SCIENCE": {
-                "message": [
-                    {
-                        "source": "TEMPLATE", 
-                        "text": "GOOD_JOB_SCIENCE"
-                    }, 
-                    {
-                        "source": "TEMPLATE", 
-                        "text": "ENCOURAGE"
-                    }
-                ], 
-                "quick_reply": {
-                    "payload": [
-                        "NEXT_QUESTION"
-                    ], 
-                    "source": [
-                        "TEMPLATE"
-                    ], 
-                    "title": [
-                        "GOT_IT"
-                    ]
-                }
-            }
-        }, 
-        "image": {
-            "GRE": {
-                "image_url": "https://www.smartprimer.org:{}/pictures/avatar/penguinreading_happy.png", 
-                "template_type": "image"
-            }, 
-            "SAFETY": {
-                "image_url": "https://www.smartprimer.org:{}/pictures/avatar/penguinsafety_happy.png", 
-                "template_type": "image"
-            }, 
-            "SCIENCE": {
-                "image_url": "https://www.smartprimer.org:{}/pictures/avatar/penguinscientist_happy.png", 
-                "template_type": "image"
-            }
+            ]
         }
     }, 
     "I_DONT_KNOW": {
@@ -415,6 +349,36 @@
                     "title": [
                         "Yes, answer please.", 
                         "No, I'll try again!"
+                    ]
+                }
+            }
+        }
+    }, 
+    "JOKE": {
+        "conversation": {
+            "conversation_1": {
+                "message": [
+                    {
+                        "source": "TEMPLATE", 
+                        "text": "GIVE_JOKE"
+                    }, 
+                    {
+                        "source": "TEMPLATE", 
+                        "text": "JOKE"
+                    }
+                ], 
+                "quick_reply": {
+                    "payload": [
+                        "JOKE", 
+                        "NEXT_QUESTION"
+                    ], 
+                    "source": [
+                        "LOCAL", 
+                        "LOCAL"
+                    ], 
+                    "title": [
+                        "Another Joke \ud83d\ude01", 
+                        "Continue Learning \ud83d\udcaa\ud83c\udffc"
                     ]
                 }
             }
@@ -446,31 +410,31 @@
             "paragraph_1": [
                 {
                     "source": "TEMPLATE", 
-                    "text": "ANSWER_CORRECT"
-                }, 
+                    "text": "ANSWER_NOT_CORRECT"
+                }
+            ], 
+            "paragraph_2": [
                 {
                     "source": "TEMPLATE", 
-                    "text": "10_POINT"
+                    "text": "CORRECT_HINT"
+                }
+            ], 
+            "paragraph_3": [
+                {
+                    "source": "TEMPLATE", 
+                    "text": "ANSWER_CORRECT"
                 }
             ]
-        }, 
-        "sentence": {
-            "sentence_1": {
-                "source": "TEMPLATE", 
-                "text": "ANSWER_NOT_CORRECT"
-            }, 
-            "sentence_2": {
-                "source": "TEMPLATE", 
-                "text": "3_POINT"
-            }
         }
     }, 
     "NEED_HINT": {
-        "sentence": {
-            "sentence_1": {
-                "source": "TEMPLATE", 
-                "text": "NEED_HINT"
-            }
+        "paragraph": {
+            "paragraph_1": [
+                {
+                    "source": "TEMPLATE", 
+                    "text": "NEED_HINT"
+                }
+            ]
         }
     }, 
     "RANDOM": {
@@ -492,11 +456,13 @@
                 "template_type": "image"
             }
         }, 
-        "sentence": {
-            "sentence_1": {
-                "source": "TEMPLATE", 
-                "text": "RANDOM"
-            }
+        "paragraph": {
+            "paragraph_1": [
+                {
+                    "source": "TEMPLATE", 
+                    "text": "RANDOM"
+                }
+            ]
         }
     }, 
     "REPORT_BUG": {
@@ -540,11 +506,13 @@
                 "template_type": "image"
             }
         }, 
-        "sentence": {
-            "sentence_1": {
-                "source": "TEMPLATE", 
-                "text": "SAFETY"
-            }
+        "paragraph": {
+            "paragraph_1": [
+                {
+                    "source": "TEMPLATE", 
+                    "text": "SAFETY"
+                }
+            ]
         }
     }, 
     "SCIENCE": {
@@ -562,11 +530,13 @@
                 "template_type": "image"
             }
         }, 
-        "sentence": {
-            "sentence_1": {
-                "source": "TEMPLATE", 
-                "text": "SCIENCE"
-            }
+        "paragraph": {
+            "paragraph_1": [
+                {
+                    "source": "TEMPLATE", 
+                    "text": "SCIENCE"
+                }
+            ]
         }
     }, 
     "USER_MANUAL_1": {
@@ -576,10 +546,6 @@
                     {
                         "source": "LOCAL", 
                         "text": "To study the questions, you can type in your answers in the text field and QuizBot will evaluate the answers for you."
-                    }, 
-                    {
-                        "source": "LOCAL", 
-                        "text": "For each question, you get \ud83d\udd1f points if you get it right."
                     }
                 ], 
                 "quick_reply": {
@@ -613,10 +579,6 @@
                     {
                         "source": "LOCAL", 
                         "text": "The hint will give you a list of potential answers and you can select one from them."
-                    }, 
-                    {
-                        "source": "LOCAL", 
-                        "text": "If you choose the correct answer, then you will get at most 3\ufe0f\u20e3 points."
                     }
                 ], 
                 "quick_reply": {
@@ -683,7 +645,7 @@
                 ], 
                 "quick_reply": {
                     "payload": [
-                        "USER_MANUAL_5"
+                        "USER_MANUAL_6"
                     ], 
                     "source": [
                         "TEMPLATE"
@@ -701,35 +663,6 @@
             }, 
             "image_2": {
                 "image_url": "https://www.smartprimer.org:{}/pictures/user_manual/changesubjects_2.jpg", 
-                "template_type": "image"
-            }
-        }
-    }, 
-    "USER_MANUAL_5": {
-        "conversation": {
-            "conversation_1": {
-                "message": [
-                    {
-                        "source": "LOCAL", 
-                        "text": "You can track your learning progress by clicking on the menu button to see your total score. \ud83d\udcdd"
-                    }
-                ], 
-                "quick_reply": {
-                    "payload": [
-                        "USER_MANUAL_6"
-                    ], 
-                    "source": [
-                        "TEMPLATE"
-                    ], 
-                    "title": [
-                        "GOT_IT"
-                    ]
-                }
-            }
-        }, 
-        "image": {
-            "image_1": {
-                "image_url": "https://www.smartprimer.org:{}/pictures/user_manual/totalscorebutton.png", 
                 "template_type": "image"
             }
         }

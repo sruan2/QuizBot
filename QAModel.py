@@ -19,6 +19,7 @@ from question_sequencing.random_model import RandomSequencingModel
 
 class QAModel(object):
     '''Base class of QAModel'''
+
     def __init__(self, qa_kb):
         pretty_print("QAModel initialization", mode="QA Model")
         self.QID = 0
