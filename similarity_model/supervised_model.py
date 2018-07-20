@@ -7,7 +7,7 @@ from keras.layers import Dense, Input, concatenate
 from keras.optimizers import Adam
 import pickle
 
-from messages import MESSAGES
+from messages import MESSAGES, EXAMPLE_MESSAGES
 from sif_implementation.wordembeddings import EmbeddingVectorizer
 from QAKnowledgebase import QAKnowlegeBase
 from sif_implementation.utils import *
@@ -121,6 +121,21 @@ def fit_supervised_model(model, emb, csv_file):
 
 	return model
 
+def build_heatmap(messages, heatmap_file):
+	# construct the message pairs to pass to the model
+	test_pair_one = []
+	test_pair_two = []
+	for message1 in messages:
+		for message2 in messages:
+			test_pair_one.append(message1)
+			test_pair_two.append(message2)	
+
+	# convert the scores so that they are on 0-1 scale
+	test_scores = evaluate_model(model, emb, np.array(test_pair_one), np.array(test_pair_two))
+	corr = ((test_scores - 1) / 4).reshape(len(messages), len(messages))
+	labels = messages
+	plot_similarity(messages, corr, 90, heatmap_file)
+
 if __name__ == '__main__': # for testing
 	csv_file = 'relatedness_scores.csv'
 
@@ -131,19 +146,8 @@ if __name__ == '__main__': # for testing
 	model = init_model()
 	model = fit_supervised_model(model, emb, csv_file)
 
-	# construct the message pairs to pass to the model
-	test_pair_one = []
-	test_pair_two = []
-	for message1 in MESSAGES:
-		for message2 in MESSAGES:
-			test_pair_one.append(message1)
-			test_pair_two.append(message2)	
-
-	# convert the scores so that they are on 0-1 scale
-	test_scores = evaluate_model(model, emb, np.array(test_pair_one), np.array(test_pair_two))
-	corr = ((test_scores - 1) / 4).reshape(len(MESSAGES), len(MESSAGES))
-	labels = MESSAGES
-	plot_similarity(MESSAGES, corr, 90, 'heatmaps/semi_supervised_heatmap.png')
+	build_heatmap(MESSAGES, 'heatmaps/semi_supervised_heatmap.png')
+	build_heatmap(EXAMPLE_MESSAGES, 'heatmaps/semi_supervised_example_heatmap.png')
 
 	# test various other pairs of words
 	test_pair_one = np.array(['you are right', 'you are right', 'true', 'yes', 'right', 'a mathemematician found a solution to the problem'])

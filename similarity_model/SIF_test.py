@@ -13,6 +13,16 @@ from sif_implementation.utils import *
 
 2018 July 6
 '''
+def build_heatmap(messages, emb, filename):
+    tokenized_messages = preprocess(MESSAGES, tokenizer)
+    message_embeddings = emb.transform(tokenized_messages)        
+
+    # normalize our message embeddings so that cosine similarity is simply their dot product
+    message_embeddings /= np.linalg.norm(message_embeddings, axis = 1).reshape(-1,1)
+    corr = np.inner(message_embeddings,message_embeddings)
+
+    # plot the heat map
+    plot_similarity(MESSAGES, corr, 90, 'heatmaps/mittens_heatmap.png')
 
 if __name__ == '__main__': # for testing
     # Read QA json data and construct the QA knowledge base
@@ -33,7 +43,6 @@ if __name__ == '__main__': # for testing
     # file = 'mittens_model.pkl'
     # file = 'vectors.pkl'
     # file = 'paragram_vectors.pkl'
-    # oldFile = '/Users/sherryruan/data/glove/glove.6B/glove.6B.100d.pkl'
 
     pkl = open(file, 'rb')
 
@@ -41,37 +50,6 @@ if __name__ == '__main__': # for testing
     print("="*80+"\nloaded vectors")
 
     emb = EmbeddingVectorizer(word_vectors=glove, weighted=True, R=True)
-
     V = emb.fit_transform(tokenized_sentences) # for QuizBot replace tokenized_sentences with the entire KB answers
 
-    tokenized_messages = preprocess(MESSAGES, tokenizer)
-    message_embeddings = emb.transform(tokenized_messages)        
-
-    # normalize our message embeddings so that cosine similarity is simply their dot product
-    message_embeddings /= np.linalg.norm(message_embeddings, axis = 1).reshape(-1,1)
-    corr = np.inner(message_embeddings,message_embeddings)
-
-    # plot the heat map
-    plot_similarity(MESSAGES, corr, 90, 'heatmaps/mittens_heatmap.png')
- 
-    # # for new query, cal emb.transform instead of emb.fit_transform
-    # queryAnswers = [('hypothesis','hypotheses'),
-    #         ('carbon and hydrogen','carbon'),
-    #         ('bond','covalent bonds'),
-    #          ('human activity', 'careless human activity'),
-    #          ('heat', 'thermal energy'),
-    #          ('the nucleus', 'atomic nucleus'),
-    #          ('medulla', 'nuclear'),
-    #          ('altitude', 'height'),
-    #          ('oxygen', 'O2')]
-
-    # for q,a in queryAnswers:
-    #     tokenized_query = preprocess(q, tokenizer)
-    #     tokenized_answer = preprocess(a, tokenizer)
-    #     answer_query = emb.transform(tokenized_answer)
-    #     V_query = emb.transform(tokenized_query)
-
-    #     print(q, ',', a)
-    #     print("similarity: " + str(cosine_similarity(V_query[0], answer_query[0]))+ "\n")
-
-
+    build_heatmap(MESSAGES, emb, 'heatmaps/mittens_heatmap.png')     
