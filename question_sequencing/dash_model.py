@@ -131,8 +131,12 @@ class DASHSequencingModel(BaseSequencingModel):
             return self.pickRandomQuestion(user_id, subject)
 
     # function to update the history parameters in the model
-    def updateParameters(self, question, step, time, outcome, user_id):
+    def updateParameters(self, question, time, outcome, user_id):
+        # get and take a step
+        step = self.curr_step[user_id]
+        self.curr_step[user_id] += 1
         curr_window = self.get_current_window(step)
+
         if outcome:
             self.num_correct[user_id][question, curr_window] += 1
         self.num_attempts[user_id][question, curr_window] += 1
@@ -142,8 +146,6 @@ class DASHSequencingModel(BaseSequencingModel):
     # item is the index of the last item
     def updateHistory(self, outcome, user_id = 0):
         question = self.curr_item[user_id]
-        step = self.curr_step[user_id]
         time = self.update_time[user_id]
 
-        self.updateParameters(question, step, time, outcome, user_id)
-        self.curr_step[user_id] += 1
+        self.updateParameters(question, time, outcome, user_id)
