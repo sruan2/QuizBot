@@ -1,7 +1,465 @@
-5, five, 5
-hypothesis, hypotheses, 5
-carbon, carbon and oxygen, 5
-bond, covalent bonds, 5
-human activity, careless human activity, 5
-heat, thermal energy, 5
-nuclear, medulla, 5
+5,five,5
+5,4,1
+5,four,1
+5,true,1
+5,yes,1
+5,no,1
+5,false,1
+5,Hydrogen,1
+5,hydrogen,1
+5,Carbon,1
+5,carbon,1
+5,carbon,1
+5,carbon and hydrogen,1
+5,hydrogen and carbon,1
+5,bond,1
+5,covalent bonds,1
+5,human activity,1
+5,careless human activity,1
+5,heat,1
+5,thermal energy,1
+5,atom nucleus,1
+5,the nucleus,1
+5,nuclear,1
+5,medulla,1
+5,reproduce asexually and sexually,1
+5,reproduce sexually and asexually,1
+5,2 hour,1
+5,2 hours,1
+5,right,1
+5,correct,1
+five,4,1
+five,four,1
+five,true,1
+five,yes,1
+five,no,1
+five,false,1
+five,Hydrogen,1
+five,hydrogen,1
+five,Carbon,1
+five,carbon,1
+five,carbon,1
+five,carbon and hydrogen,1
+five,hydrogen and carbon,1
+five,bond,1
+five,covalent bonds,1
+five,human activity,1
+five,careless human activity,1
+five,heat,1
+five,thermal energy,1
+five,atom nucleus,1
+five,the nucleus,1
+five,nuclear,1
+five,medulla,1
+five,reproduce asexually and sexually,1
+five,reproduce sexually and asexually,1
+five,2 hour,1
+five,2 hours,1
+five,right,1
+five,correct,1
+4,four,5
+4,true,1
+4,yes,1
+4,no,1
+4,false,1
+4,Hydrogen,1
+4,hydrogen,1
+4,Carbon,1
+4,carbon,1
+4,carbon,1
+4,carbon and hydrogen,1
+4,hydrogen and carbon,1
+4,bond,1
+4,covalent bonds,1
+4,human activity,1
+4,careless human activity,1
+4,heat,1
+4,thermal energy,1
+4,atom nucleus,1
+4,the nucleus,1
+4,nuclear,1
+4,medulla,1
+4,reproduce asexually and sexually,1
+4,reproduce sexually and asexually,1
+4,2 hour,1
+4,2 hours,1
+4,right,1
+4,correct,1
+four,true,1
+four,yes,1
+four,no,1
+four,false,1
+four,Hydrogen,1
+four,hydrogen,1
+four,Carbon,1
+four,carbon,1
+four,carbon,1
+four,carbon and hydrogen,1
+four,hydrogen and carbon,1
+four,bond,1
+four,covalent bonds,1
+four,human activity,1
+four,careless human activity,1
+four,heat,1
+four,thermal energy,1
+four,atom nucleus,1
+four,the nucleus,1
+four,nuclear,1
+four,medulla,1
+four,reproduce asexually and sexually,1
+four,reproduce sexually and asexually,1
+four,2 hour,1
+four,2 hours,1
+four,right,1
+four,correct,1
+true,yes,5
+true,no,1
+true,false,1
+true,Hydrogen,1
+true,hydrogen,1
+true,Carbon,1
+true,carbon,1
+true,carbon,1
+true,carbon and hydrogen,1
+true,hydrogen and carbon,1
+true,bond,1
+true,covalent bonds,1
+true,human activity,1
+true,careless human activity,1
+true,heat,1
+true,thermal energy,1
+true,atom nucleus,1
+true,the nucleus,1
+true,nuclear,1
+true,medulla,1
+true,reproduce asexually and sexually,1
+true,reproduce sexually and asexually,1
+true,2 hour,1
+true,2 hours,1
+true,right,1
+true,correct,1
+yes,no,1
+yes,false,1
+yes,Hydrogen,1
+yes,hydrogen,1
+yes,Carbon,1
+yes,carbon,1
+yes,carbon,1
+yes,carbon and hydrogen,1
+yes,hydrogen and carbon,1
+yes,bond,1
+yes,covalent bonds,1
+yes,human activity,1
+yes,careless human activity,1
+yes,heat,1
+yes,thermal energy,1
+yes,atom nucleus,1
+yes,the nucleus,1
+yes,nuclear,1
+yes,medulla,1
+yes,reproduce asexually and sexually,1
+yes,reproduce sexually and asexually,1
+yes,2 hour,1
+yes,2 hours,1
+yes,right,1
+yes,correct,1
+no,false,5
+no,Hydrogen,1
+no,hydrogen,1
+no,Carbon,1
+no,carbon,1
+no,carbon,1
+no,carbon and hydrogen,1
+no,hydrogen and carbon,1
+no,bond,1
+no,covalent bonds,1
+no,human activity,1
+no,careless human activity,1
+no,heat,1
+no,thermal energy,1
+no,atom nucleus,1
+no,the nucleus,1
+no,nuclear,1
+no,medulla,1
+no,reproduce asexually and sexually,1
+no,reproduce sexually and asexually,1
+no,2 hour,1
+no,2 hours,1
+no,right,1
+no,correct,1
+false,Hydrogen,1
+false,hydrogen,1
+false,Carbon,1
+false,carbon,1
+false,carbon,1
+false,carbon and hydrogen,1
+false,hydrogen and carbon,1
+false,bond,1
+false,covalent bonds,1
+false,human activity,1
+false,careless human activity,1
+false,heat,1
+false,thermal energy,1
+false,atom nucleus,1
+false,the nucleus,1
+false,nuclear,1
+false,medulla,1
+false,reproduce asexually and sexually,1
+false,reproduce sexually and asexually,1
+false,2 hour,1
+false,2 hours,1
+false,right,1
+false,correct,1
+Hydrogen,hydrogen,5
+Hydrogen,Carbon,1
+Hydrogen,carbon,1
+Hydrogen,carbon,1
+Hydrogen,carbon and hydrogen,1
+Hydrogen,hydrogen and carbon,1
+Hydrogen,bond,1
+Hydrogen,covalent bonds,1
+Hydrogen,human activity,1
+Hydrogen,careless human activity,1
+Hydrogen,heat,1
+Hydrogen,thermal energy,1
+Hydrogen,atom nucleus,1
+Hydrogen,the nucleus,1
+Hydrogen,nuclear,1
+Hydrogen,medulla,1
+Hydrogen,reproduce asexually and sexually,1
+Hydrogen,reproduce sexually and asexually,1
+Hydrogen,2 hour,1
+Hydrogen,2 hours,1
+Hydrogen,right,1
+Hydrogen,correct,1
+hydrogen,Carbon,1
+hydrogen,carbon,1
+hydrogen,carbon,1
+hydrogen,carbon and hydrogen,1
+hydrogen,hydrogen and carbon,1
+hydrogen,bond,1
+hydrogen,covalent bonds,1
+hydrogen,human activity,1
+hydrogen,careless human activity,1
+hydrogen,heat,1
+hydrogen,thermal energy,1
+hydrogen,atom nucleus,1
+hydrogen,the nucleus,1
+hydrogen,nuclear,1
+hydrogen,medulla,1
+hydrogen,reproduce asexually and sexually,1
+hydrogen,reproduce sexually and asexually,1
+hydrogen,2 hour,1
+hydrogen,2 hours,1
+hydrogen,right,1
+hydrogen,correct,1
+Carbon,carbon,5
+Carbon,carbon,1
+Carbon,carbon and hydrogen,1
+Carbon,hydrogen and carbon,1
+Carbon,bond,1
+Carbon,covalent bonds,1
+Carbon,human activity,1
+Carbon,careless human activity,1
+Carbon,heat,1
+Carbon,thermal energy,1
+Carbon,atom nucleus,1
+Carbon,the nucleus,1
+Carbon,nuclear,1
+Carbon,medulla,1
+Carbon,reproduce asexually and sexually,1
+Carbon,reproduce sexually and asexually,1
+Carbon,2 hour,1
+Carbon,2 hours,1
+Carbon,right,1
+Carbon,correct,1
+carbon,carbon,1
+carbon,carbon and hydrogen,1
+carbon,hydrogen and carbon,1
+carbon,bond,1
+carbon,covalent bonds,1
+carbon,human activity,1
+carbon,careless human activity,1
+carbon,heat,1
+carbon,thermal energy,1
+carbon,atom nucleus,1
+carbon,the nucleus,1
+carbon,nuclear,1
+carbon,medulla,1
+carbon,reproduce asexually and sexually,1
+carbon,reproduce sexually and asexually,1
+carbon,2 hour,1
+carbon,2 hours,1
+carbon,right,1
+carbon,correct,1
+carbon,carbon and hydrogen,5
+carbon,hydrogen and carbon,5
+carbon,bond,1
+carbon,covalent bonds,1
+carbon,human activity,1
+carbon,careless human activity,1
+carbon,heat,1
+carbon,thermal energy,1
+carbon,atom nucleus,1
+carbon,the nucleus,1
+carbon,nuclear,1
+carbon,medulla,1
+carbon,reproduce asexually and sexually,1
+carbon,reproduce sexually and asexually,1
+carbon,2 hour,1
+carbon,2 hours,1
+carbon,right,1
+carbon,correct,1
+carbon and hydrogen,hydrogen and carbon,5
+carbon and hydrogen,bond,1
+carbon and hydrogen,covalent bonds,1
+carbon and hydrogen,human activity,1
+carbon and hydrogen,careless human activity,1
+carbon and hydrogen,heat,1
+carbon and hydrogen,thermal energy,1
+carbon and hydrogen,atom nucleus,1
+carbon and hydrogen,the nucleus,1
+carbon and hydrogen,nuclear,1
+carbon and hydrogen,medulla,1
+carbon and hydrogen,reproduce asexually and sexually,1
+carbon and hydrogen,reproduce sexually and asexually,1
+carbon and hydrogen,2 hour,1
+carbon and hydrogen,2 hours,1
+carbon and hydrogen,right,1
+carbon and hydrogen,correct,1
+hydrogen and carbon,bond,1
+hydrogen and carbon,covalent bonds,1
+hydrogen and carbon,human activity,1
+hydrogen and carbon,careless human activity,1
+hydrogen and carbon,heat,1
+hydrogen and carbon,thermal energy,1
+hydrogen and carbon,atom nucleus,1
+hydrogen and carbon,the nucleus,1
+hydrogen and carbon,nuclear,1
+hydrogen and carbon,medulla,1
+hydrogen and carbon,reproduce asexually and sexually,1
+hydrogen and carbon,reproduce sexually and asexually,1
+hydrogen and carbon,2 hour,1
+hydrogen and carbon,2 hours,1
+hydrogen and carbon,right,1
+hydrogen and carbon,correct,1
+bond,covalent bonds,5
+bond,human activity,1
+bond,careless human activity,1
+bond,heat,1
+bond,thermal energy,1
+bond,atom nucleus,1
+bond,the nucleus,1
+bond,nuclear,1
+bond,medulla,1
+bond,reproduce asexually and sexually,1
+bond,reproduce sexually and asexually,1
+bond,2 hour,1
+bond,2 hours,1
+bond,right,1
+bond,correct,1
+covalent bonds,human activity,1
+covalent bonds,careless human activity,1
+covalent bonds,heat,1
+covalent bonds,thermal energy,1
+covalent bonds,atom nucleus,1
+covalent bonds,the nucleus,1
+covalent bonds,nuclear,1
+covalent bonds,medulla,1
+covalent bonds,reproduce asexually and sexually,1
+covalent bonds,reproduce sexually and asexually,1
+covalent bonds,2 hour,1
+covalent bonds,2 hours,1
+covalent bonds,right,1
+covalent bonds,correct,1
+human activity,careless human activity,5
+human activity,heat,1
+human activity,thermal energy,1
+human activity,atom nucleus,1
+human activity,the nucleus,1
+human activity,nuclear,1
+human activity,medulla,1
+human activity,reproduce asexually and sexually,1
+human activity,reproduce sexually and asexually,1
+human activity,2 hour,1
+human activity,2 hours,1
+human activity,right,1
+human activity,correct,1
+careless human activity,heat,1
+careless human activity,thermal energy,1
+careless human activity,atom nucleus,1
+careless human activity,the nucleus,1
+careless human activity,nuclear,1
+careless human activity,medulla,1
+careless human activity,reproduce asexually and sexually,1
+careless human activity,reproduce sexually and asexually,1
+careless human activity,2 hour,1
+careless human activity,2 hours,1
+careless human activity,right,1
+careless human activity,correct,1
+heat,thermal energy,5
+heat,atom nucleus,1
+heat,the nucleus,1
+heat,nuclear,1
+heat,medulla,1
+heat,reproduce asexually and sexually,1
+heat,reproduce sexually and asexually,1
+heat,2 hour,1
+heat,2 hours,1
+heat,right,1
+heat,correct,1
+thermal energy,atom nucleus,1
+thermal energy,the nucleus,1
+thermal energy,nuclear,1
+thermal energy,medulla,1
+thermal energy,reproduce asexually and sexually,1
+thermal energy,reproduce sexually and asexually,1
+thermal energy,2 hour,1
+thermal energy,2 hours,1
+thermal energy,right,1
+thermal energy,correct,1
+atom nucleus,the nucleus,5
+atom nucleus,nuclear,1
+atom nucleus,medulla,1
+atom nucleus,reproduce asexually and sexually,1
+atom nucleus,reproduce sexually and asexually,1
+atom nucleus,2 hour,1
+atom nucleus,2 hours,1
+atom nucleus,right,1
+atom nucleus,correct,1
+the nucleus,nuclear,1
+the nucleus,medulla,1
+the nucleus,reproduce asexually and sexually,1
+the nucleus,reproduce sexually and asexually,1
+the nucleus,2 hour,1
+the nucleus,2 hours,1
+the nucleus,right,1
+the nucleus,correct,1
+nuclear,medulla,5
+nuclear,reproduce asexually and sexually,1
+nuclear,reproduce sexually and asexually,1
+nuclear,2 hour,1
+nuclear,2 hours,1
+nuclear,right,1
+nuclear,correct,1
+medulla,reproduce asexually and sexually,1
+medulla,reproduce sexually and asexually,1
+medulla,2 hour,1
+medulla,2 hours,1
+medulla,right,1
+medulla,correct,1
+reproduce asexually and sexually,reproduce sexually and asexually,5
+reproduce asexually and sexually,2 hour,1
+reproduce asexually and sexually,2 hours,1
+reproduce asexually and sexually,right,1
+reproduce asexually and sexually,correct,1
+reproduce sexually and asexually,2 hour,1
+reproduce sexually and asexually,2 hours,1
+reproduce sexually and asexually,right,1
+reproduce sexually and asexually,correct,1
+2 hour,2 hours,5
+2 hour,right,1
+2 hour,correct,1
+2 hours,right,1
+2 hours,correct,1
+right,correct,5
