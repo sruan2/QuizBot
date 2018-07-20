@@ -10,10 +10,11 @@ from collections import defaultdict
 from base_model import BaseSequencingModel
 
 class Question():
-    def __init__(self, id):
+    def __init__(self, id, subject):
         # initially everything in queue 0
         self.queue = 0
         self.id = id
+        self.subject = subject
 
 class LeitnerSequencingModel(BaseSequencingModel):
     '''Pick next question using leitner sequence model'''
@@ -31,7 +32,7 @@ class LeitnerSequencingModel(BaseSequencingModel):
             subject_queues = {subject : [Queue()] for subject in self.QA_KB.SubKB}
             for subject, question_list in self.QA_KB.SubDict.items():
                 for qid in question_list:
-                    subject_queues[subject][0].put(Question(qid))
+                    subject_queues[subject][0].put(Question(qid, subject))
             return(subject_queues)
 
         # subject queues maps from user to subjects to the list of queues
@@ -79,7 +80,8 @@ class LeitnerSequencingModel(BaseSequencingModel):
                 
         return data
 
-    def updateParameters(self, subject, question, outcome, user_id):
+    def updateParameters(self, question, outcome, user_id):
+        subject = question.subject
         next_q = max(1, question.queue + 2*outcome - 1)
         # extend num queues
         if next_q == len(self.user_subject_queues[user_id][subject]):
@@ -91,7 +93,6 @@ class LeitnerSequencingModel(BaseSequencingModel):
     # item is the index of the last item
     def updateHistory(self, outcome, user_id = 0):
         # demote 1 if wrong, promote 1 if correct
-        subject = self.curr_subject[user_id]
         question = self.curr_question[user_id]
 
-        self.updateParameters(subject, question, outcome, user_id)
+        self.updateParameters(question, outcome, user_id)
