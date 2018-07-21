@@ -43,6 +43,10 @@ class LeitnerSequencingModel(BaseSequencingModel):
 
     # goes through the queues to figure out the next item
     def pickNextQuestion(self, subject = 'random', user_id = 0):
+        if user_id not in self.loaded_users:
+            self.loadUserData(user_id)
+            self.loaded_users.append(user_id)
+            
         # pick a random subject if random
         if subject == 'random':
             subject = np.random.choice(self.subjects)
@@ -87,6 +91,10 @@ class LeitnerSequencingModel(BaseSequencingModel):
         if next_q == len(self.user_subject_queues[user_id][subject]):
             self.user_subject_queues[user_id][subject].append(Queue())
         self.user_subject_queues[user_id][subject][next_q].put(question)
+
+    # TODO: implement loading data from file
+    def loadUserData(self, user_id):
+        pass
 
     # updates the queues and the history 
     # outcome is either 0 or 1, if the user answered correctly 
