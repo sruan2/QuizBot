@@ -1,4 +1,4 @@
-'''Leitner Question Sequencing Model
+'''Dash Question Sequencing Model
 
 2018 July 6
 '''
@@ -125,6 +125,10 @@ class DASHSequencingModel(BaseSequencingModel):
 
     # pick threshold based review every 10 steps, otherwise pick random
     def pickNextQuestion(self, user_id = 0, subject = 'random'):
+        if user_id not in self.loaded_users:
+            self.loadUserData(user_id)
+            self.loaded_users.append(user_id)
+
         if self.curr_step[user_id] % 5 == 0:
             return self.thresholdPickQuestion(user_id, subject)
         else:
@@ -141,6 +145,10 @@ class DASHSequencingModel(BaseSequencingModel):
             self.num_correct[user_id][question, curr_window] += 1
         self.num_attempts[user_id][question, curr_window] += 1
         self.last_viewed[user_id][question] = time 
+
+    # TODO: implement loading user data from file
+    def loadUserData(self, user_id):
+        pass
 
     # outcome is either 0 or 1, if the user answered correctly 
     # item is the index of the last item

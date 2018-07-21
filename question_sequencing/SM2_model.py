@@ -50,7 +50,11 @@ class SM2SequencingModel(BaseSequencingModel):
             return self.get_interval(n-1, question)*ef
 
     def pickNextQuestion(self, user_id = 0, subject = 'random'):
-        # pick a random subject if rando    m
+        if user_id not in self.loaded_users:
+            self.loadUserData(user_id)
+            self.loaded_users.append(user_id)
+
+        # pick a random subject if random
         if subject == 'random':
             subject = random.choice(self.subjects)
 
@@ -85,7 +89,10 @@ class SM2SequencingModel(BaseSequencingModel):
 
         question.priority += self.get_interval(question.num_repetitions, question)
         heapq.heappush(self.user_subject_order[user_id][subject], (question.priority, question))
- 
+    
+    # TODO: implement loading user data from file 
+    def loadUserData(self, user_id):
+        pass
 
     def updateHistory(self, outcome, user_id = 0):
         '''update the easiness factor and the history'''

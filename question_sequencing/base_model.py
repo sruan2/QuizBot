@@ -9,9 +9,6 @@ from abc import abstractmethod
 
 from utils import pretty_print
 
-def load_data(filename):
-    pass
-
 class BaseSequencingModel():
 
     def __init__(self, qa_kb):
@@ -22,10 +19,12 @@ class BaseSequencingModel():
         '''
         pretty_print("Question sequencing model initialization", mode="Seq Model")
         self.QA_KB = qa_kb
-        load_data('history.csv') 
-        # a dictionary mapping 150 questions to user's answer history
-        self.correct_history = {}
+        # list of the users currently loaded into memory
+        self.loaded_users = []
 
+    @abstractmethod
+    def loadUserData(self, user_id = 0):
+        pass
 
     @abstractmethod
     def pickNextQuestion(self, user_id = 0, subject = "random"):
