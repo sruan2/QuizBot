@@ -1,21 +1,23 @@
-'''QA Knowledgebase for safety, gre, and science questions'''
+'''QA Knowledgebase for safety, gre, and science question data'''
 
 import json
 from utils import pretty_print
 
+
 class QAKnowlegeBase():
+    '''QA KnowledgeBase that loads all safety, gre, and science question data'''
 
     def __init__(self, jsonFile):
         pretty_print("Begin to Construct QA Knowledgebase", mode="QA KB")
         data = json.load(open(jsonFile))
 
-        self.QID = [] # questin id
-        self.QKB = [] # question
-        self.SKB = [] # support
-        self.AKB = [] # correct answer (NOTE THIS IS A LIST!)
-        self.DKB = [] # distractors
-        self.SubKB = [] # subject
-        self.SubDict = {} # subject dict
+        self.QID = []  # questin id
+        self.QKB = []  # question
+        self.SKB = []  # support
+        self.AKB = []  # correct answer (NOTE THIS IS A LIST)
+        self.DKB = []  # distractors
+        self.SubKB = []  # subject
+        self.SubDict = {}  # subject dict
         self.KBlength = len(data)
 
         for entry in data:
@@ -36,6 +38,7 @@ class QAKnowlegeBase():
         pretty_print("Finished QA Knowledgebase Construction", mode="QA KB")
 
     def appendSubDict(self):
+        '''Store questions based on their subjects'''
         for i, subject in enumerate(self.SubKB):
             if subject in self.SubDict.keys():
                 self.SubDict[subject].append(i)  # append index in list, not qid

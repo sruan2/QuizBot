@@ -187,13 +187,6 @@ TEMPLATE:
     - Great! Let's resuming learning.
     - Cool! Let's keep going.
 
-  TOTAL_SCORE:
-    - Your total score is {}. Keep it up! 💪🏼
-    - Your total score is {}. Great work! 💪🏼
-    - Your total score is {}. Good job! 💪🏼
-    - Your total score is {}. Excellent work! 💪🏼
-    - Your total score is {}. Awesome work! 💪🏼
-
   INDEX:
     - "1️⃣"
     - "2️⃣" 
@@ -311,21 +304,50 @@ TEMPLATE:
     - Oops, that wasn't quite correct. You didn't earn any points 😞
     - Hmm, that wasn't quite right. You didn't earn any points 😞 
 
-  3_POINT:
-    - You earned 3 points! Keep it up! 💪🏼
-    - Nice! You got 3 points!!
-    - Great work! That eraned you 3 points!
-    - Let's keep it rolling! You just got 3 points!
-
-  10_POINT:
-    - You earned 10 points!
-    - Awesome! You got 10 points!
-    - Tremendous! That earned you 10 points!
-    - Wow! Great job! You just got 10 points!
+  CORRECT_HINT:
+    - Yes! You got the correct answer!
+    - Great! Keep it up! 💪🏼
 
   REMINDER:
     - "{}, you haven't talked to me for a while. Do you want to continue the conversation with me?"
     - " Hi {}, you haven't talked to me for a while. Would you like to resume the learning with me?"
+
+  CHAT_WITH_ME:
+    - Do you want to hear a joke from me?
+    - I have a joke for you! Do you want to hear that?
+
+  GIVE_JOKE:
+    - "Here is an intereting one:"
+
+  JOKE:
+    - "Q. How do you make the number one disappear? A. Add the letter G and then presto\u2014it\u2019s Gone!"
+    - "Q. I\u2019m an odd number. If you take away one of the letters in my name, I become even. What number am I? A. Seven. (Take away the S!)"
+    - "Q. How many cats can you put in an empty box? A. One. After that, the box isn\u2019t empty anymore."
+    - "Q. What starts with \u201ce,\u201d ends with \u201ce,\u201d and contains one letter? A. An envelope."
+    - "Q. What has one head, one foot, and four legs? A. A bed."
+    - "Q: What kind of coat is always wet when you put it on? A: A coat of paint."
+    - "Q: Why was the chef embarrassed? A: Because he saw the salad dressing!"
+    - "Q: Where is the ocean the deepest? A: On the bottom!"
+    - "Q: Which is the most curious letter? A: Y?"
+    - "Q: What did zero say to eight? A: Nice belt."
+    - "Q: What starts with a P, ends with an E, and has thousands of letters? A: The Post Office!"
+    - "Q: What five-letter word becomes shorter when you add two letters to it? A: Short!"
+    - "Q: When do you go at red and stop at green? A: When you\u2019re eating a watermelon."
+    - "Q: Why do watermelons have fancy weddings? A: Because they cantaloupe."
+    - "Q: How does a hurricane see? A: With its eye."
+    - "Q: What did the cat say when the mouse got away? A: You\u2019ve got to be kitten me!"
+    - "Q. What lies at the bottom of the ocean and twitches? A. A nervous wreck."
+    - "What is the musical part of a snake? The scales."
+    - "Which composer likes tea the most? Chai-kovsky."
+    - "C, E-flat, and G walk into a bar. The bartender shows them the door and says, \u201cSorry, we don\u2019t serve minors.\u201d"
+    - "What was Beethoven\u2019s favorite fruit? BA-NA-NA-NAAAAAA."
+    - "Q. What do you call a fake noodle? A. An impasta."
+    - "Q: Why did the dieter go to the paint store? A: He wanted to get thinner."
+    - "Q: What do you get when you play Tug-of-War with a pig? A: Pulled-Pork."
+    - "Q: What are hot dogs called in winter? A: Chilly dogs"
+    - "Q: What do chemists\u2019 dogs do with their bones? A: They barium!"
+    - "Q: Why don\u2019t cats play poker in the jungle? A: There are too many cheetahs."
+    - "What did Beethoven say to Johann Sebastian when he was helping him parallel park? \u201cBach it up.\u201d"
 
 STATE:
   QUESTION:
@@ -427,19 +449,19 @@ STATE:
       payload:
         - NEXT_QUESTION
 
-  TOTAL_SCORE:
-    quick_reply:  
-      message:
-        source:
-          LOCAL
-        text:
-          Your total score is {}. Keep it up! 💪🏼
-      source:
-        - TEMPLATE
-      title:
-        - GOT_IT
-      payload:
-        - NEXT_QUESTION
+  # TOTAL_SCORE:
+  #   quick_reply:  
+  #     message:
+  #       source:
+  #         LOCAL
+  #       text:
+  #         Your total score is {}. Keep it up! 💪🏼
+  #     source:
+  #       - TEMPLATE
+  #     title:
+  #       - GOT_IT
+  #     payload:
+  #       - NEXT_QUESTION
 
   REMINDER:
     image:
@@ -497,11 +519,11 @@ STATE:
                 payload: 
                   RANDOM
           - title: 
-              Check Total Score 📝
+              Chat With Me 🐧
             type: 
               postback
             payload: 
-              CHECK_TOTAL_SCORE
+              CHAT_WITH_ME
           - title: 
               More📍
             type: 

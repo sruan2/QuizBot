@@ -1,12 +1,10 @@
 import os
 import json
-import yaml
 import requests
-import sys
 import random
 import time
 import messaging_API
-from database import *
+import database as db
 from utils import *
 
 PRAMS = {"access_token": os.environ["PAGE_ACCESS_TOKEN"]}
@@ -16,7 +14,7 @@ def send_data(data, data_type = "messages"):
     r = requests.post("https://graph.facebook.com/v2.6/me/" + data_type, params=PRAMS, headers=HEADERS, data=data)
     if r.status_code != 200:
         log(r.status_code)
-        log(r.text)  
+        log(r.text)
 
 
 def persistent_menu(template_conversation):
@@ -24,10 +22,11 @@ def persistent_menu(template_conversation):
         This function sets up the persistence menu.
 
         Args:
-            template_conversation: the json structure containing the conversation and state templates 
+            template_conversation: the json structure containing the conversation and state templates
 
         Returns:
-    '''   
+            None
+    '''
     messaging_API.send_persistent_menu(json.dumps(template_conversation["STATE"]["PERSISTENT_MENU"]))
 
 
@@ -36,9 +35,10 @@ def init_payload(template_conversation):
         This function initializes the payloads.
 
         Args:
-            template_conversation: the json structure containing the conversation and state templates 
+            template_conversation: the json structure containing the conversation and state templates
 
         Returns:
+            None
     '''
     messaging_API.send_get_started(json.dumps(template_conversation["STATE"]["GET_STARTED"]))
 
@@ -60,24 +60,7 @@ def send_image(mysql, recipient_id, payload, chatbot_text, image_id):
     messaging_API.send_image(mysql, recipient_id, image_data)
 
 
-def send_sentence(recipient_id, payload, chatbot_text, template_conversation, sentence_id):
-    '''
-        This function sends a single sentence to the specified recipient.
-
-        Args:
-            recipient_id: the recipient's unique id assigned by Facebook Messenger
-            payload: chatbot's payload state
-            chatbot_text: the json structure containing the chatbot's text/conversation source
-            template_conversation: the json structure containing the conversation and state templates 
-            sentence_id: the name/id of the sentence being sent, specified in chatbot_text
-       
-        Returns:
-    '''
-    message_data = chatbot_text[payload]["sentence"][sentence_id]
-    messaging_API.send_message(mysql, recipient_id, template_conversation, message_data) 
-
-
-def send_paragraph(recipient_id, payload, chatbot_text, template_conversation, paragraph_id):
+def send_paragraph(mysql, recipient_id, payload, chatbot_text, template_conversation, paragraph_id):
     '''
         This function sends a set of sentences to the specified recipient.
 
@@ -85,10 +68,11 @@ def send_paragraph(recipient_id, payload, chatbot_text, template_conversation, p
             recipient_id: the recipient's unique id assigned by Facebook Messenger
             payload: chatbot's payload state
             chatbot_text: the json structure containing the chatbot's text/conversation source
-            template_conversation: the json structure containing the conversation and state templates 
+            template_conversation: the json structure containing the conversation and state templates
             paragraph_id: the name/id of the paragraph being sent, specified in chatbot_text
-       
+
         Returns:
+            None
     '''
     paragraph_data = chatbot_text[payload]["paragraph"][paragraph_id]
     num_sentence = len(paragraph_data)
@@ -100,16 +84,16 @@ def send_paragraph(recipient_id, payload, chatbot_text, template_conversation, p
 
 def send_conversation(mysql, recipient_id, payload, chatbot_text, template_conversation, conversation_id):
     '''
-        This function sends a list of texts, with a short delay and typing action in between scentences, 
+        This function sends a list of texts, with a short delay and typing action in between scentences,
         along with a set of quick reply button to continue the conversation, to the specified recipient.
 
         Args:
             recipient_id: the recipient's unique id assigned by Facebook Messenger
             payload: chatbot's payload state
             chatbot_text: the json structure containing the chatbot's text/conversation source
-            template_conversation: the json structure containing the conversation and state templates 
+            template_conversation: the json structure containing the conversation and state templates
             conversation_id: the name/id of the conversation being sent, specified in chatbot_text
-       
+
         Returns:
     '''
     conversation_data = chatbot_text[payload]["conversation"][conversation_id]
@@ -119,118 +103,122 @@ def send_conversation(mysql, recipient_id, payload, chatbot_text, template_conve
         messaging_API.send_message(mysql, recipient_id, template_conversation, msg)
 
     quick_reply_data = conversation_data["quick_reply"]
-    messaging_API.send_quick_reply(recipient_id, template_conversation, quick_reply_data, message_data[-1])
+    messaging_API.send_quick_reply(mysql, recipient_id, template_conversation, quick_reply_data, message_data[-1])
 
 
-def send_format_quick_reply_text(recipient_id, template_conversation, state, format_fill_text):
+def send_format_quick_reply_text(mysql, recipient_id, template_conversation, state, format_fill_text):
     '''
         This function sends a quick reply with formatted text message.
 
         Args:
             recipient_id: the recipient's unique id assigned by Facebook Messenger
-            template_conversation: the json structure containing the conversation and state templates 
+            template_conversation: the json structure containing the conversation and state templates
             state: the state's name, specified in template_conversation
             format_fill_text: the text to be filled into the placeholder of the message text
 
         Returns:
+            None
     '''
     quick_reply_data = template_conversation["STATE"][state]["quick_reply"]
     text_format = quick_reply_data["message"]["text"]
     quick_reply_data["message"]["text"] = quick_reply_data["message"]["text"].format(format_fill_text)
-    messaging_API.send_quick_reply(recipient_id, template_conversation, quick_reply_data)
-    quick_reply_data["message"]["text"] = text_format   
+    messaging_API.send_quick_reply(mysql, recipient_id, template_conversation, quick_reply_data)
+    quick_reply_data["message"]["text"] = text_format
 
 
-def send_choose_subject(recipient_id, template_conversation):
+def send_choose_subject(mysql, recipient_id, template_conversation):
     '''
         This function asks the specified recipient to choose a subject.
         Args:
             recipient_id: the recipient's unique id assigned by Facebook Messenger
-            template_conversation: the json structure containing the conversation and state templates 
-       
+            template_conversation: the json structure containing the conversation and state templates
+
         Returns:
     '''
     quick_reply_data = template_conversation["STATE"]["CHOOSE_SUBJECT"]["quick_reply"]
-    messaging_API.send_quick_reply(recipient_id, template_conversation, quick_reply_data)
+    messaging_API.send_quick_reply(mysql, recipient_id, template_conversation, quick_reply_data)
 
 
-def send_question(recipient_id, template_conversation, payload = "", qa_model = "", mysql = "", subject = "", question = ""):
+def send_question(mysql, recipient_id, template_conversation, payload=None, qa_model=None, subject=None, question=None):
     '''
         This function sends a question to the specified recipient.
 
         Args:
-            recipient_id: the recipient's unique id assigned by Facebook Messenger
-            template_conversation: the json structure containing the conversation and state templates 
+            recipient_id (str): the recipient's unique id assigned by Facebook Messenger
+            template_conversation: the json structure containing the conversation and state templates
             payload: chatbot's payload state
             qa_model: the question answering model containing information about the question dataset
             mysql: database
             subject: the subject name: (science, safety, gre, random)
             question: the question string
-       
+
         Returns:
-    '''    
-    if question == "":
+            None
+    '''
+    if not question:
         question, QID = qa_model.pickQuestion(subject)
-        update_status(mysql, recipient_id, 0)
-        insert_question(mysql, recipient_id, QID, payload)
+        db.update_status(mysql, recipient_id, 0)
+        db.insert_question(mysql, recipient_id, QID, payload)
 
     message_data = template_conversation["STATE"]["QUESTION"]["message"]
     messaging_API.send_message(mysql, recipient_id, template_conversation, message_data)
 
-    send_format_quick_reply_text(recipient_id, template_conversation, "QUESTION", question)
+    send_format_quick_reply_text(mysql, recipient_id, template_conversation, "QUESTION", question)
+
+    print(message_data)
 
 
-def send_say_hi(recipient_id, template_conversation, recipient_firstname):
+def send_say_hi(mysql, recipient_id, template_conversation, recipient_firstname):
     '''
         This function sends a hi message to the specified recipient.
     '''
-    send_format_quick_reply_text(recipient_id, template_conversation, "SAY_HI", recipient_firstname)
+    send_format_quick_reply_text(mysql, recipient_id, template_conversation, "SAY_HI", recipient_firstname)
 
 
-def send_correct_answer(recipient_id, payload, template_conversation, qa_model, score, mysql):
+def send_correct_answer(mysql, recipient_id, payload, template_conversation, qa_model, score):
     '''
         This function sends the correct answer of a question to the specified recipient.
 
         Args:
             recipient_id: the recipient's unique id assigned by Facebook Messenger
             payload: chatbot's payload state
-            template_conversation: the json structure containing the conversation and state templates 
+            template_conversation: the json structure containing the conversation and state templates
             qa_model: the question answering model containing information about the question dataset
             score: the score to be logged into the database
             mysql: database
-       
+
         Returns:
+            None
     '''
-    QID, _ = show_last_qid_subject(mysql, recipient_id)
+    QID, _ = db.show_last_qid_subject(mysql, recipient_id)
     standard_answer = qa_model.getAnswer(QID)
-    insert_score(mysql, recipient_id, QID, payload, score)
-    #insert_conversation(mysql, user_id, qid, type, subject, dialog, score)
-    database.insert_conversation(mysql, recipient_id, QID, "user_typing", "subject", payload, score)
+    # insert_score(mysql, recipient_id, QID, payload, score)
+    # insert_conversation(mysql, recipient_id, QID, "user_typing", "subject", payload, score)
+    send_format_quick_reply_text(mysql, recipient_id, template_conversation, "CORRECT_ANSWER", standard_answer)
+    db.update_status(mysql, recipient_id, 1)
 
-    send_format_quick_reply_text(recipient_id, template_conversation, "CORRECT_ANSWER", standard_answer)
+# insert_conversation(mysql, sender_id, receiver_id, dialog, type, timestamp, qid, score)
 
-    update_status(mysql, recipient_id, 1)
-
-
-def send_explanation(recipient_id, template_conversation, qa_model, mysql):
+def send_explanation(mysql, recipient_id, template_conversation, qa_model):
     '''
         This function sends the explanation of a question to the specified recipient.
 
         Args:
             recipient_id: the recipient's unique id assigned by Facebook Messenger
-            template_conversation: the json structure containing the conversation and state templates 
+            template_conversation: the json structure containing the conversation and state templates
             mysql: database
             explanation: the explanation of a question to be sent to the recipient
-       
+
         Returns:
+            None
     '''
-    QID, _ = show_last_qid_subject(mysql, recipient_id)
+    QID, _ = db.show_last_qid_subject(mysql, recipient_id)
     explanation_sentence = qa_model.getSupport(QID)
 
     message_data = template_conversation["STATE"]["EXPLANATION"]["message"]
     messaging_API.send_message(mysql, recipient_id, template_conversation, message_data)
-    
-    send_format_quick_reply_text(recipient_id, template_conversation, "EXPLANATION", explanation_sentence)
+
+    send_format_quick_reply_text(mysql, recipient_id, template_conversation, "EXPLANATION", explanation_sentence)
 
 
 def send_total_score(recipient_id, template_conversation, total_score):
@@ -239,15 +227,16 @@ def send_total_score(recipient_id, template_conversation, total_score):
 
         Args:
             recipient_id: the recipient's unique id assigned by Facebook Messenger
-            template_conversation: the json structure containing the conversation and state templates 
+            template_conversation: the json structure containing the conversation and state templates
             total score: the total score of the recipient, extracted from the database
-       
+
         Returns:
-    ''' 
-    send_format_quick_reply_text(recipient_id, template_conversation, "TOTAL_SCORE", total_score)
+            None
+    '''
+    send_format_quick_reply_text(mysql, recipient_id, template_conversation, "TOTAL_SCORE", total_score)
 
 
-def send_hint(recipient_id, qa_model, mysql):
+def send_hint(mysql, recipient_id, qa_model):
     '''
         This function sends a list of hints(distractors) to the specified recipient.
 
@@ -255,10 +244,11 @@ def send_hint(recipient_id, qa_model, mysql):
             recipient_id: the recipient's unique id assigned by Facebook Messenger
             qa_model: the question answering model containing information about the question dataset
             mysql: database
-       
+
         Returns:
+            None
     '''
-    QID, _ = show_last_qid_subject(mysql, recipient_id)
+    QID, _ = db.show_last_qid_subject(mysql, recipient_id)
 
     message_text = ""
     options = []
@@ -303,30 +293,5 @@ def send_hint(recipient_id, qa_model, mysql):
     send_data(data)
 
 
-class Reminder():
-    def __init__(self, template_conversation):
-        self.users = {}
-        self.template_conversation = template_conversation
-
-
-    def send_reminder(self, list):
-        '''
-            This function sends a reminder to the specified recipient.
-                Args:
-                    list: a list of user ids to which the reminder is sent
-               
-                Returns:
-        '''
-        print(self.users)
-        for recipient_id, user_name in list:
-            if recipient_id not in self.users:
-                self.users[recipient_id] = 0
-            if self.users[recipient_id] < 7:
-                self.users[recipient_id] += 1
-                image_data = self.template_conversation["STATE"]["REMINDER"]["image"]
-                image_data["image_url"] = image_data["image_url"].format(os.environ["PORT"])
-                messaging_API.send_image(mysql, recipient_id, image_data)
-                send_format_quick_reply_text(recipient_id, self.template_conversation, "REMINDER", user_name)
-                print("[QUIZBOT] PID " + str(os.getpid())+": Sent Reminder To " + str(user_name) + " With ID " + str(recipient_id) + " At " + strftime("%Y-%m-%d %H:%M:%S", localtime()))
 
 
