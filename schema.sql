@@ -52,13 +52,15 @@ create table user(
 
 drop table if exists conversation;
 create table conversation(
-	record_id INTEGER primary key AUTO_INCREMENT,
+	uid INTEGER primary key AUTO_INCREMENT,
 	sender bigint,
-	receiver bigint,
-	dialog TEXT,
-	tp TEXT,
-	time_stamp TEXT
+	recipient bigint,
+	time_stamp TEXT,
+    type TEXT,
+    dialogue TEXT
 );
+-- To support emojis
+-- ALTER TABLE conversation CONVERT TO CHARACTER SET utf8mb4 COLLATE utf8mb4_bin;
 
 -- user study history
 -- used to store qids, scores, and timestamps
@@ -71,7 +73,7 @@ create table user_history(
     score INTEGER,
     begin_timestamp TEXT,
     end_timestamp TEXT,
-    begin_record_id INTEGER primary key,
-    end_record_id INTEGER
+    begin_uid INTEGER primary key,
+    end_uid INTEGER
 );
 

@@ -3,37 +3,42 @@ import os
 from flask import request
 from time import *
 from datetime import datetime
+import emoji
+
 from utils import pretty_print
 
 
 def insert_conversation(mysql, sender, receiver, dialog, tp, time_stamp):
-    '''insert into conversation table'''
+    '''Insert into conversation table
+    Returns:
+        Unique id (uid) of the inserted row. This is used for cross-reference.
+    '''
+    dialog = emoji.demojize(dialog)
+    print(dialog)
     try:
         con = mysql.connection
         cur = con.cursor()
-        cur.execute("INSERT INTO conversation (sender, receiver, dialog, tp, time_stamp) VALUES (%s, %s, %s, %s, %s)",
-                    (sender, receiver, dialog, tp, time_stamp))
+        cur.execute("INSERT INTO conversation (sender, recipient, time_stamp, type, dialogue) VALUES (%s, %s, %s, %s, %s)",
+                    (sender, receiver, time_stamp, tp, dialog))
         cur.execute("SELECT LAST_INSERT_ID()")
-        record_id = cur.fetchall()[0][0]
-        print(record_id)
+        uid = cur.fetchall()[0][0]
         con.commit()
-        pretty_print("Insert into [conversation]",
-                     mode="Database")
-        return record_id
+        pretty_print("Insert into [conversation]", mode="Database")
+        return uid
     except:
         con.rollback()
         pretty_print("Error in inserting into [conversation]", mode="BUG!")
-        return -1 # To indicate a bug
+        return None # To indicate a bug
 
 
-def insert_user_history(mysql, user_id, qid, subject, begin_timestamp, begin_record_id):
+def insert_user_history(mysql, user_id, qid, subject, begin_timestamp, begin_uid):
     '''Insert (partial) user history record into user_history table.
     This operation is called when the app sends the user a question'''
     try:
         con = mysql.connection
         cur = con.cursor()
-        cur.execute("INSERT INTO user_history (user_id, qid, subject, begin_timestamp, begin_record_id) VALUES (%s, %s, %s, %s, %s);",
-                    (user_id, qid, subject, begin_timestamp, begin_record_id))
+        cur.execute("INSERT INTO user_history (user_id, qid, subject, begin_timestamp, begin_uid) VALUES (%s, %s, %s, %s, %s);",
+                    (user_id, qid, subject, begin_timestamp, begin_uid))
         con.commit()
         pretty_print("Insert into [user_history]", mode="Database")
     except:
@@ -41,22 +46,22 @@ def insert_user_history(mysql, user_id, qid, subject, begin_timestamp, begin_rec
         pretty_print("Error in inserting into [user_history]", mode="BUG!")
 
 
-def show_last_begin_record_id(mysql, user_id):
-    '''Retrieve begin_record_id based on user_id'''
+def show_last_begin_uid(mysql, user_id):
+    '''Retrieve begin_uid based on user_id'''
     cur = mysql.connection.cursor()
     cur.execute(
-        "SELECT begin_record_id from user_history where user_id = %s order by begin_timestamp desc limit 1", [user_id])
+        "SELECT begin_uid from user_history where user_id = %s order by begin_timestamp desc limit 1", [user_id])
     rows = cur.fetchall()
     return rows[0]
 
 
-def update_user_history(mysql, user_id, score, end_record_id, end_timestamp):
-    '''Updating user_history table: add score, end_record_id, end_timestamp entries'''
-    begin_record_id = show_last_begin_record_id(mysql, user_id)
+def update_user_history(mysql, user_id, score, end_uid, end_timestamp):
+    '''Updating user_history table: add score, end_uid, end_timestamp entries'''
+    begin_uid = show_last_begin_uid(mysql, user_id)
     try:
         con = mysql.connection
         cur = con.cursor()
-        cur.execute("UPDATE table_name SET score = %s, end_timestamp = %s WHERE begin_record_id = %s;", (score, end_timestamp, begin_record_id))
+        cur.execute("UPDATE table_name SET score = %s, end_timestamp = %s WHERE begin_uid = %s;", (score, end_timestamp, begin_uid))
         con.commit()
         pretty_print("Update [user_history]", mode="Database")
     except:
