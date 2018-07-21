@@ -38,15 +38,40 @@ create table user(
 	reg_time TEXT
 );
 
+-- drop table if exists conversation;
+-- create table conversation(
+-- 	id INTEGER primary key AUTO_INCREMENT,
+-- 	user_id bigint,
+-- 	dialog TEXT,
+-- 	type TEXT,
+-- 	subject TEXT,
+-- 	timestamp TEXT,
+-- 	qid INTEGER,
+-- 	score INTEGER
+-- );
+
 drop table if exists conversation;
 create table conversation(
-	id INTEGER primary key AUTO_INCREMENT,
-	user_id bigint,
+	record_id INTEGER primary key AUTO_INCREMENT,
+	sender bigint,
+	receiver bigint,
 	dialog TEXT,
-	type TEXT,
-	subject TEXT,
-	timestamp TEXT,
-	qid INTEGER,
-	score INTEGER
+	tp TEXT,
+	time_stamp TEXT
+);
+
+-- user study history
+-- used to store qids, scores, and timestamps
+-- and pass to question sequencing models
+drop table if exists user_history;
+create table user_history(
+    user_id bigint,
+    qid INTEGER,
+    subject TEXT,
+    score INTEGER,
+    begin_timestamp TEXT,
+    end_timestamp TEXT,
+    begin_record_id INTEGER primary key,
+    end_record_id INTEGER
 );
 
