@@ -5,7 +5,7 @@ import json
 from random import randint
 from flask import Flask, request, send_from_directory
 import requests
-import time
+from time import localtime, strftime
 from datetime import datetime
 import logging
 from flask_mysqldb import MySQL
@@ -15,7 +15,7 @@ sys.path.append('./question_sequencing')
 
 from constants import CHATBOT_ID
 import message
-import database
+import database as db
 import chatbot
 import reminder
 from QAKnowledgebase import QAKnowlegeBase
@@ -104,7 +104,7 @@ def webhook():
             sender_lastname = data['last_name']
 
             # first-time user
-            if not int(sender_id) in database.show_user_id_list(mysql):
+            if not int(sender_id) in db.show_user_id_list(mysql):
                 pretty_print('This is a new user!', mode='QuizBot')
                 pretty_print('{} {}'.format(sender_firstname, sender_lastname))
                 # database.insert_user(sender_id, mysql, sender_firstname, sender_lastname, 1)
@@ -131,6 +131,10 @@ def webhook():
                     pretty_print("Received a quick reply from an earlier message", mode="QuizBot")
                     pretty_print("Payload is \""+payload+"\"")
                     pretty_print("Message Text is \""+message_text+"\"")
+                    # save the user's quick reply to the conversation database
+                    timestamp = strftime("%Y-%m-%d %H:%M:%S", localtime())
+                    record_id = db.insert_conversation(mysql, sender_id, CHATBOT_ID, message_text, payload, timestamp)
+
                     chatbot.respond_to_payload(payload, sender_id, sender_firstname, qa_model, chatbot_text, template_conversation, mysql)
 
                 # someone sent us a message
@@ -141,6 +145,9 @@ def webhook():
                     message_text = messaging_event["message"]["text"]  # the message's text
                     pretty_print("Received a Message", mode="QuizBot")
                     pretty_print("Message Text is \""+message_text+"\"")
+                    # save the user's free reply to the conversation database
+                    timestamp = strftime("%Y-%m-%d %H:%M:%S", localtime())
+                    record_id = db.insert_conversation(mysql, sender_id, CHATBOT_ID, message_text, "user typing", timestamp)
                     chatbot.respond_to_messagetext(message_text, sender_id, qa_model, chatbot_text, template_conversation, mysql)
     return "ok", 200
 
@@ -200,7 +207,7 @@ with app.app_context():
     chatbot_text, template_conversation = load_source("text/chatbot_text", "text/template_conversation")
 
     reminder_object = reminder.Reminder(template_conversation, mysql)
-    active_list = database.show_users_newly_added(mysql) + [(1850388251650155, 'Liwei'), (1139924072777403, 'Sherry'), (1805880356153906, 'Nathan')]
+    active_list = db.show_users_newly_added(mysql) + [(1850388251650155, 'Liwei'), (1139924072777403, 'Sherry'), (1805880356153906, 'Nathan')]
     reminder.RepeatedTimer(86400, reminder_object.send_reminder, active_list)
 
 

@@ -13,8 +13,7 @@ def insert_conversation(mysql, sender, receiver, dialog, tp, time_stamp):
     Returns:
         Unique id (uid) of the inserted row. This is used for cross-reference.
     '''
-    dialog = emoji.demojize(dialog)
-    print(dialog)
+    dialog = emoji.demojize(dialog)  # convert emoji to text
     try:
         con = mysql.connection
         cur = con.cursor()
