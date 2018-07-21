@@ -28,27 +28,16 @@ create table questions(
 );
 */
 
+-- The following three tables are currently being used. The rest tables are deprecated.
 
 drop table if exists user;
 create table user(
 	user_id bigint primary key,
 	user_firstname TEXT,
 	user_lastname TEXT,
-	user_status INTEGER,
 	reg_time TEXT
 );
 
--- drop table if exists conversation;
--- create table conversation(
--- 	id INTEGER primary key AUTO_INCREMENT,
--- 	user_id bigint,
--- 	dialog TEXT,
--- 	type TEXT,
--- 	subject TEXT,
--- 	timestamp TEXT,
--- 	qid INTEGER,
--- 	score INTEGER
--- );
 
 drop table if exists conversation;
 create table conversation(
@@ -59,8 +48,7 @@ create table conversation(
     type TEXT,
     dialogue TEXT
 );
--- To support emojis
--- ALTER TABLE conversation CONVERT TO CHARACTER SET utf8mb4 COLLATE utf8mb4_bin;
+
 
 -- user study history
 -- used to store qids, scores, and timestamps

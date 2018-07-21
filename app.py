@@ -107,12 +107,7 @@ def webhook():
             if not int(sender_id) in db.show_user_id_list(mysql):
                 pretty_print('This is a new user!', mode='QuizBot')
                 pretty_print('{} {}'.format(sender_firstname, sender_lastname))
-                # database.insert_user(sender_id, mysql, sender_firstname, sender_lastname, 1)
-                # database.insert_score(sender_id, mysql, -1, "new_user", 0)
-                # database.insert_conversation(sender_id, mysql, -1, "new_user", "new_user", "new_user", 0)
-
-            # Liwei: update the user's name
-            # database.update_user_name(mysql, sender_id, sender_firstname, sender_lastname)
+                db.insert_user(mysql, sender_id, sender_firstname, sender_lastname)
 
             # User clicked/tapped "postback" button in Persistent menu
             if messaging_event.get("postback"):
@@ -121,6 +116,9 @@ def webhook():
                 pretty_print("Received a Postback from Persistent Menu", mode='QuizBot')
                 pretty_print("Payload is \""+payload+"\"")
                 pretty_print("Message Text is \""+message_text+"\"")
+                # save the user's quick reply to the conversation database
+                timestamp = strftime("%Y-%m-%d %H:%M:%S", localtime())
+                record_id = db.insert_conversation(mysql, sender_id, CHATBOT_ID, message_text, "postback: "+payload, timestamp)
                 chatbot.respond_to_payload(payload, sender_id, sender_firstname, qa_model, chatbot_text, template_conversation, mysql)
 
             elif messaging_event.get("message"):
@@ -133,7 +131,7 @@ def webhook():
                     pretty_print("Message Text is \""+message_text+"\"")
                     # save the user's quick reply to the conversation database
                     timestamp = strftime("%Y-%m-%d %H:%M:%S", localtime())
-                    record_id = db.insert_conversation(mysql, sender_id, CHATBOT_ID, message_text, payload, timestamp)
+                    record_id = db.insert_conversation(mysql, sender_id, CHATBOT_ID, message_text, "quick_reply: "+payload, timestamp)
 
                     chatbot.respond_to_payload(payload, sender_id, sender_firstname, qa_model, chatbot_text, template_conversation, mysql)
 
@@ -141,8 +139,9 @@ def webhook():
                 elif not "text" in messaging_event["message"]:
                     return "key error", 200
 
+                # user types their message
                 else:
-                    message_text = messaging_event["message"]["text"]  # the message's text
+                    message_text = messaging_event["message"]["text"]
                     pretty_print("Received a Message", mode="QuizBot")
                     pretty_print("Message Text is \""+message_text+"\"")
                     # save the user's free reply to the conversation database
@@ -201,7 +200,7 @@ def setup(chatbot_text):
     message.persistent_menu(template_conversation)
     pretty_print("Persistent menu loaded", mode="Initialization")
 
-
+# Sherry: can we move this to main function?
 with app.app_context():
     # Load conversation source text file
     chatbot_text, template_conversation = load_source("text/chatbot_text", "text/template_conversation")

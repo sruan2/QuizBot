@@ -7,15 +7,6 @@ import messaging_API
 import database as db
 from utils import *
 
-PRAMS = {"access_token": os.environ["PAGE_ACCESS_TOKEN"]}
-HEADERS = {"Content-Type": "application/json"}
-
-def send_data(data, data_type = "messages"):
-    r = requests.post("https://graph.facebook.com/v2.6/me/" + data_type, params=PRAMS, headers=HEADERS, data=data)
-    if r.status_code != 200:
-        log(r.status_code)
-        log(r.text)
-
 
 def persistent_menu(template_conversation):
     '''
@@ -27,7 +18,8 @@ def persistent_menu(template_conversation):
         Returns:
             None
     '''
-    messaging_API.send_persistent_menu(json.dumps(template_conversation["STATE"]["PERSISTENT_MENU"]))
+    messaging_API.send_persistent_menu(json.dumps(
+        template_conversation["STATE"]["PERSISTENT_MENU"]))
 
 
 def init_payload(template_conversation):
@@ -40,7 +32,8 @@ def init_payload(template_conversation):
         Returns:
             None
     '''
-    messaging_API.send_get_started(json.dumps(template_conversation["STATE"]["GET_STARTED"]))
+    messaging_API.send_get_started(json.dumps(
+        template_conversation["STATE"]["GET_STARTED"]))
 
 
 def send_image(mysql, recipient_id, payload, chatbot_text, image_id):
@@ -56,7 +49,8 @@ def send_image(mysql, recipient_id, payload, chatbot_text, image_id):
         Returns:
     '''
     image_data = chatbot_text[payload]["image"][image_id]
-    image_data["image_url"] = image_data["image_url"].format(os.environ["PORT"])
+    image_data["image_url"] = image_data["image_url"].format(
+        os.environ["PORT"])
     messaging_API.send_image(mysql, recipient_id, image_data)
 
 
@@ -79,7 +73,8 @@ def send_paragraph(mysql, recipient_id, payload, chatbot_text, template_conversa
 
     for i in range(num_sentence):
         message_data = paragraph_data[i]
-        messaging_API.send_message(mysql, recipient_id, template_conversation, message_data)
+        messaging_API.send_message(
+            mysql, recipient_id, template_conversation, message_data)
 
 
 def send_conversation(mysql, recipient_id, payload, chatbot_text, template_conversation, conversation_id):
@@ -100,10 +95,12 @@ def send_conversation(mysql, recipient_id, payload, chatbot_text, template_conve
 
     message_data = conversation_data["message"]
     for msg in message_data[:-1]:
-        messaging_API.send_message(mysql, recipient_id, template_conversation, msg)
+        messaging_API.send_message(
+            mysql, recipient_id, template_conversation, msg)
 
     quick_reply_data = conversation_data["quick_reply"]
-    messaging_API.send_quick_reply(mysql, recipient_id, template_conversation, quick_reply_data, message_data[-1])
+    messaging_API.send_quick_reply(
+        mysql, recipient_id, template_conversation, quick_reply_data, message_data[-1])
 
 
 def send_format_quick_reply_text(mysql, recipient_id, template_conversation, state, format_fill_text):
@@ -121,8 +118,10 @@ def send_format_quick_reply_text(mysql, recipient_id, template_conversation, sta
     '''
     quick_reply_data = template_conversation["STATE"][state]["quick_reply"]
     text_format = quick_reply_data["message"]["text"]
-    quick_reply_data["message"]["text"] = quick_reply_data["message"]["text"].format(format_fill_text)
-    messaging_API.send_quick_reply(mysql, recipient_id, template_conversation, quick_reply_data)
+    quick_reply_data["message"]["text"] = quick_reply_data["message"]["text"].format(
+        format_fill_text)
+    messaging_API.send_quick_reply(
+        mysql, recipient_id, template_conversation, quick_reply_data)
     quick_reply_data["message"]["text"] = text_format
 
 
@@ -136,7 +135,8 @@ def send_choose_subject(mysql, recipient_id, template_conversation):
         Returns:
     '''
     quick_reply_data = template_conversation["STATE"]["CHOOSE_SUBJECT"]["quick_reply"]
-    messaging_API.send_quick_reply(mysql, recipient_id, template_conversation, quick_reply_data)
+    messaging_API.send_quick_reply(
+        mysql, recipient_id, template_conversation, quick_reply_data)
 
 
 def send_question(mysql, recipient_id, template_conversation, payload=None, qa_model=None, subject=None, question=None):
@@ -161,9 +161,11 @@ def send_question(mysql, recipient_id, template_conversation, payload=None, qa_m
         db.insert_question(mysql, recipient_id, QID, payload)
 
     message_data = template_conversation["STATE"]["QUESTION"]["message"]
-    messaging_API.send_message(mysql, recipient_id, template_conversation, message_data)
+    messaging_API.send_message(
+        mysql, recipient_id, template_conversation, message_data)
 
-    send_format_quick_reply_text(mysql, recipient_id, template_conversation, "QUESTION", question)
+    send_format_quick_reply_text(
+        mysql, recipient_id, template_conversation, "QUESTION", question)
 
     print(message_data)
 
@@ -172,7 +174,8 @@ def send_say_hi(mysql, recipient_id, template_conversation, recipient_firstname)
     '''
         This function sends a hi message to the specified recipient.
     '''
-    send_format_quick_reply_text(mysql, recipient_id, template_conversation, "SAY_HI", recipient_firstname)
+    send_format_quick_reply_text(
+        mysql, recipient_id, template_conversation, "SAY_HI", recipient_firstname)
 
 
 def send_correct_answer(mysql, recipient_id, payload, template_conversation, qa_model, score):
@@ -194,10 +197,12 @@ def send_correct_answer(mysql, recipient_id, payload, template_conversation, qa_
     standard_answer = qa_model.getAnswer(QID)
     # insert_score(mysql, recipient_id, QID, payload, score)
     # insert_conversation(mysql, recipient_id, QID, "user_typing", "subject", payload, score)
-    send_format_quick_reply_text(mysql, recipient_id, template_conversation, "CORRECT_ANSWER", standard_answer)
+    send_format_quick_reply_text(
+        mysql, recipient_id, template_conversation, "CORRECT_ANSWER", standard_answer)
     db.update_status(mysql, recipient_id, 1)
 
 # insert_conversation(mysql, sender_id, receiver_id, dialog, type, timestamp, qid, score)
+
 
 def send_explanation(mysql, recipient_id, template_conversation, qa_model):
     '''
@@ -216,9 +221,11 @@ def send_explanation(mysql, recipient_id, template_conversation, qa_model):
     explanation_sentence = qa_model.getSupport(QID)
 
     message_data = template_conversation["STATE"]["EXPLANATION"]["message"]
-    messaging_API.send_message(mysql, recipient_id, template_conversation, message_data)
+    messaging_API.send_message(
+        mysql, recipient_id, template_conversation, message_data)
 
-    send_format_quick_reply_text(mysql, recipient_id, template_conversation, "EXPLANATION", explanation_sentence)
+    send_format_quick_reply_text(
+        mysql, recipient_id, template_conversation, "EXPLANATION", explanation_sentence)
 
 
 def send_total_score(recipient_id, template_conversation, total_score):
@@ -233,7 +240,8 @@ def send_total_score(recipient_id, template_conversation, total_score):
         Returns:
             None
     '''
-    send_format_quick_reply_text(mysql, recipient_id, template_conversation, "TOTAL_SCORE", total_score)
+    send_format_quick_reply_text(
+        mysql, recipient_id, template_conversation, "TOTAL_SCORE", total_score)
 
 
 def send_hint(mysql, recipient_id, qa_model):
@@ -252,46 +260,43 @@ def send_hint(mysql, recipient_id, qa_model):
 
     message_text = ""
     options = []
-    index = ["1️⃣", "2️⃣", "3️⃣", "4️⃣", "5️⃣", "6️⃣", "7️⃣", "8️⃣", "9️⃣", "🔟"]
+    index = ["1️⃣", "2️⃣", "3️⃣", "4️⃣",
+             "5️⃣", "6️⃣", "7️⃣", "8️⃣", "9️⃣", "🔟"]
 
     for x in qa_model.DKB[QID]:
         options.append({
-                    "content_type": "text",
-                    "title": str(x),
-                    "payload": "BUTTON_DKB_"+str(x)
-                })
+            "content_type": "text",
+            "title": str(x),
+            "payload": "BUTTON_DKB_"+str(x)
+        })
     for x in qa_model.AKB[QID]:
         options.append({
-                    "content_type": "text",
-                    "title": str(x),
-                    "payload": "BUTTON_AKB_"+str(x)
-                })
+            "content_type": "text",
+            "title": str(x),
+            "payload": "BUTTON_AKB_"+str(x)
+        })
     random.shuffle(options)
 
     for i in range(len(options)):
-        message_text += index[i%10]
+        message_text += index[i % 10]
         message_text += " "
         message_text += str(options[i]["title"])
         message_text += "\n"
-        options[i]["title"] = index[i%10]
+        options[i]["title"] = index[i % 10]
 
     options.append({
-                    "content_type": "text",
-                    "title": "I don’t know 😓",
-                    "payload": "I_DONT_KNOW"
-                })
+        "content_type": "text",
+        "title": "I don’t know 😓",
+        "payload": "I_DONT_KNOW"
+    })
 
     data = json.dumps({
         "recipient": {
             "id": recipient_id
         },
         "message": {
-            "text" : message_text,
+            "text": message_text,
             "quick_replies": options
         }
     })
-    send_data(data)
-
-
-
-
+    messaging_API.send_data(data)
