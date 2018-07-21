@@ -40,9 +40,9 @@ def send_image(mysql, recipient_id, image_data):
     data = template.create_image_template_json(recipient_id, image_data)
     send_data(data)
 
-    dialogue = json.loads(data)["image_url"]
+    dialogue = image_data["image_url"]
     timestamp = strftime("%Y-%m-%d %H:%M:%S", localtime())
-    record_id = db.insert_conversation(mysql, CHATBOT_ID, recipient_id, dialogue, "msg type", time_stamp=timestamp)
+    record_id = db.insert_conversation(mysql, CHATBOT_ID, recipient_id, dialogue, "image", timestamp)
 
     # insert_score(mysql, recipient_id, -1, image_data["image_url"], 0)
     # insert_conversation(mysql, recipient_id, -1, "chatbot_image", "chatbot_image", image_data["image_url"], 0)
@@ -58,7 +58,7 @@ def send_message(mysql, recipient_id, template_conversation, message_data):
 
     dialogue = json.loads(data)["message"]["text"]
     timestamp = strftime("%Y-%m-%d %H:%M:%S", localtime())
-    record_id = db.insert_conversation(mysql, CHATBOT_ID, recipient_id, dialogue, "msg type", time_stamp=timestamp)
+    record_id = db.insert_conversation(mysql, CHATBOT_ID, recipient_id, dialogue, "message", timestamp)
     # insert the question to the user_history table
     #db.insert_user_history(mysql, int(recipient_id), QID, subject, timestamp, begin_record_id=record_id)
 
@@ -76,7 +76,7 @@ def send_quick_reply(mysql, recipient_id, template_conversation, quick_reply_dat
 
     dialogue = json.loads(data)["message"]["text"]
     timestamp = strftime("%Y-%m-%d %H:%M:%S", localtime())
-    record_id = db.insert_conversation(mysql, CHATBOT_ID, recipient_id, dialogue, "msg type", time_stamp=timestamp)
+    record_id = db.insert_conversation(mysql, CHATBOT_ID, recipient_id, dialogue, "quick reply", timestamp)
 
     # data = json.loads(data)
     # insert_score(mysql, recipient_id, -1, data["message"]["text"], 0)
