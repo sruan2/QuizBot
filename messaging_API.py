@@ -3,11 +3,12 @@ import json
 import requests
 import random
 from time import *
-import template
-from utils import pretty_print
-from utils import log
-import database as db
 from flask_mysqldb import MySQL
+
+import template
+from utils import pretty_print, log
+import database as db
+from constants import CHATBOT_ID
 
 PRAMS = {"access_token": os.environ["PAGE_ACCESS_TOKEN"]}
 HEADERS = {"Content-Type": "application/json"}
@@ -41,7 +42,7 @@ def send_image(mysql, recipient_id, image_data):
 
     dialogue = json.loads(data)["image_url"]
     timestamp = strftime("%Y-%m-%d %H:%M:%S", localtime())
-    record_id = db.insert_conversation(mysql, 0, recipient_id, dialogue, "msg type", time_stamp=timestamp)
+    record_id = db.insert_conversation(mysql, CHATBOT_ID, recipient_id, dialogue, "msg type", time_stamp=timestamp)
 
     # insert_score(mysql, recipient_id, -1, image_data["image_url"], 0)
     # insert_conversation(mysql, recipient_id, -1, "chatbot_image", "chatbot_image", image_data["image_url"], 0)
@@ -57,7 +58,7 @@ def send_message(mysql, recipient_id, template_conversation, message_data):
 
     dialogue = json.loads(data)["message"]["text"]
     timestamp = strftime("%Y-%m-%d %H:%M:%S", localtime())
-    record_id = db.insert_conversation(mysql, 0, recipient_id, dialogue, "msg type", time_stamp=timestamp)
+    record_id = db.insert_conversation(mysql, CHATBOT_ID, recipient_id, dialogue, "msg type", time_stamp=timestamp)
     # insert the question to the user_history table
     #db.insert_user_history(mysql, int(recipient_id), QID, subject, timestamp, begin_record_id=record_id)
 
@@ -75,7 +76,7 @@ def send_quick_reply(mysql, recipient_id, template_conversation, quick_reply_dat
 
     dialogue = json.loads(data)["message"]["text"]
     timestamp = strftime("%Y-%m-%d %H:%M:%S", localtime())
-    record_id = db.insert_conversation(mysql, 0, recipient_id, dialogue, "msg type", time_stamp=timestamp)
+    record_id = db.insert_conversation(mysql, CHATBOT_ID, recipient_id, dialogue, "msg type", time_stamp=timestamp)
 
     # data = json.loads(data)
     # insert_score(mysql, recipient_id, -1, data["message"]["text"], 0)

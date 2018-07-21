@@ -13,6 +13,7 @@ from flask_mysqldb import MySQL
 import sys
 sys.path.append('./question_sequencing')
 
+from constants import CHATBOT_ID
 import message
 import database
 import chatbot
@@ -92,7 +93,7 @@ def webhook():
             # the facebook ID of the person sending you the message
             sender_id = messaging_event["sender"]["id"]
             # Sherry: don't need this anymore because we can disable it in Facebook Developer Setting
-            if sender_id == os.environ["CHATBOT_ID"]: # return if this message is sent from the chatbot
+            if sender_id == CHATBOT_ID: # return if this message is sent from the chatbot
                 return "Chatbot ID", 200
             # the recipient's ID, which should be your page's facebook ID
             recipient_id = messaging_event["recipient"]["id"]
@@ -105,6 +106,7 @@ def webhook():
             # first-time user
             if not int(sender_id) in database.show_user_id_list(mysql):
                 pretty_print('This is a new user!', mode='QuizBot')
+                pretty_print('{} {}'.format(sender_firstname, sender_lastname))
                 # database.insert_user(sender_id, mysql, sender_firstname, sender_lastname, 1)
                 # database.insert_score(sender_id, mysql, -1, "new_user", 0)
                 # database.insert_conversation(sender_id, mysql, -1, "new_user", "new_user", "new_user", 0)
@@ -196,7 +198,7 @@ def setup(chatbot_text):
 with app.app_context():
     # Load conversation source text file
     chatbot_text, template_conversation = load_source("text/chatbot_text", "text/template_conversation")
-    
+
     reminder_object = reminder.Reminder(template_conversation, mysql)
     active_list = database.show_users_newly_added(mysql) + [(1850388251650155, 'Liwei'), (1139924072777403, 'Sherry'), (1805880356153906, 'Nathan')]
     reminder.RepeatedTimer(86400, reminder_object.send_reminder, active_list)
