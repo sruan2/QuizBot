@@ -35,6 +35,7 @@ def send_typing_action(recipient_id):
 def send_image(mysql, recipient_id, image_data):
     '''
         This function sends an image to the specified recipient.
+        And saves the image_url to the conversation database
     '''
     send_typing_action(recipient_id)
     data = template.create_image_template_json(recipient_id, image_data)
@@ -42,7 +43,7 @@ def send_image(mysql, recipient_id, image_data):
 
     dialogue = image_data["image_url"]
     timestamp = strftime("%Y-%m-%d %H:%M:%S", localtime())
-    record_id = db.insert_conversation(mysql, CHATBOT_ID, recipient_id, dialogue, "image", timestamp)
+    record_id = db.insert_conversation(mysql, CHATBOT_ID, recipient_id, dialogue, "bot: image", timestamp)
 
     # insert_score(mysql, recipient_id, -1, image_data["image_url"], 0)
     # insert_conversation(mysql, recipient_id, -1, "chatbot_image", "chatbot_image", image_data["image_url"], 0)
@@ -51,14 +52,17 @@ def send_image(mysql, recipient_id, image_data):
 def send_message(mysql, recipient_id, template_conversation, message_data):
     '''
         This function sends a text message, with a short delay and typing action at the beginning, to the specified recipient.
+        And saves the message text to the conversation database
     '''
     send_typing_action(recipient_id)
     data = template.create_message_template_json(recipient_id, template_conversation, message_data)
     send_data(data)
 
+    print(data)
+
     dialogue = json.loads(data)["message"]["text"]
     timestamp = strftime("%Y-%m-%d %H:%M:%S", localtime())
-    record_id = db.insert_conversation(mysql, CHATBOT_ID, recipient_id, dialogue, "message", timestamp)
+    record_id = db.insert_conversation(mysql, CHATBOT_ID, recipient_id, dialogue, "bot: message", timestamp)
     # insert the question to the user_history table
     #db.insert_user_history(mysql, int(recipient_id), QID, subject, timestamp, begin_record_id=record_id)
 
@@ -69,14 +73,18 @@ def send_message(mysql, recipient_id, template_conversation, message_data):
 def send_quick_reply(mysql, recipient_id, template_conversation, quick_reply_data, message_data = ""):
     '''
         This function sends a set of quick reply buttons along with one message to the specified recipient.
+        TODO: Use None if needed. Don't use ""
     '''
     send_typing_action(recipient_id)
+
     data = template.create_quick_reply_template_json(recipient_id, template_conversation, quick_reply_data, message_data)
     send_data(data)
 
+    print(data)
+
     dialogue = json.loads(data)["message"]["text"]
     timestamp = strftime("%Y-%m-%d %H:%M:%S", localtime())
-    record_id = db.insert_conversation(mysql, CHATBOT_ID, recipient_id, dialogue, "quick reply", timestamp)
+    record_id = db.insert_conversation(mysql, CHATBOT_ID, recipient_id, dialogue, "bot: quick reply", timestamp)
 
     # data = json.loads(data)
     # insert_score(mysql, recipient_id, -1, data["message"]["text"], 0)
