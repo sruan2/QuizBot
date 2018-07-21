@@ -68,20 +68,32 @@ def update_user_history(mysql, user_id, score, end_uid, end_timestamp):
         pretty_print("Error in updating [user_history]", mode="BUG!")
 
 
-# insert user info
-def insert_user(mysql, user_id, user_firstname, user_lastname, user_status):
+def insert_user(mysql, user_id, user_firstname, user_lastname):
+    '''Insert a new user into [user]'''
     time = strftime("%Y-%m-%d %H:%M:%S", localtime())
-    if request.method == 'POST':
-        try:
-            con = mysql.connection
-            cur = con.cursor()
-            cur.execute("INSERT INTO user (user_id, user_firstname, user_lastname, user_status, reg_time) VALUES (%s, %s, %s, %s, %s)",
-                        (user_id, user_firstname, user_lastname, user_status, time))
-            con.commit()
-            pretty_print("User record successfully added", mode="Database")
-        except:
-            con.rollback()
-            pretty_print("Error in inserting user reocrd operation", mode="BUG!")
+    try:
+        con = mysql.connection
+        cur = con.cursor()
+        cur.execute("INSERT INTO user (user_id, user_firstname, user_lastname, reg_time) VALUES (%s, %s, %s, %s)",
+                    (user_id, user_firstname, user_lastname, time))
+        con.commit()
+        pretty_print("Insert a new user into [user]", mode="Database")
+        pretty_print('{} {}'.format(user_firstname, user_lastname))
+    except:
+        con.rollback()
+        pretty_print("Error in inserting into [user]", mode="BUG!")
+
+
+def show_user_id_list(mysql):
+    '''Return all users in the [user] database'''
+    cur = mysql.connection.cursor()
+    cur.execute("select user_id from user")
+    rows = cur.fetchall()
+    return [x[0] for x in rows]
+
+
+
+
 
 
 # update user question-answer loop status
@@ -116,14 +128,17 @@ def update_user_name(mysql, user_id, user_firstname, user_lastname):
 
 
 def show_status(mysql, user_id):
-    cur = mysql.connection.cursor()
-    cur.execute("select user_status from user where user_id = %s", [user_id])
+    # cur = mysql.connection.cursor()
+    # cur.execute("select user_status from user where user_id = %s", [user_id])
 
-    rows = cur.fetchall()
-    if len(rows) != 0:
-        return rows[0][0]
-    else:
-        return -1
+    # rows = cur.fetchall()
+    # if len(rows) != 0:
+    #     return rows[0][0]
+    # else:
+    #     return -1
+
+    # sherry: not sure what this function is doing. return 0 for now.
+    return 0
 
 
 # insert user score
@@ -156,14 +171,6 @@ def insert_question(mysql, user_id, qid, subject):
         except:
             con.rollback()
             pretty_print("Error in inserting question operation", mode="BUG!")
-
-
-def show_user_id_list(mysql):
-    cur = mysql.connection.cursor()
-    cur.execute("select user_id from user")
-
-    rows = cur.fetchall()
-    return [x[0] for x in rows]
 
 
 # retrieve score based on user_id
