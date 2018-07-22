@@ -145,17 +145,15 @@ def send_question(mysql, recipient_id, template_conversation, qa_model):
         This function sends a question to the specified recipient.
 
         Args:
+            mysql: database
             recipient_id (str): the recipient's unique id assigned by Facebook Messenger
             template_conversation: the json structure containing the conversation and state templates
             qa_model: the question answering model containing information about the question dataset
-            mysql: database
-            subject: the subject name: (science, safety, gre, random)
-            question: the question string
 
         Returns:
             None
     '''
-    # sherry: let the subject be random for now. QA Model should memorize the subject for each user.
+    # TODO: sherry: let the subject be random for now. QA Model should memorize the subject for each user.
     question, QID = qa_model.pickQuestion('random')
 
     message_data = template_conversation["STATE"]["QUESTION"]["message"]
@@ -165,7 +163,7 @@ def send_question(mysql, recipient_id, template_conversation, qa_model):
     timestamp, uid = send_format_quick_reply_text(
         mysql, recipient_id, template_conversation, "QUESTION", question)
 
-    # insert the question to the user_history table
+    # insert the question to the [user_history] table
     db.insert_user_history(mysql, recipient_id, QID, "random", timestamp, begin_uid=uid)
 
 
