@@ -118,11 +118,12 @@ def send_format_quick_reply_text(mysql, recipient_id, template_conversation, sta
     '''
     quick_reply_data = template_conversation["STATE"][state]["quick_reply"]
     text_format = quick_reply_data["message"]["text"]
-    quick_reply_data["message"]["text"] = quick_reply_data["message"]["text"].format(
-        format_fill_text)
-    messaging_API.send_quick_reply(
+    quick_reply_data["message"]["text"] = quick_reply_data["message"]["text"].format(format_fill_text)
+    timestamp, uid = messaging_API.send_quick_reply(
         mysql, recipient_id, template_conversation, quick_reply_data)
     quick_reply_data["message"]["text"] = text_format
+    # return timestamp and uid so that we can log the information in the [user_history] dataset when the bot sends a question
+    return timestamp, uid
 
 
 def send_choose_subject(mysql, recipient_id, template_conversation):
@@ -139,14 +140,13 @@ def send_choose_subject(mysql, recipient_id, template_conversation):
         mysql, recipient_id, template_conversation, quick_reply_data)
 
 
-def send_question(mysql, recipient_id, template_conversation, payload=None, qa_model=None, subject=None, question=None):
+def send_question(mysql, recipient_id, template_conversation, qa_model):
     '''
         This function sends a question to the specified recipient.
 
         Args:
             recipient_id (str): the recipient's unique id assigned by Facebook Messenger
             template_conversation: the json structure containing the conversation and state templates
-            payload: chatbot's payload state
             qa_model: the question answering model containing information about the question dataset
             mysql: database
             subject: the subject name: (science, safety, gre, random)
@@ -155,19 +155,18 @@ def send_question(mysql, recipient_id, template_conversation, payload=None, qa_m
         Returns:
             None
     '''
-    if not question:
-        question, QID = qa_model.pickQuestion(subject)
-        db.update_status(mysql, recipient_id, 0)
-        db.insert_question(mysql, recipient_id, QID, payload)
+    # sherry: let the subject be random for now. QA Model should memorize the subject for each user.
+    question, QID = qa_model.pickQuestion('random')
 
     message_data = template_conversation["STATE"]["QUESTION"]["message"]
     messaging_API.send_message(
         mysql, recipient_id, template_conversation, message_data)
 
-    send_format_quick_reply_text(
+    timestamp, uid = send_format_quick_reply_text(
         mysql, recipient_id, template_conversation, "QUESTION", question)
 
-    print(message_data)
+    # insert the question to the user_history table
+    db.insert_user_history(mysql, recipient_id, QID, "random", timestamp, begin_uid=uid)
 
 
 def send_say_hi(mysql, recipient_id, template_conversation, recipient_firstname):
