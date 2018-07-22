@@ -38,6 +38,9 @@ mysql.init_app(app)
 # access_token for facebook messenger
 access_token = os.environ["PAGE_ACCESS_TOKEN"]
 
+# set up cache to store user data such as current_subject and current_qid
+cache = {}
+
 
 # For static pictures such as owl
 @app.route('/pictures/<path:path>')
@@ -104,10 +107,31 @@ def webhook():
             sender_lastname = data['last_name']
 
             # first-time user
-            if not int(sender_id) in db.show_user_id_list(mysql):
-                pretty_print('This is a new user!', mode='QuizBot')
-                pretty_print('{} {}'.format(sender_firstname, sender_lastname))
-                db.insert_user(mysql, sender_id, sender_firstname, sender_lastname)
+            # if not int(sender_id) in db.show_user_id_list(mysql):
+            #     pretty_print('This is a new user!', mode='QuizBot')
+            #     pretty_print('{} {}'.format(sender_firstname, sender_lastname))
+            #     db.insert_user(mysql, sender_id, sender_firstname, sender_lastname)
+
+            # Check if the user is in cache already
+            if not sender_id in cache:
+                # Check if the user is in database
+                if int(sender_id) in db.show_user_id_list(mysql):
+                    pretty_print('Retrieve the user from [user] table', mode='database')
+                    pretty_print('{} {}'.format(sender_firstname, sender_lastname))
+                    cache[sender_id] = {'current_qid': None,
+                                        'current_subject': None}
+                    pretty_print('Insert a user into cache', mode='Cache')
+                # Insert the user into database and cache if it doesn't exist yet.
+                else:
+                    db.insert_user(mysql, sender_id, sender_firstname, sender_lastname)
+                    pretty_print('Insert a user into [user] table', mode='database')
+                    pretty_print('{} {}'.format(sender_firstname, sender_lastname))
+                    cache[sender_id] = {'current_qid': None,
+                                        'current_subject': None}
+                    pretty_print('Insert a user into cache', mode='Cache')
+                pretty_print('name: {} {}'.format(sender_firstname, sender_lastname))
+                pretty_print('current_qid: '+str(cache[sender_id]['current_qid']))
+                pretty_print('current_subject: '+str(cache[sender_id]['current_subject']))
 
             # User clicked/tapped "postback" button in Persistent menu
             if messaging_event.get("postback"):
@@ -164,6 +188,7 @@ def _get_user_profile(sender_id):
 
 # ================== SET UP ==================
 def yaml_to_json(chatbot_text_file_name, template_conversation_file_name):
+    '''TODO: add docstring'''
     with open(chatbot_text_file_name + ".yml", 'r') as stream:
         try:
             data = yaml.load(stream)
@@ -182,6 +207,7 @@ def yaml_to_json(chatbot_text_file_name, template_conversation_file_name):
 
 
 def load_source(chatbot_text_file_name, template_conversation_file_name):
+    '''TODO: add docstring'''
     with open(chatbot_text_file_name + ".json") as data_file:
         chatbot_text = json.load(data_file)
     with open(template_conversation_file_name + ".json") as data_file:
@@ -194,7 +220,7 @@ def setup(chatbot_text):
     log = logging.getLogger('werkzeug')
     log.setLevel(logging.ERROR)
 
-    pretty_print("============ Start the app ============", mode='App')
+    pretty_print("============ Set up App ============", mode='App')
     message.init_payload(template_conversation)
     pretty_print("Initiaize the payloads", mode="Initialization")
     message.persistent_menu(template_conversation)
@@ -213,10 +239,10 @@ with app.app_context():
 if __name__ == '__main__':
     # Set up Flask app and MySQL
     setup(chatbot_text)
+
     # Read QA json data and construct the QA knowledge base
     json_file = 'QAdataset/questions_filtered_150_quizbot.json'
     qa_kb = QAKnowlegeBase(json_file)
-
     model = os.environ["MODEL"]
     if model == "TFIDF":
         qa_model = QAModel.TFIDFModel(qa_kb)
@@ -230,5 +256,5 @@ if __name__ == '__main__':
     context = ('/etc/letsencrypt/live/smartprimer.org/fullchain.pem',
                '/etc/letsencrypt/live/smartprimer.org/privkey.pem')
 
-    pretty_print('run app', mode='App')
+    pretty_print('============ Run App ============', mode='App')
     app.run(host='0.0.0.0', threaded=True, debug=True, use_reloader=False, ssl_context=context, port=int(os.environ["PORT"]))

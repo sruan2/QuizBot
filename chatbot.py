@@ -265,54 +265,24 @@ def respond_to_messagetext(message_text, sender_id, qa_model, chatbot_text, temp
     message_text = message_text.lower()
     QID, _ = show_last_qid_subject(mysql, sender_id)
 
-    if message_text == "Practice Mode "+u'\u270F':
-        send_choose_subject_quick_reply(
-            mysql, sender_id, template_conversation)
-        insert_question(mysql, sender_id, '-11', 'MENU_PRACTICE_MODE')
-
-    elif message_text == "next question" or message_text == "got it, next!" or message_text[:4] == "sure":
-        if show_status(mysql, sender_id):
-            subject = show_last_qid_subject(mysql, sender_id)[1]
-            subject = subject if subject in [
-                "SCIENCE", "GRE", "SAFETY"] else "random"
-            send_question(mysql, sender_id, template_conversation,
-                          payload=payload, qa_model=qa_model, subject=subject.lower())
+    if not show_status(mysql, sender_id):
+        score = qa_model.compute_score(message_text, QID)
+        if score < 5:
+            send_paragraph(mysql, sender_id, "MESSAGE_TEXT",
+                          chatbot_text, template_conversation, "paragraph_1")
+            send_correct_answer(
+                mysql, sender_id, "MESSAGE_TEXT", template_conversation, qa_model, 0)
+        elif score < 10:
+            send_paragraph(mysql, sender_id, "MESSAGE_TEXT",
+                          chatbot_text, template_conversation, "paragraph_2")
+            send_correct_answer(
+                mysql, sender_id, "MESSAGE_TEXT", template_conversation, qa_model, 3)
         else:
-            score = qa_model.compute_score(message_text, QID)
-            if score < 5:
-                send_paragraph(mysql, sender_id, "MESSAGE_TEXT",
-                              chatbot_text, template_conversation, "paragraph_1")
-                send_correct_answer(
-                    mysql, sender_id, "MESSAGE_TEXT", template_conversation, qa_model, 0)
-            elif score < 10 and score >= 5:
-                send_paragraph(mysql, sender_id, "MESSAGE_TEXT",
-                              chatbot_text, template_conversation, "paragraph_2")
-                send_correct_answer(
-                    mysql, sender_id, "MESSAGE_TEXT", template_conversation, qa_model, 3)
-            else:
-                send_paragraph(mysql, sender_id, "MESSAGE_TEXT",
-                               chatbot_text, template_conversation, "paragraph_3")
-                send_correct_answer(
-                    mysql, sender_id, "MESSAGE_TEXT", template_conversation, qa_model, 10)
-    else:
-        if not show_status(mysql, sender_id):
-            score = qa_model.compute_score(message_text, QID)
-            if score < 5:
-                send_paragraph(mysql, sender_id, "MESSAGE_TEXT",
-                              chatbot_text, template_conversation, "paragraph_1")
-                send_correct_answer(
-                    mysql, sender_id, "MESSAGE_TEXT", template_conversation, qa_model, 0)
-            elif score < 10:
-                send_paragraph(mysql, sender_id, "MESSAGE_TEXT",
-                              chatbot_text, template_conversation, "paragraph_2")
-                send_correct_answer(
-                    mysql, sender_id, "MESSAGE_TEXT", template_conversation, qa_model, 3)
-            else:
-                send_paragraph(mysql, sender_id, "MESSAGE_TEXT",
-                               chatbot_text, template_conversation, "paragraph_3")
-                send_correct_answer(
-                    mysql, sender_id, "MESSAGE_TEXT", template_conversation, qa_model, 10)
-        else:
-            update_status(mysql, sender_id, 1)
-            send_conversation(mysql, sender_id, "MESSAGE_TEXT",
-                              chatbot_text, template_conversation, "conversation_1")
+            send_paragraph(mysql, sender_id, "MESSAGE_TEXT",
+                           chatbot_text, template_conversation, "paragraph_3")
+            send_correct_answer(
+                mysql, sender_id, "MESSAGE_TEXT", template_conversation, qa_model, 10)
+    else: # That sounds interesting. Would you want more quiz questions?
+        update_status(mysql, sender_id, 1)
+        send_conversation(mysql, sender_id, "MESSAGE_TEXT",
+                          chatbot_text, template_conversation, "conversation_1")
