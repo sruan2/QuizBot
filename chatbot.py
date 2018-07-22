@@ -210,8 +210,8 @@ def respond_to_payload(payload, sender_id, sender_firstname, qa_model, chatbot_t
 
     elif payload == "JOKE":
         send_conversation(mysql, sender_id, payload, chatbot_text,
-                          template_conversation, "conversation_1")      
-        
+                          template_conversation, "conversation_1")
+
 
 
     # elif payload == "INTERACT":
@@ -233,18 +233,20 @@ def respond_to_payload(payload, sender_id, sender_firstname, qa_model, chatbot_t
     #         send_conversation(sender_id, payload, chatbot_text, template_conversation, "GRE")
 
     elif payload == "NEXT_QUESTION":
-        if show_status(mysql, sender_id):
-            subject = show_last_qid_subject(mysql, sender_id)[1]
-            subject = subject if subject in [
-                "SCIENCE", "GRE", "SAFETY"] else "random"
-            send_question(mysql, sender_id, template_conversation,
-                          payload=payload, qa_model=qa_model, subject=subject.lower())
-        else:
-            QID = show_last_qid_subject(mysql, sender_id)[0]
-            send_question(mysql, sender_id, template_conversation,
-                          question=qa_model.pickQuestion(subject='random'))
+        send_question(mysql, sender_id, template_conversation, qa_model)
 
+        # if show_status(mysql, sender_id):
+        #     subject = show_last_qid_subject(mysql, sender_id)[1]
+        #     subject = subject if subject in [
+        #         "SCIENCE", "GRE", "SAFETY"] else "random"
+        #     send_question(mysql, sender_id, template_conversation,
+        #                   payload=payload, qa_model=qa_model, subject=subject.lower())
+        # else:
+        #     QID = show_last_qid_subject(mysql, sender_id)[0]
+        #     send_question(mysql, sender_id, template_conversation,
+        #                   question=qa_model.pickQuestion(subject='random'))
 
+# TODO: Remove redundant code
 def respond_to_messagetext(message_text, sender_id, qa_model, chatbot_text, template_conversation, mysql):
     '''
         This function responds to the user's message texts.
