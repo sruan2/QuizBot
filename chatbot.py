@@ -136,11 +136,13 @@ def respond_to_payload(payload, sender_id, sender_firstname, qa_model, chatbot_t
             send_image(mysql, sender_id, payload, chatbot_text, "GRE")
         else:
             send_image(mysql, sender_id, payload, chatbot_text, "NORMAL")
-        send_paragraph(mysql, sender_id, payload, chatbot_text, template_conversation, "paragraph_1")
+        send_paragraph(mysql, sender_id, payload, chatbot_text,
+                       template_conversation, "paragraph_1")
         # change current_subject in cache
         cache[sender_id]['current_subject'] = 'science'
-        send_question(mysql, sender_id, template_conversation,
-                      qa_model, cache)
+        # update current_subject in [user] table
+        update_user_current_subject(mysql, sender_id, 'science')
+        send_question(mysql, sender_id, template_conversation, qa_model, cache)
 
     elif payload == "GRE":
         QID = show_last_qid_subject(mysql, sender_id)[0]
@@ -153,8 +155,9 @@ def respond_to_payload(payload, sender_id, sender_firstname, qa_model, chatbot_t
         send_paragraph(mysql, sender_id, payload, chatbot_text, template_conversation, "paragraph_1")
         # change current_subject in cache
         cache[sender_id]['current_subject'] = 'gre'
-        send_question(mysql, sender_id, template_conversation,
-                      qa_model, cache)
+        # update current_subject in [user] table
+        update_user_current_subject(mysql, sender_id, 'gre')
+        send_question(mysql, sender_id, template_conversation, qa_model, cache)
 
     elif payload == "SAFETY":
         QID = show_last_qid_subject(mysql, sender_id)[0]
@@ -167,8 +170,7 @@ def respond_to_payload(payload, sender_id, sender_firstname, qa_model, chatbot_t
         send_paragraph(mysql, sender_id, payload, chatbot_text, template_conversation, "paragraph_1")
         # change current_subject in cache
         cache[sender_id]['current_subject'] = 'safety'
-        send_question(mysql, sender_id, template_conversation,
-                      qa_model, cache)
+        send_question(mysql, sender_id, template_conversation, qa_model, cache)
 
     elif payload == "RANDOM":
         QID = show_last_qid_subject(mysql, sender_id)[0]
