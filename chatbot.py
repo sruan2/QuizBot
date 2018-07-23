@@ -129,13 +129,14 @@ def respond_to_payload(payload, sender_id, sender_firstname, qa_model, chatbot_t
         send_choose_subject(mysql, sender_id, template_conversation)
 
     elif payload == "SCIENCE":
-        QID = show_last_qid_subject(mysql, sender_id)[0]
-        if QID >= 50 and QID < 100:
-            send_image(mysql, sender_id, payload, chatbot_text, "SAFETY")
-        elif QID >= 100 and QID < 150:
-            send_image(mysql, sender_id, payload, chatbot_text, "GRE")
-        else:
-            send_image(mysql, sender_id, payload, chatbot_text, "NORMAL")
+        # sherry: use cache[sender_id]['current_subject'] to get the subject
+        # QID = show_last_qid_subject(mysql, sender_id)[0]
+        # if QID >= 50 and QID < 100:
+        #     send_image(mysql, sender_id, payload, chatbot_text, "SAFETY")
+        # elif QID >= 100 and QID < 150:
+        #     send_image(mysql, sender_id, payload, chatbot_text, "GRE")
+        # else:
+        #     send_image(mysql, sender_id, payload, chatbot_text, "NORMAL")
         send_paragraph(mysql, sender_id, payload, chatbot_text,
                        template_conversation, "paragraph_1")
         # change current_subject in cache
@@ -145,13 +146,13 @@ def respond_to_payload(payload, sender_id, sender_firstname, qa_model, chatbot_t
         send_question(mysql, sender_id, template_conversation, qa_model, cache)
 
     elif payload == "GRE":
-        QID = show_last_qid_subject(mysql, sender_id)[0]
-        if QID >= 0 and QID < 50:
-            send_image(mysql, sender_id, payload, chatbot_text, "SCIENCE")
-        elif QID >= 50 and QID < 100:
-            send_image(mysql, sender_id, payload, chatbot_text, "SAFETY")
-        else:
-            send_image(mysql, sender_id, payload, chatbot_text, "NORMAL")
+        # QID = show_last_qid_subject(mysql, sender_id)[0]
+        # if QID >= 0 and QID < 50:
+        #     send_image(mysql, sender_id, payload, chatbot_text, "SCIENCE")
+        # elif QID >= 50 and QID < 100:
+        #     send_image(mysql, sender_id, payload, chatbot_text, "SAFETY")
+        # else:
+        #     send_image(mysql, sender_id, payload, chatbot_text, "NORMAL")
         send_paragraph(mysql, sender_id, payload, chatbot_text, template_conversation, "paragraph_1")
         # change current_subject in cache
         cache[sender_id]['current_subject'] = 'gre'
@@ -160,33 +161,36 @@ def respond_to_payload(payload, sender_id, sender_firstname, qa_model, chatbot_t
         send_question(mysql, sender_id, template_conversation, qa_model, cache)
 
     elif payload == "SAFETY":
-        QID = show_last_qid_subject(mysql, sender_id)[0]
-        if QID >= 0 and QID < 50:
-            send_image(mysql, sender_id, payload, chatbot_text, "SCIENCE")
-        elif QID >= 100 and QID < 150:
-            send_image(mysql, sender_id, payload, chatbot_text, "GRE")
-        else:
-            send_image(mysql, sender_id, payload, chatbot_text, "NORMAL")
+        # QID = show_last_qid_subject(mysql, sender_id)[0]
+        # if QID >= 0 and QID < 50:
+        #     send_image(mysql, sender_id, payload, chatbot_text, "SCIENCE")
+        # elif QID >= 100 and QID < 150:
+        #     send_image(mysql, sender_id, payload, chatbot_text, "GRE")
+        # else:
+        #     send_image(mysql, sender_id, payload, chatbot_text, "NORMAL")
         send_paragraph(mysql, sender_id, payload, chatbot_text, template_conversation, "paragraph_1")
         # change current_subject in cache
         cache[sender_id]['current_subject'] = 'safety'
+        # update current_subject in [user] table
+        update_user_current_subject(mysql, sender_id, 'safety')
         send_question(mysql, sender_id, template_conversation, qa_model, cache)
 
     elif payload == "RANDOM":
-        QID = show_last_qid_subject(mysql, sender_id)[0]
-        if QID >= 0 and QID < 50:
-            send_image(mysql, sender_id, payload, chatbot_text, "SCIENCE")
-        elif QID >= 50 and QID < 100:
-            send_image(mysql, sender_id, payload, chatbot_text, "SAFETY")
-        elif QID >= 100 and QID < 150:
-            send_image(mysql, sender_id, payload, chatbot_text, "GRE")
-        else:
-            send_image(mysql, sender_id, payload, chatbot_text, "NORMAL")
+        # QID = show_last_qid_subject(mysql, sender_id)[0]
+        # if QID >= 0 and QID < 50:
+        #     send_image(mysql, sender_id, payload, chatbot_text, "SCIENCE")
+        # elif QID >= 50 and QID < 100:
+        #     send_image(mysql, sender_id, payload, chatbot_text, "SAFETY")
+        # elif QID >= 100 and QID < 150:
+        #     send_image(mysql, sender_id, payload, chatbot_text, "GRE")
+        # else:
+        #     send_image(mysql, sender_id, payload, chatbot_text, "NORMAL")
         send_paragraph(mysql, sender_id, payload, chatbot_text, template_conversation, "paragraph_1")
         # change current_subject in cache
         cache[sender_id]['current_subject'] = 'random'
-        send_question(mysql, sender_id, template_conversation,
-                      qa_model, cache)
+        # update current_subject in [user] table
+        update_user_current_subject(mysql, sender_id, 'random')
+        send_question(mysql, sender_id, template_conversation, qa_model, cache)
 
     elif payload == "GIVEUP_YES":
         send_paragraph(mysql, sender_id, payload, chatbot_text,

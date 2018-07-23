@@ -116,15 +116,16 @@ def webhook():
             if not sender_id in cache:
                 # Check if the user is in database
                 if int(sender_id) in db.show_user_id_list(mysql):
-                    pretty_print('Retrieve the user from [user] table', mode='database')
+                    pretty_print('Retrieve the user from [user]', mode='database')
                     pretty_print('{} {}'.format(sender_firstname, sender_lastname))
+                    subject = db.get_current_subject(mysql, sender_id)
                     cache[sender_id] = {'current_qid': None,
-                                        'current_subject': None}
-                    pretty_print('Insert a user into cache', mode='Cache')
+                                        'current_subject': subject}
+                    pretty_print('Insert the user into cache', mode='Cache')
                 # Insert the user into database and cache if it doesn't exist yet.
                 else:
                     db.insert_user(mysql, sender_id, sender_firstname, sender_lastname)
-                    pretty_print('Insert a user into [user] table', mode='database')
+                    pretty_print('Insert a user into [user]', mode='database')
                     pretty_print('{} {}'.format(sender_firstname, sender_lastname))
                     cache[sender_id] = {'current_qid': None,
                                         'current_subject': None}

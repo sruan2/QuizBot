@@ -107,6 +107,21 @@ def update_user_current_subject(mysql, user_id, subject):
             "Error in updating current_subject in [user] table", mode="BUG!")
 
 
+def get_current_subject(mysql, user_id):
+    '''Retrieve the current_subject from [user] table'''
+    cur = mysql.connection.cursor()
+    cur.execute(
+        "SELECT current_subject from user where user_id = %s", [user_id])
+    rows = cur.fetchall()
+    return rows[0][0]
+
+
+
+
+
+
+
+
 
 
 # update user question-answer loop status

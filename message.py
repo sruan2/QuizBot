@@ -49,8 +49,9 @@ def send_image(mysql, recipient_id, payload, chatbot_text, image_id):
         Returns:
     '''
     image_data = chatbot_text[payload]["image"][image_id]
-    image_data["image_url"].shuffle()
-    image_data["image_url"] = image_data["image_url"][0].format(os.environ["PORT"])
+    # sherry, comment out for now to make the code run
+    # image_data["image_url"].shuffle()
+    # image_data["image_url"] = image_data["image_url"][0].format(os.environ["PORT"])
     messaging_API.send_image(mysql, recipient_id, image_data)
 
 
