@@ -134,6 +134,9 @@ TEMPLATE:
     - I see 👏🏼
     - I see ✔️ 
 
+  ANOTHER_JOKE:
+    - Another Joke 😁 
+
   QUESTION:
     - "Here's a question for you:"
     - "Let's try this one."
@@ -186,18 +189,6 @@ TEMPLATE:
     - Great! Let's resume learning.
     - Great! Let's resuming learning.
     - Cool! Let's keep going.
-
-  INDEX:
-    - "1️⃣"
-    - "2️⃣" 
-    - "3️⃣" 
-    - "4️⃣" 
-    - "5️⃣" 
-    - "6️⃣" 
-    - "7️⃣" 
-    - "8️⃣" 
-    - "9️⃣" 
-    - "🔟"
 
   ANSWER_NOT_CORRECT:
     - I'm sorry, but that was incorrect. You didn't earn any points 😞
@@ -317,7 +308,8 @@ TEMPLATE:
     - I have a joke for you! Do you want to hear that?
 
   GIVE_JOKE:
-    - "Here is an intereting one:"
+    - Here is an interesting one for you.
+    - Here is a good one.
 
   JOKE:
     - "Q. How do you make the number one disappear? A. Add the letter G and then presto\u2014it\u2019s Gone!"
@@ -449,20 +441,6 @@ STATE:
       payload:
         - NEXT_QUESTION
 
-  # TOTAL_SCORE:
-  #   quick_reply:  
-  #     message:
-  #       source:
-  #         LOCAL
-  #       text:
-  #         Your total score is {}. Keep it up! 💪🏼
-  #     source:
-  #       - TEMPLATE
-  #     title:
-  #       - GOT_IT
-  #     payload:
-  #       - NEXT_QUESTION
-
   REMINDER:
     image:
         template_type: 
@@ -554,7 +532,6 @@ STATE:
                 payload: 
                   CONTACT
                   
-
   GET_STARTED:
     get_started:
       payload: 

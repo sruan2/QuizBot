@@ -214,24 +214,6 @@ def respond_to_payload(payload, sender_id, sender_firstname, qa_model, chatbot_t
 
 
 
-    # elif payload == "INTERACT":
-    #     science, safety, gre = show_all_qid(mysql, sender_id)
-    #     num_science = len(science)
-    #     num_safety = len(science)
-    #     num_gre = len(science)
-
-    #     if num_science >= num_safety and num_science >= num_gre:
-    #         send_image(sender_id, payload, chatbot_text, "SCIENCE")
-    #         send_conversation(sender_id, payload, chatbot_text, template_conversation, "SCIENCE")
-
-    #     elif num_safety >= num_science and num_safety >= num_gre:
-    #         send_image(sender_id, payload, chatbot_text, "SAFETY")
-    #         send_conversation(sender_id, payload, chatbot_text, template_conversation, "SAFETY")
-
-    #     elif num_gre >= num_science and num_gre >= num_safety:
-    #         send_image(sender_id, payload, chatbot_text, "GRE")
-    #         send_conversation(sender_id, payload, chatbot_text, template_conversation, "GRE")
-
     elif payload == "NEXT_QUESTION":
         send_question(mysql, sender_id, template_conversation, qa_model)
 
