@@ -118,7 +118,8 @@ def send_format_quick_reply_text(mysql, recipient_id, template_conversation, sta
     '''
     quick_reply_data = template_conversation["STATE"][state]["quick_reply"]
     text_format = quick_reply_data["message"]["text"]
-    quick_reply_data["message"]["text"] = quick_reply_data["message"]["text"].format(format_fill_text)
+    quick_reply_data["message"]["text"] = quick_reply_data["message"]["text"].format(
+        format_fill_text)
     timestamp, uid = messaging_API.send_quick_reply(
         mysql, recipient_id, template_conversation, quick_reply_data)
     quick_reply_data["message"]["text"] = text_format
@@ -168,7 +169,8 @@ def send_question(mysql, recipient_id, template_conversation, qa_model, cache):
         mysql, recipient_id, template_conversation, "QUESTION", question)
 
     # insert the question to the [user_history] table
-    db.insert_user_history(mysql, recipient_id, QID, "random", timestamp, begin_uid=uid)
+    db.insert_user_history(mysql, recipient_id, QID, "random", timestamp,
+                           begin_uid=uid)
 
     # store the QID into cache for this user (for continuity of the conversation)
     cache[recipient_id]['current_qid'] = QID

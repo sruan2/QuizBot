@@ -213,27 +213,27 @@ USER_MANUAL_4:
         payload:
           - USER_MANUAL_6   
 
-# USER_MANUAL_5:
-#   image:
-#     image_1:
-#       template_type: 
-#         image
-#       image_url: 
-#         https://www.smartprimer.org:{}/pictures/user_manual/totalscorebutton.png
-#   conversation:
-#     conversation_1:
-#       message:
-#         - source:
-#             LOCAL
-#           text:
-#             You can track your learning progress by clicking on the menu button to see your total score. 📝
-#       quick_reply:
-#         source:
-#           - TEMPLATE
-#         title:
-#           - GOT_IT
-#         payload:
-#           - USER_MANUAL_6   
+USER_MANUAL_5:
+  image:
+    image_1:
+      template_type: 
+        image
+      image_url: 
+        https://www.smartprimer.org:{}/pictures/user_manual/totalscorebutton.png
+  conversation:
+    conversation_1:
+      message:
+        - source:
+            LOCAL
+          text:
+            You can track your learning progress by clicking on the menu button to see your total score. 📝
+      quick_reply:
+        source:
+          - TEMPLATE
+        title:
+          - GOT_IT
+        payload:
+          - USER_MANUAL_6   
 
 USER_MANUAL_6:
   image:

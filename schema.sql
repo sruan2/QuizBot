@@ -35,7 +35,8 @@ create table user(
 	user_id bigint primary key,
 	user_firstname TEXT,
 	user_lastname TEXT,
-	reg_time TEXT
+	reg_time TEXT,
+    current_subject TEXT
 );
 
 
