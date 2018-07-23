@@ -92,6 +92,19 @@ def show_user_id_list(mysql):
     return [x[0] for x in rows]
 
 
+def update_user_current_subject(mysql, user_id, subject):
+    '''Update the current subject of the specified user'''
+    try:
+        con = mysql.connection
+        cur = con.cursor()
+        cur.execute(
+            "update user set current_subject = %s where user_id = %s", (subject, user_id))
+        con.commit()
+        pretty_print("Update current_subject in [user] table", mode="Database")
+    except:
+        con.rollback()
+        pretty_print(
+            "Error in updating current_subject in [user] table", mode="BUG!")
 
 
 

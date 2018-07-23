@@ -1,7 +1,10 @@
 # template_conversation.yml
 # Author: Liwei Jiang
 # Date: 05/07/2018
-# Usage: yaml file containts conversation sources.
+# Usage: This file contains two parts.
+#        PART 1: TEMPLATE contains conversation template
+#        PART 2: STATE contains state information that can be accessed by each payload
+
 
 TEMPLATE:
   GOT_IT:
@@ -235,7 +238,6 @@ TEMPLATE:
     - Good choice! Let's see what you know about safety!
     - Awesome! Let's learn about safety!
 
-
   GOOD_JOB_SCIENCE:
     - You've done a very good job in science! Congrats!
     - You are becoming a master in science!
@@ -310,6 +312,7 @@ TEMPLATE:
   GIVE_JOKE:
     - Here is an interesting one for you.
     - Here is a good one.
+    - "Here is an interesting one:"
 
   JOKE:
     - "Q. How do you make the number one disappear? A. Add the letter G and then presto\u2014it\u2019s Gone!"
@@ -340,6 +343,19 @@ TEMPLATE:
     - "Q: What do chemists\u2019 dogs do with their bones? A: They barium!"
     - "Q: Why don\u2019t cats play poker in the jungle? A: There are too many cheetahs."
     - "What did Beethoven say to Johann Sebastian when he was helping him parallel park? \u201cBach it up.\u201d"
+
+  CONGRAT_IMAGE:
+    - https://www.smartprimer.org:{}/pictures/avatar/penguinnormal_happy.png
+    - https://www.smartprimer.org:{}/pictures/avatar/penguinnormal_happy.png
+    - https://www.smartprimer.org:{}/pictures/avatar/penguinnormal_happy.png
+    - https://www.smartprimer.org:{}/pictures/avatar/penguinnormal_happy.png
+    - https://www.smartprimer.org:{}/pictures/avatar/penguinnormal_happy.png
+    - https://www.smartprimer.org:{}/pictures/avatar/penguinnormal_happy.png
+    - https://www.smartprimer.org:{}/pictures/avatar/penguinnormal_happy.png
+    - https://www.smartprimer.org:{}/pictures/avatar/penguinnormal_happy.png
+    - https://www.smartprimer.org:{}/pictures/avatar/penguinnormal_happy.png
+    - https://www.smartprimer.org:{}/pictures/avatar/penguinnormal_happy.png
+    - https://www.smartprimer.org:{}/pictures/avatar/penguinnormal_happy.png
 
 STATE:
   QUESTION:

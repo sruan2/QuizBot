@@ -219,14 +219,22 @@ USER_MANUAL_5:
       template_type: 
         image
       image_url: 
+<<<<<<< HEAD
         https://www.smartprimer.org:{}/pictures/user_manual/chatwithmebutton.png
+=======
+        https://www.smartprimer.org:{}/pictures/user_manual/totalscorebutton.png
+>>>>>>> 6cf817f919ae6c29d7b6580f788ca2dc2549b4d7
   conversation:
     conversation_1:
       message:
         - source:
             LOCAL
           text:
+<<<<<<< HEAD
             You can hear jokes from me by clicking the Chat with Me button. 🐧
+=======
+            You can track your learning progress by clicking on the menu button to see your total score. 📝
+>>>>>>> 6cf817f919ae6c29d7b6580f788ca2dc2549b4d7
       quick_reply:
         source:
           - TEMPLATE
