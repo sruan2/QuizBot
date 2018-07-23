@@ -60,8 +60,7 @@ create table user_history(
     qid INTEGER,
     subject TEXT,
     score INTEGER,
-    begin_timestamp TEXT,
-    end_timestamp TEXT,
+    type TEXT,
     begin_uid INTEGER primary key,
     end_uid INTEGER
 );

@@ -48,11 +48,12 @@ def send_image(mysql, recipient_id, payload, chatbot_text, image_id):
 
         Returns:
     '''
-    image_data = chatbot_text[payload]["image"][image_id]
     # sherry, comment out for now to make the code run
+    # image_data = chatbot_text[payload]["image"][image_id]
     # image_data["image_url"].shuffle()
     # image_data["image_url"] = image_data["image_url"][0].format(os.environ["PORT"])
-    messaging_API.send_image(mysql, recipient_id, image_data)
+    # messaging_API.send_image(mysql, recipient_id, image_data)
+    pass
 
 
 def send_paragraph(mysql, recipient_id, payload, chatbot_text, template_conversation, paragraph_id):
@@ -121,11 +122,11 @@ def send_format_quick_reply_text(mysql, recipient_id, template_conversation, sta
     text_format = quick_reply_data["message"]["text"]
     quick_reply_data["message"]["text"] = quick_reply_data["message"]["text"].format(
         format_fill_text)
-    timestamp, uid = messaging_API.send_quick_reply(
+    uid = messaging_API.send_quick_reply(
         mysql, recipient_id, template_conversation, quick_reply_data)
     quick_reply_data["message"]["text"] = text_format
-    # return timestamp and uid so that we can log the information in the [user_history] dataset when the bot sends a question
-    return timestamp, uid
+    # return uid so that we can log the information in the [user_history] dataset when the bot sends a question
+    return uid
 
 
 def send_choose_subject(mysql, recipient_id, template_conversation):
@@ -157,7 +158,6 @@ def send_question(mysql, recipient_id, template_conversation, qa_model, cache):
             cache: a dictionary storing useful information in memory for each
                 user
     '''
-    # TODO: sherry: let the subject be random for now. QA Model should memorize the subject for each user.
     subject = cache[recipient_id]['current_subject'] \
         if cache[recipient_id]['current_subject'] else 'random'
     question, QID = qa_model.pickQuestion(subject)
@@ -166,15 +166,15 @@ def send_question(mysql, recipient_id, template_conversation, qa_model, cache):
     messaging_API.send_message(mysql, recipient_id, template_conversation,
                                message_data)
 
-    timestamp, uid = send_format_quick_reply_text(
+    uid = send_format_quick_reply_text(
         mysql, recipient_id, template_conversation, "QUESTION", question)
 
     # insert the question to the [user_history] table
-    db.insert_user_history(mysql, recipient_id, QID, "random", timestamp,
-                           begin_uid=uid)
+    db.insert_user_history(mysql, recipient_id, QID, "random", begin_uid=uid)
 
-    # store the QID into cache for this user (for continuity of the conversation)
+    # store the information needed into cache for this user
     cache[recipient_id]['current_qid'] = QID
+    cache[recipient_id]['begin_uid'] = uid
 
 
 def send_say_hi(mysql, recipient_id, template_conversation, recipient_firstname):
@@ -201,13 +201,9 @@ def send_correct_answer(mysql, recipient_id, payload, template_conversation, qa_
             None
     '''
     QID, _ = db.show_last_qid_subject(mysql, recipient_id)
-    standard_answer = qa_model.getAnswer(QID)
-    # insert_score(mysql, recipient_id, QID, payload, score)
-    # insert_conversation(mysql, recipient_id, QID, "user_typing", "subject", payload, score)
-    send_format_quick_reply_text(mysql, recipient_id, template_conversation, "CORRECT_ANSWER", standard_answer)
+    correct_answer = qa_model.getAnswer(QID)
+    send_format_quick_reply_text(mysql, recipient_id, template_conversation, "CORRECT_ANSWER", correct_answer)
     db.update_status(mysql, recipient_id, 1)
-
-# insert_conversation(mysql, sender_id, receiver_id, dialog, type, timestamp, qid, score)
 
 
 def send_explanation(mysql, recipient_id, template_conversation, qa_model):
