@@ -5,15 +5,13 @@ from message import *
 from database import *
 
 
-def respond_to_payload(payload, sender_id, sender_firstname, qa_model, chatbot_text, template_conversation, mysql, cache):
+def respond_to_payload(payload, sender_id, qa_model, chatbot_text, template_conversation, mysql, cache, uid):
     '''
         This function responds to the QuizBot's payload states.
 
         Args:
             payload: chatbot's payload state
             sender_id: the sender's unique id assigned by Facebook Messenger
-            sender_firstname: the sender's first name requested from the
-                Facebook profile
             qa_model: the question answering model containing information about
                 the question dataset
             chatbot_text: the json structure containing the chatbot's
@@ -23,6 +21,7 @@ def respond_to_payload(payload, sender_id, sender_firstname, qa_model, chatbot_t
             mysql: database
             cache: a dictionary containing the information in memory such as
                 current_qid and current_subject needed for the quizbot
+            uid: unique id in [conversation] database for this conversation
 
         Returns:
             None
@@ -30,6 +29,7 @@ def respond_to_payload(payload, sender_id, sender_firstname, qa_model, chatbot_t
 
     if payload == "GET_INTRO_1":
         send_image(mysql, sender_id, payload, chatbot_text, "image_1")
+        sender_firstname = cache[sender_id]['firstname']
         send_say_hi(mysql, sender_id, template_conversation, sender_firstname)
 
     elif payload == "GET_INTRO_2":
@@ -201,12 +201,13 @@ def respond_to_payload(payload, sender_id, sender_firstname, qa_model, chatbot_t
     elif payload == "PRACTICE_MODE":
         send_choose_subject(mysql, sender_id, template_conversation)
 
-    elif payload[:10] == "BUTTON_DKB":
+    elif payload[:10] == "BUTTON_DKB": # user selects the wrong choice
         send_paragraph(mysql, sender_id, payload[:10], chatbot_text, template_conversation, "paragraph_1")
         send_correct_answer(mysql, sender_id, payload,
                             template_conversation, qa_model, 0)
 
-    elif payload[:10] == "BUTTON_AKB":
+    elif payload[:10] == "BUTTON_AKB": # user selects the correct choice
+        db.update_user_history(mysql, sender_id, 10, "multiple-choice", cache[sender_id]['begin_uid'], uid)
         send_paragraph(mysql, sender_id, payload[:10], chatbot_text, template_conversation, "paragraph_1")
         send_correct_answer(mysql, sender_id, payload, template_conversation, qa_model, 3)
         send_image(mysql, sender_id, payload, chatbot_text, "image_1")
@@ -244,7 +245,7 @@ def respond_to_payload(payload, sender_id, sender_firstname, qa_model, chatbot_t
         #                   question=qa_model.pickQuestion(subject='random'))
 
 # TODO: Remove redundant code
-def respond_to_messagetext(message_text, sender_id, qa_model, chatbot_text, template_conversation, mysql, cache):
+def respond_to_messagetext(message_text, sender_id, qa_model, chatbot_text, template_conversation, mysql, cache, uid):
     '''
         This function responds to the user's message texts.
 
@@ -260,6 +261,7 @@ def respond_to_messagetext(message_text, sender_id, qa_model, chatbot_text, temp
             mysql: database
             cache: a dictionary containing the information in memory such as
                 current_qid and current_subject needed for the quizbot
+            uid: unique id in [conversation] database for this conversation
 
         Returns:
             None
