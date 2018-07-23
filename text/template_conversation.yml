@@ -344,19 +344,6 @@ TEMPLATE:
     - "Q: Why don\u2019t cats play poker in the jungle? A: There are too many cheetahs."
     - "What did Beethoven say to Johann Sebastian when he was helping him parallel park? \u201cBach it up.\u201d"
 
-  CONGRAT_IMAGE:
-    - https://www.smartprimer.org:{}/pictures/avatar/penguinnormal_happy.png
-    - https://www.smartprimer.org:{}/pictures/avatar/penguinnormal_happy.png
-    - https://www.smartprimer.org:{}/pictures/avatar/penguinnormal_happy.png
-    - https://www.smartprimer.org:{}/pictures/avatar/penguinnormal_happy.png
-    - https://www.smartprimer.org:{}/pictures/avatar/penguinnormal_happy.png
-    - https://www.smartprimer.org:{}/pictures/avatar/penguinnormal_happy.png
-    - https://www.smartprimer.org:{}/pictures/avatar/penguinnormal_happy.png
-    - https://www.smartprimer.org:{}/pictures/avatar/penguinnormal_happy.png
-    - https://www.smartprimer.org:{}/pictures/avatar/penguinnormal_happy.png
-    - https://www.smartprimer.org:{}/pictures/avatar/penguinnormal_happy.png
-    - https://www.smartprimer.org:{}/pictures/avatar/penguinnormal_happy.png
-
 STATE:
   QUESTION:
     message:
@@ -462,7 +449,7 @@ STATE:
         template_type: 
           image
         image_url: 
-          https://www.smartprimer.org:{}/pictures/avatar/penguinnormal_happy.png
+          - https://www.smartprimer.org:{}/pictures/avatar/penguinnormal_happy.png
     quick_reply:  
       message:
         source:
