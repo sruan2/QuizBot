@@ -5,18 +5,24 @@ from message import *
 from database import *
 
 
-def respond_to_payload(payload, sender_id, sender_firstname, qa_model, chatbot_text, template_conversation, mysql):
+def respond_to_payload(payload, sender_id, sender_firstname, qa_model, chatbot_text, template_conversation, mysql, cache):
     '''
         This function responds to the QuizBot's payload states.
 
         Args:
             payload: chatbot's payload state
             sender_id: the sender's unique id assigned by Facebook Messenger
-            sender_firstname: the sender's first name requested from the Facebook profile
-            qa_model: the question answering model containing information about the question dataset
-            chatbot_text: the json structure containing the chatbot's text/conversation source
-            template_conversation: the json structure containing the conversation and state templates
+            sender_firstname: the sender's first name requested from the
+                Facebook profile
+            qa_model: the question answering model containing information about
+                the question dataset
+            chatbot_text: the json structure containing the chatbot's
+                text/conversation source
+            template_conversation: the json structure containing the
+                conversation and state templates
             mysql: database
+            cache: a dictionary containing the information in memory such as
+                current_qid and current_subject needed for the quizbot
 
         Returns:
             None
@@ -130,10 +136,13 @@ def respond_to_payload(payload, sender_id, sender_firstname, qa_model, chatbot_t
             send_image(mysql, sender_id, payload, chatbot_text, "GRE")
         else:
             send_image(mysql, sender_id, payload, chatbot_text, "NORMAL")
-
-        send_paragraph(mysql, sender_id, payload, chatbot_text, template_conversation, "paragraph_1")
-        send_question(mysql, sender_id, template_conversation,
-                      payload, qa_model, "science")
+        send_paragraph(mysql, sender_id, payload, chatbot_text,
+                       template_conversation, "paragraph_1")
+        # change current_subject in cache
+        cache[sender_id]['current_subject'] = 'science'
+        # update current_subject in [user] table
+        update_user_current_subject(mysql, sender_id, 'science')
+        send_question(mysql, sender_id, template_conversation, qa_model, cache)
 
     elif payload == "GRE":
         QID = show_last_qid_subject(mysql, sender_id)[0]
@@ -143,10 +152,12 @@ def respond_to_payload(payload, sender_id, sender_firstname, qa_model, chatbot_t
             send_image(mysql, sender_id, payload, chatbot_text, "SAFETY")
         else:
             send_image(mysql, sender_id, payload, chatbot_text, "NORMAL")
-
         send_paragraph(mysql, sender_id, payload, chatbot_text, template_conversation, "paragraph_1")
-        send_question(mysql, sender_id, template_conversation,
-                      payload, qa_model, "gre")
+        # change current_subject in cache
+        cache[sender_id]['current_subject'] = 'gre'
+        # update current_subject in [user] table
+        update_user_current_subject(mysql, sender_id, 'gre')
+        send_question(mysql, sender_id, template_conversation, qa_model, cache)
 
     elif payload == "SAFETY":
         QID = show_last_qid_subject(mysql, sender_id)[0]
@@ -156,10 +167,10 @@ def respond_to_payload(payload, sender_id, sender_firstname, qa_model, chatbot_t
             send_image(mysql, sender_id, payload, chatbot_text, "GRE")
         else:
             send_image(mysql, sender_id, payload, chatbot_text, "NORMAL")
-
         send_paragraph(mysql, sender_id, payload, chatbot_text, template_conversation, "paragraph_1")
-        send_question(mysql, sender_id, template_conversation,
-                      payload, qa_model, "safety")
+        # change current_subject in cache
+        cache[sender_id]['current_subject'] = 'safety'
+        send_question(mysql, sender_id, template_conversation, qa_model, cache)
 
     elif payload == "RANDOM":
         QID = show_last_qid_subject(mysql, sender_id)[0]
@@ -171,10 +182,11 @@ def respond_to_payload(payload, sender_id, sender_firstname, qa_model, chatbot_t
             send_image(mysql, sender_id, payload, chatbot_text, "GRE")
         else:
             send_image(mysql, sender_id, payload, chatbot_text, "NORMAL")
-
         send_paragraph(mysql, sender_id, payload, chatbot_text, template_conversation, "paragraph_1")
+        # change current_subject in cache
+        cache[sender_id]['current_subject'] = 'random'
         send_question(mysql, sender_id, template_conversation,
-                      payload, qa_model, "random")
+                      qa_model, cache)
 
     elif payload == "GIVEUP_YES":
         send_paragraph(mysql, sender_id, payload, chatbot_text,
@@ -215,8 +227,7 @@ def respond_to_payload(payload, sender_id, sender_firstname, qa_model, chatbot_t
 
 
     elif payload == "NEXT_QUESTION":
-        send_question(mysql, sender_id, template_conversation, qa_model)
-
+        QID = send_question(mysql, sender_id, template_conversation, qa_model, cache)
         # if show_status(mysql, sender_id):
         #     subject = show_last_qid_subject(mysql, sender_id)[1]
         #     subject = subject if subject in [
@@ -229,17 +240,22 @@ def respond_to_payload(payload, sender_id, sender_firstname, qa_model, chatbot_t
         #                   question=qa_model.pickQuestion(subject='random'))
 
 # TODO: Remove redundant code
-def respond_to_messagetext(message_text, sender_id, qa_model, chatbot_text, template_conversation, mysql):
+def respond_to_messagetext(message_text, sender_id, qa_model, chatbot_text, template_conversation, mysql, cache):
     '''
         This function responds to the user's message texts.
 
         Args:
             message_text: the user's message text
             sender_id: the sender's unique id assigned by Facebook Messenger
-            qa_model: the question answering model containing information about the question dataset
-            chatbot_text: the json structure containing the chatbot's text/conversation source
-            template_conversation: the json structure containing the conversation and state templates
+            qa_model: the question answering model containing information
+                about the question dataset
+            chatbot_text: the json structure containing the chatbot's
+                text/conversation source
+            template_conversation: the json structure containing the
+                conversation and state templates
             mysql: database
+            cache: a dictionary containing the information in memory such as
+                current_qid and current_subject needed for the quizbot
 
         Returns:
             None

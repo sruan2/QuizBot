@@ -118,7 +118,8 @@ def send_format_quick_reply_text(mysql, recipient_id, template_conversation, sta
     '''
     quick_reply_data = template_conversation["STATE"][state]["quick_reply"]
     text_format = quick_reply_data["message"]["text"]
-    quick_reply_data["message"]["text"] = quick_reply_data["message"]["text"].format(format_fill_text)
+    quick_reply_data["message"]["text"] = quick_reply_data["message"]["text"].format(
+        format_fill_text)
     timestamp, uid = messaging_API.send_quick_reply(
         mysql, recipient_id, template_conversation, quick_reply_data)
     quick_reply_data["message"]["text"] = text_format
@@ -140,31 +141,39 @@ def send_choose_subject(mysql, recipient_id, template_conversation):
         mysql, recipient_id, template_conversation, quick_reply_data)
 
 
-def send_question(mysql, recipient_id, template_conversation, qa_model):
+def send_question(mysql, recipient_id, template_conversation, qa_model, cache):
     '''
         This function sends a question to the specified recipient.
 
         Args:
             mysql: database
-            recipient_id (str): the recipient's unique id assigned by Facebook Messenger
-            template_conversation: the json structure containing the conversation and state templates
-            qa_model: the question answering model containing information about the question dataset
-
-        Returns:
-            None
+            recipient_id (str): the recipient's unique id assigned by Facebook
+                Messenger
+            template_conversation: the json structure containing the
+                conversation and state templates
+            qa_model: the question answering model containing information
+                about the question dataset
+            cache: a dictionary storing useful information in memory for each
+                user
     '''
     # TODO: sherry: let the subject be random for now. QA Model should memorize the subject for each user.
-    question, QID = qa_model.pickQuestion('random')
+    subject = cache[recipient_id]['current_subject'] \
+        if cache[recipient_id]['current_subject'] else 'random'
+    question, QID = qa_model.pickQuestion(subject)
 
     message_data = template_conversation["STATE"]["QUESTION"]["message"]
-    messaging_API.send_message(
-        mysql, recipient_id, template_conversation, message_data)
+    messaging_API.send_message(mysql, recipient_id, template_conversation,
+                               message_data)
 
     timestamp, uid = send_format_quick_reply_text(
         mysql, recipient_id, template_conversation, "QUESTION", question)
 
     # insert the question to the [user_history] table
-    db.insert_user_history(mysql, recipient_id, QID, "random", timestamp, begin_uid=uid)
+    db.insert_user_history(mysql, recipient_id, QID, "random", timestamp,
+                           begin_uid=uid)
+
+    # store the QID into cache for this user (for continuity of the conversation)
+    cache[recipient_id]['current_qid'] = QID
 
 
 def send_say_hi(mysql, recipient_id, template_conversation, recipient_firstname):

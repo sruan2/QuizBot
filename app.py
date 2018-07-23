@@ -143,7 +143,7 @@ def webhook():
                 # save the user's quick reply to the conversation database
                 timestamp = strftime("%Y-%m-%d %H:%M:%S", localtime())
                 record_id = db.insert_conversation(mysql, sender_id, CHATBOT_ID, message_text, "postback: "+payload, timestamp)
-                chatbot.respond_to_payload(payload, sender_id, sender_firstname, qa_model, chatbot_text, template_conversation, mysql)
+                chatbot.respond_to_payload(payload, sender_id, sender_firstname, qa_model, chatbot_text, template_conversation, mysql, cache)
 
             elif messaging_event.get("message"):
                 # user clicked/tapped "postback" button in earlier message
@@ -157,7 +157,7 @@ def webhook():
                     timestamp = strftime("%Y-%m-%d %H:%M:%S", localtime())
                     record_id = db.insert_conversation(mysql, sender_id, CHATBOT_ID, message_text, "quick_reply: "+payload, timestamp)
 
-                    chatbot.respond_to_payload(payload, sender_id, sender_firstname, qa_model, chatbot_text, template_conversation, mysql)
+                    chatbot.respond_to_payload(payload, sender_id, sender_firstname, qa_model, chatbot_text, template_conversation, mysql, cache)
 
                 # someone sent us a message
                 elif not "text" in messaging_event["message"]:
@@ -171,7 +171,7 @@ def webhook():
                     # save the user's free reply to the conversation database
                     timestamp = strftime("%Y-%m-%d %H:%M:%S", localtime())
                     record_id = db.insert_conversation(mysql, sender_id, CHATBOT_ID, message_text, "user typing", timestamp)
-                    chatbot.respond_to_messagetext(message_text, sender_id, qa_model, chatbot_text, template_conversation, mysql)
+                    chatbot.respond_to_messagetext(message_text, sender_id, qa_model, chatbot_text, template_conversation, mysql, cache)
     return "ok", 200
 
 
