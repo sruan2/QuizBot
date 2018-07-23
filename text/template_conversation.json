@@ -169,7 +169,9 @@
         }, 
         "REMINDER": {
             "image": {
-                "image_url": "https://www.smartprimer.org:{}/pictures/avatar/penguinnormal_happy.png", 
+                "image_url": [
+                    "https://www.smartprimer.org:{}/pictures/avatar/penguinnormal_happy.png"
+                ], 
                 "template_type": "image"
             }, 
             "quick_reply": {
@@ -207,6 +209,9 @@
         }
     }, 
     "TEMPLATE": {
+        "ANOTHER_JOKE": [
+            "Another Joke \ud83d\ude01"
+        ], 
         "ANSWER_CORRECT": [
             "That\u2019s right! \ud83c\udf89", 
             "Correct! \ud83c\udf8a", 
@@ -290,7 +295,9 @@
             "Here's why:"
         ], 
         "GIVE_JOKE": [
-            "Here is an intereting one:"
+            "Here is an interesting one for you.", 
+            "Here is a good one.", 
+            "Here is an interesting one:"
         ], 
         "GOOD_JOB_GRE": [
             "You've done a very good job in GRE! Congrats!", 
@@ -441,18 +448,6 @@
             "Let's answer some questions about the GRE!", 
             "Let's test your knowledge on the GRE!", 
             "Awesome! Let's learn about the GRE!"
-        ], 
-        "INDEX": [
-            "1\ufe0f\u20e3", 
-            "2\ufe0f\u20e3", 
-            "3\ufe0f\u20e3", 
-            "4\ufe0f\u20e3", 
-            "5\ufe0f\u20e3", 
-            "6\ufe0f\u20e3", 
-            "7\ufe0f\u20e3", 
-            "8\ufe0f\u20e3", 
-            "9\ufe0f\u20e3", 
-            "\ud83d\udd1f"
         ], 
         "JOKE": [
             "Q. How do you make the number one disappear? A. Add the letter G and then presto\u2014it\u2019s Gone!", 

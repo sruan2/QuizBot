@@ -119,20 +119,26 @@ def webhook():
                     pretty_print('Retrieve the user from [user]', mode='database')
                     pretty_print('{} {}'.format(sender_firstname, sender_lastname))
                     subject = db.get_current_subject(mysql, sender_id)
-                    cache[sender_id] = {'current_qid': None,
-                                        'current_subject': subject}
+                    begin_uid = db.show_last_begin_uid(mysql, sender_id)
+                    cache[sender_id] = {'firstname': sender_firstname,
+                                        'current_qid': None,
+                                        'current_subject': subject,
+                                        'begin_uid': begin_uid}
                     pretty_print('Insert the user into cache', mode='Cache')
                 # Insert the user into database and cache if it doesn't exist yet.
                 else:
                     db.insert_user(mysql, sender_id, sender_firstname, sender_lastname)
                     pretty_print('Insert a user into [user]', mode='database')
                     pretty_print('{} {}'.format(sender_firstname, sender_lastname))
-                    cache[sender_id] = {'current_qid': None,
-                                        'current_subject': None}
+                    cache[sender_id] = {'firstname': sender_firstname,
+                                        'current_qid': None,
+                                        'current_subject': None,
+                                        'begin_uid': None}
                     pretty_print('Insert a user into cache', mode='Cache')
-                pretty_print('name: {} {}'.format(sender_firstname, sender_lastname))
+                pretty_print('firstname: '+str(cache[sender_id]['firstname']))
                 pretty_print('current_qid: '+str(cache[sender_id]['current_qid']))
                 pretty_print('current_subject: '+str(cache[sender_id]['current_subject']))
+                pretty_print('begin_uid: '+str(cache[sender_id]['begin_uid']))
 
             # User clicked/tapped "postback" button in Persistent menu
             if messaging_event.get("postback"):
@@ -143,8 +149,8 @@ def webhook():
                 pretty_print("Message Text is \""+message_text+"\"")
                 # save the user's quick reply to the conversation database
                 timestamp = strftime("%Y-%m-%d %H:%M:%S", localtime())
-                record_id = db.insert_conversation(mysql, sender_id, CHATBOT_ID, message_text, "postback: "+payload, timestamp)
-                chatbot.respond_to_payload(payload, sender_id, sender_firstname, qa_model, chatbot_text, template_conversation, mysql, cache)
+                uid = db.insert_conversation(mysql, sender_id, CHATBOT_ID, message_text, "postback: "+payload, timestamp)
+                chatbot.respond_to_payload(payload, sender_id, qa_model, chatbot_text, template_conversation, mysql, cache, uid)
 
             elif messaging_event.get("message"):
                 # user clicked/tapped "postback" button in earlier message
@@ -156,9 +162,9 @@ def webhook():
                     pretty_print("Message Text is \""+message_text+"\"")
                     # save the user's quick reply to the conversation database
                     timestamp = strftime("%Y-%m-%d %H:%M:%S", localtime())
-                    record_id = db.insert_conversation(mysql, sender_id, CHATBOT_ID, message_text, "quick_reply: "+payload, timestamp)
+                    uid = db.insert_conversation(mysql, sender_id, CHATBOT_ID, message_text, "quick_reply: "+payload, timestamp)
 
-                    chatbot.respond_to_payload(payload, sender_id, sender_firstname, qa_model, chatbot_text, template_conversation, mysql, cache)
+                    chatbot.respond_to_payload(payload, sender_id, qa_model, chatbot_text, template_conversation, mysql, cache, uid)
 
                 # someone sent us a message
                 elif not "text" in messaging_event["message"]:
@@ -171,8 +177,8 @@ def webhook():
                     pretty_print("Message Text is \""+message_text+"\"")
                     # save the user's free reply to the conversation database
                     timestamp = strftime("%Y-%m-%d %H:%M:%S", localtime())
-                    record_id = db.insert_conversation(mysql, sender_id, CHATBOT_ID, message_text, "user typing", timestamp)
-                    chatbot.respond_to_messagetext(message_text, sender_id, qa_model, chatbot_text, template_conversation, mysql, cache)
+                    uid = db.insert_conversation(mysql, sender_id, CHATBOT_ID, message_text, "user typing", timestamp)
+                    chatbot.respond_to_messagetext(message_text, sender_id, qa_model, chatbot_text, template_conversation, mysql, cache, uid)
     return "ok", 200
 
 

@@ -85,7 +85,7 @@ def send_quick_reply(mysql, recipient_id, template_conversation, quick_reply_dat
     timestamp = strftime("%Y-%m-%d %H:%M:%S", localtime())
     uid = db.insert_conversation(mysql, CHATBOT_ID, recipient_id, dialogue, "bot: quick reply", timestamp)
     # return timestamp and uid so that we can log the information in the [user_history] dataset when the bot sends a question
-    return timestamp, uid
+    return uid
 
     # data = json.loads(data)
     # insert_score(mysql, recipient_id, -1, data["message"]["text"], 0)
