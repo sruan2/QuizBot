@@ -22,7 +22,7 @@ def insert_conversation(mysql, sender, receiver, dialog, tp, time_stamp):
         cur.execute("SELECT LAST_INSERT_ID()")
         uid = cur.fetchall()[0][0]
         con.commit()
-        pretty_print("Insert into [conversation]", mode="Database")
+        #pretty_print("Insert into [conversation]", mode="Database")
         return uid
     except:
         con.rollback()
@@ -30,14 +30,14 @@ def insert_conversation(mysql, sender, receiver, dialog, tp, time_stamp):
         return None # To indicate a bug
 
 
-def insert_user_history(mysql, user_id, qid, subject, begin_timestamp, begin_uid):
+def insert_user_history(mysql, user_id, qid, subject, begin_uid):
     '''Insert (partial) user history record into user_history table.
     This operation is called when the app sends the user a question'''
     try:
         con = mysql.connection
         cur = con.cursor()
-        cur.execute("INSERT INTO user_history (user_id, qid, subject, begin_timestamp, begin_uid) VALUES (%s, %s, %s, %s, %s);",
-                    (user_id, qid, subject, begin_timestamp, begin_uid))
+        cur.execute("INSERT INTO user_history (user_id, qid, subject, begin_uid) VALUES (%s, %s, %s, %s);",
+                    (user_id, qid, subject, begin_uid))
         con.commit()
         pretty_print("Insert into [user_history]", mode="Database")
     except:
@@ -47,20 +47,26 @@ def insert_user_history(mysql, user_id, qid, subject, begin_timestamp, begin_uid
 
 def show_last_begin_uid(mysql, user_id):
     '''Retrieve begin_uid based on user_id'''
-    cur = mysql.connection.cursor()
-    cur.execute(
-        "SELECT begin_uid from user_history where user_id = %s order by begin_timestamp desc limit 1", [user_id])
-    rows = cur.fetchall()
-    return rows[0]
-
-
-def update_user_history(mysql, user_id, score, end_uid, end_timestamp):
-    '''Updating user_history table: add score, end_uid, end_timestamp entries'''
-    begin_uid = show_last_begin_uid(mysql, user_id)
     try:
         con = mysql.connection
         cur = con.cursor()
-        cur.execute("UPDATE table_name SET score = %s, end_timestamp = %s WHERE begin_uid = %s;", (score, end_timestamp, begin_uid))
+        cur.execute(
+            "SELECT begin_uid from user_history where user_id = %s order by begin_timestamp desc limit 1", [user_id])
+        rows = cur.fetchall()
+        return rows[0][0]
+    except:
+        con.rollback()
+        pretty_print("Error in retrieving begin_uid from [user_history]", mode="BUG!")
+        return None
+
+
+def update_user_history(mysql, user_id, score, tp, begin_uid, end_uid):
+    '''Updating user_history table: add score, end_uid entries'''
+    print(begin_uid)
+    try:
+        con = mysql.connection
+        cur = con.cursor()
+        cur.execute("UPDATE table_name SET score = %s type = %s end_uid = %s WHERE begin_uid = %s;", (score, tp, end_uid, begin_uid))
         con.commit()
         pretty_print("Update [user_history]", mode="Database")
     except:
