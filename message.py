@@ -49,8 +49,8 @@ def send_image(mysql, recipient_id, payload, chatbot_text, image_id):
         Returns:
     '''
     image_data = chatbot_text[payload]["image"][image_id]
-    image_data["image_url"] = image_data["image_url"].format(
-        os.environ["PORT"])
+    image_data["image_url"].shuffle()
+    image_data["image_url"] = image_data["image_url"][0].format(os.environ["PORT"])
     messaging_API.send_image(mysql, recipient_id, image_data)
 
 
@@ -203,8 +203,7 @@ def send_correct_answer(mysql, recipient_id, payload, template_conversation, qa_
     standard_answer = qa_model.getAnswer(QID)
     # insert_score(mysql, recipient_id, QID, payload, score)
     # insert_conversation(mysql, recipient_id, QID, "user_typing", "subject", payload, score)
-    send_format_quick_reply_text(
-        mysql, recipient_id, template_conversation, "CORRECT_ANSWER", standard_answer)
+    send_format_quick_reply_text(mysql, recipient_id, template_conversation, "CORRECT_ANSWER", standard_answer)
     db.update_status(mysql, recipient_id, 1)
 
 # insert_conversation(mysql, sender_id, receiver_id, dialog, type, timestamp, qid, score)
@@ -246,8 +245,16 @@ def send_total_score(recipient_id, template_conversation, total_score):
         Returns:
             None
     '''
-    send_format_quick_reply_text(
-        mysql, recipient_id, template_conversation, "TOTAL_SCORE", total_score)
+    send_format_quick_reply_text(mysql, recipient_id, template_conversation, "TOTAL_SCORE", total_score)
+
+
+# def send_congratulation_image(recipient_id, template_conversation):
+#     if random.random() < 0.1:
+#         template_conversation["STATE"]["CONGRATULATION"]["image_url"].format()
+
+
+
+
 
 
 def send_hint(mysql, recipient_id, qa_model):

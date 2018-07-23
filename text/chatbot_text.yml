@@ -9,7 +9,7 @@ GET_INTRO_1:
       template_type: 
         image
       image_url: 
-        https://www.smartprimer.org:{}/pictures/avatar/quizbot_avatar.png
+        - https://www.smartprimer.org:{}/pictures/avatar/quizbot_avatar.png
 
 GET_INTRO_2:
   conversation:
@@ -41,7 +41,7 @@ GET_INTRO_3:
       template_type: 
         image
       image_url: 
-        https://www.smartprimer.org:{}/pictures/user_manual/typeanswer.png
+        - https://www.smartprimer.org:{}/pictures/user_manual/typeanswer.png
   conversation:
     conversation_1:
       message:
@@ -63,12 +63,12 @@ GET_INTRO_4:
       template_type: 
         image
       image_url: 
-        https://www.smartprimer.org:{}/pictures/user_manual/needhintbutton.png
+        - https://www.smartprimer.org:{}/pictures/user_manual/needhintbutton.png
     image_2:
       template_type: 
         image
       image_url: 
-        https://www.smartprimer.org:{}/pictures/user_manual/hintoptions.png
+        - https://www.smartprimer.org:{}/pictures/user_manual/hintoptions.png
   conversation:
     conversation_1:
       message:
@@ -95,7 +95,7 @@ GET_INTRO_5:
       template_type: 
         image
       image_url: 
-        https://www.smartprimer.org:{}/pictures/user_manual/menubutton.jpg
+        - https://www.smartprimer.org:{}/pictures/user_manual/menubutton.jpg
   conversation:
     conversation_1:
       message:
@@ -117,7 +117,7 @@ USER_MANUAL_1:
       template_type: 
         image
       image_url: 
-        https://www.smartprimer.org:{}/pictures/user_manual/typeanswer.png
+        - https://www.smartprimer.org:{}/pictures/user_manual/typeanswer.png
   conversation:
     conversation_1:
       message:
@@ -139,12 +139,12 @@ USER_MANUAL_2:
       template_type: 
         image
       image_url: 
-        https://www.smartprimer.org:{}/pictures/user_manual/needhintbutton.png
+        - https://www.smartprimer.org:{}/pictures/user_manual/needhintbutton.png
     image_2:
       template_type: 
         image
       image_url: 
-        https://www.smartprimer.org:{}/pictures/user_manual/hintoptions.png
+        - https://www.smartprimer.org:{}/pictures/user_manual/hintoptions.png
   conversation:
     conversation_1:
       message:
@@ -170,7 +170,7 @@ USER_MANUAL_3:
       template_type: 
         image
       image_url: 
-        https://www.smartprimer.org:{}/pictures/user_manual/menubutton.jpg
+        - https://www.smartprimer.org:{}/pictures/user_manual/menubutton.jpg
   conversation:
     conversation_1:
       message:
@@ -192,12 +192,12 @@ USER_MANUAL_4:
       template_type: 
         image
       image_url: 
-        https://www.smartprimer.org:{}/pictures/user_manual/changesubjects_1.jpg
+        - https://www.smartprimer.org:{}/pictures/user_manual/changesubjects_1.jpg
     image_2:
       template_type: 
         image
       image_url: 
-        https://www.smartprimer.org:{}/pictures/user_manual/changesubjects_2.jpg
+        - https://www.smartprimer.org:{}/pictures/user_manual/changesubjects_2.jpg
   conversation:
     conversation_1:
       message:
@@ -219,22 +219,14 @@ USER_MANUAL_5:
       template_type: 
         image
       image_url: 
-<<<<<<< HEAD
-        https://www.smartprimer.org:{}/pictures/user_manual/chatwithmebutton.png
-=======
-        https://www.smartprimer.org:{}/pictures/user_manual/totalscorebutton.png
->>>>>>> 6cf817f919ae6c29d7b6580f788ca2dc2549b4d7
+        - https://www.smartprimer.org:{}/pictures/user_manual/chatwithme.png
   conversation:
     conversation_1:
       message:
         - source:
             LOCAL
           text:
-<<<<<<< HEAD
             You can hear jokes from me by clicking the Chat with Me button. 🐧
-=======
-            You can track your learning progress by clicking on the menu button to see your total score. 📝
->>>>>>> 6cf817f919ae6c29d7b6580f788ca2dc2549b4d7
       quick_reply:
         source:
           - TEMPLATE
@@ -249,7 +241,7 @@ USER_MANUAL_6:
       template_type: 
         image
       image_url: 
-        https://www.smartprimer.org:{}/pictures/user_manual/morebutton.png
+        - https://www.smartprimer.org:{}/pictures/user_manual/morebutton.png
   conversation:
     conversation_1:
       message:
@@ -289,7 +281,6 @@ CONTACT:
             LOCAL
           text:
             If you have any questions, please contact the Protocol Director, Sherry Ruan at ssruan@stanford.edu, or Liwei Jiang at ljiang@colby.edu.
-
       quick_reply:
         source:
           - TEMPLATE
@@ -500,22 +491,22 @@ RANDOM:
       template_type: 
         image
       image_url: 
-        https://www.smartprimer.org:{}/pictures/avatar/evolvesafety_normal.gif
+        - https://www.smartprimer.org:{}/pictures/avatar/evolvesafety_normal.gif
     SCIENCE:
       template_type: 
         image
       image_url: 
-        https://www.smartprimer.org:{}/pictures/avatar/evolvescientist_normal.gif
+        - https://www.smartprimer.org:{}/pictures/avatar/evolvescientist_normal.gif
     GRE:
       template_type: 
         image
       image_url: 
-        https://www.smartprimer.org:{}/pictures/avatar/evolvereading_normal.gif
+        - https://www.smartprimer.org:{}/pictures/avatar/evolvereading_normal.gif
     NORMAL:
       template_type: 
         image
       image_url: 
-        https://www.smartprimer.org:{}/pictures/avatar/celebration.gif
+        - https://www.smartprimer.org:{}/pictures/avatar/celebration.gif
 
 
 NEED_HINT:
@@ -561,6 +552,16 @@ BUTTON_AKB:
           TEMPLATE
         text:
           CORRECT_HINT  
+  image:
+    image_1:
+        template_type: 
+          image
+        image_url: 
+          - https://www.smartprimer.org:{}/pictures/avatar/celebration.gif
+          - https://www.smartprimer.org:{}/pictures/avatar/penguinnormal_happy.png
+          - https://www.smartprimer.org:{}/pictures/avatar/penguinnormal_jubilated.png
+          - https://www.smartprimer.org:{}/pictures/avatar/penguinnormal_normal.png
+        
 
 CHAT_WITH_ME:
   conversation:
@@ -602,28 +603,28 @@ JOKE:
           - NEXT_QUESTION     
 
 
-NEED_HINT: 
-  conversation:
-    conversation_1:
-      message:
-        - source:
-            TEMPLATE
-          text:
-            GIVE_JOKE
-        - source:
-            TEMPLATE
-          text:
-            JOKE
-      quick_reply:
-        source:
-          - TEMPLATE
-          - LOCAL
-        title:
-          - ANOTHER_JOKE
-          - Continue Learning 💪🏼
-        payload:
-          - JOKE
-          - NEXT_QUESTION       
+# NEED_HINT: 
+#   conversation:
+#     conversation_1:
+#       message:
+#         - source:
+#             TEMPLATE
+#           text:
+#             GIVE_JOKE
+#         - source:
+#             TEMPLATE
+#           text:
+#             JOKE
+#       quick_reply:
+#         source:
+#           - TEMPLATE
+#           - LOCAL
+#         title:
+#           - ANOTHER_JOKE
+#           - Continue Learning 💪🏼
+#         payload:
+#           - JOKE
+#           - NEXT_QUESTION       
 
 
 

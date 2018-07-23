@@ -204,8 +204,8 @@ def respond_to_payload(payload, sender_id, sender_firstname, qa_model, chatbot_t
 
     elif payload[:10] == "BUTTON_AKB":
         send_paragraph(mysql, sender_id, payload[:10], chatbot_text, template_conversation, "paragraph_1")
-        send_correct_answer(mysql, sender_id, payload,
-                            template_conversation, qa_model, 3)
+        send_correct_answer(mysql, sender_id, payload, template_conversation, qa_model, 3)
+        send_image(mysql, sender_id, payload, chatbot_text, "image_1")
 
     elif payload == "NEED_HINT":
         send_paragraph(mysql, sender_id, payload, chatbot_text, template_conversation, "paragraph_1")
