@@ -602,32 +602,21 @@ JOKE:
           - JOKE
           - NEXT_QUESTION     
 
-
-# NEED_HINT: 
-#   conversation:
-#     conversation_1:
-#       message:
-#         - source:
-#             TEMPLATE
-#           text:
-#             GIVE_JOKE
-#         - source:
-#             TEMPLATE
-#           text:
-#             JOKE
-#       quick_reply:
-#         source:
-#           - TEMPLATE
-#           - LOCAL
-#         title:
-#           - ANOTHER_JOKE
-#           - Continue Learning 💪🏼
-#         payload:
-#           - JOKE
-#           - NEXT_QUESTION       
-
-
-
+NEED_HINT: 
+  conversation:
+    conversation_1:
+      message:
+        - source:
+            LOCAL
+          text:
+            "{}"
+      quick_reply:
+        source:
+          - LOCAL
+        title:
+          - I don’t know 😓
+        payload:
+          - I_DONT_KNOW
 
 MESSAGE_TEXT:
   paragraph:
