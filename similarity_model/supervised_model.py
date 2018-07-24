@@ -44,7 +44,7 @@ def to_float_dummies(scores, integer_scores):
 	return diffs
 
 # fit the unsupervised embedding model to the quizbot answer database
-def fit_model(glove_file):
+def fit_model(glove_file, json_file):
 	# open the file from pretrained vector model. This one is of size 100
 	with open(glove_file, 'rb') as pkl:
 		glove = pickle.load(pkl)
@@ -52,7 +52,6 @@ def fit_model(glove_file):
 
 	emb = EmbeddingVectorizer(word_vectors=glove, weighted=True, R=True)
 
-	json_file = '../QAdataset/questions_filtered_150_quizbot.json'
 	qa_kb = QAKnowlegeBase(json_file)
 
 	sentences = qa_kb.AKB
@@ -66,6 +65,8 @@ def fit_model(glove_file):
 
 # transform data to put into the NN model from word pairs to dot product and abstolute value
 def transform_data(emb, pair_one, pair_two):
+	pair_one = np.array(pair_one)
+	pair_two = np.array(pair_two)
 	vectors_one = emb.transform(pair_one)
 	vectors_two = emb.transform(pair_two)
 
@@ -117,7 +118,7 @@ def fit_supervised_model(model, emb, csv_file):
 			  metrics=['accuracy'])	
 
 	# sample_weight = np.array([1 if pair_scores[i] == 1 else 10 for i in range(len(pair_scores))])
-	model.fit([g1_dot_g2, g1_abs_g2], y, epochs=100, verbose=2, validation_split = 0)
+	model.fit([g1_dot_g2, g1_abs_g2], y, epochs=300, verbose=2, validation_split = 0)
 
 	return model
 
@@ -141,17 +142,24 @@ if __name__ == '__main__': # for testing
 
 	# file in the form of a dictionary {vocab word : numpy array} edit the Input size
 	glove_file = 'mittens_model.pkl'
+	json_file = '../QAdataset/questions_filtered_150_quizbot.json'
 
-	emb = fit_model(glove_file)
+	emb = fit_model(glove_file, json_file)
+
 	model = init_model()
 	model = fit_supervised_model(model, emb, csv_file)
+
+	model.save_weights('model_weights.h5')
+	# TODO: Save the model
+	with open('model_architecture.json', 'w') as f:
+		f.write(model.to_json())
 
 	build_heatmap(MESSAGES, 'heatmaps/semi_supervised_heatmap.png')
 	build_heatmap(EXAMPLE_MESSAGES, 'heatmaps/semi_supervised_example_heatmap.png')
 
 	# test various other pairs of words
-	test_pair_one = np.array(['you are right', 'you are right', 'true', 'yes', 'right', 'a mathemematician found a solution to the problem'])
-	test_pair_two = np.array(['you are correct', 'you are wrong', 'yes', 'yes', 'correct', 'A problem was solved by a young mathematician'])
+	test_pair_one = ['you are right', 'you are right', 'true', 'yes', 'right', 'a mathemematician found a solution to the problem']
+	test_pair_two = ['you are correct', 'you are wrong', 'yes', 'yes', 'correct', 'A problem was solved by a young mathematician']
 
 	test_scores = evaluate_model(model, emb, test_pair_one, test_pair_two)
 	# transform test scores so that its on a 0-1 scale
@@ -159,4 +167,3 @@ if __name__ == '__main__': # for testing
 
 	for i,j,k in zip(test_pair_one, test_pair_two, test_scores):
 		print('{}, {}, score: {}'.format(i,j,k))
-
