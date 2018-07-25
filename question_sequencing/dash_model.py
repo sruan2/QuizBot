@@ -4,9 +4,8 @@
 '''
 import numpy as np
 import time
-from queue import Queue
-from collections import defaultdict
 
+from collections import defaultdict
 from base_model import BaseSequencingModel
 
 np.random.seed(42)
@@ -14,14 +13,15 @@ np.random.seed(42)
 # set the weights for the windows, right now based on 1/sqrt(W-w+1)
 def window_weights(num_windows):
     weights = 1 / (np.arange(1, num_windows + 1, 1))**0.5
-    return weights[::-1] 
+    return weights[::-1]
 
 def sigmoid(x):
     return 1 / (1 + np.exp(-x))
 
 class DASHSequencingModel(BaseSequencingModel):
     '''Pick next question using leitner sequence model'''
-    def __init__(self, qa_kb, max_steps = 1000, num_windows = 100, threshold = 0.01, student_ability = 0, decay_student_ability = 0):
+    def __init__(self, qa_kb, max_steps=1000, num_windows=100, threshold=0.01,
+                 student_ability=0, decay_student_ability=0):
         BaseSequencingModel.__init__(self, qa_kb)
         self.num_items = self.QA_KB.KBlength
         self.num_windows = num_windows
@@ -29,12 +29,12 @@ class DASHSequencingModel(BaseSequencingModel):
         self.max_steps = max_steps
 
         # threshold indicates the value where we want to select recall probability closest to threshold
-        self.threshold = threshold 
+        self.threshold = threshold
 
         # mapping from user id to users current step
         self.curr_step = defaultdict(int)
-        self.curr_item = {} 
-        self.update_time = {} 
+        self.curr_item = {}
+        self.update_time = {}
         self.last_viewed = defaultdict(lambda: np.ones(self.num_items) * time.time())
         self.num_correct = defaultdict(lambda: np.zeros((self.num_items, self.num_windows)))
         self.num_attempts = defaultdict(lambda: np.zeros((self.num_items, self.num_windows)))
@@ -59,8 +59,8 @@ class DASHSequencingModel(BaseSequencingModel):
     def get_study_histories(self, user_id):
         curr_window = self.get_current_window(self.curr_step[user_id])
         # do calculations up to the current window
-        return (self.window_weights_cw[:,:curr_window]*np.log(1 + self.num_correct[user_id][:,:curr_window]) + 
-            self.window_weights_nw[:,:curr_window]*np.log(1 + self.num_attempts[user_id][:,:curr_window])).sum(axis = 1)
+        return (self.window_weights_cw[:,:curr_window]*np.log(1 + self.num_correct[user_id][:,:curr_window]) +
+                self.window_weights_nw[:,:curr_window]*np.log(1 + self.num_attempts[user_id][:,:curr_window])).sum(axis = 1)
 
     '''
     formula to get likelihoods m(1+r*D)^{-f})
@@ -114,7 +114,7 @@ class DASHSequencingModel(BaseSequencingModel):
         print('likelihood is ', likelihoods[self.curr_item[user_id]])
 
         QID = self.curr_item[user_id]
-        
+
         data = {'question' : self.QA_KB.QKB[QID],
                 'qid' : QID,
                 'correct_answer': self.QA_KB.AKB[QID],
@@ -129,7 +129,7 @@ class DASHSequencingModel(BaseSequencingModel):
             self.loadUserData(user_id)
             self.loaded_users.append(user_id)
 
-        if self.curr_step[user_id] % 5 == 0:
+        if self.curr_step[user_id] >= 0:
             return self.thresholdPickQuestion(user_id, subject)
         else:
             return self.pickRandomQuestion(user_id, subject)
