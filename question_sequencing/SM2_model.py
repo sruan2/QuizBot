@@ -94,9 +94,9 @@ class SM2SequencingModel(BaseSequencingModel):
     def loadUserData(self, user_id):
         pass
 
-    def updateHistory(self, outcome, user_id = 0):
+    def updateHistory(self, user_id, user_data):
+        qid, outcome, timestamp = user_data
         '''update the easiness factor and the history'''
-        question = self.cur_question[user_id]
-        subject = self.current_subject[user_id]
+        # question = self.cur_question[user_id]
 
-        self.updateParameters(question, outcome, user_id)
+        self.updateParameters(qid, outcome, user_id)

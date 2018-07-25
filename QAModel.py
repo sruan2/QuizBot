@@ -8,23 +8,36 @@ from abc import abstractmethod
 from gensim.models import Doc2Vec
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import linear_kernel
+from keras.models import model_from_json
 from nltk import RegexpTokenizer
 
 from utils import pretty_print
 from similarity_model.sif_implementation.wordembeddings import EmbeddingVectorizer
 from similarity_model.sif_implementation import utils
+from similarity_model import supervised_model
 #from similarity_model.princeton_sif import sif_sentence_similarity
 from question_sequencing.random_model import RandomSequencingModel
-
+from question_sequencing.leitner_model import LeitnerSequencingModel
+from question_sequencing.SM2_model import SM2SequencingModel
+from question_sequencing.dash_model import DASHSequencingModel
+from QAKnowledgebase import QAKnowlegeBase
 
 class QAModel(object):
     '''Base class of QAModel'''
 
-    def __init__(self, qa_kb):
+    def __init__(self, qa_kb, sequencing_model = 'random'):
         pretty_print("QAModel initialization", mode="QA Model")
         self.QID = 0
         self.QA_KB = qa_kb
-        self.sequencing_model = RandomSequencingModel(qa_kb)
+
+        if sequencing_model == 'dash':
+            self.sequencing_model = DASHSequencingModel(qa_kb)
+        elif sequencing_model == 'leitner':
+            self.sequencing_model = LeitnerSequencingModel(qa_kb)
+        elif sequencing_model == 'sm2':
+            self.sequencing_model = SM2SequencingModel(qa_kb)
+        else:
+            self.sequencing_model = RandomSequencingModel(qa_kb)
 
     # def pickSubjectRandomQuestion(self, subject):
     #     subject = subject.lower()
@@ -67,6 +80,31 @@ class QAModel(object):
 
     @abstractmethod
     def computeScore(self): pass
+
+class SupervisedSIFModeL(QAModel):
+    """semi supervised version of the SIF model"""
+    def __init__(self, qa_kb):
+        super(SupervisedSIFModeL, self).__init__(qa_kb)
+
+        # load the current architecture from json
+        with open('similarity_model/model_architecture.json', 'r') as f:
+            self.model = model_from_json(f.read())
+        self.model.load_weights('model_weights.h5')
+
+        # fit the embedding and load the glove model
+        glove_file = 'similarity_model/mittens_model.pkl'
+        json_file = 'QAdataset/questions_filtered_150_quizbot.json'
+        self.emb = similarity_model.fit_model(glove_file, json_file)
+
+    def computeScore(self, user_answer, QID):
+        user_answer = [user_answer.lower()]
+        picked_answer = [super(SupervisedSIFModeL, self).getAnswer(QID)]
+
+        # returns a score from 1 to 5 
+        similarity = evaluate_model(self.model, self.emb, user_answer, picked_answer)
+
+        # convert the score to appendn int between 0 and 10
+        return round((similarity - 1) * 10 / 4)
 
 
 class TFIDFModel(QAModel):
