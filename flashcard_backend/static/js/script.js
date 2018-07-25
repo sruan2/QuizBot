@@ -17,6 +17,7 @@ $('document').ready(
 
 function change(subject) {
     $subject = subject;
+    fetch_question();
     if (!$('#front').is(":visible")) {
         flip();
     }

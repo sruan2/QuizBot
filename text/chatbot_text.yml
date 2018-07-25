@@ -1,7 +1,7 @@
 # chatbot_text.yml
 # Author: Liwei Jiang
 # Date: 03/07/2018
-# Usage: yaml file containts the chatbot sources
+# Usage: yaml file containting the chatbot sources for all payloads
 
 GET_INTRO_1:
   image:
@@ -26,7 +26,7 @@ GET_INTRO_2:
         - source:
             LOCAL
           text:
-            We will learn fun stuff together!
+            We will learn fun stuffs together!
       quick_reply:
         source:
           - TEMPLATE
@@ -351,16 +351,16 @@ YUP_IM_READY:
         title:
           - Quiz me 🤓
         payload:
-          - PRACTICE_MODE  
+          - SWITCH_SUBJECT  
 
 I_DONT_KNOW:
   conversation:
     conversation_1:
       message:
         - source:
-            LOCAL
+            TEMPLATE
           text:
-            Are you sure you want to give up?
+            IF_GIVE_UP
       quick_reply:
         source:
           - LOCAL
@@ -419,17 +419,17 @@ SCIENCE:
       template_type: 
         image
       image_url: 
-        https://www.smartprimer.org:{}/pictures/avatar/evolvesafety_scientist.gif
+        - https://www.smartprimer.org:{}/pictures/avatar/evolvesafety_scientist.gif
     GRE:
       template_type: 
         image
       image_url: 
-        https://www.smartprimer.org:{}/pictures/avatar/evolvereading_scientist.gif
+        - https://www.smartprimer.org:{}/pictures/avatar/evolvereading_scientist.gif
     NORMAL:
       template_type: 
         image
       image_url: 
-        https://www.smartprimer.org:{}/pictures/avatar/evolvenormal_scientist.gif 
+        - https://www.smartprimer.org:{}/pictures/avatar/evolvenormal_scientist.gif 
 
 GRE:
   paragraph:
@@ -443,17 +443,17 @@ GRE:
       template_type: 
         image
       image_url: 
-        https://www.smartprimer.org:{}/pictures/avatar/evolvesafety_reading.gif
+        - https://www.smartprimer.org:{}/pictures/avatar/evolvesafety_reading.gif
     SCIENCE:
       template_type: 
         image
       image_url: 
-        https://www.smartprimer.org:{}/pictures/avatar/evolvescientist_reading.gif
+        - https://www.smartprimer.org:{}/pictures/avatar/evolvescientist_reading.gif
     NORMAL:
       template_type: 
         image
       image_url: 
-        https://www.smartprimer.org:{}/pictures/avatar/evolvenormal_reading.gif
+        - https://www.smartprimer.org:{}/pictures/avatar/evolvenormal_reading.gif
 
 SAFETY:
   paragraph:
@@ -467,17 +467,17 @@ SAFETY:
       template_type: 
         image
       image_url: 
-        https://www.smartprimer.org:{}/pictures/avatar/evolvescientist_safety.gif
+        - https://www.smartprimer.org:{}/pictures/avatar/evolvescientist_safety.gif
     GRE:
       template_type: 
         image
       image_url: 
-        https://www.smartprimer.org:{}/pictures/avatar/evolvereading_safety.gif
+        - https://www.smartprimer.org:{}/pictures/avatar/evolvereading_safety.gif
     NORMAL:
       template_type: 
         image
       image_url: 
-        https://www.smartprimer.org:{}/pictures/avatar/evolvenormal_safety.gif
+        - https://www.smartprimer.org:{}/pictures/avatar/evolvenormal_safety.gif
 
 RANDOM:
   paragraph:
@@ -507,15 +507,6 @@ RANDOM:
         image
       image_url: 
         - https://www.smartprimer.org:{}/pictures/avatar/celebration.gif
-
-
-NEED_HINT:
-  paragraph:
-    paragraph_1:
-      - source:
-          TEMPLATE
-        text:
-          NEED_HINT  
 
 GIVEUP_YES:
   paragraph:
@@ -551,17 +542,8 @@ BUTTON_AKB:
       - source:
           TEMPLATE
         text:
-          CORRECT_HINT  
-  image:
-    image_1:
-        template_type: 
-          image
-        image_url: 
-          - https://www.smartprimer.org:{}/pictures/avatar/celebration.gif
-          - https://www.smartprimer.org:{}/pictures/avatar/penguinnormal_happy.png
-          - https://www.smartprimer.org:{}/pictures/avatar/penguinnormal_jubilated.png
-          - https://www.smartprimer.org:{}/pictures/avatar/penguinnormal_normal.png
-        
+          CORRECT_HINT 
+                  
 
 CHAT_WITH_ME:
   conversation:
@@ -606,6 +588,10 @@ NEED_HINT:
   conversation:
     conversation_1:
       message:
+        - source:
+            TEMPLATE
+          text:
+            NEED_HINT  
         - source:
             LOCAL
           text:
