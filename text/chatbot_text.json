@@ -31,17 +31,6 @@
         }
     }, 
     "BUTTON_AKB": {
-        "image": {
-            "image_1": {
-                "image_url": [
-                    "https://www.smartprimer.org:{}/pictures/avatar/celebration.gif", 
-                    "https://www.smartprimer.org:{}/pictures/avatar/penguinnormal_happy.png", 
-                    "https://www.smartprimer.org:{}/pictures/avatar/penguinnormal_jubilated.png", 
-                    "https://www.smartprimer.org:{}/pictures/avatar/penguinnormal_normal.png"
-                ], 
-                "template_type": "image"
-            }
-        }, 
         "paragraph": {
             "paragraph_1": [
                 {
@@ -154,7 +143,7 @@
                     }, 
                     {
                         "source": "LOCAL", 
-                        "text": "We will learn fun stuff together!"
+                        "text": "We will learn fun stuffs together!"
                     }
                 ], 
                 "quick_reply": {
@@ -328,15 +317,21 @@
     "GRE": {
         "image": {
             "NORMAL": {
-                "image_url": "https://www.smartprimer.org:{}/pictures/avatar/evolvenormal_reading.gif", 
+                "image_url": [
+                    "https://www.smartprimer.org:{}/pictures/avatar/evolvenormal_reading.gif"
+                ], 
                 "template_type": "image"
             }, 
             "SAFETY": {
-                "image_url": "https://www.smartprimer.org:{}/pictures/avatar/evolvesafety_reading.gif", 
+                "image_url": [
+                    "https://www.smartprimer.org:{}/pictures/avatar/evolvesafety_reading.gif"
+                ], 
                 "template_type": "image"
             }, 
             "SCIENCE": {
-                "image_url": "https://www.smartprimer.org:{}/pictures/avatar/evolvescientist_reading.gif", 
+                "image_url": [
+                    "https://www.smartprimer.org:{}/pictures/avatar/evolvescientist_reading.gif"
+                ], 
                 "template_type": "image"
             }
         }, 
@@ -354,8 +349,8 @@
             "conversation_1": {
                 "message": [
                     {
-                        "source": "LOCAL", 
-                        "text": "Are you sure you want to give up?"
+                        "source": "TEMPLATE", 
+                        "text": "IF_GIVE_UP"
                     }
                 ], 
                 "quick_reply": {
@@ -449,13 +444,30 @@
         }
     }, 
     "NEED_HINT": {
-        "paragraph": {
-            "paragraph_1": [
-                {
-                    "source": "TEMPLATE", 
-                    "text": "NEED_HINT"
+        "conversation": {
+            "conversation_1": {
+                "message": [
+                    {
+                        "source": "TEMPLATE", 
+                        "text": "NEED_HINT"
+                    }, 
+                    {
+                        "source": "LOCAL", 
+                        "text": "{}"
+                    }
+                ], 
+                "quick_reply": {
+                    "payload": [
+                        "I_DONT_KNOW"
+                    ], 
+                    "source": [
+                        "LOCAL"
+                    ], 
+                    "title": [
+                        "I don\u2019t know \ud83d\ude13"
+                    ]
                 }
-            ]
+            }
         }
     }, 
     "RANDOM": {
@@ -523,15 +535,21 @@
     "SAFETY": {
         "image": {
             "GRE": {
-                "image_url": "https://www.smartprimer.org:{}/pictures/avatar/evolvereading_safety.gif", 
+                "image_url": [
+                    "https://www.smartprimer.org:{}/pictures/avatar/evolvereading_safety.gif"
+                ], 
                 "template_type": "image"
             }, 
             "NORMAL": {
-                "image_url": "https://www.smartprimer.org:{}/pictures/avatar/evolvenormal_safety.gif", 
+                "image_url": [
+                    "https://www.smartprimer.org:{}/pictures/avatar/evolvenormal_safety.gif"
+                ], 
                 "template_type": "image"
             }, 
             "SCIENCE": {
-                "image_url": "https://www.smartprimer.org:{}/pictures/avatar/evolvescientist_safety.gif", 
+                "image_url": [
+                    "https://www.smartprimer.org:{}/pictures/avatar/evolvescientist_safety.gif"
+                ], 
                 "template_type": "image"
             }
         }, 
@@ -547,15 +565,21 @@
     "SCIENCE": {
         "image": {
             "GRE": {
-                "image_url": "https://www.smartprimer.org:{}/pictures/avatar/evolvereading_scientist.gif", 
+                "image_url": [
+                    "https://www.smartprimer.org:{}/pictures/avatar/evolvereading_scientist.gif"
+                ], 
                 "template_type": "image"
             }, 
             "NORMAL": {
-                "image_url": "https://www.smartprimer.org:{}/pictures/avatar/evolvenormal_scientist.gif", 
+                "image_url": [
+                    "https://www.smartprimer.org:{}/pictures/avatar/evolvenormal_scientist.gif"
+                ], 
                 "template_type": "image"
             }, 
             "SAFETY": {
-                "image_url": "https://www.smartprimer.org:{}/pictures/avatar/evolvesafety_scientist.gif", 
+                "image_url": [
+                    "https://www.smartprimer.org:{}/pictures/avatar/evolvesafety_scientist.gif"
+                ], 
                 "template_type": "image"
             }
         }, 
@@ -808,7 +832,7 @@
                 ], 
                 "quick_reply": {
                     "payload": [
-                        "PRACTICE_MODE"
+                        "SWITCH_SUBJECT"
                     ], 
                     "source": [
                         "LOCAL"

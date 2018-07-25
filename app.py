@@ -96,7 +96,7 @@ def webhook():
             # the facebook ID of the person sending you the message
             sender_id = messaging_event["sender"]["id"]
             # Sherry: don't need this anymore because we can disable it in Facebook Developer Setting
-            if sender_id == CHATBOT_ID: # return if this message is sent from the chatbot
+            if sender_id == CHATBOT_ID:  # return if this message is sent from the chatbot
                 return "Chatbot ID", 200
             # the recipient's ID, which should be your page's facebook ID
             recipient_id = messaging_event["recipient"]["id"]
@@ -106,63 +106,72 @@ def webhook():
             sender_firstname = data['first_name']
             sender_lastname = data['last_name']
 
-            # first-time user
-            # if not int(sender_id) in db.show_user_id_list(mysql):
-            #     pretty_print('This is a new user!', mode='QuizBot')
-            #     pretty_print('{} {}'.format(sender_firstname, sender_lastname))
-            #     db.insert_user(mysql, sender_id, sender_firstname, sender_lastname)
-
             # Check if the user is in cache already
             if not sender_id in cache:
                 # Check if the user is in database
                 if int(sender_id) in db.show_user_id_list(mysql):
-                    pretty_print('Retrieve the user from [user]', mode='database')
-                    pretty_print('{} {}'.format(sender_firstname, sender_lastname))
-                    subject = db.get_current_subject(mysql, sender_id)
+                    subject = db.show_current_subject(mysql, sender_id)
+                    qid = db.show_current_qid(mysql, sender_id)
                     begin_uid = db.show_last_begin_uid(mysql, sender_id)
+                    pretty_print('Retrieve the user from [user]', mode='Database')
+                    pretty_print('{} {}'.format(sender_firstname, sender_lastname))
                     cache[sender_id] = {'firstname': sender_firstname,
-                                        'current_qid': None,
+                                        'current_qid': qid,
                                         'current_subject': subject,
-                                        'begin_uid': begin_uid}
+                                        'begin_uid': begin_uid,
+                                        'waiting_for_answer': 0}
                     pretty_print('Insert the user into cache', mode='Cache')
+                    user_history_data = db.show_user_history(mysql, sender_id) # tuple of (qid, score, time_stamp)
+                    pretty_print('Retrieve the user history from [user_history]', mode='Database')
+                    # qa_model.loadUserData(sender_id, user_history_data)
+                    pretty_print('Pass the user history to the QAModel', mode='QAModel')
                 # Insert the user into database and cache if it doesn't exist yet.
                 else:
                     db.insert_user(mysql, sender_id, sender_firstname, sender_lastname)
-                    pretty_print('Insert a user into [user]', mode='database')
-                    pretty_print('{} {}'.format(sender_firstname, sender_lastname))
+                    pretty_print('Insert a user into [user]', mode='Database')
+                    pretty_print('{} {}'.format(
+                        sender_firstname, sender_lastname))
                     cache[sender_id] = {'firstname': sender_firstname,
                                         'current_qid': None,
                                         'current_subject': None,
-                                        'begin_uid': None}
+                                        'begin_uid': None,
+                                        'waiting_for_answer': 0}
                     pretty_print('Insert a user into cache', mode='Cache')
+
                 pretty_print('firstname: '+str(cache[sender_id]['firstname']))
                 pretty_print('current_qid: '+str(cache[sender_id]['current_qid']))
                 pretty_print('current_subject: '+str(cache[sender_id]['current_subject']))
                 pretty_print('begin_uid: '+str(cache[sender_id]['begin_uid']))
+                pretty_print('waiting_for_answer: '+str(cache[sender_id]['waiting_for_answer']))
 
             # User clicked/tapped "postback" button in Persistent menu
             if messaging_event.get("postback"):
-                payload = messaging_event["postback"]["payload"] # the button's payload
-                message_text = messaging_event["postback"]["title"]  # the button's text
-                pretty_print("Received a Postback from Persistent Menu", mode='QuizBot')
+                # the button's payload
+                payload = messaging_event["postback"]["payload"]
+                # the button's text
+                message_text = messaging_event["postback"]["title"]
+                pretty_print(
+                    "Received a Postback from Persistent Menu", mode='QuizBot')
                 pretty_print("Payload is \""+payload+"\"")
                 pretty_print("Message Text is \""+message_text+"\"")
                 # save the user's quick reply to the conversation database
                 timestamp = strftime("%Y-%m-%d %H:%M:%S", localtime())
-                uid = db.insert_conversation(mysql, sender_id, CHATBOT_ID, message_text, "postback: "+payload, timestamp)
+                uid = db.insert_conversation(mysql, sender_id, CHATBOT_ID, message_text, "persistent_menu: "+payload, timestamp)
                 chatbot.respond_to_payload(payload, sender_id, qa_model, chatbot_text, template_conversation, mysql, cache, uid)
 
             elif messaging_event.get("message"):
                 # user clicked/tapped "postback" button in earlier message
                 if "quick_reply" in messaging_event.get("message"):
-                    payload = messaging_event["message"]["quick_reply"]["payload"] # the button's payload
-                    message_text = messaging_event["message"]["text"]  # the button's text
+                    # the button's payload
+                    payload = messaging_event["message"]["quick_reply"]["payload"]
+                    # the button's text
+                    message_text = messaging_event["message"]["text"]
                     pretty_print("Received a quick reply from an earlier message", mode="QuizBot")
                     pretty_print("Payload is \""+payload+"\"")
                     pretty_print("Message Text is \""+message_text+"\"")
                     # save the user's quick reply to the conversation database
                     timestamp = strftime("%Y-%m-%d %H:%M:%S", localtime())
-                    uid = db.insert_conversation(mysql, sender_id, CHATBOT_ID, message_text, "quick_reply: "+payload, timestamp)
+                    uid = db.insert_conversation(mysql, sender_id, CHATBOT_ID, message_text, "user_quick_reply: "+payload, timestamp)
 
                     chatbot.respond_to_payload(payload, sender_id, qa_model, chatbot_text, template_conversation, mysql, cache, uid)
 
@@ -177,7 +186,7 @@ def webhook():
                     pretty_print("Message Text is \""+message_text+"\"")
                     # save the user's free reply to the conversation database
                     timestamp = strftime("%Y-%m-%d %H:%M:%S", localtime())
-                    uid = db.insert_conversation(mysql, sender_id, CHATBOT_ID, message_text, "user typing", timestamp)
+                    uid = db.insert_conversation(mysql, sender_id, CHATBOT_ID, message_text, "user_typing", timestamp)
                     chatbot.respond_to_messagetext(message_text, sender_id, qa_model, chatbot_text, template_conversation, mysql, cache, uid)
     return "ok", 200
 
@@ -195,7 +204,9 @@ def _get_user_profile(sender_id):
 
 # ================== SET UP ==================
 def yaml_to_json(chatbot_text_file_name, template_conversation_file_name):
-    '''TODO: add docstring'''
+    '''
+        This function converts the chatbot conversation and source yaml files to json format.
+    '''
     with open(chatbot_text_file_name + ".yml", 'r') as stream:
         try:
             data = yaml.load(stream)
@@ -214,7 +225,9 @@ def yaml_to_json(chatbot_text_file_name, template_conversation_file_name):
 
 
 def load_source(chatbot_text_file_name, template_conversation_file_name):
-    '''TODO: add docstring'''
+    '''
+        This function loads the chatbot conversation and source yaml files.
+    '''
     with open(chatbot_text_file_name + ".json") as data_file:
         chatbot_text = json.load(data_file)
     with open(template_conversation_file_name + ".json") as data_file:
@@ -233,13 +246,16 @@ def setup(chatbot_text):
     message.persistent_menu(template_conversation)
     pretty_print("Persistent menu loaded", mode="Initialization")
 
+
 # Sherry: can we move this to main function?
 with app.app_context():
     # Load conversation source text file
-    chatbot_text, template_conversation = load_source("text/chatbot_text", "text/template_conversation")
+    chatbot_text, template_conversation = load_source(
+        "text/chatbot_text", "text/template_conversation")
 
     reminder_object = reminder.Reminder(template_conversation, mysql)
-    active_list = db.show_users_newly_added(mysql) + [(1850388251650155, 'Liwei'), (1139924072777403, 'Sherry'), (1805880356153906, 'Nathan')]
+    active_list = db.show_users_newly_added(
+        mysql) + [(1850388251650155, 'Liwei'), (1139924072777403, 'Sherry'), (1805880356153906, 'Nathan')]
     reminder.RepeatedTimer(86400, reminder_object.send_reminder, active_list)
 
 
@@ -251,6 +267,7 @@ if __name__ == '__main__':
     json_file = 'QAdataset/questions_filtered_150_quizbot.json'
     qa_kb = QAKnowlegeBase(json_file)
     model = os.environ["MODEL"]
+    # question_sequencing = 'ssss'
     if model == "TFIDF":
         qa_model = QAModel.TFIDFModel(qa_kb)
     elif model == "SIF":
@@ -264,4 +281,5 @@ if __name__ == '__main__':
                '/etc/letsencrypt/live/smartprimer.org/privkey.pem')
 
     pretty_print('============ Run App ============', mode='App')
-    app.run(host='0.0.0.0', threaded=True, debug=True, use_reloader=False, ssl_context=context, port=int(os.environ["PORT"]))
+    app.run(host='0.0.0.0', threaded=True, debug=True, use_reloader=False,
+            ssl_context=context, port=int(os.environ["PORT"]))

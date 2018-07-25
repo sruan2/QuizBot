@@ -23,7 +23,7 @@ class BaseSequencingModel():
         self.loaded_users = []
 
     @abstractmethod
-    def loadUserData(self, user_id = 0):
+    def loadUserData(self, user_id, user_history_data): # user_history_data is a list of tuples (qid, score, time_stamp)
         pass
 
     @abstractmethod
@@ -38,7 +38,7 @@ class BaseSequencingModel():
 
 
     @abstractmethod
-    def updateHistory(self, outcome, user_id = 0):
+    def updateHistory(self, user_id, user_data): # user_data is a tuple (qid, score, time_stamp)
         # TODO:
         # a history of correctness
         pass

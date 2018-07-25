@@ -1,8 +1,15 @@
+'''
+    chatbot.py
+    Author: Liwei Jiang, Sherry Ruan, Zhengneng Qiu
+    Date: 24/07/2018
+    Usage: Receiving and sending messages between the users and the chatbot.
+'''
+
 # coding: utf8
 import time
-#from leaderboard.generate_leaderboard import *
+import database as db
 from message import *
-from database import *
+import utils
 
 
 def respond_to_payload(payload, sender_id, qa_model, chatbot_text, template_conversation, mysql, cache, uid):
@@ -12,21 +19,20 @@ def respond_to_payload(payload, sender_id, qa_model, chatbot_text, template_conv
         Args:
             payload: chatbot's payload state
             sender_id: the sender's unique id assigned by Facebook Messenger
-            qa_model: the question answering model containing information about
-                the question dataset
-            chatbot_text: the json structure containing the chatbot's
-                text/conversation source
-            template_conversation: the json structure containing the
-                conversation and state templates
+            qa_model: the question answering model containing information about the question dataset
+            chatbot_text: the json structure containing the chatbot's text/conversation source
+            template_conversation: the json structure containing the conversation and state templates
             mysql: database
-            cache: a dictionary containing the information in memory such as
-                current_qid and current_subject needed for the quizbot
-            uid: unique id in [conversation] database for this conversation
+            cache: a dictionary containing the information in memory such as current_qid and current_subject needed for the quizbot
+            uid: unique id in [conversation] table of the [QUIZBOT_DEV] database for this conversation
 
         Returns:
             None
     '''
+    if cache[sender_id]["waiting_for_answer"] and payload in ["I_DONT_KNOW", "NEED_HINT"]:
+        utils.update_cache(cache, sender_id, waiting_for_answer=0)
 
+    # ---------------------------- INTRO ----------------------------
     if payload == "GET_INTRO_1":
         send_image(mysql, sender_id, payload, chatbot_text, "image_1")
         sender_firstname = cache[sender_id]['firstname']
@@ -57,11 +63,10 @@ def respond_to_payload(payload, sender_id, qa_model, chatbot_text, template_conv
                           template_conversation, "conversation_1")
 
     elif payload == "YUP_IM_READY":
-        update_status(mysql, sender_id, 1)
-        insert_question(mysql, sender_id, -1, payload)
         send_conversation(mysql, sender_id, payload, chatbot_text,
                           template_conversation, "conversation_1")
 
+    # ------------------------- USER_MANUAL -------------------------
     elif payload == "USER_MANUAL_1":
         send_image(mysql, sender_id, payload, chatbot_text, "image_1")
         send_conversation(mysql, sender_id, payload, chatbot_text,
@@ -84,9 +89,10 @@ def respond_to_payload(payload, sender_id, qa_model, chatbot_text, template_conv
         send_conversation(mysql, sender_id, payload, chatbot_text,
                           template_conversation, "conversation_1")
 
-    # elif payload == "USER_MANUAL_5":
-    #     send_image(mysql, sender_id, payload, chatbot_text, "image_1")
-    #     send_conversation(mysql, sender_id, payload, chatbot_text, template_conversation, "conversation_1")
+    elif payload == "USER_MANUAL_5":
+        send_image(mysql, sender_id, payload, chatbot_text, "image_1")
+        send_conversation(mysql, sender_id, payload, chatbot_text,
+                          template_conversation, "conversation_1")
 
     elif payload == "USER_MANUAL_6":
         send_image(mysql, sender_id, payload, chatbot_text, "image_1")
@@ -94,6 +100,134 @@ def respond_to_payload(payload, sender_id, qa_model, chatbot_text, template_conv
                           template_conversation, "conversation_1")
 
     elif payload == "USER_MANUAL_7":
+        send_conversation(mysql, sender_id, payload, chatbot_text,
+                          template_conversation, "conversation_1")
+
+    # --------------------- REQUEST A QUESTION ----------------------
+    elif payload == "SCIENCE":
+        if cache[sender_id]["current_subject"] == "safety":
+            send_image(mysql, sender_id, payload, chatbot_text, "SAFETY")
+        elif cache[sender_id]["current_subject"] == "gre":
+            send_image(mysql, sender_id, payload, chatbot_text, "GRE")
+        elif cache[sender_id]["current_subject"] == "random":
+            send_image(mysql, sender_id, payload, chatbot_text, "NORMAL")
+
+        send_paragraph(mysql, sender_id, payload, chatbot_text,
+                       template_conversation, "paragraph_1")
+
+        db.update_user_current_subject(mysql, sender_id, "science")
+        utils.update_cache(cache, sender_id, current_subject="science", waiting_for_answer=1)
+        send_question(mysql, sender_id, template_conversation, qa_model, cache)
+
+    elif payload == "GRE":
+        if cache[sender_id]["current_subject"] == "science":
+            send_image(mysql, sender_id, payload, chatbot_text, "SCIENCE")
+        elif cache[sender_id]["current_subject"] == "safety":
+            send_image(mysql, sender_id, payload, chatbot_text, "SAFETY")
+        elif cache[sender_id]["current_subject"] == "random":
+            send_image(mysql, sender_id, payload, chatbot_text, "NORMAL")
+
+        send_paragraph(mysql, sender_id, payload, chatbot_text,
+                       template_conversation, "paragraph_1")
+
+        db.update_user_current_subject(mysql, sender_id, "gre")
+        utils.update_cache(cache, sender_id, current_subject="gre", waiting_for_answer=1)
+        send_question(mysql, sender_id, template_conversation, qa_model, cache)
+
+    elif payload == "SAFETY":
+        if cache[sender_id]["current_subject"] == "science":
+            send_image(mysql, sender_id, payload, chatbot_text, "SCIENCE")
+        elif cache[sender_id]["current_subject"] == "gre":
+            send_image(mysql, sender_id, payload, chatbot_text, "GRE")
+        elif cache[sender_id]["current_subject"] == "random":
+            send_image(mysql, sender_id, payload, chatbot_text, "NORMAL")
+
+        send_paragraph(mysql, sender_id, payload, chatbot_text,
+                       template_conversation, "paragraph_1")
+
+        db.update_user_current_subject(mysql, sender_id, "safety")
+        utils.update_cache(cache, sender_id, current_subject="safety", waiting_for_answer=1)
+        send_question(mysql, sender_id, template_conversation, qa_model, cache)
+
+    elif payload == "RANDOM":
+        if cache[sender_id]["current_subject"] == "science":
+            send_image(mysql, sender_id, payload, chatbot_text, "SCIENCE")
+        elif cache[sender_id]["current_subject"] == "safety":
+            send_image(mysql, sender_id, payload, chatbot_text, "SAFETY")
+        elif cache[sender_id]["current_subject"] == "gre":
+            send_image(mysql, sender_id, payload, chatbot_text, "GRE")
+
+        send_paragraph(mysql, sender_id, payload, chatbot_text,
+                       template_conversation, "paragraph_1")
+
+        db.update_user_current_subject(mysql, sender_id, "random")
+        utils.update_cache(cache, sender_id, current_subject="random", waiting_for_answer=1)
+        send_question(mysql, sender_id, template_conversation, qa_model, cache)
+        
+    elif payload == "NEXT_QUESTION":
+        utils.update_cache(cache, sender_id, waiting_for_answer=1)
+        send_question(mysql, sender_id, template_conversation, qa_model, cache)
+        
+    # ---------------------- ANSWER A QUESTION ----------------------
+    elif payload == "NEED_HINT":
+        send_hint(mysql, sender_id, chatbot_text,
+                  template_conversation, qa_model, cache)
+
+    elif payload == "I_DONT_KNOW":
+        send_conversation(mysql, sender_id, payload, chatbot_text,
+                          template_conversation, "conversation_1")
+
+    # ---------------------- EVALUATE AN ANSWER ---------------------
+    elif payload[:10] == "BUTTON_DKB":  # user selects the wrong choice from the hint
+        db.update_user_history(
+            mysql, sender_id, 0, "multiple-choice", cache[sender_id]['begin_uid'], uid)
+        # qa_model.updateHistory(sender_id, ())
+        send_paragraph(
+            mysql, sender_id, payload[:10], chatbot_text, template_conversation, "paragraph_1")
+        send_correct_answer(mysql, sender_id, payload[:10],
+                            template_conversation, qa_model, 0, cache)
+
+    elif payload[:10] == "BUTTON_AKB":  # user selects the correct choice from the hint
+        db.update_user_history(
+            mysql, sender_id, 3, "multiple-choice", cache[sender_id]['begin_uid'], uid)
+        send_congratulation_image(mysql, sender_id, template_conversation)
+        send_paragraph(
+            mysql, sender_id, payload[:10], chatbot_text, template_conversation, "paragraph_1")
+        send_correct_answer(mysql, sender_id, payload[:10],
+                            template_conversation, qa_model, 10, cache)
+
+    # --------------------------- GIVE UP ---------------------------
+    elif payload == "GIVEUP_YES":
+        send_paragraph(mysql, sender_id, payload, chatbot_text,
+                       template_conversation, "paragraph_1")
+        send_correct_answer(mysql, sender_id, payload,
+                            template_conversation, qa_model, 0, cache)
+
+    elif payload == "GIVEUP_NO":
+        send_paragraph(mysql, sender_id, payload, chatbot_text,
+                       template_conversation, "paragraph_1")
+        send_hint(mysql, sender_id, chatbot_text,
+                  template_conversation, qa_model, cache)
+
+    # ----------------------- AFTER AN ANSWER -----------------------
+    elif payload == "WHY":
+        send_explanation(mysql, sender_id,
+                         template_conversation, qa_model, cache)
+
+    elif payload == "SWITCH_SUBJECT":
+        send_choose_subject(mysql, sender_id, template_conversation)
+
+    # --------------------------- CONTINUE --------------------------
+    elif payload == "CONTINUE":
+        send_conversation(mysql, sender_id, payload, chatbot_text,
+                          template_conversation, "conversation_1")
+
+    # ------------------------ PERSISTENT MENU ----------------------
+    elif payload == "CHAT_WITH_ME":
+        send_conversation(mysql, sender_id, payload, chatbot_text,
+                          template_conversation, "conversation_1")
+
+    elif payload == "JOKE":
         send_conversation(mysql, sender_id, payload, chatbot_text,
                           template_conversation, "conversation_1")
 
@@ -106,143 +240,9 @@ def respond_to_payload(payload, sender_id, qa_model, chatbot_text, template_conv
                           template_conversation, "conversation_1")
 
     elif payload == "REPORT_BUG":
-        # insert_score(mysql, sender_id, -1, payload, -1)
-        database.insert_conversation(
-            mysql, sender_id, -1, "report_bug", "report_bug", payload, 0)
-
         send_conversation(mysql, sender_id, payload, chatbot_text,
                           template_conversation, "conversation_1")
 
-    elif payload == "CONTINUE":
-        update_status(mysql, sender_id, 1)
-        send_conversation(mysql, sender_id, payload, chatbot_text,
-                          template_conversation, "conversation_1")
-
-    elif payload == "I_DONT_KNOW":
-        send_conversation(mysql, sender_id, payload, chatbot_text,
-                          template_conversation, "conversation_1")
-
-    elif payload == "WHY":
-        send_explanation(mysql, sender_id, template_conversation, qa_model)
-
-    elif payload == "SWITCH_SUBJECT":
-        send_choose_subject(mysql, sender_id, template_conversation)
-
-    elif payload == "SCIENCE":
-        # sherry: use cache[sender_id]['current_subject'] to get the subject
-        # QID = show_last_qid_subject(mysql, sender_id)[0]
-        # if QID >= 50 and QID < 100:
-        #     send_image(mysql, sender_id, payload, chatbot_text, "SAFETY")
-        # elif QID >= 100 and QID < 150:
-        #     send_image(mysql, sender_id, payload, chatbot_text, "GRE")
-        # else:
-        #     send_image(mysql, sender_id, payload, chatbot_text, "NORMAL")
-        send_paragraph(mysql, sender_id, payload, chatbot_text,
-                       template_conversation, "paragraph_1")
-        # change current_subject in cache
-        cache[sender_id]['current_subject'] = 'science'
-        # update current_subject in [user] table
-        update_user_current_subject(mysql, sender_id, 'science')
-        send_question(mysql, sender_id, template_conversation, qa_model, cache)
-
-    elif payload == "GRE":
-        # QID = show_last_qid_subject(mysql, sender_id)[0]
-        # if QID >= 0 and QID < 50:
-        #     send_image(mysql, sender_id, payload, chatbot_text, "SCIENCE")
-        # elif QID >= 50 and QID < 100:
-        #     send_image(mysql, sender_id, payload, chatbot_text, "SAFETY")
-        # else:
-        #     send_image(mysql, sender_id, payload, chatbot_text, "NORMAL")
-        send_paragraph(mysql, sender_id, payload, chatbot_text, template_conversation, "paragraph_1")
-        # change current_subject in cache
-        cache[sender_id]['current_subject'] = 'gre'
-        # update current_subject in [user] table
-        update_user_current_subject(mysql, sender_id, 'gre')
-        send_question(mysql, sender_id, template_conversation, qa_model, cache)
-
-    elif payload == "SAFETY":
-        # QID = show_last_qid_subject(mysql, sender_id)[0]
-        # if QID >= 0 and QID < 50:
-        #     send_image(mysql, sender_id, payload, chatbot_text, "SCIENCE")
-        # elif QID >= 100 and QID < 150:
-        #     send_image(mysql, sender_id, payload, chatbot_text, "GRE")
-        # else:
-        #     send_image(mysql, sender_id, payload, chatbot_text, "NORMAL")
-        send_paragraph(mysql, sender_id, payload, chatbot_text, template_conversation, "paragraph_1")
-        # change current_subject in cache
-        cache[sender_id]['current_subject'] = 'safety'
-        # update current_subject in [user] table
-        update_user_current_subject(mysql, sender_id, 'safety')
-        send_question(mysql, sender_id, template_conversation, qa_model, cache)
-
-    elif payload == "RANDOM":
-        # QID = show_last_qid_subject(mysql, sender_id)[0]
-        # if QID >= 0 and QID < 50:
-        #     send_image(mysql, sender_id, payload, chatbot_text, "SCIENCE")
-        # elif QID >= 50 and QID < 100:
-        #     send_image(mysql, sender_id, payload, chatbot_text, "SAFETY")
-        # elif QID >= 100 and QID < 150:
-        #     send_image(mysql, sender_id, payload, chatbot_text, "GRE")
-        # else:
-        #     send_image(mysql, sender_id, payload, chatbot_text, "NORMAL")
-        send_paragraph(mysql, sender_id, payload, chatbot_text, template_conversation, "paragraph_1")
-        # change current_subject in cache
-        cache[sender_id]['current_subject'] = 'random'
-        # update current_subject in [user] table
-        update_user_current_subject(mysql, sender_id, 'random')
-        send_question(mysql, sender_id, template_conversation, qa_model, cache)
-
-    elif payload == "GIVEUP_YES":
-        send_paragraph(mysql, sender_id, payload, chatbot_text,
-                       template_conversation, "paragraph_1")
-        send_correct_answer(mysql, sender_id, payload,
-                            template_conversation, qa_model, 0)
-
-    elif payload == "PRACTICE_MODE":
-        send_choose_subject(mysql, sender_id, template_conversation)
-
-    elif payload[:10] == "BUTTON_DKB": # user selects the wrong choice
-        send_paragraph(mysql, sender_id, payload[:10], chatbot_text, template_conversation, "paragraph_1")
-        send_correct_answer(mysql, sender_id, payload,
-                            template_conversation, qa_model, 0)
-
-    elif payload[:10] == "BUTTON_AKB": # user selects the correct choice
-        db.update_user_history(mysql, sender_id, 10, "multiple-choice", cache[sender_id]['begin_uid'], uid)
-        send_paragraph(mysql, sender_id, payload[:10], chatbot_text, template_conversation, "paragraph_1")
-        send_correct_answer(mysql, sender_id, payload, template_conversation, qa_model, 3)
-        send_image(mysql, sender_id, payload, chatbot_text, "image_1")
-
-    elif payload == "NEED_HINT":
-        send_paragraph(mysql, sender_id, payload, chatbot_text, template_conversation, "paragraph_1")
-        send_hint(mysql, sender_id, qa_model)
-
-    elif payload == "GIVEUP_NO":
-        send_paragraph(mysql, sender_id, payload, chatbot_text,
-                       template_conversation, "paragraph_1")
-        send_hint(mysql, sender_id, qa_model)
-
-    elif payload == "CHAT_WITH_ME":
-        send_conversation(mysql, sender_id, payload, chatbot_text,
-                          template_conversation, "conversation_1")
-
-    elif payload == "JOKE":
-        send_conversation(mysql, sender_id, payload, chatbot_text,
-                          template_conversation, "conversation_1")
-
-
-
-    elif payload == "NEXT_QUESTION":
-        QID = send_question(mysql, sender_id, template_conversation, qa_model, cache)
-        # if show_status(mysql, sender_id):
-        #     subject = show_last_qid_subject(mysql, sender_id)[1]
-        #     subject = subject if subject in [
-        #         "SCIENCE", "GRE", "SAFETY"] else "random"
-        #     send_question(mysql, sender_id, template_conversation,
-        #                   payload=payload, qa_model=qa_model, subject=subject.lower())
-        # else:
-        #     QID = show_last_qid_subject(mysql, sender_id)[0]
-        #     send_question(mysql, sender_id, template_conversation,
-        #                   question=qa_model.pickQuestion(subject='random'))
 
 # TODO: Remove redundant code
 def respond_to_messagetext(message_text, sender_id, qa_model, chatbot_text, template_conversation, mysql, cache, uid):
@@ -261,32 +261,35 @@ def respond_to_messagetext(message_text, sender_id, qa_model, chatbot_text, temp
             mysql: database
             cache: a dictionary containing the information in memory such as
                 current_qid and current_subject needed for the quizbot
-            uid: unique id in [conversation] database for this conversation
+            uid: unique id in [conversation] table of the [QUIZBOT_DEV] database for this conversation
 
         Returns:
             None
     '''
     message_text = message_text.lower()
-    QID, _ = show_last_qid_subject(mysql, sender_id)
+    qid = cache[sender_id]["current_qid"]
 
-    if not show_status(mysql, sender_id):
-        score = qa_model.compute_score(message_text, QID)
+    if cache[sender_id]["waiting_for_answer"]:
+        score = qa_model.compute_score(message_text, qid)
+        db.update_user_history(
+            mysql, sender_id, score * 10, "fill_in_the_blank", cache[sender_id]['begin_uid'], uid)
         if score < 5:
             send_paragraph(mysql, sender_id, "MESSAGE_TEXT",
-                          chatbot_text, template_conversation, "paragraph_1")
+                           chatbot_text, template_conversation, "paragraph_1")
             send_correct_answer(
-                mysql, sender_id, "MESSAGE_TEXT", template_conversation, qa_model, 0)
+                mysql, sender_id, "MESSAGE_TEXT", template_conversation, qa_model, 0, cache)
         elif score < 10:
             send_paragraph(mysql, sender_id, "MESSAGE_TEXT",
-                          chatbot_text, template_conversation, "paragraph_2")
+                           chatbot_text, template_conversation, "paragraph_2")
             send_correct_answer(
-                mysql, sender_id, "MESSAGE_TEXT", template_conversation, qa_model, 3)
+                mysql, sender_id, "MESSAGE_TEXT", template_conversation, qa_model, 3, cache)
         else:
             send_paragraph(mysql, sender_id, "MESSAGE_TEXT",
                            chatbot_text, template_conversation, "paragraph_3")
             send_correct_answer(
-                mysql, sender_id, "MESSAGE_TEXT", template_conversation, qa_model, 10)
-    else: # That sounds interesting. Would you want more quiz questions?
-        update_status(mysql, sender_id, 1)
+                mysql, sender_id, "MESSAGE_TEXT", template_conversation, qa_model, 10, cache)
+            send_congratulation_image(mysql, sender_id, template_conversation)
+        utils.update_cache(cache, sender_id, waiting_for_answer=0)
+    else:  # That sounds interesting. Would you want more quiz questions?
         send_conversation(mysql, sender_id, "MESSAGE_TEXT",
                           chatbot_text, template_conversation, "conversation_1")

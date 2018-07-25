@@ -2,8 +2,8 @@
 # Author: Liwei Jiang
 # Date: 05/07/2018
 # Usage: This file contains two parts.
-#        PART 1: TEMPLATE contains conversation template
-#        PART 2: STATE contains state information that can be accessed by each payload
+#        PART 1: TEMPLATE contains template conversation text
+#        PART 2: STATE contains state information that can be accessed by all payloads
 
 
 TEMPLATE:
@@ -260,7 +260,7 @@ TEMPLATE:
     - Nice! Enjoy a little variety? Let's answer some questions! 🎲
 
   NEED_HINT:
-    - Okay. Which of these is the right answer?👇🏼"
+    - Okay. Which of these is the right answer?👇🏼
     - Which of the following options is the right answer?
     - Alrighty, which of the following options is the answer of the question?
     - Okay. I'll give you some choices.
@@ -275,10 +275,10 @@ TEMPLATE:
     - Oh no! That didn't earn any points.
 
   ENCOURAGE_YES_GIVEUP:
-    - That’s okay, you’ll get it next time! ☺️
-    - That's fine, you'll nail it next time! ☺️
-    - Keep trying, you'll get it next time! ☺️
-    - Don't give up, you'll get it next time! ☺
+    - That's okay, you'll get it next time! 😄
+    - Keep trying, you'll get it next time! 😄
+    - Don't give up, you'll get it next time! 😄
+    - That's fine, you'll nail it next time! 😄
 
   ENCOURAGE_NO_GIVEUP:
     - "Okay! Let's try again 💪🏼 Tell me which of these is the right answer:"
@@ -313,6 +313,9 @@ TEMPLATE:
     - Here is an interesting one for you.
     - Here is a good one.
     - "Here is an interesting one:"
+
+  IF_GIVE_UP:
+    - Are you sure you want to give up?
 
   JOKE:
     - "Q. How do you make the number one disappear? A. Add the letter G and then presto\u2014it\u2019s Gone!"
@@ -462,6 +465,16 @@ STATE:
         - GOT_IT
       payload:
         - NEXT_QUESTION 
+
+  CONGRATULATION:
+    image:
+      template_type: 
+        image
+      image_url: 
+        - https://www.smartprimer.org:{}/pictures/avatar/celebration.gif
+        - https://www.smartprimer.org:{}/pictures/avatar/penguinnormal_happy.png
+        - https://www.smartprimer.org:{}/pictures/avatar/penguinnormal_jubilated.png
+        - https://www.smartprimer.org:{}/pictures/avatar/penguinnormal_normal.png
 
   PERSISTENT_MENU:
     persistent_menu:

@@ -26,6 +26,17 @@
                 ]
             }
         }, 
+        "CONGRATULATION": {
+            "image": {
+                "image_url": [
+                    "https://www.smartprimer.org:{}/pictures/avatar/celebration.gif", 
+                    "https://www.smartprimer.org:{}/pictures/avatar/penguinnormal_happy.png", 
+                    "https://www.smartprimer.org:{}/pictures/avatar/penguinnormal_jubilated.png", 
+                    "https://www.smartprimer.org:{}/pictures/avatar/penguinnormal_normal.png"
+                ], 
+                "template_type": "image"
+            }
+        }, 
         "CORRECT_ANSWER": {
             "quick_reply": {
                 "message": {
@@ -282,10 +293,10 @@
             "Don't give up! Which answer is correct?"
         ], 
         "ENCOURAGE_YES_GIVEUP": [
-            "That\u2019s okay, you\u2019ll get it next time! \u263a\ufe0f", 
-            "That's fine, you'll nail it next time! \u263a\ufe0f", 
-            "Keep trying, you'll get it next time! \u263a\ufe0f", 
-            "Don't give up, you'll get it next time! \u263a"
+            "That's okay, you'll get it next time! \ud83d\ude04", 
+            "Keep trying, you'll get it next time! \ud83d\ude04", 
+            "Don't give up, you'll get it next time! \ud83d\ude04", 
+            "That's fine, you'll nail it next time! \ud83d\ude04"
         ], 
         "EXPLANATION": [
             "Here's an explanation:", 
@@ -449,6 +460,9 @@
             "Let's test your knowledge on the GRE!", 
             "Awesome! Let's learn about the GRE!"
         ], 
+        "IF_GIVE_UP": [
+            "Are you sure you want to give up?"
+        ], 
         "JOKE": [
             "Q. How do you make the number one disappear? A. Add the letter G and then presto\u2014it\u2019s Gone!", 
             "Q. I\u2019m an odd number. If you take away one of the letters in my name, I become even. What number am I? A. Seven. (Take away the S!)", 
@@ -480,7 +494,7 @@
             "What did Beethoven say to Johann Sebastian when he was helping him parallel park? \u201cBach it up.\u201d"
         ], 
         "NEED_HINT": [
-            "Okay. Which of these is the right answer?\ud83d\udc47\ud83c\udffc\"", 
+            "Okay. Which of these is the right answer?\ud83d\udc47\ud83c\udffc", 
             "Which of the following options is the right answer?", 
             "Alrighty, which of the following options is the answer of the question?", 
             "Okay. I'll give you some choices.", 
