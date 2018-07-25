@@ -99,8 +99,9 @@ class LeitnerSequencingModel(BaseSequencingModel):
     # updates the queues and the history 
     # outcome is either 0 or 1, if the user answered correctly 
     # item is the index of the last item
-    def updateHistory(self, outcome, user_id = 0):
+    def updateHistory(self, user_id, user_data):
+        qid, outcome, timestamp = user_data
         # demote 1 if wrong, promote 1 if correct
-        question = self.curr_question[user_id]
+        # question = self.curr_question[user_id]
 
-        self.updateParameters(question, outcome, user_id)
+        self.updateParameters(qid, outcome, user_id)

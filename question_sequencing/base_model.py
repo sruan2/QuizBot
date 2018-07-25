@@ -1,5 +1,4 @@
 '''Base Question Sequencing Model
-
 2018 July 5
 '''
 
@@ -13,7 +12,6 @@ class BaseSequencingModel():
 
     def __init__(self, qa_kb):
         '''initialization of the question sequencing Model
-
         Args:
             qa_kb: knowledge base containing all question data
         '''
@@ -23,7 +21,12 @@ class BaseSequencingModel():
         self.loaded_users = []
 
     @abstractmethod
-    def loadUserData(self, user_id, user_history_data): # user_history_data is a list of tuples (qid, score, time_stamp)
+    def loadUserData(self, user_id, user_history_data):
+        '''
+        Args:
+            user_history: a list of tuples representing qid (int), outcome (float [0,1]), timestamp (str)
+        '''
+
         pass
 
     @abstractmethod
@@ -38,10 +41,7 @@ class BaseSequencingModel():
 
 
     @abstractmethod
-    def updateHistory(self, user_id, user_data): # user_data is a tuple (qid, score, time_stamp)
+    def updateHistory(self, user_id, user_data):
         # TODO:
         # a history of correctness
         pass
-
-
-
