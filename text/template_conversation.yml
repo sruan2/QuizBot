@@ -139,6 +139,8 @@ TEMPLATE:
 
   ANOTHER_JOKE:
     - Another Joke 😁 
+    - Here's another joke! 😁
+    - Haha, how about another one 😁
 
   QUESTION:
     - "Here's a question for you:"
@@ -241,14 +243,17 @@ TEMPLATE:
   GOOD_JOB_SCIENCE:
     - You've done a very good job in science! Congrats!
     - You are becoming a master in science!
+    - Wow! You seem to know a lot about safety.
 
   GOOD_JOB_SAFETY:
     - You've done a very good job in safety! Congrats!
     - You are becoming a master in safety!
+    - Wow! You seem to know a lot about safety.
 
   GOOD_JOB_GRE:
     - You've done a very good job in GRE! Congrats!
     - You are becoming a master in GRE!
+    - Wow! You seem to getting a lot of GRE questions.
 
   RANDOM:
     - Okay! Let’s mix it up! 🎲
@@ -289,7 +294,8 @@ TEMPLATE:
 
   ENCOURAGE:
     - Keep up the good work!
-    - Let's continue the good work!
+    - Keep it up! 
+    - Nice job! Keep going!
 
   DKB:
     - I'm sorry, but that was incorrect. You didn't earn any points 😞
@@ -300,22 +306,28 @@ TEMPLATE:
   CORRECT_HINT:
     - Yes! You got the correct answer!
     - Great! Keep it up! 💪🏼
+    - Nice! That was right!
 
   REMINDER:
     - "{}, you haven't talked to me for a while. Do you want to continue the conversation with me?"
     - " Hi {}, you haven't talked to me for a while. Would you like to resume the learning with me?"
+    - "We haven't talked in a while. Should we resume our conversation?"
 
   CHAT_WITH_ME:
     - Do you want to hear a joke from me?
-    - I have some jokes for you! Do you want to hear that?
+    - I have some jokes for you! Do you want to hear them?
+    - Would you like me to tell you a joke?
 
   GIVE_JOKE:
     - Here is an interesting one for you.
     - Here is a good one.
+    - Here's one I thought might be interesting
+    - Here's one I thought might be funny.
     - "Here is an interesting one:"
 
   IF_GIVE_UP:
     - Are you sure you want to give up?
+    - Do you really want to give up?
 
   JOKE:
     - "Q. How do you make the number one disappear? A. Add the letter G and then presto\u2014it\u2019s Gone!"
