@@ -125,30 +125,26 @@ class DASHSequencingModel(BaseSequencingModel):
 
     # pick threshold based review every 10 steps, otherwise pick random
     def pickNextQuestion(self, user_id = 0, subject = 'random'):
-        if user_id not in self.loaded_users:
-            self.loadUserData(user_id)
-            self.loaded_users.append(user_id)
-
-        if self.curr_step[user_id] >= 0:
+        if self.curr_step[user_id] % 5 == 0:
             return self.thresholdPickQuestion(user_id, subject)
         else:
             return self.pickRandomQuestion(user_id, subject)
 
     # function to update the history parameters in the model
-    def updateParameters(self, question, outcome, time, user_id):
+    def updateParameters(self, question, outcome, timestamp, user_id):
         # get and take a step
         step = self.curr_step[user_id]
         self.curr_step[user_id] += 1
         curr_window = self.get_current_window(step)
 
+        #convert timestamp string to seconds
+        time_object = time.strptime(timestamp, "%Y-%m-%d %H:%M:%S")
+        time_seconds = time.mktime(time_object)
+
         if outcome:
             self.num_correct[user_id][question, curr_window] += 1
         self.num_attempts[user_id][question, curr_window] += 1
-        self.last_viewed[user_id][question] = time 
-
-    # TODO: implement loading user data from file
-    def loadUserData(self, user_id):
-        pass
+        self.last_viewed[user_id][question] = time_seconds
 
     # outcome is either 0 or 1, if the user answered correctly 
     # item is the index of the last item
@@ -158,3 +154,9 @@ class DASHSequencingModel(BaseSequencingModel):
         # time = self.update_time[user_id]
 
         self.updateParameters(qid, outcome, timestamp, user_id)
+
+
+    # TODO: implement loading user data from file
+    def loadUserData(self, user_id, user_history_data):
+        for user_data in user_history_data:
+            self.updateHistory(user_id, user_data)

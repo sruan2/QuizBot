@@ -26,7 +26,6 @@ class BaseSequencingModel():
         Args:
             user_history: a list of tuples representing qid (int), outcome (float [0,1]), timestamp (str)
         '''
-
         pass
 
     @abstractmethod

@@ -6,7 +6,7 @@
 '''
 
 # coding: utf8
-import time
+from time import strftime, localtime
 import database as db
 from message import *
 import utils
@@ -29,6 +29,7 @@ def respond_to_payload(payload, sender_id, qa_model, chatbot_text, template_conv
         Returns:
             None
     '''
+    # timestamp = strftime("%Y-%m-%d %H:%M:%S", localtime())
     if cache[sender_id]["waiting_for_answer"] and payload in ["I_DONT_KNOW", "NEED_HINT"]:
         utils.update_cache(cache, sender_id, waiting_for_answer=0)
 
@@ -181,27 +182,28 @@ def respond_to_payload(payload, sender_id, qa_model, chatbot_text, template_conv
     elif payload[:10] == "BUTTON_DKB":  # user selects the wrong choice from the hint
         db.update_user_history(
             mysql, sender_id, 0, "multiple-choice", cache[sender_id]['begin_uid'], uid)
-        # qa_model.updateHistory(sender_id, ())
+        qa_model.updateHistory(sender_id, (cache[sender_id]['current_qid'], 0, db.show_timestamp(mysql, uid)))
         send_paragraph(
             mysql, sender_id, payload[:10], chatbot_text, template_conversation, "paragraph_1")
         send_correct_answer(mysql, sender_id, payload[:10],
-                            template_conversation, qa_model, 0, cache)
+                            template_conversation, qa_model, cache)
 
     elif payload[:10] == "BUTTON_AKB":  # user selects the correct choice from the hint
         db.update_user_history(
-            mysql, sender_id, 3, "multiple-choice", cache[sender_id]['begin_uid'], uid)
+            mysql, sender_id, 10, "multiple-choice", cache[sender_id]['begin_uid'], uid)
+        qa_model.updateHistory(sender_id, (cache[sender_id]['current_qid'], 10, db.show_timestamp(mysql, uid)))
         send_congratulation_image(mysql, sender_id, template_conversation)
         send_paragraph(
             mysql, sender_id, payload[:10], chatbot_text, template_conversation, "paragraph_1")
         send_correct_answer(mysql, sender_id, payload[:10],
-                            template_conversation, qa_model, 10, cache)
+                            template_conversation, qa_model, cache)
 
     # --------------------------- GIVE UP ---------------------------
     elif payload == "GIVEUP_YES":
         send_paragraph(mysql, sender_id, payload, chatbot_text,
                        template_conversation, "paragraph_1")
         send_correct_answer(mysql, sender_id, payload,
-                            template_conversation, qa_model, 0, cache)
+                            template_conversation, qa_model, cache)
 
     elif payload == "GIVEUP_NO":
         send_paragraph(mysql, sender_id, payload, chatbot_text,
@@ -270,25 +272,26 @@ def respond_to_messagetext(message_text, sender_id, qa_model, chatbot_text, temp
     qid = cache[sender_id]["current_qid"]
 
     if cache[sender_id]["waiting_for_answer"]:
-        score = qa_model.compute_score(message_text, qid)
+        score = qa_model.computeScore(message_text, qid)
         db.update_user_history(
             mysql, sender_id, score * 10, "fill_in_the_blank", cache[sender_id]['begin_uid'], uid)
+        qa_model.updateHistory(sender_id, (cache[sender_id]['current_qid'], score * 10, db.show_timestamp(mysql, uid)))
         if score < 5:
             send_paragraph(mysql, sender_id, "MESSAGE_TEXT",
                            chatbot_text, template_conversation, "paragraph_1")
             send_correct_answer(
-                mysql, sender_id, "MESSAGE_TEXT", template_conversation, qa_model, 0, cache)
+                mysql, sender_id, "MESSAGE_TEXT", template_conversation, qa_model, cache)
         elif score < 10:
             send_paragraph(mysql, sender_id, "MESSAGE_TEXT",
                            chatbot_text, template_conversation, "paragraph_2")
             send_correct_answer(
-                mysql, sender_id, "MESSAGE_TEXT", template_conversation, qa_model, 3, cache)
+                mysql, sender_id, "MESSAGE_TEXT", template_conversation, qa_model, cache)
         else:
+            send_congratulation_image(mysql, sender_id, template_conversation)
             send_paragraph(mysql, sender_id, "MESSAGE_TEXT",
                            chatbot_text, template_conversation, "paragraph_3")
             send_correct_answer(
-                mysql, sender_id, "MESSAGE_TEXT", template_conversation, qa_model, 10, cache)
-            send_congratulation_image(mysql, sender_id, template_conversation)
+                mysql, sender_id, "MESSAGE_TEXT", template_conversation, qa_model, cache)
         utils.update_cache(cache, sender_id, waiting_for_answer=0)
     else:  # That sounds interesting. Would you want more quiz questions?
         send_conversation(mysql, sender_id, "MESSAGE_TEXT",

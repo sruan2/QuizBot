@@ -183,7 +183,7 @@ def send_question(mysql, recipient_id, template_conversation, qa_model, cache):
             None
     '''
     subject = cache[recipient_id]['current_subject'] if cache[recipient_id]['current_subject'] != None else 'random'
-    question, qid = qa_model.pickQuestion(subject)
+    question, qid = qa_model.pickQuestion(recipient_id, subject)
 
     message_data = template_conversation["STATE"]["QUESTION"]["message"]
     messaging_API.send_message(
@@ -214,7 +214,7 @@ def send_say_hi(mysql, recipient_id, template_conversation, recipient_firstname)
         mysql, recipient_id, template_conversation, "SAY_HI", recipient_firstname)
 
 
-def send_correct_answer(mysql, recipient_id, payload, template_conversation, qa_model, score, cache):
+def send_correct_answer(mysql, recipient_id, payload, template_conversation, qa_model, cache):
     '''
         This function sends the correct answer of a question to the specified recipient.
 
@@ -224,7 +224,7 @@ def send_correct_answer(mysql, recipient_id, payload, template_conversation, qa_
             payload: chatbot's payload state
             template_conversation: the json structure containing the conversation and state templates
             qa_model: the question answering model containing information about the question dataset
-            score: the score to be logged into the database
+            cache: a dictionary containing the information in memory such as current_qid and current_subject needed for the quizbot
 
         Returns:
             None
