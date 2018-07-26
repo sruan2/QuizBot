@@ -8,6 +8,7 @@ from abc import abstractmethod
 from gensim.models import Doc2Vec
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import linear_kernel
+import tensorflow as tf
 from keras.models import model_from_json
 from nltk import RegexpTokenizer
 
@@ -25,10 +26,12 @@ from QAKnowledgebase import QAKnowlegeBase
 class QAModel(object):
     '''Base class of QAModel'''
 
-    def __init__(self, qa_kb, sequencing_model = 'random'):
+    def __init__(self, qa_kb, sequencing_model):
         pretty_print("QAModel initialization", mode="QA Model")
         self.QID = 0
         self.QA_KB = qa_kb
+        self.AKB = qa_kb.AKB
+        self.DKB = qa_kb.DKB
 
         if sequencing_model == 'dash':
             self.sequencing_model = DASHSequencingModel(qa_kb)
@@ -39,25 +42,19 @@ class QAModel(object):
         else:
             self.sequencing_model = RandomSequencingModel(qa_kb)
 
-    # def pickSubjectRandomQuestion(self, subject):
-    #     subject = subject.lower()
-    #     QID = random.choice(self.QA_KB.SubDict[subject])
-    #     picked_question = self.QA_KB.QKB[QID]
-    #     return picked_question, QID
 
-    # def pickRandomQuestion(self):
-    #     return self.sequencing_model.pickNextQuestion()
-
-    def pickQuestion(self, subject):
+    def pickQuestion(self, user_id, subject):
         '''Pick the next question based on the sequencing_model defined'''
-        data = self.sequencing_model.pickNextQuestion(subject)
+        data = self.sequencing_model.pickNextQuestion(user_id, subject)
         picked_question = data['question']
         QID = data['qid']
         return picked_question, QID
 
-    # def pickLastQuestion(self, QID):
-    #     picked_question = self.QA_KB.QKB[QID]
-    #     return picked_question
+    def updateHistory(self, user_id, user_data):
+        self.sequencing_model.updateHistory(user_id, user_data)
+
+    def loadUserData(self, sender_id, user_history_data):
+        self.sequencing_model.loadUserData(sender_id, user_history_data)
 
     def getAnswer(self, QID):
         try:
@@ -79,44 +76,47 @@ class QAModel(object):
     def pickNextSimilarQuestion(self): pass
 
     @abstractmethod
-    def computeScore(self): pass
+    def computeScore(self, user_answer, QID): pass
 
 class SupervisedSIFModeL(QAModel):
     """semi supervised version of the SIF model"""
-    def __init__(self, qa_kb):
-        super(SupervisedSIFModeL, self).__init__(qa_kb)
+    def __init__(self, qa_kb, sequencing_model='random'):
+        super(SupervisedSIFModeL, self).__init__(qa_kb, sequencing_model)
 
         # load the current architecture from json
         with open('similarity_model/model_architecture.json', 'r') as f:
             self.model = model_from_json(f.read())
-        self.model.load_weights('model_weights.h5')
+        self.graph = tf.get_default_graph()
+        self.model.load_weights('similarity_model/model_weights.h5')
 
         # fit the embedding and load the glove model
         glove_file = 'similarity_model/mittens_model.pkl'
         json_file = 'QAdataset/questions_filtered_150_quizbot.json'
-        self.emb = similarity_model.fit_model(glove_file, json_file)
+        
+        self.emb = supervised_model.fit_model(glove_file, json_file)
 
     def computeScore(self, user_answer, QID):
         user_answer = [user_answer.lower()]
         picked_answer = [super(SupervisedSIFModeL, self).getAnswer(QID)]
-
+        
         # returns a score from 1 to 5 
-        similarity = evaluate_model(self.model, self.emb, user_answer, picked_answer)
+        with self.graph.as_default():
+            similarity = supervised_model.evaluate_model(self.model, self.emb, user_answer, picked_answer)
 
         # convert the score to appendn int between 0 and 10
-        return round((similarity - 1) * 10 / 4)
+        return round(((similarity - 1) * 10 / 4)[0])
 
 
 class TFIDFModel(QAModel):
     """a working baseline model: TFIDF"""
 
-    def __init__(self, qa_kb):
-        super(TFIDFModel, self).__init__(qa_kb)
+    def __init__(self, qa_kb, sequencing_model='random'):
+        super(TFIDFModel, self).__init__(qa_kb, sequencing_model)
         self.AKB = qa_kb.AKB
         self.DKB = qa_kb.DKB
         pretty_print('TFIDF Model')
 
-    def compute_score(self, user_answer, QID):
+    def computeScore(self, user_answer, QID):
         user_answer = user_answer.lower()
         picked_answer = super(TFIDFModel, self).getAnswer(QID)
         answer = [picked_answer]
@@ -130,9 +130,9 @@ class TFIDFModel(QAModel):
 class Doc2VecModel(QAModel):
     """Doc2VecModel, pretrained by Zhengneng"""
 
-    def __init__(self, qa_kb):
+    def __init__(self, qa_kb, sequencing_model='random'):
         pretrained_model_file = 'model_pre_trained/model_d2v_v1'
-        super(Doc2VecModel, self).__init__(qa_kb)
+        super(Doc2VecModel, self).__init__(qa_kb, sequencing_model)
         # load the model in the very beginning
         self.MODEL = Doc2Vec.load(pretrained_model_file)
         pretty_print('Doc2Vec Model')
@@ -147,11 +147,11 @@ class Doc2VecModel(QAModel):
 
 # Sherry: This is based on Princeton's original implementation. Not sure if this working, haven't tested it out yet.
 class SIFModel(QAModel):
-    def __init__(self, qa_kb):
-        super(SIFModel, self).__init__(qa_kb)
+    def __init__(self, qa_kb, sequencing_model='random'):
+        super(SIFModel, self).__init__(qa_kb, sequencing_model)
         pretty_print('SIF Model')
 
-    def compute_score(self, user_answer, QID):
+    def computeScore(self, user_answer, QID):
         user_answer = user_answer.lower()
         picked_answer = super(SIFModel, self).getAnswer(QID)
         score = sif_sentence_similarity.answer_similarity(
@@ -179,7 +179,7 @@ class SIF2Model(QAModel):
         self.emb = EmbeddingVectorizer(
             word_vectors=self.glove, weighted=True, R=False)
 
-    def compute_score(self, user_answer, QID):
+    def computeScore(self, user_answer, QID):
         # transform the correct answer
         correct_answer = self.QA_KB.AKB[QID][0]
         tokenized_answer = utils.preprocess([correct_answer], self.tokenizer)

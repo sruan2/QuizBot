@@ -173,6 +173,16 @@ def show_user_history(mysql, user_id):
     return rows
 
 
+def show_timestamp(mysql, uid):
+    '''
+        This function returns the timestamp associated with a uid in the [conversation] table of <QUIZBOT> database.
+    '''
+    cur = mysql.connection.cursor()
+    cur.execute("SELECT time_stamp FROM conversation WHERE uid = %s;", [uid])
+    rows = cur.fetchall()
+    return rows[-1][0]
+
+
 
 ########## FLASHCARD ##########
 def insert_user_flashcard(mysql, user_id, user_firstname, user_lastname):

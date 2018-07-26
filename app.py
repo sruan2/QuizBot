@@ -123,7 +123,7 @@ def webhook():
                     pretty_print('Insert the user into cache', mode='Cache')
                     user_history_data = db.show_user_history(mysql, sender_id) # tuple of (qid, score, time_stamp)
                     pretty_print('Retrieve the user history from [user_history]', mode='Database')
-                    # qa_model.loadUserData(sender_id, user_history_data)
+                    qa_model.loadUserData(sender_id, user_history_data)
                     pretty_print('Pass the user history to the QAModel', mode='QAModel')
                 # Insert the user into database and cache if it doesn't exist yet.
                 else:
@@ -267,15 +267,18 @@ if __name__ == '__main__':
     json_file = 'QAdataset/questions_filtered_150_quizbot.json'
     qa_kb = QAKnowlegeBase(json_file)
     model = os.environ["MODEL"]
-    # question_sequencing = 'ssss'
+    question_sequencing_model = os.environ["QUESTION_SEQUENCING_MODEL"]
+    
     if model == "TFIDF":
-        qa_model = QAModel.TFIDFModel(qa_kb)
+        qa_model = QAModel.TFIDFModel(qa_kb, question_sequencing_model)
     elif model == "SIF":
-        qa_model = QAModel.SIFModel(qa_kb)
+        qa_model = QAModel.SIFModel(qa_kb, question_sequencing_model)
     elif model == "SIF2":
-        qa_model = QAModel.SIF2Model(qa_kb)
+        qa_model = QAModel.SIF2Model(qa_kb, question_sequencing_model)
     elif model == "DOC2VEC":
-        qa_model = QAModel.Doc2VecModel(qa_kb)
+        qa_model = QAModel.Doc2VecModel(qa_kb, question_sequencing_model)
+    elif model == "SupervisedSIFModeL":
+        qa_model = QAModel.SupervisedSIFModeL(qa_kb, question_sequencing_model)
 
     context = ('/etc/letsencrypt/live/smartprimer.org/fullchain.pem',
                '/etc/letsencrypt/live/smartprimer.org/privkey.pem')

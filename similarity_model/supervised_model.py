@@ -1,5 +1,5 @@
 import sys
-sys.path.append("..")
+sys.path.append("./.")
 import numpy as np
 from nltk import RegexpTokenizer
 from keras.models import Sequential, Model
@@ -7,15 +7,16 @@ from keras.layers import Dense, Input, concatenate
 from keras.optimizers import Adam
 import pickle
 
-from messages import MESSAGES, EXAMPLE_MESSAGES
-from sif_implementation.wordembeddings import EmbeddingVectorizer
+# from messages import MESSAGES, EXAMPLE_MESSAGES
+from similarity_model.sif_implementation.wordembeddings import EmbeddingVectorizer
 from QAKnowledgebase import QAKnowlegeBase
-from sif_implementation.utils import *
+from similarity_model.sif_implementation.utils import *
 
 '''This is the test function for semi supervised model 
    code taken from https://github.com/jorisvandenbossche/wordembeddings
 2018 July 6
 '''
+
 
 # model to fit semi supervised model data
 def init_model():
