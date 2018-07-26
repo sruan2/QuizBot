@@ -3,6 +3,7 @@
 2018 July 6
 '''
 import numpy as np
+import random
 import time
 
 from collections import defaultdict
@@ -81,10 +82,10 @@ class DASHSequencingModel(BaseSequencingModel):
     # random question selection
     def pickRandomQuestion(self, user_id, subject):
         if subject == 'random':
-            QID = np.random.randint(0, self.QA_KB.KBlength)
+            QID = random.randint(0, self.QA_KB.KBlength)
         # if subject is not random, then pick from the respective subject question bank
         else:
-            QID = np.random.choice(self.QA_KB.SubDict[subject])
+            QID = random.choice(self.QA_KB.SubDict[subject])
 
         # set current item 
         self.curr_item[user_id] = QID

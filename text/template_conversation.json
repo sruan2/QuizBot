@@ -29,10 +29,20 @@
         "CONGRATULATION": {
             "image": {
                 "image_url": [
-                    "https://www.smartprimer.org:{}/pictures/avatar/celebration.gif", 
-                    "https://www.smartprimer.org:{}/pictures/avatar/penguinnormal_happy.png", 
-                    "https://www.smartprimer.org:{}/pictures/avatar/penguinnormal_jubilated.png", 
-                    "https://www.smartprimer.org:{}/pictures/avatar/penguinnormal_normal.png"
+                    "https://www.smartprimer.org:{}/pictures/avatar/congrats/penguinnormal_happy_cyan.png", 
+                    "https://www.smartprimer.org:{}/pictures/avatar/congrats/penguinnormal_happy_orange.png", 
+                    "https://www.smartprimer.org:{}/pictures/avatar/congrats/penguinnormal_happy_pink.png", 
+                    "https://www.smartprimer.org:{}/pictures/avatar/congrats/penguinnormal_happy_purple.png", 
+                    "https://www.smartprimer.org:{}/pictures/avatar/congrats/penguinnormal_jubilated_cyan.png", 
+                    "https://www.smartprimer.org:{}/pictures/avatar/congrats/penguinnormal_jubilated_orange.png", 
+                    "https://www.smartprimer.org:{}/pictures/avatar/congrats/penguinnormal_jubilated_pink.png", 
+                    "https://www.smartprimer.org:{}/pictures/avatar/congrats/penguinnormal_jubilated_purple.png", 
+                    "https://www.smartprimer.org:{}/pictures/avatar/congrats/penguinnormal_normal_cyan.png", 
+                    "https://www.smartprimer.org:{}/pictures/avatar/congrats/penguinnormal_normal_orange.png", 
+                    "https://www.smartprimer.org:{}/pictures/avatar/congrats/penguinnormal_normal_pink.png", 
+                    "https://www.smartprimer.org:{}/pictures/avatar/congrats/penguinnormal_normal.png", 
+                    "https://www.smartprimer.org:{}/pictures/avatar/congrats/penguinnormal_normal_purple.png", 
+                    "https://www.smartprimer.org:{}/pictures/avatar/celebration.gif"
                 ], 
                 "template_type": "image"
             }
@@ -205,7 +215,7 @@
             "quick_reply": {
                 "message": {
                     "source": "LOCAL", 
-                    "text": "Hi {}! My name is Mr.Penguin \ud83d\udc27 and I\u2019m here to help you learn all about science\ud83d\udd2c, verbal reasoning (GRE)\ud83d\udcd6, and safety\ud83d\udd25!"
+                    "text": "Hi {}! My name is Frosty \ud83d\udc27 and I\u2019m here to help you learn all about science\ud83d\udd2c, verbal reasoning (GRE) \ud83d\udd20, and safety\ud83d\udee0!"
                 }, 
                 "payload": [
                     "GET_INTRO_2"
@@ -221,7 +231,9 @@
     }, 
     "TEMPLATE": {
         "ANOTHER_JOKE": [
-            "Another Joke \ud83d\ude01"
+            "Another Joke \ud83d\ude01", 
+            "Haha, One More \ud83d\ude01", 
+            "Haha, Another Joke \ud83d\ude01"
         ], 
         "ANSWER_CORRECT": [
             "That\u2019s right! \ud83c\udf89", 
@@ -232,10 +244,10 @@
             "Fantastic! \ud83d\udcaf"
         ], 
         "ANSWER_NOT_CORRECT": [
-            "I'm sorry, but that was incorrect. You didn't earn any points \ud83d\ude1e", 
-            "That's not quite right. You didn't earn any points \ud83d\ude1e", 
-            "Oops, that answer was incorrect. You didn't earn any points \ud83d\ude1e", 
-            "That wasn't quite what we were looking for. You didn't earn any points \ud83d\ude1e"
+            "I'm sorry, but that was incorrect. \ud83d\ude1e", 
+            "That's not quite right.  \ud83d\ude1e", 
+            "Oops, that answer was incorrect.  \ud83d\ude1e", 
+            "That wasn't quite what we were looking for.  \ud83d\ude1e"
         ], 
         "BUGREPORT": [
             "Okay, I\u2019ll take a note of that. Thanks for the feedback! \ud83d\udc4d\ud83c\udffc", 
@@ -245,7 +257,11 @@
         ], 
         "CHAT_WITH_ME": [
             "Do you want to hear a joke from me?", 
-            "I have a joke for you! Do you want to hear that?"
+            "I have some jokes for you! Do you want to hear them?", 
+            "Would you like me to tell you a joke?", 
+            "Would you want me to tell you a joke?", 
+            "Do you want me to tell you a joke?", 
+            "Great! I have some jokes for you! Are you interested?"
         ], 
         "CHOOSE_SUBJECT": [
             "Sure, which subject would you like me to quiz you on?\ud83d\udc47\ud83c\udffc", 
@@ -273,17 +289,25 @@
         ], 
         "CORRECT_HINT": [
             "Yes! You got the correct answer!", 
-            "Great! Keep it up! \ud83d\udcaa\ud83c\udffc"
+            "Great! Keep it up! \ud83d\udcaa\ud83c\udffc", 
+            "Nice! That was right!", 
+            "Great job!", 
+            "Nice work! Keep it up!", 
+            "Great job getting the correct answer!"
         ], 
         "DKB": [
-            "I'm sorry, but that was incorrect. You didn't earn any points \ud83d\ude1e", 
-            "That's not quite right. You didn't earn any points \ud83d\ude1e", 
-            "Oops, that wasn't quite correct. You didn't earn any points \ud83d\ude1e", 
-            "Hmm, that wasn't quite right. You didn't earn any points \ud83d\ude1e"
+            "I'm sorry, but that was incorrect. \ud83d\ude1e", 
+            "That's not quite right. \ud83d\ude1e", 
+            "Oops, that wasn't quite correct. \ud83d\ude1e", 
+            "Hmm, that wasn't quite right. \ud83d\ude1e", 
+            "Oops, that is not correct. \ud83d\ude1e"
         ], 
         "ENCOURAGE": [
             "Keep up the good work!", 
-            "Let's continue the good work!"
+            "Keep it up!", 
+            "Nice job! Keep going!", 
+            "Great job! Keep going!", 
+            "Good job! Keep up the good work!"
         ], 
         "ENCOURAGE_NO_GIVEUP": [
             "Okay! Let's try again \ud83d\udcaa\ud83c\udffc Tell me which of these is the right answer:", 
@@ -296,7 +320,8 @@
             "That's okay, you'll get it next time! \ud83d\ude04", 
             "Keep trying, you'll get it next time! \ud83d\ude04", 
             "Don't give up, you'll get it next time! \ud83d\ude04", 
-            "That's fine, you'll nail it next time! \ud83d\ude04"
+            "That's fine, you'll nail it next time! \ud83d\ude04", 
+            "No worries! You'll get it next time! \ud83d\ude04"
         ], 
         "EXPLANATION": [
             "Here's an explanation:", 
@@ -308,19 +333,24 @@
         "GIVE_JOKE": [
             "Here is an interesting one for you.", 
             "Here is a good one.", 
+            "Here's one I thought might be interesting", 
+            "Here's one I thought might be funny.", 
             "Here is an interesting one:"
         ], 
         "GOOD_JOB_GRE": [
             "You've done a very good job in GRE! Congrats!", 
-            "You are becoming a master in GRE!"
+            "You are becoming a master in GRE!", 
+            "Wow! You seem to getting a lot of GRE questions."
         ], 
         "GOOD_JOB_SAFETY": [
             "You've done a very good job in safety! Congrats!", 
-            "You are becoming a master in safety!"
+            "You are becoming a master in safety!", 
+            "Wow! You seem to know a lot about safety."
         ], 
         "GOOD_JOB_SCIENCE": [
             "You've done a very good job in science! Congrats!", 
-            "You are becoming a master in science!"
+            "You are becoming a master in science!", 
+            "Wow! You seem to know a lot about safety."
         ], 
         "GOT_IT": [
             "Got it \ud83d\udca1", 
@@ -461,7 +491,11 @@
             "Awesome! Let's learn about the GRE!"
         ], 
         "IF_GIVE_UP": [
-            "Are you sure you want to give up?"
+            "Are you sure you want to give up?", 
+            "Do you really want to give up?", 
+            "Are you sure you want to skip answering?", 
+            "Are you sure you want to skip this question?", 
+            "Do you really want to skip this question?"
         ], 
         "JOKE": [
             "Q. How do you make the number one disappear? A. Add the letter G and then presto\u2014it\u2019s Gone!", 
@@ -502,11 +536,9 @@
             "Pick one of the following answers."
         ], 
         "NO_POINT": [
-            "You didn't earn any points this time.", 
+            "You didn't get this question this time.", 
             "You didn't get it right this time.", 
-            "I'm sorry, you didn't earn any points this time.", 
-            "Oops, no points this time.", 
-            "Oh no! That didn't earn any points."
+            "I'm sorry, you didn't get the question right this time."
         ], 
         "QUESTION": [
             "Here's a question for you:", 
@@ -535,7 +567,13 @@
         ], 
         "REMINDER": [
             "{}, you haven't talked to me for a while. Do you want to continue the conversation with me?", 
-            " Hi {}, you haven't talked to me for a while. Would you like to resume the learning with me?"
+            " Hi {}, you haven't talked to me for a while. Would you like to resume the learning with me?", 
+            "We haven't talked in a while. Should we resume our conversation?"
+        ], 
+        "RESUME_LEARNING": [
+            "Resume Learning \ud83d\udcaa\ud83c\udffc", 
+            "Continue Learning \ud83d\udcaa\ud83c\udffc", 
+            "Another Question \ud83d\udcaa\ud83c\udffc"
         ], 
         "SAFETY": [
             "All right! I\u2019ll quiz you on safety!", 
@@ -554,6 +592,14 @@
             "Let's answer some questions about science!", 
             "Let's test your knowledge on science!", 
             "Awesome! Let's learn about science!"
+        ], 
+        "SOUNDS_INTERESTING": [
+            "That sounds interesting, but I haven't learned about this yet. I'll learn more languages in the future.", 
+            "Sorry but I haven't learned about this yet. I'll learn more languages in the future.", 
+            "Oh hey, I haven't learned this language yet. Maybe I'll learn languages from you in the future.", 
+            "That sounds cool. I need to learn more languages to keep up with the conversation with you. Maybe you can teach me languages in the future!", 
+            "Haha I haven't learned about this yet. You can teach me some languages later!", 
+            "I'm not sure what this is. I'm still learning languages and you might be my teacher in the future!"
         ], 
         "SUBJECT": [
             "SCIENCE", 
