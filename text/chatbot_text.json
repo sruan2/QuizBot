@@ -5,7 +5,7 @@
                 "message": [
                     {
                         "source": "LOCAL", 
-                        "text": "I'm Mr.Penguin \ud83d\udc27 and I'm a QuizBot to help you learn about science\ud83d\udd2c, verbal reasoning (GRE)\ud83d\udcd6, and safety\ud83d\udd25."
+                        "text": "I'm Frosty \ud83d\udc27 and I'm a QuizBot to help you learn about science\ud83d\udd2c, verbal reasoning (GRE) \ud83d\udd20, and safety\ud83d\udee0."
                     }, 
                     {
                         "source": "LOCAL", 
@@ -13,7 +13,11 @@
                     }, 
                     {
                         "source": "LOCAL", 
-                        "text": "I use technology in a scientific and creative way to help you learn knowledge."
+                        "text": "I'll use advanced question sequencing algorithms to tailor questions for your need and best your learning experience."
+                    }, 
+                    {
+                        "source": "LOCAL", 
+                        "text": "I'll evaluate your typing answers carefully using the NLP technology to assist you remembering the knowledge!"
                     }
                 ], 
                 "quick_reply": {
@@ -405,19 +409,22 @@
             "conversation_1": {
                 "message": [
                     {
-                        "source": "LOCAL", 
-                        "text": "That sounds interesting. Would you want more quiz questions to practice? I'm here to help \ud83d\ude04"
+                        "source": "TEMPLATE", 
+                        "text": "SOUNDS_INTERESTING"
                     }
                 ], 
                 "quick_reply": {
                     "payload": [
-                        "NEXT_QUESTION"
+                        "NEXT_QUESTION", 
+                        "CHAT_WITH_ME"
                     ], 
                     "source": [
-                        "TEMPLATE"
+                        "TEMPLATE", 
+                        "LOCAL"
                     ], 
                     "title": [
-                        "GOT_IT"
+                        "RESUME_LEARNING", 
+                        "Chat With Me \ud83d\udc27"
                     ]
                 }
             }

@@ -7,6 +7,7 @@
 
 
 TEMPLATE:
+  # button text
   GOT_IT:
     - Got it 💡
     - Got it 👊🏼
@@ -139,9 +140,15 @@ TEMPLATE:
 
   ANOTHER_JOKE:
     - Another Joke 😁 
-    - Here's another joke! 😁
-    - Haha, how about another one 😁
+    - Haha, One More 😁
+    - Haha, Another Joke 😁
 
+  RESUME_LEARNING:
+    - Resume Learning 💪🏼
+    - Continue Learning 💪🏼
+    - Another Question 💪🏼
+
+  # conversation text
   QUESTION:
     - "Here's a question for you:"
     - "Let's try this one."
@@ -196,10 +203,10 @@ TEMPLATE:
     - Cool! Let's keep going.
 
   ANSWER_NOT_CORRECT:
-    - I'm sorry, but that was incorrect. You didn't earn any points 😞
-    - That's not quite right. You didn't earn any points 😞
-    - Oops, that answer was incorrect. You didn't earn any points 😞
-    - That wasn't quite what we were looking for. You didn't earn any points 😞
+    - I'm sorry, but that was incorrect. 😞
+    - That's not quite right.  😞
+    - Oops, that answer was incorrect.  😞
+    - That wasn't quite what we were looking for.  😞
 
   ANSWER_CORRECT:
     - That’s right! 🎉
@@ -264,6 +271,11 @@ TEMPLATE:
     - Let's quiz you on a little bit of everything! 🎲
     - Nice! Enjoy a little variety? Let's answer some questions! 🎲
 
+  NO_POINT:
+    - You didn't get this question this time.
+    - You didn't get it right this time.
+    - I'm sorry, you didn't get the question right this time.
+
   NEED_HINT:
     - Okay. Which of these is the right answer?👇🏼
     - Which of the following options is the right answer?
@@ -272,18 +284,12 @@ TEMPLATE:
     - It's one of the following choices.
     - Pick one of the following answers.
 
-  NO_POINT:
-    - You didn't earn any points this time.
-    - You didn't get it right this time.
-    - I'm sorry, you didn't earn any points this time.
-    - Oops, no points this time.
-    - Oh no! That didn't earn any points.
-
   ENCOURAGE_YES_GIVEUP:
     - That's okay, you'll get it next time! 😄
     - Keep trying, you'll get it next time! 😄
     - Don't give up, you'll get it next time! 😄
     - That's fine, you'll nail it next time! 😄
+    - No worries! You'll get it next time! 😄
 
   ENCOURAGE_NO_GIVEUP:
     - "Okay! Let's try again 💪🏼 Tell me which of these is the right answer:"
@@ -296,17 +302,23 @@ TEMPLATE:
     - Keep up the good work!
     - Keep it up! 
     - Nice job! Keep going!
+    - Great job! Keep going!
+    - Good job! Keep up the good work!
 
   DKB:
-    - I'm sorry, but that was incorrect. You didn't earn any points 😞
-    - That's not quite right. You didn't earn any points 😞
-    - Oops, that wasn't quite correct. You didn't earn any points 😞
-    - Hmm, that wasn't quite right. You didn't earn any points 😞 
+    - I'm sorry, but that was incorrect. 😞
+    - That's not quite right. 😞
+    - Oops, that wasn't quite correct. 😞
+    - Hmm, that wasn't quite right. 😞 
+    - Oops, that is not correct. 😞
 
   CORRECT_HINT:
     - Yes! You got the correct answer!
     - Great! Keep it up! 💪🏼
     - Nice! That was right!
+    - Great job!
+    - Nice work! Keep it up!
+    - Great job getting the correct answer!
 
   REMINDER:
     - "{}, you haven't talked to me for a while. Do you want to continue the conversation with me?"
@@ -317,6 +329,9 @@ TEMPLATE:
     - Do you want to hear a joke from me?
     - I have some jokes for you! Do you want to hear them?
     - Would you like me to tell you a joke?
+    - Would you want me to tell you a joke?
+    - Do you want me to tell you a joke?
+    - Great! I have some jokes for you! Are you interested?
 
   GIVE_JOKE:
     - Here is an interesting one for you.
@@ -328,6 +343,9 @@ TEMPLATE:
   IF_GIVE_UP:
     - Are you sure you want to give up?
     - Do you really want to give up?
+    - Are you sure you want to skip answering?
+    - Are you sure you want to skip this question?
+    - Do you really want to skip this question?
 
   JOKE:
     - "Q. How do you make the number one disappear? A. Add the letter G and then presto\u2014it\u2019s Gone!"
@@ -358,6 +376,14 @@ TEMPLATE:
     - "Q: What do chemists\u2019 dogs do with their bones? A: They barium!"
     - "Q: Why don\u2019t cats play poker in the jungle? A: There are too many cheetahs."
     - "What did Beethoven say to Johann Sebastian when he was helping him parallel park? \u201cBach it up.\u201d"
+
+  SOUNDS_INTERESTING:
+    - That sounds interesting, but I haven't learned about this yet. I'll learn more languages in the future.
+    - Sorry but I haven't learned about this yet. I'll learn more languages in the future.
+    - Oh hey, I haven't learned this language yet. Maybe I'll learn languages from you in the future.
+    - That sounds cool. I need to learn more languages to keep up with the conversation with you. Maybe you can teach me languages in the future!
+    - Haha I haven't learned about this yet. You can teach me some languages later!
+    - I'm not sure what this is. I'm still learning languages and you might be my teacher in the future!
 
 STATE:
   QUESTION:
@@ -408,7 +434,7 @@ STATE:
         source:
           LOCAL
         text:
-          Hi {}! My name is Mr.Penguin 🐧 and I’m here to help you learn all about science🔬, verbal reasoning (GRE)📖, and safety🔥!
+          Hi {}! My name is Frosty 🐧 and I’m here to help you learn all about science🔬, verbal reasoning (GRE) 🔠, and safety🛠!
       source:
         - TEMPLATE
       title:
@@ -483,10 +509,20 @@ STATE:
       template_type: 
         image
       image_url: 
+        - https://www.smartprimer.org:{}/pictures/avatar/congrats/penguinnormal_happy_cyan.png
+        - https://www.smartprimer.org:{}/pictures/avatar/congrats/penguinnormal_happy_orange.png
+        - https://www.smartprimer.org:{}/pictures/avatar/congrats/penguinnormal_happy_pink.png
+        - https://www.smartprimer.org:{}/pictures/avatar/congrats/penguinnormal_happy_purple.png
+        - https://www.smartprimer.org:{}/pictures/avatar/congrats/penguinnormal_jubilated_cyan.png
+        - https://www.smartprimer.org:{}/pictures/avatar/congrats/penguinnormal_jubilated_orange.png
+        - https://www.smartprimer.org:{}/pictures/avatar/congrats/penguinnormal_jubilated_pink.png
+        - https://www.smartprimer.org:{}/pictures/avatar/congrats/penguinnormal_jubilated_purple.png
+        - https://www.smartprimer.org:{}/pictures/avatar/congrats/penguinnormal_normal_cyan.png
+        - https://www.smartprimer.org:{}/pictures/avatar/congrats/penguinnormal_normal_orange.png
+        - https://www.smartprimer.org:{}/pictures/avatar/congrats/penguinnormal_normal_pink.png
+        - https://www.smartprimer.org:{}/pictures/avatar/congrats/penguinnormal_normal.png
+        - https://www.smartprimer.org:{}/pictures/avatar/congrats/penguinnormal_normal_purple.png
         - https://www.smartprimer.org:{}/pictures/avatar/celebration.gif
-        - https://www.smartprimer.org:{}/pictures/avatar/penguinnormal_happy.png
-        - https://www.smartprimer.org:{}/pictures/avatar/penguinnormal_jubilated.png
-        - https://www.smartprimer.org:{}/pictures/avatar/penguinnormal_normal.png
 
   PERSISTENT_MENU:
     persistent_menu:

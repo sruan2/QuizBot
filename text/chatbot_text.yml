@@ -296,7 +296,7 @@ ABOUT_QUIZBOT:
         - source:
             LOCAL
           text:
-            I'm Mr.Penguin 🐧 and I'm a QuizBot to help you learn about science🔬, verbal reasoning (GRE)📖, and safety🔥.
+            I'm Frosty 🐧 and I'm a QuizBot to help you learn about science🔬, verbal reasoning (GRE) 🔠, and safety🛠.
         - source:
             LOCAL
           text:
@@ -304,7 +304,11 @@ ABOUT_QUIZBOT:
         - source:
             LOCAL
           text:
-            I use technology in a scientific and creative way to help you learn knowledge.
+            I'll use advanced question sequencing algorithms to tailor questions for your need and best your learning experience. 
+        - source:
+            LOCAL
+          text: 
+            I'll evaluate your typing answers carefully using the NLP technology to assist you remembering the knowledge!
       quick_reply:
         source:
           - TEMPLATE
@@ -626,14 +630,16 @@ MESSAGE_TEXT:
     conversation_1:
       message:
         - source:
-            LOCAL
+            TEMPLATE
           text:
-            That sounds interesting. Would you want more quiz questions to practice? I'm here to help 😄
+            SOUNDS_INTERESTING
       quick_reply:
         source:
           - TEMPLATE
+          - LOCAL
         title:
-          - GOT_IT
+          - RESUME_LEARNING
+          - Chat With Me 🐧
         payload:
           - NEXT_QUESTION 
-
+          - CHAT_WITH_ME 
