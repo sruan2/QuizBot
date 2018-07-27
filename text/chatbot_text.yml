@@ -1,0 +1,504 @@
+# chatbot_text.yml
+# Author: Liwei Jiang
+# Date: 03/07/2018
+# Usage: yaml file containts the chatbot sources
+
+GET_INTRO_1:
+  image:
+    image_1:
+      template_type: 
+        image
+      image_url: 
+        https://www.smartprimer.org:{}/pictures/avatar/quizbot_avatar.png
+
+GET_INTRO_2:
+  conversation:
+    conversation_1:
+      message:
+        - source:
+            LOCAL
+          text:
+            Here’s how it works.
+        - source:
+            LOCAL
+          text:
+            I ask you questions❓, and you give me answers.
+        - source:
+            LOCAL
+          text:
+            If you get the right answer, you earn points! 🎉
+      quick_reply:
+        source:
+          - TEMPLATE
+        title:
+          - GOT_IT
+        payload:
+          - GET_INTRO_3
+
+GET_INTRO_3:
+  image:
+    image_1:
+      template_type: 
+        image
+      image_url: 
+        https://www.smartprimer.org:{}/pictures/user_manual/typeanswer.png
+  conversation:
+    conversation_1:
+      message:
+        - source:
+            LOCAL
+          text:
+            To study the questions, you can type in ⌨️ your answers in the text field and QuizBot will evaluate the answers for you.
+        - source:
+            LOCAL
+          text:
+            For each question, you get 🔟 points if you get it right.
+      quick_reply:
+        source:
+          - TEMPLATE
+        title:
+          - GOT_IT
+        payload:
+          - GET_INTRO_4
+
+GET_INTRO_4:
+  image:
+    image_1:
+      template_type: 
+        image
+      image_url: 
+        https://www.smartprimer.org:{}/pictures/user_manual/needhintbutton.png
+    image_2:
+      template_type: 
+        image
+      image_url: 
+        https://www.smartprimer.org:{}/pictures/user_manual/hintoptions.png
+  conversation:
+    conversation_1:
+      message:
+        - source:
+            LOCAL
+          text:
+            If you don't know the answers, then feel free to tap on the hint button.💡
+        
+        - source:
+            LOCAL
+          text:
+            The hint will give you a list of potential answers and you can select one from them. 🔠
+
+        - source:
+            LOCAL
+          text:
+            If you choose the correct answer, then you will get at most 3️⃣ points.
+
+      quick_reply:
+        source:
+          - TEMPLATE
+        title:
+          - GOT_IT
+        payload:
+          - GET_INTRO_5
+
+GET_INTRO_5:
+  image:
+    image_1:
+      template_type: 
+        image
+      image_url: 
+        https://www.smartprimer.org:{}/pictures/user_manual/menubutton.jpg
+  conversation:
+    conversation_1:
+      message:
+        - source:
+            LOCAL
+          text:
+            To discover more abilities of me, you can click on the menu button.👆🏼
+      quick_reply:
+        source:
+          - TEMPLATE
+        title:
+          - GOT_IT
+        payload:
+          - GET_READY
+
+USER_MANUAL_1:
+  image:
+    image_1:
+      template_type: 
+        image
+      image_url: 
+        https://www.smartprimer.org:{}/pictures/user_manual/typeanswer.png
+  conversation:
+    conversation_1:
+      message:
+        - source:
+            LOCAL
+          text:
+            To study the questions, you can type in ⌨️ your answers in the text field and QuizBot will evaluate the answers for you.
+        - source:
+            LOCAL
+          text:
+            For each question, you get 🔟 points if you get it right.
+      quick_reply:
+        source:
+          - TEMPLATE
+        title:
+          - GOT_IT
+        payload:
+          - USER_MANUAL_2  
+
+USER_MANUAL_2:
+  image:
+    image_1:
+      template_type: 
+        image
+      image_url: 
+        https://www.smartprimer.org:{}/pictures/user_manual/needhintbutton.png
+    image_2:
+      template_type: 
+        image
+      image_url: 
+        https://www.smartprimer.org:{}/pictures/user_manual/hintoptions.png
+  conversation:
+    conversation_1:
+      message:
+        - source:
+            LOCAL
+          text:
+            If you don't know the answers, then feel free to tap on the hint button.💡
+        - source:
+            LOCAL
+          text:
+            The hint will give you a list of potential answers and you can select one from them. 🔠
+        - source:
+            LOCAL
+          text:
+            If you choose the correct answer, then you will get at most 3️⃣ points.
+      quick_reply:
+        source:
+          - TEMPLATE
+        title:
+          - GOT_IT
+        payload:
+          - USER_MANUAL_3   
+
+USER_MANUAL_3:
+  image:
+    image_1:
+      template_type: 
+        image
+      image_url: 
+        https://www.smartprimer.org:{}/pictures/user_manual/menubutton.jpg
+  conversation:
+    conversation_1:
+      message:
+        - source:
+            LOCAL
+          text:
+            To discover more abilities of me, you can click on the menu button.👆🏼
+      quick_reply:
+        source:
+          - TEMPLATE
+        title:
+          - GOT_IT
+        payload:
+          - USER_MANUAL_4  
+
+USER_MANUAL_4:
+  image:
+    image_1:
+      template_type: 
+        image
+      image_url: 
+        https://www.smartprimer.org:{}/pictures/user_manual/changesubjects_1.jpg
+    image_2:
+      template_type: 
+        image
+      image_url: 
+        https://www.smartprimer.org:{}/pictures/user_manual/changesubjects_2.jpg
+  conversation:
+    conversation_1:
+      message:
+        - source:
+            LOCAL
+          text:
+            You can change the subjects from the menu! 🔀
+      quick_reply:
+        source:
+          - TEMPLATE
+        title:
+          - GOT_IT
+        payload:
+          - USER_MANUAL_5   
+
+USER_MANUAL_5:
+  image:
+    image_1:
+      template_type: 
+        image
+      image_url: 
+        https://www.smartprimer.org:{}/pictures/user_manual/totalscorebutton.png
+  conversation:
+    conversation_1:
+      message:
+        - source:
+            LOCAL
+          text:
+            You can track your learning progress by clicking on the menu button to see your total score. 📝
+      quick_reply:
+        source:
+          - TEMPLATE
+        title:
+          - GOT_IT
+        payload:
+          - USER_MANUAL_6   
+
+USER_MANUAL_6:
+  image:
+    image_1:
+      template_type: 
+        image
+      image_url: 
+        https://www.smartprimer.org:{}/pictures/user_manual/morebutton.png
+  conversation:
+    conversation_1:
+      message:
+        - source:
+            LOCAL
+          text:
+            To look for other informations, you can click on the more button in the menu.📍
+      quick_reply:
+        source:
+          - TEMPLATE
+        title:
+          - GOT_IT
+        payload:
+          - USER_MANUAL_7   
+
+USER_MANUAL_7:
+  conversation:
+    conversation_1:
+      message:
+        - source:
+            LOCAL
+          text:
+            Okay, you are all set! 🎉
+      quick_reply:
+        source:
+          - TEMPLATE
+        title:
+          - GOT_IT
+        payload:
+          - NEXT_QUESTION   
+
+CONTACT:
+  conversation:
+    conversation_1:
+      message:
+        - source:
+            LOCAL
+          text:
+            If you have any questions, please contact the Protocol Director, Sherry Ruan at ssruan@stanford.edu, or Liwei Jiang at ljiang@colby.edu.
+
+      quick_reply:
+        source:
+          - TEMPLATE
+        title:
+          - GOT_IT
+        payload:
+          - CONTINUE  
+
+ABOUT_QUIZBOT:
+  conversation:
+    conversation_1:
+      message:
+        - source:
+            LOCAL
+          text:
+            I'm Mr. Owl 🦉 and I'm a QuizBot to help you learn about science🔬, verbal reasoning (GRE)📖, and safety🔥.
+        - source:
+            LOCAL
+          text:
+            I'm designed by a group of researchers from Stanford University Computer Science Department.
+        - source:
+            LOCAL
+          text:
+            I use technology in a scientific and interactive way to help you learn knowledge.
+      quick_reply:
+        source:
+          - TEMPLATE
+        title:
+          - GOT_IT
+        payload:
+          - CONTINUE   
+
+GET_READY:
+  conversation:
+    conversation_1:
+      message:
+        - source:
+            LOCAL
+          text:
+            I hope you enjoy the learning journey! 💯
+        - source:
+            LOCAL
+          text:
+            So, are you ready?
+      quick_reply:
+        source:
+          - LOCAL
+        title:
+          - Yup! I'm ready! ✊🏼
+        payload:
+          - YUP_IM_READY    
+
+YUP_IM_READY:
+  conversation:
+    conversation_1:
+      message:
+        - source:
+            LOCAL
+          text:
+            Great!
+        - source:
+            LOCAL
+          text:
+            Let’s get started 🚀
+      quick_reply:
+        source:
+          - LOCAL
+        title:
+          - Quiz me 🤓
+        payload:
+          - PRACTICE_MODE  
+
+I_DONT_KNOW:
+  conversation:
+    conversation_1:
+      message:
+        - source:
+            LOCAL
+          text:
+            Are you sure you want to give up?
+      quick_reply:
+        source:
+          - LOCAL
+          - LOCAL
+        title:
+          - Yes, answer please.
+          - No, I'll try again!
+        payload:
+          - GIVEUP_YES  
+          - GIVEUP_NO
+
+REPORT_BUG:
+  conversation:
+    conversation_1:
+      message:
+        - source:
+            TEMPLATE
+          text:
+            BUGREPORT
+      quick_reply:
+        source:
+          - LOCAL
+          - LOCAL
+        title:
+          - Next question 💪
+          - Switch Subject 🔀
+        payload:
+          - NEXT_QUESTION  
+          - SWITCH_SUBJECT  
+
+CONTINUE:
+  conversation:
+    conversation_1:
+      message:
+        - source:
+            TEMPLATE
+          text:
+            CONTINUE
+      quick_reply:
+        source:
+          - TEMPLATE
+        title:
+          - GOT_IT
+        payload:
+          - NEXT_QUESTION  
+
+SCIENCE:
+  sentence:
+    sentence_1:
+      source:
+        TEMPLATE
+      text:
+        SCIENCE
+          
+GRE:
+  sentence:
+    sentence_1:
+      source:
+        TEMPLATE
+      text:
+        GRE
+
+SAFETY:
+  sentence:
+    sentence_1:
+      source:
+        TEMPLATE
+      text:
+        SAFETY
+
+RANDOM:
+  sentence:
+    sentence_1:
+      source:
+        TEMPLATE
+      text:
+        RANDOM
+
+NEED_HINT:
+  sentence:
+    sentence_1:
+      source:
+        TEMPLATE
+      text:
+        NEED_HINT 
+
+
+GIVEUP_YES:
+  paragraph:
+    paragraph_1:
+      - source:
+          TEMPLATE
+        text:
+          NO_POINT
+      - source:
+          TEMPLATE
+        text:
+          ENCOURAGE_YES_GIVEUP
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
