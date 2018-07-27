@@ -119,7 +119,8 @@ def webhook():
                                         'current_qid': qid,
                                         'current_subject': subject,
                                         'begin_uid': begin_uid,
-                                        'waiting_for_answer': 0}
+                                        'waiting_for_answer': 0,
+                                        'if_explanation_text': False}
                     pretty_print('Insert the user into cache', mode='Cache')
                     user_history_data = db.show_user_history(mysql, sender_id) # tuple of (qid, score, time_stamp)
                     pretty_print('Retrieve the user history from [user_history]', mode='Database')
@@ -135,7 +136,8 @@ def webhook():
                                         'current_qid': None,
                                         'current_subject': None,
                                         'begin_uid': None,
-                                        'waiting_for_answer': 0}
+                                        'waiting_for_answer': 0,
+                                        'if_explanation_text': False}
                     pretty_print('Insert a user into cache', mode='Cache')
 
                 pretty_print('firstname: '+str(cache[sender_id]['firstname']))
@@ -143,6 +145,7 @@ def webhook():
                 pretty_print('current_subject: '+str(cache[sender_id]['current_subject']))
                 pretty_print('begin_uid: '+str(cache[sender_id]['begin_uid']))
                 pretty_print('waiting_for_answer: '+str(cache[sender_id]['waiting_for_answer']))
+                pretty_print('if_explanation_text: '+str(cache[sender_id]['if_explanation_text']))
 
             # User clicked/tapped "postback" button in Persistent menu
             if messaging_event.get("postback"):

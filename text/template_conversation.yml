@@ -140,8 +140,13 @@ TEMPLATE:
 
   ANOTHER_JOKE:
     - Another Joke 😁 
-    - Haha, One More 😁
+    - Haha, One More Joke 😁
     - Haha, Another Joke 😁
+
+  ANOTHER_FUN_FACT_SCIENCE:
+    - Another Fun Fact💡
+    - Learn More Fun Fact💡
+    - More Fun Fact💡
 
   RESUME_LEARNING:
     - Resume Learning 💪🏼
@@ -149,6 +154,11 @@ TEMPLATE:
     - Another Question 💪🏼
 
   # conversation text
+  PLEASE_TYPE:
+    - If you know the answer, you can type it in and I'll help you to evaluate the answer!
+    - Please type your answer in if you know it!
+    - Remember that you can always type in you answer and I'll help you to evaluate it!
+
   QUESTION:
     - "Here's a question for you:"
     - "Let's try this one."
@@ -326,6 +336,14 @@ TEMPLATE:
     - "We haven't talked in a while. Should we resume our conversation?"
 
   CHAT_WITH_ME:
+    - Do you want to hear some interesting things from me?
+    - I have something interesting for you! Do you want to hear them?
+    - Would you like me to tell you something interesting?
+    - Would you want me to tell you something interesting?
+    - Do you want me to tell you something fun?
+    - Great! I have something fun for you!
+
+  IF_JOKE:
     - Do you want to hear a joke from me?
     - I have some jokes for you! Do you want to hear them?
     - Would you like me to tell you a joke?
@@ -336,9 +354,16 @@ TEMPLATE:
   GIVE_JOKE:
     - Here is an interesting one for you.
     - Here is a good one.
-    - Here's one I thought might be interesting
+    - Here's one I thought might be interesting.
     - Here's one I thought might be funny.
     - "Here is an interesting one:"
+
+  GIVE_FUN_FACT_SCIENCE:
+    - Here is a fun fact for you.
+    - Here is a good one.
+    - Here's one I thought might be interesting.
+    - Here's one I thought might be fun.
+    - Here is an interesting one.
 
   IF_GIVE_UP:
     - Are you sure you want to give up?
@@ -346,6 +371,14 @@ TEMPLATE:
     - Are you sure you want to skip answering?
     - Are you sure you want to skip this question?
     - Do you really want to skip this question?
+
+  SOUNDS_INTERESTING:
+    - That sounds interesting, but I haven't learned about this yet. I'll learn more languages in the future.
+    - Sorry but I haven't learned about this yet. I'll learn more languages in the future.
+    - Oh hey, I haven't learned this language yet. Maybe I'll learn languages from you in the future.
+    - That sounds cool. I need to learn more languages to keep up with the conversation with you. Maybe you can teach me languages in the future!
+    - Haha I haven't learned about this yet. You can teach me some languages later!
+    - I'm not sure what this is. I'm still learning languages and you might be my teacher in the future!
 
   JOKE:
     - "Q. How do you make the number one disappear? A. Add the letter G and then presto\u2014it\u2019s Gone!"
@@ -377,21 +410,67 @@ TEMPLATE:
     - "Q: Why don\u2019t cats play poker in the jungle? A: There are too many cheetahs."
     - "What did Beethoven say to Johann Sebastian when he was helping him parallel park? \u201cBach it up.\u201d"
 
-  SOUNDS_INTERESTING:
-    - That sounds interesting, but I haven't learned about this yet. I'll learn more languages in the future.
-    - Sorry but I haven't learned about this yet. I'll learn more languages in the future.
-    - Oh hey, I haven't learned this language yet. Maybe I'll learn languages from you in the future.
-    - That sounds cool. I need to learn more languages to keep up with the conversation with you. Maybe you can teach me languages in the future!
-    - Haha I haven't learned about this yet. You can teach me some languages later!
-    - I'm not sure what this is. I'm still learning languages and you might be my teacher in the future!
+  # Reference: https://www.livescience.com/28170-25-fun-facts.html
+  # Reference: https://www.sciencealert.com/13-science-facts-never-learned-high-school-2018
+  # Reference: http://www.hightechscience.org/funfacts.htm
+  FUN_FACT_SCIENCE:
+    - Female sharks have thicker skins than males.
+    - The ocean is 8 Empire State Buildings deep on average.
+    - There are 206 bones in the adult human body and there are 300 in children (as they grow some of the bones fuse together).
+    - The water is stored in the camel's bloodstream, rather than being stored in its fatty hump, which serves as a source of nourishment when food is scarce.
+    - The male platypus has a venomous spur on its hind foot capable of dispensing a poison that can kill a medium-sized dog.
+    - Water can boil and freeze at the same time.
+    - Lasers can get trapped in a waterfall.
+    - Flea's can jump 130 times higher than their own height. In human terms this is equal to a 6ft. person jumping 780 ft. into the air.
+    - The most dangerous animal in the world is the common housefly. Because of their habits of visiting animal waste, they transmit more diseases than any other animal.
+    - Snakes are true carnivorous because they eat nothing but other animals. They do not eat any type of plant material.
+    - The world's largest amphibian is the giant salamander. It can grow up to 5 ft. in length.
+    - In 100 years ago, the first virus was found in both plants and animals.
+    - In 90 years ago, the Grand Canyon became a national monument & Cellophane is invented.
+    - The smallest bone in the human body is the stapes or stirrup bone located in the middle ear. It is approximately .11 inches (.28 cm) long.
+    - The longest cells in the human body are the motor neurons. They can be up to 4.5 feet (1.37 meters) long and run from the lower spinal cord to the big toe.
+    - The blue whale can produce sounds up to 188 decibels. This is the loudest sound produced by a living animal and has been detected as far away as 530 miles.
+    - The largest man-made lake in the U.S. is Lake Mead, created by Hoover Dam.
+    - The poison arrow frogs of South and Central America are the most poisonous animals in the world.
+    - A new born blue whale measures 20-26 feet (6.0 - 7.9 meters) long and weighs up to 6,614 pounds (3003 kg).
+    - The first coast-to-coast telephone line was established in 1914.
+    - The Stegosaurus dinosaur measured up to 30 feet (9.1 meters) long but had a brain the size of a walnut.
+    - The human eye blinks an average of 4,200,000 times a year.
+    - It takes approximately 12 hours for food to entirely digest.
+    - Human jaw muscles can generate a force of 200 pounds (90.8 kilograms) on the molars.
+    - An inch (2.5 centimeters) of rain water is equivalent to 15 inches (38.1 centimeters) of dry, powdery snow.
+    - 40 to 50 percent of body heat can be lost through the head (no hat) as a result of its extensive circulatory network.
+    - The longest living cells in the body are brain cells which can live an entire lifetime.
+    - The ears of a cricket are located on the front legs, just below the knee.
+    - The hottest planet in the solar system is Venus, with an estimated surface temperature of 864 F (462 C).
+    - The cosmos contains approximately 50,000,000,000 galaxies.
+    - According to an old English system of time units, a moment is one and a half minutes.
+    - The typewriter was invented in 1829, and the automatic dishwasher in 1889.
+    - When glass breaks, the cracks move at speeds of up to 3,000 miles per hour.
+    - By raising your legs slowly and laying on your back, you can't sink in quicksand.
+    - Ten minutes of one hurricane contains enough energy to match the nuclear stockpiles of the world.
+    - Diamonds are the hardest substance known to man.
+    - There is a high and low tide because of our moon and the Sun.
+    - If you could drive to the sun -- at 55 miles per hour -- it would take about 193 years.
+    - Hawaii is moving toward Japan 4 inches every year.
+    - Sunlight can penetrate clean ocean water to a depth of 240 feet.
+    - Shrimp's hearts are in their heads.
+    - It's impossible to sneeze with your eyes open.
+    - A cat's jaws cannot move sideways.
+    - Tigers have striped skin, not just striped fur.
 
 STATE:
   QUESTION:
-    message:
+    message_1:
       source:
         TEMPLATE
       text:
         QUESTION
+    message_2:
+      source:
+        TEMPLATE
+      text:
+        PLEASE_TYPE
     quick_reply:  
       message:
         source:

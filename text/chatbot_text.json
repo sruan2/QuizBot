@@ -17,7 +17,7 @@
                     }, 
                     {
                         "source": "LOCAL", 
-                        "text": "I'll evaluate your typing answers carefully using the NLP technology to assist you remembering the knowledge!"
+                        "text": "I'll evaluate your typing answers carefully using advanced NLP technology to assist you remembering the knowledge!"
                     }
                 ], 
                 "quick_reply": {
@@ -65,13 +65,16 @@
                 ], 
                 "quick_reply": {
                     "payload": [
-                        "JOKE"
+                        "JOKE", 
+                        "FUN_FACT_SCIENCE"
                     ], 
                     "source": [
-                        "TEMPLATE"
+                        "LOCAL", 
+                        "LOCAL"
                     ], 
                     "title": [
-                        "GOT_IT"
+                        "Joke \ud83d\ude01", 
+                        "Fun Fact \ud83d\udca1"
                     ]
                 }
             }
@@ -118,6 +121,39 @@
                     ], 
                     "title": [
                         "GOT_IT"
+                    ]
+                }
+            }
+        }
+    }, 
+    "FUN_FACT_SCIENCE": {
+        "conversation": {
+            "conversation_1": {
+                "message": [
+                    {
+                        "source": "TEMPLATE", 
+                        "text": "GIVE_FUN_FACT_SCIENCE"
+                    }, 
+                    {
+                        "source": "TEMPLATE", 
+                        "text": "FUN_FACT_SCIENCE"
+                    }
+                ], 
+                "quick_reply": {
+                    "payload": [
+                        "FUN_FACT_SCIENCE", 
+                        "JOKE", 
+                        "NEXT_QUESTION"
+                    ], 
+                    "source": [
+                        "TEMPLATE", 
+                        "LOCAL", 
+                        "LOCAL"
+                    ], 
+                    "title": [
+                        "ANOTHER_FUN_FACT_SCIENCE", 
+                        "Joke \ud83d\ude01", 
+                        "Continue Learning \ud83d\udcaa\ud83c\udffc"
                     ]
                 }
             }
@@ -390,14 +426,17 @@
                 "quick_reply": {
                     "payload": [
                         "JOKE", 
+                        "FUN_FACT_SCIENCE", 
                         "NEXT_QUESTION"
                     ], 
                     "source": [
                         "TEMPLATE", 
+                        "LOCAL", 
                         "LOCAL"
                     ], 
                     "title": [
                         "ANOTHER_JOKE", 
+                        "Fun Fact \ud83d\udca1", 
                         "Continue Learning \ud83d\udcaa\ud83c\udffc"
                     ]
                 }

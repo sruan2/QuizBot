@@ -308,7 +308,7 @@ ABOUT_QUIZBOT:
         - source:
             LOCAL
           text: 
-            I'll evaluate your typing answers carefully using the NLP technology to assist you remembering the knowledge!
+            I'll evaluate your typing answers carefully using advanced NLP technology to assist you remembering the knowledge!
       quick_reply:
         source:
           - TEMPLATE
@@ -559,11 +559,14 @@ CHAT_WITH_ME:
             CHAT_WITH_ME
       quick_reply:
         source:
-          - TEMPLATE
+          - LOCAL
+          - LOCAL
         title:
-          - GOT_IT
+          - Joke 😁
+          - Fun Fact 💡
         payload:
           - JOKE  
+          - FUN_FACT_SCIENCE
 
 JOKE:
   conversation:
@@ -581,12 +584,42 @@ JOKE:
         source:
           - TEMPLATE
           - LOCAL
+          - LOCAL
         title:
           - ANOTHER_JOKE
+          - Fun Fact 💡
           - Continue Learning 💪🏼
         payload:
           - JOKE
-          - NEXT_QUESTION     
+          - FUN_FACT_SCIENCE
+          - NEXT_QUESTION 
+
+FUN_FACT_SCIENCE:
+  conversation:
+    conversation_1:
+      message:
+        - source:
+            TEMPLATE
+          text:
+            GIVE_FUN_FACT_SCIENCE
+        - source:
+            TEMPLATE
+          text:
+            FUN_FACT_SCIENCE
+      quick_reply:
+        source:
+          - TEMPLATE
+          - LOCAL
+          - LOCAL
+        title:
+          - ANOTHER_FUN_FACT_SCIENCE
+          - Joke 😁
+          - Continue Learning 💪🏼
+        payload:
+          - FUN_FACT_SCIENCE
+          - JOKE
+          - NEXT_QUESTION 
+
 
 NEED_HINT: 
   conversation:
