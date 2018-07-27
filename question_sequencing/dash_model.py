@@ -3,8 +3,8 @@
 2018 July 6
 '''
 import numpy as np
-import random
 import time
+import random
 
 from collections import defaultdict
 from base_model import BaseSequencingModel
@@ -22,8 +22,9 @@ def sigmoid(x):
 class DASHSequencingModel(BaseSequencingModel):
     '''Pick next question using leitner sequence model'''
     def __init__(self, qa_kb, max_steps=1000, num_windows=100, threshold=0.01,
-                 student_ability=0, decay_student_ability=0):
+                 student_ability=0, decay_student_ability=0, verbose = False):
         BaseSequencingModel.__init__(self, qa_kb)
+        self.verbose = verbose
         self.num_items = self.QA_KB.KBlength
         self.num_windows = num_windows
         self.window_size = max_steps // self.num_windows
@@ -41,7 +42,8 @@ class DASHSequencingModel(BaseSequencingModel):
         self.num_attempts = defaultdict(lambda: np.zeros((self.num_items, self.num_windows)))
 
         # parameters to be adjusted, set to default values for now
-        self.delay_coeff = np.exp(np.random.normal(0, 0.01))
+        # self.delay_coeff = np.exp(np.random.normal(0, 0.01))
+        self.delay_coeff = .01
         self.student_ability = student_ability
         self.decay_student_ability = decay_student_ability
         self.item_difficulties = np.random.normal(1,1,self.num_items) 
@@ -50,6 +52,7 @@ class DASHSequencingModel(BaseSequencingModel):
         window_nw = window_weights(self.num_windows)
         self.window_weights_cw = np.tile(window_cw, self.num_items).reshape((self.num_items, self.num_windows))
         self.window_weights_nw = np.tile(window_nw, self.num_items).reshape((self.num_items, self.num_windows))
+
 
     # current window of the current step
     def get_current_window(self, step):
@@ -100,6 +103,11 @@ class DASHSequencingModel(BaseSequencingModel):
  
     def thresholdPickQuestion(self, user_id, subject):
         likelihoods = self.get_likelihoods(user_id) 
+
+        if self.verbose:
+            np.set_printoptions(suppress = True)
+            print(likelihoods)
+
         # pick next item by closest to threshold
         if subject == 'random':
             id_list = list(range(self.num_items))

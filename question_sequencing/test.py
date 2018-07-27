@@ -14,7 +14,7 @@ from QAKnowledgebase import QAKnowlegeBase
 
 
 '''Module-level constants'''
-ITERATIONS = 20
+ITERATIONS = 100
 
 
 if __name__ == '__main__':
@@ -29,27 +29,35 @@ if __name__ == '__main__':
     #     print(data['qid'])
         
     # Construct the question sequencing model from here
-    model = LeitnerSequencingModel(qa_kb)
+    # model = LeitnerSequencingModel(qa_kb)
 
-    # Run the simulation for 20 iterations
-    for i in range(ITERATIONS):
-        data = model.pickNextQuestion(user_id = 5, subject = 'science')
-        outcome = 1 if random.random() < 0.9 else 0
-        model.updateHistory(outcome, user_id = 5)
-        print("item {} outcome {} ".format(data['qid'], outcome))
+    # # Run the simulation for 20 iterations
+    # for i in range(ITERATIONS):
+    #     data = model.pickNextQuestion(user_id = 5, subject = 'science')
+    #     outcome = 1 if random.random() < 0.9 else 0
+    #     model.updateHistory(outcome, user_id = 5)
+    #     print("item {} outcome {} ".format(data['qid'], outcome))
 
-    model = SM2SequencingModel(qa_kb)
+    # model = SM2SequencingModel(qa_kb)
 
-    for i in range(ITERATIONS):
-        data = model.pickNextQuestion(subject = 'science', user_id = 5)
-        outcome = 1 if random.random() < 0.6 else 0
-        model.updateHistory(outcome, user_id = 5)
-        print("item {} outcome {}".format(data['qid'], outcome))
+    # for i in range(ITERATIONS):
+    #     data = model.pickNextQuestion(subject = 'science', user_id = 5)
+    #     outcome = 1 if random.random() < 0.6 else 0
+    #     model.updateHistory(outcome, user_id = 5)
+    #     print("item {} outcome {}".format(data['qid'], outcome))
+
+    user_id = 5
 
     model = DASHSequencingModel(qa_kb)
     for i in range(ITERATIONS):
-        data = model.pickNextQuestion(subject = 'science', user_id = 5)
+        data = model.pickNextQuestion(user_id, 'science')
         outcome = 1 if random.random() < 0.5 else 0
-        model.updateHistory(outcome, user_id = 5)
+
+        current_time = model.update_time[user_id]
+        time_object = time.localtime(int(current_time))
+        timestamp = time.strftime("%Y-%m-%d %H:%M:%S", time_object)
+
+        user_data = (data['qid'], outcome, timestamp)
+        model.updateHistory(5, user_data)
         time.sleep(0.5)
         print("item {} outcome {}".format(data['qid'], outcome))
