@@ -48,7 +48,7 @@ if __name__ == '__main__':
 
     user_id = 5
 
-    model = DASHSequencingModel(qa_kb)
+    model = DASHSequencingModel(qa_kb, verbose = False)
     for i in range(ITERATIONS):
         data = model.pickNextQuestion(user_id, 'science')
         outcome = 1 if random.random() < 0.5 else 0
