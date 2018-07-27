@@ -3,14 +3,18 @@
 2018 July 6
 '''
 
+import random
+import time
+
 from random_model import RandomSequencingModel
 from leitner_model import LeitnerSequencingModel
 from SM2_model import SM2SequencingModel
+from dash_model import DASHSequencingModel
 from QAKnowledgebase import QAKnowlegeBase
-import random
+
 
 '''Module-level constants'''
-ITERATIONS = 20
+ITERATIONS = 100
 
 
 if __name__ == '__main__':
@@ -18,21 +22,42 @@ if __name__ == '__main__':
     json_file = '../QAdataset/questions_filtered_150_quizbot.json'
     qa_kb = QAKnowlegeBase(json_file)
 
+    # model = RandomSequencingModel(qa_kb)
+
+    # for i in range(ITERATIONS):
+    #     data = model.pickNextQuestion(user_id = 5, subject = 'science')
+    #     print(data['qid'])
+        
     # Construct the question sequencing model from here
-    model = LeitnerSequencingModel(qa_kb)
+    # model = LeitnerSequencingModel(qa_kb)
 
-    # Run the simulation for 20 iterations
+    # # Run the simulation for 20 iterations
+    # for i in range(ITERATIONS):
+    #     data = model.pickNextQuestion(user_id = 5, subject = 'science')
+    #     outcome = 1 if random.random() < 0.9 else 0
+    #     model.updateHistory(outcome, user_id = 5)
+    #     print("item {} outcome {} ".format(data['qid'], outcome))
+
+    # model = SM2SequencingModel(qa_kb)
+
+    # for i in range(ITERATIONS):
+    #     data = model.pickNextQuestion(subject = 'science', user_id = 5)
+    #     outcome = 1 if random.random() < 0.6 else 0
+    #     model.updateHistory(outcome, user_id = 5)
+    #     print("item {} outcome {}".format(data['qid'], outcome))
+
+    user_id = 5
+
+    model = DASHSequencingModel(qa_kb, verbose = False)
     for i in range(ITERATIONS):
-        picked_question, QID = model.pickNextQuestion()
-        outcome = 1 if random.random() < 0.9 else 0 
-        model.updateHistory(outcome)
-        print("item {} outcome {} current queue {}".format(QID, outcome, model.curr_q))
+        data = model.pickNextQuestion(user_id, 'science')
+        outcome = 1 if random.random() < 0.5 else 0
 
-    model = SM2SequencingModel(qa_kb)
+        current_time = model.update_time[user_id]
+        time_object = time.localtime(int(current_time))
+        timestamp = time.strftime("%Y-%m-%d %H:%M:%S", time_object)
 
-    for i in range(ITERATIONS):
-    	picked_question, QID = model.pickNextQuestion()
-    	outcome = 1 if random.random() < 0.9 else 0
-    	model.updateHistory(outcome)
-    	print("priority {}".format(model.order[0][0]))
-    	print("item {} outcome {}".format(QID, outcome))
+        user_data = (data['qid'], outcome, timestamp)
+        model.updateHistory(5, user_data)
+        time.sleep(0.5)
+        print("item {} outcome {}".format(data['qid'], outcome))

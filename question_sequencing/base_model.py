@@ -1,5 +1,4 @@
 '''Base Question Sequencing Model
-
 2018 July 5
 '''
 
@@ -13,18 +12,24 @@ class BaseSequencingModel():
 
     def __init__(self, qa_kb):
         '''initialization of the question sequencing Model
-
         Args:
             qa_kb: knowledge base containing all question data
         '''
         pretty_print("Question sequencing model initialization", mode="Seq Model")
         self.QA_KB = qa_kb
-        # a dictionary mapping 150 questions to user's answer history
-        self.correct_history = {}
-
+        # list of the users currently loaded into memory
+        self.loaded_users = []
 
     @abstractmethod
-    def pickNextQuestion(self):
+    def loadUserData(self, user_id, user_history_data):
+        '''
+        Args:
+            user_history: a list of tuples representing qid (int), outcome (float [0,1]), timestamp (str)
+        '''
+        pass
+
+    @abstractmethod
+    def pickNextQuestion(self, user_id = 0, subject = "random"):
         '''Return the next question customized for the given student
         Returns:
             picked_question: str of picked question text.
@@ -35,10 +40,7 @@ class BaseSequencingModel():
 
 
     @abstractmethod
-    def updateHistory(self, outcome):
+    def updateHistory(self, user_id, user_data):
         # TODO:
         # a history of correctness
         pass
-
-
-

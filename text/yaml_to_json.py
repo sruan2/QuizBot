@@ -25,5 +25,4 @@ def yaml_to_json():
         except yaml.YAMLError as exc:
             print(exc)
 
-
 yaml_to_json()

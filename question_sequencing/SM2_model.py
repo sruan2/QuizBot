@@ -2,32 +2,44 @@
 
 2018 July 6
 '''
+import heapq
+import random
+from collections import defaultdict
 
 from base_model import BaseSequencingModel
-import heapq
 
 class Question():
-    def __init__(self, id):
+    def __init__(self, id, subject):
         self.easiness = 2.5
         self.num_repetitions = 0
         self.priority = id
+        self.subject = subject 
         self.id = id
 
     # for heap item comparison
     def __lt__(self, other):
         return self.id < other.id
 
+
 class SM2SequencingModel(BaseSequencingModel):
     '''Pick next question using SM2 scheduling algorithm'''
-
     def __init__(self, qa_kb):
         BaseSequencingModel.__init__(self, qa_kb)
-        self.cur_question = None       
         self.num_items = self.QA_KB.KBlength                        
-        self.questions = [Question(i) for i in range(self.num_items)]
-        self.order = []
-        for i in range(self.num_items):
-            heapq.heappush(self.order, (self.questions[i].priority, self.questions[i]))
+        self.subjects = self.QA_KB.SubKB
+
+        def init_order():
+            subject_order = {subject : [] for subject in self.QA_KB.SubKB}
+            for subject, question_list in self.QA_KB.SubDict.items():
+                for qid in question_list:
+                    question = Question(qid, subject)
+                    heapq.heappush(subject_order[subject], (question.priority, question))
+            return subject_order
+
+        # maps from user id to the respective parameters necessary for the model
+        self.cur_question = {}
+        self.current_subject = {}
+        self.user_subject_order = defaultdict(init_order)
 
     # get the time until next viewing
     def get_interval(self, n, question):
@@ -37,16 +49,34 @@ class SM2SequencingModel(BaseSequencingModel):
         else:
             return self.get_interval(n-1, question)*ef
 
-    def pickNextQuestion(self):
-        priority, question = heapq.heappop(self.order)
-        self.cur_question = question
-        QID = question.id
-        picked_question = self.QA_KB.QKB[QID]
-        return picked_question, QID
+    def pickNextQuestion(self, user_id = 0, subject = 'random'):
+        if user_id not in self.loaded_users:
+            self.loadUserData(user_id)
+            self.loaded_users.append(user_id)
 
-    def updateHistory(self, outcome):
-        '''update the easiness factor and the history'''
-        question = self.cur_question
+        # pick a random subject if random
+        if subject == 'random':
+            subject = random.choice(self.subjects)
+
+        # update the current subject and get the order
+        self.current_subject[user_id] = subject
+        order = self.user_subject_order[user_id][subject]
+
+        priority, question = heapq.heappop(order)
+        self.cur_question[user_id] = question
+        QID = question.id
+        
+        data = {'question' : self.QA_KB.QKB[QID],
+                'qid' : QID,
+                'correct_answer': self.QA_KB.AKB[QID],
+                'support' : self.QA_KB.SKB[QID],
+                'distractor' : self.QA_KB.DKB[QID]}
+
+        return data
+
+    # subjection to do update simulations to parameters
+    def updateParameters(self, question, outcome, user_id):
+        subject = question.subject
         if not outcome:
             question.num_repetitions = 0
         else:
@@ -58,4 +88,15 @@ class SM2SequencingModel(BaseSequencingModel):
                 question.easiness += 0.1 - (5-response)*(0.08+(5-response)*0.02)
 
         question.priority += self.get_interval(question.num_repetitions, question)
-        heapq.heappush(self.order, (question.priority, question))
+        heapq.heappush(self.user_subject_order[user_id][subject], (question.priority, question))
+    
+    # TODO: implement loading user data from file 
+    def loadUserData(self, user_id):
+        pass
+
+    def updateHistory(self, user_id, user_data):
+        qid, outcome, timestamp = user_data
+        '''update the easiness factor and the history'''
+        # question = self.cur_question[user_id]
+
+        self.updateParameters(qid, outcome, user_id)
