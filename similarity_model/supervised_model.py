@@ -1,5 +1,7 @@
+import os.path
 import sys
-sys.path.append("./.")
+sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
+
 import numpy as np
 from nltk import RegexpTokenizer
 from keras.models import Sequential, Model
@@ -7,9 +9,9 @@ from keras.layers import Dense, Input, concatenate
 from keras.optimizers import Adam
 import pickle
 
-# from messages import MESSAGES, EXAMPLE_MESSAGES
-from similarity_model.sif_implementation.wordembeddings import EmbeddingVectorizer
+from similarity_model.messages import MESSAGES, EXAMPLE_MESSAGES
 from QAKnowledgebase import QAKnowlegeBase
+from similarity_model.sif_implementation.wordembeddings import EmbeddingVectorizer
 from similarity_model.sif_implementation.utils import *
 
 '''This is the test function for semi supervised model 
