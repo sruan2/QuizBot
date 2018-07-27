@@ -9,7 +9,7 @@ from keras.layers import Dense, Input, concatenate
 from keras.optimizers import Adam
 import pickle
 
-# from messages import MESSAGES, EXAMPLE_MESSAGES
+from similarity_model.messages import MESSAGES, EXAMPLE_MESSAGES
 from QAKnowledgebase import QAKnowlegeBase
 from similarity_model.sif_implementation.wordembeddings import EmbeddingVectorizer
 from similarity_model.sif_implementation.utils import *

@@ -23,6 +23,11 @@ messages = [
 		['human activity', 'careless human activity'],
 		# heat
 		['heat', 'thermal energy'],
+		# not the same
+		['kinetic energy'],
+		['nervous', 'central nervous system'],
+		['neural'],
+		['sexual reproduction', 'sexual'],
 		# atom nucleus
 		['atom nucleus', 'the nucleus'],
 		# nuclear
@@ -32,7 +37,8 @@ messages = [
 		# plural
 		['2 hour', '2 hours'],
 		# synonyms
-		['right', 'correct']]
+		['right', 'correct'],
+		['you are right', 'you are correct']]
 
 with open(file, 'w') as f:
 	for array_index in range(len(messages)):
