@@ -185,9 +185,15 @@ def send_question(mysql, recipient_id, template_conversation, qa_model, cache):
     subject = cache[recipient_id]['current_subject'] if cache[recipient_id]['current_subject'] != None else 'random'
     question, qid = qa_model.pickQuestion(recipient_id, subject)
 
-    message_data = template_conversation["STATE"]["QUESTION"]["message"]
+    message_data_1 = template_conversation["STATE"]["QUESTION"]["message_1"]
+    message_data_2 = template_conversation["STATE"]["QUESTION"]["message_2"]
     messaging_API.send_message(
-        mysql, recipient_id, template_conversation, message_data)
+        mysql, recipient_id, template_conversation, message_data_1)
+    
+    # and cache[recipient_id]['current_qid'] < 150 and cache[recipient_id]['current_qid'] >= 100
+
+    if random.random() < 0.5:
+        messaging_API.send_message(mysql, recipient_id, template_conversation, message_data_2)
 
     uid = send_format_quick_reply_text(
         mysql, recipient_id, template_conversation, "QUESTION", question)
@@ -255,8 +261,13 @@ def send_explanation(mysql, recipient_id, template_conversation, qa_model, cache
     messaging_API.send_message(
         mysql, recipient_id, template_conversation, message_data)
 
+    if cache[recipient_id]['if_explanation_text'] and cache[recipient_id]['current_qid'] >= 100 and cache[recipient_id]['current_qid'] < 150:
+        explanation_sentence = explanation_sentence.split("\n")
+        explanation_sentence = explanation_sentence[0]
+
     send_format_quick_reply_text(
         mysql, recipient_id, template_conversation, "EXPLANATION", explanation_sentence)
+
 
 
 def send_hint(mysql, recipient_id, chatbot_text, template_conversation, qa_model, cache):
