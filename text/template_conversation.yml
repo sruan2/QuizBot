@@ -145,8 +145,7 @@ TEMPLATE:
 
   ANOTHER_FUN_FACT_SCIENCE:
     - Another Fun Fact💡
-    - Learn More Fun Fact💡
-    - More Fun Fact💡
+    - One More Fun Fact💡
 
   RESUME_LEARNING:
     - Resume Learning 💪🏼
@@ -640,7 +639,7 @@ STATE:
                 payload: 
                   RANDOM
           - title: 
-              Chat With Me 🐧
+              Chat with Me 🐧
             type: 
               postback
             payload: 
