@@ -4,10 +4,12 @@ from flask import request
 from time import *
 from datetime import datetime
 import emoji
-
+import MySQLdb
 from utils import pretty_print
 
 ########## QUIZBOT ##########
+
+
 def insert_conversation(mysql, sender, receiver, dialog, tp, time_stamp):
     '''
         This function inserts the conversation record into the [user_history] table of <QUIZBOT> database.
@@ -17,6 +19,9 @@ def insert_conversation(mysql, sender, receiver, dialog, tp, time_stamp):
     dialog = emoji.demojize(dialog)  # convert emoji to text
     try:
         con = mysql.connection
+        if con == None:
+            con = MySQLdb.connect(db=os.environ["DB"], user=os.environ["DB_USER"],
+                                  passwd=os.environ["DB_PASSWORD"], host=os.environ["DB_HOST"])
         cur = con.cursor()
         cur.execute("INSERT INTO conversation (sender, recipient, time_stamp, type, dialogue) VALUES (%s, %s, %s, %s, %s)",
                     (sender, receiver, time_stamp, tp, dialog))
@@ -72,7 +77,8 @@ def update_user_history(mysql, user_id, score, tp, begin_uid, end_uid):
     try:
         con = mysql.connection
         cur = con.cursor()
-        cur.execute("UPDATE user_history SET score = %s, type = %s, end_uid = %s WHERE begin_uid = %s AND user_id = %s;", (score, tp, end_uid, begin_uid, user_id))
+        cur.execute("UPDATE user_history SET score = %s, type = %s, end_uid = %s WHERE begin_uid = %s AND user_id = %s;",
+                    (score, tp, end_uid, begin_uid, user_id))
         con.commit()
         pretty_print("Update [user_history]", mode="Database")
     except:
@@ -120,7 +126,8 @@ def show_last_begin_uid(mysql, user_id):
         return rows[-1][0]
     except:
         con.rollback()
-        pretty_print("Error in retrieving begin_uid from [user_history]", mode="BUG!")
+        pretty_print(
+            "Error in retrieving begin_uid from [user_history]", mode="BUG!")
         return None
 
 
@@ -183,7 +190,6 @@ def show_timestamp(mysql, uid):
     return rows[-1][0]
 
 
-
 ########## FLASHCARD ##########
 def insert_user_flashcard(mysql, user_id, user_firstname, user_lastname):
     '''
@@ -232,4 +238,3 @@ def show_user_id_list_flashcard(mysql):
     cur.execute("SELECT user_id FROM users")
     rows = cur.fetchall()
     return [x[0] for x in rows]
-    

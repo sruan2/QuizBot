@@ -1,11 +1,6 @@
 # template_conversation.yml
 # Author: Liwei Jiang
 # Date: 05/07/2018
-<<<<<<< HEAD
-# Usage: yaml file containts conversation sources.
-
-TEMPLATE:
-=======
 # Usage: This file contains two parts.
 #        PART 1: TEMPLATE contains template conversation text
 #        PART 2: STATE contains state information that can be accessed by all payloads
@@ -13,7 +8,6 @@ TEMPLATE:
 
 TEMPLATE:
   # button text
->>>>>>> 457596426367f4bca6379e747d4c558f92b12efd
   GOT_IT:
     - Got it 💡
     - Got it 👊🏼
@@ -98,11 +92,7 @@ TEMPLATE:
     - Alrighty 💥
     - Alrighty 👍🏼
     - Alrighty 👏🏼
-<<<<<<< HEAD
-    - Alrighty ✔️ 
-=======
     - Alrighty ✔️
->>>>>>> 457596426367f4bca6379e747d4c558f92b12efd
     - Alright 💡
     - Alright 👊🏼
     - Alright 💪🏼
@@ -113,11 +103,7 @@ TEMPLATE:
     - Alright 💥
     - Alright 👍🏼
     - Alright 👏🏼
-<<<<<<< HEAD
-    - Alright ✔️ 
-=======
     - Alright ✔️
->>>>>>> 457596426367f4bca6379e747d4c558f92b12efd
     - Okay 💡
     - Okay 👊🏼
     - Okay 💪🏼
@@ -128,11 +114,7 @@ TEMPLATE:
     - Okay 💥
     - Okay 👍🏼
     - Okay 👏🏼
-<<<<<<< HEAD
-    - Okay ✔️ 
-=======
     - Okay ✔️
->>>>>>> 457596426367f4bca6379e747d4c558f92b12efd
     - OK 💡
     - OK 👊🏼
     - OK 💪🏼
@@ -156,8 +138,6 @@ TEMPLATE:
     - I see 👏🏼
     - I see ✔️ 
 
-<<<<<<< HEAD
-=======
   ANOTHER_JOKE:
     - Another Joke 😁 
     - Haha, One More Joke 😁
@@ -165,8 +145,7 @@ TEMPLATE:
 
   ANOTHER_FUN_FACT_SCIENCE:
     - Another Fun Fact💡
-    - Learn More Fun Fact💡
-    - More Fun Fact💡
+    - One More Fun Fact💡
 
   RESUME_LEARNING:
     - Resume Learning 💪🏼
@@ -179,7 +158,6 @@ TEMPLATE:
     - Please type your answer in if you know it!
     - Remember that you can always type in you answer and I'll help you to evaluate it!
 
->>>>>>> 457596426367f4bca6379e747d4c558f92b12efd
   QUESTION:
     - "Here's a question for you:"
     - "Let's try this one."
@@ -194,10 +172,7 @@ TEMPLATE:
     - "How about this next one:"
     - "What about this next question:"
     - "Alrighty, let's try this one."
-<<<<<<< HEAD
-=======
     - "See if you can answer this next one."
->>>>>>> 457596426367f4bca6379e747d4c558f92b12efd
 
   CHOOSE_SUBJECT:
     - Sure, which subject would you like me to quiz you on?👇🏼
@@ -207,31 +182,22 @@ TEMPLATE:
     - Okay, now tell me which subject you would like to study.👇🏼
     - OK, which of the following subjects would you like to study?👇🏼
     - Sure, which of the following subjects would you like me to quiz you on?👇🏼
-<<<<<<< HEAD
-=======
     - Cool, which subject do you want to study?👇🏼
     - Cool, let's pick one of the following subjects?👇🏼
     - Cool, which subject would you like to study?👇🏼
->>>>>>> 457596426367f4bca6379e747d4c558f92b12efd
 
   EXPLANATION:
     - "Here's an explanation:"
     - "This is why:"
     - "This is an explanation of the question:"
     - "I hope this explanation could help you understand the the question."
-<<<<<<< HEAD
-=======
     - "Here's why:"
->>>>>>> 457596426367f4bca6379e747d4c558f92b12efd
 
   BUGREPORT:
     - Okay, I’ll take a note of that. Thanks for the feedback! 👍🏼
     - Alrighty, thank you for your feedback. I'll take a note of that!
     - Thank you for your bug report. I'll take a look at that!
-<<<<<<< HEAD
-=======
     - Thanks for the feedback! I'll take a note of that!
->>>>>>> 457596426367f4bca6379e747d4c558f92b12efd
 
   CONTINUE:
     - Great! Let's move on.
@@ -241,32 +207,6 @@ TEMPLATE:
     - Let's continue with the next question.
     - Alrighty, let's continue learning.
     - Good! Let's move on.
-<<<<<<< HEAD
-    - Great! Let's resuming learning.
-
-  TOTAL_SCORE:
-    - Your total score is {}. Keep it up! 💪🏼
-    - Your total score is {}. Great work! 💪🏼
-    - Your total score is {}. Good job! 💪🏼
-    - Your total score is {}. Excellent work! 💪🏼
-    - Your total score is {}. Awesome work! 💪🏼
-
-  INDEX:
-    - "1️⃣"
-    - "2️⃣" 
-    - "3️⃣" 
-    - "4️⃣" 
-    - "5️⃣" 
-    - "6️⃣" 
-    - "7️⃣" 
-    - "8️⃣" 
-    - "9️⃣" 
-    - "🔟"
-
-  ANSWER_NOT_CORRECT:
-    - I'm sorry, but that was incorrect. You didn't earn any points 😞
-    - That's not quite right. You didn't earn any points 😞
-=======
     - Great! Let's resume learning.
     - Great! Let's resuming learning.
     - Cool! Let's keep going.
@@ -276,14 +216,11 @@ TEMPLATE:
     - That's not quite right.  😞
     - Oops, that answer was incorrect.  😞
     - That wasn't quite what we were looking for.  😞
->>>>>>> 457596426367f4bca6379e747d4c558f92b12efd
 
   ANSWER_CORRECT:
     - That’s right! 🎉
     - Correct! 🎊
     - Good job! 🙌🏼
-<<<<<<< HEAD
-=======
     - Nice! 🍎
     - Good Answer! ✅ 
     - Fantastic! 💯
@@ -292,36 +229,27 @@ TEMPLATE:
     - SCIENCE
     - GRE
     - SAFETY
->>>>>>> 457596426367f4bca6379e747d4c558f92b12efd
     
   SCIENCE:
     - All right! I’ll quiz you on science!
     - Okay! Let’s see how much you know about science!
-<<<<<<< HEAD
-=======
     - Science rules! Let's see what you know.
     - Awesome! Here's some questions on science!
     - Let's answer some questions about science!
     - Let's test your knowledge on science!
     - Awesome! Let's learn about science!
->>>>>>> 457596426367f4bca6379e747d4c558f92b12efd
 
   GRE:
     - All right! I’ll quiz you on GRE!
     - Okay! Let’s see how much you know about GRE!
-<<<<<<< HEAD
-=======
     - Cool! Here's some questions on the GRE!
     - Let's answer some questions about the GRE!
     - Let's test your knowledge on the GRE!
     - Awesome! Let's learn about the GRE!
->>>>>>> 457596426367f4bca6379e747d4c558f92b12efd
 
   SAFETY:
     - All right! I’ll quiz you on safety!
     - Okay! Let’s see how much you know about safety!
-<<<<<<< HEAD
-=======
     - Safety first! Here's some questions on safety!
     - Let's answer some questions about safety!
     - Let's test your knowledge on safety!
@@ -342,27 +270,10 @@ TEMPLATE:
     - You've done a very good job in GRE! Congrats!
     - You are becoming a master in GRE!
     - Wow! You seem to getting a lot of GRE questions.
->>>>>>> 457596426367f4bca6379e747d4c558f92b12efd
 
   RANDOM:
     - Okay! Let’s mix it up! 🎲
     - All right! A little bit of everything! 🎲
-<<<<<<< HEAD
-
-  NEED_HINT:
-    - Okay. Which of these is the right answer?👇🏼"
-    - Which of the following options is the right answer?
-    - Alrighty, which of the following options is the answer of the question?
-
-  NO_POINT:
-    - You didn't earn any points this time.
-    - You didn't get it right this time.
-    - I'm sorry, you didn't earn any points this time.
-
-  ENCOURAGE_YES_GIVEUP:
-    - That’s okay, you’ll get it next time! ☺️
-    - That's fine, you'll nail it next time! ☺️
-=======
     - I see you! Let's leave it up to chance! 🎲
     - Cool! Let's learn everything! 🎲
     - Let's answer some questions about everything! 🎲 
@@ -388,18 +299,10 @@ TEMPLATE:
     - Don't give up, you'll get it next time! 😄
     - That's fine, you'll nail it next time! 😄
     - No worries! You'll get it next time! 😄
->>>>>>> 457596426367f4bca6379e747d4c558f92b12efd
 
   ENCOURAGE_NO_GIVEUP:
     - "Okay! Let's try again 💪🏼 Tell me which of these is the right answer:"
     - "Sure, let's try this again! Which of the following is the correct answer?"
-<<<<<<< HEAD
-
-
-STATE:
-  QUESTION:
-    message:
-=======
     - "Try again! Which of the following answers is correct?"
     - "Alright! Let's do it again! Which of these is the answer?"
     - "Don't give up! Which answer is correct?"
@@ -558,19 +461,15 @@ STATE:
 STATE:
   QUESTION:
     message_1:
->>>>>>> 457596426367f4bca6379e747d4c558f92b12efd
       source:
         TEMPLATE
       text:
         QUESTION
-<<<<<<< HEAD
-=======
     message_2:
       source:
         TEMPLATE
       text:
         PLEASE_TYPE
->>>>>>> 457596426367f4bca6379e747d4c558f92b12efd
     quick_reply:  
       message:
         source:
@@ -613,11 +512,7 @@ STATE:
         source:
           LOCAL
         text:
-<<<<<<< HEAD
-          Hi {}! My name is Mr.Penguin 🐧 and I’m here to help you learn all about science🔬, verbal reasoning (GRE)📖, and safety🔥!
-=======
           Hi {}! My name is Frosty 🐧 and I’m here to help you learn all about science🔬, verbal reasoning (GRE) 🔠, and safety🛠!
->>>>>>> 457596426367f4bca6379e747d4c558f92b12efd
       source:
         - TEMPLATE
       title:
@@ -665,20 +560,6 @@ STATE:
         - LOCAL
       title:
         - Next question 💪
-<<<<<<< HEAD
-        - I don’t know 😓
-      payload:
-        - NEXT_QUESTION
-        - SWITCH_SUBJECT
-
-  TOTAL_SCORE:
-    quick_reply:  
-      message:
-        source:
-          TEMPLATE
-        text:
-          TOTAL_SCORE
-=======
       payload:
         - NEXT_QUESTION
 
@@ -694,29 +575,11 @@ STATE:
           LOCAL
         text:
           Hi {}, you haven't talked to me for a while. Would you like to resume the learning with me?
->>>>>>> 457596426367f4bca6379e747d4c558f92b12efd
       source:
         - TEMPLATE
       title:
         - GOT_IT
       payload:
-<<<<<<< HEAD
-        - NEXT_QUESTION
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-=======
         - NEXT_QUESTION 
 
   CONGRATULATION:
@@ -738,7 +601,6 @@ STATE:
         - https://www.smartprimer.org:{}/pictures/avatar/congrats/penguinnormal_normal.png
         - https://www.smartprimer.org:{}/pictures/avatar/congrats/penguinnormal_normal_purple.png
         - https://www.smartprimer.org:{}/pictures/avatar/celebration.gif
->>>>>>> 457596426367f4bca6379e747d4c558f92b12efd
 
   PERSISTENT_MENU:
     persistent_menu:
@@ -777,19 +639,11 @@ STATE:
                 payload: 
                   RANDOM
           - title: 
-<<<<<<< HEAD
-              Check Total Score 📝
-            type: 
-              postback
-            payload: 
-              CHECK_TOTAL_SCORE
-=======
-              Chat With Me 🐧
+              Chat with Me 🐧
             type: 
               postback
             payload: 
               CHAT_WITH_ME
->>>>>>> 457596426367f4bca6379e747d4c558f92b12efd
           - title: 
               More📍
             type: 
@@ -819,54 +673,9 @@ STATE:
                   postback
                 payload: 
                   CONTACT
-<<<<<<< HEAD
-
-=======
                   
->>>>>>> 457596426367f4bca6379e747d4c558f92b12efd
   GET_STARTED:
     get_started:
       payload: 
         GET_INTRO_1
 
-<<<<<<< HEAD
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-=======
->>>>>>> 457596426367f4bca6379e747d4c558f92b12efd

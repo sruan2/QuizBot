@@ -1,6 +1,5 @@
 import os
 import json
-import requests
 import random
 import time
 import messaging_API
@@ -147,8 +146,7 @@ def send_format_quick_reply_text(mysql, recipient_id, template_conversation, sta
     text_format = quick_reply_data["message"]["text"]
     quick_reply_data["message"]["text"] = quick_reply_data["message"]["text"].format(
         format_fill_text)
-    uid = messaging_API.send_quick_reply(
-        mysql, recipient_id, template_conversation, quick_reply_data)
+    uid = messaging_API.send_quick_reply(mysql, recipient_id, template_conversation, quick_reply_data)
     quick_reply_data["message"]["text"] = text_format
     # return uid so that we can log the information in the [user_history] dataset when the bot sends a question
     return uid
