@@ -63,7 +63,7 @@ class EmbeddingVectorizer(CountVectorizer):
         values = []
         
         for doc in raw_documents:
-            
+
             word_vecs = []
             
             #for token in analyze(doc):
@@ -79,16 +79,16 @@ class EmbeddingVectorizer(CountVectorizer):
                 except KeyError:
                     # Ignore out-of-vocabulary items for fixed_vocab=True
                     continue
-                    
-            vs = np.array(word_vecs).mean(axis=0)
-            
-            values.append(vs)
+
+            if word_vecs:
+                vs = np.array(word_vecs).mean(axis=0)
+                values.append(vs)
         
         return np.array(values)
     
     
     def _calculate_singular_vector(self, X):
-        
+
         svd = TruncatedSVD(n_components=1, n_iter=7, random_state=0).fit(X)
         u = svd.components_[0]
         

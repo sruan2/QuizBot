@@ -1,7 +1,11 @@
 # chatbot_text.yml
 # Author: Liwei Jiang
 # Date: 03/07/2018
+<<<<<<< HEAD
 # Usage: yaml file containts the chatbot sources
+=======
+# Usage: yaml file containting the chatbot sources for all payloads
+>>>>>>> 457596426367f4bca6379e747d4c558f92b12efd
 
 GET_INTRO_1:
   image:
@@ -9,7 +13,11 @@ GET_INTRO_1:
       template_type: 
         image
       image_url: 
+<<<<<<< HEAD
         https://www.smartprimer.org:{}/pictures/avatar/quizbot_avatar.png
+=======
+        - https://www.smartprimer.org:{}/pictures/avatar/quizbot_avatar.png
+>>>>>>> 457596426367f4bca6379e747d4c558f92b12efd
 
 GET_INTRO_2:
   conversation:
@@ -22,11 +30,19 @@ GET_INTRO_2:
         - source:
             LOCAL
           text:
+<<<<<<< HEAD
             I ask you questions❓, and you give me answers.
         - source:
             LOCAL
           text:
             If you get the right answer, you earn points! 🎉
+=======
+            I ask you questions, and you give me answers.
+        - source:
+            LOCAL
+          text:
+            We will learn fun stuffs together!
+>>>>>>> 457596426367f4bca6379e747d4c558f92b12efd
       quick_reply:
         source:
           - TEMPLATE
@@ -41,18 +57,26 @@ GET_INTRO_3:
       template_type: 
         image
       image_url: 
+<<<<<<< HEAD
         https://www.smartprimer.org:{}/pictures/user_manual/typeanswer.png
+=======
+        - https://www.smartprimer.org:{}/pictures/user_manual/typeanswer.png
+>>>>>>> 457596426367f4bca6379e747d4c558f92b12efd
   conversation:
     conversation_1:
       message:
         - source:
             LOCAL
           text:
+<<<<<<< HEAD
             To study the questions, you can type in ⌨️ your answers in the text field and QuizBot will evaluate the answers for you.
         - source:
             LOCAL
           text:
             For each question, you get 🔟 points if you get it right.
+=======
+            To study the questions, you can type in your answers in the text field and QuizBot will evaluate the answers for you.
+>>>>>>> 457596426367f4bca6379e747d4c558f92b12efd
       quick_reply:
         source:
           - TEMPLATE
@@ -67,18 +91,27 @@ GET_INTRO_4:
       template_type: 
         image
       image_url: 
+<<<<<<< HEAD
         https://www.smartprimer.org:{}/pictures/user_manual/needhintbutton.png
+=======
+        - https://www.smartprimer.org:{}/pictures/user_manual/needhintbutton.png
+>>>>>>> 457596426367f4bca6379e747d4c558f92b12efd
     image_2:
       template_type: 
         image
       image_url: 
+<<<<<<< HEAD
         https://www.smartprimer.org:{}/pictures/user_manual/hintoptions.png
+=======
+        - https://www.smartprimer.org:{}/pictures/user_manual/hintoptions.png
+>>>>>>> 457596426367f4bca6379e747d4c558f92b12efd
   conversation:
     conversation_1:
       message:
         - source:
             LOCAL
           text:
+<<<<<<< HEAD
             If you don't know the answers, then feel free to tap on the hint button.💡
         
         - source:
@@ -90,6 +123,13 @@ GET_INTRO_4:
             LOCAL
           text:
             If you choose the correct answer, then you will get at most 3️⃣ points.
+=======
+            If you don't know the answers, then feel free to tap on the hint button.
+        - source:
+            LOCAL
+          text:
+            The hint will give you a list of potential answers and you can select one from them.
+>>>>>>> 457596426367f4bca6379e747d4c558f92b12efd
 
       quick_reply:
         source:
@@ -105,7 +145,11 @@ GET_INTRO_5:
       template_type: 
         image
       image_url: 
+<<<<<<< HEAD
         https://www.smartprimer.org:{}/pictures/user_manual/menubutton.jpg
+=======
+        - https://www.smartprimer.org:{}/pictures/user_manual/menubutton.jpg
+>>>>>>> 457596426367f4bca6379e747d4c558f92b12efd
   conversation:
     conversation_1:
       message:
@@ -127,18 +171,26 @@ USER_MANUAL_1:
       template_type: 
         image
       image_url: 
+<<<<<<< HEAD
         https://www.smartprimer.org:{}/pictures/user_manual/typeanswer.png
+=======
+        - https://www.smartprimer.org:{}/pictures/user_manual/typeanswer.png
+>>>>>>> 457596426367f4bca6379e747d4c558f92b12efd
   conversation:
     conversation_1:
       message:
         - source:
             LOCAL
           text:
+<<<<<<< HEAD
             To study the questions, you can type in ⌨️ your answers in the text field and QuizBot will evaluate the answers for you.
         - source:
             LOCAL
           text:
             For each question, you get 🔟 points if you get it right.
+=======
+            To study the questions, you can type in your answers in the text field and QuizBot will evaluate the answers for you.
+>>>>>>> 457596426367f4bca6379e747d4c558f92b12efd
       quick_reply:
         source:
           - TEMPLATE
@@ -153,18 +205,27 @@ USER_MANUAL_2:
       template_type: 
         image
       image_url: 
+<<<<<<< HEAD
         https://www.smartprimer.org:{}/pictures/user_manual/needhintbutton.png
+=======
+        - https://www.smartprimer.org:{}/pictures/user_manual/needhintbutton.png
+>>>>>>> 457596426367f4bca6379e747d4c558f92b12efd
     image_2:
       template_type: 
         image
       image_url: 
+<<<<<<< HEAD
         https://www.smartprimer.org:{}/pictures/user_manual/hintoptions.png
+=======
+        - https://www.smartprimer.org:{}/pictures/user_manual/hintoptions.png
+>>>>>>> 457596426367f4bca6379e747d4c558f92b12efd
   conversation:
     conversation_1:
       message:
         - source:
             LOCAL
           text:
+<<<<<<< HEAD
             If you don't know the answers, then feel free to tap on the hint button.💡
         - source:
             LOCAL
@@ -174,6 +235,13 @@ USER_MANUAL_2:
             LOCAL
           text:
             If you choose the correct answer, then you will get at most 3️⃣ points.
+=======
+            If you don't know the answers, then feel free to tap on the hint button. 
+        - source:
+            LOCAL
+          text:
+            The hint will give you a list of potential answers and you can select one from them.
+>>>>>>> 457596426367f4bca6379e747d4c558f92b12efd
       quick_reply:
         source:
           - TEMPLATE
@@ -188,7 +256,11 @@ USER_MANUAL_3:
       template_type: 
         image
       image_url: 
+<<<<<<< HEAD
         https://www.smartprimer.org:{}/pictures/user_manual/menubutton.jpg
+=======
+        - https://www.smartprimer.org:{}/pictures/user_manual/menubutton.jpg
+>>>>>>> 457596426367f4bca6379e747d4c558f92b12efd
   conversation:
     conversation_1:
       message:
@@ -210,12 +282,20 @@ USER_MANUAL_4:
       template_type: 
         image
       image_url: 
+<<<<<<< HEAD
         https://www.smartprimer.org:{}/pictures/user_manual/changesubjects_1.jpg
+=======
+        - https://www.smartprimer.org:{}/pictures/user_manual/changesubjects_1.jpg
+>>>>>>> 457596426367f4bca6379e747d4c558f92b12efd
     image_2:
       template_type: 
         image
       image_url: 
+<<<<<<< HEAD
         https://www.smartprimer.org:{}/pictures/user_manual/changesubjects_2.jpg
+=======
+        - https://www.smartprimer.org:{}/pictures/user_manual/changesubjects_2.jpg
+>>>>>>> 457596426367f4bca6379e747d4c558f92b12efd
   conversation:
     conversation_1:
       message:
@@ -237,14 +317,22 @@ USER_MANUAL_5:
       template_type: 
         image
       image_url: 
+<<<<<<< HEAD
         https://www.smartprimer.org:{}/pictures/user_manual/totalscorebutton.png
+=======
+        - https://www.smartprimer.org:{}/pictures/user_manual/chatwithme.png
+>>>>>>> 457596426367f4bca6379e747d4c558f92b12efd
   conversation:
     conversation_1:
       message:
         - source:
             LOCAL
           text:
+<<<<<<< HEAD
             You can track your learning progress by clicking on the menu button to see your total score. 📝
+=======
+            You can hear jokes from me by clicking the Chat with Me button. 🐧
+>>>>>>> 457596426367f4bca6379e747d4c558f92b12efd
       quick_reply:
         source:
           - TEMPLATE
@@ -259,7 +347,11 @@ USER_MANUAL_6:
       template_type: 
         image
       image_url: 
+<<<<<<< HEAD
         https://www.smartprimer.org:{}/pictures/user_manual/morebutton.png
+=======
+        - https://www.smartprimer.org:{}/pictures/user_manual/morebutton.png
+>>>>>>> 457596426367f4bca6379e747d4c558f92b12efd
   conversation:
     conversation_1:
       message:
@@ -299,7 +391,10 @@ CONTACT:
             LOCAL
           text:
             If you have any questions, please contact the Protocol Director, Sherry Ruan at ssruan@stanford.edu, or Liwei Jiang at ljiang@colby.edu.
+<<<<<<< HEAD
 
+=======
+>>>>>>> 457596426367f4bca6379e747d4c558f92b12efd
       quick_reply:
         source:
           - TEMPLATE
@@ -315,7 +410,11 @@ ABOUT_QUIZBOT:
         - source:
             LOCAL
           text:
+<<<<<<< HEAD
             I'm Mr. Owl 🦉 and I'm a QuizBot to help you learn about science🔬, verbal reasoning (GRE)📖, and safety🔥.
+=======
+            I'm Frosty 🐧 and I'm a QuizBot to help you learn about science🔬, verbal reasoning (GRE) 🔠, and safety🛠.
+>>>>>>> 457596426367f4bca6379e747d4c558f92b12efd
         - source:
             LOCAL
           text:
@@ -323,7 +422,15 @@ ABOUT_QUIZBOT:
         - source:
             LOCAL
           text:
+<<<<<<< HEAD
             I use technology in a scientific and interactive way to help you learn knowledge.
+=======
+            I'll use advanced question sequencing algorithms to tailor questions for your need and best your learning experience. 
+        - source:
+            LOCAL
+          text: 
+            I'll evaluate your typing answers carefully using advanced NLP technology to assist you remembering the knowledge!
+>>>>>>> 457596426367f4bca6379e747d4c558f92b12efd
       quick_reply:
         source:
           - TEMPLATE
@@ -370,16 +477,26 @@ YUP_IM_READY:
         title:
           - Quiz me 🤓
         payload:
+<<<<<<< HEAD
           - PRACTICE_MODE  
+=======
+          - SWITCH_SUBJECT  
+>>>>>>> 457596426367f4bca6379e747d4c558f92b12efd
 
 I_DONT_KNOW:
   conversation:
     conversation_1:
       message:
         - source:
+<<<<<<< HEAD
             LOCAL
           text:
             Are you sure you want to give up?
+=======
+            TEMPLATE
+          text:
+            IF_GIVE_UP
+>>>>>>> 457596426367f4bca6379e747d4c558f92b12efd
       quick_reply:
         source:
           - LOCAL
@@ -427,6 +544,7 @@ CONTINUE:
           - NEXT_QUESTION  
 
 SCIENCE:
+<<<<<<< HEAD
   sentence:
     sentence_1:
       source:
@@ -466,6 +584,107 @@ NEED_HINT:
       text:
         NEED_HINT 
 
+=======
+  paragraph:
+    paragraph_1:
+      - source:
+          TEMPLATE
+        text:
+          SCIENCE   
+  image:
+    SAFETY:
+      template_type: 
+        image
+      image_url: 
+        - https://www.smartprimer.org:{}/pictures/avatar/evolvesafety_scientist.gif
+    GRE:
+      template_type: 
+        image
+      image_url: 
+        - https://www.smartprimer.org:{}/pictures/avatar/evolvereading_scientist.gif
+    NORMAL:
+      template_type: 
+        image
+      image_url: 
+        - https://www.smartprimer.org:{}/pictures/avatar/evolvenormal_scientist.gif 
+
+GRE:
+  paragraph:
+    paragraph_1:
+      - source:
+          TEMPLATE
+        text:
+          GRE  
+  image:
+    SAFETY:
+      template_type: 
+        image
+      image_url: 
+        - https://www.smartprimer.org:{}/pictures/avatar/evolvesafety_reading.gif
+    SCIENCE:
+      template_type: 
+        image
+      image_url: 
+        - https://www.smartprimer.org:{}/pictures/avatar/evolvescientist_reading.gif
+    NORMAL:
+      template_type: 
+        image
+      image_url: 
+        - https://www.smartprimer.org:{}/pictures/avatar/evolvenormal_reading.gif
+
+SAFETY:
+  paragraph:
+    paragraph_1:
+      - source:
+          TEMPLATE
+        text:
+          SAFETY  
+  image:
+    SCIENCE:
+      template_type: 
+        image
+      image_url: 
+        - https://www.smartprimer.org:{}/pictures/avatar/evolvescientist_safety.gif
+    GRE:
+      template_type: 
+        image
+      image_url: 
+        - https://www.smartprimer.org:{}/pictures/avatar/evolvereading_safety.gif
+    NORMAL:
+      template_type: 
+        image
+      image_url: 
+        - https://www.smartprimer.org:{}/pictures/avatar/evolvenormal_safety.gif
+
+RANDOM:
+  paragraph:
+    paragraph_1:
+      - source:
+          TEMPLATE
+        text:
+          RANDOM  
+  image:
+    SAFETY:
+      template_type: 
+        image
+      image_url: 
+        - https://www.smartprimer.org:{}/pictures/avatar/evolvesafety_normal.gif
+    SCIENCE:
+      template_type: 
+        image
+      image_url: 
+        - https://www.smartprimer.org:{}/pictures/avatar/evolvescientist_normal.gif
+    GRE:
+      template_type: 
+        image
+      image_url: 
+        - https://www.smartprimer.org:{}/pictures/avatar/evolvereading_normal.gif
+    NORMAL:
+      template_type: 
+        image
+      image_url: 
+        - https://www.smartprimer.org:{}/pictures/avatar/celebration.gif
+>>>>>>> 457596426367f4bca6379e747d4c558f92b12efd
 
 GIVEUP_YES:
   paragraph:
@@ -479,6 +698,7 @@ GIVEUP_YES:
         text:
           ENCOURAGE_YES_GIVEUP
 
+<<<<<<< HEAD
 
 
 
@@ -502,3 +722,157 @@ GIVEUP_YES:
 
 
 
+=======
+GIVEUP_NO:
+  paragraph:
+    paragraph_1:
+      - source:
+          TEMPLATE
+        text:
+          ENCOURAGE_NO_GIVEUP
+
+BUTTON_DKB:
+  paragraph:
+    paragraph_1:
+      - source:
+          TEMPLATE
+        text:
+          DKB  
+
+BUTTON_AKB:
+  paragraph:
+    paragraph_1:
+      - source:
+          TEMPLATE
+        text:
+          CORRECT_HINT 
+                  
+
+CHAT_WITH_ME:
+  conversation:
+    conversation_1:
+      message:
+        - source:
+            TEMPLATE
+          text:
+            CHAT_WITH_ME
+      quick_reply:
+        source:
+          - LOCAL
+          - LOCAL
+        title:
+          - Joke 😁
+          - Fun Fact 💡
+        payload:
+          - JOKE  
+          - FUN_FACT_SCIENCE
+
+JOKE:
+  conversation:
+    conversation_1:
+      message:
+        - source:
+            TEMPLATE
+          text:
+            GIVE_JOKE
+        - source:
+            TEMPLATE
+          text:
+            JOKE
+      quick_reply:
+        source:
+          - TEMPLATE
+          - LOCAL
+          - LOCAL
+        title:
+          - ANOTHER_JOKE
+          - Fun Fact 💡
+          - Continue Learning 💪🏼
+        payload:
+          - JOKE
+          - FUN_FACT_SCIENCE
+          - NEXT_QUESTION 
+
+FUN_FACT_SCIENCE:
+  conversation:
+    conversation_1:
+      message:
+        - source:
+            TEMPLATE
+          text:
+            GIVE_FUN_FACT_SCIENCE
+        - source:
+            TEMPLATE
+          text:
+            FUN_FACT_SCIENCE
+      quick_reply:
+        source:
+          - TEMPLATE
+          - LOCAL
+          - LOCAL
+        title:
+          - ANOTHER_FUN_FACT_SCIENCE
+          - Joke 😁
+          - Continue Learning 💪🏼
+        payload:
+          - FUN_FACT_SCIENCE
+          - JOKE
+          - NEXT_QUESTION 
+
+
+NEED_HINT: 
+  conversation:
+    conversation_1:
+      message:
+        - source:
+            TEMPLATE
+          text:
+            NEED_HINT  
+        - source:
+            LOCAL
+          text:
+            "{}"
+      quick_reply:
+        source:
+          - LOCAL
+        title:
+          - I don’t know 😓
+        payload:
+          - I_DONT_KNOW
+
+MESSAGE_TEXT:
+  paragraph:
+    paragraph_1:
+      - source:
+          TEMPLATE
+        text:
+          ANSWER_NOT_CORRECT  
+    paragraph_2:
+      - source:
+          TEMPLATE
+        text:
+          CORRECT_HINT  
+    paragraph_3:
+      - source:
+          TEMPLATE
+        text:
+          ANSWER_CORRECT         
+
+  conversation:
+    conversation_1:
+      message:
+        - source:
+            TEMPLATE
+          text:
+            SOUNDS_INTERESTING
+      quick_reply:
+        source:
+          - TEMPLATE
+          - LOCAL
+        title:
+          - RESUME_LEARNING
+          - Chat With Me 🐧
+        payload:
+          - NEXT_QUESTION 
+          - CHAT_WITH_ME 
+>>>>>>> 457596426367f4bca6379e747d4c558f92b12efd
