@@ -44,24 +44,18 @@ def fetch_question():
 @app.route("/question_data_gre")
 def fetch_question_gre():
     data = model.pickNextQuestion('gre')
-    # print("----------------")
-    # print(data)
     return jsonify(data)
 
 
 @app.route("/question_data_science")
 def fetch_question_science():
     data = model.pickNextQuestion('science')
-    # print("----------------")
-    # print(data)
     return jsonify(data)
 
 
 @app.route("/question_data_safety")
 def fetch_question_safety():
     data = model.pickNextQuestion('safety')
-    # print("----------------")
-    # print(data)
     return jsonify(data)
 
 
@@ -76,7 +70,6 @@ def webhook():
     data=json.loads(request.data.decode("utf-8"))
     sender_id = data['user_id']
     qid = 0
-    # qid = data['qid']
     user_action = data['event']
 
     if not int(sender_id) in database.show_user_id_list_flashcard(mysql):
