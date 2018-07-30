@@ -40,13 +40,13 @@ function flip() {
 
 function got_it() {
     fetch_question();
-    log('GOT IT');
+    log("got it");
 }
 
 
 function not_got_it() {
     fetch_question();
-    log('NOT GOT IT');
+    log("I don't know");
 }
 
 

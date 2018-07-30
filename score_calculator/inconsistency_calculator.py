@@ -1,5 +1,5 @@
 '''
-    score_calculator.py
+    inconsistency_calculator.py
     Author: Liwei Jiang
     Date: 02/07/2018
     Usage: Calculate Scores for the pretest and posttest quizzes.
@@ -74,6 +74,9 @@ all_users.extend([x] for x in post_user_result.keys() if x not in pre_user_resul
 title = ["Question"]
 stats = ["Insistent Answers"]
 
+inconsistent_pre_index = []
+inconsistent_post_index = []
+
 for user in all_users:
 	title.append(user + ": pretest")
 	title.append(user + ": posttest")
@@ -84,7 +87,6 @@ for user in all_users:
 
 			answer_pre = ""
 			answer_post = ""
-
 			if q in pre_questions:
 				index_pre = pre_questions.index(q)
 				if pre_user_result[user][3 * index_pre + 1] == "0.00 / 1":
@@ -106,6 +108,9 @@ for user in all_users:
 				result_data[i].append("")
 
 			if answer_pre != "" and answer_post != "":
+				inconsistent_pre_index.append(pre_questions.index(q))
+				inconsistent_post_index.append(post_questions.index(q))
+
 				if answer_pre != answer_post:
 					inconsistent_count += 1;
 
@@ -119,6 +124,5 @@ with open(result_file, 'w') as csvfile:
     writer = csv.writer(csvfile)
     writer.writerows(result_data)
 
-
-
-
+print(inconsistent_pre_index)
+print(inconsistent_post_index)

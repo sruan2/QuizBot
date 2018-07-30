@@ -129,7 +129,7 @@
                         }, 
                         {
                             "payload": "CHAT_WITH_ME", 
-                            "title": "Chat With Me \ud83d\udc27", 
+                            "title": "Chat with Me \ud83d\udc27", 
                             "type": "postback"
                         }, 
                         {
@@ -236,8 +236,7 @@
     "TEMPLATE": {
         "ANOTHER_FUN_FACT_SCIENCE": [
             "Another Fun Fact\ud83d\udca1", 
-            "Learn More Fun Fact\ud83d\udca1", 
-            "More Fun Fact\ud83d\udca1"
+            "One More Fun Fact\ud83d\udca1"
         ], 
         "ANOTHER_JOKE": [
             "Another Joke \ud83d\ude01", 
