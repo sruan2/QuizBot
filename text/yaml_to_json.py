@@ -25,5 +25,8 @@ def yaml_to_json():
         except yaml.YAMLError as exc:
             print(exc)
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 457596426367f4bca6379e747d4c558f92b12efd
 yaml_to_json()
