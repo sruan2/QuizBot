@@ -146,8 +146,12 @@
                             "title": "Check Total Score \ud83d\udcdd", 
 =======
                             "payload": "CHAT_WITH_ME", 
+<<<<<<< HEAD
                             "title": "Chat With Me \ud83d\udc27", 
 >>>>>>> 457596426367f4bca6379e747d4c558f92b12efd
+=======
+                            "title": "Chat with Me \ud83d\udc27", 
+>>>>>>> d657713ec6b0e15589eb56abe66b441b21d7b02c
                             "type": "postback"
                         }, 
                         {
@@ -293,8 +297,7 @@
 =======
         "ANOTHER_FUN_FACT_SCIENCE": [
             "Another Fun Fact\ud83d\udca1", 
-            "Learn More Fun Fact\ud83d\udca1", 
-            "More Fun Fact\ud83d\udca1"
+            "One More Fun Fact\ud83d\udca1"
         ], 
         "ANOTHER_JOKE": [
             "Another Joke \ud83d\ude01", 

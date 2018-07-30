@@ -1,14 +1,12 @@
 from threading import Timer
 from message import *
-import message
 from time import *
 from datetime import datetime
 from utils import *
 
-
 class RepeatedTimer(object):
     def __init__(self, interval, function, *args, **kwargs):
-        self.offset = self.get_offset_time(20, 00, 0)
+        self.offset = self.get_offset_time(20, 00, 00)
         self.interval = interval
         self.function = function
         self.args = args
@@ -62,13 +60,13 @@ class RepeatedTimer(object):
         return tdelta.seconds
 
 
-class Reminder():
+class Reminder(object):
     def __init__(self, template_conversation, mysql):
         self.users = {}
         self.template_conversation = template_conversation
         self.mysql = mysql
 
-    def send_reminder(self, list):
+    def send_reminder(self, user_list):
         '''
             This function sends a reminder to the specified recipient.
                 Args:
@@ -78,12 +76,12 @@ class Reminder():
                     None
         '''
         print(self.users)
-        for recipient_id, user_name in list:
+
+        for recipient_id, user_name in user_list:
             if recipient_id not in self.users:
                 self.users[recipient_id] = 0
             if self.users[recipient_id] < 7:
                 self.users[recipient_id] += 1
-                send_format_quick_reply_text(
-                    recipient_id, self.mysql, self.template_conversation, "REMINDER", user_name)
+                send_format_quick_reply_text(self.mysql, recipient_id, self.template_conversation, "REMINDER", user_name)
                 print("[QUIZBOT] PID " + str(os.getpid())+": Sent Reminder To " + str(user_name) +
                       " With ID " + str(recipient_id) + " At " + strftime("%Y-%m-%d %H:%M:%S", localtime()))
