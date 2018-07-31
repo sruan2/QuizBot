@@ -26,7 +26,7 @@ GET_INTRO_2:
         - source:
             LOCAL
           text:
-            We will learn fun stuffs together!
+            We will learn fun things together!
       quick_reply:
         source:
           - TEMPLATE
@@ -48,7 +48,7 @@ GET_INTRO_3:
         - source:
             LOCAL
           text:
-            To study the questions, you can type in your answers in the text field and QuizBot will evaluate the answers for you.
+            To study the questions, you can type in your answers in the text field and I will evaluate the answers for you using advanced NLP (Natural Language Processing) technology.
       quick_reply:
         source:
           - TEMPLATE
@@ -64,7 +64,24 @@ GET_INTRO_4:
         image
       image_url: 
         - https://www.smartprimer.org:{}/pictures/user_manual/needhintbutton.png
-    image_2:
+  conversation:
+    conversation_1:
+      message:
+        - source:
+            LOCAL
+          text:
+            If you don't know the answers, then feel free to tap on the hint button.
+      quick_reply:
+        source:
+          - TEMPLATE
+        title:
+          - GOT_IT
+        payload:
+          - GET_INTRO_5
+
+GET_INTRO_5:
+  image:
+    image_1:
       template_type: 
         image
       image_url: 
@@ -75,21 +92,16 @@ GET_INTRO_4:
         - source:
             LOCAL
           text:
-            If you don't know the answers, then feel free to tap on the hint button.
-        - source:
-            LOCAL
-          text:
             The hint will give you a list of potential answers and you can select one from them.
-
       quick_reply:
         source:
           - TEMPLATE
         title:
           - GOT_IT
         payload:
-          - GET_INTRO_5
+          - GET_INTRO_6
 
-GET_INTRO_5:
+GET_INTRO_6:
   image:
     image_1:
       template_type: 
@@ -124,7 +136,7 @@ USER_MANUAL_1:
         - source:
             LOCAL
           text:
-            To study the questions, you can type in your answers in the text field and QuizBot will evaluate the answers for you.
+            To study the questions, you can type in your answers in the text field and I will evaluate the answers for you using advanced NLP (Natural Language Processing) technology.
       quick_reply:
         source:
           - TEMPLATE
@@ -140,7 +152,24 @@ USER_MANUAL_2:
         image
       image_url: 
         - https://www.smartprimer.org:{}/pictures/user_manual/needhintbutton.png
-    image_2:
+  conversation:
+    conversation_1:
+      message:
+        - source:
+            LOCAL
+          text:
+            If you don't know the answers, then feel free to tap on the hint button. 
+      quick_reply:
+        source:
+          - TEMPLATE
+        title:
+          - GOT_IT
+        payload:
+          - USER_MANUAL_3   
+
+USER_MANUAL_3:
+  image:
+    image_1:
       template_type: 
         image
       image_url: 
@@ -151,10 +180,6 @@ USER_MANUAL_2:
         - source:
             LOCAL
           text:
-            If you don't know the answers, then feel free to tap on the hint button. 
-        - source:
-            LOCAL
-          text:
             The hint will give you a list of potential answers and you can select one from them.
       quick_reply:
         source:
@@ -162,9 +187,9 @@ USER_MANUAL_2:
         title:
           - GOT_IT
         payload:
-          - USER_MANUAL_3   
+          - USER_MANUAL_4   
 
-USER_MANUAL_3:
+USER_MANUAL_4:
   image:
     image_1:
       template_type: 
@@ -184,9 +209,9 @@ USER_MANUAL_3:
         title:
           - GOT_IT
         payload:
-          - USER_MANUAL_4  
+          - USER_MANUAL_5  
 
-USER_MANUAL_4:
+USER_MANUAL_5:
   image:
     image_1:
       template_type: 
@@ -204,29 +229,7 @@ USER_MANUAL_4:
         - source:
             LOCAL
           text:
-            You can change the subjects from the menu! 🔀
-      quick_reply:
-        source:
-          - TEMPLATE
-        title:
-          - GOT_IT
-        payload:
-          - USER_MANUAL_5   
-
-USER_MANUAL_5:
-  image:
-    image_1:
-      template_type: 
-        image
-      image_url: 
-        - https://www.smartprimer.org:{}/pictures/user_manual/chatwithme.png
-  conversation:
-    conversation_1:
-      message:
-        - source:
-            LOCAL
-          text:
-            You can hear jokes from me by clicking the Chat with Me button. 🐧
+            You can change question subject by clicking on the "Change Subject 🔀" button from the menu. 
       quick_reply:
         source:
           - TEMPLATE
@@ -241,14 +244,14 @@ USER_MANUAL_6:
       template_type: 
         image
       image_url: 
-        - https://www.smartprimer.org:{}/pictures/user_manual/morebutton.png
+        - https://www.smartprimer.org:{}/pictures/user_manual/chatwithme.png
   conversation:
     conversation_1:
       message:
         - source:
             LOCAL
           text:
-            To look for other informations, you can click on the more button in the menu.📍
+            If you want to hear jokes and fun facts from me, you can click on the "Chat with Me 🐧" button. 
       quick_reply:
         source:
           - TEMPLATE
@@ -258,6 +261,28 @@ USER_MANUAL_6:
           - USER_MANUAL_7   
 
 USER_MANUAL_7:
+  image:
+    image_1:
+      template_type: 
+        image
+      image_url: 
+        - https://www.smartprimer.org:{}/pictures/user_manual/morebutton.png
+  conversation:
+    conversation_1:
+      message:
+        - source:
+            LOCAL
+          text:
+            To look for other information, you can click on the "More 📍" button in the menu.
+      quick_reply:
+        source:
+          - TEMPLATE
+        title:
+          - GOT_IT
+        payload:
+          - USER_MANUAL_8   
+
+USER_MANUAL_8:
   conversation:
     conversation_1:
       message:
@@ -280,7 +305,7 @@ CONTACT:
         - source:
             LOCAL
           text:
-            If you have any questions, please contact the Protocol Director, Sherry Ruan at ssruan@stanford.edu, or Liwei Jiang at ljiang@colby.edu.
+            If you have any questions, please don't hesitate to contact the Protocol Director, Sherry Ruan at ssruan@stanford.edu, or Liwei Jiang at ljiang@colby.edu.
       quick_reply:
         source:
           - TEMPLATE
@@ -289,26 +314,38 @@ CONTACT:
         payload:
           - CONTINUE  
 
-ABOUT_QUIZBOT:
+ABOUT_QUIZBOT_1:
   conversation:
     conversation_1:
       message:
         - source:
             LOCAL
           text:
-            I'm Frosty 🐧 and I'm a QuizBot to help you learn about science🔬, verbal reasoning (GRE) 🔠, and safety🛠.
+            I'm Frosty 🐧 and I'm a chatbot to help you learn about science🔬, verbal reasoning (GRE) 🔠, and safety🛠.
         - source:
             LOCAL
           text:
             I'm designed by a group of researchers from Stanford University Computer Science Department.
+      quick_reply:
+        source:
+          - TEMPLATE
+        title:
+          - GOT_IT
+        payload:
+          - ABOUT_QUIZBOT_2   
+
+ABOUT_QUIZBOT_2:
+  conversation:
+    conversation_1:
+      message:
         - source:
             LOCAL
           text:
-            I'll use advanced question sequencing algorithms to tailor questions for your need and best your learning experience. 
+            To best your learning experience, I'll use advanced question sequencing algorithms to tailor questions for your need. 
         - source:
             LOCAL
           text: 
-            I'll evaluate your typing answers carefully using advanced NLP technology to assist you remembering the knowledge!
+            I'm evaluating your typing answers carefully using advanced NLP (Natural Language Processing) technology to assist you remembering the knowledge!
       quick_reply:
         source:
           - TEMPLATE
@@ -412,12 +449,20 @@ CONTINUE:
           - NEXT_QUESTION  
 
 SCIENCE:
-  paragraph:
-    paragraph_1:
-      - source:
-          TEMPLATE
-        text:
-          SCIENCE   
+  conversation:
+    conversation_1:
+      message:
+        - source:
+            TEMPLATE
+          text:
+            SCIENCE
+      quick_reply:
+        source:
+          - TEMPLATE
+        title:
+          - GOT_IT
+        payload:
+          - NEXT_QUESTION  
   image:
     SAFETY:
       template_type: 
@@ -436,12 +481,20 @@ SCIENCE:
         - https://www.smartprimer.org:{}/pictures/avatar/evolvenormal_scientist.gif 
 
 GRE:
-  paragraph:
-    paragraph_1:
-      - source:
-          TEMPLATE
-        text:
-          GRE  
+  conversation:
+    conversation_1:
+      message:
+        - source:
+            TEMPLATE
+          text:
+            GRE
+      quick_reply:
+        source:
+          - TEMPLATE
+        title:
+          - GOT_IT
+        payload:
+          - NEXT_QUESTION  
   image:
     SAFETY:
       template_type: 
@@ -460,12 +513,20 @@ GRE:
         - https://www.smartprimer.org:{}/pictures/avatar/evolvenormal_reading.gif
 
 SAFETY:
-  paragraph:
-    paragraph_1:
-      - source:
-          TEMPLATE
-        text:
-          SAFETY  
+  conversation:
+    conversation_1:
+      message:
+        - source:
+            TEMPLATE
+          text:
+            SAFETY
+      quick_reply:
+        source:
+          - TEMPLATE
+        title:
+          - GOT_IT
+        payload:
+          - NEXT_QUESTION  
   image:
     SCIENCE:
       template_type: 
@@ -484,12 +545,20 @@ SAFETY:
         - https://www.smartprimer.org:{}/pictures/avatar/evolvenormal_safety.gif
 
 RANDOM:
-  paragraph:
-    paragraph_1:
-      - source:
-          TEMPLATE
-        text:
-          RANDOM  
+  conversation:
+    conversation_1:
+      message:
+        - source:
+            TEMPLATE
+          text:
+            RANDOM
+      quick_reply:
+        source:
+          - TEMPLATE
+        title:
+          - GOT_IT
+        payload:
+          - NEXT_QUESTION   
   image:
     SAFETY:
       template_type: 

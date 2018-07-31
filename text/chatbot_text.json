@@ -1,31 +1,42 @@
 {
-    "ABOUT_QUIZBOT": {
+    "ABOUT_QUIZBOT_1": {
         "conversation": {
             "conversation_1": {
                 "message": [
                     {
                         "source": "LOCAL", 
-<<<<<<< HEAD
-                        "text": "I'm Mr. Owl \ud83e\udd89 and I'm a QuizBot to help you learn about science\ud83d\udd2c, verbal reasoning (GRE)\ud83d\udcd6, and safety\ud83d\udd25."
-=======
-                        "text": "I'm Frosty \ud83d\udc27 and I'm a QuizBot to help you learn about science\ud83d\udd2c, verbal reasoning (GRE) \ud83d\udd20, and safety\ud83d\udee0."
->>>>>>> 457596426367f4bca6379e747d4c558f92b12efd
+                        "text": "I'm Frosty \ud83d\udc27 and I'm a chatbot to help you learn about science\ud83d\udd2c, verbal reasoning (GRE) \ud83d\udd20, and safety\ud83d\udee0."
                     }, 
                     {
                         "source": "LOCAL", 
                         "text": "I'm designed by a group of researchers from Stanford University Computer Science Department."
+                    }
+                ], 
+                "quick_reply": {
+                    "payload": [
+                        "ABOUT_QUIZBOT_2"
+                    ], 
+                    "source": [
+                        "TEMPLATE"
+                    ], 
+                    "title": [
+                        "GOT_IT"
+                    ]
+                }
+            }
+        }
+    }, 
+    "ABOUT_QUIZBOT_2": {
+        "conversation": {
+            "conversation_1": {
+                "message": [
+                    {
+                        "source": "LOCAL", 
+                        "text": "To best your learning experience, I'll use advanced question sequencing algorithms to tailor questions for your need."
                     }, 
                     {
                         "source": "LOCAL", 
-<<<<<<< HEAD
-                        "text": "I use technology in a scientific and interactive way to help you learn knowledge."
-=======
-                        "text": "I'll use advanced question sequencing algorithms to tailor questions for your need and best your learning experience."
-                    }, 
-                    {
-                        "source": "LOCAL", 
-                        "text": "I'll evaluate your typing answers carefully using advanced NLP technology to assist you remembering the knowledge!"
->>>>>>> 457596426367f4bca6379e747d4c558f92b12efd
+                        "text": "I'm evaluating your typing answers carefully using advanced NLP (Natural Language Processing) technology to assist you remembering the knowledge!"
                     }
                 ], 
                 "quick_reply": {
@@ -42,8 +53,6 @@
             }
         }
     }, 
-<<<<<<< HEAD
-=======
     "BUTTON_AKB": {
         "paragraph": {
             "paragraph_1": [
@@ -90,14 +99,13 @@
             }
         }
     }, 
->>>>>>> 457596426367f4bca6379e747d4c558f92b12efd
     "CONTACT": {
         "conversation": {
             "conversation_1": {
                 "message": [
                     {
                         "source": "LOCAL", 
-                        "text": "If you have any questions, please contact the Protocol Director, Sherry Ruan at ssruan@stanford.edu, or Liwei Jiang at ljiang@colby.edu."
+                        "text": "If you have any questions, please don't hesitate to contact the Protocol Director, Sherry Ruan at ssruan@stanford.edu, or Liwei Jiang at ljiang@colby.edu."
                     }
                 ], 
                 "quick_reply": {
@@ -137,12 +145,6 @@
             }
         }
     }, 
-<<<<<<< HEAD
-    "GET_INTRO_1": {
-        "image": {
-            "image_1": {
-                "image_url": "https://www.smartprimer.org:{}/pictures/avatar/quizbot_avatar.png", 
-=======
     "FUN_FACT_SCIENCE": {
         "conversation": {
             "conversation_1": {
@@ -182,7 +184,6 @@
                 "image_url": [
                     "https://www.smartprimer.org:{}/pictures/avatar/quizbot_avatar.png"
                 ], 
->>>>>>> 457596426367f4bca6379e747d4c558f92b12efd
                 "template_type": "image"
             }
         }
@@ -197,19 +198,11 @@
                     }, 
                     {
                         "source": "LOCAL", 
-<<<<<<< HEAD
-                        "text": "I ask you questions\u2753, and you give me answers."
-                    }, 
-                    {
-                        "source": "LOCAL", 
-                        "text": "If you get the right answer, you earn points! \ud83c\udf89"
-=======
                         "text": "I ask you questions, and you give me answers."
                     }, 
                     {
                         "source": "LOCAL", 
-                        "text": "We will learn fun stuffs together!"
->>>>>>> 457596426367f4bca6379e747d4c558f92b12efd
+                        "text": "We will learn fun things together!"
                     }
                 ], 
                 "quick_reply": {
@@ -232,15 +225,7 @@
                 "message": [
                     {
                         "source": "LOCAL", 
-<<<<<<< HEAD
-                        "text": "To study the questions, you can type in \u2328\ufe0f your answers in the text field and QuizBot will evaluate the answers for you."
-                    }, 
-                    {
-                        "source": "LOCAL", 
-                        "text": "For each question, you get \ud83d\udd1f points if you get it right."
-=======
-                        "text": "To study the questions, you can type in your answers in the text field and QuizBot will evaluate the answers for you."
->>>>>>> 457596426367f4bca6379e747d4c558f92b12efd
+                        "text": "To study the questions, you can type in your answers in the text field and I will evaluate the answers for you using advanced NLP (Natural Language Processing) technology."
                     }
                 ], 
                 "quick_reply": {
@@ -258,13 +243,9 @@
         }, 
         "image": {
             "image_1": {
-<<<<<<< HEAD
-                "image_url": "https://www.smartprimer.org:{}/pictures/user_manual/typeanswer.png", 
-=======
                 "image_url": [
                     "https://www.smartprimer.org:{}/pictures/user_manual/typeanswer.png"
                 ], 
->>>>>>> 457596426367f4bca6379e747d4c558f92b12efd
                 "template_type": "image"
             }
         }
@@ -275,23 +256,7 @@
                 "message": [
                     {
                         "source": "LOCAL", 
-<<<<<<< HEAD
-                        "text": "If you don't know the answers, then feel free to tap on the hint button.\ud83d\udca1"
-                    }, 
-                    {
-                        "source": "LOCAL", 
-                        "text": "The hint will give you a list of potential answers and you can select one from them. \ud83d\udd20"
-                    }, 
-                    {
-                        "source": "LOCAL", 
-                        "text": "If you choose the correct answer, then you will get at most 3\ufe0f\u20e3 points."
-=======
                         "text": "If you don't know the answers, then feel free to tap on the hint button."
-                    }, 
-                    {
-                        "source": "LOCAL", 
-                        "text": "The hint will give you a list of potential answers and you can select one from them."
->>>>>>> 457596426367f4bca6379e747d4c558f92b12efd
                     }
                 ], 
                 "quick_reply": {
@@ -309,28 +274,45 @@
         }, 
         "image": {
             "image_1": {
-<<<<<<< HEAD
-                "image_url": "https://www.smartprimer.org:{}/pictures/user_manual/needhintbutton.png", 
-                "template_type": "image"
-            }, 
-            "image_2": {
-                "image_url": "https://www.smartprimer.org:{}/pictures/user_manual/hintoptions.png", 
-=======
                 "image_url": [
                     "https://www.smartprimer.org:{}/pictures/user_manual/needhintbutton.png"
                 ], 
-                "template_type": "image"
-            }, 
-            "image_2": {
-                "image_url": [
-                    "https://www.smartprimer.org:{}/pictures/user_manual/hintoptions.png"
-                ], 
->>>>>>> 457596426367f4bca6379e747d4c558f92b12efd
                 "template_type": "image"
             }
         }
     }, 
     "GET_INTRO_5": {
+        "conversation": {
+            "conversation_1": {
+                "message": [
+                    {
+                        "source": "LOCAL", 
+                        "text": "The hint will give you a list of potential answers and you can select one from them."
+                    }
+                ], 
+                "quick_reply": {
+                    "payload": [
+                        "GET_INTRO_6"
+                    ], 
+                    "source": [
+                        "TEMPLATE"
+                    ], 
+                    "title": [
+                        "GOT_IT"
+                    ]
+                }
+            }
+        }, 
+        "image": {
+            "image_1": {
+                "image_url": [
+                    "https://www.smartprimer.org:{}/pictures/user_manual/hintoptions.png"
+                ], 
+                "template_type": "image"
+            }
+        }
+    }, 
+    "GET_INTRO_6": {
         "conversation": {
             "conversation_1": {
                 "message": [
@@ -354,13 +336,9 @@
         }, 
         "image": {
             "image_1": {
-<<<<<<< HEAD
-                "image_url": "https://www.smartprimer.org:{}/pictures/user_manual/menubutton.jpg", 
-=======
                 "image_url": [
                     "https://www.smartprimer.org:{}/pictures/user_manual/menubutton.jpg"
                 ], 
->>>>>>> 457596426367f4bca6379e747d4c558f92b12efd
                 "template_type": "image"
             }
         }
@@ -392,8 +370,6 @@
             }
         }
     }, 
-<<<<<<< HEAD
-=======
     "GIVEUP_NO": {
         "paragraph": {
             "paragraph_1": [
@@ -404,7 +380,6 @@
             ]
         }
     }, 
->>>>>>> 457596426367f4bca6379e747d4c558f92b12efd
     "GIVEUP_YES": {
         "paragraph": {
             "paragraph_1": [
@@ -420,13 +395,27 @@
         }
     }, 
     "GRE": {
-<<<<<<< HEAD
-        "sentence": {
-            "sentence_1": {
-                "source": "TEMPLATE", 
-                "text": "GRE"
+        "conversation": {
+            "conversation_1": {
+                "message": [
+                    {
+                        "source": "TEMPLATE", 
+                        "text": "GRE"
+                    }
+                ], 
+                "quick_reply": {
+                    "payload": [
+                        "NEXT_QUESTION"
+                    ], 
+                    "source": [
+                        "TEMPLATE"
+                    ], 
+                    "title": [
+                        "GOT_IT"
+                    ]
+                }
             }
-=======
+        }, 
         "image": {
             "NORMAL": {
                 "image_url": [
@@ -446,15 +435,6 @@
                 ], 
                 "template_type": "image"
             }
-        }, 
-        "paragraph": {
-            "paragraph_1": [
-                {
-                    "source": "TEMPLATE", 
-                    "text": "GRE"
-                }
-            ]
->>>>>>> 457596426367f4bca6379e747d4c558f92b12efd
         }
     }, 
     "I_DONT_KNOW": {
@@ -462,13 +442,8 @@
             "conversation_1": {
                 "message": [
                     {
-<<<<<<< HEAD
-                        "source": "LOCAL", 
-                        "text": "Are you sure you want to give up?"
-=======
                         "source": "TEMPLATE", 
                         "text": "IF_GIVE_UP"
->>>>>>> 457596426367f4bca6379e747d4c558f92b12efd
                     }
                 ], 
                 "quick_reply": {
@@ -488,13 +463,6 @@
             }
         }
     }, 
-<<<<<<< HEAD
-    "NEED_HINT": {
-        "sentence": {
-            "sentence_1": {
-                "source": "TEMPLATE", 
-                "text": "NEED_HINT"
-=======
     "JOKE": {
         "conversation": {
             "conversation_1": {
@@ -598,18 +566,31 @@
                         "I don\u2019t know \ud83d\ude13"
                     ]
                 }
->>>>>>> 457596426367f4bca6379e747d4c558f92b12efd
             }
         }
     }, 
     "RANDOM": {
-<<<<<<< HEAD
-        "sentence": {
-            "sentence_1": {
-                "source": "TEMPLATE", 
-                "text": "RANDOM"
+        "conversation": {
+            "conversation_1": {
+                "message": [
+                    {
+                        "source": "TEMPLATE", 
+                        "text": "RANDOM"
+                    }
+                ], 
+                "quick_reply": {
+                    "payload": [
+                        "NEXT_QUESTION"
+                    ], 
+                    "source": [
+                        "TEMPLATE"
+                    ], 
+                    "title": [
+                        "GOT_IT"
+                    ]
+                }
             }
-=======
+        }, 
         "image": {
             "GRE": {
                 "image_url": [
@@ -635,15 +616,6 @@
                 ], 
                 "template_type": "image"
             }
-        }, 
-        "paragraph": {
-            "paragraph_1": [
-                {
-                    "source": "TEMPLATE", 
-                    "text": "RANDOM"
-                }
-            ]
->>>>>>> 457596426367f4bca6379e747d4c558f92b12efd
         }
     }, 
     "REPORT_BUG": {
@@ -673,21 +645,27 @@
         }
     }, 
     "SAFETY": {
-<<<<<<< HEAD
-        "sentence": {
-            "sentence_1": {
-                "source": "TEMPLATE", 
-                "text": "SAFETY"
+        "conversation": {
+            "conversation_1": {
+                "message": [
+                    {
+                        "source": "TEMPLATE", 
+                        "text": "SAFETY"
+                    }
+                ], 
+                "quick_reply": {
+                    "payload": [
+                        "NEXT_QUESTION"
+                    ], 
+                    "source": [
+                        "TEMPLATE"
+                    ], 
+                    "title": [
+                        "GOT_IT"
+                    ]
+                }
             }
-        }
-    }, 
-    "SCIENCE": {
-        "sentence": {
-            "sentence_1": {
-                "source": "TEMPLATE", 
-                "text": "SCIENCE"
-            }
-=======
+        }, 
         "image": {
             "GRE": {
                 "image_url": [
@@ -707,17 +685,30 @@
                 ], 
                 "template_type": "image"
             }
-        }, 
-        "paragraph": {
-            "paragraph_1": [
-                {
-                    "source": "TEMPLATE", 
-                    "text": "SAFETY"
-                }
-            ]
         }
     }, 
     "SCIENCE": {
+        "conversation": {
+            "conversation_1": {
+                "message": [
+                    {
+                        "source": "TEMPLATE", 
+                        "text": "SCIENCE"
+                    }
+                ], 
+                "quick_reply": {
+                    "payload": [
+                        "NEXT_QUESTION"
+                    ], 
+                    "source": [
+                        "TEMPLATE"
+                    ], 
+                    "title": [
+                        "GOT_IT"
+                    ]
+                }
+            }
+        }, 
         "image": {
             "GRE": {
                 "image_url": [
@@ -737,15 +728,6 @@
                 ], 
                 "template_type": "image"
             }
-        }, 
-        "paragraph": {
-            "paragraph_1": [
-                {
-                    "source": "TEMPLATE", 
-                    "text": "SCIENCE"
-                }
-            ]
->>>>>>> 457596426367f4bca6379e747d4c558f92b12efd
         }
     }, 
     "USER_MANUAL_1": {
@@ -754,15 +736,7 @@
                 "message": [
                     {
                         "source": "LOCAL", 
-<<<<<<< HEAD
-                        "text": "To study the questions, you can type in \u2328\ufe0f your answers in the text field and QuizBot will evaluate the answers for you."
-                    }, 
-                    {
-                        "source": "LOCAL", 
-                        "text": "For each question, you get \ud83d\udd1f points if you get it right."
-=======
-                        "text": "To study the questions, you can type in your answers in the text field and QuizBot will evaluate the answers for you."
->>>>>>> 457596426367f4bca6379e747d4c558f92b12efd
+                        "text": "To study the questions, you can type in your answers in the text field and I will evaluate the answers for you using advanced NLP (Natural Language Processing) technology."
                     }
                 ], 
                 "quick_reply": {
@@ -780,13 +754,9 @@
         }, 
         "image": {
             "image_1": {
-<<<<<<< HEAD
-                "image_url": "https://www.smartprimer.org:{}/pictures/user_manual/typeanswer.png", 
-=======
                 "image_url": [
                     "https://www.smartprimer.org:{}/pictures/user_manual/typeanswer.png"
                 ], 
->>>>>>> 457596426367f4bca6379e747d4c558f92b12efd
                 "template_type": "image"
             }
         }
@@ -797,23 +767,7 @@
                 "message": [
                     {
                         "source": "LOCAL", 
-<<<<<<< HEAD
-                        "text": "If you don't know the answers, then feel free to tap on the hint button.\ud83d\udca1"
-                    }, 
-                    {
-                        "source": "LOCAL", 
-                        "text": "The hint will give you a list of potential answers and you can select one from them. \ud83d\udd20"
-                    }, 
-                    {
-                        "source": "LOCAL", 
-                        "text": "If you choose the correct answer, then you will get at most 3\ufe0f\u20e3 points."
-=======
                         "text": "If you don't know the answers, then feel free to tap on the hint button."
-                    }, 
-                    {
-                        "source": "LOCAL", 
-                        "text": "The hint will give you a list of potential answers and you can select one from them."
->>>>>>> 457596426367f4bca6379e747d4c558f92b12efd
                     }
                 ], 
                 "quick_reply": {
@@ -831,23 +785,9 @@
         }, 
         "image": {
             "image_1": {
-<<<<<<< HEAD
-                "image_url": "https://www.smartprimer.org:{}/pictures/user_manual/needhintbutton.png", 
-                "template_type": "image"
-            }, 
-            "image_2": {
-                "image_url": "https://www.smartprimer.org:{}/pictures/user_manual/hintoptions.png", 
-=======
                 "image_url": [
                     "https://www.smartprimer.org:{}/pictures/user_manual/needhintbutton.png"
                 ], 
-                "template_type": "image"
-            }, 
-            "image_2": {
-                "image_url": [
-                    "https://www.smartprimer.org:{}/pictures/user_manual/hintoptions.png"
-                ], 
->>>>>>> 457596426367f4bca6379e747d4c558f92b12efd
                 "template_type": "image"
             }
         }
@@ -858,7 +798,7 @@
                 "message": [
                     {
                         "source": "LOCAL", 
-                        "text": "To discover more abilities of me, you can click on the menu button.\ud83d\udc46\ud83c\udffc"
+                        "text": "The hint will give you a list of potential answers and you can select one from them."
                     }
                 ], 
                 "quick_reply": {
@@ -876,13 +816,9 @@
         }, 
         "image": {
             "image_1": {
-<<<<<<< HEAD
-                "image_url": "https://www.smartprimer.org:{}/pictures/user_manual/menubutton.jpg", 
-=======
                 "image_url": [
-                    "https://www.smartprimer.org:{}/pictures/user_manual/menubutton.jpg"
+                    "https://www.smartprimer.org:{}/pictures/user_manual/hintoptions.png"
                 ], 
->>>>>>> 457596426367f4bca6379e747d4c558f92b12efd
                 "template_type": "image"
             }
         }
@@ -893,7 +829,7 @@
                 "message": [
                     {
                         "source": "LOCAL", 
-                        "text": "You can change the subjects from the menu! \ud83d\udd00"
+                        "text": "To discover more abilities of me, you can click on the menu button.\ud83d\udc46\ud83c\udffc"
                     }
                 ], 
                 "quick_reply": {
@@ -911,23 +847,9 @@
         }, 
         "image": {
             "image_1": {
-<<<<<<< HEAD
-                "image_url": "https://www.smartprimer.org:{}/pictures/user_manual/changesubjects_1.jpg", 
-                "template_type": "image"
-            }, 
-            "image_2": {
-                "image_url": "https://www.smartprimer.org:{}/pictures/user_manual/changesubjects_2.jpg", 
-=======
                 "image_url": [
-                    "https://www.smartprimer.org:{}/pictures/user_manual/changesubjects_1.jpg"
+                    "https://www.smartprimer.org:{}/pictures/user_manual/menubutton.jpg"
                 ], 
-                "template_type": "image"
-            }, 
-            "image_2": {
-                "image_url": [
-                    "https://www.smartprimer.org:{}/pictures/user_manual/changesubjects_2.jpg"
-                ], 
->>>>>>> 457596426367f4bca6379e747d4c558f92b12efd
                 "template_type": "image"
             }
         }
@@ -938,11 +860,7 @@
                 "message": [
                     {
                         "source": "LOCAL", 
-<<<<<<< HEAD
-                        "text": "You can track your learning progress by clicking on the menu button to see your total score. \ud83d\udcdd"
-=======
-                        "text": "You can hear jokes from me by clicking the Chat with Me button. \ud83d\udc27"
->>>>>>> 457596426367f4bca6379e747d4c558f92b12efd
+                        "text": "You can change question subject by clicking on the \"Change Subject \ud83d\udd00\" button from the menu."
                     }
                 ], 
                 "quick_reply": {
@@ -960,13 +878,15 @@
         }, 
         "image": {
             "image_1": {
-<<<<<<< HEAD
-                "image_url": "https://www.smartprimer.org:{}/pictures/user_manual/totalscorebutton.png", 
-=======
                 "image_url": [
-                    "https://www.smartprimer.org:{}/pictures/user_manual/chatwithme.png"
+                    "https://www.smartprimer.org:{}/pictures/user_manual/changesubjects_1.jpg"
                 ], 
->>>>>>> 457596426367f4bca6379e747d4c558f92b12efd
+                "template_type": "image"
+            }, 
+            "image_2": {
+                "image_url": [
+                    "https://www.smartprimer.org:{}/pictures/user_manual/changesubjects_2.jpg"
+                ], 
                 "template_type": "image"
             }
         }
@@ -977,7 +897,7 @@
                 "message": [
                     {
                         "source": "LOCAL", 
-                        "text": "To look for other informations, you can click on the more button in the menu.\ud83d\udccd"
+                        "text": "If you want to hear jokes and fun facts from me, you can click on the \"Chat with Me \ud83d\udc27\" button."
                     }
                 ], 
                 "quick_reply": {
@@ -995,18 +915,45 @@
         }, 
         "image": {
             "image_1": {
-<<<<<<< HEAD
-                "image_url": "https://www.smartprimer.org:{}/pictures/user_manual/morebutton.png", 
-=======
                 "image_url": [
-                    "https://www.smartprimer.org:{}/pictures/user_manual/morebutton.png"
+                    "https://www.smartprimer.org:{}/pictures/user_manual/chatwithme.png"
                 ], 
->>>>>>> 457596426367f4bca6379e747d4c558f92b12efd
                 "template_type": "image"
             }
         }
     }, 
     "USER_MANUAL_7": {
+        "conversation": {
+            "conversation_1": {
+                "message": [
+                    {
+                        "source": "LOCAL", 
+                        "text": "To look for other information, you can click on the \"More \ud83d\udccd\" button in the menu."
+                    }
+                ], 
+                "quick_reply": {
+                    "payload": [
+                        "USER_MANUAL_8"
+                    ], 
+                    "source": [
+                        "TEMPLATE"
+                    ], 
+                    "title": [
+                        "GOT_IT"
+                    ]
+                }
+            }
+        }, 
+        "image": {
+            "image_1": {
+                "image_url": [
+                    "https://www.smartprimer.org:{}/pictures/user_manual/morebutton.png"
+                ], 
+                "template_type": "image"
+            }
+        }
+    }, 
+    "USER_MANUAL_8": {
         "conversation": {
             "conversation_1": {
                 "message": [
@@ -1044,11 +991,7 @@
                 ], 
                 "quick_reply": {
                     "payload": [
-<<<<<<< HEAD
-                        "PRACTICE_MODE"
-=======
                         "SWITCH_SUBJECT"
->>>>>>> 457596426367f4bca6379e747d4c558f92b12efd
                     ], 
                     "source": [
                         "LOCAL"
