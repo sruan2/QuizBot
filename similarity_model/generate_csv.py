@@ -10,8 +10,8 @@ messages = [
 		['5', 'five'],
 		['4','four'],
 		# true/false
-		['true', 'yes'],
-		['no', 'false'],
+		['true', 'yes', 'i think this is true', 'this is true', 'I think its true'],
+		['no', 'false', 'this is false'],
 		#capitalization
 		['Hydrogen', 'hydrogen'],
 		['Carbon', 'carbon'],

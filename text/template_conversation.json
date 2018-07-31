@@ -66,7 +66,7 @@
                 "title": [
                     "Why?", 
                     "Next question \ud83d\udcaa\ud83c\udffc", 
-                    "Switch Subject \ud83d\udd00"
+                    "Switch subject \ud83d\udd00"
                 ]
             }
         }, 
@@ -145,7 +145,7 @@
                                     "type": "postback"
                                 }, 
                                 {
-                                    "payload": "ABOUT_QUIZBOT", 
+                                    "payload": "ABOUT_QUIZBOT_1", 
                                     "title": "About QuizBot \ud83d\udd16", 
                                     "type": "postback"
                                 }, 
@@ -235,13 +235,13 @@
     }, 
     "TEMPLATE": {
         "ANOTHER_FUN_FACT_SCIENCE": [
-            "Another Fun Fact\ud83d\udca1", 
-            "One More Fun Fact\ud83d\udca1"
+            "Another fun fact\ud83d\udca1", 
+            "One more fun fact\ud83d\udca1"
         ], 
         "ANOTHER_JOKE": [
-            "Another Joke \ud83d\ude01", 
-            "Haha, One More Joke \ud83d\ude01", 
-            "Haha, Another Joke \ud83d\ude01"
+            "Another koke \ud83d\ude01", 
+            "Haha, one more joke \ud83d\ude01", 
+            "Haha, another joke \ud83d\ude01"
         ], 
         "ANSWER_CORRECT": [
             "That\u2019s right! \ud83c\udf89", 
@@ -253,9 +253,9 @@
         ], 
         "ANSWER_NOT_CORRECT": [
             "I'm sorry, but that was incorrect. \ud83d\ude1e", 
-            "That's not quite right.  \ud83d\ude1e", 
-            "Oops, that answer was incorrect.  \ud83d\ude1e", 
-            "That wasn't quite what we were looking for.  \ud83d\ude1e"
+            "That's not quite right. \ud83d\ude1e", 
+            "Oops, that answer was incorrect. \ud83d\ude1e", 
+            "That wasn't quite what we were looking for. \ud83d\ude1e"
         ], 
         "BUGREPORT": [
             "Okay, I\u2019ll take a note of that. Thanks for the feedback! \ud83d\udc4d\ud83c\udffc", 
@@ -318,11 +318,12 @@
             "Good job! Keep up the good work!"
         ], 
         "ENCOURAGE_NO_GIVEUP": [
-            "Okay! Let's try again \ud83d\udcaa\ud83c\udffc Tell me which of these is the right answer:", 
-            "Sure, let's try this again! Which of the following is the correct answer?", 
-            "Try again! Which of the following answers is correct?", 
-            "Alright! Let's do it again! Which of these is the answer?", 
-            "Don't give up! Which answer is correct?"
+            "Okay! Let's try again \ud83d\udcaa\ud83c\udffc", 
+            "Sure, let's try this again!", 
+            "Try again!", 
+            "Alright! Let's do it again!", 
+            "Don't give up!", 
+            "Okay! Let's give it a try again \ud83d\udcaa\ud83c\udffc"
         ], 
         "ENCOURAGE_YES_GIVEUP": [
             "That's okay, you'll get it next time! \ud83d\ude04", 
@@ -610,9 +611,9 @@
             "I'm sorry, you didn't get the question right this time."
         ], 
         "PLEASE_TYPE": [
-            "If you know the answer, you can type it in and I'll help you to evaluate the answer!", 
-            "Please type your answer in if you know it!", 
-            "Remember that you can always type in you answer and I'll help you to evaluate it!"
+            "If you know the answer, you can type it in and I'll help you to evaluate the answer \ud83d\ude0a", 
+            "Please type your answer in if you know it \ud83d\ude0a", 
+            "Remember that you can always type in you answer and I'll help you to evaluate it \ud83d\ude0a"
         ], 
         "QUESTION": [
             "Here's a question for you:", 
@@ -639,15 +640,10 @@
             "Let's quiz you on a little bit of everything! \ud83c\udfb2", 
             "Nice! Enjoy a little variety? Let's answer some questions! \ud83c\udfb2"
         ], 
-        "REMINDER": [
-            "{}, you haven't talked to me for a while. Do you want to continue the conversation with me?", 
-            " Hi {}, you haven't talked to me for a while. Would you like to resume the learning with me?", 
-            "We haven't talked in a while. Should we resume our conversation?"
-        ], 
         "RESUME_LEARNING": [
-            "Resume Learning \ud83d\udcaa\ud83c\udffc", 
-            "Continue Learning \ud83d\udcaa\ud83c\udffc", 
-            "Another Question \ud83d\udcaa\ud83c\udffc"
+            "Resume learning \ud83d\udcaa\ud83c\udffc", 
+            "Continue learning \ud83d\udcaa\ud83c\udffc", 
+            "Another question \ud83d\udcaa\ud83c\udffc"
         ], 
         "SAFETY": [
             "All right! I\u2019ll quiz you on safety!", 
@@ -662,7 +658,7 @@
             "All right! I\u2019ll quiz you on science!", 
             "Okay! Let\u2019s see how much you know about science!", 
             "Science rules! Let's see what you know.", 
-            "Awesome! Here's some questions on science!", 
+            "Awesome! Here are some questions on science!", 
             "Let's answer some questions about science!", 
             "Let's test your knowledge on science!", 
             "Awesome! Let's learn about science!"
