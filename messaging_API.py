@@ -85,8 +85,7 @@ def send_quick_reply(mysql, recipient_id, template_conversation, quick_reply_dat
     '''
     send_typing_action(recipient_id)
 
-    data = template.create_quick_reply_template_json(
-        recipient_id, template_conversation, quick_reply_data, message_data)
+    data = template.create_quick_reply_template_json(recipient_id, template_conversation, quick_reply_data, message_data)
     send_data(data)
 
     dialogue = json.loads(data)["message"]["text"]
