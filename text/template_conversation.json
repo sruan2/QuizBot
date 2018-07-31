@@ -26,8 +26,6 @@
                 ]
             }
         }, 
-<<<<<<< HEAD
-=======
         "CONGRATULATION": {
             "image": {
                 "image_url": [
@@ -49,7 +47,6 @@
                 "template_type": "image"
             }
         }, 
->>>>>>> 457596426367f4bca6379e747d4c558f92b12efd
         "CORRECT_ANSWER": {
             "quick_reply": {
                 "message": {
@@ -69,7 +66,7 @@
                 "title": [
                     "Why?", 
                     "Next question \ud83d\udcaa\ud83c\udffc", 
-                    "Switch Subject \ud83d\udd00"
+                    "Switch subject \ud83d\udd00"
                 ]
             }
         }, 
@@ -84,24 +81,14 @@
                     "text": "{}"
                 }, 
                 "payload": [
-<<<<<<< HEAD
-                    "NEXT_QUESTION", 
-                    "SWITCH_SUBJECT"
-=======
                     "NEXT_QUESTION"
->>>>>>> 457596426367f4bca6379e747d4c558f92b12efd
                 ], 
                 "source": [
                     "LOCAL", 
                     "LOCAL"
                 ], 
                 "title": [
-<<<<<<< HEAD
-                    "Next question \ud83d\udcaa", 
-                    "I don\u2019t know \ud83d\ude13"
-=======
                     "Next question \ud83d\udcaa"
->>>>>>> 457596426367f4bca6379e747d4c558f92b12efd
                 ]
             }
         }, 
@@ -141,17 +128,8 @@
                             "type": "nested"
                         }, 
                         {
-<<<<<<< HEAD
-                            "payload": "CHECK_TOTAL_SCORE", 
-                            "title": "Check Total Score \ud83d\udcdd", 
-=======
                             "payload": "CHAT_WITH_ME", 
-<<<<<<< HEAD
-                            "title": "Chat With Me \ud83d\udc27", 
->>>>>>> 457596426367f4bca6379e747d4c558f92b12efd
-=======
                             "title": "Chat with Me \ud83d\udc27", 
->>>>>>> d657713ec6b0e15589eb56abe66b441b21d7b02c
                             "type": "postback"
                         }, 
                         {
@@ -167,7 +145,7 @@
                                     "type": "postback"
                                 }, 
                                 {
-                                    "payload": "ABOUT_QUIZBOT", 
+                                    "payload": "ABOUT_QUIZBOT_1", 
                                     "title": "About QuizBot \ud83d\udd16", 
                                     "type": "postback"
                                 }, 
@@ -187,12 +165,6 @@
             ]
         }, 
         "QUESTION": {
-<<<<<<< HEAD
-            "message": {
-                "source": "TEMPLATE", 
-                "text": "QUESTION"
-            }, 
-=======
             "message_1": {
                 "source": "TEMPLATE", 
                 "text": "QUESTION"
@@ -201,7 +173,6 @@
                 "source": "TEMPLATE", 
                 "text": "PLEASE_TYPE"
             }, 
->>>>>>> 457596426367f4bca6379e747d4c558f92b12efd
             "quick_reply": {
                 "message": {
                     "source": "LOCAL", 
@@ -221,16 +192,6 @@
                 ]
             }
         }, 
-<<<<<<< HEAD
-        "SAY_HI": {
-            "quick_reply": {
-                "message": {
-                    "source": "LOCAL", 
-                    "text": "Hi {}! My name is Mr.Penguin \ud83d\udc27 and I\u2019m here to help you learn all about science\ud83d\udd2c, verbal reasoning (GRE)\ud83d\udcd6, and safety\ud83d\udd25!"
-                }, 
-                "payload": [
-                    "GET_INTRO_2"
-=======
         "REMINDER": {
             "image": {
                 "image_url": [
@@ -245,7 +206,6 @@
                 }, 
                 "payload": [
                     "NEXT_QUESTION"
->>>>>>> 457596426367f4bca6379e747d4c558f92b12efd
                 ], 
                 "source": [
                     "TEMPLATE"
@@ -255,16 +215,6 @@
                 ]
             }
         }, 
-<<<<<<< HEAD
-        "TOTAL_SCORE": {
-            "quick_reply": {
-                "message": {
-                    "source": "TEMPLATE", 
-                    "text": "TOTAL_SCORE"
-                }, 
-                "payload": [
-                    "NEXT_QUESTION"
-=======
         "SAY_HI": {
             "quick_reply": {
                 "message": {
@@ -273,7 +223,6 @@
                 }, 
                 "payload": [
                     "GET_INTRO_2"
->>>>>>> 457596426367f4bca6379e747d4c558f92b12efd
                 ], 
                 "source": [
                     "TEMPLATE"
@@ -285,24 +234,14 @@
         }
     }, 
     "TEMPLATE": {
-<<<<<<< HEAD
-        "ANSWER_CORRECT": [
-            "That\u2019s right! \ud83c\udf89", 
-            "Correct! \ud83c\udf8a", 
-            "Good job! \ud83d\ude4c\ud83c\udffc"
-        ], 
-        "ANSWER_NOT_CORRECT": [
-            "I'm sorry, but that was incorrect. You didn't earn any points \ud83d\ude1e", 
-            "That's not quite right. You didn't earn any points \ud83d\ude1e"
-=======
         "ANOTHER_FUN_FACT_SCIENCE": [
-            "Another Fun Fact\ud83d\udca1", 
-            "One More Fun Fact\ud83d\udca1"
+            "Another fun fact\ud83d\udca1", 
+            "One more fun fact\ud83d\udca1"
         ], 
         "ANOTHER_JOKE": [
-            "Another Joke \ud83d\ude01", 
-            "Haha, One More Joke \ud83d\ude01", 
-            "Haha, Another Joke \ud83d\ude01"
+            "Another koke \ud83d\ude01", 
+            "Haha, one more joke \ud83d\ude01", 
+            "Haha, another joke \ud83d\ude01"
         ], 
         "ANSWER_CORRECT": [
             "That\u2019s right! \ud83c\udf89", 
@@ -314,17 +253,13 @@
         ], 
         "ANSWER_NOT_CORRECT": [
             "I'm sorry, but that was incorrect. \ud83d\ude1e", 
-            "That's not quite right.  \ud83d\ude1e", 
-            "Oops, that answer was incorrect.  \ud83d\ude1e", 
-            "That wasn't quite what we were looking for.  \ud83d\ude1e"
->>>>>>> 457596426367f4bca6379e747d4c558f92b12efd
+            "That's not quite right. \ud83d\ude1e", 
+            "Oops, that answer was incorrect. \ud83d\ude1e", 
+            "That wasn't quite what we were looking for. \ud83d\ude1e"
         ], 
         "BUGREPORT": [
             "Okay, I\u2019ll take a note of that. Thanks for the feedback! \ud83d\udc4d\ud83c\udffc", 
             "Alrighty, thank you for your feedback. I'll take a note of that!", 
-<<<<<<< HEAD
-            "Thank you for your bug report. I'll take a look at that!"
-=======
             "Thank you for your bug report. I'll take a look at that!", 
             "Thanks for the feedback! I'll take a note of that!"
         ], 
@@ -335,7 +270,6 @@
             "Would you want me to tell you something interesting?", 
             "Do you want me to tell you something fun?", 
             "Great! I have something fun for you!"
->>>>>>> 457596426367f4bca6379e747d4c558f92b12efd
         ], 
         "CHOOSE_SUBJECT": [
             "Sure, which subject would you like me to quiz you on?\ud83d\udc47\ud83c\udffc", 
@@ -344,14 +278,10 @@
             "Sure, now tell me which subject you would like to choose.\ud83d\udc47\ud83c\udffc", 
             "Okay, now tell me which subject you would like to study.\ud83d\udc47\ud83c\udffc", 
             "OK, which of the following subjects would you like to study?\ud83d\udc47\ud83c\udffc", 
-<<<<<<< HEAD
-            "Sure, which of the following subjects would you like me to quiz you on?\ud83d\udc47\ud83c\udffc"
-=======
             "Sure, which of the following subjects would you like me to quiz you on?\ud83d\udc47\ud83c\udffc", 
             "Cool, which subject do you want to study?\ud83d\udc47\ud83c\udffc", 
             "Cool, let's pick one of the following subjects?\ud83d\udc47\ud83c\udffc", 
             "Cool, which subject would you like to study?\ud83d\udc47\ud83c\udffc"
->>>>>>> 457596426367f4bca6379e747d4c558f92b12efd
         ], 
         "CONTINUE": [
             "Great! Let's move on.", 
@@ -361,17 +291,6 @@
             "Let's continue with the next question.", 
             "Alrighty, let's continue learning.", 
             "Good! Let's move on.", 
-<<<<<<< HEAD
-            "Great! Let's resuming learning."
-        ], 
-        "ENCOURAGE_NO_GIVEUP": [
-            "Okay! Let's try again \ud83d\udcaa\ud83c\udffc Tell me which of these is the right answer:", 
-            "Sure, let's try this again! Which of the following is the correct answer?"
-        ], 
-        "ENCOURAGE_YES_GIVEUP": [
-            "That\u2019s okay, you\u2019ll get it next time! \u263a\ufe0f", 
-            "That's fine, you'll nail it next time! \u263a\ufe0f"
-=======
             "Great! Let's resume learning.", 
             "Great! Let's resuming learning.", 
             "Cool! Let's keep going."
@@ -399,11 +318,12 @@
             "Good job! Keep up the good work!"
         ], 
         "ENCOURAGE_NO_GIVEUP": [
-            "Okay! Let's try again \ud83d\udcaa\ud83c\udffc Tell me which of these is the right answer:", 
-            "Sure, let's try this again! Which of the following is the correct answer?", 
-            "Try again! Which of the following answers is correct?", 
-            "Alright! Let's do it again! Which of these is the answer?", 
-            "Don't give up! Which answer is correct?"
+            "Okay! Let's try again \ud83d\udcaa\ud83c\udffc", 
+            "Sure, let's try this again!", 
+            "Try again!", 
+            "Alright! Let's do it again!", 
+            "Don't give up!", 
+            "Okay! Let's give it a try again \ud83d\udcaa\ud83c\udffc"
         ], 
         "ENCOURAGE_YES_GIVEUP": [
             "That's okay, you'll get it next time! \ud83d\ude04", 
@@ -411,15 +331,11 @@
             "Don't give up, you'll get it next time! \ud83d\ude04", 
             "That's fine, you'll nail it next time! \ud83d\ude04", 
             "No worries! You'll get it next time! \ud83d\ude04"
->>>>>>> 457596426367f4bca6379e747d4c558f92b12efd
         ], 
         "EXPLANATION": [
             "Here's an explanation:", 
             "This is why:", 
             "This is an explanation of the question:", 
-<<<<<<< HEAD
-            "I hope this explanation could help you understand the the question."
-=======
             "I hope this explanation could help you understand the the question.", 
             "Here's why:"
         ], 
@@ -497,7 +413,6 @@
             "You've done a very good job in science! Congrats!", 
             "You are becoming a master in science!", 
             "Wow! You seem to know a lot about safety."
->>>>>>> 457596426367f4bca6379e747d4c558f92b12efd
         ], 
         "GOT_IT": [
             "Got it \ud83d\udca1", 
@@ -631,31 +546,6 @@
         ], 
         "GRE": [
             "All right! I\u2019ll quiz you on GRE!", 
-<<<<<<< HEAD
-            "Okay! Let\u2019s see how much you know about GRE!"
-        ], 
-        "INDEX": [
-            "1\ufe0f\u20e3", 
-            "2\ufe0f\u20e3", 
-            "3\ufe0f\u20e3", 
-            "4\ufe0f\u20e3", 
-            "5\ufe0f\u20e3", 
-            "6\ufe0f\u20e3", 
-            "7\ufe0f\u20e3", 
-            "8\ufe0f\u20e3", 
-            "9\ufe0f\u20e3", 
-            "\ud83d\udd1f"
-        ], 
-        "NEED_HINT": [
-            "Okay. Which of these is the right answer?\ud83d\udc47\ud83c\udffc\"", 
-            "Which of the following options is the right answer?", 
-            "Alrighty, which of the following options is the answer of the question?"
-        ], 
-        "NO_POINT": [
-            "You didn't earn any points this time.", 
-            "You didn't get it right this time.", 
-            "I'm sorry, you didn't earn any points this time."
-=======
             "Okay! Let\u2019s see how much you know about GRE!", 
             "Cool! Here's some questions on the GRE!", 
             "Let's answer some questions about the GRE!", 
@@ -721,10 +611,9 @@
             "I'm sorry, you didn't get the question right this time."
         ], 
         "PLEASE_TYPE": [
-            "If you know the answer, you can type it in and I'll help you to evaluate the answer!", 
-            "Please type your answer in if you know it!", 
-            "Remember that you can always type in you answer and I'll help you to evaluate it!"
->>>>>>> 457596426367f4bca6379e747d4c558f92b12efd
+            "If you know the answer, you can type it in and I'll help you to evaluate the answer \ud83d\ude0a", 
+            "Please type your answer in if you know it \ud83d\ude0a", 
+            "Remember that you can always type in you answer and I'll help you to evaluate it \ud83d\ude0a"
         ], 
         "QUESTION": [
             "Here's a question for you:", 
@@ -739,28 +628,6 @@
             "Let's see if you would answer this one.", 
             "How about this next one:", 
             "What about this next question:", 
-<<<<<<< HEAD
-            "Alrighty, let's try this one."
-        ], 
-        "RANDOM": [
-            "Okay! Let\u2019s mix it up! \ud83c\udfb2", 
-            "All right! A little bit of everything! \ud83c\udfb2"
-        ], 
-        "SAFETY": [
-            "All right! I\u2019ll quiz you on safety!", 
-            "Okay! Let\u2019s see how much you know about safety!"
-        ], 
-        "SCIENCE": [
-            "All right! I\u2019ll quiz you on science!", 
-            "Okay! Let\u2019s see how much you know about science!"
-        ], 
-        "TOTAL_SCORE": [
-            "Your total score is {}. Keep it up! \ud83d\udcaa\ud83c\udffc", 
-            "Your total score is {}. Great work! \ud83d\udcaa\ud83c\udffc", 
-            "Your total score is {}. Good job! \ud83d\udcaa\ud83c\udffc", 
-            "Your total score is {}. Excellent work! \ud83d\udcaa\ud83c\udffc", 
-            "Your total score is {}. Awesome work! \ud83d\udcaa\ud83c\udffc"
-=======
             "Alrighty, let's try this one.", 
             "See if you can answer this next one."
         ], 
@@ -773,15 +640,10 @@
             "Let's quiz you on a little bit of everything! \ud83c\udfb2", 
             "Nice! Enjoy a little variety? Let's answer some questions! \ud83c\udfb2"
         ], 
-        "REMINDER": [
-            "{}, you haven't talked to me for a while. Do you want to continue the conversation with me?", 
-            " Hi {}, you haven't talked to me for a while. Would you like to resume the learning with me?", 
-            "We haven't talked in a while. Should we resume our conversation?"
-        ], 
         "RESUME_LEARNING": [
-            "Resume Learning \ud83d\udcaa\ud83c\udffc", 
-            "Continue Learning \ud83d\udcaa\ud83c\udffc", 
-            "Another Question \ud83d\udcaa\ud83c\udffc"
+            "Resume learning \ud83d\udcaa\ud83c\udffc", 
+            "Continue learning \ud83d\udcaa\ud83c\udffc", 
+            "Another question \ud83d\udcaa\ud83c\udffc"
         ], 
         "SAFETY": [
             "All right! I\u2019ll quiz you on safety!", 
@@ -796,7 +658,7 @@
             "All right! I\u2019ll quiz you on science!", 
             "Okay! Let\u2019s see how much you know about science!", 
             "Science rules! Let's see what you know.", 
-            "Awesome! Here's some questions on science!", 
+            "Awesome! Here are some questions on science!", 
             "Let's answer some questions about science!", 
             "Let's test your knowledge on science!", 
             "Awesome! Let's learn about science!"
@@ -813,7 +675,6 @@
             "SCIENCE", 
             "GRE", 
             "SAFETY"
->>>>>>> 457596426367f4bca6379e747d4c558f92b12efd
         ]
     }
 }

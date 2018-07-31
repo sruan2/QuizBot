@@ -4,6 +4,7 @@ import random
 import time
 import messaging_API
 import database as db
+import copy
 from utils import *
 
 
@@ -68,7 +69,7 @@ def send_congratulation_image(mysql, recipient_id, template_conversation):
         Returns:
             None
     '''
-    if random.random() < 0.5:
+    if random.random() < 0.4:
         image_data = template_conversation["STATE"]["CONGRATULATION"]["image"]
         random.shuffle(image_data["image_url"])
         image_data["image_url"][0] = image_data["image_url"][0].format(
@@ -142,12 +143,10 @@ def send_format_quick_reply_text(mysql, recipient_id, template_conversation, sta
         Returns:
             None
     '''
-    quick_reply_data = template_conversation["STATE"][state]["quick_reply"]
-    text_format = quick_reply_data["message"]["text"]
-    quick_reply_data["message"]["text"] = quick_reply_data["message"]["text"].format(
-        format_fill_text)
+    quick_reply_data = copy.deepcopy(template_conversation["STATE"][state]["quick_reply"])
+    quick_reply_data["message"]["text"] = quick_reply_data["message"]["text"].format(format_fill_text)
     uid = messaging_API.send_quick_reply(mysql, recipient_id, template_conversation, quick_reply_data)
-    quick_reply_data["message"]["text"] = text_format
+
     # return uid so that we can log the information in the [user_history] dataset when the bot sends a question
     return uid
 
@@ -289,9 +288,7 @@ def send_hint(mysql, recipient_id, chatbot_text, template_conversation, qa_model
     index = ["1️⃣", "2️⃣", "3️⃣", "4️⃣",
              "5️⃣", "6️⃣", "7️⃣", "8️⃣", "9️⃣", "🔟"]
 
-    original_source = chatbot_text["NEED_HINT"]["conversation"]["conversation_1"]["quick_reply"]["source"][:]
-    original_title = chatbot_text["NEED_HINT"]["conversation"]["conversation_1"]["quick_reply"]["title"][:]
-    original_payload = chatbot_text["NEED_HINT"]["conversation"]["conversation_1"]["quick_reply"]["payload"][:]
+    chatbot_text_local = copy.deepcopy(chatbot_text)
 
     for x in qa_model.DKB[qid]:
         options.append({
@@ -313,17 +310,14 @@ def send_hint(mysql, recipient_id, chatbot_text, template_conversation, qa_model
         message_text += " "
         message_text += str(options[i]["title"])
         message_text += "\n"
-        chatbot_text["NEED_HINT"]["conversation"]["conversation_1"]["quick_reply"]["source"].insert(
+        chatbot_text_local["NEED_HINT"]["conversation"]["conversation_1"]["quick_reply"]["source"].insert(
             0, "LOCAL")
-        chatbot_text["NEED_HINT"]["conversation"]["conversation_1"]["quick_reply"]["title"].insert(
+        chatbot_text_local["NEED_HINT"]["conversation"]["conversation_1"]["quick_reply"]["title"].insert(
             0, index[j % 10])
-        chatbot_text["NEED_HINT"]["conversation"]["conversation_1"]["quick_reply"]["payload"].insert(
+        chatbot_text_local["NEED_HINT"]["conversation"]["conversation_1"]["quick_reply"]["payload"].insert(
             0, options[j]["payload"])
 
-    chatbot_text["NEED_HINT"]["conversation"]["conversation_1"]["message"][1]["text"] = message_text
+    chatbot_text_local["NEED_HINT"]["conversation"]["conversation_1"]["message"][1]["text"] = message_text
     send_conversation(mysql, recipient_id, "NEED_HINT",
-                      chatbot_text, template_conversation, "conversation_1")
+                      chatbot_text_local, template_conversation, "conversation_1")
 
-    chatbot_text["NEED_HINT"]["conversation"]["conversation_1"]["quick_reply"]["source"] = original_source
-    chatbot_text["NEED_HINT"]["conversation"]["conversation_1"]["quick_reply"]["title"] = original_title
-    chatbot_text["NEED_HINT"]["conversation"]["conversation_1"]["quick_reply"]["payload"] = original_payload
