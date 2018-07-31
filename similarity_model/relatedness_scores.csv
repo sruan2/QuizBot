@@ -3,8 +3,12 @@
 5,four,1
 5,true,1
 5,yes,1
+5,i think this is true,1
+5,this is true,1
+5,I think its true,1
 5,no,1
 5,false,1
+5,this is false,1
 5,Hydrogen,1
 5,hydrogen,1
 5,Carbon,1
@@ -40,8 +44,12 @@ five,4,1
 five,four,1
 five,true,1
 five,yes,1
+five,i think this is true,1
+five,this is true,1
+five,I think its true,1
 five,no,1
 five,false,1
+five,this is false,1
 five,Hydrogen,1
 five,hydrogen,1
 five,Carbon,1
@@ -76,8 +84,12 @@ five,you are correct,1
 4,four,5
 4,true,1
 4,yes,1
+4,i think this is true,1
+4,this is true,1
+4,I think its true,1
 4,no,1
 4,false,1
+4,this is false,1
 4,Hydrogen,1
 4,hydrogen,1
 4,Carbon,1
@@ -111,8 +123,12 @@ five,you are correct,1
 4,you are correct,1
 four,true,1
 four,yes,1
+four,i think this is true,1
+four,this is true,1
+four,I think its true,1
 four,no,1
 four,false,1
+four,this is false,1
 four,Hydrogen,1
 four,hydrogen,1
 four,Carbon,1
@@ -145,8 +161,12 @@ four,correct,1
 four,you are right,1
 four,you are correct,1
 true,yes,5
+true,i think this is true,5
+true,this is true,5
+true,I think its true,5
 true,no,1
 true,false,1
+true,this is false,1
 true,Hydrogen,1
 true,hydrogen,1
 true,Carbon,1
@@ -178,8 +198,12 @@ true,right,1
 true,correct,1
 true,you are right,1
 true,you are correct,1
+yes,i think this is true,5
+yes,this is true,5
+yes,I think its true,5
 yes,no,1
 yes,false,1
+yes,this is false,1
 yes,Hydrogen,1
 yes,hydrogen,1
 yes,Carbon,1
@@ -211,7 +235,113 @@ yes,right,1
 yes,correct,1
 yes,you are right,1
 yes,you are correct,1
+i think this is true,this is true,5
+i think this is true,I think its true,5
+i think this is true,no,1
+i think this is true,false,1
+i think this is true,this is false,1
+i think this is true,Hydrogen,1
+i think this is true,hydrogen,1
+i think this is true,Carbon,1
+i think this is true,carbon,1
+i think this is true,carbon,1
+i think this is true,carbon and hydrogen,1
+i think this is true,hydrogen and carbon,1
+i think this is true,bond,1
+i think this is true,covalent bonds,1
+i think this is true,human activity,1
+i think this is true,careless human activity,1
+i think this is true,heat,1
+i think this is true,thermal energy,1
+i think this is true,kinetic energy,1
+i think this is true,nervous,1
+i think this is true,central nervous system,1
+i think this is true,neural,1
+i think this is true,sexual reproduction,1
+i think this is true,sexual,1
+i think this is true,atom nucleus,1
+i think this is true,the nucleus,1
+i think this is true,nuclear,1
+i think this is true,medulla,1
+i think this is true,reproduce asexually and sexually,1
+i think this is true,reproduce sexually and asexually,1
+i think this is true,2 hour,1
+i think this is true,2 hours,1
+i think this is true,right,1
+i think this is true,correct,1
+i think this is true,you are right,1
+i think this is true,you are correct,1
+this is true,I think its true,5
+this is true,no,1
+this is true,false,1
+this is true,this is false,1
+this is true,Hydrogen,1
+this is true,hydrogen,1
+this is true,Carbon,1
+this is true,carbon,1
+this is true,carbon,1
+this is true,carbon and hydrogen,1
+this is true,hydrogen and carbon,1
+this is true,bond,1
+this is true,covalent bonds,1
+this is true,human activity,1
+this is true,careless human activity,1
+this is true,heat,1
+this is true,thermal energy,1
+this is true,kinetic energy,1
+this is true,nervous,1
+this is true,central nervous system,1
+this is true,neural,1
+this is true,sexual reproduction,1
+this is true,sexual,1
+this is true,atom nucleus,1
+this is true,the nucleus,1
+this is true,nuclear,1
+this is true,medulla,1
+this is true,reproduce asexually and sexually,1
+this is true,reproduce sexually and asexually,1
+this is true,2 hour,1
+this is true,2 hours,1
+this is true,right,1
+this is true,correct,1
+this is true,you are right,1
+this is true,you are correct,1
+I think its true,no,1
+I think its true,false,1
+I think its true,this is false,1
+I think its true,Hydrogen,1
+I think its true,hydrogen,1
+I think its true,Carbon,1
+I think its true,carbon,1
+I think its true,carbon,1
+I think its true,carbon and hydrogen,1
+I think its true,hydrogen and carbon,1
+I think its true,bond,1
+I think its true,covalent bonds,1
+I think its true,human activity,1
+I think its true,careless human activity,1
+I think its true,heat,1
+I think its true,thermal energy,1
+I think its true,kinetic energy,1
+I think its true,nervous,1
+I think its true,central nervous system,1
+I think its true,neural,1
+I think its true,sexual reproduction,1
+I think its true,sexual,1
+I think its true,atom nucleus,1
+I think its true,the nucleus,1
+I think its true,nuclear,1
+I think its true,medulla,1
+I think its true,reproduce asexually and sexually,1
+I think its true,reproduce sexually and asexually,1
+I think its true,2 hour,1
+I think its true,2 hours,1
+I think its true,right,1
+I think its true,correct,1
+I think its true,you are right,1
+I think its true,you are correct,1
 no,false,5
+no,this is false,5
 no,Hydrogen,1
 no,hydrogen,1
 no,Carbon,1
@@ -243,6 +373,7 @@ no,right,1
 no,correct,1
 no,you are right,1
 no,you are correct,1
+false,this is false,5
 false,Hydrogen,1
 false,hydrogen,1
 false,Carbon,1
@@ -274,6 +405,37 @@ false,right,1
 false,correct,1
 false,you are right,1
 false,you are correct,1
+this is false,Hydrogen,1
+this is false,hydrogen,1
+this is false,Carbon,1
+this is false,carbon,1
+this is false,carbon,1
+this is false,carbon and hydrogen,1
+this is false,hydrogen and carbon,1
+this is false,bond,1
+this is false,covalent bonds,1
+this is false,human activity,1
+this is false,careless human activity,1
+this is false,heat,1
+this is false,thermal energy,1
+this is false,kinetic energy,1
+this is false,nervous,1
+this is false,central nervous system,1
+this is false,neural,1
+this is false,sexual reproduction,1
+this is false,sexual,1
+this is false,atom nucleus,1
+this is false,the nucleus,1
+this is false,nuclear,1
+this is false,medulla,1
+this is false,reproduce asexually and sexually,1
+this is false,reproduce sexually and asexually,1
+this is false,2 hour,1
+this is false,2 hours,1
+this is false,right,1
+this is false,correct,1
+this is false,you are right,1
+this is false,you are correct,1
 Hydrogen,hydrogen,5
 Hydrogen,Carbon,1
 Hydrogen,carbon,1
