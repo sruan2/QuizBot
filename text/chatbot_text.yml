@@ -48,7 +48,7 @@ GET_INTRO_3:
         - source:
             LOCAL
           text:
-            To study the questions, you can type in your answers in the text field and QuizBot will evaluate the answers for you.
+            To study the questions, you can type in your answers in the text field and I will evaluate the answers for you.
       quick_reply:
         source:
           - TEMPLATE
