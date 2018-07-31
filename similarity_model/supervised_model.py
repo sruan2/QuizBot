@@ -7,7 +7,7 @@ from nltk import RegexpTokenizer
 from keras.models import Sequential, Model
 from keras.layers import Dense, Input, concatenate
 from keras.optimizers import Adam
-import pickle
+import _pickle as pickle
 
 from similarity_model.messages import MESSAGES, EXAMPLE_MESSAGES
 from QAKnowledgebase import QAKnowlegeBase
