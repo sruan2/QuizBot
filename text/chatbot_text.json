@@ -1,23 +1,42 @@
 {
-    "ABOUT_QUIZBOT": {
+    "ABOUT_QUIZBOT_1": {
         "conversation": {
             "conversation_1": {
                 "message": [
                     {
                         "source": "LOCAL", 
-                        "text": "I'm Frosty \ud83d\udc27 and I'm a QuizBot to help you learn about science\ud83d\udd2c, verbal reasoning (GRE) \ud83d\udd20, and safety\ud83d\udee0."
+                        "text": "I'm Frosty \ud83d\udc27 and I'm a chatbot to help you learn about science\ud83d\udd2c, verbal reasoning (GRE) \ud83d\udd20, and safety\ud83d\udee0."
                     }, 
                     {
                         "source": "LOCAL", 
                         "text": "I'm designed by a group of researchers from Stanford University Computer Science Department."
+                    }
+                ], 
+                "quick_reply": {
+                    "payload": [
+                        "ABOUT_QUIZBOT_2"
+                    ], 
+                    "source": [
+                        "TEMPLATE"
+                    ], 
+                    "title": [
+                        "GOT_IT"
+                    ]
+                }
+            }
+        }
+    }, 
+    "ABOUT_QUIZBOT_2": {
+        "conversation": {
+            "conversation_1": {
+                "message": [
+                    {
+                        "source": "LOCAL", 
+                        "text": "To best your learning experience, I'll use advanced question sequencing algorithms to tailor questions for your need."
                     }, 
                     {
                         "source": "LOCAL", 
-                        "text": "I'll use advanced question sequencing algorithms to tailor questions for your need and best your learning experience."
-                    }, 
-                    {
-                        "source": "LOCAL", 
-                        "text": "I'll evaluate your typing answers carefully using advanced NLP technology to assist you remembering the knowledge!"
+                        "text": "I'm evaluating your typing answers carefully using advanced NLP (Natural Language Processing) technology to assist you remembering the knowledge!"
                     }
                 ], 
                 "quick_reply": {
@@ -86,7 +105,7 @@
                 "message": [
                     {
                         "source": "LOCAL", 
-                        "text": "If you have any questions, please contact the Protocol Director, Sherry Ruan at ssruan@stanford.edu, or Liwei Jiang at ljiang@colby.edu."
+                        "text": "If you have any questions, please don't hesitate to contact the Protocol Director, Sherry Ruan at ssruan@stanford.edu, or Liwei Jiang at ljiang@colby.edu."
                     }
                 ], 
                 "quick_reply": {
@@ -183,7 +202,7 @@
                     }, 
                     {
                         "source": "LOCAL", 
-                        "text": "We will learn fun stuffs together!"
+                        "text": "We will learn fun things together!"
                     }
                 ], 
                 "quick_reply": {
@@ -206,7 +225,7 @@
                 "message": [
                     {
                         "source": "LOCAL", 
-                        "text": "To study the questions, you can type in your answers in the text field and QuizBot will evaluate the answers for you."
+                        "text": "To study the questions, you can type in your answers in the text field and I will evaluate the answers for you using advanced NLP (Natural Language Processing) technology."
                     }
                 ], 
                 "quick_reply": {
@@ -238,10 +257,6 @@
                     {
                         "source": "LOCAL", 
                         "text": "If you don't know the answers, then feel free to tap on the hint button."
-                    }, 
-                    {
-                        "source": "LOCAL", 
-                        "text": "The hint will give you a list of potential answers and you can select one from them."
                     }
                 ], 
                 "quick_reply": {
@@ -263,8 +278,33 @@
                     "https://www.smartprimer.org:{}/pictures/user_manual/needhintbutton.png"
                 ], 
                 "template_type": "image"
-            }, 
-            "image_2": {
+            }
+        }
+    }, 
+    "GET_INTRO_5": {
+        "conversation": {
+            "conversation_1": {
+                "message": [
+                    {
+                        "source": "LOCAL", 
+                        "text": "The hint will give you a list of potential answers and you can select one from them."
+                    }
+                ], 
+                "quick_reply": {
+                    "payload": [
+                        "GET_INTRO_6"
+                    ], 
+                    "source": [
+                        "TEMPLATE"
+                    ], 
+                    "title": [
+                        "GOT_IT"
+                    ]
+                }
+            }
+        }, 
+        "image": {
+            "image_1": {
                 "image_url": [
                     "https://www.smartprimer.org:{}/pictures/user_manual/hintoptions.png"
                 ], 
@@ -272,7 +312,7 @@
             }
         }
     }, 
-    "GET_INTRO_5": {
+    "GET_INTRO_6": {
         "conversation": {
             "conversation_1": {
                 "message": [
@@ -355,6 +395,27 @@
         }
     }, 
     "GRE": {
+        "conversation": {
+            "conversation_1": {
+                "message": [
+                    {
+                        "source": "TEMPLATE", 
+                        "text": "GRE"
+                    }
+                ], 
+                "quick_reply": {
+                    "payload": [
+                        "NEXT_QUESTION"
+                    ], 
+                    "source": [
+                        "TEMPLATE"
+                    ], 
+                    "title": [
+                        "GOT_IT"
+                    ]
+                }
+            }
+        }, 
         "image": {
             "NORMAL": {
                 "image_url": [
@@ -374,14 +435,6 @@
                 ], 
                 "template_type": "image"
             }
-        }, 
-        "paragraph": {
-            "paragraph_1": [
-                {
-                    "source": "TEMPLATE", 
-                    "text": "GRE"
-                }
-            ]
         }
     }, 
     "I_DONT_KNOW": {
@@ -517,6 +570,27 @@
         }
     }, 
     "RANDOM": {
+        "conversation": {
+            "conversation_1": {
+                "message": [
+                    {
+                        "source": "TEMPLATE", 
+                        "text": "RANDOM"
+                    }
+                ], 
+                "quick_reply": {
+                    "payload": [
+                        "NEXT_QUESTION"
+                    ], 
+                    "source": [
+                        "TEMPLATE"
+                    ], 
+                    "title": [
+                        "GOT_IT"
+                    ]
+                }
+            }
+        }, 
         "image": {
             "GRE": {
                 "image_url": [
@@ -542,14 +616,6 @@
                 ], 
                 "template_type": "image"
             }
-        }, 
-        "paragraph": {
-            "paragraph_1": [
-                {
-                    "source": "TEMPLATE", 
-                    "text": "RANDOM"
-                }
-            ]
         }
     }, 
     "REPORT_BUG": {
@@ -579,6 +645,27 @@
         }
     }, 
     "SAFETY": {
+        "conversation": {
+            "conversation_1": {
+                "message": [
+                    {
+                        "source": "TEMPLATE", 
+                        "text": "SAFETY"
+                    }
+                ], 
+                "quick_reply": {
+                    "payload": [
+                        "NEXT_QUESTION"
+                    ], 
+                    "source": [
+                        "TEMPLATE"
+                    ], 
+                    "title": [
+                        "GOT_IT"
+                    ]
+                }
+            }
+        }, 
         "image": {
             "GRE": {
                 "image_url": [
@@ -598,17 +685,30 @@
                 ], 
                 "template_type": "image"
             }
-        }, 
-        "paragraph": {
-            "paragraph_1": [
-                {
-                    "source": "TEMPLATE", 
-                    "text": "SAFETY"
-                }
-            ]
         }
     }, 
     "SCIENCE": {
+        "conversation": {
+            "conversation_1": {
+                "message": [
+                    {
+                        "source": "TEMPLATE", 
+                        "text": "SCIENCE"
+                    }
+                ], 
+                "quick_reply": {
+                    "payload": [
+                        "NEXT_QUESTION"
+                    ], 
+                    "source": [
+                        "TEMPLATE"
+                    ], 
+                    "title": [
+                        "GOT_IT"
+                    ]
+                }
+            }
+        }, 
         "image": {
             "GRE": {
                 "image_url": [
@@ -628,14 +728,6 @@
                 ], 
                 "template_type": "image"
             }
-        }, 
-        "paragraph": {
-            "paragraph_1": [
-                {
-                    "source": "TEMPLATE", 
-                    "text": "SCIENCE"
-                }
-            ]
         }
     }, 
     "USER_MANUAL_1": {
@@ -644,7 +736,7 @@
                 "message": [
                     {
                         "source": "LOCAL", 
-                        "text": "To study the questions, you can type in your answers in the text field and QuizBot will evaluate the answers for you."
+                        "text": "To study the questions, you can type in your answers in the text field and I will evaluate the answers for you using advanced NLP (Natural Language Processing) technology."
                     }
                 ], 
                 "quick_reply": {
@@ -676,10 +768,6 @@
                     {
                         "source": "LOCAL", 
                         "text": "If you don't know the answers, then feel free to tap on the hint button."
-                    }, 
-                    {
-                        "source": "LOCAL", 
-                        "text": "The hint will give you a list of potential answers and you can select one from them."
                     }
                 ], 
                 "quick_reply": {
@@ -701,8 +789,33 @@
                     "https://www.smartprimer.org:{}/pictures/user_manual/needhintbutton.png"
                 ], 
                 "template_type": "image"
-            }, 
-            "image_2": {
+            }
+        }
+    }, 
+    "USER_MANUAL_3": {
+        "conversation": {
+            "conversation_1": {
+                "message": [
+                    {
+                        "source": "LOCAL", 
+                        "text": "The hint will give you a list of potential answers and you can select one from them."
+                    }
+                ], 
+                "quick_reply": {
+                    "payload": [
+                        "USER_MANUAL_4"
+                    ], 
+                    "source": [
+                        "TEMPLATE"
+                    ], 
+                    "title": [
+                        "GOT_IT"
+                    ]
+                }
+            }
+        }, 
+        "image": {
+            "image_1": {
                 "image_url": [
                     "https://www.smartprimer.org:{}/pictures/user_manual/hintoptions.png"
                 ], 
@@ -710,7 +823,7 @@
             }
         }
     }, 
-    "USER_MANUAL_3": {
+    "USER_MANUAL_4": {
         "conversation": {
             "conversation_1": {
                 "message": [
@@ -721,7 +834,7 @@
                 ], 
                 "quick_reply": {
                     "payload": [
-                        "USER_MANUAL_4"
+                        "USER_MANUAL_5"
                     ], 
                     "source": [
                         "TEMPLATE"
@@ -741,18 +854,18 @@
             }
         }
     }, 
-    "USER_MANUAL_4": {
+    "USER_MANUAL_5": {
         "conversation": {
             "conversation_1": {
                 "message": [
                     {
                         "source": "LOCAL", 
-                        "text": "You can change the subjects from the menu! \ud83d\udd00"
+                        "text": "You can change question subject by clicking on the \"Change Subject \ud83d\udd00\" button from the menu."
                     }
                 ], 
                 "quick_reply": {
                     "payload": [
-                        "USER_MANUAL_5"
+                        "USER_MANUAL_6"
                     ], 
                     "source": [
                         "TEMPLATE"
@@ -778,18 +891,18 @@
             }
         }
     }, 
-    "USER_MANUAL_5": {
+    "USER_MANUAL_6": {
         "conversation": {
             "conversation_1": {
                 "message": [
                     {
                         "source": "LOCAL", 
-                        "text": "You can hear jokes from me by clicking the Chat with Me button. \ud83d\udc27"
+                        "text": "If you want to hear jokes and fun facts from me, you can click on the \"Chat with Me \ud83d\udc27\" button."
                     }
                 ], 
                 "quick_reply": {
                     "payload": [
-                        "USER_MANUAL_6"
+                        "USER_MANUAL_7"
                     ], 
                     "source": [
                         "TEMPLATE"
@@ -809,18 +922,18 @@
             }
         }
     }, 
-    "USER_MANUAL_6": {
+    "USER_MANUAL_7": {
         "conversation": {
             "conversation_1": {
                 "message": [
                     {
                         "source": "LOCAL", 
-                        "text": "To look for other informations, you can click on the more button in the menu.\ud83d\udccd"
+                        "text": "To look for other information, you can click on the \"More \ud83d\udccd\" button in the menu."
                     }
                 ], 
                 "quick_reply": {
                     "payload": [
-                        "USER_MANUAL_7"
+                        "USER_MANUAL_8"
                     ], 
                     "source": [
                         "TEMPLATE"
@@ -840,7 +953,7 @@
             }
         }
     }, 
-    "USER_MANUAL_7": {
+    "USER_MANUAL_8": {
         "conversation": {
             "conversation_1": {
                 "message": [

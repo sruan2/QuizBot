@@ -29,7 +29,7 @@ def respond_to_payload(payload, sender_id, qa_model, chatbot_text, template_conv
         Returns:
             None
     '''
-    if payload not in ["SCIENCE", "SAFETY", "RANDOM", "NEXT_QUESTION", "NEED_HINT"]:
+    if payload not in ["NEXT_QUESTION", "NEED_HINT"]:
         utils.update_cache(cache, sender_id, waiting_for_answer=0)
 
     # ---------------------------- INTRO ----------------------------
@@ -49,11 +49,15 @@ def respond_to_payload(payload, sender_id, qa_model, chatbot_text, template_conv
 
     elif payload == "GET_INTRO_4":
         send_image(mysql, sender_id, payload, chatbot_text, "image_1")
-        send_image(mysql, sender_id, payload, chatbot_text, "image_2")
         send_conversation(mysql, sender_id, payload, chatbot_text,
                           template_conversation, "conversation_1")
 
     elif payload == "GET_INTRO_5":
+        send_image(mysql, sender_id, payload, chatbot_text, "image_1")
+        send_conversation(mysql, sender_id, payload, chatbot_text,
+                          template_conversation, "conversation_1")
+
+    elif payload == "GET_INTRO_6":
         send_image(mysql, sender_id, payload, chatbot_text, "image_1")
         send_conversation(mysql, sender_id, payload, chatbot_text,
                           template_conversation, "conversation_1")
@@ -74,7 +78,6 @@ def respond_to_payload(payload, sender_id, qa_model, chatbot_text, template_conv
 
     elif payload == "USER_MANUAL_2":
         send_image(mysql, sender_id, payload, chatbot_text, "image_1")
-        send_image(mysql, sender_id, payload, chatbot_text, "image_2")
         send_conversation(mysql, sender_id, payload, chatbot_text,
                           template_conversation, "conversation_1")
 
@@ -85,12 +88,12 @@ def respond_to_payload(payload, sender_id, qa_model, chatbot_text, template_conv
 
     elif payload == "USER_MANUAL_4":
         send_image(mysql, sender_id, payload, chatbot_text, "image_1")
-        send_image(mysql, sender_id, payload, chatbot_text, "image_2")
         send_conversation(mysql, sender_id, payload, chatbot_text,
                           template_conversation, "conversation_1")
 
     elif payload == "USER_MANUAL_5":
         send_image(mysql, sender_id, payload, chatbot_text, "image_1")
+        send_image(mysql, sender_id, payload, chatbot_text, "image_2")
         send_conversation(mysql, sender_id, payload, chatbot_text,
                           template_conversation, "conversation_1")
 
@@ -100,6 +103,11 @@ def respond_to_payload(payload, sender_id, qa_model, chatbot_text, template_conv
                           template_conversation, "conversation_1")
 
     elif payload == "USER_MANUAL_7":
+        send_image(mysql, sender_id, payload, chatbot_text, "image_1")
+        send_conversation(mysql, sender_id, payload, chatbot_text,
+                          template_conversation, "conversation_1")
+
+    elif payload == "USER_MANUAL_8":
         send_conversation(mysql, sender_id, payload, chatbot_text,
                           template_conversation, "conversation_1")
 
@@ -112,13 +120,11 @@ def respond_to_payload(payload, sender_id, qa_model, chatbot_text, template_conv
         elif cache[sender_id]["current_subject"] == "random":
             send_image(mysql, sender_id, payload, chatbot_text, "NORMAL")
 
-        send_paragraph(mysql, sender_id, payload, chatbot_text,
-                       template_conversation, "paragraph_1")
+        send_conversation(mysql, sender_id, payload, chatbot_text,
+                       template_conversation, "conversation_1")
 
         db.update_user_current_subject(mysql, sender_id, "science")
-        utils.update_cache(
-            cache, sender_id, current_subject="science", waiting_for_answer=1, if_explanation_text=False)
-        send_question(mysql, sender_id, template_conversation, qa_model, cache)
+        utils.update_cache(cache, sender_id, current_subject="science", if_explanation_text=False)
 
     elif payload == "GRE":
         if cache[sender_id]["current_subject"] == "science":
@@ -128,13 +134,11 @@ def respond_to_payload(payload, sender_id, qa_model, chatbot_text, template_conv
         elif cache[sender_id]["current_subject"] == "random":
             send_image(mysql, sender_id, payload, chatbot_text, "NORMAL")
 
-        send_paragraph(mysql, sender_id, payload, chatbot_text,
-                       template_conversation, "paragraph_1")
+        send_conversation(mysql, sender_id, payload, chatbot_text,
+                       template_conversation, "conversation_1")
 
         db.update_user_current_subject(mysql, sender_id, "gre")
-        utils.update_cache(
-            cache, sender_id, current_subject="gre", waiting_for_answer=1, if_explanation_text=False)
-        send_question(mysql, sender_id, template_conversation, qa_model, cache)
+        utils.update_cache(cache, sender_id, current_subject="gre", if_explanation_text=False)
 
     elif payload == "SAFETY":
         if cache[sender_id]["current_subject"] == "science":
@@ -144,13 +148,11 @@ def respond_to_payload(payload, sender_id, qa_model, chatbot_text, template_conv
         elif cache[sender_id]["current_subject"] == "random":
             send_image(mysql, sender_id, payload, chatbot_text, "NORMAL")
 
-        send_paragraph(mysql, sender_id, payload, chatbot_text,
-                       template_conversation, "paragraph_1")
+        send_conversation(mysql, sender_id, payload, chatbot_text,
+                       template_conversation, "conversation_1")
 
         db.update_user_current_subject(mysql, sender_id, "safety")
-        utils.update_cache(
-            cache, sender_id, current_subject="safety", waiting_for_answer=1, if_explanation_text=False)
-        send_question(mysql, sender_id, template_conversation, qa_model, cache)
+        utils.update_cache(cache, sender_id, current_subject="safety", if_explanation_text=False)
 
     elif payload == "RANDOM":
         if cache[sender_id]["current_subject"] == "science":
@@ -160,13 +162,11 @@ def respond_to_payload(payload, sender_id, qa_model, chatbot_text, template_conv
         elif cache[sender_id]["current_subject"] == "gre":
             send_image(mysql, sender_id, payload, chatbot_text, "GRE")
 
-        send_paragraph(mysql, sender_id, payload, chatbot_text,
-                       template_conversation, "paragraph_1")
+        send_conversation(mysql, sender_id, payload, chatbot_text,
+                       template_conversation, "conversation_1")
 
         db.update_user_current_subject(mysql, sender_id, "random")
-        utils.update_cache(
-            cache, sender_id, current_subject="random", waiting_for_answer=1, if_explanation_text=False)
-        send_question(mysql, sender_id, template_conversation, qa_model, cache)
+        utils.update_cache(cache, sender_id, current_subject="random", if_explanation_text=False)
 
     elif payload == "NEXT_QUESTION":
         utils.update_cache(
@@ -245,7 +245,11 @@ def respond_to_payload(payload, sender_id, qa_model, chatbot_text, template_conv
                           template_conversation, "conversation_1")
 
     # ----------------------------- MORE ----------------------------
-    elif payload == "ABOUT_QUIZBOT":
+    elif payload == "ABOUT_QUIZBOT_1":
+        send_conversation(mysql, sender_id, payload, chatbot_text,
+                          template_conversation, "conversation_1")
+
+    elif payload == "ABOUT_QUIZBOT_2":
         send_conversation(mysql, sender_id, payload, chatbot_text,
                           template_conversation, "conversation_1")
 

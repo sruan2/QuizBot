@@ -5,7 +5,6 @@
 #        PART 1: TEMPLATE contains template conversation text
 #        PART 2: STATE contains state information that can be accessed by all payloads
 
-
 TEMPLATE:
   # button text
   GOT_IT:
@@ -139,24 +138,24 @@ TEMPLATE:
     - I see ✔️ 
 
   ANOTHER_JOKE:
-    - Another Joke 😁 
-    - Haha, One More Joke 😁
-    - Haha, Another Joke 😁
+    - Another koke 😁 
+    - Haha, one more joke 😁
+    - Haha, another joke 😁
 
   ANOTHER_FUN_FACT_SCIENCE:
-    - Another Fun Fact💡
-    - One More Fun Fact💡
+    - Another fun fact💡
+    - One more fun fact💡
 
   RESUME_LEARNING:
-    - Resume Learning 💪🏼
-    - Continue Learning 💪🏼
-    - Another Question 💪🏼
+    - Resume learning 💪🏼
+    - Continue learning 💪🏼
+    - Another question 💪🏼
 
   # conversation text
   PLEASE_TYPE:
-    - If you know the answer, you can type it in and I'll help you to evaluate the answer!
-    - Please type your answer in if you know it!
-    - Remember that you can always type in you answer and I'll help you to evaluate it!
+    - If you know the answer, you can type it in and I'll help you to evaluate the answer 😊
+    - Please type your answer in if you know it 😊
+    - Remember that you can always type in you answer and I'll help you to evaluate it 😊
 
   QUESTION:
     - "Here's a question for you:"
@@ -213,9 +212,9 @@ TEMPLATE:
 
   ANSWER_NOT_CORRECT:
     - I'm sorry, but that was incorrect. 😞
-    - That's not quite right.  😞
-    - Oops, that answer was incorrect.  😞
-    - That wasn't quite what we were looking for.  😞
+    - That's not quite right. 😞
+    - Oops, that answer was incorrect. 😞
+    - That wasn't quite what we were looking for. 😞
 
   ANSWER_CORRECT:
     - That’s right! 🎉
@@ -234,7 +233,7 @@ TEMPLATE:
     - All right! I’ll quiz you on science!
     - Okay! Let’s see how much you know about science!
     - Science rules! Let's see what you know.
-    - Awesome! Here's some questions on science!
+    - Awesome! Here are some questions on science!
     - Let's answer some questions about science!
     - Let's test your knowledge on science!
     - Awesome! Let's learn about science!
@@ -301,11 +300,12 @@ TEMPLATE:
     - No worries! You'll get it next time! 😄
 
   ENCOURAGE_NO_GIVEUP:
-    - "Okay! Let's try again 💪🏼 Tell me which of these is the right answer:"
-    - "Sure, let's try this again! Which of the following is the correct answer?"
-    - "Try again! Which of the following answers is correct?"
-    - "Alright! Let's do it again! Which of these is the answer?"
-    - "Don't give up! Which answer is correct?"
+    - Okay! Let's try again 💪🏼 
+    - Sure, let's try this again! 
+    - Try again!
+    - Alright! Let's do it again!
+    - Don't give up!
+    - Okay! Let's give it a try again 💪🏼
 
   ENCOURAGE:
     - Keep up the good work!
@@ -328,11 +328,6 @@ TEMPLATE:
     - Great job!
     - Nice work! Keep it up!
     - Great job getting the correct answer!
-
-  REMINDER:
-    - "{}, you haven't talked to me for a while. Do you want to continue the conversation with me?"
-    - " Hi {}, you haven't talked to me for a while. Would you like to resume the learning with me?"
-    - "We haven't talked in a while. Should we resume our conversation?"
 
   CHAT_WITH_ME:
     - Do you want to hear some interesting things from me?
@@ -500,7 +495,7 @@ STATE:
       title:
         - Why?
         - Next question 💪🏼
-        - Switch Subject 🔀
+        - Switch subject 🔀
       payload:
         - WHY
         - NEXT_QUESTION
@@ -666,7 +661,7 @@ STATE:
                 type: 
                   postback
                 payload: 
-                  ABOUT_QUIZBOT
+                  ABOUT_QUIZBOT_1
               - title: 
                   Contact ☎️
                 type: 
