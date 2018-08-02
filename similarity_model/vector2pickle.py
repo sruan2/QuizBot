@@ -1,8 +1,14 @@
+'''
+create a pickle file from existing vector embedding
+
+July 2018
+'''
 import numpy as np
 
 textFile = 'vectors.txt'
 
 def getWordmap(textfile):
+    '''get the word map from a text file'''
     wordMap={}
     with open(textfile,'r', encoding = 'utf8', errors = 'ignore') as f:
         for i, line in enumerate(f):

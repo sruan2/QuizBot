@@ -1,41 +1,40 @@
-import pickle
-import numpy as np
-
-from mittens import Mittens
-
 ''' this is a mittens model to construct new vectors
 
 2018 July 19
 '''
 
+import pickle
+import numpy as np
+from mittens import Mittens
+
+# the file that contains the vocab vectors from glove trained model
 glove_file = 'glove.6B.100d.pkl'
-# glove_file = 'vectors.pkl'
-# glove_file = 'paragram_vectors.pkl'
 
 # files containing the cooccurrence matrix and matching vocabulary
 cooccurrence_file = 'weighted_matrix.pkl'
 vocab_file = 'vocab.pkl'
 
 with open(glove_file, 'rb') as pkl:
-	glove = pickle.load(pkl)
-	print('loaded glove')
+    glove = pickle.load(pkl)
+    print('loaded glove')
 
 with open(cooccurrence_file, 'rb') as pkl:
-	cooccurrence = pickle.load(pkl)
-	print('loaded cooccurrence')
+    cooccurrence = pickle.load(pkl)
+    print('loaded cooccurrence')
 
 with open(vocab_file, 'rb') as pkl:
-	vocab = pickle.load(pkl)
-	print('loaded vocab')
+    vocab = pickle.load(pkl)
+    print('loaded vocab')
 
 # convert to numpy array
 cooccurrence = cooccurrence.toarray()
 
 glove_vocab = glove.keys()
 # indices for vocab thats not in glove
-missing_words = np.array([i for i in range(len(vocab)) if vocab[i] not in glove_vocab])
+missing_words = np.array(
+    [i for i in range(len(vocab)) if vocab[i] not in glove_vocab])
 
-cooccurrence = cooccurrence[missing_words][:,missing_words]
+cooccurrence = cooccurrence[missing_words][:, missing_words]
 vocab = list(np.array(vocab)[missing_words])
 
 # check if sizes match up
@@ -55,7 +54,8 @@ print()
 print('size of new embeddings vocab {}'.format(len(new_embeddings)))
 
 # transform the vectors into a dictionary mapping and then append the vocabulary to glove
-embeddings_dict = {key:np.array(vector) for key,vector in zip(vocab, new_embeddings)}
+embeddings_dict = {key: np.array(vector)
+                   for key, vector in zip(vocab, new_embeddings)}
 glove.update(embeddings_dict)
 
 print('size of updated glove vocab {}'.format(len(glove)))

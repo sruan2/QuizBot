@@ -4,9 +4,9 @@
 import numpy as np
 import time
 import random
-
 from collections import defaultdict
-from base_model import BaseSequencingModel
+
+from .base_model import BaseSequencingModel
 
 np.random.seed(42)
 
