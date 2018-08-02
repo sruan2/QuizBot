@@ -1,3 +1,9 @@
+'''
+testing function for loading the supervised model
+
+July 2018
+'''
+
 from keras.models import model_from_json
 
 from supervised_model import fit_model, evaluate_model

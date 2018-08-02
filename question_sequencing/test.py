@@ -24,6 +24,7 @@ if __name__ == '__main__':
 
     model = RandomSequencingModel(qa_kb)
 
+    # Run the random simulations
     for i in range(ITERATIONS):
         data = model.pickNextQuestion(user_id = 5, subject = 'science')
         print(data['qid'])
@@ -31,7 +32,7 @@ if __name__ == '__main__':
     # Construct the question sequencing model from here
     model = LeitnerSequencingModel(qa_kb)
 
-    # Run the simulation for 20 iterations
+    # Run the leitner simulations
     for i in range(ITERATIONS):
         data = model.pickNextQuestion(user_id = 5, subject = 'science')
         outcome = 1 if random.random() < 0.9 else 0
@@ -43,6 +44,7 @@ if __name__ == '__main__':
 
     model = SM2SequencingModel(qa_kb)
 
+    # run the SM2 simulations
     for i in range(ITERATIONS):
         data = model.pickNextQuestion(subject = 'science', user_id = 5)
         outcome = 1 if random.random() < 0.6 else 0
@@ -54,6 +56,7 @@ if __name__ == '__main__':
 
     user_id = 5
 
+    # run the dash sequencing simulations
     model = DASHSequencingModel(qa_kb, verbose = False)
     for i in range(ITERATIONS):
         data = model.pickNextQuestion(user_id, 'science')
