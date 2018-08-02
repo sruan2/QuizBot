@@ -9,13 +9,13 @@ from keras.models import model_from_json
 from supervised_model import fit_model, evaluate_model
 
 # Model reconstruction from JSON file
-with open('model_architecture.json', 'r') as f:
+with open('data_files/model_architecture.json', 'r') as f:
     model = model_from_json(f.read())
 
 # Load weights into the new model
-model.load_weights('model_weights.h5')
+model.load_weights('data_files/model_weights.h5')
 
-glove_file = 'mittens_model.pkl'
+glove_file = 'data_files/mittens_model.pkl'
 json_file = '../QAdataset/questions_filtered_150_quizbot.json'
 
 emb = fit_model(glove_file, json_file)
