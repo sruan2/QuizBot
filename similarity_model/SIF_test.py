@@ -48,14 +48,14 @@ if __name__ == '__main__':
     tokenized_sentences = preprocess(sentences, tokenizer)
 
     # file that contains the word embedding pickle file
-    file = 'mittens_model.pkl'
+    file = 'data_files/mittens_model.pkl'
     # file = 'glove.6B.100d.pkl'
     # file = 'glove.6B.300d.pkl'
     # file = 'mittens_model.pkl'
     # file = 'vectors.pkl'
     # file = 'paragram_vectors.pkl'
 
-    with open(file, 'rb') as glove:
+    with open(file, 'rb') as pkl:
         glove = pickle.load(pkl)
         print("="*80+"\nloaded vectors")
 
