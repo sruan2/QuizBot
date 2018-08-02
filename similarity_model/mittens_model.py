@@ -8,11 +8,11 @@ import numpy as np
 from mittens import Mittens
 
 # the file that contains the vocab vectors from glove trained model
-glove_file = 'glove.6B.100d.pkl'
+glove_file = 'data_files/glove.6B.100d.pkl'
 
 # files containing the cooccurrence matrix and matching vocabulary
-cooccurrence_file = 'weighted_matrix.pkl'
-vocab_file = 'vocab.pkl'
+cooccurrence_file = 'data_files/weighted_matrix.pkl'
+vocab_file = 'data_files/vocab.pkl'
 
 with open(glove_file, 'rb') as pkl:
     glove = pickle.load(pkl)
@@ -62,7 +62,7 @@ print('size of updated glove vocab {}'.format(len(glove)))
 
 import _pickle as cPickle
 
-save_file = 'mittens_model.pkl'
+save_file = 'data_files/mittens_model.pkl'
 
 # save to mitten_model
 with open(save_file, 'wb') as output:
