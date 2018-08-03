@@ -59,9 +59,9 @@ See the _0.8_ branch if you cannot upgrade. Further development for `v0.9-beta` 
 
 __Known issues__
 
-- Support for Android Orio is limited yet.
+- Support for Android Oreo is limited yet.
 - v0.9 and v0.8 aren't compatible with each other (Wont fix)
-- __Not compatible yet with Ionic__. Their wrapper is not part of this plugin. In future I will contribute to them to fix such issues in time. But for the moment I am busy enough with the plugin itself.
+- __Not compatible yet with Ionic Native__. Their wrapper is not part of this plugin. In future I will contribute to them to fix such issues in time. But for the moment I am busy enough with the plugin itself.
 
 Please report bugs or missing features!
 
@@ -97,7 +97,7 @@ A notification does have a set of configurable properties. Not all of them are s
 
 | Property      | Property      | Property      | Property      | Property      | Property      | Property      | Property      |
 | :------------ | :------------ | :------------ | :------------ | :------------ | :------------ | :------------ | :------------ |
-| id            | data          | actionGroupId | summary       | led           | showWhen      | channel       | actions       |
+| id            | data          | timeoutAfter  | summary       | led           | clock         | channel       | actions       |
 | text          | icon          | attachments   | smallIcon     | color         | defaults      | launch        | groupSummary  |
 | title         | silent        | progressBar   | sticky        | vibrate       | priority      | mediaSession  | foreground    |
 | sound         | trigger       | group         | autoClear     | lockscreen    | number        | badge         | wakeup        |
@@ -164,7 +164,7 @@ It is recommended to pre-define action groups rather then specifying them with e
 
 
 ```js
-cordova.plugins.notification.local.addActionGroup('yes-no', [
+cordova.plugins.notification.local.addActions('yes-no', [
     { id: 'yes', title: 'Yes' },
     { id: 'no',  title: 'No'  }
 ]);
@@ -176,7 +176,7 @@ Once you have defined an action group, you can reference it when scheduling noti
 cordova.plugins.notification.local.schedule({
     title: 'Justin Rhyss',
     text: 'Do you want to go see a movie tonight?',
-    actionGroupId: 'yes-no'
+    actions: 'yes-no'
 });
 ```
 
@@ -286,7 +286,7 @@ The properties depend on the trigger type. Not all of them are supported across 
 |              | every         | String  | `quarter`        | x       |     | x       |
 |              | every         | String  | `year`           | x       | x   | x       |
 |              | before        | Date    |                  | x       |     | x       |
-|              | firstAt       | Date    |                  | x       | x   | x       |
+|              | firstAt       | Date    |                  | x       |     | x       |
 | Match        |
 |              | count         | Int     |                  | x       |     | x       |
 |              | every         | Object  | `minute`         | x       | x   | x       |
@@ -300,7 +300,7 @@ The properties depend on the trigger type. Not all of them are supported across 
 |              | every         | Object  | `quarter`        |         | x   |
 |              | every         | Object  | `year`           | x       | x   | x       |
 |              | before        | Date    |                  | x       |     | x       |
-|              | after         | Date    |                  | x       | x   | x       |
+|              | after         | Date    |                  | x       |     | x       |
 | Location     |
 |              | center        | Array   | `[lat, long]`    |         | x   |
 |              | radius        | Int     |                  |         | x   |
@@ -473,19 +473,33 @@ document.addEventListener('deviceready', function () {
 }, false);
 ```
 
+It might be possible that the underlying framework like __Ionic__ is not compatible with the launch process defined by cordova. With the result that the plugin fires the click event on app start before the app is able to listen for the events.
+
+Therefore its possible to fire the queued events manually by defining a global variable. 
+
+```js
+window.skipLocalNotificationReady = true
+```
+
+Once the app and Ionic is ready, you can fire the queued events manually.
+
+```js
+cordova.plugins.notification.local.fireQueuedEvents();
+```
+
 
 ## Methods
 
-All methods work asynchron and accept callback methods.
+All methods work asynchronous and accept callback methods.
 See the sample app for how to use them.
 
-| Method   | Method            | Method          | Method         | Method      |
-| :------- | :---------------- | :-------------- | :------------- | :---------- |
-| schedule | cancelAll         | isTriggered     | get            | getDefaults |
-| update   | hasPermission     | getType         | getAll         | setDefaults |
-| clear    | requestPermission | getIds          | getScheduled   | on          |
-| clearAll | isPresent         | getScheduledIds | getTriggered   | un          |
-| cancel   | isScheduled       | getTriggeredIds | addActionGroup |
+| Method   | Method            | Method          | Method         | Method        | Method           |
+| :------- | :---------------- | :-------------- | :------------- | :------------ | :--------------- |
+| schedule | cancelAll         | isTriggered     | get            | removeActions | un               |
+| update   | hasPermission     | getType         | getAll         | hasActions    | fireQueuedEvents |
+| clear    | requestPermission | getIds          | getScheduled   | getDefaults   |
+| clearAll | isPresent         | getScheduledIds | getTriggered   | setDefaults   |
+| cancel   | isScheduled       | getTriggeredIds | addActions     | on            |
 
 
 ## Installation

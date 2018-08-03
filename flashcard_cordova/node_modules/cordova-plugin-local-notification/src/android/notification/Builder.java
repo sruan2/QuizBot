@@ -37,7 +37,6 @@ import java.util.Random;
 
 import de.appplant.cordova.plugin.notification.action.Action;
 
-import static android.app.PendingIntent.FLAG_CANCEL_CURRENT;
 import static android.app.PendingIntent.FLAG_UPDATE_CURRENT;
 import static de.appplant.cordova.plugin.notification.Notification.EXTRA_UPDATE;
 
@@ -136,11 +135,12 @@ public final class Builder {
                 .setOngoing(options.isSticky())
                 .setColor(options.getColor())
                 .setVisibility(options.getVisibility())
-                .setPriority(options.getPriority())
-                .setShowWhen(options.getShowWhen())
-                .setUsesChronometer(options.isWithProgressBar())
+                .setPriority(options.getPrio())
+                .setShowWhen(options.showClock())
+                .setUsesChronometer(options.showChronometer())
                 .setGroup(options.getGroup())
                 .setGroupSummary(options.getGroupSummary())
+                .setTimeoutAfter(options.getTimeout())
                 .setLights(options.getLedColor(), options.getLedOn(), options.getLedOff());
 
         if (sound != Uri.EMPTY && !isUpdate()) {
@@ -314,9 +314,12 @@ public final class Builder {
             return;
 
         Intent intent = new Intent(context, clearReceiver)
-                .putExtras(extras)
                 .setAction(options.getIdentifier())
                 .putExtra(Notification.EXTRA_ID, options.getId());
+
+        if (extras != null) {
+            intent.putExtras(extras);
+        }
 
         int reqCode = random.nextInt();
 
@@ -338,15 +341,18 @@ public final class Builder {
             return;
 
         Intent intent = new Intent(context, clickActivity)
-                .putExtras(extras)
                 .putExtra(Notification.EXTRA_ID, options.getId())
                 .putExtra(Action.EXTRA_ID, Action.CLICK_ACTION_ID)
                 .putExtra(Options.EXTRA_LAUNCH, options.isLaunchingApp())
                 .setFlags(Intent.FLAG_ACTIVITY_NO_HISTORY);
 
+        if (extras != null) {
+            intent.putExtras(extras);
+        }
+
         int reqCode = random.nextInt();
 
-        PendingIntent contentIntent = PendingIntent.getActivity(
+        PendingIntent contentIntent = PendingIntent.getService(
                 context, reqCode, intent, FLAG_UPDATE_CURRENT);
 
         builder.setContentIntent(contentIntent);
@@ -385,16 +391,19 @@ public final class Builder {
      */
     private PendingIntent getPendingIntentForAction (Action action) {
         Intent intent = new Intent(context, clickActivity)
-                .putExtras(extras)
                 .putExtra(Notification.EXTRA_ID, options.getId())
                 .putExtra(Action.EXTRA_ID, action.getId())
                 .putExtra(Options.EXTRA_LAUNCH, action.isLaunchingApp())
                 .setFlags(Intent.FLAG_ACTIVITY_NO_HISTORY);
 
+        if (extras != null) {
+            intent.putExtras(extras);
+        }
+
         int reqCode = random.nextInt();
 
-        return PendingIntent.getActivity(
-                context, reqCode, intent, FLAG_CANCEL_CURRENT);
+        return PendingIntent.getService(
+                context, reqCode, intent, FLAG_UPDATE_CURRENT);
     }
 
     /**
