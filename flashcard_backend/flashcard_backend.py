@@ -10,7 +10,7 @@ from flask import jsonify
 from flask_mysqldb import MySQL
 import database
 from random_model import RandomSequencingModel
-from dash_model import DASHSequencingModel
+# from dash_model import DASHSequencingModel
 from QAKnowledgebase import QAKnowlegeBase
 from time import strftime, localtime, sleep
 

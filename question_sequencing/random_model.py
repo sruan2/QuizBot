@@ -4,7 +4,7 @@
 '''
 from random import randint, choice
 
-from .base_model import BaseSequencingModel
+from base_model import BaseSequencingModel
 
 class RandomSequencingModel(BaseSequencingModel):
 
