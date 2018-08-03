@@ -255,10 +255,8 @@ with app.app_context():
     # Load conversation source text file
     chatbot_text, template_conversation = load_source(
         "text/chatbot_text", "text/template_conversation")
-    active_list = db.show_users_newly_added(mysql) + [(1139924072777403, 'Sherry'), (1805880356153906, 'Nathan')]
-    # (1850388251650155, 'Liwei'), 
-    reminder_object = reminder.Reminder(template_conversation, mysql)
-    reminder.RepeatedTimer(86400, reminder_object.send_reminder, active_list)
+    # [(1139924072777403, 'Sherry'), (1805880356153906, 'Nathan'), (1850388251650155, 'Liwei')]
+    reminder.RepeatedTimer(86400, template_conversation, mysql)
 
 if __name__ == '__main__':
     # Set up Flask app and MySQL

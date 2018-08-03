@@ -1,189 +1,522 @@
-user_id,user_firstname,user_lastname,uid,sender,recipient,type,dialogue,time_stamp,
-1.13992E+15,Sherry,Ruan,24,1.13992E+15,8.54519E+14,user_quick_reply: WHY,Why?,7/26/18 19:40,
-1.13992E+15,Sherry,Ruan,25,8.54519E+14,1.13992E+15,BOT: message,Here's an explanation:,7/26/18 19:40,
-1.13992E+15,Sherry,Ruan,26,8.54519E+14,1.13992E+15,BOT: quick reply,"People can get sick by consuming food contaminated by the following three major hazards: physical (objects such ashair, nails, jewelry, glass, staples, and bandages in food are categorized as physical hazards), chemical (substances that are added during food handling or that occur naturally can cause food-borne illness; examples include certain metals, pesticides, and cleaning agents), and biological (germs that are not visible to the naked eye like those carried by bacteria, viruses, and parasites).",7/26/18 19:40,
-1.13992E+15,Sherry,Ruan,27,1.13992E+15,8.54519E+14,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,7/26/18 19:40,
-1.13992E+15,Sherry,Ruan,28,8.54519E+14,1.13992E+15,BOT: message,Let's see if you can get this one.,7/26/18 19:40,
-1.13992E+15,Sherry,Ruan,29,8.54519E+14,1.13992E+15,BOT: quick reply,"When you discover a fire, you should do what?",7/26/18 19:40,
-1.13992E+15,Sherry,Ruan,30,1.13992E+15,8.54519E+14,user_typing,Pull alarms,7/26/18 19:41,
-1.13992E+15,Sherry,Ruan,31,8.54519E+14,1.13992E+15,BOT: message,"Oops, that answer was incorrect.  :disappointed_face:",7/26/18 19:41,
-1.13992E+15,Sherry,Ruan,32,8.54519E+14,1.13992E+15,BOT: quick reply,The correct answer is Pull the fire alarm and call the fire department.,7/26/18 19:41,
-1.13992E+15,Sherry,Ruan,33,1.13992E+15,8.54519E+14,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,7/26/18 20:47,
-1.13992E+15,Sherry,Ruan,34,8.54519E+14,1.13992E+15,BOT: message,Could you answer this one for me?,7/26/18 20:47,
-1.13992E+15,Sherry,Ruan,35,8.54519E+14,1.13992E+15,BOT: quick reply,"True or false: when someone swallows a chemical, immediately have the person drink water and then induce vomiting.",7/26/18 20:47,
-1.13992E+15,Sherry,Ruan,36,1.13992E+15,8.54519E+14,user_typing,TRUE,7/26/18 20:47,
-1.13992E+15,Sherry,Ruan,37,8.54519E+14,1.13992E+15,BOT: message,That wasn't quite what we were looking for.  :disappointed_face:,7/26/18 20:47,
-1.13992E+15,Sherry,Ruan,38,8.54519E+14,1.13992E+15,BOT: quick reply,The correct answer is False.,7/26/18 20:48,
-1.13992E+15,Sherry,Ruan,39,1.13992E+15,8.54519E+14,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,7/26/18 20:48,
-1.13992E+15,Sherry,Ruan,40,8.54519E+14,1.13992E+15,BOT: message,I think you'll like this question.,7/26/18 20:48,
-1.13992E+15,Sherry,Ruan,41,8.54519E+14,1.13992E+15,BOT: quick reply,First aid treatment for a chemical burn involves what?,7/26/18 20:48,
-1.13992E+15,Sherry,Ruan,42,1.13992E+15,8.54519E+14,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,7/26/18 20:48,
-1.13992E+15,Sherry,Ruan,43,8.54519E+14,1.13992E+15,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,7/26/18 20:48,
-1.13992E+15,Sherry,Ruan,44,8.54519E+14,1.13992E+15,BOT: quick reply,":keycap_1: Removing dead skin\n:keycap_2: Flushing the chemicals off the affected area with cool, gently running water for 10 to 20 minutes\n:keycap_3: Applying ointment over the affected area\n:keycap_4: Neutralizing the chemical\n",7/26/18 20:48,
-1.13992E+15,Sherry,Ruan,45,1.13992E+15,8.54519E+14,"user_quick_reply: BUTTON_AKB_Flushing the chemicals off the affected area with cool, gently running water for 10 to 20 minutes",:keycap_2:,7/26/18 20:48,
-1.13992E+15,Sherry,Ruan,46,8.54519E+14,1.13992E+15,BOT: message,Great job!,7/26/18 20:48,
-1.13992E+15,Sherry,Ruan,47,8.54519E+14,1.13992E+15,BOT: quick reply,"The correct answer is Flushing the chemicals off the affected area with cool, gently running water for 10 to 20 minutes.",7/26/18 20:48,
-1.13992E+15,Sherry,Ruan,48,1.13992E+15,8.54519E+14,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,7/26/18 20:48,
-1.13992E+15,Sherry,Ruan,49,8.54519E+14,1.13992E+15,BOT: message,Let's see if you can get this one.,7/26/18 20:48,
-1.13992E+15,Sherry,Ruan,50,8.54519E+14,1.13992E+15,BOT: quick reply,Which fire extinguishers are used to put out fires caused by flammable liquids?,7/26/18 20:48,
-1.13992E+15,Sherry,Ruan,51,1.13992E+15,8.54519E+14,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,7/26/18 20:48,
-1.13992E+15,Sherry,Ruan,52,8.54519E+14,1.13992E+15,BOT: message,"Alrighty, which of the following options is the answer of the question?",7/26/18 20:48,
-1.13992E+15,Sherry,Ruan,53,8.54519E+14,1.13992E+15,BOT: quick reply,:keycap_1: Class A water fire extinguishers\n:keycap_2: Class C dry chemical fire extinguisher\n:keycap_3: Class B carbon dioxide fire extinguisher\n,7/26/18 20:48,
-1.13992E+15,Sherry,Ruan,54,1.13992E+15,8.54519E+14,user_quick_reply: BUTTON_AKB_Class B carbon dioxide fire extinguisher,:keycap_3:,7/26/18 20:48,
-1.13992E+15,Sherry,Ruan,55,8.54519E+14,1.13992E+15,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_normal.png,7/26/18 20:48,
-1.13992E+15,Sherry,Ruan,56,8.54519E+14,1.13992E+15,BOT: message,Nice! That was right!,7/26/18 20:48,
-1.13992E+15,Sherry,Ruan,57,8.54519E+14,1.13992E+15,BOT: quick reply,The correct answer is Class B carbon dioxide fire extinguisher.,7/26/18 20:49,
-1.13992E+15,Sherry,Ruan,58,1.13992E+15,8.54519E+14,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,7/26/18 20:49,
-1.13992E+15,Sherry,Ruan,59,8.54519E+14,1.13992E+15,BOT: message,Let's take a look at this question.,7/26/18 20:49,
-1.13992E+15,Sherry,Ruan,60,8.54519E+14,1.13992E+15,BOT: quick reply,"Arrange in the correct the steps to take when someone splashes a chemical into the eye: (i) call a doctor, (ii) take out any contact lenses, (iii) flush the eyes with plenty of water, (iv) wash your hands with soap and water.",7/26/18 20:49,
-1.13992E+15,Sherry,Ruan,61,1.13992E+15,8.54519E+14,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,7/26/18 20:49,
-1.13992E+15,Sherry,Ruan,62,8.54519E+14,1.13992E+15,BOT: message,Which of the following options is the right answer?,7/26/18 20:49,
-1.13992E+15,Sherry,Ruan,63,8.54519E+14,1.13992E+15,BOT: quick reply,":keycap_1: ii, iii, iv, i\n:keycap_2: iv, ii, iii, i\n:keycap_3: iii, iv, ii, i\n:keycap_4: i, iii, iv, ii\n",7/26/18 20:49,
-1.13992E+15,Sherry,Ruan,64,1.13992E+15,8.54519E+14,user_quick_reply: I_DONT_KNOW,I don’t know :downcast_face_with_sweat:,7/26/18 20:49,
-1.13992E+15,Sherry,Ruan,65,8.54519E+14,1.13992E+15,BOT: quick reply,Are you sure you want to skip answering?,7/26/18 20:49,
-1.13992E+15,Sherry,Ruan,66,1.13992E+15,8.54519E+14,user_quick_reply: GIVEUP_YES,"Yes, answer please.",7/26/18 20:49,
-1.13992E+15,Sherry,Ruan,67,8.54519E+14,1.13992E+15,BOT: message,You didn't get it right this time.,7/26/18 20:50,
-1.13992E+15,Sherry,Ruan,68,8.54519E+14,1.13992E+15,BOT: message,"Don't give up, you'll get it next time! :grinning_face_with_smiling_eyes:",7/26/18 20:50,
-1.13992E+15,Sherry,Ruan,69,8.54519E+14,1.13992E+15,BOT: quick reply,"The correct answer is iii, iv, ii, i.",7/26/18 20:50,
-1.13992E+15,Sherry,Ruan,70,1.13992E+15,8.54519E+14,user_quick_reply: SWITCH_SUBJECT,Switch Subject :shuffle_tracks_button:,7/26/18 20:50,
-1.13992E+15,Sherry,Ruan,71,8.54519E+14,1.13992E+15,BOT: quick reply,"Cool, which subject do you want to study?:backhand_index_pointing_down_medium-light_skin_tone:",7/26/18 20:50,
-1.13992E+15,Sherry,Ruan,72,1.13992E+15,8.54519E+14,user_quick_reply: GRE,GRE :input_latin_uppercase:,7/26/18 20:50,
-1.13992E+15,Sherry,Ruan,73,8.54519E+14,1.13992E+15,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/evolvesafety_reading.gif,7/26/18 20:50,
-1.13992E+15,Sherry,Ruan,74,8.54519E+14,1.13992E+15,BOT: message,Let's test your knowledge on the GRE!,7/26/18 20:50,
-1.13992E+15,Sherry,Ruan,75,8.54519E+14,1.13992E+15,BOT: message,Let's take a look at this question.,7/26/18 20:50,
-1.13992E+15,Sherry,Ruan,76,8.54519E+14,1.13992E+15,BOT: quick reply,"In psychological literature, the sleeper effect"" refers to the phenomenon in which a persuasive message from a trustworthy source loses _____ over time while the efficacy of a message from a less credible source simultaneously increases.""",7/26/18 20:50,
-1.13992E+15,Sherry,Ruan,77,1.13992E+15,8.54519E+14,user_typing,Credibility,7/26/18 20:51,
-1.13992E+15,Sherry,Ruan,78,8.54519E+14,1.13992E+15,BOT: message,"I'm sorry, but that was incorrect. :disappointed_face:",7/26/18 20:51,
-1.13992E+15,Sherry,Ruan,79,8.54519E+14,1.13992E+15,BOT: quick reply,The correct answer is cogency.,7/26/18 20:51,
-1.13992E+15,Sherry,Ruan,80,1.13992E+15,8.54519E+14,user_quick_reply: WHY,Why?,7/26/18 20:51,
-1.13992E+15,Sherry,Ruan,81,8.54519E+14,1.13992E+15,BOT: message,Here's why:,7/26/18 20:51,
-1.13992E+15,Sherry,Ruan,82,8.54519E+14,1.13992E+15,BOT: quick reply,Cogency -- persuasive relevance\n\nPrescience -- the power to foresee the future\n\nErudition -- profound scholarly knowledge\n\nEvasiveness -- intentionally vague or ambiguous\n\nControl -- exercise authoritative control or power over\n,7/26/18 20:51,
-1.13992E+15,Sherry,Ruan,83,1.13992E+15,8.54519E+14,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,7/26/18 20:55,
-1.13992E+15,Sherry,Ruan,84,8.54519E+14,1.13992E+15,BOT: message,Let's try this one.,7/26/18 20:55,
-1.13992E+15,Sherry,Ruan,85,8.54519E+14,1.13992E+15,BOT: quick reply,"Despite what _____ philosophies of child-rearing suggest, there is no imperative that the day-to-day action of raising a child be simple, unambiguous and unchanging-no requirement, in other words, ensures that life follow philosophy.",7/26/18 20:55,
-1.13992E+15,Sherry,Ruan,86,1.13992E+15,8.54519E+14,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,7/26/18 20:55,
-1.13992E+15,Sherry,Ruan,87,8.54519E+14,1.13992E+15,BOT: message,"Alrighty, which of the following options is the answer of the question?",7/26/18 20:55,
-1.13992E+15,Sherry,Ruan,88,8.54519E+14,1.13992E+15,BOT: quick reply,:keycap_1: systematic\n:keycap_2: aggressive\n:keycap_3: shameless\n:keycap_4: inexact\n:keycap_5: random\n,7/26/18 20:55,
-1.13992E+15,Sherry,Ruan,89,1.13992E+15,8.54519E+14,user_quick_reply: BUTTON_DKB_aggressive,:keycap_2:,7/26/18 20:55,
-1.13992E+15,Sherry,Ruan,90,8.54519E+14,1.13992E+15,BOT: message,"Hmm, that wasn't quite right. :disappointed_face:",7/26/18 20:55,
-1.13992E+15,Sherry,Ruan,91,8.54519E+14,1.13992E+15,BOT: quick reply,The correct answer is systematic.,7/26/18 20:55,
-1.13992E+15,Sherry,Ruan,95,1.13992E+15,8.54519E+14,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,7/26/18 20:56,
-1.13992E+15,Sherry,Ruan,96,8.54519E+14,1.13992E+15,BOT: message,"Alrighty, let's try this one.",7/26/18 20:56,
-1.13992E+15,Sherry,Ruan,97,8.54519E+14,1.13992E+15,BOT: quick reply,Susan _____ the theater; she bought tickets for all the shows put on by the local drama group.,7/26/18 20:56,
-1.13992E+15,Sherry,Ruan,106,1.13992E+15,8.54519E+14,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,7/26/18 20:57,
-1.13992E+15,Sherry,Ruan,107,8.54519E+14,1.13992E+15,BOT: message,Okay. I'll give you some choices.,7/26/18 20:57,
-1.13992E+15,Sherry,Ruan,108,8.54519E+14,1.13992E+15,BOT: quick reply,:keycap_1: cherished\n:keycap_2: loathed\n:keycap_3: abhorred\n:keycap_4: managed\n:keycap_5: owned\n,7/26/18 20:57,
-1.13992E+15,Sherry,Ruan,111,1.13992E+15,8.54519E+14,user_quick_reply: BUTTON_DKB_owned,:keycap_5:,7/26/18 20:57,
-1.13992E+15,Sherry,Ruan,113,8.54519E+14,1.13992E+15,BOT: message,"I'm sorry, but that was incorrect. :disappointed_face:",7/26/18 20:57,
-1.13992E+15,Sherry,Ruan,114,8.54519E+14,1.13992E+15,BOT: quick reply,The correct answer is cherished.,7/26/18 20:58,
-1.13992E+15,Sherry,Ruan,115,1.13992E+15,8.54519E+14,user_quick_reply: WHY,Why?,7/26/18 20:58,
-1.13992E+15,Sherry,Ruan,117,8.54519E+14,1.13992E+15,BOT: message,This is why:,7/26/18 20:58,
-1.13992E+15,Sherry,Ruan,119,8.54519E+14,1.13992E+15,BOT: quick reply,Cherished -- characterized by feeling or showing fond affection for\n\nAbhorred -- find repugnant\n\nOwned -- to have or hold as one's own; possess\n\nLoathed -- find repugnant\n\nManaged -- be successful; achieve a goal\n,7/26/18 20:58,
-1.13992E+15,Sherry,Ruan,121,1.13992E+15,8.54519E+14,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,7/26/18 20:58,
-1.13992E+15,Sherry,Ruan,123,8.54519E+14,1.13992E+15,BOT: message,Let's see if you can get this one.,7/26/18 20:58,
-1.13992E+15,Sherry,Ruan,125,8.54519E+14,1.13992E+15,BOT: quick reply,"Modern tennis fans have come to realize that, although, quantum technological leaps in racquet technology have lead to _____ increases in the speed and power with which players can hit the ball, this has not necessarily lead to a more entertaining game.",7/26/18 20:58,
-1.13992E+15,Sherry,Ruan,134,1.13992E+15,8.54519E+14,user_quick_reply: I_DONT_KNOW,I don’t know :downcast_face_with_sweat:,7/26/18 20:58,
-1.13992E+15,Sherry,Ruan,136,8.54519E+14,1.13992E+15,BOT: quick reply,Are you sure you want to skip answering?,7/26/18 20:58,
-1.13992E+15,Sherry,Ruan,138,1.13992E+15,8.54519E+14,user_quick_reply: GIVEUP_YES,"Yes, answer please.",7/26/18 20:58,
-1.13992E+15,Sherry,Ruan,139,8.54519E+14,1.13992E+15,BOT: message,You didn't get this question this time.,7/26/18 20:58,
-1.13992E+15,Sherry,Ruan,140,8.54519E+14,1.13992E+15,BOT: message,"That's okay, you'll get it next time! :grinning_face_with_smiling_eyes:",7/26/18 20:58,
-1.13992E+15,Sherry,Ruan,141,8.54519E+14,1.13992E+15,BOT: quick reply,The correct answer is commensurate.,7/26/18 20:58,
-1.13992E+15,Sherry,Ruan,142,1.13992E+15,8.54519E+14,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,7/26/18 20:58,
-1.13992E+15,Sherry,Ruan,144,8.54519E+14,1.13992E+15,BOT: message,Let's see if you would answer this one.,7/26/18 20:58,
-1.13992E+15,Sherry,Ruan,146,8.54519E+14,1.13992E+15,BOT: quick reply,"Modern tennis fans have come to realize that, although, quantum technological leaps in racquet technology have lead to _____ increases in the speed and power with which players can hit the ball, this has not necessarily lead to a more entertaining game.",7/26/18 20:58,
-1.13992E+15,Sherry,Ruan,149,1.13992E+15,8.54519E+14,user_quick_reply: I_DONT_KNOW,I don’t know :downcast_face_with_sweat:,7/26/18 20:58,
-1.13992E+15,Sherry,Ruan,150,8.54519E+14,1.13992E+15,BOT: quick reply,Do you really want to skip this question?,7/26/18 20:58,
-1.13992E+15,Sherry,Ruan,151,1.13992E+15,8.54519E+14,user_quick_reply: GIVEUP_YES,"Yes, answer please.",7/26/18 20:58,
-1.13992E+15,Sherry,Ruan,153,8.54519E+14,1.13992E+15,BOT: message,"I'm sorry, you didn't get the question right this time.",7/26/18 20:59,
-1.13992E+15,Sherry,Ruan,155,8.54519E+14,1.13992E+15,BOT: message,"That's fine, you'll nail it next time! :grinning_face_with_smiling_eyes:",7/26/18 20:59,
-1.13992E+15,Sherry,Ruan,157,8.54519E+14,1.13992E+15,BOT: quick reply,The correct answer is a dilettante.,7/26/18 20:59,
-1.13992E+15,Sherry,Ruan,159,1.13992E+15,8.54519E+14,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,7/26/18 20:59,
-1.13992E+15,Sherry,Ruan,161,8.54519E+14,1.13992E+15,BOT: message,I think you'll like this question.,7/26/18 20:59,
-1.13992E+15,Sherry,Ruan,163,8.54519E+14,1.13992E+15,BOT: quick reply,"Modern tennis fans have come to realize that, although, quantum technological leaps in racquet technology have lead to _____ increases in the speed and power with which players can hit the ball, this has not necessarily lead to a more entertaining game.",7/26/18 20:59,
-1.13992E+15,Sherry,Ruan,164,1.13992E+15,8.54519E+14,user_quick_reply: I_DONT_KNOW,I don’t know :downcast_face_with_sweat:,7/26/18 20:59,
-1.13992E+15,Sherry,Ruan,165,8.54519E+14,1.13992E+15,BOT: quick reply,Do you really want to give up?,7/26/18 20:59,
-1.13992E+15,Sherry,Ruan,166,1.13992E+15,8.54519E+14,user_quick_reply: GIVEUP_NO,"No, I'll try again!",7/26/18 20:59,
-1.13992E+15,Sherry,Ruan,167,8.54519E+14,1.13992E+15,BOT: message,Don't give up! Which answer is correct?,7/26/18 20:59,
-1.13992E+15,Sherry,Ruan,168,8.54519E+14,1.13992E+15,BOT: message,"Alrighty, which of the following options is the answer of the question?",7/26/18 20:59,
-1.13992E+15,Sherry,Ruan,169,8.54519E+14,1.13992E+15,BOT: quick reply,:keycap_1: zeal\n:keycap_2: malevolence\n:keycap_3: cynicism\n:keycap_4: equanimity\n:keycap_5: impracticality\n,7/26/18 20:59,
-1.13992E+15,Sherry,Ruan,170,1.13992E+15,8.54519E+14,user_quick_reply: I_DONT_KNOW,I don’t know :downcast_face_with_sweat:,7/26/18 21:00,
-1.13992E+15,Sherry,Ruan,171,8.54519E+14,1.13992E+15,BOT: quick reply,Are you sure you want to skip answering?,7/26/18 21:00,
-1.13992E+15,Sherry,Ruan,172,1.13992E+15,8.54519E+14,user_quick_reply: GIVEUP_YES,"Yes, answer please.",7/26/18 21:02,
-1.13992E+15,Sherry,Ruan,173,8.54519E+14,1.13992E+15,BOT: message,You didn't get this question this time.,7/26/18 21:02,
-1.13992E+15,Sherry,Ruan,174,8.54519E+14,1.13992E+15,BOT: message,"That's okay, you'll get it next time! :grinning_face_with_smiling_eyes:",7/26/18 21:02,
-1.13992E+15,Sherry,Ruan,175,8.54519E+14,1.13992E+15,BOT: quick reply,The correct answer is equanimity.,7/26/18 21:02,
-1.13992E+15,Sherry,Ruan,176,1.13992E+15,8.54519E+14,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,7/26/18 21:07,
-1.13992E+15,Sherry,Ruan,177,8.54519E+14,1.13992E+15,BOT: message,Could you answer this one for me?,7/26/18 21:07,
-1.13992E+15,Sherry,Ruan,178,8.54519E+14,1.13992E+15,BOT: quick reply,"Modern tennis fans have come to realize that, although, quantum technological leaps in racquet technology have lead to _____ increases in the speed and power with which players can hit the ball, this has not necessarily lead to a more entertaining game.",7/26/18 21:07,
-1.13992E+15,Sherry,Ruan,179,1.13992E+15,8.54519E+14,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,7/26/18 21:07,
-1.13992E+15,Sherry,Ruan,180,8.54519E+14,1.13992E+15,BOT: message,"Alrighty, which of the following options is the answer of the question?",7/26/18 21:07,
-1.13992E+15,Sherry,Ruan,181,8.54519E+14,1.13992E+15,BOT: quick reply,:keycap_1: bellicosity\n:keycap_2: enervation\n:keycap_3: pacification\n:keycap_4: pugnacity\n:keycap_5: aggravation\n,7/26/18 21:07,
-1.13992E+15,Sherry,Ruan,182,1.13992E+15,8.54519E+14,persistent_menu: GET_INTRO_1,Get Started,7/26/18 21:07,
-1.13992E+15,Sherry,Ruan,183,8.54519E+14,1.13992E+15,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/quizbot_avatar.png,7/26/18 21:08,
-1.13992E+15,Sherry,Ruan,184,8.54519E+14,1.13992E+15,BOT: quick reply,"Hi Sherry! My name is Frosty :penguin: and I’m here to help you learn all about science:microscope:, verbal reasoning (GRE) :input_latin_uppercase:, and safety:hammer_and_wrench:!",7/26/18 21:08,
-1.13992E+15,Sherry,Ruan,185,1.13992E+15,8.54519E+14,persistent_menu: CHAT_WITH_ME,Chat With Me :penguin:,7/26/18 21:08,
-1.13992E+15,Sherry,Ruan,186,8.54519E+14,1.13992E+15,BOT: quick reply,Would you want me to tell you a joke?,7/26/18 21:08,
-1.13992E+15,Sherry,Ruan,187,1.13992E+15,8.54519E+14,user_quick_reply: JOKE,Alrighty :raising_hands_medium-light_skin_tone:,7/26/18 21:08,
-1.13992E+15,Sherry,Ruan,188,8.54519E+14,1.13992E+15,BOT: message,Here's one I thought might be interesting,7/26/18 21:08,
-1.13992E+15,Sherry,Ruan,189,8.54519E+14,1.13992E+15,BOT: quick reply,Q. What do you call a fake noodle? A. An impasta.,7/26/18 21:08,
-1.13992E+15,Sherry,Ruan,190,1.13992E+15,8.54519E+14,persistent_menu: ABOUT_QUIZBOT,About QuizBot :bookmark:,7/26/18 21:08,
-1.13992E+15,Sherry,Ruan,191,8.54519E+14,1.13992E+15,BOT: message,"I'm Frosty :penguin: and I'm a QuizBot to help you learn about science:microscope:, verbal reasoning (GRE) :input_latin_uppercase:, and safety:hammer_and_wrench:.",7/26/18 21:08,
-1.13992E+15,Sherry,Ruan,192,8.54519E+14,1.13992E+15,BOT: message,I'm designed by a group of researchers from Stanford University Computer Science Department.,7/26/18 21:08,
-1.13992E+15,Sherry,Ruan,193,8.54519E+14,1.13992E+15,BOT: message,I'll use advanced question sequencing algorithms to tailor questions for your need and best your learning experience.,7/26/18 21:08,
-1.13992E+15,Sherry,Ruan,194,8.54519E+14,1.13992E+15,BOT: quick reply,I'll evaluate your typing answers carefully using the NLP technology to assist you remembering the knowledge!,7/26/18 21:08,
-1.13992E+15,Sherry,Ruan,1146,1.13992E+15,8.54519E+14,user_typing,N,7/30/18 11:49,
-1.13992E+15,Sherry,Ruan,1147,8.54519E+14,1.13992E+15,BOT: quick reply,That sounds cool. I need to learn more languages to keep up with the conversation with you. Maybe you can teach me languages in the future!,7/30/18 11:49,
-1.13992E+15,Sherry,Ruan,1148,1.13992E+15,8.54519E+14,user_quick_reply: CHAT_WITH_ME,Chat With Me :penguin:,7/30/18 11:49,
-1.13992E+15,Sherry,Ruan,1149,8.54519E+14,1.13992E+15,BOT: quick reply,Would you want me to tell you something interesting?,7/30/18 11:50,
-1.13992E+15,Sherry,Ruan,1150,1.13992E+15,8.54519E+14,user_typing,I,7/30/18 11:50,
-1.13992E+15,Sherry,Ruan,1151,8.54519E+14,1.13992E+15,BOT: quick reply,"Oh hey, I haven't learned this language yet. Maybe I'll learn languages from you in the future.",7/30/18 11:50,
-1.13992E+15,Sherry,Ruan,1152,1.13992E+15,8.54519E+14,user_quick_reply: CHAT_WITH_ME,Chat With Me :penguin:,7/30/18 11:50,
-1.13992E+15,Sherry,Ruan,1153,8.54519E+14,1.13992E+15,BOT: quick reply,Great! I have something fun for you!,7/30/18 11:50,
-1.13992E+15,Sherry,Ruan,1154,1.13992E+15,8.54519E+14,user_quick_reply: FUN_FACT_SCIENCE,Fun Fact :light_bulb:,7/30/18 11:50,
-1.13992E+15,Sherry,Ruan,1155,8.54519E+14,1.13992E+15,BOT: message,Here is an interesting one.,7/30/18 11:50,
-1.13992E+15,Sherry,Ruan,1156,8.54519E+14,1.13992E+15,BOT: quick reply,The smallest bone in the human body is the stapes or stirrup bone located in the middle ear. It is approximately .11 inches (.28 cm) long.,7/30/18 11:50,
-1.13992E+15,Sherry,Ruan,1157,1.13992E+15,8.54519E+14,persistent_menu: SCIENCE,Science:microscope:,7/30/18 11:50,
-1.13992E+15,Sherry,Ruan,1158,8.54519E+14,1.13992E+15,BOT: message,Okay! Let’s see how much you know about science!,7/30/18 11:50,
-1.13992E+15,Sherry,Ruan,1159,8.54519E+14,1.13992E+15,BOT: message,Let's take a look at this question.,7/30/18 11:50,
-1.13992E+15,Sherry,Ruan,1160,8.54519E+14,1.13992E+15,BOT: quick reply,What are the little sacs at the end of the bronchioles called?,7/30/18 11:50,
-1.13992E+15,Sherry,Ruan,1161,1.13992E+15,8.54519E+14,user_typing,J,7/30/18 11:51,
-1.13992E+15,Sherry,Ruan,1162,8.54519E+14,1.13992E+15,BOT: message,That wasn't quite what we were looking for.  :disappointed_face:,7/30/18 11:51,
-1.13992E+15,Sherry,Ruan,1163,8.54519E+14,1.13992E+15,BOT: quick reply,The correct answer is alveoli.,7/30/18 11:51,
-1.13992E+15,Sherry,Ruan,1164,1.13992E+15,8.54519E+14,user_quick_reply: SWITCH_SUBJECT,Switch Subject :shuffle_tracks_button:,7/30/18 11:51,
-1.13992E+15,Sherry,Ruan,1165,8.54519E+14,1.13992E+15,BOT: quick reply,"Okay, which subject would you like to choose?:backhand_index_pointing_down_medium-light_skin_tone:",7/30/18 11:51,
-1.13992E+15,Sherry,Ruan,1166,1.13992E+15,8.54519E+14,user_quick_reply: GRE,GRE :input_latin_uppercase:,7/30/18 11:51,
-1.13992E+15,Sherry,Ruan,1167,8.54519E+14,1.13992E+15,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/evolvescientist_reading.gif,7/30/18 11:51,
-1.13992E+15,Sherry,Ruan,1168,8.54519E+14,1.13992E+15,BOT: message,Let's answer some questions about the GRE!,7/30/18 11:51,
-1.13992E+15,Sherry,Ruan,1169,8.54519E+14,1.13992E+15,BOT: message,See if you can answer this next one.,7/30/18 11:51,
-1.13992E+15,Sherry,Ruan,1170,8.54519E+14,1.13992E+15,BOT: quick reply,"Possessing few natural resources upon its newly-granted independence in 1863, Singapore remained economically _____ until an influx of industrialization and foreign investment took hold there.",7/30/18 11:51,
-1.13992E+15,Sherry,Ruan,1171,1.13992E+15,8.54519E+14,user_typing,H,7/30/18 11:51,
-1.13992E+15,Sherry,Ruan,1172,8.54519E+14,1.13992E+15,BOT: message,That's not quite right.  :disappointed_face:,7/30/18 11:51,
-1.13992E+15,Sherry,Ruan,1173,8.54519E+14,1.13992E+15,BOT: quick reply,The correct answer is dubious.,7/30/18 11:51,
-1.13992E+15,Sherry,Ruan,1174,1.13992E+15,8.54519E+14,user_quick_reply: WHY,Why?,7/30/18 11:51,
-1.13992E+15,Sherry,Ruan,1175,8.54519E+14,1.13992E+15,BOT: message,Here's an explanation:,7/30/18 11:51,
-1.13992E+15,Sherry,Ruan,1176,8.54519E+14,1.13992E+15,BOT: quick reply,:pushpin: Dubious -- fraught with uncertainty or doubt,7/30/18 11:51,
-1.13992E+15,Sherry,Ruan,1177,1.13992E+15,8.54519E+14,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,7/30/18 11:51,
-1.13992E+15,Sherry,Ruan,1178,8.54519E+14,1.13992E+15,BOT: message,Could you answer this one for me?,7/30/18 11:51,
-1.13992E+15,Sherry,Ruan,1179,8.54519E+14,1.13992E+15,BOT: quick reply,"Even though legislators claimed the Contagious Diseases Acts strengthened the nation, social purists argued the Acts _____ the nation's moral growth by encouraging licentious behavior.",7/30/18 11:51,
-1.13992E+15,Sherry,Ruan,1180,1.13992E+15,8.54519E+14,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,7/30/18 11:52,
-1.13992E+15,Sherry,Ruan,1181,8.54519E+14,1.13992E+15,BOT: message,Pick one of the following answers.,7/30/18 11:52,
-1.13992E+15,Sherry,Ruan,1182,8.54519E+14,1.13992E+15,BOT: quick reply,:keycap_1: enhanced\n:keycap_2: supplanted\n:keycap_3: hampered\n:keycap_4: advanced\n:keycap_5: ameliorated\n,7/30/18 11:52,
-1.13992E+15,Sherry,Ruan,1183,1.13992E+15,8.54519E+14,user_quick_reply: BUTTON_DKB_enhanced,:keycap_1:,7/30/18 11:52,
-1.13992E+15,Sherry,Ruan,1184,8.54519E+14,1.13992E+15,BOT: message,"Oops, that is not correct. :disappointed_face:",7/30/18 11:52,
-1.13992E+15,Sherry,Ruan,1185,8.54519E+14,1.13992E+15,BOT: quick reply,The correct answer is hampered.,7/30/18 11:52,
-1.13992E+15,Sherry,Ruan,1186,1.13992E+15,8.54519E+14,user_quick_reply: WHY,Why?,7/30/18 11:52,
-1.13992E+15,Sherry,Ruan,1187,8.54519E+14,1.13992E+15,BOT: message,I hope this explanation could help you understand the the question.,7/30/18 11:52,
-1.13992E+15,Sherry,Ruan,1188,8.54519E+14,1.13992E+15,BOT: quick reply,:pushpin: Hampered -- prevent the progress or free movement of\n:pushpin: Advanced -- move or bring forward\n:pushpin: Ameliorated -- to make better\n:pushpin: Supplanted -- take the place or move into the position of\n:pushpin: Enhanced -- increased or intensified in value or beauty or quality,7/30/18 11:52,
-1.13992E+15,Sherry,Ruan,1189,1.13992E+15,8.54519E+14,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,7/30/18 11:52,
-1.13992E+15,Sherry,Ruan,1190,8.54519E+14,1.13992E+15,BOT: message,Let's see if you can answer this question.,7/30/18 11:52,
-1.13992E+15,Sherry,Ruan,1191,8.54519E+14,1.13992E+15,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer!",7/30/18 11:52,
-1.13992E+15,Sherry,Ruan,1192,8.54519E+14,1.13992E+15,BOT: quick reply,Many Major League Baseball relief pitchers choose an electrifying theme song to play as they take the mound; the song _____ their fans and instills fear in their opponents.,7/30/18 11:52,
-1.13992E+15,Sherry,Ruan,1193,1.13992E+15,8.54519E+14,user_quick_reply: I_DONT_KNOW,I don’t know :downcast_face_with_sweat:,7/30/18 11:52,
-1.13992E+15,Sherry,Ruan,1194,8.54519E+14,1.13992E+15,BOT: quick reply,Are you sure you want to give up?,7/30/18 11:52,
-1.13992E+15,Sherry,Ruan,1195,1.13992E+15,8.54519E+14,user_quick_reply: GIVEUP_YES,"Yes, answer please.",7/30/18 11:52,
-1.13992E+15,Sherry,Ruan,1196,8.54519E+14,1.13992E+15,BOT: message,You didn't get it right this time.,7/30/18 11:52,
-1.13992E+15,Sherry,Ruan,1197,8.54519E+14,1.13992E+15,BOT: message,"That's fine, you'll nail it next time! :grinning_face_with_smiling_eyes:",7/30/18 11:52,
-1.13992E+15,Sherry,Ruan,1198,8.54519E+14,1.13992E+15,BOT: quick reply,The correct answer is innervates.,7/30/18 11:52,
-1.13992E+15,Sherry,Ruan,1199,1.13992E+15,8.54519E+14,user_quick_reply: WHY,Why?,7/30/18 11:52,
-1.13992E+15,Sherry,Ruan,1200,8.54519E+14,1.13992E+15,BOT: message,This is an explanation of the question:,7/30/18 11:52,
-1.13992E+15,Sherry,Ruan,1201,8.54519E+14,1.13992E+15,BOT: quick reply,:pushpin: Innervates -- to supply with nerves\n:pushpin: Eviscerates -- surgically remove a part of a structure or an organ\n:pushpin: Enervates -- weaken mentally or morally\n:pushpin: Assuages -- cause to be more favorably inclined; gain the good will of\n:pushpin: Pervades -- spread or diffuse through,7/30/18 11:52,
+"user_id","user_firstname","user_lastname","uid","sender","recipient","type","dialogue","time_stamp"
+"1604186432970760","Sherry","Ruan","35","854518728062939","1604186432970760","BOT: image","https://www.smartprimer.org:443/pictures/user_manual/needhintbutton.png","2018-07-30 13:59:51"
+"1604186432970760","Sherry","Ruan","36","854518728062939","1604186432970760","BOT: image","https://www.smartprimer.org:443/pictures/user_manual/hintoptions.png","2018-07-30 13:59:54"
+"1604186432970760","Sherry","Ruan","37","854518728062939","1604186432970760","BOT: message","If you don't know the answers, then feel free to tap on the hint button.","2018-07-30 13:59:56"
+"1604186432970760","Sherry","Ruan","38","854518728062939","1604186432970760","BOT: quick reply","The hint will give you a list of potential answers and you can select one from them.","2018-07-30 13:59:57"
+"1604186432970760","Sherry","Ruan","39","1604186432970760","854518728062939","user_quick_reply: GET_INTRO_5","Continue :backhand_index_pointing_right_medium-light_skin_tone:","2018-07-30 14:00:01"
+"1604186432970760","Sherry","Ruan","40","854518728062939","1604186432970760","BOT: image","https://www.smartprimer.org:443/pictures/user_manual/menubutton.jpg","2018-07-30 14:00:04"
+"1604186432970760","Sherry","Ruan","41","854518728062939","1604186432970760","BOT: quick reply","To discover more abilities of me, you can click on the menu button.:backhand_index_pointing_up_medium-light_skin_tone:","2018-07-30 14:00:06"
+"1604186432970760","Sherry","Ruan","42","854518728062939","1604186432970760","BOT: message","I hope you enjoy the learning journey! :hundred_points:","2018-07-30 14:00:11"
+"1604186432970760","Sherry","Ruan","43","854518728062939","1604186432970760","BOT: quick reply","So, are you ready?","2018-07-30 14:00:12"
+"1604186432970760","Sherry","Ruan","44","1604186432970760","854518728062939","user_quick_reply: YUP_IM_READY","Yup! I'm ready! :raised_fist_medium-light_skin_tone:","2018-07-30 14:00:43"
+"1604186432970760","Sherry","Ruan","45","854518728062939","1604186432970760","BOT: message","Great!","2018-07-30 14:00:44"
+"1604186432970760","Sherry","Ruan","46","854518728062939","1604186432970760","BOT: quick reply","Let’s get started :rocket:","2018-07-30 14:00:46"
+"1604186432970760","Sherry","Ruan","47","1604186432970760","854518728062939","user_quick_reply: SWITCH_SUBJECT","Quiz me :nerd_face:","2018-07-30 14:00:50"
+"1604186432970760","Sherry","Ruan","48","854518728062939","1604186432970760","BOT: quick reply","Sure, which subject would you like me to quiz you on?:backhand_index_pointing_down_medium-light_skin_tone:","2018-07-30 14:00:51"
+"1604186432970760","Sherry","Ruan","49","1604186432970760","854518728062939","user_quick_reply: SCIENCE","Science:microscope:","2018-07-30 14:00:55"
+"1604186432970760","Sherry","Ruan","50","854518728062939","1604186432970760","BOT: message","Awesome! Here's some questions on science!","2018-07-30 14:00:56"
+"1604186432970760","Sherry","Ruan","52","854518728062939","1604186432970760","BOT: message","Would you answer this question for me?","2018-07-30 14:00:58"
+"1604186432970760","Sherry","Ruan","53","854518728062939","1604186432970760","BOT: message","If you know the answer, you can type it in and I'll help you to evaluate the answer!","2018-07-30 14:00:59"
+"1604186432970760","Sherry","Ruan","55","854518728062939","1604186432970760","BOT: quick reply","What are the little sacs at the end of the bronchioles called?","2018-07-30 14:01:01"
+"1604186432970760","Sherry","Ruan","61","1604186432970760","854518728062939","user_quick_reply: NEED_HINT","I need a hint :thinking_face:","2018-07-30 14:02:46"
+"1604186432970760","Sherry","Ruan","62","854518728062939","1604186432970760","BOT: message","Okay. I'll give you some choices.","2018-07-30 14:02:47"
+"1604186432970760","Sherry","Ruan","63","854518728062939","1604186432970760","BOT: quick reply",":keycap_1: respiratory sacs\n:keycap_2: ganglion\n:keycap_3: lung\n:keycap_4: alveoli\n","2018-07-30 14:02:48"
+"1604186432970760","Sherry","Ruan","64","1604186432970760","854518728062939","user_quick_reply: BUTTON_DKB_respiratory sacs",":keycap_1:","2018-07-30 14:02:52"
+"1604186432970760","Sherry","Ruan","65","854518728062939","1604186432970760","BOT: message","Oops, that is not correct. :disappointed_face:","2018-07-30 14:02:54"
+"1604186432970760","Sherry","Ruan","66","854518728062939","1604186432970760","BOT: quick reply","The correct answer is alveoli.","2018-07-30 14:02:55"
+"1604186432970760","Sherry","Ruan","67","1604186432970760","854518728062939","user_quick_reply: NEXT_QUESTION","Next question :flexed_biceps_medium-light_skin_tone:","2018-07-30 14:02:59"
+"1604186432970760","Sherry","Ruan","68","854518728062939","1604186432970760","BOT: message","Would you answer this question for me?","2018-07-30 14:03:01"
+"1604186432970760","Sherry","Ruan","69","854518728062939","1604186432970760","BOT: quick reply","All organisms can be classified into one of three of this least specific grouping?","2018-07-30 14:03:02"
+"1604186432970760","Sherry","Ruan","70","1604186432970760","854518728062939","persistent_menu: GET_INTRO_1","Get Started","2018-07-30 14:04:16"
+"1604186432970760","Sherry","Ruan","71","854518728062939","1604186432970760","BOT: image","https://www.smartprimer.org:443/pictures/avatar/quizbot_avatar.png","2018-07-30 14:04:19"
+"1604186432970760","Sherry","Ruan","72","854518728062939","1604186432970760","BOT: quick reply","Hi Anna! My name is Frosty :penguin: and I’m here to help you learn all about science:microscope:, verbal reasoning (GRE) :input_latin_uppercase:, and safety:hammer_and_wrench:!","2018-07-30 14:04:21"
+"1604186432970760","Sherry","Ruan","78","1604186432970760","854518728062939","persistent_menu: GET_INTRO_1","Get Started","2018-07-30 14:07:38"
+"1604186432970760","Sherry","Ruan","81","1604186432970760","854518728062939","persistent_menu: GET_INTRO_1","Get Started","2018-07-30 14:07:40"
+"1604186432970760","Sherry","Ruan","84","854518728062939","1604186432970760","BOT: image","https://www.smartprimer.org:443/pictures/avatar/quizbot_avatar.png","2018-07-30 14:07:42"
+"1604186432970760","Sherry","Ruan","85","854518728062939","1604186432970760","BOT: quick reply","Hi Anna! My name is Frosty :penguin: and I’m here to help you learn all about science:microscope:, verbal reasoning (GRE) :input_latin_uppercase:, and safety:hammer_and_wrench:!","2018-07-30 14:07:43"
+"1604186432970760","Sherry","Ruan","86","854518728062939","1604186432970760","BOT: image","https://www.smartprimer.org:443/pictures/avatar/quizbot_avatar.png","2018-07-30 14:07:44"
+"1604186432970760","Sherry","Ruan","87","854518728062939","1604186432970760","BOT: quick reply","Hi Anna! My name is Frosty :penguin: and I’m here to help you learn all about science:microscope:, verbal reasoning (GRE) :input_latin_uppercase:, and safety:hammer_and_wrench:!","2018-07-30 14:07:46"
+"1604186432970760","Sherry","Ruan","91","1604186432970760","854518728062939","persistent_menu: GET_INTRO_1","Get Started","2018-07-30 14:09:15"
+"1604186432970760","Sherry","Ruan","92","854518728062939","1604186432970760","BOT: image","https://www.smartprimer.org:443/pictures/avatar/quizbot_avatar.png","2018-07-30 14:09:19"
+"1604186432970760","Sherry","Ruan","93","854518728062939","1604186432970760","BOT: quick reply","Hi Sherry! My name is Frosty :penguin: and I’m here to help you learn all about science:microscope:, verbal reasoning (GRE) :input_latin_uppercase:, and safety:hammer_and_wrench:!","2018-07-30 14:09:20"
+"1604186432970760","Sherry","Ruan","94","1604186432970760","854518728062939","persistent_menu: GET_INTRO_1","Get Started","2018-07-30 14:09:58"
+"1604186432970760","Sherry","Ruan","98","854518728062939","1604186432970760","BOT: image","https://www.smartprimer.org:443/pictures/avatar/quizbot_avatar.png","2018-07-30 14:10:02"
+"1604186432970760","Sherry","Ruan","100","854518728062939","1604186432970760","BOT: quick reply","Hi Sherry! My name is Frosty :penguin: and I’m here to help you learn all about science:microscope:, verbal reasoning (GRE) :input_latin_uppercase:, and safety:hammer_and_wrench:!","2018-07-30 14:10:04"
+"1604186432970760","Sherry","Ruan","107","1604186432970760","854518728062939","persistent_menu: GET_INTRO_1","Get Started","2018-07-30 14:10:42"
+"1604186432970760","Sherry","Ruan","109","854518728062939","1604186432970760","BOT: image","https://www.smartprimer.org:443/pictures/avatar/quizbot_avatar.png","2018-07-30 14:10:46"
+"1604186432970760","Sherry","Ruan","111","854518728062939","1604186432970760","BOT: quick reply","Hi Liwei! My name is Frosty :penguin: and I’m here to help you learn all about science:microscope:, verbal reasoning (GRE) :input_latin_uppercase:, and safety:hammer_and_wrench:!","2018-07-30 14:10:47"
+"1604186432970760","Sherry","Ruan","113","1604186432970760","854518728062939","persistent_menu: GET_INTRO_1","Get Started","2018-07-30 14:12:09"
+"1604186432970760","Sherry","Ruan","114","1604186432970760","854518728062939","persistent_menu: CHAT_WITH_ME","Chat with Me :penguin:","2018-07-30 14:12:09"
+"1604186432970760","Sherry","Ruan","115","854518728062939","1604186432970760","BOT: quick reply","Would you want me to tell you something interesting?","2018-07-30 14:12:11"
+"1604186432970760","Sherry","Ruan","117","854518728062939","1604186432970760","BOT: image","https://www.smartprimer.org:443/pictures/avatar/quizbot_avatar.png","2018-07-30 14:12:13"
+"1604186432970760","Sherry","Ruan","119","854518728062939","1604186432970760","BOT: quick reply","Hi Liwei! My name is Frosty :penguin: and I’m here to help you learn all about science:microscope:, verbal reasoning (GRE) :input_latin_uppercase:, and safety:hammer_and_wrench:!","2018-07-30 14:12:15"
+"1604186432970760","Sherry","Ruan","120","1604186432970760","854518728062939","persistent_menu: GET_INTRO_1","Get Started","2018-07-30 14:13:00"
+"1604186432970760","Sherry","Ruan","121","854518728062939","1604186432970760","BOT: image","https://www.smartprimer.org:443/pictures/avatar/quizbot_avatar.png","2018-07-30 14:13:03"
+"1604186432970760","Sherry","Ruan","122","854518728062939","1604186432970760","BOT: quick reply","Hi Liwei! My name is Frosty :penguin: and I’m here to help you learn all about science:microscope:, verbal reasoning (GRE) :input_latin_uppercase:, and safety:hammer_and_wrench:!","2018-07-30 14:13:05"
+"1604186432970760","Sherry","Ruan","126","1604186432970760","854518728062939","persistent_menu: GET_INTRO_1","Get Started","2018-07-30 14:14:54"
+"1604186432970760","Sherry","Ruan","128","854518728062939","1604186432970760","BOT: image","https://www.smartprimer.org:443/pictures/avatar/quizbot_avatar.png","2018-07-30 14:14:58"
+"1604186432970760","Sherry","Ruan","130","854518728062939","1604186432970760","BOT: quick reply","Hi Sherry! My name is Frosty :penguin: and I’m here to help you learn all about science:microscope:, verbal reasoning (GRE) :input_latin_uppercase:, and safety:hammer_and_wrench:!","2018-07-30 14:14:59"
+"1604186432970760","Sherry","Ruan","132","1604186432970760","854518728062939","persistent_menu: GET_INTRO_1","Get Started","2018-07-30 14:15:32"
+"1604186432970760","Sherry","Ruan","135","854518728062939","1604186432970760","BOT: image","https://www.smartprimer.org:443/pictures/avatar/quizbot_avatar.png","2018-07-30 14:15:37"
+"1604186432970760","Sherry","Ruan","137","854518728062939","1604186432970760","BOT: quick reply","Hi Sherry! My name is Frosty :penguin: and I’m here to help you learn all about science:microscope:, verbal reasoning (GRE) :input_latin_uppercase:, and safety:hammer_and_wrench:!","2018-07-30 14:15:39"
+"1604186432970760","Sherry","Ruan","139","1604186432970760","854518728062939","persistent_menu: GET_INTRO_1","Get Started","2018-07-30 14:16:17"
+"1604186432970760","Sherry","Ruan","141","854518728062939","1604186432970760","BOT: image","https://www.smartprimer.org:443/pictures/avatar/quizbot_avatar.png","2018-07-30 14:16:21"
+"1604186432970760","Sherry","Ruan","142","854518728062939","1604186432970760","BOT: quick reply","Hi Liwei! My name is Frosty :penguin: and I’m here to help you learn all about science:microscope:, verbal reasoning (GRE) :input_latin_uppercase:, and safety:hammer_and_wrench:!","2018-07-30 14:16:22"
+"1604186432970760","Sherry","Ruan","145","1604186432970760","854518728062939","persistent_menu: GET_INTRO_1","Get Started","2018-07-30 14:16:39"
+"1604186432970760","Sherry","Ruan","147","854518728062939","1604186432970760","BOT: image","https://www.smartprimer.org:443/pictures/avatar/quizbot_avatar.png","2018-07-30 14:16:43"
+"1604186432970760","Sherry","Ruan","149","854518728062939","1604186432970760","BOT: quick reply","Hi {}! My name is Frosty :penguin: and I’m here to help you learn all about science:microscope:, verbal reasoning (GRE) :input_latin_uppercase:, and safety:hammer_and_wrench:!","2018-07-30 14:16:45"
+"1604186432970760","Sherry","Ruan","156","1604186432970760","854518728062939","persistent_menu: GET_INTRO_1","Get Started","2018-07-30 14:20:27"
+"1604186432970760","Sherry","Ruan","157","854518728062939","1604186432970760","BOT: image","https://www.smartprimer.org:443/pictures/avatar/quizbot_avatar.png","2018-07-30 14:20:31"
+"1604186432970760","Sherry","Ruan","158","854518728062939","1604186432970760","BOT: quick reply","Hi Sherry! My name is Frosty :penguin: and I’m here to help you learn all about science:microscope:, verbal reasoning (GRE) :input_latin_uppercase:, and safety:hammer_and_wrench:!","2018-07-30 14:20:32"
+"1604186432970760","Sherry","Ruan","159","1604186432970760","854518728062939","persistent_menu: GET_INTRO_1","Get Started","2018-07-30 14:20:52"
+"1604186432970760","Sherry","Ruan","161","854518728062939","1604186432970760","BOT: image","https://www.smartprimer.org:443/pictures/avatar/quizbot_avatar.png","2018-07-30 14:20:57"
+"1604186432970760","Sherry","Ruan","163","854518728062939","1604186432970760","BOT: quick reply","Hi Sherry! My name is Frosty :penguin: and I’m here to help you learn all about science:microscope:, verbal reasoning (GRE) :input_latin_uppercase:, and safety:hammer_and_wrench:!","2018-07-30 14:20:58"
+"1604186432970760","Sherry","Ruan","180","1604186432970760","854518728062939","persistent_menu: GET_INTRO_1","Get Started","2018-07-30 14:24:29"
+"1604186432970760","Sherry","Ruan","183","854518728062939","1604186432970760","BOT: image","https://www.smartprimer.org:443/pictures/avatar/quizbot_avatar.png","2018-07-30 14:24:33"
+"1604186432970760","Sherry","Ruan","184","854518728062939","1604186432970760","BOT: quick reply","Hi Sherry! My name is Frosty :penguin: and I’m here to help you learn all about science:microscope:, verbal reasoning (GRE) :input_latin_uppercase:, and safety:hammer_and_wrench:!","2018-07-30 14:24:34"
+"1604186432970760","Sherry","Ruan","190","1604186432970760","854518728062939","user_quick_reply: GET_INTRO_2","Okay :white_heavy_check_mark:","2018-07-30 14:24:38"
+"1604186432970760","Sherry","Ruan","192","854518728062939","1604186432970760","BOT: message","Here’s how it works.","2018-07-30 14:24:40"
+"1604186432970760","Sherry","Ruan","194","854518728062939","1604186432970760","BOT: message","I ask you questions, and you give me answers.","2018-07-30 14:24:41"
+"1604186432970760","Sherry","Ruan","196","854518728062939","1604186432970760","BOT: quick reply","We will learn fun stuffs together!","2018-07-30 14:24:43"
+"1604186432970760","Sherry","Ruan","200","1604186432970760","854518728062939","user_quick_reply: GET_INTRO_3","OK :white_heavy_check_mark:","2018-07-30 14:24:46"
+"1604186432970760","Sherry","Ruan","204","854518728062939","1604186432970760","BOT: image","https://www.smartprimer.org:443/pictures/user_manual/typeanswer.png","2018-07-30 14:24:49"
+"1604186432970760","Sherry","Ruan","208","854518728062939","1604186432970760","BOT: quick reply","To study the questions, you can type in your answers in the text field and QuizBot will evaluate the answers for you.","2018-07-30 14:24:51"
+"1604186432970760","Sherry","Ruan","214","1604186432970760","854518728062939","user_quick_reply: GET_INTRO_4","Next :flexed_biceps_medium-light_skin_tone:","2018-07-30 14:24:55"
+"1604186432970760","Sherry","Ruan","218","854518728062939","1604186432970760","BOT: image","https://www.smartprimer.org:443/pictures/user_manual/needhintbutton.png","2018-07-30 14:24:58"
+"1604186432970760","Sherry","Ruan","224","854518728062939","1604186432970760","BOT: image","https://www.smartprimer.org:443/pictures/user_manual/hintoptions.png","2018-07-30 14:25:02"
+"1604186432970760","Sherry","Ruan","226","854518728062939","1604186432970760","BOT: message","If you don't know the answers, then feel free to tap on the hint button.","2018-07-30 14:25:03"
+"1604186432970760","Sherry","Ruan","229","854518728062939","1604186432970760","BOT: quick reply","The hint will give you a list of potential answers and you can select one from them.","2018-07-30 14:25:05"
+"1604186432970760","Sherry","Ruan","233","1604186432970760","854518728062939","user_quick_reply: GET_INTRO_5","Sure :collision:","2018-07-30 14:25:07"
+"1604186432970760","Sherry","Ruan","236","854518728062939","1604186432970760","BOT: image","https://www.smartprimer.org:443/pictures/user_manual/menubutton.jpg","2018-07-30 14:25:10"
+"1604186432970760","Sherry","Ruan","239","854518728062939","1604186432970760","BOT: quick reply","To discover more abilities of me, you can click on the menu button.:backhand_index_pointing_up_medium-light_skin_tone:","2018-07-30 14:25:11"
+"1604186432970760","Sherry","Ruan","243","1604186432970760","854518728062939","user_quick_reply: GET_READY","Alright :clapping_hands_medium-light_skin_tone:","2018-07-30 14:25:16"
+"1604186432970760","Sherry","Ruan","246","854518728062939","1604186432970760","BOT: message","I hope you enjoy the learning journey! :hundred_points:","2018-07-30 14:25:17"
+"1604186432970760","Sherry","Ruan","250","854518728062939","1604186432970760","BOT: quick reply","So, are you ready?","2018-07-30 14:25:19"
+"1604186432970760","Sherry","Ruan","254","1604186432970760","854518728062939","user_quick_reply: YUP_IM_READY","Yup! I'm ready! :raised_fist_medium-light_skin_tone:","2018-07-30 14:25:22"
+"1604186432970760","Sherry","Ruan","256","854518728062939","1604186432970760","BOT: message","Great!","2018-07-30 14:25:24"
+"1604186432970760","Sherry","Ruan","258","854518728062939","1604186432970760","BOT: quick reply","Let’s get started :rocket:","2018-07-30 14:25:26"
+"1604186432970760","Sherry","Ruan","264","1604186432970760","854518728062939","user_quick_reply: SWITCH_SUBJECT","Quiz me :nerd_face:","2018-07-30 14:25:29"
+"1604186432970760","Sherry","Ruan","268","854518728062939","1604186432970760","BOT: quick reply","Cool, which subject would you like to study?:backhand_index_pointing_down_medium-light_skin_tone:","2018-07-30 14:25:30"
+"1604186432970760","Sherry","Ruan","272","1604186432970760","854518728062939","user_quick_reply: SAFETY","Safety:hammer_and_wrench:","2018-07-30 14:25:35"
+"1604186432970760","Sherry","Ruan","277","854518728062939","1604186432970760","BOT: image","https://www.smartprimer.org:443/pictures/avatar/evolvescientist_safety.gif","2018-07-30 14:25:39"
+"1604186432970760","Sherry","Ruan","279","854518728062939","1604186432970760","BOT: message","Okay! Let’s see how much you know about safety!","2018-07-30 14:25:41"
+"1604186432970760","Sherry","Ruan","281","854518728062939","1604186432970760","BOT: message","See if you can answer this next one.","2018-07-30 14:25:42"
+"1604186432970760","Sherry","Ruan","283","854518728062939","1604186432970760","BOT: message","Remember that you can always type in you answer and I'll help you to evaluate it!","2018-07-30 14:25:44"
+"1604186432970760","Sherry","Ruan","286","854518728062939","1604186432970760","BOT: quick reply","True or false: individuals who are lactose-intolerant can consume pasteurized milk without negative side effects.","2018-07-30 14:25:46"
+"1604186432970760","Sherry","Ruan","298","1604186432970760","854518728062939","user_quick_reply: NEED_HINT","I need a hint :thinking_face:","2018-07-30 14:25:57"
+"1604186432970760","Sherry","Ruan","299","854518728062939","1604186432970760","BOT: message","Pick one of the following answers.","2018-07-30 14:25:59"
+"1604186432970760","Sherry","Ruan","302","854518728062939","1604186432970760","BOT: quick reply",":keycap_1: False\n:keycap_2: True\n","2018-07-30 14:26:01"
+"1604186432970760","Sherry","Ruan","307","1604186432970760","854518728062939","user_quick_reply: BUTTON_AKB_False",":keycap_1:","2018-07-30 14:26:03"
+"1604186432970760","Sherry","Ruan","308","854518728062939","1604186432970760","BOT: message","Yes! You got the correct answer!","2018-07-30 14:26:05"
+"1604186432970760","Sherry","Ruan","309","854518728062939","1604186432970760","BOT: quick reply","The correct answer is False.","2018-07-30 14:26:07"
+"1604186432970760","Sherry","Ruan","311","1604186432970760","854518728062939","user_quick_reply: WHY","Why?","2018-07-30 14:26:11"
+"1604186432970760","Sherry","Ruan","313","854518728062939","1604186432970760","BOT: message","Here's why:","2018-07-30 14:26:13"
+"1604186432970760","Sherry","Ruan","317","854518728062939","1604186432970760","BOT: quick reply","According to U.S. Food and Drug Administration, pasteurizing milk DOES NOT cause lactose intolerance and allergic reactions. But, both raw milk and pasteurized milk can cause allergic reactions in people sensitive to milk proteins.","2018-07-30 14:26:15"
+"1604186432970760","Sherry","Ruan","323","1604186432970760","854518728062939","user_quick_reply: NEXT_QUESTION","Next question :flexed_biceps:","2018-07-30 14:26:19"
+"1604186432970760","Sherry","Ruan","327","854518728062939","1604186432970760","BOT: message","See if you can answer this next one.","2018-07-30 14:26:21"
+"1604186432970760","Sherry","Ruan","330","854518728062939","1604186432970760","BOT: message","If you know the answer, you can type it in and I'll help you to evaluate the answer!","2018-07-30 14:26:23"
+"1604186432970760","Sherry","Ruan","334","854518728062939","1604186432970760","BOT: quick reply","What is a symptom of a heatstroke?","2018-07-30 14:26:24"
+"1604186432970760","Sherry","Ruan","344","1604186432970760","854518728062939","user_typing","Dizzy","2018-07-30 14:26:36"
+"1604186432970760","Sherry","Ruan","346","854518728062939","1604186432970760","BOT: message","That wasn't quite what we were looking for.  :disappointed_face:","2018-07-30 14:26:37"
+"1604186432970760","Sherry","Ruan","348","854518728062939","1604186432970760","BOT: quick reply","The correct answer is Rapid strong pulse, hallucinations, throbbing headache, and high body temperature.","2018-07-30 14:26:39"
+"1604186432970760","Sherry","Ruan","360","1604186432970760","854518728062939","user_quick_reply: NEXT_QUESTION","Next question :flexed_biceps_medium-light_skin_tone:","2018-07-30 14:26:47"
+"1604186432970760","Sherry","Ruan","362","854518728062939","1604186432970760","BOT: message","I think you'll like this question.","2018-07-30 14:26:48"
+"1604186432970760","Sherry","Ruan","366","854518728062939","1604186432970760","BOT: message","Remember that you can always type in you answer and I'll help you to evaluate it!","2018-07-30 14:26:50"
+"1604186432970760","Sherry","Ruan","369","854518728062939","1604186432970760","BOT: quick reply","How can employers help lower the rate of pesticide exposure?","2018-07-30 14:26:51"
+"1604186432970760","Sherry","Ruan","391","1604186432970760","854518728062939","user_typing","Make the office space clean","2018-07-30 14:27:19"
+"1604186432970760","Sherry","Ruan","392","854518728062939","1604186432970760","BOT: message","Oops, that answer was incorrect.  :disappointed_face:","2018-07-30 14:27:20"
+"1604186432970760","Sherry","Ruan","393","854518728062939","1604186432970760","BOT: quick reply","The correct answer is monthly.","2018-07-30 14:27:22"
+"1604186432970760","Sherry","Ruan","403","1604186432970760","854518728062939","user_quick_reply: WHY","Why?","2018-07-30 14:27:49"
+"1604186432970760","Sherry","Ruan","404","854518728062939","1604186432970760","BOT: message","This is an explanation of the question:","2018-07-30 14:27:50"
+"1604186432970760","Sherry","Ruan","405","854518728062939","1604186432970760","BOT: quick reply","Workers’ inability to make proper use of their right (under the Worker Protection Standard issued by the EPA) to report violations often stems from lack of awareness, making the employers’ contribution to training and education all the more important. Employers can help lower the rate of pesticide exposure through comprehensive training on each chemical, educating workers about their rights, strategizing on preventive methods, making workers comprehend label information on pesticide containers, and providing workers with proper PPE.","2018-07-30 14:27:52"
+"1604186432970760","Sherry","Ruan","449","1604186432970760","854518728062939","persistent_menu: GET_INTRO_1","Get Started","2018-07-30 14:43:08"
+"1604186432970760","Sherry","Ruan","451","854518728062939","1604186432970760","BOT: image","https://www.smartprimer.org:443/pictures/avatar/quizbot_avatar.png","2018-07-30 14:43:12"
+"1604186432970760","Sherry","Ruan","453","854518728062939","1604186432970760","BOT: quick reply","Hi Sherry! My name is Frosty :penguin: and I’m here to help you learn all about science:microscope:, verbal reasoning (GRE) :input_latin_uppercase:, and safety:hammer_and_wrench:!","2018-07-30 14:43:14"
+"1604186432970760","Sherry","Ruan","458","1604186432970760","854518728062939","persistent_menu: GET_INTRO_1","Get Started","2018-07-30 14:43:52"
+"1604186432970760","Sherry","Ruan","460","854518728062939","1604186432970760","BOT: image","https://www.smartprimer.org:443/pictures/avatar/quizbot_avatar.png","2018-07-30 14:43:56"
+"1604186432970760","Sherry","Ruan","462","854518728062939","1604186432970760","BOT: quick reply","Hi Sherry! My name is Frosty :penguin: and I’m here to help you learn all about science:microscope:, verbal reasoning (GRE) :input_latin_uppercase:, and safety:hammer_and_wrench:!","2018-07-30 14:43:58"
+"1604186432970760","Sherry","Ruan","470","1604186432970760","854518728062939","persistent_menu: GET_INTRO_1","Get Started","2018-07-30 14:44:25"
+"1604186432970760","Sherry","Ruan","472","854518728062939","1604186432970760","BOT: image","https://www.smartprimer.org:443/pictures/avatar/quizbot_avatar.png","2018-07-30 14:44:29"
+"1604186432970760","Sherry","Ruan","473","854518728062939","1604186432970760","BOT: quick reply","Hi Sherry! My name is Frosty :penguin: and I’m here to help you learn all about science:microscope:, verbal reasoning (GRE) :input_latin_uppercase:, and safety:hammer_and_wrench:!","2018-07-30 14:44:30"
+"1604186432970760","Sherry","Ruan","500","1604186432970760","854518728062939","user_quick_reply: GET_INTRO_2","Okay :thumbs_up_medium-light_skin_tone:","2018-07-30 14:45:16"
+"1604186432970760","Sherry","Ruan","504","854518728062939","1604186432970760","BOT: message","Here’s how it works.","2018-07-30 14:45:18"
+"1604186432970760","Sherry","Ruan","507","854518728062939","1604186432970760","BOT: message","I ask you questions, and you give me answers.","2018-07-30 14:45:19"
+"1604186432970760","Sherry","Ruan","509","854518728062939","1604186432970760","BOT: quick reply","We will learn fun stuffs together!","2018-07-30 14:45:21"
+"1604186432970760","Sherry","Ruan","513","1604186432970760","854518728062939","user_quick_reply: GET_INTRO_3","Okay :thumbs_up_medium-light_skin_tone:","2018-07-30 14:45:26"
+"1604186432970760","Sherry","Ruan","515","854518728062939","1604186432970760","BOT: image","https://www.smartprimer.org:443/pictures/user_manual/typeanswer.png","2018-07-30 14:45:29"
+"1604186432970760","Sherry","Ruan","518","854518728062939","1604186432970760","BOT: quick reply","To study the questions, you can type in your answers in the text field and QuizBot will evaluate the answers for you.","2018-07-30 14:45:30"
+"1604186432970760","Sherry","Ruan","534","1604186432970760","854518728062939","user_quick_reply: GET_INTRO_4","Alright :round_pushpin:","2018-07-30 14:45:47"
+"1604186432970760","Sherry","Ruan","535","854518728062939","1604186432970760","BOT: image","https://www.smartprimer.org:443/pictures/user_manual/needhintbutton.png","2018-07-30 14:45:50"
+"1604186432970760","Sherry","Ruan","542","854518728062939","1604186432970760","BOT: image","https://www.smartprimer.org:443/pictures/user_manual/hintoptions.png","2018-07-30 14:45:54"
+"1604186432970760","Sherry","Ruan","544","854518728062939","1604186432970760","BOT: message","If you don't know the answers, then feel free to tap on the hint button.","2018-07-30 14:45:55"
+"1604186432970760","Sherry","Ruan","546","854518728062939","1604186432970760","BOT: quick reply","The hint will give you a list of potential answers and you can select one from them.","2018-07-30 14:45:57"
+"1604186432970760","Sherry","Ruan","551","1604186432970760","854518728062939","user_quick_reply: GET_INTRO_5","Yes, continue :collision:","2018-07-30 14:46:00"
+"1604186432970760","Sherry","Ruan","552","854518728062939","1604186432970760","BOT: image","https://www.smartprimer.org:443/pictures/user_manual/menubutton.jpg","2018-07-30 14:46:03"
+"1604186432970760","Sherry","Ruan","553","854518728062939","1604186432970760","BOT: quick reply","To discover more abilities of me, you can click on the menu button.:backhand_index_pointing_up_medium-light_skin_tone:","2018-07-30 14:46:05"
+"1604186432970760","Sherry","Ruan","554","1604186432970760","854518728062939","user_quick_reply: GET_READY","Alright :thumbs_up_medium-light_skin_tone:","2018-07-30 14:46:07"
+"1604186432970760","Sherry","Ruan","558","854518728062939","1604186432970760","BOT: message","I hope you enjoy the learning journey! :hundred_points:","2018-07-30 14:46:09"
+"1604186432970760","Sherry","Ruan","560","854518728062939","1604186432970760","BOT: quick reply","So, are you ready?","2018-07-30 14:46:11"
+"1604186432970760","Sherry","Ruan","564","1604186432970760","854518728062939","user_quick_reply: YUP_IM_READY","Yup! I'm ready! :raised_fist_medium-light_skin_tone:","2018-07-30 14:46:14"
+"1604186432970760","Sherry","Ruan","567","854518728062939","1604186432970760","BOT: message","Great!","2018-07-30 14:46:15"
+"1604186432970760","Sherry","Ruan","570","854518728062939","1604186432970760","BOT: quick reply","Let’s get started :rocket:","2018-07-30 14:46:17"
+"1604186432970760","Sherry","Ruan","580","1604186432970760","854518728062939","user_quick_reply: SWITCH_SUBJECT","Quiz me :nerd_face:","2018-07-30 14:46:27"
+"1604186432970760","Sherry","Ruan","583","854518728062939","1604186432970760","BOT: quick reply","Sure, which subject would you want to study?:backhand_index_pointing_down_medium-light_skin_tone:","2018-07-30 14:46:28"
+"1604186432970760","Sherry","Ruan","588","1604186432970760","854518728062939","user_quick_reply: SAFETY","Safety:hammer_and_wrench:","2018-07-30 14:46:33"
+"1604186432970760","Sherry","Ruan","589","854518728062939","1604186432970760","BOT: message","Let's test your knowledge on safety!","2018-07-30 14:46:34"
+"1604186432970760","Sherry","Ruan","591","854518728062939","1604186432970760","BOT: message","Let's take a look at this question.","2018-07-30 14:46:36"
+"1604186432970760","Sherry","Ruan","594","854518728062939","1604186432970760","BOT: quick reply","Workplaces with a minimum of ____ employees need to have a written fire prevention program in place.","2018-07-30 14:46:37"
+"1604186432970760","Sherry","Ruan","615","1604186432970760","854518728062939","user_typing","5","2018-07-30 14:46:54"
+"1604186432970760","Sherry","Ruan","619","854518728062939","1604186432970760","BOT: message","I'm sorry, but that was incorrect. :disappointed_face:","2018-07-30 14:46:55"
+"1604186432970760","Sherry","Ruan","624","854518728062939","1604186432970760","BOT: quick reply","The correct answer is 11.","2018-07-30 14:46:57"
+"1604186432970760","Sherry","Ruan","629","1604186432970760","854518728062939","user_quick_reply: WHY","Why?","2018-07-30 14:47:01"
+"1604186432970760","Sherry","Ruan","632","854518728062939","1604186432970760","BOT: message","Here's why:","2018-07-30 14:47:02"
+"1604186432970760","Sherry","Ruan","635","854518728062939","1604186432970760","BOT: quick reply","Employers should provide their workers with the fire prevention plan in writing when there are 11 or more employees at a workplace. In a workplace with 10 or fewer employees, the fire prevention plan may be communicated verbally.","2018-07-30 14:47:04"
+"1604186432970760","Sherry","Ruan","640","1604186432970760","854518728062939","user_quick_reply: NEXT_QUESTION","Next question :flexed_biceps:","2018-07-30 14:47:09"
+"1604186432970760","Sherry","Ruan","642","854518728062939","1604186432970760","BOT: message","See if you can answer this next one.","2018-07-30 14:47:11"
+"1604186432970760","Sherry","Ruan","644","854518728062939","1604186432970760","BOT: quick reply","What is the maximum amount of time perishable food should be left out?","2018-07-30 14:47:12"
+"1604186432970760","Sherry","Ruan","651","1604186432970760","854518728062939","user_typing","One day","2018-07-30 14:47:36"
+"1604186432970760","Sherry","Ruan","653","854518728062939","1604186432970760","BOT: message","I'm sorry, but that was incorrect. :disappointed_face:","2018-07-30 14:47:38"
+"1604186432970760","Sherry","Ruan","654","854518728062939","1604186432970760","BOT: quick reply","The correct answer is 2 hours.","2018-07-30 14:47:39"
+"1604186432970760","Sherry","Ruan","655","1604186432970760","854518728062939","user_quick_reply: NEXT_QUESTION","Next question :flexed_biceps_medium-light_skin_tone:","2018-07-30 14:47:44"
+"1604186432970760","Sherry","Ruan","656","854518728062939","1604186432970760","BOT: message","Let's try this question.","2018-07-30 14:47:45"
+"1604186432970760","Sherry","Ruan","657","854518728062939","1604186432970760","BOT: quick reply","True or false: when someone swallows a chemical, immediately have the person drink water and then induce vomiting.","2018-07-30 14:47:46"
+"1604186432970760","Sherry","Ruan","664","1604186432970760","854518728062939","user_typing","True","2018-07-30 14:47:56"
+"1604186432970760","Sherry","Ruan","665","854518728062939","1604186432970760","BOT: message","I'm sorry, but that was incorrect. :disappointed_face:","2018-07-30 14:47:57"
+"1604186432970760","Sherry","Ruan","668","854518728062939","1604186432970760","BOT: quick reply","The correct answer is False.","2018-07-30 14:47:59"
+"1604186432970760","Sherry","Ruan","672","1604186432970760","854518728062939","user_quick_reply: NEXT_QUESTION","Next question :flexed_biceps_medium-light_skin_tone:","2018-07-30 14:48:02"
+"1604186432970760","Sherry","Ruan","674","854518728062939","1604186432970760","BOT: message","Let's take a look at this question.","2018-07-30 14:48:04"
+"1604186432970760","Sherry","Ruan","677","854518728062939","1604186432970760","BOT: message","Please type your answer in if you know it!","2018-07-30 14:48:05"
+"1604186432970760","Sherry","Ruan","680","854518728062939","1604186432970760","BOT: quick reply","What first aid should you give to someone who is having a heart attack?","2018-07-30 14:48:07"
+"1604186432970760","Sherry","Ruan","691","1604186432970760","854518728062939","user_quick_reply: NEED_HINT","I need a hint :thinking_face:","2018-07-30 14:48:17"
+"1604186432970760","Sherry","Ruan","693","854518728062939","1604186432970760","BOT: message","Okay. I'll give you some choices.","2018-07-30 14:48:19"
+"1604186432970760","Sherry","Ruan","695","854518728062939","1604186432970760","BOT: quick reply",":keycap_1: Call 911 or your local emergency number\n:keycap_2: Call 911, perform CPR, and loosen his/her clothing\n:keycap_3: Loosen his/her clothing\n:keycap_4: Perform CPR\n","2018-07-30 14:48:21"
+"1604186432970760","Sherry","Ruan","702","1604186432970760","854518728062939","user_quick_reply: BUTTON_DKB_Perform CPR",":keycap_4:","2018-07-30 14:48:25"
+"1604186432970760","Sherry","Ruan","704","854518728062939","1604186432970760","BOT: message","Hmm, that wasn't quite right. :disappointed_face:","2018-07-30 14:48:27"
+"1604186432970760","Sherry","Ruan","706","854518728062939","1604186432970760","BOT: quick reply","The correct answer is Call 911, perform CPR, and loosen his/her clothing.","2018-07-30 14:48:28"
+"1604186432970760","Sherry","Ruan","716","1604186432970760","854518728062939","user_quick_reply: NEXT_QUESTION","Next question :flexed_biceps_medium-light_skin_tone:","2018-07-30 14:48:36"
+"1604186432970760","Sherry","Ruan","718","854518728062939","1604186432970760","BOT: message","Let's try this question.","2018-07-30 14:48:38"
+"1604186432970760","Sherry","Ruan","720","854518728062939","1604186432970760","BOT: message","If you know the answer, you can type it in and I'll help you to evaluate the answer!","2018-07-30 14:48:39"
+"1604186432970760","Sherry","Ruan","724","854518728062939","1604186432970760","BOT: quick reply","True or false: portable fire extinguishers should only be used by trained employees.","2018-07-30 14:48:41"
+"1604186432970760","Sherry","Ruan","736","1604186432970760","854518728062939","user_typing","True","2018-07-30 14:48:49"
+"1604186432970760","Sherry","Ruan","739","854518728062939","1604186432970760","BOT: message","That’s right! :party_popper:","2018-07-30 14:48:51"
+"1604186432970760","Sherry","Ruan","741","854518728062939","1604186432970760","BOT: quick reply","The correct answer is True.","2018-07-30 14:48:52"
+"1604186432970760","Sherry","Ruan","745","1604186432970760","854518728062939","user_quick_reply: NEXT_QUESTION","Next question :flexed_biceps_medium-light_skin_tone:","2018-07-30 14:48:55"
+"1604186432970760","Sherry","Ruan","748","854518728062939","1604186432970760","BOT: message","See if you can answer this next one.","2018-07-30 14:48:57"
+"1604186432970760","Sherry","Ruan","752","854518728062939","1604186432970760","BOT: quick reply","To what does the acronym SLM refer?","2018-07-30 14:48:58"
+"1604186432970760","Sherry","Ruan","759","1604186432970760","854518728062939","user_quick_reply: NEED_HINT","I need a hint :thinking_face:","2018-07-30 14:49:04"
+"1604186432970760","Sherry","Ruan","763","854518728062939","1604186432970760","BOT: message","Pick one of the following answers.","2018-07-30 14:49:06"
+"1604186432970760","Sherry","Ruan","766","854518728062939","1604186432970760","BOT: quick reply",":keycap_1: Service Lifecycle Management\n:keycap_2: Sound Level Meter\n:keycap_3: System Level Monitor\n:keycap_4: Sound Loudness Methods\n","2018-07-30 14:49:07"
+"1604186432970760","Sherry","Ruan","772","1604186432970760","854518728062939","user_quick_reply: BUTTON_DKB_admonished",":keycap_3:","2018-07-30 14:49:16"
+"1604186432970760","Sherry","Ruan","774","854518728062939","1604186432970760","BOT: message","I'm sorry, but that was incorrect. :disappointed_face:","2018-07-30 14:49:18"
+"1604186432970760","Sherry","Ruan","776","854518728062939","1604186432970760","BOT: quick reply","The correct answer is Sound Level Meter.","2018-07-30 14:49:19"
+"1604186432970760","Sherry","Ruan","786","1604186432970760","854518728062939","user_quick_reply: NEXT_QUESTION","Next question :flexed_biceps_medium-light_skin_tone:","2018-07-30 14:49:26"
+"1604186432970760","Sherry","Ruan","788","854518728062939","1604186432970760","BOT: message","Let's see if you can answer this question.","2018-07-30 14:49:28"
+"1604186432970760","Sherry","Ruan","792","854518728062939","1604186432970760","BOT: message","Please type your answer in if you know it!","2018-07-30 14:49:29"
+"1604186432970760","Sherry","Ruan","794","854518728062939","1604186432970760","BOT: quick reply","Where should you aim a fire extinguisher nozzle when putting out a fire?","2018-07-30 14:49:31"
+"1604186432970760","Sherry","Ruan","798","1604186432970760","854518728062939","user_quick_reply: NEED_HINT","I need a hint :thinking_face:","2018-07-30 14:49:34"
+"1604186432970760","Sherry","Ruan","799","854518728062939","1604186432970760","BOT: message","It's one of the following choices.","2018-07-30 14:49:35"
+"1604186432970760","Sherry","Ruan","801","854518728062939","1604186432970760","BOT: quick reply",":keycap_1: At the top of the fire\n:keycap_2: At the center of the fire\n:keycap_3: Away from the fire\n:keycap_4: At the base of the fire\n","2018-07-30 14:49:37"
+"1604186432970760","Sherry","Ruan","811","1604186432970760","854518728062939","user_quick_reply: BUTTON_DKB_At the top of the fire",":keycap_1:","2018-07-30 14:49:43"
+"1604186432970760","Sherry","Ruan","812","854518728062939","1604186432970760","BOT: message","Hmm, that wasn't quite right. :disappointed_face:","2018-07-30 14:49:44"
+"1604186432970760","Sherry","Ruan","813","854518728062939","1604186432970760","BOT: quick reply","The correct answer is At the base of the fire.","2018-07-30 14:49:47"
+"1604186432970760","Sherry","Ruan","816","1604186432970760","854518728062939","user_quick_reply: NEXT_QUESTION","Next question :flexed_biceps_medium-light_skin_tone:","2018-07-30 14:49:53"
+"1604186432970760","Sherry","Ruan","820","854518728062939","1604186432970760","BOT: message","Could you answer this one for me?","2018-07-30 14:49:54"
+"1604186432970760","Sherry","Ruan","822","854518728062939","1604186432970760","BOT: quick reply","True or false: the primary function of a fire door is to exit a building in case of fire.","2018-07-30 14:49:56"
+"1604186432970760","Sherry","Ruan","823","1604186432970760","854518728062939","user_quick_reply: NEED_HINT","I need a hint :thinking_face:","2018-07-30 14:49:59"
+"1604186432970760","Sherry","Ruan","824","854518728062939","1604186432970760","BOT: message","Okay. I'll give you some choices.","2018-07-30 14:50:00"
+"1604186432970760","Sherry","Ruan","826","854518728062939","1604186432970760","BOT: quick reply",":keycap_1: False\n:keycap_2: True\n","2018-07-30 14:50:02"
+"1604186432970760","Sherry","Ruan","836","1604186432970760","854518728062939","user_quick_reply: BUTTON_DKB_proscribed",":keycap_5:","2018-07-30 14:50:08"
+"1604186432970760","Sherry","Ruan","838","854518728062939","1604186432970760","BOT: message","Hmm, that wasn't quite right. :disappointed_face:","2018-07-30 14:50:10"
+"1604186432970760","Sherry","Ruan","841","854518728062939","1604186432970760","BOT: quick reply","The correct answer is False.","2018-07-30 14:50:11"
+"1604186432970760","Sherry","Ruan","857","1604186432970760","854518728062939","persistent_menu: GET_INTRO_1","Get Started","2018-07-30 14:53:40"
+"1604186432970760","Sherry","Ruan","864","854518728062939","1604186432970760","BOT: image","https://www.smartprimer.org:443/pictures/avatar/quizbot_avatar.png","2018-07-30 14:53:44"
+"1604186432970760","Sherry","Ruan","869","854518728062939","1604186432970760","BOT: quick reply","Hi Sherry! My name is Frosty :penguin: and I’m here to help you learn all about science:microscope:, verbal reasoning (GRE) :input_latin_uppercase:, and safety:hammer_and_wrench:!","2018-07-30 14:53:45"
+"1604186432970760","Sherry","Ruan","883","1604186432970760","854518728062939","persistent_menu: ABOUT_QUIZBOT","About QuizBot :bookmark:","2018-07-30 15:05:32"
+"1604186432970760","Sherry","Ruan","884","854518728062939","1604186432970760","BOT: message","I'm Frosty :penguin: and I'm a QuizBot to help you learn about science:microscope:, verbal reasoning (GRE) :input_latin_uppercase:, and safety:hammer_and_wrench:.","2018-07-30 15:05:34"
+"1604186432970760","Sherry","Ruan","885","854518728062939","1604186432970760","BOT: message","I'm designed by a group of researchers from Stanford University Computer Science Department.","2018-07-30 15:05:35"
+"1604186432970760","Sherry","Ruan","886","854518728062939","1604186432970760","BOT: message","I'll use advanced question sequencing algorithms to tailor questions for your need and best your learning experience.","2018-07-30 15:05:37"
+"1604186432970760","Sherry","Ruan","887","854518728062939","1604186432970760","BOT: quick reply","I'll evaluate your typing answers carefully using advanced NLP technology to assist you remembering the knowledge!","2018-07-30 15:05:39"
+"1604186432970760","Sherry","Ruan","888","1604186432970760","854518728062939","user_quick_reply: GET_INTRO_2","Yes, continue :light_bulb:","2018-07-30 15:06:37"
+"1604186432970760","Sherry","Ruan","889","854518728062939","1604186432970760","BOT: message","Here’s how it works.","2018-07-30 15:06:39"
+"1604186432970760","Sherry","Ruan","890","854518728062939","1604186432970760","BOT: message","I ask you questions, and you give me answers.","2018-07-30 15:06:40"
+"1604186432970760","Sherry","Ruan","891","854518728062939","1604186432970760","BOT: quick reply","We will learn fun stuffs together!","2018-07-30 15:06:41"
+"1604186432970760","Sherry","Ruan","892","1604186432970760","854518728062939","user_quick_reply: GET_INTRO_3","Alright :oncoming_fist_medium-light_skin_tone:","2018-07-30 15:08:46"
+"1604186432970760","Sherry","Ruan","893","854518728062939","1604186432970760","BOT: image","https://www.smartprimer.org:443/pictures/user_manual/typeanswer.png","2018-07-30 15:08:50"
+"1604186432970760","Sherry","Ruan","894","854518728062939","1604186432970760","BOT: quick reply","To study the questions, you can type in your answers in the text field and QuizBot will evaluate the answers for you.","2018-07-30 15:08:51"
+"1604186432970760","Sherry","Ruan","895","1604186432970760","854518728062939","persistent_menu: GET_INTRO_1","Get Started","2018-07-30 15:08:58"
+"1604186432970760","Sherry","Ruan","896","854518728062939","1604186432970760","BOT: image","https://www.smartprimer.org:443/pictures/avatar/quizbot_avatar.png","2018-07-30 15:09:02"
+"1604186432970760","Sherry","Ruan","897","854518728062939","1604186432970760","BOT: quick reply","Hi Sherry! My name is Frosty :penguin: and I’m here to help you learn all about science:microscope:, verbal reasoning (GRE) :input_latin_uppercase:, and safety:hammer_and_wrench:!","2018-07-30 15:09:03"
+"1604186432970760","Sherry","Ruan","898","1604186432970760","854518728062939","user_quick_reply: GET_INTRO_2","Okay :clapping_hands_medium-light_skin_tone:","2018-07-30 15:09:07"
+"1604186432970760","Sherry","Ruan","899","854518728062939","1604186432970760","BOT: message","Here’s how it works.","2018-07-30 15:09:08"
+"1604186432970760","Sherry","Ruan","900","854518728062939","1604186432970760","BOT: message","I ask you questions, and you give me answers.","2018-07-30 15:09:10"
+"1604186432970760","Sherry","Ruan","901","854518728062939","1604186432970760","BOT: quick reply","We will learn fun things together!","2018-07-30 15:09:11"
+"1604186432970760","Sherry","Ruan","902","1604186432970760","854518728062939","user_quick_reply: GET_INTRO_3","Alrighty :thumbs_up_medium-light_skin_tone:","2018-07-30 15:09:17"
+"1604186432970760","Sherry","Ruan","903","854518728062939","1604186432970760","BOT: image","https://www.smartprimer.org:443/pictures/user_manual/typeanswer.png","2018-07-30 15:09:21"
+"1604186432970760","Sherry","Ruan","904","854518728062939","1604186432970760","BOT: quick reply","To study the questions, you can type in your answers in the text field and QuizBot will evaluate the answers for you.","2018-07-30 15:09:22"
+"1604186432970760","Sherry","Ruan","905","1604186432970760","854518728062939","user_quick_reply: GET_INTRO_4","Okay :oncoming_fist_medium-light_skin_tone:","2018-07-30 15:09:26"
+"1604186432970760","Sherry","Ruan","906","854518728062939","1604186432970760","BOT: image","https://www.smartprimer.org:443/pictures/user_manual/needhintbutton.png","2018-07-30 15:09:29"
+"1604186432970760","Sherry","Ruan","907","854518728062939","1604186432970760","BOT: image","https://www.smartprimer.org:443/pictures/user_manual/hintoptions.png","2018-07-30 15:09:32"
+"1604186432970760","Sherry","Ruan","908","854518728062939","1604186432970760","BOT: message","If you don't know the answers, then feel free to tap on the hint button.","2018-07-30 15:09:34"
+"1604186432970760","Sherry","Ruan","909","854518728062939","1604186432970760","BOT: quick reply","The hint will give you a list of potential answers and you can select one from them.","2018-07-30 15:09:35"
+"1604186432970760","Sherry","Ruan","971","854518728062939","1604186432970760","BOT: quick reply","Hi Sherry, you haven't talked to me for a while. Would you like to resume the learning with me?","2018-07-30 20:00:05"
+"1604186432970760","Sherry","Ruan","980","854518728062939","1604186432970760","BOT: message","Let's try this question.","2018-07-30 22:10:51"
+"1604186432970760","Sherry","Ruan","981","854518728062939","1604186432970760","BOT: message","Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:","2018-07-30 22:10:52"
+"1604186432970760","Sherry","Ruan","982","854518728062939","1604186432970760","BOT: quick reply","True or false: even when there are no signs of a fire, you should respond to every fire alarm as if it were real.","2018-07-30 22:10:54"
+"1604186432970760","Sherry","Ruan","983","1604186432970760","854518728062939","user_typing","I think it’s true","2018-07-30 22:11:15"
+"1604186432970760","Sherry","Ruan","984","854518728062939","1604186432970760","BOT: message","That wasn't quite what we were looking for.  :disappointed_face:","2018-07-30 22:11:17"
+"1604186432970760","Sherry","Ruan","985","854518728062939","1604186432970760","BOT: quick reply","The correct answer is True.","2018-07-30 22:11:18"
+"1604186432970760","Sherry","Ruan","986","1604186432970760","854518728062939","user_quick_reply: WHY","Why?","2018-07-30 22:11:56"
+"1604186432970760","Sherry","Ruan","987","854518728062939","1604186432970760","BOT: message","Here's why:","2018-07-30 22:11:58"
+"1604186432970760","Sherry","Ruan","988","854518728062939","1604186432970760","BOT: quick reply","Every fire alarm should receive the same reaction, regardless of whether there is actually a fire or not. Even when you do not see any signs of fire, you should take appropriate steps when an alarm is sounded. Moreover, all false alarms should be reported to the authorities.","2018-07-30 22:11:59"
+"1604186432970760","Sherry","Ruan","989","1604186432970760","854518728062939","user_quick_reply: NEXT_QUESTION","Next question :flexed_biceps:","2018-07-30 22:12:04"
+"1604186432970760","Sherry","Ruan","990","854518728062939","1604186432970760","BOT: message","See if you can answer this next one.","2018-07-30 22:12:06"
+"1604186432970760","Sherry","Ruan","991","854518728062939","1604186432970760","BOT: quick reply","True or false: wearing a back belt is a proven way to minimize the risk of back injury at work.","2018-07-30 22:12:07"
+"1604186432970760","Sherry","Ruan","992","1604186432970760","854518728062939","user_typing","True","2018-07-30 22:12:16"
+"1604186432970760","Sherry","Ruan","993","854518728062939","1604186432970760","BOT: message","Oops, that answer was incorrect.  :disappointed_face:","2018-07-30 22:12:18"
+"1604186432970760","Sherry","Ruan","994","854518728062939","1604186432970760","BOT: quick reply","The correct answer is False.","2018-07-30 22:12:19"
+"1604186432970760","Sherry","Ruan","995","1604186432970760","854518728062939","user_quick_reply: WHY","Why?","2018-07-30 22:12:23"
+"1604186432970760","Sherry","Ruan","996","854518728062939","1604186432970760","BOT: message","This is why:","2018-07-30 22:12:24"
+"1604186432970760","Sherry","Ruan","997","854518728062939","1604186432970760","BOT: quick reply","After two studies, the National Institute for Occupational Safety and Health has concluded that there isn't sufficient evidence which proves that back belts work as a preventative measure against back injuries.","2018-07-30 22:12:26"
+"1604186432970760","Sherry","Ruan","998","1604186432970760","854518728062939","user_quick_reply: NEXT_QUESTION","Next question :flexed_biceps:","2018-07-30 22:12:35"
+"1604186432970760","Sherry","Ruan","999","854518728062939","1604186432970760","BOT: message","See if you can answer this next one.","2018-07-30 22:12:36"
+"1604186432970760","Sherry","Ruan","1000","854518728062939","1604186432970760","BOT: quick reply","What should you NOT do during a fire emergency?","2018-07-30 22:12:38"
+"1604186432970760","Sherry","Ruan","1001","1604186432970760","854518728062939","user_typing","Take elevator","2018-07-30 22:12:50"
+"1604186432970760","Sherry","Ruan","1002","854518728062939","1604186432970760","BOT: message","Oops, that answer was incorrect.  :disappointed_face:","2018-07-30 22:12:52"
+"1604186432970760","Sherry","Ruan","1003","854518728062939","1604186432970760","BOT: quick reply","The correct answer is Re-enter the building without the permission of authorities.","2018-07-30 22:12:53"
+"1604186432970760","Sherry","Ruan","1004","1604186432970760","854518728062939","user_quick_reply: WHY","Why?","2018-07-30 22:13:01"
+"1604186432970760","Sherry","Ruan","1005","854518728062939","1604186432970760","BOT: message","Here's why:","2018-07-30 22:13:02"
+"1604186432970760","Sherry","Ruan","1006","854518728062939","1604186432970760","BOT: quick reply","According to the U.S. Fire Administration, you should not go back inside a burning building. Apart from the risk of burning, the increasingly depleted oxygen levels and high amount of toxic gases could pose a great hazard to your life. Leave the fire-fighting to the authorities, even if you know that someone is stuck inside the burning building.","2018-07-30 22:13:04"
+"1604186432970760","Sherry","Ruan","1007","1604186432970760","854518728062939","user_quick_reply: NEXT_QUESTION","Next question :flexed_biceps:","2018-07-30 22:14:02"
+"1604186432970760","Sherry","Ruan","1008","854518728062939","1604186432970760","BOT: message","I think you'll like this question.","2018-07-30 22:14:04"
+"1604186432970760","Sherry","Ruan","1009","854518728062939","1604186432970760","BOT: quick reply","True or false: even when there are no signs of a fire, you should respond to every fire alarm as if it were real.","2018-07-30 22:14:05"
+"1604186432970760","Sherry","Ruan","1010","1604186432970760","854518728062939","user_typing","Yes","2018-07-30 22:15:30"
+"1604186432970760","Sherry","Ruan","1011","854518728062939","1604186432970760","BOT: image","https://www.smartprimer.org:443/pictures/avatar/congrats/penguinnormal_normal_pink.png","2018-07-30 22:15:33"
+"1604186432970760","Sherry","Ruan","1012","854518728062939","1604186432970760","BOT: message","Nice! :red_apple:","2018-07-30 22:15:34"
+"1604186432970760","Sherry","Ruan","1013","854518728062939","1604186432970760","BOT: quick reply","The correct answer is True.","2018-07-30 22:15:36"
+"1604186432970760","Sherry","Ruan","1014","1604186432970760","854518728062939","user_quick_reply: NEXT_QUESTION","Next question :flexed_biceps_medium-light_skin_tone:","2018-07-30 22:16:46"
+"1604186432970760","Sherry","Ruan","1015","854518728062939","1604186432970760","BOT: message","Let's try this question.","2018-07-30 22:16:47"
+"1604186432970760","Sherry","Ruan","1016","854518728062939","1604186432970760","BOT: quick reply","True or false: when flooring cannot be changed to provide cushion, anti-fatigue mats can help ease discomfort to the feet and back.","2018-07-30 22:16:48"
+"1604186432970760","Sherry","Ruan","1017","1604186432970760","854518728062939","user_typing","True","2018-07-30 22:17:03"
+"1604186432970760","Sherry","Ruan","1018","854518728062939","1604186432970760","BOT: image","https://www.smartprimer.org:443/pictures/avatar/congrats/penguinnormal_jubilated_purple.png","2018-07-30 22:17:06"
+"1604186432970760","Sherry","Ruan","1019","854518728062939","1604186432970760","BOT: message","That’s right! :party_popper:","2018-07-30 22:17:08"
+"1604186432970760","Sherry","Ruan","1020","854518728062939","1604186432970760","BOT: quick reply","The correct answer is True.","2018-07-30 22:17:09"
+"1604186432970760","Sherry","Ruan","1021","1604186432970760","854518728062939","user_quick_reply: NEXT_QUESTION","Next question :flexed_biceps_medium-light_skin_tone:","2018-07-30 22:17:14"
+"1604186432970760","Sherry","Ruan","1022","854518728062939","1604186432970760","BOT: message","See if you can answer this next one.","2018-07-30 22:17:15"
+"1604186432970760","Sherry","Ruan","1023","854518728062939","1604186432970760","BOT: message","Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:","2018-07-30 22:17:17"
+"1604186432970760","Sherry","Ruan","1024","854518728062939","1604186432970760","BOT: quick reply","What should you NOT do while lifting objects?","2018-07-30 22:17:18"
+"1604186432970760","Sherry","Ruan","1025","1604186432970760","854518728062939","user_typing","Wear heels","2018-07-30 22:17:46"
+"1604186432970760","Sherry","Ruan","1026","854518728062939","1604186432970760","BOT: message","That's not quite right.  :disappointed_face:","2018-07-30 22:17:48"
+"1604186432970760","Sherry","Ruan","1027","854518728062939","1604186432970760","BOT: quick reply","The correct answer is Keep your feet together.","2018-07-30 22:17:49"
+"1604186432970760","Sherry","Ruan","1028","1604186432970760","854518728062939","user_quick_reply: WHY","Why?","2018-07-30 22:17:55"
+"1604186432970760","Sherry","Ruan","1029","854518728062939","1604186432970760","BOT: message","Here's why:","2018-07-30 22:17:56"
+"1604186432970760","Sherry","Ruan","1030","854518728062939","1604186432970760","BOT: quick reply","The AAOS lists its instructions for properly lifting a heavy object: plan ahead before lifting an object (decide in advance where the load will be placed after it has been lifted; the path in between where the load is kept and where it has to be placed should be free from obstacles), keep yourself close to the object you wish to lift, keep your feet shoulder-width apart (this gives you a solid base to support), bend at your knees, tighten the stomach muscles, lift the load with your leg muscles as you stand up (leg muscles are stronger than back muscles), and do not lift an object which is too heavy or has an awkward shape all alone (get help).","2018-07-30 22:17:58"
+"1604186432970760","Sherry","Ruan","1031","1604186432970760","854518728062939","user_quick_reply: NEXT_QUESTION","Next question :flexed_biceps:","2018-07-30 22:18:38"
+"1604186432970760","Sherry","Ruan","1032","854518728062939","1604186432970760","BOT: message","Would you answer this question for me?","2018-07-30 22:18:39"
+"1604186432970760","Sherry","Ruan","1033","854518728062939","1604186432970760","BOT: quick reply","Everyone is at a risk of contracting a food-borne illness. However, who are at a greater risk of falling ill or even dying of infection?","2018-07-30 22:18:41"
+"1604186432970760","Sherry","Ruan","1034","1604186432970760","854518728062939","persistent_menu: CHAT_WITH_ME","Chat with Me :penguin:","2018-07-30 22:18:46"
+"1604186432970760","Sherry","Ruan","1035","854518728062939","1604186432970760","BOT: quick reply","Would you like me to tell you something interesting?","2018-07-30 22:18:47"
+"1604186432970760","Sherry","Ruan","1036","1604186432970760","854518728062939","user_quick_reply: FUN_FACT_SCIENCE","Fun Fact :light_bulb:","2018-07-30 22:18:51"
+"1604186432970760","Sherry","Ruan","1037","854518728062939","1604186432970760","BOT: message","Here's one I thought might be fun.","2018-07-30 22:18:52"
+"1604186432970760","Sherry","Ruan","1038","854518728062939","1604186432970760","BOT: quick reply","Lasers can get trapped in a waterfall.","2018-07-30 22:18:54"
+"1604186432970760","Sherry","Ruan","1039","1604186432970760","854518728062939","user_quick_reply: FUN_FACT_SCIENCE","One More Fun Fact:light_bulb:","2018-07-30 22:19:03"
+"1604186432970760","Sherry","Ruan","1040","854518728062939","1604186432970760","BOT: message","Here is an interesting one.","2018-07-30 22:19:05"
+"1604186432970760","Sherry","Ruan","1041","854518728062939","1604186432970760","BOT: quick reply","The Stegosaurus dinosaur measured up to 30 feet (9.1 meters) long but had a brain the size of a walnut.","2018-07-30 22:19:07"
+"1604186432970760","Sherry","Ruan","1042","1604186432970760","854518728062939","user_quick_reply: JOKE","Joke :beaming_face_with_smiling_eyes:","2018-07-30 22:19:10"
+"1604186432970760","Sherry","Ruan","1043","854518728062939","1604186432970760","BOT: message","Here is an interesting one for you.","2018-07-30 22:19:12"
+"1604186432970760","Sherry","Ruan","1044","854518728062939","1604186432970760","BOT: quick reply","Q. I’m an odd number. If you take away one of the letters in my name, I become even. What number am I? A. Seven. (Take away the S!)","2018-07-30 22:19:13"
+"1604186432970760","Sherry","Ruan","1045","1604186432970760","854518728062939","user_quick_reply: NEXT_QUESTION","Continue Learning :flexed_biceps_medium-light_skin_tone:","2018-07-30 22:19:19"
+"1604186432970760","Sherry","Ruan","1046","854518728062939","1604186432970760","BOT: message","Let's see if you can get this one.","2018-07-30 22:19:21"
+"1604186432970760","Sherry","Ruan","1047","854518728062939","1604186432970760","BOT: message","Please type your answer in if you know it :smiling_face_with_smiling_eyes:","2018-07-30 22:19:22"
+"1604186432970760","Sherry","Ruan","1048","854518728062939","1604186432970760","BOT: quick reply","Where should you aim a fire extinguisher nozzle when putting out a fire?","2018-07-30 22:19:24"
+"1604186432970760","Sherry","Ruan","1049","1604186432970760","854518728062939","user_quick_reply: NEED_HINT","I need a hint :thinking_face:","2018-07-30 22:19:31"
+"1604186432970760","Sherry","Ruan","1050","854518728062939","1604186432970760","BOT: message","It's one of the following choices.","2018-07-30 22:19:33"
+"1604186432970760","Sherry","Ruan","1051","854518728062939","1604186432970760","BOT: quick reply",":keycap_1: At the top of the fire\n:keycap_2: Away from the fire\n:keycap_3: At the base of the fire\n:keycap_4: At the center of the fire\n","2018-07-30 22:19:34"
+"1604186432970760","Sherry","Ruan","1052","1604186432970760","854518728062939","user_quick_reply: BUTTON_AKB_At the base of the fire",":keycap_3:","2018-07-30 22:19:43"
+"1604186432970760","Sherry","Ruan","1053","854518728062939","1604186432970760","BOT: image","https://www.smartprimer.org:443/pictures/avatar/congrats/penguinnormal_happy_pink.png","2018-07-30 22:19:46"
+"1604186432970760","Sherry","Ruan","1054","854518728062939","1604186432970760","BOT: message","Great job getting the correct answer!","2018-07-30 22:19:48"
+"1604186432970760","Sherry","Ruan","1055","854518728062939","1604186432970760","BOT: quick reply","The correct answer is At the base of the fire.","2018-07-30 22:19:50"
+"1604186432970760","Sherry","Ruan","1056","1604186432970760","854518728062939","user_quick_reply: SWITCH_SUBJECT","Switch Subject :shuffle_tracks_button:","2018-07-30 22:20:26"
+"1604186432970760","Sherry","Ruan","1057","854518728062939","1604186432970760","BOT: quick reply","Cool, which subject would you like to study?:backhand_index_pointing_down_medium-light_skin_tone:","2018-07-30 22:20:28"
+"1604186432970760","Sherry","Ruan","1058","1604186432970760","854518728062939","user_quick_reply: GRE","GRE :input_latin_uppercase:","2018-07-30 22:20:36"
+"1604186432970760","Sherry","Ruan","1059","854518728062939","1604186432970760","BOT: image","https://www.smartprimer.org:443/pictures/avatar/evolvesafety_reading.gif","2018-07-30 22:20:40"
+"1604186432970760","Sherry","Ruan","1060","854518728062939","1604186432970760","BOT: quick reply","Awesome! Let's learn about the GRE!","2018-07-30 22:20:42"
+"1604186432970760","Sherry","Ruan","1061","1604186432970760","854518728062939","user_quick_reply: NEXT_QUESTION","Alrighty :clapping_hands_medium-light_skin_tone:","2018-07-30 22:20:45"
+"1604186432970760","Sherry","Ruan","1062","854518728062939","1604186432970760","BOT: message","Could you answer this one for me?","2018-07-30 22:20:47"
+"1604186432970760","Sherry","Ruan","1063","854518728062939","1604186432970760","BOT: message","Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:","2018-07-30 22:20:49"
+"1604186432970760","Sherry","Ruan","1064","854518728062939","1604186432970760","BOT: quick reply","Ancient generals, lacking modern technologies such as radio and satellite communication, often found that one of the most significant challenges in warfare was accurate _____ of the myriad of changes on the battlefield or in the campaign.","2018-07-30 22:20:51"
+"1604186432970760","Sherry","Ruan","1065","1604186432970760","854518728062939","user_quick_reply: NEED_HINT","I need a hint :thinking_face:","2018-07-30 22:20:55"
+"1604186432970760","Sherry","Ruan","1066","854518728062939","1604186432970760","BOT: message","Which of the following options is the right answer?","2018-07-30 22:20:57"
+"1604186432970760","Sherry","Ruan","1067","854518728062939","1604186432970760","BOT: quick reply",":keycap_1: accretion\n:keycap_2: appraisal\n:keycap_3: fortification\n:keycap_4: adumbration\n:keycap_5: adulteration\n","2018-07-30 22:20:58"
+"1604186432970760","Sherry","Ruan","1068","1604186432970760","854518728062939","user_quick_reply: BUTTON_DKB_adulteration",":keycap_5:","2018-07-30 22:21:03"
+"1604186432970760","Sherry","Ruan","1069","854518728062939","1604186432970760","BOT: message","Oops, that wasn't quite correct. :disappointed_face:","2018-07-30 22:21:05"
+"1604186432970760","Sherry","Ruan","1070","854518728062939","1604186432970760","BOT: quick reply","The correct answer is appraisal.","2018-07-30 22:21:06"
+"1604186432970760","Sherry","Ruan","1071","1604186432970760","854518728062939","user_quick_reply: WHY","Why?","2018-07-30 22:21:10"
+"1604186432970760","Sherry","Ruan","1072","854518728062939","1604186432970760","BOT: message","This is why:","2018-07-30 22:21:11"
+"1604186432970760","Sherry","Ruan","1073","854518728062939","1604186432970760","BOT: quick reply",":pushpin: Appraisal -- the classification of someone or something with respect to its worth\n:pushpin: Fortification -- defensive structure consisting of walls or mounds built around a stronghold to strengthen it\n:pushpin: Adulteration -- being mixed with extraneous material; the product of adulterating\n:pushpin: Accretion -- an increase by natural growth or addition\n:pushpin: Adumbration -- the act of providing vague advance indications; representing beforehand","2018-07-30 22:21:13"
+"1604186432970760","Sherry","Ruan","1074","1604186432970760","854518728062939","persistent_menu: REPORT_BUG","Report Bug :wrench:","2018-07-30 22:21:21"
+"1604186432970760","Sherry","Ruan","1075","854518728062939","1604186432970760","BOT: quick reply","Thanks for the feedback! I'll take a note of that!","2018-07-30 22:21:22"
+"1604186432970760","Sherry","Ruan","1076","1604186432970760","854518728062939","user_quick_reply: SWITCH_SUBJECT","Switch Subject :shuffle_tracks_button:","2018-07-30 22:21:29"
+"1604186432970760","Sherry","Ruan","1077","854518728062939","1604186432970760","BOT: quick reply","Okay, which subject would you like to choose?:backhand_index_pointing_down_medium-light_skin_tone:","2018-07-30 22:21:31"
+"1604186432970760","Sherry","Ruan","1078","1604186432970760","854518728062939","user_quick_reply: SCIENCE","Science:microscope:","2018-07-30 22:21:35"
+"1604186432970760","Sherry","Ruan","1080","854518728062939","1604186432970760","BOT: image","https://www.smartprimer.org:443/pictures/avatar/evolvereading_scientist.gif","2018-07-30 22:21:39"
+"1604186432970760","Sherry","Ruan","1081","854518728062939","1604186432970760","BOT: quick reply","All right! I’ll quiz you on science!","2018-07-30 22:21:41"
+"1604186432970760","Sherry","Ruan","1084","854518728062939","1604186432970760","BOT: message","Let's see if you can get this one.","2018-07-30 22:21:46"
+"1604186432970760","Sherry","Ruan","1085","854518728062939","1604186432970760","BOT: quick reply","All organisms can be classified into one of three of this least specific grouping?","2018-07-30 22:21:47"
+"1604186432970760","Sherry","Ruan","1101","1604186432970760","854518728062939","user_quick_reply: NEED_HINT","I need a hint :thinking_face:","2018-07-30 22:22:58"
+"1604186432970760","Sherry","Ruan","1102","854518728062939","1604186432970760","BOT: message","Okay. I'll give you some choices.","2018-07-30 22:23:00"
+"1604186432970760","Sherry","Ruan","1103","854518728062939","1604186432970760","BOT: quick reply",":keycap_1: domains\n:keycap_2: phlylum\n:keycap_3: species\n:keycap_4: aspects\n","2018-07-30 22:23:02"
+"1604186432970760","Sherry","Ruan","1104","1604186432970760","854518728062939","user_quick_reply: I_DONT_KNOW","I don’t know :downcast_face_with_sweat:","2018-07-30 22:23:24"
+"1604186432970760","Sherry","Ruan","1105","854518728062939","1604186432970760","BOT: quick reply","Are you sure you want to skip this question?","2018-07-30 22:23:26"
+"1604186432970760","Sherry","Ruan","1106","1604186432970760","854518728062939","user_quick_reply: GIVEUP_NO","No, I'll try again!","2018-07-30 22:23:31"
+"1604186432970760","Sherry","Ruan","1107","854518728062939","1604186432970760","BOT: message","Okay! Let's try again :flexed_biceps_medium-light_skin_tone: Tell me which of these is the right answer:","2018-07-30 22:23:33"
+"1604186432970760","Sherry","Ruan","1108","854518728062939","1604186432970760","BOT: message","Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:","2018-07-30 22:23:34"
+"1604186432970760","Sherry","Ruan","1109","854518728062939","1604186432970760","BOT: quick reply",":keycap_1: phlylum\n:keycap_2: domains\n:keycap_3: aspects\n:keycap_4: species\n","2018-07-30 22:23:35"
+"1604186432970760","Sherry","Ruan","1113","1604186432970760","854518728062939","user_quick_reply: I_DONT_KNOW","I don’t know :downcast_face_with_sweat:","2018-07-30 22:25:29"
+"1604186432970760","Sherry","Ruan","1115","854518728062939","1604186432970760","BOT: quick reply","Are you sure you want to give up?","2018-07-30 22:25:31"
+"1604186432970760","Sherry","Ruan","1119","1604186432970760","854518728062939","user_quick_reply: GIVEUP_NO","No, I'll try again!","2018-07-30 22:25:38"
+"1604186432970760","Sherry","Ruan","1121","854518728062939","1604186432970760","BOT: message","Alright! Let's do it again! Which of these is the answer?","2018-07-30 22:25:40"
+"1604186432970760","Sherry","Ruan","1123","854518728062939","1604186432970760","BOT: message","Pick one of the following answers.","2018-07-30 22:25:41"
+"1604186432970760","Sherry","Ruan","1124","854518728062939","1604186432970760","BOT: quick reply",":keycap_1: species\n:keycap_2: aspects\n:keycap_3: phlylum\n:keycap_4: domains\n","2018-07-30 22:25:43"
+"1604186432970760","Sherry","Ruan","1128","1604186432970760","854518728062939","user_quick_reply: BUTTON_AKB_domains",":keycap_4:","2018-07-30 22:25:47"
+"1604186432970760","Sherry","Ruan","1130","854518728062939","1604186432970760","BOT: image","https://www.smartprimer.org:443/pictures/avatar/congrats/penguinnormal_jubilated_pink.png","2018-07-30 22:25:50"
+"1604186432970760","Sherry","Ruan","1131","854518728062939","1604186432970760","BOT: message","Great! Keep it up! :flexed_biceps_medium-light_skin_tone:","2018-07-30 22:25:52"
+"1604186432970760","Sherry","Ruan","1132","854518728062939","1604186432970760","BOT: quick reply","The correct answer is domains.","2018-07-30 22:25:53"
+"1604186432970760","Sherry","Ruan","1133","1604186432970760","854518728062939","user_quick_reply: NEXT_QUESTION","Next question :flexed_biceps_medium-light_skin_tone:","2018-07-30 22:25:58"
+"1604186432970760","Sherry","Ruan","1134","854518728062939","1604186432970760","BOT: message","Would you answer this question for me?","2018-07-30 22:26:00"
+"1604186432970760","Sherry","Ruan","1135","854518728062939","1604186432970760","BOT: quick reply","Sensory nerves carry nerve impulses from sensory receptors to what system?","2018-07-30 22:26:01"
+"1604186432970760","Sherry","Ruan","1136","1604186432970760","854518728062939","user_quick_reply: I_DONT_KNOW","I don’t know :downcast_face_with_sweat:","2018-07-30 22:26:06"
+"1604186432970760","Sherry","Ruan","1137","854518728062939","1604186432970760","BOT: quick reply","Are you sure you want to skip answering?","2018-07-30 22:26:08"
+"1604186432970760","Sherry","Ruan","1138","1604186432970760","854518728062939","user_quick_reply: GIVEUP_NO","No, I'll try again!","2018-07-30 22:26:44"
+"1604186432970760","Sherry","Ruan","1139","854518728062939","1604186432970760","BOT: message","Sure, let's try this again! Which of the following is the correct answer?","2018-07-30 22:26:46"
+"1604186432970760","Sherry","Ruan","1140","854518728062939","1604186432970760","BOT: message","Pick one of the following answers.","2018-07-30 22:26:47"
+"1604186432970760","Sherry","Ruan","1141","854518728062939","1604186432970760","BOT: quick reply",":keycap_1: endocrine system\n:keycap_2: irculatory system\n:keycap_3: muscular system\n:keycap_4: central nervous system\n","2018-07-30 22:26:48"
+"1604186432970760","Sherry","Ruan","1142","1604186432970760","854518728062939","user_quick_reply: BUTTON_AKB_central nervous system",":keycap_4:","2018-07-30 22:26:52"
+"1604186432970760","Sherry","Ruan","1143","854518728062939","1604186432970760","BOT: message","Yes! You got the correct answer!","2018-07-30 22:26:54"
+"1604186432970760","Sherry","Ruan","1144","854518728062939","1604186432970760","BOT: quick reply","The correct answer is central nervous system.","2018-07-30 22:26:55"
+"1604186432970760","Sherry","Ruan","1145","1604186432970760","854518728062939","user_quick_reply: NEXT_QUESTION","Next question :flexed_biceps_medium-light_skin_tone:","2018-07-30 22:26:59"
+"1604186432970760","Sherry","Ruan","1146","854518728062939","1604186432970760","BOT: message","Let's try this one.","2018-07-30 22:27:01"
+"1604186432970760","Sherry","Ruan","1147","854518728062939","1604186432970760","BOT: message","If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:","2018-07-30 22:27:02"
+"1604186432970760","Sherry","Ruan","1148","854518728062939","1604186432970760","BOT: quick reply","Sensory nerves carry nerve impulses from sensory receptors to what system?","2018-07-30 22:27:03"
+"1604186432970760","Sherry","Ruan","1149","1604186432970760","854518728062939","user_quick_reply: I_DONT_KNOW","I don’t know :downcast_face_with_sweat:","2018-07-30 22:27:11"
+"1604186432970760","Sherry","Ruan","1150","854518728062939","1604186432970760","BOT: quick reply","Do you really want to skip this question?","2018-07-30 22:27:12"
+"1604186432970760","Sherry","Ruan","1151","1604186432970760","854518728062939","user_quick_reply: GIVEUP_YES","Yes, answer please.","2018-07-30 22:27:17"
+"1604186432970760","Sherry","Ruan","1152","854518728062939","1604186432970760","BOT: message","You didn't get it right this time.","2018-07-30 22:27:18"
+"1604186432970760","Sherry","Ruan","1153","854518728062939","1604186432970760","BOT: message","That's okay, you'll get it next time! :grinning_face_with_smiling_eyes:","2018-07-30 22:27:20"
+"1604186432970760","Sherry","Ruan","1154","854518728062939","1604186432970760","BOT: quick reply","The correct answer is central nervous system.","2018-07-30 22:27:21"
+"1604186432970760","Sherry","Ruan","1155","1604186432970760","854518728062939","user_quick_reply: NEXT_QUESTION","Next question :flexed_biceps_medium-light_skin_tone:","2018-07-30 22:27:27"
+"1604186432970760","Sherry","Ruan","1156","854518728062939","1604186432970760","BOT: message","I think you'll like this question.","2018-07-30 22:27:29"
+"1604186432970760","Sherry","Ruan","1157","854518728062939","1604186432970760","BOT: quick reply","What unit of measurement is defined to be the number of atoms in 12g of carbon-12?","2018-07-30 22:27:30"
+"1604186432970760","Sherry","Ruan","1158","1604186432970760","854518728062939","user_quick_reply: I_DONT_KNOW","I don’t know :downcast_face_with_sweat:","2018-07-30 22:27:37"
+"1604186432970760","Sherry","Ruan","1159","854518728062939","1604186432970760","BOT: quick reply","Are you sure you want to skip answering?","2018-07-30 22:27:38"
+"1604186432970760","Sherry","Ruan","1160","1604186432970760","854518728062939","user_quick_reply: GIVEUP_YES","Yes, answer please.","2018-07-30 22:27:42"
+"1604186432970760","Sherry","Ruan","1161","854518728062939","1604186432970760","BOT: message","You didn't get it right this time.","2018-07-30 22:27:43"
+"1604186432970760","Sherry","Ruan","1162","854518728062939","1604186432970760","BOT: message","Don't give up, you'll get it next time! :grinning_face_with_smiling_eyes:","2018-07-30 22:27:45"
+"1604186432970760","Sherry","Ruan","1163","854518728062939","1604186432970760","BOT: quick reply","The correct answer is one mole.","2018-07-30 22:27:46"
+"1604186432970760","Sherry","Ruan","1164","1604186432970760","854518728062939","user_quick_reply: SWITCH_SUBJECT","Switch Subject :shuffle_tracks_button:","2018-07-30 22:28:52"
+"1604186432970760","Sherry","Ruan","1165","854518728062939","1604186432970760","BOT: quick reply","Sure, which subject would you want to study?:backhand_index_pointing_down_medium-light_skin_tone:","2018-07-30 22:28:54"
+"1604186432970760","Sherry","Ruan","1166","1604186432970760","854518728062939","user_quick_reply: RANDOM","Random :game_die:","2018-07-30 22:28:58"
+"1604186432970760","Sherry","Ruan","1167","854518728062939","1604186432970760","BOT: image","https://www.smartprimer.org:443/pictures/avatar/evolvescientist_normal.gif","2018-07-30 22:29:03"
+"1604186432970760","Sherry","Ruan","1168","854518728062939","1604186432970760","BOT: quick reply","Okay! Let’s mix it up! :game_die:","2018-07-30 22:29:04"
+"1604186432970760","Sherry","Ruan","1169","1604186432970760","854518728062939","persistent_menu: ABOUT_QUIZBOT","About QuizBot :bookmark:","2018-07-30 22:29:30"
+"1604186432970760","Sherry","Ruan","1170","854518728062939","1604186432970760","BOT: message","I'm Frosty :penguin: and I'm a chatbot to help you learn about science:microscope:, verbal reasoning (GRE) :input_latin_uppercase:, and safety:hammer_and_wrench:.","2018-07-30 22:29:32"
+"1604186432970760","Sherry","Ruan","1171","854518728062939","1604186432970760","BOT: message","I'm designed by a group of researchers from Stanford University Computer Science Department.","2018-07-30 22:29:33"
+"1604186432970760","Sherry","Ruan","1172","854518728062939","1604186432970760","BOT: message","I'll use advanced question sequencing algorithms to tailor questions for your need and best your learning experience.","2018-07-30 22:29:34"
+"1604186432970760","Sherry","Ruan","1173","854518728062939","1604186432970760","BOT: quick reply","I'll evaluate your typing answers carefully using advanced NLP technology to assist you remembering the knowledge!","2018-07-30 22:29:36"
+"1604186432970760","Sherry","Ruan","1174","854518728062939","1604186432970760","BOT: quick reply","Good! Let's move on.","2018-07-30 22:30:40"
+"1604186432970760","Sherry","Ruan","1175","1604186432970760","854518728062939","user_quick_reply: NEXT_QUESTION","Got it :round_pushpin:","2018-07-30 22:34:06"
+"1604186432970760","Sherry","Ruan","1176","854518728062939","1604186432970760","BOT: message","How about this next one:","2018-07-30 22:34:08"
+"1604186432970760","Sherry","Ruan","1177","854518728062939","1604186432970760","BOT: message","Please type your answer in if you know it :smiling_face_with_smiling_eyes:","2018-07-30 22:34:09"
+"1604186432970760","Sherry","Ruan","1178","854518728062939","1604186432970760","BOT: quick reply","Temperature, water, soil, and air are examples of nonliving factors of an ecosystem, also termed what?","2018-07-30 22:34:11"
+"1604186432970760","Sherry","Ruan","1179","1604186432970760","854518728062939","user_quick_reply: NEED_HINT","I need a hint :thinking_face:","2018-07-30 22:34:26"
+"1604186432970760","Sherry","Ruan","1180","854518728062939","1604186432970760","BOT: message","Okay. I'll give you some choices.","2018-07-30 22:34:28"
+"1604186432970760","Sherry","Ruan","1181","854518728062939","1604186432970760","BOT: quick reply",":keycap_1: conditional factors\n:keycap_2: nucleic factors\n:keycap_3: abiotic factors\n:keycap_4: diverse factors\n","2018-07-30 22:34:29"
+"1604186432970760","Sherry","Ruan","1182","1604186432970760","854518728062939","user_quick_reply: BUTTON_DKB_diverse factors",":keycap_4:","2018-07-30 22:34:33"
+"1604186432970760","Sherry","Ruan","1183","854518728062939","1604186432970760","BOT: message","Hmm, that wasn't quite right. :disappointed_face:","2018-07-30 22:34:35"
+"1604186432970760","Sherry","Ruan","1184","854518728062939","1604186432970760","BOT: quick reply","The correct answer is abiotic factors.","2018-07-30 22:34:36"
+"1604186432970760","Sherry","Ruan","1185","1604186432970760","854518728062939","user_quick_reply: NEXT_QUESTION","Next question :flexed_biceps_medium-light_skin_tone:","2018-07-30 22:34:45"
+"1604186432970760","Sherry","Ruan","1186","854518728062939","1604186432970760","BOT: message","Could you answer this one for me?","2018-07-30 22:34:47"
+"1604186432970760","Sherry","Ruan","1187","854518728062939","1604186432970760","BOT: quick reply","How can employers help lower the rate of pesticide exposure?","2018-07-30 22:34:49"
+"1604186432970760","Sherry","Ruan","1188","1604186432970760","854518728062939","user_quick_reply: NEED_HINT","I need a hint :thinking_face:","2018-07-30 22:34:55"
+"1604186432970760","Sherry","Ruan","1189","854518728062939","1604186432970760","BOT: message","Which of the following options is the right answer?","2018-07-30 22:34:57"
+"1604186432970760","Sherry","Ruan","1190","854518728062939","1604186432970760","BOT: quick reply",":keycap_1: By not letting workers know that they are working with toxic chemicals\n:keycap_2: By letting workers learn about the risks on the job\n:keycap_3: Through comprehensive training on each chemical and educating workers about their rights\n:keycap_4: Through short training sessions every 5 years\n","2018-07-30 22:34:58"
+"1604186432970760","Sherry","Ruan","1191","1604186432970760","854518728062939","user_quick_reply: BUTTON_DKB_Through short training sessions every 5 years",":keycap_4:","2018-07-30 22:35:06"
+"1604186432970760","Sherry","Ruan","1192","854518728062939","1604186432970760","BOT: message","That's not quite right. :disappointed_face:","2018-07-30 22:35:07"
+"1604186432970760","Sherry","Ruan","1193","854518728062939","1604186432970760","BOT: quick reply","The correct answer is Through comprehensive training on each chemical and educating workers about their rights.","2018-07-30 22:35:09"
+"1604186432970760","Sherry","Ruan","1194","1604186432970760","854518728062939","user_quick_reply: SWITCH_SUBJECT","Switch Subject :shuffle_tracks_button:","2018-07-30 22:35:12"
+"1604186432970760","Sherry","Ruan","1195","854518728062939","1604186432970760","BOT: quick reply","Cool, which subject do you want to study?:backhand_index_pointing_down_medium-light_skin_tone:","2018-07-30 22:35:14"
+"1604186432970760","Sherry","Ruan","1196","1604186432970760","854518728062939","user_quick_reply: SCIENCE","Science:microscope:","2018-07-30 22:35:19"
+"1604186432970760","Sherry","Ruan","1197","854518728062939","1604186432970760","BOT: image","https://www.smartprimer.org:443/pictures/avatar/evolvenormal_scientist.gif","2018-07-30 22:35:23"
+"1604186432970760","Sherry","Ruan","1198","854518728062939","1604186432970760","BOT: quick reply","Awesome! Here are some questions on science!","2018-07-30 22:35:25"
+"1604186432970760","Sherry","Ruan","1199","854518728062939","1604186432970760","BOT: quick reply","If you have any questions, please contact the Protocol Director, Sherry Ruan at ssruan@stanford.edu, or Liwei Jiang at ljiang@colby.edu.","2018-07-30 22:35:25"
+"1604186432970760","Sherry","Ruan","1200","1604186432970760","854518728062939","user_quick_reply: CONTINUE","Next :collision:","2018-07-30 22:35:39"
+"1604186432970760","Sherry","Ruan","1201","854518728062939","1604186432970760","BOT: quick reply","Let's continue with the next question.","2018-07-30 22:35:40"
+"1604186432970760","Sherry","Ruan","1202","1604186432970760","854518728062939","user_quick_reply: NEXT_QUESTION","Alright :white_heavy_check_mark:","2018-07-30 22:36:22"
+"1604186432970760","Sherry","Ruan","1203","854518728062939","1604186432970760","BOT: message","Could you answer this one for me?","2018-07-30 22:36:23"
+"1604186432970760","Sherry","Ruan","1204","854518728062939","1604186432970760","BOT: quick reply","The sternocleidomastoid is the major muscle that laterally flexes and rotates what?","2018-07-30 22:36:25"
+"1604186432970760","Sherry","Ruan","1205","1604186432970760","854518728062939","persistent_menu: USER_MANUAL_1","User Manual :woman_technologist_light_skin_tone::man_technologist_light_skin_tone:","2018-07-30 22:36:31"
+"1604186432970760","Sherry","Ruan","1206","854518728062939","1604186432970760","BOT: image","https://www.smartprimer.org:443/pictures/user_manual/typeanswer.png","2018-07-30 22:36:35"
+"1604186432970760","Sherry","Ruan","1207","854518728062939","1604186432970760","BOT: quick reply","To study the questions, you can type in your answers in the text field and I will evaluate the answers for you using advanced NLP (Natural Language Processing) technology.","2018-07-30 22:36:36"
+"1604186432970760","Sherry","Ruan","1208","1604186432970760","854518728062939","user_quick_reply: USER_MANUAL_2","Continue :raising_hands_medium-light_skin_tone:","2018-07-30 22:36:45"
+"1604186432970760","Sherry","Ruan","1209","854518728062939","1604186432970760","BOT: image","https://www.smartprimer.org:443/pictures/user_manual/needhintbutton.png","2018-07-30 22:36:49"
+"1604186432970760","Sherry","Ruan","1210","854518728062939","1604186432970760","BOT: image","https://www.smartprimer.org:443/pictures/user_manual/hintoptions.png","2018-07-30 22:36:52"
+"1604186432970760","Sherry","Ruan","1211","854518728062939","1604186432970760","BOT: message","If you don't know the answers, then feel free to tap on the hint button.","2018-07-30 22:36:54"
+"1604186432970760","Sherry","Ruan","1212","854518728062939","1604186432970760","BOT: quick reply","The hint will give you a list of potential answers and you can select one from them.","2018-07-30 22:36:55"
+"1604186432970760","Sherry","Ruan","1213","1604186432970760","854518728062939","user_quick_reply: USER_MANUAL_3","Continue :round_pushpin:","2018-07-30 22:38:20"
+"1604186432970760","Sherry","Ruan","1214","854518728062939","1604186432970760","BOT: image","https://www.smartprimer.org:443/pictures/user_manual/menubutton.jpg","2018-07-30 22:38:23"
+"1604186432970760","Sherry","Ruan","1215","854518728062939","1604186432970760","BOT: quick reply","To discover more abilities of me, you can click on the menu button.:backhand_index_pointing_up_medium-light_skin_tone:","2018-07-30 22:38:24"
+"1604186432970760","Sherry","Ruan","1216","1604186432970760","854518728062939","user_quick_reply: USER_MANUAL_4","I see :flexed_biceps_medium-light_skin_tone:","2018-07-30 22:38:29"
+"1604186432970760","Sherry","Ruan","1217","854518728062939","1604186432970760","BOT: image","https://www.smartprimer.org:443/pictures/user_manual/changesubjects_1.jpg","2018-07-30 22:38:32"
+"1604186432970760","Sherry","Ruan","1218","854518728062939","1604186432970760","BOT: image","https://www.smartprimer.org:443/pictures/user_manual/changesubjects_2.jpg","2018-07-30 22:38:35"
+"1604186432970760","Sherry","Ruan","1219","854518728062939","1604186432970760","BOT: quick reply","You can change the subjects from the menu! :shuffle_tracks_button:","2018-07-30 22:38:37"
+"1604186432970760","Sherry","Ruan","1220","1604186432970760","854518728062939","user_quick_reply: USER_MANUAL_5","Alright :white_heavy_check_mark:","2018-07-30 22:40:36"
+"1604186432970760","Sherry","Ruan","1221","854518728062939","1604186432970760","BOT: image","https://www.smartprimer.org:443/pictures/user_manual/chatwithme.png","2018-07-30 22:40:39"
+"1604186432970760","Sherry","Ruan","1222","854518728062939","1604186432970760","BOT: quick reply","You can hear jokes from me by clicking the Chat with Me button. :penguin:","2018-07-30 22:40:40"
+"1604186432970760","Sherry","Ruan","1223","1604186432970760","854518728062939","user_quick_reply: USER_MANUAL_6","Yes, continue :light_bulb:","2018-07-30 22:41:50"
+"1604186432970760","Sherry","Ruan","1224","854518728062939","1604186432970760","BOT: image","https://www.smartprimer.org:443/pictures/user_manual/morebutton.png","2018-07-30 22:41:53"
+"1604186432970760","Sherry","Ruan","1225","854518728062939","1604186432970760","BOT: quick reply","To look for other informations, you can click on the more button in the menu.:round_pushpin:","2018-07-30 22:41:55"
+"1604186432970760","Sherry","Ruan","1226","1604186432970760","854518728062939","user_quick_reply: USER_MANUAL_7","I see :flexed_biceps_medium-light_skin_tone:","2018-07-30 22:42:33"
+"1604186432970760","Sherry","Ruan","1227","854518728062939","1604186432970760","BOT: quick reply","Okay, you are all set! :party_popper:","2018-07-30 22:42:34"
+"1604186432970760","Sherry","Ruan","1228","1604186432970760","854518728062939","user_quick_reply: NEXT_QUESTION","Okay :backhand_index_pointing_right_medium-light_skin_tone:","2018-07-30 22:43:51"
+"1604186432970760","Sherry","Ruan","1229","854518728062939","1604186432970760","BOT: message","Let's try this one.","2018-07-30 22:43:53"
+"1604186432970760","Sherry","Ruan","1230","854518728062939","1604186432970760","BOT: message","If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:","2018-07-30 22:43:54"
+"1604186432970760","Sherry","Ruan","1231","854518728062939","1604186432970760","BOT: quick reply","What living species of bird is considered the largest of the raptors?","2018-07-30 22:43:56"
+"1604186432970760","Sherry","Ruan","1232","1604186432970760","854518728062939","user_quick_reply: NEED_HINT","I need a hint :thinking_face:","2018-07-30 22:49:05"
+"1604186432970760","Sherry","Ruan","1233","854518728062939","1604186432970760","BOT: message","Alrighty, which of the following options is the answer of the question?","2018-07-30 22:49:07"
+"1604186432970760","Sherry","Ruan","1234","854518728062939","1604186432970760","BOT: quick reply",":keycap_1: golden eagles\n:keycap_2: pterodactyl\n:keycap_3: peregrine falcon\n:keycap_4: California condor\n","2018-07-30 22:49:08"
+"1604186432970760","Sherry","Ruan","1235","1604186432970760","854518728062939","user_quick_reply: BUTTON_DKB_California condor",":keycap_4:","2018-07-30 22:49:14"
+"1604186432970760","Sherry","Ruan","1236","854518728062939","1604186432970760","BOT: message","That's not quite right. :disappointed_face:","2018-07-30 22:49:16"
+"1604186432970760","Sherry","Ruan","1237","854518728062939","1604186432970760","BOT: quick reply","The correct answer is golden eagles.","2018-07-30 22:49:17"
+"1604186432970760","Sherry","Ruan","1238","1604186432970760","854518728062939","user_quick_reply: NEXT_QUESTION","Next question :flexed_biceps_medium-light_skin_tone:","2018-07-30 22:49:22"
+"1604186432970760","Sherry","Ruan","1239","854518728062939","1604186432970760","BOT: message","Let's see if you can answer this question.","2018-07-30 22:49:24"
+"1604186432970760","Sherry","Ruan","1240","854518728062939","1604186432970760","BOT: quick reply","All organisms can be classified into one of three of this least specific grouping?","2018-07-30 22:49:25"
+"1604186432970760","Sherry","Ruan","1241","1604186432970760","854518728062939","user_quick_reply: NEED_HINT","I need a hint :thinking_face:","2018-07-30 22:49:33"
+"1604186432970760","Sherry","Ruan","1242","854518728062939","1604186432970760","BOT: message","Okay. I'll give you some choices.","2018-07-30 22:49:34"
+"1604186432970760","Sherry","Ruan","1243","854518728062939","1604186432970760","BOT: quick reply",":keycap_1: aspects\n:keycap_2: phlylum\n:keycap_3: domains\n:keycap_4: species\n","2018-07-30 22:49:36"
+"1604186432970760","Sherry","Ruan","1244","1604186432970760","854518728062939","user_quick_reply: I_DONT_KNOW","I don’t know :downcast_face_with_sweat:","2018-07-30 22:51:31"
+"1604186432970760","Sherry","Ruan","1245","854518728062939","1604186432970760","BOT: quick reply","Are you sure you want to skip this question?","2018-07-30 22:51:32"
+"1604186432970760","Sherry","Ruan","1246","1604186432970760","854518728062939","user_quick_reply: GIVEUP_YES","Yes, answer please.","2018-07-30 22:51:36"
+"1604186432970760","Sherry","Ruan","1247","854518728062939","1604186432970760","BOT: message","You didn't get it right this time.","2018-07-30 22:51:37"
+"1604186432970760","Sherry","Ruan","1248","854518728062939","1604186432970760","BOT: message","That's okay, you'll get it next time! :grinning_face_with_smiling_eyes:","2018-07-30 22:51:39"
+"1604186432970760","Sherry","Ruan","1249","854518728062939","1604186432970760","BOT: quick reply","The correct answer is domains.","2018-07-30 22:51:40"
+"1604186432970760","Sherry","Ruan","1250","1604186432970760","854518728062939","user_quick_reply: SWITCH_SUBJECT","Switch Subject :shuffle_tracks_button:","2018-07-30 22:51:52"
+"1604186432970760","Sherry","Ruan","1251","854518728062939","1604186432970760","BOT: quick reply","Sure, now tell me which subject you would like to choose.:backhand_index_pointing_down_medium-light_skin_tone:","2018-07-30 22:51:54"
+"1604186432970760","Sherry","Ruan","1252","1604186432970760","854518728062939","persistent_menu: CHAT_WITH_ME","Chat with Me :penguin:","2018-07-30 22:52:09"
+"1604186432970760","Sherry","Ruan","1253","854518728062939","1604186432970760","BOT: quick reply","Would you want me to tell you something interesting?","2018-07-30 22:52:10"
+"1604186432970760","Sherry","Ruan","1254","1604186432970760","854518728062939","user_quick_reply: FUN_FACT_SCIENCE","Fun Fact :light_bulb:","2018-07-30 22:52:14"
+"1604186432970760","Sherry","Ruan","1255","854518728062939","1604186432970760","BOT: message","Here is an interesting one.","2018-07-30 22:52:16"
+"1604186432970760","Sherry","Ruan","1256","854518728062939","1604186432970760","BOT: quick reply","The poison arrow frogs of South and Central America are the most poisonous animals in the world.","2018-07-30 22:52:17"
+"1604186432970760","Sherry","Ruan","1257","1604186432970760","854518728062939","user_quick_reply: FUN_FACT_SCIENCE","Another Fun Fact:light_bulb:","2018-07-30 22:52:21"
+"1604186432970760","Sherry","Ruan","1258","854518728062939","1604186432970760","BOT: message","Here is a good one.","2018-07-30 22:52:23"
+"1604186432970760","Sherry","Ruan","1259","854518728062939","1604186432970760","BOT: quick reply","The first coast-to-coast telephone line was established in 1914.","2018-07-30 22:52:24"
+"1604186432970760","Sherry","Ruan","1260","1604186432970760","854518728062939","user_quick_reply: FUN_FACT_SCIENCE","Another Fun Fact:light_bulb:","2018-07-30 22:52:28"
+"1604186432970760","Sherry","Ruan","1261","854518728062939","1604186432970760","BOT: message","Here's one I thought might be fun.","2018-07-30 22:52:29"
+"1604186432970760","Sherry","Ruan","1262","854518728062939","1604186432970760","BOT: quick reply","Shrimp's hearts are in their heads.","2018-07-30 22:52:31"
+"1604186432970760","Sherry","Ruan","1263","1604186432970760","854518728062939","user_quick_reply: FUN_FACT_SCIENCE","Another Fun Fact:light_bulb:","2018-07-30 22:56:16"
+"1604186432970760","Sherry","Ruan","1264","854518728062939","1604186432970760","BOT: message","Here is a good one.","2018-07-30 22:56:17"
+"1604186432970760","Sherry","Ruan","1265","854518728062939","1604186432970760","BOT: quick reply","The smallest bone in the human body is the stapes or stirrup bone located in the middle ear. It is approximately .11 inches (.28 cm) long.","2018-07-30 22:56:19"
+"1604186432970760","Sherry","Ruan","1434","1604186432970760","854518728062939","persistent_menu: ABOUT_QUIZBOT","About QuizBot :bookmark:","2018-07-31 11:05:18"
+"1604186432970760","Sherry","Ruan","2025","854518728062939","1604186432970760","BOT: quick reply","Hi Sherry, you haven't talked to me for a while. Would you like to resume the learning with me?","2018-07-31 20:00:05"
+"1604186432970760","Sherry","Ruan","2155","1604186432970760","854518728062939","user_quick_reply: NEXT_QUESTION","I see :thumbs_up_medium-light_skin_tone:","2018-08-01 10:52:49"
+"1604186432970760","Sherry","Ruan","2156","854518728062939","1604186432970760","BOT: message","Here's a question for you:","2018-08-01 10:52:51"
+"1604186432970760","Sherry","Ruan","2157","854518728062939","1604186432970760","BOT: quick reply","The lithosphere is divided into a dozen major and several minor what?","2018-08-01 10:52:53"
+"1604186432970760","Sherry","Ruan","2321","854518728062939","1604186432970760","BOT: quick reply","Hi Sherry, you haven't talked to me for a while. Would you like to resume the learning with me?","2018-08-01 20:00:15"
