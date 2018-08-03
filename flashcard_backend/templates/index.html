@@ -95,10 +95,8 @@
         <div class="modal fade" id="userModal" tabindex="-1" role="dialog" aria-labelledby="userModal" aria-hidden="true">
             <div class="modal-dialog" role="document">
                 <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">Set User Name</h5>
-                    </div>
                     <div id="explanation" class="modal-body">
+                        <h5 class="modal-title" id="exampleModalLabel">Set User Name</h5>
                         <p>Hi, we are a group of researchers from Stanford University Computer Science Department. </p>
                         <p>This is the name used to collect data about your flashcard app usage. Your data will only be used for research purposes.</p>
                         <form>
@@ -109,6 +107,10 @@
                                 <input class="form-control" id="lastname" placeholder="Last name" />
                             </div>
                         </form>
+                    </div>
+                    <div id="user_manual" class="modal-body">
+                        <h5 class="modal-title" id="exampleModalLabel">User Manual</h5>
+                        <p>Based on your self-assessment regarding each question, you can click on the "Got it" or the "I don't know" button. "Hint" shows you the hint regarding each question. "Explanation" will explain the answers.</p>
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-sm btn-outline-success" data-dismiss="modal" onclick="save()">save</button>
