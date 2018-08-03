@@ -93,11 +93,11 @@ class DASHSequencingModel(BaseSequencingModel):
         # set current item 
         self.curr_item[user_id] = QID
 
-        data = {'question' : self.QA_KB.QKB[QID],
-                'qid' : QID,
+        data = {'question': self.QA_KB.QKB[QID],
+                'qid': QID,
                 'correct_answer': self.QA_KB.AKB[QID],
-                'support' : self.QA_KB.SKB[QID],
-                'distractor' : self.QA_KB.DKB[QID]}
+                'support': self.QA_KB.SKB[QID],
+                'distractor': self.QA_KB.DKB[QID]}
 
         return data
  
@@ -124,11 +124,11 @@ class DASHSequencingModel(BaseSequencingModel):
 
         QID = self.curr_item[user_id]
 
-        data = {'question' : self.QA_KB.QKB[QID],
-                'qid' : QID,
+        data = {'question': self.QA_KB.QKB[QID],
+                'qid': QID,
                 'correct_answer': self.QA_KB.AKB[QID],
-                'support' : self.QA_KB.SKB[QID],
-                'distractor' : self.QA_KB.DKB[QID]}
+                'support': self.QA_KB.SKB[QID],
+                'distractor': self.QA_KB.DKB[QID]}
 
         return data
 
@@ -169,3 +169,4 @@ class DASHSequencingModel(BaseSequencingModel):
     def loadUserData(self, user_id, user_history_data):
         for user_data in user_history_data:
             self.updateHistory(user_id, user_data)
+            

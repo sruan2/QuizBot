@@ -10,8 +10,9 @@ from flask import jsonify
 from flask_mysqldb import MySQL
 import database
 from random_model import RandomSequencingModel
+from dash_model import DASHSequencingModel
 from QAKnowledgebase import QAKnowlegeBase
-
+from time import strftime, localtime, sleep
 
 app = Flask(__name__)
 app.config['SEND_FILE_MAX_AGE_DEFAULT'] = 0
@@ -28,7 +29,6 @@ mysql.init_app(app)
 json_file = '../QAdataset/questions_filtered_150_quizbot.json'
 qa_kb = QAKnowlegeBase(json_file)
 model = RandomSequencingModel(qa_kb)
-
 
 @app.route('/')
 def index():
@@ -68,8 +68,10 @@ def verify():
 @app.route('/logdata', methods=['POST'])
 def webhook():
     data=json.loads(request.data.decode("utf-8"))
+    print(data)
+
     sender_id = data['user_id']
-    qid = 0
+    qid = data['qid']
     user_action = data['event']
 
     if not int(sender_id) in database.show_user_id_list_flashcard(mysql):
@@ -81,10 +83,12 @@ def webhook():
     database.insert_user_action_flashcard(mysql, sender_id, qid, user_action)
 
     # send user feedback to the question sequencing model
-    if user_action == 'GOT IT':
-        model.updateHistory(1)
-    elif user_action == 'NOT GOT IT':
-        model.updateHistory(0)
+    if user_action == 'got it':
+        timestamp = strftime("%Y-%m-%d %H:%M:%S", localtime())
+        model.updateHistory(sender_id, (qid, 1, timestamp))
+    elif user_action == "I don't know":
+        timestamp = strftime("%Y-%m-%d %H:%M:%S", localtime())
+        model.updateHistory(sender_id, (qid, 0, timestamp))
 
     print("[FLASHCARD] PID " + str(os.getpid())+": Record FLASHCARD user action successfully")
     return "ok", 200

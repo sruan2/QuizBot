@@ -150,7 +150,12 @@ def show_users_newly_added(mysql):
     date_format_sql = "%Y-%m-%d %H:%i:%s"
     current_datetime = strftime(date_format_time, localtime())
 
-    cur = mysql.connection.cursor()
+
+    con = mysql.connection
+    if con == None:
+        con = MySQLdb.connect(db=os.environ["DB"], user=os.environ["DB_USER"],
+                              passwd=os.environ["DB_PASSWORD"], host=os.environ["DB_HOST"])
+    cur = con.cursor()
     cur.execute("SELECT user_id, user_firstname, reg_time FROM user;")
 
     rows = cur.fetchall()
