@@ -1,0 +1,110 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+This is an [R Markdown](http://rmarkdown.rstudio.com) Notebook. When you execute code within the notebook, the results appear beneath the code. 
+
+Try executing this chunk by clicking the *Run* button within the chunk or by placing your cursor inside it and pressing *Cmd+Shift+Enter*. 
+
+```{r} 
+# Tutorial: 
+# http://www.sthda.com/english/wiki/paired-samples-t-test-in-r
+# https://www.r-bloggers.com/paired-students-t-test/
+# https://suinotes.wordpress.com/2009/11/30/understanding-t-test-in-r/
+```
+```{r}
+library("ggplot2")
+```
+
+```{r}
+# Prolific (July)
+score_A = c(24,34,30,40,34,29,20,26,46,45,30,26,20,23,25,23,27)
+score_B = c(22,26,21,41,24,26,20,24,42,40,29,20,21,13,18,21,29)
+
+score_A = score_A[1:10]
+score_B = score_B[1:10]
+
+my_data <- data.frame(group = rep(c("score_A", "score_B"), each = 10),
+                      score = c(score_A,  score_B))
+boxplot(score ~ group, data = my_data, col = c("lightyellow", "lightblue"))
+
+score_diffs = score_B - score_A
+hist(score_diffs, breaks=3)
+
+shapiro.test(score_diffs)
+t.test(score_A, score_B, paired = TRUE)
+
+# Effect size
+library(lsr)
+cohensD(score ~ group, 
+        data   = my_data,
+        method = "paired")
+
+# Power analysis
+library(pwr)
+pwr.t.test(n = 10, d = 1.12, sig.level = 0.05, type = "paired")
+```
+
+```{r}
+# MTURK 1 (Aug 1)
+score_A = c(36, 31, 29, 25, 23, 18, 38, 18)
+score_B = c(31, 23, 28, 24, 19, 23, 36, 17)
+
+my_data <- data.frame(group = rep(c("score_A", "score_B"), each = 8),
+                      score = c(score_A,  score_B))
+boxplot(score ~ group, data = my_data, col = c("lightyellow", "lightblue"))
+
+score_diffs = score_B - score_A
+hist(score_diffs, breaks=3)
+shapiro.test(score_diffs)
+t.test(score_A, score_B, paired = TRUE)
+# at 95% confidence level, there is no significant difference (p-value = 0.1574) of the two means
+
+# Effect size
+# http://rcompanion.org/handbook/I_04.html
+library(lsr)
+cohensD(score ~ group, 
+       data   = my_data,
+       method = "paired")
+
+# Power analysis
+# https://www.statmethods.net/stats/power.html
+library(pwr)
+pwr.t.test(n = 6, d = 0.56, sig.level = 0.05, type = "paired")
+pwr.t.test(d = 0.56, sig.level = 0.05, power = 0.8, type = "paired")
+```
+
+```{r}
+# MTURK 2 (Aug 5)
+score_A = c(30,39,24,12,32,23,39,26,34,22,16,32,28,47,23,21,24)
+score_B = c(26,34,18,14,29,25,34,22,31,24,19,32,20,46,20,19,27)
+
+score_A = score_A[1:15]
+score_B = score_B[1:15]
+length(score_A)
+
+score_diffs = score_B - score_A
+hist(score_diffs)
+
+# Create a data frame
+my_data <- data.frame(group = rep(c("score_A", "score_B"), each = 15),
+                      score = c(score_A,  score_B))
+print(my_data)
+
+# Plot weight by group and color by group
+boxplot(score ~ group, data = my_data, col = c("lightyellow", "lightblue"))
+
+#From the output, the p-value is greater than the significance level 0.05 implying that the distribution of the differences (score_diffs) are not significantly different from normal distribution. In other words, we can assume the normality.
+shapiro.test(score_diffs)
+
+#The p-value is greater than 0.05, then we can accept the hypothesis H0 of equality of the averages. In conclusion, the new training has not made any significant improvement (or deterioration) to the team of athletes.
+t.test(score_A, score_B, paired = TRUE)
+```
+
+Add a new chunk by clicking the *Insert Chunk* button on the toolbar or by pressing *Cmd+Option+I*.
+
+When you save the notebook, an HTML file containing the code and output will be saved alongside it (click the *Preview* button or press *Cmd+Shift+K* to preview the HTML file). 
+
+The preview shows you a rendered HTML copy of the contents of the editor. Consequently, unlike *Knit*, *Preview* does not run any R code chunks. Instead, the output of the chunk when it was last run in the editor is displayed.
+
