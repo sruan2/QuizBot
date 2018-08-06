@@ -132,6 +132,7 @@ venv
 # Shell scripts
 /*.sh
 flashcard_backend/start_server_flashcard.sh
+SQL_query/*.sh
 
 # tmp files
 tmp/
