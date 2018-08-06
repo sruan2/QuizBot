@@ -1,338 +1,461 @@
-"user_id","user_firstname","user_lastname","uid","sender","recipient","type","dialogue","time_stamp"
-"2486775194669540","Maika","Isogawa","1749","2486775194669540","854518728062939","persistent_menu: GET_INTRO_1","Get Started","2018-07-31 14:14:17"
-"2486775194669540","Maika","Isogawa","1750","854518728062939","2486775194669540","BOT: image","https://www.smartprimer.org:443/pictures/avatar/quizbot_avatar.png","2018-07-31 14:14:21"
-"2486775194669540","Maika","Isogawa","1751","854518728062939","2486775194669540","BOT: quick reply","Hi Maika! My name is Frosty :penguin: and I’m here to help you learn all about science:microscope:, verbal reasoning (GRE) :input_latin_uppercase:, and safety:hammer_and_wrench:!","2018-07-31 14:14:23"
-"2486775194669540","Maika","Isogawa","1752","2486775194669540","854518728062939","user_quick_reply: GET_INTRO_2","Alright :oncoming_fist_medium-light_skin_tone:","2018-07-31 14:14:43"
-"2486775194669540","Maika","Isogawa","1753","854518728062939","2486775194669540","BOT: message","Here’s how it works.","2018-07-31 14:14:44"
-"2486775194669540","Maika","Isogawa","1754","854518728062939","2486775194669540","BOT: message","I ask you questions, and you give me answers.","2018-07-31 14:14:46"
-"2486775194669540","Maika","Isogawa","1755","854518728062939","2486775194669540","BOT: quick reply","We will learn fun things together!","2018-07-31 14:14:47"
-"2486775194669540","Maika","Isogawa","1756","854518728062939","2486775194669540","BOT: image","https://www.smartprimer.org:443/pictures/user_manual/typeanswer.png","2018-07-31 14:15:09"
-"2486775194669540","Maika","Isogawa","1757","854518728062939","2486775194669540","BOT: quick reply","To study the questions, you can type in your answers in the text field and I will evaluate the answers for you using advanced NLP (Natural Language Processing) technology.","2018-07-31 14:15:11"
-"2486775194669540","Maika","Isogawa","1758","2486775194669540","854518728062939","user_quick_reply: GET_INTRO_4","Okay :white_heavy_check_mark:","2018-07-31 14:15:18"
-"2486775194669540","Maika","Isogawa","1759","854518728062939","2486775194669540","BOT: image","https://www.smartprimer.org:443/pictures/user_manual/needhintbutton.png","2018-07-31 14:15:21"
-"2486775194669540","Maika","Isogawa","1760","854518728062939","2486775194669540","BOT: quick reply","If you don't know the answers, then feel free to tap on the hint button.","2018-07-31 14:15:22"
-"2486775194669540","Maika","Isogawa","1761","854518728062939","2486775194669540","BOT: image","https://www.smartprimer.org:443/pictures/user_manual/hintoptions.png","2018-07-31 14:15:33"
-"2486775194669540","Maika","Isogawa","1762","854518728062939","2486775194669540","BOT: quick reply","The hint will give you a list of potential answers and you can select one from them.","2018-07-31 14:15:34"
-"2486775194669540","Maika","Isogawa","1763","2486775194669540","854518728062939","user_quick_reply: GET_INTRO_6","I see :backhand_index_pointing_right_medium-light_skin_tone:","2018-07-31 14:15:39"
-"2486775194669540","Maika","Isogawa","1764","854518728062939","2486775194669540","BOT: image","https://www.smartprimer.org:443/pictures/user_manual/menubutton.jpg","2018-07-31 14:15:41"
-"2486775194669540","Maika","Isogawa","1765","854518728062939","2486775194669540","BOT: quick reply","To discover more abilities of me, you can click on the menu button.:backhand_index_pointing_up_medium-light_skin_tone:","2018-07-31 14:15:43"
-"2486775194669540","Maika","Isogawa","1766","2486775194669540","854518728062939","user_quick_reply: GET_READY","I see :backhand_index_pointing_right_medium-light_skin_tone:","2018-07-31 14:15:47"
-"2486775194669540","Maika","Isogawa","1767","854518728062939","2486775194669540","BOT: message","I hope you enjoy the learning journey! :hundred_points:","2018-07-31 14:15:49"
-"2486775194669540","Maika","Isogawa","1768","854518728062939","2486775194669540","BOT: quick reply","So, are you ready?","2018-07-31 14:15:50"
-"2486775194669540","Maika","Isogawa","1769","2486775194669540","854518728062939","user_quick_reply: YUP_IM_READY","Yup! I'm ready! :raised_fist_medium-light_skin_tone:","2018-07-31 14:15:53"
-"2486775194669540","Maika","Isogawa","1770","854518728062939","2486775194669540","BOT: message","Great!","2018-07-31 14:15:55"
-"2486775194669540","Maika","Isogawa","1771","854518728062939","2486775194669540","BOT: quick reply","Let’s get started :rocket:","2018-07-31 14:15:56"
-"2486775194669540","Maika","Isogawa","1772","2486775194669540","854518728062939","user_quick_reply: SWITCH_SUBJECT","Quiz me :nerd_face:","2018-07-31 14:16:03"
-"2486775194669540","Maika","Isogawa","1773","854518728062939","2486775194669540","BOT: quick reply","Cool, which subject do you want to study?:backhand_index_pointing_down_medium-light_skin_tone:","2018-07-31 14:16:04"
-"2486775194669540","Maika","Isogawa","1774","2486775194669540","854518728062939","user_quick_reply: SCIENCE","Science:microscope:","2018-07-31 14:16:21"
-"2486775194669540","Maika","Isogawa","1775","854518728062939","2486775194669540","BOT: quick reply","Science rules! Let's see what you know.","2018-07-31 14:16:22"
-"2486775194669540","Maika","Isogawa","1776","854518728062939","2486775194669540","BOT: message","Let's try this one.","2018-07-31 14:16:27"
-"2486775194669540","Maika","Isogawa","1777","854518728062939","2486775194669540","BOT: message","Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:","2018-07-31 14:16:28"
-"2486775194669540","Maika","Isogawa","1778","854518728062939","2486775194669540","BOT: quick reply","What are the little sacs at the end of the bronchioles called?","2018-07-31 14:16:30"
-"2486775194669540","Maika","Isogawa","1779","2486775194669540","854518728062939","user_typing","Tonsils?","2018-07-31 14:16:46"
-"2486775194669540","Maika","Isogawa","1780","854518728062939","2486775194669540","BOT: message","Oops, that answer was incorrect. :disappointed_face:","2018-07-31 14:16:47"
-"2486775194669540","Maika","Isogawa","1781","854518728062939","2486775194669540","BOT: quick reply","The correct answer is alveoli.","2018-07-31 14:16:49"
-"2486775194669540","Maika","Isogawa","1782","2486775194669540","854518728062939","user_quick_reply: NEXT_QUESTION","Next question :flexed_biceps_medium-light_skin_tone:","2018-07-31 14:16:58"
-"2486775194669540","Maika","Isogawa","1783","854518728062939","2486775194669540","BOT: message","Here's a question for you:","2018-07-31 14:16:59"
-"2486775194669540","Maika","Isogawa","1784","854518728062939","2486775194669540","BOT: quick reply","On what day of the cycle does ovulation usually occur?","2018-07-31 14:17:01"
-"2486775194669540","Maika","Isogawa","1785","2486775194669540","854518728062939","user_quick_reply: NEED_HINT","I need a hint :thinking_face:","2018-07-31 14:17:08"
-"2486775194669540","Maika","Isogawa","1786","854518728062939","2486775194669540","BOT: message","It's one of the following choices.","2018-07-31 14:17:09"
-"2486775194669540","Maika","Isogawa","1787","854518728062939","2486775194669540","BOT: quick reply",":keycap_1: 14th\n:keycap_2: 1st\n:keycap_3: 17th\n:keycap_4: 7th\n","2018-07-31 14:17:10"
-"2486775194669540","Maika","Isogawa","1788","2486775194669540","854518728062939","user_quick_reply: BUTTON_DKB_7th",":keycap_4:","2018-07-31 14:17:16"
-"2486775194669540","Maika","Isogawa","1789","854518728062939","2486775194669540","BOT: message","I'm sorry, but that was incorrect. :disappointed_face:","2018-07-31 14:17:18"
-"2486775194669540","Maika","Isogawa","1790","854518728062939","2486775194669540","BOT: quick reply","The correct answer is 14th.","2018-07-31 14:17:19"
-"2486775194669540","Maika","Isogawa","1791","2486775194669540","854518728062939","user_quick_reply: NEXT_QUESTION","Next question :flexed_biceps_medium-light_skin_tone:","2018-07-31 14:17:24"
-"2486775194669540","Maika","Isogawa","1792","854518728062939","2486775194669540","BOT: message","See if you can answer this next one.","2018-07-31 14:17:25"
-"2486775194669540","Maika","Isogawa","1793","854518728062939","2486775194669540","BOT: message","If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:","2018-07-31 14:17:27"
-"2486775194669540","Maika","Isogawa","1794","854518728062939","2486775194669540","BOT: quick reply","Myofibrils are long cylindrical structures that lie parallel to and run the entire length of what fibers?","2018-07-31 14:17:29"
-"2486775194669540","Maika","Isogawa","1795","2486775194669540","854518728062939","user_quick_reply: I_DONT_KNOW","I don’t know :downcast_face_with_sweat:","2018-07-31 14:17:34"
-"2486775194669540","Maika","Isogawa","1796","854518728062939","2486775194669540","BOT: quick reply","Are you sure you want to skip answering?","2018-07-31 14:17:36"
-"2486775194669540","Maika","Isogawa","1797","2486775194669540","854518728062939","user_quick_reply: GIVEUP_YES","Yes, answer please.","2018-07-31 14:17:42"
-"2486775194669540","Maika","Isogawa","1798","854518728062939","2486775194669540","BOT: message","I'm sorry, you didn't get the question right this time.","2018-07-31 14:17:44"
-"2486775194669540","Maika","Isogawa","1799","854518728062939","2486775194669540","BOT: message","Keep trying, you'll get it next time! :grinning_face_with_smiling_eyes:","2018-07-31 14:17:45"
-"2486775194669540","Maika","Isogawa","1800","854518728062939","2486775194669540","BOT: quick reply","The correct answer is skeletal muscle fibers.","2018-07-31 14:17:47"
-"2486775194669540","Maika","Isogawa","1801","2486775194669540","854518728062939","user_quick_reply: SWITCH_SUBJECT","Switch subject :shuffle_tracks_button:","2018-07-31 14:17:53"
-"2486775194669540","Maika","Isogawa","1802","854518728062939","2486775194669540","BOT: quick reply","Okay, which subject would you like to choose?:backhand_index_pointing_down_medium-light_skin_tone:","2018-07-31 14:17:54"
-"2486775194669540","Maika","Isogawa","1803","2486775194669540","854518728062939","user_quick_reply: RANDOM","Random :game_die:","2018-07-31 14:17:57"
-"2486775194669540","Maika","Isogawa","1804","854518728062939","2486775194669540","BOT: image","https://www.smartprimer.org:443/pictures/avatar/evolvescientist_normal.gif","2018-07-31 14:18:00"
-"2486775194669540","Maika","Isogawa","1805","854518728062939","2486775194669540","BOT: quick reply","Let's answer some questions about everything! :game_die:","2018-07-31 14:18:02"
-"2486775194669540","Maika","Isogawa","1806","2486775194669540","854518728062939","user_quick_reply: NEXT_QUESTION","Okay :collision:","2018-07-31 14:18:06"
-"2486775194669540","Maika","Isogawa","1807","854518728062939","2486775194669540","BOT: message","Could you answer this one for me?","2018-07-31 14:18:07"
-"2486775194669540","Maika","Isogawa","1808","854518728062939","2486775194669540","BOT: quick reply","What are by far the most common type of invertebrate?","2018-07-31 14:18:09"
-"2486775194669540","Maika","Isogawa","1809","2486775194669540","854518728062939","user_quick_reply: NEED_HINT","I need a hint :thinking_face:","2018-07-31 14:18:19"
-"2486775194669540","Maika","Isogawa","1810","854518728062939","2486775194669540","BOT: message","Which of the following options is the right answer?","2018-07-31 14:18:20"
-"2486775194669540","Maika","Isogawa","1811","854518728062939","2486775194669540","BOT: quick reply",":keycap_1: corals\n:keycap_2: spiders\n:keycap_3: crustaceans\n:keycap_4: insects\n","2018-07-31 14:18:21"
-"2486775194669540","Maika","Isogawa","1812","2486775194669540","854518728062939","user_quick_reply: BUTTON_DKB_crustaceans",":keycap_3:","2018-07-31 14:18:26"
-"2486775194669540","Maika","Isogawa","1813","854518728062939","2486775194669540","BOT: message","Hmm, that wasn't quite right. :disappointed_face:","2018-07-31 14:18:28"
-"2486775194669540","Maika","Isogawa","1814","854518728062939","2486775194669540","BOT: quick reply","The correct answer is insects.","2018-07-31 14:18:29"
-"2486775194669540","Maika","Isogawa","1815","2486775194669540","854518728062939","user_quick_reply: NEXT_QUESTION","Next question :flexed_biceps_medium-light_skin_tone:","2018-07-31 14:18:32"
-"2486775194669540","Maika","Isogawa","1816","854518728062939","2486775194669540","BOT: message","Let's try this one.","2018-07-31 14:18:34"
-"2486775194669540","Maika","Isogawa","1817","854518728062939","2486775194669540","BOT: quick reply","Arrange in the correct order the following treatment steps for somebody who has lost consciousness: (i) call 911 or inform someone of the situation, (ii) begin CPR, (iii) check the patient's airway to make sure it is clear, (iv) place the victim on his/her back, (v) check signs of life (coughing, breathing, or movement).","2018-07-31 14:18:36"
-"2486775194669540","Maika","Isogawa","1818","2486775194669540","854518728062939","user_quick_reply: NEED_HINT","I need a hint :thinking_face:","2018-07-31 14:18:55"
-"2486775194669540","Maika","Isogawa","1819","854518728062939","2486775194669540","BOT: message","It's one of the following choices.","2018-07-31 14:18:57"
-"2486775194669540","Maika","Isogawa","1820","854518728062939","2486775194669540","BOT: quick reply",":keycap_1: v, iv, iii, i, ii\n:keycap_2: iv, i, iii, v, ii\n:keycap_3: i, ii, iii, iv, v\n:keycap_4: ii, iv, iii, v, i\n","2018-07-31 14:18:58"
-"2486775194669540","Maika","Isogawa","1821","2486775194669540","854518728062939","user_quick_reply: BUTTON_AKB_iv, i, iii, v, ii",":keycap_2:","2018-07-31 14:19:08"
-"2486775194669540","Maika","Isogawa","1822","854518728062939","2486775194669540","BOT: message","Great! Keep it up! :flexed_biceps_medium-light_skin_tone:","2018-07-31 14:19:10"
-"2486775194669540","Maika","Isogawa","1823","854518728062939","2486775194669540","BOT: quick reply","The correct answer is iv, i, iii, v, ii.","2018-07-31 14:19:11"
-"2486775194669540","Maika","Isogawa","1824","2486775194669540","854518728062939","user_quick_reply: NEXT_QUESTION","Next question :flexed_biceps_medium-light_skin_tone:","2018-07-31 14:19:14"
-"2486775194669540","Maika","Isogawa","1825","854518728062939","2486775194669540","BOT: message","Could you answer this one for me?","2018-07-31 14:19:16"
-"2486775194669540","Maika","Isogawa","1826","854518728062939","2486775194669540","BOT: quick reply","If one were asked who transmitted the first radio broadcast of the human voice, one might guess the _____ inventor Guglielmo Marconi, but in fact the feat was accomplished by the much less well-known Reginald Fessenden.","2018-07-31 14:19:17"
-"2486775194669540","Maika","Isogawa","2170","2486775194669540","854518728062939","user_quick_reply: NEED_HINT","I need a hint :thinking_face:","2018-08-01 13:33:53"
-"2486775194669540","Maika","Isogawa","2171","854518728062939","2486775194669540","BOT: message","Pick one of the following answers.","2018-08-01 13:33:55"
-"2486775194669540","Maika","Isogawa","2172","854518728062939","2486775194669540","BOT: quick reply",":keycap_1: contingent\n:keycap_2: renowned\n:keycap_3: cogent\n:keycap_4: insistent\n:keycap_5: infamous\n","2018-08-01 13:33:56"
-"2486775194669540","Maika","Isogawa","2173","2486775194669540","854518728062939","user_quick_reply: BUTTON_AKB_renowned",":keycap_2:","2018-08-01 13:34:08"
-"2486775194669540","Maika","Isogawa","2174","854518728062939","2486775194669540","BOT: message","Nice work! Keep it up!","2018-08-01 13:34:10"
-"2486775194669540","Maika","Isogawa","2175","854518728062939","2486775194669540","BOT: quick reply","The correct answer is renowned.","2018-08-01 13:34:11"
-"2486775194669540","Maika","Isogawa","2176","2486775194669540","854518728062939","user_quick_reply: NEXT_QUESTION","Next question :flexed_biceps_medium-light_skin_tone:","2018-08-01 13:34:15"
-"2486775194669540","Maika","Isogawa","2177","854518728062939","2486775194669540","BOT: message","Alrighty, let's try this one.","2018-08-01 13:34:16"
-"2486775194669540","Maika","Isogawa","2178","854518728062939","2486775194669540","BOT: quick reply","If one were asked who transmitted the first radio broadcast of the human voice, one might guess the _____ inventor Guglielmo Marconi, but in fact the feat was accomplished by the much less well-known Reginald Fessenden.","2018-08-01 13:34:18"
-"2486775194669540","Maika","Isogawa","2179","2486775194669540","854518728062939","user_typing","Renowned","2018-08-01 13:34:29"
-"2486775194669540","Maika","Isogawa","2180","854518728062939","2486775194669540","BOT: image","https://www.smartprimer.org:443/pictures/avatar/congrats/penguinnormal_happy_pink.png","2018-08-01 13:34:31"
-"2486775194669540","Maika","Isogawa","2181","854518728062939","2486775194669540","BOT: message","Good job! :raising_hands_medium-light_skin_tone:","2018-08-01 13:34:32"
-"2486775194669540","Maika","Isogawa","2182","854518728062939","2486775194669540","BOT: quick reply","The correct answer is renowned.","2018-08-01 13:34:34"
-"2486775194669540","Maika","Isogawa","2183","2486775194669540","854518728062939","user_quick_reply: NEXT_QUESTION","Next question :flexed_biceps_medium-light_skin_tone:","2018-08-01 13:34:37"
-"2486775194669540","Maika","Isogawa","2184","854518728062939","2486775194669540","BOT: message","Let's see if you can get this one.","2018-08-01 13:34:38"
-"2486775194669540","Maika","Isogawa","2185","854518728062939","2486775194669540","BOT: message","Please type your answer in if you know it :smiling_face_with_smiling_eyes:","2018-08-01 13:34:40"
-"2486775194669540","Maika","Isogawa","2186","854518728062939","2486775194669540","BOT: quick reply","When your brain senses that your body temperature is increasing, it sends messages to the blood vessels in the skin to increase in what?","2018-08-01 13:34:41"
-"2486775194669540","Maika","Isogawa","2187","2486775194669540","854518728062939","user_quick_reply: NEED_HINT","I need a hint :thinking_face:","2018-08-01 13:34:48"
-"2486775194669540","Maika","Isogawa","2188","854518728062939","2486775194669540","BOT: message","I'll give you some choices.","2018-08-01 13:34:50"
-"2486775194669540","Maika","Isogawa","2189","854518728062939","2486775194669540","BOT: quick reply",":keycap_1: height\n:keycap_2: diameter\n:keycap_3: weight\n:keycap_4: surface\n","2018-08-01 13:34:51"
-"2486775194669540","Maika","Isogawa","2190","2486775194669540","854518728062939","user_quick_reply: BUTTON_AKB_diameter",":keycap_2:","2018-08-01 13:34:57"
-"2486775194669540","Maika","Isogawa","2191","854518728062939","2486775194669540","BOT: image","https://www.smartprimer.org:443/pictures/avatar/congrats/penguinnormal_jubilated_cyan.png","2018-08-01 13:34:59"
-"2486775194669540","Maika","Isogawa","2192","854518728062939","2486775194669540","BOT: message","Yes! You got the correct answer!","2018-08-01 13:35:00"
-"2486775194669540","Maika","Isogawa","2193","854518728062939","2486775194669540","BOT: quick reply","The correct answer is diameter.","2018-08-01 13:35:02"
-"2486775194669540","Maika","Isogawa","2194","2486775194669540","854518728062939","user_quick_reply: NEXT_QUESTION","Next question :flexed_biceps_medium-light_skin_tone:","2018-08-01 13:35:05"
-"2486775194669540","Maika","Isogawa","2195","854518728062939","2486775194669540","BOT: message","Could you answer this one for me?","2018-08-01 13:35:06"
-"2486775194669540","Maika","Isogawa","2196","854518728062939","2486775194669540","BOT: quick reply","The hint shows a list of food items and the minimum internal food temperature at which they should be cooked. Which of these is incorrect?","2018-08-01 13:35:08"
-"2486775194669540","Maika","Isogawa","2197","2486775194669540","854518728062939","user_quick_reply: NEED_HINT","I need a hint :thinking_face:","2018-08-01 13:35:16"
-"2486775194669540","Maika","Isogawa","2198","854518728062939","2486775194669540","BOT: message","Which of the following options is the right answer?","2018-08-01 13:35:17"
-"2486775194669540","Maika","Isogawa","2199","854518728062939","2486775194669540","BOT: quick reply",":keycap_1: Eggs: 145 degrees Fahrenheit\n:keycap_2: Ground beef: 160 degrees Fahrenheit\n:keycap_3: Fish and Shellfish: 145 degrees Fahrenheit\n:keycap_4: Leftovers: 165 degrees Fahrenheit\n","2018-08-01 13:35:19"
-"2486775194669540","Maika","Isogawa","2200","2486775194669540","854518728062939","user_quick_reply: BUTTON_DKB_Ground beef: 160 degrees Fahrenheit",":keycap_2:","2018-08-01 13:35:28"
-"2486775194669540","Maika","Isogawa","2201","854518728062939","2486775194669540","BOT: message","That's not quite right. :disappointed_face:","2018-08-01 13:35:30"
-"2486775194669540","Maika","Isogawa","2202","854518728062939","2486775194669540","BOT: quick reply","The correct answer is Eggs: 145 degrees Fahrenheit.","2018-08-01 13:35:31"
-"2486775194669540","Maika","Isogawa","2203","2486775194669540","854518728062939","user_quick_reply: NEXT_QUESTION","Next question :flexed_biceps_medium-light_skin_tone:","2018-08-01 13:35:36"
-"2486775194669540","Maika","Isogawa","2204","854518728062939","2486775194669540","BOT: message","Let's see if you can answer this question.","2018-08-01 13:35:38"
-"2486775194669540","Maika","Isogawa","2205","854518728062939","2486775194669540","BOT: quick reply","How long can high-acid canned food such as tomatoes be stored?","2018-08-01 13:35:39"
-"2486775194669540","Maika","Isogawa","2206","2486775194669540","854518728062939","user_quick_reply: NEED_HINT","I need a hint :thinking_face:","2018-08-01 13:35:44"
-"2486775194669540","Maika","Isogawa","2207","854518728062939","2486775194669540","BOT: message","Which of the following options is the right answer?","2018-08-01 13:35:46"
-"2486775194669540","Maika","Isogawa","2208","854518728062939","2486775194669540","BOT: quick reply",":keycap_1: 10 to 30 days\n:keycap_2: 2 to 4 years\n:keycap_3: 12 to 18 months\n:keycap_4: 2 to 6 months\n","2018-08-01 13:35:47"
-"2486775194669540","Maika","Isogawa","2209","2486775194669540","854518728062939","user_quick_reply: BUTTON_AKB_12 to 18 months",":keycap_3:","2018-08-01 13:35:55"
-"2486775194669540","Maika","Isogawa","2210","854518728062939","2486775194669540","BOT: image","https://www.smartprimer.org:443/pictures/avatar/congrats/penguinnormal_happy_orange.png","2018-08-01 13:35:57"
-"2486775194669540","Maika","Isogawa","2211","854518728062939","2486775194669540","BOT: message","Great job!","2018-08-01 13:35:59"
-"2486775194669540","Maika","Isogawa","2212","854518728062939","2486775194669540","BOT: quick reply","The correct answer is 12 to 18 months.","2018-08-01 13:36:00"
-"2486775194669540","Maika","Isogawa","2213","2486775194669540","854518728062939","user_quick_reply: NEXT_QUESTION","Next question :flexed_biceps_medium-light_skin_tone:","2018-08-01 13:36:02"
-"2486775194669540","Maika","Isogawa","2214","854518728062939","2486775194669540","BOT: message","Would you answer this question for me?","2018-08-01 13:36:04"
-"2486775194669540","Maika","Isogawa","2215","854518728062939","2486775194669540","BOT: message","If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:","2018-08-01 13:36:05"
-"2486775194669540","Maika","Isogawa","2216","854518728062939","2486775194669540","BOT: quick reply","Seth was extremely _____ and did not enjoy activities that required effort to meet new people.","2018-08-01 13:36:07"
-"2486775194669540","Maika","Isogawa","2217","2486775194669540","854518728062939","user_typing","Introverted","2018-08-01 13:36:15"
-"2486775194669540","Maika","Isogawa","2218","854518728062939","2486775194669540","BOT: message","Good Answer! :white_heavy_check_mark:","2018-08-01 13:36:17"
-"2486775194669540","Maika","Isogawa","2219","854518728062939","2486775194669540","BOT: quick reply","The correct answer is introverted.","2018-08-01 13:36:18"
-"2486775194669540","Maika","Isogawa","2220","2486775194669540","854518728062939","user_quick_reply: NEXT_QUESTION","Next question :flexed_biceps_medium-light_skin_tone:","2018-08-01 13:36:21"
-"2486775194669540","Maika","Isogawa","2221","854518728062939","2486775194669540","BOT: message","Could you answer this one for me?","2018-08-01 13:36:22"
-"2486775194669540","Maika","Isogawa","2222","854518728062939","2486775194669540","BOT: quick reply","Having squandered his life's savings on unprofitable business ventures, the _____ entrepreneur was forced to live in squalor.","2018-08-01 13:36:24"
-"2486775194669540","Maika","Isogawa","2223","2486775194669540","854518728062939","user_quick_reply: NEED_HINT","I need a hint :thinking_face:","2018-08-01 13:36:31"
-"2486775194669540","Maika","Isogawa","2224","854518728062939","2486775194669540","BOT: message","Which of the following options is the right answer?","2018-08-01 13:36:32"
-"2486775194669540","Maika","Isogawa","2225","854518728062939","2486775194669540","BOT: quick reply",":keycap_1: insolvent\n:keycap_2: former\n:keycap_3: perturbed\n:keycap_4: eccentric\n:keycap_5: unlikely\n","2018-08-01 13:36:34"
-"2486775194669540","Maika","Isogawa","2226","2486775194669540","854518728062939","user_quick_reply: BUTTON_DKB_perturbed",":keycap_3:","2018-08-01 13:36:42"
-"2486775194669540","Maika","Isogawa","2227","854518728062939","2486775194669540","BOT: message","I'm sorry, but that was incorrect. :disappointed_face:","2018-08-01 13:36:44"
-"2486775194669540","Maika","Isogawa","2228","854518728062939","2486775194669540","BOT: quick reply","The correct answer is insolvent.","2018-08-01 13:36:45"
-"2486775194669540","Maika","Isogawa","2229","2486775194669540","854518728062939","user_quick_reply: NEXT_QUESTION","Next question :flexed_biceps_medium-light_skin_tone:","2018-08-01 13:36:51"
-"2486775194669540","Maika","Isogawa","2230","854518728062939","2486775194669540","BOT: message","What about this next question:","2018-08-01 13:36:52"
-"2486775194669540","Maika","Isogawa","2231","854518728062939","2486775194669540","BOT: quick reply","Some historians see the Jacksonians as little more than ruthless capitalists who had _____ regard for individual welfare.","2018-08-01 13:36:54"
-"2486775194669540","Maika","Isogawa","2232","2486775194669540","854518728062939","user_quick_reply: NEED_HINT","I need a hint :thinking_face:","2018-08-01 13:37:34"
-"2486775194669540","Maika","Isogawa","2233","854518728062939","2486775194669540","BOT: message","It's one of the following choices.","2018-08-01 13:37:35"
-"2486775194669540","Maika","Isogawa","2234","854518728062939","2486775194669540","BOT: quick reply",":keycap_1: undue\n:keycap_2: obtrusive\n:keycap_3: mixed\n:keycap_4: scant\n:keycap_5: inconsistent\n","2018-08-01 13:37:37"
-"2486775194669540","Maika","Isogawa","2235","2486775194669540","854518728062939","user_quick_reply: BUTTON_AKB_scant",":keycap_4:","2018-08-01 13:37:45"
-"2486775194669540","Maika","Isogawa","2236","854518728062939","2486775194669540","BOT: image","https://www.smartprimer.org:443/pictures/avatar/congrats/penguinnormal_happy_pink.png","2018-08-01 13:37:48"
-"2486775194669540","Maika","Isogawa","2237","854518728062939","2486775194669540","BOT: message","Yes! You got the correct answer!","2018-08-01 13:37:49"
-"2486775194669540","Maika","Isogawa","2238","854518728062939","2486775194669540","BOT: quick reply","The correct answer is scant.","2018-08-01 13:37:50"
-"2486775194669540","Maika","Isogawa","2239","2486775194669540","854518728062939","user_quick_reply: NEXT_QUESTION","Next question :flexed_biceps_medium-light_skin_tone:","2018-08-01 13:37:53"
-"2486775194669540","Maika","Isogawa","2240","854518728062939","2486775194669540","BOT: message","Here's a question for you:","2018-08-01 13:37:54"
-"2486775194669540","Maika","Isogawa","2241","854518728062939","2486775194669540","BOT: quick reply","The hint shows a list of food items and the minimum internal food temperature at which they should be cooked. Which of these is incorrect?","2018-08-01 13:37:56"
-"2486775194669540","Maika","Isogawa","2242","2486775194669540","854518728062939","user_quick_reply: NEED_HINT","I need a hint :thinking_face:","2018-08-01 13:38:01"
-"2486775194669540","Maika","Isogawa","2243","854518728062939","2486775194669540","BOT: message","It's one of the following choices.","2018-08-01 13:38:03"
-"2486775194669540","Maika","Isogawa","2244","854518728062939","2486775194669540","BOT: quick reply",":keycap_1: Eggs: 145 degrees Fahrenheit\n:keycap_2: Leftovers: 165 degrees Fahrenheit\n:keycap_3: Fish and Shellfish: 145 degrees Fahrenheit\n:keycap_4: Ground beef: 160 degrees Fahrenheit\n","2018-08-01 13:38:04"
-"2486775194669540","Maika","Isogawa","2245","2486775194669540","854518728062939","user_quick_reply: BUTTON_AKB_Eggs: 145 degrees Fahrenheit",":keycap_1:","2018-08-01 13:38:07"
-"2486775194669540","Maika","Isogawa","2246","854518728062939","2486775194669540","BOT: message","Great job getting the correct answer!","2018-08-01 13:38:08"
-"2486775194669540","Maika","Isogawa","2247","854518728062939","2486775194669540","BOT: quick reply","The correct answer is Eggs: 145 degrees Fahrenheit.","2018-08-01 13:38:10"
-"2486775194669540","Maika","Isogawa","2248","2486775194669540","854518728062939","user_quick_reply: NEXT_QUESTION","Next question :flexed_biceps_medium-light_skin_tone:","2018-08-01 13:38:13"
-"2486775194669540","Maika","Isogawa","2249","854518728062939","2486775194669540","BOT: message","Let's see if you would answer this one.","2018-08-01 13:38:14"
-"2486775194669540","Maika","Isogawa","2250","854518728062939","2486775194669540","BOT: message","Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:","2018-08-01 13:38:15"
-"2486775194669540","Maika","Isogawa","2251","854518728062939","2486775194669540","BOT: quick reply","What is a therian mammal in which the embryo is born at an early, immature stage?","2018-08-01 13:38:17"
-"2486775194669540","Maika","Isogawa","2252","2486775194669540","854518728062939","user_quick_reply: NEED_HINT","I need a hint :thinking_face:","2018-08-01 13:38:24"
-"2486775194669540","Maika","Isogawa","2253","854518728062939","2486775194669540","BOT: message","I'll give you some choices.","2018-08-01 13:38:25"
-"2486775194669540","Maika","Isogawa","2254","854518728062939","2486775194669540","BOT: quick reply",":keycap_1: carnivore\n:keycap_2: marsupial\n:keycap_3: bat\n:keycap_4: rodent\n","2018-08-01 13:38:27"
-"2486775194669540","Maika","Isogawa","2255","2486775194669540","854518728062939","user_quick_reply: BUTTON_DKB_bat",":keycap_3:","2018-08-01 13:38:33"
-"2486775194669540","Maika","Isogawa","2256","854518728062939","2486775194669540","BOT: message","That's not quite right. :disappointed_face:","2018-08-01 13:38:34"
-"2486775194669540","Maika","Isogawa","2257","854518728062939","2486775194669540","BOT: quick reply","The correct answer is marsupial.","2018-08-01 13:38:36"
-"2486775194669540","Maika","Isogawa","2258","2486775194669540","854518728062939","user_quick_reply: NEXT_QUESTION","Next question :flexed_biceps_medium-light_skin_tone:","2018-08-01 13:38:39"
-"2486775194669540","Maika","Isogawa","2259","854518728062939","2486775194669540","BOT: message","Could you answer this one for me?","2018-08-01 13:38:40"
-"2486775194669540","Maika","Isogawa","2260","854518728062939","2486775194669540","BOT: quick reply","To what does the acronym SLM refer?","2018-08-01 13:38:42"
-"2486775194669540","Maika","Isogawa","2261","2486775194669540","854518728062939","user_quick_reply: NEED_HINT","I need a hint :thinking_face:","2018-08-01 13:38:45"
-"2486775194669540","Maika","Isogawa","2262","854518728062939","2486775194669540","BOT: message","It's one of the following choices.","2018-08-01 13:38:46"
-"2486775194669540","Maika","Isogawa","2263","854518728062939","2486775194669540","BOT: quick reply",":keycap_1: System Level Monitor\n:keycap_2: Sound Loudness Methods\n:keycap_3: Sound Level Meter\n:keycap_4: Service Lifecycle Management\n","2018-08-01 13:38:47"
-"2486775194669540","Maika","Isogawa","2264","2486775194669540","854518728062939","user_quick_reply: BUTTON_AKB_Sound Level Meter",":keycap_3:","2018-08-01 13:38:55"
-"2486775194669540","Maika","Isogawa","2265","854518728062939","2486775194669540","BOT: message","Great! Keep it up! :flexed_biceps_medium-light_skin_tone:","2018-08-01 13:38:56"
-"2486775194669540","Maika","Isogawa","2266","854518728062939","2486775194669540","BOT: quick reply","The correct answer is Sound Level Meter.","2018-08-01 13:38:58"
-"2486775194669540","Maika","Isogawa","2267","2486775194669540","854518728062939","user_quick_reply: NEXT_QUESTION","Next question :flexed_biceps_medium-light_skin_tone:","2018-08-01 13:39:00"
-"2486775194669540","Maika","Isogawa","2268","854518728062939","2486775194669540","BOT: message","How about this next one:","2018-08-01 13:39:01"
-"2486775194669540","Maika","Isogawa","2269","854518728062939","2486775194669540","BOT: message","Please type your answer in if you know it :smiling_face_with_smiling_eyes:","2018-08-01 13:39:03"
-"2486775194669540","Maika","Isogawa","2270","854518728062939","2486775194669540","BOT: quick reply","Seth was extremely _____ and did not enjoy activities that required effort to meet new people.","2018-08-01 13:39:04"
-"2486775194669540","Maika","Isogawa","2271","2486775194669540","854518728062939","user_typing","Introverted","2018-08-01 13:39:13"
-"2486775194669540","Maika","Isogawa","2272","854518728062939","2486775194669540","BOT: message","Correct! :confetti_ball:","2018-08-01 13:39:14"
-"2486775194669540","Maika","Isogawa","2273","854518728062939","2486775194669540","BOT: quick reply","The correct answer is introverted.","2018-08-01 13:39:16"
-"2486775194669540","Maika","Isogawa","2274","2486775194669540","854518728062939","user_quick_reply: NEXT_QUESTION","Next question :flexed_biceps_medium-light_skin_tone:","2018-08-01 13:39:21"
-"2486775194669540","Maika","Isogawa","2275","854518728062939","2486775194669540","BOT: message","How about this next one:","2018-08-01 13:39:23"
-"2486775194669540","Maika","Isogawa","2276","854518728062939","2486775194669540","BOT: message","Please type your answer in if you know it :smiling_face_with_smiling_eyes:","2018-08-01 13:39:24"
-"2486775194669540","Maika","Isogawa","2277","854518728062939","2486775194669540","BOT: quick reply","Though many _____ endlessly praised his work, Dan often wished for some honest criticism.","2018-08-01 13:39:26"
-"2486775194669540","Maika","Isogawa","2278","2486775194669540","854518728062939","user_quick_reply: NEED_HINT","I need a hint :thinking_face:","2018-08-01 13:39:33"
-"2486775194669540","Maika","Isogawa","2279","854518728062939","2486775194669540","BOT: message","Which of the following options is the right answer?","2018-08-01 13:39:34"
-"2486775194669540","Maika","Isogawa","2280","854518728062939","2486775194669540","BOT: quick reply",":keycap_1: benefactors\n:keycap_2: adversaries\n:keycap_3: pedants\n:keycap_4: sycophants\n:keycap_5: mavericks\n","2018-08-01 13:39:36"
-"2486775194669540","Maika","Isogawa","2281","2486775194669540","854518728062939","user_quick_reply: BUTTON_AKB_sycophants",":keycap_4:","2018-08-01 13:39:42"
-"2486775194669540","Maika","Isogawa","2282","854518728062939","2486775194669540","BOT: image","https://www.smartprimer.org:443/pictures/avatar/congrats/penguinnormal_jubilated_cyan.png","2018-08-01 13:39:45"
-"2486775194669540","Maika","Isogawa","2283","854518728062939","2486775194669540","BOT: message","Great! Keep it up! :flexed_biceps_medium-light_skin_tone:","2018-08-01 13:39:46"
-"2486775194669540","Maika","Isogawa","2284","854518728062939","2486775194669540","BOT: quick reply","The correct answer is sycophants.","2018-08-01 13:39:48"
-"2486775194669540","Maika","Isogawa","2285","2486775194669540","854518728062939","user_quick_reply: NEXT_QUESTION","Next question :flexed_biceps_medium-light_skin_tone:","2018-08-01 13:39:49"
-"2486775194669540","Maika","Isogawa","2286","854518728062939","2486775194669540","BOT: message","I think you'll like this question.","2018-08-01 13:39:51"
-"2486775194669540","Maika","Isogawa","2287","854518728062939","2486775194669540","BOT: message","If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:","2018-08-01 13:39:52"
-"2486775194669540","Maika","Isogawa","2288","854518728062939","2486775194669540","BOT: quick reply","Repulsed by _____ employees, the executive informed his staff that he preferred constructive criticism to calculated flattery.","2018-08-01 13:39:54"
-"2486775194669540","Maika","Isogawa","2289","2486775194669540","854518728062939","user_quick_reply: NEED_HINT","I need a hint :thinking_face:","2018-08-01 13:39:58"
-"2486775194669540","Maika","Isogawa","2290","854518728062939","2486775194669540","BOT: message","Which of the following options is the right answer?","2018-08-01 13:40:00"
-"2486775194669540","Maika","Isogawa","2291","854518728062939","2486775194669540","BOT: quick reply",":keycap_1: profligate\n:keycap_2: natty\n:keycap_3: obsequious\n:keycap_4: sententious\n:keycap_5: rapacious\n","2018-08-01 13:40:01"
-"2486775194669540","Maika","Isogawa","2292","2486775194669540","854518728062939","user_quick_reply: BUTTON_AKB_obsequious",":keycap_3:","2018-08-01 13:40:09"
-"2486775194669540","Maika","Isogawa","2293","854518728062939","2486775194669540","BOT: message","Nice work! Keep it up!","2018-08-01 13:40:11"
-"2486775194669540","Maika","Isogawa","2294","854518728062939","2486775194669540","BOT: quick reply","The correct answer is obsequious.","2018-08-01 13:40:12"
-"2486775194669540","Maika","Isogawa","2295","2486775194669540","854518728062939","user_quick_reply: NEXT_QUESTION","Next question :flexed_biceps_medium-light_skin_tone:","2018-08-01 13:40:15"
-"2486775194669540","Maika","Isogawa","2296","854518728062939","2486775194669540","BOT: message","Here's a question for you:","2018-08-01 13:40:16"
-"2486775194669540","Maika","Isogawa","2297","854518728062939","2486775194669540","BOT: quick reply","In psychological literature, the "sleeper effect" refers to the phenomenon in which a persuasive message from a trustworthy source loses _____ over time, while the efficacy of a message from a less credible source simultaneously increases.","2018-08-01 13:40:18"
-"2486775194669540","Maika","Isogawa","2298","2486775194669540","854518728062939","user_quick_reply: NEED_HINT","I need a hint :thinking_face:","2018-08-01 13:40:25"
-"2486775194669540","Maika","Isogawa","2299","854518728062939","2486775194669540","BOT: message","Which of the following options is the right answer?","2018-08-01 13:40:26"
-"2486775194669540","Maika","Isogawa","2300","854518728062939","2486775194669540","BOT: quick reply",":keycap_1: control\n:keycap_2: evasiveness\n:keycap_3: cogency\n:keycap_4: erudition\n:keycap_5: prescience\n","2018-08-01 13:40:28"
-"2486775194669540","Maika","Isogawa","2301","2486775194669540","854518728062939","user_quick_reply: BUTTON_AKB_cogency",":keycap_3:","2018-08-01 13:40:37"
-"2486775194669540","Maika","Isogawa","2302","854518728062939","2486775194669540","BOT: image","https://www.smartprimer.org:443/pictures/avatar/congrats/penguinnormal_happy_cyan.png","2018-08-01 13:40:39"
-"2486775194669540","Maika","Isogawa","2303","854518728062939","2486775194669540","BOT: message","Great! Keep it up! :flexed_biceps_medium-light_skin_tone:","2018-08-01 13:40:41"
-"2486775194669540","Maika","Isogawa","2304","854518728062939","2486775194669540","BOT: quick reply","The correct answer is cogency.","2018-08-01 13:40:42"
-"2486775194669540","Maika","Isogawa","2305","2486775194669540","854518728062939","user_quick_reply: NEXT_QUESTION","Next question :flexed_biceps_medium-light_skin_tone:","2018-08-01 13:40:46"
-"2486775194669540","Maika","Isogawa","2306","854518728062939","2486775194669540","BOT: message","Let's see if you can answer this question.","2018-08-01 13:40:47"
-"2486775194669540","Maika","Isogawa","2307","854518728062939","2486775194669540","BOT: message","Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:","2018-08-01 13:40:49"
-"2486775194669540","Maika","Isogawa","2308","854518728062939","2486775194669540","BOT: quick reply","When you discover a fire, you should do what?","2018-08-01 13:40:50"
-"2486775194669540","Maika","Isogawa","2309","2486775194669540","854518728062939","user_quick_reply: NEED_HINT","I need a hint :thinking_face:","2018-08-01 13:40:58"
-"2486775194669540","Maika","Isogawa","2310","854518728062939","2486775194669540","BOT: message","Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:","2018-08-01 13:40:59"
-"2486775194669540","Maika","Isogawa","2311","854518728062939","2486775194669540","BOT: quick reply",":keycap_1: Stay in the building until you figure out a way to extinguish the fire\n:keycap_2: Pull the fire alarm and call the fire department\n:keycap_3: Use a fire extinguisher to put out the fire, even if you've never used a fire extinguisher before\n:keycap_4: Run out of the building without warning others of the fire\n","2018-08-01 13:41:01"
-"2486775194669540","Maika","Isogawa","2312","2486775194669540","854518728062939","user_quick_reply: BUTTON_AKB_Pull the fire alarm and call the fire department",":keycap_2:","2018-08-01 13:41:14"
-"2486775194669540","Maika","Isogawa","2313","854518728062939","2486775194669540","BOT: message","Great job!","2018-08-01 13:41:16"
-"2486775194669540","Maika","Isogawa","2314","854518728062939","2486775194669540","BOT: quick reply","The correct answer is Pull the fire alarm and call the fire department.","2018-08-01 13:41:17"
-"2486775194669540","Maika","Isogawa","2506","2486775194669540","854518728062939","user_quick_reply: NEXT_QUESTION","Next question :flexed_biceps_medium-light_skin_tone:","2018-08-02 16:34:34"
-"2486775194669540","Maika","Isogawa","2507","854518728062939","2486775194669540","BOT: message","Let's try this question.","2018-08-02 16:34:36"
-"2486775194669540","Maika","Isogawa","2508","854518728062939","2486775194669540","BOT: quick reply","Modern tennis fans have come to realize that, although, quantum technological leaps in racquet technology have lead to _____ increases in the speed and power with which players can hit the ball, this has not necessarily lead to a more entertaining game.","2018-08-02 16:34:37"
-"2486775194669540","Maika","Isogawa","2509","2486775194669540","854518728062939","user_quick_reply: NEED_HINT","I need a hint :thinking_face:","2018-08-02 16:34:43"
-"2486775194669540","Maika","Isogawa","2510","854518728062939","2486775194669540","BOT: message","It's one of the following choices.","2018-08-02 16:34:45"
-"2486775194669540","Maika","Isogawa","2511","854518728062939","2486775194669540","BOT: quick reply",":keycap_1: malleable\n:keycap_2: commensurate\n:keycap_3: halcyon\n:keycap_4: innocuous\n:keycap_5: tractable\n","2018-08-02 16:34:46"
-"2486775194669540","Maika","Isogawa","2512","2486775194669540","854518728062939","user_quick_reply: BUTTON_DKB_tractable",":keycap_5:","2018-08-02 16:35:00"
-"2486775194669540","Maika","Isogawa","2513","854518728062939","2486775194669540","BOT: message","Hmm, that wasn't quite right. :disappointed_face:","2018-08-02 16:35:01"
-"2486775194669540","Maika","Isogawa","2514","854518728062939","2486775194669540","BOT: quick reply","The correct answer is commensurate.","2018-08-02 16:35:03"
-"2486775194669540","Maika","Isogawa","2515","2486775194669540","854518728062939","user_quick_reply: NEXT_QUESTION","Next question :flexed_biceps_medium-light_skin_tone:","2018-08-02 16:35:06"
-"2486775194669540","Maika","Isogawa","2516","854518728062939","2486775194669540","BOT: message","What about this next question:","2018-08-02 16:35:08"
-"2486775194669540","Maika","Isogawa","2517","854518728062939","2486775194669540","BOT: message","If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:","2018-08-02 16:35:09"
-"2486775194669540","Maika","Isogawa","2518","854518728062939","2486775194669540","BOT: quick reply","How do very massive stars end their lives?","2018-08-02 16:35:11"
-"2486775194669540","Maika","Isogawa","2519","2486775194669540","854518728062939","user_typing","Supernova","2018-08-02 16:35:20"
-"2486775194669540","Maika","Isogawa","2520","854518728062939","2486775194669540","BOT: message","That wasn't quite what we were looking for. :disappointed_face:","2018-08-02 16:35:22"
-"2486775194669540","Maika","Isogawa","2521","854518728062939","2486775194669540","BOT: quick reply","The correct answer is become red supergiants.","2018-08-02 16:35:23"
-"2486775194669540","Maika","Isogawa","2522","2486775194669540","854518728062939","user_quick_reply: NEXT_QUESTION","Next question :flexed_biceps_medium-light_skin_tone:","2018-08-02 16:35:29"
-"2486775194669540","Maika","Isogawa","2523","854518728062939","2486775194669540","BOT: message","Let's try this one.","2018-08-02 16:35:30"
-"2486775194669540","Maika","Isogawa","2524","854518728062939","2486775194669540","BOT: message","Please type your answer in if you know it :smiling_face_with_smiling_eyes:","2018-08-02 16:35:32"
-"2486775194669540","Maika","Isogawa","2525","854518728062939","2486775194669540","BOT: quick reply","Although John F. Kennedy was known for his carefree flag football games, Gerald Ford should be _____ as our football president: he turned down offers to play for two National Football League teams in order to pursue a career in public service.","2018-08-02 16:35:33"
-"2486775194669540","Maika","Isogawa","2526","2486775194669540","854518728062939","user_quick_reply: NEED_HINT","I need a hint :thinking_face:","2018-08-02 16:35:44"
-"2486775194669540","Maika","Isogawa","2527","854518728062939","2486775194669540","BOT: message","Alrighty, which of the following options is the answer of the question?","2018-08-02 16:35:45"
-"2486775194669540","Maika","Isogawa","2528","854518728062939","2486775194669540","BOT: quick reply",":keycap_1: criticized\n:keycap_2: apotheosized\n:keycap_3: abrogated\n:keycap_4: relegated\n:keycap_5: annulled\n","2018-08-02 16:35:47"
-"2486775194669540","Maika","Isogawa","2529","2486775194669540","854518728062939","user_quick_reply: BUTTON_AKB_apotheosized",":keycap_2:","2018-08-02 16:35:55"
-"2486775194669540","Maika","Isogawa","2530","854518728062939","2486775194669540","BOT: message","Yes! You got the correct answer!","2018-08-02 16:35:56"
-"2486775194669540","Maika","Isogawa","2531","854518728062939","2486775194669540","BOT: quick reply","The correct answer is apotheosized.","2018-08-02 16:35:58"
-"2486775194669540","Maika","Isogawa","2532","2486775194669540","854518728062939","user_quick_reply: NEXT_QUESTION","Next question :flexed_biceps_medium-light_skin_tone:","2018-08-02 16:36:00"
-"2486775194669540","Maika","Isogawa","2533","854518728062939","2486775194669540","BOT: message","Let's take a look at this question.","2018-08-02 16:36:02"
-"2486775194669540","Maika","Isogawa","2534","854518728062939","2486775194669540","BOT: message","If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:","2018-08-02 16:36:03"
-"2486775194669540","Maika","Isogawa","2535","854518728062939","2486775194669540","BOT: quick reply","How do very massive stars end their lives?","2018-08-02 16:36:05"
-"2486775194669540","Maika","Isogawa","2536","2486775194669540","854518728062939","user_typing","Become red supergiants","2018-08-02 16:36:28"
-"2486775194669540","Maika","Isogawa","2537","854518728062939","2486775194669540","BOT: image","https://www.smartprimer.org:443/pictures/avatar/congrats/penguinnormal_happy_purple.png","2018-08-02 16:36:31"
-"2486775194669540","Maika","Isogawa","2538","854518728062939","2486775194669540","BOT: message","Nice! :red_apple:","2018-08-02 16:36:32"
-"2486775194669540","Maika","Isogawa","2539","854518728062939","2486775194669540","BOT: quick reply","The correct answer is become red supergiants.","2018-08-02 16:36:34"
-"2486775194669540","Maika","Isogawa","2540","2486775194669540","854518728062939","user_quick_reply: NEXT_QUESTION","Next question :flexed_biceps_medium-light_skin_tone:","2018-08-02 16:36:37"
-"2486775194669540","Maika","Isogawa","2541","854518728062939","2486775194669540","BOT: message","Let's take a look at this question.","2018-08-02 16:36:38"
-"2486775194669540","Maika","Isogawa","2542","854518728062939","2486775194669540","BOT: quick reply","Which fire extinguishers are used to put out fires caused by flammable liquids?","2018-08-02 16:36:40"
-"2486775194669540","Maika","Isogawa","2543","2486775194669540","854518728062939","user_quick_reply: NEED_HINT","I need a hint :thinking_face:","2018-08-02 16:36:49"
-"2486775194669540","Maika","Isogawa","2544","854518728062939","2486775194669540","BOT: message","Alrighty, which of the following options is the answer of the question?","2018-08-02 16:36:50"
-"2486775194669540","Maika","Isogawa","2545","854518728062939","2486775194669540","BOT: quick reply",":keycap_1: Class A water fire extinguishers\n:keycap_2: Class B carbon dioxide fire extinguisher\n:keycap_3: Class C dry chemical fire extinguisher\n","2018-08-02 16:36:52"
-"2486775194669540","Maika","Isogawa","2546","2486775194669540","854518728062939","user_quick_reply: BUTTON_DKB_Class C dry chemical fire extinguisher",":keycap_3:","2018-08-02 16:36:59"
-"2486775194669540","Maika","Isogawa","2547","854518728062939","2486775194669540","BOT: message","I'm sorry, but that was incorrect. :disappointed_face:","2018-08-02 16:37:00"
-"2486775194669540","Maika","Isogawa","2548","854518728062939","2486775194669540","BOT: quick reply","The correct answer is Class B carbon dioxide fire extinguisher.","2018-08-02 16:37:02"
-"2486775194669540","Maika","Isogawa","2549","2486775194669540","854518728062939","user_quick_reply: NEXT_QUESTION","Next question :flexed_biceps_medium-light_skin_tone:","2018-08-02 16:37:06"
-"2486775194669540","Maika","Isogawa","2550","854518728062939","2486775194669540","BOT: message","Let's try this question.","2018-08-02 16:37:07"
-"2486775194669540","Maika","Isogawa","2551","854518728062939","2486775194669540","BOT: message","Please type your answer in if you know it :smiling_face_with_smiling_eyes:","2018-08-02 16:37:09"
-"2486775194669540","Maika","Isogawa","2552","854518728062939","2486775194669540","BOT: quick reply","The recent convert, still a _____ with respect to the rites of her church, did not yet feel completely comfortable in her new faith.","2018-08-02 16:37:10"
-"2486775194669540","Maika","Isogawa","2553","2486775194669540","854518728062939","user_quick_reply: NEED_HINT","I need a hint :thinking_face:","2018-08-02 16:37:18"
-"2486775194669540","Maika","Isogawa","2554","854518728062939","2486775194669540","BOT: message","Alrighty, which of the following options is the answer of the question?","2018-08-02 16:37:19"
-"2486775194669540","Maika","Isogawa","2555","854518728062939","2486775194669540","BOT: quick reply",":keycap_1: poseur\n:keycap_2: pilgrim\n:keycap_3: iconoclast\n:keycap_4: ascetic\n:keycap_5: tyro\n","2018-08-02 16:37:21"
-"2486775194669540","Maika","Isogawa","2556","2486775194669540","854518728062939","user_quick_reply: BUTTON_DKB_poseur",":keycap_1:","2018-08-02 16:37:28"
-"2486775194669540","Maika","Isogawa","2557","854518728062939","2486775194669540","BOT: message","Oops, that wasn't quite correct. :disappointed_face:","2018-08-02 16:37:30"
-"2486775194669540","Maika","Isogawa","2558","854518728062939","2486775194669540","BOT: quick reply","The correct answer is tyro.","2018-08-02 16:37:31"
-"2486775194669540","Maika","Isogawa","2559","2486775194669540","854518728062939","user_quick_reply: WHY","Why?","2018-08-02 16:37:35"
-"2486775194669540","Maika","Isogawa","2560","854518728062939","2486775194669540","BOT: message","Here's an explanation:","2018-08-02 16:37:36"
-"2486775194669540","Maika","Isogawa","2561","854518728062939","2486775194669540","BOT: quick reply",":pushpin: Tyro -- someone new to a field or activity\n:pushpin: Pilgrim -- someone who journeys in foreign lands\n:pushpin: Iconoclast -- a destroyer of images used in religious worship\n:pushpin: Ascetic -- pertaining to or characteristic of an ascetic or the practice of rigorous self-discipline\n:pushpin: Poseur -- a person who habitually pretends to be something he is not","2018-08-02 16:37:38"
-"2486775194669540","Maika","Isogawa","2562","2486775194669540","854518728062939","user_quick_reply: NEXT_QUESTION","Next question :flexed_biceps:","2018-08-02 16:37:57"
-"2486775194669540","Maika","Isogawa","2563","854518728062939","2486775194669540","BOT: message","How about this next one:","2018-08-02 16:37:58"
-"2486775194669540","Maika","Isogawa","2564","854518728062939","2486775194669540","BOT: quick reply","Because he ate high-calorie snacks while riding the exercise bike, Julie ridiculed DeRay's workout philosophy as _____ .","2018-08-02 16:38:00"
-"2486775194669540","Maika","Isogawa","2565","2486775194669540","854518728062939","user_quick_reply: NEED_HINT","I need a hint :thinking_face:","2018-08-02 16:38:51"
-"2486775194669540","Maika","Isogawa","2566","854518728062939","2486775194669540","BOT: message","Which of the following options is the right answer?","2018-08-02 16:38:53"
-"2486775194669540","Maika","Isogawa","2567","854518728062939","2486775194669540","BOT: quick reply",":keycap_1: indolent\n:keycap_2: hackneyed\n:keycap_3: pithy\n:keycap_4: fatuous\n:keycap_5: precarious\n","2018-08-02 16:38:54"
-"2486775194669540","Maika","Isogawa","2568","2486775194669540","854518728062939","user_quick_reply: BUTTON_AKB_fatuous",":keycap_4:","2018-08-02 16:38:59"
-"2486775194669540","Maika","Isogawa","2569","854518728062939","2486775194669540","BOT: message","Nice work! Keep it up!","2018-08-02 16:39:01"
-"2486775194669540","Maika","Isogawa","2570","854518728062939","2486775194669540","BOT: quick reply","The correct answer is fatuous.","2018-08-02 16:39:02"
-"2486775194669540","Maika","Isogawa","2571","2486775194669540","854518728062939","user_quick_reply: WHY","Why?","2018-08-02 16:39:05"
-"2486775194669540","Maika","Isogawa","2572","854518728062939","2486775194669540","BOT: message","This is why:","2018-08-02 16:39:06"
-"2486775194669540","Maika","Isogawa","2573","854518728062939","2486775194669540","BOT: quick reply",":pushpin: Fatuous -- extremely silly or stupid\n:pushpin: Pithy -- concise and full of meaning\n:pushpin: Indolent -- disinclined to work or exertion\n:pushpin: Hackneyed -- repeated too often; overfamiliar through overuse\n:pushpin: Precarious -- affording no ease or reassurance","2018-08-02 16:39:08"
-"2486775194669540","Maika","Isogawa","2574","2486775194669540","854518728062939","user_quick_reply: NEXT_QUESTION","Next question :flexed_biceps:","2018-08-02 16:39:22"
-"2486775194669540","Maika","Isogawa","2575","854518728062939","2486775194669540","BOT: message","Let's see if you can answer this question.","2018-08-02 16:39:24"
-"2486775194669540","Maika","Isogawa","2576","854518728062939","2486775194669540","BOT: quick reply","What cells are the basis of nervous tissue?","2018-08-02 16:39:26"
-"2486775194669540","Maika","Isogawa","2577","2486775194669540","854518728062939","user_quick_reply: NEED_HINT","I need a hint :thinking_face:","2018-08-02 16:39:30"
-"2486775194669540","Maika","Isogawa","2578","854518728062939","2486775194669540","BOT: message","It's one of the following choices.","2018-08-02 16:39:31"
-"2486775194669540","Maika","Isogawa","2579","854518728062939","2486775194669540","BOT: quick reply",":keycap_1: lipocytes\n:keycap_2: erythrocytes\n:keycap_3: osteoclasts\n:keycap_4: neurons\n","2018-08-02 16:39:33"
-"2486775194669540","Maika","Isogawa","2580","2486775194669540","854518728062939","user_quick_reply: I_DONT_KNOW","I don’t know :downcast_face_with_sweat:","2018-08-02 16:39:37"
-"2486775194669540","Maika","Isogawa","2581","854518728062939","2486775194669540","BOT: quick reply","Do you really want to skip this question?","2018-08-02 16:39:38"
-"2486775194669540","Maika","Isogawa","2582","2486775194669540","854518728062939","user_quick_reply: GIVEUP_NO","No, I'll try again!","2018-08-02 16:39:42"
-"2486775194669540","Maika","Isogawa","2583","854518728062939","2486775194669540","BOT: message","Don't give up!","2018-08-02 16:39:43"
-"2486775194669540","Maika","Isogawa","2584","854518728062939","2486775194669540","BOT: message","Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:","2018-08-02 16:39:45"
-"2486775194669540","Maika","Isogawa","2585","854518728062939","2486775194669540","BOT: quick reply",":keycap_1: erythrocytes\n:keycap_2: lipocytes\n:keycap_3: osteoclasts\n:keycap_4: neurons\n","2018-08-02 16:39:47"
-"2486775194669540","Maika","Isogawa","2586","2486775194669540","854518728062939","user_quick_reply: BUTTON_AKB_neurons",":keycap_4:","2018-08-02 16:39:49"
-"2486775194669540","Maika","Isogawa","2587","854518728062939","2486775194669540","BOT: image","https://www.smartprimer.org:443/pictures/avatar/congrats/penguinnormal_happy_orange.png","2018-08-02 16:39:52"
-"2486775194669540","Maika","Isogawa","2588","854518728062939","2486775194669540","BOT: message","Nice! That was right!","2018-08-02 16:39:54"
-"2486775194669540","Maika","Isogawa","2589","854518728062939","2486775194669540","BOT: quick reply","The correct answer is neurons.","2018-08-02 16:39:55"
-"2486775194669540","Maika","Isogawa","2590","2486775194669540","854518728062939","user_quick_reply: NEXT_QUESTION","Next question :flexed_biceps_medium-light_skin_tone:","2018-08-02 16:39:58"
-"2486775194669540","Maika","Isogawa","2591","854518728062939","2486775194669540","BOT: message","Let's see if you would answer this one.","2018-08-02 16:39:59"
-"2486775194669540","Maika","Isogawa","2592","854518728062939","2486775194669540","BOT: message","Please type your answer in if you know it :smiling_face_with_smiling_eyes:","2018-08-02 16:40:01"
-"2486775194669540","Maika","Isogawa","2593","854518728062939","2486775194669540","BOT: quick reply","Many dog owners treat their pets too _____ , forgetting that canines have evolved in competitive environments in which emotional coddling was a sign of weakness.","2018-08-02 16:40:02"
-"2486775194669540","Maika","Isogawa","2594","2486775194669540","854518728062939","user_quick_reply: NEED_HINT","I need a hint :thinking_face:","2018-08-02 16:40:08"
-"2486775194669540","Maika","Isogawa","2595","854518728062939","2486775194669540","BOT: message","I'll give you some choices.","2018-08-02 16:40:09"
-"2486775194669540","Maika","Isogawa","2596","854518728062939","2486775194669540","BOT: quick reply",":keycap_1: aggressively\n:keycap_2: quixotically\n:keycap_3: fortuitously\n:keycap_4: belligerently\n:keycap_5: indulgently\n","2018-08-02 16:40:11"
-"2486775194669540","Maika","Isogawa","2597","2486775194669540","854518728062939","user_quick_reply: BUTTON_AKB_indulgently",":keycap_5:","2018-08-02 16:40:15"
-"2486775194669540","Maika","Isogawa","2598","854518728062939","2486775194669540","BOT: message","Great! Keep it up! :flexed_biceps_medium-light_skin_tone:","2018-08-02 16:40:17"
-"2486775194669540","Maika","Isogawa","2599","854518728062939","2486775194669540","BOT: quick reply","The correct answer is indulgently.","2018-08-02 16:40:18"
-"2486775194669540","Maika","Isogawa","2600","2486775194669540","854518728062939","user_quick_reply: NEXT_QUESTION","Next question :flexed_biceps_medium-light_skin_tone:","2018-08-02 16:40:21"
-"2486775194669540","Maika","Isogawa","2601","854518728062939","2486775194669540","BOT: message","What about this next question:","2018-08-02 16:40:22"
-"2486775194669540","Maika","Isogawa","2602","854518728062939","2486775194669540","BOT: quick reply","Possessing few natural resources upon its newly-granted independence in 1863, Singapore remained economically _____ until an influx of industrialization and foreign investment took hold there.","2018-08-02 16:40:24"
-"2486775194669540","Maika","Isogawa","2603","2486775194669540","854518728062939","user_quick_reply: NEED_HINT","I need a hint :thinking_face:","2018-08-02 16:40:33"
-"2486775194669540","Maika","Isogawa","2604","854518728062939","2486775194669540","BOT: message","I'll give you some choices.","2018-08-02 16:40:35"
-"2486775194669540","Maika","Isogawa","2605","854518728062939","2486775194669540","BOT: quick reply",":keycap_1: powerful\n:keycap_2: fortuitous\n:keycap_3: prosperous\n:keycap_4: dubious\n:keycap_5: solvent\n","2018-08-02 16:40:36"
-"2486775194669540","Maika","Isogawa","2606","2486775194669540","854518728062939","user_quick_reply: BUTTON_AKB_dubious",":keycap_4:","2018-08-02 16:40:44"
-"2486775194669540","Maika","Isogawa","2607","854518728062939","2486775194669540","BOT: message","Great job getting the correct answer!","2018-08-02 16:40:46"
-"2486775194669540","Maika","Isogawa","2608","854518728062939","2486775194669540","BOT: quick reply","The correct answer is dubious.","2018-08-02 16:40:47"
-"2486775194669540","Maika","Isogawa","2609","2486775194669540","854518728062939","user_quick_reply: WHY","Why?","2018-08-02 16:40:50"
-"2486775194669540","Maika","Isogawa","2610","854518728062939","2486775194669540","BOT: message","This is why:","2018-08-02 16:40:52"
-"2486775194669540","Maika","Isogawa","2611","854518728062939","2486775194669540","BOT: quick reply",":pushpin: Dubious -- fraught with uncertainty or doubt\n:pushpin: Powerful -- having great power or force or potency or effect\n:pushpin: Prosperous -- in fortunate circumstances financially; moderately rich\n:pushpin: Solvent -- capable of meeting financial obligations\n:pushpin: Fortuitous -- having no cause or apparent cause","2018-08-02 16:40:53"
-"2486775194669540","Maika","Isogawa","2612","2486775194669540","854518728062939","user_quick_reply: NEXT_QUESTION","Next question :flexed_biceps:","2018-08-02 16:41:10"
-"2486775194669540","Maika","Isogawa","2613","854518728062939","2486775194669540","BOT: message","Here's a question for you:","2018-08-02 16:41:11"
-"2486775194669540","Maika","Isogawa","2614","854518728062939","2486775194669540","BOT: message","If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:","2018-08-02 16:41:12"
-"2486775194669540","Maika","Isogawa","2615","854518728062939","2486775194669540","BOT: quick reply","Myofibrils are long cylindrical structures that lie parallel to and run the entire length of what fibers?","2018-08-02 16:41:14"
-"2486775194669540","Maika","Isogawa","2622","854518728062939","2486775194669540","BOT: quick reply","Hi Maika, you haven't talked to me for a while. Would you like to resume the learning with me?","2018-08-02 20:00:13"
-"2486775194669540","Maika","Isogawa","2764","854518728062939","2486775194669540","BOT: quick reply","Hi Maika, you haven't talked to me for a while. Would you like to resume the learning with me?","2018-08-03 20:00:27"
-"2486775194669540","Maika","Isogawa","2809","854518728062939","2486775194669540","BOT: quick reply","Hi Maika, you haven't talked to me for a while. Would you like to resume the learning with me?","2018-08-04 20:00:41"
-"2486775194669540","Maika","Isogawa","2822","854518728062939","2486775194669540","BOT: quick reply","Hi Maika, you haven't talked to me for a while. Would you like to resume the learning with me?","2018-08-05 20:00:55"
+user_id,user_firstname,user_lastname,uid,sender,recipient,type,dialogue,time_stamp
+2486775194669540,Maika,Isogawa,1749,2486775194669540,854518728062939,persistent_menu: GET_INTRO_1,Get Started,2018-07-31 14:14:17
+2486775194669540,Maika,Isogawa,1750,854518728062939,2486775194669540,BOT: image,https://www.smartprimer.org:443/pictures/avatar/quizbot_avatar.png,2018-07-31 14:14:21
+2486775194669540,Maika,Isogawa,1751,854518728062939,2486775194669540,BOT: quick reply,"Hi Maika! My name is Frosty :penguin: and Im here to help you learn all about science:microscope:, verbal reasoning (GRE) :input_latin_uppercase:, and safety:hammer_and_wrench:!",2018-07-31 14:14:23
+2486775194669540,Maika,Isogawa,1752,2486775194669540,854518728062939,user_quick_reply: GET_INTRO_2,Alright :oncoming_fist_medium-light_skin_tone:,2018-07-31 14:14:43
+2486775194669540,Maika,Isogawa,1753,854518728062939,2486775194669540,BOT: message,Heres how it works.,2018-07-31 14:14:44
+2486775194669540,Maika,Isogawa,1754,854518728062939,2486775194669540,BOT: message,"I ask you questions, and you give me answers.",2018-07-31 14:14:46
+2486775194669540,Maika,Isogawa,1755,854518728062939,2486775194669540,BOT: quick reply,We will learn fun things together!,2018-07-31 14:14:47
+2486775194669540,Maika,Isogawa,1756,854518728062939,2486775194669540,BOT: image,https://www.smartprimer.org:443/pictures/user_manual/typeanswer.png,2018-07-31 14:15:09
+2486775194669540,Maika,Isogawa,1757,854518728062939,2486775194669540,BOT: quick reply,"To study the questions, you can type in your answers in the text field and I will evaluate the answers for you using advanced NLP (Natural Language Processing) technology.",2018-07-31 14:15:11
+2486775194669540,Maika,Isogawa,1758,2486775194669540,854518728062939,user_quick_reply: GET_INTRO_4,Okay :white_heavy_check_mark:,2018-07-31 14:15:18
+2486775194669540,Maika,Isogawa,1759,854518728062939,2486775194669540,BOT: image,https://www.smartprimer.org:443/pictures/user_manual/needhintbutton.png,2018-07-31 14:15:21
+2486775194669540,Maika,Isogawa,1760,854518728062939,2486775194669540,BOT: quick reply,"If you don't know the answers, then feel free to tap on the hint button.",2018-07-31 14:15:22
+2486775194669540,Maika,Isogawa,1761,854518728062939,2486775194669540,BOT: image,https://www.smartprimer.org:443/pictures/user_manual/hintoptions.png,2018-07-31 14:15:33
+2486775194669540,Maika,Isogawa,1762,854518728062939,2486775194669540,BOT: quick reply,The hint will give you a list of potential answers and you can select one from them.,2018-07-31 14:15:34
+2486775194669540,Maika,Isogawa,1763,2486775194669540,854518728062939,user_quick_reply: GET_INTRO_6,I see :backhand_index_pointing_right_medium-light_skin_tone:,2018-07-31 14:15:39
+2486775194669540,Maika,Isogawa,1764,854518728062939,2486775194669540,BOT: image,https://www.smartprimer.org:443/pictures/user_manual/menubutton.jpg,2018-07-31 14:15:41
+2486775194669540,Maika,Isogawa,1765,854518728062939,2486775194669540,BOT: quick reply,"To discover more abilities of me, you can click on the menu button.:backhand_index_pointing_up_medium-light_skin_tone:",2018-07-31 14:15:43
+2486775194669540,Maika,Isogawa,1766,2486775194669540,854518728062939,user_quick_reply: GET_READY,I see :backhand_index_pointing_right_medium-light_skin_tone:,2018-07-31 14:15:47
+2486775194669540,Maika,Isogawa,1767,854518728062939,2486775194669540,BOT: message,I hope you enjoy the learning journey! :hundred_points:,2018-07-31 14:15:49
+2486775194669540,Maika,Isogawa,1768,854518728062939,2486775194669540,BOT: quick reply,"So, are you ready?",2018-07-31 14:15:50
+2486775194669540,Maika,Isogawa,1769,2486775194669540,854518728062939,user_quick_reply: YUP_IM_READY,Yup! I'm ready! :raised_fist_medium-light_skin_tone:,2018-07-31 14:15:53
+2486775194669540,Maika,Isogawa,1770,854518728062939,2486775194669540,BOT: message,Great!,2018-07-31 14:15:55
+2486775194669540,Maika,Isogawa,1771,854518728062939,2486775194669540,BOT: quick reply,Lets get started :rocket:,2018-07-31 14:15:56
+2486775194669540,Maika,Isogawa,1772,2486775194669540,854518728062939,user_quick_reply: SWITCH_SUBJECT,Quiz me :nerd_face:,2018-07-31 14:16:03
+2486775194669540,Maika,Isogawa,1773,854518728062939,2486775194669540,BOT: quick reply,"Cool, which subject do you want to study?:backhand_index_pointing_down_medium-light_skin_tone:",2018-07-31 14:16:04
+2486775194669540,Maika,Isogawa,1774,2486775194669540,854518728062939,user_quick_reply: SCIENCE,Science:microscope:,2018-07-31 14:16:21
+2486775194669540,Maika,Isogawa,1775,854518728062939,2486775194669540,BOT: quick reply,Science rules! Let's see what you know.,2018-07-31 14:16:22
+2486775194669540,Maika,Isogawa,1776,854518728062939,2486775194669540,BOT: message,Let's try this one.,2018-07-31 14:16:27
+2486775194669540,Maika,Isogawa,1777,854518728062939,2486775194669540,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-07-31 14:16:28
+2486775194669540,Maika,Isogawa,1778,854518728062939,2486775194669540,BOT: quick reply,What are the little sacs at the end of the bronchioles called?,2018-07-31 14:16:30
+2486775194669540,Maika,Isogawa,1779,2486775194669540,854518728062939,user_typing,Tonsils?,2018-07-31 14:16:46
+2486775194669540,Maika,Isogawa,1780,854518728062939,2486775194669540,BOT: message,"Oops, that answer was incorrect. :disappointed_face:",2018-07-31 14:16:47
+2486775194669540,Maika,Isogawa,1781,854518728062939,2486775194669540,BOT: quick reply,The correct answer is alveoli.,2018-07-31 14:16:49
+2486775194669540,Maika,Isogawa,1782,2486775194669540,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-07-31 14:16:58
+2486775194669540,Maika,Isogawa,1783,854518728062939,2486775194669540,BOT: message,Here's a question for you:,2018-07-31 14:16:59
+2486775194669540,Maika,Isogawa,1784,854518728062939,2486775194669540,BOT: quick reply,On what day of the cycle does ovulation usually occur?,2018-07-31 14:17:01
+2486775194669540,Maika,Isogawa,1785,2486775194669540,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-07-31 14:17:08
+2486775194669540,Maika,Isogawa,1786,854518728062939,2486775194669540,BOT: message,It's one of the following choices.,2018-07-31 14:17:09
+2486775194669540,Maika,Isogawa,1787,854518728062939,2486775194669540,BOT: quick reply,":keycap_1: 14th
+:keycap_2: 1st
+:keycap_3: 17th
+:keycap_4: 7th
+",2018-07-31 14:17:10
+2486775194669540,Maika,Isogawa,1788,2486775194669540,854518728062939,user_quick_reply: BUTTON_DKB_7th,:keycap_4:,2018-07-31 14:17:16
+2486775194669540,Maika,Isogawa,1789,854518728062939,2486775194669540,BOT: message,"I'm sorry, but that was incorrect. :disappointed_face:",2018-07-31 14:17:18
+2486775194669540,Maika,Isogawa,1790,854518728062939,2486775194669540,BOT: quick reply,The correct answer is 14th.,2018-07-31 14:17:19
+2486775194669540,Maika,Isogawa,1791,2486775194669540,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-07-31 14:17:24
+2486775194669540,Maika,Isogawa,1792,854518728062939,2486775194669540,BOT: message,See if you can answer this next one.,2018-07-31 14:17:25
+2486775194669540,Maika,Isogawa,1793,854518728062939,2486775194669540,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-07-31 14:17:27
+2486775194669540,Maika,Isogawa,1794,854518728062939,2486775194669540,BOT: quick reply,Myofibrils are long cylindrical structures that lie parallel to and run the entire length of what fibers?,2018-07-31 14:17:29
+2486775194669540,Maika,Isogawa,1795,2486775194669540,854518728062939,user_quick_reply: I_DONT_KNOW,I dont know :downcast_face_with_sweat:,2018-07-31 14:17:34
+2486775194669540,Maika,Isogawa,1796,854518728062939,2486775194669540,BOT: quick reply,Are you sure you want to skip answering?,2018-07-31 14:17:36
+2486775194669540,Maika,Isogawa,1797,2486775194669540,854518728062939,user_quick_reply: GIVEUP_YES,"Yes, answer please.",2018-07-31 14:17:42
+2486775194669540,Maika,Isogawa,1798,854518728062939,2486775194669540,BOT: message,"I'm sorry, you didn't get the question right this time.",2018-07-31 14:17:44
+2486775194669540,Maika,Isogawa,1799,854518728062939,2486775194669540,BOT: message,"Keep trying, you'll get it next time! :grinning_face_with_smiling_eyes:",2018-07-31 14:17:45
+2486775194669540,Maika,Isogawa,1800,854518728062939,2486775194669540,BOT: quick reply,The correct answer is skeletal muscle fibers.,2018-07-31 14:17:47
+2486775194669540,Maika,Isogawa,1801,2486775194669540,854518728062939,user_quick_reply: SWITCH_SUBJECT,Switch subject :shuffle_tracks_button:,2018-07-31 14:17:53
+2486775194669540,Maika,Isogawa,1802,854518728062939,2486775194669540,BOT: quick reply,"Okay, which subject would you like to choose?:backhand_index_pointing_down_medium-light_skin_tone:",2018-07-31 14:17:54
+2486775194669540,Maika,Isogawa,1803,2486775194669540,854518728062939,user_quick_reply: RANDOM,Random :game_die:,2018-07-31 14:17:57
+2486775194669540,Maika,Isogawa,1804,854518728062939,2486775194669540,BOT: image,https://www.smartprimer.org:443/pictures/avatar/evolvescientist_normal.gif,2018-07-31 14:18:00
+2486775194669540,Maika,Isogawa,1805,854518728062939,2486775194669540,BOT: quick reply,Let's answer some questions about everything! :game_die:,2018-07-31 14:18:02
+2486775194669540,Maika,Isogawa,1806,2486775194669540,854518728062939,user_quick_reply: NEXT_QUESTION,Okay :collision:,2018-07-31 14:18:06
+2486775194669540,Maika,Isogawa,1807,854518728062939,2486775194669540,BOT: message,Could you answer this one for me?,2018-07-31 14:18:07
+2486775194669540,Maika,Isogawa,1808,854518728062939,2486775194669540,BOT: quick reply,What are by far the most common type of invertebrate?,2018-07-31 14:18:09
+2486775194669540,Maika,Isogawa,1809,2486775194669540,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-07-31 14:18:19
+2486775194669540,Maika,Isogawa,1810,854518728062939,2486775194669540,BOT: message,Which of the following options is the right answer?,2018-07-31 14:18:20
+2486775194669540,Maika,Isogawa,1811,854518728062939,2486775194669540,BOT: quick reply,":keycap_1: corals
+:keycap_2: spiders
+:keycap_3: crustaceans
+:keycap_4: insects
+",2018-07-31 14:18:21
+2486775194669540,Maika,Isogawa,1812,2486775194669540,854518728062939,user_quick_reply: BUTTON_DKB_crustaceans,:keycap_3:,2018-07-31 14:18:26
+2486775194669540,Maika,Isogawa,1813,854518728062939,2486775194669540,BOT: message,"Hmm, that wasn't quite right. :disappointed_face:",2018-07-31 14:18:28
+2486775194669540,Maika,Isogawa,1814,854518728062939,2486775194669540,BOT: quick reply,The correct answer is insects.,2018-07-31 14:18:29
+2486775194669540,Maika,Isogawa,1815,2486775194669540,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-07-31 14:18:32
+2486775194669540,Maika,Isogawa,1816,854518728062939,2486775194669540,BOT: message,Let's try this one.,2018-07-31 14:18:34
+2486775194669540,Maika,Isogawa,1817,854518728062939,2486775194669540,BOT: quick reply,"Arrange in the correct order the following treatment steps for somebody who has lost consciousness: (i) call 911 or inform someone of the situation, (ii) begin CPR, (iii) check the patient's airway to make sure it is clear, (iv) place the victim on his/her back, (v) check signs of life (coughing, breathing, or movement).",2018-07-31 14:18:36
+2486775194669540,Maika,Isogawa,1818,2486775194669540,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-07-31 14:18:55
+2486775194669540,Maika,Isogawa,1819,854518728062939,2486775194669540,BOT: message,It's one of the following choices.,2018-07-31 14:18:57
+2486775194669540,Maika,Isogawa,1820,854518728062939,2486775194669540,BOT: quick reply,":keycap_1: v, iv, iii, i, ii
+:keycap_2: iv, i, iii, v, ii
+:keycap_3: i, ii, iii, iv, v
+:keycap_4: ii, iv, iii, v, i
+",2018-07-31 14:18:58
+2486775194669540,Maika,Isogawa,1821,2486775194669540,854518728062939,"user_quick_reply: BUTTON_AKB_iv, i, iii, v, ii",:keycap_2:,2018-07-31 14:19:08
+2486775194669540,Maika,Isogawa,1822,854518728062939,2486775194669540,BOT: message,Great! Keep it up! :flexed_biceps_medium-light_skin_tone:,2018-07-31 14:19:10
+2486775194669540,Maika,Isogawa,1823,854518728062939,2486775194669540,BOT: quick reply,"The correct answer is iv, i, iii, v, ii.",2018-07-31 14:19:11
+2486775194669540,Maika,Isogawa,1824,2486775194669540,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-07-31 14:19:14
+2486775194669540,Maika,Isogawa,1825,854518728062939,2486775194669540,BOT: message,Could you answer this one for me?,2018-07-31 14:19:16
+2486775194669540,Maika,Isogawa,1826,854518728062939,2486775194669540,BOT: quick reply,"If one were asked who transmitted the first radio broadcast of the human voice, one might guess the _____ inventor Guglielmo Marconi, but in fact the feat was accomplished by the much less well-known Reginald Fessenden.",2018-07-31 14:19:17
+2486775194669540,Maika,Isogawa,2170,2486775194669540,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-01 13:33:53
+2486775194669540,Maika,Isogawa,2171,854518728062939,2486775194669540,BOT: message,Pick one of the following answers.,2018-08-01 13:33:55
+2486775194669540,Maika,Isogawa,2172,854518728062939,2486775194669540,BOT: quick reply,":keycap_1: contingent
+:keycap_2: renowned
+:keycap_3: cogent
+:keycap_4: insistent
+:keycap_5: infamous
+",2018-08-01 13:33:56
+2486775194669540,Maika,Isogawa,2173,2486775194669540,854518728062939,user_quick_reply: BUTTON_AKB_renowned,:keycap_2:,2018-08-01 13:34:08
+2486775194669540,Maika,Isogawa,2174,854518728062939,2486775194669540,BOT: message,Nice work! Keep it up!,2018-08-01 13:34:10
+2486775194669540,Maika,Isogawa,2175,854518728062939,2486775194669540,BOT: quick reply,The correct answer is renowned.,2018-08-01 13:34:11
+2486775194669540,Maika,Isogawa,2176,2486775194669540,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-01 13:34:15
+2486775194669540,Maika,Isogawa,2177,854518728062939,2486775194669540,BOT: message,"Alrighty, let's try this one.",2018-08-01 13:34:16
+2486775194669540,Maika,Isogawa,2178,854518728062939,2486775194669540,BOT: quick reply,"If one were asked who transmitted the first radio broadcast of the human voice, one might guess the _____ inventor Guglielmo Marconi, but in fact the feat was accomplished by the much less well-known Reginald Fessenden.",2018-08-01 13:34:18
+2486775194669540,Maika,Isogawa,2179,2486775194669540,854518728062939,user_typing,Renowned,2018-08-01 13:34:29
+2486775194669540,Maika,Isogawa,2180,854518728062939,2486775194669540,BOT: image,https://www.smartprimer.org:443/pictures/avatar/congrats/penguinnormal_happy_pink.png,2018-08-01 13:34:31
+2486775194669540,Maika,Isogawa,2181,854518728062939,2486775194669540,BOT: message,Good job! :raising_hands_medium-light_skin_tone:,2018-08-01 13:34:32
+2486775194669540,Maika,Isogawa,2182,854518728062939,2486775194669540,BOT: quick reply,The correct answer is renowned.,2018-08-01 13:34:34
+2486775194669540,Maika,Isogawa,2183,2486775194669540,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-01 13:34:37
+2486775194669540,Maika,Isogawa,2184,854518728062939,2486775194669540,BOT: message,Let's see if you can get this one.,2018-08-01 13:34:38
+2486775194669540,Maika,Isogawa,2185,854518728062939,2486775194669540,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-01 13:34:40
+2486775194669540,Maika,Isogawa,2186,854518728062939,2486775194669540,BOT: quick reply,"When your brain senses that your body temperature is increasing, it sends messages to the blood vessels in the skin to increase in what?",2018-08-01 13:34:41
+2486775194669540,Maika,Isogawa,2187,2486775194669540,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-01 13:34:48
+2486775194669540,Maika,Isogawa,2188,854518728062939,2486775194669540,BOT: message,I'll give you some choices.,2018-08-01 13:34:50
+2486775194669540,Maika,Isogawa,2189,854518728062939,2486775194669540,BOT: quick reply,":keycap_1: height
+:keycap_2: diameter
+:keycap_3: weight
+:keycap_4: surface
+",2018-08-01 13:34:51
+2486775194669540,Maika,Isogawa,2190,2486775194669540,854518728062939,user_quick_reply: BUTTON_AKB_diameter,:keycap_2:,2018-08-01 13:34:57
+2486775194669540,Maika,Isogawa,2191,854518728062939,2486775194669540,BOT: image,https://www.smartprimer.org:443/pictures/avatar/congrats/penguinnormal_jubilated_cyan.png,2018-08-01 13:34:59
+2486775194669540,Maika,Isogawa,2192,854518728062939,2486775194669540,BOT: message,Yes! You got the correct answer!,2018-08-01 13:35:00
+2486775194669540,Maika,Isogawa,2193,854518728062939,2486775194669540,BOT: quick reply,The correct answer is diameter.,2018-08-01 13:35:02
+2486775194669540,Maika,Isogawa,2194,2486775194669540,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-01 13:35:05
+2486775194669540,Maika,Isogawa,2195,854518728062939,2486775194669540,BOT: message,Could you answer this one for me?,2018-08-01 13:35:06
+2486775194669540,Maika,Isogawa,2196,854518728062939,2486775194669540,BOT: quick reply,The hint shows a list of food items and the minimum internal food temperature at which they should be cooked. Which of these is incorrect?,2018-08-01 13:35:08
+2486775194669540,Maika,Isogawa,2197,2486775194669540,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-01 13:35:16
+2486775194669540,Maika,Isogawa,2198,854518728062939,2486775194669540,BOT: message,Which of the following options is the right answer?,2018-08-01 13:35:17
+2486775194669540,Maika,Isogawa,2199,854518728062939,2486775194669540,BOT: quick reply,":keycap_1: Eggs: 145 degrees Fahrenheit
+:keycap_2: Ground beef: 160 degrees Fahrenheit
+:keycap_3: Fish and Shellfish: 145 degrees Fahrenheit
+:keycap_4: Leftovers: 165 degrees Fahrenheit
+",2018-08-01 13:35:19
+2486775194669540,Maika,Isogawa,2200,2486775194669540,854518728062939,user_quick_reply: BUTTON_DKB_Ground beef: 160 degrees Fahrenheit,:keycap_2:,2018-08-01 13:35:28
+2486775194669540,Maika,Isogawa,2201,854518728062939,2486775194669540,BOT: message,That's not quite right. :disappointed_face:,2018-08-01 13:35:30
+2486775194669540,Maika,Isogawa,2202,854518728062939,2486775194669540,BOT: quick reply,The correct answer is Eggs: 145 degrees Fahrenheit.,2018-08-01 13:35:31
+2486775194669540,Maika,Isogawa,2203,2486775194669540,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-01 13:35:36
+2486775194669540,Maika,Isogawa,2204,854518728062939,2486775194669540,BOT: message,Let's see if you can answer this question.,2018-08-01 13:35:38
+2486775194669540,Maika,Isogawa,2205,854518728062939,2486775194669540,BOT: quick reply,How long can high-acid canned food such as tomatoes be stored?,2018-08-01 13:35:39
+2486775194669540,Maika,Isogawa,2206,2486775194669540,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-01 13:35:44
+2486775194669540,Maika,Isogawa,2207,854518728062939,2486775194669540,BOT: message,Which of the following options is the right answer?,2018-08-01 13:35:46
+2486775194669540,Maika,Isogawa,2208,854518728062939,2486775194669540,BOT: quick reply,":keycap_1: 10 to 30 days
+:keycap_2: 2 to 4 years
+:keycap_3: 12 to 18 months
+:keycap_4: 2 to 6 months
+",2018-08-01 13:35:47
+2486775194669540,Maika,Isogawa,2209,2486775194669540,854518728062939,user_quick_reply: BUTTON_AKB_12 to 18 months,:keycap_3:,2018-08-01 13:35:55
+2486775194669540,Maika,Isogawa,2210,854518728062939,2486775194669540,BOT: image,https://www.smartprimer.org:443/pictures/avatar/congrats/penguinnormal_happy_orange.png,2018-08-01 13:35:57
+2486775194669540,Maika,Isogawa,2211,854518728062939,2486775194669540,BOT: message,Great job!,2018-08-01 13:35:59
+2486775194669540,Maika,Isogawa,2212,854518728062939,2486775194669540,BOT: quick reply,The correct answer is 12 to 18 months.,2018-08-01 13:36:00
+2486775194669540,Maika,Isogawa,2213,2486775194669540,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-01 13:36:02
+2486775194669540,Maika,Isogawa,2214,854518728062939,2486775194669540,BOT: message,Would you answer this question for me?,2018-08-01 13:36:04
+2486775194669540,Maika,Isogawa,2215,854518728062939,2486775194669540,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-01 13:36:05
+2486775194669540,Maika,Isogawa,2216,854518728062939,2486775194669540,BOT: quick reply,Seth was extremely _____ and did not enjoy activities that required effort to meet new people.,2018-08-01 13:36:07
+2486775194669540,Maika,Isogawa,2217,2486775194669540,854518728062939,user_typing,Introverted,2018-08-01 13:36:15
+2486775194669540,Maika,Isogawa,2218,854518728062939,2486775194669540,BOT: message,Good Answer! :white_heavy_check_mark:,2018-08-01 13:36:17
+2486775194669540,Maika,Isogawa,2219,854518728062939,2486775194669540,BOT: quick reply,The correct answer is introverted.,2018-08-01 13:36:18
+2486775194669540,Maika,Isogawa,2220,2486775194669540,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-01 13:36:21
+2486775194669540,Maika,Isogawa,2221,854518728062939,2486775194669540,BOT: message,Could you answer this one for me?,2018-08-01 13:36:22
+2486775194669540,Maika,Isogawa,2222,854518728062939,2486775194669540,BOT: quick reply,"Having squandered his life's savings on unprofitable business ventures, the _____ entrepreneur was forced to live in squalor.",2018-08-01 13:36:24
+2486775194669540,Maika,Isogawa,2223,2486775194669540,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-01 13:36:31
+2486775194669540,Maika,Isogawa,2224,854518728062939,2486775194669540,BOT: message,Which of the following options is the right answer?,2018-08-01 13:36:32
+2486775194669540,Maika,Isogawa,2225,854518728062939,2486775194669540,BOT: quick reply,":keycap_1: insolvent
+:keycap_2: former
+:keycap_3: perturbed
+:keycap_4: eccentric
+:keycap_5: unlikely
+",2018-08-01 13:36:34
+2486775194669540,Maika,Isogawa,2226,2486775194669540,854518728062939,user_quick_reply: BUTTON_DKB_perturbed,:keycap_3:,2018-08-01 13:36:42
+2486775194669540,Maika,Isogawa,2227,854518728062939,2486775194669540,BOT: message,"I'm sorry, but that was incorrect. :disappointed_face:",2018-08-01 13:36:44
+2486775194669540,Maika,Isogawa,2228,854518728062939,2486775194669540,BOT: quick reply,The correct answer is insolvent.,2018-08-01 13:36:45
+2486775194669540,Maika,Isogawa,2229,2486775194669540,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-01 13:36:51
+2486775194669540,Maika,Isogawa,2230,854518728062939,2486775194669540,BOT: message,What about this next question:,2018-08-01 13:36:52
+2486775194669540,Maika,Isogawa,2231,854518728062939,2486775194669540,BOT: quick reply,Some historians see the Jacksonians as little more than ruthless capitalists who had _____ regard for individual welfare.,2018-08-01 13:36:54
+2486775194669540,Maika,Isogawa,2232,2486775194669540,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-01 13:37:34
+2486775194669540,Maika,Isogawa,2233,854518728062939,2486775194669540,BOT: message,It's one of the following choices.,2018-08-01 13:37:35
+2486775194669540,Maika,Isogawa,2234,854518728062939,2486775194669540,BOT: quick reply,":keycap_1: undue
+:keycap_2: obtrusive
+:keycap_3: mixed
+:keycap_4: scant
+:keycap_5: inconsistent
+",2018-08-01 13:37:37
+2486775194669540,Maika,Isogawa,2235,2486775194669540,854518728062939,user_quick_reply: BUTTON_AKB_scant,:keycap_4:,2018-08-01 13:37:45
+2486775194669540,Maika,Isogawa,2236,854518728062939,2486775194669540,BOT: image,https://www.smartprimer.org:443/pictures/avatar/congrats/penguinnormal_happy_pink.png,2018-08-01 13:37:48
+2486775194669540,Maika,Isogawa,2237,854518728062939,2486775194669540,BOT: message,Yes! You got the correct answer!,2018-08-01 13:37:49
+2486775194669540,Maika,Isogawa,2238,854518728062939,2486775194669540,BOT: quick reply,The correct answer is scant.,2018-08-01 13:37:50
+2486775194669540,Maika,Isogawa,2239,2486775194669540,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-01 13:37:53
+2486775194669540,Maika,Isogawa,2240,854518728062939,2486775194669540,BOT: message,Here's a question for you:,2018-08-01 13:37:54
+2486775194669540,Maika,Isogawa,2241,854518728062939,2486775194669540,BOT: quick reply,The hint shows a list of food items and the minimum internal food temperature at which they should be cooked. Which of these is incorrect?,2018-08-01 13:37:56
+2486775194669540,Maika,Isogawa,2242,2486775194669540,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-01 13:38:01
+2486775194669540,Maika,Isogawa,2243,854518728062939,2486775194669540,BOT: message,It's one of the following choices.,2018-08-01 13:38:03
+2486775194669540,Maika,Isogawa,2244,854518728062939,2486775194669540,BOT: quick reply,":keycap_1: Eggs: 145 degrees Fahrenheit
+:keycap_2: Leftovers: 165 degrees Fahrenheit
+:keycap_3: Fish and Shellfish: 145 degrees Fahrenheit
+:keycap_4: Ground beef: 160 degrees Fahrenheit
+",2018-08-01 13:38:04
+2486775194669540,Maika,Isogawa,2245,2486775194669540,854518728062939,user_quick_reply: BUTTON_AKB_Eggs: 145 degrees Fahrenheit,:keycap_1:,2018-08-01 13:38:07
+2486775194669540,Maika,Isogawa,2246,854518728062939,2486775194669540,BOT: message,Great job getting the correct answer!,2018-08-01 13:38:08
+2486775194669540,Maika,Isogawa,2247,854518728062939,2486775194669540,BOT: quick reply,The correct answer is Eggs: 145 degrees Fahrenheit.,2018-08-01 13:38:10
+2486775194669540,Maika,Isogawa,2248,2486775194669540,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-01 13:38:13
+2486775194669540,Maika,Isogawa,2249,854518728062939,2486775194669540,BOT: message,Let's see if you would answer this one.,2018-08-01 13:38:14
+2486775194669540,Maika,Isogawa,2250,854518728062939,2486775194669540,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-01 13:38:15
+2486775194669540,Maika,Isogawa,2251,854518728062939,2486775194669540,BOT: quick reply,"What is a therian mammal in which the embryo is born at an early, immature stage?",2018-08-01 13:38:17
+2486775194669540,Maika,Isogawa,2252,2486775194669540,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-01 13:38:24
+2486775194669540,Maika,Isogawa,2253,854518728062939,2486775194669540,BOT: message,I'll give you some choices.,2018-08-01 13:38:25
+2486775194669540,Maika,Isogawa,2254,854518728062939,2486775194669540,BOT: quick reply,":keycap_1: carnivore
+:keycap_2: marsupial
+:keycap_3: bat
+:keycap_4: rodent
+",2018-08-01 13:38:27
+2486775194669540,Maika,Isogawa,2255,2486775194669540,854518728062939,user_quick_reply: BUTTON_DKB_bat,:keycap_3:,2018-08-01 13:38:33
+2486775194669540,Maika,Isogawa,2256,854518728062939,2486775194669540,BOT: message,That's not quite right. :disappointed_face:,2018-08-01 13:38:34
+2486775194669540,Maika,Isogawa,2257,854518728062939,2486775194669540,BOT: quick reply,The correct answer is marsupial.,2018-08-01 13:38:36
+2486775194669540,Maika,Isogawa,2258,2486775194669540,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-01 13:38:39
+2486775194669540,Maika,Isogawa,2259,854518728062939,2486775194669540,BOT: message,Could you answer this one for me?,2018-08-01 13:38:40
+2486775194669540,Maika,Isogawa,2260,854518728062939,2486775194669540,BOT: quick reply,To what does the acronym SLM refer?,2018-08-01 13:38:42
+2486775194669540,Maika,Isogawa,2261,2486775194669540,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-01 13:38:45
+2486775194669540,Maika,Isogawa,2262,854518728062939,2486775194669540,BOT: message,It's one of the following choices.,2018-08-01 13:38:46
+2486775194669540,Maika,Isogawa,2263,854518728062939,2486775194669540,BOT: quick reply,":keycap_1: System Level Monitor
+:keycap_2: Sound Loudness Methods
+:keycap_3: Sound Level Meter
+:keycap_4: Service Lifecycle Management
+",2018-08-01 13:38:47
+2486775194669540,Maika,Isogawa,2264,2486775194669540,854518728062939,user_quick_reply: BUTTON_AKB_Sound Level Meter,:keycap_3:,2018-08-01 13:38:55
+2486775194669540,Maika,Isogawa,2265,854518728062939,2486775194669540,BOT: message,Great! Keep it up! :flexed_biceps_medium-light_skin_tone:,2018-08-01 13:38:56
+2486775194669540,Maika,Isogawa,2266,854518728062939,2486775194669540,BOT: quick reply,The correct answer is Sound Level Meter.,2018-08-01 13:38:58
+2486775194669540,Maika,Isogawa,2267,2486775194669540,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-01 13:39:00
+2486775194669540,Maika,Isogawa,2268,854518728062939,2486775194669540,BOT: message,How about this next one:,2018-08-01 13:39:01
+2486775194669540,Maika,Isogawa,2269,854518728062939,2486775194669540,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-01 13:39:03
+2486775194669540,Maika,Isogawa,2270,854518728062939,2486775194669540,BOT: quick reply,Seth was extremely _____ and did not enjoy activities that required effort to meet new people.,2018-08-01 13:39:04
+2486775194669540,Maika,Isogawa,2271,2486775194669540,854518728062939,user_typing,Introverted,2018-08-01 13:39:13
+2486775194669540,Maika,Isogawa,2272,854518728062939,2486775194669540,BOT: message,Correct! :confetti_ball:,2018-08-01 13:39:14
+2486775194669540,Maika,Isogawa,2273,854518728062939,2486775194669540,BOT: quick reply,The correct answer is introverted.,2018-08-01 13:39:16
+2486775194669540,Maika,Isogawa,2274,2486775194669540,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-01 13:39:21
+2486775194669540,Maika,Isogawa,2275,854518728062939,2486775194669540,BOT: message,How about this next one:,2018-08-01 13:39:23
+2486775194669540,Maika,Isogawa,2276,854518728062939,2486775194669540,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-01 13:39:24
+2486775194669540,Maika,Isogawa,2277,854518728062939,2486775194669540,BOT: quick reply,"Though many _____ endlessly praised his work, Dan often wished for some honest criticism.",2018-08-01 13:39:26
+2486775194669540,Maika,Isogawa,2278,2486775194669540,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-01 13:39:33
+2486775194669540,Maika,Isogawa,2279,854518728062939,2486775194669540,BOT: message,Which of the following options is the right answer?,2018-08-01 13:39:34
+2486775194669540,Maika,Isogawa,2280,854518728062939,2486775194669540,BOT: quick reply,":keycap_1: benefactors
+:keycap_2: adversaries
+:keycap_3: pedants
+:keycap_4: sycophants
+:keycap_5: mavericks
+",2018-08-01 13:39:36
+2486775194669540,Maika,Isogawa,2281,2486775194669540,854518728062939,user_quick_reply: BUTTON_AKB_sycophants,:keycap_4:,2018-08-01 13:39:42
+2486775194669540,Maika,Isogawa,2282,854518728062939,2486775194669540,BOT: image,https://www.smartprimer.org:443/pictures/avatar/congrats/penguinnormal_jubilated_cyan.png,2018-08-01 13:39:45
+2486775194669540,Maika,Isogawa,2283,854518728062939,2486775194669540,BOT: message,Great! Keep it up! :flexed_biceps_medium-light_skin_tone:,2018-08-01 13:39:46
+2486775194669540,Maika,Isogawa,2284,854518728062939,2486775194669540,BOT: quick reply,The correct answer is sycophants.,2018-08-01 13:39:48
+2486775194669540,Maika,Isogawa,2285,2486775194669540,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-01 13:39:49
+2486775194669540,Maika,Isogawa,2286,854518728062939,2486775194669540,BOT: message,I think you'll like this question.,2018-08-01 13:39:51
+2486775194669540,Maika,Isogawa,2287,854518728062939,2486775194669540,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-01 13:39:52
+2486775194669540,Maika,Isogawa,2288,854518728062939,2486775194669540,BOT: quick reply,"Repulsed by _____ employees, the executive informed his staff that he preferred constructive criticism to calculated flattery.",2018-08-01 13:39:54
+2486775194669540,Maika,Isogawa,2289,2486775194669540,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-01 13:39:58
+2486775194669540,Maika,Isogawa,2290,854518728062939,2486775194669540,BOT: message,Which of the following options is the right answer?,2018-08-01 13:40:00
+2486775194669540,Maika,Isogawa,2291,854518728062939,2486775194669540,BOT: quick reply,":keycap_1: profligate
+:keycap_2: natty
+:keycap_3: obsequious
+:keycap_4: sententious
+:keycap_5: rapacious
+",2018-08-01 13:40:01
+2486775194669540,Maika,Isogawa,2292,2486775194669540,854518728062939,user_quick_reply: BUTTON_AKB_obsequious,:keycap_3:,2018-08-01 13:40:09
+2486775194669540,Maika,Isogawa,2293,854518728062939,2486775194669540,BOT: message,Nice work! Keep it up!,2018-08-01 13:40:11
+2486775194669540,Maika,Isogawa,2294,854518728062939,2486775194669540,BOT: quick reply,The correct answer is obsequious.,2018-08-01 13:40:12
+2486775194669540,Maika,Isogawa,2295,2486775194669540,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-01 13:40:15
+2486775194669540,Maika,Isogawa,2296,854518728062939,2486775194669540,BOT: message,Here's a question for you:,2018-08-01 13:40:16
+2486775194669540,Maika,Isogawa,2297,854518728062939,2486775194669540,BOT: quick reply,"In psychological literature, the ""sleeper effect"" refers to the phenomenon in which a persuasive message from a trustworthy source loses _____ over time, while the efficacy of a message from a less credible source simultaneously increases.",2018-08-01 13:40:18
+2486775194669540,Maika,Isogawa,2298,2486775194669540,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-01 13:40:25
+2486775194669540,Maika,Isogawa,2299,854518728062939,2486775194669540,BOT: message,Which of the following options is the right answer?,2018-08-01 13:40:26
+2486775194669540,Maika,Isogawa,2300,854518728062939,2486775194669540,BOT: quick reply,":keycap_1: control
+:keycap_2: evasiveness
+:keycap_3: cogency
+:keycap_4: erudition
+:keycap_5: prescience
+",2018-08-01 13:40:28
+2486775194669540,Maika,Isogawa,2301,2486775194669540,854518728062939,user_quick_reply: BUTTON_AKB_cogency,:keycap_3:,2018-08-01 13:40:37
+2486775194669540,Maika,Isogawa,2302,854518728062939,2486775194669540,BOT: image,https://www.smartprimer.org:443/pictures/avatar/congrats/penguinnormal_happy_cyan.png,2018-08-01 13:40:39
+2486775194669540,Maika,Isogawa,2303,854518728062939,2486775194669540,BOT: message,Great! Keep it up! :flexed_biceps_medium-light_skin_tone:,2018-08-01 13:40:41
+2486775194669540,Maika,Isogawa,2304,854518728062939,2486775194669540,BOT: quick reply,The correct answer is cogency.,2018-08-01 13:40:42
+2486775194669540,Maika,Isogawa,2305,2486775194669540,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-01 13:40:46
+2486775194669540,Maika,Isogawa,2306,854518728062939,2486775194669540,BOT: message,Let's see if you can answer this question.,2018-08-01 13:40:47
+2486775194669540,Maika,Isogawa,2307,854518728062939,2486775194669540,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-01 13:40:49
+2486775194669540,Maika,Isogawa,2308,854518728062939,2486775194669540,BOT: quick reply,"When you discover a fire, you should do what?",2018-08-01 13:40:50
+2486775194669540,Maika,Isogawa,2309,2486775194669540,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-01 13:40:58
+2486775194669540,Maika,Isogawa,2310,854518728062939,2486775194669540,BOT: message,Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-08-01 13:40:59
+2486775194669540,Maika,Isogawa,2311,854518728062939,2486775194669540,BOT: quick reply,":keycap_1: Stay in the building until you figure out a way to extinguish the fire
+:keycap_2: Pull the fire alarm and call the fire department
+:keycap_3: Use a fire extinguisher to put out the fire, even if you've never used a fire extinguisher before
+:keycap_4: Run out of the building without warning others of the fire
+",2018-08-01 13:41:01
+2486775194669540,Maika,Isogawa,2312,2486775194669540,854518728062939,user_quick_reply: BUTTON_AKB_Pull the fire alarm and call the fire department,:keycap_2:,2018-08-01 13:41:14
+2486775194669540,Maika,Isogawa,2313,854518728062939,2486775194669540,BOT: message,Great job!,2018-08-01 13:41:16
+2486775194669540,Maika,Isogawa,2314,854518728062939,2486775194669540,BOT: quick reply,The correct answer is Pull the fire alarm and call the fire department.,2018-08-01 13:41:17
+2486775194669540,Maika,Isogawa,2506,2486775194669540,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-02 16:34:34
+2486775194669540,Maika,Isogawa,2507,854518728062939,2486775194669540,BOT: message,Let's try this question.,2018-08-02 16:34:36
+2486775194669540,Maika,Isogawa,2508,854518728062939,2486775194669540,BOT: quick reply,"Modern tennis fans have come to realize that, although, quantum technological leaps in racquet technology have lead to _____ increases in the speed and power with which players can hit the ball, this has not necessarily lead to a more entertaining game.",2018-08-02 16:34:37
+2486775194669540,Maika,Isogawa,2509,2486775194669540,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-02 16:34:43
+2486775194669540,Maika,Isogawa,2510,854518728062939,2486775194669540,BOT: message,It's one of the following choices.,2018-08-02 16:34:45
+2486775194669540,Maika,Isogawa,2511,854518728062939,2486775194669540,BOT: quick reply,":keycap_1: malleable
+:keycap_2: commensurate
+:keycap_3: halcyon
+:keycap_4: innocuous
+:keycap_5: tractable
+",2018-08-02 16:34:46
+2486775194669540,Maika,Isogawa,2512,2486775194669540,854518728062939,user_quick_reply: BUTTON_DKB_tractable,:keycap_5:,2018-08-02 16:35:00
+2486775194669540,Maika,Isogawa,2513,854518728062939,2486775194669540,BOT: message,"Hmm, that wasn't quite right. :disappointed_face:",2018-08-02 16:35:01
+2486775194669540,Maika,Isogawa,2514,854518728062939,2486775194669540,BOT: quick reply,The correct answer is commensurate.,2018-08-02 16:35:03
+2486775194669540,Maika,Isogawa,2515,2486775194669540,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-02 16:35:06
+2486775194669540,Maika,Isogawa,2516,854518728062939,2486775194669540,BOT: message,What about this next question:,2018-08-02 16:35:08
+2486775194669540,Maika,Isogawa,2517,854518728062939,2486775194669540,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-02 16:35:09
+2486775194669540,Maika,Isogawa,2518,854518728062939,2486775194669540,BOT: quick reply,How do very massive stars end their lives?,2018-08-02 16:35:11
+2486775194669540,Maika,Isogawa,2519,2486775194669540,854518728062939,user_typing,Supernova,2018-08-02 16:35:20
+2486775194669540,Maika,Isogawa,2520,854518728062939,2486775194669540,BOT: message,That wasn't quite what we were looking for. :disappointed_face:,2018-08-02 16:35:22
+2486775194669540,Maika,Isogawa,2521,854518728062939,2486775194669540,BOT: quick reply,The correct answer is become red supergiants.,2018-08-02 16:35:23
+2486775194669540,Maika,Isogawa,2522,2486775194669540,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-02 16:35:29
+2486775194669540,Maika,Isogawa,2523,854518728062939,2486775194669540,BOT: message,Let's try this one.,2018-08-02 16:35:30
+2486775194669540,Maika,Isogawa,2524,854518728062939,2486775194669540,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-02 16:35:32
+2486775194669540,Maika,Isogawa,2525,854518728062939,2486775194669540,BOT: quick reply,"Although John F. Kennedy was known for his carefree flag football games, Gerald Ford should be _____ as our football president: he turned down offers to play for two National Football League teams in order to pursue a career in public service.",2018-08-02 16:35:33
+2486775194669540,Maika,Isogawa,2526,2486775194669540,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-02 16:35:44
+2486775194669540,Maika,Isogawa,2527,854518728062939,2486775194669540,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-08-02 16:35:45
+2486775194669540,Maika,Isogawa,2528,854518728062939,2486775194669540,BOT: quick reply,":keycap_1: criticized
+:keycap_2: apotheosized
+:keycap_3: abrogated
+:keycap_4: relegated
+:keycap_5: annulled
+",2018-08-02 16:35:47
+2486775194669540,Maika,Isogawa,2529,2486775194669540,854518728062939,user_quick_reply: BUTTON_AKB_apotheosized,:keycap_2:,2018-08-02 16:35:55
+2486775194669540,Maika,Isogawa,2530,854518728062939,2486775194669540,BOT: message,Yes! You got the correct answer!,2018-08-02 16:35:56
+2486775194669540,Maika,Isogawa,2531,854518728062939,2486775194669540,BOT: quick reply,The correct answer is apotheosized.,2018-08-02 16:35:58
+2486775194669540,Maika,Isogawa,2532,2486775194669540,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-02 16:36:00
+2486775194669540,Maika,Isogawa,2533,854518728062939,2486775194669540,BOT: message,Let's take a look at this question.,2018-08-02 16:36:02
+2486775194669540,Maika,Isogawa,2534,854518728062939,2486775194669540,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-02 16:36:03
+2486775194669540,Maika,Isogawa,2535,854518728062939,2486775194669540,BOT: quick reply,How do very massive stars end their lives?,2018-08-02 16:36:05
+2486775194669540,Maika,Isogawa,2536,2486775194669540,854518728062939,user_typing,Become red supergiants,2018-08-02 16:36:28
+2486775194669540,Maika,Isogawa,2537,854518728062939,2486775194669540,BOT: image,https://www.smartprimer.org:443/pictures/avatar/congrats/penguinnormal_happy_purple.png,2018-08-02 16:36:31
+2486775194669540,Maika,Isogawa,2538,854518728062939,2486775194669540,BOT: message,Nice! :red_apple:,2018-08-02 16:36:32
+2486775194669540,Maika,Isogawa,2539,854518728062939,2486775194669540,BOT: quick reply,The correct answer is become red supergiants.,2018-08-02 16:36:34
+2486775194669540,Maika,Isogawa,2540,2486775194669540,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-02 16:36:37
+2486775194669540,Maika,Isogawa,2541,854518728062939,2486775194669540,BOT: message,Let's take a look at this question.,2018-08-02 16:36:38
+2486775194669540,Maika,Isogawa,2542,854518728062939,2486775194669540,BOT: quick reply,Which fire extinguishers are used to put out fires caused by flammable liquids?,2018-08-02 16:36:40
+2486775194669540,Maika,Isogawa,2543,2486775194669540,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-02 16:36:49
+2486775194669540,Maika,Isogawa,2544,854518728062939,2486775194669540,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-08-02 16:36:50
+2486775194669540,Maika,Isogawa,2545,854518728062939,2486775194669540,BOT: quick reply,":keycap_1: Class A water fire extinguishers
+:keycap_2: Class B carbon dioxide fire extinguisher
+:keycap_3: Class C dry chemical fire extinguisher
+",2018-08-02 16:36:52
+2486775194669540,Maika,Isogawa,2546,2486775194669540,854518728062939,user_quick_reply: BUTTON_DKB_Class C dry chemical fire extinguisher,:keycap_3:,2018-08-02 16:36:59
+2486775194669540,Maika,Isogawa,2547,854518728062939,2486775194669540,BOT: message,"I'm sorry, but that was incorrect. :disappointed_face:",2018-08-02 16:37:00
+2486775194669540,Maika,Isogawa,2548,854518728062939,2486775194669540,BOT: quick reply,The correct answer is Class B carbon dioxide fire extinguisher.,2018-08-02 16:37:02
+2486775194669540,Maika,Isogawa,2549,2486775194669540,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-02 16:37:06
+2486775194669540,Maika,Isogawa,2550,854518728062939,2486775194669540,BOT: message,Let's try this question.,2018-08-02 16:37:07
+2486775194669540,Maika,Isogawa,2551,854518728062939,2486775194669540,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-02 16:37:09
+2486775194669540,Maika,Isogawa,2552,854518728062939,2486775194669540,BOT: quick reply,"The recent convert, still a _____ with respect to the rites of her church, did not yet feel completely comfortable in her new faith.",2018-08-02 16:37:10
+2486775194669540,Maika,Isogawa,2553,2486775194669540,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-02 16:37:18
+2486775194669540,Maika,Isogawa,2554,854518728062939,2486775194669540,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-08-02 16:37:19
+2486775194669540,Maika,Isogawa,2555,854518728062939,2486775194669540,BOT: quick reply,":keycap_1: poseur
+:keycap_2: pilgrim
+:keycap_3: iconoclast
+:keycap_4: ascetic
+:keycap_5: tyro
+",2018-08-02 16:37:21
+2486775194669540,Maika,Isogawa,2556,2486775194669540,854518728062939,user_quick_reply: BUTTON_DKB_poseur,:keycap_1:,2018-08-02 16:37:28
+2486775194669540,Maika,Isogawa,2557,854518728062939,2486775194669540,BOT: message,"Oops, that wasn't quite correct. :disappointed_face:",2018-08-02 16:37:30
+2486775194669540,Maika,Isogawa,2558,854518728062939,2486775194669540,BOT: quick reply,The correct answer is tyro.,2018-08-02 16:37:31
+2486775194669540,Maika,Isogawa,2559,2486775194669540,854518728062939,user_quick_reply: WHY,Why?,2018-08-02 16:37:35
+2486775194669540,Maika,Isogawa,2560,854518728062939,2486775194669540,BOT: message,Here's an explanation:,2018-08-02 16:37:36
+2486775194669540,Maika,Isogawa,2561,854518728062939,2486775194669540,BOT: quick reply,":pushpin: Tyro -- someone new to a field or activity
+:pushpin: Pilgrim -- someone who journeys in foreign lands
+:pushpin: Iconoclast -- a destroyer of images used in religious worship
+:pushpin: Ascetic -- pertaining to or characteristic of an ascetic or the practice of rigorous self-discipline
+:pushpin: Poseur -- a person who habitually pretends to be something he is not",2018-08-02 16:37:38
+2486775194669540,Maika,Isogawa,2562,2486775194669540,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-02 16:37:57
+2486775194669540,Maika,Isogawa,2563,854518728062939,2486775194669540,BOT: message,How about this next one:,2018-08-02 16:37:58
+2486775194669540,Maika,Isogawa,2564,854518728062939,2486775194669540,BOT: quick reply,"Because he ate high-calorie snacks while riding the exercise bike, Julie ridiculed DeRay's workout philosophy as _____ .",2018-08-02 16:38:00
+2486775194669540,Maika,Isogawa,2565,2486775194669540,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-02 16:38:51
+2486775194669540,Maika,Isogawa,2566,854518728062939,2486775194669540,BOT: message,Which of the following options is the right answer?,2018-08-02 16:38:53
+2486775194669540,Maika,Isogawa,2567,854518728062939,2486775194669540,BOT: quick reply,":keycap_1: indolent
+:keycap_2: hackneyed
+:keycap_3: pithy
+:keycap_4: fatuous
+:keycap_5: precarious
+",2018-08-02 16:38:54
+2486775194669540,Maika,Isogawa,2568,2486775194669540,854518728062939,user_quick_reply: BUTTON_AKB_fatuous,:keycap_4:,2018-08-02 16:38:59
+2486775194669540,Maika,Isogawa,2569,854518728062939,2486775194669540,BOT: message,Nice work! Keep it up!,2018-08-02 16:39:01
+2486775194669540,Maika,Isogawa,2570,854518728062939,2486775194669540,BOT: quick reply,The correct answer is fatuous.,2018-08-02 16:39:02
+2486775194669540,Maika,Isogawa,2571,2486775194669540,854518728062939,user_quick_reply: WHY,Why?,2018-08-02 16:39:05
+2486775194669540,Maika,Isogawa,2572,854518728062939,2486775194669540,BOT: message,This is why:,2018-08-02 16:39:06
+2486775194669540,Maika,Isogawa,2573,854518728062939,2486775194669540,BOT: quick reply,":pushpin: Fatuous -- extremely silly or stupid
+:pushpin: Pithy -- concise and full of meaning
+:pushpin: Indolent -- disinclined to work or exertion
+:pushpin: Hackneyed -- repeated too often; overfamiliar through overuse
+:pushpin: Precarious -- affording no ease or reassurance",2018-08-02 16:39:08
+2486775194669540,Maika,Isogawa,2574,2486775194669540,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-02 16:39:22
+2486775194669540,Maika,Isogawa,2575,854518728062939,2486775194669540,BOT: message,Let's see if you can answer this question.,2018-08-02 16:39:24
+2486775194669540,Maika,Isogawa,2576,854518728062939,2486775194669540,BOT: quick reply,What cells are the basis of nervous tissue?,2018-08-02 16:39:26
+2486775194669540,Maika,Isogawa,2577,2486775194669540,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-02 16:39:30
+2486775194669540,Maika,Isogawa,2578,854518728062939,2486775194669540,BOT: message,It's one of the following choices.,2018-08-02 16:39:31
+2486775194669540,Maika,Isogawa,2579,854518728062939,2486775194669540,BOT: quick reply,":keycap_1: lipocytes
+:keycap_2: erythrocytes
+:keycap_3: osteoclasts
+:keycap_4: neurons
+",2018-08-02 16:39:33
+2486775194669540,Maika,Isogawa,2580,2486775194669540,854518728062939,user_quick_reply: I_DONT_KNOW,I dont know :downcast_face_with_sweat:,2018-08-02 16:39:37
+2486775194669540,Maika,Isogawa,2581,854518728062939,2486775194669540,BOT: quick reply,Do you really want to skip this question?,2018-08-02 16:39:38
+2486775194669540,Maika,Isogawa,2582,2486775194669540,854518728062939,user_quick_reply: GIVEUP_NO,"No, I'll try again!",2018-08-02 16:39:42
+2486775194669540,Maika,Isogawa,2583,854518728062939,2486775194669540,BOT: message,Don't give up!,2018-08-02 16:39:43
+2486775194669540,Maika,Isogawa,2584,854518728062939,2486775194669540,BOT: message,Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-08-02 16:39:45
+2486775194669540,Maika,Isogawa,2585,854518728062939,2486775194669540,BOT: quick reply,":keycap_1: erythrocytes
+:keycap_2: lipocytes
+:keycap_3: osteoclasts
+:keycap_4: neurons
+",2018-08-02 16:39:47
+2486775194669540,Maika,Isogawa,2586,2486775194669540,854518728062939,user_quick_reply: BUTTON_AKB_neurons,:keycap_4:,2018-08-02 16:39:49
+2486775194669540,Maika,Isogawa,2587,854518728062939,2486775194669540,BOT: image,https://www.smartprimer.org:443/pictures/avatar/congrats/penguinnormal_happy_orange.png,2018-08-02 16:39:52
+2486775194669540,Maika,Isogawa,2588,854518728062939,2486775194669540,BOT: message,Nice! That was right!,2018-08-02 16:39:54
+2486775194669540,Maika,Isogawa,2589,854518728062939,2486775194669540,BOT: quick reply,The correct answer is neurons.,2018-08-02 16:39:55
+2486775194669540,Maika,Isogawa,2590,2486775194669540,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-02 16:39:58
+2486775194669540,Maika,Isogawa,2591,854518728062939,2486775194669540,BOT: message,Let's see if you would answer this one.,2018-08-02 16:39:59
+2486775194669540,Maika,Isogawa,2592,854518728062939,2486775194669540,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-02 16:40:01
+2486775194669540,Maika,Isogawa,2593,854518728062939,2486775194669540,BOT: quick reply,"Many dog owners treat their pets too _____ , forgetting that canines have evolved in competitive environments in which emotional coddling was a sign of weakness.",2018-08-02 16:40:02
+2486775194669540,Maika,Isogawa,2594,2486775194669540,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-02 16:40:08
+2486775194669540,Maika,Isogawa,2595,854518728062939,2486775194669540,BOT: message,I'll give you some choices.,2018-08-02 16:40:09
+2486775194669540,Maika,Isogawa,2596,854518728062939,2486775194669540,BOT: quick reply,":keycap_1: aggressively
+:keycap_2: quixotically
+:keycap_3: fortuitously
+:keycap_4: belligerently
+:keycap_5: indulgently
+",2018-08-02 16:40:11
+2486775194669540,Maika,Isogawa,2597,2486775194669540,854518728062939,user_quick_reply: BUTTON_AKB_indulgently,:keycap_5:,2018-08-02 16:40:15
+2486775194669540,Maika,Isogawa,2598,854518728062939,2486775194669540,BOT: message,Great! Keep it up! :flexed_biceps_medium-light_skin_tone:,2018-08-02 16:40:17
+2486775194669540,Maika,Isogawa,2599,854518728062939,2486775194669540,BOT: quick reply,The correct answer is indulgently.,2018-08-02 16:40:18
+2486775194669540,Maika,Isogawa,2600,2486775194669540,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-02 16:40:21
+2486775194669540,Maika,Isogawa,2601,854518728062939,2486775194669540,BOT: message,What about this next question:,2018-08-02 16:40:22
+2486775194669540,Maika,Isogawa,2602,854518728062939,2486775194669540,BOT: quick reply,"Possessing few natural resources upon its newly-granted independence in 1863, Singapore remained economically _____ until an influx of industrialization and foreign investment took hold there.",2018-08-02 16:40:24
+2486775194669540,Maika,Isogawa,2603,2486775194669540,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-02 16:40:33
+2486775194669540,Maika,Isogawa,2604,854518728062939,2486775194669540,BOT: message,I'll give you some choices.,2018-08-02 16:40:35
+2486775194669540,Maika,Isogawa,2605,854518728062939,2486775194669540,BOT: quick reply,":keycap_1: powerful
+:keycap_2: fortuitous
+:keycap_3: prosperous
+:keycap_4: dubious
+:keycap_5: solvent
+",2018-08-02 16:40:36
+2486775194669540,Maika,Isogawa,2606,2486775194669540,854518728062939,user_quick_reply: BUTTON_AKB_dubious,:keycap_4:,2018-08-02 16:40:44
+2486775194669540,Maika,Isogawa,2607,854518728062939,2486775194669540,BOT: message,Great job getting the correct answer!,2018-08-02 16:40:46
+2486775194669540,Maika,Isogawa,2608,854518728062939,2486775194669540,BOT: quick reply,The correct answer is dubious.,2018-08-02 16:40:47
+2486775194669540,Maika,Isogawa,2609,2486775194669540,854518728062939,user_quick_reply: WHY,Why?,2018-08-02 16:40:50
+2486775194669540,Maika,Isogawa,2610,854518728062939,2486775194669540,BOT: message,This is why:,2018-08-02 16:40:52
+2486775194669540,Maika,Isogawa,2611,854518728062939,2486775194669540,BOT: quick reply,":pushpin: Dubious -- fraught with uncertainty or doubt
+:pushpin: Powerful -- having great power or force or potency or effect
+:pushpin: Prosperous -- in fortunate circumstances financially; moderately rich
+:pushpin: Solvent -- capable of meeting financial obligations
+:pushpin: Fortuitous -- having no cause or apparent cause",2018-08-02 16:40:53
+2486775194669540,Maika,Isogawa,2612,2486775194669540,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-02 16:41:10
+2486775194669540,Maika,Isogawa,2613,854518728062939,2486775194669540,BOT: message,Here's a question for you:,2018-08-02 16:41:11
+2486775194669540,Maika,Isogawa,2614,854518728062939,2486775194669540,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-02 16:41:12
+2486775194669540,Maika,Isogawa,2615,854518728062939,2486775194669540,BOT: quick reply,Myofibrils are long cylindrical structures that lie parallel to and run the entire length of what fibers?,2018-08-02 16:41:14
+2486775194669540,Maika,Isogawa,2622,854518728062939,2486775194669540,BOT: quick reply,"Hi Maika, you haven't talked to me for a while. Would you like to resume the learning with me?",2018-08-02 20:00:13
+2486775194669540,Maika,Isogawa,2764,854518728062939,2486775194669540,BOT: quick reply,"Hi Maika, you haven't talked to me for a while. Would you like to resume the learning with me?",2018-08-03 20:00:27
+2486775194669540,Maika,Isogawa,2809,854518728062939,2486775194669540,BOT: quick reply,"Hi Maika, you haven't talked to me for a while. Would you like to resume the learning with me?",2018-08-04 20:00:41
+2486775194669540,Maika,Isogawa,2822,854518728062939,2486775194669540,BOT: quick reply,"Hi Maika, you haven't talked to me for a while. Would you like to resume the learning with me?",2018-08-05 20:00:55
