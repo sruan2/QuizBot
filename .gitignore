@@ -132,7 +132,8 @@ venv
 # Shell scripts
 /*.sh
 flashcard_backend/start_server_flashcard.sh
-SQL_query/*.sh
+SQL_query/quizbot_analytics.sh
+SQL_query/flashcard_analytics.sh
 
 # tmp files
 tmp/
