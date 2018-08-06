@@ -15,7 +15,7 @@ rows = list(cur.fetchall())
 title = ("user_id", "user_firstname", "user_lastname", "uid", "sender", "recipient", "type", "dialogue", "time_stamp")
 rows.insert(0, title)
 
-with open("quizbot_conversation_" + sys.argv[1] + "_" + sys.argv[2] + ".csv", 'w') as csvfile:
+with open("user_data/quizbot_conversation_" + sys.argv[1] + "_" + sys.argv[2] + ".csv", 'w') as csvfile:
     writer = csv.writer(csvfile)
     writer.writerows(rows)
 
@@ -28,7 +28,7 @@ rows = list(cur.fetchall())
 title = ("user_id", "user_firstname", "user_lastname", "qid", "subject", "score", "type", "begin_uid", "end_uid")
 rows.insert(0, title)
 
-with open("quizbot_user_history_" + sys.argv[1] + "_" + sys.argv[2] + ".csv", 'w') as csvfile:
+with open("user_data/quizbot_user_history_" + sys.argv[1] + "_" + sys.argv[2] + ".csv", 'w') as csvfile:
     writer = csv.writer(csvfile)
     writer.writerows(rows)
 
