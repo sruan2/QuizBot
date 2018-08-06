@@ -41,7 +41,6 @@ access_token = os.environ["PAGE_ACCESS_TOKEN"]
 # set up cache to store user data such as current_subject and current_qid
 cache = {}
 
-
 # For static pictures such as owl
 @app.route('/pictures/<path:path>')
 def send_pictures(path):
