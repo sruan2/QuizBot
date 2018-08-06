@@ -5,8 +5,7 @@ import numpy as np
 import time
 import random
 from collections import defaultdict
-
-from .base_model import BaseSequencingModel
+from base_model import BaseSequencingModel
 
 np.random.seed(42)
 
@@ -116,7 +115,7 @@ class DASHSequencingModel(BaseSequencingModel):
         self.curr_item[user_id] = QID
 
         data = {'question': self.QA_KB.QKB[QID],
-                'qid': QID,
+                'qid': int(QID),
                 'correct_answer': self.QA_KB.AKB[QID],
                 'support': self.QA_KB.SKB[QID],
                 'distractor': self.QA_KB.DKB[QID]}
@@ -157,7 +156,7 @@ class DASHSequencingModel(BaseSequencingModel):
         QID = self.curr_item[user_id]
 
         data = {'question': self.QA_KB.QKB[QID],
-                'qid': QID,
+                'qid': int(QID),
                 'correct_answer': self.QA_KB.AKB[QID],
                 'support': self.QA_KB.SKB[QID],
                 'distractor': self.QA_KB.DKB[QID]}

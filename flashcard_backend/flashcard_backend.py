@@ -8,9 +8,9 @@ from flask import request
 from flask import render_template
 from flask import jsonify
 from flask_mysqldb import MySQL
-import database
+import database as db
 from random_model import RandomSequencingModel
-# from dash_model import DASHSequencingModel
+from dash_model import DASHSequencingModel
 from QAKnowledgebase import QAKnowlegeBase
 from time import strftime, localtime, sleep
 
@@ -28,7 +28,13 @@ mysql.init_app(app)
 # ================== Load Sequencing Model ==================
 json_file = '../QAdataset/questions_filtered_150_quizbot.json'
 qa_kb = QAKnowlegeBase(json_file)
-model = RandomSequencingModel(qa_kb)
+model = DASHSequencingModel(qa_kb)
+
+# Sherry: can we move this to main function?
+with app.app_context():
+    user_list = db.show_user_id_list_flashcard(mysql)
+    for user_id in user_list:
+        model.loadUserData(user_id, db.show_user_history_flashcard(mysql, user_id))
 
 @app.route('/')
 def index():
@@ -37,25 +43,25 @@ def index():
 
 @app.route("/question_data")
 def fetch_question():
-    data = model.pickNextQuestion()
+    data = model.pickNextQuestion(subject='random')
     return jsonify(data)
 
 
 @app.route("/question_data_gre")
 def fetch_question_gre():
-    data = model.pickNextQuestion('gre')
+    data = model.pickNextQuestion(subject='gre')
     return jsonify(data)
 
 
 @app.route("/question_data_science")
 def fetch_question_science():
-    data = model.pickNextQuestion('science')
+    data = model.pickNextQuestion(subject='science')
     return jsonify(data)
 
 
 @app.route("/question_data_safety")
 def fetch_question_safety():
-    data = model.pickNextQuestion('safety')
+    data = model.pickNextQuestion(subject='safety')
     return jsonify(data)
 
 
@@ -68,25 +74,26 @@ def verify():
 @app.route('/logdata', methods=['POST'])
 def webhook():
     data=json.loads(request.data.decode("utf-8"))
-    print(data)
 
     sender_id = data['user_id']
     qid = data['qid']
     user_action = data['event']
 
-    if not int(sender_id) in database.show_user_id_list_flashcard(mysql):
+    if not int(sender_id) in db.show_user_id_list_flashcard(mysql):
         sender_firstname = data['firstname']
         sender_lastname = data['lastname']
         print("[FLASHCARD] PID " + str(os.getpid())+": This is a new user!")
-        database.insert_user_flashcard(mysql, sender_id, sender_firstname, sender_lastname)
+        db.insert_user_flashcard(mysql, sender_id, sender_firstname, sender_lastname)
 
-    database.insert_user_action_flashcard(mysql, sender_id, qid, user_action)
+    db.insert_user_action_flashcard(mysql, sender_id, qid, user_action)
 
     # send user feedback to the question sequencing model
     if user_action == 'got it':
+        print("got it")
         timestamp = strftime("%Y-%m-%d %H:%M:%S", localtime())
         model.updateHistory(sender_id, (qid, 1, timestamp))
     elif user_action == "I don't know":
+        print("I don't know")
         timestamp = strftime("%Y-%m-%d %H:%M:%S", localtime())
         model.updateHistory(sender_id, (qid, 0, timestamp))
 
