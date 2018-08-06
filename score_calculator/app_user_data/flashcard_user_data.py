@@ -27,7 +27,7 @@ time_report = {} # a disctionary of dates and corresponding daily usage time
 question_report = {} # a disctionary of studied question (total studies question, unique studies questions)
 
 for user in users:
-	flashcard_filename = os.path.join(dirname, "../../SQL_query/flashcard_" + user + ".csv")
+	flashcard_filename = os.path.join(dirname, "../../SQL_query/user_data/flashcard_" + user + ".csv")
 
 	with open(flashcard_filename, 'rt') as csvfile:
 		reader = list(csv.reader(csvfile))

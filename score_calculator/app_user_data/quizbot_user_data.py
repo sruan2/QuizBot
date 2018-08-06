@@ -32,10 +32,10 @@ question_report = {} # a disctionary of studied question (total studies question
 
 for user in users:
     conversation_filename = os.path.join(
-        dirname, "../../SQL_query/quizbot_conversation_" + user + ".csv")
+        dirname, "../../SQL_query/user_data/quizbot_conversation_" + user + ".csv")
 
     user_history_filename = os.path.join(
-        dirname, "../../SQL_query/quizbot_user_history_" + user + ".csv")
+        dirname, "../../SQL_query/user_data/quizbot_user_history_" + user + ".csv")
 
     # open the conversation data file
     with open(conversation_filename, 'rt') as csvfile:
