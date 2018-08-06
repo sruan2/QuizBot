@@ -7,10 +7,10 @@
 
 To calculate the app usage time, please go to 'score_calculator/app_user_data'. 
 
-# for the quizbot app usage time of the specified user.
+# for the user data analysis of the quizbot app.
 python quizbot_user_data.py Firstname Lastname 
 
-# for the flashcard app usage time of the specified user.
+# for the user data analysis of the flashcards app.
 python flashcard_user_data.py Firstname Lastname 
 
 ```
