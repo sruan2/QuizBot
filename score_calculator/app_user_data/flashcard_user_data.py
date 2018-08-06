@@ -16,17 +16,18 @@ users = ["Allie_Blaising", "Phoebe_Kimm", "Nik_Marda"]
 # time break considered to be a leave
 BREAK_TIME = 30 
 # indices of useful data entry
-TIME_STAMP_INDEX =5
+TIME_STAMP_INDEX = 5
+EVENT_INDEX = 4
+QID_INDEX = 3
 
 if len(sys.argv) == 3:
 	users = [sys.argv[1] + "_" + sys.argv[2]]
 
 time_report = {} # a disctionary of dates and corresponding daily usage time
+question_report = {} # a disctionary of studied question (total studies question, unique studies questions)
 
 for user in users:
 	flashcard_filename = os.path.join(dirname, "../../SQL_query/flashcard_" + user + ".csv")
-
-
 
 	with open(flashcard_filename, 'rt') as csvfile:
 		reader = list(csv.reader(csvfile))
@@ -55,6 +56,9 @@ for user in users:
 	sub_time_report.append((old_time_stamp.year, old_time_stamp.month, old_time_stamp.day, total_usage_time/60))
 	time_report[user] = sub_time_report
 
+	events = [x[QID_INDEX] for x in flashcard_file if x[EVENT_INDEX] == "I don't know" or x[EVENT_INDEX] == "got it"]
+	question_report[user] = ((len(events), len(set(events))))
+
 output_string = ""
 for user in time_report:
     output_string += "----- "
@@ -71,6 +75,13 @@ for user in time_report:
         output_string += str(round(day_report[3], 2))
         output_string += " min"
         output_string += "\n"
+    output_string += "\n"
+
+    output_string += "Number of questions practiced       : "
+    output_string += str(question_report[user][0])
+    output_string += "\n"
+    output_string += "Number of unique questions practiced: "
+    output_string += str(question_report[user][1])
     output_string += "\n"
 
 f = open(result_filename, 'w')
