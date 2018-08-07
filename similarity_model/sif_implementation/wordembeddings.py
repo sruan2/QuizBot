@@ -1,5 +1,10 @@
-import six
+'''
+word embeddings class to implement the SIF transformations
 
+June 2018
+'''
+import six
+import re
 import numpy as np
 
 from sklearn.feature_extraction.text import CountVectorizer
