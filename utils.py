@@ -14,7 +14,7 @@ def log(message):  # simple wrapper for logging to stdout on heroku
     sys.stdout.flush()
 
 
-def update_cache(cache, sender_id, firstname=None, current_qid=None, current_subject=None, begin_uid=None, waiting_for_answer=None, if_explanation_text=None):
+def update_cache(cache, sender_id, firstname=None, current_qid=None, current_subject=None, begin_uid=None, waiting_for_answer=None, if_explanation_text=None, last_payload=None):
     if firstname != None:
         cache[sender_id]["firstname"] = firstname
 
@@ -32,3 +32,6 @@ def update_cache(cache, sender_id, firstname=None, current_qid=None, current_sub
 
     if if_explanation_text != None:
         cache[sender_id]["if_explanation_text"] = if_explanation_text
+
+    if last_payload != None:
+        cache[sender_id]["last_payload"] = last_payload

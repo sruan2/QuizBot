@@ -341,11 +341,31 @@ ABOUT_QUIZBOT_2:
         - source:
             LOCAL
           text:
-            To best your learning experience, I'll use advanced question sequencing algorithms to tailor questions for your need. 
+            To best your learning experience, I'll use advanced question sequencing algorithms inspired by spaced repetition and flashcard to tailor questions for your need. 
         - source:
             LOCAL
           text: 
-            I'm evaluating your typing answers carefully using advanced NLP (Natural Language Processing) technology to assist you remembering the knowledge!
+            Equipped with advanced NLP (Natural Language Processing) technology, I'm capable of evaluating your typed answers carefully to assist you remembering the knowledge!
+      quick_reply:
+        source:
+          - TEMPLATE
+        title:
+          - GOT_IT
+        payload:
+          - ABOUT_QUIZBOT_3   
+
+ABOUT_QUIZBOT_3:
+  conversation:
+    conversation_1:
+      message:
+        - source:
+            LOCAL
+          text:
+            There are bot jokes and fun facts too if you’re ever bored.
+        - source:
+            LOCAL
+          text:
+            😜
       quick_reply:
         source:
           - TEMPLATE
@@ -420,17 +440,18 @@ REPORT_BUG:
         - source:
             TEMPLATE
           text:
-            BUGREPORT
+            BUGTYPE
+        - source:
+            LOCAL
+          text:
+            We can resume learning if you have no bug to report.
       quick_reply:
         source:
           - LOCAL
-          - LOCAL
         title:
-          - Next question 💪
-          - Switch Subject 🔀
+          - Continue learning 💪🏼
         payload:
           - NEXT_QUESTION  
-          - SWITCH_SUBJECT  
 
 CONTINUE:
   conversation:
@@ -632,7 +653,7 @@ CHAT_WITH_ME:
           - LOCAL
         title:
           - Joke 😁
-          - Fun Fact 💡
+          - Fun fact 💡
         payload:
           - JOKE  
           - FUN_FACT_SCIENCE
@@ -656,8 +677,8 @@ JOKE:
           - LOCAL
         title:
           - ANOTHER_JOKE
-          - Fun Fact 💡
-          - Continue Learning 💪🏼
+          - Fun fact 💡
+          - Continue learning 💪🏼
         payload:
           - JOKE
           - FUN_FACT_SCIENCE
@@ -683,7 +704,7 @@ FUN_FACT_SCIENCE:
         title:
           - ANOTHER_FUN_FACT_SCIENCE
           - Joke 😁
-          - Continue Learning 💪🏼
+          - Continue learning 💪🏼
         payload:
           - FUN_FACT_SCIENCE
           - JOKE
@@ -741,7 +762,24 @@ MESSAGE_TEXT:
           - LOCAL
         title:
           - RESUME_LEARNING
-          - Chat with Me 🐧
+          - Chat with me 🐧
         payload:
           - NEXT_QUESTION 
           - CHAT_WITH_ME 
+
+    conversation_2:
+      message:
+        - source:
+            TEMPLATE
+          text:
+            BUGREPORT
+      quick_reply:
+        source:
+          - LOCAL
+          - LOCAL
+        title:
+          - Next question 💪
+          - Change subject 🔀
+        payload:
+          - NEXT_QUESTION  
+          - SWITCH_SUBJECT  
