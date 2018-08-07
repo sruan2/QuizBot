@@ -99,7 +99,7 @@ for user in users:
         (old_time_stamp.year, old_time_stamp.month, old_time_stamp.day, total_usage_time/60))
     time_report[user] = sub_time_report
 
-    events = [x[QID_INDEX] for x in user_history_file if x[END_QID_INDEX] != "NULL"]
+    events = [x[QID_INDEX] for x in user_history_file if x[END_QID_INDEX] != ""]
     question_report[user] = ((len(events), len(set(events))))
 
 output_string = ""

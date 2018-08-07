@@ -5,6 +5,7 @@ flashcard/platforms/ios/Flashcards.xcworkspace/xcuserdata
 pictures/
 
 similarity_model/mittens_model.pkl
+similarity_model/data_files
 
 flashcard_backend/
 
@@ -131,9 +132,9 @@ venv
 
 # Shell scripts
 /*.sh
-/flashcard_backend/start_server_flashcard.sh
-/SQL_query/quizbot_analytics.sh
-/SQL_query/flashcard_analytics.sh
+flashcard_backend/start_server_flashcard.sh
+SQL_query/quizbot_analytics.sh
+SQL_query/flashcard_analytics.sh
 
 # tmp files
 tmp/
