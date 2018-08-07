@@ -9,6 +9,13 @@ from collections import defaultdict
 from base_model import BaseSequencingModel
 
 class Question():
+    '''class the stores information for each question
+    Contains:
+        easiness : that is adjusted by performance
+        num_repetitions : number of consecutive correct answers
+        priority : urgency to be selected
+        id: question id 
+    '''
     def __init__(self, id, subject):
         self.easiness = 2.5
         self.num_repetitions = 0
@@ -16,8 +23,8 @@ class Question():
         self.subject = subject 
         self.id = id
 
-    # for heap item comparison
     def __lt__(self, other):
+        '''for heap comparison'''
         return self.id < other.id
 
 
@@ -29,6 +36,7 @@ class SM2SequencingModel(BaseSequencingModel):
         self.subjects = self.QA_KB.SubKB
 
         def init_order():
+            '''initialize the order for each user'''
             subject_order = {subject : [] for subject in self.QA_KB.SubKB}
             for subject, question_list in self.QA_KB.SubDict.items():
                 for qid in question_list:
@@ -41,8 +49,8 @@ class SM2SequencingModel(BaseSequencingModel):
         self.current_subject = {}
         self.user_subject_order = defaultdict(init_order)
 
-    # get the time until next viewing
     def get_interval(self, n, question):
+        '''get the time until next viewing. The SM2 update algorithm'''
         ef = question.easiness
         if n == 0:
             return 4
@@ -50,12 +58,18 @@ class SM2SequencingModel(BaseSequencingModel):
             return self.get_interval(n-1, question)*ef
 
     def pickNextQuestion(self, user_id = 0, subject = 'random'):
-        if user_id not in self.loaded_users:
-            self.loadUserData(user_id)
-            self.loaded_users.append(user_id)
+        '''pick the next question in the priority queue
 
-        # pick a random subject if random
+        Returns:
+            Data dictionary: {'question':  
+                              'qid' :  
+                              'correct_answer' :
+                              'support' : 
+                              'distractor' : }
+        '''
+
         if subject == 'random':
+            # pick a random subject if random
             subject = random.choice(self.subjects)
 
         # update the current subject and get the order
@@ -74,9 +88,17 @@ class SM2SequencingModel(BaseSequencingModel):
 
         return data
 
-    # subjection to do update simulations to parameters
-    def updateParameters(self, question, outcome, user_id):
+
+    def updateHistory(self, user_id, user_data):
+        '''update the priority queue by changing the priority of the question
+        
+        Args:
+           user_data: tuples of qid(int), outcome (float [0,1]), timestamp (str) 
+        '''
+        _, outcome, timestamp = user_data
+        question = self.cur_question[user_id]
         subject = question.subject
+
         if not outcome:
             question.num_repetitions = 0
         else:
@@ -89,14 +111,3 @@ class SM2SequencingModel(BaseSequencingModel):
 
         question.priority += self.get_interval(question.num_repetitions, question)
         heapq.heappush(self.user_subject_order[user_id][subject], (question.priority, question))
-    
-    # TODO: implement loading user data from file 
-    def loadUserData(self, user_id):
-        pass
-
-    def updateHistory(self, user_id, user_data):
-        qid, outcome, timestamp = user_data
-        '''update the easiness factor and the history'''
-        # question = self.cur_question[user_id]
-
-        self.updateParameters(qid, outcome, user_id)

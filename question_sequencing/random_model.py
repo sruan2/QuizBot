@@ -3,15 +3,25 @@
 2018 July 5
 '''
 from random import randint, choice
+
 from base_model import BaseSequencingModel
 
 class RandomSequencingModel(BaseSequencingModel):
-	'''Pick next question randomly'''
+
 	def pickNextQuestion(self, user_id = 0, subject = 'random'):
+		'''Pick next question randomly
+	
+	    Returns:
+	        Data dictionary: {'question':  
+	                          'qid' :  
+	                          'correct_answer' :
+	                          'support' : 
+	                          'distractor' : }
+		'''	
 		if subject == 'random':
 			QID = randint(0, self.QA_KB.KBlength)
-		# if subject is not random, then pick from the respective subject question bank
 		else:
+			# if subject is not random, then pick from the respective subject question bank
 			QID = choice(self.QA_KB.SubDict[subject])
 
 		data = {'question': self.QA_KB.QKB[QID],

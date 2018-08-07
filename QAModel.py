@@ -84,13 +84,13 @@ class SupervisedSIFModeL(QAModel):
         super(SupervisedSIFModeL, self).__init__(qa_kb, sequencing_model)
 
         # load the current architecture from json
-        with open('similarity_model/model_architecture.json', 'r') as f:
+        with open('similarity_model/data_files/model_architecture.json', 'r') as f:
             self.model = model_from_json(f.read())
         self.graph = tf.get_default_graph()
-        self.model.load_weights('similarity_model/model_weights.h5')
+        self.model.load_weights('similarity_model/data_files/model_weights.h5')
 
         # fit the embedding and load the glove model
-        glove_file = 'similarity_model/mittens_model.pkl'
+        glove_file = 'similarity_model/data_files/mittens_model.pkl'
         json_file = 'QAdataset/questions_filtered_150_quizbot.json'
         
         self.emb = supervised_model.fit_model(glove_file, json_file)
