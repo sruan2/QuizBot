@@ -12,6 +12,7 @@ import sys
 
 reload(sys)
 sys.setdefaultencoding('utf-8')
+
 questions = []
 
 with open('questions_filtered_150.json') as data_file:

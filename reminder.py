@@ -3,17 +3,17 @@ from message import *
 from time import *
 from datetime import datetime
 from utils import *
+from database import show_users_newly_added
 
 class RepeatedTimer(object):
-    def __init__(self, interval, function, *args, **kwargs):
+    def __init__(self, interval, template_conversation, mysql):
         self.offset = self.get_offset_time(20, 00, 00)
         self.interval = interval
-        self.function = function
-        self.args = args
-        self.kwargs = kwargs
+        self.mysql = mysql
         self.is_running = False
         self._timer = None
         self._offset_timer = None
+        self.reminder = Reminder(template_conversation, mysql)
         self.offset_time()
 
     def offset_time(self):
@@ -23,11 +23,13 @@ class RepeatedTimer(object):
         self._offset_timer.start()
 
     def offset_run(self):
-        self.function(*self.args, **self.kwargs)
+        active_list = show_users_newly_added(self.mysql) + [(1805880356153906, 'Nathan')]
+        self.reminder.send_reminder(active_list)
         self.start()
 
     def _run(self):
-        self.function(*self.args, **self.kwargs)
+        active_list = show_users_newly_added(self.mysql) + [(1805880356153906, 'Nathan')]
+        self.reminder.send_reminder(active_list)
         self.stop()
         self.start()
 

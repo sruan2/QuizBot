@@ -150,7 +150,12 @@ def show_users_newly_added(mysql):
     date_format_sql = "%Y-%m-%d %H:%i:%s"
     current_datetime = strftime(date_format_time, localtime())
 
-    cur = mysql.connection.cursor()
+
+    con = mysql.connection
+    if con == None:
+        con = MySQLdb.connect(db=os.environ["DB"], user=os.environ["DB_USER"],
+                              passwd=os.environ["DB_PASSWORD"], host=os.environ["DB_HOST"])
+    cur = con.cursor()
     cur.execute("SELECT user_id, user_firstname, reg_time FROM user;")
 
     rows = cur.fetchall()
@@ -238,3 +243,19 @@ def show_user_id_list_flashcard(mysql):
     cur.execute("SELECT user_id FROM users")
     rows = cur.fetchall()
     return [x[0] for x in rows]
+
+
+def show_user_history_flashcard(mysql, user_id):
+    '''
+        This function returns all users in the [user] table of <FLASHCARD> database.
+    '''
+    cur = mysql.connection.cursor()
+    cur.execute('SELECT qid, event, r_time FROM (users RIGHT JOIN action ON users.user_id = action.user_id) WHERE users.user_id = %s AND action.event = "got it" OR action.event = "I don\'t know";', [user_id])
+    rows = cur.fetchall()
+    result = []
+    for r in rows:
+        if r[1] == "I don't know":
+            result.append((r[0], 0, r[2]))
+        else:
+            result.append((r[0], 1, r[2]))
+    return result

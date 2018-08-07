@@ -196,7 +196,7 @@ def send_question(mysql, recipient_id, template_conversation, qa_model, cache):
         mysql, recipient_id, template_conversation, "QUESTION", question)
 
     # insert the question to the [user_history] table
-    db.insert_user_history(mysql, recipient_id, qid, "random", begin_uid=uid)
+    db.insert_user_history(mysql, recipient_id, qid, subject, begin_uid=uid)
     update_cache(cache, recipient_id, current_qid=qid, begin_uid=uid)
 
 

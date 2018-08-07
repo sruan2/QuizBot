@@ -38,14 +38,25 @@ function flip() {
 }
 
 
+function flip_to_front() {
+    if (!$('#front').is(":visible")) {
+        $('.element-back').hide();
+        $('.element-front').show();
+        log("card flip to question");
+    }
+}
+
+
 function got_it() {
     fetch_question();
+    flip_to_front()
     log("got it");
 }
 
 
 function not_got_it() {
     fetch_question();
+    flip_to_front()
     log("I don't know");
 }
 
@@ -88,8 +99,9 @@ function load() {
         $user = JSON.parse(window.localStorage.getItem('user'));
         $('#userLabel').html($user.firstname + ' ' + $user.lastname);
         $('#firstname').val($user.firstname);
-        $('#lastname').val($user.lastname);
+        $('#lastname').val($user.firstname + ' ' + $user.lastname);
     }
+    console.log('load: ' + $user);
 }
 
 

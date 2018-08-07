@@ -41,7 +41,6 @@ access_token = os.environ["PAGE_ACCESS_TOKEN"]
 # set up cache to store user data such as current_subject and current_qid
 cache = {}
 
-
 # For static pictures such as owl
 @app.route('/pictures/<path:path>')
 def send_pictures(path):
@@ -120,7 +119,8 @@ def webhook():
                                         'current_subject': subject,
                                         'begin_uid': begin_uid,
                                         'waiting_for_answer': 0,
-                                        'if_explanation_text': False}
+                                        'if_explanation_text': False,
+                                        'last_payload': None}
                     pretty_print('Insert the user into cache', mode='Cache')
                     user_history_data = db.show_user_history(mysql, sender_id) # tuple of (qid, score, time_stamp)
                     pretty_print('Retrieve the user history from [user_history]', mode='Database')
@@ -137,7 +137,8 @@ def webhook():
                                         'current_subject': None,
                                         'begin_uid': None,
                                         'waiting_for_answer': 0,
-                                        'if_explanation_text': False}
+                                        'if_explanation_text': False,
+                                        'last_payload': None}
                     pretty_print('Insert a user into cache', mode='Cache')
 
                 pretty_print('firstname: '+str(cache[sender_id]['firstname']))
@@ -146,6 +147,7 @@ def webhook():
                 pretty_print('begin_uid: '+str(cache[sender_id]['begin_uid']))
                 pretty_print('waiting_for_answer: '+str(cache[sender_id]['waiting_for_answer']))
                 pretty_print('if_explanation_text: '+str(cache[sender_id]['if_explanation_text']))
+                pretty_print('last_payload: '+str(cache[sender_id]['last_payload']))
 
             # User clicked/tapped "postback" button in Persistent menu
             if messaging_event.get("postback"):
@@ -255,10 +257,8 @@ with app.app_context():
     # Load conversation source text file
     chatbot_text, template_conversation = load_source(
         "text/chatbot_text", "text/template_conversation")
-    active_list = db.show_users_newly_added(mysql) + [(1139924072777403, 'Sherry'), (1805880356153906, 'Nathan')]
-    # (1850388251650155, 'Liwei'), 
-    reminder_object = reminder.Reminder(template_conversation, mysql)
-    reminder.RepeatedTimer(86400, reminder_object.send_reminder, active_list)
+    # [(1139924072777403, 'Sherry'), (1805880356153906, 'Nathan'), (1850388251650155, 'Liwei')]
+    reminder.RepeatedTimer(86400, template_conversation, mysql)
 
 if __name__ == '__main__':
     # Set up Flask app and MySQL

@@ -32,11 +32,38 @@
                 "message": [
                     {
                         "source": "LOCAL", 
-                        "text": "To best your learning experience, I'll use advanced question sequencing algorithms to tailor questions for your need."
+                        "text": "To best your learning experience, I'll use advanced question sequencing algorithms inspired by spaced repetition and flashcard to tailor questions for your need."
                     }, 
                     {
                         "source": "LOCAL", 
-                        "text": "I'm evaluating your typing answers carefully using advanced NLP (Natural Language Processing) technology to assist you remembering the knowledge!"
+                        "text": "Equipped with advanced NLP (Natural Language Processing) technology, I'm capable of evaluating your typed answers carefully to assist you remembering the knowledge!"
+                    }
+                ], 
+                "quick_reply": {
+                    "payload": [
+                        "ABOUT_QUIZBOT_3"
+                    ], 
+                    "source": [
+                        "TEMPLATE"
+                    ], 
+                    "title": [
+                        "GOT_IT"
+                    ]
+                }
+            }
+        }
+    }, 
+    "ABOUT_QUIZBOT_3": {
+        "conversation": {
+            "conversation_1": {
+                "message": [
+                    {
+                        "source": "LOCAL", 
+                        "text": "There are bot jokes and fun facts too if you\u2019re ever bored."
+                    }, 
+                    {
+                        "source": "LOCAL", 
+                        "text": "\ud83d\ude1c"
                     }
                 ], 
                 "quick_reply": {
@@ -93,7 +120,7 @@
                     ], 
                     "title": [
                         "Joke \ud83d\ude01", 
-                        "Fun Fact \ud83d\udca1"
+                        "Fun fact \ud83d\udca1"
                     ]
                 }
             }
@@ -172,7 +199,7 @@
                     "title": [
                         "ANOTHER_FUN_FACT_SCIENCE", 
                         "Joke \ud83d\ude01", 
-                        "Continue Learning \ud83d\udcaa\ud83c\udffc"
+                        "Continue learning \ud83d\udcaa\ud83c\udffc"
                     ]
                 }
             }
@@ -489,8 +516,8 @@
                     ], 
                     "title": [
                         "ANOTHER_JOKE", 
-                        "Fun Fact \ud83d\udca1", 
-                        "Continue Learning \ud83d\udcaa\ud83c\udffc"
+                        "Fun fact \ud83d\udca1", 
+                        "Continue learning \ud83d\udcaa\ud83c\udffc"
                     ]
                 }
             }
@@ -516,7 +543,29 @@
                     ], 
                     "title": [
                         "RESUME_LEARNING", 
-                        "Chat with Me \ud83d\udc27"
+                        "Chat with me \ud83d\udc27"
+                    ]
+                }
+            }, 
+            "conversation_2": {
+                "message": [
+                    {
+                        "source": "TEMPLATE", 
+                        "text": "BUGREPORT"
+                    }
+                ], 
+                "quick_reply": {
+                    "payload": [
+                        "NEXT_QUESTION", 
+                        "SWITCH_SUBJECT"
+                    ], 
+                    "source": [
+                        "LOCAL", 
+                        "LOCAL"
+                    ], 
+                    "title": [
+                        "Next question \ud83d\udcaa", 
+                        "Change subject \ud83d\udd00"
                     ]
                 }
             }
@@ -624,21 +673,22 @@
                 "message": [
                     {
                         "source": "TEMPLATE", 
-                        "text": "BUGREPORT"
+                        "text": "BUGTYPE"
+                    }, 
+                    {
+                        "source": "LOCAL", 
+                        "text": "We can resume learning if you have no bug to report."
                     }
                 ], 
                 "quick_reply": {
                     "payload": [
-                        "NEXT_QUESTION", 
-                        "SWITCH_SUBJECT"
+                        "NEXT_QUESTION"
                     ], 
                     "source": [
-                        "LOCAL", 
                         "LOCAL"
                     ], 
                     "title": [
-                        "Next question \ud83d\udcaa", 
-                        "Switch Subject \ud83d\udd00"
+                        "Continue learning \ud83d\udcaa\ud83c\udffc"
                     ]
                 }
             }

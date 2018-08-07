@@ -138,9 +138,8 @@ TEMPLATE:
     - I see ✔️ 
 
   ANOTHER_JOKE:
-    - Another koke 😁 
-    - Haha, one more joke 😁
-    - Haha, another joke 😁
+    - Another joke 😁 
+    - One more joke 😁
 
   ANOTHER_FUN_FACT_SCIENCE:
     - Another fun fact💡
@@ -197,6 +196,12 @@ TEMPLATE:
     - Alrighty, thank you for your feedback. I'll take a note of that!
     - Thank you for your bug report. I'll take a look at that!
     - Thanks for the feedback! I'll take a note of that!
+
+  BUGTYPE:
+    - You can type in the bug in a few words 😄 
+    - Okay, can you type in the bug in a few words 😄
+    - Okay, could you type in the bug in a few words 😄
+    - Okay, could you type in the problem 😄
 
   CONTINUE:
     - Great! Let's move on.
@@ -495,7 +500,7 @@ STATE:
       title:
         - Why?
         - Next question 💪🏼
-        - Switch subject 🔀
+        - Change subject 🔀
       payload:
         - WHY
         - NEXT_QUESTION
@@ -555,8 +560,10 @@ STATE:
         - LOCAL
       title:
         - Next question 💪
+        - Change subject 🔀
       payload:
         - NEXT_QUESTION
+        - SWITCH_SUBJECT
 
   REMINDER:
     image:

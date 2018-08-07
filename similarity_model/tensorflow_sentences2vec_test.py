@@ -1,3 +1,8 @@
+'''
+Test function for testing the efficacy of tensorflow's sentence to vec model
+
+July 2018
+'''
 import tensorflow as tf
 import tensorflow_hub as hub
 import matplotlib.pyplot as plt

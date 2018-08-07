@@ -66,7 +66,7 @@
                 "title": [
                     "Why?", 
                     "Next question \ud83d\udcaa\ud83c\udffc", 
-                    "Switch subject \ud83d\udd00"
+                    "Change subject \ud83d\udd00"
                 ]
             }
         }, 
@@ -81,14 +81,16 @@
                     "text": "{}"
                 }, 
                 "payload": [
-                    "NEXT_QUESTION"
+                    "NEXT_QUESTION", 
+                    "SWITCH_SUBJECT"
                 ], 
                 "source": [
                     "LOCAL", 
                     "LOCAL"
                 ], 
                 "title": [
-                    "Next question \ud83d\udcaa"
+                    "Next question \ud83d\udcaa", 
+                    "Change subject \ud83d\udd00"
                 ]
             }
         }, 
@@ -239,9 +241,8 @@
             "One more fun fact\ud83d\udca1"
         ], 
         "ANOTHER_JOKE": [
-            "Another koke \ud83d\ude01", 
-            "Haha, one more joke \ud83d\ude01", 
-            "Haha, another joke \ud83d\ude01"
+            "Another joke \ud83d\ude01", 
+            "One more joke \ud83d\ude01"
         ], 
         "ANSWER_CORRECT": [
             "That\u2019s right! \ud83c\udf89", 
@@ -262,6 +263,12 @@
             "Alrighty, thank you for your feedback. I'll take a note of that!", 
             "Thank you for your bug report. I'll take a look at that!", 
             "Thanks for the feedback! I'll take a note of that!"
+        ], 
+        "BUGTYPE": [
+            "You can type in the bug in a few words \ud83d\ude04", 
+            "Okay, can you type in the bug in a few words \ud83d\ude04", 
+            "Okay, could you type in the bug in a few words \ud83d\ude04", 
+            "Okay, could you type in the problem \ud83d\ude04"
         ], 
         "CHAT_WITH_ME": [
             "Do you want to hear some interesting things from me?", 

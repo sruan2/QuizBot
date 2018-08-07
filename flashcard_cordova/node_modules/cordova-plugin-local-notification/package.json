@@ -1,27 +1,24 @@
 {
-  "_from": "cordova-plugin-local-notification@^0.9.0-beta.2",
-  "_id": "cordova-plugin-local-notification@0.9.0-beta.2",
+  "_from": "git+https://github.com/katzer/cordova-plugin-local-notifications.git",
+  "_id": "cordova-plugin-local-notification@0.9.0-beta.3",
   "_inBundle": false,
-  "_integrity": "sha512-63n77K1pt8dnbWnNR8QWETi9Glezi1bvNHvHWmGNIOv0xCb0phZnm+Ku49BQ+omwe8Z5voMvrA4I03SYPpv38w==",
+  "_integrity": "",
   "_location": "/cordova-plugin-local-notification",
   "_phantomChildren": {},
   "_requested": {
-    "type": "range",
-    "registry": true,
-    "raw": "cordova-plugin-local-notification@^0.9.0-beta.2",
-    "name": "cordova-plugin-local-notification",
-    "escapedName": "cordova-plugin-local-notification",
-    "rawSpec": "^0.9.0-beta.2",
-    "saveSpec": null,
-    "fetchSpec": "^0.9.0-beta.2"
+    "type": "git",
+    "raw": "https://github.com/katzer/cordova-plugin-local-notifications",
+    "rawSpec": "https://github.com/katzer/cordova-plugin-local-notifications",
+    "saveSpec": "git+https://github.com/katzer/cordova-plugin-local-notifications.git",
+    "fetchSpec": "https://github.com/katzer/cordova-plugin-local-notifications.git",
+    "gitCommittish": null
   },
   "_requiredBy": [
     "#USER",
     "/"
   ],
-  "_resolved": "https://registry.npmjs.org/cordova-plugin-local-notification/-/cordova-plugin-local-notification-0.9.0-beta.2.tgz",
-  "_shasum": "e3a0b4a35d11f95bb4f1e367d9baee9909cca695",
-  "_spec": "cordova-plugin-local-notification@^0.9.0-beta.2",
+  "_resolved": "git+https://github.com/katzer/cordova-plugin-local-notifications.git#6d1b27f1e9d8e2198fd1ea6e9032419295690c47",
+  "_spec": "https://github.com/katzer/cordova-plugin-local-notifications",
   "_where": "/Users/liweijiang/Desktop/QuizBot/flashcard_cordova",
   "author": {
     "name": "Sebastián Katzer"
@@ -79,5 +76,5 @@
     "type": "git",
     "url": "git+https://github.com/katzer/cordova-plugin-local-notifications.git"
   },
-  "version": "0.9.0-beta.2"
+  "version": "0.9.0-beta.3"
 }
