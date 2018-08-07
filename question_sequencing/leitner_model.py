@@ -6,7 +6,7 @@ import time
 from queue import Queue
 from collections import defaultdict
 
-from .base_model import BaseSequencingModel
+from base_model import BaseSequencingModel
 
 
 class Question():
