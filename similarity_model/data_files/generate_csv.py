@@ -46,8 +46,11 @@ messages = [
     # plural
     ['2 hour', '2 hours'],
     # synonyms
-    ['right', 'correct'],
-    ['you are right', 'you are correct']]
+    ['right', 'correct','you are right', 'you are correct'],
+    ['wrong', 'incorrect', 'you are wrong', 'you are incorrect'],
+    ['at the fire','at the base of the fire', 'base of fire'],
+    ['loved', 'cherished'],
+    ['a mathematician found a solution to the problem', 'A problem was solved by a young mathematician']]
 
 with open(file, 'w') as f:
     for array_index in range(len(messages)):

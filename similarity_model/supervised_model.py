@@ -94,11 +94,13 @@ def transform_data(emb, pair_one, pair_two):
 		pair_two: list of the second word of the pairs
 
 	Returns:
-		element wise multiplication, absoluate difference of two vectors
+		element wise multiplication, absolute difference of two vectors
 		the inputs to the neural network
 	'''
-	pair_one = np.array(pair_one)
-	pair_two = np.array(pair_two)
+	tokenizer = RegexpTokenizer(r'[\w]+')
+	pair_one = preprocess(pair_one, tokenizer)
+	pair_two = preprocess(pair_two, tokenizer)
+
 	vectors_one = emb.transform(pair_one)
 	vectors_two = emb.transform(pair_two)
 
@@ -183,7 +185,7 @@ def fit_supervised_model(model, emb, csv_file):
 
 	# sample_weight = np.array([1 if pair_scores[i] == 1 else 10 for i in range(len(pair_scores))])
 	model.fit([g1_dot_g2, g1_abs_g2], y, epochs=300,
-			  verbose=2, validation_split=0)
+			  verbose=2, validation_split=0.1)
 
 	return model
 
