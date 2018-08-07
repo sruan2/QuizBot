@@ -6,7 +6,7 @@ import heapq
 import random
 from collections import defaultdict
 
-from .base_model import BaseSequencingModel
+from base_model import BaseSequencingModel
 
 class Question():
     '''class the stores information for each question
