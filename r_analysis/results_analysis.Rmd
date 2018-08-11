@@ -1,0 +1,65 @@
+---
+title: "Analyzing Results of the QuizBot project"
+output: html_notebook
+---
+
+This is an [R Markdown](http://rmarkdown.rstudio.com) Notebook. When you execute code within the notebook, the results appear beneath the code. 
+
+Try executing this chunk by clicking the *Run* button within the chunk or by placing your cursor inside it and pressing *Cmd+Shift+Enter*. 
+
+```{r}
+library("ggplot2")
+library(lsr)
+library(pwr)
+```
+
+```{r}
+# Unpaired t-test:
+# http://www.sthda.com/english/wiki/unpaired-two-samples-t-test-in-r
+
+# Pilot Study: Allie	Blaising, Maika	Isogawa, Alex	Nguyen, Nik	Marda, Phoebe	Kimm, Michael	Cooper 
+flashcard_time = c(1.37, 0.00, 17.71)
+quizbot_time = c(17.55, 6.40, 33.11)
+time_data <- data.frame(group = rep(c("flashcard", "quizbot"), each = 3),
+                        total_time = c(flashcard_time,  quizbot_time))
+
+flashcard_score = c(-1, 13)
+quizbot_score = c(5, 2)
+
+sd(quizbot_score)
+
+boxplot(total_time ~ group, data = time_data, col = c("lightblue", "lightyellow"), main='Total usage time over 7 days', ylab='minutes')
+
+# Assumption 1: Are the two samples independents?
+# Yes
+
+hist(flashcard_time, main = "Histogram of flashcard app usage time")
+hist(quizbot_time, main = "Histogram of quizbot app usage time")
+
+# Assumtion 2: Are the data from each of the 2 groups follow a normal distribution?
+# Shapiro-Wilk normality test for normality assumption
+with(time_data, shapiro.test(total_time[group == "flashcard"]))# p = 0.13
+with(time_data, shapiro.test(total_time[group == "quizbot"]))# p = 0.82
+
+# Assumption 3. Do the two populations have the same variances?
+res.ftest <- var.test(total_time ~ group, data = time_data)
+print(res.ftest) # p = 0.54, there is no significant difference between the variances of the two sets of data
+
+# Unpaired two-sample t-test
+# Compare the means of two groups under the assumption that both samples are random, independent, and normally distributed with unknown but equal variances
+t.test(flashcard_time, quizbot_time, paired=FALSE, var.equal = TRUE, alternative='two.sided')
+# p > 0.05 indicates we accept the null hypothesis
+
+# One-tailed versus two-tailed
+# https://stats.idre.ucla.edu/other/mult-pkg/faq/general/faq-what-are-the-differences-between-one-tailed-and-two-tailed-tests/
+# https://www.graphpad.com/guides/prism/7/statistics/one-tail_vs__two-tail_p_values.htm?toc=0&printWindow
+```
+
+
+
+Add a new chunk by clicking the *Insert Chunk* button on the toolbar or by pressing *Cmd+Option+I*.
+
+When you save the notebook, an HTML file containing the code and output will be saved alongside it (click the *Preview* button or press *Cmd+Shift+K* to preview the HTML file). 
+
+The preview shows you a rendered HTML copy of the contents of the editor. Consequently, unlike *Knit*, *Preview* does not run any R code chunks. Instead, the output of the chunk when it was last run in the editor is displayed.
+
