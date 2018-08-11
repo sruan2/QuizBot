@@ -1,4 +1,4 @@
-Instructionso on how to build a sentence similarity model using *mittens* + *SIF*
+Instructions on how to build a sentence similarity model using *mittens* + *SIF*
 
 ## Data file setup
 
