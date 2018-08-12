@@ -4,7 +4,7 @@ Instructions on how to build a sentence similarity model using *mittens* + *SIF*
 
 Download files from https://drive.google.com/drive/u/0/folders/1kyEVRudlOC2dxvJSeYztT9-YHpeCgAUo
 
-Move the `mittens_model.pkl` and `glove.6B.100d.pkl` files into the data_files folder 
+Move the `mittens_model.pkl` and `glove.6B.100d.pkl` files into the `data_files` folder 
 
 ## Creating the mittens model
 
