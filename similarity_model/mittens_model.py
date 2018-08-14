@@ -4,8 +4,10 @@
 '''
 
 import pickle
+import _pickle as cPickle
 import numpy as np
 from mittens import Mittens
+
 
 # the file that contains the vocab vectors from glove trained model
 glove_file = 'data_files/glove.6B.100d.pkl'
@@ -14,56 +16,55 @@ glove_file = 'data_files/glove.6B.100d.pkl'
 cooccurrence_file = 'data_files/weighted_matrix.pkl'
 vocab_file = 'data_files/vocab.pkl'
 
-with open(glove_file, 'rb') as pkl:
-    glove = pickle.load(pkl)
-    print('loaded glove')
 
-with open(cooccurrence_file, 'rb') as pkl:
-    cooccurrence = pickle.load(pkl)
-    print('loaded cooccurrence')
+if __name__ == '__main__':
+    with open(glove_file, 'rb') as pkl:
+        glove = pickle.load(pkl)
+        print('loaded glove')
 
-with open(vocab_file, 'rb') as pkl:
-    vocab = pickle.load(pkl)
-    print('loaded vocab')
+    with open(cooccurrence_file, 'rb') as pkl:
+        cooccurrence = pickle.load(pkl)
+        print('loaded cooccurrence')
 
-# convert to numpy array
-cooccurrence = cooccurrence.toarray()
+    with open(vocab_file, 'rb') as pkl:
+        vocab = pickle.load(pkl)
+        print('loaded vocab')
 
-glove_vocab = glove.keys()
-# indices for vocab thats not in glove
-missing_words = np.array(
-    [i for i in range(len(vocab)) if vocab[i] not in glove_vocab])
+    # convert to numpy array
+    cooccurrence = cooccurrence.toarray()
+    print('Initial cooccurrence shape:', cooccurrence.shape)
 
-cooccurrence = cooccurrence[missing_words][:, missing_words]
-vocab = list(np.array(vocab)[missing_words])
+    glove_vocab = glove.keys()
+    # indices for vocab thats not in glove
+    missing_words = np.array(
+        [i for i in range(len(vocab)) if vocab[i] not in glove_vocab])
 
-# check if sizes match up
-print(len(vocab))
-print(cooccurrence.shape)
+    print('missing_words shape:', missing_words.shape)
 
-print('size of glove vocab {}'.format(len(glove)))
+    cooccurrence = cooccurrence[missing_words][:, missing_words]
+    vocab = list(np.array(vocab)[missing_words])
 
-mittens_model = Mittens(n=100, max_iter=1000)
-# Note: n must match the original embedding dimension
-new_embeddings = mittens_model.fit(
-    cooccurrence,
-    vocab=vocab,
-    initial_embedding_dict=glove)
+    # check if sizes match up
+    print('Vocab length:', len(vocab))
+    print('New cooccurrence shape:', cooccurrence.shape)
 
-print()
-print('size of new embeddings vocab {}'.format(len(new_embeddings)))
+    print('size of glove vocab {}'.format(len(glove)))
 
-# transform the vectors into a dictionary mapping and then append the vocabulary to glove
-embeddings_dict = {key: np.array(vector)
-                   for key, vector in zip(vocab, new_embeddings)}
-glove.update(embeddings_dict)
+    mittens_model = Mittens(n=100, max_iter=1000)
+    # Note: n must match the original embedding dimension
+    new_embeddings = mittens_model.fit(cooccurrence,
+                                       vocab=vocab,
+                                       initial_embedding_dict=glove)
 
-print('size of updated glove vocab {}'.format(len(glove)))
+    print('\nsize of new embeddings vocab {}'.format(len(new_embeddings)))
 
-import _pickle as cPickle
+    # transform the vectors into a dictionary mapping and then append the vocabulary to glove
+    embeddings_dict = {key: np.array(vector)
+                       for key, vector in zip(vocab, new_embeddings)}
+    glove.update(embeddings_dict)
 
-save_file = 'data_files/mittens_model.pkl'
+    print('size of updated glove vocab {}'.format(len(glove)))
 
-# save to mitten_model
-with open(save_file, 'wb') as output:
-    cPickle.dump(glove, output)
+    # save to mitten_model
+    with open('data_files/mittens_model.pkl', 'wb') as output:
+        cPickle.dump(glove, output)

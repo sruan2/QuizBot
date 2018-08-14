@@ -13,8 +13,11 @@ Try executing this chunk by clicking the *Run* button within the chunk or by pla
 # https://www.r-bloggers.com/paired-students-t-test/
 # https://suinotes.wordpress.com/2009/11/30/understanding-t-test-in-r/
 ```
+
 ```{r}
 library("ggplot2")
+library(lsr)
+library(pwr)
 ```
 
 ```{r}
@@ -48,49 +51,55 @@ pwr.t.test(n = 10, d = 1.12, sig.level = 0.05, type = "paired")
 
 ```{r}
 # MTURK 1 (Aug 1)
-score_A = c(36, 31, 29, 25, 23, 18, 38, 18)
-score_B = c(31, 23, 28, 24, 19, 23, 36, 17)
+score_A = c(31, 28, 33, 16, 33, 35, 36, 21, 22, 11, 20, 19, 21, 12, 32, 52, 23, 46, 31, 25, 23, 11, 23, 39, 26, 35, 29, 18, 26, 33, 29, 33, 31, 47, 38, 38, 18, 29, 13, 26, 2, 39, 38, 31, 13, 21, 32, 22, 32, 31, 27, 26, 31, 24, 33, 13, 31, 32, 28, 21)
+score_B = c(23, 23, 22, 16, 27, 25, 31, 20, 18, 15, 27, 20, 25, 17, 28, 48, 21, 41, 26, 24, 19, 13, 22, 37, 27, 35, 28, 23, 26, 31, 31, 29, 30, 47, 39, 36, 17, 19, 18, 25, 2, 43, 34, 27, 16, 19, 33, 14, 30, 30, 31, 21, 29, 24, 24, 18, 27, 31, 26, 18)
 
-my_data <- data.frame(group = rep(c("score_A", "score_B"), each = 8),
+# Removing users who have inconsistant answers >4
+score_A = score_A[c(1:15, 17:37, 39:40, 42:52)]
+score_B = score_B[c(1:15, 17:37, 39:40, 42:52)]
+
+score_A = score_A[c(1:19)]
+score_B = score_B[c(1:19)]
+print(score_A)
+
+my_data <- data.frame(group = rep(c("quiz A", "quiz B"), each = 49),
                       score = c(score_A,  score_B))
-boxplot(score ~ group, data = my_data, col = c("lightyellow", "lightblue"))
+boxplot(score ~ group, data = my_data, col = c("lightyellow", "lightblue"), main='Average score (out of 60)')
 
 score_diffs = score_B - score_A
-hist(score_diffs, breaks=3)
+hist(score_diffs, main = "Histogram of score diffs (B-A)")
+
 shapiro.test(score_diffs)
+
 t.test(score_A, score_B, paired = TRUE)
-# at 95% confidence level, there is no significant difference (p-value = 0.1574) of the two means
+# at 95% confidence level, there is no significant difference (p-value > 0.05) of the two means
 
 # Effect size
 # http://rcompanion.org/handbook/I_04.html
-library(lsr)
 cohensD(score ~ group, 
        data   = my_data,
        method = "paired")
 
 # Power analysis
 # https://www.statmethods.net/stats/power.html
-library(pwr)
-pwr.t.test(n = 6, d = 0.56, sig.level = 0.05, type = "paired")
-pwr.t.test(d = 0.56, sig.level = 0.05, power = 0.8, type = "paired")
+pwr.t.test(n = 17, d = 0.431, sig.level = 0.05, type = "paired")
+pwr.t.test(d = 0.311, sig.level = 0.05, power = 0.8, type = "paired")
 ```
 
 ```{r}
 # MTURK 2 (Aug 5)
-score_A = c(30,39,24,12,32,23,39,26,34,22,16,32,28,47,23,21,24)
-score_B = c(26,34,18,14,29,25,34,22,31,24,19,32,20,46,20,19,27)
+score_A = c(30,39,24,12,32,23,39,26,34,22,16,32,28,47,33,23,25,21,24)
+score_B = c(26,34,18,14,29,25,34,22,31,24,19,32,20,46,34,20,22,19,27)
 
-score_A = score_A[1:15]
-score_B = score_B[1:15]
-length(score_A)
+score_A = score_A[1:13]
+score_B = score_B[1:13]
 
 score_diffs = score_B - score_A
 hist(score_diffs)
 
 # Create a data frame
-my_data <- data.frame(group = rep(c("score_A", "score_B"), each = 15),
+my_data <- data.frame(group = rep(c("score_A", "score_B"), each = 13),
                       score = c(score_A,  score_B))
-print(my_data)
 
 # Plot weight by group and color by group
 boxplot(score ~ group, data = my_data, col = c("lightyellow", "lightblue"))
