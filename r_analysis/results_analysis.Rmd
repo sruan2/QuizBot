@@ -18,25 +18,29 @@ library(pwr)
 # http://www.sthda.com/english/wiki/unpaired-two-samples-t-test-in-r
 
 # Pilot Study: Allie	Blaising, Maika	Isogawa, Alex	Nguyen, Nik	Marda, Phoebe	Kimm, Michael	Cooper 
-flashcard_time = c(1.37, 0.00, 17.71)
-quizbot_time = c(17.55, 6.40, 33.11)
-time_data <- data.frame(group = rep(c("flashcard", "quizbot"), each = 3),
+flashcard_time = c(33.86, 41.84, 19.31, 35.31, 30.11)
+quizbot_time = c(59.8, 78.62, 49.23, 45.81)
+time_data <- data.frame(group = rep(c("flashcard", "quizbot"), each = 4),
                         total_time = c(flashcard_time,  quizbot_time))
 
-flashcard_score = c(-1, 13)
-quizbot_score = c(5, 2)
+#flashcard_score = c(-1, 13)
+#quizbot_score = c(5, 2)
 
-sd(quizbot_score)
+#sd(quizbot_score)
 
 boxplot(total_time ~ group, data = time_data, col = c("lightblue", "lightyellow"), main='Total usage time over 7 days', ylab='minutes')
+
+mean(quizbot_time)
+sd(quizbot_time)
+mean(flashcard_time)
+sd(flashcard_time)
 
 # Assumption 1: Are the two samples independents?
 # Yes
 
+# Assumtion 2: Are the data from each of the 2 groups follow a normal distribution?
 hist(flashcard_time, main = "Histogram of flashcard app usage time")
 hist(quizbot_time, main = "Histogram of quizbot app usage time")
-
-# Assumtion 2: Are the data from each of the 2 groups follow a normal distribution?
 # Shapiro-Wilk normality test for normality assumption
 with(time_data, shapiro.test(total_time[group == "flashcard"]))# p = 0.13
 with(time_data, shapiro.test(total_time[group == "quizbot"]))# p = 0.82
@@ -49,6 +53,18 @@ print(res.ftest) # p = 0.54, there is no significant difference between the vari
 # Compare the means of two groups under the assumption that both samples are random, independent, and normally distributed with unknown but equal variances
 t.test(flashcard_time, quizbot_time, paired=FALSE, var.equal = TRUE, alternative='two.sided')
 # p > 0.05 indicates we accept the null hypothesis
+
+library(lsr)
+# Effect size
+# http://rcompanion.org/handbook/I_04.html
+cohensD(total_time ~ group, 
+       data  = time_data,
+       method = "pooled")
+
+# Power analysis
+# https://www.statmethods.net/stats/power.html
+pwr.t.test(n = 4, d = 2.07, sig.level = 0.05, type = "two.sample")
+pwr.t.test(d = 0.311, sig.level = 0.05, power = 0.8, type = "two.sample")
 
 # One-tailed versus two-tailed
 # https://stats.idre.ucla.edu/other/mult-pkg/faq/general/faq-what-are-the-differences-between-one-tailed-and-two-tailed-tests/
