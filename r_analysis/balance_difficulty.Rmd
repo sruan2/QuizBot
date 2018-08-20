@@ -21,6 +21,84 @@ library(pwr)
 ```
 
 ```{r}
+# MTURK 1: SPLIT
+score_A1 = c(4, 2, 5, 4, 12, 14, 9, 16, 12, 12, 11, 14, 8, 8, 8, 9, 12, 11, 24, 12, 13, 15, 14, 18, 19, 14, 12, 9, 13, 20, 12, 14, 5, 11, 9, 13, 18, 8, 12, 13, 12, 12, 17, 8, 17, 16, 9, 19, 11, 5, 5, 9, 10, 14, 15, 3, 14, 14, 7, 9, 7, 5, 14, 10, 3)
+score_A2 = c(7, 0, 7, 4, 14, 12, 7, 14, 12, 17, 16, 12, 10, 6, 10, 8, 17, 12, 22, 6, 16, 12, 13, 16, 15, 6, 11, 11, 11, 20, 7, 9, 3, 9, 10, 12, 15, 8, 12, 12, 12, 16, 15, 10, 18, 15, 10, 24, 17, 7, 6, 10, 5, 14, 15, 8, 13, 13, 9, 11, 10, 9, 10, 11, 4)
+score_B1 = c(6, 1, 8, 7, 13, 12, 9, 14, 11, 11, 7, 12, 9, 6, 8, 8, 14, 11, 20, 7, 13, 17, 10, 18, 18, 10, 9, 9, 10, 18, 12, 15, 5, 9, 8, 11, 17, 7, 11, 12, 11, 14, 17, 11, 16, 12, 7, 20, 12, 8, 9, 10, 9, 14, 10, 8, 14, 12, 9, 7, 10, 9, 13, 9, 2)
+score_B2 = c(2, 0, 12, 4, 15, 10, 14, 14, 13, 15, 12, 15, 10, 7, 14, 10, 16, 12, 23, 10, 13, 11, 13, 21, 16, 10, 9, 8, 11, 17, 8, 9, 8, 8, 8, 12, 13, 10, 16, 13, 15, 14, 16, 12, 20, 11, 8, 22, 11, 9, 7, 10, 4, 12, 13, 7, 14, 13, 7, 6, 8, 5, 15, 12, 7)
+
+# Removing users who have inconsistant answers >4
+score_A1 = score_A[c(1:15, 17:37, 39:40, 42:52)]
+score_A2 = score_B[c(1:15, 17:37, 39:40, 42:52)]
+
+score_A1 = score_A[c(1:19)]
+score_A2 = score_B[c(1:19)]
+print(score_A)
+
+my_data <- data.frame(group = rep(c("A2", "B2"), each = 65),
+                      score = c(score_A2,  score_B2))
+boxplot(score ~ group, data = my_data, col = c("lightyellow", "lightblue"), main='Average score (out of 30)')
+
+score_diffs = score_A2 - score_A1
+hist(score_diffs, main = "Histogram of score diffs (A2-A1)")
+shapiro.test(score_diffs)
+
+mean(score_A1)
+mean(score_A2)
+mean(score_B1)
+mean(score_B2)
+
+t.test(score_A1, score_A2, paired = TRUE)
+# at 95% confidence level, there is no significant difference (p-value > 0.05) of the two means
+
+t.test(score_B1, score_B2, paired = TRUE)
+t.test(score_A1, score_B1, paired = TRUE)
+t.test(score_A2, score_B2, paired = TRUE)
+t.test(score_A1, score_B2, paired = TRUE)
+t.test(score_A2, score_B1, paired = TRUE)
+```
+
+```{r}
+# MTURK 1 (Aug 1)
+score_A = c(11, 2, 12, 8, 24, 23, 16, 29, 22, 28, 25, 25, 17, 13, 16, 15, 27, 21, 44, 17, 27, 26, 24, 32, 32, 19, 21, 20, 23, 39, 19, 23, 7, 18, 17, 23, 31, 16, 23, 24, 21, 26, 32, 16, 33, 30, 17, 41, 27, 11, 9, 17, 15, 26, 28, 10, 26, 27, 15, 18, 16, 12, 23, 19, 6)
+score_B = c(8, 1, 19, 11, 28, 21, 21, 26, 22, 24, 19, 25, 18, 12, 21, 17, 28, 22, 40, 16, 24, 28, 22, 36, 32, 18, 17, 17, 19, 34, 19, 23, 12, 16, 15, 22, 28, 16, 26, 24, 25, 27, 31, 21, 33, 22, 14, 38, 21, 16, 15, 18, 12, 25, 22, 14, 27, 24, 15, 12, 18, 14, 26, 20, 8)
+
+# Removing users who have inconsistant answers >4
+score_A = score_A[c(1:15, 17:37, 39:40, 42:52)]
+score_B = score_B[c(1:15, 17:37, 39:40, 42:52)]
+
+score_A = score_A[c(1:19)]
+score_B = score_B[c(1:19)]
+print(score_A)
+
+my_data <- data.frame(group = rep(c("quiz A", "quiz B"), each = 65),
+                      score = c(score_A,  score_B))
+boxplot(score ~ group, data = my_data, col = c("lightyellow", "lightblue"), main='Average score (out of 54)')
+
+mean(score_A)
+mean(score_B)
+
+score_diffs = score_B - score_A
+hist(score_diffs, main = "Histogram of score diffs (B-A)")
+shapiro.test(score_diffs)
+
+t.test(score_A, score_B, paired = TRUE)
+# at 95% confidence level, there is no significant difference (p-value > 0.05) of the two means
+
+# Note: no need for effect size if there's no significant difference
+# Effect size
+# http://rcompanion.org/handbook/I_04.html
+cohensD(score ~ group, 
+       data   = my_data,
+       method = "paired")
+
+# Power analysis
+# https://www.statmethods.net/stats/power.html
+pwr.t.test(n = 17, d = 0.431, sig.level = 0.05, type = "paired")
+pwr.t.test(d = 0.311, sig.level = 0.05, power = 0.8, type = "paired")
+```
+
+```{r}
 # Prolific (July)
 score_A = c(24,34,30,40,34,29,20,26,46,45,30,26,20,23,25,23,27)
 score_B = c(22,26,21,41,24,26,20,24,42,40,29,20,21,13,18,21,29)
@@ -47,43 +125,7 @@ cohensD(score ~ group,
 # Power analysis
 library(pwr)
 pwr.t.test(n = 10, d = 1.12, sig.level = 0.05, type = "paired")
-```
 
-```{r}
-# MTURK 1 (Aug 1)
-score_A = c(31, 28, 33, 16, 33, 35, 36, 21, 22, 11, 20, 19, 21, 12, 32, 52, 23, 46, 31, 25, 23, 11, 23, 39, 26, 35, 29, 18, 26, 33, 29, 33, 31, 47, 38, 38, 18, 29, 13, 26, 2, 39, 38, 31, 13, 21, 32, 22, 32, 31, 27, 26, 31, 24, 33, 13, 31, 32, 28, 21)
-score_B = c(23, 23, 22, 16, 27, 25, 31, 20, 18, 15, 27, 20, 25, 17, 28, 48, 21, 41, 26, 24, 19, 13, 22, 37, 27, 35, 28, 23, 26, 31, 31, 29, 30, 47, 39, 36, 17, 19, 18, 25, 2, 43, 34, 27, 16, 19, 33, 14, 30, 30, 31, 21, 29, 24, 24, 18, 27, 31, 26, 18)
-
-# Removing users who have inconsistant answers >4
-score_A = score_A[c(1:15, 17:37, 39:40, 42:52)]
-score_B = score_B[c(1:15, 17:37, 39:40, 42:52)]
-
-score_A = score_A[c(1:19)]
-score_B = score_B[c(1:19)]
-print(score_A)
-
-my_data <- data.frame(group = rep(c("quiz A", "quiz B"), each = 49),
-                      score = c(score_A,  score_B))
-boxplot(score ~ group, data = my_data, col = c("lightyellow", "lightblue"), main='Average score (out of 60)')
-
-score_diffs = score_B - score_A
-hist(score_diffs, main = "Histogram of score diffs (B-A)")
-
-shapiro.test(score_diffs)
-
-t.test(score_A, score_B, paired = TRUE)
-# at 95% confidence level, there is no significant difference (p-value > 0.05) of the two means
-
-# Effect size
-# http://rcompanion.org/handbook/I_04.html
-cohensD(score ~ group, 
-       data   = my_data,
-       method = "paired")
-
-# Power analysis
-# https://www.statmethods.net/stats/power.html
-pwr.t.test(n = 17, d = 0.431, sig.level = 0.05, type = "paired")
-pwr.t.test(d = 0.311, sig.level = 0.05, power = 0.8, type = "paired")
 ```
 
 ```{r}
