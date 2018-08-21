@@ -15,9 +15,9 @@ result_filename = "quizbot_data_analysis.txt"
 
 # Past Pilot Users: "Alex_Nguyen", "Maika_Isogawa", "Michael_Cooper", "Jordan_Cho", "Laura_Davey"
 
-users = ["Veronica_Cruz", "Jackie_Fortin", "Eleni_Aneziris", "Zilin_Ma", "Jongho_Kim", \
-         "Nina_Tai", "Yi_Feng", "Dae_hyun_Kim", "Pingyu_Wang", "Lantao_Mei", \
-         "Michael_Silvernagel", "Bianca_Yu"]
+# users = ["Veronica_Cruz", "Jackie_Fortin", "Eleni_Aneziris", "Zilin_Ma", "Jongho_Kim", \
+#          "Nina_Tai", "Yi_Feng", "Dae_hyun_Kim", "Pingyu_Wang", "Lantao_Mei", \
+#          "Michael_Silvernagel", "Bianca_Yu"]
 
 # 54 questions in post-study quiz (quiz B)
 postquiz_qid = set([146, 145, 118, 130, 148, 117, 127, 111, 120, 141, 143, 147, 114, 121, \
