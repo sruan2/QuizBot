@@ -3,7 +3,7 @@
     Author: Liwei Jiang
     Date: 02/08/2018
     Usage: Calculate the usage time of the QuizBot app for a user.
-    	   The code can be modified to compute the user reaction time by only considering the action that user sends message to the chatbot. 
+    	   The code can be modified to compute the user reaction time by only considering the action that user sends message to the chatbot.
 '''
 import csv
 import sys
@@ -18,6 +18,12 @@ result_filename = "quizbot_data_analysis.txt"
 users = ["Veronica_Cruz", "Jackie_Fortin", "Eleni_Aneziris", "Zilin_Ma", "Jongho_Kim", \
          "Nina_Tai", "Yi_Feng", "Dae_hyun_Kim", "Pingyu_Wang", "Lantao_Mei", \
          "Michael_Silvernagel", "Bianca_Yu"]
+
+# 54 questions in post-study quiz (quiz B)
+postquiz_qid = set([146, 145, 118, 130, 148, 117, 127, 111, 120, 141, 143, 147, 114, 121, \
+                   106, 102, 112, 133, 72, 79, 90, 84, 58, 83, 59, 50, 56, 73, 93, 68, 53, \
+                   77, 75, 97, 89, 87, 25, 24, 1, 19, 21, 44, 17, 30, 38, 6, 8, 2, 11, 37, \
+                   9, 41, 29, 42])
 
 # time break considered to be a leave
 BREAK_TIME = 30
@@ -104,8 +110,8 @@ for user in users:
         (old_time_stamp.year, old_time_stamp.month, old_time_stamp.day, total_usage_time/60))
     time_report[user] = sub_time_report
 
-    events = [x[QID_INDEX] for x in user_history_file if x[END_QID_INDEX] != ""]
-    question_report[user] = ((len(events), len(set(events))))
+    events = [int(x[QID_INDEX]) for x in user_history_file if x[END_QID_INDEX] != ""]
+    question_report[user] = (len(events), len(set(events)), len(set(events)&postquiz_qid))
 
 output_string = ""
 for user in time_report:
@@ -132,6 +138,9 @@ for user in time_report:
     output_string += "\n"
     output_string += "Number of unique questions practiced: "
     output_string += str(question_report[user][1])
+    output_string += "\n"
+    output_string += "Number of post-quiz questions seen  : "
+    output_string += str(question_report[user][2])
     output_string += "\n"
     output_string += "Total APP Usage Time                : "
     output_string += str(round(total_time, 2))
