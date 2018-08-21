@@ -1,7 +1,7 @@
 '''
     chatbot.py
     Author: Liwei Jiang, Sherry Ruan, Zhengneng Qiu
-    Date: 24/07/2018
+    Last Modified Date: 09/08/2018
     Usage: Receiving and sending messages between the users and the chatbot.
 '''
 
@@ -272,7 +272,6 @@ def respond_to_payload(payload, sender_id, qa_model, chatbot_text, template_conv
                           template_conversation, "conversation_1")
 
 
-# TODO: Remove redundant code
 def respond_to_messagetext(message_text, sender_id, qa_model, chatbot_text, template_conversation, mysql, cache, uid):
     '''
         This function responds to the user's message texts.
@@ -296,9 +295,10 @@ def respond_to_messagetext(message_text, sender_id, qa_model, chatbot_text, temp
     '''
     message_text = message_text.lower()
 
+    # allow user to type in the bug report
     if cache[sender_id]["last_payload"] == "REPORT_BUG":
-        send_conversation(mysql, sender_id, "MESSAGE_TEXT",
-                          chatbot_text, template_conversation, "conversation_2")
+        send_paragraph(mysql, sender_id, "MESSAGE_TEXT",
+                           chatbot_text, template_conversation, "paragraph_4")
         return
 
     qid = cache[sender_id]["current_qid"]

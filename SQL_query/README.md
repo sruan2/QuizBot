@@ -1,9 +1,11 @@
 ```bash
-# to extract flash card user data. Output file is flashcard_Bryce_Tham.csv
-./flashcard_analytics.sh Bryce Tham
+# For the user data analysis of the quizbot app. 
+# The result is written to quizbot_data_analysis.txt file.
+python quizbot_user_data.py Firstname Lastname 
 
-# to extract quizbot user data. Ouput file is quizbot_conversation_Bryce_Tham.csv and quizbot_user_history_Bryce_Tham.csv
-./quizbot_analytics.sh Bryce Tham QUIZBOT (or QUIZBOT_DEV)
+# For the user data analysis of the flashcards app.
+# The result is written to flashcard_data_analysis.txt file.
+python flashcard_user_data.py Firstname Lastname 
 
 To calculate the app usage time, please go to 'score_calculator/app_user_data'. 
 

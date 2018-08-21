@@ -1,4 +1,10 @@
-'''Flash application for quizbot'''
+'''
+    app.py
+    Author: Liwei Jiang, Sherry Ruan, Zhengneng Qiu
+    Last Modified Date: 09/08/2018
+    Usage: Flask application for QuizBot.
+'''
+
 import os
 import yaml
 import json
@@ -257,7 +263,6 @@ with app.app_context():
     # Load conversation source text file
     chatbot_text, template_conversation = load_source(
         "text/chatbot_text", "text/template_conversation")
-    # [(1139924072777403, 'Sherry'), (1805880356153906, 'Nathan'), (1850388251650155, 'Liwei')]
     reminder.RepeatedTimer(86400, template_conversation, mysql)
 
 if __name__ == '__main__':
@@ -265,7 +270,7 @@ if __name__ == '__main__':
     setup(chatbot_text)
 
     # Read QA json data and construct the QA knowledge base
-    json_file = 'QAdataset/questions_filtered_150_quizbot.json'
+    json_file = 'QAdataset/questions_between_subjects_quizbot.json'
     qa_kb = QAKnowlegeBase(json_file)
     model = os.environ["MODEL"]
     question_sequencing_model = os.environ["QUESTION_SEQUENCING_MODEL"]

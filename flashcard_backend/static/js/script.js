@@ -1,8 +1,10 @@
+var user_id;
+
 $('document').ready(
     function() {
         $subject = 'science';
-        fetch_question()
         load();
+        fetch_question();
         FastClick.attach(document.body);
         $('.element-front').show();
         $('.element-back').hide();
@@ -13,7 +15,6 @@ $('document').ready(
         });
     }
 )
-
 
 function change(subject) {
     $subject = subject;
@@ -102,12 +103,13 @@ function load() {
         $('#lastname').val($user.firstname + ' ' + $user.lastname);
     }
     console.log('load: ' + $user);
+    user_id = $user.id;
 }
 
 
 function fetch_question() {
     if ($subject === "science" ) {
-        fetch('/question_data_science').then(function(response) {
+        fetch('/question_data_science?user_id=' + user_id).then(function(response) {
             response.json().then(function(json) {
                 $question = json;
                 update($question);
@@ -115,7 +117,7 @@ function fetch_question() {
         });
     }
     else if ($subject === "safety" ) {
-        fetch('/question_data_safety').then(function(response) {
+        fetch('/question_data_safety?user_id=' + user_id).then(function(response) {
             response.json().then(function(json) {
                 $question = json;
                 update($question);
@@ -123,7 +125,7 @@ function fetch_question() {
         });
     }
     else if ($subject === "gre" ) {
-        fetch('/question_data_gre').then(function(response) {
+        fetch('/question_data_gre?user_id=' + user_id).then(function(response) {
             response.json().then(function(json) {
                 $question = json;
                 update($question);
@@ -131,7 +133,7 @@ function fetch_question() {
         });
     }
     else {
-        fetch('/question_data').then(function(response) {
+        fetch('/question_data?user_id=' + user_id).then(function(response) {
             response.json().then(function(json) {
                 $question = json;
                 update($question);

@@ -30,38 +30,62 @@ json_file = '../QAdataset/questions_filtered_150_quizbot.json'
 qa_kb = QAKnowlegeBase(json_file)
 model = DASHSequencingModel(qa_kb)
 
-# Sherry: can we move this to main function?
+json_file_between_subject = '../QAdataset/questions_between_subjects_flashcard.json'
+qa_kb_between_subject = QAKnowlegeBase(json_file_between_subject)
+model_between_subject = RandomSequencingModel(qa_kb_between_subject)
+
+user_between_subject = {"672579434": "Dee Dee Thao", "725315344": "Tyler Yep",  \
+                        "1844410129": "Yinuo Yao", "1852193290": "Andrew Ying", \
+                        "2000946117": "jingyi li", "2079749432": "Jenn Hu",     \
+                        "732119323": "Joy Yuzurih", "664942274": "Henry Qin", \
+                        "902902333": "Liwei Jiang"}
+                        
+user_id_between_subject = list(user_between_subject.keys())
+
 with app.app_context():
     user_list = db.show_user_id_list_flashcard(mysql)
     for user_id in user_list:
         model.loadUserData(user_id, db.show_user_history_flashcard(mysql, user_id))
+
 
 @app.route('/')
 def index():
     return render_template('index.html')
 
 
-@app.route("/question_data")
+@app.route("/question_data", methods=['GET'])
 def fetch_question():
+    user_id = request.args.get('user_id')
     data = model.pickNextQuestion(subject='random')
+    if user_id in user_id_between_subject:
+        data = model_between_subject.pickNextQuestion(subject='random')
     return jsonify(data)
 
 
-@app.route("/question_data_gre")
+@app.route("/question_data_gre", methods=['GET'])
 def fetch_question_gre():
+    user_id = request.args.get('user_id')
     data = model.pickNextQuestion(subject='gre')
+    if user_id in user_id_between_subject:
+        data = model_between_subject.pickNextQuestion(subject='gre')
     return jsonify(data)
 
 
-@app.route("/question_data_science")
+@app.route("/question_data_science", methods=['GET'])
 def fetch_question_science():
+    user_id = request.args.get('user_id')
     data = model.pickNextQuestion(subject='science')
+    if user_id in user_id_between_subject:
+        data = model_between_subject.pickNextQuestion(subject='science')
     return jsonify(data)
 
 
-@app.route("/question_data_safety")
+@app.route("/question_data_safety", methods=['GET'])
 def fetch_question_safety():
+    user_id = request.args.get('user_id')
     data = model.pickNextQuestion(subject='safety')
+    if user_id in user_id_between_subject:
+        data = model_between_subject.pickNextQuestion(subject='safety')
     return jsonify(data)
 
 
