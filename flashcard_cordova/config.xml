@@ -32,5 +32,6 @@
     <allow-intent href="*" />
     <access origin="*" />
     <plugin name="cordova-plugin-local-notification" spec="https://github.com/katzer/cordova-plugin-local-notifications" />
-    <engine name="ios" spec="~4.5.5" />
+    <engine name="ios" spec="^4.5.5" />
+    <engine name="android" spec="^7.1.1" />
 </widget>
