@@ -710,7 +710,6 @@ FUN_FACT_SCIENCE:
           - JOKE
           - NEXT_QUESTION 
 
-
 NEED_HINT: 
   conversation:
     conversation_1:
@@ -747,7 +746,12 @@ MESSAGE_TEXT:
       - source:
           TEMPLATE
         text:
-          ANSWER_CORRECT         
+          ANSWER_CORRECT  
+    paragraph_4:
+      - source:
+          TEMPLATE
+        text:
+          BUGREPORT         
 
   conversation:
     conversation_1:
@@ -767,19 +771,19 @@ MESSAGE_TEXT:
           - NEXT_QUESTION 
           - CHAT_WITH_ME 
 
-    conversation_2:
-      message:
-        - source:
-            TEMPLATE
-          text:
-            BUGREPORT
-      quick_reply:
-        source:
-          - LOCAL
-          - LOCAL
-        title:
-          - Next question 💪
-          - Change subject 🔀
-        payload:
-          - NEXT_QUESTION  
-          - SWITCH_SUBJECT  
+    # conversation_2:
+    #   message:
+    #     - source:
+    #         TEMPLATE
+    #       text:
+    #         BUGREPORT
+    #   quick_reply:
+    #     source:
+    #       - LOCAL
+    #       - LOCAL
+    #     title:
+    #       - Next question 💪
+    #       - Change subject 🔀
+    #     payload:
+    #       - NEXT_QUESTION  
+    #       - SWITCH_SUBJECT  
