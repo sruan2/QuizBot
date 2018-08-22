@@ -1,0 +1,220 @@
+user_id,user_firstname,user_lastname,uid,sender,recipient,type,dialogue,time_stamp
+2326685720705389,Andrew,Ying,591,2326685720705389,854518728062939,persistent_menu: GET_INTRO_1,Get Started,2018-08-21 08:42:32
+2326685720705389,Andrew,Ying,592,854518728062939,2326685720705389,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/quizbot_avatar.png,2018-08-21 08:42:36
+2326685720705389,Andrew,Ying,593,854518728062939,2326685720705389,BOT: quick reply,"Hi Andrew! My name is Frosty :penguin: and Im here to help you learn all about science:microscope:, verbal reasoning (GRE) :input_latin_uppercase:, and safety:hammer_and_wrench:!",2018-08-21 08:42:38
+2326685720705389,Andrew,Ying,594,2326685720705389,854518728062939,persistent_menu: GRE,GRE :input_latin_uppercase:,2018-08-21 08:42:54
+2326685720705389,Andrew,Ying,595,854518728062939,2326685720705389,BOT: quick reply,Let's answer some questions about the GRE!,2018-08-21 08:42:56
+2326685720705389,Andrew,Ying,596,2326685720705389,854518728062939,user_quick_reply: NEXT_QUESTION,I see :round_pushpin:,2018-08-21 08:42:59
+2326685720705389,Andrew,Ying,597,854518728062939,2326685720705389,BOT: message,See if you can answer this next one.,2018-08-21 08:43:00
+2326685720705389,Andrew,Ying,598,854518728062939,2326685720705389,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-21 08:43:02
+2326685720705389,Andrew,Ying,599,854518728062939,2326685720705389,BOT: quick reply,"Even though legislators claimed the Contagious Diseases Acts strengthened the nation, social purists argued the Acts _____ the nation's moral growth by encouraging licentious behavior.",2018-08-21 08:43:03
+2326685720705389,Andrew,Ying,600,2326685720705389,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-21 08:43:07
+2326685720705389,Andrew,Ying,601,854518728062939,2326685720705389,BOT: message,Okay. I'll give you some choices.,2018-08-21 08:43:09
+2326685720705389,Andrew,Ying,602,854518728062939,2326685720705389,BOT: quick reply,":keycap_1: hampered
+:keycap_2: ameliorated
+:keycap_3: enhanced
+:keycap_4: advanced
+:keycap_5: supplanted
+",2018-08-21 08:43:10
+2326685720705389,Andrew,Ying,603,2326685720705389,854518728062939,user_quick_reply: BUTTON_DKB_advanced,:keycap_4:,2018-08-21 08:43:14
+2326685720705389,Andrew,Ying,604,854518728062939,2326685720705389,BOT: message,"Oops, that is not correct. :disappointed_face:",2018-08-21 08:43:16
+2326685720705389,Andrew,Ying,605,854518728062939,2326685720705389,BOT: quick reply,The correct answer is hampered.,2018-08-21 08:43:17
+2326685720705389,Andrew,Ying,691,2326685720705389,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-21 14:50:00
+2326685720705389,Andrew,Ying,692,854518728062939,2326685720705389,BOT: message,Let's take a look at this question.,2018-08-21 14:50:02
+2326685720705389,Andrew,Ying,693,854518728062939,2326685720705389,BOT: quick reply,"Although John F. Kennedy was known for his carefree flag football games, Gerald Ford should be _____ as our football president: he turned down offers to play for two National Football League teams in order to pursue a career in public service.",2018-08-21 14:50:04
+2326685720705389,Andrew,Ying,694,2326685720705389,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-21 14:50:13
+2326685720705389,Andrew,Ying,695,854518728062939,2326685720705389,BOT: message,Okay. I'll give you some choices.,2018-08-21 14:50:14
+2326685720705389,Andrew,Ying,696,854518728062939,2326685720705389,BOT: quick reply,":keycap_1: apotheosized
+:keycap_2: annulled
+:keycap_3: criticized
+:keycap_4: abrogated
+:keycap_5: relegated
+",2018-08-21 14:50:16
+2326685720705389,Andrew,Ying,697,2326685720705389,854518728062939,user_quick_reply: BUTTON_AKB_apotheosized,:keycap_1:,2018-08-21 14:50:42
+2326685720705389,Andrew,Ying,698,854518728062939,2326685720705389,BOT: message,Great job!,2018-08-21 14:50:44
+2326685720705389,Andrew,Ying,699,854518728062939,2326685720705389,BOT: quick reply,The correct answer is apotheosized.,2018-08-21 14:50:45
+2326685720705389,Andrew,Ying,700,2326685720705389,854518728062939,user_quick_reply: WHY,Why?,2018-08-21 14:50:50
+2326685720705389,Andrew,Ying,701,854518728062939,2326685720705389,BOT: message,This is why:,2018-08-21 14:50:51
+2326685720705389,Andrew,Ying,702,854518728062939,2326685720705389,BOT: quick reply,":pushpin: Apotheosized -- deify or glorify
+:pushpin: Relegated -- to send or consign to an inferior position, place, or condition
+:pushpin: Abrogated -- revoke formally
+:pushpin: Annulled -- declare invalid
+:pushpin: Criticized -- find fault with; express criticism of; point out real or perceived flaws",2018-08-21 14:50:53
+2326685720705389,Andrew,Ying,838,2326685720705389,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-21 19:02:56
+2326685720705389,Andrew,Ying,839,854518728062939,2326685720705389,BOT: message,Let's try this one.,2018-08-21 19:02:57
+2326685720705389,Andrew,Ying,840,854518728062939,2326685720705389,BOT: quick reply,"Just as different people can have very different personalities, so too can pets - even those of the same species and breed possess varied _____ .",2018-08-21 19:02:59
+2326685720705389,Andrew,Ying,841,2326685720705389,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-21 19:03:05
+2326685720705389,Andrew,Ying,842,854518728062939,2326685720705389,BOT: message,Okay. I'll give you some choices.,2018-08-21 19:03:07
+2326685720705389,Andrew,Ying,843,854518728062939,2326685720705389,BOT: quick reply,":keycap_1: initiations
+:keycap_2: rationalizations
+:keycap_3: aptitudes
+:keycap_4: implementations
+:keycap_5: temperaments
+",2018-08-21 19:03:09
+2326685720705389,Andrew,Ying,844,2326685720705389,854518728062939,user_quick_reply: BUTTON_AKB_temperaments,:keycap_5:,2018-08-21 19:03:23
+2326685720705389,Andrew,Ying,845,854518728062939,2326685720705389,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_jubilated_pink.png,2018-08-21 19:03:26
+2326685720705389,Andrew,Ying,846,854518728062939,2326685720705389,BOT: message,Great! Keep it up! :flexed_biceps_medium-light_skin_tone:,2018-08-21 19:03:27
+2326685720705389,Andrew,Ying,847,854518728062939,2326685720705389,BOT: quick reply,The correct answer is temperaments.,2018-08-21 19:03:29
+2326685720705389,Andrew,Ying,848,2326685720705389,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-21 19:03:33
+2326685720705389,Andrew,Ying,849,854518728062939,2326685720705389,BOT: message,Let's see if you can answer this question.,2018-08-21 19:03:35
+2326685720705389,Andrew,Ying,850,854518728062939,2326685720705389,BOT: quick reply,"Many dog owners treat their pets too _____ , forgetting that canines have evolved in competitive environments in which emotional coddling was a sign of weakness.",2018-08-21 19:03:36
+2326685720705389,Andrew,Ying,851,2326685720705389,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-21 19:03:41
+2326685720705389,Andrew,Ying,852,854518728062939,2326685720705389,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-08-21 19:03:42
+2326685720705389,Andrew,Ying,853,854518728062939,2326685720705389,BOT: quick reply,":keycap_1: fortuitously
+:keycap_2: aggressively
+:keycap_3: indulgently
+:keycap_4: belligerently
+:keycap_5: quixotically
+",2018-08-21 19:03:44
+2326685720705389,Andrew,Ying,854,2326685720705389,854518728062939,user_quick_reply: BUTTON_AKB_indulgently,:keycap_3:,2018-08-21 19:03:50
+2326685720705389,Andrew,Ying,855,854518728062939,2326685720705389,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_happy_pink.png,2018-08-21 19:03:52
+2326685720705389,Andrew,Ying,856,854518728062939,2326685720705389,BOT: message,Nice! That was right!,2018-08-21 19:03:54
+2326685720705389,Andrew,Ying,857,854518728062939,2326685720705389,BOT: quick reply,The correct answer is indulgently.,2018-08-21 19:03:55
+2326685720705389,Andrew,Ying,858,2326685720705389,854518728062939,user_quick_reply: WHY,Why?,2018-08-21 19:03:58
+2326685720705389,Andrew,Ying,859,854518728062939,2326685720705389,BOT: message,Here's an explanation:,2018-08-21 19:03:59
+2326685720705389,Andrew,Ying,860,854518728062939,2326685720705389,BOT: quick reply,":pushpin: Indulgently -- benignly lenient or permissive
+:pushpin: Aggressively -- characterized by or tending toward unprovoked offensives, attacks, invasions, or the like
+:pushpin: Quixotically -- extravagantly chivalrous or romantic
+:pushpin: Fortuitously -- by good fortune
+:pushpin: Belligerently -- with hostility; in a belligerent hostile manner",2018-08-21 19:04:01
+2326685720705389,Andrew,Ying,861,2326685720705389,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-21 19:04:44
+2326685720705389,Andrew,Ying,862,854518728062939,2326685720705389,BOT: message,How about this next one:,2018-08-21 19:04:46
+2326685720705389,Andrew,Ying,863,854518728062939,2326685720705389,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-21 19:04:47
+2326685720705389,Andrew,Ying,864,854518728062939,2326685720705389,BOT: quick reply,"Prior to taking on the new invader, the defending army had engaged in arduous combat; it is likely that the _____ resulting from waging two battles in two days played a part in its subsequent defeat.",2018-08-21 19:04:49
+2326685720705389,Andrew,Ying,865,2326685720705389,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-21 19:04:55
+2326685720705389,Andrew,Ying,866,854518728062939,2326685720705389,BOT: message,It's one of the following choices.,2018-08-21 19:04:57
+2326685720705389,Andrew,Ying,867,854518728062939,2326685720705389,BOT: quick reply,":keycap_1: pugnacity
+:keycap_2: enervation
+:keycap_3: aggravation
+:keycap_4: bellicosity
+:keycap_5: pacification
+",2018-08-21 19:04:58
+2326685720705389,Andrew,Ying,868,2326685720705389,854518728062939,user_quick_reply: BUTTON_AKB_enervation,:keycap_2:,2018-08-21 19:05:06
+2326685720705389,Andrew,Ying,869,854518728062939,2326685720705389,BOT: message,Great job!,2018-08-21 19:05:07
+2326685720705389,Andrew,Ying,870,854518728062939,2326685720705389,BOT: quick reply,The correct answer is enervation.,2018-08-21 19:05:09
+2326685720705389,Andrew,Ying,871,2326685720705389,854518728062939,user_quick_reply: WHY,Why?,2018-08-21 19:05:12
+2326685720705389,Andrew,Ying,872,854518728062939,2326685720705389,BOT: message,This is an explanation of the question:,2018-08-21 19:05:13
+2326685720705389,Andrew,Ying,873,854518728062939,2326685720705389,BOT: quick reply,":pushpin: Enervation -- lack of vitality
+:pushpin: Bellicosity -- a natural disposition to fight
+:pushpin: Pugnacity -- a natural disposition to be hostile
+:pushpin: Pacification -- the act of appeasing someone or causing someone to be more favorably inclined
+:pushpin: Aggravation -- an exasperated feeling of annoyance",2018-08-21 19:05:15
+2326685720705389,Andrew,Ying,874,2326685720705389,854518728062939,persistent_menu: CHAT_WITH_ME,Chat with Me :penguin:,2018-08-21 19:05:23
+2326685720705389,Andrew,Ying,875,854518728062939,2326685720705389,BOT: quick reply,Would you like me to tell you something interesting?,2018-08-21 19:05:24
+2326685720705389,Andrew,Ying,876,2326685720705389,854518728062939,user_quick_reply: FUN_FACT_SCIENCE,Fun fact :light_bulb:,2018-08-21 19:05:28
+2326685720705389,Andrew,Ying,877,854518728062939,2326685720705389,BOT: message,Here is a good one.,2018-08-21 19:05:30
+2326685720705389,Andrew,Ying,878,854518728062939,2326685720705389,BOT: quick reply,"In 100 years ago, the first virus was found in both plants and animals.",2018-08-21 19:05:31
+2326685720705389,Andrew,Ying,879,2326685720705389,854518728062939,persistent_menu: SCIENCE,Science:microscope:,2018-08-21 19:05:43
+2326685720705389,Andrew,Ying,880,854518728062939,2326685720705389,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/evolvereading_scientist.gif,2018-08-21 19:05:48
+2326685720705389,Andrew,Ying,881,854518728062939,2326685720705389,BOT: quick reply,Let's test your knowledge on science!,2018-08-21 19:05:50
+2326685720705389,Andrew,Ying,882,854518728062939,2326685720705389,BOT: message,Let's take a look at this question.,2018-08-21 19:05:55
+2326685720705389,Andrew,Ying,883,854518728062939,2326685720705389,BOT: quick reply,What are by far the most common type of invertebrate?,2018-08-21 19:05:56
+2326685720705389,Andrew,Ying,884,2326685720705389,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-21 19:06:01
+2326685720705389,Andrew,Ying,885,854518728062939,2326685720705389,BOT: message,Which of the following options is the right answer?,2018-08-21 19:06:03
+2326685720705389,Andrew,Ying,886,854518728062939,2326685720705389,BOT: quick reply,":keycap_1: crustaceans
+:keycap_2: spiders
+:keycap_3: corals
+:keycap_4: insects
+",2018-08-21 19:06:04
+2326685720705389,Andrew,Ying,887,2326685720705389,854518728062939,user_quick_reply: BUTTON_AKB_insects,:keycap_4:,2018-08-21 19:06:16
+2326685720705389,Andrew,Ying,888,854518728062939,2326685720705389,BOT: message,Great job!,2018-08-21 19:06:17
+2326685720705389,Andrew,Ying,889,854518728062939,2326685720705389,BOT: quick reply,The correct answer is insects.,2018-08-21 19:06:18
+2326685720705389,Andrew,Ying,890,2326685720705389,854518728062939,user_quick_reply: WHY,Why?,2018-08-21 19:06:23
+2326685720705389,Andrew,Ying,891,854518728062939,2326685720705389,BOT: message,Here's an explanation:,2018-08-21 19:06:24
+2326685720705389,Andrew,Ying,892,854518728062939,2326685720705389,BOT: quick reply,"Of all the animal species, it is estimated that well over 90% are invertebrates. Of all invertebrates, the insects are by far the most numerous. There are so many species of insects that scientists have yet to discover them all, let alone name or count them. Estimates of the total number of insect species fall in the range of 1 to 30 million. So, it helps if there are methods to classify not just the insects, but all invertebrates.",2018-08-21 19:06:26
+2326685720705389,Andrew,Ying,893,2326685720705389,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-21 19:06:36
+2326685720705389,Andrew,Ying,894,854518728062939,2326685720705389,BOT: message,I think you'll like this question.,2018-08-21 19:06:38
+2326685720705389,Andrew,Ying,895,854518728062939,2326685720705389,BOT: quick reply,"Temperature, water, soil, and air are examples of nonliving factors of an ecosystem, also termed what?",2018-08-21 19:06:39
+2326685720705389,Andrew,Ying,896,2326685720705389,854518728062939,user_typing,abiotic factors,2018-08-21 19:06:49
+2326685720705389,Andrew,Ying,897,854518728062939,2326685720705389,BOT: message,Correct! :confetti_ball:,2018-08-21 19:06:50
+2326685720705389,Andrew,Ying,898,854518728062939,2326685720705389,BOT: quick reply,The correct answer is abiotic factors.,2018-08-21 19:06:52
+2326685720705389,Andrew,Ying,899,2326685720705389,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-21 19:06:58
+2326685720705389,Andrew,Ying,900,854518728062939,2326685720705389,BOT: message,Could you answer this one for me?,2018-08-21 19:06:59
+2326685720705389,Andrew,Ying,901,854518728062939,2326685720705389,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-21 19:07:01
+2326685720705389,Andrew,Ying,902,854518728062939,2326685720705389,BOT: quick reply,What opens two strands of DNA?,2018-08-21 19:07:02
+2326685720705389,Andrew,Ying,903,2326685720705389,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-21 19:07:10
+2326685720705389,Andrew,Ying,904,854518728062939,2326685720705389,BOT: message,Which of the following options is the right answer?,2018-08-21 19:07:12
+2326685720705389,Andrew,Ying,905,854518728062939,2326685720705389,BOT: quick reply,":keycap_1: chromosome
+:keycap_2: helicase
+:keycap_3: adenylate
+:keycap_4: replication
+",2018-08-21 19:07:13
+2326685720705389,Andrew,Ying,906,2326685720705389,854518728062939,user_quick_reply: BUTTON_AKB_helicase,:keycap_2:,2018-08-21 19:07:24
+2326685720705389,Andrew,Ying,907,854518728062939,2326685720705389,BOT: message,Nice! That was right!,2018-08-21 19:07:26
+2326685720705389,Andrew,Ying,908,854518728062939,2326685720705389,BOT: quick reply,The correct answer is helicase.,2018-08-21 19:07:27
+2326685720705389,Andrew,Ying,909,2326685720705389,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-21 19:08:04
+2326685720705389,Andrew,Ying,910,854518728062939,2326685720705389,BOT: message,Let's take a look at this question.,2018-08-21 19:08:06
+2326685720705389,Andrew,Ying,911,854518728062939,2326685720705389,BOT: quick reply,What is the diffusion of water through a semipermeable membrane down its concentration gradient?,2018-08-21 19:08:08
+2326685720705389,Andrew,Ying,912,2326685720705389,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-21 19:08:16
+2326685720705389,Andrew,Ying,913,854518728062939,2326685720705389,BOT: message,Pick one of the following answers.,2018-08-21 19:08:17
+2326685720705389,Andrew,Ying,914,854518728062939,2326685720705389,BOT: quick reply,":keycap_1: permable
+:keycap_2: osmosis
+:keycap_3: mirrors
+:keycap_4: nutrients
+",2018-08-21 19:08:19
+2326685720705389,Andrew,Ying,915,2326685720705389,854518728062939,user_quick_reply: BUTTON_AKB_osmosis,:keycap_2:,2018-08-21 19:08:23
+2326685720705389,Andrew,Ying,916,854518728062939,2326685720705389,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_normal_pink.png,2018-08-21 19:08:25
+2326685720705389,Andrew,Ying,917,854518728062939,2326685720705389,BOT: message,Nice work! Keep it up!,2018-08-21 19:08:27
+2326685720705389,Andrew,Ying,918,854518728062939,2326685720705389,BOT: quick reply,The correct answer is osmosis.,2018-08-21 19:08:28
+2326685720705389,Andrew,Ying,919,2326685720705389,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-21 19:08:32
+2326685720705389,Andrew,Ying,920,854518728062939,2326685720705389,BOT: message,Could you answer this one for me?,2018-08-21 19:08:34
+2326685720705389,Andrew,Ying,921,854518728062939,2326685720705389,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-21 19:08:35
+2326685720705389,Andrew,Ying,922,854518728062939,2326685720705389,BOT: quick reply,The electrode at which oxidation occurs is called the what?,2018-08-21 19:08:37
+2326685720705389,Andrew,Ying,923,2326685720705389,854518728062939,user_typing,anode,2018-08-21 19:08:51
+2326685720705389,Andrew,Ying,924,854518728062939,2326685720705389,BOT: message,Good Answer! :white_heavy_check_mark:,2018-08-21 19:08:53
+2326685720705389,Andrew,Ying,925,854518728062939,2326685720705389,BOT: quick reply,The correct answer is anode.,2018-08-21 19:08:54
+2326685720705389,Andrew,Ying,926,2326685720705389,854518728062939,user_quick_reply: WHY,Why?,2018-08-21 19:08:58
+2326685720705389,Andrew,Ying,927,854518728062939,2326685720705389,BOT: message,This is an explanation of the question:,2018-08-21 19:09:00
+2326685720705389,Andrew,Ying,928,854518728062939,2326685720705389,BOT: quick reply,"The electrode at which oxidation occurs is called the anode. The zinc anode gradually diminishes as the cell operates due to the loss of zinc metal. The zinc ion concentration in the half-cell increases. Because of the production of electrons at the anode, it is labeled as the negative electrode.",2018-08-21 19:09:01
+2326685720705389,Andrew,Ying,929,2326685720705389,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-21 19:09:21
+2326685720705389,Andrew,Ying,930,854518728062939,2326685720705389,BOT: message,Let's try this one.,2018-08-21 19:09:22
+2326685720705389,Andrew,Ying,931,854518728062939,2326685720705389,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-21 19:09:24
+2326685720705389,Andrew,Ying,932,854518728062939,2326685720705389,BOT: quick reply,"Temperature, water, soil, and air are examples of nonliving factors of an ecosystem, also termed what?",2018-08-21 19:09:25
+2326685720705389,Andrew,Ying,933,2326685720705389,854518728062939,user_typing,I already answered,2018-08-21 19:09:37
+2326685720705389,Andrew,Ying,934,854518728062939,2326685720705389,BOT: message,That's not quite right. :disappointed_face:,2018-08-21 19:09:39
+2326685720705389,Andrew,Ying,935,854518728062939,2326685720705389,BOT: quick reply,The correct answer is abiotic factors.,2018-08-21 19:09:40
+2326685720705389,Andrew,Ying,936,2326685720705389,854518728062939,user_typing,Ok,2018-08-21 19:09:50
+2326685720705389,Andrew,Ying,937,854518728062939,2326685720705389,BOT: quick reply,I'm not sure what this is. I'm still learning languages and you might be my teacher in the future!,2018-08-21 19:09:52
+2326685720705389,Andrew,Ying,938,2326685720705389,854518728062939,user_typing,Damn it,2018-08-21 19:10:06
+2326685720705389,Andrew,Ying,939,854518728062939,2326685720705389,BOT: quick reply,Haha I haven't learned about this yet. You can teach me some languages later!,2018-08-21 19:10:07
+2326685720705389,Andrew,Ying,940,2326685720705389,854518728062939,user_typing,Why,2018-08-21 19:10:16
+2326685720705389,Andrew,Ying,941,854518728062939,2326685720705389,BOT: quick reply,"That sounds interesting, but I haven't learned about this yet. I'll learn more languages in the future.",2018-08-21 19:10:17
+2326685720705389,Andrew,Ying,942,2326685720705389,854518728062939,user_typing,Omg,2018-08-21 19:10:25
+2326685720705389,Andrew,Ying,943,854518728062939,2326685720705389,BOT: quick reply,"That sounds interesting, but I haven't learned about this yet. I'll learn more languages in the future.",2018-08-21 19:10:27
+2326685720705389,Andrew,Ying,944,2326685720705389,854518728062939,user_quick_reply: NEXT_QUESTION,Resume learning :flexed_biceps_medium-light_skin_tone:,2018-08-21 19:10:37
+2326685720705389,Andrew,Ying,945,854518728062939,2326685720705389,BOT: message,How about this next one:,2018-08-21 19:10:38
+2326685720705389,Andrew,Ying,946,854518728062939,2326685720705389,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-21 19:10:40
+2326685720705389,Andrew,Ying,947,854518728062939,2326685720705389,BOT: quick reply,Nerve cells that sense touch are found mainly where?,2018-08-21 19:10:41
+2326685720705389,Andrew,Ying,948,2326685720705389,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-21 19:10:51
+2326685720705389,Andrew,Ying,949,854518728062939,2326685720705389,BOT: message,Pick one of the following answers.,2018-08-21 19:10:52
+2326685720705389,Andrew,Ying,950,854518728062939,2326685720705389,BOT: quick reply,":keycap_1: lungs
+:keycap_2: skin
+:keycap_3: brain
+:keycap_4: stomach
+",2018-08-21 19:10:54
+2326685720705389,Andrew,Ying,951,2326685720705389,854518728062939,user_quick_reply: BUTTON_AKB_skin,:keycap_2:,2018-08-21 19:11:00
+2326685720705389,Andrew,Ying,952,854518728062939,2326685720705389,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_normal_pink.png,2018-08-21 19:11:02
+2326685720705389,Andrew,Ying,953,854518728062939,2326685720705389,BOT: message,Great job getting the correct answer!,2018-08-21 19:11:04
+2326685720705389,Andrew,Ying,954,854518728062939,2326685720705389,BOT: quick reply,The correct answer is skin.,2018-08-21 19:11:05
+2326685720705389,Andrew,Ying,955,2326685720705389,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-21 19:11:10
+2326685720705389,Andrew,Ying,956,854518728062939,2326685720705389,BOT: message,"Alrighty, let's try this one.",2018-08-21 19:11:12
+2326685720705389,Andrew,Ying,957,854518728062939,2326685720705389,BOT: quick reply,How often should women perform a breast self-exam?,2018-08-21 19:11:13
+2326685720705389,Andrew,Ying,958,2326685720705389,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-21 19:11:26
+2326685720705389,Andrew,Ying,959,854518728062939,2326685720705389,BOT: message,Pick one of the following answers.,2018-08-21 19:11:27
+2326685720705389,Andrew,Ying,960,854518728062939,2326685720705389,BOT: quick reply,":keycap_1: weekly
+:keycap_2: yearly
+:keycap_3: quarterly
+:keycap_4: monthly
+",2018-08-21 19:11:28
+2326685720705389,Andrew,Ying,961,2326685720705389,854518728062939,user_quick_reply: I_DONT_KNOW,I dont know :downcast_face_with_sweat:,2018-08-21 19:11:49
+2326685720705389,Andrew,Ying,962,854518728062939,2326685720705389,BOT: quick reply,Are you sure you want to give up?,2018-08-21 19:11:50
+2326685720705389,Andrew,Ying,963,2326685720705389,854518728062939,user_typing,4,2018-08-21 19:11:53
+2326685720705389,Andrew,Ying,964,854518728062939,2326685720705389,BOT: quick reply,That sounds cool. I need to learn more languages to keep up with the conversation with you. Maybe you can teach me languages in the future!,2018-08-21 19:11:55
+2326685720705389,Andrew,Ying,965,2326685720705389,854518728062939,user_quick_reply: NEXT_QUESTION,Resume learning :flexed_biceps_medium-light_skin_tone:,2018-08-21 19:12:04
+2326685720705389,Andrew,Ying,966,854518728062939,2326685720705389,BOT: message,Let's see if you would answer this one.,2018-08-21 19:12:06
+2326685720705389,Andrew,Ying,967,854518728062939,2326685720705389,BOT: quick reply,"Temperature, water, soil, and air are examples of nonliving factors of an ecosystem, also termed what?",2018-08-21 19:12:08
+2326685720705389,Andrew,Ying,968,2326685720705389,854518728062939,user_typing,Abiotic factors,2018-08-21 19:12:27
+2326685720705389,Andrew,Ying,969,854518728062939,2326685720705389,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_normal_purple.png,2018-08-21 19:12:30
+2326685720705389,Andrew,Ying,970,854518728062939,2326685720705389,BOT: message,Good job! :raising_hands_medium-light_skin_tone:,2018-08-21 19:12:31
+2326685720705389,Andrew,Ying,971,854518728062939,2326685720705389,BOT: quick reply,The correct answer is abiotic factors.,2018-08-21 19:12:33
+2326685720705389,Andrew,Ying,983,854518728062939,2326685720705389,BOT: quick reply,"Hi Andrew, you haven't talked to me for a while. Would you like to resume the learning with me?",2018-08-21 20:00:19

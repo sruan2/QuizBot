@@ -1,0 +1,21 @@
+user_id,user_firstname,user_lastname,uid,sender,recipient,type,dialogue,time_stamp
+1605863346117668,Henry,Qin,606,1605863346117668,854518728062939,user_typing,Test,2018-08-21 10:06:41
+1605863346117668,Henry,Qin,607,854518728062939,1605863346117668,BOT: quick reply,"That sounds interesting, but I haven't learned about this yet. I'll learn more languages in the future.",2018-08-21 10:06:42
+1605863346117668,Henry,Qin,608,1605863346117668,854518728062939,persistent_menu: GET_INTRO_1,Get Started,2018-08-21 10:07:10
+1605863346117668,Henry,Qin,609,854518728062939,1605863346117668,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/quizbot_avatar.png,2018-08-21 10:07:14
+1605863346117668,Henry,Qin,610,854518728062939,1605863346117668,BOT: quick reply,"Hi Henry! My name is Frosty :penguin: and Im here to help you learn all about science:microscope:, verbal reasoning (GRE) :input_latin_uppercase:, and safety:hammer_and_wrench:!",2018-08-21 10:07:15
+1605863346117668,Henry,Qin,611,1605863346117668,854518728062939,persistent_menu: GRE,GRE :input_latin_uppercase:,2018-08-21 10:07:48
+1605863346117668,Henry,Qin,612,854518728062939,1605863346117668,BOT: quick reply,Let's answer some questions about the GRE!,2018-08-21 10:07:50
+1605863346117668,Henry,Qin,613,1605863346117668,854518728062939,user_quick_reply: NEXT_QUESTION,Tap me :round_pushpin:,2018-08-21 10:07:56
+1605863346117668,Henry,Qin,614,854518728062939,1605863346117668,BOT: message,"Alrighty, let's try this one.",2018-08-21 10:07:57
+1605863346117668,Henry,Qin,615,854518728062939,1605863346117668,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-21 10:07:59
+1605863346117668,Henry,Qin,616,854518728062939,1605863346117668,BOT: quick reply,"Even though legislators claimed the Contagious Diseases Acts strengthened the nation, social purists argued the Acts _____ the nation's moral growth by encouraging licentious behavior.",2018-08-21 10:08:00
+1605863346117668,Henry,Qin,617,1605863346117668,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-21 10:08:10
+1605863346117668,Henry,Qin,618,854518728062939,1605863346117668,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-08-21 10:08:12
+1605863346117668,Henry,Qin,619,854518728062939,1605863346117668,BOT: quick reply,":keycap_1: supplanted
+:keycap_2: enhanced
+:keycap_3: ameliorated
+:keycap_4: hampered
+:keycap_5: advanced
+",2018-08-21 10:08:13
+1605863346117668,Henry,Qin,974,854518728062939,1605863346117668,BOT: quick reply,"Hi Henry, you haven't talked to me for a while. Would you like to resume the learning with me?",2018-08-21 20:00:04

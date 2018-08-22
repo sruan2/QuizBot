@@ -1,0 +1,117 @@
+user_id,user_firstname,user_lastname,uid,sender,recipient,type,dialogue,time_stamp
+1679729278802568,Joy,Yuzuriha,203,1679729278802568,854518728062939,persistent_menu: GET_INTRO_1,Get Started,2018-08-20 17:19:35
+1679729278802568,Joy,Yuzuriha,204,854518728062939,1679729278802568,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/quizbot_avatar.png,2018-08-20 17:19:39
+1679729278802568,Joy,Yuzuriha,205,854518728062939,1679729278802568,BOT: quick reply,"Hi Joy! My name is Frosty :penguin: and Im here to help you learn all about science:microscope:, verbal reasoning (GRE) :input_latin_uppercase:, and safety:hammer_and_wrench:!",2018-08-20 17:19:40
+1679729278802568,Joy,Yuzuriha,206,1679729278802568,854518728062939,persistent_menu: SAFETY,Safety:hammer_and_wrench:,2018-08-20 17:19:59
+1679729278802568,Joy,Yuzuriha,207,854518728062939,1679729278802568,BOT: quick reply,Good choice! Let's see what you know about safety!,2018-08-20 17:20:01
+1679729278802568,Joy,Yuzuriha,208,1679729278802568,854518728062939,user_quick_reply: NEXT_QUESTION,Okay :clapping_hands_medium-light_skin_tone:,2018-08-20 17:20:05
+1679729278802568,Joy,Yuzuriha,209,854518728062939,1679729278802568,BOT: message,Let's try this one.,2018-08-20 17:20:07
+1679729278802568,Joy,Yuzuriha,210,854518728062939,1679729278802568,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-20 17:20:08
+1679729278802568,Joy,Yuzuriha,211,854518728062939,1679729278802568,BOT: quick reply,What is the maximum amount of time perishable food should be left out?,2018-08-20 17:20:10
+1679729278802568,Joy,Yuzuriha,212,1679729278802568,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-20 17:20:19
+1679729278802568,Joy,Yuzuriha,213,854518728062939,1679729278802568,BOT: message,Pick one of the following answers.,2018-08-20 17:20:21
+1679729278802568,Joy,Yuzuriha,214,854518728062939,1679729278802568,BOT: quick reply,":keycap_1: 3 hours
+:keycap_2: 3.5 hours
+:keycap_3: 1.5 hours
+:keycap_4: 2 hours
+",2018-08-20 17:20:22
+1679729278802568,Joy,Yuzuriha,215,1679729278802568,854518728062939,user_quick_reply: BUTTON_AKB_2 hours,:keycap_4:,2018-08-20 17:20:28
+1679729278802568,Joy,Yuzuriha,216,854518728062939,1679729278802568,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_jubilated_orange.png,2018-08-20 17:20:31
+1679729278802568,Joy,Yuzuriha,217,854518728062939,1679729278802568,BOT: message,Great! Keep it up! :flexed_biceps_medium-light_skin_tone:,2018-08-20 17:20:32
+1679729278802568,Joy,Yuzuriha,218,854518728062939,1679729278802568,BOT: quick reply,The correct answer is 2 hours.,2018-08-20 17:20:34
+1679729278802568,Joy,Yuzuriha,237,1679729278802568,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-20 18:39:51
+1679729278802568,Joy,Yuzuriha,238,854518728062939,1679729278802568,BOT: message,I think you'll like this question.,2018-08-20 18:39:52
+1679729278802568,Joy,Yuzuriha,239,854518728062939,1679729278802568,BOT: quick reply,"Arrange in the correct order the following treatment steps for somebody who has lost consciousness: (i) call 911 or inform someone of the situation, (ii) begin CPR, (iii) check the patient's airway to make sure it is clear, (iv) place the victim on his/her back, (v) check signs of life (coughing, breathing, or movement).",2018-08-20 18:39:54
+1679729278802568,Joy,Yuzuriha,240,1679729278802568,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-20 18:40:11
+1679729278802568,Joy,Yuzuriha,241,854518728062939,1679729278802568,BOT: message,It's one of the following choices.,2018-08-20 18:40:12
+1679729278802568,Joy,Yuzuriha,242,854518728062939,1679729278802568,BOT: quick reply,":keycap_1: ii, iv, iii, v, i
+:keycap_2: iv, i, iii, v, ii
+:keycap_3: v, iv, iii, i, ii
+:keycap_4: i, ii, iii, iv, v
+",2018-08-20 18:40:14
+1679729278802568,Joy,Yuzuriha,243,1679729278802568,854518728062939,"user_quick_reply: BUTTON_DKB_v, iv, iii, i, ii",:keycap_3:,2018-08-20 18:40:28
+1679729278802568,Joy,Yuzuriha,244,854518728062939,1679729278802568,BOT: message,"I'm sorry, but that was incorrect. :disappointed_face:",2018-08-20 18:40:30
+1679729278802568,Joy,Yuzuriha,245,854518728062939,1679729278802568,BOT: quick reply,"The correct answer is iv, i, iii, v, ii.",2018-08-20 18:40:31
+1679729278802568,Joy,Yuzuriha,246,1679729278802568,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-20 18:40:53
+1679729278802568,Joy,Yuzuriha,247,854518728062939,1679729278802568,BOT: message,Let's see if you can answer this question.,2018-08-20 18:40:54
+1679729278802568,Joy,Yuzuriha,248,854518728062939,1679729278802568,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-20 18:40:56
+1679729278802568,Joy,Yuzuriha,249,854518728062939,1679729278802568,BOT: quick reply,"When using a ladder to climb a roof, the ladder must extend at least___ above it.",2018-08-20 18:40:57
+1679729278802568,Joy,Yuzuriha,250,1679729278802568,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-20 18:41:08
+1679729278802568,Joy,Yuzuriha,251,854518728062939,1679729278802568,BOT: message,It's one of the following choices.,2018-08-20 18:41:09
+1679729278802568,Joy,Yuzuriha,252,854518728062939,1679729278802568,BOT: quick reply,":keycap_1: 36
+:keycap_2: 30
+:keycap_3: 24
+:keycap_4: 18
+",2018-08-20 18:41:10
+1679729278802568,Joy,Yuzuriha,253,1679729278802568,854518728062939,user_quick_reply: I_DONT_KNOW,I dont know :downcast_face_with_sweat:,2018-08-20 18:41:24
+1679729278802568,Joy,Yuzuriha,254,854518728062939,1679729278802568,BOT: quick reply,Are you sure you want to skip answering?,2018-08-20 18:41:26
+1679729278802568,Joy,Yuzuriha,255,1679729278802568,854518728062939,user_quick_reply: GIVEUP_NO,"No, I'll try again!",2018-08-20 18:41:32
+1679729278802568,Joy,Yuzuriha,256,854518728062939,1679729278802568,BOT: message,Alright! Let's do it again!,2018-08-20 18:41:34
+1679729278802568,Joy,Yuzuriha,257,854518728062939,1679729278802568,BOT: message,It's one of the following choices.,2018-08-20 18:41:35
+1679729278802568,Joy,Yuzuriha,258,854518728062939,1679729278802568,BOT: quick reply,":keycap_1: 30
+:keycap_2: 24
+:keycap_3: 36
+:keycap_4: 18
+",2018-08-20 18:41:36
+1679729278802568,Joy,Yuzuriha,259,1679729278802568,854518728062939,user_quick_reply: BUTTON_DKB_18,:keycap_4:,2018-08-20 18:41:44
+1679729278802568,Joy,Yuzuriha,260,854518728062939,1679729278802568,BOT: message,"I'm sorry, but that was incorrect. :disappointed_face:",2018-08-20 18:41:45
+1679729278802568,Joy,Yuzuriha,261,854518728062939,1679729278802568,BOT: quick reply,The correct answer is 36.,2018-08-20 18:41:47
+1679729278802568,Joy,Yuzuriha,262,1679729278802568,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-20 18:42:02
+1679729278802568,Joy,Yuzuriha,263,854518728062939,1679729278802568,BOT: message,Let's take a look at this question.,2018-08-20 18:42:03
+1679729278802568,Joy,Yuzuriha,264,854518728062939,1679729278802568,BOT: quick reply,What first aid should you give to someone who is having a heart attack?,2018-08-20 18:42:04
+1679729278802568,Joy,Yuzuriha,265,1679729278802568,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-20 18:42:12
+1679729278802568,Joy,Yuzuriha,266,854518728062939,1679729278802568,BOT: message,Which of the following options is the right answer?,2018-08-20 18:42:14
+1679729278802568,Joy,Yuzuriha,267,854518728062939,1679729278802568,BOT: quick reply,":keycap_1: call 911, perform CPR, and loosen his/her clothing
+:keycap_2: loosen his/her clothing
+:keycap_3: call 911 or your local emergency number
+:keycap_4: perform CPR
+",2018-08-20 18:42:15
+1679729278802568,Joy,Yuzuriha,268,1679729278802568,854518728062939,"user_quick_reply: BUTTON_AKB_call 911, perform CPR, and loosen his/her clothing",:keycap_1:,2018-08-20 18:42:27
+1679729278802568,Joy,Yuzuriha,269,854518728062939,1679729278802568,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_normal.png,2018-08-20 18:42:29
+1679729278802568,Joy,Yuzuriha,270,854518728062939,1679729278802568,BOT: message,Nice! That was right!,2018-08-20 18:42:31
+1679729278802568,Joy,Yuzuriha,271,854518728062939,1679729278802568,BOT: quick reply,"The correct answer is call 911, perform CPR, and loosen his/her clothing.",2018-08-20 18:42:32
+1679729278802568,Joy,Yuzuriha,272,1679729278802568,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-20 18:42:38
+1679729278802568,Joy,Yuzuriha,273,854518728062939,1679729278802568,BOT: message,Would you answer this question for me?,2018-08-20 18:42:40
+1679729278802568,Joy,Yuzuriha,274,854518728062939,1679729278802568,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-20 18:42:41
+1679729278802568,Joy,Yuzuriha,275,854518728062939,1679729278802568,BOT: quick reply,"True or false: you can always smell, see, or taste harmful bacteria in food that can cause illness.",2018-08-20 18:42:42
+1679729278802568,Joy,Yuzuriha,276,1679729278802568,854518728062939,user_typing,False,2018-08-20 18:42:55
+1679729278802568,Joy,Yuzuriha,277,854518728062939,1679729278802568,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_normal_pink.png,2018-08-20 18:42:58
+1679729278802568,Joy,Yuzuriha,278,854518728062939,1679729278802568,BOT: message,Nice! :red_apple:,2018-08-20 18:42:59
+1679729278802568,Joy,Yuzuriha,279,854518728062939,1679729278802568,BOT: quick reply,The correct answer is false.,2018-08-20 18:43:01
+1679729278802568,Joy,Yuzuriha,280,1679729278802568,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-20 18:43:12
+1679729278802568,Joy,Yuzuriha,281,854518728062939,1679729278802568,BOT: message,See if you can answer this next one.,2018-08-20 18:43:13
+1679729278802568,Joy,Yuzuriha,282,854518728062939,1679729278802568,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-20 18:43:15
+1679729278802568,Joy,Yuzuriha,283,854518728062939,1679729278802568,BOT: quick reply,"Arrange in the correct order the following treatment steps for somebody who has lost consciousness: (i) call 911 or inform someone of the situation, (ii) begin CPR, (iii) check the patient's airway to make sure it is clear, (iv) place the victim on his/her back, (v) check signs of life (coughing, breathing, or movement).",2018-08-20 18:43:16
+1679729278802568,Joy,Yuzuriha,284,1679729278802568,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-20 18:43:33
+1679729278802568,Joy,Yuzuriha,285,854518728062939,1679729278802568,BOT: message,Okay. I'll give you some choices.,2018-08-20 18:43:35
+1679729278802568,Joy,Yuzuriha,286,854518728062939,1679729278802568,BOT: quick reply,":keycap_1: i, ii, iii, iv, v
+:keycap_2: iv, i, iii, v, ii
+:keycap_3: v, iv, iii, i, ii
+:keycap_4: ii, iv, iii, v, i
+",2018-08-20 18:43:36
+1679729278802568,Joy,Yuzuriha,287,1679729278802568,854518728062939,"user_quick_reply: BUTTON_AKB_iv, i, iii, v, ii",:keycap_2:,2018-08-20 18:43:56
+1679729278802568,Joy,Yuzuriha,288,854518728062939,1679729278802568,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_normal_orange.png,2018-08-20 18:43:58
+1679729278802568,Joy,Yuzuriha,289,854518728062939,1679729278802568,BOT: message,Great job getting the correct answer!,2018-08-20 18:43:59
+1679729278802568,Joy,Yuzuriha,290,854518728062939,1679729278802568,BOT: quick reply,"The correct answer is iv, i, iii, v, ii.",2018-08-20 18:44:01
+1679729278802568,Joy,Yuzuriha,291,1679729278802568,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-20 18:44:26
+1679729278802568,Joy,Yuzuriha,292,854518728062939,1679729278802568,BOT: message,Let's see if you can get this one.,2018-08-20 18:44:28
+1679729278802568,Joy,Yuzuriha,293,854518728062939,1679729278802568,BOT: quick reply,At what water temperature should you bathe frostbitten skin?,2018-08-20 18:44:29
+1679729278802568,Joy,Yuzuriha,294,1679729278802568,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-20 18:44:39
+1679729278802568,Joy,Yuzuriha,295,854518728062939,1679729278802568,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-08-20 18:44:40
+1679729278802568,Joy,Yuzuriha,296,854518728062939,1679729278802568,BOT: quick reply,":keycap_1: at 32 F (0 C)
+:keycap_2: between 120 to 150 F (50 to 70 C)
+:keycap_3: you should never submerge frostbite into water
+:keycap_4: between 104 to 107.6 F (40 to 42 C)
+",2018-08-20 18:44:42
+1679729278802568,Joy,Yuzuriha,297,1679729278802568,854518728062939,user_quick_reply: BUTTON_DKB_at 32 F (0 C),:keycap_1:,2018-08-20 18:45:06
+1679729278802568,Joy,Yuzuriha,298,854518728062939,1679729278802568,BOT: message,That's not quite right. :disappointed_face:,2018-08-20 18:45:07
+1679729278802568,Joy,Yuzuriha,299,854518728062939,1679729278802568,BOT: quick reply,The correct answer is between 104 to 107.6 F (40 to 42 C).,2018-08-20 18:45:09
+1679729278802568,Joy,Yuzuriha,300,1679729278802568,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-20 18:45:25
+1679729278802568,Joy,Yuzuriha,301,854518728062939,1679729278802568,BOT: message,Let's take a look at this question.,2018-08-20 18:45:27
+1679729278802568,Joy,Yuzuriha,302,854518728062939,1679729278802568,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-20 18:45:28
+1679729278802568,Joy,Yuzuriha,303,854518728062939,1679729278802568,BOT: quick reply,True or false: all workplaces need to provide portable fire extinguishers.,2018-08-20 18:45:29
+1679729278802568,Joy,Yuzuriha,304,1679729278802568,854518728062939,user_typing,true,2018-08-20 18:45:40
+1679729278802568,Joy,Yuzuriha,305,854518728062939,1679729278802568,BOT: message,That wasn't quite what we were looking for. :disappointed_face:,2018-08-20 18:45:41
+1679729278802568,Joy,Yuzuriha,306,854518728062939,1679729278802568,BOT: quick reply,The correct answer is false.,2018-08-20 18:45:43
+1679729278802568,Joy,Yuzuriha,309,854518728062939,1679729278802568,BOT: quick reply,"Hi Joy, you haven't talked to me for a while. Would you like to resume the learning with me?",2018-08-20 20:00:05
+1679729278802568,Joy,Yuzuriha,976,854518728062939,1679729278802568,BOT: quick reply,"Hi Joy, you haven't talked to me for a while. Would you like to resume the learning with me?",2018-08-21 20:00:08
