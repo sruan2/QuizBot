@@ -15,9 +15,13 @@ result_filename = "quizbot_data_analysis.txt"
 
 # Past Pilot Users: "Alex_Nguyen", "Maika_Isogawa", "Michael_Cooper", "Jordan_Cho", "Laura_Davey"
 
-users = ["Veronica_Cruz", "Jackie_Fortin", "Eleni_Aneziris", "Zilin_Ma", "Jongho_Kim", \
-         "Nina_Tai", "Yi_Feng", "Dae_hyun_Kim", "Pingyu_Wang", "Lantao_Mei", \
-         "Michael_Silvernagel", "Bianca_Yu"]
+# users = ["Veronica_Cruz", "Jackie_Fortin", "Eleni_Aneziris", "Zilin_Ma", "Jongho_Kim", \
+#          "Nina_Tai", "Yi_Feng", "Dae_hyun_Kim", "Pingyu_Wang", "Lantao_Mei", \
+#          "Michael_Silvernagel", "Bianca_Yu"]
+
+# within-subject users
+users = ["Noah Yinuo_Yao", "Dee Dee_Thao", "Zhenqi_Hu", "Jingyi_Li", "Joy_Yuzuriha", "Tyler_Yep", \
+         "Andrew_Ying", "Henry_Qin", "Nina_Horowitz"]
 
 # 54 questions in post-study quiz (quiz B)
 postquiz_qid = set([146, 145, 118, 130, 148, 117, 127, 111, 120, 141, 143, 147, 114, 121, \
@@ -25,15 +29,24 @@ postquiz_qid = set([146, 145, 118, 130, 148, 117, 127, 111, 120, 141, 143, 147, 
                    77, 75, 97, 89, 87, 25, 24, 1, 19, 21, 44, 17, 30, 38, 6, 8, 2, 11, 37, \
                    9, 41, 29, 42])
 
-qualtricsID_2_qid = [[0, 146], [1, 72], [2, 25], [3, 145], [4, 79], [5, 90], [6, 118], [7, 84], \
-                    [8, 24], [9, 1], [10, 58], [11, 130], [12, 148], [13, 19], [14, 117], [15, 83], \
-                    [16, 21], [17, 59], [18, 127], [19, 111], [20, 50], [21, 44], [22, 17], [23, 30], \
-                    [24, 56], [25, 120], [26, 141], [27, 73], [28, 38], [29, 143], [30, 6], [31, 147], \
-                    [32, 8], [33, 114], [34, 93], [35, 2], [36, 11], [37, 121], [38, 68], [39, 53], \
-                    [40, 37], [41, 9], [42, 77], [43, 75], [44, 106], [45, 97], [46, 102], [47, 112], \
-                    [48, 41], [49, 89], [50, 29], [51, 42], [52, 133], [53, 87]]
+quiz_a_to_id = {0: 148, 1: 49, 2: 18, 3: 111, 4: 6, 5: 51, 6: 93, 7: 94, 8: 102, 9: 21, 10: 128, \
+                11: 82, 13: 135, 14: 114, 15: 146, 16: 113, 18: 131, 19: 41, 20: 55, 21: 37, \
+                22: 52, 24: 58, 26: 11, 27: 64, 28: 14, 29: 88, 30: 84, 31: 103, 32: 90, 33: 32, \
+                34: 117, 35: 136, 36: 31, 37: 44, 38: 132, 39: 45, 40: 42, 41: 76, 42: 104, 43: 53, \
+                44: 72, 45: 5, 46: 15, 48: 100, 49: 27, 50: 65, 51: 35, 52: 138, 53: 125, 54: 127, \
+                55: 99, 57: 46, 58: 75, 59: 79}
 
-qid_2_qualtricsID_dict = {e[1]:e[0] for e in qualtricsID_2_qid}
+quiz_b_to_id = {0: 146, 1: 72, 2: 25, 3: 145, 4: 79, 6: 90, 7: 118, 8: 84, 9: 24, 10: 1, \
+                 11: 58, 12: 130, 13: 148, 14: 19, 15: 117, 16: 83, 17: 21, 18: 59, 19: 127, \
+                 22: 111, 23: 50, 24: 44, 25: 17, 26: 30, 27: 56, 28: 120, 29: 141, 30: 73, \
+                 31: 38, 32: 143, 33: 6, 34: 147, 35: 8, 36: 114, 37: 93, 38: 2, 39: 11, \
+                 41: 121, 42: 68, 43: 53, 44: 37, 45: 9, 46: 77, 49: 75, 50: 106, 51: 97, \
+                 52: 102, 53: 112, 54: 41, 55: 89, 56: 29, 57: 42, 58: 133, 59: 87}
+
+qid_2_qualtricsID_dict = {value: key for key, value in quiz_b_to_id.items()}
+qid_2_qualtricsID_dict_A = {value: key for key, value in quiz_a_to_id.items()}
+
+postquiz_qid_A = set(qid_2_qualtricsID_dict_A.keys())
 
 
 # time break considered to be a leave
@@ -122,9 +135,15 @@ for user in users:
     time_report[user] = sub_time_report
 
     events = [int(x[QID_INDEX]) for x in user_history_file if x[END_QID_INDEX] != ""]
-    qid_in_postquiz_seen = set(events)&postquiz_qid
+    qid_in_postquiz_seen = set(events) & postquiz_qid
     qualtricsID_in_postquiz_seen = [qid_2_qualtricsID_dict[qid] for qid in qid_in_postquiz_seen]
     question_report[user] = (len(events), len(set(events)), len(qid_in_postquiz_seen), qualtricsID_in_postquiz_seen)
+
+    if user == 'Zilin_Ma':
+        qid_in_postquiz_seen = set(events) & postquiz_qid_A
+        qualtricsID_in_postquiz_seen = [qid_2_qualtricsID_dict_A[qid] for qid in qid_in_postquiz_seen]
+        print(qualtricsID_in_postquiz_seen)
+        question_report[user] = (len(events), len(set(events)), len(qid_in_postquiz_seen), qualtricsID_in_postquiz_seen)
 
 output_string = ""
 for user in time_report:
