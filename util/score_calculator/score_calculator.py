@@ -257,19 +257,19 @@ def quiz_b_40_10():
 
 	quiz_data = {}
 
-	# with open(quiz_a_user_record_filename, 'rt') as csvfile:
-	# 	reader = list(csv.reader(csvfile))
-	# 	quiz = reader[3:]
+	with open(quiz_a_user_record_filename, 'rt') as csvfile:
+		reader = list(csv.reader(csvfile))
+		quiz = reader[3:]
 
-	# for i in range(len(quiz)):
-	# 	quiz_data[quiz[i][17]] = [quiz[i][5 * j + 91] for j in range(54)]
+	for i in range(len(quiz)):
+		quiz_data[quiz[i][17]] = [quiz[i][5 * j + 91] for j in range(54)]
 
 	with open(quiz_b_user_record_filename, 'rt') as csvfile:
 		reader = list(csv.reader(csvfile))
 		quiz = reader[3:]
 
 	for i in range(len(quiz)):
-		quiz_data[quiz[i][17]] = [quiz[i][5 * j + 70 + 25] for j in range(54)]
+		quiz_data[quiz[i][17]] = [quiz[i][5 * j + 100] for j in range(54)]
 
 	all_users = quiz_data.keys()
 
