@@ -1,1 +1,1439 @@
 user_id,user_firstname,user_lastname,uid,sender,recipient,type,dialogue,time_stamp
+2565426396804705,Dae hyun,Kim,8217,2565426396804705,854518728062939,user_typing,Y,2018-08-14 14:15:34
+2565426396804705,Dae hyun,Kim,8218,854518728062939,2565426396804705,BOT: quick reply,Haha I haven't learned about this yet. You can teach me some languages later!,2018-08-14 14:15:35
+2565426396804705,Dae hyun,Kim,8219,2565426396804705,854518728062939,persistent_menu: GET_INTRO_1,Get Started,2018-08-14 14:15:59
+2565426396804705,Dae hyun,Kim,8220,854518728062939,2565426396804705,BOT: image,https://www.smartprimer.org:443/pictures/avatar/quizbot_avatar.png,2018-08-14 14:16:03
+2565426396804705,Dae hyun,Kim,8221,854518728062939,2565426396804705,BOT: quick reply,"Hi Dae hyun! My name is Frosty :penguin: and Im here to help you learn all about science:microscope:, verbal reasoning (GRE) :input_latin_uppercase:, and safety:hammer_and_wrench:!",2018-08-14 14:16:05
+2565426396804705,Dae hyun,Kim,8222,2565426396804705,854518728062939,user_quick_reply: GET_INTRO_2,"Yes, continue :thumbs_up_medium-light_skin_tone:",2018-08-14 14:17:06
+2565426396804705,Dae hyun,Kim,8223,854518728062939,2565426396804705,BOT: message,Heres how it works.,2018-08-14 14:17:08
+2565426396804705,Dae hyun,Kim,8224,854518728062939,2565426396804705,BOT: message,"I ask you questions, and you give me answers.",2018-08-14 14:17:09
+2565426396804705,Dae hyun,Kim,8225,854518728062939,2565426396804705,BOT: quick reply,We will learn fun things together!,2018-08-14 14:17:11
+2565426396804705,Dae hyun,Kim,8226,2565426396804705,854518728062939,user_quick_reply: GET_INTRO_3,Got it :oncoming_fist_medium-light_skin_tone:,2018-08-14 14:17:17
+2565426396804705,Dae hyun,Kim,8227,854518728062939,2565426396804705,BOT: image,https://www.smartprimer.org:443/pictures/user_manual/typeanswer.png,2018-08-14 14:17:20
+2565426396804705,Dae hyun,Kim,8228,854518728062939,2565426396804705,BOT: quick reply,"To study the questions, you can type in your answers in the text field and I will evaluate the answers for you using advanced NLP (Natural Language Processing) technology.",2018-08-14 14:17:21
+2565426396804705,Dae hyun,Kim,8229,854518728062939,2565426396804705,BOT: image,https://www.smartprimer.org:443/pictures/user_manual/needhintbutton.png,2018-08-14 14:17:34
+2565426396804705,Dae hyun,Kim,8230,854518728062939,2565426396804705,BOT: quick reply,"If you don't know the answers, then feel free to tap on the hint button.",2018-08-14 14:17:35
+2565426396804705,Dae hyun,Kim,8231,2565426396804705,854518728062939,user_quick_reply: GET_INTRO_5,Next :round_pushpin:,2018-08-14 14:17:40
+2565426396804705,Dae hyun,Kim,8232,854518728062939,2565426396804705,BOT: image,https://www.smartprimer.org:443/pictures/user_manual/hintoptions.png,2018-08-14 14:17:43
+2565426396804705,Dae hyun,Kim,8233,854518728062939,2565426396804705,BOT: quick reply,The hint will give you a list of potential answers and you can select one from them.,2018-08-14 14:17:45
+2565426396804705,Dae hyun,Kim,8234,2565426396804705,854518728062939,user_quick_reply: GET_INTRO_6,"Yes, continue :round_pushpin:",2018-08-14 14:17:50
+2565426396804705,Dae hyun,Kim,8235,854518728062939,2565426396804705,BOT: image,https://www.smartprimer.org:443/pictures/user_manual/menubutton.jpg,2018-08-14 14:17:52
+2565426396804705,Dae hyun,Kim,8236,854518728062939,2565426396804705,BOT: quick reply,"To discover more abilities of me, you can click on the menu button.:backhand_index_pointing_up_medium-light_skin_tone:",2018-08-14 14:17:54
+2565426396804705,Dae hyun,Kim,8237,2565426396804705,854518728062939,user_quick_reply: GET_READY,I see :thumbs_up_medium-light_skin_tone:,2018-08-14 14:18:03
+2565426396804705,Dae hyun,Kim,8238,854518728062939,2565426396804705,BOT: message,I hope you enjoy the learning journey! :hundred_points:,2018-08-14 14:18:04
+2565426396804705,Dae hyun,Kim,8239,854518728062939,2565426396804705,BOT: quick reply,"So, are you ready?",2018-08-14 14:18:06
+2565426396804705,Dae hyun,Kim,8240,2565426396804705,854518728062939,user_quick_reply: YUP_IM_READY,Yup! I'm ready! :raised_fist_medium-light_skin_tone:,2018-08-14 14:18:15
+2565426396804705,Dae hyun,Kim,8241,854518728062939,2565426396804705,BOT: message,Great!,2018-08-14 14:18:17
+2565426396804705,Dae hyun,Kim,8242,854518728062939,2565426396804705,BOT: quick reply,Lets get started :rocket:,2018-08-14 14:18:18
+2565426396804705,Dae hyun,Kim,8243,2565426396804705,854518728062939,user_quick_reply: SWITCH_SUBJECT,Quiz me :nerd_face:,2018-08-14 14:18:24
+2565426396804705,Dae hyun,Kim,8244,854518728062939,2565426396804705,BOT: quick reply,"Sure, which of the following subjects would you like me to quiz you on?:backhand_index_pointing_down_medium-light_skin_tone:",2018-08-14 14:18:25
+2565426396804705,Dae hyun,Kim,8245,2565426396804705,854518728062939,user_quick_reply: RANDOM,Random :game_die:,2018-08-14 14:18:34
+2565426396804705,Dae hyun,Kim,8246,854518728062939,2565426396804705,BOT: quick reply,Let's answer some questions about everything! :game_die:,2018-08-14 14:18:35
+2565426396804705,Dae hyun,Kim,8247,2565426396804705,854518728062939,user_quick_reply: NEXT_QUESTION,Sure :thumbs_up_medium-light_skin_tone:,2018-08-14 14:18:40
+2565426396804705,Dae hyun,Kim,8248,854518728062939,2565426396804705,BOT: message,Let's see if you would answer this one.,2018-08-14 14:18:42
+2565426396804705,Dae hyun,Kim,8249,854518728062939,2565426396804705,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-14 14:18:43
+2565426396804705,Dae hyun,Kim,8250,854518728062939,2565426396804705,BOT: quick reply,"Video game enthusiasts know that, while the astounding advances in technological innovation might increase the level of fun of the gaming experience, such a result is by no means _____ .",2018-08-14 14:18:45
+2565426396804705,Dae hyun,Kim,8251,2565426396804705,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-14 14:19:04
+2565426396804705,Dae hyun,Kim,8252,854518728062939,2565426396804705,BOT: message,Okay. I'll give you some choices.,2018-08-14 14:19:06
+2565426396804705,Dae hyun,Kim,8253,854518728062939,2565426396804705,BOT: quick reply,":keycap_1: seminal
+:keycap_2: endemic
+:keycap_3: desultory
+:keycap_4: salient
+:keycap_5: ineluctable
+",2018-08-14 14:19:07
+2565426396804705,Dae hyun,Kim,8254,2565426396804705,854518728062939,user_quick_reply: BUTTON_DKB_desultory,:keycap_3:,2018-08-14 14:19:17
+2565426396804705,Dae hyun,Kim,8255,854518728062939,2565426396804705,BOT: message,That's not quite right. :disappointed_face:,2018-08-14 14:19:18
+2565426396804705,Dae hyun,Kim,8256,854518728062939,2565426396804705,BOT: quick reply,The correct answer is ineluctable.,2018-08-14 14:19:20
+2565426396804705,Dae hyun,Kim,8257,2565426396804705,854518728062939,user_quick_reply: WHY,Why?,2018-08-14 14:19:25
+2565426396804705,Dae hyun,Kim,8258,854518728062939,2565426396804705,BOT: message,Here's why:,2018-08-14 14:19:26
+2565426396804705,Dae hyun,Kim,8259,854518728062939,2565426396804705,BOT: quick reply,":pushpin: Ineluctable -- impossible to avoid or evade
+:pushpin: Desultory -- marked by lack of definite plan or regularity or purpose; jumping from one thing to another
+:pushpin: Endemic -- of or relating to a disease
+:pushpin: Salient -- having a quality that thrusts itself into attention
+:pushpin: Seminal -- having possibilities of future development",2018-08-14 14:19:28
+2565426396804705,Dae hyun,Kim,8260,2565426396804705,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-14 14:19:44
+2565426396804705,Dae hyun,Kim,8261,854518728062939,2565426396804705,BOT: message,How about this next one:,2018-08-14 14:19:46
+2565426396804705,Dae hyun,Kim,8262,854518728062939,2565426396804705,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-14 14:19:47
+2565426396804705,Dae hyun,Kim,8263,854518728062939,2565426396804705,BOT: quick reply,"Though many _____ endlessly praised his work, Dan often wished for some honest criticism.",2018-08-14 14:19:49
+2565426396804705,Dae hyun,Kim,8264,2565426396804705,854518728062939,user_typing,Flatterers,2018-08-14 14:20:07
+2565426396804705,Dae hyun,Kim,8265,854518728062939,2565426396804705,BOT: message,That wasn't quite what we were looking for. :disappointed_face:,2018-08-14 14:20:08
+2565426396804705,Dae hyun,Kim,8266,854518728062939,2565426396804705,BOT: quick reply,The correct answer is sycophants.,2018-08-14 14:20:10
+2565426396804705,Dae hyun,Kim,8267,2565426396804705,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-14 14:20:16
+2565426396804705,Dae hyun,Kim,8268,854518728062939,2565426396804705,BOT: message,I think you'll like this question.,2018-08-14 14:20:18
+2565426396804705,Dae hyun,Kim,8269,854518728062939,2565426396804705,BOT: quick reply,Some historians see the Jacksonians as little more than ruthless capitalists who had _____ regard for individual welfare.,2018-08-14 14:20:19
+2565426396804705,Dae hyun,Kim,8270,2565426396804705,854518728062939,user_typing,Little,2018-08-14 14:20:40
+2565426396804705,Dae hyun,Kim,8271,854518728062939,2565426396804705,BOT: message,That wasn't quite what we were looking for. :disappointed_face:,2018-08-14 14:20:41
+2565426396804705,Dae hyun,Kim,8272,854518728062939,2565426396804705,BOT: quick reply,The correct answer is scant.,2018-08-14 14:20:43
+2565426396804705,Dae hyun,Kim,8273,2565426396804705,854518728062939,user_quick_reply: WHY,Why?,2018-08-14 14:20:48
+2565426396804705,Dae hyun,Kim,8274,854518728062939,2565426396804705,BOT: message,This is an explanation of the question:,2018-08-14 14:20:49
+2565426396804705,Dae hyun,Kim,8275,854518728062939,2565426396804705,BOT: quick reply,:pushpin: Scant -- less than the correct or legal or full amount often deliberately so,2018-08-14 14:20:51
+2565426396804705,Dae hyun,Kim,8276,2565426396804705,854518728062939,user_typing,Isn't my answer correct,2018-08-14 14:21:07
+2565426396804705,Dae hyun,Kim,8277,854518728062939,2565426396804705,BOT: quick reply,I'm not sure what this is. I'm still learning languages and you might be my teacher in the future!,2018-08-14 14:21:08
+2565426396804705,Dae hyun,Kim,8300,2565426396804705,854518728062939,user_quick_reply: CHAT_WITH_ME,Chat with me :penguin:,2018-08-14 16:49:46
+2565426396804705,Dae hyun,Kim,8301,854518728062939,2565426396804705,BOT: quick reply,Do you want me to tell you something fun?,2018-08-14 16:49:48
+2565426396804705,Dae hyun,Kim,8302,2565426396804705,854518728062939,user_typing,Weather's nice,2018-08-14 16:50:07
+2565426396804705,Dae hyun,Kim,8303,854518728062939,2565426396804705,BOT: quick reply,"That sounds interesting, but I haven't learned about this yet. I'll learn more languages in the future.",2018-08-14 16:50:09
+2565426396804705,Dae hyun,Kim,8304,2565426396804705,854518728062939,user_quick_reply: CHAT_WITH_ME,Chat with me :penguin:,2018-08-14 16:50:14
+2565426396804705,Dae hyun,Kim,8305,854518728062939,2565426396804705,BOT: quick reply,Great! I have something fun for you!,2018-08-14 16:50:16
+2565426396804705,Dae hyun,Kim,8306,2565426396804705,854518728062939,user_quick_reply: FUN_FACT_SCIENCE,Fun fact :light_bulb:,2018-08-14 16:50:24
+2565426396804705,Dae hyun,Kim,8307,854518728062939,2565426396804705,BOT: message,Here is an interesting one.,2018-08-14 16:50:25
+2565426396804705,Dae hyun,Kim,8308,854518728062939,2565426396804705,BOT: quick reply,Snakes are true carnivorous because they eat nothing but other animals. They do not eat any type of plant material.,2018-08-14 16:50:27
+2565426396804705,Dae hyun,Kim,8309,2565426396804705,854518728062939,user_quick_reply: FUN_FACT_SCIENCE,One more fun fact:light_bulb:,2018-08-14 16:50:39
+2565426396804705,Dae hyun,Kim,8310,854518728062939,2565426396804705,BOT: message,Here is an interesting one.,2018-08-14 16:50:40
+2565426396804705,Dae hyun,Kim,8311,854518728062939,2565426396804705,BOT: quick reply,Hawaii is moving toward Japan 4 inches every year.,2018-08-14 16:50:42
+2565426396804705,Dae hyun,Kim,8312,2565426396804705,854518728062939,user_quick_reply: FUN_FACT_SCIENCE,Another fun fact:light_bulb:,2018-08-14 16:50:49
+2565426396804705,Dae hyun,Kim,8313,854518728062939,2565426396804705,BOT: message,Here is a good one.,2018-08-14 16:50:51
+2565426396804705,Dae hyun,Kim,8314,854518728062939,2565426396804705,BOT: quick reply,Female sharks have thicker skins than males.,2018-08-14 16:50:52
+2565426396804705,Dae hyun,Kim,8315,2565426396804705,854518728062939,user_quick_reply: JOKE,Joke :beaming_face_with_smiling_eyes:,2018-08-14 16:51:04
+2565426396804705,Dae hyun,Kim,8316,854518728062939,2565426396804705,BOT: message,Here's one I thought might be funny.,2018-08-14 16:51:06
+2565426396804705,Dae hyun,Kim,8317,854518728062939,2565426396804705,BOT: quick reply,"C, E-flat, and G walk into a bar. The bartender shows them the door and says, Sorry, we dont serve minors.",2018-08-14 16:51:07
+2565426396804705,Dae hyun,Kim,8318,2565426396804705,854518728062939,user_quick_reply: NEXT_QUESTION,Continue learning :flexed_biceps_medium-light_skin_tone:,2018-08-14 19:03:04
+2565426396804705,Dae hyun,Kim,8319,854518728062939,2565426396804705,BOT: message,What about this next question:,2018-08-14 19:03:06
+2565426396804705,Dae hyun,Kim,8320,854518728062939,2565426396804705,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-14 19:03:07
+2565426396804705,Dae hyun,Kim,8321,854518728062939,2565426396804705,BOT: quick reply,What cells are the basis of nervous tissue?,2018-08-14 19:03:09
+2565426396804705,Dae hyun,Kim,8322,2565426396804705,854518728062939,user_typing,Neuron,2018-08-14 19:03:22
+2565426396804705,Dae hyun,Kim,8323,854518728062939,2565426396804705,BOT: message,Great! Keep it up! :flexed_biceps_medium-light_skin_tone:,2018-08-14 19:03:23
+2565426396804705,Dae hyun,Kim,8324,854518728062939,2565426396804705,BOT: quick reply,The correct answer is neurons.,2018-08-14 19:03:25
+2565426396804705,Dae hyun,Kim,8325,2565426396804705,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-14 19:03:31
+2565426396804705,Dae hyun,Kim,8326,854518728062939,2565426396804705,BOT: message,Let's see if you can get this one.,2018-08-14 19:03:33
+2565426396804705,Dae hyun,Kim,8327,854518728062939,2565426396804705,BOT: quick reply,"Video game enthusiasts know that, while the astounding advances in technological innovation might increase the level of fun of the gaming experience, such a result is by no means _____ .",2018-08-14 19:03:34
+2565426396804705,Dae hyun,Kim,8328,2565426396804705,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-14 19:03:45
+2565426396804705,Dae hyun,Kim,8329,854518728062939,2565426396804705,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-08-14 19:03:46
+2565426396804705,Dae hyun,Kim,8330,854518728062939,2565426396804705,BOT: quick reply,":keycap_1: salient
+:keycap_2: seminal
+:keycap_3: desultory
+:keycap_4: ineluctable
+:keycap_5: endemic
+",2018-08-14 19:03:48
+2565426396804705,Dae hyun,Kim,8331,2565426396804705,854518728062939,user_quick_reply: BUTTON_AKB_ineluctable,:keycap_4:,2018-08-14 19:03:57
+2565426396804705,Dae hyun,Kim,8332,854518728062939,2565426396804705,BOT: message,Yes! You got the correct answer!,2018-08-14 19:03:59
+2565426396804705,Dae hyun,Kim,8333,854518728062939,2565426396804705,BOT: quick reply,The correct answer is ineluctable.,2018-08-14 19:04:00
+2565426396804705,Dae hyun,Kim,8334,2565426396804705,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-14 19:04:09
+2565426396804705,Dae hyun,Kim,8335,854518728062939,2565426396804705,BOT: message,Let's try this one.,2018-08-14 19:04:10
+2565426396804705,Dae hyun,Kim,8336,854518728062939,2565426396804705,BOT: quick reply,"Having squandered his life's savings on unprofitable business ventures, the _____ entrepreneur was forced to live in squalor.",2018-08-14 19:04:12
+2565426396804705,Dae hyun,Kim,8337,2565426396804705,854518728062939,user_typing,Unsuccessful,2018-08-14 19:04:38
+2565426396804705,Dae hyun,Kim,8338,854518728062939,2565426396804705,BOT: message,"I'm sorry, but that was incorrect. :disappointed_face:",2018-08-14 19:04:39
+2565426396804705,Dae hyun,Kim,8339,854518728062939,2565426396804705,BOT: quick reply,The correct answer is insolvent.,2018-08-14 19:04:41
+2565426396804705,Dae hyun,Kim,8340,2565426396804705,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-14 19:04:48
+2565426396804705,Dae hyun,Kim,8341,854518728062939,2565426396804705,BOT: message,Would you answer this question for me?,2018-08-14 19:04:50
+2565426396804705,Dae hyun,Kim,8342,854518728062939,2565426396804705,BOT: quick reply,Most insects reproduce quickly and through what type of reproduction?,2018-08-14 19:04:51
+2565426396804705,Dae hyun,Kim,8343,2565426396804705,854518728062939,user_typing,Asexual,2018-08-14 19:05:01
+2565426396804705,Dae hyun,Kim,8344,854518728062939,2565426396804705,BOT: message,Nice! :red_apple:,2018-08-14 19:05:03
+2565426396804705,Dae hyun,Kim,8345,854518728062939,2565426396804705,BOT: quick reply,The correct answer is sexual reproduction.,2018-08-14 19:05:04
+2565426396804705,Dae hyun,Kim,8346,2565426396804705,854518728062939,user_quick_reply: WHY,Why?,2018-08-14 19:05:15
+2565426396804705,Dae hyun,Kim,8347,854518728062939,2565426396804705,BOT: message,This is an explanation of the question:,2018-08-14 19:05:17
+2565426396804705,Dae hyun,Kim,8348,854518728062939,2565426396804705,BOT: quick reply,"Most insects can reproduce very quickly within a short period of time. With a short generation time, they evolve faster and can quickly adjust to environmental changes. Most insects reproduce by sexual reproduction. The female produces eggs, which are fertilized by the male, and then the eggs are usually placed near the required food. In some insects, there is asexual reproduction during which the offspring come from a single parent. In this type of reproduction, the offspring are almost identical to the mother. This is most often seen in aphids and scale insects.",2018-08-14 19:05:18
+2565426396804705,Dae hyun,Kim,8349,2565426396804705,854518728062939,user_quick_reply: SWITCH_SUBJECT,Change subject :shuffle_tracks_button:,2018-08-14 19:05:30
+2565426396804705,Dae hyun,Kim,8350,854518728062939,2565426396804705,BOT: quick reply,"Cool, which subject do you want to study?:backhand_index_pointing_down_medium-light_skin_tone:",2018-08-14 19:05:32
+2565426396804705,Dae hyun,Kim,8351,2565426396804705,854518728062939,user_quick_reply: SCIENCE,Science:microscope:,2018-08-14 19:05:38
+2565426396804705,Dae hyun,Kim,8352,854518728062939,2565426396804705,BOT: image,https://www.smartprimer.org:443/pictures/avatar/evolvenormal_scientist.gif,2018-08-14 19:05:42
+2565426396804705,Dae hyun,Kim,8353,854518728062939,2565426396804705,BOT: quick reply,Science rules! Let's see what you know.,2018-08-14 19:05:43
+2565426396804705,Dae hyun,Kim,8354,2565426396804705,854518728062939,user_quick_reply: NEXT_QUESTION,Okay :backhand_index_pointing_right_medium-light_skin_tone:,2018-08-14 19:05:49
+2565426396804705,Dae hyun,Kim,8355,854518728062939,2565426396804705,BOT: message,Let's see if you can answer this question.,2018-08-14 19:05:51
+2565426396804705,Dae hyun,Kim,8356,854518728062939,2565426396804705,BOT: quick reply,What broad animal group is thought to have evolved from theropod dinosaurs around 150 million years ago?,2018-08-14 19:05:52
+2565426396804705,Dae hyun,Kim,8357,2565426396804705,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-14 19:05:59
+2565426396804705,Dae hyun,Kim,8358,854518728062939,2565426396804705,BOT: message,Okay. I'll give you some choices.,2018-08-14 19:06:01
+2565426396804705,Dae hyun,Kim,8359,854518728062939,2565426396804705,BOT: quick reply,":keycap_1: birds
+:keycap_2: mammals
+:keycap_3: reptiles
+:keycap_4: insects
+",2018-08-14 19:06:03
+2565426396804705,Dae hyun,Kim,8360,2565426396804705,854518728062939,user_quick_reply: BUTTON_DKB_reptiles,:keycap_3:,2018-08-14 19:06:08
+2565426396804705,Dae hyun,Kim,8361,854518728062939,2565426396804705,BOT: message,"Oops, that is not correct. :disappointed_face:",2018-08-14 19:06:10
+2565426396804705,Dae hyun,Kim,8362,854518728062939,2565426396804705,BOT: quick reply,The correct answer is birds.,2018-08-14 19:06:11
+2565426396804705,Dae hyun,Kim,8363,2565426396804705,854518728062939,user_quick_reply: SWITCH_SUBJECT,Change subject :shuffle_tracks_button:,2018-08-14 19:06:29
+2565426396804705,Dae hyun,Kim,8364,854518728062939,2565426396804705,BOT: quick reply,"Okay, which subject would you like to choose?:backhand_index_pointing_down_medium-light_skin_tone:",2018-08-14 19:06:31
+2565426396804705,Dae hyun,Kim,8365,2565426396804705,854518728062939,user_quick_reply: SAFETY,Safety:hammer_and_wrench:,2018-08-14 19:06:35
+2565426396804705,Dae hyun,Kim,8366,854518728062939,2565426396804705,BOT: image,https://www.smartprimer.org:443/pictures/avatar/evolvescientist_safety.gif,2018-08-14 19:06:39
+2565426396804705,Dae hyun,Kim,8367,854518728062939,2565426396804705,BOT: quick reply,Okay! Lets see how much you know about safety!,2018-08-14 19:06:40
+2565426396804705,Dae hyun,Kim,8368,2565426396804705,854518728062939,user_quick_reply: NEXT_QUESTION,"Yes, continue :flexed_biceps_medium-light_skin_tone:",2018-08-14 19:06:49
+2565426396804705,Dae hyun,Kim,8369,854518728062939,2565426396804705,BOT: message,Let's see if you can get this one.,2018-08-14 19:06:50
+2565426396804705,Dae hyun,Kim,8370,854518728062939,2565426396804705,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-14 19:06:52
+2565426396804705,Dae hyun,Kim,8371,854518728062939,2565426396804705,BOT: quick reply,True or false: all workplaces need to provide portable fire extinguishers.,2018-08-14 19:06:53
+2565426396804705,Dae hyun,Kim,8372,2565426396804705,854518728062939,user_typing,True,2018-08-14 19:07:04
+2565426396804705,Dae hyun,Kim,8373,854518728062939,2565426396804705,BOT: message,That's not quite right. :disappointed_face:,2018-08-14 19:07:06
+2565426396804705,Dae hyun,Kim,8374,854518728062939,2565426396804705,BOT: quick reply,The correct answer is false.,2018-08-14 19:07:07
+2565426396804705,Dae hyun,Kim,8375,2565426396804705,854518728062939,user_quick_reply: WHY,Why?,2018-08-14 19:07:12
+2565426396804705,Dae hyun,Kim,8376,854518728062939,2565426396804705,BOT: message,Here's why:,2018-08-14 19:07:14
+2565426396804705,Dae hyun,Kim,8377,854518728062939,2565426396804705,BOT: quick reply,"According to OSHA, employers are not required to provide portable fire extinguishers in the office. But if they do, they must set up an educational program to acquaint employees with the general principles of fire extinguisher use.",2018-08-14 19:07:15
+2565426396804705,Dae hyun,Kim,8378,2565426396804705,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-14 19:07:29
+2565426396804705,Dae hyun,Kim,8379,854518728062939,2565426396804705,BOT: message,Let's see if you would answer this one.,2018-08-14 19:07:31
+2565426396804705,Dae hyun,Kim,8380,854518728062939,2565426396804705,BOT: quick reply,True or false: the primary function of a fire door is to exit a building in case of fire.,2018-08-14 19:07:32
+2565426396804705,Dae hyun,Kim,8381,2565426396804705,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-14 19:07:39
+2565426396804705,Dae hyun,Kim,8382,854518728062939,2565426396804705,BOT: message,Okay. I'll give you some choices.,2018-08-14 19:07:41
+2565426396804705,Dae hyun,Kim,8383,854518728062939,2565426396804705,BOT: quick reply,":keycap_1: true
+:keycap_2: false
+",2018-08-14 19:07:42
+2565426396804705,Dae hyun,Kim,8384,2565426396804705,854518728062939,user_quick_reply: BUTTON_DKB_true,:keycap_1:,2018-08-14 19:07:47
+2565426396804705,Dae hyun,Kim,8385,854518728062939,2565426396804705,BOT: message,"I'm sorry, but that was incorrect. :disappointed_face:",2018-08-14 19:07:49
+2565426396804705,Dae hyun,Kim,8386,854518728062939,2565426396804705,BOT: quick reply,The correct answer is false.,2018-08-14 19:07:50
+2565426396804705,Dae hyun,Kim,8387,2565426396804705,854518728062939,user_quick_reply: WHY,Why?,2018-08-14 19:07:55
+2565426396804705,Dae hyun,Kim,8388,854518728062939,2565426396804705,BOT: message,This is why:,2018-08-14 19:07:56
+2565426396804705,Dae hyun,Kim,8389,854518728062939,2565426396804705,BOT: quick reply,"Although in some cases fire doors are used as emergency exits in the event of a fire, the primary function of a fire door is to act as a fire barrier and contain fire and smoke to prevent it from entering parts of the building unaffected by fire at the time.",2018-08-14 19:07:58
+2565426396804705,Dae hyun,Kim,8390,2565426396804705,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-14 19:08:14
+2565426396804705,Dae hyun,Kim,8391,854518728062939,2565426396804705,BOT: message,Let's try this one.,2018-08-14 19:08:15
+2565426396804705,Dae hyun,Kim,8392,854518728062939,2565426396804705,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-14 19:08:17
+2565426396804705,Dae hyun,Kim,8393,854518728062939,2565426396804705,BOT: quick reply,The hint shows a list of food items and the minimum internal food temperature at which they should be cooked. Which of these is incorrect?,2018-08-14 19:08:18
+2565426396804705,Dae hyun,Kim,8394,2565426396804705,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-14 19:08:30
+2565426396804705,Dae hyun,Kim,8395,854518728062939,2565426396804705,BOT: message,Which of the following options is the right answer?,2018-08-14 19:08:32
+2565426396804705,Dae hyun,Kim,8396,854518728062939,2565426396804705,BOT: quick reply,":keycap_1: eggs: 145 degrees Fahrenheit
+:keycap_2: leftovers: 165 degrees Fahrenheit
+:keycap_3: fish and Shellfish: 145 degrees Fahrenheit
+:keycap_4: ground beef: 160 degrees Fahrenheit
+",2018-08-14 19:08:33
+2565426396804705,Dae hyun,Kim,8397,2565426396804705,854518728062939,user_quick_reply: BUTTON_DKB_ground beef: 160 degrees Fahrenheit,:keycap_4:,2018-08-14 19:08:45
+2565426396804705,Dae hyun,Kim,8398,854518728062939,2565426396804705,BOT: message,That's not quite right. :disappointed_face:,2018-08-14 19:08:47
+2565426396804705,Dae hyun,Kim,8399,854518728062939,2565426396804705,BOT: quick reply,The correct answer is eggs: 145 degrees Fahrenheit.,2018-08-14 19:08:48
+2565426396804705,Dae hyun,Kim,8400,2565426396804705,854518728062939,user_quick_reply: WHY,Why?,2018-08-14 19:08:53
+2565426396804705,Dae hyun,Kim,8401,854518728062939,2565426396804705,BOT: message,Here's an explanation:,2018-08-14 19:08:55
+2565426396804705,Dae hyun,Kim,8402,854518728062939,2565426396804705,BOT: quick reply,"Eggs should be cooked at a minimum internal temperature of 160 degree Fahrenheit. The Centers for Disease Control and Prevention explains why: a type of bacterium, Salmonella, can be on both the outside and inside of eggs that appear to be normal, and if the eggs are eaten raw or lightly cooked, the bacterium can cause illness.",2018-08-14 19:08:56
+2565426396804705,Dae hyun,Kim,8403,2565426396804705,854518728062939,persistent_menu: CHAT_WITH_ME,Chat with Me :penguin:,2018-08-14 19:36:48
+2565426396804705,Dae hyun,Kim,8404,854518728062939,2565426396804705,BOT: quick reply,I have something interesting for you! Do you want to hear them?,2018-08-14 19:36:50
+2565426396804705,Dae hyun,Kim,8405,2565426396804705,854518728062939,user_typing,No,2018-08-14 19:36:59
+2565426396804705,Dae hyun,Kim,8406,854518728062939,2565426396804705,BOT: quick reply,"That sounds interesting, but I haven't learned about this yet. I'll learn more languages in the future.",2018-08-14 19:37:00
+2565426396804705,Dae hyun,Kim,8407,2565426396804705,854518728062939,user_quick_reply: CHAT_WITH_ME,Chat with me :penguin:,2018-08-14 19:37:06
+2565426396804705,Dae hyun,Kim,8408,854518728062939,2565426396804705,BOT: quick reply,Do you want me to tell you something fun?,2018-08-14 19:37:07
+2565426396804705,Dae hyun,Kim,8409,2565426396804705,854518728062939,user_quick_reply: JOKE,Joke :beaming_face_with_smiling_eyes:,2018-08-14 19:37:13
+2565426396804705,Dae hyun,Kim,8410,854518728062939,2565426396804705,BOT: message,Here's one I thought might be funny.,2018-08-14 19:37:14
+2565426396804705,Dae hyun,Kim,8411,854518728062939,2565426396804705,BOT: quick reply,What was Beethovens favorite fruit? BA-NA-NA-NAAAAAA.,2018-08-14 19:37:16
+2565426396804705,Dae hyun,Kim,8412,2565426396804705,854518728062939,user_typing,Haha,2018-08-14 19:37:27
+2565426396804705,Dae hyun,Kim,8413,854518728062939,2565426396804705,BOT: quick reply,"That sounds interesting, but I haven't learned about this yet. I'll learn more languages in the future.",2018-08-14 19:37:29
+2565426396804705,Dae hyun,Kim,8429,854518728062939,2565426396804705,BOT: quick reply,"Hi Dae hyun, you haven't talked to me for a while. Would you like to resume the learning with me?",2018-08-14 20:02:03
+2565426396804705,Dae hyun,Kim,8431,2565426396804705,854518728062939,user_typing,No later,2018-08-14 20:02:26
+2565426396804705,Dae hyun,Kim,8432,854518728062939,2565426396804705,BOT: quick reply,Haha I haven't learned about this yet. You can teach me some languages later!,2018-08-14 20:02:28
+2565426396804705,Dae hyun,Kim,8693,2565426396804705,854518728062939,user_quick_reply: NEXT_QUESTION,Resume learning :flexed_biceps_medium-light_skin_tone:,2018-08-14 23:12:12
+2565426396804705,Dae hyun,Kim,8694,854518728062939,2565426396804705,BOT: message,Let's try this question.,2018-08-14 23:12:13
+2565426396804705,Dae hyun,Kim,8695,854518728062939,2565426396804705,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-14 23:12:15
+2565426396804705,Dae hyun,Kim,8696,854518728062939,2565426396804705,BOT: quick reply,What is the acronym describing the correct sequence of using a fire extinguisher?,2018-08-14 23:12:19
+2565426396804705,Dae hyun,Kim,8697,2565426396804705,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-14 23:12:26
+2565426396804705,Dae hyun,Kim,8698,854518728062939,2565426396804705,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-08-14 23:12:27
+2565426396804705,Dae hyun,Kim,8699,854518728062939,2565426396804705,BOT: quick reply,":keycap_1: PASS
+:keycap_2: PUSH
+:keycap_3: PULL
+",2018-08-14 23:12:29
+2565426396804705,Dae hyun,Kim,8700,2565426396804705,854518728062939,user_quick_reply: BUTTON_DKB_PUSH,:keycap_2:,2018-08-14 23:12:35
+2565426396804705,Dae hyun,Kim,8701,854518728062939,2565426396804705,BOT: message,"Oops, that is not correct. :disappointed_face:",2018-08-14 23:12:36
+2565426396804705,Dae hyun,Kim,8702,854518728062939,2565426396804705,BOT: quick reply,The correct answer is PASS.,2018-08-14 23:12:38
+2565426396804705,Dae hyun,Kim,8703,2565426396804705,854518728062939,user_quick_reply: SWITCH_SUBJECT,Change subject :shuffle_tracks_button:,2018-08-14 23:12:43
+2565426396804705,Dae hyun,Kim,8704,854518728062939,2565426396804705,BOT: quick reply,"Sure, which subject would you like me to quiz you on?:backhand_index_pointing_down_medium-light_skin_tone:",2018-08-14 23:12:45
+2565426396804705,Dae hyun,Kim,8705,2565426396804705,854518728062939,user_quick_reply: SCIENCE,Science:microscope:,2018-08-14 23:12:50
+2565426396804705,Dae hyun,Kim,8706,854518728062939,2565426396804705,BOT: image,https://www.smartprimer.org:443/pictures/avatar/evolvesafety_scientist.gif,2018-08-14 23:12:54
+2565426396804705,Dae hyun,Kim,8707,854518728062939,2565426396804705,BOT: quick reply,Science rules! Let's see what you know.,2018-08-14 23:12:56
+2565426396804705,Dae hyun,Kim,8708,2565426396804705,854518728062939,user_quick_reply: NEXT_QUESTION,Alright :thumbs_up_medium-light_skin_tone:,2018-08-14 23:13:01
+2565426396804705,Dae hyun,Kim,8709,854518728062939,2565426396804705,BOT: message,I think you'll like this question.,2018-08-14 23:13:02
+2565426396804705,Dae hyun,Kim,8710,854518728062939,2565426396804705,BOT: quick reply,What artery takes blood to the brain?,2018-08-14 23:13:04
+2565426396804705,Dae hyun,Kim,8711,2565426396804705,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-14 23:13:10
+2565426396804705,Dae hyun,Kim,8712,854518728062939,2565426396804705,BOT: message,Pick one of the following answers.,2018-08-14 23:13:12
+2565426396804705,Dae hyun,Kim,8713,854518728062939,2565426396804705,BOT: quick reply,":keycap_1: coronary
+:keycap_2: veins
+:keycap_3: pulmonary
+:keycap_4: carotid
+",2018-08-14 23:13:13
+2565426396804705,Dae hyun,Kim,8714,2565426396804705,854518728062939,user_quick_reply: BUTTON_DKB_coronary,:keycap_1:,2018-08-14 23:13:24
+2565426396804705,Dae hyun,Kim,8715,854518728062939,2565426396804705,BOT: message,"Oops, that is not correct. :disappointed_face:",2018-08-14 23:13:26
+2565426396804705,Dae hyun,Kim,8716,854518728062939,2565426396804705,BOT: quick reply,The correct answer is carotid.,2018-08-14 23:13:27
+2565426396804705,Dae hyun,Kim,8717,2565426396804705,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-14 23:13:32
+2565426396804705,Dae hyun,Kim,8718,854518728062939,2565426396804705,BOT: message,Let's take a look at this question.,2018-08-14 23:13:34
+2565426396804705,Dae hyun,Kim,8719,854518728062939,2565426396804705,BOT: quick reply,What forms when nitrogen and sulfur oxides in air dissolve in rain?,2018-08-14 23:13:35
+2565426396804705,Dae hyun,Kim,8720,2565426396804705,854518728062939,user_typing,Acid rain,2018-08-14 23:14:00
+2565426396804705,Dae hyun,Kim,8721,854518728062939,2565426396804705,BOT: message,Nice! :red_apple:,2018-08-14 23:14:02
+2565426396804705,Dae hyun,Kim,8722,854518728062939,2565426396804705,BOT: quick reply,The correct answer is acid rain.,2018-08-14 23:14:03
+2565426396804705,Dae hyun,Kim,8723,2565426396804705,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-14 23:14:09
+2565426396804705,Dae hyun,Kim,8724,854518728062939,2565426396804705,BOT: message,See if you can answer this next one.,2018-08-14 23:14:10
+2565426396804705,Dae hyun,Kim,8725,854518728062939,2565426396804705,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-14 23:14:12
+2565426396804705,Dae hyun,Kim,8726,854518728062939,2565426396804705,BOT: quick reply,What broad group of animals are the first true tetrapods?,2018-08-14 23:14:13
+2565426396804705,Dae hyun,Kim,8727,2565426396804705,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-14 23:14:19
+2565426396804705,Dae hyun,Kim,8728,854518728062939,2565426396804705,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-08-14 23:14:21
+2565426396804705,Dae hyun,Kim,8729,854518728062939,2565426396804705,BOT: quick reply,":keycap_1: mammals
+:keycap_2: amphibians
+:keycap_3: reptiles
+:keycap_4: fish
+",2018-08-14 23:14:22
+2565426396804705,Dae hyun,Kim,8730,2565426396804705,854518728062939,user_quick_reply: BUTTON_DKB_reptiles,:keycap_3:,2018-08-14 23:14:28
+2565426396804705,Dae hyun,Kim,8731,854518728062939,2565426396804705,BOT: message,"Hmm, that wasn't quite right. :disappointed_face:",2018-08-14 23:14:30
+2565426396804705,Dae hyun,Kim,8732,854518728062939,2565426396804705,BOT: quick reply,The correct answer is amphibians.,2018-08-14 23:14:32
+2565426396804705,Dae hyun,Kim,8733,2565426396804705,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-15 00:39:19
+2565426396804705,Dae hyun,Kim,8734,854518728062939,2565426396804705,BOT: message,"Alrighty, let's try this one.",2018-08-15 00:39:21
+2565426396804705,Dae hyun,Kim,8735,854518728062939,2565426396804705,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-15 00:39:22
+2565426396804705,Dae hyun,Kim,8736,854518728062939,2565426396804705,BOT: quick reply,What broad group of animals are the first true tetrapods?,2018-08-15 00:39:24
+2565426396804705,Dae hyun,Kim,8737,2565426396804705,854518728062939,user_typing,Amphibians,2018-08-15 00:39:38
+2565426396804705,Dae hyun,Kim,8738,854518728062939,2565426396804705,BOT: message,Nice! :red_apple:,2018-08-15 00:39:40
+2565426396804705,Dae hyun,Kim,8739,854518728062939,2565426396804705,BOT: quick reply,The correct answer is amphibians.,2018-08-15 00:39:41
+2565426396804705,Dae hyun,Kim,8740,2565426396804705,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-15 00:39:45
+2565426396804705,Dae hyun,Kim,8741,854518728062939,2565426396804705,BOT: message,Let's see if you would answer this one.,2018-08-15 00:39:47
+2565426396804705,Dae hyun,Kim,8742,854518728062939,2565426396804705,BOT: quick reply,What opens two strands of DNA?,2018-08-15 00:39:49
+2565426396804705,Dae hyun,Kim,8743,2565426396804705,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-15 00:40:01
+2565426396804705,Dae hyun,Kim,8744,854518728062939,2565426396804705,BOT: message,Okay. I'll give you some choices.,2018-08-15 00:40:03
+2565426396804705,Dae hyun,Kim,8745,854518728062939,2565426396804705,BOT: quick reply,":keycap_1: chromosome
+:keycap_2: replication
+:keycap_3: adenylate
+:keycap_4: helicase
+",2018-08-15 00:40:05
+2565426396804705,Dae hyun,Kim,8746,2565426396804705,854518728062939,user_typing,Helicase,2018-08-15 00:40:23
+2565426396804705,Dae hyun,Kim,8747,854518728062939,2565426396804705,BOT: message,Good job! :raising_hands_medium-light_skin_tone:,2018-08-15 00:40:25
+2565426396804705,Dae hyun,Kim,8748,854518728062939,2565426396804705,BOT: quick reply,The correct answer is helicase.,2018-08-15 00:40:26
+2565426396804705,Dae hyun,Kim,8749,2565426396804705,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-15 00:40:32
+2565426396804705,Dae hyun,Kim,8750,854518728062939,2565426396804705,BOT: message,Let's take a look at this question.,2018-08-15 00:40:34
+2565426396804705,Dae hyun,Kim,8751,854518728062939,2565426396804705,BOT: quick reply,Sensory nerves carry nerve impulses from sensory receptors to what system?,2018-08-15 00:40:35
+2565426396804705,Dae hyun,Kim,8752,2565426396804705,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-15 00:40:43
+2565426396804705,Dae hyun,Kim,8753,854518728062939,2565426396804705,BOT: message,Which of the following options is the right answer?,2018-08-15 00:40:44
+2565426396804705,Dae hyun,Kim,8754,854518728062939,2565426396804705,BOT: quick reply,":keycap_1: central nervous system
+:keycap_2: endocrine system
+:keycap_3: muscular system
+:keycap_4: irculatory system
+",2018-08-15 00:40:46
+2565426396804705,Dae hyun,Kim,8755,2565426396804705,854518728062939,user_typing,The answer is central nervous system,2018-08-15 00:41:04
+2565426396804705,Dae hyun,Kim,8756,854518728062939,2565426396804705,BOT: message,"Oops, that answer was incorrect. :disappointed_face:",2018-08-15 00:41:06
+2565426396804705,Dae hyun,Kim,8757,854518728062939,2565426396804705,BOT: quick reply,The correct answer is central nervous system.,2018-08-15 00:41:08
+2565426396804705,Dae hyun,Kim,8758,2565426396804705,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-15 00:41:14
+2565426396804705,Dae hyun,Kim,8759,854518728062939,2565426396804705,BOT: message,Here's a question for you:,2018-08-15 00:41:16
+2565426396804705,Dae hyun,Kim,8760,854518728062939,2565426396804705,BOT: quick reply,Sensory nerves carry nerve impulses from sensory receptors to what system?,2018-08-15 00:41:18
+2565426396804705,Dae hyun,Kim,8761,2565426396804705,854518728062939,user_typing,1,2018-08-15 00:41:30
+2565426396804705,Dae hyun,Kim,8762,854518728062939,2565426396804705,BOT: message,That's not quite right. :disappointed_face:,2018-08-15 00:41:31
+2565426396804705,Dae hyun,Kim,8763,854518728062939,2565426396804705,BOT: quick reply,The correct answer is central nervous system.,2018-08-15 00:41:33
+2565426396804705,Dae hyun,Kim,8764,2565426396804705,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-15 00:41:37
+2565426396804705,Dae hyun,Kim,8765,854518728062939,2565426396804705,BOT: message,What about this next question:,2018-08-15 00:41:39
+2565426396804705,Dae hyun,Kim,8766,854518728062939,2565426396804705,BOT: quick reply,What are classified by climatic factors and types of primary producers?,2018-08-15 00:41:41
+2565426396804705,Dae hyun,Kim,8767,2565426396804705,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-15 00:41:47
+2565426396804705,Dae hyun,Kim,8768,854518728062939,2565426396804705,BOT: message,Pick one of the following answers.,2018-08-15 00:41:49
+2565426396804705,Dae hyun,Kim,8769,854518728062939,2565426396804705,BOT: quick reply,":keycap_1: old biomes
+:keycap_2: equivalent biomes
+:keycap_3: fossil biomes
+:keycap_4: terrestrial biomes
+",2018-08-15 00:41:50
+2565426396804705,Dae hyun,Kim,8770,2565426396804705,854518728062939,user_typing,4,2018-08-15 00:42:02
+2565426396804705,Dae hyun,Kim,8771,854518728062939,2565426396804705,BOT: message,"Oops, that answer was incorrect. :disappointed_face:",2018-08-15 00:42:03
+2565426396804705,Dae hyun,Kim,8772,854518728062939,2565426396804705,BOT: quick reply,The correct answer is terrestrial biomes.,2018-08-15 00:42:05
+2565426396804705,Dae hyun,Kim,8773,2565426396804705,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-15 00:42:10
+2565426396804705,Dae hyun,Kim,8774,854518728062939,2565426396804705,BOT: message,See if you can answer this next one.,2018-08-15 00:42:12
+2565426396804705,Dae hyun,Kim,8775,854518728062939,2565426396804705,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-15 00:42:14
+2565426396804705,Dae hyun,Kim,8776,854518728062939,2565426396804705,BOT: quick reply,What opens two strands of DNA?,2018-08-15 00:42:15
+2565426396804705,Dae hyun,Kim,8777,2565426396804705,854518728062939,user_typing,Helicase,2018-08-15 00:42:25
+2565426396804705,Dae hyun,Kim,8778,854518728062939,2565426396804705,BOT: message,Correct! :confetti_ball:,2018-08-15 00:42:26
+2565426396804705,Dae hyun,Kim,8779,854518728062939,2565426396804705,BOT: quick reply,The correct answer is helicase.,2018-08-15 00:42:27
+2565426396804705,Dae hyun,Kim,8780,2565426396804705,854518728062939,user_quick_reply: SWITCH_SUBJECT,Change subject :shuffle_tracks_button:,2018-08-15 00:42:42
+2565426396804705,Dae hyun,Kim,8781,854518728062939,2565426396804705,BOT: quick reply,"Cool, which subject do you want to study?:backhand_index_pointing_down_medium-light_skin_tone:",2018-08-15 00:42:43
+2565426396804705,Dae hyun,Kim,8782,2565426396804705,854518728062939,user_quick_reply: GRE,GRE :input_latin_uppercase:,2018-08-15 00:42:47
+2565426396804705,Dae hyun,Kim,8783,854518728062939,2565426396804705,BOT: image,https://www.smartprimer.org:443/pictures/avatar/evolvescientist_reading.gif,2018-08-15 00:42:51
+2565426396804705,Dae hyun,Kim,8784,854518728062939,2565426396804705,BOT: quick reply,All right! Ill quiz you on GRE!,2018-08-15 00:42:52
+2565426396804705,Dae hyun,Kim,8785,2565426396804705,854518728062939,user_quick_reply: NEXT_QUESTION,Alrighty :thumbs_up_medium-light_skin_tone:,2018-08-15 00:42:59
+2565426396804705,Dae hyun,Kim,8786,854518728062939,2565426396804705,BOT: message,What about this next question:,2018-08-15 00:43:00
+2565426396804705,Dae hyun,Kim,8787,854518728062939,2565426396804705,BOT: quick reply,"Some religious leaders have declared inaction on environmental issues to be _____ , because it may now be considered a sin to pollute the earth.",2018-08-15 00:43:02
+2565426396804705,Dae hyun,Kim,8788,2565426396804705,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-15 00:43:08
+2565426396804705,Dae hyun,Kim,8789,854518728062939,2565426396804705,BOT: message,Okay. I'll give you some choices.,2018-08-15 00:43:09
+2565426396804705,Dae hyun,Kim,8790,854518728062939,2565426396804705,BOT: quick reply,":keycap_1: fathomable
+:keycap_2: iniquitous
+:keycap_3: dilatory
+:keycap_4: splenetic
+:keycap_5: diaphanous
+",2018-08-15 00:43:11
+2565426396804705,Dae hyun,Kim,8791,2565426396804705,854518728062939,user_quick_reply: BUTTON_AKB_iniquitous,:keycap_2:,2018-08-15 00:43:35
+2565426396804705,Dae hyun,Kim,8792,854518728062939,2565426396804705,BOT: message,Nice work! Keep it up!,2018-08-15 00:43:37
+2565426396804705,Dae hyun,Kim,8793,854518728062939,2565426396804705,BOT: quick reply,The correct answer is iniquitous.,2018-08-15 00:43:39
+2565426396804705,Dae hyun,Kim,8794,2565426396804705,854518728062939,user_quick_reply: WHY,Why?,2018-08-15 00:43:43
+2565426396804705,Dae hyun,Kim,8795,854518728062939,2565426396804705,BOT: message,This is an explanation of the question:,2018-08-15 00:43:45
+2565426396804705,Dae hyun,Kim,8796,854518728062939,2565426396804705,BOT: quick reply,":pushpin: Iniquitous -- wicked because it is believed to be a sin
+:pushpin: Fathomable -- to measure the depth of by means of a sounding line; sound
+:pushpin: Splenetic -- of or relating to the spleen
+:pushpin: Diaphanous -- so thin as to transmit light
+:pushpin: Dilatory -- wasting time",2018-08-15 00:43:46
+2565426396804705,Dae hyun,Kim,8797,2565426396804705,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-15 00:44:13
+2565426396804705,Dae hyun,Kim,8798,854518728062939,2565426396804705,BOT: message,Let's see if you can get this one.,2018-08-15 00:44:14
+2565426396804705,Dae hyun,Kim,8799,854518728062939,2565426396804705,BOT: quick reply,The defense attorney's _____ closing statement was not enough to sway the jurors in his client's favor; stirring words could not conceal the defendant's evident guilt.,2018-08-15 00:44:16
+2565426396804705,Dae hyun,Kim,8800,2565426396804705,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-15 00:44:20
+2565426396804705,Dae hyun,Kim,8801,854518728062939,2565426396804705,BOT: message,It's one of the following choices.,2018-08-15 00:44:22
+2565426396804705,Dae hyun,Kim,8802,854518728062939,2565426396804705,BOT: quick reply,":keycap_1: deceptive
+:keycap_2: lengthy
+:keycap_3: impromptu
+:keycap_4: crafty
+:keycap_5: eloquent
+",2018-08-15 00:44:24
+2565426396804705,Dae hyun,Kim,8803,2565426396804705,854518728062939,user_quick_reply: BUTTON_AKB_eloquent,:keycap_5:,2018-08-15 00:44:36
+2565426396804705,Dae hyun,Kim,8804,854518728062939,2565426396804705,BOT: message,Yes! You got the correct answer!,2018-08-15 00:44:38
+2565426396804705,Dae hyun,Kim,8805,854518728062939,2565426396804705,BOT: quick reply,The correct answer is eloquent.,2018-08-15 00:44:40
+2565426396804705,Dae hyun,Kim,8837,2565426396804705,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-15 14:14:26
+2565426396804705,Dae hyun,Kim,8838,854518728062939,2565426396804705,BOT: message,Let's see if you can get this one.,2018-08-15 14:14:28
+2565426396804705,Dae hyun,Kim,8839,854518728062939,2565426396804705,BOT: quick reply,"Prior to taking on the new invader, the defending army had engaged in arduous combat; it is likely that the _____ resulting from waging two battles in two days played a part in its subsequent defeat.",2018-08-15 14:14:29
+2565426396804705,Dae hyun,Kim,8840,2565426396804705,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-15 14:14:44
+2565426396804705,Dae hyun,Kim,8841,854518728062939,2565426396804705,BOT: message,It's one of the following choices.,2018-08-15 14:14:45
+2565426396804705,Dae hyun,Kim,8842,854518728062939,2565426396804705,BOT: quick reply,":keycap_1: aggravation
+:keycap_2: bellicosity
+:keycap_3: pacification
+:keycap_4: pugnacity
+:keycap_5: enervation
+",2018-08-15 14:14:47
+2565426396804705,Dae hyun,Kim,8843,2565426396804705,854518728062939,user_quick_reply: BUTTON_AKB_enervation,:keycap_5:,2018-08-15 14:14:55
+2565426396804705,Dae hyun,Kim,8844,854518728062939,2565426396804705,BOT: image,https://www.smartprimer.org:443/pictures/avatar/celebration.gif,2018-08-15 14:15:01
+2565426396804705,Dae hyun,Kim,8845,854518728062939,2565426396804705,BOT: message,Yes! You got the correct answer!,2018-08-15 14:15:02
+2565426396804705,Dae hyun,Kim,8846,854518728062939,2565426396804705,BOT: quick reply,The correct answer is enervation.,2018-08-15 14:15:04
+2565426396804705,Dae hyun,Kim,8847,2565426396804705,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-15 14:48:07
+2565426396804705,Dae hyun,Kim,8848,854518728062939,2565426396804705,BOT: message,How about this next one:,2018-08-15 14:48:09
+2565426396804705,Dae hyun,Kim,8849,854518728062939,2565426396804705,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-15 14:48:11
+2565426396804705,Dae hyun,Kim,8850,854518728062939,2565426396804705,BOT: quick reply,"Despite her mentor's advice that she attempt to sound consistently _____ , the graduate student often resorted to using slang when presenting significant parts of her thesis, her habitual speech patterns overriding her years of learning.",2018-08-15 14:48:12
+2565426396804705,Dae hyun,Kim,8851,2565426396804705,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-15 14:48:18
+2565426396804705,Dae hyun,Kim,8852,854518728062939,2565426396804705,BOT: message,Which of the following options is the right answer?,2018-08-15 14:48:19
+2565426396804705,Dae hyun,Kim,8853,854518728062939,2565426396804705,BOT: quick reply,":keycap_1: erudite
+:keycap_2: lucid
+:keycap_3: didactic
+:keycap_4: rational
+:keycap_5: panegyrical
+",2018-08-15 14:48:21
+2565426396804705,Dae hyun,Kim,8854,2565426396804705,854518728062939,user_quick_reply: BUTTON_DKB_didactic,:keycap_3:,2018-08-15 14:48:41
+2565426396804705,Dae hyun,Kim,8855,854518728062939,2565426396804705,BOT: message,"Hmm, that wasn't quite right. :disappointed_face:",2018-08-15 14:48:43
+2565426396804705,Dae hyun,Kim,8856,854518728062939,2565426396804705,BOT: quick reply,The correct answer is erudite.,2018-08-15 14:48:44
+2565426396804705,Dae hyun,Kim,8857,2565426396804705,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-15 14:48:48
+2565426396804705,Dae hyun,Kim,8858,854518728062939,2565426396804705,BOT: message,See if you can answer this next one.,2018-08-15 14:48:50
+2565426396804705,Dae hyun,Kim,8859,854518728062939,2565426396804705,BOT: quick reply,"Having squandered his life's savings on unprofitable business ventures, the _____ entrepreneur was forced to live in squalor.",2018-08-15 14:48:51
+2565426396804705,Dae hyun,Kim,8860,2565426396804705,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-15 14:48:58
+2565426396804705,Dae hyun,Kim,8861,854518728062939,2565426396804705,BOT: message,Okay. I'll give you some choices.,2018-08-15 14:49:00
+2565426396804705,Dae hyun,Kim,8862,854518728062939,2565426396804705,BOT: quick reply,":keycap_1: eccentric
+:keycap_2: former
+:keycap_3: unlikely
+:keycap_4: perturbed
+:keycap_5: insolvent
+",2018-08-15 14:49:01
+2565426396804705,Dae hyun,Kim,8863,2565426396804705,854518728062939,user_quick_reply: BUTTON_AKB_insolvent,:keycap_5:,2018-08-15 14:49:08
+2565426396804705,Dae hyun,Kim,8864,854518728062939,2565426396804705,BOT: message,Yes! You got the correct answer!,2018-08-15 14:49:10
+2565426396804705,Dae hyun,Kim,8865,854518728062939,2565426396804705,BOT: quick reply,The correct answer is insolvent.,2018-08-15 14:49:11
+2565426396804705,Dae hyun,Kim,9014,854518728062939,2565426396804705,BOT: quick reply,"Hi Dae hyun, you haven't talked to me for a while. Would you like to resume the learning with me?",2018-08-15 20:02:29
+2565426396804705,Dae hyun,Kim,9082,2565426396804705,854518728062939,user_quick_reply: NEXT_QUESTION,"Yes, continue :flexed_biceps_medium-light_skin_tone:",2018-08-15 20:10:45
+2565426396804705,Dae hyun,Kim,9083,854518728062939,2565426396804705,BOT: message,What about this next question:,2018-08-15 20:10:46
+2565426396804705,Dae hyun,Kim,9084,854518728062939,2565426396804705,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-15 20:10:48
+2565426396804705,Dae hyun,Kim,9085,854518728062939,2565426396804705,BOT: quick reply,"Video game enthusiasts know that, while the astounding advances in technological innovation might increase the level of fun of the gaming experience, such a result is by no means _____ .",2018-08-15 20:10:49
+2565426396804705,Dae hyun,Kim,9086,2565426396804705,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-15 20:10:54
+2565426396804705,Dae hyun,Kim,9087,854518728062939,2565426396804705,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-08-15 20:10:56
+2565426396804705,Dae hyun,Kim,9088,854518728062939,2565426396804705,BOT: quick reply,":keycap_1: salient
+:keycap_2: endemic
+:keycap_3: ineluctable
+:keycap_4: desultory
+:keycap_5: seminal
+",2018-08-15 20:10:57
+2565426396804705,Dae hyun,Kim,9089,2565426396804705,854518728062939,user_quick_reply: BUTTON_AKB_ineluctable,:keycap_3:,2018-08-15 20:11:03
+2565426396804705,Dae hyun,Kim,9090,854518728062939,2565426396804705,BOT: message,Yes! You got the correct answer!,2018-08-15 20:11:05
+2565426396804705,Dae hyun,Kim,9091,854518728062939,2565426396804705,BOT: quick reply,The correct answer is ineluctable.,2018-08-15 20:11:06
+2565426396804705,Dae hyun,Kim,9092,2565426396804705,854518728062939,user_quick_reply: WHY,Why?,2018-08-15 20:11:10
+2565426396804705,Dae hyun,Kim,9093,854518728062939,2565426396804705,BOT: message,This is why:,2018-08-15 20:11:12
+2565426396804705,Dae hyun,Kim,9094,854518728062939,2565426396804705,BOT: quick reply,":pushpin: Ineluctable -- impossible to avoid or evade
+:pushpin: Desultory -- marked by lack of definite plan or regularity or purpose; jumping from one thing to another
+:pushpin: Endemic -- of or relating to a disease
+:pushpin: Salient -- having a quality that thrusts itself into attention
+:pushpin: Seminal -- having possibilities of future development",2018-08-15 20:11:13
+2565426396804705,Dae hyun,Kim,9278,2565426396804705,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-15 22:14:22
+2565426396804705,Dae hyun,Kim,9279,854518728062939,2565426396804705,BOT: message,"Alrighty, let's try this one.",2018-08-15 22:14:23
+2565426396804705,Dae hyun,Kim,9280,854518728062939,2565426396804705,BOT: quick reply,"Western culture has so influenced Middle Eastern music that even the latter's roles of composer and performer, at one time inseparable, have now begun to _____ .",2018-08-15 22:14:25
+2565426396804705,Dae hyun,Kim,9281,2565426396804705,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-15 22:14:38
+2565426396804705,Dae hyun,Kim,9282,854518728062939,2565426396804705,BOT: message,Pick one of the following answers.,2018-08-15 22:14:39
+2565426396804705,Dae hyun,Kim,9283,854518728062939,2565426396804705,BOT: quick reply,":keycap_1: retrench
+:keycap_2: fuse
+:keycap_3: diverge
+:keycap_4: divulge
+:keycap_5: retreat
+",2018-08-15 22:14:40
+2565426396804705,Dae hyun,Kim,9284,2565426396804705,854518728062939,user_quick_reply: BUTTON_DKB_fuse,:keycap_2:,2018-08-15 22:15:07
+2565426396804705,Dae hyun,Kim,9285,854518728062939,2565426396804705,BOT: message,"I'm sorry, but that was incorrect. :disappointed_face:",2018-08-15 22:15:08
+2565426396804705,Dae hyun,Kim,9286,854518728062939,2565426396804705,BOT: quick reply,The correct answer is diverge.,2018-08-15 22:15:10
+2565426396804705,Dae hyun,Kim,9287,2565426396804705,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-15 22:15:15
+2565426396804705,Dae hyun,Kim,9288,854518728062939,2565426396804705,BOT: message,Here's a question for you:,2018-08-15 22:15:17
+2565426396804705,Dae hyun,Kim,9289,854518728062939,2565426396804705,BOT: quick reply,"With a similar contrast between a partly cloudy sky and a dark street, the cover of the recent rock CD _____ a famous surrealist painting from the early 1900s.",2018-08-15 22:15:18
+2565426396804705,Dae hyun,Kim,9290,2565426396804705,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-15 22:15:24
+2565426396804705,Dae hyun,Kim,9291,854518728062939,2565426396804705,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-08-15 22:15:25
+2565426396804705,Dae hyun,Kim,9292,854518728062939,2565426396804705,BOT: quick reply,":keycap_1: sanctions
+:keycap_2: admires
+:keycap_3: obfuscates
+:keycap_4: disenchants
+:keycap_5: evokes
+",2018-08-15 22:15:27
+2565426396804705,Dae hyun,Kim,9293,2565426396804705,854518728062939,user_quick_reply: BUTTON_DKB_admires,:keycap_2:,2018-08-15 22:15:33
+2565426396804705,Dae hyun,Kim,9294,854518728062939,2565426396804705,BOT: message,"I'm sorry, but that was incorrect. :disappointed_face:",2018-08-15 22:15:34
+2565426396804705,Dae hyun,Kim,9295,854518728062939,2565426396804705,BOT: quick reply,The correct answer is evokes.,2018-08-15 22:15:36
+2565426396804705,Dae hyun,Kim,9296,2565426396804705,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-15 22:15:41
+2565426396804705,Dae hyun,Kim,9297,854518728062939,2565426396804705,BOT: message,"Alrighty, let's try this one.",2018-08-15 22:15:42
+2565426396804705,Dae hyun,Kim,9298,854518728062939,2565426396804705,BOT: quick reply,"Although they stood with the congressman in a tenuous display of solidarity, the incensed commissioners could not conceal their _____ .",2018-08-15 22:15:44
+2565426396804705,Dae hyun,Kim,9299,2565426396804705,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-15 22:15:50
+2565426396804705,Dae hyun,Kim,9300,854518728062939,2565426396804705,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-08-15 22:15:52
+2565426396804705,Dae hyun,Kim,9301,854518728062939,2565426396804705,BOT: quick reply,":keycap_1: rancor
+:keycap_2: facetiousness
+:keycap_3: camaraderie
+:keycap_4: hubris
+:keycap_5: adulation
+",2018-08-15 22:15:53
+2565426396804705,Dae hyun,Kim,9302,2565426396804705,854518728062939,user_quick_reply: BUTTON_DKB_hubris,:keycap_4:,2018-08-15 22:16:08
+2565426396804705,Dae hyun,Kim,9303,854518728062939,2565426396804705,BOT: message,"Hmm, that wasn't quite right. :disappointed_face:",2018-08-15 22:16:09
+2565426396804705,Dae hyun,Kim,9304,854518728062939,2565426396804705,BOT: quick reply,The correct answer is rancor.,2018-08-15 22:16:11
+2565426396804705,Dae hyun,Kim,9563,2565426396804705,854518728062939,user_quick_reply: SWITCH_SUBJECT,Change subject :shuffle_tracks_button:,2018-08-16 15:56:35
+2565426396804705,Dae hyun,Kim,9564,854518728062939,2565426396804705,BOT: quick reply,"Okay, now tell me which subject you would like to study.:backhand_index_pointing_down_medium-light_skin_tone:",2018-08-16 15:56:36
+2565426396804705,Dae hyun,Kim,9565,2565426396804705,854518728062939,user_quick_reply: SAFETY,Safety:hammer_and_wrench:,2018-08-16 15:56:39
+2565426396804705,Dae hyun,Kim,9566,854518728062939,2565426396804705,BOT: image,https://www.smartprimer.org:443/pictures/avatar/evolvereading_safety.gif,2018-08-16 15:56:43
+2565426396804705,Dae hyun,Kim,9567,854518728062939,2565426396804705,BOT: quick reply,Awesome! Let's learn about safety!,2018-08-16 15:56:45
+2565426396804705,Dae hyun,Kim,9568,2565426396804705,854518728062939,user_quick_reply: NEXT_QUESTION,Okay :round_pushpin:,2018-08-16 15:56:52
+2565426396804705,Dae hyun,Kim,9569,854518728062939,2565426396804705,BOT: message,Could you answer this one for me?,2018-08-16 15:56:54
+2565426396804705,Dae hyun,Kim,9570,854518728062939,2565426396804705,BOT: quick reply,True or false: all workplaces need to provide portable fire extinguishers.,2018-08-16 15:56:55
+2565426396804705,Dae hyun,Kim,9571,2565426396804705,854518728062939,user_typing,The answer is false,2018-08-16 15:57:11
+2565426396804705,Dae hyun,Kim,9572,854518728062939,2565426396804705,BOT: message,Good job! :raising_hands_medium-light_skin_tone:,2018-08-16 15:57:13
+2565426396804705,Dae hyun,Kim,9573,854518728062939,2565426396804705,BOT: quick reply,The correct answer is false.,2018-08-16 15:57:15
+2565426396804705,Dae hyun,Kim,9574,2565426396804705,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-16 15:57:20
+2565426396804705,Dae hyun,Kim,9575,854518728062939,2565426396804705,BOT: message,"Alrighty, let's try this one.",2018-08-16 15:57:22
+2565426396804705,Dae hyun,Kim,9576,854518728062939,2565426396804705,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-16 15:57:23
+2565426396804705,Dae hyun,Kim,9577,854518728062939,2565426396804705,BOT: quick reply,First aid treatment for a chemical burn involves what?,2018-08-16 15:57:25
+2565426396804705,Dae hyun,Kim,9578,2565426396804705,854518728062939,user_quick_reply: I_DONT_KNOW,I dont know :downcast_face_with_sweat:,2018-08-16 15:57:32
+2565426396804705,Dae hyun,Kim,9579,854518728062939,2565426396804705,BOT: quick reply,Are you sure you want to skip this question?,2018-08-16 15:57:34
+2565426396804705,Dae hyun,Kim,9580,2565426396804705,854518728062939,user_quick_reply: GIVEUP_YES,"Yes, answer please.",2018-08-16 15:57:40
+2565426396804705,Dae hyun,Kim,9581,854518728062939,2565426396804705,BOT: message,You didn't get this question this time.,2018-08-16 15:57:42
+2565426396804705,Dae hyun,Kim,9582,854518728062939,2565426396804705,BOT: message,"That's fine, you'll nail it next time! :grinning_face_with_smiling_eyes:",2018-08-16 15:57:43
+2565426396804705,Dae hyun,Kim,9583,854518728062939,2565426396804705,BOT: quick reply,"The correct answer is flushing the chemicals off the affected area with cool, gently running water for 10 to 20 minutes.",2018-08-16 15:57:45
+2565426396804705,Dae hyun,Kim,9584,2565426396804705,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-16 15:57:49
+2565426396804705,Dae hyun,Kim,9585,854518728062939,2565426396804705,BOT: message,Here's a question for you:,2018-08-16 15:57:51
+2565426396804705,Dae hyun,Kim,9586,854518728062939,2565426396804705,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-16 15:57:53
+2565426396804705,Dae hyun,Kim,9587,854518728062939,2565426396804705,BOT: quick reply,How can employers help lower the rate of pesticide exposure?,2018-08-16 15:57:54
+2565426396804705,Dae hyun,Kim,9588,2565426396804705,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-16 15:58:20
+2565426396804705,Dae hyun,Kim,9589,854518728062939,2565426396804705,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-08-16 15:58:22
+2565426396804705,Dae hyun,Kim,9590,854518728062939,2565426396804705,BOT: quick reply,":keycap_1: through short training sessions every 5 years
+:keycap_2: by letting workers learn about the risks on the job
+:keycap_3: by not letting workers know that they are working with toxic chemicals
+:keycap_4: through comprehensive training on each chemical and educating workers about their rights
+",2018-08-16 15:58:24
+2565426396804705,Dae hyun,Kim,9591,2565426396804705,854518728062939,user_quick_reply: I_DONT_KNOW,I dont know :downcast_face_with_sweat:,2018-08-16 15:58:37
+2565426396804705,Dae hyun,Kim,9592,854518728062939,2565426396804705,BOT: quick reply,Do you really want to skip this question?,2018-08-16 15:58:38
+2565426396804705,Dae hyun,Kim,9593,2565426396804705,854518728062939,user_quick_reply: GIVEUP_YES,"Yes, answer please.",2018-08-16 15:58:45
+2565426396804705,Dae hyun,Kim,9594,854518728062939,2565426396804705,BOT: message,You didn't get this question this time.,2018-08-16 15:58:47
+2565426396804705,Dae hyun,Kim,9595,854518728062939,2565426396804705,BOT: message,"Keep trying, you'll get it next time! :grinning_face_with_smiling_eyes:",2018-08-16 15:58:49
+2565426396804705,Dae hyun,Kim,9596,854518728062939,2565426396804705,BOT: quick reply,The correct answer is through comprehensive training on each chemical and educating workers about their rights.,2018-08-16 15:58:50
+2565426396804705,Dae hyun,Kim,9597,2565426396804705,854518728062939,user_quick_reply: SWITCH_SUBJECT,Change subject :shuffle_tracks_button:,2018-08-16 15:58:58
+2565426396804705,Dae hyun,Kim,9598,854518728062939,2565426396804705,BOT: quick reply,"Cool, let's pick one of the following subjects?:backhand_index_pointing_down_medium-light_skin_tone:",2018-08-16 15:58:59
+2565426396804705,Dae hyun,Kim,9599,2565426396804705,854518728062939,user_quick_reply: GRE,GRE :input_latin_uppercase:,2018-08-16 15:59:10
+2565426396804705,Dae hyun,Kim,9600,854518728062939,2565426396804705,BOT: image,https://www.smartprimer.org:443/pictures/avatar/evolvesafety_reading.gif,2018-08-16 15:59:14
+2565426396804705,Dae hyun,Kim,9601,854518728062939,2565426396804705,BOT: quick reply,Let's answer some questions about the GRE!,2018-08-16 15:59:16
+2565426396804705,Dae hyun,Kim,9602,2565426396804705,854518728062939,user_quick_reply: NEXT_QUESTION,Next :white_heavy_check_mark:,2018-08-16 15:59:21
+2565426396804705,Dae hyun,Kim,9603,854518728062939,2565426396804705,BOT: message,I think you'll like this question.,2018-08-16 15:59:23
+2565426396804705,Dae hyun,Kim,9604,854518728062939,2565426396804705,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-16 15:59:25
+2565426396804705,Dae hyun,Kim,9605,854518728062939,2565426396804705,BOT: quick reply,"Science and religion each have core tenets that are considered _____ ; however, because some scientific tenets are in conflict with some religious ones, these tenets cannot all be correct.",2018-08-16 15:59:26
+2565426396804705,Dae hyun,Kim,9606,2565426396804705,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-16 15:59:35
+2565426396804705,Dae hyun,Kim,9607,854518728062939,2565426396804705,BOT: message,Pick one of the following answers.,2018-08-16 15:59:36
+2565426396804705,Dae hyun,Kim,9608,854518728062939,2565426396804705,BOT: quick reply,":keycap_1: empirical
+:keycap_2: ubiquitous
+:keycap_3: disputable
+:keycap_4: axiomatic
+:keycap_5: historic
+",2018-08-16 15:59:38
+2565426396804705,Dae hyun,Kim,9609,2565426396804705,854518728062939,user_quick_reply: I_DONT_KNOW,I dont know :downcast_face_with_sweat:,2018-08-16 15:59:45
+2565426396804705,Dae hyun,Kim,9610,854518728062939,2565426396804705,BOT: quick reply,Do you really want to give up?,2018-08-16 15:59:47
+2565426396804705,Dae hyun,Kim,9611,2565426396804705,854518728062939,user_quick_reply: GIVEUP_YES,"Yes, answer please.",2018-08-16 15:59:51
+2565426396804705,Dae hyun,Kim,9612,854518728062939,2565426396804705,BOT: message,"I'm sorry, you didn't get the question right this time.",2018-08-16 15:59:52
+2565426396804705,Dae hyun,Kim,9613,854518728062939,2565426396804705,BOT: message,"That's okay, you'll get it next time! :grinning_face_with_smiling_eyes:",2018-08-16 15:59:54
+2565426396804705,Dae hyun,Kim,9614,854518728062939,2565426396804705,BOT: quick reply,The correct answer is axiomatic.,2018-08-16 15:59:56
+2565426396804705,Dae hyun,Kim,9650,854518728062939,2565426396804705,BOT: quick reply,"Hi Dae hyun, you haven't talked to me for a while. Would you like to resume the learning with me?",2018-08-16 20:02:38
+2565426396804705,Dae hyun,Kim,9827,2565426396804705,854518728062939,user_quick_reply: NEXT_QUESTION,Got it :raising_hands_medium-light_skin_tone:,2018-08-16 21:40:16
+2565426396804705,Dae hyun,Kim,9828,854518728062939,2565426396804705,BOT: message,Let's see if you can answer this question.,2018-08-16 21:40:18
+2565426396804705,Dae hyun,Kim,9829,854518728062939,2565426396804705,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-16 21:40:19
+2565426396804705,Dae hyun,Kim,9830,854518728062939,2565426396804705,BOT: quick reply,"Sheila would often _____ about her boyfriend's habits, but everyone could tell that her seemingly bitter complaints were mostly facetious.",2018-08-16 21:40:21
+2565426396804705,Dae hyun,Kim,9831,2565426396804705,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-16 21:40:39
+2565426396804705,Dae hyun,Kim,9832,854518728062939,2565426396804705,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-08-16 21:40:41
+2565426396804705,Dae hyun,Kim,9833,854518728062939,2565426396804705,BOT: quick reply,":keycap_1: dissemble
+:keycap_2: mince
+:keycap_3: waffle
+:keycap_4: grieve
+:keycap_5: rail
+",2018-08-16 21:40:42
+2565426396804705,Dae hyun,Kim,9834,2565426396804705,854518728062939,user_quick_reply: BUTTON_DKB_grieve,:keycap_4:,2018-08-16 21:41:02
+2565426396804705,Dae hyun,Kim,9835,854518728062939,2565426396804705,BOT: message,"Hmm, that wasn't quite right. :disappointed_face:",2018-08-16 21:41:04
+2565426396804705,Dae hyun,Kim,9836,854518728062939,2565426396804705,BOT: quick reply,The correct answer is rail.,2018-08-16 21:41:05
+2565426396804705,Dae hyun,Kim,9837,2565426396804705,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-16 21:41:10
+2565426396804705,Dae hyun,Kim,9838,854518728062939,2565426396804705,BOT: message,Let's see if you can get this one.,2018-08-16 21:41:12
+2565426396804705,Dae hyun,Kim,9839,854518728062939,2565426396804705,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-16 21:41:14
+2565426396804705,Dae hyun,Kim,9840,854518728062939,2565426396804705,BOT: quick reply,"Science and religion each have core tenets that are considered _____ ; however, because some scientific tenets are in conflict with some religious ones, these tenets cannot all be correct.",2018-08-16 21:41:15
+2565426396804705,Dae hyun,Kim,9841,2565426396804705,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-16 21:41:27
+2565426396804705,Dae hyun,Kim,9842,854518728062939,2565426396804705,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-08-16 21:41:29
+2565426396804705,Dae hyun,Kim,9843,854518728062939,2565426396804705,BOT: quick reply,":keycap_1: empirical
+:keycap_2: historic
+:keycap_3: axiomatic
+:keycap_4: disputable
+:keycap_5: ubiquitous
+",2018-08-16 21:41:30
+2565426396804705,Dae hyun,Kim,9844,2565426396804705,854518728062939,user_quick_reply: BUTTON_AKB_axiomatic,:keycap_3:,2018-08-16 21:42:07
+2565426396804705,Dae hyun,Kim,9845,854518728062939,2565426396804705,BOT: message,Nice! That was right!,2018-08-16 21:42:08
+2565426396804705,Dae hyun,Kim,9846,854518728062939,2565426396804705,BOT: quick reply,The correct answer is axiomatic.,2018-08-16 21:42:10
+2565426396804705,Dae hyun,Kim,9847,2565426396804705,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-16 23:26:18
+2565426396804705,Dae hyun,Kim,9848,854518728062939,2565426396804705,BOT: message,Let's try this one.,2018-08-16 23:26:19
+2565426396804705,Dae hyun,Kim,9849,854518728062939,2565426396804705,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-16 23:26:20
+2565426396804705,Dae hyun,Kim,9850,854518728062939,2565426396804705,BOT: quick reply,The division between child-rearing goals that emphasize originality and personalization and those that place emphasis on adoption of conventions and compliance with rules discloses a _____ that stems from the principles on which these goals are based.,2018-08-16 23:26:22
+2565426396804705,Dae hyun,Kim,9851,2565426396804705,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-16 23:26:31
+2565426396804705,Dae hyun,Kim,9852,854518728062939,2565426396804705,BOT: message,It's one of the following choices.,2018-08-16 23:26:33
+2565426396804705,Dae hyun,Kim,9853,854518728062939,2565426396804705,BOT: quick reply,":keycap_1: monotony
+:keycap_2: foreseeability
+:keycap_3: benefit
+:keycap_4: contradiction
+:keycap_5: genius
+",2018-08-16 23:26:34
+2565426396804705,Dae hyun,Kim,9854,2565426396804705,854518728062939,user_quick_reply: BUTTON_DKB_monotony,:keycap_1:,2018-08-16 23:26:59
+2565426396804705,Dae hyun,Kim,9855,854518728062939,2565426396804705,BOT: message,That's not quite right. :disappointed_face:,2018-08-16 23:27:00
+2565426396804705,Dae hyun,Kim,9856,854518728062939,2565426396804705,BOT: quick reply,The correct answer is contradiction.,2018-08-16 23:27:02
+2565426396804705,Dae hyun,Kim,9857,2565426396804705,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-16 23:27:07
+2565426396804705,Dae hyun,Kim,9858,854518728062939,2565426396804705,BOT: message,I think you'll like this question.,2018-08-16 23:27:09
+2565426396804705,Dae hyun,Kim,9859,854518728062939,2565426396804705,BOT: quick reply,"Ancient generals, lacking modern technologies such as radio and satellite communication, often found that one of the most significant challenges in warfare was accurate _____ of the myriad of changes on the battlefield or in the campaign.",2018-08-16 23:27:10
+2565426396804705,Dae hyun,Kim,9860,2565426396804705,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-16 23:27:18
+2565426396804705,Dae hyun,Kim,9861,854518728062939,2565426396804705,BOT: message,It's one of the following choices.,2018-08-16 23:27:19
+2565426396804705,Dae hyun,Kim,9862,854518728062939,2565426396804705,BOT: quick reply,":keycap_1: adumbration
+:keycap_2: appraisal
+:keycap_3: adulteration
+:keycap_4: accretion
+:keycap_5: fortification
+",2018-08-16 23:27:21
+2565426396804705,Dae hyun,Kim,9863,2565426396804705,854518728062939,user_quick_reply: BUTTON_AKB_appraisal,:keycap_2:,2018-08-16 23:27:28
+2565426396804705,Dae hyun,Kim,9864,854518728062939,2565426396804705,BOT: image,https://www.smartprimer.org:443/pictures/avatar/congrats/penguinnormal_happy_cyan.png,2018-08-16 23:27:31
+2565426396804705,Dae hyun,Kim,9865,854518728062939,2565426396804705,BOT: message,Great job!,2018-08-16 23:27:33
+2565426396804705,Dae hyun,Kim,9866,854518728062939,2565426396804705,BOT: quick reply,The correct answer is appraisal.,2018-08-16 23:27:34
+2565426396804705,Dae hyun,Kim,9867,2565426396804705,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-16 23:27:39
+2565426396804705,Dae hyun,Kim,9868,854518728062939,2565426396804705,BOT: message,Let's take a look at this question.,2018-08-16 23:27:40
+2565426396804705,Dae hyun,Kim,9869,854518728062939,2565426396804705,BOT: quick reply,"Having squandered his life's savings on unprofitable business ventures, the _____ entrepreneur was forced to live in squalor.",2018-08-16 23:27:42
+2565426396804705,Dae hyun,Kim,9870,2565426396804705,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-16 23:27:54
+2565426396804705,Dae hyun,Kim,9871,854518728062939,2565426396804705,BOT: message,Which of the following options is the right answer?,2018-08-16 23:27:56
+2565426396804705,Dae hyun,Kim,9872,854518728062939,2565426396804705,BOT: quick reply,":keycap_1: former
+:keycap_2: eccentric
+:keycap_3: unlikely
+:keycap_4: perturbed
+:keycap_5: insolvent
+",2018-08-16 23:27:57
+2565426396804705,Dae hyun,Kim,9873,2565426396804705,854518728062939,user_quick_reply: BUTTON_AKB_insolvent,:keycap_5:,2018-08-16 23:28:23
+2565426396804705,Dae hyun,Kim,9874,854518728062939,2565426396804705,BOT: message,Yes! You got the correct answer!,2018-08-16 23:28:24
+2565426396804705,Dae hyun,Kim,9875,854518728062939,2565426396804705,BOT: quick reply,The correct answer is insolvent.,2018-08-16 23:28:26
+2565426396804705,Dae hyun,Kim,9876,2565426396804705,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-16 23:28:30
+2565426396804705,Dae hyun,Kim,9877,854518728062939,2565426396804705,BOT: message,Let's try this one.,2018-08-16 23:28:32
+2565426396804705,Dae hyun,Kim,9878,854518728062939,2565426396804705,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-16 23:28:33
+2565426396804705,Dae hyun,Kim,9879,854518728062939,2565426396804705,BOT: quick reply,Pundits do not believe that the sporadic calls for her ouster-outcries spurred by both her unusual lifestyle and social policies-have compelled the monarch to seriously consider _____ .,2018-08-16 23:28:35
+2565426396804705,Dae hyun,Kim,9880,2565426396804705,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-16 23:28:49
+2565426396804705,Dae hyun,Kim,9881,854518728062939,2565426396804705,BOT: message,Pick one of the following answers.,2018-08-16 23:28:50
+2565426396804705,Dae hyun,Kim,9882,854518728062939,2565426396804705,BOT: quick reply,":keycap_1: asceticism
+:keycap_2: vacillation
+:keycap_3: abnegation
+:keycap_4: misanthropy
+:keycap_5: castigation
+",2018-08-16 23:28:52
+2565426396804705,Dae hyun,Kim,9883,2565426396804705,854518728062939,user_quick_reply: BUTTON_DKB_asceticism,:keycap_1:,2018-08-16 23:29:13
+2565426396804705,Dae hyun,Kim,9884,854518728062939,2565426396804705,BOT: message,"Oops, that wasn't quite correct. :disappointed_face:",2018-08-16 23:29:14
+2565426396804705,Dae hyun,Kim,9885,854518728062939,2565426396804705,BOT: quick reply,The correct answer is abnegation.,2018-08-16 23:29:16
+2565426396804705,Dae hyun,Kim,9886,2565426396804705,854518728062939,user_quick_reply: WHY,Why?,2018-08-16 23:29:22
+2565426396804705,Dae hyun,Kim,9887,854518728062939,2565426396804705,BOT: message,This is an explanation of the question:,2018-08-16 23:29:23
+2565426396804705,Dae hyun,Kim,9888,854518728062939,2565426396804705,BOT: quick reply,":pushpin: Abnegation -- the denial and rejection of a doctrine or belief
+:pushpin: Vacillation -- indecision in speech or action
+:pushpin: Castigation -- a severe scolding
+:pushpin: Asceticism -- the doctrine that through renunciation of worldly pleasures it is possible to achieve a high spiritual or intellectual state
+:pushpin: Misanthropy -- hatred of mankind",2018-08-16 23:29:24
+2565426396804705,Dae hyun,Kim,9889,2565426396804705,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-16 23:29:50
+2565426396804705,Dae hyun,Kim,9890,854518728062939,2565426396804705,BOT: message,What about this next question:,2018-08-16 23:29:51
+2565426396804705,Dae hyun,Kim,9891,854518728062939,2565426396804705,BOT: quick reply,"Science and religion each have core tenets that are considered _____ ; however, because some scientific tenets are in conflict with some religious ones, these tenets cannot all be correct.",2018-08-16 23:29:53
+2565426396804705,Dae hyun,Kim,9892,2565426396804705,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-16 23:30:00
+2565426396804705,Dae hyun,Kim,9893,854518728062939,2565426396804705,BOT: message,Okay. I'll give you some choices.,2018-08-16 23:30:01
+2565426396804705,Dae hyun,Kim,9894,854518728062939,2565426396804705,BOT: quick reply,":keycap_1: historic
+:keycap_2: axiomatic
+:keycap_3: empirical
+:keycap_4: disputable
+:keycap_5: ubiquitous
+",2018-08-16 23:30:02
+2565426396804705,Dae hyun,Kim,9895,2565426396804705,854518728062939,user_quick_reply: BUTTON_AKB_axiomatic,:keycap_2:,2018-08-16 23:30:11
+2565426396804705,Dae hyun,Kim,9896,854518728062939,2565426396804705,BOT: message,Nice! That was right!,2018-08-16 23:30:12
+2565426396804705,Dae hyun,Kim,9897,854518728062939,2565426396804705,BOT: quick reply,The correct answer is axiomatic.,2018-08-16 23:30:14
+2565426396804705,Dae hyun,Kim,9898,2565426396804705,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-16 23:30:35
+2565426396804705,Dae hyun,Kim,9899,854518728062939,2565426396804705,BOT: message,Let's try this question.,2018-08-16 23:30:36
+2565426396804705,Dae hyun,Kim,9900,854518728062939,2565426396804705,BOT: quick reply,"Although John F. Kennedy was known for his carefree flag football games, Gerald Ford should be _____ as our football president: he turned down offers to play for two National Football League teams in order to pursue a career in public service.",2018-08-16 23:30:38
+2565426396804705,Dae hyun,Kim,9901,2565426396804705,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-16 23:30:54
+2565426396804705,Dae hyun,Kim,9902,854518728062939,2565426396804705,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-08-16 23:30:56
+2565426396804705,Dae hyun,Kim,9903,854518728062939,2565426396804705,BOT: quick reply,":keycap_1: abrogated
+:keycap_2: relegated
+:keycap_3: apotheosized
+:keycap_4: annulled
+:keycap_5: criticized
+",2018-08-16 23:30:57
+2565426396804705,Dae hyun,Kim,9904,2565426396804705,854518728062939,user_quick_reply: BUTTON_AKB_apotheosized,:keycap_3:,2018-08-16 23:31:09
+2565426396804705,Dae hyun,Kim,9905,854518728062939,2565426396804705,BOT: message,Great! Keep it up! :flexed_biceps_medium-light_skin_tone:,2018-08-16 23:31:10
+2565426396804705,Dae hyun,Kim,9906,854518728062939,2565426396804705,BOT: quick reply,The correct answer is apotheosized.,2018-08-16 23:31:11
+2565426396804705,Dae hyun,Kim,9907,2565426396804705,854518728062939,user_quick_reply: WHY,Why?,2018-08-16 23:31:18
+2565426396804705,Dae hyun,Kim,9908,854518728062939,2565426396804705,BOT: message,I hope this explanation could help you understand the the question.,2018-08-16 23:31:19
+2565426396804705,Dae hyun,Kim,9909,854518728062939,2565426396804705,BOT: quick reply,":pushpin: Apotheosized -- deify or glorify
+:pushpin: Relegated -- to send or consign to an inferior position, place, or condition
+:pushpin: Abrogated -- revoke formally
+:pushpin: Annulled -- declare invalid
+:pushpin: Criticized -- find fault with; express criticism of; point out real or perceived flaws",2018-08-16 23:31:21
+2565426396804705,Dae hyun,Kim,9910,2565426396804705,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-16 23:31:30
+2565426396804705,Dae hyun,Kim,9911,854518728062939,2565426396804705,BOT: message,What about this next question:,2018-08-16 23:31:31
+2565426396804705,Dae hyun,Kim,9912,854518728062939,2565426396804705,BOT: quick reply,"Despite the smile that spread from ear to ear, the eyes relayed a certain _____ .",2018-08-16 23:31:32
+2565426396804705,Dae hyun,Kim,9913,2565426396804705,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-16 23:31:37
+2565426396804705,Dae hyun,Kim,9914,854518728062939,2565426396804705,BOT: message,It's one of the following choices.,2018-08-16 23:31:39
+2565426396804705,Dae hyun,Kim,9915,854518728062939,2565426396804705,BOT: quick reply,":keycap_1: sorrow
+:keycap_2: vision
+:keycap_3: jubilance
+:keycap_4: liveliness
+:keycap_5: mischievousness
+",2018-08-16 23:31:40
+2565426396804705,Dae hyun,Kim,9916,2565426396804705,854518728062939,user_quick_reply: BUTTON_AKB_sorrow,:keycap_1:,2018-08-16 23:31:45
+2565426396804705,Dae hyun,Kim,9917,854518728062939,2565426396804705,BOT: message,Nice! That was right!,2018-08-16 23:31:46
+2565426396804705,Dae hyun,Kim,9918,854518728062939,2565426396804705,BOT: quick reply,The correct answer is sorrow.,2018-08-16 23:31:49
+2565426396804705,Dae hyun,Kim,10182,2565426396804705,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-17 15:49:09
+2565426396804705,Dae hyun,Kim,10183,854518728062939,2565426396804705,BOT: message,Could you answer this one for me?,2018-08-17 15:49:10
+2565426396804705,Dae hyun,Kim,10184,854518728062939,2565426396804705,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-17 15:49:12
+2565426396804705,Dae hyun,Kim,10185,854518728062939,2565426396804705,BOT: quick reply,"Modern tennis fans have come to realize that, although, quantum technological leaps in racquet technology have lead to _____ increases in the speed and power with which players can hit the ball, this has not necessarily lead to a more entertaining game.",2018-08-17 15:49:13
+2565426396804705,Dae hyun,Kim,10186,2565426396804705,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-17 15:49:28
+2565426396804705,Dae hyun,Kim,10187,854518728062939,2565426396804705,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-08-17 15:49:29
+2565426396804705,Dae hyun,Kim,10188,854518728062939,2565426396804705,BOT: quick reply,":keycap_1: halcyon
+:keycap_2: innocuous
+:keycap_3: malleable
+:keycap_4: commensurate
+:keycap_5: tractable
+",2018-08-17 15:49:31
+2565426396804705,Dae hyun,Kim,10189,2565426396804705,854518728062939,user_typing,Drastic,2018-08-17 15:49:42
+2565426396804705,Dae hyun,Kim,10190,854518728062939,2565426396804705,BOT: message,That's not quite right. :disappointed_face:,2018-08-17 15:49:44
+2565426396804705,Dae hyun,Kim,10191,854518728062939,2565426396804705,BOT: quick reply,The correct answer is commensurate.,2018-08-17 15:49:45
+2565426396804705,Dae hyun,Kim,10192,2565426396804705,854518728062939,user_quick_reply: WHY,Why?,2018-08-17 15:49:50
+2565426396804705,Dae hyun,Kim,10193,854518728062939,2565426396804705,BOT: message,I hope this explanation could help you understand the the question.,2018-08-17 15:49:51
+2565426396804705,Dae hyun,Kim,10194,854518728062939,2565426396804705,BOT: quick reply,:pushpin: Commensurate -- corresponding in size or degree or extent,2018-08-17 15:49:52
+2565426396804705,Dae hyun,Kim,10195,2565426396804705,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-17 15:49:59
+2565426396804705,Dae hyun,Kim,10196,854518728062939,2565426396804705,BOT: message,Let's see if you can answer this question.,2018-08-17 15:50:01
+2565426396804705,Dae hyun,Kim,10197,854518728062939,2565426396804705,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-17 15:50:02
+2565426396804705,Dae hyun,Kim,10198,854518728062939,2565426396804705,BOT: quick reply,The Erie Canal's completion caused _____ economic ripples; property values and industrial output along its route rose exponentially.,2018-08-17 15:50:04
+2565426396804705,Dae hyun,Kim,10199,2565426396804705,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-17 15:50:12
+2565426396804705,Dae hyun,Kim,10200,854518728062939,2565426396804705,BOT: message,Okay. I'll give you some choices.,2018-08-17 15:50:13
+2565426396804705,Dae hyun,Kim,10201,854518728062939,2565426396804705,BOT: quick reply,":keycap_1: severe
+:keycap_2: persistent
+:keycap_3: invaluable
+:keycap_4: prodigious
+:keycap_5: incredulous
+",2018-08-17 15:50:15
+2565426396804705,Dae hyun,Kim,10202,2565426396804705,854518728062939,user_quick_reply: BUTTON_DKB_severe,:keycap_1:,2018-08-17 15:50:27
+2565426396804705,Dae hyun,Kim,10203,854518728062939,2565426396804705,BOT: message,That's not quite right. :disappointed_face:,2018-08-17 15:50:28
+2565426396804705,Dae hyun,Kim,10204,854518728062939,2565426396804705,BOT: quick reply,The correct answer is prodigious.,2018-08-17 15:50:30
+2565426396804705,Dae hyun,Kim,10205,2565426396804705,854518728062939,user_quick_reply: WHY,Why?,2018-08-17 15:50:34
+2565426396804705,Dae hyun,Kim,10206,854518728062939,2565426396804705,BOT: message,This is why:,2018-08-17 15:50:36
+2565426396804705,Dae hyun,Kim,10207,854518728062939,2565426396804705,BOT: quick reply,":pushpin: Prodigious -- so great in size or force or extent as to elicit awe
+:pushpin: Persistent -- lasting or enduring tenaciously
+:pushpin: Invaluable -- having incalculable monetary, intellectual, or spiritual worth
+:pushpin: Incredulous -- not disposed or willing to believe; unbelieving
+:pushpin: Severe -- intensely or extremely bad or unpleasant in degree or quality",2018-08-17 15:50:37
+2565426396804705,Dae hyun,Kim,10226,854518728062939,2565426396804705,BOT: quick reply,"Hi Dae hyun, you haven't talked to me for a while. Would you like to resume the learning with me?",2018-08-17 20:00:28
+2565426396804705,Dae hyun,Kim,10228,854518728062939,2565426396804705,BOT: message,Let's try this one.,2018-08-17 20:17:44
+2565426396804705,Dae hyun,Kim,10229,854518728062939,2565426396804705,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-17 20:17:45
+2565426396804705,Dae hyun,Kim,10230,854518728062939,2565426396804705,BOT: quick reply,"Many dog owners treat their pets too _____ , forgetting that canines have evolved in competitive environments in which emotional coddling was a sign of weakness.",2018-08-17 20:17:47
+2565426396804705,Dae hyun,Kim,10231,2565426396804705,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-17 20:17:53
+2565426396804705,Dae hyun,Kim,10232,854518728062939,2565426396804705,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-08-17 20:17:55
+2565426396804705,Dae hyun,Kim,10233,854518728062939,2565426396804705,BOT: quick reply,":keycap_1: fortuitously
+:keycap_2: quixotically
+:keycap_3: aggressively
+:keycap_4: belligerently
+:keycap_5: indulgently
+",2018-08-17 20:17:56
+2565426396804705,Dae hyun,Kim,10234,2565426396804705,854518728062939,user_quick_reply: BUTTON_DKB_quixotically,:keycap_2:,2018-08-17 20:18:02
+2565426396804705,Dae hyun,Kim,10235,854518728062939,2565426396804705,BOT: message,"I'm sorry, but that was incorrect. :disappointed_face:",2018-08-17 20:18:03
+2565426396804705,Dae hyun,Kim,10236,854518728062939,2565426396804705,BOT: quick reply,The correct answer is indulgently.,2018-08-17 20:18:04
+2565426396804705,Dae hyun,Kim,10237,2565426396804705,854518728062939,user_quick_reply: WHY,Why?,2018-08-17 20:18:10
+2565426396804705,Dae hyun,Kim,10238,854518728062939,2565426396804705,BOT: message,This is an explanation of the question:,2018-08-17 20:18:12
+2565426396804705,Dae hyun,Kim,10239,854518728062939,2565426396804705,BOT: quick reply,":pushpin: Indulgently -- benignly lenient or permissive
+:pushpin: Aggressively -- characterized by or tending toward unprovoked offensives, attacks, invasions, or the like
+:pushpin: Quixotically -- extravagantly chivalrous or romantic
+:pushpin: Fortuitously -- by good fortune
+:pushpin: Belligerently -- with hostility; in a belligerent hostile manner",2018-08-17 20:18:13
+2565426396804705,Dae hyun,Kim,10240,2565426396804705,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-17 20:28:38
+2565426396804705,Dae hyun,Kim,10241,854518728062939,2565426396804705,BOT: message,"Alrighty, let's try this one.",2018-08-17 20:28:40
+2565426396804705,Dae hyun,Kim,10242,854518728062939,2565426396804705,BOT: quick reply,The Erie Canal's completion caused _____ economic ripples; property values and industrial output along its route rose exponentially.,2018-08-17 20:28:41
+2565426396804705,Dae hyun,Kim,10243,2565426396804705,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-17 20:28:47
+2565426396804705,Dae hyun,Kim,10244,854518728062939,2565426396804705,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-08-17 20:28:49
+2565426396804705,Dae hyun,Kim,10245,854518728062939,2565426396804705,BOT: quick reply,":keycap_1: invaluable
+:keycap_2: incredulous
+:keycap_3: severe
+:keycap_4: persistent
+:keycap_5: prodigious
+",2018-08-17 20:28:50
+2565426396804705,Dae hyun,Kim,10246,2565426396804705,854518728062939,user_quick_reply: BUTTON_AKB_prodigious,:keycap_5:,2018-08-17 20:28:58
+2565426396804705,Dae hyun,Kim,10247,854518728062939,2565426396804705,BOT: image,https://www.smartprimer.org:443/pictures/avatar/congrats/penguinnormal_normal_orange.png,2018-08-17 20:29:01
+2565426396804705,Dae hyun,Kim,10248,854518728062939,2565426396804705,BOT: message,Great job getting the correct answer!,2018-08-17 20:29:02
+2565426396804705,Dae hyun,Kim,10249,854518728062939,2565426396804705,BOT: quick reply,The correct answer is prodigious.,2018-08-17 20:29:05
+2565426396804705,Dae hyun,Kim,10250,2565426396804705,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-17 20:29:14
+2565426396804705,Dae hyun,Kim,10251,854518728062939,2565426396804705,BOT: message,Let's try this question.,2018-08-17 20:29:15
+2565426396804705,Dae hyun,Kim,10252,854518728062939,2565426396804705,BOT: quick reply,One of social science's major themes is that of stability versus change; to what extent are individual personalities _____ yet different over time?,2018-08-17 20:29:16
+2565426396804705,Dae hyun,Kim,10253,2565426396804705,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-17 20:29:23
+2565426396804705,Dae hyun,Kim,10254,854518728062939,2565426396804705,BOT: message,Pick one of the following answers.,2018-08-17 20:29:25
+2565426396804705,Dae hyun,Kim,10255,854518728062939,2565426396804705,BOT: quick reply,":keycap_1: transient
+:keycap_2: maladjusted
+:keycap_3: disturbed
+:keycap_4: discreet
+:keycap_5: static
+",2018-08-17 20:29:26
+2565426396804705,Dae hyun,Kim,10256,2565426396804705,854518728062939,user_quick_reply: BUTTON_AKB_static,:keycap_5:,2018-08-17 20:29:35
+2565426396804705,Dae hyun,Kim,10257,854518728062939,2565426396804705,BOT: message,Great job getting the correct answer!,2018-08-17 20:29:36
+2565426396804705,Dae hyun,Kim,10258,854518728062939,2565426396804705,BOT: quick reply,The correct answer is static.,2018-08-17 20:29:38
+2565426396804705,Dae hyun,Kim,10259,2565426396804705,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-17 20:43:35
+2565426396804705,Dae hyun,Kim,10260,854518728062939,2565426396804705,BOT: message,Here's a question for you:,2018-08-17 20:43:37
+2565426396804705,Dae hyun,Kim,10261,854518728062939,2565426396804705,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-17 20:43:38
+2565426396804705,Dae hyun,Kim,10262,854518728062939,2565426396804705,BOT: quick reply,"Having squandered his life's savings on unprofitable business ventures, the _____ entrepreneur was forced to live in squalor.",2018-08-17 20:43:39
+2565426396804705,Dae hyun,Kim,10263,2565426396804705,854518728062939,user_typing,Broke,2018-08-17 20:43:55
+2565426396804705,Dae hyun,Kim,10264,854518728062939,2565426396804705,BOT: message,That wasn't quite what we were looking for. :disappointed_face:,2018-08-17 20:43:56
+2565426396804705,Dae hyun,Kim,10265,854518728062939,2565426396804705,BOT: quick reply,The correct answer is insolvent.,2018-08-17 20:43:57
+2565426396804705,Dae hyun,Kim,10266,2565426396804705,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-17 20:44:06
+2565426396804705,Dae hyun,Kim,10267,854518728062939,2565426396804705,BOT: message,How about this next one:,2018-08-17 20:44:08
+2565426396804705,Dae hyun,Kim,10268,854518728062939,2565426396804705,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-17 20:44:09
+2565426396804705,Dae hyun,Kim,10269,854518728062939,2565426396804705,BOT: quick reply,Susan _____ the theater; she bought tickets for all the shows put on by the local drama group.,2018-08-17 20:44:10
+2565426396804705,Dae hyun,Kim,10270,2565426396804705,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-17 20:44:17
+2565426396804705,Dae hyun,Kim,10271,854518728062939,2565426396804705,BOT: message,Which of the following options is the right answer?,2018-08-17 20:44:18
+2565426396804705,Dae hyun,Kim,10272,854518728062939,2565426396804705,BOT: quick reply,":keycap_1: owned
+:keycap_2: loathed
+:keycap_3: abhorred
+:keycap_4: managed
+:keycap_5: cherished
+",2018-08-17 20:44:20
+2565426396804705,Dae hyun,Kim,10273,2565426396804705,854518728062939,user_quick_reply: BUTTON_AKB_cherished,:keycap_5:,2018-08-17 20:44:29
+2565426396804705,Dae hyun,Kim,10274,854518728062939,2565426396804705,BOT: message,Great job!,2018-08-17 20:44:31
+2565426396804705,Dae hyun,Kim,10275,854518728062939,2565426396804705,BOT: quick reply,The correct answer is cherished.,2018-08-17 20:44:32
+2565426396804705,Dae hyun,Kim,10276,2565426396804705,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-17 20:44:37
+2565426396804705,Dae hyun,Kim,10277,854518728062939,2565426396804705,BOT: message,Let's see if you can answer this question.,2018-08-17 20:44:38
+2565426396804705,Dae hyun,Kim,10278,854518728062939,2565426396804705,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-17 20:44:40
+2565426396804705,Dae hyun,Kim,10279,854518728062939,2565426396804705,BOT: quick reply,"If one were asked who transmitted the first radio broadcast of the human voice, one might guess the _____ inventor Guglielmo Marconi, but in fact the feat was accomplished by the much less well-known Reginald Fessenden.",2018-08-17 20:44:41
+2565426396804705,Dae hyun,Kim,10280,2565426396804705,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-17 20:44:48
+2565426396804705,Dae hyun,Kim,10281,854518728062939,2565426396804705,BOT: message,Okay. I'll give you some choices.,2018-08-17 20:44:50
+2565426396804705,Dae hyun,Kim,10282,854518728062939,2565426396804705,BOT: quick reply,":keycap_1: insistent
+:keycap_2: renowned
+:keycap_3: infamous
+:keycap_4: cogent
+:keycap_5: contingent
+",2018-08-17 20:44:51
+2565426396804705,Dae hyun,Kim,10283,2565426396804705,854518728062939,user_typing,Famous,2018-08-17 20:45:00
+2565426396804705,Dae hyun,Kim,10284,854518728062939,2565426396804705,BOT: image,https://www.smartprimer.org:443/pictures/avatar/congrats/penguinnormal_normal_purple.png,2018-08-17 20:45:03
+2565426396804705,Dae hyun,Kim,10285,854518728062939,2565426396804705,BOT: message,Correct! :confetti_ball:,2018-08-17 20:45:05
+2565426396804705,Dae hyun,Kim,10286,854518728062939,2565426396804705,BOT: quick reply,The correct answer is renowned.,2018-08-17 20:45:06
+2565426396804705,Dae hyun,Kim,10498,2565426396804705,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-17 23:37:55
+2565426396804705,Dae hyun,Kim,10499,854518728062939,2565426396804705,BOT: message,Let's try this one.,2018-08-17 23:37:56
+2565426396804705,Dae hyun,Kim,10500,854518728062939,2565426396804705,BOT: quick reply,"In 1770s colonial New England, Puritans _____ the celebration of Christmas, which they considered to be an odious reminder of the Pope's tyranny.",2018-08-17 23:37:58
+2565426396804705,Dae hyun,Kim,10501,2565426396804705,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-17 23:38:06
+2565426396804705,Dae hyun,Kim,10502,854518728062939,2565426396804705,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-08-17 23:38:07
+2565426396804705,Dae hyun,Kim,10503,854518728062939,2565426396804705,BOT: quick reply,":keycap_1: placated
+:keycap_2: extolled
+:keycap_3: repudiated
+:keycap_4: tempered
+:keycap_5: circumscribed
+",2018-08-17 23:38:09
+2565426396804705,Dae hyun,Kim,10504,2565426396804705,854518728062939,user_quick_reply: BUTTON_DKB_extolled,:keycap_2:,2018-08-17 23:38:16
+2565426396804705,Dae hyun,Kim,10505,854518728062939,2565426396804705,BOT: message,"Oops, that wasn't quite correct. :disappointed_face:",2018-08-17 23:38:18
+2565426396804705,Dae hyun,Kim,10506,854518728062939,2565426396804705,BOT: quick reply,The correct answer is repudiated.,2018-08-17 23:38:19
+2565426396804705,Dae hyun,Kim,10507,2565426396804705,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-17 23:38:33
+2565426396804705,Dae hyun,Kim,10508,854518728062939,2565426396804705,BOT: message,What about this next question:,2018-08-17 23:38:35
+2565426396804705,Dae hyun,Kim,10509,854518728062939,2565426396804705,BOT: quick reply,"Just as different people can have very different personalities, so too can pets - even those of the same species and breed possess varied _____ .",2018-08-17 23:38:36
+2565426396804705,Dae hyun,Kim,10510,2565426396804705,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-17 23:38:48
+2565426396804705,Dae hyun,Kim,10511,854518728062939,2565426396804705,BOT: message,It's one of the following choices.,2018-08-17 23:38:49
+2565426396804705,Dae hyun,Kim,10512,854518728062939,2565426396804705,BOT: quick reply,":keycap_1: implementations
+:keycap_2: temperaments
+:keycap_3: aptitudes
+:keycap_4: rationalizations
+:keycap_5: initiations
+",2018-08-17 23:38:51
+2565426396804705,Dae hyun,Kim,10513,2565426396804705,854518728062939,user_quick_reply: BUTTON_DKB_aptitudes,:keycap_3:,2018-08-17 23:39:01
+2565426396804705,Dae hyun,Kim,10514,854518728062939,2565426396804705,BOT: message,"Oops, that wasn't quite correct. :disappointed_face:",2018-08-17 23:39:03
+2565426396804705,Dae hyun,Kim,10515,854518728062939,2565426396804705,BOT: quick reply,The correct answer is temperaments.,2018-08-17 23:39:04
+2565426396804705,Dae hyun,Kim,10516,2565426396804705,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-17 23:39:23
+2565426396804705,Dae hyun,Kim,10517,854518728062939,2565426396804705,BOT: message,Let's take a look at this question.,2018-08-17 23:39:24
+2565426396804705,Dae hyun,Kim,10518,854518728062939,2565426396804705,BOT: quick reply,"Having squandered his life's savings on unprofitable business ventures, the _____ entrepreneur was forced to live in squalor.",2018-08-17 23:39:26
+2565426396804705,Dae hyun,Kim,10519,2565426396804705,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-17 23:39:31
+2565426396804705,Dae hyun,Kim,10520,854518728062939,2565426396804705,BOT: message,Which of the following options is the right answer?,2018-08-17 23:39:32
+2565426396804705,Dae hyun,Kim,10521,854518728062939,2565426396804705,BOT: quick reply,":keycap_1: former
+:keycap_2: unlikely
+:keycap_3: insolvent
+:keycap_4: perturbed
+:keycap_5: eccentric
+",2018-08-17 23:39:33
+2565426396804705,Dae hyun,Kim,10522,2565426396804705,854518728062939,user_quick_reply: BUTTON_AKB_insolvent,:keycap_3:,2018-08-17 23:39:39
+2565426396804705,Dae hyun,Kim,10523,854518728062939,2565426396804705,BOT: message,Nice! That was right!,2018-08-17 23:39:40
+2565426396804705,Dae hyun,Kim,10524,854518728062939,2565426396804705,BOT: quick reply,The correct answer is insolvent.,2018-08-17 23:39:42
+2565426396804705,Dae hyun,Kim,10525,2565426396804705,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-17 23:39:47
+2565426396804705,Dae hyun,Kim,10526,854518728062939,2565426396804705,BOT: message,Let's try this one.,2018-08-17 23:39:48
+2565426396804705,Dae hyun,Kim,10527,854518728062939,2565426396804705,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-17 23:39:50
+2565426396804705,Dae hyun,Kim,10528,854518728062939,2565426396804705,BOT: quick reply,"The recent convert, still a _____ with respect to the rites of her church, did not yet feel completely comfortable in her new faith.",2018-08-17 23:39:51
+2565426396804705,Dae hyun,Kim,10529,2565426396804705,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-17 23:39:56
+2565426396804705,Dae hyun,Kim,10530,854518728062939,2565426396804705,BOT: message,Pick one of the following answers.,2018-08-17 23:39:57
+2565426396804705,Dae hyun,Kim,10531,854518728062939,2565426396804705,BOT: quick reply,":keycap_1: pilgrim
+:keycap_2: poseur
+:keycap_3: iconoclast
+:keycap_4: tyro
+:keycap_5: ascetic
+",2018-08-17 23:39:58
+2565426396804705,Dae hyun,Kim,10532,2565426396804705,854518728062939,user_quick_reply: BUTTON_DKB_pilgrim,:keycap_1:,2018-08-17 23:40:16
+2565426396804705,Dae hyun,Kim,10533,854518728062939,2565426396804705,BOT: message,"Oops, that is not correct. :disappointed_face:",2018-08-17 23:40:17
+2565426396804705,Dae hyun,Kim,10534,854518728062939,2565426396804705,BOT: quick reply,The correct answer is tyro.,2018-08-17 23:40:18
+2565426396804705,Dae hyun,Kim,10535,2565426396804705,854518728062939,user_quick_reply: WHY,Why?,2018-08-17 23:40:24
+2565426396804705,Dae hyun,Kim,10536,854518728062939,2565426396804705,BOT: message,This is why:,2018-08-17 23:40:26
+2565426396804705,Dae hyun,Kim,10537,854518728062939,2565426396804705,BOT: quick reply,":pushpin: Tyro -- someone new to a field or activity
+:pushpin: Pilgrim -- someone who journeys in foreign lands
+:pushpin: Iconoclast -- a destroyer of images used in religious worship
+:pushpin: Ascetic -- pertaining to or characteristic of an ascetic or the practice of rigorous self-discipline
+:pushpin: Poseur -- a person who habitually pretends to be something he is not",2018-08-17 23:40:27
+2565426396804705,Dae hyun,Kim,10538,2565426396804705,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-17 23:41:12
+2565426396804705,Dae hyun,Kim,10539,854518728062939,2565426396804705,BOT: message,How about this next one:,2018-08-17 23:41:13
+2565426396804705,Dae hyun,Kim,10540,854518728062939,2565426396804705,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-17 23:41:15
+2565426396804705,Dae hyun,Kim,10541,854518728062939,2565426396804705,BOT: quick reply,"Even though legislators claimed the Contagious Diseases Acts strengthened the nation, social purists argued the Acts _____ the nation's moral growth by encouraging licentious behavior.",2018-08-17 23:41:16
+2565426396804705,Dae hyun,Kim,10542,2565426396804705,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-17 23:41:23
+2565426396804705,Dae hyun,Kim,10543,854518728062939,2565426396804705,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-08-17 23:41:25
+2565426396804705,Dae hyun,Kim,10544,854518728062939,2565426396804705,BOT: quick reply,":keycap_1: enhanced
+:keycap_2: advanced
+:keycap_3: hampered
+:keycap_4: supplanted
+:keycap_5: ameliorated
+",2018-08-17 23:41:26
+2565426396804705,Dae hyun,Kim,10545,2565426396804705,854518728062939,user_quick_reply: BUTTON_AKB_hampered,:keycap_3:,2018-08-17 23:41:38
+2565426396804705,Dae hyun,Kim,10546,854518728062939,2565426396804705,BOT: image,https://www.smartprimer.org:443/pictures/avatar/congrats/penguinnormal_happy_cyan.png,2018-08-17 23:41:41
+2565426396804705,Dae hyun,Kim,10547,854518728062939,2565426396804705,BOT: message,Great job!,2018-08-17 23:41:42
+2565426396804705,Dae hyun,Kim,10548,854518728062939,2565426396804705,BOT: quick reply,The correct answer is hampered.,2018-08-17 23:41:44
+2565426396804705,Dae hyun,Kim,10549,2565426396804705,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-17 23:41:50
+2565426396804705,Dae hyun,Kim,10550,854518728062939,2565426396804705,BOT: message,See if you can answer this next one.,2018-08-17 23:41:51
+2565426396804705,Dae hyun,Kim,10551,854518728062939,2565426396804705,BOT: quick reply,"Some religious leaders have declared inaction on environmental issues to be _____ , because it may now be considered a sin to pollute the earth.",2018-08-17 23:41:53
+2565426396804705,Dae hyun,Kim,10552,2565426396804705,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-17 23:41:58
+2565426396804705,Dae hyun,Kim,10553,854518728062939,2565426396804705,BOT: message,Okay. I'll give you some choices.,2018-08-17 23:42:00
+2565426396804705,Dae hyun,Kim,10554,854518728062939,2565426396804705,BOT: quick reply,":keycap_1: iniquitous
+:keycap_2: splenetic
+:keycap_3: dilatory
+:keycap_4: fathomable
+:keycap_5: diaphanous
+",2018-08-17 23:42:01
+2565426396804705,Dae hyun,Kim,10555,2565426396804705,854518728062939,user_quick_reply: BUTTON_DKB_diaphanous,:keycap_5:,2018-08-17 23:42:14
+2565426396804705,Dae hyun,Kim,10556,854518728062939,2565426396804705,BOT: message,That's not quite right. :disappointed_face:,2018-08-17 23:42:15
+2565426396804705,Dae hyun,Kim,10557,854518728062939,2565426396804705,BOT: quick reply,The correct answer is iniquitous.,2018-08-17 23:42:17
+2565426396804705,Dae hyun,Kim,10558,2565426396804705,854518728062939,user_quick_reply: WHY,Why?,2018-08-17 23:42:22
+2565426396804705,Dae hyun,Kim,10559,854518728062939,2565426396804705,BOT: message,I hope this explanation could help you understand the the question.,2018-08-17 23:42:24
+2565426396804705,Dae hyun,Kim,10560,854518728062939,2565426396804705,BOT: quick reply,":pushpin: Iniquitous -- wicked because it is believed to be a sin
+:pushpin: Fathomable -- to measure the depth of by means of a sounding line; sound
+:pushpin: Splenetic -- of or relating to the spleen
+:pushpin: Diaphanous -- so thin as to transmit light
+:pushpin: Dilatory -- wasting time",2018-08-17 23:42:25
+2565426396804705,Dae hyun,Kim,10561,2565426396804705,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-17 23:42:49
+2565426396804705,Dae hyun,Kim,10562,854518728062939,2565426396804705,BOT: message,"Alrighty, let's try this one.",2018-08-17 23:42:50
+2565426396804705,Dae hyun,Kim,10563,854518728062939,2565426396804705,BOT: quick reply,One of social science's major themes is that of stability versus change; to what extent are individual personalities _____ yet different over time?,2018-08-17 23:42:51
+2565426396804705,Dae hyun,Kim,10564,2565426396804705,854518728062939,user_typing,Constant,2018-08-17 23:43:10
+2565426396804705,Dae hyun,Kim,10565,854518728062939,2565426396804705,BOT: message,"I'm sorry, but that was incorrect. :disappointed_face:",2018-08-17 23:43:11
+2565426396804705,Dae hyun,Kim,10566,854518728062939,2565426396804705,BOT: quick reply,The correct answer is static.,2018-08-17 23:43:13
+2565426396804705,Dae hyun,Kim,10839,854518728062939,2565426396804705,BOT: quick reply,"Hi Dae hyun, you haven't talked to me for a while. Would you like to resume the learning with me?",2018-08-18 20:00:56
+2565426396804705,Dae hyun,Kim,11096,2565426396804705,854518728062939,user_quick_reply: NEXT_QUESTION,Got it :light_bulb:,2018-08-18 20:59:31
+2565426396804705,Dae hyun,Kim,11097,854518728062939,2565426396804705,BOT: message,What about this next question:,2018-08-18 20:59:33
+2565426396804705,Dae hyun,Kim,11098,854518728062939,2565426396804705,BOT: quick reply,"Having squandered his life's savings on unprofitable business ventures, the _____ entrepreneur was forced to live in squalor.",2018-08-18 20:59:35
+2565426396804705,Dae hyun,Kim,11099,2565426396804705,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-18 20:59:39
+2565426396804705,Dae hyun,Kim,11100,854518728062939,2565426396804705,BOT: message,Okay. I'll give you some choices.,2018-08-18 20:59:41
+2565426396804705,Dae hyun,Kim,11101,854518728062939,2565426396804705,BOT: quick reply,":keycap_1: former
+:keycap_2: unlikely
+:keycap_3: perturbed
+:keycap_4: insolvent
+:keycap_5: eccentric
+",2018-08-18 20:59:42
+2565426396804705,Dae hyun,Kim,11102,2565426396804705,854518728062939,user_quick_reply: BUTTON_AKB_insolvent,:keycap_4:,2018-08-18 20:59:48
+2565426396804705,Dae hyun,Kim,11103,854518728062939,2565426396804705,BOT: message,Great job!,2018-08-18 20:59:49
+2565426396804705,Dae hyun,Kim,11104,854518728062939,2565426396804705,BOT: quick reply,The correct answer is insolvent.,2018-08-18 20:59:51
+2565426396804705,Dae hyun,Kim,11105,2565426396804705,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-18 20:59:57
+2565426396804705,Dae hyun,Kim,11106,854518728062939,2565426396804705,BOT: message,Let's try this one.,2018-08-18 20:59:59
+2565426396804705,Dae hyun,Kim,11107,854518728062939,2565426396804705,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-18 21:00:00
+2565426396804705,Dae hyun,Kim,11108,854518728062939,2565426396804705,BOT: quick reply,"Despite being located in hot and sunny California, San Francisco is famous for its _____ weather, engendered by the confluence of two different meteorological systems in the Bay Area.",2018-08-18 21:00:02
+2565426396804705,Dae hyun,Kim,11109,2565426396804705,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-18 21:00:07
+2565426396804705,Dae hyun,Kim,11110,854518728062939,2565426396804705,BOT: message,Which of the following options is the right answer?,2018-08-18 21:00:09
+2565426396804705,Dae hyun,Kim,11111,854518728062939,2565426396804705,BOT: quick reply,":keycap_1: duplicitous
+:keycap_2: appealing
+:keycap_3: adverse
+:keycap_4: stimulating
+:keycap_5: balmy
+",2018-08-18 21:00:10
+2565426396804705,Dae hyun,Kim,11112,2565426396804705,854518728062939,user_quick_reply: BUTTON_AKB_adverse,:keycap_3:,2018-08-18 21:00:25
+2565426396804705,Dae hyun,Kim,11113,854518728062939,2565426396804705,BOT: message,Nice work! Keep it up!,2018-08-18 21:00:27
+2565426396804705,Dae hyun,Kim,11114,854518728062939,2565426396804705,BOT: quick reply,The correct answer is adverse.,2018-08-18 21:00:28
+2565426396804705,Dae hyun,Kim,11115,2565426396804705,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-18 22:50:29
+2565426396804705,Dae hyun,Kim,11116,854518728062939,2565426396804705,BOT: message,How about this next one:,2018-08-18 22:50:31
+2565426396804705,Dae hyun,Kim,11117,854518728062939,2565426396804705,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-18 22:50:32
+2565426396804705,Dae hyun,Kim,11118,854518728062939,2565426396804705,BOT: quick reply,Many Major League Baseball relief pitchers choose an electrifying theme song to play as they take the mound; the song _____ their fans and instills fear in their opponents.,2018-08-18 22:50:34
+2565426396804705,Dae hyun,Kim,11119,2565426396804705,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-18 22:50:41
+2565426396804705,Dae hyun,Kim,11120,854518728062939,2565426396804705,BOT: message,Okay. I'll give you some choices.,2018-08-18 22:50:42
+2565426396804705,Dae hyun,Kim,11121,854518728062939,2565426396804705,BOT: quick reply,":keycap_1: innervates
+:keycap_2: enervates
+:keycap_3: eviscerates
+:keycap_4: pervades
+:keycap_5: assuages
+",2018-08-18 22:50:44
+2565426396804705,Dae hyun,Kim,11122,2565426396804705,854518728062939,user_quick_reply: BUTTON_DKB_pervades,:keycap_4:,2018-08-18 22:51:51
+2565426396804705,Dae hyun,Kim,11123,854518728062939,2565426396804705,BOT: message,"Hmm, that wasn't quite right. :disappointed_face:",2018-08-18 22:51:53
+2565426396804705,Dae hyun,Kim,11124,854518728062939,2565426396804705,BOT: quick reply,The correct answer is innervates.,2018-08-18 22:51:54
+2565426396804705,Dae hyun,Kim,11125,2565426396804705,854518728062939,user_quick_reply: WHY,Why?,2018-08-18 22:51:59
+2565426396804705,Dae hyun,Kim,11126,854518728062939,2565426396804705,BOT: message,Here's why:,2018-08-18 22:52:01
+2565426396804705,Dae hyun,Kim,11127,854518728062939,2565426396804705,BOT: quick reply,":pushpin: Innervates -- to supply with nerves
+:pushpin: Eviscerates -- surgically remove a part of a structure or an organ
+:pushpin: Enervates -- weaken mentally or morally
+:pushpin: Assuages -- cause to be more favorably inclined; gain the good will of
+:pushpin: Pervades -- spread or diffuse through",2018-08-18 22:52:03
+2565426396804705,Dae hyun,Kim,11128,2565426396804705,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-18 23:07:58
+2565426396804705,Dae hyun,Kim,11129,854518728062939,2565426396804705,BOT: message,I think you'll like this question.,2018-08-18 23:07:59
+2565426396804705,Dae hyun,Kim,11130,854518728062939,2565426396804705,BOT: quick reply,"Because he ate high-calorie snacks while riding the exercise bike, Julie ridiculed DeRay's workout philosophy as _____ .",2018-08-18 23:08:01
+2565426396804705,Dae hyun,Kim,11131,2565426396804705,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-18 23:08:12
+2565426396804705,Dae hyun,Kim,11132,854518728062939,2565426396804705,BOT: message,Okay. I'll give you some choices.,2018-08-18 23:08:13
+2565426396804705,Dae hyun,Kim,11133,854518728062939,2565426396804705,BOT: quick reply,":keycap_1: hackneyed
+:keycap_2: fatuous
+:keycap_3: indolent
+:keycap_4: pithy
+:keycap_5: precarious
+",2018-08-18 23:08:15
+2565426396804705,Dae hyun,Kim,11134,2565426396804705,854518728062939,user_quick_reply: BUTTON_DKB_pithy,:keycap_4:,2018-08-18 23:08:26
+2565426396804705,Dae hyun,Kim,11135,854518728062939,2565426396804705,BOT: message,"Oops, that wasn't quite correct. :disappointed_face:",2018-08-18 23:08:27
+2565426396804705,Dae hyun,Kim,11136,854518728062939,2565426396804705,BOT: quick reply,The correct answer is fatuous.,2018-08-18 23:08:29
+2565426396804705,Dae hyun,Kim,11137,2565426396804705,854518728062939,user_quick_reply: WHY,Why?,2018-08-18 23:08:34
+2565426396804705,Dae hyun,Kim,11138,854518728062939,2565426396804705,BOT: message,Here's an explanation:,2018-08-18 23:08:35
+2565426396804705,Dae hyun,Kim,11139,854518728062939,2565426396804705,BOT: quick reply,":pushpin: Fatuous -- extremely silly or stupid
+:pushpin: Pithy -- concise and full of meaning
+:pushpin: Indolent -- disinclined to work or exertion
+:pushpin: Hackneyed -- repeated too often; overfamiliar through overuse
+:pushpin: Precarious -- affording no ease or reassurance",2018-08-18 23:08:37
+2565426396804705,Dae hyun,Kim,11140,2565426396804705,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-18 23:08:50
+2565426396804705,Dae hyun,Kim,11141,854518728062939,2565426396804705,BOT: message,How about this next one:,2018-08-18 23:08:52
+2565426396804705,Dae hyun,Kim,11142,854518728062939,2565426396804705,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-18 23:08:53
+2565426396804705,Dae hyun,Kim,11143,854518728062939,2565426396804705,BOT: quick reply,Many Major League Baseball relief pitchers choose an electrifying theme song to play as they take the mound; the song _____ their fans and instills fear in their opponents.,2018-08-18 23:08:55
+2565426396804705,Dae hyun,Kim,11144,2565426396804705,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-18 23:09:00
+2565426396804705,Dae hyun,Kim,11145,854518728062939,2565426396804705,BOT: message,Which of the following options is the right answer?,2018-08-18 23:09:01
+2565426396804705,Dae hyun,Kim,11146,854518728062939,2565426396804705,BOT: quick reply,":keycap_1: pervades
+:keycap_2: eviscerates
+:keycap_3: assuages
+:keycap_4: innervates
+:keycap_5: enervates
+",2018-08-18 23:09:03
+2565426396804705,Dae hyun,Kim,11147,2565426396804705,854518728062939,user_quick_reply: BUTTON_AKB_innervates,:keycap_4:,2018-08-18 23:09:14
+2565426396804705,Dae hyun,Kim,11148,854518728062939,2565426396804705,BOT: message,Great job!,2018-08-18 23:09:16
+2565426396804705,Dae hyun,Kim,11149,854518728062939,2565426396804705,BOT: quick reply,The correct answer is innervates.,2018-08-18 23:09:17
+2565426396804705,Dae hyun,Kim,11150,2565426396804705,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-18 23:09:22
+2565426396804705,Dae hyun,Kim,11151,854518728062939,2565426396804705,BOT: message,How about this next one:,2018-08-18 23:09:23
+2565426396804705,Dae hyun,Kim,11152,854518728062939,2565426396804705,BOT: quick reply,"Because he ate high-calorie snacks while riding the exercise bike, Julie ridiculed DeRay's workout philosophy as _____ .",2018-08-18 23:09:25
+2565426396804705,Dae hyun,Kim,11153,2565426396804705,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-18 23:09:31
+2565426396804705,Dae hyun,Kim,11154,854518728062939,2565426396804705,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-08-18 23:09:33
+2565426396804705,Dae hyun,Kim,11155,854518728062939,2565426396804705,BOT: quick reply,":keycap_1: fatuous
+:keycap_2: pithy
+:keycap_3: indolent
+:keycap_4: hackneyed
+:keycap_5: precarious
+",2018-08-18 23:09:34
+2565426396804705,Dae hyun,Kim,11156,2565426396804705,854518728062939,user_quick_reply: BUTTON_AKB_fatuous,:keycap_1:,2018-08-18 23:09:41
+2565426396804705,Dae hyun,Kim,11157,854518728062939,2565426396804705,BOT: image,https://www.smartprimer.org:443/pictures/avatar/congrats/penguinnormal_normal_pink.png,2018-08-18 23:09:44
+2565426396804705,Dae hyun,Kim,11158,854518728062939,2565426396804705,BOT: message,Great job getting the correct answer!,2018-08-18 23:09:45
+2565426396804705,Dae hyun,Kim,11159,854518728062939,2565426396804705,BOT: quick reply,The correct answer is fatuous.,2018-08-18 23:09:46
+2565426396804705,Dae hyun,Kim,11160,2565426396804705,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-18 23:09:53
+2565426396804705,Dae hyun,Kim,11161,854518728062939,2565426396804705,BOT: message,Let's take a look at this question.,2018-08-18 23:09:54
+2565426396804705,Dae hyun,Kim,11162,854518728062939,2565426396804705,BOT: quick reply,"In 1770s colonial New England, Puritans _____ the celebration of Christmas, which they considered to be an odious reminder of the Pope's tyranny.",2018-08-18 23:09:57
+2565426396804705,Dae hyun,Kim,11163,2565426396804705,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-18 23:10:02
+2565426396804705,Dae hyun,Kim,11164,854518728062939,2565426396804705,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-08-18 23:10:03
+2565426396804705,Dae hyun,Kim,11165,854518728062939,2565426396804705,BOT: quick reply,":keycap_1: placated
+:keycap_2: tempered
+:keycap_3: repudiated
+:keycap_4: extolled
+:keycap_5: circumscribed
+",2018-08-18 23:10:05
+2565426396804705,Dae hyun,Kim,11166,2565426396804705,854518728062939,user_quick_reply: BUTTON_AKB_repudiated,:keycap_3:,2018-08-18 23:10:12
+2565426396804705,Dae hyun,Kim,11167,854518728062939,2565426396804705,BOT: image,https://www.smartprimer.org:443/pictures/avatar/congrats/penguinnormal_happy_orange.png,2018-08-18 23:10:15
+2565426396804705,Dae hyun,Kim,11168,854518728062939,2565426396804705,BOT: message,Nice work! Keep it up!,2018-08-18 23:10:17
+2565426396804705,Dae hyun,Kim,11169,854518728062939,2565426396804705,BOT: quick reply,The correct answer is repudiated.,2018-08-18 23:10:18
+2565426396804705,Dae hyun,Kim,11170,2565426396804705,854518728062939,user_quick_reply: WHY,Why?,2018-08-18 23:10:23
+2565426396804705,Dae hyun,Kim,11171,854518728062939,2565426396804705,BOT: message,This is why:,2018-08-18 23:10:24
+2565426396804705,Dae hyun,Kim,11172,854518728062939,2565426396804705,BOT: quick reply,":pushpin: Repudiated -- cast off
+:pushpin: Placated -- cause to be more favorably inclined; gain the good will of
+:pushpin: Extolled -- praise, glorify, or honor
+:pushpin: Circumscribed -- subject to limits or subjected to limits
+:pushpin: Tempered -- made hard or flexible or resilient especially by heat treatment",2018-08-18 23:10:25
+2565426396804705,Dae hyun,Kim,11173,2565426396804705,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-18 23:10:31
+2565426396804705,Dae hyun,Kim,11174,854518728062939,2565426396804705,BOT: message,I think you'll like this question.,2018-08-18 23:10:33
+2565426396804705,Dae hyun,Kim,11175,854518728062939,2565426396804705,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-18 23:10:34
+2565426396804705,Dae hyun,Kim,11176,854518728062939,2565426396804705,BOT: quick reply,The defense attorney's _____ closing statement was not enough to sway the jurors in his client's favor; stirring words could not conceal the defendant's evident guilt.,2018-08-18 23:10:36
+2565426396804705,Dae hyun,Kim,11177,2565426396804705,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-18 23:10:43
+2565426396804705,Dae hyun,Kim,11178,854518728062939,2565426396804705,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-08-18 23:10:44
+2565426396804705,Dae hyun,Kim,11179,854518728062939,2565426396804705,BOT: quick reply,":keycap_1: crafty
+:keycap_2: impromptu
+:keycap_3: deceptive
+:keycap_4: eloquent
+:keycap_5: lengthy
+",2018-08-18 23:10:46
+2565426396804705,Dae hyun,Kim,11180,2565426396804705,854518728062939,user_quick_reply: BUTTON_AKB_eloquent,:keycap_4:,2018-08-18 23:10:55
+2565426396804705,Dae hyun,Kim,11181,854518728062939,2565426396804705,BOT: image,https://www.smartprimer.org:443/pictures/avatar/congrats/penguinnormal_normal.png,2018-08-18 23:10:58
+2565426396804705,Dae hyun,Kim,11182,854518728062939,2565426396804705,BOT: message,Nice work! Keep it up!,2018-08-18 23:11:00
+2565426396804705,Dae hyun,Kim,11183,854518728062939,2565426396804705,BOT: quick reply,The correct answer is eloquent.,2018-08-18 23:11:01
+2565426396804705,Dae hyun,Kim,11184,2565426396804705,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-18 23:11:06
+2565426396804705,Dae hyun,Kim,11185,854518728062939,2565426396804705,BOT: message,Let's take a look at this question.,2018-08-18 23:11:08
+2565426396804705,Dae hyun,Kim,11186,854518728062939,2565426396804705,BOT: quick reply,"Despite the smile that spread from ear to ear, the eyes relayed a certain _____ .",2018-08-18 23:11:09
+2565426396804705,Dae hyun,Kim,11187,2565426396804705,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-18 23:11:16
+2565426396804705,Dae hyun,Kim,11188,854518728062939,2565426396804705,BOT: message,Okay. I'll give you some choices.,2018-08-18 23:11:17
+2565426396804705,Dae hyun,Kim,11189,854518728062939,2565426396804705,BOT: quick reply,":keycap_1: mischievousness
+:keycap_2: sorrow
+:keycap_3: vision
+:keycap_4: liveliness
+:keycap_5: jubilance
+",2018-08-18 23:11:19
+2565426396804705,Dae hyun,Kim,11190,2565426396804705,854518728062939,user_typing,Sorrow,2018-08-18 23:11:25
+2565426396804705,Dae hyun,Kim,11191,854518728062939,2565426396804705,BOT: message,Fantastic! :hundred_points:,2018-08-18 23:11:26
+2565426396804705,Dae hyun,Kim,11192,854518728062939,2565426396804705,BOT: quick reply,The correct answer is sorrow.,2018-08-18 23:11:28
+2565426396804705,Dae hyun,Kim,11193,2565426396804705,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-18 23:11:32
+2565426396804705,Dae hyun,Kim,11194,854518728062939,2565426396804705,BOT: message,Let's see if you can answer this question.,2018-08-18 23:11:34
+2565426396804705,Dae hyun,Kim,11195,854518728062939,2565426396804705,BOT: quick reply,The Erie Canal's completion caused _____ economic ripples; property values and industrial output along its route rose exponentially.,2018-08-18 23:11:35
+2565426396804705,Dae hyun,Kim,11196,2565426396804705,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-18 23:11:41
+2565426396804705,Dae hyun,Kim,11197,854518728062939,2565426396804705,BOT: message,Which of the following options is the right answer?,2018-08-18 23:11:42
+2565426396804705,Dae hyun,Kim,11198,854518728062939,2565426396804705,BOT: quick reply,":keycap_1: invaluable
+:keycap_2: incredulous
+:keycap_3: severe
+:keycap_4: persistent
+:keycap_5: prodigious
+",2018-08-18 23:11:44
+2565426396804705,Dae hyun,Kim,11199,2565426396804705,854518728062939,user_quick_reply: BUTTON_AKB_prodigious,:keycap_5:,2018-08-18 23:11:51
+2565426396804705,Dae hyun,Kim,11200,854518728062939,2565426396804705,BOT: message,Nice! That was right!,2018-08-18 23:11:53
+2565426396804705,Dae hyun,Kim,11201,854518728062939,2565426396804705,BOT: quick reply,The correct answer is prodigious.,2018-08-18 23:11:54
+2565426396804705,Dae hyun,Kim,11202,2565426396804705,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-18 23:12:00
+2565426396804705,Dae hyun,Kim,11203,854518728062939,2565426396804705,BOT: message,I think you'll like this question.,2018-08-18 23:12:02
+2565426396804705,Dae hyun,Kim,11204,854518728062939,2565426396804705,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-18 23:12:03
+2565426396804705,Dae hyun,Kim,11205,854518728062939,2565426396804705,BOT: quick reply,"Having squandered his life's savings on unprofitable business ventures, the _____ entrepreneur was forced to live in squalor.",2018-08-18 23:12:04
+2565426396804705,Dae hyun,Kim,11206,2565426396804705,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-18 23:12:10
+2565426396804705,Dae hyun,Kim,11207,854518728062939,2565426396804705,BOT: message,Okay. I'll give you some choices.,2018-08-18 23:12:11
+2565426396804705,Dae hyun,Kim,11208,854518728062939,2565426396804705,BOT: quick reply,":keycap_1: perturbed
+:keycap_2: eccentric
+:keycap_3: former
+:keycap_4: unlikely
+:keycap_5: insolvent
+",2018-08-18 23:12:13
+2565426396804705,Dae hyun,Kim,11209,2565426396804705,854518728062939,user_quick_reply: BUTTON_AKB_insolvent,:keycap_5:,2018-08-18 23:12:19
+2565426396804705,Dae hyun,Kim,11210,854518728062939,2565426396804705,BOT: message,Nice! That was right!,2018-08-18 23:12:20
+2565426396804705,Dae hyun,Kim,11211,854518728062939,2565426396804705,BOT: quick reply,The correct answer is insolvent.,2018-08-18 23:12:22
+2565426396804705,Dae hyun,Kim,11212,2565426396804705,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-18 23:12:28
+2565426396804705,Dae hyun,Kim,11213,854518728062939,2565426396804705,BOT: message,What about this next question:,2018-08-18 23:12:30
+2565426396804705,Dae hyun,Kim,11214,854518728062939,2565426396804705,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-18 23:12:31
+2565426396804705,Dae hyun,Kim,11215,854518728062939,2565426396804705,BOT: quick reply,"Dolly Madison, the wife of President James Madison, was known especially for her _____ , remaining calm even as the British invaded Washington D.C. during the War of 1812.",2018-08-18 23:12:33
+2565426396804705,Dae hyun,Kim,11216,2565426396804705,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-18 23:12:41
+2565426396804705,Dae hyun,Kim,11217,854518728062939,2565426396804705,BOT: message,It's one of the following choices.,2018-08-18 23:12:42
+2565426396804705,Dae hyun,Kim,11218,854518728062939,2565426396804705,BOT: quick reply,":keycap_1: impracticality
+:keycap_2: cynicism
+:keycap_3: equanimity
+:keycap_4: malevolence
+:keycap_5: zeal
+",2018-08-18 23:12:44
+2565426396804705,Dae hyun,Kim,11219,2565426396804705,854518728062939,user_quick_reply: BUTTON_AKB_equanimity,:keycap_3:,2018-08-18 23:12:51
+2565426396804705,Dae hyun,Kim,11220,854518728062939,2565426396804705,BOT: message,Great job getting the correct answer!,2018-08-18 23:12:53
+2565426396804705,Dae hyun,Kim,11221,854518728062939,2565426396804705,BOT: quick reply,The correct answer is equanimity.,2018-08-18 23:12:54
+2565426396804705,Dae hyun,Kim,11222,2565426396804705,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-18 23:12:59
+2565426396804705,Dae hyun,Kim,11223,854518728062939,2565426396804705,BOT: message,Let's see if you would answer this one.,2018-08-18 23:13:00
+2565426396804705,Dae hyun,Kim,11224,854518728062939,2565426396804705,BOT: quick reply,"Dolly Madison, the wife of President James Madison, was known especially for her _____ , remaining calm even as the British invaded Washington D.C. during the War of 1812.",2018-08-18 23:13:02
+2565426396804705,Dae hyun,Kim,11225,2565426396804705,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-18 23:13:07
+2565426396804705,Dae hyun,Kim,11226,854518728062939,2565426396804705,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-08-18 23:13:09
+2565426396804705,Dae hyun,Kim,11227,854518728062939,2565426396804705,BOT: quick reply,":keycap_1: impracticality
+:keycap_2: malevolence
+:keycap_3: zeal
+:keycap_4: cynicism
+:keycap_5: equanimity
+",2018-08-18 23:13:10
+2565426396804705,Dae hyun,Kim,11228,2565426396804705,854518728062939,user_quick_reply: BUTTON_AKB_equanimity,:keycap_5:,2018-08-18 23:13:17
+2565426396804705,Dae hyun,Kim,11229,854518728062939,2565426396804705,BOT: message,Great job!,2018-08-18 23:13:18
+2565426396804705,Dae hyun,Kim,11230,854518728062939,2565426396804705,BOT: quick reply,The correct answer is equanimity.,2018-08-18 23:13:20
+2565426396804705,Dae hyun,Kim,11231,2565426396804705,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-18 23:13:24
+2565426396804705,Dae hyun,Kim,11232,854518728062939,2565426396804705,BOT: message,"Alrighty, let's try this one.",2018-08-18 23:13:26
+2565426396804705,Dae hyun,Kim,11233,854518728062939,2565426396804705,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-18 23:13:28
+2565426396804705,Dae hyun,Kim,11234,854518728062939,2565426396804705,BOT: quick reply,"Possessing few natural resources upon its newly-granted independence in 1863, Singapore remained economically _____ until an influx of industrialization and foreign investment took hold there.",2018-08-18 23:13:29
+2565426396804705,Dae hyun,Kim,11235,2565426396804705,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-18 23:13:33
+2565426396804705,Dae hyun,Kim,11236,854518728062939,2565426396804705,BOT: message,Okay. I'll give you some choices.,2018-08-18 23:13:35
+2565426396804705,Dae hyun,Kim,11237,854518728062939,2565426396804705,BOT: quick reply,":keycap_1: powerful
+:keycap_2: solvent
+:keycap_3: dubious
+:keycap_4: fortuitous
+:keycap_5: prosperous
+",2018-08-18 23:13:36
+2565426396804705,Dae hyun,Kim,11238,2565426396804705,854518728062939,user_quick_reply: BUTTON_AKB_dubious,:keycap_3:,2018-08-18 23:13:42
+2565426396804705,Dae hyun,Kim,11239,854518728062939,2565426396804705,BOT: message,Great job getting the correct answer!,2018-08-18 23:13:43
+2565426396804705,Dae hyun,Kim,11240,854518728062939,2565426396804705,BOT: quick reply,The correct answer is dubious.,2018-08-18 23:13:45
+2565426396804705,Dae hyun,Kim,11241,2565426396804705,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-18 23:13:52
+2565426396804705,Dae hyun,Kim,11242,854518728062939,2565426396804705,BOT: message,Let's try this one.,2018-08-18 23:13:53
+2565426396804705,Dae hyun,Kim,11243,854518728062939,2565426396804705,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-18 23:13:55
+2565426396804705,Dae hyun,Kim,11244,854518728062939,2565426396804705,BOT: quick reply,"Despite what _____ philosophies of child-rearing suggest, there is no imperative that the day-to-day action of raising a child be simple, unambiguous and unchanging-no requirement, in other words, ensures that life follow philosophy.",2018-08-18 23:13:56
+2565426396804705,Dae hyun,Kim,11245,2565426396804705,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-18 23:14:04
+2565426396804705,Dae hyun,Kim,11246,854518728062939,2565426396804705,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-08-18 23:14:05
+2565426396804705,Dae hyun,Kim,11247,854518728062939,2565426396804705,BOT: quick reply,":keycap_1: random
+:keycap_2: shameless
+:keycap_3: systematic
+:keycap_4: aggressive
+:keycap_5: inexact
+",2018-08-18 23:14:07
+2565426396804705,Dae hyun,Kim,11248,2565426396804705,854518728062939,user_quick_reply: BUTTON_AKB_systematic,:keycap_3:,2018-08-18 23:14:15
+2565426396804705,Dae hyun,Kim,11249,854518728062939,2565426396804705,BOT: image,https://www.smartprimer.org:443/pictures/avatar/congrats/penguinnormal_happy_purple.png,2018-08-18 23:14:18
+2565426396804705,Dae hyun,Kim,11250,854518728062939,2565426396804705,BOT: message,Yes! You got the correct answer!,2018-08-18 23:14:19
+2565426396804705,Dae hyun,Kim,11251,854518728062939,2565426396804705,BOT: quick reply,The correct answer is systematic.,2018-08-18 23:14:20
+2565426396804705,Dae hyun,Kim,11252,2565426396804705,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-18 23:14:26
+2565426396804705,Dae hyun,Kim,11253,854518728062939,2565426396804705,BOT: message,Let's try this one.,2018-08-18 23:14:27
+2565426396804705,Dae hyun,Kim,11254,854518728062939,2565426396804705,BOT: quick reply,"Because he ate high-calorie snacks while riding the exercise bike, Julie ridiculed DeRay's workout philosophy as _____ .",2018-08-18 23:14:29
+2565426396804705,Dae hyun,Kim,11255,2565426396804705,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-18 23:14:35
+2565426396804705,Dae hyun,Kim,11256,854518728062939,2565426396804705,BOT: message,Pick one of the following answers.,2018-08-18 23:14:37
+2565426396804705,Dae hyun,Kim,11257,854518728062939,2565426396804705,BOT: quick reply,":keycap_1: fatuous
+:keycap_2: indolent
+:keycap_3: hackneyed
+:keycap_4: pithy
+:keycap_5: precarious
+",2018-08-18 23:14:38
+2565426396804705,Dae hyun,Kim,11258,2565426396804705,854518728062939,user_typing,Silly,2018-08-18 23:14:39
+2565426396804705,Dae hyun,Kim,11259,854518728062939,2565426396804705,BOT: message,That wasn't quite what we were looking for. :disappointed_face:,2018-08-18 23:14:41
+2565426396804705,Dae hyun,Kim,11260,854518728062939,2565426396804705,BOT: quick reply,The correct answer is fatuous.,2018-08-18 23:14:42
+2565426396804705,Dae hyun,Kim,11261,2565426396804705,854518728062939,user_quick_reply: WHY,Why?,2018-08-18 23:14:46
+2565426396804705,Dae hyun,Kim,11262,854518728062939,2565426396804705,BOT: message,This is an explanation of the question:,2018-08-18 23:14:47
+2565426396804705,Dae hyun,Kim,11263,854518728062939,2565426396804705,BOT: quick reply,:pushpin: Fatuous -- extremely silly or stupid,2018-08-18 23:14:49
+2565426396804705,Dae hyun,Kim,11296,2565426396804705,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-19 14:37:19
+2565426396804705,Dae hyun,Kim,11297,854518728062939,2565426396804705,BOT: message,Let's see if you can answer this question.,2018-08-19 14:37:21
+2565426396804705,Dae hyun,Kim,11298,854518728062939,2565426396804705,BOT: quick reply,Susan _____ the theater; she bought tickets for all the shows put on by the local drama group.,2018-08-19 14:37:22
+2565426396804705,Dae hyun,Kim,11299,2565426396804705,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-19 14:37:51
+2565426396804705,Dae hyun,Kim,11300,854518728062939,2565426396804705,BOT: message,Okay. I'll give you some choices.,2018-08-19 14:37:52
+2565426396804705,Dae hyun,Kim,11301,854518728062939,2565426396804705,BOT: quick reply,":keycap_1: managed
+:keycap_2: owned
+:keycap_3: abhorred
+:keycap_4: loathed
+:keycap_5: cherished
+",2018-08-19 14:37:54
+2565426396804705,Dae hyun,Kim,11302,2565426396804705,854518728062939,user_quick_reply: BUTTON_AKB_cherished,:keycap_5:,2018-08-19 14:38:00
+2565426396804705,Dae hyun,Kim,11303,854518728062939,2565426396804705,BOT: message,Yes! You got the correct answer!,2018-08-19 14:38:01
+2565426396804705,Dae hyun,Kim,11304,854518728062939,2565426396804705,BOT: quick reply,The correct answer is cherished.,2018-08-19 14:38:03
+2565426396804705,Dae hyun,Kim,11305,2565426396804705,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-19 14:38:09
+2565426396804705,Dae hyun,Kim,11306,854518728062939,2565426396804705,BOT: message,What about this next question:,2018-08-19 14:38:10
+2565426396804705,Dae hyun,Kim,11307,854518728062939,2565426396804705,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-19 14:38:12
+2565426396804705,Dae hyun,Kim,11308,854518728062939,2565426396804705,BOT: quick reply,"Now known as Administrative Professionals' Day, Secretaries' Day was created in 1952 by Harry F. Klemfuss, a public relations professional who _____ the value and significance of administrative assistants in order to attract more women to the profession.",2018-08-19 14:38:14
+2565426396804705,Dae hyun,Kim,11309,2565426396804705,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-19 14:38:33
+2565426396804705,Dae hyun,Kim,11310,854518728062939,2565426396804705,BOT: message,Which of the following options is the right answer?,2018-08-19 14:38:34
+2565426396804705,Dae hyun,Kim,11311,854518728062939,2565426396804705,BOT: quick reply,":keycap_1: refuted
+:keycap_2: proscribed
+:keycap_3: touted
+:keycap_4: admonished
+:keycap_5: undermined
+",2018-08-19 14:38:36
+2565426396804705,Dae hyun,Kim,11312,2565426396804705,854518728062939,user_quick_reply: BUTTON_DKB_proscribed,:keycap_2:,2018-08-19 14:38:47
+2565426396804705,Dae hyun,Kim,11313,854518728062939,2565426396804705,BOT: message,"Oops, that wasn't quite correct. :disappointed_face:",2018-08-19 14:38:48
+2565426396804705,Dae hyun,Kim,11314,854518728062939,2565426396804705,BOT: quick reply,The correct answer is touted.,2018-08-19 14:38:50
+2565426396804705,Dae hyun,Kim,11315,2565426396804705,854518728062939,user_quick_reply: WHY,Why?,2018-08-19 14:38:54
+2565426396804705,Dae hyun,Kim,11316,854518728062939,2565426396804705,BOT: message,Here's why:,2018-08-19 14:38:56
+2565426396804705,Dae hyun,Kim,11317,854518728062939,2565426396804705,BOT: quick reply,":pushpin: Touted -- advertize in strongly positive terms
+:pushpin: Proscribed -- excluded from use or mention
+:pushpin: Refuted -- overthrow by argument, evidence, or proof
+:pushpin: Undermined -- destroy property or hinder normal operations
+:pushpin: Admonished -- advise or counsel in terms of someone's behavior",2018-08-19 14:38:57
+2565426396804705,Dae hyun,Kim,11318,2565426396804705,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-19 14:39:15
+2565426396804705,Dae hyun,Kim,11319,854518728062939,2565426396804705,BOT: message,Would you answer this question for me?,2018-08-19 14:39:16
+2565426396804705,Dae hyun,Kim,11320,854518728062939,2565426396804705,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-19 14:39:18
+2565426396804705,Dae hyun,Kim,11321,854518728062939,2565426396804705,BOT: quick reply,"Despite being located in hot and sunny California, San Francisco is famous for its _____ weather, engendered by the confluence of two different meteorological systems in the Bay Area.",2018-08-19 14:39:19
+2565426396804705,Dae hyun,Kim,11322,2565426396804705,854518728062939,user_typing,Unfavorable,2018-08-19 14:39:34
+2565426396804705,Dae hyun,Kim,11323,854518728062939,2565426396804705,BOT: message,Thats right! :party_popper:,2018-08-19 14:39:35
+2565426396804705,Dae hyun,Kim,11324,854518728062939,2565426396804705,BOT: quick reply,The correct answer is adverse.,2018-08-19 14:39:37
+2565426396804705,Dae hyun,Kim,11325,2565426396804705,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-19 14:39:42
+2565426396804705,Dae hyun,Kim,11326,854518728062939,2565426396804705,BOT: message,Here's a question for you:,2018-08-19 14:39:43
+2565426396804705,Dae hyun,Kim,11327,854518728062939,2565426396804705,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-19 14:39:45
+2565426396804705,Dae hyun,Kim,11328,854518728062939,2565426396804705,BOT: quick reply,"Despite being located in hot and sunny California, San Francisco is famous for its _____ weather, engendered by the confluence of two different meteorological systems in the Bay Area.",2018-08-19 14:39:46
+2565426396804705,Dae hyun,Kim,11329,2565426396804705,854518728062939,user_typing,Adverse,2018-08-19 14:40:09
+2565426396804705,Dae hyun,Kim,11330,854518728062939,2565426396804705,BOT: message,Thats right! :party_popper:,2018-08-19 14:40:11
+2565426396804705,Dae hyun,Kim,11331,854518728062939,2565426396804705,BOT: quick reply,The correct answer is adverse.,2018-08-19 14:40:12
+2565426396804705,Dae hyun,Kim,11332,2565426396804705,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-19 14:40:16
+2565426396804705,Dae hyun,Kim,11333,854518728062939,2565426396804705,BOT: message,Let's see if you can get this one.,2018-08-19 14:40:18
+2565426396804705,Dae hyun,Kim,11334,854518728062939,2565426396804705,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-19 14:40:20
+2565426396804705,Dae hyun,Kim,11335,854518728062939,2565426396804705,BOT: quick reply,"Currently _____ in philately, Roger decided to pursue his new hobby because he had already become an expert numismatist.",2018-08-19 14:40:21
+2565426396804705,Dae hyun,Kim,11336,2565426396804705,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-19 14:40:26
+2565426396804705,Dae hyun,Kim,11337,854518728062939,2565426396804705,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-08-19 14:40:27
+2565426396804705,Dae hyun,Kim,11338,854518728062939,2565426396804705,BOT: quick reply,":keycap_1: an eccentric
+:keycap_2: a specialist
+:keycap_3: a mentor
+:keycap_4: a dilettante
+:keycap_5: a philanderer
+",2018-08-19 14:40:29
+2565426396804705,Dae hyun,Kim,11339,2565426396804705,854518728062939,user_quick_reply: BUTTON_DKB_a philanderer,:keycap_5:,2018-08-19 14:40:48
+2565426396804705,Dae hyun,Kim,11340,854518728062939,2565426396804705,BOT: message,"I'm sorry, but that was incorrect. :disappointed_face:",2018-08-19 14:40:49
+2565426396804705,Dae hyun,Kim,11341,854518728062939,2565426396804705,BOT: quick reply,The correct answer is a dilettante.,2018-08-19 14:40:50
+2565426396804705,Dae hyun,Kim,11342,2565426396804705,854518728062939,user_quick_reply: WHY,Why?,2018-08-19 14:40:56
+2565426396804705,Dae hyun,Kim,11343,854518728062939,2565426396804705,BOT: message,Here's an explanation:,2018-08-19 14:40:57
+2565426396804705,Dae hyun,Kim,11344,854518728062939,2565426396804705,BOT: quick reply,":pushpin: Dilettante -- a person who takes up an art, activity, or subject merely for amusement, especially in a desultory or superficial way
+:pushpin: Philanderer -- a man who makes love with a woman he cannot or will not marry
+:pushpin: Mentor -- a wise and trusted counselor or teacher
+:pushpin: Specialist -- a person who devotes himself or herself to one subject or to one particular branch of a subject or pursuit
+:pushpin: Eccentric -- a person who has an unusual, peculiar, or odd personality, set of beliefs, or behavior pattern",2018-08-19 14:40:59
+2565426396804705,Dae hyun,Kim,11345,2565426396804705,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-19 14:41:29
+2565426396804705,Dae hyun,Kim,11346,854518728062939,2565426396804705,BOT: message,Let's see if you would answer this one.,2018-08-19 14:41:31
+2565426396804705,Dae hyun,Kim,11347,854518728062939,2565426396804705,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-19 14:41:32
+2565426396804705,Dae hyun,Kim,11348,854518728062939,2565426396804705,BOT: quick reply,Some historians see the Jacksonians as little more than ruthless capitalists who had _____ regard for individual welfare.,2018-08-19 14:41:33
+2565426396804705,Dae hyun,Kim,11349,2565426396804705,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-19 14:41:45
+2565426396804705,Dae hyun,Kim,11350,854518728062939,2565426396804705,BOT: message,Okay. I'll give you some choices.,2018-08-19 14:41:46
+2565426396804705,Dae hyun,Kim,11351,854518728062939,2565426396804705,BOT: quick reply,":keycap_1: inconsistent
+:keycap_2: undue
+:keycap_3: obtrusive
+:keycap_4: scant
+:keycap_5: mixed
+",2018-08-19 14:41:48
+2565426396804705,Dae hyun,Kim,11352,2565426396804705,854518728062939,user_typing,Little,2018-08-19 14:41:49
+2565426396804705,Dae hyun,Kim,11353,854518728062939,2565426396804705,BOT: message,"Oops, that answer was incorrect. :disappointed_face:",2018-08-19 14:41:50
+2565426396804705,Dae hyun,Kim,11354,854518728062939,2565426396804705,BOT: quick reply,The correct answer is scant.,2018-08-19 14:41:52
+2565426396804705,Dae hyun,Kim,11355,2565426396804705,854518728062939,user_quick_reply: WHY,Why?,2018-08-19 14:42:07
+2565426396804705,Dae hyun,Kim,11356,854518728062939,2565426396804705,BOT: message,Here's an explanation:,2018-08-19 14:42:08
+2565426396804705,Dae hyun,Kim,11357,854518728062939,2565426396804705,BOT: quick reply,:pushpin: Scant -- less than the correct or legal or full amount often deliberately so,2018-08-19 14:42:10
+2565426396804705,Dae hyun,Kim,11382,854518728062939,2565426396804705,BOT: quick reply,"Hi Dae hyun, you haven't talked to me for a while. Would you like to resume the learning with me?",2018-08-19 20:00:29
+2565426396804705,Dae hyun,Kim,11384,2565426396804705,854518728062939,user_quick_reply: NEXT_QUESTION,Next :thumbs_up_medium-light_skin_tone:,2018-08-19 21:27:49
+2565426396804705,Dae hyun,Kim,11385,854518728062939,2565426396804705,BOT: message,Let's take a look at this question.,2018-08-19 21:27:51
+2565426396804705,Dae hyun,Kim,11386,854518728062939,2565426396804705,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-19 21:27:52
+2565426396804705,Dae hyun,Kim,11387,854518728062939,2565426396804705,BOT: quick reply,"Certainly a roundabout narrative, the book - much like the others in the author's pseudo-autobiographical series - proved to be unpopular among those who preferred _____ to loquaciousness.",2018-08-19 21:27:53
+2565426396804705,Dae hyun,Kim,11388,2565426396804705,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-19 21:28:14
+2565426396804705,Dae hyun,Kim,11389,854518728062939,2565426396804705,BOT: message,Pick one of the following answers.,2018-08-19 21:28:15
+2565426396804705,Dae hyun,Kim,11390,854518728062939,2565426396804705,BOT: quick reply,":keycap_1: gregariousness
+:keycap_2: enlargement
+:keycap_3: perspicacity
+:keycap_4: garrulousness
+:keycap_5: succinctness
+",2018-08-19 21:28:16
+2565426396804705,Dae hyun,Kim,11391,2565426396804705,854518728062939,user_quick_reply: BUTTON_AKB_succinctness,:keycap_5:,2018-08-19 21:28:22
+2565426396804705,Dae hyun,Kim,11392,854518728062939,2565426396804705,BOT: message,Nice! That was right!,2018-08-19 21:28:23
+2565426396804705,Dae hyun,Kim,11393,854518728062939,2565426396804705,BOT: quick reply,The correct answer is succinctness.,2018-08-19 21:28:25
+2565426396804705,Dae hyun,Kim,11394,2565426396804705,854518728062939,user_quick_reply: SWITCH_SUBJECT,Change subject :shuffle_tracks_button:,2018-08-19 21:28:34
+2565426396804705,Dae hyun,Kim,11395,854518728062939,2565426396804705,BOT: quick reply,"OK, which of the following subjects would you like to study?:backhand_index_pointing_down_medium-light_skin_tone:",2018-08-19 21:28:36
+2565426396804705,Dae hyun,Kim,11396,2565426396804705,854518728062939,user_quick_reply: SCIENCE,Science:microscope:,2018-08-19 21:28:43
+2565426396804705,Dae hyun,Kim,11397,854518728062939,2565426396804705,BOT: image,https://www.smartprimer.org:443/pictures/avatar/evolvereading_scientist.gif,2018-08-19 21:28:48
+2565426396804705,Dae hyun,Kim,11398,854518728062939,2565426396804705,BOT: quick reply,Science rules! Let's see what you know.,2018-08-19 21:28:50
+2565426396804705,Dae hyun,Kim,11399,2565426396804705,854518728062939,user_quick_reply: NEXT_QUESTION,Tap me :backhand_index_pointing_right_medium-light_skin_tone:,2018-08-19 21:28:59
+2565426396804705,Dae hyun,Kim,11400,854518728062939,2565426396804705,BOT: message,Here's a question for you:,2018-08-19 21:29:00
+2565426396804705,Dae hyun,Kim,11401,854518728062939,2565426396804705,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-19 21:29:02
+2565426396804705,Dae hyun,Kim,11402,854518728062939,2565426396804705,BOT: quick reply,What are the little sacs at the end of the bronchioles called?,2018-08-19 21:29:03
+2565426396804705,Dae hyun,Kim,11403,2565426396804705,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-19 21:29:09
+2565426396804705,Dae hyun,Kim,11404,854518728062939,2565426396804705,BOT: message,It's one of the following choices.,2018-08-19 21:29:10
+2565426396804705,Dae hyun,Kim,11405,854518728062939,2565426396804705,BOT: quick reply,":keycap_1: lung
+:keycap_2: respiratory sacs
+:keycap_3: alveoli
+:keycap_4: ganglion
+",2018-08-19 21:29:12
+2565426396804705,Dae hyun,Kim,11406,2565426396804705,854518728062939,user_quick_reply: BUTTON_DKB_respiratory sacs,:keycap_2:,2018-08-19 21:29:19
+2565426396804705,Dae hyun,Kim,11407,854518728062939,2565426396804705,BOT: message,"Oops, that wasn't quite correct. :disappointed_face:",2018-08-19 21:29:20
+2565426396804705,Dae hyun,Kim,11408,854518728062939,2565426396804705,BOT: quick reply,The correct answer is alveoli.,2018-08-19 21:29:22
+2565426396804705,Dae hyun,Kim,11409,2565426396804705,854518728062939,user_quick_reply: WHY,Why?,2018-08-19 21:29:28
+2565426396804705,Dae hyun,Kim,11410,854518728062939,2565426396804705,BOT: message,Here's why:,2018-08-19 21:29:29
+2565426396804705,Dae hyun,Kim,11411,854518728062939,2565426396804705,BOT: quick reply,"The bronchioles lead to the alveoli. Alveoli are the little sacs at the end of the bronchioles. They look like little bunches of grapes. Oxygen is exchanged for carbon dioxide in the alveoli. That means oxygen enters the blood, and carbon dioxide moves out of the blood. The gases are exchanged between the blood and alveoli by simple diffusion.",2018-08-19 21:29:31
+2565426396804705,Dae hyun,Kim,11873,854518728062939,2565426396804705,BOT: quick reply,"Hi Dae hyun, you haven't talked to me for a while. Would you like to resume the learning with me?",2018-08-20 20:01:00
+2565426396804705,Dae hyun,Kim,11914,2565426396804705,854518728062939,user_quick_reply: NEXT_QUESTION,Sure :oncoming_fist_medium-light_skin_tone:,2018-08-20 20:18:51
+2565426396804705,Dae hyun,Kim,11915,854518728062939,2565426396804705,BOT: message,What about this next question:,2018-08-20 20:18:53
+2565426396804705,Dae hyun,Kim,11916,854518728062939,2565426396804705,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-20 20:18:54
+2565426396804705,Dae hyun,Kim,11917,854518728062939,2565426396804705,BOT: quick reply,What broad group of animals are the first true tetrapods?,2018-08-20 20:18:56
+2565426396804705,Dae hyun,Kim,11918,2565426396804705,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-20 20:19:03
+2565426396804705,Dae hyun,Kim,11919,854518728062939,2565426396804705,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-08-20 20:19:05
+2565426396804705,Dae hyun,Kim,11920,854518728062939,2565426396804705,BOT: quick reply,":keycap_1: reptiles
+:keycap_2: amphibians
+:keycap_3: mammals
+:keycap_4: fish
+",2018-08-20 20:19:06
+2565426396804705,Dae hyun,Kim,11924,2565426396804705,854518728062939,user_quick_reply: BUTTON_AKB_amphibians,:keycap_2:,2018-08-20 20:19:11
+2565426396804705,Dae hyun,Kim,11925,854518728062939,2565426396804705,BOT: message,Nice! That was right!,2018-08-20 20:19:12
+2565426396804705,Dae hyun,Kim,11927,854518728062939,2565426396804705,BOT: quick reply,The correct answer is amphibians.,2018-08-20 20:19:14
+2565426396804705,Dae hyun,Kim,11930,2565426396804705,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-20 20:19:18
+2565426396804705,Dae hyun,Kim,11932,854518728062939,2565426396804705,BOT: message,Let's see if you would answer this one.,2018-08-20 20:19:20
+2565426396804705,Dae hyun,Kim,11934,854518728062939,2565426396804705,BOT: quick reply,All organisms can be classified into one of three of this least specific grouping?,2018-08-20 20:19:21
+2565426396804705,Dae hyun,Kim,11935,2565426396804705,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-20 20:19:32
+2565426396804705,Dae hyun,Kim,11936,854518728062939,2565426396804705,BOT: message,Pick one of the following answers.,2018-08-20 20:19:33
+2565426396804705,Dae hyun,Kim,11937,854518728062939,2565426396804705,BOT: quick reply,":keycap_1: phlylum
+:keycap_2: domains
+:keycap_3: species
+:keycap_4: aspects
+",2018-08-20 20:19:35
+2565426396804705,Dae hyun,Kim,11940,2565426396804705,854518728062939,user_quick_reply: BUTTON_DKB_phlylum,:keycap_1:,2018-08-20 20:19:40
+2565426396804705,Dae hyun,Kim,11942,854518728062939,2565426396804705,BOT: message,"Oops, that is not correct. :disappointed_face:",2018-08-20 20:19:41
+2565426396804705,Dae hyun,Kim,11943,854518728062939,2565426396804705,BOT: quick reply,The correct answer is domains.,2018-08-20 20:19:42
+2565426396804705,Dae hyun,Kim,11944,2565426396804705,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-20 20:19:47
+2565426396804705,Dae hyun,Kim,11945,854518728062939,2565426396804705,BOT: message,Let's take a look at this question.,2018-08-20 20:19:48
+2565426396804705,Dae hyun,Kim,11946,854518728062939,2565426396804705,BOT: quick reply,What forms when nitrogen and sulfur oxides in air dissolve in rain?,2018-08-20 20:19:50
+2565426396804705,Dae hyun,Kim,11947,2565426396804705,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-20 20:19:55
+2565426396804705,Dae hyun,Kim,11948,854518728062939,2565426396804705,BOT: message,Which of the following options is the right answer?,2018-08-20 20:19:57
+2565426396804705,Dae hyun,Kim,11950,854518728062939,2565426396804705,BOT: quick reply,":keycap_1: carbon rain
+:keycap_2: acid snow
+:keycap_3: acid rain
+:keycap_4: dioxide rain
+",2018-08-20 20:19:58
+2565426396804705,Dae hyun,Kim,11952,2565426396804705,854518728062939,user_quick_reply: BUTTON_AKB_acid rain,:keycap_3:,2018-08-20 20:20:04
+2565426396804705,Dae hyun,Kim,11954,854518728062939,2565426396804705,BOT: message,Great job!,2018-08-20 20:20:05
+2565426396804705,Dae hyun,Kim,11955,854518728062939,2565426396804705,BOT: quick reply,The correct answer is acid rain.,2018-08-20 20:20:07
+2565426396804705,Dae hyun,Kim,11958,2565426396804705,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-20 20:20:11
+2565426396804705,Dae hyun,Kim,11960,854518728062939,2565426396804705,BOT: message,Could you answer this one for me?,2018-08-20 20:20:13
+2565426396804705,Dae hyun,Kim,11962,854518728062939,2565426396804705,BOT: quick reply,What are the hormones that cause a plant to grow?,2018-08-20 20:20:14
+2565426396804705,Dae hyun,Kim,11967,2565426396804705,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-20 20:20:20
+2565426396804705,Dae hyun,Kim,11969,854518728062939,2565426396804705,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-08-20 20:20:21
+2565426396804705,Dae hyun,Kim,11970,854518728062939,2565426396804705,BOT: quick reply,":keycap_1: pores
+:keycap_2: sporozoans
+:keycap_3: pistills
+:keycap_4: gibberellins
+",2018-08-20 20:20:23
+2565426396804705,Dae hyun,Kim,11971,2565426396804705,854518728062939,user_quick_reply: BUTTON_DKB_sporozoans,:keycap_2:,2018-08-20 20:20:29
+2565426396804705,Dae hyun,Kim,11973,854518728062939,2565426396804705,BOT: message,"Hmm, that wasn't quite right. :disappointed_face:",2018-08-20 20:20:31
+2565426396804705,Dae hyun,Kim,11974,854518728062939,2565426396804705,BOT: quick reply,The correct answer is gibberellins.,2018-08-20 20:20:32
+2565426396804705,Dae hyun,Kim,11976,2565426396804705,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-20 20:20:37
+2565426396804705,Dae hyun,Kim,11978,854518728062939,2565426396804705,BOT: message,Let's see if you can get this one.,2018-08-20 20:20:38
+2565426396804705,Dae hyun,Kim,11979,854518728062939,2565426396804705,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-20 20:20:39
+2565426396804705,Dae hyun,Kim,11981,854518728062939,2565426396804705,BOT: quick reply,What type of bonds are formed by the side-to-side overlap of p orbitals?,2018-08-20 20:20:41
+2565426396804705,Dae hyun,Kim,11985,2565426396804705,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-20 20:20:57
+2565426396804705,Dae hyun,Kim,11986,854518728062939,2565426396804705,BOT: message,Pick one of the following answers.,2018-08-20 20:20:58
+2565426396804705,Dae hyun,Kim,11987,854518728062939,2565426396804705,BOT: quick reply,":keycap_1: omega bonds
+:keycap_2: sigma bonds
+:keycap_3: theta bonds
+:keycap_4: pi bonds
+",2018-08-20 20:21:00
+2565426396804705,Dae hyun,Kim,11988,2565426396804705,854518728062939,user_quick_reply: BUTTON_AKB_pi bonds,:keycap_4:,2018-08-20 20:21:30
+2565426396804705,Dae hyun,Kim,11990,854518728062939,2565426396804705,BOT: image,https://www.smartprimer.org:443/pictures/avatar/congrats/penguinnormal_jubilated_purple.png,2018-08-20 20:21:33
+2565426396804705,Dae hyun,Kim,11992,854518728062939,2565426396804705,BOT: message,Yes! You got the correct answer!,2018-08-20 20:21:35
+2565426396804705,Dae hyun,Kim,11994,854518728062939,2565426396804705,BOT: quick reply,The correct answer is pi bonds.,2018-08-20 20:21:36
+2565426396804705,Dae hyun,Kim,11998,2565426396804705,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-20 20:21:41
+2565426396804705,Dae hyun,Kim,11999,854518728062939,2565426396804705,BOT: message,"Alrighty, let's try this one.",2018-08-20 20:21:43
+2565426396804705,Dae hyun,Kim,12000,854518728062939,2565426396804705,BOT: quick reply,The strength of a base depends on the concentration of _______ it produces when dissolved in water?,2018-08-20 20:21:44
+2565426396804705,Dae hyun,Kim,12003,2565426396804705,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-20 20:21:50
+2565426396804705,Dae hyun,Kim,12005,854518728062939,2565426396804705,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-08-20 20:21:52
+2565426396804705,Dae hyun,Kim,12007,854518728062939,2565426396804705,BOT: quick reply,":keycap_1: monoxide ions
+:keycap_2: combustion ions
+:keycap_3: hydroxide ions
+:keycap_4: calcium ions
+",2018-08-20 20:21:53
+2565426396804705,Dae hyun,Kim,12008,2565426396804705,854518728062939,user_quick_reply: BUTTON_AKB_hydroxide ions,:keycap_3:,2018-08-20 20:21:59
+2565426396804705,Dae hyun,Kim,12009,854518728062939,2565426396804705,BOT: image,https://www.smartprimer.org:443/pictures/avatar/congrats/penguinnormal_normal_pink.png,2018-08-20 20:22:01
+2565426396804705,Dae hyun,Kim,12010,854518728062939,2565426396804705,BOT: message,Great! Keep it up! :flexed_biceps_medium-light_skin_tone:,2018-08-20 20:22:03
+2565426396804705,Dae hyun,Kim,12011,854518728062939,2565426396804705,BOT: quick reply,The correct answer is hydroxide ions.,2018-08-20 20:22:04
+2565426396804705,Dae hyun,Kim,12012,2565426396804705,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-20 20:22:11
+2565426396804705,Dae hyun,Kim,12013,854518728062939,2565426396804705,BOT: message,"Alrighty, let's try this one.",2018-08-20 20:22:13
+2565426396804705,Dae hyun,Kim,12014,854518728062939,2565426396804705,BOT: quick reply,What are the hormones that cause a plant to grow?,2018-08-20 20:22:14
+2565426396804705,Dae hyun,Kim,12015,2565426396804705,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-20 20:22:19
+2565426396804705,Dae hyun,Kim,12016,854518728062939,2565426396804705,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-08-20 20:22:21
+2565426396804705,Dae hyun,Kim,12017,854518728062939,2565426396804705,BOT: quick reply,":keycap_1: gibberellins
+:keycap_2: pores
+:keycap_3: pistills
+:keycap_4: sporozoans
+",2018-08-20 20:22:22
+2565426396804705,Dae hyun,Kim,12018,2565426396804705,854518728062939,user_quick_reply: BUTTON_DKB_sporozoans,:keycap_4:,2018-08-20 20:22:26
+2565426396804705,Dae hyun,Kim,12019,854518728062939,2565426396804705,BOT: message,"Oops, that wasn't quite correct. :disappointed_face:",2018-08-20 20:22:28
+2565426396804705,Dae hyun,Kim,12020,854518728062939,2565426396804705,BOT: quick reply,The correct answer is gibberellins.,2018-08-20 20:22:29
+2565426396804705,Dae hyun,Kim,12024,2565426396804705,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-20 20:22:33
+2565426396804705,Dae hyun,Kim,12025,854518728062939,2565426396804705,BOT: message,Let's see if you can get this one.,2018-08-20 20:22:35
+2565426396804705,Dae hyun,Kim,12027,854518728062939,2565426396804705,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-20 20:22:36
+2565426396804705,Dae hyun,Kim,12029,854518728062939,2565426396804705,BOT: quick reply,Dynamite is an example of what type of potential energy?,2018-08-20 20:22:38
+2565426396804705,Dae hyun,Kim,12032,2565426396804705,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-20 20:22:44
+2565426396804705,Dae hyun,Kim,12033,854518728062939,2565426396804705,BOT: message,Okay. I'll give you some choices.,2018-08-20 20:22:45
+2565426396804705,Dae hyun,Kim,12034,854518728062939,2565426396804705,BOT: quick reply,":keycap_1: carbon
+:keycap_2: mineral
+:keycap_3: chemical
+:keycap_4: thermal
+",2018-08-20 20:22:47
+2565426396804705,Dae hyun,Kim,12035,2565426396804705,854518728062939,user_quick_reply: BUTTON_AKB_chemical,:keycap_3:,2018-08-20 20:22:51
+2565426396804705,Dae hyun,Kim,12037,854518728062939,2565426396804705,BOT: message,Great! Keep it up! :flexed_biceps_medium-light_skin_tone:,2018-08-20 20:22:53
+2565426396804705,Dae hyun,Kim,12039,854518728062939,2565426396804705,BOT: quick reply,The correct answer is chemical.,2018-08-20 20:22:55
+2565426396804705,Dae hyun,Kim,12041,2565426396804705,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-20 20:22:59
+2565426396804705,Dae hyun,Kim,12042,854518728062939,2565426396804705,BOT: message,What about this next question:,2018-08-20 20:23:01
+2565426396804705,Dae hyun,Kim,12043,854518728062939,2565426396804705,BOT: quick reply,What cells are the basis of nervous tissue?,2018-08-20 20:23:02
+2565426396804705,Dae hyun,Kim,12048,2565426396804705,854518728062939,user_typing,Neuron,2018-08-20 20:23:13
+2565426396804705,Dae hyun,Kim,12049,854518728062939,2565426396804705,BOT: message,Great! Keep it up! :flexed_biceps_medium-light_skin_tone:,2018-08-20 20:23:14
+2565426396804705,Dae hyun,Kim,12051,854518728062939,2565426396804705,BOT: quick reply,The correct answer is neurons.,2018-08-20 20:23:16
+2565426396804705,Dae hyun,Kim,12055,2565426396804705,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-20 20:23:21
+2565426396804705,Dae hyun,Kim,12056,854518728062939,2565426396804705,BOT: message,Could you answer this one for me?,2018-08-20 20:23:22
+2565426396804705,Dae hyun,Kim,12057,854518728062939,2565426396804705,BOT: quick reply,What broad animal group is thought to have evolved from theropod dinosaurs around 150 million years ago?,2018-08-20 20:23:23
+2565426396804705,Dae hyun,Kim,12058,2565426396804705,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-20 20:23:28
+2565426396804705,Dae hyun,Kim,12059,854518728062939,2565426396804705,BOT: message,Which of the following options is the right answer?,2018-08-20 20:23:29
+2565426396804705,Dae hyun,Kim,12060,854518728062939,2565426396804705,BOT: quick reply,":keycap_1: birds
+:keycap_2: reptiles
+:keycap_3: insects
+:keycap_4: mammals
+",2018-08-20 20:23:31
+2565426396804705,Dae hyun,Kim,12061,2565426396804705,854518728062939,user_quick_reply: BUTTON_AKB_birds,:keycap_1:,2018-08-20 20:23:35
+2565426396804705,Dae hyun,Kim,12062,854518728062939,2565426396804705,BOT: message,Great job getting the correct answer!,2018-08-20 20:23:37
+2565426396804705,Dae hyun,Kim,12063,854518728062939,2565426396804705,BOT: quick reply,The correct answer is birds.,2018-08-20 20:23:38
+2565426396804705,Dae hyun,Kim,12064,2565426396804705,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-20 20:23:43
+2565426396804705,Dae hyun,Kim,12065,854518728062939,2565426396804705,BOT: message,How about this next one:,2018-08-20 20:23:45
+2565426396804705,Dae hyun,Kim,12066,854518728062939,2565426396804705,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-20 20:23:46
+2565426396804705,Dae hyun,Kim,12067,854518728062939,2565426396804705,BOT: quick reply,What is the most abundant metal of the earth's crust?,2018-08-20 20:23:48
+2565426396804705,Dae hyun,Kim,12068,2565426396804705,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-20 20:23:53
+2565426396804705,Dae hyun,Kim,12069,854518728062939,2565426396804705,BOT: message,Okay. I'll give you some choices.,2018-08-20 20:23:55
+2565426396804705,Dae hyun,Kim,12070,854518728062939,2565426396804705,BOT: quick reply,":keycap_1: calcium
+:keycap_2: aluminum
+:keycap_3: magnetite
+:keycap_4: copper
+",2018-08-20 20:23:56
+2565426396804705,Dae hyun,Kim,12071,2565426396804705,854518728062939,user_quick_reply: BUTTON_AKB_aluminum,:keycap_2:,2018-08-20 20:24:01
+2565426396804705,Dae hyun,Kim,12072,854518728062939,2565426396804705,BOT: image,https://www.smartprimer.org:443/pictures/avatar/congrats/penguinnormal_happy_cyan.png,2018-08-20 20:24:04
+2565426396804705,Dae hyun,Kim,12073,854518728062939,2565426396804705,BOT: message,Yes! You got the correct answer!,2018-08-20 20:24:06
+2565426396804705,Dae hyun,Kim,12075,854518728062939,2565426396804705,BOT: quick reply,The correct answer is aluminum.,2018-08-20 20:24:07
+2565426396804705,Dae hyun,Kim,12435,854518728062939,2565426396804705,BOT: quick reply,"Hi Dae hyun, you haven't talked to me for a while. Would you like to resume the learning with me?",2018-08-21 20:01:34

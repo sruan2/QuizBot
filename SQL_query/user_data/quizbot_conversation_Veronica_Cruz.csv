@@ -1,1 +1,749 @@
 user_id,user_firstname,user_lastname,uid,sender,recipient,type,dialogue,time_stamp
+2137343466337341,Veronica,Cruz,3444,2137343466337341,854518728062939,persistent_menu: GET_INTRO_1,Get Started,2018-08-07 16:29:38
+2137343466337341,Veronica,Cruz,3445,854518728062939,2137343466337341,BOT: image,https://www.smartprimer.org:443/pictures/avatar/quizbot_avatar.png,2018-08-07 16:29:43
+2137343466337341,Veronica,Cruz,3446,854518728062939,2137343466337341,BOT: quick reply,"Hi Veronica! My name is Frosty :penguin: and Im here to help you learn all about science:microscope:, verbal reasoning (GRE) :input_latin_uppercase:, and safety:hammer_and_wrench:!",2018-08-07 16:29:45
+2137343466337341,Veronica,Cruz,3447,854518728062939,2137343466337341,BOT: message,Heres how it works.,2018-08-07 16:37:26
+2137343466337341,Veronica,Cruz,3448,854518728062939,2137343466337341,BOT: message,"I ask you questions, and you give me answers.",2018-08-07 16:37:27
+2137343466337341,Veronica,Cruz,3449,854518728062939,2137343466337341,BOT: quick reply,We will learn fun things together!,2018-08-07 16:37:28
+2137343466337341,Veronica,Cruz,3450,2137343466337341,854518728062939,user_quick_reply: GET_INTRO_3,Alright :light_bulb:,2018-08-07 16:37:34
+2137343466337341,Veronica,Cruz,3451,854518728062939,2137343466337341,BOT: image,https://www.smartprimer.org:443/pictures/user_manual/typeanswer.png,2018-08-07 16:37:37
+2137343466337341,Veronica,Cruz,3452,854518728062939,2137343466337341,BOT: quick reply,"To study the questions, you can type in your answers in the text field and I will evaluate the answers for you using advanced NLP (Natural Language Processing) technology.",2018-08-07 16:37:39
+2137343466337341,Veronica,Cruz,3453,2137343466337341,854518728062939,user_quick_reply: GET_INTRO_4,Alright :light_bulb:,2018-08-07 16:37:50
+2137343466337341,Veronica,Cruz,3454,854518728062939,2137343466337341,BOT: image,https://www.smartprimer.org:443/pictures/user_manual/needhintbutton.png,2018-08-07 16:37:53
+2137343466337341,Veronica,Cruz,3455,854518728062939,2137343466337341,BOT: quick reply,"If you don't know the answers, then feel free to tap on the hint button.",2018-08-07 16:37:54
+2137343466337341,Veronica,Cruz,3456,2137343466337341,854518728062939,user_quick_reply: GET_INTRO_5,Alrighty :oncoming_fist_medium-light_skin_tone:,2018-08-07 16:37:59
+2137343466337341,Veronica,Cruz,3457,854518728062939,2137343466337341,BOT: image,https://www.smartprimer.org:443/pictures/user_manual/hintoptions.png,2018-08-07 16:38:03
+2137343466337341,Veronica,Cruz,3458,854518728062939,2137343466337341,BOT: quick reply,The hint will give you a list of potential answers and you can select one from them.,2018-08-07 16:38:04
+2137343466337341,Veronica,Cruz,3459,2137343466337341,854518728062939,user_quick_reply: GET_INTRO_6,I see :raising_hands_medium-light_skin_tone:,2018-08-07 16:38:53
+2137343466337341,Veronica,Cruz,3460,854518728062939,2137343466337341,BOT: image,https://www.smartprimer.org:443/pictures/user_manual/menubutton.jpg,2018-08-07 16:38:56
+2137343466337341,Veronica,Cruz,3461,854518728062939,2137343466337341,BOT: quick reply,"To discover more abilities of me, you can click on the menu button.:backhand_index_pointing_up_medium-light_skin_tone:",2018-08-07 16:38:58
+2137343466337341,Veronica,Cruz,3462,2137343466337341,854518728062939,user_quick_reply: GET_READY,Continue :white_heavy_check_mark:,2018-08-07 16:39:10
+2137343466337341,Veronica,Cruz,3463,854518728062939,2137343466337341,BOT: message,I hope you enjoy the learning journey! :hundred_points:,2018-08-07 16:39:12
+2137343466337341,Veronica,Cruz,3464,854518728062939,2137343466337341,BOT: quick reply,"So, are you ready?",2018-08-07 16:39:13
+2137343466337341,Veronica,Cruz,3465,2137343466337341,854518728062939,user_quick_reply: YUP_IM_READY,Yup! I'm ready! :raised_fist_medium-light_skin_tone:,2018-08-07 16:39:17
+2137343466337341,Veronica,Cruz,3466,854518728062939,2137343466337341,BOT: message,Great!,2018-08-07 16:39:19
+2137343466337341,Veronica,Cruz,3467,854518728062939,2137343466337341,BOT: quick reply,Lets get started :rocket:,2018-08-07 16:39:20
+2137343466337341,Veronica,Cruz,3468,2137343466337341,854518728062939,user_quick_reply: SWITCH_SUBJECT,Quiz me :nerd_face:,2018-08-07 16:39:35
+2137343466337341,Veronica,Cruz,3469,854518728062939,2137343466337341,BOT: quick reply,"Cool, which subject do you want to study?:backhand_index_pointing_down_medium-light_skin_tone:",2018-08-07 16:39:37
+2137343466337341,Veronica,Cruz,3470,2137343466337341,854518728062939,user_quick_reply: SAFETY,Safety:hammer_and_wrench:,2018-08-07 16:39:51
+2137343466337341,Veronica,Cruz,3471,854518728062939,2137343466337341,BOT: quick reply,Good choice! Let's see what you know about safety!,2018-08-07 16:39:53
+2137343466337341,Veronica,Cruz,3472,2137343466337341,854518728062939,user_quick_reply: NEXT_QUESTION,Alrighty :round_pushpin:,2018-08-07 16:39:57
+2137343466337341,Veronica,Cruz,3473,854518728062939,2137343466337341,BOT: message,Here's a question for you:,2018-08-07 16:39:58
+2137343466337341,Veronica,Cruz,3474,854518728062939,2137343466337341,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-07 16:40:00
+2137343466337341,Veronica,Cruz,3475,854518728062939,2137343466337341,BOT: quick reply,What is the maximum amount of time perishable food should be left out?,2018-08-07 16:40:01
+2137343466337341,Veronica,Cruz,3476,2137343466337341,854518728062939,user_typing,A year,2018-08-07 16:40:11
+2137343466337341,Veronica,Cruz,3477,854518728062939,2137343466337341,BOT: message,That wasn't quite what we were looking for. :disappointed_face:,2018-08-07 16:40:12
+2137343466337341,Veronica,Cruz,3478,854518728062939,2137343466337341,BOT: quick reply,The correct answer is 2 hours.,2018-08-07 16:40:13
+2137343466337341,Veronica,Cruz,3479,2137343466337341,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-07 16:40:24
+2137343466337341,Veronica,Cruz,3480,854518728062939,2137343466337341,BOT: message,Would you answer this question for me?,2018-08-07 16:40:25
+2137343466337341,Veronica,Cruz,3481,854518728062939,2137343466337341,BOT: quick reply,True or false: wearing a back belt is a proven way to minimize the risk of back injury at work.,2018-08-07 16:40:27
+2137343466337341,Veronica,Cruz,3482,2137343466337341,854518728062939,user_typing,False,2018-08-07 16:40:37
+2137343466337341,Veronica,Cruz,3483,854518728062939,2137343466337341,BOT: image,https://www.smartprimer.org:443/pictures/avatar/congrats/penguinnormal_jubilated_pink.png,2018-08-07 16:40:40
+2137343466337341,Veronica,Cruz,3484,854518728062939,2137343466337341,BOT: message,Good Answer! :white_heavy_check_mark:,2018-08-07 16:40:41
+2137343466337341,Veronica,Cruz,3485,854518728062939,2137343466337341,BOT: quick reply,The correct answer is false.,2018-08-07 16:40:43
+2137343466337341,Veronica,Cruz,3486,2137343466337341,854518728062939,user_quick_reply: WHY,Why?,2018-08-07 16:40:47
+2137343466337341,Veronica,Cruz,3487,854518728062939,2137343466337341,BOT: message,Here's why:,2018-08-07 16:40:49
+2137343466337341,Veronica,Cruz,3488,854518728062939,2137343466337341,BOT: quick reply,"After two studies, the National Institute for Occupational Safety and Health has concluded that there isn't sufficient evidence which proves that back belts work as a preventative measure against back injuries.",2018-08-07 16:40:51
+2137343466337341,Veronica,Cruz,3489,2137343466337341,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-07 16:40:59
+2137343466337341,Veronica,Cruz,3490,854518728062939,2137343466337341,BOT: message,Let's see if you would answer this one.,2018-08-07 16:41:00
+2137343466337341,Veronica,Cruz,3491,854518728062939,2137343466337341,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-07 16:41:02
+2137343466337341,Veronica,Cruz,3492,854518728062939,2137343466337341,BOT: quick reply,True or false: individuals who are lactose-intolerant can consume pasteurized milk without negative side effects.,2018-08-07 16:41:04
+2137343466337341,Veronica,Cruz,3493,2137343466337341,854518728062939,user_typing,False,2018-08-07 16:41:14
+2137343466337341,Veronica,Cruz,3494,854518728062939,2137343466337341,BOT: message,Fantastic! :hundred_points:,2018-08-07 16:41:16
+2137343466337341,Veronica,Cruz,3495,854518728062939,2137343466337341,BOT: quick reply,The correct answer is false.,2018-08-07 16:41:18
+2137343466337341,Veronica,Cruz,3496,2137343466337341,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-07 16:41:34
+2137343466337341,Veronica,Cruz,3497,854518728062939,2137343466337341,BOT: message,Here's a question for you:,2018-08-07 16:41:35
+2137343466337341,Veronica,Cruz,3498,854518728062939,2137343466337341,BOT: quick reply,Which fire extinguishers are used to put out fires caused by flammable liquids?,2018-08-07 16:41:37
+2137343466337341,Veronica,Cruz,3499,2137343466337341,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-07 16:42:56
+2137343466337341,Veronica,Cruz,3500,854518728062939,2137343466337341,BOT: message,Okay. I'll give you some choices.,2018-08-07 16:42:57
+2137343466337341,Veronica,Cruz,3501,854518728062939,2137343466337341,BOT: quick reply,":keycap_1: class C dry chemical fire extinguisher
+:keycap_2: class A water fire extinguishers
+:keycap_3: class B carbon dioxide fire extinguisher
+",2018-08-07 16:42:59
+2137343466337341,Veronica,Cruz,3502,2137343466337341,854518728062939,user_quick_reply: I_DONT_KNOW,I dont know :downcast_face_with_sweat:,2018-08-07 16:43:13
+2137343466337341,Veronica,Cruz,3503,854518728062939,2137343466337341,BOT: quick reply,Are you sure you want to skip answering?,2018-08-07 16:43:15
+2137343466337341,Veronica,Cruz,3504,2137343466337341,854518728062939,user_quick_reply: GIVEUP_YES,"Yes, answer please.",2018-08-07 16:43:22
+2137343466337341,Veronica,Cruz,3505,854518728062939,2137343466337341,BOT: message,You didn't get it right this time.,2018-08-07 16:43:24
+2137343466337341,Veronica,Cruz,3506,854518728062939,2137343466337341,BOT: message,No worries! You'll get it next time! :grinning_face_with_smiling_eyes:,2018-08-07 16:43:25
+2137343466337341,Veronica,Cruz,3507,854518728062939,2137343466337341,BOT: quick reply,The correct answer is class B carbon dioxide fire extinguisher.,2018-08-07 16:43:27
+2137343466337341,Veronica,Cruz,3508,2137343466337341,854518728062939,user_quick_reply: WHY,Why?,2018-08-07 16:43:43
+2137343466337341,Veronica,Cruz,3509,854518728062939,2137343466337341,BOT: message,This is why:,2018-08-07 16:43:45
+2137343466337341,Veronica,Cruz,3510,854518728062939,2137343466337341,BOT: quick reply,"Flammable liquids include oils, gasoline, paints, grease, lacquers, and solvents. Class B carbon dioxide fire extinguishers are used to put out fires caused by flammable liquids.",2018-08-07 16:43:46
+2137343466337341,Veronica,Cruz,3511,2137343466337341,854518728062939,user_quick_reply: SWITCH_SUBJECT,Change subject :shuffle_tracks_button:,2018-08-07 16:43:56
+2137343466337341,Veronica,Cruz,3512,854518728062939,2137343466337341,BOT: quick reply,"Sure, which of the following subjects would you like me to quiz you on?:backhand_index_pointing_down_medium-light_skin_tone:",2018-08-07 16:43:57
+2137343466337341,Veronica,Cruz,3513,2137343466337341,854518728062939,user_quick_reply: RANDOM,Random :game_die:,2018-08-07 16:44:22
+2137343466337341,Veronica,Cruz,3514,854518728062939,2137343466337341,BOT: image,https://www.smartprimer.org:443/pictures/avatar/evolvesafety_normal.gif,2018-08-07 16:44:26
+2137343466337341,Veronica,Cruz,3515,854518728062939,2137343466337341,BOT: quick reply,Let's answer some questions about everything! :game_die:,2018-08-07 16:44:27
+2137343466337341,Veronica,Cruz,3516,2137343466337341,854518728062939,user_quick_reply: NEXT_QUESTION,Alrighty :backhand_index_pointing_right_medium-light_skin_tone:,2018-08-07 16:44:36
+2137343466337341,Veronica,Cruz,3517,854518728062939,2137343466337341,BOT: message,What about this next question:,2018-08-07 16:44:38
+2137343466337341,Veronica,Cruz,3518,854518728062939,2137343466337341,BOT: quick reply,Although his latest project was relatively _____ - little more than a few basic plot points scribbled on a napkin - the veteran screenwriter easily sold the story to a major Hollywood studio.,2018-08-07 16:44:40
+2137343466337341,Veronica,Cruz,3519,2137343466337341,854518728062939,user_typing,Vague,2018-08-07 16:45:01
+2137343466337341,Veronica,Cruz,3520,854518728062939,2137343466337341,BOT: message,"Oops, that answer was incorrect. :disappointed_face:",2018-08-07 16:45:02
+2137343466337341,Veronica,Cruz,3521,854518728062939,2137343466337341,BOT: quick reply,The correct answer is undeveloped.,2018-08-07 16:45:03
+2137343466337341,Veronica,Cruz,3522,2137343466337341,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-07 16:45:12
+2137343466337341,Veronica,Cruz,3523,854518728062939,2137343466337341,BOT: message,Let's try this question.,2018-08-07 16:45:14
+2137343466337341,Veronica,Cruz,3524,854518728062939,2137343466337341,BOT: quick reply,"True or false: if you wear a back belt, you can lift more weight than you could without a belt.",2018-08-07 16:45:15
+2137343466337341,Veronica,Cruz,3525,2137343466337341,854518728062939,user_typing,False,2018-08-07 16:45:43
+2137343466337341,Veronica,Cruz,3526,854518728062939,2137343466337341,BOT: message,Correct! :confetti_ball:,2018-08-07 16:45:44
+2137343466337341,Veronica,Cruz,3527,854518728062939,2137343466337341,BOT: quick reply,The correct answer is false.,2018-08-07 16:45:46
+2137343466337341,Veronica,Cruz,3528,2137343466337341,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-07 16:45:51
+2137343466337341,Veronica,Cruz,3529,854518728062939,2137343466337341,BOT: message,Let's see if you can get this one.,2018-08-07 16:45:52
+2137343466337341,Veronica,Cruz,3530,854518728062939,2137343466337341,BOT: quick reply,What should you NOT do while lifting objects?,2018-08-07 16:45:54
+2137343466337341,Veronica,Cruz,3531,2137343466337341,854518728062939,user_typing,Keep legs together,2018-08-07 16:46:11
+2137343466337341,Veronica,Cruz,3532,854518728062939,2137343466337341,BOT: message,That's not quite right. :disappointed_face:,2018-08-07 16:46:12
+2137343466337341,Veronica,Cruz,3533,854518728062939,2137343466337341,BOT: quick reply,The correct answer is keeping your feet together.,2018-08-07 16:46:14
+2137343466337341,Veronica,Cruz,3534,2137343466337341,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-07 16:46:48
+2137343466337341,Veronica,Cruz,3535,854518728062939,2137343466337341,BOT: message,Let's take a look at this question.,2018-08-07 16:46:50
+2137343466337341,Veronica,Cruz,3536,854518728062939,2137343466337341,BOT: quick reply,All organisms can be classified into one of three of this least specific grouping?,2018-08-07 16:46:51
+2137343466337341,Veronica,Cruz,3537,2137343466337341,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-07 16:47:27
+2137343466337341,Veronica,Cruz,3538,854518728062939,2137343466337341,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-08-07 16:47:29
+2137343466337341,Veronica,Cruz,3539,854518728062939,2137343466337341,BOT: quick reply,":keycap_1: phlylum
+:keycap_2: aspects
+:keycap_3: domains
+:keycap_4: species
+",2018-08-07 16:47:30
+2137343466337341,Veronica,Cruz,3540,2137343466337341,854518728062939,user_quick_reply: BUTTON_DKB_phlylum,:keycap_1:,2018-08-07 16:47:40
+2137343466337341,Veronica,Cruz,3541,854518728062939,2137343466337341,BOT: message,"Oops, that is not correct. :disappointed_face:",2018-08-07 16:47:41
+2137343466337341,Veronica,Cruz,3542,854518728062939,2137343466337341,BOT: quick reply,The correct answer is domains.,2018-08-07 16:47:42
+2137343466337341,Veronica,Cruz,3543,2137343466337341,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-07 16:47:50
+2137343466337341,Veronica,Cruz,3544,854518728062939,2137343466337341,BOT: message,Let's take a look at this question.,2018-08-07 16:47:52
+2137343466337341,Veronica,Cruz,3545,854518728062939,2137343466337341,BOT: quick reply,Which fire extinguishers are used to put out Class A fires?,2018-08-07 16:47:53
+2137343466337341,Veronica,Cruz,3546,2137343466337341,854518728062939,user_quick_reply: I_DONT_KNOW,I dont know :downcast_face_with_sweat:,2018-08-07 16:48:09
+2137343466337341,Veronica,Cruz,3547,854518728062939,2137343466337341,BOT: quick reply,Are you sure you want to give up?,2018-08-07 16:48:11
+2137343466337341,Veronica,Cruz,3548,2137343466337341,854518728062939,user_quick_reply: GIVEUP_YES,"Yes, answer please.",2018-08-07 16:48:15
+2137343466337341,Veronica,Cruz,3549,854518728062939,2137343466337341,BOT: message,You didn't get this question this time.,2018-08-07 16:48:16
+2137343466337341,Veronica,Cruz,3550,854518728062939,2137343466337341,BOT: message,"Don't give up, you'll get it next time! :grinning_face_with_smiling_eyes:",2018-08-07 16:48:18
+2137343466337341,Veronica,Cruz,3551,854518728062939,2137343466337341,BOT: quick reply,The correct answer is both water and multi-purpose dry chemical.,2018-08-07 16:48:19
+2137343466337341,Veronica,Cruz,3552,2137343466337341,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-07 16:48:37
+2137343466337341,Veronica,Cruz,3553,854518728062939,2137343466337341,BOT: message,How about this next one:,2018-08-07 16:48:39
+2137343466337341,Veronica,Cruz,3554,854518728062939,2137343466337341,BOT: quick reply,What should you NOT do while lifting objects?,2018-08-07 16:48:40
+2137343466337341,Veronica,Cruz,3555,2137343466337341,854518728062939,user_typing,Keep feet together,2018-08-07 16:48:59
+2137343466337341,Veronica,Cruz,3556,854518728062939,2137343466337341,BOT: image,https://www.smartprimer.org:443/pictures/avatar/celebration.gif,2018-08-07 16:49:05
+2137343466337341,Veronica,Cruz,3557,854518728062939,2137343466337341,BOT: message,Good job! :raising_hands_medium-light_skin_tone:,2018-08-07 16:49:06
+2137343466337341,Veronica,Cruz,3558,854518728062939,2137343466337341,BOT: quick reply,The correct answer is keeping your feet together.,2018-08-07 16:49:08
+2137343466337341,Veronica,Cruz,3559,2137343466337341,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-07 16:49:11
+2137343466337341,Veronica,Cruz,3560,854518728062939,2137343466337341,BOT: message,Let's try this question.,2018-08-07 16:49:13
+2137343466337341,Veronica,Cruz,3561,854518728062939,2137343466337341,BOT: quick reply,The lithosphere is divided into a dozen major and several minor what?,2018-08-07 16:49:14
+2137343466337341,Veronica,Cruz,3562,2137343466337341,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-07 16:49:27
+2137343466337341,Veronica,Cruz,3563,854518728062939,2137343466337341,BOT: message,Pick one of the following answers.,2018-08-07 16:49:29
+2137343466337341,Veronica,Cruz,3564,854518728062939,2137343466337341,BOT: quick reply,":keycap_1: plates
+:keycap_2: zones
+:keycap_3: faults
+:keycap_4: crystals
+",2018-08-07 16:49:30
+2137343466337341,Veronica,Cruz,3565,2137343466337341,854518728062939,user_quick_reply: BUTTON_DKB_zones,:keycap_2:,2018-08-07 16:49:38
+2137343466337341,Veronica,Cruz,3566,854518728062939,2137343466337341,BOT: message,That's not quite right. :disappointed_face:,2018-08-07 16:49:39
+2137343466337341,Veronica,Cruz,3567,854518728062939,2137343466337341,BOT: quick reply,The correct answer is plates.,2018-08-07 16:49:41
+2137343466337341,Veronica,Cruz,3568,2137343466337341,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-07 16:50:13
+2137343466337341,Veronica,Cruz,3569,854518728062939,2137343466337341,BOT: message,Let's see if you can get this one.,2018-08-07 16:50:15
+2137343466337341,Veronica,Cruz,3570,854518728062939,2137343466337341,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-07 16:50:16
+2137343466337341,Veronica,Cruz,3571,854518728062939,2137343466337341,BOT: quick reply,"True or false: when someone swallows a chemical, immediately have the person drink water and then induce vomiting.",2018-08-07 16:50:18
+2137343466337341,Veronica,Cruz,3572,2137343466337341,854518728062939,user_typing,Yes,2018-08-07 16:50:33
+2137343466337341,Veronica,Cruz,3573,854518728062939,2137343466337341,BOT: message,That's not quite right. :disappointed_face:,2018-08-07 16:50:35
+2137343466337341,Veronica,Cruz,3574,854518728062939,2137343466337341,BOT: quick reply,The correct answer is false.,2018-08-07 16:50:36
+2137343466337341,Veronica,Cruz,3575,2137343466337341,854518728062939,user_quick_reply: WHY,Why?,2018-08-07 16:50:51
+2137343466337341,Veronica,Cruz,3576,854518728062939,2137343466337341,BOT: message,This is an explanation of the question:,2018-08-07 16:50:52
+2137343466337341,Veronica,Cruz,3577,854518728062939,2137343466337341,BOT: quick reply,"While giving water can help dilute a chemical, you should NOT automatically assume that you should induce vomiting in someone who has ingested a chemical. You should call your local Poison Control Center or a doctor and obtain advice on what steps to take.",2018-08-07 16:50:54
+2137343466337341,Veronica,Cruz,3578,2137343466337341,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-07 16:51:09
+2137343466337341,Veronica,Cruz,3579,854518728062939,2137343466337341,BOT: message,Would you answer this question for me?,2018-08-07 16:51:10
+2137343466337341,Veronica,Cruz,3580,854518728062939,2137343466337341,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-07 16:51:12
+2137343466337341,Veronica,Cruz,3581,854518728062939,2137343466337341,BOT: quick reply,Many Major League Baseball relief pitchers choose an electrifying theme song to play as they take the mound; the song _____ their fans and instills fear in their opponents.,2018-08-07 16:51:13
+2137343466337341,Veronica,Cruz,3582,2137343466337341,854518728062939,user_typing,Excites,2018-08-07 16:51:29
+2137343466337341,Veronica,Cruz,3583,854518728062939,2137343466337341,BOT: message,"I'm sorry, but that was incorrect. :disappointed_face:",2018-08-07 16:51:30
+2137343466337341,Veronica,Cruz,3584,854518728062939,2137343466337341,BOT: quick reply,The correct answer is innervates.,2018-08-07 16:51:32
+2137343466337341,Veronica,Cruz,3585,2137343466337341,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-07 16:51:39
+2137343466337341,Veronica,Cruz,3586,854518728062939,2137343466337341,BOT: message,See if you can answer this next one.,2018-08-07 16:51:41
+2137343466337341,Veronica,Cruz,3587,854518728062939,2137343466337341,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-07 16:51:42
+2137343466337341,Veronica,Cruz,3588,854518728062939,2137343466337341,BOT: quick reply,Most fungi get organic compounds from what?,2018-08-07 16:51:44
+2137343466337341,Veronica,Cruz,3589,2137343466337341,854518728062939,user_typing,Dead animals,2018-08-07 16:52:04
+2137343466337341,Veronica,Cruz,3590,854518728062939,2137343466337341,BOT: message,Fantastic! :hundred_points:,2018-08-07 16:52:05
+2137343466337341,Veronica,Cruz,3591,854518728062939,2137343466337341,BOT: quick reply,The correct answer is dead organisms.,2018-08-07 16:52:07
+2137343466337341,Veronica,Cruz,3592,2137343466337341,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-07 16:52:29
+2137343466337341,Veronica,Cruz,3593,854518728062939,2137343466337341,BOT: message,How about this next one:,2018-08-07 16:52:30
+2137343466337341,Veronica,Cruz,3594,854518728062939,2137343466337341,BOT: quick reply,"Dismissed by the establishment, professing nothing but disdain for the canon, and yet beloved by his followers who trumpet his _____ opinions, the raffish pundit is laughing all the way to the bank.",2018-08-07 16:52:32
+2137343466337341,Veronica,Cruz,3595,2137343466337341,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-07 16:53:00
+2137343466337341,Veronica,Cruz,3596,854518728062939,2137343466337341,BOT: message,Okay. I'll give you some choices.,2018-08-07 16:53:01
+2137343466337341,Veronica,Cruz,3597,854518728062939,2137343466337341,BOT: quick reply,":keycap_1: meretricious
+:keycap_2: blithe
+:keycap_3: iconoclastic
+:keycap_4: inveterate
+:keycap_5: meritless
+",2018-08-07 16:53:03
+2137343466337341,Veronica,Cruz,3598,2137343466337341,854518728062939,user_quick_reply: BUTTON_DKB_meritless,:keycap_5:,2018-08-07 16:53:27
+2137343466337341,Veronica,Cruz,3599,854518728062939,2137343466337341,BOT: message,"Oops, that is not correct. :disappointed_face:",2018-08-07 16:53:28
+2137343466337341,Veronica,Cruz,3600,854518728062939,2137343466337341,BOT: quick reply,The correct answer is iconoclastic.,2018-08-07 16:53:30
+2137343466337341,Veronica,Cruz,3601,2137343466337341,854518728062939,user_quick_reply: WHY,Why?,2018-08-07 16:53:56
+2137343466337341,Veronica,Cruz,3602,854518728062939,2137343466337341,BOT: message,This is an explanation of the question:,2018-08-07 16:53:57
+2137343466337341,Veronica,Cruz,3603,854518728062939,2137343466337341,BOT: quick reply,":pushpin: Iconoclastic -- characterized by attacks on established beliefs or institutions
+:pushpin: Blithe -- lacking or showing a lack of due concern
+:pushpin: Inveterate -- habitual
+:pushpin: Meretricious -- like or relating to a prostitute
+:pushpin: Meritless -- without merit; of little or no value or use",2018-08-07 16:53:59
+2137343466337341,Veronica,Cruz,3604,2137343466337341,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-07 16:54:43
+2137343466337341,Veronica,Cruz,3605,854518728062939,2137343466337341,BOT: message,Let's try this one.,2018-08-07 16:54:44
+2137343466337341,Veronica,Cruz,3606,854518728062939,2137343466337341,BOT: quick reply,A bee will sometimes do a dance to tell other bees in the hive where to find what?,2018-08-07 16:54:46
+2137343466337341,Veronica,Cruz,3607,2137343466337341,854518728062939,user_typing,Pollen,2018-08-07 16:55:16
+2137343466337341,Veronica,Cruz,3608,854518728062939,2137343466337341,BOT: message,That's not quite right. :disappointed_face:,2018-08-07 16:55:17
+2137343466337341,Veronica,Cruz,3609,854518728062939,2137343466337341,BOT: quick reply,The correct answer is food.,2018-08-07 16:55:19
+2137343466337341,Veronica,Cruz,3610,2137343466337341,854518728062939,user_typing,Don't bees eat pollen?,2018-08-07 16:55:41
+2137343466337341,Veronica,Cruz,3611,854518728062939,2137343466337341,BOT: quick reply,"That sounds interesting, but I haven't learned about this yet. I'll learn more languages in the future.",2018-08-07 16:55:43
+2137343466337341,Veronica,Cruz,3612,2137343466337341,854518728062939,user_quick_reply: NEXT_QUESTION,Another question :flexed_biceps_medium-light_skin_tone:,2018-08-07 16:55:50
+2137343466337341,Veronica,Cruz,3613,854518728062939,2137343466337341,BOT: message,Let's try this one.,2018-08-07 16:55:52
+2137343466337341,Veronica,Cruz,3614,854518728062939,2137343466337341,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-07 16:55:53
+2137343466337341,Veronica,Cruz,3615,854518728062939,2137343466337341,BOT: quick reply,How long can high-acid canned food such as tomatoes be stored?,2018-08-07 16:55:55
+2137343466337341,Veronica,Cruz,3616,2137343466337341,854518728062939,user_typing,A year,2018-08-07 16:56:32
+2137343466337341,Veronica,Cruz,3617,854518728062939,2137343466337341,BOT: message,That's not quite right. :disappointed_face:,2018-08-07 16:56:34
+2137343466337341,Veronica,Cruz,3618,854518728062939,2137343466337341,BOT: quick reply,The correct answer is 12 to 18 months.,2018-08-07 16:56:35
+2137343466337341,Veronica,Cruz,3619,2137343466337341,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-07 16:56:44
+2137343466337341,Veronica,Cruz,3620,854518728062939,2137343466337341,BOT: message,Would you answer this question for me?,2018-08-07 16:56:46
+2137343466337341,Veronica,Cruz,3621,854518728062939,2137343466337341,BOT: quick reply,All organisms can be classified into one of three of this least specific grouping?,2018-08-07 16:56:47
+2137343466337341,Veronica,Cruz,3622,2137343466337341,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-07 16:57:12
+2137343466337341,Veronica,Cruz,3623,854518728062939,2137343466337341,BOT: message,Pick one of the following answers.,2018-08-07 16:57:13
+2137343466337341,Veronica,Cruz,3624,854518728062939,2137343466337341,BOT: quick reply,":keycap_1: phlylum
+:keycap_2: species
+:keycap_3: domains
+:keycap_4: aspects
+",2018-08-07 16:57:15
+2137343466337341,Veronica,Cruz,3625,2137343466337341,854518728062939,user_quick_reply: BUTTON_AKB_domains,:keycap_3:,2018-08-07 16:57:25
+2137343466337341,Veronica,Cruz,3626,854518728062939,2137343466337341,BOT: message,Great job!,2018-08-07 16:57:26
+2137343466337341,Veronica,Cruz,3627,854518728062939,2137343466337341,BOT: quick reply,The correct answer is domains.,2018-08-07 16:57:28
+2137343466337341,Veronica,Cruz,3628,2137343466337341,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-07 16:57:33
+2137343466337341,Veronica,Cruz,3629,854518728062939,2137343466337341,BOT: message,Could you answer this one for me?,2018-08-07 16:57:34
+2137343466337341,Veronica,Cruz,3630,854518728062939,2137343466337341,BOT: quick reply,What should you NOT do during a fire emergency?,2018-08-07 16:57:35
+2137343466337341,Veronica,Cruz,3631,2137343466337341,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-07 16:57:43
+2137343466337341,Veronica,Cruz,3632,854518728062939,2137343466337341,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-08-07 16:57:45
+2137343466337341,Veronica,Cruz,3633,854518728062939,2137343466337341,BOT: quick reply,":keycap_1: evacuating a building through designated exit routes
+:keycap_2: keeping fire doors shut to prevent the fire from spreading
+:keycap_3: re-entering the building without the permission of authorities
+:keycap_4: crawling low under the smoke while breathing only through your nose
+",2018-08-07 16:57:46
+2137343466337341,Veronica,Cruz,3634,2137343466337341,854518728062939,user_quick_reply: BUTTON_AKB_re-entering the building without the permission of authorities,:keycap_3:,2018-08-07 16:58:01
+2137343466337341,Veronica,Cruz,3635,854518728062939,2137343466337341,BOT: message,Great job!,2018-08-07 16:58:03
+2137343466337341,Veronica,Cruz,3636,854518728062939,2137343466337341,BOT: quick reply,The correct answer is re-entering the building without the permission of authorities.,2018-08-07 16:58:04
+2137343466337341,Veronica,Cruz,3637,2137343466337341,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-07 16:58:19
+2137343466337341,Veronica,Cruz,3638,854518728062939,2137343466337341,BOT: message,"Alrighty, let's try this one.",2018-08-07 16:58:20
+2137343466337341,Veronica,Cruz,3639,854518728062939,2137343466337341,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-07 16:58:21
+2137343466337341,Veronica,Cruz,3640,854518728062939,2137343466337341,BOT: quick reply,What are the little sacs at the end of the bronchioles called?,2018-08-07 16:58:23
+2137343466337341,Veronica,Cruz,3641,2137343466337341,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-07 16:58:33
+2137343466337341,Veronica,Cruz,3642,854518728062939,2137343466337341,BOT: message,Which of the following options is the right answer?,2018-08-07 16:58:34
+2137343466337341,Veronica,Cruz,3643,854518728062939,2137343466337341,BOT: quick reply,":keycap_1: lung
+:keycap_2: alveoli
+:keycap_3: respiratory sacs
+:keycap_4: ganglion
+",2018-08-07 16:58:36
+2137343466337341,Veronica,Cruz,3644,2137343466337341,854518728062939,user_quick_reply: BUTTON_AKB_alveoli,:keycap_2:,2018-08-07 16:58:50
+2137343466337341,Veronica,Cruz,3645,854518728062939,2137343466337341,BOT: message,Great job!,2018-08-07 16:58:51
+2137343466337341,Veronica,Cruz,3646,854518728062939,2137343466337341,BOT: quick reply,The correct answer is alveoli.,2018-08-07 16:58:52
+2137343466337341,Veronica,Cruz,3651,2137343466337341,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-07 16:59:51
+2137343466337341,Veronica,Cruz,3652,854518728062939,2137343466337341,BOT: message,What about this next question:,2018-08-07 16:59:53
+2137343466337341,Veronica,Cruz,3653,854518728062939,2137343466337341,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-07 16:59:54
+2137343466337341,Veronica,Cruz,3654,854518728062939,2137343466337341,BOT: quick reply,"Having squandered his life's savings on unprofitable business ventures, the _____ entrepreneur was forced to live in squalor.",2018-08-07 16:59:56
+2137343466337341,Veronica,Cruz,3655,2137343466337341,854518728062939,user_typing,Unsuccessful,2018-08-07 17:01:07
+2137343466337341,Veronica,Cruz,3656,854518728062939,2137343466337341,BOT: message,"I'm sorry, but that was incorrect. :disappointed_face:",2018-08-07 17:01:08
+2137343466337341,Veronica,Cruz,3657,854518728062939,2137343466337341,BOT: quick reply,The correct answer is insolvent.,2018-08-07 17:01:10
+2137343466337341,Veronica,Cruz,3658,2137343466337341,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-07 17:01:41
+2137343466337341,Veronica,Cruz,3659,854518728062939,2137343466337341,BOT: message,What about this next question:,2018-08-07 17:01:43
+2137343466337341,Veronica,Cruz,3660,854518728062939,2137343466337341,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-07 17:01:44
+2137343466337341,Veronica,Cruz,3661,854518728062939,2137343466337341,BOT: quick reply,How can employers help lower the rate of pesticide exposure?,2018-08-07 17:01:46
+2137343466337341,Veronica,Cruz,3662,2137343466337341,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-07 17:02:28
+2137343466337341,Veronica,Cruz,3663,854518728062939,2137343466337341,BOT: message,Okay. I'll give you some choices.,2018-08-07 17:02:30
+2137343466337341,Veronica,Cruz,3664,854518728062939,2137343466337341,BOT: quick reply,":keycap_1: through comprehensive training on each chemical and educating workers about their rights
+:keycap_2: through short training sessions every 5 years
+:keycap_3: by letting workers learn about the risks on the job
+:keycap_4: by not letting workers know that they are working with toxic chemicals
+",2018-08-07 17:02:31
+2137343466337341,Veronica,Cruz,3665,2137343466337341,854518728062939,user_quick_reply: BUTTON_AKB_through comprehensive training on each chemical and educating workers about their rights,:keycap_1:,2018-08-07 17:03:01
+2137343466337341,Veronica,Cruz,3666,854518728062939,2137343466337341,BOT: message,Yes! You got the correct answer!,2018-08-07 17:03:03
+2137343466337341,Veronica,Cruz,3667,854518728062939,2137343466337341,BOT: quick reply,The correct answer is through comprehensive training on each chemical and educating workers about their rights.,2018-08-07 17:03:04
+2137343466337341,Veronica,Cruz,3668,2137343466337341,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-07 17:03:22
+2137343466337341,Veronica,Cruz,3669,854518728062939,2137343466337341,BOT: message,Here's a question for you:,2018-08-07 17:03:23
+2137343466337341,Veronica,Cruz,3670,854518728062939,2137343466337341,BOT: quick reply,Many Major League Baseball relief pitchers choose an electrifying theme song to play as they take the mound; the song _____ their fans and instills fear in their opponents.,2018-08-07 17:03:25
+2137343466337341,Veronica,Cruz,3671,2137343466337341,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-07 17:03:35
+2137343466337341,Veronica,Cruz,3672,854518728062939,2137343466337341,BOT: message,Which of the following options is the right answer?,2018-08-07 17:03:36
+2137343466337341,Veronica,Cruz,3673,854518728062939,2137343466337341,BOT: quick reply,":keycap_1: eviscerates
+:keycap_2: pervades
+:keycap_3: innervates
+:keycap_4: assuages
+:keycap_5: enervates
+",2018-08-07 17:03:38
+2137343466337341,Veronica,Cruz,3674,2137343466337341,854518728062939,user_quick_reply: BUTTON_AKB_innervates,:keycap_3:,2018-08-07 17:03:48
+2137343466337341,Veronica,Cruz,3675,854518728062939,2137343466337341,BOT: image,https://www.smartprimer.org:443/pictures/avatar/congrats/penguinnormal_jubilated_purple.png,2018-08-07 17:03:51
+2137343466337341,Veronica,Cruz,3676,854518728062939,2137343466337341,BOT: message,Great job getting the correct answer!,2018-08-07 17:03:52
+2137343466337341,Veronica,Cruz,3677,854518728062939,2137343466337341,BOT: quick reply,The correct answer is innervates.,2018-08-07 17:03:54
+2137343466337341,Veronica,Cruz,3786,854518728062939,2137343466337341,BOT: quick reply,"Hi Veronica, you haven't talked to me for a while. Would you like to resume the learning with me?",2018-08-07 20:00:11
+2137343466337341,Veronica,Cruz,4044,2137343466337341,854518728062939,user_quick_reply: NEXT_QUESTION,Sure :white_heavy_check_mark:,2018-08-08 09:50:18
+2137343466337341,Veronica,Cruz,4045,854518728062939,2137343466337341,BOT: message,"Alrighty, let's try this one.",2018-08-08 09:50:19
+2137343466337341,Veronica,Cruz,4046,854518728062939,2137343466337341,BOT: quick reply,Pundits do not believe that the sporadic calls for her ouster-outcries spurred by both her unusual lifestyle and social policies-have compelled the monarch to seriously consider _____ .,2018-08-08 09:50:21
+2137343466337341,Veronica,Cruz,4047,2137343466337341,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-08 09:50:32
+2137343466337341,Veronica,Cruz,4048,854518728062939,2137343466337341,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-08-08 09:50:34
+2137343466337341,Veronica,Cruz,4049,854518728062939,2137343466337341,BOT: quick reply,":keycap_1: asceticism
+:keycap_2: vacillation
+:keycap_3: castigation
+:keycap_4: misanthropy
+:keycap_5: abnegation
+",2018-08-08 09:50:36
+2137343466337341,Veronica,Cruz,4050,2137343466337341,854518728062939,user_quick_reply: I_DONT_KNOW,I dont know :downcast_face_with_sweat:,2018-08-08 09:50:46
+2137343466337341,Veronica,Cruz,4051,854518728062939,2137343466337341,BOT: quick reply,Are you sure you want to skip answering?,2018-08-08 09:50:48
+2137343466337341,Veronica,Cruz,4052,2137343466337341,854518728062939,user_quick_reply: GIVEUP_YES,"Yes, answer please.",2018-08-08 09:50:55
+2137343466337341,Veronica,Cruz,4053,854518728062939,2137343466337341,BOT: message,"I'm sorry, you didn't get the question right this time.",2018-08-08 09:50:56
+2137343466337341,Veronica,Cruz,4054,854518728062939,2137343466337341,BOT: message,"That's fine, you'll nail it next time! :grinning_face_with_smiling_eyes:",2018-08-08 09:50:57
+2137343466337341,Veronica,Cruz,4055,854518728062939,2137343466337341,BOT: quick reply,The correct answer is abnegation.,2018-08-08 09:50:59
+2137343466337341,Veronica,Cruz,4056,2137343466337341,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-08 09:51:07
+2137343466337341,Veronica,Cruz,4057,854518728062939,2137343466337341,BOT: message,Let's see if you can answer this question.,2018-08-08 09:51:09
+2137343466337341,Veronica,Cruz,4058,854518728062939,2137343466337341,BOT: quick reply,"Though many _____ endlessly praised his work, Dan often wished for some honest criticism.",2018-08-08 09:51:10
+2137343466337341,Veronica,Cruz,4059,2137343466337341,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-08 09:51:24
+2137343466337341,Veronica,Cruz,4060,854518728062939,2137343466337341,BOT: message,It's one of the following choices.,2018-08-08 09:51:26
+2137343466337341,Veronica,Cruz,4061,854518728062939,2137343466337341,BOT: quick reply,":keycap_1: benefactors
+:keycap_2: pedants
+:keycap_3: adversaries
+:keycap_4: sycophants
+:keycap_5: mavericks
+",2018-08-08 09:51:27
+2137343466337341,Veronica,Cruz,4062,2137343466337341,854518728062939,user_quick_reply: BUTTON_AKB_sycophants,:keycap_4:,2018-08-08 09:51:39
+2137343466337341,Veronica,Cruz,4063,854518728062939,2137343466337341,BOT: image,https://www.smartprimer.org:443/pictures/avatar/congrats/penguinnormal_jubilated_cyan.png,2018-08-08 09:51:42
+2137343466337341,Veronica,Cruz,4064,854518728062939,2137343466337341,BOT: message,Great! Keep it up! :flexed_biceps_medium-light_skin_tone:,2018-08-08 09:51:43
+2137343466337341,Veronica,Cruz,4065,854518728062939,2137343466337341,BOT: quick reply,The correct answer is sycophants.,2018-08-08 09:51:45
+2137343466337341,Veronica,Cruz,4066,2137343466337341,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-08 09:52:13
+2137343466337341,Veronica,Cruz,4067,854518728062939,2137343466337341,BOT: message,What about this next question:,2018-08-08 09:52:14
+2137343466337341,Veronica,Cruz,4068,854518728062939,2137343466337341,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-08 09:52:16
+2137343466337341,Veronica,Cruz,4069,854518728062939,2137343466337341,BOT: quick reply,How do very massive stars end their lives?,2018-08-08 09:52:17
+2137343466337341,Veronica,Cruz,4070,2137343466337341,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-08 09:52:31
+2137343466337341,Veronica,Cruz,4071,854518728062939,2137343466337341,BOT: message,Which of the following options is the right answer?,2018-08-08 09:52:32
+2137343466337341,Veronica,Cruz,4072,854518728062939,2137343466337341,BOT: quick reply,":keycap_1: become red supergiants
+:keycap_2: explode
+:keycap_3: become super novas
+:keycap_4: consumed by black hole
+",2018-08-08 09:52:34
+2137343466337341,Veronica,Cruz,4073,2137343466337341,854518728062939,user_quick_reply: BUTTON_DKB_consumed by black hole,:keycap_4:,2018-08-08 09:52:41
+2137343466337341,Veronica,Cruz,4074,854518728062939,2137343466337341,BOT: message,"Hmm, that wasn't quite right. :disappointed_face:",2018-08-08 09:52:42
+2137343466337341,Veronica,Cruz,4075,854518728062939,2137343466337341,BOT: quick reply,The correct answer is become red supergiants.,2018-08-08 09:52:44
+2137343466337341,Veronica,Cruz,4076,2137343466337341,854518728062939,user_quick_reply: SWITCH_SUBJECT,Change subject :shuffle_tracks_button:,2018-08-08 09:52:50
+2137343466337341,Veronica,Cruz,4077,854518728062939,2137343466337341,BOT: quick reply,"Cool, which subject would you like to study?:backhand_index_pointing_down_medium-light_skin_tone:",2018-08-08 09:52:52
+2137343466337341,Veronica,Cruz,4078,2137343466337341,854518728062939,user_quick_reply: SAFETY,Safety:hammer_and_wrench:,2018-08-08 09:52:57
+2137343466337341,Veronica,Cruz,4079,854518728062939,2137343466337341,BOT: image,https://www.smartprimer.org:443/pictures/avatar/evolvenormal_safety.gif,2018-08-08 09:53:00
+2137343466337341,Veronica,Cruz,4080,854518728062939,2137343466337341,BOT: quick reply,Let's answer some questions about safety!,2018-08-08 09:53:02
+2137343466337341,Veronica,Cruz,4081,2137343466337341,854518728062939,user_quick_reply: NEXT_QUESTION,I see :light_bulb:,2018-08-08 09:53:10
+2137343466337341,Veronica,Cruz,4082,854518728062939,2137343466337341,BOT: message,Could you answer this one for me?,2018-08-08 09:53:11
+2137343466337341,Veronica,Cruz,4083,854518728062939,2137343466337341,BOT: quick reply,"If your co-worker needs CPR but you are not trained in it, what should you do?",2018-08-08 09:53:13
+2137343466337341,Veronica,Cruz,4084,2137343466337341,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-08 09:53:19
+2137343466337341,Veronica,Cruz,4085,854518728062939,2137343466337341,BOT: message,Pick one of the following answers.,2018-08-08 09:53:21
+2137343466337341,Veronica,Cruz,4086,854518728062939,2137343466337341,BOT: quick reply,":keycap_1: performing chest compressions only
+:keycap_2: waiting for emergency personnel to arrive
+:keycap_3: lifting the patient's head
+:keycap_4: giving rescue breaths only
+",2018-08-08 09:53:23
+2137343466337341,Veronica,Cruz,4087,2137343466337341,854518728062939,user_quick_reply: BUTTON_AKB_performing chest compressions only,:keycap_1:,2018-08-08 09:53:38
+2137343466337341,Veronica,Cruz,4088,854518728062939,2137343466337341,BOT: image,https://www.smartprimer.org:443/pictures/avatar/congrats/penguinnormal_normal_purple.png,2018-08-08 09:53:41
+2137343466337341,Veronica,Cruz,4089,854518728062939,2137343466337341,BOT: message,Nice! That was right!,2018-08-08 09:53:43
+2137343466337341,Veronica,Cruz,4090,854518728062939,2137343466337341,BOT: quick reply,The correct answer is performing chest compressions only.,2018-08-08 09:53:44
+2137343466337341,Veronica,Cruz,4091,2137343466337341,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-08 09:54:06
+2137343466337341,Veronica,Cruz,4092,854518728062939,2137343466337341,BOT: message,Let's see if you would answer this one.,2018-08-08 09:54:07
+2137343466337341,Veronica,Cruz,4093,854518728062939,2137343466337341,BOT: quick reply,True or false: the primary function of a fire door is to exit a building in case of fire.,2018-08-08 09:54:09
+2137343466337341,Veronica,Cruz,4094,2137343466337341,854518728062939,user_typing,False,2018-08-08 09:54:19
+2137343466337341,Veronica,Cruz,4095,854518728062939,2137343466337341,BOT: image,https://www.smartprimer.org:443/pictures/avatar/congrats/penguinnormal_normal_purple.png,2018-08-08 09:54:27
+2137343466337341,Veronica,Cruz,4096,854518728062939,2137343466337341,BOT: message,Nice! :red_apple:,2018-08-08 09:54:28
+2137343466337341,Veronica,Cruz,4097,854518728062939,2137343466337341,BOT: quick reply,The correct answer is false.,2018-08-08 09:54:30
+2137343466337341,Veronica,Cruz,4098,2137343466337341,854518728062939,user_quick_reply: WHY,Why?,2018-08-08 09:54:34
+2137343466337341,Veronica,Cruz,4099,854518728062939,2137343466337341,BOT: message,Here's an explanation:,2018-08-08 09:54:36
+2137343466337341,Veronica,Cruz,4100,854518728062939,2137343466337341,BOT: quick reply,"Although in some cases fire doors are used as emergency exits in the event of a fire, the primary function of a fire door is to act as a fire barrier and contain fire and smoke to prevent it from entering parts of the building unaffected by fire at the time.",2018-08-08 09:54:37
+2137343466337341,Veronica,Cruz,4101,2137343466337341,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-08 09:54:45
+2137343466337341,Veronica,Cruz,4102,854518728062939,2137343466337341,BOT: message,Could you answer this one for me?,2018-08-08 09:54:46
+2137343466337341,Veronica,Cruz,4103,854518728062939,2137343466337341,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-08 09:54:48
+2137343466337341,Veronica,Cruz,4104,854518728062939,2137343466337341,BOT: quick reply,True or false: all workplaces need to provide portable fire extinguishers.,2018-08-08 09:54:49
+2137343466337341,Veronica,Cruz,4105,2137343466337341,854518728062939,user_typing,True,2018-08-08 09:54:57
+2137343466337341,Veronica,Cruz,4106,854518728062939,2137343466337341,BOT: message,"Oops, that answer was incorrect. :disappointed_face:",2018-08-08 09:54:59
+2137343466337341,Veronica,Cruz,4107,854518728062939,2137343466337341,BOT: quick reply,The correct answer is false.,2018-08-08 09:55:00
+2137343466337341,Veronica,Cruz,4108,2137343466337341,854518728062939,persistent_menu: CHAT_WITH_ME,Chat with Me :penguin:,2018-08-08 09:55:05
+2137343466337341,Veronica,Cruz,4109,854518728062939,2137343466337341,BOT: quick reply,Great! I have something fun for you!,2018-08-08 09:55:07
+2137343466337341,Veronica,Cruz,4110,2137343466337341,854518728062939,user_quick_reply: FUN_FACT_SCIENCE,Fun fact :light_bulb:,2018-08-08 09:55:12
+2137343466337341,Veronica,Cruz,4111,854518728062939,2137343466337341,BOT: message,Here's one I thought might be interesting.,2018-08-08 09:55:14
+2137343466337341,Veronica,Cruz,4112,854518728062939,2137343466337341,BOT: quick reply,It's impossible to sneeze with your eyes open.,2018-08-08 09:55:15
+2137343466337341,Veronica,Cruz,4113,2137343466337341,854518728062939,user_quick_reply: FUN_FACT_SCIENCE,Another fun fact:light_bulb:,2018-08-08 09:55:22
+2137343466337341,Veronica,Cruz,4114,854518728062939,2137343466337341,BOT: message,Here's one I thought might be interesting.,2018-08-08 09:55:24
+2137343466337341,Veronica,Cruz,4115,854518728062939,2137343466337341,BOT: quick reply,"The ears of a cricket are located on the front legs, just below the knee.",2018-08-08 09:55:25
+2137343466337341,Veronica,Cruz,4116,2137343466337341,854518728062939,user_quick_reply: JOKE,Joke :beaming_face_with_smiling_eyes:,2018-08-08 09:55:32
+2137343466337341,Veronica,Cruz,4117,854518728062939,2137343466337341,BOT: message,Here's one I thought might be funny.,2018-08-08 09:55:34
+2137343466337341,Veronica,Cruz,4118,854518728062939,2137343466337341,BOT: quick reply,"C, E-flat, and G walk into a bar. The bartender shows them the door and says, Sorry, we dont serve minors.",2018-08-08 09:55:35
+2137343466337341,Veronica,Cruz,4119,2137343466337341,854518728062939,user_quick_reply: JOKE,Another joke :beaming_face_with_smiling_eyes:,2018-08-08 09:55:45
+2137343466337341,Veronica,Cruz,4120,854518728062939,2137343466337341,BOT: message,Here is an interesting one:,2018-08-08 09:55:46
+2137343466337341,Veronica,Cruz,4121,854518728062939,2137343466337341,BOT: quick reply,Q: What kind of coat is always wet when you put it on? A: A coat of paint.,2018-08-08 09:55:48
+2137343466337341,Veronica,Cruz,4122,2137343466337341,854518728062939,user_quick_reply: FUN_FACT_SCIENCE,Fun fact :light_bulb:,2018-08-08 09:55:56
+2137343466337341,Veronica,Cruz,4123,854518728062939,2137343466337341,BOT: message,Here's one I thought might be fun.,2018-08-08 09:55:57
+2137343466337341,Veronica,Cruz,4124,854518728062939,2137343466337341,BOT: quick reply,Sunlight can penetrate clean ocean water to a depth of 240 feet.,2018-08-08 09:55:59
+2137343466337341,Veronica,Cruz,4125,2137343466337341,854518728062939,user_quick_reply: FUN_FACT_SCIENCE,One more fun fact:light_bulb:,2018-08-08 09:56:32
+2137343466337341,Veronica,Cruz,4126,854518728062939,2137343466337341,BOT: message,Here's one I thought might be interesting.,2018-08-08 09:56:33
+2137343466337341,Veronica,Cruz,4127,854518728062939,2137343466337341,BOT: quick reply,"The largest man-made lake in the U.S. is Lake Mead, created by Hoover Dam.",2018-08-08 09:56:35
+2137343466337341,Veronica,Cruz,4128,2137343466337341,854518728062939,user_quick_reply: FUN_FACT_SCIENCE,Another fun fact:light_bulb:,2018-08-08 09:56:43
+2137343466337341,Veronica,Cruz,4129,854518728062939,2137343466337341,BOT: message,Here is a fun fact for you.,2018-08-08 09:56:45
+2137343466337341,Veronica,Cruz,4130,854518728062939,2137343466337341,BOT: quick reply,It takes approximately 12 hours for food to entirely digest.,2018-08-08 09:56:46
+2137343466337341,Veronica,Cruz,4131,2137343466337341,854518728062939,user_quick_reply: FUN_FACT_SCIENCE,Another fun fact:light_bulb:,2018-08-08 09:57:05
+2137343466337341,Veronica,Cruz,4132,854518728062939,2137343466337341,BOT: message,Here's one I thought might be fun.,2018-08-08 09:57:07
+2137343466337341,Veronica,Cruz,4133,854518728062939,2137343466337341,BOT: quick reply,The longest cells in the human body are the motor neurons. They can be up to 4.5 feet (1.37 meters) long and run from the lower spinal cord to the big toe.,2018-08-08 09:57:08
+2137343466337341,Veronica,Cruz,4134,2137343466337341,854518728062939,user_quick_reply: FUN_FACT_SCIENCE,Another fun fact:light_bulb:,2018-08-08 09:58:01
+2137343466337341,Veronica,Cruz,4135,854518728062939,2137343466337341,BOT: message,Here's one I thought might be interesting.,2018-08-08 09:58:02
+2137343466337341,Veronica,Cruz,4136,854518728062939,2137343466337341,BOT: quick reply,"By raising your legs slowly and laying on your back, you can't sink in quicksand.",2018-08-08 09:58:04
+2137343466337341,Veronica,Cruz,4137,2137343466337341,854518728062939,user_quick_reply: JOKE,Joke :beaming_face_with_smiling_eyes:,2018-08-08 09:59:21
+2137343466337341,Veronica,Cruz,4138,854518728062939,2137343466337341,BOT: message,Here is an interesting one for you.,2018-08-08 09:59:22
+2137343466337341,Veronica,Cruz,4139,854518728062939,2137343466337341,BOT: quick reply,Q. How do you make the number one disappear? A. Add the letter G and then prestoits Gone!,2018-08-08 09:59:24
+2137343466337341,Veronica,Cruz,4140,2137343466337341,854518728062939,user_quick_reply: JOKE,One more joke :beaming_face_with_smiling_eyes:,2018-08-08 09:59:46
+2137343466337341,Veronica,Cruz,4141,854518728062939,2137343466337341,BOT: message,Here is an interesting one:,2018-08-08 09:59:47
+2137343466337341,Veronica,Cruz,4142,854518728062939,2137343466337341,BOT: quick reply,What did Beethoven say to Johann Sebastian when he was helping him parallel park? Bach it up.,2018-08-08 09:59:49
+2137343466337341,Veronica,Cruz,4143,2137343466337341,854518728062939,user_quick_reply: JOKE,One more joke :beaming_face_with_smiling_eyes:,2018-08-08 10:00:16
+2137343466337341,Veronica,Cruz,4144,854518728062939,2137343466337341,BOT: message,Here is an interesting one for you.,2018-08-08 10:00:18
+2137343466337341,Veronica,Cruz,4145,854518728062939,2137343466337341,BOT: quick reply,Q: How does a hurricane see? A: With its eye.,2018-08-08 10:00:19
+2137343466337341,Veronica,Cruz,4146,2137343466337341,854518728062939,user_quick_reply: JOKE,Another joke :beaming_face_with_smiling_eyes:,2018-08-08 10:00:31
+2137343466337341,Veronica,Cruz,4147,854518728062939,2137343466337341,BOT: message,Here is an interesting one:,2018-08-08 10:00:32
+2137343466337341,Veronica,Cruz,4148,854518728062939,2137343466337341,BOT: quick reply,"Q. How many cats can you put in an empty box? A. One. After that, the box isnt empty anymore.",2018-08-08 10:00:34
+2137343466337341,Veronica,Cruz,4149,2137343466337341,854518728062939,user_quick_reply: JOKE,One more joke :beaming_face_with_smiling_eyes:,2018-08-08 10:00:45
+2137343466337341,Veronica,Cruz,4150,854518728062939,2137343466337341,BOT: message,Here is an interesting one:,2018-08-08 10:00:47
+2137343466337341,Veronica,Cruz,4151,854518728062939,2137343466337341,BOT: quick reply,Q: What kind of coat is always wet when you put it on? A: A coat of paint.,2018-08-08 10:00:48
+2137343466337341,Veronica,Cruz,4152,2137343466337341,854518728062939,user_quick_reply: JOKE,One more joke :beaming_face_with_smiling_eyes:,2018-08-08 10:01:07
+2137343466337341,Veronica,Cruz,4153,854518728062939,2137343466337341,BOT: message,Here is a good one.,2018-08-08 10:01:08
+2137343466337341,Veronica,Cruz,4154,854518728062939,2137343466337341,BOT: quick reply,Q: What kind of coat is always wet when you put it on? A: A coat of paint.,2018-08-08 10:01:09
+2137343466337341,Veronica,Cruz,4155,2137343466337341,854518728062939,user_quick_reply: JOKE,One more joke :beaming_face_with_smiling_eyes:,2018-08-08 10:01:10
+2137343466337341,Veronica,Cruz,4156,854518728062939,2137343466337341,BOT: message,Here's one I thought might be interesting.,2018-08-08 10:01:11
+2137343466337341,Veronica,Cruz,4157,854518728062939,2137343466337341,BOT: quick reply,Q: Which is the most curious letter? A: Y?,2018-08-08 10:01:13
+2137343466337341,Veronica,Cruz,4158,2137343466337341,854518728062939,user_quick_reply: JOKE,One more joke :beaming_face_with_smiling_eyes:,2018-08-08 10:01:35
+2137343466337341,Veronica,Cruz,4159,854518728062939,2137343466337341,BOT: message,Here is an interesting one:,2018-08-08 10:01:37
+2137343466337341,Veronica,Cruz,4160,854518728062939,2137343466337341,BOT: quick reply,Q: Why do watermelons have fancy weddings? A: Because they cantaloupe.,2018-08-08 10:01:38
+2137343466337341,Veronica,Cruz,4167,854518728062939,2137343466337341,BOT: quick reply,"Hi Veronica, you haven't talked to me for a while. Would you like to resume the learning with me?",2018-08-08 20:00:30
+2137343466337341,Veronica,Cruz,4985,2137343466337341,854518728062939,user_quick_reply: NEXT_QUESTION,Got it :flexed_biceps_medium-light_skin_tone:,2018-08-09 10:09:10
+2137343466337341,Veronica,Cruz,4986,854518728062939,2137343466337341,BOT: message,Would you answer this question for me?,2018-08-09 10:09:11
+2137343466337341,Veronica,Cruz,4987,854518728062939,2137343466337341,BOT: quick reply,What should you NOT do while treating cuts and scrapes?,2018-08-09 10:09:13
+2137343466337341,Veronica,Cruz,4988,2137343466337341,854518728062939,user_typing,Soap,2018-08-09 10:09:27
+2137343466337341,Veronica,Cruz,4989,854518728062939,2137343466337341,BOT: message,Thats right! :party_popper:,2018-08-09 10:09:29
+2137343466337341,Veronica,Cruz,4990,854518728062939,2137343466337341,BOT: quick reply,The correct answer is washing the wound with soap.,2018-08-09 10:09:31
+2137343466337341,Veronica,Cruz,4992,2137343466337341,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-09 10:09:37
+2137343466337341,Veronica,Cruz,4993,854518728062939,2137343466337341,BOT: message,Here's a question for you:,2018-08-09 10:09:39
+2137343466337341,Veronica,Cruz,4994,854518728062939,2137343466337341,BOT: quick reply,"When using a ladder to climb a roof, the ladder must extend at least___ above it.",2018-08-09 10:09:41
+2137343466337341,Veronica,Cruz,4995,2137343466337341,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-09 10:09:48
+2137343466337341,Veronica,Cruz,4996,854518728062939,2137343466337341,BOT: message,Okay. I'll give you some choices.,2018-08-09 10:09:49
+2137343466337341,Veronica,Cruz,4997,854518728062939,2137343466337341,BOT: quick reply,":keycap_1: 24
+:keycap_2: 36
+:keycap_3: 18
+:keycap_4: 30
+",2018-08-09 10:09:51
+2137343466337341,Veronica,Cruz,4998,2137343466337341,854518728062939,user_typing,What's the unit?,2018-08-09 10:10:36
+2137343466337341,Veronica,Cruz,4999,854518728062939,2137343466337341,BOT: message,"I'm sorry, but that was incorrect. :disappointed_face:",2018-08-09 10:10:37
+2137343466337341,Veronica,Cruz,5000,854518728062939,2137343466337341,BOT: quick reply,The correct answer is 36.,2018-08-09 10:10:39
+2137343466337341,Veronica,Cruz,5001,2137343466337341,854518728062939,user_typing,36 what?,2018-08-09 10:10:49
+2137343466337341,Veronica,Cruz,5002,854518728062939,2137343466337341,BOT: quick reply,I'm not sure what this is. I'm still learning languages and you might be my teacher in the future!,2018-08-09 10:10:50
+2137343466337341,Veronica,Cruz,5004,2137343466337341,854518728062939,user_quick_reply: NEXT_QUESTION,Resume learning :flexed_biceps_medium-light_skin_tone:,2018-08-09 10:10:58
+2137343466337341,Veronica,Cruz,5005,854518728062939,2137343466337341,BOT: message,"Alrighty, let's try this one.",2018-08-09 10:10:59
+2137343466337341,Veronica,Cruz,5006,854518728062939,2137343466337341,BOT: quick reply,"When you discover a fire, you should do what?",2018-08-09 10:11:01
+2137343466337341,Veronica,Cruz,5007,2137343466337341,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-09 10:11:14
+2137343466337341,Veronica,Cruz,5008,854518728062939,2137343466337341,BOT: message,Which of the following options is the right answer?,2018-08-09 10:11:16
+2137343466337341,Veronica,Cruz,5009,854518728062939,2137343466337341,BOT: quick reply,":keycap_1: running out of the building without warning others of the fire
+:keycap_2: pulling the fire alarm and call the fire department
+:keycap_3: using a fire extinguisher to put out the fire, even if you've never used a fire extinguisher before
+:keycap_4: staying in the building until you figure out a way to extinguish the fire
+",2018-08-09 10:11:17
+2137343466337341,Veronica,Cruz,5010,2137343466337341,854518728062939,user_quick_reply: BUTTON_AKB_pulling the fire alarm and call the fire department,:keycap_2:,2018-08-09 10:11:30
+2137343466337341,Veronica,Cruz,5011,854518728062939,2137343466337341,BOT: image,https://www.smartprimer.org:443/pictures/avatar/congrats/penguinnormal_happy_cyan.png,2018-08-09 10:11:33
+2137343466337341,Veronica,Cruz,5012,854518728062939,2137343466337341,BOT: message,Yes! You got the correct answer!,2018-08-09 10:11:35
+2137343466337341,Veronica,Cruz,5013,854518728062939,2137343466337341,BOT: quick reply,The correct answer is pulling the fire alarm and call the fire department.,2018-08-09 10:11:36
+2137343466337341,Veronica,Cruz,5014,2137343466337341,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-09 10:11:59
+2137343466337341,Veronica,Cruz,5015,854518728062939,2137343466337341,BOT: message,Here's a question for you:,2018-08-09 10:12:00
+2137343466337341,Veronica,Cruz,5016,854518728062939,2137343466337341,BOT: quick reply,"When using a ladder to climb a roof, the ladder must extend at least___ above it.",2018-08-09 10:12:02
+2137343466337341,Veronica,Cruz,5018,2137343466337341,854518728062939,user_typing,36,2018-08-09 10:12:09
+2137343466337341,Veronica,Cruz,5019,854518728062939,2137343466337341,BOT: image,https://www.smartprimer.org:443/pictures/avatar/congrats/penguinnormal_normal_pink.png,2018-08-09 10:12:12
+2137343466337341,Veronica,Cruz,5020,854518728062939,2137343466337341,BOT: message,Nice! :red_apple:,2018-08-09 10:12:14
+2137343466337341,Veronica,Cruz,5021,854518728062939,2137343466337341,BOT: quick reply,The correct answer is 36.,2018-08-09 10:12:16
+2137343466337341,Veronica,Cruz,5022,2137343466337341,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-09 10:12:22
+2137343466337341,Veronica,Cruz,5023,854518728062939,2137343466337341,BOT: message,Let's see if you can get this one.,2018-08-09 10:12:24
+2137343466337341,Veronica,Cruz,5024,854518728062939,2137343466337341,BOT: quick reply,"Everyone is at a risk of contracting a food-borne illness. However, who are at a greater risk of falling ill or even dying of infection?",2018-08-09 10:12:26
+2137343466337341,Veronica,Cruz,5025,2137343466337341,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-09 10:12:33
+2137343466337341,Veronica,Cruz,5026,854518728062939,2137343466337341,BOT: message,It's one of the following choices.,2018-08-09 10:12:35
+2137343466337341,Veronica,Cruz,5027,854518728062939,2137343466337341,BOT: quick reply,":keycap_1: infants, pregnant women, and people with weakened immune systems
+:keycap_2: pregnant women
+:keycap_3: people with weakened immune systems (those with HIV/AIDS, cancer, diabetes etc.)
+:keycap_4: infants
+",2018-08-09 10:12:36
+2137343466337341,Veronica,Cruz,5028,2137343466337341,854518728062939,"user_quick_reply: BUTTON_AKB_infants, pregnant women, and people with weakened immune systems",:keycap_1:,2018-08-09 10:12:43
+2137343466337341,Veronica,Cruz,5029,854518728062939,2137343466337341,BOT: message,Great! Keep it up! :flexed_biceps_medium-light_skin_tone:,2018-08-09 10:12:45
+2137343466337341,Veronica,Cruz,5030,854518728062939,2137343466337341,BOT: quick reply,"The correct answer is infants, pregnant women, and people with weakened immune systems.",2018-08-09 10:12:47
+2137343466337341,Veronica,Cruz,5032,2137343466337341,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-09 10:13:49
+2137343466337341,Veronica,Cruz,5033,854518728062939,2137343466337341,BOT: message,Here's a question for you:,2018-08-09 10:13:51
+2137343466337341,Veronica,Cruz,5034,854518728062939,2137343466337341,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-09 10:13:52
+2137343466337341,Veronica,Cruz,5035,854518728062939,2137343466337341,BOT: quick reply,The hint shows a list of fire extinguisher types matched with surfaces on which they can be used. Which is the incorrect option?,2018-08-09 10:13:54
+2137343466337341,Veronica,Cruz,5036,2137343466337341,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-09 10:14:09
+2137343466337341,Veronica,Cruz,5037,854518728062939,2137343466337341,BOT: message,It's one of the following choices.,2018-08-09 10:14:10
+2137343466337341,Veronica,Cruz,5038,854518728062939,2137343466337341,BOT: quick reply,":keycap_1: class D - Combustible metals such as magnesium, potassium, titanium, and sodium
+:keycap_2: class C - Wiring, fuse boxes, electrical equipment, and computers
+:keycap_3: class A - Cloth, wood, paper, and rubber
+:keycap_4: class K - Cooking fluids such as fats and oils
+:keycap_5: class B - Plastics, polyethylene, styrofoam
+",2018-08-09 10:14:12
+2137343466337341,Veronica,Cruz,5040,2137343466337341,854518728062939,user_quick_reply: I_DONT_KNOW,I dont know :downcast_face_with_sweat:,2018-08-09 10:15:18
+2137343466337341,Veronica,Cruz,5041,854518728062939,2137343466337341,BOT: quick reply,Are you sure you want to skip this question?,2018-08-09 10:15:20
+2137343466337341,Veronica,Cruz,5042,2137343466337341,854518728062939,user_quick_reply: I_DONT_KNOW,I dont know :downcast_face_with_sweat:,2018-08-09 10:15:21
+2137343466337341,Veronica,Cruz,5043,854518728062939,2137343466337341,BOT: quick reply,Are you sure you want to skip answering?,2018-08-09 10:15:22
+2137343466337341,Veronica,Cruz,5045,2137343466337341,854518728062939,user_quick_reply: GIVEUP_YES,"Yes, answer please.",2018-08-09 10:15:49
+2137343466337341,Veronica,Cruz,5046,854518728062939,2137343466337341,BOT: message,"I'm sorry, you didn't get the question right this time.",2018-08-09 10:15:51
+2137343466337341,Veronica,Cruz,5047,854518728062939,2137343466337341,BOT: message,"That's okay, you'll get it next time! :grinning_face_with_smiling_eyes:",2018-08-09 10:15:53
+2137343466337341,Veronica,Cruz,5048,854518728062939,2137343466337341,BOT: quick reply,"The correct answer is class B - Plastics, polyethylene, styrofoam.",2018-08-09 10:15:54
+2137343466337341,Veronica,Cruz,5049,2137343466337341,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-09 10:16:05
+2137343466337341,Veronica,Cruz,5050,854518728062939,2137343466337341,BOT: message,Let's take a look at this question.,2018-08-09 10:16:07
+2137343466337341,Veronica,Cruz,5051,854518728062939,2137343466337341,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-09 10:16:09
+2137343466337341,Veronica,Cruz,5052,854518728062939,2137343466337341,BOT: quick reply,What should you NOT do during a fire emergency?,2018-08-09 10:16:11
+2137343466337341,Veronica,Cruz,5053,2137343466337341,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-09 10:16:52
+2137343466337341,Veronica,Cruz,5054,854518728062939,2137343466337341,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-08-09 10:16:54
+2137343466337341,Veronica,Cruz,5055,854518728062939,2137343466337341,BOT: quick reply,":keycap_1: evacuating a building through designated exit routes
+:keycap_2: crawling low under the smoke while breathing only through your nose
+:keycap_3: re-entering the building without the permission of authorities
+:keycap_4: keeping fire doors shut to prevent the fire from spreading
+",2018-08-09 10:16:55
+2137343466337341,Veronica,Cruz,5057,2137343466337341,854518728062939,user_quick_reply: BUTTON_AKB_re-entering the building without the permission of authorities,:keycap_3:,2018-08-09 10:17:06
+2137343466337341,Veronica,Cruz,5058,854518728062939,2137343466337341,BOT: image,https://www.smartprimer.org:443/pictures/avatar/congrats/penguinnormal_happy_purple.png,2018-08-09 10:17:09
+2137343466337341,Veronica,Cruz,5059,854518728062939,2137343466337341,BOT: message,Nice work! Keep it up!,2018-08-09 10:17:10
+2137343466337341,Veronica,Cruz,5060,854518728062939,2137343466337341,BOT: quick reply,The correct answer is re-entering the building without the permission of authorities.,2018-08-09 10:17:12
+2137343466337341,Veronica,Cruz,5061,2137343466337341,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-09 10:17:20
+2137343466337341,Veronica,Cruz,5062,854518728062939,2137343466337341,BOT: message,Would you answer this question for me?,2018-08-09 10:17:22
+2137343466337341,Veronica,Cruz,5063,854518728062939,2137343466337341,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-09 10:17:23
+2137343466337341,Veronica,Cruz,5064,854518728062939,2137343466337341,BOT: quick reply,True or false: you are not required to ask a victim's permission to perform first aid.,2018-08-09 10:17:25
+2137343466337341,Veronica,Cruz,5065,2137343466337341,854518728062939,user_typing,False,2018-08-09 10:17:52
+2137343466337341,Veronica,Cruz,5066,854518728062939,2137343466337341,BOT: image,https://www.smartprimer.org:443/pictures/avatar/congrats/penguinnormal_happy_cyan.png,2018-08-09 10:17:54
+2137343466337341,Veronica,Cruz,5067,854518728062939,2137343466337341,BOT: message,Correct! :confetti_ball:,2018-08-09 10:17:56
+2137343466337341,Veronica,Cruz,5068,854518728062939,2137343466337341,BOT: quick reply,The correct answer is false.,2018-08-09 10:17:57
+2137343466337341,Veronica,Cruz,5069,2137343466337341,854518728062939,user_quick_reply: WHY,Why?,2018-08-09 10:18:02
+2137343466337341,Veronica,Cruz,5070,854518728062939,2137343466337341,BOT: message,This is an explanation of the question:,2018-08-09 10:18:04
+2137343466337341,Veronica,Cruz,5071,854518728062939,2137343466337341,BOT: quick reply,"Practitioners of first aid need to obtain advance consent or permission, the so-called expressed consent from the patient. To obtain consent, you should identify yourself, describe your level of medical training, and ask if it is all right to help. While administering first aid to an unresponsive victim, consent is implied or assumed, given that a reasonable person would grant permission to receive first aid care if able to do so.",2018-08-09 10:18:06
+2137343466337341,Veronica,Cruz,5073,2137343466337341,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-09 10:18:32
+2137343466337341,Veronica,Cruz,5074,854518728062939,2137343466337341,BOT: message,Would you answer this question for me?,2018-08-09 10:18:33
+2137343466337341,Veronica,Cruz,5075,854518728062939,2137343466337341,BOT: quick reply,True or false: portable fire extinguishers should only be used by trained employees.,2018-08-09 10:18:35
+2137343466337341,Veronica,Cruz,5076,2137343466337341,854518728062939,user_typing,True,2018-08-09 10:18:47
+2137343466337341,Veronica,Cruz,5077,854518728062939,2137343466337341,BOT: message,Correct! :confetti_ball:,2018-08-09 10:18:48
+2137343466337341,Veronica,Cruz,5078,854518728062939,2137343466337341,BOT: quick reply,The correct answer is true.,2018-08-09 10:18:50
+2137343466337341,Veronica,Cruz,5079,2137343466337341,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-09 10:18:57
+2137343466337341,Veronica,Cruz,5080,854518728062939,2137343466337341,BOT: message,Would you answer this question for me?,2018-08-09 10:18:58
+2137343466337341,Veronica,Cruz,5081,854518728062939,2137343466337341,BOT: quick reply,At what water temperature should you bathe frostbitten skin?,2018-08-09 10:19:00
+2137343466337341,Veronica,Cruz,5082,2137343466337341,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-09 10:19:07
+2137343466337341,Veronica,Cruz,5083,854518728062939,2137343466337341,BOT: message,Okay. I'll give you some choices.,2018-08-09 10:19:09
+2137343466337341,Veronica,Cruz,5084,854518728062939,2137343466337341,BOT: quick reply,":keycap_1: at 32 F (0 C)
+:keycap_2: between 104 to 107.6 F (40 to 42 C)
+:keycap_3: between 120 to 150 F (50 to 70 C)
+:keycap_4: you should never submerge frostbite into water
+",2018-08-09 10:19:10
+2137343466337341,Veronica,Cruz,5085,2137343466337341,854518728062939,user_quick_reply: BUTTON_AKB_between 104 to 107.6 F (40 to 42 C),:keycap_2:,2018-08-09 10:19:23
+2137343466337341,Veronica,Cruz,5086,854518728062939,2137343466337341,BOT: image,https://www.smartprimer.org:443/pictures/avatar/congrats/penguinnormal_normal.png,2018-08-09 10:19:26
+2137343466337341,Veronica,Cruz,5087,854518728062939,2137343466337341,BOT: message,Nice work! Keep it up!,2018-08-09 10:19:27
+2137343466337341,Veronica,Cruz,5088,854518728062939,2137343466337341,BOT: quick reply,The correct answer is between 104 to 107.6 F (40 to 42 C).,2018-08-09 10:19:29
+2137343466337341,Veronica,Cruz,5089,2137343466337341,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-09 10:19:34
+2137343466337341,Veronica,Cruz,5090,854518728062939,2137343466337341,BOT: message,"Alrighty, let's try this one.",2018-08-09 10:19:36
+2137343466337341,Veronica,Cruz,5091,854518728062939,2137343466337341,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-09 10:19:37
+2137343466337341,Veronica,Cruz,5092,854518728062939,2137343466337341,BOT: quick reply,What should you NOT do during a fire emergency?,2018-08-09 10:19:39
+2137343466337341,Veronica,Cruz,5095,2137343466337341,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-09 10:21:58
+2137343466337341,Veronica,Cruz,5096,854518728062939,2137343466337341,BOT: message,Pick one of the following answers.,2018-08-09 10:21:59
+2137343466337341,Veronica,Cruz,5097,854518728062939,2137343466337341,BOT: quick reply,":keycap_1: keeping fire doors shut to prevent the fire from spreading
+:keycap_2: crawling low under the smoke while breathing only through your nose
+:keycap_3: re-entering the building without the permission of authorities
+:keycap_4: evacuating a building through designated exit routes
+",2018-08-09 10:22:01
+2137343466337341,Veronica,Cruz,5098,2137343466337341,854518728062939,user_quick_reply: BUTTON_AKB_re-entering the building without the permission of authorities,:keycap_3:,2018-08-09 10:22:16
+2137343466337341,Veronica,Cruz,5099,854518728062939,2137343466337341,BOT: message,Great job!,2018-08-09 10:22:18
+2137343466337341,Veronica,Cruz,5100,854518728062939,2137343466337341,BOT: quick reply,The correct answer is re-entering the building without the permission of authorities.,2018-08-09 10:22:19
+2137343466337341,Veronica,Cruz,5102,2137343466337341,854518728062939,user_quick_reply: WHY,Why?,2018-08-09 10:22:29
+2137343466337341,Veronica,Cruz,5103,854518728062939,2137343466337341,BOT: message,I hope this explanation could help you understand the the question.,2018-08-09 10:22:30
+2137343466337341,Veronica,Cruz,5104,854518728062939,2137343466337341,BOT: quick reply,"According to the U.S. Fire Administration, you should not go back inside a burning building. Apart from the risk of burning, the increasingly depleted oxygen levels and high amount of toxic gases could pose a great hazard to your life. Leave the fire-fighting to the authorities, even if you know that someone is stuck inside the burning building.",2018-08-09 10:22:32
+2137343466337341,Veronica,Cruz,5636,854518728062939,2137343466337341,BOT: quick reply,"Hi Veronica, you haven't talked to me for a while. Would you like to resume the learning with me?",2018-08-09 20:00:13
+2137343466337341,Veronica,Cruz,5849,854518728062939,2137343466337341,BOT: message,Let's see if you can get this one.,2018-08-10 09:37:41
+2137343466337341,Veronica,Cruz,5850,854518728062939,2137343466337341,BOT: quick reply,Workplaces with a minimum of ____ employees need to have a written fire prevention program in place.,2018-08-10 09:37:43
+2137343466337341,Veronica,Cruz,5851,2137343466337341,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-10 09:37:49
+2137343466337341,Veronica,Cruz,5852,854518728062939,2137343466337341,BOT: message,Okay. I'll give you some choices.,2018-08-10 09:37:51
+2137343466337341,Veronica,Cruz,5853,854518728062939,2137343466337341,BOT: quick reply,":keycap_1: 25
+:keycap_2: 11
+:keycap_3: 20
+:keycap_4: 5
+",2018-08-10 09:37:53
+2137343466337341,Veronica,Cruz,5854,2137343466337341,854518728062939,user_quick_reply: BUTTON_DKB_25,:keycap_1:,2018-08-10 09:37:58
+2137343466337341,Veronica,Cruz,5855,854518728062939,2137343466337341,BOT: message,"Oops, that wasn't quite correct. :disappointed_face:",2018-08-10 09:37:59
+2137343466337341,Veronica,Cruz,5856,854518728062939,2137343466337341,BOT: quick reply,The correct answer is 11.,2018-08-10 09:38:01
+2137343466337341,Veronica,Cruz,5857,2137343466337341,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-10 09:38:07
+2137343466337341,Veronica,Cruz,5858,854518728062939,2137343466337341,BOT: message,Let's see if you can answer this question.,2018-08-10 09:38:09
+2137343466337341,Veronica,Cruz,5859,854518728062939,2137343466337341,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-10 09:38:10
+2137343466337341,Veronica,Cruz,5860,854518728062939,2137343466337341,BOT: quick reply,True or false: portable fire extinguishers should only be used by trained employees.,2018-08-10 09:38:12
+2137343466337341,Veronica,Cruz,5861,2137343466337341,854518728062939,user_typing,False,2018-08-10 09:38:21
+2137343466337341,Veronica,Cruz,5862,854518728062939,2137343466337341,BOT: message,That wasn't quite what we were looking for. :disappointed_face:,2018-08-10 09:38:22
+2137343466337341,Veronica,Cruz,5863,854518728062939,2137343466337341,BOT: quick reply,The correct answer is true.,2018-08-10 09:38:24
+2137343466337341,Veronica,Cruz,5864,2137343466337341,854518728062939,user_quick_reply: SWITCH_SUBJECT,Change subject :shuffle_tracks_button:,2018-08-10 09:39:21
+2137343466337341,Veronica,Cruz,5865,854518728062939,2137343466337341,BOT: quick reply,"Sure, which subject would you like me to quiz you on?:backhand_index_pointing_down_medium-light_skin_tone:",2018-08-10 09:39:22
+2137343466337341,Veronica,Cruz,5866,2137343466337341,854518728062939,persistent_menu: CHAT_WITH_ME,Chat with Me :penguin:,2018-08-10 09:39:34
+2137343466337341,Veronica,Cruz,5867,854518728062939,2137343466337341,BOT: quick reply,Would you like me to tell you something interesting?,2018-08-10 09:39:35
+2137343466337341,Veronica,Cruz,5868,2137343466337341,854518728062939,user_quick_reply: FUN_FACT_SCIENCE,Fun fact :light_bulb:,2018-08-10 09:39:41
+2137343466337341,Veronica,Cruz,5869,854518728062939,2137343466337341,BOT: message,Here is an interesting one.,2018-08-10 09:39:43
+2137343466337341,Veronica,Cruz,5870,854518728062939,2137343466337341,BOT: quick reply,"The ears of a cricket are located on the front legs, just below the knee.",2018-08-10 09:39:45
+2137343466337341,Veronica,Cruz,5871,2137343466337341,854518728062939,user_quick_reply: FUN_FACT_SCIENCE,One more fun fact:light_bulb:,2018-08-10 09:39:57
+2137343466337341,Veronica,Cruz,5872,854518728062939,2137343466337341,BOT: message,Here is an interesting one.,2018-08-10 09:39:59
+2137343466337341,Veronica,Cruz,5873,854518728062939,2137343466337341,BOT: quick reply,"In 100 years ago, the first virus was found in both plants and animals.",2018-08-10 09:40:01
+2137343466337341,Veronica,Cruz,5874,2137343466337341,854518728062939,user_quick_reply: FUN_FACT_SCIENCE,One more fun fact:light_bulb:,2018-08-10 09:40:15
+2137343466337341,Veronica,Cruz,5875,854518728062939,2137343466337341,BOT: message,Here is a fun fact for you.,2018-08-10 09:40:17
+2137343466337341,Veronica,Cruz,5876,854518728062939,2137343466337341,BOT: quick reply,It takes approximately 12 hours for food to entirely digest.,2018-08-10 09:40:19
+2137343466337341,Veronica,Cruz,5877,2137343466337341,854518728062939,user_quick_reply: FUN_FACT_SCIENCE,One more fun fact:light_bulb:,2018-08-10 09:51:45
+2137343466337341,Veronica,Cruz,5878,854518728062939,2137343466337341,BOT: message,Here is a fun fact for you.,2018-08-10 09:51:47
+2137343466337341,Veronica,Cruz,5879,854518728062939,2137343466337341,BOT: quick reply,"According to an old English system of time units, a moment is one and a half minutes.",2018-08-10 09:51:48
+2137343466337341,Veronica,Cruz,5880,2137343466337341,854518728062939,user_quick_reply: FUN_FACT_SCIENCE,One more fun fact:light_bulb:,2018-08-10 09:52:02
+2137343466337341,Veronica,Cruz,5881,854518728062939,2137343466337341,BOT: message,Here is a good one.,2018-08-10 09:52:04
+2137343466337341,Veronica,Cruz,5882,854518728062939,2137343466337341,BOT: quick reply,Flea's can jump 130 times higher than their own height. In human terms this is equal to a 6ft. person jumping 780 ft. into the air.,2018-08-10 09:52:06
+2137343466337341,Veronica,Cruz,5883,2137343466337341,854518728062939,user_quick_reply: JOKE,Joke :beaming_face_with_smiling_eyes:,2018-08-10 09:52:15
+2137343466337341,Veronica,Cruz,5884,854518728062939,2137343466337341,BOT: message,Here's one I thought might be interesting.,2018-08-10 09:52:16
+2137343466337341,Veronica,Cruz,5885,854518728062939,2137343466337341,BOT: quick reply,Q: How does a hurricane see? A: With its eye.,2018-08-10 09:52:18
+2137343466337341,Veronica,Cruz,5886,2137343466337341,854518728062939,user_quick_reply: JOKE,Another joke :beaming_face_with_smiling_eyes:,2018-08-10 09:52:23
+2137343466337341,Veronica,Cruz,5887,854518728062939,2137343466337341,BOT: message,Here is an interesting one for you.,2018-08-10 09:52:25
+2137343466337341,Veronica,Cruz,5888,854518728062939,2137343466337341,BOT: quick reply,Q. What do you call a fake noodle? A. An impasta.,2018-08-10 09:52:26
+2137343466337341,Veronica,Cruz,5889,2137343466337341,854518728062939,user_quick_reply: JOKE,Another joke :beaming_face_with_smiling_eyes:,2018-08-10 09:52:32
+2137343466337341,Veronica,Cruz,5890,854518728062939,2137343466337341,BOT: message,Here is an interesting one:,2018-08-10 09:52:33
+2137343466337341,Veronica,Cruz,5891,854518728062939,2137343466337341,BOT: quick reply,"Q: What starts with a P, ends with an E, and has thousands of letters? A: The Post Office!",2018-08-10 09:52:35
+2137343466337341,Veronica,Cruz,5892,2137343466337341,854518728062939,user_quick_reply: FUN_FACT_SCIENCE,Fun fact :light_bulb:,2018-08-10 09:52:44
+2137343466337341,Veronica,Cruz,5893,854518728062939,2137343466337341,BOT: message,Here is an interesting one.,2018-08-10 09:52:46
+2137343466337341,Veronica,Cruz,5894,854518728062939,2137343466337341,BOT: quick reply,There are 206 bones in the adult human body and there are 300 in children (as they grow some of the bones fuse together).,2018-08-10 09:52:47
+2137343466337341,Veronica,Cruz,5895,2137343466337341,854518728062939,user_quick_reply: FUN_FACT_SCIENCE,Another fun fact:light_bulb:,2018-08-10 09:52:56
+2137343466337341,Veronica,Cruz,5896,854518728062939,2137343466337341,BOT: message,Here is a good one.,2018-08-10 09:52:58
+2137343466337341,Veronica,Cruz,5897,854518728062939,2137343466337341,BOT: quick reply,"When glass breaks, the cracks move at speeds of up to 3,000 miles per hour.",2018-08-10 09:52:59
+2137343466337341,Veronica,Cruz,5898,2137343466337341,854518728062939,user_quick_reply: FUN_FACT_SCIENCE,Another fun fact:light_bulb:,2018-08-10 09:53:21
+2137343466337341,Veronica,Cruz,5899,854518728062939,2137343466337341,BOT: message,Here's one I thought might be interesting.,2018-08-10 09:53:22
+2137343466337341,Veronica,Cruz,5900,854518728062939,2137343466337341,BOT: quick reply,The smallest bone in the human body is the stapes or stirrup bone located in the middle ear. It is approximately .11 inches (.28 cm) long.,2018-08-10 09:53:24
+2137343466337341,Veronica,Cruz,5901,2137343466337341,854518728062939,user_quick_reply: FUN_FACT_SCIENCE,One more fun fact:light_bulb:,2018-08-10 09:54:20
+2137343466337341,Veronica,Cruz,5902,854518728062939,2137343466337341,BOT: message,Here's one I thought might be fun.,2018-08-10 09:54:22
+2137343466337341,Veronica,Cruz,5903,854518728062939,2137343466337341,BOT: quick reply,"An inch (2.5 centimeters) of rain water is equivalent to 15 inches (38.1 centimeters) of dry, powdery snow.",2018-08-10 09:54:23
+2137343466337341,Veronica,Cruz,5904,2137343466337341,854518728062939,user_quick_reply: FUN_FACT_SCIENCE,One more fun fact:light_bulb:,2018-08-10 09:54:43
+2137343466337341,Veronica,Cruz,5905,854518728062939,2137343466337341,BOT: message,Here's one I thought might be interesting.,2018-08-10 09:54:44
+2137343466337341,Veronica,Cruz,5906,854518728062939,2137343466337341,BOT: quick reply,Ten minutes of one hurricane contains enough energy to match the nuclear stockpiles of the world.,2018-08-10 09:54:46
+2137343466337341,Veronica,Cruz,5907,2137343466337341,854518728062939,user_quick_reply: FUN_FACT_SCIENCE,Another fun fact:light_bulb:,2018-08-10 09:54:59
+2137343466337341,Veronica,Cruz,5908,854518728062939,2137343466337341,BOT: message,Here's one I thought might be fun.,2018-08-10 09:55:01
+2137343466337341,Veronica,Cruz,5909,854518728062939,2137343466337341,BOT: quick reply,"Tigers have striped skin, not just striped fur.",2018-08-10 09:55:02
+2137343466337341,Veronica,Cruz,5910,2137343466337341,854518728062939,user_quick_reply: FUN_FACT_SCIENCE,One more fun fact:light_bulb:,2018-08-10 09:55:35
+2137343466337341,Veronica,Cruz,5911,854518728062939,2137343466337341,BOT: message,Here is an interesting one.,2018-08-10 09:55:37
+2137343466337341,Veronica,Cruz,5912,854518728062939,2137343466337341,BOT: quick reply,The ocean is 8 Empire State Buildings deep on average.,2018-08-10 09:55:38
+2137343466337341,Veronica,Cruz,5913,2137343466337341,854518728062939,user_quick_reply: FUN_FACT_SCIENCE,One more fun fact:light_bulb:,2018-08-10 09:55:47
+2137343466337341,Veronica,Cruz,5914,854518728062939,2137343466337341,BOT: message,Here's one I thought might be interesting.,2018-08-10 09:55:48
+2137343466337341,Veronica,Cruz,5915,854518728062939,2137343466337341,BOT: quick reply,Flea's can jump 130 times higher than their own height. In human terms this is equal to a 6ft. person jumping 780 ft. into the air.,2018-08-10 09:55:50
+2137343466337341,Veronica,Cruz,5916,2137343466337341,854518728062939,user_quick_reply: JOKE,Joke :beaming_face_with_smiling_eyes:,2018-08-10 09:55:58
+2137343466337341,Veronica,Cruz,5917,854518728062939,2137343466337341,BOT: message,Here is a good one.,2018-08-10 09:56:00
+2137343466337341,Veronica,Cruz,5918,854518728062939,2137343466337341,BOT: quick reply,Q: What did zero say to eight? A: Nice belt.,2018-08-10 09:56:01
+2137343466337341,Veronica,Cruz,5919,2137343466337341,854518728062939,user_quick_reply: FUN_FACT_SCIENCE,Fun fact :light_bulb:,2018-08-10 09:56:27
+2137343466337341,Veronica,Cruz,5920,854518728062939,2137343466337341,BOT: message,Here is a fun fact for you.,2018-08-10 09:56:29
+2137343466337341,Veronica,Cruz,5921,854518728062939,2137343466337341,BOT: quick reply,"According to an old English system of time units, a moment is one and a half minutes.",2018-08-10 09:56:30
+2137343466337341,Veronica,Cruz,5922,2137343466337341,854518728062939,user_quick_reply: FUN_FACT_SCIENCE,One more fun fact:light_bulb:,2018-08-10 09:56:54
+2137343466337341,Veronica,Cruz,5923,854518728062939,2137343466337341,BOT: message,Here's one I thought might be interesting.,2018-08-10 09:56:55
+2137343466337341,Veronica,Cruz,5924,854518728062939,2137343466337341,BOT: quick reply,"The human eye blinks an average of 4,200,000 times a year.",2018-08-10 09:56:57
+2137343466337341,Veronica,Cruz,5925,2137343466337341,854518728062939,user_quick_reply: FUN_FACT_SCIENCE,Another fun fact:light_bulb:,2018-08-10 09:57:15
+2137343466337341,Veronica,Cruz,5926,854518728062939,2137343466337341,BOT: message,Here's one I thought might be interesting.,2018-08-10 09:57:16
+2137343466337341,Veronica,Cruz,5927,854518728062939,2137343466337341,BOT: quick reply,"The cosmos contains approximately 50,000,000,000 galaxies.",2018-08-10 09:57:18
+2137343466337341,Veronica,Cruz,5928,2137343466337341,854518728062939,user_quick_reply: FUN_FACT_SCIENCE,Another fun fact:light_bulb:,2018-08-10 09:57:38
+2137343466337341,Veronica,Cruz,5929,854518728062939,2137343466337341,BOT: message,Here's one I thought might be interesting.,2018-08-10 09:57:40
+2137343466337341,Veronica,Cruz,5930,854518728062939,2137343466337341,BOT: quick reply,"The human eye blinks an average of 4,200,000 times a year.",2018-08-10 09:57:42
+2137343466337341,Veronica,Cruz,5931,2137343466337341,854518728062939,user_quick_reply: JOKE,Joke :beaming_face_with_smiling_eyes:,2018-08-10 09:58:08
+2137343466337341,Veronica,Cruz,5932,854518728062939,2137343466337341,BOT: message,Here is a good one.,2018-08-10 09:58:10
+2137343466337341,Veronica,Cruz,5933,854518728062939,2137343466337341,BOT: quick reply,Q: Why dont cats play poker in the jungle? A: There are too many cheetahs.,2018-08-10 09:58:11
+2137343466337341,Veronica,Cruz,5934,2137343466337341,854518728062939,user_quick_reply: FUN_FACT_SCIENCE,Fun fact :light_bulb:,2018-08-10 09:59:30
+2137343466337341,Veronica,Cruz,5935,854518728062939,2137343466337341,BOT: message,Here is a fun fact for you.,2018-08-10 09:59:32
+2137343466337341,Veronica,Cruz,5936,854518728062939,2137343466337341,BOT: quick reply,"The ears of a cricket are located on the front legs, just below the knee.",2018-08-10 09:59:33
+2137343466337341,Veronica,Cruz,5937,2137343466337341,854518728062939,user_quick_reply: JOKE,Joke :beaming_face_with_smiling_eyes:,2018-08-10 10:01:15
+2137343466337341,Veronica,Cruz,5938,854518728062939,2137343466337341,BOT: message,Here is an interesting one:,2018-08-10 10:01:17
+2137343466337341,Veronica,Cruz,5939,854518728062939,2137343466337341,BOT: quick reply,"Q: What starts with a P, ends with an E, and has thousands of letters? A: The Post Office!",2018-08-10 10:01:19
+2137343466337341,Veronica,Cruz,5940,2137343466337341,854518728062939,user_quick_reply: FUN_FACT_SCIENCE,Fun fact :light_bulb:,2018-08-10 10:01:26
+2137343466337341,Veronica,Cruz,5941,854518728062939,2137343466337341,BOT: message,Here is a fun fact for you.,2018-08-10 10:01:28
+2137343466337341,Veronica,Cruz,5942,854518728062939,2137343466337341,BOT: quick reply,"A new born blue whale measures 20-26 feet (6.0 - 7.9 meters) long and weighs up to 6,614 pounds (3003 kg).",2018-08-10 10:01:30
+2137343466337341,Veronica,Cruz,5943,2137343466337341,854518728062939,user_quick_reply: FUN_FACT_SCIENCE,One more fun fact:light_bulb:,2018-08-10 10:02:16
+2137343466337341,Veronica,Cruz,5944,854518728062939,2137343466337341,BOT: message,Here is a fun fact for you.,2018-08-10 10:02:18
+2137343466337341,Veronica,Cruz,5945,854518728062939,2137343466337341,BOT: quick reply,"The largest man-made lake in the U.S. is Lake Mead, created by Hoover Dam.",2018-08-10 10:02:20
+2137343466337341,Veronica,Cruz,5946,2137343466337341,854518728062939,user_quick_reply: FUN_FACT_SCIENCE,Another fun fact:light_bulb:,2018-08-10 10:02:44
+2137343466337341,Veronica,Cruz,5947,854518728062939,2137343466337341,BOT: message,Here is an interesting one.,2018-08-10 10:02:46
+2137343466337341,Veronica,Cruz,5948,854518728062939,2137343466337341,BOT: quick reply,The blue whale can produce sounds up to 188 decibels. This is the loudest sound produced by a living animal and has been detected as far away as 530 miles.,2018-08-10 10:02:47
+2137343466337341,Veronica,Cruz,5949,2137343466337341,854518728062939,user_quick_reply: FUN_FACT_SCIENCE,One more fun fact:light_bulb:,2018-08-10 10:03:03
+2137343466337341,Veronica,Cruz,5950,854518728062939,2137343466337341,BOT: message,Here's one I thought might be interesting.,2018-08-10 10:03:04
+2137343466337341,Veronica,Cruz,5951,854518728062939,2137343466337341,BOT: quick reply,"An inch (2.5 centimeters) of rain water is equivalent to 15 inches (38.1 centimeters) of dry, powdery snow.",2018-08-10 10:03:06
+2137343466337341,Veronica,Cruz,6141,854518728062939,2137343466337341,BOT: quick reply,"Hi Veronica, you haven't talked to me for a while. Would you like to resume the learning with me?",2018-08-10 20:00:35
+2137343466337341,Veronica,Cruz,6434,854518728062939,2137343466337341,BOT: quick reply,"Hi Veronica, you haven't talked to me for a while. Would you like to resume the learning with me?",2018-08-11 20:00:55
+2137343466337341,Veronica,Cruz,6848,854518728062939,2137343466337341,BOT: quick reply,"Hi Veronica, you haven't talked to me for a while. Would you like to resume the learning with me?",2018-08-12 20:01:15
+2137343466337341,Veronica,Cruz,7397,2137343466337341,854518728062939,user_quick_reply: NEXT_QUESTION,Tap me :white_heavy_check_mark:,2018-08-13 16:38:13
+2137343466337341,Veronica,Cruz,7398,854518728062939,2137343466337341,BOT: message,Let's see if you can answer this question.,2018-08-13 16:38:14
+2137343466337341,Veronica,Cruz,7399,854518728062939,2137343466337341,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-13 16:38:16
+2137343466337341,Veronica,Cruz,7400,854518728062939,2137343466337341,BOT: quick reply,"True or false: if you wear a back belt, you can lift more weight than you could without a belt.",2018-08-13 16:38:17
+2137343466337341,Veronica,Cruz,7401,2137343466337341,854518728062939,user_typing,False,2018-08-13 16:38:25
+2137343466337341,Veronica,Cruz,7402,854518728062939,2137343466337341,BOT: message,Fantastic! :hundred_points:,2018-08-13 16:38:26
+2137343466337341,Veronica,Cruz,7403,854518728062939,2137343466337341,BOT: quick reply,The correct answer is false.,2018-08-13 16:38:28
+2137343466337341,Veronica,Cruz,7404,2137343466337341,854518728062939,user_quick_reply: SWITCH_SUBJECT,Change subject :shuffle_tracks_button:,2018-08-13 16:38:33
+2137343466337341,Veronica,Cruz,7405,854518728062939,2137343466337341,BOT: quick reply,"Sure, which subject would you want to study?:backhand_index_pointing_down_medium-light_skin_tone:",2018-08-13 16:38:34
+2137343466337341,Veronica,Cruz,7406,2137343466337341,854518728062939,user_quick_reply: SCIENCE,Science:microscope:,2018-08-13 16:38:41
+2137343466337341,Veronica,Cruz,7407,854518728062939,2137343466337341,BOT: image,https://www.smartprimer.org:443/pictures/avatar/evolvesafety_scientist.gif,2018-08-13 16:38:45
+2137343466337341,Veronica,Cruz,7408,854518728062939,2137343466337341,BOT: quick reply,Science rules! Let's see what you know.,2018-08-13 16:38:46
+2137343466337341,Veronica,Cruz,7409,2137343466337341,854518728062939,user_quick_reply: NEXT_QUESTION,Alright :clapping_hands_medium-light_skin_tone:,2018-08-13 16:38:51
+2137343466337341,Veronica,Cruz,7410,854518728062939,2137343466337341,BOT: message,Let's take a look at this question.,2018-08-13 16:38:53
+2137343466337341,Veronica,Cruz,7411,854518728062939,2137343466337341,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-13 16:38:54
+2137343466337341,Veronica,Cruz,7412,854518728062939,2137343466337341,BOT: quick reply,What are the little sacs at the end of the bronchioles called?,2018-08-13 16:38:56
+2137343466337341,Veronica,Cruz,7413,2137343466337341,854518728062939,user_typing,Alveoli,2018-08-13 16:39:06
+2137343466337341,Veronica,Cruz,7414,854518728062939,2137343466337341,BOT: image,https://www.smartprimer.org:443/pictures/avatar/congrats/penguinnormal_jubilated_pink.png,2018-08-13 16:39:09
+2137343466337341,Veronica,Cruz,7415,854518728062939,2137343466337341,BOT: message,Correct! :confetti_ball:,2018-08-13 16:39:10
+2137343466337341,Veronica,Cruz,7416,854518728062939,2137343466337341,BOT: quick reply,The correct answer is alveoli.,2018-08-13 16:39:12
+2137343466337341,Veronica,Cruz,7417,2137343466337341,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-13 16:39:16
+2137343466337341,Veronica,Cruz,7418,854518728062939,2137343466337341,BOT: message,Let's see if you would answer this one.,2018-08-13 16:39:18
+2137343466337341,Veronica,Cruz,7419,854518728062939,2137343466337341,BOT: quick reply,All organisms can be classified into one of three of this least specific grouping?,2018-08-13 16:39:19
+2137343466337341,Veronica,Cruz,7420,2137343466337341,854518728062939,user_typing,Domain,2018-08-13 16:39:25
+2137343466337341,Veronica,Cruz,7421,854518728062939,2137343466337341,BOT: message,Nice! :red_apple:,2018-08-13 16:39:27
+2137343466337341,Veronica,Cruz,7422,854518728062939,2137343466337341,BOT: quick reply,The correct answer is domains.,2018-08-13 16:39:28
+2137343466337341,Veronica,Cruz,7423,2137343466337341,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-13 16:39:33
+2137343466337341,Veronica,Cruz,7424,854518728062939,2137343466337341,BOT: message,"Alrighty, let's try this one.",2018-08-13 16:39:35
+2137343466337341,Veronica,Cruz,7425,854518728062939,2137343466337341,BOT: quick reply,What is the term for the total kinetic energy of moving particles of matter?,2018-08-13 16:39:37
+2137343466337341,Veronica,Cruz,7426,2137343466337341,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-13 16:39:42
+2137343466337341,Veronica,Cruz,7427,854518728062939,2137343466337341,BOT: message,It's one of the following choices.,2018-08-13 16:39:44
+2137343466337341,Veronica,Cruz,7428,854518728062939,2137343466337341,BOT: quick reply,":keycap_1: heavy energy
+:keycap_2: Newton's energy
+:keycap_3: thermal energy
+:keycap_4: mechanical energy
+",2018-08-13 16:39:45
+2137343466337341,Veronica,Cruz,7429,2137343466337341,854518728062939,user_quick_reply: BUTTON_DKB_mechanical energy,:keycap_4:,2018-08-13 16:39:53
+2137343466337341,Veronica,Cruz,7430,854518728062939,2137343466337341,BOT: message,"Oops, that is not correct. :disappointed_face:",2018-08-13 16:39:54
+2137343466337341,Veronica,Cruz,7431,854518728062939,2137343466337341,BOT: quick reply,The correct answer is thermal energy.,2018-08-13 16:39:56
+2137343466337341,Veronica,Cruz,7432,2137343466337341,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-13 16:40:01
+2137343466337341,Veronica,Cruz,7433,854518728062939,2137343466337341,BOT: message,Would you answer this question for me?,2018-08-13 16:40:02
+2137343466337341,Veronica,Cruz,7434,854518728062939,2137343466337341,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-13 16:40:04
+2137343466337341,Veronica,Cruz,7435,854518728062939,2137343466337341,BOT: quick reply,What is a fiber that is found only in mammals?,2018-08-13 16:40:05
+2137343466337341,Veronica,Cruz,7436,2137343466337341,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-13 16:40:11
+2137343466337341,Veronica,Cruz,7437,854518728062939,2137343466337341,BOT: message,Pick one of the following answers.,2018-08-13 16:40:13
+2137343466337341,Veronica,Cruz,7438,854518728062939,2137343466337341,BOT: quick reply,":keycap_1: hair
+:keycap_2: nails
+:keycap_3: feathers
+:keycap_4: muscle
+",2018-08-13 16:40:14
+2137343466337341,Veronica,Cruz,7439,2137343466337341,854518728062939,user_quick_reply: BUTTON_AKB_hair,:keycap_1:,2018-08-13 16:40:27
+2137343466337341,Veronica,Cruz,7440,854518728062939,2137343466337341,BOT: message,Great! Keep it up! :flexed_biceps_medium-light_skin_tone:,2018-08-13 16:40:28
+2137343466337341,Veronica,Cruz,7441,854518728062939,2137343466337341,BOT: quick reply,The correct answer is hair.,2018-08-13 16:40:30
+2137343466337341,Veronica,Cruz,7442,2137343466337341,854518728062939,user_quick_reply: SWITCH_SUBJECT,Change subject :shuffle_tracks_button:,2018-08-13 16:40:36
+2137343466337341,Veronica,Cruz,7443,854518728062939,2137343466337341,BOT: quick reply,"Cool, which subject do you want to study?:backhand_index_pointing_down_medium-light_skin_tone:",2018-08-13 16:40:38
+2137343466337341,Veronica,Cruz,7444,2137343466337341,854518728062939,user_quick_reply: SAFETY,Safety:hammer_and_wrench:,2018-08-13 16:40:43
+2137343466337341,Veronica,Cruz,7445,854518728062939,2137343466337341,BOT: image,https://www.smartprimer.org:443/pictures/avatar/evolvescientist_safety.gif,2018-08-13 16:40:47
+2137343466337341,Veronica,Cruz,7446,854518728062939,2137343466337341,BOT: quick reply,Good choice! Let's see what you know about safety!,2018-08-13 16:40:49
+2137343466337341,Veronica,Cruz,7447,2137343466337341,854518728062939,user_quick_reply: NEXT_QUESTION,Sure :backhand_index_pointing_right_medium-light_skin_tone:,2018-08-13 16:40:59
+2137343466337341,Veronica,Cruz,7448,854518728062939,2137343466337341,BOT: message,See if you can answer this next one.,2018-08-13 16:41:00
+2137343466337341,Veronica,Cruz,7449,854518728062939,2137343466337341,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-13 16:41:02
+2137343466337341,Veronica,Cruz,7450,854518728062939,2137343466337341,BOT: quick reply,"When using a ladder to climb a roof, the ladder must extend at least___ above it.",2018-08-13 16:41:03
+2137343466337341,Veronica,Cruz,7451,2137343466337341,854518728062939,user_typing,3 feet,2018-08-13 16:41:11
+2137343466337341,Veronica,Cruz,7452,854518728062939,2137343466337341,BOT: message,"I'm sorry, but that was incorrect. :disappointed_face:",2018-08-13 16:41:13
+2137343466337341,Veronica,Cruz,7453,854518728062939,2137343466337341,BOT: quick reply,The correct answer is 36.,2018-08-13 16:41:14
+2137343466337341,Veronica,Cruz,7454,2137343466337341,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-13 16:41:20
+2137343466337341,Veronica,Cruz,7455,854518728062939,2137343466337341,BOT: message,Could you answer this one for me?,2018-08-13 16:41:22
+2137343466337341,Veronica,Cruz,7456,854518728062939,2137343466337341,BOT: quick reply,True or false: the primary function of a fire door is to exit a building in case of fire.,2018-08-13 16:41:23
+2137343466337341,Veronica,Cruz,7457,2137343466337341,854518728062939,user_typing,False,2018-08-13 16:41:31
+2137343466337341,Veronica,Cruz,7458,854518728062939,2137343466337341,BOT: image,https://www.smartprimer.org:443/pictures/avatar/congrats/penguinnormal_jubilated_purple.png,2018-08-13 16:41:34
+2137343466337341,Veronica,Cruz,7459,854518728062939,2137343466337341,BOT: message,Thats right! :party_popper:,2018-08-13 16:41:35
+2137343466337341,Veronica,Cruz,7460,854518728062939,2137343466337341,BOT: quick reply,The correct answer is false.,2018-08-13 16:41:36
+2137343466337341,Veronica,Cruz,7461,2137343466337341,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-13 16:41:43
+2137343466337341,Veronica,Cruz,7462,854518728062939,2137343466337341,BOT: message,Let's see if you would answer this one.,2018-08-13 16:41:45
+2137343466337341,Veronica,Cruz,7463,854518728062939,2137343466337341,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-13 16:41:46
+2137343466337341,Veronica,Cruz,7464,854518728062939,2137343466337341,BOT: quick reply,"When using a ladder to climb a roof, the ladder must extend at least___ above it.",2018-08-13 16:41:47
+2137343466337341,Veronica,Cruz,7465,2137343466337341,854518728062939,user_typing,36,2018-08-13 16:41:53
+2137343466337341,Veronica,Cruz,7466,854518728062939,2137343466337341,BOT: image,https://www.smartprimer.org:443/pictures/avatar/congrats/penguinnormal_jubilated_orange.png,2018-08-13 16:41:55
+2137343466337341,Veronica,Cruz,7467,854518728062939,2137343466337341,BOT: message,Nice! :red_apple:,2018-08-13 16:41:57
+2137343466337341,Veronica,Cruz,7468,854518728062939,2137343466337341,BOT: quick reply,The correct answer is 36.,2018-08-13 16:41:58
+2137343466337341,Veronica,Cruz,7469,2137343466337341,854518728062939,user_quick_reply: WHY,Why?,2018-08-13 16:42:05
+2137343466337341,Veronica,Cruz,7470,854518728062939,2137343466337341,BOT: message,Here's why:,2018-08-13 16:42:07
+2137343466337341,Veronica,Cruz,7471,854518728062939,2137343466337341,BOT: quick reply,The ladder must extend at least 3 ft (36 inches) above the landing surface to allow worker a hand hold for climbing up and down the ladder.,2018-08-13 16:42:08
+2137343466337341,Veronica,Cruz,8091,854518728062939,2137343466337341,BOT: quick reply,"Hi Veronica, you haven't talked to me for a while. Would you like to resume the learning with me?",2018-08-13 20:01:33
+2137343466337341,Veronica,Cruz,8424,854518728062939,2137343466337341,BOT: quick reply,"Hi Veronica, you haven't talked to me for a while. Would you like to resume the learning with me?",2018-08-14 20:01:55
+2137343466337341,Veronica,Cruz,9009,854518728062939,2137343466337341,BOT: quick reply,"Hi Veronica, you haven't talked to me for a while. Would you like to resume the learning with me?",2018-08-15 20:02:22
+2137343466337341,Veronica,Cruz,10221,854518728062939,2137343466337341,BOT: quick reply,"Hi Veronica, you haven't talked to me for a while. Would you like to resume the learning with me?",2018-08-17 20:00:21
+2137343466337341,Veronica,Cruz,10834,854518728062939,2137343466337341,BOT: quick reply,"Hi Veronica, you haven't talked to me for a while. Would you like to resume the learning with me?",2018-08-18 20:00:49
+2137343466337341,Veronica,Cruz,11377,854518728062939,2137343466337341,BOT: quick reply,"Hi Veronica, you haven't talked to me for a while. Would you like to resume the learning with me?",2018-08-19 20:00:21
+2137343466337341,Veronica,Cruz,11868,854518728062939,2137343466337341,BOT: quick reply,"Hi Veronica, you haven't talked to me for a while. Would you like to resume the learning with me?",2018-08-20 20:00:52
+2137343466337341,Veronica,Cruz,12430,854518728062939,2137343466337341,BOT: quick reply,"Hi Veronica, you haven't talked to me for a while. Would you like to resume the learning with me?",2018-08-21 20:01:26
