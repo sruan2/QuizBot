@@ -3,7 +3,7 @@
     Author: Liwei Jiang
     Date: 02/08/2018
     Usage: Calculate the usage time of the QuizBot app for a user.
-    	   The code can be modified to compute the user reaction time by only considering the action that user sends message to the chatbot.
+           The code can be modified to compute the user reaction time by only considering the action that user sends message to the chatbot.
 '''
 import csv
 import sys
@@ -15,13 +15,13 @@ result_filename = "quizbot_data_analysis.txt"
 
 # Past Pilot Users: "Alex_Nguyen", "Maika_Isogawa", "Michael_Cooper", "Jordan_Cho", "Laura_Davey"
 
-# users = ["Veronica_Cruz", "Jackie_Fortin", "Eleni_Aneziris", "Zilin_Ma", "Jongho_Kim", \
-#          "Nina_Tai", "Yi_Feng", "Dae_hyun_Kim", "Pingyu_Wang", "Lantao_Mei", \
-#          "Michael_Silvernagel", "Bianca_Yu"]
+#users = ["Veronica_Cruz", "Jackie_Fortin", "Eleni_Aneziris", "Zilin_Ma", "Jongho_Kim", \
+#        "Nina_Tai", "Yi_Feng", "Pingyu_Wang", "Dae hyun_Kim", "Lantao_Mei", \
+#          "Michael_Silvernagel", "Bianca_Yu", "Julia_Thompson"]
 
 # within-subject users
 users = ["Noah Yinuo_Yao", "Dee Dee_Thao", "Zhenqi_Hu", "Jingyi_Li", "Joy_Yuzuriha", "Tyler_Yep", \
-         "Andrew_Ying", "Henry_Qin", "Nina_Horowitz"]
+         "Andrew_Ying", "Henry_Qin", "Nina_Horowitz", "Daniel_Do", "Fangmingyu_Yang", "Francis_Yan", "Olivia_Yang"]
 
 # 54 questions in post-study quiz (quiz B)
 postquiz_qid = set([146, 145, 118, 130, 148, 117, 127, 111, 120, 141, 143, 147, 114, 121, \
@@ -66,6 +66,7 @@ time_report = {}  # a disctionary of dates and corresponding daily usage time
 question_report = {} # a disctionary of studied question (total studies question, unique studies questions)
 
 for user in users:
+    print(user)
     conversation_filename = os.path.join(
         dirname, "../../SQL_query/user_data/quizbot_conversation_" + user + ".csv")
 
