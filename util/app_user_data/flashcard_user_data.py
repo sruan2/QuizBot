@@ -14,14 +14,28 @@ result_filename = "flashcard_data_analysis.txt"
 
 # Past Pilot Users: "Allie_Blaising", "Phoebe_Kimm", "Nik_Marda"
 
-users = ["Golrokh_Emami", "Cynthia_Torma", "Jordan_Cho", "Laura_Davey", "Courtney_Smith", \
-         "Marianne_Cowherd", "Tugce_Tasci", "Edgar_Rios", "Kimberly_Ha", "Sen_Wu", "Max_Cobb"]
+# users = ["Golrokh_Emami", "Cynthia_Torma", "Jordan_Cho", "Laura_Davey", "Courtney_Smith", \
+#          "Marianne_Cowherd", "Tugce_Tasci", "Edgar_Rios", "Kimberly_Ha", "Sen_Wu", "Max_Cobb"]
+
+# within-subject users
+users = ["Yinuo_Yao", "Dee Dee_Thao", "Jenn_Hu", "jingyi_li", "Joy_Yuzuriha", "Tyler_Yep", \
+         "Andrew_Ying", "Henry_Qin", "Nina_Horowitz"]
+
 
 # 54 questions in post-study quiz (quiz B)
 postquiz_qid = set([146, 145, 118, 130, 148, 117, 127, 111, 120, 141, 143, 147, 114, 121, \
                    106, 102, 112, 133, 72, 79, 90, 84, 58, 83, 59, 50, 56, 73, 93, 68, 53, \
                    77, 75, 97, 89, 87, 25, 24, 1, 19, 21, 44, 17, 30, 38, 6, 8, 2, 11, 37, \
                    9, 41, 29, 42])
+
+qualtricsID_2_qid = {0: 146, 1: 72, 2: 25, 3: 145, 4: 79, 6: 90, 7: 118, 8: 84, 9: 24, 10: 1, \
+                     11: 58, 12: 130, 13: 148, 14: 19, 15: 117, 16: 83, 17: 21, 18: 59, 19: 127, \
+                     22: 111, 23: 50, 24: 44, 25: 17, 26: 30, 27: 56, 28: 120, 29: 141, 30: 73, \
+                     31: 38, 32: 143, 33: 6, 34: 147, 35: 8, 36: 114, 37: 93, 38: 2, 39: 11, \
+                     41: 121, 42: 68, 43: 53, 44: 37, 45: 9, 46: 77, 49: 75, 50: 106, 51: 97, \
+                     52: 102, 53: 112, 54: 41, 55: 89, 56: 29, 57: 42, 58: 133, 59: 87}
+
+qid_2_qualtricsID_dict = {value: key for key, value in qualtricsID_2_qid.items()}
 
 # time break considered to be a leave
 BREAK_TIME = 30
@@ -67,7 +81,9 @@ for user in users:
     time_report[user] = sub_time_report
 
     events = [int(x[QID_INDEX]) for x in flashcard_file if x[EVENT_INDEX] == "I don't know" or x[EVENT_INDEX] == "got it"]
-    question_report[user] = (len(events), len(set(events)), len(set(events)&postquiz_qid))
+    qid_in_postquiz_seen = set(events)&postquiz_qid
+    qualtricsID_in_postquiz_seen = [qid_2_qualtricsID_dict[qid] for qid in qid_in_postquiz_seen]
+    question_report[user] = (len(events), len(set(events)), len(qid_in_postquiz_seen), qualtricsID_in_postquiz_seen)
 
 output_string = ""
 for user in time_report:
@@ -98,6 +114,7 @@ for user in time_report:
     output_string += "Number of post-quiz questions seen  : "
     output_string += str(question_report[user][2])
     output_string += "\n"
+    output_string += '['+', '.join(str(e) for e in question_report[user][3]) + ']\n'
     output_string += "Total APP Usage Time                : "
     output_string += str(round(total_time, 2))
     output_string += " min"
