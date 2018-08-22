@@ -14,12 +14,15 @@ result_filename = "flashcard_data_analysis.txt"
 
 # Past Pilot Users: "Allie_Blaising", "Phoebe_Kimm", "Nik_Marda"
 
-# users = ["Golrokh_Emami", "Cynthia_Torma", "Jordan_Cho", "Laura_Davey", "Courtney_Smith", \
-#          "Marianne_Cowherd", "Tugce_Tasci", "Edgar_Rios", "Kimberly_Ha", "Sen_Wu", "Max_Cobb"]
+users = ["Golrokh_Emami", "Cynthia_Torma", "Jordan_Cho", "Laura_Davey", "Courtney_Smith", \
+          "Marianne_Cowherd", "Tugce_Tasci", "Edgar_Rios", "Kimberly_Ha", "Sen_Wu", "Max_Cobb"]
+
+#users = ["Kimberly_Ha", "Sen_Wu", "Max_Cobb"]
 
 # within-subject users
 users = ["Yinuo_Yao", "Dee Dee_Thao", "Jenn_Hu", "jingyi_li", "Joy_Yuzuriha", "Tyler_Yep", \
-         "Andrew_Ying", "Henry_Qin", "Nina_Horowitz", "Danial_Do", "Claire_Yang"]
+         "Andrew_Ying", "Henry_Qin", "Nina_Horowitz", "Daniel_Do", "Claire_Yang", "Olivia_Yang"]
+         "Francis_Yan"]
 
 
 # 54 questions in post-study quiz (quiz B)
