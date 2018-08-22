@@ -111,6 +111,88 @@ def webhook():
             sender_firstname = data['first_name']
             sender_lastname = data['last_name']
 
+            # db.insert_user_history(mysql, 1458878367545796, "1", "gre", "0")
+            # db.insert_user_history(mysql, "1605863346117668", "1", "gre", 0)
+            # db.insert_user_history(mysql, "1648221408640749", "1", "gre", 0)
+            # db.insert_user_history(mysql, "1679729278802568", "1", "gre", 0)
+            # db.insert_user_history(mysql, "1702211463234799", "1", "gre", 0)
+            # db.insert_user_history(mysql, "1809787982474164", "1", "gre", 0)
+            # db.insert_user_history(mysql, "1833809400020333", "1", "gre", 0)
+            # db.insert_user_history(mysql, "1869513133135340", "1", "gre", 0)
+            # db.insert_user_history(mysql, "1904897786199799", "1", "gre", 0)
+            # db.insert_user_history(mysql, "1913473808676037", "1", "gre", 0)
+            # db.insert_user_history(mysql, "2326685720705389", "1", "gre", 0)
+            # db.insert_user_history(mysql, "2341119375928551", "1", "gre", 0)
+            # db.insert_user_history(mysql, "2370522646291297", "1", "gre", 0)
+
+            # if sender_id == "1850388251650155":
+            #     sender_id = "1458878367545796"
+            #     sender_firstname = "Julia"
+            #     sender_lastname = "Thompson"
+
+            # if sender_id == "1850388251650155":
+            #     sender_id = "1605863346117668"
+            #     sender_firstname = "Henry"
+            #     sender_lastname = "Qin"
+
+            # if sender_id == "1850388251650155":
+            #     sender_id = "1648221408640749"
+            #     sender_firstname = "Nina"
+            #     sender_lastname = "Horowitz"
+
+            # if sender_id == "1850388251650155":
+            #     sender_id = "1679729278802568"
+            #     sender_firstname = "Joy"
+            #     sender_lastname = "Yuzuriha"
+
+            # if sender_id == "1850388251650155":
+            #     sender_id = "1702211463234799"
+            #     sender_firstname = "Zhenqi"
+            #     sender_lastname = "Hu"
+
+            # if sender_id == "1605863346117668":
+            #     sender_id = "1809787982474164"
+            #     sender_firstname = "Tyler"
+            #     sender_lastname = "Yep"
+
+            # if sender_id == "1850388251650155":
+            #     sender_id = "1833809400020333"
+            #     sender_firstname = "Fangmingyu"
+            #     sender_lastname = "Yang"
+
+            # if sender_id == "1850388251650155":
+            #     sender_id = "1869513133135340"
+            #     sender_firstname = "Noah Yinuo"
+            #     sender_lastname = "Yao"
+
+            # if sender_id == "1605863346117668":
+            #     sender_id = "1904897786199799"
+            #     sender_firstname = "Francis"
+            #     sender_lastname = "Yan"
+
+            # if sender_id == "1850388251650155":
+            #     sender_id = "1913473808676037"
+            #     sender_firstname = "Dee Dee"
+            #     sender_lastname = "Thao"
+
+            # if sender_id == "1850388251650155":
+            #     sender_id = "2326685720705389"
+            #     sender_firstname = "Andrew"
+            #     sender_lastname = "Ying"
+
+            # if sender_id == "1850388251650155":
+            #     sender_id = "2341119375928551"
+            #     sender_firstname = "Daniel"
+            #     sender_lastname = "Do"
+
+
+            # if sender_id == "1850388251650155":
+            #     sender_id = "2370522646291297"
+            #     sender_firstname = "Jingyi"
+            #     sender_lastname = "Li"
+
+
+
             # Check if the user is in cache already
             if not sender_id in cache:
                 # Check if the user is in database
@@ -147,13 +229,13 @@ def webhook():
                                         'last_payload': None}
                     pretty_print('Insert a user into cache', mode='Cache')
 
-                pretty_print('firstname: '+str(cache[sender_id]['firstname']))
-                pretty_print('current_qid: '+str(cache[sender_id]['current_qid']))
-                pretty_print('current_subject: '+str(cache[sender_id]['current_subject']))
-                pretty_print('begin_uid: '+str(cache[sender_id]['begin_uid']))
-                pretty_print('waiting_for_answer: '+str(cache[sender_id]['waiting_for_answer']))
-                pretty_print('if_explanation_text: '+str(cache[sender_id]['if_explanation_text']))
-                pretty_print('last_payload: '+str(cache[sender_id]['last_payload']))
+                    pretty_print('firstname: '+str(cache[sender_id]['firstname']))
+                    pretty_print('current_qid: '+str(cache[sender_id]['current_qid']))
+                    pretty_print('current_subject: '+str(cache[sender_id]['current_subject']))
+                    pretty_print('begin_uid: '+str(cache[sender_id]['begin_uid']))
+                    pretty_print('waiting_for_answer: '+str(cache[sender_id]['waiting_for_answer']))
+                    pretty_print('if_explanation_text: '+str(cache[sender_id]['if_explanation_text']))
+                    pretty_print('last_payload: '+str(cache[sender_id]['last_payload']))
 
             # User clicked/tapped "postback" button in Persistent menu
             if messaging_event.get("postback"):

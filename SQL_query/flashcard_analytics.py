@@ -7,7 +7,8 @@ import csv
 users = [("Golrokh", "Emami"), ("Cynthia", "Torma"), ("Jordan", "Cho"), ("Laura", "Davey"), ("Courtney", "Smith"), \
 		 ("Marianne", "Cowherd"), ("Tugce", "Tasci"), ("Edgar", "Rios"), ("Kimberly", "Ha"), ("Sen", "Wu"), ("Max", "Cobb"), \
 	 ("Yinuo", "Yao"), ("Dee Dee", "Thao"), ("Jenn", "Hu"), ("jingyi", "li"), ("Joy", "Yuzuriha"), ("Tyler", "Yep"), \
-         ("Andrew", "Ying"), ("Henry", "Qin"), ("Nina", "Horowitz"), ("Daniel", "Do"), ("Fangmingyu", "Yang")]
+         ("Andrew", "Ying"), ("Henry", "Qin"), ("Nina", "Horowitz"), ("Daniel", "Do"), ("Fangmingyu", "Yang"), \
+         ("Francis", "Yan"), ("Olivia", "Yang")]
 
 if sys.argv[1] != "" and sys.argv[2] != "":
     users = [(sys.argv[1], sys.argv[2])]
