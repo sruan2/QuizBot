@@ -171,9 +171,17 @@ class DASHSequencingModel(BaseSequencingModel):
                               'distractor' : } 
         '''
         if self.curr_step[user_id] % 5 == 0:
-            return self.thresholdPickQuestion(user_id, subject)
+            data = self.thresholdPickQuestion(user_id, subject)
         else:
-            return self.pickRandomQuestion(user_id, subject)
+            data = self.pickRandomQuestion(user_id, subject)
+
+        # ensure no repeated questions
+        while data['qid'] == self.curr_item[user_id]:
+            data = self.pickRandomQuestion(user_id, subject)
+
+        self.curr_item[user_id] = data['qid']
+
+        return data   
 
 
     def updateHistory(self, user_id, user_data):
