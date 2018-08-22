@@ -34,7 +34,7 @@ class QAModel(object):
         self.DKB = qa_kb.DKB
 
         if sequencing_model == 'dash':
-            self.sequencing_model = DASHSequencingModel(qa_kb, score_csv='question_sequencing/updated_scores.csv')
+            self.sequencing_model = DASHSequencingModel(qa_kb)
         elif sequencing_model == 'leitner':
             self.sequencing_model = LeitnerSequencingModel(qa_kb)
         elif sequencing_model == 'sm2':
