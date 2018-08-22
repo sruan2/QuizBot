@@ -58,7 +58,7 @@ class DASHSequencingModel(BaseSequencingModel):
         self.item_difficulties = np.random.normal(1, 1, self.num_items)
         # self.decay_item_difficulties = np.exp(
         #     np.random.normal(1, 1, self.num_items))
-        self.decay_item_difficulties = np.genfromtxt(score_csv, delimiter = ',')[:,1]
+        self.decay_item_difficulties = np.genfromtxt(score_csv, delimiter = ',')[:,1][self.QA_KB.QID]
         window_cw = window_weights(self.num_windows)
         window_nw = window_weights(self.num_windows)
         self.window_weights_cw = np.tile(window_cw, self.num_items).reshape(
