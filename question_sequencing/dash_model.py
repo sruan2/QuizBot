@@ -121,6 +121,7 @@ class DASHSequencingModel(BaseSequencingModel):
 
         return data
 
+
     def thresholdPickQuestion(self, user_id, subject):
         '''Method to select a question given a threshold, figures out the most urgent question to review
         Returns:
