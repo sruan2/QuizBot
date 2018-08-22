@@ -25,7 +25,7 @@ def sigmoid(x):
 
 class DASHSequencingModel(BaseSequencingModel):
     def __init__(self, qa_kb, max_steps=1000, num_windows=100, threshold=0.01,
-                 student_ability=0, decay_student_ability=0, verbose=False):
+                 student_ability=0, decay_student_ability=0, score_csv = 'updated_scores.csv', verbose=False):
         '''Sequencing model that uses DASH: Difficulty, Ability, Student History parameters
         to find memory likelihood probabilities for each question
         '''
@@ -56,8 +56,9 @@ class DASHSequencingModel(BaseSequencingModel):
         self.student_ability = student_ability
         self.decay_student_ability = decay_student_ability
         self.item_difficulties = np.random.normal(1, 1, self.num_items)
-        self.decay_item_difficulties = np.exp(
-            np.random.normal(1, 1, self.num_items))
+        # self.decay_item_difficulties = np.exp(
+        #     np.random.normal(1, 1, self.num_items))
+        self.decay_item_difficulties = np.genfromtxt(score_csv, delimiter = ',')[:,1][self.QA_KB.QID]
         window_cw = window_weights(self.num_windows)
         window_nw = window_weights(self.num_windows)
         self.window_weights_cw = np.tile(window_cw, self.num_items).reshape(
