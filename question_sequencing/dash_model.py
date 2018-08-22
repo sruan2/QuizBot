@@ -175,8 +175,8 @@ class DASHSequencingModel(BaseSequencingModel):
             data = self.pickRandomQuestion(user_id, subject)
 
         # ensure no repeated questions
-        if data['qid'] == self.curr_item[user_id]:
-            data = self.pickNextQuestion(user_id, subject)
+        while data['qid'] == self.curr_item[user_id]:
+            data = self.pickRandomQuestion(user_id, subject)
 
         self.curr_item[user_id] = data['qid']
 
