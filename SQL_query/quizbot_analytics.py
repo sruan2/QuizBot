@@ -10,7 +10,7 @@ import csv
 
 # within-subject users
 users = [("Noah Yinuo", "Yao"), ("Dee Dee", "Thao"), ("Zhenqi", "Hu"), ("Jingyi", "Li"), ("Joy", "Yuzuriha"), ("Tyler", "Yep"), \
-         ("Andrew", "Ying"), ("Henry", "Qin"), ("Nina", "Horowitz")]
+         ("Andrew", "Ying"), ("Henry", "Qin"), ("Nina", "Horowitz"), ("Daniel", "Do"), ("Fangmingyu", "Yang")]
 
 
 if sys.argv[1] != "" and sys.argv[2] != "":
