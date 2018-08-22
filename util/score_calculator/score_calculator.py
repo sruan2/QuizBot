@@ -169,12 +169,12 @@ def quiz_b_30_20():
 	# quiz_a_answer = []
 	quiz_b_answer = []
 
-	# with open(quiz_a_score_report_filename, 'rb') as csvfile:
-	# 	reader = list(csv.reader(csvfile))
-	# 	for i in range(len(reader)):
-	# 		if len(reader[i]) >= 2:
-	# 			if reader[i][1] == "Total":
-	# 				quiz_a_answer.append(reader[i - 1][1])
+	with open(quiz_a_score_report_filename, 'rb') as csvfile:
+		reader = list(csv.reader(csvfile))
+		for i in range(len(reader)):
+			if len(reader[i]) >= 2:
+				if reader[i][1] == "Total":
+					quiz_a_answer.append(reader[i - 1][1])
 			
 	with open(quiz_b_score_report_filename, 'rb') as csvfile:
 		reader = list(csv.reader(csvfile))
@@ -257,24 +257,24 @@ def quiz_b_40_10():
 
 	quiz_data = {}
 
-	with open(quiz_a_user_record_filename, 'rt') as csvfile:
-		reader = list(csv.reader(csvfile))
-		quiz = reader[3:]
+	# with open(quiz_a_user_record_filename, 'rt') as csvfile:
+	# 	reader = list(csv.reader(csvfile))
+	# 	quiz = reader[3:]
 
-	for i in range(len(quiz)):
-		quiz_data[quiz[i][17]] = [quiz[i][5 * j + 86] for j in range(54)]
+	# for i in range(len(quiz)):
+	# 	quiz_data[quiz[i][17]] = [quiz[i][5 * j + 91] for j in range(54)]
 
 	with open(quiz_b_user_record_filename, 'rt') as csvfile:
 		reader = list(csv.reader(csvfile))
 		quiz = reader[3:]
 
 	for i in range(len(quiz)):
-		quiz_data[quiz[i][17]] = [quiz[i][5 * j + 50] for j in range(60)]
+		quiz_data[quiz[i][17]] = [quiz[i][5 * j + 70 + 25] for j in range(54)]
 
 	all_users = quiz_data.keys()
 
+	# print(len(quiz_data['Tugce']))
 	print(quiz_data)
-	# print(len(quiz_data))
 	# print(quiz[0])
 	# print(len(quiz[i]))
 
