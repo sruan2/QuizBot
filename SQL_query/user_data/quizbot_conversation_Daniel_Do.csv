@@ -1,0 +1,26 @@
+user_id,user_firstname,user_lastname,uid,sender,recipient,type,dialogue,time_stamp
+2341119375928551,Daniel,Do,764,2341119375928551,854518728062939,persistent_menu: GET_INTRO_1,Get Started,2018-08-21 17:17:31
+2341119375928551,Daniel,Do,765,854518728062939,2341119375928551,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/quizbot_avatar.png,2018-08-21 17:17:35
+2341119375928551,Daniel,Do,766,854518728062939,2341119375928551,BOT: quick reply,"Hi Daniel! My name is Frosty :penguin: and Im here to help you learn all about science:microscope:, verbal reasoning (GRE) :input_latin_uppercase:, and safety:hammer_and_wrench:!",2018-08-21 17:17:36
+2341119375928551,Daniel,Do,767,2341119375928551,854518728062939,user_quick_reply: GET_INTRO_2,Tap me :round_pushpin:,2018-08-21 17:17:45
+2341119375928551,Daniel,Do,768,854518728062939,2341119375928551,BOT: message,Heres how it works.,2018-08-21 17:17:47
+2341119375928551,Daniel,Do,769,854518728062939,2341119375928551,BOT: message,"I ask you questions, and you give me answers.",2018-08-21 17:17:48
+2341119375928551,Daniel,Do,770,2341119375928551,854518728062939,persistent_menu: SCIENCE,Science:microscope:,2018-08-21 17:17:49
+2341119375928551,Daniel,Do,771,854518728062939,2341119375928551,BOT: quick reply,We will learn fun things together!,2018-08-21 17:17:50
+2341119375928551,Daniel,Do,772,854518728062939,2341119375928551,BOT: quick reply,Let's answer some questions about science!,2018-08-21 17:17:51
+2341119375928551,Daniel,Do,773,2341119375928551,854518728062939,persistent_menu: GRE,GRE :input_latin_uppercase:,2018-08-21 17:18:05
+2341119375928551,Daniel,Do,774,854518728062939,2341119375928551,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/evolvescientist_reading.gif,2018-08-21 17:18:10
+2341119375928551,Daniel,Do,775,854518728062939,2341119375928551,BOT: quick reply,Awesome! Let's learn about the GRE!,2018-08-21 17:18:11
+2341119375928551,Daniel,Do,776,2341119375928551,854518728062939,user_quick_reply: NEXT_QUESTION,Alright :collision:,2018-08-21 17:18:14
+2341119375928551,Daniel,Do,777,854518728062939,2341119375928551,BOT: message,Could you answer this one for me?,2018-08-21 17:18:16
+2341119375928551,Daniel,Do,778,854518728062939,2341119375928551,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-21 17:18:17
+2341119375928551,Daniel,Do,779,854518728062939,2341119375928551,BOT: quick reply,"Even though legislators claimed the Contagious Diseases Acts strengthened the nation, social purists argued the Acts _____ the nation's moral growth by encouraging licentious behavior.",2018-08-21 17:18:19
+2341119375928551,Daniel,Do,780,2341119375928551,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-21 17:18:24
+2341119375928551,Daniel,Do,781,854518728062939,2341119375928551,BOT: message,Okay. I'll give you some choices.,2018-08-21 17:18:26
+2341119375928551,Daniel,Do,782,854518728062939,2341119375928551,BOT: quick reply,":keycap_1: hampered
+:keycap_2: enhanced
+:keycap_3: supplanted
+:keycap_4: ameliorated
+:keycap_5: advanced
+",2018-08-21 17:18:27
+2341119375928551,Daniel,Do,984,854518728062939,2341119375928551,BOT: quick reply,"Hi Daniel, you haven't talked to me for a while. Would you like to resume the learning with me?",2018-08-21 20:00:20

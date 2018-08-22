@@ -4,9 +4,13 @@ import os
 import sys
 import csv
 
-users = [("Veronica", "Cruz"), ("Jackie", "Fortin"), ("Eleni", "Aneziris"), ("Zilin", "Ma"), ("Jongho", "Kim"), \
-		 ("Nina", "Tai"), ("Yi", "Feng"), ("Dae hyun", "Kim"), ("Pingyu", "Wang"), ("Lantao", "Mei"), \
-		 ("Michael", "Silvernagel"), ("Bianca", "Yu")]
+#users = [("Veronica", "Cruz"), ("Jackie", "Fortin"), ("Eleni", "Aneziris"), ("Zilin", "Ma"), ("Jongho", "Kim"), \
+#		 ("Nina", "Tai"), ("Yi", "Feng"), ("Dae hyun", "Kim"), ("Pingyu", "Wang"), ("Lantao", "Mei"), \
+#		 ("Michael", "Silvernagel"), ("Bianca", "Yu")]
+
+# within-subject users
+users = [("Noah Yinuo", "Yao"), ("Dee Dee", "Thao"), ("Zhenqi", "Hu"), ("Jingyi", "Li"), ("Joy", "Yuzuriha"), ("Tyler", "Yep"), \
+         ("Andrew", "Ying"), ("Henry", "Qin"), ("Nina", "Horowitz"), ("Daniel", "Do"), ("Fangmingyu", "Yang")]
 
 
 if sys.argv[1] != "" and sys.argv[2] != "":

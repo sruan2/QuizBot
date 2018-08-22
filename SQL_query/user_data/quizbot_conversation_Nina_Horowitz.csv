@@ -1,0 +1,75 @@
+user_id,user_firstname,user_lastname,uid,sender,recipient,type,dialogue,time_stamp
+1648221408640749,Nina,Horowitz,676,1648221408640749,854518728062939,persistent_menu: GET_INTRO_1,Get Started,2018-08-21 14:12:06
+1648221408640749,Nina,Horowitz,677,854518728062939,1648221408640749,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/quizbot_avatar.png,2018-08-21 14:12:10
+1648221408640749,Nina,Horowitz,678,854518728062939,1648221408640749,BOT: quick reply,"Hi Nina! My name is Frosty :penguin: and Im here to help you learn all about science:microscope:, verbal reasoning (GRE) :input_latin_uppercase:, and safety:hammer_and_wrench:!",2018-08-21 14:12:11
+1648221408640749,Nina,Horowitz,679,1648221408640749,854518728062939,persistent_menu: SCIENCE,Science:microscope:,2018-08-21 14:12:22
+1648221408640749,Nina,Horowitz,680,854518728062939,1648221408640749,BOT: quick reply,Science rules! Let's see what you know.,2018-08-21 14:12:24
+1648221408640749,Nina,Horowitz,681,1648221408640749,854518728062939,user_quick_reply: NEXT_QUESTION,Tap me :raising_hands_medium-light_skin_tone:,2018-08-21 14:12:28
+1648221408640749,Nina,Horowitz,682,854518728062939,1648221408640749,BOT: message,What about this next question:,2018-08-21 14:12:30
+1648221408640749,Nina,Horowitz,683,854518728062939,1648221408640749,BOT: quick reply,What is the diffusion of water through a semipermeable membrane down its concentration gradient?,2018-08-21 14:12:31
+1648221408640749,Nina,Horowitz,684,1648221408640749,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-21 14:12:41
+1648221408640749,Nina,Horowitz,685,854518728062939,1648221408640749,BOT: message,Pick one of the following answers.,2018-08-21 14:12:42
+1648221408640749,Nina,Horowitz,686,854518728062939,1648221408640749,BOT: quick reply,":keycap_1: osmosis
+:keycap_2: permable
+:keycap_3: mirrors
+:keycap_4: nutrients
+",2018-08-21 14:12:43
+1648221408640749,Nina,Horowitz,687,1648221408640749,854518728062939,user_quick_reply: BUTTON_AKB_osmosis,:keycap_1:,2018-08-21 14:12:48
+1648221408640749,Nina,Horowitz,688,854518728062939,1648221408640749,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_normal_orange.png,2018-08-21 14:12:50
+1648221408640749,Nina,Horowitz,689,854518728062939,1648221408640749,BOT: message,Nice work! Keep it up!,2018-08-21 14:12:52
+1648221408640749,Nina,Horowitz,690,854518728062939,1648221408640749,BOT: quick reply,The correct answer is osmosis.,2018-08-21 14:12:53
+1648221408640749,Nina,Horowitz,703,1648221408640749,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-21 15:10:53
+1648221408640749,Nina,Horowitz,704,854518728062939,1648221408640749,BOT: message,Here's a question for you:,2018-08-21 15:10:54
+1648221408640749,Nina,Horowitz,705,854518728062939,1648221408640749,BOT: quick reply,Nerve cells that sense touch are found mainly where?,2018-08-21 15:10:56
+1648221408640749,Nina,Horowitz,706,1648221408640749,854518728062939,user_typing,Below the skin,2018-08-21 15:11:07
+1648221408640749,Nina,Horowitz,707,854518728062939,1648221408640749,BOT: message,That wasn't quite what we were looking for. :disappointed_face:,2018-08-21 15:11:08
+1648221408640749,Nina,Horowitz,708,854518728062939,1648221408640749,BOT: quick reply,The correct answer is skin.,2018-08-21 15:11:10
+1648221408640749,Nina,Horowitz,709,1648221408640749,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-21 15:15:43
+1648221408640749,Nina,Horowitz,710,854518728062939,1648221408640749,BOT: message,What about this next question:,2018-08-21 15:15:45
+1648221408640749,Nina,Horowitz,711,854518728062939,1648221408640749,BOT: quick reply,Most insects reproduce quickly and through what type of reproduction?,2018-08-21 15:15:46
+1648221408640749,Nina,Horowitz,712,1648221408640749,854518728062939,user_typing,Sexual,2018-08-21 15:41:37
+1648221408640749,Nina,Horowitz,713,854518728062939,1648221408640749,BOT: message,Nice! :red_apple:,2018-08-21 15:41:38
+1648221408640749,Nina,Horowitz,714,854518728062939,1648221408640749,BOT: quick reply,The correct answer is sexual reproduction.,2018-08-21 15:41:40
+1648221408640749,Nina,Horowitz,715,1648221408640749,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-21 15:50:06
+1648221408640749,Nina,Horowitz,716,854518728062939,1648221408640749,BOT: message,Let's try this question.,2018-08-21 15:50:08
+1648221408640749,Nina,Horowitz,717,854518728062939,1648221408640749,BOT: quick reply,Nerve cells that sense touch are found mainly where?,2018-08-21 15:50:09
+1648221408640749,Nina,Horowitz,718,1648221408640749,854518728062939,user_typing,Below the skin,2018-08-21 15:50:16
+1648221408640749,Nina,Horowitz,719,854518728062939,1648221408640749,BOT: message,"Oops, that answer was incorrect. :disappointed_face:",2018-08-21 15:50:17
+1648221408640749,Nina,Horowitz,720,854518728062939,1648221408640749,BOT: quick reply,The correct answer is skin.,2018-08-21 15:50:19
+1648221408640749,Nina,Horowitz,721,1648221408640749,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-21 15:50:23
+1648221408640749,Nina,Horowitz,722,854518728062939,1648221408640749,BOT: message,"Alrighty, let's try this one.",2018-08-21 15:50:24
+1648221408640749,Nina,Horowitz,723,854518728062939,1648221408640749,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-21 15:50:26
+1648221408640749,Nina,Horowitz,724,854518728062939,1648221408640749,BOT: quick reply,What kind of viscosity is found in long-chain hydrocarbons?,2018-08-21 15:50:28
+1648221408640749,Nina,Horowitz,725,1648221408640749,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-21 15:51:45
+1648221408640749,Nina,Horowitz,726,854518728062939,1648221408640749,BOT: message,Pick one of the following answers.,2018-08-21 15:51:47
+1648221408640749,Nina,Horowitz,727,854518728062939,1648221408640749,BOT: quick reply,":keycap_1: high viscousity
+:keycap_2: low viscosity
+:keycap_3: increased viscosity
+:keycap_4: intense viscosity
+",2018-08-21 15:51:48
+1648221408640749,Nina,Horowitz,728,1648221408640749,854518728062939,user_quick_reply: BUTTON_DKB_low viscosity,:keycap_2:,2018-08-21 15:52:00
+1648221408640749,Nina,Horowitz,729,854518728062939,1648221408640749,BOT: message,"Oops, that wasn't quite correct. :disappointed_face:",2018-08-21 15:52:01
+1648221408640749,Nina,Horowitz,730,854518728062939,1648221408640749,BOT: quick reply,The correct answer is high viscousity.,2018-08-21 15:52:03
+1648221408640749,Nina,Horowitz,731,1648221408640749,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-21 15:52:13
+1648221408640749,Nina,Horowitz,732,854518728062939,1648221408640749,BOT: message,I think you'll like this question.,2018-08-21 15:52:14
+1648221408640749,Nina,Horowitz,733,854518728062939,1648221408640749,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-21 15:52:15
+1648221408640749,Nina,Horowitz,734,854518728062939,1648221408640749,BOT: quick reply,Most insects reproduce quickly and through what type of reproduction?,2018-08-21 15:52:17
+1648221408640749,Nina,Horowitz,735,1648221408640749,854518728062939,user_typing,Sexual,2018-08-21 15:52:25
+1648221408640749,Nina,Horowitz,736,854518728062939,1648221408640749,BOT: message,Nice! :red_apple:,2018-08-21 15:52:26
+1648221408640749,Nina,Horowitz,737,854518728062939,1648221408640749,BOT: quick reply,The correct answer is sexual reproduction.,2018-08-21 15:52:27
+1648221408640749,Nina,Horowitz,738,1648221408640749,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-21 15:52:34
+1648221408640749,Nina,Horowitz,739,854518728062939,1648221408640749,BOT: message,See if you can answer this next one.,2018-08-21 15:52:35
+1648221408640749,Nina,Horowitz,740,854518728062939,1648221408640749,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-21 15:52:37
+1648221408640749,Nina,Horowitz,741,854518728062939,1648221408640749,BOT: quick reply,What opens two strands of DNA?,2018-08-21 15:52:38
+1648221408640749,Nina,Horowitz,742,1648221408640749,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-21 15:52:47
+1648221408640749,Nina,Horowitz,743,854518728062939,1648221408640749,BOT: message,It's one of the following choices.,2018-08-21 15:52:48
+1648221408640749,Nina,Horowitz,744,854518728062939,1648221408640749,BOT: quick reply,":keycap_1: adenylate
+:keycap_2: helicase
+:keycap_3: replication
+:keycap_4: chromosome
+",2018-08-21 15:52:50
+1648221408640749,Nina,Horowitz,745,1648221408640749,854518728062939,user_quick_reply: BUTTON_AKB_helicase,:keycap_2:,2018-08-21 15:52:54
+1648221408640749,Nina,Horowitz,746,854518728062939,1648221408640749,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_happy_cyan.png,2018-08-21 15:52:57
+1648221408640749,Nina,Horowitz,747,854518728062939,1648221408640749,BOT: message,Nice work! Keep it up!,2018-08-21 15:52:58
+1648221408640749,Nina,Horowitz,748,854518728062939,1648221408640749,BOT: quick reply,The correct answer is helicase.,2018-08-21 15:53:00
+1648221408640749,Nina,Horowitz,975,854518728062939,1648221408640749,BOT: quick reply,"Hi Nina, you haven't talked to me for a while. Would you like to resume the learning with me?",2018-08-21 20:00:06

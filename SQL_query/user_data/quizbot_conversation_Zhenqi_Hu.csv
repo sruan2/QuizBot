@@ -1,0 +1,23 @@
+user_id,user_firstname,user_lastname,uid,sender,recipient,type,dialogue,time_stamp
+1702211463234799,Zhenqi,Hu,172,1702211463234799,854518728062939,persistent_menu: GET_INTRO_1,Get Started,2018-08-20 12:05:57
+1702211463234799,Zhenqi,Hu,173,854518728062939,1702211463234799,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/quizbot_avatar.png,2018-08-20 12:06:01
+1702211463234799,Zhenqi,Hu,174,854518728062939,1702211463234799,BOT: quick reply,"Hi Zhenqi! My name is Frosty :penguin: and Im here to help you learn all about science:microscope:, verbal reasoning (GRE) :input_latin_uppercase:, and safety:hammer_and_wrench:!",2018-08-20 12:06:03
+1702211463234799,Zhenqi,Hu,175,1702211463234799,854518728062939,persistent_menu: SCIENCE,Science:microscope:,2018-08-20 12:06:18
+1702211463234799,Zhenqi,Hu,176,854518728062939,1702211463234799,BOT: quick reply,Okay! Lets see how much you know about science!,2018-08-20 12:06:20
+1702211463234799,Zhenqi,Hu,177,1702211463234799,854518728062939,user_quick_reply: NEXT_QUESTION,Alrighty :flexed_biceps_medium-light_skin_tone:,2018-08-20 12:06:23
+1702211463234799,Zhenqi,Hu,178,854518728062939,1702211463234799,BOT: message,Would you answer this question for me?,2018-08-20 12:06:25
+1702211463234799,Zhenqi,Hu,179,854518728062939,1702211463234799,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-20 12:06:27
+1702211463234799,Zhenqi,Hu,180,854518728062939,1702211463234799,BOT: quick reply,What are the little sacs at the end of the bronchioles called?,2018-08-20 12:06:28
+1702211463234799,Zhenqi,Hu,181,1702211463234799,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-20 12:06:32
+1702211463234799,Zhenqi,Hu,182,854518728062939,1702211463234799,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-08-20 12:06:33
+1702211463234799,Zhenqi,Hu,183,854518728062939,1702211463234799,BOT: quick reply,":keycap_1: ganglion
+:keycap_2: lung
+:keycap_3: respiratory sacs
+:keycap_4: alveoli
+",2018-08-20 12:06:35
+1702211463234799,Zhenqi,Hu,184,1702211463234799,854518728062939,user_quick_reply: BUTTON_AKB_alveoli,:keycap_4:,2018-08-20 12:06:37
+1702211463234799,Zhenqi,Hu,185,854518728062939,1702211463234799,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_normal_purple.png,2018-08-20 12:06:40
+1702211463234799,Zhenqi,Hu,186,854518728062939,1702211463234799,BOT: message,Nice! That was right!,2018-08-20 12:06:42
+1702211463234799,Zhenqi,Hu,187,854518728062939,1702211463234799,BOT: quick reply,The correct answer is alveoli.,2018-08-20 12:06:43
+1702211463234799,Zhenqi,Hu,310,854518728062939,1702211463234799,BOT: quick reply,"Hi Zhenqi, you haven't talked to me for a while. Would you like to resume the learning with me?",2018-08-20 20:00:06
+1702211463234799,Zhenqi,Hu,977,854518728062939,1702211463234799,BOT: quick reply,"Hi Zhenqi, you haven't talked to me for a while. Would you like to resume the learning with me?",2018-08-21 20:00:09

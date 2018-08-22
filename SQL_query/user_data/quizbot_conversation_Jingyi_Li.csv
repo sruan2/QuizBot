@@ -1,0 +1,22 @@
+user_id,user_firstname,user_lastname,uid,sender,recipient,type,dialogue,time_stamp
+2370522646291297,Jingyi,Li,188,2370522646291297,854518728062939,persistent_menu: GET_INTRO_1,Get Started,2018-08-20 13:40:26
+2370522646291297,Jingyi,Li,189,854518728062939,2370522646291297,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/quizbot_avatar.png,2018-08-20 13:40:30
+2370522646291297,Jingyi,Li,190,854518728062939,2370522646291297,BOT: quick reply,"Hi Jingyi! My name is Frosty :penguin: and Im here to help you learn all about science:microscope:, verbal reasoning (GRE) :input_latin_uppercase:, and safety:hammer_and_wrench:!",2018-08-20 13:40:31
+2370522646291297,Jingyi,Li,191,2370522646291297,854518728062939,persistent_menu: SCIENCE,Science:microscope:,2018-08-20 13:40:43
+2370522646291297,Jingyi,Li,192,854518728062939,2370522646291297,BOT: quick reply,Science rules! Let's see what you know.,2018-08-20 13:40:45
+2370522646291297,Jingyi,Li,193,2370522646291297,854518728062939,user_quick_reply: NEXT_QUESTION,Alright :collision:,2018-08-20 13:40:52
+2370522646291297,Jingyi,Li,194,854518728062939,2370522646291297,BOT: message,Let's try this one.,2018-08-20 13:40:54
+2370522646291297,Jingyi,Li,195,854518728062939,2370522646291297,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-20 13:40:55
+2370522646291297,Jingyi,Li,196,854518728062939,2370522646291297,BOT: quick reply,What are the little sacs at the end of the bronchioles called?,2018-08-20 13:40:57
+2370522646291297,Jingyi,Li,197,2370522646291297,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-20 13:41:01
+2370522646291297,Jingyi,Li,198,854518728062939,2370522646291297,BOT: message,It's one of the following choices.,2018-08-20 13:41:02
+2370522646291297,Jingyi,Li,199,854518728062939,2370522646291297,BOT: quick reply,":keycap_1: alveoli
+:keycap_2: lung
+:keycap_3: respiratory sacs
+:keycap_4: ganglion
+",2018-08-20 13:41:04
+2370522646291297,Jingyi,Li,200,2370522646291297,854518728062939,user_quick_reply: BUTTON_AKB_alveoli,:keycap_1:,2018-08-20 13:41:09
+2370522646291297,Jingyi,Li,201,854518728062939,2370522646291297,BOT: message,Great job!,2018-08-20 13:41:11
+2370522646291297,Jingyi,Li,202,854518728062939,2370522646291297,BOT: quick reply,The correct answer is alveoli.,2018-08-20 13:41:12
+2370522646291297,Jingyi,Li,315,854518728062939,2370522646291297,BOT: quick reply,"Hi Jingyi, you haven't talked to me for a while. Would you like to resume the learning with me?",2018-08-20 20:00:14
+2370522646291297,Jingyi,Li,985,854518728062939,2370522646291297,BOT: quick reply,"Hi Jingyi, you haven't talked to me for a while. Would you like to resume the learning with me?",2018-08-21 20:00:22
