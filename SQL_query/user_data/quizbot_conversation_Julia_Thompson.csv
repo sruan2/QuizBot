@@ -1,0 +1,229 @@
+user_id,user_firstname,user_lastname,uid,sender,recipient,type,dialogue,time_stamp
+1458878367545796,Julia,Thompson,158,1458878367545796,854518728062939,persistent_menu: GET_INTRO_1,Get Started,2018-08-20 11:51:37
+1458878367545796,Julia,Thompson,159,854518728062939,1458878367545796,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/quizbot_avatar.png,2018-08-20 11:51:41
+1458878367545796,Julia,Thompson,160,854518728062939,1458878367545796,BOT: quick reply,"Hi Julia! My name is Frosty :penguin: and Im here to help you learn all about science:microscope:, verbal reasoning (GRE) :input_latin_uppercase:, and safety:hammer_and_wrench:!",2018-08-20 11:51:43
+1458878367545796,Julia,Thompson,161,1458878367545796,854518728062939,persistent_menu: SCIENCE,Science:microscope:,2018-08-20 11:52:02
+1458878367545796,Julia,Thompson,162,854518728062939,1458878367545796,BOT: quick reply,All right! Ill quiz you on science!,2018-08-20 11:52:03
+1458878367545796,Julia,Thompson,163,1458878367545796,854518728062939,user_quick_reply: NEXT_QUESTION,Alright :light_bulb:,2018-08-20 11:52:07
+1458878367545796,Julia,Thompson,164,854518728062939,1458878367545796,BOT: message,Let's try this question.,2018-08-20 11:52:09
+1458878367545796,Julia,Thompson,165,854518728062939,1458878367545796,BOT: quick reply,What are the little sacs at the end of the bronchioles called?,2018-08-20 11:52:10
+1458878367545796,Julia,Thompson,166,1458878367545796,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-20 11:52:21
+1458878367545796,Julia,Thompson,167,854518728062939,1458878367545796,BOT: message,Which of the following options is the right answer?,2018-08-20 11:52:22
+1458878367545796,Julia,Thompson,168,854518728062939,1458878367545796,BOT: quick reply,":keycap_1: respiratory sacs
+:keycap_2: ganglion
+:keycap_3: alveoli
+:keycap_4: lung
+",2018-08-20 11:52:24
+1458878367545796,Julia,Thompson,169,1458878367545796,854518728062939,user_quick_reply: BUTTON_AKB_alveoli,:keycap_3:,2018-08-20 11:52:29
+1458878367545796,Julia,Thompson,170,854518728062939,1458878367545796,BOT: message,Nice work! Keep it up!,2018-08-20 11:52:31
+1458878367545796,Julia,Thompson,171,854518728062939,1458878367545796,BOT: quick reply,The correct answer is alveoli.,2018-08-20 11:52:33
+1458878367545796,Julia,Thompson,308,854518728062939,1458878367545796,BOT: quick reply,"Hi Julia, you haven't talked to me for a while. Would you like to resume the learning with me?",2018-08-20 20:00:03
+1458878367545796,Julia,Thompson,973,854518728062939,1458878367545796,BOT: quick reply,"Hi Julia, you haven't talked to me for a while. Would you like to resume the learning with me?",2018-08-21 20:00:03
+1458878367545796,Julia,Thompson,1382,1458878367545796,854518728062939,persistent_menu: SAFETY,Safety:hammer_and_wrench:,2018-08-21 22:05:29
+1458878367545796,Julia,Thompson,1383,854518728062939,1458878367545796,BOT: quick reply,All right! Ill quiz you on safety!,2018-08-21 22:05:30
+1458878367545796,Julia,Thompson,1384,1458878367545796,854518728062939,persistent_menu: SAFETY,Safety:hammer_and_wrench:,2018-08-21 22:05:37
+1458878367545796,Julia,Thompson,1385,854518728062939,1458878367545796,BOT: quick reply,All right! Ill quiz you on safety!,2018-08-21 22:05:38
+1458878367545796,Julia,Thompson,1386,1458878367545796,854518728062939,persistent_menu: SCIENCE,Science:microscope:,2018-08-21 22:05:43
+1458878367545796,Julia,Thompson,1387,854518728062939,1458878367545796,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/evolvesafety_scientist.gif,2018-08-21 22:05:49
+1458878367545796,Julia,Thompson,1388,854518728062939,1458878367545796,BOT: quick reply,Okay! Lets see how much you know about science!,2018-08-21 22:05:50
+1458878367545796,Julia,Thompson,1389,1458878367545796,854518728062939,persistent_menu: SAFETY,Safety:hammer_and_wrench:,2018-08-21 22:06:01
+1458878367545796,Julia,Thompson,1390,854518728062939,1458878367545796,BOT: quick reply,Let's test your knowledge on safety!,2018-08-21 22:06:03
+1458878367545796,Julia,Thompson,1391,1458878367545796,854518728062939,persistent_menu: GRE,GRE :input_latin_uppercase:,2018-08-21 22:06:15
+1458878367545796,Julia,Thompson,1392,854518728062939,1458878367545796,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/evolvesafety_reading.gif,2018-08-21 22:06:21
+1458878367545796,Julia,Thompson,1393,854518728062939,1458878367545796,BOT: quick reply,Cool! Here's some questions on the GRE!,2018-08-21 22:06:22
+1458878367545796,Julia,Thompson,1394,1458878367545796,854518728062939,user_quick_reply: NEXT_QUESTION,Tap me :round_pushpin:,2018-08-21 22:06:25
+1458878367545796,Julia,Thompson,1395,854518728062939,1458878367545796,BOT: message,Let's see if you can get this one.,2018-08-21 22:06:27
+1458878367545796,Julia,Thompson,1396,854518728062939,1458878367545796,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-21 22:06:28
+1458878367545796,Julia,Thompson,1397,854518728062939,1458878367545796,BOT: quick reply,"Even though legislators claimed the Contagious Diseases Acts strengthened the nation, social purists argued the Acts _____ the nation's moral growth by encouraging licentious behavior.",2018-08-21 22:06:30
+1458878367545796,Julia,Thompson,1398,1458878367545796,854518728062939,user_quick_reply: NEXT_QUESTION,Tap me :collision:,2018-08-21 22:06:35
+1458878367545796,Julia,Thompson,1399,854518728062939,1458878367545796,BOT: message,"Alrighty, let's try this one.",2018-08-21 22:06:36
+1458878367545796,Julia,Thompson,1400,854518728062939,1458878367545796,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-21 22:06:38
+1458878367545796,Julia,Thompson,1401,854518728062939,1458878367545796,BOT: quick reply,Many Major League Baseball relief pitchers choose an electrifying theme song to play as they take the mound; the song _____ their fans and instills fear in their opponents.,2018-08-21 22:06:39
+1458878367545796,Julia,Thompson,1402,1458878367545796,854518728062939,user_quick_reply: NEXT_QUESTION,Sure :backhand_index_pointing_right_medium-light_skin_tone:,2018-08-21 22:06:42
+1458878367545796,Julia,Thompson,1403,854518728062939,1458878367545796,BOT: message,Let's take a look at this question.,2018-08-21 22:06:43
+1458878367545796,Julia,Thompson,1404,854518728062939,1458878367545796,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-21 22:06:45
+1458878367545796,Julia,Thompson,1405,854518728062939,1458878367545796,BOT: quick reply,"With a similar contrast between a partly cloudy sky and a dark street, the cover of the recent rock CD _____ a famous surrealist painting from the early 1900s.",2018-08-21 22:06:46
+1458878367545796,Julia,Thompson,1406,1458878367545796,854518728062939,user_quick_reply: NEXT_QUESTION,Alrighty :flexed_biceps_medium-light_skin_tone:,2018-08-21 22:06:48
+1458878367545796,Julia,Thompson,1407,1458878367545796,854518728062939,user_quick_reply: NEXT_QUESTION,Continue :round_pushpin:,2018-08-21 22:06:55
+1458878367545796,Julia,Thompson,1408,854518728062939,1458878367545796,BOT: message,Let's see if you can answer this question.,2018-08-21 22:06:57
+1458878367545796,Julia,Thompson,1409,854518728062939,1458878367545796,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-21 22:06:58
+1458878367545796,Julia,Thompson,1410,854518728062939,1458878367545796,BOT: quick reply,What is the diffusion of water through a semipermeable membrane down its concentration gradient?,2018-08-21 22:06:59
+1458878367545796,Julia,Thompson,1411,1458878367545796,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-21 22:07:00
+1458878367545796,Julia,Thompson,1412,854518728062939,1458878367545796,BOT: message,Which of the following options is the right answer?,2018-08-21 22:07:02
+1458878367545796,Julia,Thompson,1413,854518728062939,1458878367545796,BOT: quick reply,":keycap_1: osmosis
+:keycap_2: permable
+:keycap_3: nutrients
+:keycap_4: mirrors
+",2018-08-21 22:07:03
+1458878367545796,Julia,Thompson,1414,1458878367545796,854518728062939,user_typing,Evokes,2018-08-21 22:07:05
+1458878367545796,Julia,Thompson,1415,854518728062939,1458878367545796,BOT: message,"I'm sorry, but that was incorrect. :disappointed_face:",2018-08-21 22:07:07
+1458878367545796,Julia,Thompson,1416,1458878367545796,854518728062939,persistent_menu: GRE,GRE :input_latin_uppercase:,2018-08-21 22:07:15
+1458878367545796,Julia,Thompson,1417,854518728062939,1458878367545796,BOT: quick reply,Okay! Lets see how much you know about GRE!,2018-08-21 22:07:17
+1458878367545796,Julia,Thompson,1418,1458878367545796,854518728062939,user_quick_reply: NEXT_QUESTION,Alrighty :oncoming_fist_medium-light_skin_tone:,2018-08-21 22:07:20
+1458878367545796,Julia,Thompson,1419,854518728062939,1458878367545796,BOT: message,Let's see if you can get this one.,2018-08-21 22:07:22
+1458878367545796,Julia,Thompson,1420,854518728062939,1458878367545796,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-21 22:07:23
+1458878367545796,Julia,Thompson,1421,854518728062939,1458878367545796,BOT: quick reply,"Even though legislators claimed the Contagious Diseases Acts strengthened the nation, social purists argued the Acts _____ the nation's moral growth by encouraging licentious behavior.",2018-08-21 22:07:25
+1458878367545796,Julia,Thompson,1422,1458878367545796,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-21 22:07:31
+1458878367545796,Julia,Thompson,1423,854518728062939,1458878367545796,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-08-21 22:07:33
+1458878367545796,Julia,Thompson,1424,854518728062939,1458878367545796,BOT: quick reply,":keycap_1: enhanced
+:keycap_2: supplanted
+:keycap_3: ameliorated
+:keycap_4: advanced
+:keycap_5: hampered
+",2018-08-21 22:07:34
+1458878367545796,Julia,Thompson,1425,1458878367545796,854518728062939,user_quick_reply: BUTTON_AKB_hampered,:keycap_5:,2018-08-21 22:07:41
+1458878367545796,Julia,Thompson,1426,854518728062939,1458878367545796,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_happy_purple.png,2018-08-21 22:07:44
+1458878367545796,Julia,Thompson,1427,854518728062939,1458878367545796,BOT: message,Great! Keep it up! :flexed_biceps_medium-light_skin_tone:,2018-08-21 22:07:45
+1458878367545796,Julia,Thompson,1428,854518728062939,1458878367545796,BOT: quick reply,The correct answer is hampered.,2018-08-21 22:07:47
+1458878367545796,Julia,Thompson,1429,1458878367545796,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-21 22:07:55
+1458878367545796,Julia,Thompson,1430,854518728062939,1458878367545796,BOT: message,Let's see if you would answer this one.,2018-08-21 22:07:56
+1458878367545796,Julia,Thompson,1431,854518728062939,1458878367545796,BOT: quick reply,What is the diffusion of water through a semipermeable membrane down its concentration gradient?,2018-08-21 22:07:57
+1458878367545796,Julia,Thompson,1432,1458878367545796,854518728062939,persistent_menu: SAFETY,Safety:hammer_and_wrench:,2018-08-21 22:08:02
+1458878367545796,Julia,Thompson,1433,1458878367545796,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-21 22:08:03
+1458878367545796,Julia,Thompson,1434,1458878367545796,854518728062939,persistent_menu: SCIENCE,Science:microscope:,2018-08-21 22:08:03
+1458878367545796,Julia,Thompson,1435,854518728062939,1458878367545796,BOT: quick reply,Okay! Lets see how much you know about safety!,2018-08-21 22:08:03
+1458878367545796,Julia,Thompson,1436,854518728062939,1458878367545796,BOT: message,Pick one of the following answers.,2018-08-21 22:08:04
+1458878367545796,Julia,Thompson,1437,854518728062939,1458878367545796,BOT: quick reply,Awesome! Here are some questions on science!,2018-08-21 22:08:05
+1458878367545796,Julia,Thompson,1438,854518728062939,1458878367545796,BOT: quick reply,":keycap_1: mirrors
+:keycap_2: permable
+:keycap_3: nutrients
+:keycap_4: osmosis
+",2018-08-21 22:08:06
+1458878367545796,Julia,Thompson,1439,1458878367545796,854518728062939,user_quick_reply: BUTTON_AKB_osmosis,:keycap_4:,2018-08-21 22:08:11
+1458878367545796,Julia,Thompson,1440,854518728062939,1458878367545796,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_normal_pink.png,2018-08-21 22:08:13
+1458878367545796,Julia,Thompson,1441,854518728062939,1458878367545796,BOT: message,Great! Keep it up! :flexed_biceps_medium-light_skin_tone:,2018-08-21 22:08:15
+1458878367545796,Julia,Thompson,1442,854518728062939,1458878367545796,BOT: quick reply,The correct answer is osmosis.,2018-08-21 22:08:16
+1458878367545796,Julia,Thompson,1443,1458878367545796,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-21 22:08:21
+1458878367545796,Julia,Thompson,1444,854518728062939,1458878367545796,BOT: message,Let's take a look at this question.,2018-08-21 22:08:22
+1458878367545796,Julia,Thompson,1445,854518728062939,1458878367545796,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-21 22:08:23
+1458878367545796,Julia,Thompson,1446,854518728062939,1458878367545796,BOT: quick reply,What living species of bird is considered the largest of the raptors?,2018-08-21 22:08:25
+1458878367545796,Julia,Thompson,1447,1458878367545796,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-21 22:08:29
+1458878367545796,Julia,Thompson,1448,854518728062939,1458878367545796,BOT: message,Pick one of the following answers.,2018-08-21 22:08:30
+1458878367545796,Julia,Thompson,1449,854518728062939,1458878367545796,BOT: quick reply,":keycap_1: peregrine falcon
+:keycap_2: pterodactyl
+:keycap_3: California condor
+:keycap_4: golden eagles
+",2018-08-21 22:08:32
+1458878367545796,Julia,Thompson,1450,1458878367545796,854518728062939,user_quick_reply: BUTTON_DKB_peregrine falcon,:keycap_1:,2018-08-21 22:08:36
+1458878367545796,Julia,Thompson,1451,854518728062939,1458878367545796,BOT: message,"Oops, that is not correct. :disappointed_face:",2018-08-21 22:08:38
+1458878367545796,Julia,Thompson,1452,854518728062939,1458878367545796,BOT: quick reply,The correct answer is golden eagles.,2018-08-21 22:08:39
+1458878367545796,Julia,Thompson,1453,1458878367545796,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-21 22:08:44
+1458878367545796,Julia,Thompson,1454,854518728062939,1458878367545796,BOT: message,Let's see if you can answer this question.,2018-08-21 22:08:45
+1458878367545796,Julia,Thompson,1455,854518728062939,1458878367545796,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-21 22:08:47
+1458878367545796,Julia,Thompson,1456,854518728062939,1458878367545796,BOT: quick reply,What is the diffusion of water through a semipermeable membrane down its concentration gradient?,2018-08-21 22:08:48
+1458878367545796,Julia,Thompson,1457,1458878367545796,854518728062939,user_typing,Osmosis,2018-08-21 22:08:58
+1458878367545796,Julia,Thompson,1458,854518728062939,1458878367545796,BOT: message,Thats right! :party_popper:,2018-08-21 22:08:59
+1458878367545796,Julia,Thompson,1459,854518728062939,1458878367545796,BOT: quick reply,The correct answer is osmosis.,2018-08-21 22:09:01
+1458878367545796,Julia,Thompson,1460,1458878367545796,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-21 22:09:06
+1458878367545796,Julia,Thompson,1461,854518728062939,1458878367545796,BOT: message,Let's see if you can answer this question.,2018-08-21 22:09:07
+1458878367545796,Julia,Thompson,1462,854518728062939,1458878367545796,BOT: quick reply,What are the little sacs at the end of the bronchioles called?,2018-08-21 22:09:08
+1458878367545796,Julia,Thompson,1463,1458878367545796,854518728062939,user_typing,Alveoli,2018-08-21 22:09:36
+1458878367545796,Julia,Thompson,1464,854518728062939,1458878367545796,BOT: message,Correct! :confetti_ball:,2018-08-21 22:09:38
+1458878367545796,Julia,Thompson,1465,854518728062939,1458878367545796,BOT: quick reply,The correct answer is alveoli.,2018-08-21 22:09:39
+1458878367545796,Julia,Thompson,1466,1458878367545796,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-21 22:09:47
+1458878367545796,Julia,Thompson,1467,854518728062939,1458878367545796,BOT: message,Let's try this one.,2018-08-21 22:09:49
+1458878367545796,Julia,Thompson,1468,854518728062939,1458878367545796,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-21 22:09:50
+1458878367545796,Julia,Thompson,1469,854518728062939,1458878367545796,BOT: quick reply,Nerve cells that sense touch are found mainly where?,2018-08-21 22:09:51
+1458878367545796,Julia,Thompson,1470,1458878367545796,854518728062939,user_typing,Skin,2018-08-21 22:10:01
+1458878367545796,Julia,Thompson,1471,854518728062939,1458878367545796,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_normal_purple.png,2018-08-21 22:10:04
+1458878367545796,Julia,Thompson,1472,854518728062939,1458878367545796,BOT: message,Fantastic! :hundred_points:,2018-08-21 22:10:05
+1458878367545796,Julia,Thompson,1473,854518728062939,1458878367545796,BOT: quick reply,The correct answer is skin.,2018-08-21 22:10:06
+1458878367545796,Julia,Thompson,1474,1458878367545796,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-21 22:10:23
+1458878367545796,Julia,Thompson,1475,854518728062939,1458878367545796,BOT: message,Let's try this one.,2018-08-21 22:10:25
+1458878367545796,Julia,Thompson,1476,854518728062939,1458878367545796,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-21 22:10:26
+1458878367545796,Julia,Thompson,1477,854518728062939,1458878367545796,BOT: quick reply,The lithosphere is divided into a dozen major and several minor what?,2018-08-21 22:10:27
+1458878367545796,Julia,Thompson,1478,1458878367545796,854518728062939,user_typing,Plates,2018-08-21 22:10:35
+1458878367545796,Julia,Thompson,1479,854518728062939,1458878367545796,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_jubilated_pink.png,2018-08-21 22:10:38
+1458878367545796,Julia,Thompson,1480,854518728062939,1458878367545796,BOT: message,Nice! :red_apple:,2018-08-21 22:10:39
+1458878367545796,Julia,Thompson,1481,854518728062939,1458878367545796,BOT: quick reply,The correct answer is plates.,2018-08-21 22:10:40
+1458878367545796,Julia,Thompson,1482,1458878367545796,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-21 22:10:50
+1458878367545796,Julia,Thompson,1483,854518728062939,1458878367545796,BOT: message,Here's a question for you:,2018-08-21 22:10:52
+1458878367545796,Julia,Thompson,1484,854518728062939,1458878367545796,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-21 22:10:53
+1458878367545796,Julia,Thompson,1485,854518728062939,1458878367545796,BOT: quick reply,What opens two strands of DNA?,2018-08-21 22:10:54
+1458878367545796,Julia,Thompson,1486,1458878367545796,854518728062939,user_typing,Helicase,2018-08-21 22:11:18
+1458878367545796,Julia,Thompson,1487,854518728062939,1458878367545796,BOT: message,Good job! :raising_hands_medium-light_skin_tone:,2018-08-21 22:11:19
+1458878367545796,Julia,Thompson,1488,854518728062939,1458878367545796,BOT: quick reply,The correct answer is helicase.,2018-08-21 22:11:21
+1458878367545796,Julia,Thompson,1489,1458878367545796,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-21 22:11:35
+1458878367545796,Julia,Thompson,1490,854518728062939,1458878367545796,BOT: message,Let's see if you can get this one.,2018-08-21 22:11:37
+1458878367545796,Julia,Thompson,1491,854518728062939,1458878367545796,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-21 22:11:38
+1458878367545796,Julia,Thompson,1492,854518728062939,1458878367545796,BOT: quick reply,What kind of viscosity is found in long-chain hydrocarbons?,2018-08-21 22:11:39
+1458878367545796,Julia,Thompson,1495,1458878367545796,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-21 22:14:49
+1458878367545796,Julia,Thompson,1496,1458878367545796,854518728062939,persistent_menu: SCIENCE,Science:microscope:,2018-08-21 22:15:45
+1458878367545796,Julia,Thompson,1497,854518728062939,1458878367545796,BOT: quick reply,All right! Ill quiz you on science!,2018-08-21 22:15:47
+1458878367545796,Julia,Thompson,1498,1458878367545796,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-21 22:16:06
+1458878367545796,Julia,Thompson,1499,1458878367545796,854518728062939,persistent_menu: GRE,GRE :input_latin_uppercase:,2018-08-21 22:16:31
+1458878367545796,Julia,Thompson,1500,854518728062939,1458878367545796,BOT: quick reply,All right! Ill quiz you on GRE!,2018-08-21 22:16:33
+1458878367545796,Julia,Thompson,1533,1458878367545796,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-21 22:18:47
+1458878367545796,Julia,Thompson,1545,1458878367545796,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-21 22:20:14
+1458878367545796,Julia,Thompson,1547,1458878367545796,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-21 22:21:38
+1458878367545796,Julia,Thompson,1608,1458878367545796,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-21 22:27:05
+1458878367545796,Julia,Thompson,1623,1458878367545796,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-21 22:28:21
+1458878367545796,Julia,Thompson,1636,1458878367545796,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-21 22:29:40
+1458878367545796,Julia,Thompson,1666,1458878367545796,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-21 22:32:16
+1458878367545796,Julia,Thompson,1687,1458878367545796,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-21 22:33:42
+1458878367545796,Julia,Thompson,1724,1458878367545796,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-21 22:36:25
+1458878367545796,Julia,Thompson,1775,1458878367545796,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-21 22:40:13
+1458878367545796,Julia,Thompson,1777,854518728062939,1458878367545796,BOT: message,Which of the following options is the right answer?,2018-08-21 22:40:14
+1458878367545796,Julia,Thompson,1779,854518728062939,1458878367545796,BOT: quick reply,":keycap_1: intense viscosity
+:keycap_2: low viscosity
+:keycap_3: increased viscosity
+:keycap_4: high viscousity
+",2018-08-21 22:40:16
+1458878367545796,Julia,Thompson,1780,1458878367545796,854518728062939,user_quick_reply: NEXT_QUESTION,Got it :round_pushpin:,2018-08-21 22:40:17
+1458878367545796,Julia,Thompson,1781,854518728062939,1458878367545796,BOT: message,How about this next one:,2018-08-21 22:40:18
+1458878367545796,Julia,Thompson,1782,854518728062939,1458878367545796,BOT: quick reply,"Despite the smile that spread from ear to ear, the eyes relayed a certain _____ .",2018-08-21 22:40:19
+1458878367545796,Julia,Thompson,1789,1458878367545796,854518728062939,user_typing,Sorrow,2018-08-21 22:40:47
+1458878367545796,Julia,Thompson,1790,854518728062939,1458878367545796,BOT: message,Correct! :confetti_ball:,2018-08-21 22:40:48
+1458878367545796,Julia,Thompson,1791,854518728062939,1458878367545796,BOT: quick reply,The correct answer is sorrow.,2018-08-21 22:40:50
+1458878367545796,Julia,Thompson,1792,1458878367545796,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-21 22:41:00
+1458878367545796,Julia,Thompson,1793,854518728062939,1458878367545796,BOT: message,How about this next one:,2018-08-21 22:41:01
+1458878367545796,Julia,Thompson,1794,854518728062939,1458878367545796,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-21 22:41:02
+1458878367545796,Julia,Thompson,1795,854518728062939,1458878367545796,BOT: quick reply,"Prior to taking on the new invader, the defending army had engaged in arduous combat; it is likely that the _____ resulting from waging two battles in two days played a part in its subsequent defeat.",2018-08-21 22:41:04
+1458878367545796,Julia,Thompson,1796,1458878367545796,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-21 22:41:11
+1458878367545796,Julia,Thompson,1797,854518728062939,1458878367545796,BOT: message,Okay. I'll give you some choices.,2018-08-21 22:41:12
+1458878367545796,Julia,Thompson,1798,854518728062939,1458878367545796,BOT: quick reply,":keycap_1: bellicosity
+:keycap_2: aggravation
+:keycap_3: pacification
+:keycap_4: enervation
+:keycap_5: pugnacity
+",2018-08-21 22:41:14
+1458878367545796,Julia,Thompson,1799,1458878367545796,854518728062939,user_quick_reply: BUTTON_AKB_enervation,:keycap_4:,2018-08-21 22:41:19
+1458878367545796,Julia,Thompson,1800,854518728062939,1458878367545796,BOT: message,Nice work! Keep it up!,2018-08-21 22:41:20
+1458878367545796,Julia,Thompson,1801,854518728062939,1458878367545796,BOT: quick reply,The correct answer is enervation.,2018-08-21 22:41:22
+1458878367545796,Julia,Thompson,1802,1458878367545796,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-21 22:41:25
+1458878367545796,Julia,Thompson,1803,854518728062939,1458878367545796,BOT: message,Let's see if you can answer this question.,2018-08-21 22:41:26
+1458878367545796,Julia,Thompson,1804,854518728062939,1458878367545796,BOT: quick reply,The Erie Canal's completion caused _____ economic ripples; property values and industrial output along its route rose exponentially.,2018-08-21 22:41:28
+1458878367545796,Julia,Thompson,1805,1458878367545796,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-21 22:41:34
+1458878367545796,Julia,Thompson,1806,854518728062939,1458878367545796,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-08-21 22:41:35
+1458878367545796,Julia,Thompson,1807,854518728062939,1458878367545796,BOT: quick reply,":keycap_1: invaluable
+:keycap_2: persistent
+:keycap_3: incredulous
+:keycap_4: prodigious
+:keycap_5: severe
+",2018-08-21 22:41:36
+1458878367545796,Julia,Thompson,1808,1458878367545796,854518728062939,user_quick_reply: BUTTON_DKB_persistent,:keycap_2:,2018-08-21 22:41:41
+1458878367545796,Julia,Thompson,1809,854518728062939,1458878367545796,BOT: message,"Oops, that wasn't quite correct. :disappointed_face:",2018-08-21 22:41:43
+1458878367545796,Julia,Thompson,1810,854518728062939,1458878367545796,BOT: quick reply,The correct answer is prodigious.,2018-08-21 22:41:44
+1458878367545796,Julia,Thompson,1811,1458878367545796,854518728062939,user_quick_reply: WHY,Why?,2018-08-21 22:41:49
+1458878367545796,Julia,Thompson,1813,854518728062939,1458878367545796,BOT: message,Here's an explanation:,2018-08-21 22:41:50
+1458878367545796,Julia,Thompson,1815,854518728062939,1458878367545796,BOT: quick reply,":pushpin: Prodigious -- so great in size or force or extent as to elicit awe
+:pushpin: Persistent -- lasting or enduring tenaciously
+:pushpin: Invaluable -- having incalculable monetary, intellectual, or spiritual worth
+:pushpin: Incredulous -- not disposed or willing to believe; unbelieving
+:pushpin: Severe -- intensely or extremely bad or unpleasant in degree or quality",2018-08-21 22:41:51
+1458878367545796,Julia,Thompson,1818,1458878367545796,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-21 22:42:01
+1458878367545796,Julia,Thompson,1819,854518728062939,1458878367545796,BOT: message,Let's see if you can answer this question.,2018-08-21 22:42:03
+1458878367545796,Julia,Thompson,1820,854518728062939,1458878367545796,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-21 22:42:04
+1458878367545796,Julia,Thompson,1821,854518728062939,1458878367545796,BOT: quick reply,The Erie Canal's completion caused _____ economic ripples; property values and industrial output along its route rose exponentially.,2018-08-21 22:42:05
+1458878367545796,Julia,Thompson,1822,1458878367545796,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-21 22:42:12
+1458878367545796,Julia,Thompson,1823,854518728062939,1458878367545796,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-08-21 22:42:14
+1458878367545796,Julia,Thompson,1824,854518728062939,1458878367545796,BOT: quick reply,":keycap_1: persistent
+:keycap_2: prodigious
+:keycap_3: incredulous
+:keycap_4: severe
+:keycap_5: invaluable
+",2018-08-21 22:42:15
+1458878367545796,Julia,Thompson,1825,1458878367545796,854518728062939,user_quick_reply: BUTTON_AKB_prodigious,:keycap_2:,2018-08-21 22:42:20
+1458878367545796,Julia,Thompson,1828,854518728062939,1458878367545796,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_jubilated_orange.png,2018-08-21 22:42:23
+1458878367545796,Julia,Thompson,1831,854518728062939,1458878367545796,BOT: message,Nice work! Keep it up!,2018-08-21 22:42:24
+1458878367545796,Julia,Thompson,1834,854518728062939,1458878367545796,BOT: quick reply,The correct answer is prodigious.,2018-08-21 22:42:25
