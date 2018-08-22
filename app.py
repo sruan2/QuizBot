@@ -1,10 +1,4 @@
-'''
-    app.py
-    Author: Liwei Jiang, Sherry Ruan, Zhengneng Qiu
-    Last Modified Date: 09/08/2018
-    Usage: Flask application for QuizBot.
-'''
-
+'''Flash application for quizbot'''
 import os
 import yaml
 import json
@@ -15,6 +9,7 @@ from time import localtime, strftime
 from datetime import datetime
 import logging
 from flask_mysqldb import MySQL
+import pinyin
 
 import sys
 sys.path.append('./question_sequencing')
@@ -106,91 +101,9 @@ def webhook():
             # the recipient's ID, which should be your page's facebook ID
             recipient_id = messaging_event["recipient"]["id"]
 
-            # Get user data
             data = _get_user_profile(sender_id)
             sender_firstname = data['first_name']
             sender_lastname = data['last_name']
-
-            # db.insert_user_history(mysql, 1458878367545796, "1", "gre", "0")
-            # db.insert_user_history(mysql, "1605863346117668", "1", "gre", 0)
-            # db.insert_user_history(mysql, "1648221408640749", "1", "gre", 0)
-            # db.insert_user_history(mysql, "1679729278802568", "1", "gre", 0)
-            # db.insert_user_history(mysql, "1702211463234799", "1", "gre", 0)
-            # db.insert_user_history(mysql, "1809787982474164", "1", "gre", 0)
-            # db.insert_user_history(mysql, "1833809400020333", "1", "gre", 0)
-            # db.insert_user_history(mysql, "1869513133135340", "1", "gre", 0)
-            # db.insert_user_history(mysql, "1904897786199799", "1", "gre", 0)
-            # db.insert_user_history(mysql, "1913473808676037", "1", "gre", 0)
-            # db.insert_user_history(mysql, "2326685720705389", "1", "gre", 0)
-            # db.insert_user_history(mysql, "2341119375928551", "1", "gre", 0)
-            # db.insert_user_history(mysql, "2370522646291297", "1", "gre", 0)
-
-            # if sender_id == "1850388251650155":
-            #     sender_id = "1458878367545796"
-            #     sender_firstname = "Julia"
-            #     sender_lastname = "Thompson"
-
-            # if sender_id == "1850388251650155":
-            #     sender_id = "1605863346117668"
-            #     sender_firstname = "Henry"
-            #     sender_lastname = "Qin"
-
-            # if sender_id == "1850388251650155":
-            #     sender_id = "1648221408640749"
-            #     sender_firstname = "Nina"
-            #     sender_lastname = "Horowitz"
-
-            # if sender_id == "1850388251650155":
-            #     sender_id = "1679729278802568"
-            #     sender_firstname = "Joy"
-            #     sender_lastname = "Yuzuriha"
-
-            # if sender_id == "1850388251650155":
-            #     sender_id = "1702211463234799"
-            #     sender_firstname = "Zhenqi"
-            #     sender_lastname = "Hu"
-
-            # if sender_id == "1605863346117668":
-            #     sender_id = "1809787982474164"
-            #     sender_firstname = "Tyler"
-            #     sender_lastname = "Yep"
-
-            # if sender_id == "1850388251650155":
-            #     sender_id = "1833809400020333"
-            #     sender_firstname = "Fangmingyu"
-            #     sender_lastname = "Yang"
-
-            # if sender_id == "1850388251650155":
-            #     sender_id = "1869513133135340"
-            #     sender_firstname = "Noah Yinuo"
-            #     sender_lastname = "Yao"
-
-            # if sender_id == "1605863346117668":
-            #     sender_id = "1904897786199799"
-            #     sender_firstname = "Francis"
-            #     sender_lastname = "Yan"
-
-            # if sender_id == "1850388251650155":
-            #     sender_id = "1913473808676037"
-            #     sender_firstname = "Dee Dee"
-            #     sender_lastname = "Thao"
-
-            # if sender_id == "1850388251650155":
-            #     sender_id = "2326685720705389"
-            #     sender_firstname = "Andrew"
-            #     sender_lastname = "Ying"
-
-            # if sender_id == "1850388251650155":
-            #     sender_id = "2341119375928551"
-            #     sender_firstname = "Daniel"
-            #     sender_lastname = "Do"
-
-
-            # if sender_id == "1850388251650155":
-            #     sender_id = "2370522646291297"
-            #     sender_firstname = "Jingyi"
-            #     sender_lastname = "Li"
-
 
 
             # Check if the user is in cache already
@@ -212,17 +125,15 @@ def webhook():
                     pretty_print('Insert the user into cache', mode='Cache')
                     user_history_data = db.show_user_history(mysql, sender_id) # tuple of (qid, score, time_stamp)
                     pretty_print('Retrieve the user history from [user_history]', mode='Database')
-                    print(user_history_data)
-
-                    if sender_id == "1139924072777403":
-                        user_history_data = list(user_history_data)[1:]
-
-                    print(user_history_data)
-
                     qa_model.loadUserData(sender_id, user_history_data)
                     pretty_print('Pass the user history to the QAModel', mode='QAModel')
                 # Insert the user into database and cache if it doesn't exist yet.
+
                 else:
+                    sender_firstname = pinyin.get(sender_firstname, format="strip", delimiter="")
+                    sender_lastname = pinyin.get(sender_lastname, format="strip", delimiter="")
+                    sender_firstname = sender_firstname.capitalize()
+                    sender_lastname = sender_lastname.capitalize()
                     db.insert_user(mysql, sender_id, sender_firstname, sender_lastname)
                     pretty_print('Insert a user into [user]', mode='Database')
                     pretty_print('{} {}'.format(
@@ -236,13 +147,13 @@ def webhook():
                                         'last_payload': None}
                     pretty_print('Insert a user into cache', mode='Cache')
 
-                    pretty_print('firstname: '+str(cache[sender_id]['firstname']))
-                    pretty_print('current_qid: '+str(cache[sender_id]['current_qid']))
-                    pretty_print('current_subject: '+str(cache[sender_id]['current_subject']))
-                    pretty_print('begin_uid: '+str(cache[sender_id]['begin_uid']))
-                    pretty_print('waiting_for_answer: '+str(cache[sender_id]['waiting_for_answer']))
-                    pretty_print('if_explanation_text: '+str(cache[sender_id]['if_explanation_text']))
-                    pretty_print('last_payload: '+str(cache[sender_id]['last_payload']))
+                pretty_print('firstname: '+str(cache[sender_id]['firstname']))
+                pretty_print('current_qid: '+str(cache[sender_id]['current_qid']))
+                pretty_print('current_subject: '+str(cache[sender_id]['current_subject']))
+                pretty_print('begin_uid: '+str(cache[sender_id]['begin_uid']))
+                pretty_print('waiting_for_answer: '+str(cache[sender_id]['waiting_for_answer']))
+                pretty_print('if_explanation_text: '+str(cache[sender_id]['if_explanation_text']))
+                pretty_print('last_payload: '+str(cache[sender_id]['last_payload']))
 
             # User clicked/tapped "postback" button in Persistent menu
             if messaging_event.get("postback"):
@@ -352,6 +263,7 @@ with app.app_context():
     # Load conversation source text file
     chatbot_text, template_conversation = load_source(
         "text/chatbot_text", "text/template_conversation")
+    # [(1139924072777403, 'Sherry'), (1805880356153906, 'Nathan'), (1850388251650155, 'Liwei')]
     reminder.RepeatedTimer(86400, template_conversation, mysql)
 
 if __name__ == '__main__':
@@ -381,3 +293,35 @@ if __name__ == '__main__':
     pretty_print('============ Run App ============', mode='App')
     app.run(host='0.0.0.0', threaded=True, debug=True, use_reloader=False,
             ssl_context=context, port=int(os.environ["PORT"]))
+
+
+# if __name__ == '__main__':
+#     # Set up Flask app and MySQL
+#     setup(chatbot_text)
+
+#     # Read QA json data and construct the QA knowledge base
+#     json_file = 'QAdataset/questions_between_subjects_quizbot.json'
+#     qa_kb = QAKnowlegeBase(json_file)
+#     model = os.environ["MODEL"]
+#     question_sequencing_model = os.environ["QUESTION_SEQUENCING_MODEL"]
+    
+#     if model == "TFIDF":
+#         qa_model = QAModel.TFIDFModel(qa_kb, question_sequencing_model)
+#     elif model == "SIF":
+#         qa_model = QAModel.SIFModel(qa_kb, question_sequencing_model)
+#     elif model == "SIF2":
+#         qa_model = QAModel.SIF2Model(qa_kb, question_sequencing_model)
+#     elif model == "DOC2VEC":
+#         qa_model = QAModel.Doc2VecModel(qa_kb, question_sequencing_model)
+#     elif model == "SupervisedSIFModeL":
+#         qa_model = QAModel.SupervisedSIFModeL(qa_kb, question_sequencing_model)
+
+#     context = ('/etc/letsencrypt/live/smartprimer.org/fullchain.pem',
+#                '/etc/letsencrypt/live/smartprimer.org/privkey.pem')
+
+#     pretty_print('============ Run App ============', mode='App')
+#     app.run(host='0.0.0.0', threaded=True, debug=True, use_reloader=False,
+#             ssl_context=context, port=int(os.environ["PORT"]))
+
+
+
