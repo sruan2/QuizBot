@@ -68,5 +68,5 @@ if __name__ == '__main__':
 
         user_data = (data['qid'], outcome, timestamp)
         model.updateHistory(5, user_data)
-        time.sleep(0.5)
+        # time.sleep(0.5)
         print("item {}, question {}, outcome {}".format(data['qid'], data['question'], outcome))
