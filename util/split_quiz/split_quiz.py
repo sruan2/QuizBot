@@ -11,6 +11,30 @@ import random
 import numpy
 import json
 
+quiz_a_gre_index = [0, 3, 8, 10, 13, 14, 15, 16, 18, 31, 34, 35, 38, 42, 48, 52, 53, 54]
+quiz_a_safety_index = [5, 6, 7, 11, 20, 22, 24, 27, 29, 30, 32, 41, 43, 44, 50, 55, 58, 59]
+quiz_a_science_index = [1, 2, 4, 9, 19, 21, 26, 28, 33, 36, 37, 39, 40, 45, 46, 49, 51, 57]
+quiz_a_index = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13, 14, 15, 16, 18, 19, 20, 21, 22, 24, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 48, 49, 50, 51, 52, 53, 54, 55, 57, 58, 59]
+quiz_a_remove = [12, 17, 23, 25, 47, 56]
+
+quiz_b_gre_index = [0, 3, 7, 12, 13, 15, 19, 22, 28, 29, 32, 34, 36, 41, 50, 52, 53, 58]
+quiz_b_safety_index = [1, 4, 6, 8, 11, 16, 18, 23, 27, 30, 37, 42, 43, 46, 49, 51, 55, 59]
+quiz_b_science_index = [2, 9, 10, 14, 17, 24, 25, 26, 31, 33, 35, 38, 39, 44, 45, 54, 56, 57]
+quiz_b_index = [0, 1, 2, 3, 4, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 41, 42, 43, 44, 45, 46, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59]
+quiz_b_remove = [5, 20, 21, 40, 47, 48]
+
+a1 = [0, 1, 2, 3, 4, 5, 8, 10, 13, 14, 16, 18, 19, 20, 21, 22, 24, 26, 29, 32, 37, 41, 42, 46, 55, 57, 58]
+b1 = [3, 6, 9, 11, 12, 13, 16, 18, 22, 24, 25, 27, 29, 30, 33, 36, 39, 44, 45, 46, 49, 50, 52, 54, 55, 56, 58]
+
+a2 = [6, 7, 9, 11, 15, 27, 28, 30, 31, 33, 34, 35, 36, 38, 39, 40, 43, 44, 45, 48, 49, 50, 51, 52, 53, 54, 59]
+b2 = [0, 1, 2, 4, 7, 8, 10, 14, 15, 17, 19, 23, 26, 28, 31, 32, 34, 35, 37, 38, 41, 42, 43, 51, 53, 57, 59]
+
+quiz_a_repeated_index = [0,  3,   4,  6,  8,  9, 14, 15, 19, 21, 24, 26, 30, 32, 34, 37, 40, 43, 44, 54, 58, 59]
+quiz_b_repeated_index = [13, 22, 33, 37, 52, 17, 36,  0, 54, 44, 11, 39,  8,  6, 15, 24, 57, 43,  1, 19, 49,  4]
+
+quiz_a_to_id = {0: 148, 1: 49, 2: 18, 3: 111, 4: 6, 5: 51, 6: 93, 7: 94, 8: 102, 9: 21, 10: 128, 11: 82, 13: 135, 14: 114, 15: 146, 16: 113, 18: 131, 19: 41, 20: 55, 21: 37, 22: 52, 24: 58, 26: 11, 27: 64, 28: 14, 29: 88, 30: 84, 31: 103, 32: 90, 33: 32, 34: 117, 35: 136, 36: 31, 37: 44, 38: 132, 39: 45, 40: 42, 41: 76, 42: 104, 43: 53, 44: 72, 45: 5, 46: 15, 48: 100, 49: 27, 50: 65, 51: 35, 52: 138, 53: 125, 54: 127, 55: 99, 57: 46, 58: 75, 59: 79}
+quiz_b_to_id = {0: 146, 1: 72, 2: 25, 3: 145, 4: 79, 6: 90, 7: 118, 8: 84, 9: 24, 10: 1, 11: 58, 12: 130, 13: 148, 14: 19, 15: 117, 16: 83, 17: 21, 18: 59, 19: 127, 22: 111, 23: 50, 24: 44, 25: 17, 26: 30, 27: 56, 28: 120, 29: 141, 30: 73, 31: 38, 32: 143, 33: 6, 34: 147, 35: 8, 36: 114, 37: 93, 38: 2, 39: 11, 41: 121, 42: 68, 43: 53, 44: 37, 45: 9, 46: 77, 49: 75, 50: 106, 51: 97, 52: 102, 53: 112, 54: 41, 55: 89, 56: 29, 57: 42, 58: 133, 59: 87}
+
 def get_sub_score(all_users, quiz_data, quiz_answer, quiz_sub_index):
 	result_data = []
 
@@ -226,21 +250,6 @@ def refine_quiz():
 def split_refined_quiz():
 	quiz_a_score_report_filename = "csv/MTurk1_A_score_report.csv"
 	quiz_b_score_report_filename = "csv/MTurk1_B_score_report.csv"
-
-	quiz_a_gre_index = [0, 3, 8, 10, 13, 14, 15, 16, 18, 31, 34, 35, 38, 42, 48, 52, 53, 54]
-	quiz_a_safety_index = [5, 6, 7, 11, 20, 22, 24, 27, 29, 30, 32, 41, 43, 44, 50, 55, 58, 59]
-	quiz_a_science_index = [1, 2, 4, 9, 19, 21, 26, 28, 33, 36, 37, 39, 40, 45, 46, 49, 51, 57]
-
-	quiz_a_remove = [12, 47, 17, 23, 56, 25]
-
-	quiz_b_gre_index = [0, 3, 7, 12, 13, 15, 19, 22, 28, 29, 32, 34, 36, 41, 50, 52, 53, 58]
-	quiz_b_safety_index = [1, 4, 6, 8, 11, 16, 18, 23, 27, 30, 37, 42, 43, 46, 49, 51, 55, 59]
-	quiz_b_science_index = [2, 9, 10, 14, 17, 24, 25, 26, 31, 33, 35, 38, 39, 44, 45, 54, 56, 57]
-
-	quiz_b_remove = [5, 40, 47, 48, 20, 21]
-
-	quiz_a_repeated_index = [0, 3, 4, 6, 8, 9, 14, 15, 19, 21, 24, 26, 30, 32, 34, 37, 40, 43, 44, 54, 58, 59]
-	quiz_b_repeated_index = [13, 22, 33, 37, 52, 17, 36, 0, 54, 44, 11, 39, 8, 6, 15, 24, 57, 43, 1, 19, 49, 4]
 
 	quiz_a_correct_rate = []
 	quiz_b_correct_rate = []
@@ -466,21 +475,7 @@ def verify():
 	quiz_a_score_report_filename = "csv/MTurk1_A_score_report.csv"
 	quiz_b_score_report_filename = "csv/MTurk1_B_score_report.csv"
 
-	quiz_a_gre_index = [0, 3, 8, 10, 13, 14, 15, 16, 18, 31, 34, 35, 38, 42, 48, 52, 53, 54]
-	quiz_a_safety_index = [5, 6, 7, 11, 20, 22, 24, 27, 29, 30, 32, 41, 43, 44, 50, 55, 58, 59]
-	quiz_a_science_index = [1, 2, 4, 9, 19, 21, 26, 28, 33, 36, 37, 39, 40, 45, 46, 49, 51, 57]
-
-	quiz_a_remove = [12, 47, 17, 23, 56, 25]
-	quiz_a_index = list(quiz_a_gre_index + quiz_a_safety_index + quiz_a_science_index)
-
 	quiz_a_all = set(quiz_a_remove + quiz_a_index)
-
-	quiz_b_gre_index = [0, 3, 7, 12, 13, 15, 19, 22, 28, 29, 32, 34, 36, 41, 50, 52, 53, 58]
-	quiz_b_safety_index = [1, 4, 6, 8, 11, 16, 18, 23, 27, 30, 37, 42, 43, 46, 49, 51, 55, 59]
-	quiz_b_science_index = [2, 9, 10, 14, 17, 24, 25, 26, 31, 33, 35, 38, 39, 44, 45, 54, 56, 57]
-
-	quiz_b_remove = [5, 40, 47, 48, 20, 21]
-	quiz_b_index = list(quiz_b_gre_index + quiz_b_safety_index + quiz_b_science_index)
 	quiz_b_all = set(quiz_b_remove + quiz_b_index)
 
 	all_60 = [i for i in range(60)]
@@ -490,15 +485,6 @@ def verify():
 
 	print(quiz_a_index)
 	print(quiz_b_index)
-
-	a1 = [0, 1, 2, 3, 4, 5, 8, 10, 13, 14, 16, 18, 19, 20, 21, 22, 24, 26, 29, 32, 37, 41, 42, 46, 55, 57, 58]
-	b1 = [3, 6, 9, 11, 12, 13, 16, 18, 22, 24, 25, 27, 29, 30, 33, 36, 39, 44, 45, 46, 49, 50, 52, 54, 55, 56, 58]
-	
-	a2 = [6, 7, 9, 11, 15, 27, 28, 30, 31, 33, 34, 35, 36, 38, 39, 40, 43, 44, 45, 48, 49, 50, 51, 52, 53, 54, 59]
-	b2 = [0, 1, 2, 4, 7, 8, 10, 14, 15, 17, 19, 23, 26, 28, 31, 32, 34, 35, 37, 38, 41, 42, 43, 51, 53, 57, 59]
-
-	quiz_a_repeated_index = [0, 3, 4, 6, 8, 9, 14, 15, 19, 21, 24, 26, 30, 32, 34, 37, 40, 43, 44, 54, 58, 59]
-	quiz_b_repeated_index = [13, 22, 33, 37, 52, 17, 36, 0, 54, 44, 11, 39, 8, 6, 15, 24, 57, 43, 1, 19, 49, 4]
 
 	a1_a2 = set(a1 + a2)
 	b1_b2 = set(b1 + b2)
@@ -609,27 +595,6 @@ def split_question_pool():
 	quiz_between_subjects_quizbot_filename = "json/questions_between_subjects_quizbot.json"
 	quiz_a_score_report_filename = "csv/MTurk1_A_score_report.csv"
 	quiz_b_score_report_filename = "csv/MTurk1_B_score_report.csv"
-
-	quiz_a_gre_index = [0, 3, 8, 10, 13, 14, 15, 16, 18, 31, 34, 35, 38, 42, 48, 52, 53, 54]
-	quiz_a_safety_index = [5, 6, 7, 11, 20, 22, 24, 27, 29, 30, 32, 41, 43, 44, 50, 55, 58, 59]
-	quiz_a_science_index = [1, 2, 4, 9, 19, 21, 26, 28, 33, 36, 37, 39, 40, 45, 46, 49, 51, 57]
-	quiz_a_remove = [12, 47, 17, 23, 56, 25]
-	quiz_a_index = list(quiz_a_gre_index + quiz_a_safety_index + quiz_a_science_index)
-
-	quiz_b_gre_index = [0, 3, 7, 12, 13, 15, 19, 22, 28, 29, 32, 34, 36, 41, 50, 52, 53, 58]
-	quiz_b_safety_index = [1, 4, 6, 8, 11, 16, 18, 23, 27, 30, 37, 42, 43, 46, 49, 51, 55, 59]
-	quiz_b_science_index = [2, 9, 10, 14, 17, 24, 25, 26, 31, 33, 35, 38, 39, 44, 45, 54, 56, 57]
-	quiz_b_remove = [5, 40, 47, 48, 20, 21]
-	quiz_b_index = list(quiz_b_gre_index + quiz_b_safety_index + quiz_b_science_index)
-
-	a1 = [0, 1, 2, 3, 4, 5, 8, 10, 13, 14, 16, 18, 19, 20, 21, 22, 24, 26, 29, 32, 37, 41, 42, 46, 55, 57, 58]
-	b1 = [3, 6, 9, 11, 12, 13, 16, 18, 22, 24, 25, 27, 29, 30, 33, 36, 39, 44, 45, 46, 49, 50, 52, 54, 55, 56, 58]
-	
-	a2 = [6, 7, 9, 11, 15, 27, 28, 30, 31, 33, 34, 35, 36, 38, 39, 40, 43, 44, 45, 48, 49, 50, 51, 52, 53, 54, 59]
-	b2 = [0, 1, 2, 4, 7, 8, 10, 14, 15, 17, 19, 23, 26, 28, 31, 32, 34, 35, 37, 38, 41, 42, 43, 51, 53, 57, 59]
-
-	quiz_a_repeated_index = [0, 3, 4, 6, 8, 9, 14, 15, 19, 21, 24, 26, 30, 32, 34, 37, 40, 43, 44, 54, 58, 59]
-	quiz_b_repeated_index = [13, 22, 33, 37, 52, 17, 36, 0, 54, 44, 11, 39, 8, 6, 15, 24, 57, 43, 1, 19, 49, 4]
 
 	quiz_a_question = []
 	quiz_b_question = []
@@ -819,9 +784,6 @@ def dump_correct_rate():
 	quiz_a_question = []
 	quiz_b_question = []
 
-	quiz_a_repeated_index = [0, 3, 4, 6, 8, 9, 14, 15, 19, 21, 24, 26, 30, 32, 34, 37, 40, 43, 44, 54, 58, 59]
-	quiz_b_repeated_index = [13, 22, 33, 37, 52, 17, 36, 0, 54, 44, 11, 39, 8, 6, 15, 24, 57, 43, 1, 19, 49, 4]
-
 	with open(quiz_a_score_report_filename, 'rb') as csvfile:
 		reader = list(csv.reader(csvfile))
 		for i in range(len(reader)):
@@ -901,6 +863,53 @@ def dump_correct_rate():
 	    writer = csv.writer(csvfile)
 	    writer.writerows(result)
 
+
+def get_quiz_id():
+	quiz_b_score_report_filename = "csv/MTurk1_B_score_report.csv"
+	quiz_b_question = []
+
+	with open(quiz_b_score_report_filename, 'rb') as csvfile:
+		reader = list(csv.reader(csvfile))
+		counter = 0
+		for i in range(len(reader)):
+			if len(reader[i]) >= 2:
+				if reader[i][1] == "Field":
+					quiz_b_question.append(reader[i - 1][0])
+					counter += 1
+
+	# quiz_b_index = quiz_a_index
+	quiz_b_question_temp = [quiz_b_question[i] for i in quiz_b_index]
+	quiz_b_question = quiz_b_question_temp[:]
+
+	for i in range(len(quiz_b_question)):
+		quiz_b_question[i] = quiz_b_question[i][5:]
+		while quiz_b_question[i][0] == " ":
+			quiz_b_question[i] = quiz_b_question[i][1:]
+		while quiz_b_question[i][-1] == " ":
+			quiz_b_question[i] = quiz_b_question[i][:-1]
+
+	quiz_all_filename = "json/questions_filtered_150_quizbot.json"
+	all_questions = {}
+
+	result = {}
+
+	with open(quiz_all_filename) as data_file:
+	    data = json.load(data_file)
+
+	for i in range(150):
+		all_questions[str(data[i]['question'])] = data[i]
+
+	for i in range(len(quiz_b_question)):
+		q = quiz_b_question[i]
+		if q == "Arrange in the correct order the following treatment steps for somebody who has lost consciousness: (i) call 911 or inform someone of the situation, (ii) begin CPR, (iii) check the patient's airway to make sure it is clear, (iv) place the victim on his/her back, (v) check signs of life (coughing, breathing, or movement).":
+			result[quiz_b_index[i]] = 35
+		else:
+			result[quiz_b_index[i]] = all_questions[q]["id"]
+
+	print(result)
+	print(len(result))
+
+
 if __name__ == "__main__":
-	dump_correct_rate()
+	get_quiz_id()
 
