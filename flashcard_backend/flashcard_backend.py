@@ -28,7 +28,7 @@ mysql.init_app(app)
 # ================== Load Sequencing Model ==================
 json_file = '../QAdataset/questions_filtered_150_quizbot.json'
 qa_kb = QAKnowlegeBase(json_file)
-model = DASHSequencingModel(qa_kb)
+model = RandomSequencingModel(qa_kb)
 
 json_file_between_subject = '../QAdataset/questions_between_subjects_flashcard.json'
 qa_kb_between_subject = QAKnowlegeBase(json_file_between_subject)
@@ -60,6 +60,8 @@ def fetch_question():
     user_id = request.args.get('user_id')
     data = model.pickNextQuestion(subject='random')
     if user_id in user_id_between_subject:
+        print("--------------------")
+        print(user_between_subject[user_id])
         data = model_between_subject.pickNextQuestion(subject='random')
     return jsonify(data)
 
@@ -69,6 +71,8 @@ def fetch_question_gre():
     user_id = request.args.get('user_id')
     data = model.pickNextQuestion(subject='gre')
     if user_id in user_id_between_subject:
+        print("--------------------")
+        print(user_between_subject[user_id])
         data = model_between_subject.pickNextQuestion(subject='gre')
     return jsonify(data)
 
@@ -78,6 +82,8 @@ def fetch_question_science():
     user_id = request.args.get('user_id')
     data = model.pickNextQuestion(subject='science')
     if user_id in user_id_between_subject:
+        print("--------------------")
+        print(user_between_subject[user_id])
         data = model_between_subject.pickNextQuestion(subject='science')
     return jsonify(data)
 
@@ -87,6 +93,8 @@ def fetch_question_safety():
     user_id = request.args.get('user_id')
     data = model.pickNextQuestion(subject='safety')
     if user_id in user_id_between_subject:
+        print("--------------------")
+        print(user_between_subject[user_id])
         data = model_between_subject.pickNextQuestion(subject='safety')
     return jsonify(data)
 

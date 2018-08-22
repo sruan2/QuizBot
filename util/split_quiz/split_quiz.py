@@ -32,11 +32,24 @@ b2 = [0, 1, 2, 4, 7, 8, 10, 14, 15, 17, 19, 23, 26, 28, 31, 32, 34, 35, 37, 38, 
 quiz_a_repeated_index = [0,  3,   4,  6,  8,  9, 14, 15, 19, 21, 24, 26, 30, 32, 34, 37, 40, 43, 44, 54, 58, 59]
 quiz_b_repeated_index = [13, 22, 33, 37, 52, 17, 36,  0, 54, 44, 11, 39,  8,  6, 15, 24, 57, 43,  1, 19, 49,  4]
 
+repeated_question_id = [148, 111, 6, 93, 102, 21, 114, 146, 41, 37, 58, 11, 84, 90, 117, 44, 42, 53, 72, 127, 75, 79]
+
 quiz_a_to_id = {0: 148, 1: 49, 2: 18, 3: 111, 4: 6, 5: 51, 6: 93, 7: 94, 8: 102, 9: 21, 10: 128, 11: 82, 13: 135, 14: 114, 15: 146, 16: 113, 18: 131, 19: 41, 20: 55, 21: 37, 22: 52, 24: 58, 26: 11, 27: 64, 28: 14, 29: 88, 30: 84, 31: 103, 32: 90, 33: 32, 34: 117, 35: 136, 36: 31, 37: 44, 38: 132, 39: 45, 40: 42, 41: 76, 42: 104, 43: 53, 44: 72, 45: 5, 46: 15, 48: 100, 49: 27, 50: 65, 51: 35, 52: 138, 53: 125, 54: 127, 55: 99, 57: 46, 58: 75, 59: 79}
 quiz_b_to_id = {0: 146, 1: 72, 2: 25, 3: 145, 4: 79, 6: 90, 7: 118, 8: 84, 9: 24, 10: 1, 11: 58, 12: 130, 13: 148, 14: 19, 15: 117, 16: 83, 17: 21, 18: 59, 19: 127, 22: 111, 23: 50, 24: 44, 25: 17, 26: 30, 27: 56, 28: 120, 29: 141, 30: 73, 31: 38, 32: 143, 33: 6, 34: 147, 35: 8, 36: 114, 37: 93, 38: 2, 39: 11, 41: 121, 42: 68, 43: 53, 44: 37, 45: 9, 46: 77, 49: 75, 50: 106, 51: 97, 52: 102, 53: 112, 54: 41, 55: 89, 56: 29, 57: 42, 58: 133, 59: 87}
 
-quiz_flashcard_to_id = {0: 148, 1: 49, 2: 18, 3: 111, 4: 6, 5: 51, 8: 102, 10: 128, 13: 135, 14: 114, 16: 113, 18: 131, 19: 41, 20: 55, 21: 37, 22: 52, 24: 58, 26: 11, 29: 88, 32: 90, 37: 44, 41: 76, 42: 104, 46: 15, 55: 99, 57: 46, 58: 75, 3: 145, 6: 90, 9: 24, 11: 58, 12: 130, 13: 148, 16: 83, 18: 59, 22: 111, 24: 44, 25: 17, 27: 56, 29: 141, 30: 73, 33: 6, 36: 114, 39: 11, 44: 37, 45: 9, 46: 77, 49: 75, 50: 106, 52: 102, 54: 41, 55: 89, 56: 29, 58: 133}
-quiz_quizbot_to_id = {6: 93, 7: 94, 9: 21, 11: 82, 15: 146, 27: 64, 28: 14, 30: 84, 31: 103, 33: 32, 34: 117, 35: 136, 36: 31, 38: 132, 39: 45, 40: 42, 43: 53, 44: 72, 45: 5, 48: 100, 49: 27, 50: 65, 51: 35, 52: 138, 53: 125, 54: 127, 59: 79, 0: 146, 1: 72, 2: 25, 4: 79, 7: 118, 8: 84, 10: 1, 14: 19, 15: 117, 17: 21, 19: 127, 23: 50, 26: 30, 28: 120, 31: 38, 32: 143, 34: 147, 35: 8, 37: 93, 38: 2, 41: 121, 42: 68, 43: 53, 51: 97, 53: 112, 57: 42, 59: 87}
+a1_to_id = {0: 148, 1: 49, 2: 18, 3: 111, 4: 6, 5: 51, 8: 102, 10: 128, 13: 135, 14: 114, 16: 113, 18: 131, 19: 41, 20: 55, 21: 37, 22: 52, 24: 58, 26: 11, 29: 88, 32: 90, 37: 44, 41: 76, 42: 104, 46: 15, 55: 99, 57: 46, 58: 75}
+a2_to_id = {6: 93, 7: 94, 9: 21, 11: 82, 15: 146, 27: 64, 28: 14, 30: 84, 31: 103, 33: 32, 34: 117, 35: 136, 36: 31, 38: 132, 39: 45, 40: 42, 43: 53, 44: 72, 45: 5, 48: 100, 49: 27, 50: 65, 51: 35, 52: 138, 53: 125, 54: 127, 59: 79}
+b1_to_id = {3: 145, 6: 90, 9: 24, 11: 58, 12: 130, 13: 148, 16: 83, 18: 59, 22: 111, 24: 44, 25: 17, 27: 56, 29: 141, 30: 73, 33: 6, 36: 114, 39: 11, 44: 37, 45: 9, 46: 77, 49: 75, 50: 106, 52: 102, 54: 41, 55: 89, 56: 29, 58: 133}
+b2_to_id = {0: 146, 1: 72, 2: 25, 4: 79, 7: 118, 8: 84, 10: 1, 14: 19, 15: 117, 17: 21, 19: 127, 23: 50, 26: 30, 28: 120, 31: 38, 32: 143, 34: 147, 35: 8, 37: 93, 38: 2, 41: 121, 42: 68, 43: 53, 51: 97, 53: 112, 57: 42, 59: 87}
+
+quiz_a_id = [5, 6, 11, 14, 15, 18, 21, 27, 31, 32, 35, 37, 41, 42, 44, 45, 46, 49, 51, 52, 53, 55, 58, 64, 65, 72, 75, 76, 79, 82, 84, 88, 90, 93, 94, 99, 100, 102, 103, 104, 111, 113, 114, 117, 125, 127, 128, 131, 132, 135, 136, 138, 146, 148]
+quiz_b_id = [1, 2, 6, 8, 9, 11, 17, 19, 21, 24, 25, 29, 30, 37, 38, 41, 42, 44, 50, 53, 56, 58, 59, 68, 72, 73, 75, 77, 79, 83, 84, 87, 89, 90, 93, 97, 102, 106, 111, 112, 114, 117, 118, 120, 121, 127, 130, 133, 141, 143, 145, 146, 147, 148]
+
+flashcard_id = [6, 9, 11, 15, 17, 18, 24, 29, 37, 41, 44, 46, 49, 51, 52, 55, 56, 58, 59, 73, 75, 76, 77, 83, 88, 89, 90, 99, 102, 104, 106, 111, 113, 114, 128, 130, 131, 133, 135, 141, 145, 148]
+quizbot_id = [1, 2, 5, 8, 14, 19, 21, 25, 27, 30, 31, 32, 35, 38, 42, 45, 50, 53, 64, 65, 68, 72, 79, 82, 84, 87, 93, 94, 97, 100, 103, 112, 117, 118, 120, 121, 125, 127, 132, 136, 138, 143, 146, 147]
+
+repeated_in_flashcard_id = [75, 37, 6, 41, 11, 44, 114, 111, 102, 148, 58, 90]
+repeated_in_quizbot_id = [72, 42, 79, 146, 84, 21, 127, 117, 93, 53]
 
 
 def get_sub_score(all_users, quiz_data, quiz_answer, quiz_sub_index):
@@ -853,7 +866,7 @@ def dump_correct_rate():
 	for q in question_correct_rate_pair.keys():
 		sub_result = []
 		if q == "Arrange in the correct order the following treatment steps for somebody who has lost consciousness: (i) call 911 or inform someone of the situation, (ii) begin CPR, (iii) check the patient's airway to make sure it is clear, (iv) place the victim on his/her back, (v) check signs of life (coughing, breathing, or movement).":
-			sub_result.append(35)
+			sub_result.append(55)
 		else:
 			sub_result.append(all_questions[q]["id"])
 		sub_result.append(q)
@@ -881,7 +894,7 @@ def get_quiz_id():
 					quiz_b_question.append(reader[i - 1][0])
 					counter += 1
 
-	quiz_b_index = b2
+	# quiz_b_index = quiz_b_index
 	quiz_b_question_temp = [quiz_b_question[i] for i in quiz_b_index]
 	quiz_b_question = quiz_b_question_temp[:]
 
@@ -906,14 +919,64 @@ def get_quiz_id():
 	for i in range(len(quiz_b_question)):
 		q = quiz_b_question[i]
 		if q == "Arrange in the correct order the following treatment steps for somebody who has lost consciousness: (i) call 911 or inform someone of the situation, (ii) begin CPR, (iii) check the patient's airway to make sure it is clear, (iv) place the victim on his/her back, (v) check signs of life (coughing, breathing, or movement).":
-			result[quiz_b_index[i]] = 35
+			result[quiz_b_index[i]] = 55
 		else:
 			result[quiz_b_index[i]] = all_questions[q]["id"]
+
+	result = []
+
+	with open(quiz_all_filename) as data_file:
+	    data = json.load(data_file)
+
+	for i in range(150):
+		all_questions[str(data[i]['question'])] = data[i]
+
+	for i in range(len(quiz_b_question)):
+		q = quiz_b_question[i]
+		if q == "Arrange in the correct order the following treatment steps for somebody who has lost consciousness: (i) call 911 or inform someone of the situation, (ii) begin CPR, (iii) check the patient's airway to make sure it is clear, (iv) place the victim on his/her back, (v) check signs of life (coughing, breathing, or movement).":
+			result.append(55)
+		else:
+			result.append(all_questions[q]["id"])
 
 	print(result)
 	print(len(result))
 
 
+def get_question_pool_id():
+	a1_question_id = a1_to_id.values()
+	a2_question_id = a2_to_id.values()
+	b1_question_id = b1_to_id.values()
+	b2_question_id = b2_to_id.values()
+
+	flashcard_question_id = numpy.unique(a1_question_id + b1_question_id)
+	quizbot_question_id = numpy.unique(a2_question_id + b2_question_id)
+
+	print(list(flashcard_question_id))
+	print(len(flashcard_question_id))
+	print(list(quizbot_question_id))
+	print(len(quizbot_question_id))
+
+
+def get_repeated_in_pool():
+	repeated_in_flashcard = list(set(repeated_question_id)&set(flashcard_id))
+	repeated_in_quizbot = list(set(repeated_question_id)&set(quizbot_id))
+
+	print(repeated_in_flashcard)
+	print(len(repeated_in_flashcard))
+	print(repeated_in_quizbot)
+	print(len(repeated_in_quizbot))
+
+	# quiz_a_id.sort()
+	# quiz_b_id.sort()
+
+	# print(quiz_a_id)
+	# print(quiz_b_id)
+
 if __name__ == "__main__":
-	get_repeated_questions()
+	get_repeated_in_pool()
+
+
+
+
+
 
