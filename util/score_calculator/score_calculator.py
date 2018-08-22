@@ -230,7 +230,7 @@ def quiz_b_30_20():
 
 def quiz_b_40_10():
 	# quiz_a_score_report_filename = "csv/MTurk1_A_score_report.csv"
-	quiz_b_score_report_filename = "csv/MTurk1_B_score_report.csv"
+	quiz_b_score_report_filename = "csv/Quiz_B_40_10_recall_score_report.csv"
 
 	# quiz_a_question = []
 	quiz_b_question = []
@@ -263,6 +263,8 @@ def quiz_b_40_10():
 
 	for i in range(len(quiz)):
 		quiz_data[quiz[i][17]] = [quiz[i][5 * j + 91] for j in range(54)]
+		for j in quiz_b_remove:
+			quiz_data[quiz[i][17]].insert(j, '')
 
 	with open(quiz_b_user_record_filename, 'rt') as csvfile:
 		reader = list(csv.reader(csvfile))
@@ -270,37 +272,42 @@ def quiz_b_40_10():
 
 	for i in range(len(quiz)):
 		quiz_data[quiz[i][17]] = [quiz[i][5 * j + 100] for j in range(54)]
+		for j in quiz_b_remove:
+			quiz_data[quiz[i][17]].insert(j, '')
 
 	all_users = quiz_data.keys()
 
 	# print(len(quiz_data['Tugce']))
-	print(quiz_data)
+	# print(quiz_data)
 	# print(quiz[0])
 	# print(len(quiz[i]))
 
 	# print(len(quiz_data['Tugce']))
 	# print(len(quiz[i]))
+
+	for i in quiz_b_remove:
+		quiz_b_answer.insert(i, '')
 	
 
-	# question_index = {'Yi': [12, 44, 22, 53, 36, 15, 28, 18, 19], \
-	# 				  'Tugce': [10, 59, 42, 35, 45, 39, 29, 4, 1, 23, 43, 54, 28, 55, 11, 56], \
-	# 				  'Edgar': [10, 12, 58, 33, 35, 45, 39, 29, 32, 3, 34, 13, 17, 9, 2, 56, 26, 44, 31, 54, 57, 24, 23, 27, 38, 42, 1, 49, 46, 8, 59, 55, 6, 52, 25, 14, 19], \
-	# 				  'Pingyu': [53, 9, 0, 37, 28], \
-	# 				  'Dae Hyun': [12, 44, 33, 25, 50, 24, 29, 32, 53, 3, 0, 34, 13, 15, 7, 28, 41, 6, 22, 52], \
-	# 				  'Tzu Yin': [14, 12, 36, 58, 31, 50, 38, 32, 53, 41, 0, 34, 13, 15, 7, 59, 2, 11, 22, 52], \
-	# 				  'Marianne': [10, 12, 58, 33, 35, 45, 39, 29, 32, 3, 0, 34, 13, 17, 9, 2, 26, 44, 31, 54, 57, 24, 23, 11, 18, 38, 42, 30, 46, 4, 16, 8, 59, 55, 6, 37, 51, 52, 25, 50, 22, 53, 14, 15, 7, 28, 41, 19]}
+	question_index = {'Yi': [12, 44, 22, 53, 36, 15, 28, 18, 19], \
+					  'Tugce': [10, 59, 42, 35, 45, 39, 29, 4, 1, 23, 43, 54, 28, 55, 11, 56], \
+					  'Edgar': [10, 12, 58, 33, 35, 45, 39, 29, 32, 3, 34, 13, 17, 9, 2, 56, 26, 44, 31, 54, 57, 24, 23, 27, 38, 42, 1, 49, 46, 8, 59, 55, 6, 52, 25, 14, 19], \
+					  'Pingyu': [53, 9, 0, 37, 28], \
+					  'Dae Hyun': [12, 44, 33, 25, 50, 24, 29, 32, 53, 3, 0, 34, 13, 15, 7, 28, 41, 6, 22, 52], \
+					  'Tzu Yin': [14, 12, 36, 58, 31, 50, 38, 32, 53, 41, 0, 34, 13, 15, 7, 59, 2, 11, 22, 52], \
+					  'Marianne': [10, 12, 58, 33, 35, 45, 39, 29, 32, 3, 0, 34, 13, 17, 9, 2, 26, 44, 31, 54, 57, 24, 23, 11, 18, 38, 42, 30, 46, 4, 16, 8, 59, 55, 6, 37, 51, 52, 25, 50, 22, 53, 14, 15, 7, 28, 41, 19]}
 
-	# result_data = []
-	# for u in range(len(all_users)):
-	# 	user = all_users[u]
-	# 	result_data.append([user, 0])
-	# 	for i in question_index[user]:
-	# 		if quiz_data[user][i] == quiz_b_answer[i]:
-	# 			result_data[u][1] += 1
+	result_data = []
+	for u in range(len(all_users)):
+		user = all_users[u]
+		result_data.append([user, 0])
+		for i in question_index[user]:
+			if quiz_data[user][i] == quiz_b_answer[i]:
+				result_data[u][1] += 1
 
 
-	# print(result_data)
-	# print(len(result_data))
+	print(result_data)
+	print(len(result_data))
 
 
 if __name__ == "__main__":
