@@ -19,7 +19,7 @@ ITERATIONS = 100
 
 if __name__ == '__main__':
     # Read QA json data and construct the QA knowledge base
-    json_file = '../QAdataset/questions_filtered_150_quizbot.json'
+    json_file = '../QAdataset/questions_between_subjects_flashcard.json'
     qa_kb = QAKnowlegeBase(json_file)
 
     # model = RandomSequencingModel(qa_kb)
@@ -68,5 +68,5 @@ if __name__ == '__main__':
 
         user_data = (data['qid'], outcome, timestamp)
         model.updateHistory(5, user_data)
-        # time.sleep(0.5)
-        print("item {} outcome {}".format(data['qid'], outcome))
+        time.sleep(0.5)
+        print("item {}, question {}, outcome {}".format(data['qid'], data['question'], outcome))
