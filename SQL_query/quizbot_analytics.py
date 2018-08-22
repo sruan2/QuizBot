@@ -10,12 +10,12 @@ import csv
 #		 ("Michael", "Silvernagel"), ("Bianca", "Yu"), ("Julia", "Thompson")]
 
 # use the QUIZBOT_DEV database
-users = [("Julia", "Thompson")]
+#users = [("Julia", "Thompson")]
 
 # within-subject users: use the QUIZBOT_DEV database
-#users = [("Noah Yinuo", "Yao"), ("Dee Dee", "Thao"), ("Zhenqi", "Hu"), ("Jingyi", "Li"), ("Joy", "Yuzuriha"), ("Tyler", "Yep"), \
-#         ("Andrew", "Ying"), ("Henry", "Qin"), ("Nina", "Horowitz"), ("Daniel", "Do"), ("Fangmingyu", "Yang"), \
-#         ("Francis", "Yan"), ("Olivia", "Yang")]
+users = [("Noah Yinuo", "Yao"), ("Dee Dee", "Thao"), ("Zhenqi", "Hu"), ("Jingyi", "Li"), ("Joy", "Yuzuriha"), ("Tyler", "Yep"), \
+         ("Andrew", "Ying"), ("Henry", "Qin"), ("Nina", "Horowitz"), ("Daniel", "Do"), ("Fangmingyu", "Yang"), \
+         ("Francis", "Yan"), ("Olivia", "Yang")]
 
 
 if sys.argv[1] != "" and sys.argv[2] != "":
