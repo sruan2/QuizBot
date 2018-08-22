@@ -1,1 +1,1558 @@
 user_id,user_firstname,user_lastname,uid,sender,recipient,type,dialogue,time_stamp
+1839327872847153,Nina,Tai,8278,1839327872847153,854518728062939,persistent_menu: GET_INTRO_1,Get Started,2018-08-14 14:21:26
+1839327872847153,Nina,Tai,8279,854518728062939,1839327872847153,BOT: image,https://www.smartprimer.org:443/pictures/avatar/quizbot_avatar.png,2018-08-14 14:21:31
+1839327872847153,Nina,Tai,8280,854518728062939,1839327872847153,BOT: quick reply,"Hi Nina! My name is Frosty :penguin: and Im here to help you learn all about science:microscope:, verbal reasoning (GRE) :input_latin_uppercase:, and safety:hammer_and_wrench:!",2018-08-14 14:21:33
+1839327872847153,Nina,Tai,8281,1839327872847153,854518728062939,user_quick_reply: GET_INTRO_2,I see :collision:,2018-08-14 14:21:51
+1839327872847153,Nina,Tai,8282,854518728062939,1839327872847153,BOT: message,Heres how it works.,2018-08-14 14:21:54
+1839327872847153,Nina,Tai,8283,854518728062939,1839327872847153,BOT: message,"I ask you questions, and you give me answers.",2018-08-14 14:21:55
+1839327872847153,Nina,Tai,8284,854518728062939,1839327872847153,BOT: quick reply,We will learn fun things together!,2018-08-14 14:21:57
+1839327872847153,Nina,Tai,8285,1839327872847153,854518728062939,persistent_menu: SCIENCE,Science:microscope:,2018-08-14 14:22:58
+1839327872847153,Nina,Tai,8286,854518728062939,1839327872847153,BOT: quick reply,Okay! Lets see how much you know about science!,2018-08-14 14:23:00
+1839327872847153,Nina,Tai,8287,1839327872847153,854518728062939,user_quick_reply: NEXT_QUESTION,Alrighty :flexed_biceps_medium-light_skin_tone:,2018-08-14 14:23:05
+1839327872847153,Nina,Tai,8288,854518728062939,1839327872847153,BOT: message,Let's take a look at this question.,2018-08-14 14:23:07
+1839327872847153,Nina,Tai,8289,854518728062939,1839327872847153,BOT: quick reply,What are the little sacs at the end of the bronchioles called?,2018-08-14 14:23:08
+1839327872847153,Nina,Tai,8290,1839327872847153,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-14 14:23:19
+1839327872847153,Nina,Tai,8291,854518728062939,1839327872847153,BOT: message,Pick one of the following answers.,2018-08-14 14:23:21
+1839327872847153,Nina,Tai,8292,854518728062939,1839327872847153,BOT: quick reply,":keycap_1: ganglion
+:keycap_2: alveoli
+:keycap_3: lung
+:keycap_4: respiratory sacs
+",2018-08-14 14:23:22
+1839327872847153,Nina,Tai,8293,1839327872847153,854518728062939,user_quick_reply: BUTTON_AKB_alveoli,:keycap_2:,2018-08-14 14:23:28
+1839327872847153,Nina,Tai,8294,854518728062939,1839327872847153,BOT: image,https://www.smartprimer.org:443/pictures/avatar/congrats/penguinnormal_normal_pink.png,2018-08-14 14:23:30
+1839327872847153,Nina,Tai,8295,854518728062939,1839327872847153,BOT: message,Yes! You got the correct answer!,2018-08-14 14:23:32
+1839327872847153,Nina,Tai,8296,854518728062939,1839327872847153,BOT: quick reply,The correct answer is alveoli.,2018-08-14 14:23:33
+1839327872847153,Nina,Tai,8297,1839327872847153,854518728062939,user_quick_reply: WHY,Why?,2018-08-14 14:23:38
+1839327872847153,Nina,Tai,8298,854518728062939,1839327872847153,BOT: message,Here's an explanation:,2018-08-14 14:23:40
+1839327872847153,Nina,Tai,8299,854518728062939,1839327872847153,BOT: quick reply,"The bronchioles lead to the alveoli. Alveoli are the little sacs at the end of the bronchioles. They look like little bunches of grapes. Oxygen is exchanged for carbon dioxide in the alveoli. That means oxygen enters the blood, and carbon dioxide moves out of the blood. The gases are exchanged between the blood and alveoli by simple diffusion.",2018-08-14 14:23:41
+1839327872847153,Nina,Tai,8421,854518728062939,1839327872847153,BOT: quick reply,"Hi Nina, you haven't talked to me for a while. Would you like to resume the learning with me?",2018-08-14 20:01:51
+1839327872847153,Nina,Tai,8515,1839327872847153,854518728062939,user_quick_reply: NEXT_QUESTION,Next :light_bulb:,2018-08-14 20:57:23
+1839327872847153,Nina,Tai,8516,854518728062939,1839327872847153,BOT: message,Here's a question for you:,2018-08-14 20:57:24
+1839327872847153,Nina,Tai,8517,854518728062939,1839327872847153,BOT: quick reply,A bee will sometimes do a dance to tell other bees in the hive where to find what?,2018-08-14 20:57:25
+1839327872847153,Nina,Tai,8518,1839327872847153,854518728062939,user_typing,Flower,2018-08-14 20:57:39
+1839327872847153,Nina,Tai,8519,854518728062939,1839327872847153,BOT: message,"Oops, that answer was incorrect. :disappointed_face:",2018-08-14 20:57:41
+1839327872847153,Nina,Tai,8520,854518728062939,1839327872847153,BOT: quick reply,The correct answer is food.,2018-08-14 20:57:42
+1839327872847153,Nina,Tai,8521,1839327872847153,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-14 20:57:51
+1839327872847153,Nina,Tai,8522,854518728062939,1839327872847153,BOT: message,Let's see if you can answer this question.,2018-08-14 20:57:52
+1839327872847153,Nina,Tai,8523,854518728062939,1839327872847153,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-14 20:57:54
+1839327872847153,Nina,Tai,8524,854518728062939,1839327872847153,BOT: quick reply,"What arises due to crossing over, independent assortment, and the random union of gametes?",2018-08-14 20:57:55
+1839327872847153,Nina,Tai,8525,1839327872847153,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-14 20:58:05
+1839327872847153,Nina,Tai,8526,854518728062939,1839327872847153,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-08-14 20:58:07
+1839327872847153,Nina,Tai,8527,854518728062939,1839327872847153,BOT: quick reply,":keycap_1: susceptible variation
+:keycap_2: alternative variation
+:keycap_3: genetic variation
+:keycap_4: recessive variation
+",2018-08-14 20:58:08
+1839327872847153,Nina,Tai,8528,1839327872847153,854518728062939,user_quick_reply: I_DONT_KNOW,I dont know :downcast_face_with_sweat:,2018-08-14 20:58:15
+1839327872847153,Nina,Tai,8529,854518728062939,1839327872847153,BOT: quick reply,Are you sure you want to give up?,2018-08-14 20:58:16
+1839327872847153,Nina,Tai,8530,1839327872847153,854518728062939,user_quick_reply: GIVEUP_YES,"Yes, answer please.",2018-08-14 20:58:22
+1839327872847153,Nina,Tai,8531,854518728062939,1839327872847153,BOT: message,You didn't get it right this time.,2018-08-14 20:58:23
+1839327872847153,Nina,Tai,8532,854518728062939,1839327872847153,BOT: message,No worries! You'll get it next time! :grinning_face_with_smiling_eyes:,2018-08-14 20:58:24
+1839327872847153,Nina,Tai,8533,854518728062939,1839327872847153,BOT: quick reply,The correct answer is genetic variation.,2018-08-14 20:58:26
+1839327872847153,Nina,Tai,8534,1839327872847153,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-14 20:58:33
+1839327872847153,Nina,Tai,8535,854518728062939,1839327872847153,BOT: message,Let's try this question.,2018-08-14 20:58:34
+1839327872847153,Nina,Tai,8536,854518728062939,1839327872847153,BOT: quick reply,What cells are the basis of nervous tissue?,2018-08-14 20:58:35
+1839327872847153,Nina,Tai,8537,1839327872847153,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-14 20:58:41
+1839327872847153,Nina,Tai,8538,854518728062939,1839327872847153,BOT: message,Which of the following options is the right answer?,2018-08-14 20:58:42
+1839327872847153,Nina,Tai,8539,854518728062939,1839327872847153,BOT: quick reply,":keycap_1: neurons
+:keycap_2: osteoclasts
+:keycap_3: erythrocytes
+:keycap_4: lipocytes
+",2018-08-14 20:58:43
+1839327872847153,Nina,Tai,8540,1839327872847153,854518728062939,user_quick_reply: BUTTON_DKB_lipocytes,:keycap_4:,2018-08-14 20:58:49
+1839327872847153,Nina,Tai,8541,854518728062939,1839327872847153,BOT: message,"I'm sorry, but that was incorrect. :disappointed_face:",2018-08-14 20:58:51
+1839327872847153,Nina,Tai,8542,854518728062939,1839327872847153,BOT: quick reply,The correct answer is neurons.,2018-08-14 20:58:52
+1839327872847153,Nina,Tai,8543,1839327872847153,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-14 20:58:58
+1839327872847153,Nina,Tai,8544,854518728062939,1839327872847153,BOT: message,Let's try this question.,2018-08-14 20:59:00
+1839327872847153,Nina,Tai,8545,854518728062939,1839327872847153,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-14 20:59:01
+1839327872847153,Nina,Tai,8546,854518728062939,1839327872847153,BOT: quick reply,"The hypothalamus is actually part of the brain, but it also secretes what?",2018-08-14 20:59:02
+1839327872847153,Nina,Tai,8547,1839327872847153,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-14 20:59:08
+1839327872847153,Nina,Tai,8548,854518728062939,1839327872847153,BOT: message,Okay. I'll give you some choices.,2018-08-14 20:59:10
+1839327872847153,Nina,Tai,8549,854518728062939,1839327872847153,BOT: quick reply,":keycap_1: acids
+:keycap_2: electrolytes
+:keycap_3: enzymes
+:keycap_4: hormones
+",2018-08-14 20:59:11
+1839327872847153,Nina,Tai,8550,1839327872847153,854518728062939,user_quick_reply: BUTTON_AKB_hormones,:keycap_4:,2018-08-14 20:59:17
+1839327872847153,Nina,Tai,8551,854518728062939,1839327872847153,BOT: image,https://www.smartprimer.org:443/pictures/avatar/congrats/penguinnormal_jubilated_cyan.png,2018-08-14 20:59:20
+1839327872847153,Nina,Tai,8552,854518728062939,1839327872847153,BOT: message,Great job!,2018-08-14 20:59:22
+1839327872847153,Nina,Tai,8553,854518728062939,1839327872847153,BOT: quick reply,The correct answer is hormones.,2018-08-14 20:59:23
+1839327872847153,Nina,Tai,8554,1839327872847153,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-14 20:59:29
+1839327872847153,Nina,Tai,8555,854518728062939,1839327872847153,BOT: message,Let's take a look at this question.,2018-08-14 20:59:30
+1839327872847153,Nina,Tai,8556,854518728062939,1839327872847153,BOT: quick reply,"The hypothalamus is actually part of the brain, but it also secretes what?",2018-08-14 20:59:32
+1839327872847153,Nina,Tai,8557,1839327872847153,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-14 20:59:43
+1839327872847153,Nina,Tai,8558,854518728062939,1839327872847153,BOT: message,Which of the following options is the right answer?,2018-08-14 20:59:45
+1839327872847153,Nina,Tai,8559,854518728062939,1839327872847153,BOT: quick reply,":keycap_1: acids
+:keycap_2: hormones
+:keycap_3: electrolytes
+:keycap_4: enzymes
+",2018-08-14 20:59:46
+1839327872847153,Nina,Tai,8560,1839327872847153,854518728062939,user_quick_reply: BUTTON_AKB_hormones,:keycap_2:,2018-08-14 20:59:51
+1839327872847153,Nina,Tai,8561,854518728062939,1839327872847153,BOT: image,https://www.smartprimer.org:443/pictures/avatar/congrats/penguinnormal_happy_purple.png,2018-08-14 20:59:54
+1839327872847153,Nina,Tai,8562,854518728062939,1839327872847153,BOT: message,Nice! That was right!,2018-08-14 20:59:56
+1839327872847153,Nina,Tai,8563,854518728062939,1839327872847153,BOT: quick reply,The correct answer is hormones.,2018-08-14 20:59:57
+1839327872847153,Nina,Tai,8564,1839327872847153,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-14 21:00:02
+1839327872847153,Nina,Tai,8565,854518728062939,1839327872847153,BOT: message,What about this next question:,2018-08-14 21:00:04
+1839327872847153,Nina,Tai,8566,854518728062939,1839327872847153,BOT: quick reply,All organisms can be classified into one of three of this least specific grouping?,2018-08-14 21:00:05
+1839327872847153,Nina,Tai,8567,1839327872847153,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-14 21:00:11
+1839327872847153,Nina,Tai,8568,854518728062939,1839327872847153,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-08-14 21:00:12
+1839327872847153,Nina,Tai,8569,854518728062939,1839327872847153,BOT: quick reply,":keycap_1: species
+:keycap_2: aspects
+:keycap_3: domains
+:keycap_4: phlylum
+",2018-08-14 21:00:14
+1839327872847153,Nina,Tai,8570,1839327872847153,854518728062939,user_quick_reply: BUTTON_DKB_species,:keycap_1:,2018-08-14 21:00:19
+1839327872847153,Nina,Tai,8571,854518728062939,1839327872847153,BOT: message,That's not quite right. :disappointed_face:,2018-08-14 21:00:20
+1839327872847153,Nina,Tai,8572,854518728062939,1839327872847153,BOT: quick reply,The correct answer is domains.,2018-08-14 21:00:22
+1839327872847153,Nina,Tai,8573,1839327872847153,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-14 21:00:27
+1839327872847153,Nina,Tai,8574,854518728062939,1839327872847153,BOT: message,Let's take a look at this question.,2018-08-14 21:00:28
+1839327872847153,Nina,Tai,8575,854518728062939,1839327872847153,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-14 21:00:30
+1839327872847153,Nina,Tai,8576,854518728062939,1839327872847153,BOT: quick reply,What opens two strands of DNA?,2018-08-14 21:00:31
+1839327872847153,Nina,Tai,8577,1839327872847153,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-14 21:00:35
+1839327872847153,Nina,Tai,8578,854518728062939,1839327872847153,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-08-14 21:00:37
+1839327872847153,Nina,Tai,8579,854518728062939,1839327872847153,BOT: quick reply,":keycap_1: adenylate
+:keycap_2: chromosome
+:keycap_3: helicase
+:keycap_4: replication
+",2018-08-14 21:00:38
+1839327872847153,Nina,Tai,8580,1839327872847153,854518728062939,user_quick_reply: BUTTON_DKB_adenylate,:keycap_1:,2018-08-14 21:00:43
+1839327872847153,Nina,Tai,8581,854518728062939,1839327872847153,BOT: message,"I'm sorry, but that was incorrect. :disappointed_face:",2018-08-14 21:00:44
+1839327872847153,Nina,Tai,8582,854518728062939,1839327872847153,BOT: quick reply,The correct answer is helicase.,2018-08-14 21:00:45
+1839327872847153,Nina,Tai,8583,1839327872847153,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-14 21:00:52
+1839327872847153,Nina,Tai,8584,854518728062939,1839327872847153,BOT: message,"Alrighty, let's try this one.",2018-08-14 21:00:53
+1839327872847153,Nina,Tai,8585,854518728062939,1839327872847153,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-14 21:00:55
+1839327872847153,Nina,Tai,8586,854518728062939,1839327872847153,BOT: quick reply,The lithosphere is divided into a dozen major and several minor what?,2018-08-14 21:00:56
+1839327872847153,Nina,Tai,8587,1839327872847153,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-14 21:01:08
+1839327872847153,Nina,Tai,8588,854518728062939,1839327872847153,BOT: message,Okay. I'll give you some choices.,2018-08-14 21:01:10
+1839327872847153,Nina,Tai,8589,854518728062939,1839327872847153,BOT: quick reply,":keycap_1: plates
+:keycap_2: faults
+:keycap_3: zones
+:keycap_4: crystals
+",2018-08-14 21:01:11
+1839327872847153,Nina,Tai,8590,1839327872847153,854518728062939,user_quick_reply: BUTTON_DKB_zones,:keycap_3:,2018-08-14 21:01:17
+1839327872847153,Nina,Tai,8591,854518728062939,1839327872847153,BOT: message,"Hmm, that wasn't quite right. :disappointed_face:",2018-08-14 21:01:18
+1839327872847153,Nina,Tai,8592,854518728062939,1839327872847153,BOT: quick reply,The correct answer is plates.,2018-08-14 21:01:20
+1839327872847153,Nina,Tai,8593,1839327872847153,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-14 21:01:25
+1839327872847153,Nina,Tai,8594,854518728062939,1839327872847153,BOT: message,Would you answer this question for me?,2018-08-14 21:01:26
+1839327872847153,Nina,Tai,8595,854518728062939,1839327872847153,BOT: quick reply,What are by far the most common type of invertebrate?,2018-08-14 21:01:28
+1839327872847153,Nina,Tai,8596,1839327872847153,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-14 21:01:32
+1839327872847153,Nina,Tai,8597,854518728062939,1839327872847153,BOT: message,Okay. I'll give you some choices.,2018-08-14 21:01:34
+1839327872847153,Nina,Tai,8598,854518728062939,1839327872847153,BOT: quick reply,":keycap_1: spiders
+:keycap_2: corals
+:keycap_3: insects
+:keycap_4: crustaceans
+",2018-08-14 21:01:35
+1839327872847153,Nina,Tai,8599,1839327872847153,854518728062939,user_quick_reply: BUTTON_AKB_insects,:keycap_3:,2018-08-14 21:01:44
+1839327872847153,Nina,Tai,8600,854518728062939,1839327872847153,BOT: message,Nice! That was right!,2018-08-14 21:01:45
+1839327872847153,Nina,Tai,8601,854518728062939,1839327872847153,BOT: quick reply,The correct answer is insects.,2018-08-14 21:01:47
+1839327872847153,Nina,Tai,8602,1839327872847153,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-14 21:01:51
+1839327872847153,Nina,Tai,8603,854518728062939,1839327872847153,BOT: message,Let's try this one.,2018-08-14 21:01:53
+1839327872847153,Nina,Tai,8604,854518728062939,1839327872847153,BOT: quick reply,The electrode at which oxidation occurs is called the what?,2018-08-14 21:01:54
+1839327872847153,Nina,Tai,8605,1839327872847153,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-14 21:02:02
+1839327872847153,Nina,Tai,8606,854518728062939,1839327872847153,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-08-14 21:02:03
+1839327872847153,Nina,Tai,8607,854518728062939,1839327872847153,BOT: quick reply,":keycap_1: cathode
+:keycap_2: anode
+:keycap_3: diode
+:keycap_4: calomel
+",2018-08-14 21:02:05
+1839327872847153,Nina,Tai,8608,1839327872847153,854518728062939,user_quick_reply: BUTTON_DKB_diode,:keycap_3:,2018-08-14 21:02:14
+1839327872847153,Nina,Tai,8609,854518728062939,1839327872847153,BOT: message,"I'm sorry, but that was incorrect. :disappointed_face:",2018-08-14 21:02:15
+1839327872847153,Nina,Tai,8610,854518728062939,1839327872847153,BOT: quick reply,The correct answer is anode.,2018-08-14 21:02:17
+1839327872847153,Nina,Tai,8611,1839327872847153,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-14 21:02:22
+1839327872847153,Nina,Tai,8612,854518728062939,1839327872847153,BOT: message,Let's see if you can get this one.,2018-08-14 21:02:23
+1839327872847153,Nina,Tai,8613,854518728062939,1839327872847153,BOT: quick reply,A bee will sometimes do a dance to tell other bees in the hive where to find what?,2018-08-14 21:02:24
+1839327872847153,Nina,Tai,8614,1839327872847153,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-14 21:02:32
+1839327872847153,Nina,Tai,8615,854518728062939,1839327872847153,BOT: message,Which of the following options is the right answer?,2018-08-14 21:02:34
+1839327872847153,Nina,Tai,8616,854518728062939,1839327872847153,BOT: quick reply,":keycap_1: enemies
+:keycap_2: water
+:keycap_3: honey
+:keycap_4: food
+",2018-08-14 21:02:35
+1839327872847153,Nina,Tai,8617,1839327872847153,854518728062939,user_quick_reply: BUTTON_AKB_food,:keycap_4:,2018-08-14 21:02:40
+1839327872847153,Nina,Tai,8618,854518728062939,1839327872847153,BOT: message,Great job!,2018-08-14 21:02:41
+1839327872847153,Nina,Tai,8619,854518728062939,1839327872847153,BOT: quick reply,The correct answer is food.,2018-08-14 21:02:43
+1839327872847153,Nina,Tai,8620,1839327872847153,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-14 21:02:54
+1839327872847153,Nina,Tai,8621,854518728062939,1839327872847153,BOT: message,I think you'll like this question.,2018-08-14 21:02:55
+1839327872847153,Nina,Tai,8622,854518728062939,1839327872847153,BOT: quick reply,"Although magma once filled our moon's craters, what is thought to have ended there over a billion years ago?",2018-08-14 21:02:57
+1839327872847153,Nina,Tai,8623,1839327872847153,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-14 21:03:38
+1839327872847153,Nina,Tai,8624,854518728062939,1839327872847153,BOT: message,Which of the following options is the right answer?,2018-08-14 21:03:39
+1839327872847153,Nina,Tai,8625,854518728062939,1839327872847153,BOT: quick reply,":keycap_1: oceanic activity
+:keycap_2: mineral activity
+:keycap_3: deserts activity
+:keycap_4: volcanic activity
+",2018-08-14 21:03:41
+1839327872847153,Nina,Tai,8626,1839327872847153,854518728062939,user_quick_reply: BUTTON_DKB_oceanic activity,:keycap_1:,2018-08-14 21:03:45
+1839327872847153,Nina,Tai,8627,854518728062939,1839327872847153,BOT: message,That's not quite right. :disappointed_face:,2018-08-14 21:03:47
+1839327872847153,Nina,Tai,8628,854518728062939,1839327872847153,BOT: quick reply,The correct answer is volcanic activity.,2018-08-14 21:03:48
+1839327872847153,Nina,Tai,8629,1839327872847153,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-14 21:04:29
+1839327872847153,Nina,Tai,8630,854518728062939,1839327872847153,BOT: message,Here's a question for you:,2018-08-14 21:04:30
+1839327872847153,Nina,Tai,8631,854518728062939,1839327872847153,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-14 21:04:31
+1839327872847153,Nina,Tai,8632,854518728062939,1839327872847153,BOT: quick reply,What is the diffusion of water through a semipermeable membrane down its concentration gradient?,2018-08-14 21:04:33
+1839327872847153,Nina,Tai,8633,1839327872847153,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-14 21:04:39
+1839327872847153,Nina,Tai,8634,854518728062939,1839327872847153,BOT: message,Which of the following options is the right answer?,2018-08-14 21:04:40
+1839327872847153,Nina,Tai,8635,854518728062939,1839327872847153,BOT: quick reply,":keycap_1: permable
+:keycap_2: nutrients
+:keycap_3: osmosis
+:keycap_4: mirrors
+",2018-08-14 21:04:42
+1839327872847153,Nina,Tai,8636,1839327872847153,854518728062939,user_quick_reply: BUTTON_DKB_permable,:keycap_1:,2018-08-14 21:04:46
+1839327872847153,Nina,Tai,8637,854518728062939,1839327872847153,BOT: message,"Hmm, that wasn't quite right. :disappointed_face:",2018-08-14 21:04:47
+1839327872847153,Nina,Tai,8638,854518728062939,1839327872847153,BOT: quick reply,The correct answer is osmosis.,2018-08-14 21:04:49
+1839327872847153,Nina,Tai,8639,1839327872847153,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-14 21:04:54
+1839327872847153,Nina,Tai,8640,854518728062939,1839327872847153,BOT: message,Let's see if you can answer this question.,2018-08-14 21:04:56
+1839327872847153,Nina,Tai,8641,854518728062939,1839327872847153,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-14 21:04:57
+1839327872847153,Nina,Tai,8642,854518728062939,1839327872847153,BOT: quick reply,What opens two strands of DNA?,2018-08-14 21:04:58
+1839327872847153,Nina,Tai,8643,1839327872847153,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-14 21:05:04
+1839327872847153,Nina,Tai,8644,854518728062939,1839327872847153,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-08-14 21:05:05
+1839327872847153,Nina,Tai,8645,854518728062939,1839327872847153,BOT: quick reply,":keycap_1: helicase
+:keycap_2: replication
+:keycap_3: chromosome
+:keycap_4: adenylate
+",2018-08-14 21:05:06
+1839327872847153,Nina,Tai,8646,1839327872847153,854518728062939,user_quick_reply: BUTTON_AKB_helicase,:keycap_1:,2018-08-14 21:05:11
+1839327872847153,Nina,Tai,8647,854518728062939,1839327872847153,BOT: message,Yes! You got the correct answer!,2018-08-14 21:05:12
+1839327872847153,Nina,Tai,8648,854518728062939,1839327872847153,BOT: quick reply,The correct answer is helicase.,2018-08-14 21:05:13
+1839327872847153,Nina,Tai,8649,1839327872847153,854518728062939,user_quick_reply: SWITCH_SUBJECT,Change subject :shuffle_tracks_button:,2018-08-14 21:05:20
+1839327872847153,Nina,Tai,8650,854518728062939,1839327872847153,BOT: quick reply,"Cool, let's pick one of the following subjects?:backhand_index_pointing_down_medium-light_skin_tone:",2018-08-14 21:05:21
+1839327872847153,Nina,Tai,8651,1839327872847153,854518728062939,user_quick_reply: SAFETY,Safety:hammer_and_wrench:,2018-08-14 21:05:30
+1839327872847153,Nina,Tai,8652,854518728062939,1839327872847153,BOT: image,https://www.smartprimer.org:443/pictures/avatar/evolvescientist_safety.gif,2018-08-14 21:05:34
+1839327872847153,Nina,Tai,8653,854518728062939,1839327872847153,BOT: quick reply,Okay! Lets see how much you know about safety!,2018-08-14 21:05:35
+1839327872847153,Nina,Tai,8654,1839327872847153,854518728062939,user_quick_reply: NEXT_QUESTION,Alrighty :collision:,2018-08-14 21:05:42
+1839327872847153,Nina,Tai,8655,854518728062939,1839327872847153,BOT: message,Let's try this question.,2018-08-14 21:05:43
+1839327872847153,Nina,Tai,8656,854518728062939,1839327872847153,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-14 21:05:45
+1839327872847153,Nina,Tai,8657,854518728062939,1839327872847153,BOT: quick reply,What is the correct method for saving someone from choking?,2018-08-14 21:05:46
+1839327872847153,Nina,Tai,8658,1839327872847153,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-14 21:05:51
+1839327872847153,Nina,Tai,8659,854518728062939,1839327872847153,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-08-14 21:05:52
+1839327872847153,Nina,Tai,8660,854518728062939,1839327872847153,BOT: quick reply,":keycap_1: five abdominal thrusts followed by five back blows if needed
+:keycap_2: back blows only
+:keycap_3: abdominal thrusts only
+:keycap_4: five back blows followed by five abdominal thrusts if necessary
+",2018-08-14 21:05:54
+1839327872847153,Nina,Tai,8661,1839327872847153,854518728062939,user_quick_reply: BUTTON_DKB_five abdominal thrusts followed by five back blows if needed,:keycap_1:,2018-08-14 21:05:59
+1839327872847153,Nina,Tai,8662,854518728062939,1839327872847153,BOT: message,"Oops, that is not correct. :disappointed_face:",2018-08-14 21:06:00
+1839327872847153,Nina,Tai,8663,854518728062939,1839327872847153,BOT: quick reply,The correct answer is five back blows followed by five abdominal thrusts if necessary.,2018-08-14 21:06:02
+1839327872847153,Nina,Tai,8664,1839327872847153,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-14 21:06:10
+1839327872847153,Nina,Tai,8665,854518728062939,1839327872847153,BOT: message,Let's see if you would answer this one.,2018-08-14 21:06:11
+1839327872847153,Nina,Tai,8666,854518728062939,1839327872847153,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-14 21:06:13
+1839327872847153,Nina,Tai,8667,854518728062939,1839327872847153,BOT: quick reply,True or false: all workplaces need to provide portable fire extinguishers.,2018-08-14 21:06:14
+1839327872847153,Nina,Tai,8668,1839327872847153,854518728062939,user_typing,True,2018-08-14 21:06:23
+1839327872847153,Nina,Tai,8669,854518728062939,1839327872847153,BOT: message,That's not quite right. :disappointed_face:,2018-08-14 21:06:24
+1839327872847153,Nina,Tai,8670,854518728062939,1839327872847153,BOT: quick reply,The correct answer is false.,2018-08-14 21:06:26
+1839327872847153,Nina,Tai,8671,1839327872847153,854518728062939,user_quick_reply: WHY,Why?,2018-08-14 21:06:31
+1839327872847153,Nina,Tai,8672,854518728062939,1839327872847153,BOT: message,I hope this explanation could help you understand the the question.,2018-08-14 21:06:32
+1839327872847153,Nina,Tai,8673,854518728062939,1839327872847153,BOT: quick reply,"According to OSHA, employers are not required to provide portable fire extinguishers in the office. But if they do, they must set up an educational program to acquaint employees with the general principles of fire extinguisher use.",2018-08-14 21:06:34
+1839327872847153,Nina,Tai,8674,1839327872847153,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-14 21:06:43
+1839327872847153,Nina,Tai,8675,854518728062939,1839327872847153,BOT: message,Would you answer this question for me?,2018-08-14 21:06:45
+1839327872847153,Nina,Tai,8676,854518728062939,1839327872847153,BOT: quick reply,The hint shows a list of food items and the minimum internal food temperature at which they should be cooked. Which of these is incorrect?,2018-08-14 21:06:46
+1839327872847153,Nina,Tai,8677,1839327872847153,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-14 21:06:55
+1839327872847153,Nina,Tai,8678,854518728062939,1839327872847153,BOT: message,Pick one of the following answers.,2018-08-14 21:06:56
+1839327872847153,Nina,Tai,8679,854518728062939,1839327872847153,BOT: quick reply,":keycap_1: ground beef: 160 degrees Fahrenheit
+:keycap_2: fish and Shellfish: 145 degrees Fahrenheit
+:keycap_3: leftovers: 165 degrees Fahrenheit
+:keycap_4: eggs: 145 degrees Fahrenheit
+",2018-08-14 21:06:58
+1839327872847153,Nina,Tai,8680,1839327872847153,854518728062939,user_quick_reply: BUTTON_DKB_ground beef: 160 degrees Fahrenheit,:keycap_1:,2018-08-14 21:07:08
+1839327872847153,Nina,Tai,8681,854518728062939,1839327872847153,BOT: message,"Oops, that is not correct. :disappointed_face:",2018-08-14 21:07:09
+1839327872847153,Nina,Tai,8682,854518728062939,1839327872847153,BOT: quick reply,The correct answer is eggs: 145 degrees Fahrenheit.,2018-08-14 21:07:11
+1839327872847153,Nina,Tai,8683,1839327872847153,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-14 21:07:16
+1839327872847153,Nina,Tai,8684,854518728062939,1839327872847153,BOT: message,See if you can answer this next one.,2018-08-14 21:07:18
+1839327872847153,Nina,Tai,8685,854518728062939,1839327872847153,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-14 21:07:19
+1839327872847153,Nina,Tai,8686,854518728062939,1839327872847153,BOT: quick reply,The hint shows a list of food items and the minimum internal food temperature at which they should be cooked. Which of these is incorrect?,2018-08-14 21:07:20
+1839327872847153,Nina,Tai,8687,1839327872847153,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-14 21:07:25
+1839327872847153,Nina,Tai,8688,854518728062939,1839327872847153,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-08-14 21:07:26
+1839327872847153,Nina,Tai,8689,854518728062939,1839327872847153,BOT: quick reply,":keycap_1: eggs: 145 degrees Fahrenheit
+:keycap_2: fish and Shellfish: 145 degrees Fahrenheit
+:keycap_3: ground beef: 160 degrees Fahrenheit
+:keycap_4: leftovers: 165 degrees Fahrenheit
+",2018-08-14 21:07:28
+1839327872847153,Nina,Tai,8690,1839327872847153,854518728062939,user_quick_reply: BUTTON_AKB_eggs: 145 degrees Fahrenheit,:keycap_1:,2018-08-14 21:07:32
+1839327872847153,Nina,Tai,8691,854518728062939,1839327872847153,BOT: message,Nice! That was right!,2018-08-14 21:07:34
+1839327872847153,Nina,Tai,8692,854518728062939,1839327872847153,BOT: quick reply,The correct answer is eggs: 145 degrees Fahrenheit.,2018-08-14 21:07:35
+1839327872847153,Nina,Tai,8869,1839327872847153,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-15 18:13:56
+1839327872847153,Nina,Tai,8870,854518728062939,1839327872847153,BOT: message,"Alrighty, let's try this one.",2018-08-15 18:13:58
+1839327872847153,Nina,Tai,8871,854518728062939,1839327872847153,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-15 18:13:59
+1839327872847153,Nina,Tai,8872,854518728062939,1839327872847153,BOT: quick reply,"Everyone is at a risk of contracting a food-borne illness. However, who are at a greater risk of falling ill or even dying of infection?",2018-08-15 18:14:01
+1839327872847153,Nina,Tai,8873,1839327872847153,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-15 18:14:05
+1839327872847153,Nina,Tai,8874,854518728062939,1839327872847153,BOT: message,Okay. I'll give you some choices.,2018-08-15 18:14:07
+1839327872847153,Nina,Tai,8875,854518728062939,1839327872847153,BOT: quick reply,":keycap_1: people with weakened immune systems (those with HIV/AIDS, cancer, diabetes etc.)
+:keycap_2: infants, pregnant women, and people with weakened immune systems
+:keycap_3: pregnant women
+:keycap_4: infants
+",2018-08-15 18:14:09
+1839327872847153,Nina,Tai,8876,1839327872847153,854518728062939,"user_quick_reply: BUTTON_DKB_people with weakened immune systems (those with HIV/AIDS, cancer, diabetes etc.)",:keycap_1:,2018-08-15 18:14:14
+1839327872847153,Nina,Tai,8877,854518728062939,1839327872847153,BOT: message,"Oops, that is not correct. :disappointed_face:",2018-08-15 18:14:15
+1839327872847153,Nina,Tai,8878,854518728062939,1839327872847153,BOT: quick reply,"The correct answer is infants, pregnant women, and people with weakened immune systems.",2018-08-15 18:14:17
+1839327872847153,Nina,Tai,8879,1839327872847153,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-15 18:14:26
+1839327872847153,Nina,Tai,8880,854518728062939,1839327872847153,BOT: message,Could you answer this one for me?,2018-08-15 18:14:28
+1839327872847153,Nina,Tai,8881,854518728062939,1839327872847153,BOT: quick reply,Which fire extinguishers are used to put out fires caused by flammable liquids?,2018-08-15 18:14:29
+1839327872847153,Nina,Tai,8882,1839327872847153,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-15 18:14:34
+1839327872847153,Nina,Tai,8883,854518728062939,1839327872847153,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-08-15 18:14:36
+1839327872847153,Nina,Tai,8884,854518728062939,1839327872847153,BOT: quick reply,":keycap_1: class A water fire extinguishers
+:keycap_2: class C dry chemical fire extinguisher
+:keycap_3: class B carbon dioxide fire extinguisher
+",2018-08-15 18:14:38
+1839327872847153,Nina,Tai,8885,1839327872847153,854518728062939,user_quick_reply: BUTTON_DKB_class C dry chemical fire extinguisher,:keycap_2:,2018-08-15 18:14:50
+1839327872847153,Nina,Tai,8886,854518728062939,1839327872847153,BOT: message,"Oops, that wasn't quite correct. :disappointed_face:",2018-08-15 18:14:51
+1839327872847153,Nina,Tai,8887,854518728062939,1839327872847153,BOT: quick reply,The correct answer is class B carbon dioxide fire extinguisher.,2018-08-15 18:14:53
+1839327872847153,Nina,Tai,8888,1839327872847153,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-15 18:14:58
+1839327872847153,Nina,Tai,8889,854518728062939,1839327872847153,BOT: message,Here's a question for you:,2018-08-15 18:14:59
+1839327872847153,Nina,Tai,8890,854518728062939,1839327872847153,BOT: quick reply,True or false: all workplaces need to provide portable fire extinguishers.,2018-08-15 18:15:01
+1839327872847153,Nina,Tai,8891,1839327872847153,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-15 18:15:07
+1839327872847153,Nina,Tai,8892,854518728062939,1839327872847153,BOT: message,Which of the following options is the right answer?,2018-08-15 18:15:09
+1839327872847153,Nina,Tai,8893,854518728062939,1839327872847153,BOT: quick reply,":keycap_1: false
+:keycap_2: true
+",2018-08-15 18:15:10
+1839327872847153,Nina,Tai,8894,1839327872847153,854518728062939,user_quick_reply: BUTTON_AKB_false,:keycap_1:,2018-08-15 18:15:15
+1839327872847153,Nina,Tai,8895,854518728062939,1839327872847153,BOT: message,Great! Keep it up! :flexed_biceps_medium-light_skin_tone:,2018-08-15 18:15:17
+1839327872847153,Nina,Tai,8896,854518728062939,1839327872847153,BOT: quick reply,The correct answer is false.,2018-08-15 18:15:18
+1839327872847153,Nina,Tai,8897,1839327872847153,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-15 18:15:23
+1839327872847153,Nina,Tai,8898,854518728062939,1839327872847153,BOT: message,Let's take a look at this question.,2018-08-15 18:15:25
+1839327872847153,Nina,Tai,8899,854518728062939,1839327872847153,BOT: quick reply,What should you NOT do during a fire emergency?,2018-08-15 18:15:26
+1839327872847153,Nina,Tai,8900,1839327872847153,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-15 18:15:33
+1839327872847153,Nina,Tai,8901,854518728062939,1839327872847153,BOT: message,It's one of the following choices.,2018-08-15 18:15:34
+1839327872847153,Nina,Tai,8902,854518728062939,1839327872847153,BOT: quick reply,":keycap_1: crawling low under the smoke while breathing only through your nose
+:keycap_2: keeping fire doors shut to prevent the fire from spreading
+:keycap_3: re-entering the building without the permission of authorities
+:keycap_4: evacuating a building through designated exit routes
+",2018-08-15 18:15:36
+1839327872847153,Nina,Tai,8903,1839327872847153,854518728062939,user_quick_reply: BUTTON_AKB_re-entering the building without the permission of authorities,:keycap_3:,2018-08-15 18:15:48
+1839327872847153,Nina,Tai,8904,854518728062939,1839327872847153,BOT: message,Great job getting the correct answer!,2018-08-15 18:15:49
+1839327872847153,Nina,Tai,8905,854518728062939,1839327872847153,BOT: quick reply,The correct answer is re-entering the building without the permission of authorities.,2018-08-15 18:15:50
+1839327872847153,Nina,Tai,8906,1839327872847153,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-15 18:15:56
+1839327872847153,Nina,Tai,8907,854518728062939,1839327872847153,BOT: message,Could you answer this one for me?,2018-08-15 18:15:57
+1839327872847153,Nina,Tai,8908,854518728062939,1839327872847153,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-15 18:15:58
+1839327872847153,Nina,Tai,8909,854518728062939,1839327872847153,BOT: quick reply,What should you do if you are unable to evacuate a burning building?,2018-08-15 18:16:00
+1839327872847153,Nina,Tai,8910,1839327872847153,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-15 18:16:05
+1839327872847153,Nina,Tai,8911,854518728062939,1839327872847153,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-08-15 18:16:06
+1839327872847153,Nina,Tai,8912,854518728062939,1839327872847153,BOT: quick reply,":keycap_1: breathing through your mouth
+:keycap_2: staying low under the smoke
+:keycap_3: opening the doors and windows to let the smoke out
+:keycap_4: breaking windows
+",2018-08-15 18:16:08
+1839327872847153,Nina,Tai,8913,1839327872847153,854518728062939,user_quick_reply: BUTTON_AKB_staying low under the smoke,:keycap_2:,2018-08-15 18:16:13
+1839327872847153,Nina,Tai,8914,854518728062939,1839327872847153,BOT: message,Yes! You got the correct answer!,2018-08-15 18:16:14
+1839327872847153,Nina,Tai,8915,854518728062939,1839327872847153,BOT: quick reply,The correct answer is staying low under the smoke.,2018-08-15 18:16:16
+1839327872847153,Nina,Tai,8916,1839327872847153,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-15 18:16:20
+1839327872847153,Nina,Tai,8917,854518728062939,1839327872847153,BOT: message,"Alrighty, let's try this one.",2018-08-15 18:16:23
+1839327872847153,Nina,Tai,8918,854518728062939,1839327872847153,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-15 18:16:24
+1839327872847153,Nina,Tai,8919,854518728062939,1839327872847153,BOT: quick reply,"Arrange in the correct order the following treatment steps for somebody who has lost consciousness: (i) call 911 or inform someone of the situation, (ii) begin CPR, (iii) check the patient's airway to make sure it is clear, (iv) place the victim on his/her back, (v) check signs of life (coughing, breathing, or movement).",2018-08-15 18:16:26
+1839327872847153,Nina,Tai,8920,1839327872847153,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-15 18:16:33
+1839327872847153,Nina,Tai,8921,854518728062939,1839327872847153,BOT: message,Pick one of the following answers.,2018-08-15 18:16:35
+1839327872847153,Nina,Tai,8922,854518728062939,1839327872847153,BOT: quick reply,":keycap_1: i, ii, iii, iv, v
+:keycap_2: ii, iv, iii, v, i
+:keycap_3: v, iv, iii, i, ii
+:keycap_4: iv, i, iii, v, ii
+",2018-08-15 18:16:36
+1839327872847153,Nina,Tai,8923,1839327872847153,854518728062939,"user_quick_reply: BUTTON_DKB_v, iv, iii, i, ii",:keycap_3:,2018-08-15 18:16:40
+1839327872847153,Nina,Tai,8924,854518728062939,1839327872847153,BOT: message,"Oops, that wasn't quite correct. :disappointed_face:",2018-08-15 18:16:42
+1839327872847153,Nina,Tai,8925,854518728062939,1839327872847153,BOT: quick reply,"The correct answer is iv, i, iii, v, ii.",2018-08-15 18:16:44
+1839327872847153,Nina,Tai,8926,1839327872847153,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-15 18:17:03
+1839327872847153,Nina,Tai,8927,854518728062939,1839327872847153,BOT: message,Here's a question for you:,2018-08-15 18:17:04
+1839327872847153,Nina,Tai,8928,854518728062939,1839327872847153,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-15 18:17:06
+1839327872847153,Nina,Tai,8929,854518728062939,1839327872847153,BOT: quick reply,What is a symptom of a heatstroke?,2018-08-15 18:17:07
+1839327872847153,Nina,Tai,8930,1839327872847153,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-15 18:17:40
+1839327872847153,Nina,Tai,8931,854518728062939,1839327872847153,BOT: message,Which of the following options is the right answer?,2018-08-15 18:17:42
+1839327872847153,Nina,Tai,8932,854518728062939,1839327872847153,BOT: quick reply,":keycap_1: rapid strong pulse
+:keycap_2: throbbing headache
+:keycap_3: rapid strong pulse, hallucinations, throbbing headache, and high body temperature
+:keycap_4: high body temperature
+:keycap_5: hallucinations
+",2018-08-15 18:17:43
+1839327872847153,Nina,Tai,8933,1839327872847153,854518728062939,"user_quick_reply: BUTTON_AKB_rapid strong pulse, hallucinations, throbbing headache, and high body temperature",:keycap_3:,2018-08-15 18:17:50
+1839327872847153,Nina,Tai,8934,854518728062939,1839327872847153,BOT: message,Great job getting the correct answer!,2018-08-15 18:17:52
+1839327872847153,Nina,Tai,8935,854518728062939,1839327872847153,BOT: quick reply,"The correct answer is rapid strong pulse, hallucinations, throbbing headache, and high body temperature.",2018-08-15 18:17:53
+1839327872847153,Nina,Tai,8936,1839327872847153,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-15 18:17:58
+1839327872847153,Nina,Tai,8937,854518728062939,1839327872847153,BOT: message,Would you answer this question for me?,2018-08-15 18:18:00
+1839327872847153,Nina,Tai,8938,854518728062939,1839327872847153,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-15 18:18:01
+1839327872847153,Nina,Tai,8939,854518728062939,1839327872847153,BOT: quick reply,What should you NOT do during a fire emergency?,2018-08-15 18:18:03
+1839327872847153,Nina,Tai,8940,1839327872847153,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-15 18:18:24
+1839327872847153,Nina,Tai,8941,854518728062939,1839327872847153,BOT: message,Okay. I'll give you some choices.,2018-08-15 18:18:25
+1839327872847153,Nina,Tai,8942,854518728062939,1839327872847153,BOT: quick reply,":keycap_1: crawling low under the smoke while breathing only through your nose
+:keycap_2: re-entering the building without the permission of authorities
+:keycap_3: keeping fire doors shut to prevent the fire from spreading
+:keycap_4: evacuating a building through designated exit routes
+",2018-08-15 18:18:26
+1839327872847153,Nina,Tai,8943,1839327872847153,854518728062939,user_quick_reply: BUTTON_AKB_re-entering the building without the permission of authorities,:keycap_2:,2018-08-15 18:18:32
+1839327872847153,Nina,Tai,8944,854518728062939,1839327872847153,BOT: message,Nice work! Keep it up!,2018-08-15 18:18:33
+1839327872847153,Nina,Tai,8945,854518728062939,1839327872847153,BOT: quick reply,The correct answer is re-entering the building without the permission of authorities.,2018-08-15 18:18:35
+1839327872847153,Nina,Tai,8946,1839327872847153,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-15 18:19:07
+1839327872847153,Nina,Tai,8947,854518728062939,1839327872847153,BOT: message,Let's see if you would answer this one.,2018-08-15 18:19:08
+1839327872847153,Nina,Tai,8948,854518728062939,1839327872847153,BOT: quick reply,"Arrange in the correct the steps to take when someone splashes a chemical into the eye: (i) call a doctor, (ii) take out any contact lenses, (iii) flush the eyes with plenty of water, (iv) wash your hands with soap and water.",2018-08-15 18:19:10
+1839327872847153,Nina,Tai,8949,1839327872847153,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-15 18:19:51
+1839327872847153,Nina,Tai,8950,854518728062939,1839327872847153,BOT: message,Okay. I'll give you some choices.,2018-08-15 18:19:52
+1839327872847153,Nina,Tai,8951,854518728062939,1839327872847153,BOT: quick reply,":keycap_1: ii, iii, iv, i
+:keycap_2: iv, ii, iii, i
+:keycap_3: iii, iv, ii, i
+:keycap_4: i, iii, iv, ii
+",2018-08-15 18:19:54
+1839327872847153,Nina,Tai,8952,1839327872847153,854518728062939,"user_quick_reply: BUTTON_DKB_ii, iii, iv, i",:keycap_1:,2018-08-15 18:20:56
+1839327872847153,Nina,Tai,8953,854518728062939,1839327872847153,BOT: message,"I'm sorry, but that was incorrect. :disappointed_face:",2018-08-15 18:20:57
+1839327872847153,Nina,Tai,8954,854518728062939,1839327872847153,BOT: quick reply,"The correct answer is iii, iv, ii, i.",2018-08-15 18:20:59
+1839327872847153,Nina,Tai,8955,1839327872847153,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-15 18:21:04
+1839327872847153,Nina,Tai,8956,854518728062939,1839327872847153,BOT: message,Let's see if you would answer this one.,2018-08-15 18:21:06
+1839327872847153,Nina,Tai,8957,854518728062939,1839327872847153,BOT: quick reply,What does CERT stand for?,2018-08-15 18:21:07
+1839327872847153,Nina,Tai,8958,1839327872847153,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-15 18:21:27
+1839327872847153,Nina,Tai,8959,854518728062939,1839327872847153,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-08-15 18:21:29
+1839327872847153,Nina,Tai,8960,854518728062939,1839327872847153,BOT: quick reply,":keycap_1: Community Emergency Response Team
+:keycap_2: Controlled Evacuation and Response Tactics
+:keycap_3: Community Experimental Research Team
+:keycap_4: Central Emergency Response Terminal
+",2018-08-15 18:21:30
+1839327872847153,Nina,Tai,8961,1839327872847153,854518728062939,user_quick_reply: BUTTON_AKB_Community Emergency Response Team,:keycap_1:,2018-08-15 18:21:47
+1839327872847153,Nina,Tai,8962,854518728062939,1839327872847153,BOT: message,Great job!,2018-08-15 18:21:49
+1839327872847153,Nina,Tai,8963,854518728062939,1839327872847153,BOT: quick reply,The correct answer is Community Emergency Response Team.,2018-08-15 18:21:50
+1839327872847153,Nina,Tai,8964,1839327872847153,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-15 18:21:57
+1839327872847153,Nina,Tai,8965,854518728062939,1839327872847153,BOT: message,How about this next one:,2018-08-15 18:21:58
+1839327872847153,Nina,Tai,8966,854518728062939,1839327872847153,BOT: quick reply,What foods is most commonly associated with Salmonella?,2018-08-15 18:22:00
+1839327872847153,Nina,Tai,8967,1839327872847153,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-15 18:22:26
+1839327872847153,Nina,Tai,8968,854518728062939,1839327872847153,BOT: message,Which of the following options is the right answer?,2018-08-15 18:22:27
+1839327872847153,Nina,Tai,8969,854518728062939,1839327872847153,BOT: quick reply,":keycap_1: raw meat
+:keycap_2: raw vegetables
+:keycap_3: both raw meat and unpasteurized dairy products
+:keycap_4: unpasteurized dairy products
+",2018-08-15 18:22:29
+1839327872847153,Nina,Tai,8970,1839327872847153,854518728062939,user_quick_reply: BUTTON_AKB_both raw meat and unpasteurized dairy products,:keycap_3:,2018-08-15 18:22:40
+1839327872847153,Nina,Tai,8971,854518728062939,1839327872847153,BOT: message,Nice! That was right!,2018-08-15 18:22:41
+1839327872847153,Nina,Tai,8972,854518728062939,1839327872847153,BOT: quick reply,The correct answer is both raw meat and unpasteurized dairy products.,2018-08-15 18:22:43
+1839327872847153,Nina,Tai,8973,1839327872847153,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-15 18:23:02
+1839327872847153,Nina,Tai,8974,854518728062939,1839327872847153,BOT: message,I think you'll like this question.,2018-08-15 18:23:03
+1839327872847153,Nina,Tai,8975,854518728062939,1839327872847153,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-15 18:23:05
+1839327872847153,Nina,Tai,8976,854518728062939,1839327872847153,BOT: quick reply,What three major factors cause food contamination?,2018-08-15 18:23:07
+1839327872847153,Nina,Tai,8977,1839327872847153,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-15 18:24:36
+1839327872847153,Nina,Tai,8978,854518728062939,1839327872847153,BOT: message,Okay. I'll give you some choices.,2018-08-15 18:24:37
+1839327872847153,Nina,Tai,8979,854518728062939,1839327872847153,BOT: quick reply,":keycap_1: physical, biological, and radiological
+:keycap_2: physical, chemical, and psychosocial
+:keycap_3: physical, biological, and chemical
+:keycap_4: physical, psychological, and health
+",2018-08-15 18:24:39
+1839327872847153,Nina,Tai,8980,1839327872847153,854518728062939,"user_quick_reply: BUTTON_DKB_physical, biological, and radiological",:keycap_1:,2018-08-15 18:24:58
+1839327872847153,Nina,Tai,8981,854518728062939,1839327872847153,BOT: message,That's not quite right. :disappointed_face:,2018-08-15 18:24:59
+1839327872847153,Nina,Tai,8982,854518728062939,1839327872847153,BOT: quick reply,"The correct answer is physical, biological, and chemical.",2018-08-15 18:25:01
+1839327872847153,Nina,Tai,8983,1839327872847153,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-15 18:25:09
+1839327872847153,Nina,Tai,8984,854518728062939,1839327872847153,BOT: message,Let's try this question.,2018-08-15 18:25:10
+1839327872847153,Nina,Tai,8985,854518728062939,1839327872847153,BOT: quick reply,True or false: all workplaces need to provide portable fire extinguishers.,2018-08-15 18:25:12
+1839327872847153,Nina,Tai,8986,1839327872847153,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-15 18:25:20
+1839327872847153,Nina,Tai,8987,854518728062939,1839327872847153,BOT: message,Which of the following options is the right answer?,2018-08-15 18:25:21
+1839327872847153,Nina,Tai,8988,854518728062939,1839327872847153,BOT: quick reply,":keycap_1: false
+:keycap_2: true
+",2018-08-15 18:25:23
+1839327872847153,Nina,Tai,8989,1839327872847153,854518728062939,user_quick_reply: BUTTON_AKB_false,:keycap_1:,2018-08-15 18:25:27
+1839327872847153,Nina,Tai,8990,854518728062939,1839327872847153,BOT: image,https://www.smartprimer.org:443/pictures/avatar/congrats/penguinnormal_jubilated_cyan.png,2018-08-15 18:25:30
+1839327872847153,Nina,Tai,8991,854518728062939,1839327872847153,BOT: message,Nice work! Keep it up!,2018-08-15 18:25:32
+1839327872847153,Nina,Tai,8992,854518728062939,1839327872847153,BOT: quick reply,The correct answer is false.,2018-08-15 18:25:33
+1839327872847153,Nina,Tai,9006,854518728062939,1839327872847153,BOT: quick reply,"Hi Nina, you haven't talked to me for a while. Would you like to resume the learning with me?",2018-08-15 20:02:17
+1839327872847153,Nina,Tai,9647,854518728062939,1839327872847153,BOT: quick reply,"Hi Nina, you haven't talked to me for a while. Would you like to resume the learning with me?",2018-08-16 20:02:34
+1839327872847153,Nina,Tai,9651,1839327872847153,854518728062939,user_quick_reply: NEXT_QUESTION,"Yes, continue :light_bulb:",2018-08-16 20:02:46
+1839327872847153,Nina,Tai,9652,854518728062939,1839327872847153,BOT: message,Let's try this one.,2018-08-16 20:02:48
+1839327872847153,Nina,Tai,9653,854518728062939,1839327872847153,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-16 20:02:49
+1839327872847153,Nina,Tai,9654,854518728062939,1839327872847153,BOT: quick reply,"True or false: when flooring cannot be changed to provide cushion, anti-fatigue mats can help ease discomfort to the feet and back.",2018-08-16 20:02:50
+1839327872847153,Nina,Tai,9655,1839327872847153,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-16 20:02:55
+1839327872847153,Nina,Tai,9656,854518728062939,1839327872847153,BOT: message,Pick one of the following answers.,2018-08-16 20:02:57
+1839327872847153,Nina,Tai,9657,854518728062939,1839327872847153,BOT: quick reply,":keycap_1: true
+:keycap_2: false
+",2018-08-16 20:02:58
+1839327872847153,Nina,Tai,9658,1839327872847153,854518728062939,user_quick_reply: BUTTON_AKB_true,:keycap_1:,2018-08-16 20:03:03
+1839327872847153,Nina,Tai,9659,854518728062939,1839327872847153,BOT: image,https://www.smartprimer.org:443/pictures/avatar/congrats/penguinnormal_normal_pink.png,2018-08-16 20:03:05
+1839327872847153,Nina,Tai,9660,854518728062939,1839327872847153,BOT: message,Nice work! Keep it up!,2018-08-16 20:03:07
+1839327872847153,Nina,Tai,9661,854518728062939,1839327872847153,BOT: quick reply,The correct answer is true.,2018-08-16 20:03:08
+1839327872847153,Nina,Tai,9662,1839327872847153,854518728062939,user_quick_reply: SWITCH_SUBJECT,Change subject :shuffle_tracks_button:,2018-08-16 20:03:12
+1839327872847153,Nina,Tai,9663,854518728062939,1839327872847153,BOT: quick reply,"Cool, let's pick one of the following subjects?:backhand_index_pointing_down_medium-light_skin_tone:",2018-08-16 20:03:14
+1839327872847153,Nina,Tai,9664,1839327872847153,854518728062939,user_quick_reply: GRE,GRE :input_latin_uppercase:,2018-08-16 20:03:20
+1839327872847153,Nina,Tai,9665,854518728062939,1839327872847153,BOT: image,https://www.smartprimer.org:443/pictures/avatar/evolvesafety_reading.gif,2018-08-16 20:03:24
+1839327872847153,Nina,Tai,9666,854518728062939,1839327872847153,BOT: quick reply,Okay! Lets see how much you know about GRE!,2018-08-16 20:03:25
+1839327872847153,Nina,Tai,9667,1839327872847153,854518728062939,user_quick_reply: NEXT_QUESTION,Okay :raising_hands_medium-light_skin_tone:,2018-08-16 20:03:31
+1839327872847153,Nina,Tai,9668,854518728062939,1839327872847153,BOT: message,Here's a question for you:,2018-08-16 20:03:32
+1839327872847153,Nina,Tai,9669,854518728062939,1839327872847153,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-16 20:03:34
+1839327872847153,Nina,Tai,9670,854518728062939,1839327872847153,BOT: quick reply,"Students may consider modernist works such as James Joyce's Finnegan's Wake to be more _____ than Victorian prose: Victorian narratives are linear and predictable, while Joyce's tortuous plots are fragmented and fickle, and they confound the reader.",2018-08-16 20:03:35
+1839327872847153,Nina,Tai,9671,1839327872847153,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-16 20:03:41
+1839327872847153,Nina,Tai,9672,854518728062939,1839327872847153,BOT: message,It's one of the following choices.,2018-08-16 20:03:43
+1839327872847153,Nina,Tai,9673,854518728062939,1839327872847153,BOT: quick reply,":keycap_1: panegyric
+:keycap_2: elegiac
+:keycap_3: banal
+:keycap_4: recondite
+:keycap_5: mundane
+",2018-08-16 20:03:44
+1839327872847153,Nina,Tai,9674,1839327872847153,854518728062939,user_quick_reply: BUTTON_DKB_elegiac,:keycap_2:,2018-08-16 20:03:50
+1839327872847153,Nina,Tai,9675,854518728062939,1839327872847153,BOT: message,"I'm sorry, but that was incorrect. :disappointed_face:",2018-08-16 20:03:51
+1839327872847153,Nina,Tai,9676,854518728062939,1839327872847153,BOT: quick reply,The correct answer is recondite.,2018-08-16 20:03:52
+1839327872847153,Nina,Tai,9677,1839327872847153,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-16 20:04:28
+1839327872847153,Nina,Tai,9678,854518728062939,1839327872847153,BOT: message,Let's try this one.,2018-08-16 20:04:30
+1839327872847153,Nina,Tai,9679,854518728062939,1839327872847153,BOT: quick reply,"Ancient generals, lacking modern technologies such as radio and satellite communication, often found that one of the most significant challenges in warfare was accurate _____ of the myriad of changes on the battlefield or in the campaign.",2018-08-16 20:04:31
+1839327872847153,Nina,Tai,9680,1839327872847153,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-16 20:32:25
+1839327872847153,Nina,Tai,9681,854518728062939,1839327872847153,BOT: message,Which of the following options is the right answer?,2018-08-16 20:32:26
+1839327872847153,Nina,Tai,9682,854518728062939,1839327872847153,BOT: quick reply,":keycap_1: adulteration
+:keycap_2: adumbration
+:keycap_3: appraisal
+:keycap_4: accretion
+:keycap_5: fortification
+",2018-08-16 20:32:28
+1839327872847153,Nina,Tai,9683,1839327872847153,854518728062939,user_quick_reply: BUTTON_DKB_adulteration,:keycap_1:,2018-08-16 20:32:33
+1839327872847153,Nina,Tai,9684,854518728062939,1839327872847153,BOT: message,"Oops, that wasn't quite correct. :disappointed_face:",2018-08-16 20:32:34
+1839327872847153,Nina,Tai,9685,854518728062939,1839327872847153,BOT: quick reply,The correct answer is appraisal.,2018-08-16 20:32:36
+1839327872847153,Nina,Tai,9686,1839327872847153,854518728062939,user_quick_reply: WHY,Why?,2018-08-16 20:32:41
+1839327872847153,Nina,Tai,9687,854518728062939,1839327872847153,BOT: message,Here's why:,2018-08-16 20:32:42
+1839327872847153,Nina,Tai,9688,854518728062939,1839327872847153,BOT: quick reply,":pushpin: Appraisal -- the classification of someone or something with respect to its worth
+:pushpin: Fortification -- defensive structure consisting of walls or mounds built around a stronghold to strengthen it
+:pushpin: Adulteration -- being mixed with extraneous material; the product of adulterating
+:pushpin: Accretion -- an increase by natural growth or addition
+:pushpin: Adumbration -- the act of providing vague advance indications; representing beforehand",2018-08-16 20:32:44
+1839327872847153,Nina,Tai,9689,1839327872847153,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-16 20:33:27
+1839327872847153,Nina,Tai,9690,854518728062939,1839327872847153,BOT: message,Let's try this one.,2018-08-16 20:33:28
+1839327872847153,Nina,Tai,9691,854518728062939,1839327872847153,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-16 20:33:30
+1839327872847153,Nina,Tai,9692,854518728062939,1839327872847153,BOT: quick reply,"Sheila would often _____ about her boyfriend's habits, but everyone could tell that her seemingly bitter complaints were mostly facetious.",2018-08-16 20:33:31
+1839327872847153,Nina,Tai,9693,1839327872847153,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-16 20:34:22
+1839327872847153,Nina,Tai,9694,854518728062939,1839327872847153,BOT: message,Okay. I'll give you some choices.,2018-08-16 20:34:24
+1839327872847153,Nina,Tai,9695,854518728062939,1839327872847153,BOT: quick reply,":keycap_1: waffle
+:keycap_2: rail
+:keycap_3: grieve
+:keycap_4: dissemble
+:keycap_5: mince
+",2018-08-16 20:34:25
+1839327872847153,Nina,Tai,9696,1839327872847153,854518728062939,user_quick_reply: BUTTON_DKB_waffle,:keycap_1:,2018-08-16 20:34:30
+1839327872847153,Nina,Tai,9697,854518728062939,1839327872847153,BOT: message,"Hmm, that wasn't quite right. :disappointed_face:",2018-08-16 20:34:31
+1839327872847153,Nina,Tai,9698,854518728062939,1839327872847153,BOT: quick reply,The correct answer is rail.,2018-08-16 20:34:33
+1839327872847153,Nina,Tai,9699,1839327872847153,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-16 20:34:40
+1839327872847153,Nina,Tai,9700,854518728062939,1839327872847153,BOT: message,I think you'll like this question.,2018-08-16 20:34:42
+1839327872847153,Nina,Tai,9701,854518728062939,1839327872847153,BOT: quick reply,"Having squandered his life's savings on unprofitable business ventures, the _____ entrepreneur was forced to live in squalor.",2018-08-16 20:34:43
+1839327872847153,Nina,Tai,9702,1839327872847153,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-16 20:34:57
+1839327872847153,Nina,Tai,9703,854518728062939,1839327872847153,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-08-16 20:34:59
+1839327872847153,Nina,Tai,9704,854518728062939,1839327872847153,BOT: quick reply,":keycap_1: unlikely
+:keycap_2: eccentric
+:keycap_3: former
+:keycap_4: perturbed
+:keycap_5: insolvent
+",2018-08-16 20:35:00
+1839327872847153,Nina,Tai,9705,1839327872847153,854518728062939,user_quick_reply: BUTTON_DKB_unlikely,:keycap_1:,2018-08-16 20:35:10
+1839327872847153,Nina,Tai,9706,854518728062939,1839327872847153,BOT: message,"I'm sorry, but that was incorrect. :disappointed_face:",2018-08-16 20:35:11
+1839327872847153,Nina,Tai,9707,854518728062939,1839327872847153,BOT: quick reply,The correct answer is insolvent.,2018-08-16 20:35:13
+1839327872847153,Nina,Tai,9708,1839327872847153,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-16 20:35:40
+1839327872847153,Nina,Tai,9709,854518728062939,1839327872847153,BOT: message,"Alrighty, let's try this one.",2018-08-16 20:35:41
+1839327872847153,Nina,Tai,9710,854518728062939,1839327872847153,BOT: quick reply,"Video game enthusiasts know that, while the astounding advances in technological innovation might increase the level of fun of the gaming experience, such a result is by no means _____ .",2018-08-16 20:35:43
+1839327872847153,Nina,Tai,9711,1839327872847153,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-16 20:35:52
+1839327872847153,Nina,Tai,9712,854518728062939,1839327872847153,BOT: message,Okay. I'll give you some choices.,2018-08-16 20:35:53
+1839327872847153,Nina,Tai,9713,854518728062939,1839327872847153,BOT: quick reply,":keycap_1: seminal
+:keycap_2: ineluctable
+:keycap_3: salient
+:keycap_4: endemic
+:keycap_5: desultory
+",2018-08-16 20:35:54
+1839327872847153,Nina,Tai,9714,1839327872847153,854518728062939,user_quick_reply: BUTTON_AKB_ineluctable,:keycap_2:,2018-08-16 20:36:00
+1839327872847153,Nina,Tai,9715,854518728062939,1839327872847153,BOT: message,Great job!,2018-08-16 20:36:01
+1839327872847153,Nina,Tai,9716,854518728062939,1839327872847153,BOT: quick reply,The correct answer is ineluctable.,2018-08-16 20:36:03
+1839327872847153,Nina,Tai,9717,1839327872847153,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-16 20:36:10
+1839327872847153,Nina,Tai,9718,854518728062939,1839327872847153,BOT: message,Here's a question for you:,2018-08-16 20:36:11
+1839327872847153,Nina,Tai,9719,854518728062939,1839327872847153,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-16 20:36:13
+1839327872847153,Nina,Tai,9720,854518728062939,1839327872847153,BOT: quick reply,"If one were asked who transmitted the first radio broadcast of the human voice, one might guess the _____ inventor Guglielmo Marconi, but in fact the feat was accomplished by the much less well-known Reginald Fessenden.",2018-08-16 20:36:14
+1839327872847153,Nina,Tai,9721,1839327872847153,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-16 20:36:27
+1839327872847153,Nina,Tai,9722,854518728062939,1839327872847153,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-08-16 20:36:29
+1839327872847153,Nina,Tai,9723,854518728062939,1839327872847153,BOT: quick reply,":keycap_1: insistent
+:keycap_2: infamous
+:keycap_3: renowned
+:keycap_4: cogent
+:keycap_5: contingent
+",2018-08-16 20:36:30
+1839327872847153,Nina,Tai,9724,1839327872847153,854518728062939,user_quick_reply: BUTTON_DKB_contingent,:keycap_5:,2018-08-16 20:36:57
+1839327872847153,Nina,Tai,9725,854518728062939,1839327872847153,BOT: message,That's not quite right. :disappointed_face:,2018-08-16 20:36:59
+1839327872847153,Nina,Tai,9726,854518728062939,1839327872847153,BOT: quick reply,The correct answer is renowned.,2018-08-16 20:37:00
+1839327872847153,Nina,Tai,9727,1839327872847153,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-16 20:37:05
+1839327872847153,Nina,Tai,9728,854518728062939,1839327872847153,BOT: message,Let's try this one.,2018-08-16 20:37:06
+1839327872847153,Nina,Tai,9729,854518728062939,1839327872847153,BOT: quick reply,"Possessing few natural resources upon its newly-granted independence in 1863, Singapore remained economically _____ until an influx of industrialization and foreign investment took hold there.",2018-08-16 20:37:08
+1839327872847153,Nina,Tai,9730,1839327872847153,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-16 20:37:19
+1839327872847153,Nina,Tai,9731,854518728062939,1839327872847153,BOT: message,Which of the following options is the right answer?,2018-08-16 20:37:20
+1839327872847153,Nina,Tai,9732,854518728062939,1839327872847153,BOT: quick reply,":keycap_1: prosperous
+:keycap_2: powerful
+:keycap_3: solvent
+:keycap_4: fortuitous
+:keycap_5: dubious
+",2018-08-16 20:37:21
+1839327872847153,Nina,Tai,9733,1839327872847153,854518728062939,user_quick_reply: BUTTON_AKB_dubious,:keycap_5:,2018-08-16 20:37:27
+1839327872847153,Nina,Tai,9734,854518728062939,1839327872847153,BOT: message,Nice! That was right!,2018-08-16 20:37:28
+1839327872847153,Nina,Tai,9735,854518728062939,1839327872847153,BOT: quick reply,The correct answer is dubious.,2018-08-16 20:37:29
+1839327872847153,Nina,Tai,9736,1839327872847153,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-16 20:37:34
+1839327872847153,Nina,Tai,9737,854518728062939,1839327872847153,BOT: message,Would you answer this question for me?,2018-08-16 20:37:36
+1839327872847153,Nina,Tai,9738,854518728062939,1839327872847153,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-16 20:37:37
+1839327872847153,Nina,Tai,9739,854518728062939,1839327872847153,BOT: quick reply,"Science and religion each have core tenets that are considered _____ ; however, because some scientific tenets are in conflict with some religious ones, these tenets cannot all be correct.",2018-08-16 20:37:39
+1839327872847153,Nina,Tai,9740,1839327872847153,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-16 20:37:46
+1839327872847153,Nina,Tai,9741,854518728062939,1839327872847153,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-08-16 20:37:49
+1839327872847153,Nina,Tai,9742,854518728062939,1839327872847153,BOT: quick reply,":keycap_1: empirical
+:keycap_2: historic
+:keycap_3: ubiquitous
+:keycap_4: disputable
+:keycap_5: axiomatic
+",2018-08-16 20:37:50
+1839327872847153,Nina,Tai,9743,1839327872847153,854518728062939,user_quick_reply: BUTTON_DKB_historic,:keycap_2:,2018-08-16 20:37:59
+1839327872847153,Nina,Tai,9744,854518728062939,1839327872847153,BOT: message,"Oops, that is not correct. :disappointed_face:",2018-08-16 20:38:01
+1839327872847153,Nina,Tai,9745,854518728062939,1839327872847153,BOT: quick reply,The correct answer is axiomatic.,2018-08-16 20:38:02
+1839327872847153,Nina,Tai,9746,1839327872847153,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-16 20:38:07
+1839327872847153,Nina,Tai,9747,854518728062939,1839327872847153,BOT: message,Here's a question for you:,2018-08-16 20:38:09
+1839327872847153,Nina,Tai,9748,854518728062939,1839327872847153,BOT: quick reply,"Ancient generals, lacking modern technologies such as radio and satellite communication, often found that one of the most significant challenges in warfare was accurate _____ of the myriad of changes on the battlefield or in the campaign.",2018-08-16 20:38:10
+1839327872847153,Nina,Tai,9749,1839327872847153,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-16 20:38:18
+1839327872847153,Nina,Tai,9750,854518728062939,1839327872847153,BOT: message,Which of the following options is the right answer?,2018-08-16 20:38:19
+1839327872847153,Nina,Tai,9751,854518728062939,1839327872847153,BOT: quick reply,":keycap_1: adulteration
+:keycap_2: accretion
+:keycap_3: adumbration
+:keycap_4: appraisal
+:keycap_5: fortification
+",2018-08-16 20:38:20
+1839327872847153,Nina,Tai,9752,1839327872847153,854518728062939,user_quick_reply: BUTTON_DKB_adulteration,:keycap_1:,2018-08-16 20:38:25
+1839327872847153,Nina,Tai,9753,854518728062939,1839327872847153,BOT: message,"Oops, that wasn't quite correct. :disappointed_face:",2018-08-16 20:38:26
+1839327872847153,Nina,Tai,9754,854518728062939,1839327872847153,BOT: quick reply,The correct answer is appraisal.,2018-08-16 20:38:28
+1839327872847153,Nina,Tai,9755,1839327872847153,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-16 20:38:34
+1839327872847153,Nina,Tai,9756,854518728062939,1839327872847153,BOT: message,How about this next one:,2018-08-16 20:38:35
+1839327872847153,Nina,Tai,9757,854518728062939,1839327872847153,BOT: quick reply,"Some religious leaders have declared inaction on environmental issues to be _____ , because it may now be considered a sin to pollute the earth.",2018-08-16 20:38:37
+1839327872847153,Nina,Tai,9758,1839327872847153,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-16 20:38:41
+1839327872847153,Nina,Tai,9759,854518728062939,1839327872847153,BOT: message,Okay. I'll give you some choices.,2018-08-16 20:38:42
+1839327872847153,Nina,Tai,9760,854518728062939,1839327872847153,BOT: quick reply,":keycap_1: dilatory
+:keycap_2: diaphanous
+:keycap_3: splenetic
+:keycap_4: iniquitous
+:keycap_5: fathomable
+",2018-08-16 20:38:44
+1839327872847153,Nina,Tai,9761,1839327872847153,854518728062939,user_quick_reply: BUTTON_DKB_dilatory,:keycap_1:,2018-08-16 20:38:48
+1839327872847153,Nina,Tai,9762,854518728062939,1839327872847153,BOT: message,"Oops, that wasn't quite correct. :disappointed_face:",2018-08-16 20:38:49
+1839327872847153,Nina,Tai,9763,854518728062939,1839327872847153,BOT: quick reply,The correct answer is iniquitous.,2018-08-16 20:38:51
+1839327872847153,Nina,Tai,9764,1839327872847153,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-16 20:38:55
+1839327872847153,Nina,Tai,9765,854518728062939,1839327872847153,BOT: message,Let's see if you can get this one.,2018-08-16 20:38:56
+1839327872847153,Nina,Tai,9766,854518728062939,1839327872847153,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-16 20:38:58
+1839327872847153,Nina,Tai,9767,854518728062939,1839327872847153,BOT: quick reply,"Currently _____ in philately, Roger decided to pursue his new hobby because he had already become an expert numismatist.",2018-08-16 20:38:59
+1839327872847153,Nina,Tai,9768,1839327872847153,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-16 20:39:03
+1839327872847153,Nina,Tai,9769,854518728062939,1839327872847153,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-08-16 20:39:05
+1839327872847153,Nina,Tai,9770,854518728062939,1839327872847153,BOT: quick reply,":keycap_1: an eccentric
+:keycap_2: a specialist
+:keycap_3: a mentor
+:keycap_4: a philanderer
+:keycap_5: a dilettante
+",2018-08-16 20:39:06
+1839327872847153,Nina,Tai,9771,1839327872847153,854518728062939,user_quick_reply: BUTTON_DKB_a specialist,:keycap_2:,2018-08-16 20:39:11
+1839327872847153,Nina,Tai,9772,854518728062939,1839327872847153,BOT: message,That's not quite right. :disappointed_face:,2018-08-16 20:39:12
+1839327872847153,Nina,Tai,9773,854518728062939,1839327872847153,BOT: quick reply,The correct answer is a dilettante.,2018-08-16 20:39:14
+1839327872847153,Nina,Tai,9774,1839327872847153,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-16 20:39:18
+1839327872847153,Nina,Tai,9775,854518728062939,1839327872847153,BOT: message,Let's see if you can get this one.,2018-08-16 20:39:20
+1839327872847153,Nina,Tai,9776,854518728062939,1839327872847153,BOT: quick reply,"Now known as Administrative Professionals' Day, Secretaries' Day was created in 1952 by Harry F. Klemfuss, a public relations professional who _____ the value and significance of administrative assistants in order to attract more women to the profession.",2018-08-16 20:39:21
+1839327872847153,Nina,Tai,10216,854518728062939,1839327872847153,BOT: quick reply,"Hi Nina, you haven't talked to me for a while. Would you like to resume the learning with me?",2018-08-17 20:00:13
+1839327872847153,Nina,Tai,10289,1839327872847153,854518728062939,user_quick_reply: NEXT_QUESTION,Got it :thumbs_up_medium-light_skin_tone:,2018-08-17 22:12:13
+1839327872847153,Nina,Tai,10290,854518728062939,1839327872847153,BOT: message,Let's see if you can get this one.,2018-08-17 22:12:14
+1839327872847153,Nina,Tai,10291,854518728062939,1839327872847153,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-17 22:12:15
+1839327872847153,Nina,Tai,10292,854518728062939,1839327872847153,BOT: quick reply,"Despite being located in hot and sunny California, San Francisco is famous for its _____ weather, engendered by the confluence of two different meteorological systems in the Bay Area.",2018-08-17 22:12:17
+1839327872847153,Nina,Tai,10399,1839327872847153,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-17 22:36:28
+1839327872847153,Nina,Tai,10400,854518728062939,1839327872847153,BOT: message,It's one of the following choices.,2018-08-17 22:36:30
+1839327872847153,Nina,Tai,10401,854518728062939,1839327872847153,BOT: quick reply,":keycap_1: appealing
+:keycap_2: duplicitous
+:keycap_3: balmy
+:keycap_4: stimulating
+:keycap_5: adverse
+",2018-08-17 22:36:31
+1839327872847153,Nina,Tai,10402,1839327872847153,854518728062939,user_quick_reply: BUTTON_DKB_stimulating,:keycap_4:,2018-08-17 22:36:36
+1839327872847153,Nina,Tai,10403,854518728062939,1839327872847153,BOT: message,"Oops, that wasn't quite correct. :disappointed_face:",2018-08-17 22:36:38
+1839327872847153,Nina,Tai,10404,854518728062939,1839327872847153,BOT: quick reply,The correct answer is adverse.,2018-08-17 22:36:39
+1839327872847153,Nina,Tai,10405,1839327872847153,854518728062939,user_quick_reply: BUTTON_DKB_stimulating,:keycap_4:,2018-08-17 22:36:40
+1839327872847153,Nina,Tai,10406,854518728062939,1839327872847153,BOT: message,That's not quite right. :disappointed_face:,2018-08-17 22:36:41
+1839327872847153,Nina,Tai,10407,854518728062939,1839327872847153,BOT: quick reply,The correct answer is adverse.,2018-08-17 22:36:42
+1839327872847153,Nina,Tai,10408,1839327872847153,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-17 22:36:46
+1839327872847153,Nina,Tai,10409,854518728062939,1839327872847153,BOT: message,Let's see if you can get this one.,2018-08-17 22:36:47
+1839327872847153,Nina,Tai,10410,854518728062939,1839327872847153,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-17 22:36:49
+1839327872847153,Nina,Tai,10411,854518728062939,1839327872847153,BOT: quick reply,Many Major League Baseball relief pitchers choose an electrifying theme song to play as they take the mound; the song _____ their fans and instills fear in their opponents.,2018-08-17 22:36:50
+1839327872847153,Nina,Tai,10412,1839327872847153,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-17 22:36:56
+1839327872847153,Nina,Tai,10413,854518728062939,1839327872847153,BOT: message,Okay. I'll give you some choices.,2018-08-17 22:36:57
+1839327872847153,Nina,Tai,10414,854518728062939,1839327872847153,BOT: quick reply,":keycap_1: eviscerates
+:keycap_2: enervates
+:keycap_3: pervades
+:keycap_4: innervates
+:keycap_5: assuages
+",2018-08-17 22:36:59
+1839327872847153,Nina,Tai,10415,1839327872847153,854518728062939,user_quick_reply: BUTTON_DKB_eviscerates,:keycap_1:,2018-08-17 22:37:07
+1839327872847153,Nina,Tai,10416,854518728062939,1839327872847153,BOT: message,"Hmm, that wasn't quite right. :disappointed_face:",2018-08-17 22:37:09
+1839327872847153,Nina,Tai,10417,854518728062939,1839327872847153,BOT: quick reply,The correct answer is innervates.,2018-08-17 22:37:10
+1839327872847153,Nina,Tai,10418,1839327872847153,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-17 22:37:15
+1839327872847153,Nina,Tai,10419,854518728062939,1839327872847153,BOT: message,How about this next one:,2018-08-17 22:37:17
+1839327872847153,Nina,Tai,10420,854518728062939,1839327872847153,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-17 22:37:18
+1839327872847153,Nina,Tai,10421,854518728062939,1839327872847153,BOT: quick reply,"Though many _____ endlessly praised his work, Dan often wished for some honest criticism.",2018-08-17 22:37:19
+1839327872847153,Nina,Tai,10422,1839327872847153,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-17 22:37:25
+1839327872847153,Nina,Tai,10423,854518728062939,1839327872847153,BOT: message,It's one of the following choices.,2018-08-17 22:37:27
+1839327872847153,Nina,Tai,10424,854518728062939,1839327872847153,BOT: quick reply,":keycap_1: adversaries
+:keycap_2: benefactors
+:keycap_3: sycophants
+:keycap_4: pedants
+:keycap_5: mavericks
+",2018-08-17 22:37:28
+1839327872847153,Nina,Tai,10425,1839327872847153,854518728062939,user_quick_reply: BUTTON_DKB_adversaries,:keycap_1:,2018-08-17 22:37:33
+1839327872847153,Nina,Tai,10426,854518728062939,1839327872847153,BOT: message,"Hmm, that wasn't quite right. :disappointed_face:",2018-08-17 22:37:34
+1839327872847153,Nina,Tai,10427,854518728062939,1839327872847153,BOT: quick reply,The correct answer is sycophants.,2018-08-17 22:37:35
+1839327872847153,Nina,Tai,10428,1839327872847153,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-17 22:38:45
+1839327872847153,Nina,Tai,10429,854518728062939,1839327872847153,BOT: message,I think you'll like this question.,2018-08-17 22:38:46
+1839327872847153,Nina,Tai,10430,854518728062939,1839327872847153,BOT: quick reply,"Although they stood with the congressman in a tenuous display of solidarity, the incensed commissioners could not conceal their _____ .",2018-08-17 22:38:47
+1839327872847153,Nina,Tai,10431,1839327872847153,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-17 22:38:55
+1839327872847153,Nina,Tai,10432,854518728062939,1839327872847153,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-08-17 22:38:56
+1839327872847153,Nina,Tai,10433,854518728062939,1839327872847153,BOT: quick reply,":keycap_1: rancor
+:keycap_2: camaraderie
+:keycap_3: hubris
+:keycap_4: facetiousness
+:keycap_5: adulation
+",2018-08-17 22:38:58
+1839327872847153,Nina,Tai,10434,1839327872847153,854518728062939,user_quick_reply: BUTTON_AKB_rancor,:keycap_1:,2018-08-17 22:39:18
+1839327872847153,Nina,Tai,10435,854518728062939,1839327872847153,BOT: message,Yes! You got the correct answer!,2018-08-17 22:39:19
+1839327872847153,Nina,Tai,10436,854518728062939,1839327872847153,BOT: quick reply,The correct answer is rancor.,2018-08-17 22:39:21
+1839327872847153,Nina,Tai,10437,1839327872847153,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-17 22:39:45
+1839327872847153,Nina,Tai,10438,854518728062939,1839327872847153,BOT: message,Let's try this one.,2018-08-17 22:39:47
+1839327872847153,Nina,Tai,10439,854518728062939,1839327872847153,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-17 22:39:48
+1839327872847153,Nina,Tai,10440,854518728062939,1839327872847153,BOT: quick reply,"Ironically, the myth of Martin Van Buren's _____ was due largely to circumstances that had little to do with Van Buren himself; in reality, of all the U.S. presidents since Andrew Jackson, Van Buren exceeded the average in education, intellect, and experience.",2018-08-17 22:39:50
+1839327872847153,Nina,Tai,10441,1839327872847153,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-17 22:39:54
+1839327872847153,Nina,Tai,10442,854518728062939,1839327872847153,BOT: message,It's one of the following choices.,2018-08-17 22:39:55
+1839327872847153,Nina,Tai,10443,854518728062939,1839327872847153,BOT: quick reply,":keycap_1: mediocrity
+:keycap_2: aptitude
+:keycap_3: profundity
+:keycap_4: malleability
+:keycap_5: stoicism
+",2018-08-17 22:39:57
+1839327872847153,Nina,Tai,10444,1839327872847153,854518728062939,user_quick_reply: BUTTON_AKB_mediocrity,:keycap_1:,2018-08-17 22:40:01
+1839327872847153,Nina,Tai,10445,854518728062939,1839327872847153,BOT: message,Great job!,2018-08-17 22:40:02
+1839327872847153,Nina,Tai,10446,854518728062939,1839327872847153,BOT: quick reply,The correct answer is mediocrity.,2018-08-17 22:40:04
+1839327872847153,Nina,Tai,10447,1839327872847153,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-17 22:40:09
+1839327872847153,Nina,Tai,10448,854518728062939,1839327872847153,BOT: message,Let's take a look at this question.,2018-08-17 22:40:10
+1839327872847153,Nina,Tai,10449,854518728062939,1839327872847153,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-17 22:40:12
+1839327872847153,Nina,Tai,10450,854518728062939,1839327872847153,BOT: quick reply,"Some religious leaders have declared inaction on environmental issues to be _____ , because it may now be considered a sin to pollute the earth.",2018-08-17 22:40:13
+1839327872847153,Nina,Tai,10451,1839327872847153,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-17 22:40:25
+1839327872847153,Nina,Tai,10452,854518728062939,1839327872847153,BOT: message,Okay. I'll give you some choices.,2018-08-17 22:40:26
+1839327872847153,Nina,Tai,10453,854518728062939,1839327872847153,BOT: quick reply,":keycap_1: diaphanous
+:keycap_2: fathomable
+:keycap_3: dilatory
+:keycap_4: splenetic
+:keycap_5: iniquitous
+",2018-08-17 22:40:28
+1839327872847153,Nina,Tai,10454,1839327872847153,854518728062939,user_quick_reply: BUTTON_DKB_diaphanous,:keycap_1:,2018-08-17 22:40:37
+1839327872847153,Nina,Tai,10455,854518728062939,1839327872847153,BOT: message,"I'm sorry, but that was incorrect. :disappointed_face:",2018-08-17 22:40:38
+1839327872847153,Nina,Tai,10456,854518728062939,1839327872847153,BOT: quick reply,The correct answer is iniquitous.,2018-08-17 22:40:40
+1839327872847153,Nina,Tai,10457,1839327872847153,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-17 22:41:29
+1839327872847153,Nina,Tai,10458,854518728062939,1839327872847153,BOT: message,Let's try this one.,2018-08-17 22:41:30
+1839327872847153,Nina,Tai,10459,854518728062939,1839327872847153,BOT: quick reply,"Some religious leaders have declared inaction on environmental issues to be _____ , because it may now be considered a sin to pollute the earth.",2018-08-17 22:41:32
+1839327872847153,Nina,Tai,10460,1839327872847153,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-17 22:41:37
+1839327872847153,Nina,Tai,10461,854518728062939,1839327872847153,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-08-17 22:41:39
+1839327872847153,Nina,Tai,10462,854518728062939,1839327872847153,BOT: quick reply,":keycap_1: splenetic
+:keycap_2: iniquitous
+:keycap_3: fathomable
+:keycap_4: dilatory
+:keycap_5: diaphanous
+",2018-08-17 22:41:40
+1839327872847153,Nina,Tai,10463,1839327872847153,854518728062939,user_quick_reply: BUTTON_DKB_splenetic,:keycap_1:,2018-08-17 22:41:52
+1839327872847153,Nina,Tai,10464,854518728062939,1839327872847153,BOT: message,"Oops, that is not correct. :disappointed_face:",2018-08-17 22:41:54
+1839327872847153,Nina,Tai,10465,854518728062939,1839327872847153,BOT: quick reply,The correct answer is iniquitous.,2018-08-17 22:41:55
+1839327872847153,Nina,Tai,10466,1839327872847153,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-17 22:42:19
+1839327872847153,Nina,Tai,10467,854518728062939,1839327872847153,BOT: message,See if you can answer this next one.,2018-08-17 22:42:21
+1839327872847153,Nina,Tai,10468,854518728062939,1839327872847153,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-17 22:42:22
+1839327872847153,Nina,Tai,10469,854518728062939,1839327872847153,BOT: quick reply,One of social science's major themes is that of stability versus change; to what extent are individual personalities _____ yet different over time?,2018-08-17 22:42:24
+1839327872847153,Nina,Tai,10470,1839327872847153,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-17 22:42:41
+1839327872847153,Nina,Tai,10471,854518728062939,1839327872847153,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-08-17 22:42:43
+1839327872847153,Nina,Tai,10472,854518728062939,1839327872847153,BOT: quick reply,":keycap_1: transient
+:keycap_2: static
+:keycap_3: discreet
+:keycap_4: disturbed
+:keycap_5: maladjusted
+",2018-08-17 22:42:44
+1839327872847153,Nina,Tai,10473,1839327872847153,854518728062939,user_quick_reply: BUTTON_DKB_transient,:keycap_1:,2018-08-17 22:43:34
+1839327872847153,Nina,Tai,10474,854518728062939,1839327872847153,BOT: message,"I'm sorry, but that was incorrect. :disappointed_face:",2018-08-17 22:43:36
+1839327872847153,Nina,Tai,10475,854518728062939,1839327872847153,BOT: quick reply,The correct answer is static.,2018-08-17 22:43:37
+1839327872847153,Nina,Tai,10476,1839327872847153,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-17 22:43:57
+1839327872847153,Nina,Tai,10477,854518728062939,1839327872847153,BOT: message,"Alrighty, let's try this one.",2018-08-17 22:43:58
+1839327872847153,Nina,Tai,10478,854518728062939,1839327872847153,BOT: quick reply,"Despite the smile that spread from ear to ear, the eyes relayed a certain _____ .",2018-08-17 22:43:59
+1839327872847153,Nina,Tai,10479,1839327872847153,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-17 22:44:26
+1839327872847153,Nina,Tai,10480,854518728062939,1839327872847153,BOT: message,It's one of the following choices.,2018-08-17 22:44:27
+1839327872847153,Nina,Tai,10481,854518728062939,1839327872847153,BOT: quick reply,":keycap_1: liveliness
+:keycap_2: vision
+:keycap_3: sorrow
+:keycap_4: jubilance
+:keycap_5: mischievousness
+",2018-08-17 22:44:29
+1839327872847153,Nina,Tai,10482,1839327872847153,854518728062939,user_quick_reply: BUTTON_DKB_vision,:keycap_2:,2018-08-17 22:44:39
+1839327872847153,Nina,Tai,10483,854518728062939,1839327872847153,BOT: message,"Oops, that wasn't quite correct. :disappointed_face:",2018-08-17 22:44:41
+1839327872847153,Nina,Tai,10484,854518728062939,1839327872847153,BOT: quick reply,The correct answer is sorrow.,2018-08-17 22:44:42
+1839327872847153,Nina,Tai,10485,1839327872847153,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-17 22:45:01
+1839327872847153,Nina,Tai,10486,854518728062939,1839327872847153,BOT: message,Let's see if you can answer this question.,2018-08-17 22:45:03
+1839327872847153,Nina,Tai,10487,854518728062939,1839327872847153,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-17 22:45:04
+1839327872847153,Nina,Tai,10488,854518728062939,1839327872847153,BOT: quick reply,"Repulsed by _____ employees, the executive informed his staff that he preferred constructive criticism to calculated flattery.",2018-08-17 22:45:06
+1839327872847153,Nina,Tai,10489,1839327872847153,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-17 22:45:30
+1839327872847153,Nina,Tai,10490,854518728062939,1839327872847153,BOT: message,It's one of the following choices.,2018-08-17 22:45:31
+1839327872847153,Nina,Tai,10491,854518728062939,1839327872847153,BOT: quick reply,":keycap_1: sententious
+:keycap_2: natty
+:keycap_3: profligate
+:keycap_4: obsequious
+:keycap_5: rapacious
+",2018-08-17 22:45:32
+1839327872847153,Nina,Tai,10492,1839327872847153,854518728062939,user_quick_reply: BUTTON_DKB_sententious,:keycap_1:,2018-08-17 22:46:20
+1839327872847153,Nina,Tai,10493,854518728062939,1839327872847153,BOT: message,That's not quite right. :disappointed_face:,2018-08-17 22:46:22
+1839327872847153,Nina,Tai,10494,854518728062939,1839327872847153,BOT: quick reply,The correct answer is obsequious.,2018-08-17 22:46:24
+1839327872847153,Nina,Tai,10495,1839327872847153,854518728062939,user_quick_reply: WHY,Why?,2018-08-17 22:46:34
+1839327872847153,Nina,Tai,10496,854518728062939,1839327872847153,BOT: message,This is why:,2018-08-17 22:46:35
+1839327872847153,Nina,Tai,10497,854518728062939,1839327872847153,BOT: quick reply,":pushpin: Obsequious -- attempting to win favor from influential people by flattery
+:pushpin: Natty -- marked by up-to-dateness in dress and manners
+:pushpin: Profligate -- recklessly wasteful
+:pushpin: Rapacious -- living by preying on other animals especially by catching living prey
+:pushpin: Sententious -- abounding in or given to pompous or aphoristic moralizing",2018-08-17 22:46:37
+1839327872847153,Nina,Tai,10608,1839327872847153,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-18 16:39:44
+1839327872847153,Nina,Tai,10609,854518728062939,1839327872847153,BOT: message,See if you can answer this next one.,2018-08-18 16:39:45
+1839327872847153,Nina,Tai,10610,854518728062939,1839327872847153,BOT: quick reply,"Some religious leaders have declared inaction on environmental issues to be _____ , because it may now be considered a sin to pollute the earth.",2018-08-18 16:39:47
+1839327872847153,Nina,Tai,10611,1839327872847153,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-18 16:39:51
+1839327872847153,Nina,Tai,10612,854518728062939,1839327872847153,BOT: message,It's one of the following choices.,2018-08-18 16:39:52
+1839327872847153,Nina,Tai,10613,854518728062939,1839327872847153,BOT: quick reply,":keycap_1: fathomable
+:keycap_2: dilatory
+:keycap_3: iniquitous
+:keycap_4: splenetic
+:keycap_5: diaphanous
+",2018-08-18 16:39:54
+1839327872847153,Nina,Tai,10614,1839327872847153,854518728062939,user_quick_reply: BUTTON_DKB_dilatory,:keycap_2:,2018-08-18 16:40:06
+1839327872847153,Nina,Tai,10615,854518728062939,1839327872847153,BOT: message,"I'm sorry, but that was incorrect. :disappointed_face:",2018-08-18 16:40:07
+1839327872847153,Nina,Tai,10616,854518728062939,1839327872847153,BOT: quick reply,The correct answer is iniquitous.,2018-08-18 16:40:09
+1839327872847153,Nina,Tai,10617,1839327872847153,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-18 16:40:13
+1839327872847153,Nina,Tai,10618,854518728062939,1839327872847153,BOT: message,Let's try this question.,2018-08-18 16:40:15
+1839327872847153,Nina,Tai,10619,854518728062939,1839327872847153,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-18 16:40:16
+1839327872847153,Nina,Tai,10620,854518728062939,1839327872847153,BOT: quick reply,"Having squandered his life's savings on unprofitable business ventures, the _____ entrepreneur was forced to live in squalor.",2018-08-18 16:40:17
+1839327872847153,Nina,Tai,10621,1839327872847153,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-18 16:40:22
+1839327872847153,Nina,Tai,10622,854518728062939,1839327872847153,BOT: message,Pick one of the following answers.,2018-08-18 16:40:24
+1839327872847153,Nina,Tai,10623,854518728062939,1839327872847153,BOT: quick reply,":keycap_1: eccentric
+:keycap_2: unlikely
+:keycap_3: insolvent
+:keycap_4: former
+:keycap_5: perturbed
+",2018-08-18 16:40:25
+1839327872847153,Nina,Tai,10624,1839327872847153,854518728062939,user_quick_reply: BUTTON_DKB_unlikely,:keycap_2:,2018-08-18 16:40:30
+1839327872847153,Nina,Tai,10625,854518728062939,1839327872847153,BOT: message,"Oops, that is not correct. :disappointed_face:",2018-08-18 16:40:31
+1839327872847153,Nina,Tai,10626,854518728062939,1839327872847153,BOT: quick reply,The correct answer is insolvent.,2018-08-18 16:40:32
+1839327872847153,Nina,Tai,10627,1839327872847153,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-18 16:40:37
+1839327872847153,Nina,Tai,10628,854518728062939,1839327872847153,BOT: message,Let's see if you can answer this question.,2018-08-18 16:40:39
+1839327872847153,Nina,Tai,10629,854518728062939,1839327872847153,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-18 16:40:40
+1839327872847153,Nina,Tai,10630,854518728062939,1839327872847153,BOT: quick reply,"Certainly a roundabout narrative, the book - much like the others in the author's pseudo-autobiographical series - proved to be unpopular among those who preferred _____ to loquaciousness.",2018-08-18 16:40:42
+1839327872847153,Nina,Tai,10631,1839327872847153,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-18 16:40:49
+1839327872847153,Nina,Tai,10632,854518728062939,1839327872847153,BOT: message,Pick one of the following answers.,2018-08-18 16:40:51
+1839327872847153,Nina,Tai,10633,854518728062939,1839327872847153,BOT: quick reply,":keycap_1: succinctness
+:keycap_2: gregariousness
+:keycap_3: perspicacity
+:keycap_4: enlargement
+:keycap_5: garrulousness
+",2018-08-18 16:40:52
+1839327872847153,Nina,Tai,10634,1839327872847153,854518728062939,user_quick_reply: BUTTON_DKB_gregariousness,:keycap_2:,2018-08-18 16:41:12
+1839327872847153,Nina,Tai,10635,854518728062939,1839327872847153,BOT: message,"Oops, that wasn't quite correct. :disappointed_face:",2018-08-18 16:41:14
+1839327872847153,Nina,Tai,10636,854518728062939,1839327872847153,BOT: quick reply,The correct answer is succinctness.,2018-08-18 16:41:20
+1839327872847153,Nina,Tai,10637,1839327872847153,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-18 16:41:27
+1839327872847153,Nina,Tai,10638,854518728062939,1839327872847153,BOT: message,Let's see if you would answer this one.,2018-08-18 16:41:28
+1839327872847153,Nina,Tai,10639,854518728062939,1839327872847153,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-18 16:41:30
+1839327872847153,Nina,Tai,10640,854518728062939,1839327872847153,BOT: quick reply,"Students may consider modernist works such as James Joyce's Finnegan's Wake to be more _____ than Victorian prose: Victorian narratives are linear and predictable, while Joyce's tortuous plots are fragmented and fickle, and they confound the reader.",2018-08-18 16:41:31
+1839327872847153,Nina,Tai,10641,1839327872847153,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-18 16:41:37
+1839327872847153,Nina,Tai,10642,854518728062939,1839327872847153,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-08-18 16:41:38
+1839327872847153,Nina,Tai,10643,854518728062939,1839327872847153,BOT: quick reply,":keycap_1: recondite
+:keycap_2: mundane
+:keycap_3: panegyric
+:keycap_4: elegiac
+:keycap_5: banal
+",2018-08-18 16:41:40
+1839327872847153,Nina,Tai,10644,1839327872847153,854518728062939,user_quick_reply: BUTTON_DKB_mundane,:keycap_2:,2018-08-18 16:41:49
+1839327872847153,Nina,Tai,10645,854518728062939,1839327872847153,BOT: message,"Hmm, that wasn't quite right. :disappointed_face:",2018-08-18 16:41:51
+1839327872847153,Nina,Tai,10646,854518728062939,1839327872847153,BOT: quick reply,The correct answer is recondite.,2018-08-18 16:41:52
+1839327872847153,Nina,Tai,10647,1839327872847153,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-18 16:41:58
+1839327872847153,Nina,Tai,10648,854518728062939,1839327872847153,BOT: message,I think you'll like this question.,2018-08-18 16:41:59
+1839327872847153,Nina,Tai,10649,854518728062939,1839327872847153,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-18 16:42:01
+1839327872847153,Nina,Tai,10650,854518728062939,1839327872847153,BOT: quick reply,"Prior to taking on the new invader, the defending army had engaged in arduous combat; it is likely that the _____ resulting from waging two battles in two days played a part in its subsequent defeat.",2018-08-18 16:42:02
+1839327872847153,Nina,Tai,10651,1839327872847153,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-18 16:42:07
+1839327872847153,Nina,Tai,10652,854518728062939,1839327872847153,BOT: message,Okay. I'll give you some choices.,2018-08-18 16:42:08
+1839327872847153,Nina,Tai,10653,854518728062939,1839327872847153,BOT: quick reply,":keycap_1: bellicosity
+:keycap_2: aggravation
+:keycap_3: pugnacity
+:keycap_4: enervation
+:keycap_5: pacification
+",2018-08-18 16:42:10
+1839327872847153,Nina,Tai,10654,1839327872847153,854518728062939,user_quick_reply: BUTTON_DKB_aggravation,:keycap_2:,2018-08-18 16:42:16
+1839327872847153,Nina,Tai,10655,854518728062939,1839327872847153,BOT: message,"Hmm, that wasn't quite right. :disappointed_face:",2018-08-18 16:42:17
+1839327872847153,Nina,Tai,10656,854518728062939,1839327872847153,BOT: quick reply,The correct answer is enervation.,2018-08-18 16:42:19
+1839327872847153,Nina,Tai,10657,1839327872847153,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-18 16:42:27
+1839327872847153,Nina,Tai,10658,854518728062939,1839327872847153,BOT: message,Let's take a look at this question.,2018-08-18 16:42:29
+1839327872847153,Nina,Tai,10659,854518728062939,1839327872847153,BOT: quick reply,"Ironically, the myth of Martin Van Buren's _____ was due largely to circumstances that had little to do with Van Buren himself; in reality, of all the U.S. presidents since Andrew Jackson, Van Buren exceeded the average in education, intellect, and experience.",2018-08-18 16:42:30
+1839327872847153,Nina,Tai,10660,1839327872847153,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-18 16:42:36
+1839327872847153,Nina,Tai,10661,854518728062939,1839327872847153,BOT: message,Okay. I'll give you some choices.,2018-08-18 16:42:38
+1839327872847153,Nina,Tai,10662,854518728062939,1839327872847153,BOT: quick reply,":keycap_1: aptitude
+:keycap_2: profundity
+:keycap_3: stoicism
+:keycap_4: malleability
+:keycap_5: mediocrity
+",2018-08-18 16:42:39
+1839327872847153,Nina,Tai,10663,1839327872847153,854518728062939,user_quick_reply: BUTTON_DKB_profundity,:keycap_2:,2018-08-18 16:42:44
+1839327872847153,Nina,Tai,10664,854518728062939,1839327872847153,BOT: message,"Oops, that is not correct. :disappointed_face:",2018-08-18 16:42:45
+1839327872847153,Nina,Tai,10665,854518728062939,1839327872847153,BOT: quick reply,The correct answer is mediocrity.,2018-08-18 16:42:47
+1839327872847153,Nina,Tai,10666,1839327872847153,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-18 16:42:57
+1839327872847153,Nina,Tai,10667,854518728062939,1839327872847153,BOT: message,Let's see if you can answer this question.,2018-08-18 16:42:58
+1839327872847153,Nina,Tai,10668,854518728062939,1839327872847153,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-18 16:43:00
+1839327872847153,Nina,Tai,10669,854518728062939,1839327872847153,BOT: quick reply,"Ironically, the myth of Martin Van Buren's _____ was due largely to circumstances that had little to do with Van Buren himself; in reality, of all the U.S. presidents since Andrew Jackson, Van Buren exceeded the average in education, intellect, and experience.",2018-08-18 16:43:01
+1839327872847153,Nina,Tai,10670,1839327872847153,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-18 16:43:08
+1839327872847153,Nina,Tai,10671,854518728062939,1839327872847153,BOT: message,Which of the following options is the right answer?,2018-08-18 16:43:09
+1839327872847153,Nina,Tai,10672,854518728062939,1839327872847153,BOT: quick reply,":keycap_1: stoicism
+:keycap_2: aptitude
+:keycap_3: mediocrity
+:keycap_4: malleability
+:keycap_5: profundity
+",2018-08-18 16:43:11
+1839327872847153,Nina,Tai,10673,1839327872847153,854518728062939,user_quick_reply: BUTTON_DKB_aptitude,:keycap_2:,2018-08-18 16:43:26
+1839327872847153,Nina,Tai,10674,854518728062939,1839327872847153,BOT: message,"Hmm, that wasn't quite right. :disappointed_face:",2018-08-18 16:43:28
+1839327872847153,Nina,Tai,10675,854518728062939,1839327872847153,BOT: quick reply,The correct answer is mediocrity.,2018-08-18 16:43:29
+1839327872847153,Nina,Tai,10676,1839327872847153,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-18 16:43:35
+1839327872847153,Nina,Tai,10677,854518728062939,1839327872847153,BOT: message,Let's see if you would answer this one.,2018-08-18 16:43:37
+1839327872847153,Nina,Tai,10678,854518728062939,1839327872847153,BOT: quick reply,"With a similar contrast between a partly cloudy sky and a dark street, the cover of the recent rock CD _____ a famous surrealist painting from the early 1900s.",2018-08-18 16:43:38
+1839327872847153,Nina,Tai,10679,1839327872847153,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-18 16:43:45
+1839327872847153,Nina,Tai,10680,854518728062939,1839327872847153,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-08-18 16:43:46
+1839327872847153,Nina,Tai,10681,854518728062939,1839327872847153,BOT: quick reply,":keycap_1: evokes
+:keycap_2: admires
+:keycap_3: disenchants
+:keycap_4: obfuscates
+:keycap_5: sanctions
+",2018-08-18 16:43:48
+1839327872847153,Nina,Tai,10682,1839327872847153,854518728062939,user_quick_reply: BUTTON_DKB_admires,:keycap_2:,2018-08-18 16:43:55
+1839327872847153,Nina,Tai,10683,854518728062939,1839327872847153,BOT: message,"I'm sorry, but that was incorrect. :disappointed_face:",2018-08-18 16:43:56
+1839327872847153,Nina,Tai,10684,854518728062939,1839327872847153,BOT: quick reply,The correct answer is evokes.,2018-08-18 16:43:58
+1839327872847153,Nina,Tai,10685,1839327872847153,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-18 16:44:03
+1839327872847153,Nina,Tai,10686,854518728062939,1839327872847153,BOT: message,Let's see if you can answer this question.,2018-08-18 16:44:04
+1839327872847153,Nina,Tai,10687,854518728062939,1839327872847153,BOT: quick reply,"Sheila would often _____ about her boyfriend's habits, but everyone could tell that her seemingly bitter complaints were mostly facetious.",2018-08-18 16:44:06
+1839327872847153,Nina,Tai,10688,1839327872847153,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-18 16:44:12
+1839327872847153,Nina,Tai,10689,854518728062939,1839327872847153,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-08-18 16:44:13
+1839327872847153,Nina,Tai,10690,854518728062939,1839327872847153,BOT: quick reply,":keycap_1: dissemble
+:keycap_2: waffle
+:keycap_3: mince
+:keycap_4: rail
+:keycap_5: grieve
+",2018-08-18 16:44:15
+1839327872847153,Nina,Tai,10691,1839327872847153,854518728062939,user_quick_reply: BUTTON_DKB_waffle,:keycap_2:,2018-08-18 16:44:19
+1839327872847153,Nina,Tai,10692,854518728062939,1839327872847153,BOT: message,"Oops, that wasn't quite correct. :disappointed_face:",2018-08-18 16:44:21
+1839327872847153,Nina,Tai,10693,854518728062939,1839327872847153,BOT: quick reply,The correct answer is rail.,2018-08-18 16:44:22
+1839327872847153,Nina,Tai,10694,1839327872847153,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-18 16:44:33
+1839327872847153,Nina,Tai,10695,854518728062939,1839327872847153,BOT: message,Could you answer this one for me?,2018-08-18 16:44:35
+1839327872847153,Nina,Tai,10696,854518728062939,1839327872847153,BOT: quick reply,"Although tranquilizers usually have a _____ effect, this is not always the case, especially when the abuse of these drugs results in a failure to induce the much-desired sleep.",2018-08-18 16:44:36
+1839327872847153,Nina,Tai,10697,1839327872847153,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-18 16:44:40
+1839327872847153,Nina,Tai,10698,854518728062939,1839327872847153,BOT: message,It's one of the following choices.,2018-08-18 16:44:42
+1839327872847153,Nina,Tai,10699,854518728062939,1839327872847153,BOT: quick reply,":keycap_1: penetrating
+:keycap_2: debilitating
+:keycap_3: soporific
+:keycap_4: coruscating
+:keycap_5: sedulous
+",2018-08-18 16:44:43
+1839327872847153,Nina,Tai,10700,1839327872847153,854518728062939,user_quick_reply: BUTTON_DKB_debilitating,:keycap_2:,2018-08-18 16:44:50
+1839327872847153,Nina,Tai,10701,854518728062939,1839327872847153,BOT: message,"Hmm, that wasn't quite right. :disappointed_face:",2018-08-18 16:44:52
+1839327872847153,Nina,Tai,10702,854518728062939,1839327872847153,BOT: quick reply,The correct answer is soporific.,2018-08-18 16:44:53
+1839327872847153,Nina,Tai,10703,1839327872847153,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-18 16:45:13
+1839327872847153,Nina,Tai,10704,854518728062939,1839327872847153,BOT: message,"Alrighty, let's try this one.",2018-08-18 16:45:14
+1839327872847153,Nina,Tai,10705,854518728062939,1839327872847153,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-18 16:45:16
+1839327872847153,Nina,Tai,10706,854518728062939,1839327872847153,BOT: quick reply,"Despite being located in hot and sunny California, San Francisco is famous for its _____ weather, engendered by the confluence of two different meteorological systems in the Bay Area.",2018-08-18 16:45:17
+1839327872847153,Nina,Tai,10707,1839327872847153,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-18 16:45:41
+1839327872847153,Nina,Tai,10708,854518728062939,1839327872847153,BOT: message,Which of the following options is the right answer?,2018-08-18 16:45:42
+1839327872847153,Nina,Tai,10709,854518728062939,1839327872847153,BOT: quick reply,":keycap_1: adverse
+:keycap_2: balmy
+:keycap_3: duplicitous
+:keycap_4: appealing
+:keycap_5: stimulating
+",2018-08-18 16:45:44
+1839327872847153,Nina,Tai,10710,1839327872847153,854518728062939,user_quick_reply: BUTTON_DKB_balmy,:keycap_2:,2018-08-18 16:45:48
+1839327872847153,Nina,Tai,10711,854518728062939,1839327872847153,BOT: message,"Hmm, that wasn't quite right. :disappointed_face:",2018-08-18 16:45:49
+1839327872847153,Nina,Tai,10712,854518728062939,1839327872847153,BOT: quick reply,The correct answer is adverse.,2018-08-18 16:45:51
+1839327872847153,Nina,Tai,10713,1839327872847153,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-18 16:45:55
+1839327872847153,Nina,Tai,10714,854518728062939,1839327872847153,BOT: message,Let's take a look at this question.,2018-08-18 16:45:56
+1839327872847153,Nina,Tai,10715,854518728062939,1839327872847153,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-18 16:45:58
+1839327872847153,Nina,Tai,10716,854518728062939,1839327872847153,BOT: quick reply,Voters have become so inured to the fickle nature of politicians that they responded to the levy of a new tax with _____ .,2018-08-18 16:45:59
+1839327872847153,Nina,Tai,10717,1839327872847153,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-18 16:46:08
+1839327872847153,Nina,Tai,10718,854518728062939,1839327872847153,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-08-18 16:46:09
+1839327872847153,Nina,Tai,10719,854518728062939,1839327872847153,BOT: quick reply,":keycap_1: exasperation
+:keycap_2: alarm
+:keycap_3: amazement
+:keycap_4: perplexity
+:keycap_5: stolidity
+",2018-08-18 16:46:11
+1839327872847153,Nina,Tai,10720,1839327872847153,854518728062939,user_quick_reply: BUTTON_DKB_alarm,:keycap_2:,2018-08-18 16:46:25
+1839327872847153,Nina,Tai,10721,854518728062939,1839327872847153,BOT: message,"Oops, that wasn't quite correct. :disappointed_face:",2018-08-18 16:46:26
+1839327872847153,Nina,Tai,10722,854518728062939,1839327872847153,BOT: quick reply,The correct answer is stolidity.,2018-08-18 16:46:28
+1839327872847153,Nina,Tai,10723,1839327872847153,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-18 16:46:47
+1839327872847153,Nina,Tai,10724,854518728062939,1839327872847153,BOT: message,What about this next question:,2018-08-18 16:46:49
+1839327872847153,Nina,Tai,10725,854518728062939,1839327872847153,BOT: quick reply,"Just as different people can have very different personalities, so too can pets - even those of the same species and breed possess varied _____ .",2018-08-18 16:46:50
+1839327872847153,Nina,Tai,10726,1839327872847153,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-18 16:47:03
+1839327872847153,Nina,Tai,10727,854518728062939,1839327872847153,BOT: message,Pick one of the following answers.,2018-08-18 16:47:05
+1839327872847153,Nina,Tai,10728,854518728062939,1839327872847153,BOT: quick reply,":keycap_1: initiations
+:keycap_2: aptitudes
+:keycap_3: temperaments
+:keycap_4: rationalizations
+:keycap_5: implementations
+",2018-08-18 16:47:06
+1839327872847153,Nina,Tai,10729,1839327872847153,854518728062939,user_quick_reply: BUTTON_DKB_aptitudes,:keycap_2:,2018-08-18 16:47:24
+1839327872847153,Nina,Tai,10730,854518728062939,1839327872847153,BOT: message,That's not quite right. :disappointed_face:,2018-08-18 16:47:25
+1839327872847153,Nina,Tai,10731,854518728062939,1839327872847153,BOT: quick reply,The correct answer is temperaments.,2018-08-18 16:47:27
+1839327872847153,Nina,Tai,10732,1839327872847153,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-18 16:47:33
+1839327872847153,Nina,Tai,10733,854518728062939,1839327872847153,BOT: message,Let's try this one.,2018-08-18 16:47:34
+1839327872847153,Nina,Tai,10734,854518728062939,1839327872847153,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-18 16:47:36
+1839327872847153,Nina,Tai,10735,854518728062939,1839327872847153,BOT: quick reply,"Dismissed by the establishment, professing nothing but disdain for the canon, and yet beloved by his followers who trumpet his _____ opinions, the raffish pundit is laughing all the way to the bank.",2018-08-18 16:47:37
+1839327872847153,Nina,Tai,10736,1839327872847153,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-18 16:47:43
+1839327872847153,Nina,Tai,10737,854518728062939,1839327872847153,BOT: message,It's one of the following choices.,2018-08-18 16:47:45
+1839327872847153,Nina,Tai,10738,854518728062939,1839327872847153,BOT: quick reply,":keycap_1: blithe
+:keycap_2: inveterate
+:keycap_3: meretricious
+:keycap_4: meritless
+:keycap_5: iconoclastic
+",2018-08-18 16:47:46
+1839327872847153,Nina,Tai,10739,1839327872847153,854518728062939,user_quick_reply: BUTTON_DKB_inveterate,:keycap_2:,2018-08-18 16:47:52
+1839327872847153,Nina,Tai,10740,854518728062939,1839327872847153,BOT: message,That's not quite right. :disappointed_face:,2018-08-18 16:47:53
+1839327872847153,Nina,Tai,10741,854518728062939,1839327872847153,BOT: quick reply,The correct answer is iconoclastic.,2018-08-18 16:47:55
+1839327872847153,Nina,Tai,10742,1839327872847153,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-18 16:47:59
+1839327872847153,Nina,Tai,10743,854518728062939,1839327872847153,BOT: message,"Alrighty, let's try this one.",2018-08-18 16:48:01
+1839327872847153,Nina,Tai,10744,854518728062939,1839327872847153,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-18 16:48:02
+1839327872847153,Nina,Tai,10745,854518728062939,1839327872847153,BOT: quick reply,"In 1770s colonial New England, Puritans _____ the celebration of Christmas, which they considered to be an odious reminder of the Pope's tyranny.",2018-08-18 16:48:04
+1839327872847153,Nina,Tai,10746,1839327872847153,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-18 16:48:13
+1839327872847153,Nina,Tai,10747,854518728062939,1839327872847153,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-08-18 16:48:15
+1839327872847153,Nina,Tai,10748,854518728062939,1839327872847153,BOT: quick reply,":keycap_1: repudiated
+:keycap_2: tempered
+:keycap_3: extolled
+:keycap_4: circumscribed
+:keycap_5: placated
+",2018-08-18 16:48:16
+1839327872847153,Nina,Tai,10749,1839327872847153,854518728062939,user_quick_reply: BUTTON_DKB_tempered,:keycap_2:,2018-08-18 16:48:20
+1839327872847153,Nina,Tai,10750,854518728062939,1839327872847153,BOT: message,"Oops, that wasn't quite correct. :disappointed_face:",2018-08-18 16:48:22
+1839327872847153,Nina,Tai,10751,854518728062939,1839327872847153,BOT: quick reply,The correct answer is repudiated.,2018-08-18 16:48:24
+1839327872847153,Nina,Tai,10752,1839327872847153,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-18 16:48:36
+1839327872847153,Nina,Tai,10753,854518728062939,1839327872847153,BOT: message,What about this next question:,2018-08-18 16:48:38
+1839327872847153,Nina,Tai,10754,854518728062939,1839327872847153,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-18 16:48:39
+1839327872847153,Nina,Tai,10755,854518728062939,1839327872847153,BOT: quick reply,Oscar Wilde's The Importance of Being Earnest satirizes the _____ nature of upper crust British society; its characters take trivial concerns seriously while glibly dismissing important ones.,2018-08-18 16:48:41
+1839327872847153,Nina,Tai,10756,1839327872847153,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-18 16:48:50
+1839327872847153,Nina,Tai,10757,854518728062939,1839327872847153,BOT: message,Pick one of the following answers.,2018-08-18 16:48:51
+1839327872847153,Nina,Tai,10758,854518728062939,1839327872847153,BOT: quick reply,":keycap_1: unusual
+:keycap_2: insignificant
+:keycap_3: insincere
+:keycap_4: shallow
+:keycap_5: maladaptive
+",2018-08-18 16:48:53
+1839327872847153,Nina,Tai,10759,1839327872847153,854518728062939,user_quick_reply: BUTTON_DKB_insignificant,:keycap_2:,2018-08-18 16:48:57
+1839327872847153,Nina,Tai,10760,854518728062939,1839327872847153,BOT: message,"Oops, that is not correct. :disappointed_face:",2018-08-18 16:48:58
+1839327872847153,Nina,Tai,10761,854518728062939,1839327872847153,BOT: quick reply,The correct answer is shallow.,2018-08-18 16:49:00
+1839327872847153,Nina,Tai,10762,1839327872847153,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-18 16:49:04
+1839327872847153,Nina,Tai,10763,854518728062939,1839327872847153,BOT: message,"Alrighty, let's try this one.",2018-08-18 16:49:05
+1839327872847153,Nina,Tai,10764,854518728062939,1839327872847153,BOT: quick reply,"Dismissed by the establishment, professing nothing but disdain for the canon, and yet beloved by his followers who trumpet his _____ opinions, the raffish pundit is laughing all the way to the bank.",2018-08-18 16:49:07
+1839327872847153,Nina,Tai,10765,1839327872847153,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-18 16:49:11
+1839327872847153,Nina,Tai,10766,854518728062939,1839327872847153,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-08-18 16:49:13
+1839327872847153,Nina,Tai,10767,854518728062939,1839327872847153,BOT: quick reply,":keycap_1: meretricious
+:keycap_2: meritless
+:keycap_3: inveterate
+:keycap_4: iconoclastic
+:keycap_5: blithe
+",2018-08-18 16:49:14
+1839327872847153,Nina,Tai,10768,1839327872847153,854518728062939,user_quick_reply: BUTTON_DKB_meritless,:keycap_2:,2018-08-18 16:49:19
+1839327872847153,Nina,Tai,10769,854518728062939,1839327872847153,BOT: message,"Hmm, that wasn't quite right. :disappointed_face:",2018-08-18 16:49:20
+1839327872847153,Nina,Tai,10770,854518728062939,1839327872847153,BOT: quick reply,The correct answer is iconoclastic.,2018-08-18 16:49:22
+1839327872847153,Nina,Tai,10771,1839327872847153,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-18 16:49:26
+1839327872847153,Nina,Tai,10772,854518728062939,1839327872847153,BOT: message,Let's see if you can get this one.,2018-08-18 16:49:28
+1839327872847153,Nina,Tai,10773,854518728062939,1839327872847153,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-18 16:49:29
+1839327872847153,Nina,Tai,10774,854518728062939,1839327872847153,BOT: quick reply,"Many dog owners treat their pets too _____ , forgetting that canines have evolved in competitive environments in which emotional coddling was a sign of weakness.",2018-08-18 16:49:31
+1839327872847153,Nina,Tai,10775,1839327872847153,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-18 16:49:35
+1839327872847153,Nina,Tai,10776,854518728062939,1839327872847153,BOT: message,It's one of the following choices.,2018-08-18 16:49:37
+1839327872847153,Nina,Tai,10777,854518728062939,1839327872847153,BOT: quick reply,":keycap_1: indulgently
+:keycap_2: quixotically
+:keycap_3: fortuitously
+:keycap_4: belligerently
+:keycap_5: aggressively
+",2018-08-18 16:49:39
+1839327872847153,Nina,Tai,10778,1839327872847153,854518728062939,user_quick_reply: BUTTON_DKB_quixotically,:keycap_2:,2018-08-18 16:49:45
+1839327872847153,Nina,Tai,10779,854518728062939,1839327872847153,BOT: message,"Hmm, that wasn't quite right. :disappointed_face:",2018-08-18 16:49:46
+1839327872847153,Nina,Tai,10780,854518728062939,1839327872847153,BOT: quick reply,The correct answer is indulgently.,2018-08-18 16:49:48
+1839327872847153,Nina,Tai,10781,1839327872847153,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-18 16:49:54
+1839327872847153,Nina,Tai,10782,854518728062939,1839327872847153,BOT: message,Let's see if you would answer this one.,2018-08-18 16:49:55
+1839327872847153,Nina,Tai,10783,854518728062939,1839327872847153,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-18 16:49:56
+1839327872847153,Nina,Tai,10784,854518728062939,1839327872847153,BOT: quick reply,"Some religious leaders have declared inaction on environmental issues to be _____ , because it may now be considered a sin to pollute the earth.",2018-08-18 16:49:58
+1839327872847153,Nina,Tai,10785,1839327872847153,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-18 16:50:12
+1839327872847153,Nina,Tai,10786,854518728062939,1839327872847153,BOT: message,Which of the following options is the right answer?,2018-08-18 16:50:14
+1839327872847153,Nina,Tai,10787,854518728062939,1839327872847153,BOT: quick reply,":keycap_1: iniquitous
+:keycap_2: fathomable
+:keycap_3: splenetic
+:keycap_4: diaphanous
+:keycap_5: dilatory
+",2018-08-18 16:50:15
+1839327872847153,Nina,Tai,10788,1839327872847153,854518728062939,user_quick_reply: BUTTON_DKB_fathomable,:keycap_2:,2018-08-18 16:50:19
+1839327872847153,Nina,Tai,10789,854518728062939,1839327872847153,BOT: message,"Hmm, that wasn't quite right. :disappointed_face:",2018-08-18 16:50:21
+1839327872847153,Nina,Tai,10790,854518728062939,1839327872847153,BOT: quick reply,The correct answer is iniquitous.,2018-08-18 16:50:22
+1839327872847153,Nina,Tai,10791,1839327872847153,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-18 16:50:27
+1839327872847153,Nina,Tai,10792,854518728062939,1839327872847153,BOT: message,"Alrighty, let's try this one.",2018-08-18 16:50:28
+1839327872847153,Nina,Tai,10793,854518728062939,1839327872847153,BOT: quick reply,"Dolly Madison, the wife of President James Madison, was known especially for her _____ , remaining calm even as the British invaded Washington D.C. during the War of 1812.",2018-08-18 16:50:30
+1839327872847153,Nina,Tai,10794,1839327872847153,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-18 16:50:39
+1839327872847153,Nina,Tai,10795,854518728062939,1839327872847153,BOT: message,Which of the following options is the right answer?,2018-08-18 16:50:40
+1839327872847153,Nina,Tai,10796,854518728062939,1839327872847153,BOT: quick reply,":keycap_1: cynicism
+:keycap_2: equanimity
+:keycap_3: impracticality
+:keycap_4: zeal
+:keycap_5: malevolence
+",2018-08-18 16:50:42
+1839327872847153,Nina,Tai,10797,1839327872847153,854518728062939,user_quick_reply: BUTTON_AKB_equanimity,:keycap_2:,2018-08-18 16:50:51
+1839327872847153,Nina,Tai,10798,854518728062939,1839327872847153,BOT: image,https://www.smartprimer.org:443/pictures/avatar/congrats/penguinnormal_normal.png,2018-08-18 16:50:54
+1839327872847153,Nina,Tai,10799,854518728062939,1839327872847153,BOT: message,Nice work! Keep it up!,2018-08-18 16:50:55
+1839327872847153,Nina,Tai,10800,854518728062939,1839327872847153,BOT: quick reply,The correct answer is equanimity.,2018-08-18 16:50:57
+1839327872847153,Nina,Tai,10801,1839327872847153,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-18 16:51:04
+1839327872847153,Nina,Tai,10802,854518728062939,1839327872847153,BOT: message,Let's see if you can get this one.,2018-08-18 16:51:06
+1839327872847153,Nina,Tai,10803,854518728062939,1839327872847153,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-18 16:51:07
+1839327872847153,Nina,Tai,10804,854518728062939,1839327872847153,BOT: quick reply,Many Major League Baseball relief pitchers choose an electrifying theme song to play as they take the mound; the song _____ their fans and instills fear in their opponents.,2018-08-18 16:51:09
+1839327872847153,Nina,Tai,10805,1839327872847153,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-18 16:51:26
+1839327872847153,Nina,Tai,10806,854518728062939,1839327872847153,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-08-18 16:51:28
+1839327872847153,Nina,Tai,10807,854518728062939,1839327872847153,BOT: quick reply,":keycap_1: assuages
+:keycap_2: eviscerates
+:keycap_3: pervades
+:keycap_4: enervates
+:keycap_5: innervates
+",2018-08-18 16:51:29
+1839327872847153,Nina,Tai,10808,1839327872847153,854518728062939,user_quick_reply: BUTTON_DKB_eviscerates,:keycap_2:,2018-08-18 16:51:34
+1839327872847153,Nina,Tai,10809,854518728062939,1839327872847153,BOT: message,"I'm sorry, but that was incorrect. :disappointed_face:",2018-08-18 16:51:35
+1839327872847153,Nina,Tai,10810,854518728062939,1839327872847153,BOT: quick reply,The correct answer is innervates.,2018-08-18 16:51:37
+1839327872847153,Nina,Tai,10811,1839327872847153,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-18 16:51:42
+1839327872847153,Nina,Tai,10812,854518728062939,1839327872847153,BOT: message,"Alrighty, let's try this one.",2018-08-18 16:51:43
+1839327872847153,Nina,Tai,10813,854518728062939,1839327872847153,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-18 16:51:45
+1839327872847153,Nina,Tai,10814,854518728062939,1839327872847153,BOT: quick reply,"Some religious leaders have declared inaction on environmental issues to be _____ , because it may now be considered a sin to pollute the earth.",2018-08-18 16:51:46
+1839327872847153,Nina,Tai,10815,1839327872847153,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-18 16:51:50
+1839327872847153,Nina,Tai,10816,854518728062939,1839327872847153,BOT: message,Which of the following options is the right answer?,2018-08-18 16:51:51
+1839327872847153,Nina,Tai,10817,854518728062939,1839327872847153,BOT: quick reply,":keycap_1: diaphanous
+:keycap_2: splenetic
+:keycap_3: iniquitous
+:keycap_4: fathomable
+:keycap_5: dilatory
+",2018-08-18 16:51:53
+1839327872847153,Nina,Tai,10818,1839327872847153,854518728062939,user_quick_reply: BUTTON_DKB_splenetic,:keycap_2:,2018-08-18 16:52:01
+1839327872847153,Nina,Tai,10819,854518728062939,1839327872847153,BOT: message,"Oops, that wasn't quite correct. :disappointed_face:",2018-08-18 16:52:02
+1839327872847153,Nina,Tai,10820,854518728062939,1839327872847153,BOT: quick reply,The correct answer is iniquitous.,2018-08-18 16:52:04
+1839327872847153,Nina,Tai,10829,854518728062939,1839327872847153,BOT: quick reply,"Hi Nina, you haven't talked to me for a while. Would you like to resume the learning with me?",2018-08-18 20:00:42
+1839327872847153,Nina,Tai,11372,854518728062939,1839327872847153,BOT: quick reply,"Hi Nina, you haven't talked to me for a while. Would you like to resume the learning with me?",2018-08-19 20:00:14
+1839327872847153,Nina,Tai,11412,1839327872847153,854518728062939,user_quick_reply: NEXT_QUESTION,Alright :flexed_biceps_medium-light_skin_tone:,2018-08-19 21:36:28
+1839327872847153,Nina,Tai,11413,854518728062939,1839327872847153,BOT: message,Let's try this question.,2018-08-19 21:36:30
+1839327872847153,Nina,Tai,11414,854518728062939,1839327872847153,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-19 21:36:31
+1839327872847153,Nina,Tai,11415,854518728062939,1839327872847153,BOT: quick reply,"Despite her mentor's advice that she attempt to sound consistently _____ , the graduate student often resorted to using slang when presenting significant parts of her thesis, her habitual speech patterns overriding her years of learning.",2018-08-19 21:36:32
+1839327872847153,Nina,Tai,11416,1839327872847153,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-19 21:36:44
+1839327872847153,Nina,Tai,11417,854518728062939,1839327872847153,BOT: message,Okay. I'll give you some choices.,2018-08-19 21:36:45
+1839327872847153,Nina,Tai,11418,854518728062939,1839327872847153,BOT: quick reply,":keycap_1: panegyrical
+:keycap_2: rational
+:keycap_3: erudite
+:keycap_4: didactic
+:keycap_5: lucid
+",2018-08-19 21:36:46
+1839327872847153,Nina,Tai,11419,1839327872847153,854518728062939,user_quick_reply: BUTTON_DKB_rational,:keycap_2:,2018-08-19 21:39:12
+1839327872847153,Nina,Tai,11420,854518728062939,1839327872847153,BOT: message,That's not quite right. :disappointed_face:,2018-08-19 21:39:14
+1839327872847153,Nina,Tai,11421,854518728062939,1839327872847153,BOT: quick reply,The correct answer is erudite.,2018-08-19 21:39:15
+1839327872847153,Nina,Tai,11422,1839327872847153,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-19 21:39:19
+1839327872847153,Nina,Tai,11423,854518728062939,1839327872847153,BOT: message,See if you can answer this next one.,2018-08-19 21:39:21
+1839327872847153,Nina,Tai,11424,854518728062939,1839327872847153,BOT: quick reply,"Video game enthusiasts know that, while the astounding advances in technological innovation might increase the level of fun of the gaming experience, such a result is by no means _____ .",2018-08-19 21:39:22
+1839327872847153,Nina,Tai,11425,1839327872847153,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-19 21:39:27
+1839327872847153,Nina,Tai,11426,854518728062939,1839327872847153,BOT: message,Okay. I'll give you some choices.,2018-08-19 21:39:28
+1839327872847153,Nina,Tai,11427,854518728062939,1839327872847153,BOT: quick reply,":keycap_1: ineluctable
+:keycap_2: desultory
+:keycap_3: seminal
+:keycap_4: salient
+:keycap_5: endemic
+",2018-08-19 21:39:30
+1839327872847153,Nina,Tai,11428,1839327872847153,854518728062939,user_quick_reply: BUTTON_DKB_desultory,:keycap_2:,2018-08-19 21:39:37
+1839327872847153,Nina,Tai,11429,854518728062939,1839327872847153,BOT: message,"I'm sorry, but that was incorrect. :disappointed_face:",2018-08-19 21:39:38
+1839327872847153,Nina,Tai,11430,854518728062939,1839327872847153,BOT: quick reply,The correct answer is ineluctable.,2018-08-19 21:39:40
+1839327872847153,Nina,Tai,11431,1839327872847153,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-19 21:39:44
+1839327872847153,Nina,Tai,11432,854518728062939,1839327872847153,BOT: message,Let's see if you can answer this question.,2018-08-19 21:39:45
+1839327872847153,Nina,Tai,11433,854518728062939,1839327872847153,BOT: quick reply,"Sheila would often _____ about her boyfriend's habits, but everyone could tell that her seemingly bitter complaints were mostly facetious.",2018-08-19 21:39:46
+1839327872847153,Nina,Tai,11434,1839327872847153,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-19 21:39:51
+1839327872847153,Nina,Tai,11435,854518728062939,1839327872847153,BOT: message,Which of the following options is the right answer?,2018-08-19 21:39:52
+1839327872847153,Nina,Tai,11436,854518728062939,1839327872847153,BOT: quick reply,":keycap_1: grieve
+:keycap_2: waffle
+:keycap_3: rail
+:keycap_4: mince
+:keycap_5: dissemble
+",2018-08-19 21:39:54
+1839327872847153,Nina,Tai,11437,1839327872847153,854518728062939,user_quick_reply: BUTTON_DKB_waffle,:keycap_2:,2018-08-19 21:39:58
+1839327872847153,Nina,Tai,11438,854518728062939,1839327872847153,BOT: message,That's not quite right. :disappointed_face:,2018-08-19 21:40:00
+1839327872847153,Nina,Tai,11439,854518728062939,1839327872847153,BOT: quick reply,The correct answer is rail.,2018-08-19 21:40:01
+1839327872847153,Nina,Tai,11440,1839327872847153,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-19 21:40:07
+1839327872847153,Nina,Tai,11441,854518728062939,1839327872847153,BOT: message,Here's a question for you:,2018-08-19 21:40:08
+1839327872847153,Nina,Tai,11442,854518728062939,1839327872847153,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-19 21:40:10
+1839327872847153,Nina,Tai,11443,854518728062939,1839327872847153,BOT: quick reply,"Prior to taking on the new invader, the defending army had engaged in arduous combat; it is likely that the _____ resulting from waging two battles in two days played a part in its subsequent defeat.",2018-08-19 21:40:11
+1839327872847153,Nina,Tai,11444,1839327872847153,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-19 21:40:16
+1839327872847153,Nina,Tai,11445,854518728062939,1839327872847153,BOT: message,Pick one of the following answers.,2018-08-19 21:40:17
+1839327872847153,Nina,Tai,11446,854518728062939,1839327872847153,BOT: quick reply,":keycap_1: aggravation
+:keycap_2: enervation
+:keycap_3: pacification
+:keycap_4: bellicosity
+:keycap_5: pugnacity
+",2018-08-19 21:40:19
+1839327872847153,Nina,Tai,11447,1839327872847153,854518728062939,user_quick_reply: BUTTON_AKB_enervation,:keycap_2:,2018-08-19 21:40:23
+1839327872847153,Nina,Tai,11448,854518728062939,1839327872847153,BOT: image,https://www.smartprimer.org:443/pictures/avatar/congrats/penguinnormal_happy_pink.png,2018-08-19 21:40:25
+1839327872847153,Nina,Tai,11449,854518728062939,1839327872847153,BOT: message,Nice work! Keep it up!,2018-08-19 21:40:27
+1839327872847153,Nina,Tai,11450,854518728062939,1839327872847153,BOT: quick reply,The correct answer is enervation.,2018-08-19 21:40:29
+1839327872847153,Nina,Tai,11451,1839327872847153,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-19 21:40:33
+1839327872847153,Nina,Tai,11452,854518728062939,1839327872847153,BOT: message,What about this next question:,2018-08-19 21:40:34
+1839327872847153,Nina,Tai,11453,854518728062939,1839327872847153,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-19 21:40:36
+1839327872847153,Nina,Tai,11454,854518728062939,1839327872847153,BOT: quick reply,"If one were asked who transmitted the first radio broadcast of the human voice, one might guess the _____ inventor Guglielmo Marconi, but in fact the feat was accomplished by the much less well-known Reginald Fessenden.",2018-08-19 21:40:37
+1839327872847153,Nina,Tai,11455,1839327872847153,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-19 21:40:42
+1839327872847153,Nina,Tai,11456,854518728062939,1839327872847153,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-08-19 21:40:43
+1839327872847153,Nina,Tai,11457,854518728062939,1839327872847153,BOT: quick reply,":keycap_1: cogent
+:keycap_2: contingent
+:keycap_3: renowned
+:keycap_4: infamous
+:keycap_5: insistent
+",2018-08-19 21:40:45
+1839327872847153,Nina,Tai,11458,1839327872847153,854518728062939,user_quick_reply: BUTTON_DKB_contingent,:keycap_2:,2018-08-19 21:40:56
+1839327872847153,Nina,Tai,11459,854518728062939,1839327872847153,BOT: message,That's not quite right. :disappointed_face:,2018-08-19 21:40:57
+1839327872847153,Nina,Tai,11460,854518728062939,1839327872847153,BOT: quick reply,The correct answer is renowned.,2018-08-19 21:40:59
+1839327872847153,Nina,Tai,11461,1839327872847153,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-19 21:41:06
+1839327872847153,Nina,Tai,11462,854518728062939,1839327872847153,BOT: message,What about this next question:,2018-08-19 21:41:08
+1839327872847153,Nina,Tai,11463,854518728062939,1839327872847153,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-19 21:41:09
+1839327872847153,Nina,Tai,11464,854518728062939,1839327872847153,BOT: quick reply,Although his latest project was relatively _____ - little more than a few basic plot points scribbled on a napkin - the veteran screenwriter easily sold the story to a major Hollywood studio.,2018-08-19 21:41:11
+1839327872847153,Nina,Tai,11465,1839327872847153,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-19 21:41:15
+1839327872847153,Nina,Tai,11466,854518728062939,1839327872847153,BOT: message,Pick one of the following answers.,2018-08-19 21:41:16
+1839327872847153,Nina,Tai,11467,854518728062939,1839327872847153,BOT: quick reply,":keycap_1: prosaic
+:keycap_2: convoluted
+:keycap_3: tortuous
+:keycap_4: polished
+:keycap_5: undeveloped
+",2018-08-19 21:41:18
+1839327872847153,Nina,Tai,11468,1839327872847153,854518728062939,user_quick_reply: BUTTON_DKB_convoluted,:keycap_2:,2018-08-19 21:41:22
+1839327872847153,Nina,Tai,11469,854518728062939,1839327872847153,BOT: message,"Oops, that wasn't quite correct. :disappointed_face:",2018-08-19 21:41:24
+1839327872847153,Nina,Tai,11470,854518728062939,1839327872847153,BOT: quick reply,The correct answer is undeveloped.,2018-08-19 21:41:25
+1839327872847153,Nina,Tai,11471,1839327872847153,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-19 21:41:31
+1839327872847153,Nina,Tai,11472,854518728062939,1839327872847153,BOT: message,Here's a question for you:,2018-08-19 21:41:32
+1839327872847153,Nina,Tai,11473,854518728062939,1839327872847153,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-19 21:41:34
+1839327872847153,Nina,Tai,11474,854518728062939,1839327872847153,BOT: quick reply,The defense attorney's _____ closing statement was not enough to sway the jurors in his client's favor; stirring words could not conceal the defendant's evident guilt.,2018-08-19 21:41:35
+1839327872847153,Nina,Tai,11475,1839327872847153,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-19 21:41:40
+1839327872847153,Nina,Tai,11476,854518728062939,1839327872847153,BOT: message,It's one of the following choices.,2018-08-19 21:41:41
+1839327872847153,Nina,Tai,11477,854518728062939,1839327872847153,BOT: quick reply,":keycap_1: deceptive
+:keycap_2: impromptu
+:keycap_3: lengthy
+:keycap_4: eloquent
+:keycap_5: crafty
+",2018-08-19 21:41:42
+1839327872847153,Nina,Tai,11478,1839327872847153,854518728062939,user_quick_reply: BUTTON_DKB_impromptu,:keycap_2:,2018-08-19 21:41:47
+1839327872847153,Nina,Tai,11479,854518728062939,1839327872847153,BOT: message,"I'm sorry, but that was incorrect. :disappointed_face:",2018-08-19 21:41:49
+1839327872847153,Nina,Tai,11480,854518728062939,1839327872847153,BOT: quick reply,The correct answer is eloquent.,2018-08-19 21:41:51
+1839327872847153,Nina,Tai,11481,1839327872847153,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-19 21:41:55
+1839327872847153,Nina,Tai,11482,854518728062939,1839327872847153,BOT: message,Let's see if you can answer this question.,2018-08-19 21:41:56
+1839327872847153,Nina,Tai,11483,854518728062939,1839327872847153,BOT: quick reply,"Ancient generals, lacking modern technologies such as radio and satellite communication, often found that one of the most significant challenges in warfare was accurate _____ of the myriad of changes on the battlefield or in the campaign.",2018-08-19 21:41:58
+1839327872847153,Nina,Tai,11484,1839327872847153,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-19 21:42:02
+1839327872847153,Nina,Tai,11485,854518728062939,1839327872847153,BOT: message,It's one of the following choices.,2018-08-19 21:42:04
+1839327872847153,Nina,Tai,11486,854518728062939,1839327872847153,BOT: quick reply,":keycap_1: appraisal
+:keycap_2: adumbration
+:keycap_3: adulteration
+:keycap_4: accretion
+:keycap_5: fortification
+",2018-08-19 21:42:05
+1839327872847153,Nina,Tai,11487,1839327872847153,854518728062939,user_quick_reply: BUTTON_DKB_adumbration,:keycap_2:,2018-08-19 21:42:18
+1839327872847153,Nina,Tai,11488,854518728062939,1839327872847153,BOT: message,"Hmm, that wasn't quite right. :disappointed_face:",2018-08-19 21:42:19
+1839327872847153,Nina,Tai,11489,854518728062939,1839327872847153,BOT: quick reply,The correct answer is appraisal.,2018-08-19 21:42:21
+1839327872847153,Nina,Tai,11490,1839327872847153,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-19 21:42:40
+1839327872847153,Nina,Tai,11491,854518728062939,1839327872847153,BOT: message,Let's take a look at this question.,2018-08-19 21:42:42
+1839327872847153,Nina,Tai,11492,854518728062939,1839327872847153,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-19 21:42:43
+1839327872847153,Nina,Tai,11493,854518728062939,1839327872847153,BOT: quick reply,One of social science's major themes is that of stability versus change; to what extent are individual personalities _____ yet different over time?,2018-08-19 21:42:45
+1839327872847153,Nina,Tai,11494,1839327872847153,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-19 21:42:55
+1839327872847153,Nina,Tai,11495,854518728062939,1839327872847153,BOT: message,Pick one of the following answers.,2018-08-19 21:42:56
+1839327872847153,Nina,Tai,11496,854518728062939,1839327872847153,BOT: quick reply,":keycap_1: static
+:keycap_2: transient
+:keycap_3: disturbed
+:keycap_4: discreet
+:keycap_5: maladjusted
+",2018-08-19 21:42:58
+1839327872847153,Nina,Tai,11497,1839327872847153,854518728062939,user_quick_reply: BUTTON_DKB_transient,:keycap_2:,2018-08-19 21:43:09
+1839327872847153,Nina,Tai,11498,854518728062939,1839327872847153,BOT: message,"Hmm, that wasn't quite right. :disappointed_face:",2018-08-19 21:43:10
+1839327872847153,Nina,Tai,11499,854518728062939,1839327872847153,BOT: quick reply,The correct answer is static.,2018-08-19 21:43:11
+1839327872847153,Nina,Tai,11500,1839327872847153,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-19 21:43:20
+1839327872847153,Nina,Tai,11501,854518728062939,1839327872847153,BOT: message,Let's try this question.,2018-08-19 21:43:22
+1839327872847153,Nina,Tai,11502,854518728062939,1839327872847153,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-19 21:43:23
+1839327872847153,Nina,Tai,11503,854518728062939,1839327872847153,BOT: quick reply,"Although John F. Kennedy was known for his carefree flag football games, Gerald Ford should be _____ as our football president: he turned down offers to play for two National Football League teams in order to pursue a career in public service.",2018-08-19 21:43:24
+1839327872847153,Nina,Tai,11504,1839327872847153,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-19 21:43:34
+1839327872847153,Nina,Tai,11505,854518728062939,1839327872847153,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-08-19 21:43:35
+1839327872847153,Nina,Tai,11506,854518728062939,1839327872847153,BOT: quick reply,":keycap_1: abrogated
+:keycap_2: criticized
+:keycap_3: relegated
+:keycap_4: annulled
+:keycap_5: apotheosized
+",2018-08-19 21:43:37
+1839327872847153,Nina,Tai,11507,1839327872847153,854518728062939,user_quick_reply: BUTTON_DKB_criticized,:keycap_2:,2018-08-19 21:43:42
+1839327872847153,Nina,Tai,11508,854518728062939,1839327872847153,BOT: message,"Oops, that is not correct. :disappointed_face:",2018-08-19 21:43:43
+1839327872847153,Nina,Tai,11509,854518728062939,1839327872847153,BOT: quick reply,The correct answer is apotheosized.,2018-08-19 21:43:44
+1839327872847153,Nina,Tai,11510,1839327872847153,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-19 21:43:53
+1839327872847153,Nina,Tai,11511,854518728062939,1839327872847153,BOT: message,Let's try this one.,2018-08-19 21:43:54
+1839327872847153,Nina,Tai,11512,854518728062939,1839327872847153,BOT: quick reply,"Although John F. Kennedy was known for his carefree flag football games, Gerald Ford should be _____ as our football president: he turned down offers to play for two National Football League teams in order to pursue a career in public service.",2018-08-19 21:43:56
+1839327872847153,Nina,Tai,11513,1839327872847153,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-19 21:44:05
+1839327872847153,Nina,Tai,11514,854518728062939,1839327872847153,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-08-19 21:44:07
+1839327872847153,Nina,Tai,11515,854518728062939,1839327872847153,BOT: quick reply,":keycap_1: criticized
+:keycap_2: apotheosized
+:keycap_3: annulled
+:keycap_4: relegated
+:keycap_5: abrogated
+",2018-08-19 21:44:09
+1839327872847153,Nina,Tai,11516,1839327872847153,854518728062939,user_quick_reply: BUTTON_AKB_apotheosized,:keycap_2:,2018-08-19 21:44:20
+1839327872847153,Nina,Tai,11517,854518728062939,1839327872847153,BOT: message,Great job!,2018-08-19 21:44:21
+1839327872847153,Nina,Tai,11518,854518728062939,1839327872847153,BOT: quick reply,The correct answer is apotheosized.,2018-08-19 21:44:22
+1839327872847153,Nina,Tai,11519,1839327872847153,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-19 21:44:33
+1839327872847153,Nina,Tai,11520,854518728062939,1839327872847153,BOT: message,Let's see if you can answer this question.,2018-08-19 21:44:34
+1839327872847153,Nina,Tai,11521,854518728062939,1839327872847153,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-19 21:44:36
+1839327872847153,Nina,Tai,11522,854518728062939,1839327872847153,BOT: quick reply,"Although tranquilizers usually have a _____ effect, this is not always the case, especially when the abuse of these drugs results in a failure to induce the much-desired sleep.",2018-08-19 21:44:37
+1839327872847153,Nina,Tai,11523,1839327872847153,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-19 21:44:41
+1839327872847153,Nina,Tai,11524,854518728062939,1839327872847153,BOT: message,Which of the following options is the right answer?,2018-08-19 21:44:43
+1839327872847153,Nina,Tai,11525,854518728062939,1839327872847153,BOT: quick reply,":keycap_1: soporific
+:keycap_2: penetrating
+:keycap_3: sedulous
+:keycap_4: debilitating
+:keycap_5: coruscating
+",2018-08-19 21:44:44
+1839327872847153,Nina,Tai,11526,1839327872847153,854518728062939,user_quick_reply: BUTTON_AKB_soporific,:keycap_1:,2018-08-19 21:44:49
+1839327872847153,Nina,Tai,11527,854518728062939,1839327872847153,BOT: image,https://www.smartprimer.org:443/pictures/avatar/congrats/penguinnormal_jubilated_pink.png,2018-08-19 21:44:51
+1839327872847153,Nina,Tai,11528,854518728062939,1839327872847153,BOT: message,Nice! That was right!,2018-08-19 21:44:52
+1839327872847153,Nina,Tai,11529,854518728062939,1839327872847153,BOT: quick reply,The correct answer is soporific.,2018-08-19 21:44:54
+1839327872847153,Nina,Tai,11530,1839327872847153,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-19 21:45:04
+1839327872847153,Nina,Tai,11531,854518728062939,1839327872847153,BOT: message,"Alrighty, let's try this one.",2018-08-19 21:45:06
+1839327872847153,Nina,Tai,11532,854518728062939,1839327872847153,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-19 21:45:07
+1839327872847153,Nina,Tai,11533,854518728062939,1839327872847153,BOT: quick reply,"Certainly a roundabout narrative, the book - much like the others in the author's pseudo-autobiographical series - proved to be unpopular among those who preferred _____ to loquaciousness.",2018-08-19 21:45:08
+1839327872847153,Nina,Tai,11534,1839327872847153,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-19 21:45:20
+1839327872847153,Nina,Tai,11535,854518728062939,1839327872847153,BOT: message,It's one of the following choices.,2018-08-19 21:45:22
+1839327872847153,Nina,Tai,11536,854518728062939,1839327872847153,BOT: quick reply,":keycap_1: perspicacity
+:keycap_2: garrulousness
+:keycap_3: gregariousness
+:keycap_4: succinctness
+:keycap_5: enlargement
+",2018-08-19 21:45:23
+1839327872847153,Nina,Tai,11537,1839327872847153,854518728062939,user_quick_reply: BUTTON_DKB_garrulousness,:keycap_2:,2018-08-19 21:45:28
+1839327872847153,Nina,Tai,11538,854518728062939,1839327872847153,BOT: message,"Hmm, that wasn't quite right. :disappointed_face:",2018-08-19 21:45:30
+1839327872847153,Nina,Tai,11539,854518728062939,1839327872847153,BOT: quick reply,The correct answer is succinctness.,2018-08-19 21:45:31
+1839327872847153,Nina,Tai,11540,1839327872847153,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-19 21:45:38
+1839327872847153,Nina,Tai,11541,854518728062939,1839327872847153,BOT: message,Let's try this one.,2018-08-19 21:45:40
+1839327872847153,Nina,Tai,11542,854518728062939,1839327872847153,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-19 21:45:41
+1839327872847153,Nina,Tai,11543,854518728062939,1839327872847153,BOT: quick reply,"Although they stood with the congressman in a tenuous display of solidarity, the incensed commissioners could not conceal their _____ .",2018-08-19 21:45:42
+1839327872847153,Nina,Tai,11544,1839327872847153,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-19 21:45:48
+1839327872847153,Nina,Tai,11545,854518728062939,1839327872847153,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-08-19 21:45:49
+1839327872847153,Nina,Tai,11546,854518728062939,1839327872847153,BOT: quick reply,":keycap_1: rancor
+:keycap_2: camaraderie
+:keycap_3: facetiousness
+:keycap_4: adulation
+:keycap_5: hubris
+",2018-08-19 21:45:50
+1839327872847153,Nina,Tai,11547,1839327872847153,854518728062939,user_quick_reply: BUTTON_AKB_rancor,:keycap_1:,2018-08-19 21:45:56
+1839327872847153,Nina,Tai,11548,854518728062939,1839327872847153,BOT: message,Nice! That was right!,2018-08-19 21:45:57
+1839327872847153,Nina,Tai,11549,854518728062939,1839327872847153,BOT: quick reply,The correct answer is rancor.,2018-08-19 21:45:59
+1839327872847153,Nina,Tai,11550,1839327872847153,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-19 21:46:07
+1839327872847153,Nina,Tai,11551,854518728062939,1839327872847153,BOT: message,I think you'll like this question.,2018-08-19 21:46:08
+1839327872847153,Nina,Tai,11552,854518728062939,1839327872847153,BOT: quick reply,"Despite the smile that spread from ear to ear, the eyes relayed a certain _____ .",2018-08-19 21:46:10
+1839327872847153,Nina,Tai,11553,1839327872847153,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-19 21:46:17
+1839327872847153,Nina,Tai,11554,854518728062939,1839327872847153,BOT: message,It's one of the following choices.,2018-08-19 21:46:20
+1839327872847153,Nina,Tai,11555,854518728062939,1839327872847153,BOT: quick reply,":keycap_1: liveliness
+:keycap_2: vision
+:keycap_3: sorrow
+:keycap_4: jubilance
+:keycap_5: mischievousness
+",2018-08-19 21:46:21
+1839327872847153,Nina,Tai,11556,1839327872847153,854518728062939,user_quick_reply: BUTTON_DKB_mischievousness,:keycap_5:,2018-08-19 21:46:26
+1839327872847153,Nina,Tai,11557,854518728062939,1839327872847153,BOT: message,"Oops, that wasn't quite correct. :disappointed_face:",2018-08-19 21:46:27
+1839327872847153,Nina,Tai,11558,854518728062939,1839327872847153,BOT: quick reply,The correct answer is sorrow.,2018-08-19 21:46:29
+1839327872847153,Nina,Tai,11863,854518728062939,1839327872847153,BOT: quick reply,"Hi Nina, you haven't talked to me for a while. Would you like to resume the learning with me?",2018-08-20 20:00:44
+1839327872847153,Nina,Tai,12117,854518728062939,1839327872847153,BOT: message,I think you'll like this question.,2018-08-20 20:32:07
+1839327872847153,Nina,Tai,12118,854518728062939,1839327872847153,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-20 20:32:09
+1839327872847153,Nina,Tai,12119,854518728062939,1839327872847153,BOT: quick reply,"Having squandered his life's savings on unprofitable business ventures, the _____ entrepreneur was forced to live in squalor.",2018-08-20 20:32:10
+1839327872847153,Nina,Tai,12120,1839327872847153,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-20 20:32:14
+1839327872847153,Nina,Tai,12121,854518728062939,1839327872847153,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-08-20 20:32:16
+1839327872847153,Nina,Tai,12122,854518728062939,1839327872847153,BOT: quick reply,":keycap_1: perturbed
+:keycap_2: eccentric
+:keycap_3: insolvent
+:keycap_4: unlikely
+:keycap_5: former
+",2018-08-20 20:32:17
+1839327872847153,Nina,Tai,12123,1839327872847153,854518728062939,user_quick_reply: BUTTON_DKB_eccentric,:keycap_2:,2018-08-20 20:32:21
+1839327872847153,Nina,Tai,12124,854518728062939,1839327872847153,BOT: message,That's not quite right. :disappointed_face:,2018-08-20 20:32:22
+1839327872847153,Nina,Tai,12125,854518728062939,1839327872847153,BOT: quick reply,The correct answer is insolvent.,2018-08-20 20:32:24
+1839327872847153,Nina,Tai,12126,1839327872847153,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-20 20:44:07
+1839327872847153,Nina,Tai,12127,854518728062939,1839327872847153,BOT: message,Let's try this one.,2018-08-20 20:44:08
+1839327872847153,Nina,Tai,12128,854518728062939,1839327872847153,BOT: quick reply,"Although John F. Kennedy was known for his carefree flag football games, Gerald Ford should be _____ as our football president: he turned down offers to play for two National Football League teams in order to pursue a career in public service.",2018-08-20 20:44:09
+1839327872847153,Nina,Tai,12129,1839327872847153,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-20 20:44:14
+1839327872847153,Nina,Tai,12130,854518728062939,1839327872847153,BOT: message,It's one of the following choices.,2018-08-20 20:44:15
+1839327872847153,Nina,Tai,12131,854518728062939,1839327872847153,BOT: quick reply,":keycap_1: apotheosized
+:keycap_2: abrogated
+:keycap_3: criticized
+:keycap_4: relegated
+:keycap_5: annulled
+",2018-08-20 20:44:16
+1839327872847153,Nina,Tai,12132,1839327872847153,854518728062939,user_quick_reply: BUTTON_DKB_abrogated,:keycap_2:,2018-08-20 20:44:20
+1839327872847153,Nina,Tai,12133,854518728062939,1839327872847153,BOT: message,"Hmm, that wasn't quite right. :disappointed_face:",2018-08-20 20:44:22
+1839327872847153,Nina,Tai,12134,854518728062939,1839327872847153,BOT: quick reply,The correct answer is apotheosized.,2018-08-20 20:44:23
+1839327872847153,Nina,Tai,12135,1839327872847153,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-20 20:44:27
+1839327872847153,Nina,Tai,12136,854518728062939,1839327872847153,BOT: message,Would you answer this question for me?,2018-08-20 20:44:29
+1839327872847153,Nina,Tai,12137,854518728062939,1839327872847153,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-20 20:44:30
+1839327872847153,Nina,Tai,12138,854518728062939,1839327872847153,BOT: quick reply,"Students may consider modernist works such as James Joyce's Finnegan's Wake to be more _____ than Victorian prose: Victorian narratives are linear and predictable, while Joyce's tortuous plots are fragmented and fickle, and they confound the reader.",2018-08-20 20:44:32
+1839327872847153,Nina,Tai,12139,1839327872847153,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-20 20:44:36
+1839327872847153,Nina,Tai,12140,854518728062939,1839327872847153,BOT: message,Okay. I'll give you some choices.,2018-08-20 20:44:37
+1839327872847153,Nina,Tai,12141,854518728062939,1839327872847153,BOT: quick reply,":keycap_1: panegyric
+:keycap_2: elegiac
+:keycap_3: banal
+:keycap_4: recondite
+:keycap_5: mundane
+",2018-08-20 20:44:39
+1839327872847153,Nina,Tai,12142,1839327872847153,854518728062939,user_quick_reply: BUTTON_DKB_elegiac,:keycap_2:,2018-08-20 20:44:46
+1839327872847153,Nina,Tai,12143,854518728062939,1839327872847153,BOT: message,"Oops, that is not correct. :disappointed_face:",2018-08-20 20:44:48
+1839327872847153,Nina,Tai,12144,854518728062939,1839327872847153,BOT: quick reply,The correct answer is recondite.,2018-08-20 20:44:49
+1839327872847153,Nina,Tai,12145,1839327872847153,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-20 20:44:54
+1839327872847153,Nina,Tai,12146,854518728062939,1839327872847153,BOT: message,Would you answer this question for me?,2018-08-20 20:44:55
+1839327872847153,Nina,Tai,12147,854518728062939,1839327872847153,BOT: quick reply,"Dolly Madison, the wife of President James Madison, was known especially for her _____ , remaining calm even as the British invaded Washington D.C. during the War of 1812.",2018-08-20 20:44:57
+1839327872847153,Nina,Tai,12148,1839327872847153,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-20 20:45:00
+1839327872847153,Nina,Tai,12149,854518728062939,1839327872847153,BOT: message,Okay. I'll give you some choices.,2018-08-20 20:45:02
+1839327872847153,Nina,Tai,12150,854518728062939,1839327872847153,BOT: quick reply,":keycap_1: zeal
+:keycap_2: equanimity
+:keycap_3: cynicism
+:keycap_4: malevolence
+:keycap_5: impracticality
+",2018-08-20 20:45:03
+1839327872847153,Nina,Tai,12151,1839327872847153,854518728062939,user_quick_reply: BUTTON_AKB_equanimity,:keycap_2:,2018-08-20 20:45:10
+1839327872847153,Nina,Tai,12152,854518728062939,1839327872847153,BOT: image,https://www.smartprimer.org:443/pictures/avatar/celebration.gif,2018-08-20 20:45:16
+1839327872847153,Nina,Tai,12153,854518728062939,1839327872847153,BOT: message,Yes! You got the correct answer!,2018-08-20 20:45:17
+1839327872847153,Nina,Tai,12154,854518728062939,1839327872847153,BOT: quick reply,The correct answer is equanimity.,2018-08-20 20:45:18
+1839327872847153,Nina,Tai,12155,1839327872847153,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-20 20:45:23
+1839327872847153,Nina,Tai,12156,854518728062939,1839327872847153,BOT: message,"Alrighty, let's try this one.",2018-08-20 20:45:24
+1839327872847153,Nina,Tai,12157,854518728062939,1839327872847153,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-20 20:45:26
+1839327872847153,Nina,Tai,12158,854518728062939,1839327872847153,BOT: quick reply,Voters have become so inured to the fickle nature of politicians that they responded to the levy of a new tax with _____ .,2018-08-20 20:45:27
+1839327872847153,Nina,Tai,12159,1839327872847153,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-20 20:47:47
+1839327872847153,Nina,Tai,12160,854518728062939,1839327872847153,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-08-20 20:47:48
+1839327872847153,Nina,Tai,12161,854518728062939,1839327872847153,BOT: quick reply,":keycap_1: exasperation
+:keycap_2: alarm
+:keycap_3: stolidity
+:keycap_4: perplexity
+:keycap_5: amazement
+",2018-08-20 20:47:50
+1839327872847153,Nina,Tai,12162,1839327872847153,854518728062939,user_quick_reply: BUTTON_DKB_alarm,:keycap_2:,2018-08-20 20:47:54
+1839327872847153,Nina,Tai,12163,854518728062939,1839327872847153,BOT: message,"I'm sorry, but that was incorrect. :disappointed_face:",2018-08-20 20:47:55
+1839327872847153,Nina,Tai,12164,854518728062939,1839327872847153,BOT: quick reply,The correct answer is stolidity.,2018-08-20 20:47:57
+1839327872847153,Nina,Tai,12165,1839327872847153,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-20 20:48:02
+1839327872847153,Nina,Tai,12166,854518728062939,1839327872847153,BOT: message,What about this next question:,2018-08-20 20:48:03
+1839327872847153,Nina,Tai,12167,854518728062939,1839327872847153,BOT: quick reply,"Ancient generals, lacking modern technologies such as radio and satellite communication, often found that one of the most significant challenges in warfare was accurate _____ of the myriad of changes on the battlefield or in the campaign.",2018-08-20 20:48:05
+1839327872847153,Nina,Tai,12168,1839327872847153,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-20 20:48:13
+1839327872847153,Nina,Tai,12169,854518728062939,1839327872847153,BOT: message,Which of the following options is the right answer?,2018-08-20 20:48:15
+1839327872847153,Nina,Tai,12170,854518728062939,1839327872847153,BOT: quick reply,":keycap_1: adumbration
+:keycap_2: adulteration
+:keycap_3: fortification
+:keycap_4: accretion
+:keycap_5: appraisal
+",2018-08-20 20:48:16
+1839327872847153,Nina,Tai,12171,1839327872847153,854518728062939,user_quick_reply: BUTTON_AKB_appraisal,:keycap_5:,2018-08-20 20:48:22
+1839327872847153,Nina,Tai,12172,854518728062939,1839327872847153,BOT: message,Great job getting the correct answer!,2018-08-20 20:48:24
+1839327872847153,Nina,Tai,12173,854518728062939,1839327872847153,BOT: quick reply,The correct answer is appraisal.,2018-08-20 20:48:25
+1839327872847153,Nina,Tai,12174,1839327872847153,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-20 20:48:30
+1839327872847153,Nina,Tai,12175,854518728062939,1839327872847153,BOT: message,Here's a question for you:,2018-08-20 20:48:32
+1839327872847153,Nina,Tai,12176,854518728062939,1839327872847153,BOT: quick reply,Pundits do not believe that the sporadic calls for her ouster-outcries spurred by both her unusual lifestyle and social policies-have compelled the monarch to seriously consider _____ .,2018-08-20 20:48:33
+1839327872847153,Nina,Tai,12177,1839327872847153,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-20 20:48:37
+1839327872847153,Nina,Tai,12178,854518728062939,1839327872847153,BOT: message,It's one of the following choices.,2018-08-20 20:48:39
+1839327872847153,Nina,Tai,12179,854518728062939,1839327872847153,BOT: quick reply,":keycap_1: asceticism
+:keycap_2: misanthropy
+:keycap_3: castigation
+:keycap_4: vacillation
+:keycap_5: abnegation
+",2018-08-20 20:48:40
+1839327872847153,Nina,Tai,12180,1839327872847153,854518728062939,user_quick_reply: BUTTON_DKB_vacillation,:keycap_4:,2018-08-20 20:48:48
+1839327872847153,Nina,Tai,12181,854518728062939,1839327872847153,BOT: message,"Oops, that wasn't quite correct. :disappointed_face:",2018-08-20 20:48:49
+1839327872847153,Nina,Tai,12182,854518728062939,1839327872847153,BOT: quick reply,The correct answer is abnegation.,2018-08-20 20:48:51
+1839327872847153,Nina,Tai,12183,1839327872847153,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-20 20:48:57
+1839327872847153,Nina,Tai,12184,854518728062939,1839327872847153,BOT: message,What about this next question:,2018-08-20 20:48:58
+1839327872847153,Nina,Tai,12185,854518728062939,1839327872847153,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-20 20:49:00
+1839327872847153,Nina,Tai,12186,854518728062939,1839327872847153,BOT: quick reply,"Although John F. Kennedy was known for his carefree flag football games, Gerald Ford should be _____ as our football president: he turned down offers to play for two National Football League teams in order to pursue a career in public service.",2018-08-20 20:49:01
+1839327872847153,Nina,Tai,12187,1839327872847153,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-20 20:49:06
+1839327872847153,Nina,Tai,12188,854518728062939,1839327872847153,BOT: message,Pick one of the following answers.,2018-08-20 20:49:07
+1839327872847153,Nina,Tai,12189,854518728062939,1839327872847153,BOT: quick reply,":keycap_1: relegated
+:keycap_2: criticized
+:keycap_3: apotheosized
+:keycap_4: abrogated
+:keycap_5: annulled
+",2018-08-20 20:49:09
+1839327872847153,Nina,Tai,12190,1839327872847153,854518728062939,user_quick_reply: BUTTON_AKB_apotheosized,:keycap_3:,2018-08-20 20:49:15
+1839327872847153,Nina,Tai,12191,854518728062939,1839327872847153,BOT: message,Great job!,2018-08-20 20:49:16
+1839327872847153,Nina,Tai,12192,854518728062939,1839327872847153,BOT: quick reply,The correct answer is apotheosized.,2018-08-20 20:49:18
+1839327872847153,Nina,Tai,12193,1839327872847153,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-20 20:49:26
+1839327872847153,Nina,Tai,12194,854518728062939,1839327872847153,BOT: message,Let's try this question.,2018-08-20 20:49:27
+1839327872847153,Nina,Tai,12195,854518728062939,1839327872847153,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-20 20:49:29
+1839327872847153,Nina,Tai,12196,854518728062939,1839327872847153,BOT: quick reply,"Ironically, the myth of Martin Van Buren's _____ was due largely to circumstances that had little to do with Van Buren himself; in reality, of all the U.S. presidents since Andrew Jackson, Van Buren exceeded the average in education, intellect, and experience.",2018-08-20 20:49:30
+1839327872847153,Nina,Tai,12197,1839327872847153,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-20 20:49:40
+1839327872847153,Nina,Tai,12198,854518728062939,1839327872847153,BOT: message,It's one of the following choices.,2018-08-20 20:49:41
+1839327872847153,Nina,Tai,12199,854518728062939,1839327872847153,BOT: quick reply,":keycap_1: aptitude
+:keycap_2: stoicism
+:keycap_3: profundity
+:keycap_4: malleability
+:keycap_5: mediocrity
+",2018-08-20 20:49:42
+1839327872847153,Nina,Tai,12200,1839327872847153,854518728062939,user_quick_reply: BUTTON_DKB_aptitude,:keycap_1:,2018-08-20 20:49:47
+1839327872847153,Nina,Tai,12201,854518728062939,1839327872847153,BOT: message,"Oops, that wasn't quite correct. :disappointed_face:",2018-08-20 20:49:48
+1839327872847153,Nina,Tai,12202,854518728062939,1839327872847153,BOT: quick reply,The correct answer is mediocrity.,2018-08-20 20:49:50
+1839327872847153,Nina,Tai,12203,1839327872847153,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-20 20:49:57
+1839327872847153,Nina,Tai,12204,854518728062939,1839327872847153,BOT: message,I think you'll like this question.,2018-08-20 20:49:59
+1839327872847153,Nina,Tai,12205,854518728062939,1839327872847153,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-20 20:50:00
+1839327872847153,Nina,Tai,12206,854518728062939,1839327872847153,BOT: quick reply,"Even though legislators claimed the Contagious Diseases Acts strengthened the nation, social purists argued the Acts _____ the nation's moral growth by encouraging licentious behavior.",2018-08-20 20:50:02
+1839327872847153,Nina,Tai,12207,1839327872847153,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-20 20:50:09
+1839327872847153,Nina,Tai,12208,854518728062939,1839327872847153,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-08-20 20:50:10
+1839327872847153,Nina,Tai,12209,854518728062939,1839327872847153,BOT: quick reply,":keycap_1: ameliorated
+:keycap_2: supplanted
+:keycap_3: advanced
+:keycap_4: enhanced
+:keycap_5: hampered
+",2018-08-20 20:50:12
+1839327872847153,Nina,Tai,12210,1839327872847153,854518728062939,user_quick_reply: BUTTON_AKB_hampered,:keycap_5:,2018-08-20 20:50:16
+1839327872847153,Nina,Tai,12211,854518728062939,1839327872847153,BOT: image,https://www.smartprimer.org:443/pictures/avatar/congrats/penguinnormal_happy_purple.png,2018-08-20 20:50:19
+1839327872847153,Nina,Tai,12212,854518728062939,1839327872847153,BOT: message,Great job!,2018-08-20 20:50:21
+1839327872847153,Nina,Tai,12213,854518728062939,1839327872847153,BOT: quick reply,The correct answer is hampered.,2018-08-20 20:50:22
+1839327872847153,Nina,Tai,12214,1839327872847153,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-20 20:50:27
+1839327872847153,Nina,Tai,12215,854518728062939,1839327872847153,BOT: message,Let's see if you can get this one.,2018-08-20 20:50:29
+1839327872847153,Nina,Tai,12216,854518728062939,1839327872847153,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-20 20:50:30
+1839327872847153,Nina,Tai,12217,854518728062939,1839327872847153,BOT: quick reply,"Having squandered his life's savings on unprofitable business ventures, the _____ entrepreneur was forced to live in squalor.",2018-08-20 20:50:32
+1839327872847153,Nina,Tai,12218,1839327872847153,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-20 20:50:36
+1839327872847153,Nina,Tai,12219,854518728062939,1839327872847153,BOT: message,Okay. I'll give you some choices.,2018-08-20 20:50:38
+1839327872847153,Nina,Tai,12220,854518728062939,1839327872847153,BOT: quick reply,":keycap_1: insolvent
+:keycap_2: perturbed
+:keycap_3: former
+:keycap_4: unlikely
+:keycap_5: eccentric
+",2018-08-20 20:50:39
+1839327872847153,Nina,Tai,12221,1839327872847153,854518728062939,user_quick_reply: BUTTON_AKB_insolvent,:keycap_1:,2018-08-20 20:50:47
+1839327872847153,Nina,Tai,12222,854518728062939,1839327872847153,BOT: image,https://www.smartprimer.org:443/pictures/avatar/congrats/penguinnormal_normal_cyan.png,2018-08-20 20:50:50
+1839327872847153,Nina,Tai,12223,854518728062939,1839327872847153,BOT: message,Nice work! Keep it up!,2018-08-20 20:50:51
+1839327872847153,Nina,Tai,12224,854518728062939,1839327872847153,BOT: quick reply,The correct answer is insolvent.,2018-08-20 20:50:53
+1839327872847153,Nina,Tai,12225,1839327872847153,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-20 20:50:59
+1839327872847153,Nina,Tai,12226,854518728062939,1839327872847153,BOT: message,Let's see if you can get this one.,2018-08-20 20:51:00
+1839327872847153,Nina,Tai,12227,854518728062939,1839327872847153,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-20 20:51:02
+1839327872847153,Nina,Tai,12228,854518728062939,1839327872847153,BOT: quick reply,"Despite the smile that spread from ear to ear, the eyes relayed a certain _____ .",2018-08-20 20:51:03
+1839327872847153,Nina,Tai,12229,1839327872847153,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-20 20:54:28
+1839327872847153,Nina,Tai,12230,854518728062939,1839327872847153,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-08-20 20:54:30
+1839327872847153,Nina,Tai,12231,854518728062939,1839327872847153,BOT: quick reply,":keycap_1: sorrow
+:keycap_2: vision
+:keycap_3: jubilance
+:keycap_4: liveliness
+:keycap_5: mischievousness
+",2018-08-20 20:54:32
+1839327872847153,Nina,Tai,12232,1839327872847153,854518728062939,user_quick_reply: BUTTON_DKB_mischievousness,:keycap_5:,2018-08-20 20:55:41
+1839327872847153,Nina,Tai,12233,854518728062939,1839327872847153,BOT: message,"Oops, that is not correct. :disappointed_face:",2018-08-20 20:55:43
+1839327872847153,Nina,Tai,12234,854518728062939,1839327872847153,BOT: quick reply,The correct answer is sorrow.,2018-08-20 20:55:44
+1839327872847153,Nina,Tai,12235,1839327872847153,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-20 20:56:04
+1839327872847153,Nina,Tai,12236,854518728062939,1839327872847153,BOT: message,I think you'll like this question.,2018-08-20 20:56:05
+1839327872847153,Nina,Tai,12237,854518728062939,1839327872847153,BOT: quick reply,"Despite what _____ philosophies of child-rearing suggest, there is no imperative that the day-to-day action of raising a child be simple, unambiguous and unchanging-no requirement, in other words, ensures that life follow philosophy.",2018-08-20 20:56:08
+1839327872847153,Nina,Tai,12238,1839327872847153,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-20 20:56:41
+1839327872847153,Nina,Tai,12239,854518728062939,1839327872847153,BOT: message,Which of the following options is the right answer?,2018-08-20 20:56:42
+1839327872847153,Nina,Tai,12240,854518728062939,1839327872847153,BOT: quick reply,":keycap_1: random
+:keycap_2: aggressive
+:keycap_3: inexact
+:keycap_4: shameless
+:keycap_5: systematic
+",2018-08-20 20:56:44
+1839327872847153,Nina,Tai,12241,1839327872847153,854518728062939,user_quick_reply: BUTTON_DKB_random,:keycap_1:,2018-08-20 20:56:48
+1839327872847153,Nina,Tai,12242,854518728062939,1839327872847153,BOT: message,That's not quite right. :disappointed_face:,2018-08-20 20:56:49
+1839327872847153,Nina,Tai,12243,854518728062939,1839327872847153,BOT: quick reply,The correct answer is systematic.,2018-08-20 20:56:51
+1839327872847153,Nina,Tai,12244,1839327872847153,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-20 20:57:04
+1839327872847153,Nina,Tai,12245,854518728062939,1839327872847153,BOT: message,Let's take a look at this question.,2018-08-20 20:57:05
+1839327872847153,Nina,Tai,12246,854518728062939,1839327872847153,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-20 20:57:07
+1839327872847153,Nina,Tai,12247,854518728062939,1839327872847153,BOT: quick reply,Seth was extremely _____ and did not enjoy activities that required effort to meet new people.,2018-08-20 20:57:08
+1839327872847153,Nina,Tai,12248,1839327872847153,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-20 20:57:21
+1839327872847153,Nina,Tai,12249,854518728062939,1839327872847153,BOT: message,Which of the following options is the right answer?,2018-08-20 20:57:22
+1839327872847153,Nina,Tai,12250,854518728062939,1839327872847153,BOT: quick reply,":keycap_1: jaded
+:keycap_2: extroverted
+:keycap_3: introverted
+:keycap_4: gregarious
+:keycap_5: lackluster
+",2018-08-20 20:57:24
+1839327872847153,Nina,Tai,12251,1839327872847153,854518728062939,user_quick_reply: BUTTON_AKB_introverted,:keycap_3:,2018-08-20 20:57:28
+1839327872847153,Nina,Tai,12252,854518728062939,1839327872847153,BOT: image,https://www.smartprimer.org:443/pictures/avatar/celebration.gif,2018-08-20 20:57:34
+1839327872847153,Nina,Tai,12253,854518728062939,1839327872847153,BOT: message,Great job getting the correct answer!,2018-08-20 20:57:35
+1839327872847153,Nina,Tai,12254,854518728062939,1839327872847153,BOT: quick reply,The correct answer is introverted.,2018-08-20 20:57:37
+1839327872847153,Nina,Tai,12255,1839327872847153,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-20 20:57:43
+1839327872847153,Nina,Tai,12256,854518728062939,1839327872847153,BOT: message,Let's take a look at this question.,2018-08-20 20:57:45
+1839327872847153,Nina,Tai,12257,854518728062939,1839327872847153,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-20 20:57:46
+1839327872847153,Nina,Tai,12258,854518728062939,1839327872847153,BOT: quick reply,The Erie Canal's completion caused _____ economic ripples; property values and industrial output along its route rose exponentially.,2018-08-20 20:57:48
+1839327872847153,Nina,Tai,12259,1839327872847153,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-20 20:57:57
+1839327872847153,Nina,Tai,12260,854518728062939,1839327872847153,BOT: message,It's one of the following choices.,2018-08-20 20:57:58
+1839327872847153,Nina,Tai,12261,854518728062939,1839327872847153,BOT: quick reply,":keycap_1: prodigious
+:keycap_2: incredulous
+:keycap_3: persistent
+:keycap_4: invaluable
+:keycap_5: severe
+",2018-08-20 20:58:00
+1839327872847153,Nina,Tai,12425,854518728062939,1839327872847153,BOT: quick reply,"Hi Nina, you haven't talked to me for a while. Would you like to resume the learning with me?",2018-08-21 20:01:18

@@ -1,1 +1,679 @@
 user_id,user_firstname,user_lastname,uid,sender,recipient,type,dialogue,time_stamp
+2374373169254345,Yi,Feng,8137,2374373169254345,854518728062939,persistent_menu: GET_INTRO_1,Get Started,2018-08-14 10:05:11
+2374373169254345,Yi,Feng,8138,854518728062939,2374373169254345,BOT: image,https://www.smartprimer.org:443/pictures/avatar/quizbot_avatar.png,2018-08-14 10:05:15
+2374373169254345,Yi,Feng,8139,854518728062939,2374373169254345,BOT: quick reply,"Hi Yi! My name is Frosty :penguin: and Im here to help you learn all about science:microscope:, verbal reasoning (GRE) :input_latin_uppercase:, and safety:hammer_and_wrench:!",2018-08-14 10:05:17
+2374373169254345,Yi,Feng,8140,2374373169254345,854518728062939,user_quick_reply: GET_INTRO_2,Next :white_heavy_check_mark:,2018-08-14 10:05:26
+2374373169254345,Yi,Feng,8141,854518728062939,2374373169254345,BOT: message,Heres how it works.,2018-08-14 10:05:28
+2374373169254345,Yi,Feng,8142,854518728062939,2374373169254345,BOT: message,"I ask you questions, and you give me answers.",2018-08-14 10:05:30
+2374373169254345,Yi,Feng,8143,854518728062939,2374373169254345,BOT: quick reply,We will learn fun things together!,2018-08-14 10:05:32
+2374373169254345,Yi,Feng,8144,2374373169254345,854518728062939,user_quick_reply: GET_INTRO_3,Continue :raising_hands_medium-light_skin_tone:,2018-08-14 10:18:26
+2374373169254345,Yi,Feng,8145,854518728062939,2374373169254345,BOT: image,https://www.smartprimer.org:443/pictures/user_manual/typeanswer.png,2018-08-14 10:18:29
+2374373169254345,Yi,Feng,8146,854518728062939,2374373169254345,BOT: quick reply,"To study the questions, you can type in your answers in the text field and I will evaluate the answers for you using advanced NLP (Natural Language Processing) technology.",2018-08-14 10:18:31
+2374373169254345,Yi,Feng,8147,2374373169254345,854518728062939,user_quick_reply: GET_INTRO_4,Got it :collision:,2018-08-14 10:18:37
+2374373169254345,Yi,Feng,8148,854518728062939,2374373169254345,BOT: image,https://www.smartprimer.org:443/pictures/user_manual/needhintbutton.png,2018-08-14 10:18:41
+2374373169254345,Yi,Feng,8149,854518728062939,2374373169254345,BOT: quick reply,"If you don't know the answers, then feel free to tap on the hint button.",2018-08-14 10:18:42
+2374373169254345,Yi,Feng,8150,2374373169254345,854518728062939,user_quick_reply: GET_INTRO_5,Next :backhand_index_pointing_right_medium-light_skin_tone:,2018-08-14 10:19:00
+2374373169254345,Yi,Feng,8151,854518728062939,2374373169254345,BOT: image,https://www.smartprimer.org:443/pictures/user_manual/hintoptions.png,2018-08-14 10:19:04
+2374373169254345,Yi,Feng,8152,854518728062939,2374373169254345,BOT: quick reply,The hint will give you a list of potential answers and you can select one from them.,2018-08-14 10:19:05
+2374373169254345,Yi,Feng,8153,2374373169254345,854518728062939,user_quick_reply: GET_INTRO_6,Tap me :clapping_hands_medium-light_skin_tone:,2018-08-14 10:19:23
+2374373169254345,Yi,Feng,8154,854518728062939,2374373169254345,BOT: image,https://www.smartprimer.org:443/pictures/user_manual/menubutton.jpg,2018-08-14 10:19:26
+2374373169254345,Yi,Feng,8155,854518728062939,2374373169254345,BOT: quick reply,"To discover more abilities of me, you can click on the menu button.:backhand_index_pointing_up_medium-light_skin_tone:",2018-08-14 10:19:28
+2374373169254345,Yi,Feng,8156,2374373169254345,854518728062939,user_quick_reply: GET_READY,I see :white_heavy_check_mark:,2018-08-14 10:19:32
+2374373169254345,Yi,Feng,8157,854518728062939,2374373169254345,BOT: message,I hope you enjoy the learning journey! :hundred_points:,2018-08-14 10:19:34
+2374373169254345,Yi,Feng,8158,854518728062939,2374373169254345,BOT: quick reply,"So, are you ready?",2018-08-14 10:19:36
+2374373169254345,Yi,Feng,8159,2374373169254345,854518728062939,user_quick_reply: YUP_IM_READY,Yup! I'm ready! :raised_fist_medium-light_skin_tone:,2018-08-14 10:19:39
+2374373169254345,Yi,Feng,8160,854518728062939,2374373169254345,BOT: message,Great!,2018-08-14 10:19:40
+2374373169254345,Yi,Feng,8161,854518728062939,2374373169254345,BOT: quick reply,Lets get started :rocket:,2018-08-14 10:19:42
+2374373169254345,Yi,Feng,8162,2374373169254345,854518728062939,user_quick_reply: SWITCH_SUBJECT,Quiz me :nerd_face:,2018-08-14 10:19:45
+2374373169254345,Yi,Feng,8163,854518728062939,2374373169254345,BOT: quick reply,"Okay, which subject would you like to choose?:backhand_index_pointing_down_medium-light_skin_tone:",2018-08-14 10:19:46
+2374373169254345,Yi,Feng,8164,2374373169254345,854518728062939,user_quick_reply: GRE,GRE :input_latin_uppercase:,2018-08-14 10:19:51
+2374373169254345,Yi,Feng,8165,854518728062939,2374373169254345,BOT: quick reply,Cool! Here's some questions on the GRE!,2018-08-14 10:19:52
+2374373169254345,Yi,Feng,8166,854518728062939,2374373169254345,BOT: message,How about this next one:,2018-08-14 10:19:58
+2374373169254345,Yi,Feng,8167,854518728062939,2374373169254345,BOT: quick reply,"Video game enthusiasts know that, while the astounding advances in technological innovation might increase the level of fun of the gaming experience, such a result is by no means _____ .",2018-08-14 10:19:59
+2374373169254345,Yi,Feng,8168,2374373169254345,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-14 10:20:11
+2374373169254345,Yi,Feng,8169,854518728062939,2374373169254345,BOT: message,Pick one of the following answers.,2018-08-14 10:20:13
+2374373169254345,Yi,Feng,8170,854518728062939,2374373169254345,BOT: quick reply,":keycap_1: ineluctable
+:keycap_2: seminal
+:keycap_3: desultory
+:keycap_4: endemic
+:keycap_5: salient
+",2018-08-14 10:20:15
+2374373169254345,Yi,Feng,8171,2374373169254345,854518728062939,user_quick_reply: I_DONT_KNOW,I dont know :downcast_face_with_sweat:,2018-08-14 10:20:19
+2374373169254345,Yi,Feng,8172,854518728062939,2374373169254345,BOT: quick reply,Are you sure you want to skip answering?,2018-08-14 10:20:21
+2374373169254345,Yi,Feng,8173,2374373169254345,854518728062939,user_quick_reply: GIVEUP_YES,"Yes, answer please.",2018-08-14 10:20:24
+2374373169254345,Yi,Feng,8174,854518728062939,2374373169254345,BOT: message,"I'm sorry, you didn't get the question right this time.",2018-08-14 10:20:26
+2374373169254345,Yi,Feng,8175,854518728062939,2374373169254345,BOT: message,No worries! You'll get it next time! :grinning_face_with_smiling_eyes:,2018-08-14 10:20:28
+2374373169254345,Yi,Feng,8176,854518728062939,2374373169254345,BOT: quick reply,The correct answer is ineluctable.,2018-08-14 10:20:29
+2374373169254345,Yi,Feng,8177,2374373169254345,854518728062939,user_quick_reply: WHY,Why?,2018-08-14 10:23:53
+2374373169254345,Yi,Feng,8178,854518728062939,2374373169254345,BOT: message,This is why:,2018-08-14 10:23:55
+2374373169254345,Yi,Feng,8179,854518728062939,2374373169254345,BOT: quick reply,":pushpin: Ineluctable -- impossible to avoid or evade
+:pushpin: Desultory -- marked by lack of definite plan or regularity or purpose; jumping from one thing to another
+:pushpin: Endemic -- of or relating to a disease
+:pushpin: Salient -- having a quality that thrusts itself into attention
+:pushpin: Seminal -- having possibilities of future development",2018-08-14 10:23:57
+2374373169254345,Yi,Feng,8180,2374373169254345,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-14 11:50:48
+2374373169254345,Yi,Feng,8181,854518728062939,2374373169254345,BOT: message,Let's try this question.,2018-08-14 11:50:50
+2374373169254345,Yi,Feng,8182,854518728062939,2374373169254345,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-14 11:50:52
+2374373169254345,Yi,Feng,8183,854518728062939,2374373169254345,BOT: quick reply,"Having squandered his life's savings on unprofitable business ventures, the _____ entrepreneur was forced to live in squalor.",2018-08-14 11:50:54
+2374373169254345,Yi,Feng,8184,2374373169254345,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-14 11:51:30
+2374373169254345,Yi,Feng,8185,854518728062939,2374373169254345,BOT: message,It's one of the following choices.,2018-08-14 11:51:32
+2374373169254345,Yi,Feng,8186,854518728062939,2374373169254345,BOT: quick reply,":keycap_1: eccentric
+:keycap_2: former
+:keycap_3: unlikely
+:keycap_4: insolvent
+:keycap_5: perturbed
+",2018-08-14 11:51:33
+2374373169254345,Yi,Feng,8187,2374373169254345,854518728062939,user_quick_reply: BUTTON_AKB_insolvent,:keycap_4:,2018-08-14 11:51:50
+2374373169254345,Yi,Feng,8188,854518728062939,2374373169254345,BOT: message,Great job!,2018-08-14 11:51:51
+2374373169254345,Yi,Feng,8189,854518728062939,2374373169254345,BOT: quick reply,The correct answer is insolvent.,2018-08-14 11:51:53
+2374373169254345,Yi,Feng,8190,2374373169254345,854518728062939,user_quick_reply: WHY,Why?,2018-08-14 11:51:57
+2374373169254345,Yi,Feng,8191,854518728062939,2374373169254345,BOT: message,This is why:,2018-08-14 11:51:59
+2374373169254345,Yi,Feng,8192,854518728062939,2374373169254345,BOT: quick reply,":pushpin: Insolvent -- unable to meet or discharge financial obligations
+:pushpin: Former -- preceding in time; prior or earlier
+:pushpin: Unlikely -- not likely to be true or to occur or to have occurred
+:pushpin: Perturbed -- thrown into a state of agitated confusion
+:pushpin: Eccentric -- conspicuously or grossly unconventional or unusual",2018-08-14 11:52:00
+2374373169254345,Yi,Feng,8426,854518728062939,2374373169254345,BOT: quick reply,"Hi Yi, you haven't talked to me for a while. Would you like to resume the learning with me?",2018-08-14 20:01:59
+2374373169254345,Yi,Feng,8433,854518728062939,2374373169254345,BOT: message,Let's see if you would answer this one.,2018-08-14 20:47:53
+2374373169254345,Yi,Feng,8434,854518728062939,2374373169254345,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-14 20:47:54
+2374373169254345,Yi,Feng,8435,854518728062939,2374373169254345,BOT: quick reply,"Dismissed by the establishment, professing nothing but disdain for the canon, and yet beloved by his followers who trumpet his _____ opinions, the raffish pundit is laughing all the way to the bank.",2018-08-14 20:47:56
+2374373169254345,Yi,Feng,8436,2374373169254345,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-14 20:48:07
+2374373169254345,Yi,Feng,8437,854518728062939,2374373169254345,BOT: message,Which of the following options is the right answer?,2018-08-14 20:48:08
+2374373169254345,Yi,Feng,8438,854518728062939,2374373169254345,BOT: quick reply,":keycap_1: blithe
+:keycap_2: iconoclastic
+:keycap_3: inveterate
+:keycap_4: meritless
+:keycap_5: meretricious
+",2018-08-14 20:48:10
+2374373169254345,Yi,Feng,8439,2374373169254345,854518728062939,user_quick_reply: BUTTON_DKB_meretricious,:keycap_5:,2018-08-14 20:48:17
+2374373169254345,Yi,Feng,8440,854518728062939,2374373169254345,BOT: message,"Oops, that is not correct. :disappointed_face:",2018-08-14 20:48:18
+2374373169254345,Yi,Feng,8441,854518728062939,2374373169254345,BOT: quick reply,The correct answer is iconoclastic.,2018-08-14 20:48:20
+2374373169254345,Yi,Feng,8442,2374373169254345,854518728062939,user_quick_reply: WHY,Why?,2018-08-14 20:48:24
+2374373169254345,Yi,Feng,8443,854518728062939,2374373169254345,BOT: message,Here's an explanation:,2018-08-14 20:48:26
+2374373169254345,Yi,Feng,8444,854518728062939,2374373169254345,BOT: quick reply,":pushpin: Iconoclastic -- characterized by attacks on established beliefs or institutions
+:pushpin: Blithe -- lacking or showing a lack of due concern
+:pushpin: Inveterate -- habitual
+:pushpin: Meretricious -- like or relating to a prostitute
+:pushpin: Meritless -- without merit; of little or no value or use",2018-08-14 20:48:27
+2374373169254345,Yi,Feng,8445,2374373169254345,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-14 20:49:56
+2374373169254345,Yi,Feng,8446,854518728062939,2374373169254345,BOT: message,What about this next question:,2018-08-14 20:49:58
+2374373169254345,Yi,Feng,8447,854518728062939,2374373169254345,BOT: quick reply,"Emmet Ray, a fictional jazz guitarist in Woody Allen's film Sweet and Lowdown, is a paradoxical character; while he displays sophisticated musical artistry, his personality is typically _____ .",2018-08-14 20:49:59
+2374373169254345,Yi,Feng,8448,2374373169254345,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-14 20:50:06
+2374373169254345,Yi,Feng,8449,854518728062939,2374373169254345,BOT: message,Okay. I'll give you some choices.,2018-08-14 20:50:07
+2374373169254345,Yi,Feng,8450,854518728062939,2374373169254345,BOT: quick reply,":keycap_1: multifaceted
+:keycap_2: maladroit
+:keycap_3: audacious
+:keycap_4: petulant
+:keycap_5: elegant
+",2018-08-14 20:50:09
+2374373169254345,Yi,Feng,8451,2374373169254345,854518728062939,user_quick_reply: BUTTON_AKB_maladroit,:keycap_2:,2018-08-14 20:50:14
+2374373169254345,Yi,Feng,8452,854518728062939,2374373169254345,BOT: image,https://www.smartprimer.org:443/pictures/avatar/congrats/penguinnormal_normal_pink.png,2018-08-14 20:50:17
+2374373169254345,Yi,Feng,8453,854518728062939,2374373169254345,BOT: message,Great job getting the correct answer!,2018-08-14 20:50:18
+2374373169254345,Yi,Feng,8454,854518728062939,2374373169254345,BOT: quick reply,The correct answer is maladroit.,2018-08-14 20:50:20
+2374373169254345,Yi,Feng,8455,2374373169254345,854518728062939,user_quick_reply: WHY,Why?,2018-08-14 20:50:24
+2374373169254345,Yi,Feng,8456,854518728062939,2374373169254345,BOT: message,Here's why:,2018-08-14 20:50:25
+2374373169254345,Yi,Feng,8457,854518728062939,2374373169254345,BOT: quick reply,":pushpin: Maladroit -- not adroit; unskillful; awkward;
+:pushpin: Petulant -- easily irritated or annoyed
+:pushpin: Elegant -- refined and tasteful in appearance or behavior or style
+:pushpin: Audacious -- invulnerable to fear or intimidation
+:pushpin: Multifaceted -- having many aspects or phases",2018-08-14 20:50:26
+2374373169254345,Yi,Feng,8458,2374373169254345,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-14 20:50:50
+2374373169254345,Yi,Feng,8459,854518728062939,2374373169254345,BOT: message,Here's a question for you:,2018-08-14 20:50:51
+2374373169254345,Yi,Feng,8460,854518728062939,2374373169254345,BOT: quick reply,"Possessing few natural resources upon its newly-granted independence in 1863, Singapore remained economically _____ until an influx of industrialization and foreign investment took hold there.",2018-08-14 20:50:53
+2374373169254345,Yi,Feng,8461,2374373169254345,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-14 20:51:04
+2374373169254345,Yi,Feng,8462,854518728062939,2374373169254345,BOT: message,Pick one of the following answers.,2018-08-14 20:51:05
+2374373169254345,Yi,Feng,8463,854518728062939,2374373169254345,BOT: quick reply,":keycap_1: solvent
+:keycap_2: dubious
+:keycap_3: fortuitous
+:keycap_4: powerful
+:keycap_5: prosperous
+",2018-08-14 20:51:06
+2374373169254345,Yi,Feng,8464,2374373169254345,854518728062939,user_quick_reply: BUTTON_DKB_prosperous,:keycap_5:,2018-08-14 20:51:10
+2374373169254345,Yi,Feng,8465,854518728062939,2374373169254345,BOT: message,"Hmm, that wasn't quite right. :disappointed_face:",2018-08-14 20:51:11
+2374373169254345,Yi,Feng,8466,854518728062939,2374373169254345,BOT: quick reply,The correct answer is dubious.,2018-08-14 20:51:12
+2374373169254345,Yi,Feng,8467,2374373169254345,854518728062939,user_quick_reply: WHY,Why?,2018-08-14 20:51:16
+2374373169254345,Yi,Feng,8468,854518728062939,2374373169254345,BOT: message,This is why:,2018-08-14 20:51:18
+2374373169254345,Yi,Feng,8469,854518728062939,2374373169254345,BOT: quick reply,":pushpin: Dubious -- fraught with uncertainty or doubt
+:pushpin: Powerful -- having great power or force or potency or effect
+:pushpin: Prosperous -- in fortunate circumstances financially; moderately rich
+:pushpin: Solvent -- capable of meeting financial obligations
+:pushpin: Fortuitous -- having no cause or apparent cause",2018-08-14 20:51:19
+2374373169254345,Yi,Feng,8470,2374373169254345,854518728062939,user_quick_reply: SWITCH_SUBJECT,Change subject :shuffle_tracks_button:,2018-08-14 20:52:01
+2374373169254345,Yi,Feng,8471,854518728062939,2374373169254345,BOT: quick reply,"Sure, which of the following subjects would you like me to quiz you on?:backhand_index_pointing_down_medium-light_skin_tone:",2018-08-14 20:52:03
+2374373169254345,Yi,Feng,8472,2374373169254345,854518728062939,user_quick_reply: SAFETY,Safety:hammer_and_wrench:,2018-08-14 20:52:07
+2374373169254345,Yi,Feng,8473,854518728062939,2374373169254345,BOT: image,https://www.smartprimer.org:443/pictures/avatar/evolvereading_safety.gif,2018-08-14 20:52:11
+2374373169254345,Yi,Feng,8474,854518728062939,2374373169254345,BOT: quick reply,Okay! Lets see how much you know about safety!,2018-08-14 20:52:13
+2374373169254345,Yi,Feng,8475,854518728062939,2374373169254345,BOT: message,Let's see if you can answer this question.,2018-08-14 20:52:18
+2374373169254345,Yi,Feng,8476,854518728062939,2374373169254345,BOT: quick reply,First aid treatment for a chemical burn involves what?,2018-08-14 20:52:19
+2374373169254345,Yi,Feng,8477,2374373169254345,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-14 20:52:28
+2374373169254345,Yi,Feng,8478,854518728062939,2374373169254345,BOT: message,Which of the following options is the right answer?,2018-08-14 20:52:29
+2374373169254345,Yi,Feng,8479,854518728062939,2374373169254345,BOT: quick reply,":keycap_1: removing dead skin
+:keycap_2: flushing the chemicals off the affected area with cool, gently running water for 10 to 20 minutes
+:keycap_3: applying ointment over the affected area
+:keycap_4: neutralizing the chemical
+",2018-08-14 20:52:30
+2374373169254345,Yi,Feng,8480,2374373169254345,854518728062939,"user_quick_reply: BUTTON_AKB_flushing the chemicals off the affected area with cool, gently running water for 10 to 20 minutes",:keycap_2:,2018-08-14 20:52:40
+2374373169254345,Yi,Feng,8481,854518728062939,2374373169254345,BOT: image,https://www.smartprimer.org:443/pictures/avatar/congrats/penguinnormal_happy_cyan.png,2018-08-14 20:52:43
+2374373169254345,Yi,Feng,8482,854518728062939,2374373169254345,BOT: message,Great job!,2018-08-14 20:52:44
+2374373169254345,Yi,Feng,8483,854518728062939,2374373169254345,BOT: quick reply,"The correct answer is flushing the chemicals off the affected area with cool, gently running water for 10 to 20 minutes.",2018-08-14 20:52:46
+2374373169254345,Yi,Feng,8484,2374373169254345,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-14 20:52:54
+2374373169254345,Yi,Feng,8485,854518728062939,2374373169254345,BOT: message,What about this next question:,2018-08-14 20:52:55
+2374373169254345,Yi,Feng,8486,854518728062939,2374373169254345,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-14 20:52:57
+2374373169254345,Yi,Feng,8487,854518728062939,2374373169254345,BOT: quick reply,True or false: all workplaces need to provide portable fire extinguishers.,2018-08-14 20:52:58
+2374373169254345,Yi,Feng,8488,2374373169254345,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-14 20:53:10
+2374373169254345,Yi,Feng,8489,854518728062939,2374373169254345,BOT: message,Which of the following options is the right answer?,2018-08-14 20:53:12
+2374373169254345,Yi,Feng,8490,854518728062939,2374373169254345,BOT: quick reply,":keycap_1: false
+:keycap_2: true
+",2018-08-14 20:53:13
+2374373169254345,Yi,Feng,8491,2374373169254345,854518728062939,user_quick_reply: BUTTON_AKB_false,:keycap_1:,2018-08-14 20:53:19
+2374373169254345,Yi,Feng,8492,854518728062939,2374373169254345,BOT: message,Nice! That was right!,2018-08-14 20:53:20
+2374373169254345,Yi,Feng,8493,854518728062939,2374373169254345,BOT: quick reply,The correct answer is false.,2018-08-14 20:53:22
+2374373169254345,Yi,Feng,8494,2374373169254345,854518728062939,user_quick_reply: WHY,Why?,2018-08-14 20:53:26
+2374373169254345,Yi,Feng,8495,854518728062939,2374373169254345,BOT: message,Here's why:,2018-08-14 20:53:28
+2374373169254345,Yi,Feng,8496,854518728062939,2374373169254345,BOT: quick reply,"According to OSHA, employers are not required to provide portable fire extinguishers in the office. But if they do, they must set up an educational program to acquaint employees with the general principles of fire extinguisher use.",2018-08-14 20:53:29
+2374373169254345,Yi,Feng,8497,2374373169254345,854518728062939,user_quick_reply: SWITCH_SUBJECT,Change subject :shuffle_tracks_button:,2018-08-14 20:53:40
+2374373169254345,Yi,Feng,8498,854518728062939,2374373169254345,BOT: quick reply,"OK, which of the following subjects would you like to study?:backhand_index_pointing_down_medium-light_skin_tone:",2018-08-14 20:53:42
+2374373169254345,Yi,Feng,8499,2374373169254345,854518728062939,user_quick_reply: SCIENCE,Science:microscope:,2018-08-14 20:53:44
+2374373169254345,Yi,Feng,8500,854518728062939,2374373169254345,BOT: image,https://www.smartprimer.org:443/pictures/avatar/evolvesafety_scientist.gif,2018-08-14 20:53:49
+2374373169254345,Yi,Feng,8501,854518728062939,2374373169254345,BOT: quick reply,Let's answer some questions about science!,2018-08-14 20:53:51
+2374373169254345,Yi,Feng,8502,2374373169254345,854518728062939,user_quick_reply: NEXT_QUESTION,"Yes, continue :light_bulb:",2018-08-14 20:53:53
+2374373169254345,Yi,Feng,8503,854518728062939,2374373169254345,BOT: message,Let's try this one.,2018-08-14 20:53:55
+2374373169254345,Yi,Feng,8504,854518728062939,2374373169254345,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-14 20:53:56
+2374373169254345,Yi,Feng,8505,854518728062939,2374373169254345,BOT: quick reply,The lithosphere is divided into a dozen major and several minor what?,2018-08-14 20:53:58
+2374373169254345,Yi,Feng,8506,2374373169254345,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-14 20:54:03
+2374373169254345,Yi,Feng,8507,854518728062939,2374373169254345,BOT: message,Okay. I'll give you some choices.,2018-08-14 20:54:05
+2374373169254345,Yi,Feng,8508,854518728062939,2374373169254345,BOT: quick reply,":keycap_1: plates
+:keycap_2: crystals
+:keycap_3: zones
+:keycap_4: faults
+",2018-08-14 20:54:06
+2374373169254345,Yi,Feng,8509,2374373169254345,854518728062939,user_quick_reply: BUTTON_DKB_zones,:keycap_3:,2018-08-14 20:54:11
+2374373169254345,Yi,Feng,8510,854518728062939,2374373169254345,BOT: message,"Oops, that wasn't quite correct. :disappointed_face:",2018-08-14 20:54:12
+2374373169254345,Yi,Feng,8511,854518728062939,2374373169254345,BOT: quick reply,The correct answer is plates.,2018-08-14 20:54:14
+2374373169254345,Yi,Feng,8512,2374373169254345,854518728062939,user_quick_reply: WHY,Why?,2018-08-14 20:54:17
+2374373169254345,Yi,Feng,8513,854518728062939,2374373169254345,BOT: message,This is why:,2018-08-14 20:54:19
+2374373169254345,Yi,Feng,8514,854518728062939,2374373169254345,BOT: quick reply,The lithosphere is divided into a dozen major and several minor plates. Each plate is named for the continent or ocean basin it contains. Some plates are made of all oceanic lithosphere. A few are all continental lithosphere. But most plates are made of a combination of both.,2018-08-14 20:54:20
+2374373169254345,Yi,Feng,8993,2374373169254345,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-15 20:00:22
+2374373169254345,Yi,Feng,8994,854518728062939,2374373169254345,BOT: message,Could you answer this one for me?,2018-08-15 20:00:24
+2374373169254345,Yi,Feng,8995,854518728062939,2374373169254345,BOT: quick reply,"What arises due to crossing over, independent assortment, and the random union of gametes?",2018-08-15 20:00:25
+2374373169254345,Yi,Feng,8996,2374373169254345,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-15 20:00:29
+2374373169254345,Yi,Feng,8997,854518728062939,2374373169254345,BOT: message,Which of the following options is the right answer?,2018-08-15 20:00:30
+2374373169254345,Yi,Feng,8998,854518728062939,2374373169254345,BOT: quick reply,":keycap_1: genetic variation
+:keycap_2: alternative variation
+:keycap_3: recessive variation
+:keycap_4: susceptible variation
+",2018-08-15 20:00:31
+2374373169254345,Yi,Feng,9011,854518728062939,2374373169254345,BOT: quick reply,"Hi Yi, you haven't talked to me for a while. Would you like to resume the learning with me?",2018-08-15 20:02:25
+2374373169254345,Yi,Feng,9019,2374373169254345,854518728062939,user_quick_reply: NEXT_QUESTION,Alrighty :collision:,2018-08-15 20:02:36
+2374373169254345,Yi,Feng,9020,854518728062939,2374373169254345,BOT: message,"Alrighty, let's try this one.",2018-08-15 20:02:37
+2374373169254345,Yi,Feng,9021,854518728062939,2374373169254345,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-15 20:02:39
+2374373169254345,Yi,Feng,9022,854518728062939,2374373169254345,BOT: quick reply,What broad group of animals are the first true tetrapods?,2018-08-15 20:02:40
+2374373169254345,Yi,Feng,9023,2374373169254345,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-15 20:02:44
+2374373169254345,Yi,Feng,9024,854518728062939,2374373169254345,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-08-15 20:02:45
+2374373169254345,Yi,Feng,9025,854518728062939,2374373169254345,BOT: quick reply,":keycap_1: mammals
+:keycap_2: fish
+:keycap_3: reptiles
+:keycap_4: amphibians
+",2018-08-15 20:02:47
+2374373169254345,Yi,Feng,9026,2374373169254345,854518728062939,user_quick_reply: BUTTON_DKB_fish,:keycap_2:,2018-08-15 20:02:53
+2374373169254345,Yi,Feng,9027,854518728062939,2374373169254345,BOT: message,"Hmm, that wasn't quite right. :disappointed_face:",2018-08-15 20:02:54
+2374373169254345,Yi,Feng,9029,854518728062939,2374373169254345,BOT: quick reply,The correct answer is amphibians.,2018-08-15 20:02:56
+2374373169254345,Yi,Feng,9038,2374373169254345,854518728062939,user_quick_reply: SWITCH_SUBJECT,Change subject :shuffle_tracks_button:,2018-08-15 20:03:53
+2374373169254345,Yi,Feng,9039,854518728062939,2374373169254345,BOT: quick reply,"Sure, which subject would you like me to quiz you on?:backhand_index_pointing_down_medium-light_skin_tone:",2018-08-15 20:03:54
+2374373169254345,Yi,Feng,9047,2374373169254345,854518728062939,user_quick_reply: SAFETY,Safety:hammer_and_wrench:,2018-08-15 20:07:19
+2374373169254345,Yi,Feng,9050,854518728062939,2374373169254345,BOT: image,https://www.smartprimer.org:443/pictures/avatar/evolvescientist_safety.gif,2018-08-15 20:07:23
+2374373169254345,Yi,Feng,9052,854518728062939,2374373169254345,BOT: quick reply,Safety first! Here's some questions on safety!,2018-08-15 20:07:25
+2374373169254345,Yi,Feng,9095,854518728062939,2374373169254345,BOT: message,Here's a question for you:,2018-08-15 20:44:28
+2374373169254345,Yi,Feng,9096,854518728062939,2374373169254345,BOT: quick reply,Which fire extinguishers are used to put out Class A fires?,2018-08-15 20:44:29
+2374373169254345,Yi,Feng,9097,2374373169254345,854518728062939,user_quick_reply: I_DONT_KNOW,I dont know :downcast_face_with_sweat:,2018-08-15 20:44:34
+2374373169254345,Yi,Feng,9098,854518728062939,2374373169254345,BOT: quick reply,Are you sure you want to skip answering?,2018-08-15 20:44:36
+2374373169254345,Yi,Feng,9099,2374373169254345,854518728062939,user_quick_reply: GIVEUP_YES,"Yes, answer please.",2018-08-15 20:44:40
+2374373169254345,Yi,Feng,9100,854518728062939,2374373169254345,BOT: message,You didn't get it right this time.,2018-08-15 20:44:41
+2374373169254345,Yi,Feng,9101,854518728062939,2374373169254345,BOT: message,No worries! You'll get it next time! :grinning_face_with_smiling_eyes:,2018-08-15 20:44:43
+2374373169254345,Yi,Feng,9102,854518728062939,2374373169254345,BOT: quick reply,The correct answer is both water and multi-purpose dry chemical.,2018-08-15 20:44:44
+2374373169254345,Yi,Feng,9103,2374373169254345,854518728062939,user_quick_reply: SWITCH_SUBJECT,Change subject :shuffle_tracks_button:,2018-08-15 20:44:48
+2374373169254345,Yi,Feng,9104,854518728062939,2374373169254345,BOT: quick reply,"Cool, which subject do you want to study?:backhand_index_pointing_down_medium-light_skin_tone:",2018-08-15 20:44:49
+2374373169254345,Yi,Feng,9105,2374373169254345,854518728062939,user_quick_reply: GRE,GRE :input_latin_uppercase:,2018-08-15 20:44:52
+2374373169254345,Yi,Feng,9106,854518728062939,2374373169254345,BOT: image,https://www.smartprimer.org:443/pictures/avatar/evolvesafety_reading.gif,2018-08-15 20:44:56
+2374373169254345,Yi,Feng,9107,854518728062939,2374373169254345,BOT: quick reply,Let's test your knowledge on the GRE!,2018-08-15 20:44:57
+2374373169254345,Yi,Feng,9108,2374373169254345,854518728062939,user_quick_reply: NEXT_QUESTION,Tap me :white_heavy_check_mark:,2018-08-15 20:45:01
+2374373169254345,Yi,Feng,9109,854518728062939,2374373169254345,BOT: message,Let's see if you can get this one.,2018-08-15 20:45:03
+2374373169254345,Yi,Feng,9110,854518728062939,2374373169254345,BOT: quick reply,"Sheila would often _____ about her boyfriend's habits, but everyone could tell that her seemingly bitter complaints were mostly facetious.",2018-08-15 20:45:04
+2374373169254345,Yi,Feng,9111,2374373169254345,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-15 20:45:17
+2374373169254345,Yi,Feng,9112,854518728062939,2374373169254345,BOT: message,Pick one of the following answers.,2018-08-15 20:45:19
+2374373169254345,Yi,Feng,9113,854518728062939,2374373169254345,BOT: quick reply,":keycap_1: grieve
+:keycap_2: dissemble
+:keycap_3: waffle
+:keycap_4: mince
+:keycap_5: rail
+",2018-08-15 20:45:20
+2374373169254345,Yi,Feng,9114,2374373169254345,854518728062939,user_quick_reply: BUTTON_DKB_mince,:keycap_4:,2018-08-15 20:45:25
+2374373169254345,Yi,Feng,9115,854518728062939,2374373169254345,BOT: message,"Oops, that is not correct. :disappointed_face:",2018-08-15 20:45:27
+2374373169254345,Yi,Feng,9116,854518728062939,2374373169254345,BOT: quick reply,The correct answer is rail.,2018-08-15 20:45:28
+2374373169254345,Yi,Feng,9117,2374373169254345,854518728062939,user_quick_reply: WHY,Why?,2018-08-15 20:45:32
+2374373169254345,Yi,Feng,9118,854518728062939,2374373169254345,BOT: message,This is an explanation of the question:,2018-08-15 20:45:34
+2374373169254345,Yi,Feng,9119,854518728062939,2374373169254345,BOT: quick reply,":pushpin: Rail -- complain bitterly
+:pushpin: Waffle -- pause or hold back in uncertainty or unwillingness
+:pushpin: Dissemble -- make believe with the intent to deceive
+:pushpin: Grieve -- feel grief
+:pushpin: Mince -- make less severe or harsh",2018-08-15 20:45:35
+2374373169254345,Yi,Feng,9120,2374373169254345,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-15 20:54:26
+2374373169254345,Yi,Feng,9121,854518728062939,2374373169254345,BOT: message,I think you'll like this question.,2018-08-15 20:54:28
+2374373169254345,Yi,Feng,9122,854518728062939,2374373169254345,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-15 20:54:29
+2374373169254345,Yi,Feng,9123,854518728062939,2374373169254345,BOT: quick reply,The defense attorney's _____ closing statement was not enough to sway the jurors in his client's favor; stirring words could not conceal the defendant's evident guilt.,2018-08-15 20:54:30
+2374373169254345,Yi,Feng,9124,2374373169254345,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-15 20:54:36
+2374373169254345,Yi,Feng,9125,854518728062939,2374373169254345,BOT: message,Okay. I'll give you some choices.,2018-08-15 20:54:37
+2374373169254345,Yi,Feng,9126,854518728062939,2374373169254345,BOT: quick reply,":keycap_1: impromptu
+:keycap_2: crafty
+:keycap_3: deceptive
+:keycap_4: eloquent
+:keycap_5: lengthy
+",2018-08-15 20:54:38
+2374373169254345,Yi,Feng,9127,2374373169254345,854518728062939,user_quick_reply: BUTTON_AKB_eloquent,:keycap_4:,2018-08-15 20:56:02
+2374373169254345,Yi,Feng,9128,854518728062939,2374373169254345,BOT: message,Nice work! Keep it up!,2018-08-15 20:56:03
+2374373169254345,Yi,Feng,9129,854518728062939,2374373169254345,BOT: quick reply,The correct answer is eloquent.,2018-08-15 20:56:05
+2374373169254345,Yi,Feng,9130,2374373169254345,854518728062939,user_quick_reply: WHY,Why?,2018-08-15 20:56:10
+2374373169254345,Yi,Feng,9131,854518728062939,2374373169254345,BOT: message,This is an explanation of the question:,2018-08-15 20:56:12
+2374373169254345,Yi,Feng,9132,854518728062939,2374373169254345,BOT: quick reply,":pushpin: Eloquent -- expressing yourself readily, clearly, effectively
+:pushpin: Deceptive -- causing one to believe what is not true or fail to believe what is true
+:pushpin: Lengthy -- relatively long in duration; tediously protracted
+:pushpin: Crafty -- marked by skill in deception
+:pushpin: Impromptu -- with little or no preparation or forethought",2018-08-15 20:56:13
+2374373169254345,Yi,Feng,9194,2374373169254345,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-15 21:22:37
+2374373169254345,Yi,Feng,9195,854518728062939,2374373169254345,BOT: message,How about this next one:,2018-08-15 21:22:39
+2374373169254345,Yi,Feng,9196,854518728062939,2374373169254345,BOT: quick reply,"Having squandered his life's savings on unprofitable business ventures, the _____ entrepreneur was forced to live in squalor.",2018-08-15 21:22:40
+2374373169254345,Yi,Feng,9197,2374373169254345,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-15 21:22:47
+2374373169254345,Yi,Feng,9198,854518728062939,2374373169254345,BOT: message,Pick one of the following answers.,2018-08-15 21:22:48
+2374373169254345,Yi,Feng,9199,854518728062939,2374373169254345,BOT: quick reply,":keycap_1: insolvent
+:keycap_2: unlikely
+:keycap_3: former
+:keycap_4: perturbed
+:keycap_5: eccentric
+",2018-08-15 21:22:50
+2374373169254345,Yi,Feng,9200,2374373169254345,854518728062939,user_quick_reply: BUTTON_AKB_insolvent,:keycap_1:,2018-08-15 21:22:54
+2374373169254345,Yi,Feng,9201,854518728062939,2374373169254345,BOT: message,Yes! You got the correct answer!,2018-08-15 21:22:55
+2374373169254345,Yi,Feng,9202,854518728062939,2374373169254345,BOT: quick reply,The correct answer is insolvent.,2018-08-15 21:22:57
+2374373169254345,Yi,Feng,9203,2374373169254345,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-15 21:23:00
+2374373169254345,Yi,Feng,9204,854518728062939,2374373169254345,BOT: message,Let's see if you would answer this one.,2018-08-15 21:23:01
+2374373169254345,Yi,Feng,9205,854518728062939,2374373169254345,BOT: quick reply,The new lecture hall's _____ design reflected the architect's minimalist influences.,2018-08-15 21:23:03
+2374373169254345,Yi,Feng,9206,2374373169254345,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-15 21:23:07
+2374373169254345,Yi,Feng,9207,854518728062939,2374373169254345,BOT: message,Pick one of the following answers.,2018-08-15 21:23:08
+2374373169254345,Yi,Feng,9208,854518728062939,2374373169254345,BOT: quick reply,":keycap_1: grandiose
+:keycap_2: unadorned
+:keycap_3: refulgent
+:keycap_4: posh
+:keycap_5: intricate
+",2018-08-15 21:23:10
+2374373169254345,Yi,Feng,9209,2374373169254345,854518728062939,user_quick_reply: BUTTON_AKB_unadorned,:keycap_2:,2018-08-15 21:23:14
+2374373169254345,Yi,Feng,9210,854518728062939,2374373169254345,BOT: message,Nice work! Keep it up!,2018-08-15 21:23:16
+2374373169254345,Yi,Feng,9211,854518728062939,2374373169254345,BOT: quick reply,The correct answer is unadorned.,2018-08-15 21:23:17
+2374373169254345,Yi,Feng,9212,2374373169254345,854518728062939,user_quick_reply: WHY,Why?,2018-08-15 21:23:19
+2374373169254345,Yi,Feng,9213,854518728062939,2374373169254345,BOT: message,Here's an explanation:,2018-08-15 21:23:21
+2374373169254345,Yi,Feng,9214,854518728062939,2374373169254345,BOT: quick reply,":pushpin: Unadorned -- not decorated with something to increase its beauty or distinction
+:pushpin: Posh -- elegant and fashionable
+:pushpin: Intricate -- having many complexly arranged elements; elaborate
+:pushpin: Refulgent -- radiating or as if radiating light
+:pushpin: Grandiose -- impressive because of unnecessary largeness or grandeur; used to show disapproval",2018-08-15 21:23:22
+2374373169254345,Yi,Feng,9215,2374373169254345,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-15 21:23:49
+2374373169254345,Yi,Feng,9216,854518728062939,2374373169254345,BOT: message,I think you'll like this question.,2018-08-15 21:23:50
+2374373169254345,Yi,Feng,9217,854518728062939,2374373169254345,BOT: quick reply,"Certainly a roundabout narrative, the book - much like the others in the author's pseudo-autobiographical series - proved to be unpopular among those who preferred _____ to loquaciousness.",2018-08-15 21:23:52
+2374373169254345,Yi,Feng,9218,2374373169254345,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-15 21:24:06
+2374373169254345,Yi,Feng,9219,854518728062939,2374373169254345,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-08-15 21:24:08
+2374373169254345,Yi,Feng,9220,854518728062939,2374373169254345,BOT: quick reply,":keycap_1: garrulousness
+:keycap_2: gregariousness
+:keycap_3: enlargement
+:keycap_4: succinctness
+:keycap_5: perspicacity
+",2018-08-15 21:24:09
+2374373169254345,Yi,Feng,9221,2374373169254345,854518728062939,user_quick_reply: BUTTON_DKB_gregariousness,:keycap_2:,2018-08-15 21:24:13
+2374373169254345,Yi,Feng,9222,854518728062939,2374373169254345,BOT: message,"Oops, that is not correct. :disappointed_face:",2018-08-15 21:24:15
+2374373169254345,Yi,Feng,9223,854518728062939,2374373169254345,BOT: quick reply,The correct answer is succinctness.,2018-08-15 21:24:16
+2374373169254345,Yi,Feng,9224,2374373169254345,854518728062939,user_quick_reply: WHY,Why?,2018-08-15 21:24:19
+2374373169254345,Yi,Feng,9225,854518728062939,2374373169254345,BOT: message,This is an explanation of the question:,2018-08-15 21:24:21
+2374373169254345,Yi,Feng,9226,854518728062939,2374373169254345,BOT: quick reply,":pushpin: Succinctness -- terseness and economy in writing and speaking achieved by expressing a great deal in just a few words
+:pushpin: Enlargement -- the act of increasing something
+:pushpin: Garrulousness -- the quality of being wordy and talkative
+:pushpin: Gregariousness -- the quality of being gregarious; having a dislike of being alone
+:pushpin: Perspicacity -- intelligence manifested by being astute (as in business dealings)",2018-08-15 21:24:22
+2374373169254345,Yi,Feng,9227,2374373169254345,854518728062939,persistent_menu: CHAT_WITH_ME,Chat with Me :penguin:,2018-08-15 21:24:39
+2374373169254345,Yi,Feng,9228,854518728062939,2374373169254345,BOT: quick reply,Do you want me to tell you something fun?,2018-08-15 21:24:41
+2374373169254345,Yi,Feng,9229,2374373169254345,854518728062939,user_quick_reply: FUN_FACT_SCIENCE,Fun fact :light_bulb:,2018-08-15 21:24:44
+2374373169254345,Yi,Feng,9230,854518728062939,2374373169254345,BOT: message,Here is a fun fact for you.,2018-08-15 21:24:46
+2374373169254345,Yi,Feng,9231,854518728062939,2374373169254345,BOT: quick reply,"In 100 years ago, the first virus was found in both plants and animals.",2018-08-15 21:24:47
+2374373169254345,Yi,Feng,9232,2374373169254345,854518728062939,user_quick_reply: FUN_FACT_SCIENCE,Another fun fact:light_bulb:,2018-08-15 21:24:54
+2374373169254345,Yi,Feng,9233,854518728062939,2374373169254345,BOT: message,Here is an interesting one.,2018-08-15 21:24:56
+2374373169254345,Yi,Feng,9234,854518728062939,2374373169254345,BOT: quick reply,"In 90 years ago, the Grand Canyon became a national monument & Cellophane is invented.",2018-08-15 21:24:57
+2374373169254345,Yi,Feng,9235,2374373169254345,854518728062939,user_quick_reply: JOKE,Joke :beaming_face_with_smiling_eyes:,2018-08-15 21:25:06
+2374373169254345,Yi,Feng,9236,854518728062939,2374373169254345,BOT: message,Here's one I thought might be funny.,2018-08-15 21:25:08
+2374373169254345,Yi,Feng,9237,854518728062939,2374373169254345,BOT: quick reply,Q. What lies at the bottom of the ocean and twitches? A. A nervous wreck.,2018-08-15 21:25:09
+2374373169254345,Yi,Feng,9238,2374373169254345,854518728062939,user_quick_reply: JOKE,One more joke :beaming_face_with_smiling_eyes:,2018-08-15 21:25:27
+2374373169254345,Yi,Feng,9239,854518728062939,2374373169254345,BOT: message,Here's one I thought might be funny.,2018-08-15 21:25:29
+2374373169254345,Yi,Feng,9240,854518728062939,2374373169254345,BOT: quick reply,What did Beethoven say to Johann Sebastian when he was helping him parallel park? Bach it up.,2018-08-15 21:25:30
+2374373169254345,Yi,Feng,9241,2374373169254345,854518728062939,user_quick_reply: NEXT_QUESTION,Continue learning :flexed_biceps_medium-light_skin_tone:,2018-08-15 21:25:36
+2374373169254345,Yi,Feng,9242,854518728062939,2374373169254345,BOT: message,Let's take a look at this question.,2018-08-15 21:25:37
+2374373169254345,Yi,Feng,9243,854518728062939,2374373169254345,BOT: quick reply,"Despite what _____ philosophies of child-rearing suggest, there is no imperative that the day-to-day action of raising a child be simple, unambiguous and unchanging-no requirement, in other words, ensures that life follow philosophy.",2018-08-15 21:25:39
+2374373169254345,Yi,Feng,9244,2374373169254345,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-15 21:25:45
+2374373169254345,Yi,Feng,9245,854518728062939,2374373169254345,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-08-15 21:25:46
+2374373169254345,Yi,Feng,9246,854518728062939,2374373169254345,BOT: quick reply,":keycap_1: shameless
+:keycap_2: inexact
+:keycap_3: aggressive
+:keycap_4: systematic
+:keycap_5: random
+",2018-08-15 21:25:48
+2374373169254345,Yi,Feng,9247,2374373169254345,854518728062939,user_quick_reply: BUTTON_DKB_shameless,:keycap_1:,2018-08-15 21:25:50
+2374373169254345,Yi,Feng,9248,854518728062939,2374373169254345,BOT: message,"Hmm, that wasn't quite right. :disappointed_face:",2018-08-15 21:25:52
+2374373169254345,Yi,Feng,9249,854518728062939,2374373169254345,BOT: quick reply,The correct answer is systematic.,2018-08-15 21:25:53
+2374373169254345,Yi,Feng,9250,2374373169254345,854518728062939,user_quick_reply: WHY,Why?,2018-08-15 21:25:57
+2374373169254345,Yi,Feng,9251,854518728062939,2374373169254345,BOT: message,This is why:,2018-08-15 21:25:58
+2374373169254345,Yi,Feng,9252,854518728062939,2374373169254345,BOT: quick reply,":pushpin: Systematic -- characterized by order and planning
+:pushpin: Inexact -- not exact
+:pushpin: Aggressive -- having or showing determination and energetic pursuit of your ends
+:pushpin: Random -- lacking any definite plan or order or purpose; governed by or depending on chance
+:pushpin: Shameless -- feeling no shame",2018-08-15 21:26:00
+2374373169254345,Yi,Feng,9253,2374373169254345,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-15 21:26:34
+2374373169254345,Yi,Feng,9254,854518728062939,2374373169254345,BOT: message,Could you answer this one for me?,2018-08-15 21:26:35
+2374373169254345,Yi,Feng,9255,854518728062939,2374373169254345,BOT: quick reply,While she may have answered him truthfully - in the strictest sense of the word - it became clear to Sergei after the incident that Sheryl had actually been trying to _____ .,2018-08-15 21:26:37
+2374373169254345,Yi,Feng,9256,2374373169254345,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-15 21:29:13
+2374373169254345,Yi,Feng,9257,854518728062939,2374373169254345,BOT: message,Okay. I'll give you some choices.,2018-08-15 21:29:14
+2374373169254345,Yi,Feng,9258,854518728062939,2374373169254345,BOT: quick reply,":keycap_1: covet
+:keycap_2: illuminate
+:keycap_3: desiccate
+:keycap_4: vituperate
+:keycap_5: obfuscate
+",2018-08-15 21:29:16
+2374373169254345,Yi,Feng,9259,2374373169254345,854518728062939,user_quick_reply: BUTTON_AKB_obfuscate,:keycap_5:,2018-08-15 21:29:23
+2374373169254345,Yi,Feng,9260,854518728062939,2374373169254345,BOT: image,https://www.smartprimer.org:443/pictures/avatar/congrats/penguinnormal_happy_purple.png,2018-08-15 21:29:26
+2374373169254345,Yi,Feng,9261,854518728062939,2374373169254345,BOT: message,Great job getting the correct answer!,2018-08-15 21:29:27
+2374373169254345,Yi,Feng,9262,854518728062939,2374373169254345,BOT: quick reply,The correct answer is obfuscate.,2018-08-15 21:29:28
+2374373169254345,Yi,Feng,9263,2374373169254345,854518728062939,user_quick_reply: WHY,Why?,2018-08-15 21:29:32
+2374373169254345,Yi,Feng,9264,854518728062939,2374373169254345,BOT: message,I hope this explanation could help you understand the the question.,2018-08-15 21:29:33
+2374373169254345,Yi,Feng,9265,854518728062939,2374373169254345,BOT: quick reply,":pushpin: Obfuscate -- make obscure or unclear
+:pushpin: Vituperate -- spread negative information about
+:pushpin: Illuminate -- make lighter or brighter
+:pushpin: Covet -- wish, long, or crave for something, especially the property of another person
+:pushpin: Desiccate -- to dry thoroughly; dry up",2018-08-15 21:29:35
+2374373169254345,Yi,Feng,9305,2374373169254345,854518728062939,persistent_menu: SCIENCE,Science:microscope:,2018-08-15 22:51:19
+2374373169254345,Yi,Feng,9306,854518728062939,2374373169254345,BOT: image,https://www.smartprimer.org:443/pictures/avatar/evolvereading_scientist.gif,2018-08-15 22:51:24
+2374373169254345,Yi,Feng,9307,854518728062939,2374373169254345,BOT: quick reply,Let's test your knowledge on science!,2018-08-15 22:51:25
+2374373169254345,Yi,Feng,9308,854518728062939,2374373169254345,BOT: message,Would you answer this question for me?,2018-08-15 22:51:33
+2374373169254345,Yi,Feng,9309,854518728062939,2374373169254345,BOT: quick reply,What broad group of animals are the first true tetrapods?,2018-08-15 22:51:35
+2374373169254345,Yi,Feng,9310,2374373169254345,854518728062939,user_quick_reply: I_DONT_KNOW,I dont know :downcast_face_with_sweat:,2018-08-15 22:51:37
+2374373169254345,Yi,Feng,9311,854518728062939,2374373169254345,BOT: quick reply,Do you really want to give up?,2018-08-15 22:51:39
+2374373169254345,Yi,Feng,9312,2374373169254345,854518728062939,user_quick_reply: GIVEUP_YES,"Yes, answer please.",2018-08-15 22:51:41
+2374373169254345,Yi,Feng,9313,854518728062939,2374373169254345,BOT: message,You didn't get it right this time.,2018-08-15 22:51:42
+2374373169254345,Yi,Feng,9314,854518728062939,2374373169254345,BOT: message,"That's fine, you'll nail it next time! :grinning_face_with_smiling_eyes:",2018-08-15 22:51:44
+2374373169254345,Yi,Feng,9315,854518728062939,2374373169254345,BOT: quick reply,The correct answer is amphibians.,2018-08-15 22:51:45
+2374373169254345,Yi,Feng,9316,2374373169254345,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-15 22:51:51
+2374373169254345,Yi,Feng,9317,854518728062939,2374373169254345,BOT: message,I think you'll like this question.,2018-08-15 22:51:53
+2374373169254345,Yi,Feng,9318,854518728062939,2374373169254345,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-15 22:51:54
+2374373169254345,Yi,Feng,9319,854518728062939,2374373169254345,BOT: quick reply,What broad group of animals are the first true tetrapods?,2018-08-15 22:51:56
+2374373169254345,Yi,Feng,9320,2374373169254345,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-15 22:51:58
+2374373169254345,Yi,Feng,9321,854518728062939,2374373169254345,BOT: message,Pick one of the following answers.,2018-08-15 22:51:59
+2374373169254345,Yi,Feng,9322,854518728062939,2374373169254345,BOT: quick reply,":keycap_1: mammals
+:keycap_2: reptiles
+:keycap_3: fish
+:keycap_4: amphibians
+",2018-08-15 22:52:01
+2374373169254345,Yi,Feng,9323,2374373169254345,854518728062939,user_quick_reply: BUTTON_AKB_amphibians,:keycap_4:,2018-08-15 22:52:21
+2374373169254345,Yi,Feng,9324,854518728062939,2374373169254345,BOT: message,Great job getting the correct answer!,2018-08-15 22:52:23
+2374373169254345,Yi,Feng,9325,854518728062939,2374373169254345,BOT: quick reply,The correct answer is amphibians.,2018-08-15 22:52:24
+2374373169254345,Yi,Feng,9326,2374373169254345,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-15 22:52:39
+2374373169254345,Yi,Feng,9327,854518728062939,2374373169254345,BOT: message,Let's try this one.,2018-08-15 22:52:40
+2374373169254345,Yi,Feng,9328,854518728062939,2374373169254345,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-15 22:52:41
+2374373169254345,Yi,Feng,9329,854518728062939,2374373169254345,BOT: quick reply,"The hypothalamus is actually part of the brain, but it also secretes what?",2018-08-15 22:52:43
+2374373169254345,Yi,Feng,9330,2374373169254345,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-15 22:52:47
+2374373169254345,Yi,Feng,9331,854518728062939,2374373169254345,BOT: message,Pick one of the following answers.,2018-08-15 22:52:48
+2374373169254345,Yi,Feng,9332,854518728062939,2374373169254345,BOT: quick reply,":keycap_1: electrolytes
+:keycap_2: enzymes
+:keycap_3: acids
+:keycap_4: hormones
+",2018-08-15 22:52:50
+2374373169254345,Yi,Feng,9333,2374373169254345,854518728062939,user_quick_reply: BUTTON_AKB_hormones,:keycap_4:,2018-08-15 22:53:04
+2374373169254345,Yi,Feng,9334,854518728062939,2374373169254345,BOT: message,Great job!,2018-08-15 22:53:05
+2374373169254345,Yi,Feng,9335,854518728062939,2374373169254345,BOT: quick reply,The correct answer is hormones.,2018-08-15 22:53:07
+2374373169254345,Yi,Feng,9336,2374373169254345,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-15 22:53:10
+2374373169254345,Yi,Feng,9337,854518728062939,2374373169254345,BOT: message,Let's see if you can get this one.,2018-08-15 22:53:12
+2374373169254345,Yi,Feng,9338,854518728062939,2374373169254345,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-15 22:53:13
+2374373169254345,Yi,Feng,9339,854518728062939,2374373169254345,BOT: quick reply,The lithosphere is divided into a dozen major and several minor what?,2018-08-15 22:53:14
+2374373169254345,Yi,Feng,9340,2374373169254345,854518728062939,user_quick_reply: I_DONT_KNOW,I dont know :downcast_face_with_sweat:,2018-08-15 22:53:28
+2374373169254345,Yi,Feng,9341,854518728062939,2374373169254345,BOT: quick reply,Are you sure you want to give up?,2018-08-15 22:53:29
+2374373169254345,Yi,Feng,9342,2374373169254345,854518728062939,user_quick_reply: GIVEUP_YES,"Yes, answer please.",2018-08-15 22:53:33
+2374373169254345,Yi,Feng,9343,854518728062939,2374373169254345,BOT: message,"I'm sorry, you didn't get the question right this time.",2018-08-15 22:53:35
+2374373169254345,Yi,Feng,9344,854518728062939,2374373169254345,BOT: message,"That's fine, you'll nail it next time! :grinning_face_with_smiling_eyes:",2018-08-15 22:53:36
+2374373169254345,Yi,Feng,9345,854518728062939,2374373169254345,BOT: quick reply,The correct answer is plates.,2018-08-15 22:53:38
+2374373169254345,Yi,Feng,9346,2374373169254345,854518728062939,user_quick_reply: WHY,Why?,2018-08-15 22:53:45
+2374373169254345,Yi,Feng,9347,854518728062939,2374373169254345,BOT: message,This is an explanation of the question:,2018-08-15 22:53:46
+2374373169254345,Yi,Feng,9348,854518728062939,2374373169254345,BOT: quick reply,The lithosphere is divided into a dozen major and several minor plates. Each plate is named for the continent or ocean basin it contains. Some plates are made of all oceanic lithosphere. A few are all continental lithosphere. But most plates are made of a combination of both.,2018-08-15 22:53:48
+2374373169254345,Yi,Feng,9349,2374373169254345,854518728062939,user_quick_reply: SWITCH_SUBJECT,Change subject :shuffle_tracks_button:,2018-08-15 22:56:27
+2374373169254345,Yi,Feng,9350,854518728062939,2374373169254345,BOT: quick reply,"Sure, which of the following subjects would you like me to quiz you on?:backhand_index_pointing_down_medium-light_skin_tone:",2018-08-15 22:56:28
+2374373169254345,Yi,Feng,9351,2374373169254345,854518728062939,user_quick_reply: RANDOM,Random :game_die:,2018-08-15 22:56:31
+2374373169254345,Yi,Feng,9352,854518728062939,2374373169254345,BOT: image,https://www.smartprimer.org:443/pictures/avatar/evolvescientist_normal.gif,2018-08-15 22:56:35
+2374373169254345,Yi,Feng,9353,854518728062939,2374373169254345,BOT: quick reply,Nice! Enjoy a little variety? Let's answer some questions! :game_die:,2018-08-15 22:56:37
+2374373169254345,Yi,Feng,9354,2374373169254345,854518728062939,user_quick_reply: NEXT_QUESTION,Alrighty :white_heavy_check_mark:,2018-08-15 22:56:39
+2374373169254345,Yi,Feng,9355,854518728062939,2374373169254345,BOT: message,Let's take a look at this question.,2018-08-15 22:56:41
+2374373169254345,Yi,Feng,9356,854518728062939,2374373169254345,BOT: quick reply,Voters have become so inured to the fickle nature of politicians that they responded to the levy of a new tax with _____ .,2018-08-15 22:56:42
+2374373169254345,Yi,Feng,9357,2374373169254345,854518728062939,user_quick_reply: I_DONT_KNOW,I dont know :downcast_face_with_sweat:,2018-08-15 22:56:45
+2374373169254345,Yi,Feng,9358,854518728062939,2374373169254345,BOT: quick reply,Do you really want to skip this question?,2018-08-15 22:56:46
+2374373169254345,Yi,Feng,9359,2374373169254345,854518728062939,user_quick_reply: GIVEUP_YES,"Yes, answer please.",2018-08-15 22:56:51
+2374373169254345,Yi,Feng,9360,854518728062939,2374373169254345,BOT: message,"I'm sorry, you didn't get the question right this time.",2018-08-15 22:56:52
+2374373169254345,Yi,Feng,9361,854518728062939,2374373169254345,BOT: message,"That's okay, you'll get it next time! :grinning_face_with_smiling_eyes:",2018-08-15 22:56:54
+2374373169254345,Yi,Feng,9362,854518728062939,2374373169254345,BOT: quick reply,The correct answer is stolidity.,2018-08-15 22:56:55
+2374373169254345,Yi,Feng,9363,2374373169254345,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-15 22:57:07
+2374373169254345,Yi,Feng,9364,854518728062939,2374373169254345,BOT: message,I think you'll like this question.,2018-08-15 22:57:08
+2374373169254345,Yi,Feng,9365,854518728062939,2374373169254345,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-15 22:57:10
+2374373169254345,Yi,Feng,9366,854518728062939,2374373169254345,BOT: quick reply,"What arises due to crossing over, independent assortment, and the random union of gametes?",2018-08-15 22:57:11
+2374373169254345,Yi,Feng,9367,2374373169254345,854518728062939,user_quick_reply: I_DONT_KNOW,I dont know :downcast_face_with_sweat:,2018-08-15 22:57:16
+2374373169254345,Yi,Feng,9368,854518728062939,2374373169254345,BOT: quick reply,Are you sure you want to skip answering?,2018-08-15 22:57:18
+2374373169254345,Yi,Feng,9369,2374373169254345,854518728062939,user_quick_reply: GIVEUP_YES,"Yes, answer please.",2018-08-15 22:57:29
+2374373169254345,Yi,Feng,9370,854518728062939,2374373169254345,BOT: message,"I'm sorry, you didn't get the question right this time.",2018-08-15 22:57:31
+2374373169254345,Yi,Feng,9371,854518728062939,2374373169254345,BOT: message,"Keep trying, you'll get it next time! :grinning_face_with_smiling_eyes:",2018-08-15 22:57:32
+2374373169254345,Yi,Feng,9372,854518728062939,2374373169254345,BOT: quick reply,The correct answer is genetic variation.,2018-08-15 22:57:34
+2374373169254345,Yi,Feng,9373,2374373169254345,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-15 22:58:05
+2374373169254345,Yi,Feng,9374,854518728062939,2374373169254345,BOT: message,Let's take a look at this question.,2018-08-15 22:58:06
+2374373169254345,Yi,Feng,9375,854518728062939,2374373169254345,BOT: quick reply,"Modern tennis fans have come to realize that, although, quantum technological leaps in racquet technology have lead to _____ increases in the speed and power with which players can hit the ball, this has not necessarily lead to a more entertaining game.",2018-08-15 22:58:08
+2374373169254345,Yi,Feng,9376,2374373169254345,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-15 22:58:11
+2374373169254345,Yi,Feng,9377,854518728062939,2374373169254345,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-08-15 22:58:12
+2374373169254345,Yi,Feng,9378,854518728062939,2374373169254345,BOT: quick reply,":keycap_1: innocuous
+:keycap_2: commensurate
+:keycap_3: halcyon
+:keycap_4: malleable
+:keycap_5: tractable
+",2018-08-15 22:58:13
+2374373169254345,Yi,Feng,9379,2374373169254345,854518728062939,user_quick_reply: BUTTON_DKB_malleable,:keycap_4:,2018-08-15 22:58:21
+2374373169254345,Yi,Feng,9380,854518728062939,2374373169254345,BOT: message,"Hmm, that wasn't quite right. :disappointed_face:",2018-08-15 22:58:22
+2374373169254345,Yi,Feng,9381,854518728062939,2374373169254345,BOT: quick reply,The correct answer is commensurate.,2018-08-15 22:58:24
+2374373169254345,Yi,Feng,9382,2374373169254345,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-15 22:58:44
+2374373169254345,Yi,Feng,9383,854518728062939,2374373169254345,BOT: message,What about this next question:,2018-08-15 22:58:45
+2374373169254345,Yi,Feng,9384,854518728062939,2374373169254345,BOT: quick reply,"Possessing few natural resources upon its newly-granted independence in 1863, Singapore remained economically _____ until an influx of industrialization and foreign investment took hold there.",2018-08-15 22:58:47
+2374373169254345,Yi,Feng,9385,2374373169254345,854518728062939,user_quick_reply: I_DONT_KNOW,I dont know :downcast_face_with_sweat:,2018-08-15 22:59:00
+2374373169254345,Yi,Feng,9386,854518728062939,2374373169254345,BOT: quick reply,Do you really want to skip this question?,2018-08-15 22:59:01
+2374373169254345,Yi,Feng,9387,2374373169254345,854518728062939,user_quick_reply: GIVEUP_YES,"Yes, answer please.",2018-08-15 22:59:07
+2374373169254345,Yi,Feng,9388,854518728062939,2374373169254345,BOT: message,You didn't get this question this time.,2018-08-15 22:59:08
+2374373169254345,Yi,Feng,9389,854518728062939,2374373169254345,BOT: message,"Don't give up, you'll get it next time! :grinning_face_with_smiling_eyes:",2018-08-15 22:59:10
+2374373169254345,Yi,Feng,9390,854518728062939,2374373169254345,BOT: quick reply,The correct answer is dubious.,2018-08-15 22:59:11
+2374373169254345,Yi,Feng,9391,2374373169254345,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-15 22:59:16
+2374373169254345,Yi,Feng,9392,854518728062939,2374373169254345,BOT: message,Could you answer this one for me?,2018-08-15 22:59:17
+2374373169254345,Yi,Feng,9393,854518728062939,2374373169254345,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-15 22:59:19
+2374373169254345,Yi,Feng,9394,854518728062939,2374373169254345,BOT: quick reply,Should you give an over-the-counter medicine to a person who is having a heart attack?,2018-08-15 22:59:20
+2374373169254345,Yi,Feng,9395,2374373169254345,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-15 22:59:24
+2374373169254345,Yi,Feng,9396,854518728062939,2374373169254345,BOT: message,Pick one of the following answers.,2018-08-15 22:59:25
+2374373169254345,Yi,Feng,9397,854518728062939,2374373169254345,BOT: quick reply,":keycap_1: Yes
+:keycap_2: No
+",2018-08-15 22:59:27
+2374373169254345,Yi,Feng,9398,2374373169254345,854518728062939,user_quick_reply: BUTTON_AKB_No,:keycap_2:,2018-08-15 22:59:29
+2374373169254345,Yi,Feng,9399,854518728062939,2374373169254345,BOT: message,Great! Keep it up! :flexed_biceps_medium-light_skin_tone:,2018-08-15 22:59:31
+2374373169254345,Yi,Feng,9400,854518728062939,2374373169254345,BOT: quick reply,The correct answer is No.,2018-08-15 22:59:32
+2374373169254345,Yi,Feng,9401,2374373169254345,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-15 22:59:34
+2374373169254345,Yi,Feng,9402,854518728062939,2374373169254345,BOT: message,Let's take a look at this question.,2018-08-15 22:59:36
+2374373169254345,Yi,Feng,9403,854518728062939,2374373169254345,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-15 22:59:37
+2374373169254345,Yi,Feng,9404,854518728062939,2374373169254345,BOT: quick reply,What are the hormones that cause a plant to grow?,2018-08-15 22:59:39
+2374373169254345,Yi,Feng,9405,2374373169254345,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-15 22:59:43
+2374373169254345,Yi,Feng,9406,854518728062939,2374373169254345,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-08-15 22:59:44
+2374373169254345,Yi,Feng,9407,854518728062939,2374373169254345,BOT: quick reply,":keycap_1: pores
+:keycap_2: pistills
+:keycap_3: gibberellins
+:keycap_4: sporozoans
+",2018-08-15 22:59:46
+2374373169254345,Yi,Feng,9408,2374373169254345,854518728062939,user_quick_reply: BUTTON_DKB_pistills,:keycap_2:,2018-08-15 22:59:51
+2374373169254345,Yi,Feng,9409,854518728062939,2374373169254345,BOT: message,"Oops, that is not correct. :disappointed_face:",2018-08-15 22:59:52
+2374373169254345,Yi,Feng,9410,854518728062939,2374373169254345,BOT: quick reply,The correct answer is gibberellins.,2018-08-15 22:59:53
+2374373169254345,Yi,Feng,9411,2374373169254345,854518728062939,user_quick_reply: WHY,Why?,2018-08-15 22:59:57
+2374373169254345,Yi,Feng,9412,854518728062939,2374373169254345,BOT: message,I hope this explanation could help you understand the the question.,2018-08-15 22:59:59
+2374373169254345,Yi,Feng,9413,854518728062939,2374373169254345,BOT: quick reply,"Gibberellins are hormones that cause the plant to grow. When gibberellins are applied to plants by scientists, the stems grow longer. Some gardeners or horticulture scientists add gibberellins to increase the growth of plants. Dwarf plants (small plants), on the other hand, have low levels of gibberellins. Another function of gibberellins is to stop dormancy (resting time) of seeds and buds. Gibberellins signal that its time for a seed to germinate (sprout) or for a bud to open.",2018-08-15 23:00:00
+2374373169254345,Yi,Feng,9414,2374373169254345,854518728062939,user_quick_reply: SWITCH_SUBJECT,Change subject :shuffle_tracks_button:,2018-08-15 23:08:58
+2374373169254345,Yi,Feng,9415,854518728062939,2374373169254345,BOT: quick reply,"Sure, now tell me which subject you would like to choose.:backhand_index_pointing_down_medium-light_skin_tone:",2018-08-15 23:09:00
+2374373169254345,Yi,Feng,9416,2374373169254345,854518728062939,user_quick_reply: RANDOM,Random :game_die:,2018-08-15 23:09:03
+2374373169254345,Yi,Feng,9417,854518728062939,2374373169254345,BOT: quick reply,Okay! Lets mix it up! :game_die:,2018-08-15 23:09:05
+2374373169254345,Yi,Feng,9418,2374373169254345,854518728062939,user_quick_reply: NEXT_QUESTION,"Yes, continue :flexed_biceps_medium-light_skin_tone:",2018-08-15 23:09:08
+2374373169254345,Yi,Feng,9419,854518728062939,2374373169254345,BOT: message,Let's try this one.,2018-08-15 23:09:10
+2374373169254345,Yi,Feng,9420,854518728062939,2374373169254345,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-15 23:09:11
+2374373169254345,Yi,Feng,9421,854518728062939,2374373169254345,BOT: quick reply,"Having squandered his life's savings on unprofitable business ventures, the _____ entrepreneur was forced to live in squalor.",2018-08-15 23:09:12
+2374373169254345,Yi,Feng,9422,2374373169254345,854518728062939,user_typing,insolvent,2018-08-15 23:09:25
+2374373169254345,Yi,Feng,9423,854518728062939,2374373169254345,BOT: message,Nice! :red_apple:,2018-08-15 23:09:26
+2374373169254345,Yi,Feng,9424,854518728062939,2374373169254345,BOT: quick reply,The correct answer is insolvent.,2018-08-15 23:09:28
+2374373169254345,Yi,Feng,9649,854518728062939,2374373169254345,BOT: quick reply,"Hi Yi, you haven't talked to me for a while. Would you like to resume the learning with me?",2018-08-16 20:02:37
+2374373169254345,Yi,Feng,10223,854518728062939,2374373169254345,BOT: quick reply,"Hi Yi, you haven't talked to me for a while. Would you like to resume the learning with me?",2018-08-17 20:00:24
+2374373169254345,Yi,Feng,10297,2374373169254345,854518728062939,user_quick_reply: NEXT_QUESTION,Alrighty :clapping_hands_medium-light_skin_tone:,2018-08-17 22:19:21
+2374373169254345,Yi,Feng,10298,854518728062939,2374373169254345,BOT: message,I think you'll like this question.,2018-08-17 22:19:22
+2374373169254345,Yi,Feng,10299,854518728062939,2374373169254345,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-17 22:19:23
+2374373169254345,Yi,Feng,10300,854518728062939,2374373169254345,BOT: quick reply,To what does the acronym SLM refer?,2018-08-17 22:19:25
+2374373169254345,Yi,Feng,10301,2374373169254345,854518728062939,user_quick_reply: I_DONT_KNOW,I dont know :downcast_face_with_sweat:,2018-08-17 22:19:30
+2374373169254345,Yi,Feng,10302,854518728062939,2374373169254345,BOT: quick reply,Do you really want to skip this question?,2018-08-17 22:19:32
+2374373169254345,Yi,Feng,10303,2374373169254345,854518728062939,user_quick_reply: GIVEUP_YES,"Yes, answer please.",2018-08-17 22:19:35
+2374373169254345,Yi,Feng,10304,854518728062939,2374373169254345,BOT: message,You didn't get it right this time.,2018-08-17 22:19:36
+2374373169254345,Yi,Feng,10305,854518728062939,2374373169254345,BOT: message,"That's fine, you'll nail it next time! :grinning_face_with_smiling_eyes:",2018-08-17 22:19:38
+2374373169254345,Yi,Feng,10306,854518728062939,2374373169254345,BOT: quick reply,The correct answer is Sound Level Meter.,2018-08-17 22:19:39
+2374373169254345,Yi,Feng,10307,2374373169254345,854518728062939,user_quick_reply: WHY,Why?,2018-08-17 22:19:44
+2374373169254345,Yi,Feng,10308,854518728062939,2374373169254345,BOT: message,This is an explanation of the question:,2018-08-17 22:19:46
+2374373169254345,Yi,Feng,10309,854518728062939,2374373169254345,BOT: quick reply,The Sound Level Meter is an instrument used to measure noise levels.,2018-08-17 22:19:47
+2374373169254345,Yi,Feng,10310,2374373169254345,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-17 22:20:03
+2374373169254345,Yi,Feng,10311,854518728062939,2374373169254345,BOT: message,Here's a question for you:,2018-08-17 22:20:04
+2374373169254345,Yi,Feng,10312,854518728062939,2374373169254345,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-17 22:20:05
+2374373169254345,Yi,Feng,10313,854518728062939,2374373169254345,BOT: quick reply,"Possessing few natural resources upon its newly-granted independence in 1863, Singapore remained economically _____ until an influx of industrialization and foreign investment took hold there.",2018-08-17 22:20:07
+2374373169254345,Yi,Feng,10314,2374373169254345,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-17 22:20:23
+2374373169254345,Yi,Feng,10315,854518728062939,2374373169254345,BOT: message,Okay. I'll give you some choices.,2018-08-17 22:20:24
+2374373169254345,Yi,Feng,10316,854518728062939,2374373169254345,BOT: quick reply,":keycap_1: prosperous
+:keycap_2: dubious
+:keycap_3: powerful
+:keycap_4: fortuitous
+:keycap_5: solvent
+",2018-08-17 22:20:26
+2374373169254345,Yi,Feng,10317,2374373169254345,854518728062939,user_quick_reply: BUTTON_DKB_solvent,:keycap_5:,2018-08-17 22:20:40
+2374373169254345,Yi,Feng,10318,854518728062939,2374373169254345,BOT: message,"Oops, that is not correct. :disappointed_face:",2018-08-17 22:20:41
+2374373169254345,Yi,Feng,10319,854518728062939,2374373169254345,BOT: quick reply,The correct answer is dubious.,2018-08-17 22:20:42
+2374373169254345,Yi,Feng,10320,2374373169254345,854518728062939,user_quick_reply: WHY,Why?,2018-08-17 22:20:46
+2374373169254345,Yi,Feng,10321,854518728062939,2374373169254345,BOT: message,Here's why:,2018-08-17 22:20:47
+2374373169254345,Yi,Feng,10322,854518728062939,2374373169254345,BOT: quick reply,":pushpin: Dubious -- fraught with uncertainty or doubt
+:pushpin: Powerful -- having great power or force or potency or effect
+:pushpin: Prosperous -- in fortunate circumstances financially; moderately rich
+:pushpin: Solvent -- capable of meeting financial obligations
+:pushpin: Fortuitous -- having no cause or apparent cause",2018-08-17 22:20:49
+2374373169254345,Yi,Feng,10323,2374373169254345,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-17 22:20:55
+2374373169254345,Yi,Feng,10324,854518728062939,2374373169254345,BOT: message,Would you answer this question for me?,2018-08-17 22:20:56
+2374373169254345,Yi,Feng,10325,854518728062939,2374373169254345,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-17 22:20:58
+2374373169254345,Yi,Feng,10326,854518728062939,2374373169254345,BOT: quick reply,"Although they stood with the congressman in a tenuous display of solidarity, the incensed commissioners could not conceal their _____ .",2018-08-17 22:20:59
+2374373169254345,Yi,Feng,10327,2374373169254345,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-17 22:21:39
+2374373169254345,Yi,Feng,10328,854518728062939,2374373169254345,BOT: message,Pick one of the following answers.,2018-08-17 22:21:40
+2374373169254345,Yi,Feng,10329,854518728062939,2374373169254345,BOT: quick reply,":keycap_1: adulation
+:keycap_2: hubris
+:keycap_3: camaraderie
+:keycap_4: facetiousness
+:keycap_5: rancor
+",2018-08-17 22:21:42
+2374373169254345,Yi,Feng,10330,2374373169254345,854518728062939,user_quick_reply: BUTTON_DKB_facetiousness,:keycap_4:,2018-08-17 22:21:47
+2374373169254345,Yi,Feng,10331,854518728062939,2374373169254345,BOT: message,"Hmm, that wasn't quite right. :disappointed_face:",2018-08-17 22:21:49
+2374373169254345,Yi,Feng,10332,854518728062939,2374373169254345,BOT: quick reply,The correct answer is rancor.,2018-08-17 22:21:50
+2374373169254345,Yi,Feng,10333,2374373169254345,854518728062939,user_quick_reply: WHY,Why?,2018-08-17 22:21:53
+2374373169254345,Yi,Feng,10334,854518728062939,2374373169254345,BOT: message,I hope this explanation could help you understand the the question.,2018-08-17 22:21:54
+2374373169254345,Yi,Feng,10335,854518728062939,2374373169254345,BOT: quick reply,":pushpin: Rancor -- a feeling of deep and bitter anger and ill-will
+:pushpin: Camaraderie -- the quality of affording easy familiarity and sociability
+:pushpin: Adulation -- servile flattery; exaggerated and hypocritical praise
+:pushpin: Facetiousness -- playful humor
+:pushpin: Hubris -- overbearing pride or presumption",2018-08-17 22:21:56
+2374373169254345,Yi,Feng,10336,2374373169254345,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-17 22:22:30
+2374373169254345,Yi,Feng,10337,854518728062939,2374373169254345,BOT: message,How about this next one:,2018-08-17 22:22:31
+2374373169254345,Yi,Feng,10338,854518728062939,2374373169254345,BOT: quick reply,The pesticides program SENSOR-Pesticides monitors ____________________.,2018-08-17 22:22:33
+2374373169254345,Yi,Feng,10339,2374373169254345,854518728062939,user_quick_reply: I_DONT_KNOW,I dont know :downcast_face_with_sweat:,2018-08-17 22:22:40
+2374373169254345,Yi,Feng,10340,854518728062939,2374373169254345,BOT: quick reply,Are you sure you want to skip answering?,2018-08-17 22:22:42
+2374373169254345,Yi,Feng,10341,2374373169254345,854518728062939,user_quick_reply: GIVEUP_YES,"Yes, answer please.",2018-08-17 22:22:45
+2374373169254345,Yi,Feng,10342,854518728062939,2374373169254345,BOT: message,You didn't get it right this time.,2018-08-17 22:22:46
+2374373169254345,Yi,Feng,10343,854518728062939,2374373169254345,BOT: message,"That's fine, you'll nail it next time! :grinning_face_with_smiling_eyes:",2018-08-17 22:22:48
+2374373169254345,Yi,Feng,10344,854518728062939,2374373169254345,BOT: quick reply,The correct answer is pesticide-related illnesses and injuries in the U.S..,2018-08-17 22:22:49
+2374373169254345,Yi,Feng,10345,2374373169254345,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-17 22:22:56
+2374373169254345,Yi,Feng,10346,854518728062939,2374373169254345,BOT: message,Let's try this one.,2018-08-17 22:22:58
+2374373169254345,Yi,Feng,10347,854518728062939,2374373169254345,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-17 22:22:59
+2374373169254345,Yi,Feng,10348,854518728062939,2374373169254345,BOT: quick reply,Voters have become so inured to the fickle nature of politicians that they responded to the levy of a new tax with _____ .,2018-08-17 22:23:01
+2374373169254345,Yi,Feng,10349,2374373169254345,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-17 22:23:39
+2374373169254345,Yi,Feng,10350,854518728062939,2374373169254345,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-08-17 22:23:41
+2374373169254345,Yi,Feng,10351,854518728062939,2374373169254345,BOT: quick reply,":keycap_1: perplexity
+:keycap_2: stolidity
+:keycap_3: exasperation
+:keycap_4: amazement
+:keycap_5: alarm
+",2018-08-17 22:23:42
+2374373169254345,Yi,Feng,10352,2374373169254345,854518728062939,user_quick_reply: BUTTON_DKB_perplexity,:keycap_1:,2018-08-17 22:23:50
+2374373169254345,Yi,Feng,10353,854518728062939,2374373169254345,BOT: message,"Oops, that wasn't quite correct. :disappointed_face:",2018-08-17 22:23:52
+2374373169254345,Yi,Feng,10354,854518728062939,2374373169254345,BOT: quick reply,The correct answer is stolidity.,2018-08-17 22:23:53
+2374373169254345,Yi,Feng,10355,2374373169254345,854518728062939,user_quick_reply: WHY,Why?,2018-08-17 22:24:03
+2374373169254345,Yi,Feng,10356,854518728062939,2374373169254345,BOT: message,I hope this explanation could help you understand the the question.,2018-08-17 22:24:04
+2374373169254345,Yi,Feng,10357,854518728062939,2374373169254345,BOT: quick reply,":pushpin: Stolidity -- apathy demonstrated by an absence of emotional reactions
+:pushpin: Amazement -- the feeling that accompanies something extremely surprising
+:pushpin: Exasperation -- an exasperated feeling of annoyance
+:pushpin: Alarm -- cause to be unpleasantly surprised
+:pushpin: Perplexity -- trouble or confusion resulting from complexity",2018-08-17 22:24:06
+2374373169254345,Yi,Feng,10358,2374373169254345,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-17 22:24:15
+2374373169254345,Yi,Feng,10359,854518728062939,2374373169254345,BOT: message,Could you answer this one for me?,2018-08-17 22:24:16
+2374373169254345,Yi,Feng,10360,854518728062939,2374373169254345,BOT: quick reply,True or false: you are not required to ask a victim's permission to perform first aid.,2018-08-17 22:24:18
+2374373169254345,Yi,Feng,10361,2374373169254345,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-17 22:25:08
+2374373169254345,Yi,Feng,10362,854518728062939,2374373169254345,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-08-17 22:25:09
+2374373169254345,Yi,Feng,10363,854518728062939,2374373169254345,BOT: quick reply,":keycap_1: false
+:keycap_2: true
+",2018-08-17 22:25:10
+2374373169254345,Yi,Feng,10364,2374373169254345,854518728062939,user_quick_reply: BUTTON_DKB_true,:keycap_2:,2018-08-17 22:25:14
+2374373169254345,Yi,Feng,10365,854518728062939,2374373169254345,BOT: message,"I'm sorry, but that was incorrect. :disappointed_face:",2018-08-17 22:25:17
+2374373169254345,Yi,Feng,10366,854518728062939,2374373169254345,BOT: quick reply,The correct answer is false.,2018-08-17 22:25:18
+2374373169254345,Yi,Feng,10367,2374373169254345,854518728062939,user_quick_reply: WHY,Why?,2018-08-17 22:25:21
+2374373169254345,Yi,Feng,10368,854518728062939,2374373169254345,BOT: message,This is an explanation of the question:,2018-08-17 22:25:22
+2374373169254345,Yi,Feng,10369,854518728062939,2374373169254345,BOT: quick reply,"Practitioners of first aid need to obtain advance consent or permission, the so-called expressed consent from the patient. To obtain consent, you should identify yourself, describe your level of medical training, and ask if it is all right to help. While administering first aid to an unresponsive victim, consent is implied or assumed, given that a reasonable person would grant permission to receive first aid care if able to do so.",2018-08-17 22:25:24
+2374373169254345,Yi,Feng,10370,2374373169254345,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-17 22:26:14
+2374373169254345,Yi,Feng,10371,854518728062939,2374373169254345,BOT: message,I think you'll like this question.,2018-08-17 22:26:16
+2374373169254345,Yi,Feng,10372,854518728062939,2374373169254345,BOT: quick reply,Myofibrils are long cylindrical structures that lie parallel to and run the entire length of what fibers?,2018-08-17 22:26:17
+2374373169254345,Yi,Feng,10373,2374373169254345,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-17 22:26:38
+2374373169254345,Yi,Feng,10374,854518728062939,2374373169254345,BOT: message,Pick one of the following answers.,2018-08-17 22:26:40
+2374373169254345,Yi,Feng,10375,854518728062939,2374373169254345,BOT: quick reply,":keycap_1: uplift muscle fibers
+:keycap_2: heart muscle fibers
+:keycap_3: luminous muscle fibers
+:keycap_4: skeletal muscle fibers
+",2018-08-17 22:26:41
+2374373169254345,Yi,Feng,10376,2374373169254345,854518728062939,user_quick_reply: BUTTON_DKB_heart muscle fibers,:keycap_2:,2018-08-17 22:27:12
+2374373169254345,Yi,Feng,10377,854518728062939,2374373169254345,BOT: message,"Oops, that wasn't quite correct. :disappointed_face:",2018-08-17 22:27:13
+2374373169254345,Yi,Feng,10378,854518728062939,2374373169254345,BOT: quick reply,The correct answer is skeletal muscle fibers.,2018-08-17 22:27:15
+2374373169254345,Yi,Feng,10379,2374373169254345,854518728062939,user_quick_reply: WHY,Why?,2018-08-17 22:27:31
+2374373169254345,Yi,Feng,10380,854518728062939,2374373169254345,BOT: message,Here's an explanation:,2018-08-17 22:27:32
+2374373169254345,Yi,Feng,10381,854518728062939,2374373169254345,BOT: quick reply,"Each skeletal muscle fiber is a skeletal muscle cell. Within each muscle fiber are myofibrils, long cylindrical structures that lie parallel to the muscle fiber. Myofibrils run the entire length of the muscle fiber. They attach to the plasma membrane, called the sarcolemma, at their ends, so that as myofibrils shorten, the entire muscle cell contracts.",2018-08-17 22:27:34
+2374373169254345,Yi,Feng,10382,2374373169254345,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-17 22:30:49
+2374373169254345,Yi,Feng,10383,854518728062939,2374373169254345,BOT: message,"Alrighty, let's try this one.",2018-08-17 22:30:50
+2374373169254345,Yi,Feng,10384,854518728062939,2374373169254345,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-17 22:30:51
+2374373169254345,Yi,Feng,10385,854518728062939,2374373169254345,BOT: quick reply,"True or false: when flooring cannot be changed to provide cushion, anti-fatigue mats can help ease discomfort to the feet and back.",2018-08-17 22:30:53
+2374373169254345,Yi,Feng,10386,2374373169254345,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-17 22:31:04
+2374373169254345,Yi,Feng,10387,854518728062939,2374373169254345,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-08-17 22:31:05
+2374373169254345,Yi,Feng,10388,854518728062939,2374373169254345,BOT: quick reply,":keycap_1: true
+:keycap_2: false
+",2018-08-17 22:31:06
+2374373169254345,Yi,Feng,10389,2374373169254345,854518728062939,user_quick_reply: I_DONT_KNOW,I dont know :downcast_face_with_sweat:,2018-08-17 22:31:13
+2374373169254345,Yi,Feng,10390,854518728062939,2374373169254345,BOT: quick reply,Are you sure you want to give up?,2018-08-17 22:31:14
+2374373169254345,Yi,Feng,10391,2374373169254345,854518728062939,user_quick_reply: GIVEUP_YES,"Yes, answer please.",2018-08-17 22:31:17
+2374373169254345,Yi,Feng,10392,854518728062939,2374373169254345,BOT: message,You didn't get this question this time.,2018-08-17 22:31:19
+2374373169254345,Yi,Feng,10393,854518728062939,2374373169254345,BOT: message,"Keep trying, you'll get it next time! :grinning_face_with_smiling_eyes:",2018-08-17 22:31:20
+2374373169254345,Yi,Feng,10394,854518728062939,2374373169254345,BOT: quick reply,The correct answer is true.,2018-08-17 22:31:22
+2374373169254345,Yi,Feng,10395,2374373169254345,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-17 22:31:54
+2374373169254345,Yi,Feng,10396,854518728062939,2374373169254345,BOT: message,Let's see if you can get this one.,2018-08-17 22:31:55
+2374373169254345,Yi,Feng,10397,854518728062939,2374373169254345,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-17 22:31:56
+2374373169254345,Yi,Feng,10398,854518728062939,2374373169254345,BOT: quick reply,True or false: portable fire extinguishers should only be used by trained employees.,2018-08-17 22:31:58
+2374373169254345,Yi,Feng,10836,854518728062939,2374373169254345,BOT: quick reply,"Hi Yi, you haven't talked to me for a while. Would you like to resume the learning with me?",2018-08-18 20:00:52
+2374373169254345,Yi,Feng,11090,2374373169254345,854518728062939,user_quick_reply: NEXT_QUESTION,Alright :backhand_index_pointing_right_medium-light_skin_tone:,2018-08-18 20:31:11
+2374373169254345,Yi,Feng,11091,854518728062939,2374373169254345,BOT: message,Would you answer this question for me?,2018-08-18 20:31:12
+2374373169254345,Yi,Feng,11092,854518728062939,2374373169254345,BOT: quick reply,While she may have answered him truthfully - in the strictest sense of the word - it became clear to Sergei after the incident that Sheryl had actually been trying to _____ .,2018-08-18 20:31:14
+2374373169254345,Yi,Feng,11379,854518728062939,2374373169254345,BOT: quick reply,"Hi Yi, you haven't talked to me for a while. Would you like to resume the learning with me?",2018-08-19 20:00:24
+2374373169254345,Yi,Feng,11870,854518728062939,2374373169254345,BOT: quick reply,"Hi Yi, you haven't talked to me for a while. Would you like to resume the learning with me?",2018-08-20 20:00:55
+2374373169254345,Yi,Feng,12432,854518728062939,2374373169254345,BOT: quick reply,"Hi Yi, you haven't talked to me for a while. Would you like to resume the learning with me?",2018-08-21 20:01:30
