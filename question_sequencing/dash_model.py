@@ -106,16 +106,17 @@ class DASHSequencingModel(BaseSequencingModel):
                               'distractor' : } 
         '''
         if subject == 'random':
-            QID = random.randint(0, self.QA_KB.KBlength)
+            idx = random.randint(0, self.QA_KB.KBlength-1)
         else:
             # if subject is not random, then pick from the respective subject question bank
-            QID = random.choice(self.QA_KB.SubDict[subject])
+            idx = random.choice(self.QA_KB.SubDict[subject])
 
-        data = {'question': self.QA_KB.QKB[QID],
-                'qid': int(QID),
-                'correct_answer': self.QA_KB.AKB[QID],
-                'support': self.QA_KB.SKB[QID],
-                'distractor': self.QA_KB.DKB[QID]}
+        data = {'question': self.QA_KB.QKB[idx],
+                'index': idx,
+                'qid': self.QA_KB.QID[idx],
+                'correct_answer': self.QA_KB.AKB[idx],
+                'support': self.QA_KB.SKB[idx],
+                'distractor': self.QA_KB.DKB[idx]}
 
         return data
 
@@ -147,14 +148,15 @@ class DASHSequencingModel(BaseSequencingModel):
         distances = np.abs(likelihoods - self.threshold)
         np.put(threshold_distances, id_list, list(distances[id_list]))
 
-        QID = np.argmin(threshold_distances)
+        idx = np.argmin(threshold_distances)
         print('likelihood is ', likelihoods[self.curr_item[user_id]])
 
-        data = {'question': self.QA_KB.QKB[QID],
-                'qid': int(QID),
-                'correct_answer': self.QA_KB.AKB[QID],
-                'support': self.QA_KB.SKB[QID],
-                'distractor': self.QA_KB.DKB[QID]}
+        data = {'question': self.QA_KB.QKB[idx],
+                'index': idx,
+                'qid': self.QA_KB.QID[idx],
+                'correct_answer': self.QA_KB.AKB[idx],
+                'support': self.QA_KB.SKB[idx],
+                'distractor': self.QA_KB.DKB[idx]}
 
         return data
 
@@ -173,10 +175,10 @@ class DASHSequencingModel(BaseSequencingModel):
             data = self.pickRandomQuestion(user_id, subject)
 
         # ensure no repeated questions
-        while data['qid'] == self.curr_item[user_id]:
+        while data['index'] == self.curr_item[user_id]:
             data = self.pickRandomQuestion(user_id, subject)
 
-        self.curr_item[user_id] = data['qid']
+        self.curr_item[user_id] = data['index']
 
         return data   
 
