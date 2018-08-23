@@ -5,6 +5,7 @@ import numpy as np
 import time
 import random
 from collections import defaultdict
+
 from base_model import BaseSequencingModel
 
 np.random.seed(42)
@@ -41,7 +42,7 @@ class DASHSequencingModel(BaseSequencingModel):
 
         # mapping from user id to users current step
         self.curr_step = defaultdict(int)
-        self.curr_item = {}
+        self.curr_item = defaultdict(int)
         self.update_time = {}
         self.last_viewed = defaultdict(
             lambda: np.ones(self.num_items) * time.time())
@@ -110,9 +111,6 @@ class DASHSequencingModel(BaseSequencingModel):
             # if subject is not random, then pick from the respective subject question bank
             QID = random.choice(self.QA_KB.SubDict[subject])
 
-        # set current item
-        self.curr_item[user_id] = QID
-
         data = {'question': self.QA_KB.QKB[QID],
                 'qid': int(QID),
                 'correct_answer': self.QA_KB.AKB[QID],
@@ -149,10 +147,8 @@ class DASHSequencingModel(BaseSequencingModel):
         distances = np.abs(likelihoods - self.threshold)
         np.put(threshold_distances, id_list, list(distances[id_list]))
 
-        self.curr_item[user_id] = np.argmin(threshold_distances)
+        QID = np.argmin(threshold_distances)
         print('likelihood is ', likelihoods[self.curr_item[user_id]])
-
-        QID = self.curr_item[user_id]
 
         data = {'question': self.QA_KB.QKB[QID],
                 'qid': int(QID),
