@@ -3,7 +3,6 @@
     Author: Liwei Jiang
     Date: 02/08/2018
     Usage: Calculate the usage time of the QuizBot app for a user.
-           The code can be modified to compute the user reaction time by only considering the action that user sends message to the chatbot.
 '''
 import csv
 import sys
@@ -15,13 +14,13 @@ result_filename = "quizbot_data_analysis.txt"
 
 # Past Pilot Users: "Alex_Nguyen", "Maika_Isogawa", "Michael_Cooper", "Jordan_Cho", "Laura_Davey"
 
-users = ["Veronica_Cruz", "Jackie_Fortin", "Eleni_Aneziris", "Zilin_Ma", "Jongho_Kim", \
-       "Nina_Tai", "Yi_Feng", "Pingyu_Wang", "Dae hyun_Kim", "Lantao_Mei", \
-         "Michael_Silvernagel", "Bianca_Yu", "Julia_Thompson"]
+# users = ["Veronica_Cruz", "Jackie_Fortin", "Eleni_Aneziris", "Zilin_Ma", "Jongho_Kim", \
+#        "Nina_Tai", "Yi_Feng", "Pingyu_Wang", "Dae hyun_Kim", "Lantao_Mei", \
+#          "Michael_Silvernagel", "Bianca_Yu", "Julia_Thompson"]
 
 # within-subject users
-# users = ["Noah Yinuo_Yao", "Dee Dee_Thao", "Zhenqi_Hu", "Jingyi_Li", "Joy_Yuzuriha", "Tyler_Yep", \
-#          "Andrew_Ying", "Henry_Qin", "Nina_Horowitz", "Daniel_Do", "Fangmingyu_Yang", "Francis_Yan", "Olivia_Yang"]
+users = ["Noah Yinuo_Yao", "Dee Dee_Thao", "Zhenqi_Hu", "Jingyi_Li", "Joy_Yuzuriha", "Tyler_Yep", \
+         "Andrew_Ying", "Henry_Qin", "Nina_Horowitz", "Daniel_Do", "Fangmingyu_Yang", "Francis_Yan", "Olivia_Yang"]
 
 # 54 questions in post-study quiz (quiz B)
 postquiz_qid = set([146, 145, 118, 130, 148, 117, 127, 111, 120, 141, 143, 147, 114, 121, \
@@ -62,7 +61,7 @@ END_QID_INDEX = 8
 if len(sys.argv) == 3:
     users = [sys.argv[1] + "_" + sys.argv[2]]
 
-time_report = {}  # a disctionary of dates and corresponding daily usage time
+time_report = {} # a disctionary of dates and corresponding daily usage time
 question_report = {} # a disctionary of studied question (total studies question, unique studies questions)
 
 for user in users:
@@ -103,14 +102,8 @@ for user in users:
         analysis[day_counter].append((1, 0))
 
     for i in range(1, len(conversation_file)):
-        sender = conversation_file[i][SENDER_INDEX]
-        recipient = conversation_file[i][RECIPIENT_INDEX]
-        try:
-            time_stamp = conversation_file[i][TIME_STAMP_INDEX]
-            time_stamp = datetime.strptime(time_stamp, "%Y-%m-%d %H:%M:%S")
-        except:
-            time_stamp = conversation_file[i][TIME_STAMP_INDEX + 1]
-            time_stamp = datetime.strptime(time_stamp, "%Y-%m-%d %H:%M:%S")
+        time_stamp = conversation_file[i][TIME_STAMP_INDEX]
+        time_stamp = datetime.strptime(time_stamp, "%Y-%m-%d %H:%M:%S")
 
         if (time_stamp.year, time_stamp.month, time_stamp.day) != (old_time_stamp.year, old_time_stamp.month, old_time_stamp.day):
             analysis.append([])
@@ -118,13 +111,6 @@ for user in users:
             sub_time_report.append(
                 (old_time_stamp.year, old_time_stamp.month, old_time_stamp.day, total_usage_time/60))
             total_usage_time = 0
-
-        if sender == chatbot_id and recipient == user_id:
-            analysis[day_counter].append(
-                (0, (time_stamp - old_time_stamp).total_seconds()))
-        else:
-            analysis[day_counter].append(
-                (1, (time_stamp - old_time_stamp).total_seconds()))
 
         if (time_stamp - old_time_stamp).total_seconds() <= BREAK_TIME:
             total_usage_time += (time_stamp - old_time_stamp).total_seconds()

@@ -1,16 +1,15 @@
 '''
-    split_quiz.py
+    score_calculator.py
     Author: Liwei Jiang
     Date: 02/07/2018
-    Usage: Refine the 60-question quiz into 54-question quiz
-    	   Split the 54-question quiz into two 27-question quiz with same difficulty level.
+    Usage: calculate user quiz scores
+
 '''
 import csv
 import itertools
 import random
 import numpy
 import json
-
 
 # question index in Qualtrics quiz A and quiz B
 quiz_a_gre_index = [0, 3, 8, 10, 13, 14, 15, 16, 18, 31, 34, 35, 38, 42, 48, 52, 53, 54]
@@ -31,7 +30,7 @@ b1 = [3, 6, 9, 11, 12, 13, 16, 18, 22, 24, 25, 27, 29, 30, 33, 36, 39, 44, 45, 4
 a2 = [6, 7, 9, 11, 15, 27, 28, 30, 31, 33, 34, 35, 36, 38, 39, 40, 43, 44, 45, 48, 49, 50, 51, 52, 53, 54, 59]
 b2 = [0, 1, 2, 4, 7, 8, 10, 14, 15, 17, 19, 23, 26, 28, 31, 32, 34, 35, 37, 38, 41, 42, 43, 51, 53, 57, 59]
 
-quiz_a_repeated_index = [0,     3,  4,  6,   8,  9,  14,  15, 19, 21, 24, 26, 30, 32,  34, 37, 40, 43, 44,  54, 58, 59]
+quiz_a_repeated_index = [ 0,    3,  4,  6,   8,  9,  14,  15, 19, 21, 24, 26, 30, 32,  34, 37, 40, 43, 44,  54, 58, 59]
 quiz_b_repeated_index = [13,   22, 33, 37,  52, 17,  36,   0, 54, 44, 11, 39,  8,  6,  15, 24, 57, 43,  1,  19, 49,  4]
 
 # unique question id in the 150 question pool
@@ -55,8 +54,7 @@ a2_to_id = {6: 93, 7: 94, 9: 21, 11: 82, 15: 146, 27: 64, 28: 14, 30: 84, 31: 10
 b1_to_id = {3: 145, 6: 90, 9: 24, 11: 58, 12: 130, 13: 148, 16: 83, 18: 59, 22: 111, 24: 44, 25: 17, 27: 56, 29: 141, 30: 73, 33: 6, 36: 114, 39: 11, 44: 37, 45: 9, 46: 77, 49: 75, 50: 106, 52: 102, 54: 41, 55: 89, 56: 29, 58: 133}
 b2_to_id = {0: 146, 1: 72, 2: 25, 4: 79, 7: 118, 8: 84, 10: 1, 14: 19, 15: 117, 17: 21, 19: 127, 23: 50, 26: 30, 28: 120, 31: 38, 32: 143, 34: 147, 35: 8, 37: 93, 38: 2, 41: 121, 42: 68, 43: 53, 51: 97, 53: 112, 57: 42, 59: 87}
 
-
-# calculate the quiz A score for the between subject users 
+# calculate the quiz A score for the between subject users (out of 54)
 def between_subject():
 	quiz_a_score_report_filename = "csv/MTurk1_A_score_report.csv"
 	quiz_b_score_report_filename = "csv/MTurk1_B_score_report.csv"
@@ -117,6 +115,7 @@ def between_subject():
 	print(len(result_data))
 
 
+# calculate the scores of questions users have seen (30 + 20, Quiz B)
 def quiz_b_30_20():
 	quiz_score_report_filename = "csv/MTurk1_B_score_report.csv"
 	quiz_question = []
@@ -174,6 +173,7 @@ def quiz_b_30_20():
 	print(len(result_data))
 
 
+# calculate the scores of questions users have seen (40 + 10, Quiz B)
 def quiz_b_40_10():
 	quiz_score_report_filename = "csv/Quiz_B_40_10_recall_score_report.csv"
 	quiz_question = []
@@ -235,6 +235,7 @@ def quiz_b_40_10():
 	print(len(result_data))
 
 
+# calculate the scores of the repeated questions (30 + 20, Quiz A)
 def quiz_a_30_20():
 	quiz_score_report_filename = "csv/MTurk1_A_score_report.csv"
 	quiz_question = []
@@ -283,6 +284,7 @@ def quiz_a_30_20():
 	print(len(result_data))
 
 
+# calculate the scores of the repeated questions (40 + 10, Quiz A)
 def quiz_a_40_10():
 	quiz_score_report_filename = "csv/MTurk1_A_score_report.csv"
 	quiz_question = []
@@ -333,3 +335,5 @@ def quiz_a_40_10():
 
 if __name__ == "__main__":
 	quiz_b_40_10()
+
+
