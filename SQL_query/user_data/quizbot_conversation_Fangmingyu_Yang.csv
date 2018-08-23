@@ -541,3 +541,13 @@ user_id,user_firstname,user_lastname,uid,sender,recipient,type,dialogue,time_sta
 1833809400020333,Fangmingyu,Yang,3990,1833809400020333,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-22 13:17:21
 1833809400020333,Fangmingyu,Yang,3991,854518728062939,1833809400020333,BOT: message,Let's try this question.,2018-08-22 13:17:23
 1833809400020333,Fangmingyu,Yang,3992,854518728062939,1833809400020333,BOT: quick reply,What disease characterized by the extreme swelling of the limbs is caused by infection with a type of roundworm?,2018-08-22 13:17:24
+1833809400020333,Fangmingyu,Yang,4104,1833809400020333,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-22 17:05:01
+1833809400020333,Fangmingyu,Yang,4105,854518728062939,1833809400020333,BOT: message,Okay. I'll give you some choices.,2018-08-22 17:05:02
+1833809400020333,Fangmingyu,Yang,4106,854518728062939,1833809400020333,BOT: quick reply,":keycap_1: gigantism
+:keycap_2: pulmonary edema
+:keycap_3: fibrosis
+:keycap_4: elephantiasis
+",2018-08-22 17:05:04
+1833809400020333,Fangmingyu,Yang,4107,1833809400020333,854518728062939,user_quick_reply: BUTTON_DKB_fibrosis,:keycap_3:,2018-08-22 17:06:08
+1833809400020333,Fangmingyu,Yang,4108,854518728062939,1833809400020333,BOT: message,"Hmm, that wasn't quite right. :disappointed_face:",2018-08-22 17:06:09
+1833809400020333,Fangmingyu,Yang,4109,854518728062939,1833809400020333,BOT: quick reply,The correct answer is elephantiasis.,2018-08-22 17:06:11
