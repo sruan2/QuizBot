@@ -114,7 +114,7 @@ class DASHSequencingModel(BaseSequencingModel):
         self.curr_item[user_id] = QID
 
         data = {'question': self.QA_KB.QKB[QID],
-                'qid': int(QID),
+                'qid': int(self.QA_KB.QID[QID]),
                 'correct_answer': self.QA_KB.AKB[QID],
                 'support': self.QA_KB.SKB[QID],
                 'distractor': self.QA_KB.DKB[QID]}
@@ -155,7 +155,7 @@ class DASHSequencingModel(BaseSequencingModel):
         QID = self.curr_item[user_id]
 
         data = {'question': self.QA_KB.QKB[QID],
-                'qid': int(QID),
+                'qid': int(self.QA_KB.QID[QID]),
                 'correct_answer': self.QA_KB.AKB[QID],
                 'support': self.QA_KB.SKB[QID],
                 'distractor': self.QA_KB.DKB[QID]}

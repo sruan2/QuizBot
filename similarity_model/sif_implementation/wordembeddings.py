@@ -53,6 +53,7 @@ class EmbeddingVectorizer(CountVectorizer):
         self.stop_words = stop_words
         
         self.word_vectors = word_vectors
+        self.dimension = len(list(word_vectors.values())[0])
         self.weighted = weighted
         self.R = R
         
@@ -82,8 +83,7 @@ class EmbeddingVectorizer(CountVectorizer):
                         vw *= 1e-3 / (1e-3 + freq)
                     word_vecs.append(vw)
                 except KeyError:
-                    # Ignore out-of-vocabulary items for fixed_vocab=True
-                    continue
+                    word_vecs.append(np.zeros(self.dimension))
 
             if word_vecs:
                 vs = np.array(word_vecs).mean(axis=0)
