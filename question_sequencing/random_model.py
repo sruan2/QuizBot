@@ -25,9 +25,9 @@ class RandomSequencingModel(BaseSequencingModel):
 			QID = choice(self.QA_KB.SubDict[subject])
 
 		data = {'question': self.QA_KB.QKB[QID],
-				'qid': QID,
+				'qid': [QID, self.QA_KB.QID[QID]],
 				'correct_answer': self.QA_KB.AKB[QID],
 				'support': self.QA_KB.SKB[QID],
 				'distractor': self.QA_KB.DKB[QID]}
-
+			
 		return data

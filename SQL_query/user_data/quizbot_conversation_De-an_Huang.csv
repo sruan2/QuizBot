@@ -1,0 +1,259 @@
+user_id,user_firstname,user_lastname,uid,sender,recipient,type,dialogue,time_stamp
+1771981546253699,De-an,Huang,6627,1771981546253699,854518728062939,persistent_menu: GET_INTRO_1,Get Started,2018-08-23 10:40:08
+1771981546253699,De-an,Huang,6628,854518728062939,1771981546253699,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/quizbot_avatar.png,2018-08-23 10:40:19
+1771981546253699,De-an,Huang,6629,854518728062939,1771981546253699,BOT: quick reply,"Hi De-an! My name is Frosty :penguin: and Im here to help you learn all about science:microscope:, verbal reasoning (GRE) :input_latin_uppercase:, and safety:hammer_and_wrench:!",2018-08-23 10:40:20
+1771981546253699,De-an,Huang,6633,1771981546253699,854518728062939,persistent_menu: SAFETY,Safety:hammer_and_wrench:,2018-08-23 10:40:31
+1771981546253699,De-an,Huang,6634,854518728062939,1771981546253699,BOT: quick reply,Okay! Lets see how much you know about safety!,2018-08-23 10:40:33
+1771981546253699,De-an,Huang,6635,1771981546253699,854518728062939,user_quick_reply: NEXT_QUESTION,Continue :thumbs_up_medium-light_skin_tone:,2018-08-23 10:40:41
+1771981546253699,De-an,Huang,6636,854518728062939,1771981546253699,BOT: message,"Alrighty, let's try this one.",2018-08-23 10:40:42
+1771981546253699,De-an,Huang,6638,854518728062939,1771981546253699,BOT: quick reply,Which fire extinguishers are used to put out fires caused by flammable liquids?,2018-08-23 10:40:44
+1771981546253699,De-an,Huang,6639,1771981546253699,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 10:41:00
+1771981546253699,De-an,Huang,6640,1771981546253699,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 10:41:01
+1771981546253699,De-an,Huang,6641,1771981546253699,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 10:41:03
+1771981546253699,De-an,Huang,6642,1771981546253699,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 10:41:04
+1771981546253699,De-an,Huang,6643,1771981546253699,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 10:41:07
+1771981546253699,De-an,Huang,6644,1771981546253699,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 10:41:10
+1771981546253699,De-an,Huang,6646,1771981546253699,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 10:41:27
+1771981546253699,De-an,Huang,6647,1771981546253699,854518728062939,persistent_menu: SAFETY,Safety:hammer_and_wrench:,2018-08-23 10:41:54
+1771981546253699,De-an,Huang,6648,854518728062939,1771981546253699,BOT: quick reply,Safety first! Here's some questions on safety!,2018-08-23 10:41:56
+1771981546253699,De-an,Huang,6651,1771981546253699,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 10:42:39
+1771981546253699,De-an,Huang,6653,1771981546253699,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 10:43:57
+1771981546253699,De-an,Huang,6656,1771981546253699,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 10:45:09
+1771981546253699,De-an,Huang,6658,1771981546253699,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 10:46:25
+1771981546253699,De-an,Huang,6661,1771981546253699,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 10:47:45
+1771981546253699,De-an,Huang,6670,1771981546253699,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 10:49:10
+1771981546253699,De-an,Huang,6675,1771981546253699,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 10:50:35
+1771981546253699,De-an,Huang,6679,1771981546253699,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 10:51:58
+1771981546253699,De-an,Huang,6683,1771981546253699,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 10:53:22
+1771981546253699,De-an,Huang,6687,1771981546253699,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 10:54:41
+1771981546253699,De-an,Huang,6692,1771981546253699,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 10:56:07
+1771981546253699,De-an,Huang,6694,1771981546253699,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 10:57:23
+1771981546253699,De-an,Huang,6698,1771981546253699,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 10:58:37
+1771981546253699,De-an,Huang,6702,1771981546253699,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 11:00:02
+1771981546253699,De-an,Huang,6708,1771981546253699,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 11:01:27
+1771981546253699,De-an,Huang,6711,1771981546253699,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 11:02:51
+1771981546253699,De-an,Huang,6716,1771981546253699,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 11:04:06
+1771981546253699,De-an,Huang,6720,1771981546253699,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 11:05:27
+1771981546253699,De-an,Huang,6724,1771981546253699,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 11:06:48
+1771981546253699,De-an,Huang,6727,1771981546253699,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 11:08:01
+1771981546253699,De-an,Huang,6730,1771981546253699,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 11:09:14
+1771981546253699,De-an,Huang,6734,1771981546253699,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 11:10:34
+1771981546253699,De-an,Huang,6737,1771981546253699,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 11:12:00
+1771981546253699,De-an,Huang,6741,1771981546253699,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 11:13:22
+1771981546253699,De-an,Huang,6746,1771981546253699,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 11:14:48
+1771981546253699,De-an,Huang,6752,1771981546253699,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 11:16:02
+1771981546253699,De-an,Huang,6766,1771981546253699,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 11:17:26
+1771981546253699,De-an,Huang,6781,1771981546253699,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 11:18:42
+1771981546253699,De-an,Huang,6785,1771981546253699,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 11:20:05
+1771981546253699,De-an,Huang,6789,1771981546253699,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 11:21:27
+1771981546253699,De-an,Huang,6793,1771981546253699,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 11:22:44
+1771981546253699,De-an,Huang,6797,1771981546253699,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 11:24:04
+1771981546253699,De-an,Huang,6801,1771981546253699,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 11:25:25
+1771981546253699,De-an,Huang,6805,1771981546253699,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 11:26:47
+1771981546253699,De-an,Huang,6809,1771981546253699,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 11:28:00
+1771981546253699,De-an,Huang,6813,1771981546253699,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 11:29:12
+1771981546253699,De-an,Huang,6817,1771981546253699,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 11:30:30
+1771981546253699,De-an,Huang,6820,1771981546253699,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 11:31:45
+1771981546253699,De-an,Huang,6833,1771981546253699,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 11:35:35
+1771981546253699,De-an,Huang,6834,854518728062939,1771981546253699,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-08-23 11:35:37
+1771981546253699,De-an,Huang,6835,854518728062939,1771981546253699,BOT: quick reply,":keycap_1: Class C dry chemical fire extinguisher
+:keycap_2: Class B carbon dioxide fire extinguisher
+:keycap_3: Class A water fire extinguishers
+",2018-08-23 11:35:38
+1771981546253699,De-an,Huang,6836,1771981546253699,854518728062939,user_quick_reply: NEXT_QUESTION,"Yes, continue :raising_hands_medium-light_skin_tone:",2018-08-23 11:35:39
+1771981546253699,De-an,Huang,6837,854518728062939,1771981546253699,BOT: message,See if you can answer this next one.,2018-08-23 11:35:41
+1771981546253699,De-an,Huang,6838,854518728062939,1771981546253699,BOT: quick reply,Which fire extinguishers are used to put out Class A fires?,2018-08-23 11:35:42
+1771981546253699,De-an,Huang,7296,1771981546253699,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 14:42:30
+1771981546253699,De-an,Huang,7297,854518728062939,1771981546253699,BOT: message,It's one of the following choices.,2018-08-23 14:42:32
+1771981546253699,De-an,Huang,7298,854518728062939,1771981546253699,BOT: quick reply,":keycap_1: Both water and multi-purpose dry chemical
+:keycap_2: Multi-purpose dry chemical only
+:keycap_3: Water only
+:keycap_4: CO2 only
+:keycap_5: Both CO2 and water
+",2018-08-23 14:42:33
+1771981546253699,De-an,Huang,7299,1771981546253699,854518728062939,user_quick_reply: BUTTON_DKB_Multi-purpose dry chemical only,:keycap_2:,2018-08-23 14:44:00
+1771981546253699,De-an,Huang,7300,854518728062939,1771981546253699,BOT: message,"Hmm, that wasn't quite right. :disappointed_face:",2018-08-23 14:44:02
+1771981546253699,De-an,Huang,7301,854518728062939,1771981546253699,BOT: quick reply,The correct answer is Both water and multi-purpose dry chemical.,2018-08-23 14:44:03
+1771981546253699,De-an,Huang,7302,1771981546253699,854518728062939,user_quick_reply: SWITCH_SUBJECT,Change subject :shuffle_tracks_button:,2018-08-23 14:44:21
+1771981546253699,De-an,Huang,7303,854518728062939,1771981546253699,BOT: quick reply,"Okay, which subject would you like to choose?:backhand_index_pointing_down_medium-light_skin_tone:",2018-08-23 14:44:23
+1771981546253699,De-an,Huang,7304,1771981546253699,854518728062939,user_quick_reply: GRE,GRE :input_latin_uppercase:,2018-08-23 14:44:27
+1771981546253699,De-an,Huang,7305,854518728062939,1771981546253699,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/evolvesafety_reading.gif,2018-08-23 14:44:32
+1771981546253699,De-an,Huang,7306,854518728062939,1771981546253699,BOT: quick reply,Awesome! Let's learn about the GRE!,2018-08-23 14:44:33
+1771981546253699,De-an,Huang,7307,1771981546253699,854518728062939,user_quick_reply: NEXT_QUESTION,Tap me :flexed_biceps_medium-light_skin_tone:,2018-08-23 14:44:38
+1771981546253699,De-an,Huang,7308,854518728062939,1771981546253699,BOT: message,Could you answer this one for me?,2018-08-23 14:44:39
+1771981546253699,De-an,Huang,7309,854518728062939,1771981546253699,BOT: quick reply,"Possessing few natural resources upon its newly-granted independence in 1863, Singapore remained economically _____ until an influx of industrialization and foreign investment took hold there.",2018-08-23 14:44:40
+1771981546253699,De-an,Huang,7310,1771981546253699,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 14:44:52
+1771981546253699,De-an,Huang,7311,854518728062939,1771981546253699,BOT: message,Pick one of the following answers.,2018-08-23 14:44:54
+1771981546253699,De-an,Huang,7312,854518728062939,1771981546253699,BOT: quick reply,":keycap_1: dubious
+:keycap_2: solvent
+:keycap_3: fortuitous
+:keycap_4: prosperous
+:keycap_5: powerful
+",2018-08-23 14:44:55
+1771981546253699,De-an,Huang,7313,1771981546253699,854518728062939,user_typing,2,2018-08-23 14:45:10
+1771981546253699,De-an,Huang,7314,854518728062939,1771981546253699,BOT: message,That wasn't quite what we were looking for. :disappointed_face:,2018-08-23 14:45:12
+1771981546253699,De-an,Huang,7315,854518728062939,1771981546253699,BOT: quick reply,The correct answer is dubious.,2018-08-23 14:45:13
+1771981546253699,De-an,Huang,7316,1771981546253699,854518728062939,user_quick_reply: WHY,Why?,2018-08-23 14:45:20
+1771981546253699,De-an,Huang,7317,854518728062939,1771981546253699,BOT: message,I hope this explanation could help you understand the the question.,2018-08-23 14:45:21
+1771981546253699,De-an,Huang,7318,854518728062939,1771981546253699,BOT: quick reply,:pushpin: Dubious -- fraught with uncertainty or doubt,2018-08-23 14:45:23
+1771981546253699,De-an,Huang,7319,1771981546253699,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-23 14:45:34
+1771981546253699,De-an,Huang,7320,854518728062939,1771981546253699,BOT: message,Let's try this one.,2018-08-23 14:45:35
+1771981546253699,De-an,Huang,7321,854518728062939,1771981546253699,BOT: quick reply,"Having squandered his life's savings on unprofitable business ventures, the _____ entrepreneur was forced to live in squalor.",2018-08-23 14:45:37
+1771981546253699,De-an,Huang,7322,1771981546253699,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 14:46:06
+1771981546253699,De-an,Huang,7323,854518728062939,1771981546253699,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-08-23 14:46:08
+1771981546253699,De-an,Huang,7324,854518728062939,1771981546253699,BOT: quick reply,":keycap_1: unlikely
+:keycap_2: insolvent
+:keycap_3: eccentric
+:keycap_4: former
+:keycap_5: perturbed
+",2018-08-23 14:46:09
+1771981546253699,De-an,Huang,7325,1771981546253699,854518728062939,user_quick_reply: BUTTON_AKB_insolvent,:keycap_2:,2018-08-23 14:46:25
+1771981546253699,De-an,Huang,7326,854518728062939,1771981546253699,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_normal_pink.png,2018-08-23 14:46:28
+1771981546253699,De-an,Huang,7327,854518728062939,1771981546253699,BOT: message,Yes! You got the correct answer!,2018-08-23 14:46:29
+1771981546253699,De-an,Huang,7328,854518728062939,1771981546253699,BOT: quick reply,The correct answer is insolvent.,2018-08-23 14:46:31
+1771981546253699,De-an,Huang,7329,1771981546253699,854518728062939,user_quick_reply: WHY,Why?,2018-08-23 14:46:35
+1771981546253699,De-an,Huang,7330,854518728062939,1771981546253699,BOT: message,I hope this explanation could help you understand the the question.,2018-08-23 14:46:36
+1771981546253699,De-an,Huang,7331,854518728062939,1771981546253699,BOT: quick reply,":pushpin: Insolvent -- unable to meet or discharge financial obligations
+:pushpin: Former -- preceding in time; prior or earlier
+:pushpin: Unlikely -- not likely to be true or to occur or to have occurred
+:pushpin: Perturbed -- thrown into a state of agitated confusion
+:pushpin: Eccentric -- conspicuously or grossly unconventional or unusual",2018-08-23 14:46:38
+1771981546253699,De-an,Huang,7332,1771981546253699,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-23 14:47:01
+1771981546253699,De-an,Huang,7333,854518728062939,1771981546253699,BOT: message,Here's a question for you:,2018-08-23 14:47:03
+1771981546253699,De-an,Huang,7334,854518728062939,1771981546253699,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-23 14:47:04
+1771981546253699,De-an,Huang,7335,854518728062939,1771981546253699,BOT: quick reply,"Dolly Madison, the wife of President James Madison, was known especially for her _____ , remaining calm even as the British invaded Washington D.C. during the War of 1812.",2018-08-23 14:47:05
+1771981546253699,De-an,Huang,7336,1771981546253699,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 14:48:04
+1771981546253699,De-an,Huang,7337,854518728062939,1771981546253699,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-08-23 14:48:05
+1771981546253699,De-an,Huang,7338,854518728062939,1771981546253699,BOT: quick reply,":keycap_1: zeal
+:keycap_2: equanimity
+:keycap_3: cynicism
+:keycap_4: malevolence
+:keycap_5: impracticality
+",2018-08-23 14:48:07
+1771981546253699,De-an,Huang,7339,1771981546253699,854518728062939,user_quick_reply: BUTTON_AKB_equanimity,:keycap_2:,2018-08-23 14:48:14
+1771981546253699,De-an,Huang,7340,854518728062939,1771981546253699,BOT: message,Great job!,2018-08-23 14:48:16
+1771981546253699,De-an,Huang,7341,854518728062939,1771981546253699,BOT: quick reply,The correct answer is equanimity.,2018-08-23 14:48:17
+1771981546253699,De-an,Huang,7342,1771981546253699,854518728062939,user_quick_reply: WHY,Why?,2018-08-23 14:48:21
+1771981546253699,De-an,Huang,7343,854518728062939,1771981546253699,BOT: message,This is why:,2018-08-23 14:48:22
+1771981546253699,De-an,Huang,7344,854518728062939,1771981546253699,BOT: quick reply,":pushpin: Equanimity -- steadiness of mind under stress
+:pushpin: Impracticality -- concerned with theoretical possibilities rather than actual use
+:pushpin: Cynicism -- a cynical feeling of distrust
+:pushpin: Zeal -- a feeling of strong eagerness usually in favor of a person or cause
+:pushpin: Malevolence -- wishing evil to others",2018-08-23 14:48:23
+1771981546253699,De-an,Huang,7494,1771981546253699,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-23 16:40:45
+1771981546253699,De-an,Huang,7496,854518728062939,1771981546253699,BOT: message,"Alrighty, let's try this one.",2018-08-23 16:40:47
+1771981546253699,De-an,Huang,7498,854518728062939,1771981546253699,BOT: quick reply,"Even though legislators claimed the Contagious Diseases Acts strengthened the nation, social purists argued the Acts _____ the nation's moral growth by encouraging licentious behavior.",2018-08-23 16:40:48
+1771981546253699,De-an,Huang,7501,1771981546253699,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 16:40:58
+1771981546253699,De-an,Huang,7502,854518728062939,1771981546253699,BOT: message,It's one of the following choices.,2018-08-23 16:40:59
+1771981546253699,De-an,Huang,7503,854518728062939,1771981546253699,BOT: quick reply,":keycap_1: hampered
+:keycap_2: advanced
+:keycap_3: supplanted
+:keycap_4: ameliorated
+:keycap_5: enhanced
+",2018-08-23 16:41:01
+1771981546253699,De-an,Huang,7504,1771981546253699,854518728062939,user_quick_reply: BUTTON_AKB_hampered,:keycap_1:,2018-08-23 16:41:07
+1771981546253699,De-an,Huang,7505,854518728062939,1771981546253699,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_happy_orange.png,2018-08-23 16:41:09
+1771981546253699,De-an,Huang,7506,854518728062939,1771981546253699,BOT: message,Great job!,2018-08-23 16:41:11
+1771981546253699,De-an,Huang,7507,854518728062939,1771981546253699,BOT: quick reply,The correct answer is hampered.,2018-08-23 16:41:12
+1771981546253699,De-an,Huang,7511,1771981546253699,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-23 16:41:17
+1771981546253699,De-an,Huang,7512,854518728062939,1771981546253699,BOT: message,Let's take a look at this question.,2018-08-23 16:41:18
+1771981546253699,De-an,Huang,7513,854518728062939,1771981546253699,BOT: quick reply,Many Major League Baseball relief pitchers choose an electrifying theme song to play as they take the mound; the song _____ their fans and instills fear in their opponents.,2018-08-23 16:41:20
+1771981546253699,De-an,Huang,7514,1771981546253699,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 16:41:24
+1771981546253699,De-an,Huang,7515,854518728062939,1771981546253699,BOT: message,Okay. I'll give you some choices.,2018-08-23 16:41:25
+1771981546253699,De-an,Huang,7516,854518728062939,1771981546253699,BOT: quick reply,":keycap_1: enervates
+:keycap_2: innervates
+:keycap_3: pervades
+:keycap_4: eviscerates
+:keycap_5: assuages
+",2018-08-23 16:41:27
+1771981546253699,De-an,Huang,7517,1771981546253699,854518728062939,user_quick_reply: BUTTON_DKB_enervates,:keycap_1:,2018-08-23 16:41:40
+1771981546253699,De-an,Huang,7518,854518728062939,1771981546253699,BOT: message,"I'm sorry, but that was incorrect. :disappointed_face:",2018-08-23 16:41:41
+1771981546253699,De-an,Huang,7519,854518728062939,1771981546253699,BOT: quick reply,The correct answer is innervates.,2018-08-23 16:41:43
+1771981546253699,De-an,Huang,7520,1771981546253699,854518728062939,user_quick_reply: WHY,Why?,2018-08-23 16:41:46
+1771981546253699,De-an,Huang,7521,854518728062939,1771981546253699,BOT: message,Here's why:,2018-08-23 16:41:47
+1771981546253699,De-an,Huang,7522,854518728062939,1771981546253699,BOT: quick reply,":pushpin: Innervates -- to supply with nerves
+:pushpin: Eviscerates -- surgically remove a part of a structure or an organ
+:pushpin: Enervates -- weaken mentally or morally
+:pushpin: Assuages -- cause to be more favorably inclined; gain the good will of
+:pushpin: Pervades -- spread or diffuse through",2018-08-23 16:41:49
+1771981546253699,De-an,Huang,7683,1771981546253699,854518728062939,user_quick_reply: SWITCH_SUBJECT,Change subject :shuffle_tracks_button:,2018-08-23 16:49:24
+1771981546253699,De-an,Huang,7685,854518728062939,1771981546253699,BOT: quick reply,"Cool, let's pick one of the following subjects?:backhand_index_pointing_down_medium-light_skin_tone:",2018-08-23 16:49:25
+1771981546253699,De-an,Huang,7688,1771981546253699,854518728062939,user_quick_reply: SCIENCE,Science:microscope:,2018-08-23 16:49:29
+1771981546253699,De-an,Huang,7691,854518728062939,1771981546253699,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/evolvereading_scientist.gif,2018-08-23 16:49:34
+1771981546253699,De-an,Huang,7692,854518728062939,1771981546253699,BOT: quick reply,Awesome! Here are some questions on science!,2018-08-23 16:49:35
+1771981546253699,De-an,Huang,7695,1771981546253699,854518728062939,user_quick_reply: NEXT_QUESTION,Alright :round_pushpin:,2018-08-23 16:49:39
+1771981546253699,De-an,Huang,7697,854518728062939,1771981546253699,BOT: message,Let's see if you can get this one.,2018-08-23 16:49:41
+1771981546253699,De-an,Huang,7698,854518728062939,1771981546253699,BOT: quick reply,The lithosphere is divided into a dozen major and several minor what?,2018-08-23 16:49:42
+1771981546253699,De-an,Huang,7701,1771981546253699,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 16:49:54
+1771981546253699,De-an,Huang,7702,854518728062939,1771981546253699,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-08-23 16:49:55
+1771981546253699,De-an,Huang,7703,854518728062939,1771981546253699,BOT: quick reply,":keycap_1: plates
+:keycap_2: faults
+:keycap_3: zones
+:keycap_4: crystals
+",2018-08-23 16:49:56
+1771981546253699,De-an,Huang,7713,1771981546253699,854518728062939,user_quick_reply: BUTTON_AKB_plates,:keycap_1:,2018-08-23 16:50:09
+1771981546253699,De-an,Huang,7715,854518728062939,1771981546253699,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_happy_orange.png,2018-08-23 16:50:11
+1771981546253699,De-an,Huang,7717,854518728062939,1771981546253699,BOT: message,Great! Keep it up! :flexed_biceps_medium-light_skin_tone:,2018-08-23 16:50:13
+1771981546253699,De-an,Huang,7719,854518728062939,1771981546253699,BOT: quick reply,The correct answer is plates.,2018-08-23 16:50:14
+1771981546253699,De-an,Huang,7721,1771981546253699,854518728062939,user_quick_reply: WHY,Why?,2018-08-23 16:50:19
+1771981546253699,De-an,Huang,7722,854518728062939,1771981546253699,BOT: message,This is an explanation of the question:,2018-08-23 16:50:21
+1771981546253699,De-an,Huang,7723,854518728062939,1771981546253699,BOT: quick reply,The lithosphere is divided into a dozen major and several minor plates. Each plate is named for the continent or ocean basin it contains. Some plates are made of all oceanic lithosphere. A few are all continental lithosphere. But most plates are made of a combination of both.,2018-08-23 16:50:22
+1771981546253699,De-an,Huang,8056,854518728062939,1771981546253699,BOT: quick reply,"Hi De-an, you haven't talked to me for a while. Would you like to resume the learning with me?",2018-08-23 20:00:15
+1771981546253699,De-an,Huang,8715,1771981546253699,854518728062939,persistent_menu: GRE,GRE :input_latin_uppercase:,2018-08-23 20:56:50
+1771981546253699,De-an,Huang,8719,1771981546253699,854518728062939,persistent_menu: SAFETY,Safety:hammer_and_wrench:,2018-08-23 20:56:50
+1771981546253699,De-an,Huang,8722,1771981546253699,854518728062939,persistent_menu: GRE,GRE :input_latin_uppercase:,2018-08-23 20:56:50
+1771981546253699,De-an,Huang,8724,1771981546253699,854518728062939,persistent_menu: SAFETY,Safety:hammer_and_wrench:,2018-08-23 20:56:50
+1771981546253699,De-an,Huang,8730,1771981546253699,854518728062939,persistent_menu: RANDOM,Random :game_die:,2018-08-23 20:56:50
+1771981546253699,De-an,Huang,8733,1771981546253699,854518728062939,persistent_menu: RANDOM,Random :game_die:,2018-08-23 20:56:50
+1771981546253699,De-an,Huang,8781,854518728062939,1771981546253699,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/evolvescientist_normal.gif,2018-08-23 20:56:56
+1771981546253699,De-an,Huang,8782,854518728062939,1771981546253699,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/evolvescientist_safety.gif,2018-08-23 20:56:56
+1771981546253699,De-an,Huang,8783,854518728062939,1771981546253699,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/evolvescientist_normal.gif,2018-08-23 20:56:56
+1771981546253699,De-an,Huang,8784,854518728062939,1771981546253699,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/evolvescientist_safety.gif,2018-08-23 20:56:56
+1771981546253699,De-an,Huang,8785,854518728062939,1771981546253699,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/evolvescientist_reading.gif,2018-08-23 20:56:56
+1771981546253699,De-an,Huang,8786,854518728062939,1771981546253699,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/evolvescientist_reading.gif,2018-08-23 20:56:56
+1771981546253699,De-an,Huang,8787,854518728062939,1771981546253699,BOT: quick reply,Let's answer some questions about everything! :game_die:,2018-08-23 20:56:57
+1771981546253699,De-an,Huang,8788,854518728062939,1771981546253699,BOT: quick reply,Good choice! Let's see what you know about safety!,2018-08-23 20:56:57
+1771981546253699,De-an,Huang,8789,854518728062939,1771981546253699,BOT: quick reply,Cool! Let's learn everything! :game_die:,2018-08-23 20:56:57
+1771981546253699,De-an,Huang,8790,854518728062939,1771981546253699,BOT: quick reply,All right! Ill quiz you on GRE!,2018-08-23 20:56:58
+1771981546253699,De-an,Huang,8791,854518728062939,1771981546253699,BOT: quick reply,Good choice! Let's see what you know about safety!,2018-08-23 20:56:58
+1771981546253699,De-an,Huang,8792,854518728062939,1771981546253699,BOT: quick reply,All right! Ill quiz you on GRE!,2018-08-23 20:56:58
+1771981546253699,De-an,Huang,9366,1771981546253699,854518728062939,user_quick_reply: NEXT_QUESTION,"Yes, continue :round_pushpin:",2018-08-23 21:29:40
+1771981546253699,De-an,Huang,9367,854518728062939,1771981546253699,BOT: message,See if you can answer this next one.,2018-08-23 21:29:41
+1771981546253699,De-an,Huang,9368,854518728062939,1771981546253699,BOT: quick reply,"Despite the smile that spread from ear to ear, the eyes relayed a certain _____ .",2018-08-23 21:29:43
+1771981546253699,De-an,Huang,9369,1771981546253699,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 21:29:47
+1771981546253699,De-an,Huang,9370,854518728062939,1771981546253699,BOT: message,Okay. I'll give you some choices.,2018-08-23 21:29:48
+1771981546253699,De-an,Huang,9371,854518728062939,1771981546253699,BOT: quick reply,":keycap_1: sorrow
+:keycap_2: mischievousness
+:keycap_3: vision
+:keycap_4: jubilance
+:keycap_5: liveliness
+",2018-08-23 21:29:50
+1771981546253699,De-an,Huang,9372,1771981546253699,854518728062939,user_quick_reply: BUTTON_AKB_sorrow,:keycap_1:,2018-08-23 21:29:57
+1771981546253699,De-an,Huang,9373,854518728062939,1771981546253699,BOT: message,Great! Keep it up! :flexed_biceps_medium-light_skin_tone:,2018-08-23 21:29:59
+1771981546253699,De-an,Huang,9374,854518728062939,1771981546253699,BOT: quick reply,The correct answer is sorrow.,2018-08-23 21:30:00
+1771981546253699,De-an,Huang,9376,1771981546253699,854518728062939,user_quick_reply: SWITCH_SUBJECT,Change subject :shuffle_tracks_button:,2018-08-23 21:30:05
+1771981546253699,De-an,Huang,9377,854518728062939,1771981546253699,BOT: quick reply,"Cool, which subject do you want to study?:backhand_index_pointing_down_medium-light_skin_tone:",2018-08-23 21:30:07
+1771981546253699,De-an,Huang,9378,1771981546253699,854518728062939,user_quick_reply: RANDOM,Random :game_die:,2018-08-23 21:30:11
+1771981546253699,De-an,Huang,9379,854518728062939,1771981546253699,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/evolvereading_normal.gif,2018-08-23 21:30:17
+1771981546253699,De-an,Huang,9380,854518728062939,1771981546253699,BOT: quick reply,All right! A little bit of everything! :game_die:,2018-08-23 21:30:18
+1771981546253699,De-an,Huang,9381,1771981546253699,854518728062939,user_quick_reply: NEXT_QUESTION,Alright :thumbs_up_medium-light_skin_tone:,2018-08-23 21:30:23
+1771981546253699,De-an,Huang,9382,854518728062939,1771981546253699,BOT: message,"Alrighty, let's try this one.",2018-08-23 21:30:24
+1771981546253699,De-an,Huang,9383,854518728062939,1771981546253699,BOT: quick reply,"With a similar contrast between a partly cloudy sky and a dark street, the cover of the recent rock CD _____ a famous surrealist painting from the early 1900s.",2018-08-23 21:30:26
+1771981546253699,De-an,Huang,9384,1771981546253699,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 21:30:31
+1771981546253699,De-an,Huang,9385,854518728062939,1771981546253699,BOT: message,Pick one of the following answers.,2018-08-23 21:30:33
+1771981546253699,De-an,Huang,9386,854518728062939,1771981546253699,BOT: quick reply,":keycap_1: admires
+:keycap_2: obfuscates
+:keycap_3: evokes
+:keycap_4: disenchants
+:keycap_5: sanctions
+",2018-08-23 21:30:35
+1771981546253699,De-an,Huang,9387,1771981546253699,854518728062939,user_quick_reply: BUTTON_AKB_evokes,:keycap_3:,2018-08-23 21:30:41
+1771981546253699,De-an,Huang,9388,854518728062939,1771981546253699,BOT: message,Great! Keep it up! :flexed_biceps_medium-light_skin_tone:,2018-08-23 21:30:42
+1771981546253699,De-an,Huang,9389,854518728062939,1771981546253699,BOT: quick reply,The correct answer is evokes.,2018-08-23 21:30:44
+1771981546253699,De-an,Huang,9390,1771981546253699,854518728062939,user_quick_reply: WHY,Why?,2018-08-23 21:30:48
+1771981546253699,De-an,Huang,9391,854518728062939,1771981546253699,BOT: message,Here's an explanation:,2018-08-23 21:30:50
+1771981546253699,De-an,Huang,9392,854518728062939,1771981546253699,BOT: quick reply,":pushpin: Evokes -- call forth emotions, feelings, and responses
+:pushpin: Admires -- feel admiration for
+:pushpin: Obfuscates -- make obscure or unclear
+:pushpin: Disenchants -- free from enchantment
+:pushpin: Sanctions -- give sanction to",2018-08-23 21:30:51
