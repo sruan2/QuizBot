@@ -70,9 +70,10 @@ class EmbeddingVectorizer(CountVectorizer):
         values = []
         
         for doc in raw_documents:
-
+            # catch error if doc is empty somehow, all punctuation removed
+            if not doc:
+                values.append(np.zeros(self.dimension))
             word_vecs = []
-            
             #for token in analyze(doc):
             for token in doc:
                 #TODO integrate this with analyzer
@@ -84,6 +85,7 @@ class EmbeddingVectorizer(CountVectorizer):
                         vw *= 1e-3 / (1e-3 + freq)
                     word_vecs.append(vw)
                 except KeyError:
+                    print('key error', doc)
                     word_vecs.append(np.zeros(self.dimension))
 
             if word_vecs:
