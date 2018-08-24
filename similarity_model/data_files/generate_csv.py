@@ -46,6 +46,7 @@ messages = [
     # plural
     ['2 hour', '2 hours'],
     # synonyms
+    ['twist', 'twist your body'],
     ['right', 'correct','you are right', 'you are correct'],
     ['wrong', 'incorrect', 'you are wrong', 'you are incorrect'],
     ['at the fire','at the base of the fire', 'base of fire'],
