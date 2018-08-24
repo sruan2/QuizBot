@@ -788,7 +788,6 @@ def split_question_pool():
 	# print(len(quizbot_safety))
 	# print(len(quizbot_science))
 
-
 	flashcard_question_json = []
 	quizbot_question_json = []
 
@@ -827,6 +826,9 @@ def split_question_pool():
 
 
 def verify_question_pool():
+	'''
+		verify the question pool
+	'''
 	quiz_between_subjects_flashcard_filename = "json/questions_between_subjects_flashcard.json"
 	quiz_between_subjects_quizbot_filename = "json/questions_between_subjects_quizbot.json"	
 
@@ -841,9 +843,9 @@ def verify_question_pool():
 
 
 def dump_correct_rate():
-	quiz_a_score_report_filename = "csv/MTurk1_A_score_report.csv"
-	quiz_b_score_report_filename = "csv/MTurk1_B_score_report.csv"
-
+	'''
+		dump the question rate to a csv file
+	'''
 	quiz_a_correct_rate = []
 	quiz_b_correct_rate = []
 	quiz_a_question = []
@@ -930,6 +932,9 @@ def dump_correct_rate():
 
 
 def get_quiz_qid():
+	'''
+		get the qid for quizzes
+	'''
 	quiz_b_score_report_filename = "csv/MTurk1_B_score_report.csv"
 	quiz_b_question = []
 
@@ -1017,9 +1022,3 @@ def get_repeated_in_pool():
 
 if __name__ == "__main__":
 	split_refined_quiz()
-
-
-
-
-
-

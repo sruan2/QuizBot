@@ -1,0 +1,18 @@
+user_id,user_firstname,user_lastname,uid,sender,recipient,type,dialogue,time_stamp
+2053899197976407,Kylie,Jue,8024,2053899197976407,854518728062939,persistent_menu: GET_INTRO_1,Get Started,2018-08-23 18:14:47
+2053899197976407,Kylie,Jue,8025,854518728062939,2053899197976407,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/quizbot_avatar.png,2018-08-23 18:14:51
+2053899197976407,Kylie,Jue,8026,854518728062939,2053899197976407,BOT: quick reply,"Hi Kylie! My name is Frosty :penguin: and Im here to help you learn all about science:microscope:, verbal reasoning (GRE) :input_latin_uppercase:, and safety:hammer_and_wrench:!",2018-08-23 18:14:53
+2053899197976407,Kylie,Jue,8027,2053899197976407,854518728062939,persistent_menu: GRE,GRE :input_latin_uppercase:,2018-08-23 18:15:00
+2053899197976407,Kylie,Jue,8028,854518728062939,2053899197976407,BOT: quick reply,Let's test your knowledge on the GRE!,2018-08-23 18:15:01
+2053899197976407,Kylie,Jue,8029,2053899197976407,854518728062939,user_quick_reply: NEXT_QUESTION,Alright :flexed_biceps_medium-light_skin_tone:,2018-08-23 18:15:04
+2053899197976407,Kylie,Jue,8030,854518728062939,2053899197976407,BOT: message,How about this next one:,2018-08-23 18:15:06
+2053899197976407,Kylie,Jue,8031,854518728062939,2053899197976407,BOT: quick reply,While she may have answered him truthfully - in the strictest sense of the word - it became clear to Sergei after the incident that Sheryl had actually been trying to _____ .,2018-08-23 18:15:07
+2053899197976407,Kylie,Jue,8032,2053899197976407,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 18:15:17
+2053899197976407,Kylie,Jue,8033,854518728062939,2053899197976407,BOT: message,Pick one of the following answers.,2018-08-23 18:15:18
+2053899197976407,Kylie,Jue,8034,854518728062939,2053899197976407,BOT: quick reply,":keycap_1: covet
+:keycap_2: obfuscate
+:keycap_3: illuminate
+:keycap_4: vituperate
+:keycap_5: desiccate
+",2018-08-23 18:15:20
+2053899197976407,Kylie,Jue,8063,854518728062939,2053899197976407,BOT: quick reply,"Hi Kylie, you haven't talked to me for a while. Would you like to resume the learning with me?",2018-08-23 20:00:26

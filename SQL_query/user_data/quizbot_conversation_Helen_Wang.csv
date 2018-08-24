@@ -184,3 +184,143 @@ user_id,user_firstname,user_lastname,uid,sender,recipient,type,dialogue,time_sta
 1746424888810134,Helen,Wang,6395,854518728062939,1746424888810134,BOT: message,How about this next one:,2018-08-22 22:58:44
 1746424888810134,Helen,Wang,6396,854518728062939,1746424888810134,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-22 22:58:45
 1746424888810134,Helen,Wang,6397,854518728062939,1746424888810134,BOT: quick reply,What should you NOT do when lowering a load?,2018-08-22 22:58:46
+1746424888810134,Helen,Wang,6978,1746424888810134,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 12:06:36
+1746424888810134,Helen,Wang,6979,854518728062939,1746424888810134,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-08-23 12:06:37
+1746424888810134,Helen,Wang,6980,854518728062939,1746424888810134,BOT: quick reply,":keycap_1: gigantism
+:keycap_2: pulmonary edema
+:keycap_3: elephantiasis
+:keycap_4: fibrosis
+",2018-08-23 12:06:39
+1746424888810134,Helen,Wang,6981,1746424888810134,854518728062939,user_quick_reply: BUTTON_AKB_elephantiasis,:keycap_3:,2018-08-23 12:06:43
+1746424888810134,Helen,Wang,6982,854518728062939,1746424888810134,BOT: message,Great! Keep it up! :flexed_biceps_medium-light_skin_tone:,2018-08-23 12:06:45
+1746424888810134,Helen,Wang,6983,854518728062939,1746424888810134,BOT: quick reply,The correct answer is elephantiasis.,2018-08-23 12:06:46
+1746424888810134,Helen,Wang,8054,854518728062939,1746424888810134,BOT: quick reply,"Hi Helen, you haven't talked to me for a while. Would you like to resume the learning with me?",2018-08-23 20:00:12
+1746424888810134,Helen,Wang,9892,1746424888810134,854518728062939,persistent_menu: SCIENCE,Science:microscope:,2018-08-23 22:23:35
+1746424888810134,Helen,Wang,9895,854518728062939,1746424888810134,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/evolvesafety_scientist.gif,2018-08-23 22:23:40
+1746424888810134,Helen,Wang,9897,854518728062939,1746424888810134,BOT: quick reply,Let's test your knowledge on science!,2018-08-23 22:23:42
+1746424888810134,Helen,Wang,9900,1746424888810134,854518728062939,user_quick_reply: NEXT_QUESTION,Alright :raising_hands_medium-light_skin_tone:,2018-08-23 22:23:45
+1746424888810134,Helen,Wang,9902,854518728062939,1746424888810134,BOT: message,Let's see if you can get this one.,2018-08-23 22:23:46
+1746424888810134,Helen,Wang,9903,854518728062939,1746424888810134,BOT: quick reply,What opens two strands of DNA?,2018-08-23 22:23:48
+1746424888810134,Helen,Wang,9953,1746424888810134,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 22:25:47
+1746424888810134,Helen,Wang,9954,854518728062939,1746424888810134,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-08-23 22:25:48
+1746424888810134,Helen,Wang,9956,854518728062939,1746424888810134,BOT: quick reply,":keycap_1: helicase
+:keycap_2: replication
+:keycap_3: adenylate
+:keycap_4: chromosome
+",2018-08-23 22:25:50
+1746424888810134,Helen,Wang,9959,1746424888810134,854518728062939,user_quick_reply: BUTTON_AKB_helicase,:keycap_1:,2018-08-23 22:25:53
+1746424888810134,Helen,Wang,9960,854518728062939,1746424888810134,BOT: message,Great job getting the correct answer!,2018-08-23 22:25:54
+1746424888810134,Helen,Wang,9961,854518728062939,1746424888810134,BOT: quick reply,The correct answer is helicase.,2018-08-23 22:25:56
+1746424888810134,Helen,Wang,9967,1746424888810134,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-23 22:26:00
+1746424888810134,Helen,Wang,9970,854518728062939,1746424888810134,BOT: message,See if you can answer this next one.,2018-08-23 22:26:01
+1746424888810134,Helen,Wang,9971,854518728062939,1746424888810134,BOT: quick reply,What living species of bird is considered the largest of the raptors?,2018-08-23 22:26:03
+1746424888810134,Helen,Wang,9972,1746424888810134,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 22:26:05
+1746424888810134,Helen,Wang,9973,854518728062939,1746424888810134,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-08-23 22:26:06
+1746424888810134,Helen,Wang,9974,854518728062939,1746424888810134,BOT: quick reply,":keycap_1: peregrine falcon
+:keycap_2: pterodactyl
+:keycap_3: California condor
+:keycap_4: golden eagles
+",2018-08-23 22:26:08
+1746424888810134,Helen,Wang,9978,1746424888810134,854518728062939,user_quick_reply: BUTTON_AKB_golden eagles,:keycap_4:,2018-08-23 22:26:11
+1746424888810134,Helen,Wang,9979,854518728062939,1746424888810134,BOT: message,Great job getting the correct answer!,2018-08-23 22:26:13
+1746424888810134,Helen,Wang,9980,854518728062939,1746424888810134,BOT: quick reply,The correct answer is golden eagles.,2018-08-23 22:26:14
+1746424888810134,Helen,Wang,9984,1746424888810134,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-23 22:26:18
+1746424888810134,Helen,Wang,9987,854518728062939,1746424888810134,BOT: message,Could you answer this one for me?,2018-08-23 22:26:19
+1746424888810134,Helen,Wang,9989,854518728062939,1746424888810134,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-23 22:26:21
+1746424888810134,Helen,Wang,9991,854518728062939,1746424888810134,BOT: quick reply,How often should women perform a breast self-exam?,2018-08-23 22:26:22
+1746424888810134,Helen,Wang,9992,1746424888810134,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 22:26:25
+1746424888810134,Helen,Wang,9994,854518728062939,1746424888810134,BOT: message,Pick one of the following answers.,2018-08-23 22:26:27
+1746424888810134,Helen,Wang,9996,854518728062939,1746424888810134,BOT: quick reply,":keycap_1: weekly
+:keycap_2: yearly
+:keycap_3: quarterly
+:keycap_4: monthly
+",2018-08-23 22:26:28
+1746424888810134,Helen,Wang,9998,1746424888810134,854518728062939,user_quick_reply: BUTTON_DKB_yearly,:keycap_2:,2018-08-23 22:26:32
+1746424888810134,Helen,Wang,9999,854518728062939,1746424888810134,BOT: message,"Oops, that is not correct. :disappointed_face:",2018-08-23 22:26:34
+1746424888810134,Helen,Wang,10001,854518728062939,1746424888810134,BOT: quick reply,The correct answer is monthly.,2018-08-23 22:26:35
+1746424888810134,Helen,Wang,10004,1746424888810134,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-23 22:26:39
+1746424888810134,Helen,Wang,10005,854518728062939,1746424888810134,BOT: message,See if you can answer this next one.,2018-08-23 22:26:41
+1746424888810134,Helen,Wang,10006,854518728062939,1746424888810134,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-23 22:26:42
+1746424888810134,Helen,Wang,10007,854518728062939,1746424888810134,BOT: quick reply,What are the little sacs at the end of the bronchioles called?,2018-08-23 22:26:43
+1746424888810134,Helen,Wang,10008,1746424888810134,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 22:26:46
+1746424888810134,Helen,Wang,10010,854518728062939,1746424888810134,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-08-23 22:26:48
+1746424888810134,Helen,Wang,10012,854518728062939,1746424888810134,BOT: quick reply,":keycap_1: ganglion
+:keycap_2: respiratory sacs
+:keycap_3: lung
+:keycap_4: alveoli
+",2018-08-23 22:26:49
+1746424888810134,Helen,Wang,10015,1746424888810134,854518728062939,user_quick_reply: BUTTON_AKB_alveoli,:keycap_4:,2018-08-23 22:26:52
+1746424888810134,Helen,Wang,10016,854518728062939,1746424888810134,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_happy_pink.png,2018-08-23 22:26:55
+1746424888810134,Helen,Wang,10017,854518728062939,1746424888810134,BOT: message,Nice! That was right!,2018-08-23 22:26:56
+1746424888810134,Helen,Wang,10019,854518728062939,1746424888810134,BOT: quick reply,The correct answer is alveoli.,2018-08-23 22:26:58
+1746424888810134,Helen,Wang,10025,1746424888810134,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-23 22:27:17
+1746424888810134,Helen,Wang,10026,854518728062939,1746424888810134,BOT: message,Let's try this question.,2018-08-23 22:27:19
+1746424888810134,Helen,Wang,10029,854518728062939,1746424888810134,BOT: quick reply,What is the diffusion of water through a semipermeable membrane down its concentration gradient?,2018-08-23 22:27:20
+1746424888810134,Helen,Wang,10031,1746424888810134,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 22:27:23
+1746424888810134,Helen,Wang,10032,854518728062939,1746424888810134,BOT: message,Okay. I'll give you some choices.,2018-08-23 22:27:24
+1746424888810134,Helen,Wang,10033,854518728062939,1746424888810134,BOT: quick reply,":keycap_1: nutrients
+:keycap_2: mirrors
+:keycap_3: permable
+:keycap_4: osmosis
+",2018-08-23 22:27:26
+1746424888810134,Helen,Wang,10037,1746424888810134,854518728062939,user_quick_reply: BUTTON_DKB_nutrients,:keycap_1:,2018-08-23 22:27:29
+1746424888810134,Helen,Wang,10039,854518728062939,1746424888810134,BOT: message,"Oops, that is not correct. :disappointed_face:",2018-08-23 22:27:30
+1746424888810134,Helen,Wang,10040,854518728062939,1746424888810134,BOT: quick reply,The correct answer is osmosis.,2018-08-23 22:27:32
+1746424888810134,Helen,Wang,10041,1746424888810134,854518728062939,user_quick_reply: WHY,Why?,2018-08-23 22:27:36
+1746424888810134,Helen,Wang,10043,854518728062939,1746424888810134,BOT: message,Here's why:,2018-08-23 22:27:38
+1746424888810134,Helen,Wang,10045,854518728062939,1746424888810134,BOT: quick reply,"Osmosis is the diffusion of water through a semipermeable membrane down its concentration gradient. If a membrane is permeable to water, though not to a solute, water will equalize its own concentration by diffusing to the side of lower water concentration (and thus the side of higher solute concentration). In the beaker on the left, the solution on the right side of the membrane is hypertonic.",2018-08-23 22:27:39
+1746424888810134,Helen,Wang,10047,1746424888810134,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-23 22:27:43
+1746424888810134,Helen,Wang,10048,854518728062939,1746424888810134,BOT: message,"Alrighty, let's try this one.",2018-08-23 22:27:44
+1746424888810134,Helen,Wang,10049,854518728062939,1746424888810134,BOT: quick reply,What kind of viscosity is found in long-chain hydrocarbons?,2018-08-23 22:27:46
+1746424888810134,Helen,Wang,10278,1746424888810134,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-24 07:49:10
+1746424888810134,Helen,Wang,10279,854518728062939,1746424888810134,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-08-24 07:49:11
+1746424888810134,Helen,Wang,10280,854518728062939,1746424888810134,BOT: quick reply,":keycap_1: low viscosity
+:keycap_2: intense viscosity
+:keycap_3: high viscousity
+:keycap_4: increased viscosity
+",2018-08-24 07:49:13
+1746424888810134,Helen,Wang,10281,1746424888810134,854518728062939,user_quick_reply: BUTTON_DKB_low viscosity,:keycap_1:,2018-08-24 07:49:15
+1746424888810134,Helen,Wang,10282,854518728062939,1746424888810134,BOT: message,"Oops, that wasn't quite correct. :disappointed_face:",2018-08-24 07:49:16
+1746424888810134,Helen,Wang,10283,854518728062939,1746424888810134,BOT: quick reply,The correct answer is high viscousity.,2018-08-24 07:49:18
+1746424888810134,Helen,Wang,10284,1746424888810134,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-24 07:49:29
+1746424888810134,Helen,Wang,10285,854518728062939,1746424888810134,BOT: message,Let's see if you would answer this one.,2018-08-24 07:49:30
+1746424888810134,Helen,Wang,10286,854518728062939,1746424888810134,BOT: quick reply,What opens two strands of DNA?,2018-08-24 07:49:31
+1746424888810134,Helen,Wang,10287,1746424888810134,854518728062939,user_quick_reply: I_DONT_KNOW,I dont know :downcast_face_with_sweat:,2018-08-24 07:49:36
+1746424888810134,Helen,Wang,10288,854518728062939,1746424888810134,BOT: quick reply,Are you sure you want to skip answering?,2018-08-24 07:49:37
+1746424888810134,Helen,Wang,10289,1746424888810134,854518728062939,user_quick_reply: GIVEUP_YES,"Yes, answer please.",2018-08-24 07:49:40
+1746424888810134,Helen,Wang,10290,854518728062939,1746424888810134,BOT: message,You didn't get it right this time.,2018-08-24 07:49:42
+1746424888810134,Helen,Wang,10291,854518728062939,1746424888810134,BOT: message,"That's okay, you'll get it next time! :grinning_face_with_smiling_eyes:",2018-08-24 07:49:43
+1746424888810134,Helen,Wang,10292,854518728062939,1746424888810134,BOT: quick reply,The correct answer is helicase.,2018-08-24 07:49:44
+1746424888810134,Helen,Wang,10293,1746424888810134,854518728062939,user_quick_reply: WHY,Why?,2018-08-24 07:49:48
+1746424888810134,Helen,Wang,10294,854518728062939,1746424888810134,BOT: message,Here's why:,2018-08-24 07:49:50
+1746424888810134,Helen,Wang,10295,854518728062939,1746424888810134,BOT: quick reply,"The two DNA strands are opened by helicase. The strands are held open by a single strand of binding proteins, preventing premature reannealing. Topoisomerase solves the problem caused by tension generated by winding/unwinding of DNA. This enzyme wraps around DNA and makes a cut permitting the helix to spin and relax. Once DNA is relaxed, topoisomerase reconnects broken strands. DNA primase synthesizes a short RNA primer which initiates the Okazaki fragment. Okazaki fragments are attached by DNA ligase.",2018-08-24 07:49:51
+1746424888810134,Helen,Wang,10296,1746424888810134,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-24 07:50:01
+1746424888810134,Helen,Wang,10297,854518728062939,1746424888810134,BOT: message,Would you answer this question for me?,2018-08-24 07:50:03
+1746424888810134,Helen,Wang,10298,854518728062939,1746424888810134,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-24 07:50:05
+1746424888810134,Helen,Wang,10299,854518728062939,1746424888810134,BOT: quick reply,What is the diffusion of water through a semipermeable membrane down its concentration gradient?,2018-08-24 07:50:06
+1746424888810134,Helen,Wang,10300,1746424888810134,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-24 07:50:13
+1746424888810134,Helen,Wang,10301,854518728062939,1746424888810134,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-08-24 07:50:15
+1746424888810134,Helen,Wang,10302,854518728062939,1746424888810134,BOT: quick reply,":keycap_1: osmosis
+:keycap_2: mirrors
+:keycap_3: permable
+:keycap_4: nutrients
+",2018-08-24 07:50:16
+1746424888810134,Helen,Wang,10303,1746424888810134,854518728062939,user_quick_reply: BUTTON_DKB_mirrors,:keycap_2:,2018-08-24 07:50:22
+1746424888810134,Helen,Wang,10304,854518728062939,1746424888810134,BOT: message,"Hmm, that wasn't quite right. :disappointed_face:",2018-08-24 07:50:24
+1746424888810134,Helen,Wang,10305,854518728062939,1746424888810134,BOT: quick reply,The correct answer is osmosis.,2018-08-24 07:50:25
+1746424888810134,Helen,Wang,10306,1746424888810134,854518728062939,user_quick_reply: WHY,Why?,2018-08-24 07:50:28
+1746424888810134,Helen,Wang,10307,854518728062939,1746424888810134,BOT: message,This is why:,2018-08-24 07:50:30
+1746424888810134,Helen,Wang,10308,854518728062939,1746424888810134,BOT: quick reply,"Osmosis is the diffusion of water through a semipermeable membrane down its concentration gradient. If a membrane is permeable to water, though not to a solute, water will equalize its own concentration by diffusing to the side of lower water concentration (and thus the side of higher solute concentration). In the beaker on the left, the solution on the right side of the membrane is hypertonic.",2018-08-24 07:50:31
+1746424888810134,Helen,Wang,10309,1746424888810134,854518728062939,persistent_menu: SCIENCE,Science:microscope:,2018-08-24 07:51:01
+1746424888810134,Helen,Wang,10310,854518728062939,1746424888810134,BOT: quick reply,Awesome! Here are some questions on science!,2018-08-24 07:51:02
+1746424888810134,Helen,Wang,10311,1746424888810134,854518728062939,user_quick_reply: NEXT_QUESTION,"Yes, continue :thumbs_up_medium-light_skin_tone:",2018-08-24 07:51:07
+1746424888810134,Helen,Wang,10312,854518728062939,1746424888810134,BOT: message,Let's see if you can answer this question.,2018-08-24 07:51:09
+1746424888810134,Helen,Wang,10313,854518728062939,1746424888810134,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-24 07:51:10
+1746424888810134,Helen,Wang,10314,854518728062939,1746424888810134,BOT: quick reply,How often should women perform a breast self-exam?,2018-08-24 07:51:12
+1746424888810134,Helen,Wang,10315,1746424888810134,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-24 08:00:07
+1746424888810134,Helen,Wang,10316,854518728062939,1746424888810134,BOT: message,Pick one of the following answers.,2018-08-24 08:00:09
+1746424888810134,Helen,Wang,10317,854518728062939,1746424888810134,BOT: quick reply,":keycap_1: yearly
+:keycap_2: quarterly
+:keycap_3: monthly
+:keycap_4: weekly
+",2018-08-24 08:00:10
