@@ -19,40 +19,40 @@ ITERATIONS = 100
 
 if __name__ == '__main__':
     # Read QA json data and construct the QA knowledge base
-    json_file = '../QAdataset/questions_filtered_150_quizbot.json'
+    json_file = '../QAdataset/questions_between_subjects_flashcard.json'
     qa_kb = QAKnowlegeBase(json_file)
 
-    model = RandomSequencingModel(qa_kb)
+    # model = RandomSequencingModel(qa_kb)
 
-    # Run the random simulations
-    for i in range(ITERATIONS):
-        data = model.pickNextQuestion(user_id = 5, subject = 'science')
-        print(data['qid'])
+    # # Run the random simulations
+    # for i in range(ITERATIONS):
+    #     data = model.pickNextQuestion(user_id = 5, subject = 'science')
+    #     print(data['qid'])
         
-    # Construct the question sequencing model from here
-    model = LeitnerSequencingModel(qa_kb)
+    # # Construct the question sequencing model from here
+    # model = LeitnerSequencingModel(qa_kb)
 
-    # Run the leitner simulations
-    for i in range(ITERATIONS):
-        data = model.pickNextQuestion(user_id = 5, subject = 'science')
-        outcome = 1 if random.random() < 0.9 else 0
+    # # Run the leitner simulations
+    # for i in range(ITERATIONS):
+    #     data = model.pickNextQuestion(user_id = 5, subject = 'science')
+    #     outcome = 1 if random.random() < 0.9 else 0
 
-        user_data = (data['qid'], outcome, "")
-        model.updateHistory(5, user_data)
+    #     user_data = (data['qid'], outcome, "")
+    #     model.updateHistory(5, user_data)
 
-        print("item {} outcome {} ".format(data['qid'], outcome))
+    #     print("item {} outcome {} ".format(data['qid'], outcome))
 
-    model = SM2SequencingModel(qa_kb)
+    # model = SM2SequencingModel(qa_kb)
 
-    # run the SM2 simulations
-    for i in range(ITERATIONS):
-        data = model.pickNextQuestion(subject = 'science', user_id = 5)
-        outcome = 1 if random.random() < 0.6 else 0
+    # # run the SM2 simulations
+    # for i in range(ITERATIONS):
+    #     data = model.pickNextQuestion(subject = 'science', user_id = 5)
+    #     outcome = 1 if random.random() < 0.6 else 0
 
-        user_data = (data['qid'], outcome, "")
-        model.updateHistory(5, user_data)
+    #     user_data = (data['qid'], outcome, "")
+    #     model.updateHistory(5, user_data)
         
-        print("item {} outcome {}".format(data['qid'], outcome))
+    #     print("item {} outcome {}".format(data['qid'], outcome))
 
     user_id = 5
 
@@ -69,4 +69,4 @@ if __name__ == '__main__':
         user_data = (data['qid'], outcome, timestamp)
         model.updateHistory(5, user_data)
         time.sleep(0.5)
-        print("item {} outcome {}".format(data['qid'], outcome))
+        print("item {}, question {}, outcome {}".format(data['qid'], data['question'], outcome))

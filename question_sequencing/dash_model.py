@@ -25,7 +25,7 @@ def sigmoid(x):
 
 class DASHSequencingModel(BaseSequencingModel):
     def __init__(self, qa_kb, max_steps=1000, num_windows=100, threshold=0.01,
-                 student_ability=0, decay_student_ability=0, verbose=False):
+                 student_ability=0, decay_student_ability=0, score_csv = 'updated_scores.csv', verbose=False):
         '''Sequencing model that uses DASH: Difficulty, Ability, Student History parameters
         to find memory likelihood probabilities for each question
         '''
@@ -41,7 +41,7 @@ class DASHSequencingModel(BaseSequencingModel):
 
         # mapping from user id to users current step
         self.curr_step = defaultdict(int)
-        self.curr_item = {}
+        self.curr_item = defaultdict(int)
         self.update_time = {}
         self.last_viewed = defaultdict(
             lambda: np.ones(self.num_items) * time.time())
@@ -56,8 +56,9 @@ class DASHSequencingModel(BaseSequencingModel):
         self.student_ability = student_ability
         self.decay_student_ability = decay_student_ability
         self.item_difficulties = np.random.normal(1, 1, self.num_items)
-        self.decay_item_difficulties = np.exp(
-            np.random.normal(1, 1, self.num_items))
+        # self.decay_item_difficulties = np.exp(
+        #     np.random.normal(1, 1, self.num_items))
+        self.decay_item_difficulties = np.genfromtxt(score_csv, delimiter = ',')[:,1][self.QA_KB.QID]
         window_cw = window_weights(self.num_windows)
         window_nw = window_weights(self.num_windows)
         self.window_weights_cw = np.tile(window_cw, self.num_items).reshape(
@@ -111,9 +112,6 @@ class DASHSequencingModel(BaseSequencingModel):
             # if subject is not random, then pick from the respective subject question bank
             QID = random.choice(self.QA_KB.SubDict[subject])
 
-        # set current item
-        self.curr_item[user_id] = QID
-
         data = {'question': self.QA_KB.QKB[QID],
                 'qid': int(QID),
                 'correct_answer': self.QA_KB.AKB[QID],
@@ -150,10 +148,8 @@ class DASHSequencingModel(BaseSequencingModel):
         distances = np.abs(likelihoods - self.threshold)
         np.put(threshold_distances, id_list, list(distances[id_list]))
 
-        self.curr_item[user_id] = np.argmin(threshold_distances)
-        print('likelihood is ', likelihoods[self.curr_item[user_id]])
-
-        QID = self.curr_item[user_id]
+        QID = np.argmin(threshold_distances)
+        print('likelihood is ', likelihoods[QID])
 
         data = {'question': self.QA_KB.QKB[QID],
                 'qid': int(QID),
@@ -174,10 +170,17 @@ class DASHSequencingModel(BaseSequencingModel):
                               'distractor' : } 
         '''
         if self.curr_step[user_id] % 5 == 0:
-            return self.thresholdPickQuestion(user_id, subject)
+            data = self.thresholdPickQuestion(user_id, subject)
         else:
-            return self.pickRandomQuestion(user_id, subject)
+            data = self.pickRandomQuestion(user_id, subject)
 
+        # ensure no repeated questions
+        if data['qid'] == self.curr_item[user_id]:
+            data = self.pickNextQuestion(user_id, subject)
+
+        self.curr_item[user_id] = data['qid']
+
+        return data    
 
     def updateHistory(self, user_id, user_data):
         '''outcome is either 0 or 1, if the user answered correctly
