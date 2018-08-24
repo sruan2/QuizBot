@@ -5,6 +5,7 @@ import numpy as np
 import time
 import random
 from collections import defaultdict
+
 from base_model import BaseSequencingModel
 
 np.random.seed(42)
@@ -41,7 +42,7 @@ class DASHSequencingModel(BaseSequencingModel):
 
         # mapping from user id to users current step
         self.curr_step = defaultdict(int)
-        self.curr_item = {}
+        self.curr_item = defaultdict(int)
         self.update_time = {}
         self.last_viewed = defaultdict(
             lambda: np.ones(self.num_items) * time.time())
@@ -105,19 +106,17 @@ class DASHSequencingModel(BaseSequencingModel):
                               'distractor' : } 
         '''
         if subject == 'random':
-            QID = random.randint(0, self.QA_KB.KBlength)
+            idx = random.randint(0, self.QA_KB.KBlength-1)
         else:
             # if subject is not random, then pick from the respective subject question bank
-            QID = random.choice(self.QA_KB.SubDict[subject])
+            idx = random.choice(self.QA_KB.SubDict[subject])
 
-        # set current item
-        self.curr_item[user_id] = QID
-
-        data = {'question': self.QA_KB.QKB[QID],
-                'qid': int(self.QA_KB.QID[QID]),
-                'correct_answer': self.QA_KB.AKB[QID],
-                'support': self.QA_KB.SKB[QID],
-                'distractor': self.QA_KB.DKB[QID]}
+        data = {'question': self.QA_KB.QKB[idx],
+                'index': idx,
+                'qid': self.QA_KB.QID[idx],
+                'correct_answer': self.QA_KB.AKB[idx],
+                'support': self.QA_KB.SKB[idx],
+                'distractor': self.QA_KB.DKB[idx]}
 
         return data
 
@@ -149,16 +148,15 @@ class DASHSequencingModel(BaseSequencingModel):
         distances = np.abs(likelihoods - self.threshold)
         np.put(threshold_distances, id_list, list(distances[id_list]))
 
-        self.curr_item[user_id] = np.argmin(threshold_distances)
+        idx = np.argmin(threshold_distances)
         print('likelihood is ', likelihoods[self.curr_item[user_id]])
 
-        QID = self.curr_item[user_id]
-
-        data = {'question': self.QA_KB.QKB[QID],
-                'qid': int(self.QA_KB.QID[QID]),
-                'correct_answer': self.QA_KB.AKB[QID],
-                'support': self.QA_KB.SKB[QID],
-                'distractor': self.QA_KB.DKB[QID]}
+        data = {'question': self.QA_KB.QKB[idx],
+                'index': idx,
+                'qid': self.QA_KB.QID[idx],
+                'correct_answer': self.QA_KB.AKB[idx],
+                'support': self.QA_KB.SKB[idx],
+                'distractor': self.QA_KB.DKB[idx]}
 
         return data
 
@@ -177,10 +175,10 @@ class DASHSequencingModel(BaseSequencingModel):
             data = self.pickRandomQuestion(user_id, subject)
 
         # ensure no repeated questions
-        while data['qid'] == self.curr_item[user_id]:
+        while data['index'] == self.curr_item[user_id]:
             data = self.pickRandomQuestion(user_id, subject)
 
-        self.curr_item[user_id] = data['qid']
+        self.curr_item[user_id] = data['index']
 
         return data   
 

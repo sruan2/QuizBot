@@ -22,8 +22,10 @@ emb = fit_model(glove_file, json_file)
 
 # test_pair_one = ['you are right', 'you are right', 'true', 'yes', 'right', 'a mathemematician found a solution to the problem']
 # test_pair_two = ['you are correct', 'you are wrong', 'yes', 'yes', 'correct', 'A problem was solved by a young mathematician']
-test_pair_one = ['kinetic energy', 'central nervous system', 'central nervous system', 'this is true', 'true??.']
-test_pair_two = ['thermal energy', 'neural', 'nervous', 'true', 'true.']
+# test_pair_one = ['kinetic energy', 'central nervous system', 'central nervous system', 'this is true', 'true??.']
+# test_pair_two = ['thermal energy', 'neural', 'nervous', 'true', 'true.']
+test_pair_one = ['???']
+test_pair_two = ['hello']
 
 test_scores = evaluate_model(model, emb, test_pair_one, test_pair_two)
 # transform test scores so that its on a 0-1 scale

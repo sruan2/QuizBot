@@ -53,6 +53,7 @@ class EmbeddingVectorizer(CountVectorizer):
         self.stop_words = stop_words
         
         self.word_vectors = word_vectors
+        # a little bit of a hacky way to figure out the dimension of the vectors
         self.dimension = len(list(word_vectors.values())[0])
         self.weighted = weighted
         self.R = R
@@ -69,9 +70,10 @@ class EmbeddingVectorizer(CountVectorizer):
         values = []
         
         for doc in raw_documents:
-
+            # catch error if doc is empty somehow, all punctuation removed
+            if not doc:
+                values.append(np.zeros(self.dimension))
             word_vecs = []
-            
             #for token in analyze(doc):
             for token in doc:
                 #TODO integrate this with analyzer
@@ -83,6 +85,7 @@ class EmbeddingVectorizer(CountVectorizer):
                         vw *= 1e-3 / (1e-3 + freq)
                     word_vecs.append(vw)
                 except KeyError:
+                    print('key error', doc)
                     word_vecs.append(np.zeros(self.dimension))
 
             if word_vecs:
@@ -156,7 +159,7 @@ class EmbeddingVectorizer(CountVectorizer):
 
         # use the same matrix-building strategy as fit_transform
         X = self._sentence_vectors_avg(raw_documents)
-        
+
         if self.R:
             # now use the previously calculated singular vector
             X = self._remove_common_component(X)
