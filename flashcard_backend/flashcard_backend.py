@@ -40,7 +40,8 @@ user_between_subject = {"672579434": "Dee Dee Thao", "725315344": "Tyler Yep",  
                         "732119323": "Joy Yuzurih", "664942274": "Henry Qin", \
                         "902902333": "Liwei Jiang", "2137982794": "Nina Horowitz", \
                         "1689820842": "Daniel Do", "1394174277": "Claire Yang", \
-                        "1515117469": "Olivia Yang"}
+                        "1515117469": "Olivia Yang", "1295547909": "Helen Wang", \
+                        "1237870507": 'Wangjianzhe Shao'}
                         
 user_id_between_subject = list(user_between_subject.keys())
 
@@ -58,44 +59,49 @@ def index():
 @app.route("/question_data", methods=['GET'])
 def fetch_question():
     user_id = request.args.get('user_id')
-    data = model.pickNextQuestion(subject='random')
     if user_id in user_id_between_subject:
         print("--------------------")
         print(user_between_subject[user_id])
         data = model_between_subject.pickNextQuestion(subject='random')
+    else:
+        data = model.pickNextQuestion(subject='random')
     return jsonify(data)
 
 
 @app.route("/question_data_gre", methods=['GET'])
 def fetch_question_gre():
     user_id = request.args.get('user_id')
-    data = model.pickNextQuestion(subject='gre')
     if user_id in user_id_between_subject:
         print("--------------------")
         print(user_between_subject[user_id])
         data = model_between_subject.pickNextQuestion(subject='gre')
+    else:
+        data = model.pickNextQuestion(subject='gre')
     return jsonify(data)
 
 
 @app.route("/question_data_science", methods=['GET'])
 def fetch_question_science():
     user_id = request.args.get('user_id')
-    data = model.pickNextQuestion(subject='science')
     if user_id in user_id_between_subject:
         print("--------------------")
         print(user_between_subject[user_id])
         data = model_between_subject.pickNextQuestion(subject='science')
+    else:
+        data = model.pickNextQuestion(subject='science')
     return jsonify(data)
 
 
 @app.route("/question_data_safety", methods=['GET'])
 def fetch_question_safety():
     user_id = request.args.get('user_id')
-    data = model.pickNextQuestion(subject='safety')
+    
     if user_id in user_id_between_subject:
         print("--------------------")
         print(user_between_subject[user_id])
         data = model_between_subject.pickNextQuestion(subject='safety')
+    else:
+        data = model.pickNextQuestion(subject='safety')
     return jsonify(data)
 
 

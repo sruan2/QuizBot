@@ -16,11 +16,13 @@ result_filename = "quizbot_data_analysis.txt"
 
 # users = ["Veronica_Cruz", "Jackie_Fortin", "Eleni_Aneziris", "Zilin_Ma", "Jongho_Kim", \
 #        "Nina_Tai", "Yi_Feng", "Pingyu_Wang", "Dae hyun_Kim", "Lantao_Mei", \
-#          "Michael_Silvernagel", "Bianca_Yu", "Julia_Thompson"]
+#          "Michael_Silvernagel", "Bianca_Yu" ]
+        # , "Julia_Thompson"]
 
 # within-subject users
 users = ["Noah Yinuo_Yao", "Dee Dee_Thao", "Zhenqi_Hu", "Jingyi_Li", "Joy_Yuzuriha", "Tyler_Yep", \
-         "Andrew_Ying", "Henry_Qin", "Nina_Horowitz", "Daniel_Do", "Fangmingyu_Yang", "Francis_Yan", "Olivia_Yang"]
+         "Andrew_Ying", "Henry_Qin", "Nina_Horowitz", "Daniel_Do", "Fangmingyu_Yang", "Francis_Yan", \
+         "Olivia_Yang", "Ted_Shaowang", "Helen_Wang", "Julia_Thompson"]
 
 # 54 questions in post-study quiz (quiz B)
 postquiz_qid = set([146, 145, 118, 130, 148, 117, 127, 111, 120, 141, 143, 147, 114, 121, \
