@@ -11,75 +11,100 @@ import random
 import numpy
 import json
 
+# MTurk1 data report from 65 users
+quiz_a_score_report_filename = "csv/MTurk1_A_score_report.csv"
+quiz_b_score_report_filename = "csv/MTurk1_B_score_report.csv"
+
+# MTurk1 data record from 65 users
+quiz_a_user_record_filename = "csv/MTurk1_A_user_record.csv"
+quiz_b_user_record_filename = "csv/MTurk1_B_user_record.csv"
+
+# question index in Qualtrics quiz a and quiz b, plus 1 for the Qualtrics question id
 quiz_a_gre_index = [0, 3, 8, 10, 13, 14, 15, 16, 18, 31, 34, 35, 38, 42, 48, 52, 53, 54]
 quiz_a_safety_index = [5, 6, 7, 11, 20, 22, 24, 27, 29, 30, 32, 41, 43, 44, 50, 55, 58, 59]
 quiz_a_science_index = [1, 2, 4, 9, 19, 21, 26, 28, 33, 36, 37, 39, 40, 45, 46, 49, 51, 57]
 quiz_a_index = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13, 14, 15, 16, 18, 19, 20, 21, 22, 24, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 48, 49, 50, 51, 52, 53, 54, 55, 57, 58, 59]
+
+# Qualtrics indices for the 6 removed questions in quiz a
 quiz_a_remove = [12, 17, 23, 25, 47, 56]
 
 quiz_b_gre_index = [0, 3, 7, 12, 13, 15, 19, 22, 28, 29, 32, 34, 36, 41, 50, 52, 53, 58]
 quiz_b_safety_index = [1, 4, 6, 8, 11, 16, 18, 23, 27, 30, 37, 42, 43, 46, 49, 51, 55, 59]
 quiz_b_science_index = [2, 9, 10, 14, 17, 24, 25, 26, 31, 33, 35, 38, 39, 44, 45, 54, 56, 57]
 quiz_b_index = [0, 1, 2, 3, 4, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 41, 42, 43, 44, 45, 46, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59]
+
+# Qualtrics indices for the 6 removed questions in quiz b
 quiz_b_remove = [5, 20, 21, 40, 47, 48]
 
+# Qualtrics indices of a1, a2, b1, b2, each has 27 questions
 a1 = [0, 1, 2, 3, 4, 5, 8, 10, 13, 14, 16, 18, 19, 20, 21, 22, 24, 26, 29, 32, 37, 41, 42, 46, 55, 57, 58]
 b1 = [3, 6, 9, 11, 12, 13, 16, 18, 22, 24, 25, 27, 29, 30, 33, 36, 39, 44, 45, 46, 49, 50, 52, 54, 55, 56, 58]
 
 a2 = [6, 7, 9, 11, 15, 27, 28, 30, 31, 33, 34, 35, 36, 38, 39, 40, 43, 44, 45, 48, 49, 50, 51, 52, 53, 54, 59]
 b2 = [0, 1, 2, 4, 7, 8, 10, 14, 15, 17, 19, 23, 26, 28, 31, 32, 34, 35, 37, 38, 41, 42, 43, 51, 53, 57, 59]
 
-quiz_a_repeated_index = [0,  3,   4,  6,  8,  9, 14, 15, 19, 21, 24, 26, 30, 32, 34, 37, 40, 43, 44, 54, 58, 59]
-quiz_b_repeated_index = [13, 22, 33, 37, 52, 17, 36,  0, 54, 44, 11, 39,  8,  6, 15, 24, 57, 43,  1, 19, 49,  4]
+# there are 22 repeated questions appearing in both quiz a and quiz b
+quiz_a_repeated_index = [ 0,    3,  4,  6,   8,  9,  14,  15, 19, 21, 24, 26, 30, 32,  34, 37, 40, 43, 44,  54, 58, 59]
+quiz_b_repeated_index = [13,   22, 33, 37,  52, 17,  36,   0, 54, 44, 11, 39,  8,  6,  15, 24, 57, 43,  1,  19, 49,  4]
 
-repeated_question_id = [148, 111, 6, 93, 102, 21, 114, 146, 41, 37, 58, 11, 84, 90, 117, 44, 42, 53, 72, 127, 75, 79]
+# qid in the 150 question pool
+repeated_question_qid =  [148, 111,  6, 93, 102, 21, 114, 146, 41, 37, 58, 11, 84, 90, 117, 44, 42, 53, 72, 127, 75, 79]
 
-quiz_a_to_id = {0: 148, 1: 49, 2: 18, 3: 111, 4: 6, 5: 51, 6: 93, 7: 94, 8: 102, 9: 21, 10: 128, 11: 82, 13: 135, 14: 114, 15: 146, 16: 113, 18: 131, 19: 41, 20: 55, 21: 37, 22: 52, 24: 58, 26: 11, 27: 64, 28: 14, 29: 88, 30: 84, 31: 103, 32: 90, 33: 32, 34: 117, 35: 136, 36: 31, 37: 44, 38: 132, 39: 45, 40: 42, 41: 76, 42: 104, 43: 53, 44: 72, 45: 5, 46: 15, 48: 100, 49: 27, 50: 65, 51: 35, 52: 138, 53: 125, 54: 127, 55: 99, 57: 46, 58: 75, 59: 79}
-quiz_b_to_id = {0: 146, 1: 72, 2: 25, 3: 145, 4: 79, 6: 90, 7: 118, 8: 84, 9: 24, 10: 1, 11: 58, 12: 130, 13: 148, 14: 19, 15: 117, 16: 83, 17: 21, 18: 59, 19: 127, 22: 111, 23: 50, 24: 44, 25: 17, 26: 30, 27: 56, 28: 120, 29: 141, 30: 73, 31: 38, 32: 143, 33: 6, 34: 147, 35: 8, 36: 114, 37: 93, 38: 2, 39: 11, 41: 121, 42: 68, 43: 53, 44: 37, 45: 9, 46: 77, 49: 75, 50: 106, 51: 97, 52: 102, 53: 112, 54: 41, 55: 89, 56: 29, 57: 42, 58: 133, 59: 87}
+flashcard_qid = [6, 9, 11, 15, 17, 18, 24, 29, 37, 41, 44, 46, 49, 51, 52, 55, 56, 58, 59, 73, 75, 76, 77, 83, 88, 89, 90, 99, 102, 104, 106, 111, 113, 114, 128, 130, 131, 133, 135, 141, 145, 148]
+quizbot_qid = [1, 2, 5, 8, 14, 19, 21, 25, 27, 30, 31, 32, 35, 38, 42, 45, 50, 53, 64, 65, 68, 72, 79, 82, 84, 87, 93, 94, 97, 100, 103, 112, 117, 118, 120, 121, 125, 127, 132, 136, 138, 143, 146, 147]
 
-a1_to_id = {0: 148, 1: 49, 2: 18, 3: 111, 4: 6, 5: 51, 8: 102, 10: 128, 13: 135, 14: 114, 16: 113, 18: 131, 19: 41, 20: 55, 21: 37, 22: 52, 24: 58, 26: 11, 29: 88, 32: 90, 37: 44, 41: 76, 42: 104, 46: 15, 55: 99, 57: 46, 58: 75}
-a2_to_id = {6: 93, 7: 94, 9: 21, 11: 82, 15: 146, 27: 64, 28: 14, 30: 84, 31: 103, 33: 32, 34: 117, 35: 136, 36: 31, 38: 132, 39: 45, 40: 42, 43: 53, 44: 72, 45: 5, 48: 100, 49: 27, 50: 65, 51: 35, 52: 138, 53: 125, 54: 127, 59: 79}
-b1_to_id = {3: 145, 6: 90, 9: 24, 11: 58, 12: 130, 13: 148, 16: 83, 18: 59, 22: 111, 24: 44, 25: 17, 27: 56, 29: 141, 30: 73, 33: 6, 36: 114, 39: 11, 44: 37, 45: 9, 46: 77, 49: 75, 50: 106, 52: 102, 54: 41, 55: 89, 56: 29, 58: 133}
-b2_to_id = {0: 146, 1: 72, 2: 25, 4: 79, 7: 118, 8: 84, 10: 1, 14: 19, 15: 117, 17: 21, 19: 127, 23: 50, 26: 30, 28: 120, 31: 38, 32: 143, 34: 147, 35: 8, 37: 93, 38: 2, 41: 121, 42: 68, 43: 53, 51: 97, 53: 112, 57: 42, 59: 87}
+repeated_in_flashcard_qid = [75, 37, 6, 41, 11, 44, 114, 111, 102, 148, 58, 90]
+repeated_in_quizbot_qid = [72, 42, 79, 146, 84, 21, 127, 117, 93, 53]
 
-quiz_a_id = [5, 6, 11, 14, 15, 18, 21, 27, 31, 32, 35, 37, 41, 42, 44, 45, 46, 49, 51, 52, 53, 55, 58, 64, 65, 72, 75, 76, 79, 82, 84, 88, 90, 93, 94, 99, 100, 102, 103, 104, 111, 113, 114, 117, 125, 127, 128, 131, 132, 135, 136, 138, 146, 148]
-quiz_b_id = [1, 2, 6, 8, 9, 11, 17, 19, 21, 24, 25, 29, 30, 37, 38, 41, 42, 44, 50, 53, 56, 58, 59, 68, 72, 73, 75, 77, 79, 83, 84, 87, 89, 90, 93, 97, 102, 106, 111, 112, 114, 117, 118, 120, 121, 127, 130, 133, 141, 143, 145, 146, 147, 148]
+quiz_a_qid = [5, 6, 11, 14, 15, 18, 21, 27, 31, 32, 35, 37, 41, 42, 44, 45, 46, 49, 51, 52, 53, 55, 58, 64, 65, 72, 75, 76, 79, 82, 84, 88, 90, 93, 94, 99, 100, 102, 103, 104, 111, 113, 114, 117, 125, 127, 128, 131, 132, 135, 136, 138, 146, 148]
+quiz_b_qid = [1, 2, 6, 8, 9, 11, 17, 19, 21, 24, 25, 29, 30, 37, 38, 41, 42, 44, 50, 53, 56, 58, 59, 68, 72, 73, 75, 77, 79, 83, 84, 87, 89, 90, 93, 97, 102, 106, 111, 112, 114, 117, 118, 120, 121, 127, 130, 133, 141, 143, 145, 146, 147, 148]
 
-flashcard_id = [6, 9, 11, 15, 17, 18, 24, 29, 37, 41, 44, 46, 49, 51, 52, 55, 56, 58, 59, 73, 75, 76, 77, 83, 88, 89, 90, 99, 102, 104, 106, 111, 113, 114, 128, 130, 131, 133, 135, 141, 145, 148]
-quizbot_id = [1, 2, 5, 8, 14, 19, 21, 25, 27, 30, 31, 32, 35, 38, 42, 45, 50, 53, 64, 65, 68, 72, 79, 82, 84, 87, 93, 94, 97, 100, 103, 112, 117, 118, 120, 121, 125, 127, 132, 136, 138, 143, 146, 147]
+# dictionary mapping Qualtrics id to qid in the 150 question pool, 54 questions
+quiz_a_to_qid = {0: 148, 1: 49, 2: 18, 3: 111, 4: 6, 5: 51, 6: 93, 7: 94, 8: 102, 9: 21, 10: 128, 11: 82, 13: 135, 14: 114, 15: 146, 16: 113, 18: 131, 19: 41, 20: 55, 21: 37, 22: 52, 24: 58, 26: 11, 27: 64, 28: 14, 29: 88, 30: 84, 31: 103, 32: 90, 33: 32, 34: 117, 35: 136, 36: 31, 37: 44, 38: 132, 39: 45, 40: 42, 41: 76, 42: 104, 43: 53, 44: 72, 45: 5, 46: 15, 48: 100, 49: 27, 50: 65, 51: 35, 52: 138, 53: 125, 54: 127, 55: 99, 57: 46, 58: 75, 59: 79}
+quiz_b_to_qid = {0: 146, 1: 72, 2: 25, 3: 145, 4: 79, 6: 90, 7: 118, 8: 84, 9: 24, 10: 1, 11: 58, 12: 130, 13: 148, 14: 19, 15: 117, 16: 83, 17: 21, 18: 59, 19: 127, 22: 111, 23: 50, 24: 44, 25: 17, 26: 30, 27: 56, 28: 120, 29: 141, 30: 73, 31: 38, 32: 143, 33: 6, 34: 147, 35: 8, 36: 114, 37: 93, 38: 2, 39: 11, 41: 121, 42: 68, 43: 53, 44: 37, 45: 9, 46: 77, 49: 75, 50: 106, 51: 97, 52: 102, 53: 112, 54: 41, 55: 89, 56: 29, 57: 42, 58: 133, 59: 87}
 
-repeated_in_flashcard_id = [75, 37, 6, 41, 11, 44, 114, 111, 102, 148, 58, 90]
-repeated_in_quizbot_id = [72, 42, 79, 146, 84, 21, 127, 117, 93, 53]
+a1_to_qid = {0: 148, 1: 49, 2: 18, 3: 111, 4: 6, 5: 51, 8: 102, 10: 128, 13: 135, 14: 114, 16: 113, 18: 131, 19: 41, 20: 55, 21: 37, 22: 52, 24: 58, 26: 11, 29: 88, 32: 90, 37: 44, 41: 76, 42: 104, 46: 15, 55: 99, 57: 46, 58: 75}
+a2_to_qid = {6: 93, 7: 94, 9: 21, 11: 82, 15: 146, 27: 64, 28: 14, 30: 84, 31: 103, 33: 32, 34: 117, 35: 136, 36: 31, 38: 132, 39: 45, 40: 42, 43: 53, 44: 72, 45: 5, 48: 100, 49: 27, 50: 65, 51: 35, 52: 138, 53: 125, 54: 127, 59: 79}
+b1_to_qid = {3: 145, 6: 90, 9: 24, 11: 58, 12: 130, 13: 148, 16: 83, 18: 59, 22: 111, 24: 44, 25: 17, 27: 56, 29: 141, 30: 73, 33: 6, 36: 114, 39: 11, 44: 37, 45: 9, 46: 77, 49: 75, 50: 106, 52: 102, 54: 41, 55: 89, 56: 29, 58: 133}
+b2_to_qid = {0: 146, 1: 72, 2: 25, 4: 79, 7: 118, 8: 84, 10: 1, 14: 19, 15: 117, 17: 21, 19: 127, 23: 50, 26: 30, 28: 120, 31: 38, 32: 143, 34: 147, 35: 8, 37: 93, 38: 2, 41: 121, 42: 68, 43: 53, 51: 97, 53: 112, 57: 42, 59: 87}
 
 
 def get_sub_score(all_users, quiz_data, quiz_answer, quiz_sub_index):
-	result_data = []
+	'''
+		get the user subscores of a set of questions 
+	'''
+
+	sub_score = []
 
 	for u in range(len(all_users)):
 		user = all_users[u]
-		result_data.append(0)
+		sub_score.append(0)
 
 		for i in quiz_sub_index:
 			q_user_answer = quiz_data[user][5 * i + 4]
 
 			if q_user_answer == quiz_answer[i]:
-				result_data[u] += 1
-	return result_data
+				sub_score[u] += 1
+	return sub_score
 
 
 def refine_quiz():
-	quiz_a_score_report_filename = "csv/MTurk1_A_score_report.csv"
-	quiz_b_score_report_filename = "csv/MTurk1_B_score_report.csv"
+	'''
+		pick 54 questions respectively from 60-question quiz a and quiz b so that the two 54-question quizzes are similar in difficulty
+	'''
 
+	# Qualtrics id for the original 60-question quiz a
 	quiz_a_gre_index = [0, 3, 8, 10, 12, 13, 14, 15, 16, 17, 18, 31, 34, 35, 38, 42, 48, 52, 53, 54]
 	quiz_a_safety_index = [5, 6, 7, 11, 20, 22, 23, 24, 27, 29, 30, 32, 41, 43, 44, 47, 50, 55, 58, 59]
 	quiz_a_science_index = [1, 2, 4, 9, 19, 21, 25, 26, 28, 33, 36, 37, 39, 40, 45, 46, 49, 51, 56, 57]
 
+	quiz_a_repeated_index = [0, 3, 4, 6, 8, 9, 14, 15, 19, 21, 24, 26, 30, 32, 34, 37, 40, 43, 44, 54, 58, 59]
+
+	# Qualtrics id for the original 60-question quiz b
 	quiz_b_gre_index = [0, 3, 7, 12, 13, 15, 19, 21, 22, 28, 29, 32, 34, 36, 40, 41, 50, 52, 53, 58]
 	quiz_b_safety_index = [1, 4, 6, 8, 11, 16, 18, 23, 27, 30, 37, 42, 43, 46, 47, 48, 49, 51, 55, 59]
 	quiz_b_science_index = [2, 5, 9, 10, 14, 17, 20, 24, 25, 26, 31, 33, 35, 38, 39, 44, 45, 54, 56, 57]
 
-	quiz_a_repeated_index = [0, 3, 4, 6, 8, 9, 14, 15, 19, 21, 24, 26, 30, 32, 34, 37, 40, 43, 44, 54, 58, 59]
 	quiz_b_repeated_index = [13, 22, 33, 37, 52, 17, 36, 0, 54, 44, 11, 39, 8, 6, 15, 24, 57, 43, 1, 19, 49, 4]
 
 	quiz_a_correct_rate = []
@@ -104,7 +129,6 @@ def refine_quiz():
 					quiz_b_correct_rate.append(float(reader[i - 1][3]) / float(70))
 					quiz_b_answer.append(reader[i - 1][1])
 
-
 	quiz_a_correct_rate_sorted_index = sorted(range(len(quiz_a_correct_rate)),key=quiz_a_correct_rate.__getitem__)
 	quiz_b_correct_rate_sorted_index = sorted(range(len(quiz_b_correct_rate)),key=quiz_b_correct_rate.__getitem__)
 
@@ -112,6 +136,8 @@ def refine_quiz():
 	gre_a = 0
 	safety_a = 0
 	science_a = 0
+
+	# remove the 2 most difficult questions from quiz a
 	while len(sub_questions_a) > 58:
 		index = quiz_a_correct_rate_sorted_index.pop()
 
@@ -131,6 +157,8 @@ def refine_quiz():
 				quiz_a_science_index.remove(index)
 				sub_questions_a.remove(index)
 
+	# randomly remove 4 questions from quiz a
+	# remove same number questions in each subject
 	while len(sub_questions_a) > 54:
 		random.shuffle(quiz_a_correct_rate_sorted_index)
 		index = quiz_a_correct_rate_sorted_index.pop()
@@ -157,6 +185,8 @@ def refine_quiz():
 	gre_b = 0
 	safety_b = 0
 	science_b = 0
+
+	# remove the 2 most difficult questions from quiz a
 	while len(sub_questions_b) > 58:
 		index = quiz_b_correct_rate_sorted_index.pop()
 
@@ -175,7 +205,9 @@ def refine_quiz():
 				science_b += 1
 				quiz_b_science_index.remove(index)
 				sub_questions_b.remove(index)
-
+	
+	# randomly remove 4 questions from quiz a
+	# remove same number questions in each subject
 	while len(sub_questions_b) > 54:
 		random.shuffle(quiz_b_correct_rate_sorted_index)
 		index = quiz_b_correct_rate_sorted_index.pop()
@@ -196,9 +228,6 @@ def refine_quiz():
 				quiz_b_science_index.remove(index)
 				sub_questions_b.remove(index)
 
-	quiz_a_user_record_filename = "csv/MTurk1_A_user_record.csv"
-	quiz_b_user_record_filename = "csv/MTurk1_B_user_record.csv"
-
 	quiz_a_data = {}
 	quiz_b_data = {}
 
@@ -210,64 +239,72 @@ def refine_quiz():
 		reader = list(csv.reader(csvfile))
 		quiz_b = reader[3:]
 
+	# create a quiz record entry for each user
 	for i in range(len(quiz_a)):
 		quiz_a_data[quiz_a[i][17]] = quiz_a[i][22:-1]
 
 	for i in range(len(quiz_b)):
 		quiz_b_data[quiz_b[i][17]] = quiz_b[i][22:-1]
 
+	# id for all users
 	all_users_temp = quiz_a_data.keys()
 	all_users_temp.extend(x for x in quiz_b_data.keys() if x not in quiz_a_data.keys())
 	all_user = []
 
+	# filter out the users who have done both quiz a and quiz b
 	for user in all_users_temp:
 		if user in quiz_a_data.keys() and user in quiz_b_data.keys():
 			all_user.append(user)
 
-	print(get_sub_score(all_user, quiz_a_data, quiz_a_answer, sub_questions_a))
-	print(get_sub_score(all_user, quiz_b_data, quiz_b_answer, sub_questions_b))
+	# print(get_sub_score(all_user, quiz_a_data, quiz_a_answer, sub_questions_a))
+	# print(get_sub_score(all_user, quiz_b_data, quiz_b_answer, sub_questions_b))
 
-	print(numpy.mean(get_sub_score(all_user, quiz_a_data, quiz_a_answer, sub_questions_a)))
-	print(numpy.mean(get_sub_score(all_user, quiz_b_data, quiz_b_answer, sub_questions_b)))
+	# print(numpy.mean(get_sub_score(all_user, quiz_a_data, quiz_a_answer, sub_questions_a)))
+	# print(numpy.mean(get_sub_score(all_user, quiz_b_data, quiz_b_answer, sub_questions_b)))
 
-	print(quiz_a_gre_index)
-	print(quiz_a_safety_index)
-	print(quiz_a_science_index)
-	print(quiz_b_gre_index)
-	print(quiz_b_safety_index)
-	print(quiz_b_science_index)
+	# print(quiz_a_gre_index)
+	# print(quiz_a_safety_index)
+	# print(quiz_a_science_index)
+	# print(quiz_b_gre_index)
+	# print(quiz_b_safety_index)
+	# print(quiz_b_science_index)
 
-	print(len(quiz_a_gre_index))
-	print(len(quiz_a_safety_index))
-	print(len(quiz_a_science_index))
-	print(len(quiz_b_gre_index))
-	print(len(quiz_b_safety_index))
-	print(len(quiz_b_science_index))
+	# print(len(quiz_a_gre_index))
+	# print(len(quiz_a_safety_index))
+	# print(len(quiz_a_science_index))
+	# print(len(quiz_b_gre_index))
+	# print(len(quiz_b_safety_index))
+	# print(len(quiz_b_science_index))
 
+	# the refined quizzes with 54 questions each
 	quiz_a = list(quiz_a_gre_index + quiz_a_safety_index + quiz_a_science_index)
 	quiz_b = list(quiz_b_gre_index + quiz_b_safety_index + quiz_b_science_index)
+
+	quiz_a.sort()
+	quiz_b.sort()
 
 	a_all = [i for i in range(60)]
 	quiz_a_remove = list(set(a_all) - set(quiz_a))
 	b_all = [i for i in range(60)]
 	quiz_b_remove = list(set(b_all) - set(quiz_b))
 
-	quiz_a.sort()
-	quiz_b.sort()
-
-	print(quiz_a)
-	print(quiz_b)
-	print(quiz_a_remove)
-	print(quiz_b_remove)
+	# print(quiz_a)
+	# print(quiz_b)
+	# print(quiz_a_remove)
+	# print(quiz_b_remove)
 
 	return quiz_a_gre_index, quiz_a_safety_index, quiz_a_science_index, quiz_a, quiz_a_remove, \
 		   quiz_b_gre_index, quiz_b_safety_index, quiz_b_science_index, quiz_b, quiz_b_remove
 
 
 def split_refined_quiz():
-	quiz_a_score_report_filename = "csv/MTurk1_A_score_report.csv"
-	quiz_b_score_report_filename = "csv/MTurk1_B_score_report.csv"
-
+	'''
+		split 54-question quiz a and quiz b to four quizzes a1, a2, b1, b2
+		a1, a2, b1, b2 are similar in difficulty and each have 54 questions
+		a1 and b1, a2 and b2 contain the same set of repeated questions
+		a = a1 + a2
+		b = b1 + b2
+	'''
 	quiz_a_correct_rate = []
 	quiz_b_correct_rate = []
 
@@ -290,6 +327,7 @@ def split_refined_quiz():
 					quiz_b_correct_rate.append(float(reader[i - 1][3]) / float(70))
 					quiz_b_answer.append(reader[i - 1][1])
 
+	# get all the index combinations when choosing 9 questions from 18 questions for each subject
 	quiz_a_gre_index_combo = list(itertools.combinations(quiz_a_gre_index, 9))
 	quiz_a_safety_index_combo = list(itertools.combinations(quiz_a_safety_index, 9))
 	quiz_a_science_index_combo = list(itertools.combinations(quiz_a_science_index, 9))
@@ -300,9 +338,11 @@ def split_refined_quiz():
 	average_b_half_1 = 30
 	average_b_half_2 = 40
 
+	# try out different partitions (a1, a2, b1, b2) until we find one partition with four quizzes similar in difficulty
 	while abs(average_a_half_1 - average_b_half_1) > 0.34 or \
 		  abs(average_a_half_2 - average_b_half_2) > 0.34:
 
+		# pick random combinations for each subject
 		i = random.randint(0, 48619)
 		j = random.randint(0, 48619)
 		k = random.randint(0, 48619)
@@ -318,6 +358,8 @@ def split_refined_quiz():
 		quiz_b_safety_half_1 = []
 		quiz_b_science_half_1 = []
 
+		# add repeated questions in a1 to b1, add repeated questions in a2 to b2
+		# a1 and b2, a2 and b1 are mutually exclusive
 		for p in range(9):
 			if quiz_a_gre_index_combo[i][p] in quiz_a_repeated_index:
 				repeat_index = quiz_a_repeated_index.index(quiz_a_gre_index_combo[i][p])
@@ -339,6 +381,7 @@ def split_refined_quiz():
 		random.shuffle(quiz_b_safety_half_2)
 		random.shuffle(quiz_b_science_half_2)
 
+		# add non-repeated questions to make a1, a2, b1, b2 each have 9 questions in gre. safety, and science
 		num_append = 9 - len(quiz_b_gre_half_1)
 		for i in range(num_append):
 			quiz_b_gre_half_1.append(quiz_b_gre_half_2[i])
@@ -382,12 +425,10 @@ def split_refined_quiz():
 		print("a2 - b2: " + str(average_a_half_2 - average_b_half_2))
 		# # print("b1 - b2: " + str(average_b_half_1 - average_b_half_2))
 
-	quiz_a_user_record_filename = "csv/MTurk1_A_user_record.csv"
-	quiz_b_user_record_filename = "csv/MTurk1_B_user_record.csv"
-
 	quiz_a_data = {}
 	quiz_b_data = {}
 
+	# get MTurk user's subscores for a1, a2, b1, b2
 	with open(quiz_a_user_record_filename, 'rt') as csvfile:
 		reader = list(csv.reader(csvfile))
 		quiz_a = reader[3:]
@@ -402,29 +443,39 @@ def split_refined_quiz():
 	for i in range(len(quiz_b)):
 		quiz_b_data[quiz_b[i][17]] = quiz_b[i][22:-1]
 
+	# id for all users
 	all_users_temp = quiz_a_data.keys()
 	all_users_temp.extend(x for x in quiz_b_data.keys() if x not in quiz_a_data.keys())
 	all_user = []
 
+	# filter out the users who have done both Quiz A and Quiz B
 	for user in all_users_temp:
 		if user in quiz_a_data.keys() and user in quiz_b_data.keys():
 			all_user.append(user)
 
-	print(get_sub_score(all_user, quiz_a_data, quiz_a_answer, quiz_a_half_1_index))
-	print(get_sub_score(all_user, quiz_a_data, quiz_a_answer, quiz_a_half_2_index))
-	print(get_sub_score(all_user, quiz_b_data, quiz_b_answer, quiz_b_half_1_index))
-	print(get_sub_score(all_user, quiz_b_data, quiz_b_answer, quiz_b_half_2_index))
+	# print(get_sub_score(all_user, quiz_a_data, quiz_a_answer, quiz_a_half_1_index))
+	# print(get_sub_score(all_user, quiz_a_data, quiz_a_answer, quiz_a_half_2_index))
+	# print(get_sub_score(all_user, quiz_b_data, quiz_b_answer, quiz_b_half_1_index))
+	# print(get_sub_score(all_user, quiz_b_data, quiz_b_answer, quiz_b_half_2_index))
 
 	print(numpy.mean(get_sub_score(all_user, quiz_a_data, quiz_a_answer, quiz_a_half_1_index)))
 	print(numpy.mean(get_sub_score(all_user, quiz_a_data, quiz_a_answer, quiz_a_half_2_index)))
 	print(numpy.mean(get_sub_score(all_user, quiz_b_data, quiz_b_answer, quiz_b_half_1_index)))
 	print(numpy.mean(get_sub_score(all_user, quiz_b_data, quiz_b_answer, quiz_b_half_2_index)))
 
+	# print(get_sub_score(all_user, quiz_a_data, quiz_a_answer, a1))
+	# print(get_sub_score(all_user, quiz_a_data, quiz_a_answer, a2))
+	# print(get_sub_score(all_user, quiz_b_data, quiz_b_answer, b1))
+	# print(get_sub_score(all_user, quiz_b_data, quiz_b_answer, b2))
+
+	# print(get_sub_score(all_user, quiz_a_data, quiz_a_answer, quiz_a_index))
+	# print(get_sub_score(all_user, quiz_b_data, quiz_b_answer, quiz_b_index))
+
 
 def get_repeated_questions():
-	quiz_a_score_report_filename = "csv/MTurk1_A_score_report.csv"
-	quiz_b_score_report_filename = "csv/MTurk1_B_score_report.csv"
-
+	'''
+		get the index of the repeated questions in quiz a and quiz b
+	'''
 	quiz_a_repeated_index = []
 	quiz_b_repeated_index = []
 
@@ -445,6 +496,7 @@ def get_repeated_questions():
 				if reader[i][1] == "Field":
 					quiz_b_question.append(reader[i - 1][0])
 
+	# remove the prefix tags for each question
 	for i in range(60):
 		if i < 11:
 			quiz_a_question[i] = quiz_a_question[i][5:]
@@ -468,11 +520,7 @@ def get_repeated_questions():
 	quiz_a_question = quiz_a_question[:-1]
 	quiz_b_question = quiz_b_question[:-1]
 
-	# for i in range(len(quiz_a_question)):
-	# 	print(quiz_a_question[i])
-	# for i in range(len(quiz_b_question)):
-	# 	print(quiz_b_question[i])
-
+	# get the Qualtrics id for the repeated questions in quiz a and quiz b
 	for q in quiz_a_question:
 		if q in quiz_b_question:
 			quiz_a_repeated_index.append(quiz_a_question.index(q))
@@ -480,17 +528,17 @@ def get_repeated_questions():
 
 	print(quiz_a_repeated_index)
 	print(quiz_b_repeated_index)
-	# print(len(quiz_a_repeated_index))
-	# print(len(quiz_b_repeated_index))
 
+	# confirm if the corresponding questions are the same
 	for i in range(22):
 		print(quiz_a_question[quiz_a_repeated_index[i]])
 		print(quiz_b_question[quiz_b_repeated_index[i]])
 
 
 def verify():
-	quiz_a_score_report_filename = "csv/MTurk1_A_score_report.csv"
-	quiz_b_score_report_filename = "csv/MTurk1_B_score_report.csv"
+	'''
+		confirm the questions partition is correct
+	'''
 
 	quiz_a_all = set(quiz_a_remove + quiz_a_index)
 	quiz_b_all = set(quiz_b_remove + quiz_b_index)
@@ -575,9 +623,6 @@ def verify():
 				if reader[i][1] == "Total":
 					quiz_b_answer.append(reader[i - 1][1])
 
-	quiz_a_user_record_filename = "csv/MTurk1_A_user_record.csv"
-	quiz_b_user_record_filename = "csv/MTurk1_B_user_record.csv"
-
 	quiz_a_data = {}
 	quiz_b_data = {}
 
@@ -608,10 +653,13 @@ def verify():
 
 
 def split_question_pool():
+	'''
+		spliting the question pool for quizbot and flashcard
+		each contains 16 questions in gre, safety, science
+		these two question pools are mutually exclusive
+	'''
 	quiz_between_subjects_flashcard_filename = "json/questions_between_subjects_flashcard.json"
 	quiz_between_subjects_quizbot_filename = "json/questions_between_subjects_quizbot.json"
-	quiz_a_score_report_filename = "csv/MTurk1_A_score_report.csv"
-	quiz_b_score_report_filename = "csv/MTurk1_B_score_report.csv"
 
 	quiz_a_question = []
 	quiz_b_question = []
@@ -656,16 +704,15 @@ def split_question_pool():
 	quiz_a_question = [quiz_a_question_temp[i] for i in quiz_a_index]
 	quiz_b_question = [quiz_b_question_temp[i] for i in quiz_b_index]
 
+	# get the question text
 	a1_question = [quiz_a_question_temp[i] for i in a1]
 	a2_question = [quiz_a_question_temp[i] for i in a2]
 	b1_question = [quiz_b_question_temp[i] for i in b1]
 	b2_question = [quiz_b_question_temp[i] for i in b2]
 
+	# remove the repeated indices
 	flashcard_question = numpy.unique(a1_question + b1_question)
 	quizbot_question = numpy.unique(a2_question + b2_question)
-
-	# print(flashcard_question)
-	# print(quizbot_question)
 
 	flashcard_gre = []
 	flashcard_safety = []
@@ -674,6 +721,7 @@ def split_question_pool():
 	quizbot_safety = []
 	quizbot_science = []
 
+	# get the question text in each subject
 	for i in a1:
 		if i in quiz_a_gre_index:	
 			flashcard_gre.append(quiz_a_question_temp[i])
@@ -740,7 +788,6 @@ def split_question_pool():
 	# print(len(quizbot_safety))
 	# print(len(quizbot_science))
 
-
 	flashcard_question_json = []
 	quizbot_question_json = []
 
@@ -779,6 +826,9 @@ def split_question_pool():
 
 
 def verify_question_pool():
+	'''
+		verify the question pool
+	'''
 	quiz_between_subjects_flashcard_filename = "json/questions_between_subjects_flashcard.json"
 	quiz_between_subjects_quizbot_filename = "json/questions_between_subjects_quizbot.json"	
 
@@ -793,9 +843,9 @@ def verify_question_pool():
 
 
 def dump_correct_rate():
-	quiz_a_score_report_filename = "csv/MTurk1_A_score_report.csv"
-	quiz_b_score_report_filename = "csv/MTurk1_B_score_report.csv"
-
+	'''
+		dump the question rate to a csv file
+	'''
 	quiz_a_correct_rate = []
 	quiz_b_correct_rate = []
 	quiz_a_question = []
@@ -881,7 +931,10 @@ def dump_correct_rate():
 	    writer.writerows(result)
 
 
-def get_quiz_id():
+def get_quiz_qid():
+	'''
+		get the qid for quizzes
+	'''
 	quiz_b_score_report_filename = "csv/MTurk1_B_score_report.csv"
 	quiz_b_question = []
 
@@ -942,41 +995,30 @@ def get_quiz_id():
 	print(len(result))
 
 
-def get_question_pool_id():
-	a1_question_id = a1_to_id.values()
-	a2_question_id = a2_to_id.values()
-	b1_question_id = b1_to_id.values()
-	b2_question_id = b2_to_id.values()
+def get_question_pool_qid():
+	a1_question_qid = a1_to_qid.values()
+	a2_question_qid = a2_to_qid.values()
+	b1_question_qid = b1_to_qid.values()
+	b2_question_qid = b2_to_qid.values()
 
-	flashcard_question_id = numpy.unique(a1_question_id + b1_question_id)
-	quizbot_question_id = numpy.unique(a2_question_id + b2_question_id)
+	flashcard_question_qid = numpy.unique(a1_question_qid + b1_question_qid)
+	quizbot_question_qid = numpy.unique(a2_question_qid + b2_question_qid)
 
-	print(list(flashcard_question_id))
-	print(len(flashcard_question_id))
-	print(list(quizbot_question_id))
-	print(len(quizbot_question_id))
+	print(list(flashcard_question_qid))
+	print(len(flashcard_question_qid))
+	print(list(quizbot_question_qid))
+	print(len(quizbot_question_qid))
 
 
 def get_repeated_in_pool():
-	repeated_in_flashcard = list(set(repeated_question_id)&set(flashcard_id))
-	repeated_in_quizbot = list(set(repeated_question_id)&set(quizbot_id))
+	repeated_in_flashcard = list(set(repeated_question_qid)&set(flashcard_qid))
+	repeated_in_quizbot = list(set(repeated_question_qid)&set(quizbot_qid))
 
 	print(repeated_in_flashcard)
 	print(len(repeated_in_flashcard))
 	print(repeated_in_quizbot)
 	print(len(repeated_in_quizbot))
 
-	# quiz_a_id.sort()
-	# quiz_b_id.sort()
-
-	# print(quiz_a_id)
-	# print(quiz_b_id)
 
 if __name__ == "__main__":
-	get_repeated_in_pool()
-
-
-
-
-
-
+	split_refined_quiz()

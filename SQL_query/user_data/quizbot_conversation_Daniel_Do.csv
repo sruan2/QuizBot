@@ -266,3 +266,273 @@ user_id,user_firstname,user_lastname,uid,sender,recipient,type,dialogue,time_sta
 2341119375928551,Daniel,Do,4270,854518728062939,2341119375928551,BOT: message,Nice! That was right!,2018-08-22 17:37:59
 2341119375928551,Daniel,Do,4272,854518728062939,2341119375928551,BOT: quick reply,"The correct answer is Physical, biological, and chemical.",2018-08-22 17:38:01
 2341119375928551,Daniel,Do,5082,854518728062939,2341119375928551,BOT: quick reply,"Hi Daniel, you haven't talked to me for a while. Would you like to resume the learning with me?",2018-08-22 20:00:27
+2341119375928551,Daniel,Do,7766,2341119375928551,854518728062939,user_quick_reply: NEXT_QUESTION,Alrighty :light_bulb:,2018-08-23 17:22:59
+2341119375928551,Daniel,Do,7767,854518728062939,2341119375928551,BOT: message,I think you'll like this question.,2018-08-23 17:23:00
+2341119375928551,Daniel,Do,7768,854518728062939,2341119375928551,BOT: quick reply,Which fire extinguishers are used to put out fires caused by flammable liquids?,2018-08-23 17:23:02
+2341119375928551,Daniel,Do,7769,2341119375928551,854518728062939,user_typing,Class b,2018-08-23 17:23:12
+2341119375928551,Daniel,Do,7770,854518728062939,2341119375928551,BOT: message,That's not quite right. :disappointed_face:,2018-08-23 17:23:14
+2341119375928551,Daniel,Do,7771,854518728062939,2341119375928551,BOT: quick reply,The correct answer is Class B carbon dioxide fire extinguisher.,2018-08-23 17:23:15
+2341119375928551,Daniel,Do,7772,2341119375928551,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-23 17:23:34
+2341119375928551,Daniel,Do,7773,854518728062939,2341119375928551,BOT: message,Could you answer this one for me?,2018-08-23 17:23:35
+2341119375928551,Daniel,Do,7774,854518728062939,2341119375928551,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-23 17:23:37
+2341119375928551,Daniel,Do,7775,854518728062939,2341119375928551,BOT: quick reply,Which fire extinguishers are used to put out Class A fires?,2018-08-23 17:23:38
+2341119375928551,Daniel,Do,7776,2341119375928551,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 17:23:43
+2341119375928551,Daniel,Do,7777,854518728062939,2341119375928551,BOT: message,It's one of the following choices.,2018-08-23 17:23:44
+2341119375928551,Daniel,Do,7778,854518728062939,2341119375928551,BOT: quick reply,":keycap_1: Both water and multi-purpose dry chemical
+:keycap_2: Both CO2 and water
+:keycap_3: CO2 only
+:keycap_4: Multi-purpose dry chemical only
+:keycap_5: Water only
+",2018-08-23 17:23:46
+2341119375928551,Daniel,Do,7779,2341119375928551,854518728062939,user_quick_reply: BUTTON_AKB_Both water and multi-purpose dry chemical,:keycap_1:,2018-08-23 17:24:00
+2341119375928551,Daniel,Do,7780,854518728062939,2341119375928551,BOT: message,Yes! You got the correct answer!,2018-08-23 17:24:02
+2341119375928551,Daniel,Do,7781,854518728062939,2341119375928551,BOT: quick reply,The correct answer is Both water and multi-purpose dry chemical.,2018-08-23 17:24:03
+2341119375928551,Daniel,Do,7782,2341119375928551,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-23 17:24:13
+2341119375928551,Daniel,Do,7783,854518728062939,2341119375928551,BOT: message,I think you'll like this question.,2018-08-23 17:24:14
+2341119375928551,Daniel,Do,7784,854518728062939,2341119375928551,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-23 17:24:16
+2341119375928551,Daniel,Do,7785,854518728062939,2341119375928551,BOT: quick reply,How long can high-acid canned food such as tomatoes be stored?,2018-08-23 17:24:18
+2341119375928551,Daniel,Do,7787,2341119375928551,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 17:24:23
+2341119375928551,Daniel,Do,7789,854518728062939,2341119375928551,BOT: message,Okay. I'll give you some choices.,2018-08-23 17:24:25
+2341119375928551,Daniel,Do,7791,854518728062939,2341119375928551,BOT: quick reply,":keycap_1: 2 to 6 months
+:keycap_2: 2 to 4 years
+:keycap_3: 12 to 18 months
+:keycap_4: 10 to 30 days
+",2018-08-23 17:24:26
+2341119375928551,Daniel,Do,7794,2341119375928551,854518728062939,user_quick_reply: BUTTON_DKB_2 to 6 months,:keycap_1:,2018-08-23 17:24:33
+2341119375928551,Daniel,Do,7795,854518728062939,2341119375928551,BOT: message,"I'm sorry, but that was incorrect. :disappointed_face:",2018-08-23 17:24:35
+2341119375928551,Daniel,Do,7797,854518728062939,2341119375928551,BOT: quick reply,The correct answer is 12 to 18 months.,2018-08-23 17:24:36
+2341119375928551,Daniel,Do,7799,2341119375928551,854518728062939,user_quick_reply: WHY,Why?,2018-08-23 17:24:45
+2341119375928551,Daniel,Do,7800,854518728062939,2341119375928551,BOT: message,This is why:,2018-08-23 17:24:47
+2341119375928551,Daniel,Do,7801,854518728062939,2341119375928551,BOT: quick reply,"According to the United States Department of Agriculture (USDA), In general, high-acid canned food such as tomatoes, grapefruit, and pineapple can be stored on the shelf for 12 to 18 months. Low-acid canned food such as meat, poultry, fish, and most vegetables will keep 2 to 5 years if the can remains in good condition and has been stored in a cool, clean, and dry place.",2018-08-23 17:24:48
+2341119375928551,Daniel,Do,7802,2341119375928551,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-23 17:24:57
+2341119375928551,Daniel,Do,7803,854518728062939,2341119375928551,BOT: message,See if you can answer this next one.,2018-08-23 17:24:59
+2341119375928551,Daniel,Do,7804,854518728062939,2341119375928551,BOT: quick reply,Working on scaffold during winds above ____ miles per hour is prohibited by OSHA.,2018-08-23 17:25:00
+2341119375928551,Daniel,Do,7805,2341119375928551,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 17:25:08
+2341119375928551,Daniel,Do,7806,854518728062939,2341119375928551,BOT: message,It's one of the following choices.,2018-08-23 17:25:09
+2341119375928551,Daniel,Do,7807,854518728062939,2341119375928551,BOT: quick reply,":keycap_1: 50
+:keycap_2: 40
+:keycap_3: 25
+:keycap_4: 10
+",2018-08-23 17:25:11
+2341119375928551,Daniel,Do,7808,2341119375928551,854518728062939,user_quick_reply: BUTTON_DKB_25,:keycap_3:,2018-08-23 17:25:18
+2341119375928551,Daniel,Do,7809,854518728062939,2341119375928551,BOT: message,"Oops, that is not correct. :disappointed_face:",2018-08-23 17:25:19
+2341119375928551,Daniel,Do,7810,854518728062939,2341119375928551,BOT: quick reply,The correct answer is 40.,2018-08-23 17:25:21
+2341119375928551,Daniel,Do,7811,2341119375928551,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-23 17:25:24
+2341119375928551,Daniel,Do,7812,854518728062939,2341119375928551,BOT: message,What about this next question:,2018-08-23 17:25:26
+2341119375928551,Daniel,Do,7813,854518728062939,2341119375928551,BOT: quick reply,"When you discover a fire, you should do what?",2018-08-23 17:25:27
+2341119375928551,Daniel,Do,7814,2341119375928551,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 17:25:34
+2341119375928551,Daniel,Do,7815,854518728062939,2341119375928551,BOT: message,Which of the following options is the right answer?,2018-08-23 17:25:35
+2341119375928551,Daniel,Do,7816,854518728062939,2341119375928551,BOT: quick reply,":keycap_1: Stay in the building until you figure out a way to extinguish the fire
+:keycap_2: Use a fire extinguisher to put out the fire, even if you've never used a fire extinguisher before
+:keycap_3: Pull the fire alarm and call the fire department
+:keycap_4: Run out of the building without warning others of the fire
+",2018-08-23 17:25:37
+2341119375928551,Daniel,Do,7817,2341119375928551,854518728062939,user_quick_reply: BUTTON_AKB_Pull the fire alarm and call the fire department,:keycap_3:,2018-08-23 17:25:45
+2341119375928551,Daniel,Do,7818,854518728062939,2341119375928551,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_jubilated_orange.png,2018-08-23 17:25:47
+2341119375928551,Daniel,Do,7819,854518728062939,2341119375928551,BOT: message,Great job getting the correct answer!,2018-08-23 17:25:49
+2341119375928551,Daniel,Do,7820,854518728062939,2341119375928551,BOT: quick reply,The correct answer is Pull the fire alarm and call the fire department.,2018-08-23 17:25:50
+2341119375928551,Daniel,Do,7821,2341119375928551,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-23 17:25:53
+2341119375928551,Daniel,Do,7822,854518728062939,2341119375928551,BOT: message,Let's take a look at this question.,2018-08-23 17:25:55
+2341119375928551,Daniel,Do,7823,854518728062939,2341119375928551,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-23 17:25:56
+2341119375928551,Daniel,Do,7824,854518728062939,2341119375928551,BOT: quick reply,Working on scaffold during winds above ____ miles per hour is prohibited by OSHA.,2018-08-23 17:25:58
+2341119375928551,Daniel,Do,7825,2341119375928551,854518728062939,user_typing,40,2018-08-23 17:26:03
+2341119375928551,Daniel,Do,7826,854518728062939,2341119375928551,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_happy_cyan.png,2018-08-23 17:26:05
+2341119375928551,Daniel,Do,7827,854518728062939,2341119375928551,BOT: message,Thats right! :party_popper:,2018-08-23 17:26:07
+2341119375928551,Daniel,Do,7828,854518728062939,2341119375928551,BOT: quick reply,The correct answer is 40.,2018-08-23 17:26:08
+2341119375928551,Daniel,Do,7829,2341119375928551,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-23 17:26:13
+2341119375928551,Daniel,Do,7830,854518728062939,2341119375928551,BOT: message,Here's a question for you:,2018-08-23 17:26:15
+2341119375928551,Daniel,Do,7831,854518728062939,2341119375928551,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-23 17:26:16
+2341119375928551,Daniel,Do,7832,854518728062939,2341119375928551,BOT: quick reply,Which fire extinguishers are used to put out Class A fires?,2018-08-23 17:26:18
+2341119375928551,Daniel,Do,7833,2341119375928551,854518728062939,user_typing,Water and chemical,2018-08-23 17:26:31
+2341119375928551,Daniel,Do,7834,854518728062939,2341119375928551,BOT: message,Yes! You got the correct answer!,2018-08-23 17:26:32
+2341119375928551,Daniel,Do,7835,854518728062939,2341119375928551,BOT: quick reply,The correct answer is Both water and multi-purpose dry chemical.,2018-08-23 17:26:34
+2341119375928551,Daniel,Do,7836,2341119375928551,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-23 17:26:38
+2341119375928551,Daniel,Do,7838,854518728062939,2341119375928551,BOT: message,Would you answer this question for me?,2018-08-23 17:26:40
+2341119375928551,Daniel,Do,7839,854518728062939,2341119375928551,BOT: quick reply,"When you discover a fire, you should do what?",2018-08-23 17:26:41
+2341119375928551,Daniel,Do,7842,2341119375928551,854518728062939,user_typing,Fire alarm and police,2018-08-23 17:26:58
+2341119375928551,Daniel,Do,7843,854518728062939,2341119375928551,BOT: message,Nice! That was right!,2018-08-23 17:26:59
+2341119375928551,Daniel,Do,7844,854518728062939,2341119375928551,BOT: quick reply,The correct answer is Pull the fire alarm and call the fire department.,2018-08-23 17:27:01
+2341119375928551,Daniel,Do,7845,2341119375928551,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-23 17:27:04
+2341119375928551,Daniel,Do,7846,854518728062939,2341119375928551,BOT: message,What about this next question:,2018-08-23 17:27:05
+2341119375928551,Daniel,Do,7847,854518728062939,2341119375928551,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-23 17:27:07
+2341119375928551,Daniel,Do,7848,854518728062939,2341119375928551,BOT: quick reply,To what does the acronym SLM refer?,2018-08-23 17:27:08
+2341119375928551,Daniel,Do,7849,2341119375928551,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 17:27:19
+2341119375928551,Daniel,Do,7850,854518728062939,2341119375928551,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-08-23 17:27:20
+2341119375928551,Daniel,Do,7851,854518728062939,2341119375928551,BOT: quick reply,":keycap_1: Service Lifecycle Management
+:keycap_2: Sound Level Meter
+:keycap_3: Sound Loudness Methods
+:keycap_4: System Level Monitor
+",2018-08-23 17:27:22
+2341119375928551,Daniel,Do,7852,2341119375928551,854518728062939,user_quick_reply: BUTTON_DKB_Service Lifecycle Management,:keycap_1:,2018-08-23 17:27:27
+2341119375928551,Daniel,Do,7853,854518728062939,2341119375928551,BOT: message,That's not quite right. :disappointed_face:,2018-08-23 17:27:29
+2341119375928551,Daniel,Do,7854,854518728062939,2341119375928551,BOT: quick reply,The correct answer is Sound Level Meter.,2018-08-23 17:27:30
+2341119375928551,Daniel,Do,7855,2341119375928551,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-23 17:27:34
+2341119375928551,Daniel,Do,7856,854518728062939,2341119375928551,BOT: message,Let's take a look at this question.,2018-08-23 17:27:36
+2341119375928551,Daniel,Do,7857,854518728062939,2341119375928551,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-23 17:27:37
+2341119375928551,Daniel,Do,7858,854518728062939,2341119375928551,BOT: quick reply,What should you NOT do while treating cuts and scrapes?,2018-08-23 17:27:39
+2341119375928551,Daniel,Do,7859,2341119375928551,854518728062939,user_typing,Soap,2018-08-23 17:27:52
+2341119375928551,Daniel,Do,7860,854518728062939,2341119375928551,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/celebration.gif,2018-08-23 17:27:59
+2341119375928551,Daniel,Do,7861,854518728062939,2341119375928551,BOT: message,Thats right! :party_popper:,2018-08-23 17:28:01
+2341119375928551,Daniel,Do,7862,854518728062939,2341119375928551,BOT: quick reply,The correct answer is Wash the wound with soap.,2018-08-23 17:28:02
+2341119375928551,Daniel,Do,7863,2341119375928551,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-23 17:28:08
+2341119375928551,Daniel,Do,7864,854518728062939,2341119375928551,BOT: message,See if you can answer this next one.,2018-08-23 17:28:09
+2341119375928551,Daniel,Do,7865,854518728062939,2341119375928551,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-23 17:28:10
+2341119375928551,Daniel,Do,7866,854518728062939,2341119375928551,BOT: quick reply,What should you NOT do while treating cuts and scrapes?,2018-08-23 17:28:12
+2341119375928551,Daniel,Do,7867,2341119375928551,854518728062939,user_typing,Soap,2018-08-23 17:28:18
+2341119375928551,Daniel,Do,7868,854518728062939,2341119375928551,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_happy_cyan.png,2018-08-23 17:28:20
+2341119375928551,Daniel,Do,7869,854518728062939,2341119375928551,BOT: message,Correct! :confetti_ball:,2018-08-23 17:28:22
+2341119375928551,Daniel,Do,7870,854518728062939,2341119375928551,BOT: quick reply,The correct answer is Wash the wound with soap.,2018-08-23 17:28:23
+2341119375928551,Daniel,Do,7871,2341119375928551,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-23 17:28:27
+2341119375928551,Daniel,Do,7872,854518728062939,2341119375928551,BOT: message,Would you answer this question for me?,2018-08-23 17:28:29
+2341119375928551,Daniel,Do,7873,854518728062939,2341119375928551,BOT: quick reply,What does CERT stand for?,2018-08-23 17:28:30
+2341119375928551,Daniel,Do,7874,2341119375928551,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 17:28:34
+2341119375928551,Daniel,Do,7875,854518728062939,2341119375928551,BOT: message,It's one of the following choices.,2018-08-23 17:28:36
+2341119375928551,Daniel,Do,7876,854518728062939,2341119375928551,BOT: quick reply,":keycap_1: Controlled Evacuation and Response Tactics
+:keycap_2: Central Emergency Response Terminal
+:keycap_3: Community Experimental Research Team
+:keycap_4: Community Emergency Response Team
+",2018-08-23 17:28:37
+2341119375928551,Daniel,Do,7877,2341119375928551,854518728062939,user_quick_reply: BUTTON_DKB_Community Experimental Research Team,:keycap_3:,2018-08-23 17:28:43
+2341119375928551,Daniel,Do,7878,854518728062939,2341119375928551,BOT: message,"Oops, that wasn't quite correct. :disappointed_face:",2018-08-23 17:28:44
+2341119375928551,Daniel,Do,7879,854518728062939,2341119375928551,BOT: quick reply,The correct answer is Community Emergency Response Team.,2018-08-23 17:28:46
+2341119375928551,Daniel,Do,7880,2341119375928551,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-23 17:28:51
+2341119375928551,Daniel,Do,7881,854518728062939,2341119375928551,BOT: message,Let's see if you can get this one.,2018-08-23 17:28:53
+2341119375928551,Daniel,Do,7882,854518728062939,2341119375928551,BOT: quick reply,"What agency inspects, grades, and enforces standards of quality and wholesomeness for meat, poultry, milk, eggs, and grains?",2018-08-23 17:28:54
+2341119375928551,Daniel,Do,7883,2341119375928551,854518728062939,user_typing,USDA,2018-08-23 17:29:03
+2341119375928551,Daniel,Do,7884,854518728062939,2341119375928551,BOT: message,Good Answer! :white_heavy_check_mark:,2018-08-23 17:29:05
+2341119375928551,Daniel,Do,7885,854518728062939,2341119375928551,BOT: quick reply,The correct answer is USDA.,2018-08-23 17:29:06
+2341119375928551,Daniel,Do,7886,2341119375928551,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-23 17:29:09
+2341119375928551,Daniel,Do,7887,854518728062939,2341119375928551,BOT: message,Let's see if you can answer this question.,2018-08-23 17:29:10
+2341119375928551,Daniel,Do,7888,854518728062939,2341119375928551,BOT: quick reply,What three major factors cause food contamination?,2018-08-23 17:29:12
+2341119375928551,Daniel,Do,7889,2341119375928551,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 17:29:17
+2341119375928551,Daniel,Do,7890,854518728062939,2341119375928551,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-08-23 17:29:19
+2341119375928551,Daniel,Do,7891,854518728062939,2341119375928551,BOT: quick reply,":keycap_1: Physical, chemical, and psychosocial
+:keycap_2: Physical, biological, and chemical
+:keycap_3: Physical, biological, and radiological
+:keycap_4: Physical, psychological, and health
+",2018-08-23 17:29:20
+2341119375928551,Daniel,Do,7892,2341119375928551,854518728062939,"user_quick_reply: BUTTON_AKB_Physical, biological, and chemical",:keycap_2:,2018-08-23 17:29:26
+2341119375928551,Daniel,Do,7893,854518728062939,2341119375928551,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_happy_purple.png,2018-08-23 17:29:29
+2341119375928551,Daniel,Do,7894,854518728062939,2341119375928551,BOT: message,Yes! You got the correct answer!,2018-08-23 17:29:30
+2341119375928551,Daniel,Do,7895,854518728062939,2341119375928551,BOT: quick reply,"The correct answer is Physical, biological, and chemical.",2018-08-23 17:29:32
+2341119375928551,Daniel,Do,7896,2341119375928551,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-23 17:29:35
+2341119375928551,Daniel,Do,7897,854518728062939,2341119375928551,BOT: message,Would you answer this question for me?,2018-08-23 17:29:37
+2341119375928551,Daniel,Do,7898,854518728062939,2341119375928551,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-23 17:29:38
+2341119375928551,Daniel,Do,7899,854518728062939,2341119375928551,BOT: quick reply,What should you NOT do while lifting objects?,2018-08-23 17:29:40
+2341119375928551,Daniel,Do,7900,2341119375928551,854518728062939,user_typing,Feet together,2018-08-23 17:29:51
+2341119375928551,Daniel,Do,7901,854518728062939,2341119375928551,BOT: message,Good Answer! :white_heavy_check_mark:,2018-08-23 17:29:52
+2341119375928551,Daniel,Do,7902,854518728062939,2341119375928551,BOT: quick reply,The correct answer is Keep your feet together.,2018-08-23 17:29:54
+2341119375928551,Daniel,Do,7903,2341119375928551,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-23 17:30:30
+2341119375928551,Daniel,Do,7904,854518728062939,2341119375928551,BOT: message,Let's see if you can get this one.,2018-08-23 17:30:31
+2341119375928551,Daniel,Do,7905,854518728062939,2341119375928551,BOT: quick reply,What three major factors cause food contamination?,2018-08-23 17:30:32
+2341119375928551,Daniel,Do,7906,2341119375928551,854518728062939,user_typing,"Physical, biological, chemical",2018-08-23 17:30:48
+2341119375928551,Daniel,Do,7907,854518728062939,2341119375928551,BOT: message,Thats right! :party_popper:,2018-08-23 17:30:50
+2341119375928551,Daniel,Do,7908,854518728062939,2341119375928551,BOT: quick reply,"The correct answer is Physical, biological, and chemical.",2018-08-23 17:30:51
+2341119375928551,Daniel,Do,7909,2341119375928551,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-23 17:31:05
+2341119375928551,Daniel,Do,7910,854518728062939,2341119375928551,BOT: message,See if you can answer this next one.,2018-08-23 17:31:07
+2341119375928551,Daniel,Do,7911,854518728062939,2341119375928551,BOT: quick reply,"When you discover a fire, you should do what?",2018-08-23 17:31:08
+2341119375928551,Daniel,Do,7912,2341119375928551,854518728062939,user_typing,Alarm and police,2018-08-23 17:31:28
+2341119375928551,Daniel,Do,7913,854518728062939,2341119375928551,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/celebration.gif,2018-08-23 17:31:35
+2341119375928551,Daniel,Do,7914,854518728062939,2341119375928551,BOT: message,Good Answer! :white_heavy_check_mark:,2018-08-23 17:31:36
+2341119375928551,Daniel,Do,7915,854518728062939,2341119375928551,BOT: quick reply,The correct answer is Pull the fire alarm and call the fire department.,2018-08-23 17:31:38
+2341119375928551,Daniel,Do,7916,2341119375928551,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-23 17:31:59
+2341119375928551,Daniel,Do,7917,854518728062939,2341119375928551,BOT: message,Could you answer this one for me?,2018-08-23 17:32:00
+2341119375928551,Daniel,Do,7918,854518728062939,2341119375928551,BOT: quick reply,What should you NOT do while lifting objects?,2018-08-23 17:32:02
+2341119375928551,Daniel,Do,7919,2341119375928551,854518728062939,user_typing,Feet together,2018-08-23 17:32:22
+2341119375928551,Daniel,Do,7920,854518728062939,2341119375928551,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_jubilated_purple.png,2018-08-23 17:32:24
+2341119375928551,Daniel,Do,7921,854518728062939,2341119375928551,BOT: message,Nice! :red_apple:,2018-08-23 17:32:26
+2341119375928551,Daniel,Do,7922,854518728062939,2341119375928551,BOT: quick reply,The correct answer is Keep your feet together.,2018-08-23 17:32:27
+2341119375928551,Daniel,Do,7923,2341119375928551,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-23 17:32:35
+2341119375928551,Daniel,Do,7924,854518728062939,2341119375928551,BOT: message,Let's try this one.,2018-08-23 17:32:37
+2341119375928551,Daniel,Do,7925,854518728062939,2341119375928551,BOT: quick reply,"When you discover a fire, you should do what?",2018-08-23 17:32:38
+2341119375928551,Daniel,Do,7928,2341119375928551,854518728062939,user_typing,Alarm and police,2018-08-23 17:32:56
+2341119375928551,Daniel,Do,7929,854518728062939,2341119375928551,BOT: message,Fantastic! :hundred_points:,2018-08-23 17:32:58
+2341119375928551,Daniel,Do,7930,854518728062939,2341119375928551,BOT: quick reply,The correct answer is Pull the fire alarm and call the fire department.,2018-08-23 17:32:59
+2341119375928551,Daniel,Do,7934,2341119375928551,854518728062939,user_quick_reply: SWITCH_SUBJECT,Change subject :shuffle_tracks_button:,2018-08-23 17:33:04
+2341119375928551,Daniel,Do,7935,854518728062939,2341119375928551,BOT: quick reply,"Sure, now tell me which subject you would like to choose.:backhand_index_pointing_down_medium-light_skin_tone:",2018-08-23 17:33:06
+2341119375928551,Daniel,Do,7936,2341119375928551,854518728062939,user_quick_reply: GRE,GRE :input_latin_uppercase:,2018-08-23 17:33:09
+2341119375928551,Daniel,Do,7938,854518728062939,2341119375928551,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/evolvesafety_reading.gif,2018-08-23 17:33:14
+2341119375928551,Daniel,Do,7940,854518728062939,2341119375928551,BOT: quick reply,Let's test your knowledge on the GRE!,2018-08-23 17:33:16
+2341119375928551,Daniel,Do,7942,854518728062939,2341119375928551,BOT: message,See if you can answer this next one.,2018-08-23 17:33:21
+2341119375928551,Daniel,Do,7943,854518728062939,2341119375928551,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-23 17:33:23
+2341119375928551,Daniel,Do,7944,854518728062939,2341119375928551,BOT: quick reply,"Having squandered his life's savings on unprofitable business ventures, the _____ entrepreneur was forced to live in squalor.",2018-08-23 17:33:24
+2341119375928551,Daniel,Do,7948,2341119375928551,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 17:33:32
+2341119375928551,Daniel,Do,7949,854518728062939,2341119375928551,BOT: message,Pick one of the following answers.,2018-08-23 17:33:34
+2341119375928551,Daniel,Do,7950,854518728062939,2341119375928551,BOT: quick reply,":keycap_1: perturbed
+:keycap_2: insolvent
+:keycap_3: unlikely
+:keycap_4: former
+:keycap_5: eccentric
+",2018-08-23 17:33:35
+2341119375928551,Daniel,Do,7955,2341119375928551,854518728062939,user_quick_reply: BUTTON_AKB_insolvent,:keycap_2:,2018-08-23 17:33:45
+2341119375928551,Daniel,Do,7956,854518728062939,2341119375928551,BOT: message,Great job getting the correct answer!,2018-08-23 17:33:47
+2341119375928551,Daniel,Do,7958,854518728062939,2341119375928551,BOT: quick reply,The correct answer is insolvent.,2018-08-23 17:33:48
+2341119375928551,Daniel,Do,7968,2341119375928551,854518728062939,user_quick_reply: BUTTON_AKB_insolvent,:keycap_2:,2018-08-23 17:34:27
+2341119375928551,Daniel,Do,7969,854518728062939,2341119375928551,BOT: message,Yes! You got the correct answer!,2018-08-23 17:34:29
+2341119375928551,Daniel,Do,7971,854518728062939,2341119375928551,BOT: quick reply,The correct answer is insolvent.,2018-08-23 17:34:30
+2341119375928551,Daniel,Do,7974,2341119375928551,854518728062939,user_quick_reply: WHY,Why?,2018-08-23 17:34:34
+2341119375928551,Daniel,Do,7975,854518728062939,2341119375928551,BOT: message,I hope this explanation could help you understand the the question.,2018-08-23 17:34:35
+2341119375928551,Daniel,Do,7976,854518728062939,2341119375928551,BOT: quick reply,":pushpin: Insolvent -- unable to meet or discharge financial obligations
+:pushpin: Former -- preceding in time; prior or earlier
+:pushpin: Unlikely -- not likely to be true or to occur or to have occurred
+:pushpin: Perturbed -- thrown into a state of agitated confusion
+:pushpin: Eccentric -- conspicuously or grossly unconventional or unusual",2018-08-23 17:34:37
+2341119375928551,Daniel,Do,7980,2341119375928551,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-23 17:34:53
+2341119375928551,Daniel,Do,7981,854518728062939,2341119375928551,BOT: message,Let's see if you can get this one.,2018-08-23 17:34:54
+2341119375928551,Daniel,Do,7982,854518728062939,2341119375928551,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-23 17:34:56
+2341119375928551,Daniel,Do,7983,854518728062939,2341119375928551,BOT: quick reply,Many Major League Baseball relief pitchers choose an electrifying theme song to play as they take the mound; the song _____ their fans and instills fear in their opponents.,2018-08-23 17:34:58
+2341119375928551,Daniel,Do,7984,2341119375928551,854518728062939,user_typing,Innervates,2018-08-23 17:35:14
+2341119375928551,Daniel,Do,7985,854518728062939,2341119375928551,BOT: message,Correct! :confetti_ball:,2018-08-23 17:35:15
+2341119375928551,Daniel,Do,7986,854518728062939,2341119375928551,BOT: quick reply,The correct answer is innervates.,2018-08-23 17:35:17
+2341119375928551,Daniel,Do,7987,2341119375928551,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-23 17:35:21
+2341119375928551,Daniel,Do,7988,854518728062939,2341119375928551,BOT: message,Let's try this question.,2018-08-23 17:35:22
+2341119375928551,Daniel,Do,7989,854518728062939,2341119375928551,BOT: quick reply,"In psychological literature, the ""sleeper effect"" refers to the phenomenon in which a persuasive message from a trustworthy source loses _____ over time, while the efficacy of a message from a less credible source simultaneously increases.",2018-08-23 17:35:24
+2341119375928551,Daniel,Do,7990,2341119375928551,854518728062939,user_typing,Control,2018-08-23 17:35:41
+2341119375928551,Daniel,Do,7991,854518728062939,2341119375928551,BOT: message,That wasn't quite what we were looking for. :disappointed_face:,2018-08-23 17:35:43
+2341119375928551,Daniel,Do,7992,854518728062939,2341119375928551,BOT: quick reply,The correct answer is cogency.,2018-08-23 17:35:44
+2341119375928551,Daniel,Do,7993,2341119375928551,854518728062939,user_quick_reply: WHY,Why?,2018-08-23 17:35:50
+2341119375928551,Daniel,Do,7994,854518728062939,2341119375928551,BOT: message,This is an explanation of the question:,2018-08-23 17:35:51
+2341119375928551,Daniel,Do,7995,854518728062939,2341119375928551,BOT: quick reply,:pushpin: Cogency -- persuasive relevance,2018-08-23 17:35:53
+2341119375928551,Daniel,Do,7996,2341119375928551,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-23 17:36:09
+2341119375928551,Daniel,Do,7997,854518728062939,2341119375928551,BOT: message,Here's a question for you:,2018-08-23 17:36:11
+2341119375928551,Daniel,Do,7998,854518728062939,2341119375928551,BOT: quick reply,"Just as different people can have very different personalities, so too can pets - even those of the same species and breed possess varied _____ .",2018-08-23 17:36:12
+2341119375928551,Daniel,Do,7999,2341119375928551,854518728062939,user_typing,Temperaments,2018-08-23 17:36:27
+2341119375928551,Daniel,Do,8000,854518728062939,2341119375928551,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_jubilated_purple.png,2018-08-23 17:36:30
+2341119375928551,Daniel,Do,8001,854518728062939,2341119375928551,BOT: message,Nice! :red_apple:,2018-08-23 17:36:31
+2341119375928551,Daniel,Do,8002,854518728062939,2341119375928551,BOT: quick reply,The correct answer is temperaments.,2018-08-23 17:36:33
+2341119375928551,Daniel,Do,8003,2341119375928551,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-23 17:36:36
+2341119375928551,Daniel,Do,8004,854518728062939,2341119375928551,BOT: message,Let's see if you can answer this question.,2018-08-23 17:36:38
+2341119375928551,Daniel,Do,8005,854518728062939,2341119375928551,BOT: quick reply,"Despite the smile that spread from ear to ear, the eyes relayed a certain _____ .",2018-08-23 17:36:39
+2341119375928551,Daniel,Do,8006,2341119375928551,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 17:36:46
+2341119375928551,Daniel,Do,8007,854518728062939,2341119375928551,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-08-23 17:36:48
+2341119375928551,Daniel,Do,8008,854518728062939,2341119375928551,BOT: quick reply,":keycap_1: vision
+:keycap_2: mischievousness
+:keycap_3: jubilance
+:keycap_4: liveliness
+:keycap_5: sorrow
+",2018-08-23 17:36:49
+2341119375928551,Daniel,Do,8009,2341119375928551,854518728062939,user_quick_reply: BUTTON_DKB_mischievousness,:keycap_2:,2018-08-23 17:36:56
+2341119375928551,Daniel,Do,8010,854518728062939,2341119375928551,BOT: message,"Hmm, that wasn't quite right. :disappointed_face:",2018-08-23 17:36:57
+2341119375928551,Daniel,Do,8011,854518728062939,2341119375928551,BOT: quick reply,The correct answer is sorrow.,2018-08-23 17:36:59
+2341119375928551,Daniel,Do,8012,2341119375928551,854518728062939,user_quick_reply: WHY,Why?,2018-08-23 17:37:03
+2341119375928551,Daniel,Do,8013,854518728062939,2341119375928551,BOT: message,I hope this explanation could help you understand the the question.,2018-08-23 17:37:04
+2341119375928551,Daniel,Do,8014,854518728062939,2341119375928551,BOT: quick reply,":pushpin: Sorrow -- a feeling of grief
+:pushpin: Jubilance -- a feeling of extreme joy
+:pushpin: Mischievousness -- an attribute of mischievous children
+:pushpin: Vision -- a vivid mental image
+:pushpin: Liveliness -- general activity and motion",2018-08-23 17:37:06
+2341119375928551,Daniel,Do,8015,2341119375928551,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-23 17:37:11
+2341119375928551,Daniel,Do,8016,854518728062939,2341119375928551,BOT: message,Let's see if you can get this one.,2018-08-23 17:37:12
+2341119375928551,Daniel,Do,8017,854518728062939,2341119375928551,BOT: quick reply,"Many dog owners treat their pets too _____ , forgetting that canines have evolved in competitive environments in which emotional coddling was a sign of weakness.",2018-08-23 17:37:14
+2341119375928551,Daniel,Do,8018,2341119375928551,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 17:37:25
+2341119375928551,Daniel,Do,8019,854518728062939,2341119375928551,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-08-23 17:37:26
+2341119375928551,Daniel,Do,8020,854518728062939,2341119375928551,BOT: quick reply,":keycap_1: belligerently
+:keycap_2: indulgently
+:keycap_3: fortuitously
+:keycap_4: quixotically
+:keycap_5: aggressively
+",2018-08-23 17:37:28
+2341119375928551,Daniel,Do,8021,2341119375928551,854518728062939,user_quick_reply: BUTTON_AKB_indulgently,:keycap_2:,2018-08-23 17:37:36
+2341119375928551,Daniel,Do,8022,854518728062939,2341119375928551,BOT: message,Great! Keep it up! :flexed_biceps_medium-light_skin_tone:,2018-08-23 17:37:37
+2341119375928551,Daniel,Do,8023,854518728062939,2341119375928551,BOT: quick reply,The correct answer is indulgently.,2018-08-23 17:37:39
+2341119375928551,Daniel,Do,8067,854518728062939,2341119375928551,BOT: quick reply,"Hi Daniel, you haven't talked to me for a while. Would you like to resume the learning with me?",2018-08-23 20:00:33

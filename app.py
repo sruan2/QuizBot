@@ -23,6 +23,7 @@ from QAKnowledgebase import QAKnowlegeBase
 import QAModel
 from utils import pretty_print
 
+qid_to_index = {1: 32, 2: 26, 132: 11, 5: 14, 136: 8, 138: 2, 139: 44, 14: 18, 143: 9, 146: 42, 19: 20, 21: 33, 25: 31, 27: 21, 30: 15, 31: 27, 32: 6, 35: 29, 38: 34, 42: 28, 45: 38, 8: 13, 50: 7, 53: 37, 64: 5, 65: 30, 68: 43, 70: 47, 72: 25, 74: 46, 79: 24, 82: 39, 84: 22, 85: 45, 87: 40, 93: 23, 94: 36, 97: 35, 100: 1, 103: 19, 112: 4, 147: 0, 117: 16, 118: 3, 120: 12, 121: 10, 125: 17, 127: 41}
 
 # ================== Global Varaibles ==================
 #  Flash App Setup
@@ -111,7 +112,11 @@ def webhook():
                 # Check if the user is in database
                 if int(sender_id) in db.show_user_id_list(mysql):
                     subject = db.show_current_subject(mysql, sender_id)
-                    qid = db.show_current_qid(mysql, sender_id)
+                    _qid = db.show_current_qid(mysql, sender_id)
+                    try:
+                        qid = [qid_to_index[_qid], _qid]
+                    except:
+                        qid = [1, 32]
                     begin_uid = db.show_last_begin_uid(mysql, sender_id)
                     pretty_print('Retrieve the user from [user]', mode='Database')
                     pretty_print('{} {}'.format(sender_firstname, sender_lastname))
@@ -291,37 +296,5 @@ if __name__ == '__main__':
                '/etc/letsencrypt/live/smartprimer.org/privkey.pem')
 
     pretty_print('============ Run App ============', mode='App')
-    app.run(host='0.0.0.0', threaded=True, debug=True, use_reloader=False,
-            ssl_context=context, port=int(os.environ["PORT"]))
-
-
-# if __name__ == '__main__':
-#     # Set up Flask app and MySQL
-#     setup(chatbot_text)
-
-#     # Read QA json data and construct the QA knowledge base
-#     json_file = 'QAdataset/questions_between_subjects_quizbot.json'
-#     qa_kb = QAKnowlegeBase(json_file)
-#     model = os.environ["MODEL"]
-#     question_sequencing_model = os.environ["QUESTION_SEQUENCING_MODEL"]
-    
-#     if model == "TFIDF":
-#         qa_model = QAModel.TFIDFModel(qa_kb, question_sequencing_model)
-#     elif model == "SIF":
-#         qa_model = QAModel.SIFModel(qa_kb, question_sequencing_model)
-#     elif model == "SIF2":
-#         qa_model = QAModel.SIF2Model(qa_kb, question_sequencing_model)
-#     elif model == "DOC2VEC":
-#         qa_model = QAModel.Doc2VecModel(qa_kb, question_sequencing_model)
-#     elif model == "SupervisedSIFModeL":
-#         qa_model = QAModel.SupervisedSIFModeL(qa_kb, question_sequencing_model)
-
-#     context = ('/etc/letsencrypt/live/smartprimer.org/fullchain.pem',
-#                '/etc/letsencrypt/live/smartprimer.org/privkey.pem')
-
-#     pretty_print('============ Run App ============', mode='App')
-#     app.run(host='0.0.0.0', threaded=True, debug=True, use_reloader=False,
-#             ssl_context=context, port=int(os.environ["PORT"]))
-
-
+    app.run(host='0.0.0.0', threaded=True, debug=True, use_reloader=False, ssl_context=context, port=int(os.environ["PORT"]))
 
