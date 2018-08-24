@@ -9,6 +9,7 @@ from time import localtime, strftime
 from datetime import datetime
 import logging
 from flask_mysqldb import MySQL
+import pinyin
 
 import sys
 sys.path.append('./question_sequencing')
@@ -101,9 +102,16 @@ def webhook():
             recipient_id = messaging_event["recipient"]["id"]
 
             # Get user data
-            data = _get_user_profile(sender_id)
-            sender_firstname = data['first_name']
-            sender_lastname = data['last_name']
+            if sender_id == "1931189830271244":
+                sender_firstname = "Bianca"
+                sender_lastname = "Yu"              
+
+            else:
+                data = _get_user_profile(sender_id)
+                sender_firstname = data['first_name']
+                sender_lastname = data['last_name']
+
+
 
             # Check if the user is in cache already
             if not sender_id in cache:
@@ -127,7 +135,12 @@ def webhook():
                     qa_model.loadUserData(sender_id, user_history_data)
                     pretty_print('Pass the user history to the QAModel', mode='QAModel')
                 # Insert the user into database and cache if it doesn't exist yet.
+
                 else:
+                    sender_firstname = pinyin.get(sender_firstname, format="strip", delimiter="")
+                    sender_lastname = pinyin.get(sender_lastname, format="strip", delimiter="")
+                    sender_firstname = sender_firstname.capitalize()
+                    sender_lastname = sender_lastname.capitalize()
                     db.insert_user(mysql, sender_id, sender_firstname, sender_lastname)
                     pretty_print('Insert a user into [user]', mode='Database')
                     pretty_print('{} {}'.format(
