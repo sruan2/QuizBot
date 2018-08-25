@@ -1,0 +1,202 @@
+user_id,user_firstname,user_lastname,uid,sender,recipient,type,dialogue,time_stamp
+1470066386428101,Jean,Coquet,10450,1470066386428101,854518728062939,persistent_menu: GET_INTRO_1,Get Started,2018-08-24 12:49:38
+1470066386428101,Jean,Coquet,10453,854518728062939,1470066386428101,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/quizbot_avatar.png,2018-08-24 12:49:42
+1470066386428101,Jean,Coquet,10454,854518728062939,1470066386428101,BOT: quick reply,"Hi Jean! My name is Frosty :penguin: and Im here to help you learn all about science:microscope:, verbal reasoning (GRE) :input_latin_uppercase:, and safety:hammer_and_wrench:!",2018-08-24 12:49:43
+1470066386428101,Jean,Coquet,10455,1470066386428101,854518728062939,persistent_menu: SAFETY,Safety:hammer_and_wrench:,2018-08-24 12:49:52
+1470066386428101,Jean,Coquet,10456,854518728062939,1470066386428101,BOT: quick reply,Good choice! Let's see what you know about safety!,2018-08-24 12:49:54
+1470066386428101,Jean,Coquet,10460,1470066386428101,854518728062939,user_quick_reply: NEXT_QUESTION,OK :collision:,2018-08-24 12:50:06
+1470066386428101,Jean,Coquet,10461,854518728062939,1470066386428101,BOT: message,Let's take a look at this question.,2018-08-24 12:50:07
+1470066386428101,Jean,Coquet,10462,1470066386428101,854518728062939,persistent_menu: GRE,GRE :input_latin_uppercase:,2018-08-24 12:50:08
+1470066386428101,Jean,Coquet,10463,854518728062939,1470066386428101,BOT: quick reply,"When you discover a fire, you should do what?",2018-08-24 12:50:08
+1470066386428101,Jean,Coquet,10464,854518728062939,1470066386428101,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/evolvesafety_reading.gif,2018-08-24 12:50:13
+1470066386428101,Jean,Coquet,10465,854518728062939,1470066386428101,BOT: quick reply,Cool! Here's some questions on the GRE!,2018-08-24 12:50:14
+1470066386428101,Jean,Coquet,10469,1470066386428101,854518728062939,user_quick_reply: NEXT_QUESTION,OK :collision:,2018-08-24 12:50:27
+1470066386428101,Jean,Coquet,10470,854518728062939,1470066386428101,BOT: message,Let's see if you can answer this question.,2018-08-24 12:50:28
+1470066386428101,Jean,Coquet,10471,854518728062939,1470066386428101,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-24 12:50:30
+1470066386428101,Jean,Coquet,10472,854518728062939,1470066386428101,BOT: quick reply,"Prior to taking on the new invader, the defending army had engaged in arduous combat; it is likely that the _____ resulting from waging two battles in two days played a part in its subsequent defeat.",2018-08-24 12:50:31
+1470066386428101,Jean,Coquet,10475,1470066386428101,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-24 12:50:41
+1470066386428101,Jean,Coquet,10477,854518728062939,1470066386428101,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-08-24 12:50:43
+1470066386428101,Jean,Coquet,10478,854518728062939,1470066386428101,BOT: quick reply,":keycap_1: pugnacity
+:keycap_2: bellicosity
+:keycap_3: pacification
+:keycap_4: aggravation
+:keycap_5: enervation
+",2018-08-24 12:50:44
+1470066386428101,Jean,Coquet,10767,1470066386428101,854518728062939,user_quick_reply: BUTTON_DKB_pugnacity,:keycap_1:,2018-08-24 15:39:59
+1470066386428101,Jean,Coquet,10768,854518728062939,1470066386428101,BOT: message,"I'm sorry, but that was incorrect. :disappointed_face:",2018-08-24 15:40:00
+1470066386428101,Jean,Coquet,10769,854518728062939,1470066386428101,BOT: quick reply,The correct answer is enervation.,2018-08-24 15:40:02
+1470066386428101,Jean,Coquet,10770,1470066386428101,854518728062939,user_quick_reply: WHY,Why?,2018-08-24 15:40:09
+1470066386428101,Jean,Coquet,10771,854518728062939,1470066386428101,BOT: message,This is why:,2018-08-24 15:40:11
+1470066386428101,Jean,Coquet,10772,854518728062939,1470066386428101,BOT: quick reply,":pushpin: Enervation -- lack of vitality
+:pushpin: Bellicosity -- a natural disposition to fight
+:pushpin: Pugnacity -- a natural disposition to be hostile
+:pushpin: Pacification -- the act of appeasing someone or causing someone to be more favorably inclined
+:pushpin: Aggravation -- an exasperated feeling of annoyance",2018-08-24 15:40:12
+1470066386428101,Jean,Coquet,10773,1470066386428101,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-24 15:40:42
+1470066386428101,Jean,Coquet,10774,854518728062939,1470066386428101,BOT: message,Let's take a look at this question.,2018-08-24 15:40:43
+1470066386428101,Jean,Coquet,10775,854518728062939,1470066386428101,BOT: quick reply,"Although John F. Kennedy was known for his carefree flag football games, Gerald Ford should be _____ as our football president: he turned down offers to play for two National Football League teams in order to pursue a career in public service.",2018-08-24 15:40:45
+1470066386428101,Jean,Coquet,10776,1470066386428101,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-24 15:41:15
+1470066386428101,Jean,Coquet,10777,854518728062939,1470066386428101,BOT: message,Okay. I'll give you some choices.,2018-08-24 15:41:16
+1470066386428101,Jean,Coquet,10778,854518728062939,1470066386428101,BOT: quick reply,":keycap_1: criticized
+:keycap_2: relegated
+:keycap_3: annulled
+:keycap_4: apotheosized
+:keycap_5: abrogated
+",2018-08-24 15:41:18
+1470066386428101,Jean,Coquet,10779,1470066386428101,854518728062939,user_quick_reply: BUTTON_DKB_criticized,:keycap_1:,2018-08-24 15:41:39
+1470066386428101,Jean,Coquet,10780,854518728062939,1470066386428101,BOT: message,That's not quite right. :disappointed_face:,2018-08-24 15:41:40
+1470066386428101,Jean,Coquet,10781,854518728062939,1470066386428101,BOT: quick reply,The correct answer is apotheosized.,2018-08-24 15:41:42
+1470066386428101,Jean,Coquet,10782,1470066386428101,854518728062939,user_quick_reply: WHY,Why?,2018-08-24 15:41:49
+1470066386428101,Jean,Coquet,10783,854518728062939,1470066386428101,BOT: message,This is an explanation of the question:,2018-08-24 15:41:51
+1470066386428101,Jean,Coquet,10784,854518728062939,1470066386428101,BOT: quick reply,":pushpin: Apotheosized -- deify or glorify
+:pushpin: Relegated -- to send or consign to an inferior position, place, or condition
+:pushpin: Abrogated -- revoke formally
+:pushpin: Annulled -- declare invalid
+:pushpin: Criticized -- find fault with; express criticism of; point out real or perceived flaws",2018-08-24 15:41:52
+1470066386428101,Jean,Coquet,10785,1470066386428101,854518728062939,user_quick_reply: SWITCH_SUBJECT,Change subject :shuffle_tracks_button:,2018-08-24 15:42:13
+1470066386428101,Jean,Coquet,10786,854518728062939,1470066386428101,BOT: quick reply,"Okay, which subject would you like to choose?:backhand_index_pointing_down_medium-light_skin_tone:",2018-08-24 15:42:15
+1470066386428101,Jean,Coquet,10787,1470066386428101,854518728062939,user_quick_reply: SCIENCE,Science:microscope:,2018-08-24 15:42:25
+1470066386428101,Jean,Coquet,10788,854518728062939,1470066386428101,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/evolvereading_scientist.gif,2018-08-24 15:42:30
+1470066386428101,Jean,Coquet,10789,854518728062939,1470066386428101,BOT: quick reply,Awesome! Let's learn about science!,2018-08-24 15:42:31
+1470066386428101,Jean,Coquet,10790,1470066386428101,854518728062939,user_quick_reply: NEXT_QUESTION,Alright :thumbs_up_medium-light_skin_tone:,2018-08-24 15:42:38
+1470066386428101,Jean,Coquet,10791,854518728062939,1470066386428101,BOT: message,Let's take a look at this question.,2018-08-24 15:42:39
+1470066386428101,Jean,Coquet,10792,854518728062939,1470066386428101,BOT: quick reply,Nerve cells that sense touch are found mainly where?,2018-08-24 15:42:41
+1470066386428101,Jean,Coquet,10793,1470066386428101,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-24 15:43:00
+1470066386428101,Jean,Coquet,10794,854518728062939,1470066386428101,BOT: message,Which of the following options is the right answer?,2018-08-24 15:43:01
+1470066386428101,Jean,Coquet,10795,854518728062939,1470066386428101,BOT: quick reply,":keycap_1: stomach
+:keycap_2: skin
+:keycap_3: lungs
+:keycap_4: brain
+",2018-08-24 15:43:03
+1470066386428101,Jean,Coquet,10796,1470066386428101,854518728062939,user_quick_reply: BUTTON_DKB_brain,:keycap_4:,2018-08-24 15:43:09
+1470066386428101,Jean,Coquet,10797,854518728062939,1470066386428101,BOT: message,"Oops, that is not correct. :disappointed_face:",2018-08-24 15:43:11
+1470066386428101,Jean,Coquet,10798,854518728062939,1470066386428101,BOT: quick reply,The correct answer is skin.,2018-08-24 15:43:12
+1470066386428101,Jean,Coquet,10799,1470066386428101,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-24 15:43:20
+1470066386428101,Jean,Coquet,10800,854518728062939,1470066386428101,BOT: message,Let's see if you can answer this question.,2018-08-24 15:43:22
+1470066386428101,Jean,Coquet,10801,854518728062939,1470066386428101,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-24 15:43:23
+1470066386428101,Jean,Coquet,10802,854518728062939,1470066386428101,BOT: quick reply,Most fungi get organic compounds from what?,2018-08-24 15:43:25
+1470066386428101,Jean,Coquet,10803,1470066386428101,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-24 15:43:36
+1470066386428101,Jean,Coquet,10804,854518728062939,1470066386428101,BOT: message,Pick one of the following answers.,2018-08-24 15:43:38
+1470066386428101,Jean,Coquet,10805,854518728062939,1470066386428101,BOT: quick reply,":keycap_1: dead organisms
+:keycap_2: carnivorous organisms
+:keycap_3: inorganic material
+:keycap_4: living organisms
+",2018-08-24 15:43:39
+1470066386428101,Jean,Coquet,10806,1470066386428101,854518728062939,user_quick_reply: BUTTON_DKB_living organisms,:keycap_4:,2018-08-24 15:43:54
+1470066386428101,Jean,Coquet,10807,854518728062939,1470066386428101,BOT: message,That's not quite right. :disappointed_face:,2018-08-24 15:43:56
+1470066386428101,Jean,Coquet,10808,854518728062939,1470066386428101,BOT: quick reply,The correct answer is dead organisms.,2018-08-24 15:43:58
+1470066386428101,Jean,Coquet,10809,1470066386428101,854518728062939,user_quick_reply: WHY,Why?,2018-08-24 15:44:04
+1470066386428101,Jean,Coquet,10810,854518728062939,1470066386428101,BOT: message,Here's why:,2018-08-24 15:44:06
+1470066386428101,Jean,Coquet,10811,854518728062939,1470066386428101,BOT: quick reply,"Most fungi get organic compounds from dead organisms. They are decomposers called saprotrophs. A saprotroph feeds on any remaining organic matter after other decomposers do their work. Fungi use enzymes to digest organic remains and then absorb the resulting organic compounds. As decomposers, fungi are vital for the health of ecosystems. They break down nonliving organic matter and release the nutrients into the soil. Plants can then use the nutrients and pass them on to herbivores and other consumers.",2018-08-24 15:44:07
+1470066386428101,Jean,Coquet,10812,1470066386428101,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-24 15:44:35
+1470066386428101,Jean,Coquet,10813,854518728062939,1470066386428101,BOT: message,See if you can answer this next one.,2018-08-24 15:44:36
+1470066386428101,Jean,Coquet,10814,854518728062939,1470066386428101,BOT: quick reply,What are by far the most common type of invertebrate?,2018-08-24 15:44:38
+1470066386428101,Jean,Coquet,10815,1470066386428101,854518728062939,user_typing,Fish,2018-08-24 15:45:09
+1470066386428101,Jean,Coquet,10816,854518728062939,1470066386428101,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_normal_cyan.png,2018-08-24 15:45:12
+1470066386428101,Jean,Coquet,10817,854518728062939,1470066386428101,BOT: message,Nice! :red_apple:,2018-08-24 15:45:13
+1470066386428101,Jean,Coquet,10818,854518728062939,1470066386428101,BOT: quick reply,The correct answer is insects.,2018-08-24 15:45:15
+1470066386428101,Jean,Coquet,10819,1470066386428101,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-24 15:45:30
+1470066386428101,Jean,Coquet,10820,854518728062939,1470066386428101,BOT: message,How about this next one:,2018-08-24 15:45:31
+1470066386428101,Jean,Coquet,10821,854518728062939,1470066386428101,BOT: quick reply,Most fungi get organic compounds from what?,2018-08-24 15:45:33
+1470066386428101,Jean,Coquet,10822,1470066386428101,854518728062939,user_typing,Dead organisms,2018-08-24 15:46:02
+1470066386428101,Jean,Coquet,10823,854518728062939,1470066386428101,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_normal_pink.png,2018-08-24 15:46:04
+1470066386428101,Jean,Coquet,10824,854518728062939,1470066386428101,BOT: message,Good Answer! :white_heavy_check_mark:,2018-08-24 15:46:05
+1470066386428101,Jean,Coquet,10825,854518728062939,1470066386428101,BOT: quick reply,The correct answer is dead organisms.,2018-08-24 15:46:07
+1470066386428101,Jean,Coquet,10826,1470066386428101,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-24 15:46:15
+1470066386428101,Jean,Coquet,10827,854518728062939,1470066386428101,BOT: message,Let's see if you would answer this one.,2018-08-24 15:46:16
+1470066386428101,Jean,Coquet,10828,854518728062939,1470066386428101,BOT: quick reply,The electrode at which oxidation occurs is called the what?,2018-08-24 15:46:18
+1470066386428101,Jean,Coquet,10829,1470066386428101,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-24 15:46:35
+1470066386428101,Jean,Coquet,10830,854518728062939,1470066386428101,BOT: message,Which of the following options is the right answer?,2018-08-24 15:46:37
+1470066386428101,Jean,Coquet,10831,854518728062939,1470066386428101,BOT: quick reply,":keycap_1: diode
+:keycap_2: cathode
+:keycap_3: anode
+:keycap_4: calomel
+",2018-08-24 15:46:38
+1470066386428101,Jean,Coquet,10832,1470066386428101,854518728062939,user_quick_reply: I_DONT_KNOW,I dont know :downcast_face_with_sweat:,2018-08-24 15:46:55
+1470066386428101,Jean,Coquet,10833,854518728062939,1470066386428101,BOT: quick reply,Are you sure you want to skip this question?,2018-08-24 15:46:57
+1470066386428101,Jean,Coquet,10834,1470066386428101,854518728062939,user_quick_reply: GIVEUP_YES,"Yes, answer please.",2018-08-24 15:47:07
+1470066386428101,Jean,Coquet,10835,854518728062939,1470066386428101,BOT: message,You didn't get this question this time.,2018-08-24 15:47:08
+1470066386428101,Jean,Coquet,10836,854518728062939,1470066386428101,BOT: message,"That's okay, you'll get it next time! :grinning_face_with_smiling_eyes:",2018-08-24 15:47:10
+1470066386428101,Jean,Coquet,10837,854518728062939,1470066386428101,BOT: quick reply,The correct answer is anode.,2018-08-24 15:47:11
+1470066386428101,Jean,Coquet,10838,1470066386428101,854518728062939,user_quick_reply: WHY,Why?,2018-08-24 15:47:18
+1470066386428101,Jean,Coquet,10839,854518728062939,1470066386428101,BOT: message,This is an explanation of the question:,2018-08-24 15:47:19
+1470066386428101,Jean,Coquet,10840,854518728062939,1470066386428101,BOT: quick reply,"The electrode at which oxidation occurs is called the anode. The zinc anode gradually diminishes as the cell operates due to the loss of zinc metal. The zinc ion concentration in the half-cell increases. Because of the production of electrons at the anode, it is labeled as the negative electrode.",2018-08-24 15:47:21
+1470066386428101,Jean,Coquet,10841,1470066386428101,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-24 15:47:45
+1470066386428101,Jean,Coquet,10842,854518728062939,1470066386428101,BOT: message,Let's see if you would answer this one.,2018-08-24 15:47:47
+1470066386428101,Jean,Coquet,10843,854518728062939,1470066386428101,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-24 15:47:48
+1470066386428101,Jean,Coquet,10844,854518728062939,1470066386428101,BOT: quick reply,"Temperature, water, soil, and air are examples of nonliving factors of an ecosystem, also termed what?",2018-08-24 15:47:50
+1470066386428101,Jean,Coquet,10845,1470066386428101,854518728062939,user_typing,Conditional parameters,2018-08-24 15:48:28
+1470066386428101,Jean,Coquet,10846,854518728062939,1470066386428101,BOT: message,That wasn't quite what we were looking for. :disappointed_face:,2018-08-24 15:48:29
+1470066386428101,Jean,Coquet,10847,854518728062939,1470066386428101,BOT: quick reply,The correct answer is abiotic factors.,2018-08-24 15:48:31
+1470066386428101,Jean,Coquet,10848,1470066386428101,854518728062939,user_quick_reply: WHY,Why?,2018-08-24 15:48:40
+1470066386428101,Jean,Coquet,10849,854518728062939,1470066386428101,BOT: message,This is an explanation of the question:,2018-08-24 15:48:41
+1470066386428101,Jean,Coquet,10850,854518728062939,1470066386428101,BOT: quick reply,"Ecology is the study of ecosystems. That is, ecology is the study of how living organisms interact with each other and with the nonliving part of their environment. An ecosystem consists of all the nonliving factors and living organisms interacting in the same habitat. Recall that living organisms are biotic factors. The biotic factors of an ecosystem include all the populations in a habitat, such as all the species of plants, animals, and fungi, as well as all the micro-organisms. Also recall that the nonliving factors are called abiotic factors. Abiotic factors include temperature, water, soil, and air.",2018-08-24 15:48:43
+1470066386428101,Jean,Coquet,10851,1470066386428101,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-24 15:49:21
+1470066386428101,Jean,Coquet,10852,854518728062939,1470066386428101,BOT: message,See if you can answer this next one.,2018-08-24 15:49:22
+1470066386428101,Jean,Coquet,10853,854518728062939,1470066386428101,BOT: quick reply,What is the diffusion of water through a semipermeable membrane down its concentration gradient?,2018-08-24 15:49:24
+1470066386428101,Jean,Coquet,10854,1470066386428101,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-24 15:49:38
+1470066386428101,Jean,Coquet,10855,854518728062939,1470066386428101,BOT: message,Okay. I'll give you some choices.,2018-08-24 15:49:39
+1470066386428101,Jean,Coquet,10856,854518728062939,1470066386428101,BOT: quick reply,":keycap_1: osmosis
+:keycap_2: permable
+:keycap_3: nutrients
+:keycap_4: mirrors
+",2018-08-24 15:49:41
+1470066386428101,Jean,Coquet,10857,1470066386428101,854518728062939,user_quick_reply: BUTTON_AKB_osmosis,:keycap_1:,2018-08-24 15:50:01
+1470066386428101,Jean,Coquet,10858,854518728062939,1470066386428101,BOT: message,Great! Keep it up! :flexed_biceps_medium-light_skin_tone:,2018-08-24 15:50:02
+1470066386428101,Jean,Coquet,10859,854518728062939,1470066386428101,BOT: quick reply,The correct answer is osmosis.,2018-08-24 15:50:04
+1470066386428101,Jean,Coquet,10860,1470066386428101,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-24 15:50:11
+1470066386428101,Jean,Coquet,10861,854518728062939,1470066386428101,BOT: message,Let's take a look at this question.,2018-08-24 15:50:13
+1470066386428101,Jean,Coquet,10862,854518728062939,1470066386428101,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-24 15:50:14
+1470066386428101,Jean,Coquet,10863,854518728062939,1470066386428101,BOT: quick reply,What opens two strands of DNA?,2018-08-24 15:50:15
+1470066386428101,Jean,Coquet,10864,1470066386428101,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-24 15:50:38
+1470066386428101,Jean,Coquet,10865,854518728062939,1470066386428101,BOT: message,Pick one of the following answers.,2018-08-24 15:50:39
+1470066386428101,Jean,Coquet,10866,854518728062939,1470066386428101,BOT: quick reply,":keycap_1: adenylate
+:keycap_2: chromosome
+:keycap_3: helicase
+:keycap_4: replication
+",2018-08-24 15:50:41
+1470066386428101,Jean,Coquet,10867,1470066386428101,854518728062939,user_quick_reply: BUTTON_DKB_replication,:keycap_4:,2018-08-24 15:50:59
+1470066386428101,Jean,Coquet,10868,854518728062939,1470066386428101,BOT: message,That's not quite right. :disappointed_face:,2018-08-24 15:51:00
+1470066386428101,Jean,Coquet,10869,854518728062939,1470066386428101,BOT: quick reply,The correct answer is helicase.,2018-08-24 15:51:02
+1470066386428101,Jean,Coquet,10870,1470066386428101,854518728062939,user_quick_reply: WHY,Why?,2018-08-24 15:51:09
+1470066386428101,Jean,Coquet,10871,854518728062939,1470066386428101,BOT: message,Here's why:,2018-08-24 15:51:10
+1470066386428101,Jean,Coquet,10872,854518728062939,1470066386428101,BOT: quick reply,"The two DNA strands are opened by helicase. The strands are held open by a single strand of binding proteins, preventing premature reannealing. Topoisomerase solves the problem caused by tension generated by winding/unwinding of DNA. This enzyme wraps around DNA and makes a cut permitting the helix to spin and relax. Once DNA is relaxed, topoisomerase reconnects broken strands. DNA primase synthesizes a short RNA primer which initiates the Okazaki fragment. Okazaki fragments are attached by DNA ligase.",2018-08-24 15:51:12
+1470066386428101,Jean,Coquet,10873,1470066386428101,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-24 15:51:26
+1470066386428101,Jean,Coquet,10874,854518728062939,1470066386428101,BOT: message,Here's a question for you:,2018-08-24 15:51:28
+1470066386428101,Jean,Coquet,10875,854518728062939,1470066386428101,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-24 15:51:29
+1470066386428101,Jean,Coquet,10876,854518728062939,1470066386428101,BOT: quick reply,"What arises due to crossing over, independent assortment, and the random union of gametes?",2018-08-24 15:51:31
+1470066386428101,Jean,Coquet,10877,1470066386428101,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-24 15:52:14
+1470066386428101,Jean,Coquet,10878,854518728062939,1470066386428101,BOT: message,Okay. I'll give you some choices.,2018-08-24 15:52:15
+1470066386428101,Jean,Coquet,10879,854518728062939,1470066386428101,BOT: quick reply,":keycap_1: alternative variation
+:keycap_2: susceptible variation
+:keycap_3: genetic variation
+:keycap_4: recessive variation
+",2018-08-24 15:52:17
+1470066386428101,Jean,Coquet,10880,1470066386428101,854518728062939,user_quick_reply: BUTTON_AKB_genetic variation,:keycap_3:,2018-08-24 15:52:24
+1470066386428101,Jean,Coquet,10881,854518728062939,1470066386428101,BOT: message,Great job getting the correct answer!,2018-08-24 15:52:26
+1470066386428101,Jean,Coquet,10882,854518728062939,1470066386428101,BOT: quick reply,The correct answer is genetic variation.,2018-08-24 15:52:27
+1470066386428101,Jean,Coquet,10883,1470066386428101,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-24 15:52:34
+1470066386428101,Jean,Coquet,10884,854518728062939,1470066386428101,BOT: message,Let's see if you would answer this one.,2018-08-24 15:52:36
+1470066386428101,Jean,Coquet,10885,854518728062939,1470066386428101,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-24 15:52:37
+1470066386428101,Jean,Coquet,10886,854518728062939,1470066386428101,BOT: quick reply,"Temperature, water, soil, and air are examples of nonliving factors of an ecosystem, also termed what?",2018-08-24 15:52:39
+1470066386428101,Jean,Coquet,10887,1470066386428101,854518728062939,user_typing,Abiotic factors,2018-08-24 15:53:02
+1470066386428101,Jean,Coquet,10888,854518728062939,1470066386428101,BOT: message,Fantastic! :hundred_points:,2018-08-24 15:53:04
+1470066386428101,Jean,Coquet,10889,854518728062939,1470066386428101,BOT: quick reply,The correct answer is abiotic factors.,2018-08-24 15:53:05
+1470066386428101,Jean,Coquet,10890,1470066386428101,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-24 15:53:11
+1470066386428101,Jean,Coquet,10891,854518728062939,1470066386428101,BOT: message,Let's try this question.,2018-08-24 15:53:13
+1470066386428101,Jean,Coquet,10892,854518728062939,1470066386428101,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-24 15:53:14
+1470066386428101,Jean,Coquet,10893,854518728062939,1470066386428101,BOT: quick reply,What disease characterized by the extreme swelling of the limbs is caused by infection with a type of roundworm?,2018-08-24 15:53:16
+1470066386428101,Jean,Coquet,10894,1470066386428101,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-24 15:53:30
+1470066386428101,Jean,Coquet,10895,854518728062939,1470066386428101,BOT: message,It's one of the following choices.,2018-08-24 15:53:32
+1470066386428101,Jean,Coquet,10896,854518728062939,1470066386428101,BOT: quick reply,":keycap_1: fibrosis
+:keycap_2: gigantism
+:keycap_3: pulmonary edema
+:keycap_4: elephantiasis
+",2018-08-24 15:53:33
+1470066386428101,Jean,Coquet,10897,1470066386428101,854518728062939,user_quick_reply: BUTTON_DKB_pulmonary edema,:keycap_3:,2018-08-24 15:53:45
+1470066386428101,Jean,Coquet,10898,854518728062939,1470066386428101,BOT: message,"Hmm, that wasn't quite right. :disappointed_face:",2018-08-24 15:53:46
+1470066386428101,Jean,Coquet,10899,854518728062939,1470066386428101,BOT: quick reply,The correct answer is elephantiasis.,2018-08-24 15:53:48
+1470066386428101,Jean,Coquet,10900,1470066386428101,854518728062939,user_quick_reply: WHY,Why?,2018-08-24 15:53:54
+1470066386428101,Jean,Coquet,10901,854518728062939,1470066386428101,BOT: message,This is an explanation of the question:,2018-08-24 15:53:55
+1470066386428101,Jean,Coquet,10902,854518728062939,1470066386428101,BOT: quick reply,"Roundworms can be free-living organisms, but they are probably best known for their role as significant plant and animal parasites. Most Nematodes are parasitic, with over 16,000 parasitic species described. Heartworms, which cause serious disease in dogs while living in the heart and blood vessels, are a type of roundworm. Roundworms can also cause disease in humans. Elephantiasis, a disease characterized by the extreme swelling of the limbs, is caused by infection with a type of roundworm.",2018-08-24 15:53:57
+1470066386428101,Jean,Coquet,12071,854518728062939,1470066386428101,BOT: quick reply,"Hi Jean, you haven't talked to me for a while. Would you like to resume the learning with me?",2018-08-24 20:00:05

@@ -14,19 +14,20 @@ result_filename = "flashcard_data_analysis.txt"
 
 # Past Pilot Users: "Allie_Blaising", "Phoebe_Kimm", "Nik_Marda"
 
-users = ["Golrokh_Emami", "Cynthia_Torma", "Jordan_Cho", "Laura_Davey", "Courtney_Smith", \
-         "Marianne_Cowherd", "Tugce_Tasci", "Edgar_Rios", "Kimberly_Ha", "Sen_Wu", "Max_Cobb", \
-         "Yinuo_Yao", "Dee Dee_Thao", "Jenn_Hu", "jingyi_li", "Joy_Yuzuriha", "Tyler_Yep", \
+#users = ["Golrokh_Emami", "Cynthia_Torma", "Jordan_Cho", "Laura_Davey", "Courtney_Smith", \
+#         "Marianne_Cowherd", "Tugce_Tasci", "Edgar_Rios", "Kimberly_Ha", "Sen_Wu", "Max_Cobb",
+
+users = ["Yinuo_Yao", "Dee Dee_Thao", "Jenn_Hu", "jingyi_li", "Joy_Yuzuriha", "Tyler_Yep", \
          "Andrew_Ying", "Henry_Qin", "Nina_Horowitz", "Daniel_Do", "Claire_Yang", "Olivia_Yang", \
          "Wangjianzhe_Shao", "Helen_Wang", "Francis_Yan", "De-An_Huang", "Kylie_Jue", \
-         "Kimberly_Ha", "Sen_Wu", "Max_Cobb"]
+         "Giovanni_Campagna", "Jean_Coquet", "Philip_Zhuang"]
+    
 
 
 # 54 questions in post-study quiz (quiz B)
-postquiz_qid = set([146, 145, 118, 130, 148, 117, 127, 111, 120, 141, 143, 147, 114, 121, \
-                   106, 102, 112, 133, 72, 79, 90, 84, 58, 83, 59, 50, 56, 73, 93, 68, 53, \
-                   77, 75, 97, 89, 87, 25, 24, 1, 19, 21, 44, 17, 30, 38, 6, 8, 2, 11, 37, \
-                   9, 41, 29, 42])
+postquiz_qid = set([1, 2, 6, 8, 9, 11, 17, 19, 21, 24, 25, 29, 30, 37, 38, 41, 42, 44, 50, 53, 56, \
+                    58, 59, 68, 72, 73, 75, 77, 79, 83, 84, 87, 89, 90, 93, 97, 102, 106, 111, 112, \
+                    114, 117, 118, 120, 121, 127, 130, 133, 141, 143, 145, 146, 147, 148])
 
 qualtricsID_2_qid = {0: 146, 1: 72, 2: 25, 3: 145, 4: 79, 6: 90, 7: 118, 8: 84, 9: 24, 10: 1, \
                     11: 58, 12: 130, 13: 148, 14: 19, 15: 117, 16: 83, 17: 21, 18: 59, 19: 127, \

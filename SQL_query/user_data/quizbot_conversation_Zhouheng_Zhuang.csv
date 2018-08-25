@@ -1,0 +1,257 @@
+user_id,user_firstname,user_lastname,uid,sender,recipient,type,dialogue,time_stamp
+2176142132428184,Zhouheng,Zhuang,10713,2176142132428184,854518728062939,persistent_menu: GET_INTRO_1,Get Started,2018-08-24 14:57:59
+2176142132428184,Zhouheng,Zhuang,10714,854518728062939,2176142132428184,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/quizbot_avatar.png,2018-08-24 14:58:03
+2176142132428184,Zhouheng,Zhuang,10715,854518728062939,2176142132428184,BOT: quick reply,"Hi Zhouheng! My name is Frosty :penguin: and Im here to help you learn all about science:microscope:, verbal reasoning (GRE) :input_latin_uppercase:, and safety:hammer_and_wrench:!",2018-08-24 14:58:04
+2176142132428184,Zhouheng,Zhuang,10716,2176142132428184,854518728062939,persistent_menu: SAFETY,Safety:hammer_and_wrench:,2018-08-24 14:58:21
+2176142132428184,Zhouheng,Zhuang,10717,854518728062939,2176142132428184,BOT: quick reply,Okay! Lets see how much you know about safety!,2018-08-24 14:58:22
+2176142132428184,Zhouheng,Zhuang,10718,2176142132428184,854518728062939,user_quick_reply: NEXT_QUESTION,"Yes, continue :clapping_hands_medium-light_skin_tone:",2018-08-24 14:58:28
+2176142132428184,Zhouheng,Zhuang,10719,854518728062939,2176142132428184,BOT: message,Let's try this question.,2018-08-24 14:58:29
+2176142132428184,Zhouheng,Zhuang,10720,854518728062939,2176142132428184,BOT: quick reply,What should you NOT do when lowering a load?,2018-08-24 14:58:31
+2176142132428184,Zhouheng,Zhuang,10721,2176142132428184,854518728062939,user_quick_reply: I_DONT_KNOW,I dont know :downcast_face_with_sweat:,2018-08-24 14:58:44
+2176142132428184,Zhouheng,Zhuang,10722,854518728062939,2176142132428184,BOT: quick reply,Are you sure you want to skip answering?,2018-08-24 14:58:45
+2176142132428184,Zhouheng,Zhuang,10723,2176142132428184,854518728062939,user_quick_reply: GIVEUP_NO,"No, I'll try again!",2018-08-24 14:59:01
+2176142132428184,Zhouheng,Zhuang,10724,854518728062939,2176142132428184,BOT: message,Try again!,2018-08-24 14:59:02
+2176142132428184,Zhouheng,Zhuang,10725,854518728062939,2176142132428184,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-08-24 14:59:03
+2176142132428184,Zhouheng,Zhuang,10726,854518728062939,2176142132428184,BOT: quick reply,":keycap_1: Keep the load close to your body
+:keycap_2: Twist your body, keep the load close, and bend your knees
+:keycap_3: Twist your body
+:keycap_4: Bend your knees
+",2018-08-24 14:59:05
+2176142132428184,Zhouheng,Zhuang,10727,2176142132428184,854518728062939,"user_quick_reply: BUTTON_DKB_Twist your body, keep the load close, and bend your knees",:keycap_2:,2018-08-24 14:59:20
+2176142132428184,Zhouheng,Zhuang,10728,854518728062939,2176142132428184,BOT: message,"Oops, that wasn't quite correct. :disappointed_face:",2018-08-24 14:59:22
+2176142132428184,Zhouheng,Zhuang,10729,854518728062939,2176142132428184,BOT: quick reply,The correct answer is Twist your body.,2018-08-24 14:59:23
+2176142132428184,Zhouheng,Zhuang,10730,2176142132428184,854518728062939,user_quick_reply: WHY,Why?,2018-08-24 14:59:35
+2176142132428184,Zhouheng,Zhuang,10731,854518728062939,2176142132428184,BOT: message,I hope this explanation could help you understand the the question.,2018-08-24 14:59:36
+2176142132428184,Zhouheng,Zhuang,10732,854518728062939,2176142132428184,BOT: quick reply,"To lower a load, you should make use of its edge, bend your knees, keep the load close to their body, and avoid twisting your torso.",2018-08-24 14:59:38
+2176142132428184,Zhouheng,Zhuang,10733,2176142132428184,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-24 14:59:47
+2176142132428184,Zhouheng,Zhuang,10734,854518728062939,2176142132428184,BOT: message,"Alrighty, let's try this one.",2018-08-24 14:59:49
+2176142132428184,Zhouheng,Zhuang,10735,854518728062939,2176142132428184,BOT: quick reply,"True or false: if you wear a back belt, you can lift more weight than you could without a belt.",2018-08-24 14:59:50
+2176142132428184,Zhouheng,Zhuang,10736,2176142132428184,854518728062939,user_typing,True,2018-08-24 15:00:06
+2176142132428184,Zhouheng,Zhuang,10737,854518728062939,2176142132428184,BOT: message,"I'm sorry, but that was incorrect. :disappointed_face:",2018-08-24 15:00:07
+2176142132428184,Zhouheng,Zhuang,10738,854518728062939,2176142132428184,BOT: quick reply,The correct answer is False.,2018-08-24 15:00:08
+2176142132428184,Zhouheng,Zhuang,10739,2176142132428184,854518728062939,user_quick_reply: WHY,Why?,2018-08-24 15:00:15
+2176142132428184,Zhouheng,Zhuang,10740,854518728062939,2176142132428184,BOT: message,I hope this explanation could help you understand the the question.,2018-08-24 15:00:17
+2176142132428184,Zhouheng,Zhuang,10741,854518728062939,2176142132428184,BOT: quick reply,Workers often lift more weight under the illusion that use of back belts increases the lifting capability of a worker. There has not been sufficient evidence to support this fact and hence it cannot be held true.,2018-08-24 15:00:18
+2176142132428184,Zhouheng,Zhuang,10742,2176142132428184,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-24 15:00:24
+2176142132428184,Zhouheng,Zhuang,10743,854518728062939,2176142132428184,BOT: message,Let's see if you can answer this question.,2018-08-24 15:00:25
+2176142132428184,Zhouheng,Zhuang,10744,854518728062939,2176142132428184,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-24 15:00:27
+2176142132428184,Zhouheng,Zhuang,10745,854518728062939,2176142132428184,BOT: quick reply,"If your co-worker needs CPR but you are not trained in it, what should you do?",2018-08-24 15:00:28
+2176142132428184,Zhouheng,Zhuang,10746,2176142132428184,854518728062939,user_typing,Get some training,2018-08-24 15:00:57
+2176142132428184,Zhouheng,Zhuang,10747,854518728062939,2176142132428184,BOT: message,"Oops, that answer was incorrect. :disappointed_face:",2018-08-24 15:00:59
+2176142132428184,Zhouheng,Zhuang,10748,854518728062939,2176142132428184,BOT: quick reply,The correct answer is Perform chest compressions only.,2018-08-24 15:01:00
+2176142132428184,Zhouheng,Zhuang,10749,2176142132428184,854518728062939,persistent_menu: USER_MANUAL_1,User Manual :woman_technologist_light_skin_tone::man_technologist_light_skin_tone:,2018-08-24 15:01:20
+2176142132428184,Zhouheng,Zhuang,10750,854518728062939,2176142132428184,BOT: image,https://www.smartprimer.org:8443/pictures/user_manual/typeanswer.png,2018-08-24 15:01:22
+2176142132428184,Zhouheng,Zhuang,10751,854518728062939,2176142132428184,BOT: quick reply,"To study the questions, you can type in your answers in the text field and I will evaluate the answers for you using advanced NLP (Natural Language Processing) technology.",2018-08-24 15:01:24
+2176142132428184,Zhouheng,Zhuang,10752,2176142132428184,854518728062939,persistent_menu: CHAT_WITH_ME,Chat with Me :penguin:,2018-08-24 15:01:47
+2176142132428184,Zhouheng,Zhuang,10753,854518728062939,2176142132428184,BOT: quick reply,Do you want to hear some interesting things from me?,2018-08-24 15:01:48
+2176142132428184,Zhouheng,Zhuang,10754,2176142132428184,854518728062939,user_quick_reply: JOKE,Joke :beaming_face_with_smiling_eyes:,2018-08-24 15:01:54
+2176142132428184,Zhouheng,Zhuang,10755,854518728062939,2176142132428184,BOT: message,Here is an interesting one:,2018-08-24 15:01:56
+2176142132428184,Zhouheng,Zhuang,10756,854518728062939,2176142132428184,BOT: quick reply,What was Beethovens favorite fruit? BA-NA-NA-NAAAAAA.,2018-08-24 15:01:57
+2176142132428184,Zhouheng,Zhuang,11113,2176142132428184,854518728062939,user_quick_reply: FUN_FACT_SCIENCE,Fun fact :light_bulb:,2018-08-24 17:27:24
+2176142132428184,Zhouheng,Zhuang,11114,854518728062939,2176142132428184,BOT: message,Here is an interesting one.,2018-08-24 17:27:25
+2176142132428184,Zhouheng,Zhuang,11115,854518728062939,2176142132428184,BOT: quick reply,"In 90 years ago, the Grand Canyon became a national monument & Cellophane is invented.",2018-08-24 17:27:26
+2176142132428184,Zhouheng,Zhuang,11137,2176142132428184,854518728062939,user_quick_reply: NEXT_QUESTION,Continue learning :flexed_biceps_medium-light_skin_tone:,2018-08-24 17:29:46
+2176142132428184,Zhouheng,Zhuang,11138,854518728062939,2176142132428184,BOT: message,"Alrighty, let's try this one.",2018-08-24 17:29:48
+2176142132428184,Zhouheng,Zhuang,11139,854518728062939,2176142132428184,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-24 17:29:49
+2176142132428184,Zhouheng,Zhuang,11140,854518728062939,2176142132428184,BOT: quick reply,"When you discover a fire, you should do what?",2018-08-24 17:29:51
+2176142132428184,Zhouheng,Zhuang,11141,2176142132428184,854518728062939,user_typing,Call 911,2018-08-24 17:30:04
+2176142132428184,Zhouheng,Zhuang,11142,854518728062939,2176142132428184,BOT: message,"I'm sorry, but that was incorrect. :disappointed_face:",2018-08-24 17:30:05
+2176142132428184,Zhouheng,Zhuang,11143,854518728062939,2176142132428184,BOT: quick reply,The correct answer is Pull the fire alarm and call the fire department.,2018-08-24 17:30:07
+2176142132428184,Zhouheng,Zhuang,11147,2176142132428184,854518728062939,user_quick_reply: WHY,Why?,2018-08-24 17:42:18
+2176142132428184,Zhouheng,Zhuang,11148,854518728062939,2176142132428184,BOT: message,Here's an explanation:,2018-08-24 17:42:20
+2176142132428184,Zhouheng,Zhuang,11149,854518728062939,2176142132428184,BOT: quick reply,"When you discover a fire, you should do the following: help the people in immediate danger; alert everyone around you by shouting 'Fire!'; pull the fire alarm; call the fire department; and close the door behind you to help confine the fire. Just be sure not to lock the door, so that the fire department can get in. Finally, of course, leave the building with your co-workers.",2018-08-24 17:42:21
+2176142132428184,Zhouheng,Zhuang,11150,2176142132428184,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-24 17:42:53
+2176142132428184,Zhouheng,Zhuang,11151,854518728062939,2176142132428184,BOT: message,Let's see if you can answer this question.,2018-08-24 17:42:55
+2176142132428184,Zhouheng,Zhuang,11152,854518728062939,2176142132428184,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-24 17:42:56
+2176142132428184,Zhouheng,Zhuang,11153,854518728062939,2176142132428184,BOT: quick reply,"When you discover a fire, you should do what?",2018-08-24 17:42:58
+2176142132428184,Zhouheng,Zhuang,11154,2176142132428184,854518728062939,user_typing,Pull the fire alarm and call 911,2018-08-24 17:43:27
+2176142132428184,Zhouheng,Zhuang,11155,854518728062939,2176142132428184,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_jubilated_cyan.png,2018-08-24 17:43:30
+2176142132428184,Zhouheng,Zhuang,11156,854518728062939,2176142132428184,BOT: message,Thats right! :party_popper:,2018-08-24 17:43:31
+2176142132428184,Zhouheng,Zhuang,11157,854518728062939,2176142132428184,BOT: quick reply,The correct answer is Pull the fire alarm and call the fire department.,2018-08-24 17:43:33
+2176142132428184,Zhouheng,Zhuang,11158,2176142132428184,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-24 17:43:45
+2176142132428184,Zhouheng,Zhuang,11159,854518728062939,2176142132428184,BOT: message,"Alrighty, let's try this one.",2018-08-24 17:43:47
+2176142132428184,Zhouheng,Zhuang,11160,854518728062939,2176142132428184,BOT: quick reply,"If your co-worker needs CPR but you are not trained in it, what should you do?",2018-08-24 17:43:48
+2176142132428184,Zhouheng,Zhuang,11161,2176142132428184,854518728062939,user_typing,Call professionals,2018-08-24 17:44:17
+2176142132428184,Zhouheng,Zhuang,11162,854518728062939,2176142132428184,BOT: message,"Oops, that answer was incorrect. :disappointed_face:",2018-08-24 17:44:18
+2176142132428184,Zhouheng,Zhuang,11163,854518728062939,2176142132428184,BOT: quick reply,The correct answer is Perform chest compressions only.,2018-08-24 17:44:19
+2176142132428184,Zhouheng,Zhuang,11164,2176142132428184,854518728062939,user_quick_reply: WHY,Why?,2018-08-24 17:44:34
+2176142132428184,Zhouheng,Zhuang,11165,854518728062939,2176142132428184,BOT: message,Here's why:,2018-08-24 17:44:35
+2176142132428184,Zhouheng,Zhuang,11166,854518728062939,2176142132428184,BOT: quick reply,"According to Mayo Clinic, it's far better to do something than to do nothing at all if you're fearful that your knowledge or abilities arent 100 percent complete. If you're not trained in CPR, then provide hands-only CPR. That means uninterrupted chest compressions of about 100 a minute until paramedics arrive. You don't need to try rescue breathing.",2018-08-24 17:44:36
+2176142132428184,Zhouheng,Zhuang,11175,2176142132428184,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-24 17:45:08
+2176142132428184,Zhouheng,Zhuang,11176,854518728062939,2176142132428184,BOT: message,Would you answer this question for me?,2018-08-24 17:45:09
+2176142132428184,Zhouheng,Zhuang,11177,854518728062939,2176142132428184,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-24 17:45:11
+2176142132428184,Zhouheng,Zhuang,11178,854518728062939,2176142132428184,BOT: quick reply,What should you NOT do while treating cuts and scrapes?,2018-08-24 17:45:12
+2176142132428184,Zhouheng,Zhuang,11186,2176142132428184,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-24 17:45:36
+2176142132428184,Zhouheng,Zhuang,11187,854518728062939,2176142132428184,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-08-24 17:45:37
+2176142132428184,Zhouheng,Zhuang,11188,854518728062939,2176142132428184,BOT: quick reply,":keycap_1: Cover the wound
+:keycap_2: Apply pressure on the wound with a clean cloth or bandage
+:keycap_3: Wash the wound with soap
+:keycap_4: Apply an antibiotic to the wound
+",2018-08-24 17:45:39
+2176142132428184,Zhouheng,Zhuang,11196,2176142132428184,854518728062939,user_quick_reply: BUTTON_AKB_Wash the wound with soap,:keycap_3:,2018-08-24 17:46:14
+2176142132428184,Zhouheng,Zhuang,11197,854518728062939,2176142132428184,BOT: message,Great! Keep it up! :flexed_biceps_medium-light_skin_tone:,2018-08-24 17:46:15
+2176142132428184,Zhouheng,Zhuang,11198,854518728062939,2176142132428184,BOT: quick reply,The correct answer is Wash the wound with soap.,2018-08-24 17:46:17
+2176142132428184,Zhouheng,Zhuang,11203,2176142132428184,854518728062939,user_quick_reply: WHY,Why?,2018-08-24 17:46:28
+2176142132428184,Zhouheng,Zhuang,11204,854518728062939,2176142132428184,BOT: message,I hope this explanation could help you understand the the question.,2018-08-24 17:46:29
+2176142132428184,Zhouheng,Zhuang,11205,854518728062939,2176142132428184,BOT: quick reply,"Although cuts and scrapes do not require the victim to visit an emergency room, proper care is needed to avoid infections. If you're treating wounds, Mayo Clinic advises you to stop the bleeding by applying gentle pressure on the wound for 20 to 30 minutes; use clear water to clean the wound and tweezers cleaned with alcohol to remove particles from the wound, if there are any; avoid using soap as it may cause irritation; apply an antibiotic to the affected area; cover the wound to keep harmful bacteria out; and change the dressing regularly or when it becomes wet or dirty. For wounds that are deeper than 1/4 inch or 6 millimeters, visit a health practitioner to get stitches.",2018-08-24 17:46:31
+2176142132428184,Zhouheng,Zhuang,11223,2176142132428184,854518728062939,user_quick_reply: SWITCH_SUBJECT,Change subject :shuffle_tracks_button:,2018-08-24 17:47:30
+2176142132428184,Zhouheng,Zhuang,11224,854518728062939,2176142132428184,BOT: quick reply,"Okay, now tell me which subject you would like to study.:backhand_index_pointing_down_medium-light_skin_tone:",2018-08-24 17:47:31
+2176142132428184,Zhouheng,Zhuang,11228,2176142132428184,854518728062939,user_quick_reply: GRE,GRE :input_latin_uppercase:,2018-08-24 17:47:39
+2176142132428184,Zhouheng,Zhuang,11229,854518728062939,2176142132428184,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/evolvesafety_reading.gif,2018-08-24 17:47:44
+2176142132428184,Zhouheng,Zhuang,11231,854518728062939,2176142132428184,BOT: quick reply,Awesome! Let's learn about the GRE!,2018-08-24 17:47:46
+2176142132428184,Zhouheng,Zhuang,11234,2176142132428184,854518728062939,user_quick_reply: NEXT_QUESTION,Next :oncoming_fist_medium-light_skin_tone:,2018-08-24 17:47:53
+2176142132428184,Zhouheng,Zhuang,11235,854518728062939,2176142132428184,BOT: message,Let's see if you would answer this one.,2018-08-24 17:47:55
+2176142132428184,Zhouheng,Zhuang,11237,854518728062939,2176142132428184,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-24 17:47:56
+2176142132428184,Zhouheng,Zhuang,11238,854518728062939,2176142132428184,BOT: quick reply,"Despite the smile that spread from ear to ear, the eyes relayed a certain _____ .",2018-08-24 17:47:58
+2176142132428184,Zhouheng,Zhuang,11245,2176142132428184,854518728062939,user_typing,Sorrow,2018-08-24 17:48:15
+2176142132428184,Zhouheng,Zhuang,11246,854518728062939,2176142132428184,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_jubilated_purple.png,2018-08-24 17:48:17
+2176142132428184,Zhouheng,Zhuang,11247,854518728062939,2176142132428184,BOT: message,Nice! :red_apple:,2018-08-24 17:48:19
+2176142132428184,Zhouheng,Zhuang,11248,854518728062939,2176142132428184,BOT: quick reply,The correct answer is sorrow.,2018-08-24 17:48:20
+2176142132428184,Zhouheng,Zhuang,11249,2176142132428184,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-24 17:48:25
+2176142132428184,Zhouheng,Zhuang,11250,854518728062939,2176142132428184,BOT: message,Let's try this question.,2018-08-24 17:48:27
+2176142132428184,Zhouheng,Zhuang,11251,854518728062939,2176142132428184,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-24 17:48:28
+2176142132428184,Zhouheng,Zhuang,11252,854518728062939,2176142132428184,BOT: quick reply,The Erie Canal's completion caused _____ economic ripples; property values and industrial output along its route rose exponentially.,2018-08-24 17:48:30
+2176142132428184,Zhouheng,Zhuang,11257,2176142132428184,854518728062939,user_typing,Invaluable,2018-08-24 17:48:54
+2176142132428184,Zhouheng,Zhuang,11259,854518728062939,2176142132428184,BOT: message,Fantastic! :hundred_points:,2018-08-24 17:48:55
+2176142132428184,Zhouheng,Zhuang,11261,854518728062939,2176142132428184,BOT: quick reply,The correct answer is prodigious.,2018-08-24 17:48:56
+2176142132428184,Zhouheng,Zhuang,11263,2176142132428184,854518728062939,user_quick_reply: WHY,Why?,2018-08-24 17:49:07
+2176142132428184,Zhouheng,Zhuang,11264,854518728062939,2176142132428184,BOT: message,Here's an explanation:,2018-08-24 17:49:08
+2176142132428184,Zhouheng,Zhuang,11265,854518728062939,2176142132428184,BOT: quick reply,:pushpin: Prodigious -- so great in size or force or extent as to elicit awe,2018-08-24 17:49:10
+2176142132428184,Zhouheng,Zhuang,11266,2176142132428184,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-24 17:51:05
+2176142132428184,Zhouheng,Zhuang,11267,854518728062939,2176142132428184,BOT: message,Could you answer this one for me?,2018-08-24 17:51:06
+2176142132428184,Zhouheng,Zhuang,11268,854518728062939,2176142132428184,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-24 17:51:08
+2176142132428184,Zhouheng,Zhuang,11269,854518728062939,2176142132428184,BOT: quick reply,"Despite the smile that spread from ear to ear, the eyes relayed a certain _____ .",2018-08-24 17:51:09
+2176142132428184,Zhouheng,Zhuang,11270,2176142132428184,854518728062939,user_typing,Unhappiness,2018-08-24 17:51:51
+2176142132428184,Zhouheng,Zhuang,11271,854518728062939,2176142132428184,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_happy_cyan.png,2018-08-24 17:51:54
+2176142132428184,Zhouheng,Zhuang,11272,854518728062939,2176142132428184,BOT: message,Nice! :red_apple:,2018-08-24 17:51:55
+2176142132428184,Zhouheng,Zhuang,11273,854518728062939,2176142132428184,BOT: quick reply,The correct answer is sorrow.,2018-08-24 17:51:57
+2176142132428184,Zhouheng,Zhuang,11274,2176142132428184,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-24 17:52:11
+2176142132428184,Zhouheng,Zhuang,11275,854518728062939,2176142132428184,BOT: message,Could you answer this one for me?,2018-08-24 17:52:13
+2176142132428184,Zhouheng,Zhuang,11276,854518728062939,2176142132428184,BOT: quick reply,"Just as different people can have very different personalities, so too can pets - even those of the same species and breed possess varied _____ .",2018-08-24 17:52:15
+2176142132428184,Zhouheng,Zhuang,11277,2176142132428184,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-24 17:52:59
+2176142132428184,Zhouheng,Zhuang,11278,854518728062939,2176142132428184,BOT: message,Pick one of the following answers.,2018-08-24 17:53:00
+2176142132428184,Zhouheng,Zhuang,11279,854518728062939,2176142132428184,BOT: quick reply,":keycap_1: aptitudes
+:keycap_2: temperaments
+:keycap_3: implementations
+:keycap_4: rationalizations
+:keycap_5: initiations
+",2018-08-24 17:53:01
+2176142132428184,Zhouheng,Zhuang,11280,2176142132428184,854518728062939,user_typing,Temperaments,2018-08-24 17:53:25
+2176142132428184,Zhouheng,Zhuang,11281,854518728062939,2176142132428184,BOT: message,Nice! :red_apple:,2018-08-24 17:53:27
+2176142132428184,Zhouheng,Zhuang,11282,854518728062939,2176142132428184,BOT: quick reply,The correct answer is temperaments.,2018-08-24 17:53:28
+2176142132428184,Zhouheng,Zhuang,11283,2176142132428184,854518728062939,user_quick_reply: WHY,Why?,2018-08-24 17:53:36
+2176142132428184,Zhouheng,Zhuang,11284,854518728062939,2176142132428184,BOT: message,I hope this explanation could help you understand the the question.,2018-08-24 17:53:37
+2176142132428184,Zhouheng,Zhuang,11285,854518728062939,2176142132428184,BOT: quick reply,":pushpin: Temperaments -- the combination of mental, physical, and emotional traits",2018-08-24 17:53:40
+2176142132428184,Zhouheng,Zhuang,11286,2176142132428184,854518728062939,user_quick_reply: SWITCH_SUBJECT,Change subject :shuffle_tracks_button:,2018-08-24 17:53:58
+2176142132428184,Zhouheng,Zhuang,11287,854518728062939,2176142132428184,BOT: quick reply,"Okay, now tell me which subject you would like to study.:backhand_index_pointing_down_medium-light_skin_tone:",2018-08-24 17:54:00
+2176142132428184,Zhouheng,Zhuang,11288,2176142132428184,854518728062939,user_quick_reply: SCIENCE,Science:microscope:,2018-08-24 17:54:05
+2176142132428184,Zhouheng,Zhuang,11289,854518728062939,2176142132428184,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/evolvereading_scientist.gif,2018-08-24 17:54:10
+2176142132428184,Zhouheng,Zhuang,11290,854518728062939,2176142132428184,BOT: quick reply,Let's answer some questions about science!,2018-08-24 17:54:11
+2176142132428184,Zhouheng,Zhuang,11291,2176142132428184,854518728062939,user_quick_reply: NEXT_QUESTION,"Yes, continue :backhand_index_pointing_right_medium-light_skin_tone:",2018-08-24 17:54:18
+2176142132428184,Zhouheng,Zhuang,11292,854518728062939,2176142132428184,BOT: message,Let's see if you can answer this question.,2018-08-24 17:54:19
+2176142132428184,Zhouheng,Zhuang,11293,854518728062939,2176142132428184,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-24 17:54:21
+2176142132428184,Zhouheng,Zhuang,11294,854518728062939,2176142132428184,BOT: quick reply,What kind of viscosity is found in long-chain hydrocarbons?,2018-08-24 17:54:23
+2176142132428184,Zhouheng,Zhuang,11295,2176142132428184,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-24 17:54:32
+2176142132428184,Zhouheng,Zhuang,11296,854518728062939,2176142132428184,BOT: message,It's one of the following choices.,2018-08-24 17:54:34
+2176142132428184,Zhouheng,Zhuang,11297,854518728062939,2176142132428184,BOT: quick reply,":keycap_1: low viscosity
+:keycap_2: high viscousity
+:keycap_3: intense viscosity
+:keycap_4: increased viscosity
+",2018-08-24 17:54:35
+2176142132428184,Zhouheng,Zhuang,11298,2176142132428184,854518728062939,user_typing,High viscosity,2018-08-24 17:55:10
+2176142132428184,Zhouheng,Zhuang,11299,854518728062939,2176142132428184,BOT: message,That wasn't quite what we were looking for. :disappointed_face:,2018-08-24 17:55:12
+2176142132428184,Zhouheng,Zhuang,11300,854518728062939,2176142132428184,BOT: quick reply,The correct answer is high viscousity.,2018-08-24 17:55:13
+2176142132428184,Zhouheng,Zhuang,11301,2176142132428184,854518728062939,user_quick_reply: WHY,Why?,2018-08-24 17:55:31
+2176142132428184,Zhouheng,Zhuang,11302,854518728062939,2176142132428184,BOT: message,This is an explanation of the question:,2018-08-24 17:55:33
+2176142132428184,Zhouheng,Zhuang,11303,854518728062939,2176142132428184,BOT: quick reply,"There is also a correlation between viscosity and molecular shape. Liquids consisting of long, flexible molecules tend to have higher viscosities than those composed of more spherical or shorter-chain molecules. The longer the molecules, the easier it is for them to become tangled with one another, making it more difficult for them to move past one another. London dispersion forces also increase with chain length. Due to a combination of these two effects, long-chain hydrocarbons (such as motor oils) are highly viscous.",2018-08-24 17:55:34
+2176142132428184,Zhouheng,Zhuang,11314,2176142132428184,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-24 17:56:13
+2176142132428184,Zhouheng,Zhuang,11316,854518728062939,2176142132428184,BOT: message,Let's see if you would answer this one.,2018-08-24 17:56:14
+2176142132428184,Zhouheng,Zhuang,11318,854518728062939,2176142132428184,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-24 17:56:16
+2176142132428184,Zhouheng,Zhuang,11320,854518728062939,2176142132428184,BOT: quick reply,Most insects reproduce quickly and through what type of reproduction?,2018-08-24 17:56:17
+2176142132428184,Zhouheng,Zhuang,11328,2176142132428184,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-24 17:56:59
+2176142132428184,Zhouheng,Zhuang,11329,854518728062939,2176142132428184,BOT: message,Okay. I'll give you some choices.,2018-08-24 17:57:01
+2176142132428184,Zhouheng,Zhuang,11330,854518728062939,2176142132428184,BOT: quick reply,":keycap_1: photosynthesis
+:keycap_2: asexual reproduction
+:keycap_3: sexual reproduction
+:keycap_4: spores
+",2018-08-24 17:57:02
+2176142132428184,Zhouheng,Zhuang,11338,2176142132428184,854518728062939,user_typing,Asexual reproduction,2018-08-24 17:58:04
+2176142132428184,Zhouheng,Zhuang,11340,854518728062939,2176142132428184,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_happy_cyan.png,2018-08-24 17:58:06
+2176142132428184,Zhouheng,Zhuang,11342,854518728062939,2176142132428184,BOT: message,Thats right! :party_popper:,2018-08-24 17:58:08
+2176142132428184,Zhouheng,Zhuang,11344,854518728062939,2176142132428184,BOT: quick reply,The correct answer is sexual reproduction.,2018-08-24 17:58:09
+2176142132428184,Zhouheng,Zhuang,11349,2176142132428184,854518728062939,user_quick_reply: WHY,Why?,2018-08-24 17:58:24
+2176142132428184,Zhouheng,Zhuang,11351,854518728062939,2176142132428184,BOT: message,This is an explanation of the question:,2018-08-24 17:58:25
+2176142132428184,Zhouheng,Zhuang,11352,854518728062939,2176142132428184,BOT: quick reply,"Most insects can reproduce very quickly within a short period of time. With a short generation time, they evolve faster and can quickly adjust to environmental changes. Most insects reproduce by sexual reproduction. The female produces eggs, which are fertilized by the male, and then the eggs are usually placed near the required food. In some insects, there is asexual reproduction during which the offspring come from a single parent. In this type of reproduction, the offspring are almost identical to the mother. This is most often seen in aphids and scale insects.",2018-08-24 17:58:27
+2176142132428184,Zhouheng,Zhuang,11359,2176142132428184,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-24 17:59:00
+2176142132428184,Zhouheng,Zhuang,11360,854518728062939,2176142132428184,BOT: message,Would you answer this question for me?,2018-08-24 17:59:02
+2176142132428184,Zhouheng,Zhuang,11361,854518728062939,2176142132428184,BOT: quick reply,The lithosphere is divided into a dozen major and several minor what?,2018-08-24 17:59:03
+2176142132428184,Zhouheng,Zhuang,11365,2176142132428184,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-24 17:59:11
+2176142132428184,Zhouheng,Zhuang,11366,854518728062939,2176142132428184,BOT: message,It's one of the following choices.,2018-08-24 17:59:13
+2176142132428184,Zhouheng,Zhuang,11367,854518728062939,2176142132428184,BOT: quick reply,":keycap_1: plates
+:keycap_2: crystals
+:keycap_3: zones
+:keycap_4: faults
+",2018-08-24 17:59:15
+2176142132428184,Zhouheng,Zhuang,11369,2176142132428184,854518728062939,user_typing,Plates,2018-08-24 18:11:10
+2176142132428184,Zhouheng,Zhuang,11370,2176142132428184,854518728062939,user_typing,Plates,2018-08-24 18:11:10
+2176142132428184,Zhouheng,Zhuang,11371,2176142132428184,854518728062939,user_typing,Plates,2018-08-24 18:11:10
+2176142132428184,Zhouheng,Zhuang,11373,2176142132428184,854518728062939,user_typing,Plates,2018-08-24 18:11:10
+2176142132428184,Zhouheng,Zhuang,11375,2176142132428184,854518728062939,user_typing,Plates,2018-08-24 18:11:10
+2176142132428184,Zhouheng,Zhuang,11377,2176142132428184,854518728062939,user_typing,Plates,2018-08-24 18:11:10
+2176142132428184,Zhouheng,Zhuang,11380,2176142132428184,854518728062939,user_typing,Plates,2018-08-24 18:11:10
+2176142132428184,Zhouheng,Zhuang,11381,2176142132428184,854518728062939,user_typing,Plates,2018-08-24 18:11:10
+2176142132428184,Zhouheng,Zhuang,11386,2176142132428184,854518728062939,user_typing,Plates,2018-08-24 18:11:10
+2176142132428184,Zhouheng,Zhuang,11387,2176142132428184,854518728062939,user_typing,Plates,2018-08-24 18:11:10
+2176142132428184,Zhouheng,Zhuang,11391,2176142132428184,854518728062939,persistent_menu: CHAT_WITH_ME,Chat with Me :penguin:,2018-08-24 18:11:10
+2176142132428184,Zhouheng,Zhuang,11392,2176142132428184,854518728062939,user_typing,Plates,2018-08-24 18:11:10
+2176142132428184,Zhouheng,Zhuang,11396,2176142132428184,854518728062939,user_typing,Plates,2018-08-24 18:11:10
+2176142132428184,Zhouheng,Zhuang,11397,2176142132428184,854518728062939,user_typing,Plates,2018-08-24 18:11:10
+2176142132428184,Zhouheng,Zhuang,11399,2176142132428184,854518728062939,persistent_menu: CHAT_WITH_ME,Chat with Me :penguin:,2018-08-24 18:11:10
+2176142132428184,Zhouheng,Zhuang,11408,854518728062939,2176142132428184,BOT: quick reply,I'm not sure what this is. I'm still learning languages and you might be my teacher in the future!,2018-08-24 18:11:11
+2176142132428184,Zhouheng,Zhuang,11411,854518728062939,2176142132428184,BOT: quick reply,I'm not sure what this is. I'm still learning languages and you might be my teacher in the future!,2018-08-24 18:11:11
+2176142132428184,Zhouheng,Zhuang,11412,854518728062939,2176142132428184,BOT: quick reply,Do you want me to tell you something fun?,2018-08-24 18:11:11
+2176142132428184,Zhouheng,Zhuang,11413,854518728062939,2176142132428184,BOT: quick reply,Haha I haven't learned about this yet. You can teach me some languages later!,2018-08-24 18:11:11
+2176142132428184,Zhouheng,Zhuang,11418,854518728062939,2176142132428184,BOT: message,Fantastic! :hundred_points:,2018-08-24 18:11:11
+2176142132428184,Zhouheng,Zhuang,11419,854518728062939,2176142132428184,BOT: quick reply,I'm not sure what this is. I'm still learning languages and you might be my teacher in the future!,2018-08-24 18:11:11
+2176142132428184,Zhouheng,Zhuang,11420,854518728062939,2176142132428184,BOT: message,Good job! :raising_hands_medium-light_skin_tone:,2018-08-24 18:11:11
+2176142132428184,Zhouheng,Zhuang,11422,854518728062939,2176142132428184,BOT: quick reply,Do you want me to tell you something fun?,2018-08-24 18:11:11
+2176142132428184,Zhouheng,Zhuang,11427,854518728062939,2176142132428184,BOT: message,Fantastic! :hundred_points:,2018-08-24 18:11:11
+2176142132428184,Zhouheng,Zhuang,11429,854518728062939,2176142132428184,BOT: message,Fantastic! :hundred_points:,2018-08-24 18:11:12
+2176142132428184,Zhouheng,Zhuang,11430,854518728062939,2176142132428184,BOT: quick reply,"Oh hey, I haven't learned this language yet. Maybe I'll learn languages from you in the future.",2018-08-24 18:11:12
+2176142132428184,Zhouheng,Zhuang,11434,854518728062939,2176142132428184,BOT: message,Fantastic! :hundred_points:,2018-08-24 18:11:12
+2176142132428184,Zhouheng,Zhuang,11437,854518728062939,2176142132428184,BOT: quick reply,I'm not sure what this is. I'm still learning languages and you might be my teacher in the future!,2018-08-24 18:11:12
+2176142132428184,Zhouheng,Zhuang,11438,854518728062939,2176142132428184,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_jubilated_cyan.png,2018-08-24 18:11:12
+2176142132428184,Zhouheng,Zhuang,11442,854518728062939,2176142132428184,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_jubilated_cyan.png,2018-08-24 18:11:13
+2176142132428184,Zhouheng,Zhuang,11448,854518728062939,2176142132428184,BOT: quick reply,The correct answer is plates.,2018-08-24 18:11:13
+2176142132428184,Zhouheng,Zhuang,11452,854518728062939,2176142132428184,BOT: quick reply,The correct answer is plates.,2018-08-24 18:11:13
+2176142132428184,Zhouheng,Zhuang,11455,854518728062939,2176142132428184,BOT: quick reply,The correct answer is plates.,2018-08-24 18:11:13
+2176142132428184,Zhouheng,Zhuang,11456,854518728062939,2176142132428184,BOT: quick reply,The correct answer is plates.,2018-08-24 18:11:13
+2176142132428184,Zhouheng,Zhuang,11464,854518728062939,2176142132428184,BOT: quick reply,The correct answer is plates.,2018-08-24 18:11:14
+2176142132428184,Zhouheng,Zhuang,11465,854518728062939,2176142132428184,BOT: message,Thats right! :party_popper:,2018-08-24 18:11:14
+2176142132428184,Zhouheng,Zhuang,11468,854518728062939,2176142132428184,BOT: message,Good job! :raising_hands_medium-light_skin_tone:,2018-08-24 18:11:14
+2176142132428184,Zhouheng,Zhuang,11475,854518728062939,2176142132428184,BOT: quick reply,The correct answer is plates.,2018-08-24 18:11:16
+2176142132428184,Zhouheng,Zhuang,11476,854518728062939,2176142132428184,BOT: quick reply,The correct answer is plates.,2018-08-24 18:11:16
+2176142132428184,Zhouheng,Zhuang,11482,2176142132428184,854518728062939,user_typing,Plates,2018-08-24 18:11:57
+2176142132428184,Zhouheng,Zhuang,11483,854518728062939,2176142132428184,BOT: quick reply,That sounds cool. I need to learn more languages to keep up with the conversation with you. Maybe you can teach me languages in the future!,2018-08-24 18:11:58
+2176142132428184,Zhouheng,Zhuang,11484,2176142132428184,854518728062939,user_typing,Plates,2018-08-24 18:11:59
+2176142132428184,Zhouheng,Zhuang,11485,854518728062939,2176142132428184,BOT: quick reply,"That sounds interesting, but I haven't learned about this yet. I'll learn more languages in the future.",2018-08-24 18:12:00
+2176142132428184,Zhouheng,Zhuang,11511,2176142132428184,854518728062939,user_quick_reply: CHAT_WITH_ME,Chat with me :penguin:,2018-08-24 18:20:14
+2176142132428184,Zhouheng,Zhuang,11512,854518728062939,2176142132428184,BOT: quick reply,Would you like me to tell you something interesting?,2018-08-24 18:20:16
+2176142132428184,Zhouheng,Zhuang,11516,2176142132428184,854518728062939,user_quick_reply: FUN_FACT_SCIENCE,Fun fact :light_bulb:,2018-08-24 18:20:26
+2176142132428184,Zhouheng,Zhuang,11517,854518728062939,2176142132428184,BOT: message,Here is a fun fact for you.,2018-08-24 18:20:28
+2176142132428184,Zhouheng,Zhuang,11518,854518728062939,2176142132428184,BOT: quick reply,"When glass breaks, the cracks move at speeds of up to 3,000 miles per hour.",2018-08-24 18:20:29
+2176142132428184,Zhouheng,Zhuang,11519,2176142132428184,854518728062939,user_quick_reply: FUN_FACT_SCIENCE,One more fun fact:light_bulb:,2018-08-24 18:20:42
+2176142132428184,Zhouheng,Zhuang,11520,854518728062939,2176142132428184,BOT: message,Here is a fun fact for you.,2018-08-24 18:20:43
+2176142132428184,Zhouheng,Zhuang,11521,854518728062939,2176142132428184,BOT: quick reply,The world's largest amphibian is the giant salamander. It can grow up to 5 ft. in length.,2018-08-24 18:20:45
+2176142132428184,Zhouheng,Zhuang,11522,2176142132428184,854518728062939,user_quick_reply: JOKE,Joke :beaming_face_with_smiling_eyes:,2018-08-24 18:21:00
+2176142132428184,Zhouheng,Zhuang,11523,854518728062939,2176142132428184,BOT: message,Here's one I thought might be interesting.,2018-08-24 18:21:01
+2176142132428184,Zhouheng,Zhuang,11524,854518728062939,2176142132428184,BOT: quick reply,"C, E-flat, and G walk into a bar. The bartender shows them the door and says, Sorry, we dont serve minors.",2018-08-24 18:21:03
+2176142132428184,Zhouheng,Zhuang,11525,2176142132428184,854518728062939,persistent_menu: ABOUT_QUIZBOT_1,About QuizBot :bookmark:,2018-08-24 18:21:31
+2176142132428184,Zhouheng,Zhuang,11526,854518728062939,2176142132428184,BOT: message,"I'm Frosty :penguin: and I'm a chatbot to help you learn about science:microscope:, verbal reasoning (GRE) :input_latin_uppercase:, and safety:hammer_and_wrench:.",2018-08-24 18:21:33
+2176142132428184,Zhouheng,Zhuang,11527,854518728062939,2176142132428184,BOT: quick reply,I'm designed by a group of researchers from Stanford University Computer Science Department.,2018-08-24 18:21:34
+2176142132428184,Zhouheng,Zhuang,11528,2176142132428184,854518728062939,user_typing,You are awesome,2018-08-24 18:21:52
+2176142132428184,Zhouheng,Zhuang,11529,854518728062939,2176142132428184,BOT: quick reply,I'm not sure what this is. I'm still learning languages and you might be my teacher in the future!,2018-08-24 18:21:54
+2176142132428184,Zhouheng,Zhuang,12097,854518728062939,2176142132428184,BOT: quick reply,"Hi Zhouheng, you haven't talked to me for a while. Would you like to resume the learning with me?",2018-08-24 20:00:34
+2176142132428184,Zhouheng,Zhuang,12659,854518728062939,2176142132428184,BOT: message,How about this next one:,2018-08-24 20:25:45
+2176142132428184,Zhouheng,Zhuang,12661,854518728062939,2176142132428184,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-24 20:25:46
+2176142132428184,Zhouheng,Zhuang,12662,854518728062939,2176142132428184,BOT: quick reply,The lithosphere is divided into a dozen major and several minor what?,2018-08-24 20:25:48
