@@ -21,7 +21,8 @@ result_filename = "quizbot_data_analysis.txt"
 # within-subject users
 users = ["Noah Yinuo_Yao", "Dee Dee_Thao", "Zhenqi_Hu", "Jingyi_Li", "Joy_Yuzuriha", "Tyler_Yep", \
          "Andrew_Ying", "Henry_Qin", "Nina_Horowitz", "Daniel_Do", "Fangmingyu_Yang", "Francis_Yan", \
-         "Olivia_Yang", "Ted_Shaowang", "Helen_Wang", "De-an_Huang", "Kylie_Jue"]
+         "Olivia_Yang", "Ted_Shaowang", "Helen_Wang", "De-an_Huang", "Kylie_Jue", \
+         "Giovanni_Campagna", "Jean_Coquet", "Zhouheng_Zhuang"]
 
 # 54 questions in post-study quiz (quiz B)
 postquiz_qid = set([146, 145, 118, 130, 148, 117, 127, 111, 120, 141, 143, 147, 114, 121, \
@@ -66,6 +67,7 @@ time_report = {} # a disctionary of dates and corresponding daily usage time
 question_report = {} # a disctionary of studied question (total studies question, unique studies questions)
 
 for user in users:
+    print(user)
     conversation_filename = os.path.join(
         dirname, "../../SQL_query/user_data/quizbot_conversation_" + user + ".csv")
 

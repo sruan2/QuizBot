@@ -9,7 +9,7 @@ users = [("Golrokh", "Emami"), ("Cynthia", "Torma"), ("Jordan", "Cho"), ("Laura"
          ("Yinuo", "Yao"), ("Dee Dee", "Thao"), ("Jenn", "Hu"), ("jingyi", "li"), ("Joy", "Yuzuriha"), ("Tyler", "Yep"), \
          ("Andrew", "Ying"), ("Henry", "Qin"), ("Nina", "Horowitz"), ("Daniel", "Do"), ("Claire", "Yang"), \
          ("Francis", "Yan"), ("Olivia", "Yang"), ("Wangjianzhe", "Shao"), ("Helen", "Wang"), ("Kylie", "Jue"),\
-         ("De-An", "Huang")]
+         ("De-An", "Huang"), ("Kylie", "Jue"), ("Giovanni", "Campagna"), ("Jean", "Coquet"), ("Philip", "Zhuang")]
 
 if sys.argv[1] != "" and sys.argv[2] != "":
     users = [(sys.argv[1], sys.argv[2])]
