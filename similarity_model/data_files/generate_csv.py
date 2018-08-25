@@ -36,6 +36,7 @@ messages = [
     ['nervous', 'central nervous system'],
     ['neural'],
     ['sexual reproduction', 'sexual'],
+    ['asexual reproduction', 'asexual'],
     # atom nucleus
     ['atom nucleus', 'the nucleus'],
     # nuclear
