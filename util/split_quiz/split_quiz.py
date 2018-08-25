@@ -19,6 +19,10 @@ quiz_b_score_report_filename = "csv/MTurk1_B_score_report.csv"
 quiz_a_user_record_filename = "csv/MTurk1_A_user_record.csv"
 quiz_b_user_record_filename = "csv/MTurk1_B_user_record.csv"
 
+# Question pool files
+between_subjects_flashcard_filename = "json/questions_between_subjects_flashcard.json"
+between_subjects_quizbot_filename = "json/questions_between_subjects_quizbot.json"
+
 # question index in Qualtrics quiz a and quiz b, plus 1 for the Qualtrics question id
 quiz_a_gre_index = [0, 3, 8, 10, 13, 14, 15, 16, 18, 31, 34, 35, 38, 42, 48, 52, 53, 54]
 quiz_a_safety_index = [5, 6, 7, 11, 20, 22, 24, 27, 29, 30, 32, 41, 43, 44, 50, 55, 58, 59]
@@ -59,7 +63,7 @@ repeated_in_quizbot_qid = [72, 42, 79, 146, 84, 21, 127, 117, 93, 53]
 quiz_a_qid = [5, 6, 11, 14, 15, 18, 21, 27, 31, 32, 35, 37, 41, 42, 44, 45, 46, 49, 51, 52, 53, 55, 58, 64, 65, 72, 75, 76, 79, 82, 84, 88, 90, 93, 94, 99, 100, 102, 103, 104, 111, 113, 114, 117, 125, 127, 128, 131, 132, 135, 136, 138, 146, 148]
 quiz_b_qid = [1, 2, 6, 8, 9, 11, 17, 19, 21, 24, 25, 29, 30, 37, 38, 41, 42, 44, 50, 53, 56, 58, 59, 68, 72, 73, 75, 77, 79, 83, 84, 87, 89, 90, 93, 97, 102, 106, 111, 112, 114, 117, 118, 120, 121, 127, 130, 133, 141, 143, 145, 146, 147, 148]
 
-# dictionary mapping Qualtrics id to qid in the 150 question pool, 54 questions
+# dictionaries mapping Qualtrics id to qid in the 150 question pool, 54 questions
 quiz_a_to_qid = {0: 148, 1: 49, 2: 18, 3: 111, 4: 6, 5: 51, 6: 93, 7: 94, 8: 102, 9: 21, 10: 128, 11: 82, 13: 135, 14: 114, 15: 146, 16: 113, 18: 131, 19: 41, 20: 55, 21: 37, 22: 52, 24: 58, 26: 11, 27: 64, 28: 14, 29: 88, 30: 84, 31: 103, 32: 90, 33: 32, 34: 117, 35: 136, 36: 31, 37: 44, 38: 132, 39: 45, 40: 42, 41: 76, 42: 104, 43: 53, 44: 72, 45: 5, 46: 15, 48: 100, 49: 27, 50: 65, 51: 35, 52: 138, 53: 125, 54: 127, 55: 99, 57: 46, 58: 75, 59: 79}
 quiz_b_to_qid = {0: 146, 1: 72, 2: 25, 3: 145, 4: 79, 6: 90, 7: 118, 8: 84, 9: 24, 10: 1, 11: 58, 12: 130, 13: 148, 14: 19, 15: 117, 16: 83, 17: 21, 18: 59, 19: 127, 22: 111, 23: 50, 24: 44, 25: 17, 26: 30, 27: 56, 28: 120, 29: 141, 30: 73, 31: 38, 32: 143, 33: 6, 34: 147, 35: 8, 36: 114, 37: 93, 38: 2, 39: 11, 41: 121, 42: 68, 43: 53, 44: 37, 45: 9, 46: 77, 49: 75, 50: 106, 51: 97, 52: 102, 53: 112, 54: 41, 55: 89, 56: 29, 57: 42, 58: 133, 59: 87}
 
@@ -67,6 +71,15 @@ a1_to_qid = {0: 148, 1: 49, 2: 18, 3: 111, 4: 6, 5: 51, 8: 102, 10: 128, 13: 135
 a2_to_qid = {6: 93, 7: 94, 9: 21, 11: 82, 15: 146, 27: 64, 28: 14, 30: 84, 31: 103, 33: 32, 34: 117, 35: 136, 36: 31, 38: 132, 39: 45, 40: 42, 43: 53, 44: 72, 45: 5, 48: 100, 49: 27, 50: 65, 51: 35, 52: 138, 53: 125, 54: 127, 59: 79}
 b1_to_qid = {3: 145, 6: 90, 9: 24, 11: 58, 12: 130, 13: 148, 16: 83, 18: 59, 22: 111, 24: 44, 25: 17, 27: 56, 29: 141, 30: 73, 33: 6, 36: 114, 39: 11, 44: 37, 45: 9, 46: 77, 49: 75, 50: 106, 52: 102, 54: 41, 55: 89, 56: 29, 58: 133}
 b2_to_qid = {0: 146, 1: 72, 2: 25, 4: 79, 7: 118, 8: 84, 10: 1, 14: 19, 15: 117, 17: 21, 19: 127, 23: 50, 26: 30, 28: 120, 31: 38, 32: 143, 34: 147, 35: 8, 37: 93, 38: 2, 41: 121, 42: 68, 43: 53, 51: 97, 53: 112, 57: 42, 59: 87}
+
+# dictionaries mapping question pool index to qid
+
+flashcard_index_qid = {0: 15, 1: 135, 2: 55, 3: 51, 4: 56, 5: 141, 6: 128, 7: 106, 8: 111, 9: 114, 10: 59, 11: 9, 12: 131, 13: 145, 14: 18, 15: 102, 16: 11, 17: 133, 18: 130, 19: 83, 20: 41, 21: 148, 22: 75, 23: 90, 24: 99, 25: 113, 26: 104, 27: 46, 28: 37, 29: 44, 30: 49, 31: 58, 32: 24, 33: 52, 34: 73, 35: 6, 36: 29, 37: 88, 38: 17, 39: 76, 40: 77, 41: 89, 42: 144, 43: 142, 44: 92, 45: 10, 46: 3, 47: 40}
+quizbot_index_qid = {0: 147, 1: 100, 2: 138, 3: 118, 4: 112, 5: 64, 6: 32, 7: 50, 8: 136, 9: 143, 10: 121, 11: 132, 12: 120, 13: 8, 14: 5, 15: 30, 16: 117, 17: 125, 18: 14, 19: 103, 20: 19, 21: 27, 22: 84, 23: 93, 24: 79, 25: 72, 26: 2, 27: 31, 28: 42, 29: 35, 30: 65, 31: 25, 32: 1, 33: 21, 34: 38, 35: 97, 36: 94, 37: 53, 38: 45, 39: 82, 40: 87, 41: 127, 42: 146, 43: 68, 44: 139, 45: 85, 46: 74, 47: 70}
+
+# qid of flashcard and quizbot question pool
+flashcard_qid = [15, 135, 55, 51, 56, 141, 128, 106, 111, 114, 59, 9, 131, 145, 18, 102, 11, 133, 130, 83, 41, 148, 75, 90, 99, 113, 104, 46, 37, 44, 49, 58, 24, 52, 73, 6, 29, 88, 17, 76, 77, 89, 144, 142, 92, 10, 3, 40]
+quizbot_qid = [147, 100, 138, 118, 112, 64, 32, 50, 136, 143, 121, 132, 120, 8, 5, 30, 117, 125, 14, 103, 19, 27, 84, 93, 79, 72, 2, 31, 42, 35, 65, 25, 1, 21, 38, 97, 94, 53, 45, 82, 87, 127, 146, 68, 139, 85, 74, 70]
 
 
 def get_sub_score(all_users, quiz_data, quiz_answer, quiz_sub_index):
@@ -658,9 +671,6 @@ def split_question_pool():
 		each contains 16 questions in gre, safety, science
 		these two question pools are mutually exclusive
 	'''
-	quiz_between_subjects_flashcard_filename = "json/questions_between_subjects_flashcard.json"
-	quiz_between_subjects_quizbot_filename = "json/questions_between_subjects_quizbot.json"
-
 	quiz_a_question = []
 	quiz_b_question = []
 
@@ -818,10 +828,10 @@ def split_question_pool():
 	# print(flashcard_question_json)
 	# print(quizbot_question_json)
 
-	# with open(quiz_between_subjects_flashcard_filename, 'w') as outfile:
+	# with open(between_subjects_flashcard_filename, 'w') as outfile:
 	# 	json.dump(flashcard_question_json, outfile, indent=4, sort_keys=True)
 
-	# with open(quiz_between_subjects_quizbot_filename, 'w') as outfile:
+	# with open(between_subjects_quizbot_filename, 'w') as outfile:
 	# 	json.dump(quizbot_question_json, outfile, indent=4, sort_keys=True)
 
 
@@ -829,13 +839,11 @@ def verify_question_pool():
 	'''
 		verify the question pool
 	'''
-	quiz_between_subjects_flashcard_filename = "json/questions_between_subjects_flashcard.json"
-	quiz_between_subjects_quizbot_filename = "json/questions_between_subjects_quizbot.json"	
 
-	with open(quiz_between_subjects_flashcard_filename) as data_file:
+	with open(between_subjects_flashcard_filename) as data_file:
 	    flashcard_data = json.load(data_file)
 
-	with open(quiz_between_subjects_quizbot_filename) as data_file:
+	with open(between_subjects_quizbot_filename) as data_file:
 	    quizbot_data = json.load(data_file)
 
 	print(len(flashcard_data))
@@ -1020,5 +1028,43 @@ def get_repeated_in_pool():
 	print(len(repeated_in_quizbot))
 
 
+def map_question_pool_index_qid():
+
+	with open(between_subjects_flashcard_filename, 'r') as flashcard_question_json:
+		flashcard_data = json.load(flashcard_question_json)
+
+	with open(between_subjects_quizbot_filename, 'r') as quizbot_question_json:
+		quizbot_data = json.load(quizbot_question_json)
+
+
+	flashcard_question_pool_index_to_qid = {}
+	quizbot_question_pool_index_to_qid = {}
+
+	flashcard_question_pool_id = []
+	quizbot_question_pool_id = []
+
+
+	for i in range(len(flashcard_data)):
+		flashcard_question_pool_index_to_qid[i] = flashcard_data[i]["id"]
+		flashcard_question_pool_id.append(flashcard_data[i]["id"])
+
+	for i in range(len(quizbot_data)):
+		quizbot_question_pool_index_to_qid[i] = quizbot_data[i]["id"]
+		quizbot_question_pool_id.append(quizbot_data[i]["id"])
+
+	print(flashcard_question_pool_index_to_qid)
+	print(quizbot_question_pool_index_to_qid)
+
+
+	print(flashcard_question_pool_id)
+	print(quizbot_question_pool_id)
+
+
 if __name__ == "__main__":
-	split_refined_quiz()
+	map_question_pool_index_qid()
+
+
+
+
+
+
