@@ -57,7 +57,7 @@ if __name__ == '__main__':
     user_id = 5
 
     # run the dash sequencing simulations
-    model = DASHSequencingModel(qa_kb, verbose = False)
+    model = DASHSequencingModel(qa_kb, score_csv='updated_scores.csv', verbose = False)
     for i in range(ITERATIONS):
         data = model.pickNextQuestion(user_id, 'science')
         outcome = 1 if random.random() < 0.5 else 0
