@@ -23,7 +23,7 @@ users = ["Noah Yinuo_Yao", "Dee Dee_Thao", "Zhenqi_Hu", "Jingyi_Li", "Joy_Yuzuri
          "Andrew_Ying", "Henry_Qin", "Nina_Horowitz", "Daniel_Do", "Fangmingyu_Yang", "Francis_Yan", \
          "Olivia_Yang", "Ted_Shaowang", "Helen_Wang", "De-an_Huang", "Kylie_Jue", \
          "Giovanni_Campagna", "Jean_Coquet", "Zhouheng_Zhuang"]
-
+users.append("Julia_Thompson")
 
 
 # 54 questions in post-study quiz (quiz B)
