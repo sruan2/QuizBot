@@ -80,7 +80,7 @@ class QAModel(object):
 
 class SupervisedSIFModeL(QAModel):
     """semi supervised version of the SIF model"""
-    def __init__(self, qa_kb, sequencing_model='random'):
+    def __init__(self, qa_kb, sequencing_model='dash'):
         super(SupervisedSIFModeL, self).__init__(qa_kb, sequencing_model)
 
         # load the current architecture from json
