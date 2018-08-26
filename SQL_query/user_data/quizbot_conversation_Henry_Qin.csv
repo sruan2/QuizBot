@@ -1144,3 +1144,17 @@ user_id,user_firstname,user_lastname,uid,sender,recipient,type,dialogue,time_sta
 1605863346117668,Henry,Qin,15183,854518728062939,1605863346117668,BOT: quick reply,The correct answer is skin.,2018-08-25 19:17:20
 1605863346117668,Henry,Qin,15287,854518728062939,1605863346117668,BOT: quick reply,"Hi Henry, you haven't talked to me for a while. Would you like to resume the learning with me?",2018-08-25 20:00:07
 1767063016724321,Henry,Qin,15292,854518728062939,1767063016724321,BOT: quick reply,"Hi Henry, you haven't talked to me for a while. Would you like to resume the learning with me?",2018-08-25 20:00:14
+1605863346117668,Henry,Qin,15891,1605863346117668,854518728062939,user_quick_reply: NEXT_QUESTION,I see :light_bulb:,2018-08-25 21:00:00
+1605863346117668,Henry,Qin,15892,854518728062939,1605863346117668,BOT: message,I think you'll like this question.,2018-08-25 21:00:01
+1605863346117668,Henry,Qin,15893,854518728062939,1605863346117668,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-25 21:00:02
+1605863346117668,Henry,Qin,15894,854518728062939,1605863346117668,BOT: quick reply,How often should women perform a breast self-exam?,2018-08-25 21:00:04
+1605863346117668,Henry,Qin,15895,1605863346117668,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-25 21:00:10
+1605863346117668,Henry,Qin,15896,854518728062939,1605863346117668,BOT: message,Which of the following options is the right answer?,2018-08-25 21:00:11
+1605863346117668,Henry,Qin,15897,854518728062939,1605863346117668,BOT: quick reply,":keycap_1: yearly
+:keycap_2: monthly
+:keycap_3: quarterly
+:keycap_4: weekly
+",2018-08-25 21:00:12
+1605863346117668,Henry,Qin,15898,1605863346117668,854518728062939,user_quick_reply: BUTTON_DKB_quarterly,:keycap_3:,2018-08-25 21:00:17
+1605863346117668,Henry,Qin,15899,854518728062939,1605863346117668,BOT: message,"Oops, that wasn't quite correct. :disappointed_face:",2018-08-25 21:00:18
+1605863346117668,Henry,Qin,15900,854518728062939,1605863346117668,BOT: quick reply,The correct answer is monthly.,2018-08-25 21:00:19
