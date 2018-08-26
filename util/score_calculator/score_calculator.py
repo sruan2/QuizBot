@@ -71,7 +71,7 @@ def between_subject():
 			if len(reader[i]) >= 2:
 				if reader[i][1] == "Total":
 					quiz_a_answer.append(reader[i - 1][1])
-			
+
 	with open(quiz_b_score_report_filename, 'rb') as csvfile:
 		reader = list(csv.reader(csvfile))
 		for i in range(len(reader)):
@@ -120,7 +120,7 @@ def quiz_b_30_20():
 	quiz_score_report_filename = "csv/MTurk1_B_score_report.csv"
 	quiz_question = []
 	quiz_answer = []
-			
+
 	with open(quiz_score_report_filename, 'rb') as csvfile:
 		reader = list(csv.reader(csvfile))
 		for i in range(len(reader)):
@@ -243,7 +243,7 @@ def quiz_a_30_20():
 	quiz_score_report_filename = "csv/MTurk1_A_score_report.csv"
 	quiz_question = []
 	quiz_answer = []
-			
+
 	with open(quiz_score_report_filename, 'rb') as csvfile:
 		reader = list(csv.reader(csvfile))
 		for i in range(len(reader)):
@@ -342,7 +342,7 @@ def quiz_b_between_subject():
 	quiz_question = []
 	quiz_answer = []
 
-	with open(quiz_score_report_filename, 'rb') as csvfile:
+	with open(quiz_score_report_filename, 'r') as csvfile:
 		reader = list(csv.reader(csvfile))
 		for i in range(len(reader)):
 			if len(reader[i]) >= 2:
