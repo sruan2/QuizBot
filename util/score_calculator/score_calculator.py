@@ -358,12 +358,14 @@ def quiz_b_between_subject():
 		quiz = reader[3:]
 
 	for i in range(len(quiz)):
-		quiz_data[quiz[i][17]] = [quiz[i][5 * j + 47] for j in range(20)]
-		after_attention_check = [quiz[i][5 * j + 48] for j in range(20, 54)]
+		quiz_data[quiz[i][17]] = [quiz[i][5 * j + 47] for j in range(19)]
+		after_attention_check = [quiz[i][5 * j + 48] for j in range(19, 54)]
 		quiz_data[quiz[i][17]] = quiz_data[quiz[i][17]] + after_attention_check
 
 		for j in quiz_b_remove:
 			quiz_data[quiz[i][17]].insert(j, "None")
+
+	print(quiz_data)
 
 	all_users = list(set(quiz_data.keys()))
 
