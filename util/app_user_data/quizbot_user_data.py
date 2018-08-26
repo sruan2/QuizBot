@@ -21,7 +21,10 @@ result_filename = "quizbot_data_analysis.txt"
 # within-subject users
 users = ["Noah Yinuo_Yao", "Dee Dee_Thao", "Zhenqi_Hu", "Jingyi_Li", "Joy_Yuzuriha", "Tyler_Yep", \
          "Andrew_Ying", "Henry_Qin", "Nina_Horowitz", "Daniel_Do", "Fangmingyu_Yang", "Francis_Yan", \
-         "Olivia_Yang", "Ted_Shaowang", "Helen_Wang", "De-an_Huang", "Kylie_Jue"]
+         "Olivia_Yang", "Ted_Shaowang", "Helen_Wang", "De-an_Huang", "Kylie_Jue", \
+         "Giovanni_Campagna", "Jean_Coquet", "Zhouheng_Zhuang"]
+users.append("Julia_Thompson")
+
 
 # 54 questions in post-study quiz (quiz B)
 postquiz_qid = set([146, 145, 118, 130, 148, 117, 127, 111, 120, 141, 143, 147, 114, 121, \
@@ -42,6 +45,19 @@ quiz_b_to_id = {0: 146, 1: 72, 2: 25, 3: 145, 4: 79, 6: 90, 7: 118, 8: 84, 9: 24
                 32: 143, 33: 6, 34: 147, 35: 8, 36: 114, 37: 93, 38: 2, 39: 11, 41: 121, 42: 68, \
                 43: 53, 44: 37, 45: 9, 46: 77, 49: 75, 50: 106, 51: 97, 52: 102, 53: 112, 54: 41, \
                 55: 89, 56: 29, 57: 42, 58: 133, 59: 87}
+
+quizbot_index_2_qid_dict = {0: 147, 1: 100, 2: 138, 3: 118, 4: 112, 5: 64, 6: 32, 7: 50, 8: 136, \
+                            9: 143, 10: 121, 11: 132, 12: 120, 13: 8, 14: 5, 15: 30, 16: 117, \
+                            17: 125, 18: 14, 19: 103, 20: 19, 21: 27, 22: 84, 23: 93, 24: 79, 25: 72, \
+                            26: 2, 27: 31, 28: 42, 29: 35, 30: 65, 31: 25, 32: 1, 33: 21, 34: 38, \
+                            35: 97, 36: 94, 37: 53, 38: 45, 39: 82, 40: 87, 41: 127, 42: 146, 43: 68, \
+                            44: 139, 45: 85, 46: 74, 47: 70}
+
+quizbot_qid = [147, 100, 138, 118, 112, 64, 32, 50, 136, 143, 121, 132, 120, 8, 5, 30, 117, 125, 14, \
+               103, 19, 27, 84, 93, 79, 72, 2, 31, 42, 35, 65, 25, 1, 21, 38, 97, 94, 53, 45, 82, 87, \
+               127, 146, 68, 139, 85, 74, 70]
+
+
 
 qid_2_qualtricsID_dict = {value: key for key, value in quiz_b_to_id.items()}
 qid_2_qualtricsID_dict_A = {value: key for key, value in quiz_a_to_id.items()}
@@ -66,6 +82,7 @@ time_report = {} # a disctionary of dates and corresponding daily usage time
 question_report = {} # a disctionary of studied question (total studies question, unique studies questions)
 
 for user in users:
+    print(user)
     conversation_filename = os.path.join(
         dirname, "../../SQL_query/user_data/quizbot_conversation_" + user + ".csv")
 
@@ -121,7 +138,10 @@ for user in users:
         (old_time_stamp.year, old_time_stamp.month, old_time_stamp.day, total_usage_time/60))
     time_report[user] = sub_time_report
 
-    events = [int(x[QID_INDEX]) for x in user_history_file if x[END_QID_INDEX] != ""]
+    events_mismatch_converted = [quizbot_index_2_qid_dict[int(x[QID_INDEX])] for x in user_history_file if x[END_QID_INDEX] != "" and int(x[END_QID_INDEX]) <= 6522]
+    events = [int(x[QID_INDEX]) for x in user_history_file if x[END_QID_INDEX] != "" and int(x[END_QID_INDEX]) > 6522]
+
+    events = events_mismatch_converted + events
     qid_in_postquiz_seen = set(events) & postquiz_qid
     qualtricsID_in_postquiz_seen = [qid_2_qualtricsID_dict[qid] for qid in qid_in_postquiz_seen]
     question_report[user] = (len(events), len(set(events)), len(qid_in_postquiz_seen), qualtricsID_in_postquiz_seen)

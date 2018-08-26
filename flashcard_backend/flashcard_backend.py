@@ -42,7 +42,8 @@ user_between_subject = {"672579434": "Dee Dee Thao", "725315344": "Tyler Yep",  
                         "1689820842": "Daniel Do", "1394174277": "Claire Yang", \
                         "1515117469": "Olivia Yang", "1295547909": "Helen Wang", \
                         "1237870507": 'Wangjianzhe Shao', "772553696": "Kylie Jue", \
-                        "747757516": "De-An Huang"}
+                        "747757516": "De-An Huang", "239435253": "Giovanni Campagna", \
+                        "1407190745": "Jean Coquet"}
                         
 user_id_between_subject = list(user_between_subject.keys())
 
