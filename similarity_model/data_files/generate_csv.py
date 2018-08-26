@@ -42,8 +42,17 @@ messages = [
     # nuclear
     ['nuclear', 'medulla'],
     # A and B
-    ['reproduce asexually and sexually',
-     'reproduce sexually and asexually'],
+    ['reproduce asexually and sexually', 'reproduce sexually and asexually'],
+    ['high viscosity', 'high viscousity'],
+    # make sure evasiveness and cogency aren't the same for some reason
+    ['evasiveness'],
+    ['cogency'],
+    # genetic variation and alternative variation to
+    ['genetic variation'],
+    ['alternative variation'],
+    # insects and spider
+    ['insects'],
+    ['spider'],
     # plural
     ['2 hour', '2 hours'],
     # synonyms
