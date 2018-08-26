@@ -336,7 +336,77 @@ def quiz_a_40_10():
 	print(len(result_data))
 
 
+# calculate the scores of the repeated questions (5 * 10, Quiz B)
+def quiz_b_between_subject():
+	quiz_score_report_filename = "csv/MTurk1_B_score_report.csv"
+	quiz_question = []
+	quiz_answer = []
+
+	with open(quiz_score_report_filename, 'rb') as csvfile:
+		reader = list(csv.reader(csvfile))
+		for i in range(len(reader)):
+			if len(reader[i]) >= 2:
+				if reader[i][1] == "Total":
+					quiz_answer.append(reader[i - 1][1])
+
+	user_record_filename = "csv/Quiz_B_between_subject.csv"
+
+	quiz_data = {}
+
+	with open(user_record_filename, 'rt') as csvfile:
+		reader = list(csv.reader(csvfile))
+		quiz = reader[3:]
+
+	for i in range(len(quiz)):
+		quiz_data[quiz[i][17]] = [quiz[i][5 * j + 47] for j in range(20)]
+		after_attention_check = [quiz[i][5 * j + 48] for j in range(20, 54)]
+		quiz_data[quiz[i][17]] = quiz_data[quiz[i][17]] + after_attention_check
+
+		for j in quiz_b_remove:
+			quiz_data[quiz[i][17]].insert(j, "None")
+
+	all_users = list(set(quiz_data.keys()))
+
+	result_data = []
+	for u in range(len(all_users)):
+		user = all_users[u]
+		result_data.append([user, 0])
+		for i in b1:
+			if quiz_data[user][i].lower() == quiz_answer[i].lower():
+				result_data[u][1] += 1
+
+	print("------ b1: ")
+	print(result_data)
+
+
+	result_data = []
+	for u in range(len(all_users)):
+		user = all_users[u]
+		result_data.append([user, 0])
+		for i in b2:
+			if quiz_data[user][i].lower() == quiz_answer[i].lower():
+				result_data[u][1] += 1
+
+	print("------ b2: ")
+	print(result_data)
+
+
 if __name__ == "__main__":
-	quiz_b_40_10()
+	quiz_b_between_subject()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
