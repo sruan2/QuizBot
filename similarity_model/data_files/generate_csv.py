@@ -51,8 +51,13 @@ messages = [
     ['genetic variation'],
     ['alternative variation'],
     # insects and spider
-    ['insects'],
+    ['insects', 'insect'],
     ['spider'],
+    ['fibrosis'],
+    ['elephantiasis'],
+    ['Both water and multipurpose dry chemical', 'Both water and multi-purpose dry chemical'],
+    ['admires'],
+    ['evokes'],
     # plural
     ['2 hour', '2 hours'],
     # synonyms
