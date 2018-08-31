@@ -1,0 +1,567 @@
+user_id,user_firstname,user_lastname,uid,sender,recipient,type,dialogue,time_stamp
+2053899197976407,Kylie,Jue,8024,2053899197976407,854518728062939,persistent_menu: GET_INTRO_1,Get Started,2018-08-23 18:14:47
+2053899197976407,Kylie,Jue,8025,854518728062939,2053899197976407,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/quizbot_avatar.png,2018-08-23 18:14:51
+2053899197976407,Kylie,Jue,8026,854518728062939,2053899197976407,BOT: quick reply,"Hi Kylie! My name is Frosty :penguin: and Im here to help you learn all about science:microscope:, verbal reasoning (GRE) :input_latin_uppercase:, and safety:hammer_and_wrench:!",2018-08-23 18:14:53
+2053899197976407,Kylie,Jue,8027,2053899197976407,854518728062939,persistent_menu: GRE,GRE :input_latin_uppercase:,2018-08-23 18:15:00
+2053899197976407,Kylie,Jue,8028,854518728062939,2053899197976407,BOT: quick reply,Let's test your knowledge on the GRE!,2018-08-23 18:15:01
+2053899197976407,Kylie,Jue,8029,2053899197976407,854518728062939,user_quick_reply: NEXT_QUESTION,Alright :flexed_biceps_medium-light_skin_tone:,2018-08-23 18:15:04
+2053899197976407,Kylie,Jue,8030,854518728062939,2053899197976407,BOT: message,How about this next one:,2018-08-23 18:15:06
+2053899197976407,Kylie,Jue,8031,854518728062939,2053899197976407,BOT: quick reply,While she may have answered him truthfully - in the strictest sense of the word - it became clear to Sergei after the incident that Sheryl had actually been trying to _____ .,2018-08-23 18:15:07
+2053899197976407,Kylie,Jue,8032,2053899197976407,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 18:15:17
+2053899197976407,Kylie,Jue,8033,854518728062939,2053899197976407,BOT: message,Pick one of the following answers.,2018-08-23 18:15:18
+2053899197976407,Kylie,Jue,8034,854518728062939,2053899197976407,BOT: quick reply,":keycap_1: covet
+:keycap_2: obfuscate
+:keycap_3: illuminate
+:keycap_4: vituperate
+:keycap_5: desiccate
+",2018-08-23 18:15:20
+2053899197976407,Kylie,Jue,8063,854518728062939,2053899197976407,BOT: quick reply,"Hi Kylie, you haven't talked to me for a while. Would you like to resume the learning with me?",2018-08-23 20:00:26
+2053899197976407,Kylie,Jue,9711,854518728062939,2053899197976407,BOT: message,Let's try this question.,2018-08-23 22:13:30
+2053899197976407,Kylie,Jue,9712,854518728062939,2053899197976407,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-23 22:13:32
+2053899197976407,Kylie,Jue,9713,854518728062939,2053899197976407,BOT: quick reply,"Despite the smile that spread from ear to ear, the eyes relayed a certain _____ .",2018-08-23 22:13:33
+2053899197976407,Kylie,Jue,9748,2053899197976407,854518728062939,user_typing,Emotion,2018-08-23 22:16:37
+2053899197976407,Kylie,Jue,9749,854518728062939,2053899197976407,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_normal.png,2018-08-23 22:16:40
+2053899197976407,Kylie,Jue,9750,854518728062939,2053899197976407,BOT: message,Thats right! :party_popper:,2018-08-23 22:16:41
+2053899197976407,Kylie,Jue,9751,854518728062939,2053899197976407,BOT: quick reply,The correct answer is sorrow.,2018-08-23 22:16:43
+2053899197976407,Kylie,Jue,9755,2053899197976407,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-23 22:17:06
+2053899197976407,Kylie,Jue,9756,854518728062939,2053899197976407,BOT: message,Would you answer this question for me?,2018-08-23 22:17:07
+2053899197976407,Kylie,Jue,9757,854518728062939,2053899197976407,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-23 22:17:08
+2053899197976407,Kylie,Jue,9759,854518728062939,2053899197976407,BOT: quick reply,While she may have answered him truthfully - in the strictest sense of the word - it became clear to Sergei after the incident that Sheryl had actually been trying to _____ .,2018-08-23 22:17:10
+2053899197976407,Kylie,Jue,9771,2053899197976407,854518728062939,user_typing,Hedge,2018-08-23 22:17:41
+2053899197976407,Kylie,Jue,9773,854518728062939,2053899197976407,BOT: message,That's not quite right. :disappointed_face:,2018-08-23 22:17:43
+2053899197976407,Kylie,Jue,9775,854518728062939,2053899197976407,BOT: quick reply,The correct answer is obfuscate.,2018-08-23 22:17:44
+2053899197976407,Kylie,Jue,9779,2053899197976407,854518728062939,user_quick_reply: WHY,Why?,2018-08-23 22:17:52
+2053899197976407,Kylie,Jue,9781,854518728062939,2053899197976407,BOT: message,Here's an explanation:,2018-08-23 22:17:53
+2053899197976407,Kylie,Jue,9782,854518728062939,2053899197976407,BOT: quick reply,:pushpin: Obfuscate -- make obscure or unclear,2018-08-23 22:17:55
+2053899197976407,Kylie,Jue,9783,2053899197976407,854518728062939,user_typing,Hi,2018-08-23 22:18:01
+2053899197976407,Kylie,Jue,9784,854518728062939,2053899197976407,BOT: quick reply,I'm not sure what this is. I'm still learning languages and you might be my teacher in the future!,2018-08-23 22:18:02
+2053899197976407,Kylie,Jue,9785,2053899197976407,854518728062939,user_quick_reply: CHAT_WITH_ME,Chat with me :penguin:,2018-08-23 22:18:10
+2053899197976407,Kylie,Jue,9786,854518728062939,2053899197976407,BOT: quick reply,Would you like me to tell you something interesting?,2018-08-23 22:18:11
+2053899197976407,Kylie,Jue,9788,2053899197976407,854518728062939,user_quick_reply: FUN_FACT_SCIENCE,Fun fact :light_bulb:,2018-08-23 22:18:15
+2053899197976407,Kylie,Jue,9790,854518728062939,2053899197976407,BOT: message,Here is a fun fact for you.,2018-08-23 22:18:16
+2053899197976407,Kylie,Jue,9792,854518728062939,2053899197976407,BOT: quick reply,"The cosmos contains approximately 50,000,000,000 galaxies.",2018-08-23 22:18:18
+2053899197976407,Kylie,Jue,9794,2053899197976407,854518728062939,user_quick_reply: JOKE,Joke :beaming_face_with_smiling_eyes:,2018-08-23 22:18:22
+2053899197976407,Kylie,Jue,9796,854518728062939,2053899197976407,BOT: message,Here's one I thought might be interesting.,2018-08-23 22:18:24
+2053899197976407,Kylie,Jue,9798,854518728062939,2053899197976407,BOT: quick reply,Q: Why was the chef embarrassed? A: Because he saw the salad dressing!,2018-08-23 22:18:25
+2053899197976407,Kylie,Jue,9802,2053899197976407,854518728062939,user_quick_reply: FUN_FACT_SCIENCE,Fun fact :light_bulb:,2018-08-23 22:18:35
+2053899197976407,Kylie,Jue,9803,854518728062939,2053899197976407,BOT: message,Here is a good one.,2018-08-23 22:18:37
+2053899197976407,Kylie,Jue,9804,854518728062939,2053899197976407,BOT: quick reply,Human jaw muscles can generate a force of 200 pounds (90.8 kilograms) on the molars.,2018-08-23 22:18:38
+2053899197976407,Kylie,Jue,9814,2053899197976407,854518728062939,user_typing,Wow,2018-08-23 22:19:06
+2053899197976407,Kylie,Jue,9815,854518728062939,2053899197976407,BOT: quick reply,Haha I haven't learned about this yet. You can teach me some languages later!,2018-08-23 22:19:08
+2053899197976407,Kylie,Jue,9816,2053899197976407,854518728062939,user_quick_reply: NEXT_QUESTION,Another question :flexed_biceps_medium-light_skin_tone:,2018-08-23 22:19:16
+2053899197976407,Kylie,Jue,9817,854518728062939,2053899197976407,BOT: message,What about this next question:,2018-08-23 22:19:17
+2053899197976407,Kylie,Jue,9818,854518728062939,2053899197976407,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-23 22:19:18
+2053899197976407,Kylie,Jue,9819,854518728062939,2053899197976407,BOT: quick reply,"In psychological literature, the ""sleeper effect"" refers to the phenomenon in which a persuasive message from a trustworthy source loses _____ over time, while the efficacy of a message from a less credible source simultaneously increases.",2018-08-23 22:19:20
+2053899197976407,Kylie,Jue,9820,2053899197976407,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 22:19:27
+2053899197976407,Kylie,Jue,9821,854518728062939,2053899197976407,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-08-23 22:19:28
+2053899197976407,Kylie,Jue,9822,854518728062939,2053899197976407,BOT: quick reply,":keycap_1: cogency
+:keycap_2: evasiveness
+:keycap_3: control
+:keycap_4: prescience
+:keycap_5: erudition
+",2018-08-23 22:19:30
+2053899197976407,Kylie,Jue,9826,2053899197976407,854518728062939,user_quick_reply: BUTTON_AKB_cogency,:keycap_1:,2018-08-23 22:20:01
+2053899197976407,Kylie,Jue,9829,854518728062939,2053899197976407,BOT: message,Nice work! Keep it up!,2018-08-23 22:20:03
+2053899197976407,Kylie,Jue,9831,854518728062939,2053899197976407,BOT: quick reply,The correct answer is cogency.,2018-08-23 22:20:04
+2053899197976407,Kylie,Jue,9832,2053899197976407,854518728062939,user_quick_reply: WHY,Why?,2018-08-23 22:20:43
+2053899197976407,Kylie,Jue,9833,854518728062939,2053899197976407,BOT: message,This is an explanation of the question:,2018-08-23 22:20:44
+2053899197976407,Kylie,Jue,9834,854518728062939,2053899197976407,BOT: quick reply,":pushpin: Cogency -- persuasive relevance
+:pushpin: Prescience -- the power to foresee the future
+:pushpin: Erudition -- profound scholarly knowledge
+:pushpin: Evasiveness -- intentionally vague or ambiguous
+:pushpin: Control -- exercise authoritative control or power over",2018-08-23 22:20:45
+2053899197976407,Kylie,Jue,9835,2053899197976407,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-23 22:21:21
+2053899197976407,Kylie,Jue,9836,854518728062939,2053899197976407,BOT: message,Here's a question for you:,2018-08-23 22:21:23
+2053899197976407,Kylie,Jue,9837,854518728062939,2053899197976407,BOT: quick reply,The Erie Canal's completion caused _____ economic ripples; property values and industrial output along its route rose exponentially.,2018-08-23 22:21:24
+2053899197976407,Kylie,Jue,9845,2053899197976407,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 22:22:04
+2053899197976407,Kylie,Jue,9846,854518728062939,2053899197976407,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-08-23 22:22:05
+2053899197976407,Kylie,Jue,9848,854518728062939,2053899197976407,BOT: quick reply,":keycap_1: prodigious
+:keycap_2: severe
+:keycap_3: incredulous
+:keycap_4: persistent
+:keycap_5: invaluable
+",2018-08-23 22:22:07
+2053899197976407,Kylie,Jue,9851,2053899197976407,854518728062939,user_quick_reply: BUTTON_DKB_severe,:keycap_2:,2018-08-23 22:22:10
+2053899197976407,Kylie,Jue,9852,854518728062939,2053899197976407,BOT: message,"Oops, that is not correct. :disappointed_face:",2018-08-23 22:22:11
+2053899197976407,Kylie,Jue,9853,854518728062939,2053899197976407,BOT: quick reply,The correct answer is prodigious.,2018-08-23 22:22:13
+2053899197976407,Kylie,Jue,9894,2053899197976407,854518728062939,user_quick_reply: SWITCH_SUBJECT,Change subject :shuffle_tracks_button:,2018-08-23 22:23:40
+2053899197976407,Kylie,Jue,9896,854518728062939,2053899197976407,BOT: quick reply,"Okay, which subject would you like to choose?:backhand_index_pointing_down_medium-light_skin_tone:",2018-08-23 22:23:41
+2053899197976407,Kylie,Jue,9904,2053899197976407,854518728062939,user_quick_reply: RANDOM,Random :game_die:,2018-08-23 22:23:48
+2053899197976407,Kylie,Jue,9907,854518728062939,2053899197976407,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/evolvereading_normal.gif,2018-08-23 22:23:53
+2053899197976407,Kylie,Jue,9909,854518728062939,2053899197976407,BOT: quick reply,All right! A little bit of everything! :game_die:,2018-08-23 22:23:54
+2053899197976407,Kylie,Jue,9938,2053899197976407,854518728062939,user_typing,Hi,2018-08-23 22:25:20
+2053899197976407,Kylie,Jue,9940,854518728062939,2053899197976407,BOT: quick reply,"Oh hey, I haven't learned this language yet. Maybe I'll learn languages from you in the future.",2018-08-23 22:25:21
+2053899197976407,Kylie,Jue,9963,2053899197976407,854518728062939,user_quick_reply: NEXT_QUESTION,Another question :flexed_biceps_medium-light_skin_tone:,2018-08-23 22:25:57
+2053899197976407,Kylie,Jue,9965,854518728062939,2053899197976407,BOT: message,Let's see if you can get this one.,2018-08-23 22:25:59
+2053899197976407,Kylie,Jue,9968,854518728062939,2053899197976407,BOT: quick reply,Nerve cells that sense touch are found mainly where?,2018-08-23 22:26:00
+2053899197976407,Kylie,Jue,9981,2053899197976407,854518728062939,user_typing,Central nervous system,2018-08-23 22:26:15
+2053899197976407,Kylie,Jue,9983,854518728062939,2053899197976407,BOT: message,That's not quite right. :disappointed_face:,2018-08-23 22:26:17
+2053899197976407,Kylie,Jue,9985,854518728062939,2053899197976407,BOT: quick reply,The correct answer is skin.,2018-08-23 22:26:18
+2053899197976407,Kylie,Jue,10063,2053899197976407,854518728062939,user_typing,Skin,2018-08-23 22:28:43
+2053899197976407,Kylie,Jue,10065,854518728062939,2053899197976407,BOT: quick reply,"Oh hey, I haven't learned this language yet. Maybe I'll learn languages from you in the future.",2018-08-23 22:28:44
+2053899197976407,Kylie,Jue,10069,2053899197976407,854518728062939,user_quick_reply: NEXT_QUESTION,Continue learning :flexed_biceps_medium-light_skin_tone:,2018-08-23 22:28:52
+2053899197976407,Kylie,Jue,10071,854518728062939,2053899197976407,BOT: message,Let's try this one.,2018-08-23 22:28:54
+2053899197976407,Kylie,Jue,10073,854518728062939,2053899197976407,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-23 22:28:55
+2053899197976407,Kylie,Jue,10074,854518728062939,2053899197976407,BOT: quick reply,"True or false: if you wear a back belt, you can lift more weight than you could without a belt.",2018-08-23 22:28:56
+2053899197976407,Kylie,Jue,10098,2053899197976407,854518728062939,user_typing,True,2018-08-23 22:31:12
+2053899197976407,Kylie,Jue,10100,854518728062939,2053899197976407,BOT: message,That wasn't quite what we were looking for. :disappointed_face:,2018-08-23 22:31:13
+2053899197976407,Kylie,Jue,10101,854518728062939,2053899197976407,BOT: quick reply,The correct answer is False.,2018-08-23 22:31:15
+2053899197976407,Kylie,Jue,10118,2053899197976407,854518728062939,user_quick_reply: WHY,Why?,2018-08-23 22:32:37
+2053899197976407,Kylie,Jue,10119,854518728062939,2053899197976407,BOT: message,Here's an explanation:,2018-08-23 22:32:38
+2053899197976407,Kylie,Jue,10120,854518728062939,2053899197976407,BOT: quick reply,Workers often lift more weight under the illusion that use of back belts increases the lifting capability of a worker. There has not been sufficient evidence to support this fact and hence it cannot be held true.,2018-08-23 22:32:40
+2053899197976407,Kylie,Jue,10140,2053899197976407,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-23 22:33:59
+2053899197976407,Kylie,Jue,10141,854518728062939,2053899197976407,BOT: message,"Alrighty, let's try this one.",2018-08-23 22:34:00
+2053899197976407,Kylie,Jue,10142,854518728062939,2053899197976407,BOT: quick reply,Which fire extinguishers are used to put out Class A fires?,2018-08-23 22:34:02
+2053899197976407,Kylie,Jue,10143,2053899197976407,854518728062939,user_typing,Co2,2018-08-23 22:34:15
+2053899197976407,Kylie,Jue,10144,854518728062939,2053899197976407,BOT: message,"I'm sorry, but that was incorrect. :disappointed_face:",2018-08-23 22:34:16
+2053899197976407,Kylie,Jue,10145,854518728062939,2053899197976407,BOT: quick reply,The correct answer is Both water and multi-purpose dry chemical.,2018-08-23 22:34:18
+2053899197976407,Kylie,Jue,10146,2053899197976407,854518728062939,user_quick_reply: WHY,Why?,2018-08-23 22:35:26
+2053899197976407,Kylie,Jue,10147,854518728062939,2053899197976407,BOT: message,This is an explanation of the question:,2018-08-23 22:35:27
+2053899197976407,Kylie,Jue,10148,854518728062939,2053899197976407,BOT: quick reply,"Class A fires include fires in ordinary combustibles: paper, wood, cloth, rubber, and many plastics. Water based fire extinguishers and multi-purpose dry chemical based fire extinguishers are suitable for Class A fires. However, ordinary dry chemical fire extinguishers are suitable for only Class B and Class C fires",2018-08-23 22:35:29
+2053899197976407,Kylie,Jue,10149,2053899197976407,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-23 22:36:56
+2053899197976407,Kylie,Jue,10150,854518728062939,2053899197976407,BOT: message,Let's see if you can get this one.,2018-08-23 22:36:57
+2053899197976407,Kylie,Jue,10151,854518728062939,2053899197976407,BOT: quick reply,"Despite the smile that spread from ear to ear, the eyes relayed a certain _____ .",2018-08-23 22:36:58
+2053899197976407,Kylie,Jue,10152,2053899197976407,854518728062939,user_typing,Sadness,2018-08-23 22:37:34
+2053899197976407,Kylie,Jue,10153,854518728062939,2053899197976407,BOT: message,Good job! :raising_hands_medium-light_skin_tone:,2018-08-23 22:37:36
+2053899197976407,Kylie,Jue,10155,854518728062939,2053899197976407,BOT: quick reply,The correct answer is sorrow.,2018-08-23 22:37:37
+2053899197976407,Kylie,Jue,10164,2053899197976407,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-23 22:37:59
+2053899197976407,Kylie,Jue,10166,854518728062939,2053899197976407,BOT: message,Could you answer this one for me?,2018-08-23 22:38:01
+2053899197976407,Kylie,Jue,10168,854518728062939,2053899197976407,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-23 22:38:02
+2053899197976407,Kylie,Jue,10170,854518728062939,2053899197976407,BOT: quick reply,How often should women perform a breast self-exam?,2018-08-23 22:38:03
+2053899197976407,Kylie,Jue,10173,2053899197976407,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 22:38:10
+2053899197976407,Kylie,Jue,10175,854518728062939,2053899197976407,BOT: message,It's one of the following choices.,2018-08-23 22:38:12
+2053899197976407,Kylie,Jue,10176,854518728062939,2053899197976407,BOT: quick reply,":keycap_1: weekly
+:keycap_2: yearly
+:keycap_3: quarterly
+:keycap_4: monthly
+",2018-08-23 22:38:13
+2053899197976407,Kylie,Jue,10180,2053899197976407,854518728062939,user_quick_reply: BUTTON_AKB_monthly,:keycap_4:,2018-08-23 22:38:26
+2053899197976407,Kylie,Jue,10182,854518728062939,2053899197976407,BOT: message,Nice! That was right!,2018-08-23 22:38:27
+2053899197976407,Kylie,Jue,10184,854518728062939,2053899197976407,BOT: quick reply,The correct answer is monthly.,2018-08-23 22:38:29
+2053899197976407,Kylie,Jue,10187,2053899197976407,854518728062939,user_quick_reply: WHY,Why?,2018-08-23 22:38:35
+2053899197976407,Kylie,Jue,10188,854518728062939,2053899197976407,BOT: message,This is an explanation of the question:,2018-08-23 22:38:37
+2053899197976407,Kylie,Jue,10189,854518728062939,2053899197976407,BOT: quick reply,"If you are a young woman, getting in the habit of performing a monthly breast self-exam is a good idea. Lumps or other subtle changes in the breasts may indicate breast cancer. The outcome is typically better if breast cancer is caught and treated early.",2018-08-23 22:38:38
+2053899197976407,Kylie,Jue,10211,2053899197976407,854518728062939,persistent_menu: ABOUT_QUIZBOT_1,About QuizBot :bookmark:,2018-08-23 22:39:35
+2053899197976407,Kylie,Jue,10212,854518728062939,2053899197976407,BOT: message,"I'm Frosty :penguin: and I'm a chatbot to help you learn about science:microscope:, verbal reasoning (GRE) :input_latin_uppercase:, and safety:hammer_and_wrench:.",2018-08-23 22:39:36
+2053899197976407,Kylie,Jue,10214,854518728062939,2053899197976407,BOT: quick reply,I'm designed by a group of researchers from Stanford University Computer Science Department.,2018-08-23 22:39:38
+2053899197976407,Kylie,Jue,10217,2053899197976407,854518728062939,user_quick_reply: ABOUT_QUIZBOT_2,Continue :oncoming_fist_medium-light_skin_tone:,2018-08-23 22:39:45
+2053899197976407,Kylie,Jue,10219,854518728062939,2053899197976407,BOT: message,"To best your learning experience, I'll use advanced question sequencing algorithms inspired by spaced repetition and flashcard to tailor questions for your need.",2018-08-23 22:39:46
+2053899197976407,Kylie,Jue,10221,854518728062939,2053899197976407,BOT: quick reply,"Equipped with advanced NLP (Natural Language Processing) technology, I'm capable of evaluating your typed answers carefully to assist you remembering the knowledge!",2018-08-23 22:39:47
+2053899197976407,Kylie,Jue,10225,2053899197976407,854518728062939,user_quick_reply: ABOUT_QUIZBOT_3,Alright :round_pushpin:,2018-08-23 22:40:00
+2053899197976407,Kylie,Jue,10227,854518728062939,2053899197976407,BOT: message,There are bot jokes and fun facts too if youre ever bored.,2018-08-23 22:40:01
+2053899197976407,Kylie,Jue,10229,854518728062939,2053899197976407,BOT: quick reply,:winking_face_with_tongue:,2018-08-23 22:40:03
+2053899197976407,Kylie,Jue,10232,2053899197976407,854518728062939,user_quick_reply: CONTINUE,Alright :collision:,2018-08-23 22:40:07
+2053899197976407,Kylie,Jue,10233,854518728062939,2053899197976407,BOT: quick reply,Great! Let's resuming learning.,2018-08-23 22:40:08
+2053899197976407,Kylie,Jue,10240,2053899197976407,854518728062939,user_quick_reply: NEXT_QUESTION,"Yes, continue :round_pushpin:",2018-08-23 22:40:22
+2053899197976407,Kylie,Jue,10242,854518728062939,2053899197976407,BOT: message,Let's try this one.,2018-08-23 22:40:23
+2053899197976407,Kylie,Jue,10243,854518728062939,2053899197976407,BOT: quick reply,What three major factors cause food contamination?,2018-08-23 22:40:25
+2053899197976407,Kylie,Jue,10247,2053899197976407,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 22:40:33
+2053899197976407,Kylie,Jue,10248,854518728062939,2053899197976407,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-08-23 22:40:34
+2053899197976407,Kylie,Jue,10250,854518728062939,2053899197976407,BOT: quick reply,":keycap_1: Physical, biological, and radiological
+:keycap_2: Physical, psychological, and health
+:keycap_3: Physical, biological, and chemical
+:keycap_4: Physical, chemical, and psychosocial
+",2018-08-23 22:40:36
+2053899197976407,Kylie,Jue,10255,2053899197976407,854518728062939,"user_quick_reply: BUTTON_AKB_Physical, biological, and chemical",:keycap_3:,2018-08-23 22:41:02
+2053899197976407,Kylie,Jue,10256,854518728062939,2053899197976407,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_normal_orange.png,2018-08-23 22:41:05
+2053899197976407,Kylie,Jue,10257,854518728062939,2053899197976407,BOT: message,Great job getting the correct answer!,2018-08-23 22:41:06
+2053899197976407,Kylie,Jue,10258,854518728062939,2053899197976407,BOT: quick reply,"The correct answer is Physical, biological, and chemical.",2018-08-23 22:41:08
+2053899197976407,Kylie,Jue,10903,2053899197976407,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-24 16:02:28
+2053899197976407,Kylie,Jue,10904,854518728062939,2053899197976407,BOT: message,Let's see if you can answer this question.,2018-08-24 16:02:29
+2053899197976407,Kylie,Jue,10905,854518728062939,2053899197976407,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-24 16:02:30
+2053899197976407,Kylie,Jue,10906,854518728062939,2053899197976407,BOT: quick reply,"What arises due to crossing over, independent assortment, and the random union of gametes?",2018-08-24 16:02:32
+2053899197976407,Kylie,Jue,10907,2053899197976407,854518728062939,user_typing,Genetic variation,2018-08-24 16:02:41
+2053899197976407,Kylie,Jue,10908,854518728062939,2053899197976407,BOT: message,Nice! :red_apple:,2018-08-24 16:02:42
+2053899197976407,Kylie,Jue,10909,854518728062939,2053899197976407,BOT: quick reply,The correct answer is genetic variation.,2018-08-24 16:02:44
+2053899197976407,Kylie,Jue,10910,2053899197976407,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-24 16:02:49
+2053899197976407,Kylie,Jue,10911,854518728062939,2053899197976407,BOT: message,Let's see if you can answer this question.,2018-08-24 16:02:50
+2053899197976407,Kylie,Jue,10912,854518728062939,2053899197976407,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-24 16:02:52
+2053899197976407,Kylie,Jue,10913,854518728062939,2053899197976407,BOT: quick reply,Which fire extinguishers are used to put out fires caused by flammable liquids?,2018-08-24 16:02:53
+2053899197976407,Kylie,Jue,10914,2053899197976407,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-24 16:03:01
+2053899197976407,Kylie,Jue,10915,854518728062939,2053899197976407,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-08-24 16:03:02
+2053899197976407,Kylie,Jue,10916,854518728062939,2053899197976407,BOT: quick reply,":keycap_1: Class A water fire extinguishers
+:keycap_2: Class C dry chemical fire extinguisher
+:keycap_3: Class B carbon dioxide fire extinguisher
+",2018-08-24 16:03:04
+2053899197976407,Kylie,Jue,10917,2053899197976407,854518728062939,user_quick_reply: BUTTON_DKB_Class C dry chemical fire extinguisher,:keycap_2:,2018-08-24 16:03:15
+2053899197976407,Kylie,Jue,10918,854518728062939,2053899197976407,BOT: message,"I'm sorry, but that was incorrect. :disappointed_face:",2018-08-24 16:03:16
+2053899197976407,Kylie,Jue,10919,854518728062939,2053899197976407,BOT: quick reply,The correct answer is Class B carbon dioxide fire extinguisher.,2018-08-24 16:03:18
+2053899197976407,Kylie,Jue,10920,2053899197976407,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-24 16:03:26
+2053899197976407,Kylie,Jue,10921,854518728062939,2053899197976407,BOT: message,"Alrighty, let's try this one.",2018-08-24 16:03:27
+2053899197976407,Kylie,Jue,10922,854518728062939,2053899197976407,BOT: quick reply,What are the little sacs at the end of the bronchioles called?,2018-08-24 16:03:29
+2053899197976407,Kylie,Jue,10923,2053899197976407,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-24 16:03:33
+2053899197976407,Kylie,Jue,10924,854518728062939,2053899197976407,BOT: message,Okay. I'll give you some choices.,2018-08-24 16:03:34
+2053899197976407,Kylie,Jue,10925,854518728062939,2053899197976407,BOT: quick reply,":keycap_1: ganglion
+:keycap_2: alveoli
+:keycap_3: lung
+:keycap_4: respiratory sacs
+",2018-08-24 16:03:36
+2053899197976407,Kylie,Jue,10926,2053899197976407,854518728062939,user_quick_reply: BUTTON_DKB_ganglion,:keycap_1:,2018-08-24 16:03:42
+2053899197976407,Kylie,Jue,10927,854518728062939,2053899197976407,BOT: message,"Hmm, that wasn't quite right. :disappointed_face:",2018-08-24 16:03:43
+2053899197976407,Kylie,Jue,10928,854518728062939,2053899197976407,BOT: quick reply,The correct answer is alveoli.,2018-08-24 16:03:44
+2053899197976407,Kylie,Jue,10929,2053899197976407,854518728062939,user_quick_reply: WHY,Why?,2018-08-24 16:03:49
+2053899197976407,Kylie,Jue,10930,854518728062939,2053899197976407,BOT: message,Here's why:,2018-08-24 16:03:51
+2053899197976407,Kylie,Jue,10931,854518728062939,2053899197976407,BOT: quick reply,"The bronchioles lead to the alveoli. Alveoli are the little sacs at the end of the bronchioles. They look like little bunches of grapes. Oxygen is exchanged for carbon dioxide in the alveoli. That means oxygen enters the blood, and carbon dioxide moves out of the blood. The gases are exchanged between the blood and alveoli by simple diffusion.",2018-08-24 16:03:52
+2053899197976407,Kylie,Jue,12093,854518728062939,2053899197976407,BOT: quick reply,"Hi Kylie, you haven't talked to me for a while. Would you like to resume the learning with me?",2018-08-24 20:00:31
+2053899197976407,Kylie,Jue,12918,2053899197976407,854518728062939,user_quick_reply: NEXT_QUESTION,OK :raising_hands_medium-light_skin_tone:,2018-08-24 20:40:55
+2053899197976407,Kylie,Jue,12919,854518728062939,2053899197976407,BOT: message,Let's take a look at this question.,2018-08-24 20:40:56
+2053899197976407,Kylie,Jue,12920,854518728062939,2053899197976407,BOT: quick reply,"Although John F. Kennedy was known for his carefree flag football games, Gerald Ford should be _____ as our football president: he turned down offers to play for two National Football League teams in order to pursue a career in public service.",2018-08-24 20:40:58
+2053899197976407,Kylie,Jue,12921,2053899197976407,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-24 20:41:07
+2053899197976407,Kylie,Jue,12922,854518728062939,2053899197976407,BOT: message,Okay. I'll give you some choices.,2018-08-24 20:41:09
+2053899197976407,Kylie,Jue,12923,854518728062939,2053899197976407,BOT: quick reply,":keycap_1: apotheosized
+:keycap_2: criticized
+:keycap_3: annulled
+:keycap_4: abrogated
+:keycap_5: relegated
+",2018-08-24 20:41:10
+2053899197976407,Kylie,Jue,12924,2053899197976407,854518728062939,user_quick_reply: BUTTON_DKB_relegated,:keycap_5:,2018-08-24 20:41:19
+2053899197976407,Kylie,Jue,12925,854518728062939,2053899197976407,BOT: message,"Oops, that is not correct. :disappointed_face:",2018-08-24 20:41:21
+2053899197976407,Kylie,Jue,12926,854518728062939,2053899197976407,BOT: quick reply,The correct answer is apotheosized.,2018-08-24 20:41:22
+2053899197976407,Kylie,Jue,12927,2053899197976407,854518728062939,user_quick_reply: WHY,Why?,2018-08-24 20:41:26
+2053899197976407,Kylie,Jue,12928,854518728062939,2053899197976407,BOT: message,Here's an explanation:,2018-08-24 20:41:28
+2053899197976407,Kylie,Jue,12929,854518728062939,2053899197976407,BOT: quick reply,":pushpin: Apotheosized -- deify or glorify
+:pushpin: Relegated -- to send or consign to an inferior position, place, or condition
+:pushpin: Abrogated -- revoke formally
+:pushpin: Annulled -- declare invalid
+:pushpin: Criticized -- find fault with; express criticism of; point out real or perceived flaws",2018-08-24 20:41:29
+2053899197976407,Kylie,Jue,12932,2053899197976407,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-24 20:42:29
+2053899197976407,Kylie,Jue,12933,854518728062939,2053899197976407,BOT: message,Here's a question for you:,2018-08-24 20:42:30
+2053899197976407,Kylie,Jue,12934,854518728062939,2053899197976407,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-24 20:42:32
+2053899197976407,Kylie,Jue,12935,854518728062939,2053899197976407,BOT: quick reply,"When your brain senses that your body temperature is increasing, it sends messages to the blood vessels in the skin to increase in what?",2018-08-24 20:42:33
+2053899197976407,Kylie,Jue,12936,2053899197976407,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-24 20:42:56
+2053899197976407,Kylie,Jue,12937,854518728062939,2053899197976407,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-08-24 20:42:57
+2053899197976407,Kylie,Jue,12938,854518728062939,2053899197976407,BOT: quick reply,":keycap_1: surface
+:keycap_2: weight
+:keycap_3: diameter
+:keycap_4: height
+",2018-08-24 20:42:59
+2053899197976407,Kylie,Jue,12939,2053899197976407,854518728062939,user_quick_reply: BUTTON_AKB_diameter,:keycap_3:,2018-08-24 20:43:09
+2053899197976407,Kylie,Jue,12940,854518728062939,2053899197976407,BOT: message,Great job!,2018-08-24 20:43:11
+2053899197976407,Kylie,Jue,12941,854518728062939,2053899197976407,BOT: quick reply,The correct answer is diameter.,2018-08-24 20:43:12
+2053899197976407,Kylie,Jue,12942,2053899197976407,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-24 20:43:16
+2053899197976407,Kylie,Jue,12943,854518728062939,2053899197976407,BOT: message,Let's see if you can get this one.,2018-08-24 20:43:17
+2053899197976407,Kylie,Jue,12944,854518728062939,2053899197976407,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-24 20:43:18
+2053899197976407,Kylie,Jue,12945,854518728062939,2053899197976407,BOT: quick reply,"Just as different people can have very different personalities, so too can pets - even those of the same species and breed possess varied _____ .",2018-08-24 20:43:20
+2053899197976407,Kylie,Jue,12946,2053899197976407,854518728062939,user_typing,personalities,2018-08-24 20:44:40
+2053899197976407,Kylie,Jue,12947,854518728062939,2053899197976407,BOT: message,That's not quite right. :disappointed_face:,2018-08-24 20:44:41
+2053899197976407,Kylie,Jue,12948,854518728062939,2053899197976407,BOT: quick reply,The correct answer is temperaments.,2018-08-24 20:44:43
+2053899197976407,Kylie,Jue,12949,2053899197976407,854518728062939,user_typing,personalities,2018-08-24 20:44:53
+2053899197976407,Kylie,Jue,12950,854518728062939,2053899197976407,BOT: quick reply,"That sounds interesting, but I haven't learned about this yet. I'll learn more languages in the future.",2018-08-24 20:44:54
+2053899197976407,Kylie,Jue,12951,2053899197976407,854518728062939,user_quick_reply: WHY,Why?,2018-08-24 20:44:55
+2053899197976407,Kylie,Jue,12952,854518728062939,2053899197976407,BOT: message,This is why:,2018-08-24 20:44:56
+2053899197976407,Kylie,Jue,12953,854518728062939,2053899197976407,BOT: quick reply,":pushpin: Temperaments -- the combination of mental, physical, and emotional traits",2018-08-24 20:44:58
+2053899197976407,Kylie,Jue,12954,2053899197976407,854518728062939,user_typing,bug,2018-08-24 20:45:12
+2053899197976407,Kylie,Jue,12955,854518728062939,2053899197976407,BOT: quick reply,"That sounds interesting, but I haven't learned about this yet. I'll learn more languages in the future.",2018-08-24 20:45:14
+2053899197976407,Kylie,Jue,12956,2053899197976407,854518728062939,persistent_menu: REPORT_BUG,Report Bug :wrench:,2018-08-24 20:45:29
+2053899197976407,Kylie,Jue,12957,854518728062939,2053899197976407,BOT: message,"Okay, could you type in the bug in a few words :grinning_face_with_smiling_eyes:",2018-08-24 20:45:31
+2053899197976407,Kylie,Jue,12958,854518728062939,2053899197976407,BOT: quick reply,We can resume learning if you have no bug to report.,2018-08-24 20:45:32
+2053899197976407,Kylie,Jue,12959,2053899197976407,854518728062939,user_typing,"Responded with ""That sounds interesting, but I haven't learned..."" message to ""Why?""",2018-08-24 20:46:34
+2053899197976407,Kylie,Jue,12960,2053899197976407,854518728062939,user_typing,"Responded with ""That sounds interesting, but I haven't learned..."" message to ""Why?""",2018-08-24 20:46:35
+2053899197976407,Kylie,Jue,12961,2053899197976407,854518728062939,user_typing,"Responded with ""That sounds interesting, but I haven't learned..."" message to ""Why?""",2018-08-24 20:46:36
+2053899197976407,Kylie,Jue,12962,2053899197976407,854518728062939,user_typing,"Responded with ""That sounds interesting, but I haven't learned..."" message to ""Why?""",2018-08-24 20:46:37
+2053899197976407,Kylie,Jue,12963,2053899197976407,854518728062939,user_typing,"Responded with ""That sounds interesting, but I haven't learned..."" message to ""Why?""",2018-08-24 20:46:39
+2053899197976407,Kylie,Jue,12964,2053899197976407,854518728062939,user_typing,"Responded with ""That sounds interesting, but I haven't learned..."" message to ""Why?""",2018-08-24 20:46:43
+2053899197976407,Kylie,Jue,12965,2053899197976407,854518728062939,user_typing,"Responded with ""That sounds interesting, but I haven't learned..."" message to ""Why?""",2018-08-24 20:46:59
+2053899197976407,Kylie,Jue,12966,2053899197976407,854518728062939,persistent_menu: REPORT_BUG,Report Bug :wrench:,2018-08-24 20:48:06
+2053899197976407,Kylie,Jue,12967,854518728062939,2053899197976407,BOT: message,"Okay, could you type in the bug in a few words :grinning_face_with_smiling_eyes:",2018-08-24 20:48:08
+2053899197976407,Kylie,Jue,12968,854518728062939,2053899197976407,BOT: quick reply,We can resume learning if you have no bug to report.,2018-08-24 20:48:09
+2053899197976407,Kylie,Jue,12969,2053899197976407,854518728062939,user_typing,"Responded with ""That sounds interesting, but I haven't learned..."" message to ""Why?""",2018-08-24 20:48:11
+2053899197976407,Kylie,Jue,12970,2053899197976407,854518728062939,user_typing,"Responded with ""That sounds interesting, but I haven't learned..."" message to ""Why?""",2018-08-24 20:49:29
+2053899197976407,Kylie,Jue,12971,2053899197976407,854518728062939,user_typing,"Responded with ""That sounds interesting, but I haven't learned..."" message to ""Why?""",2018-08-24 20:50:46
+2053899197976407,Kylie,Jue,12972,2053899197976407,854518728062939,user_typing,"Responded with ""That sounds interesting, but I haven't learned..."" message to ""Why?""",2018-08-24 20:52:09
+2053899197976407,Kylie,Jue,12973,2053899197976407,854518728062939,user_typing,"Responded with ""That sounds interesting, but I haven't learned..."" message to ""Why?""",2018-08-24 20:53:32
+2053899197976407,Kylie,Jue,12974,2053899197976407,854518728062939,user_typing,"Responded with ""That sounds interesting, but I haven't learned..."" message to ""Why?""",2018-08-24 20:54:50
+2053899197976407,Kylie,Jue,12975,2053899197976407,854518728062939,user_typing,"Responded with ""That sounds interesting, but I haven't learned..."" message to ""Why?""",2018-08-24 20:56:04
+2053899197976407,Kylie,Jue,12976,2053899197976407,854518728062939,user_typing,"Responded with ""That sounds interesting, but I haven't learned..."" message to ""Why?""",2018-08-24 20:57:26
+2053899197976407,Kylie,Jue,12977,2053899197976407,854518728062939,user_typing,"Responded with ""That sounds interesting, but I haven't learned..."" message to ""Why?""",2018-08-24 20:58:45
+2053899197976407,Kylie,Jue,12978,2053899197976407,854518728062939,user_typing,"Responded with ""That sounds interesting, but I haven't learned..."" message to ""Why?""",2018-08-24 21:00:00
+2053899197976407,Kylie,Jue,12979,2053899197976407,854518728062939,user_typing,"Responded with ""That sounds interesting, but I haven't learned..."" message to ""Why?""",2018-08-24 21:01:25
+2053899197976407,Kylie,Jue,12980,2053899197976407,854518728062939,user_typing,"Responded with ""That sounds interesting, but I haven't learned..."" message to ""Why?""",2018-08-24 21:02:50
+2053899197976407,Kylie,Jue,12984,2053899197976407,854518728062939,user_typing,"Responded with ""That sounds interesting, but I haven't learned..."" message to ""Why?""",2018-08-24 21:04:01
+2053899197976407,Kylie,Jue,12985,2053899197976407,854518728062939,user_typing,"Responded with ""That sounds interesting, but I haven't learned..."" message to ""Why?""",2018-08-24 21:05:18
+2053899197976407,Kylie,Jue,12986,2053899197976407,854518728062939,user_typing,"Responded with ""That sounds interesting, but I haven't learned..."" message to ""Why?""",2018-08-24 21:06:37
+2053899197976407,Kylie,Jue,12987,2053899197976407,854518728062939,user_typing,"Responded with ""That sounds interesting, but I haven't learned..."" message to ""Why?""",2018-08-24 21:07:48
+2053899197976407,Kylie,Jue,12988,2053899197976407,854518728062939,user_typing,"Responded with ""That sounds interesting, but I haven't learned..."" message to ""Why?""",2018-08-24 21:09:02
+2053899197976407,Kylie,Jue,12989,2053899197976407,854518728062939,user_typing,"Responded with ""That sounds interesting, but I haven't learned..."" message to ""Why?""",2018-08-24 21:10:21
+2053899197976407,Kylie,Jue,12990,2053899197976407,854518728062939,user_typing,"Responded with ""That sounds interesting, but I haven't learned..."" message to ""Why?""",2018-08-24 21:11:45
+2053899197976407,Kylie,Jue,12991,2053899197976407,854518728062939,user_typing,"Responded with ""That sounds interesting, but I haven't learned..."" message to ""Why?""",2018-08-24 21:13:04
+2053899197976407,Kylie,Jue,12992,2053899197976407,854518728062939,user_typing,"Responded with ""That sounds interesting, but I haven't learned..."" message to ""Why?""",2018-08-24 21:14:29
+2053899197976407,Kylie,Jue,12993,2053899197976407,854518728062939,user_typing,"Responded with ""That sounds interesting, but I haven't learned..."" message to ""Why?""",2018-08-24 21:15:55
+2053899197976407,Kylie,Jue,12994,2053899197976407,854518728062939,user_typing,"Responded with ""That sounds interesting, but I haven't learned..."" message to ""Why?""",2018-08-24 21:17:10
+2053899197976407,Kylie,Jue,12995,2053899197976407,854518728062939,user_typing,"Responded with ""That sounds interesting, but I haven't learned..."" message to ""Why?""",2018-08-24 21:18:24
+2053899197976407,Kylie,Jue,12996,2053899197976407,854518728062939,user_typing,"Responded with ""That sounds interesting, but I haven't learned..."" message to ""Why?""",2018-08-24 21:19:35
+2053899197976407,Kylie,Jue,12997,2053899197976407,854518728062939,user_typing,"Responded with ""That sounds interesting, but I haven't learned..."" message to ""Why?""",2018-08-24 21:21:00
+2053899197976407,Kylie,Jue,12998,2053899197976407,854518728062939,user_typing,"Responded with ""That sounds interesting, but I haven't learned..."" message to ""Why?""",2018-08-24 21:22:11
+2053899197976407,Kylie,Jue,12999,2053899197976407,854518728062939,user_typing,"Responded with ""That sounds interesting, but I haven't learned..."" message to ""Why?""",2018-08-24 21:23:33
+2053899197976407,Kylie,Jue,13000,2053899197976407,854518728062939,user_typing,"Responded with ""That sounds interesting, but I haven't learned..."" message to ""Why?""",2018-08-24 21:24:54
+2053899197976407,Kylie,Jue,13001,2053899197976407,854518728062939,user_typing,"Responded with ""That sounds interesting, but I haven't learned..."" message to ""Why?""",2018-08-24 21:26:15
+2053899197976407,Kylie,Jue,13002,2053899197976407,854518728062939,user_typing,"Responded with ""That sounds interesting, but I haven't learned..."" message to ""Why?""",2018-08-24 21:27:29
+2053899197976407,Kylie,Jue,13003,2053899197976407,854518728062939,user_typing,"Responded with ""That sounds interesting, but I haven't learned..."" message to ""Why?""",2018-08-24 21:28:41
+2053899197976407,Kylie,Jue,13004,2053899197976407,854518728062939,user_typing,"Responded with ""That sounds interesting, but I haven't learned..."" message to ""Why?""",2018-08-24 21:29:55
+2053899197976407,Kylie,Jue,13005,2053899197976407,854518728062939,user_typing,"Responded with ""That sounds interesting, but I haven't learned..."" message to ""Why?""",2018-08-24 21:31:19
+2053899197976407,Kylie,Jue,13006,2053899197976407,854518728062939,user_typing,"Responded with ""That sounds interesting, but I haven't learned..."" message to ""Why?""",2018-08-24 21:32:43
+2053899197976407,Kylie,Jue,13007,2053899197976407,854518728062939,user_typing,"Responded with ""That sounds interesting, but I haven't learned..."" message to ""Why?""",2018-08-24 21:33:58
+2053899197976407,Kylie,Jue,13008,2053899197976407,854518728062939,user_typing,"Responded with ""That sounds interesting, but I haven't learned..."" message to ""Why?""",2018-08-24 21:35:12
+2053899197976407,Kylie,Jue,13012,2053899197976407,854518728062939,user_typing,"Responded with ""That sounds interesting, but I haven't learned..."" message to ""Why?""",2018-08-24 21:36:34
+2053899197976407,Kylie,Jue,13031,2053899197976407,854518728062939,user_typing,"Responded with ""That sounds interesting, but I haven't learned..."" message to ""Why?""",2018-08-24 21:38:01
+2053899197976407,Kylie,Jue,13056,2053899197976407,854518728062939,user_typing,"Responded with ""That sounds interesting, but I haven't learned..."" message to ""Why?""",2018-08-24 21:39:19
+2053899197976407,Kylie,Jue,13066,2053899197976407,854518728062939,user_typing,"Responded with ""That sounds interesting, but I haven't learned..."" message to ""Why?""",2018-08-24 21:40:37
+2053899197976407,Kylie,Jue,13067,2053899197976407,854518728062939,user_typing,"Responded with ""That sounds interesting, but I haven't learned..."" message to ""Why?""",2018-08-24 21:41:51
+2053899197976407,Kylie,Jue,13068,2053899197976407,854518728062939,user_typing,"Responded with ""That sounds interesting, but I haven't learned..."" message to ""Why?""",2018-08-24 21:43:09
+2053899197976407,Kylie,Jue,13069,2053899197976407,854518728062939,user_typing,"Responded with ""That sounds interesting, but I haven't learned..."" message to ""Why?""",2018-08-24 21:44:22
+2053899197976407,Kylie,Jue,13070,2053899197976407,854518728062939,user_typing,"Responded with ""That sounds interesting, but I haven't learned..."" message to ""Why?""",2018-08-24 21:45:46
+2053899197976407,Kylie,Jue,13077,2053899197976407,854518728062939,user_typing,"Responded with ""That sounds interesting, but I haven't learned..."" message to ""Why?""",2018-08-24 21:47:00
+2053899197976407,Kylie,Jue,13078,2053899197976407,854518728062939,user_typing,"Responded with ""That sounds interesting, but I haven't learned..."" message to ""Why?""",2018-08-24 21:48:23
+2053899197976407,Kylie,Jue,13079,854518728062939,2053899197976407,BOT: quick reply,Sorry but I haven't learned about this yet. I'll learn more languages in the future.,2018-08-24 21:48:25
+2053899197976407,Kylie,Jue,13080,2053899197976407,854518728062939,user_typing,"Stopped responding after attempting to report a bug.  Also the ""Continue learning"" button went away",2018-08-24 21:48:27
+2053899197976407,Kylie,Jue,13081,854518728062939,2053899197976407,BOT: quick reply,Haha I haven't learned about this yet. You can teach me some languages later!,2018-08-24 21:48:28
+2053899197976407,Kylie,Jue,13085,2053899197976407,854518728062939,persistent_menu: RANDOM,Random :game_die:,2018-08-24 22:03:47
+2053899197976407,Kylie,Jue,13086,854518728062939,2053899197976407,BOT: quick reply,All right! A little bit of everything! :game_die:,2018-08-24 22:03:48
+2053899197976407,Kylie,Jue,13087,2053899197976407,854518728062939,user_quick_reply: NEXT_QUESTION,Tap me :flexed_biceps_medium-light_skin_tone:,2018-08-24 22:03:52
+2053899197976407,Kylie,Jue,13088,854518728062939,2053899197976407,BOT: message,I think you'll like this question.,2018-08-24 22:03:53
+2053899197976407,Kylie,Jue,13089,854518728062939,2053899197976407,BOT: quick reply,"What agency inspects, grades, and enforces standards of quality and wholesomeness for meat, poultry, milk, eggs, and grains?",2018-08-24 22:03:54
+2053899197976407,Kylie,Jue,13090,2053899197976407,854518728062939,persistent_menu: RANDOM,Random :game_die:,2018-08-24 22:04:04
+2053899197976407,Kylie,Jue,13091,854518728062939,2053899197976407,BOT: quick reply,Let's quiz you on a little bit of everything! :game_die:,2018-08-24 22:04:05
+2053899197976407,Kylie,Jue,13092,854518728062939,2053899197976407,BOT: message,Let's see if you would answer this one.,2018-08-24 22:04:12
+2053899197976407,Kylie,Jue,13093,854518728062939,2053899197976407,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-24 22:04:13
+2053899197976407,Kylie,Jue,13094,854518728062939,2053899197976407,BOT: quick reply,What should you NOT do when lowering a load?,2018-08-24 22:04:15
+2053899197976407,Kylie,Jue,13095,2053899197976407,854518728062939,user_typing,keep feet together,2018-08-24 22:04:27
+2053899197976407,Kylie,Jue,13096,854518728062939,2053899197976407,BOT: message,That's not quite right. :disappointed_face:,2018-08-24 22:04:28
+2053899197976407,Kylie,Jue,13097,854518728062939,2053899197976407,BOT: quick reply,The correct answer is Twist your body.,2018-08-24 22:04:30
+2053899197976407,Kylie,Jue,13098,2053899197976407,854518728062939,user_quick_reply: WHY,Why?,2018-08-24 22:04:35
+2053899197976407,Kylie,Jue,13099,854518728062939,2053899197976407,BOT: message,I hope this explanation could help you understand the the question.,2018-08-24 22:04:36
+2053899197976407,Kylie,Jue,13100,854518728062939,2053899197976407,BOT: quick reply,"To lower a load, you should make use of its edge, bend your knees, keep the load close to their body, and avoid twisting your torso.",2018-08-24 22:04:38
+2053899197976407,Kylie,Jue,13101,2053899197976407,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-24 22:04:48
+2053899197976407,Kylie,Jue,13102,854518728062939,2053899197976407,BOT: message,Could you answer this one for me?,2018-08-24 22:04:50
+2053899197976407,Kylie,Jue,13103,854518728062939,2053899197976407,BOT: quick reply,What should you NOT do while lifting objects?,2018-08-24 22:04:51
+2053899197976407,Kylie,Jue,13104,2053899197976407,854518728062939,user_typing,keep fee together,2018-08-24 22:05:01
+2053899197976407,Kylie,Jue,13105,854518728062939,2053899197976407,BOT: message,That wasn't quite what we were looking for. :disappointed_face:,2018-08-24 22:05:03
+2053899197976407,Kylie,Jue,13106,854518728062939,2053899197976407,BOT: quick reply,The correct answer is Keep your feet together.,2018-08-24 22:05:04
+2053899197976407,Kylie,Jue,13107,2053899197976407,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-24 22:05:10
+2053899197976407,Kylie,Jue,13108,854518728062939,2053899197976407,BOT: message,Let's try this question.,2018-08-24 22:05:12
+2053899197976407,Kylie,Jue,13109,854518728062939,2053899197976407,BOT: quick reply,"Having squandered his life's savings on unprofitable business ventures, the _____ entrepreneur was forced to live in squalor.",2018-08-24 22:05:13
+2053899197976407,Kylie,Jue,13110,2053899197976407,854518728062939,user_typing,stupid,2018-08-24 22:05:28
+2053899197976407,Kylie,Jue,13111,854518728062939,2053899197976407,BOT: message,"I'm sorry, but that was incorrect. :disappointed_face:",2018-08-24 22:05:29
+2053899197976407,Kylie,Jue,13112,854518728062939,2053899197976407,BOT: quick reply,The correct answer is insolvent.,2018-08-24 22:05:31
+2053899197976407,Kylie,Jue,13113,2053899197976407,854518728062939,user_quick_reply: WHY,Why?,2018-08-24 22:05:45
+2053899197976407,Kylie,Jue,13114,854518728062939,2053899197976407,BOT: message,This is why:,2018-08-24 22:05:46
+2053899197976407,Kylie,Jue,13115,854518728062939,2053899197976407,BOT: quick reply,:pushpin: Insolvent -- unable to meet or discharge financial obligations,2018-08-24 22:05:48
+2053899197976407,Kylie,Jue,13116,2053899197976407,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-24 22:05:57
+2053899197976407,Kylie,Jue,13117,854518728062939,2053899197976407,BOT: message,See if you can answer this next one.,2018-08-24 22:05:58
+2053899197976407,Kylie,Jue,13118,854518728062939,2053899197976407,BOT: quick reply,"Even though legislators claimed the Contagious Diseases Acts strengthened the nation, social purists argued the Acts _____ the nation's moral growth by encouraging licentious behavior.",2018-08-24 22:06:00
+2053899197976407,Kylie,Jue,13119,2053899197976407,854518728062939,user_typing,destroyed,2018-08-24 22:06:30
+2053899197976407,Kylie,Jue,13120,854518728062939,2053899197976407,BOT: message,"I'm sorry, but that was incorrect. :disappointed_face:",2018-08-24 22:06:31
+2053899197976407,Kylie,Jue,13121,854518728062939,2053899197976407,BOT: quick reply,The correct answer is hampered.,2018-08-24 22:06:33
+2053899197976407,Kylie,Jue,13122,2053899197976407,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-24 22:06:39
+2053899197976407,Kylie,Jue,13123,854518728062939,2053899197976407,BOT: message,What about this next question:,2018-08-24 22:06:40
+2053899197976407,Kylie,Jue,13124,854518728062939,2053899197976407,BOT: quick reply,"Just as different people can have very different personalities, so too can pets - even those of the same species and breed possess varied _____ .",2018-08-24 22:06:42
+2053899197976407,Kylie,Jue,13125,2053899197976407,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-24 22:06:51
+2053899197976407,Kylie,Jue,13126,854518728062939,2053899197976407,BOT: message,Pick one of the following answers.,2018-08-24 22:06:52
+2053899197976407,Kylie,Jue,13127,854518728062939,2053899197976407,BOT: quick reply,":keycap_1: temperaments
+:keycap_2: implementations
+:keycap_3: initiations
+:keycap_4: rationalizations
+:keycap_5: aptitudes
+",2018-08-24 22:06:54
+2053899197976407,Kylie,Jue,13128,2053899197976407,854518728062939,user_typing,1,2018-08-24 22:07:02
+2053899197976407,Kylie,Jue,13129,854518728062939,2053899197976407,BOT: message,That's not quite right. :disappointed_face:,2018-08-24 22:07:03
+2053899197976407,Kylie,Jue,13130,854518728062939,2053899197976407,BOT: quick reply,The correct answer is temperaments.,2018-08-24 22:07:05
+2053899197976407,Kylie,Jue,13131,2053899197976407,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-24 22:07:12
+2053899197976407,Kylie,Jue,13132,854518728062939,2053899197976407,BOT: message,I think you'll like this question.,2018-08-24 22:07:13
+2053899197976407,Kylie,Jue,13133,854518728062939,2053899197976407,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-24 22:07:15
+2053899197976407,Kylie,Jue,13134,854518728062939,2053899197976407,BOT: quick reply,What are by far the most common type of invertebrate?,2018-08-24 22:07:16
+2053899197976407,Kylie,Jue,13135,2053899197976407,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-24 22:07:26
+2053899197976407,Kylie,Jue,13136,854518728062939,2053899197976407,BOT: message,It's one of the following choices.,2018-08-24 22:07:28
+2053899197976407,Kylie,Jue,13137,854518728062939,2053899197976407,BOT: quick reply,":keycap_1: corals
+:keycap_2: insects
+:keycap_3: spiders
+:keycap_4: crustaceans
+",2018-08-24 22:07:29
+2053899197976407,Kylie,Jue,13138,2053899197976407,854518728062939,user_quick_reply: BUTTON_DKB_corals,:keycap_1:,2018-08-24 22:07:49
+2053899197976407,Kylie,Jue,13139,854518728062939,2053899197976407,BOT: message,"Hmm, that wasn't quite right. :disappointed_face:",2018-08-24 22:07:50
+2053899197976407,Kylie,Jue,13140,854518728062939,2053899197976407,BOT: quick reply,The correct answer is insects.,2018-08-24 22:07:52
+2053899197976407,Kylie,Jue,13141,2053899197976407,854518728062939,user_quick_reply: WHY,Why?,2018-08-24 22:07:56
+2053899197976407,Kylie,Jue,13142,854518728062939,2053899197976407,BOT: message,This is why:,2018-08-24 22:07:57
+2053899197976407,Kylie,Jue,13143,854518728062939,2053899197976407,BOT: quick reply,"Of all the animal species, it is estimated that well over 90% are invertebrates. Of all invertebrates, the insects are by far the most numerous. There are so many species of insects that scientists have yet to discover them all, let alone name or count them. Estimates of the total number of insect species fall in the range of 1 to 30 million. So, it helps if there are methods to classify not just the insects, but all invertebrates.",2018-08-24 22:07:58
+2053899197976407,Kylie,Jue,13144,2053899197976407,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-24 22:08:10
+2053899197976407,Kylie,Jue,13145,854518728062939,2053899197976407,BOT: message,What about this next question:,2018-08-24 22:08:12
+2053899197976407,Kylie,Jue,13146,854518728062939,2053899197976407,BOT: quick reply,"In psychological literature, the ""sleeper effect"" refers to the phenomenon in which a persuasive message from a trustworthy source loses _____ over time, while the efficacy of a message from a less credible source simultaneously increases.",2018-08-24 22:08:13
+2053899197976407,Kylie,Jue,13206,2053899197976407,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-24 22:23:34
+2053899197976407,Kylie,Jue,13207,854518728062939,2053899197976407,BOT: message,Okay. I'll give you some choices.,2018-08-24 22:23:35
+2053899197976407,Kylie,Jue,13208,854518728062939,2053899197976407,BOT: quick reply,":keycap_1: evasiveness
+:keycap_2: erudition
+:keycap_3: control
+:keycap_4: prescience
+:keycap_5: cogency
+",2018-08-24 22:23:37
+2053899197976407,Kylie,Jue,13209,2053899197976407,854518728062939,user_quick_reply: BUTTON_AKB_cogency,:keycap_5:,2018-08-24 22:23:53
+2053899197976407,Kylie,Jue,13210,854518728062939,2053899197976407,BOT: message,Nice! That was right!,2018-08-24 22:23:54
+2053899197976407,Kylie,Jue,13211,854518728062939,2053899197976407,BOT: quick reply,The correct answer is cogency.,2018-08-24 22:23:56
+2053899197976407,Kylie,Jue,13212,2053899197976407,854518728062939,user_quick_reply: WHY,Why?,2018-08-24 22:24:00
+2053899197976407,Kylie,Jue,13213,854518728062939,2053899197976407,BOT: message,I hope this explanation could help you understand the the question.,2018-08-24 22:24:02
+2053899197976407,Kylie,Jue,13214,854518728062939,2053899197976407,BOT: quick reply,":pushpin: Cogency -- persuasive relevance
+:pushpin: Prescience -- the power to foresee the future
+:pushpin: Erudition -- profound scholarly knowledge
+:pushpin: Evasiveness -- intentionally vague or ambiguous
+:pushpin: Control -- exercise authoritative control or power over",2018-08-24 22:24:03
+2053899197976407,Kylie,Jue,13216,2053899197976407,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-24 22:24:13
+2053899197976407,Kylie,Jue,13218,854518728062939,2053899197976407,BOT: message,Would you answer this question for me?,2018-08-24 22:24:14
+2053899197976407,Kylie,Jue,13220,854518728062939,2053899197976407,BOT: quick reply,Most fungi get organic compounds from what?,2018-08-24 22:24:15
+2053899197976407,Kylie,Jue,13223,2053899197976407,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-24 22:24:20
+2053899197976407,Kylie,Jue,13225,854518728062939,2053899197976407,BOT: message,Pick one of the following answers.,2018-08-24 22:24:21
+2053899197976407,Kylie,Jue,13226,854518728062939,2053899197976407,BOT: quick reply,":keycap_1: carnivorous organisms
+:keycap_2: living organisms
+:keycap_3: inorganic material
+:keycap_4: dead organisms
+",2018-08-24 22:24:23
+2053899197976407,Kylie,Jue,13230,2053899197976407,854518728062939,user_quick_reply: BUTTON_AKB_dead organisms,:keycap_4:,2018-08-24 22:24:27
+2053899197976407,Kylie,Jue,13232,854518728062939,2053899197976407,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_normal_pink.png,2018-08-24 22:24:30
+2053899197976407,Kylie,Jue,13233,854518728062939,2053899197976407,BOT: message,Great! Keep it up! :flexed_biceps_medium-light_skin_tone:,2018-08-24 22:24:31
+2053899197976407,Kylie,Jue,13234,854518728062939,2053899197976407,BOT: quick reply,The correct answer is dead organisms.,2018-08-24 22:24:32
+2053899197976407,Kylie,Jue,13237,2053899197976407,854518728062939,user_quick_reply: SWITCH_SUBJECT,Change subject :shuffle_tracks_button:,2018-08-24 22:24:38
+2053899197976407,Kylie,Jue,13239,854518728062939,2053899197976407,BOT: quick reply,"Sure, which subject would you want to study?:backhand_index_pointing_down_medium-light_skin_tone:",2018-08-24 22:24:40
+2053899197976407,Kylie,Jue,13240,2053899197976407,854518728062939,user_quick_reply: SAFETY,Safety:hammer_and_wrench:,2018-08-24 22:24:48
+2053899197976407,Kylie,Jue,13241,854518728062939,2053899197976407,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/evolvenormal_safety.gif,2018-08-24 22:24:53
+2053899197976407,Kylie,Jue,13242,854518728062939,2053899197976407,BOT: quick reply,Let's answer some questions about safety!,2018-08-24 22:24:55
+2053899197976407,Kylie,Jue,13245,2053899197976407,854518728062939,user_quick_reply: NEXT_QUESTION,Sure :white_heavy_check_mark:,2018-08-24 22:25:10
+2053899197976407,Kylie,Jue,13247,854518728062939,2053899197976407,BOT: message,Let's see if you would answer this one.,2018-08-24 22:25:11
+2053899197976407,Kylie,Jue,13248,854518728062939,2053899197976407,BOT: quick reply,How long can high-acid canned food such as tomatoes be stored?,2018-08-24 22:25:12
+2053899197976407,Kylie,Jue,13345,854518728062939,2053899197976407,BOT: quick reply,I'm not sure what this is. I'm still learning languages and you might be my teacher in the future!,2018-08-24 22:41:40
+2053899197976407,Kylie,Jue,14374,2053899197976407,854518728062939,user_quick_reply: NEXT_QUESTION,Another question :flexed_biceps_medium-light_skin_tone:,2018-08-25 13:07:28
+2053899197976407,Kylie,Jue,14375,854518728062939,2053899197976407,BOT: message,Let's take a look at this question.,2018-08-25 13:07:30
+2053899197976407,Kylie,Jue,14376,854518728062939,2053899197976407,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-25 13:07:31
+2053899197976407,Kylie,Jue,14377,854518728062939,2053899197976407,BOT: quick reply,Which fire extinguishers are used to put out fires caused by flammable liquids?,2018-08-25 13:07:32
+2053899197976407,Kylie,Jue,14378,2053899197976407,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-25 13:07:51
+2053899197976407,Kylie,Jue,14379,854518728062939,2053899197976407,BOT: message,Which of the following options is the right answer?,2018-08-25 13:07:53
+2053899197976407,Kylie,Jue,14380,854518728062939,2053899197976407,BOT: quick reply,":keycap_1: Class C dry chemical fire extinguisher
+:keycap_2: Class A water fire extinguishers
+:keycap_3: Class B carbon dioxide fire extinguisher
+",2018-08-25 13:07:54
+2053899197976407,Kylie,Jue,14381,2053899197976407,854518728062939,user_quick_reply: BUTTON_DKB_Class C dry chemical fire extinguisher,:keycap_1:,2018-08-25 13:08:02
+2053899197976407,Kylie,Jue,14382,854518728062939,2053899197976407,BOT: message,"Oops, that is not correct. :disappointed_face:",2018-08-25 13:08:03
+2053899197976407,Kylie,Jue,14383,854518728062939,2053899197976407,BOT: quick reply,The correct answer is Class B carbon dioxide fire extinguisher.,2018-08-25 13:08:05
+2053899197976407,Kylie,Jue,14384,2053899197976407,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-25 13:08:11
+2053899197976407,Kylie,Jue,14385,854518728062939,2053899197976407,BOT: message,How about this next one:,2018-08-25 13:08:12
+2053899197976407,Kylie,Jue,14386,854518728062939,2053899197976407,BOT: quick reply,"If your co-worker needs CPR but you are not trained in it, what should you do?",2018-08-25 13:08:14
+2053899197976407,Kylie,Jue,14387,2053899197976407,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-25 13:08:18
+2053899197976407,Kylie,Jue,14388,854518728062939,2053899197976407,BOT: message,It's one of the following choices.,2018-08-25 13:08:20
+2053899197976407,Kylie,Jue,14389,854518728062939,2053899197976407,BOT: quick reply,":keycap_1: Lift the patient's head
+:keycap_2: Perform chest compressions only
+:keycap_3: Give rescue breaths only
+:keycap_4: Wait for emergency personnel to arrive
+",2018-08-25 13:08:21
+2053899197976407,Kylie,Jue,14390,2053899197976407,854518728062939,user_quick_reply: BUTTON_DKB_Wait for emergency personnel to arrive,:keycap_4:,2018-08-25 13:08:47
+2053899197976407,Kylie,Jue,14391,854518728062939,2053899197976407,BOT: message,"Oops, that is not correct. :disappointed_face:",2018-08-25 13:08:49
+2053899197976407,Kylie,Jue,14392,854518728062939,2053899197976407,BOT: quick reply,The correct answer is Perform chest compressions only.,2018-08-25 13:08:50
+2053899197976407,Kylie,Jue,14393,2053899197976407,854518728062939,user_quick_reply: WHY,Why?,2018-08-25 13:08:53
+2053899197976407,Kylie,Jue,14394,854518728062939,2053899197976407,BOT: message,This is an explanation of the question:,2018-08-25 13:08:55
+2053899197976407,Kylie,Jue,14395,854518728062939,2053899197976407,BOT: quick reply,"According to Mayo Clinic, it's far better to do something than to do nothing at all if you're fearful that your knowledge or abilities arent 100 percent complete. If you're not trained in CPR, then provide hands-only CPR. That means uninterrupted chest compressions of about 100 a minute until paramedics arrive. You don't need to try rescue breathing.",2018-08-25 13:08:56
+2053899197976407,Kylie,Jue,14396,2053899197976407,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-25 13:09:13
+2053899197976407,Kylie,Jue,14397,854518728062939,2053899197976407,BOT: message,See if you can answer this next one.,2018-08-25 13:09:15
+2053899197976407,Kylie,Jue,14398,854518728062939,2053899197976407,BOT: quick reply,"If your co-worker needs CPR but you are not trained in it, what should you do?",2018-08-25 13:09:16
+2053899197976407,Kylie,Jue,14399,2053899197976407,854518728062939,user_typing,Chest compressions only,2018-08-25 13:09:28
+2053899197976407,Kylie,Jue,14400,854518728062939,2053899197976407,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_happy_pink.png,2018-08-25 13:09:30
+2053899197976407,Kylie,Jue,14401,854518728062939,2053899197976407,BOT: message,Correct! :confetti_ball:,2018-08-25 13:09:32
+2053899197976407,Kylie,Jue,14402,854518728062939,2053899197976407,BOT: quick reply,The correct answer is Perform chest compressions only.,2018-08-25 13:09:34
+2053899197976407,Kylie,Jue,14403,2053899197976407,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-25 13:09:37
+2053899197976407,Kylie,Jue,14404,854518728062939,2053899197976407,BOT: message,How about this next one:,2018-08-25 13:09:38
+2053899197976407,Kylie,Jue,14405,854518728062939,2053899197976407,BOT: quick reply,What three major factors cause food contamination?,2018-08-25 13:09:40
+2053899197976407,Kylie,Jue,14406,2053899197976407,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-25 13:09:44
+2053899197976407,Kylie,Jue,14407,854518728062939,2053899197976407,BOT: message,Pick one of the following answers.,2018-08-25 13:09:45
+2053899197976407,Kylie,Jue,14408,854518728062939,2053899197976407,BOT: quick reply,":keycap_1: Physical, chemical, and psychosocial
+:keycap_2: Physical, biological, and chemical
+:keycap_3: Physical, psychological, and health
+:keycap_4: Physical, biological, and radiological
+",2018-08-25 13:09:47
+2053899197976407,Kylie,Jue,14409,2053899197976407,854518728062939,"user_quick_reply: BUTTON_AKB_Physical, biological, and chemical",:keycap_2:,2018-08-25 13:09:56
+2053899197976407,Kylie,Jue,14410,854518728062939,2053899197976407,BOT: message,Great! Keep it up! :flexed_biceps_medium-light_skin_tone:,2018-08-25 13:09:57
+2053899197976407,Kylie,Jue,14411,854518728062939,2053899197976407,BOT: quick reply,"The correct answer is Physical, biological, and chemical.",2018-08-25 13:09:59
+2053899197976407,Kylie,Jue,14412,2053899197976407,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-25 13:10:10
+2053899197976407,Kylie,Jue,14413,854518728062939,2053899197976407,BOT: message,I think you'll like this question.,2018-08-25 13:10:12
+2053899197976407,Kylie,Jue,14414,854518728062939,2053899197976407,BOT: quick reply,What should you NOT do while treating cuts and scrapes?,2018-08-25 13:10:13
+2053899197976407,Kylie,Jue,14415,2053899197976407,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-25 13:10:21
+2053899197976407,Kylie,Jue,14416,854518728062939,2053899197976407,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-08-25 13:10:22
+2053899197976407,Kylie,Jue,14417,854518728062939,2053899197976407,BOT: quick reply,":keycap_1: Apply an antibiotic to the wound
+:keycap_2: Wash the wound with soap
+:keycap_3: Apply pressure on the wound with a clean cloth or bandage
+:keycap_4: Cover the wound
+",2018-08-25 13:10:24
+2053899197976407,Kylie,Jue,14418,2053899197976407,854518728062939,user_quick_reply: BUTTON_AKB_Wash the wound with soap,:keycap_2:,2018-08-25 13:10:28
+2053899197976407,Kylie,Jue,14419,854518728062939,2053899197976407,BOT: message,Great job getting the correct answer!,2018-08-25 13:10:29
+2053899197976407,Kylie,Jue,14420,854518728062939,2053899197976407,BOT: quick reply,The correct answer is Wash the wound with soap.,2018-08-25 13:10:31
+2053899197976407,Kylie,Jue,14421,2053899197976407,854518728062939,user_quick_reply: WHY,Why?,2018-08-25 13:10:34
+2053899197976407,Kylie,Jue,14422,854518728062939,2053899197976407,BOT: message,I hope this explanation could help you understand the the question.,2018-08-25 13:10:36
+2053899197976407,Kylie,Jue,14423,854518728062939,2053899197976407,BOT: quick reply,"Although cuts and scrapes do not require the victim to visit an emergency room, proper care is needed to avoid infections. If you're treating wounds, Mayo Clinic advises you to stop the bleeding by applying gentle pressure on the wound for 20 to 30 minutes; use clear water to clean the wound and tweezers cleaned with alcohol to remove particles from the wound, if there are any; avoid using soap as it may cause irritation; apply an antibiotic to the affected area; cover the wound to keep harmful bacteria out; and change the dressing regularly or when it becomes wet or dirty. For wounds that are deeper than 1/4 inch or 6 millimeters, visit a health practitioner to get stitches.",2018-08-25 13:10:37
+2053899197976407,Kylie,Jue,15306,854518728062939,2053899197976407,BOT: quick reply,"Hi Kylie, you haven't talked to me for a while. Would you like to resume the learning with me?",2018-08-25 20:00:28
+2053899197976407,Kylie,Jue,15995,2053899197976407,854518728062939,user_quick_reply: NEXT_QUESTION,Got it :round_pushpin:,2018-08-25 21:34:45
+2053899197976407,Kylie,Jue,15996,854518728062939,2053899197976407,BOT: message,Here's a question for you:,2018-08-25 21:34:48
+2053899197976407,Kylie,Jue,15997,854518728062939,2053899197976407,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-25 21:34:49
+2053899197976407,Kylie,Jue,15998,854518728062939,2053899197976407,BOT: quick reply,"What agency inspects, grades, and enforces standards of quality and wholesomeness for meat, poultry, milk, eggs, and grains?",2018-08-25 21:34:50
+2053899197976407,Kylie,Jue,15999,2053899197976407,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-25 21:35:09
+2053899197976407,Kylie,Jue,16000,854518728062939,2053899197976407,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-08-25 21:35:10
+2053899197976407,Kylie,Jue,16001,854518728062939,2053899197976407,BOT: quick reply,":keycap_1: USDA
+:keycap_2: EPA
+:keycap_3: CDC
+:keycap_4: FDA
+",2018-08-25 21:35:12
+2053899197976407,Kylie,Jue,16002,2053899197976407,854518728062939,user_quick_reply: BUTTON_DKB_FDA,:keycap_4:,2018-08-25 21:35:16
+2053899197976407,Kylie,Jue,16003,854518728062939,2053899197976407,BOT: message,"I'm sorry, but that was incorrect. :disappointed_face:",2018-08-25 21:35:17
+2053899197976407,Kylie,Jue,16004,854518728062939,2053899197976407,BOT: quick reply,The correct answer is USDA.,2018-08-25 21:35:19
+2053899197976407,Kylie,Jue,16005,2053899197976407,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-25 21:35:24
+2053899197976407,Kylie,Jue,16006,854518728062939,2053899197976407,BOT: message,Let's take a look at this question.,2018-08-25 21:35:26
+2053899197976407,Kylie,Jue,16007,854518728062939,2053899197976407,BOT: quick reply,What should you NOT do while lifting objects?,2018-08-25 21:35:27
+2053899197976407,Kylie,Jue,16008,2053899197976407,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-25 21:36:23
+2053899197976407,Kylie,Jue,16009,854518728062939,2053899197976407,BOT: message,Pick one of the following answers.,2018-08-25 21:36:24
+2053899197976407,Kylie,Jue,16010,854518728062939,2053899197976407,BOT: quick reply,":keycap_1: Keep the object close to your body
+:keycap_2: Bend at the knees
+:keycap_3: Keep your back straight
+:keycap_4: Keep your feet together
+",2018-08-25 21:36:26
+2053899197976407,Kylie,Jue,16011,2053899197976407,854518728062939,user_quick_reply: BUTTON_AKB_Keep your feet together,:keycap_4:,2018-08-25 21:36:30
+2053899197976407,Kylie,Jue,16012,854518728062939,2053899197976407,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_happy_pink.png,2018-08-25 21:36:33
+2053899197976407,Kylie,Jue,16013,854518728062939,2053899197976407,BOT: message,Great job!,2018-08-25 21:36:34
+2053899197976407,Kylie,Jue,16014,854518728062939,2053899197976407,BOT: quick reply,The correct answer is Keep your feet together.,2018-08-25 21:36:36
+2053899197976407,Kylie,Jue,16015,2053899197976407,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-25 21:37:35
+2053899197976407,Kylie,Jue,16016,854518728062939,2053899197976407,BOT: message,How about this next one:,2018-08-25 21:37:37
+2053899197976407,Kylie,Jue,16017,854518728062939,2053899197976407,BOT: quick reply,"When you discover a fire, you should do what?",2018-08-25 21:37:38
+2053899197976407,Kylie,Jue,16018,2053899197976407,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-25 21:37:44
+2053899197976407,Kylie,Jue,16019,854518728062939,2053899197976407,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-08-25 21:37:45
+2053899197976407,Kylie,Jue,16020,854518728062939,2053899197976407,BOT: quick reply,":keycap_1: Use a fire extinguisher to put out the fire, even if you've never used a fire extinguisher before
+:keycap_2: Stay in the building until you figure out a way to extinguish the fire
+:keycap_3: Run out of the building without warning others of the fire
+:keycap_4: Pull the fire alarm and call the fire department
+",2018-08-25 21:37:47
+2053899197976407,Kylie,Jue,16021,2053899197976407,854518728062939,user_quick_reply: BUTTON_AKB_Pull the fire alarm and call the fire department,:keycap_4:,2018-08-25 21:38:28
+2053899197976407,Kylie,Jue,16022,854518728062939,2053899197976407,BOT: message,Great job getting the correct answer!,2018-08-25 21:38:30
+2053899197976407,Kylie,Jue,16023,854518728062939,2053899197976407,BOT: quick reply,The correct answer is Pull the fire alarm and call the fire department.,2018-08-25 21:38:31
+2053899197976407,Kylie,Jue,16024,2053899197976407,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-25 21:38:34
+2053899197976407,Kylie,Jue,16025,854518728062939,2053899197976407,BOT: message,Could you answer this one for me?,2018-08-25 21:38:36
+2053899197976407,Kylie,Jue,16026,854518728062939,2053899197976407,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-25 21:38:37
+2053899197976407,Kylie,Jue,16027,854518728062939,2053899197976407,BOT: quick reply,Which fire extinguishers are used to put out Class A fires?,2018-08-25 21:38:38
+2053899197976407,Kylie,Jue,16028,2053899197976407,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-25 21:38:43
+2053899197976407,Kylie,Jue,16029,854518728062939,2053899197976407,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-08-25 21:38:45
+2053899197976407,Kylie,Jue,16030,854518728062939,2053899197976407,BOT: quick reply,":keycap_1: Both CO2 and water
+:keycap_2: Both water and multi-purpose dry chemical
+:keycap_3: Water only
+:keycap_4: CO2 only
+:keycap_5: Multi-purpose dry chemical only
+",2018-08-25 21:38:46
+2053899197976407,Kylie,Jue,16031,2053899197976407,854518728062939,user_quick_reply: BUTTON_AKB_Both water and multi-purpose dry chemical,:keycap_2:,2018-08-25 21:38:53
+2053899197976407,Kylie,Jue,16032,854518728062939,2053899197976407,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_happy_orange.png,2018-08-25 21:38:55
+2053899197976407,Kylie,Jue,16033,854518728062939,2053899197976407,BOT: message,Great job!,2018-08-25 21:38:57
+2053899197976407,Kylie,Jue,16034,854518728062939,2053899197976407,BOT: quick reply,The correct answer is Both water and multi-purpose dry chemical.,2018-08-25 21:38:58
+2053899197976407,Kylie,Jue,16035,2053899197976407,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-25 21:39:02
+2053899197976407,Kylie,Jue,16036,854518728062939,2053899197976407,BOT: message,Would you answer this question for me?,2018-08-25 21:39:03
+2053899197976407,Kylie,Jue,16037,854518728062939,2053899197976407,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-25 21:39:05
+2053899197976407,Kylie,Jue,16038,854518728062939,2053899197976407,BOT: quick reply,What should you NOT do while lifting objects?,2018-08-25 21:39:06
+2053899197976407,Kylie,Jue,16039,2053899197976407,854518728062939,user_typing,Keep you feet together,2018-08-25 21:39:17
+2053899197976407,Kylie,Jue,16040,854518728062939,2053899197976407,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_normal.png,2018-08-25 21:39:20
+2053899197976407,Kylie,Jue,16041,854518728062939,2053899197976407,BOT: message,Fantastic! :hundred_points:,2018-08-25 21:39:21
+2053899197976407,Kylie,Jue,16042,854518728062939,2053899197976407,BOT: quick reply,The correct answer is Keep your feet together.,2018-08-25 21:39:23
+2053899197976407,Kylie,Jue,16043,2053899197976407,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-25 21:40:25
+2053899197976407,Kylie,Jue,16044,854518728062939,2053899197976407,BOT: message,Here's a question for you:,2018-08-25 21:40:27
+2053899197976407,Kylie,Jue,16045,854518728062939,2053899197976407,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-25 21:40:28
+2053899197976407,Kylie,Jue,16046,854518728062939,2053899197976407,BOT: quick reply,"True or false: you can always smell, see, or taste harmful bacteria in food that can cause illness.",2018-08-25 21:40:29
+2053899197976407,Kylie,Jue,16047,2053899197976407,854518728062939,user_typing,False,2018-08-25 21:41:47
+2053899197976407,Kylie,Jue,16048,854518728062939,2053899197976407,BOT: message,Good Answer! :white_heavy_check_mark:,2018-08-25 21:41:49
+2053899197976407,Kylie,Jue,16049,854518728062939,2053899197976407,BOT: quick reply,The correct answer is False.,2018-08-25 21:41:50

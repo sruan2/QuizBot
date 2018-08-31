@@ -34,7 +34,7 @@ class QAModel(object):
         self.DKB = qa_kb.DKB
 
         if sequencing_model == 'dash':
-            self.sequencing_model = DASHSequencingModel(qa_kb)
+            self.sequencing_model = DASHSequencingModel(qa_kb, score_csv='question_sequencing/updated_scores.csv')
         elif sequencing_model == 'leitner':
             self.sequencing_model = LeitnerSequencingModel(qa_kb)
         elif sequencing_model == 'sm2':
@@ -80,7 +80,7 @@ class QAModel(object):
 
 class SupervisedSIFModeL(QAModel):
     """semi supervised version of the SIF model"""
-    def __init__(self, qa_kb, sequencing_model='random'):
+    def __init__(self, qa_kb, sequencing_model='dash'):
         super(SupervisedSIFModeL, self).__init__(qa_kb, sequencing_model)
 
         # load the current architecture from json

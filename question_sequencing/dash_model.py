@@ -5,6 +5,7 @@ import numpy as np
 import time
 import random
 from collections import defaultdict
+
 from base_model import BaseSequencingModel
 
 np.random.seed(42)
@@ -56,9 +57,10 @@ class DASHSequencingModel(BaseSequencingModel):
         self.student_ability = student_ability
         self.decay_student_ability = decay_student_ability
         self.item_difficulties = np.random.normal(1, 1, self.num_items)
-        # self.decay_item_difficulties = np.exp(
-        #     np.random.normal(1, 1, self.num_items))
-        self.decay_item_difficulties = np.genfromtxt(score_csv, delimiter = ',')[:,1][self.QA_KB.QID]
+        if score_csv:
+            item_difficulties = np.genfromtxt(score_csv, delimiter=',')[:,1][self.QA_KB.QID]
+        self.decay_item_difficulties = np.exp(
+            np.random.normal(1, 1, self.num_items))
         window_cw = window_weights(self.num_windows)
         window_nw = window_weights(self.num_windows)
         self.window_weights_cw = np.tile(window_cw, self.num_items).reshape(
@@ -98,7 +100,6 @@ class DASHSequencingModel(BaseSequencingModel):
 
     def pickRandomQuestion(self, user_id, subject):
         '''Method to select a random question, for breadth selection purposes
-
         Returns:
             Data dictionary: {'question':  
                               'qid' :  
@@ -107,22 +108,22 @@ class DASHSequencingModel(BaseSequencingModel):
                               'distractor' : } 
         '''
         if subject == 'random':
-            QID = random.randint(0, self.QA_KB.KBlength)
+            idx = random.randint(0, self.QA_KB.KBlength-1)
         else:
             # if subject is not random, then pick from the respective subject question bank
-            QID = random.choice(self.QA_KB.SubDict[subject])
+            idx = random.choice(self.QA_KB.SubDict[subject])
 
-        data = {'question': self.QA_KB.QKB[QID],
-                'qid': int(QID),
-                'correct_answer': self.QA_KB.AKB[QID],
-                'support': self.QA_KB.SKB[QID],
-                'distractor': self.QA_KB.DKB[QID]}
-
+        data = {'question': self.QA_KB.QKB[idx],
+                'index': idx,
+                'qid': self.QA_KB.QID[idx],
+                'correct_answer': self.QA_KB.AKB[idx],
+                'support': self.QA_KB.SKB[idx],
+                'distractor': self.QA_KB.DKB[idx]}
         return data
+
 
     def thresholdPickQuestion(self, user_id, subject):
         '''Method to select a question given a threshold, figures out the most urgent question to review
-
         Returns:
             Data dictionary: {'question':  
                               'qid' :  
@@ -148,20 +149,20 @@ class DASHSequencingModel(BaseSequencingModel):
         distances = np.abs(likelihoods - self.threshold)
         np.put(threshold_distances, id_list, list(distances[id_list]))
 
-        QID = np.argmin(threshold_distances)
-        print('likelihood is ', likelihoods[QID])
+        idx = np.argmin(threshold_distances)
+        print('likelihood is ', likelihoods[self.curr_item[user_id]])
 
-        data = {'question': self.QA_KB.QKB[QID],
-                'qid': int(QID),
-                'correct_answer': self.QA_KB.AKB[QID],
-                'support': self.QA_KB.SKB[QID],
-                'distractor': self.QA_KB.DKB[QID]}
+        data = {'question': self.QA_KB.QKB[idx],
+                'index': idx,
+                'qid': self.QA_KB.QID[idx],
+                'correct_answer': self.QA_KB.AKB[idx],
+                'support': self.QA_KB.SKB[idx],
+                'distractor': self.QA_KB.DKB[idx]}
 
         return data
 
     def pickNextQuestion(self, user_id=0, subject='random'):
         '''pick threshold based review every 5 steps, otherwise pick random
-
         Returns:
             Data dictionary: {'question':  
                               'qid' :  
@@ -175,17 +176,16 @@ class DASHSequencingModel(BaseSequencingModel):
             data = self.pickRandomQuestion(user_id, subject)
 
         # ensure no repeated questions
-        if data['qid'] == self.curr_item[user_id]:
-            data = self.pickNextQuestion(user_id, subject)
+        while data['index'] == self.curr_item[user_id]:
+            data = self.pickRandomQuestion(user_id, subject)
 
-        self.curr_item[user_id] = data['qid']
+        self.curr_item[user_id] = data['index']
 
-        return data    
+        return data   
 
     def updateHistory(self, user_id, user_data):
         '''outcome is either 0 or 1, if the user answered correctly
         item is the index of the last item
-
         Args:
            user_data: tuples of qid(int), outcome (float [0,1]), timestamp (str) 
         '''
@@ -203,4 +203,3 @@ class DASHSequencingModel(BaseSequencingModel):
             self.num_correct[user_id][question, curr_window] += 1
         self.num_attempts[user_id][question, curr_window] += 1
         self.last_viewed[user_id][question] = time_seconds
-    

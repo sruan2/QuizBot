@@ -1,0 +1,356 @@
+user_id,user_firstname,user_lastname,uid,sender,recipient,type,dialogue,time_stamp
+1885458718179660,Pingyu,Wang,8193,1885458718179660,854518728062939,persistent_menu: GET_INTRO_1,Get Started,2018-08-14 11:56:06
+1885458718179660,Pingyu,Wang,8194,854518728062939,1885458718179660,BOT: image,https://www.smartprimer.org:443/pictures/avatar/quizbot_avatar.png,2018-08-14 11:56:10
+1885458718179660,Pingyu,Wang,8195,854518728062939,1885458718179660,BOT: quick reply,"Hi Pingyu! My name is Frosty :penguin: and Im here to help you learn all about science:microscope:, verbal reasoning (GRE) :input_latin_uppercase:, and safety:hammer_and_wrench:!",2018-08-14 11:56:12
+1885458718179660,Pingyu,Wang,8196,1885458718179660,854518728062939,user_quick_reply: GET_INTRO_2,Okay :oncoming_fist_medium-light_skin_tone:,2018-08-14 11:57:29
+1885458718179660,Pingyu,Wang,8197,854518728062939,1885458718179660,BOT: message,Heres how it works.,2018-08-14 11:57:31
+1885458718179660,Pingyu,Wang,8198,854518728062939,1885458718179660,BOT: message,"I ask you questions, and you give me answers.",2018-08-14 11:57:33
+1885458718179660,Pingyu,Wang,8199,854518728062939,1885458718179660,BOT: quick reply,We will learn fun things together!,2018-08-14 11:57:34
+1885458718179660,Pingyu,Wang,8200,854518728062939,1885458718179660,BOT: image,https://www.smartprimer.org:443/pictures/user_manual/typeanswer.png,2018-08-14 11:57:43
+1885458718179660,Pingyu,Wang,8201,854518728062939,1885458718179660,BOT: quick reply,"To study the questions, you can type in your answers in the text field and I will evaluate the answers for you using advanced NLP (Natural Language Processing) technology.",2018-08-14 11:57:45
+1885458718179660,Pingyu,Wang,8202,1885458718179660,854518728062939,user_quick_reply: GET_INTRO_4,Continue :thumbs_up_medium-light_skin_tone:,2018-08-14 11:58:01
+1885458718179660,Pingyu,Wang,8203,854518728062939,1885458718179660,BOT: image,https://www.smartprimer.org:443/pictures/user_manual/needhintbutton.png,2018-08-14 11:58:04
+1885458718179660,Pingyu,Wang,8204,854518728062939,1885458718179660,BOT: quick reply,"If you don't know the answers, then feel free to tap on the hint button.",2018-08-14 11:58:06
+1885458718179660,Pingyu,Wang,8205,1885458718179660,854518728062939,user_quick_reply: GET_INTRO_5,Continue :round_pushpin:,2018-08-14 12:03:22
+1885458718179660,Pingyu,Wang,8206,854518728062939,1885458718179660,BOT: image,https://www.smartprimer.org:443/pictures/user_manual/hintoptions.png,2018-08-14 12:03:27
+1885458718179660,Pingyu,Wang,8207,854518728062939,1885458718179660,BOT: quick reply,The hint will give you a list of potential answers and you can select one from them.,2018-08-14 12:03:28
+1885458718179660,Pingyu,Wang,8208,1885458718179660,854518728062939,user_quick_reply: GET_INTRO_6,Sure :oncoming_fist_medium-light_skin_tone:,2018-08-14 12:03:36
+1885458718179660,Pingyu,Wang,8209,854518728062939,1885458718179660,BOT: image,https://www.smartprimer.org:443/pictures/user_manual/menubutton.jpg,2018-08-14 12:03:39
+1885458718179660,Pingyu,Wang,8210,854518728062939,1885458718179660,BOT: quick reply,"To discover more abilities of me, you can click on the menu button.:backhand_index_pointing_up_medium-light_skin_tone:",2018-08-14 12:03:40
+1885458718179660,Pingyu,Wang,8211,1885458718179660,854518728062939,user_quick_reply: GET_READY,Alrighty :thumbs_up_medium-light_skin_tone:,2018-08-14 12:03:49
+1885458718179660,Pingyu,Wang,8212,854518728062939,1885458718179660,BOT: message,I hope you enjoy the learning journey! :hundred_points:,2018-08-14 12:03:51
+1885458718179660,Pingyu,Wang,8213,854518728062939,1885458718179660,BOT: quick reply,"So, are you ready?",2018-08-14 12:03:52
+1885458718179660,Pingyu,Wang,8214,1885458718179660,854518728062939,user_quick_reply: YUP_IM_READY,Yup! I'm ready! :raised_fist_medium-light_skin_tone:,2018-08-14 12:03:58
+1885458718179660,Pingyu,Wang,8215,854518728062939,1885458718179660,BOT: message,Great!,2018-08-14 12:03:59
+1885458718179660,Pingyu,Wang,8216,854518728062939,1885458718179660,BOT: quick reply,Lets get started :rocket:,2018-08-14 12:04:01
+1885458718179660,Pingyu,Wang,8422,854518728062939,1885458718179660,BOT: quick reply,"Hi Pingyu, you haven't talked to me for a while. Would you like to resume the learning with me?",2018-08-14 20:01:53
+1885458718179660,Pingyu,Wang,9007,854518728062939,1885458718179660,BOT: quick reply,"Hi Pingyu, you haven't talked to me for a while. Would you like to resume the learning with me?",2018-08-15 20:02:18
+1885458718179660,Pingyu,Wang,9015,1885458718179660,854518728062939,user_quick_reply: NEXT_QUESTION,Alright :raising_hands_medium-light_skin_tone:,2018-08-15 20:02:31
+1885458718179660,Pingyu,Wang,9017,854518728062939,1885458718179660,BOT: message,Let's see if you would answer this one.,2018-08-15 20:02:32
+1885458718179660,Pingyu,Wang,9018,854518728062939,1885458718179660,BOT: quick reply,"Video game enthusiasts know that, while the astounding advances in technological innovation might increase the level of fun of the gaming experience, such a result is by no means _____ .",2018-08-15 20:02:34
+1885458718179660,Pingyu,Wang,9028,1885458718179660,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-15 20:02:55
+1885458718179660,Pingyu,Wang,9030,854518728062939,1885458718179660,BOT: message,Pick one of the following answers.,2018-08-15 20:02:56
+1885458718179660,Pingyu,Wang,9031,854518728062939,1885458718179660,BOT: quick reply,":keycap_1: desultory
+:keycap_2: ineluctable
+:keycap_3: endemic
+:keycap_4: seminal
+:keycap_5: salient
+",2018-08-15 20:02:58
+1885458718179660,Pingyu,Wang,9032,1885458718179660,854518728062939,user_quick_reply: BUTTON_DKB_seminal,:keycap_4:,2018-08-15 20:03:04
+1885458718179660,Pingyu,Wang,9033,854518728062939,1885458718179660,BOT: message,"I'm sorry, but that was incorrect. :disappointed_face:",2018-08-15 20:03:06
+1885458718179660,Pingyu,Wang,9034,854518728062939,1885458718179660,BOT: quick reply,The correct answer is ineluctable.,2018-08-15 20:03:07
+1885458718179660,Pingyu,Wang,9035,1885458718179660,854518728062939,user_quick_reply: WHY,Why?,2018-08-15 20:03:14
+1885458718179660,Pingyu,Wang,9036,854518728062939,1885458718179660,BOT: message,This is why:,2018-08-15 20:03:16
+1885458718179660,Pingyu,Wang,9037,854518728062939,1885458718179660,BOT: quick reply,":pushpin: Ineluctable -- impossible to avoid or evade
+:pushpin: Desultory -- marked by lack of definite plan or regularity or purpose; jumping from one thing to another
+:pushpin: Endemic -- of or relating to a disease
+:pushpin: Salient -- having a quality that thrusts itself into attention
+:pushpin: Seminal -- having possibilities of future development",2018-08-15 20:03:17
+1885458718179660,Pingyu,Wang,9133,1885458718179660,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-15 21:10:57
+1885458718179660,Pingyu,Wang,9134,854518728062939,1885458718179660,BOT: message,Let's try this question.,2018-08-15 21:10:59
+1885458718179660,Pingyu,Wang,9135,854518728062939,1885458718179660,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-15 21:11:00
+1885458718179660,Pingyu,Wang,9136,854518728062939,1885458718179660,BOT: quick reply,Which system are the brain and spinal cord a part of?,2018-08-15 21:11:02
+1885458718179660,Pingyu,Wang,9137,1885458718179660,854518728062939,user_typing,Central neural system,2018-08-15 21:11:14
+1885458718179660,Pingyu,Wang,9138,854518728062939,1885458718179660,BOT: message,"I'm sorry, but that was incorrect. :disappointed_face:",2018-08-15 21:11:16
+1885458718179660,Pingyu,Wang,9139,854518728062939,1885458718179660,BOT: quick reply,The correct answer is central nervous system.,2018-08-15 21:11:17
+1885458718179660,Pingyu,Wang,9140,1885458718179660,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-15 21:11:25
+1885458718179660,Pingyu,Wang,9141,854518728062939,1885458718179660,BOT: message,See if you can answer this next one.,2018-08-15 21:11:26
+1885458718179660,Pingyu,Wang,9142,854518728062939,1885458718179660,BOT: quick reply,"Dolly Madison, the wife of President James Madison, was known especially for her _____ , remaining calm even as the British invaded Washington D.C. during the War of 1812.",2018-08-15 21:11:28
+1885458718179660,Pingyu,Wang,9143,1885458718179660,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-15 21:11:36
+1885458718179660,Pingyu,Wang,9144,854518728062939,1885458718179660,BOT: message,Okay. I'll give you some choices.,2018-08-15 21:11:37
+1885458718179660,Pingyu,Wang,9145,854518728062939,1885458718179660,BOT: quick reply,":keycap_1: equanimity
+:keycap_2: cynicism
+:keycap_3: malevolence
+:keycap_4: impracticality
+:keycap_5: zeal
+",2018-08-15 21:11:39
+1885458718179660,Pingyu,Wang,9146,1885458718179660,854518728062939,user_quick_reply: BUTTON_AKB_equanimity,:keycap_1:,2018-08-15 21:11:54
+1885458718179660,Pingyu,Wang,9147,854518728062939,1885458718179660,BOT: image,https://www.smartprimer.org:443/pictures/avatar/congrats/penguinnormal_normal_pink.png,2018-08-15 21:11:57
+1885458718179660,Pingyu,Wang,9148,854518728062939,1885458718179660,BOT: message,Great job getting the correct answer!,2018-08-15 21:11:59
+1885458718179660,Pingyu,Wang,9149,854518728062939,1885458718179660,BOT: quick reply,The correct answer is equanimity.,2018-08-15 21:12:00
+1885458718179660,Pingyu,Wang,9150,1885458718179660,854518728062939,user_quick_reply: WHY,Why?,2018-08-15 21:12:07
+1885458718179660,Pingyu,Wang,9151,854518728062939,1885458718179660,BOT: message,Here's why:,2018-08-15 21:12:08
+1885458718179660,Pingyu,Wang,9152,854518728062939,1885458718179660,BOT: quick reply,":pushpin: Equanimity -- steadiness of mind under stress
+:pushpin: Impracticality -- concerned with theoretical possibilities rather than actual use
+:pushpin: Cynicism -- a cynical feeling of distrust
+:pushpin: Zeal -- a feeling of strong eagerness usually in favor of a person or cause
+:pushpin: Malevolence -- wishing evil to others",2018-08-15 21:12:10
+1885458718179660,Pingyu,Wang,9153,1885458718179660,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-15 21:12:27
+1885458718179660,Pingyu,Wang,9154,854518728062939,1885458718179660,BOT: message,What about this next question:,2018-08-15 21:12:28
+1885458718179660,Pingyu,Wang,9155,854518728062939,1885458718179660,BOT: quick reply,What unit of measurement is defined to be the number of atoms in 12g of carbon-12?,2018-08-15 21:12:30
+1885458718179660,Pingyu,Wang,9156,1885458718179660,854518728062939,user_typing,Mole,2018-08-15 21:12:47
+1885458718179660,Pingyu,Wang,9157,854518728062939,1885458718179660,BOT: image,https://www.smartprimer.org:443/pictures/avatar/congrats/penguinnormal_normal_orange.png,2018-08-15 21:12:50
+1885458718179660,Pingyu,Wang,9158,854518728062939,1885458718179660,BOT: message,Good job! :raising_hands_medium-light_skin_tone:,2018-08-15 21:12:51
+1885458718179660,Pingyu,Wang,9159,854518728062939,1885458718179660,BOT: quick reply,The correct answer is one mole.,2018-08-15 21:12:52
+1885458718179660,Pingyu,Wang,9160,1885458718179660,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-15 21:13:00
+1885458718179660,Pingyu,Wang,9161,854518728062939,1885458718179660,BOT: message,Would you answer this question for me?,2018-08-15 21:13:01
+1885458718179660,Pingyu,Wang,9162,854518728062939,1885458718179660,BOT: quick reply,All organisms can be classified into one of three of this least specific grouping?,2018-08-15 21:13:03
+1885458718179660,Pingyu,Wang,9163,1885458718179660,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-15 21:13:14
+1885458718179660,Pingyu,Wang,9164,854518728062939,1885458718179660,BOT: message,Which of the following options is the right answer?,2018-08-15 21:13:16
+1885458718179660,Pingyu,Wang,9165,854518728062939,1885458718179660,BOT: quick reply,":keycap_1: species
+:keycap_2: domains
+:keycap_3: aspects
+:keycap_4: phlylum
+",2018-08-15 21:13:17
+1885458718179660,Pingyu,Wang,9166,1885458718179660,854518728062939,user_quick_reply: I_DONT_KNOW,I dont know :downcast_face_with_sweat:,2018-08-15 21:13:24
+1885458718179660,Pingyu,Wang,9167,854518728062939,1885458718179660,BOT: quick reply,Are you sure you want to give up?,2018-08-15 21:13:25
+1885458718179660,Pingyu,Wang,9168,1885458718179660,854518728062939,user_quick_reply: GIVEUP_YES,"Yes, answer please.",2018-08-15 21:13:31
+1885458718179660,Pingyu,Wang,9169,854518728062939,1885458718179660,BOT: message,You didn't get it right this time.,2018-08-15 21:13:32
+1885458718179660,Pingyu,Wang,9170,854518728062939,1885458718179660,BOT: message,"Don't give up, you'll get it next time! :grinning_face_with_smiling_eyes:",2018-08-15 21:13:33
+1885458718179660,Pingyu,Wang,9171,854518728062939,1885458718179660,BOT: quick reply,The correct answer is domains.,2018-08-15 21:13:35
+1885458718179660,Pingyu,Wang,9172,1885458718179660,854518728062939,user_quick_reply: WHY,Why?,2018-08-15 21:13:40
+1885458718179660,Pingyu,Wang,9173,854518728062939,1885458718179660,BOT: message,This is why:,2018-08-15 21:13:42
+1885458718179660,Pingyu,Wang,9174,854518728062939,1885458718179660,BOT: quick reply,"Modern taxonomists have reordered many groups of organisms since Linnaeus. The main categories that biologists use are listed here from the most specific to the least specific category. All organisms can be classified into one of three domains, the least specific grouping. The three domains are Bacteria, Archaea, and Eukarya. The Kingdom is the next category after the Domain. All life is divided among six kingdoms: Kingdom Bacteria, Kingdom Archaea, Kingdom Protista, Kingdom Plantae, Kingdom Fungi, and Kingdom Animalia.",2018-08-15 21:13:43
+1885458718179660,Pingyu,Wang,9175,1885458718179660,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-15 21:13:56
+1885458718179660,Pingyu,Wang,9176,854518728062939,1885458718179660,BOT: message,Here's a question for you:,2018-08-15 21:13:57
+1885458718179660,Pingyu,Wang,9177,854518728062939,1885458718179660,BOT: quick reply,"What is a therian mammal in which the embryo is born at an early, immature stage?",2018-08-15 21:13:59
+1885458718179660,Pingyu,Wang,9178,1885458718179660,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-15 21:14:13
+1885458718179660,Pingyu,Wang,9179,854518728062939,1885458718179660,BOT: message,Pick one of the following answers.,2018-08-15 21:14:15
+1885458718179660,Pingyu,Wang,9180,854518728062939,1885458718179660,BOT: quick reply,":keycap_1: carnivore
+:keycap_2: marsupial
+:keycap_3: rodent
+:keycap_4: bat
+",2018-08-15 21:14:16
+1885458718179660,Pingyu,Wang,9181,1885458718179660,854518728062939,user_quick_reply: BUTTON_AKB_marsupial,:keycap_2:,2018-08-15 21:14:28
+1885458718179660,Pingyu,Wang,9182,854518728062939,1885458718179660,BOT: message,Yes! You got the correct answer!,2018-08-15 21:14:30
+1885458718179660,Pingyu,Wang,9183,854518728062939,1885458718179660,BOT: quick reply,The correct answer is marsupial.,2018-08-15 21:14:31
+1885458718179660,Pingyu,Wang,9184,1885458718179660,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-15 21:14:36
+1885458718179660,Pingyu,Wang,9185,854518728062939,1885458718179660,BOT: message,"Alrighty, let's try this one.",2018-08-15 21:14:37
+1885458718179660,Pingyu,Wang,9186,854518728062939,1885458718179660,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-15 21:14:39
+1885458718179660,Pingyu,Wang,9187,854518728062939,1885458718179660,BOT: quick reply,"Having squandered his life's savings on unprofitable business ventures, the _____ entrepreneur was forced to live in squalor.",2018-08-15 21:14:40
+1885458718179660,Pingyu,Wang,9188,1885458718179660,854518728062939,user_typing,Poor,2018-08-15 21:15:00
+1885458718179660,Pingyu,Wang,9189,854518728062939,1885458718179660,BOT: message,That wasn't quite what we were looking for. :disappointed_face:,2018-08-15 21:15:01
+1885458718179660,Pingyu,Wang,9190,854518728062939,1885458718179660,BOT: quick reply,The correct answer is insolvent.,2018-08-15 21:15:03
+1885458718179660,Pingyu,Wang,9191,1885458718179660,854518728062939,user_quick_reply: WHY,Why?,2018-08-15 21:15:32
+1885458718179660,Pingyu,Wang,9192,854518728062939,1885458718179660,BOT: message,This is why:,2018-08-15 21:15:33
+1885458718179660,Pingyu,Wang,9193,854518728062939,1885458718179660,BOT: quick reply,:pushpin: Insolvent -- unable to meet or discharge financial obligations,2018-08-15 21:15:35
+1885458718179660,Pingyu,Wang,9266,1885458718179660,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-15 21:52:50
+1885458718179660,Pingyu,Wang,9267,854518728062939,1885458718179660,BOT: message,Let's see if you can answer this question.,2018-08-15 21:52:52
+1885458718179660,Pingyu,Wang,9268,854518728062939,1885458718179660,BOT: quick reply,What is the correct method for saving someone from choking?,2018-08-15 21:52:53
+1885458718179660,Pingyu,Wang,9269,1885458718179660,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-15 21:53:00
+1885458718179660,Pingyu,Wang,9270,854518728062939,1885458718179660,BOT: message,Okay. I'll give you some choices.,2018-08-15 21:53:01
+1885458718179660,Pingyu,Wang,9271,854518728062939,1885458718179660,BOT: quick reply,":keycap_1: back blows only
+:keycap_2: five abdominal thrusts followed by five back blows if needed
+:keycap_3: five back blows followed by five abdominal thrusts if necessary
+:keycap_4: abdominal thrusts only
+",2018-08-15 21:53:03
+1885458718179660,Pingyu,Wang,9272,1885458718179660,854518728062939,user_quick_reply: BUTTON_DKB_five abdominal thrusts followed by five back blows if needed,:keycap_2:,2018-08-15 21:53:12
+1885458718179660,Pingyu,Wang,9273,854518728062939,1885458718179660,BOT: message,"Hmm, that wasn't quite right. :disappointed_face:",2018-08-15 21:53:14
+1885458718179660,Pingyu,Wang,9274,854518728062939,1885458718179660,BOT: quick reply,The correct answer is five back blows followed by five abdominal thrusts if necessary.,2018-08-15 21:53:15
+1885458718179660,Pingyu,Wang,9275,1885458718179660,854518728062939,user_quick_reply: WHY,Why?,2018-08-15 21:53:24
+1885458718179660,Pingyu,Wang,9276,854518728062939,1885458718179660,BOT: message,This is why:,2018-08-15 21:53:25
+1885458718179660,Pingyu,Wang,9277,854518728062939,1885458718179660,BOT: quick reply,Red Cross recommends a five-and-five approach while delivering first aid to a choking victim: give 5 back blows (between the persons shoulder blades with the heel of your hand) and give 5 abdominal thrusts (also known as the Heimlich maneuver). Alternate between 5 blows and 5 thrusts until the blockage is dislodged.,2018-08-15 21:53:27
+1885458718179660,Pingyu,Wang,9425,1885458718179660,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-16 11:22:25
+1885458718179660,Pingyu,Wang,9426,854518728062939,1885458718179660,BOT: message,Let's try this question.,2018-08-16 11:22:27
+1885458718179660,Pingyu,Wang,9427,854518728062939,1885458718179660,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-16 11:22:28
+1885458718179660,Pingyu,Wang,9428,854518728062939,1885458718179660,BOT: quick reply,"True or false: even when there are no signs of a fire, you should respond to every fire alarm as if it were real.",2018-08-16 11:22:30
+1885458718179660,Pingyu,Wang,9429,1885458718179660,854518728062939,user_typing,true,2018-08-16 11:22:50
+1885458718179660,Pingyu,Wang,9430,854518728062939,1885458718179660,BOT: message,Correct! :confetti_ball:,2018-08-16 11:22:51
+1885458718179660,Pingyu,Wang,9431,854518728062939,1885458718179660,BOT: quick reply,The correct answer is true.,2018-08-16 11:22:53
+1885458718179660,Pingyu,Wang,9432,1885458718179660,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-16 11:23:23
+1885458718179660,Pingyu,Wang,9433,854518728062939,1885458718179660,BOT: message,Would you answer this question for me?,2018-08-16 11:23:25
+1885458718179660,Pingyu,Wang,9434,854518728062939,1885458718179660,BOT: quick reply,"When using a ladder to climb a roof, the ladder must extend at least___ above it.",2018-08-16 11:23:26
+1885458718179660,Pingyu,Wang,9435,1885458718179660,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-16 11:24:36
+1885458718179660,Pingyu,Wang,9436,854518728062939,1885458718179660,BOT: message,Pick one of the following answers.,2018-08-16 11:24:37
+1885458718179660,Pingyu,Wang,9437,854518728062939,1885458718179660,BOT: quick reply,":keycap_1: 24
+:keycap_2: 36
+:keycap_3: 30
+:keycap_4: 18
+",2018-08-16 11:24:38
+1885458718179660,Pingyu,Wang,9438,1885458718179660,854518728062939,user_quick_reply: I_DONT_KNOW,I dont know :downcast_face_with_sweat:,2018-08-16 11:24:43
+1885458718179660,Pingyu,Wang,9439,854518728062939,1885458718179660,BOT: quick reply,Do you really want to skip this question?,2018-08-16 11:24:44
+1885458718179660,Pingyu,Wang,9440,1885458718179660,854518728062939,user_quick_reply: GIVEUP_YES,"Yes, answer please.",2018-08-16 11:24:49
+1885458718179660,Pingyu,Wang,9441,854518728062939,1885458718179660,BOT: message,You didn't get this question this time.,2018-08-16 11:24:50
+1885458718179660,Pingyu,Wang,9442,854518728062939,1885458718179660,BOT: message,No worries! You'll get it next time! :grinning_face_with_smiling_eyes:,2018-08-16 11:24:51
+1885458718179660,Pingyu,Wang,9443,854518728062939,1885458718179660,BOT: quick reply,The correct answer is 36.,2018-08-16 11:24:53
+1885458718179660,Pingyu,Wang,9444,1885458718179660,854518728062939,user_quick_reply: WHY,Why?,2018-08-16 11:24:58
+1885458718179660,Pingyu,Wang,9445,854518728062939,1885458718179660,BOT: message,This is an explanation of the question:,2018-08-16 11:25:00
+1885458718179660,Pingyu,Wang,9446,854518728062939,1885458718179660,BOT: quick reply,The ladder must extend at least 3 ft (36 inches) above the landing surface to allow worker a hand hold for climbing up and down the ladder.,2018-08-16 11:25:01
+1885458718179660,Pingyu,Wang,9447,1885458718179660,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-16 11:25:18
+1885458718179660,Pingyu,Wang,9448,854518728062939,1885458718179660,BOT: message,Here's a question for you:,2018-08-16 11:25:19
+1885458718179660,Pingyu,Wang,9449,854518728062939,1885458718179660,BOT: quick reply,What should you NOT do while lifting objects?,2018-08-16 11:25:21
+1885458718179660,Pingyu,Wang,9450,1885458718179660,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-16 11:25:31
+1885458718179660,Pingyu,Wang,9451,854518728062939,1885458718179660,BOT: message,Pick one of the following answers.,2018-08-16 11:25:32
+1885458718179660,Pingyu,Wang,9452,854518728062939,1885458718179660,BOT: quick reply,":keycap_1: keeping the object close to your body
+:keycap_2: bending at the knees
+:keycap_3: keeping your feet together
+:keycap_4: keeping your back straight
+",2018-08-16 11:25:34
+1885458718179660,Pingyu,Wang,9453,1885458718179660,854518728062939,user_quick_reply: BUTTON_AKB_keeping your feet together,:keycap_3:,2018-08-16 11:25:51
+1885458718179660,Pingyu,Wang,9454,854518728062939,1885458718179660,BOT: image,https://www.smartprimer.org:443/pictures/avatar/congrats/penguinnormal_normal_cyan.png,2018-08-16 11:25:53
+1885458718179660,Pingyu,Wang,9455,854518728062939,1885458718179660,BOT: message,Great job!,2018-08-16 11:25:55
+1885458718179660,Pingyu,Wang,9456,854518728062939,1885458718179660,BOT: quick reply,The correct answer is keeping your feet together.,2018-08-16 11:25:56
+1885458718179660,Pingyu,Wang,9457,1885458718179660,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-16 11:26:57
+1885458718179660,Pingyu,Wang,9458,854518728062939,1885458718179660,BOT: message,Would you answer this question for me?,2018-08-16 11:26:58
+1885458718179660,Pingyu,Wang,9459,854518728062939,1885458718179660,BOT: quick reply,"The products of what process are needed for cellular respiration, and vice versa?",2018-08-16 11:27:00
+1885458718179660,Pingyu,Wang,9460,1885458718179660,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-16 11:27:16
+1885458718179660,Pingyu,Wang,9461,854518728062939,1885458718179660,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-08-16 11:27:17
+1885458718179660,Pingyu,Wang,9462,854518728062939,1885458718179660,BOT: quick reply,":keycap_1: digestion
+:keycap_2: photosynthesis
+:keycap_3: circulation
+:keycap_4: spermatogenesis
+",2018-08-16 11:27:18
+1885458718179660,Pingyu,Wang,9463,1885458718179660,854518728062939,user_quick_reply: BUTTON_AKB_photosynthesis,:keycap_2:,2018-08-16 11:27:36
+1885458718179660,Pingyu,Wang,9464,854518728062939,1885458718179660,BOT: message,Nice work! Keep it up!,2018-08-16 11:27:37
+1885458718179660,Pingyu,Wang,9465,854518728062939,1885458718179660,BOT: quick reply,The correct answer is photosynthesis.,2018-08-16 11:27:38
+1885458718179660,Pingyu,Wang,9466,1885458718179660,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-16 11:27:43
+1885458718179660,Pingyu,Wang,9467,854518728062939,1885458718179660,BOT: message,I think you'll like this question.,2018-08-16 11:27:44
+1885458718179660,Pingyu,Wang,9468,854518728062939,1885458718179660,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-16 11:27:46
+1885458718179660,Pingyu,Wang,9469,854518728062939,1885458718179660,BOT: quick reply,"True or false: even when there are no signs of a fire, you should respond to every fire alarm as if it were real.",2018-08-16 11:27:47
+1885458718179660,Pingyu,Wang,9470,1885458718179660,854518728062939,user_typing,true,2018-08-16 11:27:59
+1885458718179660,Pingyu,Wang,9471,854518728062939,1885458718179660,BOT: image,https://www.smartprimer.org:443/pictures/avatar/congrats/penguinnormal_jubilated_purple.png,2018-08-16 11:28:02
+1885458718179660,Pingyu,Wang,9472,854518728062939,1885458718179660,BOT: message,Fantastic! :hundred_points:,2018-08-16 11:28:03
+1885458718179660,Pingyu,Wang,9473,854518728062939,1885458718179660,BOT: quick reply,The correct answer is true.,2018-08-16 11:28:05
+1885458718179660,Pingyu,Wang,9474,1885458718179660,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-16 11:28:09
+1885458718179660,Pingyu,Wang,9475,854518728062939,1885458718179660,BOT: message,Would you answer this question for me?,2018-08-16 11:28:10
+1885458718179660,Pingyu,Wang,9476,854518728062939,1885458718179660,BOT: quick reply,Most insects reproduce quickly and through what type of reproduction?,2018-08-16 11:28:12
+1885458718179660,Pingyu,Wang,9477,1885458718179660,854518728062939,user_typing,asexual,2018-08-16 11:32:24
+1885458718179660,Pingyu,Wang,9478,854518728062939,1885458718179660,BOT: image,https://www.smartprimer.org:443/pictures/avatar/congrats/penguinnormal_happy_orange.png,2018-08-16 11:32:27
+1885458718179660,Pingyu,Wang,9479,854518728062939,1885458718179660,BOT: message,Thats right! :party_popper:,2018-08-16 11:32:29
+1885458718179660,Pingyu,Wang,9480,854518728062939,1885458718179660,BOT: quick reply,The correct answer is sexual reproduction.,2018-08-16 11:32:30
+1885458718179660,Pingyu,Wang,9481,1885458718179660,854518728062939,user_quick_reply: WHY,Why?,2018-08-16 11:32:46
+1885458718179660,Pingyu,Wang,9482,854518728062939,1885458718179660,BOT: message,Here's why:,2018-08-16 11:32:48
+1885458718179660,Pingyu,Wang,9483,854518728062939,1885458718179660,BOT: quick reply,"Most insects can reproduce very quickly within a short period of time. With a short generation time, they evolve faster and can quickly adjust to environmental changes. Most insects reproduce by sexual reproduction. The female produces eggs, which are fertilized by the male, and then the eggs are usually placed near the required food. In some insects, there is asexual reproduction during which the offspring come from a single parent. In this type of reproduction, the offspring are almost identical to the mother. This is most often seen in aphids and scale insects.",2018-08-16 11:32:49
+1885458718179660,Pingyu,Wang,9484,1885458718179660,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-16 11:33:12
+1885458718179660,Pingyu,Wang,9485,854518728062939,1885458718179660,BOT: message,Could you answer this one for me?,2018-08-16 11:33:13
+1885458718179660,Pingyu,Wang,9486,854518728062939,1885458718179660,BOT: quick reply,"Arrange in the correct the steps to take when someone splashes a chemical into the eye: (i) call a doctor, (ii) take out any contact lenses, (iii) flush the eyes with plenty of water, (iv) wash your hands with soap and water.",2018-08-16 11:33:15
+1885458718179660,Pingyu,Wang,9487,1885458718179660,854518728062939,user_typing,(ii) (iii) (iv) (i),2018-08-16 11:33:42
+1885458718179660,Pingyu,Wang,9488,854518728062939,1885458718179660,BOT: message,Nice! :red_apple:,2018-08-16 11:33:43
+1885458718179660,Pingyu,Wang,9489,854518728062939,1885458718179660,BOT: quick reply,"The correct answer is iii, iv, ii, i.",2018-08-16 11:33:45
+1885458718179660,Pingyu,Wang,9490,1885458718179660,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-16 11:33:58
+1885458718179660,Pingyu,Wang,9491,854518728062939,1885458718179660,BOT: message,Let's see if you can answer this question.,2018-08-16 11:34:00
+1885458718179660,Pingyu,Wang,9492,854518728062939,1885458718179660,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-16 11:34:01
+1885458718179660,Pingyu,Wang,9493,854518728062939,1885458718179660,BOT: quick reply,"Certainly a roundabout narrative, the book - much like the others in the author's pseudo-autobiographical series - proved to be unpopular among those who preferred _____ to loquaciousness.",2018-08-16 11:34:03
+1885458718179660,Pingyu,Wang,9494,1885458718179660,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-16 11:34:18
+1885458718179660,Pingyu,Wang,9495,854518728062939,1885458718179660,BOT: message,It's one of the following choices.,2018-08-16 11:34:20
+1885458718179660,Pingyu,Wang,9496,854518728062939,1885458718179660,BOT: quick reply,":keycap_1: garrulousness
+:keycap_2: perspicacity
+:keycap_3: gregariousness
+:keycap_4: enlargement
+:keycap_5: succinctness
+",2018-08-16 11:34:21
+1885458718179660,Pingyu,Wang,9497,1885458718179660,854518728062939,user_quick_reply: BUTTON_AKB_succinctness,:keycap_5:,2018-08-16 11:34:26
+1885458718179660,Pingyu,Wang,9498,854518728062939,1885458718179660,BOT: image,https://www.smartprimer.org:443/pictures/avatar/congrats/penguinnormal_jubilated_orange.png,2018-08-16 11:34:29
+1885458718179660,Pingyu,Wang,9499,854518728062939,1885458718179660,BOT: message,Great! Keep it up! :flexed_biceps_medium-light_skin_tone:,2018-08-16 11:34:30
+1885458718179660,Pingyu,Wang,9500,854518728062939,1885458718179660,BOT: quick reply,The correct answer is succinctness.,2018-08-16 11:34:33
+1885458718179660,Pingyu,Wang,9648,854518728062939,1885458718179660,BOT: quick reply,"Hi Pingyu, you haven't talked to me for a while. Would you like to resume the learning with me?",2018-08-16 20:02:35
+1885458718179660,Pingyu,Wang,10112,1885458718179660,854518728062939,user_quick_reply: NEXT_QUESTION,OK :oncoming_fist_medium-light_skin_tone:,2018-08-17 14:39:39
+1885458718179660,Pingyu,Wang,10113,854518728062939,1885458718179660,BOT: message,Could you answer this one for me?,2018-08-17 14:39:40
+1885458718179660,Pingyu,Wang,10114,854518728062939,1885458718179660,BOT: quick reply,How often should women perform a breast self-exam?,2018-08-17 14:39:42
+1885458718179660,Pingyu,Wang,10115,1885458718179660,854518728062939,user_typing,1 year,2018-08-17 14:39:48
+1885458718179660,Pingyu,Wang,10116,854518728062939,1885458718179660,BOT: message,That wasn't quite what we were looking for. :disappointed_face:,2018-08-17 14:39:49
+1885458718179660,Pingyu,Wang,10117,854518728062939,1885458718179660,BOT: quick reply,The correct answer is monthly.,2018-08-17 14:39:51
+1885458718179660,Pingyu,Wang,10118,1885458718179660,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-17 14:39:57
+1885458718179660,Pingyu,Wang,10119,854518728062939,1885458718179660,BOT: message,How about this next one:,2018-08-17 14:39:58
+1885458718179660,Pingyu,Wang,10120,854518728062939,1885458718179660,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-17 14:40:00
+1885458718179660,Pingyu,Wang,10121,854518728062939,1885458718179660,BOT: quick reply,Dynamite is an example of what type of potential energy?,2018-08-17 14:40:01
+1885458718179660,Pingyu,Wang,10122,1885458718179660,854518728062939,user_typing,chemical,2018-08-17 14:40:13
+1885458718179660,Pingyu,Wang,10123,854518728062939,1885458718179660,BOT: message,Nice! :red_apple:,2018-08-17 14:40:15
+1885458718179660,Pingyu,Wang,10124,854518728062939,1885458718179660,BOT: quick reply,The correct answer is chemical.,2018-08-17 14:40:16
+1885458718179660,Pingyu,Wang,10125,1885458718179660,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-17 14:40:21
+1885458718179660,Pingyu,Wang,10126,854518728062939,1885458718179660,BOT: message,Let's take a look at this question.,2018-08-17 14:40:23
+1885458718179660,Pingyu,Wang,10127,854518728062939,1885458718179660,BOT: quick reply,All organisms can be classified into one of three of this least specific grouping?,2018-08-17 14:40:24
+1885458718179660,Pingyu,Wang,10128,1885458718179660,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-17 14:40:44
+1885458718179660,Pingyu,Wang,10129,854518728062939,1885458718179660,BOT: message,Which of the following options is the right answer?,2018-08-17 14:40:46
+1885458718179660,Pingyu,Wang,10130,854518728062939,1885458718179660,BOT: quick reply,":keycap_1: species
+:keycap_2: phlylum
+:keycap_3: aspects
+:keycap_4: domains
+",2018-08-17 14:40:47
+1885458718179660,Pingyu,Wang,10131,1885458718179660,854518728062939,user_typing,4,2018-08-17 14:41:30
+1885458718179660,Pingyu,Wang,10132,854518728062939,1885458718179660,BOT: message,"I'm sorry, but that was incorrect. :disappointed_face:",2018-08-17 14:41:32
+1885458718179660,Pingyu,Wang,10133,854518728062939,1885458718179660,BOT: quick reply,The correct answer is domains.,2018-08-17 14:41:34
+1885458718179660,Pingyu,Wang,10134,1885458718179660,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-17 14:41:49
+1885458718179660,Pingyu,Wang,10135,854518728062939,1885458718179660,BOT: message,Let's try this one.,2018-08-17 14:41:50
+1885458718179660,Pingyu,Wang,10136,854518728062939,1885458718179660,BOT: quick reply,"With a similar contrast between a partly cloudy sky and a dark street, the cover of the recent rock CD _____ a famous surrealist painting from the early 1900s.",2018-08-17 14:41:52
+1885458718179660,Pingyu,Wang,10137,1885458718179660,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-17 14:42:16
+1885458718179660,Pingyu,Wang,10138,854518728062939,1885458718179660,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-08-17 14:42:17
+1885458718179660,Pingyu,Wang,10139,854518728062939,1885458718179660,BOT: quick reply,":keycap_1: sanctions
+:keycap_2: obfuscates
+:keycap_3: admires
+:keycap_4: disenchants
+:keycap_5: evokes
+",2018-08-17 14:42:19
+1885458718179660,Pingyu,Wang,10140,1885458718179660,854518728062939,user_quick_reply: BUTTON_DKB_admires,:keycap_3:,2018-08-17 14:42:24
+1885458718179660,Pingyu,Wang,10141,854518728062939,1885458718179660,BOT: message,"Oops, that wasn't quite correct. :disappointed_face:",2018-08-17 14:42:25
+1885458718179660,Pingyu,Wang,10142,854518728062939,1885458718179660,BOT: quick reply,The correct answer is evokes.,2018-08-17 14:42:26
+1885458718179660,Pingyu,Wang,10143,1885458718179660,854518728062939,user_quick_reply: WHY,Why?,2018-08-17 14:42:32
+1885458718179660,Pingyu,Wang,10144,854518728062939,1885458718179660,BOT: message,I hope this explanation could help you understand the the question.,2018-08-17 14:42:33
+1885458718179660,Pingyu,Wang,10145,854518728062939,1885458718179660,BOT: quick reply,":pushpin: Evokes -- call forth emotions, feelings, and responses
+:pushpin: Admires -- feel admiration for
+:pushpin: Obfuscates -- make obscure or unclear
+:pushpin: Disenchants -- free from enchantment
+:pushpin: Sanctions -- give sanction to",2018-08-17 14:42:35
+1885458718179660,Pingyu,Wang,10146,1885458718179660,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-17 14:47:03
+1885458718179660,Pingyu,Wang,10147,854518728062939,1885458718179660,BOT: message,Let's see if you would answer this one.,2018-08-17 14:47:04
+1885458718179660,Pingyu,Wang,10148,854518728062939,1885458718179660,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-17 14:47:06
+1885458718179660,Pingyu,Wang,10149,854518728062939,1885458718179660,BOT: quick reply,"True or false: if you wear a back belt, you can lift more weight than you could without a belt.",2018-08-17 14:47:08
+1885458718179660,Pingyu,Wang,10150,1885458718179660,854518728062939,user_typing,true,2018-08-17 14:47:17
+1885458718179660,Pingyu,Wang,10151,854518728062939,1885458718179660,BOT: message,"I'm sorry, but that was incorrect. :disappointed_face:",2018-08-17 14:47:18
+1885458718179660,Pingyu,Wang,10152,854518728062939,1885458718179660,BOT: quick reply,The correct answer is false.,2018-08-17 14:47:20
+1885458718179660,Pingyu,Wang,10153,1885458718179660,854518728062939,user_quick_reply: WHY,Why?,2018-08-17 14:47:24
+1885458718179660,Pingyu,Wang,10154,854518728062939,1885458718179660,BOT: message,Here's an explanation:,2018-08-17 14:47:26
+1885458718179660,Pingyu,Wang,10155,854518728062939,1885458718179660,BOT: quick reply,Workers often lift more weight under the illusion that use of back belts increases the lifting capability of a worker. There has not been sufficient evidence to support this fact and hence it cannot be held true.,2018-08-17 14:47:27
+1885458718179660,Pingyu,Wang,10156,1885458718179660,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-17 14:47:39
+1885458718179660,Pingyu,Wang,10157,854518728062939,1885458718179660,BOT: message,Let's see if you would answer this one.,2018-08-17 14:47:41
+1885458718179660,Pingyu,Wang,10158,854518728062939,1885458718179660,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-17 14:47:42
+1885458718179660,Pingyu,Wang,10159,854518728062939,1885458718179660,BOT: quick reply,"Repulsed by _____ employees, the executive informed his staff that he preferred constructive criticism to calculated flattery.",2018-08-17 14:47:44
+1885458718179660,Pingyu,Wang,10160,1885458718179660,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-17 14:47:53
+1885458718179660,Pingyu,Wang,10161,854518728062939,1885458718179660,BOT: message,Okay. I'll give you some choices.,2018-08-17 14:47:54
+1885458718179660,Pingyu,Wang,10162,854518728062939,1885458718179660,BOT: quick reply,":keycap_1: obsequious
+:keycap_2: profligate
+:keycap_3: sententious
+:keycap_4: rapacious
+:keycap_5: natty
+",2018-08-17 14:47:56
+1885458718179660,Pingyu,Wang,10163,1885458718179660,854518728062939,user_quick_reply: I_DONT_KNOW,I dont know :downcast_face_with_sweat:,2018-08-17 14:48:11
+1885458718179660,Pingyu,Wang,10164,854518728062939,1885458718179660,BOT: quick reply,Do you really want to skip this question?,2018-08-17 14:48:12
+1885458718179660,Pingyu,Wang,10165,1885458718179660,854518728062939,user_quick_reply: GIVEUP_YES,"Yes, answer please.",2018-08-17 14:48:18
+1885458718179660,Pingyu,Wang,10166,854518728062939,1885458718179660,BOT: message,You didn't get this question this time.,2018-08-17 14:48:19
+1885458718179660,Pingyu,Wang,10167,854518728062939,1885458718179660,BOT: message,No worries! You'll get it next time! :grinning_face_with_smiling_eyes:,2018-08-17 14:48:21
+1885458718179660,Pingyu,Wang,10168,854518728062939,1885458718179660,BOT: quick reply,The correct answer is obsequious.,2018-08-17 14:48:23
+1885458718179660,Pingyu,Wang,10169,1885458718179660,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-17 14:48:27
+1885458718179660,Pingyu,Wang,10170,854518728062939,1885458718179660,BOT: message,I think you'll like this question.,2018-08-17 14:48:30
+1885458718179660,Pingyu,Wang,10171,854518728062939,1885458718179660,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-17 14:48:32
+1885458718179660,Pingyu,Wang,10172,854518728062939,1885458718179660,BOT: quick reply,What is the minimum distance that should separate a parked forklift from a railroad junction?,2018-08-17 14:48:33
+1885458718179660,Pingyu,Wang,10173,1885458718179660,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-17 14:48:46
+1885458718179660,Pingyu,Wang,10174,854518728062939,1885458718179660,BOT: message,Which of the following options is the right answer?,2018-08-17 14:48:48
+1885458718179660,Pingyu,Wang,10175,854518728062939,1885458718179660,BOT: quick reply,":keycap_1: 25 feet
+:keycap_2: 5 feet
+:keycap_3: 15 feet
+:keycap_4: 8 feet
+",2018-08-17 14:48:50
+1885458718179660,Pingyu,Wang,10176,1885458718179660,854518728062939,user_typing,1,2018-08-17 14:48:58
+1885458718179660,Pingyu,Wang,10177,854518728062939,1885458718179660,BOT: message,That wasn't quite what we were looking for. :disappointed_face:,2018-08-17 14:49:00
+1885458718179660,Pingyu,Wang,10178,854518728062939,1885458718179660,BOT: quick reply,The correct answer is 8 feet.,2018-08-17 14:49:02
+1885458718179660,Pingyu,Wang,10179,1885458718179660,854518728062939,user_quick_reply: WHY,Why?,2018-08-17 14:50:49
+1885458718179660,Pingyu,Wang,10180,854518728062939,1885458718179660,BOT: message,This is why:,2018-08-17 14:50:51
+1885458718179660,Pingyu,Wang,10181,854518728062939,1885458718179660,BOT: quick reply,"According to OSHA, Std No. 1910.178(n)(5), 'Railroad tracks shall be crossed diagonally wherever possible. Parking closer than 8 feet from the center of railroad tracks is prohibited.'",2018-08-17 14:50:52
+1885458718179660,Pingyu,Wang,10218,854518728062939,1885458718179660,BOT: quick reply,"Hi Pingyu, you haven't talked to me for a while. Would you like to resume the learning with me?",2018-08-17 20:00:16
+1885458718179660,Pingyu,Wang,10831,854518728062939,1885458718179660,BOT: quick reply,"Hi Pingyu, you haven't talked to me for a while. Would you like to resume the learning with me?",2018-08-18 20:00:45
+1885458718179660,Pingyu,Wang,11374,854518728062939,1885458718179660,BOT: quick reply,"Hi Pingyu, you haven't talked to me for a while. Would you like to resume the learning with me?",2018-08-19 20:00:17
+1885458718179660,Pingyu,Wang,11830,1885458718179660,854518728062939,user_quick_reply: NEXT_QUESTION,Tap me :round_pushpin:,2018-08-20 14:28:36
+1885458718179660,Pingyu,Wang,11831,854518728062939,1885458718179660,BOT: message,What about this next question:,2018-08-20 14:28:37
+1885458718179660,Pingyu,Wang,11832,854518728062939,1885458718179660,BOT: quick reply,"Modern tennis fans have come to realize that, although, quantum technological leaps in racquet technology have lead to _____ increases in the speed and power with which players can hit the ball, this has not necessarily lead to a more entertaining game.",2018-08-20 14:28:39
+1885458718179660,Pingyu,Wang,11833,1885458718179660,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-20 14:28:50
+1885458718179660,Pingyu,Wang,11834,854518728062939,1885458718179660,BOT: message,Which of the following options is the right answer?,2018-08-20 14:28:51
+1885458718179660,Pingyu,Wang,11835,854518728062939,1885458718179660,BOT: quick reply,":keycap_1: malleable
+:keycap_2: innocuous
+:keycap_3: halcyon
+:keycap_4: commensurate
+:keycap_5: tractable
+",2018-08-20 14:28:53
+1885458718179660,Pingyu,Wang,11836,1885458718179660,854518728062939,user_quick_reply: BUTTON_DKB_malleable,:keycap_1:,2018-08-20 14:29:20
+1885458718179660,Pingyu,Wang,11837,854518728062939,1885458718179660,BOT: message,"I'm sorry, but that was incorrect. :disappointed_face:",2018-08-20 14:29:21
+1885458718179660,Pingyu,Wang,11838,854518728062939,1885458718179660,BOT: quick reply,The correct answer is commensurate.,2018-08-20 14:29:23
+1885458718179660,Pingyu,Wang,11839,1885458718179660,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-20 14:29:27
+1885458718179660,Pingyu,Wang,11840,854518728062939,1885458718179660,BOT: message,Would you answer this question for me?,2018-08-20 14:29:29
+1885458718179660,Pingyu,Wang,11841,854518728062939,1885458718179660,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-20 14:29:30
+1885458718179660,Pingyu,Wang,11842,854518728062939,1885458718179660,BOT: quick reply,Which fire extinguishers are used to put out Class A fires?,2018-08-20 14:29:32
+1885458718179660,Pingyu,Wang,11865,854518728062939,1885458718179660,BOT: quick reply,"Hi Pingyu, you haven't talked to me for a while. Would you like to resume the learning with me?",2018-08-20 20:00:47
+1885458718179660,Pingyu,Wang,12114,854518728062939,1885458718179660,BOT: message,Could you answer this one for me?,2018-08-20 20:30:19
+1885458718179660,Pingyu,Wang,12115,854518728062939,1885458718179660,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-20 20:30:20
+1885458718179660,Pingyu,Wang,12116,854518728062939,1885458718179660,BOT: quick reply,"In 1770s colonial New England, Puritans _____ the celebration of Christmas, which they considered to be an odious reminder of the Pope's tyranny.",2018-08-20 20:30:22
+1885458718179660,Pingyu,Wang,12427,854518728062939,1885458718179660,BOT: quick reply,"Hi Pingyu, you haven't talked to me for a while. Would you like to resume the learning with me?",2018-08-21 20:01:21
+1885458718179660,Pingyu,Wang,12717,854518728062939,1885458718179660,BOT: quick reply,"Hi Pingyu, you haven't talked to me for a while. Would you like to resume the learning with me?",2018-08-22 20:01:54
+1885458718179660,Pingyu,Wang,13013,854518728062939,1885458718179660,BOT: quick reply,"Hi Pingyu, you haven't talked to me for a while. Would you like to resume the learning with me?",2018-08-23 20:02:27

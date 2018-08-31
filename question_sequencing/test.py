@@ -12,9 +12,8 @@ from SM2_model import SM2SequencingModel
 from dash_model import DASHSequencingModel
 from QAKnowledgebase import QAKnowlegeBase
 
-
 '''Module-level constants'''
-ITERATIONS = 100
+ITERATIONS = 700
 
 
 if __name__ == '__main__':
@@ -30,6 +29,14 @@ if __name__ == '__main__':
     #     print(data['qid'])
         
     # # Construct the question sequencing model from here
+    seen = set()
+    # Run the random simulations
+    for i in range(ITERATIONS):
+        data = model.pickNextQuestion(user_id = 5, subject = 'safety')
+        seen.add(data['qid'])
+        print(data['qid'])
+    print('length of the set is', len(seen)) 
+    # Construct the question sequencing model from here
     # model = LeitnerSequencingModel(qa_kb)
 
     # # Run the leitner simulations
@@ -54,10 +61,10 @@ if __name__ == '__main__':
         
     #     print("item {} outcome {}".format(data['qid'], outcome))
 
-    user_id = 5
+    # user_id = 5
 
     # run the dash sequencing simulations
-    model = DASHSequencingModel(qa_kb, verbose = False)
+    model = DASHSequencingModel(qa_kb, score_csv='updated_scores.csv', verbose = False)
     for i in range(ITERATIONS):
         data = model.pickNextQuestion(user_id, 'science')
         outcome = 1 if random.random() < 0.5 else 0
@@ -70,3 +77,18 @@ if __name__ == '__main__':
         model.updateHistory(5, user_data)
         time.sleep(0.5)
         print("item {}, question {}, outcome {}".format(data['qid'], data['question'], outcome))
+        
+    # # run the dash sequencing simulations
+    # model = DASHSequencingModel(qa_kb, verbose = False)
+    # for i in range(ITERATIONS):
+    #     data = model.pickNextQuestion(user_id, 'science')
+    #     outcome = 1 if random.random() < 0.5 else 0
+
+    #     current_time = model.update_time[user_id]
+    #     time_object = time.localtime(int(current_time))
+    #     timestamp = time.strftime("%Y-%m-%d %H:%M:%S", time_object)
+
+    #     user_data = (data['qid'], outcome, timestamp)
+    #     model.updateHistory(5, user_data)
+    #     # time.sleep(0.5)
+    #     print("item {}, question {}, outcome {}".format(data['qid'], data['question'], outcome))

@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 '''
     messaging_API.py
     Author: Liwei Jiang

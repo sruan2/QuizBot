@@ -186,8 +186,6 @@ def send_question(mysql, recipient_id, template_conversation, qa_model, cache):
     message_data_2 = template_conversation["STATE"]["QUESTION"]["message_2"]
     messaging_API.send_message(
         mysql, recipient_id, template_conversation, message_data_1)
-    
-    # and cache[recipient_id]['current_qid'] < 150 and cache[recipient_id]['current_qid'] >= 100
 
     if random.random() < 0.5:
         messaging_API.send_message(mysql, recipient_id, template_conversation, message_data_2)
@@ -196,7 +194,7 @@ def send_question(mysql, recipient_id, template_conversation, qa_model, cache):
         mysql, recipient_id, template_conversation, "QUESTION", question)
 
     # insert the question to the [user_history] table
-    db.insert_user_history(mysql, recipient_id, qid, subject, begin_uid=uid)
+    db.insert_user_history(mysql, recipient_id, qid[1], subject, begin_uid=uid)
     update_cache(cache, recipient_id, current_qid=qid, begin_uid=uid)
 
 
@@ -233,7 +231,7 @@ def send_correct_answer(mysql, recipient_id, payload, template_conversation, qa_
             None
     '''
     qid = cache[recipient_id]['current_qid']
-    correct_answer = qa_model.getAnswer(qid)
+    correct_answer = qa_model.getAnswer(qid[0])
     send_format_quick_reply_text(
         mysql, recipient_id, template_conversation, "CORRECT_ANSWER", correct_answer)
 
@@ -252,13 +250,13 @@ def send_explanation(mysql, recipient_id, template_conversation, qa_model, cache
             None
     '''
     qid = cache[recipient_id]['current_qid']
-    explanation_sentence = qa_model.getSupport(qid)
+    explanation_sentence = qa_model.getSupport(qid[0])
 
     message_data = template_conversation["STATE"]["EXPLANATION"]["message"]
     messaging_API.send_message(
         mysql, recipient_id, template_conversation, message_data)
 
-    if cache[recipient_id]['if_explanation_text'] and cache[recipient_id]['current_qid'] >= 100 and cache[recipient_id]['current_qid'] < 150:
+    if cache[recipient_id]['if_explanation_text'] and qid[1] >= 100 and qid[1] < 150:
         explanation_sentence = explanation_sentence.split("\n")
         explanation_sentence = explanation_sentence[0]
 
@@ -290,13 +288,13 @@ def send_hint(mysql, recipient_id, chatbot_text, template_conversation, qa_model
 
     chatbot_text_local = copy.deepcopy(chatbot_text)
 
-    for x in qa_model.DKB[qid]:
+    for x in qa_model.DKB[qid[0]]:
         options.append({
             "content_type": "text",
             "title": str(x),
             "payload": "BUTTON_DKB_" + str(x)
         })
-    for x in qa_model.AKB[qid]:
+    for x in qa_model.AKB[qid[0]]:
         options.append({
             "content_type": "text",
             "title": str(x),

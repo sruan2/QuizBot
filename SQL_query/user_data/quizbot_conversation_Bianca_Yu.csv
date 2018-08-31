@@ -1,0 +1,772 @@
+user_id,user_firstname,user_lastname,uid,sender,recipient,type,dialogue,time_stamp
+1931189830271244,Bianca,Yu,9922,1931189830271244,854518728062939,persistent_menu: GET_INTRO_1,Démarrer,2018-08-17 09:37:06
+1931189830271244,Bianca,Yu,9923,854518728062939,1931189830271244,BOT: image,https://www.smartprimer.org:443/pictures/avatar/quizbot_avatar.png,2018-08-17 09:37:10
+1931189830271244,Bianca,Yu,9924,854518728062939,1931189830271244,BOT: quick reply,"Hi Bianca! My name is Frosty :penguin: and Im here to help you learn all about science:microscope:, verbal reasoning (GRE) :input_latin_uppercase:, and safety:hammer_and_wrench:!",2018-08-17 09:37:12
+1931189830271244,Bianca,Yu,9925,1931189830271244,854518728062939,persistent_menu: SCIENCE,Science:microscope:,2018-08-17 09:44:49
+1931189830271244,Bianca,Yu,9926,854518728062939,1931189830271244,BOT: quick reply,Let's test your knowledge on science!,2018-08-17 09:44:51
+1931189830271244,Bianca,Yu,9927,1931189830271244,854518728062939,persistent_menu: GRE,GRE :input_latin_uppercase:,2018-08-17 09:44:59
+1931189830271244,Bianca,Yu,9928,854518728062939,1931189830271244,BOT: image,https://www.smartprimer.org:443/pictures/avatar/evolvescientist_reading.gif,2018-08-17 09:45:03
+1931189830271244,Bianca,Yu,9929,854518728062939,1931189830271244,BOT: quick reply,Awesome! Let's learn about the GRE!,2018-08-17 09:45:05
+1931189830271244,Bianca,Yu,9930,1931189830271244,854518728062939,persistent_menu: REPORT_BUG,Report Bug :wrench:,2018-08-17 09:45:16
+1931189830271244,Bianca,Yu,9931,854518728062939,1931189830271244,BOT: message,You can type in the bug in a few words :grinning_face_with_smiling_eyes:,2018-08-17 09:45:17
+1931189830271244,Bianca,Yu,9932,854518728062939,1931189830271244,BOT: quick reply,We can resume learning if you have no bug to report.,2018-08-17 09:45:19
+1931189830271244,Bianca,Yu,9933,1931189830271244,854518728062939,user_typing,F,2018-08-17 09:45:32
+1931189830271244,Bianca,Yu,9934,854518728062939,1931189830271244,BOT: quick reply,"Alrighty, thank you for your feedback. I'll take a note of that!",2018-08-17 09:45:33
+1931189830271244,Bianca,Yu,9935,1931189830271244,854518728062939,user_typing,H,2018-08-17 09:45:35
+1931189830271244,Bianca,Yu,9936,854518728062939,1931189830271244,BOT: quick reply,"Alrighty, thank you for your feedback. I'll take a note of that!",2018-08-17 09:45:37
+1931189830271244,Bianca,Yu,9937,1931189830271244,854518728062939,user_quick_reply: GET_INTRO_2,Tap me :flexed_biceps_medium-light_skin_tone:,2018-08-17 09:45:40
+1931189830271244,Bianca,Yu,9938,854518728062939,1931189830271244,BOT: message,Heres how it works.,2018-08-17 09:45:42
+1931189830271244,Bianca,Yu,9939,854518728062939,1931189830271244,BOT: message,"I ask you questions, and you give me answers.",2018-08-17 09:45:43
+1931189830271244,Bianca,Yu,9940,854518728062939,1931189830271244,BOT: quick reply,We will learn fun things together!,2018-08-17 09:45:45
+1931189830271244,Bianca,Yu,9941,1931189830271244,854518728062939,persistent_menu: REPORT_BUG,Report Bug :wrench:,2018-08-17 09:45:58
+1931189830271244,Bianca,Yu,9942,1931189830271244,854518728062939,user_quick_reply: NEXT_QUESTION,"Yes, continue :oncoming_fist_medium-light_skin_tone:",2018-08-17 09:45:59
+1931189830271244,Bianca,Yu,9943,854518728062939,1931189830271244,BOT: message,"Okay, can you type in the bug in a few words :grinning_face_with_smiling_eyes:",2018-08-17 09:46:00
+1931189830271244,Bianca,Yu,9944,854518728062939,1931189830271244,BOT: message,I think you'll like this question.,2018-08-17 09:46:01
+1931189830271244,Bianca,Yu,9945,854518728062939,1931189830271244,BOT: quick reply,We can resume learning if you have no bug to report.,2018-08-17 09:46:01
+1931189830271244,Bianca,Yu,9946,854518728062939,1931189830271244,BOT: quick reply,"Video game enthusiasts know that, while the astounding advances in technological innovation might increase the level of fun of the gaming experience, such a result is by no means _____ .",2018-08-17 09:46:02
+1931189830271244,Bianca,Yu,9947,1931189830271244,854518728062939,user_quick_reply: NEXT_QUESTION,Sure :clapping_hands_medium-light_skin_tone:,2018-08-17 09:46:04
+1931189830271244,Bianca,Yu,9948,854518728062939,1931189830271244,BOT: message,"Alrighty, let's try this one.",2018-08-17 09:46:05
+1931189830271244,Bianca,Yu,9949,854518728062939,1931189830271244,BOT: quick reply,What is a fiber that is found only in mammals?,2018-08-17 09:46:07
+1931189830271244,Bianca,Yu,9950,1931189830271244,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-17 09:46:09
+1931189830271244,Bianca,Yu,9951,854518728062939,1931189830271244,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-08-17 09:46:10
+1931189830271244,Bianca,Yu,9952,854518728062939,1931189830271244,BOT: quick reply,":keycap_1: hair
+:keycap_2: muscle
+:keycap_3: nails
+:keycap_4: feathers
+",2018-08-17 09:46:12
+1931189830271244,Bianca,Yu,9953,1931189830271244,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-17 09:46:13
+1931189830271244,Bianca,Yu,9954,854518728062939,1931189830271244,BOT: message,Pick one of the following answers.,2018-08-17 09:46:14
+1931189830271244,Bianca,Yu,9955,854518728062939,1931189830271244,BOT: quick reply,":keycap_1: nails
+:keycap_2: hair
+:keycap_3: feathers
+:keycap_4: muscle
+",2018-08-17 09:46:16
+1931189830271244,Bianca,Yu,9956,1931189830271244,854518728062939,user_quick_reply: I_DONT_KNOW,I dont know :downcast_face_with_sweat:,2018-08-17 09:46:19
+1931189830271244,Bianca,Yu,9957,854518728062939,1931189830271244,BOT: quick reply,Do you really want to give up?,2018-08-17 09:46:21
+1931189830271244,Bianca,Yu,9958,1931189830271244,854518728062939,persistent_menu: GET_INTRO_1,Démarrer,2018-08-17 09:46:45
+1931189830271244,Bianca,Yu,9959,854518728062939,1931189830271244,BOT: image,https://www.smartprimer.org:443/pictures/avatar/quizbot_avatar.png,2018-08-17 09:46:49
+1931189830271244,Bianca,Yu,9960,854518728062939,1931189830271244,BOT: quick reply,"Hi Bianca! My name is Frosty :penguin: and Im here to help you learn all about science:microscope:, verbal reasoning (GRE) :input_latin_uppercase:, and safety:hammer_and_wrench:!",2018-08-17 09:46:51
+1931189830271244,Bianca,Yu,9961,1931189830271244,854518728062939,user_quick_reply: GET_INTRO_2,Sure :thumbs_up_medium-light_skin_tone:,2018-08-17 09:47:29
+1931189830271244,Bianca,Yu,9962,854518728062939,1931189830271244,BOT: message,Heres how it works.,2018-08-17 09:47:31
+1931189830271244,Bianca,Yu,9963,854518728062939,1931189830271244,BOT: message,"I ask you questions, and you give me answers.",2018-08-17 09:47:33
+1931189830271244,Bianca,Yu,9964,854518728062939,1931189830271244,BOT: quick reply,We will learn fun things together!,2018-08-17 09:47:34
+1931189830271244,Bianca,Yu,9965,1931189830271244,854518728062939,persistent_menu: SCIENCE,Science:microscope:,2018-08-17 09:47:42
+1931189830271244,Bianca,Yu,9966,854518728062939,1931189830271244,BOT: image,https://www.smartprimer.org:443/pictures/avatar/evolvereading_scientist.gif,2018-08-17 09:47:46
+1931189830271244,Bianca,Yu,9967,854518728062939,1931189830271244,BOT: quick reply,Let's test your knowledge on science!,2018-08-17 09:47:48
+1931189830271244,Bianca,Yu,9968,854518728062939,1931189830271244,BOT: message,Let's see if you can get this one.,2018-08-17 09:47:54
+1931189830271244,Bianca,Yu,9969,854518728062939,1931189830271244,BOT: quick reply,What are the little sacs at the end of the bronchioles called?,2018-08-17 09:47:56
+1931189830271244,Bianca,Yu,9970,1931189830271244,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-17 09:48:04
+1931189830271244,Bianca,Yu,9971,854518728062939,1931189830271244,BOT: message,Okay. I'll give you some choices.,2018-08-17 09:48:05
+1931189830271244,Bianca,Yu,9972,854518728062939,1931189830271244,BOT: quick reply,":keycap_1: lung
+:keycap_2: respiratory sacs
+:keycap_3: ganglion
+:keycap_4: alveoli
+",2018-08-17 09:48:07
+1931189830271244,Bianca,Yu,9973,1931189830271244,854518728062939,user_quick_reply: BUTTON_AKB_alveoli,:keycap_4:,2018-08-17 09:48:10
+1931189830271244,Bianca,Yu,9974,854518728062939,1931189830271244,BOT: message,Nice work! Keep it up!,2018-08-17 09:48:12
+1931189830271244,Bianca,Yu,9975,854518728062939,1931189830271244,BOT: quick reply,The correct answer is alveoli.,2018-08-17 09:48:13
+1931189830271244,Bianca,Yu,9976,1931189830271244,854518728062939,persistent_menu: GET_INTRO_1,Démarrer,2018-08-17 09:48:31
+1931189830271244,Bianca,Yu,9977,854518728062939,1931189830271244,BOT: image,https://www.smartprimer.org:443/pictures/avatar/quizbot_avatar.png,2018-08-17 09:48:36
+1931189830271244,Bianca,Yu,9978,854518728062939,1931189830271244,BOT: quick reply,"Hi Bianca! My name is Frosty :penguin: and Im here to help you learn all about science:microscope:, verbal reasoning (GRE) :input_latin_uppercase:, and safety:hammer_and_wrench:!",2018-08-17 09:48:37
+1931189830271244,Bianca,Yu,10219,854518728062939,1931189830271244,BOT: quick reply,"Hi Bianca, you haven't talked to me for a while. Would you like to resume the learning with me?",2018-08-17 20:00:18
+1931189830271244,Bianca,Yu,10832,854518728062939,1931189830271244,BOT: quick reply,"Hi Bianca, you haven't talked to me for a while. Would you like to resume the learning with me?",2018-08-18 20:00:46
+1931189830271244,Bianca,Yu,10841,1931189830271244,854518728062939,user_quick_reply: NEXT_QUESTION,"Yes, continue :backhand_index_pointing_right_medium-light_skin_tone:",2018-08-18 20:00:59
+1931189830271244,Bianca,Yu,10842,854518728062939,1931189830271244,BOT: message,Let's try this question.,2018-08-18 20:01:00
+1931189830271244,Bianca,Yu,10843,854518728062939,1931189830271244,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-18 20:01:02
+1931189830271244,Bianca,Yu,10844,854518728062939,1931189830271244,BOT: quick reply,A bee will sometimes do a dance to tell other bees in the hive where to find what?,2018-08-18 20:01:03
+1931189830271244,Bianca,Yu,10845,1931189830271244,854518728062939,user_typing,Food,2018-08-18 20:01:20
+1931189830271244,Bianca,Yu,10846,854518728062939,1931189830271244,BOT: message,Thats right! :party_popper:,2018-08-18 20:01:21
+1931189830271244,Bianca,Yu,10847,854518728062939,1931189830271244,BOT: quick reply,The correct answer is food.,2018-08-18 20:01:23
+1931189830271244,Bianca,Yu,10851,1931189830271244,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-18 20:01:30
+1931189830271244,Bianca,Yu,10852,854518728062939,1931189830271244,BOT: message,Could you answer this one for me?,2018-08-18 20:01:31
+1931189830271244,Bianca,Yu,10853,854518728062939,1931189830271244,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-18 20:01:33
+1931189830271244,Bianca,Yu,10854,854518728062939,1931189830271244,BOT: quick reply,What are classified by climatic factors and types of primary producers?,2018-08-18 20:01:34
+1931189830271244,Bianca,Yu,10858,1931189830271244,854518728062939,user_typing,Biomes,2018-08-18 20:01:45
+1931189830271244,Bianca,Yu,10859,854518728062939,1931189830271244,BOT: message,Fantastic! :hundred_points:,2018-08-18 20:01:46
+1931189830271244,Bianca,Yu,10860,854518728062939,1931189830271244,BOT: quick reply,The correct answer is terrestrial biomes.,2018-08-18 20:01:48
+1931189830271244,Bianca,Yu,10861,1931189830271244,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-18 20:01:53
+1931189830271244,Bianca,Yu,10862,854518728062939,1931189830271244,BOT: message,How about this next one:,2018-08-18 20:01:54
+1931189830271244,Bianca,Yu,10863,854518728062939,1931189830271244,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-18 20:01:56
+1931189830271244,Bianca,Yu,10864,854518728062939,1931189830271244,BOT: quick reply,Most fungi get organic compounds from what?,2018-08-18 20:01:57
+1931189830271244,Bianca,Yu,10868,1931189830271244,854518728062939,user_typing,Soil,2018-08-18 20:02:06
+1931189830271244,Bianca,Yu,10870,854518728062939,1931189830271244,BOT: message,That's not quite right. :disappointed_face:,2018-08-18 20:02:07
+1931189830271244,Bianca,Yu,10871,854518728062939,1931189830271244,BOT: quick reply,The correct answer is dead organisms.,2018-08-18 20:02:09
+1931189830271244,Bianca,Yu,10874,1931189830271244,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-18 20:02:16
+1931189830271244,Bianca,Yu,10876,854518728062939,1931189830271244,BOT: message,Would you answer this question for me?,2018-08-18 20:02:17
+1931189830271244,Bianca,Yu,10877,854518728062939,1931189830271244,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-18 20:02:19
+1931189830271244,Bianca,Yu,10878,854518728062939,1931189830271244,BOT: quick reply,What cells are the basis of nervous tissue?,2018-08-18 20:02:20
+1931189830271244,Bianca,Yu,10880,1931189830271244,854518728062939,user_typing,Neurons,2018-08-18 20:02:28
+1931189830271244,Bianca,Yu,10882,854518728062939,1931189830271244,BOT: message,Fantastic! :hundred_points:,2018-08-18 20:02:30
+1931189830271244,Bianca,Yu,10884,854518728062939,1931189830271244,BOT: quick reply,The correct answer is neurons.,2018-08-18 20:02:31
+1931189830271244,Bianca,Yu,10885,1931189830271244,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-18 20:02:36
+1931189830271244,Bianca,Yu,10886,854518728062939,1931189830271244,BOT: message,Let's see if you would answer this one.,2018-08-18 20:02:38
+1931189830271244,Bianca,Yu,10887,854518728062939,1931189830271244,BOT: quick reply,What cells are the basis of nervous tissue?,2018-08-18 20:02:39
+1931189830271244,Bianca,Yu,10891,1931189830271244,854518728062939,user_typing,Neurons,2018-08-18 20:02:48
+1931189830271244,Bianca,Yu,10892,854518728062939,1931189830271244,BOT: message,Correct! :confetti_ball:,2018-08-18 20:02:49
+1931189830271244,Bianca,Yu,10894,854518728062939,1931189830271244,BOT: quick reply,The correct answer is neurons.,2018-08-18 20:02:51
+1931189830271244,Bianca,Yu,10897,1931189830271244,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-18 20:02:54
+1931189830271244,Bianca,Yu,10899,854518728062939,1931189830271244,BOT: message,Could you answer this one for me?,2018-08-18 20:02:55
+1931189830271244,Bianca,Yu,10900,854518728062939,1931189830271244,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-18 20:02:57
+1931189830271244,Bianca,Yu,10901,854518728062939,1931189830271244,BOT: quick reply,What artery takes blood to the brain?,2018-08-18 20:02:58
+1931189830271244,Bianca,Yu,10902,1931189830271244,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-18 20:03:11
+1931189830271244,Bianca,Yu,10903,854518728062939,1931189830271244,BOT: message,Pick one of the following answers.,2018-08-18 20:03:13
+1931189830271244,Bianca,Yu,10904,854518728062939,1931189830271244,BOT: quick reply,":keycap_1: pulmonary
+:keycap_2: carotid
+:keycap_3: coronary
+:keycap_4: veins
+",2018-08-18 20:03:14
+1931189830271244,Bianca,Yu,10908,1931189830271244,854518728062939,user_quick_reply: BUTTON_AKB_carotid,:keycap_2:,2018-08-18 20:03:29
+1931189830271244,Bianca,Yu,10909,854518728062939,1931189830271244,BOT: image,https://www.smartprimer.org:443/pictures/avatar/congrats/penguinnormal_normal.png,2018-08-18 20:03:32
+1931189830271244,Bianca,Yu,10910,854518728062939,1931189830271244,BOT: message,Nice! That was right!,2018-08-18 20:03:34
+1931189830271244,Bianca,Yu,10913,854518728062939,1931189830271244,BOT: quick reply,The correct answer is carotid.,2018-08-18 20:03:35
+1931189830271244,Bianca,Yu,10915,1931189830271244,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-18 20:03:39
+1931189830271244,Bianca,Yu,10916,854518728062939,1931189830271244,BOT: message,Here's a question for you:,2018-08-18 20:03:40
+1931189830271244,Bianca,Yu,10917,854518728062939,1931189830271244,BOT: quick reply,What is the diffusion of water through a semipermeable membrane down its concentration gradient?,2018-08-18 20:03:42
+1931189830271244,Bianca,Yu,10921,1931189830271244,854518728062939,user_typing,Osmosis,2018-08-18 20:03:50
+1931189830271244,Bianca,Yu,10923,854518728062939,1931189830271244,BOT: image,https://www.smartprimer.org:443/pictures/avatar/congrats/penguinnormal_happy_cyan.png,2018-08-18 20:03:53
+1931189830271244,Bianca,Yu,10925,854518728062939,1931189830271244,BOT: message,Thats right! :party_popper:,2018-08-18 20:03:55
+1931189830271244,Bianca,Yu,10927,854518728062939,1931189830271244,BOT: quick reply,The correct answer is osmosis.,2018-08-18 20:03:56
+1931189830271244,Bianca,Yu,10928,1931189830271244,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-18 20:04:00
+1931189830271244,Bianca,Yu,10929,854518728062939,1931189830271244,BOT: message,I think you'll like this question.,2018-08-18 20:04:02
+1931189830271244,Bianca,Yu,10930,854518728062939,1931189830271244,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-18 20:04:03
+1931189830271244,Bianca,Yu,10931,854518728062939,1931189830271244,BOT: quick reply,Dynamite is an example of what type of potential energy?,2018-08-18 20:04:04
+1931189830271244,Bianca,Yu,10936,1931189830271244,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-18 20:04:20
+1931189830271244,Bianca,Yu,10937,854518728062939,1931189830271244,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-08-18 20:04:21
+1931189830271244,Bianca,Yu,10938,854518728062939,1931189830271244,BOT: quick reply,":keycap_1: carbon
+:keycap_2: chemical
+:keycap_3: mineral
+:keycap_4: thermal
+",2018-08-18 20:04:23
+1931189830271244,Bianca,Yu,10939,1931189830271244,854518728062939,user_quick_reply: BUTTON_DKB_thermal,:keycap_4:,2018-08-18 20:04:26
+1931189830271244,Bianca,Yu,10940,854518728062939,1931189830271244,BOT: message,"Oops, that wasn't quite correct. :disappointed_face:",2018-08-18 20:04:27
+1931189830271244,Bianca,Yu,10941,854518728062939,1931189830271244,BOT: quick reply,The correct answer is chemical.,2018-08-18 20:04:29
+1931189830271244,Bianca,Yu,10942,1931189830271244,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-18 20:04:32
+1931189830271244,Bianca,Yu,10943,854518728062939,1931189830271244,BOT: message,Let's try this one.,2018-08-18 20:04:34
+1931189830271244,Bianca,Yu,10944,854518728062939,1931189830271244,BOT: quick reply,How often should women perform a breast self-exam?,2018-08-18 20:04:35
+1931189830271244,Bianca,Yu,10945,1931189830271244,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-18 20:04:39
+1931189830271244,Bianca,Yu,10946,854518728062939,1931189830271244,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-08-18 20:04:40
+1931189830271244,Bianca,Yu,10947,854518728062939,1931189830271244,BOT: quick reply,":keycap_1: quarterly
+:keycap_2: yearly
+:keycap_3: weekly
+:keycap_4: monthly
+",2018-08-18 20:04:42
+1931189830271244,Bianca,Yu,10948,1931189830271244,854518728062939,user_quick_reply: BUTTON_DKB_quarterly,:keycap_1:,2018-08-18 20:04:45
+1931189830271244,Bianca,Yu,10949,854518728062939,1931189830271244,BOT: message,"Oops, that wasn't quite correct. :disappointed_face:",2018-08-18 20:04:47
+1931189830271244,Bianca,Yu,10950,854518728062939,1931189830271244,BOT: quick reply,The correct answer is monthly.,2018-08-18 20:04:48
+1931189830271244,Bianca,Yu,10951,1931189830271244,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-18 20:04:52
+1931189830271244,Bianca,Yu,10952,854518728062939,1931189830271244,BOT: message,Would you answer this question for me?,2018-08-18 20:04:53
+1931189830271244,Bianca,Yu,10953,854518728062939,1931189830271244,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-18 20:04:55
+1931189830271244,Bianca,Yu,10954,854518728062939,1931189830271244,BOT: quick reply,What artery takes blood to the brain?,2018-08-18 20:04:56
+1931189830271244,Bianca,Yu,10955,1931189830271244,854518728062939,user_typing,Carotid,2018-08-18 20:05:03
+1931189830271244,Bianca,Yu,10956,854518728062939,1931189830271244,BOT: image,https://www.smartprimer.org:443/pictures/avatar/congrats/penguinnormal_jubilated_purple.png,2018-08-18 20:05:06
+1931189830271244,Bianca,Yu,10957,854518728062939,1931189830271244,BOT: message,Good job! :raising_hands_medium-light_skin_tone:,2018-08-18 20:05:08
+1931189830271244,Bianca,Yu,10958,854518728062939,1931189830271244,BOT: quick reply,The correct answer is carotid.,2018-08-18 20:05:09
+1931189830271244,Bianca,Yu,10959,1931189830271244,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-18 20:05:12
+1931189830271244,Bianca,Yu,10960,854518728062939,1931189830271244,BOT: message,What about this next question:,2018-08-18 20:05:14
+1931189830271244,Bianca,Yu,10961,854518728062939,1931189830271244,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-18 20:05:15
+1931189830271244,Bianca,Yu,10962,854518728062939,1931189830271244,BOT: quick reply,Anything moving has what type of energy?,2018-08-18 20:05:16
+1931189830271244,Bianca,Yu,10963,1931189830271244,854518728062939,user_typing,Kinetic,2018-08-18 20:05:26
+1931189830271244,Bianca,Yu,10964,854518728062939,1931189830271244,BOT: message,Fantastic! :hundred_points:,2018-08-18 20:05:27
+1931189830271244,Bianca,Yu,10965,854518728062939,1931189830271244,BOT: quick reply,The correct answer is kinetic.,2018-08-18 20:05:29
+1931189830271244,Bianca,Yu,10966,1931189830271244,854518728062939,user_quick_reply: SWITCH_SUBJECT,Change subject :shuffle_tracks_button:,2018-08-18 20:05:32
+1931189830271244,Bianca,Yu,10967,854518728062939,1931189830271244,BOT: quick reply,"Cool, which subject do you want to study?:backhand_index_pointing_down_medium-light_skin_tone:",2018-08-18 20:05:34
+1931189830271244,Bianca,Yu,10968,1931189830271244,854518728062939,user_quick_reply: GRE,GRE :input_latin_uppercase:,2018-08-18 20:05:39
+1931189830271244,Bianca,Yu,10969,854518728062939,1931189830271244,BOT: image,https://www.smartprimer.org:443/pictures/avatar/evolvescientist_reading.gif,2018-08-18 20:05:44
+1931189830271244,Bianca,Yu,10970,854518728062939,1931189830271244,BOT: quick reply,Okay! Lets see how much you know about GRE!,2018-08-18 20:05:45
+1931189830271244,Bianca,Yu,10971,1931189830271244,854518728062939,user_quick_reply: NEXT_QUESTION,"Yes, continue :flexed_biceps_medium-light_skin_tone:",2018-08-18 20:05:49
+1931189830271244,Bianca,Yu,10972,854518728062939,1931189830271244,BOT: message,Let's try this question.,2018-08-18 20:05:50
+1931189830271244,Bianca,Yu,10973,854518728062939,1931189830271244,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-18 20:05:52
+1931189830271244,Bianca,Yu,10974,854518728062939,1931189830271244,BOT: quick reply,"Though many _____ endlessly praised his work, Dan often wished for some honest criticism.",2018-08-18 20:05:53
+1931189830271244,Bianca,Yu,10975,1931189830271244,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-18 20:06:00
+1931189830271244,Bianca,Yu,10976,854518728062939,1931189830271244,BOT: message,Okay. I'll give you some choices.,2018-08-18 20:06:01
+1931189830271244,Bianca,Yu,10977,854518728062939,1931189830271244,BOT: quick reply,":keycap_1: sycophants
+:keycap_2: mavericks
+:keycap_3: adversaries
+:keycap_4: pedants
+:keycap_5: benefactors
+",2018-08-18 20:06:03
+1931189830271244,Bianca,Yu,10978,1931189830271244,854518728062939,user_quick_reply: BUTTON_DKB_adversaries,:keycap_3:,2018-08-18 20:06:16
+1931189830271244,Bianca,Yu,10979,854518728062939,1931189830271244,BOT: message,That's not quite right. :disappointed_face:,2018-08-18 20:06:17
+1931189830271244,Bianca,Yu,10980,854518728062939,1931189830271244,BOT: quick reply,The correct answer is sycophants.,2018-08-18 20:06:19
+1931189830271244,Bianca,Yu,10981,1931189830271244,854518728062939,user_quick_reply: WHY,Why?,2018-08-18 20:06:22
+1931189830271244,Bianca,Yu,10982,854518728062939,1931189830271244,BOT: message,Here's why:,2018-08-18 20:06:23
+1931189830271244,Bianca,Yu,10983,854518728062939,1931189830271244,BOT: quick reply,":pushpin: Sycophants -- a person who tries to please someone in order to gain a personal advantage
+:pushpin: Pedants -- a person who pays more attention to formal rules and book learning than they merit
+:pushpin: Benefactors -- a person who helps people or institutions especially with financial help
+:pushpin: Adversaries -- someone who offers opposition
+:pushpin: Mavericks -- someone who exhibits great independence in thought and action",2018-08-18 20:06:25
+1931189830271244,Bianca,Yu,10984,1931189830271244,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-18 20:06:49
+1931189830271244,Bianca,Yu,10985,854518728062939,1931189830271244,BOT: message,Could you answer this one for me?,2018-08-18 20:06:50
+1931189830271244,Bianca,Yu,10986,854518728062939,1931189830271244,BOT: quick reply,"Despite her mentor's advice that she attempt to sound consistently _____ , the graduate student often resorted to using slang when presenting significant parts of her thesis, her habitual speech patterns overriding her years of learning.",2018-08-18 20:06:52
+1931189830271244,Bianca,Yu,10987,1931189830271244,854518728062939,user_typing,Eloquent,2018-08-18 20:07:13
+1931189830271244,Bianca,Yu,10988,854518728062939,1931189830271244,BOT: message,Nice! :red_apple:,2018-08-18 20:07:14
+1931189830271244,Bianca,Yu,10989,854518728062939,1931189830271244,BOT: quick reply,The correct answer is erudite.,2018-08-18 20:07:16
+1931189830271244,Bianca,Yu,10990,1931189830271244,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-18 20:07:22
+1931189830271244,Bianca,Yu,10991,854518728062939,1931189830271244,BOT: message,Would you answer this question for me?,2018-08-18 20:07:24
+1931189830271244,Bianca,Yu,10992,854518728062939,1931189830271244,BOT: quick reply,One of social science's major themes is that of stability versus change; to what extent are individual personalities _____ yet different over time?,2018-08-18 20:07:25
+1931189830271244,Bianca,Yu,10993,1931189830271244,854518728062939,user_typing,Static,2018-08-18 20:07:36
+1931189830271244,Bianca,Yu,10994,854518728062939,1931189830271244,BOT: message,Thats right! :party_popper:,2018-08-18 20:07:37
+1931189830271244,Bianca,Yu,10995,854518728062939,1931189830271244,BOT: quick reply,The correct answer is static.,2018-08-18 20:07:39
+1931189830271244,Bianca,Yu,10996,1931189830271244,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-18 20:07:42
+1931189830271244,Bianca,Yu,10997,854518728062939,1931189830271244,BOT: message,I think you'll like this question.,2018-08-18 20:07:43
+1931189830271244,Bianca,Yu,10998,854518728062939,1931189830271244,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-18 20:07:45
+1931189830271244,Bianca,Yu,10999,854518728062939,1931189830271244,BOT: quick reply,"Having squandered his life's savings on unprofitable business ventures, the _____ entrepreneur was forced to live in squalor.",2018-08-18 20:07:46
+1931189830271244,Bianca,Yu,11000,1931189830271244,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-18 20:08:07
+1931189830271244,Bianca,Yu,11001,854518728062939,1931189830271244,BOT: message,Which of the following options is the right answer?,2018-08-18 20:08:08
+1931189830271244,Bianca,Yu,11002,854518728062939,1931189830271244,BOT: quick reply,":keycap_1: unlikely
+:keycap_2: eccentric
+:keycap_3: perturbed
+:keycap_4: insolvent
+:keycap_5: former
+",2018-08-18 20:08:10
+1931189830271244,Bianca,Yu,11003,1931189830271244,854518728062939,user_quick_reply: BUTTON_AKB_insolvent,:keycap_4:,2018-08-18 20:08:19
+1931189830271244,Bianca,Yu,11004,854518728062939,1931189830271244,BOT: image,https://www.smartprimer.org:443/pictures/avatar/congrats/penguinnormal_jubilated_pink.png,2018-08-18 20:08:22
+1931189830271244,Bianca,Yu,11005,854518728062939,1931189830271244,BOT: message,Yes! You got the correct answer!,2018-08-18 20:08:24
+1931189830271244,Bianca,Yu,11006,854518728062939,1931189830271244,BOT: quick reply,The correct answer is insolvent.,2018-08-18 20:08:25
+1931189830271244,Bianca,Yu,11007,1931189830271244,854518728062939,user_quick_reply: WHY,Why?,2018-08-18 20:08:28
+1931189830271244,Bianca,Yu,11008,854518728062939,1931189830271244,BOT: message,This is why:,2018-08-18 20:08:29
+1931189830271244,Bianca,Yu,11009,854518728062939,1931189830271244,BOT: quick reply,":pushpin: Insolvent -- unable to meet or discharge financial obligations
+:pushpin: Former -- preceding in time; prior or earlier
+:pushpin: Unlikely -- not likely to be true or to occur or to have occurred
+:pushpin: Perturbed -- thrown into a state of agitated confusion
+:pushpin: Eccentric -- conspicuously or grossly unconventional or unusual",2018-08-18 20:08:31
+1931189830271244,Bianca,Yu,11010,1931189830271244,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-18 20:08:45
+1931189830271244,Bianca,Yu,11011,854518728062939,1931189830271244,BOT: message,Let's try this question.,2018-08-18 20:08:47
+1931189830271244,Bianca,Yu,11012,854518728062939,1931189830271244,BOT: quick reply,"Having squandered his life's savings on unprofitable business ventures, the _____ entrepreneur was forced to live in squalor.",2018-08-18 20:08:48
+1931189830271244,Bianca,Yu,11013,1931189830271244,854518728062939,user_typing,Insolvent,2018-08-18 20:09:03
+1931189830271244,Bianca,Yu,11014,854518728062939,1931189830271244,BOT: message,Fantastic! :hundred_points:,2018-08-18 20:09:04
+1931189830271244,Bianca,Yu,11015,854518728062939,1931189830271244,BOT: quick reply,The correct answer is insolvent.,2018-08-18 20:09:06
+1931189830271244,Bianca,Yu,11016,1931189830271244,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-18 20:09:13
+1931189830271244,Bianca,Yu,11017,854518728062939,1931189830271244,BOT: message,Let's try this one.,2018-08-18 20:09:14
+1931189830271244,Bianca,Yu,11018,854518728062939,1931189830271244,BOT: quick reply,Many Major League Baseball relief pitchers choose an electrifying theme song to play as they take the mound; the song _____ their fans and instills fear in their opponents.,2018-08-18 20:09:16
+1931189830271244,Bianca,Yu,11019,1931189830271244,854518728062939,user_typing,Encourages,2018-08-18 20:09:31
+1931189830271244,Bianca,Yu,11020,854518728062939,1931189830271244,BOT: message,"Oops, that answer was incorrect. :disappointed_face:",2018-08-18 20:09:33
+1931189830271244,Bianca,Yu,11021,854518728062939,1931189830271244,BOT: quick reply,The correct answer is innervates.,2018-08-18 20:09:34
+1931189830271244,Bianca,Yu,11022,1931189830271244,854518728062939,user_quick_reply: WHY,Why?,2018-08-18 20:09:40
+1931189830271244,Bianca,Yu,11023,854518728062939,1931189830271244,BOT: message,This is why:,2018-08-18 20:09:42
+1931189830271244,Bianca,Yu,11024,854518728062939,1931189830271244,BOT: quick reply,:pushpin: Innervates -- to supply with nerves,2018-08-18 20:09:43
+1931189830271244,Bianca,Yu,11025,1931189830271244,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-18 20:09:49
+1931189830271244,Bianca,Yu,11026,854518728062939,1931189830271244,BOT: message,Let's see if you can answer this question.,2018-08-18 20:09:51
+1931189830271244,Bianca,Yu,11027,854518728062939,1931189830271244,BOT: quick reply,"Certainly a roundabout narrative, the book - much like the others in the author's pseudo-autobiographical series - proved to be unpopular among those who preferred _____ to loquaciousness.",2018-08-18 20:09:52
+1931189830271244,Bianca,Yu,11028,1931189830271244,854518728062939,user_typing,Cogency,2018-08-18 20:10:27
+1931189830271244,Bianca,Yu,11029,854518728062939,1931189830271244,BOT: image,https://www.smartprimer.org:443/pictures/avatar/congrats/penguinnormal_jubilated_orange.png,2018-08-18 20:10:30
+1931189830271244,Bianca,Yu,11030,854518728062939,1931189830271244,BOT: message,Good Answer! :white_heavy_check_mark:,2018-08-18 20:10:31
+1931189830271244,Bianca,Yu,11031,854518728062939,1931189830271244,BOT: quick reply,The correct answer is succinctness.,2018-08-18 20:10:33
+1931189830271244,Bianca,Yu,11032,1931189830271244,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-18 20:10:38
+1931189830271244,Bianca,Yu,11033,854518728062939,1931189830271244,BOT: message,What about this next question:,2018-08-18 20:10:39
+1931189830271244,Bianca,Yu,11034,854518728062939,1931189830271244,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-18 20:10:41
+1931189830271244,Bianca,Yu,11035,854518728062939,1931189830271244,BOT: quick reply,Many Major League Baseball relief pitchers choose an electrifying theme song to play as they take the mound; the song _____ their fans and instills fear in their opponents.,2018-08-18 20:10:42
+1931189830271244,Bianca,Yu,11036,1931189830271244,854518728062939,user_typing,Innervates,2018-08-18 20:10:50
+1931189830271244,Bianca,Yu,11037,854518728062939,1931189830271244,BOT: image,https://www.smartprimer.org:443/pictures/avatar/congrats/penguinnormal_jubilated_purple.png,2018-08-18 20:10:53
+1931189830271244,Bianca,Yu,11038,854518728062939,1931189830271244,BOT: message,Nice! :red_apple:,2018-08-18 20:10:55
+1931189830271244,Bianca,Yu,11039,854518728062939,1931189830271244,BOT: quick reply,The correct answer is innervates.,2018-08-18 20:10:56
+1931189830271244,Bianca,Yu,11040,1931189830271244,854518728062939,user_quick_reply: SWITCH_SUBJECT,Change subject :shuffle_tracks_button:,2018-08-18 20:11:00
+1931189830271244,Bianca,Yu,11041,854518728062939,1931189830271244,BOT: quick reply,"OK, which of the following subjects would you like to study?:backhand_index_pointing_down_medium-light_skin_tone:",2018-08-18 20:11:02
+1931189830271244,Bianca,Yu,11042,1931189830271244,854518728062939,user_quick_reply: SAFETY,Safety:hammer_and_wrench:,2018-08-18 20:11:05
+1931189830271244,Bianca,Yu,11043,854518728062939,1931189830271244,BOT: image,https://www.smartprimer.org:443/pictures/avatar/evolvereading_safety.gif,2018-08-18 20:11:09
+1931189830271244,Bianca,Yu,11044,854518728062939,1931189830271244,BOT: quick reply,Awesome! Let's learn about safety!,2018-08-18 20:11:11
+1931189830271244,Bianca,Yu,11045,1931189830271244,854518728062939,user_quick_reply: NEXT_QUESTION,OK :light_bulb:,2018-08-18 20:11:15
+1931189830271244,Bianca,Yu,11046,854518728062939,1931189830271244,BOT: message,"Alrighty, let's try this one.",2018-08-18 20:11:17
+1931189830271244,Bianca,Yu,11047,854518728062939,1931189830271244,BOT: quick reply,True or false: all workplaces need to provide portable fire extinguishers.,2018-08-18 20:11:18
+1931189830271244,Bianca,Yu,11048,1931189830271244,854518728062939,user_typing,True,2018-08-18 20:11:26
+1931189830271244,Bianca,Yu,11049,854518728062939,1931189830271244,BOT: message,"Oops, that answer was incorrect. :disappointed_face:",2018-08-18 20:11:28
+1931189830271244,Bianca,Yu,11050,854518728062939,1931189830271244,BOT: quick reply,The correct answer is false.,2018-08-18 20:11:29
+1931189830271244,Bianca,Yu,11051,1931189830271244,854518728062939,user_quick_reply: WHY,Why?,2018-08-18 20:11:32
+1931189830271244,Bianca,Yu,11052,854518728062939,1931189830271244,BOT: message,I hope this explanation could help you understand the the question.,2018-08-18 20:11:34
+1931189830271244,Bianca,Yu,11053,854518728062939,1931189830271244,BOT: quick reply,"According to OSHA, employers are not required to provide portable fire extinguishers in the office. But if they do, they must set up an educational program to acquaint employees with the general principles of fire extinguisher use.",2018-08-18 20:11:35
+1931189830271244,Bianca,Yu,11054,1931189830271244,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-18 20:11:43
+1931189830271244,Bianca,Yu,11055,854518728062939,1931189830271244,BOT: message,Let's see if you would answer this one.,2018-08-18 20:11:44
+1931189830271244,Bianca,Yu,11056,854518728062939,1931189830271244,BOT: quick reply,What should you NOT do when lowering a load?,2018-08-18 20:11:45
+1931189830271244,Bianca,Yu,11057,1931189830271244,854518728062939,user_typing,Curve your back,2018-08-18 20:11:59
+1931189830271244,Bianca,Yu,11058,854518728062939,1931189830271244,BOT: message,"I'm sorry, but that was incorrect. :disappointed_face:",2018-08-18 20:12:01
+1931189830271244,Bianca,Yu,11059,854518728062939,1931189830271244,BOT: quick reply,The correct answer is twisting your body.,2018-08-18 20:12:02
+1931189830271244,Bianca,Yu,11060,1931189830271244,854518728062939,user_quick_reply: WHY,Why?,2018-08-18 20:12:07
+1931189830271244,Bianca,Yu,11061,854518728062939,1931189830271244,BOT: message,Here's an explanation:,2018-08-18 20:12:09
+1931189830271244,Bianca,Yu,11062,854518728062939,1931189830271244,BOT: quick reply,"To lower a load, you should make use of its edge, bend your knees, keep the load close to their body, and avoid twisting your torso.",2018-08-18 20:12:10
+1931189830271244,Bianca,Yu,11063,1931189830271244,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-18 20:12:22
+1931189830271244,Bianca,Yu,11064,854518728062939,1931189830271244,BOT: message,"Alrighty, let's try this one.",2018-08-18 20:12:23
+1931189830271244,Bianca,Yu,11065,854518728062939,1931189830271244,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-18 20:12:24
+1931189830271244,Bianca,Yu,11066,854518728062939,1931189830271244,BOT: quick reply,What is a symptom of a heatstroke?,2018-08-18 20:12:26
+1931189830271244,Bianca,Yu,11067,1931189830271244,854518728062939,user_typing,Dizziness,2018-08-18 20:12:35
+1931189830271244,Bianca,Yu,11068,854518728062939,1931189830271244,BOT: message,That wasn't quite what we were looking for. :disappointed_face:,2018-08-18 20:12:37
+1931189830271244,Bianca,Yu,11069,854518728062939,1931189830271244,BOT: quick reply,"The correct answer is rapid strong pulse, hallucinations, throbbing headache, and high body temperature.",2018-08-18 20:12:38
+1931189830271244,Bianca,Yu,11070,1931189830271244,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-18 20:12:42
+1931189830271244,Bianca,Yu,11071,854518728062939,1931189830271244,BOT: message,Let's take a look at this question.,2018-08-18 20:12:44
+1931189830271244,Bianca,Yu,11072,854518728062939,1931189830271244,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-18 20:12:45
+1931189830271244,Bianca,Yu,11073,854518728062939,1931189830271244,BOT: quick reply,What three major factors cause food contamination?,2018-08-18 20:12:47
+1931189830271244,Bianca,Yu,11074,1931189830271244,854518728062939,user_typing,Unsanitary employees,2018-08-18 20:13:08
+1931189830271244,Bianca,Yu,11075,854518728062939,1931189830271244,BOT: message,"I'm sorry, but that was incorrect. :disappointed_face:",2018-08-18 20:13:10
+1931189830271244,Bianca,Yu,11076,854518728062939,1931189830271244,BOT: quick reply,"The correct answer is physical, biological, and chemical.",2018-08-18 20:13:11
+1931189830271244,Bianca,Yu,11077,1931189830271244,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-18 20:13:17
+1931189830271244,Bianca,Yu,11078,854518728062939,1931189830271244,BOT: message,"Alrighty, let's try this one.",2018-08-18 20:13:18
+1931189830271244,Bianca,Yu,11079,854518728062939,1931189830271244,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-18 20:13:19
+1931189830271244,Bianca,Yu,11080,854518728062939,1931189830271244,BOT: quick reply,The hint shows a list of food items and the minimum internal food temperature at which they should be cooked. Which of these is incorrect?,2018-08-18 20:13:21
+1931189830271244,Bianca,Yu,11081,1931189830271244,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-18 20:13:27
+1931189830271244,Bianca,Yu,11082,854518728062939,1931189830271244,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-08-18 20:13:28
+1931189830271244,Bianca,Yu,11083,854518728062939,1931189830271244,BOT: quick reply,":keycap_1: fish and Shellfish: 145 degrees Fahrenheit
+:keycap_2: leftovers: 165 degrees Fahrenheit
+:keycap_3: eggs: 145 degrees Fahrenheit
+:keycap_4: ground beef: 160 degrees Fahrenheit
+",2018-08-18 20:13:30
+1931189830271244,Bianca,Yu,11084,1931189830271244,854518728062939,user_quick_reply: I_DONT_KNOW,I dont know :downcast_face_with_sweat:,2018-08-18 20:13:48
+1931189830271244,Bianca,Yu,11085,854518728062939,1931189830271244,BOT: quick reply,Do you really want to skip this question?,2018-08-18 20:13:50
+1931189830271244,Bianca,Yu,11086,1931189830271244,854518728062939,user_quick_reply: GIVEUP_YES,"Yes, answer please.",2018-08-18 20:13:54
+1931189830271244,Bianca,Yu,11087,854518728062939,1931189830271244,BOT: message,You didn't get this question this time.,2018-08-18 20:13:56
+1931189830271244,Bianca,Yu,11088,854518728062939,1931189830271244,BOT: message,"Keep trying, you'll get it next time! :grinning_face_with_smiling_eyes:",2018-08-18 20:13:57
+1931189830271244,Bianca,Yu,11089,854518728062939,1931189830271244,BOT: quick reply,The correct answer is eggs: 145 degrees Fahrenheit.,2018-08-18 20:13:59
+1931189830271244,Bianca,Yu,11375,854518728062939,1931189830271244,BOT: quick reply,"Hi Bianca, you haven't talked to me for a while. Would you like to resume the learning with me?",2018-08-19 20:00:19
+1931189830271244,Bianca,Yu,11866,854518728062939,1931189830271244,BOT: quick reply,"Hi Bianca, you haven't talked to me for a while. Would you like to resume the learning with me?",2018-08-20 20:00:49
+1931189830271244,Bianca,Yu,11878,1931189830271244,854518728062939,user_quick_reply: NEXT_QUESTION,Okay :oncoming_fist_medium-light_skin_tone:,2018-08-20 20:15:24
+1931189830271244,Bianca,Yu,11879,854518728062939,1931189830271244,BOT: message,See if you can answer this next one.,2018-08-20 20:15:26
+1931189830271244,Bianca,Yu,11880,854518728062939,1931189830271244,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-20 20:15:27
+1931189830271244,Bianca,Yu,11881,854518728062939,1931189830271244,BOT: quick reply,Workplaces with a minimum of ____ employees need to have a written fire prevention program in place.,2018-08-20 20:15:29
+1931189830271244,Bianca,Yu,11882,1931189830271244,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-20 20:15:54
+1931189830271244,Bianca,Yu,11883,854518728062939,1931189830271244,BOT: message,Okay. I'll give you some choices.,2018-08-20 20:15:55
+1931189830271244,Bianca,Yu,11884,854518728062939,1931189830271244,BOT: quick reply,":keycap_1: 20
+:keycap_2: 25
+:keycap_3: 11
+:keycap_4: 5
+",2018-08-20 20:15:57
+1931189830271244,Bianca,Yu,11885,1931189830271244,854518728062939,user_quick_reply: BUTTON_DKB_20,:keycap_1:,2018-08-20 20:16:02
+1931189830271244,Bianca,Yu,11886,854518728062939,1931189830271244,BOT: message,"Oops, that wasn't quite correct. :disappointed_face:",2018-08-20 20:16:04
+1931189830271244,Bianca,Yu,11887,854518728062939,1931189830271244,BOT: quick reply,The correct answer is 11.,2018-08-20 20:16:05
+1931189830271244,Bianca,Yu,11888,1931189830271244,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-20 20:16:20
+1931189830271244,Bianca,Yu,11889,854518728062939,1931189830271244,BOT: message,I think you'll like this question.,2018-08-20 20:16:21
+1931189830271244,Bianca,Yu,11890,854518728062939,1931189830271244,BOT: quick reply,How long can high-acid canned food such as tomatoes be stored?,2018-08-20 20:16:23
+1931189830271244,Bianca,Yu,11891,1931189830271244,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-20 20:16:27
+1931189830271244,Bianca,Yu,11892,854518728062939,1931189830271244,BOT: message,It's one of the following choices.,2018-08-20 20:16:28
+1931189830271244,Bianca,Yu,11893,854518728062939,1931189830271244,BOT: quick reply,":keycap_1: 12 to 18 months
+:keycap_2: 10 to 30 days
+:keycap_3: 2 to 6 months
+:keycap_4: 2 to 4 years
+",2018-08-20 20:16:30
+1931189830271244,Bianca,Yu,11894,1931189830271244,854518728062939,user_quick_reply: BUTTON_DKB_2 to 4 years,:keycap_4:,2018-08-20 20:16:38
+1931189830271244,Bianca,Yu,11895,854518728062939,1931189830271244,BOT: message,"Oops, that wasn't quite correct. :disappointed_face:",2018-08-20 20:16:40
+1931189830271244,Bianca,Yu,11896,854518728062939,1931189830271244,BOT: quick reply,The correct answer is 12 to 18 months.,2018-08-20 20:16:41
+1931189830271244,Bianca,Yu,11897,1931189830271244,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-20 20:16:45
+1931189830271244,Bianca,Yu,11898,854518728062939,1931189830271244,BOT: message,How about this next one:,2018-08-20 20:16:46
+1931189830271244,Bianca,Yu,11899,854518728062939,1931189830271244,BOT: quick reply,"Arrange in the correct the steps to take when someone splashes a chemical into the eye: (i) call a doctor, (ii) take out any contact lenses, (iii) flush the eyes with plenty of water, (iv) wash your hands with soap and water.",2018-08-20 20:16:47
+1931189830271244,Bianca,Yu,11900,1931189830271244,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-20 20:17:28
+1931189830271244,Bianca,Yu,11901,854518728062939,1931189830271244,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-08-20 20:17:29
+1931189830271244,Bianca,Yu,11902,854518728062939,1931189830271244,BOT: quick reply,":keycap_1: iv, ii, iii, i
+:keycap_2: i, iii, iv, ii
+:keycap_3: ii, iii, iv, i
+:keycap_4: iii, iv, ii, i
+",2018-08-20 20:17:31
+1931189830271244,Bianca,Yu,11903,1931189830271244,854518728062939,"user_quick_reply: BUTTON_DKB_iv, ii, iii, i",:keycap_1:,2018-08-20 20:17:34
+1931189830271244,Bianca,Yu,11904,854518728062939,1931189830271244,BOT: message,"Hmm, that wasn't quite right. :disappointed_face:",2018-08-20 20:17:36
+1931189830271244,Bianca,Yu,11905,854518728062939,1931189830271244,BOT: quick reply,"The correct answer is iii, iv, ii, i.",2018-08-20 20:17:37
+1931189830271244,Bianca,Yu,11906,1931189830271244,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-20 20:17:47
+1931189830271244,Bianca,Yu,11907,854518728062939,1931189830271244,BOT: message,What about this next question:,2018-08-20 20:17:49
+1931189830271244,Bianca,Yu,11908,854518728062939,1931189830271244,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-20 20:17:50
+1931189830271244,Bianca,Yu,11909,854518728062939,1931189830271244,BOT: quick reply,Workplaces with a minimum of ____ employees need to have a written fire prevention program in place.,2018-08-20 20:17:52
+1931189830271244,Bianca,Yu,11910,1931189830271244,854518728062939,user_typing,11,2018-08-20 20:18:43
+1931189830271244,Bianca,Yu,11911,854518728062939,1931189830271244,BOT: image,https://www.smartprimer.org:443/pictures/avatar/congrats/penguinnormal_normal_orange.png,2018-08-20 20:18:45
+1931189830271244,Bianca,Yu,11912,854518728062939,1931189830271244,BOT: message,Good job! :raising_hands_medium-light_skin_tone:,2018-08-20 20:18:47
+1931189830271244,Bianca,Yu,11913,854518728062939,1931189830271244,BOT: quick reply,The correct answer is 11.,2018-08-20 20:18:48
+1931189830271244,Bianca,Yu,11921,1931189830271244,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-20 20:19:07
+1931189830271244,Bianca,Yu,11922,854518728062939,1931189830271244,BOT: message,Let's see if you can get this one.,2018-08-20 20:19:08
+1931189830271244,Bianca,Yu,11923,854518728062939,1931189830271244,BOT: quick reply,Working on scaffold during winds above ____ miles per hour is prohibited by OSHA.,2018-08-20 20:19:10
+1931189830271244,Bianca,Yu,11926,1931189830271244,854518728062939,persistent_menu: CHAT_WITH_ME,Chat with Me :penguin:,2018-08-20 20:19:12
+1931189830271244,Bianca,Yu,11928,854518728062939,1931189830271244,BOT: quick reply,Do you want me to tell you something fun?,2018-08-20 20:19:14
+1931189830271244,Bianca,Yu,11929,1931189830271244,854518728062939,user_quick_reply: JOKE,Joke :beaming_face_with_smiling_eyes:,2018-08-20 20:19:18
+1931189830271244,Bianca,Yu,11931,854518728062939,1931189830271244,BOT: message,Here is an interesting one:,2018-08-20 20:19:19
+1931189830271244,Bianca,Yu,11933,854518728062939,1931189830271244,BOT: quick reply,Q: When do you go at red and stop at green? A: When youre eating a watermelon.,2018-08-20 20:19:20
+1931189830271244,Bianca,Yu,11938,1931189830271244,854518728062939,user_quick_reply: NEXT_QUESTION,Continue learning :flexed_biceps_medium-light_skin_tone:,2018-08-20 20:19:38
+1931189830271244,Bianca,Yu,11939,854518728062939,1931189830271244,BOT: message,Let's try this question.,2018-08-20 20:19:39
+1931189830271244,Bianca,Yu,11941,854518728062939,1931189830271244,BOT: quick reply,The hint shows a list of fire extinguisher types matched with surfaces on which they can be used. Which is the incorrect option?,2018-08-20 20:19:40
+1931189830271244,Bianca,Yu,11949,1931189830271244,854518728062939,persistent_menu: RANDOM,Random :game_die:,2018-08-20 20:19:58
+1931189830271244,Bianca,Yu,11951,854518728062939,1931189830271244,BOT: image,https://www.smartprimer.org:443/pictures/avatar/evolvesafety_normal.gif,2018-08-20 20:20:03
+1931189830271244,Bianca,Yu,11953,854518728062939,1931189830271244,BOT: quick reply,Cool! Let's learn everything! :game_die:,2018-08-20 20:20:04
+1931189830271244,Bianca,Yu,11956,1931189830271244,854518728062939,user_quick_reply: NEXT_QUESTION,Okay :round_pushpin:,2018-08-20 20:20:09
+1931189830271244,Bianca,Yu,11957,854518728062939,1931189830271244,BOT: message,What about this next question:,2018-08-20 20:20:11
+1931189830271244,Bianca,Yu,11959,854518728062939,1931189830271244,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-20 20:20:12
+1931189830271244,Bianca,Yu,11961,854518728062939,1931189830271244,BOT: quick reply,What unit of measurement is defined to be the number of atoms in 12g of carbon-12?,2018-08-20 20:20:14
+1931189830271244,Bianca,Yu,11963,1931189830271244,854518728062939,persistent_menu: SCIENCE,Science:microscope:,2018-08-20 20:20:15
+1931189830271244,Bianca,Yu,11964,1931189830271244,854518728062939,persistent_menu: RANDOM,Random :game_die:,2018-08-20 20:20:18
+1931189830271244,Bianca,Yu,11965,854518728062939,1931189830271244,BOT: quick reply,Let's quiz you on a little bit of everything! :game_die:,2018-08-20 20:20:19
+1931189830271244,Bianca,Yu,11966,854518728062939,1931189830271244,BOT: image,https://www.smartprimer.org:443/pictures/avatar/evolvenormal_scientist.gif,2018-08-20 20:20:20
+1931189830271244,Bianca,Yu,11968,854518728062939,1931189830271244,BOT: quick reply,Let's answer some questions about science!,2018-08-20 20:20:21
+1931189830271244,Bianca,Yu,11972,1931189830271244,854518728062939,persistent_menu: RANDOM,Random :game_die:,2018-08-20 20:20:31
+1931189830271244,Bianca,Yu,11975,854518728062939,1931189830271244,BOT: image,https://www.smartprimer.org:443/pictures/avatar/evolvescientist_normal.gif,2018-08-20 20:20:35
+1931189830271244,Bianca,Yu,11977,854518728062939,1931189830271244,BOT: quick reply,Cool! Let's learn everything! :game_die:,2018-08-20 20:20:37
+1931189830271244,Bianca,Yu,11980,1931189830271244,854518728062939,user_quick_reply: NEXT_QUESTION,Continue :oncoming_fist_medium-light_skin_tone:,2018-08-20 20:20:40
+1931189830271244,Bianca,Yu,11982,854518728062939,1931189830271244,BOT: message,Let's see if you would answer this one.,2018-08-20 20:20:41
+1931189830271244,Bianca,Yu,11983,854518728062939,1931189830271244,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-20 20:20:43
+1931189830271244,Bianca,Yu,11984,854518728062939,1931189830271244,BOT: quick reply,"Now known as Administrative Professionals' Day, Secretaries' Day was created in 1952 by Harry F. Klemfuss, a public relations professional who _____ the value and significance of administrative assistants in order to attract more women to the profession.",2018-08-20 20:20:44
+1931189830271244,Bianca,Yu,11989,1931189830271244,854518728062939,user_typing,Highlighted,2018-08-20 20:21:32
+1931189830271244,Bianca,Yu,11991,854518728062939,1931189830271244,BOT: message,"Oops, that answer was incorrect. :disappointed_face:",2018-08-20 20:21:33
+1931189830271244,Bianca,Yu,11993,854518728062939,1931189830271244,BOT: quick reply,The correct answer is touted.,2018-08-20 20:21:35
+1931189830271244,Bianca,Yu,11995,1931189830271244,854518728062939,user_quick_reply: WHY,Why?,2018-08-20 20:21:38
+1931189830271244,Bianca,Yu,11996,854518728062939,1931189830271244,BOT: message,Here's an explanation:,2018-08-20 20:21:40
+1931189830271244,Bianca,Yu,11997,854518728062939,1931189830271244,BOT: quick reply,:pushpin: Touted -- advertize in strongly positive terms,2018-08-20 20:21:41
+1931189830271244,Bianca,Yu,12001,1931189830271244,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-20 20:21:48
+1931189830271244,Bianca,Yu,12002,854518728062939,1931189830271244,BOT: message,I think you'll like this question.,2018-08-20 20:21:49
+1931189830271244,Bianca,Yu,12004,854518728062939,1931189830271244,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-20 20:21:51
+1931189830271244,Bianca,Yu,12006,854518728062939,1931189830271244,BOT: quick reply,Which system are the brain and spinal cord a part of?,2018-08-20 20:21:52
+1931189830271244,Bianca,Yu,12021,1931189830271244,854518728062939,user_typing,Central nervous system,2018-08-20 20:22:30
+1931189830271244,Bianca,Yu,12022,854518728062939,1931189830271244,BOT: message,Correct! :confetti_ball:,2018-08-20 20:22:31
+1931189830271244,Bianca,Yu,12023,854518728062939,1931189830271244,BOT: quick reply,The correct answer is central nervous system.,2018-08-20 20:22:33
+1931189830271244,Bianca,Yu,12026,1931189830271244,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-20 20:22:35
+1931189830271244,Bianca,Yu,12028,854518728062939,1931189830271244,BOT: message,Let's see if you can get this one.,2018-08-20 20:22:37
+1931189830271244,Bianca,Yu,12030,854518728062939,1931189830271244,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-20 20:22:38
+1931189830271244,Bianca,Yu,12031,854518728062939,1931189830271244,BOT: quick reply,All organisms can be classified into one of three of this least specific grouping?,2018-08-20 20:22:40
+1931189830271244,Bianca,Yu,12036,1931189830271244,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-20 20:22:52
+1931189830271244,Bianca,Yu,12038,854518728062939,1931189830271244,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-08-20 20:22:54
+1931189830271244,Bianca,Yu,12040,854518728062939,1931189830271244,BOT: quick reply,":keycap_1: species
+:keycap_2: aspects
+:keycap_3: domains
+:keycap_4: phlylum
+",2018-08-20 20:22:55
+1931189830271244,Bianca,Yu,12044,1931189830271244,854518728062939,user_quick_reply: BUTTON_AKB_domains,:keycap_3:,2018-08-20 20:23:07
+1931189830271244,Bianca,Yu,12045,854518728062939,1931189830271244,BOT: image,https://www.smartprimer.org:443/pictures/avatar/congrats/penguinnormal_happy_purple.png,2018-08-20 20:23:10
+1931189830271244,Bianca,Yu,12046,854518728062939,1931189830271244,BOT: message,Yes! You got the correct answer!,2018-08-20 20:23:11
+1931189830271244,Bianca,Yu,12047,854518728062939,1931189830271244,BOT: quick reply,The correct answer is domains.,2018-08-20 20:23:13
+1931189830271244,Bianca,Yu,12050,1931189830271244,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-20 20:23:15
+1931189830271244,Bianca,Yu,12052,854518728062939,1931189830271244,BOT: message,Let's try this question.,2018-08-20 20:23:16
+1931189830271244,Bianca,Yu,12053,854518728062939,1931189830271244,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-20 20:23:18
+1931189830271244,Bianca,Yu,12054,854518728062939,1931189830271244,BOT: quick reply,What are by far the most common type of invertebrate?,2018-08-20 20:23:19
+1931189830271244,Bianca,Yu,12074,1931189830271244,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-20 20:24:07
+1931189830271244,Bianca,Yu,12076,854518728062939,1931189830271244,BOT: message,Which of the following options is the right answer?,2018-08-20 20:24:08
+1931189830271244,Bianca,Yu,12077,854518728062939,1931189830271244,BOT: quick reply,":keycap_1: crustaceans
+:keycap_2: spiders
+:keycap_3: corals
+:keycap_4: insects
+",2018-08-20 20:24:10
+1931189830271244,Bianca,Yu,12078,1931189830271244,854518728062939,user_quick_reply: BUTTON_AKB_insects,:keycap_4:,2018-08-20 20:24:16
+1931189830271244,Bianca,Yu,12079,854518728062939,1931189830271244,BOT: message,Yes! You got the correct answer!,2018-08-20 20:24:17
+1931189830271244,Bianca,Yu,12080,854518728062939,1931189830271244,BOT: quick reply,The correct answer is insects.,2018-08-20 20:24:19
+1931189830271244,Bianca,Yu,12081,1931189830271244,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-20 20:24:21
+1931189830271244,Bianca,Yu,12082,854518728062939,1931189830271244,BOT: message,Let's try this question.,2018-08-20 20:24:22
+1931189830271244,Bianca,Yu,12083,854518728062939,1931189830271244,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-20 20:24:24
+1931189830271244,Bianca,Yu,12084,854518728062939,1931189830271244,BOT: quick reply,What are by far the most common type of invertebrate?,2018-08-20 20:24:25
+1931189830271244,Bianca,Yu,12085,1931189830271244,854518728062939,user_typing,Insects,2018-08-20 20:24:34
+1931189830271244,Bianca,Yu,12086,854518728062939,1931189830271244,BOT: message,Good Answer! :white_heavy_check_mark:,2018-08-20 20:24:35
+1931189830271244,Bianca,Yu,12087,854518728062939,1931189830271244,BOT: quick reply,The correct answer is insects.,2018-08-20 20:24:37
+1931189830271244,Bianca,Yu,12088,1931189830271244,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-20 20:24:39
+1931189830271244,Bianca,Yu,12089,854518728062939,1931189830271244,BOT: message,Here's a question for you:,2018-08-20 20:24:40
+1931189830271244,Bianca,Yu,12090,854518728062939,1931189830271244,BOT: quick reply,"Even though legislators claimed the Contagious Diseases Acts strengthened the nation, social purists argued the Acts _____ the nation's moral growth by encouraging licentious behavior.",2018-08-20 20:24:42
+1931189830271244,Bianca,Yu,12091,1931189830271244,854518728062939,user_typing,Stunted,2018-08-20 20:25:00
+1931189830271244,Bianca,Yu,12092,854518728062939,1931189830271244,BOT: message,"I'm sorry, but that was incorrect. :disappointed_face:",2018-08-20 20:25:02
+1931189830271244,Bianca,Yu,12093,854518728062939,1931189830271244,BOT: quick reply,The correct answer is hampered.,2018-08-20 20:25:03
+1931189830271244,Bianca,Yu,12094,1931189830271244,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-20 20:25:07
+1931189830271244,Bianca,Yu,12095,854518728062939,1931189830271244,BOT: message,Let's see if you can answer this question.,2018-08-20 20:25:08
+1931189830271244,Bianca,Yu,12096,854518728062939,1931189830271244,BOT: quick reply,"Despite the smile that spread from ear to ear, the eyes relayed a certain _____ .",2018-08-20 20:25:10
+1931189830271244,Bianca,Yu,12097,1931189830271244,854518728062939,user_typing,Emptiness,2018-08-20 20:25:37
+1931189830271244,Bianca,Yu,12098,854518728062939,1931189830271244,BOT: message,Yes! You got the correct answer!,2018-08-20 20:25:38
+1931189830271244,Bianca,Yu,12099,854518728062939,1931189830271244,BOT: quick reply,The correct answer is sorrow.,2018-08-20 20:25:40
+1931189830271244,Bianca,Yu,12100,1931189830271244,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-20 20:25:44
+1931189830271244,Bianca,Yu,12101,854518728062939,1931189830271244,BOT: message,Let's see if you would answer this one.,2018-08-20 20:25:45
+1931189830271244,Bianca,Yu,12102,854518728062939,1931189830271244,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-20 20:25:47
+1931189830271244,Bianca,Yu,12103,854518728062939,1931189830271244,BOT: quick reply,Voters have become so inured to the fickle nature of politicians that they responded to the levy of a new tax with _____ .,2018-08-20 20:25:48
+1931189830271244,Bianca,Yu,12104,1931189830271244,854518728062939,user_typing,Contempt,2018-08-20 20:26:13
+1931189830271244,Bianca,Yu,12105,854518728062939,1931189830271244,BOT: message,That wasn't quite what we were looking for. :disappointed_face:,2018-08-20 20:26:15
+1931189830271244,Bianca,Yu,12106,854518728062939,1931189830271244,BOT: quick reply,The correct answer is stolidity.,2018-08-20 20:26:16
+1931189830271244,Bianca,Yu,12107,1931189830271244,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-20 20:26:22
+1931189830271244,Bianca,Yu,12108,854518728062939,1931189830271244,BOT: message,Here's a question for you:,2018-08-20 20:26:24
+1931189830271244,Bianca,Yu,12109,854518728062939,1931189830271244,BOT: quick reply,Myofibrils are long cylindrical structures that lie parallel to and run the entire length of what fibers?,2018-08-20 20:26:25
+1931189830271244,Bianca,Yu,12110,1931189830271244,854518728062939,user_typing,Muscle,2018-08-20 20:26:41
+1931189830271244,Bianca,Yu,12111,854518728062939,1931189830271244,BOT: image,https://www.smartprimer.org:443/pictures/avatar/congrats/penguinnormal_jubilated_pink.png,2018-08-20 20:26:44
+1931189830271244,Bianca,Yu,12112,854518728062939,1931189830271244,BOT: message,Good job! :raising_hands_medium-light_skin_tone:,2018-08-20 20:26:45
+1931189830271244,Bianca,Yu,12113,854518728062939,1931189830271244,BOT: quick reply,The correct answer is skeletal muscle fibers.,2018-08-20 20:26:47
+1931189830271244,Bianca,Yu,12428,854518728062939,1931189830271244,BOT: quick reply,"Hi Bianca, you haven't talked to me for a while. Would you like to resume the learning with me?",2018-08-21 20:01:23
+1931189830271244,Bianca,Yu,12482,1931189830271244,854518728062939,user_quick_reply: NEXT_QUESTION,Continue :raising_hands_medium-light_skin_tone:,2018-08-22 07:21:30
+1931189830271244,Bianca,Yu,12483,854518728062939,1931189830271244,BOT: message,Let's see if you can get this one.,2018-08-22 07:21:31
+1931189830271244,Bianca,Yu,12484,854518728062939,1931189830271244,BOT: quick reply,What is the diffusion of water through a semipermeable membrane down its concentration gradient?,2018-08-22 07:21:33
+1931189830271244,Bianca,Yu,12485,1931189830271244,854518728062939,user_typing,Osmosis,2018-08-22 07:21:59
+1931189830271244,Bianca,Yu,12486,854518728062939,1931189830271244,BOT: message,Thats right! :party_popper:,2018-08-22 07:22:01
+1931189830271244,Bianca,Yu,12487,854518728062939,1931189830271244,BOT: quick reply,The correct answer is osmosis.,2018-08-22 07:22:03
+1931189830271244,Bianca,Yu,12488,1931189830271244,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-22 07:22:07
+1931189830271244,Bianca,Yu,12489,854518728062939,1931189830271244,BOT: message,Would you answer this question for me?,2018-08-22 07:22:08
+1931189830271244,Bianca,Yu,12490,854518728062939,1931189830271244,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-22 07:22:10
+1931189830271244,Bianca,Yu,12491,854518728062939,1931189830271244,BOT: quick reply,"True or false: when flooring cannot be changed to provide cushion, anti-fatigue mats can help ease discomfort to the feet and back.",2018-08-22 07:22:12
+1931189830271244,Bianca,Yu,12492,1931189830271244,854518728062939,user_typing,True,2018-08-22 07:22:24
+1931189830271244,Bianca,Yu,12493,854518728062939,1931189830271244,BOT: message,Good job! :raising_hands_medium-light_skin_tone:,2018-08-22 07:22:26
+1931189830271244,Bianca,Yu,12494,854518728062939,1931189830271244,BOT: quick reply,The correct answer is true.,2018-08-22 07:22:27
+1931189830271244,Bianca,Yu,12495,1931189830271244,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-22 07:22:33
+1931189830271244,Bianca,Yu,12496,854518728062939,1931189830271244,BOT: message,Let's try this question.,2018-08-22 07:22:35
+1931189830271244,Bianca,Yu,12497,854518728062939,1931189830271244,BOT: quick reply,"True or false: you can always smell, see, or taste harmful bacteria in food that can cause illness.",2018-08-22 07:22:37
+1931189830271244,Bianca,Yu,12498,1931189830271244,854518728062939,user_typing,False,2018-08-22 07:22:44
+1931189830271244,Bianca,Yu,12499,854518728062939,1931189830271244,BOT: message,Nice! :red_apple:,2018-08-22 07:22:46
+1931189830271244,Bianca,Yu,12500,854518728062939,1931189830271244,BOT: quick reply,The correct answer is false.,2018-08-22 07:22:47
+1931189830271244,Bianca,Yu,12501,1931189830271244,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-22 07:22:50
+1931189830271244,Bianca,Yu,12502,854518728062939,1931189830271244,BOT: message,How about this next one:,2018-08-22 07:22:52
+1931189830271244,Bianca,Yu,12503,854518728062939,1931189830271244,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-22 07:22:54
+1931189830271244,Bianca,Yu,12504,854518728062939,1931189830271244,BOT: quick reply,"Having squandered his life's savings on unprofitable business ventures, the _____ entrepreneur was forced to live in squalor.",2018-08-22 07:22:56
+1931189830271244,Bianca,Yu,12505,1931189830271244,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-22 07:23:09
+1931189830271244,Bianca,Yu,12506,854518728062939,1931189830271244,BOT: message,Pick one of the following answers.,2018-08-22 07:23:10
+1931189830271244,Bianca,Yu,12507,854518728062939,1931189830271244,BOT: quick reply,":keycap_1: former
+:keycap_2: unlikely
+:keycap_3: insolvent
+:keycap_4: perturbed
+:keycap_5: eccentric
+",2018-08-22 07:23:12
+1931189830271244,Bianca,Yu,12508,1931189830271244,854518728062939,user_quick_reply: BUTTON_AKB_insolvent,:keycap_3:,2018-08-22 07:23:15
+1931189830271244,Bianca,Yu,12509,854518728062939,1931189830271244,BOT: image,https://www.smartprimer.org:443/pictures/avatar/congrats/penguinnormal_happy_purple.png,2018-08-22 07:23:18
+1931189830271244,Bianca,Yu,12510,854518728062939,1931189830271244,BOT: message,Great job!,2018-08-22 07:23:23
+1931189830271244,Bianca,Yu,12511,854518728062939,1931189830271244,BOT: quick reply,The correct answer is insolvent.,2018-08-22 07:23:25
+1931189830271244,Bianca,Yu,12512,1931189830271244,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-22 07:23:28
+1931189830271244,Bianca,Yu,12513,854518728062939,1931189830271244,BOT: message,Would you answer this question for me?,2018-08-22 07:23:29
+1931189830271244,Bianca,Yu,12514,854518728062939,1931189830271244,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-22 07:23:31
+1931189830271244,Bianca,Yu,12515,854518728062939,1931189830271244,BOT: quick reply,"Modern tennis fans have come to realize that, although, quantum technological leaps in racquet technology have lead to _____ increases in the speed and power with which players can hit the ball, this has not necessarily lead to a more entertaining game.",2018-08-22 07:23:33
+1931189830271244,Bianca,Yu,12516,1931189830271244,854518728062939,user_typing,Phenomenal,2018-08-22 07:23:58
+1931189830271244,Bianca,Yu,12517,854518728062939,1931189830271244,BOT: image,https://www.smartprimer.org:443/pictures/avatar/congrats/penguinnormal_normal.png,2018-08-22 07:24:00
+1931189830271244,Bianca,Yu,12518,854518728062939,1931189830271244,BOT: message,Good job! :raising_hands_medium-light_skin_tone:,2018-08-22 07:24:02
+1931189830271244,Bianca,Yu,12519,854518728062939,1931189830271244,BOT: quick reply,The correct answer is commensurate.,2018-08-22 07:24:04
+1931189830271244,Bianca,Yu,12520,1931189830271244,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-22 07:24:09
+1931189830271244,Bianca,Yu,12521,854518728062939,1931189830271244,BOT: message,How about this next one:,2018-08-22 07:24:10
+1931189830271244,Bianca,Yu,12522,854518728062939,1931189830271244,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-22 07:24:12
+1931189830271244,Bianca,Yu,12523,854518728062939,1931189830271244,BOT: quick reply,"Arrange in the correct order the following treatment steps for somebody who has lost consciousness: (i) call 911 or inform someone of the situation, (ii) begin CPR, (iii) check the patient's airway to make sure it is clear, (iv) place the victim on his/her back, (v) check signs of life (coughing, breathing, or movement).",2018-08-22 07:24:14
+1931189830271244,Bianca,Yu,12524,1931189830271244,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-22 07:24:23
+1931189830271244,Bianca,Yu,12525,854518728062939,1931189830271244,BOT: message,Pick one of the following answers.,2018-08-22 07:24:25
+1931189830271244,Bianca,Yu,12526,854518728062939,1931189830271244,BOT: quick reply,":keycap_1: iv, i, iii, v, ii
+:keycap_2: ii, iv, iii, v, i
+:keycap_3: i, ii, iii, iv, v
+:keycap_4: v, iv, iii, i, ii
+",2018-08-22 07:24:27
+1931189830271244,Bianca,Yu,12527,1931189830271244,854518728062939,"user_quick_reply: BUTTON_AKB_iv, i, iii, v, ii",:keycap_1:,2018-08-22 07:24:30
+1931189830271244,Bianca,Yu,12528,854518728062939,1931189830271244,BOT: message,Nice! That was right!,2018-08-22 07:24:32
+1931189830271244,Bianca,Yu,12529,854518728062939,1931189830271244,BOT: quick reply,"The correct answer is iv, i, iii, v, ii.",2018-08-22 07:24:33
+1931189830271244,Bianca,Yu,12530,1931189830271244,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-22 07:24:53
+1931189830271244,Bianca,Yu,12531,854518728062939,1931189830271244,BOT: message,Let's see if you can get this one.,2018-08-22 07:24:55
+1931189830271244,Bianca,Yu,12532,854518728062939,1931189830271244,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-22 07:24:56
+1931189830271244,Bianca,Yu,12533,854518728062939,1931189830271244,BOT: quick reply,What is the maximum amount of time perishable food should be left out?,2018-08-22 07:24:59
+1931189830271244,Bianca,Yu,12534,1931189830271244,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-22 07:25:06
+1931189830271244,Bianca,Yu,12535,854518728062939,1931189830271244,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-08-22 07:25:07
+1931189830271244,Bianca,Yu,12536,854518728062939,1931189830271244,BOT: quick reply,":keycap_1: 2 hours
+:keycap_2: 3 hours
+:keycap_3: 1.5 hours
+:keycap_4: 3.5 hours
+",2018-08-22 07:25:09
+1931189830271244,Bianca,Yu,12537,1931189830271244,854518728062939,user_quick_reply: BUTTON_DKB_1.5 hours,:keycap_3:,2018-08-22 07:25:14
+1931189830271244,Bianca,Yu,12538,854518728062939,1931189830271244,BOT: message,"Oops, that is not correct. :disappointed_face:",2018-08-22 07:25:16
+1931189830271244,Bianca,Yu,12539,854518728062939,1931189830271244,BOT: quick reply,The correct answer is 2 hours.,2018-08-22 07:25:17
+1931189830271244,Bianca,Yu,12540,1931189830271244,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-22 07:25:21
+1931189830271244,Bianca,Yu,12541,854518728062939,1931189830271244,BOT: message,Here's a question for you:,2018-08-22 07:25:23
+1931189830271244,Bianca,Yu,12542,854518728062939,1931189830271244,BOT: quick reply,"Although tranquilizers usually have a _____ effect, this is not always the case, especially when the abuse of these drugs results in a failure to induce the much-desired sleep.",2018-08-22 07:25:24
+1931189830271244,Bianca,Yu,12543,1931189830271244,854518728062939,user_typing,Immediate,2018-08-22 07:25:44
+1931189830271244,Bianca,Yu,12544,854518728062939,1931189830271244,BOT: message,"Oops, that answer was incorrect. :disappointed_face:",2018-08-22 07:25:45
+1931189830271244,Bianca,Yu,12545,854518728062939,1931189830271244,BOT: quick reply,The correct answer is soporific.,2018-08-22 07:25:47
+1931189830271244,Bianca,Yu,12546,1931189830271244,854518728062939,user_quick_reply: WHY,Why?,2018-08-22 07:25:58
+1931189830271244,Bianca,Yu,12547,854518728062939,1931189830271244,BOT: message,I hope this explanation could help you understand the the question.,2018-08-22 07:26:00
+1931189830271244,Bianca,Yu,12548,854518728062939,1931189830271244,BOT: quick reply,:pushpin: Soporific -- sleep inducing,2018-08-22 07:26:02
+1931189830271244,Bianca,Yu,12549,1931189830271244,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-22 07:26:08
+1931189830271244,Bianca,Yu,12550,854518728062939,1931189830271244,BOT: message,Let's try this question.,2018-08-22 07:26:10
+1931189830271244,Bianca,Yu,12551,854518728062939,1931189830271244,BOT: quick reply,"Arrange in the correct order the following treatment steps for somebody who has lost consciousness: (i) call 911 or inform someone of the situation, (ii) begin CPR, (iii) check the patient's airway to make sure it is clear, (iv) place the victim on his/her back, (v) check signs of life (coughing, breathing, or movement).",2018-08-22 07:26:12
+1931189830271244,Bianca,Yu,12552,1931189830271244,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-22 07:26:15
+1931189830271244,Bianca,Yu,12553,854518728062939,1931189830271244,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-08-22 07:26:17
+1931189830271244,Bianca,Yu,12554,854518728062939,1931189830271244,BOT: quick reply,":keycap_1: iv, i, iii, v, ii
+:keycap_2: v, iv, iii, i, ii
+:keycap_3: ii, iv, iii, v, i
+:keycap_4: i, ii, iii, iv, v
+",2018-08-22 07:26:19
+1931189830271244,Bianca,Yu,12555,1931189830271244,854518728062939,"user_quick_reply: BUTTON_AKB_iv, i, iii, v, ii",:keycap_1:,2018-08-22 07:26:22
+1931189830271244,Bianca,Yu,12556,854518728062939,1931189830271244,BOT: message,Yes! You got the correct answer!,2018-08-22 07:26:23
+1931189830271244,Bianca,Yu,12557,854518728062939,1931189830271244,BOT: quick reply,"The correct answer is iv, i, iii, v, ii.",2018-08-22 07:26:25
+1931189830271244,Bianca,Yu,12558,1931189830271244,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-22 07:26:29
+1931189830271244,Bianca,Yu,12559,854518728062939,1931189830271244,BOT: message,Could you answer this one for me?,2018-08-22 07:26:30
+1931189830271244,Bianca,Yu,12560,854518728062939,1931189830271244,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-22 07:26:32
+1931189830271244,Bianca,Yu,12561,854518728062939,1931189830271244,BOT: quick reply,True or false: all workplaces need to provide portable fire extinguishers.,2018-08-22 07:26:34
+1931189830271244,Bianca,Yu,12562,1931189830271244,854518728062939,user_typing,T,2018-08-22 07:26:43
+1931189830271244,Bianca,Yu,12563,854518728062939,1931189830271244,BOT: message,Fantastic! :hundred_points:,2018-08-22 07:26:45
+1931189830271244,Bianca,Yu,12564,854518728062939,1931189830271244,BOT: quick reply,The correct answer is false.,2018-08-22 07:26:47
+1931189830271244,Bianca,Yu,12565,1931189830271244,854518728062939,persistent_menu: REPORT_BUG,Report Bug :wrench:,2018-08-22 07:27:15
+1931189830271244,Bianca,Yu,12566,854518728062939,1931189830271244,BOT: message,"Okay, can you type in the bug in a few words :grinning_face_with_smiling_eyes:",2018-08-22 07:27:17
+1931189830271244,Bianca,Yu,12567,854518728062939,1931189830271244,BOT: quick reply,We can resume learning if you have no bug to report.,2018-08-22 07:27:19
+1931189830271244,Bianca,Yu,12568,1931189830271244,854518728062939,user_typing,"I entered ""T"" as a response, and Quizbot said it was correct, despite the answer being false.",2018-08-22 07:27:59
+1931189830271244,Bianca,Yu,12569,854518728062939,1931189830271244,BOT: quick reply,"Alrighty, thank you for your feedback. I'll take a note of that!",2018-08-22 07:28:01
+1931189830271244,Bianca,Yu,12570,1931189830271244,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-22 07:28:05
+1931189830271244,Bianca,Yu,12571,854518728062939,1931189830271244,BOT: message,Let's see if you can get this one.,2018-08-22 07:28:06
+1931189830271244,Bianca,Yu,12572,854518728062939,1931189830271244,BOT: quick reply,When should employees be informed of the fire hazards to which they are exposed at work?,2018-08-22 07:28:08
+1931189830271244,Bianca,Yu,12573,1931189830271244,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-22 07:28:16
+1931189830271244,Bianca,Yu,12574,854518728062939,1931189830271244,BOT: message,Which of the following options is the right answer?,2018-08-22 07:28:18
+1931189830271244,Bianca,Yu,12575,854518728062939,1931189830271244,BOT: quick reply,":keycap_1: upon the initial assignment
+:keycap_2: within 30 days of the initial assignment
+:keycap_3: within 90 days of the initial assignment
+:keycap_4: within two days of the initial assignment
+",2018-08-22 07:28:20
+1931189830271244,Bianca,Yu,12576,1931189830271244,854518728062939,user_quick_reply: BUTTON_AKB_upon the initial assignment,:keycap_1:,2018-08-22 07:28:23
+1931189830271244,Bianca,Yu,12577,854518728062939,1931189830271244,BOT: image,https://www.smartprimer.org:443/pictures/avatar/congrats/penguinnormal_jubilated_purple.png,2018-08-22 07:28:25
+1931189830271244,Bianca,Yu,12578,854518728062939,1931189830271244,BOT: message,Great! Keep it up! :flexed_biceps_medium-light_skin_tone:,2018-08-22 07:28:27
+1931189830271244,Bianca,Yu,12579,854518728062939,1931189830271244,BOT: quick reply,The correct answer is upon the initial assignment.,2018-08-22 07:28:29
+1931189830271244,Bianca,Yu,12718,854518728062939,1931189830271244,BOT: quick reply,"Hi Bianca, you haven't talked to me for a while. Would you like to resume the learning with me?",2018-08-22 20:01:55
+1931189830271244,Bianca,Yu,12727,1931189830271244,854518728062939,user_quick_reply: NEXT_QUESTION,Sure :thumbs_up_medium-light_skin_tone:,2018-08-22 20:04:12
+1931189830271244,Bianca,Yu,12728,854518728062939,1931189830271244,BOT: message,See if you can answer this next one.,2018-08-22 20:04:13
+1931189830271244,Bianca,Yu,12729,854518728062939,1931189830271244,BOT: quick reply,What is the most abundant metal of the earth's crust?,2018-08-22 20:04:15
+1931189830271244,Bianca,Yu,12730,1931189830271244,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-22 20:04:20
+1931189830271244,Bianca,Yu,12731,854518728062939,1931189830271244,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-08-22 20:04:21
+1931189830271244,Bianca,Yu,12732,854518728062939,1931189830271244,BOT: quick reply,":keycap_1: magnetite
+:keycap_2: copper
+:keycap_3: aluminum
+:keycap_4: calcium
+",2018-08-22 20:04:23
+1931189830271244,Bianca,Yu,12733,1931189830271244,854518728062939,user_quick_reply: BUTTON_AKB_aluminum,:keycap_3:,2018-08-22 20:04:28
+1931189830271244,Bianca,Yu,12734,854518728062939,1931189830271244,BOT: image,https://www.smartprimer.org:443/pictures/avatar/congrats/penguinnormal_jubilated_orange.png,2018-08-22 20:04:30
+1931189830271244,Bianca,Yu,12735,854518728062939,1931189830271244,BOT: message,Great! Keep it up! :flexed_biceps_medium-light_skin_tone:,2018-08-22 20:04:32
+1931189830271244,Bianca,Yu,12736,854518728062939,1931189830271244,BOT: quick reply,The correct answer is aluminum.,2018-08-22 20:04:33
+1931189830271244,Bianca,Yu,12737,1931189830271244,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-22 20:04:36
+1931189830271244,Bianca,Yu,12738,854518728062939,1931189830271244,BOT: message,Let's try this one.,2018-08-22 20:04:38
+1931189830271244,Bianca,Yu,12739,854518728062939,1931189830271244,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-22 20:04:39
+1931189830271244,Bianca,Yu,12740,854518728062939,1931189830271244,BOT: quick reply,"Dismissed by the establishment, professing nothing but disdain for the canon, and yet beloved by his followers who trumpet his _____ opinions, the raffish pundit is laughing all the way to the bank.",2018-08-22 20:04:41
+1931189830271244,Bianca,Yu,12741,1931189830271244,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-22 20:04:58
+1931189830271244,Bianca,Yu,12742,854518728062939,1931189830271244,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-08-22 20:04:59
+1931189830271244,Bianca,Yu,12743,854518728062939,1931189830271244,BOT: quick reply,":keycap_1: blithe
+:keycap_2: iconoclastic
+:keycap_3: meretricious
+:keycap_4: meritless
+:keycap_5: inveterate
+",2018-08-22 20:05:01
+1931189830271244,Bianca,Yu,12744,1931189830271244,854518728062939,user_quick_reply: BUTTON_AKB_iconoclastic,:keycap_2:,2018-08-22 20:05:07
+1931189830271244,Bianca,Yu,12745,854518728062939,1931189830271244,BOT: message,Nice work! Keep it up!,2018-08-22 20:05:08
+1931189830271244,Bianca,Yu,12746,854518728062939,1931189830271244,BOT: quick reply,The correct answer is iconoclastic.,2018-08-22 20:05:10
+1931189830271244,Bianca,Yu,12747,1931189830271244,854518728062939,user_quick_reply: WHY,Why?,2018-08-22 20:05:12
+1931189830271244,Bianca,Yu,12748,854518728062939,1931189830271244,BOT: message,This is why:,2018-08-22 20:05:14
+1931189830271244,Bianca,Yu,12749,854518728062939,1931189830271244,BOT: quick reply,":pushpin: Iconoclastic -- characterized by attacks on established beliefs or institutions
+:pushpin: Blithe -- lacking or showing a lack of due concern
+:pushpin: Inveterate -- habitual
+:pushpin: Meretricious -- like or relating to a prostitute
+:pushpin: Meritless -- without merit; of little or no value or use",2018-08-22 20:05:15
+1931189830271244,Bianca,Yu,12750,1931189830271244,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-22 20:05:29
+1931189830271244,Bianca,Yu,12751,854518728062939,1931189830271244,BOT: message,What about this next question:,2018-08-22 20:05:30
+1931189830271244,Bianca,Yu,12752,854518728062939,1931189830271244,BOT: quick reply,"Having squandered his life's savings on unprofitable business ventures, the _____ entrepreneur was forced to live in squalor.",2018-08-22 20:05:32
+1931189830271244,Bianca,Yu,12753,1931189830271244,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-22 20:05:39
+1931189830271244,Bianca,Yu,12754,854518728062939,1931189830271244,BOT: message,It's one of the following choices.,2018-08-22 20:05:41
+1931189830271244,Bianca,Yu,12755,854518728062939,1931189830271244,BOT: quick reply,":keycap_1: unlikely
+:keycap_2: perturbed
+:keycap_3: eccentric
+:keycap_4: former
+:keycap_5: insolvent
+",2018-08-22 20:05:42
+1931189830271244,Bianca,Yu,12756,1931189830271244,854518728062939,user_quick_reply: BUTTON_AKB_insolvent,:keycap_5:,2018-08-22 20:07:28
+1931189830271244,Bianca,Yu,12757,854518728062939,1931189830271244,BOT: message,Great job!,2018-08-22 20:07:29
+1931189830271244,Bianca,Yu,12758,854518728062939,1931189830271244,BOT: quick reply,The correct answer is insolvent.,2018-08-22 20:07:31
+1931189830271244,Bianca,Yu,12759,1931189830271244,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-22 20:07:34
+1931189830271244,Bianca,Yu,12760,854518728062939,1931189830271244,BOT: message,Let's take a look at this question.,2018-08-22 20:07:35
+1931189830271244,Bianca,Yu,12761,854518728062939,1931189830271244,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-22 20:07:37
+1931189830271244,Bianca,Yu,12762,854518728062939,1931189830271244,BOT: quick reply,"When you discover a fire, you should do what?",2018-08-22 20:07:38
+1931189830271244,Bianca,Yu,12763,1931189830271244,854518728062939,user_typing,Fire alarm,2018-08-22 20:07:49
+1931189830271244,Bianca,Yu,12764,854518728062939,1931189830271244,BOT: image,https://www.smartprimer.org:443/pictures/avatar/congrats/penguinnormal_normal_pink.png,2018-08-22 20:07:51
+1931189830271244,Bianca,Yu,12765,854518728062939,1931189830271244,BOT: message,Good job! :raising_hands_medium-light_skin_tone:,2018-08-22 20:07:53
+1931189830271244,Bianca,Yu,12766,854518728062939,1931189830271244,BOT: quick reply,The correct answer is pulling the fire alarm and call the fire department.,2018-08-22 20:07:54
+1931189830271244,Bianca,Yu,12767,1931189830271244,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-22 20:08:00
+1931189830271244,Bianca,Yu,12768,854518728062939,1931189830271244,BOT: message,Would you answer this question for me?,2018-08-22 20:08:01
+1931189830271244,Bianca,Yu,12769,854518728062939,1931189830271244,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-22 20:08:03
+1931189830271244,Bianca,Yu,12770,854518728062939,1931189830271244,BOT: quick reply,"Western culture has so influenced Middle Eastern music that even the latter's roles of composer and performer, at one time inseparable, have now begun to _____ .",2018-08-22 20:08:05
+1931189830271244,Bianca,Yu,12771,1931189830271244,854518728062939,user_typing,Diverge,2018-08-22 20:08:41
+1931189830271244,Bianca,Yu,12772,854518728062939,1931189830271244,BOT: message,Thats right! :party_popper:,2018-08-22 20:08:42
+1931189830271244,Bianca,Yu,12773,854518728062939,1931189830271244,BOT: quick reply,The correct answer is diverge.,2018-08-22 20:08:44
+1931189830271244,Bianca,Yu,12774,1931189830271244,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-22 20:08:49
+1931189830271244,Bianca,Yu,12775,854518728062939,1931189830271244,BOT: message,How about this next one:,2018-08-22 20:08:50
+1931189830271244,Bianca,Yu,12776,854518728062939,1931189830271244,BOT: quick reply,"If one were asked who transmitted the first radio broadcast of the human voice, one might guess the _____ inventor Guglielmo Marconi, but in fact the feat was accomplished by the much less well-known Reginald Fessenden.",2018-08-22 20:08:52
+1931189830271244,Bianca,Yu,12777,1931189830271244,854518728062939,user_typing,Original,2018-08-22 20:15:51
+1931189830271244,Bianca,Yu,12778,854518728062939,1931189830271244,BOT: message,"Oops, that answer was incorrect. :disappointed_face:",2018-08-22 20:15:53
+1931189830271244,Bianca,Yu,12779,854518728062939,1931189830271244,BOT: quick reply,The correct answer is renowned.,2018-08-22 20:15:54
+1931189830271244,Bianca,Yu,12780,1931189830271244,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-22 20:16:02
+1931189830271244,Bianca,Yu,12781,854518728062939,1931189830271244,BOT: message,What about this next question:,2018-08-22 20:16:03
+1931189830271244,Bianca,Yu,12782,854518728062939,1931189830271244,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-22 20:16:05
+1931189830271244,Bianca,Yu,12783,854518728062939,1931189830271244,BOT: quick reply,On what day of the cycle does ovulation usually occur?,2018-08-22 20:16:06
+1931189830271244,Bianca,Yu,12784,1931189830271244,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-22 20:17:01
+1931189830271244,Bianca,Yu,12785,854518728062939,1931189830271244,BOT: message,Which of the following options is the right answer?,2018-08-22 20:17:02
+1931189830271244,Bianca,Yu,12786,854518728062939,1931189830271244,BOT: quick reply,":keycap_1: 17th
+:keycap_2: 14th
+:keycap_3: 1st
+:keycap_4: 7th
+",2018-08-22 20:17:04
+1931189830271244,Bianca,Yu,12787,1931189830271244,854518728062939,user_typing,14,2018-08-22 20:17:07
+1931189830271244,Bianca,Yu,12788,854518728062939,1931189830271244,BOT: message,That wasn't quite what we were looking for. :disappointed_face:,2018-08-22 20:17:09
+1931189830271244,Bianca,Yu,12789,854518728062939,1931189830271244,BOT: quick reply,The correct answer is 14th.,2018-08-22 20:17:10
+1931189830271244,Bianca,Yu,12790,1931189830271244,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-22 20:18:20
+1931189830271244,Bianca,Yu,12791,854518728062939,1931189830271244,BOT: message,I think you'll like this question.,2018-08-22 20:18:21
+1931189830271244,Bianca,Yu,12792,854518728062939,1931189830271244,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-22 20:18:22
+1931189830271244,Bianca,Yu,12793,854518728062939,1931189830271244,BOT: quick reply,On what day of the cycle does ovulation usually occur?,2018-08-22 20:18:24
+1931189830271244,Bianca,Yu,12794,1931189830271244,854518728062939,user_typing,14,2018-08-22 20:18:57
+1931189830271244,Bianca,Yu,12795,854518728062939,1931189830271244,BOT: message,"Oops, that answer was incorrect. :disappointed_face:",2018-08-22 20:18:59
+1931189830271244,Bianca,Yu,12796,854518728062939,1931189830271244,BOT: quick reply,The correct answer is 14th.,2018-08-22 20:19:01
+1931189830271244,Bianca,Yu,12797,1931189830271244,854518728062939,persistent_menu: REPORT_BUG,Report Bug :wrench:,2018-08-22 20:19:07
+1931189830271244,Bianca,Yu,12798,854518728062939,1931189830271244,BOT: message,"Okay, could you type in the bug in a few words :grinning_face_with_smiling_eyes:",2018-08-22 20:19:09
+1931189830271244,Bianca,Yu,12799,854518728062939,1931189830271244,BOT: quick reply,We can resume learning if you have no bug to report.,2018-08-22 20:19:11
+1931189830271244,Bianca,Yu,12800,1931189830271244,854518728062939,user_typing,"For the ovulation question, I put 14 as the answer and it marked it as incorrect (14th was the answer)",2018-08-22 20:21:09
+1931189830271244,Bianca,Yu,12801,854518728062939,1931189830271244,BOT: quick reply,"Okay, Ill take a note of that. Thanks for the feedback! :thumbs_up_medium-light_skin_tone:",2018-08-22 20:21:11
+1931189830271244,Bianca,Yu,12802,1931189830271244,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-22 20:21:21
+1931189830271244,Bianca,Yu,12803,854518728062939,1931189830271244,BOT: message,See if you can answer this next one.,2018-08-22 20:21:23
+1931189830271244,Bianca,Yu,12804,854518728062939,1931189830271244,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-22 20:21:24
+1931189830271244,Bianca,Yu,12805,854518728062939,1931189830271244,BOT: quick reply,"When your brain senses that your body temperature is increasing, it sends messages to the blood vessels in the skin to increase in what?",2018-08-22 20:21:26
+1931189830271244,Bianca,Yu,12806,1931189830271244,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-22 20:21:31
+1931189830271244,Bianca,Yu,12807,854518728062939,1931189830271244,BOT: message,It's one of the following choices.,2018-08-22 20:21:33
+1931189830271244,Bianca,Yu,12808,854518728062939,1931189830271244,BOT: quick reply,":keycap_1: diameter
+:keycap_2: height
+:keycap_3: weight
+:keycap_4: surface
+",2018-08-22 20:21:34
+1931189830271244,Bianca,Yu,12809,1931189830271244,854518728062939,user_quick_reply: BUTTON_DKB_surface,:keycap_4:,2018-08-22 20:21:38
+1931189830271244,Bianca,Yu,12810,854518728062939,1931189830271244,BOT: message,"I'm sorry, but that was incorrect. :disappointed_face:",2018-08-22 20:21:39
+1931189830271244,Bianca,Yu,12811,854518728062939,1931189830271244,BOT: quick reply,The correct answer is diameter.,2018-08-22 20:21:41
+1931189830271244,Bianca,Yu,13014,854518728062939,1931189830271244,BOT: quick reply,"Hi Bianca, you haven't talked to me for a while. Would you like to resume the learning with me?",2018-08-23 20:02:28
+1931189830271244,Bianca,Yu,13059,1931189830271244,854518728062939,user_quick_reply: NEXT_QUESTION,Alright :oncoming_fist_medium-light_skin_tone:,2018-08-23 22:01:04
+1931189830271244,Bianca,Yu,13060,854518728062939,1931189830271244,BOT: message,See if you can answer this next one.,2018-08-23 22:01:06
+1931189830271244,Bianca,Yu,13061,854518728062939,1931189830271244,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-23 22:01:07
+1931189830271244,Bianca,Yu,13062,854518728062939,1931189830271244,BOT: quick reply,The defense attorney's _____ closing statement was not enough to sway the jurors in his client's favor; stirring words could not conceal the defendant's evident guilt.,2018-08-23 22:01:08
+1931189830271244,Bianca,Yu,13063,1931189830271244,854518728062939,user_typing,Moving,2018-08-23 22:01:26
+1931189830271244,Bianca,Yu,13064,854518728062939,1931189830271244,BOT: message,That's not quite right. :disappointed_face:,2018-08-23 22:01:27
+1931189830271244,Bianca,Yu,13065,854518728062939,1931189830271244,BOT: quick reply,The correct answer is eloquent.,2018-08-23 22:01:29
+1931189830271244,Bianca,Yu,13066,1931189830271244,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-23 22:01:34
+1931189830271244,Bianca,Yu,13067,854518728062939,1931189830271244,BOT: message,"Alrighty, let's try this one.",2018-08-23 22:01:36
+1931189830271244,Bianca,Yu,13068,854518728062939,1931189830271244,BOT: quick reply,What is a fiber that is found only in mammals?,2018-08-23 22:01:37
+1931189830271244,Bianca,Yu,13069,1931189830271244,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 22:01:43
+1931189830271244,Bianca,Yu,13070,854518728062939,1931189830271244,BOT: message,Which of the following options is the right answer?,2018-08-23 22:01:44
+1931189830271244,Bianca,Yu,13071,854518728062939,1931189830271244,BOT: quick reply,":keycap_1: nails
+:keycap_2: hair
+:keycap_3: muscle
+:keycap_4: feathers
+",2018-08-23 22:01:46
+1931189830271244,Bianca,Yu,13072,1931189830271244,854518728062939,user_quick_reply: BUTTON_AKB_hair,:keycap_2:,2018-08-23 22:01:55
+1931189830271244,Bianca,Yu,13073,854518728062939,1931189830271244,BOT: image,https://www.smartprimer.org:443/pictures/avatar/congrats/penguinnormal_jubilated_purple.png,2018-08-23 22:01:58
+1931189830271244,Bianca,Yu,13074,854518728062939,1931189830271244,BOT: message,Nice work! Keep it up!,2018-08-23 22:02:00
+1931189830271244,Bianca,Yu,13075,854518728062939,1931189830271244,BOT: quick reply,The correct answer is hair.,2018-08-23 22:02:02
+1931189830271244,Bianca,Yu,13076,1931189830271244,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-23 22:04:20
+1931189830271244,Bianca,Yu,13077,854518728062939,1931189830271244,BOT: message,See if you can answer this next one.,2018-08-23 22:04:22
+1931189830271244,Bianca,Yu,13078,854518728062939,1931189830271244,BOT: quick reply,"Western culture has so influenced Middle Eastern music that even the latter's roles of composer and performer, at one time inseparable, have now begun to _____ .",2018-08-23 22:04:23
+1931189830271244,Bianca,Yu,13079,1931189830271244,854518728062939,user_typing,Diverge,2018-08-23 22:04:33
+1931189830271244,Bianca,Yu,13080,854518728062939,1931189830271244,BOT: message,Nice! :red_apple:,2018-08-23 22:04:34
+1931189830271244,Bianca,Yu,13081,854518728062939,1931189830271244,BOT: quick reply,The correct answer is diverge.,2018-08-23 22:04:36
+1931189830271244,Bianca,Yu,13082,1931189830271244,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-23 22:08:39
+1931189830271244,Bianca,Yu,13083,854518728062939,1931189830271244,BOT: message,Let's see if you can answer this question.,2018-08-23 22:08:41
+1931189830271244,Bianca,Yu,13084,854518728062939,1931189830271244,BOT: quick reply,"Western culture has so influenced Middle Eastern music that even the latter's roles of composer and performer, at one time inseparable, have now begun to _____ .",2018-08-23 22:08:42
+1931189830271244,Bianca,Yu,13085,1931189830271244,854518728062939,user_typing,Diverge,2018-08-23 22:08:52
+1931189830271244,Bianca,Yu,13086,854518728062939,1931189830271244,BOT: message,Correct! :confetti_ball:,2018-08-23 22:08:53
+1931189830271244,Bianca,Yu,13087,854518728062939,1931189830271244,BOT: quick reply,The correct answer is diverge.,2018-08-23 22:08:55
+1931189830271244,Bianca,Yu,13088,1931189830271244,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-23 22:08:57
+1931189830271244,Bianca,Yu,13089,854518728062939,1931189830271244,BOT: message,Let's see if you can answer this question.,2018-08-23 22:08:59
+1931189830271244,Bianca,Yu,13090,854518728062939,1931189830271244,BOT: quick reply,What are the hormones that cause a plant to grow?,2018-08-23 22:09:00
+1931189830271244,Bianca,Yu,13091,1931189830271244,854518728062939,user_typing,Gibberellin,2018-08-23 22:13:28
+1931189830271244,Bianca,Yu,13092,854518728062939,1931189830271244,BOT: message,"I'm sorry, but that was incorrect. :disappointed_face:",2018-08-23 22:13:30
+1931189830271244,Bianca,Yu,13093,854518728062939,1931189830271244,BOT: quick reply,The correct answer is gibberellins.,2018-08-23 22:13:31
+1931189830271244,Bianca,Yu,13094,1931189830271244,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-23 22:13:37
+1931189830271244,Bianca,Yu,13095,854518728062939,1931189830271244,BOT: message,How about this next one:,2018-08-23 22:13:38
+1931189830271244,Bianca,Yu,13096,854518728062939,1931189830271244,BOT: quick reply,"When using a ladder to climb a roof, the ladder must extend at least___ above it.",2018-08-23 22:13:40
+1931189830271244,Bianca,Yu,13097,1931189830271244,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 22:13:46
+1931189830271244,Bianca,Yu,13098,854518728062939,1931189830271244,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-08-23 22:13:47
+1931189830271244,Bianca,Yu,13099,854518728062939,1931189830271244,BOT: quick reply,":keycap_1: 24
+:keycap_2: 30
+:keycap_3: 36
+:keycap_4: 18
+",2018-08-23 22:13:49
+1931189830271244,Bianca,Yu,13100,1931189830271244,854518728062939,user_quick_reply: BUTTON_DKB_30,:keycap_2:,2018-08-23 22:13:57
+1931189830271244,Bianca,Yu,13101,854518728062939,1931189830271244,BOT: message,"Hmm, that wasn't quite right. :disappointed_face:",2018-08-23 22:13:58
+1931189830271244,Bianca,Yu,13102,854518728062939,1931189830271244,BOT: quick reply,The correct answer is 36.,2018-08-23 22:14:00
+1931189830271244,Bianca,Yu,13103,1931189830271244,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-23 22:14:27
+1931189830271244,Bianca,Yu,13104,1931189830271244,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-23 22:14:28
+1931189830271244,Bianca,Yu,13105,854518728062939,1931189830271244,BOT: message,Let's try this one.,2018-08-23 22:14:28
+1931189830271244,Bianca,Yu,13106,854518728062939,1931189830271244,BOT: message,Let's take a look at this question.,2018-08-23 22:14:30
+1931189830271244,Bianca,Yu,13107,854518728062939,1931189830271244,BOT: quick reply,What is the height above or below sea level called?,2018-08-23 22:14:30
+1931189830271244,Bianca,Yu,13108,854518728062939,1931189830271244,BOT: quick reply,"Arrange in the correct order the following treatment steps for somebody who has lost consciousness: (i) call 911 or inform someone of the situation, (ii) begin CPR, (iii) check the patient's airway to make sure it is clear, (iv) place the victim on his/her back, (v) check signs of life (coughing, breathing, or movement).",2018-08-23 22:14:31
+1931189830271244,Bianca,Yu,13109,1931189830271244,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 22:15:04
+1931189830271244,Bianca,Yu,13110,854518728062939,1931189830271244,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-08-23 22:15:06
+1931189830271244,Bianca,Yu,13111,854518728062939,1931189830271244,BOT: quick reply,":keycap_1: v, iv, iii, i, ii
+:keycap_2: iv, i, iii, v, ii
+:keycap_3: i, ii, iii, iv, v
+:keycap_4: ii, iv, iii, v, i
+",2018-08-23 22:15:07
+1931189830271244,Bianca,Yu,13112,1931189830271244,854518728062939,"user_quick_reply: BUTTON_AKB_iv, i, iii, v, ii",:keycap_2:,2018-08-23 22:16:06
+1931189830271244,Bianca,Yu,13113,854518728062939,1931189830271244,BOT: message,Great! Keep it up! :flexed_biceps_medium-light_skin_tone:,2018-08-23 22:16:07
+1931189830271244,Bianca,Yu,13114,854518728062939,1931189830271244,BOT: quick reply,"The correct answer is iv, i, iii, v, ii.",2018-08-23 22:16:08

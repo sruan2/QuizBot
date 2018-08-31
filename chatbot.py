@@ -1,7 +1,7 @@
 '''
     chatbot.py
     Author: Liwei Jiang, Sherry Ruan, Zhengneng Qiu
-    Date: 24/07/2018
+    Last Modified Date: 09/08/2018
     Usage: Receiving and sending messages between the users and the chatbot.
 '''
 
@@ -194,7 +194,7 @@ def respond_to_payload(payload, sender_id, qa_model, chatbot_text, template_conv
         db.update_user_history(
             mysql, sender_id, 0, "multiple-choice", cache[sender_id]['begin_uid'], uid)
         qa_model.updateHistory(
-            sender_id, (cache[sender_id]['current_qid'], 0, db.show_timestamp(mysql, uid)))
+            sender_id, (cache[sender_id]['current_qid'][0], 0, db.show_timestamp(mysql, uid)))
         send_paragraph(
             mysql, sender_id, payload[:10], chatbot_text, template_conversation, "paragraph_1")
         send_correct_answer(mysql, sender_id, payload[:10],
@@ -204,7 +204,7 @@ def respond_to_payload(payload, sender_id, qa_model, chatbot_text, template_conv
         db.update_user_history(
             mysql, sender_id, 10, "multiple-choice", cache[sender_id]['begin_uid'], uid)
         qa_model.updateHistory(
-            sender_id, (cache[sender_id]['current_qid'], 10, db.show_timestamp(mysql, uid)))
+            sender_id, (cache[sender_id]['current_qid'][0], 10, db.show_timestamp(mysql, uid)))
         send_congratulation_image(mysql, sender_id, template_conversation)
         send_paragraph(
             mysql, sender_id, payload[:10], chatbot_text, template_conversation, "paragraph_1")
@@ -272,7 +272,6 @@ def respond_to_payload(payload, sender_id, qa_model, chatbot_text, template_conv
                           template_conversation, "conversation_1")
 
 
-# TODO: Remove redundant code
 def respond_to_messagetext(message_text, sender_id, qa_model, chatbot_text, template_conversation, mysql, cache, uid):
     '''
         This function responds to the user's message texts.
@@ -296,18 +295,19 @@ def respond_to_messagetext(message_text, sender_id, qa_model, chatbot_text, temp
     '''
     message_text = message_text.lower()
 
+    # allow user to type in the bug report
     if cache[sender_id]["last_payload"] == "REPORT_BUG":
-        send_conversation(mysql, sender_id, "MESSAGE_TEXT",
-                          chatbot_text, template_conversation, "conversation_2")
+        send_paragraph(mysql, sender_id, "MESSAGE_TEXT",
+                           chatbot_text, template_conversation, "paragraph_4")
         return
 
     qid = cache[sender_id]["current_qid"]
     if cache[sender_id]["waiting_for_answer"]:
-        score = qa_model.computeScore(message_text, qid)
+        score = qa_model.computeScore(message_text, qid[0])
         db.update_user_history(
             mysql, sender_id, score, "fill_in_the_blank", cache[sender_id]['begin_uid'], uid)
         qa_model.updateHistory(
-            sender_id, (cache[sender_id]['current_qid'], score, db.show_timestamp(mysql, uid)))
+            sender_id, (qid[0], score, db.show_timestamp(mysql, uid)))
         if score < 9:
             send_paragraph(mysql, sender_id, "MESSAGE_TEXT",
                            chatbot_text, template_conversation, "paragraph_1")

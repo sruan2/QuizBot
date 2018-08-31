@@ -1,8 +1,11 @@
+var user_id;
+
 $('document').ready(
     function() {
         $subject = 'science';
-        fetch_question()
+        $qid = null;
         load();
+        fetch_question();
         FastClick.attach(document.body);
         $('.element-front').show();
         $('.element-back').hide();
@@ -14,14 +17,13 @@ $('document').ready(
     }
 )
 
-
 function change(subject) {
     $subject = subject;
     fetch_question();
     if (!$('#front').is(":visible")) {
         flip();
     }
-    log('change to ' + subject)
+    log('change to ' + subject, $question["qid"][1])
 }
 
 
@@ -29,11 +31,11 @@ function flip() {
     if ($('#front').is(":visible")) {
         $('.element-front').hide();
         $('.element-back').show();
-        log("card flip to answer");
+        log("card flip to answer", $question["qid"][1]);
     } else {
         $('.element-back').hide();
         $('.element-front').show();
-        log("card flip to question");
+        log("card flip to question", $question["qid"][1]);
     }
 }
 
@@ -42,7 +44,7 @@ function flip_to_front() {
     if (!$('#front').is(":visible")) {
         $('.element-back').hide();
         $('.element-front').show();
-        log("card flip to question");
+        log("card flip to question", $question["qid"][1]);
     }
 }
 
@@ -50,19 +52,20 @@ function flip_to_front() {
 function got_it() {
     fetch_question();
     flip_to_front()
-    log("got it");
+    log("got it", $question["qid"][1]);
 }
 
 
 function not_got_it() {
     fetch_question();
     flip_to_front()
-    log("I don't know");
+    log("I don't know", $question["qid"][1]);
 }
 
 
 function update(question) {
-    // console.log('update:' + question['qid']);
+    console.log('update:' + question['qid'][1]);
+    console.log(question)
     $('#front').html("Q: " + question['question']);
     $('#back').html("A: " + question['correct_answer']);
     $('#explanation').html(question['support']);
@@ -74,7 +77,7 @@ function update(question) {
     }
     $('#hint').html($hints + "</ol>");
 
-    $('#qid').html("Question " + question['qid']);
+    $('#qid').html("Question " + question['qid'][1]);
 }
 
 
@@ -102,12 +105,13 @@ function load() {
         $('#lastname').val($user.firstname + ' ' + $user.lastname);
     }
     console.log('load: ' + $user);
+    user_id = $user.id;
 }
 
 
 function fetch_question() {
     if ($subject === "science" ) {
-        fetch('/question_data_science').then(function(response) {
+        fetch('/question_data_science?user_id=' + user_id).then(function(response) {
             response.json().then(function(json) {
                 $question = json;
                 update($question);
@@ -115,7 +119,7 @@ function fetch_question() {
         });
     }
     else if ($subject === "safety" ) {
-        fetch('/question_data_safety').then(function(response) {
+        fetch('/question_data_safety?user_id=' + user_id).then(function(response) {
             response.json().then(function(json) {
                 $question = json;
                 update($question);
@@ -123,7 +127,7 @@ function fetch_question() {
         });
     }
     else if ($subject === "gre" ) {
-        fetch('/question_data_gre').then(function(response) {
+        fetch('/question_data_gre?user_id=' + user_id).then(function(response) {
             response.json().then(function(json) {
                 $question = json;
                 update($question);
@@ -131,7 +135,7 @@ function fetch_question() {
         });
     }
     else {
-        fetch('/question_data').then(function(response) {
+        fetch('/question_data?user_id=' + user_id).then(function(response) {
             response.json().then(function(json) {
                 $question = json;
                 update($question);
@@ -152,12 +156,11 @@ function save() {
 
 
 function hint() {
-    log('toggle hint');
+    log('toggle hint', $question["qid"][1]);
 }
 
-
 function explanation() {
-    log('toggle explanation');
+    log('toggle explanation', $question["qid"][1]);
 }
 
 

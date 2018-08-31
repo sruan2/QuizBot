@@ -1,0 +1,967 @@
+user_id,user_firstname,user_lastname,uid,sender,recipient,type,dialogue,time_stamp
+2142939015781138,Ted,Shaowang,4674,2142939015781138,854518728062939,persistent_menu: GET_INTRO_1,Get Started,2018-08-22 18:52:48
+2142939015781138,Ted,Shaowang,4676,854518728062939,2142939015781138,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/quizbot_avatar.png,2018-08-22 18:52:52
+2142939015781138,Ted,Shaowang,4678,854518728062939,2142939015781138,BOT: quick reply,"Hi Ted! My name is Frosty :penguin: and Im here to help you learn all about science:microscope:, verbal reasoning (GRE) :input_latin_uppercase:, and safety:hammer_and_wrench:!",2018-08-22 18:52:54
+2142939015781138,Ted,Shaowang,4681,2142939015781138,854518728062939,user_quick_reply: GET_INTRO_2,I see :oncoming_fist_medium-light_skin_tone:,2018-08-22 18:53:01
+2142939015781138,Ted,Shaowang,4683,854518728062939,2142939015781138,BOT: message,Heres how it works.,2018-08-22 18:53:02
+2142939015781138,Ted,Shaowang,4685,854518728062939,2142939015781138,BOT: message,"I ask you questions, and you give me answers.",2018-08-22 18:53:04
+2142939015781138,Ted,Shaowang,4687,854518728062939,2142939015781138,BOT: quick reply,We will learn fun things together!,2018-08-22 18:53:05
+2142939015781138,Ted,Shaowang,4690,2142939015781138,854518728062939,user_quick_reply: GET_INTRO_3,Got it :thumbs_up_medium-light_skin_tone:,2018-08-22 18:53:11
+2142939015781138,Ted,Shaowang,4693,854518728062939,2142939015781138,BOT: image,https://www.smartprimer.org:8443/pictures/user_manual/typeanswer.png,2018-08-22 18:53:14
+2142939015781138,Ted,Shaowang,4694,2142939015781138,854518728062939,persistent_menu: SAFETY,Safety:hammer_and_wrench:,2018-08-22 18:53:15
+2142939015781138,Ted,Shaowang,4696,854518728062939,2142939015781138,BOT: quick reply,"To study the questions, you can type in your answers in the text field and I will evaluate the answers for you using advanced NLP (Natural Language Processing) technology.",2018-08-22 18:53:16
+2142939015781138,Ted,Shaowang,4697,854518728062939,2142939015781138,BOT: quick reply,Good choice! Let's see what you know about safety!,2018-08-22 18:53:17
+2142939015781138,Ted,Shaowang,4699,2142939015781138,854518728062939,user_quick_reply: NEXT_QUESTION,I see :clapping_hands_medium-light_skin_tone:,2018-08-22 18:53:22
+2142939015781138,Ted,Shaowang,4701,854518728062939,2142939015781138,BOT: message,"Alrighty, let's try this one.",2018-08-22 18:53:24
+2142939015781138,Ted,Shaowang,4703,854518728062939,2142939015781138,BOT: quick reply,Which fire extinguishers are used to put out fires caused by flammable liquids?,2018-08-22 18:53:26
+2142939015781138,Ted,Shaowang,4708,2142939015781138,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-22 18:53:41
+2142939015781138,Ted,Shaowang,4710,854518728062939,2142939015781138,BOT: message,Which of the following options is the right answer?,2018-08-22 18:53:42
+2142939015781138,Ted,Shaowang,4712,854518728062939,2142939015781138,BOT: quick reply,":keycap_1: Class B carbon dioxide fire extinguisher
+:keycap_2: Class A water fire extinguishers
+:keycap_3: Class C dry chemical fire extinguisher
+",2018-08-22 18:53:44
+2142939015781138,Ted,Shaowang,4713,2142939015781138,854518728062939,user_quick_reply: BUTTON_DKB_Class A water fire extinguishers,:keycap_2:,2018-08-22 18:53:53
+2142939015781138,Ted,Shaowang,4714,854518728062939,2142939015781138,BOT: message,"Hmm, that wasn't quite right. :disappointed_face:",2018-08-22 18:53:54
+2142939015781138,Ted,Shaowang,4715,854518728062939,2142939015781138,BOT: quick reply,The correct answer is Class B carbon dioxide fire extinguisher.,2018-08-22 18:53:56
+2142939015781138,Ted,Shaowang,4716,2142939015781138,854518728062939,persistent_menu: USER_MANUAL_1,User Manual :woman_technologist_light_skin_tone::man_technologist_light_skin_tone:,2018-08-22 18:54:06
+2142939015781138,Ted,Shaowang,4717,854518728062939,2142939015781138,BOT: image,https://www.smartprimer.org:8443/pictures/user_manual/typeanswer.png,2018-08-22 18:54:09
+2142939015781138,Ted,Shaowang,4718,854518728062939,2142939015781138,BOT: quick reply,"To study the questions, you can type in your answers in the text field and I will evaluate the answers for you using advanced NLP (Natural Language Processing) technology.",2018-08-22 18:54:11
+2142939015781138,Ted,Shaowang,4801,2142939015781138,854518728062939,persistent_menu: CHAT_WITH_ME,Chat with Me :penguin:,2018-08-22 19:10:50
+2142939015781138,Ted,Shaowang,4803,854518728062939,2142939015781138,BOT: quick reply,Do you want me to tell you something fun?,2018-08-22 19:10:51
+2142939015781138,Ted,Shaowang,4805,2142939015781138,854518728062939,persistent_menu: GRE,GRE :input_latin_uppercase:,2018-08-22 19:10:56
+2142939015781138,Ted,Shaowang,4807,854518728062939,2142939015781138,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/evolvesafety_reading.gif,2018-08-22 19:11:02
+2142939015781138,Ted,Shaowang,4808,854518728062939,2142939015781138,BOT: quick reply,Let's answer some questions about the GRE!,2018-08-22 19:11:03
+2142939015781138,Ted,Shaowang,4813,2142939015781138,854518728062939,user_quick_reply: NEXT_QUESTION,Continue :raising_hands_medium-light_skin_tone:,2018-08-22 19:11:10
+2142939015781138,Ted,Shaowang,4814,854518728062939,2142939015781138,BOT: message,How about this next one:,2018-08-22 19:11:11
+2142939015781138,Ted,Shaowang,4815,854518728062939,2142939015781138,BOT: quick reply,"Although John F. Kennedy was known for his carefree flag football games, Gerald Ford should be _____ as our football president: he turned down offers to play for two National Football League teams in order to pursue a career in public service.",2018-08-22 19:11:13
+2142939015781138,Ted,Shaowang,4826,2142939015781138,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-22 19:11:43
+2142939015781138,Ted,Shaowang,4827,854518728062939,2142939015781138,BOT: message,It's one of the following choices.,2018-08-22 19:11:44
+2142939015781138,Ted,Shaowang,4828,854518728062939,2142939015781138,BOT: quick reply,":keycap_1: annulled
+:keycap_2: relegated
+:keycap_3: criticized
+:keycap_4: abrogated
+:keycap_5: apotheosized
+",2018-08-22 19:11:46
+2142939015781138,Ted,Shaowang,4830,2142939015781138,854518728062939,user_quick_reply: BUTTON_DKB_relegated,:keycap_2:,2018-08-22 19:12:03
+2142939015781138,Ted,Shaowang,4832,854518728062939,2142939015781138,BOT: message,That's not quite right. :disappointed_face:,2018-08-22 19:12:04
+2142939015781138,Ted,Shaowang,4834,854518728062939,2142939015781138,BOT: quick reply,The correct answer is apotheosized.,2018-08-22 19:12:06
+2142939015781138,Ted,Shaowang,4835,2142939015781138,854518728062939,user_quick_reply: WHY,Why?,2018-08-22 19:12:12
+2142939015781138,Ted,Shaowang,4836,854518728062939,2142939015781138,BOT: message,I hope this explanation could help you understand the the question.,2018-08-22 19:12:13
+2142939015781138,Ted,Shaowang,4837,854518728062939,2142939015781138,BOT: quick reply,":pushpin: Apotheosized -- deify or glorify
+:pushpin: Relegated -- to send or consign to an inferior position, place, or condition
+:pushpin: Abrogated -- revoke formally
+:pushpin: Annulled -- declare invalid
+:pushpin: Criticized -- find fault with; express criticism of; point out real or perceived flaws",2018-08-22 19:12:15
+2142939015781138,Ted,Shaowang,4893,2142939015781138,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-22 19:16:43
+2142939015781138,Ted,Shaowang,4894,854518728062939,2142939015781138,BOT: message,Would you answer this question for me?,2018-08-22 19:16:44
+2142939015781138,Ted,Shaowang,4895,854518728062939,2142939015781138,BOT: quick reply,"With a similar contrast between a partly cloudy sky and a dark street, the cover of the recent rock CD _____ a famous surrealist painting from the early 1900s.",2018-08-22 19:16:46
+2142939015781138,Ted,Shaowang,4899,2142939015781138,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-22 19:16:59
+2142939015781138,Ted,Shaowang,4900,854518728062939,2142939015781138,BOT: message,Pick one of the following answers.,2018-08-22 19:17:00
+2142939015781138,Ted,Shaowang,4901,854518728062939,2142939015781138,BOT: quick reply,":keycap_1: sanctions
+:keycap_2: evokes
+:keycap_3: disenchants
+:keycap_4: admires
+:keycap_5: obfuscates
+",2018-08-22 19:17:02
+2142939015781138,Ted,Shaowang,4929,2142939015781138,854518728062939,user_quick_reply: BUTTON_DKB_admires,:keycap_4:,2018-08-22 19:19:05
+2142939015781138,Ted,Shaowang,4930,854518728062939,2142939015781138,BOT: message,"Oops, that wasn't quite correct. :disappointed_face:",2018-08-22 19:19:07
+2142939015781138,Ted,Shaowang,4932,854518728062939,2142939015781138,BOT: quick reply,The correct answer is evokes.,2018-08-22 19:19:08
+2142939015781138,Ted,Shaowang,4936,2142939015781138,854518728062939,user_quick_reply: WHY,Why?,2018-08-22 19:19:13
+2142939015781138,Ted,Shaowang,4938,854518728062939,2142939015781138,BOT: message,This is an explanation of the question:,2018-08-22 19:19:15
+2142939015781138,Ted,Shaowang,4939,854518728062939,2142939015781138,BOT: quick reply,":pushpin: Evokes -- call forth emotions, feelings, and responses
+:pushpin: Admires -- feel admiration for
+:pushpin: Obfuscates -- make obscure or unclear
+:pushpin: Disenchants -- free from enchantment
+:pushpin: Sanctions -- give sanction to",2018-08-22 19:19:16
+2142939015781138,Ted,Shaowang,4946,2142939015781138,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-22 19:19:40
+2142939015781138,Ted,Shaowang,4947,854518728062939,2142939015781138,BOT: message,Let's see if you would answer this one.,2018-08-22 19:19:42
+2142939015781138,Ted,Shaowang,4948,854518728062939,2142939015781138,BOT: quick reply,"Many dog owners treat their pets too _____ , forgetting that canines have evolved in competitive environments in which emotional coddling was a sign of weakness.",2018-08-22 19:19:43
+2142939015781138,Ted,Shaowang,4952,2142939015781138,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-22 19:19:56
+2142939015781138,Ted,Shaowang,4953,854518728062939,2142939015781138,BOT: message,Pick one of the following answers.,2018-08-22 19:19:58
+2142939015781138,Ted,Shaowang,4954,854518728062939,2142939015781138,BOT: quick reply,":keycap_1: quixotically
+:keycap_2: belligerently
+:keycap_3: indulgently
+:keycap_4: aggressively
+:keycap_5: fortuitously
+",2018-08-22 19:19:59
+2142939015781138,Ted,Shaowang,4962,2142939015781138,854518728062939,user_quick_reply: BUTTON_DKB_quixotically,:keycap_1:,2018-08-22 19:20:34
+2142939015781138,Ted,Shaowang,4963,854518728062939,2142939015781138,BOT: message,That's not quite right. :disappointed_face:,2018-08-22 19:20:36
+2142939015781138,Ted,Shaowang,4965,854518728062939,2142939015781138,BOT: quick reply,The correct answer is indulgently.,2018-08-22 19:20:37
+2142939015781138,Ted,Shaowang,4968,2142939015781138,854518728062939,user_quick_reply: WHY,Why?,2018-08-22 19:20:42
+2142939015781138,Ted,Shaowang,4969,854518728062939,2142939015781138,BOT: message,Here's an explanation:,2018-08-22 19:20:43
+2142939015781138,Ted,Shaowang,4970,854518728062939,2142939015781138,BOT: quick reply,":pushpin: Indulgently -- benignly lenient or permissive
+:pushpin: Aggressively -- characterized by or tending toward unprovoked offensives, attacks, invasions, or the like
+:pushpin: Quixotically -- extravagantly chivalrous or romantic
+:pushpin: Fortuitously -- by good fortune
+:pushpin: Belligerently -- with hostility; in a belligerent hostile manner",2018-08-22 19:20:45
+2142939015781138,Ted,Shaowang,4979,2142939015781138,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-22 19:21:43
+2142939015781138,Ted,Shaowang,4981,854518728062939,2142939015781138,BOT: message,Let's see if you can answer this question.,2018-08-22 19:21:44
+2142939015781138,Ted,Shaowang,4983,854518728062939,2142939015781138,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-22 19:21:46
+2142939015781138,Ted,Shaowang,4985,854518728062939,2142939015781138,BOT: quick reply,"Possessing few natural resources upon its newly-granted independence in 1863, Singapore remained economically _____ until an influx of industrialization and foreign investment took hold there.",2018-08-22 19:21:47
+2142939015781138,Ted,Shaowang,4986,2142939015781138,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-22 19:21:52
+2142939015781138,Ted,Shaowang,4987,854518728062939,2142939015781138,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-08-22 19:21:54
+2142939015781138,Ted,Shaowang,4988,854518728062939,2142939015781138,BOT: quick reply,":keycap_1: solvent
+:keycap_2: dubious
+:keycap_3: prosperous
+:keycap_4: fortuitous
+:keycap_5: powerful
+",2018-08-22 19:21:55
+2142939015781138,Ted,Shaowang,4989,2142939015781138,854518728062939,user_quick_reply: BUTTON_AKB_dubious,:keycap_2:,2018-08-22 19:22:01
+2142939015781138,Ted,Shaowang,4990,854518728062939,2142939015781138,BOT: message,Yes! You got the correct answer!,2018-08-22 19:22:02
+2142939015781138,Ted,Shaowang,4992,854518728062939,2142939015781138,BOT: quick reply,The correct answer is dubious.,2018-08-22 19:22:04
+2142939015781138,Ted,Shaowang,4995,2142939015781138,854518728062939,user_quick_reply: WHY,Why?,2018-08-22 19:22:09
+2142939015781138,Ted,Shaowang,4996,854518728062939,2142939015781138,BOT: message,Here's an explanation:,2018-08-22 19:22:10
+2142939015781138,Ted,Shaowang,4997,854518728062939,2142939015781138,BOT: quick reply,":pushpin: Dubious -- fraught with uncertainty or doubt
+:pushpin: Powerful -- having great power or force or potency or effect
+:pushpin: Prosperous -- in fortunate circumstances financially; moderately rich
+:pushpin: Solvent -- capable of meeting financial obligations
+:pushpin: Fortuitous -- having no cause or apparent cause",2018-08-22 19:22:12
+2142939015781138,Ted,Shaowang,4998,2142939015781138,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-22 19:22:28
+2142939015781138,Ted,Shaowang,4999,854518728062939,2142939015781138,BOT: message,See if you can answer this next one.,2018-08-22 19:22:30
+2142939015781138,Ted,Shaowang,5000,854518728062939,2142939015781138,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-22 19:22:31
+2142939015781138,Ted,Shaowang,5001,854518728062939,2142939015781138,BOT: quick reply,"Despite the smile that spread from ear to ear, the eyes relayed a certain _____ .",2018-08-22 19:22:33
+2142939015781138,Ted,Shaowang,5003,2142939015781138,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-22 19:23:16
+2142939015781138,Ted,Shaowang,5004,854518728062939,2142939015781138,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-08-22 19:23:17
+2142939015781138,Ted,Shaowang,5005,854518728062939,2142939015781138,BOT: quick reply,":keycap_1: sorrow
+:keycap_2: liveliness
+:keycap_3: jubilance
+:keycap_4: vision
+:keycap_5: mischievousness
+",2018-08-22 19:23:19
+2142939015781138,Ted,Shaowang,5006,2142939015781138,854518728062939,user_quick_reply: BUTTON_AKB_sorrow,:keycap_1:,2018-08-22 19:23:33
+2142939015781138,Ted,Shaowang,5007,854518728062939,2142939015781138,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_jubilated_purple.png,2018-08-22 19:23:36
+2142939015781138,Ted,Shaowang,5008,854518728062939,2142939015781138,BOT: message,Nice! That was right!,2018-08-22 19:23:37
+2142939015781138,Ted,Shaowang,5009,854518728062939,2142939015781138,BOT: quick reply,The correct answer is sorrow.,2018-08-22 19:23:39
+2142939015781138,Ted,Shaowang,5010,2142939015781138,854518728062939,user_quick_reply: WHY,Why?,2018-08-22 19:23:44
+2142939015781138,Ted,Shaowang,5011,854518728062939,2142939015781138,BOT: message,This is an explanation of the question:,2018-08-22 19:23:45
+2142939015781138,Ted,Shaowang,5012,854518728062939,2142939015781138,BOT: quick reply,":pushpin: Sorrow -- a feeling of grief
+:pushpin: Jubilance -- a feeling of extreme joy
+:pushpin: Mischievousness -- an attribute of mischievous children
+:pushpin: Vision -- a vivid mental image
+:pushpin: Liveliness -- general activity and motion",2018-08-22 19:23:47
+2142939015781138,Ted,Shaowang,5079,854518728062939,2142939015781138,BOT: quick reply,"Hi Ted, you haven't talked to me for a while. Would you like to resume the learning with me?",2018-08-22 20:00:22
+2142939015781138,Ted,Shaowang,6038,2142939015781138,854518728062939,user_quick_reply: NEXT_QUESTION,Tap me :backhand_index_pointing_right_medium-light_skin_tone:,2018-08-22 22:22:24
+2142939015781138,Ted,Shaowang,6039,854518728062939,2142939015781138,BOT: message,What about this next question:,2018-08-22 22:22:25
+2142939015781138,Ted,Shaowang,6040,854518728062939,2142939015781138,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-22 22:22:26
+2142939015781138,Ted,Shaowang,6041,854518728062939,2142939015781138,BOT: quick reply,"Even though legislators claimed the Contagious Diseases Acts strengthened the nation, social purists argued the Acts _____ the nation's moral growth by encouraging licentious behavior.",2018-08-22 22:22:28
+2142939015781138,Ted,Shaowang,6042,2142939015781138,854518728062939,user_typing,lowered,2018-08-22 22:23:09
+2142939015781138,Ted,Shaowang,6043,854518728062939,2142939015781138,BOT: message,"I'm sorry, but that was incorrect. :disappointed_face:",2018-08-22 22:23:10
+2142939015781138,Ted,Shaowang,6045,854518728062939,2142939015781138,BOT: quick reply,The correct answer is hampered.,2018-08-22 22:23:12
+2142939015781138,Ted,Shaowang,6046,2142939015781138,854518728062939,user_quick_reply: WHY,Why?,2018-08-22 22:23:17
+2142939015781138,Ted,Shaowang,6047,854518728062939,2142939015781138,BOT: message,I hope this explanation could help you understand the the question.,2018-08-22 22:23:18
+2142939015781138,Ted,Shaowang,6048,854518728062939,2142939015781138,BOT: quick reply,":pushpin: Hampered -- prevent the progress or free movement of
+:pushpin: Advanced -- move or bring forward
+:pushpin: Ameliorated -- to make better
+:pushpin: Supplanted -- take the place or move into the position of
+:pushpin: Enhanced -- increased or intensified in value or beauty or quality",2018-08-22 22:23:20
+2142939015781138,Ted,Shaowang,6050,2142939015781138,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-22 22:23:45
+2142939015781138,Ted,Shaowang,6051,854518728062939,2142939015781138,BOT: message,See if you can answer this next one.,2018-08-22 22:23:46
+2142939015781138,Ted,Shaowang,6052,854518728062939,2142939015781138,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-22 22:23:48
+2142939015781138,Ted,Shaowang,6053,854518728062939,2142939015781138,BOT: quick reply,While she may have answered him truthfully - in the strictest sense of the word - it became clear to Sergei after the incident that Sheryl had actually been trying to _____ .,2018-08-22 22:23:49
+2142939015781138,Ted,Shaowang,6056,2142939015781138,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-22 22:23:54
+2142939015781138,Ted,Shaowang,6058,854518728062939,2142939015781138,BOT: message,Okay. I'll give you some choices.,2018-08-22 22:23:55
+2142939015781138,Ted,Shaowang,6059,854518728062939,2142939015781138,BOT: quick reply,":keycap_1: desiccate
+:keycap_2: obfuscate
+:keycap_3: vituperate
+:keycap_4: illuminate
+:keycap_5: covet
+",2018-08-22 22:23:56
+2142939015781138,Ted,Shaowang,6061,2142939015781138,854518728062939,user_quick_reply: BUTTON_AKB_obfuscate,:keycap_2:,2018-08-22 22:24:21
+2142939015781138,Ted,Shaowang,6063,854518728062939,2142939015781138,BOT: message,Great job getting the correct answer!,2018-08-22 22:24:23
+2142939015781138,Ted,Shaowang,6066,854518728062939,2142939015781138,BOT: quick reply,The correct answer is obfuscate.,2018-08-22 22:24:24
+2142939015781138,Ted,Shaowang,6067,2142939015781138,854518728062939,user_quick_reply: WHY,Why?,2018-08-22 22:24:28
+2142939015781138,Ted,Shaowang,6068,854518728062939,2142939015781138,BOT: message,This is an explanation of the question:,2018-08-22 22:24:30
+2142939015781138,Ted,Shaowang,6069,854518728062939,2142939015781138,BOT: quick reply,":pushpin: Obfuscate -- make obscure or unclear
+:pushpin: Vituperate -- spread negative information about
+:pushpin: Illuminate -- make lighter or brighter
+:pushpin: Covet -- wish, long, or crave for something, especially the property of another person
+:pushpin: Desiccate -- to dry thoroughly; dry up",2018-08-22 22:24:31
+2142939015781138,Ted,Shaowang,6077,2142939015781138,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-22 22:25:10
+2142939015781138,Ted,Shaowang,6078,854518728062939,2142939015781138,BOT: message,I think you'll like this question.,2018-08-22 22:25:12
+2142939015781138,Ted,Shaowang,6080,854518728062939,2142939015781138,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-22 22:25:13
+2142939015781138,Ted,Shaowang,6082,854518728062939,2142939015781138,BOT: quick reply,"In psychological literature, the ""sleeper effect"" refers to the phenomenon in which a persuasive message from a trustworthy source loses _____ over time, while the efficacy of a message from a less credible source simultaneously increases.",2018-08-22 22:25:15
+2142939015781138,Ted,Shaowang,6084,2142939015781138,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-22 22:25:21
+2142939015781138,Ted,Shaowang,6085,854518728062939,2142939015781138,BOT: message,Okay. I'll give you some choices.,2018-08-22 22:25:22
+2142939015781138,Ted,Shaowang,6086,854518728062939,2142939015781138,BOT: quick reply,":keycap_1: control
+:keycap_2: evasiveness
+:keycap_3: prescience
+:keycap_4: cogency
+:keycap_5: erudition
+",2018-08-22 22:25:24
+2142939015781138,Ted,Shaowang,6090,2142939015781138,854518728062939,user_quick_reply: BUTTON_DKB_evasiveness,:keycap_2:,2018-08-22 22:25:38
+2142939015781138,Ted,Shaowang,6091,854518728062939,2142939015781138,BOT: message,That's not quite right. :disappointed_face:,2018-08-22 22:25:39
+2142939015781138,Ted,Shaowang,6092,854518728062939,2142939015781138,BOT: quick reply,The correct answer is cogency.,2018-08-22 22:25:41
+2142939015781138,Ted,Shaowang,6093,2142939015781138,854518728062939,user_quick_reply: WHY,Why?,2018-08-22 22:25:45
+2142939015781138,Ted,Shaowang,6094,854518728062939,2142939015781138,BOT: message,This is why:,2018-08-22 22:25:47
+2142939015781138,Ted,Shaowang,6096,854518728062939,2142939015781138,BOT: quick reply,":pushpin: Cogency -- persuasive relevance
+:pushpin: Prescience -- the power to foresee the future
+:pushpin: Erudition -- profound scholarly knowledge
+:pushpin: Evasiveness -- intentionally vague or ambiguous
+:pushpin: Control -- exercise authoritative control or power over",2018-08-22 22:25:48
+2142939015781138,Ted,Shaowang,6098,2142939015781138,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-22 22:26:47
+2142939015781138,Ted,Shaowang,6099,854518728062939,2142939015781138,BOT: message,What about this next question:,2018-08-22 22:26:48
+2142939015781138,Ted,Shaowang,6100,854518728062939,2142939015781138,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-22 22:26:50
+2142939015781138,Ted,Shaowang,6101,854518728062939,2142939015781138,BOT: quick reply,While she may have answered him truthfully - in the strictest sense of the word - it became clear to Sergei after the incident that Sheryl had actually been trying to _____ .,2018-08-22 22:26:51
+2142939015781138,Ted,Shaowang,6102,2142939015781138,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-22 22:26:57
+2142939015781138,Ted,Shaowang,6103,854518728062939,2142939015781138,BOT: message,Which of the following options is the right answer?,2018-08-22 22:26:59
+2142939015781138,Ted,Shaowang,6104,854518728062939,2142939015781138,BOT: quick reply,":keycap_1: covet
+:keycap_2: desiccate
+:keycap_3: vituperate
+:keycap_4: illuminate
+:keycap_5: obfuscate
+",2018-08-22 22:27:00
+2142939015781138,Ted,Shaowang,6105,2142939015781138,854518728062939,user_quick_reply: BUTTON_AKB_obfuscate,:keycap_5:,2018-08-22 22:27:05
+2142939015781138,Ted,Shaowang,6106,854518728062939,2142939015781138,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_normal_cyan.png,2018-08-22 22:27:08
+2142939015781138,Ted,Shaowang,6107,854518728062939,2142939015781138,BOT: message,Great job getting the correct answer!,2018-08-22 22:27:10
+2142939015781138,Ted,Shaowang,6108,854518728062939,2142939015781138,BOT: quick reply,The correct answer is obfuscate.,2018-08-22 22:27:11
+2142939015781138,Ted,Shaowang,6110,2142939015781138,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-22 22:27:17
+2142939015781138,Ted,Shaowang,6111,854518728062939,2142939015781138,BOT: message,Would you answer this question for me?,2018-08-22 22:27:18
+2142939015781138,Ted,Shaowang,6112,854518728062939,2142939015781138,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-22 22:27:19
+2142939015781138,Ted,Shaowang,6113,854518728062939,2142939015781138,BOT: quick reply,"Dolly Madison, the wife of President James Madison, was known especially for her _____ , remaining calm even as the British invaded Washington D.C. during the War of 1812.",2018-08-22 22:27:21
+2142939015781138,Ted,Shaowang,6115,2142939015781138,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-22 22:27:46
+2142939015781138,Ted,Shaowang,6116,854518728062939,2142939015781138,BOT: message,It's one of the following choices.,2018-08-22 22:27:47
+2142939015781138,Ted,Shaowang,6117,854518728062939,2142939015781138,BOT: quick reply,":keycap_1: zeal
+:keycap_2: cynicism
+:keycap_3: impracticality
+:keycap_4: malevolence
+:keycap_5: equanimity
+",2018-08-22 22:27:49
+2142939015781138,Ted,Shaowang,6118,2142939015781138,854518728062939,user_quick_reply: BUTTON_DKB_zeal,:keycap_1:,2018-08-22 22:27:54
+2142939015781138,Ted,Shaowang,6119,854518728062939,2142939015781138,BOT: message,"Oops, that is not correct. :disappointed_face:",2018-08-22 22:27:55
+2142939015781138,Ted,Shaowang,6120,854518728062939,2142939015781138,BOT: quick reply,The correct answer is equanimity.,2018-08-22 22:27:56
+2142939015781138,Ted,Shaowang,6121,2142939015781138,854518728062939,user_quick_reply: WHY,Why?,2018-08-22 22:28:02
+2142939015781138,Ted,Shaowang,6122,854518728062939,2142939015781138,BOT: message,I hope this explanation could help you understand the the question.,2018-08-22 22:28:03
+2142939015781138,Ted,Shaowang,6123,854518728062939,2142939015781138,BOT: quick reply,":pushpin: Equanimity -- steadiness of mind under stress
+:pushpin: Impracticality -- concerned with theoretical possibilities rather than actual use
+:pushpin: Cynicism -- a cynical feeling of distrust
+:pushpin: Zeal -- a feeling of strong eagerness usually in favor of a person or cause
+:pushpin: Malevolence -- wishing evil to others",2018-08-22 22:28:04
+2142939015781138,Ted,Shaowang,6126,2142939015781138,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-22 22:29:25
+2142939015781138,Ted,Shaowang,6127,854518728062939,2142939015781138,BOT: message,Would you answer this question for me?,2018-08-22 22:29:27
+2142939015781138,Ted,Shaowang,6128,854518728062939,2142939015781138,BOT: quick reply,"Dolly Madison, the wife of President James Madison, was known especially for her _____ , remaining calm even as the British invaded Washington D.C. during the War of 1812.",2018-08-22 22:29:28
+2142939015781138,Ted,Shaowang,6129,2142939015781138,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-22 22:29:33
+2142939015781138,Ted,Shaowang,6130,854518728062939,2142939015781138,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-08-22 22:29:34
+2142939015781138,Ted,Shaowang,6131,854518728062939,2142939015781138,BOT: quick reply,":keycap_1: cynicism
+:keycap_2: malevolence
+:keycap_3: impracticality
+:keycap_4: zeal
+:keycap_5: equanimity
+",2018-08-22 22:29:36
+2142939015781138,Ted,Shaowang,6132,2142939015781138,854518728062939,user_quick_reply: BUTTON_AKB_equanimity,:keycap_5:,2018-08-22 22:29:43
+2142939015781138,Ted,Shaowang,6133,854518728062939,2142939015781138,BOT: message,Great! Keep it up! :flexed_biceps_medium-light_skin_tone:,2018-08-22 22:29:44
+2142939015781138,Ted,Shaowang,6134,854518728062939,2142939015781138,BOT: quick reply,The correct answer is equanimity.,2018-08-22 22:29:45
+2142939015781138,Ted,Shaowang,6136,2142939015781138,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-22 22:29:53
+2142939015781138,Ted,Shaowang,6137,854518728062939,2142939015781138,BOT: message,Let's see if you would answer this one.,2018-08-22 22:29:54
+2142939015781138,Ted,Shaowang,6138,854518728062939,2142939015781138,BOT: quick reply,The Erie Canal's completion caused _____ economic ripples; property values and industrial output along its route rose exponentially.,2018-08-22 22:29:55
+2142939015781138,Ted,Shaowang,6140,2142939015781138,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-22 22:30:01
+2142939015781138,Ted,Shaowang,6141,854518728062939,2142939015781138,BOT: message,It's one of the following choices.,2018-08-22 22:30:03
+2142939015781138,Ted,Shaowang,6142,854518728062939,2142939015781138,BOT: quick reply,":keycap_1: severe
+:keycap_2: incredulous
+:keycap_3: persistent
+:keycap_4: prodigious
+:keycap_5: invaluable
+",2018-08-22 22:30:04
+2142939015781138,Ted,Shaowang,6143,2142939015781138,854518728062939,user_quick_reply: BUTTON_DKB_invaluable,:keycap_5:,2018-08-22 22:30:19
+2142939015781138,Ted,Shaowang,6144,854518728062939,2142939015781138,BOT: message,That's not quite right. :disappointed_face:,2018-08-22 22:30:21
+2142939015781138,Ted,Shaowang,6145,854518728062939,2142939015781138,BOT: quick reply,The correct answer is prodigious.,2018-08-22 22:30:22
+2142939015781138,Ted,Shaowang,6146,2142939015781138,854518728062939,user_quick_reply: WHY,Why?,2018-08-22 22:30:27
+2142939015781138,Ted,Shaowang,6147,854518728062939,2142939015781138,BOT: message,Here's why:,2018-08-22 22:30:28
+2142939015781138,Ted,Shaowang,6148,854518728062939,2142939015781138,BOT: quick reply,":pushpin: Prodigious -- so great in size or force or extent as to elicit awe
+:pushpin: Persistent -- lasting or enduring tenaciously
+:pushpin: Invaluable -- having incalculable monetary, intellectual, or spiritual worth
+:pushpin: Incredulous -- not disposed or willing to believe; unbelieving
+:pushpin: Severe -- intensely or extremely bad or unpleasant in degree or quality",2018-08-22 22:30:30
+2142939015781138,Ted,Shaowang,6151,2142939015781138,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-22 22:31:21
+2142939015781138,Ted,Shaowang,6152,854518728062939,2142939015781138,BOT: message,Would you answer this question for me?,2018-08-22 22:31:22
+2142939015781138,Ted,Shaowang,6153,854518728062939,2142939015781138,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-22 22:31:24
+2142939015781138,Ted,Shaowang,6154,854518728062939,2142939015781138,BOT: quick reply,"In psychological literature, the ""sleeper effect"" refers to the phenomenon in which a persuasive message from a trustworthy source loses _____ over time, while the efficacy of a message from a less credible source simultaneously increases.",2018-08-22 22:31:25
+2142939015781138,Ted,Shaowang,6155,2142939015781138,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-22 22:31:30
+2142939015781138,Ted,Shaowang,6156,854518728062939,2142939015781138,BOT: message,Which of the following options is the right answer?,2018-08-22 22:31:31
+2142939015781138,Ted,Shaowang,6157,854518728062939,2142939015781138,BOT: quick reply,":keycap_1: control
+:keycap_2: prescience
+:keycap_3: evasiveness
+:keycap_4: cogency
+:keycap_5: erudition
+",2018-08-22 22:31:33
+2142939015781138,Ted,Shaowang,6158,2142939015781138,854518728062939,user_quick_reply: BUTTON_AKB_cogency,:keycap_4:,2018-08-22 22:31:39
+2142939015781138,Ted,Shaowang,6159,854518728062939,2142939015781138,BOT: message,Great! Keep it up! :flexed_biceps_medium-light_skin_tone:,2018-08-22 22:31:41
+2142939015781138,Ted,Shaowang,6160,854518728062939,2142939015781138,BOT: quick reply,The correct answer is cogency.,2018-08-22 22:31:42
+2142939015781138,Ted,Shaowang,6161,2142939015781138,854518728062939,user_quick_reply: WHY,Why?,2018-08-22 22:31:46
+2142939015781138,Ted,Shaowang,6162,854518728062939,2142939015781138,BOT: message,Here's why:,2018-08-22 22:31:48
+2142939015781138,Ted,Shaowang,6163,854518728062939,2142939015781138,BOT: quick reply,":pushpin: Cogency -- persuasive relevance
+:pushpin: Prescience -- the power to foresee the future
+:pushpin: Erudition -- profound scholarly knowledge
+:pushpin: Evasiveness -- intentionally vague or ambiguous
+:pushpin: Control -- exercise authoritative control or power over",2018-08-22 22:31:49
+2142939015781138,Ted,Shaowang,6165,2142939015781138,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-22 22:32:18
+2142939015781138,Ted,Shaowang,6166,854518728062939,2142939015781138,BOT: message,Let's take a look at this question.,2018-08-22 22:32:19
+2142939015781138,Ted,Shaowang,6167,854518728062939,2142939015781138,BOT: quick reply,"Although John F. Kennedy was known for his carefree flag football games, Gerald Ford should be _____ as our football president: he turned down offers to play for two National Football League teams in order to pursue a career in public service.",2018-08-22 22:32:21
+2142939015781138,Ted,Shaowang,6168,2142939015781138,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-22 22:32:26
+2142939015781138,Ted,Shaowang,6169,854518728062939,2142939015781138,BOT: message,Okay. I'll give you some choices.,2018-08-22 22:32:28
+2142939015781138,Ted,Shaowang,6170,854518728062939,2142939015781138,BOT: quick reply,":keycap_1: annulled
+:keycap_2: abrogated
+:keycap_3: criticized
+:keycap_4: apotheosized
+:keycap_5: relegated
+",2018-08-22 22:32:29
+2142939015781138,Ted,Shaowang,6171,2142939015781138,854518728062939,user_quick_reply: BUTTON_AKB_apotheosized,:keycap_4:,2018-08-22 22:32:36
+2142939015781138,Ted,Shaowang,6173,854518728062939,2142939015781138,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_jubilated_purple.png,2018-08-22 22:32:38
+2142939015781138,Ted,Shaowang,6174,854518728062939,2142939015781138,BOT: message,Great job!,2018-08-22 22:32:40
+2142939015781138,Ted,Shaowang,6175,854518728062939,2142939015781138,BOT: quick reply,The correct answer is apotheosized.,2018-08-22 22:32:41
+2142939015781138,Ted,Shaowang,6176,2142939015781138,854518728062939,user_quick_reply: WHY,Why?,2018-08-22 22:32:46
+2142939015781138,Ted,Shaowang,6177,854518728062939,2142939015781138,BOT: message,This is an explanation of the question:,2018-08-22 22:32:47
+2142939015781138,Ted,Shaowang,6178,854518728062939,2142939015781138,BOT: quick reply,":pushpin: Apotheosized -- deify or glorify
+:pushpin: Relegated -- to send or consign to an inferior position, place, or condition
+:pushpin: Abrogated -- revoke formally
+:pushpin: Annulled -- declare invalid
+:pushpin: Criticized -- find fault with; express criticism of; point out real or perceived flaws",2018-08-22 22:32:49
+2142939015781138,Ted,Shaowang,6179,2142939015781138,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-22 22:33:23
+2142939015781138,Ted,Shaowang,6180,854518728062939,2142939015781138,BOT: message,Would you answer this question for me?,2018-08-22 22:33:24
+2142939015781138,Ted,Shaowang,6181,854518728062939,2142939015781138,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-22 22:33:26
+2142939015781138,Ted,Shaowang,6182,854518728062939,2142939015781138,BOT: quick reply,"Having squandered his life's savings on unprofitable business ventures, the _____ entrepreneur was forced to live in squalor.",2018-08-22 22:33:27
+2142939015781138,Ted,Shaowang,6183,2142939015781138,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-22 22:33:33
+2142939015781138,Ted,Shaowang,6185,854518728062939,2142939015781138,BOT: message,Which of the following options is the right answer?,2018-08-22 22:33:34
+2142939015781138,Ted,Shaowang,6186,854518728062939,2142939015781138,BOT: quick reply,":keycap_1: former
+:keycap_2: eccentric
+:keycap_3: insolvent
+:keycap_4: unlikely
+:keycap_5: perturbed
+",2018-08-22 22:33:36
+2142939015781138,Ted,Shaowang,6187,2142939015781138,854518728062939,user_quick_reply: BUTTON_AKB_insolvent,:keycap_3:,2018-08-22 22:33:45
+2142939015781138,Ted,Shaowang,6188,854518728062939,2142939015781138,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_normal_cyan.png,2018-08-22 22:33:48
+2142939015781138,Ted,Shaowang,6189,854518728062939,2142939015781138,BOT: message,Nice work! Keep it up!,2018-08-22 22:33:49
+2142939015781138,Ted,Shaowang,6191,854518728062939,2142939015781138,BOT: quick reply,The correct answer is insolvent.,2018-08-22 22:33:50
+2142939015781138,Ted,Shaowang,6192,2142939015781138,854518728062939,user_quick_reply: WHY,Why?,2018-08-22 22:33:55
+2142939015781138,Ted,Shaowang,6193,854518728062939,2142939015781138,BOT: message,I hope this explanation could help you understand the the question.,2018-08-22 22:33:57
+2142939015781138,Ted,Shaowang,6194,854518728062939,2142939015781138,BOT: quick reply,":pushpin: Insolvent -- unable to meet or discharge financial obligations
+:pushpin: Former -- preceding in time; prior or earlier
+:pushpin: Unlikely -- not likely to be true or to occur or to have occurred
+:pushpin: Perturbed -- thrown into a state of agitated confusion
+:pushpin: Eccentric -- conspicuously or grossly unconventional or unusual",2018-08-22 22:33:58
+2142939015781138,Ted,Shaowang,6196,2142939015781138,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-22 22:35:02
+2142939015781138,Ted,Shaowang,6197,854518728062939,2142939015781138,BOT: message,Could you answer this one for me?,2018-08-22 22:35:03
+2142939015781138,Ted,Shaowang,6198,854518728062939,2142939015781138,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-22 22:35:05
+2142939015781138,Ted,Shaowang,6199,854518728062939,2142939015781138,BOT: quick reply,While she may have answered him truthfully - in the strictest sense of the word - it became clear to Sergei after the incident that Sheryl had actually been trying to _____ .,2018-08-22 22:35:06
+2142939015781138,Ted,Shaowang,6200,2142939015781138,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-22 22:35:11
+2142939015781138,Ted,Shaowang,6201,854518728062939,2142939015781138,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-08-22 22:35:13
+2142939015781138,Ted,Shaowang,6202,854518728062939,2142939015781138,BOT: quick reply,":keycap_1: illuminate
+:keycap_2: obfuscate
+:keycap_3: covet
+:keycap_4: desiccate
+:keycap_5: vituperate
+",2018-08-22 22:35:14
+2142939015781138,Ted,Shaowang,6204,2142939015781138,854518728062939,user_quick_reply: BUTTON_AKB_obfuscate,:keycap_2:,2018-08-22 22:35:20
+2142939015781138,Ted,Shaowang,6205,854518728062939,2142939015781138,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_happy_cyan.png,2018-08-22 22:35:22
+2142939015781138,Ted,Shaowang,6206,854518728062939,2142939015781138,BOT: message,Great job getting the correct answer!,2018-08-22 22:35:24
+2142939015781138,Ted,Shaowang,6207,854518728062939,2142939015781138,BOT: quick reply,The correct answer is obfuscate.,2018-08-22 22:35:25
+2142939015781138,Ted,Shaowang,6208,2142939015781138,854518728062939,user_quick_reply: WHY,Why?,2018-08-22 22:35:30
+2142939015781138,Ted,Shaowang,6209,854518728062939,2142939015781138,BOT: message,This is why:,2018-08-22 22:35:31
+2142939015781138,Ted,Shaowang,6210,854518728062939,2142939015781138,BOT: quick reply,":pushpin: Obfuscate -- make obscure or unclear
+:pushpin: Vituperate -- spread negative information about
+:pushpin: Illuminate -- make lighter or brighter
+:pushpin: Covet -- wish, long, or crave for something, especially the property of another person
+:pushpin: Desiccate -- to dry thoroughly; dry up",2018-08-22 22:35:33
+2142939015781138,Ted,Shaowang,8064,854518728062939,2142939015781138,BOT: quick reply,"Hi Ted, you haven't talked to me for a while. Would you like to resume the learning with me?",2018-08-23 20:00:28
+2142939015781138,Ted,Shaowang,9088,854518728062939,2142939015781138,BOT: message,Would you answer this question for me?,2018-08-23 21:14:42
+2142939015781138,Ted,Shaowang,9090,854518728062939,2142939015781138,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-23 21:14:43
+2142939015781138,Ted,Shaowang,9092,854518728062939,2142939015781138,BOT: quick reply,The Erie Canal's completion caused _____ economic ripples; property values and industrial output along its route rose exponentially.,2018-08-23 21:14:45
+2142939015781138,Ted,Shaowang,9094,2142939015781138,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 21:14:49
+2142939015781138,Ted,Shaowang,9097,854518728062939,2142939015781138,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-08-23 21:14:51
+2142939015781138,Ted,Shaowang,9100,854518728062939,2142939015781138,BOT: quick reply,":keycap_1: prodigious
+:keycap_2: invaluable
+:keycap_3: severe
+:keycap_4: incredulous
+:keycap_5: persistent
+",2018-08-23 21:14:52
+2142939015781138,Ted,Shaowang,9104,2142939015781138,854518728062939,user_quick_reply: BUTTON_AKB_prodigious,:keycap_1:,2018-08-23 21:14:58
+2142939015781138,Ted,Shaowang,9109,854518728062939,2142939015781138,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_normal.png,2018-08-23 21:15:01
+2142939015781138,Ted,Shaowang,9110,854518728062939,2142939015781138,BOT: message,Great! Keep it up! :flexed_biceps_medium-light_skin_tone:,2018-08-23 21:15:03
+2142939015781138,Ted,Shaowang,9112,854518728062939,2142939015781138,BOT: quick reply,The correct answer is prodigious.,2018-08-23 21:15:04
+2142939015781138,Ted,Shaowang,9116,2142939015781138,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-23 21:15:09
+2142939015781138,Ted,Shaowang,9117,854518728062939,2142939015781138,BOT: message,Here's a question for you:,2018-08-23 21:15:10
+2142939015781138,Ted,Shaowang,9118,854518728062939,2142939015781138,BOT: quick reply,"Despite the smile that spread from ear to ear, the eyes relayed a certain _____ .",2018-08-23 21:15:12
+2142939015781138,Ted,Shaowang,9119,2142939015781138,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 21:15:17
+2142939015781138,Ted,Shaowang,9120,854518728062939,2142939015781138,BOT: message,Pick one of the following answers.,2018-08-23 21:15:18
+2142939015781138,Ted,Shaowang,9122,854518728062939,2142939015781138,BOT: quick reply,":keycap_1: sorrow
+:keycap_2: mischievousness
+:keycap_3: vision
+:keycap_4: jubilance
+:keycap_5: liveliness
+",2018-08-23 21:15:20
+2142939015781138,Ted,Shaowang,9133,2142939015781138,854518728062939,user_quick_reply: BUTTON_AKB_sorrow,:keycap_1:,2018-08-23 21:15:31
+2142939015781138,Ted,Shaowang,9136,854518728062939,2142939015781138,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_normal.png,2018-08-23 21:15:34
+2142939015781138,Ted,Shaowang,9137,854518728062939,2142939015781138,BOT: message,Great! Keep it up! :flexed_biceps_medium-light_skin_tone:,2018-08-23 21:15:35
+2142939015781138,Ted,Shaowang,9138,854518728062939,2142939015781138,BOT: quick reply,The correct answer is sorrow.,2018-08-23 21:15:37
+2142939015781138,Ted,Shaowang,9143,2142939015781138,854518728062939,user_quick_reply: WHY,Why?,2018-08-23 21:15:41
+2142939015781138,Ted,Shaowang,9145,854518728062939,2142939015781138,BOT: message,This is why:,2018-08-23 21:15:43
+2142939015781138,Ted,Shaowang,9147,854518728062939,2142939015781138,BOT: quick reply,":pushpin: Sorrow -- a feeling of grief
+:pushpin: Jubilance -- a feeling of extreme joy
+:pushpin: Mischievousness -- an attribute of mischievous children
+:pushpin: Vision -- a vivid mental image
+:pushpin: Liveliness -- general activity and motion",2018-08-23 21:15:44
+2142939015781138,Ted,Shaowang,9154,2142939015781138,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-23 21:15:57
+2142939015781138,Ted,Shaowang,9157,854518728062939,2142939015781138,BOT: message,Let's see if you would answer this one.,2018-08-23 21:15:59
+2142939015781138,Ted,Shaowang,9160,854518728062939,2142939015781138,BOT: quick reply,"Just as different people can have very different personalities, so too can pets - even those of the same species and breed possess varied _____ .",2018-08-23 21:16:00
+2142939015781138,Ted,Shaowang,9164,2142939015781138,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 21:17:35
+2142939015781138,Ted,Shaowang,9167,2142939015781138,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 21:17:35
+2142939015781138,Ted,Shaowang,9168,2142939015781138,854518728062939,persistent_menu: CHAT_WITH_ME,Chat with Me :penguin:,2018-08-23 21:17:35
+2142939015781138,Ted,Shaowang,9170,2142939015781138,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 21:17:35
+2142939015781138,Ted,Shaowang,9174,2142939015781138,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 21:17:35
+2142939015781138,Ted,Shaowang,9176,2142939015781138,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 21:17:35
+2142939015781138,Ted,Shaowang,9180,2142939015781138,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 21:17:35
+2142939015781138,Ted,Shaowang,9181,2142939015781138,854518728062939,persistent_menu: GRE,GRE :input_latin_uppercase:,2018-08-23 21:17:35
+2142939015781138,Ted,Shaowang,9183,854518728062939,2142939015781138,BOT: message,It's one of the following choices.,2018-08-23 21:17:37
+2142939015781138,Ted,Shaowang,9184,854518728062939,2142939015781138,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-08-23 21:17:37
+2142939015781138,Ted,Shaowang,9185,854518728062939,2142939015781138,BOT: quick reply,Okay! Lets see how much you know about GRE!,2018-08-23 21:17:37
+2142939015781138,Ted,Shaowang,9186,854518728062939,2142939015781138,BOT: message,It's one of the following choices.,2018-08-23 21:17:37
+2142939015781138,Ted,Shaowang,9187,854518728062939,2142939015781138,BOT: message,Pick one of the following answers.,2018-08-23 21:17:37
+2142939015781138,Ted,Shaowang,9193,854518728062939,2142939015781138,BOT: message,It's one of the following choices.,2018-08-23 21:17:37
+2142939015781138,Ted,Shaowang,9194,854518728062939,2142939015781138,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-08-23 21:17:37
+2142939015781138,Ted,Shaowang,9195,854518728062939,2142939015781138,BOT: quick reply,Great! I have something fun for you!,2018-08-23 21:17:37
+2142939015781138,Ted,Shaowang,9202,854518728062939,2142939015781138,BOT: quick reply,":keycap_1: rationalizations
+:keycap_2: temperaments
+:keycap_3: implementations
+:keycap_4: initiations
+:keycap_5: aptitudes
+",2018-08-23 21:17:38
+2142939015781138,Ted,Shaowang,9203,854518728062939,2142939015781138,BOT: quick reply,":keycap_1: temperaments
+:keycap_2: rationalizations
+:keycap_3: implementations
+:keycap_4: initiations
+:keycap_5: aptitudes
+",2018-08-23 21:17:38
+2142939015781138,Ted,Shaowang,9204,854518728062939,2142939015781138,BOT: quick reply,":keycap_1: initiations
+:keycap_2: aptitudes
+:keycap_3: temperaments
+:keycap_4: rationalizations
+:keycap_5: implementations
+",2018-08-23 21:17:38
+2142939015781138,Ted,Shaowang,9206,854518728062939,2142939015781138,BOT: quick reply,":keycap_1: temperaments
+:keycap_2: rationalizations
+:keycap_3: implementations
+:keycap_4: aptitudes
+:keycap_5: initiations
+",2018-08-23 21:17:38
+2142939015781138,Ted,Shaowang,9207,854518728062939,2142939015781138,BOT: quick reply,":keycap_1: aptitudes
+:keycap_2: implementations
+:keycap_3: rationalizations
+:keycap_4: initiations
+:keycap_5: temperaments
+",2018-08-23 21:17:38
+2142939015781138,Ted,Shaowang,9209,854518728062939,2142939015781138,BOT: quick reply,":keycap_1: initiations
+:keycap_2: temperaments
+:keycap_3: aptitudes
+:keycap_4: rationalizations
+:keycap_5: implementations
+",2018-08-23 21:17:38
+2142939015781138,Ted,Shaowang,9226,2142939015781138,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 21:17:51
+2142939015781138,Ted,Shaowang,9228,854518728062939,2142939015781138,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-08-23 21:17:53
+2142939015781138,Ted,Shaowang,9230,854518728062939,2142939015781138,BOT: quick reply,":keycap_1: rationalizations
+:keycap_2: initiations
+:keycap_3: implementations
+:keycap_4: aptitudes
+:keycap_5: temperaments
+",2018-08-23 21:17:54
+2142939015781138,Ted,Shaowang,9231,2142939015781138,854518728062939,user_typing,???,2018-08-23 21:17:55
+2142939015781138,Ted,Shaowang,9232,2142939015781138,854518728062939,user_typing,???,2018-08-23 21:17:56
+2142939015781138,Ted,Shaowang,9233,2142939015781138,854518728062939,user_typing,???,2018-08-23 21:17:56
+2142939015781138,Ted,Shaowang,9234,2142939015781138,854518728062939,user_typing,???,2018-08-23 21:17:57
+2142939015781138,Ted,Shaowang,9235,2142939015781138,854518728062939,user_typing,???,2018-08-23 21:17:58
+2142939015781138,Ted,Shaowang,9236,2142939015781138,854518728062939,user_typing,???,2018-08-23 21:18:02
+2142939015781138,Ted,Shaowang,9241,2142939015781138,854518728062939,user_typing,???,2018-08-23 21:18:20
+2142939015781138,Ted,Shaowang,9264,2142939015781138,854518728062939,user_typing,???,2018-08-23 21:19:32
+2142939015781138,Ted,Shaowang,9284,2142939015781138,854518728062939,user_typing,???,2018-08-23 21:20:52
+2142939015781138,Ted,Shaowang,9304,2142939015781138,854518728062939,user_typing,???,2018-08-23 21:22:16
+2142939015781138,Ted,Shaowang,9327,2142939015781138,854518728062939,user_typing,???,2018-08-23 21:23:33
+2142939015781138,Ted,Shaowang,9352,2142939015781138,854518728062939,user_typing,???,2018-08-23 21:24:46
+2142939015781138,Ted,Shaowang,9363,2142939015781138,854518728062939,user_typing,???,2018-08-23 21:26:00
+2142939015781138,Ted,Shaowang,9364,2142939015781138,854518728062939,user_typing,???,2018-08-23 21:27:15
+2142939015781138,Ted,Shaowang,9365,2142939015781138,854518728062939,user_typing,???,2018-08-23 21:28:39
+2142939015781138,Ted,Shaowang,9375,2142939015781138,854518728062939,user_typing,???,2018-08-23 21:30:01
+2142939015781138,Ted,Shaowang,9393,2142939015781138,854518728062939,user_typing,???,2018-08-23 21:31:25
+2142939015781138,Ted,Shaowang,9394,2142939015781138,854518728062939,user_typing,???,2018-08-23 21:32:51
+2142939015781138,Ted,Shaowang,9395,2142939015781138,854518728062939,user_typing,???,2018-08-23 21:34:09
+2142939015781138,Ted,Shaowang,9396,2142939015781138,854518728062939,user_typing,???,2018-08-23 21:35:33
+2142939015781138,Ted,Shaowang,9397,2142939015781138,854518728062939,user_typing,???,2018-08-23 21:36:52
+2142939015781138,Ted,Shaowang,9398,2142939015781138,854518728062939,user_typing,???,2018-08-23 21:38:19
+2142939015781138,Ted,Shaowang,9399,854518728062939,2142939015781138,BOT: quick reply,"Oh hey, I haven't learned this language yet. Maybe I'll learn languages from you in the future.",2018-08-23 21:38:20
+2142939015781138,Ted,Shaowang,9400,2142939015781138,854518728062939,user_typing,Are you there?,2018-08-23 21:38:21
+2142939015781138,Ted,Shaowang,9401,854518728062939,2142939015781138,BOT: quick reply,Haha I haven't learned about this yet. You can teach me some languages later!,2018-08-23 21:38:23
+2142939015781138,Ted,Shaowang,9402,2142939015781138,854518728062939,user_typing,Hey,2018-08-23 21:38:23
+2142939015781138,Ted,Shaowang,9403,854518728062939,2142939015781138,BOT: quick reply,Sorry but I haven't learned about this yet. I'll learn more languages in the future.,2018-08-23 21:38:25
+2142939015781138,Ted,Shaowang,9404,2142939015781138,854518728062939,user_quick_reply: BUTTON_DKB_aptitudes,:keycap_4:,2018-08-23 21:38:26
+2142939015781138,Ted,Shaowang,9405,854518728062939,2142939015781138,BOT: message,"Oops, that wasn't quite correct. :disappointed_face:",2018-08-23 21:38:28
+2142939015781138,Ted,Shaowang,9406,854518728062939,2142939015781138,BOT: quick reply,The correct answer is temperaments.,2018-08-23 21:38:29
+2142939015781138,Ted,Shaowang,9702,2142939015781138,854518728062939,user_quick_reply: WHY,Why?,2018-08-23 22:11:44
+2142939015781138,Ted,Shaowang,9703,854518728062939,2142939015781138,BOT: message,This is an explanation of the question:,2018-08-23 22:11:46
+2142939015781138,Ted,Shaowang,9704,854518728062939,2142939015781138,BOT: quick reply,":pushpin: Temperaments -- the combination of mental, physical, and emotional traits
+:pushpin: Initiations -- a formal entry into an organization or position or office
+:pushpin: Implementations -- the act of accomplishing some aim or executing some order
+:pushpin: Aptitudes -- inherent ability
+:pushpin: Rationalizations -- the cognitive process of making something seem consistent with or based on reason",2018-08-23 22:11:47
+2142939015781138,Ted,Shaowang,9705,2142939015781138,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-23 22:12:27
+2142939015781138,Ted,Shaowang,9706,854518728062939,2142939015781138,BOT: message,How about this next one:,2018-08-23 22:12:29
+2142939015781138,Ted,Shaowang,9707,854518728062939,2142939015781138,BOT: quick reply,"Even though legislators claimed the Contagious Diseases Acts strengthened the nation, social purists argued the Acts _____ the nation's moral growth by encouraging licentious behavior.",2018-08-23 22:12:30
+2142939015781138,Ted,Shaowang,9708,2142939015781138,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 22:13:26
+2142939015781138,Ted,Shaowang,9709,854518728062939,2142939015781138,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-08-23 22:13:27
+2142939015781138,Ted,Shaowang,9710,854518728062939,2142939015781138,BOT: quick reply,":keycap_1: hampered
+:keycap_2: enhanced
+:keycap_3: supplanted
+:keycap_4: ameliorated
+:keycap_5: advanced
+",2018-08-23 22:13:28
+2142939015781138,Ted,Shaowang,9714,2142939015781138,854518728062939,user_quick_reply: BUTTON_AKB_hampered,:keycap_1:,2018-08-23 22:13:47
+2142939015781138,Ted,Shaowang,9715,854518728062939,2142939015781138,BOT: message,Great job!,2018-08-23 22:13:49
+2142939015781138,Ted,Shaowang,9716,854518728062939,2142939015781138,BOT: quick reply,The correct answer is hampered.,2018-08-23 22:13:50
+2142939015781138,Ted,Shaowang,9717,2142939015781138,854518728062939,user_quick_reply: WHY,Why?,2018-08-23 22:13:55
+2142939015781138,Ted,Shaowang,9718,854518728062939,2142939015781138,BOT: message,This is why:,2018-08-23 22:13:56
+2142939015781138,Ted,Shaowang,9719,854518728062939,2142939015781138,BOT: quick reply,":pushpin: Hampered -- prevent the progress or free movement of
+:pushpin: Advanced -- move or bring forward
+:pushpin: Ameliorated -- to make better
+:pushpin: Supplanted -- take the place or move into the position of
+:pushpin: Enhanced -- increased or intensified in value or beauty or quality",2018-08-23 22:13:58
+2142939015781138,Ted,Shaowang,9720,2142939015781138,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-23 22:14:03
+2142939015781138,Ted,Shaowang,9721,854518728062939,2142939015781138,BOT: message,Here's a question for you:,2018-08-23 22:14:05
+2142939015781138,Ted,Shaowang,9722,854518728062939,2142939015781138,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-23 22:14:06
+2142939015781138,Ted,Shaowang,9723,854518728062939,2142939015781138,BOT: quick reply,Seth was extremely _____ and did not enjoy activities that required effort to meet new people.,2018-08-23 22:14:07
+2142939015781138,Ted,Shaowang,9724,2142939015781138,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 22:14:12
+2142939015781138,Ted,Shaowang,9725,854518728062939,2142939015781138,BOT: message,It's one of the following choices.,2018-08-23 22:14:14
+2142939015781138,Ted,Shaowang,9726,854518728062939,2142939015781138,BOT: quick reply,":keycap_1: extroverted
+:keycap_2: introverted
+:keycap_3: jaded
+:keycap_4: gregarious
+:keycap_5: lackluster
+",2018-08-23 22:14:15
+2142939015781138,Ted,Shaowang,9727,2142939015781138,854518728062939,user_quick_reply: BUTTON_AKB_introverted,:keycap_2:,2018-08-23 22:14:25
+2142939015781138,Ted,Shaowang,9728,854518728062939,2142939015781138,BOT: message,Great job!,2018-08-23 22:14:27
+2142939015781138,Ted,Shaowang,9729,854518728062939,2142939015781138,BOT: quick reply,The correct answer is introverted.,2018-08-23 22:14:28
+2142939015781138,Ted,Shaowang,9730,2142939015781138,854518728062939,user_quick_reply: WHY,Why?,2018-08-23 22:14:33
+2142939015781138,Ted,Shaowang,9731,854518728062939,2142939015781138,BOT: message,I hope this explanation could help you understand the the question.,2018-08-23 22:14:34
+2142939015781138,Ted,Shaowang,9732,854518728062939,2142939015781138,BOT: quick reply,":pushpin: Introverted -- given to examining own sensory and perceptual experiences
+:pushpin: Extroverted -- not introspective; examining what is outside yourself
+:pushpin: Gregarious -- fond of the company of others; sociable
+:pushpin: Lackluster -- lacking brilliance or vitality
+:pushpin: Jaded -- exhausted",2018-08-23 22:14:36
+2142939015781138,Ted,Shaowang,9733,2142939015781138,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-23 22:14:41
+2142939015781138,Ted,Shaowang,9734,854518728062939,2142939015781138,BOT: message,Could you answer this one for me?,2018-08-23 22:14:42
+2142939015781138,Ted,Shaowang,9735,854518728062939,2142939015781138,BOT: quick reply,"With a similar contrast between a partly cloudy sky and a dark street, the cover of the recent rock CD _____ a famous surrealist painting from the early 1900s.",2018-08-23 22:14:44
+2142939015781138,Ted,Shaowang,9736,2142939015781138,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 22:14:53
+2142939015781138,Ted,Shaowang,9737,854518728062939,2142939015781138,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-08-23 22:14:55
+2142939015781138,Ted,Shaowang,9738,854518728062939,2142939015781138,BOT: quick reply,":keycap_1: obfuscates
+:keycap_2: evokes
+:keycap_3: admires
+:keycap_4: disenchants
+:keycap_5: sanctions
+",2018-08-23 22:14:56
+2142939015781138,Ted,Shaowang,9739,2142939015781138,854518728062939,user_quick_reply: BUTTON_AKB_evokes,:keycap_2:,2018-08-23 22:15:34
+2142939015781138,Ted,Shaowang,9740,854518728062939,2142939015781138,BOT: message,Yes! You got the correct answer!,2018-08-23 22:15:35
+2142939015781138,Ted,Shaowang,9741,854518728062939,2142939015781138,BOT: quick reply,The correct answer is evokes.,2018-08-23 22:15:37
+2142939015781138,Ted,Shaowang,9742,2142939015781138,854518728062939,user_quick_reply: WHY,Why?,2018-08-23 22:15:42
+2142939015781138,Ted,Shaowang,9743,854518728062939,2142939015781138,BOT: message,This is why:,2018-08-23 22:15:44
+2142939015781138,Ted,Shaowang,9744,854518728062939,2142939015781138,BOT: quick reply,":pushpin: Evokes -- call forth emotions, feelings, and responses
+:pushpin: Admires -- feel admiration for
+:pushpin: Obfuscates -- make obscure or unclear
+:pushpin: Disenchants -- free from enchantment
+:pushpin: Sanctions -- give sanction to",2018-08-23 22:15:45
+2142939015781138,Ted,Shaowang,9745,2142939015781138,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-23 22:15:50
+2142939015781138,Ted,Shaowang,9746,854518728062939,2142939015781138,BOT: message,What about this next question:,2018-08-23 22:15:51
+2142939015781138,Ted,Shaowang,9747,854518728062939,2142939015781138,BOT: quick reply,"With a similar contrast between a partly cloudy sky and a dark street, the cover of the recent rock CD _____ a famous surrealist painting from the early 1900s.",2018-08-23 22:15:55
+2142939015781138,Ted,Shaowang,9752,2142939015781138,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 22:16:56
+2142939015781138,Ted,Shaowang,9753,854518728062939,2142939015781138,BOT: message,Pick one of the following answers.,2018-08-23 22:16:57
+2142939015781138,Ted,Shaowang,9754,854518728062939,2142939015781138,BOT: quick reply,":keycap_1: sanctions
+:keycap_2: evokes
+:keycap_3: admires
+:keycap_4: disenchants
+:keycap_5: obfuscates
+",2018-08-23 22:16:59
+2142939015781138,Ted,Shaowang,9758,2142939015781138,854518728062939,user_quick_reply: BUTTON_AKB_evokes,:keycap_2:,2018-08-23 22:17:09
+2142939015781138,Ted,Shaowang,9760,854518728062939,2142939015781138,BOT: message,Nice work! Keep it up!,2018-08-23 22:17:11
+2142939015781138,Ted,Shaowang,9761,854518728062939,2142939015781138,BOT: quick reply,The correct answer is evokes.,2018-08-23 22:17:12
+2142939015781138,Ted,Shaowang,9762,2142939015781138,854518728062939,user_quick_reply: WHY,Why?,2018-08-23 22:17:17
+2142939015781138,Ted,Shaowang,9763,854518728062939,2142939015781138,BOT: message,Here's why:,2018-08-23 22:17:18
+2142939015781138,Ted,Shaowang,9764,854518728062939,2142939015781138,BOT: quick reply,":pushpin: Evokes -- call forth emotions, feelings, and responses
+:pushpin: Admires -- feel admiration for
+:pushpin: Obfuscates -- make obscure or unclear
+:pushpin: Disenchants -- free from enchantment
+:pushpin: Sanctions -- give sanction to",2018-08-23 22:17:19
+2142939015781138,Ted,Shaowang,9765,2142939015781138,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-23 22:17:25
+2142939015781138,Ted,Shaowang,9766,854518728062939,2142939015781138,BOT: message,Let's see if you would answer this one.,2018-08-23 22:17:27
+2142939015781138,Ted,Shaowang,9767,854518728062939,2142939015781138,BOT: quick reply,"In psychological literature, the ""sleeper effect"" refers to the phenomenon in which a persuasive message from a trustworthy source loses _____ over time, while the efficacy of a message from a less credible source simultaneously increases.",2018-08-23 22:17:28
+2142939015781138,Ted,Shaowang,9768,2142939015781138,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 22:17:34
+2142939015781138,Ted,Shaowang,9769,854518728062939,2142939015781138,BOT: message,Pick one of the following answers.,2018-08-23 22:17:36
+2142939015781138,Ted,Shaowang,9770,854518728062939,2142939015781138,BOT: quick reply,":keycap_1: erudition
+:keycap_2: cogency
+:keycap_3: prescience
+:keycap_4: evasiveness
+:keycap_5: control
+",2018-08-23 22:17:37
+2142939015781138,Ted,Shaowang,9772,2142939015781138,854518728062939,user_quick_reply: BUTTON_AKB_cogency,:keycap_2:,2018-08-23 22:17:42
+2142939015781138,Ted,Shaowang,9774,854518728062939,2142939015781138,BOT: message,Great! Keep it up! :flexed_biceps_medium-light_skin_tone:,2018-08-23 22:17:43
+2142939015781138,Ted,Shaowang,9776,854518728062939,2142939015781138,BOT: quick reply,The correct answer is cogency.,2018-08-23 22:17:45
+2142939015781138,Ted,Shaowang,9777,2142939015781138,854518728062939,user_quick_reply: WHY,Why?,2018-08-23 22:17:49
+2142939015781138,Ted,Shaowang,9778,854518728062939,2142939015781138,BOT: message,I hope this explanation could help you understand the the question.,2018-08-23 22:17:50
+2142939015781138,Ted,Shaowang,9780,854518728062939,2142939015781138,BOT: quick reply,":pushpin: Cogency -- persuasive relevance
+:pushpin: Prescience -- the power to foresee the future
+:pushpin: Erudition -- profound scholarly knowledge
+:pushpin: Evasiveness -- intentionally vague or ambiguous
+:pushpin: Control -- exercise authoritative control or power over",2018-08-23 22:17:52
+2142939015781138,Ted,Shaowang,9787,2142939015781138,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-23 22:18:14
+2142939015781138,Ted,Shaowang,9789,854518728062939,2142939015781138,BOT: message,Let's see if you would answer this one.,2018-08-23 22:18:15
+2142939015781138,Ted,Shaowang,9791,854518728062939,2142939015781138,BOT: quick reply,"Just as different people can have very different personalities, so too can pets - even those of the same species and breed possess varied _____ .",2018-08-23 22:18:17
+2142939015781138,Ted,Shaowang,9793,2142939015781138,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 22:18:21
+2142939015781138,Ted,Shaowang,9795,854518728062939,2142939015781138,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-08-23 22:18:23
+2142939015781138,Ted,Shaowang,9797,854518728062939,2142939015781138,BOT: quick reply,":keycap_1: rationalizations
+:keycap_2: initiations
+:keycap_3: implementations
+:keycap_4: temperaments
+:keycap_5: aptitudes
+",2018-08-23 22:18:24
+2142939015781138,Ted,Shaowang,9799,2142939015781138,854518728062939,user_quick_reply: BUTTON_AKB_temperaments,:keycap_4:,2018-08-23 22:18:31
+2142939015781138,Ted,Shaowang,9800,854518728062939,2142939015781138,BOT: message,Great job!,2018-08-23 22:18:33
+2142939015781138,Ted,Shaowang,9801,854518728062939,2142939015781138,BOT: quick reply,The correct answer is temperaments.,2018-08-23 22:18:35
+2142939015781138,Ted,Shaowang,9805,2142939015781138,854518728062939,user_quick_reply: WHY,Why?,2018-08-23 22:18:39
+2142939015781138,Ted,Shaowang,9806,854518728062939,2142939015781138,BOT: message,This is why:,2018-08-23 22:18:40
+2142939015781138,Ted,Shaowang,9807,854518728062939,2142939015781138,BOT: quick reply,":pushpin: Temperaments -- the combination of mental, physical, and emotional traits
+:pushpin: Initiations -- a formal entry into an organization or position or office
+:pushpin: Implementations -- the act of accomplishing some aim or executing some order
+:pushpin: Aptitudes -- inherent ability
+:pushpin: Rationalizations -- the cognitive process of making something seem consistent with or based on reason",2018-08-23 22:18:42
+2142939015781138,Ted,Shaowang,9808,2142939015781138,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-23 22:18:50
+2142939015781138,Ted,Shaowang,9809,854518728062939,2142939015781138,BOT: message,I think you'll like this question.,2018-08-23 22:18:52
+2142939015781138,Ted,Shaowang,9810,854518728062939,2142939015781138,BOT: quick reply,"Prior to taking on the new invader, the defending army had engaged in arduous combat; it is likely that the _____ resulting from waging two battles in two days played a part in its subsequent defeat.",2018-08-23 22:18:53
+2142939015781138,Ted,Shaowang,9811,2142939015781138,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 22:18:58
+2142939015781138,Ted,Shaowang,9812,854518728062939,2142939015781138,BOT: message,It's one of the following choices.,2018-08-23 22:18:59
+2142939015781138,Ted,Shaowang,9813,854518728062939,2142939015781138,BOT: quick reply,":keycap_1: enervation
+:keycap_2: bellicosity
+:keycap_3: pacification
+:keycap_4: pugnacity
+:keycap_5: aggravation
+",2018-08-23 22:19:01
+2142939015781138,Ted,Shaowang,9823,2142939015781138,854518728062939,user_quick_reply: BUTTON_DKB_pugnacity,:keycap_4:,2018-08-23 22:19:54
+2142939015781138,Ted,Shaowang,9824,854518728062939,2142939015781138,BOT: message,"Oops, that wasn't quite correct. :disappointed_face:",2018-08-23 22:19:55
+2142939015781138,Ted,Shaowang,9825,854518728062939,2142939015781138,BOT: quick reply,The correct answer is enervation.,2018-08-23 22:19:56
+2142939015781138,Ted,Shaowang,9827,2142939015781138,854518728062939,user_quick_reply: WHY,Why?,2018-08-23 22:20:01
+2142939015781138,Ted,Shaowang,9828,854518728062939,2142939015781138,BOT: message,I hope this explanation could help you understand the the question.,2018-08-23 22:20:03
+2142939015781138,Ted,Shaowang,9830,854518728062939,2142939015781138,BOT: quick reply,":pushpin: Enervation -- lack of vitality
+:pushpin: Bellicosity -- a natural disposition to fight
+:pushpin: Pugnacity -- a natural disposition to be hostile
+:pushpin: Pacification -- the act of appeasing someone or causing someone to be more favorably inclined
+:pushpin: Aggravation -- an exasperated feeling of annoyance",2018-08-23 22:20:04
+2142939015781138,Ted,Shaowang,9859,2142939015781138,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-23 22:22:29
+2142939015781138,Ted,Shaowang,9861,854518728062939,2142939015781138,BOT: message,See if you can answer this next one.,2018-08-23 22:22:31
+2142939015781138,Ted,Shaowang,9862,854518728062939,2142939015781138,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-23 22:22:32
+2142939015781138,Ted,Shaowang,9863,854518728062939,2142939015781138,BOT: quick reply,"Just as different people can have very different personalities, so too can pets - even those of the same species and breed possess varied _____ .",2018-08-23 22:22:34
+2142939015781138,Ted,Shaowang,9867,2142939015781138,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 22:22:39
+2142939015781138,Ted,Shaowang,9868,854518728062939,2142939015781138,BOT: message,Okay. I'll give you some choices.,2018-08-23 22:22:40
+2142939015781138,Ted,Shaowang,9869,854518728062939,2142939015781138,BOT: quick reply,":keycap_1: implementations
+:keycap_2: initiations
+:keycap_3: aptitudes
+:keycap_4: temperaments
+:keycap_5: rationalizations
+",2018-08-23 22:22:42
+2142939015781138,Ted,Shaowang,9880,2142939015781138,854518728062939,user_quick_reply: BUTTON_AKB_temperaments,:keycap_4:,2018-08-23 22:23:15
+2142939015781138,Ted,Shaowang,9883,854518728062939,2142939015781138,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_normal_cyan.png,2018-08-23 22:23:17
+2142939015781138,Ted,Shaowang,9884,854518728062939,2142939015781138,BOT: message,Great! Keep it up! :flexed_biceps_medium-light_skin_tone:,2018-08-23 22:23:18
+2142939015781138,Ted,Shaowang,9885,854518728062939,2142939015781138,BOT: quick reply,The correct answer is temperaments.,2018-08-23 22:23:20
+2142939015781138,Ted,Shaowang,9944,2142939015781138,854518728062939,user_quick_reply: WHY,Why?,2018-08-23 22:25:29
+2142939015781138,Ted,Shaowang,9946,854518728062939,2142939015781138,BOT: message,Here's why:,2018-08-23 22:25:31
+2142939015781138,Ted,Shaowang,9948,854518728062939,2142939015781138,BOT: quick reply,":pushpin: Temperaments -- the combination of mental, physical, and emotional traits
+:pushpin: Initiations -- a formal entry into an organization or position or office
+:pushpin: Implementations -- the act of accomplishing some aim or executing some order
+:pushpin: Aptitudes -- inherent ability
+:pushpin: Rationalizations -- the cognitive process of making something seem consistent with or based on reason",2018-08-23 22:25:32
+2142939015781138,Ted,Shaowang,12095,854518728062939,2142939015781138,BOT: quick reply,"Hi Ted, you haven't talked to me for a while. Would you like to resume the learning with me?",2018-08-24 20:00:33
+2142939015781138,Ted,Shaowang,13147,2142939015781138,854518728062939,user_quick_reply: NEXT_QUESTION,"Yes, continue :round_pushpin:",2018-08-24 22:14:49
+2142939015781138,Ted,Shaowang,13148,854518728062939,2142939015781138,BOT: message,Let's try this one.,2018-08-24 22:14:51
+2142939015781138,Ted,Shaowang,13149,854518728062939,2142939015781138,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-24 22:14:52
+2142939015781138,Ted,Shaowang,13150,854518728062939,2142939015781138,BOT: quick reply,Many Major League Baseball relief pitchers choose an electrifying theme song to play as they take the mound; the song _____ their fans and instills fear in their opponents.,2018-08-24 22:14:53
+2142939015781138,Ted,Shaowang,13151,2142939015781138,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-24 22:14:57
+2142939015781138,Ted,Shaowang,13152,854518728062939,2142939015781138,BOT: message,Okay. I'll give you some choices.,2018-08-24 22:14:59
+2142939015781138,Ted,Shaowang,13153,854518728062939,2142939015781138,BOT: quick reply,":keycap_1: pervades
+:keycap_2: assuages
+:keycap_3: innervates
+:keycap_4: enervates
+:keycap_5: eviscerates
+",2018-08-24 22:15:00
+2142939015781138,Ted,Shaowang,13154,2142939015781138,854518728062939,user_quick_reply: BUTTON_DKB_enervates,:keycap_4:,2018-08-24 22:15:12
+2142939015781138,Ted,Shaowang,13155,854518728062939,2142939015781138,BOT: message,That's not quite right. :disappointed_face:,2018-08-24 22:15:13
+2142939015781138,Ted,Shaowang,13156,854518728062939,2142939015781138,BOT: quick reply,The correct answer is innervates.,2018-08-24 22:15:15
+2142939015781138,Ted,Shaowang,13157,2142939015781138,854518728062939,user_quick_reply: WHY,Why?,2018-08-24 22:15:19
+2142939015781138,Ted,Shaowang,13158,854518728062939,2142939015781138,BOT: message,This is an explanation of the question:,2018-08-24 22:15:20
+2142939015781138,Ted,Shaowang,13159,854518728062939,2142939015781138,BOT: quick reply,":pushpin: Innervates -- to supply with nerves
+:pushpin: Eviscerates -- surgically remove a part of a structure or an organ
+:pushpin: Enervates -- weaken mentally or morally
+:pushpin: Assuages -- cause to be more favorably inclined; gain the good will of
+:pushpin: Pervades -- spread or diffuse through",2018-08-24 22:15:22
+2142939015781138,Ted,Shaowang,13160,2142939015781138,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-24 22:16:27
+2142939015781138,Ted,Shaowang,13161,854518728062939,2142939015781138,BOT: message,Could you answer this one for me?,2018-08-24 22:16:28
+2142939015781138,Ted,Shaowang,13162,854518728062939,2142939015781138,BOT: quick reply,"Although John F. Kennedy was known for his carefree flag football games, Gerald Ford should be _____ as our football president: he turned down offers to play for two National Football League teams in order to pursue a career in public service.",2018-08-24 22:16:30
+2142939015781138,Ted,Shaowang,13163,2142939015781138,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-24 22:16:32
+2142939015781138,Ted,Shaowang,13164,854518728062939,2142939015781138,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-08-24 22:16:34
+2142939015781138,Ted,Shaowang,13165,854518728062939,2142939015781138,BOT: quick reply,":keycap_1: relegated
+:keycap_2: abrogated
+:keycap_3: annulled
+:keycap_4: criticized
+:keycap_5: apotheosized
+",2018-08-24 22:16:35
+2142939015781138,Ted,Shaowang,13166,2142939015781138,854518728062939,user_quick_reply: BUTTON_AKB_apotheosized,:keycap_5:,2018-08-24 22:17:23
+2142939015781138,Ted,Shaowang,13167,854518728062939,2142939015781138,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_normal_cyan.png,2018-08-24 22:17:25
+2142939015781138,Ted,Shaowang,13168,854518728062939,2142939015781138,BOT: message,Nice! That was right!,2018-08-24 22:17:27
+2142939015781138,Ted,Shaowang,13169,854518728062939,2142939015781138,BOT: quick reply,The correct answer is apotheosized.,2018-08-24 22:17:28
+2142939015781138,Ted,Shaowang,13170,2142939015781138,854518728062939,user_quick_reply: WHY,Why?,2018-08-24 22:17:33
+2142939015781138,Ted,Shaowang,13171,854518728062939,2142939015781138,BOT: message,Here's why:,2018-08-24 22:17:34
+2142939015781138,Ted,Shaowang,13172,854518728062939,2142939015781138,BOT: quick reply,":pushpin: Apotheosized -- deify or glorify
+:pushpin: Relegated -- to send or consign to an inferior position, place, or condition
+:pushpin: Abrogated -- revoke formally
+:pushpin: Annulled -- declare invalid
+:pushpin: Criticized -- find fault with; express criticism of; point out real or perceived flaws",2018-08-24 22:17:36
+2142939015781138,Ted,Shaowang,13173,2142939015781138,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-24 22:17:59
+2142939015781138,Ted,Shaowang,13174,854518728062939,2142939015781138,BOT: message,"Alrighty, let's try this one.",2018-08-24 22:18:00
+2142939015781138,Ted,Shaowang,13175,854518728062939,2142939015781138,BOT: quick reply,"Even though legislators claimed the Contagious Diseases Acts strengthened the nation, social purists argued the Acts _____ the nation's moral growth by encouraging licentious behavior.",2018-08-24 22:18:01
+2142939015781138,Ted,Shaowang,13176,2142939015781138,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-24 22:20:50
+2142939015781138,Ted,Shaowang,13177,854518728062939,2142939015781138,BOT: message,Pick one of the following answers.,2018-08-24 22:20:51
+2142939015781138,Ted,Shaowang,13178,854518728062939,2142939015781138,BOT: quick reply,":keycap_1: enhanced
+:keycap_2: supplanted
+:keycap_3: ameliorated
+:keycap_4: hampered
+:keycap_5: advanced
+",2018-08-24 22:20:53
+2142939015781138,Ted,Shaowang,13179,2142939015781138,854518728062939,user_quick_reply: BUTTON_AKB_hampered,:keycap_4:,2018-08-24 22:20:57
+2142939015781138,Ted,Shaowang,13180,854518728062939,2142939015781138,BOT: message,Nice work! Keep it up!,2018-08-24 22:20:58
+2142939015781138,Ted,Shaowang,13181,854518728062939,2142939015781138,BOT: quick reply,The correct answer is hampered.,2018-08-24 22:21:00
+2142939015781138,Ted,Shaowang,13182,2142939015781138,854518728062939,user_quick_reply: WHY,Why?,2018-08-24 22:21:22
+2142939015781138,Ted,Shaowang,13183,854518728062939,2142939015781138,BOT: message,Here's why:,2018-08-24 22:21:23
+2142939015781138,Ted,Shaowang,13184,854518728062939,2142939015781138,BOT: quick reply,":pushpin: Hampered -- prevent the progress or free movement of
+:pushpin: Advanced -- move or bring forward
+:pushpin: Ameliorated -- to make better
+:pushpin: Supplanted -- take the place or move into the position of
+:pushpin: Enhanced -- increased or intensified in value or beauty or quality",2018-08-24 22:21:25
+2142939015781138,Ted,Shaowang,13185,2142939015781138,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-24 22:21:36
+2142939015781138,Ted,Shaowang,13186,854518728062939,2142939015781138,BOT: message,I think you'll like this question.,2018-08-24 22:21:37
+2142939015781138,Ted,Shaowang,13187,854518728062939,2142939015781138,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-24 22:21:39
+2142939015781138,Ted,Shaowang,13188,854518728062939,2142939015781138,BOT: quick reply,The Erie Canal's completion caused _____ economic ripples; property values and industrial output along its route rose exponentially.,2018-08-24 22:21:40
+2142939015781138,Ted,Shaowang,13189,2142939015781138,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-24 22:21:49
+2142939015781138,Ted,Shaowang,13190,854518728062939,2142939015781138,BOT: message,Which of the following options is the right answer?,2018-08-24 22:21:51
+2142939015781138,Ted,Shaowang,13191,854518728062939,2142939015781138,BOT: quick reply,":keycap_1: prodigious
+:keycap_2: persistent
+:keycap_3: severe
+:keycap_4: incredulous
+:keycap_5: invaluable
+",2018-08-24 22:21:52
+2142939015781138,Ted,Shaowang,13192,2142939015781138,854518728062939,user_quick_reply: BUTTON_AKB_prodigious,:keycap_1:,2018-08-24 22:22:01
+2142939015781138,Ted,Shaowang,13193,854518728062939,2142939015781138,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_happy_pink.png,2018-08-24 22:22:04
+2142939015781138,Ted,Shaowang,13194,854518728062939,2142939015781138,BOT: message,Nice work! Keep it up!,2018-08-24 22:22:05
+2142939015781138,Ted,Shaowang,13195,854518728062939,2142939015781138,BOT: quick reply,The correct answer is prodigious.,2018-08-24 22:22:07
+2142939015781138,Ted,Shaowang,13196,2142939015781138,854518728062939,user_quick_reply: WHY,Why?,2018-08-24 22:22:11
+2142939015781138,Ted,Shaowang,13197,854518728062939,2142939015781138,BOT: message,This is why:,2018-08-24 22:22:12
+2142939015781138,Ted,Shaowang,13198,854518728062939,2142939015781138,BOT: quick reply,":pushpin: Prodigious -- so great in size or force or extent as to elicit awe
+:pushpin: Persistent -- lasting or enduring tenaciously
+:pushpin: Invaluable -- having incalculable monetary, intellectual, or spiritual worth
+:pushpin: Incredulous -- not disposed or willing to believe; unbelieving
+:pushpin: Severe -- intensely or extremely bad or unpleasant in degree or quality",2018-08-24 22:22:13
+2142939015781138,Ted,Shaowang,13199,2142939015781138,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-24 22:22:39
+2142939015781138,Ted,Shaowang,13200,854518728062939,2142939015781138,BOT: message,Would you answer this question for me?,2018-08-24 22:22:41
+2142939015781138,Ted,Shaowang,13201,854518728062939,2142939015781138,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-24 22:22:42
+2142939015781138,Ted,Shaowang,13202,854518728062939,2142939015781138,BOT: quick reply,"With a similar contrast between a partly cloudy sky and a dark street, the cover of the recent rock CD _____ a famous surrealist painting from the early 1900s.",2018-08-24 22:22:44
+2142939015781138,Ted,Shaowang,13203,2142939015781138,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-24 22:23:11
+2142939015781138,Ted,Shaowang,13204,854518728062939,2142939015781138,BOT: message,Which of the following options is the right answer?,2018-08-24 22:23:13
+2142939015781138,Ted,Shaowang,13205,854518728062939,2142939015781138,BOT: quick reply,":keycap_1: disenchants
+:keycap_2: obfuscates
+:keycap_3: sanctions
+:keycap_4: evokes
+:keycap_5: admires
+",2018-08-24 22:23:14
+2142939015781138,Ted,Shaowang,13215,2142939015781138,854518728062939,user_quick_reply: BUTTON_AKB_evokes,:keycap_4:,2018-08-24 22:24:12
+2142939015781138,Ted,Shaowang,13217,854518728062939,2142939015781138,BOT: message,Nice! That was right!,2018-08-24 22:24:13
+2142939015781138,Ted,Shaowang,13219,854518728062939,2142939015781138,BOT: quick reply,The correct answer is evokes.,2018-08-24 22:24:14
+2142939015781138,Ted,Shaowang,13221,2142939015781138,854518728062939,user_quick_reply: WHY,Why?,2018-08-24 22:24:18
+2142939015781138,Ted,Shaowang,13222,854518728062939,2142939015781138,BOT: message,This is an explanation of the question:,2018-08-24 22:24:19
+2142939015781138,Ted,Shaowang,13224,854518728062939,2142939015781138,BOT: quick reply,":pushpin: Evokes -- call forth emotions, feelings, and responses
+:pushpin: Admires -- feel admiration for
+:pushpin: Obfuscates -- make obscure or unclear
+:pushpin: Disenchants -- free from enchantment
+:pushpin: Sanctions -- give sanction to",2018-08-24 22:24:21
+2142939015781138,Ted,Shaowang,13227,2142939015781138,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-24 22:24:24
+2142939015781138,Ted,Shaowang,13228,854518728062939,2142939015781138,BOT: message,Let's take a look at this question.,2018-08-24 22:24:25
+2142939015781138,Ted,Shaowang,13229,854518728062939,2142939015781138,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-24 22:24:26
+2142939015781138,Ted,Shaowang,13231,854518728062939,2142939015781138,BOT: quick reply,"Modern tennis fans have come to realize that, although, quantum technological leaps in racquet technology have lead to _____ increases in the speed and power with which players can hit the ball, this has not necessarily lead to a more entertaining game.",2018-08-24 22:24:28
+2142939015781138,Ted,Shaowang,13235,2142939015781138,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-24 22:24:36
+2142939015781138,Ted,Shaowang,13236,854518728062939,2142939015781138,BOT: message,Pick one of the following answers.,2018-08-24 22:24:37
+2142939015781138,Ted,Shaowang,13238,854518728062939,2142939015781138,BOT: quick reply,":keycap_1: tractable
+:keycap_2: malleable
+:keycap_3: innocuous
+:keycap_4: halcyon
+:keycap_5: commensurate
+",2018-08-24 22:24:39
+2142939015781138,Ted,Shaowang,13243,2142939015781138,854518728062939,user_quick_reply: BUTTON_DKB_tractable,:keycap_1:,2018-08-24 22:25:07
+2142939015781138,Ted,Shaowang,13244,854518728062939,2142939015781138,BOT: message,That's not quite right. :disappointed_face:,2018-08-24 22:25:09
+2142939015781138,Ted,Shaowang,13246,854518728062939,2142939015781138,BOT: quick reply,The correct answer is commensurate.,2018-08-24 22:25:10
+2142939015781138,Ted,Shaowang,13249,2142939015781138,854518728062939,user_quick_reply: WHY,Why?,2018-08-24 22:25:22
+2142939015781138,Ted,Shaowang,13250,854518728062939,2142939015781138,BOT: message,Here's why:,2018-08-24 22:25:23
+2142939015781138,Ted,Shaowang,13251,854518728062939,2142939015781138,BOT: quick reply,":pushpin: Commensurate -- corresponding in size or degree or extent
+:pushpin: Innocuous -- not injurious to physical or mental health
+:pushpin: Halcyon -- idyllically calm and peaceful; suggesting happy tranquillity
+:pushpin: Malleable -- easily influenced
+:pushpin: Tractable -- easily managed (controlled or taught or molded",2018-08-24 22:25:25
+2142939015781138,Ted,Shaowang,13252,2142939015781138,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-24 22:26:22
+2142939015781138,Ted,Shaowang,13253,854518728062939,2142939015781138,BOT: message,Let's see if you would answer this one.,2018-08-24 22:26:23
+2142939015781138,Ted,Shaowang,13254,854518728062939,2142939015781138,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-24 22:26:24
+2142939015781138,Ted,Shaowang,13255,854518728062939,2142939015781138,BOT: quick reply,"Even though legislators claimed the Contagious Diseases Acts strengthened the nation, social purists argued the Acts _____ the nation's moral growth by encouraging licentious behavior.",2018-08-24 22:26:26
+2142939015781138,Ted,Shaowang,13256,2142939015781138,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-24 22:26:56
+2142939015781138,Ted,Shaowang,13257,854518728062939,2142939015781138,BOT: message,Pick one of the following answers.,2018-08-24 22:26:57
+2142939015781138,Ted,Shaowang,13258,854518728062939,2142939015781138,BOT: quick reply,":keycap_1: advanced
+:keycap_2: supplanted
+:keycap_3: ameliorated
+:keycap_4: hampered
+:keycap_5: enhanced
+",2018-08-24 22:26:59
+2142939015781138,Ted,Shaowang,13259,2142939015781138,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-24 22:26:59
+2142939015781138,Ted,Shaowang,13260,854518728062939,2142939015781138,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-08-24 22:27:01
+2142939015781138,Ted,Shaowang,13261,854518728062939,2142939015781138,BOT: quick reply,":keycap_1: advanced
+:keycap_2: hampered
+:keycap_3: supplanted
+:keycap_4: enhanced
+:keycap_5: ameliorated
+",2018-08-24 22:27:02
+2142939015781138,Ted,Shaowang,13262,2142939015781138,854518728062939,user_quick_reply: BUTTON_AKB_hampered,:keycap_2:,2018-08-24 22:27:14
+2142939015781138,Ted,Shaowang,13263,854518728062939,2142939015781138,BOT: message,Nice work! Keep it up!,2018-08-24 22:27:15
+2142939015781138,Ted,Shaowang,13264,854518728062939,2142939015781138,BOT: quick reply,The correct answer is hampered.,2018-08-24 22:27:16
+2142939015781138,Ted,Shaowang,13265,2142939015781138,854518728062939,user_quick_reply: WHY,Why?,2018-08-24 22:27:32
+2142939015781138,Ted,Shaowang,13266,854518728062939,2142939015781138,BOT: message,I hope this explanation could help you understand the the question.,2018-08-24 22:27:34
+2142939015781138,Ted,Shaowang,13267,854518728062939,2142939015781138,BOT: quick reply,":pushpin: Hampered -- prevent the progress or free movement of
+:pushpin: Advanced -- move or bring forward
+:pushpin: Ameliorated -- to make better
+:pushpin: Supplanted -- take the place or move into the position of
+:pushpin: Enhanced -- increased or intensified in value or beauty or quality",2018-08-24 22:27:35
+2142939015781138,Ted,Shaowang,13268,2142939015781138,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-24 22:27:38
+2142939015781138,Ted,Shaowang,13269,854518728062939,2142939015781138,BOT: message,I think you'll like this question.,2018-08-24 22:27:39
+2142939015781138,Ted,Shaowang,13270,854518728062939,2142939015781138,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-24 22:27:41
+2142939015781138,Ted,Shaowang,13271,854518728062939,2142939015781138,BOT: quick reply,"Although John F. Kennedy was known for his carefree flag football games, Gerald Ford should be _____ as our football president: he turned down offers to play for two National Football League teams in order to pursue a career in public service.",2018-08-24 22:27:42
+2142939015781138,Ted,Shaowang,13272,2142939015781138,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-24 22:27:46
+2142939015781138,Ted,Shaowang,13273,854518728062939,2142939015781138,BOT: message,Okay. I'll give you some choices.,2018-08-24 22:27:47
+2142939015781138,Ted,Shaowang,13274,854518728062939,2142939015781138,BOT: quick reply,":keycap_1: annulled
+:keycap_2: criticized
+:keycap_3: relegated
+:keycap_4: apotheosized
+:keycap_5: abrogated
+",2018-08-24 22:27:49
+2142939015781138,Ted,Shaowang,13275,2142939015781138,854518728062939,user_quick_reply: BUTTON_AKB_apotheosized,:keycap_4:,2018-08-24 22:27:55
+2142939015781138,Ted,Shaowang,13276,854518728062939,2142939015781138,BOT: message,Great job getting the correct answer!,2018-08-24 22:27:57
+2142939015781138,Ted,Shaowang,13277,854518728062939,2142939015781138,BOT: quick reply,The correct answer is apotheosized.,2018-08-24 22:27:58
+2142939015781138,Ted,Shaowang,13278,2142939015781138,854518728062939,user_quick_reply: WHY,Why?,2018-08-24 22:28:02
+2142939015781138,Ted,Shaowang,13279,854518728062939,2142939015781138,BOT: message,I hope this explanation could help you understand the the question.,2018-08-24 22:28:04
+2142939015781138,Ted,Shaowang,13280,854518728062939,2142939015781138,BOT: quick reply,":pushpin: Apotheosized -- deify or glorify
+:pushpin: Relegated -- to send or consign to an inferior position, place, or condition
+:pushpin: Abrogated -- revoke formally
+:pushpin: Annulled -- declare invalid
+:pushpin: Criticized -- find fault with; express criticism of; point out real or perceived flaws",2018-08-24 22:28:05
+2142939015781138,Ted,Shaowang,13281,2142939015781138,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-24 22:28:08
+2142939015781138,Ted,Shaowang,13282,854518728062939,2142939015781138,BOT: message,How about this next one:,2018-08-24 22:28:09
+2142939015781138,Ted,Shaowang,13283,854518728062939,2142939015781138,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-24 22:28:10
+2142939015781138,Ted,Shaowang,13284,854518728062939,2142939015781138,BOT: quick reply,"In psychological literature, the ""sleeper effect"" refers to the phenomenon in which a persuasive message from a trustworthy source loses _____ over time, while the efficacy of a message from a less credible source simultaneously increases.",2018-08-24 22:28:12
+2142939015781138,Ted,Shaowang,13285,2142939015781138,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-24 22:28:15
+2142939015781138,Ted,Shaowang,13286,854518728062939,2142939015781138,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-08-24 22:28:17
+2142939015781138,Ted,Shaowang,13287,854518728062939,2142939015781138,BOT: quick reply,":keycap_1: control
+:keycap_2: evasiveness
+:keycap_3: erudition
+:keycap_4: cogency
+:keycap_5: prescience
+",2018-08-24 22:28:18
+2142939015781138,Ted,Shaowang,13288,2142939015781138,854518728062939,user_quick_reply: BUTTON_AKB_cogency,:keycap_4:,2018-08-24 22:28:22
+2142939015781138,Ted,Shaowang,13289,854518728062939,2142939015781138,BOT: message,Yes! You got the correct answer!,2018-08-24 22:28:23
+2142939015781138,Ted,Shaowang,13290,854518728062939,2142939015781138,BOT: quick reply,The correct answer is cogency.,2018-08-24 22:28:24
+2142939015781138,Ted,Shaowang,13291,2142939015781138,854518728062939,user_quick_reply: WHY,Why?,2018-08-24 22:28:28
+2142939015781138,Ted,Shaowang,13292,854518728062939,2142939015781138,BOT: message,I hope this explanation could help you understand the the question.,2018-08-24 22:28:30
+2142939015781138,Ted,Shaowang,13293,854518728062939,2142939015781138,BOT: quick reply,":pushpin: Cogency -- persuasive relevance
+:pushpin: Prescience -- the power to foresee the future
+:pushpin: Erudition -- profound scholarly knowledge
+:pushpin: Evasiveness -- intentionally vague or ambiguous
+:pushpin: Control -- exercise authoritative control or power over",2018-08-24 22:28:31
+2142939015781138,Ted,Shaowang,13294,2142939015781138,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-24 22:28:34
+2142939015781138,Ted,Shaowang,13295,854518728062939,2142939015781138,BOT: message,Could you answer this one for me?,2018-08-24 22:28:35
+2142939015781138,Ted,Shaowang,13296,854518728062939,2142939015781138,BOT: quick reply,"Having squandered his life's savings on unprofitable business ventures, the _____ entrepreneur was forced to live in squalor.",2018-08-24 22:28:37
+2142939015781138,Ted,Shaowang,13297,2142939015781138,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-24 22:28:40
+2142939015781138,Ted,Shaowang,13298,854518728062939,2142939015781138,BOT: message,Okay. I'll give you some choices.,2018-08-24 22:28:41
+2142939015781138,Ted,Shaowang,13299,854518728062939,2142939015781138,BOT: quick reply,":keycap_1: former
+:keycap_2: unlikely
+:keycap_3: eccentric
+:keycap_4: perturbed
+:keycap_5: insolvent
+",2018-08-24 22:28:43
+2142939015781138,Ted,Shaowang,13300,2142939015781138,854518728062939,user_quick_reply: BUTTON_AKB_insolvent,:keycap_5:,2018-08-24 22:28:51
+2142939015781138,Ted,Shaowang,13301,854518728062939,2142939015781138,BOT: message,Great job getting the correct answer!,2018-08-24 22:28:52
+2142939015781138,Ted,Shaowang,13302,854518728062939,2142939015781138,BOT: quick reply,The correct answer is insolvent.,2018-08-24 22:28:54
+2142939015781138,Ted,Shaowang,13303,2142939015781138,854518728062939,user_quick_reply: WHY,Why?,2018-08-24 22:28:58
+2142939015781138,Ted,Shaowang,13304,854518728062939,2142939015781138,BOT: message,Here's why:,2018-08-24 22:29:00
+2142939015781138,Ted,Shaowang,13305,854518728062939,2142939015781138,BOT: quick reply,":pushpin: Insolvent -- unable to meet or discharge financial obligations
+:pushpin: Former -- preceding in time; prior or earlier
+:pushpin: Unlikely -- not likely to be true or to occur or to have occurred
+:pushpin: Perturbed -- thrown into a state of agitated confusion
+:pushpin: Eccentric -- conspicuously or grossly unconventional or unusual",2018-08-24 22:29:01
+2142939015781138,Ted,Shaowang,13306,2142939015781138,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-24 22:29:05
+2142939015781138,Ted,Shaowang,13307,854518728062939,2142939015781138,BOT: message,Could you answer this one for me?,2018-08-24 22:29:06
+2142939015781138,Ted,Shaowang,13308,854518728062939,2142939015781138,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-24 22:29:08
+2142939015781138,Ted,Shaowang,13309,854518728062939,2142939015781138,BOT: quick reply,"Modern tennis fans have come to realize that, although, quantum technological leaps in racquet technology have lead to _____ increases in the speed and power with which players can hit the ball, this has not necessarily lead to a more entertaining game.",2018-08-24 22:29:09
+2142939015781138,Ted,Shaowang,13310,2142939015781138,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-24 22:29:13
+2142939015781138,Ted,Shaowang,13311,854518728062939,2142939015781138,BOT: message,Okay. I'll give you some choices.,2018-08-24 22:29:14
+2142939015781138,Ted,Shaowang,13312,854518728062939,2142939015781138,BOT: quick reply,":keycap_1: malleable
+:keycap_2: halcyon
+:keycap_3: innocuous
+:keycap_4: commensurate
+:keycap_5: tractable
+",2018-08-24 22:29:16
+2142939015781138,Ted,Shaowang,13313,2142939015781138,854518728062939,user_quick_reply: BUTTON_AKB_commensurate,:keycap_4:,2018-08-24 22:29:21
+2142939015781138,Ted,Shaowang,13314,854518728062939,2142939015781138,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_jubilated_cyan.png,2018-08-24 22:29:24
+2142939015781138,Ted,Shaowang,13315,854518728062939,2142939015781138,BOT: message,Nice! That was right!,2018-08-24 22:29:25
+2142939015781138,Ted,Shaowang,13316,854518728062939,2142939015781138,BOT: quick reply,The correct answer is commensurate.,2018-08-24 22:29:27
+2142939015781138,Ted,Shaowang,13317,2142939015781138,854518728062939,user_quick_reply: WHY,Why?,2018-08-24 22:29:31
+2142939015781138,Ted,Shaowang,13318,854518728062939,2142939015781138,BOT: message,I hope this explanation could help you understand the the question.,2018-08-24 22:29:32
+2142939015781138,Ted,Shaowang,13319,854518728062939,2142939015781138,BOT: quick reply,":pushpin: Commensurate -- corresponding in size or degree or extent
+:pushpin: Innocuous -- not injurious to physical or mental health
+:pushpin: Halcyon -- idyllically calm and peaceful; suggesting happy tranquillity
+:pushpin: Malleable -- easily influenced
+:pushpin: Tractable -- easily managed (controlled or taught or molded",2018-08-24 22:29:34
+2142939015781138,Ted,Shaowang,13320,2142939015781138,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-24 22:29:37
+2142939015781138,Ted,Shaowang,13321,854518728062939,2142939015781138,BOT: message,Let's try this one.,2018-08-24 22:29:38
+2142939015781138,Ted,Shaowang,13322,854518728062939,2142939015781138,BOT: quick reply,"Just as different people can have very different personalities, so too can pets - even those of the same species and breed possess varied _____ .",2018-08-24 22:29:40
+2142939015781138,Ted,Shaowang,13323,2142939015781138,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-24 22:29:43
+2142939015781138,Ted,Shaowang,13324,854518728062939,2142939015781138,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-08-24 22:29:44
+2142939015781138,Ted,Shaowang,13325,854518728062939,2142939015781138,BOT: quick reply,":keycap_1: initiations
+:keycap_2: implementations
+:keycap_3: rationalizations
+:keycap_4: aptitudes
+:keycap_5: temperaments
+",2018-08-24 22:29:45
+2142939015781138,Ted,Shaowang,13326,2142939015781138,854518728062939,user_quick_reply: BUTTON_AKB_temperaments,:keycap_5:,2018-08-24 22:29:52
+2142939015781138,Ted,Shaowang,13327,854518728062939,2142939015781138,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_jubilated_orange.png,2018-08-24 22:29:54
+2142939015781138,Ted,Shaowang,13328,854518728062939,2142939015781138,BOT: message,Great! Keep it up! :flexed_biceps_medium-light_skin_tone:,2018-08-24 22:29:55
+2142939015781138,Ted,Shaowang,13329,854518728062939,2142939015781138,BOT: quick reply,The correct answer is temperaments.,2018-08-24 22:29:57
+2142939015781138,Ted,Shaowang,13330,2142939015781138,854518728062939,user_quick_reply: WHY,Why?,2018-08-24 22:30:00
+2142939015781138,Ted,Shaowang,13331,854518728062939,2142939015781138,BOT: message,I hope this explanation could help you understand the the question.,2018-08-24 22:30:01
+2142939015781138,Ted,Shaowang,13332,854518728062939,2142939015781138,BOT: quick reply,":pushpin: Temperaments -- the combination of mental, physical, and emotional traits
+:pushpin: Initiations -- a formal entry into an organization or position or office
+:pushpin: Implementations -- the act of accomplishing some aim or executing some order
+:pushpin: Aptitudes -- inherent ability
+:pushpin: Rationalizations -- the cognitive process of making something seem consistent with or based on reason",2018-08-24 22:30:03
+2142939015781138,Ted,Shaowang,13333,2142939015781138,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-24 22:30:07
+2142939015781138,Ted,Shaowang,13334,854518728062939,2142939015781138,BOT: message,Let's see if you would answer this one.,2018-08-24 22:30:08
+2142939015781138,Ted,Shaowang,13335,854518728062939,2142939015781138,BOT: quick reply,"Although John F. Kennedy was known for his carefree flag football games, Gerald Ford should be _____ as our football president: he turned down offers to play for two National Football League teams in order to pursue a career in public service.",2018-08-24 22:30:10
+2142939015781138,Ted,Shaowang,13336,2142939015781138,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-24 22:30:14
+2142939015781138,Ted,Shaowang,13337,854518728062939,2142939015781138,BOT: message,It's one of the following choices.,2018-08-24 22:30:15
+2142939015781138,Ted,Shaowang,13338,854518728062939,2142939015781138,BOT: quick reply,":keycap_1: abrogated
+:keycap_2: apotheosized
+:keycap_3: relegated
+:keycap_4: criticized
+:keycap_5: annulled
+",2018-08-24 22:30:17
+2142939015781138,Ted,Shaowang,13339,2142939015781138,854518728062939,user_quick_reply: BUTTON_AKB_apotheosized,:keycap_2:,2018-08-24 22:30:22
+2142939015781138,Ted,Shaowang,13340,854518728062939,2142939015781138,BOT: message,Great job getting the correct answer!,2018-08-24 22:30:23
+2142939015781138,Ted,Shaowang,13341,854518728062939,2142939015781138,BOT: quick reply,The correct answer is apotheosized.,2018-08-24 22:30:25
+2142939015781138,Ted,Shaowang,13342,2142939015781138,854518728062939,user_quick_reply: WHY,Why?,2018-08-24 22:31:06
+2142939015781138,Ted,Shaowang,13343,854518728062939,2142939015781138,BOT: message,Here's why:,2018-08-24 22:31:07
+2142939015781138,Ted,Shaowang,13344,854518728062939,2142939015781138,BOT: quick reply,":pushpin: Apotheosized -- deify or glorify
+:pushpin: Relegated -- to send or consign to an inferior position, place, or condition
+:pushpin: Abrogated -- revoke formally
+:pushpin: Annulled -- declare invalid
+:pushpin: Criticized -- find fault with; express criticism of; point out real or perceived flaws",2018-08-24 22:31:09
+2142939015781138,Ted,Shaowang,15308,854518728062939,2142939015781138,BOT: quick reply,"Hi Ted, you haven't talked to me for a while. Would you like to resume the learning with me?",2018-08-25 20:00:29

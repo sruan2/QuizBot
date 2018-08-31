@@ -1,0 +1,1627 @@
+user_id,user_firstname,user_lastname,uid,sender,recipient,type,dialogue,time_stamp
+1679729278802568,Joy,Yuzuriha,203,1679729278802568,854518728062939,persistent_menu: GET_INTRO_1,Get Started,2018-08-20 17:19:35
+1679729278802568,Joy,Yuzuriha,204,854518728062939,1679729278802568,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/quizbot_avatar.png,2018-08-20 17:19:39
+1679729278802568,Joy,Yuzuriha,205,854518728062939,1679729278802568,BOT: quick reply,"Hi Joy! My name is Frosty :penguin: and Im here to help you learn all about science:microscope:, verbal reasoning (GRE) :input_latin_uppercase:, and safety:hammer_and_wrench:!",2018-08-20 17:19:40
+1679729278802568,Joy,Yuzuriha,206,1679729278802568,854518728062939,persistent_menu: SAFETY,Safety:hammer_and_wrench:,2018-08-20 17:19:59
+1679729278802568,Joy,Yuzuriha,207,854518728062939,1679729278802568,BOT: quick reply,Good choice! Let's see what you know about safety!,2018-08-20 17:20:01
+1679729278802568,Joy,Yuzuriha,208,1679729278802568,854518728062939,user_quick_reply: NEXT_QUESTION,Okay :clapping_hands_medium-light_skin_tone:,2018-08-20 17:20:05
+1679729278802568,Joy,Yuzuriha,209,854518728062939,1679729278802568,BOT: message,Let's try this one.,2018-08-20 17:20:07
+1679729278802568,Joy,Yuzuriha,210,854518728062939,1679729278802568,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-20 17:20:08
+1679729278802568,Joy,Yuzuriha,211,854518728062939,1679729278802568,BOT: quick reply,What is the maximum amount of time perishable food should be left out?,2018-08-20 17:20:10
+1679729278802568,Joy,Yuzuriha,212,1679729278802568,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-20 17:20:19
+1679729278802568,Joy,Yuzuriha,213,854518728062939,1679729278802568,BOT: message,Pick one of the following answers.,2018-08-20 17:20:21
+1679729278802568,Joy,Yuzuriha,214,854518728062939,1679729278802568,BOT: quick reply,":keycap_1: 3 hours
+:keycap_2: 3.5 hours
+:keycap_3: 1.5 hours
+:keycap_4: 2 hours
+",2018-08-20 17:20:22
+1679729278802568,Joy,Yuzuriha,215,1679729278802568,854518728062939,user_quick_reply: BUTTON_AKB_2 hours,:keycap_4:,2018-08-20 17:20:28
+1679729278802568,Joy,Yuzuriha,216,854518728062939,1679729278802568,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_jubilated_orange.png,2018-08-20 17:20:31
+1679729278802568,Joy,Yuzuriha,217,854518728062939,1679729278802568,BOT: message,Great! Keep it up! :flexed_biceps_medium-light_skin_tone:,2018-08-20 17:20:32
+1679729278802568,Joy,Yuzuriha,218,854518728062939,1679729278802568,BOT: quick reply,The correct answer is 2 hours.,2018-08-20 17:20:34
+1679729278802568,Joy,Yuzuriha,237,1679729278802568,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-20 18:39:51
+1679729278802568,Joy,Yuzuriha,238,854518728062939,1679729278802568,BOT: message,I think you'll like this question.,2018-08-20 18:39:52
+1679729278802568,Joy,Yuzuriha,239,854518728062939,1679729278802568,BOT: quick reply,"Arrange in the correct order the following treatment steps for somebody who has lost consciousness: (i) call 911 or inform someone of the situation, (ii) begin CPR, (iii) check the patient's airway to make sure it is clear, (iv) place the victim on his/her back, (v) check signs of life (coughing, breathing, or movement).",2018-08-20 18:39:54
+1679729278802568,Joy,Yuzuriha,240,1679729278802568,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-20 18:40:11
+1679729278802568,Joy,Yuzuriha,241,854518728062939,1679729278802568,BOT: message,It's one of the following choices.,2018-08-20 18:40:12
+1679729278802568,Joy,Yuzuriha,242,854518728062939,1679729278802568,BOT: quick reply,":keycap_1: ii, iv, iii, v, i
+:keycap_2: iv, i, iii, v, ii
+:keycap_3: v, iv, iii, i, ii
+:keycap_4: i, ii, iii, iv, v
+",2018-08-20 18:40:14
+1679729278802568,Joy,Yuzuriha,243,1679729278802568,854518728062939,"user_quick_reply: BUTTON_DKB_v, iv, iii, i, ii",:keycap_3:,2018-08-20 18:40:28
+1679729278802568,Joy,Yuzuriha,244,854518728062939,1679729278802568,BOT: message,"I'm sorry, but that was incorrect. :disappointed_face:",2018-08-20 18:40:30
+1679729278802568,Joy,Yuzuriha,245,854518728062939,1679729278802568,BOT: quick reply,"The correct answer is iv, i, iii, v, ii.",2018-08-20 18:40:31
+1679729278802568,Joy,Yuzuriha,246,1679729278802568,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-20 18:40:53
+1679729278802568,Joy,Yuzuriha,247,854518728062939,1679729278802568,BOT: message,Let's see if you can answer this question.,2018-08-20 18:40:54
+1679729278802568,Joy,Yuzuriha,248,854518728062939,1679729278802568,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-20 18:40:56
+1679729278802568,Joy,Yuzuriha,249,854518728062939,1679729278802568,BOT: quick reply,"When using a ladder to climb a roof, the ladder must extend at least___ above it.",2018-08-20 18:40:57
+1679729278802568,Joy,Yuzuriha,250,1679729278802568,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-20 18:41:08
+1679729278802568,Joy,Yuzuriha,251,854518728062939,1679729278802568,BOT: message,It's one of the following choices.,2018-08-20 18:41:09
+1679729278802568,Joy,Yuzuriha,252,854518728062939,1679729278802568,BOT: quick reply,":keycap_1: 36
+:keycap_2: 30
+:keycap_3: 24
+:keycap_4: 18
+",2018-08-20 18:41:10
+1679729278802568,Joy,Yuzuriha,253,1679729278802568,854518728062939,user_quick_reply: I_DONT_KNOW,I dont know :downcast_face_with_sweat:,2018-08-20 18:41:24
+1679729278802568,Joy,Yuzuriha,254,854518728062939,1679729278802568,BOT: quick reply,Are you sure you want to skip answering?,2018-08-20 18:41:26
+1679729278802568,Joy,Yuzuriha,255,1679729278802568,854518728062939,user_quick_reply: GIVEUP_NO,"No, I'll try again!",2018-08-20 18:41:32
+1679729278802568,Joy,Yuzuriha,256,854518728062939,1679729278802568,BOT: message,Alright! Let's do it again!,2018-08-20 18:41:34
+1679729278802568,Joy,Yuzuriha,257,854518728062939,1679729278802568,BOT: message,It's one of the following choices.,2018-08-20 18:41:35
+1679729278802568,Joy,Yuzuriha,258,854518728062939,1679729278802568,BOT: quick reply,":keycap_1: 30
+:keycap_2: 24
+:keycap_3: 36
+:keycap_4: 18
+",2018-08-20 18:41:36
+1679729278802568,Joy,Yuzuriha,259,1679729278802568,854518728062939,user_quick_reply: BUTTON_DKB_18,:keycap_4:,2018-08-20 18:41:44
+1679729278802568,Joy,Yuzuriha,260,854518728062939,1679729278802568,BOT: message,"I'm sorry, but that was incorrect. :disappointed_face:",2018-08-20 18:41:45
+1679729278802568,Joy,Yuzuriha,261,854518728062939,1679729278802568,BOT: quick reply,The correct answer is 36.,2018-08-20 18:41:47
+1679729278802568,Joy,Yuzuriha,262,1679729278802568,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-20 18:42:02
+1679729278802568,Joy,Yuzuriha,263,854518728062939,1679729278802568,BOT: message,Let's take a look at this question.,2018-08-20 18:42:03
+1679729278802568,Joy,Yuzuriha,264,854518728062939,1679729278802568,BOT: quick reply,What first aid should you give to someone who is having a heart attack?,2018-08-20 18:42:04
+1679729278802568,Joy,Yuzuriha,265,1679729278802568,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-20 18:42:12
+1679729278802568,Joy,Yuzuriha,266,854518728062939,1679729278802568,BOT: message,Which of the following options is the right answer?,2018-08-20 18:42:14
+1679729278802568,Joy,Yuzuriha,267,854518728062939,1679729278802568,BOT: quick reply,":keycap_1: call 911, perform CPR, and loosen his/her clothing
+:keycap_2: loosen his/her clothing
+:keycap_3: call 911 or your local emergency number
+:keycap_4: perform CPR
+",2018-08-20 18:42:15
+1679729278802568,Joy,Yuzuriha,268,1679729278802568,854518728062939,"user_quick_reply: BUTTON_AKB_call 911, perform CPR, and loosen his/her clothing",:keycap_1:,2018-08-20 18:42:27
+1679729278802568,Joy,Yuzuriha,269,854518728062939,1679729278802568,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_normal.png,2018-08-20 18:42:29
+1679729278802568,Joy,Yuzuriha,270,854518728062939,1679729278802568,BOT: message,Nice! That was right!,2018-08-20 18:42:31
+1679729278802568,Joy,Yuzuriha,271,854518728062939,1679729278802568,BOT: quick reply,"The correct answer is call 911, perform CPR, and loosen his/her clothing.",2018-08-20 18:42:32
+1679729278802568,Joy,Yuzuriha,272,1679729278802568,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-20 18:42:38
+1679729278802568,Joy,Yuzuriha,273,854518728062939,1679729278802568,BOT: message,Would you answer this question for me?,2018-08-20 18:42:40
+1679729278802568,Joy,Yuzuriha,274,854518728062939,1679729278802568,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-20 18:42:41
+1679729278802568,Joy,Yuzuriha,275,854518728062939,1679729278802568,BOT: quick reply,"True or false: you can always smell, see, or taste harmful bacteria in food that can cause illness.",2018-08-20 18:42:42
+1679729278802568,Joy,Yuzuriha,276,1679729278802568,854518728062939,user_typing,False,2018-08-20 18:42:55
+1679729278802568,Joy,Yuzuriha,277,854518728062939,1679729278802568,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_normal_pink.png,2018-08-20 18:42:58
+1679729278802568,Joy,Yuzuriha,278,854518728062939,1679729278802568,BOT: message,Nice! :red_apple:,2018-08-20 18:42:59
+1679729278802568,Joy,Yuzuriha,279,854518728062939,1679729278802568,BOT: quick reply,The correct answer is false.,2018-08-20 18:43:01
+1679729278802568,Joy,Yuzuriha,280,1679729278802568,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-20 18:43:12
+1679729278802568,Joy,Yuzuriha,281,854518728062939,1679729278802568,BOT: message,See if you can answer this next one.,2018-08-20 18:43:13
+1679729278802568,Joy,Yuzuriha,282,854518728062939,1679729278802568,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-20 18:43:15
+1679729278802568,Joy,Yuzuriha,283,854518728062939,1679729278802568,BOT: quick reply,"Arrange in the correct order the following treatment steps for somebody who has lost consciousness: (i) call 911 or inform someone of the situation, (ii) begin CPR, (iii) check the patient's airway to make sure it is clear, (iv) place the victim on his/her back, (v) check signs of life (coughing, breathing, or movement).",2018-08-20 18:43:16
+1679729278802568,Joy,Yuzuriha,284,1679729278802568,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-20 18:43:33
+1679729278802568,Joy,Yuzuriha,285,854518728062939,1679729278802568,BOT: message,Okay. I'll give you some choices.,2018-08-20 18:43:35
+1679729278802568,Joy,Yuzuriha,286,854518728062939,1679729278802568,BOT: quick reply,":keycap_1: i, ii, iii, iv, v
+:keycap_2: iv, i, iii, v, ii
+:keycap_3: v, iv, iii, i, ii
+:keycap_4: ii, iv, iii, v, i
+",2018-08-20 18:43:36
+1679729278802568,Joy,Yuzuriha,287,1679729278802568,854518728062939,"user_quick_reply: BUTTON_AKB_iv, i, iii, v, ii",:keycap_2:,2018-08-20 18:43:56
+1679729278802568,Joy,Yuzuriha,288,854518728062939,1679729278802568,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_normal_orange.png,2018-08-20 18:43:58
+1679729278802568,Joy,Yuzuriha,289,854518728062939,1679729278802568,BOT: message,Great job getting the correct answer!,2018-08-20 18:43:59
+1679729278802568,Joy,Yuzuriha,290,854518728062939,1679729278802568,BOT: quick reply,"The correct answer is iv, i, iii, v, ii.",2018-08-20 18:44:01
+1679729278802568,Joy,Yuzuriha,291,1679729278802568,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-20 18:44:26
+1679729278802568,Joy,Yuzuriha,292,854518728062939,1679729278802568,BOT: message,Let's see if you can get this one.,2018-08-20 18:44:28
+1679729278802568,Joy,Yuzuriha,293,854518728062939,1679729278802568,BOT: quick reply,At what water temperature should you bathe frostbitten skin?,2018-08-20 18:44:29
+1679729278802568,Joy,Yuzuriha,294,1679729278802568,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-20 18:44:39
+1679729278802568,Joy,Yuzuriha,295,854518728062939,1679729278802568,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-08-20 18:44:40
+1679729278802568,Joy,Yuzuriha,296,854518728062939,1679729278802568,BOT: quick reply,":keycap_1: at 32 F (0 C)
+:keycap_2: between 120 to 150 F (50 to 70 C)
+:keycap_3: you should never submerge frostbite into water
+:keycap_4: between 104 to 107.6 F (40 to 42 C)
+",2018-08-20 18:44:42
+1679729278802568,Joy,Yuzuriha,297,1679729278802568,854518728062939,user_quick_reply: BUTTON_DKB_at 32 F (0 C),:keycap_1:,2018-08-20 18:45:06
+1679729278802568,Joy,Yuzuriha,298,854518728062939,1679729278802568,BOT: message,That's not quite right. :disappointed_face:,2018-08-20 18:45:07
+1679729278802568,Joy,Yuzuriha,299,854518728062939,1679729278802568,BOT: quick reply,The correct answer is between 104 to 107.6 F (40 to 42 C).,2018-08-20 18:45:09
+1679729278802568,Joy,Yuzuriha,300,1679729278802568,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-20 18:45:25
+1679729278802568,Joy,Yuzuriha,301,854518728062939,1679729278802568,BOT: message,Let's take a look at this question.,2018-08-20 18:45:27
+1679729278802568,Joy,Yuzuriha,302,854518728062939,1679729278802568,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-20 18:45:28
+1679729278802568,Joy,Yuzuriha,303,854518728062939,1679729278802568,BOT: quick reply,True or false: all workplaces need to provide portable fire extinguishers.,2018-08-20 18:45:29
+1679729278802568,Joy,Yuzuriha,304,1679729278802568,854518728062939,user_typing,true,2018-08-20 18:45:40
+1679729278802568,Joy,Yuzuriha,305,854518728062939,1679729278802568,BOT: message,That wasn't quite what we were looking for. :disappointed_face:,2018-08-20 18:45:41
+1679729278802568,Joy,Yuzuriha,306,854518728062939,1679729278802568,BOT: quick reply,The correct answer is false.,2018-08-20 18:45:43
+1679729278802568,Joy,Yuzuriha,309,854518728062939,1679729278802568,BOT: quick reply,"Hi Joy, you haven't talked to me for a while. Would you like to resume the learning with me?",2018-08-20 20:00:05
+1679729278802568,Joy,Yuzuriha,976,854518728062939,1679729278802568,BOT: quick reply,"Hi Joy, you haven't talked to me for a while. Would you like to resume the learning with me?",2018-08-21 20:00:08
+1679729278802568,Joy,Yuzuriha,1518,1679729278802568,854518728062939,user_quick_reply: NEXT_QUESTION,Got it :light_bulb:,2018-08-21 22:18:31
+1679729278802568,Joy,Yuzuriha,1521,854518728062939,1679729278802568,BOT: message,See if you can answer this next one.,2018-08-21 22:18:33
+1679729278802568,Joy,Yuzuriha,1523,854518728062939,1679729278802568,BOT: quick reply,What is the diffusion of water through a semipermeable membrane down its concentration gradient?,2018-08-21 22:18:35
+1679729278802568,Joy,Yuzuriha,1565,1679729278802568,854518728062939,persistent_menu: SCIENCE,Science:microscope:,2018-08-21 22:24:21
+1679729278802568,Joy,Yuzuriha,1566,854518728062939,1679729278802568,BOT: quick reply,Okay! Lets see how much you know about science!,2018-08-21 22:24:23
+1679729278802568,Joy,Yuzuriha,1609,1679729278802568,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-21 22:27:18
+1679729278802568,Joy,Yuzuriha,1610,854518728062939,1679729278802568,BOT: message,Let's take a look at this question.,2018-08-21 22:27:20
+1679729278802568,Joy,Yuzuriha,1611,854518728062939,1679729278802568,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-21 22:27:21
+1679729278802568,Joy,Yuzuriha,1612,854518728062939,1679729278802568,BOT: quick reply,What is the diffusion of water through a semipermeable membrane down its concentration gradient?,2018-08-21 22:27:22
+1679729278802568,Joy,Yuzuriha,2095,1679729278802568,854518728062939,user_typing,osmosis,2018-08-21 23:37:28
+1679729278802568,Joy,Yuzuriha,2096,854518728062939,1679729278802568,BOT: quick reply,"That sounds interesting, but I haven't learned about this yet. I'll learn more languages in the future.",2018-08-21 23:37:29
+1679729278802568,Joy,Yuzuriha,2097,1679729278802568,854518728062939,user_quick_reply: NEXT_QUESTION,Resume learning :flexed_biceps_medium-light_skin_tone:,2018-08-21 23:37:58
+1679729278802568,Joy,Yuzuriha,2098,854518728062939,1679729278802568,BOT: message,Let's see if you can get this one.,2018-08-21 23:37:59
+1679729278802568,Joy,Yuzuriha,2099,854518728062939,1679729278802568,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-21 23:38:01
+1679729278802568,Joy,Yuzuriha,2100,854518728062939,1679729278802568,BOT: quick reply,What is the diffusion of water through a semipermeable membrane down its concentration gradient?,2018-08-21 23:38:03
+1679729278802568,Joy,Yuzuriha,2101,1679729278802568,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-21 23:38:10
+1679729278802568,Joy,Yuzuriha,2102,854518728062939,1679729278802568,BOT: message,Okay. I'll give you some choices.,2018-08-21 23:38:11
+1679729278802568,Joy,Yuzuriha,2103,854518728062939,1679729278802568,BOT: quick reply,":keycap_1: nutrients
+:keycap_2: permable
+:keycap_3: osmosis
+:keycap_4: mirrors
+",2018-08-21 23:38:13
+1679729278802568,Joy,Yuzuriha,2111,1679729278802568,854518728062939,user_quick_reply: BUTTON_AKB_osmosis,:keycap_3:,2018-08-21 23:48:51
+1679729278802568,Joy,Yuzuriha,2112,854518728062939,1679729278802568,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_normal_purple.png,2018-08-21 23:48:54
+1679729278802568,Joy,Yuzuriha,2113,854518728062939,1679729278802568,BOT: message,Yes! You got the correct answer!,2018-08-21 23:48:55
+1679729278802568,Joy,Yuzuriha,2114,854518728062939,1679729278802568,BOT: quick reply,The correct answer is osmosis.,2018-08-21 23:48:56
+1679729278802568,Joy,Yuzuriha,2115,1679729278802568,854518728062939,user_quick_reply: SWITCH_SUBJECT,Change subject :shuffle_tracks_button:,2018-08-21 23:49:04
+1679729278802568,Joy,Yuzuriha,2116,854518728062939,1679729278802568,BOT: quick reply,"Okay, now tell me which subject you would like to study.:backhand_index_pointing_down_medium-light_skin_tone:",2018-08-21 23:49:05
+1679729278802568,Joy,Yuzuriha,2117,1679729278802568,854518728062939,user_quick_reply: RANDOM,Random :game_die:,2018-08-21 23:49:21
+1679729278802568,Joy,Yuzuriha,2118,854518728062939,1679729278802568,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/evolvescientist_normal.gif,2018-08-21 23:49:25
+1679729278802568,Joy,Yuzuriha,2119,854518728062939,1679729278802568,BOT: quick reply,Nice! Enjoy a little variety? Let's answer some questions! :game_die:,2018-08-21 23:49:27
+1679729278802568,Joy,Yuzuriha,2120,1679729278802568,854518728062939,user_quick_reply: NEXT_QUESTION,Sure :thumbs_up_medium-light_skin_tone:,2018-08-21 23:49:34
+1679729278802568,Joy,Yuzuriha,2121,854518728062939,1679729278802568,BOT: message,Let's see if you can get this one.,2018-08-21 23:49:36
+1679729278802568,Joy,Yuzuriha,2122,854518728062939,1679729278802568,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-21 23:49:37
+1679729278802568,Joy,Yuzuriha,2123,854518728062939,1679729278802568,BOT: quick reply,"If your co-worker needs CPR but you are not trained in it, what should you do?",2018-08-21 23:49:39
+1679729278802568,Joy,Yuzuriha,2124,1679729278802568,854518728062939,user_typing,no,2018-08-21 23:49:47
+1679729278802568,Joy,Yuzuriha,2125,854518728062939,1679729278802568,BOT: message,That's not quite right. :disappointed_face:,2018-08-21 23:49:49
+1679729278802568,Joy,Yuzuriha,2126,854518728062939,1679729278802568,BOT: quick reply,The correct answer is Perform chest compressions only.,2018-08-21 23:49:50
+1679729278802568,Joy,Yuzuriha,2127,1679729278802568,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-21 23:50:00
+1679729278802568,Joy,Yuzuriha,2128,854518728062939,1679729278802568,BOT: message,Let's try this question.,2018-08-21 23:50:01
+1679729278802568,Joy,Yuzuriha,2129,854518728062939,1679729278802568,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-21 23:50:03
+1679729278802568,Joy,Yuzuriha,2130,854518728062939,1679729278802568,BOT: quick reply,The electrode at which oxidation occurs is called the what?,2018-08-21 23:50:04
+1679729278802568,Joy,Yuzuriha,2131,1679729278802568,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-21 23:50:50
+1679729278802568,Joy,Yuzuriha,2132,854518728062939,1679729278802568,BOT: message,Pick one of the following answers.,2018-08-21 23:50:51
+1679729278802568,Joy,Yuzuriha,2133,854518728062939,1679729278802568,BOT: quick reply,":keycap_1: cathode
+:keycap_2: calomel
+:keycap_3: diode
+:keycap_4: anode
+",2018-08-21 23:50:53
+1679729278802568,Joy,Yuzuriha,2134,1679729278802568,854518728062939,user_quick_reply: BUTTON_DKB_cathode,:keycap_1:,2018-08-21 23:51:01
+1679729278802568,Joy,Yuzuriha,2135,854518728062939,1679729278802568,BOT: message,"Oops, that is not correct. :disappointed_face:",2018-08-21 23:51:03
+1679729278802568,Joy,Yuzuriha,2136,854518728062939,1679729278802568,BOT: quick reply,The correct answer is anode.,2018-08-21 23:51:04
+1679729278802568,Joy,Yuzuriha,2137,1679729278802568,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-21 23:51:10
+1679729278802568,Joy,Yuzuriha,2138,854518728062939,1679729278802568,BOT: message,Let's see if you can get this one.,2018-08-21 23:51:12
+1679729278802568,Joy,Yuzuriha,2139,854518728062939,1679729278802568,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-21 23:51:13
+1679729278802568,Joy,Yuzuriha,2140,854518728062939,1679729278802568,BOT: quick reply,"Having squandered his life's savings on unprofitable business ventures, the _____ entrepreneur was forced to live in squalor.",2018-08-21 23:51:14
+1679729278802568,Joy,Yuzuriha,2141,1679729278802568,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-21 23:51:25
+1679729278802568,Joy,Yuzuriha,2142,854518728062939,1679729278802568,BOT: message,Which of the following options is the right answer?,2018-08-21 23:51:26
+1679729278802568,Joy,Yuzuriha,2143,854518728062939,1679729278802568,BOT: quick reply,":keycap_1: eccentric
+:keycap_2: perturbed
+:keycap_3: former
+:keycap_4: insolvent
+:keycap_5: unlikely
+",2018-08-21 23:51:28
+1679729278802568,Joy,Yuzuriha,2144,1679729278802568,854518728062939,user_quick_reply: BUTTON_DKB_former,:keycap_3:,2018-08-21 23:51:38
+1679729278802568,Joy,Yuzuriha,2145,854518728062939,1679729278802568,BOT: message,That's not quite right. :disappointed_face:,2018-08-21 23:51:40
+1679729278802568,Joy,Yuzuriha,2146,854518728062939,1679729278802568,BOT: quick reply,The correct answer is insolvent.,2018-08-21 23:51:41
+1679729278802568,Joy,Yuzuriha,2147,1679729278802568,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-21 23:52:10
+1679729278802568,Joy,Yuzuriha,2148,854518728062939,1679729278802568,BOT: message,Could you answer this one for me?,2018-08-21 23:52:12
+1679729278802568,Joy,Yuzuriha,2149,854518728062939,1679729278802568,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-21 23:52:13
+1679729278802568,Joy,Yuzuriha,2150,854518728062939,1679729278802568,BOT: quick reply,The lithosphere is divided into a dozen major and several minor what?,2018-08-21 23:52:14
+1679729278802568,Joy,Yuzuriha,2151,1679729278802568,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-21 23:52:21
+1679729278802568,Joy,Yuzuriha,2152,854518728062939,1679729278802568,BOT: message,It's one of the following choices.,2018-08-21 23:52:23
+1679729278802568,Joy,Yuzuriha,2153,854518728062939,1679729278802568,BOT: quick reply,":keycap_1: plates
+:keycap_2: crystals
+:keycap_3: faults
+:keycap_4: zones
+",2018-08-21 23:52:24
+1679729278802568,Joy,Yuzuriha,2154,1679729278802568,854518728062939,user_quick_reply: BUTTON_AKB_plates,:keycap_1:,2018-08-21 23:52:30
+1679729278802568,Joy,Yuzuriha,2155,854518728062939,1679729278802568,BOT: message,Great! Keep it up! :flexed_biceps_medium-light_skin_tone:,2018-08-21 23:52:32
+1679729278802568,Joy,Yuzuriha,2156,854518728062939,1679729278802568,BOT: quick reply,The correct answer is plates.,2018-08-21 23:52:33
+1679729278802568,Joy,Yuzuriha,2157,1679729278802568,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-21 23:52:38
+1679729278802568,Joy,Yuzuriha,2158,854518728062939,1679729278802568,BOT: message,See if you can answer this next one.,2018-08-21 23:52:39
+1679729278802568,Joy,Yuzuriha,2159,854518728062939,1679729278802568,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-21 23:52:41
+1679729278802568,Joy,Yuzuriha,2160,854518728062939,1679729278802568,BOT: quick reply,What is the diffusion of water through a semipermeable membrane down its concentration gradient?,2018-08-21 23:52:42
+1679729278802568,Joy,Yuzuriha,2161,1679729278802568,854518728062939,user_typing,osmosis,2018-08-21 23:52:54
+1679729278802568,Joy,Yuzuriha,2162,854518728062939,1679729278802568,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_jubilated_orange.png,2018-08-21 23:52:56
+1679729278802568,Joy,Yuzuriha,2163,854518728062939,1679729278802568,BOT: message,Nice! :red_apple:,2018-08-21 23:52:58
+1679729278802568,Joy,Yuzuriha,2164,854518728062939,1679729278802568,BOT: quick reply,The correct answer is osmosis.,2018-08-21 23:52:59
+1679729278802568,Joy,Yuzuriha,2165,1679729278802568,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-21 23:53:05
+1679729278802568,Joy,Yuzuriha,2166,854518728062939,1679729278802568,BOT: message,Let's see if you can answer this question.,2018-08-21 23:53:07
+1679729278802568,Joy,Yuzuriha,2167,854518728062939,1679729278802568,BOT: quick reply,Working on scaffold during winds above ____ miles per hour is prohibited by OSHA.,2018-08-21 23:53:08
+1679729278802568,Joy,Yuzuriha,2168,1679729278802568,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-21 23:53:18
+1679729278802568,Joy,Yuzuriha,2169,854518728062939,1679729278802568,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-08-21 23:53:20
+1679729278802568,Joy,Yuzuriha,2170,854518728062939,1679729278802568,BOT: quick reply,":keycap_1: 50
+:keycap_2: 40
+:keycap_3: 25
+:keycap_4: 10
+",2018-08-21 23:53:21
+1679729278802568,Joy,Yuzuriha,2171,1679729278802568,854518728062939,user_quick_reply: BUTTON_DKB_25,:keycap_3:,2018-08-21 23:53:27
+1679729278802568,Joy,Yuzuriha,2172,854518728062939,1679729278802568,BOT: message,"I'm sorry, but that was incorrect. :disappointed_face:",2018-08-21 23:53:28
+1679729278802568,Joy,Yuzuriha,2173,854518728062939,1679729278802568,BOT: quick reply,The correct answer is 40.,2018-08-21 23:53:30
+1679729278802568,Joy,Yuzuriha,2174,1679729278802568,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-21 23:53:36
+1679729278802568,Joy,Yuzuriha,2175,854518728062939,1679729278802568,BOT: message,Let's see if you can answer this question.,2018-08-21 23:53:38
+1679729278802568,Joy,Yuzuriha,2176,854518728062939,1679729278802568,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-21 23:53:40
+1679729278802568,Joy,Yuzuriha,2177,854518728062939,1679729278802568,BOT: quick reply,"When your brain senses that your body temperature is increasing, it sends messages to the blood vessels in the skin to increase in what?",2018-08-21 23:53:41
+1679729278802568,Joy,Yuzuriha,2178,1679729278802568,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-21 23:53:50
+1679729278802568,Joy,Yuzuriha,2179,854518728062939,1679729278802568,BOT: message,Which of the following options is the right answer?,2018-08-21 23:53:51
+1679729278802568,Joy,Yuzuriha,2180,854518728062939,1679729278802568,BOT: quick reply,":keycap_1: surface
+:keycap_2: height
+:keycap_3: weight
+:keycap_4: diameter
+",2018-08-21 23:53:53
+1679729278802568,Joy,Yuzuriha,2181,1679729278802568,854518728062939,user_quick_reply: BUTTON_DKB_surface,:keycap_1:,2018-08-21 23:53:58
+1679729278802568,Joy,Yuzuriha,2182,854518728062939,1679729278802568,BOT: message,"Hmm, that wasn't quite right. :disappointed_face:",2018-08-21 23:54:00
+1679729278802568,Joy,Yuzuriha,2183,854518728062939,1679729278802568,BOT: quick reply,The correct answer is diameter.,2018-08-21 23:54:01
+1679729278802568,Joy,Yuzuriha,2184,1679729278802568,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-21 23:54:08
+1679729278802568,Joy,Yuzuriha,2185,854518728062939,1679729278802568,BOT: message,Let's take a look at this question.,2018-08-21 23:54:09
+1679729278802568,Joy,Yuzuriha,2186,854518728062939,1679729278802568,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-21 23:54:11
+1679729278802568,Joy,Yuzuriha,2187,854518728062939,1679729278802568,BOT: quick reply,The lithosphere is divided into a dozen major and several minor what?,2018-08-21 23:54:12
+1679729278802568,Joy,Yuzuriha,2188,1679729278802568,854518728062939,user_typing,plates,2018-08-21 23:54:20
+1679729278802568,Joy,Yuzuriha,2189,854518728062939,1679729278802568,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_jubilated_cyan.png,2018-08-21 23:54:23
+1679729278802568,Joy,Yuzuriha,2190,854518728062939,1679729278802568,BOT: message,Correct! :confetti_ball:,2018-08-21 23:54:24
+1679729278802568,Joy,Yuzuriha,2191,854518728062939,1679729278802568,BOT: quick reply,The correct answer is plates.,2018-08-21 23:54:25
+1679729278802568,Joy,Yuzuriha,2192,1679729278802568,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-21 23:54:31
+1679729278802568,Joy,Yuzuriha,2193,854518728062939,1679729278802568,BOT: message,What about this next question:,2018-08-21 23:54:32
+1679729278802568,Joy,Yuzuriha,2194,854518728062939,1679729278802568,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-21 23:54:33
+1679729278802568,Joy,Yuzuriha,2195,854518728062939,1679729278802568,BOT: quick reply,Seth was extremely _____ and did not enjoy activities that required effort to meet new people.,2018-08-21 23:54:35
+1679729278802568,Joy,Yuzuriha,2196,1679729278802568,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-21 23:54:42
+1679729278802568,Joy,Yuzuriha,2197,854518728062939,1679729278802568,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-08-21 23:54:44
+1679729278802568,Joy,Yuzuriha,2198,854518728062939,1679729278802568,BOT: quick reply,":keycap_1: lackluster
+:keycap_2: gregarious
+:keycap_3: extroverted
+:keycap_4: jaded
+:keycap_5: introverted
+",2018-08-21 23:54:45
+1679729278802568,Joy,Yuzuriha,2199,1679729278802568,854518728062939,user_quick_reply: BUTTON_AKB_introverted,:keycap_5:,2018-08-21 23:54:52
+1679729278802568,Joy,Yuzuriha,2200,854518728062939,1679729278802568,BOT: message,Nice! That was right!,2018-08-21 23:54:54
+1679729278802568,Joy,Yuzuriha,2201,854518728062939,1679729278802568,BOT: quick reply,The correct answer is introverted.,2018-08-21 23:54:55
+1679729278802568,Joy,Yuzuriha,2202,1679729278802568,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-21 23:55:00
+1679729278802568,Joy,Yuzuriha,2203,854518728062939,1679729278802568,BOT: message,Let's take a look at this question.,2018-08-21 23:55:01
+1679729278802568,Joy,Yuzuriha,2204,854518728062939,1679729278802568,BOT: quick reply,"Despite the smile that spread from ear to ear, the eyes relayed a certain _____ .",2018-08-21 23:55:03
+1679729278802568,Joy,Yuzuriha,2205,1679729278802568,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-21 23:55:09
+1679729278802568,Joy,Yuzuriha,2206,854518728062939,1679729278802568,BOT: message,Which of the following options is the right answer?,2018-08-21 23:55:11
+1679729278802568,Joy,Yuzuriha,2207,854518728062939,1679729278802568,BOT: quick reply,":keycap_1: sorrow
+:keycap_2: liveliness
+:keycap_3: jubilance
+:keycap_4: mischievousness
+:keycap_5: vision
+",2018-08-21 23:55:12
+1679729278802568,Joy,Yuzuriha,2208,1679729278802568,854518728062939,user_quick_reply: BUTTON_AKB_sorrow,:keycap_1:,2018-08-21 23:55:20
+1679729278802568,Joy,Yuzuriha,2209,854518728062939,1679729278802568,BOT: message,Nice! That was right!,2018-08-21 23:55:21
+1679729278802568,Joy,Yuzuriha,2210,854518728062939,1679729278802568,BOT: quick reply,The correct answer is sorrow.,2018-08-21 23:55:22
+1679729278802568,Joy,Yuzuriha,2211,1679729278802568,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-21 23:55:28
+1679729278802568,Joy,Yuzuriha,2212,854518728062939,1679729278802568,BOT: message,How about this next one:,2018-08-21 23:55:29
+1679729278802568,Joy,Yuzuriha,2213,854518728062939,1679729278802568,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-21 23:55:31
+1679729278802568,Joy,Yuzuriha,2214,854518728062939,1679729278802568,BOT: quick reply,Seth was extremely _____ and did not enjoy activities that required effort to meet new people.,2018-08-21 23:55:32
+1679729278802568,Joy,Yuzuriha,2215,1679729278802568,854518728062939,user_typing,introverted,2018-08-21 23:55:43
+1679729278802568,Joy,Yuzuriha,2216,854518728062939,1679729278802568,BOT: message,Fantastic! :hundred_points:,2018-08-21 23:55:45
+1679729278802568,Joy,Yuzuriha,2217,854518728062939,1679729278802568,BOT: quick reply,The correct answer is introverted.,2018-08-21 23:55:46
+1679729278802568,Joy,Yuzuriha,2218,1679729278802568,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-21 23:55:51
+1679729278802568,Joy,Yuzuriha,2219,854518728062939,1679729278802568,BOT: message,Could you answer this one for me?,2018-08-21 23:55:52
+1679729278802568,Joy,Yuzuriha,2220,854518728062939,1679729278802568,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-21 23:55:54
+1679729278802568,Joy,Yuzuriha,2221,854518728062939,1679729278802568,BOT: quick reply,"Having squandered his life's savings on unprofitable business ventures, the _____ entrepreneur was forced to live in squalor.",2018-08-21 23:55:55
+1679729278802568,Joy,Yuzuriha,2222,1679729278802568,854518728062939,user_typing,insolvent,2018-08-21 23:56:04
+1679729278802568,Joy,Yuzuriha,2223,854518728062939,1679729278802568,BOT: message,Thats right! :party_popper:,2018-08-21 23:56:05
+1679729278802568,Joy,Yuzuriha,2224,854518728062939,1679729278802568,BOT: quick reply,The correct answer is insolvent.,2018-08-21 23:56:07
+1679729278802568,Joy,Yuzuriha,2225,1679729278802568,854518728062939,persistent_menu: SAFETY,Safety:hammer_and_wrench:,2018-08-21 23:57:03
+1679729278802568,Joy,Yuzuriha,2226,854518728062939,1679729278802568,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/evolvenormal_safety.gif,2018-08-21 23:57:08
+1679729278802568,Joy,Yuzuriha,2227,854518728062939,1679729278802568,BOT: quick reply,All right! Ill quiz you on safety!,2018-08-21 23:57:09
+1679729278802568,Joy,Yuzuriha,2228,1679729278802568,854518728062939,user_quick_reply: NEXT_QUESTION,Alrighty :oncoming_fist_medium-light_skin_tone:,2018-08-21 23:57:15
+1679729278802568,Joy,Yuzuriha,2229,854518728062939,1679729278802568,BOT: message,Let's take a look at this question.,2018-08-21 23:57:16
+1679729278802568,Joy,Yuzuriha,2230,854518728062939,1679729278802568,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-21 23:57:18
+1679729278802568,Joy,Yuzuriha,2231,854518728062939,1679729278802568,BOT: quick reply,Which fire extinguishers are used to put out Class A fires?,2018-08-21 23:57:19
+1679729278802568,Joy,Yuzuriha,2232,1679729278802568,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-21 23:57:25
+1679729278802568,Joy,Yuzuriha,2233,854518728062939,1679729278802568,BOT: message,Which of the following options is the right answer?,2018-08-21 23:57:26
+1679729278802568,Joy,Yuzuriha,2234,854518728062939,1679729278802568,BOT: quick reply,":keycap_1: CO2 only
+:keycap_2: Both water and multi-purpose dry chemical
+:keycap_3: Both CO2 and water
+:keycap_4: Water only
+:keycap_5: Multi-purpose dry chemical only
+",2018-08-21 23:57:28
+1679729278802568,Joy,Yuzuriha,2235,1679729278802568,854518728062939,user_quick_reply: BUTTON_DKB_Multi-purpose dry chemical only,:keycap_5:,2018-08-21 23:57:38
+1679729278802568,Joy,Yuzuriha,2236,854518728062939,1679729278802568,BOT: message,"I'm sorry, but that was incorrect. :disappointed_face:",2018-08-21 23:57:39
+1679729278802568,Joy,Yuzuriha,2237,854518728062939,1679729278802568,BOT: quick reply,The correct answer is Both water and multi-purpose dry chemical.,2018-08-21 23:57:41
+1679729278802568,Joy,Yuzuriha,2238,1679729278802568,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-21 23:57:47
+1679729278802568,Joy,Yuzuriha,2239,854518728062939,1679729278802568,BOT: message,Let's take a look at this question.,2018-08-21 23:57:48
+1679729278802568,Joy,Yuzuriha,2240,854518728062939,1679729278802568,BOT: quick reply,What should you NOT do while lifting objects?,2018-08-21 23:57:50
+1679729278802568,Joy,Yuzuriha,2241,1679729278802568,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-21 23:57:56
+1679729278802568,Joy,Yuzuriha,2242,854518728062939,1679729278802568,BOT: message,Okay. I'll give you some choices.,2018-08-21 23:57:58
+1679729278802568,Joy,Yuzuriha,2243,854518728062939,1679729278802568,BOT: quick reply,":keycap_1: Keep the object close to your body
+:keycap_2: Bend at the knees
+:keycap_3: Keep your feet together
+:keycap_4: Keep your back straight
+",2018-08-21 23:57:59
+1679729278802568,Joy,Yuzuriha,2244,1679729278802568,854518728062939,user_quick_reply: BUTTON_AKB_Keep your feet together,:keycap_3:,2018-08-21 23:58:08
+1679729278802568,Joy,Yuzuriha,2245,854518728062939,1679729278802568,BOT: message,Nice! That was right!,2018-08-21 23:58:09
+1679729278802568,Joy,Yuzuriha,2246,854518728062939,1679729278802568,BOT: quick reply,The correct answer is Keep your feet together.,2018-08-21 23:58:11
+1679729278802568,Joy,Yuzuriha,2247,1679729278802568,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-21 23:58:15
+1679729278802568,Joy,Yuzuriha,2248,854518728062939,1679729278802568,BOT: message,Would you answer this question for me?,2018-08-21 23:58:16
+1679729278802568,Joy,Yuzuriha,2249,854518728062939,1679729278802568,BOT: quick reply,"What agency inspects, grades, and enforces standards of quality and wholesomeness for meat, poultry, milk, eggs, and grains?",2018-08-21 23:58:18
+1679729278802568,Joy,Yuzuriha,2250,1679729278802568,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-21 23:58:26
+1679729278802568,Joy,Yuzuriha,2251,854518728062939,1679729278802568,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-08-21 23:58:28
+1679729278802568,Joy,Yuzuriha,2252,854518728062939,1679729278802568,BOT: quick reply,":keycap_1: FDA
+:keycap_2: USDA
+:keycap_3: CDC
+:keycap_4: EPA
+",2018-08-21 23:58:29
+1679729278802568,Joy,Yuzuriha,2253,1679729278802568,854518728062939,user_quick_reply: BUTTON_DKB_FDA,:keycap_1:,2018-08-21 23:58:34
+1679729278802568,Joy,Yuzuriha,2254,854518728062939,1679729278802568,BOT: message,"Oops, that wasn't quite correct. :disappointed_face:",2018-08-21 23:58:36
+1679729278802568,Joy,Yuzuriha,2255,854518728062939,1679729278802568,BOT: quick reply,The correct answer is USDA.,2018-08-21 23:58:38
+1679729278802568,Joy,Yuzuriha,2256,1679729278802568,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-21 23:58:45
+1679729278802568,Joy,Yuzuriha,2257,854518728062939,1679729278802568,BOT: message,Would you answer this question for me?,2018-08-21 23:58:47
+1679729278802568,Joy,Yuzuriha,2258,854518728062939,1679729278802568,BOT: quick reply,"When you discover a fire, you should do what?",2018-08-21 23:58:48
+1679729278802568,Joy,Yuzuriha,2259,1679729278802568,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-21 23:58:54
+1679729278802568,Joy,Yuzuriha,2260,854518728062939,1679729278802568,BOT: message,Pick one of the following answers.,2018-08-21 23:58:55
+1679729278802568,Joy,Yuzuriha,2261,854518728062939,1679729278802568,BOT: quick reply,":keycap_1: Stay in the building until you figure out a way to extinguish the fire
+:keycap_2: Pull the fire alarm and call the fire department
+:keycap_3: Run out of the building without warning others of the fire
+:keycap_4: Use a fire extinguisher to put out the fire, even if you've never used a fire extinguisher before
+",2018-08-21 23:58:57
+1679729278802568,Joy,Yuzuriha,2266,1679729278802568,854518728062939,user_quick_reply: BUTTON_AKB_Pull the fire alarm and call the fire department,:keycap_2:,2018-08-21 23:59:16
+1679729278802568,Joy,Yuzuriha,2267,854518728062939,1679729278802568,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/celebration.gif,2018-08-21 23:59:23
+1679729278802568,Joy,Yuzuriha,2268,854518728062939,1679729278802568,BOT: message,Yes! You got the correct answer!,2018-08-21 23:59:24
+1679729278802568,Joy,Yuzuriha,2269,854518728062939,1679729278802568,BOT: quick reply,The correct answer is Pull the fire alarm and call the fire department.,2018-08-21 23:59:26
+1679729278802568,Joy,Yuzuriha,2270,1679729278802568,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-21 23:59:31
+1679729278802568,Joy,Yuzuriha,2271,854518728062939,1679729278802568,BOT: message,Let's try this question.,2018-08-21 23:59:33
+1679729278802568,Joy,Yuzuriha,2272,854518728062939,1679729278802568,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-21 23:59:34
+1679729278802568,Joy,Yuzuriha,2273,854518728062939,1679729278802568,BOT: quick reply,What three major factors cause food contamination?,2018-08-21 23:59:36
+1679729278802568,Joy,Yuzuriha,2274,1679729278802568,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-21 23:59:44
+1679729278802568,Joy,Yuzuriha,2275,854518728062939,1679729278802568,BOT: message,Which of the following options is the right answer?,2018-08-21 23:59:45
+1679729278802568,Joy,Yuzuriha,2276,854518728062939,1679729278802568,BOT: quick reply,":keycap_1: Physical, biological, and radiological
+:keycap_2: Physical, biological, and chemical
+:keycap_3: Physical, psychological, and health
+:keycap_4: Physical, chemical, and psychosocial
+",2018-08-21 23:59:47
+1679729278802568,Joy,Yuzuriha,2277,1679729278802568,854518728062939,"user_quick_reply: BUTTON_AKB_Physical, biological, and chemical",:keycap_2:,2018-08-21 23:59:59
+1679729278802568,Joy,Yuzuriha,2278,854518728062939,1679729278802568,BOT: message,Nice! That was right!,2018-08-22 00:00:01
+1679729278802568,Joy,Yuzuriha,2279,854518728062939,1679729278802568,BOT: quick reply,"The correct answer is Physical, biological, and chemical.",2018-08-22 00:00:02
+1679729278802568,Joy,Yuzuriha,2280,1679729278802568,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-22 00:00:07
+1679729278802568,Joy,Yuzuriha,2281,854518728062939,1679729278802568,BOT: message,I think you'll like this question.,2018-08-22 00:00:08
+1679729278802568,Joy,Yuzuriha,2282,854518728062939,1679729278802568,BOT: quick reply,Which fire extinguishers are used to put out fires caused by flammable liquids?,2018-08-22 00:00:09
+1679729278802568,Joy,Yuzuriha,2283,1679729278802568,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-22 00:00:17
+1679729278802568,Joy,Yuzuriha,2284,854518728062939,1679729278802568,BOT: message,Okay. I'll give you some choices.,2018-08-22 00:00:19
+1679729278802568,Joy,Yuzuriha,2285,854518728062939,1679729278802568,BOT: quick reply,":keycap_1: Class C dry chemical fire extinguisher
+:keycap_2: Class A water fire extinguishers
+:keycap_3: Class B carbon dioxide fire extinguisher
+",2018-08-22 00:00:20
+1679729278802568,Joy,Yuzuriha,2286,1679729278802568,854518728062939,user_quick_reply: BUTTON_AKB_Class B carbon dioxide fire extinguisher,:keycap_3:,2018-08-22 00:00:32
+1679729278802568,Joy,Yuzuriha,2287,854518728062939,1679729278802568,BOT: message,Great job getting the correct answer!,2018-08-22 00:00:33
+1679729278802568,Joy,Yuzuriha,2288,854518728062939,1679729278802568,BOT: quick reply,The correct answer is Class B carbon dioxide fire extinguisher.,2018-08-22 00:00:35
+1679729278802568,Joy,Yuzuriha,2289,1679729278802568,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-22 00:00:41
+1679729278802568,Joy,Yuzuriha,2290,854518728062939,1679729278802568,BOT: message,How about this next one:,2018-08-22 00:00:42
+1679729278802568,Joy,Yuzuriha,2291,854518728062939,1679729278802568,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-22 00:00:44
+1679729278802568,Joy,Yuzuriha,2292,854518728062939,1679729278802568,BOT: quick reply,What three major factors cause food contamination?,2018-08-22 00:00:45
+1679729278802568,Joy,Yuzuriha,2293,1679729278802568,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-22 00:00:50
+1679729278802568,Joy,Yuzuriha,2294,854518728062939,1679729278802568,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-08-22 00:00:52
+1679729278802568,Joy,Yuzuriha,2295,854518728062939,1679729278802568,BOT: quick reply,":keycap_1: Physical, psychological, and health
+:keycap_2: Physical, biological, and radiological
+:keycap_3: Physical, chemical, and psychosocial
+:keycap_4: Physical, biological, and chemical
+",2018-08-22 00:00:54
+1679729278802568,Joy,Yuzuriha,2296,1679729278802568,854518728062939,"user_quick_reply: BUTTON_AKB_Physical, biological, and chemical",:keycap_4:,2018-08-22 00:00:59
+1679729278802568,Joy,Yuzuriha,2297,854518728062939,1679729278802568,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_happy_orange.png,2018-08-22 00:01:02
+1679729278802568,Joy,Yuzuriha,2298,854518728062939,1679729278802568,BOT: message,Yes! You got the correct answer!,2018-08-22 00:01:03
+1679729278802568,Joy,Yuzuriha,2299,854518728062939,1679729278802568,BOT: quick reply,"The correct answer is Physical, biological, and chemical.",2018-08-22 00:01:05
+1679729278802568,Joy,Yuzuriha,3927,1679729278802568,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-22 13:08:43
+1679729278802568,Joy,Yuzuriha,3928,854518728062939,1679729278802568,BOT: message,Here's a question for you:,2018-08-22 13:08:45
+1679729278802568,Joy,Yuzuriha,3929,854518728062939,1679729278802568,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-22 13:08:46
+1679729278802568,Joy,Yuzuriha,3930,854518728062939,1679729278802568,BOT: quick reply,Which fire extinguishers are used to put out Class A fires?,2018-08-22 13:08:48
+1679729278802568,Joy,Yuzuriha,3931,1679729278802568,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-22 13:08:56
+1679729278802568,Joy,Yuzuriha,3932,854518728062939,1679729278802568,BOT: message,Okay. I'll give you some choices.,2018-08-22 13:08:57
+1679729278802568,Joy,Yuzuriha,3933,854518728062939,1679729278802568,BOT: quick reply,":keycap_1: Both CO2 and water
+:keycap_2: Water only
+:keycap_3: Both water and multi-purpose dry chemical
+:keycap_4: CO2 only
+:keycap_5: Multi-purpose dry chemical only
+",2018-08-22 13:08:59
+1679729278802568,Joy,Yuzuriha,3934,1679729278802568,854518728062939,user_quick_reply: BUTTON_DKB_Multi-purpose dry chemical only,:keycap_5:,2018-08-22 13:09:05
+1679729278802568,Joy,Yuzuriha,3935,854518728062939,1679729278802568,BOT: message,"Oops, that wasn't quite correct. :disappointed_face:",2018-08-22 13:09:06
+1679729278802568,Joy,Yuzuriha,3936,854518728062939,1679729278802568,BOT: quick reply,The correct answer is Both water and multi-purpose dry chemical.,2018-08-22 13:09:07
+1679729278802568,Joy,Yuzuriha,3937,1679729278802568,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-22 13:09:12
+1679729278802568,Joy,Yuzuriha,3938,854518728062939,1679729278802568,BOT: message,Let's take a look at this question.,2018-08-22 13:09:14
+1679729278802568,Joy,Yuzuriha,3939,854518728062939,1679729278802568,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-22 13:09:15
+1679729278802568,Joy,Yuzuriha,3940,854518728062939,1679729278802568,BOT: quick reply,To what does the acronym SLM refer?,2018-08-22 13:09:16
+1679729278802568,Joy,Yuzuriha,3941,1679729278802568,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-22 13:09:24
+1679729278802568,Joy,Yuzuriha,3942,854518728062939,1679729278802568,BOT: message,It's one of the following choices.,2018-08-22 13:09:25
+1679729278802568,Joy,Yuzuriha,3943,854518728062939,1679729278802568,BOT: quick reply,":keycap_1: Sound Level Meter
+:keycap_2: Service Lifecycle Management
+:keycap_3: Sound Loudness Methods
+:keycap_4: System Level Monitor
+",2018-08-22 13:09:26
+1679729278802568,Joy,Yuzuriha,3944,1679729278802568,854518728062939,user_quick_reply: BUTTON_AKB_Sound Level Meter,:keycap_1:,2018-08-22 13:09:38
+1679729278802568,Joy,Yuzuriha,3945,854518728062939,1679729278802568,BOT: message,Nice! That was right!,2018-08-22 13:09:39
+1679729278802568,Joy,Yuzuriha,3946,854518728062939,1679729278802568,BOT: quick reply,The correct answer is Sound Level Meter.,2018-08-22 13:09:41
+1679729278802568,Joy,Yuzuriha,3947,1679729278802568,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-22 13:09:46
+1679729278802568,Joy,Yuzuriha,3948,854518728062939,1679729278802568,BOT: message,Let's take a look at this question.,2018-08-22 13:09:47
+1679729278802568,Joy,Yuzuriha,3949,854518728062939,1679729278802568,BOT: quick reply,"When you discover a fire, you should do what?",2018-08-22 13:09:49
+1679729278802568,Joy,Yuzuriha,3950,1679729278802568,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-22 13:09:55
+1679729278802568,Joy,Yuzuriha,3951,854518728062939,1679729278802568,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-08-22 13:09:57
+1679729278802568,Joy,Yuzuriha,3952,854518728062939,1679729278802568,BOT: quick reply,":keycap_1: Use a fire extinguisher to put out the fire, even if you've never used a fire extinguisher before
+:keycap_2: Run out of the building without warning others of the fire
+:keycap_3: Pull the fire alarm and call the fire department
+:keycap_4: Stay in the building until you figure out a way to extinguish the fire
+",2018-08-22 13:09:58
+1679729278802568,Joy,Yuzuriha,3953,1679729278802568,854518728062939,user_quick_reply: BUTTON_AKB_Pull the fire alarm and call the fire department,:keycap_3:,2018-08-22 13:10:05
+1679729278802568,Joy,Yuzuriha,3954,854518728062939,1679729278802568,BOT: message,Nice work! Keep it up!,2018-08-22 13:10:06
+1679729278802568,Joy,Yuzuriha,3955,854518728062939,1679729278802568,BOT: quick reply,The correct answer is Pull the fire alarm and call the fire department.,2018-08-22 13:10:08
+1679729278802568,Joy,Yuzuriha,3956,1679729278802568,854518728062939,persistent_menu: RANDOM,Random :game_die:,2018-08-22 13:10:23
+1679729278802568,Joy,Yuzuriha,3957,854518728062939,1679729278802568,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/evolvesafety_normal.gif,2018-08-22 13:10:28
+1679729278802568,Joy,Yuzuriha,3958,854518728062939,1679729278802568,BOT: quick reply,Let's answer some questions about everything! :game_die:,2018-08-22 13:10:29
+1679729278802568,Joy,Yuzuriha,3959,1679729278802568,854518728062939,user_quick_reply: NEXT_QUESTION,Tap me :flexed_biceps_medium-light_skin_tone:,2018-08-22 13:10:36
+1679729278802568,Joy,Yuzuriha,3960,854518728062939,1679729278802568,BOT: message,Would you answer this question for me?,2018-08-22 13:10:38
+1679729278802568,Joy,Yuzuriha,3961,854518728062939,1679729278802568,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-22 13:10:39
+1679729278802568,Joy,Yuzuriha,3962,854518728062939,1679729278802568,BOT: quick reply,"True or false: if you wear a back belt, you can lift more weight than you could without a belt.",2018-08-22 13:10:41
+1679729278802568,Joy,Yuzuriha,3963,1679729278802568,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-22 13:10:51
+1679729278802568,Joy,Yuzuriha,3964,854518728062939,1679729278802568,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-08-22 13:10:52
+1679729278802568,Joy,Yuzuriha,3965,854518728062939,1679729278802568,BOT: quick reply,":keycap_1: False
+:keycap_2: True
+",2018-08-22 13:10:54
+1679729278802568,Joy,Yuzuriha,3966,1679729278802568,854518728062939,user_quick_reply: BUTTON_AKB_False,:keycap_1:,2018-08-22 13:11:04
+1679729278802568,Joy,Yuzuriha,3967,854518728062939,1679729278802568,BOT: message,Nice! That was right!,2018-08-22 13:11:05
+1679729278802568,Joy,Yuzuriha,3968,854518728062939,1679729278802568,BOT: quick reply,The correct answer is False.,2018-08-22 13:11:07
+1679729278802568,Joy,Yuzuriha,3969,1679729278802568,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-22 13:11:18
+1679729278802568,Joy,Yuzuriha,3970,1679729278802568,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-22 13:11:19
+1679729278802568,Joy,Yuzuriha,3971,854518728062939,1679729278802568,BOT: message,See if you can answer this next one.,2018-08-22 13:11:20
+1679729278802568,Joy,Yuzuriha,3972,854518728062939,1679729278802568,BOT: quick reply,What three major factors cause food contamination?,2018-08-22 13:11:22
+1679729278802568,Joy,Yuzuriha,3973,1679729278802568,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-22 13:11:28
+1679729278802568,Joy,Yuzuriha,3974,854518728062939,1679729278802568,BOT: message,Pick one of the following answers.,2018-08-22 13:11:29
+1679729278802568,Joy,Yuzuriha,3975,854518728062939,1679729278802568,BOT: quick reply,":keycap_1: Physical, biological, and radiological
+:keycap_2: Physical, biological, and chemical
+:keycap_3: Physical, chemical, and psychosocial
+:keycap_4: Physical, psychological, and health
+",2018-08-22 13:11:30
+1679729278802568,Joy,Yuzuriha,3976,1679729278802568,854518728062939,"user_quick_reply: BUTTON_AKB_Physical, biological, and chemical",:keycap_2:,2018-08-22 13:11:36
+1679729278802568,Joy,Yuzuriha,3977,854518728062939,1679729278802568,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_jubilated_purple.png,2018-08-22 13:11:38
+1679729278802568,Joy,Yuzuriha,3978,854518728062939,1679729278802568,BOT: message,Nice! That was right!,2018-08-22 13:11:39
+1679729278802568,Joy,Yuzuriha,3979,854518728062939,1679729278802568,BOT: quick reply,"The correct answer is Physical, biological, and chemical.",2018-08-22 13:11:41
+1679729278802568,Joy,Yuzuriha,5070,854518728062939,1679729278802568,BOT: quick reply,"Hi Joy, you haven't talked to me for a while. Would you like to resume the learning with me?",2018-08-22 20:00:08
+1679729278802568,Joy,Yuzuriha,6213,1679729278802568,854518728062939,user_quick_reply: NEXT_QUESTION,Okay :light_bulb:,2018-08-22 22:36:43
+1679729278802568,Joy,Yuzuriha,6214,854518728062939,1679729278802568,BOT: message,Let's see if you can answer this question.,2018-08-22 22:36:45
+1679729278802568,Joy,Yuzuriha,6215,854518728062939,1679729278802568,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-22 22:36:46
+1679729278802568,Joy,Yuzuriha,6216,854518728062939,1679729278802568,BOT: quick reply,While she may have answered him truthfully - in the strictest sense of the word - it became clear to Sergei after the incident that Sheryl had actually been trying to _____ .,2018-08-22 22:36:48
+1679729278802568,Joy,Yuzuriha,6217,1679729278802568,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-22 22:36:59
+1679729278802568,Joy,Yuzuriha,6218,854518728062939,1679729278802568,BOT: message,It's one of the following choices.,2018-08-22 22:37:00
+1679729278802568,Joy,Yuzuriha,6219,854518728062939,1679729278802568,BOT: quick reply,":keycap_1: illuminate
+:keycap_2: desiccate
+:keycap_3: obfuscate
+:keycap_4: covet
+:keycap_5: vituperate
+",2018-08-22 22:37:02
+1679729278802568,Joy,Yuzuriha,6220,1679729278802568,854518728062939,user_quick_reply: BUTTON_AKB_obfuscate,:keycap_3:,2018-08-22 22:37:20
+1679729278802568,Joy,Yuzuriha,6221,854518728062939,1679729278802568,BOT: message,Nice! That was right!,2018-08-22 22:37:21
+1679729278802568,Joy,Yuzuriha,6222,854518728062939,1679729278802568,BOT: quick reply,The correct answer is obfuscate.,2018-08-22 22:37:23
+1679729278802568,Joy,Yuzuriha,6225,1679729278802568,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-22 22:38:10
+1679729278802568,Joy,Yuzuriha,6226,854518728062939,1679729278802568,BOT: message,How about this next one:,2018-08-22 22:38:11
+1679729278802568,Joy,Yuzuriha,6227,854518728062939,1679729278802568,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-22 22:38:13
+1679729278802568,Joy,Yuzuriha,6228,854518728062939,1679729278802568,BOT: quick reply,What should you NOT do while treating cuts and scrapes?,2018-08-22 22:38:14
+1679729278802568,Joy,Yuzuriha,6229,1679729278802568,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-22 22:38:21
+1679729278802568,Joy,Yuzuriha,6230,854518728062939,1679729278802568,BOT: message,Pick one of the following answers.,2018-08-22 22:38:22
+1679729278802568,Joy,Yuzuriha,6231,854518728062939,1679729278802568,BOT: quick reply,":keycap_1: Apply pressure on the wound with a clean cloth or bandage
+:keycap_2: Wash the wound with soap
+:keycap_3: Cover the wound
+:keycap_4: Apply an antibiotic to the wound
+",2018-08-22 22:38:24
+1679729278802568,Joy,Yuzuriha,6234,1679729278802568,854518728062939,user_quick_reply: BUTTON_DKB_Cover the wound,:keycap_3:,2018-08-22 22:39:18
+1679729278802568,Joy,Yuzuriha,6235,854518728062939,1679729278802568,BOT: message,"I'm sorry, but that was incorrect. :disappointed_face:",2018-08-22 22:39:20
+1679729278802568,Joy,Yuzuriha,6236,854518728062939,1679729278802568,BOT: quick reply,The correct answer is Wash the wound with soap.,2018-08-22 22:39:21
+1679729278802568,Joy,Yuzuriha,6237,1679729278802568,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-22 22:39:51
+1679729278802568,Joy,Yuzuriha,6238,854518728062939,1679729278802568,BOT: message,Would you answer this question for me?,2018-08-22 22:39:53
+1679729278802568,Joy,Yuzuriha,6239,854518728062939,1679729278802568,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-22 22:39:54
+1679729278802568,Joy,Yuzuriha,6240,854518728062939,1679729278802568,BOT: quick reply,"True or false: if you wear a back belt, you can lift more weight than you could without a belt.",2018-08-22 22:39:56
+1679729278802568,Joy,Yuzuriha,6241,1679729278802568,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-22 22:40:04
+1679729278802568,Joy,Yuzuriha,6242,854518728062939,1679729278802568,BOT: message,Pick one of the following answers.,2018-08-22 22:40:05
+1679729278802568,Joy,Yuzuriha,6243,854518728062939,1679729278802568,BOT: quick reply,":keycap_1: True
+:keycap_2: False
+",2018-08-22 22:40:07
+1679729278802568,Joy,Yuzuriha,6244,1679729278802568,854518728062939,user_quick_reply: BUTTON_AKB_False,:keycap_2:,2018-08-22 22:40:11
+1679729278802568,Joy,Yuzuriha,6245,854518728062939,1679729278802568,BOT: message,Nice! That was right!,2018-08-22 22:40:13
+1679729278802568,Joy,Yuzuriha,6247,854518728062939,1679729278802568,BOT: quick reply,The correct answer is False.,2018-08-22 22:40:14
+1679729278802568,Joy,Yuzuriha,6249,1679729278802568,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-22 22:41:08
+1679729278802568,Joy,Yuzuriha,6250,854518728062939,1679729278802568,BOT: message,Would you answer this question for me?,2018-08-22 22:41:10
+1679729278802568,Joy,Yuzuriha,6251,854518728062939,1679729278802568,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-22 22:41:11
+1679729278802568,Joy,Yuzuriha,6252,854518728062939,1679729278802568,BOT: quick reply,Most insects reproduce quickly and through what type of reproduction?,2018-08-22 22:41:13
+1679729278802568,Joy,Yuzuriha,6253,1679729278802568,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-22 22:41:20
+1679729278802568,Joy,Yuzuriha,6256,854518728062939,1679729278802568,BOT: message,Okay. I'll give you some choices.,2018-08-22 22:41:22
+1679729278802568,Joy,Yuzuriha,6257,854518728062939,1679729278802568,BOT: quick reply,":keycap_1: spores
+:keycap_2: asexual reproduction
+:keycap_3: sexual reproduction
+:keycap_4: photosynthesis
+",2018-08-22 22:41:23
+1679729278802568,Joy,Yuzuriha,6259,1679729278802568,854518728062939,user_quick_reply: BUTTON_DKB_asexual reproduction,:keycap_2:,2018-08-22 22:41:28
+1679729278802568,Joy,Yuzuriha,6260,854518728062939,1679729278802568,BOT: message,That's not quite right. :disappointed_face:,2018-08-22 22:41:29
+1679729278802568,Joy,Yuzuriha,6261,854518728062939,1679729278802568,BOT: quick reply,The correct answer is sexual reproduction.,2018-08-22 22:41:31
+1679729278802568,Joy,Yuzuriha,6263,1679729278802568,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-22 22:42:06
+1679729278802568,Joy,Yuzuriha,6264,854518728062939,1679729278802568,BOT: message,Let's see if you can get this one.,2018-08-22 22:42:08
+1679729278802568,Joy,Yuzuriha,6265,854518728062939,1679729278802568,BOT: quick reply,Most insects reproduce quickly and through what type of reproduction?,2018-08-22 22:42:09
+1679729278802568,Joy,Yuzuriha,6266,1679729278802568,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-22 22:42:16
+1679729278802568,Joy,Yuzuriha,6267,854518728062939,1679729278802568,BOT: message,Pick one of the following answers.,2018-08-22 22:42:17
+1679729278802568,Joy,Yuzuriha,6268,854518728062939,1679729278802568,BOT: quick reply,":keycap_1: spores
+:keycap_2: asexual reproduction
+:keycap_3: photosynthesis
+:keycap_4: sexual reproduction
+",2018-08-22 22:42:19
+1679729278802568,Joy,Yuzuriha,6269,1679729278802568,854518728062939,user_quick_reply: BUTTON_AKB_sexual reproduction,:keycap_4:,2018-08-22 22:42:24
+1679729278802568,Joy,Yuzuriha,6270,854518728062939,1679729278802568,BOT: message,Great job getting the correct answer!,2018-08-22 22:42:25
+1679729278802568,Joy,Yuzuriha,6271,854518728062939,1679729278802568,BOT: quick reply,The correct answer is sexual reproduction.,2018-08-22 22:42:27
+1679729278802568,Joy,Yuzuriha,6273,1679729278802568,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-22 22:42:46
+1679729278802568,Joy,Yuzuriha,6274,854518728062939,1679729278802568,BOT: message,I think you'll like this question.,2018-08-22 22:42:47
+1679729278802568,Joy,Yuzuriha,6275,854518728062939,1679729278802568,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-22 22:42:49
+1679729278802568,Joy,Yuzuriha,6276,854518728062939,1679729278802568,BOT: quick reply,"Even though legislators claimed the Contagious Diseases Acts strengthened the nation, social purists argued the Acts _____ the nation's moral growth by encouraging licentious behavior.",2018-08-22 22:42:50
+1679729278802568,Joy,Yuzuriha,6277,1679729278802568,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-22 22:42:57
+1679729278802568,Joy,Yuzuriha,6278,854518728062939,1679729278802568,BOT: message,It's one of the following choices.,2018-08-22 22:42:58
+1679729278802568,Joy,Yuzuriha,6279,854518728062939,1679729278802568,BOT: quick reply,":keycap_1: supplanted
+:keycap_2: enhanced
+:keycap_3: advanced
+:keycap_4: ameliorated
+:keycap_5: hampered
+",2018-08-22 22:43:00
+1679729278802568,Joy,Yuzuriha,6280,1679729278802568,854518728062939,user_quick_reply: BUTTON_AKB_hampered,:keycap_5:,2018-08-22 22:43:10
+1679729278802568,Joy,Yuzuriha,6281,854518728062939,1679729278802568,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_happy_cyan.png,2018-08-22 22:43:13
+1679729278802568,Joy,Yuzuriha,6282,854518728062939,1679729278802568,BOT: message,Great job!,2018-08-22 22:43:14
+1679729278802568,Joy,Yuzuriha,6283,854518728062939,1679729278802568,BOT: quick reply,The correct answer is hampered.,2018-08-22 22:43:15
+1679729278802568,Joy,Yuzuriha,6285,1679729278802568,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-22 22:43:20
+1679729278802568,Joy,Yuzuriha,6286,854518728062939,1679729278802568,BOT: message,Here's a question for you:,2018-08-22 22:43:22
+1679729278802568,Joy,Yuzuriha,6287,854518728062939,1679729278802568,BOT: quick reply,The Erie Canal's completion caused _____ economic ripples; property values and industrial output along its route rose exponentially.,2018-08-22 22:43:23
+1679729278802568,Joy,Yuzuriha,6288,1679729278802568,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-22 22:43:34
+1679729278802568,Joy,Yuzuriha,6289,854518728062939,1679729278802568,BOT: message,It's one of the following choices.,2018-08-22 22:43:36
+1679729278802568,Joy,Yuzuriha,6290,854518728062939,1679729278802568,BOT: quick reply,":keycap_1: incredulous
+:keycap_2: prodigious
+:keycap_3: severe
+:keycap_4: persistent
+:keycap_5: invaluable
+",2018-08-22 22:43:37
+1679729278802568,Joy,Yuzuriha,6292,1679729278802568,854518728062939,user_quick_reply: BUTTON_DKB_severe,:keycap_3:,2018-08-22 22:44:09
+1679729278802568,Joy,Yuzuriha,6293,854518728062939,1679729278802568,BOT: message,"Oops, that is not correct. :disappointed_face:",2018-08-22 22:44:10
+1679729278802568,Joy,Yuzuriha,6294,854518728062939,1679729278802568,BOT: quick reply,The correct answer is prodigious.,2018-08-22 22:44:12
+1679729278802568,Joy,Yuzuriha,6295,1679729278802568,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-22 22:44:18
+1679729278802568,Joy,Yuzuriha,6296,854518728062939,1679729278802568,BOT: message,What about this next question:,2018-08-22 22:44:19
+1679729278802568,Joy,Yuzuriha,6297,854518728062939,1679729278802568,BOT: quick reply,The Erie Canal's completion caused _____ economic ripples; property values and industrial output along its route rose exponentially.,2018-08-22 22:44:20
+1679729278802568,Joy,Yuzuriha,6298,1679729278802568,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-22 22:44:26
+1679729278802568,Joy,Yuzuriha,6299,854518728062939,1679729278802568,BOT: message,Pick one of the following answers.,2018-08-22 22:44:27
+1679729278802568,Joy,Yuzuriha,6300,854518728062939,1679729278802568,BOT: quick reply,":keycap_1: prodigious
+:keycap_2: severe
+:keycap_3: invaluable
+:keycap_4: persistent
+:keycap_5: incredulous
+",2018-08-22 22:44:28
+1679729278802568,Joy,Yuzuriha,6301,1679729278802568,854518728062939,user_quick_reply: BUTTON_AKB_prodigious,:keycap_1:,2018-08-22 22:44:34
+1679729278802568,Joy,Yuzuriha,6302,854518728062939,1679729278802568,BOT: message,Great! Keep it up! :flexed_biceps_medium-light_skin_tone:,2018-08-22 22:44:35
+1679729278802568,Joy,Yuzuriha,6304,854518728062939,1679729278802568,BOT: quick reply,The correct answer is prodigious.,2018-08-22 22:44:36
+1679729278802568,Joy,Yuzuriha,6305,1679729278802568,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-22 22:44:41
+1679729278802568,Joy,Yuzuriha,6306,854518728062939,1679729278802568,BOT: message,Here's a question for you:,2018-08-22 22:44:42
+1679729278802568,Joy,Yuzuriha,6307,854518728062939,1679729278802568,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-22 22:44:44
+1679729278802568,Joy,Yuzuriha,6308,854518728062939,1679729278802568,BOT: quick reply,How long can high-acid canned food such as tomatoes be stored?,2018-08-22 22:44:45
+1679729278802568,Joy,Yuzuriha,6309,1679729278802568,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-22 22:44:51
+1679729278802568,Joy,Yuzuriha,6310,854518728062939,1679729278802568,BOT: message,Okay. I'll give you some choices.,2018-08-22 22:44:53
+1679729278802568,Joy,Yuzuriha,6311,854518728062939,1679729278802568,BOT: quick reply,":keycap_1: 10 to 30 days
+:keycap_2: 12 to 18 months
+:keycap_3: 2 to 4 years
+:keycap_4: 2 to 6 months
+",2018-08-22 22:44:54
+1679729278802568,Joy,Yuzuriha,6312,1679729278802568,854518728062939,user_quick_reply: BUTTON_DKB_2 to 6 months,:keycap_4:,2018-08-22 22:45:01
+1679729278802568,Joy,Yuzuriha,6313,854518728062939,1679729278802568,BOT: message,"Oops, that is not correct. :disappointed_face:",2018-08-22 22:45:02
+1679729278802568,Joy,Yuzuriha,6314,854518728062939,1679729278802568,BOT: quick reply,The correct answer is 12 to 18 months.,2018-08-22 22:45:04
+1679729278802568,Joy,Yuzuriha,6315,1679729278802568,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-22 22:45:11
+1679729278802568,Joy,Yuzuriha,6317,854518728062939,1679729278802568,BOT: message,Would you answer this question for me?,2018-08-22 22:45:12
+1679729278802568,Joy,Yuzuriha,6318,854518728062939,1679729278802568,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-22 22:45:13
+1679729278802568,Joy,Yuzuriha,6319,854518728062939,1679729278802568,BOT: quick reply,"Despite the smile that spread from ear to ear, the eyes relayed a certain _____ .",2018-08-22 22:45:15
+1679729278802568,Joy,Yuzuriha,6320,1679729278802568,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-22 22:45:20
+1679729278802568,Joy,Yuzuriha,6321,854518728062939,1679729278802568,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-08-22 22:45:22
+1679729278802568,Joy,Yuzuriha,6322,854518728062939,1679729278802568,BOT: quick reply,":keycap_1: mischievousness
+:keycap_2: jubilance
+:keycap_3: vision
+:keycap_4: sorrow
+:keycap_5: liveliness
+",2018-08-22 22:45:23
+1679729278802568,Joy,Yuzuriha,6323,1679729278802568,854518728062939,user_quick_reply: BUTTON_AKB_sorrow,:keycap_4:,2018-08-22 22:45:28
+1679729278802568,Joy,Yuzuriha,6324,854518728062939,1679729278802568,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_normal_orange.png,2018-08-22 22:45:31
+1679729278802568,Joy,Yuzuriha,6325,854518728062939,1679729278802568,BOT: message,Nice work! Keep it up!,2018-08-22 22:45:32
+1679729278802568,Joy,Yuzuriha,6326,854518728062939,1679729278802568,BOT: quick reply,The correct answer is sorrow.,2018-08-22 22:45:34
+1679729278802568,Joy,Yuzuriha,6327,1679729278802568,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-22 22:45:38
+1679729278802568,Joy,Yuzuriha,6328,854518728062939,1679729278802568,BOT: message,"Alrighty, let's try this one.",2018-08-22 22:45:40
+1679729278802568,Joy,Yuzuriha,6329,854518728062939,1679729278802568,BOT: quick reply,How often should women perform a breast self-exam?,2018-08-22 22:45:41
+1679729278802568,Joy,Yuzuriha,6330,1679729278802568,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-22 22:45:47
+1679729278802568,Joy,Yuzuriha,6331,854518728062939,1679729278802568,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-08-22 22:45:49
+1679729278802568,Joy,Yuzuriha,6332,854518728062939,1679729278802568,BOT: quick reply,":keycap_1: weekly
+:keycap_2: monthly
+:keycap_3: quarterly
+:keycap_4: yearly
+",2018-08-22 22:45:50
+1679729278802568,Joy,Yuzuriha,6333,1679729278802568,854518728062939,user_quick_reply: BUTTON_AKB_monthly,:keycap_2:,2018-08-22 22:45:54
+1679729278802568,Joy,Yuzuriha,6335,854518728062939,1679729278802568,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_happy_cyan.png,2018-08-22 22:45:57
+1679729278802568,Joy,Yuzuriha,6336,854518728062939,1679729278802568,BOT: message,Great job getting the correct answer!,2018-08-22 22:45:59
+1679729278802568,Joy,Yuzuriha,6337,854518728062939,1679729278802568,BOT: quick reply,The correct answer is monthly.,2018-08-22 22:46:00
+1679729278802568,Joy,Yuzuriha,6338,1679729278802568,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-22 22:46:05
+1679729278802568,Joy,Yuzuriha,6339,854518728062939,1679729278802568,BOT: message,Let's take a look at this question.,2018-08-22 22:46:06
+1679729278802568,Joy,Yuzuriha,6340,854518728062939,1679729278802568,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-22 22:46:08
+1679729278802568,Joy,Yuzuriha,6341,854518728062939,1679729278802568,BOT: quick reply,What disease characterized by the extreme swelling of the limbs is caused by infection with a type of roundworm?,2018-08-22 22:46:09
+1679729278802568,Joy,Yuzuriha,6342,1679729278802568,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-22 22:46:17
+1679729278802568,Joy,Yuzuriha,6343,854518728062939,1679729278802568,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-08-22 22:46:18
+1679729278802568,Joy,Yuzuriha,6344,854518728062939,1679729278802568,BOT: quick reply,":keycap_1: elephantiasis
+:keycap_2: gigantism
+:keycap_3: fibrosis
+:keycap_4: pulmonary edema
+",2018-08-22 22:46:19
+1679729278802568,Joy,Yuzuriha,6345,1679729278802568,854518728062939,user_quick_reply: BUTTON_AKB_elephantiasis,:keycap_1:,2018-08-22 22:46:27
+1679729278802568,Joy,Yuzuriha,6346,854518728062939,1679729278802568,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_happy_pink.png,2018-08-22 22:46:30
+1679729278802568,Joy,Yuzuriha,6347,854518728062939,1679729278802568,BOT: message,Nice work! Keep it up!,2018-08-22 22:46:31
+1679729278802568,Joy,Yuzuriha,6348,854518728062939,1679729278802568,BOT: quick reply,The correct answer is elephantiasis.,2018-08-22 22:46:33
+1679729278802568,Joy,Yuzuriha,6349,1679729278802568,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-22 22:46:37
+1679729278802568,Joy,Yuzuriha,6351,854518728062939,1679729278802568,BOT: message,Let's try this question.,2018-08-22 22:46:39
+1679729278802568,Joy,Yuzuriha,6352,854518728062939,1679729278802568,BOT: quick reply,"If your co-worker needs CPR but you are not trained in it, what should you do?",2018-08-22 22:46:40
+1679729278802568,Joy,Yuzuriha,6353,1679729278802568,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-22 22:46:47
+1679729278802568,Joy,Yuzuriha,6354,854518728062939,1679729278802568,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-08-22 22:46:48
+1679729278802568,Joy,Yuzuriha,6355,854518728062939,1679729278802568,BOT: quick reply,":keycap_1: Lift the patient's head
+:keycap_2: Give rescue breaths only
+:keycap_3: Perform chest compressions only
+:keycap_4: Wait for emergency personnel to arrive
+",2018-08-22 22:46:49
+1679729278802568,Joy,Yuzuriha,6356,1679729278802568,854518728062939,user_quick_reply: BUTTON_AKB_Perform chest compressions only,:keycap_3:,2018-08-22 22:46:57
+1679729278802568,Joy,Yuzuriha,6357,854518728062939,1679729278802568,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_jubilated_pink.png,2018-08-22 22:47:00
+1679729278802568,Joy,Yuzuriha,6358,854518728062939,1679729278802568,BOT: message,Nice! That was right!,2018-08-22 22:47:01
+1679729278802568,Joy,Yuzuriha,6359,854518728062939,1679729278802568,BOT: quick reply,The correct answer is Perform chest compressions only.,2018-08-22 22:47:03
+1679729278802568,Joy,Yuzuriha,6360,1679729278802568,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-22 22:47:07
+1679729278802568,Joy,Yuzuriha,6361,854518728062939,1679729278802568,BOT: message,I think you'll like this question.,2018-08-22 22:47:09
+1679729278802568,Joy,Yuzuriha,6362,854518728062939,1679729278802568,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-22 22:47:10
+1679729278802568,Joy,Yuzuriha,6363,854518728062939,1679729278802568,BOT: quick reply,Seth was extremely _____ and did not enjoy activities that required effort to meet new people.,2018-08-22 22:47:12
+1679729278802568,Joy,Yuzuriha,6365,1679729278802568,854518728062939,user_typing,introverted,2018-08-22 22:47:24
+1679729278802568,Joy,Yuzuriha,6366,854518728062939,1679729278802568,BOT: message,Nice! :red_apple:,2018-08-22 22:47:26
+1679729278802568,Joy,Yuzuriha,6367,854518728062939,1679729278802568,BOT: quick reply,The correct answer is introverted.,2018-08-22 22:47:27
+1679729278802568,Joy,Yuzuriha,6368,1679729278802568,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-22 22:47:35
+1679729278802568,Joy,Yuzuriha,6369,854518728062939,1679729278802568,BOT: message,Could you answer this one for me?,2018-08-22 22:47:36
+1679729278802568,Joy,Yuzuriha,6370,854518728062939,1679729278802568,BOT: quick reply,Working on scaffold during winds above ____ miles per hour is prohibited by OSHA.,2018-08-22 22:47:38
+1679729278802568,Joy,Yuzuriha,6371,1679729278802568,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-22 22:47:46
+1679729278802568,Joy,Yuzuriha,6372,854518728062939,1679729278802568,BOT: message,Pick one of the following answers.,2018-08-22 22:47:47
+1679729278802568,Joy,Yuzuriha,6373,854518728062939,1679729278802568,BOT: quick reply,":keycap_1: 50
+:keycap_2: 25
+:keycap_3: 40
+:keycap_4: 10
+",2018-08-22 22:47:49
+1679729278802568,Joy,Yuzuriha,6375,1679729278802568,854518728062939,user_quick_reply: BUTTON_AKB_40,:keycap_3:,2018-08-22 22:47:54
+1679729278802568,Joy,Yuzuriha,6376,854518728062939,1679729278802568,BOT: message,Great! Keep it up! :flexed_biceps_medium-light_skin_tone:,2018-08-22 22:47:55
+1679729278802568,Joy,Yuzuriha,6377,854518728062939,1679729278802568,BOT: quick reply,The correct answer is 40.,2018-08-22 22:47:57
+1679729278802568,Joy,Yuzuriha,6559,1679729278802568,854518728062939,persistent_menu: RANDOM,Random :game_die:,2018-08-23 09:47:03
+1679729278802568,Joy,Yuzuriha,6560,854518728062939,1679729278802568,BOT: quick reply,Let's answer some questions about everything! :game_die:,2018-08-23 09:47:05
+1679729278802568,Joy,Yuzuriha,6561,1679729278802568,854518728062939,user_quick_reply: NEXT_QUESTION,Alright :flexed_biceps_medium-light_skin_tone:,2018-08-23 09:47:10
+1679729278802568,Joy,Yuzuriha,6562,854518728062939,1679729278802568,BOT: message,Here's a question for you:,2018-08-23 09:47:12
+1679729278802568,Joy,Yuzuriha,6563,854518728062939,1679729278802568,BOT: quick reply,What should you NOT do when lowering a load?,2018-08-23 09:47:13
+1679729278802568,Joy,Yuzuriha,6564,1679729278802568,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 09:47:20
+1679729278802568,Joy,Yuzuriha,6565,1679729278802568,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 09:47:21
+1679729278802568,Joy,Yuzuriha,6566,1679729278802568,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 09:47:22
+1679729278802568,Joy,Yuzuriha,6567,1679729278802568,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 09:47:23
+1679729278802568,Joy,Yuzuriha,6568,1679729278802568,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 09:47:24
+1679729278802568,Joy,Yuzuriha,6569,1679729278802568,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 09:47:28
+1679729278802568,Joy,Yuzuriha,6570,1679729278802568,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 09:47:43
+1679729278802568,Joy,Yuzuriha,6571,1679729278802568,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 09:49:04
+1679729278802568,Joy,Yuzuriha,6572,1679729278802568,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 09:50:23
+1679729278802568,Joy,Yuzuriha,6573,1679729278802568,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 09:51:34
+1679729278802568,Joy,Yuzuriha,6574,1679729278802568,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 09:54:17
+1679729278802568,Joy,Yuzuriha,6575,1679729278802568,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 09:55:47
+1679729278802568,Joy,Yuzuriha,6576,1679729278802568,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 09:57:03
+1679729278802568,Joy,Yuzuriha,6577,1679729278802568,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 09:58:22
+1679729278802568,Joy,Yuzuriha,6578,1679729278802568,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 09:59:41
+1679729278802568,Joy,Yuzuriha,6579,1679729278802568,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 10:00:55
+1679729278802568,Joy,Yuzuriha,6580,1679729278802568,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 10:02:18
+1679729278802568,Joy,Yuzuriha,6581,1679729278802568,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 10:03:42
+1679729278802568,Joy,Yuzuriha,6582,1679729278802568,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 10:05:00
+1679729278802568,Joy,Yuzuriha,6583,1679729278802568,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 10:06:23
+1679729278802568,Joy,Yuzuriha,6584,1679729278802568,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 10:07:46
+1679729278802568,Joy,Yuzuriha,6585,1679729278802568,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 10:09:01
+1679729278802568,Joy,Yuzuriha,6586,1679729278802568,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 10:10:21
+1679729278802568,Joy,Yuzuriha,6587,1679729278802568,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 10:11:45
+1679729278802568,Joy,Yuzuriha,6588,1679729278802568,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 10:13:07
+1679729278802568,Joy,Yuzuriha,6589,1679729278802568,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 10:14:18
+1679729278802568,Joy,Yuzuriha,6590,1679729278802568,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 10:15:43
+1679729278802568,Joy,Yuzuriha,6591,1679729278802568,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 10:17:01
+1679729278802568,Joy,Yuzuriha,6592,1679729278802568,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 10:18:25
+1679729278802568,Joy,Yuzuriha,6593,1679729278802568,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 10:19:40
+1679729278802568,Joy,Yuzuriha,6594,1679729278802568,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 10:21:05
+1679729278802568,Joy,Yuzuriha,6595,1679729278802568,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 10:22:16
+1679729278802568,Joy,Yuzuriha,6596,1679729278802568,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 10:23:37
+1679729278802568,Joy,Yuzuriha,6597,1679729278802568,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 10:25:03
+1679729278802568,Joy,Yuzuriha,6598,1679729278802568,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 10:26:19
+1679729278802568,Joy,Yuzuriha,6599,1679729278802568,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 10:27:35
+1679729278802568,Joy,Yuzuriha,6600,1679729278802568,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 10:29:00
+1679729278802568,Joy,Yuzuriha,6608,1679729278802568,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 10:30:22
+1679729278802568,Joy,Yuzuriha,6613,1679729278802568,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 10:31:41
+1679729278802568,Joy,Yuzuriha,6615,1679729278802568,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 10:32:53
+1679729278802568,Joy,Yuzuriha,6617,1679729278802568,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 10:34:17
+1679729278802568,Joy,Yuzuriha,6619,1679729278802568,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 10:35:29
+1679729278802568,Joy,Yuzuriha,6621,1679729278802568,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 10:36:50
+1679729278802568,Joy,Yuzuriha,6623,1679729278802568,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 10:38:17
+1679729278802568,Joy,Yuzuriha,6625,1679729278802568,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 10:39:28
+1679729278802568,Joy,Yuzuriha,6637,1679729278802568,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 10:40:43
+1679729278802568,Joy,Yuzuriha,6649,1679729278802568,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 10:42:02
+1679729278802568,Joy,Yuzuriha,6654,1679729278802568,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 10:44:52
+1679729278802568,Joy,Yuzuriha,6657,1679729278802568,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 10:46:15
+1679729278802568,Joy,Yuzuriha,6660,1679729278802568,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 10:47:39
+1679729278802568,Joy,Yuzuriha,6663,1679729278802568,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 10:48:51
+1679729278802568,Joy,Yuzuriha,6673,1679729278802568,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 10:50:13
+1679729278802568,Joy,Yuzuriha,6677,1679729278802568,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 10:51:29
+1679729278802568,Joy,Yuzuriha,6681,1679729278802568,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 10:52:41
+1679729278802568,Joy,Yuzuriha,6685,1679729278802568,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 10:54:00
+1679729278802568,Joy,Yuzuriha,6689,1679729278802568,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 10:55:12
+1679729278802568,Joy,Yuzuriha,6693,1679729278802568,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 10:56:27
+1679729278802568,Joy,Yuzuriha,6697,1679729278802568,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 10:57:42
+1679729278802568,Joy,Yuzuriha,6701,1679729278802568,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 10:59:04
+1679729278802568,Joy,Yuzuriha,6705,1679729278802568,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 11:00:27
+1679729278802568,Joy,Yuzuriha,6709,1679729278802568,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 11:01:38
+1679729278802568,Joy,Yuzuriha,6713,1679729278802568,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 11:02:58
+1679729278802568,Joy,Yuzuriha,6717,1679729278802568,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 11:04:19
+1679729278802568,Joy,Yuzuriha,6721,1679729278802568,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 11:05:42
+1679729278802568,Joy,Yuzuriha,6725,1679729278802568,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 11:07:04
+1679729278802568,Joy,Yuzuriha,6729,1679729278802568,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 11:08:18
+1679729278802568,Joy,Yuzuriha,6733,1679729278802568,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 11:09:38
+1679729278802568,Joy,Yuzuriha,6738,1679729278802568,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 11:12:11
+1679729278802568,Joy,Yuzuriha,6742,1679729278802568,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 11:13:31
+1679729278802568,Joy,Yuzuriha,6745,1679729278802568,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 11:14:42
+1679729278802568,Joy,Yuzuriha,6753,1679729278802568,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 11:16:04
+1679729278802568,Joy,Yuzuriha,6768,1679729278802568,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 11:17:31
+1679729278802568,Joy,Yuzuriha,6780,1679729278802568,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 11:18:42
+1679729278802568,Joy,Yuzuriha,6784,1679729278802568,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 11:19:57
+1679729278802568,Joy,Yuzuriha,6788,1679729278802568,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 11:21:19
+1679729278802568,Joy,Yuzuriha,6792,1679729278802568,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 11:22:30
+1679729278802568,Joy,Yuzuriha,6796,1679729278802568,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 11:23:42
+1679729278802568,Joy,Yuzuriha,6800,1679729278802568,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 11:25:01
+1679729278802568,Joy,Yuzuriha,6804,1679729278802568,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 11:26:20
+1679729278802568,Joy,Yuzuriha,6808,1679729278802568,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 11:27:43
+1679729278802568,Joy,Yuzuriha,6812,1679729278802568,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 11:29:09
+1679729278802568,Joy,Yuzuriha,6816,1679729278802568,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 11:30:28
+1679729278802568,Joy,Yuzuriha,6839,1679729278802568,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 11:35:47
+1679729278802568,Joy,Yuzuriha,6840,854518728062939,1679729278802568,BOT: message,Okay. I'll give you some choices.,2018-08-23 11:35:49
+1679729278802568,Joy,Yuzuriha,6842,854518728062939,1679729278802568,BOT: quick reply,":keycap_1: Bend your knees
+:keycap_2: Keep the load close to your body
+:keycap_3: Twist your body, keep the load close, and bend your knees
+:keycap_4: Twist your body
+",2018-08-23 11:35:51
+1679729278802568,Joy,Yuzuriha,6844,1679729278802568,854518728062939,user_typing,keep your feet together,2018-08-23 11:35:51
+1679729278802568,Joy,Yuzuriha,6845,1679729278802568,854518728062939,user_typing,keep your feet together,2018-08-23 11:35:52
+1679729278802568,Joy,Yuzuriha,6847,1679729278802568,854518728062939,user_typing,keep your feet together,2018-08-23 11:35:57
+1679729278802568,Joy,Yuzuriha,6848,1679729278802568,854518728062939,user_typing,keep your feet together,2018-08-23 11:35:58
+1679729278802568,Joy,Yuzuriha,6849,1679729278802568,854518728062939,user_typing,keep your feet together,2018-08-23 11:35:59
+1679729278802568,Joy,Yuzuriha,6850,1679729278802568,854518728062939,user_typing,keep your feet together,2018-08-23 11:36:03
+1679729278802568,Joy,Yuzuriha,6854,1679729278802568,854518728062939,user_typing,keep your feet together,2018-08-23 11:36:18
+1679729278802568,Joy,Yuzuriha,6866,1679729278802568,854518728062939,user_typing,keep your feet together,2018-08-23 11:37:45
+1679729278802568,Joy,Yuzuriha,6887,1679729278802568,854518728062939,user_typing,keep your feet together,2018-08-23 11:38:59
+1679729278802568,Joy,Yuzuriha,6906,1679729278802568,854518728062939,user_typing,keep your feet together,2018-08-23 11:40:11
+1679729278802568,Joy,Yuzuriha,6915,1679729278802568,854518728062939,user_typing,keep your feet together,2018-08-23 11:41:23
+1679729278802568,Joy,Yuzuriha,6920,1679729278802568,854518728062939,user_typing,keep your feet together,2018-08-23 11:42:45
+1679729278802568,Joy,Yuzuriha,6921,1679729278802568,854518728062939,user_typing,keep your feet together,2018-08-23 11:44:09
+1679729278802568,Joy,Yuzuriha,6922,1679729278802568,854518728062939,user_typing,keep your feet together,2018-08-23 11:45:36
+1679729278802568,Joy,Yuzuriha,6923,1679729278802568,854518728062939,user_typing,keep your feet together,2018-08-23 11:49:29
+1679729278802568,Joy,Yuzuriha,6924,1679729278802568,854518728062939,user_typing,keep your feet together,2018-08-23 11:49:30
+1679729278802568,Joy,Yuzuriha,6925,1679729278802568,854518728062939,user_typing,keep your feet together,2018-08-23 11:49:31
+1679729278802568,Joy,Yuzuriha,6926,1679729278802568,854518728062939,user_typing,keep your feet together,2018-08-23 11:49:31
+1679729278802568,Joy,Yuzuriha,6927,1679729278802568,854518728062939,user_typing,keep your feet together,2018-08-23 11:49:32
+1679729278802568,Joy,Yuzuriha,6928,1679729278802568,854518728062939,user_typing,keep your feet together,2018-08-23 11:49:36
+1679729278802568,Joy,Yuzuriha,6929,1679729278802568,854518728062939,user_typing,keep your feet together,2018-08-23 11:49:54
+1679729278802568,Joy,Yuzuriha,6930,1679729278802568,854518728062939,user_typing,keep your feet together,2018-08-23 11:51:18
+1679729278802568,Joy,Yuzuriha,6931,1679729278802568,854518728062939,user_typing,keep your feet together,2018-08-23 11:52:37
+1679729278802568,Joy,Yuzuriha,6932,1679729278802568,854518728062939,user_typing,keep your feet together,2018-08-23 11:54:00
+1679729278802568,Joy,Yuzuriha,6933,1679729278802568,854518728062939,user_typing,keep your feet together,2018-08-23 11:55:25
+1679729278802568,Joy,Yuzuriha,6944,1679729278802568,854518728062939,user_typing,keep your feet together,2018-08-23 11:56:51
+1679729278802568,Joy,Yuzuriha,6962,1679729278802568,854518728062939,user_typing,keep your feet together,2018-08-23 11:58:06
+1679729278802568,Joy,Yuzuriha,6963,1679729278802568,854518728062939,user_typing,keep your feet together,2018-08-23 11:59:18
+1679729278802568,Joy,Yuzuriha,6968,1679729278802568,854518728062939,user_typing,keep your feet together,2018-08-23 12:00:33
+1679729278802568,Joy,Yuzuriha,6970,1679729278802568,854518728062939,user_typing,keep your feet together,2018-08-23 12:01:45
+1679729278802568,Joy,Yuzuriha,6972,1679729278802568,854518728062939,user_typing,keep your feet together,2018-08-23 12:03:06
+1679729278802568,Joy,Yuzuriha,6974,1679729278802568,854518728062939,user_typing,keep your feet together,2018-08-23 12:04:18
+1679729278802568,Joy,Yuzuriha,6976,1679729278802568,854518728062939,user_typing,keep your feet together,2018-08-23 12:05:39
+1679729278802568,Joy,Yuzuriha,6984,1679729278802568,854518728062939,user_typing,keep your feet together,2018-08-23 12:06:52
+1679729278802568,Joy,Yuzuriha,6986,1679729278802568,854518728062939,user_typing,keep your feet together,2018-08-23 12:08:11
+1679729278802568,Joy,Yuzuriha,6988,1679729278802568,854518728062939,user_typing,keep your feet together,2018-08-23 12:09:23
+1679729278802568,Joy,Yuzuriha,6990,1679729278802568,854518728062939,user_typing,keep your feet together,2018-08-23 12:10:34
+1679729278802568,Joy,Yuzuriha,6992,1679729278802568,854518728062939,user_typing,keep your feet together,2018-08-23 12:11:45
+1679729278802568,Joy,Yuzuriha,6994,1679729278802568,854518728062939,user_typing,keep your feet together,2018-08-23 12:12:58
+1679729278802568,Joy,Yuzuriha,7002,1679729278802568,854518728062939,user_typing,keep your feet together,2018-08-23 12:14:17
+1679729278802568,Joy,Yuzuriha,7005,1679729278802568,854518728062939,user_typing,keep your feet together,2018-08-23 12:15:42
+1679729278802568,Joy,Yuzuriha,7006,854518728062939,1679729278802568,BOT: quick reply,I'm not sure what this is. I'm still learning languages and you might be my teacher in the future!,2018-08-23 12:15:44
+1679729278802568,Joy,Yuzuriha,7007,1679729278802568,854518728062939,user_quick_reply: BUTTON_AKB_Twist your body,:keycap_4:,2018-08-23 12:15:44
+1679729278802568,Joy,Yuzuriha,7008,854518728062939,1679729278802568,BOT: message,Great job!,2018-08-23 12:15:46
+1679729278802568,Joy,Yuzuriha,7010,854518728062939,1679729278802568,BOT: quick reply,The correct answer is Twist your body.,2018-08-23 12:15:47
+1679729278802568,Joy,Yuzuriha,8052,854518728062939,1679729278802568,BOT: quick reply,"Hi Joy, you haven't talked to me for a while. Would you like to resume the learning with me?",2018-08-23 20:00:09
+1679729278802568,Joy,Yuzuriha,9864,1679729278802568,854518728062939,user_quick_reply: NEXT_QUESTION,Tap me :flexed_biceps_medium-light_skin_tone:,2018-08-23 22:22:35
+1679729278802568,Joy,Yuzuriha,9865,854518728062939,1679729278802568,BOT: message,Let's see if you can answer this question.,2018-08-23 22:22:37
+1679729278802568,Joy,Yuzuriha,9866,854518728062939,1679729278802568,BOT: quick reply,What opens two strands of DNA?,2018-08-23 22:22:38
+1679729278802568,Joy,Yuzuriha,9870,1679729278802568,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 22:22:43
+1679729278802568,Joy,Yuzuriha,9871,854518728062939,1679729278802568,BOT: message,Okay. I'll give you some choices.,2018-08-23 22:22:45
+1679729278802568,Joy,Yuzuriha,9872,854518728062939,1679729278802568,BOT: quick reply,":keycap_1: chromosome
+:keycap_2: helicase
+:keycap_3: replication
+:keycap_4: adenylate
+",2018-08-23 22:22:47
+1679729278802568,Joy,Yuzuriha,9873,1679729278802568,854518728062939,user_quick_reply: BUTTON_AKB_helicase,:keycap_2:,2018-08-23 22:22:53
+1679729278802568,Joy,Yuzuriha,9874,854518728062939,1679729278802568,BOT: message,Yes! You got the correct answer!,2018-08-23 22:22:54
+1679729278802568,Joy,Yuzuriha,9875,854518728062939,1679729278802568,BOT: quick reply,The correct answer is helicase.,2018-08-23 22:22:56
+1679729278802568,Joy,Yuzuriha,9876,1679729278802568,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-23 22:23:00
+1679729278802568,Joy,Yuzuriha,9877,854518728062939,1679729278802568,BOT: message,"Alrighty, let's try this one.",2018-08-23 22:23:02
+1679729278802568,Joy,Yuzuriha,9878,854518728062939,1679729278802568,BOT: quick reply,What should you NOT do while treating cuts and scrapes?,2018-08-23 22:23:03
+1679729278802568,Joy,Yuzuriha,9879,1679729278802568,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 22:23:14
+1679729278802568,Joy,Yuzuriha,9881,854518728062939,1679729278802568,BOT: message,Which of the following options is the right answer?,2018-08-23 22:23:15
+1679729278802568,Joy,Yuzuriha,9882,854518728062939,1679729278802568,BOT: quick reply,":keycap_1: Wash the wound with soap
+:keycap_2: Apply an antibiotic to the wound
+:keycap_3: Apply pressure on the wound with a clean cloth or bandage
+:keycap_4: Cover the wound
+",2018-08-23 22:23:16
+1679729278802568,Joy,Yuzuriha,9886,1679729278802568,854518728062939,user_quick_reply: BUTTON_AKB_Wash the wound with soap,:keycap_1:,2018-08-23 22:23:24
+1679729278802568,Joy,Yuzuriha,9887,854518728062939,1679729278802568,BOT: message,Great job!,2018-08-23 22:23:26
+1679729278802568,Joy,Yuzuriha,9888,854518728062939,1679729278802568,BOT: quick reply,The correct answer is Wash the wound with soap.,2018-08-23 22:23:27
+1679729278802568,Joy,Yuzuriha,9889,1679729278802568,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-23 22:23:32
+1679729278802568,Joy,Yuzuriha,9890,854518728062939,1679729278802568,BOT: message,See if you can answer this next one.,2018-08-23 22:23:33
+1679729278802568,Joy,Yuzuriha,9891,854518728062939,1679729278802568,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-23 22:23:35
+1679729278802568,Joy,Yuzuriha,9893,854518728062939,1679729278802568,BOT: quick reply,While she may have answered him truthfully - in the strictest sense of the word - it became clear to Sergei after the incident that Sheryl had actually been trying to _____ .,2018-08-23 22:23:36
+1679729278802568,Joy,Yuzuriha,9898,1679729278802568,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 22:23:42
+1679729278802568,Joy,Yuzuriha,9899,854518728062939,1679729278802568,BOT: message,Pick one of the following answers.,2018-08-23 22:23:44
+1679729278802568,Joy,Yuzuriha,9901,854518728062939,1679729278802568,BOT: quick reply,":keycap_1: covet
+:keycap_2: vituperate
+:keycap_3: desiccate
+:keycap_4: obfuscate
+:keycap_5: illuminate
+",2018-08-23 22:23:45
+1679729278802568,Joy,Yuzuriha,9905,1679729278802568,854518728062939,user_quick_reply: BUTTON_AKB_obfuscate,:keycap_4:,2018-08-23 22:23:50
+1679729278802568,Joy,Yuzuriha,9906,854518728062939,1679729278802568,BOT: message,Great job!,2018-08-23 22:23:52
+1679729278802568,Joy,Yuzuriha,9908,854518728062939,1679729278802568,BOT: quick reply,The correct answer is obfuscate.,2018-08-23 22:23:53
+1679729278802568,Joy,Yuzuriha,9910,1679729278802568,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-23 22:23:58
+1679729278802568,Joy,Yuzuriha,9911,854518728062939,1679729278802568,BOT: message,Let's see if you can answer this question.,2018-08-23 22:23:59
+1679729278802568,Joy,Yuzuriha,9912,854518728062939,1679729278802568,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-23 22:24:01
+1679729278802568,Joy,Yuzuriha,9913,854518728062939,1679729278802568,BOT: quick reply,The Erie Canal's completion caused _____ economic ripples; property values and industrial output along its route rose exponentially.,2018-08-23 22:24:02
+1679729278802568,Joy,Yuzuriha,9914,1679729278802568,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 22:24:08
+1679729278802568,Joy,Yuzuriha,9915,854518728062939,1679729278802568,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-08-23 22:24:10
+1679729278802568,Joy,Yuzuriha,9916,854518728062939,1679729278802568,BOT: quick reply,":keycap_1: incredulous
+:keycap_2: prodigious
+:keycap_3: persistent
+:keycap_4: invaluable
+:keycap_5: severe
+",2018-08-23 22:24:11
+1679729278802568,Joy,Yuzuriha,9917,1679729278802568,854518728062939,user_quick_reply: BUTTON_AKB_prodigious,:keycap_2:,2018-08-23 22:24:20
+1679729278802568,Joy,Yuzuriha,9918,854518728062939,1679729278802568,BOT: message,Great job getting the correct answer!,2018-08-23 22:24:21
+1679729278802568,Joy,Yuzuriha,9919,854518728062939,1679729278802568,BOT: quick reply,The correct answer is prodigious.,2018-08-23 22:24:23
+1679729278802568,Joy,Yuzuriha,9920,1679729278802568,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-23 22:24:27
+1679729278802568,Joy,Yuzuriha,9921,854518728062939,1679729278802568,BOT: message,Let's see if you would answer this one.,2018-08-23 22:24:28
+1679729278802568,Joy,Yuzuriha,9922,854518728062939,1679729278802568,BOT: quick reply,Many Major League Baseball relief pitchers choose an electrifying theme song to play as they take the mound; the song _____ their fans and instills fear in their opponents.,2018-08-23 22:24:30
+1679729278802568,Joy,Yuzuriha,9923,1679729278802568,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 22:24:36
+1679729278802568,Joy,Yuzuriha,9924,854518728062939,1679729278802568,BOT: message,Pick one of the following answers.,2018-08-23 22:24:37
+1679729278802568,Joy,Yuzuriha,9925,854518728062939,1679729278802568,BOT: quick reply,":keycap_1: assuages
+:keycap_2: innervates
+:keycap_3: pervades
+:keycap_4: enervates
+:keycap_5: eviscerates
+",2018-08-23 22:24:38
+1679729278802568,Joy,Yuzuriha,9926,1679729278802568,854518728062939,user_quick_reply: BUTTON_DKB_assuages,:keycap_1:,2018-08-23 22:24:49
+1679729278802568,Joy,Yuzuriha,9927,854518728062939,1679729278802568,BOT: message,"Hmm, that wasn't quite right. :disappointed_face:",2018-08-23 22:24:50
+1679729278802568,Joy,Yuzuriha,9928,854518728062939,1679729278802568,BOT: quick reply,The correct answer is innervates.,2018-08-23 22:24:52
+1679729278802568,Joy,Yuzuriha,9929,1679729278802568,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-23 22:24:57
+1679729278802568,Joy,Yuzuriha,9930,854518728062939,1679729278802568,BOT: message,What about this next question:,2018-08-23 22:24:59
+1679729278802568,Joy,Yuzuriha,9931,854518728062939,1679729278802568,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-23 22:25:00
+1679729278802568,Joy,Yuzuriha,9932,854518728062939,1679729278802568,BOT: quick reply,Which fire extinguishers are used to put out fires caused by flammable liquids?,2018-08-23 22:25:02
+1679729278802568,Joy,Yuzuriha,9933,1679729278802568,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 22:25:07
+1679729278802568,Joy,Yuzuriha,9934,854518728062939,1679729278802568,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-08-23 22:25:08
+1679729278802568,Joy,Yuzuriha,9935,854518728062939,1679729278802568,BOT: quick reply,":keycap_1: Class A water fire extinguishers
+:keycap_2: Class C dry chemical fire extinguisher
+:keycap_3: Class B carbon dioxide fire extinguisher
+",2018-08-23 22:25:09
+1679729278802568,Joy,Yuzuriha,9936,1679729278802568,854518728062939,user_quick_reply: BUTTON_AKB_Class B carbon dioxide fire extinguisher,:keycap_3:,2018-08-23 22:25:16
+1679729278802568,Joy,Yuzuriha,9937,854518728062939,1679729278802568,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_happy_orange.png,2018-08-23 22:25:19
+1679729278802568,Joy,Yuzuriha,9939,854518728062939,1679729278802568,BOT: message,Great job!,2018-08-23 22:25:21
+1679729278802568,Joy,Yuzuriha,9941,854518728062939,1679729278802568,BOT: quick reply,The correct answer is Class B carbon dioxide fire extinguisher.,2018-08-23 22:25:22
+1679729278802568,Joy,Yuzuriha,9942,1679729278802568,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-23 22:25:27
+1679729278802568,Joy,Yuzuriha,9943,854518728062939,1679729278802568,BOT: message,Let's try this question.,2018-08-23 22:25:28
+1679729278802568,Joy,Yuzuriha,9945,854518728062939,1679729278802568,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-23 22:25:30
+1679729278802568,Joy,Yuzuriha,9947,854518728062939,1679729278802568,BOT: quick reply,What should you NOT do while treating cuts and scrapes?,2018-08-23 22:25:31
+1679729278802568,Joy,Yuzuriha,9949,1679729278802568,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 22:25:37
+1679729278802568,Joy,Yuzuriha,9950,854518728062939,1679729278802568,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-08-23 22:25:39
+1679729278802568,Joy,Yuzuriha,9951,854518728062939,1679729278802568,BOT: quick reply,":keycap_1: Apply an antibiotic to the wound
+:keycap_2: Apply pressure on the wound with a clean cloth or bandage
+:keycap_3: Wash the wound with soap
+:keycap_4: Cover the wound
+",2018-08-23 22:25:40
+1679729278802568,Joy,Yuzuriha,9952,1679729278802568,854518728062939,user_quick_reply: BUTTON_AKB_Wash the wound with soap,:keycap_3:,2018-08-23 22:25:46
+1679729278802568,Joy,Yuzuriha,9955,854518728062939,1679729278802568,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_happy_purple.png,2018-08-23 22:25:49
+1679729278802568,Joy,Yuzuriha,9957,854518728062939,1679729278802568,BOT: message,Great job!,2018-08-23 22:25:51
+1679729278802568,Joy,Yuzuriha,9958,854518728062939,1679729278802568,BOT: quick reply,The correct answer is Wash the wound with soap.,2018-08-23 22:25:52
+1679729278802568,Joy,Yuzuriha,9962,1679729278802568,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-23 22:25:56
+1679729278802568,Joy,Yuzuriha,9964,854518728062939,1679729278802568,BOT: message,How about this next one:,2018-08-23 22:25:58
+1679729278802568,Joy,Yuzuriha,9966,854518728062939,1679729278802568,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-23 22:25:59
+1679729278802568,Joy,Yuzuriha,9969,854518728062939,1679729278802568,BOT: quick reply,What should you NOT do while treating cuts and scrapes?,2018-08-23 22:26:01
+1679729278802568,Joy,Yuzuriha,9975,1679729278802568,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 22:26:08
+1679729278802568,Joy,Yuzuriha,9976,854518728062939,1679729278802568,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-08-23 22:26:09
+1679729278802568,Joy,Yuzuriha,9977,854518728062939,1679729278802568,BOT: quick reply,":keycap_1: Wash the wound with soap
+:keycap_2: Cover the wound
+:keycap_3: Apply an antibiotic to the wound
+:keycap_4: Apply pressure on the wound with a clean cloth or bandage
+",2018-08-23 22:26:11
+1679729278802568,Joy,Yuzuriha,9982,1679729278802568,854518728062939,user_quick_reply: BUTTON_AKB_Wash the wound with soap,:keycap_1:,2018-08-23 22:26:16
+1679729278802568,Joy,Yuzuriha,9986,854518728062939,1679729278802568,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_happy_orange.png,2018-08-23 22:26:19
+1679729278802568,Joy,Yuzuriha,9988,854518728062939,1679729278802568,BOT: message,Nice work! Keep it up!,2018-08-23 22:26:20
+1679729278802568,Joy,Yuzuriha,9990,854518728062939,1679729278802568,BOT: quick reply,The correct answer is Wash the wound with soap.,2018-08-23 22:26:21
+1679729278802568,Joy,Yuzuriha,9993,1679729278802568,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-23 22:26:26
+1679729278802568,Joy,Yuzuriha,9995,854518728062939,1679729278802568,BOT: message,See if you can answer this next one.,2018-08-23 22:26:27
+1679729278802568,Joy,Yuzuriha,9997,854518728062939,1679729278802568,BOT: quick reply,What should you NOT do while lifting objects?,2018-08-23 22:26:29
+1679729278802568,Joy,Yuzuriha,10000,1679729278802568,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 22:26:34
+1679729278802568,Joy,Yuzuriha,10002,854518728062939,1679729278802568,BOT: message,Which of the following options is the right answer?,2018-08-23 22:26:36
+1679729278802568,Joy,Yuzuriha,10003,854518728062939,1679729278802568,BOT: quick reply,":keycap_1: Keep the object close to your body
+:keycap_2: Bend at the knees
+:keycap_3: Keep your back straight
+:keycap_4: Keep your feet together
+",2018-08-23 22:26:37
+1679729278802568,Joy,Yuzuriha,10009,1679729278802568,854518728062939,user_quick_reply: BUTTON_AKB_Keep your feet together,:keycap_4:,2018-08-23 22:26:46
+1679729278802568,Joy,Yuzuriha,10011,854518728062939,1679729278802568,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_happy_cyan.png,2018-08-23 22:26:49
+1679729278802568,Joy,Yuzuriha,10013,854518728062939,1679729278802568,BOT: message,Great job!,2018-08-23 22:26:51
+1679729278802568,Joy,Yuzuriha,10014,854518728062939,1679729278802568,BOT: quick reply,The correct answer is Keep your feet together.,2018-08-23 22:26:52
+1679729278802568,Joy,Yuzuriha,10018,1679729278802568,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-23 22:26:56
+1679729278802568,Joy,Yuzuriha,10020,854518728062939,1679729278802568,BOT: message,Let's take a look at this question.,2018-08-23 22:26:58
+1679729278802568,Joy,Yuzuriha,10021,854518728062939,1679729278802568,BOT: quick reply,What should you NOT do when lowering a load?,2018-08-23 22:26:59
+1679729278802568,Joy,Yuzuriha,10022,1679729278802568,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 22:27:05
+1679729278802568,Joy,Yuzuriha,10023,854518728062939,1679729278802568,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-08-23 22:27:06
+1679729278802568,Joy,Yuzuriha,10024,854518728062939,1679729278802568,BOT: quick reply,":keycap_1: Bend your knees
+:keycap_2: Twist your body, keep the load close, and bend your knees
+:keycap_3: Twist your body
+:keycap_4: Keep the load close to your body
+",2018-08-23 22:27:08
+1679729278802568,Joy,Yuzuriha,10027,1679729278802568,854518728062939,user_quick_reply: BUTTON_AKB_Twist your body,:keycap_3:,2018-08-23 22:27:19
+1679729278802568,Joy,Yuzuriha,10028,854518728062939,1679729278802568,BOT: message,Great! Keep it up! :flexed_biceps_medium-light_skin_tone:,2018-08-23 22:27:20
+1679729278802568,Joy,Yuzuriha,10030,854518728062939,1679729278802568,BOT: quick reply,The correct answer is Twist your body.,2018-08-23 22:27:22
+1679729278802568,Joy,Yuzuriha,10034,1679729278802568,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-23 22:27:26
+1679729278802568,Joy,Yuzuriha,10035,854518728062939,1679729278802568,BOT: message,Let's take a look at this question.,2018-08-23 22:27:27
+1679729278802568,Joy,Yuzuriha,10036,854518728062939,1679729278802568,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-23 22:27:29
+1679729278802568,Joy,Yuzuriha,10038,854518728062939,1679729278802568,BOT: quick reply,What are by far the most common type of invertebrate?,2018-08-23 22:27:30
+1679729278802568,Joy,Yuzuriha,10042,1679729278802568,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 22:27:37
+1679729278802568,Joy,Yuzuriha,10044,854518728062939,1679729278802568,BOT: message,Okay. I'll give you some choices.,2018-08-23 22:27:38
+1679729278802568,Joy,Yuzuriha,10046,854518728062939,1679729278802568,BOT: quick reply,":keycap_1: crustaceans
+:keycap_2: insects
+:keycap_3: corals
+:keycap_4: spiders
+",2018-08-23 22:27:40
+1679729278802568,Joy,Yuzuriha,10050,1679729278802568,854518728062939,user_quick_reply: BUTTON_DKB_crustaceans,:keycap_1:,2018-08-23 22:27:58
+1679729278802568,Joy,Yuzuriha,10051,854518728062939,1679729278802568,BOT: message,"Oops, that is not correct. :disappointed_face:",2018-08-23 22:28:00
+1679729278802568,Joy,Yuzuriha,10052,854518728062939,1679729278802568,BOT: quick reply,The correct answer is insects.,2018-08-23 22:28:01
+1679729278802568,Joy,Yuzuriha,10053,1679729278802568,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-23 22:28:06
+1679729278802568,Joy,Yuzuriha,10054,854518728062939,1679729278802568,BOT: message,"Alrighty, let's try this one.",2018-08-23 22:28:07
+1679729278802568,Joy,Yuzuriha,10055,854518728062939,1679729278802568,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-23 22:28:09
+1679729278802568,Joy,Yuzuriha,10056,854518728062939,1679729278802568,BOT: quick reply,"Possessing few natural resources upon its newly-granted independence in 1863, Singapore remained economically _____ until an influx of industrialization and foreign investment took hold there.",2018-08-23 22:28:11
+1679729278802568,Joy,Yuzuriha,10057,1679729278802568,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 22:28:26
+1679729278802568,Joy,Yuzuriha,10058,854518728062939,1679729278802568,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-08-23 22:28:27
+1679729278802568,Joy,Yuzuriha,10059,854518728062939,1679729278802568,BOT: quick reply,":keycap_1: powerful
+:keycap_2: prosperous
+:keycap_3: dubious
+:keycap_4: fortuitous
+:keycap_5: solvent
+",2018-08-23 22:28:29
+1679729278802568,Joy,Yuzuriha,10060,1679729278802568,854518728062939,user_quick_reply: BUTTON_AKB_dubious,:keycap_3:,2018-08-23 22:28:35
+1679729278802568,Joy,Yuzuriha,10061,854518728062939,1679729278802568,BOT: message,Nice! That was right!,2018-08-23 22:28:36
+1679729278802568,Joy,Yuzuriha,10062,854518728062939,1679729278802568,BOT: quick reply,The correct answer is dubious.,2018-08-23 22:28:38
+1679729278802568,Joy,Yuzuriha,10064,1679729278802568,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-23 22:28:43
+1679729278802568,Joy,Yuzuriha,10066,854518728062939,1679729278802568,BOT: message,Would you answer this question for me?,2018-08-23 22:28:45
+1679729278802568,Joy,Yuzuriha,10067,854518728062939,1679729278802568,BOT: quick reply,Most fungi get organic compounds from what?,2018-08-23 22:28:46
+1679729278802568,Joy,Yuzuriha,10068,1679729278802568,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 22:28:51
+1679729278802568,Joy,Yuzuriha,10070,854518728062939,1679729278802568,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-08-23 22:28:52
+1679729278802568,Joy,Yuzuriha,10072,854518728062939,1679729278802568,BOT: quick reply,":keycap_1: living organisms
+:keycap_2: inorganic material
+:keycap_3: carnivorous organisms
+:keycap_4: dead organisms
+",2018-08-23 22:28:54
+1679729278802568,Joy,Yuzuriha,10075,1679729278802568,854518728062939,user_quick_reply: BUTTON_DKB_inorganic material,:keycap_2:,2018-08-23 22:29:08
+1679729278802568,Joy,Yuzuriha,10076,854518728062939,1679729278802568,BOT: message,"I'm sorry, but that was incorrect. :disappointed_face:",2018-08-23 22:29:10
+1679729278802568,Joy,Yuzuriha,10077,854518728062939,1679729278802568,BOT: quick reply,The correct answer is dead organisms.,2018-08-23 22:29:11
+1679729278802568,Joy,Yuzuriha,10078,1679729278802568,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-23 22:29:21
+1679729278802568,Joy,Yuzuriha,10079,854518728062939,1679729278802568,BOT: message,Let's see if you can answer this question.,2018-08-23 22:29:22
+1679729278802568,Joy,Yuzuriha,10080,854518728062939,1679729278802568,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-23 22:29:23
+1679729278802568,Joy,Yuzuriha,10081,854518728062939,1679729278802568,BOT: quick reply,What kind of viscosity is found in long-chain hydrocarbons?,2018-08-23 22:29:27
+1679729278802568,Joy,Yuzuriha,10082,1679729278802568,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 22:29:33
+1679729278802568,Joy,Yuzuriha,10083,854518728062939,1679729278802568,BOT: message,Pick one of the following answers.,2018-08-23 22:29:35
+1679729278802568,Joy,Yuzuriha,10084,854518728062939,1679729278802568,BOT: quick reply,":keycap_1: intense viscosity
+:keycap_2: increased viscosity
+:keycap_3: low viscosity
+:keycap_4: high viscousity
+",2018-08-23 22:29:36
+1679729278802568,Joy,Yuzuriha,10085,1679729278802568,854518728062939,user_quick_reply: BUTTON_AKB_high viscousity,:keycap_4:,2018-08-23 22:30:40
+1679729278802568,Joy,Yuzuriha,10086,854518728062939,1679729278802568,BOT: message,Nice! That was right!,2018-08-23 22:30:41
+1679729278802568,Joy,Yuzuriha,10087,854518728062939,1679729278802568,BOT: quick reply,The correct answer is high viscousity.,2018-08-23 22:30:43
+1679729278802568,Joy,Yuzuriha,10088,1679729278802568,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-23 22:30:48
+1679729278802568,Joy,Yuzuriha,10089,854518728062939,1679729278802568,BOT: message,Here's a question for you:,2018-08-23 22:30:49
+1679729278802568,Joy,Yuzuriha,10090,854518728062939,1679729278802568,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-23 22:30:51
+1679729278802568,Joy,Yuzuriha,10091,854518728062939,1679729278802568,BOT: quick reply,Which fire extinguishers are used to put out fires caused by flammable liquids?,2018-08-23 22:30:52
+1679729278802568,Joy,Yuzuriha,10092,1679729278802568,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 22:31:00
+1679729278802568,Joy,Yuzuriha,10093,854518728062939,1679729278802568,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-08-23 22:31:01
+1679729278802568,Joy,Yuzuriha,10094,854518728062939,1679729278802568,BOT: quick reply,":keycap_1: Class A water fire extinguishers
+:keycap_2: Class C dry chemical fire extinguisher
+:keycap_3: Class B carbon dioxide fire extinguisher
+",2018-08-23 22:31:03
+1679729278802568,Joy,Yuzuriha,10095,1679729278802568,854518728062939,user_quick_reply: BUTTON_AKB_Class B carbon dioxide fire extinguisher,:keycap_3:,2018-08-23 22:31:07
+1679729278802568,Joy,Yuzuriha,10096,854518728062939,1679729278802568,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_jubilated_orange.png,2018-08-23 22:31:10
+1679729278802568,Joy,Yuzuriha,10097,854518728062939,1679729278802568,BOT: message,Nice! That was right!,2018-08-23 22:31:12
+1679729278802568,Joy,Yuzuriha,10099,854518728062939,1679729278802568,BOT: quick reply,The correct answer is Class B carbon dioxide fire extinguisher.,2018-08-23 22:31:13
+1679729278802568,Joy,Yuzuriha,10102,1679729278802568,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-23 22:31:32
+1679729278802568,Joy,Yuzuriha,10103,854518728062939,1679729278802568,BOT: message,Let's try this question.,2018-08-23 22:31:33
+1679729278802568,Joy,Yuzuriha,10104,854518728062939,1679729278802568,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-23 22:31:35
+1679729278802568,Joy,Yuzuriha,10105,854518728062939,1679729278802568,BOT: quick reply,What disease characterized by the extreme swelling of the limbs is caused by infection with a type of roundworm?,2018-08-23 22:31:36
+1679729278802568,Joy,Yuzuriha,10106,1679729278802568,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 22:31:48
+1679729278802568,Joy,Yuzuriha,10107,854518728062939,1679729278802568,BOT: message,Pick one of the following answers.,2018-08-23 22:31:49
+1679729278802568,Joy,Yuzuriha,10108,854518728062939,1679729278802568,BOT: quick reply,":keycap_1: fibrosis
+:keycap_2: pulmonary edema
+:keycap_3: elephantiasis
+:keycap_4: gigantism
+",2018-08-23 22:31:51
+1679729278802568,Joy,Yuzuriha,10109,1679729278802568,854518728062939,user_quick_reply: BUTTON_AKB_elephantiasis,:keycap_3:,2018-08-23 22:31:55
+1679729278802568,Joy,Yuzuriha,10110,854518728062939,1679729278802568,BOT: message,Nice! That was right!,2018-08-23 22:31:57
+1679729278802568,Joy,Yuzuriha,10111,854518728062939,1679729278802568,BOT: quick reply,The correct answer is elephantiasis.,2018-08-23 22:31:58
+1679729278802568,Joy,Yuzuriha,10112,1679729278802568,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-23 22:32:02
+1679729278802568,Joy,Yuzuriha,10113,854518728062939,1679729278802568,BOT: message,"Alrighty, let's try this one.",2018-08-23 22:32:04
+1679729278802568,Joy,Yuzuriha,10114,854518728062939,1679729278802568,BOT: quick reply,Working on scaffold during winds above ____ miles per hour is prohibited by OSHA.,2018-08-23 22:32:05
+1679729278802568,Joy,Yuzuriha,10115,1679729278802568,854518728062939,user_typing,40,2018-08-23 22:32:23
+1679729278802568,Joy,Yuzuriha,10116,854518728062939,1679729278802568,BOT: message,Fantastic! :hundred_points:,2018-08-23 22:32:24
+1679729278802568,Joy,Yuzuriha,10117,854518728062939,1679729278802568,BOT: quick reply,The correct answer is 40.,2018-08-23 22:32:26
+1679729278802568,Joy,Yuzuriha,10121,1679729278802568,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-23 22:32:44
+1679729278802568,Joy,Yuzuriha,10122,854518728062939,1679729278802568,BOT: message,Let's see if you would answer this one.,2018-08-23 22:32:46
+1679729278802568,Joy,Yuzuriha,10123,854518728062939,1679729278802568,BOT: quick reply,What should you NOT do when lowering a load?,2018-08-23 22:32:47
+1679729278802568,Joy,Yuzuriha,10124,1679729278802568,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 22:32:52
+1679729278802568,Joy,Yuzuriha,10125,854518728062939,1679729278802568,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-08-23 22:32:54
+1679729278802568,Joy,Yuzuriha,10126,854518728062939,1679729278802568,BOT: quick reply,":keycap_1: Twist your body
+:keycap_2: Bend your knees
+:keycap_3: Keep the load close to your body
+:keycap_4: Twist your body, keep the load close, and bend your knees
+",2018-08-23 22:32:55
+1679729278802568,Joy,Yuzuriha,10127,1679729278802568,854518728062939,user_quick_reply: BUTTON_AKB_Twist your body,:keycap_1:,2018-08-23 22:33:00
+1679729278802568,Joy,Yuzuriha,10128,854518728062939,1679729278802568,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_jubilated_pink.png,2018-08-23 22:33:03
+1679729278802568,Joy,Yuzuriha,10129,854518728062939,1679729278802568,BOT: message,Great! Keep it up! :flexed_biceps_medium-light_skin_tone:,2018-08-23 22:33:04
+1679729278802568,Joy,Yuzuriha,10130,854518728062939,1679729278802568,BOT: quick reply,The correct answer is Twist your body.,2018-08-23 22:33:06
+1679729278802568,Joy,Yuzuriha,10131,1679729278802568,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-23 22:33:11
+1679729278802568,Joy,Yuzuriha,10132,854518728062939,1679729278802568,BOT: message,Let's see if you can get this one.,2018-08-23 22:33:12
+1679729278802568,Joy,Yuzuriha,10133,854518728062939,1679729278802568,BOT: quick reply,"What arises due to crossing over, independent assortment, and the random union of gametes?",2018-08-23 22:33:14
+1679729278802568,Joy,Yuzuriha,10134,1679729278802568,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 22:33:25
+1679729278802568,Joy,Yuzuriha,10135,854518728062939,1679729278802568,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-08-23 22:33:26
+1679729278802568,Joy,Yuzuriha,10136,854518728062939,1679729278802568,BOT: quick reply,":keycap_1: susceptible variation
+:keycap_2: genetic variation
+:keycap_3: recessive variation
+:keycap_4: alternative variation
+",2018-08-23 22:33:28
+1679729278802568,Joy,Yuzuriha,10137,1679729278802568,854518728062939,user_quick_reply: BUTTON_AKB_genetic variation,:keycap_2:,2018-08-23 22:33:47
+1679729278802568,Joy,Yuzuriha,10138,854518728062939,1679729278802568,BOT: message,Yes! You got the correct answer!,2018-08-23 22:33:49
+1679729278802568,Joy,Yuzuriha,10139,854518728062939,1679729278802568,BOT: quick reply,The correct answer is genetic variation.,2018-08-23 22:33:50
+1679729278802568,Joy,Yuzuriha,11853,1679729278802568,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-24 19:23:16
+1679729278802568,Joy,Yuzuriha,11854,854518728062939,1679729278802568,BOT: message,I think you'll like this question.,2018-08-24 19:23:17
+1679729278802568,Joy,Yuzuriha,11855,854518728062939,1679729278802568,BOT: quick reply,How often should women perform a breast self-exam?,2018-08-24 19:23:19
+1679729278802568,Joy,Yuzuriha,11856,1679729278802568,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-24 19:23:24
+1679729278802568,Joy,Yuzuriha,11857,854518728062939,1679729278802568,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-08-24 19:23:26
+1679729278802568,Joy,Yuzuriha,11858,854518728062939,1679729278802568,BOT: quick reply,":keycap_1: quarterly
+:keycap_2: yearly
+:keycap_3: monthly
+:keycap_4: weekly
+",2018-08-24 19:23:27
+1679729278802568,Joy,Yuzuriha,11859,1679729278802568,854518728062939,user_quick_reply: BUTTON_AKB_monthly,:keycap_3:,2018-08-24 19:23:32
+1679729278802568,Joy,Yuzuriha,11860,854518728062939,1679729278802568,BOT: message,Great job getting the correct answer!,2018-08-24 19:23:34
+1679729278802568,Joy,Yuzuriha,11861,854518728062939,1679729278802568,BOT: quick reply,The correct answer is monthly.,2018-08-24 19:23:35
+1679729278802568,Joy,Yuzuriha,11862,1679729278802568,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-24 19:23:41
+1679729278802568,Joy,Yuzuriha,11863,854518728062939,1679729278802568,BOT: message,Let's try this question.,2018-08-24 19:23:42
+1679729278802568,Joy,Yuzuriha,11864,854518728062939,1679729278802568,BOT: quick reply,Which fire extinguishers are used to put out fires caused by flammable liquids?,2018-08-24 19:23:44
+1679729278802568,Joy,Yuzuriha,11865,1679729278802568,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-24 19:23:52
+1679729278802568,Joy,Yuzuriha,11866,854518728062939,1679729278802568,BOT: message,Okay. I'll give you some choices.,2018-08-24 19:23:54
+1679729278802568,Joy,Yuzuriha,11867,854518728062939,1679729278802568,BOT: quick reply,":keycap_1: Class B carbon dioxide fire extinguisher
+:keycap_2: Class A water fire extinguishers
+:keycap_3: Class C dry chemical fire extinguisher
+",2018-08-24 19:23:55
+1679729278802568,Joy,Yuzuriha,11868,1679729278802568,854518728062939,user_quick_reply: BUTTON_AKB_Class B carbon dioxide fire extinguisher,:keycap_1:,2018-08-24 19:24:02
+1679729278802568,Joy,Yuzuriha,11869,854518728062939,1679729278802568,BOT: message,Great job!,2018-08-24 19:24:03
+1679729278802568,Joy,Yuzuriha,11870,854518728062939,1679729278802568,BOT: quick reply,The correct answer is Class B carbon dioxide fire extinguisher.,2018-08-24 19:24:04
+1679729278802568,Joy,Yuzuriha,11871,1679729278802568,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-24 19:24:09
+1679729278802568,Joy,Yuzuriha,11872,854518728062939,1679729278802568,BOT: message,Let's see if you can get this one.,2018-08-24 19:24:11
+1679729278802568,Joy,Yuzuriha,11873,854518728062939,1679729278802568,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-24 19:24:12
+1679729278802568,Joy,Yuzuriha,11874,854518728062939,1679729278802568,BOT: quick reply,The Erie Canal's completion caused _____ economic ripples; property values and industrial output along its route rose exponentially.,2018-08-24 19:24:14
+1679729278802568,Joy,Yuzuriha,11875,1679729278802568,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-24 19:24:21
+1679729278802568,Joy,Yuzuriha,11876,854518728062939,1679729278802568,BOT: message,Okay. I'll give you some choices.,2018-08-24 19:24:23
+1679729278802568,Joy,Yuzuriha,11877,854518728062939,1679729278802568,BOT: quick reply,":keycap_1: prodigious
+:keycap_2: invaluable
+:keycap_3: persistent
+:keycap_4: incredulous
+:keycap_5: severe
+",2018-08-24 19:24:24
+1679729278802568,Joy,Yuzuriha,11878,1679729278802568,854518728062939,user_quick_reply: BUTTON_AKB_prodigious,:keycap_1:,2018-08-24 19:24:42
+1679729278802568,Joy,Yuzuriha,11879,854518728062939,1679729278802568,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_normal_purple.png,2018-08-24 19:24:44
+1679729278802568,Joy,Yuzuriha,11880,854518728062939,1679729278802568,BOT: message,Nice work! Keep it up!,2018-08-24 19:24:46
+1679729278802568,Joy,Yuzuriha,11881,854518728062939,1679729278802568,BOT: quick reply,The correct answer is prodigious.,2018-08-24 19:24:47
+1679729278802568,Joy,Yuzuriha,11882,1679729278802568,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-24 19:24:52
+1679729278802568,Joy,Yuzuriha,11883,854518728062939,1679729278802568,BOT: message,Let's see if you would answer this one.,2018-08-24 19:24:53
+1679729278802568,Joy,Yuzuriha,11884,854518728062939,1679729278802568,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-24 19:24:55
+1679729278802568,Joy,Yuzuriha,11885,854518728062939,1679729278802568,BOT: quick reply,What does CERT stand for?,2018-08-24 19:24:56
+1679729278802568,Joy,Yuzuriha,11886,1679729278802568,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-24 19:25:01
+1679729278802568,Joy,Yuzuriha,11887,854518728062939,1679729278802568,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-08-24 19:25:03
+1679729278802568,Joy,Yuzuriha,11888,854518728062939,1679729278802568,BOT: quick reply,":keycap_1: Controlled Evacuation and Response Tactics
+:keycap_2: Community Emergency Response Team
+:keycap_3: Community Experimental Research Team
+:keycap_4: Central Emergency Response Terminal
+",2018-08-24 19:25:04
+1679729278802568,Joy,Yuzuriha,11889,1679729278802568,854518728062939,user_quick_reply: BUTTON_AKB_Community Emergency Response Team,:keycap_2:,2018-08-24 19:25:14
+1679729278802568,Joy,Yuzuriha,11890,854518728062939,1679729278802568,BOT: message,Nice! That was right!,2018-08-24 19:25:15
+1679729278802568,Joy,Yuzuriha,11891,854518728062939,1679729278802568,BOT: quick reply,The correct answer is Community Emergency Response Team.,2018-08-24 19:25:16
+1679729278802568,Joy,Yuzuriha,11892,1679729278802568,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-24 19:25:23
+1679729278802568,Joy,Yuzuriha,11893,854518728062939,1679729278802568,BOT: message,I think you'll like this question.,2018-08-24 19:25:24
+1679729278802568,Joy,Yuzuriha,11894,854518728062939,1679729278802568,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-24 19:25:25
+1679729278802568,Joy,Yuzuriha,11895,854518728062939,1679729278802568,BOT: quick reply,The electrode at which oxidation occurs is called the what?,2018-08-24 19:25:27
+1679729278802568,Joy,Yuzuriha,11896,1679729278802568,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-24 19:25:35
+1679729278802568,Joy,Yuzuriha,11897,854518728062939,1679729278802568,BOT: message,Okay. I'll give you some choices.,2018-08-24 19:25:37
+1679729278802568,Joy,Yuzuriha,11898,854518728062939,1679729278802568,BOT: quick reply,":keycap_1: cathode
+:keycap_2: anode
+:keycap_3: calomel
+:keycap_4: diode
+",2018-08-24 19:25:38
+1679729278802568,Joy,Yuzuriha,11899,1679729278802568,854518728062939,user_quick_reply: BUTTON_AKB_anode,:keycap_2:,2018-08-24 19:25:46
+1679729278802568,Joy,Yuzuriha,11900,854518728062939,1679729278802568,BOT: message,Nice work! Keep it up!,2018-08-24 19:25:48
+1679729278802568,Joy,Yuzuriha,11901,854518728062939,1679729278802568,BOT: quick reply,The correct answer is anode.,2018-08-24 19:25:49
+1679729278802568,Joy,Yuzuriha,11902,1679729278802568,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-24 19:25:57
+1679729278802568,Joy,Yuzuriha,11903,854518728062939,1679729278802568,BOT: message,See if you can answer this next one.,2018-08-24 19:25:59
+1679729278802568,Joy,Yuzuriha,11904,854518728062939,1679729278802568,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-24 19:26:01
+1679729278802568,Joy,Yuzuriha,11905,854518728062939,1679729278802568,BOT: quick reply,What disease characterized by the extreme swelling of the limbs is caused by infection with a type of roundworm?,2018-08-24 19:26:02
+1679729278802568,Joy,Yuzuriha,11906,1679729278802568,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-24 19:26:09
+1679729278802568,Joy,Yuzuriha,11907,854518728062939,1679729278802568,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-08-24 19:26:11
+1679729278802568,Joy,Yuzuriha,11908,854518728062939,1679729278802568,BOT: quick reply,":keycap_1: fibrosis
+:keycap_2: elephantiasis
+:keycap_3: gigantism
+:keycap_4: pulmonary edema
+",2018-08-24 19:26:12
+1679729278802568,Joy,Yuzuriha,11909,1679729278802568,854518728062939,user_quick_reply: BUTTON_AKB_elephantiasis,:keycap_2:,2018-08-24 19:26:17
+1679729278802568,Joy,Yuzuriha,11910,854518728062939,1679729278802568,BOT: message,Nice work! Keep it up!,2018-08-24 19:26:18
+1679729278802568,Joy,Yuzuriha,11911,854518728062939,1679729278802568,BOT: quick reply,The correct answer is elephantiasis.,2018-08-24 19:26:20
+1679729278802568,Joy,Yuzuriha,11912,1679729278802568,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-24 19:26:33
+1679729278802568,Joy,Yuzuriha,11913,854518728062939,1679729278802568,BOT: message,Here's a question for you:,2018-08-24 19:26:34
+1679729278802568,Joy,Yuzuriha,11914,854518728062939,1679729278802568,BOT: quick reply,What should you NOT do while treating cuts and scrapes?,2018-08-24 19:26:36
+1679729278802568,Joy,Yuzuriha,11915,1679729278802568,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-24 19:26:42
+1679729278802568,Joy,Yuzuriha,11916,854518728062939,1679729278802568,BOT: message,Which of the following options is the right answer?,2018-08-24 19:26:44
+1679729278802568,Joy,Yuzuriha,11917,854518728062939,1679729278802568,BOT: quick reply,":keycap_1: Cover the wound
+:keycap_2: Wash the wound with soap
+:keycap_3: Apply an antibiotic to the wound
+:keycap_4: Apply pressure on the wound with a clean cloth or bandage
+",2018-08-24 19:26:45
+1679729278802568,Joy,Yuzuriha,11918,1679729278802568,854518728062939,user_quick_reply: BUTTON_AKB_Wash the wound with soap,:keycap_2:,2018-08-24 19:26:53
+1679729278802568,Joy,Yuzuriha,11919,854518728062939,1679729278802568,BOT: message,Great job!,2018-08-24 19:26:55
+1679729278802568,Joy,Yuzuriha,11920,854518728062939,1679729278802568,BOT: quick reply,The correct answer is Wash the wound with soap.,2018-08-24 19:26:56
+1679729278802568,Joy,Yuzuriha,11921,1679729278802568,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-24 19:27:10
+1679729278802568,Joy,Yuzuriha,11922,854518728062939,1679729278802568,BOT: message,Let's try this one.,2018-08-24 19:27:11
+1679729278802568,Joy,Yuzuriha,11923,854518728062939,1679729278802568,BOT: quick reply,What are the little sacs at the end of the bronchioles called?,2018-08-24 19:27:13
+1679729278802568,Joy,Yuzuriha,11924,1679729278802568,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-24 19:27:19
+1679729278802568,Joy,Yuzuriha,11925,854518728062939,1679729278802568,BOT: message,It's one of the following choices.,2018-08-24 19:27:21
+1679729278802568,Joy,Yuzuriha,11926,854518728062939,1679729278802568,BOT: quick reply,":keycap_1: respiratory sacs
+:keycap_2: alveoli
+:keycap_3: ganglion
+:keycap_4: lung
+",2018-08-24 19:27:22
+1679729278802568,Joy,Yuzuriha,11927,1679729278802568,854518728062939,user_quick_reply: BUTTON_AKB_alveoli,:keycap_2:,2018-08-24 19:27:29
+1679729278802568,Joy,Yuzuriha,11928,854518728062939,1679729278802568,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_normal_orange.png,2018-08-24 19:27:32
+1679729278802568,Joy,Yuzuriha,11929,854518728062939,1679729278802568,BOT: message,Great job getting the correct answer!,2018-08-24 19:27:33
+1679729278802568,Joy,Yuzuriha,11930,854518728062939,1679729278802568,BOT: quick reply,The correct answer is alveoli.,2018-08-24 19:27:35
+1679729278802568,Joy,Yuzuriha,11931,1679729278802568,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-24 19:27:49
+1679729278802568,Joy,Yuzuriha,11932,854518728062939,1679729278802568,BOT: message,Let's see if you can get this one.,2018-08-24 19:27:50
+1679729278802568,Joy,Yuzuriha,11933,854518728062939,1679729278802568,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-24 19:27:52
+1679729278802568,Joy,Yuzuriha,11934,854518728062939,1679729278802568,BOT: quick reply,"What agency inspects, grades, and enforces standards of quality and wholesomeness for meat, poultry, milk, eggs, and grains?",2018-08-24 19:27:53
+1679729278802568,Joy,Yuzuriha,11935,1679729278802568,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-24 19:28:04
+1679729278802568,Joy,Yuzuriha,11936,854518728062939,1679729278802568,BOT: message,Pick one of the following answers.,2018-08-24 19:28:05
+1679729278802568,Joy,Yuzuriha,11937,854518728062939,1679729278802568,BOT: quick reply,":keycap_1: EPA
+:keycap_2: FDA
+:keycap_3: CDC
+:keycap_4: USDA
+",2018-08-24 19:28:07
+1679729278802568,Joy,Yuzuriha,11938,1679729278802568,854518728062939,user_quick_reply: BUTTON_AKB_USDA,:keycap_4:,2018-08-24 19:28:12
+1679729278802568,Joy,Yuzuriha,11939,854518728062939,1679729278802568,BOT: message,Great! Keep it up! :flexed_biceps_medium-light_skin_tone:,2018-08-24 19:28:13
+1679729278802568,Joy,Yuzuriha,11940,854518728062939,1679729278802568,BOT: quick reply,The correct answer is USDA.,2018-08-24 19:28:14
+1679729278802568,Joy,Yuzuriha,11941,1679729278802568,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-24 19:28:19
+1679729278802568,Joy,Yuzuriha,11942,854518728062939,1679729278802568,BOT: message,How about this next one:,2018-08-24 19:28:21
+1679729278802568,Joy,Yuzuriha,11943,854518728062939,1679729278802568,BOT: quick reply,True or false: portable fire extinguishers should only be used by trained employees.,2018-08-24 19:28:22
+1679729278802568,Joy,Yuzuriha,11944,1679729278802568,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-24 19:28:29
+1679729278802568,Joy,Yuzuriha,11945,854518728062939,1679729278802568,BOT: message,Which of the following options is the right answer?,2018-08-24 19:28:31
+1679729278802568,Joy,Yuzuriha,11946,854518728062939,1679729278802568,BOT: quick reply,":keycap_1: True
+:keycap_2: False
+",2018-08-24 19:28:32
+1679729278802568,Joy,Yuzuriha,11947,1679729278802568,854518728062939,user_quick_reply: BUTTON_AKB_True,:keycap_1:,2018-08-24 19:28:38
+1679729278802568,Joy,Yuzuriha,11948,854518728062939,1679729278802568,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_happy_orange.png,2018-08-24 19:28:41
+1679729278802568,Joy,Yuzuriha,11949,854518728062939,1679729278802568,BOT: message,Great! Keep it up! :flexed_biceps_medium-light_skin_tone:,2018-08-24 19:28:42
+1679729278802568,Joy,Yuzuriha,11950,854518728062939,1679729278802568,BOT: quick reply,The correct answer is True.,2018-08-24 19:28:44
+1679729278802568,Joy,Yuzuriha,11951,1679729278802568,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-24 19:28:48
+1679729278802568,Joy,Yuzuriha,11952,854518728062939,1679729278802568,BOT: message,See if you can answer this next one.,2018-08-24 19:28:49
+1679729278802568,Joy,Yuzuriha,11953,854518728062939,1679729278802568,BOT: quick reply,What does CERT stand for?,2018-08-24 19:28:51
+1679729278802568,Joy,Yuzuriha,11954,1679729278802568,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-24 19:29:06
+1679729278802568,Joy,Yuzuriha,11955,854518728062939,1679729278802568,BOT: message,Okay. I'll give you some choices.,2018-08-24 19:29:07
+1679729278802568,Joy,Yuzuriha,11956,854518728062939,1679729278802568,BOT: quick reply,":keycap_1: Controlled Evacuation and Response Tactics
+:keycap_2: Central Emergency Response Terminal
+:keycap_3: Community Emergency Response Team
+:keycap_4: Community Experimental Research Team
+",2018-08-24 19:29:09
+1679729278802568,Joy,Yuzuriha,11957,1679729278802568,854518728062939,user_quick_reply: BUTTON_AKB_Community Emergency Response Team,:keycap_3:,2018-08-24 19:29:17
+1679729278802568,Joy,Yuzuriha,11958,854518728062939,1679729278802568,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_happy_cyan.png,2018-08-24 19:29:20
+1679729278802568,Joy,Yuzuriha,11959,854518728062939,1679729278802568,BOT: message,Great job!,2018-08-24 19:29:21
+1679729278802568,Joy,Yuzuriha,11960,854518728062939,1679729278802568,BOT: quick reply,The correct answer is Community Emergency Response Team.,2018-08-24 19:29:22
+1679729278802568,Joy,Yuzuriha,11961,1679729278802568,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-24 19:29:35
+1679729278802568,Joy,Yuzuriha,11962,854518728062939,1679729278802568,BOT: message,"Alrighty, let's try this one.",2018-08-24 19:29:37
+1679729278802568,Joy,Yuzuriha,11963,854518728062939,1679729278802568,BOT: quick reply,What should you NOT do when lowering a load?,2018-08-24 19:29:38
+1679729278802568,Joy,Yuzuriha,11964,1679729278802568,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-24 19:29:44
+1679729278802568,Joy,Yuzuriha,11965,854518728062939,1679729278802568,BOT: message,Which of the following options is the right answer?,2018-08-24 19:29:45
+1679729278802568,Joy,Yuzuriha,11966,854518728062939,1679729278802568,BOT: quick reply,":keycap_1: Keep the load close to your body
+:keycap_2: Bend your knees
+:keycap_3: Twist your body
+:keycap_4: Twist your body, keep the load close, and bend your knees
+",2018-08-24 19:29:47
+1679729278802568,Joy,Yuzuriha,11967,1679729278802568,854518728062939,user_quick_reply: BUTTON_AKB_Twist your body,:keycap_3:,2018-08-24 19:30:00
+1679729278802568,Joy,Yuzuriha,11968,854518728062939,1679729278802568,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_jubilated_orange.png,2018-08-24 19:30:02
+1679729278802568,Joy,Yuzuriha,11969,854518728062939,1679729278802568,BOT: message,Nice! That was right!,2018-08-24 19:30:04
+1679729278802568,Joy,Yuzuriha,11970,854518728062939,1679729278802568,BOT: quick reply,The correct answer is Twist your body.,2018-08-24 19:30:05
+1679729278802568,Joy,Yuzuriha,11971,1679729278802568,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-24 19:30:10
+1679729278802568,Joy,Yuzuriha,11972,854518728062939,1679729278802568,BOT: message,Could you answer this one for me?,2018-08-24 19:30:11
+1679729278802568,Joy,Yuzuriha,11973,854518728062939,1679729278802568,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-24 19:30:13
+1679729278802568,Joy,Yuzuriha,11974,854518728062939,1679729278802568,BOT: quick reply,"Dolly Madison, the wife of President James Madison, was known especially for her _____ , remaining calm even as the British invaded Washington D.C. during the War of 1812.",2018-08-24 19:30:14
+1679729278802568,Joy,Yuzuriha,11975,1679729278802568,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-24 19:30:21
+1679729278802568,Joy,Yuzuriha,11976,854518728062939,1679729278802568,BOT: message,Pick one of the following answers.,2018-08-24 19:30:22
+1679729278802568,Joy,Yuzuriha,11977,854518728062939,1679729278802568,BOT: quick reply,":keycap_1: zeal
+:keycap_2: equanimity
+:keycap_3: impracticality
+:keycap_4: malevolence
+:keycap_5: cynicism
+",2018-08-24 19:30:24
+1679729278802568,Joy,Yuzuriha,11978,1679729278802568,854518728062939,user_quick_reply: BUTTON_AKB_equanimity,:keycap_2:,2018-08-24 19:30:31
+1679729278802568,Joy,Yuzuriha,11979,854518728062939,1679729278802568,BOT: message,Yes! You got the correct answer!,2018-08-24 19:30:32
+1679729278802568,Joy,Yuzuriha,11980,854518728062939,1679729278802568,BOT: quick reply,The correct answer is equanimity.,2018-08-24 19:30:34
+1679729278802568,Joy,Yuzuriha,11981,1679729278802568,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-24 19:30:38
+1679729278802568,Joy,Yuzuriha,11982,854518728062939,1679729278802568,BOT: message,Let's try this one.,2018-08-24 19:30:40
+1679729278802568,Joy,Yuzuriha,11983,854518728062939,1679729278802568,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-24 19:30:42
+1679729278802568,Joy,Yuzuriha,11984,854518728062939,1679729278802568,BOT: quick reply,"When you discover a fire, you should do what?",2018-08-24 19:30:43
+1679729278802568,Joy,Yuzuriha,11985,1679729278802568,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-24 19:30:48
+1679729278802568,Joy,Yuzuriha,11986,854518728062939,1679729278802568,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-08-24 19:30:50
+1679729278802568,Joy,Yuzuriha,11987,854518728062939,1679729278802568,BOT: quick reply,":keycap_1: Pull the fire alarm and call the fire department
+:keycap_2: Stay in the building until you figure out a way to extinguish the fire
+:keycap_3: Run out of the building without warning others of the fire
+:keycap_4: Use a fire extinguisher to put out the fire, even if you've never used a fire extinguisher before
+",2018-08-24 19:30:51
+1679729278802568,Joy,Yuzuriha,11988,1679729278802568,854518728062939,user_quick_reply: BUTTON_AKB_Pull the fire alarm and call the fire department,:keycap_1:,2018-08-24 19:30:58
+1679729278802568,Joy,Yuzuriha,11989,854518728062939,1679729278802568,BOT: message,Great job getting the correct answer!,2018-08-24 19:30:59
+1679729278802568,Joy,Yuzuriha,11990,854518728062939,1679729278802568,BOT: quick reply,The correct answer is Pull the fire alarm and call the fire department.,2018-08-24 19:31:01
+1679729278802568,Joy,Yuzuriha,11991,1679729278802568,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-24 19:31:05
+1679729278802568,Joy,Yuzuriha,11992,854518728062939,1679729278802568,BOT: message,Here's a question for you:,2018-08-24 19:31:07
+1679729278802568,Joy,Yuzuriha,11993,854518728062939,1679729278802568,BOT: quick reply,"Having squandered his life's savings on unprofitable business ventures, the _____ entrepreneur was forced to live in squalor.",2018-08-24 19:31:08
+1679729278802568,Joy,Yuzuriha,11994,1679729278802568,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-24 19:31:14
+1679729278802568,Joy,Yuzuriha,11995,854518728062939,1679729278802568,BOT: message,Pick one of the following answers.,2018-08-24 19:31:15
+1679729278802568,Joy,Yuzuriha,11996,854518728062939,1679729278802568,BOT: quick reply,":keycap_1: unlikely
+:keycap_2: perturbed
+:keycap_3: eccentric
+:keycap_4: insolvent
+:keycap_5: former
+",2018-08-24 19:31:17
+1679729278802568,Joy,Yuzuriha,11997,1679729278802568,854518728062939,user_quick_reply: BUTTON_AKB_insolvent,:keycap_4:,2018-08-24 19:31:26
+1679729278802568,Joy,Yuzuriha,11998,854518728062939,1679729278802568,BOT: message,Great job!,2018-08-24 19:31:28
+1679729278802568,Joy,Yuzuriha,11999,854518728062939,1679729278802568,BOT: quick reply,The correct answer is insolvent.,2018-08-24 19:31:29
+1679729278802568,Joy,Yuzuriha,12000,1679729278802568,854518728062939,user_quick_reply: WHY,Why?,2018-08-24 19:31:40
+1679729278802568,Joy,Yuzuriha,12001,854518728062939,1679729278802568,BOT: message,Here's why:,2018-08-24 19:31:43
+1679729278802568,Joy,Yuzuriha,12002,854518728062939,1679729278802568,BOT: quick reply,":pushpin: Insolvent -- unable to meet or discharge financial obligations
+:pushpin: Former -- preceding in time; prior or earlier
+:pushpin: Unlikely -- not likely to be true or to occur or to have occurred
+:pushpin: Perturbed -- thrown into a state of agitated confusion
+:pushpin: Eccentric -- conspicuously or grossly unconventional or unusual",2018-08-24 19:31:44
+1679729278802568,Joy,Yuzuriha,12003,1679729278802568,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-24 19:32:06
+1679729278802568,Joy,Yuzuriha,12004,854518728062939,1679729278802568,BOT: message,Let's see if you would answer this one.,2018-08-24 19:32:07
+1679729278802568,Joy,Yuzuriha,12005,854518728062939,1679729278802568,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-24 19:32:09
+1679729278802568,Joy,Yuzuriha,12006,854518728062939,1679729278802568,BOT: quick reply,The Erie Canal's completion caused _____ economic ripples; property values and industrial output along its route rose exponentially.,2018-08-24 19:32:11
+1679729278802568,Joy,Yuzuriha,12007,1679729278802568,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-24 19:32:21
+1679729278802568,Joy,Yuzuriha,12008,854518728062939,1679729278802568,BOT: message,Pick one of the following answers.,2018-08-24 19:32:22
+1679729278802568,Joy,Yuzuriha,12009,854518728062939,1679729278802568,BOT: quick reply,":keycap_1: incredulous
+:keycap_2: severe
+:keycap_3: prodigious
+:keycap_4: persistent
+:keycap_5: invaluable
+",2018-08-24 19:32:24
+1679729278802568,Joy,Yuzuriha,12010,1679729278802568,854518728062939,user_quick_reply: BUTTON_AKB_prodigious,:keycap_3:,2018-08-24 19:32:30
+1679729278802568,Joy,Yuzuriha,12011,854518728062939,1679729278802568,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_happy_pink.png,2018-08-24 19:32:32
+1679729278802568,Joy,Yuzuriha,12012,854518728062939,1679729278802568,BOT: message,Nice! That was right!,2018-08-24 19:32:34
+1679729278802568,Joy,Yuzuriha,12013,854518728062939,1679729278802568,BOT: quick reply,The correct answer is prodigious.,2018-08-24 19:32:35
+1679729278802568,Joy,Yuzuriha,12014,1679729278802568,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-24 19:32:40
+1679729278802568,Joy,Yuzuriha,12015,854518728062939,1679729278802568,BOT: message,Let's try this one.,2018-08-24 19:32:41
+1679729278802568,Joy,Yuzuriha,12016,854518728062939,1679729278802568,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-24 19:32:43
+1679729278802568,Joy,Yuzuriha,12017,854518728062939,1679729278802568,BOT: quick reply,"Prior to taking on the new invader, the defending army had engaged in arduous combat; it is likely that the _____ resulting from waging two battles in two days played a part in its subsequent defeat.",2018-08-24 19:32:45
+1679729278802568,Joy,Yuzuriha,12018,1679729278802568,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-24 19:32:49
+1679729278802568,Joy,Yuzuriha,12019,854518728062939,1679729278802568,BOT: message,Okay. I'll give you some choices.,2018-08-24 19:32:51
+1679729278802568,Joy,Yuzuriha,12020,854518728062939,1679729278802568,BOT: quick reply,":keycap_1: pugnacity
+:keycap_2: aggravation
+:keycap_3: enervation
+:keycap_4: pacification
+:keycap_5: bellicosity
+",2018-08-24 19:32:53
+1679729278802568,Joy,Yuzuriha,12021,1679729278802568,854518728062939,user_quick_reply: BUTTON_DKB_aggravation,:keycap_2:,2018-08-24 19:33:10
+1679729278802568,Joy,Yuzuriha,12022,854518728062939,1679729278802568,BOT: message,"Oops, that wasn't quite correct. :disappointed_face:",2018-08-24 19:33:12
+1679729278802568,Joy,Yuzuriha,12023,854518728062939,1679729278802568,BOT: quick reply,The correct answer is enervation.,2018-08-24 19:33:13
+1679729278802568,Joy,Yuzuriha,12024,1679729278802568,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-24 19:33:18
+1679729278802568,Joy,Yuzuriha,12025,854518728062939,1679729278802568,BOT: message,Let's take a look at this question.,2018-08-24 19:33:19
+1679729278802568,Joy,Yuzuriha,12026,854518728062939,1679729278802568,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-24 19:33:21
+1679729278802568,Joy,Yuzuriha,12027,854518728062939,1679729278802568,BOT: quick reply,"Prior to taking on the new invader, the defending army had engaged in arduous combat; it is likely that the _____ resulting from waging two battles in two days played a part in its subsequent defeat.",2018-08-24 19:33:22
+1679729278802568,Joy,Yuzuriha,12028,1679729278802568,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-24 19:33:27
+1679729278802568,Joy,Yuzuriha,12029,854518728062939,1679729278802568,BOT: message,Pick one of the following answers.,2018-08-24 19:33:29
+1679729278802568,Joy,Yuzuriha,12030,854518728062939,1679729278802568,BOT: quick reply,":keycap_1: bellicosity
+:keycap_2: pugnacity
+:keycap_3: pacification
+:keycap_4: aggravation
+:keycap_5: enervation
+",2018-08-24 19:33:30
+1679729278802568,Joy,Yuzuriha,12031,1679729278802568,854518728062939,user_quick_reply: BUTTON_AKB_enervation,:keycap_5:,2018-08-24 19:33:35
+1679729278802568,Joy,Yuzuriha,12032,854518728062939,1679729278802568,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_happy_pink.png,2018-08-24 19:33:37
+1679729278802568,Joy,Yuzuriha,12033,854518728062939,1679729278802568,BOT: message,Great! Keep it up! :flexed_biceps_medium-light_skin_tone:,2018-08-24 19:33:39
+1679729278802568,Joy,Yuzuriha,12034,854518728062939,1679729278802568,BOT: quick reply,The correct answer is enervation.,2018-08-24 19:33:40
+1679729278802568,Joy,Yuzuriha,12035,1679729278802568,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-24 19:33:44
+1679729278802568,Joy,Yuzuriha,12036,854518728062939,1679729278802568,BOT: message,Could you answer this one for me?,2018-08-24 19:33:46
+1679729278802568,Joy,Yuzuriha,12037,854518728062939,1679729278802568,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-24 19:33:47
+1679729278802568,Joy,Yuzuriha,12038,854518728062939,1679729278802568,BOT: quick reply,"Having squandered his life's savings on unprofitable business ventures, the _____ entrepreneur was forced to live in squalor.",2018-08-24 19:33:49
+1679729278802568,Joy,Yuzuriha,12039,1679729278802568,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-24 19:33:56
+1679729278802568,Joy,Yuzuriha,12040,854518728062939,1679729278802568,BOT: message,Pick one of the following answers.,2018-08-24 19:33:58
+1679729278802568,Joy,Yuzuriha,12041,854518728062939,1679729278802568,BOT: quick reply,":keycap_1: perturbed
+:keycap_2: former
+:keycap_3: eccentric
+:keycap_4: insolvent
+:keycap_5: unlikely
+",2018-08-24 19:33:59
+1679729278802568,Joy,Yuzuriha,12042,1679729278802568,854518728062939,user_quick_reply: BUTTON_AKB_insolvent,:keycap_4:,2018-08-24 19:34:04
+1679729278802568,Joy,Yuzuriha,12043,854518728062939,1679729278802568,BOT: message,Nice work! Keep it up!,2018-08-24 19:34:06
+1679729278802568,Joy,Yuzuriha,12044,854518728062939,1679729278802568,BOT: quick reply,The correct answer is insolvent.,2018-08-24 19:34:07
+1679729278802568,Joy,Yuzuriha,12045,1679729278802568,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-24 19:34:12
+1679729278802568,Joy,Yuzuriha,12046,854518728062939,1679729278802568,BOT: message,Would you answer this question for me?,2018-08-24 19:34:13
+1679729278802568,Joy,Yuzuriha,12047,854518728062939,1679729278802568,BOT: quick reply,"What arises due to crossing over, independent assortment, and the random union of gametes?",2018-08-24 19:34:15
+1679729278802568,Joy,Yuzuriha,12048,1679729278802568,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-24 19:34:22
+1679729278802568,Joy,Yuzuriha,12049,854518728062939,1679729278802568,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-08-24 19:34:24
+1679729278802568,Joy,Yuzuriha,12050,854518728062939,1679729278802568,BOT: quick reply,":keycap_1: susceptible variation
+:keycap_2: alternative variation
+:keycap_3: genetic variation
+:keycap_4: recessive variation
+",2018-08-24 19:34:25
+1679729278802568,Joy,Yuzuriha,12051,1679729278802568,854518728062939,user_quick_reply: BUTTON_AKB_genetic variation,:keycap_3:,2018-08-24 19:34:35
+1679729278802568,Joy,Yuzuriha,12052,854518728062939,1679729278802568,BOT: message,Nice! That was right!,2018-08-24 19:34:36
+1679729278802568,Joy,Yuzuriha,12053,854518728062939,1679729278802568,BOT: quick reply,The correct answer is genetic variation.,2018-08-24 19:34:38
+1679729278802568,Joy,Yuzuriha,12054,1679729278802568,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-24 19:34:43
+1679729278802568,Joy,Yuzuriha,12055,854518728062939,1679729278802568,BOT: message,Could you answer this one for me?,2018-08-24 19:34:44
+1679729278802568,Joy,Yuzuriha,12056,854518728062939,1679729278802568,BOT: quick reply,How long can high-acid canned food such as tomatoes be stored?,2018-08-24 19:34:46
+1679729278802568,Joy,Yuzuriha,12057,1679729278802568,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-24 19:34:54
+1679729278802568,Joy,Yuzuriha,12058,854518728062939,1679729278802568,BOT: message,It's one of the following choices.,2018-08-24 19:34:55
+1679729278802568,Joy,Yuzuriha,12059,854518728062939,1679729278802568,BOT: quick reply,":keycap_1: 2 to 4 years
+:keycap_2: 12 to 18 months
+:keycap_3: 2 to 6 months
+:keycap_4: 10 to 30 days
+",2018-08-24 19:34:57
+1679729278802568,Joy,Yuzuriha,12060,1679729278802568,854518728062939,user_quick_reply: BUTTON_AKB_12 to 18 months,:keycap_2:,2018-08-24 19:35:12
+1679729278802568,Joy,Yuzuriha,12061,854518728062939,1679729278802568,BOT: message,Nice work! Keep it up!,2018-08-24 19:35:14
+1679729278802568,Joy,Yuzuriha,12062,854518728062939,1679729278802568,BOT: quick reply,The correct answer is 12 to 18 months.,2018-08-24 19:35:15
+1679729278802568,Joy,Yuzuriha,12074,854518728062939,1679729278802568,BOT: quick reply,"Hi Joy, you haven't talked to me for a while. Would you like to resume the learning with me?",2018-08-24 20:00:11
+1679729278802568,Joy,Yuzuriha,14950,1679729278802568,854518728062939,persistent_menu: RANDOM,Random :game_die:,2018-08-25 18:33:11
+1679729278802568,Joy,Yuzuriha,14951,854518728062939,1679729278802568,BOT: quick reply,Nice! Enjoy a little variety? Let's answer some questions! :game_die:,2018-08-25 18:33:13
+1679729278802568,Joy,Yuzuriha,14952,1679729278802568,854518728062939,user_quick_reply: NEXT_QUESTION,Sure :white_heavy_check_mark:,2018-08-25 18:33:17
+1679729278802568,Joy,Yuzuriha,14953,854518728062939,1679729278802568,BOT: message,Let's see if you would answer this one.,2018-08-25 18:33:19
+1679729278802568,Joy,Yuzuriha,14954,854518728062939,1679729278802568,BOT: quick reply,"With a similar contrast between a partly cloudy sky and a dark street, the cover of the recent rock CD _____ a famous surrealist painting from the early 1900s.",2018-08-25 18:33:20
+1679729278802568,Joy,Yuzuriha,14955,1679729278802568,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-25 18:33:27
+1679729278802568,Joy,Yuzuriha,14956,854518728062939,1679729278802568,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-08-25 18:33:28
+1679729278802568,Joy,Yuzuriha,14957,854518728062939,1679729278802568,BOT: quick reply,":keycap_1: evokes
+:keycap_2: obfuscates
+:keycap_3: sanctions
+:keycap_4: admires
+:keycap_5: disenchants
+",2018-08-25 18:33:29
+1679729278802568,Joy,Yuzuriha,14958,1679729278802568,854518728062939,user_quick_reply: BUTTON_AKB_evokes,:keycap_1:,2018-08-25 18:34:06
+1679729278802568,Joy,Yuzuriha,14959,854518728062939,1679729278802568,BOT: message,Nice work! Keep it up!,2018-08-25 18:34:07
+1679729278802568,Joy,Yuzuriha,14960,854518728062939,1679729278802568,BOT: quick reply,The correct answer is evokes.,2018-08-25 18:34:09
+1679729278802568,Joy,Yuzuriha,14961,1679729278802568,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-25 18:34:18
+1679729278802568,Joy,Yuzuriha,14962,854518728062939,1679729278802568,BOT: message,Let's see if you can answer this question.,2018-08-25 18:34:20
+1679729278802568,Joy,Yuzuriha,14963,854518728062939,1679729278802568,BOT: quick reply,What are by far the most common type of invertebrate?,2018-08-25 18:34:21
+1679729278802568,Joy,Yuzuriha,14964,1679729278802568,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-25 18:34:28
+1679729278802568,Joy,Yuzuriha,14965,854518728062939,1679729278802568,BOT: message,Okay. I'll give you some choices.,2018-08-25 18:34:30
+1679729278802568,Joy,Yuzuriha,14966,854518728062939,1679729278802568,BOT: quick reply,":keycap_1: spiders
+:keycap_2: insects
+:keycap_3: corals
+:keycap_4: crustaceans
+",2018-08-25 18:34:31
+1679729278802568,Joy,Yuzuriha,14970,1679729278802568,854518728062939,user_quick_reply: BUTTON_DKB_crustaceans,:keycap_4:,2018-08-25 18:34:42
+1679729278802568,Joy,Yuzuriha,14971,854518728062939,1679729278802568,BOT: message,"Hmm, that wasn't quite right. :disappointed_face:",2018-08-25 18:34:43
+1679729278802568,Joy,Yuzuriha,14972,854518728062939,1679729278802568,BOT: quick reply,The correct answer is insects.,2018-08-25 18:34:45
+1679729278802568,Joy,Yuzuriha,14974,1679729278802568,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-25 18:34:49
+1679729278802568,Joy,Yuzuriha,14976,854518728062939,1679729278802568,BOT: message,Let's see if you can get this one.,2018-08-25 18:34:51
+1679729278802568,Joy,Yuzuriha,14978,854518728062939,1679729278802568,BOT: quick reply,"Just as different people can have very different personalities, so too can pets - even those of the same species and breed possess varied _____ .",2018-08-25 18:34:52
+1679729278802568,Joy,Yuzuriha,14981,1679729278802568,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-25 18:34:59
+1679729278802568,Joy,Yuzuriha,14983,854518728062939,1679729278802568,BOT: message,Pick one of the following answers.,2018-08-25 18:35:00
+1679729278802568,Joy,Yuzuriha,14985,854518728062939,1679729278802568,BOT: quick reply,":keycap_1: aptitudes
+:keycap_2: temperaments
+:keycap_3: rationalizations
+:keycap_4: implementations
+:keycap_5: initiations
+",2018-08-25 18:35:02
+1679729278802568,Joy,Yuzuriha,14986,1679729278802568,854518728062939,user_quick_reply: BUTTON_AKB_temperaments,:keycap_2:,2018-08-25 18:35:15
+1679729278802568,Joy,Yuzuriha,14987,854518728062939,1679729278802568,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_jubilated_cyan.png,2018-08-25 18:35:17
+1679729278802568,Joy,Yuzuriha,14988,854518728062939,1679729278802568,BOT: message,Great job getting the correct answer!,2018-08-25 18:35:18
+1679729278802568,Joy,Yuzuriha,14989,854518728062939,1679729278802568,BOT: quick reply,The correct answer is temperaments.,2018-08-25 18:35:20
+1679729278802568,Joy,Yuzuriha,14993,1679729278802568,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-25 18:35:25
+1679729278802568,Joy,Yuzuriha,14994,854518728062939,1679729278802568,BOT: message,Would you answer this question for me?,2018-08-25 18:35:26
+1679729278802568,Joy,Yuzuriha,14995,854518728062939,1679729278802568,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-25 18:35:28
+1679729278802568,Joy,Yuzuriha,14996,854518728062939,1679729278802568,BOT: quick reply,What living species of bird is considered the largest of the raptors?,2018-08-25 18:35:29
+1679729278802568,Joy,Yuzuriha,14997,1679729278802568,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-25 18:35:36
+1679729278802568,Joy,Yuzuriha,14998,854518728062939,1679729278802568,BOT: message,Which of the following options is the right answer?,2018-08-25 18:35:37
+1679729278802568,Joy,Yuzuriha,15000,854518728062939,1679729278802568,BOT: quick reply,":keycap_1: pterodactyl
+:keycap_2: golden eagles
+:keycap_3: California condor
+:keycap_4: peregrine falcon
+",2018-08-25 18:35:39
+1679729278802568,Joy,Yuzuriha,15005,1679729278802568,854518728062939,user_quick_reply: BUTTON_DKB_California condor,:keycap_3:,2018-08-25 18:35:47
+1679729278802568,Joy,Yuzuriha,15007,854518728062939,1679729278802568,BOT: message,"Hmm, that wasn't quite right. :disappointed_face:",2018-08-25 18:35:49
+1679729278802568,Joy,Yuzuriha,15008,854518728062939,1679729278802568,BOT: quick reply,The correct answer is golden eagles.,2018-08-25 18:35:50
+1679729278802568,Joy,Yuzuriha,15012,1679729278802568,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-25 18:35:57
+1679729278802568,Joy,Yuzuriha,15013,854518728062939,1679729278802568,BOT: message,Let's try this question.,2018-08-25 18:35:59
+1679729278802568,Joy,Yuzuriha,15014,854518728062939,1679729278802568,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-25 18:36:01
+1679729278802568,Joy,Yuzuriha,15016,854518728062939,1679729278802568,BOT: quick reply,What disease characterized by the extreme swelling of the limbs is caused by infection with a type of roundworm?,2018-08-25 18:36:02
+1679729278802568,Joy,Yuzuriha,15023,1679729278802568,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-25 18:36:33
+1679729278802568,Joy,Yuzuriha,15024,854518728062939,1679729278802568,BOT: message,It's one of the following choices.,2018-08-25 18:36:35
+1679729278802568,Joy,Yuzuriha,15025,854518728062939,1679729278802568,BOT: quick reply,":keycap_1: pulmonary edema
+:keycap_2: fibrosis
+:keycap_3: gigantism
+:keycap_4: elephantiasis
+",2018-08-25 18:36:36
+1679729278802568,Joy,Yuzuriha,15026,1679729278802568,854518728062939,user_quick_reply: BUTTON_AKB_elephantiasis,:keycap_4:,2018-08-25 18:36:41
+1679729278802568,Joy,Yuzuriha,15027,854518728062939,1679729278802568,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_normal_purple.png,2018-08-25 18:36:43
+1679729278802568,Joy,Yuzuriha,15028,854518728062939,1679729278802568,BOT: message,Great job!,2018-08-25 18:36:45
+1679729278802568,Joy,Yuzuriha,15029,854518728062939,1679729278802568,BOT: quick reply,The correct answer is elephantiasis.,2018-08-25 18:36:46
+1679729278802568,Joy,Yuzuriha,15033,1679729278802568,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-25 18:36:51
+1679729278802568,Joy,Yuzuriha,15034,854518728062939,1679729278802568,BOT: message,Let's try this one.,2018-08-25 18:36:52
+1679729278802568,Joy,Yuzuriha,15035,854518728062939,1679729278802568,BOT: quick reply,"Possessing few natural resources upon its newly-granted independence in 1863, Singapore remained economically _____ until an influx of industrialization and foreign investment took hold there.",2018-08-25 18:36:54
+1679729278802568,Joy,Yuzuriha,15040,1679729278802568,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-25 18:37:01
+1679729278802568,Joy,Yuzuriha,15041,854518728062939,1679729278802568,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-08-25 18:37:02
+1679729278802568,Joy,Yuzuriha,15042,854518728062939,1679729278802568,BOT: quick reply,":keycap_1: dubious
+:keycap_2: prosperous
+:keycap_3: solvent
+:keycap_4: fortuitous
+:keycap_5: powerful
+",2018-08-25 18:37:04
+1679729278802568,Joy,Yuzuriha,15043,1679729278802568,854518728062939,user_quick_reply: BUTTON_AKB_dubious,:keycap_1:,2018-08-25 18:37:13
+1679729278802568,Joy,Yuzuriha,15044,854518728062939,1679729278802568,BOT: message,Nice work! Keep it up!,2018-08-25 18:37:14
+1679729278802568,Joy,Yuzuriha,15046,854518728062939,1679729278802568,BOT: quick reply,The correct answer is dubious.,2018-08-25 18:37:15
+1679729278802568,Joy,Yuzuriha,15049,1679729278802568,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-25 18:37:20
+1679729278802568,Joy,Yuzuriha,15050,854518728062939,1679729278802568,BOT: message,I think you'll like this question.,2018-08-25 18:37:21
+1679729278802568,Joy,Yuzuriha,15051,854518728062939,1679729278802568,BOT: quick reply,While she may have answered him truthfully - in the strictest sense of the word - it became clear to Sergei after the incident that Sheryl had actually been trying to _____ .,2018-08-25 18:37:23
+1679729278802568,Joy,Yuzuriha,15052,1679729278802568,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-25 18:37:28
+1679729278802568,Joy,Yuzuriha,15053,854518728062939,1679729278802568,BOT: message,Which of the following options is the right answer?,2018-08-25 18:37:29
+1679729278802568,Joy,Yuzuriha,15054,854518728062939,1679729278802568,BOT: quick reply,":keycap_1: covet
+:keycap_2: vituperate
+:keycap_3: obfuscate
+:keycap_4: desiccate
+:keycap_5: illuminate
+",2018-08-25 18:37:31
+1679729278802568,Joy,Yuzuriha,15055,1679729278802568,854518728062939,user_quick_reply: BUTTON_AKB_obfuscate,:keycap_3:,2018-08-25 18:37:40
+1679729278802568,Joy,Yuzuriha,15056,854518728062939,1679729278802568,BOT: message,Nice work! Keep it up!,2018-08-25 18:37:42
+1679729278802568,Joy,Yuzuriha,15057,854518728062939,1679729278802568,BOT: quick reply,The correct answer is obfuscate.,2018-08-25 18:37:43
+1679729278802568,Joy,Yuzuriha,15058,1679729278802568,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-25 18:37:47
+1679729278802568,Joy,Yuzuriha,15059,854518728062939,1679729278802568,BOT: message,Let's see if you can get this one.,2018-08-25 18:37:49
+1679729278802568,Joy,Yuzuriha,15060,854518728062939,1679729278802568,BOT: quick reply,What is the diffusion of water through a semipermeable membrane down its concentration gradient?,2018-08-25 18:37:50
+1679729278802568,Joy,Yuzuriha,15062,1679729278802568,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-25 18:38:00
+1679729278802568,Joy,Yuzuriha,15064,854518728062939,1679729278802568,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-08-25 18:38:02
+1679729278802568,Joy,Yuzuriha,15066,854518728062939,1679729278802568,BOT: quick reply,":keycap_1: mirrors
+:keycap_2: nutrients
+:keycap_3: osmosis
+:keycap_4: permable
+",2018-08-25 18:38:03
+1679729278802568,Joy,Yuzuriha,15068,1679729278802568,854518728062939,user_quick_reply: BUTTON_AKB_osmosis,:keycap_3:,2018-08-25 18:38:10
+1679729278802568,Joy,Yuzuriha,15070,854518728062939,1679729278802568,BOT: message,Nice work! Keep it up!,2018-08-25 18:38:11
+1679729278802568,Joy,Yuzuriha,15072,854518728062939,1679729278802568,BOT: quick reply,The correct answer is osmosis.,2018-08-25 18:38:13
+1679729278802568,Joy,Yuzuriha,15074,1679729278802568,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-25 18:38:18
+1679729278802568,Joy,Yuzuriha,15075,854518728062939,1679729278802568,BOT: message,Let's see if you can get this one.,2018-08-25 18:38:19
+1679729278802568,Joy,Yuzuriha,15077,854518728062939,1679729278802568,BOT: quick reply,"When your brain senses that your body temperature is increasing, it sends messages to the blood vessels in the skin to increase in what?",2018-08-25 18:38:20
+1679729278802568,Joy,Yuzuriha,15081,1679729278802568,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-25 18:38:26
+1679729278802568,Joy,Yuzuriha,15082,854518728062939,1679729278802568,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-08-25 18:38:28
+1679729278802568,Joy,Yuzuriha,15083,854518728062939,1679729278802568,BOT: quick reply,":keycap_1: diameter
+:keycap_2: height
+:keycap_3: weight
+:keycap_4: surface
+",2018-08-25 18:38:29
+1679729278802568,Joy,Yuzuriha,15087,1679729278802568,854518728062939,user_quick_reply: BUTTON_AKB_diameter,:keycap_1:,2018-08-25 18:38:37
+1679729278802568,Joy,Yuzuriha,15088,854518728062939,1679729278802568,BOT: message,Great job getting the correct answer!,2018-08-25 18:38:38
+1679729278802568,Joy,Yuzuriha,15089,854518728062939,1679729278802568,BOT: quick reply,The correct answer is diameter.,2018-08-25 18:38:40
+1679729278802568,Joy,Yuzuriha,15090,1679729278802568,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-25 18:38:44
+1679729278802568,Joy,Yuzuriha,15091,854518728062939,1679729278802568,BOT: message,Let's take a look at this question.,2018-08-25 18:38:46
+1679729278802568,Joy,Yuzuriha,15093,854518728062939,1679729278802568,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-25 18:38:47
+1679729278802568,Joy,Yuzuriha,15095,854518728062939,1679729278802568,BOT: quick reply,How often should women perform a breast self-exam?,2018-08-25 18:38:49
+1679729278802568,Joy,Yuzuriha,15097,1679729278802568,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-25 18:38:54
+1679729278802568,Joy,Yuzuriha,15098,854518728062939,1679729278802568,BOT: message,Okay. I'll give you some choices.,2018-08-25 18:38:56
+1679729278802568,Joy,Yuzuriha,15100,854518728062939,1679729278802568,BOT: quick reply,":keycap_1: weekly
+:keycap_2: quarterly
+:keycap_3: monthly
+:keycap_4: yearly
+",2018-08-25 18:38:57
+1679729278802568,Joy,Yuzuriha,15103,1679729278802568,854518728062939,user_quick_reply: BUTTON_AKB_monthly,:keycap_3:,2018-08-25 18:39:05
+1679729278802568,Joy,Yuzuriha,15105,854518728062939,1679729278802568,BOT: message,Nice! That was right!,2018-08-25 18:39:06
+1679729278802568,Joy,Yuzuriha,15107,854518728062939,1679729278802568,BOT: quick reply,The correct answer is monthly.,2018-08-25 18:39:08
+1679729278802568,Joy,Yuzuriha,15109,1679729278802568,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-25 18:39:13
+1679729278802568,Joy,Yuzuriha,15110,854518728062939,1679729278802568,BOT: message,"Alrighty, let's try this one.",2018-08-25 18:39:14
+1679729278802568,Joy,Yuzuriha,15111,854518728062939,1679729278802568,BOT: quick reply,How long can high-acid canned food such as tomatoes be stored?,2018-08-25 18:39:16
+1679729278802568,Joy,Yuzuriha,15112,1679729278802568,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-25 18:39:21
+1679729278802568,Joy,Yuzuriha,15113,854518728062939,1679729278802568,BOT: message,Okay. I'll give you some choices.,2018-08-25 18:39:22
+1679729278802568,Joy,Yuzuriha,15114,854518728062939,1679729278802568,BOT: quick reply,":keycap_1: 2 to 6 months
+:keycap_2: 12 to 18 months
+:keycap_3: 2 to 4 years
+:keycap_4: 10 to 30 days
+",2018-08-25 18:39:24
+1679729278802568,Joy,Yuzuriha,15115,1679729278802568,854518728062939,user_quick_reply: BUTTON_AKB_12 to 18 months,:keycap_2:,2018-08-25 18:39:29
+1679729278802568,Joy,Yuzuriha,15116,854518728062939,1679729278802568,BOT: message,Nice! That was right!,2018-08-25 18:39:31
+1679729278802568,Joy,Yuzuriha,15117,854518728062939,1679729278802568,BOT: quick reply,The correct answer is 12 to 18 months.,2018-08-25 18:39:32
+1679729278802568,Joy,Yuzuriha,15118,1679729278802568,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-25 18:39:43
+1679729278802568,Joy,Yuzuriha,15119,854518728062939,1679729278802568,BOT: message,Would you answer this question for me?,2018-08-25 18:39:45
+1679729278802568,Joy,Yuzuriha,15120,854518728062939,1679729278802568,BOT: quick reply,"Many dog owners treat their pets too _____ , forgetting that canines have evolved in competitive environments in which emotional coddling was a sign of weakness.",2018-08-25 18:39:46
+1679729278802568,Joy,Yuzuriha,15121,1679729278802568,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-25 18:39:54
+1679729278802568,Joy,Yuzuriha,15122,854518728062939,1679729278802568,BOT: message,It's one of the following choices.,2018-08-25 18:39:56
+1679729278802568,Joy,Yuzuriha,15123,854518728062939,1679729278802568,BOT: quick reply,":keycap_1: indulgently
+:keycap_2: fortuitously
+:keycap_3: quixotically
+:keycap_4: aggressively
+:keycap_5: belligerently
+",2018-08-25 18:39:57
+1679729278802568,Joy,Yuzuriha,15124,1679729278802568,854518728062939,user_quick_reply: BUTTON_AKB_indulgently,:keycap_1:,2018-08-25 18:40:24
+1679729278802568,Joy,Yuzuriha,15125,854518728062939,1679729278802568,BOT: message,Nice! That was right!,2018-08-25 18:40:25
+1679729278802568,Joy,Yuzuriha,15126,854518728062939,1679729278802568,BOT: quick reply,The correct answer is indulgently.,2018-08-25 18:40:27
+1679729278802568,Joy,Yuzuriha,15127,1679729278802568,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-25 18:40:31
+1679729278802568,Joy,Yuzuriha,15128,854518728062939,1679729278802568,BOT: message,Could you answer this one for me?,2018-08-25 18:40:33
+1679729278802568,Joy,Yuzuriha,15129,854518728062939,1679729278802568,BOT: quick reply,"If your co-worker needs CPR but you are not trained in it, what should you do?",2018-08-25 18:40:34
+1679729278802568,Joy,Yuzuriha,15130,1679729278802568,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-25 18:40:40
+1679729278802568,Joy,Yuzuriha,15131,854518728062939,1679729278802568,BOT: message,Which of the following options is the right answer?,2018-08-25 18:40:42
+1679729278802568,Joy,Yuzuriha,15132,854518728062939,1679729278802568,BOT: quick reply,":keycap_1: Lift the patient's head
+:keycap_2: Give rescue breaths only
+:keycap_3: Perform chest compressions only
+:keycap_4: Wait for emergency personnel to arrive
+",2018-08-25 18:40:43
+1679729278802568,Joy,Yuzuriha,15133,1679729278802568,854518728062939,user_quick_reply: BUTTON_AKB_Perform chest compressions only,:keycap_3:,2018-08-25 18:40:51
+1679729278802568,Joy,Yuzuriha,15134,854518728062939,1679729278802568,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_normal.png,2018-08-25 18:40:53
+1679729278802568,Joy,Yuzuriha,15135,854518728062939,1679729278802568,BOT: message,Great job!,2018-08-25 18:40:55
+1679729278802568,Joy,Yuzuriha,15136,854518728062939,1679729278802568,BOT: quick reply,The correct answer is Perform chest compressions only.,2018-08-25 18:40:56
+1679729278802568,Joy,Yuzuriha,15149,1679729278802568,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-25 18:59:32
+1679729278802568,Joy,Yuzuriha,15150,854518728062939,1679729278802568,BOT: message,Let's see if you would answer this one.,2018-08-25 18:59:33
+1679729278802568,Joy,Yuzuriha,15151,854518728062939,1679729278802568,BOT: quick reply,"Although John F. Kennedy was known for his carefree flag football games, Gerald Ford should be _____ as our football president: he turned down offers to play for two National Football League teams in order to pursue a career in public service.",2018-08-25 18:59:35
+1679729278802568,Joy,Yuzuriha,15152,1679729278802568,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-25 18:59:43
+1679729278802568,Joy,Yuzuriha,15153,854518728062939,1679729278802568,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-08-25 18:59:44
+1679729278802568,Joy,Yuzuriha,15154,854518728062939,1679729278802568,BOT: quick reply,":keycap_1: criticized
+:keycap_2: apotheosized
+:keycap_3: relegated
+:keycap_4: annulled
+:keycap_5: abrogated
+",2018-08-25 18:59:45
+1679729278802568,Joy,Yuzuriha,15155,1679729278802568,854518728062939,user_quick_reply: BUTTON_AKB_apotheosized,:keycap_2:,2018-08-25 19:00:14
+1679729278802568,Joy,Yuzuriha,15156,854518728062939,1679729278802568,BOT: message,Nice work! Keep it up!,2018-08-25 19:00:15
+1679729278802568,Joy,Yuzuriha,15157,854518728062939,1679729278802568,BOT: quick reply,The correct answer is apotheosized.,2018-08-25 19:00:17
+1679729278802568,Joy,Yuzuriha,15158,1679729278802568,854518728062939,user_quick_reply: WHY,Why?,2018-08-25 19:00:21
+1679729278802568,Joy,Yuzuriha,15159,854518728062939,1679729278802568,BOT: message,This is why:,2018-08-25 19:00:23
+1679729278802568,Joy,Yuzuriha,15160,854518728062939,1679729278802568,BOT: quick reply,":pushpin: Apotheosized -- deify or glorify
+:pushpin: Relegated -- to send or consign to an inferior position, place, or condition
+:pushpin: Abrogated -- revoke formally
+:pushpin: Annulled -- declare invalid
+:pushpin: Criticized -- find fault with; express criticism of; point out real or perceived flaws",2018-08-25 19:00:24
+1679729278802568,Joy,Yuzuriha,15239,1679729278802568,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-25 19:47:28
+1679729278802568,Joy,Yuzuriha,15240,854518728062939,1679729278802568,BOT: message,Let's try this one.,2018-08-25 19:47:30
+1679729278802568,Joy,Yuzuriha,15241,854518728062939,1679729278802568,BOT: quick reply,"Despite the smile that spread from ear to ear, the eyes relayed a certain _____ .",2018-08-25 19:47:32
+1679729278802568,Joy,Yuzuriha,15242,1679729278802568,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-25 19:47:38
+1679729278802568,Joy,Yuzuriha,15243,854518728062939,1679729278802568,BOT: message,Okay. I'll give you some choices.,2018-08-25 19:47:40
+1679729278802568,Joy,Yuzuriha,15244,854518728062939,1679729278802568,BOT: quick reply,":keycap_1: liveliness
+:keycap_2: mischievousness
+:keycap_3: jubilance
+:keycap_4: sorrow
+:keycap_5: vision
+",2018-08-25 19:47:41
+1679729278802568,Joy,Yuzuriha,15245,1679729278802568,854518728062939,user_quick_reply: BUTTON_AKB_sorrow,:keycap_4:,2018-08-25 19:47:47
+1679729278802568,Joy,Yuzuriha,15246,854518728062939,1679729278802568,BOT: message,Great! Keep it up! :flexed_biceps_medium-light_skin_tone:,2018-08-25 19:47:48
+1679729278802568,Joy,Yuzuriha,15247,854518728062939,1679729278802568,BOT: quick reply,The correct answer is sorrow.,2018-08-25 19:47:50
+1679729278802568,Joy,Yuzuriha,15248,1679729278802568,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-25 19:47:55
+1679729278802568,Joy,Yuzuriha,15249,854518728062939,1679729278802568,BOT: message,How about this next one:,2018-08-25 19:47:56
+1679729278802568,Joy,Yuzuriha,15250,854518728062939,1679729278802568,BOT: quick reply,The Erie Canal's completion caused _____ economic ripples; property values and industrial output along its route rose exponentially.,2018-08-25 19:47:58
+1679729278802568,Joy,Yuzuriha,15251,1679729278802568,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-25 19:48:03
+1679729278802568,Joy,Yuzuriha,15252,854518728062939,1679729278802568,BOT: message,It's one of the following choices.,2018-08-25 19:48:05
+1679729278802568,Joy,Yuzuriha,15253,854518728062939,1679729278802568,BOT: quick reply,":keycap_1: invaluable
+:keycap_2: severe
+:keycap_3: persistent
+:keycap_4: prodigious
+:keycap_5: incredulous
+",2018-08-25 19:48:06
+1679729278802568,Joy,Yuzuriha,15254,1679729278802568,854518728062939,user_quick_reply: BUTTON_AKB_prodigious,:keycap_4:,2018-08-25 19:48:13
+1679729278802568,Joy,Yuzuriha,15255,854518728062939,1679729278802568,BOT: message,Nice work! Keep it up!,2018-08-25 19:48:15
+1679729278802568,Joy,Yuzuriha,15256,854518728062939,1679729278802568,BOT: quick reply,The correct answer is prodigious.,2018-08-25 19:48:16
+1679729278802568,Joy,Yuzuriha,15257,1679729278802568,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-25 19:48:22
+1679729278802568,Joy,Yuzuriha,15258,854518728062939,1679729278802568,BOT: message,Would you answer this question for me?,2018-08-25 19:48:24
+1679729278802568,Joy,Yuzuriha,15259,854518728062939,1679729278802568,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-25 19:48:25
+1679729278802568,Joy,Yuzuriha,15260,854518728062939,1679729278802568,BOT: quick reply,Nerve cells that sense touch are found mainly where?,2018-08-25 19:48:27
+1679729278802568,Joy,Yuzuriha,15261,1679729278802568,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-25 19:48:32
+1679729278802568,Joy,Yuzuriha,15262,854518728062939,1679729278802568,BOT: message,It's one of the following choices.,2018-08-25 19:48:34
+1679729278802568,Joy,Yuzuriha,15263,854518728062939,1679729278802568,BOT: quick reply,":keycap_1: brain
+:keycap_2: stomach
+:keycap_3: lungs
+:keycap_4: skin
+",2018-08-25 19:48:35
+1679729278802568,Joy,Yuzuriha,15264,1679729278802568,854518728062939,user_quick_reply: BUTTON_AKB_skin,:keycap_4:,2018-08-25 19:48:46
+1679729278802568,Joy,Yuzuriha,15265,854518728062939,1679729278802568,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_jubilated_cyan.png,2018-08-25 19:48:49
+1679729278802568,Joy,Yuzuriha,15266,854518728062939,1679729278802568,BOT: message,Great! Keep it up! :flexed_biceps_medium-light_skin_tone:,2018-08-25 19:48:50
+1679729278802568,Joy,Yuzuriha,15267,854518728062939,1679729278802568,BOT: quick reply,The correct answer is skin.,2018-08-25 19:48:52
+1679729278802568,Joy,Yuzuriha,15268,1679729278802568,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-25 19:49:00
+1679729278802568,Joy,Yuzuriha,15269,854518728062939,1679729278802568,BOT: message,Let's take a look at this question.,2018-08-25 19:49:01
+1679729278802568,Joy,Yuzuriha,15270,854518728062939,1679729278802568,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-25 19:49:03
+1679729278802568,Joy,Yuzuriha,15271,854518728062939,1679729278802568,BOT: quick reply,While she may have answered him truthfully - in the strictest sense of the word - it became clear to Sergei after the incident that Sheryl had actually been trying to _____ .,2018-08-25 19:49:04
+1679729278802568,Joy,Yuzuriha,15272,1679729278802568,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-25 19:49:11
+1679729278802568,Joy,Yuzuriha,15273,854518728062939,1679729278802568,BOT: message,Okay. I'll give you some choices.,2018-08-25 19:49:12
+1679729278802568,Joy,Yuzuriha,15274,854518728062939,1679729278802568,BOT: quick reply,":keycap_1: vituperate
+:keycap_2: obfuscate
+:keycap_3: desiccate
+:keycap_4: covet
+:keycap_5: illuminate
+",2018-08-25 19:49:14
+1679729278802568,Joy,Yuzuriha,15275,1679729278802568,854518728062939,user_quick_reply: BUTTON_AKB_obfuscate,:keycap_2:,2018-08-25 19:49:28
+1679729278802568,Joy,Yuzuriha,15276,854518728062939,1679729278802568,BOT: message,Yes! You got the correct answer!,2018-08-25 19:49:29
+1679729278802568,Joy,Yuzuriha,15277,854518728062939,1679729278802568,BOT: quick reply,The correct answer is obfuscate.,2018-08-25 19:49:31
+1679729278802568,Joy,Yuzuriha,15278,1679729278802568,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-25 19:49:41
+1679729278802568,Joy,Yuzuriha,15279,854518728062939,1679729278802568,BOT: message,How about this next one:,2018-08-25 19:49:43
+1679729278802568,Joy,Yuzuriha,15280,854518728062939,1679729278802568,BOT: quick reply,"Prior to taking on the new invader, the defending army had engaged in arduous combat; it is likely that the _____ resulting from waging two battles in two days played a part in its subsequent defeat.",2018-08-25 19:49:45
+1679729278802568,Joy,Yuzuriha,15289,854518728062939,1679729278802568,BOT: quick reply,"Hi Joy, you haven't talked to me for a while. Would you like to resume the learning with me?",2018-08-25 20:00:09

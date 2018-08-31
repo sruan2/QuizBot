@@ -19,15 +19,15 @@ class RandomSequencingModel(BaseSequencingModel):
 	                          'distractor' : }
 		'''	
 		if subject == 'random':
-			QID = randint(0, self.QA_KB.KBlength)
+			QID = randint(0, self.QA_KB.KBlength-1)
 		else:
 			# if subject is not random, then pick from the respective subject question bank
 			QID = choice(self.QA_KB.SubDict[subject])
 
 		data = {'question': self.QA_KB.QKB[QID],
-				'qid': QID,
+				'qid': [QID, self.QA_KB.QID[QID]],
 				'correct_answer': self.QA_KB.AKB[QID],
 				'support': self.QA_KB.SKB[QID],
 				'distractor': self.QA_KB.DKB[QID]}
-
+			
 		return data

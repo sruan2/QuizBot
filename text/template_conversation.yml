@@ -192,10 +192,10 @@ TEMPLATE:
     - "Here's why:"
 
   BUGREPORT:
-    - Okay, I’ll take a note of that. Thanks for the feedback! 👍🏼
-    - Alrighty, thank you for your feedback. I'll take a note of that!
-    - Thank you for your bug report. I'll take a look at that!
-    - Thanks for the feedback! I'll take a note of that!
+    - Thanks for helping me to improve. I’ll take a note of that. 👍🏼
+    - Alrighty, thank you for your feedback. I'll take a note of that! 👍🏼
+    - Thank you for your bug report. I'll take a look at that! 👍🏼
+    - Thanks for the feedback! I'll take a note of that! 👍🏼
 
   BUGTYPE:
     - You can type in the bug in a few words 😄 
@@ -212,7 +212,7 @@ TEMPLATE:
     - Alrighty, let's continue learning.
     - Good! Let's move on.
     - Great! Let's resume learning.
-    - Great! Let's resuming learning.
+    - Great! Let's resume learning.
     - Cool! Let's keep going.
 
   ANSWER_NOT_CORRECT:

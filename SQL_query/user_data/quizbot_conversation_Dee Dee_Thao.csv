@@ -1,0 +1,962 @@
+user_id,user_firstname,user_lastname,uid,sender,recipient,type,dialogue,time_stamp
+1913473808676037,Dee Dee,Thao,137,1913473808676037,854518728062939,persistent_menu: GET_INTRO_1,Get Started,2018-08-20 11:25:01
+1913473808676037,Dee Dee,Thao,138,854518728062939,1913473808676037,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/quizbot_avatar.png,2018-08-20 11:25:04
+1913473808676037,Dee Dee,Thao,139,854518728062939,1913473808676037,BOT: quick reply,"Hi Dee Dee! My name is Frosty :penguin: and Im here to help you learn all about science:microscope:, verbal reasoning (GRE) :input_latin_uppercase:, and safety:hammer_and_wrench:!",2018-08-20 11:25:06
+1913473808676037,Dee Dee,Thao,140,1913473808676037,854518728062939,user_quick_reply: GET_INTRO_2,Got it :collision:,2018-08-20 11:25:17
+1913473808676037,Dee Dee,Thao,141,854518728062939,1913473808676037,BOT: message,Heres how it works.,2018-08-20 11:25:18
+1913473808676037,Dee Dee,Thao,142,854518728062939,1913473808676037,BOT: message,"I ask you questions, and you give me answers.",2018-08-20 11:25:20
+1913473808676037,Dee Dee,Thao,143,854518728062939,1913473808676037,BOT: quick reply,We will learn fun things together!,2018-08-20 11:25:21
+1913473808676037,Dee Dee,Thao,144,1913473808676037,854518728062939,persistent_menu: SCIENCE,Science:microscope:,2018-08-20 11:25:29
+1913473808676037,Dee Dee,Thao,145,854518728062939,1913473808676037,BOT: quick reply,Awesome! Let's learn about science!,2018-08-20 11:25:31
+1913473808676037,Dee Dee,Thao,146,1913473808676037,854518728062939,user_quick_reply: NEXT_QUESTION,Continue :raising_hands_medium-light_skin_tone:,2018-08-20 11:25:37
+1913473808676037,Dee Dee,Thao,147,854518728062939,1913473808676037,BOT: message,Could you answer this one for me?,2018-08-20 11:25:38
+1913473808676037,Dee Dee,Thao,148,854518728062939,1913473808676037,BOT: quick reply,What are the little sacs at the end of the bronchioles called?,2018-08-20 11:25:40
+1913473808676037,Dee Dee,Thao,149,1913473808676037,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-20 11:25:45
+1913473808676037,Dee Dee,Thao,150,854518728062939,1913473808676037,BOT: message,Pick one of the following answers.,2018-08-20 11:25:47
+1913473808676037,Dee Dee,Thao,151,854518728062939,1913473808676037,BOT: quick reply,":keycap_1: respiratory sacs
+:keycap_2: alveoli
+:keycap_3: lung
+:keycap_4: ganglion
+",2018-08-20 11:25:48
+1913473808676037,Dee Dee,Thao,152,1913473808676037,854518728062939,user_quick_reply: BUTTON_AKB_alveoli,:keycap_2:,2018-08-20 11:26:01
+1913473808676037,Dee Dee,Thao,153,854518728062939,1913473808676037,BOT: message,Great job getting the correct answer!,2018-08-20 11:26:03
+1913473808676037,Dee Dee,Thao,154,854518728062939,1913473808676037,BOT: quick reply,The correct answer is alveoli.,2018-08-20 11:26:04
+1913473808676037,Dee Dee,Thao,155,1913473808676037,854518728062939,persistent_menu: GET_INTRO_1,Get Started,2018-08-20 11:26:22
+1913473808676037,Dee Dee,Thao,156,854518728062939,1913473808676037,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/quizbot_avatar.png,2018-08-20 11:26:26
+1913473808676037,Dee Dee,Thao,157,854518728062939,1913473808676037,BOT: quick reply,"Hi Dee Dee! My name is Frosty :penguin: and Im here to help you learn all about science:microscope:, verbal reasoning (GRE) :input_latin_uppercase:, and safety:hammer_and_wrench:!",2018-08-20 11:26:27
+1913473808676037,Dee Dee,Thao,314,854518728062939,1913473808676037,BOT: quick reply,"Hi Dee Dee, you haven't talked to me for a while. Would you like to resume the learning with me?",2018-08-20 20:00:13
+1913473808676037,Dee Dee,Thao,316,1913473808676037,854518728062939,user_quick_reply: NEXT_QUESTION,Alrighty :clapping_hands_medium-light_skin_tone:,2018-08-20 20:00:35
+1913473808676037,Dee Dee,Thao,317,854518728062939,1913473808676037,BOT: message,Let's try this one.,2018-08-20 20:00:36
+1913473808676037,Dee Dee,Thao,318,854518728062939,1913473808676037,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-20 20:00:38
+1913473808676037,Dee Dee,Thao,319,854518728062939,1913473808676037,BOT: quick reply,The sternocleidomastoid is the major muscle that laterally flexes and rotates what?,2018-08-20 20:00:39
+1913473808676037,Dee Dee,Thao,320,1913473808676037,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-20 20:01:13
+1913473808676037,Dee Dee,Thao,321,854518728062939,1913473808676037,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-08-20 20:01:14
+1913473808676037,Dee Dee,Thao,322,854518728062939,1913473808676037,BOT: quick reply,":keycap_1: eye
+:keycap_2: knee
+:keycap_3: tongue
+:keycap_4: head
+",2018-08-20 20:01:16
+1913473808676037,Dee Dee,Thao,323,1913473808676037,854518728062939,user_quick_reply: BUTTON_DKB_eye,:keycap_1:,2018-08-20 20:01:24
+1913473808676037,Dee Dee,Thao,324,854518728062939,1913473808676037,BOT: message,"Hmm, that wasn't quite right. :disappointed_face:",2018-08-20 20:01:25
+1913473808676037,Dee Dee,Thao,325,854518728062939,1913473808676037,BOT: quick reply,The correct answer is head.,2018-08-20 20:01:27
+1913473808676037,Dee Dee,Thao,326,1913473808676037,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-20 20:01:52
+1913473808676037,Dee Dee,Thao,327,854518728062939,1913473808676037,BOT: message,See if you can answer this next one.,2018-08-20 20:01:53
+1913473808676037,Dee Dee,Thao,328,854518728062939,1913473808676037,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-20 20:01:55
+1913473808676037,Dee Dee,Thao,329,854518728062939,1913473808676037,BOT: quick reply,"What arises due to crossing over, independent assortment, and the random union of gametes?",2018-08-20 20:01:56
+1913473808676037,Dee Dee,Thao,330,1913473808676037,854518728062939,user_quick_reply: I_DONT_KNOW,I dont know :downcast_face_with_sweat:,2018-08-20 20:02:09
+1913473808676037,Dee Dee,Thao,331,854518728062939,1913473808676037,BOT: quick reply,Are you sure you want to skip this question?,2018-08-20 20:02:11
+1913473808676037,Dee Dee,Thao,332,1913473808676037,854518728062939,user_quick_reply: GIVEUP_NO,"No, I'll try again!",2018-08-20 20:02:16
+1913473808676037,Dee Dee,Thao,333,854518728062939,1913473808676037,BOT: message,Okay! Let's try again :flexed_biceps_medium-light_skin_tone:,2018-08-20 20:02:18
+1913473808676037,Dee Dee,Thao,334,854518728062939,1913473808676037,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-08-20 20:02:19
+1913473808676037,Dee Dee,Thao,335,854518728062939,1913473808676037,BOT: quick reply,":keycap_1: genetic variation
+:keycap_2: recessive variation
+:keycap_3: susceptible variation
+:keycap_4: alternative variation
+",2018-08-20 20:02:21
+1913473808676037,Dee Dee,Thao,336,1913473808676037,854518728062939,user_quick_reply: BUTTON_AKB_genetic variation,:keycap_1:,2018-08-20 20:02:26
+1913473808676037,Dee Dee,Thao,337,854518728062939,1913473808676037,BOT: message,Yes! You got the correct answer!,2018-08-20 20:02:28
+1913473808676037,Dee Dee,Thao,338,854518728062939,1913473808676037,BOT: quick reply,The correct answer is genetic variation.,2018-08-20 20:02:29
+1913473808676037,Dee Dee,Thao,339,1913473808676037,854518728062939,user_quick_reply: SWITCH_SUBJECT,Change subject :shuffle_tracks_button:,2018-08-20 20:02:35
+1913473808676037,Dee Dee,Thao,340,854518728062939,1913473808676037,BOT: quick reply,"Sure, now tell me which subject you would like to choose.:backhand_index_pointing_down_medium-light_skin_tone:",2018-08-20 20:02:37
+1913473808676037,Dee Dee,Thao,341,1913473808676037,854518728062939,user_quick_reply: SAFETY,Safety:hammer_and_wrench:,2018-08-20 20:02:48
+1913473808676037,Dee Dee,Thao,342,854518728062939,1913473808676037,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/evolvescientist_safety.gif,2018-08-20 20:02:53
+1913473808676037,Dee Dee,Thao,343,854518728062939,1913473808676037,BOT: quick reply,Safety first! Here's some questions on safety!,2018-08-20 20:02:54
+1913473808676037,Dee Dee,Thao,344,1913473808676037,854518728062939,user_quick_reply: NEXT_QUESTION,Sure :thumbs_up_medium-light_skin_tone:,2018-08-20 20:03:00
+1913473808676037,Dee Dee,Thao,345,854518728062939,1913473808676037,BOT: message,Let's see if you would answer this one.,2018-08-20 20:03:02
+1913473808676037,Dee Dee,Thao,346,854518728062939,1913473808676037,BOT: quick reply,What is a symptom of a heatstroke?,2018-08-20 20:03:03
+1913473808676037,Dee Dee,Thao,347,1913473808676037,854518728062939,user_typing,Lightheadedness,2018-08-20 20:03:19
+1913473808676037,Dee Dee,Thao,348,854518728062939,1913473808676037,BOT: message,"Oops, that answer was incorrect. :disappointed_face:",2018-08-20 20:03:20
+1913473808676037,Dee Dee,Thao,349,854518728062939,1913473808676037,BOT: quick reply,"The correct answer is rapid strong pulse, hallucinations, throbbing headache, and high body temperature.",2018-08-20 20:03:22
+1913473808676037,Dee Dee,Thao,350,1913473808676037,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-20 20:03:38
+1913473808676037,Dee Dee,Thao,351,854518728062939,1913473808676037,BOT: message,Let's see if you can answer this question.,2018-08-20 20:03:40
+1913473808676037,Dee Dee,Thao,352,854518728062939,1913473808676037,BOT: quick reply,"True or false: if you wear a back belt, you can lift more weight than you could without a belt.",2018-08-20 20:03:41
+1913473808676037,Dee Dee,Thao,353,1913473808676037,854518728062939,user_typing,False,2018-08-20 20:03:50
+1913473808676037,Dee Dee,Thao,354,854518728062939,1913473808676037,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_normal.png,2018-08-20 20:03:52
+1913473808676037,Dee Dee,Thao,355,854518728062939,1913473808676037,BOT: message,Good job! :raising_hands_medium-light_skin_tone:,2018-08-20 20:03:54
+1913473808676037,Dee Dee,Thao,356,854518728062939,1913473808676037,BOT: quick reply,The correct answer is false.,2018-08-20 20:03:55
+1913473808676037,Dee Dee,Thao,357,1913473808676037,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-20 20:04:01
+1913473808676037,Dee Dee,Thao,358,854518728062939,1913473808676037,BOT: message,Would you answer this question for me?,2018-08-20 20:04:02
+1913473808676037,Dee Dee,Thao,359,854518728062939,1913473808676037,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-20 20:04:04
+1913473808676037,Dee Dee,Thao,360,854518728062939,1913473808676037,BOT: quick reply,True or false: all workplaces need to provide portable fire extinguishers.,2018-08-20 20:04:05
+1913473808676037,Dee Dee,Thao,361,1913473808676037,854518728062939,user_typing,True,2018-08-20 20:04:17
+1913473808676037,Dee Dee,Thao,362,854518728062939,1913473808676037,BOT: message,That's not quite right. :disappointed_face:,2018-08-20 20:04:19
+1913473808676037,Dee Dee,Thao,363,854518728062939,1913473808676037,BOT: quick reply,The correct answer is false.,2018-08-20 20:04:20
+1913473808676037,Dee Dee,Thao,364,1913473808676037,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-20 20:04:34
+1913473808676037,Dee Dee,Thao,365,854518728062939,1913473808676037,BOT: message,I think you'll like this question.,2018-08-20 20:04:36
+1913473808676037,Dee Dee,Thao,366,854518728062939,1913473808676037,BOT: quick reply,Where should you aim a fire extinguisher nozzle when putting out a fire?,2018-08-20 20:04:37
+1913473808676037,Dee Dee,Thao,367,1913473808676037,854518728062939,user_typing,The base,2018-08-20 20:04:52
+1913473808676037,Dee Dee,Thao,368,854518728062939,1913473808676037,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_happy_orange.png,2018-08-20 20:04:54
+1913473808676037,Dee Dee,Thao,369,854518728062939,1913473808676037,BOT: message,Good Answer! :white_heavy_check_mark:,2018-08-20 20:04:55
+1913473808676037,Dee Dee,Thao,370,854518728062939,1913473808676037,BOT: quick reply,The correct answer is at the base of the fire.,2018-08-20 20:04:57
+1913473808676037,Dee Dee,Thao,371,1913473808676037,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-20 20:05:06
+1913473808676037,Dee Dee,Thao,373,854518728062939,1913473808676037,BOT: message,Here's a question for you:,2018-08-20 20:05:07
+1913473808676037,Dee Dee,Thao,375,854518728062939,1913473808676037,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-20 20:05:09
+1913473808676037,Dee Dee,Thao,377,854518728062939,1913473808676037,BOT: quick reply,What is a symptom of a heatstroke?,2018-08-20 20:05:10
+1913473808676037,Dee Dee,Thao,378,1913473808676037,854518728062939,user_typing,Hallucinations,2018-08-20 20:05:29
+1913473808676037,Dee Dee,Thao,379,854518728062939,1913473808676037,BOT: message,That's not quite right. :disappointed_face:,2018-08-20 20:05:30
+1913473808676037,Dee Dee,Thao,380,854518728062939,1913473808676037,BOT: quick reply,"The correct answer is rapid strong pulse, hallucinations, throbbing headache, and high body temperature.",2018-08-20 20:05:32
+1913473808676037,Dee Dee,Thao,381,1913473808676037,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-20 20:05:37
+1913473808676037,Dee Dee,Thao,382,854518728062939,1913473808676037,BOT: message,Would you answer this question for me?,2018-08-20 20:05:38
+1913473808676037,Dee Dee,Thao,383,854518728062939,1913473808676037,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-20 20:05:40
+1913473808676037,Dee Dee,Thao,384,854518728062939,1913473808676037,BOT: quick reply,"When you discover a fire, you should do what?",2018-08-20 20:05:41
+1913473808676037,Dee Dee,Thao,385,1913473808676037,854518728062939,user_typing,Call 911,2018-08-20 20:05:53
+1913473808676037,Dee Dee,Thao,386,854518728062939,1913473808676037,BOT: message,That's not quite right. :disappointed_face:,2018-08-20 20:05:55
+1913473808676037,Dee Dee,Thao,387,854518728062939,1913473808676037,BOT: quick reply,The correct answer is pulling the fire alarm and call the fire department.,2018-08-20 20:05:56
+1913473808676037,Dee Dee,Thao,388,1913473808676037,854518728062939,user_quick_reply: SWITCH_SUBJECT,Change subject :shuffle_tracks_button:,2018-08-20 20:06:04
+1913473808676037,Dee Dee,Thao,389,854518728062939,1913473808676037,BOT: quick reply,"Cool, which subject would you like to study?:backhand_index_pointing_down_medium-light_skin_tone:",2018-08-20 20:06:05
+1913473808676037,Dee Dee,Thao,390,1913473808676037,854518728062939,user_quick_reply: GRE,GRE :input_latin_uppercase:,2018-08-20 20:06:11
+1913473808676037,Dee Dee,Thao,391,854518728062939,1913473808676037,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/evolvesafety_reading.gif,2018-08-20 20:06:16
+1913473808676037,Dee Dee,Thao,392,854518728062939,1913473808676037,BOT: quick reply,Awesome! Let's learn about the GRE!,2018-08-20 20:06:17
+1913473808676037,Dee Dee,Thao,393,1913473808676037,854518728062939,user_quick_reply: NEXT_QUESTION,Alright :thumbs_up_medium-light_skin_tone:,2018-08-20 20:06:22
+1913473808676037,Dee Dee,Thao,394,854518728062939,1913473808676037,BOT: message,Let's see if you can answer this question.,2018-08-20 20:06:24
+1913473808676037,Dee Dee,Thao,395,854518728062939,1913473808676037,BOT: quick reply,Many Major League Baseball relief pitchers choose an electrifying theme song to play as they take the mound; the song _____ their fans and instills fear in their opponents.,2018-08-20 20:06:25
+1913473808676037,Dee Dee,Thao,396,1913473808676037,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-20 20:06:37
+1913473808676037,Dee Dee,Thao,397,854518728062939,1913473808676037,BOT: message,Pick one of the following answers.,2018-08-20 20:06:39
+1913473808676037,Dee Dee,Thao,398,854518728062939,1913473808676037,BOT: quick reply,":keycap_1: innervates
+:keycap_2: eviscerates
+:keycap_3: pervades
+:keycap_4: assuages
+:keycap_5: enervates
+",2018-08-20 20:06:40
+1913473808676037,Dee Dee,Thao,399,1913473808676037,854518728062939,user_typing,Innervates,2018-08-20 20:07:00
+1913473808676037,Dee Dee,Thao,400,854518728062939,1913473808676037,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_normal_pink.png,2018-08-20 20:07:02
+1913473808676037,Dee Dee,Thao,401,854518728062939,1913473808676037,BOT: message,Correct! :confetti_ball:,2018-08-20 20:07:04
+1913473808676037,Dee Dee,Thao,402,854518728062939,1913473808676037,BOT: quick reply,The correct answer is innervates.,2018-08-20 20:07:05
+1913473808676037,Dee Dee,Thao,403,1913473808676037,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-20 20:07:11
+1913473808676037,Dee Dee,Thao,404,854518728062939,1913473808676037,BOT: message,See if you can answer this next one.,2018-08-20 20:07:12
+1913473808676037,Dee Dee,Thao,405,854518728062939,1913473808676037,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-20 20:07:14
+1913473808676037,Dee Dee,Thao,406,854518728062939,1913473808676037,BOT: quick reply,"Having squandered his life's savings on unprofitable business ventures, the _____ entrepreneur was forced to live in squalor.",2018-08-20 20:07:15
+1913473808676037,Dee Dee,Thao,407,1913473808676037,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-20 20:07:23
+1913473808676037,Dee Dee,Thao,408,854518728062939,1913473808676037,BOT: message,Which of the following options is the right answer?,2018-08-20 20:07:24
+1913473808676037,Dee Dee,Thao,409,854518728062939,1913473808676037,BOT: quick reply,":keycap_1: eccentric
+:keycap_2: unlikely
+:keycap_3: perturbed
+:keycap_4: former
+:keycap_5: insolvent
+",2018-08-20 20:07:26
+1913473808676037,Dee Dee,Thao,410,1913473808676037,854518728062939,user_quick_reply: BUTTON_AKB_insolvent,:keycap_5:,2018-08-20 20:07:33
+1913473808676037,Dee Dee,Thao,411,854518728062939,1913473808676037,BOT: message,Yes! You got the correct answer!,2018-08-20 20:07:34
+1913473808676037,Dee Dee,Thao,412,854518728062939,1913473808676037,BOT: quick reply,The correct answer is insolvent.,2018-08-20 20:07:35
+1913473808676037,Dee Dee,Thao,413,1913473808676037,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-20 20:07:41
+1913473808676037,Dee Dee,Thao,414,854518728062939,1913473808676037,BOT: message,Let's try this question.,2018-08-20 20:07:42
+1913473808676037,Dee Dee,Thao,415,854518728062939,1913473808676037,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-20 20:07:44
+1913473808676037,Dee Dee,Thao,416,854518728062939,1913473808676037,BOT: quick reply,The defense attorney's _____ closing statement was not enough to sway the jurors in his client's favor; stirring words could not conceal the defendant's evident guilt.,2018-08-20 20:07:45
+1913473808676037,Dee Dee,Thao,417,1913473808676037,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-20 20:07:52
+1913473808676037,Dee Dee,Thao,418,854518728062939,1913473808676037,BOT: message,Which of the following options is the right answer?,2018-08-20 20:07:54
+1913473808676037,Dee Dee,Thao,419,854518728062939,1913473808676037,BOT: quick reply,":keycap_1: deceptive
+:keycap_2: crafty
+:keycap_3: eloquent
+:keycap_4: lengthy
+:keycap_5: impromptu
+",2018-08-20 20:07:55
+1913473808676037,Dee Dee,Thao,420,1913473808676037,854518728062939,user_quick_reply: BUTTON_AKB_eloquent,:keycap_3:,2018-08-20 20:08:02
+1913473808676037,Dee Dee,Thao,421,854518728062939,1913473808676037,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_normal_purple.png,2018-08-20 20:08:04
+1913473808676037,Dee Dee,Thao,422,854518728062939,1913473808676037,BOT: message,Great job getting the correct answer!,2018-08-20 20:08:06
+1913473808676037,Dee Dee,Thao,423,854518728062939,1913473808676037,BOT: quick reply,The correct answer is eloquent.,2018-08-20 20:08:07
+1913473808676037,Dee Dee,Thao,424,1913473808676037,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-20 20:08:22
+1913473808676037,Dee Dee,Thao,425,854518728062939,1913473808676037,BOT: message,Let's see if you would answer this one.,2018-08-20 20:08:23
+1913473808676037,Dee Dee,Thao,426,854518728062939,1913473808676037,BOT: quick reply,"Science and religion each have core tenets that are considered _____ ; however, because some scientific tenets are in conflict with some religious ones, these tenets cannot all be correct.",2018-08-20 20:08:25
+1913473808676037,Dee Dee,Thao,427,1913473808676037,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-20 20:08:55
+1913473808676037,Dee Dee,Thao,428,854518728062939,1913473808676037,BOT: message,Which of the following options is the right answer?,2018-08-20 20:08:57
+1913473808676037,Dee Dee,Thao,429,854518728062939,1913473808676037,BOT: quick reply,":keycap_1: empirical
+:keycap_2: axiomatic
+:keycap_3: historic
+:keycap_4: disputable
+:keycap_5: ubiquitous
+",2018-08-20 20:08:58
+1913473808676037,Dee Dee,Thao,430,1913473808676037,854518728062939,user_quick_reply: BUTTON_AKB_axiomatic,:keycap_2:,2018-08-20 20:09:20
+1913473808676037,Dee Dee,Thao,431,854518728062939,1913473808676037,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_normal_pink.png,2018-08-20 20:09:23
+1913473808676037,Dee Dee,Thao,432,854518728062939,1913473808676037,BOT: message,Great job getting the correct answer!,2018-08-20 20:09:24
+1913473808676037,Dee Dee,Thao,433,854518728062939,1913473808676037,BOT: quick reply,The correct answer is axiomatic.,2018-08-20 20:09:26
+1913473808676037,Dee Dee,Thao,434,1913473808676037,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-20 20:09:30
+1913473808676037,Dee Dee,Thao,435,854518728062939,1913473808676037,BOT: message,Let's see if you would answer this one.,2018-08-20 20:09:32
+1913473808676037,Dee Dee,Thao,436,854518728062939,1913473808676037,BOT: quick reply,"With a similar contrast between a partly cloudy sky and a dark street, the cover of the recent rock CD _____ a famous surrealist painting from the early 1900s.",2018-08-20 20:09:33
+1913473808676037,Dee Dee,Thao,437,1913473808676037,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-20 20:09:37
+1913473808676037,Dee Dee,Thao,438,854518728062939,1913473808676037,BOT: message,Pick one of the following answers.,2018-08-20 20:09:39
+1913473808676037,Dee Dee,Thao,439,854518728062939,1913473808676037,BOT: quick reply,":keycap_1: obfuscates
+:keycap_2: admires
+:keycap_3: sanctions
+:keycap_4: evokes
+:keycap_5: disenchants
+",2018-08-20 20:09:40
+1913473808676037,Dee Dee,Thao,440,1913473808676037,854518728062939,user_quick_reply: BUTTON_AKB_evokes,:keycap_4:,2018-08-20 20:09:48
+1913473808676037,Dee Dee,Thao,441,854518728062939,1913473808676037,BOT: message,Nice! That was right!,2018-08-20 20:09:50
+1913473808676037,Dee Dee,Thao,442,854518728062939,1913473808676037,BOT: quick reply,The correct answer is evokes.,2018-08-20 20:09:51
+1913473808676037,Dee Dee,Thao,443,1913473808676037,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-20 20:10:00
+1913473808676037,Dee Dee,Thao,444,854518728062939,1913473808676037,BOT: message,How about this next one:,2018-08-20 20:10:02
+1913473808676037,Dee Dee,Thao,445,854518728062939,1913473808676037,BOT: quick reply,"Having squandered his life's savings on unprofitable business ventures, the _____ entrepreneur was forced to live in squalor.",2018-08-20 20:10:03
+1913473808676037,Dee Dee,Thao,446,1913473808676037,854518728062939,user_typing,Insolvent,2018-08-20 20:10:15
+1913473808676037,Dee Dee,Thao,447,854518728062939,1913473808676037,BOT: message,Good job! :raising_hands_medium-light_skin_tone:,2018-08-20 20:10:16
+1913473808676037,Dee Dee,Thao,448,854518728062939,1913473808676037,BOT: quick reply,The correct answer is insolvent.,2018-08-20 20:10:18
+1913473808676037,Dee Dee,Thao,449,1913473808676037,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-20 20:10:26
+1913473808676037,Dee Dee,Thao,450,854518728062939,1913473808676037,BOT: message,I think you'll like this question.,2018-08-20 20:10:27
+1913473808676037,Dee Dee,Thao,451,854518728062939,1913473808676037,BOT: quick reply,"Ancient generals, lacking modern technologies such as radio and satellite communication, often found that one of the most significant challenges in warfare was accurate _____ of the myriad of changes on the battlefield or in the campaign.",2018-08-20 20:10:29
+1913473808676037,Dee Dee,Thao,452,1913473808676037,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-20 20:10:34
+1913473808676037,Dee Dee,Thao,453,854518728062939,1913473808676037,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-08-20 20:10:36
+1913473808676037,Dee Dee,Thao,454,854518728062939,1913473808676037,BOT: quick reply,":keycap_1: adulteration
+:keycap_2: appraisal
+:keycap_3: fortification
+:keycap_4: accretion
+:keycap_5: adumbration
+",2018-08-20 20:10:37
+1913473808676037,Dee Dee,Thao,455,1913473808676037,854518728062939,user_quick_reply: BUTTON_AKB_appraisal,:keycap_2:,2018-08-20 20:10:44
+1913473808676037,Dee Dee,Thao,456,854518728062939,1913473808676037,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_normal_pink.png,2018-08-20 20:10:47
+1913473808676037,Dee Dee,Thao,457,854518728062939,1913473808676037,BOT: message,Great! Keep it up! :flexed_biceps_medium-light_skin_tone:,2018-08-20 20:10:49
+1913473808676037,Dee Dee,Thao,458,854518728062939,1913473808676037,BOT: quick reply,The correct answer is appraisal.,2018-08-20 20:10:50
+1913473808676037,Dee Dee,Thao,459,1913473808676037,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-20 20:11:00
+1913473808676037,Dee Dee,Thao,460,854518728062939,1913473808676037,BOT: message,Let's see if you can answer this question.,2018-08-20 20:11:01
+1913473808676037,Dee Dee,Thao,461,854518728062939,1913473808676037,BOT: quick reply,"Students may consider modernist works such as James Joyce's Finnegan's Wake to be more _____ than Victorian prose: Victorian narratives are linear and predictable, while Joyce's tortuous plots are fragmented and fickle, and they confound the reader.",2018-08-20 20:11:03
+1913473808676037,Dee Dee,Thao,462,1913473808676037,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-20 20:11:08
+1913473808676037,Dee Dee,Thao,463,854518728062939,1913473808676037,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-08-20 20:11:09
+1913473808676037,Dee Dee,Thao,464,854518728062939,1913473808676037,BOT: quick reply,":keycap_1: recondite
+:keycap_2: panegyric
+:keycap_3: banal
+:keycap_4: elegiac
+:keycap_5: mundane
+",2018-08-20 20:11:11
+1913473808676037,Dee Dee,Thao,465,1913473808676037,854518728062939,user_quick_reply: BUTTON_DKB_panegyric,:keycap_2:,2018-08-20 20:11:36
+1913473808676037,Dee Dee,Thao,466,854518728062939,1913473808676037,BOT: message,"Oops, that is not correct. :disappointed_face:",2018-08-20 20:11:37
+1913473808676037,Dee Dee,Thao,467,854518728062939,1913473808676037,BOT: quick reply,The correct answer is recondite.,2018-08-20 20:11:39
+1913473808676037,Dee Dee,Thao,982,854518728062939,1913473808676037,BOT: quick reply,"Hi Dee Dee, you haven't talked to me for a while. Would you like to resume the learning with me?",2018-08-21 20:00:17
+1913473808676037,Dee Dee,Thao,1535,1913473808676037,854518728062939,user_quick_reply: NEXT_QUESTION,Next :white_heavy_check_mark:,2018-08-21 22:18:53
+1913473808676037,Dee Dee,Thao,1536,854518728062939,1913473808676037,BOT: message,Could you answer this one for me?,2018-08-21 22:18:54
+1913473808676037,Dee Dee,Thao,1537,854518728062939,1913473808676037,BOT: quick reply,What is the diffusion of water through a semipermeable membrane down its concentration gradient?,2018-08-21 22:18:55
+1913473808676037,Dee Dee,Thao,1538,1913473808676037,854518728062939,user_typing,Yes,2018-08-21 22:18:56
+1913473808676037,Dee Dee,Thao,1539,854518728062939,1913473808676037,BOT: message,That's not quite right. :disappointed_face:,2018-08-21 22:18:57
+1913473808676037,Dee Dee,Thao,1541,854518728062939,1913473808676037,BOT: quick reply,The correct answer is osmosis.,2018-08-21 22:18:59
+1913473808676037,Dee Dee,Thao,1707,1913473808676037,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-21 22:35:18
+1913473808676037,Dee Dee,Thao,1708,854518728062939,1913473808676037,BOT: message,Let's see if you can get this one.,2018-08-21 22:35:20
+1913473808676037,Dee Dee,Thao,1709,854518728062939,1913473808676037,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-21 22:35:21
+1913473808676037,Dee Dee,Thao,1710,854518728062939,1913473808676037,BOT: quick reply,What is the diffusion of water through a semipermeable membrane down its concentration gradient?,2018-08-21 22:35:22
+1913473808676037,Dee Dee,Thao,1744,1913473808676037,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-21 22:38:07
+1913473808676037,Dee Dee,Thao,1747,1913473808676037,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-21 22:38:11
+1913473808676037,Dee Dee,Thao,1755,1913473808676037,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-21 22:38:26
+1913473808676037,Dee Dee,Thao,1758,1913473808676037,854518728062939,persistent_menu: GRE,GRE :input_latin_uppercase:,2018-08-21 22:38:29
+1913473808676037,Dee Dee,Thao,1759,854518728062939,1913473808676037,BOT: quick reply,Cool! Here's some questions on the GRE!,2018-08-21 22:38:30
+1913473808676037,Dee Dee,Thao,1761,1913473808676037,854518728062939,persistent_menu: GRE,GRE :input_latin_uppercase:,2018-08-21 22:38:46
+1913473808676037,Dee Dee,Thao,1763,854518728062939,1913473808676037,BOT: quick reply,Let's test your knowledge on the GRE!,2018-08-21 22:38:48
+1913473808676037,Dee Dee,Thao,1826,1913473808676037,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-21 22:42:20
+1913473808676037,Dee Dee,Thao,1827,854518728062939,1913473808676037,BOT: message,Which of the following options is the right answer?,2018-08-21 22:42:22
+1913473808676037,Dee Dee,Thao,1829,854518728062939,1913473808676037,BOT: quick reply,":keycap_1: mirrors
+:keycap_2: permable
+:keycap_3: nutrients
+:keycap_4: osmosis
+",2018-08-21 22:42:23
+1913473808676037,Dee Dee,Thao,1830,1913473808676037,854518728062939,user_quick_reply: NEXT_QUESTION,"Yes, continue :flexed_biceps_medium-light_skin_tone:",2018-08-21 22:42:24
+1913473808676037,Dee Dee,Thao,1833,854518728062939,1913473808676037,BOT: message,I think you'll like this question.,2018-08-21 22:42:25
+1913473808676037,Dee Dee,Thao,1836,854518728062939,1913473808676037,BOT: quick reply,While she may have answered him truthfully - in the strictest sense of the word - it became clear to Sergei after the incident that Sheryl had actually been trying to _____ .,2018-08-21 22:42:27
+1913473808676037,Dee Dee,Thao,1838,854518728062939,1913473808676037,BOT: message,Here's a question for you:,2018-08-21 22:42:29
+1913473808676037,Dee Dee,Thao,1839,854518728062939,1913473808676037,BOT: quick reply,The Erie Canal's completion caused _____ economic ripples; property values and industrial output along its route rose exponentially.,2018-08-21 22:42:31
+1913473808676037,Dee Dee,Thao,5078,854518728062939,1913473808676037,BOT: quick reply,"Hi Dee Dee, you haven't talked to me for a while. Would you like to resume the learning with me?",2018-08-22 20:00:20
+1913473808676037,Dee Dee,Thao,8062,854518728062939,1913473808676037,BOT: quick reply,"Hi Dee Dee, you haven't talked to me for a while. Would you like to resume the learning with me?",2018-08-23 20:00:24
+1913473808676037,Dee Dee,Thao,8811,1913473808676037,854518728062939,user_quick_reply: NEXT_QUESTION,OK :round_pushpin:,2018-08-23 21:04:24
+1913473808676037,Dee Dee,Thao,8812,854518728062939,1913473808676037,BOT: message,What about this next question:,2018-08-23 21:04:26
+1913473808676037,Dee Dee,Thao,8813,854518728062939,1913473808676037,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-23 21:04:27
+1913473808676037,Dee Dee,Thao,8814,854518728062939,1913473808676037,BOT: quick reply,"Modern tennis fans have come to realize that, although, quantum technological leaps in racquet technology have lead to _____ increases in the speed and power with which players can hit the ball, this has not necessarily lead to a more entertaining game.",2018-08-23 21:04:29
+1913473808676037,Dee Dee,Thao,8815,1913473808676037,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 21:04:39
+1913473808676037,Dee Dee,Thao,8816,854518728062939,1913473808676037,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-08-23 21:04:40
+1913473808676037,Dee Dee,Thao,8817,854518728062939,1913473808676037,BOT: quick reply,":keycap_1: commensurate
+:keycap_2: tractable
+:keycap_3: malleable
+:keycap_4: innocuous
+:keycap_5: halcyon
+",2018-08-23 21:04:42
+1913473808676037,Dee Dee,Thao,8818,1913473808676037,854518728062939,user_typing,01,2018-08-23 21:04:56
+1913473808676037,Dee Dee,Thao,8819,854518728062939,1913473808676037,BOT: message,"Oops, that answer was incorrect. :disappointed_face:",2018-08-23 21:04:57
+1913473808676037,Dee Dee,Thao,8820,854518728062939,1913473808676037,BOT: quick reply,The correct answer is commensurate.,2018-08-23 21:04:59
+1913473808676037,Dee Dee,Thao,8821,1913473808676037,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-23 21:05:22
+1913473808676037,Dee Dee,Thao,8822,854518728062939,1913473808676037,BOT: message,Let's see if you can get this one.,2018-08-23 21:05:23
+1913473808676037,Dee Dee,Thao,8823,854518728062939,1913473808676037,BOT: quick reply,"Prior to taking on the new invader, the defending army had engaged in arduous combat; it is likely that the _____ resulting from waging two battles in two days played a part in its subsequent defeat.",2018-08-23 21:05:25
+1913473808676037,Dee Dee,Thao,8824,1913473808676037,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 21:05:35
+1913473808676037,Dee Dee,Thao,8825,854518728062939,1913473808676037,BOT: message,It's one of the following choices.,2018-08-23 21:05:36
+1913473808676037,Dee Dee,Thao,8826,854518728062939,1913473808676037,BOT: quick reply,":keycap_1: pugnacity
+:keycap_2: bellicosity
+:keycap_3: enervation
+:keycap_4: pacification
+:keycap_5: aggravation
+",2018-08-23 21:05:38
+1913473808676037,Dee Dee,Thao,8827,1913473808676037,854518728062939,user_quick_reply: BUTTON_DKB_aggravation,:keycap_5:,2018-08-23 21:05:54
+1913473808676037,Dee Dee,Thao,8828,854518728062939,1913473808676037,BOT: message,"Oops, that is not correct. :disappointed_face:",2018-08-23 21:05:56
+1913473808676037,Dee Dee,Thao,8829,854518728062939,1913473808676037,BOT: quick reply,The correct answer is enervation.,2018-08-23 21:05:57
+1913473808676037,Dee Dee,Thao,8830,1913473808676037,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-23 21:06:03
+1913473808676037,Dee Dee,Thao,8831,854518728062939,1913473808676037,BOT: message,Would you answer this question for me?,2018-08-23 21:06:05
+1913473808676037,Dee Dee,Thao,8832,854518728062939,1913473808676037,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-23 21:06:06
+1913473808676037,Dee Dee,Thao,8833,854518728062939,1913473808676037,BOT: quick reply,Many Major League Baseball relief pitchers choose an electrifying theme song to play as they take the mound; the song _____ their fans and instills fear in their opponents.,2018-08-23 21:06:07
+1913473808676037,Dee Dee,Thao,8834,1913473808676037,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 21:06:21
+1913473808676037,Dee Dee,Thao,8835,854518728062939,1913473808676037,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-08-23 21:06:23
+1913473808676037,Dee Dee,Thao,8836,854518728062939,1913473808676037,BOT: quick reply,":keycap_1: innervates
+:keycap_2: pervades
+:keycap_3: assuages
+:keycap_4: enervates
+:keycap_5: eviscerates
+",2018-08-23 21:06:24
+1913473808676037,Dee Dee,Thao,8839,1913473808676037,854518728062939,user_quick_reply: BUTTON_DKB_eviscerates,:keycap_5:,2018-08-23 21:06:33
+1913473808676037,Dee Dee,Thao,8841,854518728062939,1913473808676037,BOT: message,That's not quite right. :disappointed_face:,2018-08-23 21:06:34
+1913473808676037,Dee Dee,Thao,8842,854518728062939,1913473808676037,BOT: quick reply,The correct answer is innervates.,2018-08-23 21:06:36
+1913473808676037,Dee Dee,Thao,8849,1913473808676037,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-23 21:06:52
+1913473808676037,Dee Dee,Thao,8851,854518728062939,1913473808676037,BOT: message,Let's take a look at this question.,2018-08-23 21:06:54
+1913473808676037,Dee Dee,Thao,8853,854518728062939,1913473808676037,BOT: quick reply,The Erie Canal's completion caused _____ economic ripples; property values and industrial output along its route rose exponentially.,2018-08-23 21:06:55
+1913473808676037,Dee Dee,Thao,8856,1913473808676037,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 21:07:05
+1913473808676037,Dee Dee,Thao,8858,854518728062939,1913473808676037,BOT: message,It's one of the following choices.,2018-08-23 21:07:07
+1913473808676037,Dee Dee,Thao,8859,854518728062939,1913473808676037,BOT: quick reply,":keycap_1: prodigious
+:keycap_2: severe
+:keycap_3: incredulous
+:keycap_4: invaluable
+:keycap_5: persistent
+",2018-08-23 21:07:08
+1913473808676037,Dee Dee,Thao,8860,1913473808676037,854518728062939,user_quick_reply: BUTTON_DKB_invaluable,:keycap_4:,2018-08-23 21:07:14
+1913473808676037,Dee Dee,Thao,8861,854518728062939,1913473808676037,BOT: message,"Oops, that is not correct. :disappointed_face:",2018-08-23 21:07:16
+1913473808676037,Dee Dee,Thao,8862,854518728062939,1913473808676037,BOT: quick reply,The correct answer is prodigious.,2018-08-23 21:07:17
+1913473808676037,Dee Dee,Thao,8869,1913473808676037,854518728062939,user_quick_reply: SWITCH_SUBJECT,Change subject :shuffle_tracks_button:,2018-08-23 21:07:55
+1913473808676037,Dee Dee,Thao,8870,854518728062939,1913473808676037,BOT: quick reply,"Sure, which subject would you like me to quiz you on?:backhand_index_pointing_down_medium-light_skin_tone:",2018-08-23 21:07:56
+1913473808676037,Dee Dee,Thao,8871,1913473808676037,854518728062939,user_quick_reply: SCIENCE,Science:microscope:,2018-08-23 21:08:03
+1913473808676037,Dee Dee,Thao,8874,854518728062939,1913473808676037,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/evolvereading_scientist.gif,2018-08-23 21:08:09
+1913473808676037,Dee Dee,Thao,8876,854518728062939,1913473808676037,BOT: quick reply,Awesome! Let's learn about science!,2018-08-23 21:08:10
+1913473808676037,Dee Dee,Thao,8879,1913473808676037,854518728062939,user_quick_reply: NEXT_QUESTION,"Yes, continue :clapping_hands_medium-light_skin_tone:",2018-08-23 21:08:15
+1913473808676037,Dee Dee,Thao,8881,854518728062939,1913473808676037,BOT: message,Could you answer this one for me?,2018-08-23 21:08:17
+1913473808676037,Dee Dee,Thao,8882,854518728062939,1913473808676037,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-23 21:08:18
+1913473808676037,Dee Dee,Thao,8883,854518728062939,1913473808676037,BOT: quick reply,What disease characterized by the extreme swelling of the limbs is caused by infection with a type of roundworm?,2018-08-23 21:08:20
+1913473808676037,Dee Dee,Thao,8886,1913473808676037,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 21:08:24
+1913473808676037,Dee Dee,Thao,8888,854518728062939,1913473808676037,BOT: message,Which of the following options is the right answer?,2018-08-23 21:08:26
+1913473808676037,Dee Dee,Thao,8890,854518728062939,1913473808676037,BOT: quick reply,":keycap_1: fibrosis
+:keycap_2: elephantiasis
+:keycap_3: gigantism
+:keycap_4: pulmonary edema
+",2018-08-23 21:08:27
+1913473808676037,Dee Dee,Thao,8892,1913473808676037,854518728062939,user_quick_reply: BUTTON_DKB_fibrosis,:keycap_1:,2018-08-23 21:08:34
+1913473808676037,Dee Dee,Thao,8894,854518728062939,1913473808676037,BOT: message,"Hmm, that wasn't quite right. :disappointed_face:",2018-08-23 21:08:35
+1913473808676037,Dee Dee,Thao,8896,854518728062939,1913473808676037,BOT: quick reply,The correct answer is elephantiasis.,2018-08-23 21:08:37
+1913473808676037,Dee Dee,Thao,8898,1913473808676037,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-23 21:08:42
+1913473808676037,Dee Dee,Thao,8901,854518728062939,1913473808676037,BOT: message,Let's try this question.,2018-08-23 21:08:44
+1913473808676037,Dee Dee,Thao,8902,854518728062939,1913473808676037,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-23 21:08:45
+1913473808676037,Dee Dee,Thao,8903,854518728062939,1913473808676037,BOT: quick reply,What are the little sacs at the end of the bronchioles called?,2018-08-23 21:08:47
+1913473808676037,Dee Dee,Thao,8904,1913473808676037,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 21:08:53
+1913473808676037,Dee Dee,Thao,8905,854518728062939,1913473808676037,BOT: message,It's one of the following choices.,2018-08-23 21:08:54
+1913473808676037,Dee Dee,Thao,8906,854518728062939,1913473808676037,BOT: quick reply,":keycap_1: ganglion
+:keycap_2: alveoli
+:keycap_3: lung
+:keycap_4: respiratory sacs
+",2018-08-23 21:08:56
+1913473808676037,Dee Dee,Thao,8908,1913473808676037,854518728062939,user_quick_reply: BUTTON_AKB_alveoli,:keycap_2:,2018-08-23 21:09:02
+1913473808676037,Dee Dee,Thao,8911,854518728062939,1913473808676037,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_normal_purple.png,2018-08-23 21:09:05
+1913473808676037,Dee Dee,Thao,8913,854518728062939,1913473808676037,BOT: message,Great job!,2018-08-23 21:09:07
+1913473808676037,Dee Dee,Thao,8914,854518728062939,1913473808676037,BOT: quick reply,The correct answer is alveoli.,2018-08-23 21:09:08
+1913473808676037,Dee Dee,Thao,8918,1913473808676037,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-23 21:09:18
+1913473808676037,Dee Dee,Thao,8920,854518728062939,1913473808676037,BOT: message,Let's see if you can answer this question.,2018-08-23 21:09:19
+1913473808676037,Dee Dee,Thao,8922,854518728062939,1913473808676037,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-23 21:09:20
+1913473808676037,Dee Dee,Thao,8924,854518728062939,1913473808676037,BOT: quick reply,What is the diffusion of water through a semipermeable membrane down its concentration gradient?,2018-08-23 21:09:22
+1913473808676037,Dee Dee,Thao,8929,1913473808676037,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 21:09:31
+1913473808676037,Dee Dee,Thao,8930,854518728062939,1913473808676037,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-08-23 21:09:32
+1913473808676037,Dee Dee,Thao,8931,854518728062939,1913473808676037,BOT: quick reply,":keycap_1: permable
+:keycap_2: nutrients
+:keycap_3: osmosis
+:keycap_4: mirrors
+",2018-08-23 21:09:34
+1913473808676037,Dee Dee,Thao,8933,1913473808676037,854518728062939,user_quick_reply: BUTTON_AKB_osmosis,:keycap_3:,2018-08-23 21:09:39
+1913473808676037,Dee Dee,Thao,8935,854518728062939,1913473808676037,BOT: message,Yes! You got the correct answer!,2018-08-23 21:09:41
+1913473808676037,Dee Dee,Thao,8937,854518728062939,1913473808676037,BOT: quick reply,The correct answer is osmosis.,2018-08-23 21:09:42
+1913473808676037,Dee Dee,Thao,8942,1913473808676037,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-23 21:09:49
+1913473808676037,Dee Dee,Thao,8943,854518728062939,1913473808676037,BOT: message,Let's see if you would answer this one.,2018-08-23 21:09:51
+1913473808676037,Dee Dee,Thao,8944,854518728062939,1913473808676037,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-23 21:09:52
+1913473808676037,Dee Dee,Thao,8945,854518728062939,1913473808676037,BOT: quick reply,What kind of viscosity is found in long-chain hydrocarbons?,2018-08-23 21:09:54
+1913473808676037,Dee Dee,Thao,8946,1913473808676037,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 21:09:59
+1913473808676037,Dee Dee,Thao,8947,854518728062939,1913473808676037,BOT: message,It's one of the following choices.,2018-08-23 21:10:00
+1913473808676037,Dee Dee,Thao,8948,854518728062939,1913473808676037,BOT: quick reply,":keycap_1: increased viscosity
+:keycap_2: intense viscosity
+:keycap_3: low viscosity
+:keycap_4: high viscousity
+",2018-08-23 21:10:02
+1913473808676037,Dee Dee,Thao,8953,1913473808676037,854518728062939,user_quick_reply: BUTTON_AKB_high viscousity,:keycap_4:,2018-08-23 21:10:12
+1913473808676037,Dee Dee,Thao,8955,854518728062939,1913473808676037,BOT: message,Great! Keep it up! :flexed_biceps_medium-light_skin_tone:,2018-08-23 21:10:13
+1913473808676037,Dee Dee,Thao,8957,854518728062939,1913473808676037,BOT: quick reply,The correct answer is high viscousity.,2018-08-23 21:10:15
+1913473808676037,Dee Dee,Thao,8961,1913473808676037,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-23 21:10:22
+1913473808676037,Dee Dee,Thao,8963,854518728062939,1913473808676037,BOT: message,Let's try this one.,2018-08-23 21:10:23
+1913473808676037,Dee Dee,Thao,8964,854518728062939,1913473808676037,BOT: quick reply,Nerve cells that sense touch are found mainly where?,2018-08-23 21:10:25
+1913473808676037,Dee Dee,Thao,8967,1913473808676037,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 21:10:38
+1913473808676037,Dee Dee,Thao,8968,854518728062939,1913473808676037,BOT: message,Pick one of the following answers.,2018-08-23 21:10:39
+1913473808676037,Dee Dee,Thao,8970,854518728062939,1913473808676037,BOT: quick reply,":keycap_1: stomach
+:keycap_2: skin
+:keycap_3: lungs
+:keycap_4: brain
+",2018-08-23 21:10:41
+1913473808676037,Dee Dee,Thao,8974,1913473808676037,854518728062939,user_quick_reply: BUTTON_AKB_skin,:keycap_2:,2018-08-23 21:10:58
+1913473808676037,Dee Dee,Thao,8976,854518728062939,1913473808676037,BOT: message,Nice! That was right!,2018-08-23 21:10:59
+1913473808676037,Dee Dee,Thao,8978,854518728062939,1913473808676037,BOT: quick reply,The correct answer is skin.,2018-08-23 21:11:01
+1913473808676037,Dee Dee,Thao,8981,1913473808676037,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-23 21:11:05
+1913473808676037,Dee Dee,Thao,8982,854518728062939,1913473808676037,BOT: message,Could you answer this one for me?,2018-08-23 21:11:06
+1913473808676037,Dee Dee,Thao,8983,854518728062939,1913473808676037,BOT: quick reply,Most fungi get organic compounds from what?,2018-08-23 21:11:08
+1913473808676037,Dee Dee,Thao,9004,1913473808676037,854518728062939,user_typing,What,2018-08-23 21:12:08
+1913473808676037,Dee Dee,Thao,9005,854518728062939,1913473808676037,BOT: message,"I'm sorry, but that was incorrect. :disappointed_face:",2018-08-23 21:12:09
+1913473808676037,Dee Dee,Thao,9006,854518728062939,1913473808676037,BOT: quick reply,The correct answer is dead organisms.,2018-08-23 21:12:11
+1913473808676037,Dee Dee,Thao,9007,1913473808676037,854518728062939,user_typing,What,2018-08-23 21:12:11
+1913473808676037,Dee Dee,Thao,9008,854518728062939,1913473808676037,BOT: quick reply,Haha I haven't learned about this yet. You can teach me some languages later!,2018-08-23 21:12:13
+1913473808676037,Dee Dee,Thao,9016,1913473808676037,854518728062939,user_quick_reply: NEXT_QUESTION,Another question :flexed_biceps_medium-light_skin_tone:,2018-08-23 21:12:27
+1913473808676037,Dee Dee,Thao,9017,854518728062939,1913473808676037,BOT: message,Here's a question for you:,2018-08-23 21:12:28
+1913473808676037,Dee Dee,Thao,9018,854518728062939,1913473808676037,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-23 21:12:29
+1913473808676037,Dee Dee,Thao,9019,854518728062939,1913473808676037,BOT: quick reply,What opens two strands of DNA?,2018-08-23 21:12:31
+1913473808676037,Dee Dee,Thao,9032,1913473808676037,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 21:13:12
+1913473808676037,Dee Dee,Thao,9034,854518728062939,1913473808676037,BOT: message,It's one of the following choices.,2018-08-23 21:13:13
+1913473808676037,Dee Dee,Thao,9036,854518728062939,1913473808676037,BOT: quick reply,":keycap_1: adenylate
+:keycap_2: helicase
+:keycap_3: chromosome
+:keycap_4: replication
+",2018-08-23 21:13:15
+1913473808676037,Dee Dee,Thao,9040,1913473808676037,854518728062939,user_quick_reply: BUTTON_AKB_helicase,:keycap_2:,2018-08-23 21:13:22
+1913473808676037,Dee Dee,Thao,9041,854518728062939,1913473808676037,BOT: message,Nice work! Keep it up!,2018-08-23 21:13:24
+1913473808676037,Dee Dee,Thao,9043,854518728062939,1913473808676037,BOT: quick reply,The correct answer is helicase.,2018-08-23 21:13:25
+1913473808676037,Dee Dee,Thao,9046,1913473808676037,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-23 21:13:33
+1913473808676037,Dee Dee,Thao,9047,854518728062939,1913473808676037,BOT: message,Here's a question for you:,2018-08-23 21:13:34
+1913473808676037,Dee Dee,Thao,9048,854518728062939,1913473808676037,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-23 21:13:36
+1913473808676037,Dee Dee,Thao,9049,854518728062939,1913473808676037,BOT: quick reply,What opens two strands of DNA?,2018-08-23 21:13:37
+1913473808676037,Dee Dee,Thao,9054,1913473808676037,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 21:13:44
+1913473808676037,Dee Dee,Thao,9055,854518728062939,1913473808676037,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-08-23 21:13:45
+1913473808676037,Dee Dee,Thao,9056,854518728062939,1913473808676037,BOT: quick reply,":keycap_1: chromosome
+:keycap_2: helicase
+:keycap_3: adenylate
+:keycap_4: replication
+",2018-08-23 21:13:47
+1913473808676037,Dee Dee,Thao,9060,1913473808676037,854518728062939,user_quick_reply: BUTTON_AKB_helicase,:keycap_2:,2018-08-23 21:13:51
+1913473808676037,Dee Dee,Thao,9061,854518728062939,1913473808676037,BOT: message,Nice! That was right!,2018-08-23 21:13:53
+1913473808676037,Dee Dee,Thao,9062,854518728062939,1913473808676037,BOT: quick reply,The correct answer is helicase.,2018-08-23 21:13:54
+1913473808676037,Dee Dee,Thao,9063,1913473808676037,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-23 21:14:01
+1913473808676037,Dee Dee,Thao,9065,854518728062939,1913473808676037,BOT: message,Let's see if you can answer this question.,2018-08-23 21:14:03
+1913473808676037,Dee Dee,Thao,9067,854518728062939,1913473808676037,BOT: quick reply,What kind of viscosity is found in long-chain hydrocarbons?,2018-08-23 21:14:04
+1913473808676037,Dee Dee,Thao,9069,1913473808676037,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 21:14:11
+1913473808676037,Dee Dee,Thao,9070,854518728062939,1913473808676037,BOT: message,Which of the following options is the right answer?,2018-08-23 21:14:12
+1913473808676037,Dee Dee,Thao,9072,854518728062939,1913473808676037,BOT: quick reply,":keycap_1: high viscousity
+:keycap_2: intense viscosity
+:keycap_3: low viscosity
+:keycap_4: increased viscosity
+",2018-08-23 21:14:14
+1913473808676037,Dee Dee,Thao,9075,1913473808676037,854518728062939,user_quick_reply: BUTTON_DKB_increased viscosity,:keycap_4:,2018-08-23 21:14:18
+1913473808676037,Dee Dee,Thao,9077,854518728062939,1913473808676037,BOT: message,"Oops, that wasn't quite correct. :disappointed_face:",2018-08-23 21:14:20
+1913473808676037,Dee Dee,Thao,9079,854518728062939,1913473808676037,BOT: quick reply,The correct answer is high viscousity.,2018-08-23 21:14:21
+1913473808676037,Dee Dee,Thao,9084,1913473808676037,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-23 21:14:39
+1913473808676037,Dee Dee,Thao,9085,854518728062939,1913473808676037,BOT: message,Let's try this question.,2018-08-23 21:14:40
+1913473808676037,Dee Dee,Thao,9087,854518728062939,1913473808676037,BOT: quick reply,Most fungi get organic compounds from what?,2018-08-23 21:14:42
+1913473808676037,Dee Dee,Thao,9093,1913473808676037,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 21:14:48
+1913473808676037,Dee Dee,Thao,9095,854518728062939,1913473808676037,BOT: message,Which of the following options is the right answer?,2018-08-23 21:14:50
+1913473808676037,Dee Dee,Thao,9098,854518728062939,1913473808676037,BOT: quick reply,":keycap_1: living organisms
+:keycap_2: inorganic material
+:keycap_3: dead organisms
+:keycap_4: carnivorous organisms
+",2018-08-23 21:14:51
+1913473808676037,Dee Dee,Thao,9103,1913473808676037,854518728062939,user_quick_reply: BUTTON_AKB_dead organisms,:keycap_3:,2018-08-23 21:14:58
+1913473808676037,Dee Dee,Thao,9106,854518728062939,1913473808676037,BOT: message,Great job!,2018-08-23 21:14:59
+1913473808676037,Dee Dee,Thao,9108,854518728062939,1913473808676037,BOT: quick reply,The correct answer is dead organisms.,2018-08-23 21:15:01
+1913473808676037,Dee Dee,Thao,9123,1913473808676037,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-23 21:15:20
+1913473808676037,Dee Dee,Thao,9124,854518728062939,1913473808676037,BOT: message,What about this next question:,2018-08-23 21:15:21
+1913473808676037,Dee Dee,Thao,9126,854518728062939,1913473808676037,BOT: quick reply,"What arises due to crossing over, independent assortment, and the random union of gametes?",2018-08-23 21:15:23
+1913473808676037,Dee Dee,Thao,9130,1913473808676037,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 21:15:29
+1913473808676037,Dee Dee,Thao,9132,854518728062939,1913473808676037,BOT: message,Pick one of the following answers.,2018-08-23 21:15:31
+1913473808676037,Dee Dee,Thao,9135,854518728062939,1913473808676037,BOT: quick reply,":keycap_1: recessive variation
+:keycap_2: genetic variation
+:keycap_3: alternative variation
+:keycap_4: susceptible variation
+",2018-08-23 21:15:32
+1913473808676037,Dee Dee,Thao,9139,1913473808676037,854518728062939,user_quick_reply: BUTTON_DKB_recessive variation,:keycap_1:,2018-08-23 21:15:38
+1913473808676037,Dee Dee,Thao,9140,854518728062939,1913473808676037,BOT: message,That's not quite right. :disappointed_face:,2018-08-23 21:15:40
+1913473808676037,Dee Dee,Thao,9142,854518728062939,1913473808676037,BOT: quick reply,The correct answer is genetic variation.,2018-08-23 21:15:41
+1913473808676037,Dee Dee,Thao,9148,1913473808676037,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-23 21:15:46
+1913473808676037,Dee Dee,Thao,9150,854518728062939,1913473808676037,BOT: message,Let's see if you can get this one.,2018-08-23 21:15:47
+1913473808676037,Dee Dee,Thao,9152,854518728062939,1913473808676037,BOT: quick reply,What living species of bird is considered the largest of the raptors?,2018-08-23 21:15:49
+1913473808676037,Dee Dee,Thao,9155,1913473808676037,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 21:15:58
+1913473808676037,Dee Dee,Thao,9158,854518728062939,1913473808676037,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-08-23 21:15:59
+1913473808676037,Dee Dee,Thao,9161,854518728062939,1913473808676037,BOT: quick reply,":keycap_1: California condor
+:keycap_2: golden eagles
+:keycap_3: pterodactyl
+:keycap_4: peregrine falcon
+",2018-08-23 21:16:01
+1913473808676037,Dee Dee,Thao,9163,1913473808676037,854518728062939,user_quick_reply: BUTTON_DKB_pterodactyl,:keycap_3:,2018-08-23 21:17:35
+1913473808676037,Dee Dee,Thao,9166,1913473808676037,854518728062939,user_quick_reply: BUTTON_DKB_pterodactyl,:keycap_3:,2018-08-23 21:17:35
+1913473808676037,Dee Dee,Thao,9177,1913473808676037,854518728062939,user_quick_reply: BUTTON_DKB_pterodactyl,:keycap_3:,2018-08-23 21:17:35
+1913473808676037,Dee Dee,Thao,9178,1913473808676037,854518728062939,user_quick_reply: BUTTON_DKB_pterodactyl,:keycap_3:,2018-08-23 21:17:35
+1913473808676037,Dee Dee,Thao,9179,1913473808676037,854518728062939,user_quick_reply: BUTTON_DKB_pterodactyl,:keycap_3:,2018-08-23 21:17:35
+1913473808676037,Dee Dee,Thao,9196,854518728062939,1913473808676037,BOT: message,"Hmm, that wasn't quite right. :disappointed_face:",2018-08-23 21:17:37
+1913473808676037,Dee Dee,Thao,9197,854518728062939,1913473808676037,BOT: message,That's not quite right. :disappointed_face:,2018-08-23 21:17:37
+1913473808676037,Dee Dee,Thao,9198,854518728062939,1913473808676037,BOT: message,That's not quite right. :disappointed_face:,2018-08-23 21:17:37
+1913473808676037,Dee Dee,Thao,9199,854518728062939,1913473808676037,BOT: message,"Oops, that is not correct. :disappointed_face:",2018-08-23 21:17:37
+1913473808676037,Dee Dee,Thao,9200,854518728062939,1913473808676037,BOT: message,That's not quite right. :disappointed_face:,2018-08-23 21:17:37
+1913473808676037,Dee Dee,Thao,9201,1913473808676037,854518728062939,user_quick_reply: BUTTON_DKB_pterodactyl,:keycap_3:,2018-08-23 21:17:38
+1913473808676037,Dee Dee,Thao,9212,854518728062939,1913473808676037,BOT: quick reply,The correct answer is golden eagles.,2018-08-23 21:17:38
+1913473808676037,Dee Dee,Thao,9214,854518728062939,1913473808676037,BOT: quick reply,The correct answer is golden eagles.,2018-08-23 21:17:38
+1913473808676037,Dee Dee,Thao,9215,854518728062939,1913473808676037,BOT: quick reply,The correct answer is golden eagles.,2018-08-23 21:17:39
+1913473808676037,Dee Dee,Thao,9216,854518728062939,1913473808676037,BOT: quick reply,The correct answer is golden eagles.,2018-08-23 21:17:39
+1913473808676037,Dee Dee,Thao,9217,854518728062939,1913473808676037,BOT: quick reply,The correct answer is golden eagles.,2018-08-23 21:17:39
+1913473808676037,Dee Dee,Thao,9219,854518728062939,1913473808676037,BOT: message,"Oops, that wasn't quite correct. :disappointed_face:",2018-08-23 21:17:40
+1913473808676037,Dee Dee,Thao,9220,854518728062939,1913473808676037,BOT: quick reply,The correct answer is golden eagles.,2018-08-23 21:17:41
+1913473808676037,Dee Dee,Thao,9221,1913473808676037,854518728062939,user_typing,What,2018-08-23 21:17:42
+1913473808676037,Dee Dee,Thao,9222,854518728062939,1913473808676037,BOT: quick reply,"Oh hey, I haven't learned this language yet. Maybe I'll learn languages from you in the future.",2018-08-23 21:17:43
+1913473808676037,Dee Dee,Thao,9223,1913473808676037,854518728062939,user_typing,What,2018-08-23 21:17:44
+1913473808676037,Dee Dee,Thao,9224,854518728062939,1913473808676037,BOT: quick reply,Sorry but I haven't learned about this yet. I'll learn more languages in the future.,2018-08-23 21:17:45
+1913473808676037,Dee Dee,Thao,9237,1913473808676037,854518728062939,user_quick_reply: NEXT_QUESTION,Continue learning :flexed_biceps_medium-light_skin_tone:,2018-08-23 21:18:06
+1913473808676037,Dee Dee,Thao,9238,854518728062939,1913473808676037,BOT: message,Could you answer this one for me?,2018-08-23 21:18:07
+1913473808676037,Dee Dee,Thao,9239,854518728062939,1913473808676037,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-23 21:18:09
+1913473808676037,Dee Dee,Thao,9240,854518728062939,1913473808676037,BOT: quick reply,What living species of bird is considered the largest of the raptors?,2018-08-23 21:18:10
+1913473808676037,Dee Dee,Thao,9242,1913473808676037,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 21:18:20
+1913473808676037,Dee Dee,Thao,9243,854518728062939,1913473808676037,BOT: message,Okay. I'll give you some choices.,2018-08-23 21:18:22
+1913473808676037,Dee Dee,Thao,9244,854518728062939,1913473808676037,BOT: quick reply,":keycap_1: peregrine falcon
+:keycap_2: California condor
+:keycap_3: pterodactyl
+:keycap_4: golden eagles
+",2018-08-23 21:18:23
+1913473808676037,Dee Dee,Thao,9245,1913473808676037,854518728062939,user_quick_reply: BUTTON_AKB_golden eagles,:keycap_4:,2018-08-23 21:18:30
+1913473808676037,Dee Dee,Thao,9246,854518728062939,1913473808676037,BOT: message,Nice work! Keep it up!,2018-08-23 21:18:31
+1913473808676037,Dee Dee,Thao,9247,854518728062939,1913473808676037,BOT: quick reply,The correct answer is golden eagles.,2018-08-23 21:18:33
+1913473808676037,Dee Dee,Thao,9248,1913473808676037,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-23 21:18:37
+1913473808676037,Dee Dee,Thao,9249,854518728062939,1913473808676037,BOT: message,How about this next one:,2018-08-23 21:18:39
+1913473808676037,Dee Dee,Thao,9250,854518728062939,1913473808676037,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-23 21:18:40
+1913473808676037,Dee Dee,Thao,9251,854518728062939,1913473808676037,BOT: quick reply,What opens two strands of DNA?,2018-08-23 21:18:42
+1913473808676037,Dee Dee,Thao,9252,1913473808676037,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 21:18:47
+1913473808676037,Dee Dee,Thao,9253,854518728062939,1913473808676037,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-08-23 21:18:49
+1913473808676037,Dee Dee,Thao,9254,854518728062939,1913473808676037,BOT: quick reply,":keycap_1: adenylate
+:keycap_2: replication
+:keycap_3: chromosome
+:keycap_4: helicase
+",2018-08-23 21:18:50
+1913473808676037,Dee Dee,Thao,9255,1913473808676037,854518728062939,user_quick_reply: BUTTON_AKB_helicase,:keycap_4:,2018-08-23 21:18:58
+1913473808676037,Dee Dee,Thao,9256,854518728062939,1913473808676037,BOT: message,Yes! You got the correct answer!,2018-08-23 21:19:00
+1913473808676037,Dee Dee,Thao,9257,854518728062939,1913473808676037,BOT: quick reply,The correct answer is helicase.,2018-08-23 21:19:02
+1913473808676037,Dee Dee,Thao,9258,1913473808676037,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-23 21:19:11
+1913473808676037,Dee Dee,Thao,9259,854518728062939,1913473808676037,BOT: message,Here's a question for you:,2018-08-23 21:19:12
+1913473808676037,Dee Dee,Thao,9260,854518728062939,1913473808676037,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-23 21:19:14
+1913473808676037,Dee Dee,Thao,9261,854518728062939,1913473808676037,BOT: quick reply,The electrode at which oxidation occurs is called the what?,2018-08-23 21:19:15
+1913473808676037,Dee Dee,Thao,9262,1913473808676037,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 21:19:29
+1913473808676037,Dee Dee,Thao,9263,854518728062939,1913473808676037,BOT: message,Pick one of the following answers.,2018-08-23 21:19:31
+1913473808676037,Dee Dee,Thao,9265,854518728062939,1913473808676037,BOT: quick reply,":keycap_1: cathode
+:keycap_2: diode
+:keycap_3: anode
+:keycap_4: calomel
+",2018-08-23 21:19:32
+1913473808676037,Dee Dee,Thao,9266,1913473808676037,854518728062939,user_quick_reply: BUTTON_DKB_cathode,:keycap_1:,2018-08-23 21:19:59
+1913473808676037,Dee Dee,Thao,9267,854518728062939,1913473808676037,BOT: message,"Oops, that is not correct. :disappointed_face:",2018-08-23 21:20:01
+1913473808676037,Dee Dee,Thao,9268,854518728062939,1913473808676037,BOT: quick reply,The correct answer is anode.,2018-08-23 21:20:02
+1913473808676037,Dee Dee,Thao,9269,1913473808676037,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-23 21:20:08
+1913473808676037,Dee Dee,Thao,9270,854518728062939,1913473808676037,BOT: message,Let's see if you would answer this one.,2018-08-23 21:20:09
+1913473808676037,Dee Dee,Thao,9271,854518728062939,1913473808676037,BOT: quick reply,What are by far the most common type of invertebrate?,2018-08-23 21:20:11
+1913473808676037,Dee Dee,Thao,9272,1913473808676037,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 21:20:16
+1913473808676037,Dee Dee,Thao,9273,854518728062939,1913473808676037,BOT: message,Okay. I'll give you some choices.,2018-08-23 21:20:17
+1913473808676037,Dee Dee,Thao,9274,854518728062939,1913473808676037,BOT: quick reply,":keycap_1: corals
+:keycap_2: spiders
+:keycap_3: insects
+:keycap_4: crustaceans
+",2018-08-23 21:20:19
+1913473808676037,Dee Dee,Thao,9275,1913473808676037,854518728062939,user_quick_reply: BUTTON_DKB_spiders,:keycap_2:,2018-08-23 21:20:27
+1913473808676037,Dee Dee,Thao,9276,854518728062939,1913473808676037,BOT: message,"I'm sorry, but that was incorrect. :disappointed_face:",2018-08-23 21:20:28
+1913473808676037,Dee Dee,Thao,9277,854518728062939,1913473808676037,BOT: quick reply,The correct answer is insects.,2018-08-23 21:20:30
+1913473808676037,Dee Dee,Thao,9278,1913473808676037,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-23 21:20:40
+1913473808676037,Dee Dee,Thao,9279,854518728062939,1913473808676037,BOT: message,Would you answer this question for me?,2018-08-23 21:20:41
+1913473808676037,Dee Dee,Thao,9280,854518728062939,1913473808676037,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-23 21:20:43
+1913473808676037,Dee Dee,Thao,9281,854518728062939,1913473808676037,BOT: quick reply,The lithosphere is divided into a dozen major and several minor what?,2018-08-23 21:20:44
+1913473808676037,Dee Dee,Thao,9282,1913473808676037,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 21:20:50
+1913473808676037,Dee Dee,Thao,9283,854518728062939,1913473808676037,BOT: message,Which of the following options is the right answer?,2018-08-23 21:20:52
+1913473808676037,Dee Dee,Thao,9285,854518728062939,1913473808676037,BOT: quick reply,":keycap_1: faults
+:keycap_2: zones
+:keycap_3: crystals
+:keycap_4: plates
+",2018-08-23 21:20:53
+1913473808676037,Dee Dee,Thao,9286,1913473808676037,854518728062939,user_quick_reply: BUTTON_DKB_zones,:keycap_2:,2018-08-23 21:21:24
+1913473808676037,Dee Dee,Thao,9287,854518728062939,1913473808676037,BOT: message,That's not quite right. :disappointed_face:,2018-08-23 21:21:26
+1913473808676037,Dee Dee,Thao,9288,854518728062939,1913473808676037,BOT: quick reply,The correct answer is plates.,2018-08-23 21:21:27
+1913473808676037,Dee Dee,Thao,9289,1913473808676037,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-23 21:21:33
+1913473808676037,Dee Dee,Thao,9290,854518728062939,1913473808676037,BOT: message,Let's see if you can answer this question.,2018-08-23 21:21:34
+1913473808676037,Dee Dee,Thao,9291,854518728062939,1913473808676037,BOT: quick reply,Most fungi get organic compounds from what?,2018-08-23 21:21:36
+1913473808676037,Dee Dee,Thao,9292,1913473808676037,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 21:21:43
+1913473808676037,Dee Dee,Thao,9293,854518728062939,1913473808676037,BOT: message,Okay. I'll give you some choices.,2018-08-23 21:21:44
+1913473808676037,Dee Dee,Thao,9294,854518728062939,1913473808676037,BOT: quick reply,":keycap_1: living organisms
+:keycap_2: inorganic material
+:keycap_3: carnivorous organisms
+:keycap_4: dead organisms
+",2018-08-23 21:21:46
+1913473808676037,Dee Dee,Thao,9295,1913473808676037,854518728062939,user_quick_reply: BUTTON_AKB_dead organisms,:keycap_4:,2018-08-23 21:21:51
+1913473808676037,Dee Dee,Thao,9296,854518728062939,1913473808676037,BOT: message,Nice work! Keep it up!,2018-08-23 21:21:52
+1913473808676037,Dee Dee,Thao,9297,854518728062939,1913473808676037,BOT: quick reply,The correct answer is dead organisms.,2018-08-23 21:21:54
+1913473808676037,Dee Dee,Thao,9298,1913473808676037,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-23 21:22:02
+1913473808676037,Dee Dee,Thao,9299,854518728062939,1913473808676037,BOT: message,Let's see if you can get this one.,2018-08-23 21:22:04
+1913473808676037,Dee Dee,Thao,9300,854518728062939,1913473808676037,BOT: quick reply,The lithosphere is divided into a dozen major and several minor what?,2018-08-23 21:22:05
+1913473808676037,Dee Dee,Thao,9301,1913473808676037,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 21:22:10
+1913473808676037,Dee Dee,Thao,9302,854518728062939,1913473808676037,BOT: message,It's one of the following choices.,2018-08-23 21:22:12
+1913473808676037,Dee Dee,Thao,9303,854518728062939,1913473808676037,BOT: quick reply,":keycap_1: zones
+:keycap_2: crystals
+:keycap_3: faults
+:keycap_4: plates
+",2018-08-23 21:22:13
+1913473808676037,Dee Dee,Thao,9305,1913473808676037,854518728062939,user_quick_reply: BUTTON_DKB_zones,:keycap_1:,2018-08-23 21:22:19
+1913473808676037,Dee Dee,Thao,9306,854518728062939,1913473808676037,BOT: message,"I'm sorry, but that was incorrect. :disappointed_face:",2018-08-23 21:22:21
+1913473808676037,Dee Dee,Thao,9307,854518728062939,1913473808676037,BOT: quick reply,The correct answer is plates.,2018-08-23 21:22:22
+1913473808676037,Dee Dee,Thao,9308,1913473808676037,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-23 21:22:31
+1913473808676037,Dee Dee,Thao,9309,854518728062939,1913473808676037,BOT: message,See if you can answer this next one.,2018-08-23 21:22:33
+1913473808676037,Dee Dee,Thao,9310,854518728062939,1913473808676037,BOT: quick reply,What living species of bird is considered the largest of the raptors?,2018-08-23 21:22:34
+1913473808676037,Dee Dee,Thao,9311,1913473808676037,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 21:22:39
+1913473808676037,Dee Dee,Thao,9312,854518728062939,1913473808676037,BOT: message,Which of the following options is the right answer?,2018-08-23 21:22:41
+1913473808676037,Dee Dee,Thao,9313,854518728062939,1913473808676037,BOT: quick reply,":keycap_1: pterodactyl
+:keycap_2: golden eagles
+:keycap_3: California condor
+:keycap_4: peregrine falcon
+",2018-08-23 21:22:42
+1913473808676037,Dee Dee,Thao,9314,1913473808676037,854518728062939,user_quick_reply: BUTTON_AKB_golden eagles,:keycap_2:,2018-08-23 21:22:49
+1913473808676037,Dee Dee,Thao,9315,854518728062939,1913473808676037,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_jubilated_purple.png,2018-08-23 21:22:52
+1913473808676037,Dee Dee,Thao,9316,854518728062939,1913473808676037,BOT: message,Great! Keep it up! :flexed_biceps_medium-light_skin_tone:,2018-08-23 21:22:53
+1913473808676037,Dee Dee,Thao,9317,854518728062939,1913473808676037,BOT: quick reply,The correct answer is golden eagles.,2018-08-23 21:22:55
+1913473808676037,Dee Dee,Thao,9318,1913473808676037,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-23 21:23:03
+1913473808676037,Dee Dee,Thao,9319,854518728062939,1913473808676037,BOT: message,Would you answer this question for me?,2018-08-23 21:23:04
+1913473808676037,Dee Dee,Thao,9320,854518728062939,1913473808676037,BOT: quick reply,"Temperature, water, soil, and air are examples of nonliving factors of an ecosystem, also termed what?",2018-08-23 21:23:05
+1913473808676037,Dee Dee,Thao,9321,1913473808676037,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 21:23:10
+1913473808676037,Dee Dee,Thao,9322,854518728062939,1913473808676037,BOT: message,Pick one of the following answers.,2018-08-23 21:23:12
+1913473808676037,Dee Dee,Thao,9323,854518728062939,1913473808676037,BOT: quick reply,":keycap_1: abiotic factors
+:keycap_2: nucleic factors
+:keycap_3: conditional factors
+:keycap_4: diverse factors
+",2018-08-23 21:23:13
+1913473808676037,Dee Dee,Thao,9324,1913473808676037,854518728062939,user_quick_reply: BUTTON_DKB_diverse factors,:keycap_4:,2018-08-23 21:23:29
+1913473808676037,Dee Dee,Thao,9325,854518728062939,1913473808676037,BOT: message,"Oops, that wasn't quite correct. :disappointed_face:",2018-08-23 21:23:31
+1913473808676037,Dee Dee,Thao,9326,854518728062939,1913473808676037,BOT: quick reply,The correct answer is abiotic factors.,2018-08-23 21:23:32
+1913473808676037,Dee Dee,Thao,9328,1913473808676037,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-23 21:23:37
+1913473808676037,Dee Dee,Thao,9329,854518728062939,1913473808676037,BOT: message,How about this next one:,2018-08-23 21:23:39
+1913473808676037,Dee Dee,Thao,9330,854518728062939,1913473808676037,BOT: quick reply,What opens two strands of DNA?,2018-08-23 21:23:40
+1913473808676037,Dee Dee,Thao,9331,1913473808676037,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 21:23:47
+1913473808676037,Dee Dee,Thao,9332,854518728062939,1913473808676037,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-08-23 21:23:48
+1913473808676037,Dee Dee,Thao,9333,854518728062939,1913473808676037,BOT: quick reply,":keycap_1: helicase
+:keycap_2: adenylate
+:keycap_3: chromosome
+:keycap_4: replication
+",2018-08-23 21:23:50
+1913473808676037,Dee Dee,Thao,9334,1913473808676037,854518728062939,user_quick_reply: BUTTON_AKB_helicase,:keycap_1:,2018-08-23 21:23:57
+1913473808676037,Dee Dee,Thao,9335,854518728062939,1913473808676037,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_happy_orange.png,2018-08-23 21:24:00
+1913473808676037,Dee Dee,Thao,9336,854518728062939,1913473808676037,BOT: message,Nice! That was right!,2018-08-23 21:24:01
+1913473808676037,Dee Dee,Thao,9337,854518728062939,1913473808676037,BOT: quick reply,The correct answer is helicase.,2018-08-23 21:24:03
+1913473808676037,Dee Dee,Thao,9338,1913473808676037,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-23 21:24:07
+1913473808676037,Dee Dee,Thao,9339,854518728062939,1913473808676037,BOT: message,Let's see if you can answer this question.,2018-08-23 21:24:09
+1913473808676037,Dee Dee,Thao,9340,854518728062939,1913473808676037,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-23 21:24:10
+1913473808676037,Dee Dee,Thao,9341,854518728062939,1913473808676037,BOT: quick reply,What kind of viscosity is found in long-chain hydrocarbons?,2018-08-23 21:24:12
+1913473808676037,Dee Dee,Thao,9342,1913473808676037,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 21:24:17
+1913473808676037,Dee Dee,Thao,9343,854518728062939,1913473808676037,BOT: message,It's one of the following choices.,2018-08-23 21:24:19
+1913473808676037,Dee Dee,Thao,9344,854518728062939,1913473808676037,BOT: quick reply,":keycap_1: high viscousity
+:keycap_2: low viscosity
+:keycap_3: intense viscosity
+:keycap_4: increased viscosity
+",2018-08-23 21:24:20
+1913473808676037,Dee Dee,Thao,9345,1913473808676037,854518728062939,user_quick_reply: BUTTON_AKB_high viscousity,:keycap_1:,2018-08-23 21:24:29
+1913473808676037,Dee Dee,Thao,9346,854518728062939,1913473808676037,BOT: message,Nice work! Keep it up!,2018-08-23 21:24:30
+1913473808676037,Dee Dee,Thao,9347,854518728062939,1913473808676037,BOT: quick reply,The correct answer is high viscousity.,2018-08-23 21:24:32
+1913473808676037,Dee Dee,Thao,9348,1913473808676037,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-23 21:24:38
+1913473808676037,Dee Dee,Thao,9349,854518728062939,1913473808676037,BOT: message,Would you answer this question for me?,2018-08-23 21:24:39
+1913473808676037,Dee Dee,Thao,9350,854518728062939,1913473808676037,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-23 21:24:41
+1913473808676037,Dee Dee,Thao,9351,854518728062939,1913473808676037,BOT: quick reply,What are by far the most common type of invertebrate?,2018-08-23 21:24:42
+1913473808676037,Dee Dee,Thao,9353,1913473808676037,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 21:24:48
+1913473808676037,Dee Dee,Thao,9354,854518728062939,1913473808676037,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-08-23 21:24:50
+1913473808676037,Dee Dee,Thao,9355,854518728062939,1913473808676037,BOT: quick reply,":keycap_1: corals
+:keycap_2: crustaceans
+:keycap_3: spiders
+:keycap_4: insects
+",2018-08-23 21:24:51
+1913473808676037,Dee Dee,Thao,9356,1913473808676037,854518728062939,user_quick_reply: BUTTON_AKB_insects,:keycap_4:,2018-08-23 21:24:57
+1913473808676037,Dee Dee,Thao,9357,854518728062939,1913473808676037,BOT: message,Nice! That was right!,2018-08-23 21:24:59
+1913473808676037,Dee Dee,Thao,9358,854518728062939,1913473808676037,BOT: quick reply,The correct answer is insects.,2018-08-23 21:25:01
+1913473808676037,Dee Dee,Thao,9359,1913473808676037,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-23 21:25:08
+1913473808676037,Dee Dee,Thao,9360,854518728062939,1913473808676037,BOT: message,Let's try this question.,2018-08-23 21:25:09
+1913473808676037,Dee Dee,Thao,9361,854518728062939,1913473808676037,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-23 21:25:11
+1913473808676037,Dee Dee,Thao,9362,854518728062939,1913473808676037,BOT: quick reply,What are by far the most common type of invertebrate?,2018-08-23 21:25:12
+1913473808676037,Dee Dee,Thao,12092,854518728062939,1913473808676037,BOT: quick reply,"Hi Dee Dee, you haven't talked to me for a while. Would you like to resume the learning with me?",2018-08-24 20:00:29
+1913473808676037,Dee Dee,Thao,12640,1913473808676037,854518728062939,user_quick_reply: NEXT_QUESTION,OK :oncoming_fist_medium-light_skin_tone:,2018-08-24 20:24:09
+1913473808676037,Dee Dee,Thao,12641,854518728062939,1913473808676037,BOT: message,Let's see if you can answer this question.,2018-08-24 20:24:11
+1913473808676037,Dee Dee,Thao,12642,854518728062939,1913473808676037,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-24 20:24:12
+1913473808676037,Dee Dee,Thao,12643,854518728062939,1913473808676037,BOT: quick reply,Most insects reproduce quickly and through what type of reproduction?,2018-08-24 20:24:14
+1913473808676037,Dee Dee,Thao,12644,1913473808676037,854518728062939,user_typing,Asexual,2018-08-24 20:24:43
+1913473808676037,Dee Dee,Thao,12645,854518728062939,1913473808676037,BOT: message,Good Answer! :white_heavy_check_mark:,2018-08-24 20:24:45
+1913473808676037,Dee Dee,Thao,12646,854518728062939,1913473808676037,BOT: quick reply,The correct answer is sexual reproduction.,2018-08-24 20:24:46
+1913473808676037,Dee Dee,Thao,12647,1913473808676037,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-24 20:24:54
+1913473808676037,Dee Dee,Thao,12648,854518728062939,1913473808676037,BOT: message,Let's see if you can get this one.,2018-08-24 20:24:55
+1913473808676037,Dee Dee,Thao,12649,854518728062939,1913473808676037,BOT: quick reply,What living species of bird is considered the largest of the raptors?,2018-08-24 20:24:57
+1913473808676037,Dee Dee,Thao,12650,1913473808676037,854518728062939,user_typing,Ostrich,2018-08-24 20:25:08
+1913473808676037,Dee Dee,Thao,12651,854518728062939,1913473808676037,BOT: message,That wasn't quite what we were looking for. :disappointed_face:,2018-08-24 20:25:10
+1913473808676037,Dee Dee,Thao,12652,854518728062939,1913473808676037,BOT: quick reply,The correct answer is golden eagles.,2018-08-24 20:25:11
+1913473808676037,Dee Dee,Thao,12653,1913473808676037,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-24 20:25:19
+1913473808676037,Dee Dee,Thao,12654,854518728062939,1913473808676037,BOT: message,I think you'll like this question.,2018-08-24 20:25:20
+1913473808676037,Dee Dee,Thao,12655,854518728062939,1913473808676037,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-24 20:25:22
+1913473808676037,Dee Dee,Thao,12656,854518728062939,1913473808676037,BOT: quick reply,Nerve cells that sense touch are found mainly where?,2018-08-24 20:25:23
+1913473808676037,Dee Dee,Thao,12657,1913473808676037,854518728062939,user_typing,Fingers,2018-08-24 20:25:42
+1913473808676037,Dee Dee,Thao,12658,854518728062939,1913473808676037,BOT: message,That wasn't quite what we were looking for. :disappointed_face:,2018-08-24 20:25:43
+1913473808676037,Dee Dee,Thao,12660,854518728062939,1913473808676037,BOT: quick reply,The correct answer is skin.,2018-08-24 20:25:45
+1913473808676037,Dee Dee,Thao,12663,1913473808676037,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-24 20:25:53
+1913473808676037,Dee Dee,Thao,12664,854518728062939,1913473808676037,BOT: message,Could you answer this one for me?,2018-08-24 20:25:54
+1913473808676037,Dee Dee,Thao,12665,854518728062939,1913473808676037,BOT: quick reply,The electrode at which oxidation occurs is called the what?,2018-08-24 20:25:56
+1913473808676037,Dee Dee,Thao,12666,1913473808676037,854518728062939,user_typing,Negative,2018-08-24 20:26:05
+1913473808676037,Dee Dee,Thao,12667,854518728062939,1913473808676037,BOT: message,That wasn't quite what we were looking for. :disappointed_face:,2018-08-24 20:26:07
+1913473808676037,Dee Dee,Thao,12668,854518728062939,1913473808676037,BOT: quick reply,The correct answer is anode.,2018-08-24 20:26:08
+1913473808676037,Dee Dee,Thao,12669,1913473808676037,854518728062939,user_quick_reply: SWITCH_SUBJECT,Change subject :shuffle_tracks_button:,2018-08-24 20:26:15
+1913473808676037,Dee Dee,Thao,12670,854518728062939,1913473808676037,BOT: quick reply,"OK, which of the following subjects would you like to study?:backhand_index_pointing_down_medium-light_skin_tone:",2018-08-24 20:26:17
+1913473808676037,Dee Dee,Thao,12671,1913473808676037,854518728062939,user_quick_reply: RANDOM,Random :game_die:,2018-08-24 20:26:24
+1913473808676037,Dee Dee,Thao,12672,854518728062939,1913473808676037,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/evolvescientist_normal.gif,2018-08-24 20:26:29
+1913473808676037,Dee Dee,Thao,12673,854518728062939,1913473808676037,BOT: quick reply,Let's quiz you on a little bit of everything! :game_die:,2018-08-24 20:26:31
+1913473808676037,Dee Dee,Thao,12674,1913473808676037,854518728062939,user_quick_reply: NEXT_QUESTION,"Yes, continue :raising_hands_medium-light_skin_tone:",2018-08-24 20:26:36
+1913473808676037,Dee Dee,Thao,12675,854518728062939,1913473808676037,BOT: message,Let's try this question.,2018-08-24 20:26:37
+1913473808676037,Dee Dee,Thao,12676,854518728062939,1913473808676037,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-24 20:26:39
+1913473808676037,Dee Dee,Thao,12677,854518728062939,1913473808676037,BOT: quick reply,What should you NOT do while lifting objects?,2018-08-24 20:26:40
+1913473808676037,Dee Dee,Thao,12678,1913473808676037,854518728062939,user_typing,Lift with back,2018-08-24 20:26:51
+1913473808676037,Dee Dee,Thao,12679,854518728062939,1913473808676037,BOT: message,That's not quite right. :disappointed_face:,2018-08-24 20:26:53
+1913473808676037,Dee Dee,Thao,12680,854518728062939,1913473808676037,BOT: quick reply,The correct answer is Keep your feet together.,2018-08-24 20:26:54
+1913473808676037,Dee Dee,Thao,12681,1913473808676037,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-24 20:27:22
+1913473808676037,Dee Dee,Thao,12682,854518728062939,1913473808676037,BOT: message,"Alrighty, let's try this one.",2018-08-24 20:27:23
+1913473808676037,Dee Dee,Thao,12683,854518728062939,1913473808676037,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-24 20:27:25
+1913473808676037,Dee Dee,Thao,12684,854518728062939,1913473808676037,BOT: quick reply,What does CERT stand for?,2018-08-24 20:27:26
+1913473808676037,Dee Dee,Thao,12685,1913473808676037,854518728062939,user_quick_reply: I_DONT_KNOW,I dont know :downcast_face_with_sweat:,2018-08-24 20:27:36
+1913473808676037,Dee Dee,Thao,12686,854518728062939,1913473808676037,BOT: quick reply,Are you sure you want to give up?,2018-08-24 20:27:38
+1913473808676037,Dee Dee,Thao,12687,1913473808676037,854518728062939,user_quick_reply: GIVEUP_YES,"Yes, answer please.",2018-08-24 20:27:44
+1913473808676037,Dee Dee,Thao,12688,854518728062939,1913473808676037,BOT: message,You didn't get it right this time.,2018-08-24 20:27:45
+1913473808676037,Dee Dee,Thao,12689,854518728062939,1913473808676037,BOT: message,"That's okay, you'll get it next time! :grinning_face_with_smiling_eyes:",2018-08-24 20:27:47
+1913473808676037,Dee Dee,Thao,12690,854518728062939,1913473808676037,BOT: quick reply,The correct answer is Community Emergency Response Team.,2018-08-24 20:27:48
+1913473808676037,Dee Dee,Thao,12691,1913473808676037,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-24 20:27:56
+1913473808676037,Dee Dee,Thao,12692,854518728062939,1913473808676037,BOT: message,Let's try this question.,2018-08-24 20:27:57
+1913473808676037,Dee Dee,Thao,12693,854518728062939,1913473808676037,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-24 20:27:59
+1913473808676037,Dee Dee,Thao,12694,854518728062939,1913473808676037,BOT: quick reply,"When your brain senses that your body temperature is increasing, it sends messages to the blood vessels in the skin to increase in what?",2018-08-24 20:28:00
+1913473808676037,Dee Dee,Thao,12695,1913473808676037,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-24 20:28:10
+1913473808676037,Dee Dee,Thao,12696,854518728062939,1913473808676037,BOT: message,Okay. I'll give you some choices.,2018-08-24 20:28:12
+1913473808676037,Dee Dee,Thao,12697,854518728062939,1913473808676037,BOT: quick reply,":keycap_1: diameter
+:keycap_2: surface
+:keycap_3: height
+:keycap_4: weight
+",2018-08-24 20:28:13
+1913473808676037,Dee Dee,Thao,12698,1913473808676037,854518728062939,user_quick_reply: BUTTON_DKB_surface,:keycap_2:,2018-08-24 20:28:33
+1913473808676037,Dee Dee,Thao,12699,854518728062939,1913473808676037,BOT: message,"Hmm, that wasn't quite right. :disappointed_face:",2018-08-24 20:28:34
+1913473808676037,Dee Dee,Thao,12700,854518728062939,1913473808676037,BOT: quick reply,The correct answer is diameter.,2018-08-24 20:28:36
+1913473808676037,Dee Dee,Thao,12701,1913473808676037,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-24 20:28:41
+1913473808676037,Dee Dee,Thao,12702,854518728062939,1913473808676037,BOT: message,Would you answer this question for me?,2018-08-24 20:28:43
+1913473808676037,Dee Dee,Thao,12703,854518728062939,1913473808676037,BOT: quick reply,What should you NOT do when lowering a load?,2018-08-24 20:28:44
+1913473808676037,Dee Dee,Thao,12704,1913473808676037,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-24 20:28:52
+1913473808676037,Dee Dee,Thao,12705,854518728062939,1913473808676037,BOT: message,Okay. I'll give you some choices.,2018-08-24 20:28:54
+1913473808676037,Dee Dee,Thao,12706,854518728062939,1913473808676037,BOT: quick reply,":keycap_1: Twist your body
+:keycap_2: Bend your knees
+:keycap_3: Twist your body, keep the load close, and bend your knees
+:keycap_4: Keep the load close to your body
+",2018-08-24 20:28:55
+1913473808676037,Dee Dee,Thao,12707,1913473808676037,854518728062939,user_quick_reply: BUTTON_AKB_Twist your body,:keycap_1:,2018-08-24 20:29:07
+1913473808676037,Dee Dee,Thao,12708,854518728062939,1913473808676037,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_happy_orange.png,2018-08-24 20:29:10
+1913473808676037,Dee Dee,Thao,12709,854518728062939,1913473808676037,BOT: message,Yes! You got the correct answer!,2018-08-24 20:29:11
+1913473808676037,Dee Dee,Thao,12710,854518728062939,1913473808676037,BOT: quick reply,The correct answer is Twist your body.,2018-08-24 20:29:13
+1913473808676037,Dee Dee,Thao,12711,1913473808676037,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-24 20:29:18
+1913473808676037,Dee Dee,Thao,12712,854518728062939,1913473808676037,BOT: message,What about this next question:,2018-08-24 20:29:20
+1913473808676037,Dee Dee,Thao,12713,854518728062939,1913473808676037,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-24 20:29:21
+1913473808676037,Dee Dee,Thao,12714,854518728062939,1913473808676037,BOT: quick reply,Seth was extremely _____ and did not enjoy activities that required effort to meet new people.,2018-08-24 20:29:23
+1913473808676037,Dee Dee,Thao,12720,1913473808676037,854518728062939,user_typing,Reticent,2018-08-24 20:29:37
+1913473808676037,Dee Dee,Thao,12722,854518728062939,1913473808676037,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_normal.png,2018-08-24 20:29:40
+1913473808676037,Dee Dee,Thao,12723,854518728062939,1913473808676037,BOT: message,Correct! :confetti_ball:,2018-08-24 20:29:41
+1913473808676037,Dee Dee,Thao,12725,854518728062939,1913473808676037,BOT: quick reply,The correct answer is introverted.,2018-08-24 20:29:43
+1913473808676037,Dee Dee,Thao,12729,1913473808676037,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-24 20:29:50
+1913473808676037,Dee Dee,Thao,12730,854518728062939,1913473808676037,BOT: message,How about this next one:,2018-08-24 20:29:52
+1913473808676037,Dee Dee,Thao,12731,854518728062939,1913473808676037,BOT: quick reply,"What arises due to crossing over, independent assortment, and the random union of gametes?",2018-08-24 20:29:53
+1913473808676037,Dee Dee,Thao,12736,1913473808676037,854518728062939,user_typing,Genetic variation,2018-08-24 20:30:04
+1913473808676037,Dee Dee,Thao,12737,854518728062939,1913473808676037,BOT: message,Correct! :confetti_ball:,2018-08-24 20:30:05
+1913473808676037,Dee Dee,Thao,12739,854518728062939,1913473808676037,BOT: quick reply,The correct answer is genetic variation.,2018-08-24 20:30:06
+1913473808676037,Dee Dee,Thao,12746,1913473808676037,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-24 20:30:22
+1913473808676037,Dee Dee,Thao,12748,854518728062939,1913473808676037,BOT: message,See if you can answer this next one.,2018-08-24 20:30:23
+1913473808676037,Dee Dee,Thao,12750,854518728062939,1913473808676037,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-24 20:30:24
+1913473808676037,Dee Dee,Thao,12751,854518728062939,1913473808676037,BOT: quick reply,How often should women perform a breast self-exam?,2018-08-24 20:30:26
+1913473808676037,Dee Dee,Thao,12756,1913473808676037,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-24 20:30:37
+1913473808676037,Dee Dee,Thao,12757,854518728062939,1913473808676037,BOT: message,Okay. I'll give you some choices.,2018-08-24 20:30:39
+1913473808676037,Dee Dee,Thao,12758,854518728062939,1913473808676037,BOT: quick reply,":keycap_1: quarterly
+:keycap_2: weekly
+:keycap_3: yearly
+:keycap_4: monthly
+",2018-08-24 20:30:40
+1913473808676037,Dee Dee,Thao,12762,1913473808676037,854518728062939,user_quick_reply: BUTTON_AKB_monthly,:keycap_4:,2018-08-24 20:30:45
+1913473808676037,Dee Dee,Thao,12763,854518728062939,1913473808676037,BOT: message,Yes! You got the correct answer!,2018-08-24 20:30:47
+1913473808676037,Dee Dee,Thao,12765,854518728062939,1913473808676037,BOT: quick reply,The correct answer is monthly.,2018-08-24 20:30:48
+1913473808676037,Dee Dee,Thao,12774,1913473808676037,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-24 20:31:06
+1913473808676037,Dee Dee,Thao,12776,854518728062939,1913473808676037,BOT: message,Let's try this question.,2018-08-24 20:31:07
+1913473808676037,Dee Dee,Thao,12777,854518728062939,1913473808676037,BOT: quick reply,How often should women perform a breast self-exam?,2018-08-24 20:31:09
+1913473808676037,Dee Dee,Thao,12781,1913473808676037,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-24 20:31:17
+1913473808676037,Dee Dee,Thao,12783,854518728062939,1913473808676037,BOT: message,Pick one of the following answers.,2018-08-24 20:31:18
+1913473808676037,Dee Dee,Thao,12784,854518728062939,1913473808676037,BOT: quick reply,":keycap_1: yearly
+:keycap_2: weekly
+:keycap_3: quarterly
+:keycap_4: monthly
+",2018-08-24 20:31:20
+1913473808676037,Dee Dee,Thao,12786,1913473808676037,854518728062939,user_quick_reply: BUTTON_AKB_monthly,:keycap_4:,2018-08-24 20:31:25
+1913473808676037,Dee Dee,Thao,12788,854518728062939,1913473808676037,BOT: message,Great job getting the correct answer!,2018-08-24 20:31:27
+1913473808676037,Dee Dee,Thao,12790,854518728062939,1913473808676037,BOT: quick reply,The correct answer is monthly.,2018-08-24 20:31:28
+1913473808676037,Dee Dee,Thao,12791,1913473808676037,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-24 20:31:39
+1913473808676037,Dee Dee,Thao,12792,854518728062939,1913473808676037,BOT: message,How about this next one:,2018-08-24 20:31:40
+1913473808676037,Dee Dee,Thao,12793,854518728062939,1913473808676037,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-24 20:31:42
+1913473808676037,Dee Dee,Thao,12794,854518728062939,1913473808676037,BOT: quick reply,"True or false: you can always smell, see, or taste harmful bacteria in food that can cause illness.",2018-08-24 20:31:43
+1913473808676037,Dee Dee,Thao,12798,1913473808676037,854518728062939,user_typing,False,2018-08-24 20:31:56
+1913473808676037,Dee Dee,Thao,12799,854518728062939,1913473808676037,BOT: message,Good Answer! :white_heavy_check_mark:,2018-08-24 20:31:58
+1913473808676037,Dee Dee,Thao,12800,854518728062939,1913473808676037,BOT: quick reply,The correct answer is False.,2018-08-24 20:31:59
+1913473808676037,Dee Dee,Thao,12810,1913473808676037,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-24 20:32:22
+1913473808676037,Dee Dee,Thao,12812,854518728062939,1913473808676037,BOT: message,Could you answer this one for me?,2018-08-24 20:32:23
+1913473808676037,Dee Dee,Thao,12814,854518728062939,1913473808676037,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-24 20:32:25
+1913473808676037,Dee Dee,Thao,12815,854518728062939,1913473808676037,BOT: quick reply,"Prior to taking on the new invader, the defending army had engaged in arduous combat; it is likely that the _____ resulting from waging two battles in two days played a part in its subsequent defeat.",2018-08-24 20:32:26
+1913473808676037,Dee Dee,Thao,12820,1913473808676037,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-24 20:32:38
+1913473808676037,Dee Dee,Thao,12821,854518728062939,1913473808676037,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-08-24 20:32:39
+1913473808676037,Dee Dee,Thao,12823,854518728062939,1913473808676037,BOT: quick reply,":keycap_1: aggravation
+:keycap_2: pacification
+:keycap_3: enervation
+:keycap_4: pugnacity
+:keycap_5: bellicosity
+",2018-08-24 20:32:41
+1913473808676037,Dee Dee,Thao,12837,1913473808676037,854518728062939,user_quick_reply: BUTTON_DKB_aggravation,:keycap_1:,2018-08-24 20:33:00
+1913473808676037,Dee Dee,Thao,12840,854518728062939,1913473808676037,BOT: message,"I'm sorry, but that was incorrect. :disappointed_face:",2018-08-24 20:33:02
+1913473808676037,Dee Dee,Thao,12842,854518728062939,1913473808676037,BOT: quick reply,The correct answer is enervation.,2018-08-24 20:33:03
+1913473808676037,Dee Dee,Thao,12855,1913473808676037,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-24 20:33:14
+1913473808676037,Dee Dee,Thao,12857,854518728062939,1913473808676037,BOT: message,Would you answer this question for me?,2018-08-24 20:33:16
+1913473808676037,Dee Dee,Thao,12859,854518728062939,1913473808676037,BOT: quick reply,What are by far the most common type of invertebrate?,2018-08-24 20:33:17
+1913473808676037,Dee Dee,Thao,12870,1913473808676037,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-24 20:33:34
+1913473808676037,Dee Dee,Thao,12871,854518728062939,1913473808676037,BOT: message,Okay. I'll give you some choices.,2018-08-24 20:33:35
+1913473808676037,Dee Dee,Thao,12874,854518728062939,1913473808676037,BOT: quick reply,":keycap_1: corals
+:keycap_2: crustaceans
+:keycap_3: spiders
+:keycap_4: insects
+",2018-08-24 20:33:37
+1913473808676037,Dee Dee,Thao,12880,1913473808676037,854518728062939,user_quick_reply: BUTTON_AKB_insects,:keycap_4:,2018-08-24 20:33:48
+1913473808676037,Dee Dee,Thao,12882,854518728062939,1913473808676037,BOT: message,Nice! That was right!,2018-08-24 20:33:50
+1913473808676037,Dee Dee,Thao,12884,854518728062939,1913473808676037,BOT: quick reply,The correct answer is insects.,2018-08-24 20:33:52
+1913473808676037,Dee Dee,Thao,12887,1913473808676037,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-24 20:33:57
+1913473808676037,Dee Dee,Thao,12888,854518728062939,1913473808676037,BOT: message,"Alrighty, let's try this one.",2018-08-24 20:33:58
+1913473808676037,Dee Dee,Thao,12891,854518728062939,1913473808676037,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-24 20:33:59
+1913473808676037,Dee Dee,Thao,12892,854518728062939,1913473808676037,BOT: quick reply,"What arises due to crossing over, independent assortment, and the random union of gametes?",2018-08-24 20:34:01
+1913473808676037,Dee Dee,Thao,14773,1913473808676037,854518728062939,user_typing,Yes,2018-08-25 18:10:44
+1913473808676037,Dee Dee,Thao,14775,854518728062939,1913473808676037,BOT: quick reply,That sounds cool. I need to learn more languages to keep up with the conversation with you. Maybe you can teach me languages in the future!,2018-08-25 18:10:46
+1913473808676037,Dee Dee,Thao,14781,1913473808676037,854518728062939,user_quick_reply: NEXT_QUESTION,Continue learning :flexed_biceps_medium-light_skin_tone:,2018-08-25 18:13:13
+1913473808676037,Dee Dee,Thao,14782,854518728062939,1913473808676037,BOT: message,What about this next question:,2018-08-25 18:13:15
+1913473808676037,Dee Dee,Thao,14783,854518728062939,1913473808676037,BOT: quick reply,"With a similar contrast between a partly cloudy sky and a dark street, the cover of the recent rock CD _____ a famous surrealist painting from the early 1900s.",2018-08-25 18:13:16
+1913473808676037,Dee Dee,Thao,14784,1913473808676037,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-25 18:13:24
+1913473808676037,Dee Dee,Thao,14785,854518728062939,1913473808676037,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-08-25 18:13:26
+1913473808676037,Dee Dee,Thao,14786,854518728062939,1913473808676037,BOT: quick reply,":keycap_1: sanctions
+:keycap_2: admires
+:keycap_3: evokes
+:keycap_4: obfuscates
+:keycap_5: disenchants
+",2018-08-25 18:13:27
+1913473808676037,Dee Dee,Thao,14787,1913473808676037,854518728062939,user_quick_reply: BUTTON_AKB_evokes,:keycap_3:,2018-08-25 18:13:35
+1913473808676037,Dee Dee,Thao,14788,854518728062939,1913473808676037,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_normal_pink.png,2018-08-25 18:13:37
+1913473808676037,Dee Dee,Thao,14789,854518728062939,1913473808676037,BOT: message,Great job!,2018-08-25 18:13:39
+1913473808676037,Dee Dee,Thao,14790,854518728062939,1913473808676037,BOT: quick reply,The correct answer is evokes.,2018-08-25 18:13:41
+1913473808676037,Dee Dee,Thao,14791,1913473808676037,854518728062939,user_quick_reply: SWITCH_SUBJECT,Change subject :shuffle_tracks_button:,2018-08-25 18:13:46
+1913473808676037,Dee Dee,Thao,14792,854518728062939,1913473808676037,BOT: quick reply,"Cool, let's pick one of the following subjects?:backhand_index_pointing_down_medium-light_skin_tone:",2018-08-25 18:13:47
+1913473808676037,Dee Dee,Thao,14793,1913473808676037,854518728062939,user_quick_reply: RANDOM,Random :game_die:,2018-08-25 18:13:53
+1913473808676037,Dee Dee,Thao,14794,854518728062939,1913473808676037,BOT: quick reply,All right! A little bit of everything! :game_die:,2018-08-25 18:13:54
+1913473808676037,Dee Dee,Thao,14795,1913473808676037,854518728062939,user_quick_reply: NEXT_QUESTION,Tap me :backhand_index_pointing_down_medium-light_skin_tone:,2018-08-25 18:14:03
+1913473808676037,Dee Dee,Thao,14796,854518728062939,1913473808676037,BOT: message,How about this next one:,2018-08-25 18:14:05
+1913473808676037,Dee Dee,Thao,14797,854518728062939,1913473808676037,BOT: quick reply,Nerve cells that sense touch are found mainly where?,2018-08-25 18:14:06
+1913473808676037,Dee Dee,Thao,14798,1913473808676037,854518728062939,user_typing,Skin,2018-08-25 18:14:26
+1913473808676037,Dee Dee,Thao,14799,854518728062939,1913473808676037,BOT: message,Thats right! :party_popper:,2018-08-25 18:14:28
+1913473808676037,Dee Dee,Thao,14800,854518728062939,1913473808676037,BOT: quick reply,The correct answer is skin.,2018-08-25 18:14:29
+1913473808676037,Dee Dee,Thao,14801,1913473808676037,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-25 18:14:42
+1913473808676037,Dee Dee,Thao,14802,854518728062939,1913473808676037,BOT: message,Would you answer this question for me?,2018-08-25 18:14:43
+1913473808676037,Dee Dee,Thao,14803,854518728062939,1913473808676037,BOT: quick reply,"Many dog owners treat their pets too _____ , forgetting that canines have evolved in competitive environments in which emotional coddling was a sign of weakness.",2018-08-25 18:14:45
+1913473808676037,Dee Dee,Thao,14804,1913473808676037,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-25 18:15:00
+1913473808676037,Dee Dee,Thao,14805,854518728062939,1913473808676037,BOT: message,Okay. I'll give you some choices.,2018-08-25 18:15:02
+1913473808676037,Dee Dee,Thao,14806,854518728062939,1913473808676037,BOT: quick reply,":keycap_1: fortuitously
+:keycap_2: quixotically
+:keycap_3: aggressively
+:keycap_4: belligerently
+:keycap_5: indulgently
+",2018-08-25 18:15:03
+1913473808676037,Dee Dee,Thao,14807,1913473808676037,854518728062939,user_quick_reply: BUTTON_AKB_indulgently,:keycap_5:,2018-08-25 18:15:16
+1913473808676037,Dee Dee,Thao,14808,854518728062939,1913473808676037,BOT: message,Great job getting the correct answer!,2018-08-25 18:15:18
+1913473808676037,Dee Dee,Thao,14809,854518728062939,1913473808676037,BOT: quick reply,The correct answer is indulgently.,2018-08-25 18:15:19
+1913473808676037,Dee Dee,Thao,14810,1913473808676037,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-25 18:15:24
+1913473808676037,Dee Dee,Thao,14811,854518728062939,1913473808676037,BOT: message,Let's take a look at this question.,2018-08-25 18:15:26
+1913473808676037,Dee Dee,Thao,14812,854518728062939,1913473808676037,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-25 18:15:27
+1913473808676037,Dee Dee,Thao,14813,854518728062939,1913473808676037,BOT: quick reply,"True or false: if you wear a back belt, you can lift more weight than you could without a belt.",2018-08-25 18:15:29
+1913473808676037,Dee Dee,Thao,14814,1913473808676037,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-25 18:15:58
+1913473808676037,Dee Dee,Thao,14815,854518728062939,1913473808676037,BOT: message,Okay. I'll give you some choices.,2018-08-25 18:16:00
+1913473808676037,Dee Dee,Thao,14816,854518728062939,1913473808676037,BOT: quick reply,":keycap_1: False
+:keycap_2: True
+",2018-08-25 18:16:02
+1913473808676037,Dee Dee,Thao,14817,1913473808676037,854518728062939,user_quick_reply: BUTTON_DKB_True,:keycap_2:,2018-08-25 18:16:40
+1913473808676037,Dee Dee,Thao,14818,854518728062939,1913473808676037,BOT: message,That's not quite right. :disappointed_face:,2018-08-25 18:16:41
+1913473808676037,Dee Dee,Thao,14819,854518728062939,1913473808676037,BOT: quick reply,The correct answer is False.,2018-08-25 18:16:43
+1913473808676037,Dee Dee,Thao,14820,1913473808676037,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-25 18:17:58
+1913473808676037,Dee Dee,Thao,14821,854518728062939,1913473808676037,BOT: message,Let's see if you would answer this one.,2018-08-25 18:17:59
+1913473808676037,Dee Dee,Thao,14822,854518728062939,1913473808676037,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-25 18:18:01
+1913473808676037,Dee Dee,Thao,14823,854518728062939,1913473808676037,BOT: quick reply,"Modern tennis fans have come to realize that, although, quantum technological leaps in racquet technology have lead to _____ increases in the speed and power with which players can hit the ball, this has not necessarily lead to a more entertaining game.",2018-08-25 18:18:02
+1913473808676037,Dee Dee,Thao,14824,1913473808676037,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-25 18:18:29
+1913473808676037,Dee Dee,Thao,14825,854518728062939,1913473808676037,BOT: message,Which of the following options is the right answer?,2018-08-25 18:18:30
+1913473808676037,Dee Dee,Thao,14826,854518728062939,1913473808676037,BOT: quick reply,":keycap_1: innocuous
+:keycap_2: tractable
+:keycap_3: halcyon
+:keycap_4: malleable
+:keycap_5: commensurate
+",2018-08-25 18:18:32
+1913473808676037,Dee Dee,Thao,14827,1913473808676037,854518728062939,user_quick_reply: BUTTON_AKB_commensurate,:keycap_5:,2018-08-25 18:18:55
+1913473808676037,Dee Dee,Thao,14828,854518728062939,1913473808676037,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_happy_purple.png,2018-08-25 18:18:58
+1913473808676037,Dee Dee,Thao,14829,854518728062939,1913473808676037,BOT: message,Nice! That was right!,2018-08-25 18:19:00
+1913473808676037,Dee Dee,Thao,14830,854518728062939,1913473808676037,BOT: quick reply,The correct answer is commensurate.,2018-08-25 18:19:01
+1913473808676037,Dee Dee,Thao,14831,1913473808676037,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-25 18:19:12
+1913473808676037,Dee Dee,Thao,14832,854518728062939,1913473808676037,BOT: message,Would you answer this question for me?,2018-08-25 18:19:13
+1913473808676037,Dee Dee,Thao,14833,854518728062939,1913473808676037,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-25 18:19:15
+1913473808676037,Dee Dee,Thao,14834,854518728062939,1913473808676037,BOT: quick reply,The electrode at which oxidation occurs is called the what?,2018-08-25 18:19:17
+1913473808676037,Dee Dee,Thao,14835,1913473808676037,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-25 18:19:42
+1913473808676037,Dee Dee,Thao,14836,854518728062939,1913473808676037,BOT: message,Okay. I'll give you some choices.,2018-08-25 18:19:43
+1913473808676037,Dee Dee,Thao,14837,854518728062939,1913473808676037,BOT: quick reply,":keycap_1: calomel
+:keycap_2: anode
+:keycap_3: diode
+:keycap_4: cathode
+",2018-08-25 18:19:45
+1913473808676037,Dee Dee,Thao,14838,1913473808676037,854518728062939,user_quick_reply: BUTTON_AKB_anode,:keycap_2:,2018-08-25 18:19:51
+1913473808676037,Dee Dee,Thao,14839,854518728062939,1913473808676037,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_happy_pink.png,2018-08-25 18:19:53
+1913473808676037,Dee Dee,Thao,14840,854518728062939,1913473808676037,BOT: message,Great job!,2018-08-25 18:19:55
+1913473808676037,Dee Dee,Thao,14841,854518728062939,1913473808676037,BOT: quick reply,The correct answer is anode.,2018-08-25 18:19:56
+1913473808676037,Dee Dee,Thao,14842,1913473808676037,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-25 18:20:13
+1913473808676037,Dee Dee,Thao,14843,854518728062939,1913473808676037,BOT: message,Let's try this one.,2018-08-25 18:20:15
+1913473808676037,Dee Dee,Thao,14844,854518728062939,1913473808676037,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-25 18:20:16
+1913473808676037,Dee Dee,Thao,14845,854518728062939,1913473808676037,BOT: quick reply,Nerve cells that sense touch are found mainly where?,2018-08-25 18:20:18
+1913473808676037,Dee Dee,Thao,14846,1913473808676037,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-25 18:20:34
+1913473808676037,Dee Dee,Thao,14847,854518728062939,1913473808676037,BOT: message,Pick one of the following answers.,2018-08-25 18:20:35
+1913473808676037,Dee Dee,Thao,14848,854518728062939,1913473808676037,BOT: quick reply,":keycap_1: brain
+:keycap_2: lungs
+:keycap_3: skin
+:keycap_4: stomach
+",2018-08-25 18:20:37
+1913473808676037,Dee Dee,Thao,14849,1913473808676037,854518728062939,user_quick_reply: BUTTON_AKB_skin,:keycap_3:,2018-08-25 18:20:42
+1913473808676037,Dee Dee,Thao,14850,854518728062939,1913473808676037,BOT: message,Yes! You got the correct answer!,2018-08-25 18:20:43
+1913473808676037,Dee Dee,Thao,14851,854518728062939,1913473808676037,BOT: quick reply,The correct answer is skin.,2018-08-25 18:20:45
+1913473808676037,Dee Dee,Thao,14852,1913473808676037,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-25 18:20:51
+1913473808676037,Dee Dee,Thao,14853,854518728062939,1913473808676037,BOT: message,"Alrighty, let's try this one.",2018-08-25 18:20:53
+1913473808676037,Dee Dee,Thao,14854,854518728062939,1913473808676037,BOT: quick reply,"Dolly Madison, the wife of President James Madison, was known especially for her _____ , remaining calm even as the British invaded Washington D.C. during the War of 1812.",2018-08-25 18:20:54
+1913473808676037,Dee Dee,Thao,14855,1913473808676037,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-25 18:21:00
+1913473808676037,Dee Dee,Thao,14856,854518728062939,1913473808676037,BOT: message,Pick one of the following answers.,2018-08-25 18:21:01
+1913473808676037,Dee Dee,Thao,14857,854518728062939,1913473808676037,BOT: quick reply,":keycap_1: malevolence
+:keycap_2: cynicism
+:keycap_3: equanimity
+:keycap_4: zeal
+:keycap_5: impracticality
+",2018-08-25 18:21:03
+1913473808676037,Dee Dee,Thao,14858,1913473808676037,854518728062939,user_quick_reply: BUTTON_AKB_equanimity,:keycap_3:,2018-08-25 18:21:13
+1913473808676037,Dee Dee,Thao,14859,854518728062939,1913473808676037,BOT: message,Nice work! Keep it up!,2018-08-25 18:21:14
+1913473808676037,Dee Dee,Thao,14860,854518728062939,1913473808676037,BOT: quick reply,The correct answer is equanimity.,2018-08-25 18:21:16
+1913473808676037,Dee Dee,Thao,14861,1913473808676037,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-25 18:21:23
+1913473808676037,Dee Dee,Thao,14862,854518728062939,1913473808676037,BOT: message,Let's see if you would answer this one.,2018-08-25 18:21:25
+1913473808676037,Dee Dee,Thao,14863,854518728062939,1913473808676037,BOT: quick reply,"Despite the smile that spread from ear to ear, the eyes relayed a certain _____ .",2018-08-25 18:21:26
+1913473808676037,Dee Dee,Thao,14864,1913473808676037,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-25 18:21:31
+1913473808676037,Dee Dee,Thao,14865,854518728062939,1913473808676037,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-08-25 18:21:33
+1913473808676037,Dee Dee,Thao,14866,854518728062939,1913473808676037,BOT: quick reply,":keycap_1: vision
+:keycap_2: liveliness
+:keycap_3: sorrow
+:keycap_4: jubilance
+:keycap_5: mischievousness
+",2018-08-25 18:21:35
+1913473808676037,Dee Dee,Thao,14867,1913473808676037,854518728062939,user_quick_reply: BUTTON_AKB_sorrow,:keycap_3:,2018-08-25 18:21:39
+1913473808676037,Dee Dee,Thao,14868,854518728062939,1913473808676037,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_normal_pink.png,2018-08-25 18:21:42
+1913473808676037,Dee Dee,Thao,14869,854518728062939,1913473808676037,BOT: message,Great! Keep it up! :flexed_biceps_medium-light_skin_tone:,2018-08-25 18:21:43
+1913473808676037,Dee Dee,Thao,14870,854518728062939,1913473808676037,BOT: quick reply,The correct answer is sorrow.,2018-08-25 18:21:45
+1913473808676037,Dee Dee,Thao,14871,1913473808676037,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-25 18:22:05
+1913473808676037,Dee Dee,Thao,14872,854518728062939,1913473808676037,BOT: message,"Alrighty, let's try this one.",2018-08-25 18:22:06
+1913473808676037,Dee Dee,Thao,14873,854518728062939,1913473808676037,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-25 18:22:07
+1913473808676037,Dee Dee,Thao,14874,1913473808676037,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-25 18:22:08
+1913473808676037,Dee Dee,Thao,14875,854518728062939,1913473808676037,BOT: quick reply,"When your brain senses that your body temperature is increasing, it sends messages to the blood vessels in the skin to increase in what?",2018-08-25 18:22:09
+1913473808676037,Dee Dee,Thao,14876,854518728062939,1913473808676037,BOT: message,See if you can answer this next one.,2018-08-25 18:22:09
+1913473808676037,Dee Dee,Thao,14877,854518728062939,1913473808676037,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-25 18:22:11
+1913473808676037,Dee Dee,Thao,14878,854518728062939,1913473808676037,BOT: quick reply,The lithosphere is divided into a dozen major and several minor what?,2018-08-25 18:22:12
+1913473808676037,Dee Dee,Thao,14879,1913473808676037,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-25 18:22:17
+1913473808676037,Dee Dee,Thao,14880,854518728062939,1913473808676037,BOT: message,Which of the following options is the right answer?,2018-08-25 18:22:18
+1913473808676037,Dee Dee,Thao,14881,854518728062939,1913473808676037,BOT: quick reply,":keycap_1: plates
+:keycap_2: zones
+:keycap_3: faults
+:keycap_4: crystals
+",2018-08-25 18:22:20
+1913473808676037,Dee Dee,Thao,14882,1913473808676037,854518728062939,user_quick_reply: BUTTON_DKB_zones,:keycap_2:,2018-08-25 18:22:26
+1913473808676037,Dee Dee,Thao,14883,854518728062939,1913473808676037,BOT: message,"Oops, that wasn't quite correct. :disappointed_face:",2018-08-25 18:22:27
+1913473808676037,Dee Dee,Thao,14884,854518728062939,1913473808676037,BOT: quick reply,The correct answer is plates.,2018-08-25 18:22:29
+1913473808676037,Dee Dee,Thao,15304,854518728062939,1913473808676037,BOT: quick reply,"Hi Dee Dee, you haven't talked to me for a while. Would you like to resume the learning with me?",2018-08-25 20:00:26

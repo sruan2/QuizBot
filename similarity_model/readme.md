@@ -1,8 +1,10 @@
+Instructions on how to build a sentence similarity model using *mittens* + *SIF*
+
 ## Data file setup
 
 Download files from https://drive.google.com/drive/u/0/folders/1kyEVRudlOC2dxvJSeYztT9-YHpeCgAUo
 
-Move the `mittens_model.pkl` and `glove.6B.100d.pkl` files into the data_files folder 
+Move the `mittens_model.pkl` and `glove.6B.100d.pkl` files into the `data_files` folder 
 
 ## Creating the mittens model
 
@@ -14,7 +16,7 @@ https://github.com/roamanalytics/mittens
 
 https://github.com/maciejkula/glove-python
 
-2: run `python build_glove_cooccurrence` to create `data_files/weighted_matrix.pkl` and `data_files/vocab.pkl` files
+2: run `python build_glove_cooccurrence.py` to create `data_files/weighted_matrix.pkl` and `data_files/vocab.pkl` files
 If wanting to train own corpus, can replace the `data_files/science_corpus` file with different space delimitered file
 
 3: `python mittens_model.py` after putting in the `glove.6B.100d.pkl` file in the correct folder to create `mittens_model.pkl`

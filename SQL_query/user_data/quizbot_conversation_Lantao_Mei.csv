@@ -1,0 +1,974 @@
+user_id,user_firstname,user_lastname,uid,sender,recipient,type,dialogue,time_stamp
+1783329421716829,Lantao,Mei,9995,1783329421716829,854518728062939,persistent_menu: GET_INTRO_1,Get Started,2018-08-17 12:46:55
+1783329421716829,Lantao,Mei,9996,854518728062939,1783329421716829,BOT: image,https://www.smartprimer.org:443/pictures/avatar/quizbot_avatar.png,2018-08-17 12:46:59
+1783329421716829,Lantao,Mei,9997,854518728062939,1783329421716829,BOT: quick reply,"Hi Lantao! My name is Frosty :penguin: and Im here to help you learn all about science:microscope:, verbal reasoning (GRE) :input_latin_uppercase:, and safety:hammer_and_wrench:!",2018-08-17 12:47:01
+1783329421716829,Lantao,Mei,9998,1783329421716829,854518728062939,user_quick_reply: GET_INTRO_2,Sure :backhand_index_pointing_right_medium-light_skin_tone:,2018-08-17 12:47:15
+1783329421716829,Lantao,Mei,9999,854518728062939,1783329421716829,BOT: message,Heres how it works.,2018-08-17 12:47:17
+1783329421716829,Lantao,Mei,10000,854518728062939,1783329421716829,BOT: message,"I ask you questions, and you give me answers.",2018-08-17 12:47:18
+1783329421716829,Lantao,Mei,10001,854518728062939,1783329421716829,BOT: quick reply,We will learn fun things together!,2018-08-17 12:47:20
+1783329421716829,Lantao,Mei,10002,854518728062939,1783329421716829,BOT: image,https://www.smartprimer.org:443/pictures/user_manual/typeanswer.png,2018-08-17 12:47:30
+1783329421716829,Lantao,Mei,10003,854518728062939,1783329421716829,BOT: quick reply,"To study the questions, you can type in your answers in the text field and I will evaluate the answers for you using advanced NLP (Natural Language Processing) technology.",2018-08-17 12:47:31
+1783329421716829,Lantao,Mei,10004,1783329421716829,854518728062939,user_quick_reply: GET_INTRO_4,Next :flexed_biceps_medium-light_skin_tone:,2018-08-17 12:47:40
+1783329421716829,Lantao,Mei,10005,854518728062939,1783329421716829,BOT: image,https://www.smartprimer.org:443/pictures/user_manual/needhintbutton.png,2018-08-17 12:47:45
+1783329421716829,Lantao,Mei,10006,854518728062939,1783329421716829,BOT: quick reply,"If you don't know the answers, then feel free to tap on the hint button.",2018-08-17 12:47:46
+1783329421716829,Lantao,Mei,10215,854518728062939,1783329421716829,BOT: quick reply,"Hi Lantao, you haven't talked to me for a while. Would you like to resume the learning with me?",2018-08-17 20:00:12
+1783329421716829,Lantao,Mei,10567,1783329421716829,854518728062939,user_quick_reply: NEXT_QUESTION,Okay :collision:,2018-08-18 09:20:22
+1783329421716829,Lantao,Mei,10568,854518728062939,1783329421716829,BOT: message,I think you'll like this question.,2018-08-18 09:20:23
+1783329421716829,Lantao,Mei,10569,854518728062939,1783329421716829,BOT: quick reply,"Video game enthusiasts know that, while the astounding advances in technological innovation might increase the level of fun of the gaming experience, such a result is by no means _____ .",2018-08-18 09:20:24
+1783329421716829,Lantao,Mei,10570,1783329421716829,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-18 09:20:47
+1783329421716829,Lantao,Mei,10571,854518728062939,1783329421716829,BOT: message,It's one of the following choices.,2018-08-18 09:20:48
+1783329421716829,Lantao,Mei,10572,854518728062939,1783329421716829,BOT: quick reply,":keycap_1: desultory
+:keycap_2: ineluctable
+:keycap_3: salient
+:keycap_4: seminal
+:keycap_5: endemic
+",2018-08-18 09:20:49
+1783329421716829,Lantao,Mei,10573,1783329421716829,854518728062939,user_quick_reply: BUTTON_DKB_desultory,:keycap_1:,2018-08-18 09:21:28
+1783329421716829,Lantao,Mei,10574,854518728062939,1783329421716829,BOT: message,"Hmm, that wasn't quite right. :disappointed_face:",2018-08-18 09:21:30
+1783329421716829,Lantao,Mei,10575,854518728062939,1783329421716829,BOT: quick reply,The correct answer is ineluctable.,2018-08-18 09:21:31
+1783329421716829,Lantao,Mei,10576,1783329421716829,854518728062939,user_quick_reply: WHY,Why?,2018-08-18 09:21:44
+1783329421716829,Lantao,Mei,10577,854518728062939,1783329421716829,BOT: message,I hope this explanation could help you understand the the question.,2018-08-18 09:21:46
+1783329421716829,Lantao,Mei,10578,854518728062939,1783329421716829,BOT: quick reply,":pushpin: Ineluctable -- impossible to avoid or evade
+:pushpin: Desultory -- marked by lack of definite plan or regularity or purpose; jumping from one thing to another
+:pushpin: Endemic -- of or relating to a disease
+:pushpin: Salient -- having a quality that thrusts itself into attention
+:pushpin: Seminal -- having possibilities of future development",2018-08-18 09:21:47
+1783329421716829,Lantao,Mei,10579,1783329421716829,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-18 09:22:56
+1783329421716829,Lantao,Mei,10580,854518728062939,1783329421716829,BOT: message,Let's see if you can get this one.,2018-08-18 09:22:57
+1783329421716829,Lantao,Mei,10581,854518728062939,1783329421716829,BOT: quick reply,"Ancient generals, lacking modern technologies such as radio and satellite communication, often found that one of the most significant challenges in warfare was accurate _____ of the myriad of changes on the battlefield or in the campaign.",2018-08-18 09:22:59
+1783329421716829,Lantao,Mei,10582,1783329421716829,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-18 09:23:18
+1783329421716829,Lantao,Mei,10583,854518728062939,1783329421716829,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-08-18 09:23:20
+1783329421716829,Lantao,Mei,10584,854518728062939,1783329421716829,BOT: quick reply,":keycap_1: adumbration
+:keycap_2: appraisal
+:keycap_3: accretion
+:keycap_4: fortification
+:keycap_5: adulteration
+",2018-08-18 09:23:21
+1783329421716829,Lantao,Mei,10585,1783329421716829,854518728062939,user_quick_reply: BUTTON_DKB_accretion,:keycap_3:,2018-08-18 09:23:46
+1783329421716829,Lantao,Mei,10586,854518728062939,1783329421716829,BOT: message,"Oops, that wasn't quite correct. :disappointed_face:",2018-08-18 09:23:47
+1783329421716829,Lantao,Mei,10587,854518728062939,1783329421716829,BOT: quick reply,The correct answer is appraisal.,2018-08-18 09:23:49
+1783329421716829,Lantao,Mei,10588,1783329421716829,854518728062939,user_quick_reply: WHY,Why?,2018-08-18 09:23:56
+1783329421716829,Lantao,Mei,10589,854518728062939,1783329421716829,BOT: message,I hope this explanation could help you understand the the question.,2018-08-18 09:23:58
+1783329421716829,Lantao,Mei,10590,854518728062939,1783329421716829,BOT: quick reply,":pushpin: Appraisal -- the classification of someone or something with respect to its worth
+:pushpin: Fortification -- defensive structure consisting of walls or mounds built around a stronghold to strengthen it
+:pushpin: Adulteration -- being mixed with extraneous material; the product of adulterating
+:pushpin: Accretion -- an increase by natural growth or addition
+:pushpin: Adumbration -- the act of providing vague advance indications; representing beforehand",2018-08-18 09:23:59
+1783329421716829,Lantao,Mei,10591,1783329421716829,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-18 09:27:09
+1783329421716829,Lantao,Mei,10592,854518728062939,1783329421716829,BOT: message,Let's try this question.,2018-08-18 09:27:10
+1783329421716829,Lantao,Mei,10593,854518728062939,1783329421716829,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-18 09:27:12
+1783329421716829,Lantao,Mei,10594,854518728062939,1783329421716829,BOT: quick reply,"Although tranquilizers usually have a _____ effect, this is not always the case, especially when the abuse of these drugs results in a failure to induce the much-desired sleep.",2018-08-18 09:27:13
+1783329421716829,Lantao,Mei,10595,1783329421716829,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-18 09:27:20
+1783329421716829,Lantao,Mei,10596,854518728062939,1783329421716829,BOT: message,Which of the following options is the right answer?,2018-08-18 09:27:22
+1783329421716829,Lantao,Mei,10597,854518728062939,1783329421716829,BOT: quick reply,":keycap_1: penetrating
+:keycap_2: soporific
+:keycap_3: debilitating
+:keycap_4: coruscating
+:keycap_5: sedulous
+",2018-08-18 09:27:24
+1783329421716829,Lantao,Mei,10598,1783329421716829,854518728062939,user_quick_reply: BUTTON_DKB_sedulous,:keycap_5:,2018-08-18 09:29:05
+1783329421716829,Lantao,Mei,10599,854518728062939,1783329421716829,BOT: message,"Oops, that is not correct. :disappointed_face:",2018-08-18 09:29:07
+1783329421716829,Lantao,Mei,10600,854518728062939,1783329421716829,BOT: quick reply,The correct answer is soporific.,2018-08-18 09:29:08
+1783329421716829,Lantao,Mei,10601,1783329421716829,854518728062939,user_quick_reply: WHY,Why?,2018-08-18 09:29:15
+1783329421716829,Lantao,Mei,10602,854518728062939,1783329421716829,BOT: message,This is an explanation of the question:,2018-08-18 09:29:16
+1783329421716829,Lantao,Mei,10603,854518728062939,1783329421716829,BOT: quick reply,":pushpin: Soporific -- sleep inducing
+:pushpin: Sedulous -- marked by care and persistent effort
+:pushpin: Coruscating -- reflecting brightly
+:pushpin: Debilitating -- impairing the strength and vitality
+:pushpin: Penetrating -- able or tending to penetrate; piercing; sharp",2018-08-18 09:29:18
+1783329421716829,Lantao,Mei,10604,1783329421716829,854518728062939,user_quick_reply: SWITCH_SUBJECT,Change subject :shuffle_tracks_button:,2018-08-18 09:29:46
+1783329421716829,Lantao,Mei,10605,854518728062939,1783329421716829,BOT: quick reply,"Sure, now tell me which subject you would like to choose.:backhand_index_pointing_down_medium-light_skin_tone:",2018-08-18 09:29:48
+1783329421716829,Lantao,Mei,10606,1783329421716829,854518728062939,user_quick_reply: SCIENCE,Science:microscope:,2018-08-18 09:29:58
+1783329421716829,Lantao,Mei,10607,854518728062939,1783329421716829,BOT: quick reply,All right! Ill quiz you on science!,2018-08-18 09:30:00
+1783329421716829,Lantao,Mei,10828,854518728062939,1783329421716829,BOT: quick reply,"Hi Lantao, you haven't talked to me for a while. Would you like to resume the learning with me?",2018-08-18 20:00:41
+1783329421716829,Lantao,Mei,11371,854518728062939,1783329421716829,BOT: quick reply,"Hi Lantao, you haven't talked to me for a while. Would you like to resume the learning with me?",2018-08-19 20:00:12
+1783329421716829,Lantao,Mei,11746,854518728062939,1783329421716829,BOT: message,Let's see if you can get this one.,2018-08-20 08:45:55
+1783329421716829,Lantao,Mei,11747,854518728062939,1783329421716829,BOT: quick reply,Nerve cells that sense touch are found mainly where?,2018-08-20 08:45:56
+1783329421716829,Lantao,Mei,11748,1783329421716829,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-20 08:46:04
+1783329421716829,Lantao,Mei,11749,854518728062939,1783329421716829,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-08-20 08:46:06
+1783329421716829,Lantao,Mei,11750,854518728062939,1783329421716829,BOT: quick reply,":keycap_1: stomach
+:keycap_2: skin
+:keycap_3: brain
+:keycap_4: lungs
+",2018-08-20 08:46:07
+1783329421716829,Lantao,Mei,11751,1783329421716829,854518728062939,user_quick_reply: BUTTON_AKB_skin,:keycap_2:,2018-08-20 08:46:25
+1783329421716829,Lantao,Mei,11752,854518728062939,1783329421716829,BOT: image,https://www.smartprimer.org:443/pictures/avatar/congrats/penguinnormal_happy_orange.png,2018-08-20 08:46:28
+1783329421716829,Lantao,Mei,11753,854518728062939,1783329421716829,BOT: message,Nice work! Keep it up!,2018-08-20 08:46:29
+1783329421716829,Lantao,Mei,11754,854518728062939,1783329421716829,BOT: quick reply,The correct answer is skin.,2018-08-20 08:46:31
+1783329421716829,Lantao,Mei,11755,1783329421716829,854518728062939,user_quick_reply: WHY,Why?,2018-08-20 08:46:36
+1783329421716829,Lantao,Mei,11756,854518728062939,1783329421716829,BOT: message,Here's why:,2018-08-20 08:46:37
+1783329421716829,Lantao,Mei,11757,854518728062939,1783329421716829,BOT: quick reply,"Touch is the ability to sense pain, pressure, or temperature. Nerve cells that sense touch are found mainly in the skin. The skin on the palms, soles, face, and lips has the most neurons. Neurons that sense pain are also found inside the body inside the body in the tongue, joints, muscles, and other organs.",2018-08-20 08:46:39
+1783329421716829,Lantao,Mei,11758,1783329421716829,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-20 08:46:52
+1783329421716829,Lantao,Mei,11759,854518728062939,1783329421716829,BOT: message,Would you answer this question for me?,2018-08-20 08:46:53
+1783329421716829,Lantao,Mei,11760,854518728062939,1783329421716829,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-20 08:46:55
+1783329421716829,Lantao,Mei,11761,854518728062939,1783329421716829,BOT: quick reply,Anything moving has what type of energy?,2018-08-20 08:46:56
+1783329421716829,Lantao,Mei,11762,1783329421716829,854518728062939,user_typing,g8,2018-08-20 08:47:05
+1783329421716829,Lantao,Mei,11763,854518728062939,1783329421716829,BOT: message,"I'm sorry, but that was incorrect. :disappointed_face:",2018-08-20 08:47:06
+1783329421716829,Lantao,Mei,11764,854518728062939,1783329421716829,BOT: quick reply,The correct answer is kinetic.,2018-08-20 08:47:08
+1783329421716829,Lantao,Mei,11765,1783329421716829,854518728062939,user_quick_reply: WHY,Why?,2018-08-20 08:47:14
+1783329421716829,Lantao,Mei,11766,854518728062939,1783329421716829,BOT: message,Here's an explanation:,2018-08-20 08:47:16
+1783329421716829,Lantao,Mei,11767,854518728062939,1783329421716829,BOT: quick reply,"Why do the air and sand of Death Valley feel so hot? Its because their particles are moving very rapidly. Anything that is moving has kinetic energy, and the faster it is moving, the more kinetic energy it has. The total kinetic energy of moving particles of matter is called thermal energy. Its not just hot things such as the air and sand of Death Valley that have thermal energy. All matter has thermal energy, even matter that feels cold. Thats because the particles of all matter are in constant motion and have kinetic energy.",2018-08-20 08:47:17
+1783329421716829,Lantao,Mei,11768,1783329421716829,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-20 08:47:23
+1783329421716829,Lantao,Mei,11769,854518728062939,1783329421716829,BOT: message,Let's take a look at this question.,2018-08-20 08:47:25
+1783329421716829,Lantao,Mei,11770,854518728062939,1783329421716829,BOT: quick reply,What opens two strands of DNA?,2018-08-20 08:47:26
+1783329421716829,Lantao,Mei,11771,1783329421716829,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-20 08:47:35
+1783329421716829,Lantao,Mei,11772,854518728062939,1783329421716829,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-08-20 08:47:36
+1783329421716829,Lantao,Mei,11773,854518728062939,1783329421716829,BOT: quick reply,":keycap_1: replication
+:keycap_2: chromosome
+:keycap_3: adenylate
+:keycap_4: helicase
+",2018-08-20 08:47:38
+1783329421716829,Lantao,Mei,11774,1783329421716829,854518728062939,user_quick_reply: BUTTON_DKB_chromosome,:keycap_2:,2018-08-20 08:47:44
+1783329421716829,Lantao,Mei,11775,854518728062939,1783329421716829,BOT: message,"Hmm, that wasn't quite right. :disappointed_face:",2018-08-20 08:47:46
+1783329421716829,Lantao,Mei,11776,854518728062939,1783329421716829,BOT: quick reply,The correct answer is helicase.,2018-08-20 08:47:47
+1783329421716829,Lantao,Mei,11777,1783329421716829,854518728062939,user_quick_reply: WHY,Why?,2018-08-20 08:47:53
+1783329421716829,Lantao,Mei,11778,854518728062939,1783329421716829,BOT: message,I hope this explanation could help you understand the the question.,2018-08-20 08:47:55
+1783329421716829,Lantao,Mei,11779,854518728062939,1783329421716829,BOT: quick reply,"DNA replication. The two DNA strands are opened by helicase. The strands are held open by a single strand of binding proteins, preventing premature reannealing. Topoisomerase solves the problem caused by tension generated by winding/unwinding of DNA. This enzyme wraps around DNA and makes a cut permitting the helix to spin and relax. Once DNA is relaxed, topoisomerase reconnects broken strands. DNA primase synthesizes a short RNA primer which initiates the Okazaki fragment. Okazaki fragments are attached by DNA ligase.",2018-08-20 08:47:56
+1783329421716829,Lantao,Mei,11780,1783329421716829,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-20 08:48:30
+1783329421716829,Lantao,Mei,11781,854518728062939,1783329421716829,BOT: message,Let's take a look at this question.,2018-08-20 08:48:31
+1783329421716829,Lantao,Mei,11782,854518728062939,1783329421716829,BOT: quick reply,What are the little sacs at the end of the bronchioles called?,2018-08-20 08:48:33
+1783329421716829,Lantao,Mei,11783,1783329421716829,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-20 08:48:42
+1783329421716829,Lantao,Mei,11784,854518728062939,1783329421716829,BOT: message,Which of the following options is the right answer?,2018-08-20 08:48:44
+1783329421716829,Lantao,Mei,11785,854518728062939,1783329421716829,BOT: quick reply,":keycap_1: ganglion
+:keycap_2: lung
+:keycap_3: respiratory sacs
+:keycap_4: alveoli
+",2018-08-20 08:48:45
+1783329421716829,Lantao,Mei,11786,1783329421716829,854518728062939,user_quick_reply: BUTTON_DKB_ganglion,:keycap_1:,2018-08-20 08:48:51
+1783329421716829,Lantao,Mei,11787,854518728062939,1783329421716829,BOT: message,"Oops, that is not correct. :disappointed_face:",2018-08-20 08:48:53
+1783329421716829,Lantao,Mei,11788,854518728062939,1783329421716829,BOT: quick reply,The correct answer is alveoli.,2018-08-20 08:48:54
+1783329421716829,Lantao,Mei,11789,1783329421716829,854518728062939,user_quick_reply: WHY,Why?,2018-08-20 08:48:59
+1783329421716829,Lantao,Mei,11790,854518728062939,1783329421716829,BOT: message,Here's an explanation:,2018-08-20 08:49:01
+1783329421716829,Lantao,Mei,11791,854518728062939,1783329421716829,BOT: quick reply,"The bronchioles lead to the alveoli. Alveoli are the little sacs at the end of the bronchioles. They look like little bunches of grapes. Oxygen is exchanged for carbon dioxide in the alveoli. That means oxygen enters the blood, and carbon dioxide moves out of the blood. The gases are exchanged between the blood and alveoli by simple diffusion.",2018-08-20 08:49:03
+1783329421716829,Lantao,Mei,11792,1783329421716829,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-20 08:49:37
+1783329421716829,Lantao,Mei,11793,854518728062939,1783329421716829,BOT: message,Let's see if you would answer this one.,2018-08-20 08:49:38
+1783329421716829,Lantao,Mei,11794,854518728062939,1783329421716829,BOT: quick reply,Most insects reproduce quickly and through what type of reproduction?,2018-08-20 08:49:40
+1783329421716829,Lantao,Mei,11795,1783329421716829,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-20 08:49:47
+1783329421716829,Lantao,Mei,11796,854518728062939,1783329421716829,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-08-20 08:49:49
+1783329421716829,Lantao,Mei,11797,854518728062939,1783329421716829,BOT: quick reply,":keycap_1: spores
+:keycap_2: photosynthesis
+:keycap_3: asexual reproduction
+:keycap_4: sexual reproduction
+",2018-08-20 08:49:51
+1783329421716829,Lantao,Mei,11798,1783329421716829,854518728062939,user_quick_reply: BUTTON_DKB_asexual reproduction,:keycap_3:,2018-08-20 08:49:58
+1783329421716829,Lantao,Mei,11799,854518728062939,1783329421716829,BOT: message,"Hmm, that wasn't quite right. :disappointed_face:",2018-08-20 08:50:00
+1783329421716829,Lantao,Mei,11800,854518728062939,1783329421716829,BOT: quick reply,The correct answer is sexual reproduction.,2018-08-20 08:50:01
+1783329421716829,Lantao,Mei,11801,1783329421716829,854518728062939,user_quick_reply: WHY,Why?,2018-08-20 08:50:06
+1783329421716829,Lantao,Mei,11802,854518728062939,1783329421716829,BOT: message,Here's an explanation:,2018-08-20 08:50:08
+1783329421716829,Lantao,Mei,11803,854518728062939,1783329421716829,BOT: quick reply,"Most insects can reproduce very quickly within a short period of time. With a short generation time, they evolve faster and can quickly adjust to environmental changes. Most insects reproduce by sexual reproduction. The female produces eggs, which are fertilized by the male, and then the eggs are usually placed near the required food. In some insects, there is asexual reproduction during which the offspring come from a single parent. In this type of reproduction, the offspring are almost identical to the mother. This is most often seen in aphids and scale insects.",2018-08-20 08:50:09
+1783329421716829,Lantao,Mei,11804,1783329421716829,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-20 08:50:45
+1783329421716829,Lantao,Mei,11805,854518728062939,1783329421716829,BOT: message,What about this next question:,2018-08-20 08:50:47
+1783329421716829,Lantao,Mei,11806,854518728062939,1783329421716829,BOT: quick reply,"When your brain senses that your body temperature is increasing, it sends messages to the blood vessels in the skin to increase in what?",2018-08-20 08:50:48
+1783329421716829,Lantao,Mei,11807,1783329421716829,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-20 08:50:56
+1783329421716829,Lantao,Mei,11808,854518728062939,1783329421716829,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-08-20 08:50:57
+1783329421716829,Lantao,Mei,11809,854518728062939,1783329421716829,BOT: quick reply,":keycap_1: height
+:keycap_2: surface
+:keycap_3: diameter
+:keycap_4: weight
+",2018-08-20 08:50:59
+1783329421716829,Lantao,Mei,11810,1783329421716829,854518728062939,user_quick_reply: BUTTON_AKB_diameter,:keycap_3:,2018-08-20 08:51:03
+1783329421716829,Lantao,Mei,11811,854518728062939,1783329421716829,BOT: message,Nice! That was right!,2018-08-20 08:51:05
+1783329421716829,Lantao,Mei,11812,854518728062939,1783329421716829,BOT: quick reply,The correct answer is diameter.,2018-08-20 08:51:07
+1783329421716829,Lantao,Mei,11813,1783329421716829,854518728062939,user_quick_reply: WHY,Why?,2018-08-20 08:51:11
+1783329421716829,Lantao,Mei,11814,854518728062939,1783329421716829,BOT: message,This is an explanation of the question:,2018-08-20 08:51:13
+1783329421716829,Lantao,Mei,11815,854518728062939,1783329421716829,BOT: quick reply,"The cardiovascular system also plays a role in maintaining body temperature. It helps to keep you warm by moving warm blood around your body. Your blood vessels also control your body temperature to keep you from getting too hot or too cold. When your brain senses that your body temperature is increasing, it sends messages to the blood vessels in the skin to increase in diameter. Increasing the diameter of the blood vessels increases the amount of blood and heat that moves near the skin's surface. The heat is then released from the skin. This helps you cool down.",2018-08-20 08:51:14
+1783329421716829,Lantao,Mei,11816,1783329421716829,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-20 08:51:43
+1783329421716829,Lantao,Mei,11817,854518728062939,1783329421716829,BOT: message,What about this next question:,2018-08-20 08:51:44
+1783329421716829,Lantao,Mei,11818,854518728062939,1783329421716829,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-20 08:51:46
+1783329421716829,Lantao,Mei,11819,854518728062939,1783329421716829,BOT: quick reply,What kind of viscosity is found in long-chain hydrocarbons?,2018-08-20 08:51:47
+1783329421716829,Lantao,Mei,11820,1783329421716829,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-20 08:51:55
+1783329421716829,Lantao,Mei,11821,854518728062939,1783329421716829,BOT: message,Pick one of the following answers.,2018-08-20 08:51:56
+1783329421716829,Lantao,Mei,11822,854518728062939,1783329421716829,BOT: quick reply,":keycap_1: high viscousity
+:keycap_2: increased viscosity
+:keycap_3: low viscosity
+:keycap_4: intense viscosity
+",2018-08-20 08:51:58
+1783329421716829,Lantao,Mei,11823,1783329421716829,854518728062939,user_quick_reply: BUTTON_AKB_high viscousity,:keycap_1:,2018-08-20 08:52:04
+1783329421716829,Lantao,Mei,11824,854518728062939,1783329421716829,BOT: image,https://www.smartprimer.org:443/pictures/avatar/congrats/penguinnormal_normal_pink.png,2018-08-20 08:52:06
+1783329421716829,Lantao,Mei,11825,854518728062939,1783329421716829,BOT: message,Great job getting the correct answer!,2018-08-20 08:52:08
+1783329421716829,Lantao,Mei,11826,854518728062939,1783329421716829,BOT: quick reply,The correct answer is high viscousity.,2018-08-20 08:52:09
+1783329421716829,Lantao,Mei,11827,1783329421716829,854518728062939,user_quick_reply: WHY,Why?,2018-08-20 08:52:14
+1783329421716829,Lantao,Mei,11828,854518728062939,1783329421716829,BOT: message,Here's why:,2018-08-20 08:52:16
+1783329421716829,Lantao,Mei,11829,854518728062939,1783329421716829,BOT: quick reply,"There is also a correlation between viscosity and molecular shape. Liquids consisting of long, flexible molecules tend to have higher viscosities than those composed of more spherical or shorter-chain molecules. The longer the molecules, the easier it is for them to become tangled with one another, making it more difficult for them to move past one another. London dispersion forces also increase with chain length. Due to a combination of these two effects, long-chain hydrocarbons (such as motor oils) are highly viscous.",2018-08-20 08:52:18
+1783329421716829,Lantao,Mei,11843,1783329421716829,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-20 19:34:24
+1783329421716829,Lantao,Mei,11844,854518728062939,1783329421716829,BOT: message,Here's a question for you:,2018-08-20 19:34:26
+1783329421716829,Lantao,Mei,11845,854518728062939,1783329421716829,BOT: quick reply,All organisms can be classified into one of three of this least specific grouping?,2018-08-20 19:34:27
+1783329421716829,Lantao,Mei,11846,1783329421716829,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-20 19:34:33
+1783329421716829,Lantao,Mei,11847,854518728062939,1783329421716829,BOT: message,Pick one of the following answers.,2018-08-20 19:34:35
+1783329421716829,Lantao,Mei,11848,854518728062939,1783329421716829,BOT: quick reply,":keycap_1: domains
+:keycap_2: aspects
+:keycap_3: species
+:keycap_4: phlylum
+",2018-08-20 19:34:36
+1783329421716829,Lantao,Mei,11849,1783329421716829,854518728062939,user_quick_reply: BUTTON_DKB_species,:keycap_3:,2018-08-20 19:34:44
+1783329421716829,Lantao,Mei,11850,854518728062939,1783329421716829,BOT: message,"Oops, that wasn't quite correct. :disappointed_face:",2018-08-20 19:34:45
+1783329421716829,Lantao,Mei,11851,854518728062939,1783329421716829,BOT: quick reply,The correct answer is domains.,2018-08-20 19:34:47
+1783329421716829,Lantao,Mei,11852,1783329421716829,854518728062939,user_quick_reply: WHY,Why?,2018-08-20 19:34:51
+1783329421716829,Lantao,Mei,11853,854518728062939,1783329421716829,BOT: message,Here's why:,2018-08-20 19:34:53
+1783329421716829,Lantao,Mei,11854,854518728062939,1783329421716829,BOT: quick reply,"Modern taxonomists have reordered many groups of organisms since Linnaeus. The main categories that biologists use are listed here from the most specific to the least specific category. All organisms can be classified into one of three domains, the least specific grouping. The three domains are Bacteria, Archaea, and Eukarya. The Kingdom is the next category after the Domain. All life is divided among six kingdoms: Kingdom Bacteria, Kingdom Archaea, Kingdom Protista, Kingdom Plantae, Kingdom Fungi, and Kingdom Animalia.",2018-08-20 19:34:54
+1783329421716829,Lantao,Mei,11862,854518728062939,1783329421716829,BOT: quick reply,"Hi Lantao, you haven't talked to me for a while. Would you like to resume the learning with me?",2018-08-20 20:00:43
+1783329421716829,Lantao,Mei,12269,1783329421716829,854518728062939,user_quick_reply: NEXT_QUESTION,Sure :raising_hands_medium-light_skin_tone:,2018-08-21 14:53:51
+1783329421716829,Lantao,Mei,12270,854518728062939,1783329421716829,BOT: message,"Alrighty, let's try this one.",2018-08-21 14:53:53
+1783329421716829,Lantao,Mei,12271,854518728062939,1783329421716829,BOT: quick reply,What opens two strands of DNA?,2018-08-21 14:53:54
+1783329421716829,Lantao,Mei,12272,1783329421716829,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-21 14:54:02
+1783329421716829,Lantao,Mei,12273,854518728062939,1783329421716829,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-08-21 14:54:03
+1783329421716829,Lantao,Mei,12274,854518728062939,1783329421716829,BOT: quick reply,":keycap_1: adenylate
+:keycap_2: helicase
+:keycap_3: replication
+:keycap_4: chromosome
+",2018-08-21 14:54:04
+1783329421716829,Lantao,Mei,12275,1783329421716829,854518728062939,user_quick_reply: BUTTON_DKB_chromosome,:keycap_4:,2018-08-21 14:54:11
+1783329421716829,Lantao,Mei,12276,854518728062939,1783329421716829,BOT: message,"Hmm, that wasn't quite right. :disappointed_face:",2018-08-21 14:54:13
+1783329421716829,Lantao,Mei,12277,854518728062939,1783329421716829,BOT: quick reply,The correct answer is helicase.,2018-08-21 14:54:14
+1783329421716829,Lantao,Mei,12278,1783329421716829,854518728062939,user_quick_reply: WHY,Why?,2018-08-21 14:54:20
+1783329421716829,Lantao,Mei,12279,854518728062939,1783329421716829,BOT: message,Here's an explanation:,2018-08-21 14:54:21
+1783329421716829,Lantao,Mei,12280,854518728062939,1783329421716829,BOT: quick reply,"DNA replication. The two DNA strands are opened by helicase. The strands are held open by a single strand of binding proteins, preventing premature reannealing. Topoisomerase solves the problem caused by tension generated by winding/unwinding of DNA. This enzyme wraps around DNA and makes a cut permitting the helix to spin and relax. Once DNA is relaxed, topoisomerase reconnects broken strands. DNA primase synthesizes a short RNA primer which initiates the Okazaki fragment. Okazaki fragments are attached by DNA ligase.",2018-08-21 14:54:23
+1783329421716829,Lantao,Mei,12281,1783329421716829,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-21 14:54:45
+1783329421716829,Lantao,Mei,12282,854518728062939,1783329421716829,BOT: message,Let's see if you can answer this question.,2018-08-21 14:54:47
+1783329421716829,Lantao,Mei,12283,854518728062939,1783329421716829,BOT: quick reply,A bee will sometimes do a dance to tell other bees in the hive where to find what?,2018-08-21 14:54:48
+1783329421716829,Lantao,Mei,12284,1783329421716829,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-21 14:54:59
+1783329421716829,Lantao,Mei,12285,854518728062939,1783329421716829,BOT: message,Pick one of the following answers.,2018-08-21 14:55:01
+1783329421716829,Lantao,Mei,12286,854518728062939,1783329421716829,BOT: quick reply,":keycap_1: honey
+:keycap_2: enemies
+:keycap_3: food
+:keycap_4: water
+",2018-08-21 14:55:02
+1783329421716829,Lantao,Mei,12287,1783329421716829,854518728062939,user_quick_reply: BUTTON_AKB_food,:keycap_3:,2018-08-21 14:55:22
+1783329421716829,Lantao,Mei,12288,854518728062939,1783329421716829,BOT: image,https://www.smartprimer.org:443/pictures/avatar/congrats/penguinnormal_happy_cyan.png,2018-08-21 14:55:24
+1783329421716829,Lantao,Mei,12289,854518728062939,1783329421716829,BOT: message,Great job!,2018-08-21 14:55:26
+1783329421716829,Lantao,Mei,12290,854518728062939,1783329421716829,BOT: quick reply,The correct answer is food.,2018-08-21 14:55:27
+1783329421716829,Lantao,Mei,12291,1783329421716829,854518728062939,user_quick_reply: WHY,Why?,2018-08-21 14:55:33
+1783329421716829,Lantao,Mei,12292,854518728062939,1783329421716829,BOT: message,I hope this explanation could help you understand the the question.,2018-08-21 14:55:34
+1783329421716829,Lantao,Mei,12293,854518728062939,1783329421716829,BOT: quick reply,"There are many other examples of innate behaviors. For example, did you know that honeybees dance? When the bee returns to its hive, it will do a dance. This dance is called the waggle dance. The way the bee moves during its dance tells other bees in the hive where to find the food. Honeybees can do the waggle dance without learning it from other bees, so it is an innate behavior.",2018-08-21 14:55:35
+1783329421716829,Lantao,Mei,12294,1783329421716829,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-21 14:55:55
+1783329421716829,Lantao,Mei,12295,854518728062939,1783329421716829,BOT: message,Let's see if you can answer this question.,2018-08-21 14:55:57
+1783329421716829,Lantao,Mei,12296,854518728062939,1783329421716829,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-21 14:55:58
+1783329421716829,Lantao,Mei,12297,854518728062939,1783329421716829,BOT: quick reply,What is a fiber that is found only in mammals?,2018-08-21 14:56:00
+1783329421716829,Lantao,Mei,12298,1783329421716829,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-21 14:56:06
+1783329421716829,Lantao,Mei,12299,854518728062939,1783329421716829,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-08-21 14:56:07
+1783329421716829,Lantao,Mei,12300,854518728062939,1783329421716829,BOT: quick reply,":keycap_1: nails
+:keycap_2: feathers
+:keycap_3: hair
+:keycap_4: muscle
+",2018-08-21 14:56:09
+1783329421716829,Lantao,Mei,12301,1783329421716829,854518728062939,user_quick_reply: BUTTON_DKB_nails,:keycap_1:,2018-08-21 14:56:19
+1783329421716829,Lantao,Mei,12302,854518728062939,1783329421716829,BOT: message,"I'm sorry, but that was incorrect. :disappointed_face:",2018-08-21 14:56:21
+1783329421716829,Lantao,Mei,12303,854518728062939,1783329421716829,BOT: quick reply,The correct answer is hair.,2018-08-21 14:56:22
+1783329421716829,Lantao,Mei,12304,1783329421716829,854518728062939,user_quick_reply: WHY,Why?,2018-08-21 14:56:28
+1783329421716829,Lantao,Mei,12305,854518728062939,1783329421716829,BOT: message,I hope this explanation could help you understand the the question.,2018-08-21 14:56:30
+1783329421716829,Lantao,Mei,12306,854518728062939,1783329421716829,BOT: quick reply,"Hair is a fiber that is found only in mammals. Its main component is keratin. A hair shaft consists of dead, keratin-filled cells that overlap each other like the shingles on a roof. Like roof shingles, the overlapping cells help shed water from the hair.",2018-08-21 14:56:31
+1783329421716829,Lantao,Mei,12307,1783329421716829,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-21 14:56:47
+1783329421716829,Lantao,Mei,12308,854518728062939,1783329421716829,BOT: message,I think you'll like this question.,2018-08-21 14:56:48
+1783329421716829,Lantao,Mei,12309,854518728062939,1783329421716829,BOT: quick reply,How does a neon light produce visible light?,2018-08-21 14:56:50
+1783329421716829,Lantao,Mei,12310,1783329421716829,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-21 14:56:57
+1783329421716829,Lantao,Mei,12311,854518728062939,1783329421716829,BOT: message,Pick one of the following answers.,2018-08-21 14:56:58
+1783329421716829,Lantao,Mei,12312,854518728062939,1783329421716829,BOT: quick reply,":keycap_1: mitosis
+:keycap_2: luminescence
+:keycap_3: radiation
+:keycap_4: electroluminescence
+",2018-08-21 14:57:00
+1783329421716829,Lantao,Mei,12313,1783329421716829,854518728062939,user_quick_reply: BUTTON_DKB_luminescence,:keycap_2:,2018-08-21 14:57:07
+1783329421716829,Lantao,Mei,12314,854518728062939,1783329421716829,BOT: message,"Oops, that is not correct. :disappointed_face:",2018-08-21 14:57:08
+1783329421716829,Lantao,Mei,12315,854518728062939,1783329421716829,BOT: quick reply,The correct answer is electroluminescence.,2018-08-21 14:57:10
+1783329421716829,Lantao,Mei,12316,1783329421716829,854518728062939,user_quick_reply: WHY,Why?,2018-08-21 14:57:14
+1783329421716829,Lantao,Mei,12317,854518728062939,1783329421716829,BOT: message,This is an explanation of the question:,2018-08-21 14:57:16
+1783329421716829,Lantao,Mei,12318,854518728062939,1783329421716829,BOT: quick reply,"A neon light produces visible light by electroluminescence. The bulb is a glass tube that contains the noble gas neon. When electricity passes through the gas, it excites electrons of neon atoms, causing them to give off visible light. Neon produces red light. Other noble gases are also used in lights, and they produce light of different colors. For example, krypton produces violet light, and argon produces blue light.",2018-08-21 14:57:17
+1783329421716829,Lantao,Mei,12319,1783329421716829,854518728062939,user_quick_reply: SWITCH_SUBJECT,Change subject :shuffle_tracks_button:,2018-08-21 14:57:33
+1783329421716829,Lantao,Mei,12320,854518728062939,1783329421716829,BOT: quick reply,"Cool, which subject do you want to study?:backhand_index_pointing_down_medium-light_skin_tone:",2018-08-21 14:57:35
+1783329421716829,Lantao,Mei,12321,1783329421716829,854518728062939,user_quick_reply: SAFETY,Safety:hammer_and_wrench:,2018-08-21 14:57:40
+1783329421716829,Lantao,Mei,12322,854518728062939,1783329421716829,BOT: image,https://www.smartprimer.org:443/pictures/avatar/evolvescientist_safety.gif,2018-08-21 14:57:44
+1783329421716829,Lantao,Mei,12323,854518728062939,1783329421716829,BOT: quick reply,Let's answer some questions about safety!,2018-08-21 14:57:45
+1783329421716829,Lantao,Mei,12324,1783329421716829,854518728062939,user_quick_reply: NEXT_QUESTION,Next :white_heavy_check_mark:,2018-08-21 14:57:50
+1783329421716829,Lantao,Mei,12325,854518728062939,1783329421716829,BOT: message,Could you answer this one for me?,2018-08-21 14:57:52
+1783329421716829,Lantao,Mei,12326,854518728062939,1783329421716829,BOT: quick reply,True or false: all workplaces need to provide portable fire extinguishers.,2018-08-21 14:57:53
+1783329421716829,Lantao,Mei,12327,1783329421716829,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-21 14:58:02
+1783329421716829,Lantao,Mei,12328,854518728062939,1783329421716829,BOT: message,Which of the following options is the right answer?,2018-08-21 14:58:04
+1783329421716829,Lantao,Mei,12329,854518728062939,1783329421716829,BOT: quick reply,":keycap_1: false
+:keycap_2: true
+",2018-08-21 14:58:05
+1783329421716829,Lantao,Mei,12330,1783329421716829,854518728062939,user_quick_reply: BUTTON_DKB_true,:keycap_2:,2018-08-21 14:58:09
+1783329421716829,Lantao,Mei,12331,854518728062939,1783329421716829,BOT: message,"Oops, that wasn't quite correct. :disappointed_face:",2018-08-21 14:58:11
+1783329421716829,Lantao,Mei,12332,854518728062939,1783329421716829,BOT: quick reply,The correct answer is false.,2018-08-21 14:58:13
+1783329421716829,Lantao,Mei,12333,1783329421716829,854518728062939,user_quick_reply: WHY,Why?,2018-08-21 14:58:17
+1783329421716829,Lantao,Mei,12334,854518728062939,1783329421716829,BOT: message,Here's why:,2018-08-21 14:58:18
+1783329421716829,Lantao,Mei,12335,854518728062939,1783329421716829,BOT: quick reply,"According to OSHA, employers are not required to provide portable fire extinguishers in the office. But if they do, they must set up an educational program to acquaint employees with the general principles of fire extinguisher use.",2018-08-21 14:58:20
+1783329421716829,Lantao,Mei,12336,1783329421716829,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-21 14:58:32
+1783329421716829,Lantao,Mei,12337,854518728062939,1783329421716829,BOT: message,Let's try this one.,2018-08-21 14:58:34
+1783329421716829,Lantao,Mei,12338,854518728062939,1783329421716829,BOT: quick reply,The pesticides program SENSOR-Pesticides monitors ____________________.,2018-08-21 14:58:35
+1783329421716829,Lantao,Mei,12339,1783329421716829,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-21 14:58:41
+1783329421716829,Lantao,Mei,12340,854518728062939,1783329421716829,BOT: message,Which of the following options is the right answer?,2018-08-21 14:58:42
+1783329421716829,Lantao,Mei,12341,854518728062939,1783329421716829,BOT: quick reply,":keycap_1: preventive measures undertaken during pesticide use
+:keycap_2: pesticide-related illnesses and injuries in the U.S.
+:keycap_3: the amount of pesticides used in the U.S. annually
+:keycap_4: toxicity levels of pesticides
+",2018-08-21 14:58:44
+1783329421716829,Lantao,Mei,12342,1783329421716829,854518728062939,user_quick_reply: BUTTON_DKB_preventive measures undertaken during pesticide use,:keycap_1:,2018-08-21 14:58:49
+1783329421716829,Lantao,Mei,12343,854518728062939,1783329421716829,BOT: message,"Oops, that is not correct. :disappointed_face:",2018-08-21 14:58:51
+1783329421716829,Lantao,Mei,12344,854518728062939,1783329421716829,BOT: quick reply,The correct answer is pesticide-related illnesses and injuries in the U.S..,2018-08-21 14:58:52
+1783329421716829,Lantao,Mei,12345,1783329421716829,854518728062939,user_quick_reply: WHY,Why?,2018-08-21 14:59:02
+1783329421716829,Lantao,Mei,12346,854518728062939,1783329421716829,BOT: message,I hope this explanation could help you understand the the question.,2018-08-21 14:59:03
+1783329421716829,Lantao,Mei,12347,854518728062939,1783329421716829,BOT: quick reply,"One of the illnesses covered under the Sentinel Event Notification System for Occupational Risk (SENSOR) program (which builds and maintains occupational illness and injury surveillance capacity within state health departments) is acute occupational pesticide-related injuries and illnesses. Supported by NIOSH (National Institute of Occupational Safety and Health), a total of 12 states participate in the SENSOR-Pesticides program. In addition to keeping a record of the number of acute occupational pesticide-related cases, SENSORs surveillance systems also develop preventive methods designed to mitigate pesticide hazards.",2018-08-21 14:59:04
+1783329421716829,Lantao,Mei,12348,1783329421716829,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-21 14:59:20
+1783329421716829,Lantao,Mei,12349,854518728062939,1783329421716829,BOT: message,I think you'll like this question.,2018-08-21 14:59:21
+1783329421716829,Lantao,Mei,12350,854518728062939,1783329421716829,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-21 14:59:22
+1783329421716829,Lantao,Mei,12351,854518728062939,1783329421716829,BOT: quick reply,What is the maximum amount of time perishable food should be left out?,2018-08-21 14:59:24
+1783329421716829,Lantao,Mei,12352,1783329421716829,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-21 14:59:33
+1783329421716829,Lantao,Mei,12353,854518728062939,1783329421716829,BOT: message,Pick one of the following answers.,2018-08-21 14:59:34
+1783329421716829,Lantao,Mei,12354,854518728062939,1783329421716829,BOT: quick reply,":keycap_1: 1.5 hours
+:keycap_2: 3 hours
+:keycap_3: 3.5 hours
+:keycap_4: 2 hours
+",2018-08-21 14:59:36
+1783329421716829,Lantao,Mei,12355,1783329421716829,854518728062939,user_quick_reply: BUTTON_DKB_3 hours,:keycap_2:,2018-08-21 14:59:41
+1783329421716829,Lantao,Mei,12356,854518728062939,1783329421716829,BOT: message,That's not quite right. :disappointed_face:,2018-08-21 14:59:42
+1783329421716829,Lantao,Mei,12357,854518728062939,1783329421716829,BOT: quick reply,The correct answer is 2 hours.,2018-08-21 14:59:43
+1783329421716829,Lantao,Mei,12358,1783329421716829,854518728062939,user_quick_reply: WHY,Why?,2018-08-21 14:59:48
+1783329421716829,Lantao,Mei,12359,854518728062939,1783329421716829,BOT: message,I hope this explanation could help you understand the the question.,2018-08-21 14:59:50
+1783329421716829,Lantao,Mei,12360,854518728062939,1783329421716829,BOT: quick reply,Perishable food should not be left out more than 2 hours at room temperature (1 hour when the temperature is above 90 F),2018-08-21 14:59:52
+1783329421716829,Lantao,Mei,12361,1783329421716829,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-21 15:00:02
+1783329421716829,Lantao,Mei,12362,854518728062939,1783329421716829,BOT: message,Let's see if you can answer this question.,2018-08-21 15:00:03
+1783329421716829,Lantao,Mei,12363,854518728062939,1783329421716829,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-21 15:00:04
+1783329421716829,Lantao,Mei,12364,854518728062939,1783329421716829,BOT: quick reply,How can employers help lower the rate of pesticide exposure?,2018-08-21 15:00:06
+1783329421716829,Lantao,Mei,12365,1783329421716829,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-21 15:00:16
+1783329421716829,Lantao,Mei,12366,854518728062939,1783329421716829,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-08-21 15:00:17
+1783329421716829,Lantao,Mei,12367,854518728062939,1783329421716829,BOT: quick reply,":keycap_1: by not letting workers know that they are working with toxic chemicals
+:keycap_2: through short training sessions every 5 years
+:keycap_3: through comprehensive training on each chemical and educating workers about their rights
+:keycap_4: by letting workers learn about the risks on the job
+",2018-08-21 15:00:18
+1783329421716829,Lantao,Mei,12368,1783329421716829,854518728062939,user_quick_reply: BUTTON_DKB_by letting workers learn about the risks on the job,:keycap_4:,2018-08-21 15:00:34
+1783329421716829,Lantao,Mei,12369,854518728062939,1783329421716829,BOT: message,"Oops, that wasn't quite correct. :disappointed_face:",2018-08-21 15:00:36
+1783329421716829,Lantao,Mei,12370,854518728062939,1783329421716829,BOT: quick reply,The correct answer is through comprehensive training on each chemical and educating workers about their rights.,2018-08-21 15:00:37
+1783329421716829,Lantao,Mei,12371,1783329421716829,854518728062939,user_quick_reply: WHY,Why?,2018-08-21 15:00:44
+1783329421716829,Lantao,Mei,12372,854518728062939,1783329421716829,BOT: message,Here's an explanation:,2018-08-21 15:00:46
+1783329421716829,Lantao,Mei,12373,854518728062939,1783329421716829,BOT: quick reply,"Workers inability to make proper use of their right (under the Worker Protection Standard issued by the EPA) to report violations often stems from lack of awareness, making the employers contribution to training and education all the more important. Employers can help lower the rate of pesticide exposure through comprehensive training on each chemical, educating workers about their rights, strategizing on preventive methods, making workers comprehend label information on pesticide containers, and providing workers with proper PPE.",2018-08-21 15:00:47
+1783329421716829,Lantao,Mei,12374,1783329421716829,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-21 15:00:54
+1783329421716829,Lantao,Mei,12375,854518728062939,1783329421716829,BOT: message,How about this next one:,2018-08-21 15:00:55
+1783329421716829,Lantao,Mei,12376,854518728062939,1783329421716829,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-21 15:00:56
+1783329421716829,Lantao,Mei,12377,854518728062939,1783329421716829,BOT: quick reply,The hint shows a list of food items and the minimum internal food temperature at which they should be cooked. Which of these is incorrect?,2018-08-21 15:00:58
+1783329421716829,Lantao,Mei,12378,1783329421716829,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-21 15:01:13
+1783329421716829,Lantao,Mei,12379,854518728062939,1783329421716829,BOT: message,Pick one of the following answers.,2018-08-21 15:01:15
+1783329421716829,Lantao,Mei,12380,854518728062939,1783329421716829,BOT: quick reply,":keycap_1: fish and Shellfish: 145 degrees Fahrenheit
+:keycap_2: ground beef: 160 degrees Fahrenheit
+:keycap_3: leftovers: 165 degrees Fahrenheit
+:keycap_4: eggs: 145 degrees Fahrenheit
+",2018-08-21 15:01:16
+1783329421716829,Lantao,Mei,12381,1783329421716829,854518728062939,user_quick_reply: BUTTON_DKB_fish and Shellfish: 145 degrees Fahrenheit,:keycap_1:,2018-08-21 15:01:47
+1783329421716829,Lantao,Mei,12382,854518728062939,1783329421716829,BOT: message,"Oops, that wasn't quite correct. :disappointed_face:",2018-08-21 15:01:48
+1783329421716829,Lantao,Mei,12383,854518728062939,1783329421716829,BOT: quick reply,The correct answer is eggs: 145 degrees Fahrenheit.,2018-08-21 15:01:50
+1783329421716829,Lantao,Mei,12384,1783329421716829,854518728062939,user_quick_reply: WHY,Why?,2018-08-21 15:01:58
+1783329421716829,Lantao,Mei,12385,854518728062939,1783329421716829,BOT: message,Here's an explanation:,2018-08-21 15:02:00
+1783329421716829,Lantao,Mei,12386,854518728062939,1783329421716829,BOT: quick reply,"Eggs should be cooked at a minimum internal temperature of 160 degree Fahrenheit. The Centers for Disease Control and Prevention explains why: a type of bacterium, Salmonella, can be on both the outside and inside of eggs that appear to be normal, and if the eggs are eaten raw or lightly cooked, the bacterium can cause illness.",2018-08-21 15:02:01
+1783329421716829,Lantao,Mei,12387,1783329421716829,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-21 15:02:07
+1783329421716829,Lantao,Mei,12388,854518728062939,1783329421716829,BOT: message,Would you answer this question for me?,2018-08-21 15:02:09
+1783329421716829,Lantao,Mei,12389,854518728062939,1783329421716829,BOT: quick reply,How can employers help lower the rate of pesticide exposure?,2018-08-21 15:02:10
+1783329421716829,Lantao,Mei,12424,854518728062939,1783329421716829,BOT: quick reply,"Hi Lantao, you haven't talked to me for a while. Would you like to resume the learning with me?",2018-08-21 20:01:16
+1783329421716829,Lantao,Mei,12587,1783329421716829,854518728062939,user_quick_reply: NEXT_QUESTION,OK :collision:,2018-08-22 09:58:59
+1783329421716829,Lantao,Mei,12588,854518728062939,1783329421716829,BOT: message,Here's a question for you:,2018-08-22 09:59:01
+1783329421716829,Lantao,Mei,12589,854518728062939,1783329421716829,BOT: quick reply,True or false: all workplaces need to provide portable fire extinguishers.,2018-08-22 09:59:02
+1783329421716829,Lantao,Mei,12590,1783329421716829,854518728062939,user_typing,false,2018-08-22 09:59:17
+1783329421716829,Lantao,Mei,12591,854518728062939,1783329421716829,BOT: image,https://www.smartprimer.org:443/pictures/avatar/congrats/penguinnormal_happy_cyan.png,2018-08-22 09:59:20
+1783329421716829,Lantao,Mei,12592,854518728062939,1783329421716829,BOT: message,Correct! :confetti_ball:,2018-08-22 09:59:21
+1783329421716829,Lantao,Mei,12593,854518728062939,1783329421716829,BOT: quick reply,The correct answer is false.,2018-08-22 09:59:23
+1783329421716829,Lantao,Mei,12594,1783329421716829,854518728062939,user_quick_reply: WHY,Why?,2018-08-22 09:59:32
+1783329421716829,Lantao,Mei,12595,854518728062939,1783329421716829,BOT: message,Here's why:,2018-08-22 09:59:33
+1783329421716829,Lantao,Mei,12596,854518728062939,1783329421716829,BOT: quick reply,"According to OSHA, employers are not required to provide portable fire extinguishers in the office. But if they do, they must set up an educational program to acquaint employees with the general principles of fire extinguisher use.",2018-08-22 09:59:35
+1783329421716829,Lantao,Mei,12597,1783329421716829,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-22 09:59:41
+1783329421716829,Lantao,Mei,12598,854518728062939,1783329421716829,BOT: message,What about this next question:,2018-08-22 09:59:42
+1783329421716829,Lantao,Mei,12599,854518728062939,1783329421716829,BOT: quick reply,What is a symptom of a heatstroke?,2018-08-22 09:59:44
+1783329421716829,Lantao,Mei,12600,1783329421716829,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-22 09:59:50
+1783329421716829,Lantao,Mei,12601,854518728062939,1783329421716829,BOT: message,It's one of the following choices.,2018-08-22 09:59:52
+1783329421716829,Lantao,Mei,12602,854518728062939,1783329421716829,BOT: quick reply,":keycap_1: rapid strong pulse
+:keycap_2: rapid strong pulse, hallucinations, throbbing headache, and high body temperature
+:keycap_3: high body temperature
+:keycap_4: throbbing headache
+:keycap_5: hallucinations
+",2018-08-22 09:59:53
+1783329421716829,Lantao,Mei,12603,1783329421716829,854518728062939,"user_quick_reply: BUTTON_AKB_rapid strong pulse, hallucinations, throbbing headache, and high body temperature",:keycap_2:,2018-08-22 10:00:00
+1783329421716829,Lantao,Mei,12604,854518728062939,1783329421716829,BOT: message,Great job getting the correct answer!,2018-08-22 10:00:02
+1783329421716829,Lantao,Mei,12605,854518728062939,1783329421716829,BOT: quick reply,"The correct answer is rapid strong pulse, hallucinations, throbbing headache, and high body temperature.",2018-08-22 10:00:04
+1783329421716829,Lantao,Mei,12606,1783329421716829,854518728062939,user_quick_reply: WHY,Why?,2018-08-22 10:00:09
+1783329421716829,Lantao,Mei,12607,854518728062939,1783329421716829,BOT: message,Here's an explanation:,2018-08-22 10:00:11
+1783329421716829,Lantao,Mei,12608,854518728062939,1783329421716829,BOT: quick reply,"According to the Centers for Disease Control and Prevention, a person's body temperature can rise to 106 F or higher within a span of 10 to 15 minutes, in case of a heatstroke. In the absence of emergency treatment, a person suffering from heatstroke can also die or become physically impaired. In case you find the above symptoms in your co-worker, CDC advises that you call 911 and inform your supervisor. Take the patient to a cool, shaded area; spray, sponge, or soak him/her in water; and fan his/her body",2018-08-22 10:00:12
+1783329421716829,Lantao,Mei,12609,1783329421716829,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-22 10:01:20
+1783329421716829,Lantao,Mei,12610,854518728062939,1783329421716829,BOT: message,Would you answer this question for me?,2018-08-22 10:01:22
+1783329421716829,Lantao,Mei,12611,854518728062939,1783329421716829,BOT: quick reply,Which fire extinguishers are used to put out fires caused by flammable liquids?,2018-08-22 10:01:24
+1783329421716829,Lantao,Mei,12612,1783329421716829,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-22 10:01:30
+1783329421716829,Lantao,Mei,12613,854518728062939,1783329421716829,BOT: message,Okay. I'll give you some choices.,2018-08-22 10:01:32
+1783329421716829,Lantao,Mei,12614,854518728062939,1783329421716829,BOT: quick reply,":keycap_1: class A water fire extinguishers
+:keycap_2: class C dry chemical fire extinguisher
+:keycap_3: class B carbon dioxide fire extinguisher
+",2018-08-22 10:01:34
+1783329421716829,Lantao,Mei,12615,1783329421716829,854518728062939,user_quick_reply: BUTTON_DKB_class A water fire extinguishers,:keycap_1:,2018-08-22 10:01:40
+1783329421716829,Lantao,Mei,12616,854518728062939,1783329421716829,BOT: message,"Oops, that wasn't quite correct. :disappointed_face:",2018-08-22 10:01:42
+1783329421716829,Lantao,Mei,12617,854518728062939,1783329421716829,BOT: quick reply,The correct answer is class B carbon dioxide fire extinguisher.,2018-08-22 10:01:43
+1783329421716829,Lantao,Mei,12618,1783329421716829,854518728062939,user_quick_reply: WHY,Why?,2018-08-22 10:01:50
+1783329421716829,Lantao,Mei,12619,854518728062939,1783329421716829,BOT: message,Here's why:,2018-08-22 10:01:52
+1783329421716829,Lantao,Mei,12620,854518728062939,1783329421716829,BOT: quick reply,"Flammable liquids include oils, gasoline, paints, grease, lacquers, and solvents. Class B carbon dioxide fire extinguishers are used to put out fires caused by flammable liquids.",2018-08-22 10:01:54
+1783329421716829,Lantao,Mei,12621,1783329421716829,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-22 10:02:04
+1783329421716829,Lantao,Mei,12622,854518728062939,1783329421716829,BOT: message,Let's see if you can answer this question.,2018-08-22 10:02:06
+1783329421716829,Lantao,Mei,12623,854518728062939,1783329421716829,BOT: quick reply,"If your co-worker needs CPR but you are not trained in it, what should you do?",2018-08-22 10:02:07
+1783329421716829,Lantao,Mei,12624,1783329421716829,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-22 10:02:15
+1783329421716829,Lantao,Mei,12625,854518728062939,1783329421716829,BOT: message,Which of the following options is the right answer?,2018-08-22 10:02:17
+1783329421716829,Lantao,Mei,12626,854518728062939,1783329421716829,BOT: quick reply,":keycap_1: lifting the patient's head
+:keycap_2: waiting for emergency personnel to arrive
+:keycap_3: giving rescue breaths only
+:keycap_4: performing chest compressions only
+",2018-08-22 10:02:19
+1783329421716829,Lantao,Mei,12627,1783329421716829,854518728062939,user_quick_reply: BUTTON_AKB_performing chest compressions only,:keycap_4:,2018-08-22 10:02:30
+1783329421716829,Lantao,Mei,12628,854518728062939,1783329421716829,BOT: message,Yes! You got the correct answer!,2018-08-22 10:02:32
+1783329421716829,Lantao,Mei,12629,854518728062939,1783329421716829,BOT: quick reply,The correct answer is performing chest compressions only.,2018-08-22 10:02:33
+1783329421716829,Lantao,Mei,12630,1783329421716829,854518728062939,user_quick_reply: WHY,Why?,2018-08-22 10:02:40
+1783329421716829,Lantao,Mei,12631,854518728062939,1783329421716829,BOT: message,This is an explanation of the question:,2018-08-22 10:02:42
+1783329421716829,Lantao,Mei,12632,854518728062939,1783329421716829,BOT: quick reply,"According to Mayo Clinic, it's far better to do something than to do nothing at all if you're fearful that your knowledge or abilities arent 100 percent complete. If you're not trained in CPR, then provide hands-only CPR. That means uninterrupted chest compressions of about 100 a minute until paramedics arrive. You don't need to try rescue breathing.",2018-08-22 10:02:44
+1783329421716829,Lantao,Mei,12633,1783329421716829,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-22 10:03:06
+1783329421716829,Lantao,Mei,12634,854518728062939,1783329421716829,BOT: message,"Alrighty, let's try this one.",2018-08-22 10:03:08
+1783329421716829,Lantao,Mei,12635,854518728062939,1783329421716829,BOT: quick reply,What should you NOT do when lowering a load?,2018-08-22 10:03:09
+1783329421716829,Lantao,Mei,12636,1783329421716829,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-22 10:03:16
+1783329421716829,Lantao,Mei,12637,854518728062939,1783329421716829,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-08-22 10:03:18
+1783329421716829,Lantao,Mei,12638,854518728062939,1783329421716829,BOT: quick reply,":keycap_1: bending your knees
+:keycap_2: twisting your body, keep the load close, and bend your knees
+:keycap_3: twisting your body
+:keycap_4: keeping the load close to your body
+",2018-08-22 10:03:19
+1783329421716829,Lantao,Mei,12639,1783329421716829,854518728062939,user_quick_reply: BUTTON_AKB_twisting your body,:keycap_3:,2018-08-22 10:03:31
+1783329421716829,Lantao,Mei,12640,854518728062939,1783329421716829,BOT: message,Nice! That was right!,2018-08-22 10:03:33
+1783329421716829,Lantao,Mei,12641,854518728062939,1783329421716829,BOT: quick reply,The correct answer is twisting your body.,2018-08-22 10:03:35
+1783329421716829,Lantao,Mei,12642,1783329421716829,854518728062939,user_quick_reply: WHY,Why?,2018-08-22 10:03:40
+1783329421716829,Lantao,Mei,12643,854518728062939,1783329421716829,BOT: message,I hope this explanation could help you understand the the question.,2018-08-22 10:03:41
+1783329421716829,Lantao,Mei,12644,854518728062939,1783329421716829,BOT: quick reply,"To lower a load, you should make use of its edge, bend your knees, keep the load close to their body, and avoid twisting your torso.",2018-08-22 10:03:43
+1783329421716829,Lantao,Mei,12645,1783329421716829,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-22 10:03:53
+1783329421716829,Lantao,Mei,12646,854518728062939,1783329421716829,BOT: message,"Alrighty, let's try this one.",2018-08-22 10:03:54
+1783329421716829,Lantao,Mei,12647,854518728062939,1783329421716829,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-22 10:03:56
+1783329421716829,Lantao,Mei,12648,854518728062939,1783329421716829,BOT: quick reply,The hint shows a list of food items and the minimum internal food temperature at which they should be cooked. Which of these is incorrect?,2018-08-22 10:03:58
+1783329421716829,Lantao,Mei,12649,1783329421716829,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-22 10:04:07
+1783329421716829,Lantao,Mei,12650,854518728062939,1783329421716829,BOT: message,It's one of the following choices.,2018-08-22 10:04:08
+1783329421716829,Lantao,Mei,12651,854518728062939,1783329421716829,BOT: quick reply,":keycap_1: eggs: 145 degrees Fahrenheit
+:keycap_2: ground beef: 160 degrees Fahrenheit
+:keycap_3: leftovers: 165 degrees Fahrenheit
+:keycap_4: fish and Shellfish: 145 degrees Fahrenheit
+",2018-08-22 10:04:10
+1783329421716829,Lantao,Mei,12652,1783329421716829,854518728062939,user_quick_reply: BUTTON_AKB_eggs: 145 degrees Fahrenheit,:keycap_1:,2018-08-22 10:04:16
+1783329421716829,Lantao,Mei,12653,854518728062939,1783329421716829,BOT: image,https://www.smartprimer.org:443/pictures/avatar/congrats/penguinnormal_happy_orange.png,2018-08-22 10:04:19
+1783329421716829,Lantao,Mei,12654,854518728062939,1783329421716829,BOT: message,Great! Keep it up! :flexed_biceps_medium-light_skin_tone:,2018-08-22 10:04:21
+1783329421716829,Lantao,Mei,12655,854518728062939,1783329421716829,BOT: quick reply,The correct answer is eggs: 145 degrees Fahrenheit.,2018-08-22 10:04:22
+1783329421716829,Lantao,Mei,12656,1783329421716829,854518728062939,user_quick_reply: WHY,Why?,2018-08-22 10:04:27
+1783329421716829,Lantao,Mei,12657,854518728062939,1783329421716829,BOT: message,Here's why:,2018-08-22 10:04:29
+1783329421716829,Lantao,Mei,12658,854518728062939,1783329421716829,BOT: quick reply,"Eggs should be cooked at a minimum internal temperature of 160 degree Fahrenheit. The Centers for Disease Control and Prevention explains why: a type of bacterium, Salmonella, can be on both the outside and inside of eggs that appear to be normal, and if the eggs are eaten raw or lightly cooked, the bacterium can cause illness.",2018-08-22 10:04:31
+1783329421716829,Lantao,Mei,12659,1783329421716829,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-22 10:04:38
+1783329421716829,Lantao,Mei,12660,854518728062939,1783329421716829,BOT: message,Would you answer this question for me?,2018-08-22 10:04:39
+1783329421716829,Lantao,Mei,12661,854518728062939,1783329421716829,BOT: quick reply,True or false: all workplaces need to provide portable fire extinguishers.,2018-08-22 10:04:41
+1783329421716829,Lantao,Mei,12662,1783329421716829,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-22 10:04:49
+1783329421716829,Lantao,Mei,12663,854518728062939,1783329421716829,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-08-22 10:04:51
+1783329421716829,Lantao,Mei,12664,854518728062939,1783329421716829,BOT: quick reply,":keycap_1: false
+:keycap_2: true
+",2018-08-22 10:04:53
+1783329421716829,Lantao,Mei,12665,1783329421716829,854518728062939,user_quick_reply: BUTTON_AKB_false,:keycap_1:,2018-08-22 10:04:58
+1783329421716829,Lantao,Mei,12666,854518728062939,1783329421716829,BOT: image,https://www.smartprimer.org:443/pictures/avatar/congrats/penguinnormal_jubilated_pink.png,2018-08-22 10:05:01
+1783329421716829,Lantao,Mei,12667,854518728062939,1783329421716829,BOT: message,Yes! You got the correct answer!,2018-08-22 10:05:03
+1783329421716829,Lantao,Mei,12668,854518728062939,1783329421716829,BOT: quick reply,The correct answer is false.,2018-08-22 10:05:04
+1783329421716829,Lantao,Mei,12669,1783329421716829,854518728062939,user_quick_reply: WHY,Why?,2018-08-22 10:05:10
+1783329421716829,Lantao,Mei,12670,854518728062939,1783329421716829,BOT: message,Here's an explanation:,2018-08-22 10:05:12
+1783329421716829,Lantao,Mei,12671,854518728062939,1783329421716829,BOT: quick reply,"According to OSHA, employers are not required to provide portable fire extinguishers in the office. But if they do, they must set up an educational program to acquaint employees with the general principles of fire extinguisher use.",2018-08-22 10:05:14
+1783329421716829,Lantao,Mei,12672,1783329421716829,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-22 10:05:21
+1783329421716829,Lantao,Mei,12673,854518728062939,1783329421716829,BOT: message,See if you can answer this next one.,2018-08-22 10:05:23
+1783329421716829,Lantao,Mei,12674,854518728062939,1783329421716829,BOT: quick reply,"True or false: you can always smell, see, or taste harmful bacteria in food that can cause illness.",2018-08-22 10:05:24
+1783329421716829,Lantao,Mei,12675,1783329421716829,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-22 10:05:32
+1783329421716829,Lantao,Mei,12676,854518728062939,1783329421716829,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-08-22 10:05:34
+1783329421716829,Lantao,Mei,12677,854518728062939,1783329421716829,BOT: quick reply,":keycap_1: true
+:keycap_2: false
+",2018-08-22 10:05:35
+1783329421716829,Lantao,Mei,12678,1783329421716829,854518728062939,user_quick_reply: BUTTON_AKB_false,:keycap_2:,2018-08-22 10:05:41
+1783329421716829,Lantao,Mei,12679,854518728062939,1783329421716829,BOT: image,https://www.smartprimer.org:443/pictures/avatar/congrats/penguinnormal_jubilated_cyan.png,2018-08-22 10:05:44
+1783329421716829,Lantao,Mei,12680,854518728062939,1783329421716829,BOT: message,Great job getting the correct answer!,2018-08-22 10:05:46
+1783329421716829,Lantao,Mei,12681,854518728062939,1783329421716829,BOT: quick reply,The correct answer is false.,2018-08-22 10:05:47
+1783329421716829,Lantao,Mei,12682,1783329421716829,854518728062939,user_quick_reply: WHY,Why?,2018-08-22 10:05:55
+1783329421716829,Lantao,Mei,12683,854518728062939,1783329421716829,BOT: message,Here's why:,2018-08-22 10:05:57
+1783329421716829,Lantao,Mei,12684,854518728062939,1783329421716829,BOT: quick reply,"United States Department of Agriculture (USDA) states that you cannot always see, taste, or smell harmful bacteria that may cause illness.",2018-08-22 10:05:59
+1783329421716829,Lantao,Mei,12693,1783329421716829,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-22 18:13:08
+1783329421716829,Lantao,Mei,12694,854518728062939,1783329421716829,BOT: message,Let's try this question.,2018-08-22 18:13:09
+1783329421716829,Lantao,Mei,12695,854518728062939,1783329421716829,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-22 18:13:11
+1783329421716829,Lantao,Mei,12696,854518728062939,1783329421716829,BOT: quick reply,Working on scaffold during winds above ____ miles per hour is prohibited by OSHA.,2018-08-22 18:13:12
+1783329421716829,Lantao,Mei,12697,1783329421716829,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-22 18:13:24
+1783329421716829,Lantao,Mei,12698,854518728062939,1783329421716829,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-08-22 18:13:26
+1783329421716829,Lantao,Mei,12699,854518728062939,1783329421716829,BOT: quick reply,":keycap_1: 50
+:keycap_2: 40
+:keycap_3: 10
+:keycap_4: 25
+",2018-08-22 18:13:28
+1783329421716829,Lantao,Mei,12700,1783329421716829,854518728062939,user_quick_reply: BUTTON_AKB_40,:keycap_2:,2018-08-22 18:13:37
+1783329421716829,Lantao,Mei,12701,854518728062939,1783329421716829,BOT: message,Great job!,2018-08-22 18:13:38
+1783329421716829,Lantao,Mei,12702,854518728062939,1783329421716829,BOT: quick reply,The correct answer is 40.,2018-08-22 18:13:40
+1783329421716829,Lantao,Mei,12703,1783329421716829,854518728062939,user_quick_reply: WHY,Why?,2018-08-22 18:13:58
+1783329421716829,Lantao,Mei,12704,854518728062939,1783329421716829,BOT: message,This is why:,2018-08-22 18:14:00
+1783329421716829,Lantao,Mei,12705,854518728062939,1783329421716829,BOT: quick reply,OSHA prohibits working on or from scaffolds when winds are above 40 miles/hour except in cases when a competent person has concluded that it is safe for workers to be on a scaffold and these workers are protected by wind screens or fall arrest systems.,2018-08-22 18:14:02
+1783329421716829,Lantao,Mei,12714,854518728062939,1783329421716829,BOT: quick reply,"Hi Lantao, you haven't talked to me for a while. Would you like to resume the learning with me?",2018-08-22 20:01:49
+1783329421716829,Lantao,Mei,12821,1783329421716829,854518728062939,user_quick_reply: NEXT_QUESTION,Tap me :flexed_biceps_medium-light_skin_tone:,2018-08-23 09:30:23
+1783329421716829,Lantao,Mei,12822,854518728062939,1783329421716829,BOT: message,Here's a question for you:,2018-08-23 09:30:24
+1783329421716829,Lantao,Mei,12823,854518728062939,1783329421716829,BOT: quick reply,"When using a ladder to climb a roof, the ladder must extend at least___ above it.",2018-08-23 09:30:25
+1783329421716829,Lantao,Mei,12824,1783329421716829,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 09:30:34
+1783329421716829,Lantao,Mei,12825,854518728062939,1783329421716829,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-08-23 09:30:36
+1783329421716829,Lantao,Mei,12826,854518728062939,1783329421716829,BOT: quick reply,":keycap_1: 36
+:keycap_2: 24
+:keycap_3: 18
+:keycap_4: 30
+",2018-08-23 09:30:37
+1783329421716829,Lantao,Mei,12827,1783329421716829,854518728062939,user_quick_reply: BUTTON_AKB_36,:keycap_1:,2018-08-23 09:30:43
+1783329421716829,Lantao,Mei,12828,854518728062939,1783329421716829,BOT: image,https://www.smartprimer.org:443/pictures/avatar/congrats/penguinnormal_normal.png,2018-08-23 09:30:45
+1783329421716829,Lantao,Mei,12829,854518728062939,1783329421716829,BOT: message,Great! Keep it up! :flexed_biceps_medium-light_skin_tone:,2018-08-23 09:30:47
+1783329421716829,Lantao,Mei,12830,854518728062939,1783329421716829,BOT: quick reply,The correct answer is 36.,2018-08-23 09:30:48
+1783329421716829,Lantao,Mei,12831,1783329421716829,854518728062939,user_quick_reply: WHY,Why?,2018-08-23 09:30:53
+1783329421716829,Lantao,Mei,12832,854518728062939,1783329421716829,BOT: message,This is an explanation of the question:,2018-08-23 09:30:54
+1783329421716829,Lantao,Mei,12833,854518728062939,1783329421716829,BOT: quick reply,The ladder must extend at least 3 ft (36 inches) above the landing surface to allow worker a hand hold for climbing up and down the ladder.,2018-08-23 09:30:56
+1783329421716829,Lantao,Mei,12850,1783329421716829,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-23 13:39:14
+1783329421716829,Lantao,Mei,12851,854518728062939,1783329421716829,BOT: message,"Alrighty, let's try this one.",2018-08-23 13:39:16
+1783329421716829,Lantao,Mei,12852,854518728062939,1783329421716829,BOT: quick reply,True or false: all workplaces need to provide portable fire extinguishers.,2018-08-23 13:39:17
+1783329421716829,Lantao,Mei,12853,1783329421716829,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 13:39:24
+1783329421716829,Lantao,Mei,12854,854518728062939,1783329421716829,BOT: message,Pick one of the following answers.,2018-08-23 13:39:26
+1783329421716829,Lantao,Mei,12855,854518728062939,1783329421716829,BOT: quick reply,":keycap_1: false
+:keycap_2: true
+",2018-08-23 13:39:28
+1783329421716829,Lantao,Mei,12856,1783329421716829,854518728062939,user_quick_reply: BUTTON_AKB_false,:keycap_1:,2018-08-23 13:39:33
+1783329421716829,Lantao,Mei,12857,854518728062939,1783329421716829,BOT: image,https://www.smartprimer.org:443/pictures/avatar/congrats/penguinnormal_normal_purple.png,2018-08-23 13:39:35
+1783329421716829,Lantao,Mei,12858,854518728062939,1783329421716829,BOT: message,Nice work! Keep it up!,2018-08-23 13:39:37
+1783329421716829,Lantao,Mei,12859,854518728062939,1783329421716829,BOT: quick reply,The correct answer is false.,2018-08-23 13:39:38
+1783329421716829,Lantao,Mei,12860,1783329421716829,854518728062939,user_quick_reply: WHY,Why?,2018-08-23 13:39:46
+1783329421716829,Lantao,Mei,12861,854518728062939,1783329421716829,BOT: message,Here's an explanation:,2018-08-23 13:39:47
+1783329421716829,Lantao,Mei,12862,854518728062939,1783329421716829,BOT: quick reply,"According to OSHA, employers are not required to provide portable fire extinguishers in the office. But if they do, they must set up an educational program to acquaint employees with the general principles of fire extinguisher use.",2018-08-23 13:39:49
+1783329421716829,Lantao,Mei,12863,1783329421716829,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-23 13:39:54
+1783329421716829,Lantao,Mei,12864,854518728062939,1783329421716829,BOT: message,Could you answer this one for me?,2018-08-23 13:39:55
+1783329421716829,Lantao,Mei,12865,854518728062939,1783329421716829,BOT: quick reply,True or false: all workplaces need to provide portable fire extinguishers.,2018-08-23 13:39:57
+1783329421716829,Lantao,Mei,12866,1783329421716829,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 13:40:05
+1783329421716829,Lantao,Mei,12867,854518728062939,1783329421716829,BOT: message,Pick one of the following answers.,2018-08-23 13:40:06
+1783329421716829,Lantao,Mei,12868,854518728062939,1783329421716829,BOT: quick reply,":keycap_1: true
+:keycap_2: false
+",2018-08-23 13:40:08
+1783329421716829,Lantao,Mei,12869,1783329421716829,854518728062939,user_quick_reply: BUTTON_AKB_false,:keycap_2:,2018-08-23 13:40:13
+1783329421716829,Lantao,Mei,12870,854518728062939,1783329421716829,BOT: message,Great! Keep it up! :flexed_biceps_medium-light_skin_tone:,2018-08-23 13:40:14
+1783329421716829,Lantao,Mei,12871,854518728062939,1783329421716829,BOT: quick reply,The correct answer is false.,2018-08-23 13:40:16
+1783329421716829,Lantao,Mei,12872,1783329421716829,854518728062939,user_quick_reply: WHY,Why?,2018-08-23 13:40:21
+1783329421716829,Lantao,Mei,12873,854518728062939,1783329421716829,BOT: message,Here's why:,2018-08-23 13:40:22
+1783329421716829,Lantao,Mei,12874,854518728062939,1783329421716829,BOT: quick reply,"According to OSHA, employers are not required to provide portable fire extinguishers in the office. But if they do, they must set up an educational program to acquaint employees with the general principles of fire extinguisher use.",2018-08-23 13:40:24
+1783329421716829,Lantao,Mei,12875,1783329421716829,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-23 13:40:28
+1783329421716829,Lantao,Mei,12876,854518728062939,1783329421716829,BOT: message,See if you can answer this next one.,2018-08-23 13:40:30
+1783329421716829,Lantao,Mei,12877,854518728062939,1783329421716829,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-23 13:40:31
+1783329421716829,Lantao,Mei,12878,854518728062939,1783329421716829,BOT: quick reply,What does CERT stand for?,2018-08-23 13:40:33
+1783329421716829,Lantao,Mei,12879,1783329421716829,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 13:40:38
+1783329421716829,Lantao,Mei,12880,854518728062939,1783329421716829,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-08-23 13:40:39
+1783329421716829,Lantao,Mei,12881,854518728062939,1783329421716829,BOT: quick reply,":keycap_1: Community Experimental Research Team
+:keycap_2: Central Emergency Response Terminal
+:keycap_3: Controlled Evacuation and Response Tactics
+:keycap_4: Community Emergency Response Team
+",2018-08-23 13:40:41
+1783329421716829,Lantao,Mei,12882,1783329421716829,854518728062939,user_quick_reply: BUTTON_DKB_Central Emergency Response Terminal,:keycap_2:,2018-08-23 13:40:48
+1783329421716829,Lantao,Mei,12883,854518728062939,1783329421716829,BOT: message,"Oops, that is not correct. :disappointed_face:",2018-08-23 13:40:50
+1783329421716829,Lantao,Mei,12884,854518728062939,1783329421716829,BOT: quick reply,The correct answer is Community Emergency Response Team.,2018-08-23 13:40:52
+1783329421716829,Lantao,Mei,12885,1783329421716829,854518728062939,user_quick_reply: WHY,Why?,2018-08-23 13:40:57
+1783329421716829,Lantao,Mei,12886,854518728062939,1783329421716829,BOT: message,This is an explanation of the question:,2018-08-23 13:40:58
+1783329421716829,Lantao,Mei,12887,854518728062939,1783329421716829,BOT: quick reply,CERT members help with disaster preparedness as well as disaster relief. Be aware if your community has one. Have their number handy and contact them in case of emergency after a quake if professional responders are not immediately available.,2018-08-23 13:41:00
+1783329421716829,Lantao,Mei,12888,1783329421716829,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-23 13:41:16
+1783329421716829,Lantao,Mei,12889,854518728062939,1783329421716829,BOT: message,Let's see if you would answer this one.,2018-08-23 13:41:18
+1783329421716829,Lantao,Mei,12890,854518728062939,1783329421716829,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-23 13:41:19
+1783329421716829,Lantao,Mei,12891,854518728062939,1783329421716829,BOT: quick reply,True or false: portable fire extinguishers should only be used by trained employees.,2018-08-23 13:41:21
+1783329421716829,Lantao,Mei,12892,1783329421716829,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 13:41:28
+1783329421716829,Lantao,Mei,12893,854518728062939,1783329421716829,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-08-23 13:41:29
+1783329421716829,Lantao,Mei,12894,854518728062939,1783329421716829,BOT: quick reply,":keycap_1: true
+:keycap_2: false
+",2018-08-23 13:41:31
+1783329421716829,Lantao,Mei,12895,1783329421716829,854518728062939,user_quick_reply: BUTTON_DKB_false,:keycap_2:,2018-08-23 13:41:35
+1783329421716829,Lantao,Mei,12896,854518728062939,1783329421716829,BOT: message,"I'm sorry, but that was incorrect. :disappointed_face:",2018-08-23 13:41:37
+1783329421716829,Lantao,Mei,12897,854518728062939,1783329421716829,BOT: quick reply,The correct answer is true.,2018-08-23 13:41:38
+1783329421716829,Lantao,Mei,12898,1783329421716829,854518728062939,user_quick_reply: WHY,Why?,2018-08-23 13:41:43
+1783329421716829,Lantao,Mei,12899,854518728062939,1783329421716829,BOT: message,Here's why:,2018-08-23 13:41:44
+1783329421716829,Lantao,Mei,12900,854518728062939,1783329421716829,BOT: quick reply,"Employers can choose to authorize some or all employees to use portable extinguishers. In both cases, employers should provide employees sufficient training to do so.",2018-08-23 13:41:46
+1783329421716829,Lantao,Mei,12901,1783329421716829,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-23 13:41:56
+1783329421716829,Lantao,Mei,12902,854518728062939,1783329421716829,BOT: message,Let's try this one.,2018-08-23 13:41:58
+1783329421716829,Lantao,Mei,12903,854518728062939,1783329421716829,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-23 13:41:59
+1783329421716829,Lantao,Mei,12904,854518728062939,1783329421716829,BOT: quick reply,True or false: all workplaces need to provide portable fire extinguishers.,2018-08-23 13:42:00
+1783329421716829,Lantao,Mei,12905,1783329421716829,854518728062939,user_typing,false,2018-08-23 13:42:12
+1783329421716829,Lantao,Mei,12906,854518728062939,1783329421716829,BOT: message,Good job! :raising_hands_medium-light_skin_tone:,2018-08-23 13:42:13
+1783329421716829,Lantao,Mei,12907,854518728062939,1783329421716829,BOT: quick reply,The correct answer is false.,2018-08-23 13:42:14
+1783329421716829,Lantao,Mei,12908,1783329421716829,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-23 13:42:19
+1783329421716829,Lantao,Mei,12909,854518728062939,1783329421716829,BOT: message,Let's see if you would answer this one.,2018-08-23 13:42:20
+1783329421716829,Lantao,Mei,12910,854518728062939,1783329421716829,BOT: quick reply,The hint shows a list of food items and the minimum internal food temperature at which they should be cooked. Which of these is incorrect?,2018-08-23 13:42:21
+1783329421716829,Lantao,Mei,12911,1783329421716829,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 13:42:30
+1783329421716829,Lantao,Mei,12912,854518728062939,1783329421716829,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-08-23 13:42:31
+1783329421716829,Lantao,Mei,12913,854518728062939,1783329421716829,BOT: quick reply,":keycap_1: leftovers: 165 degrees Fahrenheit
+:keycap_2: eggs: 145 degrees Fahrenheit
+:keycap_3: ground beef: 160 degrees Fahrenheit
+:keycap_4: fish and Shellfish: 145 degrees Fahrenheit
+",2018-08-23 13:42:33
+1783329421716829,Lantao,Mei,12914,1783329421716829,854518728062939,user_quick_reply: BUTTON_AKB_eggs: 145 degrees Fahrenheit,:keycap_2:,2018-08-23 13:42:38
+1783329421716829,Lantao,Mei,12915,854518728062939,1783329421716829,BOT: message,Nice work! Keep it up!,2018-08-23 13:42:39
+1783329421716829,Lantao,Mei,12916,854518728062939,1783329421716829,BOT: quick reply,The correct answer is eggs: 145 degrees Fahrenheit.,2018-08-23 13:42:41
+1783329421716829,Lantao,Mei,12917,1783329421716829,854518728062939,user_quick_reply: WHY,Why?,2018-08-23 13:42:45
+1783329421716829,Lantao,Mei,12918,854518728062939,1783329421716829,BOT: message,This is an explanation of the question:,2018-08-23 13:42:47
+1783329421716829,Lantao,Mei,12919,854518728062939,1783329421716829,BOT: quick reply,"Eggs should be cooked at a minimum internal temperature of 160 degree Fahrenheit. The Centers for Disease Control and Prevention explains why: a type of bacterium, Salmonella, can be on both the outside and inside of eggs that appear to be normal, and if the eggs are eaten raw or lightly cooked, the bacterium can cause illness.",2018-08-23 13:42:48
+1783329421716829,Lantao,Mei,12920,1783329421716829,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-23 13:42:53
+1783329421716829,Lantao,Mei,12921,854518728062939,1783329421716829,BOT: message,How about this next one:,2018-08-23 13:42:54
+1783329421716829,Lantao,Mei,12922,854518728062939,1783329421716829,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-23 13:42:57
+1783329421716829,Lantao,Mei,12923,854518728062939,1783329421716829,BOT: quick reply,How long can high-acid canned food such as tomatoes be stored?,2018-08-23 13:42:59
+1783329421716829,Lantao,Mei,12924,1783329421716829,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 13:43:05
+1783329421716829,Lantao,Mei,12925,854518728062939,1783329421716829,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-08-23 13:43:07
+1783329421716829,Lantao,Mei,12926,854518728062939,1783329421716829,BOT: quick reply,":keycap_1: 10 to 30 days
+:keycap_2: 12 to 18 months
+:keycap_3: 2 to 4 years
+:keycap_4: 2 to 6 months
+",2018-08-23 13:43:09
+1783329421716829,Lantao,Mei,12927,1783329421716829,854518728062939,user_quick_reply: BUTTON_DKB_10 to 30 days,:keycap_1:,2018-08-23 13:43:13
+1783329421716829,Lantao,Mei,12928,854518728062939,1783329421716829,BOT: message,"Hmm, that wasn't quite right. :disappointed_face:",2018-08-23 13:43:15
+1783329421716829,Lantao,Mei,12929,854518728062939,1783329421716829,BOT: quick reply,The correct answer is 12 to 18 months.,2018-08-23 13:43:17
+1783329421716829,Lantao,Mei,12930,1783329421716829,854518728062939,user_quick_reply: WHY,Why?,2018-08-23 13:43:27
+1783329421716829,Lantao,Mei,12931,854518728062939,1783329421716829,BOT: message,I hope this explanation could help you understand the the question.,2018-08-23 13:43:28
+1783329421716829,Lantao,Mei,12932,854518728062939,1783329421716829,BOT: quick reply,"According to the United States Department of Agriculture (USDA), In general, high-acid canned food such as tomatoes, grapefruit, and pineapple can be stored on the shelf for 12 to 18 months. Low-acid canned food such as meat, poultry, fish, and most vegetables will keep 2 to 5 years if the can remains in good condition and has been stored in a cool, clean, and dry place.",2018-08-23 13:43:30
+1783329421716829,Lantao,Mei,13010,854518728062939,1783329421716829,BOT: quick reply,"Hi Lantao, you haven't talked to me for a while. Would you like to resume the learning with me?",2018-08-23 20:02:22
+1783329421716829,Lantao,Mei,13115,1783329421716829,854518728062939,user_quick_reply: NEXT_QUESTION,Okay :flexed_biceps_medium-light_skin_tone:,2018-08-23 23:35:35
+1783329421716829,Lantao,Mei,13116,854518728062939,1783329421716829,BOT: message,What about this next question:,2018-08-23 23:35:36
+1783329421716829,Lantao,Mei,13117,854518728062939,1783329421716829,BOT: quick reply,What is the maximum amount of time perishable food should be left out?,2018-08-23 23:35:38
+1783329421716829,Lantao,Mei,13118,1783329421716829,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 23:35:48
+1783329421716829,Lantao,Mei,13119,854518728062939,1783329421716829,BOT: message,Which of the following options is the right answer?,2018-08-23 23:35:49
+1783329421716829,Lantao,Mei,13120,854518728062939,1783329421716829,BOT: quick reply,":keycap_1: 2 hours
+:keycap_2: 1.5 hours
+:keycap_3: 3.5 hours
+:keycap_4: 3 hours
+",2018-08-23 23:35:51
+1783329421716829,Lantao,Mei,13121,1783329421716829,854518728062939,user_quick_reply: BUTTON_AKB_2 hours,:keycap_1:,2018-08-23 23:35:55
+1783329421716829,Lantao,Mei,13122,854518728062939,1783329421716829,BOT: image,https://www.smartprimer.org:443/pictures/avatar/celebration.gif,2018-08-23 23:36:00
+1783329421716829,Lantao,Mei,13123,854518728062939,1783329421716829,BOT: message,Yes! You got the correct answer!,2018-08-23 23:36:01
+1783329421716829,Lantao,Mei,13124,854518728062939,1783329421716829,BOT: quick reply,The correct answer is 2 hours.,2018-08-23 23:36:03
+1783329421716829,Lantao,Mei,13125,1783329421716829,854518728062939,user_quick_reply: WHY,Why?,2018-08-23 23:36:08
+1783329421716829,Lantao,Mei,13126,854518728062939,1783329421716829,BOT: message,I hope this explanation could help you understand the the question.,2018-08-23 23:36:09
+1783329421716829,Lantao,Mei,13127,854518728062939,1783329421716829,BOT: quick reply,Perishable food should not be left out more than 2 hours at room temperature (1 hour when the temperature is above 90 F),2018-08-23 23:36:10
+1783329421716829,Lantao,Mei,13128,1783329421716829,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-23 23:36:18
+1783329421716829,Lantao,Mei,13129,854518728062939,1783329421716829,BOT: message,Let's see if you can answer this question.,2018-08-23 23:36:19
+1783329421716829,Lantao,Mei,13130,854518728062939,1783329421716829,BOT: quick reply,At what water temperature should you bathe frostbitten skin?,2018-08-23 23:36:21
+1783329421716829,Lantao,Mei,13131,1783329421716829,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 23:36:33
+1783329421716829,Lantao,Mei,13132,854518728062939,1783329421716829,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-08-23 23:36:35
+1783329421716829,Lantao,Mei,13133,854518728062939,1783329421716829,BOT: quick reply,":keycap_1: between 120 to 150 F (50 to 70 C)
+:keycap_2: you should never submerge frostbite into water
+:keycap_3: at 32 F (0 C)
+:keycap_4: between 104 to 107.6 F (40 to 42 C)
+",2018-08-23 23:36:36
+1783329421716829,Lantao,Mei,13134,1783329421716829,854518728062939,user_quick_reply: BUTTON_DKB_between 120 to 150 F (50 to 70 C),:keycap_1:,2018-08-23 23:36:42
+1783329421716829,Lantao,Mei,13135,854518728062939,1783329421716829,BOT: message,"Oops, that is not correct. :disappointed_face:",2018-08-23 23:36:44
+1783329421716829,Lantao,Mei,13136,854518728062939,1783329421716829,BOT: quick reply,The correct answer is between 104 to 107.6 F (40 to 42 C).,2018-08-23 23:36:45
+1783329421716829,Lantao,Mei,13137,1783329421716829,854518728062939,user_quick_reply: WHY,Why?,2018-08-23 23:36:52
+1783329421716829,Lantao,Mei,13138,854518728062939,1783329421716829,BOT: message,Here's why:,2018-08-23 23:36:54
+1783329421716829,Lantao,Mei,13139,854518728062939,1783329421716829,BOT: quick reply,"Frostbitten body parts should be warmed gradually in water that is 104 to 107.6 F (40 to 42 C). Additionally, you can wrap or cover the frostbite in a warm blanket. Dont use direct heat, such as a stove, heat lamp, fireplace or heating pad, because these can cause burns before you feel them on your numb skin.",2018-08-23 23:36:55
+1783329421716829,Lantao,Mei,13140,1783329421716829,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-23 23:37:13
+1783329421716829,Lantao,Mei,13141,854518728062939,1783329421716829,BOT: message,See if you can answer this next one.,2018-08-23 23:37:14
+1783329421716829,Lantao,Mei,13142,854518728062939,1783329421716829,BOT: quick reply,True or false: all workplaces need to provide portable fire extinguishers.,2018-08-23 23:37:16
+1783329421716829,Lantao,Mei,13143,1783329421716829,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 23:37:22
+1783329421716829,Lantao,Mei,13144,854518728062939,1783329421716829,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-08-23 23:37:23
+1783329421716829,Lantao,Mei,13145,854518728062939,1783329421716829,BOT: quick reply,":keycap_1: true
+:keycap_2: false
+",2018-08-23 23:37:25
+1783329421716829,Lantao,Mei,13146,1783329421716829,854518728062939,user_quick_reply: BUTTON_AKB_false,:keycap_2:,2018-08-23 23:37:30
+1783329421716829,Lantao,Mei,13147,854518728062939,1783329421716829,BOT: message,Great! Keep it up! :flexed_biceps_medium-light_skin_tone:,2018-08-23 23:37:32
+1783329421716829,Lantao,Mei,13148,854518728062939,1783329421716829,BOT: quick reply,The correct answer is false.,2018-08-23 23:37:33
+1783329421716829,Lantao,Mei,13149,1783329421716829,854518728062939,user_quick_reply: WHY,Why?,2018-08-23 23:37:38
+1783329421716829,Lantao,Mei,13150,854518728062939,1783329421716829,BOT: message,Here's why:,2018-08-23 23:37:39
+1783329421716829,Lantao,Mei,13151,854518728062939,1783329421716829,BOT: quick reply,"According to OSHA, employers are not required to provide portable fire extinguishers in the office. But if they do, they must set up an educational program to acquaint employees with the general principles of fire extinguisher use.",2018-08-23 23:37:41
+1783329421716829,Lantao,Mei,13152,1783329421716829,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-23 23:37:46
+1783329421716829,Lantao,Mei,13153,854518728062939,1783329421716829,BOT: message,"Alrighty, let's try this one.",2018-08-23 23:37:48
+1783329421716829,Lantao,Mei,13154,854518728062939,1783329421716829,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-23 23:37:49
+1783329421716829,Lantao,Mei,13155,854518728062939,1783329421716829,BOT: quick reply,The hint shows a list of food items and the minimum internal food temperature at which they should be cooked. Which of these is incorrect?,2018-08-23 23:37:51
+1783329421716829,Lantao,Mei,13156,1783329421716829,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 23:37:58
+1783329421716829,Lantao,Mei,13157,854518728062939,1783329421716829,BOT: message,It's one of the following choices.,2018-08-23 23:37:59
+1783329421716829,Lantao,Mei,13158,854518728062939,1783329421716829,BOT: quick reply,":keycap_1: fish and Shellfish: 145 degrees Fahrenheit
+:keycap_2: ground beef: 160 degrees Fahrenheit
+:keycap_3: eggs: 145 degrees Fahrenheit
+:keycap_4: leftovers: 165 degrees Fahrenheit
+",2018-08-23 23:38:01
+1783329421716829,Lantao,Mei,13159,1783329421716829,854518728062939,user_quick_reply: BUTTON_AKB_eggs: 145 degrees Fahrenheit,:keycap_3:,2018-08-23 23:38:06
+1783329421716829,Lantao,Mei,13160,854518728062939,1783329421716829,BOT: image,https://www.smartprimer.org:443/pictures/avatar/congrats/penguinnormal_happy_purple.png,2018-08-23 23:38:09
+1783329421716829,Lantao,Mei,13161,854518728062939,1783329421716829,BOT: message,Great job!,2018-08-23 23:38:10
+1783329421716829,Lantao,Mei,13162,854518728062939,1783329421716829,BOT: quick reply,The correct answer is eggs: 145 degrees Fahrenheit.,2018-08-23 23:38:12
+1783329421716829,Lantao,Mei,13163,1783329421716829,854518728062939,user_quick_reply: WHY,Why?,2018-08-23 23:38:19
+1783329421716829,Lantao,Mei,13164,854518728062939,1783329421716829,BOT: message,I hope this explanation could help you understand the the question.,2018-08-23 23:38:20
+1783329421716829,Lantao,Mei,13165,854518728062939,1783329421716829,BOT: quick reply,"Eggs should be cooked at a minimum internal temperature of 160 degree Fahrenheit. The Centers for Disease Control and Prevention explains why: a type of bacterium, Salmonella, can be on both the outside and inside of eggs that appear to be normal, and if the eggs are eaten raw or lightly cooked, the bacterium can cause illness.",2018-08-23 23:38:22
+1783329421716829,Lantao,Mei,13166,1783329421716829,854518728062939,user_quick_reply: SWITCH_SUBJECT,Change subject :shuffle_tracks_button:,2018-08-23 23:38:26
+1783329421716829,Lantao,Mei,13167,854518728062939,1783329421716829,BOT: quick reply,"Sure, now tell me which subject you would like to choose.:backhand_index_pointing_down_medium-light_skin_tone:",2018-08-23 23:38:28
+1783329421716829,Lantao,Mei,13168,1783329421716829,854518728062939,user_quick_reply: GRE,GRE :input_latin_uppercase:,2018-08-23 23:38:34
+1783329421716829,Lantao,Mei,13169,854518728062939,1783329421716829,BOT: image,https://www.smartprimer.org:443/pictures/avatar/evolvesafety_reading.gif,2018-08-23 23:38:38
+1783329421716829,Lantao,Mei,13170,854518728062939,1783329421716829,BOT: quick reply,Let's answer some questions about the GRE!,2018-08-23 23:38:39
+1783329421716829,Lantao,Mei,13171,1783329421716829,854518728062939,user_quick_reply: NEXT_QUESTION,Next :collision:,2018-08-23 23:38:44
+1783329421716829,Lantao,Mei,13172,854518728062939,1783329421716829,BOT: message,Let's try this one.,2018-08-23 23:38:45
+1783329421716829,Lantao,Mei,13173,854518728062939,1783329421716829,BOT: quick reply,The division between child-rearing goals that emphasize originality and personalization and those that place emphasis on adoption of conventions and compliance with rules discloses a _____ that stems from the principles on which these goals are based.,2018-08-23 23:38:46
+1783329421716829,Lantao,Mei,13174,1783329421716829,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 23:38:55
+1783329421716829,Lantao,Mei,13175,854518728062939,1783329421716829,BOT: message,Pick one of the following answers.,2018-08-23 23:38:56
+1783329421716829,Lantao,Mei,13176,854518728062939,1783329421716829,BOT: quick reply,":keycap_1: benefit
+:keycap_2: genius
+:keycap_3: foreseeability
+:keycap_4: contradiction
+:keycap_5: monotony
+",2018-08-23 23:38:58
+1783329421716829,Lantao,Mei,13177,1783329421716829,854518728062939,user_quick_reply: BUTTON_DKB_benefit,:keycap_1:,2018-08-23 23:39:04
+1783329421716829,Lantao,Mei,13178,854518728062939,1783329421716829,BOT: message,"Oops, that wasn't quite correct. :disappointed_face:",2018-08-23 23:39:05
+1783329421716829,Lantao,Mei,13179,854518728062939,1783329421716829,BOT: quick reply,The correct answer is contradiction.,2018-08-23 23:39:07
+1783329421716829,Lantao,Mei,13180,1783329421716829,854518728062939,user_quick_reply: WHY,Why?,2018-08-23 23:39:12
+1783329421716829,Lantao,Mei,13181,854518728062939,1783329421716829,BOT: message,Here's an explanation:,2018-08-23 23:39:13
+1783329421716829,Lantao,Mei,13182,854518728062939,1783329421716829,BOT: quick reply,":pushpin: Contradiction -- opposition between two conflicting forces or ideas
+:pushpin: Monotony -- the quality of wearisome constancy, routine, and lack of variety
+:pushpin: Benefit -- something that is advantageous or good
+:pushpin: Foreseeability -- able to have prescience of or to know in advance
+:pushpin: Genius -- an exceptional intellectual ability and originality",2018-08-23 23:39:15
+1783329421716829,Lantao,Mei,13183,1783329421716829,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-23 23:39:58
+1783329421716829,Lantao,Mei,13184,854518728062939,1783329421716829,BOT: message,Here's a question for you:,2018-08-23 23:39:59
+1783329421716829,Lantao,Mei,13185,854518728062939,1783329421716829,BOT: quick reply,Voters have become so inured to the fickle nature of politicians that they responded to the levy of a new tax with _____ .,2018-08-23 23:40:01
+1783329421716829,Lantao,Mei,13186,1783329421716829,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 23:40:15
+1783329421716829,Lantao,Mei,13187,854518728062939,1783329421716829,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-08-23 23:40:16
+1783329421716829,Lantao,Mei,13188,854518728062939,1783329421716829,BOT: quick reply,":keycap_1: alarm
+:keycap_2: perplexity
+:keycap_3: amazement
+:keycap_4: exasperation
+:keycap_5: stolidity
+",2018-08-23 23:40:17
+1783329421716829,Lantao,Mei,13189,1783329421716829,854518728062939,user_quick_reply: BUTTON_AKB_stolidity,:keycap_5:,2018-08-23 23:40:24
+1783329421716829,Lantao,Mei,13190,854518728062939,1783329421716829,BOT: message,Great job getting the correct answer!,2018-08-23 23:40:25
+1783329421716829,Lantao,Mei,13191,854518728062939,1783329421716829,BOT: quick reply,The correct answer is stolidity.,2018-08-23 23:40:27
+1783329421716829,Lantao,Mei,13192,1783329421716829,854518728062939,user_quick_reply: WHY,Why?,2018-08-23 23:40:32
+1783329421716829,Lantao,Mei,13193,854518728062939,1783329421716829,BOT: message,Here's why:,2018-08-23 23:40:34
+1783329421716829,Lantao,Mei,13194,854518728062939,1783329421716829,BOT: quick reply,":pushpin: Stolidity -- apathy demonstrated by an absence of emotional reactions
+:pushpin: Amazement -- the feeling that accompanies something extremely surprising
+:pushpin: Exasperation -- an exasperated feeling of annoyance
+:pushpin: Alarm -- cause to be unpleasantly surprised
+:pushpin: Perplexity -- trouble or confusion resulting from complexity",2018-08-23 23:40:35
+1783329421716829,Lantao,Mei,13195,1783329421716829,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-23 23:40:44
+1783329421716829,Lantao,Mei,13196,854518728062939,1783329421716829,BOT: message,Let's see if you can get this one.,2018-08-23 23:40:46
+1783329421716829,Lantao,Mei,13197,854518728062939,1783329421716829,BOT: quick reply,"Now known as Administrative Professionals' Day, Secretaries' Day was created in 1952 by Harry F. Klemfuss, a public relations professional who _____ the value and significance of administrative assistants in order to attract more women to the profession.",2018-08-23 23:40:47
+1783329421716829,Lantao,Mei,13198,1783329421716829,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 23:42:57
+1783329421716829,Lantao,Mei,13199,854518728062939,1783329421716829,BOT: message,Which of the following options is the right answer?,2018-08-23 23:42:58
+1783329421716829,Lantao,Mei,13200,854518728062939,1783329421716829,BOT: quick reply,":keycap_1: refuted
+:keycap_2: touted
+:keycap_3: undermined
+:keycap_4: proscribed
+:keycap_5: admonished
+",2018-08-23 23:43:00
+1783329421716829,Lantao,Mei,13201,1783329421716829,854518728062939,user_quick_reply: BUTTON_DKB_refuted,:keycap_1:,2018-08-23 23:43:05
+1783329421716829,Lantao,Mei,13202,854518728062939,1783329421716829,BOT: message,That's not quite right. :disappointed_face:,2018-08-23 23:43:06
+1783329421716829,Lantao,Mei,13203,854518728062939,1783329421716829,BOT: quick reply,The correct answer is touted.,2018-08-23 23:43:07
+1783329421716829,Lantao,Mei,13204,1783329421716829,854518728062939,user_quick_reply: WHY,Why?,2018-08-23 23:43:12
+1783329421716829,Lantao,Mei,13205,854518728062939,1783329421716829,BOT: message,This is an explanation of the question:,2018-08-23 23:43:14
+1783329421716829,Lantao,Mei,13206,854518728062939,1783329421716829,BOT: quick reply,":pushpin: Touted -- advertize in strongly positive terms
+:pushpin: Proscribed -- excluded from use or mention
+:pushpin: Refuted -- overthrow by argument, evidence, or proof
+:pushpin: Undermined -- destroy property or hinder normal operations
+:pushpin: Admonished -- advise or counsel in terms of someone's behavior",2018-08-23 23:43:15
+1783329421716829,Lantao,Mei,13207,1783329421716829,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-23 23:43:25
+1783329421716829,Lantao,Mei,13208,854518728062939,1783329421716829,BOT: message,How about this next one:,2018-08-23 23:43:26
+1783329421716829,Lantao,Mei,13209,854518728062939,1783329421716829,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-23 23:43:27
+1783329421716829,Lantao,Mei,13210,854518728062939,1783329421716829,BOT: quick reply,The defense attorney's _____ closing statement was not enough to sway the jurors in his client's favor; stirring words could not conceal the defendant's evident guilt.,2018-08-23 23:43:29
+1783329421716829,Lantao,Mei,13211,1783329421716829,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 23:43:33
+1783329421716829,Lantao,Mei,13212,854518728062939,1783329421716829,BOT: message,Okay. I'll give you some choices.,2018-08-23 23:43:34
+1783329421716829,Lantao,Mei,13213,854518728062939,1783329421716829,BOT: quick reply,":keycap_1: eloquent
+:keycap_2: crafty
+:keycap_3: impromptu
+:keycap_4: deceptive
+:keycap_5: lengthy
+",2018-08-23 23:43:36
+1783329421716829,Lantao,Mei,13214,1783329421716829,854518728062939,user_quick_reply: BUTTON_DKB_crafty,:keycap_2:,2018-08-23 23:43:44
+1783329421716829,Lantao,Mei,13215,854518728062939,1783329421716829,BOT: message,"Hmm, that wasn't quite right. :disappointed_face:",2018-08-23 23:43:45
+1783329421716829,Lantao,Mei,13216,854518728062939,1783329421716829,BOT: quick reply,The correct answer is eloquent.,2018-08-23 23:43:46
+1783329421716829,Lantao,Mei,13217,1783329421716829,854518728062939,user_quick_reply: WHY,Why?,2018-08-23 23:43:52
+1783329421716829,Lantao,Mei,13218,854518728062939,1783329421716829,BOT: message,Here's why:,2018-08-23 23:43:53
+1783329421716829,Lantao,Mei,13219,854518728062939,1783329421716829,BOT: quick reply,":pushpin: Eloquent -- expressing yourself readily, clearly, effectively
+:pushpin: Deceptive -- causing one to believe what is not true or fail to believe what is true
+:pushpin: Lengthy -- relatively long in duration; tediously protracted
+:pushpin: Crafty -- marked by skill in deception
+:pushpin: Impromptu -- with little or no preparation or forethought",2018-08-23 23:43:55
+1783329421716829,Lantao,Mei,13220,1783329421716829,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-23 23:44:07
+1783329421716829,Lantao,Mei,13221,854518728062939,1783329421716829,BOT: message,Let's see if you would answer this one.,2018-08-23 23:44:09
+1783329421716829,Lantao,Mei,13222,854518728062939,1783329421716829,BOT: quick reply,The defense attorney's _____ closing statement was not enough to sway the jurors in his client's favor; stirring words could not conceal the defendant's evident guilt.,2018-08-23 23:44:10
+1783329421716829,Lantao,Mei,13223,1783329421716829,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 23:44:20
+1783329421716829,Lantao,Mei,13224,854518728062939,1783329421716829,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-08-23 23:44:21
+1783329421716829,Lantao,Mei,13225,854518728062939,1783329421716829,BOT: quick reply,":keycap_1: crafty
+:keycap_2: impromptu
+:keycap_3: lengthy
+:keycap_4: deceptive
+:keycap_5: eloquent
+",2018-08-23 23:44:22
+1783329421716829,Lantao,Mei,13226,1783329421716829,854518728062939,user_quick_reply: BUTTON_AKB_eloquent,:keycap_5:,2018-08-23 23:44:29
+1783329421716829,Lantao,Mei,13227,854518728062939,1783329421716829,BOT: message,Yes! You got the correct answer!,2018-08-23 23:44:30
+1783329421716829,Lantao,Mei,13228,854518728062939,1783329421716829,BOT: quick reply,The correct answer is eloquent.,2018-08-23 23:44:32
+1783329421716829,Lantao,Mei,13229,1783329421716829,854518728062939,user_quick_reply: WHY,Why?,2018-08-23 23:44:39
+1783329421716829,Lantao,Mei,13230,854518728062939,1783329421716829,BOT: message,I hope this explanation could help you understand the the question.,2018-08-23 23:44:41
+1783329421716829,Lantao,Mei,13231,854518728062939,1783329421716829,BOT: quick reply,":pushpin: Eloquent -- expressing yourself readily, clearly, effectively
+:pushpin: Deceptive -- causing one to believe what is not true or fail to believe what is true
+:pushpin: Lengthy -- relatively long in duration; tediously protracted
+:pushpin: Crafty -- marked by skill in deception
+:pushpin: Impromptu -- with little or no preparation or forethought",2018-08-23 23:44:42
+1783329421716829,Lantao,Mei,13232,1783329421716829,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-23 23:44:48
+1783329421716829,Lantao,Mei,13233,854518728062939,1783329421716829,BOT: message,Let's see if you can answer this question.,2018-08-23 23:44:50
+1783329421716829,Lantao,Mei,13234,854518728062939,1783329421716829,BOT: quick reply,"Ancient generals, lacking modern technologies such as radio and satellite communication, often found that one of the most significant challenges in warfare was accurate _____ of the myriad of changes on the battlefield or in the campaign.",2018-08-23 23:44:51
+1783329421716829,Lantao,Mei,13235,1783329421716829,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 23:45:04
+1783329421716829,Lantao,Mei,13236,854518728062939,1783329421716829,BOT: message,It's one of the following choices.,2018-08-23 23:45:06
+1783329421716829,Lantao,Mei,13237,854518728062939,1783329421716829,BOT: quick reply,":keycap_1: adumbration
+:keycap_2: adulteration
+:keycap_3: accretion
+:keycap_4: appraisal
+:keycap_5: fortification
+",2018-08-23 23:45:08
+1783329421716829,Lantao,Mei,13238,1783329421716829,854518728062939,user_quick_reply: BUTTON_AKB_appraisal,:keycap_4:,2018-08-23 23:45:15
+1783329421716829,Lantao,Mei,13239,854518728062939,1783329421716829,BOT: message,Great job!,2018-08-23 23:45:16
+1783329421716829,Lantao,Mei,13240,854518728062939,1783329421716829,BOT: quick reply,The correct answer is appraisal.,2018-08-23 23:45:18
+1783329421716829,Lantao,Mei,13241,1783329421716829,854518728062939,user_quick_reply: WHY,Why?,2018-08-23 23:49:00
+1783329421716829,Lantao,Mei,13242,854518728062939,1783329421716829,BOT: message,Here's an explanation:,2018-08-23 23:49:02
+1783329421716829,Lantao,Mei,13243,854518728062939,1783329421716829,BOT: quick reply,":pushpin: Appraisal -- the classification of someone or something with respect to its worth
+:pushpin: Fortification -- defensive structure consisting of walls or mounds built around a stronghold to strengthen it
+:pushpin: Adulteration -- being mixed with extraneous material; the product of adulterating
+:pushpin: Accretion -- an increase by natural growth or addition
+:pushpin: Adumbration -- the act of providing vague advance indications; representing beforehand",2018-08-23 23:49:03
+1783329421716829,Lantao,Mei,13244,1783329421716829,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-23 23:49:13
+1783329421716829,Lantao,Mei,13245,854518728062939,1783329421716829,BOT: message,Let's try this question.,2018-08-23 23:49:14
+1783329421716829,Lantao,Mei,13246,854518728062939,1783329421716829,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-23 23:49:15
+1783329421716829,Lantao,Mei,13247,854518728062939,1783329421716829,BOT: quick reply,"The recent convert, still a _____ with respect to the rites of her church, did not yet feel completely comfortable in her new faith.",2018-08-23 23:49:17
+1783329421716829,Lantao,Mei,13248,1783329421716829,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 23:49:25
+1783329421716829,Lantao,Mei,13249,854518728062939,1783329421716829,BOT: message,Okay. I'll give you some choices.,2018-08-23 23:49:27
+1783329421716829,Lantao,Mei,13250,854518728062939,1783329421716829,BOT: quick reply,":keycap_1: ascetic
+:keycap_2: iconoclast
+:keycap_3: pilgrim
+:keycap_4: tyro
+:keycap_5: poseur
+",2018-08-23 23:49:28
+1783329421716829,Lantao,Mei,13251,1783329421716829,854518728062939,user_quick_reply: BUTTON_DKB_ascetic,:keycap_1:,2018-08-23 23:50:52
+1783329421716829,Lantao,Mei,13252,854518728062939,1783329421716829,BOT: message,"Oops, that is not correct. :disappointed_face:",2018-08-23 23:50:54
+1783329421716829,Lantao,Mei,13253,854518728062939,1783329421716829,BOT: quick reply,The correct answer is tyro.,2018-08-23 23:50:55
+1783329421716829,Lantao,Mei,13254,1783329421716829,854518728062939,user_quick_reply: WHY,Why?,2018-08-23 23:51:05
+1783329421716829,Lantao,Mei,13255,854518728062939,1783329421716829,BOT: message,I hope this explanation could help you understand the the question.,2018-08-23 23:51:07
+1783329421716829,Lantao,Mei,13256,854518728062939,1783329421716829,BOT: quick reply,":pushpin: Tyro -- someone new to a field or activity
+:pushpin: Pilgrim -- someone who journeys in foreign lands
+:pushpin: Iconoclast -- a destroyer of images used in religious worship
+:pushpin: Ascetic -- pertaining to or characteristic of an ascetic or the practice of rigorous self-discipline
+:pushpin: Poseur -- a person who habitually pretends to be something he is not",2018-08-23 23:51:08
+1783329421716829,Lantao,Mei,13257,1783329421716829,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-23 23:51:21
+1783329421716829,Lantao,Mei,13258,854518728062939,1783329421716829,BOT: message,Let's take a look at this question.,2018-08-23 23:51:23
+1783329421716829,Lantao,Mei,13259,854518728062939,1783329421716829,BOT: quick reply,"With a similar contrast between a partly cloudy sky and a dark street, the cover of the recent rock CD _____ a famous surrealist painting from the early 1900s.",2018-08-23 23:51:24
+1783329421716829,Lantao,Mei,13260,1783329421716829,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 23:51:51
+1783329421716829,Lantao,Mei,13261,854518728062939,1783329421716829,BOT: message,Pick one of the following answers.,2018-08-23 23:51:53
+1783329421716829,Lantao,Mei,13262,854518728062939,1783329421716829,BOT: quick reply,":keycap_1: admires
+:keycap_2: disenchants
+:keycap_3: obfuscates
+:keycap_4: sanctions
+:keycap_5: evokes
+",2018-08-23 23:51:54
+1783329421716829,Lantao,Mei,13263,1783329421716829,854518728062939,user_quick_reply: BUTTON_DKB_admires,:keycap_1:,2018-08-23 23:52:39
+1783329421716829,Lantao,Mei,13264,854518728062939,1783329421716829,BOT: message,"Hmm, that wasn't quite right. :disappointed_face:",2018-08-23 23:52:40
+1783329421716829,Lantao,Mei,13265,854518728062939,1783329421716829,BOT: quick reply,The correct answer is evokes.,2018-08-23 23:52:41
+1783329421716829,Lantao,Mei,13266,1783329421716829,854518728062939,user_quick_reply: WHY,Why?,2018-08-23 23:52:49
+1783329421716829,Lantao,Mei,13267,854518728062939,1783329421716829,BOT: message,Here's why:,2018-08-23 23:52:50
+1783329421716829,Lantao,Mei,13268,854518728062939,1783329421716829,BOT: quick reply,":pushpin: Evokes -- call forth emotions, feelings, and responses
+:pushpin: Admires -- feel admiration for
+:pushpin: Obfuscates -- make obscure or unclear
+:pushpin: Disenchants -- free from enchantment
+:pushpin: Sanctions -- give sanction to",2018-08-23 23:52:51
+1783329421716829,Lantao,Mei,13269,1783329421716829,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-23 23:53:08
+1783329421716829,Lantao,Mei,13270,854518728062939,1783329421716829,BOT: message,Let's see if you can answer this question.,2018-08-23 23:53:09
+1783329421716829,Lantao,Mei,13271,854518728062939,1783329421716829,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-23 23:53:10
+1783329421716829,Lantao,Mei,13272,854518728062939,1783329421716829,BOT: quick reply,"If one were asked who transmitted the first radio broadcast of the human voice, one might guess the _____ inventor Guglielmo Marconi, but in fact the feat was accomplished by the much less well-known Reginald Fessenden.",2018-08-23 23:53:12
+1783329421716829,Lantao,Mei,13273,1783329421716829,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 23:53:36
+1783329421716829,Lantao,Mei,13274,854518728062939,1783329421716829,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-08-23 23:53:37
+1783329421716829,Lantao,Mei,13275,854518728062939,1783329421716829,BOT: quick reply,":keycap_1: insistent
+:keycap_2: contingent
+:keycap_3: renowned
+:keycap_4: infamous
+:keycap_5: cogent
+",2018-08-23 23:53:38
+1783329421716829,Lantao,Mei,13276,1783329421716829,854518728062939,user_quick_reply: BUTTON_DKB_insistent,:keycap_1:,2018-08-23 23:53:49
+1783329421716829,Lantao,Mei,13277,854518728062939,1783329421716829,BOT: message,"I'm sorry, but that was incorrect. :disappointed_face:",2018-08-23 23:53:51
+1783329421716829,Lantao,Mei,13278,854518728062939,1783329421716829,BOT: quick reply,The correct answer is renowned.,2018-08-23 23:53:52
+1783329421716829,Lantao,Mei,13279,1783329421716829,854518728062939,user_quick_reply: WHY,Why?,2018-08-23 23:53:57
+1783329421716829,Lantao,Mei,13280,854518728062939,1783329421716829,BOT: message,Here's an explanation:,2018-08-23 23:53:58
+1783329421716829,Lantao,Mei,13281,854518728062939,1783329421716829,BOT: quick reply,":pushpin: Renowned -- widely known and esteemed
+:pushpin: Infamous -- known widely and usually unfavorably
+:pushpin: Contingent -- possible but not certain to occur
+:pushpin: Cogent -- powerfully persuasive
+:pushpin: Insistent -- repetitive and persistent",2018-08-23 23:53:59
+1783329421716829,Lantao,Mei,13282,1783329421716829,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-23 23:54:09
+1783329421716829,Lantao,Mei,13283,854518728062939,1783329421716829,BOT: message,"Alrighty, let's try this one.",2018-08-23 23:54:10
+1783329421716829,Lantao,Mei,13284,854518728062939,1783329421716829,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-23 23:54:11
+1783329421716829,Lantao,Mei,13285,854518728062939,1783329421716829,BOT: quick reply,Voters have become so inured to the fickle nature of politicians that they responded to the levy of a new tax with _____ .,2018-08-23 23:54:13
+1783329421716829,Lantao,Mei,13286,1783329421716829,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 23:54:27
+1783329421716829,Lantao,Mei,13287,854518728062939,1783329421716829,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-08-23 23:54:28
+1783329421716829,Lantao,Mei,13288,854518728062939,1783329421716829,BOT: quick reply,":keycap_1: amazement
+:keycap_2: exasperation
+:keycap_3: perplexity
+:keycap_4: alarm
+:keycap_5: stolidity
+",2018-08-23 23:54:30
+1783329421716829,Lantao,Mei,13289,1783329421716829,854518728062939,user_quick_reply: BUTTON_DKB_amazement,:keycap_1:,2018-08-23 23:54:34
+1783329421716829,Lantao,Mei,13290,854518728062939,1783329421716829,BOT: message,"Oops, that wasn't quite correct. :disappointed_face:",2018-08-23 23:54:36
+1783329421716829,Lantao,Mei,13291,854518728062939,1783329421716829,BOT: quick reply,The correct answer is stolidity.,2018-08-23 23:54:37
+1783329421716829,Lantao,Mei,13292,1783329421716829,854518728062939,user_quick_reply: WHY,Why?,2018-08-23 23:54:41
+1783329421716829,Lantao,Mei,13293,854518728062939,1783329421716829,BOT: message,Here's why:,2018-08-23 23:54:43
+1783329421716829,Lantao,Mei,13294,854518728062939,1783329421716829,BOT: quick reply,":pushpin: Stolidity -- apathy demonstrated by an absence of emotional reactions
+:pushpin: Amazement -- the feeling that accompanies something extremely surprising
+:pushpin: Exasperation -- an exasperated feeling of annoyance
+:pushpin: Alarm -- cause to be unpleasantly surprised
+:pushpin: Perplexity -- trouble or confusion resulting from complexity",2018-08-23 23:54:44
+1783329421716829,Lantao,Mei,13295,1783329421716829,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-23 23:55:11
+1783329421716829,Lantao,Mei,13296,854518728062939,1783329421716829,BOT: message,"Alrighty, let's try this one.",2018-08-23 23:55:12
+1783329421716829,Lantao,Mei,13297,854518728062939,1783329421716829,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-23 23:55:13
+1783329421716829,Lantao,Mei,13298,854518728062939,1783329421716829,BOT: quick reply,Voters have become so inured to the fickle nature of politicians that they responded to the levy of a new tax with _____ .,2018-08-23 23:55:15
+1783329421716829,Lantao,Mei,13299,1783329421716829,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 23:57:53
+1783329421716829,Lantao,Mei,13300,854518728062939,1783329421716829,BOT: message,Pick one of the following answers.,2018-08-23 23:57:54
+1783329421716829,Lantao,Mei,13301,854518728062939,1783329421716829,BOT: quick reply,":keycap_1: exasperation
+:keycap_2: alarm
+:keycap_3: amazement
+:keycap_4: stolidity
+:keycap_5: perplexity
+",2018-08-23 23:57:56
+1783329421716829,Lantao,Mei,13302,1783329421716829,854518728062939,user_quick_reply: BUTTON_AKB_stolidity,:keycap_4:,2018-08-23 23:58:05
+1783329421716829,Lantao,Mei,13303,854518728062939,1783329421716829,BOT: image,https://www.smartprimer.org:443/pictures/avatar/congrats/penguinnormal_normal_pink.png,2018-08-23 23:58:07
+1783329421716829,Lantao,Mei,13304,854518728062939,1783329421716829,BOT: message,Yes! You got the correct answer!,2018-08-23 23:58:09
+1783329421716829,Lantao,Mei,13305,854518728062939,1783329421716829,BOT: quick reply,The correct answer is stolidity.,2018-08-23 23:58:10
+1783329421716829,Lantao,Mei,13306,1783329421716829,854518728062939,user_quick_reply: WHY,Why?,2018-08-23 23:58:15
+1783329421716829,Lantao,Mei,13307,854518728062939,1783329421716829,BOT: message,Here's why:,2018-08-23 23:58:17
+1783329421716829,Lantao,Mei,13308,854518728062939,1783329421716829,BOT: quick reply,":pushpin: Stolidity -- apathy demonstrated by an absence of emotional reactions
+:pushpin: Amazement -- the feeling that accompanies something extremely surprising
+:pushpin: Exasperation -- an exasperated feeling of annoyance
+:pushpin: Alarm -- cause to be unpleasantly surprised
+:pushpin: Perplexity -- trouble or confusion resulting from complexity",2018-08-23 23:58:18
+1783329421716829,Lantao,Mei,13309,1783329421716829,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-23 23:58:23
+1783329421716829,Lantao,Mei,13310,854518728062939,1783329421716829,BOT: message,Let's try this one.,2018-08-23 23:58:25
+1783329421716829,Lantao,Mei,13311,854518728062939,1783329421716829,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-23 23:58:26
+1783329421716829,Lantao,Mei,13312,854518728062939,1783329421716829,BOT: quick reply,"Despite being located in hot and sunny California, San Francisco is famous for its _____ weather, engendered by the confluence of two different meteorological systems in the Bay Area.",2018-08-23 23:58:27
+1783329421716829,Lantao,Mei,13313,1783329421716829,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 23:58:41
+1783329421716829,Lantao,Mei,13314,854518728062939,1783329421716829,BOT: message,Pick one of the following answers.,2018-08-23 23:58:42
+1783329421716829,Lantao,Mei,13315,854518728062939,1783329421716829,BOT: quick reply,":keycap_1: duplicitous
+:keycap_2: adverse
+:keycap_3: appealing
+:keycap_4: stimulating
+:keycap_5: balmy
+",2018-08-23 23:58:44
+1783329421716829,Lantao,Mei,13316,1783329421716829,854518728062939,user_quick_reply: BUTTON_AKB_adverse,:keycap_2:,2018-08-23 23:59:00
+1783329421716829,Lantao,Mei,13317,854518728062939,1783329421716829,BOT: message,Great job!,2018-08-23 23:59:02
+1783329421716829,Lantao,Mei,13318,854518728062939,1783329421716829,BOT: quick reply,The correct answer is adverse.,2018-08-23 23:59:03
+1783329421716829,Lantao,Mei,13319,1783329421716829,854518728062939,user_quick_reply: WHY,Why?,2018-08-23 23:59:08
+1783329421716829,Lantao,Mei,13320,854518728062939,1783329421716829,BOT: message,This is an explanation of the question:,2018-08-23 23:59:09
+1783329421716829,Lantao,Mei,13321,854518728062939,1783329421716829,BOT: quick reply,":pushpin: Adverse -- contrary to your interests or welfare
+:pushpin: Stimulating -- rousing or quickening activity or the senses
+:pushpin: Balmy -- mild and refreshing; soft; soothing
+:pushpin: Appealing -- able to attract interest or draw favorable attention
+:pushpin: Duplicitous -- marked by deliberate deceptiveness especially by pretending one set of feelings and acting under the influence of another",2018-08-23 23:59:10
+1783329421716829,Lantao,Mei,13322,1783329421716829,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-23 23:59:19
+1783329421716829,Lantao,Mei,13323,854518728062939,1783329421716829,BOT: message,How about this next one:,2018-08-23 23:59:20
+1783329421716829,Lantao,Mei,13324,854518728062939,1783329421716829,BOT: quick reply,The Erie Canal's completion caused _____ economic ripples; property values and industrial output along its route rose exponentially.,2018-08-23 23:59:22
+1783329421716829,Lantao,Mei,13325,1783329421716829,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-24 00:00:08
+1783329421716829,Lantao,Mei,13326,854518728062939,1783329421716829,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-08-24 00:00:10
+1783329421716829,Lantao,Mei,13327,854518728062939,1783329421716829,BOT: quick reply,":keycap_1: persistent
+:keycap_2: incredulous
+:keycap_3: prodigious
+:keycap_4: severe
+:keycap_5: invaluable
+",2018-08-24 00:00:12
+1783329421716829,Lantao,Mei,13328,1783329421716829,854518728062939,user_quick_reply: BUTTON_DKB_persistent,:keycap_1:,2018-08-24 00:00:17
+1783329421716829,Lantao,Mei,13329,854518728062939,1783329421716829,BOT: message,"I'm sorry, but that was incorrect. :disappointed_face:",2018-08-24 00:00:18
+1783329421716829,Lantao,Mei,13330,854518728062939,1783329421716829,BOT: quick reply,The correct answer is prodigious.,2018-08-24 00:00:20
+1783329421716829,Lantao,Mei,13331,1783329421716829,854518728062939,user_quick_reply: WHY,Why?,2018-08-24 00:00:24
+1783329421716829,Lantao,Mei,13332,854518728062939,1783329421716829,BOT: message,This is an explanation of the question:,2018-08-24 00:00:26
+1783329421716829,Lantao,Mei,13333,854518728062939,1783329421716829,BOT: quick reply,":pushpin: Prodigious -- so great in size or force or extent as to elicit awe
+:pushpin: Persistent -- lasting or enduring tenaciously
+:pushpin: Invaluable -- having incalculable monetary, intellectual, or spiritual worth
+:pushpin: Incredulous -- not disposed or willing to believe; unbelieving
+:pushpin: Severe -- intensely or extremely bad or unpleasant in degree or quality",2018-08-24 00:00:28

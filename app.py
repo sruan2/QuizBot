@@ -23,6 +23,7 @@ from QAKnowledgebase import QAKnowlegeBase
 import QAModel
 from utils import pretty_print
 
+qid_to_index = {1: 32, 2: 26, 132: 11, 5: 14, 136: 8, 138: 2, 139: 44, 14: 18, 143: 9, 146: 42, 19: 20, 21: 33, 25: 31, 27: 21, 30: 15, 31: 27, 32: 6, 35: 29, 38: 34, 42: 28, 45: 38, 8: 13, 50: 7, 53: 37, 64: 5, 65: 30, 68: 43, 70: 47, 72: 25, 74: 46, 79: 24, 82: 39, 84: 22, 85: 45, 87: 40, 93: 23, 94: 36, 97: 35, 100: 1, 103: 19, 112: 4, 147: 0, 117: 16, 118: 3, 120: 12, 121: 10, 125: 17, 127: 41}
 
 # ================== Global Varaibles ==================
 #  Flash App Setup
@@ -49,9 +50,9 @@ def send_pictures(path):
 
 
 # For tmp picture files such as dynamically generated leaderboard
-@app.route('/tmp/pictures/<path:path>')
+@app.route('/pictures/<path:path>')
 def send_lb_pictures(path):
-    return send_from_directory('../tmp/pictures', path)
+    return send_from_directory('../pictures', path)
 
 
 # go to https://smartprimer.org:8443/test
@@ -111,14 +112,16 @@ def webhook():
                 sender_firstname = data['first_name']
                 sender_lastname = data['last_name']
 
-
-
             # Check if the user is in cache already
             if not sender_id in cache:
                 # Check if the user is in database
                 if int(sender_id) in db.show_user_id_list(mysql):
                     subject = db.show_current_subject(mysql, sender_id)
-                    qid = db.show_current_qid(mysql, sender_id)
+                    _qid = db.show_current_qid(mysql, sender_id)
+                    try:
+                        qid = [qid_to_index[_qid], _qid]
+                    except:
+                        qid = [1, 32]
                     begin_uid = db.show_last_begin_uid(mysql, sender_id)
                     pretty_print('Retrieve the user from [user]', mode='Database')
                     pretty_print('{} {}'.format(sender_firstname, sender_lastname))
@@ -294,9 +297,8 @@ if __name__ == '__main__':
     elif model == "SupervisedSIFModeL":
         qa_model = QAModel.SupervisedSIFModeL(qa_kb, question_sequencing_model)
 
-    context = ('/etc/letsencrypt/live/smartprimer.org/fullchain.pem',
-               '/etc/letsencrypt/live/smartprimer.org/privkey.pem')
+    context = ("/home/321yy/ssl_cert/smartprimer_ai.crt", "/home/321yy/ssl_cert/server.key")
 
     pretty_print('============ Run App ============', mode='App')
-    app.run(host='0.0.0.0', threaded=True, debug=True, use_reloader=False,
-            ssl_context=context, port=int(os.environ["PORT"]))
+    app.run(host='0.0.0.0', threaded=True, debug=True, use_reloader=False, ssl_context=context, port=int(os.environ["PORT"]))
+

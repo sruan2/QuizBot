@@ -23,12 +23,12 @@ class RepeatedTimer(object):
         self._offset_timer.start()
 
     def offset_run(self):
-        active_list = show_users_newly_added(self.mysql) + [(1805880356153906, 'Nathan')]
+        active_list = show_users_newly_added(self.mysql)
         self.reminder.send_reminder(active_list)
         self.start()
 
     def _run(self):
-        active_list = show_users_newly_added(self.mysql) + [(1805880356153906, 'Nathan')]
+        active_list = show_users_newly_added(self.mysql)
         self.reminder.send_reminder(active_list)
         self.stop()
         self.start()
@@ -77,8 +77,6 @@ class Reminder(object):
                 Returns:
                     None
         '''
-        print(self.users)
-
         for recipient_id, user_name in user_list:
             if recipient_id not in self.users:
                 self.users[recipient_id] = 0

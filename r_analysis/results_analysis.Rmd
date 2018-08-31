@@ -1,0 +1,137 @@
+---
+title: "Analyzing Results of the QuizBot project"
+output: html_notebook
+---
+
+```{r}
+library("ggplot2")
+library(lsr)
+library(pwr)
+```
+
+```{r}
+# Unpaired t-test:
+# http://www.sthda.com/english/wiki/unpaired-two-samples-t-test-in-r
+
+# Pilot Study: 30 + 20
+
+flashcard_time = c(33.86, 41.84, 19.31, 35.31, 30.11)
+quizbot_time = c(59.8, 78.62, 49.23, 45.81)
+time_data <- data.frame(group = rep(c("flashcard", "quizbot"), c(5,4)), 
+                        total_time = c(flashcard_time,  quizbot_time))
+
+print(time_data)
+
+boxplot(total_time ~ group, data = time_data, col = c("lightblue", "lightyellow"), main='Total usage time over 7 days', ylab='minutes')
+
+mean(quizbot_time)
+sd(quizbot_time)
+mean(flashcard_time)
+sd(flashcard_time)
+
+# Assumption 1: Are the two samples independents?
+# Yes
+
+# Assumtion 2: Are the data from each of the 2 groups follow a normal distribution?
+hist(flashcard_time, main = "Histogram of flashcard app usage time")
+hist(quizbot_time, main = "Histogram of quizbot app usage time")
+# Shapiro-Wilk normality test for normality assumption
+with(time_data, shapiro.test(total_time[group == "flashcard"]))# p = 0.77
+with(time_data, shapiro.test(total_time[group == "quizbot"]))# p = 0.45
+
+# Assumption 3. Do the two populations have the same variances?
+res.ftest <- var.test(total_time ~ group, data = time_data)
+print(res.ftest) # p = 0.54, there is no significant difference between the variances of the two sets of data
+
+# Unpaired two-sample t-test
+# Compare the means of two groups under the assumption that both samples are random, independent, and normally distributed with unknown but equal variances
+t.test(flashcard_time, quizbot_time, paired=FALSE, var.equal = TRUE, alternative='two.sided')
+# p > 0.05 indicates we accept the null hypothesis (two means are equal)
+
+library(lsr)
+# Effect size
+# http://rcompanion.org/handbook/I_04.html
+cohensD(total_time ~ group, 
+       data  = time_data,
+       method = "pooled")
+
+# Power analysis
+# https://www.statmethods.net/stats/power.html
+pwr.t2n.test(n1 = 5, n2 = 4, d = 2.28, sig.level = 0.05)
+pwr.t.test(d = 0.311, sig.level = 0.05, power = 0.8, type = "two.sample")
+
+# One-tailed versus two-tailed
+# https://stats.idre.ucla.edu/other/mult-pkg/faq/general/faq-what-are-the-differences-between-one-tailed-and-two-tailed-tests/
+# https://www.graphpad.com/guides/prism/7/statistics/one-tail_vs__two-tail_p_values.htm?toc=0&printWindow
+```
+
+```{r}
+# Unpaired t-test:
+# http://www.sthda.com/english/wiki/unpaired-two-samples-t-test-in-r
+
+# Pilot Study: 30 + 20
+
+flashcard_score = c(15, 23, 12, 19, 7)
+quizbot_score = c(5, 5, 8, 8)
+score_data <- data.frame(group = rep(c("flashcard", "quizbot"), c(5,4)), 
+                        score = c(flashcard_score,  quizbot_score))
+
+boxplot(score ~ group, data = score_data, col = c("lightblue", "lightyellow"), main='Score improvement time over 7 days', ylab='minutes')
+
+mean(quizbot_score)
+sd(quizbot_score)
+mean(flashcard_score)
+sd(flashcard_score)
+
+# Assumption 1: Are the two samples independents?
+# Yes
+
+# Assumtion 2: Are the data from each of the 2 groups follow a normal distribution?
+hist(flashcard_time, main = "Histogram of flashcard app usage time")
+hist(quizbot_time, main = "Histogram of quizbot app usage time")
+# Shapiro-Wilk normality test for normality assumption
+with(score_data, shapiro.test(score[group == "flashcard"]))# p = 0.77
+with(score_data, shapiro.test(score[group == "quizbot"]))# p = 0.45
+
+# Assumption 3. Do the two populations have the same variances?
+res.ftest <- var.test(score ~ group, data = score_data)
+print(res.ftest) # p = 0.54, there is no significant difference between the variances of the two sets of data
+
+# Unpaired two-sample t-test
+# Compare the means of two groups under the assumption that both samples are random, independent, and normally distributed with unknown but equal variances
+t.test(flashcard_score, quizbot_score, paired=FALSE, var.equal = TRUE, alternative='two.sided')
+# p > 0.05 indicates we accept the null hypothesis (two means are equal)
+
+library(lsr)
+# Effect size
+# http://rcompanion.org/handbook/I_04.html
+cohensD(score ~ group, 
+       data  = score_data,
+       method = "pooled")
+
+# Power analysis
+# https://www.statmethods.net/stats/power.html
+pwr.t2n.test(n1 = 5, n2 = 4, d = 1.80, sig.level = 0.05)
+pwr.t.test(d = 0.311, sig.level = 0.05, power = 0.8, type = "two.sample")
+```
+
+```{r}
+# Pilot Study: 40 + 10
+
+flashcard_time = c(35.85, 13.15, 30.64)
+quizbot_time = c(24.26, 18.58, 63.77, 57.35)
+time_data <- data.frame(group = rep(c("flashcard", "quizbot"), c(3,4)), 
+                        total_time = c(flashcard_time,  quizbot_time))
+
+print(time_data)
+
+boxplot(total_time ~ group, data = time_data, col = c("lightblue", "lightyellow"), main='Total usage time over 7 days', ylab='minutes')
+
+mean(quizbot_time)
+sd(quizbot_time)
+mean(flashcard_time)
+sd(flashcard_time)
+
+
+t.test(flashcard_time, quizbot_time, paired=FALSE, var.equal = TRUE, alternative='two.sided')
+```

@@ -1,8 +1,10 @@
+source venv/bin/activate
 #!/bin/bash
 
-echo First Name: "$1"
-echo Last Name:  
-echo Database: "$3"
+echo Database: "$1"
+echo First Name: "$2"
+echo Last Name: "$3"
+
 
 # mysql -u root -p -e "SELECT user_id, user_firstname, user_lastname, uid, sender, recipient, type, dialogue, time_stamp \
 #  					 FROM (user RIGHT JOIN conversation ON user.user_id = conversation.sender OR user.user_id = conversation.recipient) \
@@ -15,6 +17,6 @@ echo Database: "$3"
 export DB_PASSWORD="smartprimer"
 export DB_HOST="localhost"
 export DB_USER="ubuntu"
-export DB="$3"
+export DB="$1"
 
-python quizbot_analytics.py "$1" "$2"
+python quizbot_analytics.py "$2" "$3"

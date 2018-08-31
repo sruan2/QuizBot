@@ -1,0 +1,370 @@
+user_id,user_firstname,user_lastname,uid,sender,recipient,type,dialogue,time_stamp
+1904897786199799,Francis,Yan,1251,1904897786199799,854518728062939,user_typing,Hi,2018-08-21 21:33:06
+1904897786199799,Francis,Yan,1252,854518728062939,1904897786199799,BOT: quick reply,Haha I haven't learned about this yet. You can teach me some languages later!,2018-08-21 21:33:07
+1904897786199799,Francis,Yan,1326,1904897786199799,854518728062939,persistent_menu: GET_INTRO_1,Get Started,2018-08-21 21:54:07
+1904897786199799,Francis,Yan,1327,854518728062939,1904897786199799,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/quizbot_avatar.png,2018-08-21 21:54:11
+1904897786199799,Francis,Yan,1328,854518728062939,1904897786199799,BOT: quick reply,"Hi Francis! My name is Frosty :penguin: and Im here to help you learn all about science:microscope:, verbal reasoning (GRE) :input_latin_uppercase:, and safety:hammer_and_wrench:!",2018-08-21 21:54:12
+1904897786199799,Francis,Yan,1329,1904897786199799,854518728062939,user_quick_reply: GET_INTRO_2,OK :oncoming_fist_medium-light_skin_tone:,2018-08-21 21:54:16
+1904897786199799,Francis,Yan,1330,854518728062939,1904897786199799,BOT: message,Heres how it works.,2018-08-21 21:54:17
+1904897786199799,Francis,Yan,1331,854518728062939,1904897786199799,BOT: message,"I ask you questions, and you give me answers.",2018-08-21 21:54:19
+1904897786199799,Francis,Yan,1332,854518728062939,1904897786199799,BOT: quick reply,We will learn fun things together!,2018-08-21 21:54:20
+1904897786199799,Francis,Yan,1333,1904897786199799,854518728062939,user_quick_reply: GET_INTRO_3,"Yes, continue :backhand_index_pointing_right_medium-light_skin_tone:",2018-08-21 21:54:24
+1904897786199799,Francis,Yan,1334,1904897786199799,854518728062939,persistent_menu: SCIENCE,Science:microscope:,2018-08-21 21:54:26
+1904897786199799,Francis,Yan,1335,854518728062939,1904897786199799,BOT: image,https://www.smartprimer.org:8443/pictures/user_manual/typeanswer.png,2018-08-21 21:54:27
+1904897786199799,Francis,Yan,1336,854518728062939,1904897786199799,BOT: quick reply,"To study the questions, you can type in your answers in the text field and I will evaluate the answers for you using advanced NLP (Natural Language Processing) technology.",2018-08-21 21:54:29
+1904897786199799,Francis,Yan,1337,854518728062939,1904897786199799,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/evolvesafety_scientist.gif,2018-08-21 21:54:32
+1904897786199799,Francis,Yan,1338,1904897786199799,854518728062939,persistent_menu: SCIENCE,Science:microscope:,2018-08-21 21:54:33
+1904897786199799,Francis,Yan,1339,854518728062939,1904897786199799,BOT: quick reply,Awesome! Let's learn about science!,2018-08-21 21:54:34
+1904897786199799,Francis,Yan,1340,854518728062939,1904897786199799,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/evolvesafety_scientist.gif,2018-08-21 21:54:39
+1904897786199799,Francis,Yan,1341,854518728062939,1904897786199799,BOT: quick reply,Let's answer some questions about science!,2018-08-21 21:54:41
+1904897786199799,Francis,Yan,1342,1904897786199799,854518728062939,user_quick_reply: NEXT_QUESTION,Okay :clapping_hands_medium-light_skin_tone:,2018-08-21 21:54:45
+1904897786199799,Francis,Yan,1343,854518728062939,1904897786199799,BOT: message,"Alrighty, let's try this one.",2018-08-21 21:54:46
+1904897786199799,Francis,Yan,1344,854518728062939,1904897786199799,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-21 21:54:48
+1904897786199799,Francis,Yan,1345,854518728062939,1904897786199799,BOT: quick reply,What is the diffusion of water through a semipermeable membrane down its concentration gradient?,2018-08-21 21:54:49
+1904897786199799,Francis,Yan,1346,1904897786199799,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-21 21:54:53
+1904897786199799,Francis,Yan,1347,854518728062939,1904897786199799,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-08-21 21:54:55
+1904897786199799,Francis,Yan,1348,854518728062939,1904897786199799,BOT: quick reply,":keycap_1: permable
+:keycap_2: nutrients
+:keycap_3: mirrors
+:keycap_4: osmosis
+",2018-08-21 21:54:56
+1904897786199799,Francis,Yan,1349,1904897786199799,854518728062939,user_quick_reply: BUTTON_DKB_mirrors,:keycap_3:,2018-08-21 21:55:07
+1904897786199799,Francis,Yan,1350,854518728062939,1904897786199799,BOT: message,That's not quite right. :disappointed_face:,2018-08-21 21:55:09
+1904897786199799,Francis,Yan,1351,854518728062939,1904897786199799,BOT: quick reply,The correct answer is osmosis.,2018-08-21 21:55:10
+1904897786199799,Francis,Yan,1352,1904897786199799,854518728062939,user_quick_reply: WHY,Why?,2018-08-21 21:55:17
+1904897786199799,Francis,Yan,1353,854518728062939,1904897786199799,BOT: message,I hope this explanation could help you understand the the question.,2018-08-21 21:55:18
+1904897786199799,Francis,Yan,1354,854518728062939,1904897786199799,BOT: quick reply,"Osmosis is the diffusion of water through a semipermeable membrane down its concentration gradient. If a membrane is permeable to water, though not to a solute, water will equalize its own concentration by diffusing to the side of lower water concentration (and thus the side of higher solute concentration). In the beaker on the left, the solution on the right side of the membrane is hypertonic.",2018-08-21 21:55:20
+1904897786199799,Francis,Yan,1493,1904897786199799,854518728062939,user_typing,Hello,2018-08-21 22:14:42
+1904897786199799,Francis,Yan,1494,854518728062939,1904897786199799,BOT: quick reply,Haha I haven't learned about this yet. You can teach me some languages later!,2018-08-21 22:14:43
+1904897786199799,Francis,Yan,1959,1904897786199799,854518728062939,persistent_menu: GET_INTRO_1,Get Started,2018-08-21 22:57:38
+1904897786199799,Francis,Yan,1960,854518728062939,1904897786199799,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/quizbot_avatar.png,2018-08-21 22:57:43
+1904897786199799,Francis,Yan,1961,854518728062939,1904897786199799,BOT: quick reply,"Hi Francis! My name is Frosty :penguin: and Im here to help you learn all about science:microscope:, verbal reasoning (GRE) :input_latin_uppercase:, and safety:hammer_and_wrench:!",2018-08-21 22:57:44
+1904897786199799,Francis,Yan,1989,1904897786199799,854518728062939,user_quick_reply: GET_INTRO_2,"Yes, continue :white_heavy_check_mark:",2018-08-21 23:00:42
+1904897786199799,Francis,Yan,1990,854518728062939,1904897786199799,BOT: message,Heres how it works.,2018-08-21 23:00:43
+1904897786199799,Francis,Yan,1991,854518728062939,1904897786199799,BOT: message,"I ask you questions, and you give me answers.",2018-08-21 23:00:45
+1904897786199799,Francis,Yan,1992,854518728062939,1904897786199799,BOT: quick reply,We will learn fun things together!,2018-08-21 23:00:46
+1904897786199799,Francis,Yan,1993,1904897786199799,854518728062939,user_quick_reply: GET_INTRO_3,Alright :white_heavy_check_mark:,2018-08-21 23:00:49
+1904897786199799,Francis,Yan,1996,854518728062939,1904897786199799,BOT: image,https://www.smartprimer.org:8443/pictures/user_manual/typeanswer.png,2018-08-21 23:00:53
+1904897786199799,Francis,Yan,1998,854518728062939,1904897786199799,BOT: quick reply,"To study the questions, you can type in your answers in the text field and I will evaluate the answers for you using advanced NLP (Natural Language Processing) technology.",2018-08-21 23:00:54
+1904897786199799,Francis,Yan,1999,1904897786199799,854518728062939,user_quick_reply: GET_INTRO_4,I see :white_heavy_check_mark:,2018-08-21 23:00:58
+1904897786199799,Francis,Yan,2000,854518728062939,1904897786199799,BOT: image,https://www.smartprimer.org:8443/pictures/user_manual/needhintbutton.png,2018-08-21 23:01:01
+1904897786199799,Francis,Yan,2001,854518728062939,1904897786199799,BOT: quick reply,"If you don't know the answers, then feel free to tap on the hint button.",2018-08-21 23:01:03
+1904897786199799,Francis,Yan,2021,1904897786199799,854518728062939,user_quick_reply: GET_INTRO_5,Okay :white_heavy_check_mark:,2018-08-21 23:01:48
+1904897786199799,Francis,Yan,2023,854518728062939,1904897786199799,BOT: image,https://www.smartprimer.org:8443/pictures/user_manual/hintoptions.png,2018-08-21 23:01:51
+1904897786199799,Francis,Yan,2025,854518728062939,1904897786199799,BOT: quick reply,The hint will give you a list of potential answers and you can select one from them.,2018-08-21 23:01:52
+1904897786199799,Francis,Yan,2027,1904897786199799,854518728062939,user_quick_reply: GET_INTRO_6,Okay :oncoming_fist_medium-light_skin_tone:,2018-08-21 23:01:55
+1904897786199799,Francis,Yan,2029,854518728062939,1904897786199799,BOT: image,https://www.smartprimer.org:8443/pictures/user_manual/menubutton.jpg,2018-08-21 23:01:58
+1904897786199799,Francis,Yan,2030,854518728062939,1904897786199799,BOT: quick reply,"To discover more abilities of me, you can click on the menu button.:backhand_index_pointing_up_medium-light_skin_tone:",2018-08-21 23:01:59
+1904897786199799,Francis,Yan,2033,1904897786199799,854518728062939,user_quick_reply: GET_READY,Next :round_pushpin:,2018-08-21 23:02:06
+1904897786199799,Francis,Yan,2035,854518728062939,1904897786199799,BOT: message,I hope you enjoy the learning journey! :hundred_points:,2018-08-21 23:02:08
+1904897786199799,Francis,Yan,2037,854518728062939,1904897786199799,BOT: quick reply,"So, are you ready?",2018-08-21 23:02:09
+1904897786199799,Francis,Yan,2039,1904897786199799,854518728062939,user_quick_reply: YUP_IM_READY,Yup! I'm ready! :raised_fist_medium-light_skin_tone:,2018-08-21 23:02:13
+1904897786199799,Francis,Yan,2041,854518728062939,1904897786199799,BOT: message,Great!,2018-08-21 23:02:14
+1904897786199799,Francis,Yan,2043,854518728062939,1904897786199799,BOT: quick reply,Lets get started :rocket:,2018-08-21 23:02:15
+1904897786199799,Francis,Yan,2045,1904897786199799,854518728062939,user_quick_reply: SWITCH_SUBJECT,Quiz me :nerd_face:,2018-08-21 23:02:19
+1904897786199799,Francis,Yan,2047,854518728062939,1904897786199799,BOT: quick reply,"Sure, which subject would you like me to quiz you on?:backhand_index_pointing_down_medium-light_skin_tone:",2018-08-21 23:02:20
+1904897786199799,Francis,Yan,2049,1904897786199799,854518728062939,user_quick_reply: SCIENCE,Science:microscope:,2018-08-21 23:02:24
+1904897786199799,Francis,Yan,2051,854518728062939,1904897786199799,BOT: quick reply,Okay! Lets see how much you know about science!,2018-08-21 23:02:26
+1904897786199799,Francis,Yan,2053,1904897786199799,854518728062939,user_quick_reply: NEXT_QUESTION,Sure :thumbs_up_medium-light_skin_tone:,2018-08-21 23:02:30
+1904897786199799,Francis,Yan,2055,854518728062939,1904897786199799,BOT: message,Would you answer this question for me?,2018-08-21 23:02:31
+1904897786199799,Francis,Yan,2057,854518728062939,1904897786199799,BOT: quick reply,What are by far the most common type of invertebrate?,2018-08-21 23:02:33
+1904897786199799,Francis,Yan,2559,1904897786199799,854518728062939,persistent_menu: GET_INTRO_1,Get Started,2018-08-22 10:19:07
+1904897786199799,Francis,Yan,2560,854518728062939,1904897786199799,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/quizbot_avatar.png,2018-08-22 10:19:11
+1904897786199799,Francis,Yan,2561,854518728062939,1904897786199799,BOT: quick reply,"Hi Francis! My name is Frosty :penguin: and Im here to help you learn all about science:microscope:, verbal reasoning (GRE) :input_latin_uppercase:, and safety:hammer_and_wrench:!",2018-08-22 10:19:13
+1904897786199799,Francis,Yan,2562,854518728062939,1904897786199799,BOT: message,Heres how it works.,2018-08-22 10:19:19
+1904897786199799,Francis,Yan,2563,854518728062939,1904897786199799,BOT: message,"I ask you questions, and you give me answers.",2018-08-22 10:19:20
+1904897786199799,Francis,Yan,2564,854518728062939,1904897786199799,BOT: quick reply,We will learn fun things together!,2018-08-22 10:19:22
+1904897786199799,Francis,Yan,2565,1904897786199799,854518728062939,user_quick_reply: GET_INTRO_3,Alrighty :light_bulb:,2018-08-22 10:19:27
+1904897786199799,Francis,Yan,2566,854518728062939,1904897786199799,BOT: image,https://www.smartprimer.org:8443/pictures/user_manual/typeanswer.png,2018-08-22 10:19:31
+1904897786199799,Francis,Yan,2567,854518728062939,1904897786199799,BOT: quick reply,"To study the questions, you can type in your answers in the text field and I will evaluate the answers for you using advanced NLP (Natural Language Processing) technology.",2018-08-22 10:19:32
+1904897786199799,Francis,Yan,2568,1904897786199799,854518728062939,user_quick_reply: GET_INTRO_4,Continue :clapping_hands_medium-light_skin_tone:,2018-08-22 10:19:40
+1904897786199799,Francis,Yan,2569,854518728062939,1904897786199799,BOT: image,https://www.smartprimer.org:8443/pictures/user_manual/needhintbutton.png,2018-08-22 10:19:43
+1904897786199799,Francis,Yan,2570,854518728062939,1904897786199799,BOT: quick reply,"If you don't know the answers, then feel free to tap on the hint button.",2018-08-22 10:19:44
+1904897786199799,Francis,Yan,2571,854518728062939,1904897786199799,BOT: image,https://www.smartprimer.org:8443/pictures/user_manual/hintoptions.png,2018-08-22 10:19:51
+1904897786199799,Francis,Yan,2572,854518728062939,1904897786199799,BOT: quick reply,The hint will give you a list of potential answers and you can select one from them.,2018-08-22 10:19:53
+1904897786199799,Francis,Yan,2573,1904897786199799,854518728062939,user_quick_reply: GET_INTRO_6,Tap me :backhand_index_pointing_down_medium-light_skin_tone:,2018-08-22 10:19:56
+1904897786199799,Francis,Yan,2574,854518728062939,1904897786199799,BOT: image,https://www.smartprimer.org:8443/pictures/user_manual/menubutton.jpg,2018-08-22 10:19:58
+1904897786199799,Francis,Yan,2575,854518728062939,1904897786199799,BOT: quick reply,"To discover more abilities of me, you can click on the menu button.:backhand_index_pointing_up_medium-light_skin_tone:",2018-08-22 10:20:00
+1904897786199799,Francis,Yan,2576,1904897786199799,854518728062939,user_quick_reply: GET_READY,Okay :round_pushpin:,2018-08-22 10:20:04
+1904897786199799,Francis,Yan,2577,854518728062939,1904897786199799,BOT: message,I hope you enjoy the learning journey! :hundred_points:,2018-08-22 10:20:06
+1904897786199799,Francis,Yan,2578,854518728062939,1904897786199799,BOT: quick reply,"So, are you ready?",2018-08-22 10:20:08
+1904897786199799,Francis,Yan,2579,1904897786199799,854518728062939,user_quick_reply: YUP_IM_READY,Yup! I'm ready! :raised_fist_medium-light_skin_tone:,2018-08-22 10:20:11
+1904897786199799,Francis,Yan,2580,854518728062939,1904897786199799,BOT: message,Great!,2018-08-22 10:20:12
+1904897786199799,Francis,Yan,2581,854518728062939,1904897786199799,BOT: quick reply,Lets get started :rocket:,2018-08-22 10:20:14
+1904897786199799,Francis,Yan,2582,1904897786199799,854518728062939,user_quick_reply: SWITCH_SUBJECT,Quiz me :nerd_face:,2018-08-22 10:20:19
+1904897786199799,Francis,Yan,2583,854518728062939,1904897786199799,BOT: quick reply,"Okay, now tell me which subject you would like to study.:backhand_index_pointing_down_medium-light_skin_tone:",2018-08-22 10:20:20
+1904897786199799,Francis,Yan,2584,1904897786199799,854518728062939,user_quick_reply: GRE,GRE :input_latin_uppercase:,2018-08-22 10:20:24
+1904897786199799,Francis,Yan,2585,854518728062939,1904897786199799,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/evolvescientist_reading.gif,2018-08-22 10:20:30
+1904897786199799,Francis,Yan,2586,854518728062939,1904897786199799,BOT: quick reply,Cool! Here's some questions on the GRE!,2018-08-22 10:20:31
+1904897786199799,Francis,Yan,2587,1904897786199799,854518728062939,user_quick_reply: NEXT_QUESTION,Sure :light_bulb:,2018-08-22 10:20:34
+1904897786199799,Francis,Yan,2588,854518728062939,1904897786199799,BOT: message,Let's see if you can answer this question.,2018-08-22 10:20:36
+1904897786199799,Francis,Yan,2589,854518728062939,1904897786199799,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-22 10:20:37
+1904897786199799,Francis,Yan,2590,854518728062939,1904897786199799,BOT: quick reply,"Dolly Madison, the wife of President James Madison, was known especially for her _____ , remaining calm even as the British invaded Washington D.C. during the War of 1812.",2018-08-22 10:20:39
+1904897786199799,Francis,Yan,2591,1904897786199799,854518728062939,user_typing,calmness,2018-08-22 10:22:16
+1904897786199799,Francis,Yan,2592,854518728062939,1904897786199799,BOT: message,Good job! :raising_hands_medium-light_skin_tone:,2018-08-22 10:22:17
+1904897786199799,Francis,Yan,2593,854518728062939,1904897786199799,BOT: quick reply,The correct answer is equanimity.,2018-08-22 10:22:19
+1904897786199799,Francis,Yan,2594,1904897786199799,854518728062939,user_quick_reply: WHY,Why?,2018-08-22 10:22:51
+1904897786199799,Francis,Yan,2595,854518728062939,1904897786199799,BOT: message,I hope this explanation could help you understand the the question.,2018-08-22 10:22:52
+1904897786199799,Francis,Yan,2596,854518728062939,1904897786199799,BOT: quick reply,":pushpin: Equanimity -- steadiness of mind under stress
+:pushpin: Impracticality -- concerned with theoretical possibilities rather than actual use
+:pushpin: Cynicism -- a cynical feeling of distrust
+:pushpin: Zeal -- a feeling of strong eagerness usually in favor of a person or cause
+:pushpin: Malevolence -- wishing evil to others",2018-08-22 10:22:54
+1904897786199799,Francis,Yan,2606,1904897786199799,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-22 10:23:43
+1904897786199799,Francis,Yan,2607,854518728062939,1904897786199799,BOT: message,See if you can answer this next one.,2018-08-22 10:23:45
+1904897786199799,Francis,Yan,2608,854518728062939,1904897786199799,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-22 10:23:46
+1904897786199799,Francis,Yan,2609,854518728062939,1904897786199799,BOT: quick reply,The Erie Canal's completion caused _____ economic ripples; property values and industrial output along its route rose exponentially.,2018-08-22 10:23:48
+1904897786199799,Francis,Yan,2613,1904897786199799,854518728062939,user_typing,huge,2018-08-22 10:25:04
+1904897786199799,Francis,Yan,2614,854518728062939,1904897786199799,BOT: message,Good Answer! :white_heavy_check_mark:,2018-08-22 10:25:06
+1904897786199799,Francis,Yan,2615,854518728062939,1904897786199799,BOT: quick reply,The correct answer is prodigious.,2018-08-22 10:25:07
+1904897786199799,Francis,Yan,2616,1904897786199799,854518728062939,user_quick_reply: WHY,Why?,2018-08-22 10:25:12
+1904897786199799,Francis,Yan,2617,854518728062939,1904897786199799,BOT: message,Here's an explanation:,2018-08-22 10:25:14
+1904897786199799,Francis,Yan,2618,854518728062939,1904897786199799,BOT: quick reply,":pushpin: Prodigious -- so great in size or force or extent as to elicit awe
+:pushpin: Persistent -- lasting or enduring tenaciously
+:pushpin: Invaluable -- having incalculable monetary, intellectual, or spiritual worth
+:pushpin: Incredulous -- not disposed or willing to believe; unbelieving
+:pushpin: Severe -- intensely or extremely bad or unpleasant in degree or quality",2018-08-22 10:25:15
+1904897786199799,Francis,Yan,2619,1904897786199799,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-22 10:26:37
+1904897786199799,Francis,Yan,2620,854518728062939,1904897786199799,BOT: message,Could you answer this one for me?,2018-08-22 10:26:39
+1904897786199799,Francis,Yan,2621,854518728062939,1904897786199799,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-22 10:26:40
+1904897786199799,Francis,Yan,2622,854518728062939,1904897786199799,BOT: quick reply,"Many dog owners treat their pets too _____ , forgetting that canines have evolved in competitive environments in which emotional coddling was a sign of weakness.",2018-08-22 10:26:42
+1904897786199799,Francis,Yan,2623,1904897786199799,854518728062939,user_typing,intimately,2018-08-22 10:27:14
+1904897786199799,Francis,Yan,2624,854518728062939,1904897786199799,BOT: message,"I'm sorry, but that was incorrect. :disappointed_face:",2018-08-22 10:27:15
+1904897786199799,Francis,Yan,2625,854518728062939,1904897786199799,BOT: quick reply,The correct answer is indulgently.,2018-08-22 10:27:16
+1904897786199799,Francis,Yan,2626,1904897786199799,854518728062939,user_quick_reply: WHY,Why?,2018-08-22 10:27:21
+1904897786199799,Francis,Yan,2627,854518728062939,1904897786199799,BOT: message,I hope this explanation could help you understand the the question.,2018-08-22 10:27:23
+1904897786199799,Francis,Yan,2628,854518728062939,1904897786199799,BOT: quick reply,":pushpin: Indulgently -- benignly lenient or permissive
+:pushpin: Aggressively -- characterized by or tending toward unprovoked offensives, attacks, invasions, or the like
+:pushpin: Quixotically -- extravagantly chivalrous or romantic
+:pushpin: Fortuitously -- by good fortune
+:pushpin: Belligerently -- with hostility; in a belligerent hostile manner",2018-08-22 10:27:24
+1904897786199799,Francis,Yan,2629,1904897786199799,854518728062939,user_typing,Fine,2018-08-22 10:28:41
+1904897786199799,Francis,Yan,2630,854518728062939,1904897786199799,BOT: quick reply,I'm not sure what this is. I'm still learning languages and you might be my teacher in the future!,2018-08-22 10:28:43
+1904897786199799,Francis,Yan,2631,1904897786199799,854518728062939,user_typing,See you,2018-08-22 10:28:50
+1904897786199799,Francis,Yan,2632,854518728062939,1904897786199799,BOT: quick reply,Haha I haven't learned about this yet. You can teach me some languages later!,2018-08-22 10:28:51
+1904897786199799,Francis,Yan,2633,1904897786199799,854518728062939,user_quick_reply: CHAT_WITH_ME,Chat with me :penguin:,2018-08-22 10:28:58
+1904897786199799,Francis,Yan,2634,854518728062939,1904897786199799,BOT: quick reply,Do you want me to tell you something fun?,2018-08-22 10:28:59
+1904897786199799,Francis,Yan,2635,1904897786199799,854518728062939,user_typing,See you,2018-08-22 10:29:04
+1904897786199799,Francis,Yan,2636,854518728062939,1904897786199799,BOT: quick reply,I'm not sure what this is. I'm still learning languages and you might be my teacher in the future!,2018-08-22 10:29:06
+1904897786199799,Francis,Yan,5077,854518728062939,1904897786199799,BOT: quick reply,"Hi Francis, you haven't talked to me for a while. Would you like to resume the learning with me?",2018-08-22 20:00:19
+1904897786199799,Francis,Yan,5336,1904897786199799,854518728062939,user_typing,No,2018-08-22 20:43:20
+1904897786199799,Francis,Yan,5338,854518728062939,1904897786199799,BOT: quick reply,That sounds cool. I need to learn more languages to keep up with the conversation with you. Maybe you can teach me languages in the future!,2018-08-22 20:43:21
+1904897786199799,Francis,Yan,5394,1904897786199799,854518728062939,user_quick_reply: CHAT_WITH_ME,Chat with me :penguin:,2018-08-22 20:51:58
+1904897786199799,Francis,Yan,5395,854518728062939,1904897786199799,BOT: quick reply,Great! I have something fun for you!,2018-08-22 20:51:59
+1904897786199799,Francis,Yan,5396,1904897786199799,854518728062939,user_quick_reply: FUN_FACT_SCIENCE,Fun fact :light_bulb:,2018-08-22 20:52:08
+1904897786199799,Francis,Yan,5397,854518728062939,1904897786199799,BOT: message,Here is an interesting one.,2018-08-22 20:52:09
+1904897786199799,Francis,Yan,5398,854518728062939,1904897786199799,BOT: quick reply,The ocean is 8 Empire State Buildings deep on average.,2018-08-22 20:52:11
+1904897786199799,Francis,Yan,5399,1904897786199799,854518728062939,user_quick_reply: JOKE,Joke :beaming_face_with_smiling_eyes:,2018-08-22 20:52:23
+1904897786199799,Francis,Yan,5400,854518728062939,1904897786199799,BOT: message,Here is an interesting one:,2018-08-22 20:52:24
+1904897786199799,Francis,Yan,5401,854518728062939,1904897786199799,BOT: quick reply,What is the musical part of a snake? The scales.,2018-08-22 20:52:26
+1904897786199799,Francis,Yan,5406,1904897786199799,854518728062939,user_quick_reply: NEXT_QUESTION,Continue learning :flexed_biceps_medium-light_skin_tone:,2018-08-22 20:52:44
+1904897786199799,Francis,Yan,5407,854518728062939,1904897786199799,BOT: message,What about this next question:,2018-08-22 20:52:46
+1904897786199799,Francis,Yan,5408,854518728062939,1904897786199799,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-22 20:52:47
+1904897786199799,Francis,Yan,5409,854518728062939,1904897786199799,BOT: quick reply,"Just as different people can have very different personalities, so too can pets - even those of the same species and breed possess varied _____ .",2018-08-22 20:52:49
+1904897786199799,Francis,Yan,5427,1904897786199799,854518728062939,user_typing,Bye,2018-08-22 20:57:31
+1904897786199799,Francis,Yan,5428,854518728062939,1904897786199799,BOT: message,"Oops, that answer was incorrect. :disappointed_face:",2018-08-22 20:57:33
+1904897786199799,Francis,Yan,5429,854518728062939,1904897786199799,BOT: quick reply,The correct answer is temperaments.,2018-08-22 20:57:34
+1904897786199799,Francis,Yan,5430,1904897786199799,854518728062939,user_typing,Goodbye,2018-08-22 20:57:42
+1904897786199799,Francis,Yan,5431,854518728062939,1904897786199799,BOT: quick reply,Haha I haven't learned about this yet. You can teach me some languages later!,2018-08-22 20:57:43
+1904897786199799,Francis,Yan,5432,1904897786199799,854518728062939,user_typing,See you,2018-08-22 20:57:54
+1904897786199799,Francis,Yan,5433,854518728062939,1904897786199799,BOT: quick reply,I'm not sure what this is. I'm still learning languages and you might be my teacher in the future!,2018-08-22 20:57:55
+1904897786199799,Francis,Yan,5440,1904897786199799,854518728062939,user_typing,Share with me then,2018-08-22 21:02:00
+1904897786199799,Francis,Yan,5441,854518728062939,1904897786199799,BOT: quick reply,I'm not sure what this is. I'm still learning languages and you might be my teacher in the future!,2018-08-22 21:02:01
+1904897786199799,Francis,Yan,5444,1904897786199799,854518728062939,user_typing,Goodbye silly penguin,2018-08-22 21:02:20
+1904897786199799,Francis,Yan,5445,854518728062939,1904897786199799,BOT: quick reply,"That sounds interesting, but I haven't learned about this yet. I'll learn more languages in the future.",2018-08-22 21:02:22
+1904897786199799,Francis,Yan,6456,1904897786199799,854518728062939,user_typing,No I dont want to,2018-08-22 23:27:10
+1904897786199799,Francis,Yan,6457,854518728062939,1904897786199799,BOT: quick reply,That sounds cool. I need to learn more languages to keep up with the conversation with you. Maybe you can teach me languages in the future!,2018-08-22 23:27:12
+1904897786199799,Francis,Yan,6630,1904897786199799,854518728062939,user_quick_reply: NEXT_QUESTION,Continue learning :flexed_biceps_medium-light_skin_tone:,2018-08-23 10:40:24
+1904897786199799,Francis,Yan,6631,854518728062939,1904897786199799,BOT: message,What about this next question:,2018-08-23 10:40:25
+1904897786199799,Francis,Yan,6632,854518728062939,1904897786199799,BOT: quick reply,The Erie Canal's completion caused _____ economic ripples; property values and industrial output along its route rose exponentially.,2018-08-23 10:40:27
+1904897786199799,Francis,Yan,6664,1904897786199799,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 10:48:57
+1904897786199799,Francis,Yan,6665,1904897786199799,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 10:48:58
+1904897786199799,Francis,Yan,6666,1904897786199799,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 10:48:59
+1904897786199799,Francis,Yan,6667,1904897786199799,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 10:49:00
+1904897786199799,Francis,Yan,6668,1904897786199799,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 10:49:02
+1904897786199799,Francis,Yan,6669,1904897786199799,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 10:49:06
+1904897786199799,Francis,Yan,6672,1904897786199799,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 10:49:24
+1904897786199799,Francis,Yan,6676,1904897786199799,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 10:50:47
+1904897786199799,Francis,Yan,6680,1904897786199799,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 10:52:02
+1904897786199799,Francis,Yan,6684,1904897786199799,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 10:53:23
+1904897786199799,Francis,Yan,6688,1904897786199799,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 10:54:50
+1904897786199799,Francis,Yan,6691,1904897786199799,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 10:56:06
+1904897786199799,Francis,Yan,6696,1904897786199799,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 10:57:28
+1904897786199799,Francis,Yan,6700,1904897786199799,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 10:58:52
+1904897786199799,Francis,Yan,6703,1904897786199799,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 11:00:05
+1904897786199799,Francis,Yan,6706,1904897786199799,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 11:01:22
+1904897786199799,Francis,Yan,6710,1904897786199799,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 11:02:48
+1904897786199799,Francis,Yan,6714,1904897786199799,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 11:04:00
+1904897786199799,Francis,Yan,6718,1904897786199799,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 11:05:17
+1904897786199799,Francis,Yan,6722,1904897786199799,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 11:06:35
+1904897786199799,Francis,Yan,6726,1904897786199799,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 11:07:51
+1904897786199799,Francis,Yan,6731,1904897786199799,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 11:09:17
+1904897786199799,Francis,Yan,6735,1904897786199799,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 11:11:49
+1904897786199799,Francis,Yan,6739,1904897786199799,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 11:13:00
+1904897786199799,Francis,Yan,6743,1904897786199799,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 11:14:25
+1904897786199799,Francis,Yan,6747,1904897786199799,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 11:15:40
+1904897786199799,Francis,Yan,6759,1904897786199799,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 11:17:07
+1904897786199799,Francis,Yan,6779,1904897786199799,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 11:18:26
+1904897786199799,Francis,Yan,6783,1904897786199799,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 11:19:49
+1904897786199799,Francis,Yan,6787,1904897786199799,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 11:21:09
+1904897786199799,Francis,Yan,6791,1904897786199799,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 11:22:25
+1904897786199799,Francis,Yan,6795,1904897786199799,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 11:23:37
+1904897786199799,Francis,Yan,6799,1904897786199799,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 11:24:52
+1904897786199799,Francis,Yan,6803,1904897786199799,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 11:26:03
+1904897786199799,Francis,Yan,6806,1904897786199799,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 11:27:27
+1904897786199799,Francis,Yan,6810,1904897786199799,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 11:28:39
+1904897786199799,Francis,Yan,6814,1904897786199799,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 11:30:04
+1904897786199799,Francis,Yan,6819,1904897786199799,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 11:31:27
+1904897786199799,Francis,Yan,6826,1904897786199799,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 11:35:27
+1904897786199799,Francis,Yan,6828,854518728062939,1904897786199799,BOT: message,Pick one of the following answers.,2018-08-23 11:35:28
+1904897786199799,Francis,Yan,6830,854518728062939,1904897786199799,BOT: quick reply,":keycap_1: incredulous
+:keycap_2: prodigious
+:keycap_3: invaluable
+:keycap_4: severe
+:keycap_5: persistent
+",2018-08-23 11:35:30
+1904897786199799,Francis,Yan,6965,1904897786199799,854518728062939,user_quick_reply: BUTTON_AKB_prodigious,:keycap_2:,2018-08-23 12:00:12
+1904897786199799,Francis,Yan,6966,854518728062939,1904897786199799,BOT: message,Nice work! Keep it up!,2018-08-23 12:00:13
+1904897786199799,Francis,Yan,6967,854518728062939,1904897786199799,BOT: quick reply,The correct answer is prodigious.,2018-08-23 12:00:15
+1904897786199799,Francis,Yan,7061,1904897786199799,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-23 13:00:16
+1904897786199799,Francis,Yan,7062,854518728062939,1904897786199799,BOT: message,I think you'll like this question.,2018-08-23 13:00:17
+1904897786199799,Francis,Yan,7063,854518728062939,1904897786199799,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-23 13:00:19
+1904897786199799,Francis,Yan,7064,854518728062939,1904897786199799,BOT: quick reply,"Just as different people can have very different personalities, so too can pets - even those of the same species and breed possess varied _____ .",2018-08-23 13:00:20
+1904897786199799,Francis,Yan,7065,1904897786199799,854518728062939,user_typing,personalities,2018-08-23 13:00:38
+1904897786199799,Francis,Yan,7066,854518728062939,1904897786199799,BOT: message,"Oops, that answer was incorrect. :disappointed_face:",2018-08-23 13:00:39
+1904897786199799,Francis,Yan,7067,854518728062939,1904897786199799,BOT: quick reply,The correct answer is temperaments.,2018-08-23 13:00:41
+1904897786199799,Francis,Yan,7068,1904897786199799,854518728062939,user_quick_reply: WHY,Why?,2018-08-23 13:00:45
+1904897786199799,Francis,Yan,7069,854518728062939,1904897786199799,BOT: message,I hope this explanation could help you understand the the question.,2018-08-23 13:00:47
+1904897786199799,Francis,Yan,7070,854518728062939,1904897786199799,BOT: quick reply,":pushpin: Temperaments -- the combination of mental, physical, and emotional traits",2018-08-23 13:00:48
+1904897786199799,Francis,Yan,7072,1904897786199799,854518728062939,user_quick_reply: SWITCH_SUBJECT,Change subject :shuffle_tracks_button:,2018-08-23 13:01:03
+1904897786199799,Francis,Yan,7074,854518728062939,1904897786199799,BOT: quick reply,"Sure, which subject would you like me to quiz you on?:backhand_index_pointing_down_medium-light_skin_tone:",2018-08-23 13:01:04
+1904897786199799,Francis,Yan,7076,1904897786199799,854518728062939,user_quick_reply: SCIENCE,Science:microscope:,2018-08-23 13:01:11
+1904897786199799,Francis,Yan,7077,854518728062939,1904897786199799,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/evolvereading_scientist.gif,2018-08-23 13:01:16
+1904897786199799,Francis,Yan,7078,854518728062939,1904897786199799,BOT: quick reply,Awesome! Here are some questions on science!,2018-08-23 13:01:18
+1904897786199799,Francis,Yan,7079,1904897786199799,854518728062939,user_quick_reply: NEXT_QUESTION,Got it :flexed_biceps_medium-light_skin_tone:,2018-08-23 13:01:31
+1904897786199799,Francis,Yan,7080,854518728062939,1904897786199799,BOT: message,How about this next one:,2018-08-23 13:01:32
+1904897786199799,Francis,Yan,7081,854518728062939,1904897786199799,BOT: quick reply,What is the diffusion of water through a semipermeable membrane down its concentration gradient?,2018-08-23 13:01:33
+1904897786199799,Francis,Yan,7082,1904897786199799,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 13:01:55
+1904897786199799,Francis,Yan,7083,854518728062939,1904897786199799,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-08-23 13:01:56
+1904897786199799,Francis,Yan,7084,854518728062939,1904897786199799,BOT: quick reply,":keycap_1: permable
+:keycap_2: nutrients
+:keycap_3: mirrors
+:keycap_4: osmosis
+",2018-08-23 13:01:58
+1904897786199799,Francis,Yan,7085,1904897786199799,854518728062939,user_quick_reply: BUTTON_AKB_osmosis,:keycap_4:,2018-08-23 13:02:32
+1904897786199799,Francis,Yan,7086,854518728062939,1904897786199799,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_normal_cyan.png,2018-08-23 13:02:34
+1904897786199799,Francis,Yan,7087,854518728062939,1904897786199799,BOT: message,Great job getting the correct answer!,2018-08-23 13:02:36
+1904897786199799,Francis,Yan,7088,854518728062939,1904897786199799,BOT: quick reply,The correct answer is osmosis.,2018-08-23 13:02:37
+1904897786199799,Francis,Yan,7089,1904897786199799,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-23 13:02:42
+1904897786199799,Francis,Yan,7090,854518728062939,1904897786199799,BOT: message,"Alrighty, let's try this one.",2018-08-23 13:02:43
+1904897786199799,Francis,Yan,7091,854518728062939,1904897786199799,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-23 13:02:45
+1904897786199799,Francis,Yan,7092,854518728062939,1904897786199799,BOT: quick reply,How often should women perform a breast self-exam?,2018-08-23 13:02:46
+1904897786199799,Francis,Yan,7093,1904897786199799,854518728062939,user_typing,Half a year,2018-08-23 13:02:56
+1904897786199799,Francis,Yan,7094,854518728062939,1904897786199799,BOT: message,"Oops, that answer was incorrect. :disappointed_face:",2018-08-23 13:02:57
+1904897786199799,Francis,Yan,7095,854518728062939,1904897786199799,BOT: quick reply,The correct answer is monthly.,2018-08-23 13:02:59
+1904897786199799,Francis,Yan,7096,1904897786199799,854518728062939,user_quick_reply: WHY,Why?,2018-08-23 13:03:04
+1904897786199799,Francis,Yan,7097,854518728062939,1904897786199799,BOT: message,This is an explanation of the question:,2018-08-23 13:03:05
+1904897786199799,Francis,Yan,7098,854518728062939,1904897786199799,BOT: quick reply,"If you are a young woman, getting in the habit of performing a monthly breast self-exam is a good idea. Lumps or other subtle changes in the breasts may indicate breast cancer. The outcome is typically better if breast cancer is caught and treated early.",2018-08-23 13:03:07
+1904897786199799,Francis,Yan,7102,1904897786199799,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-23 13:05:19
+1904897786199799,Francis,Yan,7103,854518728062939,1904897786199799,BOT: message,I think you'll like this question.,2018-08-23 13:05:20
+1904897786199799,Francis,Yan,7104,854518728062939,1904897786199799,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-23 13:05:22
+1904897786199799,Francis,Yan,7105,854518728062939,1904897786199799,BOT: quick reply,What opens two strands of DNA?,2018-08-23 13:05:23
+1904897786199799,Francis,Yan,7109,1904897786199799,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 13:05:29
+1904897786199799,Francis,Yan,7111,854518728062939,1904897786199799,BOT: message,Okay. I'll give you some choices.,2018-08-23 13:05:31
+1904897786199799,Francis,Yan,7113,854518728062939,1904897786199799,BOT: quick reply,":keycap_1: replication
+:keycap_2: chromosome
+:keycap_3: helicase
+:keycap_4: adenylate
+",2018-08-23 13:05:32
+1904897786199799,Francis,Yan,7119,1904897786199799,854518728062939,user_quick_reply: I_DONT_KNOW,I dont know :downcast_face_with_sweat:,2018-08-23 13:05:46
+1904897786199799,Francis,Yan,7120,854518728062939,1904897786199799,BOT: quick reply,Are you sure you want to skip this question?,2018-08-23 13:05:48
+1904897786199799,Francis,Yan,7122,1904897786199799,854518728062939,user_quick_reply: GIVEUP_YES,"Yes, answer please.",2018-08-23 13:05:56
+1904897786199799,Francis,Yan,7124,854518728062939,1904897786199799,BOT: message,"I'm sorry, you didn't get the question right this time.",2018-08-23 13:05:57
+1904897786199799,Francis,Yan,7126,854518728062939,1904897786199799,BOT: message,"That's fine, you'll nail it next time! :grinning_face_with_smiling_eyes:",2018-08-23 13:05:59
+1904897786199799,Francis,Yan,7127,854518728062939,1904897786199799,BOT: quick reply,The correct answer is helicase.,2018-08-23 13:06:00
+1904897786199799,Francis,Yan,8061,854518728062939,1904897786199799,BOT: quick reply,"Hi Francis, you haven't talked to me for a while. Would you like to resume the learning with me?",2018-08-23 20:00:23
+1904897786199799,Francis,Yan,9838,1904897786199799,854518728062939,user_quick_reply: NEXT_QUESTION,Okay :backhand_index_pointing_right_medium-light_skin_tone:,2018-08-23 22:21:27
+1904897786199799,Francis,Yan,9839,854518728062939,1904897786199799,BOT: message,Let's try this question.,2018-08-23 22:21:29
+1904897786199799,Francis,Yan,9840,854518728062939,1904897786199799,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-23 22:21:30
+1904897786199799,Francis,Yan,9841,854518728062939,1904897786199799,BOT: quick reply,"When your brain senses that your body temperature is increasing, it sends messages to the blood vessels in the skin to increase in what?",2018-08-23 22:21:31
+1904897786199799,Francis,Yan,9842,1904897786199799,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 22:21:46
+1904897786199799,Francis,Yan,9843,854518728062939,1904897786199799,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-08-23 22:21:47
+1904897786199799,Francis,Yan,9844,854518728062939,1904897786199799,BOT: quick reply,":keycap_1: surface
+:keycap_2: diameter
+:keycap_3: height
+:keycap_4: weight
+",2018-08-23 22:21:49
+1904897786199799,Francis,Yan,9847,1904897786199799,854518728062939,user_quick_reply: BUTTON_AKB_diameter,:keycap_2:,2018-08-23 22:22:06
+1904897786199799,Francis,Yan,9849,854518728062939,1904897786199799,BOT: message,Great! Keep it up! :flexed_biceps_medium-light_skin_tone:,2018-08-23 22:22:07
+1904897786199799,Francis,Yan,9850,854518728062939,1904897786199799,BOT: quick reply,The correct answer is diameter.,2018-08-23 22:22:08
+1904897786199799,Francis,Yan,9854,1904897786199799,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-23 22:22:13
+1904897786199799,Francis,Yan,9855,854518728062939,1904897786199799,BOT: message,Let's try this question.,2018-08-23 22:22:15
+1904897786199799,Francis,Yan,9856,854518728062939,1904897786199799,BOT: quick reply,The electrode at which oxidation occurs is called the what?,2018-08-23 22:22:16
+1904897786199799,Francis,Yan,9857,1904897786199799,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 22:22:27
+1904897786199799,Francis,Yan,9858,854518728062939,1904897786199799,BOT: message,Okay. I'll give you some choices.,2018-08-23 22:22:28
+1904897786199799,Francis,Yan,9860,854518728062939,1904897786199799,BOT: quick reply,":keycap_1: calomel
+:keycap_2: diode
+:keycap_3: cathode
+:keycap_4: anode
+",2018-08-23 22:22:30
+1904897786199799,Francis,Yan,12090,854518728062939,1904897786199799,BOT: quick reply,"Hi Francis, you haven't talked to me for a while. Would you like to resume the learning with me?",2018-08-24 20:00:27
+1904897786199799,Francis,Yan,13525,1904897786199799,854518728062939,user_quick_reply: NEXT_QUESTION,OK :white_heavy_check_mark:,2018-08-25 10:41:06
+1904897786199799,Francis,Yan,13526,854518728062939,1904897786199799,BOT: message,Could you answer this one for me?,2018-08-25 10:41:08
+1904897786199799,Francis,Yan,13527,854518728062939,1904897786199799,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-25 10:41:09
+1904897786199799,Francis,Yan,13528,854518728062939,1904897786199799,BOT: quick reply,Most fungi get organic compounds from what?,2018-08-25 10:41:11
+1904897786199799,Francis,Yan,13535,1904897786199799,854518728062939,user_typing,Soil,2018-08-25 10:41:29
+1904897786199799,Francis,Yan,13536,854518728062939,1904897786199799,BOT: message,"I'm sorry, but that was incorrect. :disappointed_face:",2018-08-25 10:41:31
+1904897786199799,Francis,Yan,13537,854518728062939,1904897786199799,BOT: quick reply,The correct answer is dead organisms.,2018-08-25 10:41:32
+1904897786199799,Francis,Yan,13540,1904897786199799,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-25 10:41:38
+1904897786199799,Francis,Yan,13542,854518728062939,1904897786199799,BOT: message,See if you can answer this next one.,2018-08-25 10:41:39
+1904897786199799,Francis,Yan,13543,854518728062939,1904897786199799,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-25 10:41:41
+1904897786199799,Francis,Yan,13544,854518728062939,1904897786199799,BOT: quick reply,What opens two strands of DNA?,2018-08-25 10:41:42
+1904897786199799,Francis,Yan,13548,1904897786199799,854518728062939,user_typing,helicose,2018-08-25 10:41:58
+1904897786199799,Francis,Yan,13549,854518728062939,1904897786199799,BOT: message,That wasn't quite what we were looking for. :disappointed_face:,2018-08-25 10:42:00
+1904897786199799,Francis,Yan,13550,854518728062939,1904897786199799,BOT: quick reply,The correct answer is helicase.,2018-08-25 10:42:02
+1904897786199799,Francis,Yan,13552,1904897786199799,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-25 10:42:10
+1904897786199799,Francis,Yan,13554,854518728062939,1904897786199799,BOT: message,Would you answer this question for me?,2018-08-25 10:42:11
+1904897786199799,Francis,Yan,13556,854518728062939,1904897786199799,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-25 10:42:13
+1904897786199799,Francis,Yan,13558,854518728062939,1904897786199799,BOT: quick reply,The lithosphere is divided into a dozen major and several minor what?,2018-08-25 10:42:15
+1904897786199799,Francis,Yan,13567,1904897786199799,854518728062939,user_typing,shell,2018-08-25 10:42:53
+1904897786199799,Francis,Yan,13569,854518728062939,1904897786199799,BOT: message,"Oops, that answer was incorrect. :disappointed_face:",2018-08-25 10:42:55
+1904897786199799,Francis,Yan,13571,854518728062939,1904897786199799,BOT: quick reply,The correct answer is plates.,2018-08-25 10:42:56
+1904897786199799,Francis,Yan,13572,1904897786199799,854518728062939,user_typing,Shell,2018-08-25 10:42:57
+1904897786199799,Francis,Yan,13574,854518728062939,1904897786199799,BOT: quick reply,I'm not sure what this is. I'm still learning languages and you might be my teacher in the future!,2018-08-25 10:42:59
+1904897786199799,Francis,Yan,13575,1904897786199799,854518728062939,user_quick_reply: NEXT_QUESTION,Resume learning :flexed_biceps_medium-light_skin_tone:,2018-08-25 10:43:04
+1904897786199799,Francis,Yan,13576,854518728062939,1904897786199799,BOT: message,I think you'll like this question.,2018-08-25 10:43:06
+1904897786199799,Francis,Yan,13577,854518728062939,1904897786199799,BOT: quick reply,What is the diffusion of water through a semipermeable membrane down its concentration gradient?,2018-08-25 10:43:07
+1904897786199799,Francis,Yan,13584,1904897786199799,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-25 10:43:21
+1904897786199799,Francis,Yan,13585,854518728062939,1904897786199799,BOT: message,Okay. I'll give you some choices.,2018-08-25 10:43:23
+1904897786199799,Francis,Yan,13587,854518728062939,1904897786199799,BOT: quick reply,":keycap_1: osmosis
+:keycap_2: nutrients
+:keycap_3: mirrors
+:keycap_4: permable
+",2018-08-25 10:43:24
+1904897786199799,Francis,Yan,13592,1904897786199799,854518728062939,user_quick_reply: BUTTON_AKB_osmosis,:keycap_1:,2018-08-25 10:43:42
+1904897786199799,Francis,Yan,13594,854518728062939,1904897786199799,BOT: message,Great job!,2018-08-25 10:43:43
+1904897786199799,Francis,Yan,13595,854518728062939,1904897786199799,BOT: quick reply,The correct answer is osmosis.,2018-08-25 10:43:45
+1904897786199799,Francis,Yan,13599,1904897786199799,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-25 10:43:56
+1904897786199799,Francis,Yan,13600,854518728062939,1904897786199799,BOT: message,Let's take a look at this question.,2018-08-25 10:43:57
+1904897786199799,Francis,Yan,13601,854518728062939,1904897786199799,BOT: quick reply,What living species of bird is considered the largest of the raptors?,2018-08-25 10:43:59
+1904897786199799,Francis,Yan,13607,1904897786199799,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-25 10:44:24
+1904897786199799,Francis,Yan,13609,854518728062939,1904897786199799,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-08-25 10:44:25
+1904897786199799,Francis,Yan,13611,854518728062939,1904897786199799,BOT: quick reply,":keycap_1: California condor
+:keycap_2: pterodactyl
+:keycap_3: golden eagles
+:keycap_4: peregrine falcon
+",2018-08-25 10:44:27
+1904897786199799,Francis,Yan,13619,1904897786199799,854518728062939,user_quick_reply: BUTTON_DKB_peregrine falcon,:keycap_4:,2018-08-25 10:45:03
+1904897786199799,Francis,Yan,13620,854518728062939,1904897786199799,BOT: message,That's not quite right. :disappointed_face:,2018-08-25 10:45:05
+1904897786199799,Francis,Yan,13622,854518728062939,1904897786199799,BOT: quick reply,The correct answer is golden eagles.,2018-08-25 10:45:06
+1904897786199799,Francis,Yan,13627,1904897786199799,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-25 10:45:21
+1904897786199799,Francis,Yan,13628,854518728062939,1904897786199799,BOT: message,Would you answer this question for me?,2018-08-25 10:45:22
+1904897786199799,Francis,Yan,13629,854518728062939,1904897786199799,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-25 10:45:24
+1904897786199799,Francis,Yan,13630,854518728062939,1904897786199799,BOT: quick reply,What are the little sacs at the end of the bronchioles called?,2018-08-25 10:45:25
+1904897786199799,Francis,Yan,13634,1904897786199799,854518728062939,user_quick_reply: I_DONT_KNOW,I dont know :downcast_face_with_sweat:,2018-08-25 10:46:37
+1904897786199799,Francis,Yan,13635,854518728062939,1904897786199799,BOT: quick reply,Are you sure you want to give up?,2018-08-25 10:46:39
+1904897786199799,Francis,Yan,13638,1904897786199799,854518728062939,user_quick_reply: GIVEUP_YES,"Yes, answer please.",2018-08-25 10:46:43
+1904897786199799,Francis,Yan,13640,854518728062939,1904897786199799,BOT: message,You didn't get this question this time.,2018-08-25 10:46:44
+1904897786199799,Francis,Yan,13641,854518728062939,1904897786199799,BOT: message,"That's okay, you'll get it next time! :grinning_face_with_smiling_eyes:",2018-08-25 10:46:46
+1904897786199799,Francis,Yan,13642,854518728062939,1904897786199799,BOT: quick reply,The correct answer is alveoli.,2018-08-25 10:46:47
+1904897786199799,Francis,Yan,15300,854518728062939,1904897786199799,BOT: quick reply,"Hi Francis, you haven't talked to me for a while. Would you like to resume the learning with me?",2018-08-25 20:00:24

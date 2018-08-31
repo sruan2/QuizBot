@@ -1,0 +1,516 @@
+user_id,user_firstname,user_lastname,uid,sender,recipient,type,dialogue,time_stamp
+1746424888810134,Helen,Wang,4545,1746424888810134,854518728062939,persistent_menu: GET_INTRO_1,Get Started,2018-08-22 18:27:53
+1746424888810134,Helen,Wang,4546,854518728062939,1746424888810134,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/quizbot_avatar.png,2018-08-22 18:27:57
+1746424888810134,Helen,Wang,4547,854518728062939,1746424888810134,BOT: quick reply,"Hi Helen! My name is Frosty :penguin: and Im here to help you learn all about science:microscope:, verbal reasoning (GRE) :input_latin_uppercase:, and safety:hammer_and_wrench:!",2018-08-22 18:27:59
+1746424888810134,Helen,Wang,4548,1746424888810134,854518728062939,user_quick_reply: GET_INTRO_2,Got it :white_heavy_check_mark:,2018-08-22 18:28:03
+1746424888810134,Helen,Wang,4549,854518728062939,1746424888810134,BOT: message,Heres how it works.,2018-08-22 18:28:05
+1746424888810134,Helen,Wang,4550,854518728062939,1746424888810134,BOT: message,"I ask you questions, and you give me answers.",2018-08-22 18:28:06
+1746424888810134,Helen,Wang,4551,854518728062939,1746424888810134,BOT: quick reply,We will learn fun things together!,2018-08-22 18:28:08
+1746424888810134,Helen,Wang,4552,1746424888810134,854518728062939,persistent_menu: RANDOM,Random :game_die:,2018-08-22 18:28:17
+1746424888810134,Helen,Wang,4553,854518728062939,1746424888810134,BOT: quick reply,Let's quiz you on a little bit of everything! :game_die:,2018-08-22 18:28:19
+1746424888810134,Helen,Wang,4554,1746424888810134,854518728062939,user_quick_reply: NEXT_QUESTION,Okay :clapping_hands_medium-light_skin_tone:,2018-08-22 18:28:22
+1746424888810134,Helen,Wang,4555,854518728062939,1746424888810134,BOT: message,Let's try this one.,2018-08-22 18:28:24
+1746424888810134,Helen,Wang,4556,854518728062939,1746424888810134,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-22 18:28:25
+1746424888810134,Helen,Wang,4557,854518728062939,1746424888810134,BOT: quick reply,Most fungi get organic compounds from what?,2018-08-22 18:28:26
+1746424888810134,Helen,Wang,4558,1746424888810134,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-22 18:28:38
+1746424888810134,Helen,Wang,4559,854518728062939,1746424888810134,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-08-22 18:28:39
+1746424888810134,Helen,Wang,4560,854518728062939,1746424888810134,BOT: quick reply,":keycap_1: carnivorous organisms
+:keycap_2: dead organisms
+:keycap_3: inorganic material
+:keycap_4: living organisms
+",2018-08-22 18:28:41
+1746424888810134,Helen,Wang,4562,1746424888810134,854518728062939,user_quick_reply: I_DONT_KNOW,I dont know :downcast_face_with_sweat:,2018-08-22 18:29:06
+1746424888810134,Helen,Wang,4563,854518728062939,1746424888810134,BOT: quick reply,Are you sure you want to skip this question?,2018-08-22 18:29:07
+1746424888810134,Helen,Wang,4564,1746424888810134,854518728062939,user_quick_reply: GIVEUP_NO,"No, I'll try again!",2018-08-22 18:29:12
+1746424888810134,Helen,Wang,4565,854518728062939,1746424888810134,BOT: message,Don't give up!,2018-08-22 18:29:13
+1746424888810134,Helen,Wang,4566,854518728062939,1746424888810134,BOT: message,Okay. I'll give you some choices.,2018-08-22 18:29:15
+1746424888810134,Helen,Wang,4567,854518728062939,1746424888810134,BOT: quick reply,":keycap_1: living organisms
+:keycap_2: carnivorous organisms
+:keycap_3: inorganic material
+:keycap_4: dead organisms
+",2018-08-22 18:29:16
+1746424888810134,Helen,Wang,4568,1746424888810134,854518728062939,user_typing,2,2018-08-22 18:29:16
+1746424888810134,Helen,Wang,4569,854518728062939,1746424888810134,BOT: quick reply,I'm not sure what this is. I'm still learning languages and you might be my teacher in the future!,2018-08-22 18:29:18
+1746424888810134,Helen,Wang,4570,1746424888810134,854518728062939,user_typing,2,2018-08-22 18:29:26
+1746424888810134,Helen,Wang,4571,854518728062939,1746424888810134,BOT: quick reply,Haha I haven't learned about this yet. You can teach me some languages later!,2018-08-22 18:29:27
+1746424888810134,Helen,Wang,4572,1746424888810134,854518728062939,user_quick_reply: CHAT_WITH_ME,Chat with me :penguin:,2018-08-22 18:29:37
+1746424888810134,Helen,Wang,4573,854518728062939,1746424888810134,BOT: quick reply,Would you like me to tell you something interesting?,2018-08-22 18:29:38
+1746424888810134,Helen,Wang,4574,1746424888810134,854518728062939,user_quick_reply: JOKE,Joke :beaming_face_with_smiling_eyes:,2018-08-22 18:29:43
+1746424888810134,Helen,Wang,4575,854518728062939,1746424888810134,BOT: message,Here is a good one.,2018-08-22 18:29:44
+1746424888810134,Helen,Wang,4576,854518728062939,1746424888810134,BOT: quick reply,Q. How do you make the number one disappear? A. Add the letter G and then prestoits Gone!,2018-08-22 18:29:46
+1746424888810134,Helen,Wang,4577,1746424888810134,854518728062939,persistent_menu: USER_MANUAL_1,User Manual :woman_technologist_light_skin_tone::man_technologist_light_skin_tone:,2018-08-22 18:29:53
+1746424888810134,Helen,Wang,4578,854518728062939,1746424888810134,BOT: image,https://www.smartprimer.org:8443/pictures/user_manual/typeanswer.png,2018-08-22 18:29:57
+1746424888810134,Helen,Wang,4579,854518728062939,1746424888810134,BOT: quick reply,"To study the questions, you can type in your answers in the text field and I will evaluate the answers for you using advanced NLP (Natural Language Processing) technology.",2018-08-22 18:29:58
+1746424888810134,Helen,Wang,4581,1746424888810134,854518728062939,user_quick_reply: USER_MANUAL_2,Got it :backhand_index_pointing_right_medium-light_skin_tone:,2018-08-22 18:30:17
+1746424888810134,Helen,Wang,4582,854518728062939,1746424888810134,BOT: image,https://www.smartprimer.org:8443/pictures/user_manual/needhintbutton.png,2018-08-22 18:30:20
+1746424888810134,Helen,Wang,4583,854518728062939,1746424888810134,BOT: quick reply,"If you don't know the answers, then feel free to tap on the hint button.",2018-08-22 18:30:22
+1746424888810134,Helen,Wang,4584,1746424888810134,854518728062939,persistent_menu: SAFETY,Safety:hammer_and_wrench:,2018-08-22 18:30:42
+1746424888810134,Helen,Wang,4585,854518728062939,1746424888810134,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/evolvenormal_safety.gif,2018-08-22 18:30:48
+1746424888810134,Helen,Wang,4586,854518728062939,1746424888810134,BOT: quick reply,Awesome! Let's learn about safety!,2018-08-22 18:30:49
+1746424888810134,Helen,Wang,5072,854518728062939,1746424888810134,BOT: quick reply,"Hi Helen, you haven't talked to me for a while. Would you like to resume the learning with me?",2018-08-22 20:00:11
+1746424888810134,Helen,Wang,5907,1746424888810134,854518728062939,persistent_menu: CHAT_WITH_ME,Chat with Me :penguin:,2018-08-22 22:14:27
+1746424888810134,Helen,Wang,5908,854518728062939,1746424888810134,BOT: quick reply,Do you want me to tell you something fun?,2018-08-22 22:14:28
+1746424888810134,Helen,Wang,5909,1746424888810134,854518728062939,user_quick_reply: JOKE,Joke :beaming_face_with_smiling_eyes:,2018-08-22 22:14:32
+1746424888810134,Helen,Wang,5910,854518728062939,1746424888810134,BOT: message,Here's one I thought might be interesting.,2018-08-22 22:14:34
+1746424888810134,Helen,Wang,5911,854518728062939,1746424888810134,BOT: quick reply,Q: What do you get when you play Tug-of-War with a pig? A: Pulled-Pork.,2018-08-22 22:14:36
+1746424888810134,Helen,Wang,5912,1746424888810134,854518728062939,user_quick_reply: NEXT_QUESTION,Continue learning :flexed_biceps_medium-light_skin_tone:,2018-08-22 22:14:42
+1746424888810134,Helen,Wang,5913,854518728062939,1746424888810134,BOT: message,I think you'll like this question.,2018-08-22 22:14:43
+1746424888810134,Helen,Wang,5914,854518728062939,1746424888810134,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-22 22:14:45
+1746424888810134,Helen,Wang,5915,854518728062939,1746424888810134,BOT: quick reply,Which fire extinguishers are used to put out fires caused by flammable liquids?,2018-08-22 22:14:46
+1746424888810134,Helen,Wang,5916,1746424888810134,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-22 22:14:52
+1746424888810134,Helen,Wang,5917,854518728062939,1746424888810134,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-08-22 22:14:53
+1746424888810134,Helen,Wang,5918,854518728062939,1746424888810134,BOT: quick reply,":keycap_1: Class A water fire extinguishers
+:keycap_2: Class B carbon dioxide fire extinguisher
+:keycap_3: Class C dry chemical fire extinguisher
+",2018-08-22 22:14:55
+1746424888810134,Helen,Wang,5919,1746424888810134,854518728062939,user_typing,C,2018-08-22 22:15:02
+1746424888810134,Helen,Wang,5920,854518728062939,1746424888810134,BOT: message,"I'm sorry, but that was incorrect. :disappointed_face:",2018-08-22 22:15:04
+1746424888810134,Helen,Wang,5921,854518728062939,1746424888810134,BOT: quick reply,The correct answer is Class B carbon dioxide fire extinguisher.,2018-08-22 22:15:05
+1746424888810134,Helen,Wang,5922,1746424888810134,854518728062939,user_quick_reply: WHY,Why?,2018-08-22 22:15:09
+1746424888810134,Helen,Wang,5923,854518728062939,1746424888810134,BOT: message,Here's why:,2018-08-22 22:15:11
+1746424888810134,Helen,Wang,5924,854518728062939,1746424888810134,BOT: quick reply,"Flammable liquids include oils, gasoline, paints, grease, lacquers, and solvents. Class B carbon dioxide fire extinguishers are used to put out fires caused by flammable liquids.",2018-08-22 22:15:12
+1746424888810134,Helen,Wang,5925,1746424888810134,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-22 22:15:19
+1746424888810134,Helen,Wang,5927,854518728062939,1746424888810134,BOT: message,Let's take a look at this question.,2018-08-22 22:15:21
+1746424888810134,Helen,Wang,5928,854518728062939,1746424888810134,BOT: quick reply,True or false: portable fire extinguishers should only be used by trained employees.,2018-08-22 22:15:22
+1746424888810134,Helen,Wang,5938,1746424888810134,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-22 22:15:40
+1746424888810134,Helen,Wang,5939,854518728062939,1746424888810134,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-08-22 22:15:42
+1746424888810134,Helen,Wang,5940,854518728062939,1746424888810134,BOT: quick reply,":keycap_1: True
+:keycap_2: False
+",2018-08-22 22:15:43
+1746424888810134,Helen,Wang,5941,1746424888810134,854518728062939,user_quick_reply: BUTTON_AKB_True,:keycap_1:,2018-08-22 22:15:46
+1746424888810134,Helen,Wang,5943,854518728062939,1746424888810134,BOT: message,Nice work! Keep it up!,2018-08-22 22:15:48
+1746424888810134,Helen,Wang,5944,854518728062939,1746424888810134,BOT: quick reply,The correct answer is True.,2018-08-22 22:15:49
+1746424888810134,Helen,Wang,5947,1746424888810134,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-22 22:15:53
+1746424888810134,Helen,Wang,5948,854518728062939,1746424888810134,BOT: message,How about this next one:,2018-08-22 22:15:55
+1746424888810134,Helen,Wang,5950,854518728062939,1746424888810134,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-22 22:15:56
+1746424888810134,Helen,Wang,5952,854518728062939,1746424888810134,BOT: quick reply,How long can high-acid canned food such as tomatoes be stored?,2018-08-22 22:15:58
+1746424888810134,Helen,Wang,5954,1746424888810134,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-22 22:16:02
+1746424888810134,Helen,Wang,5956,854518728062939,1746424888810134,BOT: message,Which of the following options is the right answer?,2018-08-22 22:16:04
+1746424888810134,Helen,Wang,5958,854518728062939,1746424888810134,BOT: quick reply,":keycap_1: 2 to 6 months
+:keycap_2: 2 to 4 years
+:keycap_3: 10 to 30 days
+:keycap_4: 12 to 18 months
+",2018-08-22 22:16:05
+1746424888810134,Helen,Wang,5961,1746424888810134,854518728062939,user_quick_reply: BUTTON_AKB_12 to 18 months,:keycap_4:,2018-08-22 22:16:08
+1746424888810134,Helen,Wang,5962,854518728062939,1746424888810134,BOT: message,Yes! You got the correct answer!,2018-08-22 22:16:10
+1746424888810134,Helen,Wang,5963,854518728062939,1746424888810134,BOT: quick reply,The correct answer is 12 to 18 months.,2018-08-22 22:16:11
+1746424888810134,Helen,Wang,5964,1746424888810134,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-22 22:16:14
+1746424888810134,Helen,Wang,5965,854518728062939,1746424888810134,BOT: message,Let's see if you can answer this question.,2018-08-22 22:16:16
+1746424888810134,Helen,Wang,5967,854518728062939,1746424888810134,BOT: quick reply,To what does the acronym SLM refer?,2018-08-22 22:16:17
+1746424888810134,Helen,Wang,5969,1746424888810134,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-22 22:16:21
+1746424888810134,Helen,Wang,5971,854518728062939,1746424888810134,BOT: message,Okay. I'll give you some choices.,2018-08-22 22:16:22
+1746424888810134,Helen,Wang,5973,854518728062939,1746424888810134,BOT: quick reply,":keycap_1: Sound Level Meter
+:keycap_2: Service Lifecycle Management
+:keycap_3: System Level Monitor
+:keycap_4: Sound Loudness Methods
+",2018-08-22 22:16:24
+1746424888810134,Helen,Wang,5976,1746424888810134,854518728062939,user_quick_reply: BUTTON_DKB_Sound Loudness Methods,:keycap_4:,2018-08-22 22:16:28
+1746424888810134,Helen,Wang,5977,854518728062939,1746424888810134,BOT: message,"Oops, that wasn't quite correct. :disappointed_face:",2018-08-22 22:16:30
+1746424888810134,Helen,Wang,5978,854518728062939,1746424888810134,BOT: quick reply,The correct answer is Sound Level Meter.,2018-08-22 22:16:31
+1746424888810134,Helen,Wang,5981,1746424888810134,854518728062939,user_quick_reply: WHY,Why?,2018-08-22 22:16:35
+1746424888810134,Helen,Wang,5982,854518728062939,1746424888810134,BOT: message,Here's why:,2018-08-22 22:16:36
+1746424888810134,Helen,Wang,5984,854518728062939,1746424888810134,BOT: quick reply,The Sound Level Meter is an instrument used to measure noise levels.,2018-08-22 22:16:38
+1746424888810134,Helen,Wang,5988,1746424888810134,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-22 22:16:43
+1746424888810134,Helen,Wang,5989,854518728062939,1746424888810134,BOT: message,Let's try this question.,2018-08-22 22:16:44
+1746424888810134,Helen,Wang,5991,854518728062939,1746424888810134,BOT: quick reply,"If your co-worker needs CPR but you are not trained in it, what should you do?",2018-08-22 22:16:46
+1746424888810134,Helen,Wang,5997,1746424888810134,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-22 22:16:51
+1746424888810134,Helen,Wang,5998,854518728062939,1746424888810134,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-08-22 22:16:53
+1746424888810134,Helen,Wang,5999,854518728062939,1746424888810134,BOT: quick reply,":keycap_1: Perform chest compressions only
+:keycap_2: Give rescue breaths only
+:keycap_3: Wait for emergency personnel to arrive
+:keycap_4: Lift the patient's head
+",2018-08-22 22:16:55
+1746424888810134,Helen,Wang,6000,1746424888810134,854518728062939,user_quick_reply: BUTTON_DKB_Wait for emergency personnel to arrive,:keycap_3:,2018-08-22 22:17:00
+1746424888810134,Helen,Wang,6001,854518728062939,1746424888810134,BOT: message,"Oops, that is not correct. :disappointed_face:",2018-08-22 22:17:02
+1746424888810134,Helen,Wang,6002,854518728062939,1746424888810134,BOT: quick reply,The correct answer is Perform chest compressions only.,2018-08-22 22:17:03
+1746424888810134,Helen,Wang,6003,1746424888810134,854518728062939,user_quick_reply: WHY,Why?,2018-08-22 22:17:07
+1746424888810134,Helen,Wang,6004,854518728062939,1746424888810134,BOT: message,Here's why:,2018-08-22 22:17:08
+1746424888810134,Helen,Wang,6005,854518728062939,1746424888810134,BOT: quick reply,"According to Mayo Clinic, it's far better to do something than to do nothing at all if you're fearful that your knowledge or abilities arent 100 percent complete. If you're not trained in CPR, then provide hands-only CPR. That means uninterrupted chest compressions of about 100 a minute until paramedics arrive. You don't need to try rescue breathing.",2018-08-22 22:17:10
+1746424888810134,Helen,Wang,6006,1746424888810134,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-22 22:17:21
+1746424888810134,Helen,Wang,6007,854518728062939,1746424888810134,BOT: message,Let's see if you can get this one.,2018-08-22 22:17:24
+1746424888810134,Helen,Wang,6008,854518728062939,1746424888810134,BOT: quick reply,"What agency inspects, grades, and enforces standards of quality and wholesomeness for meat, poultry, milk, eggs, and grains?",2018-08-22 22:17:25
+1746424888810134,Helen,Wang,6009,1746424888810134,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-22 22:17:30
+1746424888810134,Helen,Wang,6010,854518728062939,1746424888810134,BOT: message,Which of the following options is the right answer?,2018-08-22 22:17:31
+1746424888810134,Helen,Wang,6011,854518728062939,1746424888810134,BOT: quick reply,":keycap_1: EPA
+:keycap_2: CDC
+:keycap_3: FDA
+:keycap_4: USDA
+",2018-08-22 22:17:32
+1746424888810134,Helen,Wang,6012,1746424888810134,854518728062939,user_quick_reply: BUTTON_DKB_FDA,:keycap_3:,2018-08-22 22:17:36
+1746424888810134,Helen,Wang,6013,854518728062939,1746424888810134,BOT: message,"Oops, that wasn't quite correct. :disappointed_face:",2018-08-22 22:17:37
+1746424888810134,Helen,Wang,6014,854518728062939,1746424888810134,BOT: quick reply,The correct answer is USDA.,2018-08-22 22:17:39
+1746424888810134,Helen,Wang,6015,1746424888810134,854518728062939,user_quick_reply: WHY,Why?,2018-08-22 22:17:43
+1746424888810134,Helen,Wang,6016,854518728062939,1746424888810134,BOT: message,Here's why:,2018-08-22 22:17:44
+1746424888810134,Helen,Wang,6017,854518728062939,1746424888810134,BOT: quick reply,"The United States Department of Agriculture (informally called the USDA or Agriculture Department) is the federal executive division formed to develop and execute U.S. federal government policy on food, farming and agriculture.",2018-08-22 22:17:46
+1746424888810134,Helen,Wang,6018,1746424888810134,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-22 22:17:52
+1746424888810134,Helen,Wang,6019,854518728062939,1746424888810134,BOT: message,Let's take a look at this question.,2018-08-22 22:17:54
+1746424888810134,Helen,Wang,6020,854518728062939,1746424888810134,BOT: quick reply,"True or false: if you wear a back belt, you can lift more weight than you could without a belt.",2018-08-22 22:17:56
+1746424888810134,Helen,Wang,6021,1746424888810134,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-22 22:17:58
+1746424888810134,Helen,Wang,6022,854518728062939,1746424888810134,BOT: message,It's one of the following choices.,2018-08-22 22:18:00
+1746424888810134,Helen,Wang,6023,854518728062939,1746424888810134,BOT: quick reply,":keycap_1: False
+:keycap_2: True
+",2018-08-22 22:18:01
+1746424888810134,Helen,Wang,6030,1746424888810134,854518728062939,user_quick_reply: BUTTON_AKB_False,:keycap_1:,2018-08-22 22:20:50
+1746424888810134,Helen,Wang,6031,854518728062939,1746424888810134,BOT: message,Nice work! Keep it up!,2018-08-22 22:20:51
+1746424888810134,Helen,Wang,6032,854518728062939,1746424888810134,BOT: quick reply,The correct answer is False.,2018-08-22 22:20:53
+1746424888810134,Helen,Wang,6034,1746424888810134,854518728062939,user_quick_reply: WHY,Why?,2018-08-22 22:22:06
+1746424888810134,Helen,Wang,6035,854518728062939,1746424888810134,BOT: message,Here's an explanation:,2018-08-22 22:22:07
+1746424888810134,Helen,Wang,6036,854518728062939,1746424888810134,BOT: quick reply,Workers often lift more weight under the illusion that use of back belts increases the lifting capability of a worker. There has not been sufficient evidence to support this fact and hence it cannot be held true.,2018-08-22 22:22:09
+1746424888810134,Helen,Wang,6054,1746424888810134,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-22 22:23:51
+1746424888810134,Helen,Wang,6055,854518728062939,1746424888810134,BOT: message,Let's take a look at this question.,2018-08-22 22:23:52
+1746424888810134,Helen,Wang,6057,854518728062939,1746424888810134,BOT: quick reply,"True or false: if you wear a back belt, you can lift more weight than you could without a belt.",2018-08-22 22:23:54
+1746424888810134,Helen,Wang,6060,1746424888810134,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-22 22:24:20
+1746424888810134,Helen,Wang,6062,854518728062939,1746424888810134,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-08-22 22:24:22
+1746424888810134,Helen,Wang,6065,854518728062939,1746424888810134,BOT: quick reply,":keycap_1: False
+:keycap_2: True
+",2018-08-22 22:24:23
+1746424888810134,Helen,Wang,6070,1746424888810134,854518728062939,user_quick_reply: BUTTON_AKB_False,:keycap_1:,2018-08-22 22:24:35
+1746424888810134,Helen,Wang,6071,854518728062939,1746424888810134,BOT: message,Great job getting the correct answer!,2018-08-22 22:24:37
+1746424888810134,Helen,Wang,6072,854518728062939,1746424888810134,BOT: quick reply,The correct answer is False.,2018-08-22 22:24:38
+1746424888810134,Helen,Wang,6073,1746424888810134,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-22 22:24:42
+1746424888810134,Helen,Wang,6074,854518728062939,1746424888810134,BOT: message,Let's try this question.,2018-08-22 22:24:43
+1746424888810134,Helen,Wang,6075,854518728062939,1746424888810134,BOT: quick reply,Working on scaffold during winds above ____ miles per hour is prohibited by OSHA.,2018-08-22 22:24:44
+1746424888810134,Helen,Wang,6079,1746424888810134,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-22 22:25:13
+1746424888810134,Helen,Wang,6081,854518728062939,1746424888810134,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-08-22 22:25:14
+1746424888810134,Helen,Wang,6083,854518728062939,1746424888810134,BOT: quick reply,":keycap_1: 50
+:keycap_2: 10
+:keycap_3: 25
+:keycap_4: 40
+",2018-08-22 22:25:16
+1746424888810134,Helen,Wang,6087,1746424888810134,854518728062939,user_quick_reply: BUTTON_DKB_25,:keycap_3:,2018-08-22 22:25:26
+1746424888810134,Helen,Wang,6088,854518728062939,1746424888810134,BOT: message,"Oops, that wasn't quite correct. :disappointed_face:",2018-08-22 22:25:28
+1746424888810134,Helen,Wang,6089,854518728062939,1746424888810134,BOT: quick reply,The correct answer is 40.,2018-08-22 22:25:30
+1746424888810134,Helen,Wang,6394,1746424888810134,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-22 22:58:42
+1746424888810134,Helen,Wang,6395,854518728062939,1746424888810134,BOT: message,How about this next one:,2018-08-22 22:58:44
+1746424888810134,Helen,Wang,6396,854518728062939,1746424888810134,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-22 22:58:45
+1746424888810134,Helen,Wang,6397,854518728062939,1746424888810134,BOT: quick reply,What should you NOT do when lowering a load?,2018-08-22 22:58:46
+1746424888810134,Helen,Wang,6978,1746424888810134,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 12:06:36
+1746424888810134,Helen,Wang,6979,854518728062939,1746424888810134,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-08-23 12:06:37
+1746424888810134,Helen,Wang,6980,854518728062939,1746424888810134,BOT: quick reply,":keycap_1: gigantism
+:keycap_2: pulmonary edema
+:keycap_3: elephantiasis
+:keycap_4: fibrosis
+",2018-08-23 12:06:39
+1746424888810134,Helen,Wang,6981,1746424888810134,854518728062939,user_quick_reply: BUTTON_AKB_elephantiasis,:keycap_3:,2018-08-23 12:06:43
+1746424888810134,Helen,Wang,6982,854518728062939,1746424888810134,BOT: message,Great! Keep it up! :flexed_biceps_medium-light_skin_tone:,2018-08-23 12:06:45
+1746424888810134,Helen,Wang,6983,854518728062939,1746424888810134,BOT: quick reply,The correct answer is elephantiasis.,2018-08-23 12:06:46
+1746424888810134,Helen,Wang,8054,854518728062939,1746424888810134,BOT: quick reply,"Hi Helen, you haven't talked to me for a while. Would you like to resume the learning with me?",2018-08-23 20:00:12
+1746424888810134,Helen,Wang,9892,1746424888810134,854518728062939,persistent_menu: SCIENCE,Science:microscope:,2018-08-23 22:23:35
+1746424888810134,Helen,Wang,9895,854518728062939,1746424888810134,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/evolvesafety_scientist.gif,2018-08-23 22:23:40
+1746424888810134,Helen,Wang,9897,854518728062939,1746424888810134,BOT: quick reply,Let's test your knowledge on science!,2018-08-23 22:23:42
+1746424888810134,Helen,Wang,9900,1746424888810134,854518728062939,user_quick_reply: NEXT_QUESTION,Alright :raising_hands_medium-light_skin_tone:,2018-08-23 22:23:45
+1746424888810134,Helen,Wang,9902,854518728062939,1746424888810134,BOT: message,Let's see if you can get this one.,2018-08-23 22:23:46
+1746424888810134,Helen,Wang,9903,854518728062939,1746424888810134,BOT: quick reply,What opens two strands of DNA?,2018-08-23 22:23:48
+1746424888810134,Helen,Wang,9953,1746424888810134,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 22:25:47
+1746424888810134,Helen,Wang,9954,854518728062939,1746424888810134,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-08-23 22:25:48
+1746424888810134,Helen,Wang,9956,854518728062939,1746424888810134,BOT: quick reply,":keycap_1: helicase
+:keycap_2: replication
+:keycap_3: adenylate
+:keycap_4: chromosome
+",2018-08-23 22:25:50
+1746424888810134,Helen,Wang,9959,1746424888810134,854518728062939,user_quick_reply: BUTTON_AKB_helicase,:keycap_1:,2018-08-23 22:25:53
+1746424888810134,Helen,Wang,9960,854518728062939,1746424888810134,BOT: message,Great job getting the correct answer!,2018-08-23 22:25:54
+1746424888810134,Helen,Wang,9961,854518728062939,1746424888810134,BOT: quick reply,The correct answer is helicase.,2018-08-23 22:25:56
+1746424888810134,Helen,Wang,9967,1746424888810134,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-23 22:26:00
+1746424888810134,Helen,Wang,9970,854518728062939,1746424888810134,BOT: message,See if you can answer this next one.,2018-08-23 22:26:01
+1746424888810134,Helen,Wang,9971,854518728062939,1746424888810134,BOT: quick reply,What living species of bird is considered the largest of the raptors?,2018-08-23 22:26:03
+1746424888810134,Helen,Wang,9972,1746424888810134,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 22:26:05
+1746424888810134,Helen,Wang,9973,854518728062939,1746424888810134,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-08-23 22:26:06
+1746424888810134,Helen,Wang,9974,854518728062939,1746424888810134,BOT: quick reply,":keycap_1: peregrine falcon
+:keycap_2: pterodactyl
+:keycap_3: California condor
+:keycap_4: golden eagles
+",2018-08-23 22:26:08
+1746424888810134,Helen,Wang,9978,1746424888810134,854518728062939,user_quick_reply: BUTTON_AKB_golden eagles,:keycap_4:,2018-08-23 22:26:11
+1746424888810134,Helen,Wang,9979,854518728062939,1746424888810134,BOT: message,Great job getting the correct answer!,2018-08-23 22:26:13
+1746424888810134,Helen,Wang,9980,854518728062939,1746424888810134,BOT: quick reply,The correct answer is golden eagles.,2018-08-23 22:26:14
+1746424888810134,Helen,Wang,9984,1746424888810134,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-23 22:26:18
+1746424888810134,Helen,Wang,9987,854518728062939,1746424888810134,BOT: message,Could you answer this one for me?,2018-08-23 22:26:19
+1746424888810134,Helen,Wang,9989,854518728062939,1746424888810134,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-23 22:26:21
+1746424888810134,Helen,Wang,9991,854518728062939,1746424888810134,BOT: quick reply,How often should women perform a breast self-exam?,2018-08-23 22:26:22
+1746424888810134,Helen,Wang,9992,1746424888810134,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 22:26:25
+1746424888810134,Helen,Wang,9994,854518728062939,1746424888810134,BOT: message,Pick one of the following answers.,2018-08-23 22:26:27
+1746424888810134,Helen,Wang,9996,854518728062939,1746424888810134,BOT: quick reply,":keycap_1: weekly
+:keycap_2: yearly
+:keycap_3: quarterly
+:keycap_4: monthly
+",2018-08-23 22:26:28
+1746424888810134,Helen,Wang,9998,1746424888810134,854518728062939,user_quick_reply: BUTTON_DKB_yearly,:keycap_2:,2018-08-23 22:26:32
+1746424888810134,Helen,Wang,9999,854518728062939,1746424888810134,BOT: message,"Oops, that is not correct. :disappointed_face:",2018-08-23 22:26:34
+1746424888810134,Helen,Wang,10001,854518728062939,1746424888810134,BOT: quick reply,The correct answer is monthly.,2018-08-23 22:26:35
+1746424888810134,Helen,Wang,10004,1746424888810134,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-23 22:26:39
+1746424888810134,Helen,Wang,10005,854518728062939,1746424888810134,BOT: message,See if you can answer this next one.,2018-08-23 22:26:41
+1746424888810134,Helen,Wang,10006,854518728062939,1746424888810134,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-23 22:26:42
+1746424888810134,Helen,Wang,10007,854518728062939,1746424888810134,BOT: quick reply,What are the little sacs at the end of the bronchioles called?,2018-08-23 22:26:43
+1746424888810134,Helen,Wang,10008,1746424888810134,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 22:26:46
+1746424888810134,Helen,Wang,10010,854518728062939,1746424888810134,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-08-23 22:26:48
+1746424888810134,Helen,Wang,10012,854518728062939,1746424888810134,BOT: quick reply,":keycap_1: ganglion
+:keycap_2: respiratory sacs
+:keycap_3: lung
+:keycap_4: alveoli
+",2018-08-23 22:26:49
+1746424888810134,Helen,Wang,10015,1746424888810134,854518728062939,user_quick_reply: BUTTON_AKB_alveoli,:keycap_4:,2018-08-23 22:26:52
+1746424888810134,Helen,Wang,10016,854518728062939,1746424888810134,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_happy_pink.png,2018-08-23 22:26:55
+1746424888810134,Helen,Wang,10017,854518728062939,1746424888810134,BOT: message,Nice! That was right!,2018-08-23 22:26:56
+1746424888810134,Helen,Wang,10019,854518728062939,1746424888810134,BOT: quick reply,The correct answer is alveoli.,2018-08-23 22:26:58
+1746424888810134,Helen,Wang,10025,1746424888810134,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-23 22:27:17
+1746424888810134,Helen,Wang,10026,854518728062939,1746424888810134,BOT: message,Let's try this question.,2018-08-23 22:27:19
+1746424888810134,Helen,Wang,10029,854518728062939,1746424888810134,BOT: quick reply,What is the diffusion of water through a semipermeable membrane down its concentration gradient?,2018-08-23 22:27:20
+1746424888810134,Helen,Wang,10031,1746424888810134,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-23 22:27:23
+1746424888810134,Helen,Wang,10032,854518728062939,1746424888810134,BOT: message,Okay. I'll give you some choices.,2018-08-23 22:27:24
+1746424888810134,Helen,Wang,10033,854518728062939,1746424888810134,BOT: quick reply,":keycap_1: nutrients
+:keycap_2: mirrors
+:keycap_3: permable
+:keycap_4: osmosis
+",2018-08-23 22:27:26
+1746424888810134,Helen,Wang,10037,1746424888810134,854518728062939,user_quick_reply: BUTTON_DKB_nutrients,:keycap_1:,2018-08-23 22:27:29
+1746424888810134,Helen,Wang,10039,854518728062939,1746424888810134,BOT: message,"Oops, that is not correct. :disappointed_face:",2018-08-23 22:27:30
+1746424888810134,Helen,Wang,10040,854518728062939,1746424888810134,BOT: quick reply,The correct answer is osmosis.,2018-08-23 22:27:32
+1746424888810134,Helen,Wang,10041,1746424888810134,854518728062939,user_quick_reply: WHY,Why?,2018-08-23 22:27:36
+1746424888810134,Helen,Wang,10043,854518728062939,1746424888810134,BOT: message,Here's why:,2018-08-23 22:27:38
+1746424888810134,Helen,Wang,10045,854518728062939,1746424888810134,BOT: quick reply,"Osmosis is the diffusion of water through a semipermeable membrane down its concentration gradient. If a membrane is permeable to water, though not to a solute, water will equalize its own concentration by diffusing to the side of lower water concentration (and thus the side of higher solute concentration). In the beaker on the left, the solution on the right side of the membrane is hypertonic.",2018-08-23 22:27:39
+1746424888810134,Helen,Wang,10047,1746424888810134,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-23 22:27:43
+1746424888810134,Helen,Wang,10048,854518728062939,1746424888810134,BOT: message,"Alrighty, let's try this one.",2018-08-23 22:27:44
+1746424888810134,Helen,Wang,10049,854518728062939,1746424888810134,BOT: quick reply,What kind of viscosity is found in long-chain hydrocarbons?,2018-08-23 22:27:46
+1746424888810134,Helen,Wang,10278,1746424888810134,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-24 07:49:10
+1746424888810134,Helen,Wang,10279,854518728062939,1746424888810134,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-08-24 07:49:11
+1746424888810134,Helen,Wang,10280,854518728062939,1746424888810134,BOT: quick reply,":keycap_1: low viscosity
+:keycap_2: intense viscosity
+:keycap_3: high viscousity
+:keycap_4: increased viscosity
+",2018-08-24 07:49:13
+1746424888810134,Helen,Wang,10281,1746424888810134,854518728062939,user_quick_reply: BUTTON_DKB_low viscosity,:keycap_1:,2018-08-24 07:49:15
+1746424888810134,Helen,Wang,10282,854518728062939,1746424888810134,BOT: message,"Oops, that wasn't quite correct. :disappointed_face:",2018-08-24 07:49:16
+1746424888810134,Helen,Wang,10283,854518728062939,1746424888810134,BOT: quick reply,The correct answer is high viscousity.,2018-08-24 07:49:18
+1746424888810134,Helen,Wang,10284,1746424888810134,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-24 07:49:29
+1746424888810134,Helen,Wang,10285,854518728062939,1746424888810134,BOT: message,Let's see if you would answer this one.,2018-08-24 07:49:30
+1746424888810134,Helen,Wang,10286,854518728062939,1746424888810134,BOT: quick reply,What opens two strands of DNA?,2018-08-24 07:49:31
+1746424888810134,Helen,Wang,10287,1746424888810134,854518728062939,user_quick_reply: I_DONT_KNOW,I dont know :downcast_face_with_sweat:,2018-08-24 07:49:36
+1746424888810134,Helen,Wang,10288,854518728062939,1746424888810134,BOT: quick reply,Are you sure you want to skip answering?,2018-08-24 07:49:37
+1746424888810134,Helen,Wang,10289,1746424888810134,854518728062939,user_quick_reply: GIVEUP_YES,"Yes, answer please.",2018-08-24 07:49:40
+1746424888810134,Helen,Wang,10290,854518728062939,1746424888810134,BOT: message,You didn't get it right this time.,2018-08-24 07:49:42
+1746424888810134,Helen,Wang,10291,854518728062939,1746424888810134,BOT: message,"That's okay, you'll get it next time! :grinning_face_with_smiling_eyes:",2018-08-24 07:49:43
+1746424888810134,Helen,Wang,10292,854518728062939,1746424888810134,BOT: quick reply,The correct answer is helicase.,2018-08-24 07:49:44
+1746424888810134,Helen,Wang,10293,1746424888810134,854518728062939,user_quick_reply: WHY,Why?,2018-08-24 07:49:48
+1746424888810134,Helen,Wang,10294,854518728062939,1746424888810134,BOT: message,Here's why:,2018-08-24 07:49:50
+1746424888810134,Helen,Wang,10295,854518728062939,1746424888810134,BOT: quick reply,"The two DNA strands are opened by helicase. The strands are held open by a single strand of binding proteins, preventing premature reannealing. Topoisomerase solves the problem caused by tension generated by winding/unwinding of DNA. This enzyme wraps around DNA and makes a cut permitting the helix to spin and relax. Once DNA is relaxed, topoisomerase reconnects broken strands. DNA primase synthesizes a short RNA primer which initiates the Okazaki fragment. Okazaki fragments are attached by DNA ligase.",2018-08-24 07:49:51
+1746424888810134,Helen,Wang,10296,1746424888810134,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-24 07:50:01
+1746424888810134,Helen,Wang,10297,854518728062939,1746424888810134,BOT: message,Would you answer this question for me?,2018-08-24 07:50:03
+1746424888810134,Helen,Wang,10298,854518728062939,1746424888810134,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-24 07:50:05
+1746424888810134,Helen,Wang,10299,854518728062939,1746424888810134,BOT: quick reply,What is the diffusion of water through a semipermeable membrane down its concentration gradient?,2018-08-24 07:50:06
+1746424888810134,Helen,Wang,10300,1746424888810134,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-24 07:50:13
+1746424888810134,Helen,Wang,10301,854518728062939,1746424888810134,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-08-24 07:50:15
+1746424888810134,Helen,Wang,10302,854518728062939,1746424888810134,BOT: quick reply,":keycap_1: osmosis
+:keycap_2: mirrors
+:keycap_3: permable
+:keycap_4: nutrients
+",2018-08-24 07:50:16
+1746424888810134,Helen,Wang,10303,1746424888810134,854518728062939,user_quick_reply: BUTTON_DKB_mirrors,:keycap_2:,2018-08-24 07:50:22
+1746424888810134,Helen,Wang,10304,854518728062939,1746424888810134,BOT: message,"Hmm, that wasn't quite right. :disappointed_face:",2018-08-24 07:50:24
+1746424888810134,Helen,Wang,10305,854518728062939,1746424888810134,BOT: quick reply,The correct answer is osmosis.,2018-08-24 07:50:25
+1746424888810134,Helen,Wang,10306,1746424888810134,854518728062939,user_quick_reply: WHY,Why?,2018-08-24 07:50:28
+1746424888810134,Helen,Wang,10307,854518728062939,1746424888810134,BOT: message,This is why:,2018-08-24 07:50:30
+1746424888810134,Helen,Wang,10308,854518728062939,1746424888810134,BOT: quick reply,"Osmosis is the diffusion of water through a semipermeable membrane down its concentration gradient. If a membrane is permeable to water, though not to a solute, water will equalize its own concentration by diffusing to the side of lower water concentration (and thus the side of higher solute concentration). In the beaker on the left, the solution on the right side of the membrane is hypertonic.",2018-08-24 07:50:31
+1746424888810134,Helen,Wang,10309,1746424888810134,854518728062939,persistent_menu: SCIENCE,Science:microscope:,2018-08-24 07:51:01
+1746424888810134,Helen,Wang,10310,854518728062939,1746424888810134,BOT: quick reply,Awesome! Here are some questions on science!,2018-08-24 07:51:02
+1746424888810134,Helen,Wang,10311,1746424888810134,854518728062939,user_quick_reply: NEXT_QUESTION,"Yes, continue :thumbs_up_medium-light_skin_tone:",2018-08-24 07:51:07
+1746424888810134,Helen,Wang,10312,854518728062939,1746424888810134,BOT: message,Let's see if you can answer this question.,2018-08-24 07:51:09
+1746424888810134,Helen,Wang,10313,854518728062939,1746424888810134,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-24 07:51:10
+1746424888810134,Helen,Wang,10314,854518728062939,1746424888810134,BOT: quick reply,How often should women perform a breast self-exam?,2018-08-24 07:51:12
+1746424888810134,Helen,Wang,10315,1746424888810134,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-24 08:00:07
+1746424888810134,Helen,Wang,10316,854518728062939,1746424888810134,BOT: message,Pick one of the following answers.,2018-08-24 08:00:09
+1746424888810134,Helen,Wang,10317,854518728062939,1746424888810134,BOT: quick reply,":keycap_1: yearly
+:keycap_2: quarterly
+:keycap_3: monthly
+:keycap_4: weekly
+",2018-08-24 08:00:10
+1746424888810134,Helen,Wang,10352,1746424888810134,854518728062939,user_quick_reply: BUTTON_DKB_yearly,:keycap_1:,2018-08-24 10:35:06
+1746424888810134,Helen,Wang,10353,854518728062939,1746424888810134,BOT: message,"Oops, that wasn't quite correct. :disappointed_face:",2018-08-24 10:35:08
+1746424888810134,Helen,Wang,10354,854518728062939,1746424888810134,BOT: quick reply,The correct answer is monthly.,2018-08-24 10:35:09
+1746424888810134,Helen,Wang,10355,1746424888810134,854518728062939,user_quick_reply: WHY,Why?,2018-08-24 10:35:14
+1746424888810134,Helen,Wang,10356,854518728062939,1746424888810134,BOT: message,This is why:,2018-08-24 10:35:16
+1746424888810134,Helen,Wang,10357,854518728062939,1746424888810134,BOT: quick reply,"If you are a young woman, getting in the habit of performing a monthly breast self-exam is a good idea. Lumps or other subtle changes in the breasts may indicate breast cancer. The outcome is typically better if breast cancer is caught and treated early.",2018-08-24 10:35:17
+1746424888810134,Helen,Wang,10358,1746424888810134,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-24 10:35:27
+1746424888810134,Helen,Wang,10359,854518728062939,1746424888810134,BOT: message,Would you answer this question for me?,2018-08-24 10:35:28
+1746424888810134,Helen,Wang,10360,854518728062939,1746424888810134,BOT: quick reply,The lithosphere is divided into a dozen major and several minor what?,2018-08-24 10:35:30
+1746424888810134,Helen,Wang,10361,1746424888810134,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-24 10:35:40
+1746424888810134,Helen,Wang,10362,854518728062939,1746424888810134,BOT: message,It's one of the following choices.,2018-08-24 10:35:41
+1746424888810134,Helen,Wang,10363,854518728062939,1746424888810134,BOT: quick reply,":keycap_1: plates
+:keycap_2: crystals
+:keycap_3: faults
+:keycap_4: zones
+",2018-08-24 10:35:42
+1746424888810134,Helen,Wang,10364,1746424888810134,854518728062939,user_quick_reply: BUTTON_DKB_crystals,:keycap_2:,2018-08-24 10:35:46
+1746424888810134,Helen,Wang,10365,854518728062939,1746424888810134,BOT: message,"Oops, that is not correct. :disappointed_face:",2018-08-24 10:35:48
+1746424888810134,Helen,Wang,10366,854518728062939,1746424888810134,BOT: quick reply,The correct answer is plates.,2018-08-24 10:35:50
+1746424888810134,Helen,Wang,10367,1746424888810134,854518728062939,user_quick_reply: WHY,Why?,2018-08-24 10:35:53
+1746424888810134,Helen,Wang,10368,854518728062939,1746424888810134,BOT: message,Here's why:,2018-08-24 10:35:54
+1746424888810134,Helen,Wang,10369,854518728062939,1746424888810134,BOT: quick reply,The lithosphere is divided into a dozen major and several minor plates. Each plate is named for the continent or ocean basin it contains. Some plates are made of all oceanic lithosphere. A few are all continental lithosphere. But most plates are made of a combination of both.,2018-08-24 10:35:56
+1746424888810134,Helen,Wang,10370,1746424888810134,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-24 10:36:56
+1746424888810134,Helen,Wang,10371,854518728062939,1746424888810134,BOT: message,Could you answer this one for me?,2018-08-24 10:36:58
+1746424888810134,Helen,Wang,10372,854518728062939,1746424888810134,BOT: quick reply,What opens two strands of DNA?,2018-08-24 10:37:00
+1746424888810134,Helen,Wang,10373,1746424888810134,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-24 10:37:04
+1746424888810134,Helen,Wang,10374,854518728062939,1746424888810134,BOT: message,Which of the following options is the right answer?,2018-08-24 10:37:05
+1746424888810134,Helen,Wang,10375,854518728062939,1746424888810134,BOT: quick reply,":keycap_1: adenylate
+:keycap_2: chromosome
+:keycap_3: replication
+:keycap_4: helicase
+",2018-08-24 10:37:07
+1746424888810134,Helen,Wang,10376,1746424888810134,854518728062939,user_quick_reply: BUTTON_DKB_adenylate,:keycap_1:,2018-08-24 10:37:12
+1746424888810134,Helen,Wang,10377,854518728062939,1746424888810134,BOT: message,"Hmm, that wasn't quite right. :disappointed_face:",2018-08-24 10:37:14
+1746424888810134,Helen,Wang,10378,854518728062939,1746424888810134,BOT: quick reply,The correct answer is helicase.,2018-08-24 10:37:15
+1746424888810134,Helen,Wang,10379,1746424888810134,854518728062939,user_quick_reply: WHY,Why?,2018-08-24 10:37:20
+1746424888810134,Helen,Wang,10380,854518728062939,1746424888810134,BOT: message,Here's why:,2018-08-24 10:37:21
+1746424888810134,Helen,Wang,10381,854518728062939,1746424888810134,BOT: quick reply,"The two DNA strands are opened by helicase. The strands are held open by a single strand of binding proteins, preventing premature reannealing. Topoisomerase solves the problem caused by tension generated by winding/unwinding of DNA. This enzyme wraps around DNA and makes a cut permitting the helix to spin and relax. Once DNA is relaxed, topoisomerase reconnects broken strands. DNA primase synthesizes a short RNA primer which initiates the Okazaki fragment. Okazaki fragments are attached by DNA ligase.",2018-08-24 10:37:23
+1746424888810134,Helen,Wang,10382,1746424888810134,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-24 10:40:05
+1746424888810134,Helen,Wang,10383,854518728062939,1746424888810134,BOT: message,Let's try this one.,2018-08-24 10:40:06
+1746424888810134,Helen,Wang,10384,854518728062939,1746424888810134,BOT: quick reply,What is the diffusion of water through a semipermeable membrane down its concentration gradient?,2018-08-24 10:40:08
+1746424888810134,Helen,Wang,10385,1746424888810134,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-24 10:40:13
+1746424888810134,Helen,Wang,10386,854518728062939,1746424888810134,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-08-24 10:40:14
+1746424888810134,Helen,Wang,10387,854518728062939,1746424888810134,BOT: quick reply,":keycap_1: permable
+:keycap_2: nutrients
+:keycap_3: mirrors
+:keycap_4: osmosis
+",2018-08-24 10:40:16
+1746424888810134,Helen,Wang,10388,1746424888810134,854518728062939,user_quick_reply: BUTTON_DKB_permable,:keycap_1:,2018-08-24 10:41:01
+1746424888810134,Helen,Wang,10389,854518728062939,1746424888810134,BOT: message,"Oops, that is not correct. :disappointed_face:",2018-08-24 10:41:02
+1746424888810134,Helen,Wang,10390,854518728062939,1746424888810134,BOT: quick reply,The correct answer is osmosis.,2018-08-24 10:41:04
+1746424888810134,Helen,Wang,12077,854518728062939,1746424888810134,BOT: quick reply,"Hi Helen, you haven't talked to me for a while. Would you like to resume the learning with me?",2018-08-24 20:00:14
+1746424888810134,Helen,Wang,13377,1746424888810134,854518728062939,user_quick_reply: NEXT_QUESTION,Continue :collision:,2018-08-25 08:58:55
+1746424888810134,Helen,Wang,13378,854518728062939,1746424888810134,BOT: message,I think you'll like this question.,2018-08-25 08:58:57
+1746424888810134,Helen,Wang,13379,854518728062939,1746424888810134,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-25 08:58:58
+1746424888810134,Helen,Wang,13380,854518728062939,1746424888810134,BOT: quick reply,What kind of viscosity is found in long-chain hydrocarbons?,2018-08-25 08:59:00
+1746424888810134,Helen,Wang,13381,1746424888810134,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-25 08:59:11
+1746424888810134,Helen,Wang,13382,854518728062939,1746424888810134,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-08-25 08:59:13
+1746424888810134,Helen,Wang,13383,854518728062939,1746424888810134,BOT: quick reply,":keycap_1: increased viscosity
+:keycap_2: high viscousity
+:keycap_3: intense viscosity
+:keycap_4: low viscosity
+",2018-08-25 08:59:14
+1746424888810134,Helen,Wang,13384,1746424888810134,854518728062939,user_quick_reply: BUTTON_DKB_increased viscosity,:keycap_1:,2018-08-25 08:59:20
+1746424888810134,Helen,Wang,13385,854518728062939,1746424888810134,BOT: message,That's not quite right. :disappointed_face:,2018-08-25 08:59:22
+1746424888810134,Helen,Wang,13386,854518728062939,1746424888810134,BOT: quick reply,The correct answer is high viscousity.,2018-08-25 08:59:23
+1746424888810134,Helen,Wang,13387,1746424888810134,854518728062939,user_quick_reply: WHY,Why?,2018-08-25 08:59:28
+1746424888810134,Helen,Wang,13388,854518728062939,1746424888810134,BOT: message,This is an explanation of the question:,2018-08-25 08:59:30
+1746424888810134,Helen,Wang,13389,854518728062939,1746424888810134,BOT: quick reply,"There is also a correlation between viscosity and molecular shape. Liquids consisting of long, flexible molecules tend to have higher viscosities than those composed of more spherical or shorter-chain molecules. The longer the molecules, the easier it is for them to become tangled with one another, making it more difficult for them to move past one another. London dispersion forces also increase with chain length. Due to a combination of these two effects, long-chain hydrocarbons (such as motor oils) are highly viscous.",2018-08-25 08:59:32
+1746424888810134,Helen,Wang,13390,1746424888810134,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-25 08:59:45
+1746424888810134,Helen,Wang,13391,854518728062939,1746424888810134,BOT: message,See if you can answer this next one.,2018-08-25 08:59:46
+1746424888810134,Helen,Wang,13392,854518728062939,1746424888810134,BOT: quick reply,What kind of viscosity is found in long-chain hydrocarbons?,2018-08-25 08:59:48
+1746424888810134,Helen,Wang,13395,1746424888810134,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-25 09:01:47
+1746424888810134,Helen,Wang,13396,854518728062939,1746424888810134,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-08-25 09:01:49
+1746424888810134,Helen,Wang,13397,854518728062939,1746424888810134,BOT: quick reply,":keycap_1: low viscosity
+:keycap_2: intense viscosity
+:keycap_3: increased viscosity
+:keycap_4: high viscousity
+",2018-08-25 09:01:50
+1746424888810134,Helen,Wang,13800,1746424888810134,854518728062939,user_quick_reply: BUTTON_DKB_low viscosity,:keycap_1:,2018-08-25 12:25:34
+1746424888810134,Helen,Wang,13801,854518728062939,1746424888810134,BOT: message,"Oops, that is not correct. :disappointed_face:",2018-08-25 12:25:36
+1746424888810134,Helen,Wang,13802,854518728062939,1746424888810134,BOT: quick reply,The correct answer is high viscousity.,2018-08-25 12:25:37
+1746424888810134,Helen,Wang,13803,1746424888810134,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-25 12:25:41
+1746424888810134,Helen,Wang,13804,854518728062939,1746424888810134,BOT: message,See if you can answer this next one.,2018-08-25 12:25:43
+1746424888810134,Helen,Wang,13805,854518728062939,1746424888810134,BOT: quick reply,The electrode at which oxidation occurs is called the what?,2018-08-25 12:25:44
+1746424888810134,Helen,Wang,13806,1746424888810134,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-25 12:25:49
+1746424888810134,Helen,Wang,13807,854518728062939,1746424888810134,BOT: message,Pick one of the following answers.,2018-08-25 12:25:50
+1746424888810134,Helen,Wang,13808,854518728062939,1746424888810134,BOT: quick reply,":keycap_1: cathode
+:keycap_2: anode
+:keycap_3: diode
+:keycap_4: calomel
+",2018-08-25 12:25:52
+1746424888810134,Helen,Wang,13809,1746424888810134,854518728062939,user_quick_reply: BUTTON_DKB_cathode,:keycap_1:,2018-08-25 12:25:55
+1746424888810134,Helen,Wang,13810,854518728062939,1746424888810134,BOT: message,"I'm sorry, but that was incorrect. :disappointed_face:",2018-08-25 12:25:56
+1746424888810134,Helen,Wang,13811,854518728062939,1746424888810134,BOT: quick reply,The correct answer is anode.,2018-08-25 12:25:58
+1746424888810134,Helen,Wang,13812,1746424888810134,854518728062939,user_quick_reply: WHY,Why?,2018-08-25 12:26:02
+1746424888810134,Helen,Wang,13813,854518728062939,1746424888810134,BOT: message,Here's an explanation:,2018-08-25 12:26:03
+1746424888810134,Helen,Wang,13814,854518728062939,1746424888810134,BOT: quick reply,"The electrode at which oxidation occurs is called the anode. The zinc anode gradually diminishes as the cell operates due to the loss of zinc metal. The zinc ion concentration in the half-cell increases. Because of the production of electrons at the anode, it is labeled as the negative electrode.",2018-08-25 12:26:05
+1746424888810134,Helen,Wang,13815,1746424888810134,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-25 12:26:13
+1746424888810134,Helen,Wang,13816,854518728062939,1746424888810134,BOT: message,How about this next one:,2018-08-25 12:26:14
+1746424888810134,Helen,Wang,13817,854518728062939,1746424888810134,BOT: quick reply,The lithosphere is divided into a dozen major and several minor what?,2018-08-25 12:26:16
+1746424888810134,Helen,Wang,13818,1746424888810134,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-25 12:26:35
+1746424888810134,Helen,Wang,13819,854518728062939,1746424888810134,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-08-25 12:26:37
+1746424888810134,Helen,Wang,13820,854518728062939,1746424888810134,BOT: quick reply,":keycap_1: plates
+:keycap_2: crystals
+:keycap_3: faults
+:keycap_4: zones
+",2018-08-25 12:26:38
+1746424888810134,Helen,Wang,13821,1746424888810134,854518728062939,user_quick_reply: BUTTON_AKB_plates,:keycap_1:,2018-08-25 12:26:48
+1746424888810134,Helen,Wang,13822,854518728062939,1746424888810134,BOT: message,Great! Keep it up! :flexed_biceps_medium-light_skin_tone:,2018-08-25 12:26:49
+1746424888810134,Helen,Wang,13823,854518728062939,1746424888810134,BOT: quick reply,The correct answer is plates.,2018-08-25 12:26:51
+1746424888810134,Helen,Wang,13897,1746424888810134,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-25 12:32:53
+1746424888810134,Helen,Wang,13898,854518728062939,1746424888810134,BOT: message,Let's try this question.,2018-08-25 12:32:55
+1746424888810134,Helen,Wang,13899,854518728062939,1746424888810134,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-25 12:32:56
+1746424888810134,Helen,Wang,13900,854518728062939,1746424888810134,BOT: quick reply,What disease characterized by the extreme swelling of the limbs is caused by infection with a type of roundworm?,2018-08-25 12:32:58
+1746424888810134,Helen,Wang,14928,1746424888810134,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-25 18:29:04
+1746424888810134,Helen,Wang,14929,854518728062939,1746424888810134,BOT: message,It's one of the following choices.,2018-08-25 18:29:05
+1746424888810134,Helen,Wang,14930,854518728062939,1746424888810134,BOT: quick reply,":keycap_1: gigantism
+:keycap_2: elephantiasis
+:keycap_3: fibrosis
+:keycap_4: pulmonary edema
+",2018-08-25 18:29:07
+1746424888810134,Helen,Wang,14937,1746424888810134,854518728062939,user_quick_reply: BUTTON_AKB_elephantiasis,:keycap_2:,2018-08-25 18:29:26
+1746424888810134,Helen,Wang,14938,854518728062939,1746424888810134,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/celebration.gif,2018-08-25 18:29:33
+1746424888810134,Helen,Wang,14939,854518728062939,1746424888810134,BOT: message,Yes! You got the correct answer!,2018-08-25 18:29:35
+1746424888810134,Helen,Wang,14940,854518728062939,1746424888810134,BOT: quick reply,The correct answer is elephantiasis.,2018-08-25 18:29:36
+1746424888810134,Helen,Wang,14941,1746424888810134,854518728062939,user_quick_reply: WHY,Why?,2018-08-25 18:29:43
+1746424888810134,Helen,Wang,14942,854518728062939,1746424888810134,BOT: message,This is why:,2018-08-25 18:29:44
+1746424888810134,Helen,Wang,14943,854518728062939,1746424888810134,BOT: quick reply,"Roundworms can be free-living organisms, but they are probably best known for their role as significant plant and animal parasites. Most Nematodes are parasitic, with over 16,000 parasitic species described. Heartworms, which cause serious disease in dogs while living in the heart and blood vessels, are a type of roundworm. Roundworms can also cause disease in humans. Elephantiasis, a disease characterized by the extreme swelling of the limbs, is caused by infection with a type of roundworm.",2018-08-25 18:29:46
+1746424888810134,Helen,Wang,15137,1746424888810134,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-25 18:50:01
+1746424888810134,Helen,Wang,15138,854518728062939,1746424888810134,BOT: message,How about this next one:,2018-08-25 18:50:03
+1746424888810134,Helen,Wang,15139,854518728062939,1746424888810134,BOT: quick reply,How often should women perform a breast self-exam?,2018-08-25 18:50:04
+1746424888810134,Helen,Wang,15140,1746424888810134,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-25 18:50:09
+1746424888810134,Helen,Wang,15141,854518728062939,1746424888810134,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-08-25 18:50:10
+1746424888810134,Helen,Wang,15142,854518728062939,1746424888810134,BOT: quick reply,":keycap_1: monthly
+:keycap_2: quarterly
+:keycap_3: yearly
+:keycap_4: weekly
+",2018-08-25 18:50:12
+1746424888810134,Helen,Wang,15143,1746424888810134,854518728062939,user_quick_reply: BUTTON_AKB_monthly,:keycap_1:,2018-08-25 18:50:14
+1746424888810134,Helen,Wang,15144,854518728062939,1746424888810134,BOT: message,Great job!,2018-08-25 18:50:16
+1746424888810134,Helen,Wang,15145,854518728062939,1746424888810134,BOT: quick reply,The correct answer is monthly.,2018-08-25 18:50:17
+1746424888810134,Helen,Wang,15146,1746424888810134,854518728062939,user_quick_reply: WHY,Why?,2018-08-25 18:53:34
+1746424888810134,Helen,Wang,15147,854518728062939,1746424888810134,BOT: message,This is why:,2018-08-25 18:53:35
+1746424888810134,Helen,Wang,15148,854518728062939,1746424888810134,BOT: quick reply,"If you are a young woman, getting in the habit of performing a monthly breast self-exam is a good idea. Lumps or other subtle changes in the breasts may indicate breast cancer. The outcome is typically better if breast cancer is caught and treated early.",2018-08-25 18:53:37
+1746424888810134,Helen,Wang,15291,854518728062939,1746424888810134,BOT: quick reply,"Hi Helen, you haven't talked to me for a while. Would you like to resume the learning with me?",2018-08-25 20:00:12
+1746424888810134,Helen,Wang,15393,1746424888810134,854518728062939,user_quick_reply: NEXT_QUESTION,I see :thumbs_up_medium-light_skin_tone:,2018-08-25 20:06:15
+1746424888810134,Helen,Wang,15395,854518728062939,1746424888810134,BOT: message,I think you'll like this question.,2018-08-25 20:06:16
+1746424888810134,Helen,Wang,15396,854518728062939,1746424888810134,BOT: quick reply,Most insects reproduce quickly and through what type of reproduction?,2018-08-25 20:06:18
+1746424888810134,Helen,Wang,15399,1746424888810134,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-25 20:06:21
+1746424888810134,Helen,Wang,15401,854518728062939,1746424888810134,BOT: message,Okay. I'll give you some choices.,2018-08-25 20:06:22
+1746424888810134,Helen,Wang,15402,854518728062939,1746424888810134,BOT: quick reply,":keycap_1: sexual reproduction
+:keycap_2: photosynthesis
+:keycap_3: asexual reproduction
+:keycap_4: spores
+",2018-08-25 20:06:24
+1746424888810134,Helen,Wang,15403,1746424888810134,854518728062939,user_quick_reply: BUTTON_AKB_sexual reproduction,:keycap_1:,2018-08-25 20:06:27
+1746424888810134,Helen,Wang,15404,854518728062939,1746424888810134,BOT: message,Great job!,2018-08-25 20:06:28
+1746424888810134,Helen,Wang,15405,854518728062939,1746424888810134,BOT: quick reply,The correct answer is sexual reproduction.,2018-08-25 20:06:30
+1746424888810134,Helen,Wang,15406,1746424888810134,854518728062939,user_quick_reply: WHY,Why?,2018-08-25 20:06:33
+1746424888810134,Helen,Wang,15408,854518728062939,1746424888810134,BOT: message,Here's an explanation:,2018-08-25 20:06:34
+1746424888810134,Helen,Wang,15410,854518728062939,1746424888810134,BOT: quick reply,"Most insects can reproduce very quickly within a short period of time. With a short generation time, they evolve faster and can quickly adjust to environmental changes. Most insects reproduce by sexual reproduction. The female produces eggs, which are fertilized by the male, and then the eggs are usually placed near the required food. In some insects, there is asexual reproduction during which the offspring come from a single parent. In this type of reproduction, the offspring are almost identical to the mother. This is most often seen in aphids and scale insects.",2018-08-25 20:06:36
+1746424888810134,Helen,Wang,15413,1746424888810134,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-25 20:06:47
+1746424888810134,Helen,Wang,15414,854518728062939,1746424888810134,BOT: message,Could you answer this one for me?,2018-08-25 20:06:49
+1746424888810134,Helen,Wang,15415,854518728062939,1746424888810134,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-25 20:06:50
+1746424888810134,Helen,Wang,15417,854518728062939,1746424888810134,BOT: quick reply,Nerve cells that sense touch are found mainly where?,2018-08-25 20:06:52
+1746424888810134,Helen,Wang,15420,1746424888810134,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-25 20:06:55
+1746424888810134,Helen,Wang,15421,854518728062939,1746424888810134,BOT: message,Okay. I'll give you some choices.,2018-08-25 20:06:57
+1746424888810134,Helen,Wang,15422,854518728062939,1746424888810134,BOT: quick reply,":keycap_1: brain
+:keycap_2: stomach
+:keycap_3: lungs
+:keycap_4: skin
+",2018-08-25 20:06:58
+1746424888810134,Helen,Wang,15423,1746424888810134,854518728062939,user_quick_reply: BUTTON_DKB_brain,:keycap_1:,2018-08-25 20:07:01
+1746424888810134,Helen,Wang,15424,854518728062939,1746424888810134,BOT: message,"I'm sorry, but that was incorrect. :disappointed_face:",2018-08-25 20:07:02
+1746424888810134,Helen,Wang,15425,854518728062939,1746424888810134,BOT: quick reply,The correct answer is skin.,2018-08-25 20:07:04
+1746424888810134,Helen,Wang,15427,1746424888810134,854518728062939,user_quick_reply: WHY,Why?,2018-08-25 20:07:06
+1746424888810134,Helen,Wang,15428,854518728062939,1746424888810134,BOT: message,This is why:,2018-08-25 20:07:08
+1746424888810134,Helen,Wang,15430,854518728062939,1746424888810134,BOT: quick reply,"Touch is the ability to sense pain, pressure, or temperature. Nerve cells that sense touch are found mainly in the skin. The skin on the palms, soles, face, and lips has the most neurons. Neurons that sense pain are also found inside the body inside the body in the tongue, joints, muscles, and other organs.",2018-08-25 20:07:09
+1746424888810134,Helen,Wang,15433,1746424888810134,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-25 20:07:13
+1746424888810134,Helen,Wang,15434,854518728062939,1746424888810134,BOT: message,Could you answer this one for me?,2018-08-25 20:07:15
+1746424888810134,Helen,Wang,15435,854518728062939,1746424888810134,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-25 20:07:16
+1746424888810134,Helen,Wang,15438,854518728062939,1746424888810134,BOT: quick reply,The electrode at which oxidation occurs is called the what?,2018-08-25 20:07:18
+1746424888810134,Helen,Wang,15442,1746424888810134,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-25 20:07:20
+1746424888810134,Helen,Wang,15444,854518728062939,1746424888810134,BOT: message,Okay. I'll give you some choices.,2018-08-25 20:07:22
+1746424888810134,Helen,Wang,15445,854518728062939,1746424888810134,BOT: quick reply,":keycap_1: calomel
+:keycap_2: anode
+:keycap_3: diode
+:keycap_4: cathode
+",2018-08-25 20:07:23

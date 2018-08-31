@@ -1,0 +1,161 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+This is an [R Markdown](http://rmarkdown.rstudio.com) Notebook. When you execute code within the notebook, the results appear beneath the code. 
+
+Try executing this chunk by clicking the *Run* button within the chunk or by placing your cursor inside it and pressing *Cmd+Shift+Enter*. 
+
+```{r} 
+# Tutorial: 
+# http://www.sthda.com/english/wiki/paired-samples-t-test-in-r
+# https://www.r-bloggers.com/paired-students-t-test/
+# https://suinotes.wordpress.com/2009/11/30/understanding-t-test-in-r/
+```
+
+```{r}
+library("ggplot2")
+library(lsr)
+library(pwr)
+```
+
+```{r}
+# MTURK 1: SPLIT
+score_A1 = c(5, 2, 2, 3, 11, 12, 7, 12, 9, 11, 10, 11, 9, 4, 10, 9, 15, 12, 24, 9, 12, 14, 11, 14, 17, 12, 11, 8, 11, 18, 10, 13, 3, 9, 8, 11, 14, 9, 8, 12, 12, 11, 15, 7, 16, 14, 7, 18, 10, 5, 5, 11, 7, 13, 13, 2, 11, 10, 7, 7, 7, 6, 9, 8, 3)
+score_A2 = c(6, 0, 7, 3, 12, 11, 8, 16, 12, 14, 14, 12, 6, 9, 7, 4, 11, 9, 19, 6, 13, 11, 13, 16, 14, 5, 10, 8, 9, 19, 8, 7, 2, 8, 9, 11, 15, 6, 14, 10, 9, 13, 15, 8, 15, 15, 9, 21, 14, 4, 4, 6, 6, 12, 13, 6, 13, 14, 6, 10, 9, 6, 12, 11, 2)
+score_B1 = c(6, 1, 8, 6, 15, 9, 9, 11, 10, 11, 5, 13, 9, 4, 7, 8, 13, 12, 19, 8, 10, 16, 10, 17, 16, 10, 9, 7, 9, 17, 9, 10, 5, 11, 9, 12, 14, 7, 8, 11, 11, 12, 15, 9, 17, 9, 6, 20, 11, 5, 8, 12, 5, 10, 12, 7, 12, 10, 6, 7, 6, 6, 13, 7, 4)
+score_B2 = c(2, 0, 10, 4, 11, 10, 12, 13, 11, 13, 11, 12, 8, 7, 13, 8, 13, 9, 20, 7, 13, 9, 9, 19, 15, 7, 6, 8, 10, 14, 8, 12, 6, 4, 5, 10, 13, 8, 15, 12, 14, 14, 14, 12, 17, 11, 7, 19, 10, 10, 6, 5, 6, 12, 10, 6, 13, 12, 7, 4, 9, 7, 13, 12, 3)
+
+
+# Removing users who have inconsistant answers >4
+score_A1 = score_A[c(1:15, 17:37, 39:40, 42:52)]
+score_A2 = score_B[c(1:15, 17:37, 39:40, 42:52)]
+
+score_A1 = score_A[c(1:19)]
+score_A2 = score_B[c(1:19)]
+print(score_A)
+
+my_data <- data.frame(group = rep(c("B1", "B2"), each = 65),
+                      score = c(score_B1,  score_B2))
+boxplot(score ~ group, data = my_data, col = c("lightyellow", "lightblue"), main='Average score (out of 27)')
+
+score_diffs = score_A2 - score_A1
+hist(score_diffs, main = "Histogram of score diffs (A2-A1)")
+shapiro.test(score_diffs)
+
+mean(score_A1)
+mean(score_A2)
+mean(score_B1)
+mean(score_B2)
+
+# at 95% confidence level, there is no significant difference (p-value > 0.05) of the two means
+t.test(score_A1, score_A2, paired = TRUE)
+t.test(score_B1, score_B2, paired = TRUE)
+t.test(score_A1, score_B1, paired = TRUE)
+t.test(score_A2, score_B2, paired = TRUE)
+t.test(score_A1, score_B2, paired = TRUE)
+t.test(score_A2, score_B1, paired = TRUE)
+```
+
+```{r}
+# MTURK 1 (Aug 1)
+score_A = c(11, 2, 9, 6, 23, 23, 15, 28, 21, 25, 24, 23, 15, 13, 17, 13, 26, 21, 43, 15, 25, 25, 24, 30, 31, 17, 21, 16, 20, 37, 18, 20, 5, 17, 17, 22, 29, 15, 22, 22, 21, 24, 30, 15, 31, 29, 16, 39, 24, 9, 9, 17, 13, 25, 26, 8, 24, 24, 13, 17, 16, 12, 21, 19, 5)
+score_B = c(8, 1, 18, 10, 26, 19, 21, 24, 21, 24, 16, 25, 17, 11, 20, 16, 26, 21, 39, 15, 23, 25, 19, 36, 31, 17, 15, 15, 19, 31, 17, 22, 11, 15, 14, 22, 27, 15, 23, 23, 25, 26, 29, 21, 34, 20, 13, 39, 21, 15, 14, 17, 11, 22, 22, 13, 25, 22, 13, 11, 15, 13, 26, 19, 7)
+
+# Removing users who have inconsistant answers >4
+score_A = score_A[c(1:15, 17:37, 39:40, 42:52)]
+score_B = score_B[c(1:15, 17:37, 39:40, 42:52)]
+
+score_A = score_A[c(1:19)]
+score_B = score_B[c(1:19)]
+print(score_A)
+
+my_data <- data.frame(group = rep(c("quiz A", "quiz B"), each = 65),
+                      score = c(score_A,  score_B))
+boxplot(score ~ group, data = my_data, col = c("lightyellow", "lightblue"), main='Average score (out of 54)')
+
+mean(score_A)
+mean(score_B)
+
+score_diffs = score_B - score_A
+hist(score_diffs, main = "Histogram of score diffs (B-A)")
+shapiro.test(score_diffs)
+
+t.test(score_A, score_B, paired = TRUE)
+# at 95% confidence level, there is no significant difference (p-value > 0.05) of the two means
+
+# Note: no need for effect size if there's no significant difference
+# Effect size
+# http://rcompanion.org/handbook/I_04.html
+cohensD(score ~ group, 
+       data   = my_data,
+       method = "paired")
+
+# Power analysis
+# https://www.statmethods.net/stats/power.html
+pwr.t.test(n = 17, d = 0.431, sig.level = 0.05, type = "paired")
+pwr.t.test(d = 0.311, sig.level = 0.05, power = 0.8, type = "paired")
+```
+
+```{r}
+# Prolific (July)
+score_A = c(24,34,30,40,34,29,20,26,46,45,30,26,20,23,25,23,27)
+score_B = c(22,26,21,41,24,26,20,24,42,40,29,20,21,13,18,21,29)
+
+score_A = score_A[1:10]
+score_B = score_B[1:10]
+
+my_data <- data.frame(group = rep(c("score_A", "score_B"), each = 10),
+                      score = c(score_A,  score_B))
+boxplot(score ~ group, data = my_data, col = c("lightyellow", "lightblue"))
+
+score_diffs = score_B - score_A
+hist(score_diffs, breaks=3)
+
+shapiro.test(score_diffs)
+t.test(score_A, score_B, paired = TRUE)
+
+# Effect size
+library(lsr)
+cohensD(score ~ group, 
+        data   = my_data,
+        method = "paired")
+
+# Power analysis
+library(pwr)
+pwr.t.test(n = 10, d = 1.12, sig.level = 0.05, type = "paired")
+
+```
+
+```{r}
+# MTURK 2 (Aug 5)
+score_A = c(30,39,24,12,32,23,39,26,34,22,16,32,28,47,33,23,25,21,24)
+score_B = c(26,34,18,14,29,25,34,22,31,24,19,32,20,46,34,20,22,19,27)
+
+score_A = score_A[1:13]
+score_B = score_B[1:13]
+
+score_diffs = score_B - score_A
+hist(score_diffs)
+
+# Create a data frame
+my_data <- data.frame(group = rep(c("score_A", "score_B"), each = 13),
+                      score = c(score_A,  score_B))
+
+# Plot weight by group and color by group
+boxplot(score ~ group, data = my_data, col = c("lightyellow", "lightblue"))
+
+#From the output, the p-value is greater than the significance level 0.05 implying that the distribution of the differences (score_diffs) are not significantly different from normal distribution. In other words, we can assume the normality.
+shapiro.test(score_diffs)
+
+#The p-value is greater than 0.05, then we can accept the hypothesis H0 of equality of the averages. In conclusion, the new training has not made any significant improvement (or deterioration) to the team of athletes.
+t.test(score_A, score_B, paired = TRUE)
+```
+
+Add a new chunk by clicking the *Insert Chunk* button on the toolbar or by pressing *Cmd+Option+I*.
+
+When you save the notebook, an HTML file containing the code and output will be saved alongside it (click the *Preview* button or press *Cmd+Shift+K* to preview the HTML file). 
+
+The preview shows you a rendered HTML copy of the contents of the editor. Consequently, unlike *Knit*, *Preview* does not run any R code chunks. Instead, the output of the chunk when it was last run in the editor is displayed.
+
