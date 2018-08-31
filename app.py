@@ -50,9 +50,9 @@ def send_pictures(path):
 
 
 # For tmp picture files such as dynamically generated leaderboard
-@app.route('/tmp/pictures/<path:path>')
+@app.route('/pictures/<path:path>')
 def send_lb_pictures(path):
-    return send_from_directory('../tmp/pictures', path)
+    return send_from_directory('../pictures', path)
 
 
 # go to https://smartprimer.org:8443/test
@@ -292,8 +292,7 @@ if __name__ == '__main__':
     elif model == "SupervisedSIFModeL":
         qa_model = QAModel.SupervisedSIFModeL(qa_kb, question_sequencing_model)
 
-    context = ('/etc/letsencrypt/live/smartprimer.org/fullchain.pem',
-               '/etc/letsencrypt/live/smartprimer.org/privkey.pem')
+    context = ("/home/321yy/ssl_cert/smartprimer_ai.crt", "/home/321yy/ssl_cert/server.key")
 
     pretty_print('============ Run App ============', mode='App')
     app.run(host='0.0.0.0', threaded=True, debug=True, use_reloader=False, ssl_context=context, port=int(os.environ["PORT"]))
