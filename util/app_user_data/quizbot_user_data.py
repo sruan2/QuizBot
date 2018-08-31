@@ -25,12 +25,11 @@ correctness_rate_file = "correctness_rate.csv"
 users = ["Noah Yinuo_Yao", "Dee Dee_Thao", "Zhenqi_Hu", "Jingyi_Li", "Joy_Yuzuriha", "Tyler_Yep", \
          "Andrew_Ying", "Henry_Qin", "Nina_Horowitz", "Daniel_Do", "Fangmingyu_Yang", "Francis_Yan", \
          "Olivia_Yang", "Ted_Shaowang", "Helen_Wang", "De-an_Huang", "Kylie_Jue", \
-         "Giovanni_Campagna", "Jean_Coquet", "Zhouheng_Zhuang"]
-
-         # , "Yue_Hui", "Clayton_Ellington", \
-         # "Nathaniel_Ramos", "Paul_Walter", "Flora_Wang", "Christine_Liu", "Selen_Bozkurt", "Maisam_Pyarali", \
-         # "Nathan_Dalal", "Sorathan_Chaturapruek", "Daniel_Choe", "Owen_Wang", "Richard_Xu", "Yang_Wang",
-         # "Hongsheng_Fang"]
+         "Giovanni_Campagna", "Jean_Coquet", "Zhouheng_Zhuang", "Mike_Solorio", "Jessica_De la paz", \
+         "Nina_Wei", "Yue_Hui", "Clayton_Ellington", \
+         "Nathaniel_Ramos", "Paul_Walter", "Flora_Wang", "Christine_Liu", "Selen_Bozkurt", "Maisam_Pyarali", \
+         "Nathan_Dalal", "Sorathan_Chaturapruek", "Daniel_Choe", "Owen_Wang", "Richard_Xu", "Yang_Wang",
+         "Hongsheng_Fang"]
          
 # users.append("Julia_Thompson")
 
@@ -214,13 +213,13 @@ for user in users:
     qualtricsID_in_postquiz_seen = [qid_2_qualtricsID_dict[qid] for qid in qid_in_postquiz_seen]
     question_report[user] = (len(events), len(set(events)), len(qid_in_postquiz_seen), qualtricsID_in_postquiz_seen)
 
-    for q in quizbot_qid:
-        practice_question_count[user][q] = events.count(q)
-    for q in quizbot_qid:
-        if float(events.count(q)) == 0:
-            question_correctness_rate[user][q] = ''
-        else:
-            question_correctness_rate[user][q] = round(float(events_correct.count(q)) / float(events.count(q)), 2)
+    # for q in quizbot_qid:
+    #     practice_question_count[user][q] = events.count(q)
+    # for q in quizbot_qid:
+    #     if float(events.count(q)) == 0:
+    #         question_correctness_rate[user][q] = ''
+    #     else:
+    #         question_correctness_rate[user][q] = round(float(events_correct.count(q)) / float(events.count(q)), 2)
 
     if user == 'Zilin_Ma':
         qid_in_postquiz_seen = set(events) & postquiz_qid_A
@@ -228,13 +227,13 @@ for user in users:
         print(qualtricsID_in_postquiz_seen)
         question_report[user] = (len(events), len(set(events)), len(qid_in_postquiz_seen), qualtricsID_in_postquiz_seen)
 
-        for q in quizbot_qid:
-            practice_question_count[user][q] = events.count(q)
-        for q in quizbot_qid:
-            if float(events.count(q)) == 0:
-                question_correctness_rate[user][q] = ''
-            else:
-                question_correctness_rate[user][q] = round(float(events_correct.count(q)) / float(events.count(q)), 2)
+        # for q in quizbot_qid:
+        #     practice_question_count[user][q] = events.count(q)
+        # for q in quizbot_qid:
+        #     if float(events.count(q)) == 0:
+        #         question_correctness_rate[user][q] = ''
+        #     else:
+        #         question_correctness_rate[user][q] = round(float(events_correct.count(q)) / float(events.count(q)), 2)
 
 output_string = ""
 for user in time_report:
@@ -282,6 +281,7 @@ for user in practice_question_count.keys():
     user_practice_question_count = [user] + practice_question_count[user].values()
     all_practice_question_count.append(user_practice_question_count)
 
+all_question_correctness_rate = zip(*all_practice_question_count)
 with open(practice_question_file, 'w') as csvfile:
     writer = csv.writer(csvfile)
     writer.writerows(all_practice_question_count)
@@ -292,7 +292,7 @@ for user in question_correctness_rate.keys():
     user_correctness_rate = [user] + question_correctness_rate[user].values()
     all_question_correctness_rate.append(user_correctness_rate)
 
-# all_question_correctness_rate = list(map(list, zip(*all_question_correctness_rate)))
+all_question_correctness_rate = zip(*all_question_correctness_rate)
 with open(correctness_rate_file, 'w') as csvfile:
     writer = csv.writer(csvfile)
     writer.writerows(all_question_correctness_rate)

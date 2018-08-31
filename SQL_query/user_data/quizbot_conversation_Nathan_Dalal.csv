@@ -1,0 +1,267 @@
+user_id,user_firstname,user_lastname,uid,sender,recipient,type,dialogue,time_stamp
+1809213792495113,Nathan,Dalal,19875,1809213792495113,854518728062939,persistent_menu: GET_INTRO_1,Get Started,2018-08-28 09:12:18
+1809213792495113,Nathan,Dalal,19876,854518728062939,1809213792495113,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/quizbot_avatar.png,2018-08-28 09:12:22
+1809213792495113,Nathan,Dalal,19877,854518728062939,1809213792495113,BOT: quick reply,"Hi Nathan! My name is Frosty :penguin: and Im here to help you learn all about science:microscope:, verbal reasoning (GRE) :input_latin_uppercase:, and safety:hammer_and_wrench:!",2018-08-28 09:12:22
+1809213792495113,Nathan,Dalal,19878,1809213792495113,854518728062939,persistent_menu: SAFETY,Safety:hammer_and_wrench:,2018-08-28 09:12:30
+1809213792495113,Nathan,Dalal,19879,854518728062939,1809213792495113,BOT: quick reply,Good choice! Let's see what you know about safety!,2018-08-28 09:12:31
+1809213792495113,Nathan,Dalal,19880,1809213792495113,854518728062939,user_quick_reply: NEXT_QUESTION,"Yes, continue :raising_hands_medium-light_skin_tone:",2018-08-28 09:12:35
+1809213792495113,Nathan,Dalal,19881,854518728062939,1809213792495113,BOT: message,See if you can answer this next one.,2018-08-28 09:12:36
+1809213792495113,Nathan,Dalal,19882,854518728062939,1809213792495113,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-28 09:12:37
+1809213792495113,Nathan,Dalal,19883,854518728062939,1809213792495113,BOT: quick reply,Which fire extinguishers are used to put out fires caused by flammable liquids?,2018-08-28 09:12:37
+1809213792495113,Nathan,Dalal,19884,1809213792495113,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-28 09:12:45
+1809213792495113,Nathan,Dalal,19885,854518728062939,1809213792495113,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-08-28 09:12:46
+1809213792495113,Nathan,Dalal,19886,854518728062939,1809213792495113,BOT: quick reply,":keycap_1: Class B carbon dioxide fire extinguisher
+:keycap_2: Class C dry chemical fire extinguisher
+:keycap_3: Class A water fire extinguishers
+",2018-08-28 09:12:46
+1809213792495113,Nathan,Dalal,19887,1809213792495113,854518728062939,persistent_menu: USER_MANUAL_1,User Manual :woman_technologist_light_skin_tone::man_technologist_light_skin_tone:,2018-08-28 09:13:07
+1809213792495113,Nathan,Dalal,19888,854518728062939,1809213792495113,BOT: image,https://www.smartprimer.org:8443/pictures/user_manual/typeanswer.png,2018-08-28 09:13:09
+1809213792495113,Nathan,Dalal,19889,854518728062939,1809213792495113,BOT: quick reply,"To study the questions, you can type in your answers in the text field and I will evaluate the answers for you using advanced NLP (Natural Language Processing) technology.",2018-08-28 09:13:10
+1809213792495113,Nathan,Dalal,21018,854518728062939,1809213792495113,BOT: quick reply,"Hi Nathan, you haven't talked to me for a while. Would you like to resume the learning with me?",2018-08-28 20:00:04
+1809213792495113,Nathan,Dalal,21345,1809213792495113,854518728062939,user_quick_reply: NEXT_QUESTION,Tap me :collision:,2018-08-28 20:45:01
+1809213792495113,Nathan,Dalal,21346,854518728062939,1809213792495113,BOT: message,See if you can answer this next one.,2018-08-28 20:45:01
+1809213792495113,Nathan,Dalal,21347,854518728062939,1809213792495113,BOT: quick reply,What should you NOT do while treating cuts and scrapes?,2018-08-28 20:45:02
+1809213792495113,Nathan,Dalal,21351,1809213792495113,854518728062939,user_quick_reply: I_DONT_KNOW,I dont know :downcast_face_with_sweat:,2018-08-28 20:45:12
+1809213792495113,Nathan,Dalal,21352,854518728062939,1809213792495113,BOT: quick reply,Do you really want to skip this question?,2018-08-28 20:45:13
+1809213792495113,Nathan,Dalal,21357,1809213792495113,854518728062939,user_quick_reply: GIVEUP_YES,"Yes, answer please.",2018-08-28 20:45:19
+1809213792495113,Nathan,Dalal,21359,854518728062939,1809213792495113,BOT: message,You didn't get this question this time.,2018-08-28 20:45:19
+1809213792495113,Nathan,Dalal,21361,854518728062939,1809213792495113,BOT: message,"Keep trying, you'll get it next time! :grinning_face_with_smiling_eyes:",2018-08-28 20:45:20
+1809213792495113,Nathan,Dalal,21362,854518728062939,1809213792495113,BOT: quick reply,The correct answer is Wash the wound with soap.,2018-08-28 20:45:20
+1809213792495113,Nathan,Dalal,23292,854518728062939,1809213792495113,BOT: quick reply,"Hi Nathan, you haven't talked to me for a while. Would you like to resume the learning with me?",2018-08-29 20:00:18
+1809213792495113,Nathan,Dalal,24719,1809213792495113,854518728062939,user_quick_reply: NEXT_QUESTION,Got it :round_pushpin:,2018-08-30 14:00:52
+1809213792495113,Nathan,Dalal,24720,854518728062939,1809213792495113,BOT: message,Let's try this question.,2018-08-30 14:00:52
+1809213792495113,Nathan,Dalal,24721,854518728062939,1809213792495113,BOT: quick reply,"What agency inspects, grades, and enforces standards of quality and wholesomeness for meat, poultry, milk, eggs, and grains?",2018-08-30 14:00:53
+1809213792495113,Nathan,Dalal,24722,1809213792495113,854518728062939,user_typing,Usda,2018-08-30 14:01:02
+1809213792495113,Nathan,Dalal,24723,854518728062939,1809213792495113,BOT: message,Correct! :confetti_ball:,2018-08-30 14:01:02
+1809213792495113,Nathan,Dalal,24724,854518728062939,1809213792495113,BOT: quick reply,The correct answer is USDA.,2018-08-30 14:01:03
+1809213792495113,Nathan,Dalal,24725,1809213792495113,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-30 14:01:09
+1809213792495113,Nathan,Dalal,24726,854518728062939,1809213792495113,BOT: message,Could you answer this one for me?,2018-08-30 14:01:10
+1809213792495113,Nathan,Dalal,24727,854518728062939,1809213792495113,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-30 14:01:11
+1809213792495113,Nathan,Dalal,24728,854518728062939,1809213792495113,BOT: quick reply,Which fire extinguishers are used to put out fires caused by flammable liquids?,2018-08-30 14:01:11
+1809213792495113,Nathan,Dalal,24729,1809213792495113,854518728062939,user_typing,Class b,2018-08-30 14:01:33
+1809213792495113,Nathan,Dalal,24730,854518728062939,1809213792495113,BOT: message,"Oops, that answer was incorrect. :disappointed_face:",2018-08-30 14:01:34
+1809213792495113,Nathan,Dalal,24731,854518728062939,1809213792495113,BOT: quick reply,The correct answer is Class B carbon dioxide fire extinguisher.,2018-08-30 14:01:34
+1809213792495113,Nathan,Dalal,24732,1809213792495113,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-30 14:01:45
+1809213792495113,Nathan,Dalal,24733,854518728062939,1809213792495113,BOT: message,Let's see if you would answer this one.,2018-08-30 14:01:46
+1809213792495113,Nathan,Dalal,24734,854518728062939,1809213792495113,BOT: quick reply,Working on scaffold during winds above ____ miles per hour is prohibited by OSHA.,2018-08-30 14:01:46
+1809213792495113,Nathan,Dalal,24735,1809213792495113,854518728062939,user_quick_reply: I_DONT_KNOW,I dont know :downcast_face_with_sweat:,2018-08-30 14:01:59
+1809213792495113,Nathan,Dalal,24736,854518728062939,1809213792495113,BOT: quick reply,Are you sure you want to give up?,2018-08-30 14:01:59
+1809213792495113,Nathan,Dalal,24737,1809213792495113,854518728062939,user_quick_reply: GIVEUP_YES,"Yes, answer please.",2018-08-30 14:02:03
+1809213792495113,Nathan,Dalal,24738,854518728062939,1809213792495113,BOT: message,"I'm sorry, you didn't get the question right this time.",2018-08-30 14:02:04
+1809213792495113,Nathan,Dalal,24739,854518728062939,1809213792495113,BOT: message,No worries! You'll get it next time! :grinning_face_with_smiling_eyes:,2018-08-30 14:02:04
+1809213792495113,Nathan,Dalal,24740,854518728062939,1809213792495113,BOT: quick reply,The correct answer is 40.,2018-08-30 14:02:05
+1809213792495113,Nathan,Dalal,24741,1809213792495113,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-30 14:02:13
+1809213792495113,Nathan,Dalal,24742,854518728062939,1809213792495113,BOT: message,I think you'll like this question.,2018-08-30 14:02:13
+1809213792495113,Nathan,Dalal,24743,854518728062939,1809213792495113,BOT: quick reply,What three major factors cause food contamination?,2018-08-30 14:02:14
+1809213792495113,Nathan,Dalal,24744,1809213792495113,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-30 14:02:24
+1809213792495113,Nathan,Dalal,24745,854518728062939,1809213792495113,BOT: message,It's one of the following choices.,2018-08-30 14:02:24
+1809213792495113,Nathan,Dalal,24746,854518728062939,1809213792495113,BOT: quick reply,":keycap_1: Physical, biological, and radiological
+:keycap_2: Physical, chemical, and psychosocial
+:keycap_3: Physical, psychological, and health
+:keycap_4: Physical, biological, and chemical
+",2018-08-30 14:02:25
+1809213792495113,Nathan,Dalal,24747,1809213792495113,854518728062939,"user_quick_reply: BUTTON_AKB_Physical, biological, and chemical",:keycap_4:,2018-08-30 14:02:46
+1809213792495113,Nathan,Dalal,24748,854518728062939,1809213792495113,BOT: message,Yes! You got the correct answer!,2018-08-30 14:02:46
+1809213792495113,Nathan,Dalal,24749,854518728062939,1809213792495113,BOT: quick reply,"The correct answer is Physical, biological, and chemical.",2018-08-30 14:02:47
+1809213792495113,Nathan,Dalal,24750,1809213792495113,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-30 14:02:52
+1809213792495113,Nathan,Dalal,24751,854518728062939,1809213792495113,BOT: message,Let's see if you can answer this question.,2018-08-30 14:02:52
+1809213792495113,Nathan,Dalal,24752,854518728062939,1809213792495113,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-30 14:02:53
+1809213792495113,Nathan,Dalal,24753,854518728062939,1809213792495113,BOT: quick reply,"True or false: if you wear a back belt, you can lift more weight than you could without a belt.",2018-08-30 14:02:53
+1809213792495113,Nathan,Dalal,24754,1809213792495113,854518728062939,user_typing,False,2018-08-30 14:03:03
+1809213792495113,Nathan,Dalal,24755,854518728062939,1809213792495113,BOT: message,Thats right! :party_popper:,2018-08-30 14:03:04
+1809213792495113,Nathan,Dalal,24756,854518728062939,1809213792495113,BOT: quick reply,The correct answer is False.,2018-08-30 14:03:04
+1809213792495113,Nathan,Dalal,24757,1809213792495113,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-30 14:04:26
+1809213792495113,Nathan,Dalal,24758,854518728062939,1809213792495113,BOT: message,Let's see if you can answer this question.,2018-08-30 14:04:27
+1809213792495113,Nathan,Dalal,24759,854518728062939,1809213792495113,BOT: quick reply,What three major factors cause food contamination?,2018-08-30 14:04:27
+1809213792495113,Nathan,Dalal,24760,1809213792495113,854518728062939,user_typing,"Physical, biological, and chemical",2018-08-30 14:04:51
+1809213792495113,Nathan,Dalal,24761,854518728062939,1809213792495113,BOT: message,Correct! :confetti_ball:,2018-08-30 14:04:51
+1809213792495113,Nathan,Dalal,24762,854518728062939,1809213792495113,BOT: quick reply,"The correct answer is Physical, biological, and chemical.",2018-08-30 14:04:52
+1809213792495113,Nathan,Dalal,24763,1809213792495113,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-30 14:04:57
+1809213792495113,Nathan,Dalal,24764,854518728062939,1809213792495113,BOT: message,"Alrighty, let's try this one.",2018-08-30 14:04:57
+1809213792495113,Nathan,Dalal,24765,854518728062939,1809213792495113,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-30 14:04:58
+1809213792495113,Nathan,Dalal,24766,854518728062939,1809213792495113,BOT: quick reply,What should you NOT do while treating cuts and scrapes?,2018-08-30 14:04:58
+1809213792495113,Nathan,Dalal,24767,1809213792495113,854518728062939,user_typing,Soap,2018-08-30 14:05:15
+1809213792495113,Nathan,Dalal,24768,854518728062939,1809213792495113,BOT: message,"Oops, that answer was incorrect. :disappointed_face:",2018-08-30 14:05:16
+1809213792495113,Nathan,Dalal,24769,854518728062939,1809213792495113,BOT: quick reply,The correct answer is Wash the wound with soap.,2018-08-30 14:05:16
+1809213792495113,Nathan,Dalal,24770,1809213792495113,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-30 14:05:21
+1809213792495113,Nathan,Dalal,24771,854518728062939,1809213792495113,BOT: message,I think you'll like this question.,2018-08-30 14:05:22
+1809213792495113,Nathan,Dalal,24772,854518728062939,1809213792495113,BOT: quick reply,Which fire extinguishers are used to put out fires caused by flammable liquids?,2018-08-30 14:05:22
+1809213792495113,Nathan,Dalal,24773,1809213792495113,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-30 14:05:34
+1809213792495113,Nathan,Dalal,24774,854518728062939,1809213792495113,BOT: message,Which of the following options is the right answer?,2018-08-30 14:05:34
+1809213792495113,Nathan,Dalal,24775,854518728062939,1809213792495113,BOT: quick reply,":keycap_1: Class A water fire extinguishers
+:keycap_2: Class B carbon dioxide fire extinguisher
+:keycap_3: Class C dry chemical fire extinguisher
+",2018-08-30 14:05:35
+1809213792495113,Nathan,Dalal,24776,1809213792495113,854518728062939,user_quick_reply: BUTTON_AKB_Class B carbon dioxide fire extinguisher,:keycap_2:,2018-08-30 14:05:39
+1809213792495113,Nathan,Dalal,24777,854518728062939,1809213792495113,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_happy_pink.png,2018-08-30 14:05:41
+1809213792495113,Nathan,Dalal,24778,854518728062939,1809213792495113,BOT: message,Nice work! Keep it up!,2018-08-30 14:05:42
+1809213792495113,Nathan,Dalal,24779,854518728062939,1809213792495113,BOT: quick reply,The correct answer is Class B carbon dioxide fire extinguisher.,2018-08-30 14:05:42
+1809213792495113,Nathan,Dalal,24780,1809213792495113,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-30 14:05:48
+1809213792495113,Nathan,Dalal,24781,854518728062939,1809213792495113,BOT: message,Here's a question for you:,2018-08-30 14:05:49
+1809213792495113,Nathan,Dalal,24782,854518728062939,1809213792495113,BOT: quick reply,To what does the acronym SLM refer?,2018-08-30 14:05:50
+1809213792495113,Nathan,Dalal,24783,1809213792495113,854518728062939,user_quick_reply: I_DONT_KNOW,I dont know :downcast_face_with_sweat:,2018-08-30 14:05:57
+1809213792495113,Nathan,Dalal,24784,854518728062939,1809213792495113,BOT: quick reply,Do you really want to give up?,2018-08-30 14:05:57
+1809213792495113,Nathan,Dalal,24785,1809213792495113,854518728062939,user_quick_reply: GIVEUP_YES,"Yes, answer please.",2018-08-30 14:06:05
+1809213792495113,Nathan,Dalal,24786,854518728062939,1809213792495113,BOT: message,You didn't get this question this time.,2018-08-30 14:06:06
+1809213792495113,Nathan,Dalal,24787,854518728062939,1809213792495113,BOT: message,"Keep trying, you'll get it next time! :grinning_face_with_smiling_eyes:",2018-08-30 14:06:06
+1809213792495113,Nathan,Dalal,24788,854518728062939,1809213792495113,BOT: quick reply,The correct answer is Sound Level Meter.,2018-08-30 14:06:07
+1809213792495113,Nathan,Dalal,24789,1809213792495113,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-30 14:06:11
+1809213792495113,Nathan,Dalal,24790,854518728062939,1809213792495113,BOT: message,Here's a question for you:,2018-08-30 14:06:12
+1809213792495113,Nathan,Dalal,24791,854518728062939,1809213792495113,BOT: quick reply,Working on scaffold during winds above ____ miles per hour is prohibited by OSHA.,2018-08-30 14:06:12
+1809213792495113,Nathan,Dalal,24792,1809213792495113,854518728062939,user_typing,40,2018-08-30 14:06:22
+1809213792495113,Nathan,Dalal,24793,854518728062939,1809213792495113,BOT: message,Correct! :confetti_ball:,2018-08-30 14:06:22
+1809213792495113,Nathan,Dalal,24794,854518728062939,1809213792495113,BOT: quick reply,The correct answer is 40.,2018-08-30 14:06:23
+1809213792495113,Nathan,Dalal,24795,1809213792495113,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-30 14:06:28
+1809213792495113,Nathan,Dalal,24796,854518728062939,1809213792495113,BOT: message,"Alrighty, let's try this one.",2018-08-30 14:06:29
+1809213792495113,Nathan,Dalal,24797,854518728062939,1809213792495113,BOT: quick reply,"True or false: if you wear a back belt, you can lift more weight than you could without a belt.",2018-08-30 14:06:30
+1809213792495113,Nathan,Dalal,24798,1809213792495113,854518728062939,user_typing,False,2018-08-30 14:06:39
+1809213792495113,Nathan,Dalal,24799,854518728062939,1809213792495113,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_normal.png,2018-08-30 14:06:40
+1809213792495113,Nathan,Dalal,24800,854518728062939,1809213792495113,BOT: message,Fantastic! :hundred_points:,2018-08-30 14:06:41
+1809213792495113,Nathan,Dalal,24801,854518728062939,1809213792495113,BOT: quick reply,The correct answer is False.,2018-08-30 14:06:42
+1809213792495113,Nathan,Dalal,24802,1809213792495113,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-30 14:06:45
+1809213792495113,Nathan,Dalal,24803,854518728062939,1809213792495113,BOT: message,Let's try this one.,2018-08-30 14:06:46
+1809213792495113,Nathan,Dalal,24804,854518728062939,1809213792495113,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-30 14:06:47
+1809213792495113,Nathan,Dalal,24805,854518728062939,1809213792495113,BOT: quick reply,What should you NOT do while treating cuts and scrapes?,2018-08-30 14:06:47
+1809213792495113,Nathan,Dalal,24806,1809213792495113,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-30 14:06:55
+1809213792495113,Nathan,Dalal,24807,854518728062939,1809213792495113,BOT: message,Pick one of the following answers.,2018-08-30 14:06:55
+1809213792495113,Nathan,Dalal,24808,854518728062939,1809213792495113,BOT: quick reply,":keycap_1: Apply an antibiotic to the wound
+:keycap_2: Cover the wound
+:keycap_3: Apply pressure on the wound with a clean cloth or bandage
+:keycap_4: Wash the wound with soap
+",2018-08-30 14:06:56
+1809213792495113,Nathan,Dalal,24809,1809213792495113,854518728062939,user_quick_reply: BUTTON_AKB_Wash the wound with soap,:keycap_4:,2018-08-30 14:07:01
+1809213792495113,Nathan,Dalal,24810,854518728062939,1809213792495113,BOT: message,Great! Keep it up! :flexed_biceps_medium-light_skin_tone:,2018-08-30 14:07:01
+1809213792495113,Nathan,Dalal,24811,854518728062939,1809213792495113,BOT: quick reply,The correct answer is Wash the wound with soap.,2018-08-30 14:07:02
+1809213792495113,Nathan,Dalal,24812,1809213792495113,854518728062939,user_quick_reply: WHY,Why?,2018-08-30 14:07:07
+1809213792495113,Nathan,Dalal,24813,854518728062939,1809213792495113,BOT: message,Here's an explanation:,2018-08-30 14:07:08
+1809213792495113,Nathan,Dalal,24814,854518728062939,1809213792495113,BOT: quick reply,"Although cuts and scrapes do not require the victim to visit an emergency room, proper care is needed to avoid infections. If you're treating wounds, Mayo Clinic advises you to stop the bleeding by applying gentle pressure on the wound for 20 to 30 minutes; use clear water to clean the wound and tweezers cleaned with alcohol to remove particles from the wound, if there are any; avoid using soap as it may cause irritation; apply an antibiotic to the affected area; cover the wound to keep harmful bacteria out; and change the dressing regularly or when it becomes wet or dirty. For wounds that are deeper than 1/4 inch or 6 millimeters, visit a health practitioner to get stitches.",2018-08-30 14:07:09
+1809213792495113,Nathan,Dalal,24815,1809213792495113,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-30 14:08:50
+1809213792495113,Nathan,Dalal,24816,854518728062939,1809213792495113,BOT: message,I think you'll like this question.,2018-08-30 14:08:50
+1809213792495113,Nathan,Dalal,24817,854518728062939,1809213792495113,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-30 14:08:51
+1809213792495113,Nathan,Dalal,24818,854518728062939,1809213792495113,BOT: quick reply,To what does the acronym SLM refer?,2018-08-30 14:08:51
+1809213792495113,Nathan,Dalal,24819,1809213792495113,854518728062939,user_typing,Sound level meter,2018-08-30 14:09:08
+1809213792495113,Nathan,Dalal,24820,854518728062939,1809213792495113,BOT: message,Good Answer! :white_heavy_check_mark:,2018-08-30 14:09:08
+1809213792495113,Nathan,Dalal,24821,854518728062939,1809213792495113,BOT: quick reply,The correct answer is Sound Level Meter.,2018-08-30 14:09:09
+1809213792495113,Nathan,Dalal,24822,1809213792495113,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-30 14:09:20
+1809213792495113,Nathan,Dalal,24823,854518728062939,1809213792495113,BOT: message,Let's try this one.,2018-08-30 14:09:21
+1809213792495113,Nathan,Dalal,24824,854518728062939,1809213792495113,BOT: quick reply,How long can high-acid canned food such as tomatoes be stored?,2018-08-30 14:09:22
+1809213792495113,Nathan,Dalal,24825,1809213792495113,854518728062939,user_typing,12-18 months,2018-08-30 14:11:41
+1809213792495113,Nathan,Dalal,24826,854518728062939,1809213792495113,BOT: message,Correct! :confetti_ball:,2018-08-30 14:11:42
+1809213792495113,Nathan,Dalal,24827,854518728062939,1809213792495113,BOT: quick reply,The correct answer is 12 to 18 months.,2018-08-30 14:11:42
+1809213792495113,Nathan,Dalal,24828,1809213792495113,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-30 14:13:29
+1809213792495113,Nathan,Dalal,24829,854518728062939,1809213792495113,BOT: message,Would you answer this question for me?,2018-08-30 14:13:29
+1809213792495113,Nathan,Dalal,24830,854518728062939,1809213792495113,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-30 14:13:30
+1809213792495113,Nathan,Dalal,24831,854518728062939,1809213792495113,BOT: quick reply,Working on scaffold during winds above ____ miles per hour is prohibited by OSHA.,2018-08-30 14:13:30
+1809213792495113,Nathan,Dalal,24832,1809213792495113,854518728062939,user_typing,40,2018-08-30 14:13:37
+1809213792495113,Nathan,Dalal,24833,854518728062939,1809213792495113,BOT: message,Good job! :raising_hands_medium-light_skin_tone:,2018-08-30 14:13:38
+1809213792495113,Nathan,Dalal,24834,854518728062939,1809213792495113,BOT: quick reply,The correct answer is 40.,2018-08-30 14:13:39
+1809213792495113,Nathan,Dalal,24835,1809213792495113,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-30 14:13:43
+1809213792495113,Nathan,Dalal,24836,854518728062939,1809213792495113,BOT: message,Could you answer this one for me?,2018-08-30 14:13:44
+1809213792495113,Nathan,Dalal,24837,854518728062939,1809213792495113,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-30 14:13:44
+1809213792495113,Nathan,Dalal,24838,854518728062939,1809213792495113,BOT: quick reply,True or false: portable fire extinguishers should only be used by trained employees.,2018-08-30 14:13:45
+1809213792495113,Nathan,Dalal,24839,1809213792495113,854518728062939,user_typing,False,2018-08-30 14:13:58
+1809213792495113,Nathan,Dalal,24840,854518728062939,1809213792495113,BOT: message,"I'm sorry, but that was incorrect. :disappointed_face:",2018-08-30 14:13:59
+1809213792495113,Nathan,Dalal,24841,854518728062939,1809213792495113,BOT: quick reply,The correct answer is True.,2018-08-30 14:14:00
+1809213792495113,Nathan,Dalal,24842,1809213792495113,854518728062939,user_quick_reply: WHY,Why?,2018-08-30 14:14:06
+1809213792495113,Nathan,Dalal,24843,854518728062939,1809213792495113,BOT: message,Here's why:,2018-08-30 14:14:07
+1809213792495113,Nathan,Dalal,24844,854518728062939,1809213792495113,BOT: quick reply,"Employers can choose to authorize some or all employees to use portable extinguishers. In both cases, employers should provide employees sufficient training to do so.",2018-08-30 14:14:09
+1809213792495113,Nathan,Dalal,24845,1809213792495113,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-30 14:14:18
+1809213792495113,Nathan,Dalal,24846,854518728062939,1809213792495113,BOT: message,Let's see if you can answer this question.,2018-08-30 14:14:19
+1809213792495113,Nathan,Dalal,24847,854518728062939,1809213792495113,BOT: quick reply,What should you NOT do when lowering a load?,2018-08-30 14:14:20
+1809213792495113,Nathan,Dalal,24848,1809213792495113,854518728062939,user_typing,Twist,2018-08-30 14:14:34
+1809213792495113,Nathan,Dalal,24849,854518728062939,1809213792495113,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_happy_purple.png,2018-08-30 14:14:36
+1809213792495113,Nathan,Dalal,24850,854518728062939,1809213792495113,BOT: message,Nice! :red_apple:,2018-08-30 14:14:37
+1809213792495113,Nathan,Dalal,24851,854518728062939,1809213792495113,BOT: quick reply,The correct answer is Twist your body.,2018-08-30 14:14:37
+1809213792495113,Nathan,Dalal,24852,1809213792495113,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-30 14:14:43
+1809213792495113,Nathan,Dalal,24853,854518728062939,1809213792495113,BOT: message,Let's see if you can get this one.,2018-08-30 14:14:44
+1809213792495113,Nathan,Dalal,24854,854518728062939,1809213792495113,BOT: quick reply,What should you NOT do when lowering a load?,2018-08-30 14:14:44
+1809213792495113,Nathan,Dalal,24855,1809213792495113,854518728062939,user_typing,Twist,2018-08-30 14:15:00
+1809213792495113,Nathan,Dalal,24856,854518728062939,1809213792495113,BOT: message,Good Answer! :white_heavy_check_mark:,2018-08-30 14:15:01
+1809213792495113,Nathan,Dalal,24857,854518728062939,1809213792495113,BOT: quick reply,The correct answer is Twist your body.,2018-08-30 14:15:01
+1809213792495113,Nathan,Dalal,24858,1809213792495113,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-30 14:15:05
+1809213792495113,Nathan,Dalal,24859,854518728062939,1809213792495113,BOT: message,Here's a question for you:,2018-08-30 14:15:05
+1809213792495113,Nathan,Dalal,24860,854518728062939,1809213792495113,BOT: quick reply,Which fire extinguishers are used to put out fires caused by flammable liquids?,2018-08-30 14:15:06
+1809213792495113,Nathan,Dalal,24861,1809213792495113,854518728062939,user_typing,Class b fire extinguishers,2018-08-30 14:15:16
+1809213792495113,Nathan,Dalal,24862,854518728062939,1809213792495113,BOT: message,Thats right! :party_popper:,2018-08-30 14:15:17
+1809213792495113,Nathan,Dalal,24863,854518728062939,1809213792495113,BOT: quick reply,The correct answer is Class B carbon dioxide fire extinguisher.,2018-08-30 14:15:17
+1809213792495113,Nathan,Dalal,24864,1809213792495113,854518728062939,user_quick_reply: WHY,Why?,2018-08-30 14:15:33
+1809213792495113,Nathan,Dalal,24865,854518728062939,1809213792495113,BOT: message,This is why:,2018-08-30 14:15:34
+1809213792495113,Nathan,Dalal,24866,854518728062939,1809213792495113,BOT: quick reply,"Flammable liquids include oils, gasoline, paints, grease, lacquers, and solvents. Class B carbon dioxide fire extinguishers are used to put out fires caused by flammable liquids.",2018-08-30 14:15:35
+1809213792495113,Nathan,Dalal,24867,1809213792495113,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-30 14:15:46
+1809213792495113,Nathan,Dalal,24868,854518728062939,1809213792495113,BOT: message,What about this next question:,2018-08-30 14:15:46
+1809213792495113,Nathan,Dalal,24869,854518728062939,1809213792495113,BOT: quick reply,"True or false: you can always smell, see, or taste harmful bacteria in food that can cause illness.",2018-08-30 14:15:47
+1809213792495113,Nathan,Dalal,24870,1809213792495113,854518728062939,user_typing,False,2018-08-30 14:16:07
+1809213792495113,Nathan,Dalal,24871,854518728062939,1809213792495113,BOT: message,Fantastic! :hundred_points:,2018-08-30 14:16:07
+1809213792495113,Nathan,Dalal,24872,854518728062939,1809213792495113,BOT: quick reply,The correct answer is False.,2018-08-30 14:16:08
+1809213792495113,Nathan,Dalal,24873,1809213792495113,854518728062939,user_quick_reply: WHY,Why?,2018-08-30 14:16:12
+1809213792495113,Nathan,Dalal,24874,854518728062939,1809213792495113,BOT: message,Here's an explanation:,2018-08-30 14:16:12
+1809213792495113,Nathan,Dalal,24875,854518728062939,1809213792495113,BOT: quick reply,"United States Department of Agriculture (USDA) states that you cannot always see, taste, or smell harmful bacteria that may cause illness.",2018-08-30 14:16:13
+1809213792495113,Nathan,Dalal,24876,1809213792495113,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-30 14:16:31
+1809213792495113,Nathan,Dalal,24877,854518728062939,1809213792495113,BOT: message,What about this next question:,2018-08-30 14:16:31
+1809213792495113,Nathan,Dalal,24878,854518728062939,1809213792495113,BOT: quick reply,Working on scaffold during winds above ____ miles per hour is prohibited by OSHA.,2018-08-30 14:16:32
+1809213792495113,Nathan,Dalal,24879,1809213792495113,854518728062939,user_typing,40,2018-08-30 14:16:40
+1809213792495113,Nathan,Dalal,24880,854518728062939,1809213792495113,BOT: message,Thats right! :party_popper:,2018-08-30 14:16:40
+1809213792495113,Nathan,Dalal,24881,854518728062939,1809213792495113,BOT: quick reply,The correct answer is 40.,2018-08-30 14:16:41
+1809213792495113,Nathan,Dalal,24882,1809213792495113,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-30 14:16:45
+1809213792495113,Nathan,Dalal,24883,854518728062939,1809213792495113,BOT: message,Let's take a look at this question.,2018-08-30 14:16:45
+1809213792495113,Nathan,Dalal,24884,854518728062939,1809213792495113,BOT: quick reply,What does CERT stand for?,2018-08-30 14:16:46
+1809213792495113,Nathan,Dalal,24885,1809213792495113,854518728062939,user_typing,Community emergency response team,2018-08-30 14:17:01
+1809213792495113,Nathan,Dalal,24886,854518728062939,1809213792495113,BOT: message,Thats right! :party_popper:,2018-08-30 14:17:01
+1809213792495113,Nathan,Dalal,24887,854518728062939,1809213792495113,BOT: quick reply,The correct answer is Community Emergency Response Team.,2018-08-30 14:17:02
+1809213792495113,Nathan,Dalal,24888,1809213792495113,854518728062939,user_quick_reply: WHY,Why?,2018-08-30 14:17:07
+1809213792495113,Nathan,Dalal,24889,854518728062939,1809213792495113,BOT: message,This is why:,2018-08-30 14:17:08
+1809213792495113,Nathan,Dalal,24890,854518728062939,1809213792495113,BOT: quick reply,CERT members help with disaster preparedness as well as disaster relief. Be aware if your community has one. Have their number handy and contact them in case of emergency after a quake if professional responders are not immediately available.,2018-08-30 14:17:08
+1809213792495113,Nathan,Dalal,26135,1809213792495113,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-30 19:32:07
+1809213792495113,Nathan,Dalal,26136,854518728062939,1809213792495113,BOT: message,Let's try this question.,2018-08-30 19:32:08
+1809213792495113,Nathan,Dalal,26137,854518728062939,1809213792495113,BOT: quick reply,What three major factors cause food contamination?,2018-08-30 19:32:08
+1809213792495113,Nathan,Dalal,26138,1809213792495113,854518728062939,user_typing,Physical biological chemical,2018-08-30 19:32:25
+1809213792495113,Nathan,Dalal,26139,854518728062939,1809213792495113,BOT: message,Good job! :raising_hands_medium-light_skin_tone:,2018-08-30 19:32:26
+1809213792495113,Nathan,Dalal,26140,854518728062939,1809213792495113,BOT: quick reply,"The correct answer is Physical, biological, and chemical.",2018-08-30 19:32:27
+1809213792495113,Nathan,Dalal,26141,1809213792495113,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-30 19:32:32
+1809213792495113,Nathan,Dalal,26142,854518728062939,1809213792495113,BOT: message,Let's see if you can get this one.,2018-08-30 19:32:32
+1809213792495113,Nathan,Dalal,26143,854518728062939,1809213792495113,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-30 19:32:33
+1809213792495113,Nathan,Dalal,26144,854518728062939,1809213792495113,BOT: quick reply,"When you discover a fire, you should do what?",2018-08-30 19:32:33
+1809213792495113,Nathan,Dalal,26145,1809213792495113,854518728062939,user_typing,Safety,2018-08-30 19:32:49
+1809213792495113,Nathan,Dalal,26146,854518728062939,1809213792495113,BOT: message,"Oops, that answer was incorrect. :disappointed_face:",2018-08-30 19:32:50
+1809213792495113,Nathan,Dalal,26147,854518728062939,1809213792495113,BOT: quick reply,The correct answer is Pull the fire alarm and call the fire department.,2018-08-30 19:32:51
+1809213792495113,Nathan,Dalal,26148,1809213792495113,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-30 19:32:58
+1809213792495113,Nathan,Dalal,26149,854518728062939,1809213792495113,BOT: message,Let's see if you can answer this question.,2018-08-30 19:32:59
+1809213792495113,Nathan,Dalal,26150,854518728062939,1809213792495113,BOT: quick reply,To what does the acronym SLM refer?,2018-08-30 19:33:00
+1809213792495113,Nathan,Dalal,26151,1809213792495113,854518728062939,user_typing,Sound level meter,2018-08-30 19:33:11
+1809213792495113,Nathan,Dalal,26152,854518728062939,1809213792495113,BOT: message,Fantastic! :hundred_points:,2018-08-30 19:33:12
+1809213792495113,Nathan,Dalal,26153,854518728062939,1809213792495113,BOT: quick reply,The correct answer is Sound Level Meter.,2018-08-30 19:33:13
+1809213792495113,Nathan,Dalal,26154,1809213792495113,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-30 19:33:16
+1809213792495113,Nathan,Dalal,26155,854518728062939,1809213792495113,BOT: message,Here's a question for you:,2018-08-30 19:33:17
+1809213792495113,Nathan,Dalal,26156,854518728062939,1809213792495113,BOT: quick reply,"If your co-worker needs CPR but you are not trained in it, what should you do?",2018-08-30 19:33:18
+1809213792495113,Nathan,Dalal,26157,1809213792495113,854518728062939,user_typing,Press on chest,2018-08-30 19:33:28
+1809213792495113,Nathan,Dalal,26158,854518728062939,1809213792495113,BOT: message,That's not quite right. :disappointed_face:,2018-08-30 19:33:28
+1809213792495113,Nathan,Dalal,26159,854518728062939,1809213792495113,BOT: quick reply,The correct answer is Perform chest compressions only.,2018-08-30 19:33:29
+1809213792495113,Nathan,Dalal,26160,1809213792495113,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-30 19:33:36
+1809213792495113,Nathan,Dalal,26161,854518728062939,1809213792495113,BOT: message,Here's a question for you:,2018-08-30 19:33:36
+1809213792495113,Nathan,Dalal,26162,854518728062939,1809213792495113,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-30 19:33:37
+1809213792495113,Nathan,Dalal,26163,854518728062939,1809213792495113,BOT: quick reply,Which fire extinguishers are used to put out Class A fires?,2018-08-30 19:33:38
+1809213792495113,Nathan,Dalal,26164,1809213792495113,854518728062939,user_typing,Water,2018-08-30 19:33:51
+1809213792495113,Nathan,Dalal,26165,854518728062939,1809213792495113,BOT: message,That wasn't quite what we were looking for. :disappointed_face:,2018-08-30 19:33:51
+1809213792495113,Nathan,Dalal,26166,854518728062939,1809213792495113,BOT: quick reply,The correct answer is Both water and multi-purpose dry chemical.,2018-08-30 19:33:52
+1809213792495113,Nathan,Dalal,26167,1809213792495113,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-30 19:33:59
+1809213792495113,Nathan,Dalal,26168,854518728062939,1809213792495113,BOT: message,I think you'll like this question.,2018-08-30 19:34:00
+1809213792495113,Nathan,Dalal,26169,854518728062939,1809213792495113,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-30 19:34:00
+1809213792495113,Nathan,Dalal,26170,854518728062939,1809213792495113,BOT: quick reply,Which fire extinguishers are used to put out fires caused by flammable liquids?,2018-08-30 19:34:01
+1809213792495113,Nathan,Dalal,26171,1809213792495113,854518728062939,user_typing,Class b carbon dioxide fire extinguishers,2018-08-30 19:34:16
+1809213792495113,Nathan,Dalal,26172,854518728062939,1809213792495113,BOT: message,Good Answer! :white_heavy_check_mark:,2018-08-30 19:34:17
+1809213792495113,Nathan,Dalal,26173,854518728062939,1809213792495113,BOT: quick reply,The correct answer is Class B carbon dioxide fire extinguisher.,2018-08-30 19:34:17
+1809213792495113,Nathan,Dalal,26174,1809213792495113,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-30 19:34:28
+1809213792495113,Nathan,Dalal,26175,854518728062939,1809213792495113,BOT: message,Could you answer this one for me?,2018-08-30 19:34:28
+1809213792495113,Nathan,Dalal,26176,854518728062939,1809213792495113,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-30 19:34:30
+1809213792495113,Nathan,Dalal,26177,854518728062939,1809213792495113,BOT: quick reply,What should you NOT do while treating cuts and scrapes?,2018-08-30 19:34:30
+1809213792495113,Nathan,Dalal,26178,1809213792495113,854518728062939,user_typing,Rinse with soap,2018-08-30 19:34:45
+1809213792495113,Nathan,Dalal,26179,854518728062939,1809213792495113,BOT: message,Good Answer! :white_heavy_check_mark:,2018-08-30 19:34:46
+1809213792495113,Nathan,Dalal,26180,854518728062939,1809213792495113,BOT: quick reply,The correct answer is Wash the wound with soap.,2018-08-30 19:34:46
+1809213792495113,Nathan,Dalal,26181,1809213792495113,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-30 19:34:56
+1809213792495113,Nathan,Dalal,26182,854518728062939,1809213792495113,BOT: message,I think you'll like this question.,2018-08-30 19:34:57
+1809213792495113,Nathan,Dalal,26183,854518728062939,1809213792495113,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-30 19:34:58
+1809213792495113,Nathan,Dalal,26184,854518728062939,1809213792495113,BOT: quick reply,"True or false: you can always smell, see, or taste harmful bacteria in food that can cause illness.",2018-08-30 19:34:58
+1809213792495113,Nathan,Dalal,26185,1809213792495113,854518728062939,user_typing,False,2018-08-30 19:35:06
+1809213792495113,Nathan,Dalal,26186,854518728062939,1809213792495113,BOT: message,Good job! :raising_hands_medium-light_skin_tone:,2018-08-30 19:35:07
+1809213792495113,Nathan,Dalal,26187,854518728062939,1809213792495113,BOT: quick reply,The correct answer is False.,2018-08-30 19:35:08
+1809213792495113,Nathan,Dalal,26193,854518728062939,1809213792495113,BOT: quick reply,"Hi Nathan, you haven't talked to me for a while. Would you like to resume the learning with me?",2018-08-30 20:00:33

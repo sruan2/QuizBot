@@ -1,0 +1,201 @@
+user_id,user_firstname,user_lastname,uid,sender,recipient,type,dialogue,time_stamp
+1987062904677410,Hongsheng,Fang,20850,1987062904677410,854518728062939,persistent_menu: GET_INTRO_1,Get Started,2018-08-28 16:53:29
+1987062904677410,Hongsheng,Fang,20851,854518728062939,1987062904677410,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/quizbot_avatar.png,2018-08-28 16:53:32
+1987062904677410,Hongsheng,Fang,20852,854518728062939,1987062904677410,BOT: quick reply,"Hi Hongsheng! My name is Frosty :penguin: and Im here to help you learn all about science:microscope:, verbal reasoning (GRE) :input_latin_uppercase:, and safety:hammer_and_wrench:!",2018-08-28 16:53:33
+1987062904677410,Hongsheng,Fang,20853,1987062904677410,854518728062939,persistent_menu: SAFETY,Safety:hammer_and_wrench:,2018-08-28 16:53:39
+1987062904677410,Hongsheng,Fang,20854,854518728062939,1987062904677410,BOT: quick reply,Let's test your knowledge on safety!,2018-08-28 16:53:39
+1987062904677410,Hongsheng,Fang,20855,1987062904677410,854518728062939,user_quick_reply: NEXT_QUESTION,Tap me :collision:,2018-08-28 16:53:43
+1987062904677410,Hongsheng,Fang,20856,854518728062939,1987062904677410,BOT: message,Could you answer this one for me?,2018-08-28 16:53:44
+1987062904677410,Hongsheng,Fang,20857,854518728062939,1987062904677410,BOT: quick reply,True or false: portable fire extinguishers should only be used by trained employees.,2018-08-28 16:53:44
+1987062904677410,Hongsheng,Fang,20858,1987062904677410,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-28 16:53:57
+1987062904677410,Hongsheng,Fang,20859,854518728062939,1987062904677410,BOT: message,Okay. I'll give you some choices.,2018-08-28 16:53:58
+1987062904677410,Hongsheng,Fang,20860,854518728062939,1987062904677410,BOT: quick reply,":keycap_1: False
+:keycap_2: True
+",2018-08-28 16:53:58
+1987062904677410,Hongsheng,Fang,20861,1987062904677410,854518728062939,persistent_menu: USER_MANUAL_1,User Manual :woman_technologist_light_skin_tone::man_technologist_light_skin_tone:,2018-08-28 16:54:07
+1987062904677410,Hongsheng,Fang,20862,854518728062939,1987062904677410,BOT: image,https://www.smartprimer.org:8443/pictures/user_manual/typeanswer.png,2018-08-28 16:54:09
+1987062904677410,Hongsheng,Fang,20863,854518728062939,1987062904677410,BOT: quick reply,"To study the questions, you can type in your answers in the text field and I will evaluate the answers for you using advanced NLP (Natural Language Processing) technology.",2018-08-28 16:54:10
+1987062904677410,Hongsheng,Fang,20864,1987062904677410,854518728062939,user_quick_reply: USER_MANUAL_2,Got it :clapping_hands_medium-light_skin_tone:,2018-08-28 16:54:17
+1987062904677410,Hongsheng,Fang,20865,854518728062939,1987062904677410,BOT: image,https://www.smartprimer.org:8443/pictures/user_manual/needhintbutton.png,2018-08-28 16:54:18
+1987062904677410,Hongsheng,Fang,20866,854518728062939,1987062904677410,BOT: quick reply,"If you don't know the answers, then feel free to tap on the hint button.",2018-08-28 16:54:19
+1987062904677410,Hongsheng,Fang,20867,1987062904677410,854518728062939,user_quick_reply: USER_MANUAL_3,Okay :white_heavy_check_mark:,2018-08-28 16:54:24
+1987062904677410,Hongsheng,Fang,20868,854518728062939,1987062904677410,BOT: image,https://www.smartprimer.org:8443/pictures/user_manual/hintoptions.png,2018-08-28 16:54:27
+1987062904677410,Hongsheng,Fang,20869,854518728062939,1987062904677410,BOT: quick reply,The hint will give you a list of potential answers and you can select one from them.,2018-08-28 16:54:27
+1987062904677410,Hongsheng,Fang,20870,1987062904677410,854518728062939,user_quick_reply: USER_MANUAL_4,Alrighty :white_heavy_check_mark:,2018-08-28 16:54:33
+1987062904677410,Hongsheng,Fang,20871,854518728062939,1987062904677410,BOT: image,https://www.smartprimer.org:8443/pictures/user_manual/menubutton.jpg,2018-08-28 16:54:34
+1987062904677410,Hongsheng,Fang,20872,854518728062939,1987062904677410,BOT: quick reply,"To discover more abilities of me, you can click on the menu button.:backhand_index_pointing_up_medium-light_skin_tone:",2018-08-28 16:54:35
+1987062904677410,Hongsheng,Fang,21025,854518728062939,1987062904677410,BOT: quick reply,"Hi Hongsheng, you haven't talked to me for a while. Would you like to resume the learning with me?",2018-08-28 20:00:10
+1987062904677410,Hongsheng,Fang,21032,1987062904677410,854518728062939,user_quick_reply: NEXT_QUESTION,Continue :round_pushpin:,2018-08-28 20:00:35
+1987062904677410,Hongsheng,Fang,21034,854518728062939,1987062904677410,BOT: message,See if you can answer this next one.,2018-08-28 20:00:36
+1987062904677410,Hongsheng,Fang,21036,854518728062939,1987062904677410,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-28 20:00:36
+1987062904677410,Hongsheng,Fang,21037,854518728062939,1987062904677410,BOT: quick reply,To what does the acronym SLM refer?,2018-08-28 20:00:37
+1987062904677410,Hongsheng,Fang,21041,1987062904677410,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-28 20:00:48
+1987062904677410,Hongsheng,Fang,21042,854518728062939,1987062904677410,BOT: message,It's one of the following choices.,2018-08-28 20:00:48
+1987062904677410,Hongsheng,Fang,21043,854518728062939,1987062904677410,BOT: quick reply,":keycap_1: System Level Monitor
+:keycap_2: Sound Level Meter
+:keycap_3: Sound Loudness Methods
+:keycap_4: Service Lifecycle Management
+",2018-08-28 20:00:49
+1987062904677410,Hongsheng,Fang,21051,1987062904677410,854518728062939,user_quick_reply: BUTTON_AKB_Sound Level Meter,:keycap_2:,2018-08-28 20:01:00
+1987062904677410,Hongsheng,Fang,21052,854518728062939,1987062904677410,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/celebration.gif,2018-08-28 20:01:07
+1987062904677410,Hongsheng,Fang,21053,854518728062939,1987062904677410,BOT: message,Great job getting the correct answer!,2018-08-28 20:01:08
+1987062904677410,Hongsheng,Fang,21054,854518728062939,1987062904677410,BOT: quick reply,The correct answer is Sound Level Meter.,2018-08-28 20:01:08
+1987062904677410,Hongsheng,Fang,21058,1987062904677410,854518728062939,user_quick_reply: WHY,Why?,2018-08-28 20:01:45
+1987062904677410,Hongsheng,Fang,21059,854518728062939,1987062904677410,BOT: message,Here's why:,2018-08-28 20:01:46
+1987062904677410,Hongsheng,Fang,21060,854518728062939,1987062904677410,BOT: quick reply,The Sound Level Meter is an instrument used to measure noise levels.,2018-08-28 20:01:46
+1987062904677410,Hongsheng,Fang,21649,1987062904677410,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-28 21:38:03
+1987062904677410,Hongsheng,Fang,21650,854518728062939,1987062904677410,BOT: message,Here's a question for you:,2018-08-28 21:38:04
+1987062904677410,Hongsheng,Fang,21651,854518728062939,1987062904677410,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-28 21:38:04
+1987062904677410,Hongsheng,Fang,21652,854518728062939,1987062904677410,BOT: quick reply,"When you discover a fire, you should do what?",2018-08-28 21:38:05
+1987062904677410,Hongsheng,Fang,21656,1987062904677410,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-28 21:38:17
+1987062904677410,Hongsheng,Fang,21657,854518728062939,1987062904677410,BOT: message,Pick one of the following answers.,2018-08-28 21:38:17
+1987062904677410,Hongsheng,Fang,21659,854518728062939,1987062904677410,BOT: quick reply,":keycap_1: Run out of the building without warning others of the fire
+:keycap_2: Use a fire extinguisher to put out the fire, even if you've never used a fire extinguisher before
+:keycap_3: Stay in the building until you figure out a way to extinguish the fire
+:keycap_4: Pull the fire alarm and call the fire department
+",2018-08-28 21:38:18
+1987062904677410,Hongsheng,Fang,21668,1987062904677410,854518728062939,user_quick_reply: BUTTON_AKB_Pull the fire alarm and call the fire department,:keycap_4:,2018-08-28 21:38:40
+1987062904677410,Hongsheng,Fang,21669,854518728062939,1987062904677410,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_happy_cyan.png,2018-08-28 21:38:42
+1987062904677410,Hongsheng,Fang,21670,854518728062939,1987062904677410,BOT: message,Yes! You got the correct answer!,2018-08-28 21:38:42
+1987062904677410,Hongsheng,Fang,21671,854518728062939,1987062904677410,BOT: quick reply,The correct answer is Pull the fire alarm and call the fire department.,2018-08-28 21:38:43
+1987062904677410,Hongsheng,Fang,21932,1987062904677410,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-28 22:44:11
+1987062904677410,Hongsheng,Fang,21933,854518728062939,1987062904677410,BOT: message,What about this next question:,2018-08-28 22:44:11
+1987062904677410,Hongsheng,Fang,21934,854518728062939,1987062904677410,BOT: quick reply,"True or false: you can always smell, see, or taste harmful bacteria in food that can cause illness.",2018-08-28 22:44:12
+1987062904677410,Hongsheng,Fang,21935,1987062904677410,854518728062939,user_typing,False,2018-08-28 22:44:29
+1987062904677410,Hongsheng,Fang,21936,854518728062939,1987062904677410,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_jubilated_purple.png,2018-08-28 22:44:32
+1987062904677410,Hongsheng,Fang,21937,854518728062939,1987062904677410,BOT: message,Thats right! :party_popper:,2018-08-28 22:44:32
+1987062904677410,Hongsheng,Fang,21938,854518728062939,1987062904677410,BOT: quick reply,The correct answer is False.,2018-08-28 22:44:33
+1987062904677410,Hongsheng,Fang,22401,1987062904677410,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-29 09:11:07
+1987062904677410,Hongsheng,Fang,22402,854518728062939,1987062904677410,BOT: message,Would you answer this question for me?,2018-08-29 09:11:07
+1987062904677410,Hongsheng,Fang,22403,854518728062939,1987062904677410,BOT: quick reply,"True or false: you can always smell, see, or taste harmful bacteria in food that can cause illness.",2018-08-29 09:11:08
+1987062904677410,Hongsheng,Fang,22404,1987062904677410,854518728062939,user_typing,False,2018-08-29 09:11:18
+1987062904677410,Hongsheng,Fang,22405,854518728062939,1987062904677410,BOT: message,Fantastic! :hundred_points:,2018-08-29 09:11:19
+1987062904677410,Hongsheng,Fang,22406,854518728062939,1987062904677410,BOT: quick reply,The correct answer is False.,2018-08-29 09:11:20
+1987062904677410,Hongsheng,Fang,23302,854518728062939,1987062904677410,BOT: quick reply,"Hi Hongsheng, you haven't talked to me for a while. Would you like to resume the learning with me?",2018-08-29 20:00:24
+1987062904677410,Hongsheng,Fang,23892,854518728062939,1987062904677410,BOT: message,Could you answer this one for me?,2018-08-29 22:46:47
+1987062904677410,Hongsheng,Fang,23893,854518728062939,1987062904677410,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-29 22:46:48
+1987062904677410,Hongsheng,Fang,23894,854518728062939,1987062904677410,BOT: quick reply,What three major factors cause food contamination?,2018-08-29 22:46:48
+1987062904677410,Hongsheng,Fang,23898,1987062904677410,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-29 22:46:58
+1987062904677410,Hongsheng,Fang,23899,854518728062939,1987062904677410,BOT: message,Okay. I'll give you some choices.,2018-08-29 22:46:59
+1987062904677410,Hongsheng,Fang,23900,854518728062939,1987062904677410,BOT: quick reply,":keycap_1: Physical, psychological, and health
+:keycap_2: Physical, biological, and chemical
+:keycap_3: Physical, biological, and radiological
+:keycap_4: Physical, chemical, and psychosocial
+",2018-08-29 22:46:59
+1987062904677410,Hongsheng,Fang,23907,1987062904677410,854518728062939,"user_quick_reply: BUTTON_AKB_Physical, biological, and chemical",:keycap_2:,2018-08-29 22:47:16
+1987062904677410,Hongsheng,Fang,23908,854518728062939,1987062904677410,BOT: message,Yes! You got the correct answer!,2018-08-29 22:47:16
+1987062904677410,Hongsheng,Fang,23909,854518728062939,1987062904677410,BOT: quick reply,"The correct answer is Physical, biological, and chemical.",2018-08-29 22:47:17
+1987062904677410,Hongsheng,Fang,23926,1987062904677410,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-29 22:47:52
+1987062904677410,Hongsheng,Fang,23927,854518728062939,1987062904677410,BOT: message,Let's take a look at this question.,2018-08-29 22:47:53
+1987062904677410,Hongsheng,Fang,23928,854518728062939,1987062904677410,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-29 22:47:54
+1987062904677410,Hongsheng,Fang,23929,854518728062939,1987062904677410,BOT: quick reply,Which fire extinguishers are used to put out Class A fires?,2018-08-29 22:47:54
+1987062904677410,Hongsheng,Fang,23934,1987062904677410,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-29 22:48:03
+1987062904677410,Hongsheng,Fang,23935,854518728062939,1987062904677410,BOT: message,Okay. I'll give you some choices.,2018-08-29 22:48:04
+1987062904677410,Hongsheng,Fang,23936,854518728062939,1987062904677410,BOT: quick reply,":keycap_1: Both CO2 and water
+:keycap_2: Both water and multi-purpose dry chemical
+:keycap_3: Multi-purpose dry chemical only
+:keycap_4: CO2 only
+:keycap_5: Water only
+",2018-08-29 22:48:04
+1987062904677410,Hongsheng,Fang,23937,1987062904677410,854518728062939,user_quick_reply: BUTTON_AKB_Both water and multi-purpose dry chemical,:keycap_2:,2018-08-29 22:48:13
+1987062904677410,Hongsheng,Fang,23938,854518728062939,1987062904677410,BOT: message,Great job!,2018-08-29 22:48:13
+1987062904677410,Hongsheng,Fang,23939,854518728062939,1987062904677410,BOT: quick reply,The correct answer is Both water and multi-purpose dry chemical.,2018-08-29 22:48:14
+1987062904677410,Hongsheng,Fang,23940,1987062904677410,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-29 22:48:36
+1987062904677410,Hongsheng,Fang,23941,854518728062939,1987062904677410,BOT: message,How about this next one:,2018-08-29 22:48:37
+1987062904677410,Hongsheng,Fang,23942,854518728062939,1987062904677410,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-29 22:48:37
+1987062904677410,Hongsheng,Fang,23943,854518728062939,1987062904677410,BOT: quick reply,What three major factors cause food contamination?,2018-08-29 22:48:38
+1987062904677410,Hongsheng,Fang,23960,1987062904677410,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-29 22:50:04
+1987062904677410,Hongsheng,Fang,23961,854518728062939,1987062904677410,BOT: message,It's one of the following choices.,2018-08-29 22:50:04
+1987062904677410,Hongsheng,Fang,23962,854518728062939,1987062904677410,BOT: quick reply,":keycap_1: Physical, psychological, and health
+:keycap_2: Physical, biological, and radiological
+:keycap_3: Physical, biological, and chemical
+:keycap_4: Physical, chemical, and psychosocial
+",2018-08-29 22:50:05
+1987062904677410,Hongsheng,Fang,23970,1987062904677410,854518728062939,"user_quick_reply: BUTTON_AKB_Physical, biological, and chemical",:keycap_3:,2018-08-29 22:50:12
+1987062904677410,Hongsheng,Fang,23973,854518728062939,1987062904677410,BOT: message,Great job!,2018-08-29 22:50:13
+1987062904677410,Hongsheng,Fang,23975,854518728062939,1987062904677410,BOT: quick reply,"The correct answer is Physical, biological, and chemical.",2018-08-29 22:50:13
+1987062904677410,Hongsheng,Fang,23989,1987062904677410,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-29 22:53:07
+1987062904677410,Hongsheng,Fang,23990,854518728062939,1987062904677410,BOT: message,Let's see if you would answer this one.,2018-08-29 22:53:08
+1987062904677410,Hongsheng,Fang,23991,854518728062939,1987062904677410,BOT: quick reply,What should you NOT do while lifting objects?,2018-08-29 22:53:08
+1987062904677410,Hongsheng,Fang,23998,1987062904677410,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-29 22:53:20
+1987062904677410,Hongsheng,Fang,24000,854518728062939,1987062904677410,BOT: message,Okay. I'll give you some choices.,2018-08-29 22:53:21
+1987062904677410,Hongsheng,Fang,24001,854518728062939,1987062904677410,BOT: quick reply,":keycap_1: Bend at the knees
+:keycap_2: Keep your feet together
+:keycap_3: Keep your back straight
+:keycap_4: Keep the object close to your body
+",2018-08-29 22:53:22
+1987062904677410,Hongsheng,Fang,24006,1987062904677410,854518728062939,user_quick_reply: BUTTON_AKB_Keep your feet together,:keycap_2:,2018-08-29 22:53:38
+1987062904677410,Hongsheng,Fang,24007,854518728062939,1987062904677410,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_jubilated_purple.png,2018-08-29 22:53:39
+1987062904677410,Hongsheng,Fang,24008,854518728062939,1987062904677410,BOT: message,Great job getting the correct answer!,2018-08-29 22:53:40
+1987062904677410,Hongsheng,Fang,24009,854518728062939,1987062904677410,BOT: quick reply,The correct answer is Keep your feet together.,2018-08-29 22:53:41
+1987062904677410,Hongsheng,Fang,24011,1987062904677410,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-29 22:53:48
+1987062904677410,Hongsheng,Fang,24013,854518728062939,1987062904677410,BOT: message,Would you answer this question for me?,2018-08-29 22:53:48
+1987062904677410,Hongsheng,Fang,24014,854518728062939,1987062904677410,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-29 22:53:49
+1987062904677410,Hongsheng,Fang,24015,854518728062939,1987062904677410,BOT: quick reply,"True or false: if you wear a back belt, you can lift more weight than you could without a belt.",2018-08-29 22:53:49
+1987062904677410,Hongsheng,Fang,24020,1987062904677410,854518728062939,user_typing,False,2018-08-29 22:54:02
+1987062904677410,Hongsheng,Fang,24021,854518728062939,1987062904677410,BOT: message,Thats right! :party_popper:,2018-08-29 22:54:03
+1987062904677410,Hongsheng,Fang,24022,854518728062939,1987062904677410,BOT: quick reply,The correct answer is False.,2018-08-29 22:54:03
+1987062904677410,Hongsheng,Fang,24023,1987062904677410,854518728062939,user_quick_reply: SWITCH_SUBJECT,Change subject :shuffle_tracks_button:,2018-08-29 22:54:14
+1987062904677410,Hongsheng,Fang,24024,854518728062939,1987062904677410,BOT: quick reply,"Sure, now tell me which subject you would like to choose.:backhand_index_pointing_down_medium-light_skin_tone:",2018-08-29 22:54:15
+1987062904677410,Hongsheng,Fang,24025,1987062904677410,854518728062939,user_quick_reply: SCIENCE,Science:microscope:,2018-08-29 22:54:21
+1987062904677410,Hongsheng,Fang,24026,854518728062939,1987062904677410,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/evolvesafety_scientist.gif,2018-08-29 22:54:26
+1987062904677410,Hongsheng,Fang,24027,854518728062939,1987062904677410,BOT: quick reply,Science rules! Let's see what you know.,2018-08-29 22:54:27
+1987062904677410,Hongsheng,Fang,24028,854518728062939,1987062904677410,BOT: message,Let's see if you can get this one.,2018-08-29 22:55:34
+1987062904677410,Hongsheng,Fang,24029,854518728062939,1987062904677410,BOT: quick reply,The lithosphere is divided into a dozen major and several minor what?,2018-08-29 22:55:34
+1987062904677410,Hongsheng,Fang,24030,1987062904677410,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-29 22:55:53
+1987062904677410,Hongsheng,Fang,24031,854518728062939,1987062904677410,BOT: message,Okay. I'll give you some choices.,2018-08-29 22:55:54
+1987062904677410,Hongsheng,Fang,24032,854518728062939,1987062904677410,BOT: quick reply,":keycap_1: plates
+:keycap_2: crystals
+:keycap_3: faults
+:keycap_4: zones
+",2018-08-29 22:55:55
+1987062904677410,Hongsheng,Fang,24033,1987062904677410,854518728062939,user_quick_reply: BUTTON_AKB_plates,:keycap_1:,2018-08-29 22:56:34
+1987062904677410,Hongsheng,Fang,24034,854518728062939,1987062904677410,BOT: message,Yes! You got the correct answer!,2018-08-29 22:56:35
+1987062904677410,Hongsheng,Fang,24035,854518728062939,1987062904677410,BOT: quick reply,The correct answer is plates.,2018-08-29 22:56:35
+1987062904677410,Hongsheng,Fang,24041,1987062904677410,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-29 22:58:11
+1987062904677410,Hongsheng,Fang,24044,854518728062939,1987062904677410,BOT: message,See if you can answer this next one.,2018-08-29 22:58:11
+1987062904677410,Hongsheng,Fang,24045,854518728062939,1987062904677410,BOT: quick reply,What opens two strands of DNA?,2018-08-29 22:58:12
+1987062904677410,Hongsheng,Fang,24048,1987062904677410,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-29 22:58:21
+1987062904677410,Hongsheng,Fang,24049,854518728062939,1987062904677410,BOT: message,Which of the following options is the right answer?,2018-08-29 22:58:21
+1987062904677410,Hongsheng,Fang,24050,854518728062939,1987062904677410,BOT: quick reply,":keycap_1: adenylate
+:keycap_2: chromosome
+:keycap_3: helicase
+:keycap_4: replication
+",2018-08-29 22:58:22
+1987062904677410,Hongsheng,Fang,24055,1987062904677410,854518728062939,user_quick_reply: BUTTON_AKB_helicase,:keycap_3:,2018-08-29 22:58:30
+1987062904677410,Hongsheng,Fang,24057,854518728062939,1987062904677410,BOT: message,Yes! You got the correct answer!,2018-08-29 22:58:31
+1987062904677410,Hongsheng,Fang,24059,854518728062939,1987062904677410,BOT: quick reply,The correct answer is helicase.,2018-08-29 22:58:31
+1987062904677410,Hongsheng,Fang,24073,1987062904677410,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-29 23:06:51
+1987062904677410,Hongsheng,Fang,24074,854518728062939,1987062904677410,BOT: message,Let's take a look at this question.,2018-08-29 23:06:52
+1987062904677410,Hongsheng,Fang,24075,854518728062939,1987062904677410,BOT: quick reply,Most fungi get organic compounds from what?,2018-08-29 23:06:52
+1987062904677410,Hongsheng,Fang,24076,1987062904677410,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-29 23:07:09
+1987062904677410,Hongsheng,Fang,24077,854518728062939,1987062904677410,BOT: message,It's one of the following choices.,2018-08-29 23:07:09
+1987062904677410,Hongsheng,Fang,24078,854518728062939,1987062904677410,BOT: quick reply,":keycap_1: carnivorous organisms
+:keycap_2: living organisms
+:keycap_3: inorganic material
+:keycap_4: dead organisms
+",2018-08-29 23:07:10
+1987062904677410,Hongsheng,Fang,24079,1987062904677410,854518728062939,user_quick_reply: BUTTON_DKB_carnivorous organisms,:keycap_1:,2018-08-29 23:07:34
+1987062904677410,Hongsheng,Fang,24080,854518728062939,1987062904677410,BOT: message,That's not quite right. :disappointed_face:,2018-08-29 23:07:35
+1987062904677410,Hongsheng,Fang,24081,854518728062939,1987062904677410,BOT: quick reply,The correct answer is dead organisms.,2018-08-29 23:07:35
+1987062904677410,Hongsheng,Fang,24082,1987062904677410,854518728062939,user_quick_reply: WHY,Why?,2018-08-29 23:07:44
+1987062904677410,Hongsheng,Fang,24083,854518728062939,1987062904677410,BOT: message,Here's why:,2018-08-29 23:07:44
+1987062904677410,Hongsheng,Fang,24084,854518728062939,1987062904677410,BOT: quick reply,"Most fungi get organic compounds from dead organisms. They are decomposers called saprotrophs. A saprotroph feeds on any remaining organic matter after other decomposers do their work. Fungi use enzymes to digest organic remains and then absorb the resulting organic compounds. As decomposers, fungi are vital for the health of ecosystems. They break down nonliving organic matter and release the nutrients into the soil. Plants can then use the nutrients and pass them on to herbivores and other consumers.",2018-08-29 23:07:45
+1987062904677410,Hongsheng,Fang,24085,1987062904677410,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-29 23:08:13
+1987062904677410,Hongsheng,Fang,24086,854518728062939,1987062904677410,BOT: message,Let's see if you can answer this question.,2018-08-29 23:08:14
+1987062904677410,Hongsheng,Fang,24087,854518728062939,1987062904677410,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-29 23:08:14
+1987062904677410,Hongsheng,Fang,24088,854518728062939,1987062904677410,BOT: quick reply,What kind of viscosity is found in long-chain hydrocarbons?,2018-08-29 23:08:15
+1987062904677410,Hongsheng,Fang,24095,1987062904677410,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-29 23:15:46
+1987062904677410,Hongsheng,Fang,24096,854518728062939,1987062904677410,BOT: message,Okay. I'll give you some choices.,2018-08-29 23:15:47
+1987062904677410,Hongsheng,Fang,24097,854518728062939,1987062904677410,BOT: quick reply,":keycap_1: increased viscosity
+:keycap_2: high viscosity
+:keycap_3: intense viscosity
+:keycap_4: low viscosity
+",2018-08-29 23:15:47
+1987062904677410,Hongsheng,Fang,24098,1987062904677410,854518728062939,user_quick_reply: BUTTON_DKB_increased viscosity,:keycap_1:,2018-08-29 23:15:54
+1987062904677410,Hongsheng,Fang,24099,854518728062939,1987062904677410,BOT: message,"Oops, that is not correct. :disappointed_face:",2018-08-29 23:15:55
+1987062904677410,Hongsheng,Fang,24100,854518728062939,1987062904677410,BOT: quick reply,The correct answer is high viscosity.,2018-08-29 23:15:55
+1987062904677410,Hongsheng,Fang,26204,854518728062939,1987062904677410,BOT: quick reply,"Hi Hongsheng, you haven't talked to me for a while. Would you like to resume the learning with me?",2018-08-30 20:00:41
+1987062904677410,Hongsheng,Fang,26232,854518728062939,1987062904677410,BOT: message,Here's a question for you:,2018-08-30 20:26:20
+1987062904677410,Hongsheng,Fang,26233,854518728062939,1987062904677410,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-30 20:26:21
+1987062904677410,Hongsheng,Fang,26234,854518728062939,1987062904677410,BOT: quick reply,Most insects reproduce quickly and through what type of reproduction?,2018-08-30 20:26:22

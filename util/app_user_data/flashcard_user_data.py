@@ -22,7 +22,7 @@ users = ["Yinuo_Yao", "Dee Dee_Thao", "Jenn_Hu", "jingyi_li", "Joy_Yuzuriha", "T
          "Giovanni_Campagna", "Jean_Coquet", "Philip_Zhuang", "yue_hui", "Clayton_Ellington", \
          "Nathaniel_Ramos", "Paul_Walter", "Flora_Wang", "Christine_Liu", "Maisam_Pyarali", \
          "Nathan_Dalal", "Sorathan_Chaturapruek", "Daniel_Choe", "Owen_Wang", "Richard_Xu", \
-         "Yang_Wang", "Hongsheng_Fang"]
+         "Yang_Wang", "Hongsheng_Fang", "Michael_Solorio", "Nina_Wei", "Jessica_de la Paz"]
 
 if len(sys.argv) == 3:
     users = [sys.argv[1] + "_" + sys.argv[2]]

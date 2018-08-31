@@ -1,0 +1,725 @@
+user_id,user_firstname,user_lastname,uid,sender,recipient,type,dialogue,time_stamp
+2234162483322336,Selen,Bozkurt,18454,2234162483322336,854518728062939,persistent_menu: GET_INTRO_1,Get Started,2018-08-27 17:29:27
+2234162483322336,Selen,Bozkurt,18455,854518728062939,2234162483322336,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/quizbot_avatar.png,2018-08-27 17:29:30
+2234162483322336,Selen,Bozkurt,18456,854518728062939,2234162483322336,BOT: quick reply,"Hi Selen! My name is Frosty :penguin: and Im here to help you learn all about science:microscope:, verbal reasoning (GRE) :input_latin_uppercase:, and safety:hammer_and_wrench:!",2018-08-27 17:29:30
+2234162483322336,Selen,Bozkurt,18457,2234162483322336,854518728062939,persistent_menu: SAFETY,Safety:hammer_and_wrench:,2018-08-27 17:29:43
+2234162483322336,Selen,Bozkurt,18458,854518728062939,2234162483322336,BOT: quick reply,Awesome! Let's learn about safety!,2018-08-27 17:29:44
+2234162483322336,Selen,Bozkurt,18459,854518728062939,2234162483322336,BOT: message,I think you'll like this question.,2018-08-27 17:29:47
+2234162483322336,Selen,Bozkurt,18460,854518728062939,2234162483322336,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-27 17:29:48
+2234162483322336,Selen,Bozkurt,18461,854518728062939,2234162483322336,BOT: quick reply,"What agency inspects, grades, and enforces standards of quality and wholesomeness for meat, poultry, milk, eggs, and grains?",2018-08-27 17:29:49
+2234162483322336,Selen,Bozkurt,18462,2234162483322336,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-27 17:29:59
+2234162483322336,Selen,Bozkurt,18463,854518728062939,2234162483322336,BOT: message,Which of the following options is the right answer?,2018-08-27 17:29:59
+2234162483322336,Selen,Bozkurt,18464,854518728062939,2234162483322336,BOT: quick reply,":keycap_1: CDC
+:keycap_2: FDA
+:keycap_3: EPA
+:keycap_4: USDA
+",2018-08-27 17:30:00
+2234162483322336,Selen,Bozkurt,18465,2234162483322336,854518728062939,persistent_menu: USER_MANUAL_1,User Manual :woman_technologist_light_skin_tone::man_technologist_light_skin_tone:,2018-08-27 17:30:12
+2234162483322336,Selen,Bozkurt,18466,854518728062939,2234162483322336,BOT: image,https://www.smartprimer.org:8443/pictures/user_manual/typeanswer.png,2018-08-27 17:30:14
+2234162483322336,Selen,Bozkurt,18467,854518728062939,2234162483322336,BOT: quick reply,"To study the questions, you can type in your answers in the text field and I will evaluate the answers for you using advanced NLP (Natural Language Processing) technology.",2018-08-27 17:30:14
+2234162483322336,Selen,Bozkurt,18468,2234162483322336,854518728062939,user_quick_reply: USER_MANUAL_2,Got it :flexed_biceps_medium-light_skin_tone:,2018-08-27 17:30:45
+2234162483322336,Selen,Bozkurt,18469,854518728062939,2234162483322336,BOT: image,https://www.smartprimer.org:8443/pictures/user_manual/needhintbutton.png,2018-08-27 17:30:47
+2234162483322336,Selen,Bozkurt,18470,854518728062939,2234162483322336,BOT: quick reply,"If you don't know the answers, then feel free to tap on the hint button.",2018-08-27 17:30:47
+2234162483322336,Selen,Bozkurt,18855,854518728062939,2234162483322336,BOT: quick reply,"Hi Selen, you haven't talked to me for a while. Would you like to resume the learning with me?",2018-08-27 20:00:16
+2234162483322336,Selen,Bozkurt,19598,2234162483322336,854518728062939,user_quick_reply: NEXT_QUESTION,Next :oncoming_fist_medium-light_skin_tone:,2018-08-27 23:39:44
+2234162483322336,Selen,Bozkurt,19599,854518728062939,2234162483322336,BOT: message,How about this next one:,2018-08-27 23:39:45
+2234162483322336,Selen,Bozkurt,19600,854518728062939,2234162483322336,BOT: quick reply,What should you NOT do while lifting objects?,2018-08-27 23:39:45
+2234162483322336,Selen,Bozkurt,19601,2234162483322336,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-27 23:39:59
+2234162483322336,Selen,Bozkurt,19602,854518728062939,2234162483322336,BOT: message,Which of the following options is the right answer?,2018-08-27 23:39:59
+2234162483322336,Selen,Bozkurt,19603,854518728062939,2234162483322336,BOT: quick reply,":keycap_1: Keep your back straight
+:keycap_2: Bend at the knees
+:keycap_3: Keep the object close to your body
+:keycap_4: Keep your feet together
+",2018-08-27 23:40:00
+2234162483322336,Selen,Bozkurt,19604,2234162483322336,854518728062939,user_quick_reply: BUTTON_DKB_Bend at the knees,:keycap_2:,2018-08-27 23:40:27
+2234162483322336,Selen,Bozkurt,19605,854518728062939,2234162483322336,BOT: message,"Hmm, that wasn't quite right. :disappointed_face:",2018-08-27 23:40:28
+2234162483322336,Selen,Bozkurt,19606,854518728062939,2234162483322336,BOT: quick reply,The correct answer is Keep your feet together.,2018-08-27 23:40:28
+2234162483322336,Selen,Bozkurt,19607,2234162483322336,854518728062939,user_quick_reply: WHY,Why?,2018-08-27 23:40:35
+2234162483322336,Selen,Bozkurt,19608,854518728062939,2234162483322336,BOT: message,This is an explanation of the question:,2018-08-27 23:40:35
+2234162483322336,Selen,Bozkurt,19609,854518728062939,2234162483322336,BOT: quick reply,"The AAOS lists its instructions for properly lifting a heavy object: plan ahead before lifting an object (decide in advance where the load will be placed after it has been lifted; the path in between where the load is kept and where it has to be placed should be free from obstacles), keep yourself close to the object you wish to lift, keep your feet shoulder-width apart (this gives you a solid base to support), bend at your knees, tighten the stomach muscles, lift the load with your leg muscles as you stand up (leg muscles are stronger than back muscles), and do not lift an object which is too heavy or has an awkward shape all alone (get help).",2018-08-27 23:40:36
+2234162483322336,Selen,Bozkurt,19610,2234162483322336,854518728062939,user_quick_reply: SWITCH_SUBJECT,Change subject :shuffle_tracks_button:,2018-08-27 23:41:20
+2234162483322336,Selen,Bozkurt,19611,854518728062939,2234162483322336,BOT: quick reply,"Cool, let's pick one of the following subjects?:backhand_index_pointing_down_medium-light_skin_tone:",2018-08-27 23:41:22
+2234162483322336,Selen,Bozkurt,19612,2234162483322336,854518728062939,user_quick_reply: RANDOM,Random :game_die:,2018-08-27 23:41:27
+2234162483322336,Selen,Bozkurt,19613,854518728062939,2234162483322336,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/evolvesafety_normal.gif,2018-08-27 23:41:32
+2234162483322336,Selen,Bozkurt,19614,854518728062939,2234162483322336,BOT: quick reply,Let's quiz you on a little bit of everything! :game_die:,2018-08-27 23:41:32
+2234162483322336,Selen,Bozkurt,19615,2234162483322336,854518728062939,user_quick_reply: NEXT_QUESTION,Alright :round_pushpin:,2018-08-27 23:41:38
+2234162483322336,Selen,Bozkurt,19616,854518728062939,2234162483322336,BOT: message,Would you answer this question for me?,2018-08-27 23:41:38
+2234162483322336,Selen,Bozkurt,19617,854518728062939,2234162483322336,BOT: quick reply,What opens two strands of DNA?,2018-08-27 23:41:39
+2234162483322336,Selen,Bozkurt,19618,2234162483322336,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-27 23:41:49
+2234162483322336,Selen,Bozkurt,19619,854518728062939,2234162483322336,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-08-27 23:41:50
+2234162483322336,Selen,Bozkurt,19620,854518728062939,2234162483322336,BOT: quick reply,":keycap_1: replication
+:keycap_2: chromosome
+:keycap_3: helicase
+:keycap_4: adenylate
+",2018-08-27 23:41:50
+2234162483322336,Selen,Bozkurt,19621,2234162483322336,854518728062939,user_quick_reply: BUTTON_DKB_replication,:keycap_1:,2018-08-27 23:41:57
+2234162483322336,Selen,Bozkurt,19622,854518728062939,2234162483322336,BOT: message,"Oops, that is not correct. :disappointed_face:",2018-08-27 23:41:58
+2234162483322336,Selen,Bozkurt,19623,854518728062939,2234162483322336,BOT: quick reply,The correct answer is helicase.,2018-08-27 23:41:58
+2234162483322336,Selen,Bozkurt,19624,2234162483322336,854518728062939,user_quick_reply: WHY,Why?,2018-08-27 23:42:04
+2234162483322336,Selen,Bozkurt,19625,854518728062939,2234162483322336,BOT: message,This is an explanation of the question:,2018-08-27 23:42:05
+2234162483322336,Selen,Bozkurt,19626,854518728062939,2234162483322336,BOT: quick reply,"The two DNA strands are opened by helicase. The strands are held open by a single strand of binding proteins, preventing premature reannealing. Topoisomerase solves the problem caused by tension generated by winding/unwinding of DNA. This enzyme wraps around DNA and makes a cut permitting the helix to spin and relax. Once DNA is relaxed, topoisomerase reconnects broken strands. DNA primase synthesizes a short RNA primer which initiates the Okazaki fragment. Okazaki fragments are attached by DNA ligase.",2018-08-27 23:42:05
+2234162483322336,Selen,Bozkurt,19627,2234162483322336,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-27 23:42:31
+2234162483322336,Selen,Bozkurt,19628,854518728062939,2234162483322336,BOT: message,I think you'll like this question.,2018-08-27 23:42:31
+2234162483322336,Selen,Bozkurt,19629,854518728062939,2234162483322336,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-27 23:42:32
+2234162483322336,Selen,Bozkurt,19630,854518728062939,2234162483322336,BOT: quick reply,What does CERT stand for?,2018-08-27 23:42:33
+2234162483322336,Selen,Bozkurt,19631,2234162483322336,854518728062939,user_quick_reply: I_DONT_KNOW,I dont know :downcast_face_with_sweat:,2018-08-27 23:42:41
+2234162483322336,Selen,Bozkurt,19632,854518728062939,2234162483322336,BOT: quick reply,Do you really want to give up?,2018-08-27 23:42:42
+2234162483322336,Selen,Bozkurt,19633,2234162483322336,854518728062939,user_quick_reply: GIVEUP_NO,"No, I'll try again!",2018-08-27 23:42:50
+2234162483322336,Selen,Bozkurt,19634,854518728062939,2234162483322336,BOT: message,Okay! Let's give it a try again :flexed_biceps_medium-light_skin_tone:,2018-08-27 23:42:50
+2234162483322336,Selen,Bozkurt,19635,854518728062939,2234162483322336,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-08-27 23:42:51
+2234162483322336,Selen,Bozkurt,19636,854518728062939,2234162483322336,BOT: quick reply,":keycap_1: Community Emergency Response Team
+:keycap_2: Controlled Evacuation and Response Tactics
+:keycap_3: Community Experimental Research Team
+:keycap_4: Central Emergency Response Terminal
+",2018-08-27 23:42:51
+2234162483322336,Selen,Bozkurt,19637,2234162483322336,854518728062939,user_quick_reply: BUTTON_AKB_Community Emergency Response Team,:keycap_1:,2018-08-27 23:42:59
+2234162483322336,Selen,Bozkurt,19638,854518728062939,2234162483322336,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_happy_purple.png,2018-08-27 23:43:01
+2234162483322336,Selen,Bozkurt,19639,854518728062939,2234162483322336,BOT: message,Nice! That was right!,2018-08-27 23:43:02
+2234162483322336,Selen,Bozkurt,19640,854518728062939,2234162483322336,BOT: quick reply,The correct answer is Community Emergency Response Team.,2018-08-27 23:43:03
+2234162483322336,Selen,Bozkurt,19641,2234162483322336,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-27 23:43:10
+2234162483322336,Selen,Bozkurt,19642,854518728062939,2234162483322336,BOT: message,See if you can answer this next one.,2018-08-27 23:43:10
+2234162483322336,Selen,Bozkurt,19643,854518728062939,2234162483322336,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-27 23:43:11
+2234162483322336,Selen,Bozkurt,19644,854518728062939,2234162483322336,BOT: quick reply,"Having squandered his life's savings on unprofitable business ventures, the _____ entrepreneur was forced to live in squalor.",2018-08-27 23:43:11
+2234162483322336,Selen,Bozkurt,19645,2234162483322336,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-27 23:43:30
+2234162483322336,Selen,Bozkurt,19646,854518728062939,2234162483322336,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-08-27 23:43:31
+2234162483322336,Selen,Bozkurt,19647,854518728062939,2234162483322336,BOT: quick reply,":keycap_1: former
+:keycap_2: eccentric
+:keycap_3: unlikely
+:keycap_4: insolvent
+:keycap_5: perturbed
+",2018-08-27 23:43:32
+2234162483322336,Selen,Bozkurt,19648,2234162483322336,854518728062939,user_quick_reply: BUTTON_DKB_former,:keycap_1:,2018-08-27 23:43:41
+2234162483322336,Selen,Bozkurt,19649,854518728062939,2234162483322336,BOT: message,"I'm sorry, but that was incorrect. :disappointed_face:",2018-08-27 23:43:42
+2234162483322336,Selen,Bozkurt,19650,854518728062939,2234162483322336,BOT: quick reply,The correct answer is insolvent.,2018-08-27 23:43:42
+2234162483322336,Selen,Bozkurt,19651,2234162483322336,854518728062939,user_quick_reply: WHY,Why?,2018-08-27 23:43:47
+2234162483322336,Selen,Bozkurt,19652,854518728062939,2234162483322336,BOT: message,Here's why:,2018-08-27 23:43:48
+2234162483322336,Selen,Bozkurt,19653,854518728062939,2234162483322336,BOT: quick reply,":pushpin: Insolvent -- unable to meet or discharge financial obligations
+:pushpin: Former -- preceding in time; prior or earlier
+:pushpin: Unlikely -- not likely to be true or to occur or to have occurred
+:pushpin: Perturbed -- thrown into a state of agitated confusion
+:pushpin: Eccentric -- conspicuously or grossly unconventional or unusual",2018-08-27 23:43:48
+2234162483322336,Selen,Bozkurt,19654,2234162483322336,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-27 23:44:21
+2234162483322336,Selen,Bozkurt,19655,854518728062939,2234162483322336,BOT: message,Let's see if you would answer this one.,2018-08-27 23:44:21
+2234162483322336,Selen,Bozkurt,19656,854518728062939,2234162483322336,BOT: quick reply,"When your brain senses that your body temperature is increasing, it sends messages to the blood vessels in the skin to increase in what?",2018-08-27 23:44:22
+2234162483322336,Selen,Bozkurt,19657,2234162483322336,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-27 23:45:14
+2234162483322336,Selen,Bozkurt,19658,854518728062939,2234162483322336,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-08-27 23:45:15
+2234162483322336,Selen,Bozkurt,19659,854518728062939,2234162483322336,BOT: quick reply,":keycap_1: weight
+:keycap_2: surface
+:keycap_3: diameter
+:keycap_4: height
+",2018-08-27 23:45:15
+2234162483322336,Selen,Bozkurt,19660,2234162483322336,854518728062939,user_quick_reply: BUTTON_DKB_surface,:keycap_2:,2018-08-27 23:45:24
+2234162483322336,Selen,Bozkurt,19661,854518728062939,2234162483322336,BOT: message,"Hmm, that wasn't quite right. :disappointed_face:",2018-08-27 23:45:25
+2234162483322336,Selen,Bozkurt,19662,854518728062939,2234162483322336,BOT: quick reply,The correct answer is diameter.,2018-08-27 23:45:25
+2234162483322336,Selen,Bozkurt,19663,2234162483322336,854518728062939,user_quick_reply: WHY,Why?,2018-08-27 23:45:31
+2234162483322336,Selen,Bozkurt,19664,854518728062939,2234162483322336,BOT: message,I hope this explanation could help you understand the the question.,2018-08-27 23:45:32
+2234162483322336,Selen,Bozkurt,19665,854518728062939,2234162483322336,BOT: quick reply,"The cardiovascular system also plays a role in maintaining body temperature. It helps to keep you warm by moving warm blood around your body. Your blood vessels also control your body temperature to keep you from getting too hot or too cold. When your brain senses that your body temperature is increasing, it sends messages to the blood vessels in the skin to increase in diameter. Increasing the diameter of the blood vessels increases the amount of blood and heat that moves near the skin's surface. The heat is then released from the skin. This helps you cool down.",2018-08-27 23:45:33
+2234162483322336,Selen,Bozkurt,19666,2234162483322336,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-27 23:46:15
+2234162483322336,Selen,Bozkurt,19667,854518728062939,2234162483322336,BOT: message,Let's try this one.,2018-08-27 23:46:15
+2234162483322336,Selen,Bozkurt,19668,854518728062939,2234162483322336,BOT: quick reply,Most fungi get organic compounds from what?,2018-08-27 23:46:16
+2234162483322336,Selen,Bozkurt,19669,2234162483322336,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-27 23:46:33
+2234162483322336,Selen,Bozkurt,19670,854518728062939,2234162483322336,BOT: message,Pick one of the following answers.,2018-08-27 23:46:33
+2234162483322336,Selen,Bozkurt,19671,854518728062939,2234162483322336,BOT: quick reply,":keycap_1: inorganic material
+:keycap_2: dead organisms
+:keycap_3: living organisms
+:keycap_4: carnivorous organisms
+",2018-08-27 23:46:34
+2234162483322336,Selen,Bozkurt,19672,2234162483322336,854518728062939,user_quick_reply: BUTTON_AKB_dead organisms,:keycap_2:,2018-08-27 23:46:59
+2234162483322336,Selen,Bozkurt,19673,854518728062939,2234162483322336,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_jubilated_pink.png,2018-08-27 23:47:01
+2234162483322336,Selen,Bozkurt,19674,854518728062939,2234162483322336,BOT: message,Great job getting the correct answer!,2018-08-27 23:47:01
+2234162483322336,Selen,Bozkurt,19675,854518728062939,2234162483322336,BOT: quick reply,The correct answer is dead organisms.,2018-08-27 23:47:02
+2234162483322336,Selen,Bozkurt,19676,2234162483322336,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-27 23:47:08
+2234162483322336,Selen,Bozkurt,19677,854518728062939,2234162483322336,BOT: message,Here's a question for you:,2018-08-27 23:47:08
+2234162483322336,Selen,Bozkurt,19678,854518728062939,2234162483322336,BOT: quick reply,The lithosphere is divided into a dozen major and several minor what?,2018-08-27 23:47:09
+2234162483322336,Selen,Bozkurt,19679,2234162483322336,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-27 23:47:38
+2234162483322336,Selen,Bozkurt,19680,854518728062939,2234162483322336,BOT: message,It's one of the following choices.,2018-08-27 23:47:39
+2234162483322336,Selen,Bozkurt,19681,854518728062939,2234162483322336,BOT: quick reply,":keycap_1: zones
+:keycap_2: crystals
+:keycap_3: faults
+:keycap_4: plates
+",2018-08-27 23:47:39
+2234162483322336,Selen,Bozkurt,19682,2234162483322336,854518728062939,user_quick_reply: BUTTON_AKB_plates,:keycap_4:,2018-08-27 23:47:46
+2234162483322336,Selen,Bozkurt,19683,854518728062939,2234162483322336,BOT: message,Yes! You got the correct answer!,2018-08-27 23:47:47
+2234162483322336,Selen,Bozkurt,19684,854518728062939,2234162483322336,BOT: quick reply,The correct answer is plates.,2018-08-27 23:47:48
+2234162483322336,Selen,Bozkurt,19685,2234162483322336,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-27 23:48:13
+2234162483322336,Selen,Bozkurt,19686,854518728062939,2234162483322336,BOT: message,Could you answer this one for me?,2018-08-27 23:48:14
+2234162483322336,Selen,Bozkurt,19687,854518728062939,2234162483322336,BOT: quick reply,To what does the acronym SLM refer?,2018-08-27 23:48:14
+2234162483322336,Selen,Bozkurt,19688,2234162483322336,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-27 23:49:23
+2234162483322336,Selen,Bozkurt,19689,854518728062939,2234162483322336,BOT: message,Pick one of the following answers.,2018-08-27 23:49:24
+2234162483322336,Selen,Bozkurt,19690,854518728062939,2234162483322336,BOT: quick reply,":keycap_1: Sound Level Meter
+:keycap_2: Sound Loudness Methods
+:keycap_3: Service Lifecycle Management
+:keycap_4: System Level Monitor
+",2018-08-27 23:49:24
+2234162483322336,Selen,Bozkurt,19691,2234162483322336,854518728062939,user_quick_reply: BUTTON_DKB_Service Lifecycle Management,:keycap_3:,2018-08-27 23:49:35
+2234162483322336,Selen,Bozkurt,19692,854518728062939,2234162483322336,BOT: message,"Hmm, that wasn't quite right. :disappointed_face:",2018-08-27 23:49:36
+2234162483322336,Selen,Bozkurt,19693,854518728062939,2234162483322336,BOT: quick reply,The correct answer is Sound Level Meter.,2018-08-27 23:49:37
+2234162483322336,Selen,Bozkurt,19694,2234162483322336,854518728062939,user_quick_reply: WHY,Why?,2018-08-27 23:49:41
+2234162483322336,Selen,Bozkurt,19695,854518728062939,2234162483322336,BOT: message,This is an explanation of the question:,2018-08-27 23:49:41
+2234162483322336,Selen,Bozkurt,19696,854518728062939,2234162483322336,BOT: quick reply,The Sound Level Meter is an instrument used to measure noise levels.,2018-08-27 23:49:42
+2234162483322336,Selen,Bozkurt,19697,2234162483322336,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-27 23:49:48
+2234162483322336,Selen,Bozkurt,19698,854518728062939,2234162483322336,BOT: message,"Alrighty, let's try this one.",2018-08-27 23:49:49
+2234162483322336,Selen,Bozkurt,19699,854518728062939,2234162483322336,BOT: quick reply,Which fire extinguishers are used to put out fires caused by flammable liquids?,2018-08-27 23:49:49
+2234162483322336,Selen,Bozkurt,19700,2234162483322336,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-27 23:50:18
+2234162483322336,Selen,Bozkurt,19701,854518728062939,2234162483322336,BOT: message,Pick one of the following answers.,2018-08-27 23:50:19
+2234162483322336,Selen,Bozkurt,19702,854518728062939,2234162483322336,BOT: quick reply,":keycap_1: Class A water fire extinguishers
+:keycap_2: Class B carbon dioxide fire extinguisher
+:keycap_3: Class C dry chemical fire extinguisher
+",2018-08-27 23:50:19
+2234162483322336,Selen,Bozkurt,19703,2234162483322336,854518728062939,user_quick_reply: BUTTON_DKB_Class C dry chemical fire extinguisher,:keycap_3:,2018-08-27 23:52:14
+2234162483322336,Selen,Bozkurt,19704,854518728062939,2234162483322336,BOT: message,"Oops, that is not correct. :disappointed_face:",2018-08-27 23:52:14
+2234162483322336,Selen,Bozkurt,19705,854518728062939,2234162483322336,BOT: quick reply,The correct answer is Class B carbon dioxide fire extinguisher.,2018-08-27 23:52:15
+2234162483322336,Selen,Bozkurt,21028,854518728062939,2234162483322336,BOT: quick reply,"Hi Selen, you haven't talked to me for a while. Would you like to resume the learning with me?",2018-08-28 20:00:12
+2234162483322336,Selen,Bozkurt,21211,2234162483322336,854518728062939,user_quick_reply: NEXT_QUESTION,I see :oncoming_fist_medium-light_skin_tone:,2018-08-28 20:34:53
+2234162483322336,Selen,Bozkurt,21212,854518728062939,2234162483322336,BOT: message,Here's a question for you:,2018-08-28 20:34:54
+2234162483322336,Selen,Bozkurt,21213,854518728062939,2234162483322336,BOT: quick reply,Which fire extinguishers are used to put out Class A fires?,2018-08-28 20:34:54
+2234162483322336,Selen,Bozkurt,21214,2234162483322336,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-28 20:35:35
+2234162483322336,Selen,Bozkurt,21215,854518728062939,2234162483322336,BOT: message,Okay. I'll give you some choices.,2018-08-28 20:35:35
+2234162483322336,Selen,Bozkurt,21216,854518728062939,2234162483322336,BOT: quick reply,":keycap_1: Water only
+:keycap_2: CO2 only
+:keycap_3: Both CO2 and water
+:keycap_4: Both water and multi-purpose dry chemical
+:keycap_5: Multi-purpose dry chemical only
+",2018-08-28 20:35:36
+2234162483322336,Selen,Bozkurt,21217,2234162483322336,854518728062939,user_quick_reply: BUTTON_DKB_Multi-purpose dry chemical only,:keycap_5:,2018-08-28 20:36:02
+2234162483322336,Selen,Bozkurt,21218,854518728062939,2234162483322336,BOT: message,"Hmm, that wasn't quite right. :disappointed_face:",2018-08-28 20:36:03
+2234162483322336,Selen,Bozkurt,21219,854518728062939,2234162483322336,BOT: quick reply,The correct answer is Both water and multi-purpose dry chemical.,2018-08-28 20:36:03
+2234162483322336,Selen,Bozkurt,21220,2234162483322336,854518728062939,user_quick_reply: WHY,Why?,2018-08-28 20:36:14
+2234162483322336,Selen,Bozkurt,21221,854518728062939,2234162483322336,BOT: message,Here's an explanation:,2018-08-28 20:36:15
+2234162483322336,Selen,Bozkurt,21222,854518728062939,2234162483322336,BOT: quick reply,"Class A fires include fires in ordinary combustibles: paper, wood, cloth, rubber, and many plastics. Water based fire extinguishers and multi-purpose dry chemical based fire extinguishers are suitable for Class A fires. However, ordinary dry chemical fire extinguishers are suitable for only Class B and Class C fires",2018-08-28 20:36:15
+2234162483322336,Selen,Bozkurt,21223,2234162483322336,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-28 20:37:03
+2234162483322336,Selen,Bozkurt,21224,854518728062939,2234162483322336,BOT: message,How about this next one:,2018-08-28 20:37:04
+2234162483322336,Selen,Bozkurt,21225,854518728062939,2234162483322336,BOT: quick reply,What three major factors cause food contamination?,2018-08-28 20:37:04
+2234162483322336,Selen,Bozkurt,21226,2234162483322336,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-28 20:37:08
+2234162483322336,Selen,Bozkurt,21227,854518728062939,2234162483322336,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-08-28 20:37:08
+2234162483322336,Selen,Bozkurt,21228,854518728062939,2234162483322336,BOT: quick reply,":keycap_1: Physical, psychological, and health
+:keycap_2: Physical, biological, and radiological
+:keycap_3: Physical, chemical, and psychosocial
+:keycap_4: Physical, biological, and chemical
+",2018-08-28 20:37:09
+2234162483322336,Selen,Bozkurt,21229,2234162483322336,854518728062939,"user_quick_reply: BUTTON_DKB_Physical, chemical, and psychosocial",:keycap_3:,2018-08-28 20:37:12
+2234162483322336,Selen,Bozkurt,21230,854518728062939,2234162483322336,BOT: message,"Oops, that is not correct. :disappointed_face:",2018-08-28 20:37:13
+2234162483322336,Selen,Bozkurt,21231,854518728062939,2234162483322336,BOT: quick reply,"The correct answer is Physical, biological, and chemical.",2018-08-28 20:37:13
+2234162483322336,Selen,Bozkurt,21232,2234162483322336,854518728062939,user_quick_reply: WHY,Why?,2018-08-28 20:37:24
+2234162483322336,Selen,Bozkurt,21233,854518728062939,2234162483322336,BOT: message,I hope this explanation could help you understand the the question.,2018-08-28 20:37:25
+2234162483322336,Selen,Bozkurt,21234,854518728062939,2234162483322336,BOT: quick reply,"People can get sick by consuming food contaminated by the following three major hazards: physical (objects such ashair, nails, jewelry, glass, staples, and bandages in food are categorized as physical hazards), chemical (substances that are added during food handling or that occur naturally can cause food-borne illness; examples include certain metals, pesticides, and cleaning agents), and biological (germs that are not visible to the naked eye like those carried by bacteria, viruses, and parasites).",2018-08-28 20:37:25
+2234162483322336,Selen,Bozkurt,21235,2234162483322336,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-28 20:37:30
+2234162483322336,Selen,Bozkurt,21236,854518728062939,2234162483322336,BOT: message,What about this next question:,2018-08-28 20:37:30
+2234162483322336,Selen,Bozkurt,21237,854518728062939,2234162483322336,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-28 20:37:31
+2234162483322336,Selen,Bozkurt,21238,854518728062939,2234162483322336,BOT: quick reply,To what does the acronym SLM refer?,2018-08-28 20:37:31
+2234162483322336,Selen,Bozkurt,21239,2234162483322336,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-28 20:37:50
+2234162483322336,Selen,Bozkurt,21240,854518728062939,2234162483322336,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-08-28 20:37:51
+2234162483322336,Selen,Bozkurt,21241,854518728062939,2234162483322336,BOT: quick reply,":keycap_1: Sound Level Meter
+:keycap_2: Sound Loudness Methods
+:keycap_3: System Level Monitor
+:keycap_4: Service Lifecycle Management
+",2018-08-28 20:37:52
+2234162483322336,Selen,Bozkurt,21242,2234162483322336,854518728062939,user_quick_reply: BUTTON_DKB_Sound Loudness Methods,:keycap_2:,2018-08-28 20:37:57
+2234162483322336,Selen,Bozkurt,21243,854518728062939,2234162483322336,BOT: message,"I'm sorry, but that was incorrect. :disappointed_face:",2018-08-28 20:37:57
+2234162483322336,Selen,Bozkurt,21244,854518728062939,2234162483322336,BOT: quick reply,The correct answer is Sound Level Meter.,2018-08-28 20:37:58
+2234162483322336,Selen,Bozkurt,21245,2234162483322336,854518728062939,user_quick_reply: WHY,Why?,2018-08-28 20:38:01
+2234162483322336,Selen,Bozkurt,21246,854518728062939,2234162483322336,BOT: message,This is why:,2018-08-28 20:38:01
+2234162483322336,Selen,Bozkurt,21247,854518728062939,2234162483322336,BOT: quick reply,The Sound Level Meter is an instrument used to measure noise levels.,2018-08-28 20:38:02
+2234162483322336,Selen,Bozkurt,21248,2234162483322336,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-28 20:38:37
+2234162483322336,Selen,Bozkurt,21249,854518728062939,2234162483322336,BOT: message,What about this next question:,2018-08-28 20:38:38
+2234162483322336,Selen,Bozkurt,21250,854518728062939,2234162483322336,BOT: quick reply,"With a similar contrast between a partly cloudy sky and a dark street, the cover of the recent rock CD _____ a famous surrealist painting from the early 1900s.",2018-08-28 20:38:38
+2234162483322336,Selen,Bozkurt,21251,2234162483322336,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-28 20:39:08
+2234162483322336,Selen,Bozkurt,21252,854518728062939,2234162483322336,BOT: message,It's one of the following choices.,2018-08-28 20:39:08
+2234162483322336,Selen,Bozkurt,21253,854518728062939,2234162483322336,BOT: quick reply,":keycap_1: admires
+:keycap_2: obfuscates
+:keycap_3: sanctions
+:keycap_4: evokes
+:keycap_5: disenchants
+",2018-08-28 20:39:09
+2234162483322336,Selen,Bozkurt,21254,2234162483322336,854518728062939,user_quick_reply: BUTTON_DKB_sanctions,:keycap_3:,2018-08-28 20:39:50
+2234162483322336,Selen,Bozkurt,21255,854518728062939,2234162483322336,BOT: message,"Hmm, that wasn't quite right. :disappointed_face:",2018-08-28 20:39:51
+2234162483322336,Selen,Bozkurt,21256,854518728062939,2234162483322336,BOT: quick reply,The correct answer is evokes.,2018-08-28 20:39:52
+2234162483322336,Selen,Bozkurt,21257,2234162483322336,854518728062939,user_quick_reply: WHY,Why?,2018-08-28 20:40:12
+2234162483322336,Selen,Bozkurt,21258,854518728062939,2234162483322336,BOT: message,This is why:,2018-08-28 20:40:13
+2234162483322336,Selen,Bozkurt,21259,854518728062939,2234162483322336,BOT: quick reply,":pushpin: Evokes -- call forth emotions, feelings, and responses
+:pushpin: Admires -- feel admiration for
+:pushpin: Obfuscates -- make obscure or unclear
+:pushpin: Disenchants -- free from enchantment
+:pushpin: Sanctions -- give sanction to",2018-08-28 20:40:13
+2234162483322336,Selen,Bozkurt,21260,2234162483322336,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-28 20:40:28
+2234162483322336,Selen,Bozkurt,21261,854518728062939,2234162483322336,BOT: message,Could you answer this one for me?,2018-08-28 20:40:28
+2234162483322336,Selen,Bozkurt,21262,854518728062939,2234162483322336,BOT: quick reply,To what does the acronym SLM refer?,2018-08-28 20:40:29
+2234162483322336,Selen,Bozkurt,21263,2234162483322336,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-28 20:40:34
+2234162483322336,Selen,Bozkurt,21264,854518728062939,2234162483322336,BOT: message,Pick one of the following answers.,2018-08-28 20:40:35
+2234162483322336,Selen,Bozkurt,21265,854518728062939,2234162483322336,BOT: quick reply,":keycap_1: Sound Level Meter
+:keycap_2: Service Lifecycle Management
+:keycap_3: Sound Loudness Methods
+:keycap_4: System Level Monitor
+",2018-08-28 20:40:36
+2234162483322336,Selen,Bozkurt,21266,2234162483322336,854518728062939,user_quick_reply: BUTTON_AKB_Sound Level Meter,:keycap_1:,2018-08-28 20:40:40
+2234162483322336,Selen,Bozkurt,21267,854518728062939,2234162483322336,BOT: message,Great job getting the correct answer!,2018-08-28 20:40:40
+2234162483322336,Selen,Bozkurt,21268,854518728062939,2234162483322336,BOT: quick reply,The correct answer is Sound Level Meter.,2018-08-28 20:40:41
+2234162483322336,Selen,Bozkurt,21273,2234162483322336,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-28 20:40:47
+2234162483322336,Selen,Bozkurt,21274,854518728062939,2234162483322336,BOT: message,Let's see if you can answer this question.,2018-08-28 20:40:47
+2234162483322336,Selen,Bozkurt,21275,854518728062939,2234162483322336,BOT: quick reply,Most insects reproduce quickly and through what type of reproduction?,2018-08-28 20:40:48
+2234162483322336,Selen,Bozkurt,21276,2234162483322336,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-28 20:40:54
+2234162483322336,Selen,Bozkurt,21278,854518728062939,2234162483322336,BOT: message,Which of the following options is the right answer?,2018-08-28 20:40:55
+2234162483322336,Selen,Bozkurt,21280,854518728062939,2234162483322336,BOT: quick reply,":keycap_1: sexual reproduction
+:keycap_2: spores
+:keycap_3: asexual reproduction
+:keycap_4: photosynthesis
+",2018-08-28 20:40:55
+2234162483322336,Selen,Bozkurt,21282,2234162483322336,854518728062939,user_quick_reply: BUTTON_DKB_spores,:keycap_2:,2018-08-28 20:41:03
+2234162483322336,Selen,Bozkurt,21283,854518728062939,2234162483322336,BOT: message,"Hmm, that wasn't quite right. :disappointed_face:",2018-08-28 20:41:03
+2234162483322336,Selen,Bozkurt,21284,854518728062939,2234162483322336,BOT: quick reply,The correct answer is sexual reproduction.,2018-08-28 20:41:04
+2234162483322336,Selen,Bozkurt,21285,2234162483322336,854518728062939,user_quick_reply: WHY,Why?,2018-08-28 20:41:09
+2234162483322336,Selen,Bozkurt,21286,854518728062939,2234162483322336,BOT: message,I hope this explanation could help you understand the the question.,2018-08-28 20:41:10
+2234162483322336,Selen,Bozkurt,21287,854518728062939,2234162483322336,BOT: quick reply,"Most insects can reproduce very quickly within a short period of time. With a short generation time, they evolve faster and can quickly adjust to environmental changes. Most insects reproduce by sexual reproduction. The female produces eggs, which are fertilized by the male, and then the eggs are usually placed near the required food. In some insects, there is asexual reproduction during which the offspring come from a single parent. In this type of reproduction, the offspring are almost identical to the mother. This is most often seen in aphids and scale insects.",2018-08-28 20:41:10
+2234162483322336,Selen,Bozkurt,21288,2234162483322336,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-28 20:41:25
+2234162483322336,Selen,Bozkurt,21289,854518728062939,2234162483322336,BOT: message,Let's see if you can get this one.,2018-08-28 20:41:26
+2234162483322336,Selen,Bozkurt,21290,854518728062939,2234162483322336,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-28 20:41:26
+2234162483322336,Selen,Bozkurt,21291,854518728062939,2234162483322336,BOT: quick reply,"What agency inspects, grades, and enforces standards of quality and wholesomeness for meat, poultry, milk, eggs, and grains?",2018-08-28 20:41:27
+2234162483322336,Selen,Bozkurt,21292,2234162483322336,854518728062939,user_typing,Fda,2018-08-28 20:41:40
+2234162483322336,Selen,Bozkurt,21293,854518728062939,2234162483322336,BOT: message,"I'm sorry, but that was incorrect. :disappointed_face:",2018-08-28 20:41:40
+2234162483322336,Selen,Bozkurt,21294,854518728062939,2234162483322336,BOT: quick reply,The correct answer is USDA.,2018-08-28 20:41:41
+2234162483322336,Selen,Bozkurt,21295,2234162483322336,854518728062939,user_quick_reply: WHY,Why?,2018-08-28 20:41:45
+2234162483322336,Selen,Bozkurt,21296,854518728062939,2234162483322336,BOT: message,Here's why:,2018-08-28 20:41:46
+2234162483322336,Selen,Bozkurt,21297,854518728062939,2234162483322336,BOT: quick reply,"The United States Department of Agriculture (informally called the USDA or Agriculture Department) is the federal executive division formed to develop and execute U.S. federal government policy on food, farming and agriculture.",2018-08-28 20:41:47
+2234162483322336,Selen,Bozkurt,21298,2234162483322336,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-28 20:41:51
+2234162483322336,Selen,Bozkurt,21299,854518728062939,2234162483322336,BOT: message,"Alrighty, let's try this one.",2018-08-28 20:41:51
+2234162483322336,Selen,Bozkurt,21300,854518728062939,2234162483322336,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-28 20:41:52
+2234162483322336,Selen,Bozkurt,21301,854518728062939,2234162483322336,BOT: quick reply,Most fungi get organic compounds from what?,2018-08-28 20:41:52
+2234162483322336,Selen,Bozkurt,21302,2234162483322336,854518728062939,user_typing,Dead animals,2018-08-28 20:42:07
+2234162483322336,Selen,Bozkurt,21303,854518728062939,2234162483322336,BOT: message,Good job! :raising_hands_medium-light_skin_tone:,2018-08-28 20:42:08
+2234162483322336,Selen,Bozkurt,21304,854518728062939,2234162483322336,BOT: quick reply,The correct answer is dead organisms.,2018-08-28 20:42:08
+2234162483322336,Selen,Bozkurt,21305,2234162483322336,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-28 20:42:15
+2234162483322336,Selen,Bozkurt,21306,854518728062939,2234162483322336,BOT: message,Here's a question for you:,2018-08-28 20:42:15
+2234162483322336,Selen,Bozkurt,21307,854518728062939,2234162483322336,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-28 20:42:16
+2234162483322336,Selen,Bozkurt,21308,854518728062939,2234162483322336,BOT: quick reply,"Dolly Madison, the wife of President James Madison, was known especially for her _____ , remaining calm even as the British invaded Washington D.C. during the War of 1812.",2018-08-28 20:42:16
+2234162483322336,Selen,Bozkurt,21309,2234162483322336,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-28 20:42:44
+2234162483322336,Selen,Bozkurt,21310,854518728062939,2234162483322336,BOT: message,It's one of the following choices.,2018-08-28 20:42:44
+2234162483322336,Selen,Bozkurt,21311,854518728062939,2234162483322336,BOT: quick reply,":keycap_1: cynicism
+:keycap_2: equanimity
+:keycap_3: malevolence
+:keycap_4: zeal
+:keycap_5: impracticality
+",2018-08-28 20:42:45
+2234162483322336,Selen,Bozkurt,21312,2234162483322336,854518728062939,user_quick_reply: BUTTON_DKB_zeal,:keycap_4:,2018-08-28 20:42:49
+2234162483322336,Selen,Bozkurt,21313,854518728062939,2234162483322336,BOT: message,"Oops, that wasn't quite correct. :disappointed_face:",2018-08-28 20:42:50
+2234162483322336,Selen,Bozkurt,21314,854518728062939,2234162483322336,BOT: quick reply,The correct answer is equanimity.,2018-08-28 20:42:50
+2234162483322336,Selen,Bozkurt,21315,2234162483322336,854518728062939,user_quick_reply: WHY,Why?,2018-08-28 20:43:16
+2234162483322336,Selen,Bozkurt,21316,854518728062939,2234162483322336,BOT: message,This is why:,2018-08-28 20:43:17
+2234162483322336,Selen,Bozkurt,21317,854518728062939,2234162483322336,BOT: quick reply,":pushpin: Equanimity -- steadiness of mind under stress
+:pushpin: Impracticality -- concerned with theoretical possibilities rather than actual use
+:pushpin: Cynicism -- a cynical feeling of distrust
+:pushpin: Zeal -- a feeling of strong eagerness usually in favor of a person or cause
+:pushpin: Malevolence -- wishing evil to others",2018-08-28 20:43:17
+2234162483322336,Selen,Bozkurt,21318,2234162483322336,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-28 20:43:23
+2234162483322336,Selen,Bozkurt,21319,854518728062939,2234162483322336,BOT: message,Could you answer this one for me?,2018-08-28 20:43:23
+2234162483322336,Selen,Bozkurt,21320,854518728062939,2234162483322336,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-28 20:43:24
+2234162483322336,Selen,Bozkurt,21321,854518728062939,2234162483322336,BOT: quick reply,"Despite the smile that spread from ear to ear, the eyes relayed a certain _____ .",2018-08-28 20:43:25
+2234162483322336,Selen,Bozkurt,21322,2234162483322336,854518728062939,user_typing,Sorrow,2018-08-28 20:43:39
+2234162483322336,Selen,Bozkurt,21323,854518728062939,2234162483322336,BOT: message,Good Answer! :white_heavy_check_mark:,2018-08-28 20:43:40
+2234162483322336,Selen,Bozkurt,21324,854518728062939,2234162483322336,BOT: quick reply,The correct answer is sorrow.,2018-08-28 20:43:40
+2234162483322336,Selen,Bozkurt,21325,2234162483322336,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-28 20:43:47
+2234162483322336,Selen,Bozkurt,21326,854518728062939,2234162483322336,BOT: message,"Alrighty, let's try this one.",2018-08-28 20:43:47
+2234162483322336,Selen,Bozkurt,21327,854518728062939,2234162483322336,BOT: quick reply,"When you discover a fire, you should do what?",2018-08-28 20:43:48
+2234162483322336,Selen,Bozkurt,21328,2234162483322336,854518728062939,user_typing,Call 911,2018-08-28 20:44:07
+2234162483322336,Selen,Bozkurt,21329,854518728062939,2234162483322336,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_happy_cyan.png,2018-08-28 20:44:09
+2234162483322336,Selen,Bozkurt,21330,854518728062939,2234162483322336,BOT: message,Good Answer! :white_heavy_check_mark:,2018-08-28 20:44:10
+2234162483322336,Selen,Bozkurt,21331,854518728062939,2234162483322336,BOT: quick reply,The correct answer is Pull the fire alarm and call the fire department.,2018-08-28 20:44:10
+2234162483322336,Selen,Bozkurt,21332,2234162483322336,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-28 20:44:14
+2234162483322336,Selen,Bozkurt,21333,854518728062939,2234162483322336,BOT: message,Let's try this one.,2018-08-28 20:44:15
+2234162483322336,Selen,Bozkurt,21334,854518728062939,2234162483322336,BOT: quick reply,What should you NOT do while treating cuts and scrapes?,2018-08-28 20:44:15
+2234162483322336,Selen,Bozkurt,21335,2234162483322336,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-28 20:44:35
+2234162483322336,Selen,Bozkurt,21336,854518728062939,2234162483322336,BOT: message,Okay. I'll give you some choices.,2018-08-28 20:44:36
+2234162483322336,Selen,Bozkurt,21337,854518728062939,2234162483322336,BOT: quick reply,":keycap_1: Wash the wound with soap
+:keycap_2: Cover the wound
+:keycap_3: Apply an antibiotic to the wound
+:keycap_4: Apply pressure on the wound with a clean cloth or bandage
+",2018-08-28 20:44:37
+2234162483322336,Selen,Bozkurt,21338,2234162483322336,854518728062939,user_quick_reply: BUTTON_DKB_Cover the wound,:keycap_2:,2018-08-28 20:44:46
+2234162483322336,Selen,Bozkurt,21339,854518728062939,2234162483322336,BOT: message,"Oops, that wasn't quite correct. :disappointed_face:",2018-08-28 20:44:46
+2234162483322336,Selen,Bozkurt,21340,854518728062939,2234162483322336,BOT: quick reply,The correct answer is Wash the wound with soap.,2018-08-28 20:44:47
+2234162483322336,Selen,Bozkurt,21341,2234162483322336,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-28 20:44:53
+2234162483322336,Selen,Bozkurt,21342,854518728062939,2234162483322336,BOT: message,Let's take a look at this question.,2018-08-28 20:44:54
+2234162483322336,Selen,Bozkurt,21343,854518728062939,2234162483322336,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-28 20:44:54
+2234162483322336,Selen,Bozkurt,21344,854518728062939,2234162483322336,BOT: quick reply,Most insects reproduce quickly and through what type of reproduction?,2018-08-28 20:44:55
+2234162483322336,Selen,Bozkurt,21348,2234162483322336,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-28 20:45:07
+2234162483322336,Selen,Bozkurt,21349,854518728062939,2234162483322336,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-08-28 20:45:08
+2234162483322336,Selen,Bozkurt,21350,854518728062939,2234162483322336,BOT: quick reply,":keycap_1: sexual reproduction
+:keycap_2: photosynthesis
+:keycap_3: asexual reproduction
+:keycap_4: spores
+",2018-08-28 20:45:08
+2234162483322336,Selen,Bozkurt,21353,2234162483322336,854518728062939,user_quick_reply: BUTTON_AKB_sexual reproduction,:keycap_1:,2018-08-28 20:45:13
+2234162483322336,Selen,Bozkurt,21354,854518728062939,2234162483322336,BOT: message,Yes! You got the correct answer!,2018-08-28 20:45:13
+2234162483322336,Selen,Bozkurt,21355,854518728062939,2234162483322336,BOT: quick reply,The correct answer is sexual reproduction.,2018-08-28 20:45:14
+2234162483322336,Selen,Bozkurt,21356,2234162483322336,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-28 20:45:18
+2234162483322336,Selen,Bozkurt,21358,854518728062939,2234162483322336,BOT: message,Let's see if you can answer this question.,2018-08-28 20:45:19
+2234162483322336,Selen,Bozkurt,21360,854518728062939,2234162483322336,BOT: quick reply,What does CERT stand for?,2018-08-28 20:45:19
+2234162483322336,Selen,Bozkurt,21363,2234162483322336,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-28 20:45:24
+2234162483322336,Selen,Bozkurt,21364,854518728062939,2234162483322336,BOT: message,Pick one of the following answers.,2018-08-28 20:45:25
+2234162483322336,Selen,Bozkurt,21365,854518728062939,2234162483322336,BOT: quick reply,":keycap_1: Community Experimental Research Team
+:keycap_2: Controlled Evacuation and Response Tactics
+:keycap_3: Central Emergency Response Terminal
+:keycap_4: Community Emergency Response Team
+",2018-08-28 20:45:25
+2234162483322336,Selen,Bozkurt,21366,2234162483322336,854518728062939,user_quick_reply: BUTTON_AKB_Community Emergency Response Team,:keycap_4:,2018-08-28 20:45:33
+2234162483322336,Selen,Bozkurt,21367,854518728062939,2234162483322336,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_happy_cyan.png,2018-08-28 20:45:35
+2234162483322336,Selen,Bozkurt,21368,854518728062939,2234162483322336,BOT: message,Great! Keep it up! :flexed_biceps_medium-light_skin_tone:,2018-08-28 20:45:35
+2234162483322336,Selen,Bozkurt,21369,854518728062939,2234162483322336,BOT: quick reply,The correct answer is Community Emergency Response Team.,2018-08-28 20:45:36
+2234162483322336,Selen,Bozkurt,21370,2234162483322336,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-28 20:46:07
+2234162483322336,Selen,Bozkurt,21371,854518728062939,2234162483322336,BOT: message,Let's take a look at this question.,2018-08-28 20:46:07
+2234162483322336,Selen,Bozkurt,21372,854518728062939,2234162483322336,BOT: quick reply,Working on scaffold during winds above ____ miles per hour is prohibited by OSHA.,2018-08-28 20:46:08
+2234162483322336,Selen,Bozkurt,21373,2234162483322336,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-28 20:46:13
+2234162483322336,Selen,Bozkurt,21374,854518728062939,2234162483322336,BOT: message,Pick one of the following answers.,2018-08-28 20:46:14
+2234162483322336,Selen,Bozkurt,21375,854518728062939,2234162483322336,BOT: quick reply,":keycap_1: 25
+:keycap_2: 40
+:keycap_3: 50
+:keycap_4: 10
+",2018-08-28 20:46:14
+2234162483322336,Selen,Bozkurt,21376,2234162483322336,854518728062939,user_quick_reply: BUTTON_DKB_50,:keycap_3:,2018-08-28 20:46:21
+2234162483322336,Selen,Bozkurt,21377,854518728062939,2234162483322336,BOT: message,"Hmm, that wasn't quite right. :disappointed_face:",2018-08-28 20:46:22
+2234162483322336,Selen,Bozkurt,21378,854518728062939,2234162483322336,BOT: quick reply,The correct answer is 40.,2018-08-28 20:46:22
+2234162483322336,Selen,Bozkurt,21379,2234162483322336,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-28 20:46:26
+2234162483322336,Selen,Bozkurt,21380,854518728062939,2234162483322336,BOT: message,"Alrighty, let's try this one.",2018-08-28 20:46:26
+2234162483322336,Selen,Bozkurt,21381,854518728062939,2234162483322336,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-28 20:46:27
+2234162483322336,Selen,Bozkurt,21382,854518728062939,2234162483322336,BOT: quick reply,"Modern tennis fans have come to realize that, although, quantum technological leaps in racquet technology have lead to _____ increases in the speed and power with which players can hit the ball, this has not necessarily lead to a more entertaining game.",2018-08-28 20:46:27
+2234162483322336,Selen,Bozkurt,21383,2234162483322336,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-28 20:46:39
+2234162483322336,Selen,Bozkurt,21384,854518728062939,2234162483322336,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-08-28 20:46:40
+2234162483322336,Selen,Bozkurt,21385,854518728062939,2234162483322336,BOT: quick reply,":keycap_1: malleable
+:keycap_2: halcyon
+:keycap_3: commensurate
+:keycap_4: tractable
+:keycap_5: innocuous
+",2018-08-28 20:46:41
+2234162483322336,Selen,Bozkurt,21386,2234162483322336,854518728062939,user_quick_reply: BUTTON_DKB_tractable,:keycap_4:,2018-08-28 20:46:46
+2234162483322336,Selen,Bozkurt,21387,854518728062939,2234162483322336,BOT: message,"Hmm, that wasn't quite right. :disappointed_face:",2018-08-28 20:46:46
+2234162483322336,Selen,Bozkurt,21388,854518728062939,2234162483322336,BOT: quick reply,The correct answer is commensurate.,2018-08-28 20:46:47
+2234162483322336,Selen,Bozkurt,21389,2234162483322336,854518728062939,user_quick_reply: WHY,Why?,2018-08-28 20:46:59
+2234162483322336,Selen,Bozkurt,21390,854518728062939,2234162483322336,BOT: message,This is why:,2018-08-28 20:47:00
+2234162483322336,Selen,Bozkurt,21391,854518728062939,2234162483322336,BOT: quick reply,":pushpin: Commensurate -- corresponding in size or degree or extent
+:pushpin: Innocuous -- not injurious to physical or mental health
+:pushpin: Halcyon -- idyllically calm and peaceful; suggesting happy tranquillity
+:pushpin: Malleable -- easily influenced
+:pushpin: Tractable -- easily managed (controlled or taught or molded",2018-08-28 20:47:00
+2234162483322336,Selen,Bozkurt,23305,854518728062939,2234162483322336,BOT: quick reply,"Hi Selen, you haven't talked to me for a while. Would you like to resume the learning with me?",2018-08-29 20:00:26
+2234162483322336,Selen,Bozkurt,23308,854518728062939,2234162483322336,BOT: message,Let's see if you can get this one.,2018-08-29 20:01:05
+2234162483322336,Selen,Bozkurt,23309,854518728062939,2234162483322336,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-29 20:01:06
+2234162483322336,Selen,Bozkurt,23310,854518728062939,2234162483322336,BOT: quick reply,Working on scaffold during winds above ____ miles per hour is prohibited by OSHA.,2018-08-29 20:01:06
+2234162483322336,Selen,Bozkurt,23311,2234162483322336,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-29 20:02:05
+2234162483322336,Selen,Bozkurt,23312,854518728062939,2234162483322336,BOT: message,Which of the following options is the right answer?,2018-08-29 20:02:06
+2234162483322336,Selen,Bozkurt,23313,854518728062939,2234162483322336,BOT: quick reply,":keycap_1: 10
+:keycap_2: 40
+:keycap_3: 25
+:keycap_4: 50
+",2018-08-29 20:02:06
+2234162483322336,Selen,Bozkurt,23314,2234162483322336,854518728062939,user_quick_reply: BUTTON_AKB_40,:keycap_2:,2018-08-29 20:02:11
+2234162483322336,Selen,Bozkurt,23315,854518728062939,2234162483322336,BOT: message,Great! Keep it up! :flexed_biceps_medium-light_skin_tone:,2018-08-29 20:02:12
+2234162483322336,Selen,Bozkurt,23316,854518728062939,2234162483322336,BOT: quick reply,The correct answer is 40.,2018-08-29 20:02:12
+2234162483322336,Selen,Bozkurt,23317,2234162483322336,854518728062939,user_quick_reply: WHY,Why?,2018-08-29 20:02:22
+2234162483322336,Selen,Bozkurt,23318,854518728062939,2234162483322336,BOT: message,Here's why:,2018-08-29 20:02:22
+2234162483322336,Selen,Bozkurt,23319,854518728062939,2234162483322336,BOT: quick reply,OSHA prohibits working on or from scaffolds when winds are above 40 miles/hour except in cases when a competent person has concluded that it is safe for workers to be on a scaffold and these workers are protected by wind screens or fall arrest systems.,2018-08-29 20:02:23
+2234162483322336,Selen,Bozkurt,23320,2234162483322336,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-29 20:02:51
+2234162483322336,Selen,Bozkurt,23321,854518728062939,2234162483322336,BOT: message,Let's see if you can get this one.,2018-08-29 20:02:51
+2234162483322336,Selen,Bozkurt,23322,854518728062939,2234162483322336,BOT: quick reply,True or false: portable fire extinguishers should only be used by trained employees.,2018-08-29 20:02:52
+2234162483322336,Selen,Bozkurt,23323,2234162483322336,854518728062939,user_typing,True,2018-08-29 20:03:07
+2234162483322336,Selen,Bozkurt,23324,854518728062939,2234162483322336,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_normal_orange.png,2018-08-29 20:03:09
+2234162483322336,Selen,Bozkurt,23325,854518728062939,2234162483322336,BOT: message,Correct! :confetti_ball:,2018-08-29 20:03:10
+2234162483322336,Selen,Bozkurt,23326,854518728062939,2234162483322336,BOT: quick reply,The correct answer is True.,2018-08-29 20:03:10
+2234162483322336,Selen,Bozkurt,23327,2234162483322336,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-29 20:03:20
+2234162483322336,Selen,Bozkurt,23328,854518728062939,2234162483322336,BOT: message,Let's see if you can get this one.,2018-08-29 20:03:20
+2234162483322336,Selen,Bozkurt,23329,854518728062939,2234162483322336,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-29 20:03:21
+2234162483322336,Selen,Bozkurt,23330,854518728062939,2234162483322336,BOT: quick reply,"Despite the smile that spread from ear to ear, the eyes relayed a certain _____ .",2018-08-29 20:03:22
+2234162483322336,Selen,Bozkurt,23331,2234162483322336,854518728062939,user_typing,Sorrow,2018-08-29 20:03:49
+2234162483322336,Selen,Bozkurt,23332,854518728062939,2234162483322336,BOT: message,Thats right! :party_popper:,2018-08-29 20:03:49
+2234162483322336,Selen,Bozkurt,23333,854518728062939,2234162483322336,BOT: quick reply,The correct answer is sorrow.,2018-08-29 20:03:50
+2234162483322336,Selen,Bozkurt,23334,2234162483322336,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-29 20:03:55
+2234162483322336,Selen,Bozkurt,23335,854518728062939,2234162483322336,BOT: message,Would you answer this question for me?,2018-08-29 20:03:55
+2234162483322336,Selen,Bozkurt,23336,854518728062939,2234162483322336,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-29 20:03:56
+2234162483322336,Selen,Bozkurt,23337,854518728062939,2234162483322336,BOT: quick reply,"Although John F. Kennedy was known for his carefree flag football games, Gerald Ford should be _____ as our football president: he turned down offers to play for two National Football League teams in order to pursue a career in public service.",2018-08-29 20:03:56
+2234162483322336,Selen,Bozkurt,23338,2234162483322336,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-29 20:04:22
+2234162483322336,Selen,Bozkurt,23339,854518728062939,2234162483322336,BOT: message,Pick one of the following answers.,2018-08-29 20:04:23
+2234162483322336,Selen,Bozkurt,23340,854518728062939,2234162483322336,BOT: quick reply,":keycap_1: abrogated
+:keycap_2: annulled
+:keycap_3: criticized
+:keycap_4: relegated
+:keycap_5: apotheosized
+",2018-08-29 20:04:23
+2234162483322336,Selen,Bozkurt,23341,2234162483322336,854518728062939,user_quick_reply: BUTTON_AKB_apotheosized,:keycap_5:,2018-08-29 20:04:42
+2234162483322336,Selen,Bozkurt,23342,854518728062939,2234162483322336,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_jubilated_orange.png,2018-08-29 20:04:44
+2234162483322336,Selen,Bozkurt,23343,854518728062939,2234162483322336,BOT: message,Nice work! Keep it up!,2018-08-29 20:04:45
+2234162483322336,Selen,Bozkurt,23344,854518728062939,2234162483322336,BOT: quick reply,The correct answer is apotheosized.,2018-08-29 20:04:45
+2234162483322336,Selen,Bozkurt,23345,2234162483322336,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-29 20:05:04
+2234162483322336,Selen,Bozkurt,23346,854518728062939,2234162483322336,BOT: message,Let's try this one.,2018-08-29 20:05:04
+2234162483322336,Selen,Bozkurt,23347,854518728062939,2234162483322336,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-29 20:05:05
+2234162483322336,Selen,Bozkurt,23348,854518728062939,2234162483322336,BOT: quick reply,"What agency inspects, grades, and enforces standards of quality and wholesomeness for meat, poultry, milk, eggs, and grains?",2018-08-29 20:05:05
+2234162483322336,Selen,Bozkurt,23349,2234162483322336,854518728062939,user_typing,Usda,2018-08-29 20:05:24
+2234162483322336,Selen,Bozkurt,23350,854518728062939,2234162483322336,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_jubilated_orange.png,2018-08-29 20:05:26
+2234162483322336,Selen,Bozkurt,23351,854518728062939,2234162483322336,BOT: message,Good job! :raising_hands_medium-light_skin_tone:,2018-08-29 20:05:27
+2234162483322336,Selen,Bozkurt,23352,854518728062939,2234162483322336,BOT: quick reply,The correct answer is USDA.,2018-08-29 20:05:27
+2234162483322336,Selen,Bozkurt,23353,2234162483322336,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-29 20:05:34
+2234162483322336,Selen,Bozkurt,23354,854518728062939,2234162483322336,BOT: message,Here's a question for you:,2018-08-29 20:05:34
+2234162483322336,Selen,Bozkurt,23355,854518728062939,2234162483322336,BOT: quick reply,How often should women perform a breast self-exam?,2018-08-29 20:05:35
+2234162483322336,Selen,Bozkurt,23356,2234162483322336,854518728062939,user_typing,Every year,2018-08-29 20:05:50
+2234162483322336,Selen,Bozkurt,23357,854518728062939,2234162483322336,BOT: message,"Oops, that answer was incorrect. :disappointed_face:",2018-08-29 20:05:50
+2234162483322336,Selen,Bozkurt,23358,854518728062939,2234162483322336,BOT: quick reply,The correct answer is monthly.,2018-08-29 20:05:51
+2234162483322336,Selen,Bozkurt,23359,2234162483322336,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-29 20:06:12
+2234162483322336,Selen,Bozkurt,23360,854518728062939,2234162483322336,BOT: message,What about this next question:,2018-08-29 20:06:12
+2234162483322336,Selen,Bozkurt,23361,854518728062939,2234162483322336,BOT: quick reply,"Dolly Madison, the wife of President James Madison, was known especially for her _____ , remaining calm even as the British invaded Washington D.C. during the War of 1812.",2018-08-29 20:06:13
+2234162483322336,Selen,Bozkurt,23362,2234162483322336,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-29 20:06:34
+2234162483322336,Selen,Bozkurt,23363,854518728062939,2234162483322336,BOT: message,Which of the following options is the right answer?,2018-08-29 20:06:35
+2234162483322336,Selen,Bozkurt,23364,854518728062939,2234162483322336,BOT: quick reply,":keycap_1: malevolence
+:keycap_2: impracticality
+:keycap_3: equanimity
+:keycap_4: cynicism
+:keycap_5: zeal
+",2018-08-29 20:06:35
+2234162483322336,Selen,Bozkurt,23365,2234162483322336,854518728062939,user_quick_reply: BUTTON_DKB_cynicism,:keycap_4:,2018-08-29 20:06:57
+2234162483322336,Selen,Bozkurt,23366,854518728062939,2234162483322336,BOT: message,That's not quite right. :disappointed_face:,2018-08-29 20:06:57
+2234162483322336,Selen,Bozkurt,23367,854518728062939,2234162483322336,BOT: quick reply,The correct answer is equanimity.,2018-08-29 20:06:58
+2234162483322336,Selen,Bozkurt,23368,2234162483322336,854518728062939,user_quick_reply: WHY,Why?,2018-08-29 20:07:20
+2234162483322336,Selen,Bozkurt,23369,854518728062939,2234162483322336,BOT: message,Here's why:,2018-08-29 20:07:21
+2234162483322336,Selen,Bozkurt,23370,854518728062939,2234162483322336,BOT: quick reply,":pushpin: Equanimity -- steadiness of mind under stress
+:pushpin: Impracticality -- concerned with theoretical possibilities rather than actual use
+:pushpin: Cynicism -- a cynical feeling of distrust
+:pushpin: Zeal -- a feeling of strong eagerness usually in favor of a person or cause
+:pushpin: Malevolence -- wishing evil to others",2018-08-29 20:07:21
+2234162483322336,Selen,Bozkurt,23371,2234162483322336,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-29 20:07:57
+2234162483322336,Selen,Bozkurt,23372,854518728062939,2234162483322336,BOT: message,Let's see if you can answer this question.,2018-08-29 20:07:57
+2234162483322336,Selen,Bozkurt,23373,854518728062939,2234162483322336,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-29 20:07:58
+2234162483322336,Selen,Bozkurt,23374,854518728062939,2234162483322336,BOT: quick reply,What kind of viscosity is found in long-chain hydrocarbons?,2018-08-29 20:07:58
+2234162483322336,Selen,Bozkurt,23375,2234162483322336,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-29 20:08:15
+2234162483322336,Selen,Bozkurt,23376,854518728062939,2234162483322336,BOT: message,Okay. I'll give you some choices.,2018-08-29 20:08:15
+2234162483322336,Selen,Bozkurt,23377,854518728062939,2234162483322336,BOT: quick reply,":keycap_1: intense viscosity
+:keycap_2: increased viscosity
+:keycap_3: high viscosity
+:keycap_4: low viscosity
+",2018-08-29 20:08:16
+2234162483322336,Selen,Bozkurt,23378,2234162483322336,854518728062939,user_quick_reply: BUTTON_DKB_low viscosity,:keycap_4:,2018-08-29 20:08:26
+2234162483322336,Selen,Bozkurt,23379,854518728062939,2234162483322336,BOT: message,"Oops, that is not correct. :disappointed_face:",2018-08-29 20:08:27
+2234162483322336,Selen,Bozkurt,23380,854518728062939,2234162483322336,BOT: quick reply,The correct answer is high viscosity.,2018-08-29 20:08:28
+2234162483322336,Selen,Bozkurt,23381,2234162483322336,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-29 20:08:36
+2234162483322336,Selen,Bozkurt,23382,854518728062939,2234162483322336,BOT: message,Let's try this one.,2018-08-29 20:08:37
+2234162483322336,Selen,Bozkurt,23383,854518728062939,2234162483322336,BOT: quick reply,How often should women perform a breast self-exam?,2018-08-29 20:08:37
+2234162483322336,Selen,Bozkurt,23384,2234162483322336,854518728062939,user_typing,Every month,2018-08-29 20:08:47
+2234162483322336,Selen,Bozkurt,23385,854518728062939,2234162483322336,BOT: message,"I'm sorry, but that was incorrect. :disappointed_face:",2018-08-29 20:08:48
+2234162483322336,Selen,Bozkurt,23386,854518728062939,2234162483322336,BOT: quick reply,The correct answer is monthly.,2018-08-29 20:08:48
+2234162483322336,Selen,Bozkurt,23387,2234162483322336,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-29 20:09:06
+2234162483322336,Selen,Bozkurt,23388,854518728062939,2234162483322336,BOT: message,Would you answer this question for me?,2018-08-29 20:09:06
+2234162483322336,Selen,Bozkurt,23389,854518728062939,2234162483322336,BOT: quick reply,What kind of viscosity is found in long-chain hydrocarbons?,2018-08-29 20:09:07
+2234162483322336,Selen,Bozkurt,23390,2234162483322336,854518728062939,user_typing,High viscosity,2018-08-29 20:09:31
+2234162483322336,Selen,Bozkurt,23391,854518728062939,2234162483322336,BOT: message,Good job! :raising_hands_medium-light_skin_tone:,2018-08-29 20:09:31
+2234162483322336,Selen,Bozkurt,23392,854518728062939,2234162483322336,BOT: quick reply,The correct answer is high viscosity.,2018-08-29 20:09:32
+2234162483322336,Selen,Bozkurt,23393,2234162483322336,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-29 20:09:36
+2234162483322336,Selen,Bozkurt,23394,854518728062939,2234162483322336,BOT: message,"Alrighty, let's try this one.",2018-08-29 20:09:36
+2234162483322336,Selen,Bozkurt,23395,854518728062939,2234162483322336,BOT: quick reply,How often should women perform a breast self-exam?,2018-08-29 20:09:37
+2234162483322336,Selen,Bozkurt,23396,2234162483322336,854518728062939,user_typing,Monthly,2018-08-29 20:09:48
+2234162483322336,Selen,Bozkurt,23397,854518728062939,2234162483322336,BOT: message,Thats right! :party_popper:,2018-08-29 20:09:48
+2234162483322336,Selen,Bozkurt,23398,854518728062939,2234162483322336,BOT: quick reply,The correct answer is monthly.,2018-08-29 20:09:49
+2234162483322336,Selen,Bozkurt,23399,2234162483322336,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-29 20:09:53
+2234162483322336,Selen,Bozkurt,23400,854518728062939,2234162483322336,BOT: message,Here's a question for you:,2018-08-29 20:09:54
+2234162483322336,Selen,Bozkurt,23401,854518728062939,2234162483322336,BOT: quick reply,What are the little sacs at the end of the bronchioles called?,2018-08-29 20:09:54
+2234162483322336,Selen,Bozkurt,23402,2234162483322336,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-29 20:10:13
+2234162483322336,Selen,Bozkurt,23403,854518728062939,2234162483322336,BOT: message,Pick one of the following answers.,2018-08-29 20:10:14
+2234162483322336,Selen,Bozkurt,23404,854518728062939,2234162483322336,BOT: quick reply,":keycap_1: ganglion
+:keycap_2: alveoli
+:keycap_3: respiratory sacs
+:keycap_4: lung
+",2018-08-29 20:10:14
+2234162483322336,Selen,Bozkurt,23405,2234162483322336,854518728062939,user_quick_reply: BUTTON_AKB_alveoli,:keycap_2:,2018-08-29 20:10:20
+2234162483322336,Selen,Bozkurt,23406,854518728062939,2234162483322336,BOT: message,Great job getting the correct answer!,2018-08-29 20:10:20
+2234162483322336,Selen,Bozkurt,23407,854518728062939,2234162483322336,BOT: quick reply,The correct answer is alveoli.,2018-08-29 20:10:21
+2234162483322336,Selen,Bozkurt,23408,2234162483322336,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-29 20:10:28
+2234162483322336,Selen,Bozkurt,23409,854518728062939,2234162483322336,BOT: message,How about this next one:,2018-08-29 20:10:28
+2234162483322336,Selen,Bozkurt,23410,854518728062939,2234162483322336,BOT: quick reply,"Temperature, water, soil, and air are examples of nonliving factors of an ecosystem, also termed what?",2018-08-29 20:10:29
+2234162483322336,Selen,Bozkurt,23411,2234162483322336,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-29 20:11:43
+2234162483322336,Selen,Bozkurt,23412,854518728062939,2234162483322336,BOT: message,Okay. I'll give you some choices.,2018-08-29 20:11:43
+2234162483322336,Selen,Bozkurt,23413,854518728062939,2234162483322336,BOT: quick reply,":keycap_1: diverse factors
+:keycap_2: abiotic factors
+:keycap_3: nucleic factors
+:keycap_4: conditional factors
+",2018-08-29 20:11:44
+2234162483322336,Selen,Bozkurt,23414,2234162483322336,854518728062939,user_quick_reply: BUTTON_DKB_nucleic factors,:keycap_3:,2018-08-29 20:11:56
+2234162483322336,Selen,Bozkurt,23415,854518728062939,2234162483322336,BOT: message,"Oops, that is not correct. :disappointed_face:",2018-08-29 20:11:56
+2234162483322336,Selen,Bozkurt,23416,854518728062939,2234162483322336,BOT: quick reply,The correct answer is abiotic factors.,2018-08-29 20:11:57
+2234162483322336,Selen,Bozkurt,23417,2234162483322336,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-29 20:12:07
+2234162483322336,Selen,Bozkurt,23418,854518728062939,2234162483322336,BOT: message,Let's try this question.,2018-08-29 20:12:08
+2234162483322336,Selen,Bozkurt,23419,854518728062939,2234162483322336,BOT: quick reply,What are the little sacs at the end of the bronchioles called?,2018-08-29 20:12:08
+2234162483322336,Selen,Bozkurt,23420,2234162483322336,854518728062939,user_typing,Alveoali,2018-08-29 20:12:30
+2234162483322336,Selen,Bozkurt,23421,854518728062939,2234162483322336,BOT: message,"I'm sorry, but that was incorrect. :disappointed_face:",2018-08-29 20:12:31
+2234162483322336,Selen,Bozkurt,23422,854518728062939,2234162483322336,BOT: quick reply,The correct answer is alveoli.,2018-08-29 20:12:31
+2234162483322336,Selen,Bozkurt,23423,2234162483322336,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-29 20:12:42
+2234162483322336,Selen,Bozkurt,23424,854518728062939,2234162483322336,BOT: message,Would you answer this question for me?,2018-08-29 20:12:42
+2234162483322336,Selen,Bozkurt,23425,854518728062939,2234162483322336,BOT: quick reply,"Modern tennis fans have come to realize that, although, quantum technological leaps in racquet technology have lead to _____ increases in the speed and power with which players can hit the ball, this has not necessarily lead to a more entertaining game.",2018-08-29 20:12:43
+2234162483322336,Selen,Bozkurt,23426,2234162483322336,854518728062939,user_typing,Dramatic,2018-08-29 20:13:16
+2234162483322336,Selen,Bozkurt,23427,854518728062939,2234162483322336,BOT: message,"I'm sorry, but that was incorrect. :disappointed_face:",2018-08-29 20:13:17
+2234162483322336,Selen,Bozkurt,23428,854518728062939,2234162483322336,BOT: quick reply,The correct answer is commensurate.,2018-08-29 20:13:17
+2234162483322336,Selen,Bozkurt,23429,2234162483322336,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-29 20:13:40
+2234162483322336,Selen,Bozkurt,23430,854518728062939,2234162483322336,BOT: message,I think you'll like this question.,2018-08-29 20:13:41
+2234162483322336,Selen,Bozkurt,23431,854518728062939,2234162483322336,BOT: quick reply,"What agency inspects, grades, and enforces standards of quality and wholesomeness for meat, poultry, milk, eggs, and grains?",2018-08-29 20:13:41
+2234162483322336,Selen,Bozkurt,23432,2234162483322336,854518728062939,user_typing,Usda,2018-08-29 20:13:50
+2234162483322336,Selen,Bozkurt,23433,854518728062939,2234162483322336,BOT: message,Fantastic! :hundred_points:,2018-08-29 20:13:51
+2234162483322336,Selen,Bozkurt,23434,854518728062939,2234162483322336,BOT: quick reply,The correct answer is USDA.,2018-08-29 20:13:51
+2234162483322336,Selen,Bozkurt,23435,2234162483322336,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-29 20:13:57
+2234162483322336,Selen,Bozkurt,23436,854518728062939,2234162483322336,BOT: message,Would you answer this question for me?,2018-08-29 20:13:58
+2234162483322336,Selen,Bozkurt,23437,854518728062939,2234162483322336,BOT: quick reply,What does CERT stand for?,2018-08-29 20:13:59
+2234162483322336,Selen,Bozkurt,23438,2234162483322336,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-29 20:14:09
+2234162483322336,Selen,Bozkurt,23439,854518728062939,2234162483322336,BOT: message,It's one of the following choices.,2018-08-29 20:14:09
+2234162483322336,Selen,Bozkurt,23440,854518728062939,2234162483322336,BOT: quick reply,":keycap_1: Controlled Evacuation and Response Tactics
+:keycap_2: Community Emergency Response Team
+:keycap_3: Community Experimental Research Team
+:keycap_4: Central Emergency Response Terminal
+",2018-08-29 20:14:10
+2234162483322336,Selen,Bozkurt,23441,2234162483322336,854518728062939,user_quick_reply: BUTTON_AKB_Community Emergency Response Team,:keycap_2:,2018-08-29 20:14:16
+2234162483322336,Selen,Bozkurt,23442,854518728062939,2234162483322336,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_jubilated_purple.png,2018-08-29 20:14:17
+2234162483322336,Selen,Bozkurt,23443,854518728062939,2234162483322336,BOT: message,Great! Keep it up! :flexed_biceps_medium-light_skin_tone:,2018-08-29 20:14:18
+2234162483322336,Selen,Bozkurt,23444,854518728062939,2234162483322336,BOT: quick reply,The correct answer is Community Emergency Response Team.,2018-08-29 20:14:19
+2234162483322336,Selen,Bozkurt,23445,2234162483322336,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-29 20:14:25
+2234162483322336,Selen,Bozkurt,23446,854518728062939,2234162483322336,BOT: message,Here's a question for you:,2018-08-29 20:14:26
+2234162483322336,Selen,Bozkurt,23447,854518728062939,2234162483322336,BOT: quick reply,"Even though legislators claimed the Contagious Diseases Acts strengthened the nation, social purists argued the Acts _____ the nation's moral growth by encouraging licentious behavior.",2018-08-29 20:14:26
+2234162483322336,Selen,Bozkurt,23448,2234162483322336,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-29 20:14:43
+2234162483322336,Selen,Bozkurt,23449,854518728062939,2234162483322336,BOT: message,Pick one of the following answers.,2018-08-29 20:14:43
+2234162483322336,Selen,Bozkurt,23450,854518728062939,2234162483322336,BOT: quick reply,":keycap_1: advanced
+:keycap_2: supplanted
+:keycap_3: enhanced
+:keycap_4: hampered
+:keycap_5: ameliorated
+",2018-08-29 20:14:44
+2234162483322336,Selen,Bozkurt,23451,2234162483322336,854518728062939,user_quick_reply: BUTTON_AKB_hampered,:keycap_4:,2018-08-29 20:14:56
+2234162483322336,Selen,Bozkurt,23452,854518728062939,2234162483322336,BOT: message,Great job getting the correct answer!,2018-08-29 20:14:57
+2234162483322336,Selen,Bozkurt,23453,854518728062939,2234162483322336,BOT: quick reply,The correct answer is hampered.,2018-08-29 20:14:57
+2234162483322336,Selen,Bozkurt,23454,2234162483322336,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-29 20:15:06
+2234162483322336,Selen,Bozkurt,23455,854518728062939,2234162483322336,BOT: message,Let's see if you can answer this question.,2018-08-29 20:15:06
+2234162483322336,Selen,Bozkurt,23456,854518728062939,2234162483322336,BOT: quick reply,"Even though legislators claimed the Contagious Diseases Acts strengthened the nation, social purists argued the Acts _____ the nation's moral growth by encouraging licentious behavior.",2018-08-29 20:15:07
+2234162483322336,Selen,Bozkurt,23457,2234162483322336,854518728062939,user_typing,Hampered,2018-08-29 20:16:50
+2234162483322336,Selen,Bozkurt,23458,854518728062939,2234162483322336,BOT: message,Thats right! :party_popper:,2018-08-29 20:16:51
+2234162483322336,Selen,Bozkurt,23459,854518728062939,2234162483322336,BOT: quick reply,The correct answer is hampered.,2018-08-29 20:16:51
+2234162483322336,Selen,Bozkurt,23460,2234162483322336,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-29 20:17:12
+2234162483322336,Selen,Bozkurt,23461,854518728062939,2234162483322336,BOT: message,See if you can answer this next one.,2018-08-29 20:17:13
+2234162483322336,Selen,Bozkurt,23462,854518728062939,2234162483322336,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-29 20:17:14
+2234162483322336,Selen,Bozkurt,23463,854518728062939,2234162483322336,BOT: quick reply,The Erie Canal's completion caused _____ economic ripples; property values and industrial output along its route rose exponentially.,2018-08-29 20:17:14
+2234162483322336,Selen,Bozkurt,23464,2234162483322336,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-29 20:17:29
+2234162483322336,Selen,Bozkurt,23465,854518728062939,2234162483322336,BOT: message,Pick one of the following answers.,2018-08-29 20:17:29
+2234162483322336,Selen,Bozkurt,23466,854518728062939,2234162483322336,BOT: quick reply,":keycap_1: incredulous
+:keycap_2: persistent
+:keycap_3: prodigious
+:keycap_4: severe
+:keycap_5: invaluable
+",2018-08-29 20:17:30
+2234162483322336,Selen,Bozkurt,23467,2234162483322336,854518728062939,user_quick_reply: BUTTON_AKB_prodigious,:keycap_3:,2018-08-29 20:17:51
+2234162483322336,Selen,Bozkurt,23468,854518728062939,2234162483322336,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_jubilated_orange.png,2018-08-29 20:17:53
+2234162483322336,Selen,Bozkurt,23469,854518728062939,2234162483322336,BOT: message,Yes! You got the correct answer!,2018-08-29 20:17:54
+2234162483322336,Selen,Bozkurt,23470,854518728062939,2234162483322336,BOT: quick reply,The correct answer is prodigious.,2018-08-29 20:17:54
+2234162483322336,Selen,Bozkurt,23471,2234162483322336,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-29 20:17:58
+2234162483322336,Selen,Bozkurt,23472,854518728062939,2234162483322336,BOT: message,Let's try this one.,2018-08-29 20:17:58
+2234162483322336,Selen,Bozkurt,23473,854518728062939,2234162483322336,BOT: quick reply,"What agency inspects, grades, and enforces standards of quality and wholesomeness for meat, poultry, milk, eggs, and grains?",2018-08-29 20:17:59
+2234162483322336,Selen,Bozkurt,24381,2234162483322336,854518728062939,user_typing,Usda,2018-08-30 01:39:42
+2234162483322336,Selen,Bozkurt,24382,854518728062939,2234162483322336,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_normal_cyan.png,2018-08-30 01:39:44
+2234162483322336,Selen,Bozkurt,24383,854518728062939,2234162483322336,BOT: message,Correct! :confetti_ball:,2018-08-30 01:39:44
+2234162483322336,Selen,Bozkurt,24384,854518728062939,2234162483322336,BOT: quick reply,The correct answer is USDA.,2018-08-30 01:39:45
+2234162483322336,Selen,Bozkurt,26207,854518728062939,2234162483322336,BOT: quick reply,"Hi Selen, you haven't talked to me for a while. Would you like to resume the learning with me?",2018-08-30 20:00:43
+2234162483322336,Selen,Bozkurt,26473,2234162483322336,854518728062939,user_quick_reply: NEXT_QUESTION,Alrighty :white_heavy_check_mark:,2018-08-30 21:08:09
+2234162483322336,Selen,Bozkurt,26474,854518728062939,2234162483322336,BOT: message,See if you can answer this next one.,2018-08-30 21:08:10
+2234162483322336,Selen,Bozkurt,26475,854518728062939,2234162483322336,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-30 21:08:10
+2234162483322336,Selen,Bozkurt,26476,854518728062939,2234162483322336,BOT: quick reply,Working on scaffold during winds above ____ miles per hour is prohibited by OSHA.,2018-08-30 21:08:11
+2234162483322336,Selen,Bozkurt,26477,2234162483322336,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-30 21:08:15
+2234162483322336,Selen,Bozkurt,26478,854518728062939,2234162483322336,BOT: message,Which of the following options is the right answer?,2018-08-30 21:08:15
+2234162483322336,Selen,Bozkurt,26479,854518728062939,2234162483322336,BOT: quick reply,":keycap_1: 10
+:keycap_2: 25
+:keycap_3: 50
+:keycap_4: 40
+",2018-08-30 21:08:16
+2234162483322336,Selen,Bozkurt,26480,2234162483322336,854518728062939,user_quick_reply: BUTTON_AKB_40,:keycap_4:,2018-08-30 21:08:21
+2234162483322336,Selen,Bozkurt,26481,854518728062939,2234162483322336,BOT: message,Great job getting the correct answer!,2018-08-30 21:08:22
+2234162483322336,Selen,Bozkurt,26482,854518728062939,2234162483322336,BOT: quick reply,The correct answer is 40.,2018-08-30 21:08:22
+2234162483322336,Selen,Bozkurt,26483,2234162483322336,854518728062939,user_quick_reply: WHY,Why?,2018-08-30 21:08:28
+2234162483322336,Selen,Bozkurt,26484,854518728062939,2234162483322336,BOT: message,Here's an explanation:,2018-08-30 21:08:29
+2234162483322336,Selen,Bozkurt,26485,854518728062939,2234162483322336,BOT: quick reply,OSHA prohibits working on or from scaffolds when winds are above 40 miles/hour except in cases when a competent person has concluded that it is safe for workers to be on a scaffold and these workers are protected by wind screens or fall arrest systems.,2018-08-30 21:08:30
+2234162483322336,Selen,Bozkurt,26486,2234162483322336,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-30 21:08:33
+2234162483322336,Selen,Bozkurt,26487,854518728062939,2234162483322336,BOT: message,Let's see if you can answer this question.,2018-08-30 21:08:34
+2234162483322336,Selen,Bozkurt,26488,854518728062939,2234162483322336,BOT: quick reply,How long can high-acid canned food such as tomatoes be stored?,2018-08-30 21:08:34
+2234162483322336,Selen,Bozkurt,26936,2234162483322336,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-30 23:23:55
+2234162483322336,Selen,Bozkurt,26937,854518728062939,2234162483322336,BOT: message,Okay. I'll give you some choices.,2018-08-30 23:23:56
+2234162483322336,Selen,Bozkurt,26938,854518728062939,2234162483322336,BOT: quick reply,":keycap_1: 2 to 6 months
+:keycap_2: 10 to 30 days
+:keycap_3: 2 to 4 years
+:keycap_4: 12 to 18 months
+",2018-08-30 23:23:56
+2234162483322336,Selen,Bozkurt,26939,2234162483322336,854518728062939,user_quick_reply: BUTTON_DKB_2 to 4 years,:keycap_3:,2018-08-30 23:24:00
+2234162483322336,Selen,Bozkurt,26940,854518728062939,2234162483322336,BOT: message,"Oops, that wasn't quite correct. :disappointed_face:",2018-08-30 23:24:01
+2234162483322336,Selen,Bozkurt,26942,854518728062939,2234162483322336,BOT: quick reply,The correct answer is 12 to 18 months.,2018-08-30 23:24:02
+2234162483322336,Selen,Bozkurt,26945,2234162483322336,854518728062939,user_quick_reply: WHY,Why?,2018-08-30 23:24:05
+2234162483322336,Selen,Bozkurt,26946,854518728062939,2234162483322336,BOT: message,I hope this explanation could help you understand the the question.,2018-08-30 23:24:06
+2234162483322336,Selen,Bozkurt,26947,854518728062939,2234162483322336,BOT: quick reply,"According to the United States Department of Agriculture (USDA), In general, high-acid canned food such as tomatoes, grapefruit, and pineapple can be stored on the shelf for 12 to 18 months. Low-acid canned food such as meat, poultry, fish, and most vegetables will keep 2 to 5 years if the can remains in good condition and has been stored in a cool, clean, and dry place.",2018-08-30 23:24:07
+2234162483322336,Selen,Bozkurt,26951,2234162483322336,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-30 23:24:19
+2234162483322336,Selen,Bozkurt,26952,854518728062939,2234162483322336,BOT: message,What about this next question:,2018-08-30 23:24:20
+2234162483322336,Selen,Bozkurt,26953,854518728062939,2234162483322336,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-30 23:24:20
+2234162483322336,Selen,Bozkurt,26954,854518728062939,2234162483322336,BOT: quick reply,"Dolly Madison, the wife of President James Madison, was known especially for her _____ , remaining calm even as the British invaded Washington D.C. during the War of 1812.",2018-08-30 23:24:21
+2234162483322336,Selen,Bozkurt,26959,2234162483322336,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-30 23:24:35
+2234162483322336,Selen,Bozkurt,26960,854518728062939,2234162483322336,BOT: message,Pick one of the following answers.,2018-08-30 23:24:35
+2234162483322336,Selen,Bozkurt,26961,854518728062939,2234162483322336,BOT: quick reply,":keycap_1: impracticality
+:keycap_2: zeal
+:keycap_3: cynicism
+:keycap_4: equanimity
+:keycap_5: malevolence
+",2018-08-30 23:24:36
+2234162483322336,Selen,Bozkurt,26965,2234162483322336,854518728062939,user_quick_reply: BUTTON_DKB_zeal,:keycap_2:,2018-08-30 23:24:41
+2234162483322336,Selen,Bozkurt,26966,854518728062939,2234162483322336,BOT: message,"Oops, that wasn't quite correct. :disappointed_face:",2018-08-30 23:24:41
+2234162483322336,Selen,Bozkurt,26967,854518728062939,2234162483322336,BOT: quick reply,The correct answer is equanimity.,2018-08-30 23:24:42
+2234162483322336,Selen,Bozkurt,26968,2234162483322336,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-30 23:24:46
+2234162483322336,Selen,Bozkurt,26969,854518728062939,2234162483322336,BOT: message,See if you can answer this next one.,2018-08-30 23:24:46
+2234162483322336,Selen,Bozkurt,26971,854518728062939,2234162483322336,BOT: quick reply,"Just as different people can have very different personalities, so too can pets - even those of the same species and breed possess varied _____ .",2018-08-30 23:24:47
+2234162483322336,Selen,Bozkurt,26978,2234162483322336,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-30 23:24:59
+2234162483322336,Selen,Bozkurt,26979,854518728062939,2234162483322336,BOT: message,Okay. I'll give you some choices.,2018-08-30 23:25:00
+2234162483322336,Selen,Bozkurt,26980,854518728062939,2234162483322336,BOT: quick reply,":keycap_1: rationalizations
+:keycap_2: initiations
+:keycap_3: temperaments
+:keycap_4: aptitudes
+:keycap_5: implementations
+",2018-08-30 23:25:00
+2234162483322336,Selen,Bozkurt,26984,2234162483322336,854518728062939,user_quick_reply: BUTTON_DKB_rationalizations,:keycap_1:,2018-08-30 23:25:06
+2234162483322336,Selen,Bozkurt,26985,854518728062939,2234162483322336,BOT: message,"Hmm, that wasn't quite right. :disappointed_face:",2018-08-30 23:25:07
+2234162483322336,Selen,Bozkurt,26986,854518728062939,2234162483322336,BOT: quick reply,The correct answer is temperaments.,2018-08-30 23:25:07
+2234162483322336,Selen,Bozkurt,26987,2234162483322336,854518728062939,user_quick_reply: WHY,Why?,2018-08-30 23:25:15
+2234162483322336,Selen,Bozkurt,26988,854518728062939,2234162483322336,BOT: message,Here's why:,2018-08-30 23:25:15
+2234162483322336,Selen,Bozkurt,26989,854518728062939,2234162483322336,BOT: quick reply,":pushpin: Temperaments -- the combination of mental, physical, and emotional traits
+:pushpin: Initiations -- a formal entry into an organization or position or office
+:pushpin: Implementations -- the act of accomplishing some aim or executing some order
+:pushpin: Aptitudes -- inherent ability
+:pushpin: Rationalizations -- the cognitive process of making something seem consistent with or based on reason",2018-08-30 23:25:16
+2234162483322336,Selen,Bozkurt,26991,2234162483322336,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-30 23:25:20
+2234162483322336,Selen,Bozkurt,26992,854518728062939,2234162483322336,BOT: message,Would you answer this question for me?,2018-08-30 23:25:20
+2234162483322336,Selen,Bozkurt,26993,854518728062939,2234162483322336,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-30 23:25:21
+2234162483322336,Selen,Bozkurt,26994,854518728062939,2234162483322336,BOT: quick reply,How often should women perform a breast self-exam?,2018-08-30 23:25:21
+2234162483322336,Selen,Bozkurt,27004,2234162483322336,854518728062939,user_typing,Monthly,2018-08-30 23:25:43
+2234162483322336,Selen,Bozkurt,27005,854518728062939,2234162483322336,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_happy_pink.png,2018-08-30 23:25:45
+2234162483322336,Selen,Bozkurt,27006,854518728062939,2234162483322336,BOT: message,Good Answer! :white_heavy_check_mark:,2018-08-30 23:25:45
+2234162483322336,Selen,Bozkurt,27007,854518728062939,2234162483322336,BOT: quick reply,The correct answer is monthly.,2018-08-30 23:25:46
+2234162483322336,Selen,Bozkurt,27012,2234162483322336,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-30 23:25:52
+2234162483322336,Selen,Bozkurt,27013,854518728062939,2234162483322336,BOT: message,What about this next question:,2018-08-30 23:25:53
+2234162483322336,Selen,Bozkurt,27014,854518728062939,2234162483322336,BOT: quick reply,What should you NOT do when lowering a load?,2018-08-30 23:25:53
+2234162483322336,Selen,Bozkurt,27019,2234162483322336,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-30 23:26:00
+2234162483322336,Selen,Bozkurt,27020,854518728062939,2234162483322336,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-08-30 23:26:01
+2234162483322336,Selen,Bozkurt,27021,854518728062939,2234162483322336,BOT: quick reply,":keycap_1: Keep the load close to your body
+:keycap_2: Twist your body
+:keycap_3: Bend your knees
+:keycap_4: Twist your body, keep the load close, and bend your knees
+",2018-08-30 23:26:02
+2234162483322336,Selen,Bozkurt,27026,2234162483322336,854518728062939,user_quick_reply: BUTTON_DKB_Keep the load close to your body,:keycap_1:,2018-08-30 23:26:20
+2234162483322336,Selen,Bozkurt,27028,854518728062939,2234162483322336,BOT: message,"Hmm, that wasn't quite right. :disappointed_face:",2018-08-30 23:26:21
+2234162483322336,Selen,Bozkurt,27030,854518728062939,2234162483322336,BOT: quick reply,The correct answer is Twist your body.,2018-08-30 23:26:21
+2234162483322336,Selen,Bozkurt,27031,2234162483322336,854518728062939,user_quick_reply: WHY,Why?,2018-08-30 23:26:24
+2234162483322336,Selen,Bozkurt,27032,854518728062939,2234162483322336,BOT: message,Here's why:,2018-08-30 23:26:25
+2234162483322336,Selen,Bozkurt,27033,854518728062939,2234162483322336,BOT: quick reply,"To lower a load, you should make use of its edge, bend your knees, keep the load close to their body, and avoid twisting your torso.",2018-08-30 23:26:25
+2234162483322336,Selen,Bozkurt,27037,2234162483322336,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-30 23:27:02
+2234162483322336,Selen,Bozkurt,27038,854518728062939,2234162483322336,BOT: message,See if you can answer this next one.,2018-08-30 23:27:03
+2234162483322336,Selen,Bozkurt,27039,854518728062939,2234162483322336,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-30 23:27:03
+2234162483322336,Selen,Bozkurt,27040,854518728062939,2234162483322336,BOT: quick reply,What are the little sacs at the end of the bronchioles called?,2018-08-30 23:27:04
+2234162483322336,Selen,Bozkurt,27041,2234162483322336,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-30 23:27:10
+2234162483322336,Selen,Bozkurt,27042,854518728062939,2234162483322336,BOT: message,Which of the following options is the right answer?,2018-08-30 23:27:11
+2234162483322336,Selen,Bozkurt,27043,854518728062939,2234162483322336,BOT: quick reply,":keycap_1: respiratory sacs
+:keycap_2: ganglion
+:keycap_3: lung
+:keycap_4: alveoli
+",2018-08-30 23:27:12
+2234162483322336,Selen,Bozkurt,27044,2234162483322336,854518728062939,user_quick_reply: BUTTON_AKB_alveoli,:keycap_4:,2018-08-30 23:27:16
+2234162483322336,Selen,Bozkurt,27045,854518728062939,2234162483322336,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_jubilated_purple.png,2018-08-30 23:27:18
+2234162483322336,Selen,Bozkurt,27046,854518728062939,2234162483322336,BOT: message,Nice! That was right!,2018-08-30 23:27:18
+2234162483322336,Selen,Bozkurt,27047,854518728062939,2234162483322336,BOT: quick reply,The correct answer is alveoli.,2018-08-30 23:27:19

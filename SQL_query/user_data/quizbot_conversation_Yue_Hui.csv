@@ -1,0 +1,548 @@
+user_id,user_firstname,user_lastname,uid,sender,recipient,type,dialogue,time_stamp
+1886126311468270,Yue,Hui,16828,1886126311468270,854518728062939,persistent_menu: GET_INTRO_1,Get Started,2018-08-26 18:04:23
+1886126311468270,Yue,Hui,16832,854518728062939,1886126311468270,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/quizbot_avatar.png,2018-08-26 18:04:27
+1886126311468270,Yue,Hui,16833,854518728062939,1886126311468270,BOT: quick reply,"Hi Yue! My name is Frosty :penguin: and Im here to help you learn all about science:microscope:, verbal reasoning (GRE) :input_latin_uppercase:, and safety:hammer_and_wrench:!",2018-08-26 18:04:27
+1886126311468270,Yue,Hui,16840,1886126311468270,854518728062939,persistent_menu: CHAT_WITH_ME,Chat with Me :penguin:,2018-08-26 18:04:44
+1886126311468270,Yue,Hui,16841,854518728062939,1886126311468270,BOT: quick reply,Would you like me to tell you something interesting?,2018-08-26 18:04:45
+1886126311468270,Yue,Hui,16845,1886126311468270,854518728062939,persistent_menu: GRE,GRE :input_latin_uppercase:,2018-08-26 18:04:54
+1886126311468270,Yue,Hui,16846,854518728062939,1886126311468270,BOT: quick reply,Let's test your knowledge on the GRE!,2018-08-26 18:04:54
+1886126311468270,Yue,Hui,16850,1886126311468270,854518728062939,user_quick_reply: NEXT_QUESTION,Sure :light_bulb:,2018-08-26 18:04:58
+1886126311468270,Yue,Hui,16851,854518728062939,1886126311468270,BOT: message,Let's try this one.,2018-08-26 18:04:58
+1886126311468270,Yue,Hui,16852,854518728062939,1886126311468270,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-26 18:04:59
+1886126311468270,Yue,Hui,16853,854518728062939,1886126311468270,BOT: quick reply,"Even though legislators claimed the Contagious Diseases Acts strengthened the nation, social purists argued the Acts _____ the nation's moral growth by encouraging licentious behavior.",2018-08-26 18:04:59
+1886126311468270,Yue,Hui,16857,1886126311468270,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-26 18:05:06
+1886126311468270,Yue,Hui,16858,854518728062939,1886126311468270,BOT: message,It's one of the following choices.,2018-08-26 18:05:07
+1886126311468270,Yue,Hui,16859,854518728062939,1886126311468270,BOT: quick reply,":keycap_1: supplanted
+:keycap_2: hampered
+:keycap_3: enhanced
+:keycap_4: advanced
+:keycap_5: ameliorated
+",2018-08-26 18:05:07
+1886126311468270,Yue,Hui,16864,1886126311468270,854518728062939,persistent_menu: CHAT_WITH_ME,Chat with Me :penguin:,2018-08-26 18:05:14
+1886126311468270,Yue,Hui,16865,854518728062939,1886126311468270,BOT: quick reply,Great! I have something fun for you!,2018-08-26 18:05:15
+1886126311468270,Yue,Hui,16866,1886126311468270,854518728062939,persistent_menu: USER_MANUAL_1,User Manual :woman_technologist_light_skin_tone::man_technologist_light_skin_tone:,2018-08-26 18:05:19
+1886126311468270,Yue,Hui,16867,854518728062939,1886126311468270,BOT: image,https://www.smartprimer.org:8443/pictures/user_manual/typeanswer.png,2018-08-26 18:05:21
+1886126311468270,Yue,Hui,16868,854518728062939,1886126311468270,BOT: quick reply,"To study the questions, you can type in your answers in the text field and I will evaluate the answers for you using advanced NLP (Natural Language Processing) technology.",2018-08-26 18:05:21
+1886126311468270,Yue,Hui,16888,1886126311468270,854518728062939,persistent_menu: RANDOM,Random :game_die:,2018-08-26 18:06:19
+1886126311468270,Yue,Hui,16889,854518728062939,1886126311468270,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/evolvereading_normal.gif,2018-08-26 18:06:23
+1886126311468270,Yue,Hui,16890,854518728062939,1886126311468270,BOT: quick reply,Let's answer some questions about everything! :game_die:,2018-08-26 18:06:24
+1886126311468270,Yue,Hui,16895,1886126311468270,854518728062939,user_quick_reply: NEXT_QUESTION,OK :round_pushpin:,2018-08-26 18:06:28
+1886126311468270,Yue,Hui,16896,854518728062939,1886126311468270,BOT: message,Here's a question for you:,2018-08-26 18:06:29
+1886126311468270,Yue,Hui,16897,854518728062939,1886126311468270,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-26 18:06:29
+1886126311468270,Yue,Hui,16898,854518728062939,1886126311468270,BOT: quick reply,What disease characterized by the extreme swelling of the limbs is caused by infection with a type of roundworm?,2018-08-26 18:06:30
+1886126311468270,Yue,Hui,16903,1886126311468270,854518728062939,user_quick_reply: I_DONT_KNOW,I dont know :downcast_face_with_sweat:,2018-08-26 18:06:39
+1886126311468270,Yue,Hui,16904,854518728062939,1886126311468270,BOT: quick reply,Are you sure you want to give up?,2018-08-26 18:06:39
+1886126311468270,Yue,Hui,16909,1886126311468270,854518728062939,user_quick_reply: GIVEUP_YES,"Yes, answer please.",2018-08-26 18:06:44
+1886126311468270,Yue,Hui,16910,854518728062939,1886126311468270,BOT: message,"I'm sorry, you didn't get the question right this time.",2018-08-26 18:06:44
+1886126311468270,Yue,Hui,16911,854518728062939,1886126311468270,BOT: message,No worries! You'll get it next time! :grinning_face_with_smiling_eyes:,2018-08-26 18:06:45
+1886126311468270,Yue,Hui,16912,854518728062939,1886126311468270,BOT: quick reply,The correct answer is elephantiasis.,2018-08-26 18:06:45
+1886126311468270,Yue,Hui,16916,1886126311468270,854518728062939,persistent_menu: SCIENCE,Science:microscope:,2018-08-26 18:06:53
+1886126311468270,Yue,Hui,16917,854518728062939,1886126311468270,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/evolvenormal_scientist.gif,2018-08-26 18:06:57
+1886126311468270,Yue,Hui,16918,854518728062939,1886126311468270,BOT: quick reply,All right! Ill quiz you on science!,2018-08-26 18:06:58
+1886126311468270,Yue,Hui,16931,1886126311468270,854518728062939,user_quick_reply: NEXT_QUESTION,Sure :oncoming_fist_medium-light_skin_tone:,2018-08-26 18:07:35
+1886126311468270,Yue,Hui,16932,854518728062939,1886126311468270,BOT: message,Let's try this question.,2018-08-26 18:07:36
+1886126311468270,Yue,Hui,16933,854518728062939,1886126311468270,BOT: quick reply,What kind of viscosity is found in long-chain hydrocarbons?,2018-08-26 18:07:36
+1886126311468270,Yue,Hui,16939,1886126311468270,854518728062939,persistent_menu: CHAT_WITH_ME,Chat with Me :penguin:,2018-08-26 18:07:47
+1886126311468270,Yue,Hui,16941,854518728062939,1886126311468270,BOT: quick reply,Great! I have something fun for you!,2018-08-26 18:07:47
+1886126311468270,Yue,Hui,16943,1886126311468270,854518728062939,user_quick_reply: JOKE,Joke :beaming_face_with_smiling_eyes:,2018-08-26 18:07:50
+1886126311468270,Yue,Hui,16944,854518728062939,1886126311468270,BOT: message,Here is an interesting one for you.,2018-08-26 18:07:51
+1886126311468270,Yue,Hui,16945,854518728062939,1886126311468270,BOT: quick reply,Q: How does a hurricane see? A: With its eye.,2018-08-26 18:07:51
+1886126311468270,Yue,Hui,16947,1886126311468270,854518728062939,user_quick_reply: JOKE,Another joke :beaming_face_with_smiling_eyes:,2018-08-26 18:08:02
+1886126311468270,Yue,Hui,16948,854518728062939,1886126311468270,BOT: message,Here's one I thought might be funny.,2018-08-26 18:08:02
+1886126311468270,Yue,Hui,16949,854518728062939,1886126311468270,BOT: quick reply,Q: What did zero say to eight? A: Nice belt.,2018-08-26 18:08:03
+1886126311468270,Yue,Hui,17769,1886126311468270,854518728062939,user_quick_reply: FUN_FACT_SCIENCE,Fun fact :light_bulb:,2018-08-26 19:31:01
+1886126311468270,Yue,Hui,17770,854518728062939,1886126311468270,BOT: message,Here is a fun fact for you.,2018-08-26 19:31:02
+1886126311468270,Yue,Hui,17771,854518728062939,1886126311468270,BOT: quick reply,Water can boil and freeze at the same time.,2018-08-26 19:31:02
+1886126311468270,Yue,Hui,17778,1886126311468270,854518728062939,persistent_menu: SCIENCE,Science:microscope:,2018-08-26 19:31:14
+1886126311468270,Yue,Hui,17779,854518728062939,1886126311468270,BOT: quick reply,Awesome! Here are some questions on science!,2018-08-26 19:31:15
+1886126311468270,Yue,Hui,17783,1886126311468270,854518728062939,user_quick_reply: NEXT_QUESTION,OK :flexed_biceps_medium-light_skin_tone:,2018-08-26 19:31:18
+1886126311468270,Yue,Hui,17784,854518728062939,1886126311468270,BOT: message,How about this next one:,2018-08-26 19:31:19
+1886126311468270,Yue,Hui,17785,854518728062939,1886126311468270,BOT: quick reply,What opens two strands of DNA?,2018-08-26 19:31:19
+1886126311468270,Yue,Hui,17787,1886126311468270,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-26 19:31:26
+1886126311468270,Yue,Hui,17789,854518728062939,1886126311468270,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-08-26 19:31:27
+1886126311468270,Yue,Hui,17791,854518728062939,1886126311468270,BOT: quick reply,":keycap_1: replication
+:keycap_2: adenylate
+:keycap_3: chromosome
+:keycap_4: helicase
+",2018-08-26 19:31:28
+1886126311468270,Yue,Hui,17794,1886126311468270,854518728062939,user_quick_reply: BUTTON_DKB_replication,:keycap_1:,2018-08-26 19:31:32
+1886126311468270,Yue,Hui,17796,854518728062939,1886126311468270,BOT: message,"Oops, that wasn't quite correct. :disappointed_face:",2018-08-26 19:31:33
+1886126311468270,Yue,Hui,17798,854518728062939,1886126311468270,BOT: quick reply,The correct answer is helicase.,2018-08-26 19:31:33
+1886126311468270,Yue,Hui,17799,1886126311468270,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-26 19:31:38
+1886126311468270,Yue,Hui,17801,854518728062939,1886126311468270,BOT: message,What about this next question:,2018-08-26 19:31:39
+1886126311468270,Yue,Hui,17803,854518728062939,1886126311468270,BOT: quick reply,What is the diffusion of water through a semipermeable membrane down its concentration gradient?,2018-08-26 19:31:40
+1886126311468270,Yue,Hui,17805,1886126311468270,854518728062939,user_quick_reply: I_DONT_KNOW,I dont know :downcast_face_with_sweat:,2018-08-26 19:31:48
+1886126311468270,Yue,Hui,17806,854518728062939,1886126311468270,BOT: quick reply,Do you really want to skip this question?,2018-08-26 19:31:49
+1886126311468270,Yue,Hui,17809,1886126311468270,854518728062939,user_quick_reply: GIVEUP_YES,"Yes, answer please.",2018-08-26 19:31:53
+1886126311468270,Yue,Hui,17811,854518728062939,1886126311468270,BOT: message,You didn't get it right this time.,2018-08-26 19:31:54
+1886126311468270,Yue,Hui,17812,854518728062939,1886126311468270,BOT: message,"That's fine, you'll nail it next time! :grinning_face_with_smiling_eyes:",2018-08-26 19:31:54
+1886126311468270,Yue,Hui,17813,854518728062939,1886126311468270,BOT: quick reply,The correct answer is osmosis.,2018-08-26 19:31:55
+1886126311468270,Yue,Hui,17897,854518728062939,1886126311468270,BOT: quick reply,"Hi Yue, you haven't talked to me for a while. Would you like to resume the learning with me?",2018-08-26 20:00:04
+1886126311468270,Yue,Hui,17901,1886126311468270,854518728062939,user_quick_reply: NEXT_QUESTION,Alrighty :round_pushpin:,2018-08-26 20:02:12
+1886126311468270,Yue,Hui,17902,854518728062939,1886126311468270,BOT: message,What about this next question:,2018-08-26 20:02:13
+1886126311468270,Yue,Hui,17903,854518728062939,1886126311468270,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-26 20:02:13
+1886126311468270,Yue,Hui,17904,854518728062939,1886126311468270,BOT: quick reply,What disease characterized by the extreme swelling of the limbs is caused by infection with a type of roundworm?,2018-08-26 20:02:14
+1886126311468270,Yue,Hui,17905,1886126311468270,854518728062939,user_quick_reply: I_DONT_KNOW,I dont know :downcast_face_with_sweat:,2018-08-26 20:02:28
+1886126311468270,Yue,Hui,17906,854518728062939,1886126311468270,BOT: quick reply,Do you really want to skip this question?,2018-08-26 20:02:28
+1886126311468270,Yue,Hui,17907,1886126311468270,854518728062939,user_quick_reply: GIVEUP_YES,"Yes, answer please.",2018-08-26 20:02:32
+1886126311468270,Yue,Hui,17908,854518728062939,1886126311468270,BOT: message,You didn't get it right this time.,2018-08-26 20:02:32
+1886126311468270,Yue,Hui,17909,854518728062939,1886126311468270,BOT: message,"That's fine, you'll nail it next time! :grinning_face_with_smiling_eyes:",2018-08-26 20:02:33
+1886126311468270,Yue,Hui,17910,854518728062939,1886126311468270,BOT: quick reply,The correct answer is elephantiasis.,2018-08-26 20:02:34
+1886126311468270,Yue,Hui,18850,854518728062939,1886126311468270,BOT: quick reply,"Hi Yue, you haven't talked to me for a while. Would you like to resume the learning with me?",2018-08-27 20:00:12
+1886126311468270,Yue,Hui,18858,1886126311468270,854518728062939,persistent_menu: SCIENCE,Science:microscope:,2018-08-27 20:00:30
+1886126311468270,Yue,Hui,18859,854518728062939,1886126311468270,BOT: quick reply,Science rules! Let's see what you know.,2018-08-27 20:00:31
+1886126311468270,Yue,Hui,18860,854518728062939,1886126311468270,BOT: message,What about this next question:,2018-08-27 20:00:35
+1886126311468270,Yue,Hui,18861,854518728062939,1886126311468270,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-27 20:00:35
+1886126311468270,Yue,Hui,18862,854518728062939,1886126311468270,BOT: quick reply,The lithosphere is divided into a dozen major and several minor what?,2018-08-27 20:00:36
+1886126311468270,Yue,Hui,18863,1886126311468270,854518728062939,user_quick_reply: I_DONT_KNOW,I dont know :downcast_face_with_sweat:,2018-08-27 20:00:42
+1886126311468270,Yue,Hui,18864,854518728062939,1886126311468270,BOT: quick reply,Are you sure you want to give up?,2018-08-27 20:00:42
+1886126311468270,Yue,Hui,18865,1886126311468270,854518728062939,user_quick_reply: GIVEUP_YES,"Yes, answer please.",2018-08-27 20:00:45
+1886126311468270,Yue,Hui,18866,854518728062939,1886126311468270,BOT: message,You didn't get this question this time.,2018-08-27 20:00:46
+1886126311468270,Yue,Hui,18867,854518728062939,1886126311468270,BOT: message,"Keep trying, you'll get it next time! :grinning_face_with_smiling_eyes:",2018-08-27 20:00:46
+1886126311468270,Yue,Hui,18868,854518728062939,1886126311468270,BOT: quick reply,The correct answer is plates.,2018-08-27 20:00:47
+1886126311468270,Yue,Hui,18869,1886126311468270,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-27 20:00:56
+1886126311468270,Yue,Hui,18870,854518728062939,1886126311468270,BOT: message,How about this next one:,2018-08-27 20:00:57
+1886126311468270,Yue,Hui,18871,854518728062939,1886126311468270,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-27 20:00:57
+1886126311468270,Yue,Hui,18872,854518728062939,1886126311468270,BOT: quick reply,What opens two strands of DNA?,2018-08-27 20:00:58
+1886126311468270,Yue,Hui,18873,1886126311468270,854518728062939,user_quick_reply: I_DONT_KNOW,I dont know :downcast_face_with_sweat:,2018-08-27 20:01:16
+1886126311468270,Yue,Hui,18874,854518728062939,1886126311468270,BOT: quick reply,Are you sure you want to give up?,2018-08-27 20:01:16
+1886126311468270,Yue,Hui,18875,1886126311468270,854518728062939,user_quick_reply: GIVEUP_NO,"No, I'll try again!",2018-08-27 20:01:20
+1886126311468270,Yue,Hui,18876,854518728062939,1886126311468270,BOT: message,Alright! Let's do it again!,2018-08-27 20:01:20
+1886126311468270,Yue,Hui,18877,854518728062939,1886126311468270,BOT: message,It's one of the following choices.,2018-08-27 20:01:21
+1886126311468270,Yue,Hui,18878,854518728062939,1886126311468270,BOT: quick reply,":keycap_1: helicase
+:keycap_2: adenylate
+:keycap_3: chromosome
+:keycap_4: replication
+",2018-08-27 20:01:21
+1886126311468270,Yue,Hui,18879,1886126311468270,854518728062939,user_quick_reply: BUTTON_DKB_chromosome,:keycap_3:,2018-08-27 20:01:29
+1886126311468270,Yue,Hui,18880,854518728062939,1886126311468270,BOT: message,"I'm sorry, but that was incorrect. :disappointed_face:",2018-08-27 20:01:29
+1886126311468270,Yue,Hui,18881,854518728062939,1886126311468270,BOT: quick reply,The correct answer is helicase.,2018-08-27 20:01:30
+1886126311468270,Yue,Hui,18882,1886126311468270,854518728062939,user_quick_reply: WHY,Why?,2018-08-27 20:01:34
+1886126311468270,Yue,Hui,18883,854518728062939,1886126311468270,BOT: message,Here's why:,2018-08-27 20:01:35
+1886126311468270,Yue,Hui,18884,854518728062939,1886126311468270,BOT: quick reply,"The two DNA strands are opened by helicase. The strands are held open by a single strand of binding proteins, preventing premature reannealing. Topoisomerase solves the problem caused by tension generated by winding/unwinding of DNA. This enzyme wraps around DNA and makes a cut permitting the helix to spin and relax. Once DNA is relaxed, topoisomerase reconnects broken strands. DNA primase synthesizes a short RNA primer which initiates the Okazaki fragment. Okazaki fragments are attached by DNA ligase.",2018-08-27 20:01:35
+1886126311468270,Yue,Hui,20404,1886126311468270,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-28 14:48:26
+1886126311468270,Yue,Hui,20405,854518728062939,1886126311468270,BOT: message,Let's try this question.,2018-08-28 14:48:27
+1886126311468270,Yue,Hui,20406,854518728062939,1886126311468270,BOT: quick reply,What is the diffusion of water through a semipermeable membrane down its concentration gradient?,2018-08-28 14:48:27
+1886126311468270,Yue,Hui,20407,1886126311468270,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-28 14:48:38
+1886126311468270,Yue,Hui,20408,854518728062939,1886126311468270,BOT: message,Pick one of the following answers.,2018-08-28 14:48:39
+1886126311468270,Yue,Hui,20409,854518728062939,1886126311468270,BOT: quick reply,":keycap_1: nutrients
+:keycap_2: mirrors
+:keycap_3: permable
+:keycap_4: osmosis
+",2018-08-28 14:48:40
+1886126311468270,Yue,Hui,20410,1886126311468270,854518728062939,user_quick_reply: BUTTON_AKB_osmosis,:keycap_4:,2018-08-28 14:48:52
+1886126311468270,Yue,Hui,20411,854518728062939,1886126311468270,BOT: message,Great job getting the correct answer!,2018-08-28 14:48:53
+1886126311468270,Yue,Hui,20412,854518728062939,1886126311468270,BOT: quick reply,The correct answer is osmosis.,2018-08-28 14:48:53
+1886126311468270,Yue,Hui,20413,1886126311468270,854518728062939,user_quick_reply: WHY,Why?,2018-08-28 14:49:00
+1886126311468270,Yue,Hui,20414,854518728062939,1886126311468270,BOT: message,Here's why:,2018-08-28 14:49:01
+1886126311468270,Yue,Hui,20415,854518728062939,1886126311468270,BOT: quick reply,"Osmosis is the diffusion of water through a semipermeable membrane down its concentration gradient. If a membrane is permeable to water, though not to a solute, water will equalize its own concentration by diffusing to the side of lower water concentration (and thus the side of higher solute concentration). In the beaker on the left, the solution on the right side of the membrane is hypertonic.",2018-08-28 14:49:01
+1886126311468270,Yue,Hui,20416,1886126311468270,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-28 14:49:06
+1886126311468270,Yue,Hui,20417,854518728062939,1886126311468270,BOT: message,Would you answer this question for me?,2018-08-28 14:49:06
+1886126311468270,Yue,Hui,20418,854518728062939,1886126311468270,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-28 14:49:07
+1886126311468270,Yue,Hui,20419,854518728062939,1886126311468270,BOT: quick reply,Most insects reproduce quickly and through what type of reproduction?,2018-08-28 14:49:08
+1886126311468270,Yue,Hui,20420,1886126311468270,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-28 14:49:16
+1886126311468270,Yue,Hui,20421,854518728062939,1886126311468270,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-08-28 14:49:17
+1886126311468270,Yue,Hui,20422,854518728062939,1886126311468270,BOT: quick reply,":keycap_1: photosynthesis
+:keycap_2: asexual reproduction
+:keycap_3: spores
+:keycap_4: sexual reproduction
+",2018-08-28 14:49:17
+1886126311468270,Yue,Hui,20423,1886126311468270,854518728062939,user_quick_reply: BUTTON_DKB_asexual reproduction,:keycap_2:,2018-08-28 14:49:23
+1886126311468270,Yue,Hui,20424,854518728062939,1886126311468270,BOT: message,"Oops, that wasn't quite correct. :disappointed_face:",2018-08-28 14:49:24
+1886126311468270,Yue,Hui,20425,854518728062939,1886126311468270,BOT: quick reply,The correct answer is sexual reproduction.,2018-08-28 14:49:24
+1886126311468270,Yue,Hui,20426,1886126311468270,854518728062939,user_quick_reply: WHY,Why?,2018-08-28 14:49:34
+1886126311468270,Yue,Hui,20427,854518728062939,1886126311468270,BOT: message,This is why:,2018-08-28 14:49:34
+1886126311468270,Yue,Hui,20428,854518728062939,1886126311468270,BOT: quick reply,"Most insects can reproduce very quickly within a short period of time. With a short generation time, they evolve faster and can quickly adjust to environmental changes. Most insects reproduce by sexual reproduction. The female produces eggs, which are fertilized by the male, and then the eggs are usually placed near the required food. In some insects, there is asexual reproduction during which the offspring come from a single parent. In this type of reproduction, the offspring are almost identical to the mother. This is most often seen in aphids and scale insects.",2018-08-28 14:49:35
+1886126311468270,Yue,Hui,20429,1886126311468270,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-28 14:49:39
+1886126311468270,Yue,Hui,20430,854518728062939,1886126311468270,BOT: message,How about this next one:,2018-08-28 14:49:39
+1886126311468270,Yue,Hui,20431,854518728062939,1886126311468270,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-28 14:49:40
+1886126311468270,Yue,Hui,20432,854518728062939,1886126311468270,BOT: quick reply,The electrode at which oxidation occurs is called the what?,2018-08-28 14:49:40
+1886126311468270,Yue,Hui,20433,1886126311468270,854518728062939,user_quick_reply: I_DONT_KNOW,I dont know :downcast_face_with_sweat:,2018-08-28 14:49:51
+1886126311468270,Yue,Hui,20434,854518728062939,1886126311468270,BOT: quick reply,Are you sure you want to skip answering?,2018-08-28 14:49:51
+1886126311468270,Yue,Hui,20435,1886126311468270,854518728062939,user_quick_reply: GIVEUP_YES,"Yes, answer please.",2018-08-28 14:49:56
+1886126311468270,Yue,Hui,20436,854518728062939,1886126311468270,BOT: message,You didn't get it right this time.,2018-08-28 14:49:57
+1886126311468270,Yue,Hui,20437,854518728062939,1886126311468270,BOT: message,No worries! You'll get it next time! :grinning_face_with_smiling_eyes:,2018-08-28 14:49:57
+1886126311468270,Yue,Hui,20438,854518728062939,1886126311468270,BOT: quick reply,The correct answer is anode.,2018-08-28 14:49:58
+1886126311468270,Yue,Hui,20439,1886126311468270,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-28 14:50:07
+1886126311468270,Yue,Hui,20440,854518728062939,1886126311468270,BOT: message,"Alrighty, let's try this one.",2018-08-28 14:50:08
+1886126311468270,Yue,Hui,20441,854518728062939,1886126311468270,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-28 14:50:08
+1886126311468270,Yue,Hui,20442,854518728062939,1886126311468270,BOT: quick reply,What disease characterized by the extreme swelling of the limbs is caused by infection with a type of roundworm?,2018-08-28 14:50:09
+1886126311468270,Yue,Hui,20443,1886126311468270,854518728062939,user_quick_reply: I_DONT_KNOW,I dont know :downcast_face_with_sweat:,2018-08-28 14:50:22
+1886126311468270,Yue,Hui,20444,854518728062939,1886126311468270,BOT: quick reply,Are you sure you want to skip this question?,2018-08-28 14:50:23
+1886126311468270,Yue,Hui,20445,1886126311468270,854518728062939,user_quick_reply: GIVEUP_YES,"Yes, answer please.",2018-08-28 14:50:28
+1886126311468270,Yue,Hui,20446,854518728062939,1886126311468270,BOT: message,You didn't get it right this time.,2018-08-28 14:50:29
+1886126311468270,Yue,Hui,20447,854518728062939,1886126311468270,BOT: message,"That's fine, you'll nail it next time! :grinning_face_with_smiling_eyes:",2018-08-28 14:50:30
+1886126311468270,Yue,Hui,20448,854518728062939,1886126311468270,BOT: quick reply,The correct answer is elephantiasis.,2018-08-28 14:50:31
+1886126311468270,Yue,Hui,20449,1886126311468270,854518728062939,user_quick_reply: WHY,Why?,2018-08-28 14:50:37
+1886126311468270,Yue,Hui,20450,854518728062939,1886126311468270,BOT: message,This is why:,2018-08-28 14:50:37
+1886126311468270,Yue,Hui,20451,854518728062939,1886126311468270,BOT: quick reply,"Roundworms can be free-living organisms, but they are probably best known for their role as significant plant and animal parasites. Most Nematodes are parasitic, with over 16,000 parasitic species described. Heartworms, which cause serious disease in dogs while living in the heart and blood vessels, are a type of roundworm. Roundworms can also cause disease in humans. Elephantiasis, a disease characterized by the extreme swelling of the limbs, is caused by infection with a type of roundworm.",2018-08-28 14:50:38
+1886126311468270,Yue,Hui,20452,1886126311468270,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-28 14:50:43
+1886126311468270,Yue,Hui,20453,854518728062939,1886126311468270,BOT: message,See if you can answer this next one.,2018-08-28 14:50:43
+1886126311468270,Yue,Hui,20454,854518728062939,1886126311468270,BOT: quick reply,Nerve cells that sense touch are found mainly where?,2018-08-28 14:50:44
+1886126311468270,Yue,Hui,20455,1886126311468270,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-28 14:50:51
+1886126311468270,Yue,Hui,20456,854518728062939,1886126311468270,BOT: message,It's one of the following choices.,2018-08-28 14:50:52
+1886126311468270,Yue,Hui,20457,854518728062939,1886126311468270,BOT: quick reply,":keycap_1: stomach
+:keycap_2: skin
+:keycap_3: lungs
+:keycap_4: brain
+",2018-08-28 14:50:52
+1886126311468270,Yue,Hui,20458,1886126311468270,854518728062939,user_quick_reply: BUTTON_AKB_skin,:keycap_2:,2018-08-28 14:51:00
+1886126311468270,Yue,Hui,20459,854518728062939,1886126311468270,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_happy_purple.png,2018-08-28 14:51:01
+1886126311468270,Yue,Hui,20460,854518728062939,1886126311468270,BOT: message,Great job getting the correct answer!,2018-08-28 14:51:02
+1886126311468270,Yue,Hui,20461,854518728062939,1886126311468270,BOT: quick reply,The correct answer is skin.,2018-08-28 14:51:03
+1886126311468270,Yue,Hui,20462,1886126311468270,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-28 14:51:08
+1886126311468270,Yue,Hui,20463,854518728062939,1886126311468270,BOT: message,Let's see if you would answer this one.,2018-08-28 14:51:08
+1886126311468270,Yue,Hui,20464,854518728062939,1886126311468270,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-28 14:51:09
+1886126311468270,Yue,Hui,20465,854518728062939,1886126311468270,BOT: quick reply,"Temperature, water, soil, and air are examples of nonliving factors of an ecosystem, also termed what?",2018-08-28 14:51:09
+1886126311468270,Yue,Hui,20466,1886126311468270,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-28 14:51:22
+1886126311468270,Yue,Hui,20467,854518728062939,1886126311468270,BOT: message,It's one of the following choices.,2018-08-28 14:51:23
+1886126311468270,Yue,Hui,20468,854518728062939,1886126311468270,BOT: quick reply,":keycap_1: diverse factors
+:keycap_2: conditional factors
+:keycap_3: abiotic factors
+:keycap_4: nucleic factors
+",2018-08-28 14:51:23
+1886126311468270,Yue,Hui,20469,1886126311468270,854518728062939,user_quick_reply: BUTTON_AKB_abiotic factors,:keycap_3:,2018-08-28 14:51:33
+1886126311468270,Yue,Hui,20470,854518728062939,1886126311468270,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_normal.png,2018-08-28 14:51:35
+1886126311468270,Yue,Hui,20471,854518728062939,1886126311468270,BOT: message,Yes! You got the correct answer!,2018-08-28 14:51:35
+1886126311468270,Yue,Hui,20472,854518728062939,1886126311468270,BOT: quick reply,The correct answer is abiotic factors.,2018-08-28 14:51:36
+1886126311468270,Yue,Hui,20473,1886126311468270,854518728062939,user_quick_reply: WHY,Why?,2018-08-28 14:51:40
+1886126311468270,Yue,Hui,20474,854518728062939,1886126311468270,BOT: message,Here's why:,2018-08-28 14:51:41
+1886126311468270,Yue,Hui,20475,854518728062939,1886126311468270,BOT: quick reply,"Ecology is the study of ecosystems. That is, ecology is the study of how living organisms interact with each other and with the nonliving part of their environment. An ecosystem consists of all the nonliving factors and living organisms interacting in the same habitat. Recall that living organisms are biotic factors. The biotic factors of an ecosystem include all the populations in a habitat, such as all the species of plants, animals, and fungi, as well as all the micro-organisms. Also recall that the nonliving factors are called abiotic factors. Abiotic factors include temperature, water, soil, and air.",2018-08-28 14:51:42
+1886126311468270,Yue,Hui,20476,1886126311468270,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-28 14:51:46
+1886126311468270,Yue,Hui,20477,854518728062939,1886126311468270,BOT: message,How about this next one:,2018-08-28 14:51:46
+1886126311468270,Yue,Hui,20478,854518728062939,1886126311468270,BOT: quick reply,What are by far the most common type of invertebrate?,2018-08-28 14:51:47
+1886126311468270,Yue,Hui,20479,1886126311468270,854518728062939,user_quick_reply: I_DONT_KNOW,I dont know :downcast_face_with_sweat:,2018-08-28 14:51:55
+1886126311468270,Yue,Hui,20480,854518728062939,1886126311468270,BOT: quick reply,Are you sure you want to give up?,2018-08-28 14:51:55
+1886126311468270,Yue,Hui,20481,1886126311468270,854518728062939,user_quick_reply: GIVEUP_YES,"Yes, answer please.",2018-08-28 14:52:01
+1886126311468270,Yue,Hui,20482,854518728062939,1886126311468270,BOT: message,You didn't get it right this time.,2018-08-28 14:52:02
+1886126311468270,Yue,Hui,20483,854518728062939,1886126311468270,BOT: message,"That's okay, you'll get it next time! :grinning_face_with_smiling_eyes:",2018-08-28 14:52:02
+1886126311468270,Yue,Hui,20484,854518728062939,1886126311468270,BOT: quick reply,The correct answer is insects.,2018-08-28 14:52:03
+1886126311468270,Yue,Hui,20485,1886126311468270,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-28 14:52:08
+1886126311468270,Yue,Hui,20486,854518728062939,1886126311468270,BOT: message,I think you'll like this question.,2018-08-28 14:52:09
+1886126311468270,Yue,Hui,20487,854518728062939,1886126311468270,BOT: quick reply,How often should women perform a breast self-exam?,2018-08-28 14:52:09
+1886126311468270,Yue,Hui,20488,1886126311468270,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-28 14:52:20
+1886126311468270,Yue,Hui,20489,854518728062939,1886126311468270,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-08-28 14:52:20
+1886126311468270,Yue,Hui,20490,854518728062939,1886126311468270,BOT: quick reply,":keycap_1: yearly
+:keycap_2: monthly
+:keycap_3: weekly
+:keycap_4: quarterly
+",2018-08-28 14:52:21
+1886126311468270,Yue,Hui,20491,1886126311468270,854518728062939,user_quick_reply: BUTTON_DKB_yearly,:keycap_1:,2018-08-28 14:52:26
+1886126311468270,Yue,Hui,20492,854518728062939,1886126311468270,BOT: message,"Oops, that wasn't quite correct. :disappointed_face:",2018-08-28 14:52:27
+1886126311468270,Yue,Hui,20493,854518728062939,1886126311468270,BOT: quick reply,The correct answer is monthly.,2018-08-28 14:52:27
+1886126311468270,Yue,Hui,20494,1886126311468270,854518728062939,user_quick_reply: WHY,Why?,2018-08-28 14:52:32
+1886126311468270,Yue,Hui,20495,854518728062939,1886126311468270,BOT: message,I hope this explanation could help you understand the the question.,2018-08-28 14:52:33
+1886126311468270,Yue,Hui,20496,854518728062939,1886126311468270,BOT: quick reply,"If you are a young woman, getting in the habit of performing a monthly breast self-exam is a good idea. Lumps or other subtle changes in the breasts may indicate breast cancer. The outcome is typically better if breast cancer is caught and treated early.",2018-08-28 14:52:33
+1886126311468270,Yue,Hui,20497,1886126311468270,854518728062939,persistent_menu: SCIENCE,Science:microscope:,2018-08-28 14:53:53
+1886126311468270,Yue,Hui,20498,854518728062939,1886126311468270,BOT: quick reply,All right! Ill quiz you on science!,2018-08-28 14:53:53
+1886126311468270,Yue,Hui,20499,1886126311468270,854518728062939,user_quick_reply: NEXT_QUESTION,Sure :backhand_index_pointing_right_medium-light_skin_tone:,2018-08-28 14:53:56
+1886126311468270,Yue,Hui,20500,854518728062939,1886126311468270,BOT: message,Would you answer this question for me?,2018-08-28 14:53:57
+1886126311468270,Yue,Hui,20501,854518728062939,1886126311468270,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-28 14:53:58
+1886126311468270,Yue,Hui,20502,854518728062939,1886126311468270,BOT: quick reply,Most insects reproduce quickly and through what type of reproduction?,2018-08-28 14:53:58
+1886126311468270,Yue,Hui,20503,1886126311468270,854518728062939,user_typing,Asexual reprpductiob,2018-08-28 14:54:19
+1886126311468270,Yue,Hui,20504,854518728062939,1886126311468270,BOT: message,"Oops, that answer was incorrect. :disappointed_face:",2018-08-28 14:54:19
+1886126311468270,Yue,Hui,20505,854518728062939,1886126311468270,BOT: quick reply,The correct answer is sexual reproduction.,2018-08-28 14:54:20
+1886126311468270,Yue,Hui,20506,1886126311468270,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-28 14:54:26
+1886126311468270,Yue,Hui,20507,854518728062939,1886126311468270,BOT: message,See if you can answer this next one.,2018-08-28 14:54:27
+1886126311468270,Yue,Hui,20508,854518728062939,1886126311468270,BOT: quick reply,What are by far the most common type of invertebrate?,2018-08-28 14:54:28
+1886126311468270,Yue,Hui,20509,1886126311468270,854518728062939,user_typing,Insect,2018-08-28 14:54:37
+1886126311468270,Yue,Hui,20510,854518728062939,1886126311468270,BOT: message,That's not quite right. :disappointed_face:,2018-08-28 14:54:37
+1886126311468270,Yue,Hui,20511,854518728062939,1886126311468270,BOT: quick reply,The correct answer is insects.,2018-08-28 14:54:38
+1886126311468270,Yue,Hui,20512,1886126311468270,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-28 14:54:46
+1886126311468270,Yue,Hui,20513,854518728062939,1886126311468270,BOT: message,Let's see if you can get this one.,2018-08-28 14:54:47
+1886126311468270,Yue,Hui,20514,854518728062939,1886126311468270,BOT: quick reply,"When your brain senses that your body temperature is increasing, it sends messages to the blood vessels in the skin to increase in what?",2018-08-28 14:54:47
+1886126311468270,Yue,Hui,20515,1886126311468270,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-28 14:54:57
+1886126311468270,Yue,Hui,20516,854518728062939,1886126311468270,BOT: message,Okay. I'll give you some choices.,2018-08-28 14:54:58
+1886126311468270,Yue,Hui,20517,854518728062939,1886126311468270,BOT: quick reply,":keycap_1: surface
+:keycap_2: diameter
+:keycap_3: weight
+:keycap_4: height
+",2018-08-28 14:54:58
+1886126311468270,Yue,Hui,20518,1886126311468270,854518728062939,user_quick_reply: BUTTON_DKB_surface,:keycap_1:,2018-08-28 14:55:11
+1886126311468270,Yue,Hui,20519,854518728062939,1886126311468270,BOT: message,"Oops, that is not correct. :disappointed_face:",2018-08-28 14:55:11
+1886126311468270,Yue,Hui,20520,854518728062939,1886126311468270,BOT: quick reply,The correct answer is diameter.,2018-08-28 14:55:12
+1886126311468270,Yue,Hui,20521,1886126311468270,854518728062939,user_quick_reply: WHY,Why?,2018-08-28 14:55:17
+1886126311468270,Yue,Hui,20522,854518728062939,1886126311468270,BOT: message,This is why:,2018-08-28 14:55:18
+1886126311468270,Yue,Hui,20523,854518728062939,1886126311468270,BOT: quick reply,"The cardiovascular system also plays a role in maintaining body temperature. It helps to keep you warm by moving warm blood around your body. Your blood vessels also control your body temperature to keep you from getting too hot or too cold. When your brain senses that your body temperature is increasing, it sends messages to the blood vessels in the skin to increase in diameter. Increasing the diameter of the blood vessels increases the amount of blood and heat that moves near the skin's surface. The heat is then released from the skin. This helps you cool down.",2018-08-28 14:55:18
+1886126311468270,Yue,Hui,20749,1886126311468270,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-28 16:30:38
+1886126311468270,Yue,Hui,20750,854518728062939,1886126311468270,BOT: message,I think you'll like this question.,2018-08-28 16:30:39
+1886126311468270,Yue,Hui,20751,854518728062939,1886126311468270,BOT: quick reply,What disease characterized by the extreme swelling of the limbs is caused by infection with a type of roundworm?,2018-08-28 16:30:39
+1886126311468270,Yue,Hui,20752,1886126311468270,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-28 16:30:47
+1886126311468270,Yue,Hui,20753,854518728062939,1886126311468270,BOT: message,Pick one of the following answers.,2018-08-28 16:30:48
+1886126311468270,Yue,Hui,20754,854518728062939,1886126311468270,BOT: quick reply,":keycap_1: elephantiasis
+:keycap_2: gigantism
+:keycap_3: fibrosis
+:keycap_4: pulmonary edema
+",2018-08-28 16:30:48
+1886126311468270,Yue,Hui,20755,1886126311468270,854518728062939,user_quick_reply: I_DONT_KNOW,I dont know :downcast_face_with_sweat:,2018-08-28 16:30:54
+1886126311468270,Yue,Hui,20756,854518728062939,1886126311468270,BOT: quick reply,Are you sure you want to skip this question?,2018-08-28 16:30:55
+1886126311468270,Yue,Hui,20757,1886126311468270,854518728062939,user_quick_reply: GIVEUP_YES,"Yes, answer please.",2018-08-28 16:30:58
+1886126311468270,Yue,Hui,20758,854518728062939,1886126311468270,BOT: message,You didn't get this question this time.,2018-08-28 16:30:59
+1886126311468270,Yue,Hui,20759,854518728062939,1886126311468270,BOT: message,"That's okay, you'll get it next time! :grinning_face_with_smiling_eyes:",2018-08-28 16:30:59
+1886126311468270,Yue,Hui,20760,854518728062939,1886126311468270,BOT: quick reply,The correct answer is elephantiasis.,2018-08-28 16:31:00
+1886126311468270,Yue,Hui,20761,1886126311468270,854518728062939,user_quick_reply: WHY,Why?,2018-08-28 16:31:05
+1886126311468270,Yue,Hui,20762,854518728062939,1886126311468270,BOT: message,Here's why:,2018-08-28 16:31:06
+1886126311468270,Yue,Hui,20763,854518728062939,1886126311468270,BOT: quick reply,"Roundworms can be free-living organisms, but they are probably best known for their role as significant plant and animal parasites. Most Nematodes are parasitic, with over 16,000 parasitic species described. Heartworms, which cause serious disease in dogs while living in the heart and blood vessels, are a type of roundworm. Roundworms can also cause disease in humans. Elephantiasis, a disease characterized by the extreme swelling of the limbs, is caused by infection with a type of roundworm.",2018-08-28 16:31:06
+1886126311468270,Yue,Hui,20764,1886126311468270,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-28 16:31:09
+1886126311468270,Yue,Hui,20765,854518728062939,1886126311468270,BOT: message,What about this next question:,2018-08-28 16:31:10
+1886126311468270,Yue,Hui,20766,854518728062939,1886126311468270,BOT: quick reply,What is the diffusion of water through a semipermeable membrane down its concentration gradient?,2018-08-28 16:31:10
+1886126311468270,Yue,Hui,20767,1886126311468270,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-28 16:31:17
+1886126311468270,Yue,Hui,20768,854518728062939,1886126311468270,BOT: message,It's one of the following choices.,2018-08-28 16:31:17
+1886126311468270,Yue,Hui,20769,854518728062939,1886126311468270,BOT: quick reply,":keycap_1: permable
+:keycap_2: osmosis
+:keycap_3: mirrors
+:keycap_4: nutrients
+",2018-08-28 16:31:18
+1886126311468270,Yue,Hui,20770,1886126311468270,854518728062939,user_quick_reply: BUTTON_DKB_permable,:keycap_1:,2018-08-28 16:31:23
+1886126311468270,Yue,Hui,20771,854518728062939,1886126311468270,BOT: message,"I'm sorry, but that was incorrect. :disappointed_face:",2018-08-28 16:31:24
+1886126311468270,Yue,Hui,20772,854518728062939,1886126311468270,BOT: quick reply,The correct answer is osmosis.,2018-08-28 16:31:25
+1886126311468270,Yue,Hui,20773,1886126311468270,854518728062939,user_quick_reply: WHY,Why?,2018-08-28 16:31:28
+1886126311468270,Yue,Hui,20774,854518728062939,1886126311468270,BOT: message,This is an explanation of the question:,2018-08-28 16:31:29
+1886126311468270,Yue,Hui,20775,854518728062939,1886126311468270,BOT: quick reply,"Osmosis is the diffusion of water through a semipermeable membrane down its concentration gradient. If a membrane is permeable to water, though not to a solute, water will equalize its own concentration by diffusing to the side of lower water concentration (and thus the side of higher solute concentration). In the beaker on the left, the solution on the right side of the membrane is hypertonic.",2018-08-28 16:31:29
+1886126311468270,Yue,Hui,20776,1886126311468270,854518728062939,user_quick_reply: SWITCH_SUBJECT,Change subject :shuffle_tracks_button:,2018-08-28 16:31:35
+1886126311468270,Yue,Hui,20777,854518728062939,1886126311468270,BOT: quick reply,"Okay, which subject would you like to choose?:backhand_index_pointing_down_medium-light_skin_tone:",2018-08-28 16:31:36
+1886126311468270,Yue,Hui,20778,1886126311468270,854518728062939,user_quick_reply: RANDOM,Random :game_die:,2018-08-28 16:31:40
+1886126311468270,Yue,Hui,20779,854518728062939,1886126311468270,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/evolvescientist_normal.gif,2018-08-28 16:31:44
+1886126311468270,Yue,Hui,20780,854518728062939,1886126311468270,BOT: quick reply,Nice! Enjoy a little variety? Let's answer some questions! :game_die:,2018-08-28 16:31:45
+1886126311468270,Yue,Hui,20781,1886126311468270,854518728062939,user_quick_reply: NEXT_QUESTION,Got it :flexed_biceps_medium-light_skin_tone:,2018-08-28 16:31:49
+1886126311468270,Yue,Hui,20782,854518728062939,1886126311468270,BOT: message,Let's take a look at this question.,2018-08-28 16:31:49
+1886126311468270,Yue,Hui,20783,854518728062939,1886126311468270,BOT: quick reply,"Although John F. Kennedy was known for his carefree flag football games, Gerald Ford should be _____ as our football president: he turned down offers to play for two National Football League teams in order to pursue a career in public service.",2018-08-28 16:31:50
+1886126311468270,Yue,Hui,20784,1886126311468270,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-28 16:32:01
+1886126311468270,Yue,Hui,20785,854518728062939,1886126311468270,BOT: message,Which of the following options is the right answer?,2018-08-28 16:32:02
+1886126311468270,Yue,Hui,20786,854518728062939,1886126311468270,BOT: quick reply,":keycap_1: apotheosized
+:keycap_2: annulled
+:keycap_3: relegated
+:keycap_4: abrogated
+:keycap_5: criticized
+",2018-08-28 16:32:03
+1886126311468270,Yue,Hui,20787,1886126311468270,854518728062939,user_quick_reply: I_DONT_KNOW,I dont know :downcast_face_with_sweat:,2018-08-28 16:32:08
+1886126311468270,Yue,Hui,20788,854518728062939,1886126311468270,BOT: quick reply,Do you really want to give up?,2018-08-28 16:32:08
+1886126311468270,Yue,Hui,20789,1886126311468270,854518728062939,user_quick_reply: GIVEUP_YES,"Yes, answer please.",2018-08-28 16:32:12
+1886126311468270,Yue,Hui,20790,854518728062939,1886126311468270,BOT: message,You didn't get it right this time.,2018-08-28 16:32:12
+1886126311468270,Yue,Hui,20791,854518728062939,1886126311468270,BOT: message,"Don't give up, you'll get it next time! :grinning_face_with_smiling_eyes:",2018-08-28 16:32:13
+1886126311468270,Yue,Hui,20792,854518728062939,1886126311468270,BOT: quick reply,The correct answer is apotheosized.,2018-08-28 16:32:14
+1886126311468270,Yue,Hui,20793,1886126311468270,854518728062939,user_quick_reply: WHY,Why?,2018-08-28 16:32:17
+1886126311468270,Yue,Hui,20794,854518728062939,1886126311468270,BOT: message,This is why:,2018-08-28 16:32:18
+1886126311468270,Yue,Hui,20795,854518728062939,1886126311468270,BOT: quick reply,":pushpin: Apotheosized -- deify or glorify
+:pushpin: Relegated -- to send or consign to an inferior position, place, or condition
+:pushpin: Abrogated -- revoke formally
+:pushpin: Annulled -- declare invalid
+:pushpin: Criticized -- find fault with; express criticism of; point out real or perceived flaws",2018-08-28 16:32:18
+1886126311468270,Yue,Hui,20796,1886126311468270,854518728062939,persistent_menu: SCIENCE,Science:microscope:,2018-08-28 16:32:31
+1886126311468270,Yue,Hui,20797,854518728062939,1886126311468270,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/evolvenormal_scientist.gif,2018-08-28 16:32:35
+1886126311468270,Yue,Hui,20798,854518728062939,1886126311468270,BOT: quick reply,All right! Ill quiz you on science!,2018-08-28 16:32:36
+1886126311468270,Yue,Hui,20799,854518728062939,1886126311468270,BOT: message,"Alrighty, let's try this one.",2018-08-28 16:32:40
+1886126311468270,Yue,Hui,20800,854518728062939,1886126311468270,BOT: quick reply,The lithosphere is divided into a dozen major and several minor what?,2018-08-28 16:32:41
+1886126311468270,Yue,Hui,20801,1886126311468270,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-28 16:32:48
+1886126311468270,Yue,Hui,20802,854518728062939,1886126311468270,BOT: message,It's one of the following choices.,2018-08-28 16:32:48
+1886126311468270,Yue,Hui,20803,854518728062939,1886126311468270,BOT: quick reply,":keycap_1: faults
+:keycap_2: plates
+:keycap_3: crystals
+:keycap_4: zones
+",2018-08-28 16:32:49
+1886126311468270,Yue,Hui,20804,1886126311468270,854518728062939,user_quick_reply: BUTTON_AKB_plates,:keycap_2:,2018-08-28 16:32:54
+1886126311468270,Yue,Hui,20805,854518728062939,1886126311468270,BOT: message,Yes! You got the correct answer!,2018-08-28 16:32:55
+1886126311468270,Yue,Hui,20806,854518728062939,1886126311468270,BOT: quick reply,The correct answer is plates.,2018-08-28 16:32:56
+1886126311468270,Yue,Hui,21023,854518728062939,1886126311468270,BOT: quick reply,"Hi Yue, you haven't talked to me for a while. Would you like to resume the learning with me?",2018-08-28 20:00:09
+1886126311468270,Yue,Hui,21392,1886126311468270,854518728062939,user_quick_reply: NEXT_QUESTION,OK :flexed_biceps_medium-light_skin_tone:,2018-08-28 20:55:01
+1886126311468270,Yue,Hui,21393,854518728062939,1886126311468270,BOT: message,Let's see if you would answer this one.,2018-08-28 20:55:02
+1886126311468270,Yue,Hui,21394,854518728062939,1886126311468270,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-28 20:55:03
+1886126311468270,Yue,Hui,21395,854518728062939,1886126311468270,BOT: quick reply,What is the diffusion of water through a semipermeable membrane down its concentration gradient?,2018-08-28 20:55:03
+1886126311468270,Yue,Hui,21396,1886126311468270,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-28 20:55:08
+1886126311468270,Yue,Hui,21397,854518728062939,1886126311468270,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-08-28 20:55:08
+1886126311468270,Yue,Hui,21398,854518728062939,1886126311468270,BOT: quick reply,":keycap_1: mirrors
+:keycap_2: osmosis
+:keycap_3: permable
+:keycap_4: nutrients
+",2018-08-28 20:55:09
+1886126311468270,Yue,Hui,21399,1886126311468270,854518728062939,user_quick_reply: BUTTON_AKB_osmosis,:keycap_2:,2018-08-28 20:55:13
+1886126311468270,Yue,Hui,21400,854518728062939,1886126311468270,BOT: message,Great job!,2018-08-28 20:55:13
+1886126311468270,Yue,Hui,21401,854518728062939,1886126311468270,BOT: quick reply,The correct answer is osmosis.,2018-08-28 20:55:14
+1886126311468270,Yue,Hui,23299,854518728062939,1886126311468270,BOT: quick reply,"Hi Yue, you haven't talked to me for a while. Would you like to resume the learning with me?",2018-08-29 20:00:23
+1886126311468270,Yue,Hui,23792,1886126311468270,854518728062939,user_quick_reply: NEXT_QUESTION,Alrighty :thumbs_up_medium-light_skin_tone:,2018-08-29 22:39:53
+1886126311468270,Yue,Hui,23793,854518728062939,1886126311468270,BOT: message,How about this next one:,2018-08-29 22:39:54
+1886126311468270,Yue,Hui,23794,854518728062939,1886126311468270,BOT: quick reply,Most fungi get organic compounds from what?,2018-08-29 22:39:55
+1886126311468270,Yue,Hui,23795,1886126311468270,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-29 22:40:00
+1886126311468270,Yue,Hui,23796,854518728062939,1886126311468270,BOT: message,It's one of the following choices.,2018-08-29 22:40:01
+1886126311468270,Yue,Hui,23797,854518728062939,1886126311468270,BOT: quick reply,":keycap_1: inorganic material
+:keycap_2: living organisms
+:keycap_3: dead organisms
+:keycap_4: carnivorous organisms
+",2018-08-29 22:40:01
+1886126311468270,Yue,Hui,23798,1886126311468270,854518728062939,user_quick_reply: BUTTON_AKB_dead organisms,:keycap_3:,2018-08-29 22:41:10
+1886126311468270,Yue,Hui,23799,854518728062939,1886126311468270,BOT: message,Yes! You got the correct answer!,2018-08-29 22:41:11
+1886126311468270,Yue,Hui,23800,854518728062939,1886126311468270,BOT: quick reply,The correct answer is dead organisms.,2018-08-29 22:41:12
+1886126311468270,Yue,Hui,23801,1886126311468270,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-29 22:41:15
+1886126311468270,Yue,Hui,23802,854518728062939,1886126311468270,BOT: message,Let's take a look at this question.,2018-08-29 22:41:16
+1886126311468270,Yue,Hui,23803,854518728062939,1886126311468270,BOT: quick reply,The lithosphere is divided into a dozen major and several minor what?,2018-08-29 22:41:16
+1886126311468270,Yue,Hui,23810,1886126311468270,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-29 22:42:48
+1886126311468270,Yue,Hui,23811,854518728062939,1886126311468270,BOT: message,Which of the following options is the right answer?,2018-08-29 22:42:48
+1886126311468270,Yue,Hui,23812,854518728062939,1886126311468270,BOT: quick reply,":keycap_1: plates
+:keycap_2: zones
+:keycap_3: crystals
+:keycap_4: faults
+",2018-08-29 22:42:49
+1886126311468270,Yue,Hui,23813,1886126311468270,854518728062939,user_quick_reply: BUTTON_AKB_plates,:keycap_1:,2018-08-29 22:42:52
+1886126311468270,Yue,Hui,23814,854518728062939,1886126311468270,BOT: message,Nice work! Keep it up!,2018-08-29 22:42:53
+1886126311468270,Yue,Hui,23815,854518728062939,1886126311468270,BOT: quick reply,The correct answer is plates.,2018-08-29 22:42:53
+1886126311468270,Yue,Hui,23816,1886126311468270,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-29 22:42:58
+1886126311468270,Yue,Hui,23817,854518728062939,1886126311468270,BOT: message,See if you can answer this next one.,2018-08-29 22:42:58
+1886126311468270,Yue,Hui,23818,854518728062939,1886126311468270,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-29 22:42:59
+1886126311468270,Yue,Hui,23819,854518728062939,1886126311468270,BOT: quick reply,What are by far the most common type of invertebrate?,2018-08-29 22:43:00
+1886126311468270,Yue,Hui,23832,1886126311468270,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-29 22:43:31
+1886126311468270,Yue,Hui,23833,854518728062939,1886126311468270,BOT: message,Okay. I'll give you some choices.,2018-08-29 22:43:32
+1886126311468270,Yue,Hui,23834,854518728062939,1886126311468270,BOT: quick reply,":keycap_1: spiders
+:keycap_2: insects
+:keycap_3: corals
+:keycap_4: crustaceans
+",2018-08-29 22:43:33
+1886126311468270,Yue,Hui,23835,1886126311468270,854518728062939,user_quick_reply: BUTTON_AKB_insects,:keycap_2:,2018-08-29 22:43:37
+1886126311468270,Yue,Hui,23836,854518728062939,1886126311468270,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_jubilated_cyan.png,2018-08-29 22:43:39
+1886126311468270,Yue,Hui,23838,854518728062939,1886126311468270,BOT: message,Yes! You got the correct answer!,2018-08-29 22:43:40
+1886126311468270,Yue,Hui,23839,854518728062939,1886126311468270,BOT: quick reply,The correct answer is insects.,2018-08-29 22:43:41
+1886126311468270,Yue,Hui,23843,1886126311468270,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-29 22:43:44
+1886126311468270,Yue,Hui,23844,854518728062939,1886126311468270,BOT: message,Let's take a look at this question.,2018-08-29 22:43:45
+1886126311468270,Yue,Hui,23845,854518728062939,1886126311468270,BOT: quick reply,"What arises due to crossing over, independent assortment, and the random union of gametes?",2018-08-29 22:43:45
+1886126311468270,Yue,Hui,23849,1886126311468270,854518728062939,user_quick_reply: I_DONT_KNOW,I dont know :downcast_face_with_sweat:,2018-08-29 22:43:55
+1886126311468270,Yue,Hui,23850,854518728062939,1886126311468270,BOT: quick reply,Do you really want to skip this question?,2018-08-29 22:43:55
+1886126311468270,Yue,Hui,23851,1886126311468270,854518728062939,user_quick_reply: GIVEUP_YES,"Yes, answer please.",2018-08-29 22:43:58
+1886126311468270,Yue,Hui,23852,854518728062939,1886126311468270,BOT: message,You didn't get it right this time.,2018-08-29 22:43:58
+1886126311468270,Yue,Hui,23853,854518728062939,1886126311468270,BOT: message,"That's okay, you'll get it next time! :grinning_face_with_smiling_eyes:",2018-08-29 22:43:59
+1886126311468270,Yue,Hui,23854,854518728062939,1886126311468270,BOT: quick reply,The correct answer is genetic variation.,2018-08-29 22:43:59
+1886126311468270,Yue,Hui,23856,1886126311468270,854518728062939,user_quick_reply: WHY,Why?,2018-08-29 22:44:04
+1886126311468270,Yue,Hui,23858,854518728062939,1886126311468270,BOT: message,This is an explanation of the question:,2018-08-29 22:44:05
+1886126311468270,Yue,Hui,23859,854518728062939,1886126311468270,BOT: quick reply,"Asexual reproduction has the advantage of occurring quickly. Sexual reproduction has the advantage of creating genetic variation. This can help a species adapt to environmental change. The genetic variation arises due to crossing over, independent assortment, and the random union of gametes.",2018-08-29 22:44:05
+1886126311468270,Yue,Hui,23860,1886126311468270,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-29 22:44:24
+1886126311468270,Yue,Hui,23861,854518728062939,1886126311468270,BOT: message,I think you'll like this question.,2018-08-29 22:44:25
+1886126311468270,Yue,Hui,23862,854518728062939,1886126311468270,BOT: quick reply,The lithosphere is divided into a dozen major and several minor what?,2018-08-29 22:44:25
+1886126311468270,Yue,Hui,23866,1886126311468270,854518728062939,user_typing,Plates,2018-08-29 22:44:34
+1886126311468270,Yue,Hui,23867,854518728062939,1886126311468270,BOT: message,Thats right! :party_popper:,2018-08-29 22:44:34
+1886126311468270,Yue,Hui,23868,854518728062939,1886126311468270,BOT: quick reply,The correct answer is plates.,2018-08-29 22:44:35
+1886126311468270,Yue,Hui,23869,1886126311468270,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-29 22:44:38
+1886126311468270,Yue,Hui,23870,854518728062939,1886126311468270,BOT: message,Let's see if you would answer this one.,2018-08-29 22:44:39
+1886126311468270,Yue,Hui,23871,854518728062939,1886126311468270,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-29 22:44:39
+1886126311468270,Yue,Hui,23872,854518728062939,1886126311468270,BOT: quick reply,What are the little sacs at the end of the bronchioles called?,2018-08-29 22:44:40
+1886126311468270,Yue,Hui,23873,1886126311468270,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-29 22:44:46
+1886126311468270,Yue,Hui,23874,854518728062939,1886126311468270,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-08-29 22:44:47
+1886126311468270,Yue,Hui,23875,854518728062939,1886126311468270,BOT: quick reply,":keycap_1: lung
+:keycap_2: respiratory sacs
+:keycap_3: alveoli
+:keycap_4: ganglion
+",2018-08-29 22:44:48
+1886126311468270,Yue,Hui,23876,1886126311468270,854518728062939,user_quick_reply: I_DONT_KNOW,I dont know :downcast_face_with_sweat:,2018-08-29 22:44:56
+1886126311468270,Yue,Hui,23877,854518728062939,1886126311468270,BOT: quick reply,Do you really want to skip this question?,2018-08-29 22:44:57
+1886126311468270,Yue,Hui,23878,1886126311468270,854518728062939,user_quick_reply: GIVEUP_YES,"Yes, answer please.",2018-08-29 22:45:00
+1886126311468270,Yue,Hui,23879,854518728062939,1886126311468270,BOT: message,"I'm sorry, you didn't get the question right this time.",2018-08-29 22:45:00
+1886126311468270,Yue,Hui,23880,854518728062939,1886126311468270,BOT: message,No worries! You'll get it next time! :grinning_face_with_smiling_eyes:,2018-08-29 22:45:01
+1886126311468270,Yue,Hui,23881,854518728062939,1886126311468270,BOT: quick reply,The correct answer is alveoli.,2018-08-29 22:45:02
+1886126311468270,Yue,Hui,23901,1886126311468270,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-29 22:47:04
+1886126311468270,Yue,Hui,23902,854518728062939,1886126311468270,BOT: message,Let's see if you can get this one.,2018-08-29 22:47:05
+1886126311468270,Yue,Hui,23903,854518728062939,1886126311468270,BOT: quick reply,The lithosphere is divided into a dozen major and several minor what?,2018-08-29 22:47:05
+1886126311468270,Yue,Hui,23904,1886126311468270,854518728062939,user_typing,Plates,2018-08-29 22:47:12
+1886126311468270,Yue,Hui,23905,854518728062939,1886126311468270,BOT: message,Nice! :red_apple:,2018-08-29 22:47:12
+1886126311468270,Yue,Hui,23906,854518728062939,1886126311468270,BOT: quick reply,The correct answer is plates.,2018-08-29 22:47:13
+1886126311468270,Yue,Hui,23910,1886126311468270,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-29 22:47:18
+1886126311468270,Yue,Hui,23911,854518728062939,1886126311468270,BOT: message,What about this next question:,2018-08-29 22:47:18
+1886126311468270,Yue,Hui,23912,854518728062939,1886126311468270,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-29 22:47:19
+1886126311468270,Yue,Hui,23913,854518728062939,1886126311468270,BOT: quick reply,"When your brain senses that your body temperature is increasing, it sends messages to the blood vessels in the skin to increase in what?",2018-08-29 22:47:19
+1886126311468270,Yue,Hui,23914,1886126311468270,854518728062939,user_typing,Diameter,2018-08-29 22:47:32
+1886126311468270,Yue,Hui,23915,854518728062939,1886126311468270,BOT: message,Thats right! :party_popper:,2018-08-29 22:47:33
+1886126311468270,Yue,Hui,23916,854518728062939,1886126311468270,BOT: quick reply,The correct answer is diameter.,2018-08-29 22:47:34
+1886126311468270,Yue,Hui,23917,1886126311468270,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-29 22:47:37
+1886126311468270,Yue,Hui,23918,854518728062939,1886126311468270,BOT: message,Here's a question for you:,2018-08-29 22:47:37
+1886126311468270,Yue,Hui,23919,854518728062939,1886126311468270,BOT: quick reply,What opens two strands of DNA?,2018-08-29 22:47:38
+1886126311468270,Yue,Hui,23920,1886126311468270,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-29 22:47:43
+1886126311468270,Yue,Hui,23921,854518728062939,1886126311468270,BOT: message,Pick one of the following answers.,2018-08-29 22:47:44
+1886126311468270,Yue,Hui,23922,854518728062939,1886126311468270,BOT: quick reply,":keycap_1: replication
+:keycap_2: chromosome
+:keycap_3: helicase
+:keycap_4: adenylate
+",2018-08-29 22:47:44
+1886126311468270,Yue,Hui,23923,1886126311468270,854518728062939,user_quick_reply: BUTTON_AKB_helicase,:keycap_3:,2018-08-29 22:47:50
+1886126311468270,Yue,Hui,23924,854518728062939,1886126311468270,BOT: message,Great job!,2018-08-29 22:47:51
+1886126311468270,Yue,Hui,23925,854518728062939,1886126311468270,BOT: quick reply,The correct answer is helicase.,2018-08-29 22:47:52
+1886126311468270,Yue,Hui,23930,1886126311468270,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-29 22:47:55
+1886126311468270,Yue,Hui,23931,854518728062939,1886126311468270,BOT: message,"Alrighty, let's try this one.",2018-08-29 22:47:56
+1886126311468270,Yue,Hui,23932,854518728062939,1886126311468270,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-29 22:47:57
+1886126311468270,Yue,Hui,23933,854518728062939,1886126311468270,BOT: quick reply,Most fungi get organic compounds from what?,2018-08-29 22:47:57
+1886126311468270,Yue,Hui,23963,1886126311468270,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-29 22:50:07
+1886126311468270,Yue,Hui,23964,854518728062939,1886126311468270,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-08-29 22:50:07
+1886126311468270,Yue,Hui,23965,854518728062939,1886126311468270,BOT: quick reply,":keycap_1: inorganic material
+:keycap_2: living organisms
+:keycap_3: dead organisms
+:keycap_4: carnivorous organisms
+",2018-08-29 22:50:08
+1886126311468270,Yue,Hui,23968,1886126311468270,854518728062939,user_quick_reply: BUTTON_AKB_dead organisms,:keycap_3:,2018-08-29 22:50:12
+1886126311468270,Yue,Hui,23969,854518728062939,1886126311468270,BOT: message,Nice! That was right!,2018-08-29 22:50:12
+1886126311468270,Yue,Hui,23972,854518728062939,1886126311468270,BOT: quick reply,The correct answer is dead organisms.,2018-08-29 22:50:13
+1886126311468270,Yue,Hui,23977,1886126311468270,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-29 22:50:27
+1886126311468270,Yue,Hui,23978,854518728062939,1886126311468270,BOT: message,What about this next question:,2018-08-29 22:50:28
+1886126311468270,Yue,Hui,23979,854518728062939,1886126311468270,BOT: quick reply,"What arises due to crossing over, independent assortment, and the random union of gametes?",2018-08-29 22:50:28
+1886126311468270,Yue,Hui,23980,1886126311468270,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-29 22:50:37
+1886126311468270,Yue,Hui,23981,854518728062939,1886126311468270,BOT: message,Okay. I'll give you some choices.,2018-08-29 22:50:37
+1886126311468270,Yue,Hui,23982,854518728062939,1886126311468270,BOT: quick reply,":keycap_1: genetic variation
+:keycap_2: alternative variation
+:keycap_3: susceptible variation
+:keycap_4: recessive variation
+",2018-08-29 22:50:38
+1886126311468270,Yue,Hui,23983,1886126311468270,854518728062939,user_quick_reply: I_DONT_KNOW,I dont know :downcast_face_with_sweat:,2018-08-29 22:51:16
+1886126311468270,Yue,Hui,23984,854518728062939,1886126311468270,BOT: quick reply,Are you sure you want to skip this question?,2018-08-29 22:51:17
+1886126311468270,Yue,Hui,23985,1886126311468270,854518728062939,user_quick_reply: GIVEUP_YES,"Yes, answer please.",2018-08-29 22:51:21
+1886126311468270,Yue,Hui,23986,854518728062939,1886126311468270,BOT: message,"I'm sorry, you didn't get the question right this time.",2018-08-29 22:51:22
+1886126311468270,Yue,Hui,23987,854518728062939,1886126311468270,BOT: message,"Don't give up, you'll get it next time! :grinning_face_with_smiling_eyes:",2018-08-29 22:51:23
+1886126311468270,Yue,Hui,23988,854518728062939,1886126311468270,BOT: quick reply,The correct answer is genetic variation.,2018-08-29 22:51:23
+1886126311468270,Yue,Hui,23992,1886126311468270,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-29 22:53:09
+1886126311468270,Yue,Hui,23993,854518728062939,1886126311468270,BOT: message,Let's see if you can get this one.,2018-08-29 22:53:10
+1886126311468270,Yue,Hui,23994,854518728062939,1886126311468270,BOT: quick reply,How often should women perform a breast self-exam?,2018-08-29 22:53:10
+1886126311468270,Yue,Hui,23995,1886126311468270,854518728062939,user_typing,Monthly,2018-08-29 22:53:18
+1886126311468270,Yue,Hui,23996,854518728062939,1886126311468270,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_normal_orange.png,2018-08-29 22:53:19
+1886126311468270,Yue,Hui,23997,854518728062939,1886126311468270,BOT: message,Correct! :confetti_ball:,2018-08-29 22:53:20
+1886126311468270,Yue,Hui,23999,854518728062939,1886126311468270,BOT: quick reply,The correct answer is monthly.,2018-08-29 22:53:21
+1886126311468270,Yue,Hui,24002,1886126311468270,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-29 22:53:25
+1886126311468270,Yue,Hui,24003,854518728062939,1886126311468270,BOT: message,Let's try this one.,2018-08-29 22:53:26
+1886126311468270,Yue,Hui,24004,854518728062939,1886126311468270,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-29 22:53:26
+1886126311468270,Yue,Hui,24005,854518728062939,1886126311468270,BOT: quick reply,Nerve cells that sense touch are found mainly where?,2018-08-29 22:53:27
+1886126311468270,Yue,Hui,24010,1886126311468270,854518728062939,user_quick_reply: I_DONT_KNOW,I dont know :downcast_face_with_sweat:,2018-08-29 22:53:47
+1886126311468270,Yue,Hui,24012,854518728062939,1886126311468270,BOT: quick reply,Are you sure you want to skip answering?,2018-08-29 22:53:48
+1886126311468270,Yue,Hui,24016,1886126311468270,854518728062939,user_quick_reply: GIVEUP_YES,"Yes, answer please.",2018-08-29 22:53:50
+1886126311468270,Yue,Hui,24017,854518728062939,1886126311468270,BOT: message,You didn't get it right this time.,2018-08-29 22:53:51
+1886126311468270,Yue,Hui,24018,854518728062939,1886126311468270,BOT: message,"That's okay, you'll get it next time! :grinning_face_with_smiling_eyes:",2018-08-29 22:53:52
+1886126311468270,Yue,Hui,24019,854518728062939,1886126311468270,BOT: quick reply,The correct answer is skin.,2018-08-29 22:53:53
+1886126311468270,Yue,Hui,26200,854518728062939,1886126311468270,BOT: quick reply,"Hi Yue, you haven't talked to me for a while. Would you like to resume the learning with me?",2018-08-30 20:00:38
+1886126311468270,Yue,Hui,26489,1886126311468270,854518728062939,user_quick_reply: NEXT_QUESTION,Got it :flexed_biceps_medium-light_skin_tone:,2018-08-30 21:20:09
+1886126311468270,Yue,Hui,26490,854518728062939,1886126311468270,BOT: message,Let's take a look at this question.,2018-08-30 21:20:10
+1886126311468270,Yue,Hui,26491,854518728062939,1886126311468270,BOT: quick reply,What opens two strands of DNA?,2018-08-30 21:20:11
+1886126311468270,Yue,Hui,26492,1886126311468270,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-30 21:20:18
+1886126311468270,Yue,Hui,26493,854518728062939,1886126311468270,BOT: message,It's one of the following choices.,2018-08-30 21:20:19
+1886126311468270,Yue,Hui,26494,854518728062939,1886126311468270,BOT: quick reply,":keycap_1: helicase
+:keycap_2: adenylate
+:keycap_3: replication
+:keycap_4: chromosome
+",2018-08-30 21:20:19
+1886126311468270,Yue,Hui,26495,1886126311468270,854518728062939,user_quick_reply: BUTTON_AKB_helicase,:keycap_1:,2018-08-30 21:20:23
+1886126311468270,Yue,Hui,26496,854518728062939,1886126311468270,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/celebration.gif,2018-08-30 21:20:31
+1886126311468270,Yue,Hui,26497,854518728062939,1886126311468270,BOT: message,Great! Keep it up! :flexed_biceps_medium-light_skin_tone:,2018-08-30 21:20:31
+1886126311468270,Yue,Hui,26498,854518728062939,1886126311468270,BOT: quick reply,The correct answer is helicase.,2018-08-30 21:20:32
+1886126311468270,Yue,Hui,26499,1886126311468270,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-30 21:20:43
+1886126311468270,Yue,Hui,26500,854518728062939,1886126311468270,BOT: message,Let's take a look at this question.,2018-08-30 21:20:43
+1886126311468270,Yue,Hui,26501,854518728062939,1886126311468270,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-30 21:20:44
+1886126311468270,Yue,Hui,26502,854518728062939,1886126311468270,BOT: quick reply,"What arises due to crossing over, independent assortment, and the random union of gametes?",2018-08-30 21:20:45
+1886126311468270,Yue,Hui,26503,1886126311468270,854518728062939,user_quick_reply: I_DONT_KNOW,I dont know :downcast_face_with_sweat:,2018-08-30 21:20:53
+1886126311468270,Yue,Hui,26504,854518728062939,1886126311468270,BOT: quick reply,Are you sure you want to give up?,2018-08-30 21:20:54
+1886126311468270,Yue,Hui,26505,1886126311468270,854518728062939,user_quick_reply: GIVEUP_YES,"Yes, answer please.",2018-08-30 21:20:57
+1886126311468270,Yue,Hui,26506,854518728062939,1886126311468270,BOT: message,"I'm sorry, you didn't get the question right this time.",2018-08-30 21:20:57
+1886126311468270,Yue,Hui,26507,854518728062939,1886126311468270,BOT: message,No worries! You'll get it next time! :grinning_face_with_smiling_eyes:,2018-08-30 21:20:58
+1886126311468270,Yue,Hui,26508,854518728062939,1886126311468270,BOT: quick reply,The correct answer is genetic variation.,2018-08-30 21:20:58
+1886126311468270,Yue,Hui,26509,1886126311468270,854518728062939,user_quick_reply: WHY,Why?,2018-08-30 21:21:04
+1886126311468270,Yue,Hui,26510,854518728062939,1886126311468270,BOT: message,Here's an explanation:,2018-08-30 21:21:04
+1886126311468270,Yue,Hui,26511,854518728062939,1886126311468270,BOT: quick reply,"Asexual reproduction has the advantage of occurring quickly. Sexual reproduction has the advantage of creating genetic variation. This can help a species adapt to environmental change. The genetic variation arises due to crossing over, independent assortment, and the random union of gametes.",2018-08-30 21:21:05
+1886126311468270,Yue,Hui,26512,1886126311468270,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-30 21:38:27
+1886126311468270,Yue,Hui,26513,854518728062939,1886126311468270,BOT: message,Let's see if you can answer this question.,2018-08-30 21:38:27
+1886126311468270,Yue,Hui,26514,854518728062939,1886126311468270,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-30 21:38:28
+1886126311468270,Yue,Hui,26515,854518728062939,1886126311468270,BOT: quick reply,Most insects reproduce quickly and through what type of reproduction?,2018-08-30 21:38:28
+1886126311468270,Yue,Hui,26516,1886126311468270,854518728062939,user_typing,Sexual production,2018-08-30 21:38:45
+1886126311468270,Yue,Hui,26517,854518728062939,1886126311468270,BOT: message,Fantastic! :hundred_points:,2018-08-30 21:38:46
+1886126311468270,Yue,Hui,26518,854518728062939,1886126311468270,BOT: quick reply,The correct answer is sexual reproduction.,2018-08-30 21:38:47
+1886126311468270,Yue,Hui,27171,1886126311468270,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-30 23:58:23
+1886126311468270,Yue,Hui,27172,854518728062939,1886126311468270,BOT: message,Here's a question for you:,2018-08-30 23:58:23
+1886126311468270,Yue,Hui,27173,854518728062939,1886126311468270,BOT: quick reply,What kind of viscosity is found in long-chain hydrocarbons?,2018-08-30 23:58:24

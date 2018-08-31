@@ -2,8 +2,8 @@
     score_calculator.py
     Author: Liwei Jiang
     Date: 02/07/2018
-    Usage: calculate user quiz scores
-
+    Usage: 
+    	Calculate user quiz scores
 '''
 import csv
 import itertools
@@ -33,7 +33,7 @@ b2 = [0, 1, 2, 4, 7, 8, 10, 14, 15, 17, 19, 23, 26, 28, 31, 32, 34, 35, 37, 38, 
 quiz_a_repeated_index = [ 0,    3,  4,  6,   8,  9,  14,  15, 19, 21, 24, 26, 30, 32,  34, 37, 40, 43, 44,  54, 58, 59]
 quiz_b_repeated_index = [13,   22, 33, 37,  52, 17,  36,   0, 54, 44, 11, 39,  8,  6,  15, 24, 57, 43,  1,  19, 49,  4]
 
-# unique question id in the 150 question pool
+# qid in the 150 question pool
 repeated_question_id =  [148, 111,  6, 93, 102, 21, 114, 146, 41, 37, 58, 11, 84, 90, 117, 44, 42, 53, 72, 127, 75, 79]
 
 flashcard_id = [6, 9, 11, 15, 17, 18, 24, 29, 37, 41, 44, 46, 49, 51, 52, 55, 56, 58, 59, 73, 75, 76, 77, 83, 88, 89, 90, 99, 102, 104, 106, 111, 113, 114, 128, 130, 131, 133, 135, 141, 145, 148]
@@ -54,8 +54,11 @@ a2_to_id = {6: 93, 7: 94, 9: 21, 11: 82, 15: 146, 27: 64, 28: 14, 30: 84, 31: 10
 b1_to_id = {3: 145, 6: 90, 9: 24, 11: 58, 12: 130, 13: 148, 16: 83, 18: 59, 22: 111, 24: 44, 25: 17, 27: 56, 29: 141, 30: 73, 33: 6, 36: 114, 39: 11, 44: 37, 45: 9, 46: 77, 49: 75, 50: 106, 52: 102, 54: 41, 55: 89, 56: 29, 58: 133}
 b2_to_id = {0: 146, 1: 72, 2: 25, 4: 79, 7: 118, 8: 84, 10: 1, 14: 19, 15: 117, 17: 21, 19: 127, 23: 50, 26: 30, 28: 120, 31: 38, 32: 143, 34: 147, 35: 8, 37: 93, 38: 2, 41: 121, 42: 68, 43: 53, 51: 97, 53: 112, 57: 42, 59: 87}
 
-# calculate the quiz A score for the between subject users (out of 54)
-def between_subject():
+
+def quiz_a_within_subject_score_split():
+	'''
+		Calculate the quiz a1, a2 splitting scores (within subject, quiz a1, a2)
+	'''
 	quiz_a_score_report_filename = "csv/MTurk1_A_score_report.csv"
 	quiz_b_score_report_filename = "csv/MTurk1_B_score_report.csv"
 
@@ -79,8 +82,8 @@ def between_subject():
 				if reader[i][1] == "Total":
 					quiz_b_answer.append(reader[i - 1][1])
 
-	quiz_a_user_record_filename = "csv/between_subject_A.csv"
-	quiz_b_user_record_filename = "csv/between_subject_B.csv"
+	quiz_a_user_record_filename = "csv/within_subject_A.csv"
+	quiz_b_user_record_filename = "csv/within_subject_B.csv"
 
 	quiz_a_data = {}
 
@@ -115,8 +118,8 @@ def between_subject():
 	print(len(result_data))
 
 
-# calculate the scores of questions users have seen (30 + 20, Quiz B)
-def quiz_b_30_20():
+# calculate the scores of questions users have seen (30 + 20, quiz b)
+def quiz_b_30_20_score_seen():
 	quiz_score_report_filename = "csv/MTurk1_B_score_report.csv"
 	quiz_question = []
 	quiz_answer = []
@@ -149,17 +152,19 @@ def quiz_b_30_20():
 
 	all_users = list(set(quiz_data.keys()) - set(['Zilin Ma']))
 
-	question_index = {'Jacqueline': [51, 52, 35, 30, 57, 49, 53, 25, 23, 16, 17, 7, 59, 9, 2, 6, 18, 50, 15], \
-					  'Jongho': [44, 45, 39, 24, 17, 26], \
-					  # 'Zilin Ma': , \
-					  'Veronica': [41, 35, 45, 49, 36, 37, 4, 53, 23, 13, 43, 30, 27, 55, 6, 56], \
-					  'Cynthia': [10, 12, 58, 33, 35, 45, 39, 29, 32, 25, 0, 34, 13, 17, 9, 2, 56, 26, 44, 31, 54, 57, 24, 23, 43, 27, 11, 18, 38, 42, 1, 30, 49, 46, 4, 16, 8, 59, 55, 6, 37, 51, 50, 22, 36, 14, 7, 28, 41], \
-					  'Laura': [12, 58, 33, 35, 45, 39, 29, 32, 3, 0, 34, 17, 9, 2, 56, 26, 44, 31, 54, 57, 24, 23, 43, 27, 11, 18, 38, 42, 1, 30, 49, 46, 4, 16, 8, 59, 55, 6, 37, 51, 52, 50, 22, 53, 36, 14, 15, 7, 28, 41, 19], \
-					  'Eleni': [10, 12, 58, 35, 32, 25, 17, 9, 2, 56, 44, 54, 57, 23, 27, 18, 30, 8, 59, 51, 52, 50, 22, 53, 36, 15], \
-					  'Jordan': [12, 33, 35, 45, 39, 29, 3, 0, 34, 17, 2, 56, 26, 44, 31, 54, 24, 23, 43, 27, 11, 18, 38, 42, 1, 30, 49, 4, 16, 8, 55, 6, 37, 51, 25, 53, 36, 14, 28, 41], \
-					  'Courtney': [10, 12, 58, 35, 45, 39, 29, 32, 25, 34, 13, 9, 2, 26, 44, 31, 54, 57, 24, 23, 38, 3, 22, 53, 14, 7, 41], \
-					  'Golrokh': [12, 58, 45, 39, 29, 32, 3, 0, 13, 17, 44, 24, 4, 16, 8, 59, 6, 52, 50, 22, 36, 15, 7, 41, 19],\
-					  'Sen': [10, 38, 33, 35, 45, 39, 3, 0, 14, 17, 9, 2, 56, 26, 44, 31, 54, 57, 24, 23, 43, 27, 18, 42, 1, 49, 46, 4, 16, 8, 59, 55, 6, 37, 51, 50, 53, 7, 41]}
+	question_index = {'Jacqueline': [51, 52, 35, 30, 57, 49, 53, 25, 23, 16, 17, 7, 59, 9, 2, 6, 18, 50, 15],
+					  'Jongho': [44, 45, 39, 24, 17, 26],
+					  # 'Zilin Ma': ,
+					  'Veronica': [41, 35, 45, 49, 36, 37, 4, 53, 23, 13, 43, 30, 27, 55, 6, 56],
+					  'Cynthia': [10, 12, 58, 33, 35, 45, 39, 29, 32, 25, 0, 34, 13, 17, 9, 2, 56, 26, 44, 31, 54, 57, 24, 23, 43, 27, 11, 18, 38, 42, 1, 30, 49, 46, 4, 16, 8, 59, 55, 6, 37, 51, 50, 22, 36, 14, 7, 28, 41],
+					  'Laura': [12, 58, 33, 35, 45, 39, 29, 32, 3, 0, 34, 17, 9, 2, 56, 26, 44, 31, 54, 57, 24, 23, 43, 27, 11, 18, 38, 42, 1, 30, 49, 46, 4, 16, 8, 59, 55, 6, 37, 51, 52, 50, 22, 53, 36, 14, 15, 7, 28, 41, 19],
+					  'Eleni': [10, 12, 58, 35, 32, 25, 17, 9, 2, 56, 44, 54, 57, 23, 27, 18, 30, 8, 59, 51, 52, 50, 22, 53, 36, 15],
+					  'Jordan': [12, 33, 35, 45, 39, 29, 3, 0, 34, 17, 2, 56, 26, 44, 31, 54, 24, 23, 43, 27, 11, 18, 38, 42, 1, 30, 49, 4, 16, 8, 55, 6, 37, 51, 25, 53, 36, 14, 28, 41],
+					  'Courtney': [10, 12, 58, 35, 45, 39, 29, 32, 25, 34, 13, 9, 2, 26, 44, 31, 54, 57, 24, 23, 38, 3, 22, 53, 14, 7, 41],
+					  'Golrokh': [12, 58, 45, 39, 29, 32, 3, 0, 13, 17, 44, 24, 4, 16, 8, 59, 6, 52, 50, 22, 36, 15, 7, 41, 19],
+					  'Sen': [10, 38, 33, 35, 45, 39, 3, 0, 14, 17, 9, 2, 56, 26, 44, 31, 54, 57, 24, 23, 43, 27, 18, 42, 1, 49, 46, 4, 16, 8, 59, 55, 6, 37, 51, 50, 53, 7, 41],
+					  'Michael': [14, 12, 31, 54, 39, 24, 46, 53, 34, 17, 55, 30, 28, 2, 18, 56],
+					  'Lantao': [10, 12, 42, 51, 1, 30, 0, 4, 3, 23, 59, 27, 11, 26]}
 
 	result_data = []
 	for u in range(len(all_users)):
@@ -174,8 +179,8 @@ def quiz_b_30_20():
 	print(len(result_data))
 
 
-# calculate the scores of questions users have seen (40 + 10, Quiz B)
-def quiz_b_40_10():
+# calculate the scores of questions users have seen (40 + 10, quiz b)
+def quiz_b_40_10_score_seen():
 	quiz_score_report_filename = "csv/Quiz_B_40_10_recall_score_report.csv"
 	quiz_question = []
 	quiz_answer = []
@@ -215,15 +220,16 @@ def quiz_b_40_10():
 	for i in quiz_b_remove:
 		quiz_answer.insert(i, '')
 
-	question_index = {'Yi': [12, 44, 22, 53, 36, 15, 28, 18, 19], \
-					  'Tugce': [10, 59, 42, 35, 45, 39, 29, 4, 1, 23, 43, 54, 28, 55, 11, 56], \
-					  'Edgar': [10, 12, 58, 33, 35, 45, 39, 29, 32, 3, 34, 13, 17, 9, 2, 56, 26, 44, 31, 54, 57, 24, 23, 27, 38, 42, 1, 49, 46, 8, 59, 55, 6, 52, 25, 14, 19], \
-					  'Pingyu': [53, 9, 0, 37, 28], \
-					  'Dae Hyun': [12, 44, 33, 25, 50, 24, 29, 32, 53, 3, 0, 34, 13, 15, 7, 28, 41, 6, 22, 52], \
-					  'Tzu Yin': [14, 12, 36, 58, 31, 50, 38, 32, 53, 41, 0, 34, 13, 15, 7, 59, 2, 11, 22, 52], \
-					  'Marianne': [10, 12, 58, 33, 35, 45, 39, 29, 32, 3, 0, 34, 13, 17, 9, 2, 26, 44, 31, 54, 57, 24, 23, 11, 18, 38, 42, 30, 46, 4, 16, 8, 59, 55, 6, 37, 51, 52, 25, 50, 22, 53, 14, 15, 7, 28, 41, 19],\
-					  'Max': [10, 42, 44, 33, 54, 57, 24, 36, 53, 0, 8, 59, 41, 52], \
-					  'Kimberly': [10, 38, 44, 33, 51, 35, 45, 57, 24, 12, 3, 25, 36, 34, 13, 17, 54, 28, 2, 41, 26]}
+	question_index = {'Yi': [12, 44, 22, 53, 36, 15, 28, 18, 19], 
+					  'Tugce': [10, 59, 42, 35, 45, 39, 29, 4, 1, 23, 43, 54, 28, 55, 11, 56], 
+					  'Edgar': [10, 12, 58, 33, 35, 45, 39, 29, 32, 3, 34, 13, 17, 9, 2, 56, 26, 44, 31, 54, 57, 24, 23, 27, 38, 42, 1, 49, 46, 8, 59, 55, 6, 52, 25, 14, 19], 
+					  'Pingyu': [53, 9, 0, 37, 28], 
+					  'Dae Hyun': [12, 44, 33, 25, 50, 24, 29, 32, 53, 3, 0, 34, 13, 15, 7, 28, 41, 6, 22, 52], 
+					  'Tzu Yin': [14, 12, 36, 58, 31, 50, 38, 32, 53, 41, 0, 34, 13, 15, 7, 59, 2, 11, 22, 52], 
+					  'Marianne': [10, 12, 58, 33, 35, 45, 39, 29, 32, 3, 0, 34, 13, 17, 9, 2, 26, 44, 31, 54, 57, 24, 23, 11, 18, 38, 42, 30, 46, 4, 16, 8, 59, 55, 6, 37, 51, 52, 25, 50, 22, 53, 14, 15, 7, 28, 41, 19],
+					  'Max': [10, 42, 44, 33, 54, 57, 24, 36, 53, 0, 8, 59, 41, 52], 
+					  'Kimberly': [10, 38, 44, 33, 51, 35, 45, 57, 24, 12, 3, 25, 36, 34, 13, 17, 54, 28, 2, 41, 26],
+					  'Bianca': [51, 38, 41, 44, 33, 35, 30, 50, 12, 53, 3, 36, 13, 7, 55, 1, 2, 11, 52, 28]}
 
 	result_data = []
 	for u in range(len(all_users)):
@@ -238,8 +244,8 @@ def quiz_b_40_10():
 	print(len(result_data))
 
 
-# calculate the scores of the repeated questions (30 + 20, Quiz A)
-def quiz_a_30_20():
+# calculate the scores of the repeated questions (30 + 20, quiz a)
+def quiz_a_30_20_score_repeated():
 	quiz_score_report_filename = "csv/MTurk1_A_score_report.csv"
 	quiz_question = []
 	quiz_answer = []
@@ -287,8 +293,8 @@ def quiz_a_30_20():
 	print(len(result_data))
 
 
-# calculate the scores of the repeated questions (40 + 10, Quiz A)
-def quiz_a_40_10():
+# calculate the scores of the repeated questions (40 + 10, quiz a)
+def quiz_a_40_10_score_repeated():
 	quiz_score_report_filename = "csv/MTurk1_A_score_report.csv"
 	quiz_question = []
 	quiz_answer = []
@@ -336,8 +342,8 @@ def quiz_a_40_10():
 	print(len(result_data))
 
 
-# calculate the scores of the repeated questions (5 * 10, Quiz B)
-def quiz_b_between_subject():
+# calculate the split quizzes scores (within subject, quiz b1, b2)
+def quiz_b_within_subject_score_split():
 	quiz_score_report_filename = "csv/MTurk1_B_score_report.csv"
 	quiz_question = []
 	quiz_answer = []
@@ -349,7 +355,7 @@ def quiz_b_between_subject():
 				if reader[i][1] == "Total":
 					quiz_answer.append(reader[i - 1][1])
 
-	user_record_filename = "csv/Quiz_B_between_subject.csv"
+	user_record_filename = "csv/Quiz_B_within_subject.csv"
 
 	quiz_data = {}
 
@@ -365,8 +371,6 @@ def quiz_b_between_subject():
 		for j in quiz_b_remove:
 			quiz_data[quiz[i][17]].insert(j, "None")
 
-	print(quiz_data)
-
 	all_users = list(set(quiz_data.keys()))
 
 	result_data = []
@@ -380,7 +384,6 @@ def quiz_b_between_subject():
 	print("------ b1: ")
 	print(result_data)
 
-
 	result_data = []
 	for u in range(len(all_users)):
 		user = all_users[u]
@@ -393,10 +396,104 @@ def quiz_b_between_subject():
 	print(result_data)
 
 
+# calculate the scores of questions users have seen (within subject, quiz b1, b2)
+def quiz_b_within_subject_score_seen():
+	quiz_score_report_filename = "csv/MTurk1_B_score_report.csv"
+	quiz_question = []
+	quiz_answer = []
+
+	with open(quiz_score_report_filename, 'r') as csvfile:
+		reader = list(csv.reader(csvfile))
+		for i in range(len(reader)):
+			if len(reader[i]) >= 2:
+				if reader[i][1] == "Total":
+					quiz_answer.append(reader[i - 1][1])
+
+	user_record_filename = "csv/Quiz_B_within_subject.csv"
+
+	quiz_data = {}
+
+	with open(user_record_filename, 'rt') as csvfile:
+		reader = list(csv.reader(csvfile))
+		quiz = reader[3:]
+
+	for i in range(len(quiz)):
+		quiz_data[quiz[i][17]] = [quiz[i][5 * j + 51] for j in range(19)]
+		after_attention_check = [quiz[i][5 * j + 52] for j in range(19, 54)]
+		quiz_data[quiz[i][17]] = quiz_data[quiz[i][17]] + after_attention_check
+
+		for j in quiz_b_remove:
+			quiz_data[quiz[i][17]].insert(j, "None")
+
+	all_users = list(set(quiz_data.keys()))
+
+	print(all_users)
+
+	b1_index = {'Henry': [44, 33, 45, 39, 24, 25, 13, 54, 9, 56],
+				'Andrew': [56],
+				'Yinuo': [12, 58, 33, 45, 39, 29, 3, 13, 9, 56, 44, 54, 24, 27, 11, 18, 30, 49, 46, 16, 55, 6, 52, 25, 50, 22, 36],
+				'jingyi': [12, 58, 33, 45, 39, 29, 25, 13, 9, 56, 44, 54, 24, 27, 11, 18, 30, 49, 46, 16, 55, 6, 52, 3, 50, 22, 36],
+				'Joy': [12, 58, 33, 45, 39, 29, 3, 13, 9, 56, 54, 27, 11, 18, 30, 49, 46, 16, 55, 6, 52, 25, 50, 22, 36],
+				'Tyler': [12, 58, 33, 45, 39, 25, 13, 9, 56, 44, 54, 24, 27, 11, 18, 30, 49, 46, 16, 55, 6, 52, 3, 50, 22, 36],
+				'Dee Dee': [33, 54, 39, 24, 25, 45, 9, 56],
+				'Fangmingyu': [44, 33, 45, 39, 24, 25, 54, 9, 55, 56],
+				'Jenn ': [12, 58, 33, 45, 39, 29, 25, 13, 9, 56, 44, 54, 24, 27, 11, 18, 30, 49, 46, 16, 55, 6, 52, 3, 50, 22, 36],
+				'Francis': [18, 39, 13],
+				'Andi': [12, 44, 33, 25, 54, 39, 24, 3, 13, 45, 9, 56],
+				'Nina': [44, 54, 39, 24, 9, 56],
+				'Daniel': [44, 33, 54, 24, 36, 9, 56, 58],
+				'Helen': [],
+				'Wangjianzhe': [12, 58, 52, 29, 46, 36, 13, 27, 22],
+				'De-An': [],
+				'Kylie': [58, 33, 54, 39, 24, 45, 9, 52],
+				'Giovanni': [9, 54, 24, 44, 25],
+				'Jean': [33],
+				'Philip': [58, 54, 25, 13, 55, 6, 56]}
+
+	b2_index = {'Henry': [38, 35, 57, 32, 0, 34, 17, 7, 41, 28, 2, 19, 26, 15],
+				'Andrew': [38, 35, 32, 0, 34, 17, 2, 26, 31, 23, 43, 42, 1, 4, 8, 59, 51, 53, 14, 15, 7, 28, 41, 19],
+				'Yinuo': [10, 38, 35, 32, 0, 34, 17, 2, 26, 31, 57, 23, 43, 42, 1, 4, 8, 59, 37, 51, 53, 14, 15, 7, 28, 41],
+				'jingyi': [10, 38, 35, 32, 0, 17, 2, 26, 31, 57, 23, 43, 42, 1, 4, 8, 59, 37, 51, 53, 15, 7],
+				'Joy': [10, 38, 35, 32, 0, 34, 17, 2, 26, 31, 57, 23, 43, 42, 4, 8, 59, 37, 51, 53, 14, 15, 7, 41, 19],
+				'Tyler': [51, 38, 35, 32, 53, 1, 0, 34, 8, 17, 7, 41, 28, 2, 19, 15],
+				'Dee Dee': [10, 38, 31, 51, 35, 57, 1, 0, 14, 17, 41, 28, 2, 37, 26],
+				'Fangmingyu': [10, 38, 35, 32, 0, 14, 17, 2, 26, 31, 57, 23, 42, 1, 4, 8, 59, 51, 34, 7, 28, 41],
+				'Jenn ': [10, 38, 31, 35, 57, 14, 17, 2, 26],
+				'Francis': [35, 2, 17, 31, 32],
+				'Andi': [42, 32, 53, 14, 28, 37],
+				'Nina': [10, 38, 42, 31, 51, 35, 57, 4, 1, 23, 14, 8, 17, 59, 2, 37, 26, 43],
+				'Daniel': [10, 38, 35, 32, 0, 14, 17, 2, 26, 31, 57, 43, 42, 8, 59, 37, 51, 53, 34, 15, 28, 41],
+				'Helen': [10, 38, 42, 31, 35, 57, 23, 32, 53, 0, 14, 8, 17, 7, 59, 28, 2, 4, 37, 26, 15],
+				'Wangjianzhe': [1, 4, 53, 0, 34, 15, 7, 59, 28, 41, 32, 19],
+				'De-An': [14, 41, 31, 35, 4, 53, 0, 34, 8, 15, 7, 59, 2, 26, 19],
+				'Kylie': [14, 10, 38, 42, 51, 35, 57, 32, 53, 1, 23, 34, 8, 17, 7, 59, 28, 19, 37, 26, 43],
+				'Giovanni': [10, 38, 35, 32, 0, 34, 17, 2, 26, 31, 57, 23, 43, 4, 8, 59, 37, 51, 53, 14, 15, 7, 28, 41, 19],
+				'Jean': [34, 10, 38, 42, 31, 51, 35, 57, 32, 53, 1, 23, 14, 41, 17, 7, 59, 28, 2, 26, 15],
+				'Philip': [10, 38, 31, 51, 35, 57, 19, 23, 32, 53, 1, 0, 14, 17, 41, 2, 4, 37, 43]}
+
+	result_data = []
+	for u in range(len(all_users)):
+		user = all_users[u]
+		result_data.append([user, 0])
+		for i in b1_index[user]:
+			if quiz_data[user][i] == quiz_answer[i]:
+				result_data[u][1] += 1
+
+	print(result_data)
+	print(len(result_data))
+
+	result_data = []
+	for u in range(len(all_users)):
+		user = all_users[u]
+		result_data.append([user, 0])
+		for i in b2_index[user]:
+			if quiz_data[user][i] == quiz_answer[i]:
+				result_data[u][1] += 1
+
+	print(result_data)
+	print(len(result_data))
+
 if __name__ == "__main__":
-	quiz_b_between_subject()
-
-
-
+	quiz_b_within_subject_score_seen()
 
 

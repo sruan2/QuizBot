@@ -1,0 +1,532 @@
+user_id,user_firstname,user_lastname,uid,sender,recipient,type,dialogue,time_stamp
+1517831464985626,Clayton,Ellington,18039,1517831464985626,854518728062939,persistent_menu: GET_INTRO_1,Get Started,2018-08-27 11:10:40
+1517831464985626,Clayton,Ellington,18040,854518728062939,1517831464985626,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/quizbot_avatar.png,2018-08-27 11:10:43
+1517831464985626,Clayton,Ellington,18041,854518728062939,1517831464985626,BOT: quick reply,"Hi Clayton! My name is Frosty :penguin: and Im here to help you learn all about science:microscope:, verbal reasoning (GRE) :input_latin_uppercase:, and safety:hammer_and_wrench:!",2018-08-27 11:10:44
+1517831464985626,Clayton,Ellington,18042,1517831464985626,854518728062939,user_quick_reply: GET_INTRO_2,Got it :flexed_biceps_medium-light_skin_tone:,2018-08-27 11:10:52
+1517831464985626,Clayton,Ellington,18043,854518728062939,1517831464985626,BOT: message,Heres how it works.,2018-08-27 11:10:53
+1517831464985626,Clayton,Ellington,18044,854518728062939,1517831464985626,BOT: message,"I ask you questions, and you give me answers.",2018-08-27 11:10:53
+1517831464985626,Clayton,Ellington,18045,854518728062939,1517831464985626,BOT: quick reply,We will learn fun things together!,2018-08-27 11:10:54
+1517831464985626,Clayton,Ellington,18046,1517831464985626,854518728062939,persistent_menu: GRE,GRE :input_latin_uppercase:,2018-08-27 11:11:01
+1517831464985626,Clayton,Ellington,18047,854518728062939,1517831464985626,BOT: quick reply,Let's test your knowledge on the GRE!,2018-08-27 11:11:02
+1517831464985626,Clayton,Ellington,18048,1517831464985626,854518728062939,user_quick_reply: NEXT_QUESTION,OK :thumbs_up_medium-light_skin_tone:,2018-08-27 11:11:10
+1517831464985626,Clayton,Ellington,18049,854518728062939,1517831464985626,BOT: message,Let's see if you can answer this question.,2018-08-27 11:11:10
+1517831464985626,Clayton,Ellington,18050,854518728062939,1517831464985626,BOT: quick reply,"With a similar contrast between a partly cloudy sky and a dark street, the cover of the recent rock CD _____ a famous surrealist painting from the early 1900s.",2018-08-27 11:11:11
+1517831464985626,Clayton,Ellington,18051,1517831464985626,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-27 11:11:21
+1517831464985626,Clayton,Ellington,18052,854518728062939,1517831464985626,BOT: message,Pick one of the following answers.,2018-08-27 11:11:22
+1517831464985626,Clayton,Ellington,18053,854518728062939,1517831464985626,BOT: quick reply,":keycap_1: evokes
+:keycap_2: admires
+:keycap_3: disenchants
+:keycap_4: obfuscates
+:keycap_5: sanctions
+",2018-08-27 11:11:23
+1517831464985626,Clayton,Ellington,18054,1517831464985626,854518728062939,persistent_menu: USER_MANUAL_1,User Manual :woman_technologist_light_skin_tone::man_technologist_light_skin_tone:,2018-08-27 11:11:37
+1517831464985626,Clayton,Ellington,18055,854518728062939,1517831464985626,BOT: image,https://www.smartprimer.org:8443/pictures/user_manual/typeanswer.png,2018-08-27 11:11:39
+1517831464985626,Clayton,Ellington,18056,854518728062939,1517831464985626,BOT: quick reply,"To study the questions, you can type in your answers in the text field and I will evaluate the answers for you using advanced NLP (Natural Language Processing) technology.",2018-08-27 11:11:39
+1517831464985626,Clayton,Ellington,18343,1517831464985626,854518728062939,persistent_menu: GRE,GRE :input_latin_uppercase:,2018-08-27 17:18:15
+1517831464985626,Clayton,Ellington,18344,854518728062939,1517831464985626,BOT: quick reply,All right! Ill quiz you on GRE!,2018-08-27 17:18:16
+1517831464985626,Clayton,Ellington,18345,854518728062939,1517831464985626,BOT: message,Could you answer this one for me?,2018-08-27 17:18:19
+1517831464985626,Clayton,Ellington,18346,854518728062939,1517831464985626,BOT: quick reply,"In psychological literature, the ""sleeper effect"" refers to the phenomenon in which a persuasive message from a trustworthy source loses _____ over time, while the efficacy of a message from a less credible source simultaneously increases.",2018-08-27 17:18:20
+1517831464985626,Clayton,Ellington,18350,1517831464985626,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-27 17:18:32
+1517831464985626,Clayton,Ellington,18351,854518728062939,1517831464985626,BOT: message,Okay. I'll give you some choices.,2018-08-27 17:18:32
+1517831464985626,Clayton,Ellington,18352,854518728062939,1517831464985626,BOT: quick reply,":keycap_1: erudition
+:keycap_2: prescience
+:keycap_3: control
+:keycap_4: cogency
+:keycap_5: evasiveness
+",2018-08-27 17:18:33
+1517831464985626,Clayton,Ellington,18357,1517831464985626,854518728062939,user_quick_reply: BUTTON_DKB_prescience,:keycap_2:,2018-08-27 17:18:47
+1517831464985626,Clayton,Ellington,18358,854518728062939,1517831464985626,BOT: message,That's not quite right. :disappointed_face:,2018-08-27 17:18:47
+1517831464985626,Clayton,Ellington,18359,854518728062939,1517831464985626,BOT: quick reply,The correct answer is cogency.,2018-08-27 17:18:48
+1517831464985626,Clayton,Ellington,18843,854518728062939,1517831464985626,BOT: quick reply,"Hi Clayton, you haven't talked to me for a while. Would you like to resume the learning with me?",2018-08-27 20:00:07
+1517831464985626,Clayton,Ellington,21014,854518728062939,1517831464985626,BOT: quick reply,"Hi Clayton, you haven't talked to me for a while. Would you like to resume the learning with me?",2018-08-28 20:00:02
+1517831464985626,Clayton,Ellington,23288,854518728062939,1517831464985626,BOT: quick reply,"Hi Clayton, you haven't talked to me for a while. Would you like to resume the learning with me?",2018-08-29 20:00:16
+1517831464985626,Clayton,Ellington,24115,854518728062939,1517831464985626,BOT: message,Let's see if you can answer this question.,2018-08-29 23:52:04
+1517831464985626,Clayton,Ellington,24116,854518728062939,1517831464985626,BOT: quick reply,"Having squandered his life's savings on unprofitable business ventures, the _____ entrepreneur was forced to live in squalor.",2018-08-29 23:52:05
+1517831464985626,Clayton,Ellington,24118,1517831464985626,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-29 23:52:12
+1517831464985626,Clayton,Ellington,24119,854518728062939,1517831464985626,BOT: message,Okay. I'll give you some choices.,2018-08-29 23:52:12
+1517831464985626,Clayton,Ellington,24120,854518728062939,1517831464985626,BOT: quick reply,":keycap_1: perturbed
+:keycap_2: eccentric
+:keycap_3: insolvent
+:keycap_4: unlikely
+:keycap_5: former
+",2018-08-29 23:52:13
+1517831464985626,Clayton,Ellington,24124,1517831464985626,854518728062939,user_quick_reply: BUTTON_AKB_insolvent,:keycap_3:,2018-08-29 23:52:22
+1517831464985626,Clayton,Ellington,24125,854518728062939,1517831464985626,BOT: message,Nice! That was right!,2018-08-29 23:52:23
+1517831464985626,Clayton,Ellington,24127,854518728062939,1517831464985626,BOT: quick reply,The correct answer is insolvent.,2018-08-29 23:52:23
+1517831464985626,Clayton,Ellington,24130,1517831464985626,854518728062939,user_quick_reply: WHY,Why?,2018-08-29 23:52:29
+1517831464985626,Clayton,Ellington,24131,854518728062939,1517831464985626,BOT: message,I hope this explanation could help you understand the the question.,2018-08-29 23:52:29
+1517831464985626,Clayton,Ellington,24132,854518728062939,1517831464985626,BOT: quick reply,":pushpin: Insolvent -- unable to meet or discharge financial obligations
+:pushpin: Former -- preceding in time; prior or earlier
+:pushpin: Unlikely -- not likely to be true or to occur or to have occurred
+:pushpin: Perturbed -- thrown into a state of agitated confusion
+:pushpin: Eccentric -- conspicuously or grossly unconventional or unusual",2018-08-29 23:52:29
+1517831464985626,Clayton,Ellington,24136,1517831464985626,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-29 23:52:53
+1517831464985626,Clayton,Ellington,24137,854518728062939,1517831464985626,BOT: message,Let's try this one.,2018-08-29 23:52:53
+1517831464985626,Clayton,Ellington,24138,854518728062939,1517831464985626,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-29 23:52:54
+1517831464985626,Clayton,Ellington,24139,854518728062939,1517831464985626,BOT: quick reply,"Despite the smile that spread from ear to ear, the eyes relayed a certain _____ .",2018-08-29 23:52:55
+1517831464985626,Clayton,Ellington,24145,1517831464985626,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-29 23:53:04
+1517831464985626,Clayton,Ellington,24147,854518728062939,1517831464985626,BOT: message,Okay. I'll give you some choices.,2018-08-29 23:53:05
+1517831464985626,Clayton,Ellington,24148,854518728062939,1517831464985626,BOT: quick reply,":keycap_1: mischievousness
+:keycap_2: jubilance
+:keycap_3: vision
+:keycap_4: sorrow
+:keycap_5: liveliness
+",2018-08-29 23:53:06
+1517831464985626,Clayton,Ellington,24149,1517831464985626,854518728062939,user_quick_reply: BUTTON_AKB_sorrow,:keycap_4:,2018-08-29 23:53:11
+1517831464985626,Clayton,Ellington,24150,854518728062939,1517831464985626,BOT: message,Great job getting the correct answer!,2018-08-29 23:53:12
+1517831464985626,Clayton,Ellington,24151,854518728062939,1517831464985626,BOT: quick reply,The correct answer is sorrow.,2018-08-29 23:53:12
+1517831464985626,Clayton,Ellington,24155,1517831464985626,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-29 23:53:18
+1517831464985626,Clayton,Ellington,24156,854518728062939,1517831464985626,BOT: message,Let's try this question.,2018-08-29 23:53:18
+1517831464985626,Clayton,Ellington,24157,854518728062939,1517831464985626,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-29 23:53:19
+1517831464985626,Clayton,Ellington,24158,854518728062939,1517831464985626,BOT: quick reply,"Even though legislators claimed the Contagious Diseases Acts strengthened the nation, social purists argued the Acts _____ the nation's moral growth by encouraging licentious behavior.",2018-08-29 23:53:20
+1517831464985626,Clayton,Ellington,24159,1517831464985626,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-29 23:53:28
+1517831464985626,Clayton,Ellington,24160,854518728062939,1517831464985626,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-08-29 23:53:29
+1517831464985626,Clayton,Ellington,24162,854518728062939,1517831464985626,BOT: quick reply,":keycap_1: ameliorated
+:keycap_2: hampered
+:keycap_3: supplanted
+:keycap_4: advanced
+:keycap_5: enhanced
+",2018-08-29 23:53:30
+1517831464985626,Clayton,Ellington,24171,1517831464985626,854518728062939,user_quick_reply: BUTTON_AKB_hampered,:keycap_2:,2018-08-29 23:53:46
+1517831464985626,Clayton,Ellington,24172,854518728062939,1517831464985626,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_happy_purple.png,2018-08-29 23:53:48
+1517831464985626,Clayton,Ellington,24173,854518728062939,1517831464985626,BOT: message,Great job!,2018-08-29 23:53:49
+1517831464985626,Clayton,Ellington,24174,854518728062939,1517831464985626,BOT: quick reply,The correct answer is hampered.,2018-08-29 23:53:49
+1517831464985626,Clayton,Ellington,24175,1517831464985626,854518728062939,user_quick_reply: WHY,Why?,2018-08-29 23:53:54
+1517831464985626,Clayton,Ellington,24176,854518728062939,1517831464985626,BOT: message,Here's an explanation:,2018-08-29 23:53:55
+1517831464985626,Clayton,Ellington,24177,854518728062939,1517831464985626,BOT: quick reply,":pushpin: Hampered -- prevent the progress or free movement of
+:pushpin: Advanced -- move or bring forward
+:pushpin: Ameliorated -- to make better
+:pushpin: Supplanted -- take the place or move into the position of
+:pushpin: Enhanced -- increased or intensified in value or beauty or quality",2018-08-29 23:53:55
+1517831464985626,Clayton,Ellington,24181,1517831464985626,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-29 23:54:11
+1517831464985626,Clayton,Ellington,24182,854518728062939,1517831464985626,BOT: message,Let's try this one.,2018-08-29 23:54:12
+1517831464985626,Clayton,Ellington,24183,854518728062939,1517831464985626,BOT: quick reply,"Possessing few natural resources upon its newly-granted independence in 1863, Singapore remained economically _____ until an influx of industrialization and foreign investment took hold there.",2018-08-29 23:54:12
+1517831464985626,Clayton,Ellington,24187,1517831464985626,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-29 23:54:27
+1517831464985626,Clayton,Ellington,24189,854518728062939,1517831464985626,BOT: message,Okay. I'll give you some choices.,2018-08-29 23:54:27
+1517831464985626,Clayton,Ellington,24191,854518728062939,1517831464985626,BOT: quick reply,":keycap_1: fortuitous
+:keycap_2: solvent
+:keycap_3: powerful
+:keycap_4: prosperous
+:keycap_5: dubious
+",2018-08-29 23:54:28
+1517831464985626,Clayton,Ellington,24196,1517831464985626,854518728062939,user_quick_reply: BUTTON_DKB_solvent,:keycap_2:,2018-08-29 23:54:38
+1517831464985626,Clayton,Ellington,24197,854518728062939,1517831464985626,BOT: message,"Oops, that is not correct. :disappointed_face:",2018-08-29 23:54:39
+1517831464985626,Clayton,Ellington,24198,854518728062939,1517831464985626,BOT: quick reply,The correct answer is dubious.,2018-08-29 23:54:39
+1517831464985626,Clayton,Ellington,24199,1517831464985626,854518728062939,user_quick_reply: WHY,Why?,2018-08-29 23:54:45
+1517831464985626,Clayton,Ellington,24200,854518728062939,1517831464985626,BOT: message,This is why:,2018-08-29 23:54:45
+1517831464985626,Clayton,Ellington,24201,854518728062939,1517831464985626,BOT: quick reply,":pushpin: Dubious -- fraught with uncertainty or doubt
+:pushpin: Powerful -- having great power or force or potency or effect
+:pushpin: Prosperous -- in fortunate circumstances financially; moderately rich
+:pushpin: Solvent -- capable of meeting financial obligations
+:pushpin: Fortuitous -- having no cause or apparent cause",2018-08-29 23:54:46
+1517831464985626,Clayton,Ellington,24206,1517831464985626,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-29 23:55:08
+1517831464985626,Clayton,Ellington,24207,854518728062939,1517831464985626,BOT: message,See if you can answer this next one.,2018-08-29 23:55:09
+1517831464985626,Clayton,Ellington,24208,854518728062939,1517831464985626,BOT: quick reply,Many Major League Baseball relief pitchers choose an electrifying theme song to play as they take the mound; the song _____ their fans and instills fear in their opponents.,2018-08-29 23:55:09
+1517831464985626,Clayton,Ellington,24209,1517831464985626,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-29 23:55:21
+1517831464985626,Clayton,Ellington,24210,854518728062939,1517831464985626,BOT: message,Which of the following options is the right answer?,2018-08-29 23:55:21
+1517831464985626,Clayton,Ellington,24211,854518728062939,1517831464985626,BOT: quick reply,":keycap_1: pervades
+:keycap_2: innervates
+:keycap_3: eviscerates
+:keycap_4: enervates
+:keycap_5: assuages
+",2018-08-29 23:55:22
+1517831464985626,Clayton,Ellington,24215,1517831464985626,854518728062939,user_quick_reply: BUTTON_AKB_innervates,:keycap_2:,2018-08-29 23:55:30
+1517831464985626,Clayton,Ellington,24216,854518728062939,1517831464985626,BOT: message,Great job getting the correct answer!,2018-08-29 23:55:30
+1517831464985626,Clayton,Ellington,24217,854518728062939,1517831464985626,BOT: quick reply,The correct answer is innervates.,2018-08-29 23:55:31
+1517831464985626,Clayton,Ellington,24220,1517831464985626,854518728062939,user_quick_reply: WHY,Why?,2018-08-29 23:55:36
+1517831464985626,Clayton,Ellington,24222,854518728062939,1517831464985626,BOT: message,Here's why:,2018-08-29 23:55:36
+1517831464985626,Clayton,Ellington,24223,854518728062939,1517831464985626,BOT: quick reply,":pushpin: Innervates -- to supply with nerves
+:pushpin: Eviscerates -- surgically remove a part of a structure or an organ
+:pushpin: Enervates -- weaken mentally or morally
+:pushpin: Assuages -- cause to be more favorably inclined; gain the good will of
+:pushpin: Pervades -- spread or diffuse through",2018-08-29 23:55:37
+1517831464985626,Clayton,Ellington,24227,1517831464985626,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-29 23:55:51
+1517831464985626,Clayton,Ellington,24228,854518728062939,1517831464985626,BOT: message,Could you answer this one for me?,2018-08-29 23:55:52
+1517831464985626,Clayton,Ellington,24229,854518728062939,1517831464985626,BOT: quick reply,"Prior to taking on the new invader, the defending army had engaged in arduous combat; it is likely that the _____ resulting from waging two battles in two days played a part in its subsequent defeat.",2018-08-29 23:55:52
+1517831464985626,Clayton,Ellington,24230,1517831464985626,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-29 23:56:02
+1517831464985626,Clayton,Ellington,24231,854518728062939,1517831464985626,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-08-29 23:56:03
+1517831464985626,Clayton,Ellington,24232,854518728062939,1517831464985626,BOT: quick reply,":keycap_1: enervation
+:keycap_2: bellicosity
+:keycap_3: pacification
+:keycap_4: pugnacity
+:keycap_5: aggravation
+",2018-08-29 23:56:03
+1517831464985626,Clayton,Ellington,24236,1517831464985626,854518728062939,user_quick_reply: BUTTON_DKB_bellicosity,:keycap_2:,2018-08-29 23:56:16
+1517831464985626,Clayton,Ellington,24237,854518728062939,1517831464985626,BOT: message,"Oops, that wasn't quite correct. :disappointed_face:",2018-08-29 23:56:16
+1517831464985626,Clayton,Ellington,24238,854518728062939,1517831464985626,BOT: quick reply,The correct answer is enervation.,2018-08-29 23:56:17
+1517831464985626,Clayton,Ellington,24242,1517831464985626,854518728062939,user_quick_reply: WHY,Why?,2018-08-29 23:56:22
+1517831464985626,Clayton,Ellington,24243,854518728062939,1517831464985626,BOT: message,This is why:,2018-08-29 23:56:23
+1517831464985626,Clayton,Ellington,24244,854518728062939,1517831464985626,BOT: quick reply,":pushpin: Enervation -- lack of vitality
+:pushpin: Bellicosity -- a natural disposition to fight
+:pushpin: Pugnacity -- a natural disposition to be hostile
+:pushpin: Pacification -- the act of appeasing someone or causing someone to be more favorably inclined
+:pushpin: Aggravation -- an exasperated feeling of annoyance",2018-08-29 23:56:24
+1517831464985626,Clayton,Ellington,24245,1517831464985626,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-29 23:56:41
+1517831464985626,Clayton,Ellington,24246,854518728062939,1517831464985626,BOT: message,Let's take a look at this question.,2018-08-29 23:56:42
+1517831464985626,Clayton,Ellington,24247,854518728062939,1517831464985626,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-29 23:56:42
+1517831464985626,Clayton,Ellington,24248,854518728062939,1517831464985626,BOT: quick reply,"Having squandered his life's savings on unprofitable business ventures, the _____ entrepreneur was forced to live in squalor.",2018-08-29 23:56:43
+1517831464985626,Clayton,Ellington,24249,1517831464985626,854518728062939,user_typing,Insolvent,2018-08-29 23:57:08
+1517831464985626,Clayton,Ellington,24250,854518728062939,1517831464985626,BOT: message,Good job! :raising_hands_medium-light_skin_tone:,2018-08-29 23:57:09
+1517831464985626,Clayton,Ellington,24251,854518728062939,1517831464985626,BOT: quick reply,The correct answer is insolvent.,2018-08-29 23:57:09
+1517831464985626,Clayton,Ellington,24252,1517831464985626,854518728062939,user_quick_reply: WHY,Why?,2018-08-29 23:57:17
+1517831464985626,Clayton,Ellington,24253,854518728062939,1517831464985626,BOT: message,Here's an explanation:,2018-08-29 23:57:18
+1517831464985626,Clayton,Ellington,24254,854518728062939,1517831464985626,BOT: quick reply,:pushpin: Insolvent -- unable to meet or discharge financial obligations,2018-08-29 23:57:18
+1517831464985626,Clayton,Ellington,24255,1517831464985626,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-29 23:57:28
+1517831464985626,Clayton,Ellington,24256,854518728062939,1517831464985626,BOT: message,Let's see if you would answer this one.,2018-08-29 23:57:28
+1517831464985626,Clayton,Ellington,24257,854518728062939,1517831464985626,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-29 23:57:29
+1517831464985626,Clayton,Ellington,24258,854518728062939,1517831464985626,BOT: quick reply,"In psychological literature, the ""sleeper effect"" refers to the phenomenon in which a persuasive message from a trustworthy source loses _____ over time, while the efficacy of a message from a less credible source simultaneously increases.",2018-08-29 23:57:30
+1517831464985626,Clayton,Ellington,24259,1517831464985626,854518728062939,user_typing,Credence,2018-08-29 23:57:42
+1517831464985626,Clayton,Ellington,24260,854518728062939,1517831464985626,BOT: message,Good Answer! :white_heavy_check_mark:,2018-08-29 23:57:43
+1517831464985626,Clayton,Ellington,24261,854518728062939,1517831464985626,BOT: quick reply,The correct answer is cogency.,2018-08-29 23:57:44
+1517831464985626,Clayton,Ellington,24262,1517831464985626,854518728062939,user_quick_reply: WHY,Why?,2018-08-29 23:57:51
+1517831464985626,Clayton,Ellington,24263,854518728062939,1517831464985626,BOT: message,Here's why:,2018-08-29 23:57:51
+1517831464985626,Clayton,Ellington,24264,854518728062939,1517831464985626,BOT: quick reply,:pushpin: Cogency -- persuasive relevance,2018-08-29 23:57:52
+1517831464985626,Clayton,Ellington,24265,1517831464985626,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-29 23:58:02
+1517831464985626,Clayton,Ellington,24266,854518728062939,1517831464985626,BOT: message,Let's see if you can get this one.,2018-08-29 23:58:03
+1517831464985626,Clayton,Ellington,24267,854518728062939,1517831464985626,BOT: quick reply,"Despite the smile that spread from ear to ear, the eyes relayed a certain _____ .",2018-08-29 23:58:03
+1517831464985626,Clayton,Ellington,24268,1517831464985626,854518728062939,user_typing,Forlornity,2018-08-29 23:58:16
+1517831464985626,Clayton,Ellington,24269,854518728062939,1517831464985626,BOT: message,That's not quite right. :disappointed_face:,2018-08-29 23:58:17
+1517831464985626,Clayton,Ellington,24270,854518728062939,1517831464985626,BOT: quick reply,The correct answer is sorrow.,2018-08-29 23:58:17
+1517831464985626,Clayton,Ellington,24271,1517831464985626,854518728062939,user_quick_reply: WHY,Why?,2018-08-29 23:58:22
+1517831464985626,Clayton,Ellington,24272,854518728062939,1517831464985626,BOT: message,This is an explanation of the question:,2018-08-29 23:58:23
+1517831464985626,Clayton,Ellington,24273,854518728062939,1517831464985626,BOT: quick reply,:pushpin: Sorrow -- a feeling of grief,2018-08-29 23:58:23
+1517831464985626,Clayton,Ellington,24274,1517831464985626,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-29 23:58:28
+1517831464985626,Clayton,Ellington,24275,854518728062939,1517831464985626,BOT: message,Let's see if you would answer this one.,2018-08-29 23:58:29
+1517831464985626,Clayton,Ellington,24276,854518728062939,1517831464985626,BOT: quick reply,"Having squandered his life's savings on unprofitable business ventures, the _____ entrepreneur was forced to live in squalor.",2018-08-29 23:58:29
+1517831464985626,Clayton,Ellington,24277,1517831464985626,854518728062939,user_typing,Poor,2018-08-29 23:58:36
+1517831464985626,Clayton,Ellington,24278,854518728062939,1517831464985626,BOT: message,"Oops, that answer was incorrect. :disappointed_face:",2018-08-29 23:58:36
+1517831464985626,Clayton,Ellington,24279,854518728062939,1517831464985626,BOT: quick reply,The correct answer is insolvent.,2018-08-29 23:58:37
+1517831464985626,Clayton,Ellington,24280,1517831464985626,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-29 23:58:43
+1517831464985626,Clayton,Ellington,24281,854518728062939,1517831464985626,BOT: message,Let's see if you can get this one.,2018-08-29 23:58:43
+1517831464985626,Clayton,Ellington,24282,854518728062939,1517831464985626,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-29 23:58:44
+1517831464985626,Clayton,Ellington,24283,854518728062939,1517831464985626,BOT: quick reply,Seth was extremely _____ and did not enjoy activities that required effort to meet new people.,2018-08-29 23:58:45
+1517831464985626,Clayton,Ellington,24284,1517831464985626,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-29 23:58:55
+1517831464985626,Clayton,Ellington,24285,854518728062939,1517831464985626,BOT: message,Which of the following options is the right answer?,2018-08-29 23:58:56
+1517831464985626,Clayton,Ellington,24286,854518728062939,1517831464985626,BOT: quick reply,":keycap_1: extroverted
+:keycap_2: gregarious
+:keycap_3: jaded
+:keycap_4: introverted
+:keycap_5: lackluster
+",2018-08-29 23:58:56
+1517831464985626,Clayton,Ellington,24287,1517831464985626,854518728062939,user_quick_reply: BUTTON_AKB_introverted,:keycap_4:,2018-08-29 23:59:05
+1517831464985626,Clayton,Ellington,24288,854518728062939,1517831464985626,BOT: message,Nice work! Keep it up!,2018-08-29 23:59:06
+1517831464985626,Clayton,Ellington,24289,854518728062939,1517831464985626,BOT: quick reply,The correct answer is introverted.,2018-08-29 23:59:06
+1517831464985626,Clayton,Ellington,24290,1517831464985626,854518728062939,user_quick_reply: WHY,Why?,2018-08-29 23:59:22
+1517831464985626,Clayton,Ellington,24291,854518728062939,1517831464985626,BOT: message,Here's why:,2018-08-29 23:59:22
+1517831464985626,Clayton,Ellington,24292,854518728062939,1517831464985626,BOT: quick reply,":pushpin: Introverted -- given to examining own sensory and perceptual experiences
+:pushpin: Extroverted -- not introspective; examining what is outside yourself
+:pushpin: Gregarious -- fond of the company of others; sociable
+:pushpin: Lackluster -- lacking brilliance or vitality
+:pushpin: Jaded -- exhausted",2018-08-29 23:59:23
+1517831464985626,Clayton,Ellington,24293,1517831464985626,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-29 23:59:32
+1517831464985626,Clayton,Ellington,24294,854518728062939,1517831464985626,BOT: message,How about this next one:,2018-08-29 23:59:32
+1517831464985626,Clayton,Ellington,24295,854518728062939,1517831464985626,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-29 23:59:33
+1517831464985626,Clayton,Ellington,24296,854518728062939,1517831464985626,BOT: quick reply,Seth was extremely _____ and did not enjoy activities that required effort to meet new people.,2018-08-29 23:59:34
+1517831464985626,Clayton,Ellington,24297,1517831464985626,854518728062939,user_typing,Tired,2018-08-29 23:59:46
+1517831464985626,Clayton,Ellington,24298,854518728062939,1517831464985626,BOT: message,Thats right! :party_popper:,2018-08-29 23:59:47
+1517831464985626,Clayton,Ellington,24299,854518728062939,1517831464985626,BOT: quick reply,The correct answer is introverted.,2018-08-29 23:59:47
+1517831464985626,Clayton,Ellington,24300,1517831464985626,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-29 23:59:54
+1517831464985626,Clayton,Ellington,24301,854518728062939,1517831464985626,BOT: message,Let's see if you would answer this one.,2018-08-29 23:59:56
+1517831464985626,Clayton,Ellington,24302,854518728062939,1517831464985626,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-29 23:59:57
+1517831464985626,Clayton,Ellington,24303,854518728062939,1517831464985626,BOT: quick reply,"Prior to taking on the new invader, the defending army had engaged in arduous combat; it is likely that the _____ resulting from waging two battles in two days played a part in its subsequent defeat.",2018-08-29 23:59:57
+1517831464985626,Clayton,Ellington,24304,1517831464985626,854518728062939,user_typing,Enervation,2018-08-30 00:00:17
+1517831464985626,Clayton,Ellington,24305,854518728062939,1517831464985626,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_normal.png,2018-08-30 00:00:19
+1517831464985626,Clayton,Ellington,24306,854518728062939,1517831464985626,BOT: message,Fantastic! :hundred_points:,2018-08-30 00:00:19
+1517831464985626,Clayton,Ellington,24307,854518728062939,1517831464985626,BOT: quick reply,The correct answer is enervation.,2018-08-30 00:00:20
+1517831464985626,Clayton,Ellington,24308,1517831464985626,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-30 00:00:26
+1517831464985626,Clayton,Ellington,24309,854518728062939,1517831464985626,BOT: message,How about this next one:,2018-08-30 00:00:27
+1517831464985626,Clayton,Ellington,24310,854518728062939,1517831464985626,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-30 00:00:27
+1517831464985626,Clayton,Ellington,24311,854518728062939,1517831464985626,BOT: quick reply,"Even though legislators claimed the Contagious Diseases Acts strengthened the nation, social purists argued the Acts _____ the nation's moral growth by encouraging licentious behavior.",2018-08-30 00:00:28
+1517831464985626,Clayton,Ellington,24312,1517831464985626,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-30 00:00:41
+1517831464985626,Clayton,Ellington,24313,854518728062939,1517831464985626,BOT: message,Pick one of the following answers.,2018-08-30 00:00:43
+1517831464985626,Clayton,Ellington,24314,854518728062939,1517831464985626,BOT: quick reply,":keycap_1: advanced
+:keycap_2: supplanted
+:keycap_3: ameliorated
+:keycap_4: hampered
+:keycap_5: enhanced
+",2018-08-30 00:00:43
+1517831464985626,Clayton,Ellington,24315,1517831464985626,854518728062939,user_quick_reply: BUTTON_AKB_hampered,:keycap_4:,2018-08-30 00:00:50
+1517831464985626,Clayton,Ellington,24316,854518728062939,1517831464985626,BOT: message,Nice! That was right!,2018-08-30 00:00:50
+1517831464985626,Clayton,Ellington,24317,854518728062939,1517831464985626,BOT: quick reply,The correct answer is hampered.,2018-08-30 00:00:51
+1517831464985626,Clayton,Ellington,24318,1517831464985626,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-30 00:00:55
+1517831464985626,Clayton,Ellington,24319,854518728062939,1517831464985626,BOT: message,Let's try this one.,2018-08-30 00:00:56
+1517831464985626,Clayton,Ellington,24320,854518728062939,1517831464985626,BOT: quick reply,"Although John F. Kennedy was known for his carefree flag football games, Gerald Ford should be _____ as our football president: he turned down offers to play for two National Football League teams in order to pursue a career in public service.",2018-08-30 00:00:56
+1517831464985626,Clayton,Ellington,24321,1517831464985626,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-30 00:01:13
+1517831464985626,Clayton,Ellington,24322,854518728062939,1517831464985626,BOT: message,Which of the following options is the right answer?,2018-08-30 00:01:14
+1517831464985626,Clayton,Ellington,24323,854518728062939,1517831464985626,BOT: quick reply,":keycap_1: relegated
+:keycap_2: abrogated
+:keycap_3: apotheosized
+:keycap_4: criticized
+:keycap_5: annulled
+",2018-08-30 00:01:14
+1517831464985626,Clayton,Ellington,24324,1517831464985626,854518728062939,user_quick_reply: BUTTON_AKB_apotheosized,:keycap_3:,2018-08-30 00:01:31
+1517831464985626,Clayton,Ellington,24325,854518728062939,1517831464985626,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_happy_purple.png,2018-08-30 00:01:33
+1517831464985626,Clayton,Ellington,24326,854518728062939,1517831464985626,BOT: message,Nice work! Keep it up!,2018-08-30 00:01:34
+1517831464985626,Clayton,Ellington,24327,854518728062939,1517831464985626,BOT: quick reply,The correct answer is apotheosized.,2018-08-30 00:01:35
+1517831464985626,Clayton,Ellington,24328,1517831464985626,854518728062939,user_quick_reply: WHY,Why?,2018-08-30 00:01:40
+1517831464985626,Clayton,Ellington,24329,854518728062939,1517831464985626,BOT: message,I hope this explanation could help you understand the the question.,2018-08-30 00:01:41
+1517831464985626,Clayton,Ellington,24330,854518728062939,1517831464985626,BOT: quick reply,":pushpin: Apotheosized -- deify or glorify
+:pushpin: Relegated -- to send or consign to an inferior position, place, or condition
+:pushpin: Abrogated -- revoke formally
+:pushpin: Annulled -- declare invalid
+:pushpin: Criticized -- find fault with; express criticism of; point out real or perceived flaws",2018-08-30 00:01:42
+1517831464985626,Clayton,Ellington,24331,1517831464985626,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-30 00:02:01
+1517831464985626,Clayton,Ellington,24332,854518728062939,1517831464985626,BOT: message,Would you answer this question for me?,2018-08-30 00:02:02
+1517831464985626,Clayton,Ellington,24333,854518728062939,1517831464985626,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-30 00:02:02
+1517831464985626,Clayton,Ellington,24334,854518728062939,1517831464985626,BOT: quick reply,"Even though legislators claimed the Contagious Diseases Acts strengthened the nation, social purists argued the Acts _____ the nation's moral growth by encouraging licentious behavior.",2018-08-30 00:02:03
+1517831464985626,Clayton,Ellington,24335,1517831464985626,854518728062939,user_typing,Hampered,2018-08-30 00:02:16
+1517831464985626,Clayton,Ellington,24336,854518728062939,1517831464985626,BOT: message,Correct! :confetti_ball:,2018-08-30 00:02:16
+1517831464985626,Clayton,Ellington,24337,854518728062939,1517831464985626,BOT: quick reply,The correct answer is hampered.,2018-08-30 00:02:17
+1517831464985626,Clayton,Ellington,24338,1517831464985626,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-30 00:02:25
+1517831464985626,Clayton,Ellington,24339,854518728062939,1517831464985626,BOT: message,Could you answer this one for me?,2018-08-30 00:02:26
+1517831464985626,Clayton,Ellington,24340,854518728062939,1517831464985626,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-30 00:02:27
+1517831464985626,Clayton,Ellington,24341,854518728062939,1517831464985626,BOT: quick reply,"Prior to taking on the new invader, the defending army had engaged in arduous combat; it is likely that the _____ resulting from waging two battles in two days played a part in its subsequent defeat.",2018-08-30 00:02:27
+1517831464985626,Clayton,Ellington,24342,1517831464985626,854518728062939,user_typing,Enervation,2018-08-30 00:02:44
+1517831464985626,Clayton,Ellington,24343,854518728062939,1517831464985626,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_happy_purple.png,2018-08-30 00:02:45
+1517831464985626,Clayton,Ellington,24344,854518728062939,1517831464985626,BOT: message,Correct! :confetti_ball:,2018-08-30 00:02:46
+1517831464985626,Clayton,Ellington,24345,854518728062939,1517831464985626,BOT: quick reply,The correct answer is enervation.,2018-08-30 00:02:46
+1517831464985626,Clayton,Ellington,24346,1517831464985626,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-30 00:02:51
+1517831464985626,Clayton,Ellington,24347,854518728062939,1517831464985626,BOT: message,Let's try this one.,2018-08-30 00:02:52
+1517831464985626,Clayton,Ellington,24348,854518728062939,1517831464985626,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-30 00:02:52
+1517831464985626,Clayton,Ellington,24349,854518728062939,1517831464985626,BOT: quick reply,"Many dog owners treat their pets too _____ , forgetting that canines have evolved in competitive environments in which emotional coddling was a sign of weakness.",2018-08-30 00:02:53
+1517831464985626,Clayton,Ellington,24350,1517831464985626,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-30 00:03:03
+1517831464985626,Clayton,Ellington,24351,854518728062939,1517831464985626,BOT: message,Pick one of the following answers.,2018-08-30 00:03:04
+1517831464985626,Clayton,Ellington,24352,854518728062939,1517831464985626,BOT: quick reply,":keycap_1: indulgently
+:keycap_2: quixotically
+:keycap_3: belligerently
+:keycap_4: aggressively
+:keycap_5: fortuitously
+",2018-08-30 00:03:04
+1517831464985626,Clayton,Ellington,24353,1517831464985626,854518728062939,user_quick_reply: BUTTON_AKB_indulgently,:keycap_1:,2018-08-30 00:03:13
+1517831464985626,Clayton,Ellington,24354,854518728062939,1517831464985626,BOT: message,Great! Keep it up! :flexed_biceps_medium-light_skin_tone:,2018-08-30 00:03:13
+1517831464985626,Clayton,Ellington,24355,854518728062939,1517831464985626,BOT: quick reply,The correct answer is indulgently.,2018-08-30 00:03:14
+1517831464985626,Clayton,Ellington,24356,1517831464985626,854518728062939,user_quick_reply: WHY,Why?,2018-08-30 00:03:25
+1517831464985626,Clayton,Ellington,24357,854518728062939,1517831464985626,BOT: message,This is an explanation of the question:,2018-08-30 00:03:26
+1517831464985626,Clayton,Ellington,24358,854518728062939,1517831464985626,BOT: quick reply,":pushpin: Indulgently -- benignly lenient or permissive
+:pushpin: Aggressively -- characterized by or tending toward unprovoked offensives, attacks, invasions, or the like
+:pushpin: Quixotically -- extravagantly chivalrous or romantic
+:pushpin: Fortuitously -- by good fortune
+:pushpin: Belligerently -- with hostility; in a belligerent hostile manner",2018-08-30 00:03:27
+1517831464985626,Clayton,Ellington,26189,854518728062939,1517831464985626,BOT: quick reply,"Hi Clayton, you haven't talked to me for a while. Would you like to resume the learning with me?",2018-08-30 20:00:29
+1517831464985626,Clayton,Ellington,26930,1517831464985626,854518728062939,user_quick_reply: NEXT_QUESTION,Next :backhand_index_pointing_right_medium-light_skin_tone:,2018-08-30 23:23:41
+1517831464985626,Clayton,Ellington,26931,854518728062939,1517831464985626,BOT: message,How about this next one:,2018-08-30 23:23:42
+1517831464985626,Clayton,Ellington,26932,854518728062939,1517831464985626,BOT: quick reply,"Just as different people can have very different personalities, so too can pets - even those of the same species and breed possess varied _____ .",2018-08-30 23:23:43
+1517831464985626,Clayton,Ellington,26933,1517831464985626,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-30 23:23:51
+1517831464985626,Clayton,Ellington,26934,854518728062939,1517831464985626,BOT: message,Okay. I'll give you some choices.,2018-08-30 23:23:52
+1517831464985626,Clayton,Ellington,26935,854518728062939,1517831464985626,BOT: quick reply,":keycap_1: temperaments
+:keycap_2: rationalizations
+:keycap_3: implementations
+:keycap_4: aptitudes
+:keycap_5: initiations
+",2018-08-30 23:23:53
+1517831464985626,Clayton,Ellington,26941,1517831464985626,854518728062939,user_quick_reply: BUTTON_AKB_temperaments,:keycap_1:,2018-08-30 23:24:01
+1517831464985626,Clayton,Ellington,26943,854518728062939,1517831464985626,BOT: message,Nice! That was right!,2018-08-30 23:24:02
+1517831464985626,Clayton,Ellington,26944,854518728062939,1517831464985626,BOT: quick reply,The correct answer is temperaments.,2018-08-30 23:24:03
+1517831464985626,Clayton,Ellington,26948,1517831464985626,854518728062939,user_quick_reply: WHY,Why?,2018-08-30 23:24:08
+1517831464985626,Clayton,Ellington,26949,854518728062939,1517831464985626,BOT: message,Here's why:,2018-08-30 23:24:09
+1517831464985626,Clayton,Ellington,26950,854518728062939,1517831464985626,BOT: quick reply,":pushpin: Temperaments -- the combination of mental, physical, and emotional traits
+:pushpin: Initiations -- a formal entry into an organization or position or office
+:pushpin: Implementations -- the act of accomplishing some aim or executing some order
+:pushpin: Aptitudes -- inherent ability
+:pushpin: Rationalizations -- the cognitive process of making something seem consistent with or based on reason",2018-08-30 23:24:10
+1517831464985626,Clayton,Ellington,26955,1517831464985626,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-30 23:24:28
+1517831464985626,Clayton,Ellington,26956,854518728062939,1517831464985626,BOT: message,I think you'll like this question.,2018-08-30 23:24:28
+1517831464985626,Clayton,Ellington,26957,854518728062939,1517831464985626,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-30 23:24:29
+1517831464985626,Clayton,Ellington,26958,854518728062939,1517831464985626,BOT: quick reply,"Despite the smile that spread from ear to ear, the eyes relayed a certain _____ .",2018-08-30 23:24:30
+1517831464985626,Clayton,Ellington,26962,1517831464985626,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-30 23:24:38
+1517831464985626,Clayton,Ellington,26963,854518728062939,1517831464985626,BOT: message,Okay. I'll give you some choices.,2018-08-30 23:24:38
+1517831464985626,Clayton,Ellington,26964,854518728062939,1517831464985626,BOT: quick reply,":keycap_1: vision
+:keycap_2: sorrow
+:keycap_3: jubilance
+:keycap_4: liveliness
+:keycap_5: mischievousness
+",2018-08-30 23:24:39
+1517831464985626,Clayton,Ellington,26970,1517831464985626,854518728062939,user_quick_reply: BUTTON_AKB_sorrow,:keycap_2:,2018-08-30 23:24:46
+1517831464985626,Clayton,Ellington,26972,854518728062939,1517831464985626,BOT: message,Great job!,2018-08-30 23:24:47
+1517831464985626,Clayton,Ellington,26973,854518728062939,1517831464985626,BOT: quick reply,The correct answer is sorrow.,2018-08-30 23:24:48
+1517831464985626,Clayton,Ellington,26974,1517831464985626,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-30 23:24:54
+1517831464985626,Clayton,Ellington,26975,854518728062939,1517831464985626,BOT: message,Let's see if you would answer this one.,2018-08-30 23:24:55
+1517831464985626,Clayton,Ellington,26976,854518728062939,1517831464985626,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-30 23:24:55
+1517831464985626,Clayton,Ellington,26977,854518728062939,1517831464985626,BOT: quick reply,"Having squandered his life's savings on unprofitable business ventures, the _____ entrepreneur was forced to live in squalor.",2018-08-30 23:24:56
+1517831464985626,Clayton,Ellington,26981,1517831464985626,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-30 23:25:04
+1517831464985626,Clayton,Ellington,26982,854518728062939,1517831464985626,BOT: message,It's one of the following choices.,2018-08-30 23:25:05
+1517831464985626,Clayton,Ellington,26983,854518728062939,1517831464985626,BOT: quick reply,":keycap_1: insolvent
+:keycap_2: perturbed
+:keycap_3: former
+:keycap_4: eccentric
+:keycap_5: unlikely
+",2018-08-30 23:25:06
+1517831464985626,Clayton,Ellington,26990,1517831464985626,854518728062939,user_quick_reply: BUTTON_AKB_insolvent,:keycap_1:,2018-08-30 23:25:17
+1517831464985626,Clayton,Ellington,26995,854518728062939,1517831464985626,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/celebration.gif,2018-08-30 23:25:24
+1517831464985626,Clayton,Ellington,26996,854518728062939,1517831464985626,BOT: message,Great job getting the correct answer!,2018-08-30 23:25:25
+1517831464985626,Clayton,Ellington,26997,854518728062939,1517831464985626,BOT: quick reply,The correct answer is insolvent.,2018-08-30 23:25:25
+1517831464985626,Clayton,Ellington,26998,1517831464985626,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-30 23:25:33
+1517831464985626,Clayton,Ellington,26999,854518728062939,1517831464985626,BOT: message,I think you'll like this question.,2018-08-30 23:25:33
+1517831464985626,Clayton,Ellington,27000,854518728062939,1517831464985626,BOT: quick reply,"Despite the smile that spread from ear to ear, the eyes relayed a certain _____ .",2018-08-30 23:25:34
+1517831464985626,Clayton,Ellington,27001,1517831464985626,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-30 23:25:41
+1517831464985626,Clayton,Ellington,27002,854518728062939,1517831464985626,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-08-30 23:25:42
+1517831464985626,Clayton,Ellington,27003,854518728062939,1517831464985626,BOT: quick reply,":keycap_1: jubilance
+:keycap_2: liveliness
+:keycap_3: mischievousness
+:keycap_4: sorrow
+:keycap_5: vision
+",2018-08-30 23:25:42
+1517831464985626,Clayton,Ellington,27008,1517831464985626,854518728062939,user_quick_reply: BUTTON_AKB_sorrow,:keycap_4:,2018-08-30 23:25:48
+1517831464985626,Clayton,Ellington,27009,854518728062939,1517831464985626,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_happy_purple.png,2018-08-30 23:25:50
+1517831464985626,Clayton,Ellington,27010,854518728062939,1517831464985626,BOT: message,Nice work! Keep it up!,2018-08-30 23:25:51
+1517831464985626,Clayton,Ellington,27011,854518728062939,1517831464985626,BOT: quick reply,The correct answer is sorrow.,2018-08-30 23:25:51
+1517831464985626,Clayton,Ellington,27015,1517831464985626,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-30 23:25:58
+1517831464985626,Clayton,Ellington,27016,854518728062939,1517831464985626,BOT: message,Let's try this one.,2018-08-30 23:25:59
+1517831464985626,Clayton,Ellington,27017,854518728062939,1517831464985626,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-30 23:25:59
+1517831464985626,Clayton,Ellington,27018,854518728062939,1517831464985626,BOT: quick reply,The Erie Canal's completion caused _____ economic ripples; property values and industrial output along its route rose exponentially.,2018-08-30 23:26:00
+1517831464985626,Clayton,Ellington,27022,1517831464985626,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-30 23:26:08
+1517831464985626,Clayton,Ellington,27023,854518728062939,1517831464985626,BOT: message,Okay. I'll give you some choices.,2018-08-30 23:26:09
+1517831464985626,Clayton,Ellington,27024,854518728062939,1517831464985626,BOT: quick reply,":keycap_1: incredulous
+:keycap_2: prodigious
+:keycap_3: persistent
+:keycap_4: severe
+:keycap_5: invaluable
+",2018-08-30 23:26:09
+1517831464985626,Clayton,Ellington,27025,1517831464985626,854518728062939,user_quick_reply: BUTTON_DKB_invaluable,:keycap_5:,2018-08-30 23:26:20
+1517831464985626,Clayton,Ellington,27027,854518728062939,1517831464985626,BOT: message,"Oops, that is not correct. :disappointed_face:",2018-08-30 23:26:20
+1517831464985626,Clayton,Ellington,27029,854518728062939,1517831464985626,BOT: quick reply,The correct answer is prodigious.,2018-08-30 23:26:21
+1517831464985626,Clayton,Ellington,27034,1517831464985626,854518728062939,user_quick_reply: WHY,Why?,2018-08-30 23:26:26
+1517831464985626,Clayton,Ellington,27035,854518728062939,1517831464985626,BOT: message,Here's why:,2018-08-30 23:26:26
+1517831464985626,Clayton,Ellington,27036,854518728062939,1517831464985626,BOT: quick reply,":pushpin: Prodigious -- so great in size or force or extent as to elicit awe
+:pushpin: Persistent -- lasting or enduring tenaciously
+:pushpin: Invaluable -- having incalculable monetary, intellectual, or spiritual worth
+:pushpin: Incredulous -- not disposed or willing to believe; unbelieving
+:pushpin: Severe -- intensely or extremely bad or unpleasant in degree or quality",2018-08-30 23:26:27
+1517831464985626,Clayton,Ellington,27048,1517831464985626,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-30 23:27:38
+1517831464985626,Clayton,Ellington,27049,854518728062939,1517831464985626,BOT: message,Let's see if you can answer this question.,2018-08-30 23:27:39
+1517831464985626,Clayton,Ellington,27050,854518728062939,1517831464985626,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-30 23:27:39
+1517831464985626,Clayton,Ellington,27051,854518728062939,1517831464985626,BOT: quick reply,"Possessing few natural resources upon its newly-granted independence in 1863, Singapore remained economically _____ until an influx of industrialization and foreign investment took hold there.",2018-08-30 23:27:40
+1517831464985626,Clayton,Ellington,27052,1517831464985626,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-30 23:27:48
+1517831464985626,Clayton,Ellington,27053,854518728062939,1517831464985626,BOT: message,Okay. I'll give you some choices.,2018-08-30 23:27:49
+1517831464985626,Clayton,Ellington,27054,854518728062939,1517831464985626,BOT: quick reply,":keycap_1: solvent
+:keycap_2: dubious
+:keycap_3: fortuitous
+:keycap_4: powerful
+:keycap_5: prosperous
+",2018-08-30 23:27:49
+1517831464985626,Clayton,Ellington,27055,1517831464985626,854518728062939,user_quick_reply: BUTTON_AKB_dubious,:keycap_2:,2018-08-30 23:27:55
+1517831464985626,Clayton,Ellington,27056,854518728062939,1517831464985626,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_jubilated_cyan.png,2018-08-30 23:27:57
+1517831464985626,Clayton,Ellington,27057,854518728062939,1517831464985626,BOT: message,Yes! You got the correct answer!,2018-08-30 23:27:58
+1517831464985626,Clayton,Ellington,27058,854518728062939,1517831464985626,BOT: quick reply,The correct answer is dubious.,2018-08-30 23:27:58
+1517831464985626,Clayton,Ellington,27059,1517831464985626,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-30 23:28:05
+1517831464985626,Clayton,Ellington,27060,854518728062939,1517831464985626,BOT: message,Here's a question for you:,2018-08-30 23:28:05
+1517831464985626,Clayton,Ellington,27061,854518728062939,1517831464985626,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-30 23:28:06
+1517831464985626,Clayton,Ellington,27062,854518728062939,1517831464985626,BOT: quick reply,"Possessing few natural resources upon its newly-granted independence in 1863, Singapore remained economically _____ until an influx of industrialization and foreign investment took hold there.",2018-08-30 23:28:07
+1517831464985626,Clayton,Ellington,27063,1517831464985626,854518728062939,user_typing,Dubious,2018-08-30 23:28:20
+1517831464985626,Clayton,Ellington,27064,854518728062939,1517831464985626,BOT: message,Thats right! :party_popper:,2018-08-30 23:28:20
+1517831464985626,Clayton,Ellington,27065,854518728062939,1517831464985626,BOT: quick reply,The correct answer is dubious.,2018-08-30 23:28:21
+1517831464985626,Clayton,Ellington,27066,1517831464985626,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-30 23:28:27
+1517831464985626,Clayton,Ellington,27067,854518728062939,1517831464985626,BOT: message,Let's see if you can answer this question.,2018-08-30 23:28:28
+1517831464985626,Clayton,Ellington,27068,854518728062939,1517831464985626,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-30 23:28:29
+1517831464985626,Clayton,Ellington,27069,854518728062939,1517831464985626,BOT: quick reply,The Erie Canal's completion caused _____ economic ripples; property values and industrial output along its route rose exponentially.,2018-08-30 23:28:29
+1517831464985626,Clayton,Ellington,27070,1517831464985626,854518728062939,user_typing,Prodigious,2018-08-30 23:28:41
+1517831464985626,Clayton,Ellington,27071,854518728062939,1517831464985626,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_jubilated_purple.png,2018-08-30 23:28:43
+1517831464985626,Clayton,Ellington,27072,854518728062939,1517831464985626,BOT: message,Good job! :raising_hands_medium-light_skin_tone:,2018-08-30 23:28:43
+1517831464985626,Clayton,Ellington,27073,854518728062939,1517831464985626,BOT: quick reply,The correct answer is prodigious.,2018-08-30 23:28:44
+1517831464985626,Clayton,Ellington,27074,1517831464985626,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-30 23:28:54
+1517831464985626,Clayton,Ellington,27075,854518728062939,1517831464985626,BOT: message,Here's a question for you:,2018-08-30 23:28:55
+1517831464985626,Clayton,Ellington,27076,854518728062939,1517831464985626,BOT: quick reply,"Having squandered his life's savings on unprofitable business ventures, the _____ entrepreneur was forced to live in squalor.",2018-08-30 23:28:56
+1517831464985626,Clayton,Ellington,27077,1517831464985626,854518728062939,user_typing,Insolvent,2018-08-30 23:29:06
+1517831464985626,Clayton,Ellington,27078,854518728062939,1517831464985626,BOT: message,Good job! :raising_hands_medium-light_skin_tone:,2018-08-30 23:29:06
+1517831464985626,Clayton,Ellington,27079,854518728062939,1517831464985626,BOT: quick reply,The correct answer is insolvent.,2018-08-30 23:29:07
+1517831464985626,Clayton,Ellington,27080,1517831464985626,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-30 23:29:12
+1517831464985626,Clayton,Ellington,27081,854518728062939,1517831464985626,BOT: message,I think you'll like this question.,2018-08-30 23:29:13
+1517831464985626,Clayton,Ellington,27082,854518728062939,1517831464985626,BOT: quick reply,Many Major League Baseball relief pitchers choose an electrifying theme song to play as they take the mound; the song _____ their fans and instills fear in their opponents.,2018-08-30 23:29:14
+1517831464985626,Clayton,Ellington,27083,1517831464985626,854518728062939,user_typing,Innervates,2018-08-30 23:29:26
+1517831464985626,Clayton,Ellington,27084,854518728062939,1517831464985626,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_normal_orange.png,2018-08-30 23:29:27
+1517831464985626,Clayton,Ellington,27085,854518728062939,1517831464985626,BOT: message,Good job! :raising_hands_medium-light_skin_tone:,2018-08-30 23:29:28
+1517831464985626,Clayton,Ellington,27086,854518728062939,1517831464985626,BOT: quick reply,The correct answer is innervates.,2018-08-30 23:29:29
+1517831464985626,Clayton,Ellington,27087,1517831464985626,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-30 23:29:34
+1517831464985626,Clayton,Ellington,27088,854518728062939,1517831464985626,BOT: message,Could you answer this one for me?,2018-08-30 23:29:35
+1517831464985626,Clayton,Ellington,27089,854518728062939,1517831464985626,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-30 23:29:35
+1517831464985626,Clayton,Ellington,27090,854518728062939,1517831464985626,BOT: quick reply,Seth was extremely _____ and did not enjoy activities that required effort to meet new people.,2018-08-30 23:29:36
+1517831464985626,Clayton,Ellington,27091,1517831464985626,854518728062939,user_typing,Introverted,2018-08-30 23:29:51
+1517831464985626,Clayton,Ellington,27092,854518728062939,1517831464985626,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/celebration.gif,2018-08-30 23:29:59
+1517831464985626,Clayton,Ellington,27093,854518728062939,1517831464985626,BOT: message,Good job! :raising_hands_medium-light_skin_tone:,2018-08-30 23:29:59
+1517831464985626,Clayton,Ellington,27094,854518728062939,1517831464985626,BOT: quick reply,The correct answer is introverted.,2018-08-30 23:30:00
+1517831464985626,Clayton,Ellington,27095,1517831464985626,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-30 23:30:11
+1517831464985626,Clayton,Ellington,27096,854518728062939,1517831464985626,BOT: message,"Alrighty, let's try this one.",2018-08-30 23:30:11
+1517831464985626,Clayton,Ellington,27097,854518728062939,1517831464985626,BOT: quick reply,"Many dog owners treat their pets too _____ , forgetting that canines have evolved in competitive environments in which emotional coddling was a sign of weakness.",2018-08-30 23:30:12
+1517831464985626,Clayton,Ellington,27098,1517831464985626,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-30 23:30:25
+1517831464985626,Clayton,Ellington,27099,854518728062939,1517831464985626,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-08-30 23:30:26
+1517831464985626,Clayton,Ellington,27100,854518728062939,1517831464985626,BOT: quick reply,":keycap_1: aggressively
+:keycap_2: quixotically
+:keycap_3: belligerently
+:keycap_4: fortuitously
+:keycap_5: indulgently
+",2018-08-30 23:30:26
+1517831464985626,Clayton,Ellington,27101,1517831464985626,854518728062939,user_quick_reply: BUTTON_AKB_indulgently,:keycap_5:,2018-08-30 23:30:35
+1517831464985626,Clayton,Ellington,27102,854518728062939,1517831464985626,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_jubilated_orange.png,2018-08-30 23:30:37
+1517831464985626,Clayton,Ellington,27103,854518728062939,1517831464985626,BOT: message,Yes! You got the correct answer!,2018-08-30 23:30:38
+1517831464985626,Clayton,Ellington,27104,854518728062939,1517831464985626,BOT: quick reply,The correct answer is indulgently.,2018-08-30 23:30:38
+1517831464985626,Clayton,Ellington,27105,1517831464985626,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-30 23:30:45
+1517831464985626,Clayton,Ellington,27106,854518728062939,1517831464985626,BOT: message,Here's a question for you:,2018-08-30 23:30:46
+1517831464985626,Clayton,Ellington,27107,854518728062939,1517831464985626,BOT: quick reply,"Modern tennis fans have come to realize that, although, quantum technological leaps in racquet technology have lead to _____ increases in the speed and power with which players can hit the ball, this has not necessarily lead to a more entertaining game.",2018-08-30 23:30:46
+1517831464985626,Clayton,Ellington,27108,1517831464985626,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-30 23:31:04
+1517831464985626,Clayton,Ellington,27109,854518728062939,1517831464985626,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-08-30 23:31:04
+1517831464985626,Clayton,Ellington,27110,854518728062939,1517831464985626,BOT: quick reply,":keycap_1: commensurate
+:keycap_2: malleable
+:keycap_3: innocuous
+:keycap_4: tractable
+:keycap_5: halcyon
+",2018-08-30 23:31:05
+1517831464985626,Clayton,Ellington,27111,1517831464985626,854518728062939,user_quick_reply: BUTTON_AKB_commensurate,:keycap_1:,2018-08-30 23:31:22
+1517831464985626,Clayton,Ellington,27112,854518728062939,1517831464985626,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_normal.png,2018-08-30 23:31:24
+1517831464985626,Clayton,Ellington,27113,854518728062939,1517831464985626,BOT: message,Great job getting the correct answer!,2018-08-30 23:31:27
+1517831464985626,Clayton,Ellington,27114,854518728062939,1517831464985626,BOT: quick reply,The correct answer is commensurate.,2018-08-30 23:31:27
+1517831464985626,Clayton,Ellington,27115,1517831464985626,854518728062939,user_quick_reply: WHY,Why?,2018-08-30 23:31:32
+1517831464985626,Clayton,Ellington,27116,854518728062939,1517831464985626,BOT: message,Here's an explanation:,2018-08-30 23:31:33
+1517831464985626,Clayton,Ellington,27117,854518728062939,1517831464985626,BOT: quick reply,":pushpin: Commensurate -- corresponding in size or degree or extent
+:pushpin: Innocuous -- not injurious to physical or mental health
+:pushpin: Halcyon -- idyllically calm and peaceful; suggesting happy tranquillity
+:pushpin: Malleable -- easily influenced
+:pushpin: Tractable -- easily managed (controlled or taught or molded",2018-08-30 23:31:33
+1517831464985626,Clayton,Ellington,27118,1517831464985626,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-30 23:31:51
+1517831464985626,Clayton,Ellington,27119,854518728062939,1517831464985626,BOT: message,See if you can answer this next one.,2018-08-30 23:31:52
+1517831464985626,Clayton,Ellington,27120,854518728062939,1517831464985626,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-30 23:31:52
+1517831464985626,Clayton,Ellington,27121,854518728062939,1517831464985626,BOT: quick reply,"Prior to taking on the new invader, the defending army had engaged in arduous combat; it is likely that the _____ resulting from waging two battles in two days played a part in its subsequent defeat.",2018-08-30 23:31:53
+1517831464985626,Clayton,Ellington,27122,1517831464985626,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-30 23:32:07
+1517831464985626,Clayton,Ellington,27123,854518728062939,1517831464985626,BOT: message,Okay. I'll give you some choices.,2018-08-30 23:32:07
+1517831464985626,Clayton,Ellington,27124,854518728062939,1517831464985626,BOT: quick reply,":keycap_1: aggravation
+:keycap_2: pacification
+:keycap_3: enervation
+:keycap_4: pugnacity
+:keycap_5: bellicosity
+",2018-08-30 23:32:08
+1517831464985626,Clayton,Ellington,27125,1517831464985626,854518728062939,user_quick_reply: BUTTON_DKB_bellicosity,:keycap_5:,2018-08-30 23:32:14
+1517831464985626,Clayton,Ellington,27126,854518728062939,1517831464985626,BOT: message,"Oops, that wasn't quite correct. :disappointed_face:",2018-08-30 23:32:15
+1517831464985626,Clayton,Ellington,27127,854518728062939,1517831464985626,BOT: quick reply,The correct answer is enervation.,2018-08-30 23:32:15
+1517831464985626,Clayton,Ellington,27128,1517831464985626,854518728062939,user_quick_reply: WHY,Why?,2018-08-30 23:32:22
+1517831464985626,Clayton,Ellington,27129,854518728062939,1517831464985626,BOT: message,I hope this explanation could help you understand the the question.,2018-08-30 23:32:23
+1517831464985626,Clayton,Ellington,27130,854518728062939,1517831464985626,BOT: quick reply,":pushpin: Enervation -- lack of vitality
+:pushpin: Bellicosity -- a natural disposition to fight
+:pushpin: Pugnacity -- a natural disposition to be hostile
+:pushpin: Pacification -- the act of appeasing someone or causing someone to be more favorably inclined
+:pushpin: Aggravation -- an exasperated feeling of annoyance",2018-08-30 23:32:23
+1517831464985626,Clayton,Ellington,27131,1517831464985626,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-30 23:32:48
+1517831464985626,Clayton,Ellington,27132,854518728062939,1517831464985626,BOT: message,Let's see if you would answer this one.,2018-08-30 23:32:48
+1517831464985626,Clayton,Ellington,27133,854518728062939,1517831464985626,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-30 23:32:49
+1517831464985626,Clayton,Ellington,27134,854518728062939,1517831464985626,BOT: quick reply,"In psychological literature, the ""sleeper effect"" refers to the phenomenon in which a persuasive message from a trustworthy source loses _____ over time, while the efficacy of a message from a less credible source simultaneously increases.",2018-08-30 23:32:50
+1517831464985626,Clayton,Ellington,27135,1517831464985626,854518728062939,user_typing,Credence,2018-08-30 23:33:04
+1517831464985626,Clayton,Ellington,27136,854518728062939,1517831464985626,BOT: message,Good Answer! :white_heavy_check_mark:,2018-08-30 23:33:04
+1517831464985626,Clayton,Ellington,27137,854518728062939,1517831464985626,BOT: quick reply,The correct answer is cogency.,2018-08-30 23:33:05
+1517831464985626,Clayton,Ellington,27138,1517831464985626,854518728062939,user_quick_reply: WHY,Why?,2018-08-30 23:33:12
+1517831464985626,Clayton,Ellington,27139,854518728062939,1517831464985626,BOT: message,I hope this explanation could help you understand the the question.,2018-08-30 23:33:13
+1517831464985626,Clayton,Ellington,27140,854518728062939,1517831464985626,BOT: quick reply,:pushpin: Cogency -- persuasive relevance,2018-08-30 23:33:13
+1517831464985626,Clayton,Ellington,27141,1517831464985626,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-30 23:33:19
+1517831464985626,Clayton,Ellington,27142,854518728062939,1517831464985626,BOT: message,Let's try this question.,2018-08-30 23:33:19
+1517831464985626,Clayton,Ellington,27143,854518728062939,1517831464985626,BOT: quick reply,"Having squandered his life's savings on unprofitable business ventures, the _____ entrepreneur was forced to live in squalor.",2018-08-30 23:33:20
+1517831464985626,Clayton,Ellington,27151,1517831464985626,854518728062939,user_typing,Destitute,2018-08-30 23:33:38
+1517831464985626,Clayton,Ellington,27153,854518728062939,1517831464985626,BOT: message,"I'm sorry, but that was incorrect. :disappointed_face:",2018-08-30 23:33:39
+1517831464985626,Clayton,Ellington,27155,854518728062939,1517831464985626,BOT: quick reply,The correct answer is insolvent.,2018-08-30 23:33:40
+1517831464985626,Clayton,Ellington,27159,1517831464985626,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-30 23:33:47
+1517831464985626,Clayton,Ellington,27160,854518728062939,1517831464985626,BOT: message,Here's a question for you:,2018-08-30 23:33:47
+1517831464985626,Clayton,Ellington,27161,854518728062939,1517831464985626,BOT: quick reply,"Many dog owners treat their pets too _____ , forgetting that canines have evolved in competitive environments in which emotional coddling was a sign of weakness.",2018-08-30 23:33:48
+1517831464985626,Clayton,Ellington,27168,1517831464985626,854518728062939,user_typing,Indulgently,2018-08-30 23:33:59
+1517831464985626,Clayton,Ellington,27169,854518728062939,1517831464985626,BOT: message,Good job! :raising_hands_medium-light_skin_tone:,2018-08-30 23:34:00
+1517831464985626,Clayton,Ellington,27170,854518728062939,1517831464985626,BOT: quick reply,The correct answer is indulgently.,2018-08-30 23:34:01

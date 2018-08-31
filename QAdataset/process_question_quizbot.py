@@ -2,7 +2,7 @@
 '''
     process_question_quizbot.py
     Author: Liwei Jiang
-    Date: 18/06/2018
+    Date: 06/18/2018
     Usage: Remove the HTML syntax in GRE question for the quizbot messenger app.
 '''
 import json

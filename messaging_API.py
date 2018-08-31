@@ -3,9 +3,9 @@
     messaging_API.py
     Author: Liwei Jiang
     Date: 24/07/2018
-    Usage: Internal messaging API sending data to Facebook Messenger.
+    Usage: 
+        Internal messaging API sending data to Facebook Messenger.
 '''
-
 import os
 import json
 import requests
@@ -18,11 +18,9 @@ from utils import pretty_print, log
 import database as db
 from constants import CHATBOT_ID
 
-
 PRAMS = {"access_token": os.environ["PAGE_ACCESS_TOKEN"]}
 HEADERS = {"Content-Type": "application/json"}
-# time to sleep in send_typing_action
-DELAY_TIME = 1
+DELAY_TIME = 0.1  # time to sleep in send_typing_action
 
 
 def send_data(data, data_type="messages"):
@@ -39,7 +37,7 @@ def send_data(data, data_type="messages"):
 
 def send_typing_action(recipient_id):
     '''
-        This function delays the reply and sends a typing action to the specified recipient.
+        This function delays the reply and sends a typing action (...) to the specified recipient.
     '''
     sleep(DELAY_TIME)
     data = template.create_typing_action_template_json(recipient_id)
@@ -48,8 +46,8 @@ def send_typing_action(recipient_id):
 
 def send_image(mysql, recipient_id, image_data):
     '''
-        This function sends an image to the specified recipient.
-        And saves the image_url to the conversation database.
+        This function sends an image to the specified recipient,
+        and saves the image_url to the conversation database.
     '''
     send_typing_action(recipient_id)
     data = template.create_image_template_json(recipient_id, image_data)
@@ -63,8 +61,8 @@ def send_image(mysql, recipient_id, image_data):
 
 def send_message(mysql, recipient_id, template_conversation, message_data):
     '''
-        This function sends a text message, with a short delay and typing action at the beginning, to the specified recipient.
-        And saves the message text to the conversation database
+        This function sends a text message, with a short delay and typing action at the beginning, to the specified recipient,
+        and saves the message text to the conversation database
     '''
     send_typing_action(recipient_id)
     data = template.create_message_template_json(
@@ -79,20 +77,23 @@ def send_message(mysql, recipient_id, template_conversation, message_data):
 
 def send_quick_reply(mysql, recipient_id, template_conversation, quick_reply_data, message_data=""):
     '''
-        This function sends a set of quick reply buttons along with one message to the specified recipient.
-        TODO:
-            - Use None if needed. Don't use ""
-            - what is message_data? Add some documentation here.
+        This function sends a set of quick reply buttons along with a piece of message text to the specified recipient.
+        Args:
+            message_data: if "" then sends the message text included in quick_reply_data; if not "" then use message_data as the message text.
+
+        Returns:
+            uid: timestamp and uid so that we can log the information in the [user_history] dataset when the bot sends a question
     '''
     send_typing_action(recipient_id)
 
-    data = template.create_quick_reply_template_json(recipient_id, template_conversation, quick_reply_data, message_data)
+    data = template.create_quick_reply_template_json(
+        recipient_id, template_conversation, quick_reply_data, message_data)
     send_data(data)
 
     dialogue = json.loads(data)["message"]["text"]
     timestamp = strftime("%Y-%m-%d %H:%M:%S", localtime())
-    uid = db.insert_conversation(mysql, CHATBOT_ID, recipient_id, dialogue, "BOT: quick reply", timestamp)
-    # return timestamp and uid so that we can log the information in the [user_history] dataset when the bot sends a question
+    uid = db.insert_conversation(
+        mysql, CHATBOT_ID, recipient_id, dialogue, "BOT: quick reply", timestamp)
     return uid
 
 
