@@ -73,6 +73,7 @@ class EmbeddingVectorizer(CountVectorizer):
             # catch error if doc is empty somehow, all punctuation removed
             if not doc:
                 values.append(np.zeros(self.dimension))
+                
             word_vecs = []
             #for token in analyze(doc):
             for token in doc:

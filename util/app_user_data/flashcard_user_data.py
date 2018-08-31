@@ -13,20 +13,24 @@ dirname = os.path.dirname(__file__)
 result_filename = "flashcard_data_analysis.txt"
 
 # Past Pilot Users: "Allie_Blaising", "Phoebe_Kimm", "Nik_Marda"
+#users = ["Golrokh_Emami", "Cynthia_Torma", "Jordan_Cho", "Laura_Davey", "Courtney_Smith", \
+#         "Marianne_Cowherd", "Tugce_Tasci", "Edgar_Rios", "Kimberly_Ha", "Sen_Wu", "Max_Cobb"]
 
-users = ["Golrokh_Emami", "Cynthia_Torma", "Jordan_Cho", "Laura_Davey", "Courtney_Smith", \
-         "Marianne_Cowherd", "Tugce_Tasci", "Edgar_Rios", "Kimberly_Ha", "Sen_Wu", "Max_Cobb", \
-         "Yinuo_Yao", "Dee Dee_Thao", "Jenn_Hu", "jingyi_li", "Joy_Yuzuriha", "Tyler_Yep", \
+users = ["Yinuo_Yao", "Dee Dee_Thao", "Jenn_Hu", "jingyi_li", "Joy_Yuzuriha", "Tyler_Yep", \
          "Andrew_Ying", "Henry_Qin", "Nina_Horowitz", "Daniel_Do", "Claire_Yang", "Olivia_Yang", \
          "Wangjianzhe_Shao", "Helen_Wang", "Francis_Yan", "De-An_Huang", "Kylie_Jue", \
-         "Kimberly_Ha", "Sen_Wu", "Max_Cobb"]
+         "Giovanni_Campagna", "Jean_Coquet", "Philip_Zhuang", "yue_hui", "Clayton_Ellington", \
+         "Nathaniel_Ramos", "Paul_Walter", "Flora_Wang", "Christine_Liu", "Maisam_Pyarali", \
+         "Nathan_Dalal", "Sorathan_Chaturapruek", "Daniel_Choe", "Owen_Wang", "Richard_Xu", \
+         "Yang_Wang", "Hongsheng_Fang"]
 
+if len(sys.argv) == 3:
+    users = [sys.argv[1] + "_" + sys.argv[2]]
 
 # 54 questions in post-study quiz (quiz B)
-postquiz_qid = set([146, 145, 118, 130, 148, 117, 127, 111, 120, 141, 143, 147, 114, 121, \
-                   106, 102, 112, 133, 72, 79, 90, 84, 58, 83, 59, 50, 56, 73, 93, 68, 53, \
-                   77, 75, 97, 89, 87, 25, 24, 1, 19, 21, 44, 17, 30, 38, 6, 8, 2, 11, 37, \
-                   9, 41, 29, 42])
+postquiz_qid = set([1, 2, 6, 8, 9, 11, 17, 19, 21, 24, 25, 29, 30, 37, 38, 41, 42, 44, 50, 53, 56, \
+                    58, 59, 68, 72, 73, 75, 77, 79, 83, 84, 87, 89, 90, 93, 97, 102, 106, 111, 112, \
+                    114, 117, 118, 120, 121, 127, 130, 133, 141, 143, 145, 146, 147, 148])
 
 qualtricsID_2_qid = {0: 146, 1: 72, 2: 25, 3: 145, 4: 79, 6: 90, 7: 118, 8: 84, 9: 24, 10: 1, \
                     11: 58, 12: 130, 13: 148, 14: 19, 15: 117, 16: 83, 17: 21, 18: 59, 19: 127, \
@@ -35,20 +39,29 @@ qualtricsID_2_qid = {0: 146, 1: 72, 2: 25, 3: 145, 4: 79, 6: 90, 7: 118, 8: 84, 
                     43: 53, 44: 37, 45: 9, 46: 77, 49: 75, 50: 106, 51: 97, 52: 102, 53: 112, 54: 41, \
                     55: 89, 56: 29, 57: 42, 58: 133, 59: 87}
 
+flashcard_index_2_qid_dict = {0: 15, 1: 135, 2: 55, 3: 51, 4: 56, 5: 141, 6: 128, 7: 106, 8: 111, \
+                              9: 114, 10: 59, 11: 9, 12: 131, 13: 145, 14: 18, 15: 102, 16: 11, \
+                              17: 133, 18: 130, 19: 83, 20: 41, 21: 148, 22: 75, 23: 90, 24: 99, \
+                              25: 113, 26: 104, 27: 46, 28: 37, 29: 44, 30: 49, 31: 58, 32: 24, 33: 52, \
+                              34: 73, 35: 6, 36: 29, 37: 88, 38: 17, 39: 76, 40: 77, 41: 89, 42: 144, \
+                              43: 142, 44: 92, 45: 10, 46: 3, 47: 40}
+
+flashcard_qid = [15, 135, 55, 51, 56, 141, 128, 106, 111, 114, 59, 9, 131, 145, 18, 102, 11, 133, \
+                 130, 83, 41, 148, 75, 90, 99, 113, 104, 46, 37, 44, 49, 58, 24, 52, 73, 6, 29, \
+                 88, 17, 76, 77, 89, 144, 142, 92, 10, 3, 40]
+
 qid_2_qualtricsID_dict = {value: key for key, value in qualtricsID_2_qid.items()}
 
-# time break considered to be a leave
-BREAK_TIME = 30
+BREAK_TIME = 30 # time break considered to be a leave
 # indices of useful data entry
 TIME_STAMP_INDEX = 5
 EVENT_INDEX = 4
 QID_INDEX = 3
 
-if len(sys.argv) == 3:
-    users = [sys.argv[1] + "_" + sys.argv[2]]
-
 time_report = {} # a disctionary of dates and corresponding daily usage time
 question_report = {} # a disctionary of studied question (total studies question, unique studies questions)
+practice_question_count = {} # a dictionary of the number of times user studied each question
+question_correctness_rate = {} # a dictionary of the correctness rate of each question
 
 for user in users:
     flashcard_filename = os.path.join(dirname, "../../SQL_query/user_data/flashcard_" + user + ".csv")
@@ -79,12 +92,24 @@ for user in users:
 
     sub_time_report.append((old_time_stamp.year, old_time_stamp.month, old_time_stamp.day, total_usage_time/60))
     time_report[user] = sub_time_report
+    practice_question_count[user] = {}
+    question_correctness_rate[user] = {}
 
-    events = [int(x[QID_INDEX]) for x in flashcard_file if x[EVENT_INDEX] == "I don't know" or x[EVENT_INDEX] == "got it"]
+    events = [int(x[QID_INDEX]) for x in flashcard_file if (x[EVENT_INDEX] == "I don't know" or x[EVENT_INDEX] == "got it") and int(x[QID_INDEX]) in flashcard_qid]
+    events_correct = [int(x[QID_INDEX]) for x in flashcard_file if x[EVENT_INDEX] == "got it" and int(x[QID_INDEX]) in flashcard_qid]
     qid_in_postquiz_seen = set(events)&postquiz_qid
     qualtricsID_in_postquiz_seen = [qid_2_qualtricsID_dict[qid] for qid in qid_in_postquiz_seen]
     question_report[user] = (len(events), len(set(events)), len(qid_in_postquiz_seen), qualtricsID_in_postquiz_seen)
 
+    for q in flashcard_qid:
+        practice_question_count[user][q] = events.count(q)
+
+    for q in flashcard_qid:
+        if float(events.count(q)) == 0:
+            question_correctness_rate[user][q] = ''
+        else:
+            question_correctness_rate[user][q] = round(float(events_correct.count(q)) / float(events.count(q)), 2)
+    
 output_string = ""
 for user in time_report:
     total_time = 0
@@ -124,6 +149,9 @@ f = open(result_filename, 'w')
 f.write(output_string)
 f.close()
 print(output_string)
+
+print(practice_question_count)
+print(question_correctness_rate)
 
 
 

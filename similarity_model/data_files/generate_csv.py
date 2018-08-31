@@ -36,13 +36,28 @@ messages = [
     ['nervous', 'central nervous system'],
     ['neural'],
     ['sexual reproduction', 'sexual'],
+    ['asexual reproduction', 'asexual'],
     # atom nucleus
     ['atom nucleus', 'the nucleus'],
     # nuclear
     ['nuclear', 'medulla'],
     # A and B
-    ['reproduce asexually and sexually',
-     'reproduce sexually and asexually'],
+    ['reproduce asexually and sexually', 'reproduce sexually and asexually'],
+    ['high viscosity', 'high viscousity'],
+    # make sure evasiveness and cogency aren't the same for some reason
+    ['evasiveness'],
+    ['cogency'],
+    # genetic variation and alternative variation to
+    ['genetic variation'],
+    ['alternative variation'],
+    # insects and spider
+    ['insects', 'insect'],
+    ['spider'],
+    ['fibrosis'],
+    ['elephantiasis'],
+    ['Both water and multipurpose dry chemical', 'Both water and multi-purpose dry chemical'],
+    ['admires'],
+    ['evokes'],
     # plural
     ['2 hour', '2 hours'],
     # synonyms

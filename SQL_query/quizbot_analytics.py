@@ -8,14 +8,15 @@ import csv
 # users = [("Veronica", "Cruz"), ("Jackie", "Fortin"), ("Eleni", "Aneziris"), ("Zilin", "Ma"), ("Jongho", "Kim"), \
 # 		 ("Nina", "Tai"), ("Yi", "Feng"), ("Dae hyun", "Kim"), ("Pingyu", "Wang"), ("Lantao", "Mei"), \
 # 		 ("Michael", "Silvernagel"), ("Bianca", "Yu")]
-		 # , ("Julia", "Thompson")
 
 # use the QUIZBOT_DEV database
 # within-subject users: use the QUIZBOT_DEV database
 users = [("Noah Yinuo", "Yao"), ("Dee Dee", "Thao"), ("Zhenqi", "Hu"), ("Jingyi", "Li"), ("Joy", "Yuzuriha"), \
          ("Andrew", "Ying"), ("Henry", "Qin"), ("Nina", "Horowitz"), ("Daniel", "Do"), ("Fangmingyu", "Yang"), \
          ("Francis", "Yan"), ("Olivia", "Yang"), ("Ted", "Shaowang"), ("Helen", "Wang"), ("Julia", "Thompson"), \
-         ("De-an", "Huang"), ("Kylie", "Jue"), ("Tyler", "Yep")]
+         ("De-an", "Huang"), ("Kylie", "Jue"), ("Tyler", "Yep"), ("Giovanni", "Campagna"), ("Jean", "Coquet"), \
+         ("Zhouheng", "Zhuang")]
+users.append(("Julia", "Thompson"))
 
 
 if sys.argv[1] != "" and sys.argv[2] != "":
