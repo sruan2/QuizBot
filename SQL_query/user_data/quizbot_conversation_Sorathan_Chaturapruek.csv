@@ -1,0 +1,896 @@
+user_id,user_firstname,user_lastname,uid,sender,recipient,type,dialogue,time_stamp
+1830256490402831,Sorathan,Chaturapruek,19890,1830256490402831,854518728062939,persistent_menu: GET_INTRO_1,Get Started,2018-08-28 09:45:55
+1830256490402831,Sorathan,Chaturapruek,19891,854518728062939,1830256490402831,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/quizbot_avatar.png,2018-08-28 09:45:57
+1830256490402831,Sorathan,Chaturapruek,19892,854518728062939,1830256490402831,BOT: quick reply,"Hi Sorathan! My name is Frosty :penguin: and Im here to help you learn all about science:microscope:, verbal reasoning (GRE) :input_latin_uppercase:, and safety:hammer_and_wrench:!",2018-08-28 09:45:58
+1830256490402831,Sorathan,Chaturapruek,19893,1830256490402831,854518728062939,persistent_menu: SAFETY,Safety:hammer_and_wrench:,2018-08-28 09:46:06
+1830256490402831,Sorathan,Chaturapruek,19894,854518728062939,1830256490402831,BOT: quick reply,All right! Ill quiz you on safety!,2018-08-28 09:46:06
+1830256490402831,Sorathan,Chaturapruek,19895,854518728062939,1830256490402831,BOT: message,What about this next question:,2018-08-28 09:46:11
+1830256490402831,Sorathan,Chaturapruek,19896,854518728062939,1830256490402831,BOT: quick reply,What does CERT stand for?,2018-08-28 09:46:12
+1830256490402831,Sorathan,Chaturapruek,19897,1830256490402831,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-28 09:46:24
+1830256490402831,Sorathan,Chaturapruek,19898,854518728062939,1830256490402831,BOT: message,Pick one of the following answers.,2018-08-28 09:46:25
+1830256490402831,Sorathan,Chaturapruek,19899,854518728062939,1830256490402831,BOT: quick reply,":keycap_1: Community Experimental Research Team
+:keycap_2: Community Emergency Response Team
+:keycap_3: Central Emergency Response Terminal
+:keycap_4: Controlled Evacuation and Response Tactics
+",2018-08-28 09:46:26
+1830256490402831,Sorathan,Chaturapruek,19914,1830256490402831,854518728062939,persistent_menu: REPORT_BUG,Report Bug :wrench:,2018-08-28 11:24:03
+1830256490402831,Sorathan,Chaturapruek,19915,854518728062939,1830256490402831,BOT: message,"Okay, could you type in the bug in a few words :grinning_face_with_smiling_eyes:",2018-08-28 11:24:03
+1830256490402831,Sorathan,Chaturapruek,19916,854518728062939,1830256490402831,BOT: quick reply,We can resume learning if you have no bug to report.,2018-08-28 11:24:04
+1830256490402831,Sorathan,Chaturapruek,19917,1830256490402831,854518728062939,user_typing,No pictures,2018-08-28 11:24:31
+1830256490402831,Sorathan,Chaturapruek,19918,854518728062939,1830256490402831,BOT: quick reply,Thanks for the feedback! I'll take a note of that! :thumbs_up_medium-light_skin_tone:,2018-08-28 11:24:31
+1830256490402831,Sorathan,Chaturapruek,19919,1830256490402831,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-28 11:24:46
+1830256490402831,Sorathan,Chaturapruek,19920,854518728062939,1830256490402831,BOT: message,Let's try this question.,2018-08-28 11:24:47
+1830256490402831,Sorathan,Chaturapruek,19921,854518728062939,1830256490402831,BOT: quick reply,What three major factors cause food contamination?,2018-08-28 11:24:47
+1830256490402831,Sorathan,Chaturapruek,19922,1830256490402831,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-28 11:24:58
+1830256490402831,Sorathan,Chaturapruek,19923,854518728062939,1830256490402831,BOT: message,It's one of the following choices.,2018-08-28 11:24:59
+1830256490402831,Sorathan,Chaturapruek,19924,854518728062939,1830256490402831,BOT: quick reply,":keycap_1: Physical, chemical, and psychosocial
+:keycap_2: Physical, biological, and radiological
+:keycap_3: Physical, biological, and chemical
+:keycap_4: Physical, psychological, and health
+",2018-08-28 11:25:00
+1830256490402831,Sorathan,Chaturapruek,19925,1830256490402831,854518728062939,"user_quick_reply: BUTTON_AKB_Physical, biological, and chemical",:keycap_3:,2018-08-28 11:25:14
+1830256490402831,Sorathan,Chaturapruek,19926,854518728062939,1830256490402831,BOT: message,Yes! You got the correct answer!,2018-08-28 11:25:15
+1830256490402831,Sorathan,Chaturapruek,19927,854518728062939,1830256490402831,BOT: quick reply,"The correct answer is Physical, biological, and chemical.",2018-08-28 11:25:16
+1830256490402831,Sorathan,Chaturapruek,19928,1830256490402831,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-28 11:25:21
+1830256490402831,Sorathan,Chaturapruek,19929,854518728062939,1830256490402831,BOT: message,Here's a question for you:,2018-08-28 11:25:21
+1830256490402831,Sorathan,Chaturapruek,19930,854518728062939,1830256490402831,BOT: quick reply,"True or false: if you wear a back belt, you can lift more weight than you could without a belt.",2018-08-28 11:25:22
+1830256490402831,Sorathan,Chaturapruek,19931,1830256490402831,854518728062939,user_typing,True,2018-08-28 11:25:30
+1830256490402831,Sorathan,Chaturapruek,19932,854518728062939,1830256490402831,BOT: message,"Oops, that answer was incorrect. :disappointed_face:",2018-08-28 11:25:30
+1830256490402831,Sorathan,Chaturapruek,19933,854518728062939,1830256490402831,BOT: quick reply,The correct answer is False.,2018-08-28 11:25:31
+1830256490402831,Sorathan,Chaturapruek,19934,1830256490402831,854518728062939,user_quick_reply: WHY,Why?,2018-08-28 11:25:37
+1830256490402831,Sorathan,Chaturapruek,19935,854518728062939,1830256490402831,BOT: message,Here's why:,2018-08-28 11:25:38
+1830256490402831,Sorathan,Chaturapruek,19936,854518728062939,1830256490402831,BOT: quick reply,Workers often lift more weight under the illusion that use of back belts increases the lifting capability of a worker. There has not been sufficient evidence to support this fact and hence it cannot be held true.,2018-08-28 11:25:39
+1830256490402831,Sorathan,Chaturapruek,19937,1830256490402831,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-28 11:25:49
+1830256490402831,Sorathan,Chaturapruek,19938,854518728062939,1830256490402831,BOT: message,How about this next one:,2018-08-28 11:25:50
+1830256490402831,Sorathan,Chaturapruek,19939,854518728062939,1830256490402831,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-28 11:25:50
+1830256490402831,Sorathan,Chaturapruek,19940,854518728062939,1830256490402831,BOT: quick reply,What should you NOT do while treating cuts and scrapes?,2018-08-28 11:25:51
+1830256490402831,Sorathan,Chaturapruek,19941,1830256490402831,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-28 11:26:01
+1830256490402831,Sorathan,Chaturapruek,19942,854518728062939,1830256490402831,BOT: message,Which of the following options is the right answer?,2018-08-28 11:26:02
+1830256490402831,Sorathan,Chaturapruek,19943,854518728062939,1830256490402831,BOT: quick reply,":keycap_1: Apply an antibiotic to the wound
+:keycap_2: Apply pressure on the wound with a clean cloth or bandage
+:keycap_3: Cover the wound
+:keycap_4: Wash the wound with soap
+",2018-08-28 11:26:02
+1830256490402831,Sorathan,Chaturapruek,19944,1830256490402831,854518728062939,user_quick_reply: BUTTON_DKB_Cover the wound,:keycap_3:,2018-08-28 11:26:17
+1830256490402831,Sorathan,Chaturapruek,19945,854518728062939,1830256490402831,BOT: message,"Oops, that is not correct. :disappointed_face:",2018-08-28 11:26:18
+1830256490402831,Sorathan,Chaturapruek,19946,854518728062939,1830256490402831,BOT: quick reply,The correct answer is Wash the wound with soap.,2018-08-28 11:26:18
+1830256490402831,Sorathan,Chaturapruek,19947,1830256490402831,854518728062939,persistent_menu: REPORT_BUG,Report Bug :wrench:,2018-08-28 11:26:29
+1830256490402831,Sorathan,Chaturapruek,19948,854518728062939,1830256490402831,BOT: message,"Okay, could you type in the problem :grinning_face_with_smiling_eyes:",2018-08-28 11:26:29
+1830256490402831,Sorathan,Chaturapruek,19949,854518728062939,1830256490402831,BOT: quick reply,We can resume learning if you have no bug to report.,2018-08-28 11:26:30
+1830256490402831,Sorathan,Chaturapruek,19950,1830256490402831,854518728062939,user_typing,This question doesnt make sense without choices,2018-08-28 11:26:54
+1830256490402831,Sorathan,Chaturapruek,19951,854518728062939,1830256490402831,BOT: quick reply,"Alrighty, thank you for your feedback. I'll take a note of that! :thumbs_up_medium-light_skin_tone:",2018-08-28 11:26:54
+1830256490402831,Sorathan,Chaturapruek,19952,1830256490402831,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-28 11:26:58
+1830256490402831,Sorathan,Chaturapruek,19953,854518728062939,1830256490402831,BOT: message,How about this next one:,2018-08-28 11:26:58
+1830256490402831,Sorathan,Chaturapruek,19954,854518728062939,1830256490402831,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-28 11:26:59
+1830256490402831,Sorathan,Chaturapruek,19955,854518728062939,1830256490402831,BOT: quick reply,Working on scaffold during winds above ____ miles per hour is prohibited by OSHA.,2018-08-28 11:26:59
+1830256490402831,Sorathan,Chaturapruek,19956,1830256490402831,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-28 11:27:10
+1830256490402831,Sorathan,Chaturapruek,19957,854518728062939,1830256490402831,BOT: message,Okay. I'll give you some choices.,2018-08-28 11:27:11
+1830256490402831,Sorathan,Chaturapruek,19958,854518728062939,1830256490402831,BOT: quick reply,":keycap_1: 50
+:keycap_2: 40
+:keycap_3: 25
+:keycap_4: 10
+",2018-08-28 11:27:11
+1830256490402831,Sorathan,Chaturapruek,19959,1830256490402831,854518728062939,user_quick_reply: BUTTON_AKB_40,:keycap_2:,2018-08-28 11:27:22
+1830256490402831,Sorathan,Chaturapruek,19960,854518728062939,1830256490402831,BOT: message,Nice work! Keep it up!,2018-08-28 11:27:22
+1830256490402831,Sorathan,Chaturapruek,19961,854518728062939,1830256490402831,BOT: quick reply,The correct answer is 40.,2018-08-28 11:27:23
+1830256490402831,Sorathan,Chaturapruek,19962,1830256490402831,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-28 11:27:28
+1830256490402831,Sorathan,Chaturapruek,19963,854518728062939,1830256490402831,BOT: message,Let's see if you can answer this question.,2018-08-28 11:27:29
+1830256490402831,Sorathan,Chaturapruek,19964,854518728062939,1830256490402831,BOT: quick reply,What should you NOT do when lowering a load?,2018-08-28 11:27:30
+1830256490402831,Sorathan,Chaturapruek,19965,1830256490402831,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-28 11:27:37
+1830256490402831,Sorathan,Chaturapruek,19966,854518728062939,1830256490402831,BOT: message,Okay. I'll give you some choices.,2018-08-28 11:27:38
+1830256490402831,Sorathan,Chaturapruek,19967,854518728062939,1830256490402831,BOT: quick reply,":keycap_1: Twist your body, keep the load close, and bend your knees
+:keycap_2: Keep the load close to your body
+:keycap_3: Twist your body
+:keycap_4: Bend your knees
+",2018-08-28 11:27:38
+1830256490402831,Sorathan,Chaturapruek,19968,1830256490402831,854518728062939,user_quick_reply: BUTTON_AKB_Twist your body,:keycap_3:,2018-08-28 11:27:55
+1830256490402831,Sorathan,Chaturapruek,19969,854518728062939,1830256490402831,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_normal_cyan.png,2018-08-28 11:27:57
+1830256490402831,Sorathan,Chaturapruek,19970,854518728062939,1830256490402831,BOT: message,Great job!,2018-08-28 11:27:57
+1830256490402831,Sorathan,Chaturapruek,19971,854518728062939,1830256490402831,BOT: quick reply,The correct answer is Twist your body.,2018-08-28 11:27:58
+1830256490402831,Sorathan,Chaturapruek,19972,1830256490402831,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-28 11:28:04
+1830256490402831,Sorathan,Chaturapruek,19973,854518728062939,1830256490402831,BOT: message,Let's see if you would answer this one.,2018-08-28 11:28:05
+1830256490402831,Sorathan,Chaturapruek,19974,854518728062939,1830256490402831,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-28 11:28:05
+1830256490402831,Sorathan,Chaturapruek,19975,854518728062939,1830256490402831,BOT: quick reply,"True or false: you can always smell, see, or taste harmful bacteria in food that can cause illness.",2018-08-28 11:28:06
+1830256490402831,Sorathan,Chaturapruek,19976,1830256490402831,854518728062939,user_typing,False,2018-08-28 11:28:16
+1830256490402831,Sorathan,Chaturapruek,19977,854518728062939,1830256490402831,BOT: message,Good job! :raising_hands_medium-light_skin_tone:,2018-08-28 11:28:16
+1830256490402831,Sorathan,Chaturapruek,19978,854518728062939,1830256490402831,BOT: quick reply,The correct answer is False.,2018-08-28 11:28:18
+1830256490402831,Sorathan,Chaturapruek,19979,1830256490402831,854518728062939,user_quick_reply: WHY,Why?,2018-08-28 11:28:21
+1830256490402831,Sorathan,Chaturapruek,19980,854518728062939,1830256490402831,BOT: message,I hope this explanation could help you understand the the question.,2018-08-28 11:28:22
+1830256490402831,Sorathan,Chaturapruek,19981,854518728062939,1830256490402831,BOT: quick reply,"United States Department of Agriculture (USDA) states that you cannot always see, taste, or smell harmful bacteria that may cause illness.",2018-08-28 11:28:22
+1830256490402831,Sorathan,Chaturapruek,19982,1830256490402831,854518728062939,persistent_menu: REPORT_BUG,Report Bug :wrench:,2018-08-28 11:28:40
+1830256490402831,Sorathan,Chaturapruek,19983,854518728062939,1830256490402831,BOT: message,"Okay, can you type in the bug in a few words :grinning_face_with_smiling_eyes:",2018-08-28 11:28:41
+1830256490402831,Sorathan,Chaturapruek,19984,854518728062939,1830256490402831,BOT: quick reply,We can resume learning if you have no bug to report.,2018-08-28 11:28:41
+1830256490402831,Sorathan,Chaturapruek,19985,1830256490402831,854518728062939,user_typing,I feel like there could be a better explanation than this,2018-08-28 11:29:02
+1830256490402831,Sorathan,Chaturapruek,19986,854518728062939,1830256490402831,BOT: quick reply,Thank you for your bug report. I'll take a look at that! :thumbs_up_medium-light_skin_tone:,2018-08-28 11:29:03
+1830256490402831,Sorathan,Chaturapruek,19987,1830256490402831,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-28 11:29:07
+1830256490402831,Sorathan,Chaturapruek,19988,854518728062939,1830256490402831,BOT: message,How about this next one:,2018-08-28 11:29:08
+1830256490402831,Sorathan,Chaturapruek,19989,854518728062939,1830256490402831,BOT: quick reply,What does CERT stand for?,2018-08-28 11:29:09
+1830256490402831,Sorathan,Chaturapruek,19990,1830256490402831,854518728062939,user_quick_reply: I_DONT_KNOW,I dont know :downcast_face_with_sweat:,2018-08-28 11:29:14
+1830256490402831,Sorathan,Chaturapruek,19991,854518728062939,1830256490402831,BOT: quick reply,Are you sure you want to give up?,2018-08-28 11:29:14
+1830256490402831,Sorathan,Chaturapruek,19992,1830256490402831,854518728062939,user_quick_reply: GIVEUP_YES,"Yes, answer please.",2018-08-28 11:29:19
+1830256490402831,Sorathan,Chaturapruek,19993,854518728062939,1830256490402831,BOT: message,You didn't get this question this time.,2018-08-28 11:29:19
+1830256490402831,Sorathan,Chaturapruek,19994,854518728062939,1830256490402831,BOT: message,"That's okay, you'll get it next time! :grinning_face_with_smiling_eyes:",2018-08-28 11:29:21
+1830256490402831,Sorathan,Chaturapruek,19995,854518728062939,1830256490402831,BOT: quick reply,The correct answer is Community Emergency Response Team.,2018-08-28 11:29:21
+1830256490402831,Sorathan,Chaturapruek,19996,1830256490402831,854518728062939,user_quick_reply: WHY,Why?,2018-08-28 11:29:26
+1830256490402831,Sorathan,Chaturapruek,19997,854518728062939,1830256490402831,BOT: message,I hope this explanation could help you understand the the question.,2018-08-28 11:29:27
+1830256490402831,Sorathan,Chaturapruek,19998,854518728062939,1830256490402831,BOT: quick reply,CERT members help with disaster preparedness as well as disaster relief. Be aware if your community has one. Have their number handy and contact them in case of emergency after a quake if professional responders are not immediately available.,2018-08-28 11:29:28
+1830256490402831,Sorathan,Chaturapruek,19999,1830256490402831,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-28 11:29:45
+1830256490402831,Sorathan,Chaturapruek,20000,854518728062939,1830256490402831,BOT: message,Could you answer this one for me?,2018-08-28 11:29:46
+1830256490402831,Sorathan,Chaturapruek,20001,854518728062939,1830256490402831,BOT: quick reply,"True or false: if you wear a back belt, you can lift more weight than you could without a belt.",2018-08-28 11:29:46
+1830256490402831,Sorathan,Chaturapruek,20002,1830256490402831,854518728062939,user_typing,False,2018-08-28 11:29:55
+1830256490402831,Sorathan,Chaturapruek,20003,854518728062939,1830256490402831,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_normal_orange.png,2018-08-28 11:29:56
+1830256490402831,Sorathan,Chaturapruek,20004,854518728062939,1830256490402831,BOT: message,Good job! :raising_hands_medium-light_skin_tone:,2018-08-28 11:29:57
+1830256490402831,Sorathan,Chaturapruek,20005,854518728062939,1830256490402831,BOT: quick reply,The correct answer is False.,2018-08-28 11:29:58
+1830256490402831,Sorathan,Chaturapruek,21019,854518728062939,1830256490402831,BOT: quick reply,"Hi Sorathan, you haven't talked to me for a while. Would you like to resume the learning with me?",2018-08-28 20:00:05
+1830256490402831,Sorathan,Chaturapruek,21490,1830256490402831,854518728062939,user_quick_reply: NEXT_QUESTION,OK :white_heavy_check_mark:,2018-08-28 21:23:21
+1830256490402831,Sorathan,Chaturapruek,21491,854518728062939,1830256490402831,BOT: message,Let's see if you can answer this question.,2018-08-28 21:23:21
+1830256490402831,Sorathan,Chaturapruek,21492,854518728062939,1830256490402831,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-28 21:23:22
+1830256490402831,Sorathan,Chaturapruek,21493,854518728062939,1830256490402831,BOT: quick reply,What does CERT stand for?,2018-08-28 21:23:22
+1830256490402831,Sorathan,Chaturapruek,21494,1830256490402831,854518728062939,user_typing,Community emergency resources training,2018-08-28 21:23:46
+1830256490402831,Sorathan,Chaturapruek,21495,854518728062939,1830256490402831,BOT: message,Nice! :red_apple:,2018-08-28 21:23:46
+1830256490402831,Sorathan,Chaturapruek,21496,854518728062939,1830256490402831,BOT: quick reply,The correct answer is Community Emergency Response Team.,2018-08-28 21:23:47
+1830256490402831,Sorathan,Chaturapruek,21497,1830256490402831,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-28 21:23:53
+1830256490402831,Sorathan,Chaturapruek,21498,854518728062939,1830256490402831,BOT: message,What about this next question:,2018-08-28 21:23:54
+1830256490402831,Sorathan,Chaturapruek,21499,854518728062939,1830256490402831,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-28 21:23:54
+1830256490402831,Sorathan,Chaturapruek,21500,854518728062939,1830256490402831,BOT: quick reply,What does CERT stand for?,2018-08-28 21:23:55
+1830256490402831,Sorathan,Chaturapruek,21501,1830256490402831,854518728062939,user_typing,Community emergency response team,2018-08-28 21:24:10
+1830256490402831,Sorathan,Chaturapruek,21502,854518728062939,1830256490402831,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_happy_orange.png,2018-08-28 21:24:12
+1830256490402831,Sorathan,Chaturapruek,21503,854518728062939,1830256490402831,BOT: message,Good job! :raising_hands_medium-light_skin_tone:,2018-08-28 21:24:12
+1830256490402831,Sorathan,Chaturapruek,21504,854518728062939,1830256490402831,BOT: quick reply,The correct answer is Community Emergency Response Team.,2018-08-28 21:24:13
+1830256490402831,Sorathan,Chaturapruek,21505,1830256490402831,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-28 21:24:18
+1830256490402831,Sorathan,Chaturapruek,21506,854518728062939,1830256490402831,BOT: message,What about this next question:,2018-08-28 21:24:19
+1830256490402831,Sorathan,Chaturapruek,21507,854518728062939,1830256490402831,BOT: quick reply,True or false: portable fire extinguishers should only be used by trained employees.,2018-08-28 21:24:19
+1830256490402831,Sorathan,Chaturapruek,21508,1830256490402831,854518728062939,user_typing,False,2018-08-28 21:24:26
+1830256490402831,Sorathan,Chaturapruek,21509,854518728062939,1830256490402831,BOT: message,"I'm sorry, but that was incorrect. :disappointed_face:",2018-08-28 21:24:26
+1830256490402831,Sorathan,Chaturapruek,21510,854518728062939,1830256490402831,BOT: quick reply,The correct answer is True.,2018-08-28 21:24:27
+1830256490402831,Sorathan,Chaturapruek,21511,1830256490402831,854518728062939,user_quick_reply: WHY,Why?,2018-08-28 21:24:33
+1830256490402831,Sorathan,Chaturapruek,21512,854518728062939,1830256490402831,BOT: message,This is why:,2018-08-28 21:24:34
+1830256490402831,Sorathan,Chaturapruek,21513,854518728062939,1830256490402831,BOT: quick reply,"Employers can choose to authorize some or all employees to use portable extinguishers. In both cases, employers should provide employees sufficient training to do so.",2018-08-28 21:24:35
+1830256490402831,Sorathan,Chaturapruek,21514,1830256490402831,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-28 21:24:43
+1830256490402831,Sorathan,Chaturapruek,21515,854518728062939,1830256490402831,BOT: message,Let's see if you can get this one.,2018-08-28 21:24:44
+1830256490402831,Sorathan,Chaturapruek,21516,854518728062939,1830256490402831,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-28 21:24:44
+1830256490402831,Sorathan,Chaturapruek,21517,854518728062939,1830256490402831,BOT: quick reply,"True or false: if you wear a back belt, you can lift more weight than you could without a belt.",2018-08-28 21:24:45
+1830256490402831,Sorathan,Chaturapruek,21518,1830256490402831,854518728062939,user_typing,False,2018-08-28 21:24:52
+1830256490402831,Sorathan,Chaturapruek,21519,854518728062939,1830256490402831,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_happy_pink.png,2018-08-28 21:24:54
+1830256490402831,Sorathan,Chaturapruek,21520,854518728062939,1830256490402831,BOT: message,Fantastic! :hundred_points:,2018-08-28 21:24:55
+1830256490402831,Sorathan,Chaturapruek,21521,854518728062939,1830256490402831,BOT: quick reply,The correct answer is False.,2018-08-28 21:24:55
+1830256490402831,Sorathan,Chaturapruek,21522,1830256490402831,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-28 21:25:01
+1830256490402831,Sorathan,Chaturapruek,21523,854518728062939,1830256490402831,BOT: message,Let's try this one.,2018-08-28 21:25:01
+1830256490402831,Sorathan,Chaturapruek,21524,854518728062939,1830256490402831,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-28 21:25:02
+1830256490402831,Sorathan,Chaturapruek,21525,854518728062939,1830256490402831,BOT: quick reply,"If your co-worker needs CPR but you are not trained in it, what should you do?",2018-08-28 21:25:02
+1830256490402831,Sorathan,Chaturapruek,21526,1830256490402831,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-28 21:25:12
+1830256490402831,Sorathan,Chaturapruek,21527,854518728062939,1830256490402831,BOT: message,Pick one of the following answers.,2018-08-28 21:25:12
+1830256490402831,Sorathan,Chaturapruek,21528,854518728062939,1830256490402831,BOT: quick reply,":keycap_1: Perform chest compressions only
+:keycap_2: Lift the patient's head
+:keycap_3: Give rescue breaths only
+:keycap_4: Wait for emergency personnel to arrive
+",2018-08-28 21:25:13
+1830256490402831,Sorathan,Chaturapruek,21529,1830256490402831,854518728062939,user_quick_reply: BUTTON_DKB_Wait for emergency personnel to arrive,:keycap_4:,2018-08-28 21:25:22
+1830256490402831,Sorathan,Chaturapruek,21530,854518728062939,1830256490402831,BOT: message,"Hmm, that wasn't quite right. :disappointed_face:",2018-08-28 21:25:23
+1830256490402831,Sorathan,Chaturapruek,21531,854518728062939,1830256490402831,BOT: quick reply,The correct answer is Perform chest compressions only.,2018-08-28 21:25:23
+1830256490402831,Sorathan,Chaturapruek,21532,1830256490402831,854518728062939,user_quick_reply: WHY,Why?,2018-08-28 21:25:29
+1830256490402831,Sorathan,Chaturapruek,21533,854518728062939,1830256490402831,BOT: message,This is why:,2018-08-28 21:25:30
+1830256490402831,Sorathan,Chaturapruek,21534,854518728062939,1830256490402831,BOT: quick reply,"According to Mayo Clinic, it's far better to do something than to do nothing at all if you're fearful that your knowledge or abilities arent 100 percent complete. If you're not trained in CPR, then provide hands-only CPR. That means uninterrupted chest compressions of about 100 a minute until paramedics arrive. You don't need to try rescue breathing.",2018-08-28 21:25:30
+1830256490402831,Sorathan,Chaturapruek,21535,1830256490402831,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-28 21:25:52
+1830256490402831,Sorathan,Chaturapruek,21536,854518728062939,1830256490402831,BOT: message,What about this next question:,2018-08-28 21:25:52
+1830256490402831,Sorathan,Chaturapruek,21537,854518728062939,1830256490402831,BOT: quick reply,To what does the acronym SLM refer?,2018-08-28 21:25:53
+1830256490402831,Sorathan,Chaturapruek,21538,1830256490402831,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-28 21:25:57
+1830256490402831,Sorathan,Chaturapruek,21539,854518728062939,1830256490402831,BOT: message,It's one of the following choices.,2018-08-28 21:25:58
+1830256490402831,Sorathan,Chaturapruek,21540,854518728062939,1830256490402831,BOT: quick reply,":keycap_1: System Level Monitor
+:keycap_2: Sound Level Meter
+:keycap_3: Service Lifecycle Management
+:keycap_4: Sound Loudness Methods
+",2018-08-28 21:25:58
+1830256490402831,Sorathan,Chaturapruek,21541,1830256490402831,854518728062939,user_quick_reply: BUTTON_DKB_Service Lifecycle Management,:keycap_3:,2018-08-28 21:26:08
+1830256490402831,Sorathan,Chaturapruek,21542,854518728062939,1830256490402831,BOT: message,"Oops, that is not correct. :disappointed_face:",2018-08-28 21:26:08
+1830256490402831,Sorathan,Chaturapruek,21543,854518728062939,1830256490402831,BOT: quick reply,The correct answer is Sound Level Meter.,2018-08-28 21:26:09
+1830256490402831,Sorathan,Chaturapruek,21544,1830256490402831,854518728062939,user_quick_reply: WHY,Why?,2018-08-28 21:26:13
+1830256490402831,Sorathan,Chaturapruek,21545,854518728062939,1830256490402831,BOT: message,Here's an explanation:,2018-08-28 21:26:14
+1830256490402831,Sorathan,Chaturapruek,21546,854518728062939,1830256490402831,BOT: quick reply,The Sound Level Meter is an instrument used to measure noise levels.,2018-08-28 21:26:14
+1830256490402831,Sorathan,Chaturapruek,21547,1830256490402831,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-28 21:26:20
+1830256490402831,Sorathan,Chaturapruek,21548,854518728062939,1830256490402831,BOT: message,I think you'll like this question.,2018-08-28 21:26:21
+1830256490402831,Sorathan,Chaturapruek,21549,854518728062939,1830256490402831,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-28 21:26:21
+1830256490402831,Sorathan,Chaturapruek,21550,854518728062939,1830256490402831,BOT: quick reply,Which fire extinguishers are used to put out Class A fires?,2018-08-28 21:26:22
+1830256490402831,Sorathan,Chaturapruek,21551,1830256490402831,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-28 21:26:29
+1830256490402831,Sorathan,Chaturapruek,21552,854518728062939,1830256490402831,BOT: message,Okay. I'll give you some choices.,2018-08-28 21:26:30
+1830256490402831,Sorathan,Chaturapruek,21553,854518728062939,1830256490402831,BOT: quick reply,":keycap_1: Both water and multi-purpose dry chemical
+:keycap_2: CO2 only
+:keycap_3: Water only
+:keycap_4: Multi-purpose dry chemical only
+:keycap_5: Both CO2 and water
+",2018-08-28 21:26:30
+1830256490402831,Sorathan,Chaturapruek,21554,1830256490402831,854518728062939,user_quick_reply: BUTTON_DKB_Multi-purpose dry chemical only,:keycap_4:,2018-08-28 21:26:37
+1830256490402831,Sorathan,Chaturapruek,21555,854518728062939,1830256490402831,BOT: message,"Oops, that wasn't quite correct. :disappointed_face:",2018-08-28 21:26:37
+1830256490402831,Sorathan,Chaturapruek,21556,854518728062939,1830256490402831,BOT: quick reply,The correct answer is Both water and multi-purpose dry chemical.,2018-08-28 21:26:38
+1830256490402831,Sorathan,Chaturapruek,21557,1830256490402831,854518728062939,user_quick_reply: WHY,Why?,2018-08-28 21:26:45
+1830256490402831,Sorathan,Chaturapruek,21558,854518728062939,1830256490402831,BOT: message,Here's an explanation:,2018-08-28 21:26:45
+1830256490402831,Sorathan,Chaturapruek,21559,854518728062939,1830256490402831,BOT: quick reply,"Class A fires include fires in ordinary combustibles: paper, wood, cloth, rubber, and many plastics. Water based fire extinguishers and multi-purpose dry chemical based fire extinguishers are suitable for Class A fires. However, ordinary dry chemical fire extinguishers are suitable for only Class B and Class C fires",2018-08-28 21:26:46
+1830256490402831,Sorathan,Chaturapruek,21560,1830256490402831,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-28 21:28:06
+1830256490402831,Sorathan,Chaturapruek,21561,854518728062939,1830256490402831,BOT: message,Could you answer this one for me?,2018-08-28 21:28:07
+1830256490402831,Sorathan,Chaturapruek,21562,854518728062939,1830256490402831,BOT: quick reply,True or false: portable fire extinguishers should only be used by trained employees.,2018-08-28 21:28:07
+1830256490402831,Sorathan,Chaturapruek,21563,1830256490402831,854518728062939,user_typing,True,2018-08-28 21:28:16
+1830256490402831,Sorathan,Chaturapruek,21564,854518728062939,1830256490402831,BOT: message,Nice! :red_apple:,2018-08-28 21:28:16
+1830256490402831,Sorathan,Chaturapruek,21565,854518728062939,1830256490402831,BOT: quick reply,The correct answer is True.,2018-08-28 21:28:17
+1830256490402831,Sorathan,Chaturapruek,21566,1830256490402831,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-28 21:28:21
+1830256490402831,Sorathan,Chaturapruek,21567,854518728062939,1830256490402831,BOT: message,Would you answer this question for me?,2018-08-28 21:28:22
+1830256490402831,Sorathan,Chaturapruek,21568,854518728062939,1830256490402831,BOT: quick reply,Which fire extinguishers are used to put out Class A fires?,2018-08-28 21:28:22
+1830256490402831,Sorathan,Chaturapruek,21569,1830256490402831,854518728062939,user_typing,Both water and multi-purpose dry chemicals,2018-08-28 21:28:46
+1830256490402831,Sorathan,Chaturapruek,21570,854518728062939,1830256490402831,BOT: message,Good Answer! :white_heavy_check_mark:,2018-08-28 21:28:47
+1830256490402831,Sorathan,Chaturapruek,21571,854518728062939,1830256490402831,BOT: quick reply,The correct answer is Both water and multi-purpose dry chemical.,2018-08-28 21:28:47
+1830256490402831,Sorathan,Chaturapruek,21572,1830256490402831,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-28 21:28:52
+1830256490402831,Sorathan,Chaturapruek,21573,854518728062939,1830256490402831,BOT: message,Here's a question for you:,2018-08-28 21:28:52
+1830256490402831,Sorathan,Chaturapruek,21574,854518728062939,1830256490402831,BOT: quick reply,What three major factors cause food contamination?,2018-08-28 21:28:53
+1830256490402831,Sorathan,Chaturapruek,21575,1830256490402831,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-28 21:33:42
+1830256490402831,Sorathan,Chaturapruek,21576,854518728062939,1830256490402831,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-08-28 21:33:42
+1830256490402831,Sorathan,Chaturapruek,21577,854518728062939,1830256490402831,BOT: quick reply,":keycap_1: Physical, biological, and radiological
+:keycap_2: Physical, chemical, and psychosocial
+:keycap_3: Physical, biological, and chemical
+:keycap_4: Physical, psychological, and health
+",2018-08-28 21:33:43
+1830256490402831,Sorathan,Chaturapruek,21578,1830256490402831,854518728062939,"user_quick_reply: BUTTON_AKB_Physical, biological, and chemical",:keycap_3:,2018-08-28 21:35:22
+1830256490402831,Sorathan,Chaturapruek,21579,854518728062939,1830256490402831,BOT: message,Great! Keep it up! :flexed_biceps_medium-light_skin_tone:,2018-08-28 21:35:22
+1830256490402831,Sorathan,Chaturapruek,21580,854518728062939,1830256490402831,BOT: quick reply,"The correct answer is Physical, biological, and chemical.",2018-08-28 21:35:23
+1830256490402831,Sorathan,Chaturapruek,21581,1830256490402831,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-28 21:35:29
+1830256490402831,Sorathan,Chaturapruek,21582,854518728062939,1830256490402831,BOT: message,Would you answer this question for me?,2018-08-28 21:35:29
+1830256490402831,Sorathan,Chaturapruek,21583,854518728062939,1830256490402831,BOT: quick reply,To what does the acronym SLM refer?,2018-08-28 21:35:30
+1830256490402831,Sorathan,Chaturapruek,21584,1830256490402831,854518728062939,user_typing,Sound level measure,2018-08-28 21:35:39
+1830256490402831,Sorathan,Chaturapruek,21585,854518728062939,1830256490402831,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_happy_orange.png,2018-08-28 21:35:41
+1830256490402831,Sorathan,Chaturapruek,21586,854518728062939,1830256490402831,BOT: message,Good Answer! :white_heavy_check_mark:,2018-08-28 21:35:42
+1830256490402831,Sorathan,Chaturapruek,21587,854518728062939,1830256490402831,BOT: quick reply,The correct answer is Sound Level Meter.,2018-08-28 21:35:43
+1830256490402831,Sorathan,Chaturapruek,21588,1830256490402831,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-28 21:35:49
+1830256490402831,Sorathan,Chaturapruek,21589,854518728062939,1830256490402831,BOT: message,How about this next one:,2018-08-28 21:35:50
+1830256490402831,Sorathan,Chaturapruek,21590,854518728062939,1830256490402831,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-28 21:35:50
+1830256490402831,Sorathan,Chaturapruek,21591,854518728062939,1830256490402831,BOT: quick reply,"When you discover a fire, you should do what?",2018-08-28 21:35:51
+1830256490402831,Sorathan,Chaturapruek,21598,1830256490402831,854518728062939,user_typing,Escape,2018-08-28 21:36:01
+1830256490402831,Sorathan,Chaturapruek,21599,854518728062939,1830256490402831,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_normal.png,2018-08-28 21:36:03
+1830256490402831,Sorathan,Chaturapruek,21600,854518728062939,1830256490402831,BOT: message,Correct! :confetti_ball:,2018-08-28 21:36:04
+1830256490402831,Sorathan,Chaturapruek,21601,854518728062939,1830256490402831,BOT: quick reply,The correct answer is Pull the fire alarm and call the fire department.,2018-08-28 21:36:04
+1830256490402831,Sorathan,Chaturapruek,21602,1830256490402831,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-28 21:36:15
+1830256490402831,Sorathan,Chaturapruek,21603,854518728062939,1830256490402831,BOT: message,Let's see if you would answer this one.,2018-08-28 21:36:15
+1830256490402831,Sorathan,Chaturapruek,21604,854518728062939,1830256490402831,BOT: quick reply,What three major factors cause food contamination?,2018-08-28 21:36:16
+1830256490402831,Sorathan,Chaturapruek,21605,1830256490402831,854518728062939,user_typing,"Physical, chemical, and biological",2018-08-28 21:36:31
+1830256490402831,Sorathan,Chaturapruek,21606,854518728062939,1830256490402831,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/celebration.gif,2018-08-28 21:36:38
+1830256490402831,Sorathan,Chaturapruek,21607,854518728062939,1830256490402831,BOT: message,Good job! :raising_hands_medium-light_skin_tone:,2018-08-28 21:36:38
+1830256490402831,Sorathan,Chaturapruek,21608,854518728062939,1830256490402831,BOT: quick reply,"The correct answer is Physical, biological, and chemical.",2018-08-28 21:36:39
+1830256490402831,Sorathan,Chaturapruek,21609,1830256490402831,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-28 21:36:44
+1830256490402831,Sorathan,Chaturapruek,21610,854518728062939,1830256490402831,BOT: message,Let's take a look at this question.,2018-08-28 21:36:45
+1830256490402831,Sorathan,Chaturapruek,21611,854518728062939,1830256490402831,BOT: quick reply,"What agency inspects, grades, and enforces standards of quality and wholesomeness for meat, poultry, milk, eggs, and grains?",2018-08-28 21:36:45
+1830256490402831,Sorathan,Chaturapruek,21612,1830256490402831,854518728062939,user_typing,Fda,2018-08-28 21:36:56
+1830256490402831,Sorathan,Chaturapruek,21613,854518728062939,1830256490402831,BOT: message,That's not quite right. :disappointed_face:,2018-08-28 21:36:57
+1830256490402831,Sorathan,Chaturapruek,21614,854518728062939,1830256490402831,BOT: quick reply,The correct answer is USDA.,2018-08-28 21:36:57
+1830256490402831,Sorathan,Chaturapruek,21615,1830256490402831,854518728062939,user_quick_reply: WHY,Why?,2018-08-28 21:37:02
+1830256490402831,Sorathan,Chaturapruek,21616,854518728062939,1830256490402831,BOT: message,Here's why:,2018-08-28 21:37:02
+1830256490402831,Sorathan,Chaturapruek,21617,854518728062939,1830256490402831,BOT: quick reply,"The United States Department of Agriculture (informally called the USDA or Agriculture Department) is the federal executive division formed to develop and execute U.S. federal government policy on food, farming and agriculture.",2018-08-28 21:37:03
+1830256490402831,Sorathan,Chaturapruek,21621,1830256490402831,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-28 21:37:13
+1830256490402831,Sorathan,Chaturapruek,21622,854518728062939,1830256490402831,BOT: message,Would you answer this question for me?,2018-08-28 21:37:14
+1830256490402831,Sorathan,Chaturapruek,21623,854518728062939,1830256490402831,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-28 21:37:15
+1830256490402831,Sorathan,Chaturapruek,21624,854518728062939,1830256490402831,BOT: quick reply,What does CERT stand for?,2018-08-28 21:37:15
+1830256490402831,Sorathan,Chaturapruek,21635,1830256490402831,854518728062939,user_typing,Community emergency response team,2018-08-28 21:37:39
+1830256490402831,Sorathan,Chaturapruek,21636,854518728062939,1830256490402831,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_normal.png,2018-08-28 21:37:40
+1830256490402831,Sorathan,Chaturapruek,21637,854518728062939,1830256490402831,BOT: message,Fantastic! :hundred_points:,2018-08-28 21:37:41
+1830256490402831,Sorathan,Chaturapruek,21638,854518728062939,1830256490402831,BOT: quick reply,The correct answer is Community Emergency Response Team.,2018-08-28 21:37:42
+1830256490402831,Sorathan,Chaturapruek,21639,1830256490402831,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-28 21:37:47
+1830256490402831,Sorathan,Chaturapruek,21640,854518728062939,1830256490402831,BOT: message,See if you can answer this next one.,2018-08-28 21:37:47
+1830256490402831,Sorathan,Chaturapruek,21641,854518728062939,1830256490402831,BOT: quick reply,Working on scaffold during winds above ____ miles per hour is prohibited by OSHA.,2018-08-28 21:37:48
+1830256490402831,Sorathan,Chaturapruek,21642,1830256490402831,854518728062939,user_typing,40,2018-08-28 21:37:53
+1830256490402831,Sorathan,Chaturapruek,21643,854518728062939,1830256490402831,BOT: message,Thats right! :party_popper:,2018-08-28 21:37:54
+1830256490402831,Sorathan,Chaturapruek,21644,854518728062939,1830256490402831,BOT: quick reply,The correct answer is 40.,2018-08-28 21:37:54
+1830256490402831,Sorathan,Chaturapruek,21645,1830256490402831,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-28 21:37:58
+1830256490402831,Sorathan,Chaturapruek,21646,854518728062939,1830256490402831,BOT: message,What about this next question:,2018-08-28 21:37:58
+1830256490402831,Sorathan,Chaturapruek,21647,854518728062939,1830256490402831,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-28 21:37:59
+1830256490402831,Sorathan,Chaturapruek,21648,854518728062939,1830256490402831,BOT: quick reply,Which fire extinguishers are used to put out Class A fires?,2018-08-28 21:37:59
+1830256490402831,Sorathan,Chaturapruek,21653,1830256490402831,854518728062939,user_typing,Water and dry chemicals,2018-08-28 21:38:11
+1830256490402831,Sorathan,Chaturapruek,21654,854518728062939,1830256490402831,BOT: message,Nice work! Keep it up!,2018-08-28 21:38:11
+1830256490402831,Sorathan,Chaturapruek,21655,854518728062939,1830256490402831,BOT: quick reply,The correct answer is Both water and multi-purpose dry chemical.,2018-08-28 21:38:12
+1830256490402831,Sorathan,Chaturapruek,21658,1830256490402831,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-28 21:38:18
+1830256490402831,Sorathan,Chaturapruek,21660,854518728062939,1830256490402831,BOT: message,Let's see if you would answer this one.,2018-08-28 21:38:18
+1830256490402831,Sorathan,Chaturapruek,21661,854518728062939,1830256490402831,BOT: quick reply,What should you NOT do while treating cuts and scrapes?,2018-08-28 21:38:19
+1830256490402831,Sorathan,Chaturapruek,21662,1830256490402831,854518728062939,user_typing,Wash with soaps,2018-08-28 21:38:30
+1830256490402831,Sorathan,Chaturapruek,21663,854518728062939,1830256490402831,BOT: message,Good Answer! :white_heavy_check_mark:,2018-08-28 21:38:30
+1830256490402831,Sorathan,Chaturapruek,21664,854518728062939,1830256490402831,BOT: quick reply,The correct answer is Wash the wound with soap.,2018-08-28 21:38:31
+1830256490402831,Sorathan,Chaturapruek,21665,1830256490402831,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-28 21:38:36
+1830256490402831,Sorathan,Chaturapruek,21666,854518728062939,1830256490402831,BOT: message,"Alrighty, let's try this one.",2018-08-28 21:38:36
+1830256490402831,Sorathan,Chaturapruek,21667,854518728062939,1830256490402831,BOT: quick reply,What three major factors cause food contamination?,2018-08-28 21:38:37
+1830256490402831,Sorathan,Chaturapruek,21672,1830256490402831,854518728062939,user_typing,"Biological, physical, chemical",2018-08-28 21:38:53
+1830256490402831,Sorathan,Chaturapruek,21673,854518728062939,1830256490402831,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/celebration.gif,2018-08-28 21:39:01
+1830256490402831,Sorathan,Chaturapruek,21674,854518728062939,1830256490402831,BOT: message,Fantastic! :hundred_points:,2018-08-28 21:39:01
+1830256490402831,Sorathan,Chaturapruek,21675,854518728062939,1830256490402831,BOT: quick reply,"The correct answer is Physical, biological, and chemical.",2018-08-28 21:39:02
+1830256490402831,Sorathan,Chaturapruek,21676,1830256490402831,854518728062939,user_quick_reply: WHY,Why?,2018-08-28 21:39:07
+1830256490402831,Sorathan,Chaturapruek,21677,854518728062939,1830256490402831,BOT: message,I hope this explanation could help you understand the the question.,2018-08-28 21:39:07
+1830256490402831,Sorathan,Chaturapruek,21678,854518728062939,1830256490402831,BOT: quick reply,"People can get sick by consuming food contaminated by the following three major hazards: physical (objects such ashair, nails, jewelry, glass, staples, and bandages in food are categorized as physical hazards), chemical (substances that are added during food handling or that occur naturally can cause food-borne illness; examples include certain metals, pesticides, and cleaning agents), and biological (germs that are not visible to the naked eye like those carried by bacteria, viruses, and parasites).",2018-08-28 21:39:08
+1830256490402831,Sorathan,Chaturapruek,21679,1830256490402831,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-28 21:39:21
+1830256490402831,Sorathan,Chaturapruek,21680,854518728062939,1830256490402831,BOT: message,What about this next question:,2018-08-28 21:39:22
+1830256490402831,Sorathan,Chaturapruek,21681,854518728062939,1830256490402831,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-28 21:39:22
+1830256490402831,Sorathan,Chaturapruek,21682,854518728062939,1830256490402831,BOT: quick reply,What should you NOT do while treating cuts and scrapes?,2018-08-28 21:39:23
+1830256490402831,Sorathan,Chaturapruek,21683,1830256490402831,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-28 21:39:30
+1830256490402831,Sorathan,Chaturapruek,21684,854518728062939,1830256490402831,BOT: message,Which of the following options is the right answer?,2018-08-28 21:39:31
+1830256490402831,Sorathan,Chaturapruek,21685,854518728062939,1830256490402831,BOT: quick reply,":keycap_1: Apply an antibiotic to the wound
+:keycap_2: Apply pressure on the wound with a clean cloth or bandage
+:keycap_3: Cover the wound
+:keycap_4: Wash the wound with soap
+",2018-08-28 21:39:31
+1830256490402831,Sorathan,Chaturapruek,21686,1830256490402831,854518728062939,user_typing,4,2018-08-28 21:39:39
+1830256490402831,Sorathan,Chaturapruek,21687,854518728062939,1830256490402831,BOT: message,"I'm sorry, but that was incorrect. :disappointed_face:",2018-08-28 21:39:40
+1830256490402831,Sorathan,Chaturapruek,21688,854518728062939,1830256490402831,BOT: quick reply,The correct answer is Wash the wound with soap.,2018-08-28 21:39:40
+1830256490402831,Sorathan,Chaturapruek,21689,1830256490402831,854518728062939,user_quick_reply: SWITCH_SUBJECT,Change subject :shuffle_tracks_button:,2018-08-28 21:39:58
+1830256490402831,Sorathan,Chaturapruek,21690,854518728062939,1830256490402831,BOT: quick reply,"Sure, which subject would you like me to quiz you on?:backhand_index_pointing_down_medium-light_skin_tone:",2018-08-28 21:39:59
+1830256490402831,Sorathan,Chaturapruek,21691,1830256490402831,854518728062939,user_quick_reply: GRE,GRE :input_latin_uppercase:,2018-08-28 21:40:02
+1830256490402831,Sorathan,Chaturapruek,21692,854518728062939,1830256490402831,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/evolvesafety_reading.gif,2018-08-28 21:40:07
+1830256490402831,Sorathan,Chaturapruek,21693,854518728062939,1830256490402831,BOT: quick reply,Let's test your knowledge on the GRE!,2018-08-28 21:40:07
+1830256490402831,Sorathan,Chaturapruek,21694,1830256490402831,854518728062939,user_quick_reply: NEXT_QUESTION,Okay :round_pushpin:,2018-08-28 21:40:12
+1830256490402831,Sorathan,Chaturapruek,21695,854518728062939,1830256490402831,BOT: message,Let's take a look at this question.,2018-08-28 21:40:12
+1830256490402831,Sorathan,Chaturapruek,21696,854518728062939,1830256490402831,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-28 21:40:13
+1830256490402831,Sorathan,Chaturapruek,21697,854518728062939,1830256490402831,BOT: quick reply,"Modern tennis fans have come to realize that, although, quantum technological leaps in racquet technology have lead to _____ increases in the speed and power with which players can hit the ball, this has not necessarily lead to a more entertaining game.",2018-08-28 21:40:13
+1830256490402831,Sorathan,Chaturapruek,21698,1830256490402831,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-28 21:40:19
+1830256490402831,Sorathan,Chaturapruek,21699,854518728062939,1830256490402831,BOT: message,It's one of the following choices.,2018-08-28 21:40:20
+1830256490402831,Sorathan,Chaturapruek,21700,854518728062939,1830256490402831,BOT: quick reply,":keycap_1: innocuous
+:keycap_2: tractable
+:keycap_3: commensurate
+:keycap_4: malleable
+:keycap_5: halcyon
+",2018-08-28 21:40:20
+1830256490402831,Sorathan,Chaturapruek,21701,1830256490402831,854518728062939,user_quick_reply: BUTTON_AKB_commensurate,:keycap_3:,2018-08-28 21:40:48
+1830256490402831,Sorathan,Chaturapruek,21702,854518728062939,1830256490402831,BOT: message,Great job!,2018-08-28 21:40:49
+1830256490402831,Sorathan,Chaturapruek,21703,854518728062939,1830256490402831,BOT: quick reply,The correct answer is commensurate.,2018-08-28 21:40:49
+1830256490402831,Sorathan,Chaturapruek,21704,1830256490402831,854518728062939,user_quick_reply: WHY,Why?,2018-08-28 21:40:53
+1830256490402831,Sorathan,Chaturapruek,21705,854518728062939,1830256490402831,BOT: message,This is an explanation of the question:,2018-08-28 21:40:54
+1830256490402831,Sorathan,Chaturapruek,21706,854518728062939,1830256490402831,BOT: quick reply,":pushpin: Commensurate -- corresponding in size or degree or extent
+:pushpin: Innocuous -- not injurious to physical or mental health
+:pushpin: Halcyon -- idyllically calm and peaceful; suggesting happy tranquillity
+:pushpin: Malleable -- easily influenced
+:pushpin: Tractable -- easily managed (controlled or taught or molded",2018-08-28 21:40:55
+1830256490402831,Sorathan,Chaturapruek,21707,1830256490402831,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-28 21:41:12
+1830256490402831,Sorathan,Chaturapruek,21708,854518728062939,1830256490402831,BOT: message,Would you answer this question for me?,2018-08-28 21:41:13
+1830256490402831,Sorathan,Chaturapruek,21709,854518728062939,1830256490402831,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-28 21:41:13
+1830256490402831,Sorathan,Chaturapruek,21710,854518728062939,1830256490402831,BOT: quick reply,"Many dog owners treat their pets too _____ , forgetting that canines have evolved in competitive environments in which emotional coddling was a sign of weakness.",2018-08-28 21:41:14
+1830256490402831,Sorathan,Chaturapruek,21711,1830256490402831,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-28 21:41:20
+1830256490402831,Sorathan,Chaturapruek,21712,854518728062939,1830256490402831,BOT: message,Which of the following options is the right answer?,2018-08-28 21:41:20
+1830256490402831,Sorathan,Chaturapruek,21713,854518728062939,1830256490402831,BOT: quick reply,":keycap_1: aggressively
+:keycap_2: quixotically
+:keycap_3: indulgently
+:keycap_4: belligerently
+:keycap_5: fortuitously
+",2018-08-28 21:41:21
+1830256490402831,Sorathan,Chaturapruek,21714,1830256490402831,854518728062939,user_quick_reply: BUTTON_AKB_indulgently,:keycap_3:,2018-08-28 21:41:27
+1830256490402831,Sorathan,Chaturapruek,21715,854518728062939,1830256490402831,BOT: message,Nice work! Keep it up!,2018-08-28 21:41:27
+1830256490402831,Sorathan,Chaturapruek,21716,854518728062939,1830256490402831,BOT: quick reply,The correct answer is indulgently.,2018-08-28 21:41:28
+1830256490402831,Sorathan,Chaturapruek,21717,1830256490402831,854518728062939,user_quick_reply: WHY,Why?,2018-08-28 21:41:32
+1830256490402831,Sorathan,Chaturapruek,21718,854518728062939,1830256490402831,BOT: message,This is an explanation of the question:,2018-08-28 21:41:33
+1830256490402831,Sorathan,Chaturapruek,21719,854518728062939,1830256490402831,BOT: quick reply,":pushpin: Indulgently -- benignly lenient or permissive
+:pushpin: Aggressively -- characterized by or tending toward unprovoked offensives, attacks, invasions, or the like
+:pushpin: Quixotically -- extravagantly chivalrous or romantic
+:pushpin: Fortuitously -- by good fortune
+:pushpin: Belligerently -- with hostility; in a belligerent hostile manner",2018-08-28 21:41:33
+1830256490402831,Sorathan,Chaturapruek,21720,1830256490402831,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-28 21:41:44
+1830256490402831,Sorathan,Chaturapruek,21721,854518728062939,1830256490402831,BOT: message,I think you'll like this question.,2018-08-28 21:41:44
+1830256490402831,Sorathan,Chaturapruek,21722,854518728062939,1830256490402831,BOT: quick reply,"Just as different people can have very different personalities, so too can pets - even those of the same species and breed possess varied _____ .",2018-08-28 21:41:45
+1830256490402831,Sorathan,Chaturapruek,21723,1830256490402831,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-28 21:41:53
+1830256490402831,Sorathan,Chaturapruek,21724,854518728062939,1830256490402831,BOT: message,Pick one of the following answers.,2018-08-28 21:41:54
+1830256490402831,Sorathan,Chaturapruek,21725,854518728062939,1830256490402831,BOT: quick reply,":keycap_1: initiations
+:keycap_2: aptitudes
+:keycap_3: implementations
+:keycap_4: temperaments
+:keycap_5: rationalizations
+",2018-08-28 21:41:54
+1830256490402831,Sorathan,Chaturapruek,21726,1830256490402831,854518728062939,user_quick_reply: BUTTON_DKB_aptitudes,:keycap_2:,2018-08-28 21:42:09
+1830256490402831,Sorathan,Chaturapruek,21727,854518728062939,1830256490402831,BOT: message,"I'm sorry, but that was incorrect. :disappointed_face:",2018-08-28 21:42:10
+1830256490402831,Sorathan,Chaturapruek,21728,854518728062939,1830256490402831,BOT: quick reply,The correct answer is temperaments.,2018-08-28 21:42:10
+1830256490402831,Sorathan,Chaturapruek,21729,1830256490402831,854518728062939,user_quick_reply: WHY,Why?,2018-08-28 21:42:16
+1830256490402831,Sorathan,Chaturapruek,21730,854518728062939,1830256490402831,BOT: message,This is why:,2018-08-28 21:42:18
+1830256490402831,Sorathan,Chaturapruek,21731,854518728062939,1830256490402831,BOT: quick reply,":pushpin: Temperaments -- the combination of mental, physical, and emotional traits
+:pushpin: Initiations -- a formal entry into an organization or position or office
+:pushpin: Implementations -- the act of accomplishing some aim or executing some order
+:pushpin: Aptitudes -- inherent ability
+:pushpin: Rationalizations -- the cognitive process of making something seem consistent with or based on reason",2018-08-28 21:42:18
+1830256490402831,Sorathan,Chaturapruek,21732,1830256490402831,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-28 21:42:28
+1830256490402831,Sorathan,Chaturapruek,21733,854518728062939,1830256490402831,BOT: message,What about this next question:,2018-08-28 21:42:29
+1830256490402831,Sorathan,Chaturapruek,21734,854518728062939,1830256490402831,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-28 21:42:29
+1830256490402831,Sorathan,Chaturapruek,21735,854518728062939,1830256490402831,BOT: quick reply,"With a similar contrast between a partly cloudy sky and a dark street, the cover of the recent rock CD _____ a famous surrealist painting from the early 1900s.",2018-08-28 21:42:30
+1830256490402831,Sorathan,Chaturapruek,21736,1830256490402831,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-28 21:42:42
+1830256490402831,Sorathan,Chaturapruek,21737,854518728062939,1830256490402831,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-08-28 21:42:43
+1830256490402831,Sorathan,Chaturapruek,21738,854518728062939,1830256490402831,BOT: quick reply,":keycap_1: disenchants
+:keycap_2: sanctions
+:keycap_3: obfuscates
+:keycap_4: admires
+:keycap_5: evokes
+",2018-08-28 21:42:43
+1830256490402831,Sorathan,Chaturapruek,21739,1830256490402831,854518728062939,user_quick_reply: BUTTON_AKB_evokes,:keycap_5:,2018-08-28 21:42:47
+1830256490402831,Sorathan,Chaturapruek,21740,854518728062939,1830256490402831,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_happy_orange.png,2018-08-28 21:42:49
+1830256490402831,Sorathan,Chaturapruek,21741,854518728062939,1830256490402831,BOT: message,Great job getting the correct answer!,2018-08-28 21:42:50
+1830256490402831,Sorathan,Chaturapruek,21742,854518728062939,1830256490402831,BOT: quick reply,The correct answer is evokes.,2018-08-28 21:42:50
+1830256490402831,Sorathan,Chaturapruek,21743,1830256490402831,854518728062939,user_quick_reply: WHY,Why?,2018-08-28 21:42:54
+1830256490402831,Sorathan,Chaturapruek,21744,854518728062939,1830256490402831,BOT: message,Here's an explanation:,2018-08-28 21:42:55
+1830256490402831,Sorathan,Chaturapruek,21745,854518728062939,1830256490402831,BOT: quick reply,":pushpin: Evokes -- call forth emotions, feelings, and responses
+:pushpin: Admires -- feel admiration for
+:pushpin: Obfuscates -- make obscure or unclear
+:pushpin: Disenchants -- free from enchantment
+:pushpin: Sanctions -- give sanction to",2018-08-28 21:42:55
+1830256490402831,Sorathan,Chaturapruek,21746,1830256490402831,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-28 21:43:06
+1830256490402831,Sorathan,Chaturapruek,21747,854518728062939,1830256490402831,BOT: message,Here's a question for you:,2018-08-28 21:43:07
+1830256490402831,Sorathan,Chaturapruek,21748,854518728062939,1830256490402831,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-28 21:43:07
+1830256490402831,Sorathan,Chaturapruek,21749,854518728062939,1830256490402831,BOT: quick reply,"Prior to taking on the new invader, the defending army had engaged in arduous combat; it is likely that the _____ resulting from waging two battles in two days played a part in its subsequent defeat.",2018-08-28 21:43:08
+1830256490402831,Sorathan,Chaturapruek,21750,1830256490402831,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-28 21:43:15
+1830256490402831,Sorathan,Chaturapruek,21751,854518728062939,1830256490402831,BOT: message,It's one of the following choices.,2018-08-28 21:43:15
+1830256490402831,Sorathan,Chaturapruek,21752,854518728062939,1830256490402831,BOT: quick reply,":keycap_1: aggravation
+:keycap_2: enervation
+:keycap_3: pacification
+:keycap_4: bellicosity
+:keycap_5: pugnacity
+",2018-08-28 21:43:16
+1830256490402831,Sorathan,Chaturapruek,21753,1830256490402831,854518728062939,user_quick_reply: BUTTON_DKB_aggravation,:keycap_1:,2018-08-28 21:43:21
+1830256490402831,Sorathan,Chaturapruek,21754,854518728062939,1830256490402831,BOT: message,"Oops, that is not correct. :disappointed_face:",2018-08-28 21:43:21
+1830256490402831,Sorathan,Chaturapruek,21755,854518728062939,1830256490402831,BOT: quick reply,The correct answer is enervation.,2018-08-28 21:43:22
+1830256490402831,Sorathan,Chaturapruek,21756,1830256490402831,854518728062939,user_quick_reply: WHY,Why?,2018-08-28 21:43:27
+1830256490402831,Sorathan,Chaturapruek,21757,854518728062939,1830256490402831,BOT: message,Here's an explanation:,2018-08-28 21:43:28
+1830256490402831,Sorathan,Chaturapruek,21758,854518728062939,1830256490402831,BOT: quick reply,":pushpin: Enervation -- lack of vitality
+:pushpin: Bellicosity -- a natural disposition to fight
+:pushpin: Pugnacity -- a natural disposition to be hostile
+:pushpin: Pacification -- the act of appeasing someone or causing someone to be more favorably inclined
+:pushpin: Aggravation -- an exasperated feeling of annoyance",2018-08-28 21:43:28
+1830256490402831,Sorathan,Chaturapruek,21759,1830256490402831,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-28 21:43:48
+1830256490402831,Sorathan,Chaturapruek,21760,854518728062939,1830256490402831,BOT: message,Let's take a look at this question.,2018-08-28 21:43:48
+1830256490402831,Sorathan,Chaturapruek,21761,854518728062939,1830256490402831,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-28 21:43:49
+1830256490402831,Sorathan,Chaturapruek,21762,854518728062939,1830256490402831,BOT: quick reply,Many Major League Baseball relief pitchers choose an electrifying theme song to play as they take the mound; the song _____ their fans and instills fear in their opponents.,2018-08-28 21:43:49
+1830256490402831,Sorathan,Chaturapruek,21763,1830256490402831,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-28 21:43:57
+1830256490402831,Sorathan,Chaturapruek,21764,854518728062939,1830256490402831,BOT: message,Okay. I'll give you some choices.,2018-08-28 21:43:58
+1830256490402831,Sorathan,Chaturapruek,21765,854518728062939,1830256490402831,BOT: quick reply,":keycap_1: assuages
+:keycap_2: enervates
+:keycap_3: eviscerates
+:keycap_4: innervates
+:keycap_5: pervades
+",2018-08-28 21:43:59
+1830256490402831,Sorathan,Chaturapruek,21766,1830256490402831,854518728062939,user_quick_reply: BUTTON_DKB_eviscerates,:keycap_3:,2018-08-28 21:44:45
+1830256490402831,Sorathan,Chaturapruek,21767,854518728062939,1830256490402831,BOT: message,"I'm sorry, but that was incorrect. :disappointed_face:",2018-08-28 21:44:46
+1830256490402831,Sorathan,Chaturapruek,21768,854518728062939,1830256490402831,BOT: quick reply,The correct answer is innervates.,2018-08-28 21:44:46
+1830256490402831,Sorathan,Chaturapruek,21769,1830256490402831,854518728062939,user_quick_reply: WHY,Why?,2018-08-28 21:44:51
+1830256490402831,Sorathan,Chaturapruek,21770,854518728062939,1830256490402831,BOT: message,I hope this explanation could help you understand the the question.,2018-08-28 21:44:51
+1830256490402831,Sorathan,Chaturapruek,21771,854518728062939,1830256490402831,BOT: quick reply,":pushpin: Innervates -- to supply with nerves
+:pushpin: Eviscerates -- surgically remove a part of a structure or an organ
+:pushpin: Enervates -- weaken mentally or morally
+:pushpin: Assuages -- cause to be more favorably inclined; gain the good will of
+:pushpin: Pervades -- spread or diffuse through",2018-08-28 21:44:52
+1830256490402831,Sorathan,Chaturapruek,21772,1830256490402831,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-28 21:45:01
+1830256490402831,Sorathan,Chaturapruek,21773,854518728062939,1830256490402831,BOT: message,Let's take a look at this question.,2018-08-28 21:45:01
+1830256490402831,Sorathan,Chaturapruek,21774,854518728062939,1830256490402831,BOT: quick reply,Seth was extremely _____ and did not enjoy activities that required effort to meet new people.,2018-08-28 21:45:02
+1830256490402831,Sorathan,Chaturapruek,21775,1830256490402831,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-28 21:45:07
+1830256490402831,Sorathan,Chaturapruek,21776,854518728062939,1830256490402831,BOT: message,Which of the following options is the right answer?,2018-08-28 21:45:08
+1830256490402831,Sorathan,Chaturapruek,21777,854518728062939,1830256490402831,BOT: quick reply,":keycap_1: lackluster
+:keycap_2: introverted
+:keycap_3: jaded
+:keycap_4: gregarious
+:keycap_5: extroverted
+",2018-08-28 21:45:08
+1830256490402831,Sorathan,Chaturapruek,21778,1830256490402831,854518728062939,user_quick_reply: BUTTON_AKB_introverted,:keycap_2:,2018-08-28 21:45:14
+1830256490402831,Sorathan,Chaturapruek,21779,854518728062939,1830256490402831,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_normal_pink.png,2018-08-28 21:45:16
+1830256490402831,Sorathan,Chaturapruek,21780,854518728062939,1830256490402831,BOT: message,Yes! You got the correct answer!,2018-08-28 21:45:16
+1830256490402831,Sorathan,Chaturapruek,21781,854518728062939,1830256490402831,BOT: quick reply,The correct answer is introverted.,2018-08-28 21:45:17
+1830256490402831,Sorathan,Chaturapruek,21782,1830256490402831,854518728062939,user_quick_reply: WHY,Why?,2018-08-28 21:45:20
+1830256490402831,Sorathan,Chaturapruek,21783,854518728062939,1830256490402831,BOT: message,I hope this explanation could help you understand the the question.,2018-08-28 21:45:21
+1830256490402831,Sorathan,Chaturapruek,21784,854518728062939,1830256490402831,BOT: quick reply,":pushpin: Introverted -- given to examining own sensory and perceptual experiences
+:pushpin: Extroverted -- not introspective; examining what is outside yourself
+:pushpin: Gregarious -- fond of the company of others; sociable
+:pushpin: Lackluster -- lacking brilliance or vitality
+:pushpin: Jaded -- exhausted",2018-08-28 21:45:21
+1830256490402831,Sorathan,Chaturapruek,21785,1830256490402831,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-28 21:45:28
+1830256490402831,Sorathan,Chaturapruek,21786,854518728062939,1830256490402831,BOT: message,What about this next question:,2018-08-28 21:45:28
+1830256490402831,Sorathan,Chaturapruek,21787,854518728062939,1830256490402831,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-28 21:45:29
+1830256490402831,Sorathan,Chaturapruek,21788,854518728062939,1830256490402831,BOT: quick reply,"Prior to taking on the new invader, the defending army had engaged in arduous combat; it is likely that the _____ resulting from waging two battles in two days played a part in its subsequent defeat.",2018-08-28 21:45:29
+1830256490402831,Sorathan,Chaturapruek,21789,1830256490402831,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-28 21:45:39
+1830256490402831,Sorathan,Chaturapruek,21790,854518728062939,1830256490402831,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-08-28 21:45:39
+1830256490402831,Sorathan,Chaturapruek,21791,854518728062939,1830256490402831,BOT: quick reply,":keycap_1: aggravation
+:keycap_2: bellicosity
+:keycap_3: enervation
+:keycap_4: pugnacity
+:keycap_5: pacification
+",2018-08-28 21:45:40
+1830256490402831,Sorathan,Chaturapruek,21792,1830256490402831,854518728062939,user_quick_reply: BUTTON_AKB_enervation,:keycap_3:,2018-08-28 21:45:45
+1830256490402831,Sorathan,Chaturapruek,21793,854518728062939,1830256490402831,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_jubilated_purple.png,2018-08-28 21:45:48
+1830256490402831,Sorathan,Chaturapruek,21794,854518728062939,1830256490402831,BOT: message,Great job getting the correct answer!,2018-08-28 21:45:48
+1830256490402831,Sorathan,Chaturapruek,21795,854518728062939,1830256490402831,BOT: quick reply,The correct answer is enervation.,2018-08-28 21:45:49
+1830256490402831,Sorathan,Chaturapruek,21796,1830256490402831,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-28 21:45:53
+1830256490402831,Sorathan,Chaturapruek,21797,854518728062939,1830256490402831,BOT: message,Let's see if you can get this one.,2018-08-28 21:45:54
+1830256490402831,Sorathan,Chaturapruek,21798,854518728062939,1830256490402831,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-28 21:45:54
+1830256490402831,Sorathan,Chaturapruek,21799,854518728062939,1830256490402831,BOT: quick reply,"Modern tennis fans have come to realize that, although, quantum technological leaps in racquet technology have lead to _____ increases in the speed and power with which players can hit the ball, this has not necessarily lead to a more entertaining game.",2018-08-28 21:45:55
+1830256490402831,Sorathan,Chaturapruek,21800,1830256490402831,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-28 21:46:06
+1830256490402831,Sorathan,Chaturapruek,21801,854518728062939,1830256490402831,BOT: message,Which of the following options is the right answer?,2018-08-28 21:46:06
+1830256490402831,Sorathan,Chaturapruek,21802,854518728062939,1830256490402831,BOT: quick reply,":keycap_1: malleable
+:keycap_2: innocuous
+:keycap_3: commensurate
+:keycap_4: halcyon
+:keycap_5: tractable
+",2018-08-28 21:46:07
+1830256490402831,Sorathan,Chaturapruek,21803,1830256490402831,854518728062939,user_quick_reply: BUTTON_AKB_commensurate,:keycap_3:,2018-08-28 21:46:15
+1830256490402831,Sorathan,Chaturapruek,21804,854518728062939,1830256490402831,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_happy_cyan.png,2018-08-28 21:46:17
+1830256490402831,Sorathan,Chaturapruek,21805,854518728062939,1830256490402831,BOT: message,Great! Keep it up! :flexed_biceps_medium-light_skin_tone:,2018-08-28 21:46:17
+1830256490402831,Sorathan,Chaturapruek,21806,854518728062939,1830256490402831,BOT: quick reply,The correct answer is commensurate.,2018-08-28 21:46:18
+1830256490402831,Sorathan,Chaturapruek,21807,1830256490402831,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-28 21:46:22
+1830256490402831,Sorathan,Chaturapruek,21808,854518728062939,1830256490402831,BOT: message,Let's take a look at this question.,2018-08-28 21:46:23
+1830256490402831,Sorathan,Chaturapruek,21809,854518728062939,1830256490402831,BOT: quick reply,"Despite the smile that spread from ear to ear, the eyes relayed a certain _____ .",2018-08-28 21:46:23
+1830256490402831,Sorathan,Chaturapruek,21810,1830256490402831,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-28 21:46:30
+1830256490402831,Sorathan,Chaturapruek,21811,854518728062939,1830256490402831,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-08-28 21:46:30
+1830256490402831,Sorathan,Chaturapruek,21812,854518728062939,1830256490402831,BOT: quick reply,":keycap_1: vision
+:keycap_2: jubilance
+:keycap_3: sorrow
+:keycap_4: mischievousness
+:keycap_5: liveliness
+",2018-08-28 21:46:31
+1830256490402831,Sorathan,Chaturapruek,21813,1830256490402831,854518728062939,user_quick_reply: BUTTON_AKB_sorrow,:keycap_3:,2018-08-28 21:46:36
+1830256490402831,Sorathan,Chaturapruek,21814,854518728062939,1830256490402831,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_normal.png,2018-08-28 21:46:38
+1830256490402831,Sorathan,Chaturapruek,21815,854518728062939,1830256490402831,BOT: message,Nice! That was right!,2018-08-28 21:46:39
+1830256490402831,Sorathan,Chaturapruek,21816,854518728062939,1830256490402831,BOT: quick reply,The correct answer is sorrow.,2018-08-28 21:46:39
+1830256490402831,Sorathan,Chaturapruek,21817,1830256490402831,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-28 21:46:43
+1830256490402831,Sorathan,Chaturapruek,21818,854518728062939,1830256490402831,BOT: message,Let's try this question.,2018-08-28 21:46:43
+1830256490402831,Sorathan,Chaturapruek,21819,854518728062939,1830256490402831,BOT: quick reply,"Possessing few natural resources upon its newly-granted independence in 1863, Singapore remained economically _____ until an influx of industrialization and foreign investment took hold there.",2018-08-28 21:46:44
+1830256490402831,Sorathan,Chaturapruek,21820,1830256490402831,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-28 21:46:48
+1830256490402831,Sorathan,Chaturapruek,21821,854518728062939,1830256490402831,BOT: message,Which of the following options is the right answer?,2018-08-28 21:46:48
+1830256490402831,Sorathan,Chaturapruek,21822,854518728062939,1830256490402831,BOT: quick reply,":keycap_1: solvent
+:keycap_2: fortuitous
+:keycap_3: powerful
+:keycap_4: prosperous
+:keycap_5: dubious
+",2018-08-28 21:46:49
+1830256490402831,Sorathan,Chaturapruek,21823,1830256490402831,854518728062939,user_quick_reply: BUTTON_AKB_dubious,:keycap_5:,2018-08-28 21:46:55
+1830256490402831,Sorathan,Chaturapruek,21824,854518728062939,1830256490402831,BOT: message,Nice! That was right!,2018-08-28 21:46:55
+1830256490402831,Sorathan,Chaturapruek,21825,854518728062939,1830256490402831,BOT: quick reply,The correct answer is dubious.,2018-08-28 21:46:56
+1830256490402831,Sorathan,Chaturapruek,21826,1830256490402831,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-28 21:46:59
+1830256490402831,Sorathan,Chaturapruek,21827,854518728062939,1830256490402831,BOT: message,Would you answer this question for me?,2018-08-28 21:47:00
+1830256490402831,Sorathan,Chaturapruek,21828,854518728062939,1830256490402831,BOT: quick reply,"Prior to taking on the new invader, the defending army had engaged in arduous combat; it is likely that the _____ resulting from waging two battles in two days played a part in its subsequent defeat.",2018-08-28 21:47:01
+1830256490402831,Sorathan,Chaturapruek,21829,1830256490402831,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-28 21:47:04
+1830256490402831,Sorathan,Chaturapruek,21830,854518728062939,1830256490402831,BOT: message,Which of the following options is the right answer?,2018-08-28 21:47:05
+1830256490402831,Sorathan,Chaturapruek,21831,854518728062939,1830256490402831,BOT: quick reply,":keycap_1: pugnacity
+:keycap_2: aggravation
+:keycap_3: pacification
+:keycap_4: enervation
+:keycap_5: bellicosity
+",2018-08-28 21:47:05
+1830256490402831,Sorathan,Chaturapruek,21832,1830256490402831,854518728062939,user_quick_reply: BUTTON_AKB_enervation,:keycap_4:,2018-08-28 21:47:13
+1830256490402831,Sorathan,Chaturapruek,21833,854518728062939,1830256490402831,BOT: message,Great! Keep it up! :flexed_biceps_medium-light_skin_tone:,2018-08-28 21:47:13
+1830256490402831,Sorathan,Chaturapruek,21834,854518728062939,1830256490402831,BOT: quick reply,The correct answer is enervation.,2018-08-28 21:47:14
+1830256490402831,Sorathan,Chaturapruek,21835,1830256490402831,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-28 21:47:17
+1830256490402831,Sorathan,Chaturapruek,21836,854518728062939,1830256490402831,BOT: message,Let's try this one.,2018-08-28 21:47:18
+1830256490402831,Sorathan,Chaturapruek,21837,854518728062939,1830256490402831,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-28 21:47:18
+1830256490402831,Sorathan,Chaturapruek,21838,854518728062939,1830256490402831,BOT: quick reply,"Even though legislators claimed the Contagious Diseases Acts strengthened the nation, social purists argued the Acts _____ the nation's moral growth by encouraging licentious behavior.",2018-08-28 21:47:19
+1830256490402831,Sorathan,Chaturapruek,21839,1830256490402831,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-28 21:47:24
+1830256490402831,Sorathan,Chaturapruek,21840,854518728062939,1830256490402831,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-08-28 21:47:25
+1830256490402831,Sorathan,Chaturapruek,21841,854518728062939,1830256490402831,BOT: quick reply,":keycap_1: supplanted
+:keycap_2: advanced
+:keycap_3: hampered
+:keycap_4: enhanced
+:keycap_5: ameliorated
+",2018-08-28 21:47:25
+1830256490402831,Sorathan,Chaturapruek,21842,1830256490402831,854518728062939,user_quick_reply: BUTTON_AKB_hampered,:keycap_3:,2018-08-28 21:47:41
+1830256490402831,Sorathan,Chaturapruek,21843,854518728062939,1830256490402831,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_normal_cyan.png,2018-08-28 21:47:43
+1830256490402831,Sorathan,Chaturapruek,21844,854518728062939,1830256490402831,BOT: message,Great job getting the correct answer!,2018-08-28 21:47:44
+1830256490402831,Sorathan,Chaturapruek,21845,854518728062939,1830256490402831,BOT: quick reply,The correct answer is hampered.,2018-08-28 21:47:44
+1830256490402831,Sorathan,Chaturapruek,21846,1830256490402831,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-28 21:47:48
+1830256490402831,Sorathan,Chaturapruek,21847,854518728062939,1830256490402831,BOT: message,Let's see if you can get this one.,2018-08-28 21:47:48
+1830256490402831,Sorathan,Chaturapruek,21848,854518728062939,1830256490402831,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-28 21:47:49
+1830256490402831,Sorathan,Chaturapruek,21849,854518728062939,1830256490402831,BOT: quick reply,"Prior to taking on the new invader, the defending army had engaged in arduous combat; it is likely that the _____ resulting from waging two battles in two days played a part in its subsequent defeat.",2018-08-28 21:47:49
+1830256490402831,Sorathan,Chaturapruek,21850,1830256490402831,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-28 21:47:53
+1830256490402831,Sorathan,Chaturapruek,21851,854518728062939,1830256490402831,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-08-28 21:47:54
+1830256490402831,Sorathan,Chaturapruek,21852,854518728062939,1830256490402831,BOT: quick reply,":keycap_1: pacification
+:keycap_2: pugnacity
+:keycap_3: aggravation
+:keycap_4: bellicosity
+:keycap_5: enervation
+",2018-08-28 21:47:54
+1830256490402831,Sorathan,Chaturapruek,21853,1830256490402831,854518728062939,user_quick_reply: BUTTON_AKB_enervation,:keycap_5:,2018-08-28 21:48:00
+1830256490402831,Sorathan,Chaturapruek,21854,854518728062939,1830256490402831,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_happy_pink.png,2018-08-28 21:48:01
+1830256490402831,Sorathan,Chaturapruek,21855,854518728062939,1830256490402831,BOT: message,Great! Keep it up! :flexed_biceps_medium-light_skin_tone:,2018-08-28 21:48:02
+1830256490402831,Sorathan,Chaturapruek,21856,854518728062939,1830256490402831,BOT: quick reply,The correct answer is enervation.,2018-08-28 21:48:02
+1830256490402831,Sorathan,Chaturapruek,21857,1830256490402831,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-28 21:48:07
+1830256490402831,Sorathan,Chaturapruek,21858,854518728062939,1830256490402831,BOT: message,Could you answer this one for me?,2018-08-28 21:48:07
+1830256490402831,Sorathan,Chaturapruek,21859,854518728062939,1830256490402831,BOT: quick reply,"Modern tennis fans have come to realize that, although, quantum technological leaps in racquet technology have lead to _____ increases in the speed and power with which players can hit the ball, this has not necessarily lead to a more entertaining game.",2018-08-28 21:48:08
+1830256490402831,Sorathan,Chaturapruek,21860,1830256490402831,854518728062939,user_typing,Commensurate,2018-08-28 21:48:17
+1830256490402831,Sorathan,Chaturapruek,21861,854518728062939,1830256490402831,BOT: message,Correct! :confetti_ball:,2018-08-28 21:48:17
+1830256490402831,Sorathan,Chaturapruek,21862,854518728062939,1830256490402831,BOT: quick reply,The correct answer is commensurate.,2018-08-28 21:48:18
+1830256490402831,Sorathan,Chaturapruek,21863,1830256490402831,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-28 21:48:22
+1830256490402831,Sorathan,Chaturapruek,21864,854518728062939,1830256490402831,BOT: message,Let's see if you can answer this question.,2018-08-28 21:48:23
+1830256490402831,Sorathan,Chaturapruek,21865,854518728062939,1830256490402831,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-28 21:48:23
+1830256490402831,Sorathan,Chaturapruek,21866,854518728062939,1830256490402831,BOT: quick reply,Many Major League Baseball relief pitchers choose an electrifying theme song to play as they take the mound; the song _____ their fans and instills fear in their opponents.,2018-08-28 21:48:24
+1830256490402831,Sorathan,Chaturapruek,21867,1830256490402831,854518728062939,user_typing,Innervate,2018-08-28 21:48:36
+1830256490402831,Sorathan,Chaturapruek,21868,854518728062939,1830256490402831,BOT: message,Good Answer! :white_heavy_check_mark:,2018-08-28 21:48:37
+1830256490402831,Sorathan,Chaturapruek,21869,854518728062939,1830256490402831,BOT: quick reply,The correct answer is innervates.,2018-08-28 21:48:37
+1830256490402831,Sorathan,Chaturapruek,21870,1830256490402831,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-28 21:48:42
+1830256490402831,Sorathan,Chaturapruek,21871,854518728062939,1830256490402831,BOT: message,How about this next one:,2018-08-28 21:48:43
+1830256490402831,Sorathan,Chaturapruek,21872,854518728062939,1830256490402831,BOT: quick reply,"Modern tennis fans have come to realize that, although, quantum technological leaps in racquet technology have lead to _____ increases in the speed and power with which players can hit the ball, this has not necessarily lead to a more entertaining game.",2018-08-28 21:48:44
+1830256490402831,Sorathan,Chaturapruek,21873,1830256490402831,854518728062939,user_typing,Commensurate,2018-08-28 21:48:54
+1830256490402831,Sorathan,Chaturapruek,21874,854518728062939,1830256490402831,BOT: message,Fantastic! :hundred_points:,2018-08-28 21:48:54
+1830256490402831,Sorathan,Chaturapruek,21875,854518728062939,1830256490402831,BOT: quick reply,The correct answer is commensurate.,2018-08-28 21:48:55
+1830256490402831,Sorathan,Chaturapruek,21876,1830256490402831,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-28 21:49:00
+1830256490402831,Sorathan,Chaturapruek,21877,854518728062939,1830256490402831,BOT: message,I think you'll like this question.,2018-08-28 21:49:00
+1830256490402831,Sorathan,Chaturapruek,21878,854518728062939,1830256490402831,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-28 21:49:01
+1830256490402831,Sorathan,Chaturapruek,21879,854518728062939,1830256490402831,BOT: quick reply,"Despite the smile that spread from ear to ear, the eyes relayed a certain _____ .",2018-08-28 21:49:01
+1830256490402831,Sorathan,Chaturapruek,21880,1830256490402831,854518728062939,user_typing,Sorrow,2018-08-28 21:49:08
+1830256490402831,Sorathan,Chaturapruek,21881,854518728062939,1830256490402831,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_normal_orange.png,2018-08-28 21:49:09
+1830256490402831,Sorathan,Chaturapruek,21882,854518728062939,1830256490402831,BOT: message,Good job! :raising_hands_medium-light_skin_tone:,2018-08-28 21:49:10
+1830256490402831,Sorathan,Chaturapruek,21883,854518728062939,1830256490402831,BOT: quick reply,The correct answer is sorrow.,2018-08-28 21:49:10
+1830256490402831,Sorathan,Chaturapruek,21884,1830256490402831,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-28 21:49:14
+1830256490402831,Sorathan,Chaturapruek,21885,854518728062939,1830256490402831,BOT: message,Here's a question for you:,2018-08-28 21:49:15
+1830256490402831,Sorathan,Chaturapruek,21886,854518728062939,1830256490402831,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-28 21:49:15
+1830256490402831,Sorathan,Chaturapruek,21887,854518728062939,1830256490402831,BOT: quick reply,Many Major League Baseball relief pitchers choose an electrifying theme song to play as they take the mound; the song _____ their fans and instills fear in their opponents.,2018-08-28 21:49:16
+1830256490402831,Sorathan,Chaturapruek,21888,1830256490402831,854518728062939,user_typing,Innervates,2018-08-28 21:49:27
+1830256490402831,Sorathan,Chaturapruek,21889,854518728062939,1830256490402831,BOT: message,Thats right! :party_popper:,2018-08-28 21:49:28
+1830256490402831,Sorathan,Chaturapruek,21890,854518728062939,1830256490402831,BOT: quick reply,The correct answer is innervates.,2018-08-28 21:49:28
+1830256490402831,Sorathan,Chaturapruek,21891,1830256490402831,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-28 21:49:32
+1830256490402831,Sorathan,Chaturapruek,21892,854518728062939,1830256490402831,BOT: message,Let's take a look at this question.,2018-08-28 21:49:32
+1830256490402831,Sorathan,Chaturapruek,21893,854518728062939,1830256490402831,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-28 21:49:33
+1830256490402831,Sorathan,Chaturapruek,21894,854518728062939,1830256490402831,BOT: quick reply,"With a similar contrast between a partly cloudy sky and a dark street, the cover of the recent rock CD _____ a famous surrealist painting from the early 1900s.",2018-08-28 21:49:33
+1830256490402831,Sorathan,Chaturapruek,21895,1830256490402831,854518728062939,user_typing,Evokes,2018-08-28 21:49:45
+1830256490402831,Sorathan,Chaturapruek,21896,854518728062939,1830256490402831,BOT: message,Good job! :raising_hands_medium-light_skin_tone:,2018-08-28 21:49:45
+1830256490402831,Sorathan,Chaturapruek,21897,854518728062939,1830256490402831,BOT: quick reply,The correct answer is evokes.,2018-08-28 21:49:46
+1830256490402831,Sorathan,Chaturapruek,21898,1830256490402831,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-28 21:49:50
+1830256490402831,Sorathan,Chaturapruek,21899,854518728062939,1830256490402831,BOT: message,See if you can answer this next one.,2018-08-28 21:49:51
+1830256490402831,Sorathan,Chaturapruek,21900,854518728062939,1830256490402831,BOT: quick reply,"Despite the smile that spread from ear to ear, the eyes relayed a certain _____ .",2018-08-28 21:49:51
+1830256490402831,Sorathan,Chaturapruek,21901,1830256490402831,854518728062939,user_typing,Sorrow,2018-08-28 21:49:59
+1830256490402831,Sorathan,Chaturapruek,21902,854518728062939,1830256490402831,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_jubilated_pink.png,2018-08-28 21:50:01
+1830256490402831,Sorathan,Chaturapruek,21903,854518728062939,1830256490402831,BOT: message,Thats right! :party_popper:,2018-08-28 21:50:01
+1830256490402831,Sorathan,Chaturapruek,21904,854518728062939,1830256490402831,BOT: quick reply,The correct answer is sorrow.,2018-08-28 21:50:02
+1830256490402831,Sorathan,Chaturapruek,21905,1830256490402831,854518728062939,user_quick_reply: SWITCH_SUBJECT,Change subject :shuffle_tracks_button:,2018-08-28 21:50:05
+1830256490402831,Sorathan,Chaturapruek,21906,854518728062939,1830256490402831,BOT: quick reply,"Sure, which subject would you want to study?:backhand_index_pointing_down_medium-light_skin_tone:",2018-08-28 21:50:06
+1830256490402831,Sorathan,Chaturapruek,21907,1830256490402831,854518728062939,user_quick_reply: SCIENCE,Science:microscope:,2018-08-28 21:50:12
+1830256490402831,Sorathan,Chaturapruek,21908,854518728062939,1830256490402831,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/evolvereading_scientist.gif,2018-08-28 21:50:17
+1830256490402831,Sorathan,Chaturapruek,21909,854518728062939,1830256490402831,BOT: quick reply,Let's answer some questions about science!,2018-08-28 21:50:17
+1830256490402831,Sorathan,Chaturapruek,21910,854518728062939,1830256490402831,BOT: message,Here's a question for you:,2018-08-28 21:50:23
+1830256490402831,Sorathan,Chaturapruek,21911,854518728062939,1830256490402831,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-28 21:50:24
+1830256490402831,Sorathan,Chaturapruek,21912,854518728062939,1830256490402831,BOT: quick reply,"What arises due to crossing over, independent assortment, and the random union of gametes?",2018-08-28 21:50:24
+1830256490402831,Sorathan,Chaturapruek,21913,1830256490402831,854518728062939,user_typing,Genetic variations,2018-08-28 21:50:39
+1830256490402831,Sorathan,Chaturapruek,21914,854518728062939,1830256490402831,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_happy_cyan.png,2018-08-28 21:50:41
+1830256490402831,Sorathan,Chaturapruek,21915,854518728062939,1830256490402831,BOT: message,Good Answer! :white_heavy_check_mark:,2018-08-28 21:50:41
+1830256490402831,Sorathan,Chaturapruek,21916,854518728062939,1830256490402831,BOT: quick reply,The correct answer is genetic variation.,2018-08-28 21:50:42
+1830256490402831,Sorathan,Chaturapruek,21917,1830256490402831,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-28 21:50:45
+1830256490402831,Sorathan,Chaturapruek,21918,854518728062939,1830256490402831,BOT: message,See if you can answer this next one.,2018-08-28 21:50:46
+1830256490402831,Sorathan,Chaturapruek,21919,854518728062939,1830256490402831,BOT: quick reply,"What arises due to crossing over, independent assortment, and the random union of gametes?",2018-08-28 21:50:46
+1830256490402831,Sorathan,Chaturapruek,21920,1830256490402831,854518728062939,user_typing,Genetic variation,2018-08-28 21:50:58
+1830256490402831,Sorathan,Chaturapruek,21921,854518728062939,1830256490402831,BOT: message,Good Answer! :white_heavy_check_mark:,2018-08-28 21:50:59
+1830256490402831,Sorathan,Chaturapruek,21922,854518728062939,1830256490402831,BOT: quick reply,The correct answer is genetic variation.,2018-08-28 21:50:59
+1830256490402831,Sorathan,Chaturapruek,21923,1830256490402831,854518728062939,user_quick_reply: WHY,Why?,2018-08-28 21:51:04
+1830256490402831,Sorathan,Chaturapruek,21924,854518728062939,1830256490402831,BOT: message,This is an explanation of the question:,2018-08-28 21:51:05
+1830256490402831,Sorathan,Chaturapruek,21925,854518728062939,1830256490402831,BOT: quick reply,"Asexual reproduction has the advantage of occurring quickly. Sexual reproduction has the advantage of creating genetic variation. This can help a species adapt to environmental change. The genetic variation arises due to crossing over, independent assortment, and the random union of gametes.",2018-08-28 21:51:05
+1830256490402831,Sorathan,Chaturapruek,21926,1830256490402831,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-28 21:51:26
+1830256490402831,Sorathan,Chaturapruek,21927,854518728062939,1830256490402831,BOT: message,"Alrighty, let's try this one.",2018-08-28 21:51:27
+1830256490402831,Sorathan,Chaturapruek,21928,854518728062939,1830256490402831,BOT: quick reply,Most insects reproduce quickly and through what type of reproduction?,2018-08-28 21:51:27
+1830256490402831,Sorathan,Chaturapruek,21929,1830256490402831,854518728062939,user_typing,Asexual reproduction,2018-08-28 21:51:39
+1830256490402831,Sorathan,Chaturapruek,21930,854518728062939,1830256490402831,BOT: message,That's not quite right. :disappointed_face:,2018-08-28 21:51:39
+1830256490402831,Sorathan,Chaturapruek,21931,854518728062939,1830256490402831,BOT: quick reply,The correct answer is sexual reproduction.,2018-08-28 21:51:40
+1830256490402831,Sorathan,Chaturapruek,23293,854518728062939,1830256490402831,BOT: quick reply,"Hi Sorathan, you haven't talked to me for a while. Would you like to resume the learning with me?",2018-08-29 20:00:19
+1830256490402831,Sorathan,Chaturapruek,24036,1830256490402831,854518728062939,user_quick_reply: NEXT_QUESTION,Alright :collision:,2018-08-29 22:57:49
+1830256490402831,Sorathan,Chaturapruek,24037,854518728062939,1830256490402831,BOT: message,Let's see if you would answer this one.,2018-08-29 22:57:50
+1830256490402831,Sorathan,Chaturapruek,24038,854518728062939,1830256490402831,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-29 22:57:50
+1830256490402831,Sorathan,Chaturapruek,24039,854518728062939,1830256490402831,BOT: quick reply,What is the diffusion of water through a semipermeable membrane down its concentration gradient?,2018-08-29 22:57:51
+1830256490402831,Sorathan,Chaturapruek,24040,1830256490402831,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-29 22:58:10
+1830256490402831,Sorathan,Chaturapruek,24042,854518728062939,1830256490402831,BOT: message,Which of the following options is the right answer?,2018-08-29 22:58:11
+1830256490402831,Sorathan,Chaturapruek,24043,854518728062939,1830256490402831,BOT: quick reply,":keycap_1: osmosis
+:keycap_2: nutrients
+:keycap_3: mirrors
+:keycap_4: permable
+",2018-08-29 22:58:11
+1830256490402831,Sorathan,Chaturapruek,24046,1830256490402831,854518728062939,user_quick_reply: I_DONT_KNOW,I dont know :downcast_face_with_sweat:,2018-08-29 22:58:19
+1830256490402831,Sorathan,Chaturapruek,24047,854518728062939,1830256490402831,BOT: quick reply,Are you sure you want to skip this question?,2018-08-29 22:58:20
+1830256490402831,Sorathan,Chaturapruek,24051,1830256490402831,854518728062939,user_quick_reply: GIVEUP_NO,"No, I'll try again!",2018-08-29 22:58:24
+1830256490402831,Sorathan,Chaturapruek,24052,854518728062939,1830256490402831,BOT: message,Don't give up!,2018-08-29 22:58:24
+1830256490402831,Sorathan,Chaturapruek,24053,854518728062939,1830256490402831,BOT: message,Okay. I'll give you some choices.,2018-08-29 22:58:25
+1830256490402831,Sorathan,Chaturapruek,24054,854518728062939,1830256490402831,BOT: quick reply,":keycap_1: osmosis
+:keycap_2: mirrors
+:keycap_3: nutrients
+:keycap_4: permable
+",2018-08-29 22:58:25
+1830256490402831,Sorathan,Chaturapruek,24056,1830256490402831,854518728062939,user_quick_reply: BUTTON_DKB_permable,:keycap_4:,2018-08-29 22:58:31
+1830256490402831,Sorathan,Chaturapruek,24058,854518728062939,1830256490402831,BOT: message,"Hmm, that wasn't quite right. :disappointed_face:",2018-08-29 22:58:31
+1830256490402831,Sorathan,Chaturapruek,24060,854518728062939,1830256490402831,BOT: quick reply,The correct answer is osmosis.,2018-08-29 22:58:32
+1830256490402831,Sorathan,Chaturapruek,26194,854518728062939,1830256490402831,BOT: quick reply,"Hi Sorathan, you haven't talked to me for a while. Would you like to resume the learning with me?",2018-08-30 20:00:34
+1830256490402831,Sorathan,Chaturapruek,26519,1830256490402831,854518728062939,user_quick_reply: NEXT_QUESTION,Tap me :flexed_biceps_medium-light_skin_tone:,2018-08-30 21:46:00
+1830256490402831,Sorathan,Chaturapruek,26520,854518728062939,1830256490402831,BOT: message,Let's try this question.,2018-08-30 21:46:00
+1830256490402831,Sorathan,Chaturapruek,26521,854518728062939,1830256490402831,BOT: quick reply,"When your brain senses that your body temperature is increasing, it sends messages to the blood vessels in the skin to increase in what?",2018-08-30 21:46:01
+1830256490402831,Sorathan,Chaturapruek,26522,1830256490402831,854518728062939,user_typing,Diameter,2018-08-30 21:46:17
+1830256490402831,Sorathan,Chaturapruek,26523,854518728062939,1830256490402831,BOT: message,Thats right! :party_popper:,2018-08-30 21:46:18
+1830256490402831,Sorathan,Chaturapruek,26524,854518728062939,1830256490402831,BOT: quick reply,The correct answer is diameter.,2018-08-30 21:46:18
+1830256490402831,Sorathan,Chaturapruek,26525,1830256490402831,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-30 21:46:24
+1830256490402831,Sorathan,Chaturapruek,26526,854518728062939,1830256490402831,BOT: message,Here's a question for you:,2018-08-30 21:46:25
+1830256490402831,Sorathan,Chaturapruek,26527,854518728062939,1830256490402831,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-30 21:46:25
+1830256490402831,Sorathan,Chaturapruek,26528,854518728062939,1830256490402831,BOT: quick reply,How often should women perform a breast self-exam?,2018-08-30 21:46:26
+1830256490402831,Sorathan,Chaturapruek,26529,1830256490402831,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-30 21:46:31
+1830256490402831,Sorathan,Chaturapruek,26530,854518728062939,1830256490402831,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-08-30 21:46:32
+1830256490402831,Sorathan,Chaturapruek,26531,854518728062939,1830256490402831,BOT: quick reply,":keycap_1: weekly
+:keycap_2: yearly
+:keycap_3: quarterly
+:keycap_4: monthly
+",2018-08-30 21:46:32
+1830256490402831,Sorathan,Chaturapruek,26532,1830256490402831,854518728062939,user_quick_reply: BUTTON_DKB_weekly,:keycap_1:,2018-08-30 21:46:37
+1830256490402831,Sorathan,Chaturapruek,26533,854518728062939,1830256490402831,BOT: message,"Oops, that is not correct. :disappointed_face:",2018-08-30 21:46:37
+1830256490402831,Sorathan,Chaturapruek,26534,854518728062939,1830256490402831,BOT: quick reply,The correct answer is monthly.,2018-08-30 21:46:38
+1830256490402831,Sorathan,Chaturapruek,26535,1830256490402831,854518728062939,user_quick_reply: WHY,Why?,2018-08-30 21:46:43
+1830256490402831,Sorathan,Chaturapruek,26536,854518728062939,1830256490402831,BOT: message,This is an explanation of the question:,2018-08-30 21:46:44
+1830256490402831,Sorathan,Chaturapruek,26537,854518728062939,1830256490402831,BOT: quick reply,"If you are a young woman, getting in the habit of performing a monthly breast self-exam is a good idea. Lumps or other subtle changes in the breasts may indicate breast cancer. The outcome is typically better if breast cancer is caught and treated early.",2018-08-30 21:46:44
+1830256490402831,Sorathan,Chaturapruek,26538,1830256490402831,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-30 21:46:57
+1830256490402831,Sorathan,Chaturapruek,26539,854518728062939,1830256490402831,BOT: message,Could you answer this one for me?,2018-08-30 21:46:57
+1830256490402831,Sorathan,Chaturapruek,26540,854518728062939,1830256490402831,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-30 21:46:58
+1830256490402831,Sorathan,Chaturapruek,26541,854518728062939,1830256490402831,BOT: quick reply,The lithosphere is divided into a dozen major and several minor what?,2018-08-30 21:46:58
+1830256490402831,Sorathan,Chaturapruek,26542,1830256490402831,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-30 21:47:03
+1830256490402831,Sorathan,Chaturapruek,26543,854518728062939,1830256490402831,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-08-30 21:47:04
+1830256490402831,Sorathan,Chaturapruek,26544,854518728062939,1830256490402831,BOT: quick reply,":keycap_1: zones
+:keycap_2: faults
+:keycap_3: plates
+:keycap_4: crystals
+",2018-08-30 21:47:04
+1830256490402831,Sorathan,Chaturapruek,26545,1830256490402831,854518728062939,user_quick_reply: BUTTON_DKB_faults,:keycap_2:,2018-08-30 21:47:10
+1830256490402831,Sorathan,Chaturapruek,26546,854518728062939,1830256490402831,BOT: message,That's not quite right. :disappointed_face:,2018-08-30 21:47:11
+1830256490402831,Sorathan,Chaturapruek,26547,854518728062939,1830256490402831,BOT: quick reply,The correct answer is plates.,2018-08-30 21:47:11
+1830256490402831,Sorathan,Chaturapruek,26548,1830256490402831,854518728062939,user_quick_reply: WHY,Why?,2018-08-30 21:47:16
+1830256490402831,Sorathan,Chaturapruek,26549,854518728062939,1830256490402831,BOT: message,This is why:,2018-08-30 21:47:16
+1830256490402831,Sorathan,Chaturapruek,26550,854518728062939,1830256490402831,BOT: quick reply,The lithosphere is divided into a dozen major and several minor plates. Each plate is named for the continent or ocean basin it contains. Some plates are made of all oceanic lithosphere. A few are all continental lithosphere. But most plates are made of a combination of both.,2018-08-30 21:47:17
+1830256490402831,Sorathan,Chaturapruek,26551,1830256490402831,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-30 21:47:29
+1830256490402831,Sorathan,Chaturapruek,26552,854518728062939,1830256490402831,BOT: message,Let's see if you can answer this question.,2018-08-30 21:47:30
+1830256490402831,Sorathan,Chaturapruek,26553,854518728062939,1830256490402831,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-30 21:47:31
+1830256490402831,Sorathan,Chaturapruek,26554,854518728062939,1830256490402831,BOT: quick reply,The lithosphere is divided into a dozen major and several minor what?,2018-08-30 21:47:31
+1830256490402831,Sorathan,Chaturapruek,26555,1830256490402831,854518728062939,user_typing,Plates,2018-08-30 21:47:38
+1830256490402831,Sorathan,Chaturapruek,26556,854518728062939,1830256490402831,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_normal.png,2018-08-30 21:47:40
+1830256490402831,Sorathan,Chaturapruek,26557,854518728062939,1830256490402831,BOT: message,Fantastic! :hundred_points:,2018-08-30 21:47:40
+1830256490402831,Sorathan,Chaturapruek,26558,854518728062939,1830256490402831,BOT: quick reply,The correct answer is plates.,2018-08-30 21:47:41
+1830256490402831,Sorathan,Chaturapruek,26559,1830256490402831,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-30 21:47:45
+1830256490402831,Sorathan,Chaturapruek,26560,854518728062939,1830256490402831,BOT: message,Would you answer this question for me?,2018-08-30 21:47:46
+1830256490402831,Sorathan,Chaturapruek,26561,854518728062939,1830256490402831,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-30 21:47:46
+1830256490402831,Sorathan,Chaturapruek,26562,854518728062939,1830256490402831,BOT: quick reply,Most insects reproduce quickly and through what type of reproduction?,2018-08-30 21:47:47
+1830256490402831,Sorathan,Chaturapruek,26563,1830256490402831,854518728062939,user_typing,Sexual reproduction,2018-08-30 21:48:01
+1830256490402831,Sorathan,Chaturapruek,26564,854518728062939,1830256490402831,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_happy_orange.png,2018-08-30 21:48:03
+1830256490402831,Sorathan,Chaturapruek,26565,854518728062939,1830256490402831,BOT: message,Good job! :raising_hands_medium-light_skin_tone:,2018-08-30 21:48:03
+1830256490402831,Sorathan,Chaturapruek,26566,854518728062939,1830256490402831,BOT: quick reply,The correct answer is sexual reproduction.,2018-08-30 21:48:04
+1830256490402831,Sorathan,Chaturapruek,26567,1830256490402831,854518728062939,user_quick_reply: WHY,Why?,2018-08-30 21:48:08
+1830256490402831,Sorathan,Chaturapruek,26568,854518728062939,1830256490402831,BOT: message,Here's an explanation:,2018-08-30 21:48:09
+1830256490402831,Sorathan,Chaturapruek,26569,854518728062939,1830256490402831,BOT: quick reply,"Most insects can reproduce very quickly within a short period of time. With a short generation time, they evolve faster and can quickly adjust to environmental changes. Most insects reproduce by sexual reproduction. The female produces eggs, which are fertilized by the male, and then the eggs are usually placed near the required food. In some insects, there is asexual reproduction during which the offspring come from a single parent. In this type of reproduction, the offspring are almost identical to the mother. This is most often seen in aphids and scale insects.",2018-08-30 21:48:09
+1830256490402831,Sorathan,Chaturapruek,26570,1830256490402831,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-30 21:48:42
+1830256490402831,Sorathan,Chaturapruek,26571,854518728062939,1830256490402831,BOT: message,Let's take a look at this question.,2018-08-30 21:48:42
+1830256490402831,Sorathan,Chaturapruek,26572,854518728062939,1830256490402831,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-30 21:48:43
+1830256490402831,Sorathan,Chaturapruek,26573,854518728062939,1830256490402831,BOT: quick reply,Nerve cells that sense touch are found mainly where?,2018-08-30 21:48:43
+1830256490402831,Sorathan,Chaturapruek,26574,1830256490402831,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-30 21:48:49
+1830256490402831,Sorathan,Chaturapruek,26575,854518728062939,1830256490402831,BOT: message,It's one of the following choices.,2018-08-30 21:48:49
+1830256490402831,Sorathan,Chaturapruek,26576,854518728062939,1830256490402831,BOT: quick reply,":keycap_1: skin
+:keycap_2: lungs
+:keycap_3: brain
+:keycap_4: stomach
+",2018-08-30 21:48:50
+1830256490402831,Sorathan,Chaturapruek,26577,1830256490402831,854518728062939,user_quick_reply: BUTTON_DKB_brain,:keycap_3:,2018-08-30 21:48:55
+1830256490402831,Sorathan,Chaturapruek,26578,854518728062939,1830256490402831,BOT: message,"I'm sorry, but that was incorrect. :disappointed_face:",2018-08-30 21:48:55
+1830256490402831,Sorathan,Chaturapruek,26579,854518728062939,1830256490402831,BOT: quick reply,The correct answer is skin.,2018-08-30 21:48:56
+1830256490402831,Sorathan,Chaturapruek,26580,1830256490402831,854518728062939,user_quick_reply: WHY,Why?,2018-08-30 21:49:00
+1830256490402831,Sorathan,Chaturapruek,26581,854518728062939,1830256490402831,BOT: message,This is an explanation of the question:,2018-08-30 21:49:00
+1830256490402831,Sorathan,Chaturapruek,26582,854518728062939,1830256490402831,BOT: quick reply,"Touch is the ability to sense pain, pressure, or temperature. Nerve cells that sense touch are found mainly in the skin. The skin on the palms, soles, face, and lips has the most neurons. Neurons that sense pain are also found inside the body inside the body in the tongue, joints, muscles, and other organs.",2018-08-30 21:49:01
+1830256490402831,Sorathan,Chaturapruek,26583,1830256490402831,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-30 21:49:19
+1830256490402831,Sorathan,Chaturapruek,26584,854518728062939,1830256490402831,BOT: message,Let's try this one.,2018-08-30 21:49:20
+1830256490402831,Sorathan,Chaturapruek,26585,854518728062939,1830256490402831,BOT: quick reply,The electrode at which oxidation occurs is called the what?,2018-08-30 21:49:20
+1830256490402831,Sorathan,Chaturapruek,26586,1830256490402831,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-30 21:49:25
+1830256490402831,Sorathan,Chaturapruek,26587,854518728062939,1830256490402831,BOT: message,Which of the following options is the right answer?,2018-08-30 21:49:25
+1830256490402831,Sorathan,Chaturapruek,26588,854518728062939,1830256490402831,BOT: quick reply,":keycap_1: diode
+:keycap_2: anode
+:keycap_3: calomel
+:keycap_4: cathode
+",2018-08-30 21:49:26
+1830256490402831,Sorathan,Chaturapruek,26589,1830256490402831,854518728062939,user_quick_reply: BUTTON_DKB_cathode,:keycap_4:,2018-08-30 21:49:31
+1830256490402831,Sorathan,Chaturapruek,26590,854518728062939,1830256490402831,BOT: message,"Hmm, that wasn't quite right. :disappointed_face:",2018-08-30 21:49:31
+1830256490402831,Sorathan,Chaturapruek,26591,854518728062939,1830256490402831,BOT: quick reply,The correct answer is anode.,2018-08-30 21:49:32
+1830256490402831,Sorathan,Chaturapruek,26592,1830256490402831,854518728062939,user_quick_reply: WHY,Why?,2018-08-30 21:49:36
+1830256490402831,Sorathan,Chaturapruek,26593,854518728062939,1830256490402831,BOT: message,Here's an explanation:,2018-08-30 21:49:36
+1830256490402831,Sorathan,Chaturapruek,26594,854518728062939,1830256490402831,BOT: quick reply,"The electrode at which oxidation occurs is called the anode. The zinc anode gradually diminishes as the cell operates due to the loss of zinc metal. The zinc ion concentration in the half-cell increases. Because of the production of electrons at the anode, it is labeled as the negative electrode.",2018-08-30 21:49:37
+1830256490402831,Sorathan,Chaturapruek,26595,1830256490402831,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-30 21:49:48
+1830256490402831,Sorathan,Chaturapruek,26596,854518728062939,1830256490402831,BOT: message,See if you can answer this next one.,2018-08-30 21:49:48
+1830256490402831,Sorathan,Chaturapruek,26597,854518728062939,1830256490402831,BOT: quick reply,The lithosphere is divided into a dozen major and several minor what?,2018-08-30 21:49:49
+1830256490402831,Sorathan,Chaturapruek,26598,1830256490402831,854518728062939,user_typing,Plates,2018-08-30 21:49:56
+1830256490402831,Sorathan,Chaturapruek,26599,854518728062939,1830256490402831,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_normal_pink.png,2018-08-30 21:49:58
+1830256490402831,Sorathan,Chaturapruek,26600,854518728062939,1830256490402831,BOT: message,Thats right! :party_popper:,2018-08-30 21:49:59
+1830256490402831,Sorathan,Chaturapruek,26601,854518728062939,1830256490402831,BOT: quick reply,The correct answer is plates.,2018-08-30 21:49:59
+1830256490402831,Sorathan,Chaturapruek,26602,1830256490402831,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-30 21:50:02
+1830256490402831,Sorathan,Chaturapruek,26603,854518728062939,1830256490402831,BOT: message,Let's take a look at this question.,2018-08-30 21:50:03
+1830256490402831,Sorathan,Chaturapruek,26604,854518728062939,1830256490402831,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-30 21:50:04
+1830256490402831,Sorathan,Chaturapruek,26605,854518728062939,1830256490402831,BOT: quick reply,What kind of viscosity is found in long-chain hydrocarbons?,2018-08-30 21:50:04
+1830256490402831,Sorathan,Chaturapruek,26606,1830256490402831,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-30 21:50:11
+1830256490402831,Sorathan,Chaturapruek,26607,854518728062939,1830256490402831,BOT: message,Okay. I'll give you some choices.,2018-08-30 21:50:12
+1830256490402831,Sorathan,Chaturapruek,26608,854518728062939,1830256490402831,BOT: quick reply,":keycap_1: increased viscosity
+:keycap_2: intense viscosity
+:keycap_3: high viscosity
+:keycap_4: low viscosity
+",2018-08-30 21:50:12
+1830256490402831,Sorathan,Chaturapruek,26609,1830256490402831,854518728062939,user_quick_reply: BUTTON_AKB_high viscosity,:keycap_3:,2018-08-30 21:50:19
+1830256490402831,Sorathan,Chaturapruek,26610,854518728062939,1830256490402831,BOT: message,Great! Keep it up! :flexed_biceps_medium-light_skin_tone:,2018-08-30 21:50:20
+1830256490402831,Sorathan,Chaturapruek,26611,854518728062939,1830256490402831,BOT: quick reply,The correct answer is high viscosity.,2018-08-30 21:50:20
+1830256490402831,Sorathan,Chaturapruek,26612,1830256490402831,854518728062939,user_quick_reply: WHY,Why?,2018-08-30 21:50:25
+1830256490402831,Sorathan,Chaturapruek,26613,854518728062939,1830256490402831,BOT: message,This is an explanation of the question:,2018-08-30 21:50:25
+1830256490402831,Sorathan,Chaturapruek,26614,854518728062939,1830256490402831,BOT: quick reply,"There is also a correlation between viscosity and molecular shape. Liquids consisting of long, flexible molecules tend to have higher viscosities than those composed of more spherical or shorter-chain molecules. The longer the molecules, the easier it is for them to become tangled with one another, making it more difficult for them to move past one another. London dispersion forces also increase with chain length. Due to a combination of these two effects, long-chain hydrocarbons (such as motor oils) are highly viscous.",2018-08-30 21:50:26
+1830256490402831,Sorathan,Chaturapruek,26615,1830256490402831,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-30 21:50:52
+1830256490402831,Sorathan,Chaturapruek,26616,854518728062939,1830256490402831,BOT: message,Let's try this question.,2018-08-30 21:50:52
+1830256490402831,Sorathan,Chaturapruek,26617,854518728062939,1830256490402831,BOT: quick reply,"What arises due to crossing over, independent assortment, and the random union of gametes?",2018-08-30 21:50:53
+1830256490402831,Sorathan,Chaturapruek,26618,1830256490402831,854518728062939,user_typing,Genetic variations,2018-08-30 21:51:03
+1830256490402831,Sorathan,Chaturapruek,26619,854518728062939,1830256490402831,BOT: message,Correct! :confetti_ball:,2018-08-30 21:51:03
+1830256490402831,Sorathan,Chaturapruek,26620,854518728062939,1830256490402831,BOT: quick reply,The correct answer is genetic variation.,2018-08-30 21:51:04
+1830256490402831,Sorathan,Chaturapruek,26621,1830256490402831,854518728062939,user_quick_reply: SWITCH_SUBJECT,Change subject :shuffle_tracks_button:,2018-08-30 21:51:07
+1830256490402831,Sorathan,Chaturapruek,26622,854518728062939,1830256490402831,BOT: quick reply,"Okay, which subject would you like to choose?:backhand_index_pointing_down_medium-light_skin_tone:",2018-08-30 21:51:08
+1830256490402831,Sorathan,Chaturapruek,26623,1830256490402831,854518728062939,user_quick_reply: GRE,GRE :input_latin_uppercase:,2018-08-30 21:51:11
+1830256490402831,Sorathan,Chaturapruek,26624,854518728062939,1830256490402831,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/evolvescientist_reading.gif,2018-08-30 21:51:16
+1830256490402831,Sorathan,Chaturapruek,26625,854518728062939,1830256490402831,BOT: quick reply,Let's answer some questions about the GRE!,2018-08-30 21:51:16
+1830256490402831,Sorathan,Chaturapruek,26626,1830256490402831,854518728062939,user_quick_reply: NEXT_QUESTION,"Yes, continue :white_heavy_check_mark:",2018-08-30 21:51:20
+1830256490402831,Sorathan,Chaturapruek,26627,854518728062939,1830256490402831,BOT: message,I think you'll like this question.,2018-08-30 21:51:21
+1830256490402831,Sorathan,Chaturapruek,26628,854518728062939,1830256490402831,BOT: quick reply,"Many dog owners treat their pets too _____ , forgetting that canines have evolved in competitive environments in which emotional coddling was a sign of weakness.",2018-08-30 21:51:21
+1830256490402831,Sorathan,Chaturapruek,26629,1830256490402831,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-30 21:51:29
+1830256490402831,Sorathan,Chaturapruek,26630,854518728062939,1830256490402831,BOT: message,It's one of the following choices.,2018-08-30 21:51:29
+1830256490402831,Sorathan,Chaturapruek,26631,854518728062939,1830256490402831,BOT: quick reply,":keycap_1: aggressively
+:keycap_2: belligerently
+:keycap_3: fortuitously
+:keycap_4: quixotically
+:keycap_5: indulgently
+",2018-08-30 21:51:30
+1830256490402831,Sorathan,Chaturapruek,26632,1830256490402831,854518728062939,user_quick_reply: BUTTON_AKB_indulgently,:keycap_5:,2018-08-30 21:51:35
+1830256490402831,Sorathan,Chaturapruek,26633,854518728062939,1830256490402831,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_normal.png,2018-08-30 21:51:37
+1830256490402831,Sorathan,Chaturapruek,26634,854518728062939,1830256490402831,BOT: message,Yes! You got the correct answer!,2018-08-30 21:51:37
+1830256490402831,Sorathan,Chaturapruek,26635,854518728062939,1830256490402831,BOT: quick reply,The correct answer is indulgently.,2018-08-30 21:51:38
+1830256490402831,Sorathan,Chaturapruek,26636,1830256490402831,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-30 21:51:41
+1830256490402831,Sorathan,Chaturapruek,26637,854518728062939,1830256490402831,BOT: message,What about this next question:,2018-08-30 21:51:41
+1830256490402831,Sorathan,Chaturapruek,26638,854518728062939,1830256490402831,BOT: quick reply,"Despite the smile that spread from ear to ear, the eyes relayed a certain _____ .",2018-08-30 21:51:42
+1830256490402831,Sorathan,Chaturapruek,26639,1830256490402831,854518728062939,user_typing,Sorrow,2018-08-30 21:51:53
+1830256490402831,Sorathan,Chaturapruek,26640,854518728062939,1830256490402831,BOT: message,Nice! :red_apple:,2018-08-30 21:51:54
+1830256490402831,Sorathan,Chaturapruek,26641,854518728062939,1830256490402831,BOT: quick reply,The correct answer is sorrow.,2018-08-30 21:51:54
+1830256490402831,Sorathan,Chaturapruek,26642,1830256490402831,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-30 21:51:57
+1830256490402831,Sorathan,Chaturapruek,26643,854518728062939,1830256490402831,BOT: message,How about this next one:,2018-08-30 21:51:58
+1830256490402831,Sorathan,Chaturapruek,26644,854518728062939,1830256490402831,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-30 21:51:58
+1830256490402831,Sorathan,Chaturapruek,26645,854518728062939,1830256490402831,BOT: quick reply,"Many dog owners treat their pets too _____ , forgetting that canines have evolved in competitive environments in which emotional coddling was a sign of weakness.",2018-08-30 21:51:59
+1830256490402831,Sorathan,Chaturapruek,26646,1830256490402831,854518728062939,user_typing,Indulgently,2018-08-30 21:52:11
+1830256490402831,Sorathan,Chaturapruek,26647,854518728062939,1830256490402831,BOT: message,Nice! :red_apple:,2018-08-30 21:52:11
+1830256490402831,Sorathan,Chaturapruek,26648,854518728062939,1830256490402831,BOT: quick reply,The correct answer is indulgently.,2018-08-30 21:52:12
+1830256490402831,Sorathan,Chaturapruek,26649,1830256490402831,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-30 21:52:15
+1830256490402831,Sorathan,Chaturapruek,26650,854518728062939,1830256490402831,BOT: message,How about this next one:,2018-08-30 21:52:16
+1830256490402831,Sorathan,Chaturapruek,26651,854518728062939,1830256490402831,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-30 21:52:16
+1830256490402831,Sorathan,Chaturapruek,26652,854518728062939,1830256490402831,BOT: quick reply,"Possessing few natural resources upon its newly-granted independence in 1863, Singapore remained economically _____ until an influx of industrialization and foreign investment took hold there.",2018-08-30 21:52:17
+1830256490402831,Sorathan,Chaturapruek,26653,1830256490402831,854518728062939,user_typing,Dubious,2018-08-30 21:52:27
+1830256490402831,Sorathan,Chaturapruek,26654,854518728062939,1830256490402831,BOT: message,Nice! :red_apple:,2018-08-30 21:52:28
+1830256490402831,Sorathan,Chaturapruek,26655,854518728062939,1830256490402831,BOT: quick reply,The correct answer is dubious.,2018-08-30 21:52:28
+1830256490402831,Sorathan,Chaturapruek,26656,1830256490402831,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-30 21:52:31
+1830256490402831,Sorathan,Chaturapruek,26657,854518728062939,1830256490402831,BOT: message,How about this next one:,2018-08-30 21:52:32
+1830256490402831,Sorathan,Chaturapruek,26658,854518728062939,1830256490402831,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-30 21:52:32
+1830256490402831,Sorathan,Chaturapruek,26659,854518728062939,1830256490402831,BOT: quick reply,"Even though legislators claimed the Contagious Diseases Acts strengthened the nation, social purists argued the Acts _____ the nation's moral growth by encouraging licentious behavior.",2018-08-30 21:52:33
+1830256490402831,Sorathan,Chaturapruek,26660,1830256490402831,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-30 21:52:41
+1830256490402831,Sorathan,Chaturapruek,26661,854518728062939,1830256490402831,BOT: message,It's one of the following choices.,2018-08-30 21:52:41
+1830256490402831,Sorathan,Chaturapruek,26662,854518728062939,1830256490402831,BOT: quick reply,":keycap_1: ameliorated
+:keycap_2: hampered
+:keycap_3: supplanted
+:keycap_4: advanced
+:keycap_5: enhanced
+",2018-08-30 21:52:42
+1830256490402831,Sorathan,Chaturapruek,26663,1830256490402831,854518728062939,user_quick_reply: BUTTON_AKB_hampered,:keycap_2:,2018-08-30 21:52:48
+1830256490402831,Sorathan,Chaturapruek,26664,854518728062939,1830256490402831,BOT: message,Nice work! Keep it up!,2018-08-30 21:52:49
+1830256490402831,Sorathan,Chaturapruek,26665,854518728062939,1830256490402831,BOT: quick reply,The correct answer is hampered.,2018-08-30 21:52:49
+1830256490402831,Sorathan,Chaturapruek,26666,1830256490402831,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-30 21:52:52
+1830256490402831,Sorathan,Chaturapruek,26667,854518728062939,1830256490402831,BOT: message,I think you'll like this question.,2018-08-30 21:52:52
+1830256490402831,Sorathan,Chaturapruek,26668,854518728062939,1830256490402831,BOT: quick reply,"Despite the smile that spread from ear to ear, the eyes relayed a certain _____ .",2018-08-30 21:52:53
+1830256490402831,Sorathan,Chaturapruek,26669,1830256490402831,854518728062939,user_typing,Sorrow,2018-08-30 21:53:01
+1830256490402831,Sorathan,Chaturapruek,26670,854518728062939,1830256490402831,BOT: message,Thats right! :party_popper:,2018-08-30 21:53:02
+1830256490402831,Sorathan,Chaturapruek,26671,854518728062939,1830256490402831,BOT: quick reply,The correct answer is sorrow.,2018-08-30 21:53:03
+1830256490402831,Sorathan,Chaturapruek,26672,1830256490402831,854518728062939,user_quick_reply: SWITCH_SUBJECT,Change subject :shuffle_tracks_button:,2018-08-30 21:53:05
+1830256490402831,Sorathan,Chaturapruek,26673,854518728062939,1830256490402831,BOT: quick reply,"Sure, which of the following subjects would you like me to quiz you on?:backhand_index_pointing_down_medium-light_skin_tone:",2018-08-30 21:53:06
+1830256490402831,Sorathan,Chaturapruek,26674,1830256490402831,854518728062939,user_quick_reply: SAFETY,Safety:hammer_and_wrench:,2018-08-30 21:53:12
+1830256490402831,Sorathan,Chaturapruek,26675,854518728062939,1830256490402831,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/evolvereading_safety.gif,2018-08-30 21:53:17
+1830256490402831,Sorathan,Chaturapruek,26676,854518728062939,1830256490402831,BOT: quick reply,Safety first! Here's some questions on safety!,2018-08-30 21:53:18
+1830256490402831,Sorathan,Chaturapruek,26677,854518728062939,1830256490402831,BOT: message,"Alrighty, let's try this one.",2018-08-30 21:53:25
+1830256490402831,Sorathan,Chaturapruek,26678,854518728062939,1830256490402831,BOT: quick reply,"True or false: if you wear a back belt, you can lift more weight than you could without a belt.",2018-08-30 21:53:25
+1830256490402831,Sorathan,Chaturapruek,26679,1830256490402831,854518728062939,user_typing,False,2018-08-30 21:53:32
+1830256490402831,Sorathan,Chaturapruek,26680,854518728062939,1830256490402831,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_normal_pink.png,2018-08-30 21:53:34
+1830256490402831,Sorathan,Chaturapruek,26681,854518728062939,1830256490402831,BOT: message,Good job! :raising_hands_medium-light_skin_tone:,2018-08-30 21:53:34
+1830256490402831,Sorathan,Chaturapruek,26682,854518728062939,1830256490402831,BOT: quick reply,The correct answer is False.,2018-08-30 21:53:35
+1830256490402831,Sorathan,Chaturapruek,26683,1830256490402831,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-30 21:53:39
+1830256490402831,Sorathan,Chaturapruek,26684,854518728062939,1830256490402831,BOT: message,Let's see if you can get this one.,2018-08-30 21:53:39
+1830256490402831,Sorathan,Chaturapruek,26685,854518728062939,1830256490402831,BOT: quick reply,What does CERT stand for?,2018-08-30 21:53:40
+1830256490402831,Sorathan,Chaturapruek,26686,1830256490402831,854518728062939,user_typing,Community emergency response time,2018-08-30 21:53:55
+1830256490402831,Sorathan,Chaturapruek,26687,854518728062939,1830256490402831,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_normal_purple.png,2018-08-30 21:53:57
+1830256490402831,Sorathan,Chaturapruek,26688,854518728062939,1830256490402831,BOT: message,Good job! :raising_hands_medium-light_skin_tone:,2018-08-30 21:53:58
+1830256490402831,Sorathan,Chaturapruek,26689,854518728062939,1830256490402831,BOT: quick reply,The correct answer is Community Emergency Response Team.,2018-08-30 21:53:58
+1830256490402831,Sorathan,Chaturapruek,26690,1830256490402831,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-30 21:54:01
+1830256490402831,Sorathan,Chaturapruek,26691,854518728062939,1830256490402831,BOT: message,What about this next question:,2018-08-30 21:54:02
+1830256490402831,Sorathan,Chaturapruek,26692,854518728062939,1830256490402831,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-30 21:54:02
+1830256490402831,Sorathan,Chaturapruek,26693,854518728062939,1830256490402831,BOT: quick reply,What does CERT stand for?,2018-08-30 21:54:03
+1830256490402831,Sorathan,Chaturapruek,26694,1830256490402831,854518728062939,user_typing,Community emergency response team,2018-08-30 21:54:13
+1830256490402831,Sorathan,Chaturapruek,26695,854518728062939,1830256490402831,BOT: message,Thats right! :party_popper:,2018-08-30 21:54:13
+1830256490402831,Sorathan,Chaturapruek,26696,854518728062939,1830256490402831,BOT: quick reply,The correct answer is Community Emergency Response Team.,2018-08-30 21:54:14
+1830256490402831,Sorathan,Chaturapruek,26697,1830256490402831,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-30 21:54:18
+1830256490402831,Sorathan,Chaturapruek,26698,854518728062939,1830256490402831,BOT: message,"Alrighty, let's try this one.",2018-08-30 21:54:18
+1830256490402831,Sorathan,Chaturapruek,26699,854518728062939,1830256490402831,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-30 21:54:19
+1830256490402831,Sorathan,Chaturapruek,26700,854518728062939,1830256490402831,BOT: quick reply,What does CERT stand for?,2018-08-30 21:54:19
+1830256490402831,Sorathan,Chaturapruek,26701,1830256490402831,854518728062939,user_typing,Community emergency response team,2018-08-30 21:54:28
+1830256490402831,Sorathan,Chaturapruek,26702,854518728062939,1830256490402831,BOT: message,Correct! :confetti_ball:,2018-08-30 21:54:28
+1830256490402831,Sorathan,Chaturapruek,26703,854518728062939,1830256490402831,BOT: quick reply,The correct answer is Community Emergency Response Team.,2018-08-30 21:54:29

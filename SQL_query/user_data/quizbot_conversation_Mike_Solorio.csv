@@ -1,0 +1,361 @@
+user_id,user_firstname,user_lastname,uid,sender,recipient,type,dialogue,time_stamp
+1868990276470264,Mike,Solorio,22919,1868990276470264,854518728062939,persistent_menu: GET_INTRO_1,Get Started,2018-08-29 11:35:46
+1868990276470264,Mike,Solorio,22920,854518728062939,1868990276470264,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/quizbot_avatar.png,2018-08-29 11:35:49
+1868990276470264,Mike,Solorio,22921,854518728062939,1868990276470264,BOT: quick reply,"Hi Mike! My name is Frosty :penguin: and Im here to help you learn all about science:microscope:, verbal reasoning (GRE) :input_latin_uppercase:, and safety:hammer_and_wrench:!",2018-08-29 11:35:50
+1868990276470264,Mike,Solorio,22922,1868990276470264,854518728062939,persistent_menu: GRE,GRE :input_latin_uppercase:,2018-08-29 11:36:03
+1868990276470264,Mike,Solorio,22923,854518728062939,1868990276470264,BOT: quick reply,Let's test your knowledge on the GRE!,2018-08-29 11:36:04
+1868990276470264,Mike,Solorio,22924,1868990276470264,854518728062939,user_quick_reply: NEXT_QUESTION,Alrighty :thumbs_up_medium-light_skin_tone:,2018-08-29 11:36:12
+1868990276470264,Mike,Solorio,22925,854518728062939,1868990276470264,BOT: message,Let's see if you can get this one.,2018-08-29 11:36:13
+1868990276470264,Mike,Solorio,22926,854518728062939,1868990276470264,BOT: quick reply,"Having squandered his life's savings on unprofitable business ventures, the _____ entrepreneur was forced to live in squalor.",2018-08-29 11:36:14
+1868990276470264,Mike,Solorio,22927,1868990276470264,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-29 11:36:27
+1868990276470264,Mike,Solorio,22928,854518728062939,1868990276470264,BOT: message,Okay. I'll give you some choices.,2018-08-29 11:36:28
+1868990276470264,Mike,Solorio,22929,854518728062939,1868990276470264,BOT: quick reply,":keycap_1: perturbed
+:keycap_2: unlikely
+:keycap_3: insolvent
+:keycap_4: eccentric
+:keycap_5: former
+",2018-08-29 11:36:28
+1868990276470264,Mike,Solorio,22930,1868990276470264,854518728062939,persistent_menu: SCIENCE,Science:microscope:,2018-08-29 12:17:51
+1868990276470264,Mike,Solorio,22931,854518728062939,1868990276470264,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/evolvereading_scientist.gif,2018-08-29 12:17:56
+1868990276470264,Mike,Solorio,22932,854518728062939,1868990276470264,BOT: quick reply,Awesome! Let's learn about science!,2018-08-29 12:17:57
+1868990276470264,Mike,Solorio,22933,1868990276470264,854518728062939,user_quick_reply: NEXT_QUESTION,Alright :raising_hands_medium-light_skin_tone:,2018-08-29 12:18:06
+1868990276470264,Mike,Solorio,22934,854518728062939,1868990276470264,BOT: message,Let's see if you can answer this question.,2018-08-29 12:18:06
+1868990276470264,Mike,Solorio,22935,854518728062939,1868990276470264,BOT: quick reply,The electrode at which oxidation occurs is called the what?,2018-08-29 12:18:07
+1868990276470264,Mike,Solorio,22936,1868990276470264,854518728062939,user_typing,Anode,2018-08-29 12:18:28
+1868990276470264,Mike,Solorio,22937,854518728062939,1868990276470264,BOT: message,Correct! :confetti_ball:,2018-08-29 12:18:28
+1868990276470264,Mike,Solorio,22938,854518728062939,1868990276470264,BOT: quick reply,The correct answer is anode.,2018-08-29 12:18:29
+1868990276470264,Mike,Solorio,22939,1868990276470264,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-29 12:18:35
+1868990276470264,Mike,Solorio,22940,854518728062939,1868990276470264,BOT: message,Let's try this question.,2018-08-29 12:18:36
+1868990276470264,Mike,Solorio,22941,854518728062939,1868990276470264,BOT: quick reply,What are by far the most common type of invertebrate?,2018-08-29 12:18:37
+1868990276470264,Mike,Solorio,22942,1868990276470264,854518728062939,user_typing,Insects,2018-08-29 12:18:51
+1868990276470264,Mike,Solorio,22943,854518728062939,1868990276470264,BOT: message,Nice! :red_apple:,2018-08-29 12:18:52
+1868990276470264,Mike,Solorio,22944,854518728062939,1868990276470264,BOT: quick reply,The correct answer is insects.,2018-08-29 12:18:53
+1868990276470264,Mike,Solorio,22945,1868990276470264,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-29 12:18:58
+1868990276470264,Mike,Solorio,22946,854518728062939,1868990276470264,BOT: message,Let's see if you would answer this one.,2018-08-29 12:18:59
+1868990276470264,Mike,Solorio,22947,854518728062939,1868990276470264,BOT: quick reply,What are the little sacs at the end of the bronchioles called?,2018-08-29 12:18:59
+1868990276470264,Mike,Solorio,22948,1868990276470264,854518728062939,user_typing,Lungs,2018-08-29 12:19:07
+1868990276470264,Mike,Solorio,22949,854518728062939,1868990276470264,BOT: message,Thats right! :party_popper:,2018-08-29 12:19:08
+1868990276470264,Mike,Solorio,22950,854518728062939,1868990276470264,BOT: quick reply,The correct answer is alveoli.,2018-08-29 12:19:08
+1868990276470264,Mike,Solorio,22951,1868990276470264,854518728062939,user_quick_reply: WHY,Why?,2018-08-29 12:19:16
+1868990276470264,Mike,Solorio,22952,854518728062939,1868990276470264,BOT: message,Here's an explanation:,2018-08-29 12:19:16
+1868990276470264,Mike,Solorio,22953,854518728062939,1868990276470264,BOT: quick reply,"The bronchioles lead to the alveoli. Alveoli are the little sacs at the end of the bronchioles. They look like little bunches of grapes. Oxygen is exchanged for carbon dioxide in the alveoli. That means oxygen enters the blood, and carbon dioxide moves out of the blood. The gases are exchanged between the blood and alveoli by simple diffusion.",2018-08-29 12:19:17
+1868990276470264,Mike,Solorio,22954,1868990276470264,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-29 12:19:54
+1868990276470264,Mike,Solorio,22955,854518728062939,1868990276470264,BOT: message,I think you'll like this question.,2018-08-29 12:19:55
+1868990276470264,Mike,Solorio,22956,854518728062939,1868990276470264,BOT: quick reply,What living species of bird is considered the largest of the raptors?,2018-08-29 12:19:55
+1868990276470264,Mike,Solorio,22957,1868990276470264,854518728062939,user_typing,California condora,2018-08-29 12:20:07
+1868990276470264,Mike,Solorio,22958,854518728062939,1868990276470264,BOT: message,"I'm sorry, but that was incorrect. :disappointed_face:",2018-08-29 12:20:08
+1868990276470264,Mike,Solorio,22959,854518728062939,1868990276470264,BOT: quick reply,The correct answer is golden eagles.,2018-08-29 12:20:08
+1868990276470264,Mike,Solorio,22960,1868990276470264,854518728062939,user_quick_reply: WHY,Why?,2018-08-29 12:20:14
+1868990276470264,Mike,Solorio,22961,854518728062939,1868990276470264,BOT: message,This is why:,2018-08-29 12:20:15
+1868990276470264,Mike,Solorio,22962,854518728062939,1868990276470264,BOT: quick reply,"Although not as famous as its bald cousin, Golden Eagles are much easier to find in Northern California - one of the largest breeding populations for Golden Eagles. The largest of the raptors, Golden Eagles weigh typically between 8 and 12 pounds, and their wing span is around 6 to 7 feet. These eagles dive towards earth to catch prey, and can reach speeds of up to 200 mph!",2018-08-29 12:20:15
+1868990276470264,Mike,Solorio,22963,1868990276470264,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-29 12:20:39
+1868990276470264,Mike,Solorio,22964,854518728062939,1868990276470264,BOT: message,"Alrighty, let's try this one.",2018-08-29 12:20:40
+1868990276470264,Mike,Solorio,22965,854518728062939,1868990276470264,BOT: quick reply,How often should women perform a breast self-exam?,2018-08-29 12:20:41
+1868990276470264,Mike,Solorio,22966,1868990276470264,854518728062939,user_typing,Umm weekly?,2018-08-29 12:21:03
+1868990276470264,Mike,Solorio,22967,854518728062939,1868990276470264,BOT: message,"Oops, that answer was incorrect. :disappointed_face:",2018-08-29 12:21:04
+1868990276470264,Mike,Solorio,22968,854518728062939,1868990276470264,BOT: quick reply,The correct answer is monthly.,2018-08-29 12:21:04
+1868990276470264,Mike,Solorio,22969,1868990276470264,854518728062939,user_quick_reply: WHY,Why?,2018-08-29 12:21:10
+1868990276470264,Mike,Solorio,22970,854518728062939,1868990276470264,BOT: message,I hope this explanation could help you understand the the question.,2018-08-29 12:21:10
+1868990276470264,Mike,Solorio,22971,854518728062939,1868990276470264,BOT: quick reply,"If you are a young woman, getting in the habit of performing a monthly breast self-exam is a good idea. Lumps or other subtle changes in the breasts may indicate breast cancer. The outcome is typically better if breast cancer is caught and treated early.",2018-08-29 12:21:11
+1868990276470264,Mike,Solorio,22972,1868990276470264,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-29 12:21:28
+1868990276470264,Mike,Solorio,22973,854518728062939,1868990276470264,BOT: message,See if you can answer this next one.,2018-08-29 12:21:29
+1868990276470264,Mike,Solorio,22974,854518728062939,1868990276470264,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-29 12:21:29
+1868990276470264,Mike,Solorio,22975,854518728062939,1868990276470264,BOT: quick reply,What is the diffusion of water through a semipermeable membrane down its concentration gradient?,2018-08-29 12:21:30
+1868990276470264,Mike,Solorio,22976,1868990276470264,854518728062939,user_typing,Osmosis :sweat_droplets:,2018-08-29 12:22:15
+1868990276470264,Mike,Solorio,22977,854518728062939,1868990276470264,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_normal.png,2018-08-29 12:22:17
+1868990276470264,Mike,Solorio,22978,854518728062939,1868990276470264,BOT: message,Fantastic! :hundred_points:,2018-08-29 12:22:18
+1868990276470264,Mike,Solorio,22979,854518728062939,1868990276470264,BOT: quick reply,The correct answer is osmosis.,2018-08-29 12:22:18
+1868990276470264,Mike,Solorio,22980,1868990276470264,854518728062939,user_quick_reply: WHY,Why?,2018-08-29 12:22:26
+1868990276470264,Mike,Solorio,22981,854518728062939,1868990276470264,BOT: message,Here's an explanation:,2018-08-29 12:22:27
+1868990276470264,Mike,Solorio,22982,854518728062939,1868990276470264,BOT: quick reply,"Osmosis is the diffusion of water through a semipermeable membrane down its concentration gradient. If a membrane is permeable to water, though not to a solute, water will equalize its own concentration by diffusing to the side of lower water concentration (and thus the side of higher solute concentration). In the beaker on the left, the solution on the right side of the membrane is hypertonic.",2018-08-29 12:22:28
+1868990276470264,Mike,Solorio,22983,1868990276470264,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-29 12:22:49
+1868990276470264,Mike,Solorio,22984,854518728062939,1868990276470264,BOT: message,Let's try this question.,2018-08-29 12:22:50
+1868990276470264,Mike,Solorio,22985,854518728062939,1868990276470264,BOT: quick reply,What is the diffusion of water through a semipermeable membrane down its concentration gradient?,2018-08-29 12:22:51
+1868990276470264,Mike,Solorio,22986,1868990276470264,854518728062939,user_typing,Osmosis,2018-08-29 12:23:02
+1868990276470264,Mike,Solorio,22987,854518728062939,1868990276470264,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_happy_orange.png,2018-08-29 12:23:04
+1868990276470264,Mike,Solorio,22988,854518728062939,1868990276470264,BOT: message,Good job! :raising_hands_medium-light_skin_tone:,2018-08-29 12:23:05
+1868990276470264,Mike,Solorio,22989,854518728062939,1868990276470264,BOT: quick reply,The correct answer is osmosis.,2018-08-29 12:23:05
+1868990276470264,Mike,Solorio,22990,1868990276470264,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-29 12:23:10
+1868990276470264,Mike,Solorio,22991,854518728062939,1868990276470264,BOT: message,Let's see if you can answer this question.,2018-08-29 12:23:11
+1868990276470264,Mike,Solorio,22992,854518728062939,1868990276470264,BOT: quick reply,The lithosphere is divided into a dozen major and several minor what?,2018-08-29 12:23:12
+1868990276470264,Mike,Solorio,22993,1868990276470264,854518728062939,user_typing,Faults,2018-08-29 12:23:19
+1868990276470264,Mike,Solorio,22994,854518728062939,1868990276470264,BOT: message,That's not quite right. :disappointed_face:,2018-08-29 12:23:20
+1868990276470264,Mike,Solorio,22995,854518728062939,1868990276470264,BOT: quick reply,The correct answer is plates.,2018-08-29 12:23:20
+1868990276470264,Mike,Solorio,22996,1868990276470264,854518728062939,user_quick_reply: WHY,Why?,2018-08-29 12:23:26
+1868990276470264,Mike,Solorio,22997,854518728062939,1868990276470264,BOT: message,This is why:,2018-08-29 12:23:27
+1868990276470264,Mike,Solorio,22998,854518728062939,1868990276470264,BOT: quick reply,The lithosphere is divided into a dozen major and several minor plates. Each plate is named for the continent or ocean basin it contains. Some plates are made of all oceanic lithosphere. A few are all continental lithosphere. But most plates are made of a combination of both.,2018-08-29 12:23:27
+1868990276470264,Mike,Solorio,22999,1868990276470264,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-29 12:23:52
+1868990276470264,Mike,Solorio,23000,854518728062939,1868990276470264,BOT: message,How about this next one:,2018-08-29 12:23:53
+1868990276470264,Mike,Solorio,23001,854518728062939,1868990276470264,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-29 12:23:53
+1868990276470264,Mike,Solorio,23002,854518728062939,1868990276470264,BOT: quick reply,"Temperature, water, soil, and air are examples of nonliving factors of an ecosystem, also termed what?",2018-08-29 12:23:54
+1868990276470264,Mike,Solorio,23003,1868990276470264,854518728062939,user_typing,Abiptic factors,2018-08-29 12:24:08
+1868990276470264,Mike,Solorio,23004,854518728062939,1868990276470264,BOT: message,Thats right! :party_popper:,2018-08-29 12:24:08
+1868990276470264,Mike,Solorio,23005,854518728062939,1868990276470264,BOT: quick reply,The correct answer is abiotic factors.,2018-08-29 12:24:09
+1868990276470264,Mike,Solorio,23006,1868990276470264,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-29 12:24:14
+1868990276470264,Mike,Solorio,23007,854518728062939,1868990276470264,BOT: message,Let's take a look at this question.,2018-08-29 12:24:15
+1868990276470264,Mike,Solorio,23008,854518728062939,1868990276470264,BOT: quick reply,What disease characterized by the extreme swelling of the limbs is caused by infection with a type of roundworm?,2018-08-29 12:24:16
+1868990276470264,Mike,Solorio,23009,1868990276470264,854518728062939,user_quick_reply: I_DONT_KNOW,I dont know :downcast_face_with_sweat:,2018-08-29 12:24:24
+1868990276470264,Mike,Solorio,23010,854518728062939,1868990276470264,BOT: quick reply,Are you sure you want to skip this question?,2018-08-29 12:24:24
+1868990276470264,Mike,Solorio,23011,1868990276470264,854518728062939,user_quick_reply: GIVEUP_YES,"Yes, answer please.",2018-08-29 12:24:30
+1868990276470264,Mike,Solorio,23012,854518728062939,1868990276470264,BOT: message,"I'm sorry, you didn't get the question right this time.",2018-08-29 12:24:31
+1868990276470264,Mike,Solorio,23013,854518728062939,1868990276470264,BOT: message,"Keep trying, you'll get it next time! :grinning_face_with_smiling_eyes:",2018-08-29 12:24:31
+1868990276470264,Mike,Solorio,23014,854518728062939,1868990276470264,BOT: quick reply,The correct answer is elephantiasis.,2018-08-29 12:24:32
+1868990276470264,Mike,Solorio,23015,1868990276470264,854518728062939,user_quick_reply: WHY,Why?,2018-08-29 12:24:42
+1868990276470264,Mike,Solorio,23016,854518728062939,1868990276470264,BOT: message,Here's an explanation:,2018-08-29 12:24:42
+1868990276470264,Mike,Solorio,23017,854518728062939,1868990276470264,BOT: quick reply,"Roundworms can be free-living organisms, but they are probably best known for their role as significant plant and animal parasites. Most Nematodes are parasitic, with over 16,000 parasitic species described. Heartworms, which cause serious disease in dogs while living in the heart and blood vessels, are a type of roundworm. Roundworms can also cause disease in humans. Elephantiasis, a disease characterized by the extreme swelling of the limbs, is caused by infection with a type of roundworm.",2018-08-29 12:24:43
+1868990276470264,Mike,Solorio,23018,1868990276470264,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-29 12:25:15
+1868990276470264,Mike,Solorio,23019,854518728062939,1868990276470264,BOT: message,Let's see if you would answer this one.,2018-08-29 12:25:16
+1868990276470264,Mike,Solorio,23020,854518728062939,1868990276470264,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-29 12:25:17
+1868990276470264,Mike,Solorio,23021,854518728062939,1868990276470264,BOT: quick reply,Nerve cells that sense touch are found mainly where?,2018-08-29 12:25:17
+1868990276470264,Mike,Solorio,23059,1868990276470264,854518728062939,user_typing,Skin,2018-08-29 13:34:48
+1868990276470264,Mike,Solorio,23060,854518728062939,1868990276470264,BOT: message,Nice! :red_apple:,2018-08-29 13:34:49
+1868990276470264,Mike,Solorio,23061,854518728062939,1868990276470264,BOT: quick reply,The correct answer is skin.,2018-08-29 13:34:50
+1868990276470264,Mike,Solorio,23062,1868990276470264,854518728062939,user_quick_reply: WHY,Why?,2018-08-29 13:34:56
+1868990276470264,Mike,Solorio,23063,854518728062939,1868990276470264,BOT: message,This is an explanation of the question:,2018-08-29 13:34:57
+1868990276470264,Mike,Solorio,23064,854518728062939,1868990276470264,BOT: quick reply,"Touch is the ability to sense pain, pressure, or temperature. Nerve cells that sense touch are found mainly in the skin. The skin on the palms, soles, face, and lips has the most neurons. Neurons that sense pain are also found inside the body inside the body in the tongue, joints, muscles, and other organs.",2018-08-29 13:34:58
+1868990276470264,Mike,Solorio,23065,1868990276470264,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-29 13:35:53
+1868990276470264,Mike,Solorio,23066,854518728062939,1868990276470264,BOT: message,Let's take a look at this question.,2018-08-29 13:35:54
+1868990276470264,Mike,Solorio,23067,854518728062939,1868990276470264,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-29 13:35:55
+1868990276470264,Mike,Solorio,23068,854518728062939,1868990276470264,BOT: quick reply,What disease characterized by the extreme swelling of the limbs is caused by infection with a type of roundworm?,2018-08-29 13:35:55
+1868990276470264,Mike,Solorio,23069,1868990276470264,854518728062939,user_typing,Elephantiasis,2018-08-29 13:36:12
+1868990276470264,Mike,Solorio,23070,854518728062939,1868990276470264,BOT: message,Good Answer! :white_heavy_check_mark:,2018-08-29 13:36:13
+1868990276470264,Mike,Solorio,23071,854518728062939,1868990276470264,BOT: quick reply,The correct answer is elephantiasis.,2018-08-29 13:36:13
+1868990276470264,Mike,Solorio,23072,1868990276470264,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-29 13:36:21
+1868990276470264,Mike,Solorio,23073,854518728062939,1868990276470264,BOT: message,Let's try this question.,2018-08-29 13:36:21
+1868990276470264,Mike,Solorio,23074,854518728062939,1868990276470264,BOT: quick reply,How often should women perform a breast self-exam?,2018-08-29 13:36:22
+1868990276470264,Mike,Solorio,23075,1868990276470264,854518728062939,user_typing,Monthly,2018-08-29 13:36:31
+1868990276470264,Mike,Solorio,23076,854518728062939,1868990276470264,BOT: message,Good Answer! :white_heavy_check_mark:,2018-08-29 13:36:32
+1868990276470264,Mike,Solorio,23077,854518728062939,1868990276470264,BOT: quick reply,The correct answer is monthly.,2018-08-29 13:36:32
+1868990276470264,Mike,Solorio,23078,1868990276470264,854518728062939,user_quick_reply: SWITCH_SUBJECT,Change subject :shuffle_tracks_button:,2018-08-29 13:36:54
+1868990276470264,Mike,Solorio,23079,854518728062939,1868990276470264,BOT: quick reply,"Cool, which subject would you like to study?:backhand_index_pointing_down_medium-light_skin_tone:",2018-08-29 13:36:54
+1868990276470264,Mike,Solorio,23080,1868990276470264,854518728062939,user_quick_reply: SAFETY,Safety:hammer_and_wrench:,2018-08-29 13:37:06
+1868990276470264,Mike,Solorio,23081,854518728062939,1868990276470264,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/evolvescientist_safety.gif,2018-08-29 13:37:10
+1868990276470264,Mike,Solorio,23082,854518728062939,1868990276470264,BOT: quick reply,Safety first! Here's some questions on safety!,2018-08-29 13:37:11
+1868990276470264,Mike,Solorio,23083,1868990276470264,854518728062939,user_quick_reply: NEXT_QUESTION,Continue :backhand_index_pointing_right_medium-light_skin_tone:,2018-08-29 13:37:19
+1868990276470264,Mike,Solorio,23084,854518728062939,1868990276470264,BOT: message,Let's see if you can get this one.,2018-08-29 13:37:19
+1868990276470264,Mike,Solorio,23085,854518728062939,1868990276470264,BOT: quick reply,"What agency inspects, grades, and enforces standards of quality and wholesomeness for meat, poultry, milk, eggs, and grains?",2018-08-29 13:37:20
+1868990276470264,Mike,Solorio,23086,1868990276470264,854518728062939,user_typing,Fda,2018-08-29 13:37:28
+1868990276470264,Mike,Solorio,23087,854518728062939,1868990276470264,BOT: message,That's not quite right. :disappointed_face:,2018-08-29 13:37:28
+1868990276470264,Mike,Solorio,23088,854518728062939,1868990276470264,BOT: quick reply,The correct answer is USDA.,2018-08-29 13:37:29
+1868990276470264,Mike,Solorio,23089,1868990276470264,854518728062939,user_quick_reply: WHY,Why?,2018-08-29 13:37:35
+1868990276470264,Mike,Solorio,23090,854518728062939,1868990276470264,BOT: message,I hope this explanation could help you understand the the question.,2018-08-29 13:37:36
+1868990276470264,Mike,Solorio,23091,854518728062939,1868990276470264,BOT: quick reply,"The United States Department of Agriculture (informally called the USDA or Agriculture Department) is the federal executive division formed to develop and execute U.S. federal government policy on food, farming and agriculture.",2018-08-29 13:37:36
+1868990276470264,Mike,Solorio,23092,1868990276470264,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-29 13:37:59
+1868990276470264,Mike,Solorio,23093,854518728062939,1868990276470264,BOT: message,"Alrighty, let's try this one.",2018-08-29 13:38:00
+1868990276470264,Mike,Solorio,23094,854518728062939,1868990276470264,BOT: quick reply,To what does the acronym SLM refer?,2018-08-29 13:38:00
+1868990276470264,Mike,Solorio,23095,1868990276470264,854518728062939,user_quick_reply: I_DONT_KNOW,I dont know :downcast_face_with_sweat:,2018-08-29 13:38:07
+1868990276470264,Mike,Solorio,23096,854518728062939,1868990276470264,BOT: quick reply,Do you really want to give up?,2018-08-29 13:38:07
+1868990276470264,Mike,Solorio,23097,1868990276470264,854518728062939,user_quick_reply: GIVEUP_YES,"Yes, answer please.",2018-08-29 13:38:12
+1868990276470264,Mike,Solorio,23098,854518728062939,1868990276470264,BOT: message,You didn't get it right this time.,2018-08-29 13:38:13
+1868990276470264,Mike,Solorio,23099,854518728062939,1868990276470264,BOT: message,"That's okay, you'll get it next time! :grinning_face_with_smiling_eyes:",2018-08-29 13:38:13
+1868990276470264,Mike,Solorio,23100,854518728062939,1868990276470264,BOT: quick reply,The correct answer is Sound Level Meter.,2018-08-29 13:38:15
+1868990276470264,Mike,Solorio,23101,1868990276470264,854518728062939,user_quick_reply: WHY,Why?,2018-08-29 13:38:24
+1868990276470264,Mike,Solorio,23102,854518728062939,1868990276470264,BOT: message,This is an explanation of the question:,2018-08-29 13:38:24
+1868990276470264,Mike,Solorio,23103,854518728062939,1868990276470264,BOT: quick reply,The Sound Level Meter is an instrument used to measure noise levels.,2018-08-29 13:38:25
+1868990276470264,Mike,Solorio,23104,1868990276470264,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-29 13:38:36
+1868990276470264,Mike,Solorio,23105,854518728062939,1868990276470264,BOT: message,See if you can answer this next one.,2018-08-29 13:38:36
+1868990276470264,Mike,Solorio,23106,854518728062939,1868990276470264,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-29 13:38:37
+1868990276470264,Mike,Solorio,23107,854518728062939,1868990276470264,BOT: quick reply,True or false: portable fire extinguishers should only be used by trained employees.,2018-08-29 13:38:38
+1868990276470264,Mike,Solorio,23108,1868990276470264,854518728062939,user_typing,Tru,2018-08-29 13:38:49
+1868990276470264,Mike,Solorio,23109,854518728062939,1868990276470264,BOT: message,"I'm sorry, but that was incorrect. :disappointed_face:",2018-08-29 13:38:49
+1868990276470264,Mike,Solorio,23110,854518728062939,1868990276470264,BOT: quick reply,The correct answer is True.,2018-08-29 13:38:50
+1868990276470264,Mike,Solorio,23111,1868990276470264,854518728062939,user_quick_reply: WHY,Why?,2018-08-29 13:38:57
+1868990276470264,Mike,Solorio,23112,854518728062939,1868990276470264,BOT: message,Here's why:,2018-08-29 13:38:57
+1868990276470264,Mike,Solorio,23113,854518728062939,1868990276470264,BOT: quick reply,"Employers can choose to authorize some or all employees to use portable extinguishers. In both cases, employers should provide employees sufficient training to do so.",2018-08-29 13:38:58
+1868990276470264,Mike,Solorio,23297,854518728062939,1868990276470264,BOT: quick reply,"Hi Mike, you haven't talked to me for a while. Would you like to resume the learning with me?",2018-08-29 20:00:21
+1868990276470264,Mike,Solorio,25155,854518728062939,1868990276470264,BOT: message,Let's try this one.,2018-08-30 16:12:33
+1868990276470264,Mike,Solorio,25156,854518728062939,1868990276470264,BOT: quick reply,What should you NOT do while lifting objects?,2018-08-30 16:12:33
+1868990276470264,Mike,Solorio,25157,1868990276470264,854518728062939,user_typing,Keep feet together,2018-08-30 16:12:43
+1868990276470264,Mike,Solorio,25158,854518728062939,1868990276470264,BOT: message,Nice! :red_apple:,2018-08-30 16:12:43
+1868990276470264,Mike,Solorio,25159,854518728062939,1868990276470264,BOT: quick reply,The correct answer is Keep your feet together.,2018-08-30 16:12:44
+1868990276470264,Mike,Solorio,25160,1868990276470264,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-30 16:12:50
+1868990276470264,Mike,Solorio,25161,854518728062939,1868990276470264,BOT: message,Let's take a look at this question.,2018-08-30 16:12:51
+1868990276470264,Mike,Solorio,25162,854518728062939,1868990276470264,BOT: quick reply,True or false: portable fire extinguishers should only be used by trained employees.,2018-08-30 16:12:51
+1868990276470264,Mike,Solorio,25163,1868990276470264,854518728062939,user_typing,True,2018-08-30 16:12:59
+1868990276470264,Mike,Solorio,25164,854518728062939,1868990276470264,BOT: message,Fantastic! :hundred_points:,2018-08-30 16:12:59
+1868990276470264,Mike,Solorio,25165,854518728062939,1868990276470264,BOT: quick reply,The correct answer is True.,2018-08-30 16:13:00
+1868990276470264,Mike,Solorio,25166,1868990276470264,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-30 16:13:08
+1868990276470264,Mike,Solorio,25167,854518728062939,1868990276470264,BOT: message,Let's try this question.,2018-08-30 16:13:08
+1868990276470264,Mike,Solorio,25168,854518728062939,1868990276470264,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-30 16:13:09
+1868990276470264,Mike,Solorio,25169,854518728062939,1868990276470264,BOT: quick reply,Which fire extinguishers are used to put out Class A fires?,2018-08-30 16:13:09
+1868990276470264,Mike,Solorio,25170,1868990276470264,854518728062939,user_typing,C02 or water,2018-08-30 16:13:26
+1868990276470264,Mike,Solorio,25171,854518728062939,1868990276470264,BOT: message,"Oops, that answer was incorrect. :disappointed_face:",2018-08-30 16:13:26
+1868990276470264,Mike,Solorio,25172,854518728062939,1868990276470264,BOT: quick reply,The correct answer is Both water and multi-purpose dry chemical.,2018-08-30 16:13:27
+1868990276470264,Mike,Solorio,25173,1868990276470264,854518728062939,user_quick_reply: WHY,Why?,2018-08-30 16:13:34
+1868990276470264,Mike,Solorio,25174,854518728062939,1868990276470264,BOT: message,This is an explanation of the question:,2018-08-30 16:13:35
+1868990276470264,Mike,Solorio,25175,854518728062939,1868990276470264,BOT: quick reply,"Class A fires include fires in ordinary combustibles: paper, wood, cloth, rubber, and many plastics. Water based fire extinguishers and multi-purpose dry chemical based fire extinguishers are suitable for Class A fires. However, ordinary dry chemical fire extinguishers are suitable for only Class B and Class C fires",2018-08-30 16:13:35
+1868990276470264,Mike,Solorio,25176,1868990276470264,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-30 16:14:10
+1868990276470264,Mike,Solorio,25177,854518728062939,1868990276470264,BOT: message,Let's try this one.,2018-08-30 16:14:10
+1868990276470264,Mike,Solorio,25178,854518728062939,1868990276470264,BOT: quick reply,What should you NOT do while treating cuts and scrapes?,2018-08-30 16:14:11
+1868990276470264,Mike,Solorio,25179,1868990276470264,854518728062939,user_typing,Use soap,2018-08-30 16:14:20
+1868990276470264,Mike,Solorio,25180,854518728062939,1868990276470264,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_happy_pink.png,2018-08-30 16:14:22
+1868990276470264,Mike,Solorio,25181,854518728062939,1868990276470264,BOT: message,Thats right! :party_popper:,2018-08-30 16:14:22
+1868990276470264,Mike,Solorio,25182,854518728062939,1868990276470264,BOT: quick reply,The correct answer is Wash the wound with soap.,2018-08-30 16:14:23
+1868990276470264,Mike,Solorio,25183,1868990276470264,854518728062939,user_quick_reply: WHY,Why?,2018-08-30 16:14:27
+1868990276470264,Mike,Solorio,25184,854518728062939,1868990276470264,BOT: message,This is an explanation of the question:,2018-08-30 16:14:27
+1868990276470264,Mike,Solorio,25185,854518728062939,1868990276470264,BOT: quick reply,"Although cuts and scrapes do not require the victim to visit an emergency room, proper care is needed to avoid infections. If you're treating wounds, Mayo Clinic advises you to stop the bleeding by applying gentle pressure on the wound for 20 to 30 minutes; use clear water to clean the wound and tweezers cleaned with alcohol to remove particles from the wound, if there are any; avoid using soap as it may cause irritation; apply an antibiotic to the affected area; cover the wound to keep harmful bacteria out; and change the dressing regularly or when it becomes wet or dirty. For wounds that are deeper than 1/4 inch or 6 millimeters, visit a health practitioner to get stitches.",2018-08-30 16:14:28
+1868990276470264,Mike,Solorio,25186,1868990276470264,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-30 16:15:09
+1868990276470264,Mike,Solorio,25187,854518728062939,1868990276470264,BOT: message,Would you answer this question for me?,2018-08-30 16:15:09
+1868990276470264,Mike,Solorio,25188,854518728062939,1868990276470264,BOT: quick reply,To what does the acronym SLM refer?,2018-08-30 16:15:10
+1868990276470264,Mike,Solorio,25189,1868990276470264,854518728062939,user_typing,Sound level machine,2018-08-30 16:15:21
+1868990276470264,Mike,Solorio,25190,854518728062939,1868990276470264,BOT: message,Nice! :red_apple:,2018-08-30 16:15:22
+1868990276470264,Mike,Solorio,25191,854518728062939,1868990276470264,BOT: quick reply,The correct answer is Sound Level Meter.,2018-08-30 16:15:23
+1868990276470264,Mike,Solorio,25192,1868990276470264,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-30 16:15:28
+1868990276470264,Mike,Solorio,25193,854518728062939,1868990276470264,BOT: message,How about this next one:,2018-08-30 16:15:29
+1868990276470264,Mike,Solorio,25194,854518728062939,1868990276470264,BOT: quick reply,"True or false: you can always smell, see, or taste harmful bacteria in food that can cause illness.",2018-08-30 16:15:29
+1868990276470264,Mike,Solorio,25195,1868990276470264,854518728062939,user_typing,False,2018-08-30 16:15:36
+1868990276470264,Mike,Solorio,25196,854518728062939,1868990276470264,BOT: message,Nice! :red_apple:,2018-08-30 16:15:37
+1868990276470264,Mike,Solorio,25197,854518728062939,1868990276470264,BOT: quick reply,The correct answer is False.,2018-08-30 16:15:37
+1868990276470264,Mike,Solorio,25198,1868990276470264,854518728062939,user_quick_reply: WHY,Why?,2018-08-30 16:15:41
+1868990276470264,Mike,Solorio,25199,854518728062939,1868990276470264,BOT: message,This is an explanation of the question:,2018-08-30 16:15:42
+1868990276470264,Mike,Solorio,25200,854518728062939,1868990276470264,BOT: quick reply,"United States Department of Agriculture (USDA) states that you cannot always see, taste, or smell harmful bacteria that may cause illness.",2018-08-30 16:15:42
+1868990276470264,Mike,Solorio,25201,1868990276470264,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-30 16:15:49
+1868990276470264,Mike,Solorio,25202,854518728062939,1868990276470264,BOT: message,I think you'll like this question.,2018-08-30 16:15:49
+1868990276470264,Mike,Solorio,25203,854518728062939,1868990276470264,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-30 16:15:50
+1868990276470264,Mike,Solorio,25204,854518728062939,1868990276470264,BOT: quick reply,True or false: portable fire extinguishers should only be used by trained employees.,2018-08-30 16:15:50
+1868990276470264,Mike,Solorio,25205,1868990276470264,854518728062939,user_typing,Tru,2018-08-30 16:16:01
+1868990276470264,Mike,Solorio,25206,854518728062939,1868990276470264,BOT: message,That wasn't quite what we were looking for. :disappointed_face:,2018-08-30 16:16:01
+1868990276470264,Mike,Solorio,25207,854518728062939,1868990276470264,BOT: quick reply,The correct answer is True.,2018-08-30 16:16:02
+1868990276470264,Mike,Solorio,25208,1868990276470264,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-30 16:16:09
+1868990276470264,Mike,Solorio,25209,854518728062939,1868990276470264,BOT: message,Let's see if you can get this one.,2018-08-30 16:16:10
+1868990276470264,Mike,Solorio,25210,854518728062939,1868990276470264,BOT: quick reply,What should you NOT do when lowering a load?,2018-08-30 16:16:10
+1868990276470264,Mike,Solorio,25211,1868990276470264,854518728062939,user_quick_reply: I_DONT_KNOW,I dont know :downcast_face_with_sweat:,2018-08-30 16:16:18
+1868990276470264,Mike,Solorio,25212,854518728062939,1868990276470264,BOT: quick reply,Are you sure you want to give up?,2018-08-30 16:16:19
+1868990276470264,Mike,Solorio,25213,1868990276470264,854518728062939,user_quick_reply: GIVEUP_YES,"Yes, answer please.",2018-08-30 16:16:22
+1868990276470264,Mike,Solorio,25214,854518728062939,1868990276470264,BOT: message,"I'm sorry, you didn't get the question right this time.",2018-08-30 16:16:22
+1868990276470264,Mike,Solorio,25215,854518728062939,1868990276470264,BOT: message,"Don't give up, you'll get it next time! :grinning_face_with_smiling_eyes:",2018-08-30 16:16:22
+1868990276470264,Mike,Solorio,25216,854518728062939,1868990276470264,BOT: quick reply,The correct answer is Twist your body.,2018-08-30 16:16:23
+1868990276470264,Mike,Solorio,25217,1868990276470264,854518728062939,user_quick_reply: WHY,Why?,2018-08-30 16:16:29
+1868990276470264,Mike,Solorio,25218,854518728062939,1868990276470264,BOT: message,Here's an explanation:,2018-08-30 16:16:29
+1868990276470264,Mike,Solorio,25219,854518728062939,1868990276470264,BOT: quick reply,"To lower a load, you should make use of its edge, bend your knees, keep the load close to their body, and avoid twisting your torso.",2018-08-30 16:16:30
+1868990276470264,Mike,Solorio,25220,1868990276470264,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-30 16:16:41
+1868990276470264,Mike,Solorio,25221,854518728062939,1868990276470264,BOT: message,Let's see if you can get this one.,2018-08-30 16:16:42
+1868990276470264,Mike,Solorio,25222,854518728062939,1868990276470264,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-30 16:16:42
+1868990276470264,Mike,Solorio,25223,854518728062939,1868990276470264,BOT: quick reply,True or false: portable fire extinguishers should only be used by trained employees.,2018-08-30 16:16:42
+1868990276470264,Mike,Solorio,25224,1868990276470264,854518728062939,user_typing,True,2018-08-30 16:16:53
+1868990276470264,Mike,Solorio,25225,854518728062939,1868990276470264,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_happy_orange.png,2018-08-30 16:16:55
+1868990276470264,Mike,Solorio,25226,854518728062939,1868990276470264,BOT: message,Good Answer! :white_heavy_check_mark:,2018-08-30 16:16:56
+1868990276470264,Mike,Solorio,25227,854518728062939,1868990276470264,BOT: quick reply,The correct answer is True.,2018-08-30 16:16:56
+1868990276470264,Mike,Solorio,25228,1868990276470264,854518728062939,user_quick_reply: SWITCH_SUBJECT,Change subject :shuffle_tracks_button:,2018-08-30 16:17:01
+1868990276470264,Mike,Solorio,25229,854518728062939,1868990276470264,BOT: quick reply,"Okay, now tell me which subject you would like to study.:backhand_index_pointing_down_medium-light_skin_tone:",2018-08-30 16:17:01
+1868990276470264,Mike,Solorio,25230,1868990276470264,854518728062939,user_quick_reply: GRE,GRE :input_latin_uppercase:,2018-08-30 16:17:06
+1868990276470264,Mike,Solorio,25231,854518728062939,1868990276470264,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/evolvesafety_reading.gif,2018-08-30 16:17:10
+1868990276470264,Mike,Solorio,25232,854518728062939,1868990276470264,BOT: quick reply,Cool! Here's some questions on the GRE!,2018-08-30 16:17:10
+1868990276470264,Mike,Solorio,25233,1868990276470264,854518728062939,user_quick_reply: NEXT_QUESTION,Tap me :light_bulb:,2018-08-30 16:17:16
+1868990276470264,Mike,Solorio,25234,854518728062939,1868990276470264,BOT: message,Would you answer this question for me?,2018-08-30 16:17:17
+1868990276470264,Mike,Solorio,25235,854518728062939,1868990276470264,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-30 16:17:17
+1868990276470264,Mike,Solorio,25236,854518728062939,1868990276470264,BOT: quick reply,"In psychological literature, the ""sleeper effect"" refers to the phenomenon in which a persuasive message from a trustworthy source loses _____ over time, while the efficacy of a message from a less credible source simultaneously increases.",2018-08-30 16:17:18
+1868990276470264,Mike,Solorio,25237,1868990276470264,854518728062939,user_typing,Credibility,2018-08-30 16:17:32
+1868990276470264,Mike,Solorio,25238,854518728062939,1868990276470264,BOT: message,That's not quite right. :disappointed_face:,2018-08-30 16:17:32
+1868990276470264,Mike,Solorio,25239,854518728062939,1868990276470264,BOT: quick reply,The correct answer is cogency.,2018-08-30 16:17:33
+1868990276470264,Mike,Solorio,25240,1868990276470264,854518728062939,user_quick_reply: WHY,Why?,2018-08-30 16:17:37
+1868990276470264,Mike,Solorio,25241,854518728062939,1868990276470264,BOT: message,This is an explanation of the question:,2018-08-30 16:17:38
+1868990276470264,Mike,Solorio,25242,854518728062939,1868990276470264,BOT: quick reply,:pushpin: Cogency -- persuasive relevance,2018-08-30 16:17:39
+1868990276470264,Mike,Solorio,25243,1868990276470264,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-30 16:17:45
+1868990276470264,Mike,Solorio,25244,854518728062939,1868990276470264,BOT: message,Here's a question for you:,2018-08-30 16:17:45
+1868990276470264,Mike,Solorio,25245,854518728062939,1868990276470264,BOT: quick reply,The Erie Canal's completion caused _____ economic ripples; property values and industrial output along its route rose exponentially.,2018-08-30 16:17:46
+1868990276470264,Mike,Solorio,25246,1868990276470264,854518728062939,user_typing,A shitload,2018-08-30 16:18:01
+1868990276470264,Mike,Solorio,25247,854518728062939,1868990276470264,BOT: message,That's not quite right. :disappointed_face:,2018-08-30 16:18:02
+1868990276470264,Mike,Solorio,25248,854518728062939,1868990276470264,BOT: quick reply,The correct answer is prodigious.,2018-08-30 16:18:02
+1868990276470264,Mike,Solorio,25249,1868990276470264,854518728062939,user_quick_reply: WHY,Why?,2018-08-30 16:18:07
+1868990276470264,Mike,Solorio,25250,854518728062939,1868990276470264,BOT: message,Here's why:,2018-08-30 16:18:08
+1868990276470264,Mike,Solorio,25251,854518728062939,1868990276470264,BOT: quick reply,:pushpin: Prodigious -- so great in size or force or extent as to elicit awe,2018-08-30 16:18:08
+1868990276470264,Mike,Solorio,25252,1868990276470264,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-30 16:18:19
+1868990276470264,Mike,Solorio,25253,854518728062939,1868990276470264,BOT: message,Let's take a look at this question.,2018-08-30 16:18:20
+1868990276470264,Mike,Solorio,25254,854518728062939,1868990276470264,BOT: quick reply,"Prior to taking on the new invader, the defending army had engaged in arduous combat; it is likely that the _____ resulting from waging two battles in two days played a part in its subsequent defeat.",2018-08-30 16:18:20
+1868990276470264,Mike,Solorio,25255,1868990276470264,854518728062939,user_typing,Fatigue,2018-08-30 16:18:34
+1868990276470264,Mike,Solorio,25256,854518728062939,1868990276470264,BOT: message,"Oops, that answer was incorrect. :disappointed_face:",2018-08-30 16:18:35
+1868990276470264,Mike,Solorio,25257,854518728062939,1868990276470264,BOT: quick reply,The correct answer is enervation.,2018-08-30 16:18:35
+1868990276470264,Mike,Solorio,25258,1868990276470264,854518728062939,user_quick_reply: WHY,Why?,2018-08-30 16:18:40
+1868990276470264,Mike,Solorio,25259,854518728062939,1868990276470264,BOT: message,Here's why:,2018-08-30 16:18:40
+1868990276470264,Mike,Solorio,25260,854518728062939,1868990276470264,BOT: quick reply,:pushpin: Enervation -- lack of vitality,2018-08-30 16:18:41
+1868990276470264,Mike,Solorio,25261,1868990276470264,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-30 16:18:47
+1868990276470264,Mike,Solorio,25262,854518728062939,1868990276470264,BOT: message,See if you can answer this next one.,2018-08-30 16:18:47
+1868990276470264,Mike,Solorio,25263,854518728062939,1868990276470264,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-30 16:18:48
+1868990276470264,Mike,Solorio,25264,854518728062939,1868990276470264,BOT: quick reply,While she may have answered him truthfully - in the strictest sense of the word - it became clear to Sergei after the incident that Sheryl had actually been trying to _____ .,2018-08-30 16:18:49
+1868990276470264,Mike,Solorio,25265,1868990276470264,854518728062939,user_typing,Covet,2018-08-30 16:19:06
+1868990276470264,Mike,Solorio,25266,854518728062939,1868990276470264,BOT: message,That's not quite right. :disappointed_face:,2018-08-30 16:19:07
+1868990276470264,Mike,Solorio,25267,854518728062939,1868990276470264,BOT: quick reply,The correct answer is obfuscate.,2018-08-30 16:19:07
+1868990276470264,Mike,Solorio,25268,1868990276470264,854518728062939,user_quick_reply: WHY,Why?,2018-08-30 16:19:12
+1868990276470264,Mike,Solorio,25269,854518728062939,1868990276470264,BOT: message,This is why:,2018-08-30 16:19:13
+1868990276470264,Mike,Solorio,25270,854518728062939,1868990276470264,BOT: quick reply,:pushpin: Obfuscate -- make obscure or unclear,2018-08-30 16:19:13
+1868990276470264,Mike,Solorio,25271,1868990276470264,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-30 16:19:19
+1868990276470264,Mike,Solorio,25272,854518728062939,1868990276470264,BOT: message,"Alrighty, let's try this one.",2018-08-30 16:19:20
+1868990276470264,Mike,Solorio,25273,854518728062939,1868990276470264,BOT: quick reply,The Erie Canal's completion caused _____ economic ripples; property values and industrial output along its route rose exponentially.,2018-08-30 16:19:21
+1868990276470264,Mike,Solorio,25274,1868990276470264,854518728062939,user_typing,Prodigious,2018-08-30 16:19:31
+1868990276470264,Mike,Solorio,25275,854518728062939,1868990276470264,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_normal_cyan.png,2018-08-30 16:19:32
+1868990276470264,Mike,Solorio,25276,854518728062939,1868990276470264,BOT: message,Nice! :red_apple:,2018-08-30 16:19:33
+1868990276470264,Mike,Solorio,25277,854518728062939,1868990276470264,BOT: quick reply,The correct answer is prodigious.,2018-08-30 16:19:33
+1868990276470264,Mike,Solorio,25278,1868990276470264,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-30 16:19:38
+1868990276470264,Mike,Solorio,25279,854518728062939,1868990276470264,BOT: message,Let's see if you can get this one.,2018-08-30 16:19:38
+1868990276470264,Mike,Solorio,25280,854518728062939,1868990276470264,BOT: quick reply,"In psychological literature, the ""sleeper effect"" refers to the phenomenon in which a persuasive message from a trustworthy source loses _____ over time, while the efficacy of a message from a less credible source simultaneously increases.",2018-08-30 16:19:39
+1868990276470264,Mike,Solorio,25281,1868990276470264,854518728062939,user_typing,Cogency,2018-08-30 16:19:48
+1868990276470264,Mike,Solorio,25282,854518728062939,1868990276470264,BOT: message,Nice! :red_apple:,2018-08-30 16:19:49
+1868990276470264,Mike,Solorio,25283,854518728062939,1868990276470264,BOT: quick reply,The correct answer is cogency.,2018-08-30 16:19:49
+1868990276470264,Mike,Solorio,25284,1868990276470264,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-30 16:19:53
+1868990276470264,Mike,Solorio,25285,854518728062939,1868990276470264,BOT: message,Let's see if you can get this one.,2018-08-30 16:19:54
+1868990276470264,Mike,Solorio,25286,854518728062939,1868990276470264,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-30 16:19:54
+1868990276470264,Mike,Solorio,25287,854518728062939,1868990276470264,BOT: quick reply,Many Major League Baseball relief pitchers choose an electrifying theme song to play as they take the mound; the song _____ their fans and instills fear in their opponents.,2018-08-30 16:19:55
+1868990276470264,Mike,Solorio,25288,1868990276470264,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-30 16:20:04
+1868990276470264,Mike,Solorio,25289,854518728062939,1868990276470264,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-08-30 16:20:05
+1868990276470264,Mike,Solorio,25290,854518728062939,1868990276470264,BOT: quick reply,":keycap_1: enervates
+:keycap_2: eviscerates
+:keycap_3: innervates
+:keycap_4: pervades
+:keycap_5: assuages
+",2018-08-30 16:20:06
+1868990276470264,Mike,Solorio,25291,1868990276470264,854518728062939,user_quick_reply: BUTTON_DKB_assuages,:keycap_5:,2018-08-30 16:20:26
+1868990276470264,Mike,Solorio,25292,854518728062939,1868990276470264,BOT: message,"Oops, that wasn't quite correct. :disappointed_face:",2018-08-30 16:20:27
+1868990276470264,Mike,Solorio,25293,854518728062939,1868990276470264,BOT: quick reply,The correct answer is innervates.,2018-08-30 16:20:27
+1868990276470264,Mike,Solorio,25294,1868990276470264,854518728062939,user_quick_reply: WHY,Why?,2018-08-30 16:20:31
+1868990276470264,Mike,Solorio,25295,854518728062939,1868990276470264,BOT: message,This is an explanation of the question:,2018-08-30 16:20:32
+1868990276470264,Mike,Solorio,25296,854518728062939,1868990276470264,BOT: quick reply,":pushpin: Innervates -- to supply with nerves
+:pushpin: Eviscerates -- surgically remove a part of a structure or an organ
+:pushpin: Enervates -- weaken mentally or morally
+:pushpin: Assuages -- cause to be more favorably inclined; gain the good will of
+:pushpin: Pervades -- spread or diffuse through",2018-08-30 16:20:33
+1868990276470264,Mike,Solorio,25297,1868990276470264,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-30 16:20:57
+1868990276470264,Mike,Solorio,25298,854518728062939,1868990276470264,BOT: message,Let's see if you can get this one.,2018-08-30 16:20:57
+1868990276470264,Mike,Solorio,25299,854518728062939,1868990276470264,BOT: quick reply,"Modern tennis fans have come to realize that, although, quantum technological leaps in racquet technology have lead to _____ increases in the speed and power with which players can hit the ball, this has not necessarily lead to a more entertaining game.",2018-08-30 16:20:58
+1868990276470264,Mike,Solorio,25300,1868990276470264,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-30 16:21:02
+1868990276470264,Mike,Solorio,25301,854518728062939,1868990276470264,BOT: message,Okay. I'll give you some choices.,2018-08-30 16:21:03
+1868990276470264,Mike,Solorio,25302,854518728062939,1868990276470264,BOT: quick reply,":keycap_1: commensurate
+:keycap_2: halcyon
+:keycap_3: innocuous
+:keycap_4: tractable
+:keycap_5: malleable
+",2018-08-30 16:21:03
+1868990276470264,Mike,Solorio,25303,1868990276470264,854518728062939,user_quick_reply: BUTTON_DKB_tractable,:keycap_4:,2018-08-30 16:21:23
+1868990276470264,Mike,Solorio,25304,854518728062939,1868990276470264,BOT: message,"Oops, that wasn't quite correct. :disappointed_face:",2018-08-30 16:21:23
+1868990276470264,Mike,Solorio,25305,854518728062939,1868990276470264,BOT: quick reply,The correct answer is commensurate.,2018-08-30 16:21:24
+1868990276470264,Mike,Solorio,25306,1868990276470264,854518728062939,user_quick_reply: WHY,Why?,2018-08-30 16:21:30
+1868990276470264,Mike,Solorio,25307,854518728062939,1868990276470264,BOT: message,I hope this explanation could help you understand the the question.,2018-08-30 16:21:30
+1868990276470264,Mike,Solorio,25308,854518728062939,1868990276470264,BOT: quick reply,":pushpin: Commensurate -- corresponding in size or degree or extent
+:pushpin: Innocuous -- not injurious to physical or mental health
+:pushpin: Halcyon -- idyllically calm and peaceful; suggesting happy tranquillity
+:pushpin: Malleable -- easily influenced
+:pushpin: Tractable -- easily managed (controlled or taught or molded",2018-08-30 16:21:31
+1868990276470264,Mike,Solorio,25309,1868990276470264,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-30 16:22:00
+1868990276470264,Mike,Solorio,25310,854518728062939,1868990276470264,BOT: message,Could you answer this one for me?,2018-08-30 16:22:00
+1868990276470264,Mike,Solorio,25311,854518728062939,1868990276470264,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-30 16:22:01
+1868990276470264,Mike,Solorio,25312,854518728062939,1868990276470264,BOT: quick reply,"Even though legislators claimed the Contagious Diseases Acts strengthened the nation, social purists argued the Acts _____ the nation's moral growth by encouraging licentious behavior.",2018-08-30 16:22:01
+1868990276470264,Mike,Solorio,25313,1868990276470264,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-30 16:22:14
+1868990276470264,Mike,Solorio,25314,854518728062939,1868990276470264,BOT: message,Okay. I'll give you some choices.,2018-08-30 16:22:14
+1868990276470264,Mike,Solorio,25315,854518728062939,1868990276470264,BOT: quick reply,":keycap_1: ameliorated
+:keycap_2: supplanted
+:keycap_3: hampered
+:keycap_4: enhanced
+:keycap_5: advanced
+",2018-08-30 16:22:15
+1868990276470264,Mike,Solorio,25316,1868990276470264,854518728062939,user_quick_reply: BUTTON_AKB_hampered,:keycap_3:,2018-08-30 16:22:32
+1868990276470264,Mike,Solorio,25317,854518728062939,1868990276470264,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_normal_orange.png,2018-08-30 16:22:34
+1868990276470264,Mike,Solorio,25318,854518728062939,1868990276470264,BOT: message,Great! Keep it up! :flexed_biceps_medium-light_skin_tone:,2018-08-30 16:22:35
+1868990276470264,Mike,Solorio,25319,854518728062939,1868990276470264,BOT: quick reply,The correct answer is hampered.,2018-08-30 16:22:35
+1868990276470264,Mike,Solorio,25320,1868990276470264,854518728062939,user_quick_reply: WHY,Why?,2018-08-30 16:22:39
+1868990276470264,Mike,Solorio,25321,854518728062939,1868990276470264,BOT: message,Here's an explanation:,2018-08-30 16:22:39
+1868990276470264,Mike,Solorio,25322,854518728062939,1868990276470264,BOT: quick reply,":pushpin: Hampered -- prevent the progress or free movement of
+:pushpin: Advanced -- move or bring forward
+:pushpin: Ameliorated -- to make better
+:pushpin: Supplanted -- take the place or move into the position of
+:pushpin: Enhanced -- increased or intensified in value or beauty or quality",2018-08-30 16:22:40
+1868990276470264,Mike,Solorio,26198,854518728062939,1868990276470264,BOT: quick reply,"Hi Mike, you haven't talked to me for a while. Would you like to resume the learning with me?",2018-08-30 20:00:37

@@ -1,0 +1,161 @@
+user_id,user_firstname,user_lastname,uid,sender,recipient,type,dialogue,time_stamp
+2126524424026445,Owen,Wang,20366,2126524424026445,854518728062939,persistent_menu: GET_INTRO_1,Get Started,2018-08-28 13:52:56
+2126524424026445,Owen,Wang,20367,854518728062939,2126524424026445,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/quizbot_avatar.png,2018-08-28 13:52:59
+2126524424026445,Owen,Wang,20368,854518728062939,2126524424026445,BOT: quick reply,"Hi Owen! My name is Frosty :penguin: and Im here to help you learn all about science:microscope:, verbal reasoning (GRE) :input_latin_uppercase:, and safety:hammer_and_wrench:!",2018-08-28 13:53:00
+2126524424026445,Owen,Wang,20369,2126524424026445,854518728062939,persistent_menu: SAFETY,Safety:hammer_and_wrench:,2018-08-28 13:53:10
+2126524424026445,Owen,Wang,20370,854518728062939,2126524424026445,BOT: quick reply,Okay! Lets see how much you know about safety!,2018-08-28 13:53:11
+2126524424026445,Owen,Wang,20371,2126524424026445,854518728062939,user_quick_reply: NEXT_QUESTION,I see :raising_hands_medium-light_skin_tone:,2018-08-28 13:53:17
+2126524424026445,Owen,Wang,20372,854518728062939,2126524424026445,BOT: message,"Alrighty, let's try this one.",2018-08-28 13:53:17
+2126524424026445,Owen,Wang,20373,854518728062939,2126524424026445,BOT: quick reply,"True or false: if you wear a back belt, you can lift more weight than you could without a belt.",2018-08-28 13:53:18
+2126524424026445,Owen,Wang,20374,2126524424026445,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-28 13:53:27
+2126524424026445,Owen,Wang,20375,854518728062939,2126524424026445,BOT: message,It's one of the following choices.,2018-08-28 13:53:28
+2126524424026445,Owen,Wang,20376,854518728062939,2126524424026445,BOT: quick reply,":keycap_1: False
+:keycap_2: True
+",2018-08-28 13:53:29
+2126524424026445,Owen,Wang,20377,2126524424026445,854518728062939,persistent_menu: USER_MANUAL_1,User Manual :woman_technologist_light_skin_tone::man_technologist_light_skin_tone:,2018-08-28 13:53:44
+2126524424026445,Owen,Wang,20378,854518728062939,2126524424026445,BOT: image,https://www.smartprimer.org:8443/pictures/user_manual/typeanswer.png,2018-08-28 13:53:46
+2126524424026445,Owen,Wang,20379,854518728062939,2126524424026445,BOT: quick reply,"To study the questions, you can type in your answers in the text field and I will evaluate the answers for you using advanced NLP (Natural Language Processing) technology.",2018-08-28 13:53:46
+2126524424026445,Owen,Wang,21026,854518728062939,2126524424026445,BOT: quick reply,"Hi Owen, you haven't talked to me for a while. Would you like to resume the learning with me?",2018-08-28 20:00:11
+2126524424026445,Owen,Wang,22032,2126524424026445,854518728062939,user_quick_reply: NEXT_QUESTION,Next :flexed_biceps_medium-light_skin_tone:,2018-08-28 23:35:22
+2126524424026445,Owen,Wang,22033,854518728062939,2126524424026445,BOT: message,How about this next one:,2018-08-28 23:35:23
+2126524424026445,Owen,Wang,22034,854518728062939,2126524424026445,BOT: quick reply,How long can high-acid canned food such as tomatoes be stored?,2018-08-28 23:35:23
+2126524424026445,Owen,Wang,22035,2126524424026445,854518728062939,user_typing,A month,2018-08-28 23:35:43
+2126524424026445,Owen,Wang,22036,854518728062939,2126524424026445,BOT: message,That's not quite right. :disappointed_face:,2018-08-28 23:35:44
+2126524424026445,Owen,Wang,22037,854518728062939,2126524424026445,BOT: quick reply,The correct answer is 12 to 18 months.,2018-08-28 23:35:44
+2126524424026445,Owen,Wang,22038,2126524424026445,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-28 23:35:52
+2126524424026445,Owen,Wang,22039,854518728062939,2126524424026445,BOT: message,Let's take a look at this question.,2018-08-28 23:35:53
+2126524424026445,Owen,Wang,22040,854518728062939,2126524424026445,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-28 23:35:54
+2126524424026445,Owen,Wang,22041,854518728062939,2126524424026445,BOT: quick reply,"When you discover a fire, you should do what?",2018-08-28 23:35:54
+2126524424026445,Owen,Wang,22042,2126524424026445,854518728062939,user_typing,Call for help,2018-08-28 23:36:06
+2126524424026445,Owen,Wang,22043,854518728062939,2126524424026445,BOT: message,"Oops, that answer was incorrect. :disappointed_face:",2018-08-28 23:36:07
+2126524424026445,Owen,Wang,22044,854518728062939,2126524424026445,BOT: quick reply,The correct answer is Pull the fire alarm and call the fire department.,2018-08-28 23:36:07
+2126524424026445,Owen,Wang,22045,2126524424026445,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-28 23:36:15
+2126524424026445,Owen,Wang,22046,854518728062939,2126524424026445,BOT: message,Let's see if you would answer this one.,2018-08-28 23:36:16
+2126524424026445,Owen,Wang,22047,854518728062939,2126524424026445,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-28 23:36:17
+2126524424026445,Owen,Wang,22048,854518728062939,2126524424026445,BOT: quick reply,What does CERT stand for?,2018-08-28 23:36:17
+2126524424026445,Owen,Wang,22049,2126524424026445,854518728062939,user_quick_reply: I_DONT_KNOW,I dont know :downcast_face_with_sweat:,2018-08-28 23:36:31
+2126524424026445,Owen,Wang,22050,854518728062939,2126524424026445,BOT: quick reply,Are you sure you want to give up?,2018-08-28 23:36:32
+2126524424026445,Owen,Wang,22077,2126524424026445,854518728062939,user_quick_reply: GIVEUP_YES,"Yes, answer please.",2018-08-28 23:49:26
+2126524424026445,Owen,Wang,22078,854518728062939,2126524424026445,BOT: message,"I'm sorry, you didn't get the question right this time.",2018-08-28 23:49:27
+2126524424026445,Owen,Wang,22079,854518728062939,2126524424026445,BOT: message,"Don't give up, you'll get it next time! :grinning_face_with_smiling_eyes:",2018-08-28 23:49:27
+2126524424026445,Owen,Wang,22080,854518728062939,2126524424026445,BOT: quick reply,The correct answer is Community Emergency Response Team.,2018-08-28 23:49:28
+2126524424026445,Owen,Wang,22081,2126524424026445,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-28 23:49:38
+2126524424026445,Owen,Wang,22082,854518728062939,2126524424026445,BOT: message,Let's try this one.,2018-08-28 23:49:39
+2126524424026445,Owen,Wang,22083,854518728062939,2126524424026445,BOT: quick reply,How long can high-acid canned food such as tomatoes be stored?,2018-08-28 23:49:39
+2126524424026445,Owen,Wang,22084,2126524424026445,854518728062939,user_typing,12-18 months,2018-08-28 23:49:48
+2126524424026445,Owen,Wang,22085,854518728062939,2126524424026445,BOT: message,Good job! :raising_hands_medium-light_skin_tone:,2018-08-28 23:49:48
+2126524424026445,Owen,Wang,22086,854518728062939,2126524424026445,BOT: quick reply,The correct answer is 12 to 18 months.,2018-08-28 23:49:49
+2126524424026445,Owen,Wang,22087,2126524424026445,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-28 23:49:53
+2126524424026445,Owen,Wang,22088,854518728062939,2126524424026445,BOT: message,Here's a question for you:,2018-08-28 23:49:54
+2126524424026445,Owen,Wang,22089,854518728062939,2126524424026445,BOT: quick reply,"If your co-worker needs CPR but you are not trained in it, what should you do?",2018-08-28 23:49:54
+2126524424026445,Owen,Wang,22093,2126524424026445,854518728062939,user_typing,Seek a professional,2018-08-28 23:50:07
+2126524424026445,Owen,Wang,22094,854518728062939,2126524424026445,BOT: message,That's not quite right. :disappointed_face:,2018-08-28 23:50:08
+2126524424026445,Owen,Wang,22095,854518728062939,2126524424026445,BOT: quick reply,The correct answer is Perform chest compressions only.,2018-08-28 23:50:08
+2126524424026445,Owen,Wang,22109,2126524424026445,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-28 23:51:15
+2126524424026445,Owen,Wang,22110,854518728062939,2126524424026445,BOT: message,Would you answer this question for me?,2018-08-28 23:51:16
+2126524424026445,Owen,Wang,22111,854518728062939,2126524424026445,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-28 23:51:16
+2126524424026445,Owen,Wang,22112,854518728062939,2126524424026445,BOT: quick reply,Which fire extinguishers are used to put out fires caused by flammable liquids?,2018-08-28 23:51:17
+2126524424026445,Owen,Wang,22113,2126524424026445,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-28 23:51:32
+2126524424026445,Owen,Wang,22114,854518728062939,2126524424026445,BOT: message,Pick one of the following answers.,2018-08-28 23:51:33
+2126524424026445,Owen,Wang,22115,854518728062939,2126524424026445,BOT: quick reply,":keycap_1: Class C dry chemical fire extinguisher
+:keycap_2: Class A water fire extinguishers
+:keycap_3: Class B carbon dioxide fire extinguisher
+",2018-08-28 23:51:33
+2126524424026445,Owen,Wang,22123,2126524424026445,854518728062939,user_quick_reply: BUTTON_AKB_Class B carbon dioxide fire extinguisher,:keycap_3:,2018-08-28 23:51:45
+2126524424026445,Owen,Wang,22124,854518728062939,2126524424026445,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_happy_orange.png,2018-08-28 23:51:47
+2126524424026445,Owen,Wang,22125,854518728062939,2126524424026445,BOT: message,Great job!,2018-08-28 23:51:48
+2126524424026445,Owen,Wang,22126,854518728062939,2126524424026445,BOT: quick reply,The correct answer is Class B carbon dioxide fire extinguisher.,2018-08-28 23:51:49
+2126524424026445,Owen,Wang,22906,2126524424026445,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-29 10:30:27
+2126524424026445,Owen,Wang,22907,854518728062939,2126524424026445,BOT: message,Let's see if you can answer this question.,2018-08-29 10:30:28
+2126524424026445,Owen,Wang,22908,854518728062939,2126524424026445,BOT: quick reply,What does CERT stand for?,2018-08-29 10:30:28
+2126524424026445,Owen,Wang,22909,2126524424026445,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-29 10:30:36
+2126524424026445,Owen,Wang,22910,854518728062939,2126524424026445,BOT: message,Okay. I'll give you some choices.,2018-08-29 10:30:36
+2126524424026445,Owen,Wang,22911,854518728062939,2126524424026445,BOT: quick reply,":keycap_1: Controlled Evacuation and Response Tactics
+:keycap_2: Community Emergency Response Team
+:keycap_3: Community Experimental Research Team
+:keycap_4: Central Emergency Response Terminal
+",2018-08-29 10:30:37
+2126524424026445,Owen,Wang,22912,2126524424026445,854518728062939,user_quick_reply: BUTTON_AKB_Community Emergency Response Team,:keycap_2:,2018-08-29 10:30:43
+2126524424026445,Owen,Wang,22913,854518728062939,2126524424026445,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_normal.png,2018-08-29 10:30:44
+2126524424026445,Owen,Wang,22914,854518728062939,2126524424026445,BOT: message,Great job getting the correct answer!,2018-08-29 10:30:45
+2126524424026445,Owen,Wang,22915,854518728062939,2126524424026445,BOT: quick reply,The correct answer is Community Emergency Response Team.,2018-08-29 10:30:46
+2126524424026445,Owen,Wang,22916,2126524424026445,854518728062939,user_quick_reply: WHY,Why?,2018-08-29 10:30:52
+2126524424026445,Owen,Wang,22917,854518728062939,2126524424026445,BOT: message,Here's an explanation:,2018-08-29 10:30:53
+2126524424026445,Owen,Wang,22918,854518728062939,2126524424026445,BOT: quick reply,CERT members help with disaster preparedness as well as disaster relief. Be aware if your community has one. Have their number handy and contact them in case of emergency after a quake if professional responders are not immediately available.,2018-08-29 10:30:53
+2126524424026445,Owen,Wang,23034,2126524424026445,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-29 13:25:50
+2126524424026445,Owen,Wang,23035,854518728062939,2126524424026445,BOT: message,Let's try this question.,2018-08-29 13:25:51
+2126524424026445,Owen,Wang,23036,854518728062939,2126524424026445,BOT: quick reply,True or false: portable fire extinguishers should only be used by trained employees.,2018-08-29 13:25:51
+2126524424026445,Owen,Wang,23037,2126524424026445,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-29 13:25:57
+2126524424026445,Owen,Wang,23038,854518728062939,2126524424026445,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-08-29 13:25:57
+2126524424026445,Owen,Wang,23039,854518728062939,2126524424026445,BOT: quick reply,":keycap_1: False
+:keycap_2: True
+",2018-08-29 13:25:58
+2126524424026445,Owen,Wang,23040,2126524424026445,854518728062939,user_quick_reply: BUTTON_AKB_True,:keycap_2:,2018-08-29 13:26:02
+2126524424026445,Owen,Wang,23041,854518728062939,2126524424026445,BOT: message,Yes! You got the correct answer!,2018-08-29 13:26:03
+2126524424026445,Owen,Wang,23042,854518728062939,2126524424026445,BOT: quick reply,The correct answer is True.,2018-08-29 13:26:04
+2126524424026445,Owen,Wang,23043,2126524424026445,854518728062939,user_quick_reply: WHY,Why?,2018-08-29 13:26:08
+2126524424026445,Owen,Wang,23044,854518728062939,2126524424026445,BOT: message,This is an explanation of the question:,2018-08-29 13:26:08
+2126524424026445,Owen,Wang,23045,854518728062939,2126524424026445,BOT: quick reply,"Employers can choose to authorize some or all employees to use portable extinguishers. In both cases, employers should provide employees sufficient training to do so.",2018-08-29 13:26:09
+2126524424026445,Owen,Wang,23046,2126524424026445,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-29 13:31:55
+2126524424026445,Owen,Wang,23047,854518728062939,2126524424026445,BOT: message,See if you can answer this next one.,2018-08-29 13:31:56
+2126524424026445,Owen,Wang,23048,854518728062939,2126524424026445,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-29 13:31:56
+2126524424026445,Owen,Wang,23049,854518728062939,2126524424026445,BOT: quick reply,"If your co-worker needs CPR but you are not trained in it, what should you do?",2018-08-29 13:31:57
+2126524424026445,Owen,Wang,23050,2126524424026445,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-29 13:32:03
+2126524424026445,Owen,Wang,23051,854518728062939,2126524424026445,BOT: message,Pick one of the following answers.,2018-08-29 13:32:04
+2126524424026445,Owen,Wang,23052,854518728062939,2126524424026445,BOT: quick reply,":keycap_1: Lift the patient's head
+:keycap_2: Give rescue breaths only
+:keycap_3: Perform chest compressions only
+:keycap_4: Wait for emergency personnel to arrive
+",2018-08-29 13:32:04
+2126524424026445,Owen,Wang,23053,2126524424026445,854518728062939,user_quick_reply: BUTTON_AKB_Perform chest compressions only,:keycap_3:,2018-08-29 13:32:09
+2126524424026445,Owen,Wang,23054,854518728062939,2126524424026445,BOT: message,Nice work! Keep it up!,2018-08-29 13:32:10
+2126524424026445,Owen,Wang,23055,854518728062939,2126524424026445,BOT: quick reply,The correct answer is Perform chest compressions only.,2018-08-29 13:32:10
+2126524424026445,Owen,Wang,23056,2126524424026445,854518728062939,user_quick_reply: WHY,Why?,2018-08-29 13:32:23
+2126524424026445,Owen,Wang,23057,854518728062939,2126524424026445,BOT: message,This is an explanation of the question:,2018-08-29 13:32:23
+2126524424026445,Owen,Wang,23058,854518728062939,2126524424026445,BOT: quick reply,"According to Mayo Clinic, it's far better to do something than to do nothing at all if you're fearful that your knowledge or abilities arent 100 percent complete. If you're not trained in CPR, then provide hands-only CPR. That means uninterrupted chest compressions of about 100 a minute until paramedics arrive. You don't need to try rescue breathing.",2018-08-29 13:32:24
+2126524424026445,Owen,Wang,23303,854518728062939,2126524424026445,BOT: quick reply,"Hi Owen, you haven't talked to me for a while. Would you like to resume the learning with me?",2018-08-29 20:00:25
+2126524424026445,Owen,Wang,26205,854518728062939,2126524424026445,BOT: quick reply,"Hi Owen, you haven't talked to me for a while. Would you like to resume the learning with me?",2018-08-30 20:00:41
+2126524424026445,Owen,Wang,26235,2126524424026445,854518728062939,user_quick_reply: NEXT_QUESTION,Got it :oncoming_fist_medium-light_skin_tone:,2018-08-30 20:28:25
+2126524424026445,Owen,Wang,26236,854518728062939,2126524424026445,BOT: message,See if you can answer this next one.,2018-08-30 20:28:25
+2126524424026445,Owen,Wang,26237,854518728062939,2126524424026445,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-30 20:28:26
+2126524424026445,Owen,Wang,26238,854518728062939,2126524424026445,BOT: quick reply,"When you discover a fire, you should do what?",2018-08-30 20:28:26
+2126524424026445,Owen,Wang,26239,2126524424026445,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-30 20:29:09
+2126524424026445,Owen,Wang,26240,854518728062939,2126524424026445,BOT: message,Which of the following options is the right answer?,2018-08-30 20:29:10
+2126524424026445,Owen,Wang,26241,854518728062939,2126524424026445,BOT: quick reply,":keycap_1: Use a fire extinguisher to put out the fire, even if you've never used a fire extinguisher before
+:keycap_2: Stay in the building until you figure out a way to extinguish the fire
+:keycap_3: Pull the fire alarm and call the fire department
+:keycap_4: Run out of the building without warning others of the fire
+",2018-08-30 20:29:10
+2126524424026445,Owen,Wang,26242,2126524424026445,854518728062939,user_quick_reply: BUTTON_AKB_Pull the fire alarm and call the fire department,:keycap_3:,2018-08-30 20:29:33
+2126524424026445,Owen,Wang,26243,854518728062939,2126524424026445,BOT: message,Nice! That was right!,2018-08-30 20:29:33
+2126524424026445,Owen,Wang,26244,854518728062939,2126524424026445,BOT: quick reply,The correct answer is Pull the fire alarm and call the fire department.,2018-08-30 20:29:34
+2126524424026445,Owen,Wang,26245,2126524424026445,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-30 20:29:48
+2126524424026445,Owen,Wang,26246,854518728062939,2126524424026445,BOT: message,Let's take a look at this question.,2018-08-30 20:29:48
+2126524424026445,Owen,Wang,26247,854518728062939,2126524424026445,BOT: quick reply,"When you discover a fire, you should do what?",2018-08-30 20:29:49
+2126524424026445,Owen,Wang,26248,2126524424026445,854518728062939,user_quick_reply: I_DONT_KNOW,I dont know :downcast_face_with_sweat:,2018-08-30 20:30:14
+2126524424026445,Owen,Wang,26249,854518728062939,2126524424026445,BOT: quick reply,Are you sure you want to skip answering?,2018-08-30 20:30:14
+2126524424026445,Owen,Wang,26250,2126524424026445,854518728062939,user_quick_reply: GIVEUP_YES,"Yes, answer please.",2018-08-30 20:30:32
+2126524424026445,Owen,Wang,26251,854518728062939,2126524424026445,BOT: message,You didn't get it right this time.,2018-08-30 20:30:32
+2126524424026445,Owen,Wang,26252,854518728062939,2126524424026445,BOT: message,"Don't give up, you'll get it next time! :grinning_face_with_smiling_eyes:",2018-08-30 20:30:33
+2126524424026445,Owen,Wang,26253,854518728062939,2126524424026445,BOT: quick reply,The correct answer is Pull the fire alarm and call the fire department.,2018-08-30 20:30:34
+2126524424026445,Owen,Wang,26254,2126524424026445,854518728062939,persistent_menu: GRE,GRE :input_latin_uppercase:,2018-08-30 20:31:14
+2126524424026445,Owen,Wang,26255,854518728062939,2126524424026445,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/evolvesafety_reading.gif,2018-08-30 20:31:19
+2126524424026445,Owen,Wang,26256,854518728062939,2126524424026445,BOT: quick reply,Let's answer some questions about the GRE!,2018-08-30 20:31:19
+2126524424026445,Owen,Wang,26257,2126524424026445,854518728062939,user_quick_reply: NEXT_QUESTION,Alrighty :white_heavy_check_mark:,2018-08-30 20:31:38
+2126524424026445,Owen,Wang,26258,854518728062939,2126524424026445,BOT: message,"Alrighty, let's try this one.",2018-08-30 20:31:39
+2126524424026445,Owen,Wang,26259,854518728062939,2126524424026445,BOT: quick reply,"Possessing few natural resources upon its newly-granted independence in 1863, Singapore remained economically _____ until an influx of industrialization and foreign investment took hold there.",2018-08-30 20:31:39
+2126524424026445,Owen,Wang,26463,2126524424026445,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-30 20:41:41
+2126524424026445,Owen,Wang,26464,854518728062939,2126524424026445,BOT: message,It's one of the following choices.,2018-08-30 20:41:41
+2126524424026445,Owen,Wang,26465,854518728062939,2126524424026445,BOT: quick reply,":keycap_1: powerful
+:keycap_2: dubious
+:keycap_3: solvent
+:keycap_4: fortuitous
+:keycap_5: prosperous
+",2018-08-30 20:41:42
+2126524424026445,Owen,Wang,26466,2126524424026445,854518728062939,user_quick_reply: BUTTON_AKB_dubious,:keycap_2:,2018-08-30 20:41:47
+2126524424026445,Owen,Wang,26467,854518728062939,2126524424026445,BOT: message,Nice! That was right!,2018-08-30 20:41:48
+2126524424026445,Owen,Wang,26468,854518728062939,2126524424026445,BOT: quick reply,The correct answer is dubious.,2018-08-30 20:41:49
+2126524424026445,Owen,Wang,26469,2126524424026445,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-30 20:49:56
+2126524424026445,Owen,Wang,26470,854518728062939,2126524424026445,BOT: message,"Alrighty, let's try this one.",2018-08-30 20:49:57
+2126524424026445,Owen,Wang,26471,854518728062939,2126524424026445,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-30 20:49:58
+2126524424026445,Owen,Wang,26472,854518728062939,2126524424026445,BOT: quick reply,"Dolly Madison, the wife of President James Madison, was known especially for her _____ , remaining calm even as the British invaded Washington D.C. during the War of 1812.",2018-08-30 20:49:58

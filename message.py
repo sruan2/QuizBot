@@ -1,3 +1,12 @@
+'''
+    messaging.py
+    Author: Liwei Jiang
+    Date: 24/07/2018
+    Usage: 
+        Functions that in charge of the interaction between the user and chatbot.
+        External messaging functions sending data to Facebook Messenger.
+'''
+
 import os
 import json
 import random

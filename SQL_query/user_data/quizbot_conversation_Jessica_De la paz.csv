@@ -1,0 +1,525 @@
+user_id,user_firstname,user_lastname,uid,sender,recipient,type,dialogue,time_stamp
+1862720920447963,Jessica,De la paz,23142,1862720920447963,854518728062939,persistent_menu: GET_INTRO_1,Get Started,2018-08-29 16:15:20
+1862720920447963,Jessica,De la paz,23143,854518728062939,1862720920447963,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/quizbot_avatar.png,2018-08-29 16:15:23
+1862720920447963,Jessica,De la paz,23144,854518728062939,1862720920447963,BOT: quick reply,"Hi Jessica! My name is Frosty :penguin: and Im here to help you learn all about science:microscope:, verbal reasoning (GRE) :input_latin_uppercase:, and safety:hammer_and_wrench:!",2018-08-29 16:15:24
+1862720920447963,Jessica,De la paz,23145,1862720920447963,854518728062939,user_quick_reply: GET_INTRO_2,Alrighty :thumbs_up_medium-light_skin_tone:,2018-08-29 16:15:36
+1862720920447963,Jessica,De la paz,23146,854518728062939,1862720920447963,BOT: message,Heres how it works.,2018-08-29 16:15:37
+1862720920447963,Jessica,De la paz,23147,854518728062939,1862720920447963,BOT: message,"I ask you questions, and you give me answers.",2018-08-29 16:15:38
+1862720920447963,Jessica,De la paz,23148,854518728062939,1862720920447963,BOT: quick reply,We will learn fun things together!,2018-08-29 16:15:39
+1862720920447963,Jessica,De la paz,23149,1862720920447963,854518728062939,persistent_menu: GRE,GRE :input_latin_uppercase:,2018-08-29 16:15:43
+1862720920447963,Jessica,De la paz,23150,854518728062939,1862720920447963,BOT: quick reply,All right! Ill quiz you on GRE!,2018-08-29 16:15:43
+1862720920447963,Jessica,De la paz,23151,1862720920447963,854518728062939,user_quick_reply: NEXT_QUESTION,Got it :flexed_biceps_medium-light_skin_tone:,2018-08-29 16:15:47
+1862720920447963,Jessica,De la paz,23152,854518728062939,1862720920447963,BOT: message,How about this next one:,2018-08-29 16:15:48
+1862720920447963,Jessica,De la paz,23153,854518728062939,1862720920447963,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-29 16:15:48
+1862720920447963,Jessica,De la paz,23154,854518728062939,1862720920447963,BOT: quick reply,"Although John F. Kennedy was known for his carefree flag football games, Gerald Ford should be _____ as our football president: he turned down offers to play for two National Football League teams in order to pursue a career in public service.",2018-08-29 16:15:49
+1862720920447963,Jessica,De la paz,23155,1862720920447963,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-29 16:15:58
+1862720920447963,Jessica,De la paz,23156,854518728062939,1862720920447963,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-08-29 16:15:59
+1862720920447963,Jessica,De la paz,23157,854518728062939,1862720920447963,BOT: quick reply,":keycap_1: criticized
+:keycap_2: relegated
+:keycap_3: annulled
+:keycap_4: apotheosized
+:keycap_5: abrogated
+",2018-08-29 16:15:59
+1862720920447963,Jessica,De la paz,23296,854518728062939,1862720920447963,BOT: quick reply,"Hi Jessica, you haven't talked to me for a while. Would you like to resume the learning with me?",2018-08-29 20:00:21
+1862720920447963,Jessica,De la paz,24385,1862720920447963,854518728062939,user_quick_reply: NEXT_QUESTION,I see :clapping_hands_medium-light_skin_tone:,2018-08-30 08:25:57
+1862720920447963,Jessica,De la paz,24386,854518728062939,1862720920447963,BOT: message,I think you'll like this question.,2018-08-30 08:25:58
+1862720920447963,Jessica,De la paz,24387,854518728062939,1862720920447963,BOT: quick reply,"In psychological literature, the ""sleeper effect"" refers to the phenomenon in which a persuasive message from a trustworthy source loses _____ over time, while the efficacy of a message from a less credible source simultaneously increases.",2018-08-30 08:25:58
+1862720920447963,Jessica,De la paz,24388,1862720920447963,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-30 08:26:15
+1862720920447963,Jessica,De la paz,24389,854518728062939,1862720920447963,BOT: message,Pick one of the following answers.,2018-08-30 08:26:15
+1862720920447963,Jessica,De la paz,24390,854518728062939,1862720920447963,BOT: quick reply,":keycap_1: erudition
+:keycap_2: control
+:keycap_3: prescience
+:keycap_4: cogency
+:keycap_5: evasiveness
+",2018-08-30 08:26:16
+1862720920447963,Jessica,De la paz,24391,1862720920447963,854518728062939,user_quick_reply: BUTTON_DKB_erudition,:keycap_1:,2018-08-30 08:26:25
+1862720920447963,Jessica,De la paz,24392,854518728062939,1862720920447963,BOT: message,That's not quite right. :disappointed_face:,2018-08-30 08:26:26
+1862720920447963,Jessica,De la paz,24393,854518728062939,1862720920447963,BOT: quick reply,The correct answer is cogency.,2018-08-30 08:26:26
+1862720920447963,Jessica,De la paz,24394,1862720920447963,854518728062939,user_quick_reply: WHY,Why?,2018-08-30 08:26:32
+1862720920447963,Jessica,De la paz,24395,854518728062939,1862720920447963,BOT: message,Here's an explanation:,2018-08-30 08:26:32
+1862720920447963,Jessica,De la paz,24396,854518728062939,1862720920447963,BOT: quick reply,":pushpin: Cogency -- persuasive relevance
+:pushpin: Prescience -- the power to foresee the future
+:pushpin: Erudition -- profound scholarly knowledge
+:pushpin: Evasiveness -- intentionally vague or ambiguous
+:pushpin: Control -- exercise authoritative control or power over",2018-08-30 08:26:33
+1862720920447963,Jessica,De la paz,24397,1862720920447963,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-30 08:26:44
+1862720920447963,Jessica,De la paz,24398,854518728062939,1862720920447963,BOT: message,Let's see if you would answer this one.,2018-08-30 08:26:44
+1862720920447963,Jessica,De la paz,24399,854518728062939,1862720920447963,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-30 08:26:45
+1862720920447963,Jessica,De la paz,24400,854518728062939,1862720920447963,BOT: quick reply,"With a similar contrast between a partly cloudy sky and a dark street, the cover of the recent rock CD _____ a famous surrealist painting from the early 1900s.",2018-08-30 08:26:45
+1862720920447963,Jessica,De la paz,24401,1862720920447963,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-30 08:27:01
+1862720920447963,Jessica,De la paz,24402,854518728062939,1862720920447963,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-08-30 08:27:01
+1862720920447963,Jessica,De la paz,24403,854518728062939,1862720920447963,BOT: quick reply,":keycap_1: sanctions
+:keycap_2: evokes
+:keycap_3: disenchants
+:keycap_4: obfuscates
+:keycap_5: admires
+",2018-08-30 08:27:02
+1862720920447963,Jessica,De la paz,24404,1862720920447963,854518728062939,user_quick_reply: BUTTON_AKB_evokes,:keycap_2:,2018-08-30 08:27:08
+1862720920447963,Jessica,De la paz,24405,854518728062939,1862720920447963,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_normal_cyan.png,2018-08-30 08:27:10
+1862720920447963,Jessica,De la paz,24406,854518728062939,1862720920447963,BOT: message,Great! Keep it up! :flexed_biceps_medium-light_skin_tone:,2018-08-30 08:27:10
+1862720920447963,Jessica,De la paz,24407,854518728062939,1862720920447963,BOT: quick reply,The correct answer is evokes.,2018-08-30 08:27:11
+1862720920447963,Jessica,De la paz,24408,1862720920447963,854518728062939,user_quick_reply: WHY,Why?,2018-08-30 08:27:14
+1862720920447963,Jessica,De la paz,24409,854518728062939,1862720920447963,BOT: message,I hope this explanation could help you understand the the question.,2018-08-30 08:27:15
+1862720920447963,Jessica,De la paz,24410,854518728062939,1862720920447963,BOT: quick reply,":pushpin: Evokes -- call forth emotions, feelings, and responses
+:pushpin: Admires -- feel admiration for
+:pushpin: Obfuscates -- make obscure or unclear
+:pushpin: Disenchants -- free from enchantment
+:pushpin: Sanctions -- give sanction to",2018-08-30 08:27:15
+1862720920447963,Jessica,De la paz,24411,1862720920447963,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-30 08:27:26
+1862720920447963,Jessica,De la paz,24412,854518728062939,1862720920447963,BOT: message,Let's take a look at this question.,2018-08-30 08:27:27
+1862720920447963,Jessica,De la paz,24413,854518728062939,1862720920447963,BOT: quick reply,While she may have answered him truthfully - in the strictest sense of the word - it became clear to Sergei after the incident that Sheryl had actually been trying to _____ .,2018-08-30 08:27:28
+1862720920447963,Jessica,De la paz,24414,1862720920447963,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-30 08:27:38
+1862720920447963,Jessica,De la paz,24415,854518728062939,1862720920447963,BOT: message,Which of the following options is the right answer?,2018-08-30 08:27:39
+1862720920447963,Jessica,De la paz,24416,854518728062939,1862720920447963,BOT: quick reply,":keycap_1: desiccate
+:keycap_2: illuminate
+:keycap_3: vituperate
+:keycap_4: covet
+:keycap_5: obfuscate
+",2018-08-30 08:27:39
+1862720920447963,Jessica,De la paz,24417,1862720920447963,854518728062939,user_quick_reply: BUTTON_AKB_obfuscate,:keycap_5:,2018-08-30 08:27:53
+1862720920447963,Jessica,De la paz,24418,854518728062939,1862720920447963,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_jubilated_orange.png,2018-08-30 08:27:55
+1862720920447963,Jessica,De la paz,24419,854518728062939,1862720920447963,BOT: message,Great! Keep it up! :flexed_biceps_medium-light_skin_tone:,2018-08-30 08:27:55
+1862720920447963,Jessica,De la paz,24420,854518728062939,1862720920447963,BOT: quick reply,The correct answer is obfuscate.,2018-08-30 08:27:56
+1862720920447963,Jessica,De la paz,24421,1862720920447963,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-30 08:28:01
+1862720920447963,Jessica,De la paz,24422,854518728062939,1862720920447963,BOT: message,Here's a question for you:,2018-08-30 08:28:01
+1862720920447963,Jessica,De la paz,24423,854518728062939,1862720920447963,BOT: quick reply,"Although John F. Kennedy was known for his carefree flag football games, Gerald Ford should be _____ as our football president: he turned down offers to play for two National Football League teams in order to pursue a career in public service.",2018-08-30 08:28:02
+1862720920447963,Jessica,De la paz,24424,1862720920447963,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-30 08:28:16
+1862720920447963,Jessica,De la paz,24425,854518728062939,1862720920447963,BOT: message,Which of the following options is the right answer?,2018-08-30 08:28:16
+1862720920447963,Jessica,De la paz,24426,854518728062939,1862720920447963,BOT: quick reply,":keycap_1: annulled
+:keycap_2: criticized
+:keycap_3: relegated
+:keycap_4: abrogated
+:keycap_5: apotheosized
+",2018-08-30 08:28:17
+1862720920447963,Jessica,De la paz,24427,1862720920447963,854518728062939,user_quick_reply: BUTTON_DKB_abrogated,:keycap_4:,2018-08-30 08:28:28
+1862720920447963,Jessica,De la paz,24428,854518728062939,1862720920447963,BOT: message,"I'm sorry, but that was incorrect. :disappointed_face:",2018-08-30 08:28:29
+1862720920447963,Jessica,De la paz,24429,854518728062939,1862720920447963,BOT: quick reply,The correct answer is apotheosized.,2018-08-30 08:28:30
+1862720920447963,Jessica,De la paz,24430,1862720920447963,854518728062939,user_quick_reply: WHY,Why?,2018-08-30 08:28:35
+1862720920447963,Jessica,De la paz,24431,854518728062939,1862720920447963,BOT: message,Here's why:,2018-08-30 08:28:36
+1862720920447963,Jessica,De la paz,24432,854518728062939,1862720920447963,BOT: quick reply,":pushpin: Apotheosized -- deify or glorify
+:pushpin: Relegated -- to send or consign to an inferior position, place, or condition
+:pushpin: Abrogated -- revoke formally
+:pushpin: Annulled -- declare invalid
+:pushpin: Criticized -- find fault with; express criticism of; point out real or perceived flaws",2018-08-30 08:28:37
+1862720920447963,Jessica,De la paz,24433,1862720920447963,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-30 08:28:53
+1862720920447963,Jessica,De la paz,24434,854518728062939,1862720920447963,BOT: message,Here's a question for you:,2018-08-30 08:28:54
+1862720920447963,Jessica,De la paz,24435,854518728062939,1862720920447963,BOT: quick reply,"Even though legislators claimed the Contagious Diseases Acts strengthened the nation, social purists argued the Acts _____ the nation's moral growth by encouraging licentious behavior.",2018-08-30 08:28:54
+1862720920447963,Jessica,De la paz,24436,1862720920447963,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-30 08:29:19
+1862720920447963,Jessica,De la paz,24437,854518728062939,1862720920447963,BOT: message,Pick one of the following answers.,2018-08-30 08:29:19
+1862720920447963,Jessica,De la paz,24438,854518728062939,1862720920447963,BOT: quick reply,":keycap_1: ameliorated
+:keycap_2: advanced
+:keycap_3: hampered
+:keycap_4: enhanced
+:keycap_5: supplanted
+",2018-08-30 08:29:20
+1862720920447963,Jessica,De la paz,24439,1862720920447963,854518728062939,user_quick_reply: BUTTON_AKB_hampered,:keycap_3:,2018-08-30 08:29:29
+1862720920447963,Jessica,De la paz,24440,854518728062939,1862720920447963,BOT: message,Nice! That was right!,2018-08-30 08:29:30
+1862720920447963,Jessica,De la paz,24441,854518728062939,1862720920447963,BOT: quick reply,The correct answer is hampered.,2018-08-30 08:29:30
+1862720920447963,Jessica,De la paz,24442,1862720920447963,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-30 08:29:37
+1862720920447963,Jessica,De la paz,24443,854518728062939,1862720920447963,BOT: message,What about this next question:,2018-08-30 08:29:38
+1862720920447963,Jessica,De la paz,24444,854518728062939,1862720920447963,BOT: quick reply,"Many dog owners treat their pets too _____ , forgetting that canines have evolved in competitive environments in which emotional coddling was a sign of weakness.",2018-08-30 08:29:39
+1862720920447963,Jessica,De la paz,24445,1862720920447963,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-30 08:29:49
+1862720920447963,Jessica,De la paz,24446,854518728062939,1862720920447963,BOT: message,Okay. I'll give you some choices.,2018-08-30 08:29:49
+1862720920447963,Jessica,De la paz,24447,854518728062939,1862720920447963,BOT: quick reply,":keycap_1: quixotically
+:keycap_2: indulgently
+:keycap_3: belligerently
+:keycap_4: fortuitously
+:keycap_5: aggressively
+",2018-08-30 08:29:50
+1862720920447963,Jessica,De la paz,24448,1862720920447963,854518728062939,user_quick_reply: BUTTON_AKB_indulgently,:keycap_2:,2018-08-30 08:29:57
+1862720920447963,Jessica,De la paz,24449,854518728062939,1862720920447963,BOT: message,Great! Keep it up! :flexed_biceps_medium-light_skin_tone:,2018-08-30 08:29:57
+1862720920447963,Jessica,De la paz,24450,854518728062939,1862720920447963,BOT: quick reply,The correct answer is indulgently.,2018-08-30 08:29:58
+1862720920447963,Jessica,De la paz,24451,1862720920447963,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-30 08:30:12
+1862720920447963,Jessica,De la paz,24452,854518728062939,1862720920447963,BOT: message,I think you'll like this question.,2018-08-30 08:30:12
+1862720920447963,Jessica,De la paz,24453,854518728062939,1862720920447963,BOT: quick reply,"Despite the smile that spread from ear to ear, the eyes relayed a certain _____ .",2018-08-30 08:30:13
+1862720920447963,Jessica,De la paz,24454,1862720920447963,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-30 08:30:20
+1862720920447963,Jessica,De la paz,24455,854518728062939,1862720920447963,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-08-30 08:30:20
+1862720920447963,Jessica,De la paz,24456,854518728062939,1862720920447963,BOT: quick reply,":keycap_1: liveliness
+:keycap_2: mischievousness
+:keycap_3: vision
+:keycap_4: sorrow
+:keycap_5: jubilance
+",2018-08-30 08:30:21
+1862720920447963,Jessica,De la paz,24457,1862720920447963,854518728062939,user_quick_reply: BUTTON_AKB_sorrow,:keycap_4:,2018-08-30 08:30:25
+1862720920447963,Jessica,De la paz,24458,854518728062939,1862720920447963,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_happy_cyan.png,2018-08-30 08:30:27
+1862720920447963,Jessica,De la paz,24459,854518728062939,1862720920447963,BOT: message,Nice work! Keep it up!,2018-08-30 08:30:28
+1862720920447963,Jessica,De la paz,24460,854518728062939,1862720920447963,BOT: quick reply,The correct answer is sorrow.,2018-08-30 08:30:28
+1862720920447963,Jessica,De la paz,24461,1862720920447963,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-30 08:30:35
+1862720920447963,Jessica,De la paz,24462,854518728062939,1862720920447963,BOT: message,Could you answer this one for me?,2018-08-30 08:30:36
+1862720920447963,Jessica,De la paz,24463,854518728062939,1862720920447963,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-30 08:30:36
+1862720920447963,Jessica,De la paz,24464,854518728062939,1862720920447963,BOT: quick reply,The Erie Canal's completion caused _____ economic ripples; property values and industrial output along its route rose exponentially.,2018-08-30 08:30:37
+1862720920447963,Jessica,De la paz,24465,1862720920447963,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-30 08:30:43
+1862720920447963,Jessica,De la paz,24466,854518728062939,1862720920447963,BOT: message,Which of the following options is the right answer?,2018-08-30 08:30:44
+1862720920447963,Jessica,De la paz,24467,854518728062939,1862720920447963,BOT: quick reply,":keycap_1: invaluable
+:keycap_2: incredulous
+:keycap_3: prodigious
+:keycap_4: severe
+:keycap_5: persistent
+",2018-08-30 08:30:44
+1862720920447963,Jessica,De la paz,24468,1862720920447963,854518728062939,user_quick_reply: BUTTON_DKB_severe,:keycap_4:,2018-08-30 08:30:55
+1862720920447963,Jessica,De la paz,24469,854518728062939,1862720920447963,BOT: message,"I'm sorry, but that was incorrect. :disappointed_face:",2018-08-30 08:30:55
+1862720920447963,Jessica,De la paz,24470,854518728062939,1862720920447963,BOT: quick reply,The correct answer is prodigious.,2018-08-30 08:30:56
+1862720920447963,Jessica,De la paz,24471,1862720920447963,854518728062939,user_quick_reply: WHY,Why?,2018-08-30 08:32:43
+1862720920447963,Jessica,De la paz,24472,854518728062939,1862720920447963,BOT: message,I hope this explanation could help you understand the the question.,2018-08-30 08:32:43
+1862720920447963,Jessica,De la paz,24473,854518728062939,1862720920447963,BOT: quick reply,":pushpin: Prodigious -- so great in size or force or extent as to elicit awe
+:pushpin: Persistent -- lasting or enduring tenaciously
+:pushpin: Invaluable -- having incalculable monetary, intellectual, or spiritual worth
+:pushpin: Incredulous -- not disposed or willing to believe; unbelieving
+:pushpin: Severe -- intensely or extremely bad or unpleasant in degree or quality",2018-08-30 08:32:44
+1862720920447963,Jessica,De la paz,24474,1862720920447963,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-30 08:33:01
+1862720920447963,Jessica,De la paz,24475,854518728062939,1862720920447963,BOT: message,Would you answer this question for me?,2018-08-30 08:33:02
+1862720920447963,Jessica,De la paz,24476,854518728062939,1862720920447963,BOT: quick reply,"Having squandered his life's savings on unprofitable business ventures, the _____ entrepreneur was forced to live in squalor.",2018-08-30 08:33:02
+1862720920447963,Jessica,De la paz,24477,1862720920447963,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-30 08:33:11
+1862720920447963,Jessica,De la paz,24478,854518728062939,1862720920447963,BOT: message,Okay. I'll give you some choices.,2018-08-30 08:33:11
+1862720920447963,Jessica,De la paz,24479,854518728062939,1862720920447963,BOT: quick reply,":keycap_1: perturbed
+:keycap_2: former
+:keycap_3: eccentric
+:keycap_4: unlikely
+:keycap_5: insolvent
+",2018-08-30 08:33:12
+1862720920447963,Jessica,De la paz,24480,1862720920447963,854518728062939,user_quick_reply: BUTTON_DKB_former,:keycap_2:,2018-08-30 08:33:19
+1862720920447963,Jessica,De la paz,24481,854518728062939,1862720920447963,BOT: message,"Oops, that wasn't quite correct. :disappointed_face:",2018-08-30 08:33:19
+1862720920447963,Jessica,De la paz,24482,854518728062939,1862720920447963,BOT: quick reply,The correct answer is insolvent.,2018-08-30 08:33:20
+1862720920447963,Jessica,De la paz,24483,1862720920447963,854518728062939,user_quick_reply: WHY,Why?,2018-08-30 08:33:25
+1862720920447963,Jessica,De la paz,24484,854518728062939,1862720920447963,BOT: message,I hope this explanation could help you understand the the question.,2018-08-30 08:33:25
+1862720920447963,Jessica,De la paz,24485,854518728062939,1862720920447963,BOT: quick reply,":pushpin: Insolvent -- unable to meet or discharge financial obligations
+:pushpin: Former -- preceding in time; prior or earlier
+:pushpin: Unlikely -- not likely to be true or to occur or to have occurred
+:pushpin: Perturbed -- thrown into a state of agitated confusion
+:pushpin: Eccentric -- conspicuously or grossly unconventional or unusual",2018-08-30 08:33:26
+1862720920447963,Jessica,De la paz,24486,1862720920447963,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-30 08:33:38
+1862720920447963,Jessica,De la paz,24487,854518728062939,1862720920447963,BOT: message,Here's a question for you:,2018-08-30 08:33:39
+1862720920447963,Jessica,De la paz,24488,854518728062939,1862720920447963,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-30 08:33:39
+1862720920447963,Jessica,De la paz,24489,854518728062939,1862720920447963,BOT: quick reply,"Even though legislators claimed the Contagious Diseases Acts strengthened the nation, social purists argued the Acts _____ the nation's moral growth by encouraging licentious behavior.",2018-08-30 08:33:40
+1862720920447963,Jessica,De la paz,24490,1862720920447963,854518728062939,user_typing,Hampered,2018-08-30 08:33:53
+1862720920447963,Jessica,De la paz,24491,854518728062939,1862720920447963,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_jubilated_purple.png,2018-08-30 08:33:54
+1862720920447963,Jessica,De la paz,24492,854518728062939,1862720920447963,BOT: message,Correct! :confetti_ball:,2018-08-30 08:33:55
+1862720920447963,Jessica,De la paz,24493,854518728062939,1862720920447963,BOT: quick reply,The correct answer is hampered.,2018-08-30 08:33:55
+1862720920447963,Jessica,De la paz,24494,1862720920447963,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-30 08:34:00
+1862720920447963,Jessica,De la paz,24495,854518728062939,1862720920447963,BOT: message,See if you can answer this next one.,2018-08-30 08:34:01
+1862720920447963,Jessica,De la paz,24496,854518728062939,1862720920447963,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-30 08:34:01
+1862720920447963,Jessica,De la paz,24497,854518728062939,1862720920447963,BOT: quick reply,"Just as different people can have very different personalities, so too can pets - even those of the same species and breed possess varied _____ .",2018-08-30 08:34:02
+1862720920447963,Jessica,De la paz,24498,1862720920447963,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-30 08:34:12
+1862720920447963,Jessica,De la paz,24499,854518728062939,1862720920447963,BOT: message,Pick one of the following answers.,2018-08-30 08:34:12
+1862720920447963,Jessica,De la paz,24500,854518728062939,1862720920447963,BOT: quick reply,":keycap_1: aptitudes
+:keycap_2: rationalizations
+:keycap_3: initiations
+:keycap_4: implementations
+:keycap_5: temperaments
+",2018-08-30 08:34:13
+1862720920447963,Jessica,De la paz,24501,1862720920447963,854518728062939,user_quick_reply: BUTTON_AKB_temperaments,:keycap_5:,2018-08-30 08:34:18
+1862720920447963,Jessica,De la paz,24502,854518728062939,1862720920447963,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_jubilated_purple.png,2018-08-30 08:34:19
+1862720920447963,Jessica,De la paz,24503,854518728062939,1862720920447963,BOT: message,Nice! That was right!,2018-08-30 08:34:20
+1862720920447963,Jessica,De la paz,24504,854518728062939,1862720920447963,BOT: quick reply,The correct answer is temperaments.,2018-08-30 08:34:20
+1862720920447963,Jessica,De la paz,24505,1862720920447963,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-30 08:34:24
+1862720920447963,Jessica,De la paz,24506,854518728062939,1862720920447963,BOT: message,Could you answer this one for me?,2018-08-30 08:34:25
+1862720920447963,Jessica,De la paz,24507,854518728062939,1862720920447963,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-30 08:34:27
+1862720920447963,Jessica,De la paz,24508,854518728062939,1862720920447963,BOT: quick reply,"With a similar contrast between a partly cloudy sky and a dark street, the cover of the recent rock CD _____ a famous surrealist painting from the early 1900s.",2018-08-30 08:34:28
+1862720920447963,Jessica,De la paz,24509,1862720920447963,854518728062939,user_typing,Evoked,2018-08-30 08:34:41
+1862720920447963,Jessica,De la paz,24510,854518728062939,1862720920447963,BOT: message,Fantastic! :hundred_points:,2018-08-30 08:34:41
+1862720920447963,Jessica,De la paz,24511,854518728062939,1862720920447963,BOT: quick reply,The correct answer is evokes.,2018-08-30 08:34:42
+1862720920447963,Jessica,De la paz,25323,1862720920447963,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-30 16:41:09
+1862720920447963,Jessica,De la paz,25324,854518728062939,1862720920447963,BOT: message,I think you'll like this question.,2018-08-30 16:41:10
+1862720920447963,Jessica,De la paz,25325,854518728062939,1862720920447963,BOT: quick reply,While she may have answered him truthfully - in the strictest sense of the word - it became clear to Sergei after the incident that Sheryl had actually been trying to _____ .,2018-08-30 16:41:10
+1862720920447963,Jessica,De la paz,25326,1862720920447963,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-30 16:41:17
+1862720920447963,Jessica,De la paz,25327,854518728062939,1862720920447963,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-08-30 16:41:18
+1862720920447963,Jessica,De la paz,25328,854518728062939,1862720920447963,BOT: quick reply,":keycap_1: covet
+:keycap_2: desiccate
+:keycap_3: illuminate
+:keycap_4: obfuscate
+:keycap_5: vituperate
+",2018-08-30 16:41:19
+1862720920447963,Jessica,De la paz,25332,1862720920447963,854518728062939,user_quick_reply: BUTTON_DKB_desiccate,:keycap_2:,2018-08-30 16:41:27
+1862720920447963,Jessica,De la paz,25333,854518728062939,1862720920447963,BOT: message,"Oops, that wasn't quite correct. :disappointed_face:",2018-08-30 16:41:28
+1862720920447963,Jessica,De la paz,25335,854518728062939,1862720920447963,BOT: quick reply,The correct answer is obfuscate.,2018-08-30 16:41:28
+1862720920447963,Jessica,De la paz,25338,1862720920447963,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-30 16:41:33
+1862720920447963,Jessica,De la paz,25340,854518728062939,1862720920447963,BOT: message,Could you answer this one for me?,2018-08-30 16:41:34
+1862720920447963,Jessica,De la paz,25341,854518728062939,1862720920447963,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-30 16:41:34
+1862720920447963,Jessica,De la paz,25343,854518728062939,1862720920447963,BOT: quick reply,While she may have answered him truthfully - in the strictest sense of the word - it became clear to Sergei after the incident that Sheryl had actually been trying to _____ .,2018-08-30 16:41:34
+1862720920447963,Jessica,De la paz,25345,1862720920447963,854518728062939,user_typing,Obfuscate,2018-08-30 16:41:46
+1862720920447963,Jessica,De la paz,25346,854518728062939,1862720920447963,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_normal_pink.png,2018-08-30 16:41:48
+1862720920447963,Jessica,De la paz,25347,854518728062939,1862720920447963,BOT: message,Good Answer! :white_heavy_check_mark:,2018-08-30 16:41:48
+1862720920447963,Jessica,De la paz,25348,854518728062939,1862720920447963,BOT: quick reply,The correct answer is obfuscate.,2018-08-30 16:41:49
+1862720920447963,Jessica,De la paz,25349,1862720920447963,854518728062939,user_quick_reply: SWITCH_SUBJECT,Change subject :shuffle_tracks_button:,2018-08-30 16:41:54
+1862720920447963,Jessica,De la paz,25350,854518728062939,1862720920447963,BOT: quick reply,"Okay, now tell me which subject you would like to study.:backhand_index_pointing_down_medium-light_skin_tone:",2018-08-30 16:41:54
+1862720920447963,Jessica,De la paz,25354,1862720920447963,854518728062939,user_quick_reply: SCIENCE,Science:microscope:,2018-08-30 16:42:01
+1862720920447963,Jessica,De la paz,25358,854518728062939,1862720920447963,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/evolvereading_scientist.gif,2018-08-30 16:42:05
+1862720920447963,Jessica,De la paz,25359,854518728062939,1862720920447963,BOT: quick reply,Okay! Lets see how much you know about science!,2018-08-30 16:42:05
+1862720920447963,Jessica,De la paz,25360,854518728062939,1862720920447963,BOT: message,Let's see if you can get this one.,2018-08-30 16:42:09
+1862720920447963,Jessica,De la paz,25361,854518728062939,1862720920447963,BOT: quick reply,What disease characterized by the extreme swelling of the limbs is caused by infection with a type of roundworm?,2018-08-30 16:42:09
+1862720920447963,Jessica,De la paz,25365,1862720920447963,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-30 16:42:16
+1862720920447963,Jessica,De la paz,25366,854518728062939,1862720920447963,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-08-30 16:42:17
+1862720920447963,Jessica,De la paz,25367,854518728062939,1862720920447963,BOT: quick reply,":keycap_1: elephantiasis
+:keycap_2: gigantism
+:keycap_3: pulmonary edema
+:keycap_4: fibrosis
+",2018-08-30 16:42:18
+1862720920447963,Jessica,De la paz,25368,1862720920447963,854518728062939,user_quick_reply: BUTTON_AKB_elephantiasis,:keycap_1:,2018-08-30 16:42:23
+1862720920447963,Jessica,De la paz,25369,854518728062939,1862720920447963,BOT: message,Nice! That was right!,2018-08-30 16:42:24
+1862720920447963,Jessica,De la paz,25370,854518728062939,1862720920447963,BOT: quick reply,The correct answer is elephantiasis.,2018-08-30 16:42:25
+1862720920447963,Jessica,De la paz,25371,1862720920447963,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-30 16:42:29
+1862720920447963,Jessica,De la paz,25372,854518728062939,1862720920447963,BOT: message,Let's see if you can answer this question.,2018-08-30 16:42:30
+1862720920447963,Jessica,De la paz,25374,854518728062939,1862720920447963,BOT: quick reply,The electrode at which oxidation occurs is called the what?,2018-08-30 16:42:30
+1862720920447963,Jessica,De la paz,25377,1862720920447963,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-30 16:42:37
+1862720920447963,Jessica,De la paz,25378,854518728062939,1862720920447963,BOT: message,Pick one of the following answers.,2018-08-30 16:42:39
+1862720920447963,Jessica,De la paz,25379,854518728062939,1862720920447963,BOT: quick reply,":keycap_1: cathode
+:keycap_2: calomel
+:keycap_3: diode
+:keycap_4: anode
+",2018-08-30 16:42:39
+1862720920447963,Jessica,De la paz,25383,1862720920447963,854518728062939,user_quick_reply: BUTTON_AKB_anode,:keycap_4:,2018-08-30 16:42:44
+1862720920447963,Jessica,De la paz,25384,854518728062939,1862720920447963,BOT: message,Great job getting the correct answer!,2018-08-30 16:42:44
+1862720920447963,Jessica,De la paz,25385,854518728062939,1862720920447963,BOT: quick reply,The correct answer is anode.,2018-08-30 16:42:45
+1862720920447963,Jessica,De la paz,25389,1862720920447963,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-30 16:42:50
+1862720920447963,Jessica,De la paz,25390,854518728062939,1862720920447963,BOT: message,Would you answer this question for me?,2018-08-30 16:42:50
+1862720920447963,Jessica,De la paz,25391,854518728062939,1862720920447963,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-30 16:42:51
+1862720920447963,Jessica,De la paz,25392,854518728062939,1862720920447963,BOT: quick reply,What disease characterized by the extreme swelling of the limbs is caused by infection with a type of roundworm?,2018-08-30 16:42:51
+1862720920447963,Jessica,De la paz,25396,1862720920447963,854518728062939,user_typing,Elephantiasis,2018-08-30 16:43:06
+1862720920447963,Jessica,De la paz,25397,854518728062939,1862720920447963,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_normal_orange.png,2018-08-30 16:43:07
+1862720920447963,Jessica,De la paz,25398,854518728062939,1862720920447963,BOT: message,Nice! :red_apple:,2018-08-30 16:43:08
+1862720920447963,Jessica,De la paz,25399,854518728062939,1862720920447963,BOT: quick reply,The correct answer is elephantiasis.,2018-08-30 16:43:08
+1862720920447963,Jessica,De la paz,25403,1862720920447963,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-30 16:43:11
+1862720920447963,Jessica,De la paz,25404,854518728062939,1862720920447963,BOT: message,Let's see if you can answer this question.,2018-08-30 16:43:12
+1862720920447963,Jessica,De la paz,25405,854518728062939,1862720920447963,BOT: quick reply,"Temperature, water, soil, and air are examples of nonliving factors of an ecosystem, also termed what?",2018-08-30 16:43:12
+1862720920447963,Jessica,De la paz,25409,1862720920447963,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-30 16:43:19
+1862720920447963,Jessica,De la paz,25410,854518728062939,1862720920447963,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-08-30 16:43:19
+1862720920447963,Jessica,De la paz,25411,854518728062939,1862720920447963,BOT: quick reply,":keycap_1: conditional factors
+:keycap_2: nucleic factors
+:keycap_3: abiotic factors
+:keycap_4: diverse factors
+",2018-08-30 16:43:20
+1862720920447963,Jessica,De la paz,25412,1862720920447963,854518728062939,user_quick_reply: BUTTON_AKB_abiotic factors,:keycap_3:,2018-08-30 16:43:24
+1862720920447963,Jessica,De la paz,25413,854518728062939,1862720920447963,BOT: message,Great job!,2018-08-30 16:43:24
+1862720920447963,Jessica,De la paz,25414,854518728062939,1862720920447963,BOT: quick reply,The correct answer is abiotic factors.,2018-08-30 16:43:25
+1862720920447963,Jessica,De la paz,25418,1862720920447963,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-30 16:43:28
+1862720920447963,Jessica,De la paz,25420,854518728062939,1862720920447963,BOT: message,"Alrighty, let's try this one.",2018-08-30 16:43:28
+1862720920447963,Jessica,De la paz,25421,854518728062939,1862720920447963,BOT: quick reply,What kind of viscosity is found in long-chain hydrocarbons?,2018-08-30 16:43:29
+1862720920447963,Jessica,De la paz,25425,1862720920447963,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-30 16:43:36
+1862720920447963,Jessica,De la paz,25426,854518728062939,1862720920447963,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-08-30 16:43:36
+1862720920447963,Jessica,De la paz,25427,854518728062939,1862720920447963,BOT: quick reply,":keycap_1: intense viscosity
+:keycap_2: increased viscosity
+:keycap_3: high viscosity
+:keycap_4: low viscosity
+",2018-08-30 16:43:37
+1862720920447963,Jessica,De la paz,25431,1862720920447963,854518728062939,user_quick_reply: BUTTON_DKB_low viscosity,:keycap_4:,2018-08-30 16:43:46
+1862720920447963,Jessica,De la paz,25432,854518728062939,1862720920447963,BOT: message,"Oops, that is not correct. :disappointed_face:",2018-08-30 16:43:46
+1862720920447963,Jessica,De la paz,25433,854518728062939,1862720920447963,BOT: quick reply,The correct answer is high viscosity.,2018-08-30 16:43:47
+1862720920447963,Jessica,De la paz,25434,1862720920447963,854518728062939,user_quick_reply: WHY,Why?,2018-08-30 16:43:53
+1862720920447963,Jessica,De la paz,25435,854518728062939,1862720920447963,BOT: message,This is an explanation of the question:,2018-08-30 16:43:54
+1862720920447963,Jessica,De la paz,25436,854518728062939,1862720920447963,BOT: quick reply,"There is also a correlation between viscosity and molecular shape. Liquids consisting of long, flexible molecules tend to have higher viscosities than those composed of more spherical or shorter-chain molecules. The longer the molecules, the easier it is for them to become tangled with one another, making it more difficult for them to move past one another. London dispersion forces also increase with chain length. Due to a combination of these two effects, long-chain hydrocarbons (such as motor oils) are highly viscous.",2018-08-30 16:43:54
+1862720920447963,Jessica,De la paz,25437,1862720920447963,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-30 16:44:04
+1862720920447963,Jessica,De la paz,25438,854518728062939,1862720920447963,BOT: message,Would you answer this question for me?,2018-08-30 16:44:05
+1862720920447963,Jessica,De la paz,25439,854518728062939,1862720920447963,BOT: quick reply,What is the diffusion of water through a semipermeable membrane down its concentration gradient?,2018-08-30 16:44:05
+1862720920447963,Jessica,De la paz,25445,1862720920447963,854518728062939,user_typing,Osmosis,2018-08-30 16:44:14
+1862720920447963,Jessica,De la paz,25447,854518728062939,1862720920447963,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_jubilated_pink.png,2018-08-30 16:44:16
+1862720920447963,Jessica,De la paz,25448,854518728062939,1862720920447963,BOT: message,Good job! :raising_hands_medium-light_skin_tone:,2018-08-30 16:44:16
+1862720920447963,Jessica,De la paz,25449,854518728062939,1862720920447963,BOT: quick reply,The correct answer is osmosis.,2018-08-30 16:44:17
+1862720920447963,Jessica,De la paz,25450,1862720920447963,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-30 16:44:20
+1862720920447963,Jessica,De la paz,25451,854518728062939,1862720920447963,BOT: message,Here's a question for you:,2018-08-30 16:44:20
+1862720920447963,Jessica,De la paz,25452,854518728062939,1862720920447963,BOT: quick reply,Most fungi get organic compounds from what?,2018-08-30 16:44:21
+1862720920447963,Jessica,De la paz,25453,1862720920447963,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-30 16:44:26
+1862720920447963,Jessica,De la paz,25454,854518728062939,1862720920447963,BOT: message,It's one of the following choices.,2018-08-30 16:44:27
+1862720920447963,Jessica,De la paz,25455,854518728062939,1862720920447963,BOT: quick reply,":keycap_1: carnivorous organisms
+:keycap_2: dead organisms
+:keycap_3: inorganic material
+:keycap_4: living organisms
+",2018-08-30 16:44:27
+1862720920447963,Jessica,De la paz,25456,1862720920447963,854518728062939,user_quick_reply: BUTTON_AKB_dead organisms,:keycap_2:,2018-08-30 16:44:35
+1862720920447963,Jessica,De la paz,25457,854518728062939,1862720920447963,BOT: message,Great! Keep it up! :flexed_biceps_medium-light_skin_tone:,2018-08-30 16:44:35
+1862720920447963,Jessica,De la paz,25458,854518728062939,1862720920447963,BOT: quick reply,The correct answer is dead organisms.,2018-08-30 16:44:36
+1862720920447963,Jessica,De la paz,25460,1862720920447963,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-30 16:44:40
+1862720920447963,Jessica,De la paz,25462,854518728062939,1862720920447963,BOT: message,Could you answer this one for me?,2018-08-30 16:44:40
+1862720920447963,Jessica,De la paz,25464,854518728062939,1862720920447963,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-30 16:44:41
+1862720920447963,Jessica,De la paz,25466,854518728062939,1862720920447963,BOT: quick reply,What living species of bird is considered the largest of the raptors?,2018-08-30 16:44:41
+1862720920447963,Jessica,De la paz,25470,1862720920447963,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-30 16:44:51
+1862720920447963,Jessica,De la paz,25471,854518728062939,1862720920447963,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-08-30 16:44:52
+1862720920447963,Jessica,De la paz,25472,854518728062939,1862720920447963,BOT: quick reply,":keycap_1: peregrine falcon
+:keycap_2: pterodactyl
+:keycap_3: golden eagles
+:keycap_4: California condor
+",2018-08-30 16:44:52
+1862720920447963,Jessica,De la paz,25473,1862720920447963,854518728062939,user_quick_reply: BUTTON_DKB_peregrine falcon,:keycap_1:,2018-08-30 16:44:57
+1862720920447963,Jessica,De la paz,25474,854518728062939,1862720920447963,BOT: message,"Oops, that is not correct. :disappointed_face:",2018-08-30 16:44:58
+1862720920447963,Jessica,De la paz,25475,854518728062939,1862720920447963,BOT: quick reply,The correct answer is golden eagles.,2018-08-30 16:44:58
+1862720920447963,Jessica,De la paz,25476,1862720920447963,854518728062939,user_quick_reply: WHY,Why?,2018-08-30 16:45:02
+1862720920447963,Jessica,De la paz,25477,854518728062939,1862720920447963,BOT: message,Here's an explanation:,2018-08-30 16:45:03
+1862720920447963,Jessica,De la paz,25478,854518728062939,1862720920447963,BOT: quick reply,"Although not as famous as its bald cousin, Golden Eagles are much easier to find in Northern California - one of the largest breeding populations for Golden Eagles. The largest of the raptors, Golden Eagles weigh typically between 8 and 12 pounds, and their wing span is around 6 to 7 feet. These eagles dive towards earth to catch prey, and can reach speeds of up to 200 mph!",2018-08-30 16:45:03
+1862720920447963,Jessica,De la paz,25482,1862720920447963,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-30 16:45:15
+1862720920447963,Jessica,De la paz,25483,854518728062939,1862720920447963,BOT: message,What about this next question:,2018-08-30 16:45:16
+1862720920447963,Jessica,De la paz,25484,854518728062939,1862720920447963,BOT: quick reply,Nerve cells that sense touch are found mainly where?,2018-08-30 16:45:16
+1862720920447963,Jessica,De la paz,25486,1862720920447963,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-30 16:45:22
+1862720920447963,Jessica,De la paz,25488,854518728062939,1862720920447963,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-08-30 16:45:22
+1862720920447963,Jessica,De la paz,25490,854518728062939,1862720920447963,BOT: quick reply,":keycap_1: lungs
+:keycap_2: skin
+:keycap_3: brain
+:keycap_4: stomach
+",2018-08-30 16:45:23
+1862720920447963,Jessica,De la paz,25495,1862720920447963,854518728062939,user_quick_reply: BUTTON_AKB_skin,:keycap_2:,2018-08-30 16:45:32
+1862720920447963,Jessica,De la paz,25496,854518728062939,1862720920447963,BOT: message,Great job!,2018-08-30 16:45:32
+1862720920447963,Jessica,De la paz,25497,854518728062939,1862720920447963,BOT: quick reply,The correct answer is skin.,2018-08-30 16:45:33
+1862720920447963,Jessica,De la paz,25723,1862720920447963,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-30 17:15:46
+1862720920447963,Jessica,De la paz,25724,854518728062939,1862720920447963,BOT: message,Here's a question for you:,2018-08-30 17:15:47
+1862720920447963,Jessica,De la paz,25725,854518728062939,1862720920447963,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-30 17:15:47
+1862720920447963,Jessica,De la paz,25726,854518728062939,1862720920447963,BOT: quick reply,The lithosphere is divided into a dozen major and several minor what?,2018-08-30 17:15:48
+1862720920447963,Jessica,De la paz,25727,1862720920447963,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-30 17:15:53
+1862720920447963,Jessica,De la paz,25728,854518728062939,1862720920447963,BOT: message,It's one of the following choices.,2018-08-30 17:15:54
+1862720920447963,Jessica,De la paz,25729,854518728062939,1862720920447963,BOT: quick reply,":keycap_1: plates
+:keycap_2: faults
+:keycap_3: crystals
+:keycap_4: zones
+",2018-08-30 17:15:54
+1862720920447963,Jessica,De la paz,25730,1862720920447963,854518728062939,user_quick_reply: BUTTON_DKB_zones,:keycap_4:,2018-08-30 17:15:59
+1862720920447963,Jessica,De la paz,25731,854518728062939,1862720920447963,BOT: message,"Oops, that is not correct. :disappointed_face:",2018-08-30 17:15:59
+1862720920447963,Jessica,De la paz,25732,854518728062939,1862720920447963,BOT: quick reply,The correct answer is plates.,2018-08-30 17:16:00
+1862720920447963,Jessica,De la paz,25733,1862720920447963,854518728062939,user_quick_reply: WHY,Why?,2018-08-30 17:16:04
+1862720920447963,Jessica,De la paz,25734,854518728062939,1862720920447963,BOT: message,This is an explanation of the question:,2018-08-30 17:16:04
+1862720920447963,Jessica,De la paz,25735,854518728062939,1862720920447963,BOT: quick reply,The lithosphere is divided into a dozen major and several minor plates. Each plate is named for the continent or ocean basin it contains. Some plates are made of all oceanic lithosphere. A few are all continental lithosphere. But most plates are made of a combination of both.,2018-08-30 17:16:05
+1862720920447963,Jessica,De la paz,25736,1862720920447963,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-30 17:16:16
+1862720920447963,Jessica,De la paz,25737,854518728062939,1862720920447963,BOT: message,Let's try this question.,2018-08-30 17:16:17
+1862720920447963,Jessica,De la paz,25738,854518728062939,1862720920447963,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-30 17:16:17
+1862720920447963,Jessica,De la paz,25739,854518728062939,1862720920447963,BOT: quick reply,What is the diffusion of water through a semipermeable membrane down its concentration gradient?,2018-08-30 17:16:18
+1862720920447963,Jessica,De la paz,25740,1862720920447963,854518728062939,user_typing,Osmosis,2018-08-30 17:16:26
+1862720920447963,Jessica,De la paz,25741,854518728062939,1862720920447963,BOT: message,Good Answer! :white_heavy_check_mark:,2018-08-30 17:16:27
+1862720920447963,Jessica,De la paz,25742,854518728062939,1862720920447963,BOT: quick reply,The correct answer is osmosis.,2018-08-30 17:16:27
+1862720920447963,Jessica,De la paz,26197,854518728062939,1862720920447963,BOT: quick reply,"Hi Jessica, you haven't talked to me for a while. Would you like to resume the learning with me?",2018-08-30 20:00:36
+1862720920447963,Jessica,De la paz,26285,1862720920447963,854518728062939,user_quick_reply: NEXT_QUESTION,"Yes, continue :backhand_index_pointing_right_medium-light_skin_tone:",2018-08-30 20:33:48
+1862720920447963,Jessica,De la paz,26286,854518728062939,1862720920447963,BOT: message,I think you'll like this question.,2018-08-30 20:33:49
+1862720920447963,Jessica,De la paz,26287,854518728062939,1862720920447963,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-30 20:33:50
+1862720920447963,Jessica,De la paz,26289,854518728062939,1862720920447963,BOT: quick reply,Nerve cells that sense touch are found mainly where?,2018-08-30 20:33:50
+1862720920447963,Jessica,De la paz,26296,1862720920447963,854518728062939,user_typing,Skin,2018-08-30 20:33:59
+1862720920447963,Jessica,De la paz,26298,854518728062939,1862720920447963,BOT: message,Good Answer! :white_heavy_check_mark:,2018-08-30 20:33:59
+1862720920447963,Jessica,De la paz,26299,854518728062939,1862720920447963,BOT: quick reply,The correct answer is skin.,2018-08-30 20:34:00
+1862720920447963,Jessica,De la paz,26301,1862720920447963,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-30 20:34:06
+1862720920447963,Jessica,De la paz,26303,854518728062939,1862720920447963,BOT: message,Let's try this question.,2018-08-30 20:34:06
+1862720920447963,Jessica,De la paz,26304,854518728062939,1862720920447963,BOT: quick reply,The electrode at which oxidation occurs is called the what?,2018-08-30 20:34:07
+1862720920447963,Jessica,De la paz,26308,1862720920447963,854518728062939,user_typing,Anode,2018-08-30 20:34:14
+1862720920447963,Jessica,De la paz,26309,854518728062939,1862720920447963,BOT: message,Correct! :confetti_ball:,2018-08-30 20:34:15
+1862720920447963,Jessica,De la paz,26310,854518728062939,1862720920447963,BOT: quick reply,The correct answer is anode.,2018-08-30 20:34:15
+1862720920447963,Jessica,De la paz,26313,1862720920447963,854518728062939,user_quick_reply: SWITCH_SUBJECT,Change subject :shuffle_tracks_button:,2018-08-30 20:34:19
+1862720920447963,Jessica,De la paz,26315,854518728062939,1862720920447963,BOT: quick reply,"OK, which of the following subjects would you like to study?:backhand_index_pointing_down_medium-light_skin_tone:",2018-08-30 20:34:20
+1862720920447963,Jessica,De la paz,26320,1862720920447963,854518728062939,user_quick_reply: SAFETY,Safety:hammer_and_wrench:,2018-08-30 20:34:30
+1862720920447963,Jessica,De la paz,26321,854518728062939,1862720920447963,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/evolvescientist_safety.gif,2018-08-30 20:34:35
+1862720920447963,Jessica,De la paz,26323,854518728062939,1862720920447963,BOT: quick reply,Let's answer some questions about safety!,2018-08-30 20:34:35
+1862720920447963,Jessica,De la paz,26328,1862720920447963,854518728062939,user_quick_reply: NEXT_QUESTION,Okay :thumbs_up_medium-light_skin_tone:,2018-08-30 20:34:40
+1862720920447963,Jessica,De la paz,26330,854518728062939,1862720920447963,BOT: message,See if you can answer this next one.,2018-08-30 20:34:40
+1862720920447963,Jessica,De la paz,26331,854518728062939,1862720920447963,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-30 20:34:41
+1862720920447963,Jessica,De la paz,26332,854518728062939,1862720920447963,BOT: quick reply,What should you NOT do while treating cuts and scrapes?,2018-08-30 20:34:41
+1862720920447963,Jessica,De la paz,26333,1862720920447963,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-30 20:34:47
+1862720920447963,Jessica,De la paz,26334,854518728062939,1862720920447963,BOT: message,Okay. I'll give you some choices.,2018-08-30 20:34:48
+1862720920447963,Jessica,De la paz,26335,854518728062939,1862720920447963,BOT: quick reply,":keycap_1: Apply an antibiotic to the wound
+:keycap_2: Wash the wound with soap
+:keycap_3: Cover the wound
+:keycap_4: Apply pressure on the wound with a clean cloth or bandage
+",2018-08-30 20:34:48
+1862720920447963,Jessica,De la paz,26336,1862720920447963,854518728062939,user_quick_reply: BUTTON_AKB_Wash the wound with soap,:keycap_2:,2018-08-30 20:34:58
+1862720920447963,Jessica,De la paz,26337,854518728062939,1862720920447963,BOT: message,Great! Keep it up! :flexed_biceps_medium-light_skin_tone:,2018-08-30 20:34:59
+1862720920447963,Jessica,De la paz,26338,854518728062939,1862720920447963,BOT: quick reply,The correct answer is Wash the wound with soap.,2018-08-30 20:34:59
+1862720920447963,Jessica,De la paz,26339,1862720920447963,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-30 20:35:04
+1862720920447963,Jessica,De la paz,26340,854518728062939,1862720920447963,BOT: message,Let's try this one.,2018-08-30 20:35:05
+1862720920447963,Jessica,De la paz,26341,854518728062939,1862720920447963,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-30 20:35:05
+1862720920447963,Jessica,De la paz,26342,854518728062939,1862720920447963,BOT: quick reply,Which fire extinguishers are used to put out fires caused by flammable liquids?,2018-08-30 20:35:06
+1862720920447963,Jessica,De la paz,26346,1862720920447963,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-30 20:35:15
+1862720920447963,Jessica,De la paz,26347,854518728062939,1862720920447963,BOT: message,Which of the following options is the right answer?,2018-08-30 20:35:15
+1862720920447963,Jessica,De la paz,26348,854518728062939,1862720920447963,BOT: quick reply,":keycap_1: Class C dry chemical fire extinguisher
+:keycap_2: Class B carbon dioxide fire extinguisher
+:keycap_3: Class A water fire extinguishers
+",2018-08-30 20:35:16
+1862720920447963,Jessica,De la paz,26352,1862720920447963,854518728062939,user_quick_reply: BUTTON_DKB_Class C dry chemical fire extinguisher,:keycap_1:,2018-08-30 20:35:25
+1862720920447963,Jessica,De la paz,26353,854518728062939,1862720920447963,BOT: message,"I'm sorry, but that was incorrect. :disappointed_face:",2018-08-30 20:35:26
+1862720920447963,Jessica,De la paz,26355,854518728062939,1862720920447963,BOT: quick reply,The correct answer is Class B carbon dioxide fire extinguisher.,2018-08-30 20:35:26
+1862720920447963,Jessica,De la paz,26360,1862720920447963,854518728062939,user_quick_reply: WHY,Why?,2018-08-30 20:35:32
+1862720920447963,Jessica,De la paz,26362,854518728062939,1862720920447963,BOT: message,Here's an explanation:,2018-08-30 20:35:33
+1862720920447963,Jessica,De la paz,26363,854518728062939,1862720920447963,BOT: quick reply,"Flammable liquids include oils, gasoline, paints, grease, lacquers, and solvents. Class B carbon dioxide fire extinguishers are used to put out fires caused by flammable liquids.",2018-08-30 20:35:33
+1862720920447963,Jessica,De la paz,26372,1862720920447963,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-30 20:35:47
+1862720920447963,Jessica,De la paz,26373,854518728062939,1862720920447963,BOT: message,Let's try this one.,2018-08-30 20:35:47
+1862720920447963,Jessica,De la paz,26374,854518728062939,1862720920447963,BOT: quick reply,Which fire extinguishers are used to put out fires caused by flammable liquids?,2018-08-30 20:35:48
+1862720920447963,Jessica,De la paz,26382,1862720920447963,854518728062939,user_typing,Carbon dioxide fire extinguishers,2018-08-30 20:36:08
+1862720920447963,Jessica,De la paz,26383,854518728062939,1862720920447963,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_normal_purple.png,2018-08-30 20:36:09
+1862720920447963,Jessica,De la paz,26384,854518728062939,1862720920447963,BOT: message,Good job! :raising_hands_medium-light_skin_tone:,2018-08-30 20:36:10
+1862720920447963,Jessica,De la paz,26385,854518728062939,1862720920447963,BOT: quick reply,The correct answer is Class B carbon dioxide fire extinguisher.,2018-08-30 20:36:10
+1862720920447963,Jessica,De la paz,26386,1862720920447963,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-30 20:36:16
+1862720920447963,Jessica,De la paz,26387,854518728062939,1862720920447963,BOT: message,Could you answer this one for me?,2018-08-30 20:36:16
+1862720920447963,Jessica,De la paz,26388,854518728062939,1862720920447963,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-30 20:36:17
+1862720920447963,Jessica,De la paz,26389,854518728062939,1862720920447963,BOT: quick reply,True or false: portable fire extinguishers should only be used by trained employees.,2018-08-30 20:36:17
+1862720920447963,Jessica,De la paz,26390,1862720920447963,854518728062939,user_typing,False,2018-08-30 20:36:26
+1862720920447963,Jessica,De la paz,26391,854518728062939,1862720920447963,BOT: message,"I'm sorry, but that was incorrect. :disappointed_face:",2018-08-30 20:36:27
+1862720920447963,Jessica,De la paz,26392,854518728062939,1862720920447963,BOT: quick reply,The correct answer is True.,2018-08-30 20:36:27
+1862720920447963,Jessica,De la paz,26393,1862720920447963,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-30 20:36:32
+1862720920447963,Jessica,De la paz,26394,854518728062939,1862720920447963,BOT: message,Let's take a look at this question.,2018-08-30 20:36:33
+1862720920447963,Jessica,De la paz,26395,854518728062939,1862720920447963,BOT: quick reply,"True or false: if you wear a back belt, you can lift more weight than you could without a belt.",2018-08-30 20:36:33
+1862720920447963,Jessica,De la paz,26396,1862720920447963,854518728062939,user_typing,False,2018-08-30 20:36:41
+1862720920447963,Jessica,De la paz,26397,854518728062939,1862720920447963,BOT: message,Thats right! :party_popper:,2018-08-30 20:36:42
+1862720920447963,Jessica,De la paz,26398,854518728062939,1862720920447963,BOT: quick reply,The correct answer is False.,2018-08-30 20:36:42
+1862720920447963,Jessica,De la paz,26399,1862720920447963,854518728062939,user_quick_reply: WHY,Why?,2018-08-30 20:36:48
+1862720920447963,Jessica,De la paz,26400,854518728062939,1862720920447963,BOT: message,I hope this explanation could help you understand the the question.,2018-08-30 20:36:48
+1862720920447963,Jessica,De la paz,26401,854518728062939,1862720920447963,BOT: quick reply,Workers often lift more weight under the illusion that use of back belts increases the lifting capability of a worker. There has not been sufficient evidence to support this fact and hence it cannot be held true.,2018-08-30 20:36:48
+1862720920447963,Jessica,De la paz,26402,1862720920447963,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-30 20:36:59
+1862720920447963,Jessica,De la paz,26403,854518728062939,1862720920447963,BOT: message,Let's see if you can answer this question.,2018-08-30 20:37:00
+1862720920447963,Jessica,De la paz,26404,854518728062939,1862720920447963,BOT: quick reply,How long can high-acid canned food such as tomatoes be stored?,2018-08-30 20:37:00
+1862720920447963,Jessica,De la paz,26405,1862720920447963,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-30 20:37:11
+1862720920447963,Jessica,De la paz,26406,854518728062939,1862720920447963,BOT: message,Pick one of the following answers.,2018-08-30 20:37:11
+1862720920447963,Jessica,De la paz,26407,854518728062939,1862720920447963,BOT: quick reply,":keycap_1: 12 to 18 months
+:keycap_2: 2 to 4 years
+:keycap_3: 10 to 30 days
+:keycap_4: 2 to 6 months
+",2018-08-30 20:37:12
+1862720920447963,Jessica,De la paz,26408,1862720920447963,854518728062939,user_quick_reply: BUTTON_DKB_2 to 4 years,:keycap_2:,2018-08-30 20:37:19
+1862720920447963,Jessica,De la paz,26409,854518728062939,1862720920447963,BOT: message,That's not quite right. :disappointed_face:,2018-08-30 20:37:20
+1862720920447963,Jessica,De la paz,26410,854518728062939,1862720920447963,BOT: quick reply,The correct answer is 12 to 18 months.,2018-08-30 20:37:20
+1862720920447963,Jessica,De la paz,26411,1862720920447963,854518728062939,user_quick_reply: WHY,Why?,2018-08-30 20:37:25
+1862720920447963,Jessica,De la paz,26412,854518728062939,1862720920447963,BOT: message,This is why:,2018-08-30 20:37:26
+1862720920447963,Jessica,De la paz,26413,854518728062939,1862720920447963,BOT: quick reply,"According to the United States Department of Agriculture (USDA), In general, high-acid canned food such as tomatoes, grapefruit, and pineapple can be stored on the shelf for 12 to 18 months. Low-acid canned food such as meat, poultry, fish, and most vegetables will keep 2 to 5 years if the can remains in good condition and has been stored in a cool, clean, and dry place.",2018-08-30 20:37:26
+1862720920447963,Jessica,De la paz,26416,1862720920447963,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-30 20:37:40
+1862720920447963,Jessica,De la paz,26418,854518728062939,1862720920447963,BOT: message,Could you answer this one for me?,2018-08-30 20:37:41
+1862720920447963,Jessica,De la paz,26419,854518728062939,1862720920447963,BOT: quick reply,"If your co-worker needs CPR but you are not trained in it, what should you do?",2018-08-30 20:37:42
+1862720920447963,Jessica,De la paz,26420,1862720920447963,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-30 20:37:49
+1862720920447963,Jessica,De la paz,26421,854518728062939,1862720920447963,BOT: message,It's one of the following choices.,2018-08-30 20:37:49
+1862720920447963,Jessica,De la paz,26422,854518728062939,1862720920447963,BOT: quick reply,":keycap_1: Wait for emergency personnel to arrive
+:keycap_2: Perform chest compressions only
+:keycap_3: Give rescue breaths only
+:keycap_4: Lift the patient's head
+",2018-08-30 20:37:50
+1862720920447963,Jessica,De la paz,26423,1862720920447963,854518728062939,user_quick_reply: BUTTON_AKB_Perform chest compressions only,:keycap_2:,2018-08-30 20:38:07
+1862720920447963,Jessica,De la paz,26424,854518728062939,1862720920447963,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_happy_orange.png,2018-08-30 20:38:09
+1862720920447963,Jessica,De la paz,26425,854518728062939,1862720920447963,BOT: message,Nice work! Keep it up!,2018-08-30 20:38:10
+1862720920447963,Jessica,De la paz,26426,854518728062939,1862720920447963,BOT: quick reply,The correct answer is Perform chest compressions only.,2018-08-30 20:38:10
+1862720920447963,Jessica,De la paz,26427,1862720920447963,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-30 20:38:15
+1862720920447963,Jessica,De la paz,26428,854518728062939,1862720920447963,BOT: message,Could you answer this one for me?,2018-08-30 20:38:15
+1862720920447963,Jessica,De la paz,26429,854518728062939,1862720920447963,BOT: quick reply,What should you NOT do when lowering a load?,2018-08-30 20:38:16
+1862720920447963,Jessica,De la paz,26430,1862720920447963,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-30 20:38:23
+1862720920447963,Jessica,De la paz,26431,854518728062939,1862720920447963,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-08-30 20:38:24
+1862720920447963,Jessica,De la paz,26432,854518728062939,1862720920447963,BOT: quick reply,":keycap_1: Twist your body
+:keycap_2: Twist your body, keep the load close, and bend your knees
+:keycap_3: Keep the load close to your body
+:keycap_4: Bend your knees
+",2018-08-30 20:38:24
+1862720920447963,Jessica,De la paz,26433,1862720920447963,854518728062939,user_quick_reply: BUTTON_AKB_Twist your body,:keycap_1:,2018-08-30 20:38:44
+1862720920447963,Jessica,De la paz,26434,854518728062939,1862720920447963,BOT: message,Nice work! Keep it up!,2018-08-30 20:38:44
+1862720920447963,Jessica,De la paz,26435,854518728062939,1862720920447963,BOT: quick reply,The correct answer is Twist your body.,2018-08-30 20:38:45
+1862720920447963,Jessica,De la paz,26436,1862720920447963,854518728062939,user_quick_reply: WHY,Why?,2018-08-30 20:38:51
+1862720920447963,Jessica,De la paz,26437,854518728062939,1862720920447963,BOT: message,Here's why:,2018-08-30 20:38:52
+1862720920447963,Jessica,De la paz,26438,854518728062939,1862720920447963,BOT: quick reply,"To lower a load, you should make use of its edge, bend your knees, keep the load close to their body, and avoid twisting your torso.",2018-08-30 20:38:52
+1862720920447963,Jessica,De la paz,26439,1862720920447963,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-30 20:39:03
+1862720920447963,Jessica,De la paz,26440,854518728062939,1862720920447963,BOT: message,Let's try this one.,2018-08-30 20:39:03
+1862720920447963,Jessica,De la paz,26441,854518728062939,1862720920447963,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-30 20:39:04
+1862720920447963,Jessica,De la paz,26442,854518728062939,1862720920447963,BOT: quick reply,Working on scaffold during winds above ____ miles per hour is prohibited by OSHA.,2018-08-30 20:39:04
+1862720920447963,Jessica,De la paz,26443,1862720920447963,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-30 20:39:15
+1862720920447963,Jessica,De la paz,26444,854518728062939,1862720920447963,BOT: message,Which of the following options is the right answer?,2018-08-30 20:39:15
+1862720920447963,Jessica,De la paz,26445,854518728062939,1862720920447963,BOT: quick reply,":keycap_1: 40
+:keycap_2: 10
+:keycap_3: 50
+:keycap_4: 25
+",2018-08-30 20:39:16
+1862720920447963,Jessica,De la paz,26446,1862720920447963,854518728062939,user_quick_reply: BUTTON_DKB_25,:keycap_4:,2018-08-30 20:39:23
+1862720920447963,Jessica,De la paz,26447,854518728062939,1862720920447963,BOT: message,"Hmm, that wasn't quite right. :disappointed_face:",2018-08-30 20:39:24
+1862720920447963,Jessica,De la paz,26448,854518728062939,1862720920447963,BOT: quick reply,The correct answer is 40.,2018-08-30 20:39:24
+1862720920447963,Jessica,De la paz,26449,1862720920447963,854518728062939,user_quick_reply: WHY,Why?,2018-08-30 20:39:29
+1862720920447963,Jessica,De la paz,26450,854518728062939,1862720920447963,BOT: message,Here's an explanation:,2018-08-30 20:39:30
+1862720920447963,Jessica,De la paz,26451,854518728062939,1862720920447963,BOT: quick reply,OSHA prohibits working on or from scaffolds when winds are above 40 miles/hour except in cases when a competent person has concluded that it is safe for workers to be on a scaffold and these workers are protected by wind screens or fall arrest systems.,2018-08-30 20:39:30
+1862720920447963,Jessica,De la paz,26452,1862720920447963,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-30 20:39:46
+1862720920447963,Jessica,De la paz,26453,854518728062939,1862720920447963,BOT: message,Could you answer this one for me?,2018-08-30 20:39:47
+1862720920447963,Jessica,De la paz,26454,854518728062939,1862720920447963,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-30 20:39:47
+1862720920447963,Jessica,De la paz,26455,854518728062939,1862720920447963,BOT: quick reply,How long can high-acid canned food such as tomatoes be stored?,2018-08-30 20:39:48
+1862720920447963,Jessica,De la paz,26456,1862720920447963,854518728062939,user_typing,12-18 months,2018-08-30 20:39:56
+1862720920447963,Jessica,De la paz,26457,854518728062939,1862720920447963,BOT: message,Fantastic! :hundred_points:,2018-08-30 20:39:57
+1862720920447963,Jessica,De la paz,26458,854518728062939,1862720920447963,BOT: quick reply,The correct answer is 12 to 18 months.,2018-08-30 20:39:57

@@ -23,6 +23,7 @@ from QAKnowledgebase import QAKnowlegeBase
 import QAModel
 from utils import pretty_print
 
+# correct the mismatch of the index and qid
 qid_to_index = {1: 32, 2: 26, 132: 11, 5: 14, 136: 8, 138: 2, 139: 44, 14: 18, 143: 9, 146: 42, 19: 20, 21: 33, 25: 31, 27: 21, 30: 15, 31: 27, 32: 6, 35: 29, 38: 34, 42: 28, 45: 38, 8: 13, 50: 7, 53: 37, 64: 5, 65: 30, 68: 43, 70: 47, 72: 25, 74: 46, 79: 24, 82: 39, 84: 22, 85: 45, 87: 40, 93: 23, 94: 36, 97: 35, 100: 1, 103: 19, 112: 4, 147: 0, 117: 16, 118: 3, 120: 12, 121: 10, 125: 17, 127: 41}
 
 # ================== Global Varaibles ==================
@@ -132,8 +133,8 @@ def webhook():
                     pretty_print('Retrieve the user history from [user_history]', mode='Database')
                     qa_model.loadUserData(sender_id, user_history_data)
                     pretty_print('Pass the user history to the QAModel', mode='QAModel')
+                
                 # Insert the user into database and cache if it doesn't exist yet.
-
                 else:
                     sender_firstname = pinyin.get(sender_firstname, format="strip", delimiter="")
                     sender_lastname = pinyin.get(sender_lastname, format="strip", delimiter="")
@@ -202,6 +203,9 @@ def webhook():
                     pretty_print("Message Text is \""+message_text+"\"")
                     # save the user's free reply to the conversation database
                     timestamp = strftime("%Y-%m-%d %H:%M:%S", localtime())
+                    message_text = message_text.lower()
+                    message_text = pinyin.get(message_text, format="strip", delimiter="")
+                    message_text = message_text.capitalize()
                     uid = db.insert_conversation(mysql, sender_id, CHATBOT_ID, message_text, "user_typing", timestamp)
                     chatbot.respond_to_messagetext(message_text, sender_id, qa_model, chatbot_text, template_conversation, mysql, cache, uid)
     return "ok", 200
@@ -270,7 +274,8 @@ with app.app_context():
         "text/chatbot_text", "text/template_conversation")
     # [(1139924072777403, 'Sherry'), (1805880356153906, 'Nathan'), (1850388251650155, 'Liwei')]
     reminder.RepeatedTimer(86400, template_conversation, mysql)
-
+    # print(db.show_users_newly_added(mysql))
+    
 if __name__ == '__main__':
     # Set up Flask app and MySQL
     setup(chatbot_text)

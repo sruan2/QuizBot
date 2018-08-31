@@ -11,7 +11,6 @@ import database as db
 from message import *
 import utils
 
-
 def respond_to_payload(payload, sender_id, qa_model, chatbot_text, template_conversation, mysql, cache, uid):
     '''
         This function responds to the QuizBot's payload states.
@@ -297,8 +296,8 @@ def respond_to_messagetext(message_text, sender_id, qa_model, chatbot_text, temp
 
     # allow user to type in the bug report
     if cache[sender_id]["last_payload"] == "REPORT_BUG":
-        send_paragraph(mysql, sender_id, "MESSAGE_TEXT",
-                           chatbot_text, template_conversation, "paragraph_4")
+        send_conversation(mysql, sender_id, "MESSAGE_TEXT",
+                          chatbot_text, template_conversation, "conversation_2")
         return
 
     qid = cache[sender_id]["current_qid"]
@@ -313,7 +312,7 @@ def respond_to_messagetext(message_text, sender_id, qa_model, chatbot_text, temp
                            chatbot_text, template_conversation, "paragraph_1")
             send_correct_answer(
                 mysql, sender_id, "MESSAGE_TEXT", template_conversation, qa_model, cache)
-        elif score < 10:
+        elif score >= 9 and score < 10:
             send_paragraph(mysql, sender_id, "MESSAGE_TEXT",
                            chatbot_text, template_conversation, "paragraph_2")
             send_correct_answer(

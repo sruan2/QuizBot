@@ -1,0 +1,408 @@
+user_id,user_firstname,user_lastname,uid,sender,recipient,type,dialogue,time_stamp
+2283960245008292,Flora,Wang,18267,2283960245008292,854518728062939,persistent_menu: GET_INTRO_1,Get Started,2018-08-27 15:37:29
+2283960245008292,Flora,Wang,18268,854518728062939,2283960245008292,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/quizbot_avatar.png,2018-08-27 15:37:32
+2283960245008292,Flora,Wang,18269,854518728062939,2283960245008292,BOT: quick reply,"Hi Flora! My name is Frosty :penguin: and Im here to help you learn all about science:microscope:, verbal reasoning (GRE) :input_latin_uppercase:, and safety:hammer_and_wrench:!",2018-08-27 15:37:33
+2283960245008292,Flora,Wang,18270,2283960245008292,854518728062939,persistent_menu: GRE,GRE :input_latin_uppercase:,2018-08-27 15:37:46
+2283960245008292,Flora,Wang,18271,854518728062939,2283960245008292,BOT: quick reply,Okay! Lets see how much you know about GRE!,2018-08-27 15:37:47
+2283960245008292,Flora,Wang,18272,2283960245008292,854518728062939,user_quick_reply: NEXT_QUESTION,Okay :raising_hands_medium-light_skin_tone:,2018-08-27 15:37:53
+2283960245008292,Flora,Wang,18273,854518728062939,2283960245008292,BOT: message,Let's see if you can answer this question.,2018-08-27 15:37:53
+2283960245008292,Flora,Wang,18274,854518728062939,2283960245008292,BOT: quick reply,Many Major League Baseball relief pitchers choose an electrifying theme song to play as they take the mound; the song _____ their fans and instills fear in their opponents.,2018-08-27 15:37:54
+2283960245008292,Flora,Wang,18275,2283960245008292,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-27 15:38:09
+2283960245008292,Flora,Wang,18276,854518728062939,2283960245008292,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-08-27 15:38:10
+2283960245008292,Flora,Wang,18277,854518728062939,2283960245008292,BOT: quick reply,":keycap_1: assuages
+:keycap_2: enervates
+:keycap_3: pervades
+:keycap_4: innervates
+:keycap_5: eviscerates
+",2018-08-27 15:38:11
+2283960245008292,Flora,Wang,18278,2283960245008292,854518728062939,persistent_menu: USER_MANUAL_1,User Manual :woman_technologist_light_skin_tone::man_technologist_light_skin_tone:,2018-08-27 15:38:29
+2283960245008292,Flora,Wang,18279,854518728062939,2283960245008292,BOT: image,https://www.smartprimer.org:8443/pictures/user_manual/typeanswer.png,2018-08-27 15:38:32
+2283960245008292,Flora,Wang,18280,854518728062939,2283960245008292,BOT: quick reply,"To study the questions, you can type in your answers in the text field and I will evaluate the answers for you using advanced NLP (Natural Language Processing) technology.",2018-08-27 15:38:32
+2283960245008292,Flora,Wang,18856,854518728062939,2283960245008292,BOT: quick reply,"Hi Flora, you haven't talked to me for a while. Would you like to resume the learning with me?",2018-08-27 20:00:17
+2283960245008292,Flora,Wang,21029,854518728062939,2283960245008292,BOT: quick reply,"Hi Flora, you haven't talked to me for a while. Would you like to resume the learning with me?",2018-08-28 20:00:13
+2283960245008292,Flora,Wang,22090,2283960245008292,854518728062939,user_quick_reply: NEXT_QUESTION,Next :raising_hands_medium-light_skin_tone:,2018-08-28 23:50:00
+2283960245008292,Flora,Wang,22091,854518728062939,2283960245008292,BOT: message,Here's a question for you:,2018-08-28 23:50:00
+2283960245008292,Flora,Wang,22092,854518728062939,2283960245008292,BOT: quick reply,"In psychological literature, the ""sleeper effect"" refers to the phenomenon in which a persuasive message from a trustworthy source loses _____ over time, while the efficacy of a message from a less credible source simultaneously increases.",2018-08-28 23:50:01
+2283960245008292,Flora,Wang,22096,2283960245008292,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-28 23:50:22
+2283960245008292,Flora,Wang,22097,854518728062939,2283960245008292,BOT: message,It's one of the following choices.,2018-08-28 23:50:22
+2283960245008292,Flora,Wang,22098,854518728062939,2283960245008292,BOT: quick reply,":keycap_1: prescience
+:keycap_2: evasiveness
+:keycap_3: cogency
+:keycap_4: erudition
+:keycap_5: control
+",2018-08-28 23:50:23
+2283960245008292,Flora,Wang,22099,2283960245008292,854518728062939,user_quick_reply: BUTTON_AKB_cogency,:keycap_3:,2018-08-28 23:50:44
+2283960245008292,Flora,Wang,22100,854518728062939,2283960245008292,BOT: message,Nice! That was right!,2018-08-28 23:50:44
+2283960245008292,Flora,Wang,22101,854518728062939,2283960245008292,BOT: quick reply,The correct answer is cogency.,2018-08-28 23:50:45
+2283960245008292,Flora,Wang,22102,2283960245008292,854518728062939,user_quick_reply: WHY,Why?,2018-08-28 23:50:52
+2283960245008292,Flora,Wang,22103,854518728062939,2283960245008292,BOT: message,I hope this explanation could help you understand the the question.,2018-08-28 23:50:53
+2283960245008292,Flora,Wang,22104,854518728062939,2283960245008292,BOT: quick reply,":pushpin: Cogency -- persuasive relevance
+:pushpin: Prescience -- the power to foresee the future
+:pushpin: Erudition -- profound scholarly knowledge
+:pushpin: Evasiveness -- intentionally vague or ambiguous
+:pushpin: Control -- exercise authoritative control or power over",2018-08-28 23:50:53
+2283960245008292,Flora,Wang,22105,2283960245008292,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-28 23:51:12
+2283960245008292,Flora,Wang,22106,854518728062939,2283960245008292,BOT: message,Let's see if you can answer this question.,2018-08-28 23:51:13
+2283960245008292,Flora,Wang,22107,854518728062939,2283960245008292,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-28 23:51:14
+2283960245008292,Flora,Wang,22108,854518728062939,2283960245008292,BOT: quick reply,"Many dog owners treat their pets too _____ , forgetting that canines have evolved in competitive environments in which emotional coddling was a sign of weakness.",2018-08-28 23:51:15
+2283960245008292,Flora,Wang,22116,2283960245008292,854518728062939,user_typing,Indulgently,2018-08-28 23:51:33
+2283960245008292,Flora,Wang,22117,854518728062939,2283960245008292,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_normal_orange.png,2018-08-28 23:51:36
+2283960245008292,Flora,Wang,22118,854518728062939,2283960245008292,BOT: message,Nice! :red_apple:,2018-08-28 23:51:36
+2283960245008292,Flora,Wang,22119,854518728062939,2283960245008292,BOT: quick reply,The correct answer is indulgently.,2018-08-28 23:51:37
+2283960245008292,Flora,Wang,22120,2283960245008292,854518728062939,user_quick_reply: WHY,Why?,2018-08-28 23:51:42
+2283960245008292,Flora,Wang,22121,854518728062939,2283960245008292,BOT: message,This is an explanation of the question:,2018-08-28 23:51:43
+2283960245008292,Flora,Wang,22122,854518728062939,2283960245008292,BOT: quick reply,:pushpin: Indulgently -- benignly lenient or permissive,2018-08-28 23:51:43
+2283960245008292,Flora,Wang,22127,2283960245008292,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-28 23:51:55
+2283960245008292,Flora,Wang,22128,854518728062939,2283960245008292,BOT: message,Here's a question for you:,2018-08-28 23:51:55
+2283960245008292,Flora,Wang,22129,854518728062939,2283960245008292,BOT: quick reply,"Many dog owners treat their pets too _____ , forgetting that canines have evolved in competitive environments in which emotional coddling was a sign of weakness.",2018-08-28 23:51:56
+2283960245008292,Flora,Wang,22130,2283960245008292,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-28 23:52:11
+2283960245008292,Flora,Wang,22131,854518728062939,2283960245008292,BOT: message,Pick one of the following answers.,2018-08-28 23:52:11
+2283960245008292,Flora,Wang,22132,854518728062939,2283960245008292,BOT: quick reply,":keycap_1: indulgently
+:keycap_2: fortuitously
+:keycap_3: belligerently
+:keycap_4: quixotically
+:keycap_5: aggressively
+",2018-08-28 23:52:12
+2283960245008292,Flora,Wang,22133,2283960245008292,854518728062939,user_quick_reply: BUTTON_AKB_indulgently,:keycap_1:,2018-08-28 23:52:16
+2283960245008292,Flora,Wang,22135,854518728062939,2283960245008292,BOT: message,Great job!,2018-08-28 23:52:17
+2283960245008292,Flora,Wang,22136,854518728062939,2283960245008292,BOT: quick reply,The correct answer is indulgently.,2018-08-28 23:52:17
+2283960245008292,Flora,Wang,22139,2283960245008292,854518728062939,user_quick_reply: WHY,Why?,2018-08-28 23:52:24
+2283960245008292,Flora,Wang,22140,854518728062939,2283960245008292,BOT: message,I hope this explanation could help you understand the the question.,2018-08-28 23:52:24
+2283960245008292,Flora,Wang,22141,854518728062939,2283960245008292,BOT: quick reply,":pushpin: Indulgently -- benignly lenient or permissive
+:pushpin: Aggressively -- characterized by or tending toward unprovoked offensives, attacks, invasions, or the like
+:pushpin: Quixotically -- extravagantly chivalrous or romantic
+:pushpin: Fortuitously -- by good fortune
+:pushpin: Belligerently -- with hostility; in a belligerent hostile manner",2018-08-28 23:52:25
+2283960245008292,Flora,Wang,22148,2283960245008292,854518728062939,user_typing,Thanks,2018-08-28 23:52:56
+2283960245008292,Flora,Wang,22149,854518728062939,2283960245008292,BOT: quick reply,Sorry but I haven't learned about this yet. I'll learn more languages in the future.,2018-08-28 23:52:56
+2283960245008292,Flora,Wang,22150,2283960245008292,854518728062939,user_quick_reply: CHAT_WITH_ME,Chat with me :penguin:,2018-08-28 23:53:06
+2283960245008292,Flora,Wang,22151,854518728062939,2283960245008292,BOT: quick reply,Would you want me to tell you something interesting?,2018-08-28 23:53:06
+2283960245008292,Flora,Wang,22152,2283960245008292,854518728062939,user_quick_reply: JOKE,Joke :beaming_face_with_smiling_eyes:,2018-08-28 23:53:11
+2283960245008292,Flora,Wang,22153,854518728062939,2283960245008292,BOT: message,Here is an interesting one for you.,2018-08-28 23:53:11
+2283960245008292,Flora,Wang,22154,854518728062939,2283960245008292,BOT: quick reply,Q: How does a hurricane see? A: With its eye.,2018-08-28 23:53:12
+2283960245008292,Flora,Wang,22156,2283960245008292,854518728062939,user_quick_reply: JOKE,Another joke :beaming_face_with_smiling_eyes:,2018-08-28 23:53:21
+2283960245008292,Flora,Wang,22158,854518728062939,2283960245008292,BOT: message,Here is an interesting one for you.,2018-08-28 23:53:21
+2283960245008292,Flora,Wang,22160,854518728062939,2283960245008292,BOT: quick reply,What was Beethovens favorite fruit? BA-NA-NA-NAAAAAA.,2018-08-28 23:53:22
+2283960245008292,Flora,Wang,22161,2283960245008292,854518728062939,user_quick_reply: JOKE,Another joke :beaming_face_with_smiling_eyes:,2018-08-28 23:53:34
+2283960245008292,Flora,Wang,22162,854518728062939,2283960245008292,BOT: message,Here is an interesting one:,2018-08-28 23:53:35
+2283960245008292,Flora,Wang,22163,854518728062939,2283960245008292,BOT: quick reply,Q: Why did the dieter go to the paint store? A: He wanted to get thinner.,2018-08-28 23:53:35
+2283960245008292,Flora,Wang,22164,2283960245008292,854518728062939,user_quick_reply: FUN_FACT_SCIENCE,Fun fact :light_bulb:,2018-08-28 23:53:45
+2283960245008292,Flora,Wang,22166,854518728062939,2283960245008292,BOT: message,Here's one I thought might be interesting.,2018-08-28 23:53:45
+2283960245008292,Flora,Wang,22168,854518728062939,2283960245008292,BOT: quick reply,"In 100 years ago, the first virus was found in both plants and animals.",2018-08-28 23:53:46
+2283960245008292,Flora,Wang,22173,2283960245008292,854518728062939,user_quick_reply: JOKE,Joke :beaming_face_with_smiling_eyes:,2018-08-28 23:54:03
+2283960245008292,Flora,Wang,22174,854518728062939,2283960245008292,BOT: message,Here's one I thought might be funny.,2018-08-28 23:54:03
+2283960245008292,Flora,Wang,22175,854518728062939,2283960245008292,BOT: quick reply,Q: Why did the dieter go to the paint store? A: He wanted to get thinner.,2018-08-28 23:54:04
+2283960245008292,Flora,Wang,22180,2283960245008292,854518728062939,user_quick_reply: JOKE,Another joke :beaming_face_with_smiling_eyes:,2018-08-28 23:54:11
+2283960245008292,Flora,Wang,22181,854518728062939,2283960245008292,BOT: message,Here is an interesting one:,2018-08-28 23:54:12
+2283960245008292,Flora,Wang,22182,854518728062939,2283960245008292,BOT: quick reply,Q: What do chemists dogs do with their bones? A: They barium!,2018-08-28 23:54:12
+2283960245008292,Flora,Wang,22186,2283960245008292,854518728062939,user_quick_reply: JOKE,One more joke :beaming_face_with_smiling_eyes:,2018-08-28 23:54:20
+2283960245008292,Flora,Wang,22188,854518728062939,2283960245008292,BOT: message,Here is an interesting one for you.,2018-08-28 23:54:21
+2283960245008292,Flora,Wang,22189,854518728062939,2283960245008292,BOT: quick reply,What was Beethovens favorite fruit? BA-NA-NA-NAAAAAA.,2018-08-28 23:54:21
+2283960245008292,Flora,Wang,22194,2283960245008292,854518728062939,user_quick_reply: JOKE,One more joke :beaming_face_with_smiling_eyes:,2018-08-28 23:54:29
+2283960245008292,Flora,Wang,22195,854518728062939,2283960245008292,BOT: message,Here's one I thought might be interesting.,2018-08-28 23:54:30
+2283960245008292,Flora,Wang,22196,854518728062939,2283960245008292,BOT: quick reply,"Q. How many cats can you put in an empty box? A. One. After that, the box isnt empty anymore.",2018-08-28 23:54:30
+2283960245008292,Flora,Wang,22204,2283960245008292,854518728062939,user_quick_reply: JOKE,One more joke :beaming_face_with_smiling_eyes:,2018-08-28 23:54:42
+2283960245008292,Flora,Wang,22205,854518728062939,2283960245008292,BOT: message,Here's one I thought might be interesting.,2018-08-28 23:54:43
+2283960245008292,Flora,Wang,22206,854518728062939,2283960245008292,BOT: quick reply,"Q. Im an odd number. If you take away one of the letters in my name, I become even. What number am I? A. Seven. (Take away the S!)",2018-08-28 23:54:43
+2283960245008292,Flora,Wang,22213,2283960245008292,854518728062939,user_quick_reply: JOKE,One more joke :beaming_face_with_smiling_eyes:,2018-08-28 23:54:56
+2283960245008292,Flora,Wang,22215,854518728062939,2283960245008292,BOT: message,Here is a good one.,2018-08-28 23:54:56
+2283960245008292,Flora,Wang,22216,854518728062939,2283960245008292,BOT: quick reply,Q. What do you call a fake noodle? A. An impasta.,2018-08-28 23:54:57
+2283960245008292,Flora,Wang,22221,2283960245008292,854518728062939,user_quick_reply: JOKE,Another joke :beaming_face_with_smiling_eyes:,2018-08-28 23:55:06
+2283960245008292,Flora,Wang,22222,854518728062939,2283960245008292,BOT: message,Here is a good one.,2018-08-28 23:55:06
+2283960245008292,Flora,Wang,22223,854518728062939,2283960245008292,BOT: quick reply,"Q. What starts with e, ends with e, and contains one letter? A. An envelope.",2018-08-28 23:55:07
+2283960245008292,Flora,Wang,22227,2283960245008292,854518728062939,user_quick_reply: JOKE,One more joke :beaming_face_with_smiling_eyes:,2018-08-28 23:55:14
+2283960245008292,Flora,Wang,22228,854518728062939,2283960245008292,BOT: message,Here's one I thought might be funny.,2018-08-28 23:55:15
+2283960245008292,Flora,Wang,22230,854518728062939,2283960245008292,BOT: quick reply,Q: What are hot dogs called in winter? A: Chilly dogs,2018-08-28 23:55:16
+2283960245008292,Flora,Wang,22233,2283960245008292,854518728062939,user_quick_reply: JOKE,One more joke :beaming_face_with_smiling_eyes:,2018-08-28 23:55:23
+2283960245008292,Flora,Wang,22234,854518728062939,2283960245008292,BOT: message,Here is a good one.,2018-08-28 23:55:23
+2283960245008292,Flora,Wang,22235,854518728062939,2283960245008292,BOT: quick reply,Q: What did the cat say when the mouse got away? A: Youve got to be kitten me!,2018-08-28 23:55:24
+2283960245008292,Flora,Wang,22240,2283960245008292,854518728062939,user_quick_reply: JOKE,Another joke :beaming_face_with_smiling_eyes:,2018-08-28 23:55:31
+2283960245008292,Flora,Wang,22241,854518728062939,2283960245008292,BOT: message,Here is an interesting one:,2018-08-28 23:55:32
+2283960245008292,Flora,Wang,22242,854518728062939,2283960245008292,BOT: quick reply,Q: Where is the ocean the deepest? A: On the bottom!,2018-08-28 23:55:33
+2283960245008292,Flora,Wang,22247,2283960245008292,854518728062939,user_quick_reply: JOKE,One more joke :beaming_face_with_smiling_eyes:,2018-08-28 23:55:38
+2283960245008292,Flora,Wang,22249,854518728062939,2283960245008292,BOT: message,Here's one I thought might be funny.,2018-08-28 23:55:39
+2283960245008292,Flora,Wang,22250,854518728062939,2283960245008292,BOT: quick reply,Q: What do chemists dogs do with their bones? A: They barium!,2018-08-28 23:55:40
+2283960245008292,Flora,Wang,22254,2283960245008292,854518728062939,user_quick_reply: JOKE,Another joke :beaming_face_with_smiling_eyes:,2018-08-28 23:55:48
+2283960245008292,Flora,Wang,22255,854518728062939,2283960245008292,BOT: message,Here is an interesting one for you.,2018-08-28 23:55:49
+2283960245008292,Flora,Wang,22256,854518728062939,2283960245008292,BOT: quick reply,What is the musical part of a snake? The scales.,2018-08-28 23:55:49
+2283960245008292,Flora,Wang,22267,2283960245008292,854518728062939,user_quick_reply: JOKE,One more joke :beaming_face_with_smiling_eyes:,2018-08-28 23:56:16
+2283960245008292,Flora,Wang,22268,854518728062939,2283960245008292,BOT: message,Here is a good one.,2018-08-28 23:56:17
+2283960245008292,Flora,Wang,22269,854518728062939,2283960245008292,BOT: quick reply,Q: What do chemists dogs do with their bones? A: They barium!,2018-08-28 23:56:17
+2283960245008292,Flora,Wang,22271,2283960245008292,854518728062939,user_quick_reply: JOKE,Another joke :beaming_face_with_smiling_eyes:,2018-08-28 23:56:21
+2283960245008292,Flora,Wang,22273,854518728062939,2283960245008292,BOT: message,Here is an interesting one:,2018-08-28 23:56:21
+2283960245008292,Flora,Wang,22275,854518728062939,2283960245008292,BOT: quick reply,Q: Why did the dieter go to the paint store? A: He wanted to get thinner.,2018-08-28 23:56:22
+2283960245008292,Flora,Wang,22276,2283960245008292,854518728062939,user_quick_reply: FUN_FACT_SCIENCE,Fun fact :light_bulb:,2018-08-28 23:56:26
+2283960245008292,Flora,Wang,22277,854518728062939,2283960245008292,BOT: message,Here's one I thought might be interesting.,2018-08-28 23:56:27
+2283960245008292,Flora,Wang,22278,854518728062939,2283960245008292,BOT: quick reply,Flea's can jump 130 times higher than their own height. In human terms this is equal to a 6ft. person jumping 780 ft. into the air.,2018-08-28 23:56:27
+2283960245008292,Flora,Wang,22283,2283960245008292,854518728062939,user_quick_reply: JOKE,Joke :beaming_face_with_smiling_eyes:,2018-08-28 23:56:35
+2283960245008292,Flora,Wang,22285,854518728062939,2283960245008292,BOT: message,Here's one I thought might be interesting.,2018-08-28 23:56:36
+2283960245008292,Flora,Wang,22288,854518728062939,2283960245008292,BOT: quick reply,Q: What do chemists dogs do with their bones? A: They barium!,2018-08-28 23:56:37
+2283960245008292,Flora,Wang,22292,2283960245008292,854518728062939,user_quick_reply: FUN_FACT_SCIENCE,Fun fact :light_bulb:,2018-08-28 23:56:46
+2283960245008292,Flora,Wang,22293,854518728062939,2283960245008292,BOT: message,Here is a fun fact for you.,2018-08-28 23:56:47
+2283960245008292,Flora,Wang,22294,854518728062939,2283960245008292,BOT: quick reply,The ocean is 8 Empire State Buildings deep on average.,2018-08-28 23:56:47
+2283960245008292,Flora,Wang,22299,2283960245008292,854518728062939,user_quick_reply: FUN_FACT_SCIENCE,One more fun fact:light_bulb:,2018-08-28 23:56:56
+2283960245008292,Flora,Wang,22300,854518728062939,2283960245008292,BOT: message,Here is a fun fact for you.,2018-08-28 23:56:56
+2283960245008292,Flora,Wang,22301,854518728062939,2283960245008292,BOT: quick reply,Female sharks have thicker skins than males.,2018-08-28 23:56:57
+2283960245008292,Flora,Wang,22302,2283960245008292,854518728062939,user_quick_reply: FUN_FACT_SCIENCE,One more fun fact:light_bulb:,2018-08-28 23:57:01
+2283960245008292,Flora,Wang,22303,854518728062939,2283960245008292,BOT: message,Here's one I thought might be fun.,2018-08-28 23:57:02
+2283960245008292,Flora,Wang,22304,854518728062939,2283960245008292,BOT: quick reply,Lasers can get trapped in a waterfall.,2018-08-28 23:57:02
+2283960245008292,Flora,Wang,22308,2283960245008292,854518728062939,user_quick_reply: FUN_FACT_SCIENCE,Another fun fact:light_bulb:,2018-08-28 23:57:08
+2283960245008292,Flora,Wang,22309,854518728062939,2283960245008292,BOT: message,Here is an interesting one.,2018-08-28 23:57:09
+2283960245008292,Flora,Wang,22310,854518728062939,2283960245008292,BOT: quick reply,"A new born blue whale measures 20-26 feet (6.0 - 7.9 meters) long and weighs up to 6,614 pounds (3003 kg).",2018-08-28 23:57:10
+2283960245008292,Flora,Wang,22315,2283960245008292,854518728062939,user_quick_reply: FUN_FACT_SCIENCE,Another fun fact:light_bulb:,2018-08-28 23:57:19
+2283960245008292,Flora,Wang,22316,854518728062939,2283960245008292,BOT: message,Here is a fun fact for you.,2018-08-28 23:57:20
+2283960245008292,Flora,Wang,22317,854518728062939,2283960245008292,BOT: quick reply,"The most dangerous animal in the world is the common housefly. Because of their habits of visiting animal waste, they transmit more diseases than any other animal.",2018-08-28 23:57:20
+2283960245008292,Flora,Wang,23306,854518728062939,2283960245008292,BOT: quick reply,"Hi Flora, you haven't talked to me for a while. Would you like to resume the learning with me?",2018-08-29 20:00:27
+2283960245008292,Flora,Wang,23761,2283960245008292,854518728062939,user_quick_reply: NEXT_QUESTION,Continue :flexed_biceps_medium-light_skin_tone:,2018-08-29 22:36:25
+2283960245008292,Flora,Wang,23762,854518728062939,2283960245008292,BOT: message,Let's see if you can answer this question.,2018-08-29 22:36:26
+2283960245008292,Flora,Wang,23763,854518728062939,2283960245008292,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-29 22:36:27
+2283960245008292,Flora,Wang,23764,854518728062939,2283960245008292,BOT: quick reply,"Having squandered his life's savings on unprofitable business ventures, the _____ entrepreneur was forced to live in squalor.",2018-08-29 22:36:27
+2283960245008292,Flora,Wang,23765,2283960245008292,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-29 22:36:33
+2283960245008292,Flora,Wang,23766,854518728062939,2283960245008292,BOT: message,Pick one of the following answers.,2018-08-29 22:36:34
+2283960245008292,Flora,Wang,23767,854518728062939,2283960245008292,BOT: quick reply,":keycap_1: insolvent
+:keycap_2: former
+:keycap_3: unlikely
+:keycap_4: eccentric
+:keycap_5: perturbed
+",2018-08-29 22:36:34
+2283960245008292,Flora,Wang,23768,2283960245008292,854518728062939,user_quick_reply: I_DONT_KNOW,I dont know :downcast_face_with_sweat:,2018-08-29 22:36:55
+2283960245008292,Flora,Wang,23769,854518728062939,2283960245008292,BOT: quick reply,Are you sure you want to skip this question?,2018-08-29 22:36:56
+2283960245008292,Flora,Wang,23770,2283960245008292,854518728062939,user_quick_reply: GIVEUP_NO,"No, I'll try again!",2018-08-29 22:36:59
+2283960245008292,Flora,Wang,23771,854518728062939,2283960245008292,BOT: message,Try again!,2018-08-29 22:37:00
+2283960245008292,Flora,Wang,23772,854518728062939,2283960245008292,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-08-29 22:37:00
+2283960245008292,Flora,Wang,23773,854518728062939,2283960245008292,BOT: quick reply,":keycap_1: unlikely
+:keycap_2: insolvent
+:keycap_3: eccentric
+:keycap_4: perturbed
+:keycap_5: former
+",2018-08-29 22:37:01
+2283960245008292,Flora,Wang,23774,2283960245008292,854518728062939,user_quick_reply: BUTTON_DKB_former,:keycap_5:,2018-08-29 22:37:09
+2283960245008292,Flora,Wang,23775,854518728062939,2283960245008292,BOT: message,"I'm sorry, but that was incorrect. :disappointed_face:",2018-08-29 22:37:09
+2283960245008292,Flora,Wang,23776,854518728062939,2283960245008292,BOT: quick reply,The correct answer is insolvent.,2018-08-29 22:37:10
+2283960245008292,Flora,Wang,23777,2283960245008292,854518728062939,user_quick_reply: WHY,Why?,2018-08-29 22:37:32
+2283960245008292,Flora,Wang,23778,854518728062939,2283960245008292,BOT: message,Here's an explanation:,2018-08-29 22:37:32
+2283960245008292,Flora,Wang,23779,854518728062939,2283960245008292,BOT: quick reply,":pushpin: Insolvent -- unable to meet or discharge financial obligations
+:pushpin: Former -- preceding in time; prior or earlier
+:pushpin: Unlikely -- not likely to be true or to occur or to have occurred
+:pushpin: Perturbed -- thrown into a state of agitated confusion
+:pushpin: Eccentric -- conspicuously or grossly unconventional or unusual",2018-08-29 22:37:33
+2283960245008292,Flora,Wang,23780,2283960245008292,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-29 22:37:59
+2283960245008292,Flora,Wang,23781,854518728062939,2283960245008292,BOT: message,What about this next question:,2018-08-29 22:37:59
+2283960245008292,Flora,Wang,23782,854518728062939,2283960245008292,BOT: quick reply,"Having squandered his life's savings on unprofitable business ventures, the _____ entrepreneur was forced to live in squalor.",2018-08-29 22:38:00
+2283960245008292,Flora,Wang,23783,2283960245008292,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-29 22:38:09
+2283960245008292,Flora,Wang,23784,854518728062939,2283960245008292,BOT: message,Which of the following options is the right answer?,2018-08-29 22:38:09
+2283960245008292,Flora,Wang,23785,854518728062939,2283960245008292,BOT: quick reply,":keycap_1: former
+:keycap_2: insolvent
+:keycap_3: unlikely
+:keycap_4: perturbed
+:keycap_5: eccentric
+",2018-08-29 22:38:10
+2283960245008292,Flora,Wang,23786,2283960245008292,854518728062939,user_quick_reply: BUTTON_AKB_insolvent,:keycap_2:,2018-08-29 22:38:14
+2283960245008292,Flora,Wang,23787,854518728062939,2283960245008292,BOT: message,Great job!,2018-08-29 22:38:14
+2283960245008292,Flora,Wang,23788,854518728062939,2283960245008292,BOT: quick reply,The correct answer is insolvent.,2018-08-29 22:38:15
+2283960245008292,Flora,Wang,23789,2283960245008292,854518728062939,user_quick_reply: WHY,Why?,2018-08-29 22:38:19
+2283960245008292,Flora,Wang,23790,854518728062939,2283960245008292,BOT: message,This is an explanation of the question:,2018-08-29 22:38:20
+2283960245008292,Flora,Wang,23791,854518728062939,2283960245008292,BOT: quick reply,":pushpin: Insolvent -- unable to meet or discharge financial obligations
+:pushpin: Former -- preceding in time; prior or earlier
+:pushpin: Unlikely -- not likely to be true or to occur or to have occurred
+:pushpin: Perturbed -- thrown into a state of agitated confusion
+:pushpin: Eccentric -- conspicuously or grossly unconventional or unusual",2018-08-29 22:38:20
+2283960245008292,Flora,Wang,23804,2283960245008292,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-29 22:42:29
+2283960245008292,Flora,Wang,23805,854518728062939,2283960245008292,BOT: message,Let's see if you can answer this question.,2018-08-29 22:42:30
+2283960245008292,Flora,Wang,23806,854518728062939,2283960245008292,BOT: quick reply,"Having squandered his life's savings on unprofitable business ventures, the _____ entrepreneur was forced to live in squalor.",2018-08-29 22:42:30
+2283960245008292,Flora,Wang,23807,2283960245008292,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-29 22:42:34
+2283960245008292,Flora,Wang,23808,854518728062939,2283960245008292,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-08-29 22:42:35
+2283960245008292,Flora,Wang,23809,854518728062939,2283960245008292,BOT: quick reply,":keycap_1: unlikely
+:keycap_2: eccentric
+:keycap_3: perturbed
+:keycap_4: insolvent
+:keycap_5: former
+",2018-08-29 22:42:35
+2283960245008292,Flora,Wang,23820,2283960245008292,854518728062939,user_quick_reply: BUTTON_AKB_insolvent,:keycap_4:,2018-08-29 22:43:00
+2283960245008292,Flora,Wang,23821,854518728062939,2283960245008292,BOT: message,Yes! You got the correct answer!,2018-08-29 22:43:01
+2283960245008292,Flora,Wang,23822,854518728062939,2283960245008292,BOT: quick reply,The correct answer is insolvent.,2018-08-29 22:43:02
+2283960245008292,Flora,Wang,23823,2283960245008292,854518728062939,user_quick_reply: WHY,Why?,2018-08-29 22:43:06
+2283960245008292,Flora,Wang,23824,854518728062939,2283960245008292,BOT: message,This is why:,2018-08-29 22:43:06
+2283960245008292,Flora,Wang,23825,854518728062939,2283960245008292,BOT: quick reply,":pushpin: Insolvent -- unable to meet or discharge financial obligations
+:pushpin: Former -- preceding in time; prior or earlier
+:pushpin: Unlikely -- not likely to be true or to occur or to have occurred
+:pushpin: Perturbed -- thrown into a state of agitated confusion
+:pushpin: Eccentric -- conspicuously or grossly unconventional or unusual",2018-08-29 22:43:07
+2283960245008292,Flora,Wang,23826,2283960245008292,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-29 22:43:19
+2283960245008292,Flora,Wang,23827,854518728062939,2283960245008292,BOT: message,Let's take a look at this question.,2018-08-29 22:43:20
+2283960245008292,Flora,Wang,23828,854518728062939,2283960245008292,BOT: quick reply,"Having squandered his life's savings on unprofitable business ventures, the _____ entrepreneur was forced to live in squalor.",2018-08-29 22:43:20
+2283960245008292,Flora,Wang,23829,2283960245008292,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-29 22:43:28
+2283960245008292,Flora,Wang,23830,854518728062939,2283960245008292,BOT: message,It's one of the following choices.,2018-08-29 22:43:28
+2283960245008292,Flora,Wang,23831,854518728062939,2283960245008292,BOT: quick reply,":keycap_1: perturbed
+:keycap_2: unlikely
+:keycap_3: former
+:keycap_4: eccentric
+:keycap_5: insolvent
+",2018-08-29 22:43:29
+2283960245008292,Flora,Wang,23837,2283960245008292,854518728062939,user_quick_reply: BUTTON_AKB_insolvent,:keycap_5:,2018-08-29 22:43:40
+2283960245008292,Flora,Wang,23840,854518728062939,2283960245008292,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_happy_cyan.png,2018-08-29 22:43:42
+2283960245008292,Flora,Wang,23841,854518728062939,2283960245008292,BOT: message,Nice! That was right!,2018-08-29 22:43:42
+2283960245008292,Flora,Wang,23842,854518728062939,2283960245008292,BOT: quick reply,The correct answer is insolvent.,2018-08-29 22:43:43
+2283960245008292,Flora,Wang,23846,2283960245008292,854518728062939,user_quick_reply: WHY,Why?,2018-08-29 22:43:53
+2283960245008292,Flora,Wang,23847,854518728062939,2283960245008292,BOT: message,This is an explanation of the question:,2018-08-29 22:43:54
+2283960245008292,Flora,Wang,23848,854518728062939,2283960245008292,BOT: quick reply,":pushpin: Insolvent -- unable to meet or discharge financial obligations
+:pushpin: Former -- preceding in time; prior or earlier
+:pushpin: Unlikely -- not likely to be true or to occur or to have occurred
+:pushpin: Perturbed -- thrown into a state of agitated confusion
+:pushpin: Eccentric -- conspicuously or grossly unconventional or unusual",2018-08-29 22:43:54
+2283960245008292,Flora,Wang,23855,2283960245008292,854518728062939,user_quick_reply: SWITCH_SUBJECT,Change subject :shuffle_tracks_button:,2018-08-29 22:44:04
+2283960245008292,Flora,Wang,23857,854518728062939,2283960245008292,BOT: quick reply,"Cool, which subject would you like to study?:backhand_index_pointing_down_medium-light_skin_tone:",2018-08-29 22:44:05
+2283960245008292,Flora,Wang,23863,2283960245008292,854518728062939,user_quick_reply: SCIENCE,Science:microscope:,2018-08-29 22:44:28
+2283960245008292,Flora,Wang,23864,854518728062939,2283960245008292,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/evolvereading_scientist.gif,2018-08-29 22:44:33
+2283960245008292,Flora,Wang,23865,854518728062939,2283960245008292,BOT: quick reply,Awesome! Let's learn about science!,2018-08-29 22:44:33
+2283960245008292,Flora,Wang,23882,2283960245008292,854518728062939,user_quick_reply: NEXT_QUESTION,Sure :raising_hands_medium-light_skin_tone:,2018-08-29 22:45:41
+2283960245008292,Flora,Wang,23883,854518728062939,2283960245008292,BOT: message,How about this next one:,2018-08-29 22:45:42
+2283960245008292,Flora,Wang,23884,854518728062939,2283960245008292,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-29 22:45:43
+2283960245008292,Flora,Wang,23885,854518728062939,2283960245008292,BOT: quick reply,What opens two strands of DNA?,2018-08-29 22:45:43
+2283960245008292,Flora,Wang,23886,2283960245008292,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-29 22:45:50
+2283960245008292,Flora,Wang,23887,854518728062939,2283960245008292,BOT: message,Which of the following options is the right answer?,2018-08-29 22:45:51
+2283960245008292,Flora,Wang,23888,854518728062939,2283960245008292,BOT: quick reply,":keycap_1: adenylate
+:keycap_2: replication
+:keycap_3: helicase
+:keycap_4: chromosome
+",2018-08-29 22:45:52
+2283960245008292,Flora,Wang,23889,2283960245008292,854518728062939,user_quick_reply: BUTTON_AKB_helicase,:keycap_3:,2018-08-29 22:46:00
+2283960245008292,Flora,Wang,23890,854518728062939,2283960245008292,BOT: message,Nice work! Keep it up!,2018-08-29 22:46:01
+2283960245008292,Flora,Wang,23891,854518728062939,2283960245008292,BOT: quick reply,The correct answer is helicase.,2018-08-29 22:46:02
+2283960245008292,Flora,Wang,23895,2283960245008292,854518728062939,user_quick_reply: WHY,Why?,2018-08-29 22:46:57
+2283960245008292,Flora,Wang,23896,854518728062939,2283960245008292,BOT: message,This is why:,2018-08-29 22:46:57
+2283960245008292,Flora,Wang,23897,854518728062939,2283960245008292,BOT: quick reply,"The two DNA strands are opened by helicase. The strands are held open by a single strand of binding proteins, preventing premature reannealing. Topoisomerase solves the problem caused by tension generated by winding/unwinding of DNA. This enzyme wraps around DNA and makes a cut permitting the helix to spin and relax. Once DNA is relaxed, topoisomerase reconnects broken strands. DNA primase synthesizes a short RNA primer which initiates the Okazaki fragment. Okazaki fragments are attached by DNA ligase.",2018-08-29 22:46:58
+2283960245008292,Flora,Wang,23944,2283960245008292,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-29 22:49:02
+2283960245008292,Flora,Wang,23945,854518728062939,2283960245008292,BOT: message,Let's see if you would answer this one.,2018-08-29 22:49:03
+2283960245008292,Flora,Wang,23946,854518728062939,2283960245008292,BOT: quick reply,The electrode at which oxidation occurs is called the what?,2018-08-29 22:49:03
+2283960245008292,Flora,Wang,23947,2283960245008292,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-29 22:49:25
+2283960245008292,Flora,Wang,23948,854518728062939,2283960245008292,BOT: message,Which of the following options is the right answer?,2018-08-29 22:49:26
+2283960245008292,Flora,Wang,23949,854518728062939,2283960245008292,BOT: quick reply,":keycap_1: calomel
+:keycap_2: diode
+:keycap_3: cathode
+:keycap_4: anode
+",2018-08-29 22:49:27
+2283960245008292,Flora,Wang,23950,2283960245008292,854518728062939,user_quick_reply: I_DONT_KNOW,I dont know :downcast_face_with_sweat:,2018-08-29 22:49:36
+2283960245008292,Flora,Wang,23951,854518728062939,2283960245008292,BOT: quick reply,Do you really want to skip this question?,2018-08-29 22:49:37
+2283960245008292,Flora,Wang,23952,2283960245008292,854518728062939,user_quick_reply: GIVEUP_YES,"Yes, answer please.",2018-08-29 22:49:40
+2283960245008292,Flora,Wang,23953,854518728062939,2283960245008292,BOT: message,You didn't get this question this time.,2018-08-29 22:49:40
+2283960245008292,Flora,Wang,23954,854518728062939,2283960245008292,BOT: message,"That's fine, you'll nail it next time! :grinning_face_with_smiling_eyes:",2018-08-29 22:49:41
+2283960245008292,Flora,Wang,23955,854518728062939,2283960245008292,BOT: quick reply,The correct answer is anode.,2018-08-29 22:49:42
+2283960245008292,Flora,Wang,23956,2283960245008292,854518728062939,user_quick_reply: SWITCH_SUBJECT,Change subject :shuffle_tracks_button:,2018-08-29 22:49:50
+2283960245008292,Flora,Wang,23957,854518728062939,2283960245008292,BOT: quick reply,"Cool, which subject would you like to study?:backhand_index_pointing_down_medium-light_skin_tone:",2018-08-29 22:49:51
+2283960245008292,Flora,Wang,23958,2283960245008292,854518728062939,user_typing,Https://scontent-lax3-2.xx.fbcdn.net/v/t1.15752-0/s261x260/40337222_314573595968983_3526617807322087424_n.png?_nc_cat=0&oh=93929358277abd241e4d950406ccd0c8&oe=5bf076df,2018-08-29 22:50:02
+2283960245008292,Flora,Wang,23959,854518728062939,2283960245008292,BOT: quick reply,Haha I haven't learned about this yet. You can teach me some languages later!,2018-08-29 22:50:03
+2283960245008292,Flora,Wang,23966,2283960245008292,854518728062939,user_quick_reply: CHAT_WITH_ME,Chat with me :penguin:,2018-08-29 22:50:08
+2283960245008292,Flora,Wang,23967,854518728062939,2283960245008292,BOT: quick reply,Would you like me to tell you something interesting?,2018-08-29 22:50:09
+2283960245008292,Flora,Wang,23971,2283960245008292,854518728062939,user_quick_reply: JOKE,Joke :beaming_face_with_smiling_eyes:,2018-08-29 22:50:12
+2283960245008292,Flora,Wang,23974,854518728062939,2283960245008292,BOT: message,Here's one I thought might be funny.,2018-08-29 22:50:13
+2283960245008292,Flora,Wang,23976,854518728062939,2283960245008292,BOT: quick reply,Q: Why do watermelons have fancy weddings? A: Because they cantaloupe.,2018-08-29 22:50:13
+2283960245008292,Flora,Wang,24512,2283960245008292,854518728062939,user_quick_reply: JOKE,One more joke :beaming_face_with_smiling_eyes:,2018-08-30 08:50:23
+2283960245008292,Flora,Wang,24513,854518728062939,2283960245008292,BOT: message,Here's one I thought might be funny.,2018-08-30 08:50:24
+2283960245008292,Flora,Wang,24514,854518728062939,2283960245008292,BOT: quick reply,Q: Why was the chef embarrassed? A: Because he saw the salad dressing!,2018-08-30 08:50:24
+2283960245008292,Flora,Wang,24515,2283960245008292,854518728062939,user_quick_reply: JOKE,Another joke :beaming_face_with_smiling_eyes:,2018-08-30 08:50:30
+2283960245008292,Flora,Wang,24516,854518728062939,2283960245008292,BOT: message,Here's one I thought might be funny.,2018-08-30 08:50:31
+2283960245008292,Flora,Wang,24517,854518728062939,2283960245008292,BOT: quick reply,What is the musical part of a snake? The scales.,2018-08-30 08:50:32
+2283960245008292,Flora,Wang,25935,2283960245008292,854518728062939,user_quick_reply: JOKE,Another joke :beaming_face_with_smiling_eyes:,2018-08-30 18:00:15
+2283960245008292,Flora,Wang,25936,854518728062939,2283960245008292,BOT: message,Here is a good one.,2018-08-30 18:00:16
+2283960245008292,Flora,Wang,25937,854518728062939,2283960245008292,BOT: quick reply,Q: Why was the chef embarrassed? A: Because he saw the salad dressing!,2018-08-30 18:00:17
+2283960245008292,Flora,Wang,25942,2283960245008292,854518728062939,user_quick_reply: JOKE,One more joke :beaming_face_with_smiling_eyes:,2018-08-30 18:00:23
+2283960245008292,Flora,Wang,25943,854518728062939,2283960245008292,BOT: message,Here's one I thought might be funny.,2018-08-30 18:00:24
+2283960245008292,Flora,Wang,25944,854518728062939,2283960245008292,BOT: quick reply,Q: Why dont cats play poker in the jungle? A: There are too many cheetahs.,2018-08-30 18:00:24
+2283960245008292,Flora,Wang,25959,2283960245008292,854518728062939,user_quick_reply: JOKE,Another joke :beaming_face_with_smiling_eyes:,2018-08-30 18:00:55
+2283960245008292,Flora,Wang,25960,854518728062939,2283960245008292,BOT: message,Here is a good one.,2018-08-30 18:00:56
+2283960245008292,Flora,Wang,25961,854518728062939,2283960245008292,BOT: quick reply,"Q. What starts with e, ends with e, and contains one letter? A. An envelope.",2018-08-30 18:00:56
+2283960245008292,Flora,Wang,25968,2283960245008292,854518728062939,user_quick_reply: NEXT_QUESTION,Continue learning :flexed_biceps_medium-light_skin_tone:,2018-08-30 18:01:08
+2283960245008292,Flora,Wang,25969,854518728062939,2283960245008292,BOT: message,Would you answer this question for me?,2018-08-30 18:01:08
+2283960245008292,Flora,Wang,25970,854518728062939,2283960245008292,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-30 18:01:09
+2283960245008292,Flora,Wang,25971,854518728062939,2283960245008292,BOT: quick reply,What living species of bird is considered the largest of the raptors?,2018-08-30 18:01:09
+2283960245008292,Flora,Wang,25975,2283960245008292,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-30 18:01:18
+2283960245008292,Flora,Wang,25976,854518728062939,2283960245008292,BOT: message,Pick one of the following answers.,2018-08-30 18:01:18
+2283960245008292,Flora,Wang,25977,854518728062939,2283960245008292,BOT: quick reply,":keycap_1: peregrine falcon
+:keycap_2: golden eagles
+:keycap_3: California condor
+:keycap_4: pterodactyl
+",2018-08-30 18:01:19
+2283960245008292,Flora,Wang,25988,2283960245008292,854518728062939,user_quick_reply: BUTTON_DKB_California condor,:keycap_3:,2018-08-30 18:01:30
+2283960245008292,Flora,Wang,25989,854518728062939,2283960245008292,BOT: message,That's not quite right. :disappointed_face:,2018-08-30 18:01:31
+2283960245008292,Flora,Wang,25990,854518728062939,2283960245008292,BOT: quick reply,The correct answer is golden eagles.,2018-08-30 18:01:31
+2283960245008292,Flora,Wang,25994,2283960245008292,854518728062939,user_quick_reply: WHY,Why?,2018-08-30 18:01:46
+2283960245008292,Flora,Wang,25995,854518728062939,2283960245008292,BOT: message,This is why:,2018-08-30 18:01:46
+2283960245008292,Flora,Wang,25996,854518728062939,2283960245008292,BOT: quick reply,"Although not as famous as its bald cousin, Golden Eagles are much easier to find in Northern California - one of the largest breeding populations for Golden Eagles. The largest of the raptors, Golden Eagles weigh typically between 8 and 12 pounds, and their wing span is around 6 to 7 feet. These eagles dive towards earth to catch prey, and can reach speeds of up to 200 mph!",2018-08-30 18:01:47
+2283960245008292,Flora,Wang,26014,2283960245008292,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-30 18:02:20
+2283960245008292,Flora,Wang,26015,854518728062939,2283960245008292,BOT: message,I think you'll like this question.,2018-08-30 18:02:21
+2283960245008292,Flora,Wang,26016,854518728062939,2283960245008292,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-30 18:02:21
+2283960245008292,Flora,Wang,26017,854518728062939,2283960245008292,BOT: quick reply,What are by far the most common type of invertebrate?,2018-08-30 18:02:22
+2283960245008292,Flora,Wang,26020,2283960245008292,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-30 18:02:27
+2283960245008292,Flora,Wang,26021,854518728062939,2283960245008292,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-08-30 18:02:28
+2283960245008292,Flora,Wang,26022,854518728062939,2283960245008292,BOT: quick reply,":keycap_1: insects
+:keycap_2: corals
+:keycap_3: spiders
+:keycap_4: crustaceans
+",2018-08-30 18:02:28
+2283960245008292,Flora,Wang,26047,2283960245008292,854518728062939,user_quick_reply: BUTTON_AKB_insects,:keycap_1:,2018-08-30 18:05:15
+2283960245008292,Flora,Wang,26048,854518728062939,2283960245008292,BOT: message,Great job!,2018-08-30 18:05:15
+2283960245008292,Flora,Wang,26049,854518728062939,2283960245008292,BOT: quick reply,The correct answer is insects.,2018-08-30 18:05:16
+2283960245008292,Flora,Wang,26053,2283960245008292,854518728062939,user_quick_reply: SWITCH_SUBJECT,Change subject :shuffle_tracks_button:,2018-08-30 18:05:19
+2283960245008292,Flora,Wang,26054,854518728062939,2283960245008292,BOT: quick reply,"Sure, which subject would you like me to quiz you on?:backhand_index_pointing_down_medium-light_skin_tone:",2018-08-30 18:05:20
+2283960245008292,Flora,Wang,26061,2283960245008292,854518728062939,user_quick_reply: GRE,GRE :input_latin_uppercase:,2018-08-30 18:05:36
+2283960245008292,Flora,Wang,26062,854518728062939,2283960245008292,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/evolvescientist_reading.gif,2018-08-30 18:05:40
+2283960245008292,Flora,Wang,26063,854518728062939,2283960245008292,BOT: quick reply,Let's answer some questions about the GRE!,2018-08-30 18:05:41
+2283960245008292,Flora,Wang,26074,2283960245008292,854518728062939,user_quick_reply: NEXT_QUESTION,Sure :clapping_hands_medium-light_skin_tone:,2018-08-30 18:06:11
+2283960245008292,Flora,Wang,26075,854518728062939,2283960245008292,BOT: message,What about this next question:,2018-08-30 18:06:11
+2283960245008292,Flora,Wang,26076,854518728062939,2283960245008292,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-30 18:06:12
+2283960245008292,Flora,Wang,26077,854518728062939,2283960245008292,BOT: quick reply,"With a similar contrast between a partly cloudy sky and a dark street, the cover of the recent rock CD _____ a famous surrealist painting from the early 1900s.",2018-08-30 18:06:13
+2283960245008292,Flora,Wang,26083,2283960245008292,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-30 18:06:54
+2283960245008292,Flora,Wang,26085,854518728062939,2283960245008292,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-08-30 18:06:55
+2283960245008292,Flora,Wang,26086,854518728062939,2283960245008292,BOT: quick reply,":keycap_1: obfuscates
+:keycap_2: disenchants
+:keycap_3: admires
+:keycap_4: evokes
+:keycap_5: sanctions
+",2018-08-30 18:06:55
+2283960245008292,Flora,Wang,26087,2283960245008292,854518728062939,user_quick_reply: BUTTON_AKB_evokes,:keycap_4:,2018-08-30 18:07:07
+2283960245008292,Flora,Wang,26088,854518728062939,2283960245008292,BOT: message,Great! Keep it up! :flexed_biceps_medium-light_skin_tone:,2018-08-30 18:07:07
+2283960245008292,Flora,Wang,26089,854518728062939,2283960245008292,BOT: quick reply,The correct answer is evokes.,2018-08-30 18:07:08
+2283960245008292,Flora,Wang,26090,2283960245008292,854518728062939,user_quick_reply: WHY,Why?,2018-08-30 18:07:12
+2283960245008292,Flora,Wang,26091,854518728062939,2283960245008292,BOT: message,Here's why:,2018-08-30 18:07:13
+2283960245008292,Flora,Wang,26092,854518728062939,2283960245008292,BOT: quick reply,":pushpin: Evokes -- call forth emotions, feelings, and responses
+:pushpin: Admires -- feel admiration for
+:pushpin: Obfuscates -- make obscure or unclear
+:pushpin: Disenchants -- free from enchantment
+:pushpin: Sanctions -- give sanction to",2018-08-30 18:07:13
+2283960245008292,Flora,Wang,26093,2283960245008292,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-30 18:07:34
+2283960245008292,Flora,Wang,26094,854518728062939,2283960245008292,BOT: message,Let's try this one.,2018-08-30 18:07:34
+2283960245008292,Flora,Wang,26095,854518728062939,2283960245008292,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-30 18:07:35
+2283960245008292,Flora,Wang,26096,854518728062939,2283960245008292,BOT: quick reply,"Many dog owners treat their pets too _____ , forgetting that canines have evolved in competitive environments in which emotional coddling was a sign of weakness.",2018-08-30 18:07:35
+2283960245008292,Flora,Wang,26097,2283960245008292,854518728062939,user_typing,Indulgently,2018-08-30 18:08:13
+2283960245008292,Flora,Wang,26098,854518728062939,2283960245008292,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/celebration.gif,2018-08-30 18:08:19
+2283960245008292,Flora,Wang,26099,854518728062939,2283960245008292,BOT: message,Nice! :red_apple:,2018-08-30 18:08:19
+2283960245008292,Flora,Wang,26100,854518728062939,2283960245008292,BOT: quick reply,The correct answer is indulgently.,2018-08-30 18:08:20
+2283960245008292,Flora,Wang,26101,2283960245008292,854518728062939,user_quick_reply: WHY,Why?,2018-08-30 18:08:31
+2283960245008292,Flora,Wang,26102,854518728062939,2283960245008292,BOT: message,Here's an explanation:,2018-08-30 18:08:31
+2283960245008292,Flora,Wang,26103,854518728062939,2283960245008292,BOT: quick reply,:pushpin: Indulgently -- benignly lenient or permissive,2018-08-30 18:08:32
+2283960245008292,Flora,Wang,26104,2283960245008292,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-30 18:08:39
+2283960245008292,Flora,Wang,26105,854518728062939,2283960245008292,BOT: message,Let's try this one.,2018-08-30 18:08:40
+2283960245008292,Flora,Wang,26106,854518728062939,2283960245008292,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-30 18:08:40
+2283960245008292,Flora,Wang,26107,854518728062939,2283960245008292,BOT: quick reply,"In psychological literature, the ""sleeper effect"" refers to the phenomenon in which a persuasive message from a trustworthy source loses _____ over time, while the efficacy of a message from a less credible source simultaneously increases.",2018-08-30 18:08:41
+2283960245008292,Flora,Wang,26108,2283960245008292,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-30 18:09:02
+2283960245008292,Flora,Wang,26109,854518728062939,2283960245008292,BOT: message,It's one of the following choices.,2018-08-30 18:09:03
+2283960245008292,Flora,Wang,26110,854518728062939,2283960245008292,BOT: quick reply,":keycap_1: control
+:keycap_2: evasiveness
+:keycap_3: erudition
+:keycap_4: prescience
+:keycap_5: cogency
+",2018-08-30 18:09:03
+2283960245008292,Flora,Wang,26111,2283960245008292,854518728062939,user_typing,Lkj,2018-08-30 18:13:12
+2283960245008292,Flora,Wang,26112,854518728062939,2283960245008292,BOT: message,That's not quite right. :disappointed_face:,2018-08-30 18:13:13
+2283960245008292,Flora,Wang,26113,854518728062939,2283960245008292,BOT: quick reply,The correct answer is cogency.,2018-08-30 18:13:13
+2283960245008292,Flora,Wang,26114,2283960245008292,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-30 18:13:22
+2283960245008292,Flora,Wang,26115,854518728062939,2283960245008292,BOT: message,Let's see if you can get this one.,2018-08-30 18:13:23
+2283960245008292,Flora,Wang,26116,854518728062939,2283960245008292,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-30 18:13:23
+2283960245008292,Flora,Wang,26117,854518728062939,2283960245008292,BOT: quick reply,"Just as different people can have very different personalities, so too can pets - even those of the same species and breed possess varied _____ .",2018-08-30 18:13:24
+2283960245008292,Flora,Wang,26118,2283960245008292,854518728062939,user_typing,L.m,2018-08-30 18:13:26
+2283960245008292,Flora,Wang,26119,854518728062939,2283960245008292,BOT: message,"I'm sorry, but that was incorrect. :disappointed_face:",2018-08-30 18:13:26
+2283960245008292,Flora,Wang,26120,854518728062939,2283960245008292,BOT: quick reply,The correct answer is temperaments.,2018-08-30 18:13:27
+2283960245008292,Flora,Wang,26121,2283960245008292,854518728062939,user_quick_reply: SWITCH_SUBJECT,Change subject :shuffle_tracks_button:,2018-08-30 18:13:34
+2283960245008292,Flora,Wang,26122,854518728062939,2283960245008292,BOT: quick reply,"Sure, now tell me which subject you would like to choose.:backhand_index_pointing_down_medium-light_skin_tone:",2018-08-30 18:13:34
+2283960245008292,Flora,Wang,26208,854518728062939,2283960245008292,BOT: quick reply,"Hi Flora, you haven't talked to me for a while. Would you like to resume the learning with me?",2018-08-30 20:00:43

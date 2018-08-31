@@ -1,0 +1,1389 @@
+user_id,user_firstname,user_lastname,uid,sender,recipient,type,dialogue,time_stamp
+1888414991223739,Paul,Walter,18090,1888414991223739,854518728062939,persistent_menu: GET_INTRO_1,Get Started,2018-08-27 12:11:17
+1888414991223739,Paul,Walter,18091,854518728062939,1888414991223739,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/quizbot_avatar.png,2018-08-27 12:11:21
+1888414991223739,Paul,Walter,18092,854518728062939,1888414991223739,BOT: quick reply,"Hi Paul! My name is Frosty :penguin: and Im here to help you learn all about science:microscope:, verbal reasoning (GRE) :input_latin_uppercase:, and safety:hammer_and_wrench:!",2018-08-27 12:11:21
+1888414991223739,Paul,Walter,18093,1888414991223739,854518728062939,persistent_menu: SAFETY,Safety:hammer_and_wrench:,2018-08-27 12:11:40
+1888414991223739,Paul,Walter,18094,854518728062939,1888414991223739,BOT: quick reply,Awesome! Let's learn about safety!,2018-08-27 12:11:41
+1888414991223739,Paul,Walter,18095,1888414991223739,854518728062939,persistent_menu: GRE,GRE :input_latin_uppercase:,2018-08-27 12:11:41
+1888414991223739,Paul,Walter,18096,854518728062939,1888414991223739,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/evolvesafety_reading.gif,2018-08-27 12:11:45
+1888414991223739,Paul,Walter,18097,854518728062939,1888414991223739,BOT: quick reply,Awesome! Let's learn about the GRE!,2018-08-27 12:11:46
+1888414991223739,Paul,Walter,18098,1888414991223739,854518728062939,user_quick_reply: NEXT_QUESTION,Continue :light_bulb:,2018-08-27 12:11:50
+1888414991223739,Paul,Walter,18099,854518728062939,1888414991223739,BOT: message,I think you'll like this question.,2018-08-27 12:11:51
+1888414991223739,Paul,Walter,18100,854518728062939,1888414991223739,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-27 12:11:51
+1888414991223739,Paul,Walter,18101,854518728062939,1888414991223739,BOT: quick reply,"Modern tennis fans have come to realize that, although, quantum technological leaps in racquet technology have lead to _____ increases in the speed and power with which players can hit the ball, this has not necessarily lead to a more entertaining game.",2018-08-27 12:11:51
+1888414991223739,Paul,Walter,18102,1888414991223739,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-27 12:12:07
+1888414991223739,Paul,Walter,18103,854518728062939,1888414991223739,BOT: message,It's one of the following choices.,2018-08-27 12:12:07
+1888414991223739,Paul,Walter,18104,854518728062939,1888414991223739,BOT: quick reply,":keycap_1: tractable
+:keycap_2: malleable
+:keycap_3: commensurate
+:keycap_4: halcyon
+:keycap_5: innocuous
+",2018-08-27 12:12:08
+1888414991223739,Paul,Walter,18105,1888414991223739,854518728062939,user_quick_reply: BUTTON_AKB_commensurate,:keycap_3:,2018-08-27 12:12:13
+1888414991223739,Paul,Walter,18106,854518728062939,1888414991223739,BOT: message,Great! Keep it up! :flexed_biceps_medium-light_skin_tone:,2018-08-27 12:12:14
+1888414991223739,Paul,Walter,18107,854518728062939,1888414991223739,BOT: quick reply,The correct answer is commensurate.,2018-08-27 12:12:14
+1888414991223739,Paul,Walter,18235,1888414991223739,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-27 14:39:13
+1888414991223739,Paul,Walter,18236,854518728062939,1888414991223739,BOT: message,Let's take a look at this question.,2018-08-27 14:39:14
+1888414991223739,Paul,Walter,18237,854518728062939,1888414991223739,BOT: quick reply,"Dolly Madison, the wife of President James Madison, was known especially for her _____ , remaining calm even as the British invaded Washington D.C. during the War of 1812.",2018-08-27 14:39:14
+1888414991223739,Paul,Walter,18238,1888414991223739,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-27 14:39:24
+1888414991223739,Paul,Walter,18239,854518728062939,1888414991223739,BOT: message,Pick one of the following answers.,2018-08-27 14:39:24
+1888414991223739,Paul,Walter,18240,854518728062939,1888414991223739,BOT: quick reply,":keycap_1: zeal
+:keycap_2: malevolence
+:keycap_3: cynicism
+:keycap_4: equanimity
+:keycap_5: impracticality
+",2018-08-27 14:39:25
+1888414991223739,Paul,Walter,18241,1888414991223739,854518728062939,user_quick_reply: BUTTON_AKB_equanimity,:keycap_4:,2018-08-27 14:39:29
+1888414991223739,Paul,Walter,18242,854518728062939,1888414991223739,BOT: message,Nice work! Keep it up!,2018-08-27 14:39:30
+1888414991223739,Paul,Walter,18243,854518728062939,1888414991223739,BOT: quick reply,The correct answer is equanimity.,2018-08-27 14:39:30
+1888414991223739,Paul,Walter,18244,1888414991223739,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-27 14:39:38
+1888414991223739,Paul,Walter,18245,854518728062939,1888414991223739,BOT: message,Let's try this question.,2018-08-27 14:39:38
+1888414991223739,Paul,Walter,18246,854518728062939,1888414991223739,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-27 14:39:38
+1888414991223739,Paul,Walter,18247,854518728062939,1888414991223739,BOT: quick reply,"Possessing few natural resources upon its newly-granted independence in 1863, Singapore remained economically _____ until an influx of industrialization and foreign investment took hold there.",2018-08-27 14:39:39
+1888414991223739,Paul,Walter,18248,1888414991223739,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-27 14:39:47
+1888414991223739,Paul,Walter,18249,854518728062939,1888414991223739,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-08-27 14:39:47
+1888414991223739,Paul,Walter,18250,854518728062939,1888414991223739,BOT: quick reply,":keycap_1: prosperous
+:keycap_2: powerful
+:keycap_3: dubious
+:keycap_4: fortuitous
+:keycap_5: solvent
+",2018-08-27 14:39:48
+1888414991223739,Paul,Walter,18251,1888414991223739,854518728062939,user_quick_reply: BUTTON_AKB_dubious,:keycap_3:,2018-08-27 14:39:53
+1888414991223739,Paul,Walter,18252,854518728062939,1888414991223739,BOT: message,Great job!,2018-08-27 14:39:53
+1888414991223739,Paul,Walter,18253,854518728062939,1888414991223739,BOT: quick reply,The correct answer is dubious.,2018-08-27 14:39:55
+1888414991223739,Paul,Walter,18254,1888414991223739,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-27 14:39:59
+1888414991223739,Paul,Walter,18255,854518728062939,1888414991223739,BOT: message,Could you answer this one for me?,2018-08-27 14:40:00
+1888414991223739,Paul,Walter,18256,854518728062939,1888414991223739,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-27 14:40:00
+1888414991223739,Paul,Walter,18257,854518728062939,1888414991223739,BOT: quick reply,"Although John F. Kennedy was known for his carefree flag football games, Gerald Ford should be _____ as our football president: he turned down offers to play for two National Football League teams in order to pursue a career in public service.",2018-08-27 14:40:00
+1888414991223739,Paul,Walter,18258,1888414991223739,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-27 14:40:13
+1888414991223739,Paul,Walter,18259,854518728062939,1888414991223739,BOT: message,Which of the following options is the right answer?,2018-08-27 14:40:13
+1888414991223739,Paul,Walter,18260,854518728062939,1888414991223739,BOT: quick reply,":keycap_1: relegated
+:keycap_2: annulled
+:keycap_3: apotheosized
+:keycap_4: abrogated
+:keycap_5: criticized
+",2018-08-27 14:40:14
+1888414991223739,Paul,Walter,18261,1888414991223739,854518728062939,user_quick_reply: I_DONT_KNOW,I dont know :downcast_face_with_sweat:,2018-08-27 14:40:36
+1888414991223739,Paul,Walter,18262,854518728062939,1888414991223739,BOT: quick reply,Do you really want to skip this question?,2018-08-27 14:40:37
+1888414991223739,Paul,Walter,18263,1888414991223739,854518728062939,user_quick_reply: GIVEUP_YES,"Yes, answer please.",2018-08-27 14:40:42
+1888414991223739,Paul,Walter,18264,854518728062939,1888414991223739,BOT: message,You didn't get this question this time.,2018-08-27 14:40:42
+1888414991223739,Paul,Walter,18265,854518728062939,1888414991223739,BOT: message,No worries! You'll get it next time! :grinning_face_with_smiling_eyes:,2018-08-27 14:40:42
+1888414991223739,Paul,Walter,18266,854518728062939,1888414991223739,BOT: quick reply,The correct answer is apotheosized.,2018-08-27 14:40:43
+1888414991223739,Paul,Walter,18851,854518728062939,1888414991223739,BOT: quick reply,"Hi Paul, you haven't talked to me for a while. Would you like to resume the learning with me?",2018-08-27 20:00:13
+1888414991223739,Paul,Walter,19119,1888414991223739,854518728062939,user_quick_reply: NEXT_QUESTION,Tap me :oncoming_fist_medium-light_skin_tone:,2018-08-27 21:22:23
+1888414991223739,Paul,Walter,19120,854518728062939,1888414991223739,BOT: message,"Alrighty, let's try this one.",2018-08-27 21:22:23
+1888414991223739,Paul,Walter,19121,854518728062939,1888414991223739,BOT: quick reply,"Possessing few natural resources upon its newly-granted independence in 1863, Singapore remained economically _____ until an influx of industrialization and foreign investment took hold there.",2018-08-27 21:22:24
+1888414991223739,Paul,Walter,19122,1888414991223739,854518728062939,user_typing,Dubious,2018-08-27 21:22:35
+1888414991223739,Paul,Walter,19123,854518728062939,1888414991223739,BOT: message,Fantastic! :hundred_points:,2018-08-27 21:22:35
+1888414991223739,Paul,Walter,19124,854518728062939,1888414991223739,BOT: quick reply,The correct answer is dubious.,2018-08-27 21:22:36
+1888414991223739,Paul,Walter,19125,1888414991223739,854518728062939,persistent_menu: CHAT_WITH_ME,Chat with Me :penguin:,2018-08-27 21:22:48
+1888414991223739,Paul,Walter,19126,854518728062939,1888414991223739,BOT: quick reply,Would you want me to tell you something interesting?,2018-08-27 21:22:48
+1888414991223739,Paul,Walter,19127,1888414991223739,854518728062939,user_quick_reply: JOKE,Joke :beaming_face_with_smiling_eyes:,2018-08-27 21:22:52
+1888414991223739,Paul,Walter,19128,854518728062939,1888414991223739,BOT: message,Here's one I thought might be interesting.,2018-08-27 21:22:52
+1888414991223739,Paul,Walter,19129,854518728062939,1888414991223739,BOT: quick reply,Q. What do you call a fake noodle? A. An impasta.,2018-08-27 21:22:53
+1888414991223739,Paul,Walter,19130,1888414991223739,854518728062939,user_quick_reply: JOKE,Another joke :beaming_face_with_smiling_eyes:,2018-08-27 21:22:58
+1888414991223739,Paul,Walter,19131,854518728062939,1888414991223739,BOT: message,Here is an interesting one:,2018-08-27 21:22:59
+1888414991223739,Paul,Walter,19132,854518728062939,1888414991223739,BOT: quick reply,"Q. How many cats can you put in an empty box? A. One. After that, the box isnt empty anymore.",2018-08-27 21:22:59
+1888414991223739,Paul,Walter,19133,1888414991223739,854518728062939,user_quick_reply: JOKE,One more joke :beaming_face_with_smiling_eyes:,2018-08-27 21:23:11
+1888414991223739,Paul,Walter,19134,854518728062939,1888414991223739,BOT: message,Here is an interesting one:,2018-08-27 21:23:11
+1888414991223739,Paul,Walter,19135,854518728062939,1888414991223739,BOT: quick reply,Q: What did the cat say when the mouse got away? A: Youve got to be kitten me!,2018-08-27 21:23:12
+1888414991223739,Paul,Walter,19136,1888414991223739,854518728062939,user_quick_reply: JOKE,One more joke :beaming_face_with_smiling_eyes:,2018-08-27 21:23:18
+1888414991223739,Paul,Walter,19137,854518728062939,1888414991223739,BOT: message,Here is a good one.,2018-08-27 21:23:18
+1888414991223739,Paul,Walter,19138,854518728062939,1888414991223739,BOT: quick reply,Q: Why dont cats play poker in the jungle? A: There are too many cheetahs.,2018-08-27 21:23:19
+1888414991223739,Paul,Walter,19139,1888414991223739,854518728062939,user_quick_reply: JOKE,Another joke :beaming_face_with_smiling_eyes:,2018-08-27 21:23:24
+1888414991223739,Paul,Walter,19140,854518728062939,1888414991223739,BOT: message,Here's one I thought might be interesting.,2018-08-27 21:23:25
+1888414991223739,Paul,Walter,19141,854518728062939,1888414991223739,BOT: quick reply,Q: What five-letter word becomes shorter when you add two letters to it? A: Short!,2018-08-27 21:23:25
+1888414991223739,Paul,Walter,19142,1888414991223739,854518728062939,user_quick_reply: JOKE,Another joke :beaming_face_with_smiling_eyes:,2018-08-27 21:23:35
+1888414991223739,Paul,Walter,19143,854518728062939,1888414991223739,BOT: message,Here is a good one.,2018-08-27 21:23:36
+1888414991223739,Paul,Walter,19144,854518728062939,1888414991223739,BOT: quick reply,What was Beethovens favorite fruit? BA-NA-NA-NAAAAAA.,2018-08-27 21:23:36
+1888414991223739,Paul,Walter,19145,1888414991223739,854518728062939,user_quick_reply: JOKE,One more joke :beaming_face_with_smiling_eyes:,2018-08-27 21:23:41
+1888414991223739,Paul,Walter,19146,854518728062939,1888414991223739,BOT: message,Here is an interesting one:,2018-08-27 21:23:42
+1888414991223739,Paul,Walter,19147,854518728062939,1888414991223739,BOT: quick reply,Which composer likes tea the most? Chai-kovsky.,2018-08-27 21:23:42
+1888414991223739,Paul,Walter,19148,1888414991223739,854518728062939,user_quick_reply: FUN_FACT_SCIENCE,Fun fact :light_bulb:,2018-08-27 21:23:50
+1888414991223739,Paul,Walter,19149,854518728062939,1888414991223739,BOT: message,Here's one I thought might be interesting.,2018-08-27 21:23:50
+1888414991223739,Paul,Walter,19150,854518728062939,1888414991223739,BOT: quick reply,40 to 50 percent of body heat can be lost through the head (no hat) as a result of its extensive circulatory network.,2018-08-27 21:23:51
+1888414991223739,Paul,Walter,19151,1888414991223739,854518728062939,user_quick_reply: JOKE,Joke :beaming_face_with_smiling_eyes:,2018-08-27 21:23:57
+1888414991223739,Paul,Walter,19152,854518728062939,1888414991223739,BOT: message,Here is an interesting one:,2018-08-27 21:23:58
+1888414991223739,Paul,Walter,19153,854518728062939,1888414991223739,BOT: quick reply,Q: What are hot dogs called in winter? A: Chilly dogs,2018-08-27 21:23:58
+1888414991223739,Paul,Walter,19154,1888414991223739,854518728062939,user_quick_reply: FUN_FACT_SCIENCE,Fun fact :light_bulb:,2018-08-27 21:24:03
+1888414991223739,Paul,Walter,19155,854518728062939,1888414991223739,BOT: message,Here's one I thought might be fun.,2018-08-27 21:24:04
+1888414991223739,Paul,Walter,19156,854518728062939,1888414991223739,BOT: quick reply,"In 100 years ago, the first virus was found in both plants and animals.",2018-08-27 21:24:05
+1888414991223739,Paul,Walter,19157,1888414991223739,854518728062939,user_quick_reply: JOKE,Joke :beaming_face_with_smiling_eyes:,2018-08-27 21:24:12
+1888414991223739,Paul,Walter,19158,854518728062939,1888414991223739,BOT: message,Here is a good one.,2018-08-27 21:24:12
+1888414991223739,Paul,Walter,19159,854518728062939,1888414991223739,BOT: quick reply,"Q. How many cats can you put in an empty box? A. One. After that, the box isnt empty anymore.",2018-08-27 21:24:13
+1888414991223739,Paul,Walter,19160,1888414991223739,854518728062939,user_quick_reply: FUN_FACT_SCIENCE,Fun fact :light_bulb:,2018-08-27 21:24:18
+1888414991223739,Paul,Walter,19161,854518728062939,1888414991223739,BOT: message,Here is a fun fact for you.,2018-08-27 21:24:19
+1888414991223739,Paul,Walter,19162,854518728062939,1888414991223739,BOT: quick reply,"The most dangerous animal in the world is the common housefly. Because of their habits of visiting animal waste, they transmit more diseases than any other animal.",2018-08-27 21:24:19
+1888414991223739,Paul,Walter,19163,1888414991223739,854518728062939,user_quick_reply: JOKE,Joke :beaming_face_with_smiling_eyes:,2018-08-27 21:24:26
+1888414991223739,Paul,Walter,19164,854518728062939,1888414991223739,BOT: message,Here is a good one.,2018-08-27 21:24:26
+1888414991223739,Paul,Walter,19165,854518728062939,1888414991223739,BOT: quick reply,Q: What do chemists dogs do with their bones? A: They barium!,2018-08-27 21:24:27
+1888414991223739,Paul,Walter,19166,1888414991223739,854518728062939,user_quick_reply: FUN_FACT_SCIENCE,Fun fact :light_bulb:,2018-08-27 21:24:32
+1888414991223739,Paul,Walter,19167,854518728062939,1888414991223739,BOT: message,Here's one I thought might be interesting.,2018-08-27 21:24:32
+1888414991223739,Paul,Walter,19168,854518728062939,1888414991223739,BOT: quick reply,Water can boil and freeze at the same time.,2018-08-27 21:24:33
+1888414991223739,Paul,Walter,19169,1888414991223739,854518728062939,user_quick_reply: FUN_FACT_SCIENCE,Another fun fact:light_bulb:,2018-08-27 21:24:41
+1888414991223739,Paul,Walter,19170,854518728062939,1888414991223739,BOT: message,Here is a good one.,2018-08-27 21:24:42
+1888414991223739,Paul,Walter,19171,854518728062939,1888414991223739,BOT: quick reply,There are 206 bones in the adult human body and there are 300 in children (as they grow some of the bones fuse together).,2018-08-27 21:24:43
+1888414991223739,Paul,Walter,19172,1888414991223739,854518728062939,user_quick_reply: FUN_FACT_SCIENCE,Another fun fact:light_bulb:,2018-08-27 21:24:48
+1888414991223739,Paul,Walter,19173,854518728062939,1888414991223739,BOT: message,Here is a fun fact for you.,2018-08-27 21:24:49
+1888414991223739,Paul,Walter,19174,854518728062939,1888414991223739,BOT: quick reply,"An inch (2.5 centimeters) of rain water is equivalent to 15 inches (38.1 centimeters) of dry, powdery snow.",2018-08-27 21:24:49
+1888414991223739,Paul,Walter,19175,1888414991223739,854518728062939,user_quick_reply: FUN_FACT_SCIENCE,Another fun fact:light_bulb:,2018-08-27 21:24:58
+1888414991223739,Paul,Walter,19176,854518728062939,1888414991223739,BOT: message,Here's one I thought might be interesting.,2018-08-27 21:24:59
+1888414991223739,Paul,Walter,19177,854518728062939,1888414991223739,BOT: quick reply,There are 206 bones in the adult human body and there are 300 in children (as they grow some of the bones fuse together).,2018-08-27 21:24:59
+1888414991223739,Paul,Walter,19178,1888414991223739,854518728062939,user_quick_reply: FUN_FACT_SCIENCE,Another fun fact:light_bulb:,2018-08-27 21:25:03
+1888414991223739,Paul,Walter,19179,854518728062939,1888414991223739,BOT: message,Here is a fun fact for you.,2018-08-27 21:25:04
+1888414991223739,Paul,Walter,19180,854518728062939,1888414991223739,BOT: quick reply,"The most dangerous animal in the world is the common housefly. Because of their habits of visiting animal waste, they transmit more diseases than any other animal.",2018-08-27 21:25:04
+1888414991223739,Paul,Walter,19181,1888414991223739,854518728062939,persistent_menu: USER_MANUAL_1,User Manual :woman_technologist_light_skin_tone::man_technologist_light_skin_tone:,2018-08-27 21:25:15
+1888414991223739,Paul,Walter,19182,854518728062939,1888414991223739,BOT: image,https://www.smartprimer.org:8443/pictures/user_manual/typeanswer.png,2018-08-27 21:25:18
+1888414991223739,Paul,Walter,19183,854518728062939,1888414991223739,BOT: quick reply,"To study the questions, you can type in your answers in the text field and I will evaluate the answers for you using advanced NLP (Natural Language Processing) technology.",2018-08-27 21:25:19
+1888414991223739,Paul,Walter,19184,1888414991223739,854518728062939,user_quick_reply: USER_MANUAL_2,I see :collision:,2018-08-27 21:25:29
+1888414991223739,Paul,Walter,19185,854518728062939,1888414991223739,BOT: image,https://www.smartprimer.org:8443/pictures/user_manual/needhintbutton.png,2018-08-27 21:25:39
+1888414991223739,Paul,Walter,19186,854518728062939,1888414991223739,BOT: quick reply,"If you don't know the answers, then feel free to tap on the hint button.",2018-08-27 21:25:40
+1888414991223739,Paul,Walter,19187,854518728062939,1888414991223739,BOT: image,https://www.smartprimer.org:8443/pictures/user_manual/hintoptions.png,2018-08-27 21:25:50
+1888414991223739,Paul,Walter,19188,854518728062939,1888414991223739,BOT: quick reply,The hint will give you a list of potential answers and you can select one from them.,2018-08-27 21:25:50
+1888414991223739,Paul,Walter,19189,854518728062939,1888414991223739,BOT: image,https://www.smartprimer.org:8443/pictures/user_manual/menubutton.jpg,2018-08-27 21:25:57
+1888414991223739,Paul,Walter,19190,854518728062939,1888414991223739,BOT: quick reply,"To discover more abilities of me, you can click on the menu button.:backhand_index_pointing_up_medium-light_skin_tone:",2018-08-27 21:25:57
+1888414991223739,Paul,Walter,19191,1888414991223739,854518728062939,user_quick_reply: USER_MANUAL_5,"Yes, continue :oncoming_fist_medium-light_skin_tone:",2018-08-27 21:26:04
+1888414991223739,Paul,Walter,19192,854518728062939,1888414991223739,BOT: image,https://www.smartprimer.org:8443/pictures/user_manual/changesubjects_1.jpg,2018-08-27 21:26:06
+1888414991223739,Paul,Walter,19193,854518728062939,1888414991223739,BOT: image,https://www.smartprimer.org:8443/pictures/user_manual/changesubjects_2.jpg,2018-08-27 21:26:08
+1888414991223739,Paul,Walter,19194,854518728062939,1888414991223739,BOT: quick reply,"You can change question subject by clicking on the ""Change Subject :shuffle_tracks_button:"" button from the menu.",2018-08-27 21:26:09
+1888414991223739,Paul,Walter,19195,1888414991223739,854518728062939,user_quick_reply: USER_MANUAL_6,Sure :flexed_biceps_medium-light_skin_tone:,2018-08-27 21:26:13
+1888414991223739,Paul,Walter,19196,854518728062939,1888414991223739,BOT: image,https://www.smartprimer.org:8443/pictures/user_manual/chatwithme.png,2018-08-27 21:26:15
+1888414991223739,Paul,Walter,19197,854518728062939,1888414991223739,BOT: quick reply,"If you want to hear jokes and fun facts from me, you can click on the ""Chat with Me :penguin:"" button.",2018-08-27 21:26:15
+1888414991223739,Paul,Walter,19198,1888414991223739,854518728062939,user_quick_reply: USER_MANUAL_7,Okay :collision:,2018-08-27 21:26:21
+1888414991223739,Paul,Walter,19199,854518728062939,1888414991223739,BOT: image,https://www.smartprimer.org:8443/pictures/user_manual/morebutton.png,2018-08-27 21:26:23
+1888414991223739,Paul,Walter,19200,854518728062939,1888414991223739,BOT: quick reply,"To look for other information, you can click on the ""More :round_pushpin:"" button in the menu.",2018-08-27 21:26:23
+1888414991223739,Paul,Walter,19201,1888414991223739,854518728062939,user_quick_reply: USER_MANUAL_8,OK :round_pushpin:,2018-08-27 21:26:27
+1888414991223739,Paul,Walter,19202,854518728062939,1888414991223739,BOT: quick reply,"Okay, you are all set! :party_popper:",2018-08-27 21:26:28
+1888414991223739,Paul,Walter,19203,1888414991223739,854518728062939,user_quick_reply: NEXT_QUESTION,Continue :clapping_hands_medium-light_skin_tone:,2018-08-27 21:26:32
+1888414991223739,Paul,Walter,19204,854518728062939,1888414991223739,BOT: message,Could you answer this one for me?,2018-08-27 21:26:32
+1888414991223739,Paul,Walter,19205,854518728062939,1888414991223739,BOT: quick reply,"Even though legislators claimed the Contagious Diseases Acts strengthened the nation, social purists argued the Acts _____ the nation's moral growth by encouraging licentious behavior.",2018-08-27 21:26:33
+1888414991223739,Paul,Walter,19206,1888414991223739,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-27 21:26:39
+1888414991223739,Paul,Walter,19207,854518728062939,1888414991223739,BOT: message,It's one of the following choices.,2018-08-27 21:26:39
+1888414991223739,Paul,Walter,19208,854518728062939,1888414991223739,BOT: quick reply,":keycap_1: supplanted
+:keycap_2: hampered
+:keycap_3: enhanced
+:keycap_4: advanced
+:keycap_5: ameliorated
+",2018-08-27 21:26:40
+1888414991223739,Paul,Walter,19209,1888414991223739,854518728062939,user_quick_reply: BUTTON_AKB_hampered,:keycap_2:,2018-08-27 21:26:44
+1888414991223739,Paul,Walter,19210,854518728062939,1888414991223739,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_jubilated_pink.png,2018-08-27 21:26:46
+1888414991223739,Paul,Walter,19211,854518728062939,1888414991223739,BOT: message,Nice! That was right!,2018-08-27 21:26:47
+1888414991223739,Paul,Walter,19212,854518728062939,1888414991223739,BOT: quick reply,The correct answer is hampered.,2018-08-27 21:26:48
+1888414991223739,Paul,Walter,19213,1888414991223739,854518728062939,persistent_menu: REPORT_BUG,Report Bug :wrench:,2018-08-27 21:26:54
+1888414991223739,Paul,Walter,19214,854518728062939,1888414991223739,BOT: message,"Okay, can you type in the bug in a few words :grinning_face_with_smiling_eyes:",2018-08-27 21:26:55
+1888414991223739,Paul,Walter,19215,854518728062939,1888414991223739,BOT: quick reply,We can resume learning if you have no bug to report.,2018-08-27 21:26:55
+1888414991223739,Paul,Walter,19216,1888414991223739,854518728062939,user_quick_reply: NEXT_QUESTION,Continue learning :flexed_biceps_medium-light_skin_tone:,2018-08-27 21:27:01
+1888414991223739,Paul,Walter,19217,854518728062939,1888414991223739,BOT: message,Let's see if you can get this one.,2018-08-27 21:27:01
+1888414991223739,Paul,Walter,19218,854518728062939,1888414991223739,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-27 21:27:02
+1888414991223739,Paul,Walter,19219,854518728062939,1888414991223739,BOT: quick reply,Seth was extremely _____ and did not enjoy activities that required effort to meet new people.,2018-08-27 21:27:02
+1888414991223739,Paul,Walter,19220,1888414991223739,854518728062939,user_typing,Shy,2018-08-27 21:27:15
+1888414991223739,Paul,Walter,19221,854518728062939,1888414991223739,BOT: message,Good Answer! :white_heavy_check_mark:,2018-08-27 21:27:16
+1888414991223739,Paul,Walter,19222,854518728062939,1888414991223739,BOT: quick reply,The correct answer is introverted.,2018-08-27 21:27:16
+1888414991223739,Paul,Walter,19223,1888414991223739,854518728062939,user_typing,Was i wrong?,2018-08-27 21:27:31
+1888414991223739,Paul,Walter,19224,854518728062939,1888414991223739,BOT: quick reply,Haha I haven't learned about this yet. You can teach me some languages later!,2018-08-27 21:27:31
+1888414991223739,Paul,Walter,19225,1888414991223739,854518728062939,user_typing,What do you mean?,2018-08-27 21:27:43
+1888414991223739,Paul,Walter,19226,854518728062939,1888414991223739,BOT: quick reply,Sorry but I haven't learned about this yet. I'll learn more languages in the future.,2018-08-27 21:27:44
+1888414991223739,Paul,Walter,19227,1888414991223739,854518728062939,user_typing,Test,2018-08-27 21:27:54
+1888414991223739,Paul,Walter,19228,854518728062939,1888414991223739,BOT: quick reply,"That sounds interesting, but I haven't learned about this yet. I'll learn more languages in the future.",2018-08-27 21:27:55
+1888414991223739,Paul,Walter,19229,1888414991223739,854518728062939,persistent_menu: ABOUT_QUIZBOT_1,About QuizBot :bookmark:,2018-08-27 21:28:08
+1888414991223739,Paul,Walter,19230,854518728062939,1888414991223739,BOT: message,"I'm Frosty :penguin: and I'm a chatbot to help you learn about science:microscope:, verbal reasoning (GRE) :input_latin_uppercase:, and safety:hammer_and_wrench:.",2018-08-27 21:28:08
+1888414991223739,Paul,Walter,19231,854518728062939,1888414991223739,BOT: quick reply,I'm designed by a group of researchers from Stanford University Computer Science Department.,2018-08-27 21:28:09
+1888414991223739,Paul,Walter,19232,854518728062939,1888414991223739,BOT: message,"To best your learning experience, I'll use advanced question sequencing algorithms inspired by spaced repetition and flashcard to tailor questions for your need.",2018-08-27 21:28:16
+1888414991223739,Paul,Walter,19233,854518728062939,1888414991223739,BOT: quick reply,"Equipped with advanced NLP (Natural Language Processing) technology, I'm capable of evaluating your typed answers carefully to assist you remembering the knowledge!",2018-08-27 21:28:17
+1888414991223739,Paul,Walter,19234,1888414991223739,854518728062939,user_quick_reply: ABOUT_QUIZBOT_3,Continue :collision:,2018-08-27 21:28:26
+1888414991223739,Paul,Walter,19235,854518728062939,1888414991223739,BOT: message,There are bot jokes and fun facts too if youre ever bored.,2018-08-27 21:28:27
+1888414991223739,Paul,Walter,19236,854518728062939,1888414991223739,BOT: quick reply,:winking_face_with_tongue:,2018-08-27 21:28:28
+1888414991223739,Paul,Walter,19237,1888414991223739,854518728062939,user_quick_reply: CONTINUE,Next :collision:,2018-08-27 21:28:32
+1888414991223739,Paul,Walter,19238,854518728062939,1888414991223739,BOT: quick reply,All right! Let's move on.,2018-08-27 21:28:33
+1888414991223739,Paul,Walter,19239,854518728062939,1888414991223739,BOT: message,Would you answer this question for me?,2018-08-27 21:28:37
+1888414991223739,Paul,Walter,19240,854518728062939,1888414991223739,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-27 21:28:38
+1888414991223739,Paul,Walter,19241,854518728062939,1888414991223739,BOT: quick reply,"In psychological literature, the ""sleeper effect"" refers to the phenomenon in which a persuasive message from a trustworthy source loses _____ over time, while the efficacy of a message from a less credible source simultaneously increases.",2018-08-27 21:28:38
+1888414991223739,Paul,Walter,19242,1888414991223739,854518728062939,user_quick_reply: I_DONT_KNOW,I dont know :downcast_face_with_sweat:,2018-08-27 21:28:46
+1888414991223739,Paul,Walter,19243,854518728062939,1888414991223739,BOT: quick reply,Are you sure you want to give up?,2018-08-27 21:28:46
+1888414991223739,Paul,Walter,19244,1888414991223739,854518728062939,user_quick_reply: GIVEUP_NO,"No, I'll try again!",2018-08-27 21:28:51
+1888414991223739,Paul,Walter,19245,854518728062939,1888414991223739,BOT: message,"Sure, let's try this again!",2018-08-27 21:28:51
+1888414991223739,Paul,Walter,19246,854518728062939,1888414991223739,BOT: message,Pick one of the following answers.,2018-08-27 21:28:52
+1888414991223739,Paul,Walter,19247,854518728062939,1888414991223739,BOT: quick reply,":keycap_1: cogency
+:keycap_2: control
+:keycap_3: evasiveness
+:keycap_4: erudition
+:keycap_5: prescience
+",2018-08-27 21:28:52
+1888414991223739,Paul,Walter,19248,1888414991223739,854518728062939,user_quick_reply: BUTTON_AKB_cogency,:keycap_1:,2018-08-27 21:28:59
+1888414991223739,Paul,Walter,19249,854518728062939,1888414991223739,BOT: message,Yes! You got the correct answer!,2018-08-27 21:28:59
+1888414991223739,Paul,Walter,19250,854518728062939,1888414991223739,BOT: quick reply,The correct answer is cogency.,2018-08-27 21:29:00
+1888414991223739,Paul,Walter,19251,1888414991223739,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-27 21:29:11
+1888414991223739,Paul,Walter,19252,854518728062939,1888414991223739,BOT: message,Let's see if you can get this one.,2018-08-27 21:29:11
+1888414991223739,Paul,Walter,19253,854518728062939,1888414991223739,BOT: quick reply,"Dolly Madison, the wife of President James Madison, was known especially for her _____ , remaining calm even as the British invaded Washington D.C. during the War of 1812.",2018-08-27 21:29:12
+1888414991223739,Paul,Walter,19254,1888414991223739,854518728062939,user_typing,Fortitude,2018-08-27 21:29:34
+1888414991223739,Paul,Walter,19255,854518728062939,1888414991223739,BOT: message,Nice! :red_apple:,2018-08-27 21:29:34
+1888414991223739,Paul,Walter,19256,854518728062939,1888414991223739,BOT: quick reply,The correct answer is equanimity.,2018-08-27 21:29:35
+1888414991223739,Paul,Walter,19257,1888414991223739,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-27 21:29:47
+1888414991223739,Paul,Walter,19258,854518728062939,1888414991223739,BOT: message,I think you'll like this question.,2018-08-27 21:29:48
+1888414991223739,Paul,Walter,19259,854518728062939,1888414991223739,BOT: quick reply,"Having squandered his life's savings on unprofitable business ventures, the _____ entrepreneur was forced to live in squalor.",2018-08-27 21:29:48
+1888414991223739,Paul,Walter,19260,1888414991223739,854518728062939,user_typing,Audacious,2018-08-27 21:29:56
+1888414991223739,Paul,Walter,19261,854518728062939,1888414991223739,BOT: message,That wasn't quite what we were looking for. :disappointed_face:,2018-08-27 21:29:57
+1888414991223739,Paul,Walter,19262,854518728062939,1888414991223739,BOT: quick reply,The correct answer is insolvent.,2018-08-27 21:29:58
+1888414991223739,Paul,Walter,19263,1888414991223739,854518728062939,user_typing,Youre wrong.,2018-08-27 21:30:10
+1888414991223739,Paul,Walter,19264,854518728062939,1888414991223739,BOT: quick reply,I'm not sure what this is. I'm still learning languages and you might be my teacher in the future!,2018-08-27 21:30:10
+1888414991223739,Paul,Walter,19265,1888414991223739,854518728062939,user_typing,About quizbot,2018-08-27 21:30:30
+1888414991223739,Paul,Walter,19266,854518728062939,1888414991223739,BOT: quick reply,"That sounds interesting, but I haven't learned about this yet. I'll learn more languages in the future.",2018-08-27 21:30:31
+1888414991223739,Paul,Walter,19267,854518728062939,1888414991223739,BOT: quick reply,"If you have any questions, please don't hesitate to contact the Protocol Director, Sherry Ruan at ssruan@stanford.edu, or Liwei Jiang at ljiang@colby.edu.",2018-08-27 21:30:40
+1888414991223739,Paul,Walter,19268,1888414991223739,854518728062939,user_quick_reply: CONTINUE,Sure :raising_hands_medium-light_skin_tone:,2018-08-27 21:30:48
+1888414991223739,Paul,Walter,19269,854518728062939,1888414991223739,BOT: quick reply,Great! Let's move on.,2018-08-27 21:30:49
+1888414991223739,Paul,Walter,19270,1888414991223739,854518728062939,user_typing,No thank you,2018-08-27 21:30:58
+1888414991223739,Paul,Walter,19271,854518728062939,1888414991223739,BOT: quick reply,"That sounds interesting, but I haven't learned about this yet. I'll learn more languages in the future.",2018-08-27 21:30:58
+1888414991223739,Paul,Walter,19272,1888414991223739,854518728062939,user_typing,Continue,2018-08-27 21:31:15
+1888414991223739,Paul,Walter,19273,854518728062939,1888414991223739,BOT: quick reply,Haha I haven't learned about this yet. You can teach me some languages later!,2018-08-27 21:31:16
+1888414991223739,Paul,Walter,19274,1888414991223739,854518728062939,user_quick_reply: NEXT_QUESTION,Resume learning :flexed_biceps_medium-light_skin_tone:,2018-08-27 21:31:21
+1888414991223739,Paul,Walter,19275,854518728062939,1888414991223739,BOT: message,How about this next one:,2018-08-27 21:31:22
+1888414991223739,Paul,Walter,19276,854518728062939,1888414991223739,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-27 21:31:22
+1888414991223739,Paul,Walter,19277,854518728062939,1888414991223739,BOT: quick reply,"Although John F. Kennedy was known for his carefree flag football games, Gerald Ford should be _____ as our football president: he turned down offers to play for two National Football League teams in order to pursue a career in public service.",2018-08-27 21:31:23
+1888414991223739,Paul,Walter,19278,1888414991223739,854518728062939,user_quick_reply: I_DONT_KNOW,I dont know :downcast_face_with_sweat:,2018-08-27 21:31:29
+1888414991223739,Paul,Walter,19279,854518728062939,1888414991223739,BOT: quick reply,Are you sure you want to skip this question?,2018-08-27 21:31:30
+1888414991223739,Paul,Walter,19280,1888414991223739,854518728062939,user_quick_reply: GIVEUP_NO,"No, I'll try again!",2018-08-27 21:31:34
+1888414991223739,Paul,Walter,19281,854518728062939,1888414991223739,BOT: message,Don't give up!,2018-08-27 21:31:35
+1888414991223739,Paul,Walter,19282,854518728062939,1888414991223739,BOT: message,It's one of the following choices.,2018-08-27 21:31:35
+1888414991223739,Paul,Walter,19283,854518728062939,1888414991223739,BOT: quick reply,":keycap_1: apotheosized
+:keycap_2: abrogated
+:keycap_3: criticized
+:keycap_4: annulled
+:keycap_5: relegated
+",2018-08-27 21:31:36
+1888414991223739,Paul,Walter,19284,1888414991223739,854518728062939,user_quick_reply: I_DONT_KNOW,I dont know :downcast_face_with_sweat:,2018-08-27 21:31:41
+1888414991223739,Paul,Walter,19285,854518728062939,1888414991223739,BOT: quick reply,Are you sure you want to skip this question?,2018-08-27 21:31:42
+1888414991223739,Paul,Walter,19286,1888414991223739,854518728062939,user_quick_reply: GIVEUP_NO,"No, I'll try again!",2018-08-27 21:31:45
+1888414991223739,Paul,Walter,19287,854518728062939,1888414991223739,BOT: message,Don't give up!,2018-08-27 21:31:45
+1888414991223739,Paul,Walter,19288,854518728062939,1888414991223739,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-08-27 21:31:45
+1888414991223739,Paul,Walter,19289,854518728062939,1888414991223739,BOT: quick reply,":keycap_1: apotheosized
+:keycap_2: relegated
+:keycap_3: criticized
+:keycap_4: annulled
+:keycap_5: abrogated
+",2018-08-27 21:31:46
+1888414991223739,Paul,Walter,19290,1888414991223739,854518728062939,user_quick_reply: I_DONT_KNOW,I dont know :downcast_face_with_sweat:,2018-08-27 21:31:51
+1888414991223739,Paul,Walter,19291,854518728062939,1888414991223739,BOT: quick reply,Do you really want to give up?,2018-08-27 21:31:51
+1888414991223739,Paul,Walter,19292,1888414991223739,854518728062939,user_quick_reply: GIVEUP_NO,"No, I'll try again!",2018-08-27 21:31:55
+1888414991223739,Paul,Walter,19293,854518728062939,1888414991223739,BOT: message,"Sure, let's try this again!",2018-08-27 21:31:56
+1888414991223739,Paul,Walter,19294,854518728062939,1888414991223739,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-08-27 21:31:56
+1888414991223739,Paul,Walter,19295,854518728062939,1888414991223739,BOT: quick reply,":keycap_1: annulled
+:keycap_2: relegated
+:keycap_3: abrogated
+:keycap_4: apotheosized
+:keycap_5: criticized
+",2018-08-27 21:31:57
+1888414991223739,Paul,Walter,19296,1888414991223739,854518728062939,user_typing,4,2018-08-27 21:32:08
+1888414991223739,Paul,Walter,19297,854518728062939,1888414991223739,BOT: quick reply,Sorry but I haven't learned about this yet. I'll learn more languages in the future.,2018-08-27 21:32:09
+1888414991223739,Paul,Walter,19298,1888414991223739,854518728062939,user_quick_reply: NEXT_QUESTION,Another question :flexed_biceps_medium-light_skin_tone:,2018-08-27 21:32:18
+1888414991223739,Paul,Walter,19299,854518728062939,1888414991223739,BOT: message,Let's try this one.,2018-08-27 21:32:19
+1888414991223739,Paul,Walter,19300,854518728062939,1888414991223739,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-27 21:32:19
+1888414991223739,Paul,Walter,19301,854518728062939,1888414991223739,BOT: quick reply,"Many dog owners treat their pets too _____ , forgetting that canines have evolved in competitive environments in which emotional coddling was a sign of weakness.",2018-08-27 21:32:20
+1888414991223739,Paul,Walter,19302,1888414991223739,854518728062939,user_quick_reply: I_DONT_KNOW,I dont know :downcast_face_with_sweat:,2018-08-27 21:32:26
+1888414991223739,Paul,Walter,19303,854518728062939,1888414991223739,BOT: quick reply,Do you really want to skip this question?,2018-08-27 21:32:26
+1888414991223739,Paul,Walter,19304,1888414991223739,854518728062939,user_quick_reply: GIVEUP_YES,"Yes, answer please.",2018-08-27 21:32:31
+1888414991223739,Paul,Walter,19305,854518728062939,1888414991223739,BOT: message,"I'm sorry, you didn't get the question right this time.",2018-08-27 21:32:32
+1888414991223739,Paul,Walter,19306,854518728062939,1888414991223739,BOT: message,"Keep trying, you'll get it next time! :grinning_face_with_smiling_eyes:",2018-08-27 21:32:32
+1888414991223739,Paul,Walter,19307,854518728062939,1888414991223739,BOT: quick reply,The correct answer is indulgently.,2018-08-27 21:32:33
+1888414991223739,Paul,Walter,19308,1888414991223739,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-27 21:33:05
+1888414991223739,Paul,Walter,19309,854518728062939,1888414991223739,BOT: message,Here's a question for you:,2018-08-27 21:33:06
+1888414991223739,Paul,Walter,19310,854518728062939,1888414991223739,BOT: quick reply,"Despite the smile that spread from ear to ear, the eyes relayed a certain _____ .",2018-08-27 21:33:06
+1888414991223739,Paul,Walter,19311,1888414991223739,854518728062939,user_typing,Sorrow,2018-08-27 21:33:18
+1888414991223739,Paul,Walter,19312,854518728062939,1888414991223739,BOT: message,Good job! :raising_hands_medium-light_skin_tone:,2018-08-27 21:33:18
+1888414991223739,Paul,Walter,19313,854518728062939,1888414991223739,BOT: quick reply,The correct answer is sorrow.,2018-08-27 21:33:19
+1888414991223739,Paul,Walter,19314,1888414991223739,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-27 21:33:25
+1888414991223739,Paul,Walter,19315,854518728062939,1888414991223739,BOT: message,Let's see if you can get this one.,2018-08-27 21:33:25
+1888414991223739,Paul,Walter,19316,854518728062939,1888414991223739,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-27 21:33:26
+1888414991223739,Paul,Walter,19317,854518728062939,1888414991223739,BOT: quick reply,"Despite the smile that spread from ear to ear, the eyes relayed a certain _____ .",2018-08-27 21:33:27
+1888414991223739,Paul,Walter,19318,1888414991223739,854518728062939,user_typing,Remorse,2018-08-27 21:33:36
+1888414991223739,Paul,Walter,19319,854518728062939,1888414991223739,BOT: message,Nice! :red_apple:,2018-08-27 21:33:37
+1888414991223739,Paul,Walter,19320,854518728062939,1888414991223739,BOT: quick reply,The correct answer is sorrow.,2018-08-27 21:33:38
+1888414991223739,Paul,Walter,20524,1888414991223739,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-28 15:22:48
+1888414991223739,Paul,Walter,20525,854518728062939,1888414991223739,BOT: message,What about this next question:,2018-08-28 15:22:49
+1888414991223739,Paul,Walter,20526,854518728062939,1888414991223739,BOT: quick reply,"Having squandered his life's savings on unprofitable business ventures, the _____ entrepreneur was forced to live in squalor.",2018-08-28 15:22:49
+1888414991223739,Paul,Walter,20527,1888414991223739,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-28 15:22:56
+1888414991223739,Paul,Walter,20528,854518728062939,1888414991223739,BOT: message,Pick one of the following answers.,2018-08-28 15:22:57
+1888414991223739,Paul,Walter,20529,854518728062939,1888414991223739,BOT: quick reply,":keycap_1: insolvent
+:keycap_2: eccentric
+:keycap_3: former
+:keycap_4: unlikely
+:keycap_5: perturbed
+",2018-08-28 15:22:57
+1888414991223739,Paul,Walter,20530,1888414991223739,854518728062939,user_quick_reply: BUTTON_AKB_insolvent,:keycap_1:,2018-08-28 15:23:02
+1888414991223739,Paul,Walter,20531,854518728062939,1888414991223739,BOT: message,Nice work! Keep it up!,2018-08-28 15:23:02
+1888414991223739,Paul,Walter,20532,854518728062939,1888414991223739,BOT: quick reply,The correct answer is insolvent.,2018-08-28 15:23:03
+1888414991223739,Paul,Walter,20533,1888414991223739,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-28 15:23:07
+1888414991223739,Paul,Walter,20534,854518728062939,1888414991223739,BOT: message,I think you'll like this question.,2018-08-28 15:23:08
+1888414991223739,Paul,Walter,20535,854518728062939,1888414991223739,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-28 15:23:08
+1888414991223739,Paul,Walter,20536,854518728062939,1888414991223739,BOT: quick reply,While she may have answered him truthfully - in the strictest sense of the word - it became clear to Sergei after the incident that Sheryl had actually been trying to _____ .,2018-08-28 15:23:09
+1888414991223739,Paul,Walter,20537,1888414991223739,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-28 15:23:14
+1888414991223739,Paul,Walter,20538,854518728062939,1888414991223739,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-08-28 15:23:15
+1888414991223739,Paul,Walter,20539,854518728062939,1888414991223739,BOT: quick reply,":keycap_1: obfuscate
+:keycap_2: illuminate
+:keycap_3: desiccate
+:keycap_4: covet
+:keycap_5: vituperate
+",2018-08-28 15:23:16
+1888414991223739,Paul,Walter,20540,1888414991223739,854518728062939,user_quick_reply: BUTTON_AKB_obfuscate,:keycap_1:,2018-08-28 15:23:21
+1888414991223739,Paul,Walter,20541,854518728062939,1888414991223739,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_normal_purple.png,2018-08-28 15:23:22
+1888414991223739,Paul,Walter,20542,854518728062939,1888414991223739,BOT: message,Great job!,2018-08-28 15:23:23
+1888414991223739,Paul,Walter,20543,854518728062939,1888414991223739,BOT: quick reply,The correct answer is obfuscate.,2018-08-28 15:23:23
+1888414991223739,Paul,Walter,20544,1888414991223739,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-28 15:23:28
+1888414991223739,Paul,Walter,20545,854518728062939,1888414991223739,BOT: message,Let's try this one.,2018-08-28 15:23:28
+1888414991223739,Paul,Walter,20546,854518728062939,1888414991223739,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-28 15:23:29
+1888414991223739,Paul,Walter,20547,854518728062939,1888414991223739,BOT: quick reply,"Even though legislators claimed the Contagious Diseases Acts strengthened the nation, social purists argued the Acts _____ the nation's moral growth by encouraging licentious behavior.",2018-08-28 15:23:29
+1888414991223739,Paul,Walter,20548,1888414991223739,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-28 15:23:37
+1888414991223739,Paul,Walter,20549,854518728062939,1888414991223739,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-08-28 15:23:37
+1888414991223739,Paul,Walter,20550,854518728062939,1888414991223739,BOT: quick reply,":keycap_1: ameliorated
+:keycap_2: advanced
+:keycap_3: supplanted
+:keycap_4: hampered
+:keycap_5: enhanced
+",2018-08-28 15:23:38
+1888414991223739,Paul,Walter,20551,1888414991223739,854518728062939,user_quick_reply: BUTTON_AKB_hampered,:keycap_4:,2018-08-28 15:23:44
+1888414991223739,Paul,Walter,20552,854518728062939,1888414991223739,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_normal.png,2018-08-28 15:23:46
+1888414991223739,Paul,Walter,20553,854518728062939,1888414991223739,BOT: message,Yes! You got the correct answer!,2018-08-28 15:23:46
+1888414991223739,Paul,Walter,20554,854518728062939,1888414991223739,BOT: quick reply,The correct answer is hampered.,2018-08-28 15:23:47
+1888414991223739,Paul,Walter,20555,1888414991223739,854518728062939,user_quick_reply: WHY,Why?,2018-08-28 15:23:51
+1888414991223739,Paul,Walter,20556,854518728062939,1888414991223739,BOT: message,Here's an explanation:,2018-08-28 15:23:51
+1888414991223739,Paul,Walter,20557,854518728062939,1888414991223739,BOT: quick reply,":pushpin: Hampered -- prevent the progress or free movement of
+:pushpin: Advanced -- move or bring forward
+:pushpin: Ameliorated -- to make better
+:pushpin: Supplanted -- take the place or move into the position of
+:pushpin: Enhanced -- increased or intensified in value or beauty or quality",2018-08-28 15:23:52
+1888414991223739,Paul,Walter,20558,1888414991223739,854518728062939,user_quick_reply: SWITCH_SUBJECT,Change subject :shuffle_tracks_button:,2018-08-28 15:23:59
+1888414991223739,Paul,Walter,20559,854518728062939,1888414991223739,BOT: quick reply,"Cool, which subject do you want to study?:backhand_index_pointing_down_medium-light_skin_tone:",2018-08-28 15:23:59
+1888414991223739,Paul,Walter,20560,1888414991223739,854518728062939,user_quick_reply: RANDOM,Random :game_die:,2018-08-28 15:24:04
+1888414991223739,Paul,Walter,20561,854518728062939,1888414991223739,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/evolvereading_normal.gif,2018-08-28 15:24:09
+1888414991223739,Paul,Walter,20562,854518728062939,1888414991223739,BOT: quick reply,Nice! Enjoy a little variety? Let's answer some questions! :game_die:,2018-08-28 15:24:09
+1888414991223739,Paul,Walter,20563,854518728062939,1888414991223739,BOT: message,How about this next one:,2018-08-28 15:24:14
+1888414991223739,Paul,Walter,20564,854518728062939,1888414991223739,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-28 15:24:15
+1888414991223739,Paul,Walter,20565,854518728062939,1888414991223739,BOT: quick reply,What living species of bird is considered the largest of the raptors?,2018-08-28 15:24:15
+1888414991223739,Paul,Walter,20566,1888414991223739,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-28 15:24:23
+1888414991223739,Paul,Walter,20567,854518728062939,1888414991223739,BOT: message,Which of the following options is the right answer?,2018-08-28 15:24:23
+1888414991223739,Paul,Walter,20568,854518728062939,1888414991223739,BOT: quick reply,":keycap_1: peregrine falcon
+:keycap_2: pterodactyl
+:keycap_3: golden eagles
+:keycap_4: California condor
+",2018-08-28 15:24:24
+1888414991223739,Paul,Walter,20569,1888414991223739,854518728062939,user_quick_reply: BUTTON_DKB_California condor,:keycap_4:,2018-08-28 15:24:28
+1888414991223739,Paul,Walter,20570,854518728062939,1888414991223739,BOT: message,"Oops, that is not correct. :disappointed_face:",2018-08-28 15:24:28
+1888414991223739,Paul,Walter,20571,854518728062939,1888414991223739,BOT: quick reply,The correct answer is golden eagles.,2018-08-28 15:24:29
+1888414991223739,Paul,Walter,20572,1888414991223739,854518728062939,user_quick_reply: WHY,Why?,2018-08-28 15:24:35
+1888414991223739,Paul,Walter,20573,854518728062939,1888414991223739,BOT: message,This is an explanation of the question:,2018-08-28 15:24:36
+1888414991223739,Paul,Walter,20574,854518728062939,1888414991223739,BOT: quick reply,"Although not as famous as its bald cousin, Golden Eagles are much easier to find in Northern California - one of the largest breeding populations for Golden Eagles. The largest of the raptors, Golden Eagles weigh typically between 8 and 12 pounds, and their wing span is around 6 to 7 feet. These eagles dive towards earth to catch prey, and can reach speeds of up to 200 mph!",2018-08-28 15:24:36
+1888414991223739,Paul,Walter,20575,1888414991223739,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-28 15:24:49
+1888414991223739,Paul,Walter,20576,854518728062939,1888414991223739,BOT: message,Would you answer this question for me?,2018-08-28 15:24:50
+1888414991223739,Paul,Walter,20577,854518728062939,1888414991223739,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-28 15:24:50
+1888414991223739,Paul,Walter,20578,854518728062939,1888414991223739,BOT: quick reply,What living species of bird is considered the largest of the raptors?,2018-08-28 15:24:51
+1888414991223739,Paul,Walter,20579,1888414991223739,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-28 15:24:56
+1888414991223739,Paul,Walter,20580,854518728062939,1888414991223739,BOT: message,It's one of the following choices.,2018-08-28 15:24:56
+1888414991223739,Paul,Walter,20581,854518728062939,1888414991223739,BOT: quick reply,":keycap_1: pterodactyl
+:keycap_2: golden eagles
+:keycap_3: California condor
+:keycap_4: peregrine falcon
+",2018-08-28 15:24:57
+1888414991223739,Paul,Walter,20582,1888414991223739,854518728062939,user_quick_reply: BUTTON_AKB_golden eagles,:keycap_2:,2018-08-28 15:25:03
+1888414991223739,Paul,Walter,20583,854518728062939,1888414991223739,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_jubilated_orange.png,2018-08-28 15:25:04
+1888414991223739,Paul,Walter,20584,854518728062939,1888414991223739,BOT: message,Yes! You got the correct answer!,2018-08-28 15:25:05
+1888414991223739,Paul,Walter,20585,854518728062939,1888414991223739,BOT: quick reply,The correct answer is golden eagles.,2018-08-28 15:25:06
+1888414991223739,Paul,Walter,20586,1888414991223739,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-28 15:25:09
+1888414991223739,Paul,Walter,20587,854518728062939,1888414991223739,BOT: message,Let's see if you can answer this question.,2018-08-28 15:25:09
+1888414991223739,Paul,Walter,20588,854518728062939,1888414991223739,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-28 15:25:10
+1888414991223739,Paul,Walter,20589,854518728062939,1888414991223739,BOT: quick reply,What does CERT stand for?,2018-08-28 15:25:10
+1888414991223739,Paul,Walter,20590,1888414991223739,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-28 15:25:15
+1888414991223739,Paul,Walter,20591,854518728062939,1888414991223739,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-08-28 15:25:16
+1888414991223739,Paul,Walter,20592,854518728062939,1888414991223739,BOT: quick reply,":keycap_1: Community Emergency Response Team
+:keycap_2: Central Emergency Response Terminal
+:keycap_3: Controlled Evacuation and Response Tactics
+:keycap_4: Community Experimental Research Team
+",2018-08-28 15:25:16
+1888414991223739,Paul,Walter,20593,1888414991223739,854518728062939,user_quick_reply: BUTTON_AKB_Community Emergency Response Team,:keycap_1:,2018-08-28 15:25:22
+1888414991223739,Paul,Walter,20594,854518728062939,1888414991223739,BOT: message,Great job!,2018-08-28 15:25:22
+1888414991223739,Paul,Walter,20595,854518728062939,1888414991223739,BOT: quick reply,The correct answer is Community Emergency Response Team.,2018-08-28 15:25:23
+1888414991223739,Paul,Walter,20596,1888414991223739,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-28 15:25:27
+1888414991223739,Paul,Walter,20597,854518728062939,1888414991223739,BOT: message,Would you answer this question for me?,2018-08-28 15:25:27
+1888414991223739,Paul,Walter,20598,854518728062939,1888414991223739,BOT: quick reply,What are by far the most common type of invertebrate?,2018-08-28 15:25:28
+1888414991223739,Paul,Walter,20599,1888414991223739,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-28 15:25:31
+1888414991223739,Paul,Walter,20600,854518728062939,1888414991223739,BOT: message,Pick one of the following answers.,2018-08-28 15:25:33
+1888414991223739,Paul,Walter,20601,854518728062939,1888414991223739,BOT: quick reply,":keycap_1: corals
+:keycap_2: crustaceans
+:keycap_3: insects
+:keycap_4: spiders
+",2018-08-28 15:25:34
+1888414991223739,Paul,Walter,20602,1888414991223739,854518728062939,user_quick_reply: BUTTON_AKB_insects,:keycap_3:,2018-08-28 15:25:48
+1888414991223739,Paul,Walter,20603,854518728062939,1888414991223739,BOT: message,Yes! You got the correct answer!,2018-08-28 15:25:49
+1888414991223739,Paul,Walter,20604,854518728062939,1888414991223739,BOT: quick reply,The correct answer is insects.,2018-08-28 15:25:50
+1888414991223739,Paul,Walter,20605,1888414991223739,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-28 15:25:56
+1888414991223739,Paul,Walter,20606,854518728062939,1888414991223739,BOT: message,Let's take a look at this question.,2018-08-28 15:25:57
+1888414991223739,Paul,Walter,20607,854518728062939,1888414991223739,BOT: quick reply,What should you NOT do while lifting objects?,2018-08-28 15:25:58
+1888414991223739,Paul,Walter,20608,1888414991223739,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-28 15:26:01
+1888414991223739,Paul,Walter,20609,854518728062939,1888414991223739,BOT: message,Pick one of the following answers.,2018-08-28 15:26:02
+1888414991223739,Paul,Walter,20610,854518728062939,1888414991223739,BOT: quick reply,":keycap_1: Keep the object close to your body
+:keycap_2: Keep your back straight
+:keycap_3: Keep your feet together
+:keycap_4: Bend at the knees
+",2018-08-28 15:26:02
+1888414991223739,Paul,Walter,20611,1888414991223739,854518728062939,user_quick_reply: BUTTON_AKB_Keep your feet together,:keycap_3:,2018-08-28 15:26:08
+1888414991223739,Paul,Walter,20612,854518728062939,1888414991223739,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_normal_cyan.png,2018-08-28 15:26:10
+1888414991223739,Paul,Walter,20613,854518728062939,1888414991223739,BOT: message,Great job!,2018-08-28 15:26:10
+1888414991223739,Paul,Walter,20614,854518728062939,1888414991223739,BOT: quick reply,The correct answer is Keep your feet together.,2018-08-28 15:26:11
+1888414991223739,Paul,Walter,20615,1888414991223739,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-28 15:26:14
+1888414991223739,Paul,Walter,20616,854518728062939,1888414991223739,BOT: message,Let's see if you would answer this one.,2018-08-28 15:26:14
+1888414991223739,Paul,Walter,20617,854518728062939,1888414991223739,BOT: quick reply,Which fire extinguishers are used to put out fires caused by flammable liquids?,2018-08-28 15:26:15
+1888414991223739,Paul,Walter,20618,1888414991223739,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-28 15:26:20
+1888414991223739,Paul,Walter,20619,854518728062939,1888414991223739,BOT: message,It's one of the following choices.,2018-08-28 15:26:21
+1888414991223739,Paul,Walter,20620,854518728062939,1888414991223739,BOT: quick reply,":keycap_1: Class A water fire extinguishers
+:keycap_2: Class C dry chemical fire extinguisher
+:keycap_3: Class B carbon dioxide fire extinguisher
+",2018-08-28 15:26:21
+1888414991223739,Paul,Walter,20621,1888414991223739,854518728062939,user_quick_reply: BUTTON_AKB_Class B carbon dioxide fire extinguisher,:keycap_3:,2018-08-28 15:26:28
+1888414991223739,Paul,Walter,20622,854518728062939,1888414991223739,BOT: message,Great job!,2018-08-28 15:26:29
+1888414991223739,Paul,Walter,20623,854518728062939,1888414991223739,BOT: quick reply,The correct answer is Class B carbon dioxide fire extinguisher.,2018-08-28 15:26:30
+1888414991223739,Paul,Walter,20624,1888414991223739,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-28 15:26:37
+1888414991223739,Paul,Walter,20625,854518728062939,1888414991223739,BOT: message,What about this next question:,2018-08-28 15:26:38
+1888414991223739,Paul,Walter,20626,854518728062939,1888414991223739,BOT: quick reply,"Even though legislators claimed the Contagious Diseases Acts strengthened the nation, social purists argued the Acts _____ the nation's moral growth by encouraging licentious behavior.",2018-08-28 15:26:38
+1888414991223739,Paul,Walter,20627,1888414991223739,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-28 15:26:44
+1888414991223739,Paul,Walter,20628,854518728062939,1888414991223739,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-08-28 15:26:45
+1888414991223739,Paul,Walter,20629,854518728062939,1888414991223739,BOT: quick reply,":keycap_1: hampered
+:keycap_2: ameliorated
+:keycap_3: advanced
+:keycap_4: enhanced
+:keycap_5: supplanted
+",2018-08-28 15:26:45
+1888414991223739,Paul,Walter,20630,1888414991223739,854518728062939,user_quick_reply: BUTTON_AKB_hampered,:keycap_1:,2018-08-28 15:26:51
+1888414991223739,Paul,Walter,20631,854518728062939,1888414991223739,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_normal_purple.png,2018-08-28 15:26:53
+1888414991223739,Paul,Walter,20632,854518728062939,1888414991223739,BOT: message,Great job!,2018-08-28 15:26:53
+1888414991223739,Paul,Walter,20633,854518728062939,1888414991223739,BOT: quick reply,The correct answer is hampered.,2018-08-28 15:26:54
+1888414991223739,Paul,Walter,20634,1888414991223739,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-28 15:27:00
+1888414991223739,Paul,Walter,20635,854518728062939,1888414991223739,BOT: message,I think you'll like this question.,2018-08-28 15:27:00
+1888414991223739,Paul,Walter,20636,854518728062939,1888414991223739,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-28 15:27:01
+1888414991223739,Paul,Walter,20637,854518728062939,1888414991223739,BOT: quick reply,How often should women perform a breast self-exam?,2018-08-28 15:27:02
+1888414991223739,Paul,Walter,20638,1888414991223739,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-28 15:27:09
+1888414991223739,Paul,Walter,20639,854518728062939,1888414991223739,BOT: message,It's one of the following choices.,2018-08-28 15:27:10
+1888414991223739,Paul,Walter,20640,854518728062939,1888414991223739,BOT: quick reply,":keycap_1: weekly
+:keycap_2: yearly
+:keycap_3: monthly
+:keycap_4: quarterly
+",2018-08-28 15:27:10
+1888414991223739,Paul,Walter,20641,1888414991223739,854518728062939,user_quick_reply: BUTTON_AKB_monthly,:keycap_3:,2018-08-28 15:27:16
+1888414991223739,Paul,Walter,20642,854518728062939,1888414991223739,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_jubilated_cyan.png,2018-08-28 15:27:17
+1888414991223739,Paul,Walter,20643,854518728062939,1888414991223739,BOT: message,Great job getting the correct answer!,2018-08-28 15:27:18
+1888414991223739,Paul,Walter,20644,854518728062939,1888414991223739,BOT: quick reply,The correct answer is monthly.,2018-08-28 15:27:19
+1888414991223739,Paul,Walter,20645,1888414991223739,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-28 15:27:24
+1888414991223739,Paul,Walter,20646,854518728062939,1888414991223739,BOT: message,Would you answer this question for me?,2018-08-28 15:27:25
+1888414991223739,Paul,Walter,20647,854518728062939,1888414991223739,BOT: quick reply,"In psychological literature, the ""sleeper effect"" refers to the phenomenon in which a persuasive message from a trustworthy source loses _____ over time, while the efficacy of a message from a less credible source simultaneously increases.",2018-08-28 15:27:26
+1888414991223739,Paul,Walter,20648,1888414991223739,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-28 15:27:31
+1888414991223739,Paul,Walter,20649,854518728062939,1888414991223739,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-08-28 15:27:32
+1888414991223739,Paul,Walter,20650,854518728062939,1888414991223739,BOT: quick reply,":keycap_1: prescience
+:keycap_2: erudition
+:keycap_3: control
+:keycap_4: cogency
+:keycap_5: evasiveness
+",2018-08-28 15:27:33
+1888414991223739,Paul,Walter,20651,1888414991223739,854518728062939,user_quick_reply: BUTTON_AKB_cogency,:keycap_4:,2018-08-28 15:27:37
+1888414991223739,Paul,Walter,20652,854518728062939,1888414991223739,BOT: message,Nice! That was right!,2018-08-28 15:27:38
+1888414991223739,Paul,Walter,20653,854518728062939,1888414991223739,BOT: quick reply,The correct answer is cogency.,2018-08-28 15:27:38
+1888414991223739,Paul,Walter,20654,1888414991223739,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-28 15:27:45
+1888414991223739,Paul,Walter,20655,854518728062939,1888414991223739,BOT: message,Let's try this one.,2018-08-28 15:27:46
+1888414991223739,Paul,Walter,20656,854518728062939,1888414991223739,BOT: quick reply,What kind of viscosity is found in long-chain hydrocarbons?,2018-08-28 15:27:47
+1888414991223739,Paul,Walter,20657,1888414991223739,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-28 15:27:53
+1888414991223739,Paul,Walter,20658,854518728062939,1888414991223739,BOT: message,It's one of the following choices.,2018-08-28 15:27:54
+1888414991223739,Paul,Walter,20659,854518728062939,1888414991223739,BOT: quick reply,":keycap_1: increased viscosity
+:keycap_2: intense viscosity
+:keycap_3: high viscosity
+:keycap_4: low viscosity
+",2018-08-28 15:27:55
+1888414991223739,Paul,Walter,20660,1888414991223739,854518728062939,user_quick_reply: BUTTON_AKB_high viscosity,:keycap_3:,2018-08-28 15:28:01
+1888414991223739,Paul,Walter,20661,854518728062939,1888414991223739,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_happy_cyan.png,2018-08-28 15:28:02
+1888414991223739,Paul,Walter,20662,854518728062939,1888414991223739,BOT: message,Great job getting the correct answer!,2018-08-28 15:28:03
+1888414991223739,Paul,Walter,20663,854518728062939,1888414991223739,BOT: quick reply,The correct answer is high viscosity.,2018-08-28 15:28:04
+1888414991223739,Paul,Walter,20664,1888414991223739,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-28 15:28:10
+1888414991223739,Paul,Walter,20665,854518728062939,1888414991223739,BOT: message,See if you can answer this next one.,2018-08-28 15:28:11
+1888414991223739,Paul,Walter,20666,854518728062939,1888414991223739,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-28 15:28:12
+1888414991223739,Paul,Walter,20667,854518728062939,1888414991223739,BOT: quick reply,"If your co-worker needs CPR but you are not trained in it, what should you do?",2018-08-28 15:28:12
+1888414991223739,Paul,Walter,20668,1888414991223739,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-28 15:28:19
+1888414991223739,Paul,Walter,20669,854518728062939,1888414991223739,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-08-28 15:28:20
+1888414991223739,Paul,Walter,20670,854518728062939,1888414991223739,BOT: quick reply,":keycap_1: Wait for emergency personnel to arrive
+:keycap_2: Lift the patient's head
+:keycap_3: Give rescue breaths only
+:keycap_4: Perform chest compressions only
+",2018-08-28 15:28:21
+1888414991223739,Paul,Walter,20671,1888414991223739,854518728062939,user_quick_reply: BUTTON_AKB_Perform chest compressions only,:keycap_4:,2018-08-28 15:28:27
+1888414991223739,Paul,Walter,20672,854518728062939,1888414991223739,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_normal.png,2018-08-28 15:28:28
+1888414991223739,Paul,Walter,20673,854518728062939,1888414991223739,BOT: message,Great job getting the correct answer!,2018-08-28 15:28:29
+1888414991223739,Paul,Walter,20674,854518728062939,1888414991223739,BOT: quick reply,The correct answer is Perform chest compressions only.,2018-08-28 15:28:29
+1888414991223739,Paul,Walter,20675,1888414991223739,854518728062939,user_quick_reply: WHY,Why?,2018-08-28 15:28:34
+1888414991223739,Paul,Walter,20676,854518728062939,1888414991223739,BOT: message,Here's an explanation:,2018-08-28 15:28:35
+1888414991223739,Paul,Walter,20677,854518728062939,1888414991223739,BOT: quick reply,"According to Mayo Clinic, it's far better to do something than to do nothing at all if you're fearful that your knowledge or abilities arent 100 percent complete. If you're not trained in CPR, then provide hands-only CPR. That means uninterrupted chest compressions of about 100 a minute until paramedics arrive. You don't need to try rescue breathing.",2018-08-28 15:28:35
+1888414991223739,Paul,Walter,20678,1888414991223739,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-28 15:28:51
+1888414991223739,Paul,Walter,20679,854518728062939,1888414991223739,BOT: message,See if you can answer this next one.,2018-08-28 15:28:52
+1888414991223739,Paul,Walter,20680,854518728062939,1888414991223739,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-28 15:28:53
+1888414991223739,Paul,Walter,20681,854518728062939,1888414991223739,BOT: quick reply,"Many dog owners treat their pets too _____ , forgetting that canines have evolved in competitive environments in which emotional coddling was a sign of weakness.",2018-08-28 15:28:53
+1888414991223739,Paul,Walter,20682,1888414991223739,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-28 15:29:01
+1888414991223739,Paul,Walter,20683,854518728062939,1888414991223739,BOT: message,Pick one of the following answers.,2018-08-28 15:29:02
+1888414991223739,Paul,Walter,20684,854518728062939,1888414991223739,BOT: quick reply,":keycap_1: aggressively
+:keycap_2: belligerently
+:keycap_3: quixotically
+:keycap_4: indulgently
+:keycap_5: fortuitously
+",2018-08-28 15:29:03
+1888414991223739,Paul,Walter,20685,1888414991223739,854518728062939,user_quick_reply: BUTTON_AKB_indulgently,:keycap_4:,2018-08-28 15:29:09
+1888414991223739,Paul,Walter,20686,854518728062939,1888414991223739,BOT: message,Great! Keep it up! :flexed_biceps_medium-light_skin_tone:,2018-08-28 15:29:10
+1888414991223739,Paul,Walter,20687,854518728062939,1888414991223739,BOT: quick reply,The correct answer is indulgently.,2018-08-28 15:29:10
+1888414991223739,Paul,Walter,20688,1888414991223739,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-28 15:29:16
+1888414991223739,Paul,Walter,20689,854518728062939,1888414991223739,BOT: message,Let's see if you would answer this one.,2018-08-28 15:29:16
+1888414991223739,Paul,Walter,20690,854518728062939,1888414991223739,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-28 15:29:17
+1888414991223739,Paul,Walter,20691,854518728062939,1888414991223739,BOT: quick reply,"Many dog owners treat their pets too _____ , forgetting that canines have evolved in competitive environments in which emotional coddling was a sign of weakness.",2018-08-28 15:29:18
+1888414991223739,Paul,Walter,20692,1888414991223739,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-28 15:29:23
+1888414991223739,Paul,Walter,20693,854518728062939,1888414991223739,BOT: message,Pick one of the following answers.,2018-08-28 15:29:23
+1888414991223739,Paul,Walter,20694,854518728062939,1888414991223739,BOT: quick reply,":keycap_1: quixotically
+:keycap_2: fortuitously
+:keycap_3: aggressively
+:keycap_4: indulgently
+:keycap_5: belligerently
+",2018-08-28 15:29:24
+1888414991223739,Paul,Walter,20695,1888414991223739,854518728062939,user_quick_reply: BUTTON_AKB_indulgently,:keycap_4:,2018-08-28 15:29:29
+1888414991223739,Paul,Walter,20696,854518728062939,1888414991223739,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/celebration.gif,2018-08-28 15:29:35
+1888414991223739,Paul,Walter,20697,854518728062939,1888414991223739,BOT: message,Great job!,2018-08-28 15:29:36
+1888414991223739,Paul,Walter,20698,854518728062939,1888414991223739,BOT: quick reply,The correct answer is indulgently.,2018-08-28 15:29:37
+1888414991223739,Paul,Walter,20699,1888414991223739,854518728062939,user_quick_reply: SWITCH_SUBJECT,Change subject :shuffle_tracks_button:,2018-08-28 15:29:44
+1888414991223739,Paul,Walter,20700,854518728062939,1888414991223739,BOT: quick reply,"Sure, which of the following subjects would you like me to quiz you on?:backhand_index_pointing_down_medium-light_skin_tone:",2018-08-28 15:29:44
+1888414991223739,Paul,Walter,20701,1888414991223739,854518728062939,user_quick_reply: SAFETY,Safety:hammer_and_wrench:,2018-08-28 15:29:48
+1888414991223739,Paul,Walter,20702,854518728062939,1888414991223739,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/evolvenormal_safety.gif,2018-08-28 15:29:52
+1888414991223739,Paul,Walter,20703,854518728062939,1888414991223739,BOT: quick reply,Okay! Lets see how much you know about safety!,2018-08-28 15:29:53
+1888414991223739,Paul,Walter,20704,1888414991223739,854518728062939,user_quick_reply: NEXT_QUESTION,Alrighty :backhand_index_pointing_right_medium-light_skin_tone:,2018-08-28 15:30:01
+1888414991223739,Paul,Walter,20705,854518728062939,1888414991223739,BOT: message,See if you can answer this next one.,2018-08-28 15:30:02
+1888414991223739,Paul,Walter,20706,854518728062939,1888414991223739,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-28 15:30:02
+1888414991223739,Paul,Walter,20707,854518728062939,1888414991223739,BOT: quick reply,"If your co-worker needs CPR but you are not trained in it, what should you do?",2018-08-28 15:30:03
+1888414991223739,Paul,Walter,20708,1888414991223739,854518728062939,user_quick_reply: I_DONT_KNOW,I dont know :downcast_face_with_sweat:,2018-08-28 15:30:08
+1888414991223739,Paul,Walter,20709,854518728062939,1888414991223739,BOT: quick reply,Are you sure you want to skip this question?,2018-08-28 15:30:09
+1888414991223739,Paul,Walter,20710,1888414991223739,854518728062939,user_quick_reply: GIVEUP_NO,"No, I'll try again!",2018-08-28 15:30:13
+1888414991223739,Paul,Walter,20711,854518728062939,1888414991223739,BOT: message,"Sure, let's try this again!",2018-08-28 15:30:14
+1888414991223739,Paul,Walter,20712,854518728062939,1888414991223739,BOT: message,Which of the following options is the right answer?,2018-08-28 15:30:14
+1888414991223739,Paul,Walter,20713,854518728062939,1888414991223739,BOT: quick reply,":keycap_1: Lift the patient's head
+:keycap_2: Wait for emergency personnel to arrive
+:keycap_3: Perform chest compressions only
+:keycap_4: Give rescue breaths only
+",2018-08-28 15:30:15
+1888414991223739,Paul,Walter,20714,1888414991223739,854518728062939,user_quick_reply: BUTTON_AKB_Perform chest compressions only,:keycap_3:,2018-08-28 15:30:22
+1888414991223739,Paul,Walter,20715,854518728062939,1888414991223739,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_happy_purple.png,2018-08-28 15:30:24
+1888414991223739,Paul,Walter,20716,854518728062939,1888414991223739,BOT: message,Yes! You got the correct answer!,2018-08-28 15:30:24
+1888414991223739,Paul,Walter,20717,854518728062939,1888414991223739,BOT: quick reply,The correct answer is Perform chest compressions only.,2018-08-28 15:30:25
+1888414991223739,Paul,Walter,20718,1888414991223739,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-28 15:30:30
+1888414991223739,Paul,Walter,20719,854518728062939,1888414991223739,BOT: message,Let's try this one.,2018-08-28 15:30:30
+1888414991223739,Paul,Walter,20720,854518728062939,1888414991223739,BOT: quick reply,What should you NOT do when lowering a load?,2018-08-28 15:30:31
+1888414991223739,Paul,Walter,20721,1888414991223739,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-28 15:30:38
+1888414991223739,Paul,Walter,20722,854518728062939,1888414991223739,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-08-28 15:30:39
+1888414991223739,Paul,Walter,20723,854518728062939,1888414991223739,BOT: quick reply,":keycap_1: Twist your body, keep the load close, and bend your knees
+:keycap_2: Twist your body
+:keycap_3: Keep the load close to your body
+:keycap_4: Bend your knees
+",2018-08-28 15:30:39
+1888414991223739,Paul,Walter,20724,1888414991223739,854518728062939,user_quick_reply: BUTTON_AKB_Twist your body,:keycap_2:,2018-08-28 15:30:45
+1888414991223739,Paul,Walter,20725,854518728062939,1888414991223739,BOT: message,Great job getting the correct answer!,2018-08-28 15:30:45
+1888414991223739,Paul,Walter,20726,854518728062939,1888414991223739,BOT: quick reply,The correct answer is Twist your body.,2018-08-28 15:30:46
+1888414991223739,Paul,Walter,20727,1888414991223739,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-28 15:30:51
+1888414991223739,Paul,Walter,20728,854518728062939,1888414991223739,BOT: message,I think you'll like this question.,2018-08-28 15:30:51
+1888414991223739,Paul,Walter,20729,854518728062939,1888414991223739,BOT: quick reply,"True or false: you can always smell, see, or taste harmful bacteria in food that can cause illness.",2018-08-28 15:30:52
+1888414991223739,Paul,Walter,20730,1888414991223739,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-28 15:31:25
+1888414991223739,Paul,Walter,20731,854518728062939,1888414991223739,BOT: message,Pick one of the following answers.,2018-08-28 15:31:25
+1888414991223739,Paul,Walter,20732,854518728062939,1888414991223739,BOT: quick reply,":keycap_1: True
+:keycap_2: False
+",2018-08-28 15:31:26
+1888414991223739,Paul,Walter,20733,1888414991223739,854518728062939,user_quick_reply: BUTTON_AKB_False,:keycap_2:,2018-08-28 15:31:41
+1888414991223739,Paul,Walter,20734,854518728062939,1888414991223739,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_jubilated_orange.png,2018-08-28 15:31:42
+1888414991223739,Paul,Walter,20735,854518728062939,1888414991223739,BOT: message,Yes! You got the correct answer!,2018-08-28 15:31:43
+1888414991223739,Paul,Walter,20736,854518728062939,1888414991223739,BOT: quick reply,The correct answer is False.,2018-08-28 15:31:44
+1888414991223739,Paul,Walter,21024,854518728062939,1888414991223739,BOT: quick reply,"Hi Paul, you haven't talked to me for a while. Would you like to resume the learning with me?",2018-08-28 20:00:09
+1888414991223739,Paul,Walter,22407,1888414991223739,854518728062939,persistent_menu: SCIENCE,Science:microscope:,2018-08-29 09:50:37
+1888414991223739,Paul,Walter,22408,854518728062939,1888414991223739,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/evolvesafety_scientist.gif,2018-08-29 09:50:48
+1888414991223739,Paul,Walter,22409,854518728062939,1888414991223739,BOT: quick reply,Let's answer some questions about science!,2018-08-29 09:50:48
+1888414991223739,Paul,Walter,22410,1888414991223739,854518728062939,user_quick_reply: NEXT_QUESTION,Continue :flexed_biceps_medium-light_skin_tone:,2018-08-29 09:51:01
+1888414991223739,Paul,Walter,22411,854518728062939,1888414991223739,BOT: message,"Alrighty, let's try this one.",2018-08-29 09:51:02
+1888414991223739,Paul,Walter,22412,854518728062939,1888414991223739,BOT: quick reply,What opens two strands of DNA?,2018-08-29 09:51:02
+1888414991223739,Paul,Walter,22413,1888414991223739,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-29 09:51:07
+1888414991223739,Paul,Walter,22414,854518728062939,1888414991223739,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-08-29 09:51:07
+1888414991223739,Paul,Walter,22415,854518728062939,1888414991223739,BOT: quick reply,":keycap_1: replication
+:keycap_2: chromosome
+:keycap_3: adenylate
+:keycap_4: helicase
+",2018-08-29 09:51:08
+1888414991223739,Paul,Walter,22416,1888414991223739,854518728062939,user_quick_reply: BUTTON_AKB_helicase,:keycap_4:,2018-08-29 09:51:12
+1888414991223739,Paul,Walter,22417,854518728062939,1888414991223739,BOT: message,Great! Keep it up! :flexed_biceps_medium-light_skin_tone:,2018-08-29 09:51:13
+1888414991223739,Paul,Walter,22418,854518728062939,1888414991223739,BOT: quick reply,The correct answer is helicase.,2018-08-29 09:51:13
+1888414991223739,Paul,Walter,22419,1888414991223739,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-29 09:51:19
+1888414991223739,Paul,Walter,22420,854518728062939,1888414991223739,BOT: message,Could you answer this one for me?,2018-08-29 09:51:19
+1888414991223739,Paul,Walter,22421,854518728062939,1888414991223739,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-29 09:51:19
+1888414991223739,Paul,Walter,22422,854518728062939,1888414991223739,BOT: quick reply,What opens two strands of DNA?,2018-08-29 09:51:20
+1888414991223739,Paul,Walter,22423,1888414991223739,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-29 09:51:30
+1888414991223739,Paul,Walter,22424,854518728062939,1888414991223739,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-08-29 09:51:30
+1888414991223739,Paul,Walter,22425,854518728062939,1888414991223739,BOT: quick reply,":keycap_1: replication
+:keycap_2: adenylate
+:keycap_3: helicase
+:keycap_4: chromosome
+",2018-08-29 09:51:31
+1888414991223739,Paul,Walter,22426,1888414991223739,854518728062939,user_quick_reply: BUTTON_AKB_helicase,:keycap_3:,2018-08-29 09:51:36
+1888414991223739,Paul,Walter,22427,854518728062939,1888414991223739,BOT: message,Nice work! Keep it up!,2018-08-29 09:51:36
+1888414991223739,Paul,Walter,22428,854518728062939,1888414991223739,BOT: quick reply,The correct answer is helicase.,2018-08-29 09:51:37
+1888414991223739,Paul,Walter,22429,1888414991223739,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-29 09:51:41
+1888414991223739,Paul,Walter,22430,854518728062939,1888414991223739,BOT: message,See if you can answer this next one.,2018-08-29 09:51:42
+1888414991223739,Paul,Walter,22431,854518728062939,1888414991223739,BOT: quick reply,The lithosphere is divided into a dozen major and several minor what?,2018-08-29 09:51:43
+1888414991223739,Paul,Walter,22432,1888414991223739,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-29 09:51:47
+1888414991223739,Paul,Walter,22433,854518728062939,1888414991223739,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-08-29 09:51:48
+1888414991223739,Paul,Walter,22434,854518728062939,1888414991223739,BOT: quick reply,":keycap_1: zones
+:keycap_2: crystals
+:keycap_3: plates
+:keycap_4: faults
+",2018-08-29 09:51:49
+1888414991223739,Paul,Walter,22435,1888414991223739,854518728062939,user_quick_reply: BUTTON_AKB_plates,:keycap_3:,2018-08-29 09:51:53
+1888414991223739,Paul,Walter,22436,854518728062939,1888414991223739,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_jubilated_orange.png,2018-08-29 09:51:55
+1888414991223739,Paul,Walter,22437,854518728062939,1888414991223739,BOT: message,Great job getting the correct answer!,2018-08-29 09:51:56
+1888414991223739,Paul,Walter,22438,854518728062939,1888414991223739,BOT: quick reply,The correct answer is plates.,2018-08-29 09:51:57
+1888414991223739,Paul,Walter,22439,1888414991223739,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-29 09:52:01
+1888414991223739,Paul,Walter,22440,854518728062939,1888414991223739,BOT: message,Let's see if you would answer this one.,2018-08-29 09:52:02
+1888414991223739,Paul,Walter,22441,854518728062939,1888414991223739,BOT: quick reply,"When your brain senses that your body temperature is increasing, it sends messages to the blood vessels in the skin to increase in what?",2018-08-29 09:52:03
+1888414991223739,Paul,Walter,22442,1888414991223739,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-29 09:52:09
+1888414991223739,Paul,Walter,22443,854518728062939,1888414991223739,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-08-29 09:52:10
+1888414991223739,Paul,Walter,22444,854518728062939,1888414991223739,BOT: quick reply,":keycap_1: diameter
+:keycap_2: weight
+:keycap_3: height
+:keycap_4: surface
+",2018-08-29 09:52:10
+1888414991223739,Paul,Walter,22445,1888414991223739,854518728062939,user_quick_reply: BUTTON_AKB_diameter,:keycap_1:,2018-08-29 09:52:17
+1888414991223739,Paul,Walter,22446,854518728062939,1888414991223739,BOT: message,Nice! That was right!,2018-08-29 09:52:18
+1888414991223739,Paul,Walter,22447,854518728062939,1888414991223739,BOT: quick reply,The correct answer is diameter.,2018-08-29 09:52:18
+1888414991223739,Paul,Walter,22448,1888414991223739,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-29 09:52:22
+1888414991223739,Paul,Walter,22449,854518728062939,1888414991223739,BOT: message,How about this next one:,2018-08-29 09:52:23
+1888414991223739,Paul,Walter,22450,854518728062939,1888414991223739,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-29 09:52:23
+1888414991223739,Paul,Walter,22451,854518728062939,1888414991223739,BOT: quick reply,What opens two strands of DNA?,2018-08-29 09:52:24
+1888414991223739,Paul,Walter,22452,1888414991223739,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-29 09:52:31
+1888414991223739,Paul,Walter,22453,854518728062939,1888414991223739,BOT: message,Okay. I'll give you some choices.,2018-08-29 09:52:32
+1888414991223739,Paul,Walter,22454,854518728062939,1888414991223739,BOT: quick reply,":keycap_1: helicase
+:keycap_2: replication
+:keycap_3: chromosome
+:keycap_4: adenylate
+",2018-08-29 09:52:33
+1888414991223739,Paul,Walter,22455,1888414991223739,854518728062939,user_quick_reply: BUTTON_AKB_helicase,:keycap_1:,2018-08-29 09:52:37
+1888414991223739,Paul,Walter,22456,854518728062939,1888414991223739,BOT: message,Yes! You got the correct answer!,2018-08-29 09:52:38
+1888414991223739,Paul,Walter,22457,854518728062939,1888414991223739,BOT: quick reply,The correct answer is helicase.,2018-08-29 09:52:39
+1888414991223739,Paul,Walter,22458,1888414991223739,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-29 09:52:44
+1888414991223739,Paul,Walter,22459,854518728062939,1888414991223739,BOT: message,See if you can answer this next one.,2018-08-29 09:52:45
+1888414991223739,Paul,Walter,22460,854518728062939,1888414991223739,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-29 09:52:46
+1888414991223739,Paul,Walter,22461,854518728062939,1888414991223739,BOT: quick reply,"What arises due to crossing over, independent assortment, and the random union of gametes?",2018-08-29 09:52:46
+1888414991223739,Paul,Walter,22462,1888414991223739,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-29 09:52:51
+1888414991223739,Paul,Walter,22463,854518728062939,1888414991223739,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-08-29 09:52:51
+1888414991223739,Paul,Walter,22464,854518728062939,1888414991223739,BOT: quick reply,":keycap_1: susceptible variation
+:keycap_2: genetic variation
+:keycap_3: alternative variation
+:keycap_4: recessive variation
+",2018-08-29 09:52:52
+1888414991223739,Paul,Walter,22465,1888414991223739,854518728062939,user_quick_reply: BUTTON_AKB_genetic variation,:keycap_2:,2018-08-29 09:52:57
+1888414991223739,Paul,Walter,22466,854518728062939,1888414991223739,BOT: message,Great job getting the correct answer!,2018-08-29 09:52:58
+1888414991223739,Paul,Walter,22467,854518728062939,1888414991223739,BOT: quick reply,The correct answer is genetic variation.,2018-08-29 09:52:58
+1888414991223739,Paul,Walter,22468,1888414991223739,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-29 09:53:05
+1888414991223739,Paul,Walter,22469,854518728062939,1888414991223739,BOT: message,What about this next question:,2018-08-29 09:53:05
+1888414991223739,Paul,Walter,22470,854518728062939,1888414991223739,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-29 09:53:06
+1888414991223739,Paul,Walter,22471,854518728062939,1888414991223739,BOT: quick reply,What kind of viscosity is found in long-chain hydrocarbons?,2018-08-29 09:53:07
+1888414991223739,Paul,Walter,22472,1888414991223739,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-29 09:53:13
+1888414991223739,Paul,Walter,22473,854518728062939,1888414991223739,BOT: message,Which of the following options is the right answer?,2018-08-29 09:53:13
+1888414991223739,Paul,Walter,22474,854518728062939,1888414991223739,BOT: quick reply,":keycap_1: high viscosity
+:keycap_2: intense viscosity
+:keycap_3: low viscosity
+:keycap_4: increased viscosity
+",2018-08-29 09:53:14
+1888414991223739,Paul,Walter,22475,1888414991223739,854518728062939,user_quick_reply: BUTTON_AKB_high viscosity,:keycap_1:,2018-08-29 09:53:19
+1888414991223739,Paul,Walter,22476,854518728062939,1888414991223739,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/celebration.gif,2018-08-29 09:53:26
+1888414991223739,Paul,Walter,22477,854518728062939,1888414991223739,BOT: message,Nice work! Keep it up!,2018-08-29 09:53:27
+1888414991223739,Paul,Walter,22478,854518728062939,1888414991223739,BOT: quick reply,The correct answer is high viscosity.,2018-08-29 09:53:27
+1888414991223739,Paul,Walter,22479,1888414991223739,854518728062939,user_quick_reply: WHY,Why?,2018-08-29 09:53:35
+1888414991223739,Paul,Walter,22480,854518728062939,1888414991223739,BOT: message,Here's an explanation:,2018-08-29 09:53:35
+1888414991223739,Paul,Walter,22481,854518728062939,1888414991223739,BOT: quick reply,"There is also a correlation between viscosity and molecular shape. Liquids consisting of long, flexible molecules tend to have higher viscosities than those composed of more spherical or shorter-chain molecules. The longer the molecules, the easier it is for them to become tangled with one another, making it more difficult for them to move past one another. London dispersion forces also increase with chain length. Due to a combination of these two effects, long-chain hydrocarbons (such as motor oils) are highly viscous.",2018-08-29 09:53:36
+1888414991223739,Paul,Walter,22482,1888414991223739,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-29 09:54:07
+1888414991223739,Paul,Walter,22483,854518728062939,1888414991223739,BOT: message,Let's try this question.,2018-08-29 09:54:07
+1888414991223739,Paul,Walter,22484,854518728062939,1888414991223739,BOT: quick reply,Most fungi get organic compounds from what?,2018-08-29 09:54:08
+1888414991223739,Paul,Walter,22485,1888414991223739,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-29 09:54:38
+1888414991223739,Paul,Walter,22486,854518728062939,1888414991223739,BOT: message,Pick one of the following answers.,2018-08-29 09:54:38
+1888414991223739,Paul,Walter,22487,854518728062939,1888414991223739,BOT: quick reply,":keycap_1: dead organisms
+:keycap_2: carnivorous organisms
+:keycap_3: inorganic material
+:keycap_4: living organisms
+",2018-08-29 09:54:39
+1888414991223739,Paul,Walter,22488,1888414991223739,854518728062939,user_quick_reply: BUTTON_AKB_dead organisms,:keycap_1:,2018-08-29 09:54:45
+1888414991223739,Paul,Walter,22489,854518728062939,1888414991223739,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_happy_purple.png,2018-08-29 09:54:47
+1888414991223739,Paul,Walter,22490,854518728062939,1888414991223739,BOT: message,Great job getting the correct answer!,2018-08-29 09:54:47
+1888414991223739,Paul,Walter,22491,854518728062939,1888414991223739,BOT: quick reply,The correct answer is dead organisms.,2018-08-29 09:54:48
+1888414991223739,Paul,Walter,22492,1888414991223739,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-29 09:54:52
+1888414991223739,Paul,Walter,22493,854518728062939,1888414991223739,BOT: message,Let's try this question.,2018-08-29 09:54:53
+1888414991223739,Paul,Walter,22494,854518728062939,1888414991223739,BOT: quick reply,What disease characterized by the extreme swelling of the limbs is caused by infection with a type of roundworm?,2018-08-29 09:54:54
+1888414991223739,Paul,Walter,22495,1888414991223739,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-29 09:54:58
+1888414991223739,Paul,Walter,22496,854518728062939,1888414991223739,BOT: message,Pick one of the following answers.,2018-08-29 09:54:59
+1888414991223739,Paul,Walter,22497,854518728062939,1888414991223739,BOT: quick reply,":keycap_1: pulmonary edema
+:keycap_2: fibrosis
+:keycap_3: elephantiasis
+:keycap_4: gigantism
+",2018-08-29 09:54:59
+1888414991223739,Paul,Walter,22498,1888414991223739,854518728062939,user_quick_reply: BUTTON_AKB_elephantiasis,:keycap_3:,2018-08-29 09:55:05
+1888414991223739,Paul,Walter,22499,854518728062939,1888414991223739,BOT: message,Nice work! Keep it up!,2018-08-29 09:55:05
+1888414991223739,Paul,Walter,22500,854518728062939,1888414991223739,BOT: quick reply,The correct answer is elephantiasis.,2018-08-29 09:55:06
+1888414991223739,Paul,Walter,22501,1888414991223739,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-29 09:55:10
+1888414991223739,Paul,Walter,22502,854518728062939,1888414991223739,BOT: message,Let's see if you can answer this question.,2018-08-29 09:55:10
+1888414991223739,Paul,Walter,22503,854518728062939,1888414991223739,BOT: quick reply,What is the diffusion of water through a semipermeable membrane down its concentration gradient?,2018-08-29 09:55:11
+1888414991223739,Paul,Walter,22504,1888414991223739,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-29 09:55:21
+1888414991223739,Paul,Walter,22505,854518728062939,1888414991223739,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-08-29 09:55:22
+1888414991223739,Paul,Walter,22506,854518728062939,1888414991223739,BOT: quick reply,":keycap_1: nutrients
+:keycap_2: permable
+:keycap_3: osmosis
+:keycap_4: mirrors
+",2018-08-29 09:55:22
+1888414991223739,Paul,Walter,22507,1888414991223739,854518728062939,user_quick_reply: BUTTON_AKB_osmosis,:keycap_3:,2018-08-29 09:55:28
+1888414991223739,Paul,Walter,22508,854518728062939,1888414991223739,BOT: message,Great job!,2018-08-29 09:55:29
+1888414991223739,Paul,Walter,22509,854518728062939,1888414991223739,BOT: quick reply,The correct answer is osmosis.,2018-08-29 09:55:29
+1888414991223739,Paul,Walter,22510,1888414991223739,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-29 09:55:35
+1888414991223739,Paul,Walter,22511,854518728062939,1888414991223739,BOT: message,Would you answer this question for me?,2018-08-29 09:55:36
+1888414991223739,Paul,Walter,22512,854518728062939,1888414991223739,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-29 09:55:36
+1888414991223739,Paul,Walter,22513,854518728062939,1888414991223739,BOT: quick reply,What are the little sacs at the end of the bronchioles called?,2018-08-29 09:55:37
+1888414991223739,Paul,Walter,22514,1888414991223739,854518728062939,user_typing,I need a hint,2018-08-29 09:55:50
+1888414991223739,Paul,Walter,22515,854518728062939,1888414991223739,BOT: message,That's not quite right. :disappointed_face:,2018-08-29 09:55:50
+1888414991223739,Paul,Walter,22516,854518728062939,1888414991223739,BOT: quick reply,The correct answer is alveoli.,2018-08-29 09:55:51
+1888414991223739,Paul,Walter,22517,1888414991223739,854518728062939,user_typing,You broke,2018-08-29 09:56:05
+1888414991223739,Paul,Walter,22518,854518728062939,1888414991223739,BOT: quick reply,That sounds cool. I need to learn more languages to keep up with the conversation with you. Maybe you can teach me languages in the future!,2018-08-29 09:56:05
+1888414991223739,Paul,Walter,22519,1888414991223739,854518728062939,user_quick_reply: CHAT_WITH_ME,Chat with me :penguin:,2018-08-29 09:56:12
+1888414991223739,Paul,Walter,22520,854518728062939,1888414991223739,BOT: quick reply,Do you want to hear some interesting things from me?,2018-08-29 09:56:13
+1888414991223739,Paul,Walter,22521,1888414991223739,854518728062939,user_quick_reply: JOKE,Joke :beaming_face_with_smiling_eyes:,2018-08-29 09:56:18
+1888414991223739,Paul,Walter,22522,854518728062939,1888414991223739,BOT: message,Here's one I thought might be funny.,2018-08-29 09:56:18
+1888414991223739,Paul,Walter,22523,854518728062939,1888414991223739,BOT: quick reply,Which composer likes tea the most? Chai-kovsky.,2018-08-29 09:56:19
+1888414991223739,Paul,Walter,22524,1888414991223739,854518728062939,user_typing,Joke,2018-08-29 09:56:29
+1888414991223739,Paul,Walter,22525,854518728062939,1888414991223739,BOT: quick reply,I'm not sure what this is. I'm still learning languages and you might be my teacher in the future!,2018-08-29 09:56:30
+1888414991223739,Paul,Walter,22526,1888414991223739,854518728062939,user_quick_reply: NEXT_QUESTION,Continue learning :flexed_biceps_medium-light_skin_tone:,2018-08-29 09:56:36
+1888414991223739,Paul,Walter,22527,854518728062939,1888414991223739,BOT: message,How about this next one:,2018-08-29 09:56:37
+1888414991223739,Paul,Walter,22528,854518728062939,1888414991223739,BOT: quick reply,What kind of viscosity is found in long-chain hydrocarbons?,2018-08-29 09:56:37
+1888414991223739,Paul,Walter,22529,1888414991223739,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-29 09:56:47
+1888414991223739,Paul,Walter,22530,854518728062939,1888414991223739,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-08-29 09:56:47
+1888414991223739,Paul,Walter,22531,854518728062939,1888414991223739,BOT: quick reply,":keycap_1: low viscosity
+:keycap_2: increased viscosity
+:keycap_3: intense viscosity
+:keycap_4: high viscosity
+",2018-08-29 09:56:48
+1888414991223739,Paul,Walter,22532,1888414991223739,854518728062939,user_typing,High viscosity,2018-08-29 09:57:03
+1888414991223739,Paul,Walter,22533,854518728062939,1888414991223739,BOT: message,Good Answer! :white_heavy_check_mark:,2018-08-29 09:57:04
+1888414991223739,Paul,Walter,22534,854518728062939,1888414991223739,BOT: quick reply,The correct answer is high viscosity.,2018-08-29 09:57:04
+1888414991223739,Paul,Walter,22535,1888414991223739,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-29 09:57:12
+1888414991223739,Paul,Walter,22536,854518728062939,1888414991223739,BOT: message,Let's see if you can answer this question.,2018-08-29 09:57:13
+1888414991223739,Paul,Walter,22537,854518728062939,1888414991223739,BOT: quick reply,"When your brain senses that your body temperature is increasing, it sends messages to the blood vessels in the skin to increase in what?",2018-08-29 09:57:14
+1888414991223739,Paul,Walter,22538,1888414991223739,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-29 09:57:22
+1888414991223739,Paul,Walter,22539,854518728062939,1888414991223739,BOT: message,It's one of the following choices.,2018-08-29 09:57:23
+1888414991223739,Paul,Walter,22540,854518728062939,1888414991223739,BOT: quick reply,":keycap_1: surface
+:keycap_2: height
+:keycap_3: weight
+:keycap_4: diameter
+",2018-08-29 09:57:23
+1888414991223739,Paul,Walter,22541,1888414991223739,854518728062939,user_typing,***diameter***,2018-08-29 09:57:37
+1888414991223739,Paul,Walter,22542,854518728062939,1888414991223739,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_jubilated_purple.png,2018-08-29 09:57:39
+1888414991223739,Paul,Walter,22543,854518728062939,1888414991223739,BOT: message,Nice! :red_apple:,2018-08-29 09:57:40
+1888414991223739,Paul,Walter,22544,854518728062939,1888414991223739,BOT: quick reply,The correct answer is diameter.,2018-08-29 09:57:40
+1888414991223739,Paul,Walter,22545,1888414991223739,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-29 09:57:56
+1888414991223739,Paul,Walter,22546,854518728062939,1888414991223739,BOT: message,I think you'll like this question.,2018-08-29 09:57:56
+1888414991223739,Paul,Walter,22547,854518728062939,1888414991223739,BOT: quick reply,Most fungi get organic compounds from what?,2018-08-29 09:57:57
+1888414991223739,Paul,Walter,22548,1888414991223739,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-29 09:58:03
+1888414991223739,Paul,Walter,22549,854518728062939,1888414991223739,BOT: message,Okay. I'll give you some choices.,2018-08-29 09:58:04
+1888414991223739,Paul,Walter,22550,854518728062939,1888414991223739,BOT: quick reply,":keycap_1: inorganic material
+:keycap_2: living organisms
+:keycap_3: carnivorous organisms
+:keycap_4: dead organisms
+",2018-08-29 09:58:05
+1888414991223739,Paul,Walter,22551,1888414991223739,854518728062939,user_typing,Dead!!?!@@$))7 organisms,2018-08-29 09:58:23
+1888414991223739,Paul,Walter,22552,854518728062939,1888414991223739,BOT: message,Nice! :red_apple:,2018-08-29 09:58:24
+1888414991223739,Paul,Walter,22553,854518728062939,1888414991223739,BOT: quick reply,The correct answer is dead organisms.,2018-08-29 09:58:25
+1888414991223739,Paul,Walter,22554,1888414991223739,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-29 09:58:34
+1888414991223739,Paul,Walter,22555,854518728062939,1888414991223739,BOT: message,See if you can answer this next one.,2018-08-29 09:58:34
+1888414991223739,Paul,Walter,22556,854518728062939,1888414991223739,BOT: quick reply,The electrode at which oxidation occurs is called the what?,2018-08-29 09:58:35
+1888414991223739,Paul,Walter,22557,1888414991223739,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-29 09:58:43
+1888414991223739,Paul,Walter,22558,854518728062939,1888414991223739,BOT: message,Pick one of the following answers.,2018-08-29 09:58:43
+1888414991223739,Paul,Walter,22559,854518728062939,1888414991223739,BOT: quick reply,":keycap_1: calomel
+:keycap_2: anode
+:keycap_3: diode
+:keycap_4: cathode
+",2018-08-29 09:58:44
+1888414991223739,Paul,Walter,22560,1888414991223739,854518728062939,user_typing,Añôdé,2018-08-29 09:58:58
+1888414991223739,Paul,Walter,22561,854518728062939,1888414991223739,BOT: message,"I'm sorry, but that was incorrect. :disappointed_face:",2018-08-29 09:58:59
+1888414991223739,Paul,Walter,22562,854518728062939,1888414991223739,BOT: quick reply,The correct answer is anode.,2018-08-29 09:58:59
+1888414991223739,Paul,Walter,22563,1888414991223739,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-29 09:59:11
+1888414991223739,Paul,Walter,22564,854518728062939,1888414991223739,BOT: message,What about this next question:,2018-08-29 09:59:12
+1888414991223739,Paul,Walter,22565,854518728062939,1888414991223739,BOT: quick reply,"Temperature, water, soil, and air are examples of nonliving factors of an ecosystem, also termed what?",2018-08-29 09:59:12
+1888414991223739,Paul,Walter,22566,1888414991223739,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-29 09:59:20
+1888414991223739,Paul,Walter,22567,854518728062939,1888414991223739,BOT: message,Pick one of the following answers.,2018-08-29 09:59:21
+1888414991223739,Paul,Walter,22568,854518728062939,1888414991223739,BOT: quick reply,":keycap_1: conditional factors
+:keycap_2: nucleic factors
+:keycap_3: diverse factors
+:keycap_4: abiotic factors
+",2018-08-29 09:59:22
+1888414991223739,Paul,Walter,22569,1888414991223739,854518728062939,user_typing,Abioticfactors,2018-08-29 09:59:31
+1888414991223739,Paul,Walter,22570,854518728062939,1888414991223739,BOT: message,That wasn't quite what we were looking for. :disappointed_face:,2018-08-29 09:59:32
+1888414991223739,Paul,Walter,22571,854518728062939,1888414991223739,BOT: quick reply,The correct answer is abiotic factors.,2018-08-29 09:59:32
+1888414991223739,Paul,Walter,22572,1888414991223739,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-29 09:59:38
+1888414991223739,Paul,Walter,22573,854518728062939,1888414991223739,BOT: message,How about this next one:,2018-08-29 09:59:38
+1888414991223739,Paul,Walter,22574,854518728062939,1888414991223739,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-29 09:59:39
+1888414991223739,Paul,Walter,22575,854518728062939,1888414991223739,BOT: quick reply,What kind of viscosity is found in long-chain hydrocarbons?,2018-08-29 09:59:40
+1888414991223739,Paul,Walter,22576,1888414991223739,854518728062939,user_typing,Hi viscosity,2018-08-29 09:59:53
+1888414991223739,Paul,Walter,22577,854518728062939,1888414991223739,BOT: message,"Oops, that answer was incorrect. :disappointed_face:",2018-08-29 09:59:53
+1888414991223739,Paul,Walter,22578,854518728062939,1888414991223739,BOT: quick reply,The correct answer is high viscosity.,2018-08-29 09:59:54
+1888414991223739,Paul,Walter,22579,1888414991223739,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-29 10:00:03
+1888414991223739,Paul,Walter,22580,854518728062939,1888414991223739,BOT: message,Let's see if you can answer this question.,2018-08-29 10:00:04
+1888414991223739,Paul,Walter,22581,854518728062939,1888414991223739,BOT: quick reply,What are by far the most common type of invertebrate?,2018-08-29 10:00:05
+1888414991223739,Paul,Walter,22582,1888414991223739,854518728062939,user_typing,"Insects, insects, insects",2018-08-29 10:00:19
+1888414991223739,Paul,Walter,22583,854518728062939,1888414991223739,BOT: message,Nice! :red_apple:,2018-08-29 10:00:20
+1888414991223739,Paul,Walter,22584,854518728062939,1888414991223739,BOT: quick reply,The correct answer is insects.,2018-08-29 10:00:20
+1888414991223739,Paul,Walter,22585,1888414991223739,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-29 10:00:32
+1888414991223739,Paul,Walter,22586,854518728062939,1888414991223739,BOT: message,What about this next question:,2018-08-29 10:00:32
+1888414991223739,Paul,Walter,22587,854518728062939,1888414991223739,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-29 10:00:33
+1888414991223739,Paul,Walter,22588,854518728062939,1888414991223739,BOT: quick reply,The lithosphere is divided into a dozen major and several minor what?,2018-08-29 10:00:34
+1888414991223739,Paul,Walter,22589,1888414991223739,854518728062939,user_typing,Mothers plates,2018-08-29 10:00:50
+1888414991223739,Paul,Walter,22590,854518728062939,1888414991223739,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_jubilated_orange.png,2018-08-29 10:00:51
+1888414991223739,Paul,Walter,22591,854518728062939,1888414991223739,BOT: message,Thats right! :party_popper:,2018-08-29 10:00:52
+1888414991223739,Paul,Walter,22592,854518728062939,1888414991223739,BOT: quick reply,The correct answer is plates.,2018-08-29 10:00:53
+1888414991223739,Paul,Walter,22593,1888414991223739,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-29 10:01:02
+1888414991223739,Paul,Walter,22594,854518728062939,1888414991223739,BOT: message,See if you can answer this next one.,2018-08-29 10:01:02
+1888414991223739,Paul,Walter,22595,854518728062939,1888414991223739,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-29 10:01:03
+1888414991223739,Paul,Walter,22596,854518728062939,1888414991223739,BOT: quick reply,What opens two strands of DNA?,2018-08-29 10:01:03
+1888414991223739,Paul,Walter,22597,1888414991223739,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-29 10:01:10
+1888414991223739,Paul,Walter,22598,854518728062939,1888414991223739,BOT: message,Pick one of the following answers.,2018-08-29 10:01:11
+1888414991223739,Paul,Walter,22599,854518728062939,1888414991223739,BOT: quick reply,":keycap_1: helicase
+:keycap_2: replication
+:keycap_3: chromosome
+:keycap_4: adenylate
+",2018-08-29 10:01:11
+1888414991223739,Paul,Walter,22600,1888414991223739,854518728062939,user_quick_reply: I_DONT_KNOW,I dont know :downcast_face_with_sweat:,2018-08-29 10:01:17
+1888414991223739,Paul,Walter,22601,854518728062939,1888414991223739,BOT: quick reply,Are you sure you want to skip answering?,2018-08-29 10:01:18
+1888414991223739,Paul,Walter,22602,1888414991223739,854518728062939,user_quick_reply: GIVEUP_YES,"Yes, answer please.",2018-08-29 10:01:22
+1888414991223739,Paul,Walter,22603,854518728062939,1888414991223739,BOT: message,You didn't get it right this time.,2018-08-29 10:01:22
+1888414991223739,Paul,Walter,22604,854518728062939,1888414991223739,BOT: message,"That's okay, you'll get it next time! :grinning_face_with_smiling_eyes:",2018-08-29 10:01:23
+1888414991223739,Paul,Walter,22605,854518728062939,1888414991223739,BOT: quick reply,The correct answer is helicase.,2018-08-29 10:01:24
+1888414991223739,Paul,Walter,22606,1888414991223739,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-29 10:01:29
+1888414991223739,Paul,Walter,22607,854518728062939,1888414991223739,BOT: message,Let's try this one.,2018-08-29 10:01:30
+1888414991223739,Paul,Walter,22608,854518728062939,1888414991223739,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-29 10:01:31
+1888414991223739,Paul,Walter,22609,854518728062939,1888414991223739,BOT: quick reply,What living species of bird is considered the largest of the raptors?,2018-08-29 10:01:31
+1888414991223739,Paul,Walter,22610,1888414991223739,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-29 10:01:37
+1888414991223739,Paul,Walter,22611,854518728062939,1888414991223739,BOT: message,It's one of the following choices.,2018-08-29 10:01:37
+1888414991223739,Paul,Walter,22612,854518728062939,1888414991223739,BOT: quick reply,":keycap_1: pterodactyl
+:keycap_2: peregrine falcon
+:keycap_3: golden eagles
+:keycap_4: California condor
+",2018-08-29 10:01:38
+1888414991223739,Paul,Walter,22613,1888414991223739,854518728062939,user_typing,3,2018-08-29 10:01:50
+1888414991223739,Paul,Walter,22614,854518728062939,1888414991223739,BOT: message,That's not quite right. :disappointed_face:,2018-08-29 10:01:50
+1888414991223739,Paul,Walter,22615,854518728062939,1888414991223739,BOT: quick reply,The correct answer is golden eagles.,2018-08-29 10:01:51
+1888414991223739,Paul,Walter,22616,1888414991223739,854518728062939,user_quick_reply: WHY,Why?,2018-08-29 10:02:00
+1888414991223739,Paul,Walter,22617,854518728062939,1888414991223739,BOT: message,This is an explanation of the question:,2018-08-29 10:02:01
+1888414991223739,Paul,Walter,22618,854518728062939,1888414991223739,BOT: quick reply,"Although not as famous as its bald cousin, Golden Eagles are much easier to find in Northern California - one of the largest breeding populations for Golden Eagles. The largest of the raptors, Golden Eagles weigh typically between 8 and 12 pounds, and their wing span is around 6 to 7 feet. These eagles dive towards earth to catch prey, and can reach speeds of up to 200 mph!",2018-08-29 10:02:01
+1888414991223739,Paul,Walter,22619,1888414991223739,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-29 10:02:06
+1888414991223739,Paul,Walter,22620,854518728062939,1888414991223739,BOT: message,Let's see if you can answer this question.,2018-08-29 10:02:07
+1888414991223739,Paul,Walter,22621,854518728062939,1888414991223739,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-29 10:02:07
+1888414991223739,Paul,Walter,22622,854518728062939,1888414991223739,BOT: quick reply,What is the diffusion of water through a semipermeable membrane down its concentration gradient?,2018-08-29 10:02:08
+1888414991223739,Paul,Walter,22623,1888414991223739,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-29 10:02:17
+1888414991223739,Paul,Walter,22624,854518728062939,1888414991223739,BOT: message,It's one of the following choices.,2018-08-29 10:02:17
+1888414991223739,Paul,Walter,22625,854518728062939,1888414991223739,BOT: quick reply,":keycap_1: osmosis
+:keycap_2: permable
+:keycap_3: mirrors
+:keycap_4: nutrients
+",2018-08-29 10:02:18
+1888414991223739,Paul,Walter,22626,1888414991223739,854518728062939,user_typing,:keycap_1::keycap_2::keycap_3::keycap_4:,2018-08-29 10:02:54
+1888414991223739,Paul,Walter,22627,854518728062939,1888414991223739,BOT: message,"Oops, that answer was incorrect. :disappointed_face:",2018-08-29 10:02:54
+1888414991223739,Paul,Walter,22628,854518728062939,1888414991223739,BOT: quick reply,The correct answer is osmosis.,2018-08-29 10:02:55
+1888414991223739,Paul,Walter,22629,1888414991223739,854518728062939,user_typing,Next q,2018-08-29 10:03:08
+1888414991223739,Paul,Walter,22630,854518728062939,1888414991223739,BOT: quick reply,Sorry but I haven't learned about this yet. I'll learn more languages in the future.,2018-08-29 10:03:09
+1888414991223739,Paul,Walter,22631,1888414991223739,854518728062939,user_quick_reply: NEXT_QUESTION,Resume learning :flexed_biceps_medium-light_skin_tone:,2018-08-29 10:03:14
+1888414991223739,Paul,Walter,22632,854518728062939,1888414991223739,BOT: message,How about this next one:,2018-08-29 10:03:14
+1888414991223739,Paul,Walter,22633,854518728062939,1888414991223739,BOT: quick reply,Most fungi get organic compounds from what?,2018-08-29 10:03:15
+1888414991223739,Paul,Walter,22634,1888414991223739,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-29 10:03:21
+1888414991223739,Paul,Walter,22635,854518728062939,1888414991223739,BOT: message,Pick one of the following answers.,2018-08-29 10:03:21
+1888414991223739,Paul,Walter,22636,854518728062939,1888414991223739,BOT: quick reply,":keycap_1: dead organisms
+:keycap_2: living organisms
+:keycap_3: carnivorous organisms
+:keycap_4: inorganic material
+",2018-08-29 10:03:22
+1888414991223739,Paul,Walter,22637,1888414991223739,854518728062939,user_typing,Organisms dead,2018-08-29 10:03:38
+1888414991223739,Paul,Walter,22638,854518728062939,1888414991223739,BOT: message,Nice! :red_apple:,2018-08-29 10:03:38
+1888414991223739,Paul,Walter,22639,854518728062939,1888414991223739,BOT: quick reply,The correct answer is dead organisms.,2018-08-29 10:03:39
+1888414991223739,Paul,Walter,22640,1888414991223739,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-29 10:03:53
+1888414991223739,Paul,Walter,22641,854518728062939,1888414991223739,BOT: message,How about this next one:,2018-08-29 10:03:54
+1888414991223739,Paul,Walter,22642,854518728062939,1888414991223739,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-29 10:03:54
+1888414991223739,Paul,Walter,22643,854518728062939,1888414991223739,BOT: quick reply,How often should women perform a breast self-exam?,2018-08-29 10:03:55
+1888414991223739,Paul,Walter,22644,1888414991223739,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-29 10:04:02
+1888414991223739,Paul,Walter,22645,854518728062939,1888414991223739,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-08-29 10:04:02
+1888414991223739,Paul,Walter,22646,854518728062939,1888414991223739,BOT: quick reply,":keycap_1: monthly
+:keycap_2: weekly
+:keycap_3: yearly
+:keycap_4: quarterly
+",2018-08-29 10:04:03
+1888414991223739,Paul,Walter,22647,1888414991223739,854518728062939,user_typing,Monthly weekly yearly quarterly,2018-08-29 10:04:22
+1888414991223739,Paul,Walter,22648,854518728062939,1888414991223739,BOT: message,Correct! :confetti_ball:,2018-08-29 10:04:23
+1888414991223739,Paul,Walter,22649,854518728062939,1888414991223739,BOT: quick reply,The correct answer is monthly.,2018-08-29 10:04:23
+1888414991223739,Paul,Walter,22650,1888414991223739,854518728062939,user_typing,Hehe,2018-08-29 10:04:35
+1888414991223739,Paul,Walter,22651,854518728062939,1888414991223739,BOT: quick reply,That sounds cool. I need to learn more languages to keep up with the conversation with you. Maybe you can teach me languages in the future!,2018-08-29 10:04:35
+1888414991223739,Paul,Walter,22652,1888414991223739,854518728062939,user_quick_reply: NEXT_QUESTION,Another question :flexed_biceps_medium-light_skin_tone:,2018-08-29 10:04:42
+1888414991223739,Paul,Walter,22653,854518728062939,1888414991223739,BOT: message,Would you answer this question for me?,2018-08-29 10:04:43
+1888414991223739,Paul,Walter,22654,854518728062939,1888414991223739,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-29 10:04:43
+1888414991223739,Paul,Walter,22655,854518728062939,1888414991223739,BOT: quick reply,What opens two strands of DNA?,2018-08-29 10:04:44
+1888414991223739,Paul,Walter,22656,1888414991223739,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-29 10:04:51
+1888414991223739,Paul,Walter,22657,854518728062939,1888414991223739,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-08-29 10:04:52
+1888414991223739,Paul,Walter,22658,854518728062939,1888414991223739,BOT: quick reply,":keycap_1: adenylate
+:keycap_2: chromosome
+:keycap_3: helicase
+:keycap_4: replication
+",2018-08-29 10:04:53
+1888414991223739,Paul,Walter,22659,1888414991223739,854518728062939,user_typing,"Once upon a time, there was a young maiden locked away in a tower. her mother had locked her there because rapunzel, the young maiden, had terrible allergies. whenever rapunzel went outside, she would have terrible sneezing fits, which were not suitable for a lady of her status. the end... brought to you by... helicase",2018-08-29 10:06:50
+1888414991223739,Paul,Walter,22660,854518728062939,1888414991223739,BOT: message,That's not quite right. :disappointed_face:,2018-08-29 10:06:51
+1888414991223739,Paul,Walter,22661,854518728062939,1888414991223739,BOT: quick reply,The correct answer is helicase.,2018-08-29 10:06:52
+1888414991223739,Paul,Walter,22662,1888414991223739,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-29 10:07:14
+1888414991223739,Paul,Walter,22663,854518728062939,1888414991223739,BOT: message,Let's try this one.,2018-08-29 10:07:14
+1888414991223739,Paul,Walter,22664,854518728062939,1888414991223739,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-29 10:07:15
+1888414991223739,Paul,Walter,22665,854518728062939,1888414991223739,BOT: quick reply,What are the little sacs at the end of the bronchioles called?,2018-08-29 10:07:16
+1888414991223739,Paul,Walter,22666,1888414991223739,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-29 10:07:22
+1888414991223739,Paul,Walter,22667,854518728062939,1888414991223739,BOT: message,It's one of the following choices.,2018-08-29 10:07:22
+1888414991223739,Paul,Walter,22668,854518728062939,1888414991223739,BOT: quick reply,":keycap_1: alveoli
+:keycap_2: ganglion
+:keycap_3: respiratory sacs
+:keycap_4: lung
+",2018-08-29 10:07:23
+1888414991223739,Paul,Walter,22669,1888414991223739,854518728062939,user_typing,Alveoli ganglion respiratory sacs lung,2018-08-29 10:07:44
+1888414991223739,Paul,Walter,22670,854518728062939,1888414991223739,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_normal_purple.png,2018-08-29 10:07:46
+1888414991223739,Paul,Walter,22671,854518728062939,1888414991223739,BOT: message,Correct! :confetti_ball:,2018-08-29 10:07:46
+1888414991223739,Paul,Walter,22672,854518728062939,1888414991223739,BOT: quick reply,The correct answer is alveoli.,2018-08-29 10:07:47
+1888414991223739,Paul,Walter,22673,1888414991223739,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-29 10:07:54
+1888414991223739,Paul,Walter,22674,854518728062939,1888414991223739,BOT: message,Let's try this question.,2018-08-29 10:07:55
+1888414991223739,Paul,Walter,22675,854518728062939,1888414991223739,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-29 10:07:55
+1888414991223739,Paul,Walter,22676,854518728062939,1888414991223739,BOT: quick reply,What are the little sacs at the end of the bronchioles called?,2018-08-29 10:07:56
+1888414991223739,Paul,Walter,22677,1888414991223739,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-29 10:08:09
+1888414991223739,Paul,Walter,22678,854518728062939,1888414991223739,BOT: message,Okay. I'll give you some choices.,2018-08-29 10:08:10
+1888414991223739,Paul,Walter,22679,854518728062939,1888414991223739,BOT: quick reply,":keycap_1: lung
+:keycap_2: alveoli
+:keycap_3: ganglion
+:keycap_4: respiratory sacs
+",2018-08-29 10:08:10
+1888414991223739,Paul,Walter,22680,1888414991223739,854518728062939,user_typing,"Lung, alveoli, ganglion, respiratory sacs",2018-08-29 10:08:33
+1888414991223739,Paul,Walter,22681,854518728062939,1888414991223739,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_happy_pink.png,2018-08-29 10:08:34
+1888414991223739,Paul,Walter,22682,854518728062939,1888414991223739,BOT: message,Fantastic! :hundred_points:,2018-08-29 10:08:35
+1888414991223739,Paul,Walter,22683,854518728062939,1888414991223739,BOT: quick reply,The correct answer is alveoli.,2018-08-29 10:08:35
+1888414991223739,Paul,Walter,22684,1888414991223739,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-29 10:08:42
+1888414991223739,Paul,Walter,22685,854518728062939,1888414991223739,BOT: message,Here's a question for you:,2018-08-29 10:08:42
+1888414991223739,Paul,Walter,22686,854518728062939,1888414991223739,BOT: quick reply,Most fungi get organic compounds from what?,2018-08-29 10:08:43
+1888414991223739,Paul,Walter,22690,1888414991223739,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-29 10:08:53
+1888414991223739,Paul,Walter,22691,854518728062939,1888414991223739,BOT: message,Okay. I'll give you some choices.,2018-08-29 10:08:54
+1888414991223739,Paul,Walter,22692,854518728062939,1888414991223739,BOT: quick reply,":keycap_1: living organisms
+:keycap_2: dead organisms
+:keycap_3: carnivorous organisms
+:keycap_4: inorganic material
+",2018-08-29 10:08:54
+1888414991223739,Paul,Walter,22706,1888414991223739,854518728062939,user_typing,Dead carnivorous inorganic organisms,2018-08-29 10:09:22
+1888414991223739,Paul,Walter,22709,854518728062939,1888414991223739,BOT: message,That wasn't quite what we were looking for. :disappointed_face:,2018-08-29 10:09:23
+1888414991223739,Paul,Walter,22711,854518728062939,1888414991223739,BOT: quick reply,The correct answer is dead organisms.,2018-08-29 10:09:23
+1888414991223739,Paul,Walter,22723,1888414991223739,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-29 10:09:47
+1888414991223739,Paul,Walter,22725,854518728062939,1888414991223739,BOT: message,"Alrighty, let's try this one.",2018-08-29 10:09:48
+1888414991223739,Paul,Walter,22726,854518728062939,1888414991223739,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-29 10:09:48
+1888414991223739,Paul,Walter,22727,854518728062939,1888414991223739,BOT: quick reply,What disease characterized by the extreme swelling of the limbs is caused by infection with a type of roundworm?,2018-08-29 10:09:49
+1888414991223739,Paul,Walter,22729,1888414991223739,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-29 10:09:59
+1888414991223739,Paul,Walter,22730,854518728062939,1888414991223739,BOT: message,Which of the following options is the right answer?,2018-08-29 10:10:00
+1888414991223739,Paul,Walter,22733,854518728062939,1888414991223739,BOT: quick reply,":keycap_1: elephantiasis
+:keycap_2: gigantism
+:keycap_3: fibrosis
+:keycap_4: pulmonary edema
+",2018-08-29 10:10:00
+1888414991223739,Paul,Walter,22738,1888414991223739,854518728062939,user_quick_reply: BUTTON_AKB_elephantiasis,:keycap_1:,2018-08-29 10:10:12
+1888414991223739,Paul,Walter,22740,854518728062939,1888414991223739,BOT: message,Great job getting the correct answer!,2018-08-29 10:10:13
+1888414991223739,Paul,Walter,22742,854518728062939,1888414991223739,BOT: quick reply,The correct answer is elephantiasis.,2018-08-29 10:10:13
+1888414991223739,Paul,Walter,22747,1888414991223739,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-29 10:10:21
+1888414991223739,Paul,Walter,22748,854518728062939,1888414991223739,BOT: message,Let's see if you can answer this question.,2018-08-29 10:10:22
+1888414991223739,Paul,Walter,22749,854518728062939,1888414991223739,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-29 10:10:22
+1888414991223739,Paul,Walter,22750,854518728062939,1888414991223739,BOT: quick reply,"When your brain senses that your body temperature is increasing, it sends messages to the blood vessels in the skin to increase in what?",2018-08-29 10:10:23
+1888414991223739,Paul,Walter,23300,854518728062939,1888414991223739,BOT: quick reply,"Hi Paul, you haven't talked to me for a while. Would you like to resume the learning with me?",2018-08-29 20:00:23
+1888414991223739,Paul,Walter,25329,1888414991223739,854518728062939,persistent_menu: RANDOM,Random :game_die:,2018-08-30 16:41:19
+1888414991223739,Paul,Walter,25330,854518728062939,1888414991223739,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/evolvescientist_normal.gif,2018-08-30 16:41:23
+1888414991223739,Paul,Walter,25331,854518728062939,1888414991223739,BOT: quick reply,Nice! Enjoy a little variety? Let's answer some questions! :game_die:,2018-08-30 16:41:23
+1888414991223739,Paul,Walter,25334,854518728062939,1888414991223739,BOT: message,Could you answer this one for me?,2018-08-30 16:41:28
+1888414991223739,Paul,Walter,25336,854518728062939,1888414991223739,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-30 16:41:28
+1888414991223739,Paul,Walter,25337,854518728062939,1888414991223739,BOT: quick reply,"In psychological literature, the ""sleeper effect"" refers to the phenomenon in which a persuasive message from a trustworthy source loses _____ over time, while the efficacy of a message from a less credible source simultaneously increases.",2018-08-30 16:41:29
+1888414991223739,Paul,Walter,25339,1888414991223739,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-30 16:41:33
+1888414991223739,Paul,Walter,25342,854518728062939,1888414991223739,BOT: message,Okay. I'll give you some choices.,2018-08-30 16:41:34
+1888414991223739,Paul,Walter,25344,854518728062939,1888414991223739,BOT: quick reply,":keycap_1: evasiveness
+:keycap_2: control
+:keycap_3: erudition
+:keycap_4: prescience
+:keycap_5: cogency
+",2018-08-30 16:41:35
+1888414991223739,Paul,Walter,25351,1888414991223739,854518728062939,user_typing,Cogency and erudition,2018-08-30 16:41:58
+1888414991223739,Paul,Walter,25352,854518728062939,1888414991223739,BOT: message,Fantastic! :hundred_points:,2018-08-30 16:41:58
+1888414991223739,Paul,Walter,25353,854518728062939,1888414991223739,BOT: quick reply,The correct answer is cogency.,2018-08-30 16:41:59
+1888414991223739,Paul,Walter,25355,1888414991223739,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-30 16:42:03
+1888414991223739,Paul,Walter,25356,854518728062939,1888414991223739,BOT: message,What about this next question:,2018-08-30 16:42:04
+1888414991223739,Paul,Walter,25357,854518728062939,1888414991223739,BOT: quick reply,Many Major League Baseball relief pitchers choose an electrifying theme song to play as they take the mound; the song _____ their fans and instills fear in their opponents.,2018-08-30 16:42:04
+1888414991223739,Paul,Walter,25362,1888414991223739,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-30 16:42:10
+1888414991223739,Paul,Walter,25363,854518728062939,1888414991223739,BOT: message,It's one of the following choices.,2018-08-30 16:42:11
+1888414991223739,Paul,Walter,25364,854518728062939,1888414991223739,BOT: quick reply,":keycap_1: innervates
+:keycap_2: pervades
+:keycap_3: assuages
+:keycap_4: eviscerates
+:keycap_5: enervates
+",2018-08-30 16:42:11
+1888414991223739,Paul,Walter,25373,1888414991223739,854518728062939,user_typing,Enervates and innervates,2018-08-30 16:42:30
+1888414991223739,Paul,Walter,25375,854518728062939,1888414991223739,BOT: message,"I'm sorry, but that was incorrect. :disappointed_face:",2018-08-30 16:42:31
+1888414991223739,Paul,Walter,25376,854518728062939,1888414991223739,BOT: quick reply,The correct answer is innervates.,2018-08-30 16:42:31
+1888414991223739,Paul,Walter,25380,1888414991223739,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-30 16:42:41
+1888414991223739,Paul,Walter,25381,854518728062939,1888414991223739,BOT: message,Let's see if you can get this one.,2018-08-30 16:42:41
+1888414991223739,Paul,Walter,25382,854518728062939,1888414991223739,BOT: quick reply,"Dolly Madison, the wife of President James Madison, was known especially for her _____ , remaining calm even as the British invaded Washington D.C. during the War of 1812.",2018-08-30 16:42:42
+1888414991223739,Paul,Walter,25386,1888414991223739,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-30 16:42:48
+1888414991223739,Paul,Walter,25387,854518728062939,1888414991223739,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-08-30 16:42:48
+1888414991223739,Paul,Walter,25388,854518728062939,1888414991223739,BOT: quick reply,":keycap_1: impracticality
+:keycap_2: equanimity
+:keycap_3: malevolence
+:keycap_4: cynicism
+:keycap_5: zeal
+",2018-08-30 16:42:49
+1888414991223739,Paul,Walter,25393,1888414991223739,854518728062939,user_typing,Impractical equanimity,2018-08-30 16:43:04
+1888414991223739,Paul,Walter,25394,854518728062939,1888414991223739,BOT: message,Correct! :confetti_ball:,2018-08-30 16:43:05
+1888414991223739,Paul,Walter,25395,854518728062939,1888414991223739,BOT: quick reply,The correct answer is equanimity.,2018-08-30 16:43:05
+1888414991223739,Paul,Walter,25400,1888414991223739,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-30 16:43:10
+1888414991223739,Paul,Walter,25401,854518728062939,1888414991223739,BOT: message,Let's try this one.,2018-08-30 16:43:10
+1888414991223739,Paul,Walter,25402,854518728062939,1888414991223739,BOT: quick reply,"Possessing few natural resources upon its newly-granted independence in 1863, Singapore remained economically _____ until an influx of industrialization and foreign investment took hold there.",2018-08-30 16:43:11
+1888414991223739,Paul,Walter,25406,1888414991223739,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-30 16:43:14
+1888414991223739,Paul,Walter,25407,854518728062939,1888414991223739,BOT: message,It's one of the following choices.,2018-08-30 16:43:15
+1888414991223739,Paul,Walter,25408,854518728062939,1888414991223739,BOT: quick reply,":keycap_1: prosperous
+:keycap_2: solvent
+:keycap_3: dubious
+:keycap_4: powerful
+:keycap_5: fortuitous
+",2018-08-30 16:43:15
+1888414991223739,Paul,Walter,25415,1888414991223739,854518728062939,user_typing,"Solvent, dubious",2018-08-30 16:43:26
+1888414991223739,Paul,Walter,25416,854518728062939,1888414991223739,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_jubilated_pink.png,2018-08-30 16:43:27
+1888414991223739,Paul,Walter,25417,854518728062939,1888414991223739,BOT: message,Thats right! :party_popper:,2018-08-30 16:43:28
+1888414991223739,Paul,Walter,25419,854518728062939,1888414991223739,BOT: quick reply,The correct answer is dubious.,2018-08-30 16:43:28
+1888414991223739,Paul,Walter,25422,1888414991223739,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-30 16:43:33
+1888414991223739,Paul,Walter,25423,854518728062939,1888414991223739,BOT: message,Let's try this one.,2018-08-30 16:43:34
+1888414991223739,Paul,Walter,25424,854518728062939,1888414991223739,BOT: quick reply,Which fire extinguishers are used to put out Class A fires?,2018-08-30 16:43:34
+1888414991223739,Paul,Walter,25428,1888414991223739,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-30 16:43:38
+1888414991223739,Paul,Walter,25429,854518728062939,1888414991223739,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-08-30 16:43:39
+1888414991223739,Paul,Walter,25430,854518728062939,1888414991223739,BOT: quick reply,":keycap_1: Multi-purpose dry chemical only
+:keycap_2: CO2 only
+:keycap_3: Both CO2 and water
+:keycap_4: Water only
+:keycap_5: Both water and multi-purpose dry chemical
+",2018-08-30 16:43:39
+1888414991223739,Paul,Walter,25440,1888414991223739,854518728062939,user_quick_reply: BUTTON_DKB_Water only,:keycap_4:,2018-08-30 16:44:07
+1888414991223739,Paul,Walter,25441,854518728062939,1888414991223739,BOT: message,"Oops, that wasn't quite correct. :disappointed_face:",2018-08-30 16:44:08
+1888414991223739,Paul,Walter,25442,854518728062939,1888414991223739,BOT: quick reply,The correct answer is Both water and multi-purpose dry chemical.,2018-08-30 16:44:08
+1888414991223739,Paul,Walter,25443,1888414991223739,854518728062939,user_quick_reply: WHY,Why?,2018-08-30 16:44:14
+1888414991223739,Paul,Walter,25444,854518728062939,1888414991223739,BOT: message,Here's an explanation:,2018-08-30 16:44:14
+1888414991223739,Paul,Walter,25446,854518728062939,1888414991223739,BOT: quick reply,"Class A fires include fires in ordinary combustibles: paper, wood, cloth, rubber, and many plastics. Water based fire extinguishers and multi-purpose dry chemical based fire extinguishers are suitable for Class A fires. However, ordinary dry chemical fire extinguishers are suitable for only Class B and Class C fires",2018-08-30 16:44:15
+1888414991223739,Paul,Walter,25459,1888414991223739,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-30 16:44:39
+1888414991223739,Paul,Walter,25461,854518728062939,1888414991223739,BOT: message,Let's try this question.,2018-08-30 16:44:40
+1888414991223739,Paul,Walter,25463,854518728062939,1888414991223739,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-30 16:44:40
+1888414991223739,Paul,Walter,25465,854518728062939,1888414991223739,BOT: quick reply,"When your brain senses that your body temperature is increasing, it sends messages to the blood vessels in the skin to increase in what?",2018-08-30 16:44:41
+1888414991223739,Paul,Walter,25467,1888414991223739,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-30 16:44:47
+1888414991223739,Paul,Walter,25468,854518728062939,1888414991223739,BOT: message,It's one of the following choices.,2018-08-30 16:44:48
+1888414991223739,Paul,Walter,25469,854518728062939,1888414991223739,BOT: quick reply,":keycap_1: height
+:keycap_2: weight
+:keycap_3: surface
+:keycap_4: diameter
+",2018-08-30 16:44:48
+1888414991223739,Paul,Walter,25479,1888414991223739,854518728062939,user_typing,"Diameter... filler text, filler filler filler filler filler",2018-08-30 16:45:10
+1888414991223739,Paul,Walter,25480,854518728062939,1888414991223739,BOT: message,"I'm sorry, but that was incorrect. :disappointed_face:",2018-08-30 16:45:10
+1888414991223739,Paul,Walter,25481,854518728062939,1888414991223739,BOT: quick reply,The correct answer is diameter.,2018-08-30 16:45:11
+1888414991223739,Paul,Walter,25485,1888414991223739,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-30 16:45:21
+1888414991223739,Paul,Walter,25487,854518728062939,1888414991223739,BOT: message,Let's try this question.,2018-08-30 16:45:22
+1888414991223739,Paul,Walter,25489,854518728062939,1888414991223739,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-30 16:45:22
+1888414991223739,Paul,Walter,25491,854518728062939,1888414991223739,BOT: quick reply,What living species of bird is considered the largest of the raptors?,2018-08-30 16:45:23
+1888414991223739,Paul,Walter,25492,1888414991223739,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-30 16:45:27
+1888414991223739,Paul,Walter,25493,854518728062939,1888414991223739,BOT: message,It's one of the following choices.,2018-08-30 16:45:27
+1888414991223739,Paul,Walter,25494,854518728062939,1888414991223739,BOT: quick reply,":keycap_1: California condor
+:keycap_2: peregrine falcon
+:keycap_3: pterodactyl
+:keycap_4: golden eagles
+",2018-08-30 16:45:28
+1888414991223739,Paul,Walter,25498,1888414991223739,854518728062939,user_typing,Golden eagles       filler text filler filler filler filler filler filler filler,2018-08-30 16:45:50
+1888414991223739,Paul,Walter,25499,854518728062939,1888414991223739,BOT: message,"I'm sorry, but that was incorrect. :disappointed_face:",2018-08-30 16:45:51
+1888414991223739,Paul,Walter,25500,854518728062939,1888414991223739,BOT: quick reply,The correct answer is golden eagles.,2018-08-30 16:45:51
+1888414991223739,Paul,Walter,25501,1888414991223739,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-30 16:46:04
+1888414991223739,Paul,Walter,25502,854518728062939,1888414991223739,BOT: message,Would you answer this question for me?,2018-08-30 16:46:04
+1888414991223739,Paul,Walter,25503,854518728062939,1888414991223739,BOT: quick reply,The electrode at which oxidation occurs is called the what?,2018-08-30 16:46:05
+1888414991223739,Paul,Walter,25504,1888414991223739,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-30 16:46:08
+1888414991223739,Paul,Walter,25505,854518728062939,1888414991223739,BOT: message,Pick one of the following answers.,2018-08-30 16:46:08
+1888414991223739,Paul,Walter,25506,854518728062939,1888414991223739,BOT: quick reply,":keycap_1: calomel
+:keycap_2: anode
+:keycap_3: diode
+:keycap_4: cathode
+",2018-08-30 16:46:09
+1888414991223739,Paul,Walter,25507,1888414991223739,854518728062939,user_typing,Anode,2018-08-30 16:46:19
+1888414991223739,Paul,Walter,25508,854518728062939,1888414991223739,BOT: message,Good Answer! :white_heavy_check_mark:,2018-08-30 16:46:19
+1888414991223739,Paul,Walter,25509,854518728062939,1888414991223739,BOT: quick reply,The correct answer is anode.,2018-08-30 16:46:20
+1888414991223739,Paul,Walter,25510,1888414991223739,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-30 16:46:26
+1888414991223739,Paul,Walter,25511,854518728062939,1888414991223739,BOT: message,I think you'll like this question.,2018-08-30 16:46:27
+1888414991223739,Paul,Walter,25512,854518728062939,1888414991223739,BOT: quick reply,Many Major League Baseball relief pitchers choose an electrifying theme song to play as they take the mound; the song _____ their fans and instills fear in their opponents.,2018-08-30 16:46:27
+1888414991223739,Paul,Walter,25513,1888414991223739,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-30 16:46:33
+1888414991223739,Paul,Walter,25514,854518728062939,1888414991223739,BOT: message,It's one of the following choices.,2018-08-30 16:46:34
+1888414991223739,Paul,Walter,25515,854518728062939,1888414991223739,BOT: quick reply,":keycap_1: innervates
+:keycap_2: enervates
+:keycap_3: eviscerates
+:keycap_4: assuages
+:keycap_5: pervades
+",2018-08-30 16:46:34
+1888414991223739,Paul,Walter,25516,1888414991223739,854518728062939,user_typing,Innervates          h,2018-08-30 16:46:46
+1888414991223739,Paul,Walter,25517,854518728062939,1888414991223739,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_happy_orange.png,2018-08-30 16:46:48
+1888414991223739,Paul,Walter,25518,854518728062939,1888414991223739,BOT: message,Thats right! :party_popper:,2018-08-30 16:46:48
+1888414991223739,Paul,Walter,25519,854518728062939,1888414991223739,BOT: quick reply,The correct answer is innervates.,2018-08-30 16:46:49
+1888414991223739,Paul,Walter,25520,1888414991223739,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-30 16:46:56
+1888414991223739,Paul,Walter,25521,854518728062939,1888414991223739,BOT: message,Here's a question for you:,2018-08-30 16:46:56
+1888414991223739,Paul,Walter,25522,854518728062939,1888414991223739,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-30 16:46:57
+1888414991223739,Paul,Walter,25523,854518728062939,1888414991223739,BOT: quick reply,What does CERT stand for?,2018-08-30 16:46:58
+1888414991223739,Paul,Walter,25524,1888414991223739,854518728062939,user_quick_reply: I_DONT_KNOW,I dont know :downcast_face_with_sweat:,2018-08-30 16:47:16
+1888414991223739,Paul,Walter,25525,854518728062939,1888414991223739,BOT: quick reply,Are you sure you want to give up?,2018-08-30 16:47:17
+1888414991223739,Paul,Walter,25526,1888414991223739,854518728062939,user_typing,Community emergency response team,2018-08-30 16:47:20
+1888414991223739,Paul,Walter,25527,854518728062939,1888414991223739,BOT: quick reply,That sounds cool. I need to learn more languages to keep up with the conversation with you. Maybe you can teach me languages in the future!,2018-08-30 16:47:20
+1888414991223739,Paul,Walter,25528,1888414991223739,854518728062939,user_quick_reply: NEXT_QUESTION,Resume learning :flexed_biceps_medium-light_skin_tone:,2018-08-30 16:47:26
+1888414991223739,Paul,Walter,25529,854518728062939,1888414991223739,BOT: message,Could you answer this one for me?,2018-08-30 16:47:27
+1888414991223739,Paul,Walter,25530,854518728062939,1888414991223739,BOT: quick reply,What three major factors cause food contamination?,2018-08-30 16:47:27
+1888414991223739,Paul,Walter,25531,1888414991223739,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-30 16:47:43
+1888414991223739,Paul,Walter,25532,854518728062939,1888414991223739,BOT: message,Okay. I'll give you some choices.,2018-08-30 16:47:43
+1888414991223739,Paul,Walter,25533,854518728062939,1888414991223739,BOT: quick reply,":keycap_1: Physical, chemical, and psychosocial
+:keycap_2: Physical, biological, and chemical
+:keycap_3: Physical, biological, and radiological
+:keycap_4: Physical, psychological, and health
+",2018-08-30 16:47:44
+1888414991223739,Paul,Walter,25534,1888414991223739,854518728062939,user_typing,"Biological, chemical, physical",2018-08-30 16:47:45
+1888414991223739,Paul,Walter,25535,854518728062939,1888414991223739,BOT: message,Thats right! :party_popper:,2018-08-30 16:47:45
+1888414991223739,Paul,Walter,25536,854518728062939,1888414991223739,BOT: quick reply,"The correct answer is Physical, biological, and chemical.",2018-08-30 16:47:46
+1888414991223739,Paul,Walter,25537,1888414991223739,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-30 16:47:59
+1888414991223739,Paul,Walter,25538,854518728062939,1888414991223739,BOT: message,How about this next one:,2018-08-30 16:48:00
+1888414991223739,Paul,Walter,25539,854518728062939,1888414991223739,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-30 16:48:00
+1888414991223739,Paul,Walter,25540,854518728062939,1888414991223739,BOT: quick reply,What does CERT stand for?,2018-08-30 16:48:01
+1888414991223739,Paul,Walter,25541,1888414991223739,854518728062939,user_typing,Emergency community response team,2018-08-30 16:48:20
+1888414991223739,Paul,Walter,25542,854518728062939,1888414991223739,BOT: message,Thats right! :party_popper:,2018-08-30 16:48:20
+1888414991223739,Paul,Walter,25543,854518728062939,1888414991223739,BOT: quick reply,The correct answer is Community Emergency Response Team.,2018-08-30 16:48:21
+1888414991223739,Paul,Walter,25544,1888414991223739,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-30 16:48:31
+1888414991223739,Paul,Walter,25545,854518728062939,1888414991223739,BOT: message,See if you can answer this next one.,2018-08-30 16:48:32
+1888414991223739,Paul,Walter,25546,854518728062939,1888414991223739,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-30 16:48:32
+1888414991223739,Paul,Walter,25547,854518728062939,1888414991223739,BOT: quick reply,Working on scaffold during winds above ____ miles per hour is prohibited by OSHA.,2018-08-30 16:48:33
+1888414991223739,Paul,Walter,25548,1888414991223739,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-30 16:48:37
+1888414991223739,Paul,Walter,25549,854518728062939,1888414991223739,BOT: message,Okay. I'll give you some choices.,2018-08-30 16:48:38
+1888414991223739,Paul,Walter,25550,854518728062939,1888414991223739,BOT: quick reply,":keycap_1: 50
+:keycap_2: 25
+:keycap_3: 40
+:keycap_4: 10
+",2018-08-30 16:48:38
+1888414991223739,Paul,Walter,25551,1888414991223739,854518728062939,user_quick_reply: BUTTON_AKB_40,:keycap_3:,2018-08-30 16:48:43
+1888414991223739,Paul,Walter,25552,854518728062939,1888414991223739,BOT: message,Great job getting the correct answer!,2018-08-30 16:48:43
+1888414991223739,Paul,Walter,25553,854518728062939,1888414991223739,BOT: quick reply,The correct answer is 40.,2018-08-30 16:48:44
+1888414991223739,Paul,Walter,25554,1888414991223739,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-30 16:48:47
+1888414991223739,Paul,Walter,25555,854518728062939,1888414991223739,BOT: message,Let's try this question.,2018-08-30 16:48:48
+1888414991223739,Paul,Walter,25556,854518728062939,1888414991223739,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-30 16:48:48
+1888414991223739,Paul,Walter,25557,854518728062939,1888414991223739,BOT: quick reply,"Possessing few natural resources upon its newly-granted independence in 1863, Singapore remained economically _____ until an influx of industrialization and foreign investment took hold there.",2018-08-30 16:48:49
+1888414991223739,Paul,Walter,25558,1888414991223739,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-30 16:48:54
+1888414991223739,Paul,Walter,25559,854518728062939,1888414991223739,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-08-30 16:48:54
+1888414991223739,Paul,Walter,25560,854518728062939,1888414991223739,BOT: quick reply,":keycap_1: dubious
+:keycap_2: fortuitous
+:keycap_3: solvent
+:keycap_4: powerful
+:keycap_5: prosperous
+",2018-08-30 16:48:55
+1888414991223739,Paul,Walter,25561,1888414991223739,854518728062939,user_quick_reply: BUTTON_AKB_dubious,:keycap_1:,2018-08-30 16:49:01
+1888414991223739,Paul,Walter,25562,854518728062939,1888414991223739,BOT: message,Great! Keep it up! :flexed_biceps_medium-light_skin_tone:,2018-08-30 16:49:02
+1888414991223739,Paul,Walter,25563,854518728062939,1888414991223739,BOT: quick reply,The correct answer is dubious.,2018-08-30 16:49:02
+1888414991223739,Paul,Walter,25564,1888414991223739,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-30 16:49:06
+1888414991223739,Paul,Walter,25565,854518728062939,1888414991223739,BOT: message,Let's see if you would answer this one.,2018-08-30 16:49:07
+1888414991223739,Paul,Walter,25566,854518728062939,1888414991223739,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-30 16:49:07
+1888414991223739,Paul,Walter,25567,854518728062939,1888414991223739,BOT: quick reply,"Modern tennis fans have come to realize that, although, quantum technological leaps in racquet technology have lead to _____ increases in the speed and power with which players can hit the ball, this has not necessarily lead to a more entertaining game.",2018-08-30 16:49:08
+1888414991223739,Paul,Walter,25568,1888414991223739,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-30 16:49:14
+1888414991223739,Paul,Walter,25569,854518728062939,1888414991223739,BOT: message,Which of the following options is the right answer?,2018-08-30 16:49:15
+1888414991223739,Paul,Walter,25570,854518728062939,1888414991223739,BOT: quick reply,":keycap_1: halcyon
+:keycap_2: malleable
+:keycap_3: innocuous
+:keycap_4: tractable
+:keycap_5: commensurate
+",2018-08-30 16:49:15
+1888414991223739,Paul,Walter,25571,1888414991223739,854518728062939,user_quick_reply: BUTTON_AKB_commensurate,:keycap_5:,2018-08-30 16:49:20
+1888414991223739,Paul,Walter,25572,854518728062939,1888414991223739,BOT: message,Nice! That was right!,2018-08-30 16:49:21
+1888414991223739,Paul,Walter,25573,854518728062939,1888414991223739,BOT: quick reply,The correct answer is commensurate.,2018-08-30 16:49:21
+1888414991223739,Paul,Walter,25574,1888414991223739,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-30 16:49:26
+1888414991223739,Paul,Walter,25575,854518728062939,1888414991223739,BOT: message,See if you can answer this next one.,2018-08-30 16:49:27
+1888414991223739,Paul,Walter,25576,854518728062939,1888414991223739,BOT: quick reply,What does CERT stand for?,2018-08-30 16:49:27
+1888414991223739,Paul,Walter,25577,1888414991223739,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-30 16:49:35
+1888414991223739,Paul,Walter,25578,854518728062939,1888414991223739,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-08-30 16:49:35
+1888414991223739,Paul,Walter,25579,854518728062939,1888414991223739,BOT: quick reply,":keycap_1: Community Experimental Research Team
+:keycap_2: Community Emergency Response Team
+:keycap_3: Central Emergency Response Terminal
+:keycap_4: Controlled Evacuation and Response Tactics
+",2018-08-30 16:49:36
+1888414991223739,Paul,Walter,25580,1888414991223739,854518728062939,user_typing,Community emergency response,2018-08-30 16:50:01
+1888414991223739,Paul,Walter,25581,854518728062939,1888414991223739,BOT: message,Good job! :raising_hands_medium-light_skin_tone:,2018-08-30 16:50:01
+1888414991223739,Paul,Walter,25582,854518728062939,1888414991223739,BOT: quick reply,The correct answer is Community Emergency Response Team.,2018-08-30 16:50:02
+1888414991223739,Paul,Walter,25583,1888414991223739,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-30 16:50:13
+1888414991223739,Paul,Walter,25584,854518728062939,1888414991223739,BOT: message,Let's see if you can get this one.,2018-08-30 16:50:13
+1888414991223739,Paul,Walter,25585,854518728062939,1888414991223739,BOT: quick reply,What is the diffusion of water through a semipermeable membrane down its concentration gradient?,2018-08-30 16:50:14
+1888414991223739,Paul,Walter,25586,1888414991223739,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-30 16:50:17
+1888414991223739,Paul,Walter,25587,854518728062939,1888414991223739,BOT: message,Pick one of the following answers.,2018-08-30 16:50:17
+1888414991223739,Paul,Walter,25588,854518728062939,1888414991223739,BOT: quick reply,":keycap_1: osmosis
+:keycap_2: permable
+:keycap_3: nutrients
+:keycap_4: mirrors
+",2018-08-30 16:50:18
+1888414991223739,Paul,Walter,25589,1888414991223739,854518728062939,user_typing,Osmosis,2018-08-30 16:50:32
+1888414991223739,Paul,Walter,25590,854518728062939,1888414991223739,BOT: message,Nice! :red_apple:,2018-08-30 16:50:32
+1888414991223739,Paul,Walter,25591,854518728062939,1888414991223739,BOT: quick reply,The correct answer is osmosis.,2018-08-30 16:50:33
+1888414991223739,Paul,Walter,25592,1888414991223739,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-30 16:50:37
+1888414991223739,Paul,Walter,25593,854518728062939,1888414991223739,BOT: message,I think you'll like this question.,2018-08-30 16:50:37
+1888414991223739,Paul,Walter,25594,854518728062939,1888414991223739,BOT: quick reply,What three major factors cause food contamination?,2018-08-30 16:50:38
+1888414991223739,Paul,Walter,25595,1888414991223739,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-30 16:50:42
+1888414991223739,Paul,Walter,25596,854518728062939,1888414991223739,BOT: message,It's one of the following choices.,2018-08-30 16:50:43
+1888414991223739,Paul,Walter,25597,854518728062939,1888414991223739,BOT: quick reply,":keycap_1: Physical, biological, and chemical
+:keycap_2: Physical, chemical, and psychosocial
+:keycap_3: Physical, psychological, and health
+:keycap_4: Physical, biological, and radiological
+",2018-08-30 16:50:43
+1888414991223739,Paul,Walter,25598,1888414991223739,854518728062939,"user_quick_reply: BUTTON_AKB_Physical, biological, and chemical",:keycap_1:,2018-08-30 16:50:53
+1888414991223739,Paul,Walter,25599,854518728062939,1888414991223739,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_happy_cyan.png,2018-08-30 16:50:54
+1888414991223739,Paul,Walter,25600,854518728062939,1888414991223739,BOT: message,Great job getting the correct answer!,2018-08-30 16:50:54
+1888414991223739,Paul,Walter,25601,854518728062939,1888414991223739,BOT: quick reply,"The correct answer is Physical, biological, and chemical.",2018-08-30 16:50:55
+1888414991223739,Paul,Walter,25602,1888414991223739,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-30 16:50:59
+1888414991223739,Paul,Walter,25603,854518728062939,1888414991223739,BOT: message,Would you answer this question for me?,2018-08-30 16:50:59
+1888414991223739,Paul,Walter,25604,854518728062939,1888414991223739,BOT: quick reply,"Just as different people can have very different personalities, so too can pets - even those of the same species and breed possess varied _____ .",2018-08-30 16:51:00
+1888414991223739,Paul,Walter,25605,1888414991223739,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-30 16:51:07
+1888414991223739,Paul,Walter,25606,854518728062939,1888414991223739,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-08-30 16:51:08
+1888414991223739,Paul,Walter,25607,854518728062939,1888414991223739,BOT: quick reply,":keycap_1: implementations
+:keycap_2: aptitudes
+:keycap_3: rationalizations
+:keycap_4: temperaments
+:keycap_5: initiations
+",2018-08-30 16:51:08
+1888414991223739,Paul,Walter,25608,1888414991223739,854518728062939,user_quick_reply: BUTTON_AKB_temperaments,:keycap_4:,2018-08-30 16:51:14
+1888414991223739,Paul,Walter,25609,854518728062939,1888414991223739,BOT: message,Great job getting the correct answer!,2018-08-30 16:51:15
+1888414991223739,Paul,Walter,25610,854518728062939,1888414991223739,BOT: quick reply,The correct answer is temperaments.,2018-08-30 16:51:15
+1888414991223739,Paul,Walter,25611,1888414991223739,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-30 16:51:20
+1888414991223739,Paul,Walter,25612,854518728062939,1888414991223739,BOT: message,Let's try this question.,2018-08-30 16:51:20
+1888414991223739,Paul,Walter,25613,854518728062939,1888414991223739,BOT: quick reply,What kind of viscosity is found in long-chain hydrocarbons?,2018-08-30 16:51:20
+1888414991223739,Paul,Walter,25614,1888414991223739,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-30 16:51:26
+1888414991223739,Paul,Walter,25615,854518728062939,1888414991223739,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-08-30 16:51:26
+1888414991223739,Paul,Walter,25616,854518728062939,1888414991223739,BOT: quick reply,":keycap_1: intense viscosity
+:keycap_2: increased viscosity
+:keycap_3: low viscosity
+:keycap_4: high viscosity
+",2018-08-30 16:51:27
+1888414991223739,Paul,Walter,25617,1888414991223739,854518728062939,user_typing,High,2018-08-30 16:52:00
+1888414991223739,Paul,Walter,25618,854518728062939,1888414991223739,BOT: message,That's not quite right. :disappointed_face:,2018-08-30 16:52:00
+1888414991223739,Paul,Walter,25619,854518728062939,1888414991223739,BOT: quick reply,The correct answer is high viscosity.,2018-08-30 16:52:01
+1888414991223739,Paul,Walter,25620,1888414991223739,854518728062939,user_typing,Viscosity,2018-08-30 16:52:04
+1888414991223739,Paul,Walter,25621,854518728062939,1888414991223739,BOT: quick reply,I'm not sure what this is. I'm still learning languages and you might be my teacher in the future!,2018-08-30 16:52:05
+1888414991223739,Paul,Walter,25622,1888414991223739,854518728062939,user_quick_reply: NEXT_QUESTION,Continue learning :flexed_biceps_medium-light_skin_tone:,2018-08-30 16:52:11
+1888414991223739,Paul,Walter,25623,854518728062939,1888414991223739,BOT: message,How about this next one:,2018-08-30 16:52:12
+1888414991223739,Paul,Walter,25624,854518728062939,1888414991223739,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-30 16:52:12
+1888414991223739,Paul,Walter,25625,854518728062939,1888414991223739,BOT: quick reply,"Despite the smile that spread from ear to ear, the eyes relayed a certain _____ .",2018-08-30 16:52:13
+1888414991223739,Paul,Walter,25626,1888414991223739,854518728062939,user_typing,Fear,2018-08-30 16:52:23
+1888414991223739,Paul,Walter,25627,854518728062939,1888414991223739,BOT: message,Good Answer! :white_heavy_check_mark:,2018-08-30 16:52:24
+1888414991223739,Paul,Walter,25628,854518728062939,1888414991223739,BOT: quick reply,The correct answer is sorrow.,2018-08-30 16:52:24
+1888414991223739,Paul,Walter,25629,1888414991223739,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-30 16:52:30
+1888414991223739,Paul,Walter,25630,854518728062939,1888414991223739,BOT: message,Would you answer this question for me?,2018-08-30 16:52:31
+1888414991223739,Paul,Walter,25631,854518728062939,1888414991223739,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-30 16:52:31
+1888414991223739,Paul,Walter,25632,854518728062939,1888414991223739,BOT: quick reply,Nerve cells that sense touch are found mainly where?,2018-08-30 16:52:32
+1888414991223739,Paul,Walter,25633,1888414991223739,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-30 16:52:44
+1888414991223739,Paul,Walter,25634,854518728062939,1888414991223739,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-08-30 16:52:44
+1888414991223739,Paul,Walter,25635,854518728062939,1888414991223739,BOT: quick reply,":keycap_1: stomach
+:keycap_2: brain
+:keycap_3: lungs
+:keycap_4: skin
+",2018-08-30 16:52:45
+1888414991223739,Paul,Walter,25636,1888414991223739,854518728062939,user_quick_reply: BUTTON_AKB_skin,:keycap_4:,2018-08-30 16:52:52
+1888414991223739,Paul,Walter,25637,854518728062939,1888414991223739,BOT: message,Great job getting the correct answer!,2018-08-30 16:52:52
+1888414991223739,Paul,Walter,25638,854518728062939,1888414991223739,BOT: quick reply,The correct answer is skin.,2018-08-30 16:52:53
+1888414991223739,Paul,Walter,25639,1888414991223739,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-30 16:52:58
+1888414991223739,Paul,Walter,25640,854518728062939,1888414991223739,BOT: message,Would you answer this question for me?,2018-08-30 16:52:59
+1888414991223739,Paul,Walter,25641,854518728062939,1888414991223739,BOT: quick reply,"True or false: you can always smell, see, or taste harmful bacteria in food that can cause illness.",2018-08-30 16:52:59
+1888414991223739,Paul,Walter,25642,1888414991223739,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-30 16:53:04
+1888414991223739,Paul,Walter,25643,854518728062939,1888414991223739,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-08-30 16:53:05
+1888414991223739,Paul,Walter,25644,854518728062939,1888414991223739,BOT: quick reply,":keycap_1: False
+:keycap_2: True
+",2018-08-30 16:53:05
+1888414991223739,Paul,Walter,25645,1888414991223739,854518728062939,user_typing,0,2018-08-30 16:53:15
+1888414991223739,Paul,Walter,25646,854518728062939,1888414991223739,BOT: message,"I'm sorry, but that was incorrect. :disappointed_face:",2018-08-30 16:53:15
+1888414991223739,Paul,Walter,25647,854518728062939,1888414991223739,BOT: quick reply,The correct answer is False.,2018-08-30 16:53:16
+1888414991223739,Paul,Walter,25648,1888414991223739,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-30 16:53:24
+1888414991223739,Paul,Walter,25649,854518728062939,1888414991223739,BOT: message,See if you can answer this next one.,2018-08-30 16:53:24
+1888414991223739,Paul,Walter,25650,854518728062939,1888414991223739,BOT: quick reply,"True or false: you can always smell, see, or taste harmful bacteria in food that can cause illness.",2018-08-30 16:53:25
+1888414991223739,Paul,Walter,25651,1888414991223739,854518728062939,user_typing,1 === 6,2018-08-30 16:53:37
+1888414991223739,Paul,Walter,25652,854518728062939,1888414991223739,BOT: message,"Oops, that answer was incorrect. :disappointed_face:",2018-08-30 16:53:37
+1888414991223739,Paul,Walter,25653,854518728062939,1888414991223739,BOT: quick reply,The correct answer is False.,2018-08-30 16:53:38
+1888414991223739,Paul,Walter,25654,1888414991223739,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-30 16:53:47
+1888414991223739,Paul,Walter,25655,854518728062939,1888414991223739,BOT: message,"Alrighty, let's try this one.",2018-08-30 16:53:47
+1888414991223739,Paul,Walter,25656,854518728062939,1888414991223739,BOT: quick reply,"Prior to taking on the new invader, the defending army had engaged in arduous combat; it is likely that the _____ resulting from waging two battles in two days played a part in its subsequent defeat.",2018-08-30 16:53:48
+1888414991223739,Paul,Walter,25657,1888414991223739,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-30 16:53:57
+1888414991223739,Paul,Walter,25658,854518728062939,1888414991223739,BOT: message,Pick one of the following answers.,2018-08-30 16:53:57
+1888414991223739,Paul,Walter,25659,854518728062939,1888414991223739,BOT: quick reply,":keycap_1: aggravation
+:keycap_2: bellicosity
+:keycap_3: pugnacity
+:keycap_4: enervation
+:keycap_5: pacification
+",2018-08-30 16:53:58
+1888414991223739,Paul,Walter,25660,1888414991223739,854518728062939,user_quick_reply: BUTTON_AKB_enervation,:keycap_4:,2018-08-30 16:54:04
+1888414991223739,Paul,Walter,25661,854518728062939,1888414991223739,BOT: message,Great! Keep it up! :flexed_biceps_medium-light_skin_tone:,2018-08-30 16:54:05
+1888414991223739,Paul,Walter,25662,854518728062939,1888414991223739,BOT: quick reply,The correct answer is enervation.,2018-08-30 16:54:05
+1888414991223739,Paul,Walter,25663,1888414991223739,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-30 16:54:10
+1888414991223739,Paul,Walter,25664,854518728062939,1888414991223739,BOT: message,See if you can answer this next one.,2018-08-30 16:54:11
+1888414991223739,Paul,Walter,25665,854518728062939,1888414991223739,BOT: quick reply,Nerve cells that sense touch are found mainly where?,2018-08-30 16:54:11
+1888414991223739,Paul,Walter,25666,1888414991223739,854518728062939,user_typing,Skein,2018-08-30 16:54:19
+1888414991223739,Paul,Walter,25667,854518728062939,1888414991223739,BOT: message,That wasn't quite what we were looking for. :disappointed_face:,2018-08-30 16:54:20
+1888414991223739,Paul,Walter,25668,854518728062939,1888414991223739,BOT: quick reply,The correct answer is skin.,2018-08-30 16:54:21
+1888414991223739,Paul,Walter,25669,1888414991223739,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-30 16:54:27
+1888414991223739,Paul,Walter,25670,854518728062939,1888414991223739,BOT: message,Let's try this one.,2018-08-30 16:54:27
+1888414991223739,Paul,Walter,25671,854518728062939,1888414991223739,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-30 16:54:28
+1888414991223739,Paul,Walter,25672,854518728062939,1888414991223739,BOT: quick reply,What should you NOT do while treating cuts and scrapes?,2018-08-30 16:54:28
+1888414991223739,Paul,Walter,25673,1888414991223739,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-30 16:54:37
+1888414991223739,Paul,Walter,25674,854518728062939,1888414991223739,BOT: message,Okay. I'll give you some choices.,2018-08-30 16:54:38
+1888414991223739,Paul,Walter,25675,854518728062939,1888414991223739,BOT: quick reply,":keycap_1: Apply an antibiotic to the wound
+:keycap_2: Apply pressure on the wound with a clean cloth or bandage
+:keycap_3: Cover the wound
+:keycap_4: Wash the wound with soap
+",2018-08-30 16:54:38
+1888414991223739,Paul,Walter,25676,1888414991223739,854518728062939,user_typing,Amputate a limb,2018-08-30 16:54:53
+1888414991223739,Paul,Walter,25677,854518728062939,1888414991223739,BOT: message,"I'm sorry, but that was incorrect. :disappointed_face:",2018-08-30 16:54:54
+1888414991223739,Paul,Walter,25678,854518728062939,1888414991223739,BOT: quick reply,The correct answer is Wash the wound with soap.,2018-08-30 16:54:54
+1888414991223739,Paul,Walter,25679,1888414991223739,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-30 16:55:02
+1888414991223739,Paul,Walter,25680,854518728062939,1888414991223739,BOT: message,Let's see if you would answer this one.,2018-08-30 16:55:03
+1888414991223739,Paul,Walter,25681,854518728062939,1888414991223739,BOT: quick reply,"What arises due to crossing over, independent assortment, and the random union of gametes?",2018-08-30 16:55:04
+1888414991223739,Paul,Walter,25682,1888414991223739,854518728062939,user_typing,Genetic variation,2018-08-30 16:55:19
+1888414991223739,Paul,Walter,25683,854518728062939,1888414991223739,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_happy_purple.png,2018-08-30 16:55:20
+1888414991223739,Paul,Walter,25684,854518728062939,1888414991223739,BOT: message,Fantastic! :hundred_points:,2018-08-30 16:55:21
+1888414991223739,Paul,Walter,25685,854518728062939,1888414991223739,BOT: quick reply,The correct answer is genetic variation.,2018-08-30 16:55:21
+1888414991223739,Paul,Walter,25686,1888414991223739,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-30 16:55:29
+1888414991223739,Paul,Walter,25687,854518728062939,1888414991223739,BOT: message,Would you answer this question for me?,2018-08-30 16:55:30
+1888414991223739,Paul,Walter,25688,854518728062939,1888414991223739,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-30 16:55:30
+1888414991223739,Paul,Walter,25689,854518728062939,1888414991223739,BOT: quick reply,The lithosphere is divided into a dozen major and several minor what?,2018-08-30 16:55:31
+1888414991223739,Paul,Walter,25690,1888414991223739,854518728062939,user_typing,Plates filler filler filler filler filler filler filler,2018-08-30 16:55:48
+1888414991223739,Paul,Walter,25691,854518728062939,1888414991223739,BOT: message,"I'm sorry, but that was incorrect. :disappointed_face:",2018-08-30 16:55:49
+1888414991223739,Paul,Walter,25692,854518728062939,1888414991223739,BOT: quick reply,The correct answer is plates.,2018-08-30 16:55:49
+1888414991223739,Paul,Walter,25693,1888414991223739,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-30 16:55:58
+1888414991223739,Paul,Walter,25694,854518728062939,1888414991223739,BOT: message,Would you answer this question for me?,2018-08-30 16:55:58
+1888414991223739,Paul,Walter,25695,854518728062939,1888414991223739,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-30 16:55:59
+1888414991223739,Paul,Walter,25696,854518728062939,1888414991223739,BOT: quick reply,"Dolly Madison, the wife of President James Madison, was known especially for her _____ , remaining calm even as the British invaded Washington D.C. during the War of 1812.",2018-08-30 16:55:59
+1888414991223739,Paul,Walter,25697,1888414991223739,854518728062939,user_typing,Equanimity filler,2018-08-30 16:56:11
+1888414991223739,Paul,Walter,25698,854518728062939,1888414991223739,BOT: message,"I'm sorry, but that was incorrect. :disappointed_face:",2018-08-30 16:56:12
+1888414991223739,Paul,Walter,25699,854518728062939,1888414991223739,BOT: quick reply,The correct answer is equanimity.,2018-08-30 16:56:12
+1888414991223739,Paul,Walter,25700,1888414991223739,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-30 16:56:20
+1888414991223739,Paul,Walter,25701,854518728062939,1888414991223739,BOT: message,Let's see if you can get this one.,2018-08-30 16:56:21
+1888414991223739,Paul,Walter,25702,854518728062939,1888414991223739,BOT: quick reply,"True or false: you can always smell, see, or taste harmful bacteria in food that can cause illness.",2018-08-30 16:56:21
+1888414991223739,Paul,Walter,25703,1888414991223739,854518728062939,user_typing,False true,2018-08-30 16:56:32
+1888414991223739,Paul,Walter,25704,854518728062939,1888414991223739,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_normal.png,2018-08-30 16:56:33
+1888414991223739,Paul,Walter,25705,854518728062939,1888414991223739,BOT: message,Good Answer! :white_heavy_check_mark:,2018-08-30 16:56:34
+1888414991223739,Paul,Walter,25706,854518728062939,1888414991223739,BOT: quick reply,The correct answer is False.,2018-08-30 16:56:34
+1888414991223739,Paul,Walter,25707,1888414991223739,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-30 16:56:44
+1888414991223739,Paul,Walter,25708,854518728062939,1888414991223739,BOT: message,Would you answer this question for me?,2018-08-30 16:56:45
+1888414991223739,Paul,Walter,25709,854518728062939,1888414991223739,BOT: quick reply,"In psychological literature, the ""sleeper effect"" refers to the phenomenon in which a persuasive message from a trustworthy source loses _____ over time, while the efficacy of a message from a less credible source simultaneously increases.",2018-08-30 16:56:45
+1888414991223739,Paul,Walter,25710,1888414991223739,854518728062939,user_typing,Cogency      fill,2018-08-30 16:56:58
+1888414991223739,Paul,Walter,25711,854518728062939,1888414991223739,BOT: message,Correct! :confetti_ball:,2018-08-30 16:56:58
+1888414991223739,Paul,Walter,25712,854518728062939,1888414991223739,BOT: quick reply,The correct answer is cogency.,2018-08-30 16:56:59
+1888414991223739,Paul,Walter,25713,1888414991223739,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-30 16:57:06
+1888414991223739,Paul,Walter,25714,854518728062939,1888414991223739,BOT: message,Let's try this one.,2018-08-30 16:57:06
+1888414991223739,Paul,Walter,25715,854518728062939,1888414991223739,BOT: quick reply,Seth was extremely _____ and did not enjoy activities that required effort to meet new people.,2018-08-30 16:57:07
+1888414991223739,Paul,Walter,25716,1888414991223739,854518728062939,user_typing,Introverted     filler,2018-08-30 16:57:19
+1888414991223739,Paul,Walter,25717,854518728062939,1888414991223739,BOT: message,That's not quite right. :disappointed_face:,2018-08-30 16:57:20
+1888414991223739,Paul,Walter,25718,854518728062939,1888414991223739,BOT: quick reply,The correct answer is introverted.,2018-08-30 16:57:20
+1888414991223739,Paul,Walter,25719,1888414991223739,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-30 16:57:33
+1888414991223739,Paul,Walter,25720,854518728062939,1888414991223739,BOT: message,Let's try this question.,2018-08-30 16:57:34
+1888414991223739,Paul,Walter,25721,854518728062939,1888414991223739,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-30 16:57:34
+1888414991223739,Paul,Walter,25722,854518728062939,1888414991223739,BOT: quick reply,"With a similar contrast between a partly cloudy sky and a dark street, the cover of the recent rock CD _____ a famous surrealist painting from the early 1900s.",2018-08-30 16:57:35
+1888414991223739,Paul,Walter,26201,854518728062939,1888414991223739,BOT: quick reply,"Hi Paul, you haven't talked to me for a while. Would you like to resume the learning with me?",2018-08-30 20:00:39

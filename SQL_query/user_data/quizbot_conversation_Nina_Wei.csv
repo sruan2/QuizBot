@@ -1,0 +1,618 @@
+user_id,user_firstname,user_lastname,uid,sender,recipient,type,dialogue,time_stamp
+1906288616132313,Nina,Wei,23022,1906288616132313,854518728062939,persistent_menu: GET_INTRO_1,Get Started,2018-08-29 13:14:55
+1906288616132313,Nina,Wei,23023,854518728062939,1906288616132313,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/quizbot_avatar.png,2018-08-29 13:14:58
+1906288616132313,Nina,Wei,23024,854518728062939,1906288616132313,BOT: quick reply,"Hi Nina! My name is Frosty :penguin: and Im here to help you learn all about science:microscope:, verbal reasoning (GRE) :input_latin_uppercase:, and safety:hammer_and_wrench:!",2018-08-29 13:14:59
+1906288616132313,Nina,Wei,23025,1906288616132313,854518728062939,persistent_menu: GRE,GRE :input_latin_uppercase:,2018-08-29 13:15:09
+1906288616132313,Nina,Wei,23026,854518728062939,1906288616132313,BOT: quick reply,Let's answer some questions about the GRE!,2018-08-29 13:15:09
+1906288616132313,Nina,Wei,23027,1906288616132313,854518728062939,user_quick_reply: NEXT_QUESTION,"Yes, continue :thumbs_up_medium-light_skin_tone:",2018-08-29 13:15:12
+1906288616132313,Nina,Wei,23028,854518728062939,1906288616132313,BOT: message,Let's try this one.,2018-08-29 13:15:13
+1906288616132313,Nina,Wei,23029,854518728062939,1906288616132313,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-29 13:15:13
+1906288616132313,Nina,Wei,23030,854518728062939,1906288616132313,BOT: quick reply,While she may have answered him truthfully - in the strictest sense of the word - it became clear to Sergei after the incident that Sheryl had actually been trying to _____ .,2018-08-29 13:15:14
+1906288616132313,Nina,Wei,23031,1906288616132313,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-29 13:15:20
+1906288616132313,Nina,Wei,23032,854518728062939,1906288616132313,BOT: message,It's one of the following choices.,2018-08-29 13:15:20
+1906288616132313,Nina,Wei,23033,854518728062939,1906288616132313,BOT: quick reply,":keycap_1: covet
+:keycap_2: illuminate
+:keycap_3: vituperate
+:keycap_4: obfuscate
+:keycap_5: desiccate
+",2018-08-29 13:15:21
+1906288616132313,Nina,Wei,23301,854518728062939,1906288616132313,BOT: quick reply,"Hi Nina, you haven't talked to me for a while. Would you like to resume the learning with me?",2018-08-29 20:00:24
+1906288616132313,Nina,Wei,23474,1906288616132313,854518728062939,user_quick_reply: NEXT_QUESTION,Okay :oncoming_fist_medium-light_skin_tone:,2018-08-29 21:37:44
+1906288616132313,Nina,Wei,23475,854518728062939,1906288616132313,BOT: message,Let's see if you can answer this question.,2018-08-29 21:37:45
+1906288616132313,Nina,Wei,23476,854518728062939,1906288616132313,BOT: quick reply,"Dolly Madison, the wife of President James Madison, was known especially for her _____ , remaining calm even as the British invaded Washington D.C. during the War of 1812.",2018-08-29 21:37:45
+1906288616132313,Nina,Wei,23477,1906288616132313,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-29 21:38:01
+1906288616132313,Nina,Wei,23478,854518728062939,1906288616132313,BOT: message,Pick one of the following answers.,2018-08-29 21:38:02
+1906288616132313,Nina,Wei,23479,854518728062939,1906288616132313,BOT: quick reply,":keycap_1: malevolence
+:keycap_2: equanimity
+:keycap_3: zeal
+:keycap_4: cynicism
+:keycap_5: impracticality
+",2018-08-29 21:38:02
+1906288616132313,Nina,Wei,23480,1906288616132313,854518728062939,user_quick_reply: BUTTON_DKB_malevolence,:keycap_1:,2018-08-29 21:38:09
+1906288616132313,Nina,Wei,23481,854518728062939,1906288616132313,BOT: message,"I'm sorry, but that was incorrect. :disappointed_face:",2018-08-29 21:38:09
+1906288616132313,Nina,Wei,23482,854518728062939,1906288616132313,BOT: quick reply,The correct answer is equanimity.,2018-08-29 21:38:10
+1906288616132313,Nina,Wei,23483,1906288616132313,854518728062939,user_quick_reply: WHY,Why?,2018-08-29 21:38:15
+1906288616132313,Nina,Wei,23484,854518728062939,1906288616132313,BOT: message,This is why:,2018-08-29 21:38:15
+1906288616132313,Nina,Wei,23485,854518728062939,1906288616132313,BOT: quick reply,":pushpin: Equanimity -- steadiness of mind under stress
+:pushpin: Impracticality -- concerned with theoretical possibilities rather than actual use
+:pushpin: Cynicism -- a cynical feeling of distrust
+:pushpin: Zeal -- a feeling of strong eagerness usually in favor of a person or cause
+:pushpin: Malevolence -- wishing evil to others",2018-08-29 21:38:16
+1906288616132313,Nina,Wei,23486,1906288616132313,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-29 21:39:42
+1906288616132313,Nina,Wei,23487,854518728062939,1906288616132313,BOT: message,Let's take a look at this question.,2018-08-29 21:39:43
+1906288616132313,Nina,Wei,23488,854518728062939,1906288616132313,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-29 21:39:43
+1906288616132313,Nina,Wei,23489,854518728062939,1906288616132313,BOT: quick reply,"Just as different people can have very different personalities, so too can pets - even those of the same species and breed possess varied _____ .",2018-08-29 21:39:44
+1906288616132313,Nina,Wei,23490,1906288616132313,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-29 21:39:55
+1906288616132313,Nina,Wei,23491,854518728062939,1906288616132313,BOT: message,Okay. I'll give you some choices.,2018-08-29 21:39:56
+1906288616132313,Nina,Wei,23492,854518728062939,1906288616132313,BOT: quick reply,":keycap_1: implementations
+:keycap_2: aptitudes
+:keycap_3: rationalizations
+:keycap_4: initiations
+:keycap_5: temperaments
+",2018-08-29 21:39:56
+1906288616132313,Nina,Wei,23493,1906288616132313,854518728062939,user_quick_reply: BUTTON_DKB_aptitudes,:keycap_2:,2018-08-29 21:40:04
+1906288616132313,Nina,Wei,23494,854518728062939,1906288616132313,BOT: message,"I'm sorry, but that was incorrect. :disappointed_face:",2018-08-29 21:40:05
+1906288616132313,Nina,Wei,23495,854518728062939,1906288616132313,BOT: quick reply,The correct answer is temperaments.,2018-08-29 21:40:05
+1906288616132313,Nina,Wei,23496,1906288616132313,854518728062939,user_quick_reply: WHY,Why?,2018-08-29 21:40:10
+1906288616132313,Nina,Wei,23497,854518728062939,1906288616132313,BOT: message,Here's why:,2018-08-29 21:40:11
+1906288616132313,Nina,Wei,23498,854518728062939,1906288616132313,BOT: quick reply,":pushpin: Temperaments -- the combination of mental, physical, and emotional traits
+:pushpin: Initiations -- a formal entry into an organization or position or office
+:pushpin: Implementations -- the act of accomplishing some aim or executing some order
+:pushpin: Aptitudes -- inherent ability
+:pushpin: Rationalizations -- the cognitive process of making something seem consistent with or based on reason",2018-08-29 21:40:11
+1906288616132313,Nina,Wei,23501,1906288616132313,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-29 21:40:51
+1906288616132313,Nina,Wei,23502,854518728062939,1906288616132313,BOT: message,How about this next one:,2018-08-29 21:40:52
+1906288616132313,Nina,Wei,23503,854518728062939,1906288616132313,BOT: quick reply,"Possessing few natural resources upon its newly-granted independence in 1863, Singapore remained economically _____ until an influx of industrialization and foreign investment took hold there.",2018-08-29 21:40:52
+1906288616132313,Nina,Wei,23507,1906288616132313,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-29 21:41:01
+1906288616132313,Nina,Wei,23508,854518728062939,1906288616132313,BOT: message,Okay. I'll give you some choices.,2018-08-29 21:41:02
+1906288616132313,Nina,Wei,23509,854518728062939,1906288616132313,BOT: quick reply,":keycap_1: dubious
+:keycap_2: fortuitous
+:keycap_3: powerful
+:keycap_4: solvent
+:keycap_5: prosperous
+",2018-08-29 21:41:02
+1906288616132313,Nina,Wei,23513,1906288616132313,854518728062939,user_quick_reply: BUTTON_DKB_prosperous,:keycap_5:,2018-08-29 21:41:10
+1906288616132313,Nina,Wei,23515,854518728062939,1906288616132313,BOT: message,"Hmm, that wasn't quite right. :disappointed_face:",2018-08-29 21:41:11
+1906288616132313,Nina,Wei,23516,854518728062939,1906288616132313,BOT: quick reply,The correct answer is dubious.,2018-08-29 21:41:11
+1906288616132313,Nina,Wei,23520,1906288616132313,854518728062939,user_quick_reply: WHY,Why?,2018-08-29 21:41:15
+1906288616132313,Nina,Wei,23521,854518728062939,1906288616132313,BOT: message,This is an explanation of the question:,2018-08-29 21:41:16
+1906288616132313,Nina,Wei,23522,854518728062939,1906288616132313,BOT: quick reply,":pushpin: Dubious -- fraught with uncertainty or doubt
+:pushpin: Powerful -- having great power or force or potency or effect
+:pushpin: Prosperous -- in fortunate circumstances financially; moderately rich
+:pushpin: Solvent -- capable of meeting financial obligations
+:pushpin: Fortuitous -- having no cause or apparent cause",2018-08-29 21:41:16
+1906288616132313,Nina,Wei,23532,1906288616132313,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-29 21:42:00
+1906288616132313,Nina,Wei,23533,854518728062939,1906288616132313,BOT: message,How about this next one:,2018-08-29 21:42:01
+1906288616132313,Nina,Wei,23534,854518728062939,1906288616132313,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-29 21:42:02
+1906288616132313,Nina,Wei,23535,854518728062939,1906288616132313,BOT: quick reply,"Dolly Madison, the wife of President James Madison, was known especially for her _____ , remaining calm even as the British invaded Washington D.C. during the War of 1812.",2018-08-29 21:42:03
+1906288616132313,Nina,Wei,23536,1906288616132313,854518728062939,user_typing,Equanimity,2018-08-29 21:42:16
+1906288616132313,Nina,Wei,23537,854518728062939,1906288616132313,BOT: message,Good Answer! :white_heavy_check_mark:,2018-08-29 21:42:16
+1906288616132313,Nina,Wei,23538,854518728062939,1906288616132313,BOT: quick reply,The correct answer is equanimity.,2018-08-29 21:42:17
+1906288616132313,Nina,Wei,23539,1906288616132313,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-29 21:42:21
+1906288616132313,Nina,Wei,23540,854518728062939,1906288616132313,BOT: message,What about this next question:,2018-08-29 21:42:21
+1906288616132313,Nina,Wei,23541,854518728062939,1906288616132313,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-29 21:42:22
+1906288616132313,Nina,Wei,23542,854518728062939,1906288616132313,BOT: quick reply,"Just as different people can have very different personalities, so too can pets - even those of the same species and breed possess varied _____ .",2018-08-29 21:42:22
+1906288616132313,Nina,Wei,23543,1906288616132313,854518728062939,user_typing,Temperaments,2018-08-29 21:42:36
+1906288616132313,Nina,Wei,23544,854518728062939,1906288616132313,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_happy_purple.png,2018-08-29 21:42:38
+1906288616132313,Nina,Wei,23545,854518728062939,1906288616132313,BOT: message,Thats right! :party_popper:,2018-08-29 21:42:39
+1906288616132313,Nina,Wei,23546,854518728062939,1906288616132313,BOT: quick reply,The correct answer is temperaments.,2018-08-29 21:42:39
+1906288616132313,Nina,Wei,23547,1906288616132313,854518728062939,user_quick_reply: WHY,Why?,2018-08-29 21:42:43
+1906288616132313,Nina,Wei,23548,854518728062939,1906288616132313,BOT: message,Here's why:,2018-08-29 21:42:43
+1906288616132313,Nina,Wei,23549,854518728062939,1906288616132313,BOT: quick reply,":pushpin: Temperaments -- the combination of mental, physical, and emotional traits",2018-08-29 21:42:44
+1906288616132313,Nina,Wei,23550,1906288616132313,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-29 21:42:48
+1906288616132313,Nina,Wei,23551,854518728062939,1906288616132313,BOT: message,Would you answer this question for me?,2018-08-29 21:42:49
+1906288616132313,Nina,Wei,23552,854518728062939,1906288616132313,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-29 21:42:49
+1906288616132313,Nina,Wei,23553,854518728062939,1906288616132313,BOT: quick reply,"With a similar contrast between a partly cloudy sky and a dark street, the cover of the recent rock CD _____ a famous surrealist painting from the early 1900s.",2018-08-29 21:42:50
+1906288616132313,Nina,Wei,23554,1906288616132313,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-29 21:42:59
+1906288616132313,Nina,Wei,23555,854518728062939,1906288616132313,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-08-29 21:43:00
+1906288616132313,Nina,Wei,23556,854518728062939,1906288616132313,BOT: quick reply,":keycap_1: sanctions
+:keycap_2: admires
+:keycap_3: obfuscates
+:keycap_4: disenchants
+:keycap_5: evokes
+",2018-08-29 21:43:00
+1906288616132313,Nina,Wei,23557,1906288616132313,854518728062939,user_quick_reply: BUTTON_DKB_admires,:keycap_2:,2018-08-29 21:43:05
+1906288616132313,Nina,Wei,23558,854518728062939,1906288616132313,BOT: message,"Hmm, that wasn't quite right. :disappointed_face:",2018-08-29 21:43:05
+1906288616132313,Nina,Wei,23559,854518728062939,1906288616132313,BOT: quick reply,The correct answer is evokes.,2018-08-29 21:43:06
+1906288616132313,Nina,Wei,23560,1906288616132313,854518728062939,user_quick_reply: WHY,Why?,2018-08-29 21:43:10
+1906288616132313,Nina,Wei,23561,854518728062939,1906288616132313,BOT: message,This is why:,2018-08-29 21:43:11
+1906288616132313,Nina,Wei,23562,854518728062939,1906288616132313,BOT: quick reply,":pushpin: Evokes -- call forth emotions, feelings, and responses
+:pushpin: Admires -- feel admiration for
+:pushpin: Obfuscates -- make obscure or unclear
+:pushpin: Disenchants -- free from enchantment
+:pushpin: Sanctions -- give sanction to",2018-08-29 21:43:12
+1906288616132313,Nina,Wei,23563,1906288616132313,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-29 21:43:58
+1906288616132313,Nina,Wei,23564,854518728062939,1906288616132313,BOT: message,Could you answer this one for me?,2018-08-29 21:43:59
+1906288616132313,Nina,Wei,23565,854518728062939,1906288616132313,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-29 21:43:59
+1906288616132313,Nina,Wei,23566,854518728062939,1906288616132313,BOT: quick reply,"Having squandered his life's savings on unprofitable business ventures, the _____ entrepreneur was forced to live in squalor.",2018-08-29 21:44:00
+1906288616132313,Nina,Wei,23574,1906288616132313,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-29 21:44:08
+1906288616132313,Nina,Wei,23575,854518728062939,1906288616132313,BOT: message,Which of the following options is the right answer?,2018-08-29 21:44:08
+1906288616132313,Nina,Wei,23576,854518728062939,1906288616132313,BOT: quick reply,":keycap_1: eccentric
+:keycap_2: insolvent
+:keycap_3: perturbed
+:keycap_4: former
+:keycap_5: unlikely
+",2018-08-29 21:44:09
+1906288616132313,Nina,Wei,23581,1906288616132313,854518728062939,user_quick_reply: BUTTON_AKB_insolvent,:keycap_2:,2018-08-29 21:44:20
+1906288616132313,Nina,Wei,23582,854518728062939,1906288616132313,BOT: message,Great job!,2018-08-29 21:44:20
+1906288616132313,Nina,Wei,23583,854518728062939,1906288616132313,BOT: quick reply,The correct answer is insolvent.,2018-08-29 21:44:21
+1906288616132313,Nina,Wei,23587,1906288616132313,854518728062939,user_quick_reply: WHY,Why?,2018-08-29 21:44:25
+1906288616132313,Nina,Wei,23588,854518728062939,1906288616132313,BOT: message,I hope this explanation could help you understand the the question.,2018-08-29 21:44:25
+1906288616132313,Nina,Wei,23589,854518728062939,1906288616132313,BOT: quick reply,":pushpin: Insolvent -- unable to meet or discharge financial obligations
+:pushpin: Former -- preceding in time; prior or earlier
+:pushpin: Unlikely -- not likely to be true or to occur or to have occurred
+:pushpin: Perturbed -- thrown into a state of agitated confusion
+:pushpin: Eccentric -- conspicuously or grossly unconventional or unusual",2018-08-29 21:44:26
+1906288616132313,Nina,Wei,23593,1906288616132313,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-29 21:44:44
+1906288616132313,Nina,Wei,23594,854518728062939,1906288616132313,BOT: message,Let's try this one.,2018-08-29 21:44:44
+1906288616132313,Nina,Wei,23595,854518728062939,1906288616132313,BOT: quick reply,"Even though legislators claimed the Contagious Diseases Acts strengthened the nation, social purists argued the Acts _____ the nation's moral growth by encouraging licentious behavior.",2018-08-29 21:44:45
+1906288616132313,Nina,Wei,23596,1906288616132313,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-29 21:44:55
+1906288616132313,Nina,Wei,23597,854518728062939,1906288616132313,BOT: message,Pick one of the following answers.,2018-08-29 21:44:55
+1906288616132313,Nina,Wei,23598,854518728062939,1906288616132313,BOT: quick reply,":keycap_1: ameliorated
+:keycap_2: enhanced
+:keycap_3: hampered
+:keycap_4: advanced
+:keycap_5: supplanted
+",2018-08-29 21:44:56
+1906288616132313,Nina,Wei,23599,1906288616132313,854518728062939,user_quick_reply: BUTTON_DKB_ameliorated,:keycap_1:,2018-08-29 21:45:49
+1906288616132313,Nina,Wei,23600,854518728062939,1906288616132313,BOT: message,"I'm sorry, but that was incorrect. :disappointed_face:",2018-08-29 21:45:50
+1906288616132313,Nina,Wei,23601,854518728062939,1906288616132313,BOT: quick reply,The correct answer is hampered.,2018-08-29 21:45:50
+1906288616132313,Nina,Wei,23602,1906288616132313,854518728062939,user_quick_reply: WHY,Why?,2018-08-29 21:45:54
+1906288616132313,Nina,Wei,23603,854518728062939,1906288616132313,BOT: message,This is why:,2018-08-29 21:45:56
+1906288616132313,Nina,Wei,23604,854518728062939,1906288616132313,BOT: quick reply,":pushpin: Hampered -- prevent the progress or free movement of
+:pushpin: Advanced -- move or bring forward
+:pushpin: Ameliorated -- to make better
+:pushpin: Supplanted -- take the place or move into the position of
+:pushpin: Enhanced -- increased or intensified in value or beauty or quality",2018-08-29 21:45:57
+1906288616132313,Nina,Wei,23605,1906288616132313,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-29 21:46:16
+1906288616132313,Nina,Wei,23606,854518728062939,1906288616132313,BOT: message,Let's see if you can answer this question.,2018-08-29 21:46:17
+1906288616132313,Nina,Wei,23607,854518728062939,1906288616132313,BOT: quick reply,While she may have answered him truthfully - in the strictest sense of the word - it became clear to Sergei after the incident that Sheryl had actually been trying to _____ .,2018-08-29 21:46:17
+1906288616132313,Nina,Wei,23608,1906288616132313,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-29 21:46:30
+1906288616132313,Nina,Wei,23609,854518728062939,1906288616132313,BOT: message,Pick one of the following answers.,2018-08-29 21:46:30
+1906288616132313,Nina,Wei,23610,854518728062939,1906288616132313,BOT: quick reply,":keycap_1: desiccate
+:keycap_2: illuminate
+:keycap_3: vituperate
+:keycap_4: obfuscate
+:keycap_5: covet
+",2018-08-29 21:46:31
+1906288616132313,Nina,Wei,23611,1906288616132313,854518728062939,user_quick_reply: BUTTON_DKB_covet,:keycap_5:,2018-08-29 21:46:37
+1906288616132313,Nina,Wei,23612,854518728062939,1906288616132313,BOT: message,"I'm sorry, but that was incorrect. :disappointed_face:",2018-08-29 21:46:37
+1906288616132313,Nina,Wei,23613,854518728062939,1906288616132313,BOT: quick reply,The correct answer is obfuscate.,2018-08-29 21:46:38
+1906288616132313,Nina,Wei,23614,1906288616132313,854518728062939,user_quick_reply: WHY,Why?,2018-08-29 21:46:42
+1906288616132313,Nina,Wei,23615,854518728062939,1906288616132313,BOT: message,Here's an explanation:,2018-08-29 21:46:43
+1906288616132313,Nina,Wei,23616,854518728062939,1906288616132313,BOT: quick reply,":pushpin: Obfuscate -- make obscure or unclear
+:pushpin: Vituperate -- spread negative information about
+:pushpin: Illuminate -- make lighter or brighter
+:pushpin: Covet -- wish, long, or crave for something, especially the property of another person
+:pushpin: Desiccate -- to dry thoroughly; dry up",2018-08-29 21:46:43
+1906288616132313,Nina,Wei,23617,1906288616132313,854518728062939,user_quick_reply: SWITCH_SUBJECT,Change subject :shuffle_tracks_button:,2018-08-29 21:46:53
+1906288616132313,Nina,Wei,23618,854518728062939,1906288616132313,BOT: quick reply,"Sure, which of the following subjects would you like me to quiz you on?:backhand_index_pointing_down_medium-light_skin_tone:",2018-08-29 21:46:53
+1906288616132313,Nina,Wei,23619,1906288616132313,854518728062939,user_quick_reply: SAFETY,Safety:hammer_and_wrench:,2018-08-29 21:46:59
+1906288616132313,Nina,Wei,23620,854518728062939,1906288616132313,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/evolvereading_safety.gif,2018-08-29 21:47:03
+1906288616132313,Nina,Wei,23621,854518728062939,1906288616132313,BOT: quick reply,Good choice! Let's see what you know about safety!,2018-08-29 21:47:03
+1906288616132313,Nina,Wei,23622,1906288616132313,854518728062939,user_quick_reply: NEXT_QUESTION,I see :flexed_biceps_medium-light_skin_tone:,2018-08-29 21:47:12
+1906288616132313,Nina,Wei,23623,854518728062939,1906288616132313,BOT: message,Let's try this question.,2018-08-29 21:47:12
+1906288616132313,Nina,Wei,23624,854518728062939,1906288616132313,BOT: quick reply,What should you NOT do when lowering a load?,2018-08-29 21:47:13
+1906288616132313,Nina,Wei,23625,1906288616132313,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-29 21:47:20
+1906288616132313,Nina,Wei,23626,854518728062939,1906288616132313,BOT: message,Which of the following options is the right answer?,2018-08-29 21:47:21
+1906288616132313,Nina,Wei,23627,854518728062939,1906288616132313,BOT: quick reply,":keycap_1: Twist your body, keep the load close, and bend your knees
+:keycap_2: Twist your body
+:keycap_3: Bend your knees
+:keycap_4: Keep the load close to your body
+",2018-08-29 21:47:21
+1906288616132313,Nina,Wei,23628,1906288616132313,854518728062939,"user_quick_reply: BUTTON_DKB_Twist your body, keep the load close, and bend your knees",:keycap_1:,2018-08-29 21:47:36
+1906288616132313,Nina,Wei,23629,854518728062939,1906288616132313,BOT: message,"Oops, that wasn't quite correct. :disappointed_face:",2018-08-29 21:47:37
+1906288616132313,Nina,Wei,23630,854518728062939,1906288616132313,BOT: quick reply,The correct answer is Twist your body.,2018-08-29 21:47:37
+1906288616132313,Nina,Wei,23631,1906288616132313,854518728062939,user_quick_reply: WHY,Why?,2018-08-29 21:47:42
+1906288616132313,Nina,Wei,23632,854518728062939,1906288616132313,BOT: message,Here's why:,2018-08-29 21:47:43
+1906288616132313,Nina,Wei,23633,854518728062939,1906288616132313,BOT: quick reply,"To lower a load, you should make use of its edge, bend your knees, keep the load close to their body, and avoid twisting your torso.",2018-08-29 21:47:43
+1906288616132313,Nina,Wei,23634,1906288616132313,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-29 21:50:35
+1906288616132313,Nina,Wei,23635,854518728062939,1906288616132313,BOT: message,Let's see if you can answer this question.,2018-08-29 21:50:36
+1906288616132313,Nina,Wei,23636,854518728062939,1906288616132313,BOT: quick reply,What three major factors cause food contamination?,2018-08-29 21:50:37
+1906288616132313,Nina,Wei,23637,1906288616132313,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-29 21:50:43
+1906288616132313,Nina,Wei,23638,854518728062939,1906288616132313,BOT: message,Okay. I'll give you some choices.,2018-08-29 21:50:44
+1906288616132313,Nina,Wei,23639,854518728062939,1906288616132313,BOT: quick reply,":keycap_1: Physical, biological, and chemical
+:keycap_2: Physical, chemical, and psychosocial
+:keycap_3: Physical, biological, and radiological
+:keycap_4: Physical, psychological, and health
+",2018-08-29 21:50:45
+1906288616132313,Nina,Wei,23640,1906288616132313,854518728062939,"user_quick_reply: BUTTON_AKB_Physical, biological, and chemical",:keycap_1:,2018-08-29 21:50:53
+1906288616132313,Nina,Wei,23641,854518728062939,1906288616132313,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_happy_orange.png,2018-08-29 21:50:55
+1906288616132313,Nina,Wei,23642,854518728062939,1906288616132313,BOT: message,Great! Keep it up! :flexed_biceps_medium-light_skin_tone:,2018-08-29 21:50:55
+1906288616132313,Nina,Wei,23643,854518728062939,1906288616132313,BOT: quick reply,"The correct answer is Physical, biological, and chemical.",2018-08-29 21:50:56
+1906288616132313,Nina,Wei,23644,1906288616132313,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-29 21:51:01
+1906288616132313,Nina,Wei,23645,854518728062939,1906288616132313,BOT: message,What about this next question:,2018-08-29 21:51:01
+1906288616132313,Nina,Wei,23646,854518728062939,1906288616132313,BOT: quick reply,True or false: portable fire extinguishers should only be used by trained employees.,2018-08-29 21:51:02
+1906288616132313,Nina,Wei,23647,1906288616132313,854518728062939,user_typing,False,2018-08-29 21:51:13
+1906288616132313,Nina,Wei,23648,854518728062939,1906288616132313,BOT: message,"I'm sorry, but that was incorrect. :disappointed_face:",2018-08-29 21:51:14
+1906288616132313,Nina,Wei,23649,854518728062939,1906288616132313,BOT: quick reply,The correct answer is True.,2018-08-29 21:51:14
+1906288616132313,Nina,Wei,23650,1906288616132313,854518728062939,user_quick_reply: WHY,Why?,2018-08-29 21:51:19
+1906288616132313,Nina,Wei,23651,854518728062939,1906288616132313,BOT: message,Here's why:,2018-08-29 21:51:19
+1906288616132313,Nina,Wei,23652,854518728062939,1906288616132313,BOT: quick reply,"Employers can choose to authorize some or all employees to use portable extinguishers. In both cases, employers should provide employees sufficient training to do so.",2018-08-29 21:51:20
+1906288616132313,Nina,Wei,23653,1906288616132313,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-29 21:51:29
+1906288616132313,Nina,Wei,23654,854518728062939,1906288616132313,BOT: message,Let's see if you would answer this one.,2018-08-29 21:51:29
+1906288616132313,Nina,Wei,23655,854518728062939,1906288616132313,BOT: quick reply,What should you NOT do when lowering a load?,2018-08-29 21:51:30
+1906288616132313,Nina,Wei,23656,1906288616132313,854518728062939,user_typing,Twisting your body,2018-08-29 21:51:42
+1906288616132313,Nina,Wei,23657,854518728062939,1906288616132313,BOT: message,That wasn't quite what we were looking for. :disappointed_face:,2018-08-29 21:51:42
+1906288616132313,Nina,Wei,23658,854518728062939,1906288616132313,BOT: quick reply,The correct answer is Twist your body.,2018-08-29 21:51:43
+1906288616132313,Nina,Wei,23659,1906288616132313,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-29 21:52:28
+1906288616132313,Nina,Wei,23660,854518728062939,1906288616132313,BOT: message,Let's see if you can get this one.,2018-08-29 21:52:29
+1906288616132313,Nina,Wei,23661,854518728062939,1906288616132313,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-29 21:52:29
+1906288616132313,Nina,Wei,23662,854518728062939,1906288616132313,BOT: quick reply,What does CERT stand for?,2018-08-29 21:52:30
+1906288616132313,Nina,Wei,23663,1906288616132313,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-29 21:52:35
+1906288616132313,Nina,Wei,23664,854518728062939,1906288616132313,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-08-29 21:52:35
+1906288616132313,Nina,Wei,23665,854518728062939,1906288616132313,BOT: quick reply,":keycap_1: Community Experimental Research Team
+:keycap_2: Community Emergency Response Team
+:keycap_3: Central Emergency Response Terminal
+:keycap_4: Controlled Evacuation and Response Tactics
+",2018-08-29 21:52:36
+1906288616132313,Nina,Wei,23666,1906288616132313,854518728062939,user_quick_reply: BUTTON_AKB_Community Emergency Response Team,:keycap_2:,2018-08-29 21:52:43
+1906288616132313,Nina,Wei,23667,854518728062939,1906288616132313,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_happy_pink.png,2018-08-29 21:52:45
+1906288616132313,Nina,Wei,23668,854518728062939,1906288616132313,BOT: message,Nice! That was right!,2018-08-29 21:52:45
+1906288616132313,Nina,Wei,23669,854518728062939,1906288616132313,BOT: quick reply,The correct answer is Community Emergency Response Team.,2018-08-29 21:52:46
+1906288616132313,Nina,Wei,23670,1906288616132313,854518728062939,user_quick_reply: WHY,Why?,2018-08-29 21:52:54
+1906288616132313,Nina,Wei,23671,854518728062939,1906288616132313,BOT: message,This is an explanation of the question:,2018-08-29 21:52:55
+1906288616132313,Nina,Wei,23672,854518728062939,1906288616132313,BOT: quick reply,CERT members help with disaster preparedness as well as disaster relief. Be aware if your community has one. Have their number handy and contact them in case of emergency after a quake if professional responders are not immediately available.,2018-08-29 21:52:55
+1906288616132313,Nina,Wei,23673,1906288616132313,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-29 21:53:07
+1906288616132313,Nina,Wei,23674,854518728062939,1906288616132313,BOT: message,Let's see if you can answer this question.,2018-08-29 21:53:08
+1906288616132313,Nina,Wei,23675,854518728062939,1906288616132313,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-29 21:53:08
+1906288616132313,Nina,Wei,23676,854518728062939,1906288616132313,BOT: quick reply,"If your co-worker needs CPR but you are not trained in it, what should you do?",2018-08-29 21:53:09
+1906288616132313,Nina,Wei,23677,1906288616132313,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-29 21:53:15
+1906288616132313,Nina,Wei,23678,854518728062939,1906288616132313,BOT: message,Okay. I'll give you some choices.,2018-08-29 21:53:15
+1906288616132313,Nina,Wei,23679,854518728062939,1906288616132313,BOT: quick reply,":keycap_1: Lift the patient's head
+:keycap_2: Give rescue breaths only
+:keycap_3: Wait for emergency personnel to arrive
+:keycap_4: Perform chest compressions only
+",2018-08-29 21:53:16
+1906288616132313,Nina,Wei,23680,1906288616132313,854518728062939,user_quick_reply: BUTTON_DKB_Lift the patient's head,:keycap_1:,2018-08-29 21:53:26
+1906288616132313,Nina,Wei,23681,854518728062939,1906288616132313,BOT: message,"I'm sorry, but that was incorrect. :disappointed_face:",2018-08-29 21:53:26
+1906288616132313,Nina,Wei,23682,854518728062939,1906288616132313,BOT: quick reply,The correct answer is Perform chest compressions only.,2018-08-29 21:53:27
+1906288616132313,Nina,Wei,23683,1906288616132313,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-29 21:53:33
+1906288616132313,Nina,Wei,23684,854518728062939,1906288616132313,BOT: message,What about this next question:,2018-08-29 21:53:33
+1906288616132313,Nina,Wei,23685,854518728062939,1906288616132313,BOT: quick reply,What three major factors cause food contamination?,2018-08-29 21:53:34
+1906288616132313,Nina,Wei,23686,1906288616132313,854518728062939,user_typing,"Physical, biological, chemical",2018-08-29 21:54:34
+1906288616132313,Nina,Wei,23687,854518728062939,1906288616132313,BOT: message,Thats right! :party_popper:,2018-08-29 21:54:34
+1906288616132313,Nina,Wei,23688,854518728062939,1906288616132313,BOT: quick reply,"The correct answer is Physical, biological, and chemical.",2018-08-29 21:54:35
+1906288616132313,Nina,Wei,23689,1906288616132313,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-29 21:54:40
+1906288616132313,Nina,Wei,23690,854518728062939,1906288616132313,BOT: message,How about this next one:,2018-08-29 21:54:41
+1906288616132313,Nina,Wei,23691,854518728062939,1906288616132313,BOT: quick reply,"What agency inspects, grades, and enforces standards of quality and wholesomeness for meat, poultry, milk, eggs, and grains?",2018-08-29 21:54:41
+1906288616132313,Nina,Wei,23692,1906288616132313,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-29 21:54:50
+1906288616132313,Nina,Wei,23693,854518728062939,1906288616132313,BOT: message,It's one of the following choices.,2018-08-29 21:54:50
+1906288616132313,Nina,Wei,23694,854518728062939,1906288616132313,BOT: quick reply,":keycap_1: CDC
+:keycap_2: FDA
+:keycap_3: EPA
+:keycap_4: USDA
+",2018-08-29 21:54:51
+1906288616132313,Nina,Wei,23695,1906288616132313,854518728062939,user_quick_reply: BUTTON_DKB_FDA,:keycap_2:,2018-08-29 21:54:55
+1906288616132313,Nina,Wei,23696,854518728062939,1906288616132313,BOT: message,"I'm sorry, but that was incorrect. :disappointed_face:",2018-08-29 21:54:56
+1906288616132313,Nina,Wei,23697,854518728062939,1906288616132313,BOT: quick reply,The correct answer is USDA.,2018-08-29 21:54:56
+1906288616132313,Nina,Wei,23698,1906288616132313,854518728062939,user_quick_reply: WHY,Why?,2018-08-29 21:55:00
+1906288616132313,Nina,Wei,23699,854518728062939,1906288616132313,BOT: message,This is an explanation of the question:,2018-08-29 21:55:01
+1906288616132313,Nina,Wei,23700,854518728062939,1906288616132313,BOT: quick reply,"The United States Department of Agriculture (informally called the USDA or Agriculture Department) is the federal executive division formed to develop and execute U.S. federal government policy on food, farming and agriculture.",2018-08-29 21:55:01
+1906288616132313,Nina,Wei,23701,1906288616132313,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-29 21:55:09
+1906288616132313,Nina,Wei,23702,854518728062939,1906288616132313,BOT: message,Here's a question for you:,2018-08-29 21:55:10
+1906288616132313,Nina,Wei,23703,854518728062939,1906288616132313,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-29 21:55:10
+1906288616132313,Nina,Wei,23704,854518728062939,1906288616132313,BOT: quick reply,"If your co-worker needs CPR but you are not trained in it, what should you do?",2018-08-29 21:55:11
+1906288616132313,Nina,Wei,23705,1906288616132313,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-29 21:55:24
+1906288616132313,Nina,Wei,23706,854518728062939,1906288616132313,BOT: message,Which of the following options is the right answer?,2018-08-29 21:55:24
+1906288616132313,Nina,Wei,23707,854518728062939,1906288616132313,BOT: quick reply,":keycap_1: Lift the patient's head
+:keycap_2: Wait for emergency personnel to arrive
+:keycap_3: Give rescue breaths only
+:keycap_4: Perform chest compressions only
+",2018-08-29 21:55:25
+1906288616132313,Nina,Wei,23708,1906288616132313,854518728062939,user_quick_reply: BUTTON_AKB_Perform chest compressions only,:keycap_4:,2018-08-29 21:55:29
+1906288616132313,Nina,Wei,23709,854518728062939,1906288616132313,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_jubilated_cyan.png,2018-08-29 21:55:31
+1906288616132313,Nina,Wei,23710,854518728062939,1906288616132313,BOT: message,Great! Keep it up! :flexed_biceps_medium-light_skin_tone:,2018-08-29 21:55:32
+1906288616132313,Nina,Wei,23711,854518728062939,1906288616132313,BOT: quick reply,The correct answer is Perform chest compressions only.,2018-08-29 21:55:32
+1906288616132313,Nina,Wei,23712,1906288616132313,854518728062939,user_quick_reply: SWITCH_SUBJECT,Change subject :shuffle_tracks_button:,2018-08-29 21:56:05
+1906288616132313,Nina,Wei,23713,854518728062939,1906288616132313,BOT: quick reply,"Sure, now tell me which subject you would like to choose.:backhand_index_pointing_down_medium-light_skin_tone:",2018-08-29 21:56:05
+1906288616132313,Nina,Wei,23714,1906288616132313,854518728062939,user_quick_reply: SCIENCE,Science:microscope:,2018-08-29 21:56:08
+1906288616132313,Nina,Wei,23715,854518728062939,1906288616132313,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/evolvesafety_scientist.gif,2018-08-29 21:56:13
+1906288616132313,Nina,Wei,23716,854518728062939,1906288616132313,BOT: quick reply,Let's answer some questions about science!,2018-08-29 21:56:13
+1906288616132313,Nina,Wei,23717,1906288616132313,854518728062939,user_quick_reply: NEXT_QUESTION,Got it :clapping_hands_medium-light_skin_tone:,2018-08-29 21:56:17
+1906288616132313,Nina,Wei,23718,854518728062939,1906288616132313,BOT: message,"Alrighty, let's try this one.",2018-08-29 21:56:17
+1906288616132313,Nina,Wei,23719,854518728062939,1906288616132313,BOT: quick reply,Most insects reproduce quickly and through what type of reproduction?,2018-08-29 21:56:18
+1906288616132313,Nina,Wei,23720,1906288616132313,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-29 21:56:31
+1906288616132313,Nina,Wei,23721,854518728062939,1906288616132313,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-08-29 21:56:32
+1906288616132313,Nina,Wei,23722,854518728062939,1906288616132313,BOT: quick reply,":keycap_1: spores
+:keycap_2: photosynthesis
+:keycap_3: asexual reproduction
+:keycap_4: sexual reproduction
+",2018-08-29 21:56:32
+1906288616132313,Nina,Wei,23723,1906288616132313,854518728062939,user_quick_reply: BUTTON_DKB_spores,:keycap_1:,2018-08-29 21:56:36
+1906288616132313,Nina,Wei,23724,854518728062939,1906288616132313,BOT: message,"Hmm, that wasn't quite right. :disappointed_face:",2018-08-29 21:56:37
+1906288616132313,Nina,Wei,23725,854518728062939,1906288616132313,BOT: quick reply,The correct answer is sexual reproduction.,2018-08-29 21:56:37
+1906288616132313,Nina,Wei,23726,1906288616132313,854518728062939,user_quick_reply: WHY,Why?,2018-08-29 21:56:45
+1906288616132313,Nina,Wei,23727,854518728062939,1906288616132313,BOT: message,This is an explanation of the question:,2018-08-29 21:56:46
+1906288616132313,Nina,Wei,23728,854518728062939,1906288616132313,BOT: quick reply,"Most insects can reproduce very quickly within a short period of time. With a short generation time, they evolve faster and can quickly adjust to environmental changes. Most insects reproduce by sexual reproduction. The female produces eggs, which are fertilized by the male, and then the eggs are usually placed near the required food. In some insects, there is asexual reproduction during which the offspring come from a single parent. In this type of reproduction, the offspring are almost identical to the mother. This is most often seen in aphids and scale insects.",2018-08-29 21:56:46
+1906288616132313,Nina,Wei,23729,1906288616132313,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-29 21:57:07
+1906288616132313,Nina,Wei,23730,854518728062939,1906288616132313,BOT: message,Let's try this question.,2018-08-29 21:57:08
+1906288616132313,Nina,Wei,23731,854518728062939,1906288616132313,BOT: quick reply,The lithosphere is divided into a dozen major and several minor what?,2018-08-29 21:57:08
+1906288616132313,Nina,Wei,23732,1906288616132313,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-29 21:57:14
+1906288616132313,Nina,Wei,23733,854518728062939,1906288616132313,BOT: message,It's one of the following choices.,2018-08-29 21:57:14
+1906288616132313,Nina,Wei,23734,854518728062939,1906288616132313,BOT: quick reply,":keycap_1: faults
+:keycap_2: plates
+:keycap_3: crystals
+:keycap_4: zones
+",2018-08-29 21:57:15
+1906288616132313,Nina,Wei,23735,1906288616132313,854518728062939,user_quick_reply: BUTTON_DKB_zones,:keycap_4:,2018-08-29 21:57:35
+1906288616132313,Nina,Wei,23736,854518728062939,1906288616132313,BOT: message,"Hmm, that wasn't quite right. :disappointed_face:",2018-08-29 21:57:36
+1906288616132313,Nina,Wei,23737,854518728062939,1906288616132313,BOT: quick reply,The correct answer is plates.,2018-08-29 21:57:36
+1906288616132313,Nina,Wei,23738,1906288616132313,854518728062939,user_quick_reply: WHY,Why?,2018-08-29 21:57:40
+1906288616132313,Nina,Wei,23739,854518728062939,1906288616132313,BOT: message,This is an explanation of the question:,2018-08-29 21:57:40
+1906288616132313,Nina,Wei,23740,854518728062939,1906288616132313,BOT: quick reply,The lithosphere is divided into a dozen major and several minor plates. Each plate is named for the continent or ocean basin it contains. Some plates are made of all oceanic lithosphere. A few are all continental lithosphere. But most plates are made of a combination of both.,2018-08-29 21:57:41
+1906288616132313,Nina,Wei,26123,1906288616132313,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-30 18:43:15
+1906288616132313,Nina,Wei,26124,854518728062939,1906288616132313,BOT: message,Let's try this one.,2018-08-30 18:43:16
+1906288616132313,Nina,Wei,26125,854518728062939,1906288616132313,BOT: quick reply,What are by far the most common type of invertebrate?,2018-08-30 18:43:16
+1906288616132313,Nina,Wei,26126,1906288616132313,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-30 18:43:36
+1906288616132313,Nina,Wei,26127,854518728062939,1906288616132313,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-08-30 18:43:37
+1906288616132313,Nina,Wei,26128,854518728062939,1906288616132313,BOT: quick reply,":keycap_1: crustaceans
+:keycap_2: spiders
+:keycap_3: insects
+:keycap_4: corals
+",2018-08-30 18:43:37
+1906288616132313,Nina,Wei,26129,1906288616132313,854518728062939,user_quick_reply: BUTTON_DKB_corals,:keycap_4:,2018-08-30 18:43:44
+1906288616132313,Nina,Wei,26130,854518728062939,1906288616132313,BOT: message,"I'm sorry, but that was incorrect. :disappointed_face:",2018-08-30 18:43:45
+1906288616132313,Nina,Wei,26131,854518728062939,1906288616132313,BOT: quick reply,The correct answer is insects.,2018-08-30 18:43:45
+1906288616132313,Nina,Wei,26132,1906288616132313,854518728062939,user_quick_reply: WHY,Why?,2018-08-30 18:43:49
+1906288616132313,Nina,Wei,26133,854518728062939,1906288616132313,BOT: message,Here's why:,2018-08-30 18:43:50
+1906288616132313,Nina,Wei,26134,854518728062939,1906288616132313,BOT: quick reply,"Of all the animal species, it is estimated that well over 90% are invertebrates. Of all invertebrates, the insects are by far the most numerous. There are so many species of insects that scientists have yet to discover them all, let alone name or count them. Estimates of the total number of insect species fall in the range of 1 to 30 million. So, it helps if there are methods to classify not just the insects, but all invertebrates.",2018-08-30 18:43:50
+1906288616132313,Nina,Wei,26202,854518728062939,1906288616132313,BOT: quick reply,"Hi Nina, you haven't talked to me for a while. Would you like to resume the learning with me?",2018-08-30 20:00:39
+1906288616132313,Nina,Wei,26459,1906288616132313,854518728062939,user_quick_reply: NEXT_QUESTION,Alright :backhand_index_pointing_right_medium-light_skin_tone:,2018-08-30 20:40:34
+1906288616132313,Nina,Wei,26460,854518728062939,1906288616132313,BOT: message,Let's see if you would answer this one.,2018-08-30 20:40:34
+1906288616132313,Nina,Wei,26461,854518728062939,1906288616132313,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-30 20:40:35
+1906288616132313,Nina,Wei,26462,854518728062939,1906288616132313,BOT: quick reply,What kind of viscosity is found in long-chain hydrocarbons?,2018-08-30 20:40:36
+1906288616132313,Nina,Wei,26735,1906288616132313,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-30 22:23:52
+1906288616132313,Nina,Wei,26736,854518728062939,1906288616132313,BOT: message,It's one of the following choices.,2018-08-30 22:23:52
+1906288616132313,Nina,Wei,26737,854518728062939,1906288616132313,BOT: quick reply,":keycap_1: intense viscosity
+:keycap_2: high viscosity
+:keycap_3: increased viscosity
+:keycap_4: low viscosity
+",2018-08-30 22:23:53
+1906288616132313,Nina,Wei,26738,1906288616132313,854518728062939,user_quick_reply: I_DONT_KNOW,I dont know :downcast_face_with_sweat:,2018-08-30 22:24:17
+1906288616132313,Nina,Wei,26739,854518728062939,1906288616132313,BOT: quick reply,Do you really want to skip this question?,2018-08-30 22:24:17
+1906288616132313,Nina,Wei,26740,1906288616132313,854518728062939,user_quick_reply: GIVEUP_YES,"Yes, answer please.",2018-08-30 22:24:23
+1906288616132313,Nina,Wei,26741,854518728062939,1906288616132313,BOT: message,You didn't get it right this time.,2018-08-30 22:24:23
+1906288616132313,Nina,Wei,26742,854518728062939,1906288616132313,BOT: message,No worries! You'll get it next time! :grinning_face_with_smiling_eyes:,2018-08-30 22:24:24
+1906288616132313,Nina,Wei,26743,854518728062939,1906288616132313,BOT: quick reply,The correct answer is high viscosity.,2018-08-30 22:24:25
+1906288616132313,Nina,Wei,26744,1906288616132313,854518728062939,user_quick_reply: WHY,Why?,2018-08-30 22:24:29
+1906288616132313,Nina,Wei,26745,854518728062939,1906288616132313,BOT: message,This is why:,2018-08-30 22:24:29
+1906288616132313,Nina,Wei,26746,854518728062939,1906288616132313,BOT: quick reply,"There is also a correlation between viscosity and molecular shape. Liquids consisting of long, flexible molecules tend to have higher viscosities than those composed of more spherical or shorter-chain molecules. The longer the molecules, the easier it is for them to become tangled with one another, making it more difficult for them to move past one another. London dispersion forces also increase with chain length. Due to a combination of these two effects, long-chain hydrocarbons (such as motor oils) are highly viscous.",2018-08-30 22:24:30
+1906288616132313,Nina,Wei,26747,1906288616132313,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-30 22:25:25
+1906288616132313,Nina,Wei,26748,854518728062939,1906288616132313,BOT: message,Here's a question for you:,2018-08-30 22:25:25
+1906288616132313,Nina,Wei,26749,854518728062939,1906288616132313,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-30 22:25:26
+1906288616132313,Nina,Wei,26750,854518728062939,1906288616132313,BOT: quick reply,Nerve cells that sense touch are found mainly where?,2018-08-30 22:25:26
+1906288616132313,Nina,Wei,26751,1906288616132313,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-30 22:25:32
+1906288616132313,Nina,Wei,26752,854518728062939,1906288616132313,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-08-30 22:25:33
+1906288616132313,Nina,Wei,26753,854518728062939,1906288616132313,BOT: quick reply,":keycap_1: stomach
+:keycap_2: skin
+:keycap_3: lungs
+:keycap_4: brain
+",2018-08-30 22:25:33
+1906288616132313,Nina,Wei,26754,1906288616132313,854518728062939,user_quick_reply: BUTTON_DKB_brain,:keycap_4:,2018-08-30 22:25:38
+1906288616132313,Nina,Wei,26755,854518728062939,1906288616132313,BOT: message,"I'm sorry, but that was incorrect. :disappointed_face:",2018-08-30 22:25:38
+1906288616132313,Nina,Wei,26756,854518728062939,1906288616132313,BOT: quick reply,The correct answer is skin.,2018-08-30 22:25:39
+1906288616132313,Nina,Wei,26757,1906288616132313,854518728062939,user_quick_reply: WHY,Why?,2018-08-30 22:25:43
+1906288616132313,Nina,Wei,26758,854518728062939,1906288616132313,BOT: message,Here's why:,2018-08-30 22:25:43
+1906288616132313,Nina,Wei,26759,854518728062939,1906288616132313,BOT: quick reply,"Touch is the ability to sense pain, pressure, or temperature. Nerve cells that sense touch are found mainly in the skin. The skin on the palms, soles, face, and lips has the most neurons. Neurons that sense pain are also found inside the body inside the body in the tongue, joints, muscles, and other organs.",2018-08-30 22:25:44
+1906288616132313,Nina,Wei,26760,1906288616132313,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-30 22:25:53
+1906288616132313,Nina,Wei,26761,854518728062939,1906288616132313,BOT: message,Let's see if you can answer this question.,2018-08-30 22:25:55
+1906288616132313,Nina,Wei,26762,854518728062939,1906288616132313,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-30 22:25:56
+1906288616132313,Nina,Wei,26763,854518728062939,1906288616132313,BOT: quick reply,Most fungi get organic compounds from what?,2018-08-30 22:25:56
+1906288616132313,Nina,Wei,26764,1906288616132313,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-30 22:26:02
+1906288616132313,Nina,Wei,26765,854518728062939,1906288616132313,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-08-30 22:26:03
+1906288616132313,Nina,Wei,26766,854518728062939,1906288616132313,BOT: quick reply,":keycap_1: carnivorous organisms
+:keycap_2: dead organisms
+:keycap_3: inorganic material
+:keycap_4: living organisms
+",2018-08-30 22:26:03
+1906288616132313,Nina,Wei,26767,1906288616132313,854518728062939,user_quick_reply: BUTTON_AKB_dead organisms,:keycap_2:,2018-08-30 22:26:11
+1906288616132313,Nina,Wei,26768,854518728062939,1906288616132313,BOT: message,Nice! That was right!,2018-08-30 22:26:11
+1906288616132313,Nina,Wei,26769,854518728062939,1906288616132313,BOT: quick reply,The correct answer is dead organisms.,2018-08-30 22:26:12
+1906288616132313,Nina,Wei,26770,1906288616132313,854518728062939,user_quick_reply: WHY,Why?,2018-08-30 22:26:15
+1906288616132313,Nina,Wei,26771,854518728062939,1906288616132313,BOT: message,This is an explanation of the question:,2018-08-30 22:26:16
+1906288616132313,Nina,Wei,26772,854518728062939,1906288616132313,BOT: quick reply,"Most fungi get organic compounds from dead organisms. They are decomposers called saprotrophs. A saprotroph feeds on any remaining organic matter after other decomposers do their work. Fungi use enzymes to digest organic remains and then absorb the resulting organic compounds. As decomposers, fungi are vital for the health of ecosystems. They break down nonliving organic matter and release the nutrients into the soil. Plants can then use the nutrients and pass them on to herbivores and other consumers.",2018-08-30 22:26:16
+1906288616132313,Nina,Wei,26773,1906288616132313,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-30 22:26:48
+1906288616132313,Nina,Wei,26774,854518728062939,1906288616132313,BOT: message,"Alrighty, let's try this one.",2018-08-30 22:26:49
+1906288616132313,Nina,Wei,26775,854518728062939,1906288616132313,BOT: quick reply,"Temperature, water, soil, and air are examples of nonliving factors of an ecosystem, also termed what?",2018-08-30 22:26:49
+1906288616132313,Nina,Wei,26776,1906288616132313,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-30 22:26:58
+1906288616132313,Nina,Wei,26777,854518728062939,1906288616132313,BOT: message,Pick one of the following answers.,2018-08-30 22:26:58
+1906288616132313,Nina,Wei,26778,854518728062939,1906288616132313,BOT: quick reply,":keycap_1: abiotic factors
+:keycap_2: diverse factors
+:keycap_3: conditional factors
+:keycap_4: nucleic factors
+",2018-08-30 22:26:59
+1906288616132313,Nina,Wei,26779,1906288616132313,854518728062939,user_quick_reply: BUTTON_DKB_conditional factors,:keycap_3:,2018-08-30 22:27:04
+1906288616132313,Nina,Wei,26780,854518728062939,1906288616132313,BOT: message,"Oops, that is not correct. :disappointed_face:",2018-08-30 22:27:04
+1906288616132313,Nina,Wei,26781,854518728062939,1906288616132313,BOT: quick reply,The correct answer is abiotic factors.,2018-08-30 22:27:05
+1906288616132313,Nina,Wei,26782,1906288616132313,854518728062939,user_quick_reply: WHY,Why?,2018-08-30 22:27:09
+1906288616132313,Nina,Wei,26783,854518728062939,1906288616132313,BOT: message,This is why:,2018-08-30 22:27:10
+1906288616132313,Nina,Wei,26784,854518728062939,1906288616132313,BOT: quick reply,"Ecology is the study of ecosystems. That is, ecology is the study of how living organisms interact with each other and with the nonliving part of their environment. An ecosystem consists of all the nonliving factors and living organisms interacting in the same habitat. Recall that living organisms are biotic factors. The biotic factors of an ecosystem include all the populations in a habitat, such as all the species of plants, animals, and fungi, as well as all the micro-organisms. Also recall that the nonliving factors are called abiotic factors. Abiotic factors include temperature, water, soil, and air.",2018-08-30 22:27:10
+1906288616132313,Nina,Wei,26785,1906288616132313,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-30 22:27:53
+1906288616132313,Nina,Wei,26786,854518728062939,1906288616132313,BOT: message,Let's try this question.,2018-08-30 22:27:54
+1906288616132313,Nina,Wei,26787,854518728062939,1906288616132313,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-30 22:27:54
+1906288616132313,Nina,Wei,26788,854518728062939,1906288616132313,BOT: quick reply,What disease characterized by the extreme swelling of the limbs is caused by infection with a type of roundworm?,2018-08-30 22:27:55
+1906288616132313,Nina,Wei,26789,1906288616132313,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-30 22:28:02
+1906288616132313,Nina,Wei,26790,854518728062939,1906288616132313,BOT: message,Which of the following options is the right answer?,2018-08-30 22:28:02
+1906288616132313,Nina,Wei,26791,854518728062939,1906288616132313,BOT: quick reply,":keycap_1: fibrosis
+:keycap_2: gigantism
+:keycap_3: pulmonary edema
+:keycap_4: elephantiasis
+",2018-08-30 22:28:03
+1906288616132313,Nina,Wei,26792,1906288616132313,854518728062939,user_quick_reply: BUTTON_DKB_pulmonary edema,:keycap_3:,2018-08-30 22:28:08
+1906288616132313,Nina,Wei,26793,854518728062939,1906288616132313,BOT: message,"Hmm, that wasn't quite right. :disappointed_face:",2018-08-30 22:28:08
+1906288616132313,Nina,Wei,26794,854518728062939,1906288616132313,BOT: quick reply,The correct answer is elephantiasis.,2018-08-30 22:28:09
+1906288616132313,Nina,Wei,26795,1906288616132313,854518728062939,user_quick_reply: WHY,Why?,2018-08-30 22:28:13
+1906288616132313,Nina,Wei,26796,854518728062939,1906288616132313,BOT: message,This is why:,2018-08-30 22:28:14
+1906288616132313,Nina,Wei,26797,854518728062939,1906288616132313,BOT: quick reply,"Roundworms can be free-living organisms, but they are probably best known for their role as significant plant and animal parasites. Most Nematodes are parasitic, with over 16,000 parasitic species described. Heartworms, which cause serious disease in dogs while living in the heart and blood vessels, are a type of roundworm. Roundworms can also cause disease in humans. Elephantiasis, a disease characterized by the extreme swelling of the limbs, is caused by infection with a type of roundworm.",2018-08-30 22:28:14
+1906288616132313,Nina,Wei,26798,1906288616132313,854518728062939,user_quick_reply: SWITCH_SUBJECT,Change subject :shuffle_tracks_button:,2018-08-30 22:28:52
+1906288616132313,Nina,Wei,26799,854518728062939,1906288616132313,BOT: quick reply,"Okay, which subject would you like to choose?:backhand_index_pointing_down_medium-light_skin_tone:",2018-08-30 22:28:52
+1906288616132313,Nina,Wei,26800,1906288616132313,854518728062939,user_quick_reply: GRE,GRE :input_latin_uppercase:,2018-08-30 22:28:55
+1906288616132313,Nina,Wei,26801,854518728062939,1906288616132313,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/evolvescientist_reading.gif,2018-08-30 22:29:00
+1906288616132313,Nina,Wei,26802,854518728062939,1906288616132313,BOT: quick reply,Awesome! Let's learn about the GRE!,2018-08-30 22:29:02
+1906288616132313,Nina,Wei,26803,1906288616132313,854518728062939,user_quick_reply: NEXT_QUESTION,Next :collision:,2018-08-30 22:29:04
+1906288616132313,Nina,Wei,26804,854518728062939,1906288616132313,BOT: message,I think you'll like this question.,2018-08-30 22:29:05
+1906288616132313,Nina,Wei,26805,854518728062939,1906288616132313,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-30 22:29:05
+1906288616132313,Nina,Wei,26806,854518728062939,1906288616132313,BOT: quick reply,Many Major League Baseball relief pitchers choose an electrifying theme song to play as they take the mound; the song _____ their fans and instills fear in their opponents.,2018-08-30 22:29:06
+1906288616132313,Nina,Wei,26807,1906288616132313,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-30 22:29:16
+1906288616132313,Nina,Wei,26808,854518728062939,1906288616132313,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-08-30 22:29:18
+1906288616132313,Nina,Wei,26809,854518728062939,1906288616132313,BOT: quick reply,":keycap_1: eviscerates
+:keycap_2: pervades
+:keycap_3: innervates
+:keycap_4: enervates
+:keycap_5: assuages
+",2018-08-30 22:29:18
+1906288616132313,Nina,Wei,26810,1906288616132313,854518728062939,user_quick_reply: BUTTON_DKB_enervates,:keycap_4:,2018-08-30 22:29:24
+1906288616132313,Nina,Wei,26811,854518728062939,1906288616132313,BOT: message,That's not quite right. :disappointed_face:,2018-08-30 22:29:24
+1906288616132313,Nina,Wei,26812,854518728062939,1906288616132313,BOT: quick reply,The correct answer is innervates.,2018-08-30 22:29:25
+1906288616132313,Nina,Wei,26813,1906288616132313,854518728062939,user_quick_reply: WHY,Why?,2018-08-30 22:29:29
+1906288616132313,Nina,Wei,26814,854518728062939,1906288616132313,BOT: message,I hope this explanation could help you understand the the question.,2018-08-30 22:29:30
+1906288616132313,Nina,Wei,26815,854518728062939,1906288616132313,BOT: quick reply,":pushpin: Innervates -- to supply with nerves
+:pushpin: Eviscerates -- surgically remove a part of a structure or an organ
+:pushpin: Enervates -- weaken mentally or morally
+:pushpin: Assuages -- cause to be more favorably inclined; gain the good will of
+:pushpin: Pervades -- spread or diffuse through",2018-08-30 22:29:31
+1906288616132313,Nina,Wei,26816,1906288616132313,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-30 22:30:17
+1906288616132313,Nina,Wei,26817,854518728062939,1906288616132313,BOT: message,Let's take a look at this question.,2018-08-30 22:30:18
+1906288616132313,Nina,Wei,26818,854518728062939,1906288616132313,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-30 22:30:18
+1906288616132313,Nina,Wei,26819,854518728062939,1906288616132313,BOT: quick reply,While she may have answered him truthfully - in the strictest sense of the word - it became clear to Sergei after the incident that Sheryl had actually been trying to _____ .,2018-08-30 22:30:19
+1906288616132313,Nina,Wei,26820,1906288616132313,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-30 22:30:29
+1906288616132313,Nina,Wei,26821,854518728062939,1906288616132313,BOT: message,Which of the following options is the right answer?,2018-08-30 22:30:30
+1906288616132313,Nina,Wei,26822,854518728062939,1906288616132313,BOT: quick reply,":keycap_1: vituperate
+:keycap_2: obfuscate
+:keycap_3: covet
+:keycap_4: desiccate
+:keycap_5: illuminate
+",2018-08-30 22:30:30
+1906288616132313,Nina,Wei,26823,1906288616132313,854518728062939,user_quick_reply: BUTTON_AKB_obfuscate,:keycap_2:,2018-08-30 22:30:35
+1906288616132313,Nina,Wei,26824,854518728062939,1906288616132313,BOT: message,Great! Keep it up! :flexed_biceps_medium-light_skin_tone:,2018-08-30 22:30:36
+1906288616132313,Nina,Wei,26825,854518728062939,1906288616132313,BOT: quick reply,The correct answer is obfuscate.,2018-08-30 22:30:36
+1906288616132313,Nina,Wei,26826,1906288616132313,854518728062939,user_quick_reply: WHY,Why?,2018-08-30 22:30:40
+1906288616132313,Nina,Wei,26827,854518728062939,1906288616132313,BOT: message,Here's an explanation:,2018-08-30 22:30:40
+1906288616132313,Nina,Wei,26828,854518728062939,1906288616132313,BOT: quick reply,":pushpin: Obfuscate -- make obscure or unclear
+:pushpin: Vituperate -- spread negative information about
+:pushpin: Illuminate -- make lighter or brighter
+:pushpin: Covet -- wish, long, or crave for something, especially the property of another person
+:pushpin: Desiccate -- to dry thoroughly; dry up",2018-08-30 22:30:41
+1906288616132313,Nina,Wei,26829,1906288616132313,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-30 22:30:49
+1906288616132313,Nina,Wei,26830,854518728062939,1906288616132313,BOT: message,I think you'll like this question.,2018-08-30 22:30:50
+1906288616132313,Nina,Wei,26831,854518728062939,1906288616132313,BOT: quick reply,"Having squandered his life's savings on unprofitable business ventures, the _____ entrepreneur was forced to live in squalor.",2018-08-30 22:30:50
+1906288616132313,Nina,Wei,26832,1906288616132313,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-30 22:30:58
+1906288616132313,Nina,Wei,26833,854518728062939,1906288616132313,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-08-30 22:30:58
+1906288616132313,Nina,Wei,26834,854518728062939,1906288616132313,BOT: quick reply,":keycap_1: perturbed
+:keycap_2: unlikely
+:keycap_3: insolvent
+:keycap_4: former
+:keycap_5: eccentric
+",2018-08-30 22:30:59
+1906288616132313,Nina,Wei,26835,1906288616132313,854518728062939,user_quick_reply: BUTTON_AKB_insolvent,:keycap_3:,2018-08-30 22:31:05
+1906288616132313,Nina,Wei,26836,854518728062939,1906288616132313,BOT: message,Great! Keep it up! :flexed_biceps_medium-light_skin_tone:,2018-08-30 22:31:06
+1906288616132313,Nina,Wei,26837,854518728062939,1906288616132313,BOT: quick reply,The correct answer is insolvent.,2018-08-30 22:31:07
+1906288616132313,Nina,Wei,26838,1906288616132313,854518728062939,user_quick_reply: SWITCH_SUBJECT,Change subject :shuffle_tracks_button:,2018-08-30 22:31:10
+1906288616132313,Nina,Wei,26839,854518728062939,1906288616132313,BOT: quick reply,"Cool, which subject would you like to study?:backhand_index_pointing_down_medium-light_skin_tone:",2018-08-30 22:31:11
+1906288616132313,Nina,Wei,26840,1906288616132313,854518728062939,user_quick_reply: SAFETY,Safety:hammer_and_wrench:,2018-08-30 22:31:14
+1906288616132313,Nina,Wei,26841,854518728062939,1906288616132313,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/evolvereading_safety.gif,2018-08-30 22:31:19
+1906288616132313,Nina,Wei,26842,854518728062939,1906288616132313,BOT: quick reply,Let's test your knowledge on safety!,2018-08-30 22:31:20
+1906288616132313,Nina,Wei,26843,1906288616132313,854518728062939,user_quick_reply: NEXT_QUESTION,OK :flexed_biceps_medium-light_skin_tone:,2018-08-30 22:31:23
+1906288616132313,Nina,Wei,26844,854518728062939,1906288616132313,BOT: message,Let's see if you can get this one.,2018-08-30 22:31:23
+1906288616132313,Nina,Wei,26845,854518728062939,1906288616132313,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-30 22:31:24
+1906288616132313,Nina,Wei,26846,854518728062939,1906288616132313,BOT: quick reply,"What agency inspects, grades, and enforces standards of quality and wholesomeness for meat, poultry, milk, eggs, and grains?",2018-08-30 22:31:24
+1906288616132313,Nina,Wei,26847,1906288616132313,854518728062939,user_typing,Usda,2018-08-30 22:31:36
+1906288616132313,Nina,Wei,26848,854518728062939,1906288616132313,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_jubilated_cyan.png,2018-08-30 22:31:38
+1906288616132313,Nina,Wei,26849,854518728062939,1906288616132313,BOT: message,Correct! :confetti_ball:,2018-08-30 22:31:39
+1906288616132313,Nina,Wei,26850,854518728062939,1906288616132313,BOT: quick reply,The correct answer is USDA.,2018-08-30 22:31:39
+1906288616132313,Nina,Wei,26851,1906288616132313,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-30 22:31:43
+1906288616132313,Nina,Wei,26852,854518728062939,1906288616132313,BOT: message,Would you answer this question for me?,2018-08-30 22:31:44
+1906288616132313,Nina,Wei,26853,854518728062939,1906288616132313,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-30 22:31:44
+1906288616132313,Nina,Wei,26854,854518728062939,1906288616132313,BOT: quick reply,To what does the acronym SLM refer?,2018-08-30 22:31:45
+1906288616132313,Nina,Wei,26855,1906288616132313,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-30 22:31:51
+1906288616132313,Nina,Wei,26856,854518728062939,1906288616132313,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-08-30 22:31:52
+1906288616132313,Nina,Wei,26857,854518728062939,1906288616132313,BOT: quick reply,":keycap_1: Sound Loudness Methods
+:keycap_2: System Level Monitor
+:keycap_3: Service Lifecycle Management
+:keycap_4: Sound Level Meter
+",2018-08-30 22:31:52
+1906288616132313,Nina,Wei,26858,1906288616132313,854518728062939,user_quick_reply: BUTTON_DKB_System Level Monitor,:keycap_2:,2018-08-30 22:32:17
+1906288616132313,Nina,Wei,26859,854518728062939,1906288616132313,BOT: message,"Oops, that is not correct. :disappointed_face:",2018-08-30 22:32:17
+1906288616132313,Nina,Wei,26860,854518728062939,1906288616132313,BOT: quick reply,The correct answer is Sound Level Meter.,2018-08-30 22:32:18
+1906288616132313,Nina,Wei,26861,1906288616132313,854518728062939,user_quick_reply: WHY,Why?,2018-08-30 22:32:22
+1906288616132313,Nina,Wei,26862,854518728062939,1906288616132313,BOT: message,This is an explanation of the question:,2018-08-30 22:32:22
+1906288616132313,Nina,Wei,26863,854518728062939,1906288616132313,BOT: quick reply,The Sound Level Meter is an instrument used to measure noise levels.,2018-08-30 22:32:23
+1906288616132313,Nina,Wei,26864,1906288616132313,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-30 22:32:29
+1906288616132313,Nina,Wei,26865,854518728062939,1906288616132313,BOT: message,Let's see if you can answer this question.,2018-08-30 22:32:29
+1906288616132313,Nina,Wei,26866,854518728062939,1906288616132313,BOT: quick reply,What does CERT stand for?,2018-08-30 22:32:30
+1906288616132313,Nina,Wei,26867,1906288616132313,854518728062939,user_typing,Community emergency rescue team,2018-08-30 22:32:45
+1906288616132313,Nina,Wei,26868,854518728062939,1906288616132313,BOT: message,Fantastic! :hundred_points:,2018-08-30 22:32:46
+1906288616132313,Nina,Wei,26869,854518728062939,1906288616132313,BOT: quick reply,The correct answer is Community Emergency Response Team.,2018-08-30 22:32:46
+1906288616132313,Nina,Wei,26870,1906288616132313,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-30 22:32:49
+1906288616132313,Nina,Wei,26871,854518728062939,1906288616132313,BOT: message,Could you answer this one for me?,2018-08-30 22:32:50
+1906288616132313,Nina,Wei,26872,854518728062939,1906288616132313,BOT: quick reply,"True or false: if you wear a back belt, you can lift more weight than you could without a belt.",2018-08-30 22:32:50
+1906288616132313,Nina,Wei,26873,1906288616132313,854518728062939,user_typing,False,2018-08-30 22:32:59
+1906288616132313,Nina,Wei,26874,854518728062939,1906288616132313,BOT: message,Fantastic! :hundred_points:,2018-08-30 22:32:59
+1906288616132313,Nina,Wei,26875,854518728062939,1906288616132313,BOT: quick reply,The correct answer is False.,2018-08-30 22:33:00
+1906288616132313,Nina,Wei,26876,1906288616132313,854518728062939,user_quick_reply: WHY,Why?,2018-08-30 22:33:04
+1906288616132313,Nina,Wei,26877,854518728062939,1906288616132313,BOT: message,This is why:,2018-08-30 22:33:05
+1906288616132313,Nina,Wei,26878,854518728062939,1906288616132313,BOT: quick reply,Workers often lift more weight under the illusion that use of back belts increases the lifting capability of a worker. There has not been sufficient evidence to support this fact and hence it cannot be held true.,2018-08-30 22:33:05
+1906288616132313,Nina,Wei,26879,1906288616132313,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-30 22:33:13
+1906288616132313,Nina,Wei,26880,854518728062939,1906288616132313,BOT: message,Here's a question for you:,2018-08-30 22:33:14
+1906288616132313,Nina,Wei,26881,854518728062939,1906288616132313,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-30 22:33:14
+1906288616132313,Nina,Wei,26882,854518728062939,1906288616132313,BOT: quick reply,To what does the acronym SLM refer?,2018-08-30 22:33:15
+1906288616132313,Nina,Wei,26883,1906288616132313,854518728062939,user_typing,Sound level meter,2018-08-30 22:33:28
+1906288616132313,Nina,Wei,26884,854518728062939,1906288616132313,BOT: message,Nice! :red_apple:,2018-08-30 22:33:29
+1906288616132313,Nina,Wei,26885,854518728062939,1906288616132313,BOT: quick reply,The correct answer is Sound Level Meter.,2018-08-30 22:33:29
+1906288616132313,Nina,Wei,26886,1906288616132313,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-30 22:35:14
+1906288616132313,Nina,Wei,26887,854518728062939,1906288616132313,BOT: message,How about this next one:,2018-08-30 22:35:15
+1906288616132313,Nina,Wei,26888,854518728062939,1906288616132313,BOT: quick reply,Working on scaffold during winds above ____ miles per hour is prohibited by OSHA.,2018-08-30 22:35:15
+1906288616132313,Nina,Wei,26889,1906288616132313,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-30 22:35:21
+1906288616132313,Nina,Wei,26890,854518728062939,1906288616132313,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-08-30 22:35:21
+1906288616132313,Nina,Wei,26891,854518728062939,1906288616132313,BOT: quick reply,":keycap_1: 10
+:keycap_2: 50
+:keycap_3: 40
+:keycap_4: 25
+",2018-08-30 22:35:22
+1906288616132313,Nina,Wei,26892,1906288616132313,854518728062939,user_quick_reply: BUTTON_DKB_25,:keycap_4:,2018-08-30 22:35:26
+1906288616132313,Nina,Wei,26893,854518728062939,1906288616132313,BOT: message,"Hmm, that wasn't quite right. :disappointed_face:",2018-08-30 22:35:26
+1906288616132313,Nina,Wei,26894,854518728062939,1906288616132313,BOT: quick reply,The correct answer is 40.,2018-08-30 22:35:27
+1906288616132313,Nina,Wei,26895,1906288616132313,854518728062939,user_quick_reply: WHY,Why?,2018-08-30 22:35:30
+1906288616132313,Nina,Wei,26896,854518728062939,1906288616132313,BOT: message,I hope this explanation could help you understand the the question.,2018-08-30 22:35:31
+1906288616132313,Nina,Wei,26897,854518728062939,1906288616132313,BOT: quick reply,OSHA prohibits working on or from scaffolds when winds are above 40 miles/hour except in cases when a competent person has concluded that it is safe for workers to be on a scaffold and these workers are protected by wind screens or fall arrest systems.,2018-08-30 22:35:31
+1906288616132313,Nina,Wei,26898,1906288616132313,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-30 22:35:56
+1906288616132313,Nina,Wei,26899,854518728062939,1906288616132313,BOT: message,I think you'll like this question.,2018-08-30 22:35:57
+1906288616132313,Nina,Wei,26900,854518728062939,1906288616132313,BOT: quick reply,"If your co-worker needs CPR but you are not trained in it, what should you do?",2018-08-30 22:35:58
+1906288616132313,Nina,Wei,26901,1906288616132313,854518728062939,user_typing,Lift their head,2018-08-30 22:36:11
+1906288616132313,Nina,Wei,26902,854518728062939,1906288616132313,BOT: message,"I'm sorry, but that was incorrect. :disappointed_face:",2018-08-30 22:36:12
+1906288616132313,Nina,Wei,26903,854518728062939,1906288616132313,BOT: quick reply,The correct answer is Perform chest compressions only.,2018-08-30 22:36:12
+1906288616132313,Nina,Wei,26904,1906288616132313,854518728062939,user_quick_reply: WHY,Why?,2018-08-30 22:36:18
+1906288616132313,Nina,Wei,26905,854518728062939,1906288616132313,BOT: message,This is an explanation of the question:,2018-08-30 22:36:19
+1906288616132313,Nina,Wei,26906,854518728062939,1906288616132313,BOT: quick reply,"According to Mayo Clinic, it's far better to do something than to do nothing at all if you're fearful that your knowledge or abilities arent 100 percent complete. If you're not trained in CPR, then provide hands-only CPR. That means uninterrupted chest compressions of about 100 a minute until paramedics arrive. You don't need to try rescue breathing.",2018-08-30 22:36:19
+1906288616132313,Nina,Wei,26907,1906288616132313,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-30 22:36:37
+1906288616132313,Nina,Wei,26908,854518728062939,1906288616132313,BOT: message,Let's try this one.,2018-08-30 22:36:37
+1906288616132313,Nina,Wei,26909,854518728062939,1906288616132313,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-30 22:36:38
+1906288616132313,Nina,Wei,26910,854518728062939,1906288616132313,BOT: quick reply,How long can high-acid canned food such as tomatoes be stored?,2018-08-30 22:36:38
+1906288616132313,Nina,Wei,26911,1906288616132313,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-30 22:36:45
+1906288616132313,Nina,Wei,26912,854518728062939,1906288616132313,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-08-30 22:36:46
+1906288616132313,Nina,Wei,26913,854518728062939,1906288616132313,BOT: quick reply,":keycap_1: 2 to 6 months
+:keycap_2: 2 to 4 years
+:keycap_3: 10 to 30 days
+:keycap_4: 12 to 18 months
+",2018-08-30 22:36:46
+1906288616132313,Nina,Wei,26914,1906288616132313,854518728062939,user_quick_reply: BUTTON_DKB_2 to 6 months,:keycap_1:,2018-08-30 22:36:50
+1906288616132313,Nina,Wei,26915,854518728062939,1906288616132313,BOT: message,That's not quite right. :disappointed_face:,2018-08-30 22:36:51
+1906288616132313,Nina,Wei,26916,854518728062939,1906288616132313,BOT: quick reply,The correct answer is 12 to 18 months.,2018-08-30 22:36:52
+1906288616132313,Nina,Wei,26917,1906288616132313,854518728062939,user_quick_reply: WHY,Why?,2018-08-30 22:36:56
+1906288616132313,Nina,Wei,26918,854518728062939,1906288616132313,BOT: message,Here's why:,2018-08-30 22:36:56
+1906288616132313,Nina,Wei,26919,854518728062939,1906288616132313,BOT: quick reply,"According to the United States Department of Agriculture (USDA), In general, high-acid canned food such as tomatoes, grapefruit, and pineapple can be stored on the shelf for 12 to 18 months. Low-acid canned food such as meat, poultry, fish, and most vegetables will keep 2 to 5 years if the can remains in good condition and has been stored in a cool, clean, and dry place.",2018-08-30 22:36:57
+1906288616132313,Nina,Wei,26920,1906288616132313,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-30 22:37:15
+1906288616132313,Nina,Wei,26921,854518728062939,1906288616132313,BOT: message,What about this next question:,2018-08-30 22:37:15
+1906288616132313,Nina,Wei,26922,854518728062939,1906288616132313,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-30 22:37:16
+1906288616132313,Nina,Wei,26923,854518728062939,1906288616132313,BOT: quick reply,What three major factors cause food contamination?,2018-08-30 22:37:16
+1906288616132313,Nina,Wei,26924,1906288616132313,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-30 22:37:26
+1906288616132313,Nina,Wei,26925,854518728062939,1906288616132313,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-08-30 22:37:26
+1906288616132313,Nina,Wei,26926,854518728062939,1906288616132313,BOT: quick reply,":keycap_1: Physical, biological, and chemical
+:keycap_2: Physical, biological, and radiological
+:keycap_3: Physical, chemical, and psychosocial
+:keycap_4: Physical, psychological, and health
+",2018-08-30 22:37:27
+1906288616132313,Nina,Wei,26927,1906288616132313,854518728062939,"user_quick_reply: BUTTON_AKB_Physical, biological, and chemical",:keycap_1:,2018-08-30 22:37:31
+1906288616132313,Nina,Wei,26928,854518728062939,1906288616132313,BOT: message,Great job!,2018-08-30 22:37:32
+1906288616132313,Nina,Wei,26929,854518728062939,1906288616132313,BOT: quick reply,"The correct answer is Physical, biological, and chemical.",2018-08-30 22:37:32

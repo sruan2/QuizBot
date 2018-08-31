@@ -1,0 +1,981 @@
+user_id,user_firstname,user_lastname,uid,sender,recipient,type,dialogue,time_stamp
+2414598708558046,Nathaniel,Ramos,18066,2414598708558046,854518728062939,persistent_menu: GET_INTRO_1,Get Started,2018-08-27 11:42:23
+2414598708558046,Nathaniel,Ramos,18070,854518728062939,2414598708558046,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/quizbot_avatar.png,2018-08-27 11:42:26
+2414598708558046,Nathaniel,Ramos,18071,854518728062939,2414598708558046,BOT: quick reply,"Hi Nathaniel! My name is Frosty :penguin: and Im here to help you learn all about science:microscope:, verbal reasoning (GRE) :input_latin_uppercase:, and safety:hammer_and_wrench:!",2018-08-27 11:42:26
+2414598708558046,Nathaniel,Ramos,18076,2414598708558046,854518728062939,persistent_menu: SAFETY,Safety:hammer_and_wrench:,2018-08-27 11:42:44
+2414598708558046,Nathaniel,Ramos,18077,854518728062939,2414598708558046,BOT: quick reply,Let's answer some questions about safety!,2018-08-27 11:42:44
+2414598708558046,Nathaniel,Ramos,18078,2414598708558046,854518728062939,user_quick_reply: NEXT_QUESTION,"Yes, continue :oncoming_fist_medium-light_skin_tone:",2018-08-27 11:42:51
+2414598708558046,Nathaniel,Ramos,18079,854518728062939,2414598708558046,BOT: message,Let's take a look at this question.,2018-08-27 11:42:51
+2414598708558046,Nathaniel,Ramos,18080,854518728062939,2414598708558046,BOT: quick reply,Which fire extinguishers are used to put out Class A fires?,2018-08-27 11:42:52
+2414598708558046,Nathaniel,Ramos,18081,2414598708558046,854518728062939,user_quick_reply: NEXT_QUESTION,"Yes, continue :oncoming_fist_medium-light_skin_tone:",2018-08-27 11:42:53
+2414598708558046,Nathaniel,Ramos,18082,854518728062939,2414598708558046,BOT: message,Let's see if you can get this one.,2018-08-27 11:42:53
+2414598708558046,Nathaniel,Ramos,18083,854518728062939,2414598708558046,BOT: quick reply,What three major factors cause food contamination?,2018-08-27 11:42:54
+2414598708558046,Nathaniel,Ramos,18084,2414598708558046,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-27 11:43:11
+2414598708558046,Nathaniel,Ramos,18085,854518728062939,2414598708558046,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-08-27 11:43:12
+2414598708558046,Nathaniel,Ramos,18086,854518728062939,2414598708558046,BOT: quick reply,":keycap_1: Physical, biological, and radiological
+:keycap_2: Physical, psychological, and health
+:keycap_3: Physical, biological, and chemical
+:keycap_4: Physical, chemical, and psychosocial
+",2018-08-27 11:43:12
+2414598708558046,Nathaniel,Ramos,18087,2414598708558046,854518728062939,persistent_menu: USER_MANUAL_1,User Manual :woman_technologist_light_skin_tone::man_technologist_light_skin_tone:,2018-08-27 11:43:28
+2414598708558046,Nathaniel,Ramos,18088,854518728062939,2414598708558046,BOT: image,https://www.smartprimer.org:8443/pictures/user_manual/typeanswer.png,2018-08-27 11:43:31
+2414598708558046,Nathaniel,Ramos,18089,854518728062939,2414598708558046,BOT: quick reply,"To study the questions, you can type in your answers in the text field and I will evaluate the answers for you using advanced NLP (Natural Language Processing) technology.",2018-08-27 11:43:31
+2414598708558046,Nathaniel,Ramos,18108,2414598708558046,854518728062939,user_quick_reply: USER_MANUAL_2,Okay :white_heavy_check_mark:,2018-08-27 13:31:08
+2414598708558046,Nathaniel,Ramos,18109,854518728062939,2414598708558046,BOT: image,https://www.smartprimer.org:8443/pictures/user_manual/needhintbutton.png,2018-08-27 13:31:11
+2414598708558046,Nathaniel,Ramos,18110,854518728062939,2414598708558046,BOT: quick reply,"If you don't know the answers, then feel free to tap on the hint button.",2018-08-27 13:31:11
+2414598708558046,Nathaniel,Ramos,18111,2414598708558046,854518728062939,user_typing,3,2018-08-27 13:31:25
+2414598708558046,Nathaniel,Ramos,18112,854518728062939,2414598708558046,BOT: quick reply,"Oh hey, I haven't learned this language yet. Maybe I'll learn languages from you in the future.",2018-08-27 13:31:26
+2414598708558046,Nathaniel,Ramos,18113,2414598708558046,854518728062939,user_quick_reply: NEXT_QUESTION,Another question :flexed_biceps_medium-light_skin_tone:,2018-08-27 13:31:42
+2414598708558046,Nathaniel,Ramos,18114,854518728062939,2414598708558046,BOT: message,See if you can answer this next one.,2018-08-27 13:31:42
+2414598708558046,Nathaniel,Ramos,18115,854518728062939,2414598708558046,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-27 13:31:43
+2414598708558046,Nathaniel,Ramos,18116,854518728062939,2414598708558046,BOT: quick reply,Which fire extinguishers are used to put out Class A fires?,2018-08-27 13:31:43
+2414598708558046,Nathaniel,Ramos,18117,2414598708558046,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-27 13:31:51
+2414598708558046,Nathaniel,Ramos,18118,854518728062939,2414598708558046,BOT: message,Which of the following options is the right answer?,2018-08-27 13:31:51
+2414598708558046,Nathaniel,Ramos,18119,854518728062939,2414598708558046,BOT: quick reply,":keycap_1: Both water and multi-purpose dry chemical
+:keycap_2: CO2 only
+:keycap_3: Multi-purpose dry chemical only
+:keycap_4: Water only
+:keycap_5: Both CO2 and water
+",2018-08-27 13:31:52
+2414598708558046,Nathaniel,Ramos,18120,2414598708558046,854518728062939,user_typing,1,2018-08-27 13:31:57
+2414598708558046,Nathaniel,Ramos,18121,854518728062939,2414598708558046,BOT: message,That's not quite right. :disappointed_face:,2018-08-27 13:31:57
+2414598708558046,Nathaniel,Ramos,18122,854518728062939,2414598708558046,BOT: quick reply,The correct answer is Both water and multi-purpose dry chemical.,2018-08-27 13:31:58
+2414598708558046,Nathaniel,Ramos,18123,2414598708558046,854518728062939,user_quick_reply: WHY,Why?,2018-08-27 13:32:04
+2414598708558046,Nathaniel,Ramos,18124,854518728062939,2414598708558046,BOT: message,This is why:,2018-08-27 13:32:05
+2414598708558046,Nathaniel,Ramos,18125,854518728062939,2414598708558046,BOT: quick reply,"Class A fires include fires in ordinary combustibles: paper, wood, cloth, rubber, and many plastics. Water based fire extinguishers and multi-purpose dry chemical based fire extinguishers are suitable for Class A fires. However, ordinary dry chemical fire extinguishers are suitable for only Class B and Class C fires",2018-08-27 13:32:05
+2414598708558046,Nathaniel,Ramos,18126,2414598708558046,854518728062939,user_quick_reply: SWITCH_SUBJECT,Change subject :shuffle_tracks_button:,2018-08-27 13:32:19
+2414598708558046,Nathaniel,Ramos,18127,854518728062939,2414598708558046,BOT: quick reply,"Cool, which subject would you like to study?:backhand_index_pointing_down_medium-light_skin_tone:",2018-08-27 13:32:20
+2414598708558046,Nathaniel,Ramos,18128,2414598708558046,854518728062939,user_quick_reply: GRE,GRE :input_latin_uppercase:,2018-08-27 13:32:24
+2414598708558046,Nathaniel,Ramos,18129,854518728062939,2414598708558046,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/evolvesafety_reading.gif,2018-08-27 13:32:28
+2414598708558046,Nathaniel,Ramos,18130,854518728062939,2414598708558046,BOT: quick reply,Let's test your knowledge on the GRE!,2018-08-27 13:32:28
+2414598708558046,Nathaniel,Ramos,18131,2414598708558046,854518728062939,user_quick_reply: NEXT_QUESTION,Alrighty :flexed_biceps_medium-light_skin_tone:,2018-08-27 13:32:32
+2414598708558046,Nathaniel,Ramos,18132,854518728062939,2414598708558046,BOT: message,Let's see if you would answer this one.,2018-08-27 13:32:32
+2414598708558046,Nathaniel,Ramos,18133,854518728062939,2414598708558046,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-27 13:32:33
+2414598708558046,Nathaniel,Ramos,18134,854518728062939,2414598708558046,BOT: quick reply,While she may have answered him truthfully - in the strictest sense of the word - it became clear to Sergei after the incident that Sheryl had actually been trying to _____ .,2018-08-27 13:32:33
+2414598708558046,Nathaniel,Ramos,18135,2414598708558046,854518728062939,user_typing,Obfuscate,2018-08-27 13:32:43
+2414598708558046,Nathaniel,Ramos,18136,854518728062939,2414598708558046,BOT: message,Good Answer! :white_heavy_check_mark:,2018-08-27 13:32:44
+2414598708558046,Nathaniel,Ramos,18137,854518728062939,2414598708558046,BOT: quick reply,The correct answer is obfuscate.,2018-08-27 13:32:44
+2414598708558046,Nathaniel,Ramos,18138,2414598708558046,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-27 13:32:50
+2414598708558046,Nathaniel,Ramos,18139,854518728062939,2414598708558046,BOT: message,Let's try this question.,2018-08-27 13:32:50
+2414598708558046,Nathaniel,Ramos,18140,854518728062939,2414598708558046,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-27 13:32:51
+2414598708558046,Nathaniel,Ramos,18141,854518728062939,2414598708558046,BOT: quick reply,Many Major League Baseball relief pitchers choose an electrifying theme song to play as they take the mound; the song _____ their fans and instills fear in their opponents.,2018-08-27 13:32:51
+2414598708558046,Nathaniel,Ramos,18142,2414598708558046,854518728062939,user_typing,Riles,2018-08-27 13:33:00
+2414598708558046,Nathaniel,Ramos,18143,854518728062939,2414598708558046,BOT: message,That wasn't quite what we were looking for. :disappointed_face:,2018-08-27 13:33:01
+2414598708558046,Nathaniel,Ramos,18144,854518728062939,2414598708558046,BOT: quick reply,The correct answer is innervates.,2018-08-27 13:33:01
+2414598708558046,Nathaniel,Ramos,18145,2414598708558046,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-27 13:33:06
+2414598708558046,Nathaniel,Ramos,18146,854518728062939,2414598708558046,BOT: message,Let's try this one.,2018-08-27 13:33:07
+2414598708558046,Nathaniel,Ramos,18147,854518728062939,2414598708558046,BOT: quick reply,"Prior to taking on the new invader, the defending army had engaged in arduous combat; it is likely that the _____ resulting from waging two battles in two days played a part in its subsequent defeat.",2018-08-27 13:33:07
+2414598708558046,Nathaniel,Ramos,18148,2414598708558046,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-27 13:33:15
+2414598708558046,Nathaniel,Ramos,18149,854518728062939,2414598708558046,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-08-27 13:33:15
+2414598708558046,Nathaniel,Ramos,18150,854518728062939,2414598708558046,BOT: quick reply,":keycap_1: enervation
+:keycap_2: pugnacity
+:keycap_3: aggravation
+:keycap_4: bellicosity
+:keycap_5: pacification
+",2018-08-27 13:33:16
+2414598708558046,Nathaniel,Ramos,18151,2414598708558046,854518728062939,user_typing,Aggravation,2018-08-27 13:33:29
+2414598708558046,Nathaniel,Ramos,18152,854518728062939,2414598708558046,BOT: message,"Oops, that answer was incorrect. :disappointed_face:",2018-08-27 13:33:30
+2414598708558046,Nathaniel,Ramos,18153,854518728062939,2414598708558046,BOT: quick reply,The correct answer is enervation.,2018-08-27 13:33:31
+2414598708558046,Nathaniel,Ramos,18154,2414598708558046,854518728062939,user_quick_reply: WHY,Why?,2018-08-27 13:33:35
+2414598708558046,Nathaniel,Ramos,18155,854518728062939,2414598708558046,BOT: message,This is why:,2018-08-27 13:33:35
+2414598708558046,Nathaniel,Ramos,18156,854518728062939,2414598708558046,BOT: quick reply,:pushpin: Enervation -- lack of vitality,2018-08-27 13:33:36
+2414598708558046,Nathaniel,Ramos,18157,2414598708558046,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-27 13:33:41
+2414598708558046,Nathaniel,Ramos,18158,854518728062939,2414598708558046,BOT: message,Could you answer this one for me?,2018-08-27 13:33:42
+2414598708558046,Nathaniel,Ramos,18159,854518728062939,2414598708558046,BOT: quick reply,"Just as different people can have very different personalities, so too can pets - even those of the same species and breed possess varied _____ .",2018-08-27 13:33:42
+2414598708558046,Nathaniel,Ramos,18160,2414598708558046,854518728062939,user_typing,Temperaments,2018-08-27 13:33:51
+2414598708558046,Nathaniel,Ramos,18161,854518728062939,2414598708558046,BOT: message,Good Answer! :white_heavy_check_mark:,2018-08-27 13:33:52
+2414598708558046,Nathaniel,Ramos,18162,854518728062939,2414598708558046,BOT: quick reply,The correct answer is temperaments.,2018-08-27 13:33:52
+2414598708558046,Nathaniel,Ramos,18163,2414598708558046,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-27 13:33:59
+2414598708558046,Nathaniel,Ramos,18164,854518728062939,2414598708558046,BOT: message,See if you can answer this next one.,2018-08-27 13:34:00
+2414598708558046,Nathaniel,Ramos,18165,854518728062939,2414598708558046,BOT: quick reply,"In psychological literature, the ""sleeper effect"" refers to the phenomenon in which a persuasive message from a trustworthy source loses _____ over time, while the efficacy of a message from a less credible source simultaneously increases.",2018-08-27 13:34:00
+2414598708558046,Nathaniel,Ramos,18166,2414598708558046,854518728062939,user_typing,Efficacy,2018-08-27 13:34:08
+2414598708558046,Nathaniel,Ramos,18167,854518728062939,2414598708558046,BOT: message,Nice! :red_apple:,2018-08-27 13:34:08
+2414598708558046,Nathaniel,Ramos,18168,854518728062939,2414598708558046,BOT: quick reply,The correct answer is cogency.,2018-08-27 13:34:09
+2414598708558046,Nathaniel,Ramos,18169,2414598708558046,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-27 13:34:15
+2414598708558046,Nathaniel,Ramos,18170,854518728062939,2414598708558046,BOT: message,Could you answer this one for me?,2018-08-27 13:34:15
+2414598708558046,Nathaniel,Ramos,18171,854518728062939,2414598708558046,BOT: quick reply,The Erie Canal's completion caused _____ economic ripples; property values and industrial output along its route rose exponentially.,2018-08-27 13:34:16
+2414598708558046,Nathaniel,Ramos,18172,2414598708558046,854518728062939,user_typing,Prodigious,2018-08-27 13:34:21
+2414598708558046,Nathaniel,Ramos,18173,854518728062939,2414598708558046,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_jubilated_cyan.png,2018-08-27 13:34:23
+2414598708558046,Nathaniel,Ramos,18174,854518728062939,2414598708558046,BOT: message,Fantastic! :hundred_points:,2018-08-27 13:34:24
+2414598708558046,Nathaniel,Ramos,18175,854518728062939,2414598708558046,BOT: quick reply,The correct answer is prodigious.,2018-08-27 13:34:24
+2414598708558046,Nathaniel,Ramos,18176,2414598708558046,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-27 13:34:27
+2414598708558046,Nathaniel,Ramos,18177,854518728062939,2414598708558046,BOT: message,Let's take a look at this question.,2018-08-27 13:34:28
+2414598708558046,Nathaniel,Ramos,18178,854518728062939,2414598708558046,BOT: quick reply,"With a similar contrast between a partly cloudy sky and a dark street, the cover of the recent rock CD _____ a famous surrealist painting from the early 1900s.",2018-08-27 13:34:29
+2414598708558046,Nathaniel,Ramos,18179,2414598708558046,854518728062939,user_typing,Evokes,2018-08-27 13:34:34
+2414598708558046,Nathaniel,Ramos,18180,854518728062939,2414598708558046,BOT: message,Good job! :raising_hands_medium-light_skin_tone:,2018-08-27 13:34:35
+2414598708558046,Nathaniel,Ramos,18181,854518728062939,2414598708558046,BOT: quick reply,The correct answer is evokes.,2018-08-27 13:34:35
+2414598708558046,Nathaniel,Ramos,18182,2414598708558046,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-27 13:34:39
+2414598708558046,Nathaniel,Ramos,18183,854518728062939,2414598708558046,BOT: message,What about this next question:,2018-08-27 13:34:40
+2414598708558046,Nathaniel,Ramos,18184,854518728062939,2414598708558046,BOT: quick reply,"Dolly Madison, the wife of President James Madison, was known especially for her _____ , remaining calm even as the British invaded Washington D.C. during the War of 1812.",2018-08-27 13:34:40
+2414598708558046,Nathaniel,Ramos,18185,2414598708558046,854518728062939,user_typing,Equanimity,2018-08-27 13:34:47
+2414598708558046,Nathaniel,Ramos,18186,854518728062939,2414598708558046,BOT: message,Good job! :raising_hands_medium-light_skin_tone:,2018-08-27 13:34:47
+2414598708558046,Nathaniel,Ramos,18187,854518728062939,2414598708558046,BOT: quick reply,The correct answer is equanimity.,2018-08-27 13:34:48
+2414598708558046,Nathaniel,Ramos,18188,2414598708558046,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-27 13:34:51
+2414598708558046,Nathaniel,Ramos,18189,854518728062939,2414598708558046,BOT: message,How about this next one:,2018-08-27 13:34:52
+2414598708558046,Nathaniel,Ramos,18190,854518728062939,2414598708558046,BOT: quick reply,"Despite the smile that spread from ear to ear, the eyes relayed a certain _____ .",2018-08-27 13:34:52
+2414598708558046,Nathaniel,Ramos,18191,2414598708558046,854518728062939,user_typing,Sorrow,2018-08-27 13:35:00
+2414598708558046,Nathaniel,Ramos,18192,854518728062939,2414598708558046,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_happy_purple.png,2018-08-27 13:35:01
+2414598708558046,Nathaniel,Ramos,18193,854518728062939,2414598708558046,BOT: message,Fantastic! :hundred_points:,2018-08-27 13:35:02
+2414598708558046,Nathaniel,Ramos,18194,854518728062939,2414598708558046,BOT: quick reply,The correct answer is sorrow.,2018-08-27 13:35:02
+2414598708558046,Nathaniel,Ramos,18195,2414598708558046,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-27 13:35:07
+2414598708558046,Nathaniel,Ramos,18196,854518728062939,2414598708558046,BOT: message,Let's take a look at this question.,2018-08-27 13:35:08
+2414598708558046,Nathaniel,Ramos,18197,854518728062939,2414598708558046,BOT: quick reply,Many Major League Baseball relief pitchers choose an electrifying theme song to play as they take the mound; the song _____ their fans and instills fear in their opponents.,2018-08-27 13:35:08
+2414598708558046,Nathaniel,Ramos,18198,2414598708558046,854518728062939,user_typing,Ennervates,2018-08-27 13:35:14
+2414598708558046,Nathaniel,Ramos,18199,854518728062939,2414598708558046,BOT: message,That's not quite right. :disappointed_face:,2018-08-27 13:35:14
+2414598708558046,Nathaniel,Ramos,18200,854518728062939,2414598708558046,BOT: quick reply,The correct answer is innervates.,2018-08-27 13:35:15
+2414598708558046,Nathaniel,Ramos,18201,2414598708558046,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-27 13:35:19
+2414598708558046,Nathaniel,Ramos,18202,854518728062939,2414598708558046,BOT: message,See if you can answer this next one.,2018-08-27 13:35:19
+2414598708558046,Nathaniel,Ramos,18203,854518728062939,2414598708558046,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-27 13:35:20
+2414598708558046,Nathaniel,Ramos,18204,854518728062939,2414598708558046,BOT: quick reply,"In psychological literature, the ""sleeper effect"" refers to the phenomenon in which a persuasive message from a trustworthy source loses _____ over time, while the efficacy of a message from a less credible source simultaneously increases.",2018-08-27 13:35:20
+2414598708558046,Nathaniel,Ramos,18205,2414598708558046,854518728062939,user_typing,Cogency,2018-08-27 13:35:28
+2414598708558046,Nathaniel,Ramos,18206,854518728062939,2414598708558046,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/celebration.gif,2018-08-27 13:35:35
+2414598708558046,Nathaniel,Ramos,18207,854518728062939,2414598708558046,BOT: message,Good Answer! :white_heavy_check_mark:,2018-08-27 13:35:35
+2414598708558046,Nathaniel,Ramos,18208,854518728062939,2414598708558046,BOT: quick reply,The correct answer is cogency.,2018-08-27 13:35:36
+2414598708558046,Nathaniel,Ramos,18209,2414598708558046,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-27 13:35:40
+2414598708558046,Nathaniel,Ramos,18210,854518728062939,2414598708558046,BOT: message,I think you'll like this question.,2018-08-27 13:35:40
+2414598708558046,Nathaniel,Ramos,18211,854518728062939,2414598708558046,BOT: quick reply,"Many dog owners treat their pets too _____ , forgetting that canines have evolved in competitive environments in which emotional coddling was a sign of weakness.",2018-08-27 13:35:41
+2414598708558046,Nathaniel,Ramos,18212,2414598708558046,854518728062939,user_typing,Indulgently,2018-08-27 13:35:49
+2414598708558046,Nathaniel,Ramos,18213,854518728062939,2414598708558046,BOT: message,Good job! :raising_hands_medium-light_skin_tone:,2018-08-27 13:35:49
+2414598708558046,Nathaniel,Ramos,18214,854518728062939,2414598708558046,BOT: quick reply,The correct answer is indulgently.,2018-08-27 13:35:50
+2414598708558046,Nathaniel,Ramos,18215,2414598708558046,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-27 13:35:53
+2414598708558046,Nathaniel,Ramos,18216,854518728062939,2414598708558046,BOT: message,"Alrighty, let's try this one.",2018-08-27 13:35:53
+2414598708558046,Nathaniel,Ramos,18217,854518728062939,2414598708558046,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-27 13:35:54
+2414598708558046,Nathaniel,Ramos,18218,854518728062939,2414598708558046,BOT: quick reply,"In psychological literature, the ""sleeper effect"" refers to the phenomenon in which a persuasive message from a trustworthy source loses _____ over time, while the efficacy of a message from a less credible source simultaneously increases.",2018-08-27 13:35:54
+2414598708558046,Nathaniel,Ramos,18219,2414598708558046,854518728062939,user_typing,Cogency,2018-08-27 13:36:00
+2414598708558046,Nathaniel,Ramos,18220,854518728062939,2414598708558046,BOT: message,Thats right! :party_popper:,2018-08-27 13:36:00
+2414598708558046,Nathaniel,Ramos,18221,854518728062939,2414598708558046,BOT: quick reply,The correct answer is cogency.,2018-08-27 13:36:01
+2414598708558046,Nathaniel,Ramos,18222,2414598708558046,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-27 13:36:05
+2414598708558046,Nathaniel,Ramos,18223,854518728062939,2414598708558046,BOT: message,Let's see if you can get this one.,2018-08-27 13:36:05
+2414598708558046,Nathaniel,Ramos,18224,854518728062939,2414598708558046,BOT: quick reply,"Despite the smile that spread from ear to ear, the eyes relayed a certain _____ .",2018-08-27 13:36:06
+2414598708558046,Nathaniel,Ramos,18225,2414598708558046,854518728062939,user_typing,Sorrow,2018-08-27 13:36:10
+2414598708558046,Nathaniel,Ramos,18226,854518728062939,2414598708558046,BOT: message,Good job! :raising_hands_medium-light_skin_tone:,2018-08-27 13:36:11
+2414598708558046,Nathaniel,Ramos,18227,854518728062939,2414598708558046,BOT: quick reply,The correct answer is sorrow.,2018-08-27 13:36:11
+2414598708558046,Nathaniel,Ramos,18228,2414598708558046,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-27 13:36:14
+2414598708558046,Nathaniel,Ramos,18229,854518728062939,2414598708558046,BOT: message,Let's see if you can answer this question.,2018-08-27 13:36:15
+2414598708558046,Nathaniel,Ramos,18230,854518728062939,2414598708558046,BOT: quick reply,"Just as different people can have very different personalities, so too can pets - even those of the same species and breed possess varied _____ .",2018-08-27 13:36:15
+2414598708558046,Nathaniel,Ramos,18231,2414598708558046,854518728062939,user_typing,Temperaments,2018-08-27 13:36:23
+2414598708558046,Nathaniel,Ramos,18232,854518728062939,2414598708558046,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_happy_pink.png,2018-08-27 13:36:25
+2414598708558046,Nathaniel,Ramos,18233,854518728062939,2414598708558046,BOT: message,Correct! :confetti_ball:,2018-08-27 13:36:25
+2414598708558046,Nathaniel,Ramos,18234,854518728062939,2414598708558046,BOT: quick reply,The correct answer is temperaments.,2018-08-27 13:36:26
+2414598708558046,Nathaniel,Ramos,18857,854518728062939,2414598708558046,BOT: quick reply,"Hi Nathaniel, you haven't talked to me for a while. Would you like to resume the learning with me?",2018-08-27 20:00:17
+2414598708558046,Nathaniel,Ramos,20006,854518728062939,2414598708558046,BOT: message,Let's try this question.,2018-08-28 12:01:23
+2414598708558046,Nathaniel,Ramos,20007,854518728062939,2414598708558046,BOT: quick reply,"Prior to taking on the new invader, the defending army had engaged in arduous combat; it is likely that the _____ resulting from waging two battles in two days played a part in its subsequent defeat.",2018-08-28 12:01:24
+2414598708558046,Nathaniel,Ramos,20008,2414598708558046,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-28 12:01:27
+2414598708558046,Nathaniel,Ramos,20009,854518728062939,2414598708558046,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-08-28 12:01:28
+2414598708558046,Nathaniel,Ramos,20010,854518728062939,2414598708558046,BOT: quick reply,":keycap_1: bellicosity
+:keycap_2: pacification
+:keycap_3: pugnacity
+:keycap_4: aggravation
+:keycap_5: enervation
+",2018-08-28 12:01:28
+2414598708558046,Nathaniel,Ramos,20011,2414598708558046,854518728062939,user_quick_reply: BUTTON_AKB_enervation,:keycap_5:,2018-08-28 12:01:39
+2414598708558046,Nathaniel,Ramos,20012,854518728062939,2414598708558046,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_happy_pink.png,2018-08-28 12:01:41
+2414598708558046,Nathaniel,Ramos,20013,854518728062939,2414598708558046,BOT: message,Great! Keep it up! :flexed_biceps_medium-light_skin_tone:,2018-08-28 12:01:42
+2414598708558046,Nathaniel,Ramos,20014,854518728062939,2414598708558046,BOT: quick reply,The correct answer is enervation.,2018-08-28 12:01:42
+2414598708558046,Nathaniel,Ramos,20015,2414598708558046,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-28 12:01:46
+2414598708558046,Nathaniel,Ramos,20016,854518728062939,2414598708558046,BOT: message,Could you answer this one for me?,2018-08-28 12:01:47
+2414598708558046,Nathaniel,Ramos,20017,854518728062939,2414598708558046,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-28 12:01:48
+2414598708558046,Nathaniel,Ramos,20018,854518728062939,2414598708558046,BOT: quick reply,"Although John F. Kennedy was known for his carefree flag football games, Gerald Ford should be _____ as our football president: he turned down offers to play for two National Football League teams in order to pursue a career in public service.",2018-08-28 12:01:48
+2414598708558046,Nathaniel,Ramos,20019,2414598708558046,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-28 12:01:57
+2414598708558046,Nathaniel,Ramos,20020,854518728062939,2414598708558046,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-08-28 12:01:57
+2414598708558046,Nathaniel,Ramos,20021,854518728062939,2414598708558046,BOT: quick reply,":keycap_1: relegated
+:keycap_2: criticized
+:keycap_3: annulled
+:keycap_4: abrogated
+:keycap_5: apotheosized
+",2018-08-28 12:01:58
+2414598708558046,Nathaniel,Ramos,20022,2414598708558046,854518728062939,user_quick_reply: BUTTON_AKB_apotheosized,:keycap_5:,2018-08-28 12:02:05
+2414598708558046,Nathaniel,Ramos,20023,854518728062939,2414598708558046,BOT: message,Great! Keep it up! :flexed_biceps_medium-light_skin_tone:,2018-08-28 12:02:06
+2414598708558046,Nathaniel,Ramos,20024,854518728062939,2414598708558046,BOT: quick reply,The correct answer is apotheosized.,2018-08-28 12:02:06
+2414598708558046,Nathaniel,Ramos,20025,2414598708558046,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-28 12:02:10
+2414598708558046,Nathaniel,Ramos,20026,854518728062939,2414598708558046,BOT: message,Let's take a look at this question.,2018-08-28 12:02:10
+2414598708558046,Nathaniel,Ramos,20027,854518728062939,2414598708558046,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-28 12:02:11
+2414598708558046,Nathaniel,Ramos,20028,854518728062939,2414598708558046,BOT: quick reply,"Despite the smile that spread from ear to ear, the eyes relayed a certain _____ .",2018-08-28 12:02:12
+2414598708558046,Nathaniel,Ramos,20029,2414598708558046,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-28 12:02:19
+2414598708558046,Nathaniel,Ramos,20030,854518728062939,2414598708558046,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-08-28 12:02:19
+2414598708558046,Nathaniel,Ramos,20031,854518728062939,2414598708558046,BOT: quick reply,":keycap_1: jubilance
+:keycap_2: mischievousness
+:keycap_3: vision
+:keycap_4: sorrow
+:keycap_5: liveliness
+",2018-08-28 12:02:20
+2414598708558046,Nathaniel,Ramos,20032,2414598708558046,854518728062939,user_typing,Sorrow,2018-08-28 12:02:28
+2414598708558046,Nathaniel,Ramos,20033,854518728062939,2414598708558046,BOT: message,Good Answer! :white_heavy_check_mark:,2018-08-28 12:02:29
+2414598708558046,Nathaniel,Ramos,20034,854518728062939,2414598708558046,BOT: quick reply,The correct answer is sorrow.,2018-08-28 12:02:29
+2414598708558046,Nathaniel,Ramos,20035,2414598708558046,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-28 12:02:36
+2414598708558046,Nathaniel,Ramos,20036,854518728062939,2414598708558046,BOT: message,Would you answer this question for me?,2018-08-28 12:02:37
+2414598708558046,Nathaniel,Ramos,20037,854518728062939,2414598708558046,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-28 12:02:37
+2414598708558046,Nathaniel,Ramos,20038,854518728062939,2414598708558046,BOT: quick reply,While she may have answered him truthfully - in the strictest sense of the word - it became clear to Sergei after the incident that Sheryl had actually been trying to _____ .,2018-08-28 12:02:38
+2414598708558046,Nathaniel,Ramos,20039,2414598708558046,854518728062939,user_typing,Obfuscate,2018-08-28 12:02:47
+2414598708558046,Nathaniel,Ramos,20040,854518728062939,2414598708558046,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_jubilated_cyan.png,2018-08-28 12:02:49
+2414598708558046,Nathaniel,Ramos,20041,854518728062939,2414598708558046,BOT: message,Nice! :red_apple:,2018-08-28 12:02:49
+2414598708558046,Nathaniel,Ramos,20042,854518728062939,2414598708558046,BOT: quick reply,The correct answer is obfuscate.,2018-08-28 12:02:50
+2414598708558046,Nathaniel,Ramos,20043,2414598708558046,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-28 12:02:54
+2414598708558046,Nathaniel,Ramos,20044,854518728062939,2414598708558046,BOT: message,See if you can answer this next one.,2018-08-28 12:02:55
+2414598708558046,Nathaniel,Ramos,20045,854518728062939,2414598708558046,BOT: quick reply,The Erie Canal's completion caused _____ economic ripples; property values and industrial output along its route rose exponentially.,2018-08-28 12:02:56
+2414598708558046,Nathaniel,Ramos,20046,2414598708558046,854518728062939,user_typing,Prodigious,2018-08-28 12:03:02
+2414598708558046,Nathaniel,Ramos,20047,854518728062939,2414598708558046,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_jubilated_pink.png,2018-08-28 12:03:04
+2414598708558046,Nathaniel,Ramos,20048,854518728062939,2414598708558046,BOT: message,Thats right! :party_popper:,2018-08-28 12:03:04
+2414598708558046,Nathaniel,Ramos,20049,854518728062939,2414598708558046,BOT: quick reply,The correct answer is prodigious.,2018-08-28 12:03:05
+2414598708558046,Nathaniel,Ramos,20050,2414598708558046,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-28 12:03:09
+2414598708558046,Nathaniel,Ramos,20051,854518728062939,2414598708558046,BOT: message,Could you answer this one for me?,2018-08-28 12:03:10
+2414598708558046,Nathaniel,Ramos,20052,854518728062939,2414598708558046,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-28 12:03:10
+2414598708558046,Nathaniel,Ramos,20053,854518728062939,2414598708558046,BOT: quick reply,"In psychological literature, the ""sleeper effect"" refers to the phenomenon in which a persuasive message from a trustworthy source loses _____ over time, while the efficacy of a message from a less credible source simultaneously increases.",2018-08-28 12:03:11
+2414598708558046,Nathaniel,Ramos,20054,2414598708558046,854518728062939,user_typing,Cogency,2018-08-28 12:03:17
+2414598708558046,Nathaniel,Ramos,20055,854518728062939,2414598708558046,BOT: message,Good job! :raising_hands_medium-light_skin_tone:,2018-08-28 12:03:18
+2414598708558046,Nathaniel,Ramos,20056,854518728062939,2414598708558046,BOT: quick reply,The correct answer is cogency.,2018-08-28 12:03:19
+2414598708558046,Nathaniel,Ramos,20057,2414598708558046,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-28 12:03:22
+2414598708558046,Nathaniel,Ramos,20058,854518728062939,2414598708558046,BOT: message,Let's see if you would answer this one.,2018-08-28 12:03:23
+2414598708558046,Nathaniel,Ramos,20059,854518728062939,2414598708558046,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-28 12:03:23
+2414598708558046,Nathaniel,Ramos,20060,854518728062939,2414598708558046,BOT: quick reply,"In psychological literature, the ""sleeper effect"" refers to the phenomenon in which a persuasive message from a trustworthy source loses _____ over time, while the efficacy of a message from a less credible source simultaneously increases.",2018-08-28 12:03:24
+2414598708558046,Nathaniel,Ramos,20061,2414598708558046,854518728062939,user_typing,Cogency,2018-08-28 12:03:32
+2414598708558046,Nathaniel,Ramos,20062,854518728062939,2414598708558046,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_jubilated_cyan.png,2018-08-28 12:03:34
+2414598708558046,Nathaniel,Ramos,20063,854518728062939,2414598708558046,BOT: message,Good Answer! :white_heavy_check_mark:,2018-08-28 12:03:34
+2414598708558046,Nathaniel,Ramos,20064,854518728062939,2414598708558046,BOT: quick reply,The correct answer is cogency.,2018-08-28 12:03:35
+2414598708558046,Nathaniel,Ramos,20065,2414598708558046,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-28 12:03:39
+2414598708558046,Nathaniel,Ramos,20066,854518728062939,2414598708558046,BOT: message,Could you answer this one for me?,2018-08-28 12:03:39
+2414598708558046,Nathaniel,Ramos,20067,854518728062939,2414598708558046,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-28 12:03:40
+2414598708558046,Nathaniel,Ramos,20068,854518728062939,2414598708558046,BOT: quick reply,The Erie Canal's completion caused _____ economic ripples; property values and industrial output along its route rose exponentially.,2018-08-28 12:03:41
+2414598708558046,Nathaniel,Ramos,20069,2414598708558046,854518728062939,user_typing,Prodigious,2018-08-28 12:03:49
+2414598708558046,Nathaniel,Ramos,20070,854518728062939,2414598708558046,BOT: message,Thats right! :party_popper:,2018-08-28 12:03:50
+2414598708558046,Nathaniel,Ramos,20071,854518728062939,2414598708558046,BOT: quick reply,The correct answer is prodigious.,2018-08-28 12:03:51
+2414598708558046,Nathaniel,Ramos,20072,2414598708558046,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-28 12:03:54
+2414598708558046,Nathaniel,Ramos,20073,854518728062939,2414598708558046,BOT: message,"Alrighty, let's try this one.",2018-08-28 12:03:54
+2414598708558046,Nathaniel,Ramos,20074,854518728062939,2414598708558046,BOT: quick reply,"Even though legislators claimed the Contagious Diseases Acts strengthened the nation, social purists argued the Acts _____ the nation's moral growth by encouraging licentious behavior.",2018-08-28 12:03:55
+2414598708558046,Nathaniel,Ramos,20075,2414598708558046,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-28 12:04:01
+2414598708558046,Nathaniel,Ramos,20076,854518728062939,2414598708558046,BOT: message,Which of the following options is the right answer?,2018-08-28 12:04:02
+2414598708558046,Nathaniel,Ramos,20077,854518728062939,2414598708558046,BOT: quick reply,":keycap_1: advanced
+:keycap_2: supplanted
+:keycap_3: ameliorated
+:keycap_4: hampered
+:keycap_5: enhanced
+",2018-08-28 12:04:03
+2414598708558046,Nathaniel,Ramos,20078,2414598708558046,854518728062939,user_quick_reply: BUTTON_AKB_hampered,:keycap_4:,2018-08-28 12:04:09
+2414598708558046,Nathaniel,Ramos,20079,854518728062939,2414598708558046,BOT: message,Great! Keep it up! :flexed_biceps_medium-light_skin_tone:,2018-08-28 12:04:09
+2414598708558046,Nathaniel,Ramos,20080,854518728062939,2414598708558046,BOT: quick reply,The correct answer is hampered.,2018-08-28 12:04:10
+2414598708558046,Nathaniel,Ramos,20081,2414598708558046,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-28 12:04:17
+2414598708558046,Nathaniel,Ramos,20082,854518728062939,2414598708558046,BOT: message,Let's try this question.,2018-08-28 12:04:17
+2414598708558046,Nathaniel,Ramos,20083,854518728062939,2414598708558046,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-28 12:04:18
+2414598708558046,Nathaniel,Ramos,20084,854518728062939,2414598708558046,BOT: quick reply,"Many dog owners treat their pets too _____ , forgetting that canines have evolved in competitive environments in which emotional coddling was a sign of weakness.",2018-08-28 12:04:19
+2414598708558046,Nathaniel,Ramos,20085,2414598708558046,854518728062939,user_typing,Indulgently,2018-08-28 12:04:24
+2414598708558046,Nathaniel,Ramos,20086,854518728062939,2414598708558046,BOT: message,Correct! :confetti_ball:,2018-08-28 12:04:25
+2414598708558046,Nathaniel,Ramos,20087,854518728062939,2414598708558046,BOT: quick reply,The correct answer is indulgently.,2018-08-28 12:04:26
+2414598708558046,Nathaniel,Ramos,20088,2414598708558046,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-28 12:04:30
+2414598708558046,Nathaniel,Ramos,20089,854518728062939,2414598708558046,BOT: message,Let's see if you can answer this question.,2018-08-28 12:04:31
+2414598708558046,Nathaniel,Ramos,20090,854518728062939,2414598708558046,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-28 12:04:31
+2414598708558046,Nathaniel,Ramos,20091,854518728062939,2414598708558046,BOT: quick reply,"In psychological literature, the ""sleeper effect"" refers to the phenomenon in which a persuasive message from a trustworthy source loses _____ over time, while the efficacy of a message from a less credible source simultaneously increases.",2018-08-28 12:04:32
+2414598708558046,Nathaniel,Ramos,20092,2414598708558046,854518728062939,user_typing,Cogency,2018-08-28 12:04:39
+2414598708558046,Nathaniel,Ramos,20093,854518728062939,2414598708558046,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_normal.png,2018-08-28 12:04:40
+2414598708558046,Nathaniel,Ramos,20094,854518728062939,2414598708558046,BOT: message,Good job! :raising_hands_medium-light_skin_tone:,2018-08-28 12:04:41
+2414598708558046,Nathaniel,Ramos,20095,854518728062939,2414598708558046,BOT: quick reply,The correct answer is cogency.,2018-08-28 12:04:41
+2414598708558046,Nathaniel,Ramos,20096,2414598708558046,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-28 12:04:45
+2414598708558046,Nathaniel,Ramos,20097,854518728062939,2414598708558046,BOT: message,Could you answer this one for me?,2018-08-28 12:04:45
+2414598708558046,Nathaniel,Ramos,20098,854518728062939,2414598708558046,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-28 12:04:46
+2414598708558046,Nathaniel,Ramos,20099,854518728062939,2414598708558046,BOT: quick reply,"With a similar contrast between a partly cloudy sky and a dark street, the cover of the recent rock CD _____ a famous surrealist painting from the early 1900s.",2018-08-28 12:04:46
+2414598708558046,Nathaniel,Ramos,20100,2414598708558046,854518728062939,user_typing,Evokes,2018-08-28 12:04:52
+2414598708558046,Nathaniel,Ramos,20101,854518728062939,2414598708558046,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_normal_purple.png,2018-08-28 12:04:54
+2414598708558046,Nathaniel,Ramos,20102,854518728062939,2414598708558046,BOT: message,Correct! :confetti_ball:,2018-08-28 12:04:54
+2414598708558046,Nathaniel,Ramos,20103,854518728062939,2414598708558046,BOT: quick reply,The correct answer is evokes.,2018-08-28 12:04:55
+2414598708558046,Nathaniel,Ramos,20104,2414598708558046,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-28 12:05:04
+2414598708558046,Nathaniel,Ramos,20105,854518728062939,2414598708558046,BOT: message,Let's try this question.,2018-08-28 12:05:05
+2414598708558046,Nathaniel,Ramos,20106,854518728062939,2414598708558046,BOT: quick reply,While she may have answered him truthfully - in the strictest sense of the word - it became clear to Sergei after the incident that Sheryl had actually been trying to _____ .,2018-08-28 12:05:05
+2414598708558046,Nathaniel,Ramos,20107,2414598708558046,854518728062939,user_typing,Obfuscate,2018-08-28 12:05:13
+2414598708558046,Nathaniel,Ramos,20108,854518728062939,2414598708558046,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_normal_purple.png,2018-08-28 12:05:15
+2414598708558046,Nathaniel,Ramos,20109,854518728062939,2414598708558046,BOT: message,Good job! :raising_hands_medium-light_skin_tone:,2018-08-28 12:05:15
+2414598708558046,Nathaniel,Ramos,20110,854518728062939,2414598708558046,BOT: quick reply,The correct answer is obfuscate.,2018-08-28 12:05:16
+2414598708558046,Nathaniel,Ramos,20111,2414598708558046,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-28 12:05:19
+2414598708558046,Nathaniel,Ramos,20112,854518728062939,2414598708558046,BOT: message,Could you answer this one for me?,2018-08-28 12:05:20
+2414598708558046,Nathaniel,Ramos,20113,854518728062939,2414598708558046,BOT: quick reply,"Possessing few natural resources upon its newly-granted independence in 1863, Singapore remained economically _____ until an influx of industrialization and foreign investment took hold there.",2018-08-28 12:05:21
+2414598708558046,Nathaniel,Ramos,20114,2414598708558046,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-28 12:05:32
+2414598708558046,Nathaniel,Ramos,20115,854518728062939,2414598708558046,BOT: message,It's one of the following choices.,2018-08-28 12:05:33
+2414598708558046,Nathaniel,Ramos,20116,854518728062939,2414598708558046,BOT: quick reply,":keycap_1: dubious
+:keycap_2: prosperous
+:keycap_3: fortuitous
+:keycap_4: powerful
+:keycap_5: solvent
+",2018-08-28 12:05:33
+2414598708558046,Nathaniel,Ramos,20117,2414598708558046,854518728062939,user_quick_reply: BUTTON_AKB_dubious,:keycap_1:,2018-08-28 12:05:40
+2414598708558046,Nathaniel,Ramos,20118,854518728062939,2414598708558046,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_jubilated_pink.png,2018-08-28 12:05:42
+2414598708558046,Nathaniel,Ramos,20119,854518728062939,2414598708558046,BOT: message,Nice work! Keep it up!,2018-08-28 12:05:42
+2414598708558046,Nathaniel,Ramos,20120,854518728062939,2414598708558046,BOT: quick reply,The correct answer is dubious.,2018-08-28 12:05:43
+2414598708558046,Nathaniel,Ramos,20121,2414598708558046,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-28 12:05:50
+2414598708558046,Nathaniel,Ramos,20122,854518728062939,2414598708558046,BOT: message,What about this next question:,2018-08-28 12:05:51
+2414598708558046,Nathaniel,Ramos,20123,854518728062939,2414598708558046,BOT: quick reply,"Although John F. Kennedy was known for his carefree flag football games, Gerald Ford should be _____ as our football president: he turned down offers to play for two National Football League teams in order to pursue a career in public service.",2018-08-28 12:05:51
+2414598708558046,Nathaniel,Ramos,20124,2414598708558046,854518728062939,user_typing,Apotheosized,2018-08-28 12:06:00
+2414598708558046,Nathaniel,Ramos,20125,854518728062939,2414598708558046,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_happy_pink.png,2018-08-28 12:06:01
+2414598708558046,Nathaniel,Ramos,20126,854518728062939,2414598708558046,BOT: message,Fantastic! :hundred_points:,2018-08-28 12:06:02
+2414598708558046,Nathaniel,Ramos,20127,854518728062939,2414598708558046,BOT: quick reply,The correct answer is apotheosized.,2018-08-28 12:06:02
+2414598708558046,Nathaniel,Ramos,20128,2414598708558046,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-28 12:06:20
+2414598708558046,Nathaniel,Ramos,20129,854518728062939,2414598708558046,BOT: message,Let's try this question.,2018-08-28 12:06:21
+2414598708558046,Nathaniel,Ramos,20130,854518728062939,2414598708558046,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-28 12:06:21
+2414598708558046,Nathaniel,Ramos,20131,854518728062939,2414598708558046,BOT: quick reply,"Although John F. Kennedy was known for his carefree flag football games, Gerald Ford should be _____ as our football president: he turned down offers to play for two National Football League teams in order to pursue a career in public service.",2018-08-28 12:06:22
+2414598708558046,Nathaniel,Ramos,20132,2414598708558046,854518728062939,user_typing,Apotheosized,2018-08-28 12:06:33
+2414598708558046,Nathaniel,Ramos,20133,854518728062939,2414598708558046,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_normal.png,2018-08-28 12:06:35
+2414598708558046,Nathaniel,Ramos,20134,854518728062939,2414598708558046,BOT: message,Good Answer! :white_heavy_check_mark:,2018-08-28 12:06:36
+2414598708558046,Nathaniel,Ramos,20135,854518728062939,2414598708558046,BOT: quick reply,The correct answer is apotheosized.,2018-08-28 12:06:36
+2414598708558046,Nathaniel,Ramos,20136,2414598708558046,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-28 12:06:47
+2414598708558046,Nathaniel,Ramos,20137,854518728062939,2414598708558046,BOT: message,Would you answer this question for me?,2018-08-28 12:06:47
+2414598708558046,Nathaniel,Ramos,20138,854518728062939,2414598708558046,BOT: quick reply,While she may have answered him truthfully - in the strictest sense of the word - it became clear to Sergei after the incident that Sheryl had actually been trying to _____ .,2018-08-28 12:06:48
+2414598708558046,Nathaniel,Ramos,20139,2414598708558046,854518728062939,user_typing,Obfuscate,2018-08-28 12:08:42
+2414598708558046,Nathaniel,Ramos,20140,854518728062939,2414598708558046,BOT: message,Good Answer! :white_heavy_check_mark:,2018-08-28 12:08:43
+2414598708558046,Nathaniel,Ramos,20141,854518728062939,2414598708558046,BOT: quick reply,The correct answer is obfuscate.,2018-08-28 12:08:43
+2414598708558046,Nathaniel,Ramos,20142,2414598708558046,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-28 12:08:47
+2414598708558046,Nathaniel,Ramos,20143,854518728062939,2414598708558046,BOT: message,"Alrighty, let's try this one.",2018-08-28 12:08:48
+2414598708558046,Nathaniel,Ramos,20144,854518728062939,2414598708558046,BOT: quick reply,"Modern tennis fans have come to realize that, although, quantum technological leaps in racquet technology have lead to _____ increases in the speed and power with which players can hit the ball, this has not necessarily lead to a more entertaining game.",2018-08-28 12:08:48
+2414598708558046,Nathaniel,Ramos,20145,2414598708558046,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-28 12:08:57
+2414598708558046,Nathaniel,Ramos,20146,854518728062939,2414598708558046,BOT: message,Which of the following options is the right answer?,2018-08-28 12:08:57
+2414598708558046,Nathaniel,Ramos,20147,854518728062939,2414598708558046,BOT: quick reply,":keycap_1: commensurate
+:keycap_2: malleable
+:keycap_3: tractable
+:keycap_4: innocuous
+:keycap_5: halcyon
+",2018-08-28 12:08:58
+2414598708558046,Nathaniel,Ramos,20148,2414598708558046,854518728062939,user_quick_reply: BUTTON_AKB_commensurate,:keycap_1:,2018-08-28 12:09:08
+2414598708558046,Nathaniel,Ramos,20149,854518728062939,2414598708558046,BOT: message,Yes! You got the correct answer!,2018-08-28 12:09:09
+2414598708558046,Nathaniel,Ramos,20150,854518728062939,2414598708558046,BOT: quick reply,The correct answer is commensurate.,2018-08-28 12:09:09
+2414598708558046,Nathaniel,Ramos,20151,2414598708558046,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-28 12:09:13
+2414598708558046,Nathaniel,Ramos,20152,854518728062939,2414598708558046,BOT: message,Let's try this one.,2018-08-28 12:09:13
+2414598708558046,Nathaniel,Ramos,20153,854518728062939,2414598708558046,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-28 12:09:14
+2414598708558046,Nathaniel,Ramos,20154,854518728062939,2414598708558046,BOT: quick reply,Seth was extremely _____ and did not enjoy activities that required effort to meet new people.,2018-08-28 12:09:14
+2414598708558046,Nathaniel,Ramos,20155,2414598708558046,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-28 12:09:45
+2414598708558046,Nathaniel,Ramos,20156,854518728062939,2414598708558046,BOT: message,Okay. I'll give you some choices.,2018-08-28 12:09:46
+2414598708558046,Nathaniel,Ramos,20157,854518728062939,2414598708558046,BOT: quick reply,":keycap_1: gregarious
+:keycap_2: lackluster
+:keycap_3: introverted
+:keycap_4: jaded
+:keycap_5: extroverted
+",2018-08-28 12:09:46
+2414598708558046,Nathaniel,Ramos,20158,2414598708558046,854518728062939,user_quick_reply: BUTTON_AKB_introverted,:keycap_3:,2018-08-28 12:09:56
+2414598708558046,Nathaniel,Ramos,20159,854518728062939,2414598708558046,BOT: message,Yes! You got the correct answer!,2018-08-28 12:09:57
+2414598708558046,Nathaniel,Ramos,20160,854518728062939,2414598708558046,BOT: quick reply,The correct answer is introverted.,2018-08-28 12:09:57
+2414598708558046,Nathaniel,Ramos,20161,2414598708558046,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-28 12:10:04
+2414598708558046,Nathaniel,Ramos,20162,854518728062939,2414598708558046,BOT: message,Let's see if you would answer this one.,2018-08-28 12:10:04
+2414598708558046,Nathaniel,Ramos,20163,854518728062939,2414598708558046,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-28 12:10:05
+2414598708558046,Nathaniel,Ramos,20164,854518728062939,2414598708558046,BOT: quick reply,"With a similar contrast between a partly cloudy sky and a dark street, the cover of the recent rock CD _____ a famous surrealist painting from the early 1900s.",2018-08-28 12:10:05
+2414598708558046,Nathaniel,Ramos,20165,2414598708558046,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-28 12:10:10
+2414598708558046,Nathaniel,Ramos,20166,854518728062939,2414598708558046,BOT: message,Okay. I'll give you some choices.,2018-08-28 12:10:11
+2414598708558046,Nathaniel,Ramos,20167,854518728062939,2414598708558046,BOT: quick reply,":keycap_1: admires
+:keycap_2: sanctions
+:keycap_3: disenchants
+:keycap_4: evokes
+:keycap_5: obfuscates
+",2018-08-28 12:10:11
+2414598708558046,Nathaniel,Ramos,20168,2414598708558046,854518728062939,user_quick_reply: BUTTON_AKB_evokes,:keycap_4:,2018-08-28 12:10:20
+2414598708558046,Nathaniel,Ramos,20169,854518728062939,2414598708558046,BOT: message,Yes! You got the correct answer!,2018-08-28 12:10:20
+2414598708558046,Nathaniel,Ramos,20170,854518728062939,2414598708558046,BOT: quick reply,The correct answer is evokes.,2018-08-28 12:10:21
+2414598708558046,Nathaniel,Ramos,20171,2414598708558046,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-28 12:10:25
+2414598708558046,Nathaniel,Ramos,20172,854518728062939,2414598708558046,BOT: message,Let's see if you can answer this question.,2018-08-28 12:10:25
+2414598708558046,Nathaniel,Ramos,20173,854518728062939,2414598708558046,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-28 12:10:25
+2414598708558046,Nathaniel,Ramos,20174,854518728062939,2414598708558046,BOT: quick reply,"Having squandered his life's savings on unprofitable business ventures, the _____ entrepreneur was forced to live in squalor.",2018-08-28 12:10:26
+2414598708558046,Nathaniel,Ramos,20175,2414598708558046,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-28 12:10:34
+2414598708558046,Nathaniel,Ramos,20176,854518728062939,2414598708558046,BOT: message,Okay. I'll give you some choices.,2018-08-28 12:10:35
+2414598708558046,Nathaniel,Ramos,20177,854518728062939,2414598708558046,BOT: quick reply,":keycap_1: former
+:keycap_2: perturbed
+:keycap_3: unlikely
+:keycap_4: eccentric
+:keycap_5: insolvent
+",2018-08-28 12:10:35
+2414598708558046,Nathaniel,Ramos,20178,2414598708558046,854518728062939,user_quick_reply: BUTTON_DKB_former,:keycap_1:,2018-08-28 12:10:50
+2414598708558046,Nathaniel,Ramos,20179,854518728062939,2414598708558046,BOT: message,"Oops, that wasn't quite correct. :disappointed_face:",2018-08-28 12:10:51
+2414598708558046,Nathaniel,Ramos,20180,854518728062939,2414598708558046,BOT: quick reply,The correct answer is insolvent.,2018-08-28 12:10:52
+2414598708558046,Nathaniel,Ramos,20181,2414598708558046,854518728062939,user_quick_reply: WHY,Why?,2018-08-28 12:10:59
+2414598708558046,Nathaniel,Ramos,20182,854518728062939,2414598708558046,BOT: message,This is why:,2018-08-28 12:11:00
+2414598708558046,Nathaniel,Ramos,20183,854518728062939,2414598708558046,BOT: quick reply,":pushpin: Insolvent -- unable to meet or discharge financial obligations
+:pushpin: Former -- preceding in time; prior or earlier
+:pushpin: Unlikely -- not likely to be true or to occur or to have occurred
+:pushpin: Perturbed -- thrown into a state of agitated confusion
+:pushpin: Eccentric -- conspicuously or grossly unconventional or unusual",2018-08-28 12:11:00
+2414598708558046,Nathaniel,Ramos,20184,2414598708558046,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-28 12:11:08
+2414598708558046,Nathaniel,Ramos,20185,854518728062939,2414598708558046,BOT: message,Let's see if you can get this one.,2018-08-28 12:11:09
+2414598708558046,Nathaniel,Ramos,20186,854518728062939,2414598708558046,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-28 12:11:09
+2414598708558046,Nathaniel,Ramos,20187,854518728062939,2414598708558046,BOT: quick reply,Many Major League Baseball relief pitchers choose an electrifying theme song to play as they take the mound; the song _____ their fans and instills fear in their opponents.,2018-08-28 12:11:10
+2414598708558046,Nathaniel,Ramos,20188,2414598708558046,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-28 12:11:18
+2414598708558046,Nathaniel,Ramos,20189,854518728062939,2414598708558046,BOT: message,It's one of the following choices.,2018-08-28 12:11:19
+2414598708558046,Nathaniel,Ramos,20190,854518728062939,2414598708558046,BOT: quick reply,":keycap_1: pervades
+:keycap_2: innervates
+:keycap_3: enervates
+:keycap_4: eviscerates
+:keycap_5: assuages
+",2018-08-28 12:11:19
+2414598708558046,Nathaniel,Ramos,20191,2414598708558046,854518728062939,user_quick_reply: BUTTON_AKB_innervates,:keycap_2:,2018-08-28 12:11:31
+2414598708558046,Nathaniel,Ramos,20192,854518728062939,2414598708558046,BOT: message,Yes! You got the correct answer!,2018-08-28 12:11:31
+2414598708558046,Nathaniel,Ramos,20193,854518728062939,2414598708558046,BOT: quick reply,The correct answer is innervates.,2018-08-28 12:11:32
+2414598708558046,Nathaniel,Ramos,20194,2414598708558046,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-28 12:11:36
+2414598708558046,Nathaniel,Ramos,20195,854518728062939,2414598708558046,BOT: message,Let's see if you can answer this question.,2018-08-28 12:11:37
+2414598708558046,Nathaniel,Ramos,20196,854518728062939,2414598708558046,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-28 12:11:37
+2414598708558046,Nathaniel,Ramos,20197,854518728062939,2414598708558046,BOT: quick reply,"Although John F. Kennedy was known for his carefree flag football games, Gerald Ford should be _____ as our football president: he turned down offers to play for two National Football League teams in order to pursue a career in public service.",2018-08-28 12:11:38
+2414598708558046,Nathaniel,Ramos,20198,2414598708558046,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-28 12:11:46
+2414598708558046,Nathaniel,Ramos,20199,854518728062939,2414598708558046,BOT: message,Pick one of the following answers.,2018-08-28 12:11:47
+2414598708558046,Nathaniel,Ramos,20200,854518728062939,2414598708558046,BOT: quick reply,":keycap_1: abrogated
+:keycap_2: relegated
+:keycap_3: apotheosized
+:keycap_4: criticized
+:keycap_5: annulled
+",2018-08-28 12:11:47
+2414598708558046,Nathaniel,Ramos,20201,2414598708558046,854518728062939,user_quick_reply: BUTTON_AKB_apotheosized,:keycap_3:,2018-08-28 12:11:58
+2414598708558046,Nathaniel,Ramos,20202,854518728062939,2414598708558046,BOT: message,Nice! That was right!,2018-08-28 12:11:58
+2414598708558046,Nathaniel,Ramos,20203,854518728062939,2414598708558046,BOT: quick reply,The correct answer is apotheosized.,2018-08-28 12:11:58
+2414598708558046,Nathaniel,Ramos,20204,2414598708558046,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-28 12:12:02
+2414598708558046,Nathaniel,Ramos,20205,854518728062939,2414598708558046,BOT: message,Let's see if you can get this one.,2018-08-28 12:12:03
+2414598708558046,Nathaniel,Ramos,20206,854518728062939,2414598708558046,BOT: quick reply,The Erie Canal's completion caused _____ economic ripples; property values and industrial output along its route rose exponentially.,2018-08-28 12:12:03
+2414598708558046,Nathaniel,Ramos,20207,2414598708558046,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-28 12:12:09
+2414598708558046,Nathaniel,Ramos,20208,854518728062939,2414598708558046,BOT: message,Which of the following options is the right answer?,2018-08-28 12:12:10
+2414598708558046,Nathaniel,Ramos,20209,854518728062939,2414598708558046,BOT: quick reply,":keycap_1: incredulous
+:keycap_2: severe
+:keycap_3: prodigious
+:keycap_4: persistent
+:keycap_5: invaluable
+",2018-08-28 12:12:10
+2414598708558046,Nathaniel,Ramos,20210,2414598708558046,854518728062939,user_quick_reply: BUTTON_AKB_prodigious,:keycap_3:,2018-08-28 12:12:17
+2414598708558046,Nathaniel,Ramos,20211,854518728062939,2414598708558046,BOT: message,Yes! You got the correct answer!,2018-08-28 12:12:18
+2414598708558046,Nathaniel,Ramos,20212,854518728062939,2414598708558046,BOT: quick reply,The correct answer is prodigious.,2018-08-28 12:12:18
+2414598708558046,Nathaniel,Ramos,20213,2414598708558046,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-28 12:12:24
+2414598708558046,Nathaniel,Ramos,20214,854518728062939,2414598708558046,BOT: message,Let's try this one.,2018-08-28 12:12:24
+2414598708558046,Nathaniel,Ramos,20215,854518728062939,2414598708558046,BOT: quick reply,"Just as different people can have very different personalities, so too can pets - even those of the same species and breed possess varied _____ .",2018-08-28 12:12:25
+2414598708558046,Nathaniel,Ramos,20216,2414598708558046,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-28 12:12:36
+2414598708558046,Nathaniel,Ramos,20217,854518728062939,2414598708558046,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-08-28 12:12:36
+2414598708558046,Nathaniel,Ramos,20218,854518728062939,2414598708558046,BOT: quick reply,":keycap_1: initiations
+:keycap_2: temperaments
+:keycap_3: rationalizations
+:keycap_4: aptitudes
+:keycap_5: implementations
+",2018-08-28 12:12:37
+2414598708558046,Nathaniel,Ramos,20219,2414598708558046,854518728062939,user_quick_reply: BUTTON_AKB_temperaments,:keycap_2:,2018-08-28 12:12:50
+2414598708558046,Nathaniel,Ramos,20220,854518728062939,2414598708558046,BOT: message,Great! Keep it up! :flexed_biceps_medium-light_skin_tone:,2018-08-28 12:12:50
+2414598708558046,Nathaniel,Ramos,20221,854518728062939,2414598708558046,BOT: quick reply,The correct answer is temperaments.,2018-08-28 12:12:51
+2414598708558046,Nathaniel,Ramos,20222,2414598708558046,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-28 12:13:12
+2414598708558046,Nathaniel,Ramos,20223,854518728062939,2414598708558046,BOT: message,How about this next one:,2018-08-28 12:13:13
+2414598708558046,Nathaniel,Ramos,20224,854518728062939,2414598708558046,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-28 12:13:14
+2414598708558046,Nathaniel,Ramos,20225,854518728062939,2414598708558046,BOT: quick reply,"Just as different people can have very different personalities, so too can pets - even those of the same species and breed possess varied _____ .",2018-08-28 12:13:14
+2414598708558046,Nathaniel,Ramos,20226,2414598708558046,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-28 12:13:22
+2414598708558046,Nathaniel,Ramos,20227,854518728062939,2414598708558046,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-08-28 12:13:22
+2414598708558046,Nathaniel,Ramos,20228,854518728062939,2414598708558046,BOT: quick reply,":keycap_1: rationalizations
+:keycap_2: aptitudes
+:keycap_3: initiations
+:keycap_4: implementations
+:keycap_5: temperaments
+",2018-08-28 12:13:23
+2414598708558046,Nathaniel,Ramos,20229,2414598708558046,854518728062939,user_quick_reply: BUTTON_DKB_aptitudes,:keycap_2:,2018-08-28 12:13:29
+2414598708558046,Nathaniel,Ramos,20230,854518728062939,2414598708558046,BOT: message,"Hmm, that wasn't quite right. :disappointed_face:",2018-08-28 12:13:30
+2414598708558046,Nathaniel,Ramos,20231,854518728062939,2414598708558046,BOT: quick reply,The correct answer is temperaments.,2018-08-28 12:13:31
+2414598708558046,Nathaniel,Ramos,20232,2414598708558046,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-28 12:13:35
+2414598708558046,Nathaniel,Ramos,20233,854518728062939,2414598708558046,BOT: message,What about this next question:,2018-08-28 12:13:35
+2414598708558046,Nathaniel,Ramos,20234,854518728062939,2414598708558046,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-28 12:13:35
+2414598708558046,Nathaniel,Ramos,20235,854518728062939,2414598708558046,BOT: quick reply,"In psychological literature, the ""sleeper effect"" refers to the phenomenon in which a persuasive message from a trustworthy source loses _____ over time, while the efficacy of a message from a less credible source simultaneously increases.",2018-08-28 12:13:36
+2414598708558046,Nathaniel,Ramos,20236,2414598708558046,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-28 12:13:41
+2414598708558046,Nathaniel,Ramos,20237,854518728062939,2414598708558046,BOT: message,Which of the following options is the right answer?,2018-08-28 12:13:42
+2414598708558046,Nathaniel,Ramos,20238,854518728062939,2414598708558046,BOT: quick reply,":keycap_1: cogency
+:keycap_2: control
+:keycap_3: prescience
+:keycap_4: evasiveness
+:keycap_5: erudition
+",2018-08-28 12:13:42
+2414598708558046,Nathaniel,Ramos,20239,2414598708558046,854518728062939,user_quick_reply: BUTTON_AKB_cogency,:keycap_1:,2018-08-28 12:13:47
+2414598708558046,Nathaniel,Ramos,20240,854518728062939,2414598708558046,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_happy_cyan.png,2018-08-28 12:13:48
+2414598708558046,Nathaniel,Ramos,20241,854518728062939,2414598708558046,BOT: message,Great job!,2018-08-28 12:13:48
+2414598708558046,Nathaniel,Ramos,20242,854518728062939,2414598708558046,BOT: quick reply,The correct answer is cogency.,2018-08-28 12:13:49
+2414598708558046,Nathaniel,Ramos,20243,2414598708558046,854518728062939,user_quick_reply: WHY,Why?,2018-08-28 12:13:53
+2414598708558046,Nathaniel,Ramos,20244,854518728062939,2414598708558046,BOT: message,I hope this explanation could help you understand the the question.,2018-08-28 12:13:53
+2414598708558046,Nathaniel,Ramos,20245,854518728062939,2414598708558046,BOT: quick reply,":pushpin: Cogency -- persuasive relevance
+:pushpin: Prescience -- the power to foresee the future
+:pushpin: Erudition -- profound scholarly knowledge
+:pushpin: Evasiveness -- intentionally vague or ambiguous
+:pushpin: Control -- exercise authoritative control or power over",2018-08-28 12:13:54
+2414598708558046,Nathaniel,Ramos,20246,2414598708558046,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-28 12:14:00
+2414598708558046,Nathaniel,Ramos,20247,854518728062939,2414598708558046,BOT: message,Would you answer this question for me?,2018-08-28 12:14:01
+2414598708558046,Nathaniel,Ramos,20248,854518728062939,2414598708558046,BOT: quick reply,"Prior to taking on the new invader, the defending army had engaged in arduous combat; it is likely that the _____ resulting from waging two battles in two days played a part in its subsequent defeat.",2018-08-28 12:14:01
+2414598708558046,Nathaniel,Ramos,20249,2414598708558046,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-28 12:14:07
+2414598708558046,Nathaniel,Ramos,20250,854518728062939,2414598708558046,BOT: message,Okay. I'll give you some choices.,2018-08-28 12:14:08
+2414598708558046,Nathaniel,Ramos,20251,854518728062939,2414598708558046,BOT: quick reply,":keycap_1: pacification
+:keycap_2: pugnacity
+:keycap_3: aggravation
+:keycap_4: enervation
+:keycap_5: bellicosity
+",2018-08-28 12:14:08
+2414598708558046,Nathaniel,Ramos,20252,2414598708558046,854518728062939,user_quick_reply: BUTTON_DKB_pugnacity,:keycap_2:,2018-08-28 12:14:12
+2414598708558046,Nathaniel,Ramos,20253,854518728062939,2414598708558046,BOT: message,"I'm sorry, but that was incorrect. :disappointed_face:",2018-08-28 12:14:13
+2414598708558046,Nathaniel,Ramos,20254,854518728062939,2414598708558046,BOT: quick reply,The correct answer is enervation.,2018-08-28 12:14:13
+2414598708558046,Nathaniel,Ramos,20255,2414598708558046,854518728062939,user_quick_reply: WHY,Why?,2018-08-28 12:14:18
+2414598708558046,Nathaniel,Ramos,20256,854518728062939,2414598708558046,BOT: message,Here's why:,2018-08-28 12:14:18
+2414598708558046,Nathaniel,Ramos,20257,854518728062939,2414598708558046,BOT: quick reply,":pushpin: Enervation -- lack of vitality
+:pushpin: Bellicosity -- a natural disposition to fight
+:pushpin: Pugnacity -- a natural disposition to be hostile
+:pushpin: Pacification -- the act of appeasing someone or causing someone to be more favorably inclined
+:pushpin: Aggravation -- an exasperated feeling of annoyance",2018-08-28 12:14:19
+2414598708558046,Nathaniel,Ramos,20258,2414598708558046,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-28 12:14:30
+2414598708558046,Nathaniel,Ramos,20259,854518728062939,2414598708558046,BOT: message,What about this next question:,2018-08-28 12:14:31
+2414598708558046,Nathaniel,Ramos,20260,854518728062939,2414598708558046,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-28 12:14:32
+2414598708558046,Nathaniel,Ramos,20261,854518728062939,2414598708558046,BOT: quick reply,"Possessing few natural resources upon its newly-granted independence in 1863, Singapore remained economically _____ until an influx of industrialization and foreign investment took hold there.",2018-08-28 12:14:32
+2414598708558046,Nathaniel,Ramos,20262,2414598708558046,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-28 12:14:42
+2414598708558046,Nathaniel,Ramos,20263,854518728062939,2414598708558046,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-08-28 12:14:43
+2414598708558046,Nathaniel,Ramos,20264,854518728062939,2414598708558046,BOT: quick reply,":keycap_1: solvent
+:keycap_2: dubious
+:keycap_3: fortuitous
+:keycap_4: prosperous
+:keycap_5: powerful
+",2018-08-28 12:14:43
+2414598708558046,Nathaniel,Ramos,20265,2414598708558046,854518728062939,user_quick_reply: BUTTON_AKB_dubious,:keycap_2:,2018-08-28 12:15:00
+2414598708558046,Nathaniel,Ramos,20266,854518728062939,2414598708558046,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_happy_pink.png,2018-08-28 12:15:01
+2414598708558046,Nathaniel,Ramos,20267,854518728062939,2414598708558046,BOT: message,Great! Keep it up! :flexed_biceps_medium-light_skin_tone:,2018-08-28 12:15:03
+2414598708558046,Nathaniel,Ramos,20268,854518728062939,2414598708558046,BOT: quick reply,The correct answer is dubious.,2018-08-28 12:15:03
+2414598708558046,Nathaniel,Ramos,20269,2414598708558046,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-28 12:15:10
+2414598708558046,Nathaniel,Ramos,20270,854518728062939,2414598708558046,BOT: message,I think you'll like this question.,2018-08-28 12:15:11
+2414598708558046,Nathaniel,Ramos,20271,854518728062939,2414598708558046,BOT: quick reply,"In psychological literature, the ""sleeper effect"" refers to the phenomenon in which a persuasive message from a trustworthy source loses _____ over time, while the efficacy of a message from a less credible source simultaneously increases.",2018-08-28 12:15:11
+2414598708558046,Nathaniel,Ramos,20272,2414598708558046,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-28 12:15:19
+2414598708558046,Nathaniel,Ramos,20273,854518728062939,2414598708558046,BOT: message,It's one of the following choices.,2018-08-28 12:15:20
+2414598708558046,Nathaniel,Ramos,20274,854518728062939,2414598708558046,BOT: quick reply,":keycap_1: erudition
+:keycap_2: evasiveness
+:keycap_3: prescience
+:keycap_4: control
+:keycap_5: cogency
+",2018-08-28 12:15:20
+2414598708558046,Nathaniel,Ramos,20275,2414598708558046,854518728062939,user_quick_reply: BUTTON_DKB_evasiveness,:keycap_2:,2018-08-28 12:15:33
+2414598708558046,Nathaniel,Ramos,20276,854518728062939,2414598708558046,BOT: message,That's not quite right. :disappointed_face:,2018-08-28 12:15:34
+2414598708558046,Nathaniel,Ramos,20277,854518728062939,2414598708558046,BOT: quick reply,The correct answer is cogency.,2018-08-28 12:15:34
+2414598708558046,Nathaniel,Ramos,20278,2414598708558046,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-28 12:15:38
+2414598708558046,Nathaniel,Ramos,20279,854518728062939,2414598708558046,BOT: message,How about this next one:,2018-08-28 12:15:39
+2414598708558046,Nathaniel,Ramos,20280,854518728062939,2414598708558046,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-28 12:15:40
+2414598708558046,Nathaniel,Ramos,20281,854518728062939,2414598708558046,BOT: quick reply,"Despite the smile that spread from ear to ear, the eyes relayed a certain _____ .",2018-08-28 12:15:40
+2414598708558046,Nathaniel,Ramos,20282,2414598708558046,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-28 12:15:44
+2414598708558046,Nathaniel,Ramos,20283,854518728062939,2414598708558046,BOT: message,Which of the following options is the right answer?,2018-08-28 12:15:45
+2414598708558046,Nathaniel,Ramos,20284,854518728062939,2414598708558046,BOT: quick reply,":keycap_1: mischievousness
+:keycap_2: sorrow
+:keycap_3: liveliness
+:keycap_4: vision
+:keycap_5: jubilance
+",2018-08-28 12:15:46
+2414598708558046,Nathaniel,Ramos,20285,2414598708558046,854518728062939,user_typing,Sorrow,2018-08-28 12:15:56
+2414598708558046,Nathaniel,Ramos,20286,854518728062939,2414598708558046,BOT: message,Good Answer! :white_heavy_check_mark:,2018-08-28 12:15:56
+2414598708558046,Nathaniel,Ramos,20287,854518728062939,2414598708558046,BOT: quick reply,The correct answer is sorrow.,2018-08-28 12:15:57
+2414598708558046,Nathaniel,Ramos,20288,2414598708558046,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-28 12:16:16
+2414598708558046,Nathaniel,Ramos,20289,854518728062939,2414598708558046,BOT: message,"Alrighty, let's try this one.",2018-08-28 12:16:16
+2414598708558046,Nathaniel,Ramos,20290,854518728062939,2414598708558046,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-28 12:16:17
+2414598708558046,Nathaniel,Ramos,20291,854518728062939,2414598708558046,BOT: quick reply,Many Major League Baseball relief pitchers choose an electrifying theme song to play as they take the mound; the song _____ their fans and instills fear in their opponents.,2018-08-28 12:16:17
+2414598708558046,Nathaniel,Ramos,20292,2414598708558046,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-28 12:16:24
+2414598708558046,Nathaniel,Ramos,20293,854518728062939,2414598708558046,BOT: message,Okay. I'll give you some choices.,2018-08-28 12:16:24
+2414598708558046,Nathaniel,Ramos,20294,854518728062939,2414598708558046,BOT: quick reply,":keycap_1: eviscerates
+:keycap_2: innervates
+:keycap_3: enervates
+:keycap_4: pervades
+:keycap_5: assuages
+",2018-08-28 12:16:25
+2414598708558046,Nathaniel,Ramos,20295,2414598708558046,854518728062939,user_quick_reply: BUTTON_AKB_innervates,:keycap_2:,2018-08-28 12:16:29
+2414598708558046,Nathaniel,Ramos,20296,854518728062939,2414598708558046,BOT: message,Great! Keep it up! :flexed_biceps_medium-light_skin_tone:,2018-08-28 12:16:30
+2414598708558046,Nathaniel,Ramos,20297,854518728062939,2414598708558046,BOT: quick reply,The correct answer is innervates.,2018-08-28 12:16:30
+2414598708558046,Nathaniel,Ramos,20298,2414598708558046,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-28 12:16:49
+2414598708558046,Nathaniel,Ramos,20299,854518728062939,2414598708558046,BOT: message,How about this next one:,2018-08-28 12:16:49
+2414598708558046,Nathaniel,Ramos,20300,854518728062939,2414598708558046,BOT: quick reply,"Modern tennis fans have come to realize that, although, quantum technological leaps in racquet technology have lead to _____ increases in the speed and power with which players can hit the ball, this has not necessarily lead to a more entertaining game.",2018-08-28 12:16:50
+2414598708558046,Nathaniel,Ramos,20301,2414598708558046,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-28 12:16:56
+2414598708558046,Nathaniel,Ramos,20302,854518728062939,2414598708558046,BOT: message,Pick one of the following answers.,2018-08-28 12:16:56
+2414598708558046,Nathaniel,Ramos,20303,854518728062939,2414598708558046,BOT: quick reply,":keycap_1: halcyon
+:keycap_2: tractable
+:keycap_3: malleable
+:keycap_4: innocuous
+:keycap_5: commensurate
+",2018-08-28 12:16:57
+2414598708558046,Nathaniel,Ramos,20304,2414598708558046,854518728062939,user_quick_reply: BUTTON_AKB_commensurate,:keycap_5:,2018-08-28 12:17:01
+2414598708558046,Nathaniel,Ramos,20305,854518728062939,2414598708558046,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_normal.png,2018-08-28 12:17:03
+2414598708558046,Nathaniel,Ramos,20306,854518728062939,2414598708558046,BOT: message,Great job!,2018-08-28 12:17:03
+2414598708558046,Nathaniel,Ramos,20307,854518728062939,2414598708558046,BOT: quick reply,The correct answer is commensurate.,2018-08-28 12:17:04
+2414598708558046,Nathaniel,Ramos,20308,2414598708558046,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-28 12:17:08
+2414598708558046,Nathaniel,Ramos,20309,854518728062939,2414598708558046,BOT: message,What about this next question:,2018-08-28 12:17:09
+2414598708558046,Nathaniel,Ramos,20310,854518728062939,2414598708558046,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-28 12:17:10
+2414598708558046,Nathaniel,Ramos,20311,854518728062939,2414598708558046,BOT: quick reply,While she may have answered him truthfully - in the strictest sense of the word - it became clear to Sergei after the incident that Sheryl had actually been trying to _____ .,2018-08-28 12:17:10
+2414598708558046,Nathaniel,Ramos,20312,2414598708558046,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-28 12:17:16
+2414598708558046,Nathaniel,Ramos,20313,854518728062939,2414598708558046,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-08-28 12:17:17
+2414598708558046,Nathaniel,Ramos,20314,854518728062939,2414598708558046,BOT: quick reply,":keycap_1: obfuscate
+:keycap_2: covet
+:keycap_3: illuminate
+:keycap_4: vituperate
+:keycap_5: desiccate
+",2018-08-28 12:17:17
+2414598708558046,Nathaniel,Ramos,20315,2414598708558046,854518728062939,user_quick_reply: BUTTON_AKB_obfuscate,:keycap_1:,2018-08-28 12:17:24
+2414598708558046,Nathaniel,Ramos,20316,854518728062939,2414598708558046,BOT: message,Great! Keep it up! :flexed_biceps_medium-light_skin_tone:,2018-08-28 12:17:24
+2414598708558046,Nathaniel,Ramos,20317,854518728062939,2414598708558046,BOT: quick reply,The correct answer is obfuscate.,2018-08-28 12:17:25
+2414598708558046,Nathaniel,Ramos,20318,2414598708558046,854518728062939,user_quick_reply: WHY,Why?,2018-08-28 12:17:29
+2414598708558046,Nathaniel,Ramos,20319,854518728062939,2414598708558046,BOT: message,This is why:,2018-08-28 12:17:30
+2414598708558046,Nathaniel,Ramos,20320,854518728062939,2414598708558046,BOT: quick reply,":pushpin: Obfuscate -- make obscure or unclear
+:pushpin: Vituperate -- spread negative information about
+:pushpin: Illuminate -- make lighter or brighter
+:pushpin: Covet -- wish, long, or crave for something, especially the property of another person
+:pushpin: Desiccate -- to dry thoroughly; dry up",2018-08-28 12:17:31
+2414598708558046,Nathaniel,Ramos,20321,2414598708558046,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-28 12:17:35
+2414598708558046,Nathaniel,Ramos,20322,854518728062939,2414598708558046,BOT: message,Could you answer this one for me?,2018-08-28 12:17:35
+2414598708558046,Nathaniel,Ramos,20323,854518728062939,2414598708558046,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-28 12:17:36
+2414598708558046,Nathaniel,Ramos,20324,854518728062939,2414598708558046,BOT: quick reply,Many Major League Baseball relief pitchers choose an electrifying theme song to play as they take the mound; the song _____ their fans and instills fear in their opponents.,2018-08-28 12:17:36
+2414598708558046,Nathaniel,Ramos,20325,2414598708558046,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-28 12:17:42
+2414598708558046,Nathaniel,Ramos,20326,854518728062939,2414598708558046,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-08-28 12:17:43
+2414598708558046,Nathaniel,Ramos,20327,854518728062939,2414598708558046,BOT: quick reply,":keycap_1: innervates
+:keycap_2: assuages
+:keycap_3: eviscerates
+:keycap_4: enervates
+:keycap_5: pervades
+",2018-08-28 12:17:43
+2414598708558046,Nathaniel,Ramos,20328,2414598708558046,854518728062939,user_quick_reply: BUTTON_AKB_innervates,:keycap_1:,2018-08-28 12:17:51
+2414598708558046,Nathaniel,Ramos,20329,854518728062939,2414598708558046,BOT: message,Great job getting the correct answer!,2018-08-28 12:17:51
+2414598708558046,Nathaniel,Ramos,20330,854518728062939,2414598708558046,BOT: quick reply,The correct answer is innervates.,2018-08-28 12:17:52
+2414598708558046,Nathaniel,Ramos,20331,2414598708558046,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-28 12:18:04
+2414598708558046,Nathaniel,Ramos,20332,854518728062939,2414598708558046,BOT: message,Could you answer this one for me?,2018-08-28 12:18:04
+2414598708558046,Nathaniel,Ramos,20333,854518728062939,2414598708558046,BOT: quick reply,"Possessing few natural resources upon its newly-granted independence in 1863, Singapore remained economically _____ until an influx of industrialization and foreign investment took hold there.",2018-08-28 12:18:05
+2414598708558046,Nathaniel,Ramos,20334,2414598708558046,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-28 12:18:21
+2414598708558046,Nathaniel,Ramos,20335,854518728062939,2414598708558046,BOT: message,Okay. I'll give you some choices.,2018-08-28 12:18:21
+2414598708558046,Nathaniel,Ramos,20336,854518728062939,2414598708558046,BOT: quick reply,":keycap_1: dubious
+:keycap_2: solvent
+:keycap_3: powerful
+:keycap_4: prosperous
+:keycap_5: fortuitous
+",2018-08-28 12:18:22
+2414598708558046,Nathaniel,Ramos,20337,2414598708558046,854518728062939,user_quick_reply: BUTTON_AKB_dubious,:keycap_1:,2018-08-28 12:18:34
+2414598708558046,Nathaniel,Ramos,20338,854518728062939,2414598708558046,BOT: message,Great job!,2018-08-28 12:18:35
+2414598708558046,Nathaniel,Ramos,20339,854518728062939,2414598708558046,BOT: quick reply,The correct answer is dubious.,2018-08-28 12:18:35
+2414598708558046,Nathaniel,Ramos,20340,2414598708558046,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-28 12:18:45
+2414598708558046,Nathaniel,Ramos,20341,854518728062939,2414598708558046,BOT: message,Let's see if you can answer this question.,2018-08-28 12:18:46
+2414598708558046,Nathaniel,Ramos,20342,854518728062939,2414598708558046,BOT: quick reply,"In psychological literature, the ""sleeper effect"" refers to the phenomenon in which a persuasive message from a trustworthy source loses _____ over time, while the efficacy of a message from a less credible source simultaneously increases.",2018-08-28 12:18:46
+2414598708558046,Nathaniel,Ramos,20343,2414598708558046,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-28 12:19:00
+2414598708558046,Nathaniel,Ramos,20344,854518728062939,2414598708558046,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-08-28 12:19:01
+2414598708558046,Nathaniel,Ramos,20345,854518728062939,2414598708558046,BOT: quick reply,":keycap_1: prescience
+:keycap_2: erudition
+:keycap_3: cogency
+:keycap_4: control
+:keycap_5: evasiveness
+",2018-08-28 12:19:01
+2414598708558046,Nathaniel,Ramos,20346,2414598708558046,854518728062939,user_quick_reply: BUTTON_AKB_cogency,:keycap_3:,2018-08-28 12:19:29
+2414598708558046,Nathaniel,Ramos,20347,854518728062939,2414598708558046,BOT: message,Great job!,2018-08-28 12:19:29
+2414598708558046,Nathaniel,Ramos,20348,854518728062939,2414598708558046,BOT: quick reply,The correct answer is cogency.,2018-08-28 12:19:30
+2414598708558046,Nathaniel,Ramos,20349,2414598708558046,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-28 12:19:37
+2414598708558046,Nathaniel,Ramos,20350,854518728062939,2414598708558046,BOT: message,Let's see if you can get this one.,2018-08-28 12:19:37
+2414598708558046,Nathaniel,Ramos,20351,854518728062939,2414598708558046,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-28 12:19:38
+2414598708558046,Nathaniel,Ramos,20352,854518728062939,2414598708558046,BOT: quick reply,"Having squandered his life's savings on unprofitable business ventures, the _____ entrepreneur was forced to live in squalor.",2018-08-28 12:19:38
+2414598708558046,Nathaniel,Ramos,20353,2414598708558046,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-28 12:19:46
+2414598708558046,Nathaniel,Ramos,20354,854518728062939,2414598708558046,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-08-28 12:19:46
+2414598708558046,Nathaniel,Ramos,20355,854518728062939,2414598708558046,BOT: quick reply,":keycap_1: perturbed
+:keycap_2: insolvent
+:keycap_3: eccentric
+:keycap_4: former
+:keycap_5: unlikely
+",2018-08-28 12:19:47
+2414598708558046,Nathaniel,Ramos,20356,2414598708558046,854518728062939,user_quick_reply: BUTTON_AKB_insolvent,:keycap_2:,2018-08-28 12:19:58
+2414598708558046,Nathaniel,Ramos,20357,854518728062939,2414598708558046,BOT: message,Yes! You got the correct answer!,2018-08-28 12:19:59
+2414598708558046,Nathaniel,Ramos,20358,854518728062939,2414598708558046,BOT: quick reply,The correct answer is insolvent.,2018-08-28 12:19:59
+2414598708558046,Nathaniel,Ramos,20359,2414598708558046,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-28 12:20:25
+2414598708558046,Nathaniel,Ramos,20360,854518728062939,2414598708558046,BOT: message,"Alrighty, let's try this one.",2018-08-28 12:20:25
+2414598708558046,Nathaniel,Ramos,20361,854518728062939,2414598708558046,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-28 12:20:26
+2414598708558046,Nathaniel,Ramos,20362,854518728062939,2414598708558046,BOT: quick reply,Many Major League Baseball relief pitchers choose an electrifying theme song to play as they take the mound; the song _____ their fans and instills fear in their opponents.,2018-08-28 12:20:26
+2414598708558046,Nathaniel,Ramos,20363,2414598708558046,854518728062939,user_typing,Innervates,2018-08-28 12:21:23
+2414598708558046,Nathaniel,Ramos,20364,854518728062939,2414598708558046,BOT: message,Good job! :raising_hands_medium-light_skin_tone:,2018-08-28 12:21:23
+2414598708558046,Nathaniel,Ramos,20365,854518728062939,2414598708558046,BOT: quick reply,The correct answer is innervates.,2018-08-28 12:21:24
+2414598708558046,Nathaniel,Ramos,20737,2414598708558046,854518728062939,persistent_menu: SCIENCE,Science:microscope:,2018-08-28 15:53:05
+2414598708558046,Nathaniel,Ramos,20738,854518728062939,2414598708558046,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/evolvereading_scientist.gif,2018-08-28 15:53:10
+2414598708558046,Nathaniel,Ramos,20739,854518728062939,2414598708558046,BOT: quick reply,Science rules! Let's see what you know.,2018-08-28 15:53:11
+2414598708558046,Nathaniel,Ramos,21030,854518728062939,2414598708558046,BOT: quick reply,"Hi Nathaniel, you haven't talked to me for a while. Would you like to resume the learning with me?",2018-08-28 20:00:14
+2414598708558046,Nathaniel,Ramos,23307,854518728062939,2414598708558046,BOT: quick reply,"Hi Nathaniel, you haven't talked to me for a while. Would you like to resume the learning with me?",2018-08-29 20:00:28
+2414598708558046,Nathaniel,Ramos,24605,2414598708558046,854518728062939,user_quick_reply: NEXT_QUESTION,"Yes, continue :light_bulb:",2018-08-30 13:29:14
+2414598708558046,Nathaniel,Ramos,24606,854518728062939,2414598708558046,BOT: message,I think you'll like this question.,2018-08-30 13:29:14
+2414598708558046,Nathaniel,Ramos,24607,854518728062939,2414598708558046,BOT: quick reply,"When your brain senses that your body temperature is increasing, it sends messages to the blood vessels in the skin to increase in what?",2018-08-30 13:29:15
+2414598708558046,Nathaniel,Ramos,24608,2414598708558046,854518728062939,user_typing,Diameter,2018-08-30 13:29:23
+2414598708558046,Nathaniel,Ramos,24609,854518728062939,2414598708558046,BOT: message,Nice! :red_apple:,2018-08-30 13:29:23
+2414598708558046,Nathaniel,Ramos,24610,854518728062939,2414598708558046,BOT: quick reply,The correct answer is diameter.,2018-08-30 13:29:24
+2414598708558046,Nathaniel,Ramos,24611,2414598708558046,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-30 13:29:28
+2414598708558046,Nathaniel,Ramos,24612,854518728062939,2414598708558046,BOT: message,What about this next question:,2018-08-30 13:29:28
+2414598708558046,Nathaniel,Ramos,24613,854518728062939,2414598708558046,BOT: quick reply,What opens two strands of DNA?,2018-08-30 13:29:29
+2414598708558046,Nathaniel,Ramos,24614,2414598708558046,854518728062939,user_typing,Helicase,2018-08-30 13:29:35
+2414598708558046,Nathaniel,Ramos,24615,854518728062939,2414598708558046,BOT: message,Fantastic! :hundred_points:,2018-08-30 13:29:36
+2414598708558046,Nathaniel,Ramos,24616,854518728062939,2414598708558046,BOT: quick reply,The correct answer is helicase.,2018-08-30 13:29:37
+2414598708558046,Nathaniel,Ramos,24617,2414598708558046,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-30 13:29:40
+2414598708558046,Nathaniel,Ramos,24618,854518728062939,2414598708558046,BOT: message,Could you answer this one for me?,2018-08-30 13:29:40
+2414598708558046,Nathaniel,Ramos,24619,854518728062939,2414598708558046,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-30 13:29:41
+2414598708558046,Nathaniel,Ramos,24620,854518728062939,2414598708558046,BOT: quick reply,What is the diffusion of water through a semipermeable membrane down its concentration gradient?,2018-08-30 13:29:42
+2414598708558046,Nathaniel,Ramos,24621,2414598708558046,854518728062939,user_typing,Osmosis,2018-08-30 13:29:50
+2414598708558046,Nathaniel,Ramos,24622,854518728062939,2414598708558046,BOT: message,Thats right! :party_popper:,2018-08-30 13:29:50
+2414598708558046,Nathaniel,Ramos,24623,854518728062939,2414598708558046,BOT: quick reply,The correct answer is osmosis.,2018-08-30 13:29:51
+2414598708558046,Nathaniel,Ramos,24624,2414598708558046,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-30 13:29:57
+2414598708558046,Nathaniel,Ramos,24625,854518728062939,2414598708558046,BOT: message,Let's try this one.,2018-08-30 13:29:57
+2414598708558046,Nathaniel,Ramos,24626,854518728062939,2414598708558046,BOT: quick reply,What are by far the most common type of invertebrate?,2018-08-30 13:29:58
+2414598708558046,Nathaniel,Ramos,24627,2414598708558046,854518728062939,user_quick_reply: I_DONT_KNOW,I dont know :downcast_face_with_sweat:,2018-08-30 13:30:11
+2414598708558046,Nathaniel,Ramos,24628,854518728062939,2414598708558046,BOT: quick reply,Are you sure you want to skip this question?,2018-08-30 13:30:12
+2414598708558046,Nathaniel,Ramos,24629,2414598708558046,854518728062939,user_quick_reply: GIVEUP_NO,"No, I'll try again!",2018-08-30 13:30:17
+2414598708558046,Nathaniel,Ramos,24630,854518728062939,2414598708558046,BOT: message,Okay! Let's give it a try again :flexed_biceps_medium-light_skin_tone:,2018-08-30 13:30:17
+2414598708558046,Nathaniel,Ramos,24631,854518728062939,2414598708558046,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-08-30 13:30:18
+2414598708558046,Nathaniel,Ramos,24632,854518728062939,2414598708558046,BOT: quick reply,":keycap_1: insects
+:keycap_2: corals
+:keycap_3: spiders
+:keycap_4: crustaceans
+",2018-08-30 13:30:18
+2414598708558046,Nathaniel,Ramos,24633,2414598708558046,854518728062939,user_quick_reply: BUTTON_AKB_insects,:keycap_1:,2018-08-30 13:30:30
+2414598708558046,Nathaniel,Ramos,24634,854518728062939,2414598708558046,BOT: message,Nice work! Keep it up!,2018-08-30 13:30:31
+2414598708558046,Nathaniel,Ramos,24635,854518728062939,2414598708558046,BOT: quick reply,The correct answer is insects.,2018-08-30 13:30:32
+2414598708558046,Nathaniel,Ramos,24636,2414598708558046,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-30 13:30:37
+2414598708558046,Nathaniel,Ramos,24637,854518728062939,2414598708558046,BOT: message,"Alrighty, let's try this one.",2018-08-30 13:30:37
+2414598708558046,Nathaniel,Ramos,24638,854518728062939,2414598708558046,BOT: quick reply,What are by far the most common type of invertebrate?,2018-08-30 13:30:38
+2414598708558046,Nathaniel,Ramos,24639,2414598708558046,854518728062939,user_typing,Insects,2018-08-30 13:30:45
+2414598708558046,Nathaniel,Ramos,24640,854518728062939,2414598708558046,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_jubilated_cyan.png,2018-08-30 13:30:46
+2414598708558046,Nathaniel,Ramos,24641,854518728062939,2414598708558046,BOT: message,Thats right! :party_popper:,2018-08-30 13:30:47
+2414598708558046,Nathaniel,Ramos,24642,854518728062939,2414598708558046,BOT: quick reply,The correct answer is insects.,2018-08-30 13:30:47
+2414598708558046,Nathaniel,Ramos,24643,2414598708558046,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-30 13:30:51
+2414598708558046,Nathaniel,Ramos,24644,854518728062939,2414598708558046,BOT: message,Would you answer this question for me?,2018-08-30 13:30:51
+2414598708558046,Nathaniel,Ramos,24645,854518728062939,2414598708558046,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-30 13:30:52
+2414598708558046,Nathaniel,Ramos,24646,854518728062939,2414598708558046,BOT: quick reply,The lithosphere is divided into a dozen major and several minor what?,2018-08-30 13:30:52
+2414598708558046,Nathaniel,Ramos,24647,2414598708558046,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-30 13:31:01
+2414598708558046,Nathaniel,Ramos,24648,854518728062939,2414598708558046,BOT: message,Which of the following options is the right answer?,2018-08-30 13:31:02
+2414598708558046,Nathaniel,Ramos,24649,854518728062939,2414598708558046,BOT: quick reply,":keycap_1: plates
+:keycap_2: zones
+:keycap_3: faults
+:keycap_4: crystals
+",2018-08-30 13:31:03
+2414598708558046,Nathaniel,Ramos,24650,2414598708558046,854518728062939,user_quick_reply: BUTTON_AKB_plates,:keycap_1:,2018-08-30 13:31:08
+2414598708558046,Nathaniel,Ramos,24651,854518728062939,2414598708558046,BOT: message,Great! Keep it up! :flexed_biceps_medium-light_skin_tone:,2018-08-30 13:31:08
+2414598708558046,Nathaniel,Ramos,24652,854518728062939,2414598708558046,BOT: quick reply,The correct answer is plates.,2018-08-30 13:31:09
+2414598708558046,Nathaniel,Ramos,24653,2414598708558046,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-30 13:31:13
+2414598708558046,Nathaniel,Ramos,24654,854518728062939,2414598708558046,BOT: message,Would you answer this question for me?,2018-08-30 13:31:14
+2414598708558046,Nathaniel,Ramos,24655,854518728062939,2414598708558046,BOT: quick reply,The electrode at which oxidation occurs is called the what?,2018-08-30 13:31:14
+2414598708558046,Nathaniel,Ramos,24656,2414598708558046,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-30 13:31:21
+2414598708558046,Nathaniel,Ramos,24657,854518728062939,2414598708558046,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-08-30 13:31:22
+2414598708558046,Nathaniel,Ramos,24658,854518728062939,2414598708558046,BOT: quick reply,":keycap_1: anode
+:keycap_2: calomel
+:keycap_3: diode
+:keycap_4: cathode
+",2018-08-30 13:31:22
+2414598708558046,Nathaniel,Ramos,24659,2414598708558046,854518728062939,user_quick_reply: BUTTON_DKB_diode,:keycap_3:,2018-08-30 13:31:28
+2414598708558046,Nathaniel,Ramos,24660,854518728062939,2414598708558046,BOT: message,"Oops, that wasn't quite correct. :disappointed_face:",2018-08-30 13:31:29
+2414598708558046,Nathaniel,Ramos,24661,854518728062939,2414598708558046,BOT: quick reply,The correct answer is anode.,2018-08-30 13:31:29
+2414598708558046,Nathaniel,Ramos,24662,2414598708558046,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-30 13:32:16
+2414598708558046,Nathaniel,Ramos,24663,854518728062939,2414598708558046,BOT: message,Would you answer this question for me?,2018-08-30 13:32:16
+2414598708558046,Nathaniel,Ramos,24664,854518728062939,2414598708558046,BOT: quick reply,What are the little sacs at the end of the bronchioles called?,2018-08-30 13:32:17
+2414598708558046,Nathaniel,Ramos,24665,2414598708558046,854518728062939,user_typing,Alveoli,2018-08-30 13:32:24
+2414598708558046,Nathaniel,Ramos,24666,854518728062939,2414598708558046,BOT: message,Fantastic! :hundred_points:,2018-08-30 13:32:25
+2414598708558046,Nathaniel,Ramos,24667,854518728062939,2414598708558046,BOT: quick reply,The correct answer is alveoli.,2018-08-30 13:32:25
+2414598708558046,Nathaniel,Ramos,24668,2414598708558046,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-30 13:32:29
+2414598708558046,Nathaniel,Ramos,24669,854518728062939,2414598708558046,BOT: message,Let's take a look at this question.,2018-08-30 13:32:30
+2414598708558046,Nathaniel,Ramos,24670,854518728062939,2414598708558046,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-30 13:32:30
+2414598708558046,Nathaniel,Ramos,24671,854518728062939,2414598708558046,BOT: quick reply,"What arises due to crossing over, independent assortment, and the random union of gametes?",2018-08-30 13:32:31
+2414598708558046,Nathaniel,Ramos,24672,2414598708558046,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-30 13:32:37
+2414598708558046,Nathaniel,Ramos,24673,854518728062939,2414598708558046,BOT: message,Which of the following options is the right answer?,2018-08-30 13:32:38
+2414598708558046,Nathaniel,Ramos,24674,854518728062939,2414598708558046,BOT: quick reply,":keycap_1: susceptible variation
+:keycap_2: genetic variation
+:keycap_3: recessive variation
+:keycap_4: alternative variation
+",2018-08-30 13:32:39
+2414598708558046,Nathaniel,Ramos,24675,2414598708558046,854518728062939,user_quick_reply: BUTTON_AKB_genetic variation,:keycap_2:,2018-08-30 13:32:45
+2414598708558046,Nathaniel,Ramos,24676,854518728062939,2414598708558046,BOT: message,Yes! You got the correct answer!,2018-08-30 13:32:45
+2414598708558046,Nathaniel,Ramos,24677,854518728062939,2414598708558046,BOT: quick reply,The correct answer is genetic variation.,2018-08-30 13:32:46
+2414598708558046,Nathaniel,Ramos,24694,2414598708558046,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-30 13:34:06
+2414598708558046,Nathaniel,Ramos,24695,854518728062939,2414598708558046,BOT: message,Let's see if you can answer this question.,2018-08-30 13:34:07
+2414598708558046,Nathaniel,Ramos,24696,854518728062939,2414598708558046,BOT: quick reply,How often should women perform a breast self-exam?,2018-08-30 13:34:07
+2414598708558046,Nathaniel,Ramos,24697,2414598708558046,854518728062939,user_typing,Quarterly,2018-08-30 13:34:16
+2414598708558046,Nathaniel,Ramos,24698,854518728062939,2414598708558046,BOT: message,Good Answer! :white_heavy_check_mark:,2018-08-30 13:34:16
+2414598708558046,Nathaniel,Ramos,24699,854518728062939,2414598708558046,BOT: quick reply,The correct answer is monthly.,2018-08-30 13:34:17
+2414598708558046,Nathaniel,Ramos,24700,2414598708558046,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-30 13:34:21
+2414598708558046,Nathaniel,Ramos,24701,854518728062939,2414598708558046,BOT: message,Could you answer this one for me?,2018-08-30 13:34:21
+2414598708558046,Nathaniel,Ramos,24702,854518728062939,2414598708558046,BOT: quick reply,"What arises due to crossing over, independent assortment, and the random union of gametes?",2018-08-30 13:34:22
+2414598708558046,Nathaniel,Ramos,24703,2414598708558046,854518728062939,user_typing,Genetic variation,2018-08-30 13:34:31
+2414598708558046,Nathaniel,Ramos,24704,854518728062939,2414598708558046,BOT: message,Fantastic! :hundred_points:,2018-08-30 13:34:32
+2414598708558046,Nathaniel,Ramos,24705,854518728062939,2414598708558046,BOT: quick reply,The correct answer is genetic variation.,2018-08-30 13:34:33
+2414598708558046,Nathaniel,Ramos,24891,2414598708558046,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-30 14:46:07
+2414598708558046,Nathaniel,Ramos,24892,854518728062939,2414598708558046,BOT: message,Let's try this question.,2018-08-30 14:46:08
+2414598708558046,Nathaniel,Ramos,24893,854518728062939,2414598708558046,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-30 14:46:08
+2414598708558046,Nathaniel,Ramos,24894,854518728062939,2414598708558046,BOT: quick reply,Nerve cells that sense touch are found mainly where?,2018-08-30 14:46:09
+2414598708558046,Nathaniel,Ramos,24895,2414598708558046,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-30 14:46:16
+2414598708558046,Nathaniel,Ramos,24896,854518728062939,2414598708558046,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-08-30 14:46:16
+2414598708558046,Nathaniel,Ramos,24897,854518728062939,2414598708558046,BOT: quick reply,":keycap_1: brain
+:keycap_2: lungs
+:keycap_3: skin
+:keycap_4: stomach
+",2018-08-30 14:46:17
+2414598708558046,Nathaniel,Ramos,24898,2414598708558046,854518728062939,user_quick_reply: BUTTON_AKB_skin,:keycap_3:,2018-08-30 14:46:24
+2414598708558046,Nathaniel,Ramos,24899,854518728062939,2414598708558046,BOT: message,Nice work! Keep it up!,2018-08-30 14:46:24
+2414598708558046,Nathaniel,Ramos,24900,854518728062939,2414598708558046,BOT: quick reply,The correct answer is skin.,2018-08-30 14:46:25
+2414598708558046,Nathaniel,Ramos,24901,2414598708558046,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-30 14:46:30
+2414598708558046,Nathaniel,Ramos,24902,854518728062939,2414598708558046,BOT: message,I think you'll like this question.,2018-08-30 14:46:30
+2414598708558046,Nathaniel,Ramos,24903,854518728062939,2414598708558046,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-30 14:46:31
+2414598708558046,Nathaniel,Ramos,24904,854518728062939,2414598708558046,BOT: quick reply,Nerve cells that sense touch are found mainly where?,2018-08-30 14:46:31
+2414598708558046,Nathaniel,Ramos,24905,2414598708558046,854518728062939,user_typing,Skin,2018-08-30 14:46:44
+2414598708558046,Nathaniel,Ramos,24906,854518728062939,2414598708558046,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_jubilated_pink.png,2018-08-30 14:46:46
+2414598708558046,Nathaniel,Ramos,24907,854518728062939,2414598708558046,BOT: message,Fantastic! :hundred_points:,2018-08-30 14:46:46
+2414598708558046,Nathaniel,Ramos,24908,854518728062939,2414598708558046,BOT: quick reply,The correct answer is skin.,2018-08-30 14:46:47
+2414598708558046,Nathaniel,Ramos,24909,2414598708558046,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-30 14:46:52
+2414598708558046,Nathaniel,Ramos,24910,854518728062939,2414598708558046,BOT: message,"Alrighty, let's try this one.",2018-08-30 14:46:53
+2414598708558046,Nathaniel,Ramos,24911,854518728062939,2414598708558046,BOT: quick reply,"Temperature, water, soil, and air are examples of nonliving factors of an ecosystem, also termed what?",2018-08-30 14:46:53
+2414598708558046,Nathaniel,Ramos,24912,2414598708558046,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-30 14:47:14
+2414598708558046,Nathaniel,Ramos,24913,854518728062939,2414598708558046,BOT: message,It's one of the following choices.,2018-08-30 14:47:14
+2414598708558046,Nathaniel,Ramos,24914,854518728062939,2414598708558046,BOT: quick reply,":keycap_1: conditional factors
+:keycap_2: diverse factors
+:keycap_3: nucleic factors
+:keycap_4: abiotic factors
+",2018-08-30 14:47:15
+2414598708558046,Nathaniel,Ramos,24915,2414598708558046,854518728062939,user_quick_reply: BUTTON_AKB_abiotic factors,:keycap_4:,2018-08-30 14:47:33
+2414598708558046,Nathaniel,Ramos,24916,854518728062939,2414598708558046,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_happy_purple.png,2018-08-30 14:47:34
+2414598708558046,Nathaniel,Ramos,24917,854518728062939,2414598708558046,BOT: message,Great job getting the correct answer!,2018-08-30 14:47:36
+2414598708558046,Nathaniel,Ramos,24918,854518728062939,2414598708558046,BOT: quick reply,The correct answer is abiotic factors.,2018-08-30 14:47:36
+2414598708558046,Nathaniel,Ramos,24919,2414598708558046,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-30 14:49:26
+2414598708558046,Nathaniel,Ramos,24920,854518728062939,2414598708558046,BOT: message,Let's try this one.,2018-08-30 14:49:26
+2414598708558046,Nathaniel,Ramos,24921,854518728062939,2414598708558046,BOT: quick reply,What is the diffusion of water through a semipermeable membrane down its concentration gradient?,2018-08-30 14:49:27
+2414598708558046,Nathaniel,Ramos,24922,2414598708558046,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-30 14:50:42
+2414598708558046,Nathaniel,Ramos,24923,854518728062939,2414598708558046,BOT: message,Pick one of the following answers.,2018-08-30 14:50:43
+2414598708558046,Nathaniel,Ramos,24924,854518728062939,2414598708558046,BOT: quick reply,":keycap_1: osmosis
+:keycap_2: nutrients
+:keycap_3: mirrors
+:keycap_4: permable
+",2018-08-30 14:50:43
+2414598708558046,Nathaniel,Ramos,24925,2414598708558046,854518728062939,user_quick_reply: BUTTON_AKB_osmosis,:keycap_1:,2018-08-30 14:50:56
+2414598708558046,Nathaniel,Ramos,24926,854518728062939,2414598708558046,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_normal_cyan.png,2018-08-30 14:50:58
+2414598708558046,Nathaniel,Ramos,24927,854518728062939,2414598708558046,BOT: message,Great job!,2018-08-30 14:50:58
+2414598708558046,Nathaniel,Ramos,24928,854518728062939,2414598708558046,BOT: quick reply,The correct answer is osmosis.,2018-08-30 14:50:59
+2414598708558046,Nathaniel,Ramos,24929,2414598708558046,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-30 14:51:06
+2414598708558046,Nathaniel,Ramos,24930,854518728062939,2414598708558046,BOT: message,Could you answer this one for me?,2018-08-30 14:51:06
+2414598708558046,Nathaniel,Ramos,24931,854518728062939,2414598708558046,BOT: quick reply,Most insects reproduce quickly and through what type of reproduction?,2018-08-30 14:51:07
+2414598708558046,Nathaniel,Ramos,24932,2414598708558046,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-30 14:51:33
+2414598708558046,Nathaniel,Ramos,24933,854518728062939,2414598708558046,BOT: message,Okay. I'll give you some choices.,2018-08-30 14:51:34
+2414598708558046,Nathaniel,Ramos,24934,854518728062939,2414598708558046,BOT: quick reply,":keycap_1: asexual reproduction
+:keycap_2: sexual reproduction
+:keycap_3: photosynthesis
+:keycap_4: spores
+",2018-08-30 14:51:34
+2414598708558046,Nathaniel,Ramos,24935,2414598708558046,854518728062939,user_quick_reply: BUTTON_AKB_sexual reproduction,:keycap_2:,2018-08-30 14:51:42
+2414598708558046,Nathaniel,Ramos,24936,854518728062939,2414598708558046,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_normal.png,2018-08-30 14:51:44
+2414598708558046,Nathaniel,Ramos,24937,854518728062939,2414598708558046,BOT: message,Great job getting the correct answer!,2018-08-30 14:51:44
+2414598708558046,Nathaniel,Ramos,24938,854518728062939,2414598708558046,BOT: quick reply,The correct answer is sexual reproduction.,2018-08-30 14:51:46
+2414598708558046,Nathaniel,Ramos,24962,2414598708558046,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-30 14:55:09
+2414598708558046,Nathaniel,Ramos,24963,854518728062939,2414598708558046,BOT: message,Let's try this question.,2018-08-30 14:55:09
+2414598708558046,Nathaniel,Ramos,24964,854518728062939,2414598708558046,BOT: quick reply,What are the little sacs at the end of the bronchioles called?,2018-08-30 14:55:10
+2414598708558046,Nathaniel,Ramos,24965,2414598708558046,854518728062939,user_typing,Alveoli,2018-08-30 14:55:21
+2414598708558046,Nathaniel,Ramos,24966,854518728062939,2414598708558046,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/celebration.gif,2018-08-30 14:55:26
+2414598708558046,Nathaniel,Ramos,24967,854518728062939,2414598708558046,BOT: message,Correct! :confetti_ball:,2018-08-30 14:55:27
+2414598708558046,Nathaniel,Ramos,24968,854518728062939,2414598708558046,BOT: quick reply,The correct answer is alveoli.,2018-08-30 14:55:27
+2414598708558046,Nathaniel,Ramos,24969,2414598708558046,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-30 14:55:34
+2414598708558046,Nathaniel,Ramos,24970,854518728062939,2414598708558046,BOT: message,How about this next one:,2018-08-30 14:55:35
+2414598708558046,Nathaniel,Ramos,24971,854518728062939,2414598708558046,BOT: quick reply,"When your brain senses that your body temperature is increasing, it sends messages to the blood vessels in the skin to increase in what?",2018-08-30 14:55:35
+2414598708558046,Nathaniel,Ramos,24972,2414598708558046,854518728062939,user_typing,Diameter,2018-08-30 14:55:43
+2414598708558046,Nathaniel,Ramos,24973,854518728062939,2414598708558046,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_happy_cyan.png,2018-08-30 14:55:44
+2414598708558046,Nathaniel,Ramos,24974,854518728062939,2414598708558046,BOT: message,Correct! :confetti_ball:,2018-08-30 14:55:45
+2414598708558046,Nathaniel,Ramos,24975,854518728062939,2414598708558046,BOT: quick reply,The correct answer is diameter.,2018-08-30 14:55:46
+2414598708558046,Nathaniel,Ramos,24976,2414598708558046,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-30 14:55:51
+2414598708558046,Nathaniel,Ramos,24977,854518728062939,2414598708558046,BOT: message,How about this next one:,2018-08-30 14:55:52
+2414598708558046,Nathaniel,Ramos,24978,854518728062939,2414598708558046,BOT: quick reply,The lithosphere is divided into a dozen major and several minor what?,2018-08-30 14:55:52
+2414598708558046,Nathaniel,Ramos,24979,2414598708558046,854518728062939,user_typing,Plates,2018-08-30 14:56:03
+2414598708558046,Nathaniel,Ramos,24980,854518728062939,2414598708558046,BOT: message,Correct! :confetti_ball:,2018-08-30 14:56:03
+2414598708558046,Nathaniel,Ramos,24981,854518728062939,2414598708558046,BOT: quick reply,The correct answer is plates.,2018-08-30 14:56:04
+2414598708558046,Nathaniel,Ramos,24982,2414598708558046,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-30 14:56:12
+2414598708558046,Nathaniel,Ramos,24983,854518728062939,2414598708558046,BOT: message,Let's try this question.,2018-08-30 14:56:13
+2414598708558046,Nathaniel,Ramos,24984,854518728062939,2414598708558046,BOT: quick reply,Nerve cells that sense touch are found mainly where?,2018-08-30 14:56:13
+2414598708558046,Nathaniel,Ramos,24985,2414598708558046,854518728062939,user_typing,Skin,2018-08-30 14:56:22
+2414598708558046,Nathaniel,Ramos,24986,854518728062939,2414598708558046,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_jubilated_purple.png,2018-08-30 14:56:24
+2414598708558046,Nathaniel,Ramos,24987,854518728062939,2414598708558046,BOT: message,Nice! :red_apple:,2018-08-30 14:56:24
+2414598708558046,Nathaniel,Ramos,24988,854518728062939,2414598708558046,BOT: quick reply,The correct answer is skin.,2018-08-30 14:56:25
+2414598708558046,Nathaniel,Ramos,24989,2414598708558046,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-30 14:56:37
+2414598708558046,Nathaniel,Ramos,24990,854518728062939,2414598708558046,BOT: message,I think you'll like this question.,2018-08-30 14:56:37
+2414598708558046,Nathaniel,Ramos,24991,854518728062939,2414598708558046,BOT: quick reply,The lithosphere is divided into a dozen major and several minor what?,2018-08-30 14:56:38
+2414598708558046,Nathaniel,Ramos,24992,2414598708558046,854518728062939,user_typing,Plates,2018-08-30 14:56:42
+2414598708558046,Nathaniel,Ramos,24993,854518728062939,2414598708558046,BOT: message,Fantastic! :hundred_points:,2018-08-30 14:56:42
+2414598708558046,Nathaniel,Ramos,24994,854518728062939,2414598708558046,BOT: quick reply,The correct answer is plates.,2018-08-30 14:56:43
+2414598708558046,Nathaniel,Ramos,24995,2414598708558046,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-30 14:56:49
+2414598708558046,Nathaniel,Ramos,24996,854518728062939,2414598708558046,BOT: message,Let's see if you would answer this one.,2018-08-30 14:56:49
+2414598708558046,Nathaniel,Ramos,24997,854518728062939,2414598708558046,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-30 14:56:50
+2414598708558046,Nathaniel,Ramos,24998,854518728062939,2414598708558046,BOT: quick reply,What are the little sacs at the end of the bronchioles called?,2018-08-30 14:56:50
+2414598708558046,Nathaniel,Ramos,24999,2414598708558046,854518728062939,user_typing,Alveoli,2018-08-30 14:57:01
+2414598708558046,Nathaniel,Ramos,25000,854518728062939,2414598708558046,BOT: message,Good Answer! :white_heavy_check_mark:,2018-08-30 14:57:02
+2414598708558046,Nathaniel,Ramos,25001,854518728062939,2414598708558046,BOT: quick reply,The correct answer is alveoli.,2018-08-30 14:57:03
+2414598708558046,Nathaniel,Ramos,25002,2414598708558046,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-30 14:57:11
+2414598708558046,Nathaniel,Ramos,25003,854518728062939,2414598708558046,BOT: message,Let's try this one.,2018-08-30 14:57:12
+2414598708558046,Nathaniel,Ramos,25004,854518728062939,2414598708558046,BOT: quick reply,What disease characterized by the extreme swelling of the limbs is caused by infection with a type of roundworm?,2018-08-30 14:57:13
+2414598708558046,Nathaniel,Ramos,25005,2414598708558046,854518728062939,user_typing,Elephantiasis,2018-08-30 14:57:21
+2414598708558046,Nathaniel,Ramos,25006,854518728062939,2414598708558046,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_normal_orange.png,2018-08-30 14:57:22
+2414598708558046,Nathaniel,Ramos,25007,854518728062939,2414598708558046,BOT: message,Good job! :raising_hands_medium-light_skin_tone:,2018-08-30 14:57:23
+2414598708558046,Nathaniel,Ramos,25008,854518728062939,2414598708558046,BOT: quick reply,The correct answer is elephantiasis.,2018-08-30 14:57:23
+2414598708558046,Nathaniel,Ramos,25009,2414598708558046,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-30 14:57:27
+2414598708558046,Nathaniel,Ramos,25010,854518728062939,2414598708558046,BOT: message,Let's see if you can answer this question.,2018-08-30 14:57:28
+2414598708558046,Nathaniel,Ramos,25011,854518728062939,2414598708558046,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-30 14:57:28
+2414598708558046,Nathaniel,Ramos,25012,854518728062939,2414598708558046,BOT: quick reply,What disease characterized by the extreme swelling of the limbs is caused by infection with a type of roundworm?,2018-08-30 14:57:29
+2414598708558046,Nathaniel,Ramos,25013,2414598708558046,854518728062939,user_typing,Elephantiasis,2018-08-30 14:57:37
+2414598708558046,Nathaniel,Ramos,25014,854518728062939,2414598708558046,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_happy_purple.png,2018-08-30 14:57:38
+2414598708558046,Nathaniel,Ramos,25015,854518728062939,2414598708558046,BOT: message,Nice! :red_apple:,2018-08-30 14:57:39
+2414598708558046,Nathaniel,Ramos,25016,854518728062939,2414598708558046,BOT: quick reply,The correct answer is elephantiasis.,2018-08-30 14:57:39
+2414598708558046,Nathaniel,Ramos,25017,2414598708558046,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-30 14:58:32
+2414598708558046,Nathaniel,Ramos,25018,854518728062939,2414598708558046,BOT: message,Let's try this one.,2018-08-30 14:58:33
+2414598708558046,Nathaniel,Ramos,25019,854518728062939,2414598708558046,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-30 14:58:33
+2414598708558046,Nathaniel,Ramos,25020,854518728062939,2414598708558046,BOT: quick reply,What kind of viscosity is found in long-chain hydrocarbons?,2018-08-30 14:58:34
+2414598708558046,Nathaniel,Ramos,25021,2414598708558046,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-30 14:58:39
+2414598708558046,Nathaniel,Ramos,25022,854518728062939,2414598708558046,BOT: message,Pick one of the following answers.,2018-08-30 14:58:39
+2414598708558046,Nathaniel,Ramos,25023,854518728062939,2414598708558046,BOT: quick reply,":keycap_1: high viscosity
+:keycap_2: intense viscosity
+:keycap_3: low viscosity
+:keycap_4: increased viscosity
+",2018-08-30 14:58:40
+2414598708558046,Nathaniel,Ramos,25024,2414598708558046,854518728062939,user_quick_reply: BUTTON_DKB_low viscosity,:keycap_3:,2018-08-30 14:58:50
+2414598708558046,Nathaniel,Ramos,25025,854518728062939,2414598708558046,BOT: message,"Hmm, that wasn't quite right. :disappointed_face:",2018-08-30 14:58:50
+2414598708558046,Nathaniel,Ramos,25026,854518728062939,2414598708558046,BOT: quick reply,The correct answer is high viscosity.,2018-08-30 14:58:51
+2414598708558046,Nathaniel,Ramos,25027,2414598708558046,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-30 14:58:56
+2414598708558046,Nathaniel,Ramos,25028,854518728062939,2414598708558046,BOT: message,Let's see if you would answer this one.,2018-08-30 14:58:56
+2414598708558046,Nathaniel,Ramos,25029,854518728062939,2414598708558046,BOT: quick reply,Most insects reproduce quickly and through what type of reproduction?,2018-08-30 14:58:57
+2414598708558046,Nathaniel,Ramos,25030,2414598708558046,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-30 14:59:27
+2414598708558046,Nathaniel,Ramos,25031,854518728062939,2414598708558046,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-08-30 14:59:27
+2414598708558046,Nathaniel,Ramos,25032,854518728062939,2414598708558046,BOT: quick reply,":keycap_1: sexual reproduction
+:keycap_2: asexual reproduction
+:keycap_3: photosynthesis
+:keycap_4: spores
+",2018-08-30 14:59:28
+2414598708558046,Nathaniel,Ramos,25033,2414598708558046,854518728062939,user_quick_reply: BUTTON_AKB_sexual reproduction,:keycap_1:,2018-08-30 14:59:35
+2414598708558046,Nathaniel,Ramos,25034,854518728062939,2414598708558046,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_happy_cyan.png,2018-08-30 14:59:37
+2414598708558046,Nathaniel,Ramos,25035,854518728062939,2414598708558046,BOT: message,Great job getting the correct answer!,2018-08-30 14:59:38
+2414598708558046,Nathaniel,Ramos,25036,854518728062939,2414598708558046,BOT: quick reply,The correct answer is sexual reproduction.,2018-08-30 14:59:38
+2414598708558046,Nathaniel,Ramos,25037,2414598708558046,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-30 14:59:43
+2414598708558046,Nathaniel,Ramos,25038,854518728062939,2414598708558046,BOT: message,I think you'll like this question.,2018-08-30 14:59:43
+2414598708558046,Nathaniel,Ramos,25039,854518728062939,2414598708558046,BOT: quick reply,What is the diffusion of water through a semipermeable membrane down its concentration gradient?,2018-08-30 14:59:44
+2414598708558046,Nathaniel,Ramos,25040,2414598708558046,854518728062939,user_typing,Osmosis,2018-08-30 14:59:52
+2414598708558046,Nathaniel,Ramos,25041,854518728062939,2414598708558046,BOT: message,Fantastic! :hundred_points:,2018-08-30 14:59:53
+2414598708558046,Nathaniel,Ramos,25042,854518728062939,2414598708558046,BOT: quick reply,The correct answer is osmosis.,2018-08-30 14:59:53
+2414598708558046,Nathaniel,Ramos,25043,2414598708558046,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-30 15:00:21
+2414598708558046,Nathaniel,Ramos,25044,854518728062939,2414598708558046,BOT: message,Let's see if you can get this one.,2018-08-30 15:00:22
+2414598708558046,Nathaniel,Ramos,25045,854518728062939,2414598708558046,BOT: quick reply,Most insects reproduce quickly and through what type of reproduction?,2018-08-30 15:00:22
+2414598708558046,Nathaniel,Ramos,25046,2414598708558046,854518728062939,user_typing,Sexual reproduction,2018-08-30 15:00:32
+2414598708558046,Nathaniel,Ramos,25047,854518728062939,2414598708558046,BOT: message,Nice! :red_apple:,2018-08-30 15:00:33
+2414598708558046,Nathaniel,Ramos,25048,854518728062939,2414598708558046,BOT: quick reply,The correct answer is sexual reproduction.,2018-08-30 15:00:34
+2414598708558046,Nathaniel,Ramos,25049,2414598708558046,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-30 15:02:13
+2414598708558046,Nathaniel,Ramos,25050,854518728062939,2414598708558046,BOT: message,Let's try this one.,2018-08-30 15:02:14
+2414598708558046,Nathaniel,Ramos,25051,854518728062939,2414598708558046,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-30 15:02:14
+2414598708558046,Nathaniel,Ramos,25052,854518728062939,2414598708558046,BOT: quick reply,Most fungi get organic compounds from what?,2018-08-30 15:02:15
+2414598708558046,Nathaniel,Ramos,25053,2414598708558046,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-30 15:02:35
+2414598708558046,Nathaniel,Ramos,25054,854518728062939,2414598708558046,BOT: message,Pick one of the following answers.,2018-08-30 15:02:35
+2414598708558046,Nathaniel,Ramos,25055,854518728062939,2414598708558046,BOT: quick reply,":keycap_1: living organisms
+:keycap_2: carnivorous organisms
+:keycap_3: inorganic material
+:keycap_4: dead organisms
+",2018-08-30 15:02:36
+2414598708558046,Nathaniel,Ramos,25056,2414598708558046,854518728062939,user_quick_reply: BUTTON_AKB_dead organisms,:keycap_4:,2018-08-30 15:04:11
+2414598708558046,Nathaniel,Ramos,25057,854518728062939,2414598708558046,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_happy_orange.png,2018-08-30 15:04:13
+2414598708558046,Nathaniel,Ramos,25058,854518728062939,2414598708558046,BOT: message,Yes! You got the correct answer!,2018-08-30 15:04:13
+2414598708558046,Nathaniel,Ramos,25059,854518728062939,2414598708558046,BOT: quick reply,The correct answer is dead organisms.,2018-08-30 15:04:14
+2414598708558046,Nathaniel,Ramos,25060,2414598708558046,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-30 15:05:00
+2414598708558046,Nathaniel,Ramos,25061,854518728062939,2414598708558046,BOT: message,Let's see if you can answer this question.,2018-08-30 15:05:01
+2414598708558046,Nathaniel,Ramos,25062,854518728062939,2414598708558046,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-30 15:05:01
+2414598708558046,Nathaniel,Ramos,25063,854518728062939,2414598708558046,BOT: quick reply,The lithosphere is divided into a dozen major and several minor what?,2018-08-30 15:05:02
+2414598708558046,Nathaniel,Ramos,25064,2414598708558046,854518728062939,user_typing,Plates,2018-08-30 15:05:09
+2414598708558046,Nathaniel,Ramos,25065,854518728062939,2414598708558046,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_normal_pink.png,2018-08-30 15:05:10
+2414598708558046,Nathaniel,Ramos,25066,854518728062939,2414598708558046,BOT: message,Good job! :raising_hands_medium-light_skin_tone:,2018-08-30 15:05:11
+2414598708558046,Nathaniel,Ramos,25067,854518728062939,2414598708558046,BOT: quick reply,The correct answer is plates.,2018-08-30 15:05:11
+2414598708558046,Nathaniel,Ramos,25068,2414598708558046,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-30 15:05:22
+2414598708558046,Nathaniel,Ramos,25069,854518728062939,2414598708558046,BOT: message,How about this next one:,2018-08-30 15:05:23
+2414598708558046,Nathaniel,Ramos,25070,854518728062939,2414598708558046,BOT: quick reply,Nerve cells that sense touch are found mainly where?,2018-08-30 15:05:23
+2414598708558046,Nathaniel,Ramos,25071,2414598708558046,854518728062939,user_typing,Skin,2018-08-30 15:05:49
+2414598708558046,Nathaniel,Ramos,25072,854518728062939,2414598708558046,BOT: message,Good job! :raising_hands_medium-light_skin_tone:,2018-08-30 15:05:49
+2414598708558046,Nathaniel,Ramos,25073,854518728062939,2414598708558046,BOT: quick reply,The correct answer is skin.,2018-08-30 15:05:50
+2414598708558046,Nathaniel,Ramos,25074,2414598708558046,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-30 15:06:07
+2414598708558046,Nathaniel,Ramos,25075,854518728062939,2414598708558046,BOT: message,Could you answer this one for me?,2018-08-30 15:06:07
+2414598708558046,Nathaniel,Ramos,25076,854518728062939,2414598708558046,BOT: quick reply,The electrode at which oxidation occurs is called the what?,2018-08-30 15:06:08
+2414598708558046,Nathaniel,Ramos,25077,2414598708558046,854518728062939,user_typing,Anode,2018-08-30 15:06:14
+2414598708558046,Nathaniel,Ramos,25078,854518728062939,2414598708558046,BOT: message,Good Answer! :white_heavy_check_mark:,2018-08-30 15:06:14
+2414598708558046,Nathaniel,Ramos,25079,854518728062939,2414598708558046,BOT: quick reply,The correct answer is anode.,2018-08-30 15:06:15
+2414598708558046,Nathaniel,Ramos,25080,2414598708558046,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-30 15:06:39
+2414598708558046,Nathaniel,Ramos,25081,854518728062939,2414598708558046,BOT: message,Let's take a look at this question.,2018-08-30 15:06:40
+2414598708558046,Nathaniel,Ramos,25082,854518728062939,2414598708558046,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-30 15:06:40
+2414598708558046,Nathaniel,Ramos,25083,854518728062939,2414598708558046,BOT: quick reply,The electrode at which oxidation occurs is called the what?,2018-08-30 15:06:41
+2414598708558046,Nathaniel,Ramos,25084,2414598708558046,854518728062939,user_typing,Anode,2018-08-30 15:06:47
+2414598708558046,Nathaniel,Ramos,25085,854518728062939,2414598708558046,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_happy_pink.png,2018-08-30 15:06:49
+2414598708558046,Nathaniel,Ramos,25086,854518728062939,2414598708558046,BOT: message,Good job! :raising_hands_medium-light_skin_tone:,2018-08-30 15:06:50
+2414598708558046,Nathaniel,Ramos,25087,854518728062939,2414598708558046,BOT: quick reply,The correct answer is anode.,2018-08-30 15:06:50
+2414598708558046,Nathaniel,Ramos,25088,2414598708558046,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-30 15:06:57
+2414598708558046,Nathaniel,Ramos,25089,854518728062939,2414598708558046,BOT: message,Let's see if you would answer this one.,2018-08-30 15:06:58
+2414598708558046,Nathaniel,Ramos,25090,854518728062939,2414598708558046,BOT: quick reply,How often should women perform a breast self-exam?,2018-08-30 15:06:58
+2414598708558046,Nathaniel,Ramos,25091,2414598708558046,854518728062939,user_typing,Monthly,2018-08-30 15:07:20
+2414598708558046,Nathaniel,Ramos,25092,854518728062939,2414598708558046,BOT: message,Thats right! :party_popper:,2018-08-30 15:07:20
+2414598708558046,Nathaniel,Ramos,25093,854518728062939,2414598708558046,BOT: quick reply,The correct answer is monthly.,2018-08-30 15:07:21
+2414598708558046,Nathaniel,Ramos,26209,854518728062939,2414598708558046,BOT: quick reply,"Hi Nathaniel, you haven't talked to me for a while. Would you like to resume the learning with me?",2018-08-30 20:00:44

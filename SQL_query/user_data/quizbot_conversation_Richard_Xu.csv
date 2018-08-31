@@ -1,0 +1,184 @@
+user_id,user_firstname,user_lastname,uid,sender,recipient,type,dialogue,time_stamp
+1696872160423833,Richard,Xu,20380,1696872160423833,854518728062939,persistent_menu: GET_INTRO_1,Get Started,2018-08-28 14:18:36
+1696872160423833,Richard,Xu,20381,854518728062939,1696872160423833,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/quizbot_avatar.png,2018-08-28 14:18:39
+1696872160423833,Richard,Xu,20382,854518728062939,1696872160423833,BOT: quick reply,"Hi Richard! My name is Frosty :penguin: and Im here to help you learn all about science:microscope:, verbal reasoning (GRE) :input_latin_uppercase:, and safety:hammer_and_wrench:!",2018-08-28 14:18:39
+1696872160423833,Richard,Xu,20383,1696872160423833,854518728062939,persistent_menu: GRE,GRE :input_latin_uppercase:,2018-08-28 14:20:48
+1696872160423833,Richard,Xu,20384,854518728062939,1696872160423833,BOT: quick reply,Okay! Lets see how much you know about GRE!,2018-08-28 14:20:48
+1696872160423833,Richard,Xu,20385,1696872160423833,854518728062939,user_quick_reply: NEXT_QUESTION,Okay :white_heavy_check_mark:,2018-08-28 14:20:56
+1696872160423833,Richard,Xu,20386,854518728062939,1696872160423833,BOT: message,Let's take a look at this question.,2018-08-28 14:20:56
+1696872160423833,Richard,Xu,20387,854518728062939,1696872160423833,BOT: quick reply,"Having squandered his life's savings on unprofitable business ventures, the _____ entrepreneur was forced to live in squalor.",2018-08-28 14:20:57
+1696872160423833,Richard,Xu,20388,1696872160423833,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-28 14:21:08
+1696872160423833,Richard,Xu,20389,854518728062939,1696872160423833,BOT: message,It's one of the following choices.,2018-08-28 14:21:09
+1696872160423833,Richard,Xu,20390,854518728062939,1696872160423833,BOT: quick reply,":keycap_1: unlikely
+:keycap_2: former
+:keycap_3: eccentric
+:keycap_4: insolvent
+:keycap_5: perturbed
+",2018-08-28 14:21:10
+1696872160423833,Richard,Xu,20391,1696872160423833,854518728062939,user_quick_reply: BUTTON_AKB_insolvent,:keycap_4:,2018-08-28 14:21:16
+1696872160423833,Richard,Xu,20392,854518728062939,1696872160423833,BOT: message,Great job getting the correct answer!,2018-08-28 14:21:17
+1696872160423833,Richard,Xu,20393,854518728062939,1696872160423833,BOT: quick reply,The correct answer is insolvent.,2018-08-28 14:21:17
+1696872160423833,Richard,Xu,20394,1696872160423833,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-28 14:21:29
+1696872160423833,Richard,Xu,20395,854518728062939,1696872160423833,BOT: message,I think you'll like this question.,2018-08-28 14:21:30
+1696872160423833,Richard,Xu,20396,854518728062939,1696872160423833,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-28 14:21:30
+1696872160423833,Richard,Xu,20397,854518728062939,1696872160423833,BOT: quick reply,"Many dog owners treat their pets too _____ , forgetting that canines have evolved in competitive environments in which emotional coddling was a sign of weakness.",2018-08-28 14:21:31
+1696872160423833,Richard,Xu,20398,1696872160423833,854518728062939,persistent_menu: SCIENCE,Science:microscope:,2018-08-28 14:21:37
+1696872160423833,Richard,Xu,20399,854518728062939,1696872160423833,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/evolvereading_scientist.gif,2018-08-28 14:21:41
+1696872160423833,Richard,Xu,20400,854518728062939,1696872160423833,BOT: quick reply,Let's test your knowledge on science!,2018-08-28 14:21:41
+1696872160423833,Richard,Xu,20401,1696872160423833,854518728062939,persistent_menu: USER_MANUAL_1,User Manual :woman_technologist_light_skin_tone::man_technologist_light_skin_tone:,2018-08-28 14:21:50
+1696872160423833,Richard,Xu,20402,854518728062939,1696872160423833,BOT: image,https://www.smartprimer.org:8443/pictures/user_manual/typeanswer.png,2018-08-28 14:21:52
+1696872160423833,Richard,Xu,20403,854518728062939,1696872160423833,BOT: quick reply,"To study the questions, you can type in your answers in the text field and I will evaluate the answers for you using advanced NLP (Natural Language Processing) technology.",2018-08-28 14:21:53
+1696872160423833,Richard,Xu,21015,854518728062939,1696872160423833,BOT: quick reply,"Hi Richard, you haven't talked to me for a while. Would you like to resume the learning with me?",2018-08-28 20:00:02
+1696872160423833,Richard,Xu,21939,1696872160423833,854518728062939,user_quick_reply: NEXT_QUESTION,Next :backhand_index_pointing_right_medium-light_skin_tone:,2018-08-28 23:13:29
+1696872160423833,Richard,Xu,21940,854518728062939,1696872160423833,BOT: message,Let's see if you would answer this one.,2018-08-28 23:13:30
+1696872160423833,Richard,Xu,21941,854518728062939,1696872160423833,BOT: quick reply,The lithosphere is divided into a dozen major and several minor what?,2018-08-28 23:13:30
+1696872160423833,Richard,Xu,21942,1696872160423833,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-28 23:13:39
+1696872160423833,Richard,Xu,21943,854518728062939,1696872160423833,BOT: message,Okay. I'll give you some choices.,2018-08-28 23:13:39
+1696872160423833,Richard,Xu,21944,854518728062939,1696872160423833,BOT: quick reply,":keycap_1: faults
+:keycap_2: crystals
+:keycap_3: zones
+:keycap_4: plates
+",2018-08-28 23:13:40
+1696872160423833,Richard,Xu,21945,1696872160423833,854518728062939,user_quick_reply: BUTTON_DKB_zones,:keycap_3:,2018-08-28 23:13:47
+1696872160423833,Richard,Xu,21946,854518728062939,1696872160423833,BOT: message,"Oops, that wasn't quite correct. :disappointed_face:",2018-08-28 23:13:47
+1696872160423833,Richard,Xu,21947,854518728062939,1696872160423833,BOT: quick reply,The correct answer is plates.,2018-08-28 23:13:48
+1696872160423833,Richard,Xu,21948,1696872160423833,854518728062939,user_quick_reply: WHY,Why?,2018-08-28 23:13:56
+1696872160423833,Richard,Xu,21949,854518728062939,1696872160423833,BOT: message,I hope this explanation could help you understand the the question.,2018-08-28 23:13:56
+1696872160423833,Richard,Xu,21950,854518728062939,1696872160423833,BOT: quick reply,The lithosphere is divided into a dozen major and several minor plates. Each plate is named for the continent or ocean basin it contains. Some plates are made of all oceanic lithosphere. A few are all continental lithosphere. But most plates are made of a combination of both.,2018-08-28 23:13:57
+1696872160423833,Richard,Xu,21951,1696872160423833,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-28 23:14:09
+1696872160423833,Richard,Xu,21952,854518728062939,1696872160423833,BOT: message,What about this next question:,2018-08-28 23:14:09
+1696872160423833,Richard,Xu,21953,854518728062939,1696872160423833,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-28 23:14:10
+1696872160423833,Richard,Xu,21954,854518728062939,1696872160423833,BOT: quick reply,What living species of bird is considered the largest of the raptors?,2018-08-28 23:14:11
+1696872160423833,Richard,Xu,21955,1696872160423833,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-28 23:14:29
+1696872160423833,Richard,Xu,21956,854518728062939,1696872160423833,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-08-28 23:14:30
+1696872160423833,Richard,Xu,21957,854518728062939,1696872160423833,BOT: quick reply,":keycap_1: pterodactyl
+:keycap_2: peregrine falcon
+:keycap_3: golden eagles
+:keycap_4: California condor
+",2018-08-28 23:14:30
+1696872160423833,Richard,Xu,21958,1696872160423833,854518728062939,user_quick_reply: BUTTON_DKB_peregrine falcon,:keycap_2:,2018-08-28 23:14:40
+1696872160423833,Richard,Xu,21959,854518728062939,1696872160423833,BOT: message,"Hmm, that wasn't quite right. :disappointed_face:",2018-08-28 23:14:41
+1696872160423833,Richard,Xu,21960,854518728062939,1696872160423833,BOT: quick reply,The correct answer is golden eagles.,2018-08-28 23:14:41
+1696872160423833,Richard,Xu,21961,1696872160423833,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-28 23:14:48
+1696872160423833,Richard,Xu,21962,854518728062939,1696872160423833,BOT: message,Could you answer this one for me?,2018-08-28 23:14:48
+1696872160423833,Richard,Xu,21963,854518728062939,1696872160423833,BOT: quick reply,What opens two strands of DNA?,2018-08-28 23:14:49
+1696872160423833,Richard,Xu,21964,1696872160423833,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-28 23:14:59
+1696872160423833,Richard,Xu,21965,854518728062939,1696872160423833,BOT: message,Which of the following options is the right answer?,2018-08-28 23:14:59
+1696872160423833,Richard,Xu,21966,854518728062939,1696872160423833,BOT: quick reply,":keycap_1: adenylate
+:keycap_2: helicase
+:keycap_3: replication
+:keycap_4: chromosome
+",2018-08-28 23:15:00
+1696872160423833,Richard,Xu,21967,1696872160423833,854518728062939,user_quick_reply: BUTTON_DKB_chromosome,:keycap_4:,2018-08-28 23:15:10
+1696872160423833,Richard,Xu,21968,854518728062939,1696872160423833,BOT: message,"Hmm, that wasn't quite right. :disappointed_face:",2018-08-28 23:15:10
+1696872160423833,Richard,Xu,21969,854518728062939,1696872160423833,BOT: quick reply,The correct answer is helicase.,2018-08-28 23:15:11
+1696872160423833,Richard,Xu,21970,1696872160423833,854518728062939,user_quick_reply: SWITCH_SUBJECT,Change subject :shuffle_tracks_button:,2018-08-28 23:15:18
+1696872160423833,Richard,Xu,21971,854518728062939,1696872160423833,BOT: quick reply,"OK, which of the following subjects would you like to study?:backhand_index_pointing_down_medium-light_skin_tone:",2018-08-28 23:15:18
+1696872160423833,Richard,Xu,21972,1696872160423833,854518728062939,user_quick_reply: SAFETY,Safety:hammer_and_wrench:,2018-08-28 23:15:26
+1696872160423833,Richard,Xu,21973,854518728062939,1696872160423833,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/evolvescientist_safety.gif,2018-08-28 23:15:31
+1696872160423833,Richard,Xu,21974,854518728062939,1696872160423833,BOT: quick reply,Awesome! Let's learn about safety!,2018-08-28 23:15:31
+1696872160423833,Richard,Xu,21975,1696872160423833,854518728062939,user_quick_reply: NEXT_QUESTION,Alrighty :thumbs_up_medium-light_skin_tone:,2018-08-28 23:15:46
+1696872160423833,Richard,Xu,21976,854518728062939,1696872160423833,BOT: message,Let's see if you can answer this question.,2018-08-28 23:15:46
+1696872160423833,Richard,Xu,21977,854518728062939,1696872160423833,BOT: quick reply,Which fire extinguishers are used to put out fires caused by flammable liquids?,2018-08-28 23:15:47
+1696872160423833,Richard,Xu,21978,1696872160423833,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-28 23:16:00
+1696872160423833,Richard,Xu,21979,854518728062939,1696872160423833,BOT: message,It's one of the following choices.,2018-08-28 23:16:01
+1696872160423833,Richard,Xu,21980,854518728062939,1696872160423833,BOT: quick reply,":keycap_1: Class B carbon dioxide fire extinguisher
+:keycap_2: Class A water fire extinguishers
+:keycap_3: Class C dry chemical fire extinguisher
+",2018-08-28 23:16:01
+1696872160423833,Richard,Xu,21981,1696872160423833,854518728062939,user_quick_reply: BUTTON_DKB_Class C dry chemical fire extinguisher,:keycap_3:,2018-08-28 23:16:09
+1696872160423833,Richard,Xu,21982,854518728062939,1696872160423833,BOT: message,"Oops, that is not correct. :disappointed_face:",2018-08-28 23:16:09
+1696872160423833,Richard,Xu,21983,854518728062939,1696872160423833,BOT: quick reply,The correct answer is Class B carbon dioxide fire extinguisher.,2018-08-28 23:16:10
+1696872160423833,Richard,Xu,21984,1696872160423833,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-28 23:16:19
+1696872160423833,Richard,Xu,21985,854518728062939,1696872160423833,BOT: message,Let's take a look at this question.,2018-08-28 23:16:20
+1696872160423833,Richard,Xu,21986,854518728062939,1696872160423833,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-28 23:16:20
+1696872160423833,Richard,Xu,21987,854518728062939,1696872160423833,BOT: quick reply,"If your co-worker needs CPR but you are not trained in it, what should you do?",2018-08-28 23:16:21
+1696872160423833,Richard,Xu,21988,1696872160423833,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-28 23:16:30
+1696872160423833,Richard,Xu,21989,854518728062939,1696872160423833,BOT: message,Pick one of the following answers.,2018-08-28 23:16:31
+1696872160423833,Richard,Xu,21990,854518728062939,1696872160423833,BOT: quick reply,":keycap_1: Perform chest compressions only
+:keycap_2: Lift the patient's head
+:keycap_3: Wait for emergency personnel to arrive
+:keycap_4: Give rescue breaths only
+",2018-08-28 23:16:31
+1696872160423833,Richard,Xu,21991,1696872160423833,854518728062939,user_quick_reply: BUTTON_AKB_Perform chest compressions only,:keycap_1:,2018-08-28 23:16:46
+1696872160423833,Richard,Xu,21992,854518728062939,1696872160423833,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_normal_purple.png,2018-08-28 23:16:48
+1696872160423833,Richard,Xu,21993,854518728062939,1696872160423833,BOT: message,Nice work! Keep it up!,2018-08-28 23:16:49
+1696872160423833,Richard,Xu,21994,854518728062939,1696872160423833,BOT: quick reply,The correct answer is Perform chest compressions only.,2018-08-28 23:16:49
+1696872160423833,Richard,Xu,21995,1696872160423833,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-28 23:17:03
+1696872160423833,Richard,Xu,21996,854518728062939,1696872160423833,BOT: message,Let's try this one.,2018-08-28 23:17:04
+1696872160423833,Richard,Xu,21997,854518728062939,1696872160423833,BOT: quick reply,What does CERT stand for?,2018-08-28 23:17:04
+1696872160423833,Richard,Xu,21998,1696872160423833,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-28 23:17:18
+1696872160423833,Richard,Xu,21999,854518728062939,1696872160423833,BOT: message,Which of the following options is the right answer?,2018-08-28 23:17:19
+1696872160423833,Richard,Xu,22000,854518728062939,1696872160423833,BOT: quick reply,":keycap_1: Central Emergency Response Terminal
+:keycap_2: Controlled Evacuation and Response Tactics
+:keycap_3: Community Emergency Response Team
+:keycap_4: Community Experimental Research Team
+",2018-08-28 23:17:19
+1696872160423833,Richard,Xu,22001,1696872160423833,854518728062939,user_quick_reply: BUTTON_AKB_Community Emergency Response Team,:keycap_3:,2018-08-28 23:17:28
+1696872160423833,Richard,Xu,22002,854518728062939,1696872160423833,BOT: message,Nice work! Keep it up!,2018-08-28 23:17:28
+1696872160423833,Richard,Xu,22003,854518728062939,1696872160423833,BOT: quick reply,The correct answer is Community Emergency Response Team.,2018-08-28 23:17:29
+1696872160423833,Richard,Xu,22004,1696872160423833,854518728062939,persistent_menu: RANDOM,Random :game_die:,2018-08-28 23:18:15
+1696872160423833,Richard,Xu,22005,854518728062939,1696872160423833,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/evolvesafety_normal.gif,2018-08-28 23:18:20
+1696872160423833,Richard,Xu,22006,854518728062939,1696872160423833,BOT: quick reply,Okay! Lets mix it up! :game_die:,2018-08-28 23:18:20
+1696872160423833,Richard,Xu,22007,1696872160423833,854518728062939,user_quick_reply: NEXT_QUESTION,OK :round_pushpin:,2018-08-28 23:18:24
+1696872160423833,Richard,Xu,22008,854518728062939,1696872160423833,BOT: message,Could you answer this one for me?,2018-08-28 23:18:25
+1696872160423833,Richard,Xu,22009,854518728062939,1696872160423833,BOT: quick reply,What opens two strands of DNA?,2018-08-28 23:18:25
+1696872160423833,Richard,Xu,22010,1696872160423833,854518728062939,user_quick_reply: I_DONT_KNOW,I dont know :downcast_face_with_sweat:,2018-08-28 23:18:32
+1696872160423833,Richard,Xu,22011,854518728062939,1696872160423833,BOT: quick reply,Are you sure you want to skip this question?,2018-08-28 23:18:32
+1696872160423833,Richard,Xu,22012,1696872160423833,854518728062939,user_quick_reply: GIVEUP_NO,"No, I'll try again!",2018-08-28 23:18:37
+1696872160423833,Richard,Xu,22013,854518728062939,1696872160423833,BOT: message,Try again!,2018-08-28 23:18:38
+1696872160423833,Richard,Xu,22014,854518728062939,1696872160423833,BOT: message,Okay. I'll give you some choices.,2018-08-28 23:18:39
+1696872160423833,Richard,Xu,22015,854518728062939,1696872160423833,BOT: quick reply,":keycap_1: chromosome
+:keycap_2: replication
+:keycap_3: adenylate
+:keycap_4: helicase
+",2018-08-28 23:18:39
+1696872160423833,Richard,Xu,22016,1696872160423833,854518728062939,user_quick_reply: BUTTON_AKB_helicase,:keycap_4:,2018-08-28 23:22:32
+1696872160423833,Richard,Xu,22017,854518728062939,1696872160423833,BOT: message,Nice! That was right!,2018-08-28 23:22:32
+1696872160423833,Richard,Xu,22018,854518728062939,1696872160423833,BOT: quick reply,The correct answer is helicase.,2018-08-28 23:22:33
+1696872160423833,Richard,Xu,22019,1696872160423833,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-28 23:22:38
+1696872160423833,Richard,Xu,22020,854518728062939,1696872160423833,BOT: message,"Alrighty, let's try this one.",2018-08-28 23:22:39
+1696872160423833,Richard,Xu,22021,854518728062939,1696872160423833,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-28 23:22:39
+1696872160423833,Richard,Xu,22022,854518728062939,1696872160423833,BOT: quick reply,Nerve cells that sense touch are found mainly where?,2018-08-28 23:22:40
+1696872160423833,Richard,Xu,22023,1696872160423833,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-28 23:22:58
+1696872160423833,Richard,Xu,22024,854518728062939,1696872160423833,BOT: message,Which of the following options is the right answer?,2018-08-28 23:22:59
+1696872160423833,Richard,Xu,22025,854518728062939,1696872160423833,BOT: quick reply,":keycap_1: stomach
+:keycap_2: skin
+:keycap_3: brain
+:keycap_4: lungs
+",2018-08-28 23:22:59
+1696872160423833,Richard,Xu,22026,1696872160423833,854518728062939,user_quick_reply: BUTTON_AKB_skin,:keycap_2:,2018-08-28 23:23:03
+1696872160423833,Richard,Xu,22027,854518728062939,1696872160423833,BOT: message,Nice! That was right!,2018-08-28 23:23:04
+1696872160423833,Richard,Xu,22028,854518728062939,1696872160423833,BOT: quick reply,The correct answer is skin.,2018-08-28 23:23:04
+1696872160423833,Richard,Xu,22029,1696872160423833,854518728062939,user_quick_reply: WHY,Why?,2018-08-28 23:23:10
+1696872160423833,Richard,Xu,22030,854518728062939,1696872160423833,BOT: message,Here's why:,2018-08-28 23:23:11
+1696872160423833,Richard,Xu,22031,854518728062939,1696872160423833,BOT: quick reply,"Touch is the ability to sense pain, pressure, or temperature. Nerve cells that sense touch are found mainly in the skin. The skin on the palms, soles, face, and lips has the most neurons. Neurons that sense pain are also found inside the body inside the body in the tongue, joints, muscles, and other organs.",2018-08-28 23:23:12
+1696872160423833,Richard,Xu,23289,854518728062939,1696872160423833,BOT: quick reply,"Hi Richard, you haven't talked to me for a while. Would you like to resume the learning with me?",2018-08-29 20:00:16
+1696872160423833,Richard,Xu,24061,854518728062939,1696872160423833,BOT: message,Let's try this one.,2018-08-29 23:00:21
+1696872160423833,Richard,Xu,24062,854518728062939,1696872160423833,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-29 23:00:22
+1696872160423833,Richard,Xu,24063,854518728062939,1696872160423833,BOT: quick reply,"Prior to taking on the new invader, the defending army had engaged in arduous combat; it is likely that the _____ resulting from waging two battles in two days played a part in its subsequent defeat.",2018-08-29 23:00:22
+1696872160423833,Richard,Xu,24064,1696872160423833,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-29 23:00:26
+1696872160423833,Richard,Xu,24065,854518728062939,1696872160423833,BOT: message,It's one of the following choices.,2018-08-29 23:00:27
+1696872160423833,Richard,Xu,24066,854518728062939,1696872160423833,BOT: quick reply,":keycap_1: enervation
+:keycap_2: aggravation
+:keycap_3: pacification
+:keycap_4: pugnacity
+:keycap_5: bellicosity
+",2018-08-29 23:00:27
+1696872160423833,Richard,Xu,24067,1696872160423833,854518728062939,user_quick_reply: I_DONT_KNOW,I dont know :downcast_face_with_sweat:,2018-08-29 23:00:33
+1696872160423833,Richard,Xu,24068,854518728062939,1696872160423833,BOT: quick reply,Are you sure you want to give up?,2018-08-29 23:00:33
+1696872160423833,Richard,Xu,24069,1696872160423833,854518728062939,user_quick_reply: GIVEUP_YES,"Yes, answer please.",2018-08-29 23:00:38
+1696872160423833,Richard,Xu,24070,854518728062939,1696872160423833,BOT: message,"I'm sorry, you didn't get the question right this time.",2018-08-29 23:00:39
+1696872160423833,Richard,Xu,24071,854518728062939,1696872160423833,BOT: message,"That's fine, you'll nail it next time! :grinning_face_with_smiling_eyes:",2018-08-29 23:00:39
+1696872160423833,Richard,Xu,24072,854518728062939,1696872160423833,BOT: quick reply,The correct answer is enervation.,2018-08-29 23:00:40
+1696872160423833,Richard,Xu,24089,1696872160423833,854518728062939,persistent_menu: USER_MANUAL_1,User Manual :woman_technologist_light_skin_tone::man_technologist_light_skin_tone:,2018-08-29 23:12:25
+1696872160423833,Richard,Xu,24090,854518728062939,1696872160423833,BOT: image,https://www.smartprimer.org:8443/pictures/user_manual/typeanswer.png,2018-08-29 23:12:27
+1696872160423833,Richard,Xu,24091,854518728062939,1696872160423833,BOT: quick reply,"To study the questions, you can type in your answers in the text field and I will evaluate the answers for you using advanced NLP (Natural Language Processing) technology.",2018-08-29 23:12:28
+1696872160423833,Richard,Xu,24092,1696872160423833,854518728062939,user_quick_reply: USER_MANUAL_2,Tap me :raising_hands_medium-light_skin_tone:,2018-08-29 23:12:33
+1696872160423833,Richard,Xu,24093,854518728062939,1696872160423833,BOT: image,https://www.smartprimer.org:8443/pictures/user_manual/needhintbutton.png,2018-08-29 23:12:36
+1696872160423833,Richard,Xu,24094,854518728062939,1696872160423833,BOT: quick reply,"If you don't know the answers, then feel free to tap on the hint button.",2018-08-29 23:12:37
+1696872160423833,Richard,Xu,26190,854518728062939,1696872160423833,BOT: quick reply,"Hi Richard, you haven't talked to me for a while. Would you like to resume the learning with me?",2018-08-30 20:00:30
+1696872160423833,Richard,Xu,27174,1696872160423833,854518728062939,user_quick_reply: NEXT_QUESTION,Next :raising_hands_medium-light_skin_tone:,2018-08-31 00:07:42
+1696872160423833,Richard,Xu,27175,854518728062939,1696872160423833,BOT: message,Let's see if you can answer this question.,2018-08-31 00:07:42
+1696872160423833,Richard,Xu,27176,854518728062939,1696872160423833,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-31 00:07:43
+1696872160423833,Richard,Xu,27177,854518728062939,1696872160423833,BOT: quick reply,"True or false: if you wear a back belt, you can lift more weight than you could without a belt.",2018-08-31 00:07:44

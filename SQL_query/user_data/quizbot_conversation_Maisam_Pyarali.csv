@@ -1,0 +1,228 @@
+user_id,user_firstname,user_lastname,uid,sender,recipient,type,dialogue,time_stamp
+1831903376896793,Maisam,Pyarali,18471,1831903376896793,854518728062939,persistent_menu: GET_INTRO_1,Get Started,2018-08-27 18:09:17
+1831903376896793,Maisam,Pyarali,18472,854518728062939,1831903376896793,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/quizbot_avatar.png,2018-08-27 18:09:20
+1831903376896793,Maisam,Pyarali,18473,854518728062939,1831903376896793,BOT: quick reply,"Hi Maisam! My name is Frosty :penguin: and Im here to help you learn all about science:microscope:, verbal reasoning (GRE) :input_latin_uppercase:, and safety:hammer_and_wrench:!",2018-08-27 18:09:20
+1831903376896793,Maisam,Pyarali,18474,1831903376896793,854518728062939,persistent_menu: SAFETY,Safety:hammer_and_wrench:,2018-08-27 18:09:31
+1831903376896793,Maisam,Pyarali,18475,854518728062939,1831903376896793,BOT: quick reply,Let's test your knowledge on safety!,2018-08-27 18:09:32
+1831903376896793,Maisam,Pyarali,18476,1831903376896793,854518728062939,user_quick_reply: NEXT_QUESTION,I see :collision:,2018-08-27 18:09:43
+1831903376896793,Maisam,Pyarali,18477,854518728062939,1831903376896793,BOT: message,Let's see if you would answer this one.,2018-08-27 18:09:43
+1831903376896793,Maisam,Pyarali,18478,854518728062939,1831903376896793,BOT: quick reply,"True or false: if you wear a back belt, you can lift more weight than you could without a belt.",2018-08-27 18:09:44
+1831903376896793,Maisam,Pyarali,18479,1831903376896793,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-27 18:09:59
+1831903376896793,Maisam,Pyarali,18480,854518728062939,1831903376896793,BOT: message,It's one of the following choices.,2018-08-27 18:10:00
+1831903376896793,Maisam,Pyarali,18481,854518728062939,1831903376896793,BOT: quick reply,":keycap_1: True
+:keycap_2: False
+",2018-08-27 18:10:00
+1831903376896793,Maisam,Pyarali,18482,1831903376896793,854518728062939,user_quick_reply: BUTTON_AKB_False,:keycap_2:,2018-08-27 18:10:09
+1831903376896793,Maisam,Pyarali,18483,854518728062939,1831903376896793,BOT: message,Nice! That was right!,2018-08-27 18:10:10
+1831903376896793,Maisam,Pyarali,18484,854518728062939,1831903376896793,BOT: quick reply,The correct answer is False.,2018-08-27 18:10:10
+1831903376896793,Maisam,Pyarali,18485,1831903376896793,854518728062939,persistent_menu: USER_MANUAL_1,User Manual :woman_technologist_light_skin_tone::man_technologist_light_skin_tone:,2018-08-27 18:10:23
+1831903376896793,Maisam,Pyarali,18486,854518728062939,1831903376896793,BOT: image,https://www.smartprimer.org:8443/pictures/user_manual/typeanswer.png,2018-08-27 18:10:25
+1831903376896793,Maisam,Pyarali,18487,854518728062939,1831903376896793,BOT: quick reply,"To study the questions, you can type in your answers in the text field and I will evaluate the answers for you using advanced NLP (Natural Language Processing) technology.",2018-08-27 18:10:26
+1831903376896793,Maisam,Pyarali,18849,854518728062939,1831903376896793,BOT: quick reply,"Hi Maisam, you haven't talked to me for a while. Would you like to resume the learning with me?",2018-08-27 20:00:11
+1831903376896793,Maisam,Pyarali,21020,854518728062939,1831903376896793,BOT: quick reply,"Hi Maisam, you haven't talked to me for a while. Would you like to resume the learning with me?",2018-08-28 20:00:06
+1831903376896793,Maisam,Pyarali,22355,854518728062939,1831903376896793,BOT: message,How about this next one:,2018-08-29 01:13:35
+1831903376896793,Maisam,Pyarali,22356,854518728062939,1831903376896793,BOT: quick reply,What should you NOT do when lowering a load?,2018-08-29 01:13:35
+1831903376896793,Maisam,Pyarali,22357,1831903376896793,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-29 01:13:46
+1831903376896793,Maisam,Pyarali,22358,854518728062939,1831903376896793,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-08-29 01:13:47
+1831903376896793,Maisam,Pyarali,22359,854518728062939,1831903376896793,BOT: quick reply,":keycap_1: Bend your knees
+:keycap_2: Twist your body, keep the load close, and bend your knees
+:keycap_3: Twist your body
+:keycap_4: Keep the load close to your body
+",2018-08-29 01:13:47
+1831903376896793,Maisam,Pyarali,22360,1831903376896793,854518728062939,user_quick_reply: BUTTON_AKB_Twist your body,:keycap_3:,2018-08-29 01:14:02
+1831903376896793,Maisam,Pyarali,22361,854518728062939,1831903376896793,BOT: message,Yes! You got the correct answer!,2018-08-29 01:14:03
+1831903376896793,Maisam,Pyarali,22362,854518728062939,1831903376896793,BOT: quick reply,The correct answer is Twist your body.,2018-08-29 01:14:04
+1831903376896793,Maisam,Pyarali,22363,1831903376896793,854518728062939,user_quick_reply: WHY,Why?,2018-08-29 01:14:09
+1831903376896793,Maisam,Pyarali,22364,854518728062939,1831903376896793,BOT: message,This is an explanation of the question:,2018-08-29 01:14:10
+1831903376896793,Maisam,Pyarali,22365,854518728062939,1831903376896793,BOT: quick reply,"To lower a load, you should make use of its edge, bend your knees, keep the load close to their body, and avoid twisting your torso.",2018-08-29 01:14:11
+1831903376896793,Maisam,Pyarali,22366,1831903376896793,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-29 01:14:22
+1831903376896793,Maisam,Pyarali,22367,854518728062939,1831903376896793,BOT: message,See if you can answer this next one.,2018-08-29 01:14:22
+1831903376896793,Maisam,Pyarali,22368,854518728062939,1831903376896793,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-29 01:14:23
+1831903376896793,Maisam,Pyarali,22369,854518728062939,1831903376896793,BOT: quick reply,What three major factors cause food contamination?,2018-08-29 01:14:23
+1831903376896793,Maisam,Pyarali,22370,1831903376896793,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-29 01:14:34
+1831903376896793,Maisam,Pyarali,22371,854518728062939,1831903376896793,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-08-29 01:14:34
+1831903376896793,Maisam,Pyarali,22372,854518728062939,1831903376896793,BOT: quick reply,":keycap_1: Physical, psychological, and health
+:keycap_2: Physical, chemical, and psychosocial
+:keycap_3: Physical, biological, and chemical
+:keycap_4: Physical, biological, and radiological
+",2018-08-29 01:14:35
+1831903376896793,Maisam,Pyarali,22373,1831903376896793,854518728062939,"user_quick_reply: BUTTON_AKB_Physical, biological, and chemical",:keycap_3:,2018-08-29 01:14:54
+1831903376896793,Maisam,Pyarali,22374,854518728062939,1831903376896793,BOT: message,Nice! That was right!,2018-08-29 01:14:54
+1831903376896793,Maisam,Pyarali,22375,854518728062939,1831903376896793,BOT: quick reply,"The correct answer is Physical, biological, and chemical.",2018-08-29 01:14:55
+1831903376896793,Maisam,Pyarali,23294,854518728062939,1831903376896793,BOT: quick reply,"Hi Maisam, you haven't talked to me for a while. Would you like to resume the learning with me?",2018-08-29 20:00:19
+1831903376896793,Maisam,Pyarali,24101,1831903376896793,854518728062939,user_quick_reply: NEXT_QUESTION,Tap me :oncoming_fist_medium-light_skin_tone:,2018-08-29 23:48:59
+1831903376896793,Maisam,Pyarali,24102,854518728062939,1831903376896793,BOT: message,What about this next question:,2018-08-29 23:49:00
+1831903376896793,Maisam,Pyarali,24103,854518728062939,1831903376896793,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-29 23:49:00
+1831903376896793,Maisam,Pyarali,24104,854518728062939,1831903376896793,BOT: quick reply,What three major factors cause food contamination?,2018-08-29 23:49:01
+1831903376896793,Maisam,Pyarali,24105,1831903376896793,854518728062939,persistent_menu: GRE,GRE :input_latin_uppercase:,2018-08-29 23:49:12
+1831903376896793,Maisam,Pyarali,24106,854518728062939,1831903376896793,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/evolvesafety_reading.gif,2018-08-29 23:49:16
+1831903376896793,Maisam,Pyarali,24107,854518728062939,1831903376896793,BOT: quick reply,Let's answer some questions about the GRE!,2018-08-29 23:49:17
+1831903376896793,Maisam,Pyarali,24108,1831903376896793,854518728062939,user_quick_reply: NEXT_QUESTION,Alright :collision:,2018-08-29 23:49:24
+1831903376896793,Maisam,Pyarali,24109,854518728062939,1831903376896793,BOT: message,"Alrighty, let's try this one.",2018-08-29 23:49:25
+1831903376896793,Maisam,Pyarali,24110,854518728062939,1831903376896793,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-29 23:49:26
+1831903376896793,Maisam,Pyarali,24111,854518728062939,1831903376896793,BOT: quick reply,Seth was extremely _____ and did not enjoy activities that required effort to meet new people.,2018-08-29 23:49:26
+1831903376896793,Maisam,Pyarali,24112,1831903376896793,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-29 23:52:03
+1831903376896793,Maisam,Pyarali,24113,854518728062939,1831903376896793,BOT: message,It's one of the following choices.,2018-08-29 23:52:03
+1831903376896793,Maisam,Pyarali,24114,854518728062939,1831903376896793,BOT: quick reply,":keycap_1: introverted
+:keycap_2: jaded
+:keycap_3: lackluster
+:keycap_4: gregarious
+:keycap_5: extroverted
+",2018-08-29 23:52:04
+1831903376896793,Maisam,Pyarali,24117,1831903376896793,854518728062939,user_quick_reply: BUTTON_AKB_introverted,:keycap_1:,2018-08-29 23:52:08
+1831903376896793,Maisam,Pyarali,24121,854518728062939,1831903376896793,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/celebration.gif,2018-08-29 23:52:15
+1831903376896793,Maisam,Pyarali,24122,854518728062939,1831903376896793,BOT: message,Great! Keep it up! :flexed_biceps_medium-light_skin_tone:,2018-08-29 23:52:15
+1831903376896793,Maisam,Pyarali,24123,854518728062939,1831903376896793,BOT: quick reply,The correct answer is introverted.,2018-08-29 23:52:16
+1831903376896793,Maisam,Pyarali,24126,1831903376896793,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-29 23:52:23
+1831903376896793,Maisam,Pyarali,24128,854518728062939,1831903376896793,BOT: message,Let's take a look at this question.,2018-08-29 23:52:23
+1831903376896793,Maisam,Pyarali,24129,854518728062939,1831903376896793,BOT: quick reply,"Although John F. Kennedy was known for his carefree flag football games, Gerald Ford should be _____ as our football president: he turned down offers to play for two National Football League teams in order to pursue a career in public service.",2018-08-29 23:52:24
+1831903376896793,Maisam,Pyarali,24133,1831903376896793,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-29 23:52:39
+1831903376896793,Maisam,Pyarali,24134,854518728062939,1831903376896793,BOT: message,Pick one of the following answers.,2018-08-29 23:52:39
+1831903376896793,Maisam,Pyarali,24135,854518728062939,1831903376896793,BOT: quick reply,":keycap_1: abrogated
+:keycap_2: criticized
+:keycap_3: apotheosized
+:keycap_4: annulled
+:keycap_5: relegated
+",2018-08-29 23:52:40
+1831903376896793,Maisam,Pyarali,24140,1831903376896793,854518728062939,user_quick_reply: BUTTON_DKB_abrogated,:keycap_1:,2018-08-29 23:52:56
+1831903376896793,Maisam,Pyarali,24141,854518728062939,1831903376896793,BOT: message,"I'm sorry, but that was incorrect. :disappointed_face:",2018-08-29 23:52:57
+1831903376896793,Maisam,Pyarali,24142,854518728062939,1831903376896793,BOT: quick reply,The correct answer is apotheosized.,2018-08-29 23:52:58
+1831903376896793,Maisam,Pyarali,24143,1831903376896793,854518728062939,user_quick_reply: WHY,Why?,2018-08-29 23:53:03
+1831903376896793,Maisam,Pyarali,24144,854518728062939,1831903376896793,BOT: message,Here's an explanation:,2018-08-29 23:53:04
+1831903376896793,Maisam,Pyarali,24146,854518728062939,1831903376896793,BOT: quick reply,":pushpin: Apotheosized -- deify or glorify
+:pushpin: Relegated -- to send or consign to an inferior position, place, or condition
+:pushpin: Abrogated -- revoke formally
+:pushpin: Annulled -- declare invalid
+:pushpin: Criticized -- find fault with; express criticism of; point out real or perceived flaws",2018-08-29 23:53:05
+1831903376896793,Maisam,Pyarali,24152,1831903376896793,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-29 23:53:14
+1831903376896793,Maisam,Pyarali,24153,854518728062939,1831903376896793,BOT: message,Could you answer this one for me?,2018-08-29 23:53:15
+1831903376896793,Maisam,Pyarali,24154,854518728062939,1831903376896793,BOT: quick reply,Many Major League Baseball relief pitchers choose an electrifying theme song to play as they take the mound; the song _____ their fans and instills fear in their opponents.,2018-08-29 23:53:15
+1831903376896793,Maisam,Pyarali,24161,1831903376896793,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-29 23:53:29
+1831903376896793,Maisam,Pyarali,24163,854518728062939,1831903376896793,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-08-29 23:53:30
+1831903376896793,Maisam,Pyarali,24164,854518728062939,1831903376896793,BOT: quick reply,":keycap_1: enervates
+:keycap_2: innervates
+:keycap_3: pervades
+:keycap_4: assuages
+:keycap_5: eviscerates
+",2018-08-29 23:53:31
+1831903376896793,Maisam,Pyarali,24165,1831903376896793,854518728062939,user_quick_reply: BUTTON_DKB_eviscerates,:keycap_5:,2018-08-29 23:53:40
+1831903376896793,Maisam,Pyarali,24166,854518728062939,1831903376896793,BOT: message,"I'm sorry, but that was incorrect. :disappointed_face:",2018-08-29 23:53:41
+1831903376896793,Maisam,Pyarali,24167,854518728062939,1831903376896793,BOT: quick reply,The correct answer is innervates.,2018-08-29 23:53:41
+1831903376896793,Maisam,Pyarali,24168,1831903376896793,854518728062939,user_quick_reply: WHY,Why?,2018-08-29 23:53:45
+1831903376896793,Maisam,Pyarali,24169,854518728062939,1831903376896793,BOT: message,Here's an explanation:,2018-08-29 23:53:45
+1831903376896793,Maisam,Pyarali,24170,854518728062939,1831903376896793,BOT: quick reply,":pushpin: Innervates -- to supply with nerves
+:pushpin: Eviscerates -- surgically remove a part of a structure or an organ
+:pushpin: Enervates -- weaken mentally or morally
+:pushpin: Assuages -- cause to be more favorably inclined; gain the good will of
+:pushpin: Pervades -- spread or diffuse through",2018-08-29 23:53:46
+1831903376896793,Maisam,Pyarali,24178,1831903376896793,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-29 23:54:05
+1831903376896793,Maisam,Pyarali,24179,854518728062939,1831903376896793,BOT: message,Let's see if you can get this one.,2018-08-29 23:54:05
+1831903376896793,Maisam,Pyarali,24180,854518728062939,1831903376896793,BOT: quick reply,"Having squandered his life's savings on unprofitable business ventures, the _____ entrepreneur was forced to live in squalor.",2018-08-29 23:54:06
+1831903376896793,Maisam,Pyarali,24184,1831903376896793,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-29 23:54:18
+1831903376896793,Maisam,Pyarali,24185,854518728062939,1831903376896793,BOT: message,Which of the following options is the right answer?,2018-08-29 23:54:18
+1831903376896793,Maisam,Pyarali,24186,854518728062939,1831903376896793,BOT: quick reply,":keycap_1: former
+:keycap_2: perturbed
+:keycap_3: insolvent
+:keycap_4: unlikely
+:keycap_5: eccentric
+",2018-08-29 23:54:19
+1831903376896793,Maisam,Pyarali,24188,1831903376896793,854518728062939,user_quick_reply: BUTTON_DKB_former,:keycap_1:,2018-08-29 23:54:27
+1831903376896793,Maisam,Pyarali,24190,854518728062939,1831903376896793,BOT: message,That's not quite right. :disappointed_face:,2018-08-29 23:54:28
+1831903376896793,Maisam,Pyarali,24192,854518728062939,1831903376896793,BOT: quick reply,The correct answer is insolvent.,2018-08-29 23:54:28
+1831903376896793,Maisam,Pyarali,24193,1831903376896793,854518728062939,user_quick_reply: WHY,Why?,2018-08-29 23:54:34
+1831903376896793,Maisam,Pyarali,24194,854518728062939,1831903376896793,BOT: message,Here's why:,2018-08-29 23:54:34
+1831903376896793,Maisam,Pyarali,24195,854518728062939,1831903376896793,BOT: quick reply,":pushpin: Insolvent -- unable to meet or discharge financial obligations
+:pushpin: Former -- preceding in time; prior or earlier
+:pushpin: Unlikely -- not likely to be true or to occur or to have occurred
+:pushpin: Perturbed -- thrown into a state of agitated confusion
+:pushpin: Eccentric -- conspicuously or grossly unconventional or unusual",2018-08-29 23:54:35
+1831903376896793,Maisam,Pyarali,24202,1831903376896793,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-29 23:54:49
+1831903376896793,Maisam,Pyarali,24203,854518728062939,1831903376896793,BOT: message,Could you answer this one for me?,2018-08-29 23:54:50
+1831903376896793,Maisam,Pyarali,24204,854518728062939,1831903376896793,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-29 23:54:50
+1831903376896793,Maisam,Pyarali,24205,854518728062939,1831903376896793,BOT: quick reply,Many Major League Baseball relief pitchers choose an electrifying theme song to play as they take the mound; the song _____ their fans and instills fear in their opponents.,2018-08-29 23:54:51
+1831903376896793,Maisam,Pyarali,24212,1831903376896793,854518728062939,user_typing,Innervates,2018-08-29 23:55:28
+1831903376896793,Maisam,Pyarali,24213,854518728062939,1831903376896793,BOT: message,Nice! :red_apple:,2018-08-29 23:55:29
+1831903376896793,Maisam,Pyarali,24214,854518728062939,1831903376896793,BOT: quick reply,The correct answer is innervates.,2018-08-29 23:55:29
+1831903376896793,Maisam,Pyarali,24218,1831903376896793,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-29 23:55:35
+1831903376896793,Maisam,Pyarali,24219,854518728062939,1831903376896793,BOT: message,Let's take a look at this question.,2018-08-29 23:55:36
+1831903376896793,Maisam,Pyarali,24221,854518728062939,1831903376896793,BOT: quick reply,"Modern tennis fans have come to realize that, although, quantum technological leaps in racquet technology have lead to _____ increases in the speed and power with which players can hit the ball, this has not necessarily lead to a more entertaining game.",2018-08-29 23:55:36
+1831903376896793,Maisam,Pyarali,24224,1831903376896793,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-29 23:55:47
+1831903376896793,Maisam,Pyarali,24225,854518728062939,1831903376896793,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-08-29 23:55:48
+1831903376896793,Maisam,Pyarali,24226,854518728062939,1831903376896793,BOT: quick reply,":keycap_1: halcyon
+:keycap_2: tractable
+:keycap_3: malleable
+:keycap_4: innocuous
+:keycap_5: commensurate
+",2018-08-29 23:55:48
+1831903376896793,Maisam,Pyarali,24233,1831903376896793,854518728062939,user_quick_reply: BUTTON_DKB_tractable,:keycap_2:,2018-08-29 23:56:13
+1831903376896793,Maisam,Pyarali,24234,854518728062939,1831903376896793,BOT: message,That's not quite right. :disappointed_face:,2018-08-29 23:56:14
+1831903376896793,Maisam,Pyarali,24235,854518728062939,1831903376896793,BOT: quick reply,The correct answer is commensurate.,2018-08-29 23:56:14
+1831903376896793,Maisam,Pyarali,24239,1831903376896793,854518728062939,user_quick_reply: WHY,Why?,2018-08-29 23:56:21
+1831903376896793,Maisam,Pyarali,24240,854518728062939,1831903376896793,BOT: message,Here's an explanation:,2018-08-29 23:56:21
+1831903376896793,Maisam,Pyarali,24241,854518728062939,1831903376896793,BOT: quick reply,":pushpin: Commensurate -- corresponding in size or degree or extent
+:pushpin: Innocuous -- not injurious to physical or mental health
+:pushpin: Halcyon -- idyllically calm and peaceful; suggesting happy tranquillity
+:pushpin: Malleable -- easily influenced
+:pushpin: Tractable -- easily managed (controlled or taught or molded",2018-08-29 23:56:22
+1831903376896793,Maisam,Pyarali,24359,1831903376896793,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-30 00:04:31
+1831903376896793,Maisam,Pyarali,24360,854518728062939,1831903376896793,BOT: message,Let's take a look at this question.,2018-08-30 00:04:32
+1831903376896793,Maisam,Pyarali,24361,854518728062939,1831903376896793,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-30 00:04:33
+1831903376896793,Maisam,Pyarali,24362,854518728062939,1831903376896793,BOT: quick reply,"Although John F. Kennedy was known for his carefree flag football games, Gerald Ford should be _____ as our football president: he turned down offers to play for two National Football League teams in order to pursue a career in public service.",2018-08-30 00:04:34
+1831903376896793,Maisam,Pyarali,24363,1831903376896793,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-30 00:04:41
+1831903376896793,Maisam,Pyarali,24364,854518728062939,1831903376896793,BOT: message,It's one of the following choices.,2018-08-30 00:04:41
+1831903376896793,Maisam,Pyarali,24365,854518728062939,1831903376896793,BOT: quick reply,":keycap_1: annulled
+:keycap_2: relegated
+:keycap_3: apotheosized
+:keycap_4: criticized
+:keycap_5: abrogated
+",2018-08-30 00:04:42
+1831903376896793,Maisam,Pyarali,24366,1831903376896793,854518728062939,user_quick_reply: BUTTON_AKB_apotheosized,:keycap_3:,2018-08-30 00:04:51
+1831903376896793,Maisam,Pyarali,24367,854518728062939,1831903376896793,BOT: message,Nice! That was right!,2018-08-30 00:04:52
+1831903376896793,Maisam,Pyarali,24368,854518728062939,1831903376896793,BOT: quick reply,The correct answer is apotheosized.,2018-08-30 00:04:52
+1831903376896793,Maisam,Pyarali,24369,1831903376896793,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-30 00:04:57
+1831903376896793,Maisam,Pyarali,24370,854518728062939,1831903376896793,BOT: message,What about this next question:,2018-08-30 00:04:58
+1831903376896793,Maisam,Pyarali,24371,854518728062939,1831903376896793,BOT: quick reply,The Erie Canal's completion caused _____ economic ripples; property values and industrial output along its route rose exponentially.,2018-08-30 00:04:58
+1831903376896793,Maisam,Pyarali,24372,1831903376896793,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-30 00:05:09
+1831903376896793,Maisam,Pyarali,24373,854518728062939,1831903376896793,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-08-30 00:05:09
+1831903376896793,Maisam,Pyarali,24374,854518728062939,1831903376896793,BOT: quick reply,":keycap_1: persistent
+:keycap_2: incredulous
+:keycap_3: severe
+:keycap_4: prodigious
+:keycap_5: invaluable
+",2018-08-30 00:05:10
+1831903376896793,Maisam,Pyarali,24375,1831903376896793,854518728062939,user_quick_reply: BUTTON_DKB_incredulous,:keycap_2:,2018-08-30 00:05:30
+1831903376896793,Maisam,Pyarali,24376,854518728062939,1831903376896793,BOT: message,"I'm sorry, but that was incorrect. :disappointed_face:",2018-08-30 00:05:30
+1831903376896793,Maisam,Pyarali,24377,854518728062939,1831903376896793,BOT: quick reply,The correct answer is prodigious.,2018-08-30 00:05:31
+1831903376896793,Maisam,Pyarali,24378,1831903376896793,854518728062939,user_quick_reply: WHY,Why?,2018-08-30 00:05:36
+1831903376896793,Maisam,Pyarali,24379,854518728062939,1831903376896793,BOT: message,I hope this explanation could help you understand the the question.,2018-08-30 00:05:36
+1831903376896793,Maisam,Pyarali,24380,854518728062939,1831903376896793,BOT: quick reply,":pushpin: Prodigious -- so great in size or force or extent as to elicit awe
+:pushpin: Persistent -- lasting or enduring tenaciously
+:pushpin: Invaluable -- having incalculable monetary, intellectual, or spiritual worth
+:pushpin: Incredulous -- not disposed or willing to believe; unbelieving
+:pushpin: Severe -- intensely or extremely bad or unpleasant in degree or quality",2018-08-30 00:05:37
+1831903376896793,Maisam,Pyarali,24678,1831903376896793,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-30 13:33:14
+1831903376896793,Maisam,Pyarali,24679,854518728062939,1831903376896793,BOT: message,Let's see if you would answer this one.,2018-08-30 13:33:15
+1831903376896793,Maisam,Pyarali,24680,854518728062939,1831903376896793,BOT: quick reply,"Dolly Madison, the wife of President James Madison, was known especially for her _____ , remaining calm even as the British invaded Washington D.C. during the War of 1812.",2018-08-30 13:33:16
+1831903376896793,Maisam,Pyarali,24681,1831903376896793,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-30 13:33:27
+1831903376896793,Maisam,Pyarali,24682,854518728062939,1831903376896793,BOT: message,Which of the following options is the right answer?,2018-08-30 13:33:28
+1831903376896793,Maisam,Pyarali,24683,854518728062939,1831903376896793,BOT: quick reply,":keycap_1: cynicism
+:keycap_2: zeal
+:keycap_3: malevolence
+:keycap_4: impracticality
+:keycap_5: equanimity
+",2018-08-30 13:33:29
+1831903376896793,Maisam,Pyarali,24684,1831903376896793,854518728062939,user_quick_reply: BUTTON_DKB_malevolence,:keycap_3:,2018-08-30 13:33:38
+1831903376896793,Maisam,Pyarali,24685,854518728062939,1831903376896793,BOT: message,"Oops, that wasn't quite correct. :disappointed_face:",2018-08-30 13:33:38
+1831903376896793,Maisam,Pyarali,24686,854518728062939,1831903376896793,BOT: quick reply,The correct answer is equanimity.,2018-08-30 13:33:39
+1831903376896793,Maisam,Pyarali,24687,1831903376896793,854518728062939,user_quick_reply: WHY,Why?,2018-08-30 13:33:44
+1831903376896793,Maisam,Pyarali,24688,854518728062939,1831903376896793,BOT: message,Here's why:,2018-08-30 13:33:44
+1831903376896793,Maisam,Pyarali,24689,854518728062939,1831903376896793,BOT: quick reply,":pushpin: Equanimity -- steadiness of mind under stress
+:pushpin: Impracticality -- concerned with theoretical possibilities rather than actual use
+:pushpin: Cynicism -- a cynical feeling of distrust
+:pushpin: Zeal -- a feeling of strong eagerness usually in favor of a person or cause
+:pushpin: Malevolence -- wishing evil to others",2018-08-30 13:33:45
+1831903376896793,Maisam,Pyarali,24690,1831903376896793,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-30 13:34:01
+1831903376896793,Maisam,Pyarali,24691,854518728062939,1831903376896793,BOT: message,Let's see if you can get this one.,2018-08-30 13:34:02
+1831903376896793,Maisam,Pyarali,24692,854518728062939,1831903376896793,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-30 13:34:02
+1831903376896793,Maisam,Pyarali,24693,854518728062939,1831903376896793,BOT: quick reply,"Although John F. Kennedy was known for his carefree flag football games, Gerald Ford should be _____ as our football president: he turned down offers to play for two National Football League teams in order to pursue a career in public service.",2018-08-30 13:34:03
+1831903376896793,Maisam,Pyarali,26195,854518728062939,1831903376896793,BOT: quick reply,"Hi Maisam, you haven't talked to me for a while. Would you like to resume the learning with me?",2018-08-30 20:00:34

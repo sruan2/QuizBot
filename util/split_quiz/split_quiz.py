@@ -313,8 +313,8 @@ def refine_quiz():
 def split_refined_quiz():
 	'''
 		split 54-question quiz a and quiz b to four quizzes a1, a2, b1, b2
-		a1, a2, b1, b2 are similar in difficulty and each have 54 questions
-		a1 and b1, a2 and b2 contain the same set of repeated questions
+		a1, a2, b1, b2 are similar in difficulty and each have 27 questions
+		a1 and b1, a2 and b2 each contain the same set of repeated questions
 		a = a1 + a2
 		b = b1 + b2
 	'''
@@ -456,7 +456,7 @@ def split_refined_quiz():
 	for i in range(len(quiz_b)):
 		quiz_b_data[quiz_b[i][17]] = quiz_b[i][22:-1]
 
-	# id for all users
+	# MTurk id for all users
 	all_users_temp = quiz_a_data.keys()
 	all_users_temp.extend(x for x in quiz_b_data.keys() if x not in quiz_a_data.keys())
 	all_user = []
@@ -487,7 +487,7 @@ def split_refined_quiz():
 
 def get_repeated_questions():
 	'''
-		get the index of the repeated questions in quiz a and quiz b
+		get the qualtrics index of the repeated questions in quiz a and quiz b
 	'''
 	quiz_a_repeated_index = []
 	quiz_b_repeated_index = []
@@ -941,7 +941,7 @@ def dump_correct_rate():
 
 def get_quiz_qid():
 	'''
-		get the qid for quizzes
+		get the qid for questions in quizzes
 	'''
 	quiz_b_score_report_filename = "csv/MTurk1_B_score_report.csv"
 	quiz_b_question = []
@@ -1036,7 +1036,6 @@ def map_question_pool_index_qid():
 	with open(between_subjects_quizbot_filename, 'r') as quizbot_question_json:
 		quizbot_data = json.load(quizbot_question_json)
 
-
 	flashcard_question_pool_index_to_qid = {}
 	quizbot_question_pool_index_to_qid = {}
 
@@ -1055,16 +1054,8 @@ def map_question_pool_index_qid():
 	print(flashcard_question_pool_index_to_qid)
 	print(quizbot_question_pool_index_to_qid)
 
-
 	print(flashcard_question_pool_id)
 	print(quizbot_question_pool_id)
 
-
 if __name__ == "__main__":
 	map_question_pool_index_qid()
-
-
-
-
-
-

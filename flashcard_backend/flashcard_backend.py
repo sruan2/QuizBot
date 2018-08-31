@@ -34,17 +34,31 @@ json_file_between_subject = '../QAdataset/questions_between_subjects_flashcard.j
 qa_kb_between_subject = QAKnowlegeBase(json_file_between_subject)
 model_between_subject = RandomSequencingModel(qa_kb_between_subject)
 
-user_between_subject = {"672579434": "Dee Dee Thao", "725315344": "Tyler Yep",  \
-                        "1844410129": "Yinuo Yao", "1852193290": "Andrew Ying", \
-                        "2000946117": "jingyi li", "2079749432": "Jenn Hu",     \
-                        "732119323": "Joy Yuzurih", "664942274": "Henry Qin", \
-                        "902902333": "Liwei Jiang", "2137982794": "Nina Horowitz", \
-                        "1689820842": "Daniel Do", "1394174277": "Claire Yang", \
-                        "1515117469": "Olivia Yang", "1295547909": "Helen Wang", \
-                        "1237870507": 'Wangjianzhe Shao', "772553696": "Kylie Jue", \
-                        "747757516": "De-An Huang", "239435253": "Giovanni Campagna", \
-                        "1407190745": "Jean Coquet"}
-                        
+user_between_subject = { "450648678": "Nathan Dalal", "466714361": "Sorathan Chaturapruek",
+                         "420158298": "Daniel Choe",  "1477638740": "Owen Wang",
+                         "1163140404": "Richard Xu", "368141180": "Yang Wang",
+                         "490809501": "Hongsheng Fang", "102151122": "Michael Solorio", 
+                         "902902333": "Liwei Jiang", "678532179": "Nina Wei",
+                         "798628431": "Jessica de la Paz", "821967244": "Janice Zang",
+                         "454995128": "Grace Hong" }
+
+user_finished_study = { "239435253": "Giovanni Campagna", "1407190745": "Jean Coquet", 
+                        "50608053": "Philip Zhuang", "719675501": "Yue Hui",
+                        "772553696": "Kylie Jue", "747757516": "De-An Huang", 
+                        "672579434": "Dee Dee Thao", "725315344": "Tyler Yep", 
+                        "1844410129": "Yinuo Yao", "1852193290": "Andrew Ying",
+                        "2000946117": "jingyi li", "2079749432": "Jenn Hu", 
+                        "732119323": "Joy Yuzurih", "664942274": "Henry Qin",
+                        "2137982794": "Nina Horowitz", "1689820842": "Daniel Do",
+                        "1394174277": "Claire Yang", 
+                        "1515117469": "Olivia Yang", "1295547909": "Helen Wang",
+                        "1237870507": 'Wangjianzhe Shao', "1732584014": "Francis Yan",
+                        "361848411": "Flora Wang",
+                        "1492552826": "Nathaniel Ramos",
+                        "370456441": "Paul Walter", "434751492": "Clayton Ellington",
+                        "994772346": "Maisam Pyarali", "1964037557": "Christine Liu"}
+     
+     
 user_id_between_subject = list(user_between_subject.keys())
 
 with app.app_context():
@@ -61,10 +75,11 @@ def index():
 @app.route("/question_data", methods=['GET'])
 def fetch_question():
     user_id = request.args.get('user_id')
-    if user_id in user_id_between_subject:
-        print("--------------------")
-        print(user_between_subject[user_id])
+    if user_id in user_between_subject:
         data = model_between_subject.pickNextQuestion(subject='random')
+    elif user_id in user_finished_study:
+        print("~~~~~~~~~~~~~~~~~~~~")
+        data = {'distractor': [], 'question': 'Thank you very much for using our app! You study is finished now and please proceed to the post-study surveys. Thank you!', 'support': 'Thank you very much for using our app! You study is finished now and please proceed to the post-study surveys. Thank you!', 'correct_answer': 'Thank you very much for using our app! You study is finished now and please proceed to the post-study surveys. Thank you!', 'qid': [-1, -1]}
     else:
         data = model.pickNextQuestion(subject='random')
     return jsonify(data)
@@ -73,10 +88,12 @@ def fetch_question():
 @app.route("/question_data_gre", methods=['GET'])
 def fetch_question_gre():
     user_id = request.args.get('user_id')
-    if user_id in user_id_between_subject:
-        print("--------------------")
-        print(user_between_subject[user_id])
+
+    if user_id in user_between_subject:
         data = model_between_subject.pickNextQuestion(subject='gre')
+    elif user_id in user_finished_study:
+        print("~~~~~~~~~~~~~~~~~~~~")
+        data = {'distractor': [], 'question': 'Thank you very much for using our app! You study is finished now and please proceed to the post-study surveys. Thank you!', 'support': 'Thank you very much for using our app! You study is finished now and please proceed to the post-study surveys. Thank you!', 'correct_answer': 'Thank you very much for using our app! You study is finished now and please proceed to the post-study surveys. Thank you!', 'qid': [-1, -1]}
     else:
         data = model.pickNextQuestion(subject='gre')
     return jsonify(data)
@@ -85,10 +102,11 @@ def fetch_question_gre():
 @app.route("/question_data_science", methods=['GET'])
 def fetch_question_science():
     user_id = request.args.get('user_id')
-    if user_id in user_id_between_subject:
-        print("--------------------")
-        print(user_between_subject[user_id])
+    if user_id in user_between_subject:
         data = model_between_subject.pickNextQuestion(subject='science')
+    elif user_id in user_finished_study:
+        print("~~~~~~~~~~~~~~~~~~~~")
+        data = {'distractor': [], 'question': 'Thank you very much for using our app! You study is finished now and please proceed to the post-study surveys. Thank you!', 'support': 'Thank you very much for using our app! You study is finished now and please proceed to the post-study surveys. Thank you!', 'correct_answer': 'Thank you very much for using our app! You study is finished now and please proceed to the post-study surveys. Thank you!', 'qid': [-1, -1]}
     else:
         data = model.pickNextQuestion(subject='science')
     return jsonify(data)
@@ -97,11 +115,11 @@ def fetch_question_science():
 @app.route("/question_data_safety", methods=['GET'])
 def fetch_question_safety():
     user_id = request.args.get('user_id')
-    
-    if user_id in user_id_between_subject:
-        print("--------------------")
-        print(user_between_subject[user_id])
+    if user_id in user_between_subject:
         data = model_between_subject.pickNextQuestion(subject='safety')
+    elif user_id in user_finished_study:
+        print("~~~~~~~~~~~~~~~~~~~~")
+        data = {'distractor': [], 'question': 'Thank you very much for using our app! You study is finished now and please proceed to the post-study surveys. Thank you!', 'support': 'Thank you very much for using our app! You study is finished now and please proceed to the post-study surveys. Thank you!', 'correct_answer': 'Thank you very much for using our app! You study is finished now and please proceed to the post-study surveys. Thank you!', 'qid': [-1, -1]}
     else:
         data = model.pickNextQuestion(subject='safety')
     return jsonify(data)
