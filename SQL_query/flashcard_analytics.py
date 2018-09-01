@@ -20,7 +20,7 @@ users = [("Golrokh", "Emami"), ("Cynthia", "Torma"), ("Jordan", "Cho"), ("Laura"
          ("yue", "hui"), ("Clayton", "Ellington"), ("Nathaniel", "Ramos"), ("Paul", "Walter"), ("Flora", "Wang"), \
          ("Christine", "Liu"), ("Maisam", "Pyarali"), ("Nathan", "Dalal"), ("Sorathan", "Chaturapruek"), ("Daniel", "Choe"), \
          ("Owen", "Wang"), ("Richard", "Xu"), ("Yang", "Wang"), ("Hongsheng", "Fang"), ("Michael", "Solorio"), \
-         ("Nina", "Wei"), ("Jessica", "de la Paz")]
+         ("Nina", "Wei"), ("Jessica", "de la Paz"), ("Janice", "Zang"), ("Grace", "Hong")]
 
 # request a single user's record specified in command line
 if sys.argv[1] != "" and sys.argv[2] != "":

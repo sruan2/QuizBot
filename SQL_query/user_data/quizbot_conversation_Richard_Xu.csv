@@ -182,3 +182,184 @@ user_id,user_firstname,user_lastname,uid,sender,recipient,type,dialogue,time_sta
 1696872160423833,Richard,Xu,27175,854518728062939,1696872160423833,BOT: message,Let's see if you can answer this question.,2018-08-31 00:07:42
 1696872160423833,Richard,Xu,27176,854518728062939,1696872160423833,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-31 00:07:43
 1696872160423833,Richard,Xu,27177,854518728062939,1696872160423833,BOT: quick reply,"True or false: if you wear a back belt, you can lift more weight than you could without a belt.",2018-08-31 00:07:44
+1696872160423833,Richard,Xu,27178,1696872160423833,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-31 00:07:49
+1696872160423833,Richard,Xu,27179,854518728062939,1696872160423833,BOT: message,Okay. I'll give you some choices.,2018-08-31 00:07:49
+1696872160423833,Richard,Xu,27180,854518728062939,1696872160423833,BOT: quick reply,":keycap_1: False
+:keycap_2: True
+",2018-08-31 00:07:50
+1696872160423833,Richard,Xu,27181,1696872160423833,854518728062939,user_quick_reply: BUTTON_AKB_False,:keycap_1:,2018-08-31 00:07:55
+1696872160423833,Richard,Xu,27182,854518728062939,1696872160423833,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_jubilated_pink.png,2018-08-31 00:07:57
+1696872160423833,Richard,Xu,27183,854518728062939,1696872160423833,BOT: message,Nice! That was right!,2018-08-31 00:07:57
+1696872160423833,Richard,Xu,27184,854518728062939,1696872160423833,BOT: quick reply,The correct answer is False.,2018-08-31 00:07:58
+1696872160423833,Richard,Xu,27185,1696872160423833,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-31 00:08:02
+1696872160423833,Richard,Xu,27186,854518728062939,1696872160423833,BOT: message,How about this next one:,2018-08-31 00:08:03
+1696872160423833,Richard,Xu,27187,854518728062939,1696872160423833,BOT: quick reply,"Many dog owners treat their pets too _____ , forgetting that canines have evolved in competitive environments in which emotional coddling was a sign of weakness.",2018-08-31 00:08:03
+1696872160423833,Richard,Xu,27188,1696872160423833,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-31 00:08:07
+1696872160423833,Richard,Xu,27189,854518728062939,1696872160423833,BOT: message,Pick one of the following answers.,2018-08-31 00:08:08
+1696872160423833,Richard,Xu,27190,854518728062939,1696872160423833,BOT: quick reply,":keycap_1: quixotically
+:keycap_2: belligerently
+:keycap_3: indulgently
+:keycap_4: fortuitously
+:keycap_5: aggressively
+",2018-08-31 00:08:09
+1696872160423833,Richard,Xu,27191,1696872160423833,854518728062939,user_quick_reply: BUTTON_AKB_indulgently,:keycap_3:,2018-08-31 00:09:05
+1696872160423833,Richard,Xu,27192,854518728062939,1696872160423833,BOT: message,Nice! That was right!,2018-08-31 00:09:05
+1696872160423833,Richard,Xu,27193,854518728062939,1696872160423833,BOT: quick reply,The correct answer is indulgently.,2018-08-31 00:09:06
+1696872160423833,Richard,Xu,27194,1696872160423833,854518728062939,user_quick_reply: WHY,Why?,2018-08-31 00:09:18
+1696872160423833,Richard,Xu,27195,854518728062939,1696872160423833,BOT: message,This is an explanation of the question:,2018-08-31 00:09:19
+1696872160423833,Richard,Xu,27196,854518728062939,1696872160423833,BOT: quick reply,":pushpin: Indulgently -- benignly lenient or permissive
+:pushpin: Aggressively -- characterized by or tending toward unprovoked offensives, attacks, invasions, or the like
+:pushpin: Quixotically -- extravagantly chivalrous or romantic
+:pushpin: Fortuitously -- by good fortune
+:pushpin: Belligerently -- with hostility; in a belligerent hostile manner",2018-08-31 00:09:19
+1696872160423833,Richard,Xu,27197,1696872160423833,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-31 00:09:28
+1696872160423833,Richard,Xu,27198,854518728062939,1696872160423833,BOT: message,What about this next question:,2018-08-31 00:09:29
+1696872160423833,Richard,Xu,27199,854518728062939,1696872160423833,BOT: quick reply,"Modern tennis fans have come to realize that, although, quantum technological leaps in racquet technology have lead to _____ increases in the speed and power with which players can hit the ball, this has not necessarily lead to a more entertaining game.",2018-08-31 00:09:29
+1696872160423833,Richard,Xu,27200,1696872160423833,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-31 00:09:35
+1696872160423833,Richard,Xu,27201,854518728062939,1696872160423833,BOT: message,It's one of the following choices.,2018-08-31 00:09:36
+1696872160423833,Richard,Xu,27202,854518728062939,1696872160423833,BOT: quick reply,":keycap_1: malleable
+:keycap_2: commensurate
+:keycap_3: halcyon
+:keycap_4: innocuous
+:keycap_5: tractable
+",2018-08-31 00:09:36
+1696872160423833,Richard,Xu,27203,1696872160423833,854518728062939,persistent_menu: GRE,GRE :input_latin_uppercase:,2018-08-31 00:10:13
+1696872160423833,Richard,Xu,27204,854518728062939,1696872160423833,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/evolvenormal_reading.gif,2018-08-31 00:10:18
+1696872160423833,Richard,Xu,27205,854518728062939,1696872160423833,BOT: quick reply,Awesome! Let's learn about the GRE!,2018-08-31 00:10:18
+1696872160423833,Richard,Xu,27206,1696872160423833,854518728062939,user_quick_reply: NEXT_QUESTION,Okay :round_pushpin:,2018-08-31 00:10:22
+1696872160423833,Richard,Xu,27207,854518728062939,1696872160423833,BOT: message,What about this next question:,2018-08-31 00:10:22
+1696872160423833,Richard,Xu,27208,854518728062939,1696872160423833,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-31 00:10:23
+1696872160423833,Richard,Xu,27209,854518728062939,1696872160423833,BOT: quick reply,"With a similar contrast between a partly cloudy sky and a dark street, the cover of the recent rock CD _____ a famous surrealist painting from the early 1900s.",2018-08-31 00:10:24
+1696872160423833,Richard,Xu,27210,1696872160423833,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-31 00:10:33
+1696872160423833,Richard,Xu,27211,854518728062939,1696872160423833,BOT: message,Which of the following options is the right answer?,2018-08-31 00:10:33
+1696872160423833,Richard,Xu,27212,854518728062939,1696872160423833,BOT: quick reply,":keycap_1: sanctions
+:keycap_2: evokes
+:keycap_3: obfuscates
+:keycap_4: admires
+:keycap_5: disenchants
+",2018-08-31 00:10:34
+1696872160423833,Richard,Xu,27213,1696872160423833,854518728062939,user_quick_reply: I_DONT_KNOW,I dont know :downcast_face_with_sweat:,2018-08-31 00:10:49
+1696872160423833,Richard,Xu,27214,854518728062939,1696872160423833,BOT: quick reply,Are you sure you want to skip this question?,2018-08-31 00:10:49
+1696872160423833,Richard,Xu,27215,1696872160423833,854518728062939,user_quick_reply: GIVEUP_YES,"Yes, answer please.",2018-08-31 00:11:09
+1696872160423833,Richard,Xu,27216,854518728062939,1696872160423833,BOT: message,"I'm sorry, you didn't get the question right this time.",2018-08-31 00:11:09
+1696872160423833,Richard,Xu,27217,854518728062939,1696872160423833,BOT: message,No worries! You'll get it next time! :grinning_face_with_smiling_eyes:,2018-08-31 00:11:10
+1696872160423833,Richard,Xu,27218,854518728062939,1696872160423833,BOT: quick reply,The correct answer is evokes.,2018-08-31 00:11:10
+1696872160423833,Richard,Xu,27219,1696872160423833,854518728062939,user_quick_reply: WHY,Why?,2018-08-31 00:11:32
+1696872160423833,Richard,Xu,27220,854518728062939,1696872160423833,BOT: message,Here's why:,2018-08-31 00:11:33
+1696872160423833,Richard,Xu,27221,854518728062939,1696872160423833,BOT: quick reply,":pushpin: Evokes -- call forth emotions, feelings, and responses
+:pushpin: Admires -- feel admiration for
+:pushpin: Obfuscates -- make obscure or unclear
+:pushpin: Disenchants -- free from enchantment
+:pushpin: Sanctions -- give sanction to",2018-08-31 00:11:34
+1696872160423833,Richard,Xu,28538,854518728062939,1696872160423833,BOT: quick reply,"Hi Richard, you haven't talked to me for a while. Would you like to resume the learning with me?",2018-08-31 20:00:01
+1696872160423833,Richard,Xu,28797,1696872160423833,854518728062939,user_quick_reply: NEXT_QUESTION,Next :collision:,2018-08-31 20:51:08
+1696872160423833,Richard,Xu,28798,854518728062939,1696872160423833,BOT: message,I think you'll like this question.,2018-08-31 20:51:09
+1696872160423833,Richard,Xu,28799,854518728062939,1696872160423833,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-31 20:51:09
+1696872160423833,Richard,Xu,28800,854518728062939,1696872160423833,BOT: quick reply,While she may have answered him truthfully - in the strictest sense of the word - it became clear to Sergei after the incident that Sheryl had actually been trying to _____ .,2018-08-31 20:51:10
+1696872160423833,Richard,Xu,28801,1696872160423833,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-31 20:51:28
+1696872160423833,Richard,Xu,28802,854518728062939,1696872160423833,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-08-31 20:51:29
+1696872160423833,Richard,Xu,28803,854518728062939,1696872160423833,BOT: quick reply,":keycap_1: covet
+:keycap_2: vituperate
+:keycap_3: obfuscate
+:keycap_4: illuminate
+:keycap_5: desiccate
+",2018-08-31 20:51:29
+1696872160423833,Richard,Xu,28804,1696872160423833,854518728062939,user_quick_reply: I_DONT_KNOW,I dont know :downcast_face_with_sweat:,2018-08-31 20:51:36
+1696872160423833,Richard,Xu,28805,854518728062939,1696872160423833,BOT: quick reply,Are you sure you want to skip answering?,2018-08-31 20:51:36
+1696872160423833,Richard,Xu,28806,1696872160423833,854518728062939,user_quick_reply: GIVEUP_YES,"Yes, answer please.",2018-08-31 20:51:44
+1696872160423833,Richard,Xu,28807,854518728062939,1696872160423833,BOT: message,You didn't get it right this time.,2018-08-31 20:51:44
+1696872160423833,Richard,Xu,28808,854518728062939,1696872160423833,BOT: message,No worries! You'll get it next time! :grinning_face_with_smiling_eyes:,2018-08-31 20:51:45
+1696872160423833,Richard,Xu,28809,854518728062939,1696872160423833,BOT: quick reply,The correct answer is obfuscate.,2018-08-31 20:51:45
+1696872160423833,Richard,Xu,28810,1696872160423833,854518728062939,user_quick_reply: WHY,Why?,2018-08-31 20:51:51
+1696872160423833,Richard,Xu,28811,854518728062939,1696872160423833,BOT: message,This is an explanation of the question:,2018-08-31 20:51:52
+1696872160423833,Richard,Xu,28812,854518728062939,1696872160423833,BOT: quick reply,":pushpin: Obfuscate -- make obscure or unclear
+:pushpin: Vituperate -- spread negative information about
+:pushpin: Illuminate -- make lighter or brighter
+:pushpin: Covet -- wish, long, or crave for something, especially the property of another person
+:pushpin: Desiccate -- to dry thoroughly; dry up",2018-08-31 20:51:52
+1696872160423833,Richard,Xu,28813,1696872160423833,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-31 20:52:25
+1696872160423833,Richard,Xu,28814,854518728062939,1696872160423833,BOT: message,Let's see if you can get this one.,2018-08-31 20:52:26
+1696872160423833,Richard,Xu,28815,854518728062939,1696872160423833,BOT: quick reply,Seth was extremely _____ and did not enjoy activities that required effort to meet new people.,2018-08-31 20:52:27
+1696872160423833,Richard,Xu,28816,1696872160423833,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-31 20:52:37
+1696872160423833,Richard,Xu,28817,854518728062939,1696872160423833,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-08-31 20:52:38
+1696872160423833,Richard,Xu,28818,854518728062939,1696872160423833,BOT: quick reply,":keycap_1: gregarious
+:keycap_2: jaded
+:keycap_3: introverted
+:keycap_4: extroverted
+:keycap_5: lackluster
+",2018-08-31 20:52:38
+1696872160423833,Richard,Xu,28819,1696872160423833,854518728062939,user_quick_reply: BUTTON_AKB_introverted,:keycap_3:,2018-08-31 20:52:55
+1696872160423833,Richard,Xu,28820,854518728062939,1696872160423833,BOT: message,Great! Keep it up! :flexed_biceps_medium-light_skin_tone:,2018-08-31 20:52:55
+1696872160423833,Richard,Xu,28821,854518728062939,1696872160423833,BOT: quick reply,The correct answer is introverted.,2018-08-31 20:52:56
+1696872160423833,Richard,Xu,28822,1696872160423833,854518728062939,user_quick_reply: WHY,Why?,2018-08-31 20:53:00
+1696872160423833,Richard,Xu,28823,854518728062939,1696872160423833,BOT: message,Here's why:,2018-08-31 20:53:01
+1696872160423833,Richard,Xu,28824,854518728062939,1696872160423833,BOT: quick reply,":pushpin: Introverted -- given to examining own sensory and perceptual experiences
+:pushpin: Extroverted -- not introspective; examining what is outside yourself
+:pushpin: Gregarious -- fond of the company of others; sociable
+:pushpin: Lackluster -- lacking brilliance or vitality
+:pushpin: Jaded -- exhausted",2018-08-31 20:53:01
+1696872160423833,Richard,Xu,28825,1696872160423833,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-31 20:53:28
+1696872160423833,Richard,Xu,28826,854518728062939,1696872160423833,BOT: message,I think you'll like this question.,2018-08-31 20:53:29
+1696872160423833,Richard,Xu,28827,854518728062939,1696872160423833,BOT: quick reply,"Even though legislators claimed the Contagious Diseases Acts strengthened the nation, social purists argued the Acts _____ the nation's moral growth by encouraging licentious behavior.",2018-08-31 20:53:30
+1696872160423833,Richard,Xu,28828,1696872160423833,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-31 20:53:42
+1696872160423833,Richard,Xu,28829,854518728062939,1696872160423833,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-08-31 20:53:43
+1696872160423833,Richard,Xu,28830,854518728062939,1696872160423833,BOT: quick reply,":keycap_1: enhanced
+:keycap_2: advanced
+:keycap_3: ameliorated
+:keycap_4: supplanted
+:keycap_5: hampered
+",2018-08-31 20:53:43
+1696872160423833,Richard,Xu,28831,1696872160423833,854518728062939,user_quick_reply: BUTTON_AKB_hampered,:keycap_5:,2018-08-31 20:54:01
+1696872160423833,Richard,Xu,28832,854518728062939,1696872160423833,BOT: message,Nice! That was right!,2018-08-31 20:54:01
+1696872160423833,Richard,Xu,28833,854518728062939,1696872160423833,BOT: quick reply,The correct answer is hampered.,2018-08-31 20:54:02
+1696872160423833,Richard,Xu,28834,1696872160423833,854518728062939,user_quick_reply: WHY,Why?,2018-08-31 20:54:06
+1696872160423833,Richard,Xu,28835,854518728062939,1696872160423833,BOT: message,Here's an explanation:,2018-08-31 20:54:07
+1696872160423833,Richard,Xu,28836,854518728062939,1696872160423833,BOT: quick reply,":pushpin: Hampered -- prevent the progress or free movement of
+:pushpin: Advanced -- move or bring forward
+:pushpin: Ameliorated -- to make better
+:pushpin: Supplanted -- take the place or move into the position of
+:pushpin: Enhanced -- increased or intensified in value or beauty or quality",2018-08-31 20:54:07
+1696872160423833,Richard,Xu,28837,1696872160423833,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-31 20:54:23
+1696872160423833,Richard,Xu,28838,854518728062939,1696872160423833,BOT: message,Let's see if you can answer this question.,2018-08-31 20:54:24
+1696872160423833,Richard,Xu,28839,854518728062939,1696872160423833,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-31 20:54:24
+1696872160423833,Richard,Xu,28840,854518728062939,1696872160423833,BOT: quick reply,"Many dog owners treat their pets too _____ , forgetting that canines have evolved in competitive environments in which emotional coddling was a sign of weakness.",2018-08-31 20:54:25
+1696872160423833,Richard,Xu,28841,1696872160423833,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-31 20:54:40
+1696872160423833,Richard,Xu,28842,854518728062939,1696872160423833,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-08-31 20:54:40
+1696872160423833,Richard,Xu,28843,854518728062939,1696872160423833,BOT: quick reply,":keycap_1: belligerently
+:keycap_2: aggressively
+:keycap_3: fortuitously
+:keycap_4: quixotically
+:keycap_5: indulgently
+",2018-08-31 20:54:41
+1696872160423833,Richard,Xu,28844,1696872160423833,854518728062939,user_quick_reply: BUTTON_AKB_indulgently,:keycap_5:,2018-08-31 20:54:58
+1696872160423833,Richard,Xu,28845,854518728062939,1696872160423833,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_normal.png,2018-08-31 20:55:00
+1696872160423833,Richard,Xu,28846,854518728062939,1696872160423833,BOT: message,Great job getting the correct answer!,2018-08-31 20:55:00
+1696872160423833,Richard,Xu,28847,854518728062939,1696872160423833,BOT: quick reply,The correct answer is indulgently.,2018-08-31 20:55:01
+1696872160423833,Richard,Xu,28848,1696872160423833,854518728062939,user_quick_reply: WHY,Why?,2018-08-31 20:55:05
+1696872160423833,Richard,Xu,28849,854518728062939,1696872160423833,BOT: message,I hope this explanation could help you understand the the question.,2018-08-31 20:55:06
+1696872160423833,Richard,Xu,28850,854518728062939,1696872160423833,BOT: quick reply,":pushpin: Indulgently -- benignly lenient or permissive
+:pushpin: Aggressively -- characterized by or tending toward unprovoked offensives, attacks, invasions, or the like
+:pushpin: Quixotically -- extravagantly chivalrous or romantic
+:pushpin: Fortuitously -- by good fortune
+:pushpin: Belligerently -- with hostility; in a belligerent hostile manner",2018-08-31 20:55:06
+1696872160423833,Richard,Xu,28851,1696872160423833,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-31 20:56:13
+1696872160423833,Richard,Xu,28852,854518728062939,1696872160423833,BOT: message,Here's a question for you:,2018-08-31 20:56:14
+1696872160423833,Richard,Xu,28853,854518728062939,1696872160423833,BOT: quick reply,Many Major League Baseball relief pitchers choose an electrifying theme song to play as they take the mound; the song _____ their fans and instills fear in their opponents.,2018-08-31 20:56:14
+1696872160423833,Richard,Xu,28854,1696872160423833,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-31 20:56:37
+1696872160423833,Richard,Xu,28855,854518728062939,1696872160423833,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-08-31 20:56:37
+1696872160423833,Richard,Xu,28856,854518728062939,1696872160423833,BOT: quick reply,":keycap_1: enervates
+:keycap_2: assuages
+:keycap_3: pervades
+:keycap_4: eviscerates
+:keycap_5: innervates
+",2018-08-31 20:56:38
+1696872160423833,Richard,Xu,28857,1696872160423833,854518728062939,user_quick_reply: BUTTON_DKB_enervates,:keycap_1:,2018-08-31 20:56:47
+1696872160423833,Richard,Xu,28858,854518728062939,1696872160423833,BOT: message,"Oops, that is not correct. :disappointed_face:",2018-08-31 20:56:47
+1696872160423833,Richard,Xu,28859,854518728062939,1696872160423833,BOT: quick reply,The correct answer is innervates.,2018-08-31 20:56:48
+1696872160423833,Richard,Xu,28860,1696872160423833,854518728062939,user_quick_reply: WHY,Why?,2018-08-31 20:57:30
+1696872160423833,Richard,Xu,28861,854518728062939,1696872160423833,BOT: message,This is why:,2018-08-31 20:57:30
+1696872160423833,Richard,Xu,28862,854518728062939,1696872160423833,BOT: quick reply,":pushpin: Innervates -- to supply with nerves
+:pushpin: Eviscerates -- surgically remove a part of a structure or an organ
+:pushpin: Enervates -- weaken mentally or morally
+:pushpin: Assuages -- cause to be more favorably inclined; gain the good will of
+:pushpin: Pervades -- spread or diffuse through",2018-08-31 20:57:31

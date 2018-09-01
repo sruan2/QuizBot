@@ -1,0 +1,428 @@
+user_id,user_firstname,user_lastname,uid,sender,recipient,type,dialogue,time_stamp
+2718039978222014,Janice,Zang,24706,854518728062939,2718039978222014,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/quizbot_avatar.png,2018-08-30 13:57:18
+2718039978222014,Janice,Zang,24707,854518728062939,2718039978222014,BOT: quick reply,"Hi Janice! My name is Frosty :penguin: and Im here to help you learn all about science:microscope:, verbal reasoning (GRE) :input_latin_uppercase:, and safety:hammer_and_wrench:!",2018-08-30 13:57:18
+2718039978222014,Janice,Zang,24708,2718039978222014,854518728062939,persistent_menu: SAFETY,Safety:hammer_and_wrench:,2018-08-30 13:57:33
+2718039978222014,Janice,Zang,24709,854518728062939,2718039978222014,BOT: quick reply,Let's test your knowledge on safety!,2018-08-30 13:57:33
+2718039978222014,Janice,Zang,24710,2718039978222014,854518728062939,user_quick_reply: NEXT_QUESTION,"Yes, continue :round_pushpin:",2018-08-30 13:57:38
+2718039978222014,Janice,Zang,24711,854518728062939,2718039978222014,BOT: message,See if you can answer this next one.,2018-08-30 13:57:39
+2718039978222014,Janice,Zang,24712,854518728062939,2718039978222014,BOT: quick reply,To what does the acronym SLM refer?,2018-08-30 13:57:39
+2718039978222014,Janice,Zang,24713,2718039978222014,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-30 13:57:52
+2718039978222014,Janice,Zang,24714,854518728062939,2718039978222014,BOT: message,Pick one of the following answers.,2018-08-30 13:57:52
+2718039978222014,Janice,Zang,24715,854518728062939,2718039978222014,BOT: quick reply,":keycap_1: Service Lifecycle Management
+:keycap_2: Sound Loudness Methods
+:keycap_3: Sound Level Meter
+:keycap_4: System Level Monitor
+",2018-08-30 13:57:53
+2718039978222014,Janice,Zang,24716,2718039978222014,854518728062939,user_quick_reply: BUTTON_DKB_System Level Monitor,:keycap_4:,2018-08-30 13:58:44
+2718039978222014,Janice,Zang,24717,854518728062939,2718039978222014,BOT: message,"Hmm, that wasn't quite right. :disappointed_face:",2018-08-30 13:58:45
+2718039978222014,Janice,Zang,24718,854518728062939,2718039978222014,BOT: quick reply,The correct answer is Sound Level Meter.,2018-08-30 13:58:45
+2718039978222014,Janice,Zang,25094,2718039978222014,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-30 15:31:43
+2718039978222014,Janice,Zang,25095,854518728062939,2718039978222014,BOT: message,Let's see if you would answer this one.,2018-08-30 15:31:44
+2718039978222014,Janice,Zang,25096,854518728062939,2718039978222014,BOT: quick reply,How long can high-acid canned food such as tomatoes be stored?,2018-08-30 15:31:44
+2718039978222014,Janice,Zang,25097,2718039978222014,854518728062939,user_typing,Two years,2018-08-30 15:31:56
+2718039978222014,Janice,Zang,25098,854518728062939,2718039978222014,BOT: message,That's not quite right. :disappointed_face:,2018-08-30 15:31:57
+2718039978222014,Janice,Zang,25099,854518728062939,2718039978222014,BOT: quick reply,The correct answer is 12 to 18 months.,2018-08-30 15:31:57
+2718039978222014,Janice,Zang,25100,2718039978222014,854518728062939,user_quick_reply: WHY,Why?,2018-08-30 15:32:04
+2718039978222014,Janice,Zang,25101,854518728062939,2718039978222014,BOT: message,This is why:,2018-08-30 15:32:05
+2718039978222014,Janice,Zang,25102,854518728062939,2718039978222014,BOT: quick reply,"According to the United States Department of Agriculture (USDA), In general, high-acid canned food such as tomatoes, grapefruit, and pineapple can be stored on the shelf for 12 to 18 months. Low-acid canned food such as meat, poultry, fish, and most vegetables will keep 2 to 5 years if the can remains in good condition and has been stored in a cool, clean, and dry place.",2018-08-30 15:32:05
+2718039978222014,Janice,Zang,25103,2718039978222014,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-30 15:32:24
+2718039978222014,Janice,Zang,25104,854518728062939,2718039978222014,BOT: message,"Alrighty, let's try this one.",2018-08-30 15:32:24
+2718039978222014,Janice,Zang,25105,854518728062939,2718039978222014,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-30 15:32:25
+2718039978222014,Janice,Zang,25106,854518728062939,2718039978222014,BOT: quick reply,What three major factors cause food contamination?,2018-08-30 15:32:26
+2718039978222014,Janice,Zang,25107,2718039978222014,854518728062939,user_typing,"Bacteria, fungi, virus",2018-08-30 15:32:50
+2718039978222014,Janice,Zang,25108,854518728062939,2718039978222014,BOT: message,That's not quite right. :disappointed_face:,2018-08-30 15:32:50
+2718039978222014,Janice,Zang,25109,854518728062939,2718039978222014,BOT: quick reply,"The correct answer is Physical, biological, and chemical.",2018-08-30 15:32:51
+2718039978222014,Janice,Zang,25110,2718039978222014,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-30 15:32:59
+2718039978222014,Janice,Zang,25111,854518728062939,2718039978222014,BOT: message,What about this next question:,2018-08-30 15:33:00
+2718039978222014,Janice,Zang,25112,854518728062939,2718039978222014,BOT: quick reply,True or false: portable fire extinguishers should only be used by trained employees.,2018-08-30 15:33:00
+2718039978222014,Janice,Zang,25113,2718039978222014,854518728062939,user_typing,True,2018-08-30 15:33:14
+2718039978222014,Janice,Zang,25114,854518728062939,2718039978222014,BOT: message,Fantastic! :hundred_points:,2018-08-30 15:33:14
+2718039978222014,Janice,Zang,25115,854518728062939,2718039978222014,BOT: quick reply,The correct answer is True.,2018-08-30 15:33:15
+2718039978222014,Janice,Zang,25116,2718039978222014,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-30 15:33:20
+2718039978222014,Janice,Zang,25117,854518728062939,2718039978222014,BOT: message,See if you can answer this next one.,2018-08-30 15:33:21
+2718039978222014,Janice,Zang,25118,854518728062939,2718039978222014,BOT: quick reply,What should you NOT do while lifting objects?,2018-08-30 15:33:21
+2718039978222014,Janice,Zang,25119,2718039978222014,854518728062939,user_typing,Keep feet together,2018-08-30 15:33:50
+2718039978222014,Janice,Zang,25120,854518728062939,2718039978222014,BOT: message,Nice! :red_apple:,2018-08-30 15:33:51
+2718039978222014,Janice,Zang,25121,854518728062939,2718039978222014,BOT: quick reply,The correct answer is Keep your feet together.,2018-08-30 15:33:52
+2718039978222014,Janice,Zang,25122,2718039978222014,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-30 15:33:57
+2718039978222014,Janice,Zang,25123,854518728062939,2718039978222014,BOT: message,Let's see if you can answer this question.,2018-08-30 15:33:58
+2718039978222014,Janice,Zang,25124,854518728062939,2718039978222014,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-30 15:33:58
+2718039978222014,Janice,Zang,25125,854518728062939,2718039978222014,BOT: quick reply,"True or false: you can always smell, see, or taste harmful bacteria in food that can cause illness.",2018-08-30 15:33:59
+2718039978222014,Janice,Zang,25126,2718039978222014,854518728062939,user_typing,No,2018-08-30 15:34:08
+2718039978222014,Janice,Zang,25127,854518728062939,2718039978222014,BOT: message,Good Answer! :white_heavy_check_mark:,2018-08-30 15:34:09
+2718039978222014,Janice,Zang,25128,854518728062939,2718039978222014,BOT: quick reply,The correct answer is False.,2018-08-30 15:34:10
+2718039978222014,Janice,Zang,25129,2718039978222014,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-30 15:34:16
+2718039978222014,Janice,Zang,25130,854518728062939,2718039978222014,BOT: message,Let's take a look at this question.,2018-08-30 15:34:17
+2718039978222014,Janice,Zang,25131,854518728062939,2718039978222014,BOT: quick reply,To what does the acronym SLM refer?,2018-08-30 15:34:17
+2718039978222014,Janice,Zang,25132,2718039978222014,854518728062939,user_typing,Sound lever meters,2018-08-30 15:34:34
+2718039978222014,Janice,Zang,25133,854518728062939,2718039978222014,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_happy_cyan.png,2018-08-30 15:34:36
+2718039978222014,Janice,Zang,25134,854518728062939,2718039978222014,BOT: message,Thats right! :party_popper:,2018-08-30 15:34:37
+2718039978222014,Janice,Zang,25135,854518728062939,2718039978222014,BOT: quick reply,The correct answer is Sound Level Meter.,2018-08-30 15:34:38
+2718039978222014,Janice,Zang,25136,2718039978222014,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-30 15:34:46
+2718039978222014,Janice,Zang,25137,854518728062939,2718039978222014,BOT: message,"Alrighty, let's try this one.",2018-08-30 15:34:47
+2718039978222014,Janice,Zang,25138,854518728062939,2718039978222014,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-30 15:34:48
+2718039978222014,Janice,Zang,25139,854518728062939,2718039978222014,BOT: quick reply,What should you NOT do while treating cuts and scrapes?,2018-08-30 15:34:48
+2718039978222014,Janice,Zang,25140,2718039978222014,854518728062939,user_typing,Press,2018-08-30 15:34:57
+2718039978222014,Janice,Zang,25141,854518728062939,2718039978222014,BOT: message,That wasn't quite what we were looking for. :disappointed_face:,2018-08-30 15:34:58
+2718039978222014,Janice,Zang,25142,854518728062939,2718039978222014,BOT: quick reply,The correct answer is Wash the wound with soap.,2018-08-30 15:34:59
+2718039978222014,Janice,Zang,25143,2718039978222014,854518728062939,user_quick_reply: SWITCH_SUBJECT,Change subject :shuffle_tracks_button:,2018-08-30 15:35:05
+2718039978222014,Janice,Zang,25144,854518728062939,2718039978222014,BOT: quick reply,"Sure, now tell me which subject you would like to choose.:backhand_index_pointing_down_medium-light_skin_tone:",2018-08-30 15:35:06
+2718039978222014,Janice,Zang,25145,2718039978222014,854518728062939,user_quick_reply: SCIENCE,Science:microscope:,2018-08-30 15:35:12
+2718039978222014,Janice,Zang,25146,854518728062939,2718039978222014,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/evolvesafety_scientist.gif,2018-08-30 15:35:16
+2718039978222014,Janice,Zang,25147,854518728062939,2718039978222014,BOT: quick reply,Awesome! Let's learn about science!,2018-08-30 15:35:17
+2718039978222014,Janice,Zang,25148,2718039978222014,854518728062939,user_quick_reply: NEXT_QUESTION,Got it :clapping_hands_medium-light_skin_tone:,2018-08-30 15:35:23
+2718039978222014,Janice,Zang,25149,854518728062939,2718039978222014,BOT: message,What about this next question:,2018-08-30 15:35:23
+2718039978222014,Janice,Zang,25150,854518728062939,2718039978222014,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-30 15:35:24
+2718039978222014,Janice,Zang,25151,854518728062939,2718039978222014,BOT: quick reply,Most insects reproduce quickly and through what type of reproduction?,2018-08-30 15:35:24
+2718039978222014,Janice,Zang,25152,2718039978222014,854518728062939,user_typing,Asexual,2018-08-30 15:39:41
+2718039978222014,Janice,Zang,25153,854518728062939,2718039978222014,BOT: message,"I'm sorry, but that was incorrect. :disappointed_face:",2018-08-30 15:39:42
+2718039978222014,Janice,Zang,25154,854518728062939,2718039978222014,BOT: quick reply,The correct answer is sexual reproduction.,2018-08-30 15:39:42
+2718039978222014,Janice,Zang,26210,854518728062939,2718039978222014,BOT: quick reply,"Hi Janice, you haven't talked to me for a while. Would you like to resume the learning with me?",2018-08-30 20:00:45
+2718039978222014,Janice,Zang,26211,2718039978222014,854518728062939,user_quick_reply: NEXT_QUESTION,"Yes, continue :light_bulb:",2018-08-30 20:01:33
+2718039978222014,Janice,Zang,26212,854518728062939,2718039978222014,BOT: message,Would you answer this question for me?,2018-08-30 20:01:34
+2718039978222014,Janice,Zang,26213,854518728062939,2718039978222014,BOT: quick reply,What living species of bird is considered the largest of the raptors?,2018-08-30 20:01:34
+2718039978222014,Janice,Zang,26214,2718039978222014,854518728062939,user_typing,Condor,2018-08-30 20:01:46
+2718039978222014,Janice,Zang,26215,854518728062939,2718039978222014,BOT: message,That wasn't quite what we were looking for. :disappointed_face:,2018-08-30 20:01:46
+2718039978222014,Janice,Zang,26216,854518728062939,2718039978222014,BOT: quick reply,The correct answer is golden eagles.,2018-08-30 20:01:47
+2718039978222014,Janice,Zang,26217,2718039978222014,854518728062939,user_quick_reply: WHY,Why?,2018-08-30 20:01:55
+2718039978222014,Janice,Zang,26218,854518728062939,2718039978222014,BOT: message,Here's an explanation:,2018-08-30 20:01:56
+2718039978222014,Janice,Zang,26219,854518728062939,2718039978222014,BOT: quick reply,"Although not as famous as its bald cousin, Golden Eagles are much easier to find in Northern California - one of the largest breeding populations for Golden Eagles. The largest of the raptors, Golden Eagles weigh typically between 8 and 12 pounds, and their wing span is around 6 to 7 feet. These eagles dive towards earth to catch prey, and can reach speeds of up to 200 mph!",2018-08-30 20:01:56
+2718039978222014,Janice,Zang,26220,2718039978222014,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-30 20:02:21
+2718039978222014,Janice,Zang,26221,854518728062939,2718039978222014,BOT: message,Could you answer this one for me?,2018-08-30 20:02:21
+2718039978222014,Janice,Zang,26222,854518728062939,2718039978222014,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-30 20:02:22
+2718039978222014,Janice,Zang,26223,854518728062939,2718039978222014,BOT: quick reply,Nerve cells that sense touch are found mainly where?,2018-08-30 20:02:22
+2718039978222014,Janice,Zang,26224,2718039978222014,854518728062939,user_typing,Skin,2018-08-30 20:07:22
+2718039978222014,Janice,Zang,26225,854518728062939,2718039978222014,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_jubilated_cyan.png,2018-08-30 20:07:24
+2718039978222014,Janice,Zang,26226,854518728062939,2718039978222014,BOT: message,Fantastic! :hundred_points:,2018-08-30 20:07:25
+2718039978222014,Janice,Zang,26227,854518728062939,2718039978222014,BOT: quick reply,The correct answer is skin.,2018-08-30 20:07:25
+2718039978222014,Janice,Zang,26228,2718039978222014,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-30 20:07:32
+2718039978222014,Janice,Zang,26229,854518728062939,2718039978222014,BOT: message,See if you can answer this next one.,2018-08-30 20:07:32
+2718039978222014,Janice,Zang,26230,854518728062939,2718039978222014,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-30 20:07:33
+2718039978222014,Janice,Zang,26231,854518728062939,2718039978222014,BOT: quick reply,What disease characterized by the extreme swelling of the limbs is caused by infection with a type of roundworm?,2018-08-30 20:07:33
+2718039978222014,Janice,Zang,27452,2718039978222014,854518728062939,user_quick_reply: I_DONT_KNOW,I dont know :downcast_face_with_sweat:,2018-08-31 09:58:28
+2718039978222014,Janice,Zang,27453,854518728062939,2718039978222014,BOT: quick reply,Do you really want to skip this question?,2018-08-31 09:58:29
+2718039978222014,Janice,Zang,27459,2718039978222014,854518728062939,user_quick_reply: GIVEUP_YES,"Yes, answer please.",2018-08-31 09:58:36
+2718039978222014,Janice,Zang,27460,854518728062939,2718039978222014,BOT: message,"I'm sorry, you didn't get the question right this time.",2018-08-31 09:58:37
+2718039978222014,Janice,Zang,27462,854518728062939,2718039978222014,BOT: message,"That's okay, you'll get it next time! :grinning_face_with_smiling_eyes:",2018-08-31 09:58:38
+2718039978222014,Janice,Zang,27464,854518728062939,2718039978222014,BOT: quick reply,The correct answer is elephantiasis.,2018-08-31 09:58:38
+2718039978222014,Janice,Zang,27467,2718039978222014,854518728062939,user_quick_reply: WHY,Why?,2018-08-31 09:58:46
+2718039978222014,Janice,Zang,27468,854518728062939,2718039978222014,BOT: message,Here's why:,2018-08-31 09:58:47
+2718039978222014,Janice,Zang,27469,854518728062939,2718039978222014,BOT: quick reply,"Roundworms can be free-living organisms, but they are probably best known for their role as significant plant and animal parasites. Most Nematodes are parasitic, with over 16,000 parasitic species described. Heartworms, which cause serious disease in dogs while living in the heart and blood vessels, are a type of roundworm. Roundworms can also cause disease in humans. Elephantiasis, a disease characterized by the extreme swelling of the limbs, is caused by infection with a type of roundworm.",2018-08-31 09:58:48
+2718039978222014,Janice,Zang,27491,2718039978222014,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-08-31 09:59:21
+2718039978222014,Janice,Zang,27493,854518728062939,2718039978222014,BOT: message,Could you answer this one for me?,2018-08-31 09:59:22
+2718039978222014,Janice,Zang,27495,854518728062939,2718039978222014,BOT: quick reply,What is the diffusion of water through a semipermeable membrane down its concentration gradient?,2018-08-31 09:59:23
+2718039978222014,Janice,Zang,27507,2718039978222014,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-31 09:59:47
+2718039978222014,Janice,Zang,27508,854518728062939,2718039978222014,BOT: message,Okay. I'll give you some choices.,2018-08-31 09:59:47
+2718039978222014,Janice,Zang,27509,854518728062939,2718039978222014,BOT: quick reply,":keycap_1: permable
+:keycap_2: nutrients
+:keycap_3: mirrors
+:keycap_4: osmosis
+",2018-08-31 09:59:48
+2718039978222014,Janice,Zang,27510,2718039978222014,854518728062939,user_quick_reply: BUTTON_AKB_osmosis,:keycap_4:,2018-08-31 09:59:57
+2718039978222014,Janice,Zang,27511,854518728062939,2718039978222014,BOT: message,Great job!,2018-08-31 09:59:57
+2718039978222014,Janice,Zang,27512,854518728062939,2718039978222014,BOT: quick reply,The correct answer is osmosis.,2018-08-31 09:59:58
+2718039978222014,Janice,Zang,27513,2718039978222014,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-31 10:00:06
+2718039978222014,Janice,Zang,27514,854518728062939,2718039978222014,BOT: message,I think you'll like this question.,2018-08-31 10:00:06
+2718039978222014,Janice,Zang,27515,854518728062939,2718039978222014,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-31 10:00:07
+2718039978222014,Janice,Zang,27516,854518728062939,2718039978222014,BOT: quick reply,What living species of bird is considered the largest of the raptors?,2018-08-31 10:00:08
+2718039978222014,Janice,Zang,27517,2718039978222014,854518728062939,user_typing,Eagle,2018-08-31 10:00:22
+2718039978222014,Janice,Zang,27518,854518728062939,2718039978222014,BOT: message,"I'm sorry, but that was incorrect. :disappointed_face:",2018-08-31 10:00:23
+2718039978222014,Janice,Zang,27519,854518728062939,2718039978222014,BOT: quick reply,The correct answer is golden eagles.,2018-08-31 10:00:24
+2718039978222014,Janice,Zang,27520,2718039978222014,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-31 10:00:30
+2718039978222014,Janice,Zang,27521,854518728062939,2718039978222014,BOT: message,I think you'll like this question.,2018-08-31 10:00:31
+2718039978222014,Janice,Zang,27522,854518728062939,2718039978222014,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-31 10:00:32
+2718039978222014,Janice,Zang,27523,854518728062939,2718039978222014,BOT: quick reply,What living species of bird is considered the largest of the raptors?,2018-08-31 10:00:32
+2718039978222014,Janice,Zang,27524,2718039978222014,854518728062939,user_typing,Golden eagle,2018-08-31 10:00:47
+2718039978222014,Janice,Zang,27525,854518728062939,2718039978222014,BOT: message,Correct! :confetti_ball:,2018-08-31 10:00:47
+2718039978222014,Janice,Zang,27526,854518728062939,2718039978222014,BOT: quick reply,The correct answer is golden eagles.,2018-08-31 10:00:48
+2718039978222014,Janice,Zang,27527,2718039978222014,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-31 10:00:54
+2718039978222014,Janice,Zang,27528,854518728062939,2718039978222014,BOT: message,Could you answer this one for me?,2018-08-31 10:00:55
+2718039978222014,Janice,Zang,27529,854518728062939,2718039978222014,BOT: quick reply,What living species of bird is considered the largest of the raptors?,2018-08-31 10:00:55
+2718039978222014,Janice,Zang,27530,2718039978222014,854518728062939,user_typing,Golden eagle,2018-08-31 10:01:32
+2718039978222014,Janice,Zang,27531,854518728062939,2718039978222014,BOT: message,Nice! :red_apple:,2018-08-31 10:01:33
+2718039978222014,Janice,Zang,27532,854518728062939,2718039978222014,BOT: quick reply,The correct answer is golden eagles.,2018-08-31 10:01:34
+2718039978222014,Janice,Zang,27533,2718039978222014,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-31 10:01:41
+2718039978222014,Janice,Zang,27534,854518728062939,2718039978222014,BOT: message,What about this next question:,2018-08-31 10:01:42
+2718039978222014,Janice,Zang,27535,854518728062939,2718039978222014,BOT: quick reply,What is the diffusion of water through a semipermeable membrane down its concentration gradient?,2018-08-31 10:01:42
+2718039978222014,Janice,Zang,27536,2718039978222014,854518728062939,user_typing,Osmosis,2018-08-31 10:01:51
+2718039978222014,Janice,Zang,27537,854518728062939,2718039978222014,BOT: message,Correct! :confetti_ball:,2018-08-31 10:01:51
+2718039978222014,Janice,Zang,27538,854518728062939,2718039978222014,BOT: quick reply,The correct answer is osmosis.,2018-08-31 10:01:52
+2718039978222014,Janice,Zang,27539,2718039978222014,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-31 10:01:57
+2718039978222014,Janice,Zang,27540,854518728062939,2718039978222014,BOT: message,I think you'll like this question.,2018-08-31 10:01:58
+2718039978222014,Janice,Zang,27541,854518728062939,2718039978222014,BOT: quick reply,How often should women perform a breast self-exam?,2018-08-31 10:01:59
+2718039978222014,Janice,Zang,27542,2718039978222014,854518728062939,user_typing,Quarterly,2018-08-31 10:02:08
+2718039978222014,Janice,Zang,27543,854518728062939,2718039978222014,BOT: message,Good job! :raising_hands_medium-light_skin_tone:,2018-08-31 10:02:09
+2718039978222014,Janice,Zang,27544,854518728062939,2718039978222014,BOT: quick reply,The correct answer is monthly.,2018-08-31 10:02:09
+2718039978222014,Janice,Zang,27545,2718039978222014,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-31 10:02:16
+2718039978222014,Janice,Zang,27546,854518728062939,2718039978222014,BOT: message,Let's try this one.,2018-08-31 10:02:17
+2718039978222014,Janice,Zang,27547,854518728062939,2718039978222014,BOT: quick reply,The lithosphere is divided into a dozen major and several minor what?,2018-08-31 10:02:17
+2718039978222014,Janice,Zang,27548,2718039978222014,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-31 10:02:27
+2718039978222014,Janice,Zang,27549,854518728062939,2718039978222014,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-08-31 10:02:27
+2718039978222014,Janice,Zang,27550,854518728062939,2718039978222014,BOT: quick reply,":keycap_1: plates
+:keycap_2: crystals
+:keycap_3: faults
+:keycap_4: zones
+",2018-08-31 10:02:28
+2718039978222014,Janice,Zang,27551,2718039978222014,854518728062939,user_quick_reply: BUTTON_AKB_plates,:keycap_1:,2018-08-31 10:02:35
+2718039978222014,Janice,Zang,27552,854518728062939,2718039978222014,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_happy_cyan.png,2018-08-31 10:02:36
+2718039978222014,Janice,Zang,27553,854518728062939,2718039978222014,BOT: message,Great job!,2018-08-31 10:02:37
+2718039978222014,Janice,Zang,27554,854518728062939,2718039978222014,BOT: quick reply,The correct answer is plates.,2018-08-31 10:02:38
+2718039978222014,Janice,Zang,27983,2718039978222014,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-31 12:47:29
+2718039978222014,Janice,Zang,27984,854518728062939,2718039978222014,BOT: message,How about this next one:,2018-08-31 12:47:30
+2718039978222014,Janice,Zang,27985,854518728062939,2718039978222014,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-31 12:47:30
+2718039978222014,Janice,Zang,27986,854518728062939,2718039978222014,BOT: quick reply,Most fungi get organic compounds from what?,2018-08-31 12:47:31
+2718039978222014,Janice,Zang,27987,2718039978222014,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-31 12:47:43
+2718039978222014,Janice,Zang,27988,854518728062939,2718039978222014,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-08-31 12:47:43
+2718039978222014,Janice,Zang,27989,854518728062939,2718039978222014,BOT: quick reply,":keycap_1: carnivorous organisms
+:keycap_2: inorganic material
+:keycap_3: living organisms
+:keycap_4: dead organisms
+",2018-08-31 12:47:44
+2718039978222014,Janice,Zang,27990,2718039978222014,854518728062939,user_quick_reply: BUTTON_AKB_dead organisms,:keycap_4:,2018-08-31 12:47:54
+2718039978222014,Janice,Zang,27991,854518728062939,2718039978222014,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_jubilated_cyan.png,2018-08-31 12:47:55
+2718039978222014,Janice,Zang,27992,854518728062939,2718039978222014,BOT: message,Great! Keep it up! :flexed_biceps_medium-light_skin_tone:,2018-08-31 12:47:56
+2718039978222014,Janice,Zang,27993,854518728062939,2718039978222014,BOT: quick reply,The correct answer is dead organisms.,2018-08-31 12:47:56
+2718039978222014,Janice,Zang,27994,2718039978222014,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-31 12:48:04
+2718039978222014,Janice,Zang,27995,854518728062939,2718039978222014,BOT: message,Let's try this question.,2018-08-31 12:48:04
+2718039978222014,Janice,Zang,27996,854518728062939,2718039978222014,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-08-31 12:48:05
+2718039978222014,Janice,Zang,27997,854518728062939,2718039978222014,BOT: quick reply,What is the diffusion of water through a semipermeable membrane down its concentration gradient?,2018-08-31 12:48:05
+2718039978222014,Janice,Zang,27998,2718039978222014,854518728062939,user_typing,Osmosis,2018-08-31 12:48:15
+2718039978222014,Janice,Zang,27999,854518728062939,2718039978222014,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_jubilated_purple.png,2018-08-31 12:48:17
+2718039978222014,Janice,Zang,28000,854518728062939,2718039978222014,BOT: message,Nice! :red_apple:,2018-08-31 12:48:17
+2718039978222014,Janice,Zang,28001,854518728062939,2718039978222014,BOT: quick reply,The correct answer is osmosis.,2018-08-31 12:48:18
+2718039978222014,Janice,Zang,28002,2718039978222014,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-31 12:48:25
+2718039978222014,Janice,Zang,28003,854518728062939,2718039978222014,BOT: message,Let's try this one.,2018-08-31 12:48:26
+2718039978222014,Janice,Zang,28004,854518728062939,2718039978222014,BOT: quick reply,What living species of bird is considered the largest of the raptors?,2018-08-31 12:48:26
+2718039978222014,Janice,Zang,28005,2718039978222014,854518728062939,user_typing,Golden eagle,2018-08-31 12:48:39
+2718039978222014,Janice,Zang,28006,854518728062939,2718039978222014,BOT: message,Fantastic! :hundred_points:,2018-08-31 12:48:39
+2718039978222014,Janice,Zang,28007,854518728062939,2718039978222014,BOT: quick reply,The correct answer is golden eagles.,2018-08-31 12:48:40
+2718039978222014,Janice,Zang,28008,2718039978222014,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-31 12:48:47
+2718039978222014,Janice,Zang,28009,854518728062939,2718039978222014,BOT: message,What about this next question:,2018-08-31 12:48:48
+2718039978222014,Janice,Zang,28010,854518728062939,2718039978222014,BOT: quick reply,What are by far the most common type of invertebrate?,2018-08-31 12:48:48
+2718039978222014,Janice,Zang,28011,2718039978222014,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-31 12:49:00
+2718039978222014,Janice,Zang,28012,854518728062939,2718039978222014,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-08-31 12:49:00
+2718039978222014,Janice,Zang,28013,854518728062939,2718039978222014,BOT: quick reply,":keycap_1: crustaceans
+:keycap_2: insects
+:keycap_3: spiders
+:keycap_4: corals
+",2018-08-31 12:49:01
+2718039978222014,Janice,Zang,28014,2718039978222014,854518728062939,user_quick_reply: BUTTON_AKB_insects,:keycap_2:,2018-08-31 12:49:09
+2718039978222014,Janice,Zang,28015,854518728062939,2718039978222014,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_happy_cyan.png,2018-08-31 12:49:11
+2718039978222014,Janice,Zang,28016,854518728062939,2718039978222014,BOT: message,Nice! That was right!,2018-08-31 12:49:11
+2718039978222014,Janice,Zang,28017,854518728062939,2718039978222014,BOT: quick reply,The correct answer is insects.,2018-08-31 12:49:12
+2718039978222014,Janice,Zang,28018,2718039978222014,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-31 12:49:19
+2718039978222014,Janice,Zang,28019,854518728062939,2718039978222014,BOT: message,Here's a question for you:,2018-08-31 12:49:20
+2718039978222014,Janice,Zang,28020,854518728062939,2718039978222014,BOT: quick reply,The electrode at which oxidation occurs is called the what?,2018-08-31 12:49:20
+2718039978222014,Janice,Zang,28021,2718039978222014,854518728062939,user_typing,Cathode,2018-08-31 12:52:56
+2718039978222014,Janice,Zang,28022,854518728062939,2718039978222014,BOT: message,Good Answer! :white_heavy_check_mark:,2018-08-31 12:52:57
+2718039978222014,Janice,Zang,28023,854518728062939,2718039978222014,BOT: quick reply,The correct answer is anode.,2018-08-31 12:52:58
+2718039978222014,Janice,Zang,28024,2718039978222014,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-31 12:53:05
+2718039978222014,Janice,Zang,28025,854518728062939,2718039978222014,BOT: message,What about this next question:,2018-08-31 12:53:05
+2718039978222014,Janice,Zang,28026,854518728062939,2718039978222014,BOT: quick reply,What are by far the most common type of invertebrate?,2018-08-31 12:53:06
+2718039978222014,Janice,Zang,28027,2718039978222014,854518728062939,user_typing,Insect,2018-08-31 12:53:18
+2718039978222014,Janice,Zang,28028,854518728062939,2718039978222014,BOT: message,That's not quite right. :disappointed_face:,2018-08-31 12:53:19
+2718039978222014,Janice,Zang,28029,854518728062939,2718039978222014,BOT: quick reply,The correct answer is insects.,2018-08-31 12:53:19
+2718039978222014,Janice,Zang,28030,2718039978222014,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-31 12:53:46
+2718039978222014,Janice,Zang,28031,854518728062939,2718039978222014,BOT: message,Let's try this one.,2018-08-31 12:53:46
+2718039978222014,Janice,Zang,28032,854518728062939,2718039978222014,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-31 12:53:47
+2718039978222014,Janice,Zang,28033,854518728062939,2718039978222014,BOT: quick reply,How often should women perform a breast self-exam?,2018-08-31 12:53:47
+2718039978222014,Janice,Zang,28038,2718039978222014,854518728062939,user_typing,Monthly,2018-08-31 12:54:14
+2718039978222014,Janice,Zang,28039,854518728062939,2718039978222014,BOT: message,Fantastic! :hundred_points:,2018-08-31 12:54:15
+2718039978222014,Janice,Zang,28040,854518728062939,2718039978222014,BOT: quick reply,The correct answer is monthly.,2018-08-31 12:54:16
+2718039978222014,Janice,Zang,28243,2718039978222014,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-31 13:44:30
+2718039978222014,Janice,Zang,28244,854518728062939,2718039978222014,BOT: message,Let's try this one.,2018-08-31 13:44:31
+2718039978222014,Janice,Zang,28245,854518728062939,2718039978222014,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-08-31 13:44:31
+2718039978222014,Janice,Zang,28246,854518728062939,2718039978222014,BOT: quick reply,Most insects reproduce quickly and through what type of reproduction?,2018-08-31 13:44:32
+2718039978222014,Janice,Zang,28247,2718039978222014,854518728062939,user_typing,Sexual,2018-08-31 13:44:41
+2718039978222014,Janice,Zang,28248,854518728062939,2718039978222014,BOT: message,Correct! :confetti_ball:,2018-08-31 13:44:42
+2718039978222014,Janice,Zang,28249,854518728062939,2718039978222014,BOT: quick reply,The correct answer is sexual reproduction.,2018-08-31 13:44:42
+2718039978222014,Janice,Zang,28250,2718039978222014,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-31 13:44:47
+2718039978222014,Janice,Zang,28251,854518728062939,2718039978222014,BOT: message,Let's take a look at this question.,2018-08-31 13:44:48
+2718039978222014,Janice,Zang,28252,854518728062939,2718039978222014,BOT: quick reply,Most insects reproduce quickly and through what type of reproduction?,2018-08-31 13:44:49
+2718039978222014,Janice,Zang,28555,854518728062939,2718039978222014,BOT: quick reply,"Hi Janice, you haven't talked to me for a while. Would you like to resume the learning with me?",2018-08-31 20:00:13
+2718039978222014,Janice,Zang,28556,2718039978222014,854518728062939,user_quick_reply: NEXT_QUESTION,Sure :collision:,2018-08-31 20:00:35
+2718039978222014,Janice,Zang,28557,854518728062939,2718039978222014,BOT: message,"Alrighty, let's try this one.",2018-08-31 20:00:35
+2718039978222014,Janice,Zang,28558,854518728062939,2718039978222014,BOT: quick reply,Most insects reproduce quickly and through what type of reproduction?,2018-08-31 20:00:36
+2718039978222014,Janice,Zang,28559,2718039978222014,854518728062939,persistent_menu: GRE,GRE :input_latin_uppercase:,2018-08-31 20:00:45
+2718039978222014,Janice,Zang,28560,2718039978222014,854518728062939,persistent_menu: RANDOM,Random :game_die:,2018-08-31 20:00:49
+2718039978222014,Janice,Zang,28561,854518728062939,2718039978222014,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/evolvescientist_reading.gif,2018-08-31 20:00:50
+2718039978222014,Janice,Zang,28562,854518728062939,2718039978222014,BOT: quick reply,Awesome! Let's learn about the GRE!,2018-08-31 20:00:51
+2718039978222014,Janice,Zang,28563,854518728062939,2718039978222014,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/evolvescientist_normal.gif,2018-08-31 20:00:54
+2718039978222014,Janice,Zang,28564,854518728062939,2718039978222014,BOT: quick reply,Let's answer some questions about everything! :game_die:,2018-08-31 20:00:55
+2718039978222014,Janice,Zang,28565,2718039978222014,854518728062939,user_quick_reply: NEXT_QUESTION,OK :oncoming_fist_medium-light_skin_tone:,2018-08-31 20:00:56
+2718039978222014,Janice,Zang,28566,854518728062939,2718039978222014,BOT: message,"Alrighty, let's try this one.",2018-08-31 20:00:58
+2718039978222014,Janice,Zang,28567,854518728062939,2718039978222014,BOT: quick reply,How long can high-acid canned food such as tomatoes be stored?,2018-08-31 20:00:58
+2718039978222014,Janice,Zang,28568,2718039978222014,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-31 20:01:08
+2718039978222014,Janice,Zang,28569,854518728062939,2718039978222014,BOT: message,Which of the following options is the right answer?,2018-08-31 20:01:09
+2718039978222014,Janice,Zang,28570,854518728062939,2718039978222014,BOT: quick reply,":keycap_1: 2 to 6 months
+:keycap_2: 10 to 30 days
+:keycap_3: 12 to 18 months
+:keycap_4: 2 to 4 years
+",2018-08-31 20:01:09
+2718039978222014,Janice,Zang,28571,2718039978222014,854518728062939,user_quick_reply: BUTTON_AKB_12 to 18 months,:keycap_3:,2018-08-31 20:01:18
+2718039978222014,Janice,Zang,28572,854518728062939,2718039978222014,BOT: message,Nice! That was right!,2018-08-31 20:01:18
+2718039978222014,Janice,Zang,28573,854518728062939,2718039978222014,BOT: quick reply,The correct answer is 12 to 18 months.,2018-08-31 20:01:19
+2718039978222014,Janice,Zang,28574,2718039978222014,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-31 20:01:46
+2718039978222014,Janice,Zang,28575,854518728062939,2718039978222014,BOT: message,Let's try this question.,2018-08-31 20:01:46
+2718039978222014,Janice,Zang,28576,854518728062939,2718039978222014,BOT: quick reply,The lithosphere is divided into a dozen major and several minor what?,2018-08-31 20:01:47
+2718039978222014,Janice,Zang,28577,2718039978222014,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-31 20:02:03
+2718039978222014,Janice,Zang,28578,854518728062939,2718039978222014,BOT: message,Okay. I'll give you some choices.,2018-08-31 20:02:03
+2718039978222014,Janice,Zang,28579,854518728062939,2718039978222014,BOT: quick reply,":keycap_1: plates
+:keycap_2: crystals
+:keycap_3: zones
+:keycap_4: faults
+",2018-08-31 20:02:04
+2718039978222014,Janice,Zang,28580,2718039978222014,854518728062939,user_quick_reply: BUTTON_AKB_plates,:keycap_1:,2018-08-31 20:02:09
+2718039978222014,Janice,Zang,28581,854518728062939,2718039978222014,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_jubilated_cyan.png,2018-08-31 20:02:11
+2718039978222014,Janice,Zang,28582,854518728062939,2718039978222014,BOT: message,Great! Keep it up! :flexed_biceps_medium-light_skin_tone:,2018-08-31 20:02:11
+2718039978222014,Janice,Zang,28583,854518728062939,2718039978222014,BOT: quick reply,The correct answer is plates.,2018-08-31 20:02:12
+2718039978222014,Janice,Zang,28584,2718039978222014,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-08-31 20:02:19
+2718039978222014,Janice,Zang,28585,854518728062939,2718039978222014,BOT: message,Here's a question for you:,2018-08-31 20:02:19
+2718039978222014,Janice,Zang,28586,854518728062939,2718039978222014,BOT: quick reply,"Modern tennis fans have come to realize that, although, quantum technological leaps in racquet technology have lead to _____ increases in the speed and power with which players can hit the ball, this has not necessarily lead to a more entertaining game.",2018-08-31 20:02:20
+2718039978222014,Janice,Zang,28587,2718039978222014,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-08-31 20:02:52
+2718039978222014,Janice,Zang,28588,854518728062939,2718039978222014,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-08-31 20:02:53
+2718039978222014,Janice,Zang,28589,854518728062939,2718039978222014,BOT: quick reply,":keycap_1: innocuous
+:keycap_2: tractable
+:keycap_3: malleable
+:keycap_4: halcyon
+:keycap_5: commensurate
+",2018-08-31 20:02:53
+2718039978222014,Janice,Zang,28590,2718039978222014,854518728062939,user_quick_reply: BUTTON_DKB_malleable,:keycap_3:,2018-08-31 20:03:02
+2718039978222014,Janice,Zang,28591,854518728062939,2718039978222014,BOT: message,"Oops, that is not correct. :disappointed_face:",2018-08-31 20:03:03
+2718039978222014,Janice,Zang,28592,854518728062939,2718039978222014,BOT: quick reply,The correct answer is commensurate.,2018-08-31 20:03:03
+2718039978222014,Janice,Zang,28593,2718039978222014,854518728062939,user_quick_reply: WHY,Why?,2018-08-31 20:03:16
+2718039978222014,Janice,Zang,28594,854518728062939,2718039978222014,BOT: message,This is why:,2018-08-31 20:03:16
+2718039978222014,Janice,Zang,28595,854518728062939,2718039978222014,BOT: quick reply,":pushpin: Commensurate -- corresponding in size or degree or extent
+:pushpin: Innocuous -- not injurious to physical or mental health
+:pushpin: Halcyon -- idyllically calm and peaceful; suggesting happy tranquillity
+:pushpin: Malleable -- easily influenced
+:pushpin: Tractable -- easily managed (controlled or taught or molded",2018-08-31 20:03:17
+2718039978222014,Janice,Zang,29869,2718039978222014,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-09-01 11:02:46
+2718039978222014,Janice,Zang,29870,854518728062939,2718039978222014,BOT: message,See if you can answer this next one.,2018-09-01 11:02:46
+2718039978222014,Janice,Zang,29871,854518728062939,2718039978222014,BOT: quick reply,What does CERT stand for?,2018-09-01 11:02:47
+2718039978222014,Janice,Zang,29872,2718039978222014,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-01 11:02:54
+2718039978222014,Janice,Zang,29873,854518728062939,2718039978222014,BOT: message,It's one of the following choices.,2018-09-01 11:02:54
+2718039978222014,Janice,Zang,29874,854518728062939,2718039978222014,BOT: quick reply,":keycap_1: Controlled Evacuation and Response Tactics
+:keycap_2: Community Emergency Response Team
+:keycap_3: Central Emergency Response Terminal
+:keycap_4: Community Experimental Research Team
+",2018-09-01 11:02:55
+2718039978222014,Janice,Zang,29875,2718039978222014,854518728062939,user_quick_reply: BUTTON_DKB_Controlled Evacuation and Response Tactics,:keycap_1:,2018-09-01 11:03:02
+2718039978222014,Janice,Zang,29876,854518728062939,2718039978222014,BOT: message,"Hmm, that wasn't quite right. :disappointed_face:",2018-09-01 11:03:03
+2718039978222014,Janice,Zang,29877,854518728062939,2718039978222014,BOT: quick reply,The correct answer is Community Emergency Response Team.,2018-09-01 11:03:04
+2718039978222014,Janice,Zang,29878,2718039978222014,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-01 11:03:13
+2718039978222014,Janice,Zang,29879,854518728062939,2718039978222014,BOT: message,Here's a question for you:,2018-09-01 11:03:14
+2718039978222014,Janice,Zang,29880,854518728062939,2718039978222014,BOT: quick reply,What does CERT stand for?,2018-09-01 11:03:15
+2718039978222014,Janice,Zang,29881,2718039978222014,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-01 11:03:23
+2718039978222014,Janice,Zang,29882,854518728062939,2718039978222014,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-09-01 11:03:24
+2718039978222014,Janice,Zang,29883,854518728062939,2718039978222014,BOT: quick reply,":keycap_1: Community Experimental Research Team
+:keycap_2: Central Emergency Response Terminal
+:keycap_3: Community Emergency Response Team
+:keycap_4: Controlled Evacuation and Response Tactics
+",2018-09-01 11:03:24
+2718039978222014,Janice,Zang,29884,2718039978222014,854518728062939,user_quick_reply: BUTTON_AKB_Community Emergency Response Team,:keycap_3:,2018-09-01 11:03:31
+2718039978222014,Janice,Zang,29885,854518728062939,2718039978222014,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_jubilated_pink.png,2018-09-01 11:03:33
+2718039978222014,Janice,Zang,29886,854518728062939,2718039978222014,BOT: message,Yes! You got the correct answer!,2018-09-01 11:03:34
+2718039978222014,Janice,Zang,29887,854518728062939,2718039978222014,BOT: quick reply,The correct answer is Community Emergency Response Team.,2018-09-01 11:03:34
+2718039978222014,Janice,Zang,29888,2718039978222014,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-01 11:03:40
+2718039978222014,Janice,Zang,29889,854518728062939,2718039978222014,BOT: message,Let's try this question.,2018-09-01 11:03:40
+2718039978222014,Janice,Zang,29890,854518728062939,2718039978222014,BOT: quick reply,"True or false: if you wear a back belt, you can lift more weight than you could without a belt.",2018-09-01 11:03:41
+2718039978222014,Janice,Zang,29891,2718039978222014,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-01 11:03:50
+2718039978222014,Janice,Zang,29892,854518728062939,2718039978222014,BOT: message,Okay. I'll give you some choices.,2018-09-01 11:03:50
+2718039978222014,Janice,Zang,29893,854518728062939,2718039978222014,BOT: quick reply,":keycap_1: False
+:keycap_2: True
+",2018-09-01 11:03:51
+2718039978222014,Janice,Zang,29894,2718039978222014,854518728062939,user_quick_reply: BUTTON_AKB_False,:keycap_1:,2018-09-01 11:03:56
+2718039978222014,Janice,Zang,29895,854518728062939,2718039978222014,BOT: message,Great job!,2018-09-01 11:03:56
+2718039978222014,Janice,Zang,29896,854518728062939,2718039978222014,BOT: quick reply,The correct answer is False.,2018-09-01 11:03:57
+2718039978222014,Janice,Zang,29897,2718039978222014,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-01 11:04:04
+2718039978222014,Janice,Zang,29898,854518728062939,2718039978222014,BOT: message,Let's try this one.,2018-09-01 11:04:05
+2718039978222014,Janice,Zang,29899,854518728062939,2718039978222014,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-09-01 11:04:05
+2718039978222014,Janice,Zang,29900,854518728062939,2718039978222014,BOT: quick reply,The lithosphere is divided into a dozen major and several minor what?,2018-09-01 11:04:06
+2718039978222014,Janice,Zang,29901,2718039978222014,854518728062939,user_typing,Plate,2018-09-01 11:04:17
+2718039978222014,Janice,Zang,29902,854518728062939,2718039978222014,BOT: message,Good job! :raising_hands_medium-light_skin_tone:,2018-09-01 11:04:18
+2718039978222014,Janice,Zang,29903,854518728062939,2718039978222014,BOT: quick reply,The correct answer is plates.,2018-09-01 11:04:19
+2718039978222014,Janice,Zang,29904,2718039978222014,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-01 11:04:25
+2718039978222014,Janice,Zang,29905,854518728062939,2718039978222014,BOT: message,Here's a question for you:,2018-09-01 11:04:25
+2718039978222014,Janice,Zang,29906,854518728062939,2718039978222014,BOT: quick reply,Which fire extinguishers are used to put out fires caused by flammable liquids?,2018-09-01 11:04:26
+2718039978222014,Janice,Zang,29907,2718039978222014,854518728062939,user_typing,Co2,2018-09-01 11:04:41
+2718039978222014,Janice,Zang,29908,854518728062939,2718039978222014,BOT: message,Nice! That was right!,2018-09-01 11:04:41
+2718039978222014,Janice,Zang,29909,854518728062939,2718039978222014,BOT: quick reply,The correct answer is Class B carbon dioxide fire extinguisher.,2018-09-01 11:04:42
+2718039978222014,Janice,Zang,29910,2718039978222014,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-01 11:04:49
+2718039978222014,Janice,Zang,29911,854518728062939,2718039978222014,BOT: message,"Alrighty, let's try this one.",2018-09-01 11:04:50
+2718039978222014,Janice,Zang,29912,854518728062939,2718039978222014,BOT: quick reply,What three major factors cause food contamination?,2018-09-01 11:04:51
+2718039978222014,Janice,Zang,29913,2718039978222014,854518728062939,user_typing,Physical chemical biological,2018-09-01 11:05:16
+2718039978222014,Janice,Zang,29914,854518728062939,2718039978222014,BOT: message,Thats right! :party_popper:,2018-09-01 11:05:16
+2718039978222014,Janice,Zang,29915,854518728062939,2718039978222014,BOT: quick reply,"The correct answer is Physical, biological, and chemical.",2018-09-01 11:05:17
+2718039978222014,Janice,Zang,29916,2718039978222014,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-01 11:05:24
+2718039978222014,Janice,Zang,29917,854518728062939,2718039978222014,BOT: message,I think you'll like this question.,2018-09-01 11:05:24
+2718039978222014,Janice,Zang,29918,854518728062939,2718039978222014,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-09-01 11:05:25
+2718039978222014,Janice,Zang,29919,854518728062939,2718039978222014,BOT: quick reply,What are the little sacs at the end of the bronchioles called?,2018-09-01 11:05:26
+2718039978222014,Janice,Zang,29920,2718039978222014,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-01 11:05:44
+2718039978222014,Janice,Zang,29921,854518728062939,2718039978222014,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-09-01 11:05:44
+2718039978222014,Janice,Zang,29922,854518728062939,2718039978222014,BOT: quick reply,":keycap_1: lung
+:keycap_2: alveoli
+:keycap_3: respiratory sacs
+:keycap_4: ganglion
+",2018-09-01 11:05:45
+2718039978222014,Janice,Zang,29923,2718039978222014,854518728062939,user_typing,2,2018-09-01 11:05:52
+2718039978222014,Janice,Zang,29924,854518728062939,2718039978222014,BOT: message,That's not quite right. :disappointed_face:,2018-09-01 11:05:52
+2718039978222014,Janice,Zang,29925,854518728062939,2718039978222014,BOT: quick reply,The correct answer is alveoli.,2018-09-01 11:05:53
+2718039978222014,Janice,Zang,29926,2718039978222014,854518728062939,user_quick_reply: WHY,Why?,2018-09-01 11:06:02
+2718039978222014,Janice,Zang,29927,854518728062939,2718039978222014,BOT: message,Here's an explanation:,2018-09-01 11:06:02
+2718039978222014,Janice,Zang,29928,854518728062939,2718039978222014,BOT: quick reply,"The bronchioles lead to the alveoli. Alveoli are the little sacs at the end of the bronchioles. They look like little bunches of grapes. Oxygen is exchanged for carbon dioxide in the alveoli. That means oxygen enters the blood, and carbon dioxide moves out of the blood. The gases are exchanged between the blood and alveoli by simple diffusion.",2018-09-01 11:06:03
+2718039978222014,Janice,Zang,29929,2718039978222014,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-09-01 11:06:28
+2718039978222014,Janice,Zang,29930,854518728062939,2718039978222014,BOT: message,"Alrighty, let's try this one.",2018-09-01 11:06:28
+2718039978222014,Janice,Zang,29931,854518728062939,2718039978222014,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-09-01 11:06:29
+2718039978222014,Janice,Zang,29932,854518728062939,2718039978222014,BOT: quick reply,"Just as different people can have very different personalities, so too can pets - even those of the same species and breed possess varied _____ .",2018-09-01 11:06:30
+2718039978222014,Janice,Zang,29933,2718039978222014,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-01 11:06:44
+2718039978222014,Janice,Zang,29934,854518728062939,2718039978222014,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-09-01 11:06:45
+2718039978222014,Janice,Zang,29935,854518728062939,2718039978222014,BOT: quick reply,":keycap_1: rationalizations
+:keycap_2: initiations
+:keycap_3: temperaments
+:keycap_4: implementations
+:keycap_5: aptitudes
+",2018-09-01 11:06:46
+2718039978222014,Janice,Zang,29936,2718039978222014,854518728062939,user_quick_reply: BUTTON_DKB_initiations,:keycap_2:,2018-09-01 11:06:54
+2718039978222014,Janice,Zang,29937,854518728062939,2718039978222014,BOT: message,"Oops, that wasn't quite correct. :disappointed_face:",2018-09-01 11:06:55
+2718039978222014,Janice,Zang,29938,854518728062939,2718039978222014,BOT: quick reply,The correct answer is temperaments.,2018-09-01 11:06:56
+2718039978222014,Janice,Zang,29939,2718039978222014,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-01 11:07:04
+2718039978222014,Janice,Zang,29940,854518728062939,2718039978222014,BOT: message,"Alrighty, let's try this one.",2018-09-01 11:07:05
+2718039978222014,Janice,Zang,29941,854518728062939,2718039978222014,BOT: quick reply,"Dolly Madison, the wife of President James Madison, was known especially for her _____ , remaining calm even as the British invaded Washington D.C. during the War of 1812.",2018-09-01 11:07:05
+2718039978222014,Janice,Zang,29942,2718039978222014,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-01 11:07:19
+2718039978222014,Janice,Zang,29943,854518728062939,2718039978222014,BOT: message,Pick one of the following answers.,2018-09-01 11:07:19
+2718039978222014,Janice,Zang,29944,854518728062939,2718039978222014,BOT: quick reply,":keycap_1: equanimity
+:keycap_2: malevolence
+:keycap_3: impracticality
+:keycap_4: cynicism
+:keycap_5: zeal
+",2018-09-01 11:07:20
+2718039978222014,Janice,Zang,29945,2718039978222014,854518728062939,user_quick_reply: BUTTON_AKB_equanimity,:keycap_1:,2018-09-01 11:07:29
+2718039978222014,Janice,Zang,29946,854518728062939,2718039978222014,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_jubilated_orange.png,2018-09-01 11:07:30
+2718039978222014,Janice,Zang,29947,854518728062939,2718039978222014,BOT: message,Nice work! Keep it up!,2018-09-01 11:07:31
+2718039978222014,Janice,Zang,29948,854518728062939,2718039978222014,BOT: quick reply,The correct answer is equanimity.,2018-09-01 11:07:32
+2718039978222014,Janice,Zang,29949,2718039978222014,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-01 11:07:37
+2718039978222014,Janice,Zang,29950,854518728062939,2718039978222014,BOT: message,I think you'll like this question.,2018-09-01 11:07:38
+2718039978222014,Janice,Zang,29951,854518728062939,2718039978222014,BOT: quick reply,"Even though legislators claimed the Contagious Diseases Acts strengthened the nation, social purists argued the Acts _____ the nation's moral growth by encouraging licentious behavior.",2018-09-01 11:07:38
+2718039978222014,Janice,Zang,29952,2718039978222014,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-01 11:08:01
+2718039978222014,Janice,Zang,29953,854518728062939,2718039978222014,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-09-01 11:08:02
+2718039978222014,Janice,Zang,29954,854518728062939,2718039978222014,BOT: quick reply,":keycap_1: ameliorated
+:keycap_2: supplanted
+:keycap_3: hampered
+:keycap_4: advanced
+:keycap_5: enhanced
+",2018-09-01 11:08:02
+2718039978222014,Janice,Zang,29955,2718039978222014,854518728062939,user_quick_reply: BUTTON_DKB_ameliorated,:keycap_1:,2018-09-01 11:08:12
+2718039978222014,Janice,Zang,29956,854518728062939,2718039978222014,BOT: message,"Hmm, that wasn't quite right. :disappointed_face:",2018-09-01 11:08:13
+2718039978222014,Janice,Zang,29957,854518728062939,2718039978222014,BOT: quick reply,The correct answer is hampered.,2018-09-01 11:08:13
+2718039978222014,Janice,Zang,29958,2718039978222014,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-01 11:08:21
+2718039978222014,Janice,Zang,29959,854518728062939,2718039978222014,BOT: message,Let's try this question.,2018-09-01 11:08:22
+2718039978222014,Janice,Zang,29960,854518728062939,2718039978222014,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-09-01 11:08:22
+2718039978222014,Janice,Zang,29961,854518728062939,2718039978222014,BOT: quick reply,What should you NOT do while treating cuts and scrapes?,2018-09-01 11:08:23
+2718039978222014,Janice,Zang,29962,2718039978222014,854518728062939,user_typing,Wash with soap,2018-09-01 11:08:48
+2718039978222014,Janice,Zang,29963,854518728062939,2718039978222014,BOT: message,Fantastic! :hundred_points:,2018-09-01 11:08:48
+2718039978222014,Janice,Zang,29964,854518728062939,2718039978222014,BOT: quick reply,The correct answer is Wash the wound with soap.,2018-09-01 11:08:49
+2718039978222014,Janice,Zang,29965,2718039978222014,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-01 11:08:55
+2718039978222014,Janice,Zang,29966,854518728062939,2718039978222014,BOT: message,What about this next question:,2018-09-01 11:08:56
+2718039978222014,Janice,Zang,29967,854518728062939,2718039978222014,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-09-01 11:08:56
+2718039978222014,Janice,Zang,29968,854518728062939,2718039978222014,BOT: quick reply,"What arises due to crossing over, independent assortment, and the random union of gametes?",2018-09-01 11:08:57

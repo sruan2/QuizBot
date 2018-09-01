@@ -29,7 +29,7 @@ users = ["Noah Yinuo_Yao", "Dee Dee_Thao", "Zhenqi_Hu", "Jingyi_Li", "Joy_Yuzuri
          "Nina_Wei", "Yue_Hui", "Clayton_Ellington", \
          "Nathaniel_Ramos", "Paul_Walter", "Flora_Wang", "Christine_Liu", "Selen_Bozkurt", "Maisam_Pyarali", \
          "Nathan_Dalal", "Sorathan_Chaturapruek", "Daniel_Choe", "Owen_Wang", "Richard_Xu", "Yang_Wang",
-         "Hongsheng_Fang"]
+         "Hongsheng_Fang", "Janice_Zang", "Grace_Hong"]
          
 # users.append("Julia_Thompson")
 

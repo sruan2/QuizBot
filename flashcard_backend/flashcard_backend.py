@@ -26,7 +26,7 @@ app.config['MYSQL_DB'] = os.environ["DB"]
 mysql.init_app(app)
 
 # ================== Load Sequencing Model ==================
-json_file = '../QAdataset/questions_filtered_150_quizbot.json'
+json_file = '../QAdataset/questions_96.json'
 qa_kb = QAKnowlegeBase(json_file)
 model = RandomSequencingModel(qa_kb)
 
@@ -34,11 +34,12 @@ json_file_between_subject = '../QAdataset/questions_between_subjects_flashcard.j
 qa_kb_between_subject = QAKnowlegeBase(json_file_between_subject)
 model_between_subject = RandomSequencingModel(qa_kb_between_subject)
 
+# "902902333": "Liwei Jiang",
 user_between_subject = { "450648678": "Nathan Dalal", "466714361": "Sorathan Chaturapruek",
                          "420158298": "Daniel Choe",  "1477638740": "Owen Wang",
                          "1163140404": "Richard Xu", "368141180": "Yang Wang",
                          "490809501": "Hongsheng Fang", "102151122": "Michael Solorio", 
-                         "902902333": "Liwei Jiang", "678532179": "Nina Wei",
+                         "678532179": "Nina Wei", 
                          "798628431": "Jessica de la Paz", "821967244": "Janice Zang",
                          "454995128": "Grace Hong" }
 
@@ -76,6 +77,8 @@ def index():
 def fetch_question():
     user_id = request.args.get('user_id')
     if user_id in user_between_subject:
+        print("--------------------")
+        print(user_between_subject[user_id])
         data = model_between_subject.pickNextQuestion(subject='random')
     elif user_id in user_finished_study:
         print("~~~~~~~~~~~~~~~~~~~~")
@@ -90,6 +93,8 @@ def fetch_question_gre():
     user_id = request.args.get('user_id')
 
     if user_id in user_between_subject:
+        print("--------------------")
+        print(user_between_subject[user_id])
         data = model_between_subject.pickNextQuestion(subject='gre')
     elif user_id in user_finished_study:
         print("~~~~~~~~~~~~~~~~~~~~")
@@ -103,6 +108,8 @@ def fetch_question_gre():
 def fetch_question_science():
     user_id = request.args.get('user_id')
     if user_id in user_between_subject:
+        print("--------------------")
+        print(user_between_subject[user_id])
         data = model_between_subject.pickNextQuestion(subject='science')
     elif user_id in user_finished_study:
         print("~~~~~~~~~~~~~~~~~~~~")
@@ -116,6 +123,8 @@ def fetch_question_science():
 def fetch_question_safety():
     user_id = request.args.get('user_id')
     if user_id in user_between_subject:
+        print("--------------------")
+        print(user_between_subject[user_id])
         data = model_between_subject.pickNextQuestion(subject='safety')
     elif user_id in user_finished_study:
         print("~~~~~~~~~~~~~~~~~~~~")
