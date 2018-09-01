@@ -24,7 +24,8 @@ users = [("Noah Yinuo", "Yao"), ("Dee Dee", "Thao"), ("Zhenqi", "Hu"), ("Jingyi"
          ("Zhouheng", "Zhuang"), ("Yue", "Hui"), ("Clayton", "Ellington"), ("Nathaniel", "Ramos"), ("Paul", "Walter"), \
          ("Flora", "Wang"), ("Christine", "Liu"), ("Selen", "Bozkurt"), ("Maisam", "Pyarali"), ("Nathan", "Dalal"), \
          ("Sorathan", "Chaturapruek"), ("Daniel", "Choe"), ("Owen", "Wang"), ("Richard", "Xu"), ("Yang", "Wang"), \
-         ("Hongsheng", "Fang"), ("Mike", "Solorio"), ("Jessica", "De la paz"), ("Nina", "Wei")]
+         ("Hongsheng", "Fang"), ("Mike", "Solorio"), ("Jessica", "De la paz"), ("Nina", "Wei"), ("Janice", "Zang"),\
+         ("Grace", "Hong")]
 # users.append(("Julia", "Thompson"))
 
 # request a single user's record specified in command line
