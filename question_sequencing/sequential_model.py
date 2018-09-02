@@ -14,17 +14,21 @@ class SequentialModel(BaseSequencingModel):
         BaseSequencingModel.__init__(self, qa_kb)
         # a dictionary mapping user id to a dictionary mapping qids to counts
         self.user_questions_counts = {'science':{}, "safety":{}, "gre":{}}
+        self.effective_qids = None
 
-    def updateHistory(self, user_id, user_data, effective_qids):
+    def updateHistory(self, user_id, user_data, effective_qids=None):
         '''outcome is either 0 or 1, if the user answered correctly
         item is the index of the last item
         Args:
            user_data: tuples of qid(int), outcome (float [0,1]), timestamp (str)
         '''
+        if effective_qids != None:
+            self.effective_qids = effective_qids
+            
         question, outcome, timestamp = user_data
-        if question not in effective_qids.keys():
+        if question not in self.effective_qids.keys():
             return
-        question_idx = effective_qids[question]
+        question_idx = self.effective_qids[question]
         subject = self.QA_KB.SubKB[question_idx]
         if user_id in self.user_questions_counts[subject]:
             if question_idx in self.user_questions_counts[subject][user_id]:

@@ -44,7 +44,7 @@ class BaseSequencingModel():
         return None
 
     @abstractmethod
-    def updateHistory(self, user_id, user_data, effective_qids):
+    def updateHistory(self, user_id, user_data, effective_qids=None):
         '''Update the model parameters after user answers question
         Args:
             user_data: tuples off qid(int), outcome (float [0,1]), timestamp (str)
