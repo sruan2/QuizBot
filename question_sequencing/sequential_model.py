@@ -6,6 +6,7 @@ Sherry Ruan
 from base_model import BaseSequencingModel
 from collections import defaultdict
 import random
+from utils import EnoughQuestions
 
 
 class SequentialModel(BaseSequencingModel):
@@ -32,6 +33,7 @@ class SequentialModel(BaseSequencingModel):
             else:
                 self.user_questions_counts[subject][user_id][question_idx] = 1
         else:  # not in any dicts
+            self.user_questions_counts[subject][user_id] = {QID: 0 for QID in self.QA_KB.SubDict[subject]}
             self.user_questions_counts[subject][user_id] = {question_idx: 1}
 
     def pickNextQuestion(self, user_id=0, subject='random'):
@@ -48,16 +50,23 @@ class SequentialModel(BaseSequencingModel):
             subject = random.choice(['science', 'gre', 'safety'])
             #QID = min(d, key=d.get)
             #QID = randint(0, self.QA_KB.KBlength-1)
-        d = self.user_questions_counts[subject][user_id]
-        # if subject is not random, then pick from the respective subject question bank
-        QID = min(d, key=d.get)
-        print("Count of {} is: {}".format(QID, d[QID]))
-        d[QID] += 1
+        if user_id not in self.user_questions_counts[subject]:
+            self.user_questions_counts[subject][user_id] = {QID: 0 for QID in self.QA_KB.SubDict[subject]}
+            QID = random.choice(self.QA_KB.SubDict[subject])
+            self.user_questions_counts[subject][user_id][QID] = 1
+        else:
+            d = self.user_questions_counts[subject][user_id]
+            print(d)
+            # if subject is not random, then pick from the respective subject question bank
+            QID = min(d, key=d.get)
+            if d[QID] >= 2:
+                raise EnoughQuestions
+            print("Count of {} is: {}".format(QID, d[QID]))
+            d[QID] += 1
 
         data = {'question': self.QA_KB.QKB[QID],
                 'qid': [QID, self.QA_KB.QID[QID]],
                 'correct_answer': self.QA_KB.AKB[QID],
                 'support': self.QA_KB.SKB[QID],
                 'distractor': self.QA_KB.DKB[QID]}
-
         return data

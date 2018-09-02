@@ -25,6 +25,8 @@ users = ["Yinuo_Yao", "Dee Dee_Thao", "Jenn_Hu", "jingyi_li", "Joy_Yuzuriha", "T
          "Yang_Wang", "Hongsheng_Fang", "Michael_Solorio", "Nina_Wei", "Jessica_de la Paz", \
          "Janice_Zang", "Grace_Hong"]
 
+users.extend(["Yufeng_Yin", "Jorge_Nam"])
+
 if len(sys.argv) == 3:
     users = [sys.argv[1] + "_" + sys.argv[2]]
 
