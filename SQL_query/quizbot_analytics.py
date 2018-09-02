@@ -26,7 +26,7 @@ users = [("Noah Yinuo", "Yao"), ("Dee Dee", "Thao"), ("Zhenqi", "Hu"), ("Jingyi"
          ("Sorathan", "Chaturapruek"), ("Daniel", "Choe"), ("Owen", "Wang"), ("Richard", "Xu"), ("Yang", "Wang"), \
          ("Hongsheng", "Fang"), ("Mike", "Solorio"), ("Jessica", "De la paz"), ("Nina", "Wei"), ("Janice", "Zang"),\
          ("Grace", "Hong")]
-# users.append(("Julia", "Thompson"))
+users.append(("Julia", "Thompson"))
 
 # request a single user's record specified in command line
 if sys.argv[1] != "" and sys.argv[2] != "":
