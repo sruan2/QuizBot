@@ -22,6 +22,7 @@ quiz_b_user_record_filename = "csv/MTurk1_B_user_record.csv"
 # Question pool files
 between_subjects_flashcard_filename = "json/questions_between_subjects_flashcard.json"
 between_subjects_quizbot_filename = "json/questions_between_subjects_quizbot.json"
+question_96_filename = "../../QAdataset/questions_96.json"
 
 # question index in Qualtrics quiz a and quiz b, plus 1 for the Qualtrics question id
 quiz_a_gre_index = [0, 3, 8, 10, 13, 14, 15, 16, 18, 31, 34, 35, 38, 42, 48, 52, 53, 54]
@@ -1060,8 +1061,23 @@ def map_question_pool_index_qid():
 	print(quizbot_question_pool_id)
 
 
+def map_question_pool_96_index_qid():
+	with open(question_96_filename, 'r') as quizbot_question_json:
+		quizbot_data = json.load(quizbot_question_json)
+
+	quizbot_question_pool_index_to_qid = {}
+	quizbot_question_pool_id = []
+
+	for i in range(len(quizbot_data)):
+		quizbot_question_pool_index_to_qid[i] = quizbot_data[i]["id"]
+		quizbot_question_pool_id.append(quizbot_data[i]["id"])
+
+	print(quizbot_question_pool_index_to_qid)
+	print(quizbot_question_pool_id)
+
+
 if __name__ == "__main__":
-	map_question_pool_index_qid()
+	map_question_pool_96_index_qid()
 
 
 

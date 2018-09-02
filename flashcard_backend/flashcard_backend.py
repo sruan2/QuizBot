@@ -11,6 +11,7 @@ from flask_mysqldb import MySQL
 import database as db
 from random_model import RandomSequencingModel
 from dash_model import DASHSequencingModel
+from sequential_model import SequentialModel
 from QAKnowledgebase import QAKnowlegeBase
 from time import strftime, localtime, sleep
 
@@ -28,13 +29,14 @@ mysql.init_app(app)
 # ================== Load Sequencing Model ==================
 json_file = '../QAdataset/questions_filtered_150_quizbot.json'
 qa_kb = QAKnowlegeBase(json_file)
-model = RandomSequencingModel(qa_kb)
+model = SequentialModel(qa_kb)
 
-json_file_between_subject = '../QAdataset/questions_between_subjects_flashcard.json'
-qa_kb_between_subject = QAKnowlegeBase(json_file_between_subject)
-model_between_subject = RandomSequencingModel(qa_kb_between_subject)
+# note: should be named as within_subjects instead
+json_file_within_subject = '../QAdataset/questions_between_subjects_flashcard.json'
+qa_kb_within_subject = QAKnowlegeBase(json_file_within_subject)
+model_within_subject = RandomSequencingModel(qa_kb_within_subject)
 
-user_between_subject = {"672579434": "Dee Dee Thao", "725315344": "Tyler Yep",  \
+user_within_subject = {"672579434": "Dee Dee Thao", "725315344": "Tyler Yep",  \
                         "1844410129": "Yinuo Yao", "1852193290": "Andrew Ying", \
                         "2000946117": "jingyi li", "2079749432": "Jenn Hu",     \
                         "732119323": "Joy Yuzurih", "664942274": "Henry Qin", \
@@ -44,8 +46,8 @@ user_between_subject = {"672579434": "Dee Dee Thao", "725315344": "Tyler Yep",  
                         "1237870507": 'Wangjianzhe Shao', "772553696": "Kylie Jue", \
                         "747757516": "De-An Huang", "239435253": "Giovanni Campagna", \
                         "1407190745": "Jean Coquet"}
-                        
-user_id_between_subject = list(user_between_subject.keys())
+
+user_id_within_subject = list(user_within_subject.keys())
 
 with app.app_context():
     user_list = db.show_user_id_list_flashcard(mysql)
@@ -61,10 +63,10 @@ def index():
 @app.route("/question_data", methods=['GET'])
 def fetch_question():
     user_id = request.args.get('user_id')
-    if user_id in user_id_between_subject:
+    if user_id in user_id_within_subject:
         print("--------------------")
-        print(user_between_subject[user_id])
-        data = model_between_subject.pickNextQuestion(subject='random')
+        print(user_within_subject[user_id])
+        data = model_within_subject.pickNextQuestion(subject='random')
     else:
         data = model.pickNextQuestion(subject='random')
     return jsonify(data)
@@ -73,10 +75,10 @@ def fetch_question():
 @app.route("/question_data_gre", methods=['GET'])
 def fetch_question_gre():
     user_id = request.args.get('user_id')
-    if user_id in user_id_between_subject:
+    if user_id in user_id_within_subject:
         print("--------------------")
-        print(user_between_subject[user_id])
-        data = model_between_subject.pickNextQuestion(subject='gre')
+        print(user_within_subject[user_id])
+        data = model_within_subject.pickNextQuestion(subject='gre')
     else:
         data = model.pickNextQuestion(subject='gre')
     return jsonify(data)
@@ -85,10 +87,10 @@ def fetch_question_gre():
 @app.route("/question_data_science", methods=['GET'])
 def fetch_question_science():
     user_id = request.args.get('user_id')
-    if user_id in user_id_between_subject:
+    if user_id in user_id_within_subject:
         print("--------------------")
-        print(user_between_subject[user_id])
-        data = model_between_subject.pickNextQuestion(subject='science')
+        print(user_within_subject[user_id])
+        data = model_within_subject.pickNextQuestion(subject='science')
     else:
         data = model.pickNextQuestion(subject='science')
     return jsonify(data)
@@ -97,11 +99,11 @@ def fetch_question_science():
 @app.route("/question_data_safety", methods=['GET'])
 def fetch_question_safety():
     user_id = request.args.get('user_id')
-    
-    if user_id in user_id_between_subject:
+
+    if user_id in user_id_within_subject:
         print("--------------------")
-        print(user_between_subject[user_id])
-        data = model_between_subject.pickNextQuestion(subject='safety')
+        print(user_within_subject[user_id])
+        data = model_within_subject.pickNextQuestion(subject='safety')
     else:
         data = model.pickNextQuestion(subject='safety')
     return jsonify(data)
