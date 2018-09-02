@@ -9,6 +9,7 @@ from time import localtime, strftime
 from datetime import datetime
 import logging
 from flask_mysqldb import MySQL
+import pinyin
 
 import sys
 sys.path.append('./question_sequencing')
@@ -22,10 +23,13 @@ from QAKnowledgebase import QAKnowlegeBase
 import QAModel
 from utils import pretty_print
 
-
 # ================== Global Varaibles ==================
 #  Flash App Setup
 app = Flask(__name__, static_url_path='')
+
+# qid_to_index = {0: 0, 1: 1, 2: 2, 3: 3, 4: 4, 5: 5, 6: 6, 7: 7, 8: 8, 9: 9, 10: 10, 11: 11, 12: 12, 13: 13, 14: 14, 15: 15, 16: 16, 17: 17, 18: 18, 19: 19, 20: 20, 21: 21, 22: 22, 23: 23, 24: 24, 25: 25, 26: 26, 27: 27, 28: 28, 29: 29, 30: 30, 31: 31, 32: 32, 33: 33, 34: 34, 35: 35, 36: 36, 37: 37, 38: 38, 39: 39, 40: 40, 41: 41, 42: 42, 43: 43, 44: 44, 45: 45, 46: 46, 47: 47, 48: 48, 49: 49, 50: 50, 51: 51, 52: 52, 53: 53, 54: 54, 55: 55, 56: 56, 57: 57, 58: 58, 59: 59, 60: 60, 61: 61, 62: 62, 63: 63, 64: 64, 65: 65, 66: 66, 67: 67, 68: 68, 69: 69, 70: 70, 71: 71, 72: 72, 73: 73, 74: 74, 75: 75, 76: 76, 77: 77, 78: 78, 79: 79, 80: 80, 81: 81, 82: 82, 83: 83, 84: 84, 85: 85, 86: 86, 87: 87, 88: 88, 89: 89, 90: 90, 91: 91, 92: 92, 93: 93, 94: 94, 95: 95, 96: 96, 97: 97, 98: 98, 99: 99, 100: 100, 101: 101, 102: 102, 103: 103, 104: 104, 105: 105, 106: 106, 107: 107, 108: 108, 109: 109, 110: 110, 111: 111, 112: 112, 113: 113, 114: 114, 115: 115, 116: 116, 117: 117, 118: 118, 119: 119, 120: 120, 121: 121, 122: 122, 123: 123, 124: 124, 125: 125, 126: 126, 127: 127, 128: 128, 129: 129, 130: 130, 131: 131, 132: 132, 133: 133, 134: 134, 135: 135, 136: 136, 137: 137, 138: 138, 139: 139, 140: 140, 141: 141, 142: 142, 143: 143, 144: 144, 145: 145, 146: 146, 147: 147, 148: 148, 149: 149}
+qid_to_index = {0: 15, 1: 135, 2: 55, 3: 51, 4: 56, 5: 141, 6: 128, 7: 106, 8: 111, 9: 114, 10: 59, 11: 9, 12: 131, 13: 145, 14: 18, 15: 102, 16: 11, 17: 133, 18: 130, 19: 83, 20: 41, 21: 148, 22: 75, 23: 90, 24: 99, 25: 113, 26: 104, 27: 46, 28: 37, 29: 44, 30: 49, 31: 58, 32: 24, 33: 52, 34: 73, 35: 6, 36: 29, 37: 88, 38: 17, 39: 76, 40: 77, 41: 89, 42: 144, 43: 142, 44: 92, 45: 10, 46: 3, 47: 40, 48: 147, 49: 100, 50: 138, 51: 118, 52: 112, 53: 64, 54: 32, 55: 50, 56: 136, 57: 143, 58: 121, 59: 132, 60: 120, 61: 8, 62: 5, 63: 30, 64: 117, 65: 125, 66: 14, 67: 103, 68: 19, 69: 27, 70: 84, 71: 93, 72: 79, 73: 72, 74: 2, 75: 31, 76: 42, 77: 35, 78: 65, 79: 25, 80: 1, 81: 21, 82: 38, 83: 97, 84: 94, 85: 53, 86: 45, 87: 82, 88: 87, 89: 127, 90: 146, 91: 68, 92: 139, 93: 85, 94: 74, 95: 70}
+effective_qids = {v:k for (k,v) in qid_to_index.items()}
 
 # MySQL Setup
 mysql = MySQL()
@@ -48,9 +52,9 @@ def send_pictures(path):
 
 
 # For tmp picture files such as dynamically generated leaderboard
-@app.route('/tmp/pictures/<path:path>')
+@app.route('/pictures/<path:path>')
 def send_lb_pictures(path):
-    return send_from_directory('../tmp/pictures', path)
+    return send_from_directory('../pictures', path)
 
 
 # go to https://smartprimer.org:8443/test
@@ -100,7 +104,12 @@ def webhook():
             # the recipient's ID, which should be your page's facebook ID
             recipient_id = messaging_event["recipient"]["id"]
 
-            # Get user data
+            # # Get user data
+            # if sender_id == "1931189830271244":
+            #     sender_firstname = "Bianca"
+            #     sender_lastname = "Yu"
+
+            # else:
             data = _get_user_profile(sender_id)
             sender_firstname = data['first_name']
             sender_lastname = data['last_name']
@@ -111,6 +120,7 @@ def webhook():
                 if int(sender_id) in db.show_user_id_list(mysql):
                     subject = db.show_current_subject(mysql, sender_id)
                     qid = db.show_current_qid(mysql, sender_id)
+                    qid = [qid_to_index[qid], qid]
                     begin_uid = db.show_last_begin_uid(mysql, sender_id)
                     pretty_print('Retrieve the user from [user]', mode='Database')
                     pretty_print('{} {}'.format(sender_firstname, sender_lastname))
@@ -119,14 +129,20 @@ def webhook():
                                         'current_subject': subject,
                                         'begin_uid': begin_uid,
                                         'waiting_for_answer': 0,
-                                        'if_explanation_text': False}
+                                        'if_explanation_text': False,
+                                        'last_payload': None}
                     pretty_print('Insert the user into cache', mode='Cache')
                     user_history_data = db.show_user_history(mysql, sender_id) # tuple of (qid, score, time_stamp)
                     pretty_print('Retrieve the user history from [user_history]', mode='Database')
-                    qa_model.loadUserData(sender_id, user_history_data)
+                    qa_model.loadUserData(sender_id, user_history_data, effective_qids)
                     pretty_print('Pass the user history to the QAModel', mode='QAModel')
                 # Insert the user into database and cache if it doesn't exist yet.
+
                 else:
+                    sender_firstname = pinyin.get(sender_firstname, format="strip", delimiter="")
+                    sender_lastname = pinyin.get(sender_lastname, format="strip", delimiter="")
+                    sender_firstname = sender_firstname.capitalize()
+                    sender_lastname = sender_lastname.capitalize()
                     db.insert_user(mysql, sender_id, sender_firstname, sender_lastname)
                     pretty_print('Insert a user into [user]', mode='Database')
                     pretty_print('{} {}'.format(
@@ -136,7 +152,8 @@ def webhook():
                                         'current_subject': None,
                                         'begin_uid': None,
                                         'waiting_for_answer': 0,
-                                        'if_explanation_text': False}
+                                        'if_explanation_text': False,
+                                        'last_payload': None}
                     pretty_print('Insert a user into cache', mode='Cache')
 
                 pretty_print('firstname: '+str(cache[sender_id]['firstname']))
@@ -145,6 +162,7 @@ def webhook():
                 pretty_print('begin_uid: '+str(cache[sender_id]['begin_uid']))
                 pretty_print('waiting_for_answer: '+str(cache[sender_id]['waiting_for_answer']))
                 pretty_print('if_explanation_text: '+str(cache[sender_id]['if_explanation_text']))
+                pretty_print('last_payload: '+str(cache[sender_id]['last_payload']))
 
             # User clicked/tapped "postback" button in Persistent menu
             if messaging_event.get("postback"):
@@ -262,7 +280,7 @@ if __name__ == '__main__':
     setup(chatbot_text)
 
     # Read QA json data and construct the QA knowledge base
-    json_file = 'QAdataset/questions_filtered_150.json'
+    json_file = 'QAdataset/questions_96.json'
     qa_kb = QAKnowlegeBase(json_file)
     model = os.environ["MODEL"]
     question_sequencing_model = os.environ["QUESTION_SEQUENCING_MODEL"]
