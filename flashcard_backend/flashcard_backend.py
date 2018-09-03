@@ -14,7 +14,7 @@ from dash_model import DASHSequencingModel
 from sequential_model import SequentialModel
 from QAKnowledgebase import QAKnowlegeBase
 from time import strftime, localtime, sleep
-from utils import EnoughQuestions, EnoughForToday
+from utils import SubjectEnoughQuestions, EnoughForToday, FinishFixQuestionsStudy
 
 app = Flask(__name__)
 app.config['SEND_FILE_MAX_AGE_DEFAULT'] = 0
@@ -74,7 +74,7 @@ user_finished_study = { #"379832172": "Anonymous Tester",
 user_id_within_subject = list(user_within_subject.keys())
 
 enough_for_today_info = {'distractor': [], 'question': 'You already praciced enough questions today. Please wait until tomorrow to practice another session. Thank you!', 'support': 'NA', 'correct_answer': 'NA', 'qid': [-1, -1]}
-enough_questions_info = {'distractor': [], 'question': 'You already practiced enough questions in this subject. Please try other two subjects. If you finish all three subjects, please wait to receive the post-study surveys from us. Thank you!', 'support': 'NA', 'correct_answer': 'NA', 'qid': [-1, -1]}
+enough_questions_info = {'distractor': [], 'question': 'You already practiced enough questions in this subject. Please try other two subjects.', 'support': 'NA', 'correct_answer': 'NA', 'qid': [-1, -1]}
 finish_info = {'distractor': [], 'question': 'Thank you very much for using our app! You study is finished now and please proceed to the post-study surveys. Thank you!', 'support': 'NA', 'correct_answer': 'NA', 'qid': [-1, -1]}
 
 with app.app_context():
@@ -104,9 +104,12 @@ def fetch_question():
         except EnoughForToday:
             print("~~~~~ Enough for Today ~~~~~")
             data = enough_for_today_info
-        except EnoughQuestions:
+        except SubjectEnoughQuestions:
             print("~~~~~ Enough Questions ~~~~~")
             data = enough_questions_info
+        except FinishFixQuestionsStudy:
+            print("~~~~~ Finish Fix Question Study ~~~~~")
+            data = finish_info
     return jsonify(data)
 
 
@@ -127,9 +130,12 @@ def fetch_question_gre():
         except EnoughForToday:
             print("~~~~~ Enough for Today ~~~~~")
             data = enough_for_today_info
-        except EnoughQuestions:
+        except SubjectEnoughQuestions:
             print("~~~~~ Enough Questions ~~~~~")
             data = enough_questions_info
+        except FinishFixQuestionsStudy:
+            print("~~~~~ Finish Fix Question Study ~~~~~")
+            data = finish_info
     return jsonify(data)
 
 
@@ -149,10 +155,12 @@ def fetch_question_science():
         except EnoughForToday:
             print("~~~~~ Enough for Today ~~~~~")
             data = enough_for_today_info
-        except EnoughQuestions:
+        except SubjectEnoughQuestions:
             print("~~~~~ Enough Questions ~~~~~")
             data = enough_questions_info
-
+        except FinishFixQuestionsStudy:
+            print("~~~~~ Finish Fix Question Study ~~~~~")
+            data = finish_info
     return jsonify(data)
 
 
@@ -172,9 +180,12 @@ def fetch_question_safety():
         except EnoughForToday:
             print("~~~~~ Enough for Today ~~~~~")
             data = enough_for_today_info
-        except EnoughQuestions:
+        except SubjectEnoughQuestions:
             print("~~~~~ Enough Questions ~~~~~")
             data = enough_questions_info
+        except FinishFixQuestionsStudy:
+            print("~~~~~ Finish Fix Question Study ~~~~~")
+            data = finish_info
     return jsonify(data)
 
 
