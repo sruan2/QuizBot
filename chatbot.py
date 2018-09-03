@@ -178,6 +178,8 @@ def respond_to_payload(payload, sender_id, qa_model, chatbot_text, template_conv
             cache, sender_id, waiting_for_answer=1, if_explanation_text=False)
         send_question(mysql, sender_id, template_conversation, qa_model, cache)
 
+    elif payload == "NEXT_SESSION":
+
     # ---------------------- ANSWER A QUESTION ----------------------
     elif payload == "NEED_HINT":
         send_hint(mysql, sender_id, chatbot_text,
