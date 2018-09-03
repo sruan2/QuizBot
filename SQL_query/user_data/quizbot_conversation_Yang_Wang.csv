@@ -687,3 +687,476 @@ user_id,user_firstname,user_lastname,uid,sender,recipient,type,dialogue,time_sta
 1871998916254916,Yang,Wang,30359,1871998916254916,854518728062939,user_quick_reply: BUTTON_DKB_2 to 4 years,:keycap_3:,2018-09-01 12:47:43
 1871998916254916,Yang,Wang,30360,854518728062939,1871998916254916,BOT: message,That's not quite right. :disappointed_face:,2018-09-01 12:47:44
 1871998916254916,Yang,Wang,30361,854518728062939,1871998916254916,BOT: quick reply,The correct answer is 12 to 18 months.,2018-09-01 12:47:45
+1871998916254916,Yang,Wang,30463,854518728062939,1871998916254916,BOT: quick reply,"Hi Yang, you haven't talked to me for a while. Would you like to resume the learning with me?",2018-09-01 20:00:19
+1871998916254916,Yang,Wang,31154,1871998916254916,854518728062939,user_quick_reply: NEXT_QUESTION,Sure :raising_hands_medium-light_skin_tone:,2018-09-01 22:37:59
+1871998916254916,Yang,Wang,31155,854518728062939,1871998916254916,BOT: message,Let's take a look at this question.,2018-09-01 22:37:59
+1871998916254916,Yang,Wang,31156,854518728062939,1871998916254916,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-09-01 22:38:00
+1871998916254916,Yang,Wang,31157,854518728062939,1871998916254916,BOT: quick reply,Which fire extinguishers are used to put out Class A fires?,2018-09-01 22:38:00
+1871998916254916,Yang,Wang,31158,1871998916254916,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-01 22:38:04
+1871998916254916,Yang,Wang,31159,854518728062939,1871998916254916,BOT: message,It's one of the following choices.,2018-09-01 22:38:05
+1871998916254916,Yang,Wang,31160,854518728062939,1871998916254916,BOT: quick reply,":keycap_1: Water only
+:keycap_2: Both CO2 and water
+:keycap_3: Multi-purpose dry chemical only
+:keycap_4: CO2 only
+:keycap_5: Both water and multi-purpose dry chemical
+",2018-09-01 22:38:06
+1871998916254916,Yang,Wang,31161,1871998916254916,854518728062939,user_quick_reply: BUTTON_DKB_Multi-purpose dry chemical only,:keycap_3:,2018-09-01 22:38:09
+1871998916254916,Yang,Wang,31162,854518728062939,1871998916254916,BOT: message,"Hmm, that wasn't quite right. :disappointed_face:",2018-09-01 22:38:10
+1871998916254916,Yang,Wang,31163,854518728062939,1871998916254916,BOT: quick reply,The correct answer is Both water and multi-purpose dry chemical.,2018-09-01 22:38:10
+1871998916254916,Yang,Wang,31164,1871998916254916,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-01 22:38:15
+1871998916254916,Yang,Wang,31165,854518728062939,1871998916254916,BOT: message,I think you'll like this question.,2018-09-01 22:38:16
+1871998916254916,Yang,Wang,31166,854518728062939,1871998916254916,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-09-01 22:38:16
+1871998916254916,Yang,Wang,31167,854518728062939,1871998916254916,BOT: quick reply,"True or false: you can always smell, see, or taste harmful bacteria in food that can cause illness.",2018-09-01 22:38:17
+1871998916254916,Yang,Wang,31168,1871998916254916,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-01 22:38:20
+1871998916254916,Yang,Wang,31169,854518728062939,1871998916254916,BOT: message,Which of the following options is the right answer?,2018-09-01 22:38:20
+1871998916254916,Yang,Wang,31170,854518728062939,1871998916254916,BOT: quick reply,":keycap_1: False
+:keycap_2: True
+",2018-09-01 22:38:21
+1871998916254916,Yang,Wang,31171,1871998916254916,854518728062939,user_quick_reply: BUTTON_AKB_False,:keycap_1:,2018-09-01 22:38:24
+1871998916254916,Yang,Wang,31172,854518728062939,1871998916254916,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_happy_purple.png,2018-09-01 22:38:26
+1871998916254916,Yang,Wang,31173,854518728062939,1871998916254916,BOT: message,Great job!,2018-09-01 22:38:27
+1871998916254916,Yang,Wang,31174,854518728062939,1871998916254916,BOT: quick reply,The correct answer is False.,2018-09-01 22:38:27
+1871998916254916,Yang,Wang,31175,1871998916254916,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-01 22:38:31
+1871998916254916,Yang,Wang,31176,854518728062939,1871998916254916,BOT: message,I think you'll like this question.,2018-09-01 22:38:32
+1871998916254916,Yang,Wang,31177,854518728062939,1871998916254916,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-09-01 22:38:32
+1871998916254916,Yang,Wang,31178,854518728062939,1871998916254916,BOT: quick reply,What should you NOT do when lowering a load?,2018-09-01 22:38:33
+1871998916254916,Yang,Wang,31179,1871998916254916,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-01 22:38:37
+1871998916254916,Yang,Wang,31180,854518728062939,1871998916254916,BOT: message,It's one of the following choices.,2018-09-01 22:38:38
+1871998916254916,Yang,Wang,31181,854518728062939,1871998916254916,BOT: quick reply,":keycap_1: Bend your knees
+:keycap_2: Twist your body
+:keycap_3: Keep the load close to your body
+:keycap_4: Twist your body, keep the load close, and bend your knees
+",2018-09-01 22:38:39
+1871998916254916,Yang,Wang,31182,1871998916254916,854518728062939,"user_quick_reply: BUTTON_DKB_Twist your body, keep the load close, and bend your knees",:keycap_4:,2018-09-01 22:38:42
+1871998916254916,Yang,Wang,31183,854518728062939,1871998916254916,BOT: message,That's not quite right. :disappointed_face:,2018-09-01 22:38:42
+1871998916254916,Yang,Wang,31184,854518728062939,1871998916254916,BOT: quick reply,The correct answer is Twist your body.,2018-09-01 22:38:43
+1871998916254916,Yang,Wang,31185,1871998916254916,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-01 22:38:49
+1871998916254916,Yang,Wang,31186,854518728062939,1871998916254916,BOT: message,Would you answer this question for me?,2018-09-01 22:38:49
+1871998916254916,Yang,Wang,31187,854518728062939,1871998916254916,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-09-01 22:38:50
+1871998916254916,Yang,Wang,31188,854518728062939,1871998916254916,BOT: quick reply,"True or false: you can always smell, see, or taste harmful bacteria in food that can cause illness.",2018-09-01 22:38:51
+1871998916254916,Yang,Wang,31189,1871998916254916,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-01 22:38:56
+1871998916254916,Yang,Wang,31190,854518728062939,1871998916254916,BOT: message,Pick one of the following answers.,2018-09-01 22:38:57
+1871998916254916,Yang,Wang,31191,854518728062939,1871998916254916,BOT: quick reply,":keycap_1: False
+:keycap_2: True
+",2018-09-01 22:38:57
+1871998916254916,Yang,Wang,31192,1871998916254916,854518728062939,user_quick_reply: BUTTON_AKB_False,:keycap_1:,2018-09-01 22:39:01
+1871998916254916,Yang,Wang,31193,854518728062939,1871998916254916,BOT: message,Great job!,2018-09-01 22:39:02
+1871998916254916,Yang,Wang,31194,854518728062939,1871998916254916,BOT: quick reply,The correct answer is False.,2018-09-01 22:39:03
+1871998916254916,Yang,Wang,31195,1871998916254916,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-01 22:39:05
+1871998916254916,Yang,Wang,31196,854518728062939,1871998916254916,BOT: message,Let's try this question.,2018-09-01 22:39:06
+1871998916254916,Yang,Wang,31197,854518728062939,1871998916254916,BOT: quick reply,Which fire extinguishers are used to put out fires caused by flammable liquids?,2018-09-01 22:39:07
+1871998916254916,Yang,Wang,31198,1871998916254916,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-01 22:39:13
+1871998916254916,Yang,Wang,31199,854518728062939,1871998916254916,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-09-01 22:39:14
+1871998916254916,Yang,Wang,31200,854518728062939,1871998916254916,BOT: quick reply,":keycap_1: Class A water fire extinguishers
+:keycap_2: Class B carbon dioxide fire extinguisher
+:keycap_3: Class C dry chemical fire extinguisher
+",2018-09-01 22:39:14
+1871998916254916,Yang,Wang,31201,1871998916254916,854518728062939,user_quick_reply: BUTTON_AKB_Class B carbon dioxide fire extinguisher,:keycap_2:,2018-09-01 22:39:21
+1871998916254916,Yang,Wang,31202,854518728062939,1871998916254916,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_jubilated_purple.png,2018-09-01 22:39:23
+1871998916254916,Yang,Wang,31203,854518728062939,1871998916254916,BOT: message,Great job!,2018-09-01 22:39:24
+1871998916254916,Yang,Wang,31204,854518728062939,1871998916254916,BOT: quick reply,The correct answer is Class B carbon dioxide fire extinguisher.,2018-09-01 22:39:25
+1871998916254916,Yang,Wang,31205,1871998916254916,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-01 22:39:27
+1871998916254916,Yang,Wang,31206,854518728062939,1871998916254916,BOT: message,Let's take a look at this question.,2018-09-01 22:39:28
+1871998916254916,Yang,Wang,31207,854518728062939,1871998916254916,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-09-01 22:39:28
+1871998916254916,Yang,Wang,31208,854518728062939,1871998916254916,BOT: quick reply,How long can high-acid canned food such as tomatoes be stored?,2018-09-01 22:39:29
+1871998916254916,Yang,Wang,31209,1871998916254916,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-01 22:39:33
+1871998916254916,Yang,Wang,31210,854518728062939,1871998916254916,BOT: message,Which of the following options is the right answer?,2018-09-01 22:39:34
+1871998916254916,Yang,Wang,31211,854518728062939,1871998916254916,BOT: quick reply,":keycap_1: 12 to 18 months
+:keycap_2: 2 to 4 years
+:keycap_3: 10 to 30 days
+:keycap_4: 2 to 6 months
+",2018-09-01 22:39:35
+1871998916254916,Yang,Wang,31212,1871998916254916,854518728062939,user_quick_reply: BUTTON_AKB_12 to 18 months,:keycap_1:,2018-09-01 22:39:39
+1871998916254916,Yang,Wang,31213,854518728062939,1871998916254916,BOT: message,Nice! That was right!,2018-09-01 22:39:40
+1871998916254916,Yang,Wang,31214,854518728062939,1871998916254916,BOT: quick reply,The correct answer is 12 to 18 months.,2018-09-01 22:39:40
+1871998916254916,Yang,Wang,31215,1871998916254916,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-01 22:39:45
+1871998916254916,Yang,Wang,31216,854518728062939,1871998916254916,BOT: message,What about this next question:,2018-09-01 22:39:46
+1871998916254916,Yang,Wang,31217,854518728062939,1871998916254916,BOT: quick reply,What does CERT stand for?,2018-09-01 22:39:46
+1871998916254916,Yang,Wang,31218,1871998916254916,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-01 22:39:50
+1871998916254916,Yang,Wang,31219,854518728062939,1871998916254916,BOT: message,Which of the following options is the right answer?,2018-09-01 22:39:50
+1871998916254916,Yang,Wang,31220,854518728062939,1871998916254916,BOT: quick reply,":keycap_1: Community Emergency Response Team
+:keycap_2: Community Experimental Research Team
+:keycap_3: Central Emergency Response Terminal
+:keycap_4: Controlled Evacuation and Response Tactics
+",2018-09-01 22:39:51
+1871998916254916,Yang,Wang,31221,1871998916254916,854518728062939,user_quick_reply: BUTTON_DKB_Controlled Evacuation and Response Tactics,:keycap_4:,2018-09-01 22:39:56
+1871998916254916,Yang,Wang,31222,854518728062939,1871998916254916,BOT: message,"Oops, that is not correct. :disappointed_face:",2018-09-01 22:39:56
+1871998916254916,Yang,Wang,31223,854518728062939,1871998916254916,BOT: quick reply,The correct answer is Community Emergency Response Team.,2018-09-01 22:39:57
+1871998916254916,Yang,Wang,31224,1871998916254916,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-01 22:40:04
+1871998916254916,Yang,Wang,31225,854518728062939,1871998916254916,BOT: message,Could you answer this one for me?,2018-09-01 22:40:04
+1871998916254916,Yang,Wang,31226,854518728062939,1871998916254916,BOT: quick reply,How long can high-acid canned food such as tomatoes be stored?,2018-09-01 22:40:05
+1871998916254916,Yang,Wang,31227,1871998916254916,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-01 22:40:08
+1871998916254916,Yang,Wang,31228,854518728062939,1871998916254916,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-09-01 22:40:09
+1871998916254916,Yang,Wang,31229,854518728062939,1871998916254916,BOT: quick reply,":keycap_1: 2 to 4 years
+:keycap_2: 10 to 30 days
+:keycap_3: 2 to 6 months
+:keycap_4: 12 to 18 months
+",2018-09-01 22:40:10
+1871998916254916,Yang,Wang,31230,1871998916254916,854518728062939,user_quick_reply: BUTTON_DKB_2 to 4 years,:keycap_1:,2018-09-01 22:40:13
+1871998916254916,Yang,Wang,31231,854518728062939,1871998916254916,BOT: message,"I'm sorry, but that was incorrect. :disappointed_face:",2018-09-01 22:40:13
+1871998916254916,Yang,Wang,31232,854518728062939,1871998916254916,BOT: quick reply,The correct answer is 12 to 18 months.,2018-09-01 22:40:14
+1871998916254916,Yang,Wang,31233,1871998916254916,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-01 22:40:23
+1871998916254916,Yang,Wang,31234,854518728062939,1871998916254916,BOT: message,Could you answer this one for me?,2018-09-01 22:40:24
+1871998916254916,Yang,Wang,31235,854518728062939,1871998916254916,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-09-01 22:40:24
+1871998916254916,Yang,Wang,31236,854518728062939,1871998916254916,BOT: quick reply,What should you NOT do when lowering a load?,2018-09-01 22:40:25
+1871998916254916,Yang,Wang,31237,1871998916254916,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-01 22:40:31
+1871998916254916,Yang,Wang,31238,854518728062939,1871998916254916,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-09-01 22:40:31
+1871998916254916,Yang,Wang,31239,854518728062939,1871998916254916,BOT: quick reply,":keycap_1: Keep the load close to your body
+:keycap_2: Twist your body, keep the load close, and bend your knees
+:keycap_3: Twist your body
+:keycap_4: Bend your knees
+",2018-09-01 22:40:32
+1871998916254916,Yang,Wang,31240,1871998916254916,854518728062939,user_quick_reply: BUTTON_AKB_Twist your body,:keycap_3:,2018-09-01 22:40:36
+1871998916254916,Yang,Wang,31241,854518728062939,1871998916254916,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_normal_pink.png,2018-09-01 22:40:38
+1871998916254916,Yang,Wang,31242,854518728062939,1871998916254916,BOT: message,Great job getting the correct answer!,2018-09-01 22:40:39
+1871998916254916,Yang,Wang,31243,854518728062939,1871998916254916,BOT: quick reply,The correct answer is Twist your body.,2018-09-01 22:40:39
+1871998916254916,Yang,Wang,31244,1871998916254916,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-01 22:40:42
+1871998916254916,Yang,Wang,31245,854518728062939,1871998916254916,BOT: message,Let's try this one.,2018-09-01 22:40:42
+1871998916254916,Yang,Wang,31246,854518728062939,1871998916254916,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-09-01 22:40:43
+1871998916254916,Yang,Wang,31247,854518728062939,1871998916254916,BOT: quick reply,Which fire extinguishers are used to put out fires caused by flammable liquids?,2018-09-01 22:40:44
+1871998916254916,Yang,Wang,31248,1871998916254916,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-01 22:40:48
+1871998916254916,Yang,Wang,31249,854518728062939,1871998916254916,BOT: message,It's one of the following choices.,2018-09-01 22:40:48
+1871998916254916,Yang,Wang,31250,854518728062939,1871998916254916,BOT: quick reply,":keycap_1: Class B carbon dioxide fire extinguisher
+:keycap_2: Class A water fire extinguishers
+:keycap_3: Class C dry chemical fire extinguisher
+",2018-09-01 22:40:49
+1871998916254916,Yang,Wang,31251,1871998916254916,854518728062939,user_quick_reply: BUTTON_DKB_Class A water fire extinguishers,:keycap_2:,2018-09-01 22:40:53
+1871998916254916,Yang,Wang,31252,854518728062939,1871998916254916,BOT: message,"I'm sorry, but that was incorrect. :disappointed_face:",2018-09-01 22:40:54
+1871998916254916,Yang,Wang,31253,854518728062939,1871998916254916,BOT: quick reply,The correct answer is Class B carbon dioxide fire extinguisher.,2018-09-01 22:40:54
+1871998916254916,Yang,Wang,31254,1871998916254916,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-01 22:40:58
+1871998916254916,Yang,Wang,31255,854518728062939,1871998916254916,BOT: message,Could you answer this one for me?,2018-09-01 22:40:58
+1871998916254916,Yang,Wang,31256,854518728062939,1871998916254916,BOT: quick reply,To what does the acronym SLM refer?,2018-09-01 22:40:59
+1871998916254916,Yang,Wang,31257,1871998916254916,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-01 22:41:03
+1871998916254916,Yang,Wang,31258,854518728062939,1871998916254916,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-09-01 22:41:03
+1871998916254916,Yang,Wang,31259,854518728062939,1871998916254916,BOT: quick reply,":keycap_1: System Level Monitor
+:keycap_2: Sound Level Meter
+:keycap_3: Sound Loudness Methods
+:keycap_4: Service Lifecycle Management
+",2018-09-01 22:41:04
+1871998916254916,Yang,Wang,31260,1871998916254916,854518728062939,user_quick_reply: BUTTON_DKB_System Level Monitor,:keycap_1:,2018-09-01 22:41:08
+1871998916254916,Yang,Wang,31261,854518728062939,1871998916254916,BOT: message,"Oops, that is not correct. :disappointed_face:",2018-09-01 22:41:09
+1871998916254916,Yang,Wang,31262,854518728062939,1871998916254916,BOT: quick reply,The correct answer is Sound Level Meter.,2018-09-01 22:41:09
+1871998916254916,Yang,Wang,31263,1871998916254916,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-01 22:41:13
+1871998916254916,Yang,Wang,31264,854518728062939,1871998916254916,BOT: message,Could you answer this one for me?,2018-09-01 22:41:14
+1871998916254916,Yang,Wang,31265,854518728062939,1871998916254916,BOT: quick reply,What should you NOT do while lifting objects?,2018-09-01 22:41:14
+1871998916254916,Yang,Wang,31266,1871998916254916,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-01 22:41:18
+1871998916254916,Yang,Wang,31267,854518728062939,1871998916254916,BOT: message,It's one of the following choices.,2018-09-01 22:41:19
+1871998916254916,Yang,Wang,31268,854518728062939,1871998916254916,BOT: quick reply,":keycap_1: Keep your back straight
+:keycap_2: Bend at the knees
+:keycap_3: Keep the object close to your body
+:keycap_4: Keep your feet together
+",2018-09-01 22:41:20
+1871998916254916,Yang,Wang,31269,1871998916254916,854518728062939,user_quick_reply: BUTTON_DKB_Keep the object close to your body,:keycap_3:,2018-09-01 22:41:25
+1871998916254916,Yang,Wang,31270,854518728062939,1871998916254916,BOT: message,"I'm sorry, but that was incorrect. :disappointed_face:",2018-09-01 22:41:25
+1871998916254916,Yang,Wang,31271,854518728062939,1871998916254916,BOT: quick reply,The correct answer is Keep your feet together.,2018-09-01 22:41:26
+1871998916254916,Yang,Wang,31272,1871998916254916,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-01 22:41:31
+1871998916254916,Yang,Wang,31273,854518728062939,1871998916254916,BOT: message,Let's try this question.,2018-09-01 22:41:31
+1871998916254916,Yang,Wang,31274,854518728062939,1871998916254916,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-09-01 22:41:32
+1871998916254916,Yang,Wang,31275,854518728062939,1871998916254916,BOT: quick reply,Working on scaffold during winds above ____ miles per hour is prohibited by OSHA.,2018-09-01 22:41:32
+1871998916254916,Yang,Wang,31276,1871998916254916,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-01 22:41:37
+1871998916254916,Yang,Wang,31277,854518728062939,1871998916254916,BOT: message,Pick one of the following answers.,2018-09-01 22:41:37
+1871998916254916,Yang,Wang,31278,854518728062939,1871998916254916,BOT: quick reply,":keycap_1: 10
+:keycap_2: 50
+:keycap_3: 40
+:keycap_4: 25
+",2018-09-01 22:41:38
+1871998916254916,Yang,Wang,31279,1871998916254916,854518728062939,user_quick_reply: BUTTON_AKB_40,:keycap_3:,2018-09-01 22:41:42
+1871998916254916,Yang,Wang,31280,854518728062939,1871998916254916,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_jubilated_purple.png,2018-09-01 22:41:43
+1871998916254916,Yang,Wang,31281,854518728062939,1871998916254916,BOT: message,Yes! You got the correct answer!,2018-09-01 22:41:44
+1871998916254916,Yang,Wang,31282,854518728062939,1871998916254916,BOT: quick reply,The correct answer is 40.,2018-09-01 22:41:45
+1871998916254916,Yang,Wang,31283,1871998916254916,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-01 22:41:50
+1871998916254916,Yang,Wang,31284,854518728062939,1871998916254916,BOT: message,Let's see if you would answer this one.,2018-09-01 22:41:51
+1871998916254916,Yang,Wang,31285,854518728062939,1871998916254916,BOT: quick reply,"When you discover a fire, you should do what?",2018-09-01 22:41:52
+1871998916254916,Yang,Wang,31286,1871998916254916,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-01 22:41:55
+1871998916254916,Yang,Wang,31287,854518728062939,1871998916254916,BOT: message,Which of the following options is the right answer?,2018-09-01 22:41:55
+1871998916254916,Yang,Wang,31288,854518728062939,1871998916254916,BOT: quick reply,":keycap_1: Stay in the building until you figure out a way to extinguish the fire
+:keycap_2: Pull the fire alarm and call the fire department
+:keycap_3: Use a fire extinguisher to put out the fire, even if you've never used a fire extinguisher before
+:keycap_4: Run out of the building without warning others of the fire
+",2018-09-01 22:41:56
+1871998916254916,Yang,Wang,31289,1871998916254916,854518728062939,"user_quick_reply: BUTTON_DKB_Use a fire extinguisher to put out the fire, even if you've never used a fire extinguisher before",:keycap_3:,2018-09-01 22:42:01
+1871998916254916,Yang,Wang,31290,854518728062939,1871998916254916,BOT: message,"I'm sorry, but that was incorrect. :disappointed_face:",2018-09-01 22:42:01
+1871998916254916,Yang,Wang,31291,854518728062939,1871998916254916,BOT: quick reply,The correct answer is Pull the fire alarm and call the fire department.,2018-09-01 22:42:02
+1871998916254916,Yang,Wang,31292,1871998916254916,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-01 22:42:05
+1871998916254916,Yang,Wang,31293,854518728062939,1871998916254916,BOT: message,Let's see if you would answer this one.,2018-09-01 22:42:06
+1871998916254916,Yang,Wang,31294,854518728062939,1871998916254916,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-09-01 22:42:07
+1871998916254916,Yang,Wang,31295,854518728062939,1871998916254916,BOT: quick reply,Which fire extinguishers are used to put out fires caused by flammable liquids?,2018-09-01 22:42:07
+1871998916254916,Yang,Wang,31296,1871998916254916,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-01 22:42:11
+1871998916254916,Yang,Wang,31297,854518728062939,1871998916254916,BOT: message,Okay. I'll give you some choices.,2018-09-01 22:42:12
+1871998916254916,Yang,Wang,31298,854518728062939,1871998916254916,BOT: quick reply,":keycap_1: Class C dry chemical fire extinguisher
+:keycap_2: Class B carbon dioxide fire extinguisher
+:keycap_3: Class A water fire extinguishers
+",2018-09-01 22:42:13
+1871998916254916,Yang,Wang,31299,1871998916254916,854518728062939,user_quick_reply: I_DONT_KNOW,I dont know :downcast_face_with_sweat:,2018-09-01 22:42:17
+1871998916254916,Yang,Wang,31300,854518728062939,1871998916254916,BOT: quick reply,Are you sure you want to skip answering?,2018-09-01 22:42:17
+1871998916254916,Yang,Wang,31301,1871998916254916,854518728062939,user_quick_reply: GIVEUP_YES,"Yes, answer please.",2018-09-01 22:42:21
+1871998916254916,Yang,Wang,31302,854518728062939,1871998916254916,BOT: message,You didn't get this question this time.,2018-09-01 22:42:22
+1871998916254916,Yang,Wang,31303,854518728062939,1871998916254916,BOT: message,"Keep trying, you'll get it next time! :grinning_face_with_smiling_eyes:",2018-09-01 22:42:22
+1871998916254916,Yang,Wang,31304,854518728062939,1871998916254916,BOT: quick reply,The correct answer is Class B carbon dioxide fire extinguisher.,2018-09-01 22:42:23
+1871998916254916,Yang,Wang,31305,1871998916254916,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-01 22:42:27
+1871998916254916,Yang,Wang,31306,854518728062939,1871998916254916,BOT: message,Let's see if you can get this one.,2018-09-01 22:42:28
+1871998916254916,Yang,Wang,31307,854518728062939,1871998916254916,BOT: quick reply,Which fire extinguishers are used to put out fires caused by flammable liquids?,2018-09-01 22:42:28
+1871998916254916,Yang,Wang,31308,1871998916254916,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-01 22:42:36
+1871998916254916,Yang,Wang,31309,854518728062939,1871998916254916,BOT: message,Which of the following options is the right answer?,2018-09-01 22:42:36
+1871998916254916,Yang,Wang,31310,854518728062939,1871998916254916,BOT: quick reply,":keycap_1: Class B carbon dioxide fire extinguisher
+:keycap_2: Class C dry chemical fire extinguisher
+:keycap_3: Class A water fire extinguishers
+",2018-09-01 22:42:37
+1871998916254916,Yang,Wang,31311,1871998916254916,854518728062939,user_quick_reply: BUTTON_DKB_Class C dry chemical fire extinguisher,:keycap_2:,2018-09-01 22:42:41
+1871998916254916,Yang,Wang,31312,854518728062939,1871998916254916,BOT: message,"I'm sorry, but that was incorrect. :disappointed_face:",2018-09-01 22:42:41
+1871998916254916,Yang,Wang,31313,854518728062939,1871998916254916,BOT: quick reply,The correct answer is Class B carbon dioxide fire extinguisher.,2018-09-01 22:42:42
+1871998916254916,Yang,Wang,31314,1871998916254916,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-01 22:42:46
+1871998916254916,Yang,Wang,31315,854518728062939,1871998916254916,BOT: message,Here's a question for you:,2018-09-01 22:42:47
+1871998916254916,Yang,Wang,31316,854518728062939,1871998916254916,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-09-01 22:42:47
+1871998916254916,Yang,Wang,31317,854518728062939,1871998916254916,BOT: quick reply,"True or false: if you wear a back belt, you can lift more weight than you could without a belt.",2018-09-01 22:42:48
+1871998916254916,Yang,Wang,31318,1871998916254916,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-01 22:42:52
+1871998916254916,Yang,Wang,31319,854518728062939,1871998916254916,BOT: message,Okay. I'll give you some choices.,2018-09-01 22:42:53
+1871998916254916,Yang,Wang,31320,854518728062939,1871998916254916,BOT: quick reply,":keycap_1: False
+:keycap_2: True
+",2018-09-01 22:42:53
+1871998916254916,Yang,Wang,31321,1871998916254916,854518728062939,user_quick_reply: BUTTON_DKB_True,:keycap_2:,2018-09-01 22:43:00
+1871998916254916,Yang,Wang,31322,854518728062939,1871998916254916,BOT: message,"Oops, that wasn't quite correct. :disappointed_face:",2018-09-01 22:43:00
+1871998916254916,Yang,Wang,31323,854518728062939,1871998916254916,BOT: quick reply,The correct answer is False.,2018-09-01 22:43:01
+1871998916254916,Yang,Wang,31324,1871998916254916,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-01 22:43:07
+1871998916254916,Yang,Wang,31325,854518728062939,1871998916254916,BOT: message,"Alrighty, let's try this one.",2018-09-01 22:43:07
+1871998916254916,Yang,Wang,31326,854518728062939,1871998916254916,BOT: quick reply,"What agency inspects, grades, and enforces standards of quality and wholesomeness for meat, poultry, milk, eggs, and grains?",2018-09-01 22:43:08
+1871998916254916,Yang,Wang,31327,1871998916254916,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-01 22:43:12
+1871998916254916,Yang,Wang,31328,854518728062939,1871998916254916,BOT: message,Pick one of the following answers.,2018-09-01 22:43:12
+1871998916254916,Yang,Wang,31329,854518728062939,1871998916254916,BOT: quick reply,":keycap_1: FDA
+:keycap_2: EPA
+:keycap_3: USDA
+:keycap_4: CDC
+",2018-09-01 22:43:13
+1871998916254916,Yang,Wang,31330,1871998916254916,854518728062939,user_quick_reply: BUTTON_DKB_FDA,:keycap_1:,2018-09-01 22:43:18
+1871998916254916,Yang,Wang,31331,854518728062939,1871998916254916,BOT: message,"Oops, that is not correct. :disappointed_face:",2018-09-01 22:43:19
+1871998916254916,Yang,Wang,31332,854518728062939,1871998916254916,BOT: quick reply,The correct answer is USDA.,2018-09-01 22:43:19
+1871998916254916,Yang,Wang,31333,1871998916254916,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-01 22:43:22
+1871998916254916,Yang,Wang,31334,854518728062939,1871998916254916,BOT: message,Let's take a look at this question.,2018-09-01 22:43:23
+1871998916254916,Yang,Wang,31335,854518728062939,1871998916254916,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-09-01 22:43:24
+1871998916254916,Yang,Wang,31336,854518728062939,1871998916254916,BOT: quick reply,How long can high-acid canned food such as tomatoes be stored?,2018-09-01 22:43:24
+1871998916254916,Yang,Wang,31337,1871998916254916,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-01 22:43:29
+1871998916254916,Yang,Wang,31338,854518728062939,1871998916254916,BOT: message,It's one of the following choices.,2018-09-01 22:43:29
+1871998916254916,Yang,Wang,31339,854518728062939,1871998916254916,BOT: quick reply,":keycap_1: 12 to 18 months
+:keycap_2: 10 to 30 days
+:keycap_3: 2 to 4 years
+:keycap_4: 2 to 6 months
+",2018-09-01 22:43:30
+1871998916254916,Yang,Wang,31340,1871998916254916,854518728062939,user_quick_reply: BUTTON_DKB_2 to 6 months,:keycap_4:,2018-09-01 22:43:36
+1871998916254916,Yang,Wang,31341,854518728062939,1871998916254916,BOT: message,"Hmm, that wasn't quite right. :disappointed_face:",2018-09-01 22:43:37
+1871998916254916,Yang,Wang,31342,854518728062939,1871998916254916,BOT: quick reply,The correct answer is 12 to 18 months.,2018-09-01 22:43:38
+1871998916254916,Yang,Wang,31343,1871998916254916,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-01 22:43:41
+1871998916254916,Yang,Wang,31344,854518728062939,1871998916254916,BOT: message,I think you'll like this question.,2018-09-01 22:43:42
+1871998916254916,Yang,Wang,31345,854518728062939,1871998916254916,BOT: quick reply,"If your co-worker needs CPR but you are not trained in it, what should you do?",2018-09-01 22:43:42
+1871998916254916,Yang,Wang,31346,1871998916254916,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-01 22:43:46
+1871998916254916,Yang,Wang,31347,854518728062939,1871998916254916,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-09-01 22:43:46
+1871998916254916,Yang,Wang,31348,854518728062939,1871998916254916,BOT: quick reply,":keycap_1: Give rescue breaths only
+:keycap_2: Perform chest compressions only
+:keycap_3: Wait for emergency personnel to arrive
+:keycap_4: Lift the patient's head
+",2018-09-01 22:43:47
+1871998916254916,Yang,Wang,31349,1871998916254916,854518728062939,user_quick_reply: BUTTON_DKB_Lift the patient's head,:keycap_4:,2018-09-01 22:43:54
+1871998916254916,Yang,Wang,31350,854518728062939,1871998916254916,BOT: message,That's not quite right. :disappointed_face:,2018-09-01 22:43:55
+1871998916254916,Yang,Wang,31351,854518728062939,1871998916254916,BOT: quick reply,The correct answer is Perform chest compressions only.,2018-09-01 22:43:55
+1871998916254916,Yang,Wang,31352,1871998916254916,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-01 22:43:59
+1871998916254916,Yang,Wang,31353,854518728062939,1871998916254916,BOT: message,I think you'll like this question.,2018-09-01 22:43:59
+1871998916254916,Yang,Wang,31354,854518728062939,1871998916254916,BOT: quick reply,"What agency inspects, grades, and enforces standards of quality and wholesomeness for meat, poultry, milk, eggs, and grains?",2018-09-01 22:44:00
+1871998916254916,Yang,Wang,31355,1871998916254916,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-01 22:44:03
+1871998916254916,Yang,Wang,31356,854518728062939,1871998916254916,BOT: message,It's one of the following choices.,2018-09-01 22:44:04
+1871998916254916,Yang,Wang,31357,854518728062939,1871998916254916,BOT: quick reply,":keycap_1: CDC
+:keycap_2: FDA
+:keycap_3: USDA
+:keycap_4: EPA
+",2018-09-01 22:44:04
+1871998916254916,Yang,Wang,31358,1871998916254916,854518728062939,user_quick_reply: BUTTON_DKB_CDC,:keycap_1:,2018-09-01 22:44:09
+1871998916254916,Yang,Wang,31359,854518728062939,1871998916254916,BOT: message,"Oops, that wasn't quite correct. :disappointed_face:",2018-09-01 22:44:09
+1871998916254916,Yang,Wang,31360,854518728062939,1871998916254916,BOT: quick reply,The correct answer is USDA.,2018-09-01 22:44:10
+1871998916254916,Yang,Wang,31361,1871998916254916,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-01 22:44:18
+1871998916254916,Yang,Wang,31362,854518728062939,1871998916254916,BOT: message,How about this next one:,2018-09-01 22:44:18
+1871998916254916,Yang,Wang,31363,854518728062939,1871998916254916,BOT: quick reply,Which fire extinguishers are used to put out fires caused by flammable liquids?,2018-09-01 22:44:19
+1871998916254916,Yang,Wang,31364,1871998916254916,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-01 22:44:22
+1871998916254916,Yang,Wang,31365,854518728062939,1871998916254916,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-09-01 22:44:23
+1871998916254916,Yang,Wang,31366,854518728062939,1871998916254916,BOT: quick reply,":keycap_1: Class A water fire extinguishers
+:keycap_2: Class B carbon dioxide fire extinguisher
+:keycap_3: Class C dry chemical fire extinguisher
+",2018-09-01 22:44:23
+1871998916254916,Yang,Wang,31367,1871998916254916,854518728062939,user_quick_reply: BUTTON_DKB_Class C dry chemical fire extinguisher,:keycap_3:,2018-09-01 22:44:28
+1871998916254916,Yang,Wang,31368,854518728062939,1871998916254916,BOT: message,"Oops, that wasn't quite correct. :disappointed_face:",2018-09-01 22:44:29
+1871998916254916,Yang,Wang,31369,854518728062939,1871998916254916,BOT: quick reply,The correct answer is Class B carbon dioxide fire extinguisher.,2018-09-01 22:44:29
+1871998916254916,Yang,Wang,31370,1871998916254916,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-01 22:44:34
+1871998916254916,Yang,Wang,31371,854518728062939,1871998916254916,BOT: message,I think you'll like this question.,2018-09-01 22:44:34
+1871998916254916,Yang,Wang,31372,854518728062939,1871998916254916,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-09-01 22:44:35
+1871998916254916,Yang,Wang,31373,854518728062939,1871998916254916,BOT: quick reply,What should you NOT do while lifting objects?,2018-09-01 22:44:35
+1871998916254916,Yang,Wang,31374,1871998916254916,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-01 22:44:40
+1871998916254916,Yang,Wang,31375,854518728062939,1871998916254916,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-09-01 22:44:40
+1871998916254916,Yang,Wang,31376,854518728062939,1871998916254916,BOT: quick reply,":keycap_1: Keep your feet together
+:keycap_2: Keep your back straight
+:keycap_3: Keep the object close to your body
+:keycap_4: Bend at the knees
+",2018-09-01 22:44:41
+1871998916254916,Yang,Wang,31377,1871998916254916,854518728062939,user_quick_reply: BUTTON_AKB_Keep your feet together,:keycap_1:,2018-09-01 22:44:45
+1871998916254916,Yang,Wang,31378,854518728062939,1871998916254916,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_jubilated_cyan.png,2018-09-01 22:44:46
+1871998916254916,Yang,Wang,31379,854518728062939,1871998916254916,BOT: message,Great job!,2018-09-01 22:44:47
+1871998916254916,Yang,Wang,31380,854518728062939,1871998916254916,BOT: quick reply,The correct answer is Keep your feet together.,2018-09-01 22:44:47
+1871998916254916,Yang,Wang,31381,1871998916254916,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-01 22:44:51
+1871998916254916,Yang,Wang,31382,854518728062939,1871998916254916,BOT: message,What about this next question:,2018-09-01 22:44:51
+1871998916254916,Yang,Wang,31383,854518728062939,1871998916254916,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-09-01 22:44:52
+1871998916254916,Yang,Wang,31384,854518728062939,1871998916254916,BOT: quick reply,What three major factors cause food contamination?,2018-09-01 22:44:52
+1871998916254916,Yang,Wang,31385,1871998916254916,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-01 22:44:57
+1871998916254916,Yang,Wang,31386,854518728062939,1871998916254916,BOT: message,Which of the following options is the right answer?,2018-09-01 22:44:57
+1871998916254916,Yang,Wang,31387,854518728062939,1871998916254916,BOT: quick reply,":keycap_1: Physical, biological, and radiological
+:keycap_2: Physical, psychological, and health
+:keycap_3: Physical, biological, and chemical
+:keycap_4: Physical, chemical, and psychosocial
+",2018-09-01 22:44:58
+1871998916254916,Yang,Wang,31388,1871998916254916,854518728062939,"user_quick_reply: BUTTON_DKB_Physical, biological, and radiological",:keycap_1:,2018-09-01 22:45:04
+1871998916254916,Yang,Wang,31389,854518728062939,1871998916254916,BOT: message,"Oops, that wasn't quite correct. :disappointed_face:",2018-09-01 22:45:04
+1871998916254916,Yang,Wang,31390,854518728062939,1871998916254916,BOT: quick reply,"The correct answer is Physical, biological, and chemical.",2018-09-01 22:45:05
+1871998916254916,Yang,Wang,31391,1871998916254916,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-01 22:45:09
+1871998916254916,Yang,Wang,31392,854518728062939,1871998916254916,BOT: message,Let's try this question.,2018-09-01 22:45:09
+1871998916254916,Yang,Wang,31393,854518728062939,1871998916254916,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-09-01 22:45:10
+1871998916254916,Yang,Wang,31394,854518728062939,1871998916254916,BOT: quick reply,What should you NOT do while lifting objects?,2018-09-01 22:45:10
+1871998916254916,Yang,Wang,31395,1871998916254916,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-01 22:45:15
+1871998916254916,Yang,Wang,31396,854518728062939,1871998916254916,BOT: message,Pick one of the following answers.,2018-09-01 22:45:16
+1871998916254916,Yang,Wang,31397,854518728062939,1871998916254916,BOT: quick reply,":keycap_1: Keep your back straight
+:keycap_2: Keep your feet together
+:keycap_3: Keep the object close to your body
+:keycap_4: Bend at the knees
+",2018-09-01 22:45:17
+1871998916254916,Yang,Wang,31398,1871998916254916,854518728062939,user_quick_reply: BUTTON_DKB_Bend at the knees,:keycap_4:,2018-09-01 22:45:20
+1871998916254916,Yang,Wang,31399,854518728062939,1871998916254916,BOT: message,"Hmm, that wasn't quite right. :disappointed_face:",2018-09-01 22:45:21
+1871998916254916,Yang,Wang,31400,854518728062939,1871998916254916,BOT: quick reply,The correct answer is Keep your feet together.,2018-09-01 22:45:22
+1871998916254916,Yang,Wang,31401,1871998916254916,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-01 22:45:26
+1871998916254916,Yang,Wang,31402,854518728062939,1871998916254916,BOT: message,Could you answer this one for me?,2018-09-01 22:45:27
+1871998916254916,Yang,Wang,31403,854518728062939,1871998916254916,BOT: quick reply,What should you NOT do when lowering a load?,2018-09-01 22:45:27
+1871998916254916,Yang,Wang,31404,1871998916254916,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-01 22:45:31
+1871998916254916,Yang,Wang,31405,854518728062939,1871998916254916,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-09-01 22:45:32
+1871998916254916,Yang,Wang,31406,854518728062939,1871998916254916,BOT: quick reply,":keycap_1: Twist your body
+:keycap_2: Bend your knees
+:keycap_3: Keep the load close to your body
+:keycap_4: Twist your body, keep the load close, and bend your knees
+",2018-09-01 22:45:32
+1871998916254916,Yang,Wang,31407,1871998916254916,854518728062939,user_quick_reply: BUTTON_AKB_Twist your body,:keycap_1:,2018-09-01 22:45:36
+1871998916254916,Yang,Wang,31408,854518728062939,1871998916254916,BOT: message,Nice work! Keep it up!,2018-09-01 22:45:37
+1871998916254916,Yang,Wang,31409,854518728062939,1871998916254916,BOT: quick reply,The correct answer is Twist your body.,2018-09-01 22:45:38
+1871998916254916,Yang,Wang,31410,1871998916254916,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-01 22:45:42
+1871998916254916,Yang,Wang,31411,854518728062939,1871998916254916,BOT: message,Let's take a look at this question.,2018-09-01 22:45:43
+1871998916254916,Yang,Wang,31412,854518728062939,1871998916254916,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-09-01 22:45:43
+1871998916254916,Yang,Wang,31413,854518728062939,1871998916254916,BOT: quick reply,What does CERT stand for?,2018-09-01 22:45:44
+1871998916254916,Yang,Wang,31414,1871998916254916,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-01 22:45:51
+1871998916254916,Yang,Wang,31415,854518728062939,1871998916254916,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-09-01 22:45:52
+1871998916254916,Yang,Wang,31416,854518728062939,1871998916254916,BOT: quick reply,":keycap_1: Community Experimental Research Team
+:keycap_2: Community Emergency Response Team
+:keycap_3: Central Emergency Response Terminal
+:keycap_4: Controlled Evacuation and Response Tactics
+",2018-09-01 22:45:52
+1871998916254916,Yang,Wang,31417,1871998916254916,854518728062939,user_quick_reply: BUTTON_DKB_Controlled Evacuation and Response Tactics,:keycap_4:,2018-09-01 22:45:57
+1871998916254916,Yang,Wang,31418,854518728062939,1871998916254916,BOT: message,That's not quite right. :disappointed_face:,2018-09-01 22:45:57
+1871998916254916,Yang,Wang,31419,854518728062939,1871998916254916,BOT: quick reply,The correct answer is Community Emergency Response Team.,2018-09-01 22:45:58
+1871998916254916,Yang,Wang,31420,1871998916254916,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-01 22:46:05
+1871998916254916,Yang,Wang,31421,854518728062939,1871998916254916,BOT: message,Let's try this question.,2018-09-01 22:46:05
+1871998916254916,Yang,Wang,31422,854518728062939,1871998916254916,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-09-01 22:46:06
+1871998916254916,Yang,Wang,31423,854518728062939,1871998916254916,BOT: quick reply,What should you NOT do when lowering a load?,2018-09-01 22:46:06
+1871998916254916,Yang,Wang,31424,1871998916254916,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-01 22:46:17
+1871998916254916,Yang,Wang,31425,854518728062939,1871998916254916,BOT: message,Which of the following options is the right answer?,2018-09-01 22:46:18
+1871998916254916,Yang,Wang,31426,854518728062939,1871998916254916,BOT: quick reply,":keycap_1: Twist your body, keep the load close, and bend your knees
+:keycap_2: Twist your body
+:keycap_3: Bend your knees
+:keycap_4: Keep the load close to your body
+",2018-09-01 22:46:18
+1871998916254916,Yang,Wang,31427,1871998916254916,854518728062939,"user_quick_reply: BUTTON_DKB_Twist your body, keep the load close, and bend your knees",:keycap_1:,2018-09-01 22:46:26
+1871998916254916,Yang,Wang,31428,854518728062939,1871998916254916,BOT: message,"Hmm, that wasn't quite right. :disappointed_face:",2018-09-01 22:46:27
+1871998916254916,Yang,Wang,31429,854518728062939,1871998916254916,BOT: quick reply,The correct answer is Twist your body.,2018-09-01 22:46:27
+1871998916254916,Yang,Wang,31430,1871998916254916,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-01 22:46:34
+1871998916254916,Yang,Wang,31431,854518728062939,1871998916254916,BOT: message,Let's see if you would answer this one.,2018-09-01 22:46:35
+1871998916254916,Yang,Wang,31432,854518728062939,1871998916254916,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-09-01 22:46:35
+1871998916254916,Yang,Wang,31433,854518728062939,1871998916254916,BOT: quick reply,True or false: portable fire extinguishers should only be used by trained employees.,2018-09-01 22:46:36
+1871998916254916,Yang,Wang,31434,1871998916254916,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-01 22:46:41
+1871998916254916,Yang,Wang,31435,854518728062939,1871998916254916,BOT: message,It's one of the following choices.,2018-09-01 22:46:42
+1871998916254916,Yang,Wang,31436,854518728062939,1871998916254916,BOT: quick reply,":keycap_1: False
+:keycap_2: True
+",2018-09-01 22:46:42
+1871998916254916,Yang,Wang,31437,1871998916254916,854518728062939,user_quick_reply: BUTTON_AKB_True,:keycap_2:,2018-09-01 22:46:58
+1871998916254916,Yang,Wang,31438,854518728062939,1871998916254916,BOT: message,Nice work! Keep it up!,2018-09-01 22:46:58
+1871998916254916,Yang,Wang,31439,854518728062939,1871998916254916,BOT: quick reply,The correct answer is True.,2018-09-01 22:47:00
+1871998916254916,Yang,Wang,31440,1871998916254916,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-01 22:47:03
+1871998916254916,Yang,Wang,31441,854518728062939,1871998916254916,BOT: message,Would you answer this question for me?,2018-09-01 22:47:04
+1871998916254916,Yang,Wang,31442,854518728062939,1871998916254916,BOT: quick reply,What three major factors cause food contamination?,2018-09-01 22:47:04
+1871998916254916,Yang,Wang,31443,1871998916254916,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-01 22:47:08
+1871998916254916,Yang,Wang,31444,854518728062939,1871998916254916,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-09-01 22:47:09
+1871998916254916,Yang,Wang,31445,854518728062939,1871998916254916,BOT: quick reply,":keycap_1: Physical, chemical, and psychosocial
+:keycap_2: Physical, biological, and radiological
+:keycap_3: Physical, psychological, and health
+:keycap_4: Physical, biological, and chemical
+",2018-09-01 22:47:09
+1871998916254916,Yang,Wang,31446,1871998916254916,854518728062939,"user_quick_reply: BUTTON_DKB_Physical, psychological, and health",:keycap_3:,2018-09-01 22:47:15
+1871998916254916,Yang,Wang,31447,854518728062939,1871998916254916,BOT: message,"I'm sorry, but that was incorrect. :disappointed_face:",2018-09-01 22:47:15
+1871998916254916,Yang,Wang,31448,854518728062939,1871998916254916,BOT: quick reply,"The correct answer is Physical, biological, and chemical.",2018-09-01 22:47:16
+1871998916254916,Yang,Wang,31449,1871998916254916,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-01 22:47:28
+1871998916254916,Yang,Wang,31450,854518728062939,1871998916254916,BOT: message,Would you answer this question for me?,2018-09-01 22:47:29
+1871998916254916,Yang,Wang,31451,854518728062939,1871998916254916,BOT: quick reply,What three major factors cause food contamination?,2018-09-01 22:47:29
+1871998916254916,Yang,Wang,31452,1871998916254916,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-01 22:47:48
+1871998916254916,Yang,Wang,31453,854518728062939,1871998916254916,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-09-01 22:47:48
+1871998916254916,Yang,Wang,31454,854518728062939,1871998916254916,BOT: quick reply,":keycap_1: Physical, psychological, and health
+:keycap_2: Physical, chemical, and psychosocial
+:keycap_3: Physical, biological, and radiological
+:keycap_4: Physical, biological, and chemical
+",2018-09-01 22:47:49
+1871998916254916,Yang,Wang,31455,1871998916254916,854518728062939,"user_quick_reply: BUTTON_AKB_Physical, biological, and chemical",:keycap_4:,2018-09-01 22:47:53
+1871998916254916,Yang,Wang,31456,854518728062939,1871998916254916,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_normal_pink.png,2018-09-01 22:47:55
+1871998916254916,Yang,Wang,31457,854518728062939,1871998916254916,BOT: message,Nice! That was right!,2018-09-01 22:47:56
+1871998916254916,Yang,Wang,31458,854518728062939,1871998916254916,BOT: quick reply,"The correct answer is Physical, biological, and chemical.",2018-09-01 22:47:57
+1871998916254916,Yang,Wang,31459,1871998916254916,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-01 22:48:01
+1871998916254916,Yang,Wang,31460,854518728062939,1871998916254916,BOT: message,Would you answer this question for me?,2018-09-01 22:48:02
+1871998916254916,Yang,Wang,31461,854518728062939,1871998916254916,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-09-01 22:48:03
+1871998916254916,Yang,Wang,31462,854518728062939,1871998916254916,BOT: quick reply,Which fire extinguishers are used to put out Class A fires?,2018-09-01 22:48:03
+1871998916254916,Yang,Wang,31463,1871998916254916,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-01 22:48:09
+1871998916254916,Yang,Wang,31464,854518728062939,1871998916254916,BOT: message,It's one of the following choices.,2018-09-01 22:48:09
+1871998916254916,Yang,Wang,31465,854518728062939,1871998916254916,BOT: quick reply,":keycap_1: Multi-purpose dry chemical only
+:keycap_2: Water only
+:keycap_3: CO2 only
+:keycap_4: Both water and multi-purpose dry chemical
+:keycap_5: Both CO2 and water
+",2018-09-01 22:48:10
+1871998916254916,Yang,Wang,31466,1871998916254916,854518728062939,user_quick_reply: BUTTON_DKB_CO2 only,:keycap_3:,2018-09-01 22:48:17
+1871998916254916,Yang,Wang,31467,854518728062939,1871998916254916,BOT: message,That's not quite right. :disappointed_face:,2018-09-01 22:48:17
+1871998916254916,Yang,Wang,31468,854518728062939,1871998916254916,BOT: quick reply,The correct answer is Both water and multi-purpose dry chemical.,2018-09-01 22:48:18
+1871998916254916,Yang,Wang,31469,1871998916254916,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-01 22:48:27
+1871998916254916,Yang,Wang,31470,854518728062939,1871998916254916,BOT: message,Would you answer this question for me?,2018-09-01 22:48:28
+1871998916254916,Yang,Wang,31471,854518728062939,1871998916254916,BOT: quick reply,To what does the acronym SLM refer?,2018-09-01 22:48:29
+1871998916254916,Yang,Wang,31472,1871998916254916,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-01 22:48:33
+1871998916254916,Yang,Wang,31473,854518728062939,1871998916254916,BOT: message,Which of the following options is the right answer?,2018-09-01 22:48:34
+1871998916254916,Yang,Wang,31474,854518728062939,1871998916254916,BOT: quick reply,":keycap_1: System Level Monitor
+:keycap_2: Sound Loudness Methods
+:keycap_3: Service Lifecycle Management
+:keycap_4: Sound Level Meter
+",2018-09-01 22:48:34
+1871998916254916,Yang,Wang,31475,1871998916254916,854518728062939,user_quick_reply: BUTTON_DKB_Sound Loudness Methods,:keycap_2:,2018-09-01 22:48:40
+1871998916254916,Yang,Wang,31476,854518728062939,1871998916254916,BOT: message,That's not quite right. :disappointed_face:,2018-09-01 22:48:40
+1871998916254916,Yang,Wang,31477,854518728062939,1871998916254916,BOT: quick reply,The correct answer is Sound Level Meter.,2018-09-01 22:48:41
+1871998916254916,Yang,Wang,31478,1871998916254916,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-01 22:48:45
+1871998916254916,Yang,Wang,31479,854518728062939,1871998916254916,BOT: message,Let's try this one.,2018-09-01 22:48:46
+1871998916254916,Yang,Wang,31480,854518728062939,1871998916254916,BOT: quick reply,What should you NOT do while treating cuts and scrapes?,2018-09-01 22:48:46
+1871998916254916,Yang,Wang,31481,1871998916254916,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-01 22:48:50
+1871998916254916,Yang,Wang,31482,854518728062939,1871998916254916,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-09-01 22:48:51
+1871998916254916,Yang,Wang,31483,854518728062939,1871998916254916,BOT: quick reply,":keycap_1: Apply an antibiotic to the wound
+:keycap_2: Cover the wound
+:keycap_3: Wash the wound with soap
+:keycap_4: Apply pressure on the wound with a clean cloth or bandage
+",2018-09-01 22:48:52
+1871998916254916,Yang,Wang,31484,1871998916254916,854518728062939,user_quick_reply: BUTTON_DKB_Apply an antibiotic to the wound,:keycap_1:,2018-09-01 22:48:57
+1871998916254916,Yang,Wang,31485,854518728062939,1871998916254916,BOT: message,That's not quite right. :disappointed_face:,2018-09-01 22:48:57
+1871998916254916,Yang,Wang,31486,854518728062939,1871998916254916,BOT: quick reply,The correct answer is Wash the wound with soap.,2018-09-01 22:48:58
+1871998916254916,Yang,Wang,31487,1871998916254916,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-01 22:49:02
+1871998916254916,Yang,Wang,31488,854518728062939,1871998916254916,BOT: message,Let's try this one.,2018-09-01 22:49:03
+1871998916254916,Yang,Wang,31489,854518728062939,1871998916254916,BOT: quick reply,What should you NOT do when lowering a load?,2018-09-01 22:49:03
+1871998916254916,Yang,Wang,31490,1871998916254916,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-01 22:49:07
+1871998916254916,Yang,Wang,31491,854518728062939,1871998916254916,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-09-01 22:49:07
+1871998916254916,Yang,Wang,31492,854518728062939,1871998916254916,BOT: quick reply,":keycap_1: Twist your body, keep the load close, and bend your knees
+:keycap_2: Twist your body
+:keycap_3: Bend your knees
+:keycap_4: Keep the load close to your body
+",2018-09-01 22:49:08
+1871998916254916,Yang,Wang,31493,1871998916254916,854518728062939,user_quick_reply: BUTTON_DKB_Keep the load close to your body,:keycap_4:,2018-09-01 22:49:15
+1871998916254916,Yang,Wang,31494,854518728062939,1871998916254916,BOT: message,"Oops, that wasn't quite correct. :disappointed_face:",2018-09-01 22:49:15
+1871998916254916,Yang,Wang,31495,854518728062939,1871998916254916,BOT: quick reply,The correct answer is Twist your body.,2018-09-01 22:49:16
+1871998916254916,Yang,Wang,31942,854518728062939,1871998916254916,BOT: quick reply,"Hi Yang, you haven't talked to me for a while. Would you like to resume the learning with me?",2018-09-02 20:00:32
