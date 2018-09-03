@@ -44,8 +44,7 @@ qa_kb_within_subject = QAKnowlegeBase(json_file_within_subject)
 model_within_subject = RandomSequencingModel(qa_kb_within_subject)
 
 # "902902333": "Liwei Jiang",
-user_within_subject = {  "821967244": "Janice Zang",
-                         "454995128": "Grace Hong", "420158298": "Daniel Choe"}
+user_within_subject = {  }
 
 user_finished_study = { #"379832172": "Anonymous Tester",
                         "239435253": "Giovanni Campagna", "1407190745": "Jean Coquet",
@@ -68,7 +67,9 @@ user_finished_study = { #"379832172": "Anonymous Tester",
                         "1163140404": "Richard Xu", "368141180": "Yang Wang",
                         "490809501": "Hongsheng Fang",
                         "102151122": "Michael Solorio", "678532179": "Nina Wei",
-                        "798628431": "Jessica de la Paz"}
+                        "798628431": "Jessica de la Paz",
+                        "821967244": "Janice Zang",
+                        "454995128": "Grace Hong", "420158298": "Daniel Choe"}
 
 user_id_within_subject = list(user_within_subject.keys())
 
@@ -203,11 +204,11 @@ def webhook():
     if user_action == 'got it':
         print("got it")
         timestamp = strftime("%Y-%m-%d %H:%M:%S", localtime())
-        #model.updateHistory(sender_id, (qid, 1, timestamp), qid_to_index)  # sherry: seems not working
+        # model.updateHistory(sender_id, (qid, 1, timestamp), qid_to_index)  # sherry: seems not working
     elif user_action == "I don't know":
         print("I don't know")
         timestamp = strftime("%Y-%m-%d %H:%M:%S", localtime())
-        #model.updateHistory(sender_id, (qid, 0, timestamp), qid_to_index)  # sherry: seems not working
+        # model.updateHistory(sender_id, (qid, 0, timestamp), qid_to_index)  # sherry: seems not working
 
     #print("[FLASHCARD] PID " + str(os.getpid())+": Record FLASHCARD user action successfully")
     return "ok", 200

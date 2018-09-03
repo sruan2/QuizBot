@@ -131,6 +131,7 @@ postquiz_qid_A = set(qid_2_qualtricsID_dict_A.keys())
 
 # time break considered to be a leave
 BREAK_TIME = 30
+QUESTION_BREAK_TIME = 200
 # indices of useful data entry
 SENDER_INDEX = 4
 RECIPIENT_INDEX = 5
@@ -194,10 +195,11 @@ for user in users:
             sub_time_report.append((old_time_stamp.year, old_time_stamp.month, old_time_stamp.day, total_usage_time/60, total_effective_usage_time/60))
             total_usage_time = 0
             total_effective_usage_time = 0
+            question_start_uid = -99999999
 
         if conversation_file[i][TYPE_INDEX] == "user_quick_reply: NEXT_QUESTION":
-            if (i - question_start_uid) < 9:
-                if (time_stamp - old_time_stamp).total_seconds() <= BREAK_TIME:
+            if (i - question_start_uid) < 14:
+                if (time_stamp - start_effective_time_stamp).total_seconds() <= QUESTION_BREAK_TIME:
                     total_effective_usage_time += (time_stamp - start_effective_time_stamp).total_seconds()
             question_start_uid = i
             start_effective_time_stamp = conversation_file[i][TIME_STAMP_INDEX]
