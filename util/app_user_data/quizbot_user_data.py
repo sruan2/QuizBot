@@ -196,10 +196,9 @@ for user in users:
             total_effective_usage_time = 0
 
         if conversation_file[i][TYPE_INDEX] == "user_quick_reply: NEXT_QUESTION":
-            if (i - question_start_uid) < 8:
+            if (i - question_start_uid) < 9:
                 if (time_stamp - old_time_stamp).total_seconds() <= BREAK_TIME:
-                    total_usage_time += (time_stamp - old_time_stamp).total_seconds()
-                total_effective_usage_time += (time_stamp - start_effective_time_stamp).total_seconds()
+                    total_effective_usage_time += (time_stamp - start_effective_time_stamp).total_seconds()
             question_start_uid = i
             start_effective_time_stamp = conversation_file[i][TIME_STAMP_INDEX]
             start_effective_time_stamp = datetime.strptime(start_effective_time_stamp, "%Y-%m-%d %H:%M:%S")
