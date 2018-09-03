@@ -14,7 +14,7 @@ from dash_model import DASHSequencingModel
 from sequential_model import SequentialModel
 from QAKnowledgebase import QAKnowlegeBase
 from time import strftime, localtime, sleep
-from utils import EnoughQuestions
+from utils import EnoughQuestions, EnoughForToday
 
 app = Flask(__name__)
 app.config['SEND_FILE_MAX_AGE_DEFAULT'] = 0
@@ -72,7 +72,8 @@ user_finished_study = { #"379832172": "Anonymous Tester",
 
 user_id_within_subject = list(user_within_subject.keys())
 
-enough_questions_info = {'distractor': [], 'question': 'Thank you very much for using our app! You already practiced enough questions in this subject. Please try other two subjects. If you finish all three subjects, please wait to receive the post-study surveys from us. Thank you!', 'support': 'NA', 'correct_answer': 'NA', 'qid': [-1, -1]}
+enough_for_today_info = {'distractor': [], 'question': 'You already praciced enough questions today. Please wait until tomorrow to practice another session. Thank you!', 'support': 'NA', 'correct_answer': 'NA', 'qid': [-1, -1]}
+enough_questions_info = {'distractor': [], 'question': 'You already practiced enough questions in this subject. Please try other two subjects. If you finish all three subjects, please wait to receive the post-study surveys from us. Thank you!', 'support': 'NA', 'correct_answer': 'NA', 'qid': [-1, -1]}
 finish_info = {'distractor': [], 'question': 'Thank you very much for using our app! You study is finished now and please proceed to the post-study surveys. Thank you!', 'support': 'NA', 'correct_answer': 'NA', 'qid': [-1, -1]}
 
 with app.app_context():
@@ -88,7 +89,7 @@ def index():
 
 @app.route("/question_data", methods=['GET'])
 def fetch_question():
-    user_id = request.args.get('user_id')
+    user_id = int(request.args.get('user_id'))
     if user_id in user_within_subject:
         print("--------------------")
         print(user_within_subject[user_id])
@@ -99,6 +100,9 @@ def fetch_question():
     else:
         try:
             data = model.pickNextQuestion(user_id, subject='random')
+        except EnoughForToday:
+            print("~~~~~ Enough for Today ~~~~~")
+            data = enough_for_today_info
         except EnoughQuestions:
             print("~~~~~ Enough Questions ~~~~~")
             data = enough_questions_info
@@ -107,7 +111,7 @@ def fetch_question():
 
 @app.route("/question_data_gre", methods=['GET'])
 def fetch_question_gre():
-    user_id = request.args.get('user_id')
+    user_id = int(request.args.get('user_id'))
 
     if user_id in user_within_subject:
         print("--------------------")
@@ -119,6 +123,9 @@ def fetch_question_gre():
     else:
         try:
             data = model.pickNextQuestion(user_id, subject='gre')
+        except EnoughForToday:
+            print("~~~~~ Enough for Today ~~~~~")
+            data = enough_for_today_info
         except EnoughQuestions:
             print("~~~~~ Enough Questions ~~~~~")
             data = enough_questions_info
@@ -127,7 +134,7 @@ def fetch_question_gre():
 
 @app.route("/question_data_science", methods=['GET'])
 def fetch_question_science():
-    user_id = request.args.get('user_id')
+    user_id = int(request.args.get('user_id'))
     if user_id in user_within_subject:
         print("--------------------")
         print(user_within_subject[user_id])
@@ -138,6 +145,9 @@ def fetch_question_science():
     else:
         try:
             data = model.pickNextQuestion(user_id, subject='science')
+        except EnoughForToday:
+            print("~~~~~ Enough for Today ~~~~~")
+            data = enough_for_today_info
         except EnoughQuestions:
             print("~~~~~ Enough Questions ~~~~~")
             data = enough_questions_info
@@ -147,7 +157,7 @@ def fetch_question_science():
 
 @app.route("/question_data_safety", methods=['GET'])
 def fetch_question_safety():
-    user_id = request.args.get('user_id')
+    user_id = int(request.args.get('user_id'))
     if user_id in user_within_subject:
         print("--------------------")
         print(user_within_subject[user_id])
@@ -158,6 +168,9 @@ def fetch_question_safety():
     else:
         try:
             data = model.pickNextQuestion(user_id, subject='safety')
+        except EnoughForToday:
+            print("~~~~~ Enough for Today ~~~~~")
+            data = enough_for_today_info
         except EnoughQuestions:
             print("~~~~~ Enough Questions ~~~~~")
             data = enough_questions_info
@@ -196,7 +209,7 @@ def webhook():
         timestamp = strftime("%Y-%m-%d %H:%M:%S", localtime())
         #model.updateHistory(sender_id, (qid, 0, timestamp), qid_to_index)  # sherry: seems not working
 
-    print("[FLASHCARD] PID " + str(os.getpid())+": Record FLASHCARD user action successfully")
+    #print("[FLASHCARD] PID " + str(os.getpid())+": Record FLASHCARD user action successfully")
     return "ok", 200
 
 

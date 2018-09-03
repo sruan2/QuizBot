@@ -6,7 +6,7 @@ Sherry Ruan
 from base_model import BaseSequencingModel
 from collections import defaultdict
 import random
-from utils import EnoughQuestions
+from utils import EnoughQuestions, EnoughForToday
 
 
 class SequentialModel(BaseSequencingModel):
@@ -14,7 +14,8 @@ class SequentialModel(BaseSequencingModel):
     def __init__(self, qa_kb):
         BaseSequencingModel.__init__(self, qa_kb)
         # a dictionary mapping user id to a dictionary mapping qids to counts
-        self.user_questions_counts = {'science':{}, "safety":{}, "gre":{}}
+        self.user_questions_counts = {"science":{}, "safety":{}, "gre":{}}
+        self.block_counts = {}
 
     def updateHistory(self, user_id, user_data, effective_qids):
         '''outcome is either 0 or 1, if the user answered correctly
@@ -23,6 +24,8 @@ class SequentialModel(BaseSequencingModel):
            user_data: tuples of qid(int), outcome (float [0,1]), timestamp (str)
         '''
         question, outcome, timestamp = user_data
+        if user_id == 1632:
+            print(question, outcome, timestamp)
         if question not in effective_qids.keys():
             return
         question_idx = effective_qids[question]
@@ -34,7 +37,10 @@ class SequentialModel(BaseSequencingModel):
                 self.user_questions_counts[subject][user_id][question_idx] = 1
         else:  # not in any dicts
             self.user_questions_counts[subject][user_id] = {QID: 0 for QID in self.QA_KB.SubDict[subject]}
-            self.user_questions_counts[subject][user_id] = {question_idx: 1}
+            self.user_questions_counts[subject][user_id][question_idx] = 1
+
+        if user_id not in self.block_counts:
+            self.block_counts[user_id] = [80, 60, 40, 20]
 
     def pickNextQuestion(self, user_id=0, subject='random'):
         '''Pick next question randomly
@@ -46,23 +52,40 @@ class SequentialModel(BaseSequencingModel):
                               'support' :
                               'distractor' : }
         '''
+        # Initialize if the user does not existed in our dictionary
+        for s in ('science', 'gre', 'safety'):
+            if user_id not in self.user_questions_counts[s]:
+                self.user_questions_counts[s][user_id] = {QID: 0 for QID in self.QA_KB.SubDict[s]}
+        if user_id not in self.block_counts:
+            self.block_counts[user_id] = [80, 60, 40, 20]
+
+        # Get count of practices for each subject
+        count = {}
+        count['science'] = sum([count for count in self.user_questions_counts["science"][user_id].values()])
+        count['gre'] = sum([count for count in self.user_questions_counts["gre"][user_id].values()])
+        count['safety'] = sum([count for count in self.user_questions_counts["safety"][user_id].values()])
+        total_count = sum(count.values())
+        print('Sci count:', count['science'])
+        print('GRE count:', count['gre'])
+        print('Safety count:', count['safety'])
+        print('Total:', total_count)
+        if total_count in self.block_counts[user_id]:
+            print(self.block_counts[user_id])
+            self.block_counts[user_id].pop()
+            print(self.block_counts[user_id])
+            raise EnoughForToday
+
         if subject == 'random':
-            subject = random.choice(['science', 'gre', 'safety'])
-            #QID = min(d, key=d.get)
-            #QID = randint(0, self.QA_KB.KBlength-1)
-        if user_id not in self.user_questions_counts[subject]:
-            self.user_questions_counts[subject][user_id] = {QID: 0 for QID in self.QA_KB.SubDict[subject]}
-            QID = random.choice(self.QA_KB.SubDict[subject])
-            self.user_questions_counts[subject][user_id][QID] = 1
-        else:
-            d = self.user_questions_counts[subject][user_id]
-            print(d)
-            # if subject is not random, then pick from the respective subject question bank
-            QID = min(d, key=d.get)
-            if d[QID] >= 2:
-                raise EnoughQuestions
-            print("Count of {} is: {}".format(QID, d[QID]))
-            d[QID] += 1
+            subject = min(count, key=count.get)
+
+        d = self.user_questions_counts[subject][user_id]
+        print(subject, d)
+        # if subject is not random, then pick from the respective subject question bank
+        QID = min(d, key=d.get)
+        if d[QID] >= 2:
+            raise EnoughQuestions
+        print("Select {} (count={})".format(QID, d[QID]))
+        d[QID] += 1
 
         data = {'question': self.QA_KB.QKB[QID],
                 'qid': [QID, self.QA_KB.QID[QID]],
