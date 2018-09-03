@@ -107,15 +107,18 @@ def webhook():
             sender_firstname = data['first_name']
             sender_lastname = data['last_name']
 
+            print("--------------------------------")
+            print(sender_firstname, sender_lastname)
+            print(sender_id)
 
             # Check if the user is in cache already
             if not sender_id in cache:
                 # Check if the user is in database
                 if int(sender_id) in db.show_user_id_list(mysql):
                     subject = db.show_current_subject(mysql, sender_id)
-                    _qid = db.show_current_qid(mysql, sender_id)
                     try:
-                        qid = [qid_to_index[_qid], _qid]
+                        qid = db.show_current_qid(mysql, sender_id)
+                        qid = [qid_to_index[qid], qid]
                     except:
                         qid = [1, 32]
                     begin_uid = db.show_last_begin_uid(mysql, sender_id)
@@ -133,7 +136,7 @@ def webhook():
                     pretty_print('Retrieve the user history from [user_history]', mode='Database')
                     qa_model.loadUserData(sender_id, user_history_data)
                     pretty_print('Pass the user history to the QAModel', mode='QAModel')
-                
+
                 # Insert the user into database and cache if it doesn't exist yet.
                 else:
                     sender_firstname = pinyin.get(sender_firstname, format="strip", delimiter="")

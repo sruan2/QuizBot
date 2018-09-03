@@ -24,7 +24,7 @@ class SequentialModel(BaseSequencingModel):
         '''
         if effective_qids != None:
             self.effective_qids = effective_qids
-            
+
         question, outcome, timestamp = user_data
         if question not in self.effective_qids.keys():
             return
