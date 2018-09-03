@@ -134,7 +134,7 @@ def webhook():
                     pretty_print('Insert the user into cache', mode='Cache')
                     user_history_data = db.show_user_history(mysql, sender_id) # tuple of (qid, score, time_stamp)
                     pretty_print('Retrieve the user history from [user_history]', mode='Database')
-                    qa_model.loadUserData(sender_id, user_history_data)
+                    qa_model.loadUserData(sender_id, user_history_data, qid_to_index)
                     pretty_print('Pass the user history to the QAModel', mode='QAModel')
 
                 # Insert the user into database and cache if it doesn't exist yet.

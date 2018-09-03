@@ -1,6 +1,9 @@
 import os
 import sys
 
+class EnoughQuestions(Exception):
+   """Base class for other exceptions"""
+   pass
 
 def pretty_print(message, mode=None):
     if not mode:

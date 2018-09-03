@@ -53,8 +53,8 @@ class QAModel(object):
         QID = data['qid']
         return picked_question, QID
 
-    def updateHistory(self, user_id, user_data):
-        self.sequencing_model.updateHistory(user_id, user_data)
+    def updateHistory(self, user_id, user_data, effective_qids):
+        self.sequencing_model.updateHistory(user_id, user_data, effective_qids)
 
     def loadUserData(self, sender_id, user_history_data, effective_qids):
         self.sequencing_model.loadUserData(sender_id, user_history_data, effective_qids)
