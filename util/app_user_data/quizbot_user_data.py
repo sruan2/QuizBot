@@ -167,38 +167,48 @@ for user in users:
     user_id = conversation_file[0][0]
     chatbot_id = "854518728062939"
 
-    sub_time_report = []  # a disctionary of dates and corresponding daily usage time
+    sub_time_report = []  # a list of dates and corresponding daily usage time
     # list of tuples of (0 if chatbot to user / 1 if user to chatbot <which is not used for now> , time breaks in second)
-    analysis = [[]]
     day_counter = 0  # counter of total usage days
     total_usage_time = 0  # counter of total usage time
+    total_effective_usage_time = 0  # counter of total usage time
 
     sender = conversation_file[0][SENDER_INDEX]
     recipient = conversation_file[0][RECIPIENT_INDEX]
     old_time_stamp = conversation_file[0][TIME_STAMP_INDEX]
     old_time_stamp = datetime.strptime(old_time_stamp, "%Y-%m-%d %H:%M:%S")
 
-    if sender == chatbot_id and recipient == user_id:
-        analysis[day_counter].append((0, 0))
-    else:
-        analysis[day_counter].append((1, 0))
+    question_start_uid = -99999999
+
+    if conversation_file[0][TYPE_INDEX] == "user_quick_reply: NEXT_QUESTION":
+        question_start_uid = 0
+        start_effective_time_stamp = conversation_file[0][TIME_STAMP_INDEX]
+        start_effective_time_stamp = datetime.strptime(start_effective_time_stamp, "%Y-%m-%d %H:%M:%S")
 
     for i in range(1, len(conversation_file)):
         time_stamp = conversation_file[i][TIME_STAMP_INDEX]
         time_stamp = datetime.strptime(time_stamp, "%Y-%m-%d %H:%M:%S")
 
         if (time_stamp.year, time_stamp.month, time_stamp.day) != (old_time_stamp.year, old_time_stamp.month, old_time_stamp.day):
-            analysis.append([])
             day_counter += 1
-            sub_time_report.append(
-                (old_time_stamp.year, old_time_stamp.month, old_time_stamp.day, total_usage_time/60))
+            sub_time_report.append((old_time_stamp.year, old_time_stamp.month, old_time_stamp.day, total_usage_time/60, total_effective_usage_time/60))
             total_usage_time = 0
+            total_effective_usage_time = 0
+
+        if conversation_file[i][TYPE_INDEX] == "user_quick_reply: NEXT_QUESTION":
+            if (i - question_start_uid) < 8:
+                if (time_stamp - old_time_stamp).total_seconds() <= BREAK_TIME:
+                    total_usage_time += (time_stamp - old_time_stamp).total_seconds()
+                total_effective_usage_time += (time_stamp - start_effective_time_stamp).total_seconds()
+            question_start_uid = i
+            start_effective_time_stamp = conversation_file[i][TIME_STAMP_INDEX]
+            start_effective_time_stamp = datetime.strptime(start_effective_time_stamp, "%Y-%m-%d %H:%M:%S")
 
         if (time_stamp - old_time_stamp).total_seconds() <= BREAK_TIME:
             total_usage_time += (time_stamp - old_time_stamp).total_seconds()
         old_time_stamp = time_stamp
 
-    sub_time_report.append((old_time_stamp.year, old_time_stamp.month, old_time_stamp.day, total_usage_time/60))
+    sub_time_report.append((old_time_stamp.year, old_time_stamp.month, old_time_stamp.day, total_usage_time/60, total_effective_usage_time/60))
     time_report[user] = sub_time_report
 
     events_mismatch_converted = [quizbot_index_2_qid_dict[int(x[QID_INDEX])] for x in user_history_file if x[END_QID_INDEX] != "" and int(x[END_QID_INDEX]) <= 6522]
@@ -238,6 +248,7 @@ for user in users:
 output_string = ""
 for user in time_report:
     total_time = 0
+    total_effective_time = 0
     output_string += "----- "
     output_string += user
     output_string += " -----\n"
@@ -253,6 +264,7 @@ for user in time_report:
         output_string += " min"
         output_string += "\n"
         total_time += day_report[3]
+        total_effective_time += day_report[4]
     output_string += "\n"
 
     output_string += "Number of questions practiced       : "
@@ -267,6 +279,10 @@ for user in time_report:
     output_string += '['+', '.join(str(e) for e in question_report[user][3]) + ']\n'
     output_string += "Total APP Usage Time                : "
     output_string += str(round(total_time, 2))
+    output_string += " min"
+    output_string += "\n"
+    output_string += "Total APP Effective Usage Time      : "
+    output_string += str(round(total_effective_time, 2))
     output_string += " min"
     output_string += "\n\n"
 

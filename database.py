@@ -175,7 +175,7 @@ def show_current_qid(mysql, user_id):
 
 def show_user_history(mysql, user_id):
     '''
-        This function returns the user history record used for the question sequencing model 
+        This function returns the user history record used for the question sequencing model
         initialization in the [user_history] table of <QUIZBOT> database.
     '''
     cur = mysql.connection.cursor()
@@ -227,8 +227,8 @@ def insert_user_action_flashcard(mysql, user_id, qid, user_action):
             cur.execute("INSERT INTO action (user_id, qid, event, r_time) VALUES (%s, %s, %s, %s)",
                         (user_id, qid, user_action, time))
             con.commit()
-            pretty_print(
-                "FLASHCARD User action record successfully added", mode="FC Database")
+            #pretty_print(
+            #    "FLASHCARD User action record successfully added", mode="FC Database")
         except:
             con.rollback()
             pretty_print(

@@ -5,6 +5,10 @@ class EnoughQuestions(Exception):
    """Base class for other exceptions"""
    pass
 
+class EnoughForToday(Exception):
+   """Base class for other exceptions"""
+   pass
+
 def pretty_print(message, mode=None):
     if not mode:
         print('\t\t\t  '+str(message))
