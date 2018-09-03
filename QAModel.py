@@ -21,7 +21,7 @@ from question_sequencing.random_model import RandomSequencingModel
 from question_sequencing.leitner_model import LeitnerSequencingModel
 from question_sequencing.SM2_model import SM2SequencingModel
 from question_sequencing.dash_model import DASHSequencingModel
-from question_sequencing.sequential_model import SequentailModel
+from question_sequencing.sequential_model import SequentialModel
 from QAKnowledgebase import QAKnowlegeBase
 
 class QAModel(object):
@@ -55,8 +55,8 @@ class QAModel(object):
     def updateHistory(self, user_id, user_data, effective_qids):
         self.sequencing_model.updateHistory(user_id, user_data, effective_qids)
 
-    def loadUserData(self, sender_id, user_history_data):
-        self.sequencing_model.loadUserData(sender_id, user_history_data)
+    def loadUserData(self, sender_id, user_history_data, effective_qids):
+        self.sequencing_model.loadUserData(sender_id, user_history_data, effective_qids)
 
     def getAnswer(self, QID):
         try:

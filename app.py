@@ -131,9 +131,9 @@ def webhook():
                     pretty_print('Insert the user into cache', mode='Cache')
                     user_history_data = db.show_user_history(mysql, sender_id) # tuple of (qid, score, time_stamp)
                     pretty_print('Retrieve the user history from [user_history]', mode='Database')
-                    qa_model.loadUserData(sender_id, user_history_data)
+                    qa_model.loadUserData(sender_id, user_history_data, None)
                     pretty_print('Pass the user history to the QAModel', mode='QAModel')
-                
+
                 # Insert the user into database and cache if it doesn't exist yet.
                 else:
                     sender_firstname = pinyin.get(sender_firstname, format="strip", delimiter="")
@@ -275,7 +275,7 @@ with app.app_context():
     # [(1139924072777403, 'Sherry'), (1805880356153906, 'Nathan'), (1850388251650155, 'Liwei')]
     reminder.RepeatedTimer(86400, template_conversation, mysql)
     # print(db.show_users_newly_added(mysql))
-    
+
 if __name__ == '__main__':
     # Set up Flask app and MySQL
     setup(chatbot_text)
@@ -285,7 +285,7 @@ if __name__ == '__main__':
     qa_kb = QAKnowlegeBase(json_file)
     model = os.environ["MODEL"]
     question_sequencing_model = os.environ["QUESTION_SEQUENCING_MODEL"]
-    
+
     if model == "TFIDF":
         qa_model = QAModel.TFIDFModel(qa_kb, question_sequencing_model)
     elif model == "SIF":
