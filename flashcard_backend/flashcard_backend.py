@@ -28,12 +28,16 @@ app.config['MYSQL_DB'] = os.environ["DB"]
 mysql.init_app(app)
 
 # ================== Load Sequencing Model ==================
-json_file = '../QAdataset/questions_96.json'
+json_file = '../QAdataset/questions_between_subjects_quizbot.json'
 qa_kb = QAKnowlegeBase(json_file)
 model = SequentialModel(qa_kb)
 
-effective_qids = {0: 15, 1: 135, 2: 55, 3: 51, 4: 56, 5: 141, 6: 128, 7: 106, 8: 111, 9: 114, 10: 59, 11: 9, 12: 131, 13: 145, 14: 18, 15: 102, 16: 11, 17: 133, 18: 130, 19: 83, 20: 41, 21: 148, 22: 75, 23: 90, 24: 99, 25: 113, 26: 104, 27: 46, 28: 37, 29: 44, 30: 49, 31: 58, 32: 24, 33: 52, 34: 73, 35: 6, 36: 29, 37: 88, 38: 17, 39: 76, 40: 77, 41: 89, 42: 144, 43: 142, 44: 92, 45: 10, 46: 3, 47: 40, 48: 147, 49: 100, 50: 138, 51: 118, 52: 112, 53: 64, 54: 32, 55: 50, 56: 136, 57: 143, 58: 121, 59: 132, 60: 120, 61: 8, 62: 5, 63: 30, 64: 117, 65: 125, 66: 14, 67: 103, 68: 19, 69: 27, 70: 84, 71: 93, 72: 79, 73: 72, 74: 2, 75: 31, 76: 42, 77: 35, 78: 65, 79: 25, 80: 1, 81: 21, 82: 38, 83: 97, 84: 94, 85: 53, 86: 45, 87: 82, 88: 87, 89: 127, 90: 146, 91: 68, 92: 139, 93: 85, 94: 74, 95: 70}
-effective_qids = {v:k for (k,v) in effective_qids.items()}
+# 96 question pool
+# qid_to_index = {0: 15, 1: 135, 2: 55, 3: 51, 4: 56, 5: 141, 6: 128, 7: 106, 8: 111, 9: 114, 10: 59, 11: 9, 12: 131, 13: 145, 14: 18, 15: 102, 16: 11, 17: 133, 18: 130, 19: 83, 20: 41, 21: 148, 22: 75, 23: 90, 24: 99, 25: 113, 26: 104, 27: 46, 28: 37, 29: 44, 30: 49, 31: 58, 32: 24, 33: 52, 34: 73, 35: 6, 36: 29, 37: 88, 38: 17, 39: 76, 40: 77, 41: 89, 42: 144, 43: 142, 44: 92, 45: 10, 46: 3, 47: 40, 48: 147, 49: 100, 50: 138, 51: 118, 52: 112, 53: 64, 54: 32, 55: 50, 56: 136, 57: 143, 58: 121, 59: 132, 60: 120, 61: 8, 62: 5, 63: 30, 64: 117, 65: 125, 66: 14, 67: 103, 68: 19, 69: 27, 70: 84, 71: 93, 72: 79, 73: 72, 74: 2, 75: 31, 76: 42, 77: 35, 78: 65, 79: 25, 80: 1, 81: 21, 82: 38, 83: 97, 84: 94, 85: 53, 86: 45, 87: 82, 88: 87, 89: 127, 90: 146, 91: 68, 92: 139, 93: 85, 94: 74, 95: 70}
+# qid_to_index = {v:k for (k,v) in qid_to_index.items()}
+
+# quizbot 48 questin pool
+qid_to_index = {1: 32, 2: 26, 132: 11, 5: 14, 136: 8, 138: 2, 139: 44, 14: 18, 143: 9, 146: 42, 19: 20, 21: 33, 25: 31, 27: 21, 30: 15, 31: 27, 32: 6, 35: 29, 38: 34, 42: 28, 45: 38, 8: 13, 50: 7, 53: 37, 64: 5, 65: 30, 68: 43, 70: 47, 72: 25, 74: 46, 79: 24, 82: 39, 84: 22, 85: 45, 87: 40, 93: 23, 94: 36, 97: 35, 100: 1, 103: 19, 112: 4, 147: 0, 117: 16, 118: 3, 120: 12, 121: 10, 125: 17, 127: 41}
 
 json_file_within_subject = '../QAdataset/questions_between_subjects_flashcard.json'  # sherry: typo here, should be within-subject
 qa_kb_within_subject = QAKnowlegeBase(json_file_within_subject)
@@ -43,8 +47,7 @@ model_within_subject = RandomSequencingModel(qa_kb_within_subject)
 user_within_subject = {  "821967244": "Janice Zang",
                          "454995128": "Grace Hong", "420158298": "Daniel Choe"}
 
-user_finished_study = {
-                        #"379832172": "Anonymous Tester",
+user_finished_study = { #"379832172": "Anonymous Tester",
                         "239435253": "Giovanni Campagna", "1407190745": "Jean Coquet",
                         "50608053": "Philip Zhuang", "719675501": "Yue Hui",
                         "772553696": "Kylie Jue", "747757516": "De-An Huang",
@@ -75,7 +78,7 @@ finish_info = {'distractor': [], 'question': 'Thank you very much for using our 
 with app.app_context():
     user_list = db.show_user_id_list_flashcard(mysql)
     for user_id in user_list:
-        model.loadUserData(user_id, db.show_user_history_flashcard(mysql, user_id), effective_qids)
+        model.loadUserData(user_id, db.show_user_history_flashcard(mysql, user_id), qid_to_index)
 
 
 @app.route('/')
@@ -187,11 +190,11 @@ def webhook():
     if user_action == 'got it':
         print("got it")
         timestamp = strftime("%Y-%m-%d %H:%M:%S", localtime())
-        #model.updateHistory(sender_id, (qid, 1, timestamp), effective_qids)  # sherry: seems not working
+        #model.updateHistory(sender_id, (qid, 1, timestamp), qid_to_index)  # sherry: seems not working
     elif user_action == "I don't know":
         print("I don't know")
         timestamp = strftime("%Y-%m-%d %H:%M:%S", localtime())
-        #model.updateHistory(sender_id, (qid, 0, timestamp), effective_qids)  # sherry: seems not working
+        #model.updateHistory(sender_id, (qid, 0, timestamp), qid_to_index)  # sherry: seems not working
 
     print("[FLASHCARD] PID " + str(os.getpid())+": Record FLASHCARD user action successfully")
     return "ok", 200
