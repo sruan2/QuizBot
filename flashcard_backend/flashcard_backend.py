@@ -40,8 +40,7 @@ qa_kb_within_subject = QAKnowlegeBase(json_file_within_subject)
 model_within_subject = RandomSequencingModel(qa_kb_within_subject)
 
 # "902902333": "Liwei Jiang",
-user_within_subject = { "102151122": "Michael Solorio", "678532179": "Nina Wei",
-                         "798628431": "Jessica de la Paz", "821967244": "Janice Zang",
+user_within_subject = {  "821967244": "Janice Zang",
                          "454995128": "Grace Hong", "420158298": "Daniel Choe"}
 
 user_finished_study = {
@@ -64,7 +63,9 @@ user_finished_study = {
                         "450648678": "Nathan Dalal", "466714361": "Sorathan Chaturapruek",
                         "1477638740": "Owen Wang",
                         "1163140404": "Richard Xu", "368141180": "Yang Wang",
-                        "490809501": "Hongsheng Fang"}
+                        "490809501": "Hongsheng Fang",
+                        "102151122": "Michael Solorio", "678532179": "Nina Wei",
+                        "798628431": "Jessica de la Paz"}
 
 user_id_within_subject = list(user_within_subject.keys())
 
