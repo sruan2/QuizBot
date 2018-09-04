@@ -188,26 +188,24 @@ def send_question(mysql, recipient_id, template_conversation, qa_model, cache):
         Return:
             None
     '''
-    try:
-        subject = cache[recipient_id]['current_subject'] if cache[recipient_id]['current_subject'] != None else 'random'
-        question, qid = qa_model.pickQuestion(recipient_id, subject)
+    subject = cache[recipient_id]['current_subject'] if cache[recipient_id]['current_subject'] != None else 'random'
+    question, qid = qa_model.pickQuestion(recipient_id, subject)
 
-        message_data_1 = template_conversation["STATE"]["QUESTION"]["message_1"]
-        message_data_2 = template_conversation["STATE"]["QUESTION"]["message_2"]
-        messaging_API.send_message(
-            mysql, recipient_id, template_conversation, message_data_1)
+    message_data_1 = template_conversation["STATE"]["QUESTION"]["message_1"]
+    message_data_2 = template_conversation["STATE"]["QUESTION"]["message_2"]
+    messaging_API.send_message(
+        mysql, recipient_id, template_conversation, message_data_1)
 
-        if random.random() < 0.5:
-            messaging_API.send_message(mysql, recipient_id, template_conversation, message_data_2)
+    if random.random() < 0.5:
+        messaging_API.send_message(mysql, recipient_id, template_conversation, message_data_2)
 
-        uid = send_format_quick_reply_text(
-            mysql, recipient_id, template_conversation, "QUESTION", question)
+    uid = send_format_quick_reply_text(
+        mysql, recipient_id, template_conversation, "QUESTION", question)
 
-        # insert the question to the [user_history] table
-        db.insert_user_history(mysql, recipient_id, qid[1], subject, begin_uid=uid)
-        update_cache(cache, recipient_id, current_qid=qid, begin_uid=uid)
-    except:
-        return
+    # insert the question to the [user_history] table
+    db.insert_user_history(mysql, recipient_id, qid[1], subject, begin_uid=uid)
+    update_cache(cache, recipient_id, current_qid=qid, begin_uid=uid)
+
 
 def send_say_hi(mysql, recipient_id, template_conversation, recipient_firstname):
     '''
