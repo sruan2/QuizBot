@@ -159,7 +159,7 @@ def show_users_newly_added(mysql):
     cur.execute("SELECT user_id, user_firstname, reg_time FROM user;")
 
     rows = cur.fetchall()
-    return [row[:2] for row in rows if (datetime.strptime(row[2], date_format_time) - datetime.strptime("2018-08-31 00:00:00", date_format_time)).days > 0]
+    return [row[:2] for row in rows if (datetime.strptime(row[2], date_format_time) - datetime.strptime("2018-09-01 00:00:00", date_format_time)).days > 0]
 
 
 def show_current_qid(mysql, user_id):
