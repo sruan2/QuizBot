@@ -6,7 +6,7 @@ Sherry Ruan
 from base_model import BaseSequencingModel
 from collections import defaultdict
 import random
-from utils import EnoughQuestions, EnoughForToday
+from utils import SubjectEnoughQuestions, EnoughForToday, FinishFixQuestionsStudy
 
 
 class SequentialModel(BaseSequencingModel):
@@ -24,8 +24,6 @@ class SequentialModel(BaseSequencingModel):
            user_data: tuples of qid(int), outcome (float [0,1]), timestamp (str)
         '''
         question, outcome, timestamp = user_data
-        if user_id == 1632:
-            print(question, outcome, timestamp)
         if question not in effective_qids.keys():
             return
         question_idx = effective_qids[question]
@@ -75,6 +73,9 @@ class SequentialModel(BaseSequencingModel):
             print(self.block_counts[user_id])
             raise EnoughForToday
 
+        if total_count >= 96:
+            raise FinishFixQuestionsStudy
+
         if subject == 'random':
             subject = min(count, key=count.get)
 
@@ -83,7 +84,7 @@ class SequentialModel(BaseSequencingModel):
         # if subject is not random, then pick from the respective subject question bank
         QID = min(d, key=d.get)
         if d[QID] >= 2:
-            raise EnoughQuestions
+            raise SubjectEnoughQuestions
         print("Select {} (count={})".format(QID, d[QID]))
         d[QID] += 1
 

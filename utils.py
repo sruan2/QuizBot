@@ -1,11 +1,15 @@
 import os
 import sys
 
-class EnoughQuestions(Exception):
+class SubjectEnoughQuestions(Exception):
    """Base class for other exceptions"""
    pass
 
 class EnoughForToday(Exception):
+   """Base class for other exceptions"""
+   pass
+
+class FinishFixQuestionsStudy(Exception):
    """Base class for other exceptions"""
    pass
 
