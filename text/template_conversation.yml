@@ -411,7 +411,7 @@ TEMPLATE:
 
   # Reference: https://www.livescience.com/28170-25-fun-facts.html
   # Reference: https://www.sciencealert.com/13-science-facts-never-learned-high-school-2018
-  # Reference: http://www.hightechscience.org/funfacts.htm
+  # Reference: http://www.hightechscience.ai/funfacts.htm
   FUN_FACT_SCIENCE:
     - Female sharks have thicker skins than males.
     - The ocean is 8 Empire State Buildings deep on average.
@@ -570,7 +570,7 @@ STATE:
         template_type:
           image
         image_url:
-          - https://www.smartprimer.org:{}/pictures/avatar/penguinnormal_happy.png
+          - https://www.smartprimer.ai:{}/pictures/avatar/penguinnormal_happy.png
     quick_reply:
       message:
         source:
@@ -589,20 +589,20 @@ STATE:
       template_type:
         image
       image_url:
-        - https://www.smartprimer.org:{}/pictures/avatar/congrats/penguinnormal_happy_cyan.png
-        - https://www.smartprimer.org:{}/pictures/avatar/congrats/penguinnormal_happy_orange.png
-        - https://www.smartprimer.org:{}/pictures/avatar/congrats/penguinnormal_happy_pink.png
-        - https://www.smartprimer.org:{}/pictures/avatar/congrats/penguinnormal_happy_purple.png
-        - https://www.smartprimer.org:{}/pictures/avatar/congrats/penguinnormal_jubilated_cyan.png
-        - https://www.smartprimer.org:{}/pictures/avatar/congrats/penguinnormal_jubilated_orange.png
-        - https://www.smartprimer.org:{}/pictures/avatar/congrats/penguinnormal_jubilated_pink.png
-        - https://www.smartprimer.org:{}/pictures/avatar/congrats/penguinnormal_jubilated_purple.png
-        - https://www.smartprimer.org:{}/pictures/avatar/congrats/penguinnormal_normal_cyan.png
-        - https://www.smartprimer.org:{}/pictures/avatar/congrats/penguinnormal_normal_orange.png
-        - https://www.smartprimer.org:{}/pictures/avatar/congrats/penguinnormal_normal_pink.png
-        - https://www.smartprimer.org:{}/pictures/avatar/congrats/penguinnormal_normal.png
-        - https://www.smartprimer.org:{}/pictures/avatar/congrats/penguinnormal_normal_purple.png
-        - https://www.smartprimer.org:{}/pictures/avatar/celebration.gif
+        - https://www.smartprimer.ai:{}/pictures/avatar/congrats/penguinnormal_happy_cyan.png
+        - https://www.smartprimer.ai:{}/pictures/avatar/congrats/penguinnormal_happy_orange.png
+        - https://www.smartprimer.ai:{}/pictures/avatar/congrats/penguinnormal_happy_pink.png
+        - https://www.smartprimer.ai:{}/pictures/avatar/congrats/penguinnormal_happy_purple.png
+        - https://www.smartprimer.ai:{}/pictures/avatar/congrats/penguinnormal_jubilated_cyan.png
+        - https://www.smartprimer.ai:{}/pictures/avatar/congrats/penguinnormal_jubilated_orange.png
+        - https://www.smartprimer.ai:{}/pictures/avatar/congrats/penguinnormal_jubilated_pink.png
+        - https://www.smartprimer.ai:{}/pictures/avatar/congrats/penguinnormal_jubilated_purple.png
+        - https://www.smartprimer.ai:{}/pictures/avatar/congrats/penguinnormal_normal_cyan.png
+        - https://www.smartprimer.ai:{}/pictures/avatar/congrats/penguinnormal_normal_orange.png
+        - https://www.smartprimer.ai:{}/pictures/avatar/congrats/penguinnormal_normal_pink.png
+        - https://www.smartprimer.ai:{}/pictures/avatar/congrats/penguinnormal_normal.png
+        - https://www.smartprimer.ai:{}/pictures/avatar/congrats/penguinnormal_normal_purple.png
+        - https://www.smartprimer.ai:{}/pictures/avatar/celebration.gif
 
   PERSISTENT_MENU:
     persistent_menu:

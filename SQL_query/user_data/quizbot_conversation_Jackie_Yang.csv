@@ -1,0 +1,124 @@
+user_id,user_firstname,user_lastname,uid,sender,recipient,type,dialogue,time_stamp
+1757868184281742,Jackie,Yang,1550,1757868184281742,854518728062939,persistent_menu: GET_INTRO_1,Get Started,2018-09-05 19:39:54
+1757868184281742,Jackie,Yang,1551,854518728062939,1757868184281742,BOT: image,https://www.smartprimer.ai:4443/pictures/avatar/quizbot_avatar.png,2018-09-05 19:39:57
+1757868184281742,Jackie,Yang,1552,854518728062939,1757868184281742,BOT: quick reply,"Hi Jackie! My name is Frosty :penguin: and I’m here to help you learn all about science:microscope:, verbal reasoning (GRE) :input_latin_uppercase:, and safety:hammer_and_wrench:!",2018-09-05 19:39:58
+1757868184281742,Jackie,Yang,1553,1757868184281742,854518728062939,user_quick_reply: GET_INTRO_2,Alrighty :raising_hands_medium-light_skin_tone:,2018-09-05 19:40:57
+1757868184281742,Jackie,Yang,1554,854518728062939,1757868184281742,BOT: message,Here’s how it works.,2018-09-05 19:40:58
+1757868184281742,Jackie,Yang,1555,854518728062939,1757868184281742,BOT: message,"I ask you questions, and you give me answers.",2018-09-05 19:40:59
+1757868184281742,Jackie,Yang,1556,854518728062939,1757868184281742,BOT: quick reply,We will learn fun things together!,2018-09-05 19:41:00
+1757868184281742,Jackie,Yang,1557,1757868184281742,854518728062939,user_quick_reply: GET_INTRO_3,Alrighty :raising_hands_medium-light_skin_tone:,2018-09-05 19:41:03
+1757868184281742,Jackie,Yang,1558,854518728062939,1757868184281742,BOT: image,https://www.smartprimer.ai:4443/pictures/user_manual/typeanswer.png,2018-09-05 19:41:07
+1757868184281742,Jackie,Yang,1559,854518728062939,1757868184281742,BOT: quick reply,"To study the questions, you can type in your answers in the text field and I will evaluate the answers for you using advanced NLP (Natural Language Processing) technology.",2018-09-05 19:41:08
+1757868184281742,Jackie,Yang,1560,1757868184281742,854518728062939,user_quick_reply: GET_INTRO_4,Tap me :thumbs_up_medium-light_skin_tone:,2018-09-05 19:49:10
+1757868184281742,Jackie,Yang,1561,854518728062939,1757868184281742,BOT: image,https://www.smartprimer.ai:4443/pictures/user_manual/needhintbutton.png,2018-09-05 19:49:14
+1757868184281742,Jackie,Yang,1562,854518728062939,1757868184281742,BOT: quick reply,"If you don't know the answers, then feel free to tap on the hint button.",2018-09-05 19:49:15
+1757868184281742,Jackie,Yang,1563,1757868184281742,854518728062939,user_quick_reply: GET_INTRO_5,Okay :raising_hands_medium-light_skin_tone:,2018-09-05 19:49:19
+1757868184281742,Jackie,Yang,1564,854518728062939,1757868184281742,BOT: image,https://www.smartprimer.ai:4443/pictures/user_manual/hintoptions.png,2018-09-05 19:49:22
+1757868184281742,Jackie,Yang,1565,854518728062939,1757868184281742,BOT: quick reply,The hint will give you a list of potential answers and you can select one from them.,2018-09-05 19:49:23
+1757868184281742,Jackie,Yang,1566,1757868184281742,854518728062939,user_quick_reply: GET_INTRO_6,I see :oncoming_fist_medium-light_skin_tone:,2018-09-05 19:49:27
+1757868184281742,Jackie,Yang,1567,854518728062939,1757868184281742,BOT: image,https://www.smartprimer.ai:4443/pictures/user_manual/menubutton.jpg,2018-09-05 19:49:29
+1757868184281742,Jackie,Yang,1568,854518728062939,1757868184281742,BOT: quick reply,"To discover more abilities of me, you can click on the menu button.:backhand_index_pointing_up_medium-light_skin_tone:",2018-09-05 19:49:29
+1757868184281742,Jackie,Yang,1569,1757868184281742,854518728062939,persistent_menu: CHAT_WITH_ME,Chat with Me :penguin:,2018-09-05 19:49:51
+1757868184281742,Jackie,Yang,1570,854518728062939,1757868184281742,BOT: quick reply,Do you want to hear some interesting things from me?,2018-09-05 19:49:52
+1757868184281742,Jackie,Yang,1571,1757868184281742,854518728062939,persistent_menu: SCIENCE,Science:microscope:,2018-09-05 19:49:57
+1757868184281742,Jackie,Yang,1572,854518728062939,1757868184281742,BOT: quick reply,Okay! Let’s see how much you know about science!,2018-09-05 19:49:58
+1757868184281742,Jackie,Yang,1573,1757868184281742,854518728062939,persistent_menu: RANDOM,Random :game_die:,2018-09-05 19:50:01
+1757868184281742,Jackie,Yang,1574,854518728062939,1757868184281742,BOT: image,https://www.smartprimer.ai:4443/pictures/avatar/evolvescientist_normal.gif,2018-09-05 19:50:04
+1757868184281742,Jackie,Yang,1575,854518728062939,1757868184281742,BOT: quick reply,Okay! Let’s mix it up! :game_die:,2018-09-05 19:50:05
+1757868184281742,Jackie,Yang,1576,1757868184281742,854518728062939,user_quick_reply: NEXT_QUESTION,Okay :collision:,2018-09-05 19:50:09
+1757868184281742,Jackie,Yang,1577,854518728062939,1757868184281742,BOT: message,Let's see if you can answer this question.,2018-09-05 19:50:10
+1757868184281742,Jackie,Yang,1578,854518728062939,1757868184281742,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-09-05 19:50:10
+1757868184281742,Jackie,Yang,1579,854518728062939,1757868184281742,BOT: quick reply,What kind of viscosity is found in long-chain hydrocarbons?,2018-09-05 19:50:11
+1757868184281742,Jackie,Yang,1580,1757868184281742,854518728062939,user_typing,High,2018-09-05 19:50:30
+1757868184281742,Jackie,Yang,1581,854518728062939,1757868184281742,BOT: message,Nice! :red_apple:,2018-09-05 19:50:31
+1757868184281742,Jackie,Yang,1582,854518728062939,1757868184281742,BOT: quick reply,The correct answer is high viscosity.,2018-09-05 19:50:31
+1757868184281742,Jackie,Yang,1583,1757868184281742,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-05 19:50:37
+1757868184281742,Jackie,Yang,1584,854518728062939,1757868184281742,BOT: message,"Alrighty, let's try this one.",2018-09-05 19:50:38
+1757868184281742,Jackie,Yang,1585,854518728062939,1757868184281742,BOT: quick reply,"Although John F. Kennedy was known for his carefree flag football games, Gerald Ford should be _____ as our football president: he turned down offers to play for two National Football League teams in order to pursue a career in public service.",2018-09-05 19:50:39
+1757868184281742,Jackie,Yang,1586,1757868184281742,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-05 19:52:34
+1757868184281742,Jackie,Yang,1587,854518728062939,1757868184281742,BOT: message,Which of the following options is the right answer?,2018-09-05 19:52:34
+1757868184281742,Jackie,Yang,1588,854518728062939,1757868184281742,BOT: quick reply,":keycap_1: abrogated
+:keycap_2: relegated
+:keycap_3: criticized
+:keycap_4: annulled
+:keycap_5: apotheosized
+",2018-09-05 19:52:35
+1757868184281742,Jackie,Yang,1589,1757868184281742,854518728062939,user_quick_reply: BUTTON_DKB_relegated,:keycap_2:,2018-09-05 19:53:00
+1757868184281742,Jackie,Yang,1590,854518728062939,1757868184281742,BOT: message,"Oops, that is not correct. :disappointed_face:",2018-09-05 19:53:01
+1757868184281742,Jackie,Yang,1591,854518728062939,1757868184281742,BOT: quick reply,The correct answer is apotheosized.,2018-09-05 19:53:02
+1757868184281742,Jackie,Yang,1592,1757868184281742,854518728062939,user_quick_reply: WHY,Why?,2018-09-05 19:53:06
+1757868184281742,Jackie,Yang,1593,854518728062939,1757868184281742,BOT: message,Here's an explanation:,2018-09-05 19:53:07
+1757868184281742,Jackie,Yang,1594,854518728062939,1757868184281742,BOT: quick reply,":pushpin: Apotheosized -- deify or glorify
+:pushpin: Relegated -- to send or consign to an inferior position, place, or condition
+:pushpin: Abrogated -- revoke formally
+:pushpin: Annulled -- declare invalid
+:pushpin: Criticized -- find fault with; express criticism of; point out real or perceived flaws",2018-09-05 19:53:07
+1757868184281742,Jackie,Yang,1595,1757868184281742,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-09-05 19:53:59
+1757868184281742,Jackie,Yang,1596,854518728062939,1757868184281742,BOT: message,See if you can answer this next one.,2018-09-05 19:54:00
+1757868184281742,Jackie,Yang,1597,854518728062939,1757868184281742,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-09-05 19:54:00
+1757868184281742,Jackie,Yang,1598,854518728062939,1757868184281742,BOT: quick reply,What living species of bird is considered the largest of the raptors?,2018-09-05 19:54:01
+1757868184281742,Jackie,Yang,1599,1757868184281742,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-05 19:54:11
+1757868184281742,Jackie,Yang,1600,854518728062939,1757868184281742,BOT: message,It's one of the following choices.,2018-09-05 19:54:12
+1757868184281742,Jackie,Yang,1601,854518728062939,1757868184281742,BOT: quick reply,":keycap_1: pterodactyl
+:keycap_2: golden eagles
+:keycap_3: peregrine falcon
+:keycap_4: California condor
+",2018-09-05 19:54:13
+1757868184281742,Jackie,Yang,1602,1757868184281742,854518728062939,user_quick_reply: BUTTON_DKB_peregrine falcon,:keycap_3:,2018-09-05 19:56:13
+1757868184281742,Jackie,Yang,1603,854518728062939,1757868184281742,BOT: message,That's not quite right. :disappointed_face:,2018-09-05 19:56:14
+1757868184281742,Jackie,Yang,1604,854518728062939,1757868184281742,BOT: quick reply,The correct answer is golden eagles.,2018-09-05 19:56:14
+1757868184281742,Jackie,Yang,1605,1757868184281742,854518728062939,user_quick_reply: WHY,Why?,2018-09-05 19:56:18
+1757868184281742,Jackie,Yang,1606,854518728062939,1757868184281742,BOT: message,This is an explanation of the question:,2018-09-05 19:56:19
+1757868184281742,Jackie,Yang,1607,854518728062939,1757868184281742,BOT: quick reply,"Although not as famous as its bald cousin, Golden Eagles are much easier to find in Northern California - one of the largest breeding populations for Golden Eagles. The largest of the raptors, Golden Eagles weigh typically between 8 and 12 pounds, and their wing span is around 6 to 7 feet. These eagles dive towards earth to catch prey, and can reach speeds of up to 200 mph!",2018-09-05 19:56:20
+1757868184281742,Jackie,Yang,1608,1757868184281742,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-09-05 19:56:33
+1757868184281742,Jackie,Yang,1609,854518728062939,1757868184281742,BOT: message,Let's see if you can answer this question.,2018-09-05 19:56:34
+1757868184281742,Jackie,Yang,1610,854518728062939,1757868184281742,BOT: quick reply,"Despite the smile that spread from ear to ear, the eyes relayed a certain _____ .",2018-09-05 19:56:35
+1757868184281742,Jackie,Yang,1611,1757868184281742,854518728062939,user_typing,Sorrow,2018-09-05 19:57:07
+1757868184281742,Jackie,Yang,1612,854518728062939,1757868184281742,BOT: image,https://www.smartprimer.ai:4443/pictures/avatar/congrats/penguinnormal_jubilated_pink.png,2018-09-05 19:57:09
+1757868184281742,Jackie,Yang,1613,854518728062939,1757868184281742,BOT: message,Good job! :raising_hands_medium-light_skin_tone:,2018-09-05 19:57:10
+1757868184281742,Jackie,Yang,1614,854518728062939,1757868184281742,BOT: quick reply,The correct answer is sorrow.,2018-09-05 19:57:11
+1757868184281742,Jackie,Yang,1615,1757868184281742,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-05 19:57:24
+1757868184281742,Jackie,Yang,1616,854518728062939,1757868184281742,BOT: message,Let's see if you can answer this question.,2018-09-05 19:57:25
+1757868184281742,Jackie,Yang,1617,854518728062939,1757868184281742,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-09-05 19:57:26
+1757868184281742,Jackie,Yang,1618,854518728062939,1757868184281742,BOT: quick reply,What opens two strands of DNA?,2018-09-05 19:57:26
+1757868184281742,Jackie,Yang,1619,1757868184281742,854518728062939,user_typing,Duplication,2018-09-05 19:57:41
+1757868184281742,Jackie,Yang,1620,854518728062939,1757868184281742,BOT: message,"Oops, that answer was incorrect. :disappointed_face:",2018-09-05 19:57:42
+1757868184281742,Jackie,Yang,1621,854518728062939,1757868184281742,BOT: quick reply,The correct answer is helicase.,2018-09-05 19:57:43
+1757868184281742,Jackie,Yang,1622,1757868184281742,854518728062939,user_quick_reply: WHY,Why?,2018-09-05 19:57:49
+1757868184281742,Jackie,Yang,1623,854518728062939,1757868184281742,BOT: message,I hope this explanation could help you understand the the question.,2018-09-05 19:57:49
+1757868184281742,Jackie,Yang,1624,854518728062939,1757868184281742,BOT: quick reply,"The two DNA strands are opened by helicase. The strands are held open by a single strand of binding proteins, preventing premature reannealing. Topoisomerase solves the problem caused by tension generated by winding/unwinding of DNA. This enzyme wraps around DNA and makes a cut permitting the helix to spin and relax. Once DNA is relaxed, topoisomerase reconnects broken strands. DNA primase synthesizes a short RNA primer which initiates the Okazaki fragment. Okazaki fragments are attached by DNA ligase.",2018-09-05 19:57:50
+1757868184281742,Jackie,Yang,1627,854518728062939,1757868184281742,BOT: quick reply,"Hi Jackie, remember to practice some questions with me if you haven't finished your session today!",2018-09-05 20:00:02
+1757868184281742,Jackie,Yang,1633,1757868184281742,854518728062939,user_quick_reply: NEXT_QUESTION,Tap me :clapping_hands_medium-light_skin_tone:,2018-09-05 20:01:04
+1757868184281742,Jackie,Yang,1634,854518728062939,1757868184281742,BOT: message,See if you can answer this next one.,2018-09-05 20:01:04
+1757868184281742,Jackie,Yang,1635,854518728062939,1757868184281742,BOT: quick reply,"Dolly Madison, the wife of President James Madison, was known especially for her _____ , remaining calm even as the British invaded Washington D.C. during the War of 1812.",2018-09-05 20:01:05
+1757868184281742,Jackie,Yang,1636,1757868184281742,854518728062939,user_typing,Calm,2018-09-05 20:01:24
+1757868184281742,Jackie,Yang,1637,854518728062939,1757868184281742,BOT: message,That wasn't quite what we were looking for. :disappointed_face:,2018-09-05 20:01:25
+1757868184281742,Jackie,Yang,1638,854518728062939,1757868184281742,BOT: quick reply,The correct answer is equanimity.,2018-09-05 20:01:25
+1757868184281742,Jackie,Yang,1639,1757868184281742,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-05 20:01:47
+1757868184281742,Jackie,Yang,1640,854518728062939,1757868184281742,BOT: message,Here's a question for you:,2018-09-05 20:01:47
+1757868184281742,Jackie,Yang,1641,854518728062939,1757868184281742,BOT: quick reply,"Even though legislators claimed the Contagious Diseases Acts strengthened the nation, social purists argued the Acts _____ the nation's moral growth by encouraging licentious behavior.",2018-09-05 20:01:48
+1757868184281742,Jackie,Yang,1642,1757868184281742,854518728062939,user_typing,Weaken,2018-09-05 20:03:24
+1757868184281742,Jackie,Yang,1643,854518728062939,1757868184281742,BOT: message,"Oops, that answer was incorrect. :disappointed_face:",2018-09-05 20:03:25
+1757868184281742,Jackie,Yang,1644,854518728062939,1757868184281742,BOT: quick reply,The correct answer is hampered.,2018-09-05 20:03:26
+1757868184281742,Jackie,Yang,1645,1757868184281742,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-05 20:03:38
+1757868184281742,Jackie,Yang,1646,854518728062939,1757868184281742,BOT: message,Would you answer this question for me?,2018-09-05 20:03:39
+1757868184281742,Jackie,Yang,1647,854518728062939,1757868184281742,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-09-05 20:03:40
+1757868184281742,Jackie,Yang,1648,854518728062939,1757868184281742,BOT: quick reply,What should you NOT do when lowering a load?,2018-09-05 20:03:40
+1757868184281742,Jackie,Yang,1649,1757868184281742,854518728062939,user_typing,Twist body,2018-09-05 20:03:57
+1757868184281742,Jackie,Yang,1650,854518728062939,1757868184281742,BOT: message,Fantastic! :hundred_points:,2018-09-05 20:03:57
+1757868184281742,Jackie,Yang,1651,854518728062939,1757868184281742,BOT: quick reply,The correct answer is Twist your body.,2018-09-05 20:03:58
+1757868184281742,Jackie,Yang,1652,1757868184281742,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-05 20:04:07
+1757868184281742,Jackie,Yang,1653,854518728062939,1757868184281742,BOT: message,"Alrighty, let's try this one.",2018-09-05 20:04:08
+1757868184281742,Jackie,Yang,1654,854518728062939,1757868184281742,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-09-05 20:04:09
+1757868184281742,Jackie,Yang,1655,854518728062939,1757868184281742,BOT: quick reply,"Having squandered his life's savings on unprofitable business ventures, the _____ entrepreneur was forced to live in squalor.",2018-09-05 20:04:09
+1757868184281742,Jackie,Yang,1656,1757868184281742,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-05 20:04:19
+1757868184281742,Jackie,Yang,1657,854518728062939,1757868184281742,BOT: message,Pick one of the following answers.,2018-09-05 20:04:20
+1757868184281742,Jackie,Yang,1658,854518728062939,1757868184281742,BOT: quick reply,":keycap_1: insolvent
+:keycap_2: perturbed
+:keycap_3: eccentric
+:keycap_4: unlikely
+:keycap_5: former
+",2018-09-05 20:04:21
+1757868184281742,Jackie,Yang,1659,1757868184281742,854518728062939,user_quick_reply: BUTTON_DKB_former,:keycap_5:,2018-09-05 20:04:25
+1757868184281742,Jackie,Yang,1660,854518728062939,1757868184281742,BOT: message,That's not quite right. :disappointed_face:,2018-09-05 20:04:26
+1757868184281742,Jackie,Yang,1661,854518728062939,1757868184281742,BOT: quick reply,The correct answer is insolvent.,2018-09-05 20:04:26

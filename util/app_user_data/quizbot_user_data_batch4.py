@@ -17,7 +17,8 @@ result_filename = "quizbot_data_analysis.txt"
 practice_question_file = "practice_question.csv"
 correctness_rate_file = "correctness_rate.csv"
 
-users = ["Sherry_Ruan", "Jeongeun_Park", "Shuo_Han"]
+users = ["Sherry_Ruan", "Jeongeun_Park", "Shuo_Han", # Tuesday
+         "Jackie_Yang", "Yunan_Xu"]
 
 # a dictionary of the number of times user studied each question
 practice_question_count = {}
@@ -159,7 +160,10 @@ for user in users:
 
     qid_in_postquiz_seen = set(events) & postquiz_qid
     qualtricsID_in_postquiz_seen = [qid_2_qualtricsID_dict[qid] for qid in qid_in_postquiz_seen]
-    most_counts_qid, num_most_counts = Counter(events).most_common(1)[0]  # get question with most counts and the counts
+    if events:
+    	most_counts_qid, num_most_counts = Counter(events).most_common(1)[0]  # get question with most counts and the counts
+    else:
+        num_most_counts = 0
     question_report[user] = (len(events), len(set(events)), len(qid_in_postquiz_seen), qualtricsID_in_postquiz_seen, num_most_counts)
 
     # for q in quizbot_qid:
