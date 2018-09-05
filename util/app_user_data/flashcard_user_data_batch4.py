@@ -8,11 +8,12 @@ import csv
 import sys
 import os
 from datetime import datetime
+from collections import Counter
 
 dirname = os.path.dirname(__file__)
 result_filename = "flashcard_data_analysis.txt"
 
-users = ["4_4", "5_5", "9_9","Jeongeun_Park","shuo_han"]
+users = ["5_5", "9_9","Jeongeun_Park","shuo_han"]
 
 if len(sys.argv) == 3:
     users = [sys.argv[1] + "_" + sys.argv[2]]
@@ -86,14 +87,16 @@ for user in users:
     question_correctness_rate[user] = {}
 
     events = [int(x[QID_INDEX]) for x in flashcard_file if (x[EVENT_INDEX] == "I don't know" or x[EVENT_INDEX] == "got it") and int(x[QID_INDEX]) in flashcard_qid]
-    print("--------------------------------")
+    print("\n--------------------------------")
     print(user)
     events.sort()
     print(events)
+    print('Count: '+str(len(events)))
     events_correct = [int(x[QID_INDEX]) for x in flashcard_file if x[EVENT_INDEX] == "got it" and int(x[QID_INDEX]) in flashcard_qid]
     qid_in_postquiz_seen = set(events)&postquiz_qid
     qualtricsID_in_postquiz_seen = [qid_2_qualtricsID_dict[qid] for qid in qid_in_postquiz_seen]
-    question_report[user] = (len(events), len(set(events)), len(qid_in_postquiz_seen), qualtricsID_in_postquiz_seen)
+    most_counts_qid, num_most_counts = Counter(events).most_common(1)[0]  # get question with most counts and the counts
+    question_report[user] = (len(events), len(set(events)), len(qid_in_postquiz_seen), qualtricsID_in_postquiz_seen, num_most_counts)
 
     for q in flashcard_qid:
         practice_question_count[user][q] = events.count(q)
@@ -104,7 +107,7 @@ for user in users:
         else:
             question_correctness_rate[user][q] = round(float(events_correct.count(q)) / float(events.count(q)), 2)
 
-output_string = ""
+output_string = "\n"
 for user in time_report:
     total_time = 0
     output_string += "----- "
@@ -130,10 +133,13 @@ for user in time_report:
     output_string += "Number of unique questions practiced: "
     output_string += str(question_report[user][1])
     output_string += "\n"
-    output_string += "Number of post-quiz questions seen  : "
-    output_string += str(question_report[user][2])
+    # output_string += "Number of post-quiz questions seen  : "
+    # output_string += str(question_report[user][2])
+    # output_string += "\n"
+    # output_string += '['+', '.join(str(e) for e in question_report[user][3]) + ']\n'
+    output_string += "Max count                           : "
+    output_string += str(question_report[user][4])
     output_string += "\n"
-    output_string += '['+', '.join(str(e) for e in question_report[user][3]) + ']\n'
     output_string += "Total APP Usage Time                : "
     output_string += str(round(total_time, 2))
     output_string += " min"
@@ -144,8 +150,8 @@ f.write(output_string)
 f.close()
 print(output_string)
 
-print(practice_question_count)
-print(question_correctness_rate)
+#print(practice_question_count)
+#print(question_correctness_rate)
 
 
 
