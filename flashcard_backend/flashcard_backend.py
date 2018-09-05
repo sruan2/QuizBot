@@ -87,6 +87,7 @@ user_id_within_subject = list(user_within_subject.keys())
 enough_for_today_info = {'distractor': [], 'question': 'You already praciced enough questions today. Please wait until tomorrow to practice another session. Thank you!', 'support': 'NA', 'correct_answer': 'NA', 'qid': [-1, -1]}
 enough_questions_info = {'distractor': [], 'question': 'You already practiced enough questions in this subject. Please try other two subjects.', 'support': 'NA', 'correct_answer': 'NA', 'qid': [-1, -1]}
 finish_info = {'distractor': [], 'question': 'Thank you very much for using our app! You study is finished now and please proceed to the post-study surveys. Thank you!', 'support': 'NA', 'correct_answer': 'NA', 'qid': [-1, -1]}
+bug_info = {'distractor': [], 'question': 'Oops you encounter a bug. Please contact us. Thank you!', 'support': 'NA', 'correct_answer': 'NA', 'qid': [-1, -1]}
 
 
 with app.app_context():
@@ -103,6 +104,9 @@ def index():
 @app.route("/question_data", methods=['GET'])
 def fetch_question():
     user_id = request.args.get('user_id')
+    if user_id == 'undefined':
+        print('!!!!! undefined user id !!!!!')
+        return jsonify(bug_info)
     if user_id in user_within_subject:
         data = model_within_subject.pickNextQuestion(int(user_id), subject='random')
     elif user_id in user_finished_study:
@@ -128,6 +132,9 @@ def fetch_question():
 @app.route("/question_data_gre", methods=['GET'])
 def fetch_question_gre():
     user_id = request.args.get('user_id')
+    if user_id == 'undefined':
+        print('!!!!! undefined user id !!!!!')
+        return jsonify(bug_info)
     if user_id in user_within_subject:
         data = model_within_subject.pickNextQuestion(subject='gre')
     elif user_id in user_finished_study:
@@ -153,6 +160,9 @@ def fetch_question_gre():
 @app.route("/question_data_science", methods=['GET'])
 def fetch_question_science():
     user_id = request.args.get('user_id')
+    if user_id == 'undefined':
+        print('!!!!! undefined user id !!!!!')
+        return jsonify(bug_info)
     if user_id in user_within_subject:
         data = model_within_subject.pickNextQuestion(subject='science')
     elif user_id in user_finished_study:
@@ -178,6 +188,9 @@ def fetch_question_science():
 @app.route("/question_data_safety", methods=['GET'])
 def fetch_question_safety():
     user_id = request.args.get('user_id')
+    if user_id == 'undefined':
+        print('!!!!! undefined user id !!!!!')
+        return jsonify(bug_info)
     if user_id in user_within_subject:
         data = model_within_subject.pickNextQuestion(subject='safety')
     elif user_id in user_finished_study:
