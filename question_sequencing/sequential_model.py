@@ -66,7 +66,7 @@ class SequentialModel(BaseSequencingModel):
         print('Sci count:', count['science'])
         print('GRE count:', count['gre'])
         print('Safety count:', count['safety'])
-        print('All safety:', self.user_questions_counts["safety"][user_id])
+#        print('All safety:', self.user_questions_counts["safety"][user_id])
         print('Total:', total_count)
 
         if total_count in self.block_counts[user_id]:
