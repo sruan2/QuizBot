@@ -12,21 +12,21 @@ import sys
 import csv
 
 # use the QUIZBOT database
-users = [("Veronica", "Cruz"), ("Jackie", "Fortin"), ("Eleni", "Aneziris"), ("Zilin", "Ma"), ("Jongho", "Kim"), \
-		 ("Nina", "Tai"), ("Yi", "Feng"), ("Dae hyun", "Kim"), ("Pingyu", "Wang"), ("Lantao", "Mei"), \
-		 ("Michael", "Silvernagel"), ("Bianca", "Yu")]
+#users = [("Veronica", "Cruz"), ("Jackie", "Fortin"), ("Eleni", "Aneziris"), ("Zilin", "Ma"), ("Jongho", "Kim"), \
+#		 ("Nina", "Tai"), ("Yi", "Feng"), ("Dae hyun", "Kim"), ("Pingyu", "Wang"), ("Lantao", "Mei"), \
+#		 ("Michael", "Silvernagel"), ("Bianca", "Yu")]
 
 # use the QUIZBOT_DEV database
-# users = [("Noah Yinuo", "Yao"), ("Dee Dee", "Thao"), ("Zhenqi", "Hu"), ("Jingyi", "Li"), ("Joy", "Yuzuriha"), \
-#          ("Andrew", "Ying"), ("Henry", "Qin"), ("Nina", "Horowitz"), ("Daniel", "Do"), ("Fangmingyu", "Yang"), \
-#          ("Francis", "Yan"), ("Olivia", "Yang"), ("Ted", "Shaowang"), ("Helen", "Wang"), ("Julia", "Thompson"), \
-#          ("De-an", "Huang"), ("Kylie", "Jue"), ("Tyler", "Yep"), ("Giovanni", "Campagna"), ("Jean", "Coquet"), \
-#          ("Zhouheng", "Zhuang"), ("Yue", "Hui"), ("Clayton", "Ellington"), ("Nathaniel", "Ramos"), ("Paul", "Walter"), \
-#          ("Flora", "Wang"), ("Christine", "Liu"), ("Selen", "Bozkurt"), ("Maisam", "Pyarali"), ("Nathan", "Dalal"), \
-#          ("Sorathan", "Chaturapruek"), ("Daniel", "Choe"), ("Owen", "Wang"), ("Richard", "Xu"), ("Yang", "Wang"), \
-#          ("Hongsheng", "Fang"), ("Mike", "Solorio"), ("Jessica", "De la paz"), ("Nina", "Wei"), ("Janice", "Zang"),\
-#          ("Grace", "Hong")]
-# users.append(("Julia", "Thompson"))
+users = [("Noah Yinuo", "Yao"), ("Dee Dee", "Thao"), ("Zhenqi", "Hu"), ("Jingyi", "Li"), ("Joy", "Yuzuriha"), \
+          ("Andrew", "Ying"), ("Henry", "Qin"), ("Nina", "Horowitz"), ("Daniel", "Do"), ("Fangmingyu", "Yang"), \
+          ("Francis", "Yan"), ("Olivia", "Yang"), ("Ted", "Shaowang"), ("Helen", "Wang"), ("Julia", "Thompson"), \
+          ("De-an", "Huang"), ("Kylie", "Jue"), ("Tyler", "Yep"), ("Giovanni", "Campagna"), ("Jean", "Coquet"), \
+          ("Zhouheng", "Zhuang"), ("Yue", "Hui"), ("Clayton", "Ellington"), ("Nathaniel", "Ramos"), ("Paul", "Walter"), \
+          ("Flora", "Wang"), ("Christine", "Liu"), ("Selen", "Bozkurt"), ("Maisam", "Pyarali"), ("Nathan", "Dalal"), \
+          ("Sorathan", "Chaturapruek"), ("Daniel", "Choe"), ("Owen", "Wang"), ("Richard", "Xu"), ("Yang", "Wang"), \
+          ("Hongsheng", "Fang"), ("Mike", "Solorio"), ("Jessica", "De la paz"), ("Nina", "Wei"), ("Janice", "Zang"),\
+          ("Grace", "Hong")]
+users.append(("Julia", "Thompson"))
 
 # request a single user's record specified in command line
 if sys.argv[1] != "" and sys.argv[2] != "":

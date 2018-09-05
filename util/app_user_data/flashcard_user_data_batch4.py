@@ -11,9 +11,9 @@ from datetime import datetime
 from collections import Counter
 
 dirname = os.path.dirname(__file__)
-result_filename = "flashcard_data_analysis.txt"
+result_filename = "flashcard_data_analysis_batch4.txt"
 
-users = ["Jeongeun_Park","shuo_han"]
+users = ["Jeongeun_Park","shuo_han", "Harry_Liu"]
 
 if len(sys.argv) == 3:
     users = [sys.argv[1] + "_" + sys.argv[2]]
@@ -72,7 +72,9 @@ for user in users:
 
     sub_practice_report.append([])
     if flashcard_file[0][EVENT_INDEX] in ("I don't know", "got it"):
-        sub_practice_report[day_counter].append(int(flashcard_file[0][QID_INDEX]))
+	current_qid = int(flashcard_file[0][QID_INDEX])
+	if current_qid != -1:
+            sub_practice_report[day_counter].append(current_qid)
 
     for i in range(1,len(flashcard_file)):
         time_stamp = flashcard_file[i][TIME_STAMP_INDEX]
@@ -89,7 +91,9 @@ for user in users:
         old_time_stamp = time_stamp
 
         if flashcard_file[i][EVENT_INDEX] in ("I don't know", "got it"):
-            sub_practice_report[day_counter].append(int(flashcard_file[i][QID_INDEX]))
+            current_qid = int(flashcard_file[i][QID_INDEX])
+	    if current_qid != -1: 
+		sub_practice_report[day_counter].append(current_qid)
 
     sub_time_report.append((old_time_stamp.year, old_time_stamp.month, old_time_stamp.day, total_usage_time/60))
     time_report[user] = sub_time_report
