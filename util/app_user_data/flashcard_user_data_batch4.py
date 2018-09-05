@@ -13,7 +13,7 @@ from collections import Counter
 dirname = os.path.dirname(__file__)
 result_filename = "flashcard_data_analysis.txt"
 
-users = ["5_5", "9_9","Jeongeun_Park","shuo_han"]
+users = ["Jeongeun_Park","shuo_han"]
 
 if len(sys.argv) == 3:
     users = [sys.argv[1] + "_" + sys.argv[2]]
@@ -50,6 +50,7 @@ EVENT_INDEX = 4
 QID_INDEX = 3
 
 time_report = {} # a disctionary of dates and corresponding daily usage time
+practice_report = {}
 question_report = {} # a disctionary of studied question (total studies question, unique studies questions)
 practice_question_count = {} # a dictionary of the number of times user studied each question
 question_correctness_rate = {} # a dictionary of the correctness rate of each question
@@ -62,11 +63,16 @@ for user in users:
         flashcard_file = reader[1:]
 
     sub_time_report = []
+    sub_practice_report = []
     day_counter = 0
     total_usage_time = 0
 
     old_time_stamp = flashcard_file[0][TIME_STAMP_INDEX]
     old_time_stamp = datetime.strptime(old_time_stamp, "%Y-%m-%d %H:%M:%S")
+
+    sub_practice_report.append([])
+    if flashcard_file[0][EVENT_INDEX] in ("I don't know", "got it"):
+        sub_practice_report[day_counter].append(int(flashcard_file[0][QID_INDEX]))
 
     for i in range(1,len(flashcard_file)):
         time_stamp = flashcard_file[i][TIME_STAMP_INDEX]
@@ -74,6 +80,7 @@ for user in users:
 
         if (time_stamp.year, time_stamp.month, time_stamp.day) != (old_time_stamp.year, old_time_stamp.month, old_time_stamp.day):
             day_counter += 1
+            sub_practice_report.append([])
             sub_time_report.append((old_time_stamp.year, old_time_stamp.month, old_time_stamp.day, total_usage_time/60))
             total_usage_time = 0
 
@@ -81,8 +88,12 @@ for user in users:
             total_usage_time += (time_stamp - old_time_stamp).total_seconds()
         old_time_stamp = time_stamp
 
+        if flashcard_file[i][EVENT_INDEX] in ("I don't know", "got it"):
+            sub_practice_report[day_counter].append(int(flashcard_file[i][QID_INDEX]))
+
     sub_time_report.append((old_time_stamp.year, old_time_stamp.month, old_time_stamp.day, total_usage_time/60))
     time_report[user] = sub_time_report
+    practice_report[user] = sub_practice_report
     practice_question_count[user] = {}
     question_correctness_rate[user] = {}
 
@@ -114,15 +125,17 @@ for user in time_report:
     output_string += user
     output_string += " -----\n"
 
-    for day_report in time_report[user]:
+    for j, day_report in enumerate(time_report[user]):
         output_string += str(day_report[0])
         output_string += "."
         output_string += str(day_report[1])
         output_string += "."
         output_string += '{:02}'.format(day_report[2])
-        output_string += ": "
-        output_string += str(round(day_report[3], 2))
+        output_string += ":{:>5.2f}".format(day_report[3])
         output_string += " min"
+        output_string += " "*19
+        output_string += str(len(practice_report[user][j])) + " -- "
+        output_string += str(practice_report[user][j])
         output_string += "\n"
         total_time += day_report[3]
     output_string += "\n"
