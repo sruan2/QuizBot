@@ -19,7 +19,7 @@ correctness_rate_file = "correctness_rate.csv"
 
 # users = ["Veronica_Cruz", "Jackie_Fortin", "Eleni_Aneziris", "Zilin_Ma", "Jongho_Kim", \
 #        "Nina_Tai", "Yi_Feng", "Pingyu_Wang", "Dae hyun_Kim", "Lantao_Mei", \
-#          "Michael_Silvernagel", "Bianca_Yu" ]
+#          "Michael_Silvernagel", "Bianca_Yu",]
 
 # within-subject users
 users = ["Noah Yinuo_Yao", "Dee Dee_Thao", "Zhenqi_Hu", "Jingyi_Li", "Joy_Yuzuriha", "Tyler_Yep", \
@@ -215,7 +215,10 @@ for user in users:
     events_mismatch_converted = [quizbot_index_2_qid_dict[int(x[QID_INDEX])] for x in user_history_file if x[END_QID_INDEX] != "" and int(x[END_QID_INDEX]) <= 6522]
     events = [int(x[QID_INDEX]) for x in user_history_file if x[END_QID_INDEX] != "" and int(x[END_QID_INDEX]) > 6522]
     events = events_mismatch_converted + events
-
+    print("--------------------------------")
+    print(user)
+    events.sort()
+    print(events)
     events_correct_mismatch_converted = [quizbot_index_2_qid_dict[int(x[QID_INDEX])] for x in user_history_file if x[END_QID_INDEX] != "" and int(x[END_QID_INDEX]) <= 6522 and int(x[SCORE_INDEX]) > 8]
     events_correct = [int(x[QID_INDEX]) for x in user_history_file if x[END_QID_INDEX] != "" and int(x[END_QID_INDEX]) > 6522 and int(x[SCORE_INDEX]) > 8]
     events_correct = events_correct_mismatch_converted + events_correct
