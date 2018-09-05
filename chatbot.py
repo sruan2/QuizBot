@@ -174,9 +174,23 @@ def respond_to_payload(payload, sender_id, qa_model, chatbot_text, template_conv
             cache, sender_id, current_subject="random", if_explanation_text=False)
 
     elif payload == "NEXT_QUESTION":
-        utils.update_cache(
-            cache, sender_id, waiting_for_answer=1, if_explanation_text=False)
-        send_question(mysql, sender_id, template_conversation, qa_model, cache)
+        utils.update_cache(cache, sender_id, waiting_for_answer=1, if_explanation_text=False)
+        status = send_question(mysql, sender_id, template_conversation, qa_model, cache)
+
+        if status == "EnoughForToday":
+            print("NEXT_QUESTION -- EnoughForToday")
+            payload = "NEXT_SESSION"
+            send_conversation(mysql, sender_id, payload, chatbot_text, template_conversation, "conversation_1")
+
+        elif status == "FinishFixQuestionsStudy":
+            print("NEXT_QUESTION -- FinishFixQuestionsStudy")
+            payload = "END_OF_SESSION"
+            send_paragraph(mysql, sender_id, payload, chatbot_text, template_conversation, "paragraph_1")
+
+        elif status == "SubjectEnoughQuestions":
+            print("NEXT_QUESTION -- SubjectEnoughQuestions")
+            payload = "ENOUGH_SUBJECT"
+            send_conversation(mysql, sender_id, payload, chatbot_text, template_conversation, "conversation_1")    
 
     # ---------------------- ANSWER A QUESTION ----------------------
     elif payload == "NEED_HINT":

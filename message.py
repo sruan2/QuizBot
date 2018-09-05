@@ -180,7 +180,18 @@ def send_question(mysql, recipient_id, template_conversation, qa_model, cache):
             None
     '''
     subject = cache[recipient_id]['current_subject'] if cache[recipient_id]['current_subject'] != None else 'random'
-    question, qid = qa_model.pickQuestion(recipient_id, subject)
+
+    try:
+        question, qid = qa_model.pickQuestion(recipient_id, subject)
+    except EnoughForToday:
+        print("~~~~~ Enough for Today ~~~~~")
+        return "EnoughForToday"
+    except SubjectEnoughQuestions:
+        print("~~~~~ Enough Questions ~~~~~")
+        return "SubjectEnoughQuestions"
+    except FinishFixQuestionsStudy:
+        print("~~~~~ Finish Fix Question Study ~~~~~")
+        return "FinishFixQuestionsStudy"
 
     message_data_1 = template_conversation["STATE"]["QUESTION"]["message_1"]
     message_data_2 = template_conversation["STATE"]["QUESTION"]["message_2"]
@@ -197,6 +208,7 @@ def send_question(mysql, recipient_id, template_conversation, qa_model, cache):
     db.insert_user_history(mysql, recipient_id, qid[1], subject, begin_uid=uid)
     update_cache(cache, recipient_id, current_qid=qid, begin_uid=uid)
 
+    return "NextQuestion"
 
 def send_say_hi(mysql, recipient_id, template_conversation, recipient_firstname):
     '''

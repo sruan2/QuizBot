@@ -730,6 +730,64 @@ NEED_HINT:
         payload:
           - I_DONT_KNOW
 
+NEXT_SESSION:
+  conversation:
+    conversation_1:
+      message:
+        - source:
+            LOCAL
+          text:
+            Nice job! You've practiced enough questions today. Please come back tomorrow and click on "Resume Learning 💪🏼" for another practice session.
+      quick_reply:
+        source:
+          - LOCAL
+        title:
+          - Resume Learning 💪🏼
+        payload:
+          - NEXT_QUESTION
+
+
+END_OF_SESSION:
+  paragraph:
+    paragraph_1:
+      - source:
+          LOCAL
+        text:
+          Congratulations! You've finished your study. Please proceed to the post-study quizzes to test how well you master the knowledge!  
+      - source:
+          LOCAL
+        text:
+          Please be sure to first finish the Google Form quiz, then proceed to the Qualtrics quiz.  
+      - source:
+          LOCAL
+        text:
+          Good luck and have fun! 😄  
+
+ENOUGH_SUBJECT:
+  conversation:
+    conversation_1:
+      message:
+        - source:
+            LOCAL
+          text:
+            Hi there, you already practiced enough questions in this subject. Do you want to try other two subjects? 😊
+      quick_reply:
+        source:
+          - LOCAL
+          - LOCAL
+          - LOCAL
+          - LOCAL
+        title:
+          - Science🔬
+          - GRE 🔠
+          - Safety🛠
+          - Random 🎲
+        payload:
+          - SCIENCE
+          - GRE
+          - SAFETY
+          - RANDOM
+
 MESSAGE_TEXT:
   paragraph:
     paragraph_1:

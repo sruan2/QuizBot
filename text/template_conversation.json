@@ -1,687 +1,687 @@
 {
-    "STATE": {
-        "CHOOSE_SUBJECT": {
-            "quick_reply": {
-                "message": {
-                    "source": "TEMPLATE", 
-                    "text": "CHOOSE_SUBJECT"
-                }, 
-                "payload": [
-                    "SCIENCE", 
-                    "GRE", 
-                    "SAFETY", 
-                    "RANDOM"
-                ], 
-                "source": [
-                    "LOCAL", 
-                    "LOCAL", 
-                    "LOCAL", 
-                    "LOCAL"
-                ], 
-                "title": [
-                    "Science\ud83d\udd2c", 
-                    "GRE \ud83d\udd20", 
-                    "Safety\ud83d\udee0", 
-                    "Random \ud83c\udfb2"
-                ]
-            }
-        }, 
-        "CONGRATULATION": {
-            "image": {
-                "image_url": [
-                    "https://www.smartprimer.org:{}/pictures/avatar/congrats/penguinnormal_happy_cyan.png", 
-                    "https://www.smartprimer.org:{}/pictures/avatar/congrats/penguinnormal_happy_orange.png", 
-                    "https://www.smartprimer.org:{}/pictures/avatar/congrats/penguinnormal_happy_pink.png", 
-                    "https://www.smartprimer.org:{}/pictures/avatar/congrats/penguinnormal_happy_purple.png", 
-                    "https://www.smartprimer.org:{}/pictures/avatar/congrats/penguinnormal_jubilated_cyan.png", 
-                    "https://www.smartprimer.org:{}/pictures/avatar/congrats/penguinnormal_jubilated_orange.png", 
-                    "https://www.smartprimer.org:{}/pictures/avatar/congrats/penguinnormal_jubilated_pink.png", 
-                    "https://www.smartprimer.org:{}/pictures/avatar/congrats/penguinnormal_jubilated_purple.png", 
-                    "https://www.smartprimer.org:{}/pictures/avatar/congrats/penguinnormal_normal_cyan.png", 
-                    "https://www.smartprimer.org:{}/pictures/avatar/congrats/penguinnormal_normal_orange.png", 
-                    "https://www.smartprimer.org:{}/pictures/avatar/congrats/penguinnormal_normal_pink.png", 
-                    "https://www.smartprimer.org:{}/pictures/avatar/congrats/penguinnormal_normal.png", 
-                    "https://www.smartprimer.org:{}/pictures/avatar/congrats/penguinnormal_normal_purple.png", 
-                    "https://www.smartprimer.org:{}/pictures/avatar/celebration.gif"
-                ], 
-                "template_type": "image"
-            }
-        }, 
-        "CORRECT_ANSWER": {
-            "quick_reply": {
-                "message": {
-                    "source": "LOCAL", 
-                    "text": "The correct answer is {}."
-                }, 
-                "payload": [
-                    "WHY", 
-                    "NEXT_QUESTION", 
-                    "SWITCH_SUBJECT"
-                ], 
-                "source": [
-                    "LOCAL", 
-                    "LOCAL", 
-                    "LOCAL"
-                ], 
-                "title": [
-                    "Why?", 
-                    "Next question \ud83d\udcaa\ud83c\udffc", 
-                    "Change subject \ud83d\udd00"
-                ]
-            }
-        }, 
-        "EXPLANATION": {
-            "message": {
-                "source": "TEMPLATE", 
-                "text": "EXPLANATION"
-            }, 
-            "quick_reply": {
-                "message": {
-                    "source": "LOCAL", 
-                    "text": "{}"
-                }, 
-                "payload": [
-                    "NEXT_QUESTION", 
-                    "SWITCH_SUBJECT"
-                ], 
-                "source": [
-                    "LOCAL", 
-                    "LOCAL"
-                ], 
-                "title": [
-                    "Next question \ud83d\udcaa", 
-                    "Change subject \ud83d\udd00"
-                ]
-            }
-        }, 
-        "GET_STARTED": {
-            "get_started": {
-                "payload": "GET_INTRO_1"
-            }
-        }, 
-        "PERSISTENT_MENU": {
-            "persistent_menu": [
-                {
-                    "call_to_actions": [
-                        {
-                            "call_to_actions": [
-                                {
-                                    "payload": "SCIENCE", 
-                                    "title": "Science\ud83d\udd2c", 
-                                    "type": "postback"
-                                }, 
-                                {
-                                    "payload": "GRE", 
-                                    "title": "GRE \ud83d\udd20", 
-                                    "type": "postback"
-                                }, 
-                                {
-                                    "payload": "SAFETY", 
-                                    "title": "Safety\ud83d\udee0", 
-                                    "type": "postback"
-                                }, 
-                                {
-                                    "payload": "RANDOM", 
-                                    "title": "Random \ud83c\udfb2", 
-                                    "type": "postback"
-                                }
-                            ], 
-                            "title": "Change Subject \ud83d\udd00", 
-                            "type": "nested"
-                        }, 
-                        {
-                            "payload": "CHAT_WITH_ME", 
-                            "title": "Chat with Me \ud83d\udc27", 
-                            "type": "postback"
-                        }, 
-                        {
-                            "call_to_actions": [
-                                {
-                                    "payload": "REPORT_BUG", 
-                                    "title": "Report Bug \ud83d\udd27", 
-                                    "type": "postback"
-                                }, 
-                                {
-                                    "payload": "USER_MANUAL_1", 
-                                    "title": "User Manual \ud83d\udc69\ud83c\udffb\u200d\ud83d\udcbb\ud83d\udc68\ud83c\udffb\u200d\ud83d\udcbb", 
-                                    "type": "postback"
-                                }, 
-                                {
-                                    "payload": "ABOUT_QUIZBOT_1", 
-                                    "title": "About QuizBot \ud83d\udd16", 
-                                    "type": "postback"
-                                }, 
-                                {
-                                    "payload": "CONTACT", 
-                                    "title": "Contact \u260e\ufe0f", 
-                                    "type": "postback"
-                                }
-                            ], 
-                            "title": "More\ud83d\udccd", 
-                            "type": "nested"
-                        }
-                    ], 
-                    "composer_input_disabled": false, 
-                    "locale": "default"
-                }
-            ]
-        }, 
-        "QUESTION": {
-            "message_1": {
-                "source": "TEMPLATE", 
-                "text": "QUESTION"
-            }, 
-            "message_2": {
-                "source": "TEMPLATE", 
-                "text": "PLEASE_TYPE"
-            }, 
-            "quick_reply": {
-                "message": {
-                    "source": "LOCAL", 
-                    "text": "{}"
-                }, 
-                "payload": [
-                    "NEED_HINT", 
-                    "I_DONT_KNOW"
-                ], 
-                "source": [
-                    "LOCAL", 
-                    "LOCAL"
-                ], 
-                "title": [
-                    "I need a hint \ud83e\udd14", 
-                    "I don\u2019t know \ud83d\ude13"
-                ]
-            }
-        }, 
-        "REMINDER": {
-            "image": {
-                "image_url": [
-                    "https://www.smartprimer.org:{}/pictures/avatar/penguinnormal_happy.png"
-                ], 
-                "template_type": "image"
-            }, 
-            "quick_reply": {
-                "message": {
-                    "source": "LOCAL", 
-                    "text": "Hi {}, you haven't talked to me for a while. Would you like to resume the learning with me?"
-                }, 
-                "payload": [
-                    "NEXT_QUESTION"
-                ], 
-                "source": [
-                    "TEMPLATE"
-                ], 
-                "title": [
-                    "GOT_IT"
-                ]
-            }
-        }, 
-        "SAY_HI": {
-            "quick_reply": {
-                "message": {
-                    "source": "LOCAL", 
-                    "text": "Hi {}! My name is Frosty \ud83d\udc27 and I\u2019m here to help you learn all about science\ud83d\udd2c, verbal reasoning (GRE) \ud83d\udd20, and safety\ud83d\udee0!"
-                }, 
-                "payload": [
-                    "GET_INTRO_2"
-                ], 
-                "source": [
-                    "TEMPLATE"
-                ], 
-                "title": [
-                    "GOT_IT"
-                ]
-            }
-        }
-    }, 
-    "TEMPLATE": {
-        "ANOTHER_FUN_FACT_SCIENCE": [
-            "Another fun fact\ud83d\udca1", 
-            "One more fun fact\ud83d\udca1"
-        ], 
-        "ANOTHER_JOKE": [
-            "Another joke \ud83d\ude01", 
-            "One more joke \ud83d\ude01"
-        ], 
-        "ANSWER_CORRECT": [
-            "That\u2019s right! \ud83c\udf89", 
-            "Correct! \ud83c\udf8a", 
-            "Good job! \ud83d\ude4c\ud83c\udffc", 
-            "Nice! \ud83c\udf4e", 
-            "Good Answer! \u2705", 
-            "Fantastic! \ud83d\udcaf"
-        ], 
-        "ANSWER_NOT_CORRECT": [
-            "I'm sorry, but that was incorrect. \ud83d\ude1e", 
-            "That's not quite right. \ud83d\ude1e", 
-            "Oops, that answer was incorrect. \ud83d\ude1e", 
-            "That wasn't quite what we were looking for. \ud83d\ude1e"
-        ], 
-        "BUGREPORT": [
-            "Thanks for helping me to improve. I\u2019ll take a note of that. \ud83d\udc4d\ud83c\udffc", 
-            "Alrighty, thank you for your feedback. I'll take a note of that! \ud83d\udc4d\ud83c\udffc", 
-            "Thank you for your bug report. I'll take a look at that! \ud83d\udc4d\ud83c\udffc", 
-            "Thanks for the feedback! I'll take a note of that! \ud83d\udc4d\ud83c\udffc"
-        ], 
-        "BUGTYPE": [
-            "You can type in the bug in a few words \ud83d\ude04", 
-            "Okay, can you type in the bug in a few words \ud83d\ude04", 
-            "Okay, could you type in the bug in a few words \ud83d\ude04", 
-            "Okay, could you type in the problem \ud83d\ude04"
-        ], 
-        "CHAT_WITH_ME": [
-            "Do you want to hear some interesting things from me?", 
-            "I have something interesting for you! Do you want to hear them?", 
-            "Would you like me to tell you something interesting?", 
-            "Would you want me to tell you something interesting?", 
-            "Do you want me to tell you something fun?", 
-            "Great! I have something fun for you!"
-        ], 
-        "CHOOSE_SUBJECT": [
-            "Sure, which subject would you like me to quiz you on?\ud83d\udc47\ud83c\udffc", 
-            "Sure, which subject would you want to study?\ud83d\udc47\ud83c\udffc", 
-            "Okay, which subject would you like to choose?\ud83d\udc47\ud83c\udffc", 
-            "Sure, now tell me which subject you would like to choose.\ud83d\udc47\ud83c\udffc", 
-            "Okay, now tell me which subject you would like to study.\ud83d\udc47\ud83c\udffc", 
-            "OK, which of the following subjects would you like to study?\ud83d\udc47\ud83c\udffc", 
-            "Sure, which of the following subjects would you like me to quiz you on?\ud83d\udc47\ud83c\udffc", 
-            "Cool, which subject do you want to study?\ud83d\udc47\ud83c\udffc", 
-            "Cool, let's pick one of the following subjects?\ud83d\udc47\ud83c\udffc", 
-            "Cool, which subject would you like to study?\ud83d\udc47\ud83c\udffc"
-        ], 
-        "CONTINUE": [
-            "Great! Let's move on.", 
-            "Okay, let's continue.", 
-            "All right! Let's move on.", 
-            "Let's continue learning.", 
-            "Let's continue with the next question.", 
-            "Alrighty, let's continue learning.", 
-            "Good! Let's move on.", 
-            "Great! Let's resume learning.", 
-            "Great! Let's resume learning.", 
-            "Cool! Let's keep going."
-        ], 
-        "CORRECT_HINT": [
-            "Yes! You got the correct answer!", 
-            "Great! Keep it up! \ud83d\udcaa\ud83c\udffc", 
-            "Nice! That was right!", 
-            "Great job!", 
-            "Nice work! Keep it up!", 
-            "Great job getting the correct answer!"
-        ], 
-        "DKB": [
-            "I'm sorry, but that was incorrect. \ud83d\ude1e", 
-            "That's not quite right. \ud83d\ude1e", 
-            "Oops, that wasn't quite correct. \ud83d\ude1e", 
-            "Hmm, that wasn't quite right. \ud83d\ude1e", 
-            "Oops, that is not correct. \ud83d\ude1e"
-        ], 
-        "ENCOURAGE": [
-            "Keep up the good work!", 
-            "Keep it up!", 
-            "Nice job! Keep going!", 
-            "Great job! Keep going!", 
-            "Good job! Keep up the good work!"
-        ], 
-        "ENCOURAGE_NO_GIVEUP": [
-            "Okay! Let's try again \ud83d\udcaa\ud83c\udffc", 
-            "Sure, let's try this again!", 
-            "Try again!", 
-            "Alright! Let's do it again!", 
-            "Don't give up!", 
-            "Okay! Let's give it a try again \ud83d\udcaa\ud83c\udffc"
-        ], 
-        "ENCOURAGE_YES_GIVEUP": [
-            "That's okay, you'll get it next time! \ud83d\ude04", 
-            "Keep trying, you'll get it next time! \ud83d\ude04", 
-            "Don't give up, you'll get it next time! \ud83d\ude04", 
-            "That's fine, you'll nail it next time! \ud83d\ude04", 
-            "No worries! You'll get it next time! \ud83d\ude04"
-        ], 
-        "EXPLANATION": [
-            "Here's an explanation:", 
-            "This is why:", 
-            "This is an explanation of the question:", 
-            "I hope this explanation could help you understand the the question.", 
-            "Here's why:"
-        ], 
-        "FUN_FACT_SCIENCE": [
-            "Female sharks have thicker skins than males.", 
-            "The ocean is 8 Empire State Buildings deep on average.", 
-            "There are 206 bones in the adult human body and there are 300 in children (as they grow some of the bones fuse together).", 
-            "The water is stored in the camel's bloodstream, rather than being stored in its fatty hump, which serves as a source of nourishment when food is scarce.", 
-            "The male platypus has a venomous spur on its hind foot capable of dispensing a poison that can kill a medium-sized dog.", 
-            "Water can boil and freeze at the same time.", 
-            "Lasers can get trapped in a waterfall.", 
-            "Flea's can jump 130 times higher than their own height. In human terms this is equal to a 6ft. person jumping 780 ft. into the air.", 
-            "The most dangerous animal in the world is the common housefly. Because of their habits of visiting animal waste, they transmit more diseases than any other animal.", 
-            "Snakes are true carnivorous because they eat nothing but other animals. They do not eat any type of plant material.", 
-            "The world's largest amphibian is the giant salamander. It can grow up to 5 ft. in length.", 
-            "In 100 years ago, the first virus was found in both plants and animals.", 
-            "In 90 years ago, the Grand Canyon became a national monument & Cellophane is invented.", 
-            "The smallest bone in the human body is the stapes or stirrup bone located in the middle ear. It is approximately .11 inches (.28 cm) long.", 
-            "The longest cells in the human body are the motor neurons. They can be up to 4.5 feet (1.37 meters) long and run from the lower spinal cord to the big toe.", 
-            "The blue whale can produce sounds up to 188 decibels. This is the loudest sound produced by a living animal and has been detected as far away as 530 miles.", 
-            "The largest man-made lake in the U.S. is Lake Mead, created by Hoover Dam.", 
-            "The poison arrow frogs of South and Central America are the most poisonous animals in the world.", 
-            "A new born blue whale measures 20-26 feet (6.0 - 7.9 meters) long and weighs up to 6,614 pounds (3003 kg).", 
-            "The first coast-to-coast telephone line was established in 1914.", 
-            "The Stegosaurus dinosaur measured up to 30 feet (9.1 meters) long but had a brain the size of a walnut.", 
-            "The human eye blinks an average of 4,200,000 times a year.", 
-            "It takes approximately 12 hours for food to entirely digest.", 
-            "Human jaw muscles can generate a force of 200 pounds (90.8 kilograms) on the molars.", 
-            "An inch (2.5 centimeters) of rain water is equivalent to 15 inches (38.1 centimeters) of dry, powdery snow.", 
-            "40 to 50 percent of body heat can be lost through the head (no hat) as a result of its extensive circulatory network.", 
-            "The longest living cells in the body are brain cells which can live an entire lifetime.", 
-            "The ears of a cricket are located on the front legs, just below the knee.", 
-            "The hottest planet in the solar system is Venus, with an estimated surface temperature of 864 F (462 C).", 
-            "The cosmos contains approximately 50,000,000,000 galaxies.", 
-            "According to an old English system of time units, a moment is one and a half minutes.", 
-            "The typewriter was invented in 1829, and the automatic dishwasher in 1889.", 
-            "When glass breaks, the cracks move at speeds of up to 3,000 miles per hour.", 
-            "By raising your legs slowly and laying on your back, you can't sink in quicksand.", 
-            "Ten minutes of one hurricane contains enough energy to match the nuclear stockpiles of the world.", 
-            "Diamonds are the hardest substance known to man.", 
-            "There is a high and low tide because of our moon and the Sun.", 
-            "If you could drive to the sun -- at 55 miles per hour -- it would take about 193 years.", 
-            "Hawaii is moving toward Japan 4 inches every year.", 
-            "Sunlight can penetrate clean ocean water to a depth of 240 feet.", 
-            "Shrimp's hearts are in their heads.", 
-            "It's impossible to sneeze with your eyes open.", 
-            "A cat's jaws cannot move sideways.", 
-            "Tigers have striped skin, not just striped fur."
-        ], 
-        "GIVE_FUN_FACT_SCIENCE": [
-            "Here is a fun fact for you.", 
-            "Here is a good one.", 
-            "Here's one I thought might be interesting.", 
-            "Here's one I thought might be fun.", 
-            "Here is an interesting one."
-        ], 
-        "GIVE_JOKE": [
-            "Here is an interesting one for you.", 
-            "Here is a good one.", 
-            "Here's one I thought might be interesting.", 
-            "Here's one I thought might be funny.", 
-            "Here is an interesting one:"
-        ], 
-        "GOOD_JOB_GRE": [
-            "You've done a very good job in GRE! Congrats!", 
-            "You are becoming a master in GRE!", 
-            "Wow! You seem to getting a lot of GRE questions."
-        ], 
-        "GOOD_JOB_SAFETY": [
-            "You've done a very good job in safety! Congrats!", 
-            "You are becoming a master in safety!", 
-            "Wow! You seem to know a lot about safety."
-        ], 
-        "GOOD_JOB_SCIENCE": [
-            "You've done a very good job in science! Congrats!", 
-            "You are becoming a master in science!", 
-            "Wow! You seem to know a lot about safety."
-        ], 
-        "GOT_IT": [
-            "Got it \ud83d\udca1", 
-            "Got it \ud83d\udc4a\ud83c\udffc", 
-            "Got it \ud83d\udcaa\ud83c\udffc", 
-            "Got it \ud83d\udccd", 
-            "Got it \ud83d\udc49\ud83c\udffc", 
-            "Got it \u2705", 
-            "Got it \ud83d\ude4c\ud83c\udffc", 
-            "Got it \ud83d\udca5", 
-            "Got it \ud83d\udc4d\ud83c\udffc", 
-            "Got it \ud83d\udc4f\ud83c\udffc", 
-            "Got it \u2714\ufe0f", 
-            "Sure \ud83d\udca1", 
-            "Sure \ud83d\udc4a\ud83c\udffc", 
-            "Sure \ud83d\udcaa\ud83c\udffc", 
-            "Sure \ud83d\udccd", 
-            "Sure \ud83d\udc49\ud83c\udffc", 
-            "Sure \u2705", 
-            "Sure \ud83d\ude4c\ud83c\udffc", 
-            "Sure \ud83d\udca5", 
-            "Sure \ud83d\udc4d\ud83c\udffc", 
-            "Sure \ud83d\udc4f\ud83c\udffc", 
-            "Sure \u2714\ufe0f", 
-            "Tap me \ud83d\udca1", 
-            "Tap me \ud83d\udc47\ud83c\udffc", 
-            "Tap me \ud83d\udc4a\ud83c\udffc", 
-            "Tap me \ud83d\udcaa\ud83c\udffc", 
-            "Tap me \ud83d\udccd", 
-            "Tap me \ud83d\udc49\ud83c\udffc", 
-            "Tap me \u2705", 
-            "Tap me \ud83d\ude4c\ud83c\udffc", 
-            "Tap me \ud83d\udca5", 
-            "Tap me \ud83d\udc4d\ud83c\udffc", 
-            "Tap me \ud83d\udc4f\ud83c\udffc", 
-            "Tap me \u2714\ufe0f", 
-            "Yes, continue \u25b6\ufe0f", 
-            "Yes, continue \u27a1\ufe0f", 
-            "Yes, continue \ud83d\udca1", 
-            "Yes, continue \ud83d\udc4a\ud83c\udffc", 
-            "Yes, continue \ud83d\udcaa\ud83c\udffc", 
-            "Yes, continue \ud83d\udccd", 
-            "Yes, continue \ud83d\udc49\ud83c\udffc", 
-            "Yes, continue \u2705", 
-            "Yes, continue \ud83d\ude4c\ud83c\udffc", 
-            "Yes, continue \ud83d\udca5", 
-            "Yes, continue \ud83d\udc4d\ud83c\udffc", 
-            "Yes, continue \ud83d\udc4f\ud83c\udffc", 
-            "Yes, continue \u2714\ufe0f", 
-            "Continue \u25b6\ufe0f", 
-            "Continue \u27a1\ufe0f", 
-            "Continue \ud83d\udca1", 
-            "Continue \ud83d\udc4a\ud83c\udffc", 
-            "Continue \ud83d\udcaa\ud83c\udffc", 
-            "Continue \ud83d\udccd", 
-            "Continue \ud83d\udc49\ud83c\udffc", 
-            "Continue \u2705", 
-            "Continue \ud83d\ude4c\ud83c\udffc", 
-            "Continue \ud83d\udca5", 
-            "Continue \ud83d\udc4d\ud83c\udffc", 
-            "Continue \ud83d\udc4f\ud83c\udffc", 
-            "Continue \u2714\ufe0f", 
-            "Next \u25b6\ufe0f", 
-            "Next \u27a1\ufe0f", 
-            "Next \ud83d\udca1", 
-            "Next \ud83d\udc4a\ud83c\udffc", 
-            "Next \ud83d\udcaa\ud83c\udffc", 
-            "Next \ud83d\udccd", 
-            "Next \ud83d\udc49\ud83c\udffc", 
-            "Next \u2705", 
-            "Next \ud83d\ude4c\ud83c\udffc", 
-            "Next \ud83d\udca5", 
-            "Next \ud83d\udc4d\ud83c\udffc", 
-            "Next \ud83d\udc4f\ud83c\udffc", 
-            "Next \u2714\ufe0f", 
-            "Alrighty \ud83d\udca1", 
-            "Alrighty \ud83d\udc4a\ud83c\udffc", 
-            "Alrighty \ud83d\udcaa\ud83c\udffc", 
-            "Alrighty \ud83d\udccd", 
-            "Alrighty \ud83d\udc49\ud83c\udffc", 
-            "Alrighty \u2705", 
-            "Alrighty \ud83d\ude4c\ud83c\udffc", 
-            "Alrighty \ud83d\udca5", 
-            "Alrighty \ud83d\udc4d\ud83c\udffc", 
-            "Alrighty \ud83d\udc4f\ud83c\udffc", 
-            "Alrighty \u2714\ufe0f", 
-            "Alright \ud83d\udca1", 
-            "Alright \ud83d\udc4a\ud83c\udffc", 
-            "Alright \ud83d\udcaa\ud83c\udffc", 
-            "Alright \ud83d\udccd", 
-            "Alright \ud83d\udc49\ud83c\udffc", 
-            "Alright \u2705", 
-            "Alright \ud83d\ude4c\ud83c\udffc", 
-            "Alright \ud83d\udca5", 
-            "Alright \ud83d\udc4d\ud83c\udffc", 
-            "Alright \ud83d\udc4f\ud83c\udffc", 
-            "Alright \u2714\ufe0f", 
-            "Okay \ud83d\udca1", 
-            "Okay \ud83d\udc4a\ud83c\udffc", 
-            "Okay \ud83d\udcaa\ud83c\udffc", 
-            "Okay \ud83d\udccd", 
-            "Okay \ud83d\udc49\ud83c\udffc", 
-            "Okay \u2705", 
-            "Okay \ud83d\ude4c\ud83c\udffc", 
-            "Okay \ud83d\udca5", 
-            "Okay \ud83d\udc4d\ud83c\udffc", 
-            "Okay \ud83d\udc4f\ud83c\udffc", 
-            "Okay \u2714\ufe0f", 
-            "OK \ud83d\udca1", 
-            "OK \ud83d\udc4a\ud83c\udffc", 
-            "OK \ud83d\udcaa\ud83c\udffc", 
-            "OK \ud83d\udccd", 
-            "OK \ud83d\udc49\ud83c\udffc", 
-            "OK \u2705", 
-            "OK \ud83d\ude4c\ud83c\udffc", 
-            "OK \ud83d\udca5", 
-            "OK \ud83d\udc4d\ud83c\udffc", 
-            "OK \ud83d\udc4f\ud83c\udffc", 
-            "OK \u2714\ufe0f", 
-            "I see \ud83d\udca1", 
-            "I see \ud83d\udc4a\ud83c\udffc", 
-            "I see \ud83d\udcaa\ud83c\udffc", 
-            "I see \ud83d\udccd", 
-            "I see \ud83d\udc49\ud83c\udffc", 
-            "I see \u2705", 
-            "I see \ud83d\ude4c\ud83c\udffc", 
-            "I see \ud83d\udca5", 
-            "I see \ud83d\udc4d\ud83c\udffc", 
-            "I see \ud83d\udc4f\ud83c\udffc", 
-            "I see \u2714\ufe0f"
-        ], 
-        "GRE": [
-            "All right! I\u2019ll quiz you on GRE!", 
-            "Okay! Let\u2019s see how much you know about GRE!", 
-            "Cool! Here's some questions on the GRE!", 
-            "Let's answer some questions about the GRE!", 
-            "Let's test your knowledge on the GRE!", 
-            "Awesome! Let's learn about the GRE!"
-        ], 
-        "IF_GIVE_UP": [
-            "Are you sure you want to give up?", 
-            "Do you really want to give up?", 
-            "Are you sure you want to skip answering?", 
-            "Are you sure you want to skip this question?", 
-            "Do you really want to skip this question?"
-        ], 
-        "IF_JOKE": [
-            "Do you want to hear a joke from me?", 
-            "I have some jokes for you! Do you want to hear them?", 
-            "Would you like me to tell you a joke?", 
-            "Would you want me to tell you a joke?", 
-            "Do you want me to tell you a joke?", 
-            "Great! I have some jokes for you! Are you interested?"
-        ], 
-        "JOKE": [
-            "Q. How do you make the number one disappear? A. Add the letter G and then presto\u2014it\u2019s Gone!", 
-            "Q. I\u2019m an odd number. If you take away one of the letters in my name, I become even. What number am I? A. Seven. (Take away the S!)", 
-            "Q. How many cats can you put in an empty box? A. One. After that, the box isn\u2019t empty anymore.", 
-            "Q. What starts with \u201ce,\u201d ends with \u201ce,\u201d and contains one letter? A. An envelope.", 
-            "Q. What has one head, one foot, and four legs? A. A bed.", 
-            "Q: What kind of coat is always wet when you put it on? A: A coat of paint.", 
-            "Q: Why was the chef embarrassed? A: Because he saw the salad dressing!", 
-            "Q: Where is the ocean the deepest? A: On the bottom!", 
-            "Q: Which is the most curious letter? A: Y?", 
-            "Q: What did zero say to eight? A: Nice belt.", 
-            "Q: What starts with a P, ends with an E, and has thousands of letters? A: The Post Office!", 
-            "Q: What five-letter word becomes shorter when you add two letters to it? A: Short!", 
-            "Q: When do you go at red and stop at green? A: When you\u2019re eating a watermelon.", 
-            "Q: Why do watermelons have fancy weddings? A: Because they cantaloupe.", 
-            "Q: How does a hurricane see? A: With its eye.", 
-            "Q: What did the cat say when the mouse got away? A: You\u2019ve got to be kitten me!", 
-            "Q. What lies at the bottom of the ocean and twitches? A. A nervous wreck.", 
-            "What is the musical part of a snake? The scales.", 
-            "Which composer likes tea the most? Chai-kovsky.", 
-            "C, E-flat, and G walk into a bar. The bartender shows them the door and says, \u201cSorry, we don\u2019t serve minors.\u201d", 
-            "What was Beethoven\u2019s favorite fruit? BA-NA-NA-NAAAAAA.", 
-            "Q. What do you call a fake noodle? A. An impasta.", 
-            "Q: Why did the dieter go to the paint store? A: He wanted to get thinner.", 
-            "Q: What do you get when you play Tug-of-War with a pig? A: Pulled-Pork.", 
-            "Q: What are hot dogs called in winter? A: Chilly dogs", 
-            "Q: What do chemists\u2019 dogs do with their bones? A: They barium!", 
-            "Q: Why don\u2019t cats play poker in the jungle? A: There are too many cheetahs.", 
-            "What did Beethoven say to Johann Sebastian when he was helping him parallel park? \u201cBach it up.\u201d"
-        ], 
-        "NEED_HINT": [
-            "Okay. Which of these is the right answer?\ud83d\udc47\ud83c\udffc", 
-            "Which of the following options is the right answer?", 
-            "Alrighty, which of the following options is the answer of the question?", 
-            "Okay. I'll give you some choices.", 
-            "It's one of the following choices.", 
-            "Pick one of the following answers."
-        ], 
-        "NO_POINT": [
-            "You didn't get this question this time.", 
-            "You didn't get it right this time.", 
-            "I'm sorry, you didn't get the question right this time."
-        ], 
-        "PLEASE_TYPE": [
-            "If you know the answer, you can type it in and I'll help you to evaluate the answer \ud83d\ude0a", 
-            "Please type your answer in if you know it \ud83d\ude0a", 
-            "Remember that you can always type in you answer and I'll help you to evaluate it \ud83d\ude0a"
-        ], 
-        "QUESTION": [
-            "Here's a question for you:", 
-            "Let's try this one.", 
-            "Could you answer this one for me?", 
-            "Let's see if you can get this one.", 
-            "Let's try this question.", 
-            "Would you answer this question for me?", 
-            "I think you'll like this question.", 
-            "Let's take a look at this question.", 
-            "Let's see if you can answer this question.", 
-            "Let's see if you would answer this one.", 
-            "How about this next one:", 
-            "What about this next question:", 
-            "Alrighty, let's try this one.", 
-            "See if you can answer this next one."
-        ], 
-        "RANDOM": [
-            "Okay! Let\u2019s mix it up! \ud83c\udfb2", 
-            "All right! A little bit of everything! \ud83c\udfb2", 
-            "I see you! Let's leave it up to chance! \ud83c\udfb2", 
-            "Cool! Let's learn everything! \ud83c\udfb2", 
-            "Let's answer some questions about everything! \ud83c\udfb2", 
-            "Let's quiz you on a little bit of everything! \ud83c\udfb2", 
-            "Nice! Enjoy a little variety? Let's answer some questions! \ud83c\udfb2"
-        ], 
-        "RESUME_LEARNING": [
-            "Resume learning \ud83d\udcaa\ud83c\udffc", 
-            "Continue learning \ud83d\udcaa\ud83c\udffc", 
-            "Another question \ud83d\udcaa\ud83c\udffc"
-        ], 
-        "SAFETY": [
-            "All right! I\u2019ll quiz you on safety!", 
-            "Okay! Let\u2019s see how much you know about safety!", 
-            "Safety first! Here's some questions on safety!", 
-            "Let's answer some questions about safety!", 
-            "Let's test your knowledge on safety!", 
-            "Good choice! Let's see what you know about safety!", 
-            "Awesome! Let's learn about safety!"
-        ], 
-        "SCIENCE": [
-            "All right! I\u2019ll quiz you on science!", 
-            "Okay! Let\u2019s see how much you know about science!", 
-            "Science rules! Let's see what you know.", 
-            "Awesome! Here are some questions on science!", 
-            "Let's answer some questions about science!", 
-            "Let's test your knowledge on science!", 
-            "Awesome! Let's learn about science!"
-        ], 
-        "SOUNDS_INTERESTING": [
-            "That sounds interesting, but I haven't learned about this yet. I'll learn more languages in the future.", 
-            "Sorry but I haven't learned about this yet. I'll learn more languages in the future.", 
-            "Oh hey, I haven't learned this language yet. Maybe I'll learn languages from you in the future.", 
-            "That sounds cool. I need to learn more languages to keep up with the conversation with you. Maybe you can teach me languages in the future!", 
-            "Haha I haven't learned about this yet. You can teach me some languages later!", 
-            "I'm not sure what this is. I'm still learning languages and you might be my teacher in the future!"
-        ], 
-        "SUBJECT": [
-            "SCIENCE", 
-            "GRE", 
-            "SAFETY"
+  "TEMPLATE": {
+    "GOT_IT": [
+      "Got it 💡",
+      "Got it 👊🏼",
+      "Got it 💪🏼",
+      "Got it 📍",
+      "Got it 👉🏼",
+      "Got it ✅",
+      "Got it 🙌🏼",
+      "Got it 💥",
+      "Got it 👍🏼",
+      "Got it 👏🏼",
+      "Got it ✔️",
+      "Sure 💡",
+      "Sure 👊🏼",
+      "Sure 💪🏼",
+      "Sure 📍",
+      "Sure 👉🏼",
+      "Sure ✅",
+      "Sure 🙌🏼",
+      "Sure 💥",
+      "Sure 👍🏼",
+      "Sure 👏🏼",
+      "Sure ✔️",
+      "Tap me 💡",
+      "Tap me 👇🏼",
+      "Tap me 👊🏼",
+      "Tap me 💪🏼",
+      "Tap me 📍",
+      "Tap me 👉🏼",
+      "Tap me ✅",
+      "Tap me 🙌🏼",
+      "Tap me 💥",
+      "Tap me 👍🏼",
+      "Tap me 👏🏼",
+      "Tap me ✔️",
+      "Yes, continue ▶️",
+      "Yes, continue ➡️",
+      "Yes, continue 💡",
+      "Yes, continue 👊🏼",
+      "Yes, continue 💪🏼",
+      "Yes, continue 📍",
+      "Yes, continue 👉🏼",
+      "Yes, continue ✅",
+      "Yes, continue 🙌🏼",
+      "Yes, continue 💥",
+      "Yes, continue 👍🏼",
+      "Yes, continue 👏🏼",
+      "Yes, continue ✔️",
+      "Continue ▶️",
+      "Continue ➡️",
+      "Continue 💡",
+      "Continue 👊🏼",
+      "Continue 💪🏼",
+      "Continue 📍",
+      "Continue 👉🏼",
+      "Continue ✅",
+      "Continue 🙌🏼",
+      "Continue 💥",
+      "Continue 👍🏼",
+      "Continue 👏🏼",
+      "Continue ✔️",
+      "Next ▶️",
+      "Next ➡️",
+      "Next 💡",
+      "Next 👊🏼",
+      "Next 💪🏼",
+      "Next 📍",
+      "Next 👉🏼",
+      "Next ✅",
+      "Next 🙌🏼",
+      "Next 💥",
+      "Next 👍🏼",
+      "Next 👏🏼",
+      "Next ✔️",
+      "Alrighty 💡",
+      "Alrighty 👊🏼",
+      "Alrighty 💪🏼",
+      "Alrighty 📍",
+      "Alrighty 👉🏼",
+      "Alrighty ✅",
+      "Alrighty 🙌🏼",
+      "Alrighty 💥",
+      "Alrighty 👍🏼",
+      "Alrighty 👏🏼",
+      "Alrighty ✔️",
+      "Alright 💡",
+      "Alright 👊🏼",
+      "Alright 💪🏼",
+      "Alright 📍",
+      "Alright 👉🏼",
+      "Alright ✅",
+      "Alright 🙌🏼",
+      "Alright 💥",
+      "Alright 👍🏼",
+      "Alright 👏🏼",
+      "Alright ✔️",
+      "Okay 💡",
+      "Okay 👊🏼",
+      "Okay 💪🏼",
+      "Okay 📍",
+      "Okay 👉🏼",
+      "Okay ✅",
+      "Okay 🙌🏼",
+      "Okay 💥",
+      "Okay 👍🏼",
+      "Okay 👏🏼",
+      "Okay ✔️",
+      "OK 💡",
+      "OK 👊🏼",
+      "OK 💪🏼",
+      "OK 📍",
+      "OK 👉🏼",
+      "OK ✅",
+      "OK 🙌🏼",
+      "OK 💥",
+      "OK 👍🏼",
+      "OK 👏🏼",
+      "OK ✔️",
+      "I see 💡",
+      "I see 👊🏼",
+      "I see 💪🏼",
+      "I see 📍",
+      "I see 👉🏼",
+      "I see ✅",
+      "I see 🙌🏼",
+      "I see 💥",
+      "I see 👍🏼",
+      "I see 👏🏼",
+      "I see ✔️"
+    ],
+    "ANOTHER_JOKE": [
+      "Another joke 😁",
+      "One more joke 😁"
+    ],
+    "ANOTHER_FUN_FACT_SCIENCE": [
+      "Another fun fact💡",
+      "One more fun fact💡"
+    ],
+    "RESUME_LEARNING": [
+      "Resume learning 💪🏼",
+      "Continue learning 💪🏼",
+      "Another question 💪🏼"
+    ],
+    "PLEASE_TYPE": [
+      "If you know the answer, you can type it in and I'll help you to evaluate the answer 😊",
+      "Please type your answer in if you know it 😊",
+      "Remember that you can always type in you answer and I'll help you to evaluate it 😊"
+    ],
+    "QUESTION": [
+      "Here's a question for you:",
+      "Let's try this one.",
+      "Could you answer this one for me?",
+      "Let's see if you can get this one.",
+      "Let's try this question.",
+      "Would you answer this question for me?",
+      "I think you'll like this question.",
+      "Let's take a look at this question.",
+      "Let's see if you can answer this question.",
+      "Let's see if you would answer this one.",
+      "How about this next one:",
+      "What about this next question:",
+      "Alrighty, let's try this one.",
+      "See if you can answer this next one."
+    ],
+    "CHOOSE_SUBJECT": [
+      "Sure, which subject would you like me to quiz you on?👇🏼",
+      "Sure, which subject would you want to study?👇🏼",
+      "Okay, which subject would you like to choose?👇🏼",
+      "Sure, now tell me which subject you would like to choose.👇🏼",
+      "Okay, now tell me which subject you would like to study.👇🏼",
+      "OK, which of the following subjects would you like to study?👇🏼",
+      "Sure, which of the following subjects would you like me to quiz you on?👇🏼",
+      "Cool, which subject do you want to study?👇🏼",
+      "Cool, let's pick one of the following subjects?👇🏼",
+      "Cool, which subject would you like to study?👇🏼"
+    ],
+    "EXPLANATION": [
+      "Here's an explanation:",
+      "This is why:",
+      "This is an explanation of the question:",
+      "I hope this explanation could help you understand the the question.",
+      "Here's why:"
+    ],
+    "BUGREPORT": [
+      "Thanks for helping me to improve. I’ll take a note of that. 👍🏼",
+      "Alrighty, thank you for your feedback. I'll take a note of that! 👍🏼",
+      "Thank you for your bug report. I'll take a look at that! 👍🏼",
+      "Thanks for the feedback! I'll take a note of that! 👍🏼"
+    ],
+    "BUGTYPE": [
+      "You can type in the bug in a few words 😄",
+      "Okay, can you type in the bug in a few words 😄",
+      "Okay, could you type in the bug in a few words 😄",
+      "Okay, could you type in the problem 😄"
+    ],
+    "CONTINUE": [
+      "Great! Let's move on.",
+      "Okay, let's continue.",
+      "All right! Let's move on.",
+      "Let's continue learning.",
+      "Let's continue with the next question.",
+      "Alrighty, let's continue learning.",
+      "Good! Let's move on.",
+      "Great! Let's resume learning.",
+      "Great! Let's resume learning.",
+      "Cool! Let's keep going."
+    ],
+    "ANSWER_NOT_CORRECT": [
+      "I'm sorry, but that was incorrect. 😞",
+      "That's not quite right. 😞",
+      "Oops, that answer was incorrect. 😞",
+      "That wasn't quite what we were looking for. 😞"
+    ],
+    "ANSWER_CORRECT": [
+      "That’s right! 🎉",
+      "Correct! 🎊",
+      "Good job! 🙌🏼",
+      "Nice! 🍎",
+      "Good Answer! ✅",
+      "Fantastic! 💯"
+    ],
+    "SUBJECT": [
+      "SCIENCE",
+      "GRE",
+      "SAFETY"
+    ],
+    "SCIENCE": [
+      "All right! I’ll quiz you on science!",
+      "Okay! Let’s see how much you know about science!",
+      "Science rules! Let's see what you know.",
+      "Awesome! Here are some questions on science!",
+      "Let's answer some questions about science!",
+      "Let's test your knowledge on science!",
+      "Awesome! Let's learn about science!"
+    ],
+    "GRE": [
+      "All right! I’ll quiz you on GRE!",
+      "Okay! Let’s see how much you know about GRE!",
+      "Cool! Here's some questions on the GRE!",
+      "Let's answer some questions about the GRE!",
+      "Let's test your knowledge on the GRE!",
+      "Awesome! Let's learn about the GRE!"
+    ],
+    "SAFETY": [
+      "All right! I’ll quiz you on safety!",
+      "Okay! Let’s see how much you know about safety!",
+      "Safety first! Here's some questions on safety!",
+      "Let's answer some questions about safety!",
+      "Let's test your knowledge on safety!",
+      "Good choice! Let's see what you know about safety!",
+      "Awesome! Let's learn about safety!"
+    ],
+    "GOOD_JOB_SCIENCE": [
+      "You've done a very good job in science! Congrats!",
+      "You are becoming a master in science!",
+      "Wow! You seem to know a lot about safety."
+    ],
+    "GOOD_JOB_SAFETY": [
+      "You've done a very good job in safety! Congrats!",
+      "You are becoming a master in safety!",
+      "Wow! You seem to know a lot about safety."
+    ],
+    "GOOD_JOB_GRE": [
+      "You've done a very good job in GRE! Congrats!",
+      "You are becoming a master in GRE!",
+      "Wow! You seem to getting a lot of GRE questions."
+    ],
+    "RANDOM": [
+      "Okay! Let’s mix it up! 🎲",
+      "All right! A little bit of everything! 🎲",
+      "I see you! Let's leave it up to chance! 🎲",
+      "Cool! Let's learn everything! 🎲",
+      "Let's answer some questions about everything! 🎲",
+      "Let's quiz you on a little bit of everything! 🎲",
+      "Nice! Enjoy a little variety? Let's answer some questions! 🎲"
+    ],
+    "NO_POINT": [
+      "You didn't get this question this time.",
+      "You didn't get it right this time.",
+      "I'm sorry, you didn't get the question right this time."
+    ],
+    "NEED_HINT": [
+      "Okay. Which of these is the right answer?👇🏼",
+      "Which of the following options is the right answer?",
+      "Alrighty, which of the following options is the answer of the question?",
+      "Okay. I'll give you some choices.",
+      "It's one of the following choices.",
+      "Pick one of the following answers."
+    ],
+    "ENCOURAGE_YES_GIVEUP": [
+      "That's okay, you'll get it next time! 😄",
+      "Keep trying, you'll get it next time! 😄",
+      "Don't give up, you'll get it next time! 😄",
+      "That's fine, you'll nail it next time! 😄",
+      "No worries! You'll get it next time! 😄"
+    ],
+    "ENCOURAGE_NO_GIVEUP": [
+      "Okay! Let's try again 💪🏼",
+      "Sure, let's try this again!",
+      "Try again!",
+      "Alright! Let's do it again!",
+      "Don't give up!",
+      "Okay! Let's give it a try again 💪🏼"
+    ],
+    "ENCOURAGE": [
+      "Keep up the good work!",
+      "Keep it up!",
+      "Nice job! Keep going!",
+      "Great job! Keep going!",
+      "Good job! Keep up the good work!"
+    ],
+    "DKB": [
+      "I'm sorry, but that was incorrect. 😞",
+      "That's not quite right. 😞",
+      "Oops, that wasn't quite correct. 😞",
+      "Hmm, that wasn't quite right. 😞",
+      "Oops, that is not correct. 😞"
+    ],
+    "CORRECT_HINT": [
+      "Yes! You got the correct answer!",
+      "Great! Keep it up! 💪🏼",
+      "Nice! That was right!",
+      "Great job!",
+      "Nice work! Keep it up!",
+      "Great job getting the correct answer!"
+    ],
+    "CHAT_WITH_ME": [
+      "Do you want to hear some interesting things from me?",
+      "I have something interesting for you! Do you want to hear them?",
+      "Would you like me to tell you something interesting?",
+      "Would you want me to tell you something interesting?",
+      "Do you want me to tell you something fun?",
+      "Great! I have something fun for you!"
+    ],
+    "IF_JOKE": [
+      "Do you want to hear a joke from me?",
+      "I have some jokes for you! Do you want to hear them?",
+      "Would you like me to tell you a joke?",
+      "Would you want me to tell you a joke?",
+      "Do you want me to tell you a joke?",
+      "Great! I have some jokes for you! Are you interested?"
+    ],
+    "GIVE_JOKE": [
+      "Here is an interesting one for you.",
+      "Here is a good one.",
+      "Here's one I thought might be interesting.",
+      "Here's one I thought might be funny.",
+      "Here is an interesting one:"
+    ],
+    "GIVE_FUN_FACT_SCIENCE": [
+      "Here is a fun fact for you.",
+      "Here is a good one.",
+      "Here's one I thought might be interesting.",
+      "Here's one I thought might be fun.",
+      "Here is an interesting one."
+    ],
+    "IF_GIVE_UP": [
+      "Are you sure you want to give up?",
+      "Do you really want to give up?",
+      "Are you sure you want to skip answering?",
+      "Are you sure you want to skip this question?",
+      "Do you really want to skip this question?"
+    ],
+    "SOUNDS_INTERESTING": [
+      "That sounds interesting, but I haven't learned about this yet. I'll learn more languages in the future.",
+      "Sorry but I haven't learned about this yet. I'll learn more languages in the future.",
+      "Oh hey, I haven't learned this language yet. Maybe I'll learn languages from you in the future.",
+      "That sounds cool. I need to learn more languages to keep up with the conversation with you. Maybe you can teach me languages in the future!",
+      "Haha I haven't learned about this yet. You can teach me some languages later!",
+      "I'm not sure what this is. I'm still learning languages and you might be my teacher in the future!"
+    ],
+    "JOKE": [
+      "Q. How do you make the number one disappear? A. Add the letter G and then presto—it’s Gone!",
+      "Q. I’m an odd number. If you take away one of the letters in my name, I become even. What number am I? A. Seven. (Take away the S!)",
+      "Q. How many cats can you put in an empty box? A. One. After that, the box isn’t empty anymore.",
+      "Q. What starts with “e,” ends with “e,” and contains one letter? A. An envelope.",
+      "Q. What has one head, one foot, and four legs? A. A bed.",
+      "Q: What kind of coat is always wet when you put it on? A: A coat of paint.",
+      "Q: Why was the chef embarrassed? A: Because he saw the salad dressing!",
+      "Q: Where is the ocean the deepest? A: On the bottom!",
+      "Q: Which is the most curious letter? A: Y?",
+      "Q: What did zero say to eight? A: Nice belt.",
+      "Q: What starts with a P, ends with an E, and has thousands of letters? A: The Post Office!",
+      "Q: What five-letter word becomes shorter when you add two letters to it? A: Short!",
+      "Q: When do you go at red and stop at green? A: When you’re eating a watermelon.",
+      "Q: Why do watermelons have fancy weddings? A: Because they cantaloupe.",
+      "Q: How does a hurricane see? A: With its eye.",
+      "Q: What did the cat say when the mouse got away? A: You’ve got to be kitten me!",
+      "Q. What lies at the bottom of the ocean and twitches? A. A nervous wreck.",
+      "What is the musical part of a snake? The scales.",
+      "Which composer likes tea the most? Chai-kovsky.",
+      "C, E-flat, and G walk into a bar. The bartender shows them the door and says, “Sorry, we don’t serve minors.”",
+      "What was Beethoven’s favorite fruit? BA-NA-NA-NAAAAAA.",
+      "Q. What do you call a fake noodle? A. An impasta.",
+      "Q: Why did the dieter go to the paint store? A: He wanted to get thinner.",
+      "Q: What do you get when you play Tug-of-War with a pig? A: Pulled-Pork.",
+      "Q: What are hot dogs called in winter? A: Chilly dogs",
+      "Q: What do chemists’ dogs do with their bones? A: They barium!",
+      "Q: Why don’t cats play poker in the jungle? A: There are too many cheetahs.",
+      "What did Beethoven say to Johann Sebastian when he was helping him parallel park? “Bach it up.”"
+    ],
+    "FUN_FACT_SCIENCE": [
+      "Female sharks have thicker skins than males.",
+      "The ocean is 8 Empire State Buildings deep on average.",
+      "There are 206 bones in the adult human body and there are 300 in children (as they grow some of the bones fuse together).",
+      "The water is stored in the camel's bloodstream, rather than being stored in its fatty hump, which serves as a source of nourishment when food is scarce.",
+      "The male platypus has a venomous spur on its hind foot capable of dispensing a poison that can kill a medium-sized dog.",
+      "Water can boil and freeze at the same time.",
+      "Lasers can get trapped in a waterfall.",
+      "Flea's can jump 130 times higher than their own height. In human terms this is equal to a 6ft. person jumping 780 ft. into the air.",
+      "The most dangerous animal in the world is the common housefly. Because of their habits of visiting animal waste, they transmit more diseases than any other animal.",
+      "Snakes are true carnivorous because they eat nothing but other animals. They do not eat any type of plant material.",
+      "The world's largest amphibian is the giant salamander. It can grow up to 5 ft. in length.",
+      "In 100 years ago, the first virus was found in both plants and animals.",
+      "In 90 years ago, the Grand Canyon became a national monument & Cellophane is invented.",
+      "The smallest bone in the human body is the stapes or stirrup bone located in the middle ear. It is approximately .11 inches (.28 cm) long.",
+      "The longest cells in the human body are the motor neurons. They can be up to 4.5 feet (1.37 meters) long and run from the lower spinal cord to the big toe.",
+      "The blue whale can produce sounds up to 188 decibels. This is the loudest sound produced by a living animal and has been detected as far away as 530 miles.",
+      "The largest man-made lake in the U.S. is Lake Mead, created by Hoover Dam.",
+      "The poison arrow frogs of South and Central America are the most poisonous animals in the world.",
+      "A new born blue whale measures 20-26 feet (6.0 - 7.9 meters) long and weighs up to 6,614 pounds (3003 kg).",
+      "The first coast-to-coast telephone line was established in 1914.",
+      "The Stegosaurus dinosaur measured up to 30 feet (9.1 meters) long but had a brain the size of a walnut.",
+      "The human eye blinks an average of 4,200,000 times a year.",
+      "It takes approximately 12 hours for food to entirely digest.",
+      "Human jaw muscles can generate a force of 200 pounds (90.8 kilograms) on the molars.",
+      "An inch (2.5 centimeters) of rain water is equivalent to 15 inches (38.1 centimeters) of dry, powdery snow.",
+      "40 to 50 percent of body heat can be lost through the head (no hat) as a result of its extensive circulatory network.",
+      "The longest living cells in the body are brain cells which can live an entire lifetime.",
+      "The ears of a cricket are located on the front legs, just below the knee.",
+      "The hottest planet in the solar system is Venus, with an estimated surface temperature of 864 F (462 C).",
+      "The cosmos contains approximately 50,000,000,000 galaxies.",
+      "According to an old English system of time units, a moment is one and a half minutes.",
+      "The typewriter was invented in 1829, and the automatic dishwasher in 1889.",
+      "When glass breaks, the cracks move at speeds of up to 3,000 miles per hour.",
+      "By raising your legs slowly and laying on your back, you can't sink in quicksand.",
+      "Ten minutes of one hurricane contains enough energy to match the nuclear stockpiles of the world.",
+      "Diamonds are the hardest substance known to man.",
+      "There is a high and low tide because of our moon and the Sun.",
+      "If you could drive to the sun -- at 55 miles per hour -- it would take about 193 years.",
+      "Hawaii is moving toward Japan 4 inches every year.",
+      "Sunlight can penetrate clean ocean water to a depth of 240 feet.",
+      "Shrimp's hearts are in their heads.",
+      "It's impossible to sneeze with your eyes open.",
+      "A cat's jaws cannot move sideways.",
+      "Tigers have striped skin, not just striped fur."
+    ]
+  },
+  "STATE": {
+    "QUESTION": {
+      "message_1": {
+        "source": "TEMPLATE",
+        "text": "QUESTION"
+      },
+      "message_2": {
+        "source": "TEMPLATE",
+        "text": "PLEASE_TYPE"
+      },
+      "quick_reply": {
+        "message": {
+          "source": "LOCAL",
+          "text": "{}"
+        },
+        "source": [
+          "LOCAL",
+          "LOCAL"
+        ],
+        "title": [
+          "I need a hint 🤔",
+          "I don’t know 😓"
+        ],
+        "payload": [
+          "NEED_HINT",
+          "I_DONT_KNOW"
         ]
+      }
+    },
+    "CORRECT_ANSWER": {
+      "quick_reply": {
+        "message": {
+          "source": "LOCAL",
+          "text": "The correct answer is {}."
+        },
+        "source": [
+          "LOCAL",
+          "LOCAL",
+          "LOCAL"
+        ],
+        "title": [
+          "Why?",
+          "Next question 💪🏼",
+          "Change subject 🔀"
+        ],
+        "payload": [
+          "WHY",
+          "NEXT_QUESTION",
+          "SWITCH_SUBJECT"
+        ]
+      }
+    },
+    "SAY_HI": {
+      "quick_reply": {
+        "message": {
+          "source": "LOCAL",
+          "text": "Hi {}! My name is Frosty 🐧 and I’m here to help you learn all about science🔬, verbal reasoning (GRE) 🔠, and safety🛠!"
+        },
+        "source": [
+          "TEMPLATE"
+        ],
+        "title": [
+          "GOT_IT"
+        ],
+        "payload": [
+          "GET_INTRO_2"
+        ]
+      }
+    },
+    "CHOOSE_SUBJECT": {
+      "quick_reply": {
+        "message": {
+          "source": "TEMPLATE",
+          "text": "CHOOSE_SUBJECT"
+        },
+        "source": [
+          "LOCAL",
+          "LOCAL",
+          "LOCAL",
+          "LOCAL"
+        ],
+        "title": [
+          "Science🔬",
+          "GRE 🔠",
+          "Safety🛠",
+          "Random 🎲"
+        ],
+        "payload": [
+          "SCIENCE",
+          "GRE",
+          "SAFETY",
+          "RANDOM"
+        ]
+      }
+    },
+    "EXPLANATION": {
+      "message": {
+        "source": "TEMPLATE",
+        "text": "EXPLANATION"
+      },
+      "quick_reply": {
+        "message": {
+          "source": "LOCAL",
+          "text": "{}"
+        },
+        "source": [
+          "LOCAL",
+          "LOCAL"
+        ],
+        "title": [
+          "Next question 💪",
+          "Change subject 🔀"
+        ],
+        "payload": [
+          "NEXT_QUESTION",
+          "SWITCH_SUBJECT"
+        ]
+      }
+    },
+    "REMINDER": {
+      "image": {
+        "template_type": "image",
+        "image_url": [
+          "https://www.smartprimer.org:{}/pictures/avatar/penguinnormal_happy.png"
+        ]
+      },
+      "quick_reply": {
+        "message": {
+          "source": "LOCAL",
+          "text": "Hi {}, you haven't talked to me for a while. Would you like to resume the learning with me?"
+        },
+        "source": [
+          "TEMPLATE"
+        ],
+        "title": [
+          "GOT_IT"
+        ],
+        "payload": [
+          "NEXT_QUESTION"
+        ]
+      }
+    },
+    "CONGRATULATION": {
+      "image": {
+        "template_type": "image",
+        "image_url": [
+          "https://www.smartprimer.org:{}/pictures/avatar/congrats/penguinnormal_happy_cyan.png",
+          "https://www.smartprimer.org:{}/pictures/avatar/congrats/penguinnormal_happy_orange.png",
+          "https://www.smartprimer.org:{}/pictures/avatar/congrats/penguinnormal_happy_pink.png",
+          "https://www.smartprimer.org:{}/pictures/avatar/congrats/penguinnormal_happy_purple.png",
+          "https://www.smartprimer.org:{}/pictures/avatar/congrats/penguinnormal_jubilated_cyan.png",
+          "https://www.smartprimer.org:{}/pictures/avatar/congrats/penguinnormal_jubilated_orange.png",
+          "https://www.smartprimer.org:{}/pictures/avatar/congrats/penguinnormal_jubilated_pink.png",
+          "https://www.smartprimer.org:{}/pictures/avatar/congrats/penguinnormal_jubilated_purple.png",
+          "https://www.smartprimer.org:{}/pictures/avatar/congrats/penguinnormal_normal_cyan.png",
+          "https://www.smartprimer.org:{}/pictures/avatar/congrats/penguinnormal_normal_orange.png",
+          "https://www.smartprimer.org:{}/pictures/avatar/congrats/penguinnormal_normal_pink.png",
+          "https://www.smartprimer.org:{}/pictures/avatar/congrats/penguinnormal_normal.png",
+          "https://www.smartprimer.org:{}/pictures/avatar/congrats/penguinnormal_normal_purple.png",
+          "https://www.smartprimer.org:{}/pictures/avatar/celebration.gif"
+        ]
+      }
+    },
+    "PERSISTENT_MENU": {
+      "persistent_menu": [
+        {
+          "locale": "default",
+          "composer_input_disabled": false,
+          "call_to_actions": [
+            {
+              "title": "Change Subject 🔀",
+              "type": "nested",
+              "call_to_actions": [
+                {
+                  "title": "Science🔬",
+                  "type": "postback",
+                  "payload": "SCIENCE"
+                },
+                {
+                  "title": "GRE 🔠",
+                  "type": "postback",
+                  "payload": "GRE"
+                },
+                {
+                  "title": "Safety🛠",
+                  "type": "postback",
+                  "payload": "SAFETY"
+                },
+                {
+                  "title": "Random 🎲",
+                  "type": "postback",
+                  "payload": "RANDOM"
+                }
+              ]
+            },
+            {
+              "title": "Chat with Me 🐧",
+              "type": "postback",
+              "payload": "CHAT_WITH_ME"
+            },
+            {
+              "title": "More📍",
+              "type": "nested",
+              "call_to_actions": [
+                {
+                  "title": "Report Bug 🔧",
+                  "type": "postback",
+                  "payload": "REPORT_BUG"
+                },
+                {
+                  "title": "User Manual 👩🏻‍💻👨🏻‍💻",
+                  "type": "postback",
+                  "payload": "USER_MANUAL_1"
+                },
+                {
+                  "title": "About QuizBot 🔖",
+                  "type": "postback",
+                  "payload": "ABOUT_QUIZBOT_1"
+                },
+                {
+                  "title": "Contact ☎️",
+                  "type": "postback",
+                  "payload": "CONTACT"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "GET_STARTED": {
+      "get_started": {
+        "payload": "GET_INTRO_1"
+      }
     }
+  }
 }

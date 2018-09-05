@@ -22,7 +22,7 @@ from constants import CHATBOT_ID
 PRAMS = {"access_token": os.environ["PAGE_ACCESS_TOKEN"]}
 HEADERS = {"Content-Type": "application/json"}
 # time to sleep in send_typing_action
-DELAY_TIME = 1
+DELAY_TIME = 0.2
 
 
 def send_data(data, data_type="messages"):

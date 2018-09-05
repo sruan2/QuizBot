@@ -1,1062 +1,1135 @@
 {
-    "ABOUT_QUIZBOT_1": {
-        "conversation": {
-            "conversation_1": {
-                "message": [
-                    {
-                        "source": "LOCAL", 
-                        "text": "I'm Frosty \ud83d\udc27 and I'm a chatbot to help you learn about science\ud83d\udd2c, verbal reasoning (GRE) \ud83d\udd20, and safety\ud83d\udee0."
-                    }, 
-                    {
-                        "source": "LOCAL", 
-                        "text": "I'm designed by a group of researchers from Stanford University Computer Science Department."
-                    }
-                ], 
-                "quick_reply": {
-                    "payload": [
-                        "ABOUT_QUIZBOT_2"
-                    ], 
-                    "source": [
-                        "TEMPLATE"
-                    ], 
-                    "title": [
-                        "GOT_IT"
-                    ]
-                }
-            }
-        }
-    }, 
-    "ABOUT_QUIZBOT_2": {
-        "conversation": {
-            "conversation_1": {
-                "message": [
-                    {
-                        "source": "LOCAL", 
-                        "text": "To best your learning experience, I'll use advanced question sequencing algorithms inspired by spaced repetition and flashcard to tailor questions for your need."
-                    }, 
-                    {
-                        "source": "LOCAL", 
-                        "text": "Equipped with advanced NLP (Natural Language Processing) technology, I'm capable of evaluating your typed answers carefully to assist you remembering the knowledge!"
-                    }
-                ], 
-                "quick_reply": {
-                    "payload": [
-                        "ABOUT_QUIZBOT_3"
-                    ], 
-                    "source": [
-                        "TEMPLATE"
-                    ], 
-                    "title": [
-                        "GOT_IT"
-                    ]
-                }
-            }
-        }
-    }, 
-    "ABOUT_QUIZBOT_3": {
-        "conversation": {
-            "conversation_1": {
-                "message": [
-                    {
-                        "source": "LOCAL", 
-                        "text": "There are bot jokes and fun facts too if you\u2019re ever bored."
-                    }, 
-                    {
-                        "source": "LOCAL", 
-                        "text": "\ud83d\ude1c"
-                    }
-                ], 
-                "quick_reply": {
-                    "payload": [
-                        "CONTINUE"
-                    ], 
-                    "source": [
-                        "TEMPLATE"
-                    ], 
-                    "title": [
-                        "GOT_IT"
-                    ]
-                }
-            }
-        }
-    }, 
-    "BUTTON_AKB": {
-        "paragraph": {
-            "paragraph_1": [
-                {
-                    "source": "TEMPLATE", 
-                    "text": "CORRECT_HINT"
-                }
-            ]
-        }
-    }, 
-    "BUTTON_DKB": {
-        "paragraph": {
-            "paragraph_1": [
-                {
-                    "source": "TEMPLATE", 
-                    "text": "DKB"
-                }
-            ]
-        }
-    }, 
-    "CHAT_WITH_ME": {
-        "conversation": {
-            "conversation_1": {
-                "message": [
-                    {
-                        "source": "TEMPLATE", 
-                        "text": "CHAT_WITH_ME"
-                    }
-                ], 
-                "quick_reply": {
-                    "payload": [
-                        "JOKE", 
-                        "FUN_FACT_SCIENCE"
-                    ], 
-                    "source": [
-                        "LOCAL", 
-                        "LOCAL"
-                    ], 
-                    "title": [
-                        "Joke \ud83d\ude01", 
-                        "Fun fact \ud83d\udca1"
-                    ]
-                }
-            }
-        }
-    }, 
-    "CONTACT": {
-        "conversation": {
-            "conversation_1": {
-                "message": [
-                    {
-                        "source": "LOCAL", 
-                        "text": "If you have any questions, please don't hesitate to contact the Protocol Director, Sherry Ruan at ssruan@stanford.edu, or Liwei Jiang at ljiang@colby.edu."
-                    }
-                ], 
-                "quick_reply": {
-                    "payload": [
-                        "CONTINUE"
-                    ], 
-                    "source": [
-                        "TEMPLATE"
-                    ], 
-                    "title": [
-                        "GOT_IT"
-                    ]
-                }
-            }
-        }
-    }, 
-    "CONTINUE": {
-        "conversation": {
-            "conversation_1": {
-                "message": [
-                    {
-                        "source": "TEMPLATE", 
-                        "text": "CONTINUE"
-                    }
-                ], 
-                "quick_reply": {
-                    "payload": [
-                        "NEXT_QUESTION"
-                    ], 
-                    "source": [
-                        "TEMPLATE"
-                    ], 
-                    "title": [
-                        "GOT_IT"
-                    ]
-                }
-            }
-        }
-    }, 
-    "FUN_FACT_SCIENCE": {
-        "conversation": {
-            "conversation_1": {
-                "message": [
-                    {
-                        "source": "TEMPLATE", 
-                        "text": "GIVE_FUN_FACT_SCIENCE"
-                    }, 
-                    {
-                        "source": "TEMPLATE", 
-                        "text": "FUN_FACT_SCIENCE"
-                    }
-                ], 
-                "quick_reply": {
-                    "payload": [
-                        "FUN_FACT_SCIENCE", 
-                        "JOKE", 
-                        "NEXT_QUESTION"
-                    ], 
-                    "source": [
-                        "TEMPLATE", 
-                        "LOCAL", 
-                        "LOCAL"
-                    ], 
-                    "title": [
-                        "ANOTHER_FUN_FACT_SCIENCE", 
-                        "Joke \ud83d\ude01", 
-                        "Continue learning \ud83d\udcaa\ud83c\udffc"
-                    ]
-                }
-            }
-        }
-    }, 
-    "GET_INTRO_1": {
-        "image": {
-            "image_1": {
-                "image_url": [
-                    "https://www.smartprimer.ai:{}/pictures/avatar/quizbot_avatar.png"
-                ], 
-                "template_type": "image"
-            }
-        }
-    }, 
-    "GET_INTRO_2": {
-        "conversation": {
-            "conversation_1": {
-                "message": [
-                    {
-                        "source": "LOCAL", 
-                        "text": "Here\u2019s how it works."
-                    }, 
-                    {
-                        "source": "LOCAL", 
-                        "text": "I ask you questions, and you give me answers."
-                    }, 
-                    {
-                        "source": "LOCAL", 
-                        "text": "We will learn fun things together!"
-                    }
-                ], 
-                "quick_reply": {
-                    "payload": [
-                        "GET_INTRO_3"
-                    ], 
-                    "source": [
-                        "TEMPLATE"
-                    ], 
-                    "title": [
-                        "GOT_IT"
-                    ]
-                }
-            }
-        }
-    }, 
-    "GET_INTRO_3": {
-        "conversation": {
-            "conversation_1": {
-                "message": [
-                    {
-                        "source": "LOCAL", 
-                        "text": "To study the questions, you can type in your answers in the text field and I will evaluate the answers for you using advanced NLP (Natural Language Processing) technology."
-                    }
-                ], 
-                "quick_reply": {
-                    "payload": [
-                        "GET_INTRO_4"
-                    ], 
-                    "source": [
-                        "TEMPLATE"
-                    ], 
-                    "title": [
-                        "GOT_IT"
-                    ]
-                }
-            }
-        }, 
-        "image": {
-            "image_1": {
-                "image_url": [
-                    "https://www.smartprimer.ai:{}/pictures/user_manual/typeanswer.png"
-                ], 
-                "template_type": "image"
-            }
-        }
-    }, 
-    "GET_INTRO_4": {
-        "conversation": {
-            "conversation_1": {
-                "message": [
-                    {
-                        "source": "LOCAL", 
-                        "text": "If you don't know the answers, then feel free to tap on the hint button."
-                    }
-                ], 
-                "quick_reply": {
-                    "payload": [
-                        "GET_INTRO_5"
-                    ], 
-                    "source": [
-                        "TEMPLATE"
-                    ], 
-                    "title": [
-                        "GOT_IT"
-                    ]
-                }
-            }
-        }, 
-        "image": {
-            "image_1": {
-                "image_url": [
-                    "https://www.smartprimer.ai:{}/pictures/user_manual/needhintbutton.png"
-                ], 
-                "template_type": "image"
-            }
-        }
-    }, 
-    "GET_INTRO_5": {
-        "conversation": {
-            "conversation_1": {
-                "message": [
-                    {
-                        "source": "LOCAL", 
-                        "text": "The hint will give you a list of potential answers and you can select one from them."
-                    }
-                ], 
-                "quick_reply": {
-                    "payload": [
-                        "GET_INTRO_6"
-                    ], 
-                    "source": [
-                        "TEMPLATE"
-                    ], 
-                    "title": [
-                        "GOT_IT"
-                    ]
-                }
-            }
-        }, 
-        "image": {
-            "image_1": {
-                "image_url": [
-                    "https://www.smartprimer.ai:{}/pictures/user_manual/hintoptions.png"
-                ], 
-                "template_type": "image"
-            }
-        }
-    }, 
-    "GET_INTRO_6": {
-        "conversation": {
-            "conversation_1": {
-                "message": [
-                    {
-                        "source": "LOCAL", 
-                        "text": "To discover more abilities of me, you can click on the menu button.\ud83d\udc46\ud83c\udffc"
-                    }
-                ], 
-                "quick_reply": {
-                    "payload": [
-                        "GET_READY"
-                    ], 
-                    "source": [
-                        "TEMPLATE"
-                    ], 
-                    "title": [
-                        "GOT_IT"
-                    ]
-                }
-            }
-        }, 
-        "image": {
-            "image_1": {
-                "image_url": [
-                    "https://www.smartprimer.ai:{}/pictures/user_manual/menubutton.jpg"
-                ], 
-                "template_type": "image"
-            }
-        }
-    }, 
-    "GET_READY": {
-        "conversation": {
-            "conversation_1": {
-                "message": [
-                    {
-                        "source": "LOCAL", 
-                        "text": "I hope you enjoy the learning journey! \ud83d\udcaf"
-                    }, 
-                    {
-                        "source": "LOCAL", 
-                        "text": "So, are you ready?"
-                    }
-                ], 
-                "quick_reply": {
-                    "payload": [
-                        "YUP_IM_READY"
-                    ], 
-                    "source": [
-                        "LOCAL"
-                    ], 
-                    "title": [
-                        "Yup! I'm ready! \u270a\ud83c\udffc"
-                    ]
-                }
-            }
-        }
-    }, 
-    "GIVEUP_NO": {
-        "paragraph": {
-            "paragraph_1": [
-                {
-                    "source": "TEMPLATE", 
-                    "text": "ENCOURAGE_NO_GIVEUP"
-                }
-            ]
-        }
-    }, 
-    "GIVEUP_YES": {
-        "paragraph": {
-            "paragraph_1": [
-                {
-                    "source": "TEMPLATE", 
-                    "text": "NO_POINT"
-                }, 
-                {
-                    "source": "TEMPLATE", 
-                    "text": "ENCOURAGE_YES_GIVEUP"
-                }
-            ]
-        }
-    }, 
-    "GRE": {
-        "conversation": {
-            "conversation_1": {
-                "message": [
-                    {
-                        "source": "TEMPLATE", 
-                        "text": "GRE"
-                    }
-                ], 
-                "quick_reply": {
-                    "payload": [
-                        "NEXT_QUESTION"
-                    ], 
-                    "source": [
-                        "TEMPLATE"
-                    ], 
-                    "title": [
-                        "GOT_IT"
-                    ]
-                }
-            }
-        }, 
-        "image": {
-            "NORMAL": {
-                "image_url": [
-                    "https://www.smartprimer.ai:{}/pictures/avatar/evolvenormal_reading.gif"
-                ], 
-                "template_type": "image"
-            }, 
-            "SAFETY": {
-                "image_url": [
-                    "https://www.smartprimer.ai:{}/pictures/avatar/evolvesafety_reading.gif"
-                ], 
-                "template_type": "image"
-            }, 
-            "SCIENCE": {
-                "image_url": [
-                    "https://www.smartprimer.ai:{}/pictures/avatar/evolvescientist_reading.gif"
-                ], 
-                "template_type": "image"
-            }
-        }
-    }, 
-    "I_DONT_KNOW": {
-        "conversation": {
-            "conversation_1": {
-                "message": [
-                    {
-                        "source": "TEMPLATE", 
-                        "text": "IF_GIVE_UP"
-                    }
-                ], 
-                "quick_reply": {
-                    "payload": [
-                        "GIVEUP_YES", 
-                        "GIVEUP_NO"
-                    ], 
-                    "source": [
-                        "LOCAL", 
-                        "LOCAL"
-                    ], 
-                    "title": [
-                        "Yes, answer please.", 
-                        "No, I'll try again!"
-                    ]
-                }
-            }
-        }
-    }, 
-    "JOKE": {
-        "conversation": {
-            "conversation_1": {
-                "message": [
-                    {
-                        "source": "TEMPLATE", 
-                        "text": "GIVE_JOKE"
-                    }, 
-                    {
-                        "source": "TEMPLATE", 
-                        "text": "JOKE"
-                    }
-                ], 
-                "quick_reply": {
-                    "payload": [
-                        "JOKE", 
-                        "FUN_FACT_SCIENCE", 
-                        "NEXT_QUESTION"
-                    ], 
-                    "source": [
-                        "TEMPLATE", 
-                        "LOCAL", 
-                        "LOCAL"
-                    ], 
-                    "title": [
-                        "ANOTHER_JOKE", 
-                        "Fun fact \ud83d\udca1", 
-                        "Continue learning \ud83d\udcaa\ud83c\udffc"
-                    ]
-                }
-            }
-        }
-    }, 
-    "MESSAGE_TEXT": {
-        "conversation": {
-            "conversation_1": {
-                "message": [
-                    {
-                        "source": "TEMPLATE", 
-                        "text": "SOUNDS_INTERESTING"
-                    }
-                ], 
-                "quick_reply": {
-                    "payload": [
-                        "NEXT_QUESTION", 
-                        "CHAT_WITH_ME"
-                    ], 
-                    "source": [
-                        "TEMPLATE", 
-                        "LOCAL"
-                    ], 
-                    "title": [
-                        "RESUME_LEARNING", 
-                        "Chat with me \ud83d\udc27"
-                    ]
-                }
-            }, 
-            "conversation_2": {
-                "message": [
-                    {
-                        "source": "TEMPLATE", 
-                        "text": "BUGREPORT"
-                    }
-                ], 
-                "quick_reply": {
-                    "payload": [
-                        "NEXT_QUESTION", 
-                        "SWITCH_SUBJECT"
-                    ], 
-                    "source": [
-                        "LOCAL", 
-                        "LOCAL"
-                    ], 
-                    "title": [
-                        "Next question \ud83d\udcaa", 
-                        "Change subject \ud83d\udd00"
-                    ]
-                }
-            }
-        }, 
-        "paragraph": {
-            "paragraph_1": [
-                {
-                    "source": "TEMPLATE", 
-                    "text": "ANSWER_NOT_CORRECT"
-                }
-            ], 
-            "paragraph_2": [
-                {
-                    "source": "TEMPLATE", 
-                    "text": "CORRECT_HINT"
-                }
-            ], 
-            "paragraph_3": [
-                {
-                    "source": "TEMPLATE", 
-                    "text": "ANSWER_CORRECT"
-                }
-            ], 
-            "paragraph_4": [
-                {
-                    "source": "TEMPLATE", 
-                    "text": "BUGREPORT"
-                }
-            ]
-        }
-    }, 
-    "NEED_HINT": {
-        "conversation": {
-            "conversation_1": {
-                "message": [
-                    {
-                        "source": "TEMPLATE", 
-                        "text": "NEED_HINT"
-                    }, 
-                    {
-                        "source": "LOCAL", 
-                        "text": "{}"
-                    }
-                ], 
-                "quick_reply": {
-                    "payload": [
-                        "I_DONT_KNOW"
-                    ], 
-                    "source": [
-                        "LOCAL"
-                    ], 
-                    "title": [
-                        "I don\u2019t know \ud83d\ude13"
-                    ]
-                }
-            }
-        }
-    }, 
-    "RANDOM": {
-        "conversation": {
-            "conversation_1": {
-                "message": [
-                    {
-                        "source": "TEMPLATE", 
-                        "text": "RANDOM"
-                    }
-                ], 
-                "quick_reply": {
-                    "payload": [
-                        "NEXT_QUESTION"
-                    ], 
-                    "source": [
-                        "TEMPLATE"
-                    ], 
-                    "title": [
-                        "GOT_IT"
-                    ]
-                }
-            }
-        }, 
-        "image": {
-            "GRE": {
-                "image_url": [
-                    "https://www.smartprimer.ai:{}/pictures/avatar/evolvereading_normal.gif"
-                ], 
-                "template_type": "image"
-            }, 
-            "NORMAL": {
-                "image_url": [
-                    "https://www.smartprimer.ai:{}/pictures/avatar/celebration.gif"
-                ], 
-                "template_type": "image"
-            }, 
-            "SAFETY": {
-                "image_url": [
-                    "https://www.smartprimer.ai:{}/pictures/avatar/evolvesafety_normal.gif"
-                ], 
-                "template_type": "image"
-            }, 
-            "SCIENCE": {
-                "image_url": [
-                    "https://www.smartprimer.ai:{}/pictures/avatar/evolvescientist_normal.gif"
-                ], 
-                "template_type": "image"
-            }
-        }
-    }, 
-    "REPORT_BUG": {
-        "conversation": {
-            "conversation_1": {
-                "message": [
-                    {
-                        "source": "TEMPLATE", 
-                        "text": "BUGTYPE"
-                    }, 
-                    {
-                        "source": "LOCAL", 
-                        "text": "We can resume learning if you have no bug to report."
-                    }
-                ], 
-                "quick_reply": {
-                    "payload": [
-                        "NEXT_QUESTION"
-                    ], 
-                    "source": [
-                        "LOCAL"
-                    ], 
-                    "title": [
-                        "Continue learning \ud83d\udcaa\ud83c\udffc"
-                    ]
-                }
-            }
-        }
-    }, 
-    "SAFETY": {
-        "conversation": {
-            "conversation_1": {
-                "message": [
-                    {
-                        "source": "TEMPLATE", 
-                        "text": "SAFETY"
-                    }
-                ], 
-                "quick_reply": {
-                    "payload": [
-                        "NEXT_QUESTION"
-                    ], 
-                    "source": [
-                        "TEMPLATE"
-                    ], 
-                    "title": [
-                        "GOT_IT"
-                    ]
-                }
-            }
-        }, 
-        "image": {
-            "GRE": {
-                "image_url": [
-                    "https://www.smartprimer.ai:{}/pictures/avatar/evolvereading_safety.gif"
-                ], 
-                "template_type": "image"
-            }, 
-            "NORMAL": {
-                "image_url": [
-                    "https://www.smartprimer.ai:{}/pictures/avatar/evolvenormal_safety.gif"
-                ], 
-                "template_type": "image"
-            }, 
-            "SCIENCE": {
-                "image_url": [
-                    "https://www.smartprimer.ai:{}/pictures/avatar/evolvescientist_safety.gif"
-                ], 
-                "template_type": "image"
-            }
-        }
-    }, 
-    "SCIENCE": {
-        "conversation": {
-            "conversation_1": {
-                "message": [
-                    {
-                        "source": "TEMPLATE", 
-                        "text": "SCIENCE"
-                    }
-                ], 
-                "quick_reply": {
-                    "payload": [
-                        "NEXT_QUESTION"
-                    ], 
-                    "source": [
-                        "TEMPLATE"
-                    ], 
-                    "title": [
-                        "GOT_IT"
-                    ]
-                }
-            }
-        }, 
-        "image": {
-            "GRE": {
-                "image_url": [
-                    "https://www.smartprimer.ai:{}/pictures/avatar/evolvereading_scientist.gif"
-                ], 
-                "template_type": "image"
-            }, 
-            "NORMAL": {
-                "image_url": [
-                    "https://www.smartprimer.ai:{}/pictures/avatar/evolvenormal_scientist.gif"
-                ], 
-                "template_type": "image"
-            }, 
-            "SAFETY": {
-                "image_url": [
-                    "https://www.smartprimer.ai:{}/pictures/avatar/evolvesafety_scientist.gif"
-                ], 
-                "template_type": "image"
-            }
-        }
-    }, 
-    "USER_MANUAL_1": {
-        "conversation": {
-            "conversation_1": {
-                "message": [
-                    {
-                        "source": "LOCAL", 
-                        "text": "To study the questions, you can type in your answers in the text field and I will evaluate the answers for you using advanced NLP (Natural Language Processing) technology."
-                    }
-                ], 
-                "quick_reply": {
-                    "payload": [
-                        "USER_MANUAL_2"
-                    ], 
-                    "source": [
-                        "TEMPLATE"
-                    ], 
-                    "title": [
-                        "GOT_IT"
-                    ]
-                }
-            }
-        }, 
-        "image": {
-            "image_1": {
-                "image_url": [
-                    "https://www.smartprimer.ai:{}/pictures/user_manual/typeanswer.png"
-                ], 
-                "template_type": "image"
-            }
-        }
-    }, 
-    "USER_MANUAL_2": {
-        "conversation": {
-            "conversation_1": {
-                "message": [
-                    {
-                        "source": "LOCAL", 
-                        "text": "If you don't know the answers, then feel free to tap on the hint button."
-                    }
-                ], 
-                "quick_reply": {
-                    "payload": [
-                        "USER_MANUAL_3"
-                    ], 
-                    "source": [
-                        "TEMPLATE"
-                    ], 
-                    "title": [
-                        "GOT_IT"
-                    ]
-                }
-            }
-        }, 
-        "image": {
-            "image_1": {
-                "image_url": [
-                    "https://www.smartprimer.ai:{}/pictures/user_manual/needhintbutton.png"
-                ], 
-                "template_type": "image"
-            }
-        }
-    }, 
-    "USER_MANUAL_3": {
-        "conversation": {
-            "conversation_1": {
-                "message": [
-                    {
-                        "source": "LOCAL", 
-                        "text": "The hint will give you a list of potential answers and you can select one from them."
-                    }
-                ], 
-                "quick_reply": {
-                    "payload": [
-                        "USER_MANUAL_4"
-                    ], 
-                    "source": [
-                        "TEMPLATE"
-                    ], 
-                    "title": [
-                        "GOT_IT"
-                    ]
-                }
-            }
-        }, 
-        "image": {
-            "image_1": {
-                "image_url": [
-                    "https://www.smartprimer.ai:{}/pictures/user_manual/hintoptions.png"
-                ], 
-                "template_type": "image"
-            }
-        }
-    }, 
-    "USER_MANUAL_4": {
-        "conversation": {
-            "conversation_1": {
-                "message": [
-                    {
-                        "source": "LOCAL", 
-                        "text": "To discover more abilities of me, you can click on the menu button.\ud83d\udc46\ud83c\udffc"
-                    }
-                ], 
-                "quick_reply": {
-                    "payload": [
-                        "USER_MANUAL_5"
-                    ], 
-                    "source": [
-                        "TEMPLATE"
-                    ], 
-                    "title": [
-                        "GOT_IT"
-                    ]
-                }
-            }
-        }, 
-        "image": {
-            "image_1": {
-                "image_url": [
-                    "https://www.smartprimer.ai:{}/pictures/user_manual/menubutton.jpg"
-                ], 
-                "template_type": "image"
-            }
-        }
-    }, 
-    "USER_MANUAL_5": {
-        "conversation": {
-            "conversation_1": {
-                "message": [
-                    {
-                        "source": "LOCAL", 
-                        "text": "You can change question subject by clicking on the \"Change Subject \ud83d\udd00\" button from the menu."
-                    }
-                ], 
-                "quick_reply": {
-                    "payload": [
-                        "USER_MANUAL_6"
-                    ], 
-                    "source": [
-                        "TEMPLATE"
-                    ], 
-                    "title": [
-                        "GOT_IT"
-                    ]
-                }
-            }
-        }, 
-        "image": {
-            "image_1": {
-                "image_url": [
-                    "https://www.smartprimer.ai:{}/pictures/user_manual/changesubjects_1.jpg"
-                ], 
-                "template_type": "image"
-            }, 
-            "image_2": {
-                "image_url": [
-                    "https://www.smartprimer.ai:{}/pictures/user_manual/changesubjects_2.jpg"
-                ], 
-                "template_type": "image"
-            }
-        }
-    }, 
-    "USER_MANUAL_6": {
-        "conversation": {
-            "conversation_1": {
-                "message": [
-                    {
-                        "source": "LOCAL", 
-                        "text": "If you want to hear jokes and fun facts from me, you can click on the \"Chat with Me \ud83d\udc27\" button."
-                    }
-                ], 
-                "quick_reply": {
-                    "payload": [
-                        "USER_MANUAL_7"
-                    ], 
-                    "source": [
-                        "TEMPLATE"
-                    ], 
-                    "title": [
-                        "GOT_IT"
-                    ]
-                }
-            }
-        }, 
-        "image": {
-            "image_1": {
-                "image_url": [
-                    "https://www.smartprimer.ai:{}/pictures/user_manual/chatwithme.png"
-                ], 
-                "template_type": "image"
-            }
-        }
-    }, 
-    "USER_MANUAL_7": {
-        "conversation": {
-            "conversation_1": {
-                "message": [
-                    {
-                        "source": "LOCAL", 
-                        "text": "To look for other information, you can click on the \"More \ud83d\udccd\" button in the menu."
-                    }
-                ], 
-                "quick_reply": {
-                    "payload": [
-                        "USER_MANUAL_8"
-                    ], 
-                    "source": [
-                        "TEMPLATE"
-                    ], 
-                    "title": [
-                        "GOT_IT"
-                    ]
-                }
-            }
-        }, 
-        "image": {
-            "image_1": {
-                "image_url": [
-                    "https://www.smartprimer.ai:{}/pictures/user_manual/morebutton.png"
-                ], 
-                "template_type": "image"
-            }
-        }
-    }, 
-    "USER_MANUAL_8": {
-        "conversation": {
-            "conversation_1": {
-                "message": [
-                    {
-                        "source": "LOCAL", 
-                        "text": "Okay, you are all set! \ud83c\udf89"
-                    }
-                ], 
-                "quick_reply": {
-                    "payload": [
-                        "NEXT_QUESTION"
-                    ], 
-                    "source": [
-                        "TEMPLATE"
-                    ], 
-                    "title": [
-                        "GOT_IT"
-                    ]
-                }
-            }
-        }
-    }, 
-    "YUP_IM_READY": {
-        "conversation": {
-            "conversation_1": {
-                "message": [
-                    {
-                        "source": "LOCAL", 
-                        "text": "Great!"
-                    }, 
-                    {
-                        "source": "LOCAL", 
-                        "text": "Let\u2019s get started \ud83d\ude80"
-                    }
-                ], 
-                "quick_reply": {
-                    "payload": [
-                        "SWITCH_SUBJECT"
-                    ], 
-                    "source": [
-                        "LOCAL"
-                    ], 
-                    "title": [
-                        "Quiz me \ud83e\udd13"
-                    ]
-                }
-            }
-        }
+  "GET_INTRO_1": {
+    "image": {
+      "image_1": {
+        "template_type": "image",
+        "image_url": [
+          "https://www.smartprimer.ai:{}/pictures/avatar/quizbot_avatar.png"
+        ]
+      }
     }
+  },
+  "GET_INTRO_2": {
+    "conversation": {
+      "conversation_1": {
+        "message": [
+          {
+            "source": "LOCAL",
+            "text": "Here’s how it works."
+          },
+          {
+            "source": "LOCAL",
+            "text": "I ask you questions, and you give me answers."
+          },
+          {
+            "source": "LOCAL",
+            "text": "We will learn fun things together!"
+          }
+        ],
+        "quick_reply": {
+          "source": [
+            "TEMPLATE"
+          ],
+          "title": [
+            "GOT_IT"
+          ],
+          "payload": [
+            "GET_INTRO_3"
+          ]
+        }
+      }
+    }
+  },
+  "GET_INTRO_3": {
+    "image": {
+      "image_1": {
+        "template_type": "image",
+        "image_url": [
+          "https://www.smartprimer.ai:{}/pictures/user_manual/typeanswer.png"
+        ]
+      }
+    },
+    "conversation": {
+      "conversation_1": {
+        "message": [
+          {
+            "source": "LOCAL",
+            "text": "To study the questions, you can type in your answers in the text field and I will evaluate the answers for you using advanced NLP (Natural Language Processing) technology."
+          }
+        ],
+        "quick_reply": {
+          "source": [
+            "TEMPLATE"
+          ],
+          "title": [
+            "GOT_IT"
+          ],
+          "payload": [
+            "GET_INTRO_4"
+          ]
+        }
+      }
+    }
+  },
+  "GET_INTRO_4": {
+    "image": {
+      "image_1": {
+        "template_type": "image",
+        "image_url": [
+          "https://www.smartprimer.ai:{}/pictures/user_manual/needhintbutton.png"
+        ]
+      }
+    },
+    "conversation": {
+      "conversation_1": {
+        "message": [
+          {
+            "source": "LOCAL",
+            "text": "If you don't know the answers, then feel free to tap on the hint button."
+          }
+        ],
+        "quick_reply": {
+          "source": [
+            "TEMPLATE"
+          ],
+          "title": [
+            "GOT_IT"
+          ],
+          "payload": [
+            "GET_INTRO_5"
+          ]
+        }
+      }
+    }
+  },
+  "GET_INTRO_5": {
+    "image": {
+      "image_1": {
+        "template_type": "image",
+        "image_url": [
+          "https://www.smartprimer.ai:{}/pictures/user_manual/hintoptions.png"
+        ]
+      }
+    },
+    "conversation": {
+      "conversation_1": {
+        "message": [
+          {
+            "source": "LOCAL",
+            "text": "The hint will give you a list of potential answers and you can select one from them."
+          }
+        ],
+        "quick_reply": {
+          "source": [
+            "TEMPLATE"
+          ],
+          "title": [
+            "GOT_IT"
+          ],
+          "payload": [
+            "GET_INTRO_6"
+          ]
+        }
+      }
+    }
+  },
+  "GET_INTRO_6": {
+    "image": {
+      "image_1": {
+        "template_type": "image",
+        "image_url": [
+          "https://www.smartprimer.ai:{}/pictures/user_manual/menubutton.jpg"
+        ]
+      }
+    },
+    "conversation": {
+      "conversation_1": {
+        "message": [
+          {
+            "source": "LOCAL",
+            "text": "To discover more abilities of me, you can click on the menu button.👆🏼"
+          }
+        ],
+        "quick_reply": {
+          "source": [
+            "TEMPLATE"
+          ],
+          "title": [
+            "GOT_IT"
+          ],
+          "payload": [
+            "GET_READY"
+          ]
+        }
+      }
+    }
+  },
+  "USER_MANUAL_1": {
+    "image": {
+      "image_1": {
+        "template_type": "image",
+        "image_url": [
+          "https://www.smartprimer.ai:{}/pictures/user_manual/typeanswer.png"
+        ]
+      }
+    },
+    "conversation": {
+      "conversation_1": {
+        "message": [
+          {
+            "source": "LOCAL",
+            "text": "To study the questions, you can type in your answers in the text field and I will evaluate the answers for you using advanced NLP (Natural Language Processing) technology."
+          }
+        ],
+        "quick_reply": {
+          "source": [
+            "TEMPLATE"
+          ],
+          "title": [
+            "GOT_IT"
+          ],
+          "payload": [
+            "USER_MANUAL_2"
+          ]
+        }
+      }
+    }
+  },
+  "USER_MANUAL_2": {
+    "image": {
+      "image_1": {
+        "template_type": "image",
+        "image_url": [
+          "https://www.smartprimer.ai:{}/pictures/user_manual/needhintbutton.png"
+        ]
+      }
+    },
+    "conversation": {
+      "conversation_1": {
+        "message": [
+          {
+            "source": "LOCAL",
+            "text": "If you don't know the answers, then feel free to tap on the hint button."
+          }
+        ],
+        "quick_reply": {
+          "source": [
+            "TEMPLATE"
+          ],
+          "title": [
+            "GOT_IT"
+          ],
+          "payload": [
+            "USER_MANUAL_3"
+          ]
+        }
+      }
+    }
+  },
+  "USER_MANUAL_3": {
+    "image": {
+      "image_1": {
+        "template_type": "image",
+        "image_url": [
+          "https://www.smartprimer.ai:{}/pictures/user_manual/hintoptions.png"
+        ]
+      }
+    },
+    "conversation": {
+      "conversation_1": {
+        "message": [
+          {
+            "source": "LOCAL",
+            "text": "The hint will give you a list of potential answers and you can select one from them."
+          }
+        ],
+        "quick_reply": {
+          "source": [
+            "TEMPLATE"
+          ],
+          "title": [
+            "GOT_IT"
+          ],
+          "payload": [
+            "USER_MANUAL_4"
+          ]
+        }
+      }
+    }
+  },
+  "USER_MANUAL_4": {
+    "image": {
+      "image_1": {
+        "template_type": "image",
+        "image_url": [
+          "https://www.smartprimer.ai:{}/pictures/user_manual/menubutton.jpg"
+        ]
+      }
+    },
+    "conversation": {
+      "conversation_1": {
+        "message": [
+          {
+            "source": "LOCAL",
+            "text": "To discover more abilities of me, you can click on the menu button.👆🏼"
+          }
+        ],
+        "quick_reply": {
+          "source": [
+            "TEMPLATE"
+          ],
+          "title": [
+            "GOT_IT"
+          ],
+          "payload": [
+            "USER_MANUAL_5"
+          ]
+        }
+      }
+    }
+  },
+  "USER_MANUAL_5": {
+    "image": {
+      "image_1": {
+        "template_type": "image",
+        "image_url": [
+          "https://www.smartprimer.ai:{}/pictures/user_manual/changesubjects_1.jpg"
+        ]
+      },
+      "image_2": {
+        "template_type": "image",
+        "image_url": [
+          "https://www.smartprimer.ai:{}/pictures/user_manual/changesubjects_2.jpg"
+        ]
+      }
+    },
+    "conversation": {
+      "conversation_1": {
+        "message": [
+          {
+            "source": "LOCAL",
+            "text": "You can change question subject by clicking on the \"Change Subject 🔀\" button from the menu."
+          }
+        ],
+        "quick_reply": {
+          "source": [
+            "TEMPLATE"
+          ],
+          "title": [
+            "GOT_IT"
+          ],
+          "payload": [
+            "USER_MANUAL_6"
+          ]
+        }
+      }
+    }
+  },
+  "USER_MANUAL_6": {
+    "image": {
+      "image_1": {
+        "template_type": "image",
+        "image_url": [
+          "https://www.smartprimer.ai:{}/pictures/user_manual/chatwithme.png"
+        ]
+      }
+    },
+    "conversation": {
+      "conversation_1": {
+        "message": [
+          {
+            "source": "LOCAL",
+            "text": "If you want to hear jokes and fun facts from me, you can click on the \"Chat with Me 🐧\" button."
+          }
+        ],
+        "quick_reply": {
+          "source": [
+            "TEMPLATE"
+          ],
+          "title": [
+            "GOT_IT"
+          ],
+          "payload": [
+            "USER_MANUAL_7"
+          ]
+        }
+      }
+    }
+  },
+  "USER_MANUAL_7": {
+    "image": {
+      "image_1": {
+        "template_type": "image",
+        "image_url": [
+          "https://www.smartprimer.ai:{}/pictures/user_manual/morebutton.png"
+        ]
+      }
+    },
+    "conversation": {
+      "conversation_1": {
+        "message": [
+          {
+            "source": "LOCAL",
+            "text": "To look for other information, you can click on the \"More 📍\" button in the menu."
+          }
+        ],
+        "quick_reply": {
+          "source": [
+            "TEMPLATE"
+          ],
+          "title": [
+            "GOT_IT"
+          ],
+          "payload": [
+            "USER_MANUAL_8"
+          ]
+        }
+      }
+    }
+  },
+  "USER_MANUAL_8": {
+    "conversation": {
+      "conversation_1": {
+        "message": [
+          {
+            "source": "LOCAL",
+            "text": "Okay, you are all set! 🎉"
+          }
+        ],
+        "quick_reply": {
+          "source": [
+            "TEMPLATE"
+          ],
+          "title": [
+            "GOT_IT"
+          ],
+          "payload": [
+            "NEXT_QUESTION"
+          ]
+        }
+      }
+    }
+  },
+  "CONTACT": {
+    "conversation": {
+      "conversation_1": {
+        "message": [
+          {
+            "source": "LOCAL",
+            "text": "If you have any questions, please don't hesitate to contact the Protocol Director, Sherry Ruan at ssruan@stanford.edu, or Liwei Jiang at ljiang@colby.edu."
+          }
+        ],
+        "quick_reply": {
+          "source": [
+            "TEMPLATE"
+          ],
+          "title": [
+            "GOT_IT"
+          ],
+          "payload": [
+            "CONTINUE"
+          ]
+        }
+      }
+    }
+  },
+  "ABOUT_QUIZBOT_1": {
+    "conversation": {
+      "conversation_1": {
+        "message": [
+          {
+            "source": "LOCAL",
+            "text": "I'm Frosty 🐧 and I'm a chatbot to help you learn about science🔬, verbal reasoning (GRE) 🔠, and safety🛠."
+          },
+          {
+            "source": "LOCAL",
+            "text": "I'm designed by a group of researchers from Stanford University Computer Science Department."
+          }
+        ],
+        "quick_reply": {
+          "source": [
+            "TEMPLATE"
+          ],
+          "title": [
+            "GOT_IT"
+          ],
+          "payload": [
+            "ABOUT_QUIZBOT_2"
+          ]
+        }
+      }
+    }
+  },
+  "ABOUT_QUIZBOT_2": {
+    "conversation": {
+      "conversation_1": {
+        "message": [
+          {
+            "source": "LOCAL",
+            "text": "To best your learning experience, I'll use advanced question sequencing algorithms inspired by spaced repetition and flashcard to tailor questions for your need."
+          },
+          {
+            "source": "LOCAL",
+            "text": "Equipped with advanced NLP (Natural Language Processing) technology, I'm capable of evaluating your typed answers carefully to assist you remembering the knowledge!"
+          }
+        ],
+        "quick_reply": {
+          "source": [
+            "TEMPLATE"
+          ],
+          "title": [
+            "GOT_IT"
+          ],
+          "payload": [
+            "ABOUT_QUIZBOT_3"
+          ]
+        }
+      }
+    }
+  },
+  "ABOUT_QUIZBOT_3": {
+    "conversation": {
+      "conversation_1": {
+        "message": [
+          {
+            "source": "LOCAL",
+            "text": "There are bot jokes and fun facts too if you’re ever bored."
+          },
+          {
+            "source": "LOCAL",
+            "text": "😜"
+          }
+        ],
+        "quick_reply": {
+          "source": [
+            "TEMPLATE"
+          ],
+          "title": [
+            "GOT_IT"
+          ],
+          "payload": [
+            "CONTINUE"
+          ]
+        }
+      }
+    }
+  },
+  "GET_READY": {
+    "conversation": {
+      "conversation_1": {
+        "message": [
+          {
+            "source": "LOCAL",
+            "text": "I hope you enjoy the learning journey! 💯"
+          },
+          {
+            "source": "LOCAL",
+            "text": "So, are you ready?"
+          }
+        ],
+        "quick_reply": {
+          "source": [
+            "LOCAL"
+          ],
+          "title": [
+            "Yup! I'm ready! ✊🏼"
+          ],
+          "payload": [
+            "YUP_IM_READY"
+          ]
+        }
+      }
+    }
+  },
+  "YUP_IM_READY": {
+    "conversation": {
+      "conversation_1": {
+        "message": [
+          {
+            "source": "LOCAL",
+            "text": "Great!"
+          },
+          {
+            "source": "LOCAL",
+            "text": "Let’s get started 🚀"
+          }
+        ],
+        "quick_reply": {
+          "source": [
+            "LOCAL"
+          ],
+          "title": [
+            "Quiz me 🤓"
+          ],
+          "payload": [
+            "SWITCH_SUBJECT"
+          ]
+        }
+      }
+    }
+  },
+  "I_DONT_KNOW": {
+    "conversation": {
+      "conversation_1": {
+        "message": [
+          {
+            "source": "TEMPLATE",
+            "text": "IF_GIVE_UP"
+          }
+        ],
+        "quick_reply": {
+          "source": [
+            "LOCAL",
+            "LOCAL"
+          ],
+          "title": [
+            "Yes, answer please.",
+            "No, I'll try again!"
+          ],
+          "payload": [
+            "GIVEUP_YES",
+            "GIVEUP_NO"
+          ]
+        }
+      }
+    }
+  },
+  "REPORT_BUG": {
+    "conversation": {
+      "conversation_1": {
+        "message": [
+          {
+            "source": "TEMPLATE",
+            "text": "BUGTYPE"
+          },
+          {
+            "source": "LOCAL",
+            "text": "We can resume learning if you have no bug to report."
+          }
+        ],
+        "quick_reply": {
+          "source": [
+            "LOCAL"
+          ],
+          "title": [
+            "Continue learning 💪🏼"
+          ],
+          "payload": [
+            "NEXT_QUESTION"
+          ]
+        }
+      }
+    }
+  },
+  "CONTINUE": {
+    "conversation": {
+      "conversation_1": {
+        "message": [
+          {
+            "source": "TEMPLATE",
+            "text": "CONTINUE"
+          }
+        ],
+        "quick_reply": {
+          "source": [
+            "TEMPLATE"
+          ],
+          "title": [
+            "GOT_IT"
+          ],
+          "payload": [
+            "NEXT_QUESTION"
+          ]
+        }
+      }
+    }
+  },
+  "SCIENCE": {
+    "conversation": {
+      "conversation_1": {
+        "message": [
+          {
+            "source": "TEMPLATE",
+            "text": "SCIENCE"
+          }
+        ],
+        "quick_reply": {
+          "source": [
+            "TEMPLATE"
+          ],
+          "title": [
+            "GOT_IT"
+          ],
+          "payload": [
+            "NEXT_QUESTION"
+          ]
+        }
+      }
+    },
+    "image": {
+      "SAFETY": {
+        "template_type": "image",
+        "image_url": [
+          "https://www.smartprimer.ai:{}/pictures/avatar/evolvesafety_scientist.gif"
+        ]
+      },
+      "GRE": {
+        "template_type": "image",
+        "image_url": [
+          "https://www.smartprimer.ai:{}/pictures/avatar/evolvereading_scientist.gif"
+        ]
+      },
+      "NORMAL": {
+        "template_type": "image",
+        "image_url": [
+          "https://www.smartprimer.ai:{}/pictures/avatar/evolvenormal_scientist.gif"
+        ]
+      }
+    }
+  },
+  "GRE": {
+    "conversation": {
+      "conversation_1": {
+        "message": [
+          {
+            "source": "TEMPLATE",
+            "text": "GRE"
+          }
+        ],
+        "quick_reply": {
+          "source": [
+            "TEMPLATE"
+          ],
+          "title": [
+            "GOT_IT"
+          ],
+          "payload": [
+            "NEXT_QUESTION"
+          ]
+        }
+      }
+    },
+    "image": {
+      "SAFETY": {
+        "template_type": "image",
+        "image_url": [
+          "https://www.smartprimer.ai:{}/pictures/avatar/evolvesafety_reading.gif"
+        ]
+      },
+      "SCIENCE": {
+        "template_type": "image",
+        "image_url": [
+          "https://www.smartprimer.ai:{}/pictures/avatar/evolvescientist_reading.gif"
+        ]
+      },
+      "NORMAL": {
+        "template_type": "image",
+        "image_url": [
+          "https://www.smartprimer.ai:{}/pictures/avatar/evolvenormal_reading.gif"
+        ]
+      }
+    }
+  },
+  "SAFETY": {
+    "conversation": {
+      "conversation_1": {
+        "message": [
+          {
+            "source": "TEMPLATE",
+            "text": "SAFETY"
+          }
+        ],
+        "quick_reply": {
+          "source": [
+            "TEMPLATE"
+          ],
+          "title": [
+            "GOT_IT"
+          ],
+          "payload": [
+            "NEXT_QUESTION"
+          ]
+        }
+      }
+    },
+    "image": {
+      "SCIENCE": {
+        "template_type": "image",
+        "image_url": [
+          "https://www.smartprimer.ai:{}/pictures/avatar/evolvescientist_safety.gif"
+        ]
+      },
+      "GRE": {
+        "template_type": "image",
+        "image_url": [
+          "https://www.smartprimer.ai:{}/pictures/avatar/evolvereading_safety.gif"
+        ]
+      },
+      "NORMAL": {
+        "template_type": "image",
+        "image_url": [
+          "https://www.smartprimer.ai:{}/pictures/avatar/evolvenormal_safety.gif"
+        ]
+      }
+    }
+  },
+  "RANDOM": {
+    "conversation": {
+      "conversation_1": {
+        "message": [
+          {
+            "source": "TEMPLATE",
+            "text": "RANDOM"
+          }
+        ],
+        "quick_reply": {
+          "source": [
+            "TEMPLATE"
+          ],
+          "title": [
+            "GOT_IT"
+          ],
+          "payload": [
+            "NEXT_QUESTION"
+          ]
+        }
+      }
+    },
+    "image": {
+      "SAFETY": {
+        "template_type": "image",
+        "image_url": [
+          "https://www.smartprimer.ai:{}/pictures/avatar/evolvesafety_normal.gif"
+        ]
+      },
+      "SCIENCE": {
+        "template_type": "image",
+        "image_url": [
+          "https://www.smartprimer.ai:{}/pictures/avatar/evolvescientist_normal.gif"
+        ]
+      },
+      "GRE": {
+        "template_type": "image",
+        "image_url": [
+          "https://www.smartprimer.ai:{}/pictures/avatar/evolvereading_normal.gif"
+        ]
+      },
+      "NORMAL": {
+        "template_type": "image",
+        "image_url": [
+          "https://www.smartprimer.ai:{}/pictures/avatar/celebration.gif"
+        ]
+      }
+    }
+  },
+  "GIVEUP_YES": {
+    "paragraph": {
+      "paragraph_1": [
+        {
+          "source": "TEMPLATE",
+          "text": "NO_POINT"
+        },
+        {
+          "source": "TEMPLATE",
+          "text": "ENCOURAGE_YES_GIVEUP"
+        }
+      ]
+    }
+  },
+  "GIVEUP_NO": {
+    "paragraph": {
+      "paragraph_1": [
+        {
+          "source": "TEMPLATE",
+          "text": "ENCOURAGE_NO_GIVEUP"
+        }
+      ]
+    }
+  },
+  "BUTTON_DKB": {
+    "paragraph": {
+      "paragraph_1": [
+        {
+          "source": "TEMPLATE",
+          "text": "DKB"
+        }
+      ]
+    }
+  },
+  "BUTTON_AKB": {
+    "paragraph": {
+      "paragraph_1": [
+        {
+          "source": "TEMPLATE",
+          "text": "CORRECT_HINT"
+        }
+      ]
+    }
+  },
+  "CHAT_WITH_ME": {
+    "conversation": {
+      "conversation_1": {
+        "message": [
+          {
+            "source": "TEMPLATE",
+            "text": "CHAT_WITH_ME"
+          }
+        ],
+        "quick_reply": {
+          "source": [
+            "LOCAL",
+            "LOCAL"
+          ],
+          "title": [
+            "Joke 😁",
+            "Fun fact 💡"
+          ],
+          "payload": [
+            "JOKE",
+            "FUN_FACT_SCIENCE"
+          ]
+        }
+      }
+    }
+  },
+  "JOKE": {
+    "conversation": {
+      "conversation_1": {
+        "message": [
+          {
+            "source": "TEMPLATE",
+            "text": "GIVE_JOKE"
+          },
+          {
+            "source": "TEMPLATE",
+            "text": "JOKE"
+          }
+        ],
+        "quick_reply": {
+          "source": [
+            "TEMPLATE",
+            "LOCAL",
+            "LOCAL"
+          ],
+          "title": [
+            "ANOTHER_JOKE",
+            "Fun fact 💡",
+            "Continue learning 💪🏼"
+          ],
+          "payload": [
+            "JOKE",
+            "FUN_FACT_SCIENCE",
+            "NEXT_QUESTION"
+          ]
+        }
+      }
+    }
+  },
+  "FUN_FACT_SCIENCE": {
+    "conversation": {
+      "conversation_1": {
+        "message": [
+          {
+            "source": "TEMPLATE",
+            "text": "GIVE_FUN_FACT_SCIENCE"
+          },
+          {
+            "source": "TEMPLATE",
+            "text": "FUN_FACT_SCIENCE"
+          }
+        ],
+        "quick_reply": {
+          "source": [
+            "TEMPLATE",
+            "LOCAL",
+            "LOCAL"
+          ],
+          "title": [
+            "ANOTHER_FUN_FACT_SCIENCE",
+            "Joke 😁",
+            "Continue learning 💪🏼"
+          ],
+          "payload": [
+            "FUN_FACT_SCIENCE",
+            "JOKE",
+            "NEXT_QUESTION"
+          ]
+        }
+      }
+    }
+  },
+  "NEED_HINT": {
+    "conversation": {
+      "conversation_1": {
+        "message": [
+          {
+            "source": "TEMPLATE",
+            "text": "NEED_HINT"
+          },
+          {
+            "source": "LOCAL",
+            "text": "{}"
+          }
+        ],
+        "quick_reply": {
+          "source": [
+            "LOCAL"
+          ],
+          "title": [
+            "I don’t know 😓"
+          ],
+          "payload": [
+            "I_DONT_KNOW"
+          ]
+        }
+      }
+    }
+  },
+  "NEXT_SESSION": {
+    "conversation": {
+      "conversation_1": {
+        "message": [
+          {
+            "source": "LOCAL",
+            "text": "Nice job! You've practiced enough questions today. Please come back tomorrow and click on \"Resume Learning 💪🏼\" for another practice session."
+          }
+        ],
+        "quick_reply": {
+          "source": [
+            "LOCAL"
+          ],
+          "title": [
+            "Resume Learning 💪🏼"
+          ],
+          "payload": [
+            "NEXT_QUESTION"
+          ]
+        }
+      }
+    }
+  },
+  "END_OF_SESSION": {
+    "paragraph": {
+      "paragraph_1": [
+        {
+          "source": "LOCAL",
+          "text": "Congratulations! You've finished your study. Please proceed to the post-study quizzes to test how well you master the knowledge!"
+        },
+        {
+          "source": "LOCAL",
+          "text": "Please be sure to first finish the Google Form quiz, then proceed to the Qualtrics quiz."
+        },
+        {
+          "source": "LOCAL",
+          "text": "Good luck and have fun! 😄"
+        }
+      ]
+    }
+  },
+  "ENOUGH_SUBJECT": {
+    "conversation": {
+      "conversation_1": {
+        "message": [
+          {
+            "source": "LOCAL",
+            "text": "Hi there, you already practiced enough questions in this subject. Do you want to try other two subjects? 😊"
+          }
+        ],
+        "quick_reply": {
+          "source": [
+            "LOCAL",
+            "LOCAL",
+            "LOCAL",
+            "LOCAL"
+          ],
+          "title": [
+            "Science🔬",
+            "GRE 🔠",
+            "Safety🛠",
+            "Random 🎲"
+          ],
+          "payload": [
+            "SCIENCE",
+            "GRE",
+            "SAFETY",
+            "RANDOM"
+          ]
+        }
+      }
+    }
+  },
+  "MESSAGE_TEXT": {
+    "paragraph": {
+      "paragraph_1": [
+        {
+          "source": "TEMPLATE",
+          "text": "ANSWER_NOT_CORRECT"
+        }
+      ],
+      "paragraph_2": [
+        {
+          "source": "TEMPLATE",
+          "text": "CORRECT_HINT"
+        }
+      ],
+      "paragraph_3": [
+        {
+          "source": "TEMPLATE",
+          "text": "ANSWER_CORRECT"
+        }
+      ],
+      "paragraph_4": [
+        {
+          "source": "TEMPLATE",
+          "text": "BUGREPORT"
+        }
+      ]
+    },
+    "conversation": {
+      "conversation_1": {
+        "message": [
+          {
+            "source": "TEMPLATE",
+            "text": "SOUNDS_INTERESTING"
+          }
+        ],
+        "quick_reply": {
+          "source": [
+            "TEMPLATE",
+            "LOCAL"
+          ],
+          "title": [
+            "RESUME_LEARNING",
+            "Chat with me 🐧"
+          ],
+          "payload": [
+            "NEXT_QUESTION",
+            "CHAT_WITH_ME"
+          ]
+        }
+      },
+      "conversation_2": {
+        "message": [
+          {
+            "source": "TEMPLATE",
+            "text": "BUGREPORT"
+          }
+        ],
+        "quick_reply": {
+          "source": [
+            "LOCAL",
+            "LOCAL"
+          ],
+          "title": [
+            "Next question 💪",
+            "Change subject 🔀"
+          ],
+          "payload": [
+            "NEXT_QUESTION",
+            "SWITCH_SUBJECT"
+          ]
+        }
+      }
+    }
+  }
 }
