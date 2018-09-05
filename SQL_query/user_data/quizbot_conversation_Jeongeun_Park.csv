@@ -1,0 +1,37 @@
+user_id,user_firstname,user_lastname,uid,sender,recipient,type,dialogue,time_stamp
+2083632868354237,Jeongeun,Park,790,2083632868354237,854518728062939,persistent_menu: GET_INTRO_1,Get Started,2018-09-05 00:51:50
+2083632868354237,Jeongeun,Park,791,854518728062939,2083632868354237,BOT: image,https://www.smartprimer.ai:4443/pictures/avatar/quizbot_avatar.png,2018-09-05 00:51:54
+2083632868354237,Jeongeun,Park,792,854518728062939,2083632868354237,BOT: quick reply,"Hi Jeongeun! My name is Frosty :penguin: and I’m here to help you learn all about science:microscope:, verbal reasoning (GRE) :input_latin_uppercase:, and safety:hammer_and_wrench:!",2018-09-05 00:51:55
+2083632868354237,Jeongeun,Park,793,2083632868354237,854518728062939,user_quick_reply: GET_INTRO_2,Tap me :collision:,2018-09-05 00:52:00
+2083632868354237,Jeongeun,Park,794,854518728062939,2083632868354237,BOT: message,Here’s how it works.,2018-09-05 00:52:01
+2083632868354237,Jeongeun,Park,795,854518728062939,2083632868354237,BOT: message,"I ask you questions, and you give me answers.",2018-09-05 00:52:02
+2083632868354237,Jeongeun,Park,796,854518728062939,2083632868354237,BOT: quick reply,We will learn fun things together!,2018-09-05 00:52:03
+2083632868354237,Jeongeun,Park,797,2083632868354237,854518728062939,user_quick_reply: GET_INTRO_3,Okay :collision:,2018-09-05 00:52:09
+2083632868354237,Jeongeun,Park,798,854518728062939,2083632868354237,BOT: image,https://www.smartprimer.ai:4443/pictures/user_manual/typeanswer.png,2018-09-05 00:52:13
+2083632868354237,Jeongeun,Park,799,854518728062939,2083632868354237,BOT: quick reply,"To study the questions, you can type in your answers in the text field and I will evaluate the answers for you using advanced NLP (Natural Language Processing) technology.",2018-09-05 00:52:13
+2083632868354237,Jeongeun,Park,800,2083632868354237,854518728062939,user_quick_reply: GET_INTRO_4,Tap me :backhand_index_pointing_right_medium-light_skin_tone:,2018-09-05 00:52:21
+2083632868354237,Jeongeun,Park,801,854518728062939,2083632868354237,BOT: image,https://www.smartprimer.ai:4443/pictures/user_manual/needhintbutton.png,2018-09-05 00:52:24
+2083632868354237,Jeongeun,Park,802,854518728062939,2083632868354237,BOT: quick reply,"If you don't know the answers, then feel free to tap on the hint button.",2018-09-05 00:52:25
+2083632868354237,Jeongeun,Park,803,2083632868354237,854518728062939,user_quick_reply: GET_INTRO_5,Next :raising_hands_medium-light_skin_tone:,2018-09-05 00:52:32
+2083632868354237,Jeongeun,Park,804,854518728062939,2083632868354237,BOT: image,https://www.smartprimer.ai:4443/pictures/user_manual/hintoptions.png,2018-09-05 00:52:35
+2083632868354237,Jeongeun,Park,805,854518728062939,2083632868354237,BOT: quick reply,The hint will give you a list of potential answers and you can select one from them.,2018-09-05 00:52:36
+2083632868354237,Jeongeun,Park,806,854518728062939,2083632868354237,BOT: image,https://www.smartprimer.ai:4443/pictures/user_manual/menubutton.jpg,2018-09-05 00:52:43
+2083632868354237,Jeongeun,Park,807,854518728062939,2083632868354237,BOT: quick reply,"To discover more abilities of me, you can click on the menu button.:backhand_index_pointing_up_medium-light_skin_tone:",2018-09-05 00:52:44
+2083632868354237,Jeongeun,Park,808,2083632868354237,854518728062939,user_quick_reply: GET_READY,Alright :round_pushpin:,2018-09-05 00:52:58
+2083632868354237,Jeongeun,Park,809,854518728062939,2083632868354237,BOT: message,I hope you enjoy the learning journey! :hundred_points:,2018-09-05 00:52:59
+2083632868354237,Jeongeun,Park,810,854518728062939,2083632868354237,BOT: quick reply,"So, are you ready?",2018-09-05 00:53:00
+2083632868354237,Jeongeun,Park,811,2083632868354237,854518728062939,user_quick_reply: YUP_IM_READY,Yup! I'm ready! :raised_fist_medium-light_skin_tone:,2018-09-05 00:53:05
+2083632868354237,Jeongeun,Park,812,854518728062939,2083632868354237,BOT: message,Great!,2018-09-05 00:53:06
+2083632868354237,Jeongeun,Park,813,854518728062939,2083632868354237,BOT: quick reply,Let’s get started :rocket:,2018-09-05 00:53:06
+2083632868354237,Jeongeun,Park,814,2083632868354237,854518728062939,user_quick_reply: SWITCH_SUBJECT,Quiz me :nerd_face:,2018-09-05 00:53:11
+2083632868354237,Jeongeun,Park,815,854518728062939,2083632868354237,BOT: quick reply,"Sure, which of the following subjects would you like me to quiz you on?:backhand_index_pointing_down_medium-light_skin_tone:",2018-09-05 00:53:12
+2083632868354237,Jeongeun,Park,816,2083632868354237,854518728062939,user_quick_reply: RANDOM,Random :game_die:,2018-09-05 00:53:18
+2083632868354237,Jeongeun,Park,817,854518728062939,2083632868354237,BOT: quick reply,Let's answer some questions about everything! :game_die:,2018-09-05 00:53:18
+2083632868354237,Jeongeun,Park,818,2083632868354237,854518728062939,user_quick_reply: NEXT_QUESTION,Next :round_pushpin:,2018-09-05 00:53:23
+2083632868354237,Jeongeun,Park,819,854518728062939,2083632868354237,BOT: message,Let's try this one.,2018-09-05 00:53:24
+2083632868354237,Jeongeun,Park,820,854518728062939,2083632868354237,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-09-05 00:53:25
+2083632868354237,Jeongeun,Park,821,854518728062939,2083632868354237,BOT: quick reply,What should you NOT do when lowering a load?,2018-09-05 00:53:26
+2083632868354237,Jeongeun,Park,822,2083632868354237,854518728062939,user_typing,Twist your body,2018-09-05 00:53:42
+2083632868354237,Jeongeun,Park,823,854518728062939,2083632868354237,BOT: image,https://www.smartprimer.org:4443/pictures/avatar/congrats/penguinnormal_normal.png,2018-09-05 00:53:43
+2083632868354237,Jeongeun,Park,824,854518728062939,2083632868354237,BOT: message,Good Answer! :white_heavy_check_mark:,2018-09-05 00:53:44
+2083632868354237,Jeongeun,Park,825,854518728062939,2083632868354237,BOT: quick reply,The correct answer is Twist your body.,2018-09-05 00:53:45

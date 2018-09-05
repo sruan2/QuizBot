@@ -11,13 +11,14 @@ import csv
 
 # use the QUIZBOT_DEV database
 # within-subject users: use the QUIZBOT_DEV database
-users = [("Noah Yinuo", "Yao"), ("Dee Dee", "Thao"), ("Zhenqi", "Hu"), ("Jingyi", "Li"), ("Joy", "Yuzuriha"), \
-         ("Andrew", "Ying"), ("Henry", "Qin"), ("Nina", "Horowitz"), ("Daniel", "Do"), ("Fangmingyu", "Yang"), \
-         ("Francis", "Yan"), ("Olivia", "Yang"), ("Ted", "Shaowang"), ("Helen", "Wang"), ("Julia", "Thompson"), \
-         ("De-an", "Huang"), ("Kylie", "Jue"), ("Tyler", "Yep"), ("Giovanni", "Campagna"), ("Jean", "Coquet"), \
-         ("Zhouheng", "Zhuang")]
-users.append(("Julia", "Thompson"))
+#users = [("Noah Yinuo", "Yao"), ("Dee Dee", "Thao"), ("Zhenqi", "Hu"), ("Jingyi", "Li"), ("Joy", "Yuzuriha"), \
+#         ("Andrew", "Ying"), ("Henry", "Qin"), ("Nina", "Horowitz"), ("Daniel", "Do"), ("Fangmingyu", "Yang"), \
+#         ("Francis", "Yan"), ("Olivia", "Yang"), ("Ted", "Shaowang"), ("Helen", "Wang"), ("Julia", "Thompson"), \
+#         ("De-an", "Huang"), ("Kylie", "Jue"), ("Tyler", "Yep"), ("Giovanni", "Campagna"), ("Jean", "Coquet"), \
+#         ("Zhouheng", "Zhuang")]
+#users.append(("Julia", "Thompson"))
 
+users = [("Sherry", "Ruan"), ("Jeongeun", "Park")]
 
 if sys.argv[1] != "" and sys.argv[2] != "":
     users = [(sys.argv[1], sys.argv[2])]

@@ -16,7 +16,7 @@ echo Last Name: "$3"
 
 export DB_PASSWORD="smartprimer"
 export DB_HOST="localhost"
-export DB_USER="ubuntu"
+export DB_USER="root"
 export DB="$1"
 
 python quizbot_analytics.py "$2" "$3"
