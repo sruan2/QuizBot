@@ -18,7 +18,7 @@ import csv
 #         ("Zhouheng", "Zhuang")]
 #users.append(("Julia", "Thompson"))
 
-users = [("Sherry", "Ruan"), ("Jeongeun", "Park")]
+users = [("Sherry", "Ruan"), ("Jeongeun", "Park"), ("Shuo", "Han")]
 
 if sys.argv[1] != "" and sys.argv[2] != "":
     users = [(sys.argv[1], sys.argv[2])]
