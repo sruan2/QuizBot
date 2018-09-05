@@ -197,8 +197,7 @@ for user in time_report:
         output_string += str(day_report[1])
         output_string += "."
         output_string += '{:02}'.format(day_report[2])
-        output_string += ": "
-        output_string += "{:.2f}".format(day_report[3])
+        output_string += ":{:>5.2f}".format(day_report[3])
         output_string += " min"
         output_string += " "*19
         output_string += str(len(practice_report[user][j])) + " -- "
