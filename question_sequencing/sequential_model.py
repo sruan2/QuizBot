@@ -1,5 +1,4 @@
 '''Sequential Model
-
 Sherry Ruan
 2018 September
 '''
@@ -42,7 +41,6 @@ class SequentialModel(BaseSequencingModel):
 
     def pickNextQuestion(self, user_id=0, subject='random'):
         '''Pick next question randomly
-
         Returns:
             Data dictionary: {'question':
                               'qid' :
@@ -66,7 +64,9 @@ class SequentialModel(BaseSequencingModel):
         print('Sci count:', count['science'])
         print('GRE count:', count['gre'])
         print('Safety count:', count['safety'])
+        print('All safety:', self.user_questions_counts["safety"][user_id])
         print('Total:', total_count)
+
         if total_count in self.block_counts[user_id]:
             print(self.block_counts[user_id])
             self.block_counts[user_id].pop()
@@ -77,16 +77,25 @@ class SequentialModel(BaseSequencingModel):
             raise FinishFixQuestionsStudy
 
         if subject == 'random':
-            subject = min(count, key=count.get)
-
-        d = self.user_questions_counts[subject][user_id]
-        print(subject, d)
-        # if subject is not random, then pick from the respective subject question bank
-        QID = min(d, key=d.get)
-        if d[QID] >= 2:
-            raise SubjectEnoughQuestions
-        print("Select {} (count={})".format(QID, d[QID]))
-        d[QID] += 1
+            _QID_counts = {}
+            _QID_subject ={}
+            for _subject in ('science', 'safety', 'gre'):
+                _subject_d = self.user_questions_counts[_subject][user_id]
+                _qid = min(_subject_d, key=_subject_d.get)
+                _QID_counts[_qid] = _subject_d[_qid]
+                _QID_subject[_qid] = _subject
+            QID = min(_QID_counts, key=_QID_counts.get)
+            d = self.user_questions_counts[_QID_subject[QID]][user_id]
+            d[QID] += 1
+        else:
+            d = self.user_questions_counts[subject][user_id]
+            print(subject, d)
+            # if subject is not random, then pick from the respective subject question bank
+            QID = min(d, key=d.get)
+            if d[QID] >= 2:
+                raise SubjectEnoughQuestions
+            d[QID] += 1
+        print("Select {} (prev count={})".format(QID, d[QID]-1))
 
         data = {'question': self.QA_KB.QKB[QID],
                 'qid': [QID, self.QA_KB.QID[QID]],
