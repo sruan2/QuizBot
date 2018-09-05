@@ -2,7 +2,7 @@
     flashcard_analytics.py
     Author: Liwei Jiang
     Date: 08/01/2018
-    Usage: 
+    Usage:
         Request the flashcard user record from MySQL database.
 '''
 import datetime
@@ -23,7 +23,7 @@ users = [("Golrokh", "Emami"), ("Cynthia", "Torma"), ("Jordan", "Cho"), ("Laura"
          ("Nina", "Wei"), ("Jessica", "de la Paz"), ("Janice", "Zang"), ("Grace", "Hong"), \
          ("Yufeng", "Yin"), ("Jorge", "Nam")]
 
-users.append(("3", "3"))
+users.extend([("5", "5"), ("4", "4"), ("9", "9"), ("Jeongeun", "Park"), ("shuo", "han")])
 
 # request a single user's record specified in command line
 if sys.argv[1] != "" and sys.argv[2] != "":

@@ -1,5 +1,5 @@
 '''
-    flashcard_user_data.py
+    flashcard_user_data_batch4.py
     Author: Liwei Jiang
     Date: 02/08/2018
     Usage: Calculate the usage time of the QuizBot app for a user.
@@ -12,20 +12,7 @@ from datetime import datetime
 dirname = os.path.dirname(__file__)
 result_filename = "flashcard_data_analysis.txt"
 
-# Past Pilot Users: "Allie_Blaising", "Phoebe_Kimm", "Nik_Marda"
-#users = ["Golrokh_Emami", "Cynthia_Torma", "Jordan_Cho", "Laura_Davey", "Courtney_Smith", \
-#         "Marianne_Cowherd", "Tugce_Tasci", "Edgar_Rios", "Kimberly_Ha", "Sen_Wu", "Max_Cobb"]
-
-users = ["Yinuo_Yao", "Dee Dee_Thao", "Jenn_Hu", "jingyi_li", "Joy_Yuzuriha", "Tyler_Yep", \
-         "Andrew_Ying", "Henry_Qin", "Nina_Horowitz", "Daniel_Do", "Claire_Yang", "Olivia_Yang", \
-         "Wangjianzhe_Shao", "Helen_Wang", "Francis_Yan", "De-An_Huang", "Kylie_Jue", \
-         "Giovanni_Campagna", "Jean_Coquet", "Philip_Zhuang", "yue_hui", "Clayton_Ellington", \
-         "Nathaniel_Ramos", "Paul_Walter", "Flora_Wang", "Christine_Liu", "Maisam_Pyarali", \
-         "Nathan_Dalal", "Sorathan_Chaturapruek", "Daniel_Choe", "Owen_Wang", "Richard_Xu", \
-         "Yang_Wang", "Hongsheng_Fang", "Michael_Solorio", "Nina_Wei", "Jessica_de la Paz", \
-         "Janice_Zang", "Grace_Hong"]
-
-users.extend(["Yufeng_Yin", "Jorge_Nam", "5_5", "Jeongeun_Park"])
+users = ["4_4", "5_5", "9_9","Jeongeun_Park","shuo_han"]
 
 if len(sys.argv) == 3:
     users = [sys.argv[1] + "_" + sys.argv[2]]
@@ -99,6 +86,10 @@ for user in users:
     question_correctness_rate[user] = {}
 
     events = [int(x[QID_INDEX]) for x in flashcard_file if (x[EVENT_INDEX] == "I don't know" or x[EVENT_INDEX] == "got it") and int(x[QID_INDEX]) in flashcard_qid]
+    print("--------------------------------")
+    print(user)
+    events.sort()
+    print(events)
     events_correct = [int(x[QID_INDEX]) for x in flashcard_file if x[EVENT_INDEX] == "got it" and int(x[QID_INDEX]) in flashcard_qid]
     qid_in_postquiz_seen = set(events)&postquiz_qid
     qualtricsID_in_postquiz_seen = [qid_2_qualtricsID_dict[qid] for qid in qid_in_postquiz_seen]
@@ -112,7 +103,7 @@ for user in users:
             question_correctness_rate[user][q] = ''
         else:
             question_correctness_rate[user][q] = round(float(events_correct.count(q)) / float(events.count(q)), 2)
-    
+
 output_string = ""
 for user in time_report:
     total_time = 0

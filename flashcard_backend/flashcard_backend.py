@@ -53,8 +53,8 @@ model = SequentialModel(qa_kb)
 # model_within_subject = RandomSequencingModel(qa_kb_within_subject)
 
 
-user_within_subject = { # "902902333": "Liwei Jiang"
-                      }
+user_within_subject = { }
+# "902902333": "Liwei Jiang"
 
 user_finished_study = { #"379832172": "Anonymous Tester",
                         "239435253": "Giovanni Campagna", "1407190745": "Jean Coquet",
