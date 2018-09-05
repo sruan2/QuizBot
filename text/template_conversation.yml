@@ -124,7 +124,7 @@ TEMPLATE:
     - OK 💥
     - OK 👍🏼
     - OK 👏🏼
-    - OK ✔️ 
+    - OK ✔️
     - I see 💡
     - I see 👊🏼
     - I see 💪🏼
@@ -135,10 +135,10 @@ TEMPLATE:
     - I see 💥
     - I see 👍🏼
     - I see 👏🏼
-    - I see ✔️ 
+    - I see ✔️
 
   ANOTHER_JOKE:
-    - Another joke 😁 
+    - Another joke 😁
     - One more joke 😁
 
   ANOTHER_FUN_FACT_SCIENCE:
@@ -198,7 +198,7 @@ TEMPLATE:
     - Thanks for the feedback! I'll take a note of that! 👍🏼
 
   BUGTYPE:
-    - You can type in the bug in a few words 😄 
+    - You can type in the bug in a few words 😄
     - Okay, can you type in the bug in a few words 😄
     - Okay, could you type in the bug in a few words 😄
     - Okay, could you type in the problem 😄
@@ -226,14 +226,14 @@ TEMPLATE:
     - Correct! 🎊
     - Good job! 🙌🏼
     - Nice! 🍎
-    - Good Answer! ✅ 
+    - Good Answer! ✅
     - Fantastic! 💯
 
   SUBJECT:
     - SCIENCE
     - GRE
     - SAFETY
-    
+
   SCIENCE:
     - All right! I’ll quiz you on science!
     - Okay! Let’s see how much you know about science!
@@ -280,7 +280,7 @@ TEMPLATE:
     - All right! A little bit of everything! 🎲
     - I see you! Let's leave it up to chance! 🎲
     - Cool! Let's learn everything! 🎲
-    - Let's answer some questions about everything! 🎲 
+    - Let's answer some questions about everything! 🎲
     - Let's quiz you on a little bit of everything! 🎲
     - Nice! Enjoy a little variety? Let's answer some questions! 🎲
 
@@ -305,8 +305,8 @@ TEMPLATE:
     - No worries! You'll get it next time! 😄
 
   ENCOURAGE_NO_GIVEUP:
-    - Okay! Let's try again 💪🏼 
-    - Sure, let's try this again! 
+    - Okay! Let's try again 💪🏼
+    - Sure, let's try this again!
     - Try again!
     - Alright! Let's do it again!
     - Don't give up!
@@ -314,7 +314,7 @@ TEMPLATE:
 
   ENCOURAGE:
     - Keep up the good work!
-    - Keep it up! 
+    - Keep it up!
     - Nice job! Keep going!
     - Great job! Keep going!
     - Good job! Keep up the good work!
@@ -323,7 +323,7 @@ TEMPLATE:
     - I'm sorry, but that was incorrect. 😞
     - That's not quite right. 😞
     - Oops, that wasn't quite correct. 😞
-    - Hmm, that wasn't quite right. 😞 
+    - Hmm, that wasn't quite right. 😞
     - Oops, that is not correct. 😞
 
   CORRECT_HINT:
@@ -470,7 +470,7 @@ STATE:
         TEMPLATE
       text:
         PLEASE_TYPE
-    quick_reply:  
+    quick_reply:
       message:
         source:
           LOCAL
@@ -487,7 +487,7 @@ STATE:
         - I_DONT_KNOW
 
   CORRECT_ANSWER:
-    quick_reply:  
+    quick_reply:
       message:
         source:
           LOCAL
@@ -549,7 +549,7 @@ STATE:
         TEMPLATE
       text:
         EXPLANATION
-    quick_reply:  
+    quick_reply:
       message:
         source:
           LOCAL
@@ -567,28 +567,28 @@ STATE:
 
   REMINDER:
     image:
-        template_type: 
+        template_type:
           image
-        image_url: 
+        image_url:
           - https://www.smartprimer.org:{}/pictures/avatar/penguinnormal_happy.png
-    quick_reply:  
+    quick_reply:
       message:
         source:
           LOCAL
         text:
-          Hi {}, you haven't talked to me for a while. Would you like to resume the learning with me?
+          Hi {}, remember to practice some questions with me if you haven't finished your session today!
       source:
         - TEMPLATE
       title:
         - GOT_IT
       payload:
-        - NEXT_QUESTION 
+        - NEXT_QUESTION
 
   CONGRATULATION:
     image:
-      template_type: 
+      template_type:
         image
-      image_url: 
+      image_url:
         - https://www.smartprimer.org:{}/pictures/avatar/congrats/penguinnormal_happy_cyan.png
         - https://www.smartprimer.org:{}/pictures/avatar/congrats/penguinnormal_happy_orange.png
         - https://www.smartprimer.org:{}/pictures/avatar/congrats/penguinnormal_happy_pink.png
@@ -608,76 +608,76 @@ STATE:
     persistent_menu:
       - locale:
           default
-        composer_input_disabled: 
+        composer_input_disabled:
           False
         call_to_actions:
-          - title: 
+          - title:
               Change Subject 🔀
-            type: 
+            type:
               nested
             call_to_actions:
-              - title: 
+              - title:
                   Science🔬
-                type: 
+                type:
                   postback
-                payload: 
+                payload:
                   SCIENCE
-              - title: 
+              - title:
                   GRE 🔠
-                type: 
+                type:
                   postback
-                payload: 
+                payload:
                   GRE
-              - title: 
+              - title:
                   Safety🛠
-                type: 
+                type:
                   postback
-                payload: 
+                payload:
                   SAFETY
-              - title: 
+              - title:
                   Random 🎲
-                type: 
+                type:
                   postback
-                payload: 
+                payload:
                   RANDOM
-          - title: 
+          - title:
               Chat with Me 🐧
-            type: 
+            type:
               postback
-            payload: 
+            payload:
               CHAT_WITH_ME
-          - title: 
+          - title:
               More📍
-            type: 
+            type:
               nested
             call_to_actions:
-              - title: 
+              - title:
                   Report Bug 🔧
-                type: 
+                type:
                   postback
-                payload: 
+                payload:
                   REPORT_BUG
-              - title: 
+              - title:
                   User Manual 👩🏻‍💻👨🏻‍💻
-                type: 
+                type:
                   postback
                 payload:
                   USER_MANUAL_1
-              - title: 
+              - title:
                   About QuizBot 🔖
-                type: 
+                type:
                   postback
-                payload: 
+                payload:
                   ABOUT_QUIZBOT_1
-              - title: 
+              - title:
                   Contact ☎️
-                type: 
+                type:
                   postback
-                payload: 
+                payload:
                   CONTACT
-                  
+
   GET_STARTED:
     get_started:
-      payload: 
+      payload:
         GET_INTRO_1
 
