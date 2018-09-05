@@ -1044,11 +1044,11 @@ def map_question_pool_index_qid():
 
 
 	for i in range(len(flashcard_data)):
-		flashcard_question_pool_index_to_qid[i] = flashcard_data[i]["id"]
+		flashcard_question_pool_index_to_qid[flashcard_data[i]["id"]] = i
 		flashcard_question_pool_id.append(flashcard_data[i]["id"])
 
 	for i in range(len(quizbot_data)):
-		quizbot_question_pool_index_to_qid[i] = quizbot_data[i]["id"]
+		quizbot_question_pool_index_to_qid[quizbot_data[i]["id"]] = i
 		quizbot_question_pool_id.append(quizbot_data[i]["id"])
 
 	print(flashcard_question_pool_index_to_qid)
