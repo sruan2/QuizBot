@@ -1,0 +1,284 @@
+user_id,user_firstname,user_lastname,uid,sender,recipient,type,dialogue,time_stamp
+2247181185324593,Heidi,He,1524,2247181185324593,854518728062939,persistent_menu: GET_INTRO_1,Get Started,2018-09-05 18:46:05
+2247181185324593,Heidi,He,1525,854518728062939,2247181185324593,BOT: image,https://www.smartprimer.ai:4443/pictures/avatar/quizbot_avatar.png,2018-09-05 18:46:09
+2247181185324593,Heidi,He,1526,854518728062939,2247181185324593,BOT: quick reply,"Hi Heidi! My name is Frosty :penguin: and I’m here to help you learn all about science:microscope:, verbal reasoning (GRE) :input_latin_uppercase:, and safety:hammer_and_wrench:!",2018-09-05 18:46:09
+2247181185324593,Heidi,He,1527,854518728062939,2247181185324593,BOT: message,Here’s how it works.,2018-09-05 18:46:17
+2247181185324593,Heidi,He,1528,854518728062939,2247181185324593,BOT: message,"I ask you questions, and you give me answers.",2018-09-05 18:46:17
+2247181185324593,Heidi,He,1529,854518728062939,2247181185324593,BOT: quick reply,We will learn fun things together!,2018-09-05 18:46:18
+2247181185324593,Heidi,He,1530,2247181185324593,854518728062939,user_quick_reply: GET_INTRO_3,OK :white_heavy_check_mark:,2018-09-05 18:46:32
+2247181185324593,Heidi,He,1531,854518728062939,2247181185324593,BOT: image,https://www.smartprimer.ai:4443/pictures/user_manual/typeanswer.png,2018-09-05 18:46:35
+2247181185324593,Heidi,He,1532,854518728062939,2247181185324593,BOT: quick reply,"To study the questions, you can type in your answers in the text field and I will evaluate the answers for you using advanced NLP (Natural Language Processing) technology.",2018-09-05 18:46:36
+2247181185324593,Heidi,He,1533,2247181185324593,854518728062939,persistent_menu: CHAT_WITH_ME,Chat with Me :penguin:,2018-09-05 18:47:28
+2247181185324593,Heidi,He,1534,854518728062939,2247181185324593,BOT: quick reply,Great! I have something fun for you!,2018-09-05 18:47:29
+2247181185324593,Heidi,He,1535,2247181185324593,854518728062939,persistent_menu: USER_MANUAL_1,User Manual :woman_technologist_light_skin_tone::man_technologist_light_skin_tone:,2018-09-05 18:47:38
+2247181185324593,Heidi,He,1536,854518728062939,2247181185324593,BOT: image,https://www.smartprimer.ai:4443/pictures/user_manual/typeanswer.png,2018-09-05 18:47:41
+2247181185324593,Heidi,He,1537,854518728062939,2247181185324593,BOT: quick reply,"To study the questions, you can type in your answers in the text field and I will evaluate the answers for you using advanced NLP (Natural Language Processing) technology.",2018-09-05 18:47:42
+2247181185324593,Heidi,He,1630,854518728062939,2247181185324593,BOT: quick reply,"Hi Heidi, remember to practice some questions with me if you haven't finished your session today!",2018-09-05 20:00:04
+2247181185324593,Heidi,He,2858,2247181185324593,854518728062939,user_quick_reply: NEXT_QUESTION,"Yes, continue :flexed_biceps_medium-light_skin_tone:",2018-09-05 23:55:41
+2247181185324593,Heidi,He,2859,854518728062939,2247181185324593,BOT: message,I think you'll like this question.,2018-09-05 23:55:41
+2247181185324593,Heidi,He,2860,854518728062939,2247181185324593,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-09-05 23:55:42
+2247181185324593,Heidi,He,2861,854518728062939,2247181185324593,BOT: quick reply,What kind of viscosity is found in long-chain hydrocarbons?,2018-09-05 23:55:43
+2247181185324593,Heidi,He,2862,2247181185324593,854518728062939,user_quick_reply: NEXT_QUESTION,"Yes, continue :flexed_biceps_medium-light_skin_tone:",2018-09-05 23:56:00
+2247181185324593,Heidi,He,2863,854518728062939,2247181185324593,BOT: message,Let's try this question.,2018-09-05 23:56:01
+2247181185324593,Heidi,He,2864,854518728062939,2247181185324593,BOT: quick reply,"Although John F. Kennedy was known for his carefree flag football games, Gerald Ford should be _____ as our football president: he turned down offers to play for two National Football League teams in order to pursue a career in public service.",2018-09-05 23:56:02
+2247181185324593,Heidi,He,2865,2247181185324593,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-05 23:56:02
+2247181185324593,Heidi,He,2866,854518728062939,2247181185324593,BOT: message,Pick one of the following answers.,2018-09-05 23:56:03
+2247181185324593,Heidi,He,2867,854518728062939,2247181185324593,BOT: quick reply,":keycap_1: apotheosized
+:keycap_2: abrogated
+:keycap_3: annulled
+:keycap_4: criticized
+:keycap_5: relegated
+",2018-09-05 23:56:04
+2247181185324593,Heidi,He,2868,2247181185324593,854518728062939,user_quick_reply: BUTTON_AKB_apotheosized,:keycap_1:,2018-09-05 23:56:55
+2247181185324593,Heidi,He,2869,854518728062939,2247181185324593,BOT: message,Nice work! Keep it up!,2018-09-05 23:56:56
+2247181185324593,Heidi,He,2870,854518728062939,2247181185324593,BOT: quick reply,The correct answer is apotheosized.,2018-09-05 23:56:56
+2247181185324593,Heidi,He,2871,2247181185324593,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-05 23:57:55
+2247181185324593,Heidi,He,2872,854518728062939,2247181185324593,BOT: message,Let's take a look at this question.,2018-09-05 23:57:56
+2247181185324593,Heidi,He,2873,854518728062939,2247181185324593,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-09-05 23:57:57
+2247181185324593,Heidi,He,2874,854518728062939,2247181185324593,BOT: quick reply,What living species of bird is considered the largest of the raptors?,2018-09-05 23:57:58
+2247181185324593,Heidi,He,2875,2247181185324593,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-05 23:58:37
+2247181185324593,Heidi,He,2876,854518728062939,2247181185324593,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-09-05 23:58:38
+2247181185324593,Heidi,He,2877,854518728062939,2247181185324593,BOT: quick reply,":keycap_1: California condor
+:keycap_2: golden eagles
+:keycap_3: peregrine falcon
+:keycap_4: pterodactyl
+",2018-09-05 23:58:39
+2247181185324593,Heidi,He,2878,2247181185324593,854518728062939,user_typing,3,2018-09-05 23:58:54
+2247181185324593,Heidi,He,2879,854518728062939,2247181185324593,BOT: message,"Oops, that answer was incorrect. :disappointed_face:",2018-09-05 23:58:55
+2247181185324593,Heidi,He,2880,854518728062939,2247181185324593,BOT: quick reply,The correct answer is golden eagles.,2018-09-05 23:58:56
+2247181185324593,Heidi,He,2881,2247181185324593,854518728062939,user_quick_reply: WHY,Why?,2018-09-05 23:59:21
+2247181185324593,Heidi,He,2882,854518728062939,2247181185324593,BOT: message,Here's why:,2018-09-05 23:59:22
+2247181185324593,Heidi,He,2883,854518728062939,2247181185324593,BOT: quick reply,"Although not as famous as its bald cousin, Golden Eagles are much easier to find in Northern California - one of the largest breeding populations for Golden Eagles. The largest of the raptors, Golden Eagles weigh typically between 8 and 12 pounds, and their wing span is around 6 to 7 feet. These eagles dive towards earth to catch prey, and can reach speeds of up to 200 mph!",2018-09-05 23:59:23
+2247181185324593,Heidi,He,2884,2247181185324593,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-09-06 00:00:22
+2247181185324593,Heidi,He,2885,854518728062939,2247181185324593,BOT: message,Let's try this question.,2018-09-06 00:00:23
+2247181185324593,Heidi,He,2886,854518728062939,2247181185324593,BOT: quick reply,"Despite the smile that spread from ear to ear, the eyes relayed a certain _____ .",2018-09-06 00:00:24
+2247181185324593,Heidi,He,2887,2247181185324593,854518728062939,user_quick_reply: I_DONT_KNOW,I don’t know :downcast_face_with_sweat:,2018-09-06 00:00:31
+2247181185324593,Heidi,He,2888,854518728062939,2247181185324593,BOT: quick reply,Do you really want to skip this question?,2018-09-06 00:00:32
+2247181185324593,Heidi,He,2889,2247181185324593,854518728062939,user_quick_reply: GIVEUP_YES,"Yes, answer please.",2018-09-06 00:00:37
+2247181185324593,Heidi,He,2890,854518728062939,2247181185324593,BOT: message,You didn't get this question this time.,2018-09-06 00:00:38
+2247181185324593,Heidi,He,2891,854518728062939,2247181185324593,BOT: message,"Don't give up, you'll get it next time! :grinning_face_with_smiling_eyes:",2018-09-06 00:00:39
+2247181185324593,Heidi,He,2892,854518728062939,2247181185324593,BOT: quick reply,The correct answer is sorrow.,2018-09-06 00:00:40
+2247181185324593,Heidi,He,2893,2247181185324593,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-06 00:01:06
+2247181185324593,Heidi,He,2894,854518728062939,2247181185324593,BOT: message,Could you answer this one for me?,2018-09-06 00:01:07
+2247181185324593,Heidi,He,2895,854518728062939,2247181185324593,BOT: quick reply,What opens two strands of DNA?,2018-09-06 00:01:08
+2247181185324593,Heidi,He,2896,2247181185324593,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-06 00:01:28
+2247181185324593,Heidi,He,2897,854518728062939,2247181185324593,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-09-06 00:01:29
+2247181185324593,Heidi,He,2898,854518728062939,2247181185324593,BOT: quick reply,":keycap_1: helicase
+:keycap_2: chromosome
+:keycap_3: adenylate
+:keycap_4: replication
+",2018-09-06 00:01:30
+2247181185324593,Heidi,He,2899,2247181185324593,854518728062939,user_typing,Liwei,2018-09-06 00:01:47
+2247181185324593,Heidi,He,2900,854518728062939,2247181185324593,BOT: message,That wasn't quite what we were looking for. :disappointed_face:,2018-09-06 00:01:48
+2247181185324593,Heidi,He,2901,854518728062939,2247181185324593,BOT: quick reply,The correct answer is helicase.,2018-09-06 00:01:48
+2247181185324593,Heidi,He,2902,2247181185324593,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-06 00:01:56
+2247181185324593,Heidi,He,2903,854518728062939,2247181185324593,BOT: message,Let's see if you can answer this question.,2018-09-06 00:01:57
+2247181185324593,Heidi,He,2904,854518728062939,2247181185324593,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-09-06 00:01:57
+2247181185324593,Heidi,He,2905,854518728062939,2247181185324593,BOT: quick reply,"Dolly Madison, the wife of President James Madison, was known especially for her _____ , remaining calm even as the British invaded Washington D.C. during the War of 1812.",2018-09-06 00:01:58
+2247181185324593,Heidi,He,2906,2247181185324593,854518728062939,user_quick_reply: I_DONT_KNOW,I don’t know :downcast_face_with_sweat:,2018-09-06 00:02:17
+2247181185324593,Heidi,He,2907,854518728062939,2247181185324593,BOT: quick reply,Are you sure you want to give up?,2018-09-06 00:02:18
+2247181185324593,Heidi,He,2908,2247181185324593,854518728062939,user_quick_reply: GIVEUP_YES,"Yes, answer please.",2018-09-06 00:02:23
+2247181185324593,Heidi,He,2909,854518728062939,2247181185324593,BOT: message,You didn't get this question this time.,2018-09-06 00:02:24
+2247181185324593,Heidi,He,2910,854518728062939,2247181185324593,BOT: message,"That's fine, you'll nail it next time! :grinning_face_with_smiling_eyes:",2018-09-06 00:02:24
+2247181185324593,Heidi,He,2911,854518728062939,2247181185324593,BOT: quick reply,The correct answer is equanimity.,2018-09-06 00:02:25
+2247181185324593,Heidi,He,2912,2247181185324593,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-06 00:02:33
+2247181185324593,Heidi,He,2913,854518728062939,2247181185324593,BOT: message,See if you can answer this next one.,2018-09-06 00:02:34
+2247181185324593,Heidi,He,2914,854518728062939,2247181185324593,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-09-06 00:02:35
+2247181185324593,Heidi,He,2915,854518728062939,2247181185324593,BOT: quick reply,"Even though legislators claimed the Contagious Diseases Acts strengthened the nation, social purists argued the Acts _____ the nation's moral growth by encouraging licentious behavior.",2018-09-06 00:02:35
+2247181185324593,Heidi,He,2916,2247181185324593,854518728062939,user_quick_reply: I_DONT_KNOW,I don’t know :downcast_face_with_sweat:,2018-09-06 00:04:44
+2247181185324593,Heidi,He,2917,854518728062939,2247181185324593,BOT: quick reply,Do you really want to skip this question?,2018-09-06 00:04:45
+2247181185324593,Heidi,He,2918,2247181185324593,854518728062939,user_quick_reply: GIVEUP_YES,"Yes, answer please.",2018-09-06 00:04:52
+2247181185324593,Heidi,He,2919,854518728062939,2247181185324593,BOT: message,You didn't get this question this time.,2018-09-06 00:04:53
+2247181185324593,Heidi,He,2920,854518728062939,2247181185324593,BOT: message,"Don't give up, you'll get it next time! :grinning_face_with_smiling_eyes:",2018-09-06 00:04:54
+2247181185324593,Heidi,He,2921,854518728062939,2247181185324593,BOT: quick reply,The correct answer is hampered.,2018-09-06 00:04:55
+2247181185324593,Heidi,He,2922,2247181185324593,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-06 00:05:05
+2247181185324593,Heidi,He,2923,854518728062939,2247181185324593,BOT: message,"Alrighty, let's try this one.",2018-09-06 00:05:06
+2247181185324593,Heidi,He,2924,854518728062939,2247181185324593,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-09-06 00:05:07
+2247181185324593,Heidi,He,2925,854518728062939,2247181185324593,BOT: quick reply,What should you NOT do when lowering a load?,2018-09-06 00:05:07
+2247181185324593,Heidi,He,2926,2247181185324593,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-06 00:06:04
+2247181185324593,Heidi,He,2927,854518728062939,2247181185324593,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-09-06 00:06:04
+2247181185324593,Heidi,He,2928,854518728062939,2247181185324593,BOT: quick reply,":keycap_1: Twist your body, keep the load close, and bend your knees
+:keycap_2: Keep the load close to your body
+:keycap_3: Twist your body
+:keycap_4: Bend your knees
+",2018-09-06 00:06:05
+2247181185324593,Heidi,He,2937,2247181185324593,854518728062939,user_quick_reply: I_DONT_KNOW,I don’t know :downcast_face_with_sweat:,2018-09-06 00:06:42
+2247181185324593,Heidi,He,2938,854518728062939,2247181185324593,BOT: quick reply,Do you really want to give up?,2018-09-06 00:06:43
+2247181185324593,Heidi,He,2942,2247181185324593,854518728062939,user_quick_reply: GIVEUP_YES,"Yes, answer please.",2018-09-06 00:06:48
+2247181185324593,Heidi,He,2943,854518728062939,2247181185324593,BOT: message,You didn't get this question this time.,2018-09-06 00:06:48
+2247181185324593,Heidi,He,2944,854518728062939,2247181185324593,BOT: message,"Don't give up, you'll get it next time! :grinning_face_with_smiling_eyes:",2018-09-06 00:06:49
+2247181185324593,Heidi,He,2945,854518728062939,2247181185324593,BOT: quick reply,The correct answer is Twist your body.,2018-09-06 00:06:50
+2247181185324593,Heidi,He,2952,2247181185324593,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-06 00:06:57
+2247181185324593,Heidi,He,2953,854518728062939,2247181185324593,BOT: message,What about this next question:,2018-09-06 00:06:58
+2247181185324593,Heidi,He,2954,854518728062939,2247181185324593,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-09-06 00:06:59
+2247181185324593,Heidi,He,2955,854518728062939,2247181185324593,BOT: quick reply,"Having squandered his life's savings on unprofitable business ventures, the _____ entrepreneur was forced to live in squalor.",2018-09-06 00:07:00
+2247181185324593,Heidi,He,2959,2247181185324593,854518728062939,user_quick_reply: I_DONT_KNOW,I don’t know :downcast_face_with_sweat:,2018-09-06 00:07:05
+2247181185324593,Heidi,He,2960,854518728062939,2247181185324593,BOT: quick reply,Are you sure you want to skip this question?,2018-09-06 00:07:06
+2247181185324593,Heidi,He,2961,2247181185324593,854518728062939,user_quick_reply: GIVEUP_YES,"Yes, answer please.",2018-09-06 00:07:11
+2247181185324593,Heidi,He,2962,854518728062939,2247181185324593,BOT: message,You didn't get it right this time.,2018-09-06 00:07:12
+2247181185324593,Heidi,He,2963,854518728062939,2247181185324593,BOT: message,"That's fine, you'll nail it next time! :grinning_face_with_smiling_eyes:",2018-09-06 00:07:13
+2247181185324593,Heidi,He,2964,854518728062939,2247181185324593,BOT: quick reply,The correct answer is insolvent.,2018-09-06 00:07:14
+2247181185324593,Heidi,He,2969,2247181185324593,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-06 00:07:23
+2247181185324593,Heidi,He,2970,854518728062939,2247181185324593,BOT: message,I think you'll like this question.,2018-09-06 00:07:24
+2247181185324593,Heidi,He,2971,854518728062939,2247181185324593,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-09-06 00:07:24
+2247181185324593,Heidi,He,2972,854518728062939,2247181185324593,BOT: quick reply,"In psychological literature, the ""sleeper effect"" refers to the phenomenon in which a persuasive message from a trustworthy source loses _____ over time, while the efficacy of a message from a less credible source simultaneously increases.",2018-09-06 00:07:25
+2247181185324593,Heidi,He,2987,2247181185324593,854518728062939,user_quick_reply: I_DONT_KNOW,I don’t know :downcast_face_with_sweat:,2018-09-06 00:07:54
+2247181185324593,Heidi,He,2988,854518728062939,2247181185324593,BOT: quick reply,Do you really want to skip this question?,2018-09-06 00:07:54
+2247181185324593,Heidi,He,2996,2247181185324593,854518728062939,user_quick_reply: GIVEUP_YES,"Yes, answer please.",2018-09-06 00:08:21
+2247181185324593,Heidi,He,2997,854518728062939,2247181185324593,BOT: message,You didn't get it right this time.,2018-09-06 00:08:22
+2247181185324593,Heidi,He,2998,854518728062939,2247181185324593,BOT: message,"That's fine, you'll nail it next time! :grinning_face_with_smiling_eyes:",2018-09-06 00:08:23
+2247181185324593,Heidi,He,2999,854518728062939,2247181185324593,BOT: quick reply,The correct answer is cogency.,2018-09-06 00:08:24
+2247181185324593,Heidi,He,3003,2247181185324593,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-06 00:08:33
+2247181185324593,Heidi,He,3004,854518728062939,2247181185324593,BOT: message,How about this next one:,2018-09-06 00:08:34
+2247181185324593,Heidi,He,3006,854518728062939,2247181185324593,BOT: quick reply,"Just as different people can have very different personalities, so too can pets - even those of the same species and breed possess varied _____ .",2018-09-06 00:08:35
+2247181185324593,Heidi,He,3009,2247181185324593,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-06 00:08:41
+2247181185324593,Heidi,He,3010,854518728062939,2247181185324593,BOT: message,Pick one of the following answers.,2018-09-06 00:08:42
+2247181185324593,Heidi,He,3011,854518728062939,2247181185324593,BOT: quick reply,":keycap_1: aptitudes
+:keycap_2: rationalizations
+:keycap_3: implementations
+:keycap_4: initiations
+:keycap_5: temperaments
+",2018-09-06 00:08:43
+2247181185324593,Heidi,He,3012,2247181185324593,854518728062939,user_quick_reply: I_DONT_KNOW,I don’t know :downcast_face_with_sweat:,2018-09-06 00:10:52
+2247181185324593,Heidi,He,3013,854518728062939,2247181185324593,BOT: quick reply,Do you really want to skip this question?,2018-09-06 00:10:53
+2247181185324593,Heidi,He,3014,2247181185324593,854518728062939,user_quick_reply: GIVEUP_YES,"Yes, answer please.",2018-09-06 00:11:02
+2247181185324593,Heidi,He,3015,854518728062939,2247181185324593,BOT: message,You didn't get it right this time.,2018-09-06 00:11:03
+2247181185324593,Heidi,He,3016,854518728062939,2247181185324593,BOT: message,"That's fine, you'll nail it next time! :grinning_face_with_smiling_eyes:",2018-09-06 00:11:03
+2247181185324593,Heidi,He,3017,854518728062939,2247181185324593,BOT: quick reply,The correct answer is temperaments.,2018-09-06 00:11:04
+2247181185324593,Heidi,He,3018,2247181185324593,854518728062939,user_quick_reply: SWITCH_SUBJECT,Change subject :shuffle_tracks_button:,2018-09-06 00:11:41
+2247181185324593,Heidi,He,3019,854518728062939,2247181185324593,BOT: quick reply,"Sure, which subject would you like me to quiz you on?:backhand_index_pointing_down_medium-light_skin_tone:",2018-09-06 00:11:42
+2247181185324593,Heidi,He,3020,2247181185324593,854518728062939,user_quick_reply: GRE,GRE :input_latin_uppercase:,2018-09-06 00:11:47
+2247181185324593,Heidi,He,3021,854518728062939,2247181185324593,BOT: quick reply,Awesome! Let's learn about the GRE!,2018-09-06 00:11:47
+2247181185324593,Heidi,He,3022,2247181185324593,854518728062939,user_quick_reply: NEXT_QUESTION,OK :raising_hands_medium-light_skin_tone:,2018-09-06 00:11:51
+2247181185324593,Heidi,He,3023,854518728062939,2247181185324593,BOT: message,Would you answer this question for me?,2018-09-06 00:11:52
+2247181185324593,Heidi,He,3024,854518728062939,2247181185324593,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-09-06 00:11:53
+2247181185324593,Heidi,He,3025,854518728062939,2247181185324593,BOT: quick reply,Many Major League Baseball relief pitchers choose an electrifying theme song to play as they take the mound; the song _____ their fans and instills fear in their opponents.,2018-09-06 00:11:53
+2247181185324593,Heidi,He,3026,2247181185324593,854518728062939,user_quick_reply: I_DONT_KNOW,I don’t know :downcast_face_with_sweat:,2018-09-06 00:12:06
+2247181185324593,Heidi,He,3027,854518728062939,2247181185324593,BOT: quick reply,Do you really want to skip this question?,2018-09-06 00:12:07
+2247181185324593,Heidi,He,3028,2247181185324593,854518728062939,user_quick_reply: GIVEUP_YES,"Yes, answer please.",2018-09-06 00:12:12
+2247181185324593,Heidi,He,3029,854518728062939,2247181185324593,BOT: message,You didn't get it right this time.,2018-09-06 00:12:13
+2247181185324593,Heidi,He,3030,854518728062939,2247181185324593,BOT: message,"Don't give up, you'll get it next time! :grinning_face_with_smiling_eyes:",2018-09-06 00:12:14
+2247181185324593,Heidi,He,3031,854518728062939,2247181185324593,BOT: quick reply,The correct answer is innervates.,2018-09-06 00:12:14
+2247181185324593,Heidi,He,3032,2247181185324593,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-06 00:12:22
+2247181185324593,Heidi,He,3033,854518728062939,2247181185324593,BOT: message,Let's take a look at this question.,2018-09-06 00:12:22
+2247181185324593,Heidi,He,3034,854518728062939,2247181185324593,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-09-06 00:12:23
+2247181185324593,Heidi,He,3035,854518728062939,2247181185324593,BOT: quick reply,"Many dog owners treat their pets too _____ , forgetting that canines have evolved in competitive environments in which emotional coddling was a sign of weakness.",2018-09-06 00:12:24
+2247181185324593,Heidi,He,3036,2247181185324593,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-06 00:12:44
+2247181185324593,Heidi,He,3037,854518728062939,2247181185324593,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-09-06 00:12:45
+2247181185324593,Heidi,He,3038,854518728062939,2247181185324593,BOT: quick reply,":keycap_1: aggressively
+:keycap_2: belligerently
+:keycap_3: fortuitously
+:keycap_4: indulgently
+:keycap_5: quixotically
+",2018-09-06 00:12:46
+2247181185324593,Heidi,He,3039,2247181185324593,854518728062939,user_quick_reply: BUTTON_DKB_belligerently,:keycap_2:,2018-09-06 00:12:54
+2247181185324593,Heidi,He,3040,854518728062939,2247181185324593,BOT: message,"Oops, that wasn't quite correct. :disappointed_face:",2018-09-06 00:12:55
+2247181185324593,Heidi,He,3041,854518728062939,2247181185324593,BOT: quick reply,The correct answer is indulgently.,2018-09-06 00:12:56
+2247181185324593,Heidi,He,3042,2247181185324593,854518728062939,user_quick_reply: WHY,Why?,2018-09-06 00:13:03
+2247181185324593,Heidi,He,3043,854518728062939,2247181185324593,BOT: message,Here's an explanation:,2018-09-06 00:13:04
+2247181185324593,Heidi,He,3044,854518728062939,2247181185324593,BOT: quick reply,":pushpin: Indulgently -- benignly lenient or permissive
+:pushpin: Aggressively -- characterized by or tending toward unprovoked offensives, attacks, invasions, or the like
+:pushpin: Quixotically -- extravagantly chivalrous or romantic
+:pushpin: Fortuitously -- by good fortune
+:pushpin: Belligerently -- with hostility; in a belligerent hostile manner",2018-09-06 00:13:05
+2247181185324593,Heidi,He,3045,2247181185324593,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-09-06 00:13:12
+2247181185324593,Heidi,He,3046,854518728062939,2247181185324593,BOT: message,"Alrighty, let's try this one.",2018-09-06 00:13:13
+2247181185324593,Heidi,He,3047,854518728062939,2247181185324593,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-09-06 00:13:14
+2247181185324593,Heidi,He,3048,854518728062939,2247181185324593,BOT: quick reply,"Modern tennis fans have come to realize that, although, quantum technological leaps in racquet technology have lead to _____ increases in the speed and power with which players can hit the ball, this has not necessarily lead to a more entertaining game.",2018-09-06 00:13:15
+2247181185324593,Heidi,He,3049,2247181185324593,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-06 00:13:37
+2247181185324593,Heidi,He,3050,854518728062939,2247181185324593,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-09-06 00:13:38
+2247181185324593,Heidi,He,3051,854518728062939,2247181185324593,BOT: quick reply,":keycap_1: commensurate
+:keycap_2: innocuous
+:keycap_3: tractable
+:keycap_4: malleable
+:keycap_5: halcyon
+",2018-09-06 00:13:39
+2247181185324593,Heidi,He,3052,2247181185324593,854518728062939,user_quick_reply: BUTTON_AKB_commensurate,:keycap_1:,2018-09-06 00:14:24
+2247181185324593,Heidi,He,3053,854518728062939,2247181185324593,BOT: message,Great! Keep it up! :flexed_biceps_medium-light_skin_tone:,2018-09-06 00:14:25
+2247181185324593,Heidi,He,3054,854518728062939,2247181185324593,BOT: quick reply,The correct answer is commensurate.,2018-09-06 00:14:25
+2247181185324593,Heidi,He,3055,2247181185324593,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-06 00:14:31
+2247181185324593,Heidi,He,3056,854518728062939,2247181185324593,BOT: message,Let's try this one.,2018-09-06 00:14:32
+2247181185324593,Heidi,He,3057,854518728062939,2247181185324593,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-09-06 00:14:32
+2247181185324593,Heidi,He,3058,854518728062939,2247181185324593,BOT: quick reply,Seth was extremely _____ and did not enjoy activities that required effort to meet new people.,2018-09-06 00:14:33
+2247181185324593,Heidi,He,3059,2247181185324593,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-06 00:14:38
+2247181185324593,Heidi,He,3060,854518728062939,2247181185324593,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-09-06 00:14:39
+2247181185324593,Heidi,He,3061,854518728062939,2247181185324593,BOT: quick reply,":keycap_1: lackluster
+:keycap_2: jaded
+:keycap_3: introverted
+:keycap_4: gregarious
+:keycap_5: extroverted
+",2018-09-06 00:14:40
+2247181185324593,Heidi,He,3062,2247181185324593,854518728062939,user_quick_reply: BUTTON_AKB_introverted,:keycap_3:,2018-09-06 00:16:58
+2247181185324593,Heidi,He,3063,854518728062939,2247181185324593,BOT: message,Nice! That was right!,2018-09-06 00:16:58
+2247181185324593,Heidi,He,3064,854518728062939,2247181185324593,BOT: quick reply,The correct answer is introverted.,2018-09-06 00:16:59
+2247181185324593,Heidi,He,3065,2247181185324593,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-06 00:17:03
+2247181185324593,Heidi,He,3066,854518728062939,2247181185324593,BOT: message,Let's see if you would answer this one.,2018-09-06 00:17:04
+2247181185324593,Heidi,He,3067,854518728062939,2247181185324593,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-09-06 00:17:05
+2247181185324593,Heidi,He,3068,854518728062939,2247181185324593,BOT: quick reply,"Possessing few natural resources upon its newly-granted independence in 1863, Singapore remained economically _____ until an influx of industrialization and foreign investment took hold there.",2018-09-06 00:17:06
+2247181185324593,Heidi,He,3069,2247181185324593,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-06 00:17:12
+2247181185324593,Heidi,He,3070,854518728062939,2247181185324593,BOT: message,Which of the following options is the right answer?,2018-09-06 00:17:13
+2247181185324593,Heidi,He,3071,854518728062939,2247181185324593,BOT: quick reply,":keycap_1: prosperous
+:keycap_2: powerful
+:keycap_3: fortuitous
+:keycap_4: solvent
+:keycap_5: dubious
+",2018-09-06 00:17:14
+2247181185324593,Heidi,He,3072,2247181185324593,854518728062939,user_quick_reply: BUTTON_DKB_solvent,:keycap_4:,2018-09-06 00:17:25
+2247181185324593,Heidi,He,3073,854518728062939,2247181185324593,BOT: message,"Oops, that wasn't quite correct. :disappointed_face:",2018-09-06 00:17:26
+2247181185324593,Heidi,He,3074,854518728062939,2247181185324593,BOT: quick reply,The correct answer is dubious.,2018-09-06 00:17:26
+2247181185324593,Heidi,He,3075,2247181185324593,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-06 00:17:30
+2247181185324593,Heidi,He,3076,854518728062939,2247181185324593,BOT: message,What about this next question:,2018-09-06 00:17:31
+2247181185324593,Heidi,He,3077,854518728062939,2247181185324593,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-09-06 00:17:32
+2247181185324593,Heidi,He,3078,854518728062939,2247181185324593,BOT: quick reply,"Prior to taking on the new invader, the defending army had engaged in arduous combat; it is likely that the _____ resulting from waging two battles in two days played a part in its subsequent defeat.",2018-09-06 00:17:32
+2247181185324593,Heidi,He,3079,2247181185324593,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-06 00:17:41
+2247181185324593,Heidi,He,3080,854518728062939,2247181185324593,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-09-06 00:17:42
+2247181185324593,Heidi,He,3081,854518728062939,2247181185324593,BOT: quick reply,":keycap_1: aggravation
+:keycap_2: pugnacity
+:keycap_3: pacification
+:keycap_4: enervation
+:keycap_5: bellicosity
+",2018-09-06 00:17:43
+2247181185324593,Heidi,He,3082,2247181185324593,854518728062939,user_quick_reply: BUTTON_DKB_aggravation,:keycap_1:,2018-09-06 00:17:51
+2247181185324593,Heidi,He,3083,854518728062939,2247181185324593,BOT: message,"Hmm, that wasn't quite right. :disappointed_face:",2018-09-06 00:17:52
+2247181185324593,Heidi,He,3084,854518728062939,2247181185324593,BOT: quick reply,The correct answer is enervation.,2018-09-06 00:17:53
+2247181185324593,Heidi,He,3085,2247181185324593,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-06 00:17:56
+2247181185324593,Heidi,He,3086,854518728062939,2247181185324593,BOT: message,Let's see if you can answer this question.,2018-09-06 00:17:57
+2247181185324593,Heidi,He,3087,854518728062939,2247181185324593,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-09-06 00:17:58
+2247181185324593,Heidi,He,3088,854518728062939,2247181185324593,BOT: quick reply,The Erie Canal's completion caused _____ economic ripples; property values and industrial output along its route rose exponentially.,2018-09-06 00:17:59
+2247181185324593,Heidi,He,3089,2247181185324593,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-06 00:18:08
+2247181185324593,Heidi,He,3090,854518728062939,2247181185324593,BOT: message,Which of the following options is the right answer?,2018-09-06 00:18:09
+2247181185324593,Heidi,He,3091,854518728062939,2247181185324593,BOT: quick reply,":keycap_1: invaluable
+:keycap_2: persistent
+:keycap_3: incredulous
+:keycap_4: prodigious
+:keycap_5: severe
+",2018-09-06 00:18:09
+2247181185324593,Heidi,He,3092,2247181185324593,854518728062939,user_quick_reply: BUTTON_AKB_prodigious,:keycap_4:,2018-09-06 00:18:21
+2247181185324593,Heidi,He,3093,854518728062939,2247181185324593,BOT: message,Great job getting the correct answer!,2018-09-06 00:18:21
+2247181185324593,Heidi,He,3094,854518728062939,2247181185324593,BOT: quick reply,The correct answer is prodigious.,2018-09-06 00:18:22
+2247181185324593,Heidi,He,3095,2247181185324593,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-06 00:18:27
+2247181185324593,Heidi,He,3096,854518728062939,2247181185324593,BOT: message,"Alrighty, let's try this one.",2018-09-06 00:18:28
+2247181185324593,Heidi,He,3097,854518728062939,2247181185324593,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-09-06 00:18:29
+2247181185324593,Heidi,He,3098,854518728062939,2247181185324593,BOT: quick reply,While she may have answered him truthfully - in the strictest sense of the word - it became clear to Sergei after the incident that Sheryl had actually been trying to _____ .,2018-09-06 00:18:29
+2247181185324593,Heidi,He,3099,2247181185324593,854518728062939,user_quick_reply: I_DONT_KNOW,I don’t know :downcast_face_with_sweat:,2018-09-06 00:18:37
+2247181185324593,Heidi,He,3100,854518728062939,2247181185324593,BOT: quick reply,Do you really want to give up?,2018-09-06 00:18:38
+2247181185324593,Heidi,He,3101,2247181185324593,854518728062939,user_quick_reply: GIVEUP_YES,"Yes, answer please.",2018-09-06 00:18:41
+2247181185324593,Heidi,He,3102,854518728062939,2247181185324593,BOT: message,"I'm sorry, you didn't get the question right this time.",2018-09-06 00:18:42
+2247181185324593,Heidi,He,3103,854518728062939,2247181185324593,BOT: message,"That's okay, you'll get it next time! :grinning_face_with_smiling_eyes:",2018-09-06 00:18:43
+2247181185324593,Heidi,He,3104,854518728062939,2247181185324593,BOT: quick reply,The correct answer is obfuscate.,2018-09-06 00:18:43
+2247181185324593,Heidi,He,3105,2247181185324593,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-06 00:18:48
+2247181185324593,Heidi,He,3106,854518728062939,2247181185324593,BOT: message,Let's try this question.,2018-09-06 00:18:49
+2247181185324593,Heidi,He,3107,854518728062939,2247181185324593,BOT: quick reply,"With a similar contrast between a partly cloudy sky and a dark street, the cover of the recent rock CD _____ a famous surrealist painting from the early 1900s.",2018-09-06 00:18:50
+2247181185324593,Heidi,He,3108,2247181185324593,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-06 00:18:54
+2247181185324593,Heidi,He,3109,854518728062939,2247181185324593,BOT: message,Pick one of the following answers.,2018-09-06 00:18:54
+2247181185324593,Heidi,He,3110,854518728062939,2247181185324593,BOT: quick reply,":keycap_1: obfuscates
+:keycap_2: admires
+:keycap_3: sanctions
+:keycap_4: disenchants
+:keycap_5: evokes
+",2018-09-06 00:18:55
+2247181185324593,Heidi,He,3111,2247181185324593,854518728062939,user_quick_reply: BUTTON_DKB_obfuscates,:keycap_1:,2018-09-06 00:19:12
+2247181185324593,Heidi,He,3112,854518728062939,2247181185324593,BOT: message,"Hmm, that wasn't quite right. :disappointed_face:",2018-09-06 00:19:12
+2247181185324593,Heidi,He,3113,854518728062939,2247181185324593,BOT: quick reply,The correct answer is evokes.,2018-09-06 00:19:13
+2247181185324593,Heidi,He,3114,2247181185324593,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-06 00:19:18
+2247181185324593,Heidi,He,3115,854518728062939,2247181185324593,BOT: quick reply,"Nice job! You've practiced enough questions today. Please come back tomorrow and click on ""Resume Learning :flexed_biceps_medium-light_skin_tone:"" for another practice session.",2018-09-06 00:19:19

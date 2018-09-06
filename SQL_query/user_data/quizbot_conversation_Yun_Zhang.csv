@@ -1,0 +1,292 @@
+user_id,user_firstname,user_lastname,uid,sender,recipient,type,dialogue,time_stamp
+2125795147461804,Yun,Zhang,3744,2125795147461804,854518728062939,persistent_menu: GET_INTRO_1,Get Started,2018-09-06 01:47:20
+2125795147461804,Yun,Zhang,3747,854518728062939,2125795147461804,BOT: image,https://www.smartprimer.ai:4443/pictures/avatar/quizbot_avatar.png,2018-09-06 01:47:23
+2125795147461804,Yun,Zhang,3749,854518728062939,2125795147461804,BOT: quick reply,"Hi Yun! My name is Frosty :penguin: and I’m here to help you learn all about science:microscope:, verbal reasoning (GRE) :input_latin_uppercase:, and safety:hammer_and_wrench:!",2018-09-06 01:47:24
+2125795147461804,Yun,Zhang,3751,2125795147461804,854518728062939,user_quick_reply: GET_INTRO_2,Got it :collision:,2018-09-06 01:47:27
+2125795147461804,Yun,Zhang,3752,854518728062939,2125795147461804,BOT: message,Here’s how it works.,2018-09-06 01:47:28
+2125795147461804,Yun,Zhang,3755,854518728062939,2125795147461804,BOT: message,"I ask you questions, and you give me answers.",2018-09-06 01:47:29
+2125795147461804,Yun,Zhang,3756,854518728062939,2125795147461804,BOT: quick reply,We will learn fun things together!,2018-09-06 01:47:29
+2125795147461804,Yun,Zhang,3759,2125795147461804,854518728062939,persistent_menu: SAFETY,Safety:hammer_and_wrench:,2018-09-06 01:47:35
+2125795147461804,Yun,Zhang,3761,854518728062939,2125795147461804,BOT: quick reply,Let's answer some questions about safety!,2018-09-06 01:47:36
+2125795147461804,Yun,Zhang,3763,854518728062939,2125795147461804,BOT: message,What about this next question:,2018-09-06 01:47:40
+2125795147461804,Yun,Zhang,3764,854518728062939,2125795147461804,BOT: quick reply,What should you NOT do when lowering a load?,2018-09-06 01:47:40
+2125795147461804,Yun,Zhang,3768,2125795147461804,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-06 01:47:53
+2125795147461804,Yun,Zhang,3769,854518728062939,2125795147461804,BOT: message,Pick one of the following answers.,2018-09-06 01:47:54
+2125795147461804,Yun,Zhang,3770,854518728062939,2125795147461804,BOT: quick reply,":keycap_1: Keep the load close to your body
+:keycap_2: Twist your body
+:keycap_3: Twist your body, keep the load close, and bend your knees
+:keycap_4: Bend your knees
+",2018-09-06 01:47:54
+2125795147461804,Yun,Zhang,3777,2125795147461804,854518728062939,user_quick_reply: BUTTON_AKB_Twist your body,:keycap_2:,2018-09-06 01:48:08
+2125795147461804,Yun,Zhang,3779,854518728062939,2125795147461804,BOT: image,https://www.smartprimer.ai:4443/pictures/avatar/congrats/penguinnormal_happy_cyan.png,2018-09-06 01:48:10
+2125795147461804,Yun,Zhang,3780,854518728062939,2125795147461804,BOT: message,Nice! That was right!,2018-09-06 01:48:10
+2125795147461804,Yun,Zhang,3781,854518728062939,2125795147461804,BOT: quick reply,The correct answer is Twist your body.,2018-09-06 01:48:11
+2125795147461804,Yun,Zhang,3785,2125795147461804,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-06 01:48:17
+2125795147461804,Yun,Zhang,3786,854518728062939,2125795147461804,BOT: message,Could you answer this one for me?,2018-09-06 01:48:17
+2125795147461804,Yun,Zhang,3787,854518728062939,2125795147461804,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-09-06 01:48:18
+2125795147461804,Yun,Zhang,3788,854518728062939,2125795147461804,BOT: quick reply,What should you NOT do while lifting objects?,2018-09-06 01:48:19
+2125795147461804,Yun,Zhang,3789,2125795147461804,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-06 01:48:28
+2125795147461804,Yun,Zhang,3790,854518728062939,2125795147461804,BOT: message,Pick one of the following answers.,2018-09-06 01:48:28
+2125795147461804,Yun,Zhang,3791,854518728062939,2125795147461804,BOT: quick reply,":keycap_1: Keep your feet together
+:keycap_2: Keep the object close to your body
+:keycap_3: Keep your back straight
+:keycap_4: Bend at the knees
+",2018-09-06 01:48:29
+2125795147461804,Yun,Zhang,3794,2125795147461804,854518728062939,user_quick_reply: BUTTON_AKB_Keep your feet together,:keycap_1:,2018-09-06 01:48:42
+2125795147461804,Yun,Zhang,3795,854518728062939,2125795147461804,BOT: message,Nice! That was right!,2018-09-06 01:48:42
+2125795147461804,Yun,Zhang,3796,854518728062939,2125795147461804,BOT: quick reply,The correct answer is Keep your feet together.,2018-09-06 01:48:43
+2125795147461804,Yun,Zhang,3800,2125795147461804,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-06 01:48:46
+2125795147461804,Yun,Zhang,3802,854518728062939,2125795147461804,BOT: message,Would you answer this question for me?,2018-09-06 01:48:47
+2125795147461804,Yun,Zhang,3803,854518728062939,2125795147461804,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-09-06 01:48:48
+2125795147461804,Yun,Zhang,3804,854518728062939,2125795147461804,BOT: quick reply,How long can high-acid canned food such as tomatoes be stored?,2018-09-06 01:48:49
+2125795147461804,Yun,Zhang,3812,2125795147461804,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-06 01:48:55
+2125795147461804,Yun,Zhang,3814,854518728062939,2125795147461804,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-09-06 01:48:56
+2125795147461804,Yun,Zhang,3816,854518728062939,2125795147461804,BOT: quick reply,":keycap_1: 2 to 6 months
+:keycap_2: 10 to 30 days
+:keycap_3: 2 to 4 years
+:keycap_4: 12 to 18 months
+",2018-09-06 01:48:56
+2125795147461804,Yun,Zhang,3822,2125795147461804,854518728062939,user_quick_reply: BUTTON_DKB_2 to 4 years,:keycap_3:,2018-09-06 01:49:02
+2125795147461804,Yun,Zhang,3823,854518728062939,2125795147461804,BOT: message,"I'm sorry, but that was incorrect. :disappointed_face:",2018-09-06 01:49:03
+2125795147461804,Yun,Zhang,3824,854518728062939,2125795147461804,BOT: quick reply,The correct answer is 12 to 18 months.,2018-09-06 01:49:04
+2125795147461804,Yun,Zhang,3833,2125795147461804,854518728062939,user_quick_reply: WHY,Why?,2018-09-06 01:49:09
+2125795147461804,Yun,Zhang,3835,854518728062939,2125795147461804,BOT: message,Here's why:,2018-09-06 01:49:09
+2125795147461804,Yun,Zhang,3836,854518728062939,2125795147461804,BOT: quick reply,"According to the United States Department of Agriculture (USDA), In general, high-acid canned food such as tomatoes, grapefruit, and pineapple can be stored on the shelf for 12 to 18 months. Low-acid canned food such as meat, poultry, fish, and most vegetables will keep 2 to 5 years if the can remains in good condition and has been stored in a cool, clean, and dry place.",2018-09-06 01:49:10
+2125795147461804,Yun,Zhang,3838,2125795147461804,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-09-06 01:49:16
+2125795147461804,Yun,Zhang,3840,854518728062939,2125795147461804,BOT: message,Let's see if you would answer this one.,2018-09-06 01:49:17
+2125795147461804,Yun,Zhang,3842,854518728062939,2125795147461804,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-09-06 01:49:18
+2125795147461804,Yun,Zhang,3844,854518728062939,2125795147461804,BOT: quick reply,Which fire extinguishers are used to put out Class A fires?,2018-09-06 01:49:18
+2125795147461804,Yun,Zhang,3850,2125795147461804,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-06 01:49:27
+2125795147461804,Yun,Zhang,3854,854518728062939,2125795147461804,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-09-06 01:49:28
+2125795147461804,Yun,Zhang,3858,854518728062939,2125795147461804,BOT: quick reply,":keycap_1: Multi-purpose dry chemical only
+:keycap_2: Both water and multi-purpose dry chemical
+:keycap_3: Both CO2 and water
+:keycap_4: Water only
+:keycap_5: CO2 only
+",2018-09-06 01:49:29
+2125795147461804,Yun,Zhang,3866,2125795147461804,854518728062939,user_quick_reply: BUTTON_DKB_Multi-purpose dry chemical only,:keycap_1:,2018-09-06 01:49:35
+2125795147461804,Yun,Zhang,3867,854518728062939,2125795147461804,BOT: message,"Oops, that wasn't quite correct. :disappointed_face:",2018-09-06 01:49:36
+2125795147461804,Yun,Zhang,3868,854518728062939,2125795147461804,BOT: quick reply,The correct answer is Both water and multi-purpose dry chemical.,2018-09-06 01:49:37
+2125795147461804,Yun,Zhang,3876,2125795147461804,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-06 01:49:42
+2125795147461804,Yun,Zhang,3877,854518728062939,2125795147461804,BOT: message,See if you can answer this next one.,2018-09-06 01:49:42
+2125795147461804,Yun,Zhang,3878,854518728062939,2125795147461804,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-09-06 01:49:43
+2125795147461804,Yun,Zhang,3879,854518728062939,2125795147461804,BOT: quick reply,Which fire extinguishers are used to put out fires caused by flammable liquids?,2018-09-06 01:49:44
+2125795147461804,Yun,Zhang,3880,2125795147461804,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-06 01:49:52
+2125795147461804,Yun,Zhang,3881,854518728062939,2125795147461804,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-09-06 01:49:53
+2125795147461804,Yun,Zhang,3882,854518728062939,2125795147461804,BOT: quick reply,":keycap_1: Class A water fire extinguishers
+:keycap_2: Class B carbon dioxide fire extinguisher
+:keycap_3: Class C dry chemical fire extinguisher
+",2018-09-06 01:49:54
+2125795147461804,Yun,Zhang,3887,2125795147461804,854518728062939,user_quick_reply: BUTTON_AKB_Class B carbon dioxide fire extinguisher,:keycap_2:,2018-09-06 01:50:01
+2125795147461804,Yun,Zhang,3888,854518728062939,2125795147461804,BOT: image,https://www.smartprimer.ai:4443/pictures/avatar/congrats/penguinnormal_happy_purple.png,2018-09-06 01:50:03
+2125795147461804,Yun,Zhang,3889,854518728062939,2125795147461804,BOT: message,Nice work! Keep it up!,2018-09-06 01:50:03
+2125795147461804,Yun,Zhang,3890,854518728062939,2125795147461804,BOT: quick reply,The correct answer is Class B carbon dioxide fire extinguisher.,2018-09-06 01:50:04
+2125795147461804,Yun,Zhang,3894,2125795147461804,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-06 01:50:10
+2125795147461804,Yun,Zhang,3895,854518728062939,2125795147461804,BOT: message,Would you answer this question for me?,2018-09-06 01:50:10
+2125795147461804,Yun,Zhang,3896,854518728062939,2125795147461804,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-09-06 01:50:11
+2125795147461804,Yun,Zhang,3897,854518728062939,2125795147461804,BOT: quick reply,"If your co-worker needs CPR but you are not trained in it, what should you do?",2018-09-06 01:50:12
+2125795147461804,Yun,Zhang,3903,2125795147461804,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-06 01:50:18
+2125795147461804,Yun,Zhang,3905,854518728062939,2125795147461804,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-09-06 01:50:19
+2125795147461804,Yun,Zhang,3906,854518728062939,2125795147461804,BOT: quick reply,":keycap_1: Lift the patient's head
+:keycap_2: Wait for emergency personnel to arrive
+:keycap_3: Give rescue breaths only
+:keycap_4: Perform chest compressions only
+",2018-09-06 01:50:20
+2125795147461804,Yun,Zhang,3911,2125795147461804,854518728062939,user_quick_reply: BUTTON_DKB_Wait for emergency personnel to arrive,:keycap_2:,2018-09-06 01:50:32
+2125795147461804,Yun,Zhang,3912,854518728062939,2125795147461804,BOT: message,"Oops, that is not correct. :disappointed_face:",2018-09-06 01:50:33
+2125795147461804,Yun,Zhang,3913,854518728062939,2125795147461804,BOT: quick reply,The correct answer is Perform chest compressions only.,2018-09-06 01:50:33
+2125795147461804,Yun,Zhang,3915,2125795147461804,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-06 01:50:38
+2125795147461804,Yun,Zhang,3916,854518728062939,2125795147461804,BOT: message,How about this next one:,2018-09-06 01:50:39
+2125795147461804,Yun,Zhang,3917,854518728062939,2125795147461804,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-09-06 01:50:40
+2125795147461804,Yun,Zhang,3919,854518728062939,2125795147461804,BOT: quick reply,"When you discover a fire, you should do what?",2018-09-06 01:50:40
+2125795147461804,Yun,Zhang,3923,2125795147461804,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-06 01:50:46
+2125795147461804,Yun,Zhang,3924,854518728062939,2125795147461804,BOT: message,Which of the following options is the right answer?,2018-09-06 01:50:47
+2125795147461804,Yun,Zhang,3926,854518728062939,2125795147461804,BOT: quick reply,":keycap_1: Stay in the building until you figure out a way to extinguish the fire
+:keycap_2: Pull the fire alarm and call the fire department
+:keycap_3: Use a fire extinguisher to put out the fire, even if you've never used a fire extinguisher before
+:keycap_4: Run out of the building without warning others of the fire
+",2018-09-06 01:50:47
+2125795147461804,Yun,Zhang,3931,2125795147461804,854518728062939,user_quick_reply: BUTTON_AKB_Pull the fire alarm and call the fire department,:keycap_2:,2018-09-06 01:50:56
+2125795147461804,Yun,Zhang,3940,854518728062939,2125795147461804,BOT: image,https://www.smartprimer.ai:4443/pictures/avatar/congrats/penguinnormal_normal_cyan.png,2018-09-06 01:51:00
+2125795147461804,Yun,Zhang,3941,854518728062939,2125795147461804,BOT: message,Great! Keep it up! :flexed_biceps_medium-light_skin_tone:,2018-09-06 01:51:00
+2125795147461804,Yun,Zhang,3942,854518728062939,2125795147461804,BOT: quick reply,The correct answer is Pull the fire alarm and call the fire department.,2018-09-06 01:51:01
+2125795147461804,Yun,Zhang,3947,2125795147461804,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-06 01:51:05
+2125795147461804,Yun,Zhang,3948,854518728062939,2125795147461804,BOT: message,Let's see if you would answer this one.,2018-09-06 01:51:06
+2125795147461804,Yun,Zhang,3949,854518728062939,2125795147461804,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-09-06 01:51:07
+2125795147461804,Yun,Zhang,3951,854518728062939,2125795147461804,BOT: quick reply,What three major factors cause food contamination?,2018-09-06 01:51:08
+2125795147461804,Yun,Zhang,3954,2125795147461804,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-06 01:51:12
+2125795147461804,Yun,Zhang,3956,854518728062939,2125795147461804,BOT: message,Which of the following options is the right answer?,2018-09-06 01:51:13
+2125795147461804,Yun,Zhang,3959,854518728062939,2125795147461804,BOT: quick reply,":keycap_1: Physical, biological, and radiological
+:keycap_2: Physical, biological, and chemical
+:keycap_3: Physical, chemical, and psychosocial
+:keycap_4: Physical, psychological, and health
+",2018-09-06 01:51:14
+2125795147461804,Yun,Zhang,3963,2125795147461804,854518728062939,user_quick_reply: I_DONT_KNOW,I don’t know :downcast_face_with_sweat:,2018-09-06 01:51:19
+2125795147461804,Yun,Zhang,3964,854518728062939,2125795147461804,BOT: quick reply,Are you sure you want to skip this question?,2018-09-06 01:51:20
+2125795147461804,Yun,Zhang,3965,2125795147461804,854518728062939,user_quick_reply: GIVEUP_NO,"No, I'll try again!",2018-09-06 01:51:25
+2125795147461804,Yun,Zhang,3966,854518728062939,2125795147461804,BOT: message,Okay! Let's try again :flexed_biceps_medium-light_skin_tone:,2018-09-06 01:51:25
+2125795147461804,Yun,Zhang,3967,854518728062939,2125795147461804,BOT: message,It's one of the following choices.,2018-09-06 01:51:26
+2125795147461804,Yun,Zhang,3968,854518728062939,2125795147461804,BOT: quick reply,":keycap_1: Physical, psychological, and health
+:keycap_2: Physical, chemical, and psychosocial
+:keycap_3: Physical, biological, and chemical
+:keycap_4: Physical, biological, and radiological
+",2018-09-06 01:51:27
+2125795147461804,Yun,Zhang,3969,2125795147461804,854518728062939,"user_quick_reply: BUTTON_DKB_Physical, chemical, and psychosocial",:keycap_2:,2018-09-06 01:51:33
+2125795147461804,Yun,Zhang,3970,854518728062939,2125795147461804,BOT: message,That's not quite right. :disappointed_face:,2018-09-06 01:51:34
+2125795147461804,Yun,Zhang,3971,854518728062939,2125795147461804,BOT: quick reply,"The correct answer is Physical, biological, and chemical.",2018-09-06 01:51:35
+2125795147461804,Yun,Zhang,3972,2125795147461804,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-06 01:51:38
+2125795147461804,Yun,Zhang,3973,854518728062939,2125795147461804,BOT: message,See if you can answer this next one.,2018-09-06 01:51:39
+2125795147461804,Yun,Zhang,3974,854518728062939,2125795147461804,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-09-06 01:51:39
+2125795147461804,Yun,Zhang,3975,854518728062939,2125795147461804,BOT: quick reply,"What agency inspects, grades, and enforces standards of quality and wholesomeness for meat, poultry, milk, eggs, and grains?",2018-09-06 01:51:40
+2125795147461804,Yun,Zhang,3976,2125795147461804,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-06 01:51:44
+2125795147461804,Yun,Zhang,3977,854518728062939,2125795147461804,BOT: message,Okay. I'll give you some choices.,2018-09-06 01:51:45
+2125795147461804,Yun,Zhang,3978,854518728062939,2125795147461804,BOT: quick reply,":keycap_1: FDA
+:keycap_2: USDA
+:keycap_3: CDC
+:keycap_4: EPA
+",2018-09-06 01:51:46
+2125795147461804,Yun,Zhang,3980,2125795147461804,854518728062939,user_quick_reply: BUTTON_DKB_FDA,:keycap_1:,2018-09-06 01:51:54
+2125795147461804,Yun,Zhang,3981,854518728062939,2125795147461804,BOT: message,"Hmm, that wasn't quite right. :disappointed_face:",2018-09-06 01:51:54
+2125795147461804,Yun,Zhang,3983,854518728062939,2125795147461804,BOT: quick reply,The correct answer is USDA.,2018-09-06 01:51:55
+2125795147461804,Yun,Zhang,3989,2125795147461804,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-06 01:51:58
+2125795147461804,Yun,Zhang,3990,854518728062939,2125795147461804,BOT: message,Let's try this question.,2018-09-06 01:51:59
+2125795147461804,Yun,Zhang,3991,854518728062939,2125795147461804,BOT: quick reply,Working on scaffold during winds above ____ miles per hour is prohibited by OSHA.,2018-09-06 01:52:00
+2125795147461804,Yun,Zhang,3997,2125795147461804,854518728062939,user_typing,20,2018-09-06 01:52:13
+2125795147461804,Yun,Zhang,4000,854518728062939,2125795147461804,BOT: image,https://www.smartprimer.ai:4443/pictures/avatar/congrats/penguinnormal_happy_orange.png,2018-09-06 01:52:15
+2125795147461804,Yun,Zhang,4001,854518728062939,2125795147461804,BOT: message,Good Answer! :white_heavy_check_mark:,2018-09-06 01:52:15
+2125795147461804,Yun,Zhang,4002,854518728062939,2125795147461804,BOT: quick reply,The correct answer is 40.,2018-09-06 01:52:16
+2125795147461804,Yun,Zhang,4003,2125795147461804,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-06 01:52:19
+2125795147461804,Yun,Zhang,4004,854518728062939,2125795147461804,BOT: message,Would you answer this question for me?,2018-09-06 01:52:20
+2125795147461804,Yun,Zhang,4005,854518728062939,2125795147461804,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-09-06 01:52:21
+2125795147461804,Yun,Zhang,4006,854518728062939,2125795147461804,BOT: quick reply,To what does the acronym SLM refer?,2018-09-06 01:52:21
+2125795147461804,Yun,Zhang,4007,2125795147461804,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-06 01:52:27
+2125795147461804,Yun,Zhang,4008,854518728062939,2125795147461804,BOT: message,It's one of the following choices.,2018-09-06 01:52:27
+2125795147461804,Yun,Zhang,4009,854518728062939,2125795147461804,BOT: quick reply,":keycap_1: System Level Monitor
+:keycap_2: Sound Level Meter
+:keycap_3: Sound Loudness Methods
+:keycap_4: Service Lifecycle Management
+",2018-09-06 01:52:28
+2125795147461804,Yun,Zhang,4010,2125795147461804,854518728062939,user_quick_reply: BUTTON_AKB_Sound Level Meter,:keycap_2:,2018-09-06 01:52:35
+2125795147461804,Yun,Zhang,4011,854518728062939,2125795147461804,BOT: image,https://www.smartprimer.ai:4443/pictures/avatar/congrats/penguinnormal_normal_purple.png,2018-09-06 01:52:37
+2125795147461804,Yun,Zhang,4012,854518728062939,2125795147461804,BOT: message,Great job getting the correct answer!,2018-09-06 01:52:37
+2125795147461804,Yun,Zhang,4014,854518728062939,2125795147461804,BOT: quick reply,The correct answer is Sound Level Meter.,2018-09-06 01:52:38
+2125795147461804,Yun,Zhang,4016,2125795147461804,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-06 01:52:54
+2125795147461804,Yun,Zhang,4017,854518728062939,2125795147461804,BOT: message,See if you can answer this next one.,2018-09-06 01:52:55
+2125795147461804,Yun,Zhang,4018,854518728062939,2125795147461804,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-09-06 01:52:56
+2125795147461804,Yun,Zhang,4019,854518728062939,2125795147461804,BOT: quick reply,"True or false: if you wear a back belt, you can lift more weight than you could without a belt.",2018-09-06 01:52:56
+2125795147461804,Yun,Zhang,4020,2125795147461804,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-06 01:53:07
+2125795147461804,Yun,Zhang,4021,854518728062939,2125795147461804,BOT: message,Pick one of the following answers.,2018-09-06 01:53:08
+2125795147461804,Yun,Zhang,4022,854518728062939,2125795147461804,BOT: quick reply,":keycap_1: False
+:keycap_2: True
+",2018-09-06 01:53:09
+2125795147461804,Yun,Zhang,4023,2125795147461804,854518728062939,user_quick_reply: BUTTON_DKB_True,:keycap_2:,2018-09-06 01:53:12
+2125795147461804,Yun,Zhang,4024,854518728062939,2125795147461804,BOT: message,"I'm sorry, but that was incorrect. :disappointed_face:",2018-09-06 01:53:13
+2125795147461804,Yun,Zhang,4025,854518728062939,2125795147461804,BOT: quick reply,The correct answer is False.,2018-09-06 01:53:14
+2125795147461804,Yun,Zhang,4026,2125795147461804,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-06 01:53:17
+2125795147461804,Yun,Zhang,4027,854518728062939,2125795147461804,BOT: message,Let's try this question.,2018-09-06 01:53:18
+2125795147461804,Yun,Zhang,4028,854518728062939,2125795147461804,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-09-06 01:53:19
+2125795147461804,Yun,Zhang,4029,854518728062939,2125795147461804,BOT: quick reply,True or false: portable fire extinguishers should only be used by trained employees.,2018-09-06 01:53:19
+2125795147461804,Yun,Zhang,4033,2125795147461804,854518728062939,user_quick_reply: I_DONT_KNOW,I don’t know :downcast_face_with_sweat:,2018-09-06 01:53:26
+2125795147461804,Yun,Zhang,4034,854518728062939,2125795147461804,BOT: quick reply,Are you sure you want to give up?,2018-09-06 01:53:27
+2125795147461804,Yun,Zhang,4038,2125795147461804,854518728062939,user_quick_reply: GIVEUP_NO,"No, I'll try again!",2018-09-06 01:53:31
+2125795147461804,Yun,Zhang,4039,854518728062939,2125795147461804,BOT: message,Try again!,2018-09-06 01:53:31
+2125795147461804,Yun,Zhang,4040,854518728062939,2125795147461804,BOT: message,Okay. I'll give you some choices.,2018-09-06 01:53:32
+2125795147461804,Yun,Zhang,4041,854518728062939,2125795147461804,BOT: quick reply,":keycap_1: False
+:keycap_2: True
+",2018-09-06 01:53:33
+2125795147461804,Yun,Zhang,4042,2125795147461804,854518728062939,user_quick_reply: BUTTON_AKB_True,:keycap_2:,2018-09-06 01:53:37
+2125795147461804,Yun,Zhang,4045,854518728062939,2125795147461804,BOT: image,https://www.smartprimer.ai:4443/pictures/avatar/congrats/penguinnormal_jubilated_cyan.png,2018-09-06 01:53:39
+2125795147461804,Yun,Zhang,4047,854518728062939,2125795147461804,BOT: message,Great! Keep it up! :flexed_biceps_medium-light_skin_tone:,2018-09-06 01:53:39
+2125795147461804,Yun,Zhang,4048,854518728062939,2125795147461804,BOT: quick reply,The correct answer is True.,2018-09-06 01:53:40
+2125795147461804,Yun,Zhang,4049,2125795147461804,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-06 01:53:44
+2125795147461804,Yun,Zhang,4050,854518728062939,2125795147461804,BOT: message,Let's see if you can answer this question.,2018-09-06 01:53:45
+2125795147461804,Yun,Zhang,4051,854518728062939,2125795147461804,BOT: quick reply,"True or false: you can always smell, see, or taste harmful bacteria in food that can cause illness.",2018-09-06 01:53:46
+2125795147461804,Yun,Zhang,4052,2125795147461804,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-06 01:53:51
+2125795147461804,Yun,Zhang,4053,854518728062939,2125795147461804,BOT: message,Pick one of the following answers.,2018-09-06 01:53:51
+2125795147461804,Yun,Zhang,4054,854518728062939,2125795147461804,BOT: quick reply,":keycap_1: True
+:keycap_2: False
+",2018-09-06 01:53:52
+2125795147461804,Yun,Zhang,4055,2125795147461804,854518728062939,user_quick_reply: BUTTON_DKB_True,:keycap_1:,2018-09-06 01:53:55
+2125795147461804,Yun,Zhang,4056,854518728062939,2125795147461804,BOT: message,That's not quite right. :disappointed_face:,2018-09-06 01:53:56
+2125795147461804,Yun,Zhang,4057,854518728062939,2125795147461804,BOT: quick reply,The correct answer is False.,2018-09-06 01:53:57
+2125795147461804,Yun,Zhang,4058,2125795147461804,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-06 01:54:01
+2125795147461804,Yun,Zhang,4059,854518728062939,2125795147461804,BOT: message,See if you can answer this next one.,2018-09-06 01:54:02
+2125795147461804,Yun,Zhang,4061,854518728062939,2125795147461804,BOT: quick reply,What does CERT stand for?,2018-09-06 01:54:02
+2125795147461804,Yun,Zhang,4065,2125795147461804,854518728062939,user_quick_reply: I_DONT_KNOW,I don’t know :downcast_face_with_sweat:,2018-09-06 01:54:08
+2125795147461804,Yun,Zhang,4066,854518728062939,2125795147461804,BOT: quick reply,Are you sure you want to give up?,2018-09-06 01:54:08
+2125795147461804,Yun,Zhang,4067,2125795147461804,854518728062939,user_quick_reply: GIVEUP_YES,"Yes, answer please.",2018-09-06 01:54:12
+2125795147461804,Yun,Zhang,4068,854518728062939,2125795147461804,BOT: message,You didn't get it right this time.,2018-09-06 01:54:13
+2125795147461804,Yun,Zhang,4069,854518728062939,2125795147461804,BOT: message,"Keep trying, you'll get it next time! :grinning_face_with_smiling_eyes:",2018-09-06 01:54:13
+2125795147461804,Yun,Zhang,4070,854518728062939,2125795147461804,BOT: quick reply,The correct answer is Community Emergency Response Team.,2018-09-06 01:54:14
+2125795147461804,Yun,Zhang,4071,2125795147461804,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-06 01:54:23
+2125795147461804,Yun,Zhang,4072,854518728062939,2125795147461804,BOT: message,Let's take a look at this question.,2018-09-06 01:54:24
+2125795147461804,Yun,Zhang,4073,854518728062939,2125795147461804,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-09-06 01:54:24
+2125795147461804,Yun,Zhang,4074,854518728062939,2125795147461804,BOT: quick reply,What should you NOT do while treating cuts and scrapes?,2018-09-06 01:54:25
+2125795147461804,Yun,Zhang,4075,2125795147461804,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-06 01:54:32
+2125795147461804,Yun,Zhang,4076,854518728062939,2125795147461804,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-09-06 01:54:33
+2125795147461804,Yun,Zhang,4077,854518728062939,2125795147461804,BOT: quick reply,":keycap_1: Apply pressure on the wound with a clean cloth or bandage
+:keycap_2: Apply an antibiotic to the wound
+:keycap_3: Wash the wound with soap
+:keycap_4: Cover the wound
+",2018-09-06 01:54:34
+2125795147461804,Yun,Zhang,4078,2125795147461804,854518728062939,user_quick_reply: BUTTON_DKB_Cover the wound,:keycap_4:,2018-09-06 01:54:41
+2125795147461804,Yun,Zhang,4079,854518728062939,2125795147461804,BOT: message,"I'm sorry, but that was incorrect. :disappointed_face:",2018-09-06 01:54:42
+2125795147461804,Yun,Zhang,4080,854518728062939,2125795147461804,BOT: quick reply,The correct answer is Wash the wound with soap.,2018-09-06 01:54:43
+2125795147461804,Yun,Zhang,4081,2125795147461804,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-06 01:54:46
+2125795147461804,Yun,Zhang,4082,854518728062939,2125795147461804,BOT: message,Let's try this question.,2018-09-06 01:54:47
+2125795147461804,Yun,Zhang,4083,854518728062939,2125795147461804,BOT: quick reply,What should you NOT do when lowering a load?,2018-09-06 01:54:48
+2125795147461804,Yun,Zhang,4084,2125795147461804,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-06 01:55:01
+2125795147461804,Yun,Zhang,4085,854518728062939,2125795147461804,BOT: message,It's one of the following choices.,2018-09-06 01:55:01
+2125795147461804,Yun,Zhang,4086,854518728062939,2125795147461804,BOT: quick reply,":keycap_1: Twist your body, keep the load close, and bend your knees
+:keycap_2: Twist your body
+:keycap_3: Keep the load close to your body
+:keycap_4: Bend your knees
+",2018-09-06 01:55:02
+2125795147461804,Yun,Zhang,4087,2125795147461804,854518728062939,user_quick_reply: BUTTON_AKB_Twist your body,:keycap_2:,2018-09-06 01:55:06
+2125795147461804,Yun,Zhang,4088,854518728062939,2125795147461804,BOT: image,https://www.smartprimer.ai:4443/pictures/avatar/congrats/penguinnormal_normal_pink.png,2018-09-06 01:55:08
+2125795147461804,Yun,Zhang,4089,854518728062939,2125795147461804,BOT: message,Great job getting the correct answer!,2018-09-06 01:55:09
+2125795147461804,Yun,Zhang,4090,854518728062939,2125795147461804,BOT: quick reply,The correct answer is Twist your body.,2018-09-06 01:55:09
+2125795147461804,Yun,Zhang,4091,2125795147461804,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-06 01:55:12
+2125795147461804,Yun,Zhang,4092,854518728062939,2125795147461804,BOT: message,What about this next question:,2018-09-06 01:55:13
+2125795147461804,Yun,Zhang,4093,854518728062939,2125795147461804,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-09-06 01:55:14
+2125795147461804,Yun,Zhang,4094,854518728062939,2125795147461804,BOT: quick reply,What should you NOT do while lifting objects?,2018-09-06 01:55:14
+2125795147461804,Yun,Zhang,4095,2125795147461804,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-06 01:55:21
+2125795147461804,Yun,Zhang,4096,854518728062939,2125795147461804,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-09-06 01:55:21
+2125795147461804,Yun,Zhang,4097,854518728062939,2125795147461804,BOT: quick reply,":keycap_1: Bend at the knees
+:keycap_2: Keep the object close to your body
+:keycap_3: Keep your feet together
+:keycap_4: Keep your back straight
+",2018-09-06 01:55:22
+2125795147461804,Yun,Zhang,4098,2125795147461804,854518728062939,user_quick_reply: BUTTON_AKB_Keep your feet together,:keycap_3:,2018-09-06 01:55:27
+2125795147461804,Yun,Zhang,4099,854518728062939,2125795147461804,BOT: message,Great job getting the correct answer!,2018-09-06 01:55:28
+2125795147461804,Yun,Zhang,4100,854518728062939,2125795147461804,BOT: quick reply,The correct answer is Keep your feet together.,2018-09-06 01:55:28
+2125795147461804,Yun,Zhang,4101,2125795147461804,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-06 01:55:34
+2125795147461804,Yun,Zhang,4102,854518728062939,2125795147461804,BOT: message,Let's try this question.,2018-09-06 01:55:35
+2125795147461804,Yun,Zhang,4103,854518728062939,2125795147461804,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-09-06 01:55:36
+2125795147461804,Yun,Zhang,4104,854518728062939,2125795147461804,BOT: quick reply,How long can high-acid canned food such as tomatoes be stored?,2018-09-06 01:55:36
+2125795147461804,Yun,Zhang,4105,2125795147461804,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-06 01:55:42
+2125795147461804,Yun,Zhang,4106,854518728062939,2125795147461804,BOT: message,It's one of the following choices.,2018-09-06 01:55:43
+2125795147461804,Yun,Zhang,4107,854518728062939,2125795147461804,BOT: quick reply,":keycap_1: 10 to 30 days
+:keycap_2: 2 to 6 months
+:keycap_3: 12 to 18 months
+:keycap_4: 2 to 4 years
+",2018-09-06 01:55:44
+2125795147461804,Yun,Zhang,4108,2125795147461804,854518728062939,user_quick_reply: BUTTON_AKB_12 to 18 months,:keycap_3:,2018-09-06 01:55:48
+2125795147461804,Yun,Zhang,4109,854518728062939,2125795147461804,BOT: message,Great job getting the correct answer!,2018-09-06 01:55:48
+2125795147461804,Yun,Zhang,4110,854518728062939,2125795147461804,BOT: quick reply,The correct answer is 12 to 18 months.,2018-09-06 01:55:49
+2125795147461804,Yun,Zhang,4111,2125795147461804,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-06 01:55:54
+2125795147461804,Yun,Zhang,4112,854518728062939,2125795147461804,BOT: message,Let's take a look at this question.,2018-09-06 01:55:55
+2125795147461804,Yun,Zhang,4113,854518728062939,2125795147461804,BOT: quick reply,Which fire extinguishers are used to put out Class A fires?,2018-09-06 01:55:55
+2125795147461804,Yun,Zhang,4114,2125795147461804,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-06 01:56:02
+2125795147461804,Yun,Zhang,4115,854518728062939,2125795147461804,BOT: message,Okay. I'll give you some choices.,2018-09-06 01:56:03
+2125795147461804,Yun,Zhang,4116,854518728062939,2125795147461804,BOT: quick reply,":keycap_1: Water only
+:keycap_2: Multi-purpose dry chemical only
+:keycap_3: CO2 only
+:keycap_4: Both CO2 and water
+:keycap_5: Both water and multi-purpose dry chemical
+",2018-09-06 01:56:04
+2125795147461804,Yun,Zhang,4117,2125795147461804,854518728062939,user_quick_reply: BUTTON_AKB_Both water and multi-purpose dry chemical,:keycap_5:,2018-09-06 01:56:09
+2125795147461804,Yun,Zhang,4118,854518728062939,2125795147461804,BOT: message,Yes! You got the correct answer!,2018-09-06 01:56:10
+2125795147461804,Yun,Zhang,4119,854518728062939,2125795147461804,BOT: quick reply,The correct answer is Both water and multi-purpose dry chemical.,2018-09-06 01:56:10
+2125795147461804,Yun,Zhang,4120,2125795147461804,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-06 01:56:14
+2125795147461804,Yun,Zhang,4121,854518728062939,2125795147461804,BOT: quick reply,"Nice job! You've practiced enough questions today. Please come back tomorrow and click on ""Resume Learning :flexed_biceps_medium-light_skin_tone:"" for another practice session.",2018-09-06 01:56:14

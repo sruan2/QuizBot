@@ -9,6 +9,8 @@ import sys
 import os
 import numpy
 from datetime import datetime
+#from pytz import timezone
+from dateutil import tz
 from collections import Counter
 import math
 
@@ -18,7 +20,11 @@ practice_question_file = "practice_question.csv"
 correctness_rate_file = "correctness_rate.csv"
 
 users = ["Sherry_Ruan", "Jeongeun_Park", "Shuo_Han", # Tuesday
-         "Jackie_Yang", "Yunan_Xu"]
+         "Jackie_Yang", "Yunan_Xu", "Xuebing_Leng", "Zhiyuan_Lin", "Jerry_Hong", # Wednesday
+         "Emma_Chen", "Iris_Lian", "Alice_Wang", "Irene_Lai", "Wenjing_Yan",  # Wednesday
+         "Jackie_Hang", "Yun_Zhang", "Kebing_Li", "Heidi_He", "Anna_Yu",  # Wednesday
+         "Yin_Li", "Ran_Gong", "Qiwen_Zhang"
+         ]
 
 # a dictionary of the number of times user studied each question
 practice_question_count = {}
@@ -118,6 +124,8 @@ for user in users:
     recipient = conversation_file[0][RECIPIENT_INDEX]
     old_time_stamp = conversation_file[0][TIME_STAMP_INDEX]
     old_time_stamp = datetime.strptime(old_time_stamp, "%Y-%m-%d %H:%M:%S")
+    old_time_stamp = old_time_stamp.replace(tzinfo=tz.gettz('UTC'))
+    old_time_stamp = old_time_stamp.astimezone(tz.gettz('America/Los_Angeles'))
     old_time_stamp_uid = 0
 
     if sender == chatbot_id and recipient == user_id:
@@ -128,6 +136,8 @@ for user in users:
     for i in range(1, len(conversation_file)):
         time_stamp = conversation_file[i][TIME_STAMP_INDEX]
         time_stamp = datetime.strptime(time_stamp, "%Y-%m-%d %H:%M:%S")
+        time_stamp = time_stamp.replace(tzinfo=tz.gettz('UTC'))
+        time_stamp = time_stamp.astimezone(tz.gettz('America/Los_Angeles'))
 
         if (time_stamp.year, time_stamp.month, time_stamp.day) != (old_time_stamp.year, old_time_stamp.month, old_time_stamp.day):
             analysis.append([])
@@ -151,6 +161,7 @@ for user in users:
     practice_report[user] = sub_practice_report
 
     events = [int(x[QID_INDEX]) for x in user_history_file if x[END_UID_INDEX] != ""]
+    # events = [int(x[QID_INDEX]) for x in user_history_file]
     print("\n------------")
     print(user)
     events.sort()
@@ -201,9 +212,9 @@ for user in time_report:
         output_string += str(day_report[1])
         output_string += "."
         output_string += '{:02}'.format(day_report[2])
-        output_string += ":{:>5.2f}".format(day_report[3])
+        output_string += ":{:>6.2f}".format(day_report[3])
         output_string += " min"
-        output_string += " "*19
+        output_string += " "*18
         output_string += str(len(practice_report[user][j])) + " -- "
         output_string += str(practice_report[user][j])
         output_string += "\n"

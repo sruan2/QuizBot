@@ -134,7 +134,7 @@ def webhook():
                     pretty_print('Insert the user into cache', mode='Cache')
                     user_history_data = db.show_user_history(mysql, sender_id) # tuple of (qid, score, time_stamp)
                     pretty_print('Retrieve the user history from [user_history]', mode='Database')
-                    qa_model.loadUserData(sender_id, user_history_data, qid_to_index)
+                    qa_model.loadUserData(sender_id, user_history_data, indexing='qid')
                     pretty_print('Pass the user history to the QAModel', mode='QAModel')
 
                 # Insert the user into database and cache if it doesn't exist yet.
@@ -298,7 +298,7 @@ if __name__ == '__main__':
     elif model == "DOC2VEC":
         qa_model = QAModel.Doc2VecModel(qa_kb, question_sequencing_model)
     elif model == "SupervisedSIFModeL":
-        qa_model = QAModel.SupervisedSIFModeL(qa_kb, question_sequencing_model)
+        qa_model = QAModel.SupervisedSIFModeL(qa_kb, question_sequencing_model, effective_qids=qid_to_index)
 
     context = ("/home/321yy/ssl_cert/smartprimer_ai.crt", "/home/321yy/ssl_cert/server.key")
 

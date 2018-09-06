@@ -1,0 +1,323 @@
+user_id,user_firstname,user_lastname,uid,sender,recipient,type,dialogue,time_stamp
+2123711180982212,Zhiyuan,Lin,2551,2123711180982212,854518728062939,persistent_menu: GET_INTRO_1,Get Started,2018-09-05 23:20:07
+2123711180982212,Zhiyuan,Lin,2552,854518728062939,2123711180982212,BOT: image,https://www.smartprimer.ai:4443/pictures/avatar/quizbot_avatar.png,2018-09-05 23:20:10
+2123711180982212,Zhiyuan,Lin,2553,854518728062939,2123711180982212,BOT: quick reply,"Hi Zhiyuan! My name is Frosty :penguin: and I’m here to help you learn all about science:microscope:, verbal reasoning (GRE) :input_latin_uppercase:, and safety:hammer_and_wrench:!",2018-09-05 23:20:11
+2123711180982212,Zhiyuan,Lin,2554,2123711180982212,854518728062939,user_quick_reply: GET_INTRO_2,Okay :raising_hands_medium-light_skin_tone:,2018-09-05 23:20:18
+2123711180982212,Zhiyuan,Lin,2555,854518728062939,2123711180982212,BOT: message,Here’s how it works.,2018-09-05 23:20:19
+2123711180982212,Zhiyuan,Lin,2556,854518728062939,2123711180982212,BOT: message,"I ask you questions, and you give me answers.",2018-09-05 23:20:19
+2123711180982212,Zhiyuan,Lin,2557,854518728062939,2123711180982212,BOT: quick reply,We will learn fun things together!,2018-09-05 23:20:20
+2123711180982212,Zhiyuan,Lin,2558,854518728062939,2123711180982212,BOT: image,https://www.smartprimer.ai:4443/pictures/user_manual/typeanswer.png,2018-09-05 23:20:37
+2123711180982212,Zhiyuan,Lin,2559,854518728062939,2123711180982212,BOT: quick reply,"To study the questions, you can type in your answers in the text field and I will evaluate the answers for you using advanced NLP (Natural Language Processing) technology.",2018-09-05 23:20:38
+2123711180982212,Zhiyuan,Lin,2560,2123711180982212,854518728062939,user_quick_reply: GET_INTRO_4,Tap me :flexed_biceps_medium-light_skin_tone:,2018-09-05 23:20:50
+2123711180982212,Zhiyuan,Lin,2561,854518728062939,2123711180982212,BOT: image,https://www.smartprimer.ai:4443/pictures/user_manual/needhintbutton.png,2018-09-05 23:20:52
+2123711180982212,Zhiyuan,Lin,2562,854518728062939,2123711180982212,BOT: quick reply,"If you don't know the answers, then feel free to tap on the hint button.",2018-09-05 23:20:53
+2123711180982212,Zhiyuan,Lin,2563,2123711180982212,854518728062939,user_quick_reply: GET_INTRO_5,Okay :raising_hands_medium-light_skin_tone:,2018-09-05 23:20:58
+2123711180982212,Zhiyuan,Lin,2564,854518728062939,2123711180982212,BOT: image,https://www.smartprimer.ai:4443/pictures/user_manual/hintoptions.png,2018-09-05 23:21:01
+2123711180982212,Zhiyuan,Lin,2565,854518728062939,2123711180982212,BOT: quick reply,The hint will give you a list of potential answers and you can select one from them.,2018-09-05 23:21:02
+2123711180982212,Zhiyuan,Lin,2566,2123711180982212,854518728062939,user_quick_reply: GET_INTRO_6,Got it :raising_hands_medium-light_skin_tone:,2018-09-05 23:21:07
+2123711180982212,Zhiyuan,Lin,2567,854518728062939,2123711180982212,BOT: image,https://www.smartprimer.ai:4443/pictures/user_manual/menubutton.jpg,2018-09-05 23:21:09
+2123711180982212,Zhiyuan,Lin,2568,854518728062939,2123711180982212,BOT: quick reply,"To discover more abilities of me, you can click on the menu button.:backhand_index_pointing_up_medium-light_skin_tone:",2018-09-05 23:21:10
+2123711180982212,Zhiyuan,Lin,2569,2123711180982212,854518728062939,user_quick_reply: GET_READY,I see :collision:,2018-09-05 23:21:17
+2123711180982212,Zhiyuan,Lin,2570,854518728062939,2123711180982212,BOT: message,I hope you enjoy the learning journey! :hundred_points:,2018-09-05 23:21:18
+2123711180982212,Zhiyuan,Lin,2571,854518728062939,2123711180982212,BOT: quick reply,"So, are you ready?",2018-09-05 23:21:18
+2123711180982212,Zhiyuan,Lin,2572,2123711180982212,854518728062939,user_quick_reply: YUP_IM_READY,Yup! I'm ready! :raised_fist_medium-light_skin_tone:,2018-09-05 23:21:24
+2123711180982212,Zhiyuan,Lin,2573,854518728062939,2123711180982212,BOT: message,Great!,2018-09-05 23:21:24
+2123711180982212,Zhiyuan,Lin,2574,854518728062939,2123711180982212,BOT: quick reply,Let’s get started :rocket:,2018-09-05 23:21:25
+2123711180982212,Zhiyuan,Lin,2575,2123711180982212,854518728062939,user_quick_reply: SWITCH_SUBJECT,Quiz me :nerd_face:,2018-09-05 23:21:28
+2123711180982212,Zhiyuan,Lin,2576,854518728062939,2123711180982212,BOT: quick reply,"Cool, let's pick one of the following subjects?:backhand_index_pointing_down_medium-light_skin_tone:",2018-09-05 23:21:29
+2123711180982212,Zhiyuan,Lin,2577,2123711180982212,854518728062939,user_quick_reply: RANDOM,Random :game_die:,2018-09-05 23:21:47
+2123711180982212,Zhiyuan,Lin,2578,854518728062939,2123711180982212,BOT: quick reply,Cool! Let's learn everything! :game_die:,2018-09-05 23:21:48
+2123711180982212,Zhiyuan,Lin,2579,2123711180982212,854518728062939,user_quick_reply: NEXT_QUESTION,Alrighty :backhand_index_pointing_right_medium-light_skin_tone:,2018-09-05 23:21:53
+2123711180982212,Zhiyuan,Lin,2580,854518728062939,2123711180982212,BOT: message,See if you can answer this next one.,2018-09-05 23:21:53
+2123711180982212,Zhiyuan,Lin,2581,854518728062939,2123711180982212,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-09-05 23:21:54
+2123711180982212,Zhiyuan,Lin,2582,854518728062939,2123711180982212,BOT: quick reply,What kind of viscosity is found in long-chain hydrocarbons?,2018-09-05 23:21:55
+2123711180982212,Zhiyuan,Lin,2583,2123711180982212,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-05 23:22:05
+2123711180982212,Zhiyuan,Lin,2584,854518728062939,2123711180982212,BOT: message,Pick one of the following answers.,2018-09-05 23:22:05
+2123711180982212,Zhiyuan,Lin,2585,854518728062939,2123711180982212,BOT: quick reply,":keycap_1: increased viscosity
+:keycap_2: intense viscosity
+:keycap_3: low viscosity
+:keycap_4: high viscosity
+",2018-09-05 23:22:06
+2123711180982212,Zhiyuan,Lin,2586,2123711180982212,854518728062939,user_quick_reply: BUTTON_AKB_high viscosity,:keycap_4:,2018-09-05 23:22:12
+2123711180982212,Zhiyuan,Lin,2587,854518728062939,2123711180982212,BOT: image,https://www.smartprimer.ai:4443/pictures/avatar/congrats/penguinnormal_happy_cyan.png,2018-09-05 23:22:14
+2123711180982212,Zhiyuan,Lin,2588,854518728062939,2123711180982212,BOT: message,Nice! That was right!,2018-09-05 23:22:14
+2123711180982212,Zhiyuan,Lin,2589,854518728062939,2123711180982212,BOT: quick reply,The correct answer is high viscosity.,2018-09-05 23:22:15
+2123711180982212,Zhiyuan,Lin,2590,2123711180982212,854518728062939,user_quick_reply: WHY,Why?,2018-09-05 23:22:25
+2123711180982212,Zhiyuan,Lin,2591,854518728062939,2123711180982212,BOT: message,Here's why:,2018-09-05 23:22:26
+2123711180982212,Zhiyuan,Lin,2592,854518728062939,2123711180982212,BOT: quick reply,"There is also a correlation between viscosity and molecular shape. Liquids consisting of long, flexible molecules tend to have higher viscosities than those composed of more spherical or shorter-chain molecules. The longer the molecules, the easier it is for them to become “tangled” with one another, making it more difficult for them to move past one another. London dispersion forces also increase with chain length. Due to a combination of these two effects, long-chain hydrocarbons (such as motor oils) are highly viscous.",2018-09-05 23:22:27
+2123711180982212,Zhiyuan,Lin,2593,2123711180982212,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-09-05 23:22:36
+2123711180982212,Zhiyuan,Lin,2594,854518728062939,2123711180982212,BOT: message,Would you answer this question for me?,2018-09-05 23:22:38
+2123711180982212,Zhiyuan,Lin,2595,854518728062939,2123711180982212,BOT: quick reply,"Although John F. Kennedy was known for his carefree flag football games, Gerald Ford should be _____ as our football president: he turned down offers to play for two National Football League teams in order to pursue a career in public service.",2018-09-05 23:22:38
+2123711180982212,Zhiyuan,Lin,2596,2123711180982212,854518728062939,user_typing,Considered,2018-09-05 23:23:00
+2123711180982212,Zhiyuan,Lin,2597,854518728062939,2123711180982212,BOT: message,"Oops, that answer was incorrect. :disappointed_face:",2018-09-05 23:23:01
+2123711180982212,Zhiyuan,Lin,2598,854518728062939,2123711180982212,BOT: quick reply,The correct answer is apotheosized.,2018-09-05 23:23:02
+2123711180982212,Zhiyuan,Lin,2599,2123711180982212,854518728062939,user_quick_reply: WHY,Why?,2018-09-05 23:23:09
+2123711180982212,Zhiyuan,Lin,2600,854518728062939,2123711180982212,BOT: message,Here's why:,2018-09-05 23:23:09
+2123711180982212,Zhiyuan,Lin,2601,854518728062939,2123711180982212,BOT: quick reply,:pushpin: Apotheosized -- deify or glorify,2018-09-05 23:23:10
+2123711180982212,Zhiyuan,Lin,2602,2123711180982212,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-09-05 23:23:17
+2123711180982212,Zhiyuan,Lin,2603,854518728062939,2123711180982212,BOT: message,Let's see if you can get this one.,2018-09-05 23:23:17
+2123711180982212,Zhiyuan,Lin,2604,854518728062939,2123711180982212,BOT: quick reply,What living species of bird is considered the largest of the raptors?,2018-09-05 23:23:18
+2123711180982212,Zhiyuan,Lin,2605,2123711180982212,854518728062939,user_quick_reply: I_DONT_KNOW,I don’t know :downcast_face_with_sweat:,2018-09-05 23:23:24
+2123711180982212,Zhiyuan,Lin,2606,854518728062939,2123711180982212,BOT: quick reply,Do you really want to skip this question?,2018-09-05 23:23:25
+2123711180982212,Zhiyuan,Lin,2607,2123711180982212,854518728062939,user_quick_reply: GIVEUP_YES,"Yes, answer please.",2018-09-05 23:24:07
+2123711180982212,Zhiyuan,Lin,2608,854518728062939,2123711180982212,BOT: message,You didn't get this question this time.,2018-09-05 23:24:08
+2123711180982212,Zhiyuan,Lin,2609,854518728062939,2123711180982212,BOT: message,"Keep trying, you'll get it next time! :grinning_face_with_smiling_eyes:",2018-09-05 23:24:08
+2123711180982212,Zhiyuan,Lin,2610,854518728062939,2123711180982212,BOT: quick reply,The correct answer is golden eagles.,2018-09-05 23:24:09
+2123711180982212,Zhiyuan,Lin,2611,2123711180982212,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-05 23:24:25
+2123711180982212,Zhiyuan,Lin,2612,854518728062939,2123711180982212,BOT: message,What about this next question:,2018-09-05 23:24:26
+2123711180982212,Zhiyuan,Lin,2613,854518728062939,2123711180982212,BOT: quick reply,"Despite the smile that spread from ear to ear, the eyes relayed a certain _____ .",2018-09-05 23:24:27
+2123711180982212,Zhiyuan,Lin,2614,2123711180982212,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-05 23:24:38
+2123711180982212,Zhiyuan,Lin,2615,854518728062939,2123711180982212,BOT: message,Okay. I'll give you some choices.,2018-09-05 23:24:39
+2123711180982212,Zhiyuan,Lin,2616,854518728062939,2123711180982212,BOT: quick reply,":keycap_1: mischievousness
+:keycap_2: liveliness
+:keycap_3: jubilance
+:keycap_4: sorrow
+:keycap_5: vision
+",2018-09-05 23:24:40
+2123711180982212,Zhiyuan,Lin,2617,2123711180982212,854518728062939,user_quick_reply: BUTTON_DKB_mischievousness,:keycap_1:,2018-09-05 23:24:50
+2123711180982212,Zhiyuan,Lin,2618,854518728062939,2123711180982212,BOT: message,That's not quite right. :disappointed_face:,2018-09-05 23:24:51
+2123711180982212,Zhiyuan,Lin,2619,854518728062939,2123711180982212,BOT: quick reply,The correct answer is sorrow.,2018-09-05 23:24:52
+2123711180982212,Zhiyuan,Lin,2620,2123711180982212,854518728062939,user_quick_reply: WHY,Why?,2018-09-05 23:24:58
+2123711180982212,Zhiyuan,Lin,2621,854518728062939,2123711180982212,BOT: message,Here's why:,2018-09-05 23:24:59
+2123711180982212,Zhiyuan,Lin,2622,854518728062939,2123711180982212,BOT: quick reply,":pushpin: Sorrow -- a feeling of grief
+:pushpin: Jubilance -- a feeling of extreme joy
+:pushpin: Mischievousness -- an attribute of mischievous children
+:pushpin: Vision -- a vivid mental image
+:pushpin: Liveliness -- general activity and motion",2018-09-05 23:25:00
+2123711180982212,Zhiyuan,Lin,2623,2123711180982212,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-09-05 23:25:16
+2123711180982212,Zhiyuan,Lin,2624,854518728062939,2123711180982212,BOT: message,Here's a question for you:,2018-09-05 23:25:18
+2123711180982212,Zhiyuan,Lin,2625,854518728062939,2123711180982212,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-09-05 23:25:18
+2123711180982212,Zhiyuan,Lin,2626,854518728062939,2123711180982212,BOT: quick reply,What opens two strands of DNA?,2018-09-05 23:25:19
+2123711180982212,Zhiyuan,Lin,2627,2123711180982212,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-05 23:25:25
+2123711180982212,Zhiyuan,Lin,2628,854518728062939,2123711180982212,BOT: message,It's one of the following choices.,2018-09-05 23:25:26
+2123711180982212,Zhiyuan,Lin,2629,854518728062939,2123711180982212,BOT: quick reply,":keycap_1: helicase
+:keycap_2: adenylate
+:keycap_3: chromosome
+:keycap_4: replication
+",2018-09-05 23:25:26
+2123711180982212,Zhiyuan,Lin,2630,2123711180982212,854518728062939,user_quick_reply: BUTTON_DKB_replication,:keycap_4:,2018-09-05 23:25:32
+2123711180982212,Zhiyuan,Lin,2631,854518728062939,2123711180982212,BOT: message,That's not quite right. :disappointed_face:,2018-09-05 23:25:32
+2123711180982212,Zhiyuan,Lin,2632,854518728062939,2123711180982212,BOT: quick reply,The correct answer is helicase.,2018-09-05 23:25:33
+2123711180982212,Zhiyuan,Lin,2633,2123711180982212,854518728062939,user_quick_reply: WHY,Why?,2018-09-05 23:25:37
+2123711180982212,Zhiyuan,Lin,2634,854518728062939,2123711180982212,BOT: message,I hope this explanation could help you understand the the question.,2018-09-05 23:25:38
+2123711180982212,Zhiyuan,Lin,2635,854518728062939,2123711180982212,BOT: quick reply,"The two DNA strands are opened by helicase. The strands are held open by a single strand of binding proteins, preventing premature reannealing. Topoisomerase solves the problem caused by tension generated by winding/unwinding of DNA. This enzyme wraps around DNA and makes a cut permitting the helix to spin and relax. Once DNA is relaxed, topoisomerase reconnects broken strands. DNA primase synthesizes a short RNA primer which initiates the Okazaki fragment. Okazaki fragments are attached by DNA ligase.",2018-09-05 23:25:39
+2123711180982212,Zhiyuan,Lin,2636,2123711180982212,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-09-05 23:26:00
+2123711180982212,Zhiyuan,Lin,2637,854518728062939,2123711180982212,BOT: message,What about this next question:,2018-09-05 23:26:00
+2123711180982212,Zhiyuan,Lin,2638,854518728062939,2123711180982212,BOT: quick reply,"Dolly Madison, the wife of President James Madison, was known especially for her _____ , remaining calm even as the British invaded Washington D.C. during the War of 1812.",2018-09-05 23:26:01
+2123711180982212,Zhiyuan,Lin,2639,2123711180982212,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-05 23:26:11
+2123711180982212,Zhiyuan,Lin,2640,854518728062939,2123711180982212,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-09-05 23:26:11
+2123711180982212,Zhiyuan,Lin,2641,854518728062939,2123711180982212,BOT: quick reply,":keycap_1: impracticality
+:keycap_2: malevolence
+:keycap_3: zeal
+:keycap_4: cynicism
+:keycap_5: equanimity
+",2018-09-05 23:26:12
+2123711180982212,Zhiyuan,Lin,2642,2123711180982212,854518728062939,user_quick_reply: BUTTON_AKB_equanimity,:keycap_5:,2018-09-05 23:26:20
+2123711180982212,Zhiyuan,Lin,2643,854518728062939,2123711180982212,BOT: message,Great! Keep it up! :flexed_biceps_medium-light_skin_tone:,2018-09-05 23:26:21
+2123711180982212,Zhiyuan,Lin,2644,854518728062939,2123711180982212,BOT: quick reply,The correct answer is equanimity.,2018-09-05 23:26:22
+2123711180982212,Zhiyuan,Lin,2645,2123711180982212,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-05 23:26:26
+2123711180982212,Zhiyuan,Lin,2646,854518728062939,2123711180982212,BOT: message,I think you'll like this question.,2018-09-05 23:26:27
+2123711180982212,Zhiyuan,Lin,2647,854518728062939,2123711180982212,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-09-05 23:26:28
+2123711180982212,Zhiyuan,Lin,2648,854518728062939,2123711180982212,BOT: quick reply,"Even though legislators claimed the Contagious Diseases Acts strengthened the nation, social purists argued the Acts _____ the nation's moral growth by encouraging licentious behavior.",2018-09-05 23:26:28
+2123711180982212,Zhiyuan,Lin,2649,2123711180982212,854518728062939,user_quick_reply: I_DONT_KNOW,I don’t know :downcast_face_with_sweat:,2018-09-05 23:26:42
+2123711180982212,Zhiyuan,Lin,2650,854518728062939,2123711180982212,BOT: quick reply,Do you really want to give up?,2018-09-05 23:26:42
+2123711180982212,Zhiyuan,Lin,2651,2123711180982212,854518728062939,user_quick_reply: GIVEUP_YES,"Yes, answer please.",2018-09-05 23:26:46
+2123711180982212,Zhiyuan,Lin,2652,854518728062939,2123711180982212,BOT: message,"I'm sorry, you didn't get the question right this time.",2018-09-05 23:26:47
+2123711180982212,Zhiyuan,Lin,2653,854518728062939,2123711180982212,BOT: message,"That's fine, you'll nail it next time! :grinning_face_with_smiling_eyes:",2018-09-05 23:26:47
+2123711180982212,Zhiyuan,Lin,2654,854518728062939,2123711180982212,BOT: quick reply,The correct answer is hampered.,2018-09-05 23:26:48
+2123711180982212,Zhiyuan,Lin,2655,2123711180982212,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-05 23:26:55
+2123711180982212,Zhiyuan,Lin,2656,854518728062939,2123711180982212,BOT: message,I think you'll like this question.,2018-09-05 23:26:56
+2123711180982212,Zhiyuan,Lin,2657,854518728062939,2123711180982212,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-09-05 23:26:57
+2123711180982212,Zhiyuan,Lin,2658,854518728062939,2123711180982212,BOT: quick reply,What should you NOT do when lowering a load?,2018-09-05 23:26:57
+2123711180982212,Zhiyuan,Lin,2659,2123711180982212,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-05 23:27:18
+2123711180982212,Zhiyuan,Lin,2660,854518728062939,2123711180982212,BOT: message,Which of the following options is the right answer?,2018-09-05 23:27:22
+2123711180982212,Zhiyuan,Lin,2661,854518728062939,2123711180982212,BOT: quick reply,":keycap_1: Twist your body, keep the load close, and bend your knees
+:keycap_2: Keep the load close to your body
+:keycap_3: Bend your knees
+:keycap_4: Twist your body
+",2018-09-05 23:27:23
+2123711180982212,Zhiyuan,Lin,2662,2123711180982212,854518728062939,"user_quick_reply: BUTTON_DKB_Twist your body, keep the load close, and bend your knees",:keycap_1:,2018-09-05 23:27:34
+2123711180982212,Zhiyuan,Lin,2663,854518728062939,2123711180982212,BOT: message,"I'm sorry, but that was incorrect. :disappointed_face:",2018-09-05 23:27:34
+2123711180982212,Zhiyuan,Lin,2664,854518728062939,2123711180982212,BOT: quick reply,The correct answer is Twist your body.,2018-09-05 23:27:35
+2123711180982212,Zhiyuan,Lin,2665,2123711180982212,854518728062939,user_quick_reply: WHY,Why?,2018-09-05 23:27:40
+2123711180982212,Zhiyuan,Lin,2666,854518728062939,2123711180982212,BOT: message,Here's why:,2018-09-05 23:27:40
+2123711180982212,Zhiyuan,Lin,2667,854518728062939,2123711180982212,BOT: quick reply,"To lower a load, you should make use of its edge, bend your knees, keep the load close to their body, and avoid twisting your torso.",2018-09-05 23:27:41
+2123711180982212,Zhiyuan,Lin,2668,2123711180982212,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-09-05 23:27:50
+2123711180982212,Zhiyuan,Lin,2669,854518728062939,2123711180982212,BOT: message,Let's try this one.,2018-09-05 23:27:51
+2123711180982212,Zhiyuan,Lin,2670,854518728062939,2123711180982212,BOT: quick reply,"Having squandered his life's savings on unprofitable business ventures, the _____ entrepreneur was forced to live in squalor.",2018-09-05 23:27:51
+2123711180982212,Zhiyuan,Lin,2671,2123711180982212,854518728062939,user_typing,Former,2018-09-05 23:28:05
+2123711180982212,Zhiyuan,Lin,2672,854518728062939,2123711180982212,BOT: message,That wasn't quite what we were looking for. :disappointed_face:,2018-09-05 23:28:05
+2123711180982212,Zhiyuan,Lin,2673,854518728062939,2123711180982212,BOT: quick reply,The correct answer is insolvent.,2018-09-05 23:28:06
+2123711180982212,Zhiyuan,Lin,2674,2123711180982212,854518728062939,user_quick_reply: WHY,Why?,2018-09-05 23:28:13
+2123711180982212,Zhiyuan,Lin,2675,854518728062939,2123711180982212,BOT: message,I hope this explanation could help you understand the the question.,2018-09-05 23:28:14
+2123711180982212,Zhiyuan,Lin,2676,854518728062939,2123711180982212,BOT: quick reply,:pushpin: Insolvent -- unable to meet or discharge financial obligations,2018-09-05 23:28:15
+2123711180982212,Zhiyuan,Lin,2677,2123711180982212,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-09-05 23:28:22
+2123711180982212,Zhiyuan,Lin,2678,854518728062939,2123711180982212,BOT: message,Let's see if you would answer this one.,2018-09-05 23:28:23
+2123711180982212,Zhiyuan,Lin,2679,854518728062939,2123711180982212,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-09-05 23:28:24
+2123711180982212,Zhiyuan,Lin,2680,854518728062939,2123711180982212,BOT: quick reply,"In psychological literature, the ""sleeper effect"" refers to the phenomenon in which a persuasive message from a trustworthy source loses _____ over time, while the efficacy of a message from a less credible source simultaneously increases.",2018-09-05 23:28:24
+2123711180982212,Zhiyuan,Lin,2681,2123711180982212,854518728062939,user_typing,Credibility,2018-09-05 23:28:50
+2123711180982212,Zhiyuan,Lin,2682,854518728062939,2123711180982212,BOT: message,"I'm sorry, but that was incorrect. :disappointed_face:",2018-09-05 23:28:51
+2123711180982212,Zhiyuan,Lin,2683,854518728062939,2123711180982212,BOT: quick reply,The correct answer is cogency.,2018-09-05 23:28:51
+2123711180982212,Zhiyuan,Lin,2684,2123711180982212,854518728062939,user_quick_reply: WHY,Why?,2018-09-05 23:28:56
+2123711180982212,Zhiyuan,Lin,2685,854518728062939,2123711180982212,BOT: message,Here's an explanation:,2018-09-05 23:28:57
+2123711180982212,Zhiyuan,Lin,2686,854518728062939,2123711180982212,BOT: quick reply,:pushpin: Cogency -- persuasive relevance,2018-09-05 23:28:57
+2123711180982212,Zhiyuan,Lin,2687,2123711180982212,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-09-05 23:29:03
+2123711180982212,Zhiyuan,Lin,2688,854518728062939,2123711180982212,BOT: message,How about this next one:,2018-09-05 23:29:03
+2123711180982212,Zhiyuan,Lin,2689,854518728062939,2123711180982212,BOT: quick reply,"Just as different people can have very different personalities, so too can pets - even those of the same species and breed possess varied _____ .",2018-09-05 23:29:04
+2123711180982212,Zhiyuan,Lin,2690,2123711180982212,854518728062939,user_typing,Aptitude’s,2018-09-05 23:29:16
+2123711180982212,Zhiyuan,Lin,2691,854518728062939,2123711180982212,BOT: message,That's not quite right. :disappointed_face:,2018-09-05 23:29:17
+2123711180982212,Zhiyuan,Lin,2692,854518728062939,2123711180982212,BOT: quick reply,The correct answer is temperaments.,2018-09-05 23:29:17
+2123711180982212,Zhiyuan,Lin,2693,2123711180982212,854518728062939,user_quick_reply: WHY,Why?,2018-09-05 23:29:22
+2123711180982212,Zhiyuan,Lin,2694,854518728062939,2123711180982212,BOT: message,Here's why:,2018-09-05 23:29:22
+2123711180982212,Zhiyuan,Lin,2695,854518728062939,2123711180982212,BOT: quick reply,":pushpin: Temperaments -- the combination of mental, physical, and emotional traits",2018-09-05 23:29:23
+2123711180982212,Zhiyuan,Lin,2696,2123711180982212,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-09-05 23:29:28
+2123711180982212,Zhiyuan,Lin,2697,854518728062939,2123711180982212,BOT: message,How about this next one:,2018-09-05 23:29:29
+2123711180982212,Zhiyuan,Lin,2698,854518728062939,2123711180982212,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-09-05 23:29:30
+2123711180982212,Zhiyuan,Lin,2699,854518728062939,2123711180982212,BOT: quick reply,Many Major League Baseball relief pitchers choose an electrifying theme song to play as they take the mound; the song _____ their fans and instills fear in their opponents.,2018-09-05 23:29:31
+2123711180982212,Zhiyuan,Lin,2700,2123711180982212,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-05 23:29:41
+2123711180982212,Zhiyuan,Lin,2701,854518728062939,2123711180982212,BOT: message,Okay. I'll give you some choices.,2018-09-05 23:29:42
+2123711180982212,Zhiyuan,Lin,2702,854518728062939,2123711180982212,BOT: quick reply,":keycap_1: enervates
+:keycap_2: assuages
+:keycap_3: eviscerates
+:keycap_4: pervades
+:keycap_5: innervates
+",2018-09-05 23:29:42
+2123711180982212,Zhiyuan,Lin,2703,2123711180982212,854518728062939,user_quick_reply: BUTTON_AKB_innervates,:keycap_5:,2018-09-05 23:29:48
+2123711180982212,Zhiyuan,Lin,2704,854518728062939,2123711180982212,BOT: message,Nice work! Keep it up!,2018-09-05 23:29:48
+2123711180982212,Zhiyuan,Lin,2705,854518728062939,2123711180982212,BOT: quick reply,The correct answer is innervates.,2018-09-05 23:29:49
+2123711180982212,Zhiyuan,Lin,2706,2123711180982212,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-05 23:29:53
+2123711180982212,Zhiyuan,Lin,2707,854518728062939,2123711180982212,BOT: message,Would you answer this question for me?,2018-09-05 23:29:54
+2123711180982212,Zhiyuan,Lin,2708,854518728062939,2123711180982212,BOT: quick reply,"Many dog owners treat their pets too _____ , forgetting that canines have evolved in competitive environments in which emotional coddling was a sign of weakness.",2018-09-05 23:29:55
+2123711180982212,Zhiyuan,Lin,2709,2123711180982212,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-05 23:30:00
+2123711180982212,Zhiyuan,Lin,2710,854518728062939,2123711180982212,BOT: message,Which of the following options is the right answer?,2018-09-05 23:30:01
+2123711180982212,Zhiyuan,Lin,2711,854518728062939,2123711180982212,BOT: quick reply,":keycap_1: belligerently
+:keycap_2: indulgently
+:keycap_3: fortuitously
+:keycap_4: aggressively
+:keycap_5: quixotically
+",2018-09-05 23:30:01
+2123711180982212,Zhiyuan,Lin,2712,2123711180982212,854518728062939,user_quick_reply: BUTTON_AKB_indulgently,:keycap_2:,2018-09-05 23:30:07
+2123711180982212,Zhiyuan,Lin,2713,854518728062939,2123711180982212,BOT: image,https://www.smartprimer.ai:4443/pictures/avatar/congrats/penguinnormal_jubilated_cyan.png,2018-09-05 23:30:09
+2123711180982212,Zhiyuan,Lin,2714,854518728062939,2123711180982212,BOT: message,Yes! You got the correct answer!,2018-09-05 23:30:09
+2123711180982212,Zhiyuan,Lin,2715,854518728062939,2123711180982212,BOT: quick reply,The correct answer is indulgently.,2018-09-05 23:30:10
+2123711180982212,Zhiyuan,Lin,2716,2123711180982212,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-05 23:30:16
+2123711180982212,Zhiyuan,Lin,2717,854518728062939,2123711180982212,BOT: message,Let's try this question.,2018-09-05 23:30:17
+2123711180982212,Zhiyuan,Lin,2718,854518728062939,2123711180982212,BOT: quick reply,"Modern tennis fans have come to realize that, although, quantum technological leaps in racquet technology have lead to _____ increases in the speed and power with which players can hit the ball, this has not necessarily lead to a more entertaining game.",2018-09-05 23:30:18
+2123711180982212,Zhiyuan,Lin,2719,2123711180982212,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-05 23:30:24
+2123711180982212,Zhiyuan,Lin,2720,854518728062939,2123711180982212,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-09-05 23:30:25
+2123711180982212,Zhiyuan,Lin,2721,854518728062939,2123711180982212,BOT: quick reply,":keycap_1: innocuous
+:keycap_2: commensurate
+:keycap_3: tractable
+:keycap_4: halcyon
+:keycap_5: malleable
+",2018-09-05 23:30:26
+2123711180982212,Zhiyuan,Lin,2722,2123711180982212,854518728062939,user_quick_reply: BUTTON_AKB_commensurate,:keycap_2:,2018-09-05 23:30:42
+2123711180982212,Zhiyuan,Lin,2723,854518728062939,2123711180982212,BOT: image,https://www.smartprimer.ai:4443/pictures/avatar/celebration.gif,2018-09-05 23:30:49
+2123711180982212,Zhiyuan,Lin,2724,854518728062939,2123711180982212,BOT: message,Nice work! Keep it up!,2018-09-05 23:30:49
+2123711180982212,Zhiyuan,Lin,2725,854518728062939,2123711180982212,BOT: quick reply,The correct answer is commensurate.,2018-09-05 23:30:50
+2123711180982212,Zhiyuan,Lin,2726,2123711180982212,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-05 23:30:55
+2123711180982212,Zhiyuan,Lin,2727,854518728062939,2123711180982212,BOT: message,Let's try this question.,2018-09-05 23:30:55
+2123711180982212,Zhiyuan,Lin,2728,854518728062939,2123711180982212,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-09-05 23:30:56
+2123711180982212,Zhiyuan,Lin,2729,854518728062939,2123711180982212,BOT: quick reply,Seth was extremely _____ and did not enjoy activities that required effort to meet new people.,2018-09-05 23:30:57
+2123711180982212,Zhiyuan,Lin,2730,2123711180982212,854518728062939,user_typing,Introverted,2018-09-05 23:31:22
+2123711180982212,Zhiyuan,Lin,2731,854518728062939,2123711180982212,BOT: image,https://www.smartprimer.ai:4443/pictures/avatar/celebration.gif,2018-09-05 23:31:26
+2123711180982212,Zhiyuan,Lin,2732,854518728062939,2123711180982212,BOT: message,Nice! :red_apple:,2018-09-05 23:31:27
+2123711180982212,Zhiyuan,Lin,2733,854518728062939,2123711180982212,BOT: quick reply,The correct answer is introverted.,2018-09-05 23:31:28
+2123711180982212,Zhiyuan,Lin,2734,2123711180982212,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-05 23:31:38
+2123711180982212,Zhiyuan,Lin,2735,854518728062939,2123711180982212,BOT: message,See if you can answer this next one.,2018-09-05 23:31:39
+2123711180982212,Zhiyuan,Lin,2736,854518728062939,2123711180982212,BOT: quick reply,"Possessing few natural resources upon its newly-granted independence in 1863, Singapore remained economically _____ until an influx of industrialization and foreign investment took hold there.",2018-09-05 23:31:40
+2123711180982212,Zhiyuan,Lin,2737,2123711180982212,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-05 23:31:49
+2123711180982212,Zhiyuan,Lin,2738,854518728062939,2123711180982212,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-09-05 23:31:49
+2123711180982212,Zhiyuan,Lin,2739,854518728062939,2123711180982212,BOT: quick reply,":keycap_1: fortuitous
+:keycap_2: solvent
+:keycap_3: dubious
+:keycap_4: prosperous
+:keycap_5: powerful
+",2018-09-05 23:31:50
+2123711180982212,Zhiyuan,Lin,2740,2123711180982212,854518728062939,user_quick_reply: BUTTON_DKB_solvent,:keycap_2:,2018-09-05 23:31:58
+2123711180982212,Zhiyuan,Lin,2741,854518728062939,2123711180982212,BOT: message,"Hmm, that wasn't quite right. :disappointed_face:",2018-09-05 23:31:59
+2123711180982212,Zhiyuan,Lin,2742,854518728062939,2123711180982212,BOT: quick reply,The correct answer is dubious.,2018-09-05 23:32:00
+2123711180982212,Zhiyuan,Lin,2743,2123711180982212,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-05 23:32:06
+2123711180982212,Zhiyuan,Lin,2744,854518728062939,2123711180982212,BOT: message,Here's a question for you:,2018-09-05 23:32:07
+2123711180982212,Zhiyuan,Lin,2745,854518728062939,2123711180982212,BOT: quick reply,"Prior to taking on the new invader, the defending army had engaged in arduous combat; it is likely that the _____ resulting from waging two battles in two days played a part in its subsequent defeat.",2018-09-05 23:32:08
+2123711180982212,Zhiyuan,Lin,2746,2123711180982212,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-05 23:32:14
+2123711180982212,Zhiyuan,Lin,2747,854518728062939,2123711180982212,BOT: message,Pick one of the following answers.,2018-09-05 23:32:15
+2123711180982212,Zhiyuan,Lin,2748,854518728062939,2123711180982212,BOT: quick reply,":keycap_1: pugnacity
+:keycap_2: pacification
+:keycap_3: aggravation
+:keycap_4: enervation
+:keycap_5: bellicosity
+",2018-09-05 23:32:15
+2123711180982212,Zhiyuan,Lin,2749,2123711180982212,854518728062939,user_quick_reply: BUTTON_DKB_pugnacity,:keycap_1:,2018-09-05 23:32:24
+2123711180982212,Zhiyuan,Lin,2750,854518728062939,2123711180982212,BOT: message,That's not quite right. :disappointed_face:,2018-09-05 23:32:25
+2123711180982212,Zhiyuan,Lin,2751,854518728062939,2123711180982212,BOT: quick reply,The correct answer is enervation.,2018-09-05 23:32:25
+2123711180982212,Zhiyuan,Lin,2754,2123711180982212,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-05 23:32:38
+2123711180982212,Zhiyuan,Lin,2755,854518728062939,2123711180982212,BOT: message,Let's try this one.,2018-09-05 23:32:39
+2123711180982212,Zhiyuan,Lin,2756,854518728062939,2123711180982212,BOT: quick reply,The Erie Canal's completion caused _____ economic ripples; property values and industrial output along its route rose exponentially.,2018-09-05 23:32:40
+2123711180982212,Zhiyuan,Lin,2757,2123711180982212,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-05 23:32:44
+2123711180982212,Zhiyuan,Lin,2758,854518728062939,2123711180982212,BOT: message,Which of the following options is the right answer?,2018-09-05 23:32:45
+2123711180982212,Zhiyuan,Lin,2759,854518728062939,2123711180982212,BOT: quick reply,":keycap_1: persistent
+:keycap_2: severe
+:keycap_3: invaluable
+:keycap_4: incredulous
+:keycap_5: prodigious
+",2018-09-05 23:32:46
+2123711180982212,Zhiyuan,Lin,2760,2123711180982212,854518728062939,user_quick_reply: BUTTON_DKB_persistent,:keycap_1:,2018-09-05 23:32:54
+2123711180982212,Zhiyuan,Lin,2761,854518728062939,2123711180982212,BOT: message,"I'm sorry, but that was incorrect. :disappointed_face:",2018-09-05 23:32:55
+2123711180982212,Zhiyuan,Lin,2762,854518728062939,2123711180982212,BOT: quick reply,The correct answer is prodigious.,2018-09-05 23:32:55
+2123711180982212,Zhiyuan,Lin,2763,2123711180982212,854518728062939,user_quick_reply: WHY,Why?,2018-09-05 23:33:00
+2123711180982212,Zhiyuan,Lin,2764,854518728062939,2123711180982212,BOT: message,Here's an explanation:,2018-09-05 23:33:01
+2123711180982212,Zhiyuan,Lin,2765,854518728062939,2123711180982212,BOT: quick reply,":pushpin: Prodigious -- so great in size or force or extent as to elicit awe
+:pushpin: Persistent -- lasting or enduring tenaciously
+:pushpin: Invaluable -- having incalculable monetary, intellectual, or spiritual worth
+:pushpin: Incredulous -- not disposed or willing to believe; unbelieving
+:pushpin: Severe -- intensely or extremely bad or unpleasant in degree or quality",2018-09-05 23:33:02
+2123711180982212,Zhiyuan,Lin,2766,2123711180982212,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-09-05 23:33:09
+2123711180982212,Zhiyuan,Lin,2767,854518728062939,2123711180982212,BOT: message,See if you can answer this next one.,2018-09-05 23:33:10
+2123711180982212,Zhiyuan,Lin,2768,854518728062939,2123711180982212,BOT: quick reply,While she may have answered him truthfully - in the strictest sense of the word - it became clear to Sergei after the incident that Sheryl had actually been trying to _____ .,2018-09-05 23:33:10
+2123711180982212,Zhiyuan,Lin,2769,2123711180982212,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-05 23:33:21
+2123711180982212,Zhiyuan,Lin,2770,854518728062939,2123711180982212,BOT: message,Pick one of the following answers.,2018-09-05 23:33:22
+2123711180982212,Zhiyuan,Lin,2771,854518728062939,2123711180982212,BOT: quick reply,":keycap_1: covet
+:keycap_2: obfuscate
+:keycap_3: desiccate
+:keycap_4: vituperate
+:keycap_5: illuminate
+",2018-09-05 23:33:23
+2123711180982212,Zhiyuan,Lin,2772,2123711180982212,854518728062939,user_quick_reply: BUTTON_DKB_covet,:keycap_1:,2018-09-05 23:33:47
+2123711180982212,Zhiyuan,Lin,2773,854518728062939,2123711180982212,BOT: message,That's not quite right. :disappointed_face:,2018-09-05 23:33:47
+2123711180982212,Zhiyuan,Lin,2774,854518728062939,2123711180982212,BOT: quick reply,The correct answer is obfuscate.,2018-09-05 23:33:48
+2123711180982212,Zhiyuan,Lin,2775,2123711180982212,854518728062939,user_quick_reply: WHY,Why?,2018-09-05 23:33:52
+2123711180982212,Zhiyuan,Lin,2776,854518728062939,2123711180982212,BOT: message,Here's why:,2018-09-05 23:33:53
+2123711180982212,Zhiyuan,Lin,2777,854518728062939,2123711180982212,BOT: quick reply,":pushpin: Obfuscate -- make obscure or unclear
+:pushpin: Vituperate -- spread negative information about
+:pushpin: Illuminate -- make lighter or brighter
+:pushpin: Covet -- wish, long, or crave for something, especially the property of another person
+:pushpin: Desiccate -- to dry thoroughly; dry up",2018-09-05 23:33:53
+2123711180982212,Zhiyuan,Lin,2778,2123711180982212,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-09-05 23:33:58
+2123711180982212,Zhiyuan,Lin,2779,854518728062939,2123711180982212,BOT: message,"Alrighty, let's try this one.",2018-09-05 23:33:59
+2123711180982212,Zhiyuan,Lin,2780,854518728062939,2123711180982212,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-09-05 23:34:00
+2123711180982212,Zhiyuan,Lin,2781,854518728062939,2123711180982212,BOT: quick reply,"With a similar contrast between a partly cloudy sky and a dark street, the cover of the recent rock CD _____ a famous surrealist painting from the early 1900s.",2018-09-05 23:34:00
+2123711180982212,Zhiyuan,Lin,2782,2123711180982212,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-05 23:34:13
+2123711180982212,Zhiyuan,Lin,2783,854518728062939,2123711180982212,BOT: message,It's one of the following choices.,2018-09-05 23:34:13
+2123711180982212,Zhiyuan,Lin,2784,854518728062939,2123711180982212,BOT: quick reply,":keycap_1: obfuscates
+:keycap_2: admires
+:keycap_3: evokes
+:keycap_4: sanctions
+:keycap_5: disenchants
+",2018-09-05 23:34:14
+2123711180982212,Zhiyuan,Lin,2789,2123711180982212,854518728062939,user_quick_reply: BUTTON_AKB_evokes,:keycap_3:,2018-09-05 23:34:18
+2123711180982212,Zhiyuan,Lin,2790,854518728062939,2123711180982212,BOT: message,Nice work! Keep it up!,2018-09-05 23:34:18
+2123711180982212,Zhiyuan,Lin,2791,854518728062939,2123711180982212,BOT: quick reply,The correct answer is evokes.,2018-09-05 23:34:19
+2123711180982212,Zhiyuan,Lin,2792,2123711180982212,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-05 23:34:23
+2123711180982212,Zhiyuan,Lin,2793,854518728062939,2123711180982212,BOT: quick reply,"Nice job! You've practiced enough questions today. Please come back tomorrow and click on ""Resume Learning :flexed_biceps_medium-light_skin_tone:"" for another practice session.",2018-09-05 23:34:23
+2123711180982212,Zhiyuan,Lin,2796,2123711180982212,854518728062939,user_typing,Hi,2018-09-05 23:34:38
+2123711180982212,Zhiyuan,Lin,2797,854518728062939,2123711180982212,BOT: message,That's not quite right. :disappointed_face:,2018-09-05 23:34:39
+2123711180982212,Zhiyuan,Lin,2798,854518728062939,2123711180982212,BOT: quick reply,The correct answer is evokes.,2018-09-05 23:34:39
+2123711180982212,Zhiyuan,Lin,2803,2123711180982212,854518728062939,persistent_menu: CHAT_WITH_ME,Chat with Me :penguin:,2018-09-05 23:34:49
+2123711180982212,Zhiyuan,Lin,2805,854518728062939,2123711180982212,BOT: quick reply,Would you like me to tell you something interesting?,2018-09-05 23:34:49
+2123711180982212,Zhiyuan,Lin,2807,2123711180982212,854518728062939,user_quick_reply: JOKE,Joke :beaming_face_with_smiling_eyes:,2018-09-05 23:34:53
+2123711180982212,Zhiyuan,Lin,2808,854518728062939,2123711180982212,BOT: message,Here is an interesting one for you.,2018-09-05 23:34:54
+2123711180982212,Zhiyuan,Lin,2809,854518728062939,2123711180982212,BOT: quick reply,Q. How do you make the number one disappear? A. Add the letter G and then presto—it’s Gone!,2018-09-05 23:34:54
+2123711180982212,Zhiyuan,Lin,2813,2123711180982212,854518728062939,user_quick_reply: FUN_FACT_SCIENCE,Fun fact :light_bulb:,2018-09-05 23:35:04
+2123711180982212,Zhiyuan,Lin,2814,854518728062939,2123711180982212,BOT: message,Here's one I thought might be fun.,2018-09-05 23:35:05
+2123711180982212,Zhiyuan,Lin,2815,854518728062939,2123711180982212,BOT: quick reply,Ten minutes of one hurricane contains enough energy to match the nuclear stockpiles of the world.,2018-09-05 23:35:06

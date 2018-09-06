@@ -27,7 +27,7 @@ from QAKnowledgebase import QAKnowlegeBase
 class QAModel(object):
     '''Base class of QAModel'''
 
-    def __init__(self, qa_kb, sequencing_model):
+    def __init__(self, qa_kb, sequencing_model, effective_qids=None):
         pretty_print("QAModel initialization", mode="QA Model")
         self.QID = 0
         self.QA_KB = qa_kb
@@ -41,7 +41,7 @@ class QAModel(object):
         elif sequencing_model == 'sm2':
             self.sequencing_model = SM2SequencingModel(qa_kb)
         elif sequencing_model == 'sequential':
-            self.sequencing_model = SequentialModel(qa_kb)
+            self.sequencing_model = SequentialModel(qa_kb, effective_qids)
         else:
             self.sequencing_model = RandomSequencingModel(qa_kb)
 
@@ -53,11 +53,11 @@ class QAModel(object):
         QID = data['qid']
         return picked_question, QID
 
-    def updateHistory(self, user_id, user_data, effective_qids):
-        self.sequencing_model.updateHistory(user_id, user_data, effective_qids)
+    def updateHistory(self, user_id, user_data, indexing):
+        self.sequencing_model.updateHistory(user_id, user_data, indexing)
 
-    def loadUserData(self, sender_id, user_history_data, effective_qids):
-        self.sequencing_model.loadUserData(sender_id, user_history_data, effective_qids)
+    def loadUserData(self, sender_id, user_history_data, indexing):
+        self.sequencing_model.loadUserData(sender_id, user_history_data, indexing)
 
     def getAnswer(self, QID):
         try:
@@ -83,8 +83,8 @@ class QAModel(object):
 
 class SupervisedSIFModeL(QAModel):
     """semi supervised version of the SIF model"""
-    def __init__(self, qa_kb, sequencing_model='dash'):
-        super(SupervisedSIFModeL, self).__init__(qa_kb, sequencing_model)
+    def __init__(self, qa_kb, sequencing_model, effective_qids):
+        super(SupervisedSIFModeL, self).__init__(qa_kb, sequencing_model, effective_qids)
 
         # load the current architecture from json
         with open('similarity_model/data_files/model_architecture.json', 'r') as f:

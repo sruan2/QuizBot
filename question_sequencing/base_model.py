@@ -22,14 +22,14 @@ class BaseSequencingModel():
         # list of the users currently loaded into memory
         self.loaded_users = []
 
-    def loadUserData(self, user_id, user_history_data, effective_qids):
+    def loadUserData(self, user_id, user_history_data, indexing):
         '''load the user data from a history file
 
         Args:
             user_history_data: a list of tuples representing qid (int), outcome (float [0,1]), timestamp (str)
         '''
         for user_data in user_history_data:
-            self.updateHistory(user_id, user_data, effective_qids)
+            self.updateHistory(user_id, user_data, indexing)
 
     @abstractmethod
     def pickNextQuestion(self, user_id=0, subject="random"):
@@ -44,7 +44,7 @@ class BaseSequencingModel():
         return None
 
     @abstractmethod
-    def updateHistory(self, user_id, user_data, effective_qids=None):
+    def updateHistory(self, user_id, user_data, indexing):
         '''Update the model parameters after user answers question
         Args:
             user_data: tuples off qid(int), outcome (float [0,1]), timestamp (str)

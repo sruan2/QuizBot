@@ -1,0 +1,20 @@
+user_id,user_firstname,user_lastname,uid,sender,recipient,type,dialogue,time_stamp
+1951395661590261,Alice,Wang,3914,1951395661590261,854518728062939,persistent_menu: GET_INTRO_1,Get Started,2018-09-06 01:50:36
+1951395661590261,Alice,Wang,3918,854518728062939,1951395661590261,BOT: image,https://www.smartprimer.ai:4443/pictures/avatar/quizbot_avatar.png,2018-09-06 01:50:40
+1951395661590261,Alice,Wang,3920,854518728062939,1951395661590261,BOT: quick reply,"Hi Alice! My name is Frosty :penguin: and I’m here to help you learn all about science:microscope:, verbal reasoning (GRE) :input_latin_uppercase:, and safety:hammer_and_wrench:!",2018-09-06 01:50:40
+1951395661590261,Alice,Wang,3921,854518728062939,1951395661590261,BOT: message,Here’s how it works.,2018-09-06 01:50:45
+1951395661590261,Alice,Wang,3922,854518728062939,1951395661590261,BOT: message,"I ask you questions, and you give me answers.",2018-09-06 01:50:46
+1951395661590261,Alice,Wang,3925,854518728062939,1951395661590261,BOT: quick reply,We will learn fun things together!,2018-09-06 01:50:47
+1951395661590261,Alice,Wang,3932,1951395661590261,854518728062939,persistent_menu: SAFETY,Safety:hammer_and_wrench:,2018-09-06 01:50:57
+1951395661590261,Alice,Wang,3936,854518728062939,1951395661590261,BOT: quick reply,Good choice! Let's see what you know about safety!,2018-09-06 01:50:58
+1951395661590261,Alice,Wang,3943,1951395661590261,854518728062939,user_quick_reply: NEXT_QUESTION,Tap me :collision:,2018-09-06 01:51:01
+1951395661590261,Alice,Wang,3944,854518728062939,1951395661590261,BOT: message,Let's try this one.,2018-09-06 01:51:02
+1951395661590261,Alice,Wang,3945,854518728062939,1951395661590261,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-09-06 01:51:03
+1951395661590261,Alice,Wang,3946,854518728062939,1951395661590261,BOT: quick reply,What should you NOT do when lowering a load?,2018-09-06 01:51:03
+1951395661590261,Alice,Wang,3955,1951395661590261,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-06 01:51:12
+1951395661590261,Alice,Wang,3958,854518728062939,1951395661590261,BOT: message,Which of the following options is the right answer?,2018-09-06 01:51:13
+1951395661590261,Alice,Wang,3961,854518728062939,1951395661590261,BOT: quick reply,":keycap_1: Bend your knees
+:keycap_2: Twist your body, keep the load close, and bend your knees
+:keycap_3: Keep the load close to your body
+:keycap_4: Twist your body
+",2018-09-06 01:51:14

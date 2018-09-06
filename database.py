@@ -181,6 +181,8 @@ def show_user_history(mysql, user_id):
     cur = mysql.connection.cursor()
     cur.execute("SELECT qid, score, time_stamp FROM (user_history RIGHT JOIN conversation \
         on user_history.begin_uid = conversation.uid) WHERE end_uid IS NOT NULL AND user_id = %s;", [user_id])
+    # cur.execute("SELECT qid, score, time_stamp FROM (user_history RIGHT JOIN conversation \
+    #     on user_history.begin_uid = conversation.uid) WHERE user_id = %s;", [user_id])
     rows = cur.fetchall()
     return rows
 

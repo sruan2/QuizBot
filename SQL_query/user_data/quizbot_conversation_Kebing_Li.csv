@@ -1,0 +1,312 @@
+user_id,user_firstname,user_lastname,uid,sender,recipient,type,dialogue,time_stamp
+2152318148173814,Kebing,Li,2822,854518728062939,2152318148173814,BOT: image,https://www.smartprimer.ai:4443/pictures/avatar/quizbot_avatar.png,2018-09-05 23:53:10
+2152318148173814,Kebing,Li,2823,854518728062939,2152318148173814,BOT: quick reply,"Hi Kebing! My name is Frosty :penguin: and I’m here to help you learn all about science:microscope:, verbal reasoning (GRE) :input_latin_uppercase:, and safety:hammer_and_wrench:!",2018-09-05 23:53:11
+2152318148173814,Kebing,Li,2824,2152318148173814,854518728062939,user_quick_reply: GET_INTRO_2,Got it :round_pushpin:,2018-09-05 23:53:23
+2152318148173814,Kebing,Li,2825,854518728062939,2152318148173814,BOT: message,Here’s how it works.,2018-09-05 23:53:24
+2152318148173814,Kebing,Li,2826,854518728062939,2152318148173814,BOT: message,"I ask you questions, and you give me answers.",2018-09-05 23:53:24
+2152318148173814,Kebing,Li,2827,854518728062939,2152318148173814,BOT: quick reply,We will learn fun things together!,2018-09-05 23:53:25
+2152318148173814,Kebing,Li,2828,2152318148173814,854518728062939,user_quick_reply: GET_INTRO_3,OK :white_heavy_check_mark:,2018-09-05 23:53:32
+2152318148173814,Kebing,Li,2829,854518728062939,2152318148173814,BOT: image,https://www.smartprimer.ai:4443/pictures/user_manual/typeanswer.png,2018-09-05 23:53:35
+2152318148173814,Kebing,Li,2830,854518728062939,2152318148173814,BOT: quick reply,"To study the questions, you can type in your answers in the text field and I will evaluate the answers for you using advanced NLP (Natural Language Processing) technology.",2018-09-05 23:53:36
+2152318148173814,Kebing,Li,2831,2152318148173814,854518728062939,persistent_menu: GRE,GRE :input_latin_uppercase:,2018-09-05 23:53:43
+2152318148173814,Kebing,Li,2832,854518728062939,2152318148173814,BOT: quick reply,Let's answer some questions about the GRE!,2018-09-05 23:53:44
+2152318148173814,Kebing,Li,2833,2152318148173814,854518728062939,user_quick_reply: NEXT_QUESTION,Alrighty :flexed_biceps_medium-light_skin_tone:,2018-09-05 23:53:48
+2152318148173814,Kebing,Li,2834,854518728062939,2152318148173814,BOT: message,Let's try this question.,2018-09-05 23:53:49
+2152318148173814,Kebing,Li,2835,854518728062939,2152318148173814,BOT: quick reply,"Although John F. Kennedy was known for his carefree flag football games, Gerald Ford should be _____ as our football president: he turned down offers to play for two National Football League teams in order to pursue a career in public service.",2018-09-05 23:53:50
+2152318148173814,Kebing,Li,2836,2152318148173814,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-05 23:54:05
+2152318148173814,Kebing,Li,2837,854518728062939,2152318148173814,BOT: message,Pick one of the following answers.,2018-09-05 23:54:05
+2152318148173814,Kebing,Li,2839,854518728062939,2152318148173814,BOT: quick reply,":keycap_1: apotheosized
+:keycap_2: abrogated
+:keycap_3: relegated
+:keycap_4: annulled
+:keycap_5: criticized
+",2018-09-05 23:54:06
+2152318148173814,Kebing,Li,4432,2152318148173814,854518728062939,user_typing,Yes,2018-09-06 03:45:23
+2152318148173814,Kebing,Li,4433,854518728062939,2152318148173814,BOT: message,"Oops, that answer was incorrect. :disappointed_face:",2018-09-06 03:45:23
+2152318148173814,Kebing,Li,4434,854518728062939,2152318148173814,BOT: quick reply,The correct answer is apotheosized.,2018-09-06 03:45:24
+2152318148173814,Kebing,Li,4435,2152318148173814,854518728062939,user_quick_reply: WHY,Why?,2018-09-06 03:45:31
+2152318148173814,Kebing,Li,4436,854518728062939,2152318148173814,BOT: message,Here's an explanation:,2018-09-06 03:45:32
+2152318148173814,Kebing,Li,4437,854518728062939,2152318148173814,BOT: quick reply,:pushpin: Apotheosized -- deify or glorify,2018-09-06 03:45:32
+2152318148173814,Kebing,Li,4438,2152318148173814,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-09-06 03:45:50
+2152318148173814,Kebing,Li,4439,854518728062939,2152318148173814,BOT: message,Could you answer this one for me?,2018-09-06 03:45:51
+2152318148173814,Kebing,Li,4440,854518728062939,2152318148173814,BOT: quick reply,"Despite the smile that spread from ear to ear, the eyes relayed a certain _____ .",2018-09-06 03:45:51
+2152318148173814,Kebing,Li,4441,2152318148173814,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-06 03:45:59
+2152318148173814,Kebing,Li,4442,854518728062939,2152318148173814,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-09-06 03:46:00
+2152318148173814,Kebing,Li,4443,854518728062939,2152318148173814,BOT: quick reply,":keycap_1: mischievousness
+:keycap_2: liveliness
+:keycap_3: vision
+:keycap_4: jubilance
+:keycap_5: sorrow
+",2018-09-06 03:46:01
+2152318148173814,Kebing,Li,4444,2152318148173814,854518728062939,user_typing,Sorrow,2018-09-06 03:46:15
+2152318148173814,Kebing,Li,4445,854518728062939,2152318148173814,BOT: image,https://www.smartprimer.ai:4443/pictures/avatar/congrats/penguinnormal_happy_orange.png,2018-09-06 03:46:17
+2152318148173814,Kebing,Li,4446,854518728062939,2152318148173814,BOT: message,Good Answer! :white_heavy_check_mark:,2018-09-06 03:46:18
+2152318148173814,Kebing,Li,4447,854518728062939,2152318148173814,BOT: quick reply,The correct answer is sorrow.,2018-09-06 03:46:19
+2152318148173814,Kebing,Li,4448,2152318148173814,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-06 03:46:26
+2152318148173814,Kebing,Li,4449,854518728062939,2152318148173814,BOT: message,Would you answer this question for me?,2018-09-06 03:46:26
+2152318148173814,Kebing,Li,4450,854518728062939,2152318148173814,BOT: quick reply,"Dolly Madison, the wife of President James Madison, was known especially for her _____ , remaining calm even as the British invaded Washington D.C. during the War of 1812.",2018-09-06 03:46:27
+2152318148173814,Kebing,Li,4451,2152318148173814,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-06 03:46:34
+2152318148173814,Kebing,Li,4452,854518728062939,2152318148173814,BOT: message,Which of the following options is the right answer?,2018-09-06 03:46:35
+2152318148173814,Kebing,Li,4453,854518728062939,2152318148173814,BOT: quick reply,":keycap_1: cynicism
+:keycap_2: equanimity
+:keycap_3: impracticality
+:keycap_4: zeal
+:keycap_5: malevolence
+",2018-09-06 03:46:36
+2152318148173814,Kebing,Li,4454,2152318148173814,854518728062939,user_typing,Calm,2018-09-06 03:46:41
+2152318148173814,Kebing,Li,4455,854518728062939,2152318148173814,BOT: message,That's not quite right. :disappointed_face:,2018-09-06 03:46:41
+2152318148173814,Kebing,Li,4456,854518728062939,2152318148173814,BOT: quick reply,The correct answer is equanimity.,2018-09-06 03:46:42
+2152318148173814,Kebing,Li,4457,2152318148173814,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-06 03:46:47
+2152318148173814,Kebing,Li,4458,854518728062939,2152318148173814,BOT: message,Let's see if you can get this one.,2018-09-06 03:46:48
+2152318148173814,Kebing,Li,4459,854518728062939,2152318148173814,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-09-06 03:46:49
+2152318148173814,Kebing,Li,4460,854518728062939,2152318148173814,BOT: quick reply,"Even though legislators claimed the Contagious Diseases Acts strengthened the nation, social purists argued the Acts _____ the nation's moral growth by encouraging licentious behavior.",2018-09-06 03:46:50
+2152318148173814,Kebing,Li,4461,2152318148173814,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-06 03:47:11
+2152318148173814,Kebing,Li,4462,854518728062939,2152318148173814,BOT: message,Pick one of the following answers.,2018-09-06 03:47:12
+2152318148173814,Kebing,Li,4463,854518728062939,2152318148173814,BOT: quick reply,":keycap_1: advanced
+:keycap_2: supplanted
+:keycap_3: hampered
+:keycap_4: enhanced
+:keycap_5: ameliorated
+",2018-09-06 03:47:12
+2152318148173814,Kebing,Li,4464,2152318148173814,854518728062939,user_typing,Hampered,2018-09-06 03:47:25
+2152318148173814,Kebing,Li,4465,854518728062939,2152318148173814,BOT: message,Good Answer! :white_heavy_check_mark:,2018-09-06 03:47:26
+2152318148173814,Kebing,Li,4466,854518728062939,2152318148173814,BOT: quick reply,The correct answer is hampered.,2018-09-06 03:47:27
+2152318148173814,Kebing,Li,4467,2152318148173814,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-06 03:47:34
+2152318148173814,Kebing,Li,4468,854518728062939,2152318148173814,BOT: message,Let's try this question.,2018-09-06 03:47:34
+2152318148173814,Kebing,Li,4469,854518728062939,2152318148173814,BOT: quick reply,"Having squandered his life's savings on unprofitable business ventures, the _____ entrepreneur was forced to live in squalor.",2018-09-06 03:47:35
+2152318148173814,Kebing,Li,4470,2152318148173814,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-06 03:47:50
+2152318148173814,Kebing,Li,4471,854518728062939,2152318148173814,BOT: message,Okay. I'll give you some choices.,2018-09-06 03:47:50
+2152318148173814,Kebing,Li,4472,854518728062939,2152318148173814,BOT: quick reply,":keycap_1: former
+:keycap_2: unlikely
+:keycap_3: perturbed
+:keycap_4: insolvent
+:keycap_5: eccentric
+",2018-09-06 03:47:52
+2152318148173814,Kebing,Li,4473,2152318148173814,854518728062939,user_quick_reply: I_DONT_KNOW,I don’t know :downcast_face_with_sweat:,2018-09-06 03:48:48
+2152318148173814,Kebing,Li,4474,854518728062939,2152318148173814,BOT: quick reply,Are you sure you want to skip this question?,2018-09-06 03:48:50
+2152318148173814,Kebing,Li,4475,2152318148173814,854518728062939,user_quick_reply: GIVEUP_YES,"Yes, answer please.",2018-09-06 03:48:57
+2152318148173814,Kebing,Li,4476,854518728062939,2152318148173814,BOT: message,"I'm sorry, you didn't get the question right this time.",2018-09-06 03:48:57
+2152318148173814,Kebing,Li,4477,854518728062939,2152318148173814,BOT: message,"Keep trying, you'll get it next time! :grinning_face_with_smiling_eyes:",2018-09-06 03:48:58
+2152318148173814,Kebing,Li,4478,854518728062939,2152318148173814,BOT: quick reply,The correct answer is insolvent.,2018-09-06 03:48:59
+2152318148173814,Kebing,Li,4479,2152318148173814,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-06 03:49:06
+2152318148173814,Kebing,Li,4480,854518728062939,2152318148173814,BOT: message,How about this next one:,2018-09-06 03:49:07
+2152318148173814,Kebing,Li,4481,854518728062939,2152318148173814,BOT: quick reply,"In psychological literature, the ""sleeper effect"" refers to the phenomenon in which a persuasive message from a trustworthy source loses _____ over time, while the efficacy of a message from a less credible source simultaneously increases.",2018-09-06 03:49:08
+2152318148173814,Kebing,Li,4482,2152318148173814,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-06 03:49:17
+2152318148173814,Kebing,Li,4483,854518728062939,2152318148173814,BOT: message,Pick one of the following answers.,2018-09-06 03:49:18
+2152318148173814,Kebing,Li,4484,854518728062939,2152318148173814,BOT: quick reply,":keycap_1: erudition
+:keycap_2: cogency
+:keycap_3: control
+:keycap_4: prescience
+:keycap_5: evasiveness
+",2018-09-06 03:49:19
+2152318148173814,Kebing,Li,4485,2152318148173814,854518728062939,user_typing,Erudition,2018-09-06 03:49:39
+2152318148173814,Kebing,Li,4486,854518728062939,2152318148173814,BOT: image,https://www.smartprimer.ai:4443/pictures/avatar/congrats/penguinnormal_normal_cyan.png,2018-09-06 03:49:41
+2152318148173814,Kebing,Li,4487,854518728062939,2152318148173814,BOT: message,Fantastic! :hundred_points:,2018-09-06 03:49:42
+2152318148173814,Kebing,Li,4488,854518728062939,2152318148173814,BOT: quick reply,The correct answer is cogency.,2018-09-06 03:49:43
+2152318148173814,Kebing,Li,4489,2152318148173814,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-06 03:49:59
+2152318148173814,Kebing,Li,4490,854518728062939,2152318148173814,BOT: message,How about this next one:,2018-09-06 03:50:00
+2152318148173814,Kebing,Li,4491,854518728062939,2152318148173814,BOT: quick reply,"Just as different people can have very different personalities, so too can pets - even those of the same species and breed possess varied _____ .",2018-09-06 03:50:01
+2152318148173814,Kebing,Li,4492,2152318148173814,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-06 03:50:14
+2152318148173814,Kebing,Li,4493,854518728062939,2152318148173814,BOT: message,Which of the following options is the right answer?,2018-09-06 03:50:14
+2152318148173814,Kebing,Li,4494,854518728062939,2152318148173814,BOT: quick reply,":keycap_1: temperaments
+:keycap_2: initiations
+:keycap_3: aptitudes
+:keycap_4: implementations
+:keycap_5: rationalizations
+",2018-09-06 03:50:15
+2152318148173814,Kebing,Li,4495,2152318148173814,854518728062939,user_typing,Temperaments,2018-09-06 03:50:25
+2152318148173814,Kebing,Li,4496,854518728062939,2152318148173814,BOT: message,Good job! :raising_hands_medium-light_skin_tone:,2018-09-06 03:50:26
+2152318148173814,Kebing,Li,4497,854518728062939,2152318148173814,BOT: quick reply,The correct answer is temperaments.,2018-09-06 03:50:27
+2152318148173814,Kebing,Li,4498,2152318148173814,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-06 03:50:56
+2152318148173814,Kebing,Li,4499,854518728062939,2152318148173814,BOT: message,I think you'll like this question.,2018-09-06 03:50:57
+2152318148173814,Kebing,Li,4500,854518728062939,2152318148173814,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-09-06 03:50:58
+2152318148173814,Kebing,Li,4501,854518728062939,2152318148173814,BOT: quick reply,Many Major League Baseball relief pitchers choose an electrifying theme song to play as they take the mound; the song _____ their fans and instills fear in their opponents.,2018-09-06 03:50:58
+2152318148173814,Kebing,Li,4502,2152318148173814,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-06 03:51:06
+2152318148173814,Kebing,Li,4503,854518728062939,2152318148173814,BOT: message,Okay. I'll give you some choices.,2018-09-06 03:51:07
+2152318148173814,Kebing,Li,4504,854518728062939,2152318148173814,BOT: quick reply,":keycap_1: innervates
+:keycap_2: enervates
+:keycap_3: eviscerates
+:keycap_4: pervades
+:keycap_5: assuages
+",2018-09-06 03:51:08
+2152318148173814,Kebing,Li,4505,2152318148173814,854518728062939,user_quick_reply: I_DONT_KNOW,I don’t know :downcast_face_with_sweat:,2018-09-06 03:51:27
+2152318148173814,Kebing,Li,4506,854518728062939,2152318148173814,BOT: quick reply,Do you really want to give up?,2018-09-06 03:51:28
+2152318148173814,Kebing,Li,4507,2152318148173814,854518728062939,user_quick_reply: GIVEUP_YES,"Yes, answer please.",2018-09-06 03:51:33
+2152318148173814,Kebing,Li,4508,854518728062939,2152318148173814,BOT: message,"I'm sorry, you didn't get the question right this time.",2018-09-06 03:51:34
+2152318148173814,Kebing,Li,4509,854518728062939,2152318148173814,BOT: message,"That's okay, you'll get it next time! :grinning_face_with_smiling_eyes:",2018-09-06 03:51:35
+2152318148173814,Kebing,Li,4510,854518728062939,2152318148173814,BOT: quick reply,The correct answer is innervates.,2018-09-06 03:51:36
+2152318148173814,Kebing,Li,4511,2152318148173814,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-06 03:51:42
+2152318148173814,Kebing,Li,4512,854518728062939,2152318148173814,BOT: message,Let's take a look at this question.,2018-09-06 03:51:43
+2152318148173814,Kebing,Li,4513,854518728062939,2152318148173814,BOT: quick reply,"Many dog owners treat their pets too _____ , forgetting that canines have evolved in competitive environments in which emotional coddling was a sign of weakness.",2018-09-06 03:51:44
+2152318148173814,Kebing,Li,4514,2152318148173814,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-06 03:51:50
+2152318148173814,Kebing,Li,4515,854518728062939,2152318148173814,BOT: message,It's one of the following choices.,2018-09-06 03:51:50
+2152318148173814,Kebing,Li,4516,854518728062939,2152318148173814,BOT: quick reply,":keycap_1: aggressively
+:keycap_2: fortuitously
+:keycap_3: indulgently
+:keycap_4: quixotically
+:keycap_5: belligerently
+",2018-09-06 03:51:51
+2152318148173814,Kebing,Li,4517,2152318148173814,854518728062939,user_typing,Indulgently,2018-09-06 03:52:01
+2152318148173814,Kebing,Li,4518,854518728062939,2152318148173814,BOT: image,https://www.smartprimer.ai:4443/pictures/avatar/congrats/penguinnormal_normal.png,2018-09-06 03:52:03
+2152318148173814,Kebing,Li,4519,854518728062939,2152318148173814,BOT: message,Fantastic! :hundred_points:,2018-09-06 03:52:04
+2152318148173814,Kebing,Li,4520,854518728062939,2152318148173814,BOT: quick reply,The correct answer is indulgently.,2018-09-06 03:52:05
+2152318148173814,Kebing,Li,4521,2152318148173814,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-06 03:52:10
+2152318148173814,Kebing,Li,4522,854518728062939,2152318148173814,BOT: message,Let's try this question.,2018-09-06 03:52:11
+2152318148173814,Kebing,Li,4523,854518728062939,2152318148173814,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-09-06 03:52:12
+2152318148173814,Kebing,Li,4524,854518728062939,2152318148173814,BOT: quick reply,"Modern tennis fans have come to realize that, although, quantum technological leaps in racquet technology have lead to _____ increases in the speed and power with which players can hit the ball, this has not necessarily lead to a more entertaining game.",2018-09-06 03:52:13
+2152318148173814,Kebing,Li,4525,2152318148173814,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-06 03:52:31
+2152318148173814,Kebing,Li,4526,854518728062939,2152318148173814,BOT: message,It's one of the following choices.,2018-09-06 03:52:32
+2152318148173814,Kebing,Li,4527,854518728062939,2152318148173814,BOT: quick reply,":keycap_1: tractable
+:keycap_2: halcyon
+:keycap_3: commensurate
+:keycap_4: malleable
+:keycap_5: innocuous
+",2018-09-06 03:52:33
+2152318148173814,Kebing,Li,4528,2152318148173814,854518728062939,user_typing,Commensurate,2018-09-06 03:53:08
+2152318148173814,Kebing,Li,4529,854518728062939,2152318148173814,BOT: image,https://www.smartprimer.ai:4443/pictures/avatar/congrats/penguinnormal_happy_cyan.png,2018-09-06 03:53:10
+2152318148173814,Kebing,Li,4530,854518728062939,2152318148173814,BOT: message,Correct! :confetti_ball:,2018-09-06 03:53:11
+2152318148173814,Kebing,Li,4531,854518728062939,2152318148173814,BOT: quick reply,The correct answer is commensurate.,2018-09-06 03:53:11
+2152318148173814,Kebing,Li,4532,2152318148173814,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-06 03:53:17
+2152318148173814,Kebing,Li,4533,854518728062939,2152318148173814,BOT: message,Let's see if you can get this one.,2018-09-06 03:53:18
+2152318148173814,Kebing,Li,4534,854518728062939,2152318148173814,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-09-06 03:53:18
+2152318148173814,Kebing,Li,4535,854518728062939,2152318148173814,BOT: quick reply,Seth was extremely _____ and did not enjoy activities that required effort to meet new people.,2018-09-06 03:53:19
+2152318148173814,Kebing,Li,4536,2152318148173814,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-06 03:53:26
+2152318148173814,Kebing,Li,4537,854518728062939,2152318148173814,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-09-06 03:53:27
+2152318148173814,Kebing,Li,4538,854518728062939,2152318148173814,BOT: quick reply,":keycap_1: introverted
+:keycap_2: gregarious
+:keycap_3: lackluster
+:keycap_4: extroverted
+:keycap_5: jaded
+",2018-09-06 03:53:28
+2152318148173814,Kebing,Li,4539,2152318148173814,854518728062939,user_typing,Introverted,2018-09-06 03:53:37
+2152318148173814,Kebing,Li,4540,854518728062939,2152318148173814,BOT: message,Nice! :red_apple:,2018-09-06 03:53:38
+2152318148173814,Kebing,Li,4541,854518728062939,2152318148173814,BOT: quick reply,The correct answer is introverted.,2018-09-06 03:53:39
+2152318148173814,Kebing,Li,4542,2152318148173814,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-06 03:53:45
+2152318148173814,Kebing,Li,4543,854518728062939,2152318148173814,BOT: message,"Alrighty, let's try this one.",2018-09-06 03:53:46
+2152318148173814,Kebing,Li,4544,854518728062939,2152318148173814,BOT: quick reply,"Possessing few natural resources upon its newly-granted independence in 1863, Singapore remained economically _____ until an influx of industrialization and foreign investment took hold there.",2018-09-06 03:53:47
+2152318148173814,Kebing,Li,4545,2152318148173814,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-06 03:53:53
+2152318148173814,Kebing,Li,4546,854518728062939,2152318148173814,BOT: message,Okay. I'll give you some choices.,2018-09-06 03:53:54
+2152318148173814,Kebing,Li,4547,854518728062939,2152318148173814,BOT: quick reply,":keycap_1: solvent
+:keycap_2: prosperous
+:keycap_3: powerful
+:keycap_4: fortuitous
+:keycap_5: dubious
+",2018-09-06 03:53:55
+2152318148173814,Kebing,Li,4548,2152318148173814,854518728062939,user_typing,Dubious,2018-09-06 03:54:48
+2152318148173814,Kebing,Li,4549,854518728062939,2152318148173814,BOT: message,Fantastic! :hundred_points:,2018-09-06 03:54:49
+2152318148173814,Kebing,Li,4550,2152318148173814,854518728062939,user_typing,Dubious,2018-09-06 03:54:50
+2152318148173814,Kebing,Li,4551,854518728062939,2152318148173814,BOT: quick reply,The correct answer is dubious.,2018-09-06 03:54:50
+2152318148173814,Kebing,Li,4552,854518728062939,2152318148173814,BOT: message,Correct! :confetti_ball:,2018-09-06 03:54:51
+2152318148173814,Kebing,Li,4553,854518728062939,2152318148173814,BOT: quick reply,The correct answer is dubious.,2018-09-06 03:54:52
+2152318148173814,Kebing,Li,4554,2152318148173814,854518728062939,persistent_menu: SCIENCE,Science:microscope:,2018-09-06 03:55:00
+2152318148173814,Kebing,Li,4555,854518728062939,2152318148173814,BOT: image,https://www.smartprimer.ai:4443/pictures/avatar/evolvereading_scientist.gif,2018-09-06 03:55:04
+2152318148173814,Kebing,Li,4556,854518728062939,2152318148173814,BOT: quick reply,Let's test your knowledge on science!,2018-09-06 03:55:05
+2152318148173814,Kebing,Li,4557,2152318148173814,854518728062939,user_quick_reply: NEXT_QUESTION,Tap me :oncoming_fist_medium-light_skin_tone:,2018-09-06 03:55:10
+2152318148173814,Kebing,Li,4558,854518728062939,2152318148173814,BOT: message,Here's a question for you:,2018-09-06 03:55:11
+2152318148173814,Kebing,Li,4559,854518728062939,2152318148173814,BOT: quick reply,What kind of viscosity is found in long-chain hydrocarbons?,2018-09-06 03:55:13
+2152318148173814,Kebing,Li,4560,2152318148173814,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-06 03:55:22
+2152318148173814,Kebing,Li,4561,854518728062939,2152318148173814,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-09-06 03:55:23
+2152318148173814,Kebing,Li,4562,854518728062939,2152318148173814,BOT: quick reply,":keycap_1: intense viscosity
+:keycap_2: low viscosity
+:keycap_3: increased viscosity
+:keycap_4: high viscosity
+",2018-09-06 03:55:24
+2152318148173814,Kebing,Li,4563,2152318148173814,854518728062939,user_quick_reply: BUTTON_DKB_increased viscosity,:keycap_3:,2018-09-06 03:55:29
+2152318148173814,Kebing,Li,4564,854518728062939,2152318148173814,BOT: message,"I'm sorry, but that was incorrect. :disappointed_face:",2018-09-06 03:55:30
+2152318148173814,Kebing,Li,4565,854518728062939,2152318148173814,BOT: quick reply,The correct answer is high viscosity.,2018-09-06 03:55:31
+2152318148173814,Kebing,Li,4566,2152318148173814,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-06 03:55:38
+2152318148173814,Kebing,Li,4567,854518728062939,2152318148173814,BOT: message,Let's take a look at this question.,2018-09-06 03:55:39
+2152318148173814,Kebing,Li,4568,854518728062939,2152318148173814,BOT: quick reply,What living species of bird is considered the largest of the raptors?,2018-09-06 03:55:40
+2152318148173814,Kebing,Li,4569,2152318148173814,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-06 03:56:08
+2152318148173814,Kebing,Li,4570,854518728062939,2152318148173814,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-09-06 03:56:09
+2152318148173814,Kebing,Li,4571,854518728062939,2152318148173814,BOT: quick reply,":keycap_1: golden eagles
+:keycap_2: pterodactyl
+:keycap_3: California condor
+:keycap_4: peregrine falcon
+",2018-09-06 03:56:10
+2152318148173814,Kebing,Li,4572,2152318148173814,854518728062939,user_quick_reply: BUTTON_AKB_golden eagles,:keycap_1:,2018-09-06 03:56:20
+2152318148173814,Kebing,Li,4573,854518728062939,2152318148173814,BOT: message,Nice work! Keep it up!,2018-09-06 03:56:21
+2152318148173814,Kebing,Li,4574,854518728062939,2152318148173814,BOT: quick reply,The correct answer is golden eagles.,2018-09-06 03:56:21
+2152318148173814,Kebing,Li,4575,2152318148173814,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-06 03:56:28
+2152318148173814,Kebing,Li,4576,854518728062939,2152318148173814,BOT: message,Let's take a look at this question.,2018-09-06 03:56:28
+2152318148173814,Kebing,Li,4577,854518728062939,2152318148173814,BOT: quick reply,What opens two strands of DNA?,2018-09-06 03:56:29
+2152318148173814,Kebing,Li,4578,2152318148173814,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-06 03:56:36
+2152318148173814,Kebing,Li,4579,854518728062939,2152318148173814,BOT: message,Which of the following options is the right answer?,2018-09-06 03:56:37
+2152318148173814,Kebing,Li,4580,854518728062939,2152318148173814,BOT: quick reply,":keycap_1: chromosome
+:keycap_2: replication
+:keycap_3: helicase
+:keycap_4: adenylate
+",2018-09-06 03:56:38
+2152318148173814,Kebing,Li,4581,2152318148173814,854518728062939,user_quick_reply: BUTTON_AKB_helicase,:keycap_3:,2018-09-06 03:56:46
+2152318148173814,Kebing,Li,4582,854518728062939,2152318148173814,BOT: message,Nice! That was right!,2018-09-06 03:56:47
+2152318148173814,Kebing,Li,4583,854518728062939,2152318148173814,BOT: quick reply,The correct answer is helicase.,2018-09-06 03:56:48
+2152318148173814,Kebing,Li,4584,2152318148173814,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-06 03:56:53
+2152318148173814,Kebing,Li,4585,854518728062939,2152318148173814,BOT: message,I think you'll like this question.,2018-09-06 03:56:53
+2152318148173814,Kebing,Li,4586,854518728062939,2152318148173814,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-09-06 03:56:54
+2152318148173814,Kebing,Li,4587,854518728062939,2152318148173814,BOT: quick reply,"When your brain senses that your body temperature is increasing, it sends messages to the blood vessels in the skin to increase in what?",2018-09-06 03:56:55
+2152318148173814,Kebing,Li,4588,2152318148173814,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-06 03:57:02
+2152318148173814,Kebing,Li,4589,854518728062939,2152318148173814,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-09-06 03:57:02
+2152318148173814,Kebing,Li,4590,854518728062939,2152318148173814,BOT: quick reply,":keycap_1: surface
+:keycap_2: diameter
+:keycap_3: height
+:keycap_4: weight
+",2018-09-06 03:57:03
+2152318148173814,Kebing,Li,4591,2152318148173814,854518728062939,user_quick_reply: BUTTON_DKB_weight,:keycap_4:,2018-09-06 03:57:11
+2152318148173814,Kebing,Li,4592,854518728062939,2152318148173814,BOT: message,"Hmm, that wasn't quite right. :disappointed_face:",2018-09-06 03:57:12
+2152318148173814,Kebing,Li,4593,854518728062939,2152318148173814,BOT: quick reply,The correct answer is diameter.,2018-09-06 03:57:13
+2152318148173814,Kebing,Li,4594,2152318148173814,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-06 03:57:17
+2152318148173814,Kebing,Li,4595,854518728062939,2152318148173814,BOT: message,"Alrighty, let's try this one.",2018-09-06 03:57:18
+2152318148173814,Kebing,Li,4596,854518728062939,2152318148173814,BOT: quick reply,How often should women perform a breast self-exam?,2018-09-06 03:57:19
+2152318148173814,Kebing,Li,4597,2152318148173814,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-06 03:57:25
+2152318148173814,Kebing,Li,4598,854518728062939,2152318148173814,BOT: message,Pick one of the following answers.,2018-09-06 03:57:26
+2152318148173814,Kebing,Li,4599,854518728062939,2152318148173814,BOT: quick reply,":keycap_1: weekly
+:keycap_2: monthly
+:keycap_3: yearly
+:keycap_4: quarterly
+",2018-09-06 03:57:27
+2152318148173814,Kebing,Li,4600,2152318148173814,854518728062939,user_quick_reply: BUTTON_DKB_weekly,:keycap_1:,2018-09-06 03:57:32
+2152318148173814,Kebing,Li,4601,854518728062939,2152318148173814,BOT: message,"Oops, that wasn't quite correct. :disappointed_face:",2018-09-06 03:57:33
+2152318148173814,Kebing,Li,4602,854518728062939,2152318148173814,BOT: quick reply,The correct answer is monthly.,2018-09-06 03:57:34
+2152318148173814,Kebing,Li,4603,2152318148173814,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-06 03:57:38
+2152318148173814,Kebing,Li,4604,854518728062939,2152318148173814,BOT: message,Let's see if you can answer this question.,2018-09-06 03:57:39
+2152318148173814,Kebing,Li,4605,854518728062939,2152318148173814,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-09-06 03:57:40
+2152318148173814,Kebing,Li,4606,854518728062939,2152318148173814,BOT: quick reply,Most fungi get organic compounds from what?,2018-09-06 03:57:41
+2152318148173814,Kebing,Li,4607,2152318148173814,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-06 03:57:49
+2152318148173814,Kebing,Li,4608,854518728062939,2152318148173814,BOT: message,It's one of the following choices.,2018-09-06 03:57:49
+2152318148173814,Kebing,Li,4609,854518728062939,2152318148173814,BOT: quick reply,":keycap_1: dead organisms
+:keycap_2: carnivorous organisms
+:keycap_3: inorganic material
+:keycap_4: living organisms
+",2018-09-06 03:57:50
+2152318148173814,Kebing,Li,4610,2152318148173814,854518728062939,user_quick_reply: BUTTON_AKB_dead organisms,:keycap_1:,2018-09-06 03:57:58
+2152318148173814,Kebing,Li,4611,854518728062939,2152318148173814,BOT: message,Nice work! Keep it up!,2018-09-06 03:57:59
+2152318148173814,Kebing,Li,4612,854518728062939,2152318148173814,BOT: quick reply,The correct answer is dead organisms.,2018-09-06 03:58:00
+2152318148173814,Kebing,Li,4613,2152318148173814,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-06 03:58:05
+2152318148173814,Kebing,Li,4614,854518728062939,2152318148173814,BOT: message,What about this next question:,2018-09-06 03:58:06
+2152318148173814,Kebing,Li,4615,854518728062939,2152318148173814,BOT: quick reply,Most insects reproduce quickly and through what type of reproduction?,2018-09-06 03:58:06
+2152318148173814,Kebing,Li,4616,2152318148173814,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-06 03:58:19
+2152318148173814,Kebing,Li,4617,854518728062939,2152318148173814,BOT: message,Pick one of the following answers.,2018-09-06 03:58:20
+2152318148173814,Kebing,Li,4618,854518728062939,2152318148173814,BOT: quick reply,":keycap_1: sexual reproduction
+:keycap_2: photosynthesis
+:keycap_3: asexual reproduction
+:keycap_4: spores
+",2018-09-06 03:58:21
+2152318148173814,Kebing,Li,4619,2152318148173814,854518728062939,user_quick_reply: BUTTON_DKB_spores,:keycap_4:,2018-09-06 03:58:30
+2152318148173814,Kebing,Li,4620,854518728062939,2152318148173814,BOT: message,"Hmm, that wasn't quite right. :disappointed_face:",2018-09-06 03:58:31
+2152318148173814,Kebing,Li,4621,854518728062939,2152318148173814,BOT: quick reply,The correct answer is sexual reproduction.,2018-09-06 03:58:32
+2152318148173814,Kebing,Li,4622,2152318148173814,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-06 03:58:39
+2152318148173814,Kebing,Li,4623,854518728062939,2152318148173814,BOT: message,Would you answer this question for me?,2018-09-06 03:58:40
+2152318148173814,Kebing,Li,4624,854518728062939,2152318148173814,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-09-06 03:58:40
+2152318148173814,Kebing,Li,4625,854518728062939,2152318148173814,BOT: quick reply,Nerve cells that sense touch are found mainly where?,2018-09-06 03:58:41
+2152318148173814,Kebing,Li,4626,2152318148173814,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-06 03:58:47
+2152318148173814,Kebing,Li,4627,854518728062939,2152318148173814,BOT: message,Pick one of the following answers.,2018-09-06 03:58:48
+2152318148173814,Kebing,Li,4628,854518728062939,2152318148173814,BOT: quick reply,":keycap_1: skin
+:keycap_2: brain
+:keycap_3: lungs
+:keycap_4: stomach
+",2018-09-06 03:58:49
+2152318148173814,Kebing,Li,4629,2152318148173814,854518728062939,user_quick_reply: BUTTON_DKB_brain,:keycap_2:,2018-09-06 03:58:55
+2152318148173814,Kebing,Li,4630,854518728062939,2152318148173814,BOT: message,"I'm sorry, but that was incorrect. :disappointed_face:",2018-09-06 03:58:56
+2152318148173814,Kebing,Li,4631,854518728062939,2152318148173814,BOT: quick reply,The correct answer is skin.,2018-09-06 03:58:57
+2152318148173814,Kebing,Li,4632,2152318148173814,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-06 03:59:05
+2152318148173814,Kebing,Li,4633,854518728062939,2152318148173814,BOT: quick reply,"Nice job! You've practiced enough questions today. Please come back tomorrow and click on ""Resume Learning :flexed_biceps_medium-light_skin_tone:"" for another practice session.",2018-09-06 03:59:06

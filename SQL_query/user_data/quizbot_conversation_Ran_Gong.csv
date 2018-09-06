@@ -1,0 +1,135 @@
+user_id,user_firstname,user_lastname,uid,sender,recipient,type,dialogue,time_stamp
+1880203695406063,Ran,Gong,4655,1880203695406063,854518728062939,persistent_menu: GET_INTRO_1,Get Started,2018-09-06 04:57:43
+1880203695406063,Ran,Gong,4659,854518728062939,1880203695406063,BOT: image,https://www.smartprimer.ai:4443/pictures/avatar/quizbot_avatar.png,2018-09-06 04:57:47
+1880203695406063,Ran,Gong,4660,854518728062939,1880203695406063,BOT: quick reply,"Hi Ran! My name is Frosty :penguin: and I’m here to help you learn all about science:microscope:, verbal reasoning (GRE) :input_latin_uppercase:, and safety:hammer_and_wrench:!",2018-09-06 04:57:48
+1880203695406063,Ran,Gong,4665,1880203695406063,854518728062939,user_quick_reply: GET_INTRO_2,Sure :oncoming_fist_medium-light_skin_tone:,2018-09-06 04:57:59
+1880203695406063,Ran,Gong,4666,854518728062939,1880203695406063,BOT: message,Here’s how it works.,2018-09-06 04:58:00
+1880203695406063,Ran,Gong,4668,854518728062939,1880203695406063,BOT: message,"I ask you questions, and you give me answers.",2018-09-06 04:58:00
+1880203695406063,Ran,Gong,4670,854518728062939,1880203695406063,BOT: quick reply,We will learn fun things together!,2018-09-06 04:58:01
+1880203695406063,Ran,Gong,4673,1880203695406063,854518728062939,user_quick_reply: GET_INTRO_3,Alright :raising_hands_medium-light_skin_tone:,2018-09-06 04:58:14
+1880203695406063,Ran,Gong,4674,854518728062939,1880203695406063,BOT: image,https://www.smartprimer.ai:4443/pictures/user_manual/typeanswer.png,2018-09-06 04:58:17
+1880203695406063,Ran,Gong,4675,854518728062939,1880203695406063,BOT: quick reply,"To study the questions, you can type in your answers in the text field and I will evaluate the answers for you using advanced NLP (Natural Language Processing) technology.",2018-09-06 04:58:17
+1880203695406063,Ran,Gong,4682,854518728062939,1880203695406063,BOT: image,https://www.smartprimer.ai:4443/pictures/user_manual/needhintbutton.png,2018-09-06 04:58:35
+1880203695406063,Ran,Gong,4683,854518728062939,1880203695406063,BOT: quick reply,"If you don't know the answers, then feel free to tap on the hint button.",2018-09-06 04:58:35
+1880203695406063,Ran,Gong,4684,1880203695406063,854518728062939,user_quick_reply: GET_INTRO_5,Got it :backhand_index_pointing_right_medium-light_skin_tone:,2018-09-06 04:58:43
+1880203695406063,Ran,Gong,4685,854518728062939,1880203695406063,BOT: image,https://www.smartprimer.ai:4443/pictures/user_manual/hintoptions.png,2018-09-06 04:58:46
+1880203695406063,Ran,Gong,4686,854518728062939,1880203695406063,BOT: quick reply,The hint will give you a list of potential answers and you can select one from them.,2018-09-06 04:58:47
+1880203695406063,Ran,Gong,4687,854518728062939,1880203695406063,BOT: image,https://www.smartprimer.ai:4443/pictures/user_manual/menubutton.jpg,2018-09-06 04:58:59
+1880203695406063,Ran,Gong,4688,854518728062939,1880203695406063,BOT: quick reply,"To discover more abilities of me, you can click on the menu button.:backhand_index_pointing_up_medium-light_skin_tone:",2018-09-06 04:59:00
+1880203695406063,Ran,Gong,4689,1880203695406063,854518728062939,user_quick_reply: GET_READY,Got it :white_heavy_check_mark:,2018-09-06 05:00:12
+1880203695406063,Ran,Gong,4690,854518728062939,1880203695406063,BOT: message,I hope you enjoy the learning journey! :hundred_points:,2018-09-06 05:00:12
+1880203695406063,Ran,Gong,4691,854518728062939,1880203695406063,BOT: quick reply,"So, are you ready?",2018-09-06 05:00:13
+1880203695406063,Ran,Gong,4692,1880203695406063,854518728062939,user_quick_reply: YUP_IM_READY,Yup! I'm ready! :raised_fist_medium-light_skin_tone:,2018-09-06 05:00:18
+1880203695406063,Ran,Gong,4693,854518728062939,1880203695406063,BOT: message,Great!,2018-09-06 05:00:19
+1880203695406063,Ran,Gong,4694,854518728062939,1880203695406063,BOT: quick reply,Let’s get started :rocket:,2018-09-06 05:00:19
+1880203695406063,Ran,Gong,4695,1880203695406063,854518728062939,user_quick_reply: SWITCH_SUBJECT,Quiz me :nerd_face:,2018-09-06 05:00:23
+1880203695406063,Ran,Gong,4696,854518728062939,1880203695406063,BOT: quick reply,"Sure, which subject would you want to study?:backhand_index_pointing_down_medium-light_skin_tone:",2018-09-06 05:00:24
+1880203695406063,Ran,Gong,4697,1880203695406063,854518728062939,user_quick_reply: SCIENCE,Science:microscope:,2018-09-06 05:00:32
+1880203695406063,Ran,Gong,4698,854518728062939,1880203695406063,BOT: quick reply,Awesome! Let's learn about science!,2018-09-06 05:00:33
+1880203695406063,Ran,Gong,4701,1880203695406063,854518728062939,user_quick_reply: NEXT_QUESTION,Alrighty :backhand_index_pointing_right_medium-light_skin_tone:,2018-09-06 05:00:38
+1880203695406063,Ran,Gong,4703,854518728062939,1880203695406063,BOT: message,Let's take a look at this question.,2018-09-06 05:00:39
+1880203695406063,Ran,Gong,4704,854518728062939,1880203695406063,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-09-06 05:00:40
+1880203695406063,Ran,Gong,4705,854518728062939,1880203695406063,BOT: quick reply,What kind of viscosity is found in long-chain hydrocarbons?,2018-09-06 05:00:40
+1880203695406063,Ran,Gong,4706,1880203695406063,854518728062939,user_quick_reply: I_DONT_KNOW,I don’t know :downcast_face_with_sweat:,2018-09-06 05:00:54
+1880203695406063,Ran,Gong,4707,854518728062939,1880203695406063,BOT: quick reply,Are you sure you want to skip answering?,2018-09-06 05:00:55
+1880203695406063,Ran,Gong,4708,1880203695406063,854518728062939,user_quick_reply: GIVEUP_NO,"No, I'll try again!",2018-09-06 05:01:01
+1880203695406063,Ran,Gong,4709,854518728062939,1880203695406063,BOT: message,Don't give up!,2018-09-06 05:01:02
+1880203695406063,Ran,Gong,4710,854518728062939,1880203695406063,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-09-06 05:01:03
+1880203695406063,Ran,Gong,4711,854518728062939,1880203695406063,BOT: quick reply,":keycap_1: intense viscosity
+:keycap_2: high viscosity
+:keycap_3: low viscosity
+:keycap_4: increased viscosity
+",2018-09-06 05:01:04
+1880203695406063,Ran,Gong,4712,1880203695406063,854518728062939,user_quick_reply: BUTTON_AKB_high viscosity,:keycap_2:,2018-09-06 05:01:15
+1880203695406063,Ran,Gong,4714,854518728062939,1880203695406063,BOT: message,Nice! That was right!,2018-09-06 05:01:16
+1880203695406063,Ran,Gong,4716,854518728062939,1880203695406063,BOT: quick reply,The correct answer is high viscosity.,2018-09-06 05:01:17
+1880203695406063,Ran,Gong,4717,1880203695406063,854518728062939,user_quick_reply: WHY,Why?,2018-09-06 05:01:25
+1880203695406063,Ran,Gong,4718,854518728062939,1880203695406063,BOT: message,This is why:,2018-09-06 05:01:25
+1880203695406063,Ran,Gong,4719,854518728062939,1880203695406063,BOT: quick reply,"There is also a correlation between viscosity and molecular shape. Liquids consisting of long, flexible molecules tend to have higher viscosities than those composed of more spherical or shorter-chain molecules. The longer the molecules, the easier it is for them to become “tangled” with one another, making it more difficult for them to move past one another. London dispersion forces also increase with chain length. Due to a combination of these two effects, long-chain hydrocarbons (such as motor oils) are highly viscous.",2018-09-06 05:01:26
+1880203695406063,Ran,Gong,4794,1880203695406063,854518728062939,user_typing,Great,2018-09-06 05:06:17
+1880203695406063,Ran,Gong,4795,854518728062939,1880203695406063,BOT: quick reply,That sounds cool. I need to learn more languages to keep up with the conversation with you. Maybe you can teach me languages in the future!,2018-09-06 05:06:18
+1880203695406063,Ran,Gong,4803,1880203695406063,854518728062939,user_typing,Sure,2018-09-06 05:06:36
+1880203695406063,Ran,Gong,4805,854518728062939,1880203695406063,BOT: quick reply,I'm not sure what this is. I'm still learning languages and you might be my teacher in the future!,2018-09-06 05:06:36
+1880203695406063,Ran,Gong,4813,1880203695406063,854518728062939,user_quick_reply: CHAT_WITH_ME,Chat with me :penguin:,2018-09-06 05:06:50
+1880203695406063,Ran,Gong,4814,854518728062939,1880203695406063,BOT: quick reply,Would you want me to tell you something interesting?,2018-09-06 05:06:51
+1880203695406063,Ran,Gong,4815,1880203695406063,854518728062939,user_quick_reply: JOKE,Joke :beaming_face_with_smiling_eyes:,2018-09-06 05:06:54
+1880203695406063,Ran,Gong,4816,854518728062939,1880203695406063,BOT: message,Here's one I thought might be funny.,2018-09-06 05:06:55
+1880203695406063,Ran,Gong,4817,854518728062939,1880203695406063,BOT: quick reply,Q. What lies at the bottom of the ocean and twitches? A. A nervous wreck.,2018-09-06 05:06:56
+1880203695406063,Ran,Gong,4821,1880203695406063,854518728062939,user_quick_reply: JOKE,One more joke :beaming_face_with_smiling_eyes:,2018-09-06 05:07:07
+1880203695406063,Ran,Gong,4822,854518728062939,1880203695406063,BOT: message,Here is an interesting one for you.,2018-09-06 05:07:08
+1880203695406063,Ran,Gong,4823,854518728062939,1880203695406063,BOT: quick reply,Q: Where is the ocean the deepest? A: On the bottom!,2018-09-06 05:07:08
+1880203695406063,Ran,Gong,4827,1880203695406063,854518728062939,user_quick_reply: NEXT_QUESTION,Continue learning :flexed_biceps_medium-light_skin_tone:,2018-09-06 05:07:21
+1880203695406063,Ran,Gong,4828,854518728062939,1880203695406063,BOT: message,See if you can answer this next one.,2018-09-06 05:07:22
+1880203695406063,Ran,Gong,4829,854518728062939,1880203695406063,BOT: quick reply,What living species of bird is considered the largest of the raptors?,2018-09-06 05:07:23
+1880203695406063,Ran,Gong,4844,1880203695406063,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-06 05:14:26
+1880203695406063,Ran,Gong,4845,1880203695406063,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-06 05:14:26
+1880203695406063,Ran,Gong,4847,1880203695406063,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-06 05:14:26
+1880203695406063,Ran,Gong,4849,1880203695406063,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-06 05:14:26
+1880203695406063,Ran,Gong,4850,1880203695406063,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-06 05:14:26
+1880203695406063,Ran,Gong,4851,1880203695406063,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-06 05:14:26
+1880203695406063,Ran,Gong,4854,1880203695406063,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-06 05:14:26
+1880203695406063,Ran,Gong,4857,1880203695406063,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-06 05:14:26
+1880203695406063,Ran,Gong,4858,854518728062939,1880203695406063,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-09-06 05:14:26
+1880203695406063,Ran,Gong,4859,854518728062939,1880203695406063,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-09-06 05:14:26
+1880203695406063,Ran,Gong,4860,854518728062939,1880203695406063,BOT: message,Okay. I'll give you some choices.,2018-09-06 05:14:26
+1880203695406063,Ran,Gong,4861,854518728062939,1880203695406063,BOT: message,Which of the following options is the right answer?,2018-09-06 05:14:26
+1880203695406063,Ran,Gong,4866,854518728062939,1880203695406063,BOT: message,It's one of the following choices.,2018-09-06 05:14:26
+1880203695406063,Ran,Gong,4869,854518728062939,1880203695406063,BOT: message,Pick one of the following answers.,2018-09-06 05:14:26
+1880203695406063,Ran,Gong,4870,854518728062939,1880203695406063,BOT: message,It's one of the following choices.,2018-09-06 05:14:26
+1880203695406063,Ran,Gong,4873,854518728062939,1880203695406063,BOT: message,Which of the following options is the right answer?,2018-09-06 05:14:26
+1880203695406063,Ran,Gong,4876,854518728062939,1880203695406063,BOT: quick reply,":keycap_1: golden eagles
+:keycap_2: peregrine falcon
+:keycap_3: California condor
+:keycap_4: pterodactyl
+",2018-09-06 05:14:27
+1880203695406063,Ran,Gong,4877,854518728062939,1880203695406063,BOT: quick reply,":keycap_1: pterodactyl
+:keycap_2: California condor
+:keycap_3: peregrine falcon
+:keycap_4: golden eagles
+",2018-09-06 05:14:27
+1880203695406063,Ran,Gong,4878,854518728062939,1880203695406063,BOT: quick reply,":keycap_1: golden eagles
+:keycap_2: peregrine falcon
+:keycap_3: pterodactyl
+:keycap_4: California condor
+",2018-09-06 05:14:27
+1880203695406063,Ran,Gong,4879,854518728062939,1880203695406063,BOT: quick reply,":keycap_1: peregrine falcon
+:keycap_2: California condor
+:keycap_3: golden eagles
+:keycap_4: pterodactyl
+",2018-09-06 05:14:27
+1880203695406063,Ran,Gong,4884,854518728062939,1880203695406063,BOT: quick reply,":keycap_1: California condor
+:keycap_2: pterodactyl
+:keycap_3: peregrine falcon
+:keycap_4: golden eagles
+",2018-09-06 05:14:27
+1880203695406063,Ran,Gong,4886,854518728062939,1880203695406063,BOT: quick reply,":keycap_1: golden eagles
+:keycap_2: peregrine falcon
+:keycap_3: California condor
+:keycap_4: pterodactyl
+",2018-09-06 05:14:27
+1880203695406063,Ran,Gong,4887,854518728062939,1880203695406063,BOT: quick reply,":keycap_1: pterodactyl
+:keycap_2: California condor
+:keycap_3: golden eagles
+:keycap_4: peregrine falcon
+",2018-09-06 05:14:27
+1880203695406063,Ran,Gong,4889,854518728062939,1880203695406063,BOT: quick reply,":keycap_1: golden eagles
+:keycap_2: peregrine falcon
+:keycap_3: California condor
+:keycap_4: pterodactyl
+",2018-09-06 05:14:27
+1880203695406063,Ran,Gong,4900,1880203695406063,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-06 05:15:19
+1880203695406063,Ran,Gong,4901,854518728062939,1880203695406063,BOT: message,It's one of the following choices.,2018-09-06 05:15:20
+1880203695406063,Ran,Gong,4902,854518728062939,1880203695406063,BOT: quick reply,":keycap_1: peregrine falcon
+:keycap_2: pterodactyl
+:keycap_3: California condor
+:keycap_4: golden eagles
+",2018-09-06 05:15:20
+1880203695406063,Ran,Gong,4903,1880203695406063,854518728062939,user_typing,Hey what happened,2018-09-06 05:15:21
+1880203695406063,Ran,Gong,4904,854518728062939,1880203695406063,BOT: message,That wasn't quite what we were looking for. :disappointed_face:,2018-09-06 05:15:22
+1880203695406063,Ran,Gong,4905,854518728062939,1880203695406063,BOT: quick reply,The correct answer is golden eagles.,2018-09-06 05:15:23
+1880203695406063,Ran,Gong,4906,1880203695406063,854518728062939,user_typing,Server down?,2018-09-06 05:15:24
+1880203695406063,Ran,Gong,4907,854518728062939,1880203695406063,BOT: quick reply,Sorry but I haven't learned about this yet. I'll learn more languages in the future.,2018-09-06 05:15:24
+1880203695406063,Ran,Gong,4908,1880203695406063,854518728062939,user_typing,Get started,2018-09-06 05:15:25
+1880203695406063,Ran,Gong,4909,854518728062939,1880203695406063,BOT: quick reply,I'm not sure what this is. I'm still learning languages and you might be my teacher in the future!,2018-09-06 05:15:26
+1880203695406063,Ran,Gong,4923,1880203695406063,854518728062939,user_typing,Golden eagles,2018-09-06 05:19:47
+1880203695406063,Ran,Gong,4924,854518728062939,1880203695406063,BOT: quick reply,I'm not sure what this is. I'm still learning languages and you might be my teacher in the future!,2018-09-06 05:19:48

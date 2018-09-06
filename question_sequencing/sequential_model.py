@@ -10,22 +10,29 @@ from utils import SubjectEnoughQuestions, EnoughForToday, FinishFixQuestionsStud
 
 class SequentialModel(BaseSequencingModel):
 
-    def __init__(self, qa_kb):
+    def __init__(self, qa_kb, effective_qids):
         BaseSequencingModel.__init__(self, qa_kb)
         # a dictionary mapping user id to a dictionary mapping qids to counts
         self.user_questions_counts = {"science":{}, "safety":{}, "gre":{}}
         self.block_counts = {}
+        self.effective_qids = effective_qids
+        self.effective_indices = {v: k for (k,v) in effective_qids.items()}
 
-    def updateHistory(self, user_id, user_data, effective_qids):
+    def updateHistory(self, user_id, user_data, indexing):
         '''outcome is either 0 or 1, if the user answered correctly
         item is the index of the last item
         Args:
            user_data: tuples of qid(int), outcome (float [0,1]), timestamp (str)
         '''
         question, outcome, timestamp = user_data
-        if question not in effective_qids.keys():
-            return
-        question_idx = effective_qids[question]
+        if indexing == 'index':
+            # convert to qid
+            question = self.effective_indices[question]
+        elif indexing == 'qid':
+            if question not in self.effective_qids.keys():
+                print('question {} not in our question bank'.format(question))
+                return
+        question_idx = self.effective_qids[question]
         subject = self.QA_KB.SubKB[question_idx]
         if user_id in self.user_questions_counts[subject]:
             if question_idx in self.user_questions_counts[subject][user_id]:
@@ -86,7 +93,7 @@ class SequentialModel(BaseSequencingModel):
                 _QID_subject[_qid] = _subject
             QID = min(_QID_counts, key=_QID_counts.get)
             d = self.user_questions_counts[_QID_subject[QID]][user_id]
-            d[QID] += 1
+            #d[QID] += 1
         else:
             d = self.user_questions_counts[subject][user_id]
             print(subject, d)
@@ -94,7 +101,7 @@ class SequentialModel(BaseSequencingModel):
             QID = min(d, key=d.get)
             if d[QID] >= 2:
                 raise SubjectEnoughQuestions
-            d[QID] += 1
+            #d[QID] += 1
         print("Select {} (prev count={})".format(QID, d[QID]-1))
 
         data = {'question': self.QA_KB.QKB[QID],

@@ -1,0 +1,22 @@
+user_id,user_firstname,user_lastname,uid,sender,recipient,type,dialogue,time_stamp
+2383312188375546,Yin,Li,3825,2383312188375546,854518728062939,persistent_menu: GET_INTRO_1,Get Started,2018-09-06 01:49:05
+2383312188375546,Yin,Li,3831,854518728062939,2383312188375546,BOT: image,https://www.smartprimer.ai:4443/pictures/avatar/quizbot_avatar.png,2018-09-06 01:49:08
+2383312188375546,Yin,Li,3834,854518728062939,2383312188375546,BOT: quick reply,"Hi Yin! My name is Frosty :penguin: and I’m here to help you learn all about science:microscope:, verbal reasoning (GRE) :input_latin_uppercase:, and safety:hammer_and_wrench:!",2018-09-06 01:49:09
+2383312188375546,Yin,Li,3845,2383312188375546,854518728062939,user_quick_reply: GET_INTRO_2,I see :collision:,2018-09-06 01:49:19
+2383312188375546,Yin,Li,3846,854518728062939,2383312188375546,BOT: message,Here’s how it works.,2018-09-06 01:49:20
+2383312188375546,Yin,Li,3847,854518728062939,2383312188375546,BOT: message,"I ask you questions, and you give me answers.",2018-09-06 01:49:21
+2383312188375546,Yin,Li,3848,854518728062939,2383312188375546,BOT: quick reply,We will learn fun things together!,2018-09-06 01:49:21
+2383312188375546,Yin,Li,3853,2383312188375546,854518728062939,persistent_menu: GRE,GRE :input_latin_uppercase:,2018-09-06 01:49:28
+2383312188375546,Yin,Li,3857,854518728062939,2383312188375546,BOT: quick reply,Cool! Here's some questions on the GRE!,2018-09-06 01:49:29
+2383312188375546,Yin,Li,3860,2383312188375546,854518728062939,user_quick_reply: NEXT_QUESTION,I see :clapping_hands_medium-light_skin_tone:,2018-09-06 01:49:31
+2383312188375546,Yin,Li,3861,854518728062939,2383312188375546,BOT: message,Let's see if you can get this one.,2018-09-06 01:49:32
+2383312188375546,Yin,Li,3862,854518728062939,2383312188375546,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-09-06 01:49:32
+2383312188375546,Yin,Li,3864,854518728062939,2383312188375546,BOT: quick reply,"Although John F. Kennedy was known for his carefree flag football games, Gerald Ford should be _____ as our football president: he turned down offers to play for two National Football League teams in order to pursue a career in public service.",2018-09-06 01:49:33
+2383312188375546,Yin,Li,3870,2383312188375546,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-06 01:49:38
+2383312188375546,Yin,Li,3872,854518728062939,2383312188375546,BOT: message,Which of the following options is the right answer?,2018-09-06 01:49:39
+2383312188375546,Yin,Li,3874,854518728062939,2383312188375546,BOT: quick reply,":keycap_1: criticized
+:keycap_2: apotheosized
+:keycap_3: annulled
+:keycap_4: relegated
+:keycap_5: abrogated
+",2018-09-06 01:49:40

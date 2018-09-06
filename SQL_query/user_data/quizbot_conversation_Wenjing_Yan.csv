@@ -1,0 +1,39 @@
+user_id,user_firstname,user_lastname,uid,sender,recipient,type,dialogue,time_stamp
+2033684046681857,Wenjing,Yan,2178,854518728062939,2033684046681857,BOT: image,https://www.smartprimer.ai:4443/pictures/avatar/quizbot_avatar.png,2018-09-05 20:50:13
+2033684046681857,Wenjing,Yan,2179,854518728062939,2033684046681857,BOT: quick reply,"Hi Wenjing! My name is Frosty :penguin: and I’m here to help you learn all about science:microscope:, verbal reasoning (GRE) :input_latin_uppercase:, and safety:hammer_and_wrench:!",2018-09-05 20:50:14
+2033684046681857,Wenjing,Yan,2180,2033684046681857,854518728062939,user_quick_reply: GET_INTRO_2,OK :round_pushpin:,2018-09-05 20:50:22
+2033684046681857,Wenjing,Yan,2181,854518728062939,2033684046681857,BOT: message,Here’s how it works.,2018-09-05 20:50:23
+2033684046681857,Wenjing,Yan,2182,854518728062939,2033684046681857,BOT: message,"I ask you questions, and you give me answers.",2018-09-05 20:50:24
+2033684046681857,Wenjing,Yan,2183,854518728062939,2033684046681857,BOT: quick reply,We will learn fun things together!,2018-09-05 20:50:24
+2033684046681857,Wenjing,Yan,2184,2033684046681857,854518728062939,user_quick_reply: GET_INTRO_3,"Yes, continue :raising_hands_medium-light_skin_tone:",2018-09-05 20:50:42
+2033684046681857,Wenjing,Yan,2185,854518728062939,2033684046681857,BOT: image,https://www.smartprimer.ai:4443/pictures/user_manual/typeanswer.png,2018-09-05 20:50:44
+2033684046681857,Wenjing,Yan,2186,854518728062939,2033684046681857,BOT: quick reply,"To study the questions, you can type in your answers in the text field and I will evaluate the answers for you using advanced NLP (Natural Language Processing) technology.",2018-09-05 20:50:45
+2033684046681857,Wenjing,Yan,2187,2033684046681857,854518728062939,user_quick_reply: GET_INTRO_4,Alrighty :backhand_index_pointing_right_medium-light_skin_tone:,2018-09-05 20:50:55
+2033684046681857,Wenjing,Yan,2188,854518728062939,2033684046681857,BOT: image,https://www.smartprimer.ai:4443/pictures/user_manual/needhintbutton.png,2018-09-05 20:50:58
+2033684046681857,Wenjing,Yan,2189,854518728062939,2033684046681857,BOT: quick reply,"If you don't know the answers, then feel free to tap on the hint button.",2018-09-05 20:50:58
+2033684046681857,Wenjing,Yan,2190,2033684046681857,854518728062939,user_quick_reply: GET_INTRO_5,Alright :round_pushpin:,2018-09-05 20:51:13
+2033684046681857,Wenjing,Yan,2191,854518728062939,2033684046681857,BOT: image,https://www.smartprimer.ai:4443/pictures/user_manual/hintoptions.png,2018-09-05 20:51:15
+2033684046681857,Wenjing,Yan,2192,854518728062939,2033684046681857,BOT: quick reply,The hint will give you a list of potential answers and you can select one from them.,2018-09-05 20:51:16
+2033684046681857,Wenjing,Yan,2193,2033684046681857,854518728062939,user_quick_reply: GET_INTRO_6,Tap me :backhand_index_pointing_right_medium-light_skin_tone:,2018-09-05 20:51:22
+2033684046681857,Wenjing,Yan,2194,854518728062939,2033684046681857,BOT: image,https://www.smartprimer.ai:4443/pictures/user_manual/menubutton.jpg,2018-09-05 20:51:23
+2033684046681857,Wenjing,Yan,2195,854518728062939,2033684046681857,BOT: quick reply,"To discover more abilities of me, you can click on the menu button.:backhand_index_pointing_up_medium-light_skin_tone:",2018-09-05 20:51:24
+2033684046681857,Wenjing,Yan,2196,2033684046681857,854518728062939,user_quick_reply: GET_READY,Tap me :thumbs_up_medium-light_skin_tone:,2018-09-05 20:51:29
+2033684046681857,Wenjing,Yan,2197,854518728062939,2033684046681857,BOT: message,I hope you enjoy the learning journey! :hundred_points:,2018-09-05 20:51:30
+2033684046681857,Wenjing,Yan,2198,854518728062939,2033684046681857,BOT: quick reply,"So, are you ready?",2018-09-05 20:51:31
+2033684046681857,Wenjing,Yan,2199,2033684046681857,854518728062939,user_quick_reply: YUP_IM_READY,Yup! I'm ready! :raised_fist_medium-light_skin_tone:,2018-09-05 20:51:47
+2033684046681857,Wenjing,Yan,2200,854518728062939,2033684046681857,BOT: message,Great!,2018-09-05 20:51:48
+2033684046681857,Wenjing,Yan,2201,854518728062939,2033684046681857,BOT: quick reply,Let’s get started :rocket:,2018-09-05 20:51:49
+2033684046681857,Wenjing,Yan,2202,2033684046681857,854518728062939,user_quick_reply: SWITCH_SUBJECT,Quiz me :nerd_face:,2018-09-05 20:52:00
+2033684046681857,Wenjing,Yan,2203,854518728062939,2033684046681857,BOT: quick reply,"Sure, which of the following subjects would you like me to quiz you on?:backhand_index_pointing_down_medium-light_skin_tone:",2018-09-05 20:52:00
+2033684046681857,Wenjing,Yan,2204,2033684046681857,854518728062939,user_quick_reply: RANDOM,Random :game_die:,2018-09-05 20:52:10
+2033684046681857,Wenjing,Yan,2205,854518728062939,2033684046681857,BOT: quick reply,Let's answer some questions about everything! :game_die:,2018-09-05 20:52:11
+2033684046681857,Wenjing,Yan,2206,2033684046681857,854518728062939,user_quick_reply: NEXT_QUESTION,I see :backhand_index_pointing_right_medium-light_skin_tone:,2018-09-05 20:52:15
+2033684046681857,Wenjing,Yan,2207,854518728062939,2033684046681857,BOT: message,What about this next question:,2018-09-05 20:52:16
+2033684046681857,Wenjing,Yan,2208,854518728062939,2033684046681857,BOT: quick reply,What kind of viscosity is found in long-chain hydrocarbons?,2018-09-05 20:52:16
+2033684046681857,Wenjing,Yan,2209,2033684046681857,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-05 20:52:24
+2033684046681857,Wenjing,Yan,2210,854518728062939,2033684046681857,BOT: message,Which of the following options is the right answer?,2018-09-05 20:52:25
+2033684046681857,Wenjing,Yan,2211,854518728062939,2033684046681857,BOT: quick reply,":keycap_1: intense viscosity
+:keycap_2: high viscosity
+:keycap_3: low viscosity
+:keycap_4: increased viscosity
+",2018-09-05 20:52:26
