@@ -23,7 +23,10 @@ users = [("Golrokh", "Emami"), ("Cynthia", "Torma"), ("Jordan", "Cho"), ("Laura"
          ("Nina", "Wei"), ("Jessica", "de la Paz"), ("Janice", "Zang"), ("Grace", "Hong"), \
          ("Yufeng", "Yin"), ("Jorge", "Nam")]
 
-users.extend([("Jeongeun", "Park"), ("shuo", "han"), ("Harry", "Liu")])
+users.extend([("Jeongeun", "Park"), ("shuo", "han"), ("Harry", "Liu"), ("Yunan", "Xu"), ("Jackie", "Yang"), ("xuebing", "leng"), ("Zhiyuan", "Lin"),
+              ("Jerry", "Hong"), ("Kebing", "Li"), ("Yun", "Zhang"), ("Xiaoou", "Wang"), ("Yue", "Lian"), ("Jackie", "Hang"),  
+              ("wenjing", "yan"), ("Heidi", "He"), ("Anna", "Yu"), ("Irene", "Lai"), 
+              ("Qiwen", "Zhang"), ("Ran", "Gong")])
 
 # request a single user's record specified in command line
 if sys.argv[1] != "" and sys.argv[2] != "":
