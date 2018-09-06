@@ -251,12 +251,14 @@ def show_user_history_flashcard(mysql, user_id):
     '''
     cur = mysql.connection.cursor()
     cur.execute('SELECT qid, event, r_time FROM (users RIGHT JOIN action ON users.user_id = action.user_id) WHERE users.user_id = %s AND (\
-        action.event = "got it" OR action.event = "I don\'t know" OR "change to random" OR "change to safety" \
-        OR "change to science" OR "change to gre");', [user_id])
+        action.event = "got it" OR action.event = "I don\'t know" OR action.event = "change to random" OR action.event = "change to safety" \
+        OR action.event = "change to science" OR action.event = "change to gre");', [user_id])
     rows = cur.fetchall()
     result = []
     for r in rows:
-        if r[1] == "got it":
+        if int(r[0]) == -1:
+            pass
+        elif r[1] == "got it":
             result.append((r[0], 0, r[2]))
         else:
             result.append((r[0], 1, r[2]))

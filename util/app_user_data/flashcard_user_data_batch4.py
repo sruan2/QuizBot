@@ -13,7 +13,12 @@ from collections import Counter
 dirname = os.path.dirname(__file__)
 result_filename = "flashcard_data_analysis_batch4.txt"
 
-users = ["Jeongeun_Park","shuo_han", "Harry_Liu"]
+users = ["Jeongeun_Park","shuo_han", "Harry_Liu",
+         "Yunan_Xu", "Jackie_Yang", "xuebing_leng", "Zhiyuan_Lin", "Jerry_Hong", "Kebing_Li", "Yun_Zhang",
+         "Xiaoou_Wang", "Yue_Lian", "Jackie_Hang", "Heidi_He", "Anna_Yu", "Irene_Lai",
+         "Qiwen_Zhang", "Ran_Gong"
+         #"wenjing_yan",
+         ]
 
 if len(sys.argv) == 3:
     users = [sys.argv[1] + "_" + sys.argv[2]]
@@ -90,9 +95,9 @@ for user in users:
             total_usage_time += (time_stamp - old_time_stamp).total_seconds()
         old_time_stamp = time_stamp
 
-        if flashcard_file[i][EVENT_INDEX] in ("I don't know", "got it"):
+        if flashcard_file[i][EVENT_INDEX] in ["I don't know", "got it", "change to safety", "change to random", "change to gre", "change to science"]:
             current_qid = int(flashcard_file[i][QID_INDEX])
-	    if current_qid != -1: 
+	    if current_qid != -1:
 		sub_practice_report[day_counter].append(current_qid)
 
     sub_time_report.append((old_time_stamp.year, old_time_stamp.month, old_time_stamp.day, total_usage_time/60))
@@ -101,7 +106,9 @@ for user in users:
     practice_question_count[user] = {}
     question_correctness_rate[user] = {}
 
-    events = [int(x[QID_INDEX]) for x in flashcard_file if (x[EVENT_INDEX] == "I don't know" or x[EVENT_INDEX] == "got it") and int(x[QID_INDEX]) in flashcard_qid]
+    events = [int(x[QID_INDEX]) for x in flashcard_file if (x[EVENT_INDEX] in ["I don't know", "got it", \
+        "change to safety", "change to random", "change to gre", "change to science"] and int(x[QID_INDEX]) in flashcard_qid)]
+
     print("\n--------------------------------")
     print(user)
     events.sort()
