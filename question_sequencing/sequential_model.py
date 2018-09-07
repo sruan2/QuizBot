@@ -71,7 +71,7 @@ class SequentialModel(BaseSequencingModel):
 
         if total_count in self.block_counts[user_id]:
             print(self.block_counts[user_id])
-            self.block_counts[user_id].pop()
+            self.block_counts[user_id].remove(total_count)
             print(self.block_counts[user_id])
             raise EnoughForToday
 
@@ -88,6 +88,7 @@ class SequentialModel(BaseSequencingModel):
                 _QID_subject[_qid] = _subject
             QID = min(_QID_counts, key=_QID_counts.get)
             d = self.user_questions_counts[_QID_subject[QID]][user_id]
+            print('Random --', _QID_subject[QID], d)
             d[QID] += 1
         else:
             d = self.user_questions_counts[subject][user_id]
@@ -97,7 +98,7 @@ class SequentialModel(BaseSequencingModel):
             if d[QID] >= 2:
                 raise SubjectEnoughQuestions
             d[QID] += 1
-        print("Select {} (prev count={})".format(QID, d[QID]-1))
+        print("Select {} (prev count={})".format(QID, d[QID]))
 
         data = {'question': self.QA_KB.QKB[QID],
                 'qid': [QID, self.QA_KB.QID[QID]],
