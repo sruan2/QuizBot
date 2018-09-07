@@ -19,14 +19,13 @@ result_filename = "quizbot_data_analysis.txt"
 practice_question_file = "practice_question.csv"
 correctness_rate_file = "correctness_rate.csv"
 
-users = [
-         # "Sherry_Ruan", "Jeongeun_Park", "Shuo_Han", # Tuesday
-         # "Jackie_Yang", "Yunan_Xu", "Xuebing_Leng", "Zhiyuan_Lin", "Jerry_Hong",
-         # "Emma_Chen", "Iris_Lian", "Alice_Wang", "Irene_Lai", "Wenjing_Yan",
-         # "Jackie_Hang", "Yun_Zhang", "Kebing_Li", "Heidi_He", "Anna_Yu",
-         # "Yin_Li", "Ran_Gong", "Qiwen_Zhang", "Tianshi_Li",
-         # "Yiran_Shen", "Wendy_Li", "Wenming_Zhang",
-         # "Mkhanyisi_Gamedze", "Meng_Tang", "Miao_Zhang", "Fangjie_Cao",
+users = ["Sherry_Ruan", "Jeongeun_Park", "Shuo_Han", # Tuesday
+         "Jackie_Yang", "Yunan_Xu", "Xuebing_Leng", "Zhiyuan_Lin", "Jerry_Hong",
+         "Emma_Chen", "Iris_Lian", "Alice_Wang", "Irene_Lai", "Wenjing_Yan",
+         "Jackie_Hang", "Yun_Zhang", "Kebing_Li", "Heidi_He", "Anna_Yu",
+         "Yin_Li", "Ran_Gong", "Qiwen_Zhang", "Tianshi_Li",
+         "Yiran_Shen", "Wendy_Li", "Wenming_Zhang",
+         "Mkhanyisi_Gamedze", "Meng_Tang", "Miao_Zhang", "Fangjie_Cao",
          "Harry_Liu"
          ]
 
@@ -149,7 +148,7 @@ for user in users:
             sub_time_report.append((old_time_stamp.year, old_time_stamp.month, old_time_stamp.day, total_usage_time/60))
             total_usage_time = 0
             new_time_stamp_uid = int(conversation_file[i][UID_INDEX])
-            print(old_time_stamp_uid, new_time_stamp_uid)
+            #print(old_time_stamp_uid, new_time_stamp_uid)
             sub_practice_report.append([int(x[QID_INDEX]) for x in user_history_file \
                                        if (x[END_UID_INDEX] != "" and int(x[END_UID_INDEX]) >= old_time_stamp_uid and int(x[END_UID_INDEX]) < new_time_stamp_uid)])
             old_time_stamp_uid = new_time_stamp_uid
