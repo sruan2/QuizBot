@@ -29,7 +29,7 @@ users.extend([("Jeongeun", "Park"), ("shuo", "han"), ("Harry", "Liu"), ("Yunan",
               ("Qiwen", "Zhang"), ("Ran", "Gong"), ("Tianshi", "Li"),
               ("Yiran", "Shen"), ("Harry", "Liu"), ("Wendy", "Li"), ("Wenming", "Zhang"), ("Miao", "Zhang"), ("Fangjie", "Cao"), ("Meng", "Tang"),
               ("Elaine", "Yin"), ("Ziang","Zhu"), ("Hao", "Chen"), ("Akemi","Wijayabahu"), ("Yifan", "He"),
-              ("Mkhanyisi", "Gamedze")])
+              ("Mkhanyisi", "Gamedze"), ("Hongyu", "Zhai")])
 
 # request a single user's record specified in command line
 if sys.argv[1] != "" and sys.argv[2] != "":

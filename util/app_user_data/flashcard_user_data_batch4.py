@@ -19,9 +19,10 @@ users = ["Jeongeun_Park","shuo_han", "Harry_Liu",
          "Qiwen_Zhang", "Ran_Gong", "Tianshi_Li", "wenjing_yan", "Yin_Li",
          "Harry_Liu", "Wendy_Li", 
          "Wenming_Zhang", "Miao_Zhang", "Fangjie_Cao", "Meng_Tang", "Elaine_Yin",
-         #"Yiran_Shen", 
-         #"Ziang_Zhu", 
+         "Yiran_Shen", 
+         "Ziang_Zhu", 
          "Hao_Chen", "Akemi_Wijayabahu", "Yifan_He", 
+         "Hongyu_Zhai",
          #"Mkhanyisi_Gamedze"
 
          ]

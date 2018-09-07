@@ -22,6 +22,7 @@ from question_sequencing.leitner_model import LeitnerSequencingModel
 from question_sequencing.SM2_model import SM2SequencingModel
 from question_sequencing.dash_model import DASHSequencingModel
 from question_sequencing.sequential_model import SequentialModel
+from question_sequencing.sequential_model_devbot import SequentialModelDevBot
 from QAKnowledgebase import QAKnowlegeBase
 
 class QAModel(object):
@@ -41,7 +42,9 @@ class QAModel(object):
         elif sequencing_model == 'sm2':
             self.sequencing_model = SM2SequencingModel(qa_kb)
         elif sequencing_model == 'sequential':
-            self.sequencing_model = SequentailModel(qa_kb)
+            self.sequencing_model = SequentialModel(qa_kb)
+        elif sequencing_model == 'devbot':
+            self.sequencing_model = SequentialModelDevBot(qa_kb)
         else:
             self.sequencing_model = RandomSequencingModel(qa_kb)
 
