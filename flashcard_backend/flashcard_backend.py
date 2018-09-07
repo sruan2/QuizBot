@@ -40,7 +40,7 @@ qid_to_index = {128: 6, 130: 18, 131: 12, 133: 17, 6: 35, 135: 1, 9: 11, 10: 45,
 # ================== Batch 1+2 ==================
 batch12_qa_kb = QAKnowlegeBase("../QAdataset/questions_filtered_150.json")
 batch12_model = RandomSequencingModel(batch12_qa_kb)
-batch12_user = {"871927094": "Yufeng Yin", "1085427761": "Jorge Nam", "1632": "3 3"}
+batch12_user = { "1632": "3 3"}
 
 # ================== Batch 4 ==================
 json_file = '../QAdataset/questions_between_subjects_flashcard.json'  # sherry: typo here, should be within-subject
@@ -79,7 +79,8 @@ user_finished_study = { #"379832172": "Anonymous Tester",
                         "102151122": "Michael Solorio", "678532179": "Nina Wei",
                         "798628431": "Jessica de la Paz",
                         "821967244": "Janice Zang",
-                        "454995128": "Grace Hong", "420158298": "Daniel Choe"}
+                        "454995128": "Grace Hong", "420158298": "Daniel Choe",
+                        "871927094": "Yufeng Yin", "1085427761": "Jorge Nam"}
 user_id_within_subject = list(user_within_subject.keys())
 
 

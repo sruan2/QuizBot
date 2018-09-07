@@ -16,8 +16,14 @@ result_filename = "flashcard_data_analysis_batch4.txt"
 users = ["Jeongeun_Park","shuo_han", "Harry_Liu",
          "Yunan_Xu", "Jackie_Yang", "xuebing_leng", "Zhiyuan_Lin", "Jerry_Hong", "Kebing_Li", "Yun_Zhang",
          "Xiaoou_Wang", "Yue_Lian", "Jackie_Hang", "Heidi_He", "Anna_Yu", "Irene_Lai",
-         "Qiwen_Zhang", "Ran_Gong"
-         #"wenjing_yan",
+         "Qiwen_Zhang", "Ran_Gong", "Tianshi_Li", "wenjing_yan", "Yin_Li",
+         "Harry_Liu", "Wendy_Li", 
+         "Wenming_Zhang", "Miao_Zhang", "Fangjie_Cao", "Meng_Tang", "Elaine_Yin",
+         #"Yiran_Shen", 
+         #"Ziang_Zhu", 
+         "Hao_Chen", "Akemi_Wijayabahu", "Yifan_He", 
+         #"Mkhanyisi_Gamedze"
+
          ]
 
 if len(sys.argv) == 3:

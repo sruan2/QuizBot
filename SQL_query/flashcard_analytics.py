@@ -25,8 +25,11 @@ users = [("Golrokh", "Emami"), ("Cynthia", "Torma"), ("Jordan", "Cho"), ("Laura"
 
 users.extend([("Jeongeun", "Park"), ("shuo", "han"), ("Harry", "Liu"), ("Yunan", "Xu"), ("Jackie", "Yang"), ("xuebing", "leng"), ("Zhiyuan", "Lin"),
               ("Jerry", "Hong"), ("Kebing", "Li"), ("Yun", "Zhang"), ("Xiaoou", "Wang"), ("Yue", "Lian"), ("Jackie", "Hang"),  
-              ("wenjing", "yan"), ("Heidi", "He"), ("Anna", "Yu"), ("Irene", "Lai"), 
-              ("Qiwen", "Zhang"), ("Ran", "Gong")])
+              ("wenjing", "yan"), ("Heidi", "He"), ("Anna", "Yu"), ("Irene", "Lai"), ("Yin", "Li"), 
+              ("Qiwen", "Zhang"), ("Ran", "Gong"), ("Tianshi", "Li"),
+              ("Yiran", "Shen"), ("Harry", "Liu"), ("Wendy", "Li"), ("Wenming", "Zhang"), ("Miao", "Zhang"), ("Fangjie", "Cao"), ("Meng", "Tang"),
+              ("Elaine", "Yin"), ("Ziang","Zhu"), ("Hao", "Chen"), ("Akemi","Wijayabahu"), ("Yifan", "He"),
+              ("Mkhanyisi", "Gamedze")])
 
 # request a single user's record specified in command line
 if sys.argv[1] != "" and sys.argv[2] != "":
