@@ -1,0 +1,551 @@
+user_id,user_firstname,user_lastname,uid,sender,recipient,type,dialogue,time_stamp
+1727270930715391,Tianshi,Li,6301,1727270930715391,854518728062939,persistent_menu: GET_INTRO_1,Get Started,2018-09-06 19:14:40
+1727270930715391,Tianshi,Li,6302,854518728062939,1727270930715391,BOT: image,https://www.smartprimer.ai:4443/pictures/avatar/quizbot_avatar.png,2018-09-06 19:14:43
+1727270930715391,Tianshi,Li,6303,854518728062939,1727270930715391,BOT: quick reply,"Hi Tianshi! My name is Frosty :penguin: and I’m here to help you learn all about science:microscope:, verbal reasoning (GRE) :input_latin_uppercase:, and safety:hammer_and_wrench:!",2018-09-06 19:14:44
+1727270930715391,Tianshi,Li,6304,1727270930715391,854518728062939,user_quick_reply: GET_INTRO_2,Okay :backhand_index_pointing_right_medium-light_skin_tone:,2018-09-06 19:15:32
+1727270930715391,Tianshi,Li,6305,854518728062939,1727270930715391,BOT: message,Here’s how it works.,2018-09-06 19:15:33
+1727270930715391,Tianshi,Li,6306,854518728062939,1727270930715391,BOT: message,"I ask you questions, and you give me answers.",2018-09-06 19:15:34
+1727270930715391,Tianshi,Li,6307,854518728062939,1727270930715391,BOT: quick reply,We will learn fun things together!,2018-09-06 19:15:35
+1727270930715391,Tianshi,Li,6308,1727270930715391,854518728062939,user_quick_reply: GET_INTRO_3,OK :round_pushpin:,2018-09-06 19:15:39
+1727270930715391,Tianshi,Li,6309,854518728062939,1727270930715391,BOT: image,https://www.smartprimer.ai:4443/pictures/user_manual/typeanswer.png,2018-09-06 19:15:41
+1727270930715391,Tianshi,Li,6310,854518728062939,1727270930715391,BOT: quick reply,"To study the questions, you can type in your answers in the text field and I will evaluate the answers for you using advanced NLP (Natural Language Processing) technology.",2018-09-06 19:15:42
+1727270930715391,Tianshi,Li,6311,1727270930715391,854518728062939,user_quick_reply: GET_INTRO_4,I see :thumbs_up_medium-light_skin_tone:,2018-09-06 19:15:50
+1727270930715391,Tianshi,Li,6312,854518728062939,1727270930715391,BOT: image,https://www.smartprimer.ai:4443/pictures/user_manual/needhintbutton.png,2018-09-06 19:15:52
+1727270930715391,Tianshi,Li,6313,854518728062939,1727270930715391,BOT: quick reply,"If you don't know the answers, then feel free to tap on the hint button.",2018-09-06 19:15:53
+1727270930715391,Tianshi,Li,6314,1727270930715391,854518728062939,user_quick_reply: GET_INTRO_5,Tap me :flexed_biceps_medium-light_skin_tone:,2018-09-06 19:15:59
+1727270930715391,Tianshi,Li,6315,854518728062939,1727270930715391,BOT: image,https://www.smartprimer.ai:4443/pictures/user_manual/hintoptions.png,2018-09-06 19:16:01
+1727270930715391,Tianshi,Li,6316,854518728062939,1727270930715391,BOT: quick reply,The hint will give you a list of potential answers and you can select one from them.,2018-09-06 19:16:02
+1727270930715391,Tianshi,Li,6317,1727270930715391,854518728062939,user_quick_reply: GET_INTRO_6,Continue :white_heavy_check_mark:,2018-09-06 19:16:07
+1727270930715391,Tianshi,Li,6318,854518728062939,1727270930715391,BOT: image,https://www.smartprimer.ai:4443/pictures/user_manual/menubutton.jpg,2018-09-06 19:16:09
+1727270930715391,Tianshi,Li,6319,854518728062939,1727270930715391,BOT: quick reply,"To discover more abilities of me, you can click on the menu button.:backhand_index_pointing_up_medium-light_skin_tone:",2018-09-06 19:16:10
+1727270930715391,Tianshi,Li,6320,1727270930715391,854518728062939,user_quick_reply: GET_READY,Continue :light_bulb:,2018-09-06 19:16:21
+1727270930715391,Tianshi,Li,6321,854518728062939,1727270930715391,BOT: message,I hope you enjoy the learning journey! :hundred_points:,2018-09-06 19:16:21
+1727270930715391,Tianshi,Li,6322,854518728062939,1727270930715391,BOT: quick reply,"So, are you ready?",2018-09-06 19:16:22
+1727270930715391,Tianshi,Li,6323,1727270930715391,854518728062939,user_quick_reply: YUP_IM_READY,Yup! I'm ready! :raised_fist_medium-light_skin_tone:,2018-09-06 19:16:26
+1727270930715391,Tianshi,Li,6324,854518728062939,1727270930715391,BOT: message,Great!,2018-09-06 19:16:27
+1727270930715391,Tianshi,Li,6325,854518728062939,1727270930715391,BOT: quick reply,Let’s get started :rocket:,2018-09-06 19:16:28
+1727270930715391,Tianshi,Li,6326,1727270930715391,854518728062939,user_quick_reply: SWITCH_SUBJECT,Quiz me :nerd_face:,2018-09-06 19:16:31
+1727270930715391,Tianshi,Li,6327,854518728062939,1727270930715391,BOT: quick reply,"Okay, which subject would you like to choose?:backhand_index_pointing_down_medium-light_skin_tone:",2018-09-06 19:16:32
+1727270930715391,Tianshi,Li,6328,1727270930715391,854518728062939,user_quick_reply: RANDOM,Random :game_die:,2018-09-06 19:16:38
+1727270930715391,Tianshi,Li,6329,854518728062939,1727270930715391,BOT: quick reply,Nice! Enjoy a little variety? Let's answer some questions! :game_die:,2018-09-06 19:16:38
+1727270930715391,Tianshi,Li,6330,1727270930715391,854518728062939,user_quick_reply: NEXT_QUESTION,Sure :raising_hands_medium-light_skin_tone:,2018-09-06 19:16:43
+1727270930715391,Tianshi,Li,6331,854518728062939,1727270930715391,BOT: message,How about this next one:,2018-09-06 19:16:44
+1727270930715391,Tianshi,Li,6332,854518728062939,1727270930715391,BOT: quick reply,What kind of viscosity is found in long-chain hydrocarbons?,2018-09-06 19:16:45
+1727270930715391,Tianshi,Li,6333,1727270930715391,854518728062939,user_quick_reply: I_DONT_KNOW,I don’t know :downcast_face_with_sweat:,2018-09-06 19:16:53
+1727270930715391,Tianshi,Li,6334,854518728062939,1727270930715391,BOT: quick reply,Are you sure you want to give up?,2018-09-06 19:16:54
+1727270930715391,Tianshi,Li,6335,1727270930715391,854518728062939,user_quick_reply: GIVEUP_YES,"Yes, answer please.",2018-09-06 19:16:58
+1727270930715391,Tianshi,Li,6336,854518728062939,1727270930715391,BOT: message,"I'm sorry, you didn't get the question right this time.",2018-09-06 19:16:59
+1727270930715391,Tianshi,Li,6337,854518728062939,1727270930715391,BOT: message,"That's fine, you'll nail it next time! :grinning_face_with_smiling_eyes:",2018-09-06 19:17:00
+1727270930715391,Tianshi,Li,6338,854518728062939,1727270930715391,BOT: quick reply,The correct answer is high viscosity.,2018-09-06 19:17:00
+1727270930715391,Tianshi,Li,6339,1727270930715391,854518728062939,user_quick_reply: WHY,Why?,2018-09-06 19:17:09
+1727270930715391,Tianshi,Li,6340,854518728062939,1727270930715391,BOT: message,This is an explanation of the question:,2018-09-06 19:17:10
+1727270930715391,Tianshi,Li,6341,854518728062939,1727270930715391,BOT: quick reply,"There is also a correlation between viscosity and molecular shape. Liquids consisting of long, flexible molecules tend to have higher viscosities than those composed of more spherical or shorter-chain molecules. The longer the molecules, the easier it is for them to become “tangled” with one another, making it more difficult for them to move past one another. London dispersion forces also increase with chain length. Due to a combination of these two effects, long-chain hydrocarbons (such as motor oils) are highly viscous.",2018-09-06 19:17:12
+1727270930715391,Tianshi,Li,6347,1727270930715391,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-09-06 19:17:30
+1727270930715391,Tianshi,Li,6348,854518728062939,1727270930715391,BOT: message,"Alrighty, let's try this one.",2018-09-06 19:17:31
+1727270930715391,Tianshi,Li,6349,854518728062939,1727270930715391,BOT: quick reply,What kind of viscosity is found in long-chain hydrocarbons?,2018-09-06 19:17:31
+1727270930715391,Tianshi,Li,6351,1727270930715391,854518728062939,user_typing,High,2018-09-06 19:17:41
+1727270930715391,Tianshi,Li,6352,854518728062939,1727270930715391,BOT: message,That’s right! :party_popper:,2018-09-06 19:17:42
+1727270930715391,Tianshi,Li,6353,854518728062939,1727270930715391,BOT: quick reply,The correct answer is high viscosity.,2018-09-06 19:17:43
+1727270930715391,Tianshi,Li,6354,1727270930715391,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-06 19:17:49
+1727270930715391,Tianshi,Li,6356,854518728062939,1727270930715391,BOT: message,"Alrighty, let's try this one.",2018-09-06 19:17:50
+1727270930715391,Tianshi,Li,6357,854518728062939,1727270930715391,BOT: quick reply,"Although John F. Kennedy was known for his carefree flag football games, Gerald Ford should be _____ as our football president: he turned down offers to play for two National Football League teams in order to pursue a career in public service.",2018-09-06 19:17:50
+1727270930715391,Tianshi,Li,6358,1727270930715391,854518728062939,user_typing,Assigned,2018-09-06 19:18:38
+1727270930715391,Tianshi,Li,6359,854518728062939,1727270930715391,BOT: message,That's not quite right. :disappointed_face:,2018-09-06 19:18:39
+1727270930715391,Tianshi,Li,6360,854518728062939,1727270930715391,BOT: quick reply,The correct answer is apotheosized.,2018-09-06 19:18:40
+1727270930715391,Tianshi,Li,6361,1727270930715391,854518728062939,user_quick_reply: WHY,Why?,2018-09-06 19:18:46
+1727270930715391,Tianshi,Li,6362,854518728062939,1727270930715391,BOT: message,This is why:,2018-09-06 19:18:47
+1727270930715391,Tianshi,Li,6363,854518728062939,1727270930715391,BOT: quick reply,:pushpin: Apotheosized -- deify or glorify,2018-09-06 19:18:48
+1727270930715391,Tianshi,Li,6365,1727270930715391,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-09-06 19:19:36
+1727270930715391,Tianshi,Li,6366,854518728062939,1727270930715391,BOT: message,Would you answer this question for me?,2018-09-06 19:19:37
+1727270930715391,Tianshi,Li,6367,854518728062939,1727270930715391,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-09-06 19:19:38
+1727270930715391,Tianshi,Li,6368,854518728062939,1727270930715391,BOT: quick reply,What living species of bird is considered the largest of the raptors?,2018-09-06 19:19:38
+1727270930715391,Tianshi,Li,6369,1727270930715391,854518728062939,user_quick_reply: I_DONT_KNOW,I don’t know :downcast_face_with_sweat:,2018-09-06 19:19:53
+1727270930715391,Tianshi,Li,6370,854518728062939,1727270930715391,BOT: quick reply,Are you sure you want to skip this question?,2018-09-06 19:19:54
+1727270930715391,Tianshi,Li,6371,1727270930715391,854518728062939,user_quick_reply: GIVEUP_YES,"Yes, answer please.",2018-09-06 19:19:57
+1727270930715391,Tianshi,Li,6372,854518728062939,1727270930715391,BOT: message,You didn't get this question this time.,2018-09-06 19:19:57
+1727270930715391,Tianshi,Li,6373,854518728062939,1727270930715391,BOT: message,"That's fine, you'll nail it next time! :grinning_face_with_smiling_eyes:",2018-09-06 19:19:58
+1727270930715391,Tianshi,Li,6374,854518728062939,1727270930715391,BOT: quick reply,The correct answer is golden eagles.,2018-09-06 19:19:59
+1727270930715391,Tianshi,Li,6375,1727270930715391,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-06 19:20:10
+1727270930715391,Tianshi,Li,6376,854518728062939,1727270930715391,BOT: message,Could you answer this one for me?,2018-09-06 19:20:11
+1727270930715391,Tianshi,Li,6377,854518728062939,1727270930715391,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-09-06 19:20:12
+1727270930715391,Tianshi,Li,6378,854518728062939,1727270930715391,BOT: quick reply,What living species of bird is considered the largest of the raptors?,2018-09-06 19:20:13
+1727270930715391,Tianshi,Li,6380,1727270930715391,854518728062939,user_typing,Golden eagles,2018-09-06 19:20:20
+1727270930715391,Tianshi,Li,6381,854518728062939,1727270930715391,BOT: image,https://www.smartprimer.ai:4443/pictures/avatar/congrats/penguinnormal_normal_pink.png,2018-09-06 19:20:21
+1727270930715391,Tianshi,Li,6382,854518728062939,1727270930715391,BOT: message,Fantastic! :hundred_points:,2018-09-06 19:20:22
+1727270930715391,Tianshi,Li,6383,854518728062939,1727270930715391,BOT: quick reply,The correct answer is golden eagles.,2018-09-06 19:20:23
+1727270930715391,Tianshi,Li,6384,1727270930715391,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-06 19:20:27
+1727270930715391,Tianshi,Li,6385,854518728062939,1727270930715391,BOT: message,"Alrighty, let's try this one.",2018-09-06 19:20:28
+1727270930715391,Tianshi,Li,6386,854518728062939,1727270930715391,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-09-06 19:20:29
+1727270930715391,Tianshi,Li,6387,854518728062939,1727270930715391,BOT: quick reply,"Despite the smile that spread from ear to ear, the eyes relayed a certain _____ .",2018-09-06 19:20:29
+1727270930715391,Tianshi,Li,6388,1727270930715391,854518728062939,user_typing,Sadness,2018-09-06 19:20:44
+1727270930715391,Tianshi,Li,6389,854518728062939,1727270930715391,BOT: message,Good job! :raising_hands_medium-light_skin_tone:,2018-09-06 19:20:44
+1727270930715391,Tianshi,Li,6390,854518728062939,1727270930715391,BOT: quick reply,The correct answer is sorrow.,2018-09-06 19:20:45
+1727270930715391,Tianshi,Li,6391,1727270930715391,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-06 19:20:50
+1727270930715391,Tianshi,Li,6392,854518728062939,1727270930715391,BOT: message,Here's a question for you:,2018-09-06 19:20:50
+1727270930715391,Tianshi,Li,6393,854518728062939,1727270930715391,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-09-06 19:20:51
+1727270930715391,Tianshi,Li,6394,854518728062939,1727270930715391,BOT: quick reply,What opens two strands of DNA?,2018-09-06 19:20:52
+1727270930715391,Tianshi,Li,6395,1727270930715391,854518728062939,user_quick_reply: I_DONT_KNOW,I don’t know :downcast_face_with_sweat:,2018-09-06 19:20:59
+1727270930715391,Tianshi,Li,6396,854518728062939,1727270930715391,BOT: quick reply,Do you really want to give up?,2018-09-06 19:20:59
+1727270930715391,Tianshi,Li,6397,1727270930715391,854518728062939,user_quick_reply: GIVEUP_YES,"Yes, answer please.",2018-09-06 19:21:03
+1727270930715391,Tianshi,Li,6398,854518728062939,1727270930715391,BOT: message,"I'm sorry, you didn't get the question right this time.",2018-09-06 19:21:03
+1727270930715391,Tianshi,Li,6399,854518728062939,1727270930715391,BOT: message,"Don't give up, you'll get it next time! :grinning_face_with_smiling_eyes:",2018-09-06 19:21:04
+1727270930715391,Tianshi,Li,6400,854518728062939,1727270930715391,BOT: quick reply,The correct answer is helicase.,2018-09-06 19:21:05
+1727270930715391,Tianshi,Li,6401,1727270930715391,854518728062939,user_quick_reply: WHY,Why?,2018-09-06 19:21:10
+1727270930715391,Tianshi,Li,6402,854518728062939,1727270930715391,BOT: message,This is an explanation of the question:,2018-09-06 19:21:11
+1727270930715391,Tianshi,Li,6403,854518728062939,1727270930715391,BOT: quick reply,"The two DNA strands are opened by helicase. The strands are held open by a single strand of binding proteins, preventing premature reannealing. Topoisomerase solves the problem caused by tension generated by winding/unwinding of DNA. This enzyme wraps around DNA and makes a cut permitting the helix to spin and relax. Once DNA is relaxed, topoisomerase reconnects broken strands. DNA primase synthesizes a short RNA primer which initiates the Okazaki fragment. Okazaki fragments are attached by DNA ligase.",2018-09-06 19:21:11
+1727270930715391,Tianshi,Li,6404,1727270930715391,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-09-06 19:21:33
+1727270930715391,Tianshi,Li,6405,854518728062939,1727270930715391,BOT: message,I think you'll like this question.,2018-09-06 19:21:34
+1727270930715391,Tianshi,Li,6406,854518728062939,1727270930715391,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-09-06 19:21:35
+1727270930715391,Tianshi,Li,6407,854518728062939,1727270930715391,BOT: quick reply,What opens two strands of DNA?,2018-09-06 19:21:36
+1727270930715391,Tianshi,Li,6408,1727270930715391,854518728062939,user_typing,Helicase,2018-09-06 19:21:43
+1727270930715391,Tianshi,Li,6409,854518728062939,1727270930715391,BOT: message,Nice! :red_apple:,2018-09-06 19:21:44
+1727270930715391,Tianshi,Li,6410,854518728062939,1727270930715391,BOT: quick reply,The correct answer is helicase.,2018-09-06 19:21:44
+1727270930715391,Tianshi,Li,6412,1727270930715391,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-06 19:21:48
+1727270930715391,Tianshi,Li,6413,854518728062939,1727270930715391,BOT: message,See if you can answer this next one.,2018-09-06 19:21:49
+1727270930715391,Tianshi,Li,6414,854518728062939,1727270930715391,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-09-06 19:21:49
+1727270930715391,Tianshi,Li,6415,854518728062939,1727270930715391,BOT: quick reply,"Dolly Madison, the wife of President James Madison, was known especially for her _____ , remaining calm even as the British invaded Washington D.C. during the War of 1812.",2018-09-06 19:21:50
+1727270930715391,Tianshi,Li,6416,1727270930715391,854518728062939,user_typing,Calmness,2018-09-06 19:22:15
+1727270930715391,Tianshi,Li,6417,854518728062939,1727270930715391,BOT: message,Fantastic! :hundred_points:,2018-09-06 19:22:15
+1727270930715391,Tianshi,Li,6418,854518728062939,1727270930715391,BOT: quick reply,The correct answer is equanimity.,2018-09-06 19:22:16
+1727270930715391,Tianshi,Li,6419,1727270930715391,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-06 19:22:22
+1727270930715391,Tianshi,Li,6420,854518728062939,1727270930715391,BOT: message,How about this next one:,2018-09-06 19:22:23
+1727270930715391,Tianshi,Li,6421,854518728062939,1727270930715391,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-09-06 19:22:24
+1727270930715391,Tianshi,Li,6422,854518728062939,1727270930715391,BOT: quick reply,"Even though legislators claimed the Contagious Diseases Acts strengthened the nation, social purists argued the Acts _____ the nation's moral growth by encouraging licentious behavior.",2018-09-06 19:22:24
+1727270930715391,Tianshi,Li,6423,1727270930715391,854518728062939,user_typing,Impede,2018-09-06 19:22:52
+1727270930715391,Tianshi,Li,6424,854518728062939,1727270930715391,BOT: message,Fantastic! :hundred_points:,2018-09-06 19:22:53
+1727270930715391,Tianshi,Li,6425,854518728062939,1727270930715391,BOT: quick reply,The correct answer is hampered.,2018-09-06 19:22:53
+1727270930715391,Tianshi,Li,6426,1727270930715391,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-06 19:22:58
+1727270930715391,Tianshi,Li,6427,854518728062939,1727270930715391,BOT: message,Let's take a look at this question.,2018-09-06 19:22:59
+1727270930715391,Tianshi,Li,6428,854518728062939,1727270930715391,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-09-06 19:23:00
+1727270930715391,Tianshi,Li,6429,854518728062939,1727270930715391,BOT: quick reply,What should you NOT do when lowering a load?,2018-09-06 19:23:01
+1727270930715391,Tianshi,Li,6431,1727270930715391,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-06 19:23:31
+1727270930715391,Tianshi,Li,6432,854518728062939,1727270930715391,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-09-06 19:23:32
+1727270930715391,Tianshi,Li,6433,854518728062939,1727270930715391,BOT: quick reply,":keycap_1: Bend your knees
+:keycap_2: Keep the load close to your body
+:keycap_3: Twist your body
+:keycap_4: Twist your body, keep the load close, and bend your knees
+",2018-09-06 19:23:33
+1727270930715391,Tianshi,Li,6434,1727270930715391,854518728062939,"user_quick_reply: BUTTON_DKB_Twist your body, keep the load close, and bend your knees",:keycap_4:,2018-09-06 19:23:47
+1727270930715391,Tianshi,Li,6435,854518728062939,1727270930715391,BOT: message,That's not quite right. :disappointed_face:,2018-09-06 19:23:48
+1727270930715391,Tianshi,Li,6436,854518728062939,1727270930715391,BOT: quick reply,The correct answer is Twist your body.,2018-09-06 19:23:49
+1727270930715391,Tianshi,Li,6437,1727270930715391,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-06 19:23:53
+1727270930715391,Tianshi,Li,6438,854518728062939,1727270930715391,BOT: message,Let's see if you can answer this question.,2018-09-06 19:23:54
+1727270930715391,Tianshi,Li,6439,854518728062939,1727270930715391,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-09-06 19:23:54
+1727270930715391,Tianshi,Li,6440,854518728062939,1727270930715391,BOT: quick reply,"Having squandered his life's savings on unprofitable business ventures, the _____ entrepreneur was forced to live in squalor.",2018-09-06 19:23:55
+1727270930715391,Tianshi,Li,6441,1727270930715391,854518728062939,user_typing,Unsuccessful,2018-09-06 19:24:12
+1727270930715391,Tianshi,Li,6442,854518728062939,1727270930715391,BOT: message,That wasn't quite what we were looking for. :disappointed_face:,2018-09-06 19:24:13
+1727270930715391,Tianshi,Li,6443,854518728062939,1727270930715391,BOT: quick reply,The correct answer is insolvent.,2018-09-06 19:24:13
+1727270930715391,Tianshi,Li,6444,1727270930715391,854518728062939,user_quick_reply: WHY,Why?,2018-09-06 19:24:18
+1727270930715391,Tianshi,Li,6445,854518728062939,1727270930715391,BOT: message,Here's an explanation:,2018-09-06 19:24:19
+1727270930715391,Tianshi,Li,6446,854518728062939,1727270930715391,BOT: quick reply,:pushpin: Insolvent -- unable to meet or discharge financial obligations,2018-09-06 19:24:20
+1727270930715391,Tianshi,Li,6447,1727270930715391,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-09-06 19:24:26
+1727270930715391,Tianshi,Li,6448,854518728062939,1727270930715391,BOT: message,Here's a question for you:,2018-09-06 19:24:26
+1727270930715391,Tianshi,Li,6449,854518728062939,1727270930715391,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-09-06 19:24:27
+1727270930715391,Tianshi,Li,6450,854518728062939,1727270930715391,BOT: quick reply,"In psychological literature, the ""sleeper effect"" refers to the phenomenon in which a persuasive message from a trustworthy source loses _____ over time, while the efficacy of a message from a less credible source simultaneously increases.",2018-09-06 19:24:28
+1727270930715391,Tianshi,Li,6452,1727270930715391,854518728062939,user_typing,Credibility,2018-09-06 19:25:00
+1727270930715391,Tianshi,Li,6453,854518728062939,1727270930715391,BOT: message,"I'm sorry, but that was incorrect. :disappointed_face:",2018-09-06 19:25:01
+1727270930715391,Tianshi,Li,6454,854518728062939,1727270930715391,BOT: quick reply,The correct answer is cogency.,2018-09-06 19:25:01
+1727270930715391,Tianshi,Li,6455,1727270930715391,854518728062939,user_quick_reply: WHY,Why?,2018-09-06 19:25:06
+1727270930715391,Tianshi,Li,6456,854518728062939,1727270930715391,BOT: message,I hope this explanation could help you understand the the question.,2018-09-06 19:25:06
+1727270930715391,Tianshi,Li,6457,854518728062939,1727270930715391,BOT: quick reply,:pushpin: Cogency -- persuasive relevance,2018-09-06 19:25:07
+1727270930715391,Tianshi,Li,6458,1727270930715391,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-09-06 19:25:12
+1727270930715391,Tianshi,Li,6459,854518728062939,1727270930715391,BOT: message,See if you can answer this next one.,2018-09-06 19:25:13
+1727270930715391,Tianshi,Li,6460,854518728062939,1727270930715391,BOT: quick reply,"Just as different people can have very different personalities, so too can pets - even those of the same species and breed possess varied _____ .",2018-09-06 19:25:13
+1727270930715391,Tianshi,Li,6461,1727270930715391,854518728062939,user_typing,Differently,2018-09-06 19:25:36
+1727270930715391,Tianshi,Li,6462,854518728062939,1727270930715391,BOT: message,"I'm sorry, but that was incorrect. :disappointed_face:",2018-09-06 19:25:37
+1727270930715391,Tianshi,Li,6463,854518728062939,1727270930715391,BOT: quick reply,The correct answer is temperaments.,2018-09-06 19:25:37
+1727270930715391,Tianshi,Li,6464,1727270930715391,854518728062939,user_quick_reply: WHY,Why?,2018-09-06 19:25:41
+1727270930715391,Tianshi,Li,6465,854518728062939,1727270930715391,BOT: message,This is an explanation of the question:,2018-09-06 19:25:42
+1727270930715391,Tianshi,Li,6466,854518728062939,1727270930715391,BOT: quick reply,":pushpin: Temperaments -- the combination of mental, physical, and emotional traits",2018-09-06 19:25:43
+1727270930715391,Tianshi,Li,6468,1727270930715391,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-09-06 19:25:54
+1727270930715391,Tianshi,Li,6469,854518728062939,1727270930715391,BOT: message,Could you answer this one for me?,2018-09-06 19:25:55
+1727270930715391,Tianshi,Li,6470,854518728062939,1727270930715391,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-09-06 19:25:56
+1727270930715391,Tianshi,Li,6471,854518728062939,1727270930715391,BOT: quick reply,Many Major League Baseball relief pitchers choose an electrifying theme song to play as they take the mound; the song _____ their fans and instills fear in their opponents.,2018-09-06 19:25:56
+1727270930715391,Tianshi,Li,6472,1727270930715391,854518728062939,user_typing,Encourages,2018-09-06 19:26:22
+1727270930715391,Tianshi,Li,6473,854518728062939,1727270930715391,BOT: message,"Oops, that answer was incorrect. :disappointed_face:",2018-09-06 19:26:23
+1727270930715391,Tianshi,Li,6474,854518728062939,1727270930715391,BOT: quick reply,The correct answer is innervates.,2018-09-06 19:26:23
+1727270930715391,Tianshi,Li,6475,1727270930715391,854518728062939,user_quick_reply: WHY,Why?,2018-09-06 19:26:28
+1727270930715391,Tianshi,Li,6476,854518728062939,1727270930715391,BOT: message,I hope this explanation could help you understand the the question.,2018-09-06 19:26:29
+1727270930715391,Tianshi,Li,6477,854518728062939,1727270930715391,BOT: quick reply,:pushpin: Innervates -- to supply with nerves,2018-09-06 19:26:29
+1727270930715391,Tianshi,Li,6478,1727270930715391,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-09-06 19:26:57
+1727270930715391,Tianshi,Li,6479,854518728062939,1727270930715391,BOT: message,Let's try this one.,2018-09-06 19:26:58
+1727270930715391,Tianshi,Li,6480,854518728062939,1727270930715391,BOT: quick reply,"Many dog owners treat their pets too _____ , forgetting that canines have evolved in competitive environments in which emotional coddling was a sign of weakness.",2018-09-06 19:26:59
+1727270930715391,Tianshi,Li,6482,1727270930715391,854518728062939,user_typing,Indulgent,2018-09-06 19:27:13
+1727270930715391,Tianshi,Li,6483,854518728062939,1727270930715391,BOT: message,That wasn't quite what we were looking for. :disappointed_face:,2018-09-06 19:27:14
+1727270930715391,Tianshi,Li,6484,854518728062939,1727270930715391,BOT: quick reply,The correct answer is indulgently.,2018-09-06 19:27:14
+1727270930715391,Tianshi,Li,6485,1727270930715391,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-06 19:27:19
+1727270930715391,Tianshi,Li,6486,854518728062939,1727270930715391,BOT: message,I think you'll like this question.,2018-09-06 19:27:20
+1727270930715391,Tianshi,Li,6487,854518728062939,1727270930715391,BOT: quick reply,"Modern tennis fans have come to realize that, although, quantum technological leaps in racquet technology have lead to _____ increases in the speed and power with which players can hit the ball, this has not necessarily lead to a more entertaining game.",2018-09-06 19:27:21
+1727270930715391,Tianshi,Li,6488,1727270930715391,854518728062939,user_typing,Great,2018-09-06 19:27:34
+1727270930715391,Tianshi,Li,6489,854518728062939,1727270930715391,BOT: message,"I'm sorry, but that was incorrect. :disappointed_face:",2018-09-06 19:27:35
+1727270930715391,Tianshi,Li,6490,854518728062939,1727270930715391,BOT: quick reply,The correct answer is commensurate.,2018-09-06 19:27:36
+1727270930715391,Tianshi,Li,6491,1727270930715391,854518728062939,user_quick_reply: WHY,Why?,2018-09-06 19:27:39
+1727270930715391,Tianshi,Li,6492,854518728062939,1727270930715391,BOT: message,This is why:,2018-09-06 19:27:40
+1727270930715391,Tianshi,Li,6493,854518728062939,1727270930715391,BOT: quick reply,:pushpin: Commensurate -- corresponding in size or degree or extent,2018-09-06 19:27:41
+1727270930715391,Tianshi,Li,6494,1727270930715391,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-09-06 19:27:50
+1727270930715391,Tianshi,Li,6495,854518728062939,1727270930715391,BOT: message,Let's take a look at this question.,2018-09-06 19:27:50
+1727270930715391,Tianshi,Li,6496,854518728062939,1727270930715391,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-09-06 19:27:52
+1727270930715391,Tianshi,Li,6497,854518728062939,1727270930715391,BOT: quick reply,Seth was extremely _____ and did not enjoy activities that required effort to meet new people.,2018-09-06 19:27:53
+1727270930715391,Tianshi,Li,6498,1727270930715391,854518728062939,user_typing,Introverted,2018-09-06 19:28:20
+1727270930715391,Tianshi,Li,6500,854518728062939,1727270930715391,BOT: message,Good job! :raising_hands_medium-light_skin_tone:,2018-09-06 19:28:21
+1727270930715391,Tianshi,Li,6501,854518728062939,1727270930715391,BOT: quick reply,The correct answer is introverted.,2018-09-06 19:28:21
+1727270930715391,Tianshi,Li,6502,1727270930715391,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-06 19:28:24
+1727270930715391,Tianshi,Li,6503,854518728062939,1727270930715391,BOT: message,Let's try this one.,2018-09-06 19:28:25
+1727270930715391,Tianshi,Li,6504,854518728062939,1727270930715391,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-09-06 19:28:26
+1727270930715391,Tianshi,Li,6505,854518728062939,1727270930715391,BOT: quick reply,"Possessing few natural resources upon its newly-granted independence in 1863, Singapore remained economically _____ until an influx of industrialization and foreign investment took hold there.",2018-09-06 19:28:27
+1727270930715391,Tianshi,Li,6506,1727270930715391,854518728062939,user_typing,Poor,2018-09-06 19:28:38
+1727270930715391,Tianshi,Li,6507,854518728062939,1727270930715391,BOT: message,That's not quite right. :disappointed_face:,2018-09-06 19:28:39
+1727270930715391,Tianshi,Li,6508,854518728062939,1727270930715391,BOT: quick reply,The correct answer is dubious.,2018-09-06 19:28:40
+1727270930715391,Tianshi,Li,6509,1727270930715391,854518728062939,user_quick_reply: WHY,Why?,2018-09-06 19:28:45
+1727270930715391,Tianshi,Li,6510,854518728062939,1727270930715391,BOT: message,I hope this explanation could help you understand the the question.,2018-09-06 19:28:45
+1727270930715391,Tianshi,Li,6511,854518728062939,1727270930715391,BOT: quick reply,:pushpin: Dubious -- fraught with uncertainty or doubt,2018-09-06 19:28:46
+1727270930715391,Tianshi,Li,6512,1727270930715391,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-09-06 19:28:50
+1727270930715391,Tianshi,Li,6513,854518728062939,1727270930715391,BOT: message,What about this next question:,2018-09-06 19:28:50
+1727270930715391,Tianshi,Li,6514,854518728062939,1727270930715391,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-09-06 19:28:51
+1727270930715391,Tianshi,Li,6515,854518728062939,1727270930715391,BOT: quick reply,"Prior to taking on the new invader, the defending army had engaged in arduous combat; it is likely that the _____ resulting from waging two battles in two days played a part in its subsequent defeat.",2018-09-06 19:28:52
+1727270930715391,Tianshi,Li,6516,1727270930715391,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-06 19:29:22
+1727270930715391,Tianshi,Li,6517,854518728062939,1727270930715391,BOT: message,Pick one of the following answers.,2018-09-06 19:29:22
+1727270930715391,Tianshi,Li,6518,854518728062939,1727270930715391,BOT: quick reply,":keycap_1: enervation
+:keycap_2: pacification
+:keycap_3: pugnacity
+:keycap_4: aggravation
+:keycap_5: bellicosity
+",2018-09-06 19:29:23
+1727270930715391,Tianshi,Li,6519,1727270930715391,854518728062939,user_typing,4,2018-09-06 19:29:32
+1727270930715391,Tianshi,Li,6520,854518728062939,1727270930715391,BOT: message,That's not quite right. :disappointed_face:,2018-09-06 19:29:32
+1727270930715391,Tianshi,Li,6521,854518728062939,1727270930715391,BOT: quick reply,The correct answer is enervation.,2018-09-06 19:29:33
+1727270930715391,Tianshi,Li,6523,1727270930715391,854518728062939,user_quick_reply: WHY,Why?,2018-09-06 19:29:37
+1727270930715391,Tianshi,Li,6524,854518728062939,1727270930715391,BOT: message,This is why:,2018-09-06 19:29:38
+1727270930715391,Tianshi,Li,6525,854518728062939,1727270930715391,BOT: quick reply,:pushpin: Enervation -- lack of vitality,2018-09-06 19:29:38
+1727270930715391,Tianshi,Li,6526,1727270930715391,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-09-06 19:29:48
+1727270930715391,Tianshi,Li,6527,854518728062939,1727270930715391,BOT: message,How about this next one:,2018-09-06 19:29:48
+1727270930715391,Tianshi,Li,6528,854518728062939,1727270930715391,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-09-06 19:29:49
+1727270930715391,Tianshi,Li,6529,854518728062939,1727270930715391,BOT: quick reply,The Erie Canal's completion caused _____ economic ripples; property values and industrial output along its route rose exponentially.,2018-09-06 19:29:50
+1727270930715391,Tianshi,Li,6530,1727270930715391,854518728062939,user_typing,Unexpected,2018-09-06 19:30:09
+1727270930715391,Tianshi,Li,6531,854518728062939,1727270930715391,BOT: message,That wasn't quite what we were looking for. :disappointed_face:,2018-09-06 19:30:10
+1727270930715391,Tianshi,Li,6532,854518728062939,1727270930715391,BOT: quick reply,The correct answer is prodigious.,2018-09-06 19:30:10
+1727270930715391,Tianshi,Li,6533,1727270930715391,854518728062939,user_quick_reply: WHY,Why?,2018-09-06 19:30:14
+1727270930715391,Tianshi,Li,6534,854518728062939,1727270930715391,BOT: message,Here's why:,2018-09-06 19:30:14
+1727270930715391,Tianshi,Li,6535,854518728062939,1727270930715391,BOT: quick reply,:pushpin: Prodigious -- so great in size or force or extent as to elicit awe,2018-09-06 19:30:15
+1727270930715391,Tianshi,Li,6536,1727270930715391,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-09-06 19:30:26
+1727270930715391,Tianshi,Li,6537,854518728062939,1727270930715391,BOT: message,See if you can answer this next one.,2018-09-06 19:30:27
+1727270930715391,Tianshi,Li,6538,854518728062939,1727270930715391,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-09-06 19:30:28
+1727270930715391,Tianshi,Li,6539,854518728062939,1727270930715391,BOT: quick reply,While she may have answered him truthfully - in the strictest sense of the word - it became clear to Sergei after the incident that Sheryl had actually been trying to _____ .,2018-09-06 19:30:29
+1727270930715391,Tianshi,Li,6540,1727270930715391,854518728062939,user_typing,Lie,2018-09-06 19:30:40
+1727270930715391,Tianshi,Li,6541,854518728062939,1727270930715391,BOT: message,"I'm sorry, but that was incorrect. :disappointed_face:",2018-09-06 19:30:41
+1727270930715391,Tianshi,Li,6542,854518728062939,1727270930715391,BOT: quick reply,The correct answer is obfuscate.,2018-09-06 19:30:42
+1727270930715391,Tianshi,Li,6543,1727270930715391,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-06 19:30:45
+1727270930715391,Tianshi,Li,6544,854518728062939,1727270930715391,BOT: message,"Alrighty, let's try this one.",2018-09-06 19:30:46
+1727270930715391,Tianshi,Li,6545,854518728062939,1727270930715391,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-09-06 19:30:47
+1727270930715391,Tianshi,Li,6546,854518728062939,1727270930715391,BOT: quick reply,"With a similar contrast between a partly cloudy sky and a dark street, the cover of the recent rock CD _____ a famous surrealist painting from the early 1900s.",2018-09-06 19:30:47
+1727270930715391,Tianshi,Li,6548,1727270930715391,854518728062939,user_typing,Reveals,2018-09-06 19:31:05
+1727270930715391,Tianshi,Li,6549,854518728062939,1727270930715391,BOT: message,That's not quite right. :disappointed_face:,2018-09-06 19:31:06
+1727270930715391,Tianshi,Li,6550,854518728062939,1727270930715391,BOT: quick reply,The correct answer is evokes.,2018-09-06 19:31:07
+1727270930715391,Tianshi,Li,6551,1727270930715391,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-06 19:31:10
+1727270930715391,Tianshi,Li,6552,854518728062939,1727270930715391,BOT: quick reply,"Nice job! You've practiced enough questions today. Please come back tomorrow and click on ""Resume Learning :flexed_biceps_medium-light_skin_tone:"" for another practice session.",2018-09-06 19:31:11
+1727270930715391,Tianshi,Li,6642,854518728062939,1727270930715391,BOT: quick reply,"Hi Tianshi, remember to practice some questions with me if you haven't finished your session today!",2018-09-06 20:00:02
+1727270930715391,Tianshi,Li,12584,854518728062939,1727270930715391,BOT: quick reply,"Hi Tianshi, remember to practice some questions with me if you haven't finished your session today!",2018-09-07 20:00:03
+1727270930715391,Tianshi,Li,13166,1727270930715391,854518728062939,user_quick_reply: NEXT_QUESTION,Alrighty :white_heavy_check_mark:,2018-09-07 20:29:49
+1727270930715391,Tianshi,Li,13167,854518728062939,1727270930715391,BOT: quick reply,"Nice job! You've practiced enough questions today. Please come back tomorrow and click on ""Resume Learning :flexed_biceps_medium-light_skin_tone:"" for another practice session.",2018-09-07 20:29:49
+1727270930715391,Tianshi,Li,13168,1727270930715391,854518728062939,user_quick_reply: NEXT_QUESTION,Resume Learning :flexed_biceps_medium-light_skin_tone:,2018-09-07 20:29:53
+1727270930715391,Tianshi,Li,13169,854518728062939,1727270930715391,BOT: message,See if you can answer this next one.,2018-09-07 20:29:54
+1727270930715391,Tianshi,Li,13170,854518728062939,1727270930715391,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-09-07 20:29:54
+1727270930715391,Tianshi,Li,13171,854518728062939,1727270930715391,BOT: quick reply,What should you NOT do while lifting objects?,2018-09-07 20:29:55
+1727270930715391,Tianshi,Li,13172,1727270930715391,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-07 20:30:02
+1727270930715391,Tianshi,Li,13173,854518728062939,1727270930715391,BOT: message,Okay. I'll give you some choices.,2018-09-07 20:30:03
+1727270930715391,Tianshi,Li,13174,854518728062939,1727270930715391,BOT: quick reply,":keycap_1: Keep the object close to your body
+:keycap_2: Keep your back straight
+:keycap_3: Keep your feet together
+:keycap_4: Bend at the knees
+",2018-09-07 20:30:03
+1727270930715391,Tianshi,Li,13175,1727270930715391,854518728062939,user_typing,1,2018-09-07 20:30:20
+1727270930715391,Tianshi,Li,13176,854518728062939,1727270930715391,BOT: message,"I'm sorry, but that was incorrect. :disappointed_face:",2018-09-07 20:30:21
+1727270930715391,Tianshi,Li,13177,854518728062939,1727270930715391,BOT: quick reply,The correct answer is Keep your feet together.,2018-09-07 20:30:21
+1727270930715391,Tianshi,Li,13178,1727270930715391,854518728062939,user_quick_reply: WHY,Why?,2018-09-07 20:30:26
+1727270930715391,Tianshi,Li,13179,854518728062939,1727270930715391,BOT: message,This is an explanation of the question:,2018-09-07 20:30:26
+1727270930715391,Tianshi,Li,13180,854518728062939,1727270930715391,BOT: quick reply,"The AAOS lists its instructions for properly lifting a heavy object: plan ahead before lifting an object (decide in advance where the load will be placed after it has been lifted; the path in between where the load is kept and where it has to be placed should be free from obstacles), keep yourself close to the object you wish to lift, keep your feet shoulder-width apart (this gives you a solid base to support), bend at your knees, tighten the stomach muscles, lift the load with your leg muscles as you stand up (leg muscles are stronger than back muscles), and do not lift an object which is too heavy or has an awkward shape all alone (get help).",2018-09-07 20:30:27
+1727270930715391,Tianshi,Li,13181,1727270930715391,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-09-07 20:30:41
+1727270930715391,Tianshi,Li,13182,854518728062939,1727270930715391,BOT: message,Let's try this one.,2018-09-07 20:30:41
+1727270930715391,Tianshi,Li,13183,854518728062939,1727270930715391,BOT: quick reply,How long can high-acid canned food such as tomatoes be stored?,2018-09-07 20:30:42
+1727270930715391,Tianshi,Li,13184,1727270930715391,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-07 20:30:49
+1727270930715391,Tianshi,Li,13185,854518728062939,1727270930715391,BOT: message,Okay. I'll give you some choices.,2018-09-07 20:30:50
+1727270930715391,Tianshi,Li,13186,854518728062939,1727270930715391,BOT: quick reply,":keycap_1: 10 to 30 days
+:keycap_2: 12 to 18 months
+:keycap_3: 2 to 4 years
+:keycap_4: 2 to 6 months
+",2018-09-07 20:30:51
+1727270930715391,Tianshi,Li,13187,1727270930715391,854518728062939,user_typing,2,2018-09-07 20:30:57
+1727270930715391,Tianshi,Li,13188,854518728062939,1727270930715391,BOT: message,That's not quite right. :disappointed_face:,2018-09-07 20:30:57
+1727270930715391,Tianshi,Li,13189,854518728062939,1727270930715391,BOT: quick reply,The correct answer is 12 to 18 months.,2018-09-07 20:30:58
+1727270930715391,Tianshi,Li,13190,1727270930715391,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-07 20:31:09
+1727270930715391,Tianshi,Li,13191,854518728062939,1727270930715391,BOT: message,What about this next question:,2018-09-07 20:31:10
+1727270930715391,Tianshi,Li,13192,854518728062939,1727270930715391,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-09-07 20:31:11
+1727270930715391,Tianshi,Li,13193,854518728062939,1727270930715391,BOT: quick reply,"When your brain senses that your body temperature is increasing, it sends messages to the blood vessels in the skin to increase in what?",2018-09-07 20:31:12
+1727270930715391,Tianshi,Li,13194,1727270930715391,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-07 20:31:21
+1727270930715391,Tianshi,Li,13195,854518728062939,1727270930715391,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-09-07 20:31:21
+1727270930715391,Tianshi,Li,13196,854518728062939,1727270930715391,BOT: quick reply,":keycap_1: weight
+:keycap_2: diameter
+:keycap_3: surface
+:keycap_4: height
+",2018-09-07 20:31:22
+1727270930715391,Tianshi,Li,13197,1727270930715391,854518728062939,user_typing,Surface,2018-09-07 20:31:36
+1727270930715391,Tianshi,Li,13198,854518728062939,1727270930715391,BOT: message,That wasn't quite what we were looking for. :disappointed_face:,2018-09-07 20:31:36
+1727270930715391,Tianshi,Li,13199,854518728062939,1727270930715391,BOT: quick reply,The correct answer is diameter.,2018-09-07 20:31:37
+1727270930715391,Tianshi,Li,13200,1727270930715391,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-07 20:31:40
+1727270930715391,Tianshi,Li,13201,854518728062939,1727270930715391,BOT: message,How about this next one:,2018-09-07 20:31:41
+1727270930715391,Tianshi,Li,13202,854518728062939,1727270930715391,BOT: quick reply,How often should women perform a breast self-exam?,2018-09-07 20:31:42
+1727270930715391,Tianshi,Li,13203,1727270930715391,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-07 20:31:46
+1727270930715391,Tianshi,Li,13204,854518728062939,1727270930715391,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-09-07 20:31:47
+1727270930715391,Tianshi,Li,13205,854518728062939,1727270930715391,BOT: quick reply,":keycap_1: weekly
+:keycap_2: quarterly
+:keycap_3: yearly
+:keycap_4: monthly
+",2018-09-07 20:31:47
+1727270930715391,Tianshi,Li,13206,1727270930715391,854518728062939,user_typing,Yearly,2018-09-07 20:31:53
+1727270930715391,Tianshi,Li,13207,854518728062939,1727270930715391,BOT: message,Fantastic! :hundred_points:,2018-09-07 20:31:54
+1727270930715391,Tianshi,Li,13208,854518728062939,1727270930715391,BOT: quick reply,The correct answer is monthly.,2018-09-07 20:31:55
+1727270930715391,Tianshi,Li,13209,1727270930715391,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-07 20:31:57
+1727270930715391,Tianshi,Li,13210,854518728062939,1727270930715391,BOT: message,Let's see if you would answer this one.,2018-09-07 20:31:58
+1727270930715391,Tianshi,Li,13211,854518728062939,1727270930715391,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-09-07 20:31:59
+1727270930715391,Tianshi,Li,13212,854518728062939,1727270930715391,BOT: quick reply,Most fungi get organic compounds from what?,2018-09-07 20:32:00
+1727270930715391,Tianshi,Li,13213,1727270930715391,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-07 20:32:05
+1727270930715391,Tianshi,Li,13214,854518728062939,1727270930715391,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-09-07 20:32:06
+1727270930715391,Tianshi,Li,13215,854518728062939,1727270930715391,BOT: quick reply,":keycap_1: living organisms
+:keycap_2: dead organisms
+:keycap_3: carnivorous organisms
+:keycap_4: inorganic material
+",2018-09-07 20:32:06
+1727270930715391,Tianshi,Li,13216,1727270930715391,854518728062939,user_typing,Dead organisms,2018-09-07 20:32:20
+1727270930715391,Tianshi,Li,13217,854518728062939,1727270930715391,BOT: message,Nice! :red_apple:,2018-09-07 20:32:20
+1727270930715391,Tianshi,Li,13218,854518728062939,1727270930715391,BOT: quick reply,The correct answer is dead organisms.,2018-09-07 20:32:21
+1727270930715391,Tianshi,Li,13219,1727270930715391,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-07 20:32:24
+1727270930715391,Tianshi,Li,13220,854518728062939,1727270930715391,BOT: message,I think you'll like this question.,2018-09-07 20:32:24
+1727270930715391,Tianshi,Li,13221,854518728062939,1727270930715391,BOT: quick reply,Most insects reproduce quickly and through what type of reproduction?,2018-09-07 20:32:25
+1727270930715391,Tianshi,Li,13222,1727270930715391,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-07 20:32:31
+1727270930715391,Tianshi,Li,13223,854518728062939,1727270930715391,BOT: message,Pick one of the following answers.,2018-09-07 20:32:31
+1727270930715391,Tianshi,Li,13224,854518728062939,1727270930715391,BOT: quick reply,":keycap_1: spores
+:keycap_2: asexual reproduction
+:keycap_3: sexual reproduction
+:keycap_4: photosynthesis
+",2018-09-07 20:32:32
+1727270930715391,Tianshi,Li,13225,1727270930715391,854518728062939,user_typing,Sexual reproduction,2018-09-07 20:32:48
+1727270930715391,Tianshi,Li,13226,854518728062939,1727270930715391,BOT: image,https://www.smartprimer.ai:4443/pictures/avatar/congrats/penguinnormal_normal.png,2018-09-07 20:32:50
+1727270930715391,Tianshi,Li,13227,854518728062939,1727270930715391,BOT: message,Nice! :red_apple:,2018-09-07 20:32:51
+1727270930715391,Tianshi,Li,13228,854518728062939,1727270930715391,BOT: quick reply,The correct answer is sexual reproduction.,2018-09-07 20:32:51
+1727270930715391,Tianshi,Li,13229,1727270930715391,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-07 20:32:55
+1727270930715391,Tianshi,Li,13230,854518728062939,1727270930715391,BOT: message,I think you'll like this question.,2018-09-07 20:32:56
+1727270930715391,Tianshi,Li,13231,854518728062939,1727270930715391,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-09-07 20:32:56
+1727270930715391,Tianshi,Li,13232,854518728062939,1727270930715391,BOT: quick reply,Which fire extinguishers are used to put out Class A fires?,2018-09-07 20:32:57
+1727270930715391,Tianshi,Li,13233,1727270930715391,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-07 20:33:01
+1727270930715391,Tianshi,Li,13234,854518728062939,1727270930715391,BOT: message,It's one of the following choices.,2018-09-07 20:33:02
+1727270930715391,Tianshi,Li,13235,854518728062939,1727270930715391,BOT: quick reply,":keycap_1: Both CO2 and water
+:keycap_2: Multi-purpose dry chemical only
+:keycap_3: CO2 only
+:keycap_4: Both water and multi-purpose dry chemical
+:keycap_5: Water only
+",2018-09-07 20:33:03
+1727270930715391,Tianshi,Li,13236,1727270930715391,854518728062939,user_quick_reply: I_DONT_KNOW,I don’t know :downcast_face_with_sweat:,2018-09-07 20:33:25
+1727270930715391,Tianshi,Li,13237,854518728062939,1727270930715391,BOT: quick reply,Are you sure you want to skip answering?,2018-09-07 20:33:25
+1727270930715391,Tianshi,Li,13238,1727270930715391,854518728062939,user_quick_reply: GIVEUP_YES,"Yes, answer please.",2018-09-07 20:33:28
+1727270930715391,Tianshi,Li,13239,854518728062939,1727270930715391,BOT: message,You didn't get it right this time.,2018-09-07 20:33:29
+1727270930715391,Tianshi,Li,13240,854518728062939,1727270930715391,BOT: message,No worries! You'll get it next time! :grinning_face_with_smiling_eyes:,2018-09-07 20:33:30
+1727270930715391,Tianshi,Li,13241,854518728062939,1727270930715391,BOT: quick reply,The correct answer is Both water and multi-purpose dry chemical.,2018-09-07 20:33:30
+1727270930715391,Tianshi,Li,13242,1727270930715391,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-07 20:33:33
+1727270930715391,Tianshi,Li,13243,854518728062939,1727270930715391,BOT: message,Here's a question for you:,2018-09-07 20:33:34
+1727270930715391,Tianshi,Li,13244,854518728062939,1727270930715391,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-09-07 20:33:35
+1727270930715391,Tianshi,Li,13245,854518728062939,1727270930715391,BOT: quick reply,Which fire extinguishers are used to put out Class A fires?,2018-09-07 20:33:36
+1727270930715391,Tianshi,Li,13246,1727270930715391,854518728062939,user_typing,Both water and multi-purpose dry chemicals,2018-09-07 20:33:58
+1727270930715391,Tianshi,Li,13247,854518728062939,1727270930715391,BOT: message,Nice! :red_apple:,2018-09-07 20:33:58
+1727270930715391,Tianshi,Li,13248,854518728062939,1727270930715391,BOT: quick reply,The correct answer is Both water and multi-purpose dry chemical.,2018-09-07 20:33:59
+1727270930715391,Tianshi,Li,13249,1727270930715391,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-07 20:34:03
+1727270930715391,Tianshi,Li,13250,854518728062939,1727270930715391,BOT: message,"Alrighty, let's try this one.",2018-09-07 20:34:04
+1727270930715391,Tianshi,Li,13251,854518728062939,1727270930715391,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-09-07 20:34:05
+1727270930715391,Tianshi,Li,13252,854518728062939,1727270930715391,BOT: quick reply,Which fire extinguishers are used to put out fires caused by flammable liquids?,2018-09-07 20:34:05
+1727270930715391,Tianshi,Li,13253,1727270930715391,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-07 20:34:17
+1727270930715391,Tianshi,Li,13254,854518728062939,1727270930715391,BOT: message,Pick one of the following answers.,2018-09-07 20:34:18
+1727270930715391,Tianshi,Li,13255,854518728062939,1727270930715391,BOT: quick reply,":keycap_1: Class A water fire extinguishers
+:keycap_2: Class C dry chemical fire extinguisher
+:keycap_3: Class B carbon dioxide fire extinguisher
+",2018-09-07 20:34:18
+1727270930715391,Tianshi,Li,13256,1727270930715391,854518728062939,user_typing,Class dry chemicals,2018-09-07 20:34:39
+1727270930715391,Tianshi,Li,13257,854518728062939,1727270930715391,BOT: message,"Oops, that answer was incorrect. :disappointed_face:",2018-09-07 20:34:40
+1727270930715391,Tianshi,Li,13258,854518728062939,1727270930715391,BOT: quick reply,The correct answer is Class B carbon dioxide fire extinguisher.,2018-09-07 20:34:41
+1727270930715391,Tianshi,Li,13259,1727270930715391,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-07 20:34:45
+1727270930715391,Tianshi,Li,13260,854518728062939,1727270930715391,BOT: message,Let's try this question.,2018-09-07 20:34:45
+1727270930715391,Tianshi,Li,13261,854518728062939,1727270930715391,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-09-07 20:34:46
+1727270930715391,Tianshi,Li,13262,854518728062939,1727270930715391,BOT: quick reply,"If your co-worker needs CPR but you are not trained in it, what should you do?",2018-09-07 20:34:47
+1727270930715391,Tianshi,Li,13263,1727270930715391,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-07 20:34:53
+1727270930715391,Tianshi,Li,13264,854518728062939,1727270930715391,BOT: message,Pick one of the following answers.,2018-09-07 20:34:54
+1727270930715391,Tianshi,Li,13265,854518728062939,1727270930715391,BOT: quick reply,":keycap_1: Wait for emergency personnel to arrive
+:keycap_2: Give rescue breaths only
+:keycap_3: Perform chest compressions only
+:keycap_4: Lift the patient's head
+",2018-09-07 20:34:55
+1727270930715391,Tianshi,Li,13266,1727270930715391,854518728062939,user_quick_reply: I_DONT_KNOW,I don’t know :downcast_face_with_sweat:,2018-09-07 20:35:00
+1727270930715391,Tianshi,Li,13267,854518728062939,1727270930715391,BOT: quick reply,Do you really want to skip this question?,2018-09-07 20:35:01
+1727270930715391,Tianshi,Li,13268,1727270930715391,854518728062939,user_quick_reply: GIVEUP_NO,"No, I'll try again!",2018-09-07 20:35:04
+1727270930715391,Tianshi,Li,13269,854518728062939,1727270930715391,BOT: message,"Sure, let's try this again!",2018-09-07 20:35:04
+1727270930715391,Tianshi,Li,13270,854518728062939,1727270930715391,BOT: message,Okay. I'll give you some choices.,2018-09-07 20:35:05
+1727270930715391,Tianshi,Li,13271,854518728062939,1727270930715391,BOT: quick reply,":keycap_1: Give rescue breaths only
+:keycap_2: Lift the patient's head
+:keycap_3: Wait for emergency personnel to arrive
+:keycap_4: Perform chest compressions only
+",2018-09-07 20:35:06
+1727270930715391,Tianshi,Li,13272,1727270930715391,854518728062939,user_typing,Lift the head,2018-09-07 20:35:11
+1727270930715391,Tianshi,Li,13273,854518728062939,1727270930715391,BOT: quick reply,"Oh hey, I haven't learned this language yet. Maybe I'll learn languages from you in the future.",2018-09-07 20:35:12
+1727270930715391,Tianshi,Li,13274,1727270930715391,854518728062939,user_quick_reply: NEXT_QUESTION,Resume learning :flexed_biceps_medium-light_skin_tone:,2018-09-07 20:35:21
+1727270930715391,Tianshi,Li,13275,854518728062939,1727270930715391,BOT: message,Let's see if you would answer this one.,2018-09-07 20:35:22
+1727270930715391,Tianshi,Li,13276,854518728062939,1727270930715391,BOT: quick reply,"If your co-worker needs CPR but you are not trained in it, what should you do?",2018-09-07 20:35:23
+1727270930715391,Tianshi,Li,13277,1727270930715391,854518728062939,user_typing,Lift the head,2018-09-07 20:35:37
+1727270930715391,Tianshi,Li,13278,854518728062939,1727270930715391,BOT: message,"I'm sorry, but that was incorrect. :disappointed_face:",2018-09-07 20:35:38
+1727270930715391,Tianshi,Li,13279,854518728062939,1727270930715391,BOT: quick reply,The correct answer is Perform chest compressions only.,2018-09-07 20:35:39
+1727270930715391,Tianshi,Li,13280,1727270930715391,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-07 20:35:46
+1727270930715391,Tianshi,Li,13281,854518728062939,1727270930715391,BOT: message,I think you'll like this question.,2018-09-07 20:35:52
+1727270930715391,Tianshi,Li,13282,854518728062939,1727270930715391,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-09-07 20:35:53
+1727270930715391,Tianshi,Li,13283,854518728062939,1727270930715391,BOT: quick reply,"When you discover a fire, you should do what?",2018-09-07 20:35:53
+1727270930715391,Tianshi,Li,13284,1727270930715391,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-07 20:35:57
+1727270930715391,Tianshi,Li,13285,854518728062939,1727270930715391,BOT: message,Pick one of the following answers.,2018-09-07 20:35:58
+1727270930715391,Tianshi,Li,13286,854518728062939,1727270930715391,BOT: quick reply,":keycap_1: Run out of the building without warning others of the fire
+:keycap_2: Pull the fire alarm and call the fire department
+:keycap_3: Use a fire extinguisher to put out the fire, even if you've never used a fire extinguisher before
+:keycap_4: Stay in the building until you figure out a way to extinguish the fire
+",2018-09-07 20:35:59
+1727270930715391,Tianshi,Li,13287,1727270930715391,854518728062939,user_quick_reply: I_DONT_KNOW,I don’t know :downcast_face_with_sweat:,2018-09-07 20:36:08
+1727270930715391,Tianshi,Li,13288,854518728062939,1727270930715391,BOT: quick reply,Do you really want to skip this question?,2018-09-07 20:36:08
+1727270930715391,Tianshi,Li,13289,1727270930715391,854518728062939,user_quick_reply: GIVEUP_NO,"No, I'll try again!",2018-09-07 20:36:11
+1727270930715391,Tianshi,Li,13290,854518728062939,1727270930715391,BOT: message,"Sure, let's try this again!",2018-09-07 20:36:11
+1727270930715391,Tianshi,Li,13291,854518728062939,1727270930715391,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-09-07 20:36:12
+1727270930715391,Tianshi,Li,13292,854518728062939,1727270930715391,BOT: quick reply,":keycap_1: Use a fire extinguisher to put out the fire, even if you've never used a fire extinguisher before
+:keycap_2: Run out of the building without warning others of the fire
+:keycap_3: Stay in the building until you figure out a way to extinguish the fire
+:keycap_4: Pull the fire alarm and call the fire department
+",2018-09-07 20:36:13
+1727270930715391,Tianshi,Li,13293,1727270930715391,854518728062939,user_typing,Pull the fire alarm and call the fire department,2018-09-07 20:36:44
+1727270930715391,Tianshi,Li,13294,854518728062939,1727270930715391,BOT: quick reply,That sounds cool. I need to learn more languages to keep up with the conversation with you. Maybe you can teach me languages in the future!,2018-09-07 20:36:45
+1727270930715391,Tianshi,Li,13295,1727270930715391,854518728062939,user_quick_reply: NEXT_QUESTION,Resume learning :flexed_biceps_medium-light_skin_tone:,2018-09-07 20:36:52
+1727270930715391,Tianshi,Li,13296,854518728062939,1727270930715391,BOT: message,Here's a question for you:,2018-09-07 20:36:53
+1727270930715391,Tianshi,Li,13297,854518728062939,1727270930715391,BOT: quick reply,"When you discover a fire, you should do what?",2018-09-07 20:36:53
+1727270930715391,Tianshi,Li,13298,1727270930715391,854518728062939,user_typing,Pull the fire alarm and call the fire department,2018-09-07 20:37:05
+1727270930715391,Tianshi,Li,13299,854518728062939,1727270930715391,BOT: message,Fantastic! :hundred_points:,2018-09-07 20:37:05
+1727270930715391,Tianshi,Li,13300,854518728062939,1727270930715391,BOT: quick reply,The correct answer is Pull the fire alarm and call the fire department.,2018-09-07 20:37:06
+1727270930715391,Tianshi,Li,13301,1727270930715391,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-07 20:37:09
+1727270930715391,Tianshi,Li,13302,854518728062939,1727270930715391,BOT: message,See if you can answer this next one.,2018-09-07 20:37:10
+1727270930715391,Tianshi,Li,13303,854518728062939,1727270930715391,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-09-07 20:37:11
+1727270930715391,Tianshi,Li,13304,854518728062939,1727270930715391,BOT: quick reply,What three major factors cause food contamination?,2018-09-07 20:37:12
+1727270930715391,Tianshi,Li,13305,1727270930715391,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-07 20:37:16
+1727270930715391,Tianshi,Li,13306,854518728062939,1727270930715391,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-09-07 20:37:16
+1727270930715391,Tianshi,Li,13307,854518728062939,1727270930715391,BOT: quick reply,":keycap_1: Physical, psychological, and health
+:keycap_2: Physical, biological, and radiological
+:keycap_3: Physical, chemical, and psychosocial
+:keycap_4: Physical, biological, and chemical
+",2018-09-07 20:37:17
+1727270930715391,Tianshi,Li,13308,1727270930715391,854518728062939,user_quick_reply: I_DONT_KNOW,I don’t know :downcast_face_with_sweat:,2018-09-07 20:37:23
+1727270930715391,Tianshi,Li,13309,854518728062939,1727270930715391,BOT: quick reply,Do you really want to give up?,2018-09-07 20:37:23
+1727270930715391,Tianshi,Li,13310,1727270930715391,854518728062939,user_quick_reply: GIVEUP_YES,"Yes, answer please.",2018-09-07 20:37:27
+1727270930715391,Tianshi,Li,13311,854518728062939,1727270930715391,BOT: message,You didn't get this question this time.,2018-09-07 20:37:28
+1727270930715391,Tianshi,Li,13312,854518728062939,1727270930715391,BOT: message,"Don't give up, you'll get it next time! :grinning_face_with_smiling_eyes:",2018-09-07 20:37:29
+1727270930715391,Tianshi,Li,13313,854518728062939,1727270930715391,BOT: quick reply,"The correct answer is Physical, biological, and chemical.",2018-09-07 20:37:29
+1727270930715391,Tianshi,Li,13314,1727270930715391,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-07 20:37:33
+1727270930715391,Tianshi,Li,13315,854518728062939,1727270930715391,BOT: message,I think you'll like this question.,2018-09-07 20:37:33
+1727270930715391,Tianshi,Li,13316,854518728062939,1727270930715391,BOT: quick reply,What three major factors cause food contamination?,2018-09-07 20:37:34
+1727270930715391,Tianshi,Li,13317,1727270930715391,854518728062939,user_typing,Physical biological chemical,2018-09-07 20:37:49
+1727270930715391,Tianshi,Li,13318,854518728062939,1727270930715391,BOT: message,That’s right! :party_popper:,2018-09-07 20:37:50
+1727270930715391,Tianshi,Li,13319,854518728062939,1727270930715391,BOT: quick reply,"The correct answer is Physical, biological, and chemical.",2018-09-07 20:37:51
+1727270930715391,Tianshi,Li,13320,1727270930715391,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-07 20:37:54
+1727270930715391,Tianshi,Li,13321,854518728062939,1727270930715391,BOT: message,How about this next one:,2018-09-07 20:37:55
+1727270930715391,Tianshi,Li,13322,854518728062939,1727270930715391,BOT: quick reply,"What agency inspects, grades, and enforces standards of quality and wholesomeness for meat, poultry, milk, eggs, and grains?",2018-09-07 20:37:55
+1727270930715391,Tianshi,Li,13323,1727270930715391,854518728062939,user_typing,Fda,2018-09-07 20:38:04
+1727270930715391,Tianshi,Li,13324,854518728062939,1727270930715391,BOT: message,That wasn't quite what we were looking for. :disappointed_face:,2018-09-07 20:38:05
+1727270930715391,Tianshi,Li,13325,854518728062939,1727270930715391,BOT: quick reply,The correct answer is USDA.,2018-09-07 20:38:06
+1727270930715391,Tianshi,Li,13326,1727270930715391,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-07 20:38:14
+1727270930715391,Tianshi,Li,13327,854518728062939,1727270930715391,BOT: message,How about this next one:,2018-09-07 20:38:15
+1727270930715391,Tianshi,Li,13328,854518728062939,1727270930715391,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-09-07 20:38:16
+1727270930715391,Tianshi,Li,13329,854518728062939,1727270930715391,BOT: quick reply,Working on scaffold during winds above ____ miles per hour is prohibited by OSHA.,2018-09-07 20:38:17
+1727270930715391,Tianshi,Li,13330,1727270930715391,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-07 20:38:30
+1727270930715391,Tianshi,Li,13331,854518728062939,1727270930715391,BOT: message,It's one of the following choices.,2018-09-07 20:38:31
+1727270930715391,Tianshi,Li,13332,854518728062939,1727270930715391,BOT: quick reply,":keycap_1: 50
+:keycap_2: 10
+:keycap_3: 25
+:keycap_4: 40
+",2018-09-07 20:38:32
+1727270930715391,Tianshi,Li,13333,1727270930715391,854518728062939,user_typing,10,2018-09-07 20:38:42
+1727270930715391,Tianshi,Li,13334,854518728062939,1727270930715391,BOT: message,Correct! :confetti_ball:,2018-09-07 20:38:42
+1727270930715391,Tianshi,Li,13335,854518728062939,1727270930715391,BOT: quick reply,The correct answer is 40.,2018-09-07 20:38:43
+1727270930715391,Tianshi,Li,13336,1727270930715391,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-07 20:39:31
+1727270930715391,Tianshi,Li,13337,854518728062939,1727270930715391,BOT: message,Let's see if you can answer this question.,2018-09-07 20:39:32
+1727270930715391,Tianshi,Li,13338,854518728062939,1727270930715391,BOT: quick reply,To what does the acronym SLM refer?,2018-09-07 20:39:33
+1727270930715391,Tianshi,Li,13339,1727270930715391,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-07 20:39:53
+1727270930715391,Tianshi,Li,13340,854518728062939,1727270930715391,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-09-07 20:39:55
+1727270930715391,Tianshi,Li,13341,854518728062939,1727270930715391,BOT: quick reply,":keycap_1: Service Lifecycle Management
+:keycap_2: System Level Monitor
+:keycap_3: Sound Level Meter
+:keycap_4: Sound Loudness Methods
+",2018-09-07 20:39:56
+1727270930715391,Tianshi,Li,13342,1727270930715391,854518728062939,user_quick_reply: BUTTON_DKB_Service Lifecycle Management,:keycap_1:,2018-09-07 20:40:04
+1727270930715391,Tianshi,Li,13343,854518728062939,1727270930715391,BOT: message,"Oops, that is not correct. :disappointed_face:",2018-09-07 20:40:04
+1727270930715391,Tianshi,Li,13344,854518728062939,1727270930715391,BOT: quick reply,The correct answer is Sound Level Meter.,2018-09-07 20:40:05
+1727270930715391,Tianshi,Li,13345,1727270930715391,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-07 20:40:09
+1727270930715391,Tianshi,Li,13346,854518728062939,1727270930715391,BOT: message,Let's take a look at this question.,2018-09-07 20:40:12
+1727270930715391,Tianshi,Li,13347,854518728062939,1727270930715391,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-09-07 20:40:14
+1727270930715391,Tianshi,Li,13348,854518728062939,1727270930715391,BOT: quick reply,"True or false: if you wear a back belt, you can lift more weight than you could without a belt.",2018-09-07 20:40:15
+1727270930715391,Tianshi,Li,13349,1727270930715391,854518728062939,user_typing,False,2018-09-07 20:40:21
+1727270930715391,Tianshi,Li,13350,854518728062939,1727270930715391,BOT: message,Correct! :confetti_ball:,2018-09-07 20:40:22
+1727270930715391,Tianshi,Li,13351,854518728062939,1727270930715391,BOT: quick reply,The correct answer is False.,2018-09-07 20:40:23
+1727270930715391,Tianshi,Li,13352,1727270930715391,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-07 20:40:25
+1727270930715391,Tianshi,Li,13353,854518728062939,1727270930715391,BOT: message,Let's try this question.,2018-09-07 20:40:26
+1727270930715391,Tianshi,Li,13354,854518728062939,1727270930715391,BOT: quick reply,True or false: portable fire extinguishers should only be used by trained employees.,2018-09-07 20:40:27
+1727270930715391,Tianshi,Li,13355,1727270930715391,854518728062939,user_typing,False,2018-09-07 20:40:35
+1727270930715391,Tianshi,Li,13356,854518728062939,1727270930715391,BOT: message,That's not quite right. :disappointed_face:,2018-09-07 20:40:35
+1727270930715391,Tianshi,Li,13357,854518728062939,1727270930715391,BOT: quick reply,The correct answer is True.,2018-09-07 20:40:36
+1727270930715391,Tianshi,Li,13358,1727270930715391,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-07 20:40:38
+1727270930715391,Tianshi,Li,13359,854518728062939,1727270930715391,BOT: message,Let's see if you can get this one.,2018-09-07 20:40:39
+1727270930715391,Tianshi,Li,13360,854518728062939,1727270930715391,BOT: quick reply,"True or false: you can always smell, see, or taste harmful bacteria in food that can cause illness.",2018-09-07 20:40:40
+1727270930715391,Tianshi,Li,13361,1727270930715391,854518728062939,user_typing,False,2018-09-07 20:40:45
+1727270930715391,Tianshi,Li,13362,854518728062939,1727270930715391,BOT: image,https://www.smartprimer.ai:4443/pictures/avatar/congrats/penguinnormal_happy_cyan.png,2018-09-07 20:40:47
+1727270930715391,Tianshi,Li,13363,854518728062939,1727270930715391,BOT: message,That’s right! :party_popper:,2018-09-07 20:40:47
+1727270930715391,Tianshi,Li,13364,854518728062939,1727270930715391,BOT: quick reply,The correct answer is False.,2018-09-07 20:40:48
+1727270930715391,Tianshi,Li,13365,1727270930715391,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-07 20:40:51
+1727270930715391,Tianshi,Li,13366,854518728062939,1727270930715391,BOT: message,Would you answer this question for me?,2018-09-07 20:40:52
+1727270930715391,Tianshi,Li,13367,854518728062939,1727270930715391,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-09-07 20:40:52
+1727270930715391,Tianshi,Li,13368,854518728062939,1727270930715391,BOT: quick reply,What does CERT stand for?,2018-09-07 20:40:53
+1727270930715391,Tianshi,Li,13369,1727270930715391,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-07 20:40:57
+1727270930715391,Tianshi,Li,13370,854518728062939,1727270930715391,BOT: message,It's one of the following choices.,2018-09-07 20:40:58
+1727270930715391,Tianshi,Li,13371,854518728062939,1727270930715391,BOT: quick reply,":keycap_1: Community Emergency Response Team
+:keycap_2: Community Experimental Research Team
+:keycap_3: Controlled Evacuation and Response Tactics
+:keycap_4: Central Emergency Response Terminal
+",2018-09-07 20:40:59
+1727270930715391,Tianshi,Li,13372,1727270930715391,854518728062939,user_quick_reply: BUTTON_DKB_Community Experimental Research Team,:keycap_2:,2018-09-07 20:41:05
+1727270930715391,Tianshi,Li,13373,854518728062939,1727270930715391,BOT: message,"Hmm, that wasn't quite right. :disappointed_face:",2018-09-07 20:41:05
+1727270930715391,Tianshi,Li,13374,854518728062939,1727270930715391,BOT: quick reply,The correct answer is Community Emergency Response Team.,2018-09-07 20:41:06
+1727270930715391,Tianshi,Li,13375,1727270930715391,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-07 20:41:10
+1727270930715391,Tianshi,Li,13376,854518728062939,1727270930715391,BOT: message,See if you can answer this next one.,2018-09-07 20:41:11
+1727270930715391,Tianshi,Li,13377,854518728062939,1727270930715391,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-09-07 20:41:12
+1727270930715391,Tianshi,Li,13378,854518728062939,1727270930715391,BOT: quick reply,What should you NOT do while treating cuts and scrapes?,2018-09-07 20:41:13
+1727270930715391,Tianshi,Li,13379,1727270930715391,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-07 20:41:19
+1727270930715391,Tianshi,Li,13380,854518728062939,1727270930715391,BOT: message,Okay. I'll give you some choices.,2018-09-07 20:41:20
+1727270930715391,Tianshi,Li,13381,854518728062939,1727270930715391,BOT: quick reply,":keycap_1: Wash the wound with soap
+:keycap_2: Apply an antibiotic to the wound
+:keycap_3: Apply pressure on the wound with a clean cloth or bandage
+:keycap_4: Cover the wound
+",2018-09-07 20:41:21
+1727270930715391,Tianshi,Li,13382,1727270930715391,854518728062939,user_quick_reply: BUTTON_AKB_Wash the wound with soap,:keycap_1:,2018-09-07 20:41:36
+1727270930715391,Tianshi,Li,13383,854518728062939,1727270930715391,BOT: image,https://www.smartprimer.ai:4443/pictures/avatar/congrats/penguinnormal_normal_purple.png,2018-09-07 20:41:39
+1727270930715391,Tianshi,Li,13384,854518728062939,1727270930715391,BOT: message,Yes! You got the correct answer!,2018-09-07 20:41:39
+1727270930715391,Tianshi,Li,13385,854518728062939,1727270930715391,BOT: quick reply,The correct answer is Wash the wound with soap.,2018-09-07 20:41:40
+1727270930715391,Tianshi,Li,13386,1727270930715391,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-07 20:41:48
+1727270930715391,Tianshi,Li,13387,854518728062939,1727270930715391,BOT: message,Let's see if you can answer this question.,2018-09-07 20:41:49
+1727270930715391,Tianshi,Li,13388,854518728062939,1727270930715391,BOT: quick reply,Nerve cells that sense touch are found mainly where?,2018-09-07 20:41:49
+1727270930715391,Tianshi,Li,13389,1727270930715391,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-07 20:41:55
+1727270930715391,Tianshi,Li,13390,854518728062939,1727270930715391,BOT: message,It's one of the following choices.,2018-09-07 20:41:56
+1727270930715391,Tianshi,Li,13391,854518728062939,1727270930715391,BOT: quick reply,":keycap_1: skin
+:keycap_2: stomach
+:keycap_3: brain
+:keycap_4: lungs
+",2018-09-07 20:41:56
+1727270930715391,Tianshi,Li,13392,1727270930715391,854518728062939,user_quick_reply: BUTTON_AKB_skin,:keycap_1:,2018-09-07 20:41:59
+1727270930715391,Tianshi,Li,13393,854518728062939,1727270930715391,BOT: image,https://www.smartprimer.ai:4443/pictures/avatar/congrats/penguinnormal_jubilated_cyan.png,2018-09-07 20:42:01
+1727270930715391,Tianshi,Li,13394,854518728062939,1727270930715391,BOT: message,Nice work! Keep it up!,2018-09-07 20:42:02
+1727270930715391,Tianshi,Li,13395,854518728062939,1727270930715391,BOT: quick reply,The correct answer is skin.,2018-09-07 20:42:03
+1727270930715391,Tianshi,Li,13396,1727270930715391,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-07 20:42:07
+1727270930715391,Tianshi,Li,13397,854518728062939,1727270930715391,BOT: quick reply,"Nice job! You've practiced enough questions today. Please come back tomorrow and click on ""Resume Learning :flexed_biceps_medium-light_skin_tone:"" for another practice session.",2018-09-07 20:42:08

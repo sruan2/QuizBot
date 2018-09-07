@@ -1,0 +1,506 @@
+user_id,user_firstname,user_lastname,uid,sender,recipient,type,dialogue,time_stamp
+2079854765360349,Wenming,Zhang,8508,2079854765360349,854518728062939,persistent_menu: GET_INTRO_1,Get Started,2018-09-07 01:32:49
+2079854765360349,Wenming,Zhang,8509,854518728062939,2079854765360349,BOT: image,https://www.smartprimer.ai:4443/pictures/avatar/quizbot_avatar.png,2018-09-07 01:32:52
+2079854765360349,Wenming,Zhang,8510,854518728062939,2079854765360349,BOT: quick reply,"Hi Wenming! My name is Frosty :penguin: and I’m here to help you learn all about science:microscope:, verbal reasoning (GRE) :input_latin_uppercase:, and safety:hammer_and_wrench:!",2018-09-07 01:32:52
+2079854765360349,Wenming,Zhang,8511,2079854765360349,854518728062939,user_quick_reply: GET_INTRO_2,Alright :white_heavy_check_mark:,2018-09-07 01:34:47
+2079854765360349,Wenming,Zhang,8512,854518728062939,2079854765360349,BOT: message,Here’s how it works.,2018-09-07 01:34:47
+2079854765360349,Wenming,Zhang,8513,854518728062939,2079854765360349,BOT: message,"I ask you questions, and you give me answers.",2018-09-07 01:34:48
+2079854765360349,Wenming,Zhang,8514,854518728062939,2079854765360349,BOT: quick reply,We will learn fun things together!,2018-09-07 01:34:49
+2079854765360349,Wenming,Zhang,8515,854518728062939,2079854765360349,BOT: image,https://www.smartprimer.ai:4443/pictures/user_manual/typeanswer.png,2018-09-07 01:34:55
+2079854765360349,Wenming,Zhang,8516,854518728062939,2079854765360349,BOT: quick reply,"To study the questions, you can type in your answers in the text field and I will evaluate the answers for you using advanced NLP (Natural Language Processing) technology.",2018-09-07 01:34:56
+2079854765360349,Wenming,Zhang,8517,2079854765360349,854518728062939,user_quick_reply: GET_INTRO_4,"Yes, continue :round_pushpin:",2018-09-07 01:35:04
+2079854765360349,Wenming,Zhang,8518,854518728062939,2079854765360349,BOT: image,https://www.smartprimer.ai:4443/pictures/user_manual/needhintbutton.png,2018-09-07 01:35:07
+2079854765360349,Wenming,Zhang,8519,854518728062939,2079854765360349,BOT: quick reply,"If you don't know the answers, then feel free to tap on the hint button.",2018-09-07 01:35:08
+2079854765360349,Wenming,Zhang,8520,2079854765360349,854518728062939,user_quick_reply: GET_INTRO_5,"Yes, continue :flexed_biceps_medium-light_skin_tone:",2018-09-07 01:35:16
+2079854765360349,Wenming,Zhang,8521,854518728062939,2079854765360349,BOT: image,https://www.smartprimer.ai:4443/pictures/user_manual/hintoptions.png,2018-09-07 01:35:19
+2079854765360349,Wenming,Zhang,8522,854518728062939,2079854765360349,BOT: quick reply,The hint will give you a list of potential answers and you can select one from them.,2018-09-07 01:35:19
+2079854765360349,Wenming,Zhang,8523,854518728062939,2079854765360349,BOT: image,https://www.smartprimer.ai:4443/pictures/user_manual/menubutton.jpg,2018-09-07 01:35:28
+2079854765360349,Wenming,Zhang,8524,854518728062939,2079854765360349,BOT: quick reply,"To discover more abilities of me, you can click on the menu button.:backhand_index_pointing_up_medium-light_skin_tone:",2018-09-07 01:35:28
+2079854765360349,Wenming,Zhang,8525,2079854765360349,854518728062939,user_quick_reply: GET_READY,I see :white_heavy_check_mark:,2018-09-07 01:36:03
+2079854765360349,Wenming,Zhang,8526,854518728062939,2079854765360349,BOT: message,I hope you enjoy the learning journey! :hundred_points:,2018-09-07 01:36:04
+2079854765360349,Wenming,Zhang,8527,854518728062939,2079854765360349,BOT: quick reply,"So, are you ready?",2018-09-07 01:36:05
+2079854765360349,Wenming,Zhang,8528,2079854765360349,854518728062939,user_quick_reply: YUP_IM_READY,Yup! I'm ready! :raised_fist_medium-light_skin_tone:,2018-09-07 01:36:14
+2079854765360349,Wenming,Zhang,8529,854518728062939,2079854765360349,BOT: message,Great!,2018-09-07 01:36:15
+2079854765360349,Wenming,Zhang,8530,854518728062939,2079854765360349,BOT: quick reply,Let’s get started :rocket:,2018-09-07 01:36:16
+2079854765360349,Wenming,Zhang,8590,2079854765360349,854518728062939,persistent_menu: SCIENCE,Science:microscope:,2018-09-07 02:31:04
+2079854765360349,Wenming,Zhang,8591,854518728062939,2079854765360349,BOT: quick reply,Let's test your knowledge on science!,2018-09-07 02:31:05
+2079854765360349,Wenming,Zhang,8592,2079854765360349,854518728062939,persistent_menu: SCIENCE,Science:microscope:,2018-09-07 02:31:06
+2079854765360349,Wenming,Zhang,8593,854518728062939,2079854765360349,BOT: quick reply,Awesome! Here are some questions on science!,2018-09-07 02:31:07
+2079854765360349,Wenming,Zhang,9381,2079854765360349,854518728062939,user_quick_reply: NEXT_QUESTION,Continue :clapping_hands_medium-light_skin_tone:,2018-09-07 04:25:51
+2079854765360349,Wenming,Zhang,9382,854518728062939,2079854765360349,BOT: message,"Alrighty, let's try this one.",2018-09-07 04:25:52
+2079854765360349,Wenming,Zhang,9383,854518728062939,2079854765360349,BOT: quick reply,What kind of viscosity is found in long-chain hydrocarbons?,2018-09-07 04:25:52
+2079854765360349,Wenming,Zhang,9384,2079854765360349,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-07 04:26:07
+2079854765360349,Wenming,Zhang,9385,854518728062939,2079854765360349,BOT: message,Which of the following options is the right answer?,2018-09-07 04:26:08
+2079854765360349,Wenming,Zhang,9386,854518728062939,2079854765360349,BOT: quick reply,":keycap_1: intense viscosity
+:keycap_2: high viscosity
+:keycap_3: increased viscosity
+:keycap_4: low viscosity
+",2018-09-07 04:26:08
+2079854765360349,Wenming,Zhang,9387,2079854765360349,854518728062939,user_quick_reply: I_DONT_KNOW,I don’t know :downcast_face_with_sweat:,2018-09-07 04:26:23
+2079854765360349,Wenming,Zhang,9388,854518728062939,2079854765360349,BOT: quick reply,Are you sure you want to give up?,2018-09-07 04:26:24
+2079854765360349,Wenming,Zhang,9389,2079854765360349,854518728062939,user_quick_reply: GIVEUP_NO,"No, I'll try again!",2018-09-07 04:26:28
+2079854765360349,Wenming,Zhang,9390,854518728062939,2079854765360349,BOT: message,Alright! Let's do it again!,2018-09-07 04:26:29
+2079854765360349,Wenming,Zhang,9391,854518728062939,2079854765360349,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-09-07 04:26:30
+2079854765360349,Wenming,Zhang,9392,854518728062939,2079854765360349,BOT: quick reply,":keycap_1: high viscosity
+:keycap_2: increased viscosity
+:keycap_3: intense viscosity
+:keycap_4: low viscosity
+",2018-09-07 04:26:30
+2079854765360349,Wenming,Zhang,9393,2079854765360349,854518728062939,user_quick_reply: BUTTON_DKB_intense viscosity,:keycap_3:,2018-09-07 04:28:44
+2079854765360349,Wenming,Zhang,9394,854518728062939,2079854765360349,BOT: message,"I'm sorry, but that was incorrect. :disappointed_face:",2018-09-07 04:28:45
+2079854765360349,Wenming,Zhang,9395,854518728062939,2079854765360349,BOT: quick reply,The correct answer is high viscosity.,2018-09-07 04:28:45
+2079854765360349,Wenming,Zhang,9396,2079854765360349,854518728062939,user_quick_reply: WHY,Why?,2018-09-07 04:28:54
+2079854765360349,Wenming,Zhang,9397,854518728062939,2079854765360349,BOT: message,I hope this explanation could help you understand the the question.,2018-09-07 04:28:55
+2079854765360349,Wenming,Zhang,9398,854518728062939,2079854765360349,BOT: quick reply,"There is also a correlation between viscosity and molecular shape. Liquids consisting of long, flexible molecules tend to have higher viscosities than those composed of more spherical or shorter-chain molecules. The longer the molecules, the easier it is for them to become “tangled” with one another, making it more difficult for them to move past one another. London dispersion forces also increase with chain length. Due to a combination of these two effects, long-chain hydrocarbons (such as motor oils) are highly viscous.",2018-09-07 04:28:56
+2079854765360349,Wenming,Zhang,9399,2079854765360349,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-09-07 04:29:15
+2079854765360349,Wenming,Zhang,9400,854518728062939,2079854765360349,BOT: message,How about this next one:,2018-09-07 04:29:16
+2079854765360349,Wenming,Zhang,9401,854518728062939,2079854765360349,BOT: quick reply,What living species of bird is considered the largest of the raptors?,2018-09-07 04:29:17
+2079854765360349,Wenming,Zhang,9402,2079854765360349,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-07 04:29:44
+2079854765360349,Wenming,Zhang,9403,854518728062939,2079854765360349,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-09-07 04:29:44
+2079854765360349,Wenming,Zhang,9404,854518728062939,2079854765360349,BOT: quick reply,":keycap_1: golden eagles
+:keycap_2: peregrine falcon
+:keycap_3: pterodactyl
+:keycap_4: California condor
+",2018-09-07 04:29:45
+2079854765360349,Wenming,Zhang,9405,2079854765360349,854518728062939,user_quick_reply: I_DONT_KNOW,I don’t know :downcast_face_with_sweat:,2018-09-07 04:30:00
+2079854765360349,Wenming,Zhang,9406,854518728062939,2079854765360349,BOT: quick reply,Do you really want to skip this question?,2018-09-07 04:30:00
+2079854765360349,Wenming,Zhang,9424,2079854765360349,854518728062939,user_quick_reply: GIVEUP_NO,"No, I'll try again!",2018-09-07 04:30:56
+2079854765360349,Wenming,Zhang,9425,854518728062939,2079854765360349,BOT: message,"Sure, let's try this again!",2018-09-07 04:30:57
+2079854765360349,Wenming,Zhang,9428,854518728062939,2079854765360349,BOT: message,Pick one of the following answers.,2018-09-07 04:30:59
+2079854765360349,Wenming,Zhang,9430,854518728062939,2079854765360349,BOT: quick reply,":keycap_1: pterodactyl
+:keycap_2: peregrine falcon
+:keycap_3: golden eagles
+:keycap_4: California condor
+",2018-09-07 04:30:59
+2079854765360349,Wenming,Zhang,9864,2079854765360349,854518728062939,user_quick_reply: BUTTON_DKB_pterodactyl,:keycap_1:,2018-09-07 04:57:58
+2079854765360349,Wenming,Zhang,9865,854518728062939,2079854765360349,BOT: message,"Oops, that wasn't quite correct. :disappointed_face:",2018-09-07 04:57:59
+2079854765360349,Wenming,Zhang,9866,854518728062939,2079854765360349,BOT: quick reply,The correct answer is golden eagles.,2018-09-07 04:57:59
+2079854765360349,Wenming,Zhang,9867,2079854765360349,854518728062939,user_quick_reply: WHY,Why?,2018-09-07 04:58:06
+2079854765360349,Wenming,Zhang,9868,854518728062939,2079854765360349,BOT: message,Here's why:,2018-09-07 04:58:07
+2079854765360349,Wenming,Zhang,9869,854518728062939,2079854765360349,BOT: quick reply,"Although not as famous as its bald cousin, Golden Eagles are much easier to find in Northern California - one of the largest breeding populations for Golden Eagles. The largest of the raptors, Golden Eagles weigh typically between 8 and 12 pounds, and their wing span is around 6 to 7 feet. These eagles dive towards earth to catch prey, and can reach speeds of up to 200 mph!",2018-09-07 04:58:08
+2079854765360349,Wenming,Zhang,9870,2079854765360349,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-09-07 04:58:51
+2079854765360349,Wenming,Zhang,9871,854518728062939,2079854765360349,BOT: message,Here's a question for you:,2018-09-07 04:58:51
+2079854765360349,Wenming,Zhang,9872,854518728062939,2079854765360349,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-09-07 04:58:52
+2079854765360349,Wenming,Zhang,9873,854518728062939,2079854765360349,BOT: quick reply,What opens two strands of DNA?,2018-09-07 04:58:53
+2079854765360349,Wenming,Zhang,9976,2079854765360349,854518728062939,user_typing,Helicase,2018-09-07 05:22:40
+2079854765360349,Wenming,Zhang,9978,854518728062939,2079854765360349,BOT: message,That’s right! :party_popper:,2018-09-07 05:22:41
+2079854765360349,Wenming,Zhang,9980,854518728062939,2079854765360349,BOT: quick reply,The correct answer is helicase.,2018-09-07 05:22:41
+2079854765360349,Wenming,Zhang,9981,2079854765360349,854518728062939,user_quick_reply: WHY,Why?,2018-09-07 05:22:46
+2079854765360349,Wenming,Zhang,9982,854518728062939,2079854765360349,BOT: message,This is why:,2018-09-07 05:22:47
+2079854765360349,Wenming,Zhang,9983,854518728062939,2079854765360349,BOT: quick reply,"The two DNA strands are opened by helicase. The strands are held open by a single strand of binding proteins, preventing premature reannealing. Topoisomerase solves the problem caused by tension generated by winding/unwinding of DNA. This enzyme wraps around DNA and makes a cut permitting the helix to spin and relax. Once DNA is relaxed, topoisomerase reconnects broken strands. DNA primase synthesizes a short RNA primer which initiates the Okazaki fragment. Okazaki fragments are attached by DNA ligase.",2018-09-07 05:22:47
+2079854765360349,Wenming,Zhang,9988,2079854765360349,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-09-07 05:23:21
+2079854765360349,Wenming,Zhang,9989,854518728062939,2079854765360349,BOT: message,Here's a question for you:,2018-09-07 05:23:21
+2079854765360349,Wenming,Zhang,9990,854518728062939,2079854765360349,BOT: quick reply,"When your brain senses that your body temperature is increasing, it sends messages to the blood vessels in the skin to increase in what?",2018-09-07 05:23:22
+2079854765360349,Wenming,Zhang,9991,2079854765360349,854518728062939,user_typing,Diameter,2018-09-07 05:23:42
+2079854765360349,Wenming,Zhang,9992,854518728062939,2079854765360349,BOT: message,That’s right! :party_popper:,2018-09-07 05:23:43
+2079854765360349,Wenming,Zhang,9993,854518728062939,2079854765360349,BOT: quick reply,The correct answer is diameter.,2018-09-07 05:23:44
+2079854765360349,Wenming,Zhang,9997,2079854765360349,854518728062939,user_quick_reply: WHY,Why?,2018-09-07 05:23:48
+2079854765360349,Wenming,Zhang,9998,854518728062939,2079854765360349,BOT: message,I hope this explanation could help you understand the the question.,2018-09-07 05:23:48
+2079854765360349,Wenming,Zhang,9999,854518728062939,2079854765360349,BOT: quick reply,"The cardiovascular system also plays a role in maintaining body temperature. It helps to keep you warm by moving warm blood around your body. Your blood vessels also control your body temperature to keep you from getting too hot or too cold. When your brain senses that your body temperature is increasing, it sends messages to the blood vessels in the skin to increase in diameter. Increasing the diameter of the blood vessels increases the amount of blood and heat that moves near the skin's surface. The heat is then released from the skin. This helps you cool down.",2018-09-07 05:23:49
+2079854765360349,Wenming,Zhang,10000,2079854765360349,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-09-07 05:23:56
+2079854765360349,Wenming,Zhang,10001,854518728062939,2079854765360349,BOT: message,Let's try this one.,2018-09-07 05:23:56
+2079854765360349,Wenming,Zhang,10002,854518728062939,2079854765360349,BOT: quick reply,How often should women perform a breast self-exam?,2018-09-07 05:23:57
+2079854765360349,Wenming,Zhang,10003,2079854765360349,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-07 05:24:03
+2079854765360349,Wenming,Zhang,10004,854518728062939,2079854765360349,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-09-07 05:24:04
+2079854765360349,Wenming,Zhang,10005,854518728062939,2079854765360349,BOT: quick reply,":keycap_1: yearly
+:keycap_2: quarterly
+:keycap_3: weekly
+:keycap_4: monthly
+",2018-09-07 05:24:04
+2079854765360349,Wenming,Zhang,10009,2079854765360349,854518728062939,user_quick_reply: BUTTON_DKB_quarterly,:keycap_2:,2018-09-07 05:24:11
+2079854765360349,Wenming,Zhang,10010,854518728062939,2079854765360349,BOT: message,"Oops, that is not correct. :disappointed_face:",2018-09-07 05:24:12
+2079854765360349,Wenming,Zhang,10011,854518728062939,2079854765360349,BOT: quick reply,The correct answer is monthly.,2018-09-07 05:24:13
+2079854765360349,Wenming,Zhang,10012,2079854765360349,854518728062939,user_quick_reply: WHY,Why?,2018-09-07 05:24:18
+2079854765360349,Wenming,Zhang,10013,854518728062939,2079854765360349,BOT: message,I hope this explanation could help you understand the the question.,2018-09-07 05:24:19
+2079854765360349,Wenming,Zhang,10014,854518728062939,2079854765360349,BOT: quick reply,"If you are a young woman, getting in the habit of performing a monthly breast self-exam is a good idea. Lumps or other subtle changes in the breasts may indicate breast cancer. The outcome is typically better if breast cancer is caught and treated early.",2018-09-07 05:24:19
+2079854765360349,Wenming,Zhang,10016,2079854765360349,854518728062939,user_quick_reply: SWITCH_SUBJECT,Change subject :shuffle_tracks_button:,2018-09-07 05:24:30
+2079854765360349,Wenming,Zhang,10018,854518728062939,2079854765360349,BOT: quick reply,"Sure, which of the following subjects would you like me to quiz you on?:backhand_index_pointing_down_medium-light_skin_tone:",2018-09-07 05:24:31
+2079854765360349,Wenming,Zhang,10021,2079854765360349,854518728062939,user_quick_reply: GRE,GRE :input_latin_uppercase:,2018-09-07 05:24:36
+2079854765360349,Wenming,Zhang,10022,854518728062939,2079854765360349,BOT: image,https://www.smartprimer.ai:4443/pictures/avatar/evolvescientist_reading.gif,2018-09-07 05:24:40
+2079854765360349,Wenming,Zhang,10023,854518728062939,2079854765360349,BOT: quick reply,All right! I’ll quiz you on GRE!,2018-09-07 05:24:40
+2079854765360349,Wenming,Zhang,10024,2079854765360349,854518728062939,user_quick_reply: NEXT_QUESTION,Tap me :oncoming_fist_medium-light_skin_tone:,2018-09-07 05:24:45
+2079854765360349,Wenming,Zhang,10025,854518728062939,2079854765360349,BOT: message,Let's see if you can get this one.,2018-09-07 05:24:45
+2079854765360349,Wenming,Zhang,10026,854518728062939,2079854765360349,BOT: quick reply,"Although John F. Kennedy was known for his carefree flag football games, Gerald Ford should be _____ as our football president: he turned down offers to play for two National Football League teams in order to pursue a career in public service.",2018-09-07 05:24:46
+2079854765360349,Wenming,Zhang,10042,2079854765360349,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-07 05:25:38
+2079854765360349,Wenming,Zhang,10044,854518728062939,2079854765360349,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-09-07 05:25:38
+2079854765360349,Wenming,Zhang,10046,854518728062939,2079854765360349,BOT: quick reply,":keycap_1: annulled
+:keycap_2: apotheosized
+:keycap_3: criticized
+:keycap_4: relegated
+:keycap_5: abrogated
+",2018-09-07 05:25:39
+2079854765360349,Wenming,Zhang,10049,2079854765360349,854518728062939,user_quick_reply: BUTTON_DKB_annulled,:keycap_1:,2018-09-07 05:25:45
+2079854765360349,Wenming,Zhang,10051,854518728062939,2079854765360349,BOT: message,"Oops, that wasn't quite correct. :disappointed_face:",2018-09-07 05:25:45
+2079854765360349,Wenming,Zhang,10052,854518728062939,2079854765360349,BOT: quick reply,The correct answer is apotheosized.,2018-09-07 05:25:46
+2079854765360349,Wenming,Zhang,10053,2079854765360349,854518728062939,user_quick_reply: WHY,Why?,2018-09-07 05:25:51
+2079854765360349,Wenming,Zhang,10054,854518728062939,2079854765360349,BOT: message,This is an explanation of the question:,2018-09-07 05:25:52
+2079854765360349,Wenming,Zhang,10055,854518728062939,2079854765360349,BOT: quick reply,":pushpin: Apotheosized -- deify or glorify
+:pushpin: Relegated -- to send or consign to an inferior position, place, or condition
+:pushpin: Abrogated -- revoke formally
+:pushpin: Annulled -- declare invalid
+:pushpin: Criticized -- find fault with; express criticism of; point out real or perceived flaws",2018-09-07 05:25:53
+2079854765360349,Wenming,Zhang,10056,2079854765360349,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-09-07 05:26:08
+2079854765360349,Wenming,Zhang,10057,854518728062939,2079854765360349,BOT: message,Let's see if you would answer this one.,2018-09-07 05:26:09
+2079854765360349,Wenming,Zhang,10058,854518728062939,2079854765360349,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-09-07 05:26:10
+2079854765360349,Wenming,Zhang,10063,854518728062939,2079854765360349,BOT: quick reply,"Despite the smile that spread from ear to ear, the eyes relayed a certain _____ .",2018-09-07 05:26:16
+2079854765360349,Wenming,Zhang,10064,2079854765360349,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-07 05:26:21
+2079854765360349,Wenming,Zhang,10065,854518728062939,2079854765360349,BOT: message,It's one of the following choices.,2018-09-07 05:26:22
+2079854765360349,Wenming,Zhang,10066,854518728062939,2079854765360349,BOT: quick reply,":keycap_1: mischievousness
+:keycap_2: sorrow
+:keycap_3: jubilance
+:keycap_4: vision
+:keycap_5: liveliness
+",2018-09-07 05:26:23
+2079854765360349,Wenming,Zhang,10067,2079854765360349,854518728062939,user_quick_reply: BUTTON_AKB_sorrow,:keycap_2:,2018-09-07 05:26:34
+2079854765360349,Wenming,Zhang,10069,854518728062939,2079854765360349,BOT: image,https://www.smartprimer.ai:4443/pictures/avatar/congrats/penguinnormal_happy_purple.png,2018-09-07 05:26:36
+2079854765360349,Wenming,Zhang,10071,854518728062939,2079854765360349,BOT: message,Great! Keep it up! :flexed_biceps_medium-light_skin_tone:,2018-09-07 05:26:37
+2079854765360349,Wenming,Zhang,10073,854518728062939,2079854765360349,BOT: quick reply,The correct answer is sorrow.,2018-09-07 05:26:38
+2079854765360349,Wenming,Zhang,10077,2079854765360349,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-07 05:26:54
+2079854765360349,Wenming,Zhang,10078,854518728062939,2079854765360349,BOT: message,Would you answer this question for me?,2018-09-07 05:26:56
+2079854765360349,Wenming,Zhang,10079,854518728062939,2079854765360349,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-09-07 05:26:57
+2079854765360349,Wenming,Zhang,10080,854518728062939,2079854765360349,BOT: quick reply,"Dolly Madison, the wife of President James Madison, was known especially for her _____ , remaining calm even as the British invaded Washington D.C. during the War of 1812.",2018-09-07 05:26:57
+2079854765360349,Wenming,Zhang,10081,2079854765360349,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-07 05:27:05
+2079854765360349,Wenming,Zhang,10082,854518728062939,2079854765360349,BOT: message,It's one of the following choices.,2018-09-07 05:27:06
+2079854765360349,Wenming,Zhang,10083,854518728062939,2079854765360349,BOT: quick reply,":keycap_1: impracticality
+:keycap_2: malevolence
+:keycap_3: cynicism
+:keycap_4: equanimity
+:keycap_5: zeal
+",2018-09-07 05:27:06
+2079854765360349,Wenming,Zhang,10087,2079854765360349,854518728062939,user_quick_reply: BUTTON_AKB_equanimity,:keycap_4:,2018-09-07 05:27:15
+2079854765360349,Wenming,Zhang,10088,854518728062939,2079854765360349,BOT: message,Great job!,2018-09-07 05:27:16
+2079854765360349,Wenming,Zhang,10090,854518728062939,2079854765360349,BOT: quick reply,The correct answer is equanimity.,2018-09-07 05:27:16
+2079854765360349,Wenming,Zhang,10093,2079854765360349,854518728062939,user_quick_reply: WHY,Why?,2018-09-07 05:27:20
+2079854765360349,Wenming,Zhang,10094,854518728062939,2079854765360349,BOT: message,Here's why:,2018-09-07 05:27:21
+2079854765360349,Wenming,Zhang,10096,854518728062939,2079854765360349,BOT: quick reply,":pushpin: Equanimity -- steadiness of mind under stress
+:pushpin: Impracticality -- concerned with theoretical possibilities rather than actual use
+:pushpin: Cynicism -- a cynical feeling of distrust
+:pushpin: Zeal -- a feeling of strong eagerness usually in favor of a person or cause
+:pushpin: Malevolence -- wishing evil to others",2018-09-07 05:27:21
+2079854765360349,Wenming,Zhang,10102,2079854765360349,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-09-07 05:28:29
+2079854765360349,Wenming,Zhang,10103,854518728062939,2079854765360349,BOT: message,Let's see if you can answer this question.,2018-09-07 05:28:29
+2079854765360349,Wenming,Zhang,10104,854518728062939,2079854765360349,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-09-07 05:28:30
+2079854765360349,Wenming,Zhang,10105,854518728062939,2079854765360349,BOT: quick reply,"Even though legislators claimed the Contagious Diseases Acts strengthened the nation, social purists argued the Acts _____ the nation's moral growth by encouraging licentious behavior.",2018-09-07 05:28:31
+2079854765360349,Wenming,Zhang,10106,2079854765360349,854518728062939,user_typing,Harmed,2018-09-07 05:29:05
+2079854765360349,Wenming,Zhang,10107,854518728062939,2079854765360349,BOT: message,That wasn't quite what we were looking for. :disappointed_face:,2018-09-07 05:29:06
+2079854765360349,Wenming,Zhang,10108,854518728062939,2079854765360349,BOT: quick reply,The correct answer is hampered.,2018-09-07 05:29:07
+2079854765360349,Wenming,Zhang,10109,2079854765360349,854518728062939,user_quick_reply: WHY,Why?,2018-09-07 05:29:14
+2079854765360349,Wenming,Zhang,10110,854518728062939,2079854765360349,BOT: message,Here's why:,2018-09-07 05:29:14
+2079854765360349,Wenming,Zhang,10111,854518728062939,2079854765360349,BOT: quick reply,:pushpin: Hampered -- prevent the progress or free movement of,2018-09-07 05:29:15
+2079854765360349,Wenming,Zhang,10112,2079854765360349,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-09-07 05:29:21
+2079854765360349,Wenming,Zhang,10113,854518728062939,2079854765360349,BOT: message,Let's see if you would answer this one.,2018-09-07 05:29:22
+2079854765360349,Wenming,Zhang,10114,854518728062939,2079854765360349,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-09-07 05:29:23
+2079854765360349,Wenming,Zhang,10115,854518728062939,2079854765360349,BOT: quick reply,"Having squandered his life's savings on unprofitable business ventures, the _____ entrepreneur was forced to live in squalor.",2018-09-07 05:29:23
+2079854765360349,Wenming,Zhang,10116,2079854765360349,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-07 05:29:35
+2079854765360349,Wenming,Zhang,10117,854518728062939,2079854765360349,BOT: message,Pick one of the following answers.,2018-09-07 05:29:35
+2079854765360349,Wenming,Zhang,10118,854518728062939,2079854765360349,BOT: quick reply,":keycap_1: eccentric
+:keycap_2: unlikely
+:keycap_3: perturbed
+:keycap_4: former
+:keycap_5: insolvent
+",2018-09-07 05:29:36
+2079854765360349,Wenming,Zhang,10119,2079854765360349,854518728062939,user_quick_reply: BUTTON_DKB_former,:keycap_4:,2018-09-07 05:29:42
+2079854765360349,Wenming,Zhang,10120,854518728062939,2079854765360349,BOT: message,"Oops, that is not correct. :disappointed_face:",2018-09-07 05:29:43
+2079854765360349,Wenming,Zhang,10121,854518728062939,2079854765360349,BOT: quick reply,The correct answer is insolvent.,2018-09-07 05:29:44
+2079854765360349,Wenming,Zhang,10122,2079854765360349,854518728062939,user_quick_reply: WHY,Why?,2018-09-07 05:29:48
+2079854765360349,Wenming,Zhang,10123,854518728062939,2079854765360349,BOT: message,This is why:,2018-09-07 05:29:49
+2079854765360349,Wenming,Zhang,10124,854518728062939,2079854765360349,BOT: quick reply,":pushpin: Insolvent -- unable to meet or discharge financial obligations
+:pushpin: Former -- preceding in time; prior or earlier
+:pushpin: Unlikely -- not likely to be true or to occur or to have occurred
+:pushpin: Perturbed -- thrown into a state of agitated confusion
+:pushpin: Eccentric -- conspicuously or grossly unconventional or unusual",2018-09-07 05:29:50
+2079854765360349,Wenming,Zhang,10125,2079854765360349,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-09-07 05:30:56
+2079854765360349,Wenming,Zhang,10126,854518728062939,2079854765360349,BOT: message,"Alrighty, let's try this one.",2018-09-07 05:30:57
+2079854765360349,Wenming,Zhang,10127,854518728062939,2079854765360349,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-09-07 05:30:57
+2079854765360349,Wenming,Zhang,10128,854518728062939,2079854765360349,BOT: quick reply,"In psychological literature, the ""sleeper effect"" refers to the phenomenon in which a persuasive message from a trustworthy source loses _____ over time, while the efficacy of a message from a less credible source simultaneously increases.",2018-09-07 05:30:58
+2079854765360349,Wenming,Zhang,10129,2079854765360349,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-07 05:31:08
+2079854765360349,Wenming,Zhang,10130,854518728062939,2079854765360349,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-09-07 05:31:08
+2079854765360349,Wenming,Zhang,10131,854518728062939,2079854765360349,BOT: quick reply,":keycap_1: evasiveness
+:keycap_2: cogency
+:keycap_3: erudition
+:keycap_4: control
+:keycap_5: prescience
+",2018-09-07 05:31:09
+2079854765360349,Wenming,Zhang,10132,2079854765360349,854518728062939,user_quick_reply: BUTTON_DKB_erudition,:keycap_3:,2018-09-07 05:31:18
+2079854765360349,Wenming,Zhang,10133,854518728062939,2079854765360349,BOT: message,"I'm sorry, but that was incorrect. :disappointed_face:",2018-09-07 05:31:19
+2079854765360349,Wenming,Zhang,10134,854518728062939,2079854765360349,BOT: quick reply,The correct answer is cogency.,2018-09-07 05:31:20
+2079854765360349,Wenming,Zhang,10135,2079854765360349,854518728062939,user_quick_reply: WHY,Why?,2018-09-07 05:31:24
+2079854765360349,Wenming,Zhang,10136,854518728062939,2079854765360349,BOT: message,I hope this explanation could help you understand the the question.,2018-09-07 05:31:25
+2079854765360349,Wenming,Zhang,10137,854518728062939,2079854765360349,BOT: quick reply,":pushpin: Cogency -- persuasive relevance
+:pushpin: Prescience -- the power to foresee the future
+:pushpin: Erudition -- profound scholarly knowledge
+:pushpin: Evasiveness -- intentionally vague or ambiguous
+:pushpin: Control -- exercise authoritative control or power over",2018-09-07 05:31:25
+2079854765360349,Wenming,Zhang,10138,2079854765360349,854518728062939,user_quick_reply: SWITCH_SUBJECT,Change subject :shuffle_tracks_button:,2018-09-07 05:31:47
+2079854765360349,Wenming,Zhang,10139,854518728062939,2079854765360349,BOT: quick reply,"Cool, which subject would you like to study?:backhand_index_pointing_down_medium-light_skin_tone:",2018-09-07 05:31:48
+2079854765360349,Wenming,Zhang,10140,2079854765360349,854518728062939,user_quick_reply: SAFETY,Safety:hammer_and_wrench:,2018-09-07 05:31:51
+2079854765360349,Wenming,Zhang,10141,854518728062939,2079854765360349,BOT: image,https://www.smartprimer.ai:4443/pictures/avatar/evolvereading_safety.gif,2018-09-07 05:31:55
+2079854765360349,Wenming,Zhang,10142,854518728062939,2079854765360349,BOT: quick reply,Awesome! Let's learn about safety!,2018-09-07 05:31:55
+2079854765360349,Wenming,Zhang,10143,2079854765360349,854518728062939,user_quick_reply: NEXT_QUESTION,Continue :thumbs_up_medium-light_skin_tone:,2018-09-07 05:31:59
+2079854765360349,Wenming,Zhang,10144,854518728062939,2079854765360349,BOT: message,Let's see if you would answer this one.,2018-09-07 05:32:00
+2079854765360349,Wenming,Zhang,10145,854518728062939,2079854765360349,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-09-07 05:32:00
+2079854765360349,Wenming,Zhang,10146,854518728062939,2079854765360349,BOT: quick reply,What should you NOT do when lowering a load?,2018-09-07 05:32:01
+2079854765360349,Wenming,Zhang,10147,2079854765360349,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-07 05:32:06
+2079854765360349,Wenming,Zhang,10148,854518728062939,2079854765360349,BOT: message,Okay. I'll give you some choices.,2018-09-07 05:32:07
+2079854765360349,Wenming,Zhang,10149,854518728062939,2079854765360349,BOT: quick reply,":keycap_1: Keep the load close to your body
+:keycap_2: Twist your body
+:keycap_3: Twist your body, keep the load close, and bend your knees
+:keycap_4: Bend your knees
+",2018-09-07 05:32:07
+2079854765360349,Wenming,Zhang,10150,2079854765360349,854518728062939,user_quick_reply: BUTTON_AKB_Twist your body,:keycap_2:,2018-09-07 05:32:16
+2079854765360349,Wenming,Zhang,10151,854518728062939,2079854765360349,BOT: image,https://www.smartprimer.ai:4443/pictures/avatar/congrats/penguinnormal_normal_orange.png,2018-09-07 05:32:18
+2079854765360349,Wenming,Zhang,10152,854518728062939,2079854765360349,BOT: message,Yes! You got the correct answer!,2018-09-07 05:32:19
+2079854765360349,Wenming,Zhang,10153,854518728062939,2079854765360349,BOT: quick reply,The correct answer is Twist your body.,2018-09-07 05:32:19
+2079854765360349,Wenming,Zhang,10154,2079854765360349,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-07 05:32:24
+2079854765360349,Wenming,Zhang,10155,854518728062939,2079854765360349,BOT: message,Could you answer this one for me?,2018-09-07 05:32:25
+2079854765360349,Wenming,Zhang,10156,854518728062939,2079854765360349,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-09-07 05:32:26
+2079854765360349,Wenming,Zhang,10157,854518728062939,2079854765360349,BOT: quick reply,What should you NOT do while lifting objects?,2018-09-07 05:32:26
+2079854765360349,Wenming,Zhang,10158,2079854765360349,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-07 05:32:32
+2079854765360349,Wenming,Zhang,10159,854518728062939,2079854765360349,BOT: message,Pick one of the following answers.,2018-09-07 05:32:33
+2079854765360349,Wenming,Zhang,10160,854518728062939,2079854765360349,BOT: quick reply,":keycap_1: Keep the object close to your body
+:keycap_2: Bend at the knees
+:keycap_3: Keep your back straight
+:keycap_4: Keep your feet together
+",2018-09-07 05:32:33
+2079854765360349,Wenming,Zhang,10161,2079854765360349,854518728062939,user_quick_reply: BUTTON_AKB_Keep your feet together,:keycap_4:,2018-09-07 05:32:40
+2079854765360349,Wenming,Zhang,10162,854518728062939,2079854765360349,BOT: message,Nice work! Keep it up!,2018-09-07 05:32:41
+2079854765360349,Wenming,Zhang,10163,854518728062939,2079854765360349,BOT: quick reply,The correct answer is Keep your feet together.,2018-09-07 05:32:42
+2079854765360349,Wenming,Zhang,10164,2079854765360349,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-07 05:32:49
+2079854765360349,Wenming,Zhang,10165,854518728062939,2079854765360349,BOT: message,"Alrighty, let's try this one.",2018-09-07 05:32:50
+2079854765360349,Wenming,Zhang,10166,854518728062939,2079854765360349,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-09-07 05:32:51
+2079854765360349,Wenming,Zhang,10167,854518728062939,2079854765360349,BOT: quick reply,How long can high-acid canned food such as tomatoes be stored?,2018-09-07 05:32:51
+2079854765360349,Wenming,Zhang,10168,2079854765360349,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-07 05:32:57
+2079854765360349,Wenming,Zhang,10169,854518728062939,2079854765360349,BOT: message,Pick one of the following answers.,2018-09-07 05:32:58
+2079854765360349,Wenming,Zhang,10170,854518728062939,2079854765360349,BOT: quick reply,":keycap_1: 10 to 30 days
+:keycap_2: 2 to 4 years
+:keycap_3: 12 to 18 months
+:keycap_4: 2 to 6 months
+",2018-09-07 05:32:59
+2079854765360349,Wenming,Zhang,10171,2079854765360349,854518728062939,user_quick_reply: BUTTON_AKB_12 to 18 months,:keycap_3:,2018-09-07 05:33:04
+2079854765360349,Wenming,Zhang,10172,854518728062939,2079854765360349,BOT: message,Nice work! Keep it up!,2018-09-07 05:33:04
+2079854765360349,Wenming,Zhang,10173,854518728062939,2079854765360349,BOT: quick reply,The correct answer is 12 to 18 months.,2018-09-07 05:33:05
+2079854765360349,Wenming,Zhang,10174,2079854765360349,854518728062939,user_quick_reply: WHY,Why?,2018-09-07 05:33:09
+2079854765360349,Wenming,Zhang,10175,854518728062939,2079854765360349,BOT: message,This is an explanation of the question:,2018-09-07 05:33:10
+2079854765360349,Wenming,Zhang,10176,854518728062939,2079854765360349,BOT: quick reply,"According to the United States Department of Agriculture (USDA), In general, high-acid canned food such as tomatoes, grapefruit, and pineapple can be stored on the shelf for 12 to 18 months. Low-acid canned food such as meat, poultry, fish, and most vegetables will keep 2 to 5 years if the can remains in good condition and has been stored in a cool, clean, and dry place.",2018-09-07 05:33:10
+2079854765360349,Wenming,Zhang,10177,2079854765360349,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-09-07 05:33:31
+2079854765360349,Wenming,Zhang,10178,854518728062939,2079854765360349,BOT: message,What about this next question:,2018-09-07 05:33:32
+2079854765360349,Wenming,Zhang,10179,854518728062939,2079854765360349,BOT: quick reply,Which fire extinguishers are used to put out Class A fires?,2018-09-07 05:33:33
+2079854765360349,Wenming,Zhang,10180,2079854765360349,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-07 05:33:38
+2079854765360349,Wenming,Zhang,10181,854518728062939,2079854765360349,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-09-07 05:33:38
+2079854765360349,Wenming,Zhang,10182,854518728062939,2079854765360349,BOT: quick reply,":keycap_1: Both CO2 and water
+:keycap_2: CO2 only
+:keycap_3: Both water and multi-purpose dry chemical
+:keycap_4: Multi-purpose dry chemical only
+:keycap_5: Water only
+",2018-09-07 05:33:39
+2079854765360349,Wenming,Zhang,10183,2079854765360349,854518728062939,user_quick_reply: BUTTON_DKB_Multi-purpose dry chemical only,:keycap_4:,2018-09-07 05:33:53
+2079854765360349,Wenming,Zhang,10184,854518728062939,2079854765360349,BOT: message,That's not quite right. :disappointed_face:,2018-09-07 05:33:53
+2079854765360349,Wenming,Zhang,10185,854518728062939,2079854765360349,BOT: quick reply,The correct answer is Both water and multi-purpose dry chemical.,2018-09-07 05:33:54
+2079854765360349,Wenming,Zhang,10186,2079854765360349,854518728062939,user_quick_reply: WHY,Why?,2018-09-07 05:34:01
+2079854765360349,Wenming,Zhang,10187,854518728062939,2079854765360349,BOT: message,Here's an explanation:,2018-09-07 05:34:02
+2079854765360349,Wenming,Zhang,10188,854518728062939,2079854765360349,BOT: quick reply,"Class A fires include fires in ordinary combustibles: paper, wood, cloth, rubber, and many plastics. Water based fire extinguishers and multi-purpose dry chemical based fire extinguishers are suitable for Class A fires. However, ordinary dry chemical fire extinguishers are suitable for only Class B and Class C fires",2018-09-07 05:34:03
+2079854765360349,Wenming,Zhang,10189,2079854765360349,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-09-07 05:34:53
+2079854765360349,Wenming,Zhang,10190,854518728062939,2079854765360349,BOT: message,Could you answer this one for me?,2018-09-07 05:34:54
+2079854765360349,Wenming,Zhang,10191,854518728062939,2079854765360349,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-09-07 05:34:55
+2079854765360349,Wenming,Zhang,10192,854518728062939,2079854765360349,BOT: quick reply,Which fire extinguishers are used to put out fires caused by flammable liquids?,2018-09-07 05:34:55
+2079854765360349,Wenming,Zhang,10193,2079854765360349,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-07 05:35:00
+2079854765360349,Wenming,Zhang,10194,854518728062939,2079854765360349,BOT: message,Which of the following options is the right answer?,2018-09-07 05:35:07
+2079854765360349,Wenming,Zhang,10195,854518728062939,2079854765360349,BOT: quick reply,":keycap_1: Class B carbon dioxide fire extinguisher
+:keycap_2: Class C dry chemical fire extinguisher
+:keycap_3: Class A water fire extinguishers
+",2018-09-07 05:35:07
+2079854765360349,Wenming,Zhang,10196,2079854765360349,854518728062939,user_quick_reply: BUTTON_AKB_Class B carbon dioxide fire extinguisher,:keycap_1:,2018-09-07 05:35:19
+2079854765360349,Wenming,Zhang,10197,854518728062939,2079854765360349,BOT: image,https://www.smartprimer.ai:4443/pictures/avatar/congrats/penguinnormal_happy_orange.png,2018-09-07 05:35:22
+2079854765360349,Wenming,Zhang,10198,854518728062939,2079854765360349,BOT: message,Nice work! Keep it up!,2018-09-07 05:35:22
+2079854765360349,Wenming,Zhang,10199,854518728062939,2079854765360349,BOT: quick reply,The correct answer is Class B carbon dioxide fire extinguisher.,2018-09-07 05:35:23
+2079854765360349,Wenming,Zhang,10200,2079854765360349,854518728062939,user_quick_reply: WHY,Why?,2018-09-07 05:35:27
+2079854765360349,Wenming,Zhang,10201,854518728062939,2079854765360349,BOT: message,This is why:,2018-09-07 05:35:27
+2079854765360349,Wenming,Zhang,10202,854518728062939,2079854765360349,BOT: quick reply,"Flammable liquids include oils, gasoline, paints, grease, lacquers, and solvents. Class B carbon dioxide fire extinguishers are used to put out fires caused by flammable liquids.",2018-09-07 05:35:28
+2079854765360349,Wenming,Zhang,10203,2079854765360349,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-09-07 05:35:40
+2079854765360349,Wenming,Zhang,10204,854518728062939,2079854765360349,BOT: message,What about this next question:,2018-09-07 05:35:41
+2079854765360349,Wenming,Zhang,10205,854518728062939,2079854765360349,BOT: quick reply,"If your co-worker needs CPR but you are not trained in it, what should you do?",2018-09-07 05:35:41
+2079854765360349,Wenming,Zhang,10206,2079854765360349,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-07 05:35:48
+2079854765360349,Wenming,Zhang,10207,854518728062939,2079854765360349,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-09-07 05:35:50
+2079854765360349,Wenming,Zhang,10208,854518728062939,2079854765360349,BOT: quick reply,":keycap_1: Lift the patient's head
+:keycap_2: Give rescue breaths only
+:keycap_3: Wait for emergency personnel to arrive
+:keycap_4: Perform chest compressions only
+",2018-09-07 05:35:50
+2079854765360349,Wenming,Zhang,10209,2079854765360349,854518728062939,user_quick_reply: BUTTON_AKB_Perform chest compressions only,:keycap_4:,2018-09-07 05:36:02
+2079854765360349,Wenming,Zhang,10210,854518728062939,2079854765360349,BOT: message,Nice! That was right!,2018-09-07 05:36:03
+2079854765360349,Wenming,Zhang,10211,854518728062939,2079854765360349,BOT: quick reply,The correct answer is Perform chest compressions only.,2018-09-07 05:36:03
+2079854765360349,Wenming,Zhang,10212,2079854765360349,854518728062939,user_quick_reply: WHY,Why?,2018-09-07 05:36:07
+2079854765360349,Wenming,Zhang,10213,854518728062939,2079854765360349,BOT: message,I hope this explanation could help you understand the the question.,2018-09-07 05:36:08
+2079854765360349,Wenming,Zhang,10214,854518728062939,2079854765360349,BOT: quick reply,"According to Mayo Clinic, it's far better to do something than to do nothing at all if you're fearful that your knowledge or abilities arent 100 percent complete. If you're not trained in CPR, then provide hands-only CPR. That means uninterrupted chest compressions of about 100 a minute until paramedics arrive. You don't need to try rescue breathing.",2018-09-07 05:36:09
+2079854765360349,Wenming,Zhang,10215,2079854765360349,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-09-07 05:38:01
+2079854765360349,Wenming,Zhang,10216,854518728062939,2079854765360349,BOT: message,How about this next one:,2018-09-07 05:38:01
+2079854765360349,Wenming,Zhang,10217,854518728062939,2079854765360349,BOT: quick reply,"When you discover a fire, you should do what?",2018-09-07 05:38:02
+2079854765360349,Wenming,Zhang,10218,2079854765360349,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-07 05:38:07
+2079854765360349,Wenming,Zhang,10219,854518728062939,2079854765360349,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-09-07 05:38:08
+2079854765360349,Wenming,Zhang,10220,854518728062939,2079854765360349,BOT: quick reply,":keycap_1: Use a fire extinguisher to put out the fire, even if you've never used a fire extinguisher before
+:keycap_2: Pull the fire alarm and call the fire department
+:keycap_3: Stay in the building until you figure out a way to extinguish the fire
+:keycap_4: Run out of the building without warning others of the fire
+",2018-09-07 05:38:09
+2079854765360349,Wenming,Zhang,10221,2079854765360349,854518728062939,user_quick_reply: BUTTON_AKB_Pull the fire alarm and call the fire department,:keycap_2:,2018-09-07 05:38:20
+2079854765360349,Wenming,Zhang,10222,854518728062939,2079854765360349,BOT: message,Nice! That was right!,2018-09-07 05:38:21
+2079854765360349,Wenming,Zhang,10223,854518728062939,2079854765360349,BOT: quick reply,The correct answer is Pull the fire alarm and call the fire department.,2018-09-07 05:38:22
+2079854765360349,Wenming,Zhang,10224,2079854765360349,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-07 05:38:28
+2079854765360349,Wenming,Zhang,10225,854518728062939,2079854765360349,BOT: message,Let's take a look at this question.,2018-09-07 05:38:29
+2079854765360349,Wenming,Zhang,10226,854518728062939,2079854765360349,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-09-07 05:38:30
+2079854765360349,Wenming,Zhang,10227,854518728062939,2079854765360349,BOT: quick reply,What three major factors cause food contamination?,2018-09-07 05:38:30
+2079854765360349,Wenming,Zhang,10228,2079854765360349,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-07 05:38:34
+2079854765360349,Wenming,Zhang,10229,854518728062939,2079854765360349,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-09-07 05:38:34
+2079854765360349,Wenming,Zhang,10230,854518728062939,2079854765360349,BOT: quick reply,":keycap_1: Physical, psychological, and health
+:keycap_2: Physical, biological, and chemical
+:keycap_3: Physical, biological, and radiological
+:keycap_4: Physical, chemical, and psychosocial
+",2018-09-07 05:38:35
+2079854765360349,Wenming,Zhang,10231,2079854765360349,854518728062939,"user_quick_reply: BUTTON_AKB_Physical, biological, and chemical",:keycap_2:,2018-09-07 05:38:41
+2079854765360349,Wenming,Zhang,10232,854518728062939,2079854765360349,BOT: message,Yes! You got the correct answer!,2018-09-07 05:38:42
+2079854765360349,Wenming,Zhang,10233,854518728062939,2079854765360349,BOT: quick reply,"The correct answer is Physical, biological, and chemical.",2018-09-07 05:38:43
+2079854765360349,Wenming,Zhang,10234,2079854765360349,854518728062939,user_quick_reply: WHY,Why?,2018-09-07 05:38:49
+2079854765360349,Wenming,Zhang,10235,854518728062939,2079854765360349,BOT: message,Here's why:,2018-09-07 05:38:50
+2079854765360349,Wenming,Zhang,10236,854518728062939,2079854765360349,BOT: quick reply,"People can get sick by consuming food contaminated by the following three major hazards: physical (objects such ashair, nails, jewelry, glass, staples, and bandages in food are categorized as physical hazards), chemical (substances that are added during food handling or that occur naturally can cause food-borne illness; examples include certain metals, pesticides, and cleaning agents), and biological (germs that are not visible to the naked eye like those carried by bacteria, viruses, and parasites).",2018-09-07 05:38:50
+2079854765360349,Wenming,Zhang,10237,2079854765360349,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-09-07 05:39:17
+2079854765360349,Wenming,Zhang,10238,854518728062939,2079854765360349,BOT: message,What about this next question:,2018-09-07 05:39:18
+2079854765360349,Wenming,Zhang,10239,854518728062939,2079854765360349,BOT: quick reply,"What agency inspects, grades, and enforces standards of quality and wholesomeness for meat, poultry, milk, eggs, and grains?",2018-09-07 05:39:19
+2079854765360349,Wenming,Zhang,10240,2079854765360349,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-07 05:39:25
+2079854765360349,Wenming,Zhang,10241,854518728062939,2079854765360349,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-09-07 05:39:25
+2079854765360349,Wenming,Zhang,10242,854518728062939,2079854765360349,BOT: quick reply,":keycap_1: FDA
+:keycap_2: USDA
+:keycap_3: EPA
+:keycap_4: CDC
+",2018-09-07 05:39:26
+2079854765360349,Wenming,Zhang,10243,2079854765360349,854518728062939,user_quick_reply: BUTTON_AKB_USDA,:keycap_2:,2018-09-07 05:39:30
+2079854765360349,Wenming,Zhang,10244,854518728062939,2079854765360349,BOT: message,Nice! That was right!,2018-09-07 05:39:31
+2079854765360349,Wenming,Zhang,10245,854518728062939,2079854765360349,BOT: quick reply,The correct answer is USDA.,2018-09-07 05:39:32
+2079854765360349,Wenming,Zhang,10246,2079854765360349,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-07 05:39:35
+2079854765360349,Wenming,Zhang,10247,854518728062939,2079854765360349,BOT: quick reply,"Nice job! You've practiced enough questions today. Please come back tomorrow and click on ""Resume Learning :flexed_biceps_medium-light_skin_tone:"" for another practice session.",2018-09-07 05:39:36
+2079854765360349,Wenming,Zhang,12601,854518728062939,2079854765360349,BOT: quick reply,"Hi Wenming, remember to practice some questions with me if you haven't finished your session today!",2018-09-07 20:00:15
+2079854765360349,Wenming,Zhang,12615,2079854765360349,854518728062939,user_quick_reply: NEXT_QUESTION,Alrighty :thumbs_up_medium-light_skin_tone:,2018-09-07 20:00:29
+2079854765360349,Wenming,Zhang,12616,854518728062939,2079854765360349,BOT: message,See if you can answer this next one.,2018-09-07 20:00:30
+2079854765360349,Wenming,Zhang,12617,854518728062939,2079854765360349,BOT: quick reply,Working on scaffold during winds above ____ miles per hour is prohibited by OSHA.,2018-09-07 20:00:30
+2079854765360349,Wenming,Zhang,12618,2079854765360349,854518728062939,user_typing,40,2018-09-07 20:00:40
+2079854765360349,Wenming,Zhang,12619,854518728062939,2079854765360349,BOT: message,Fantastic! :hundred_points:,2018-09-07 20:00:41
+2079854765360349,Wenming,Zhang,12620,854518728062939,2079854765360349,BOT: quick reply,The correct answer is 40.,2018-09-07 20:00:41
+2079854765360349,Wenming,Zhang,12621,2079854765360349,854518728062939,user_quick_reply: WHY,Why?,2018-09-07 20:00:46
+2079854765360349,Wenming,Zhang,12622,854518728062939,2079854765360349,BOT: message,This is an explanation of the question:,2018-09-07 20:00:47
+2079854765360349,Wenming,Zhang,12623,854518728062939,2079854765360349,BOT: quick reply,OSHA prohibits working on or from scaffolds when winds are above 40 miles/hour except in cases when a competent person has concluded that it is safe for workers to be on a scaffold and these workers are protected by wind screens or fall arrest systems.,2018-09-07 20:00:48
+2079854765360349,Wenming,Zhang,12624,2079854765360349,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-09-07 20:01:06
+2079854765360349,Wenming,Zhang,12625,854518728062939,2079854765360349,BOT: message,I think you'll like this question.,2018-09-07 20:01:07
+2079854765360349,Wenming,Zhang,12626,854518728062939,2079854765360349,BOT: quick reply,To what does the acronym SLM refer?,2018-09-07 20:01:07
+2079854765360349,Wenming,Zhang,12635,2079854765360349,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-07 20:01:32
+2079854765360349,Wenming,Zhang,12636,854518728062939,2079854765360349,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-09-07 20:01:33
+2079854765360349,Wenming,Zhang,12637,854518728062939,2079854765360349,BOT: quick reply,":keycap_1: Sound Level Meter
+:keycap_2: System Level Monitor
+:keycap_3: Sound Loudness Methods
+:keycap_4: Service Lifecycle Management
+",2018-09-07 20:01:33
+2079854765360349,Wenming,Zhang,12641,2079854765360349,854518728062939,user_quick_reply: BUTTON_AKB_Sound Level Meter,:keycap_1:,2018-09-07 20:01:42
+2079854765360349,Wenming,Zhang,12642,854518728062939,2079854765360349,BOT: message,Great! Keep it up! :flexed_biceps_medium-light_skin_tone:,2018-09-07 20:01:42
+2079854765360349,Wenming,Zhang,12643,854518728062939,2079854765360349,BOT: quick reply,The correct answer is Sound Level Meter.,2018-09-07 20:01:43
+2079854765360349,Wenming,Zhang,12644,2079854765360349,854518728062939,user_quick_reply: WHY,Why?,2018-09-07 20:02:10
+2079854765360349,Wenming,Zhang,12645,854518728062939,2079854765360349,BOT: message,Here's an explanation:,2018-09-07 20:02:10
+2079854765360349,Wenming,Zhang,12646,854518728062939,2079854765360349,BOT: quick reply,The Sound Level Meter is an instrument used to measure noise levels.,2018-09-07 20:02:11
+2079854765360349,Wenming,Zhang,12647,2079854765360349,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-09-07 20:02:19
+2079854765360349,Wenming,Zhang,12648,854518728062939,2079854765360349,BOT: message,Let's take a look at this question.,2018-09-07 20:02:20
+2079854765360349,Wenming,Zhang,12649,854518728062939,2079854765360349,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-09-07 20:02:20
+2079854765360349,Wenming,Zhang,12650,854518728062939,2079854765360349,BOT: quick reply,"True or false: if you wear a back belt, you can lift more weight than you could without a belt.",2018-09-07 20:02:21
+2079854765360349,Wenming,Zhang,12651,2079854765360349,854518728062939,user_typing,False,2018-09-07 20:02:35
+2079854765360349,Wenming,Zhang,12652,854518728062939,2079854765360349,BOT: message,Good Answer! :white_heavy_check_mark:,2018-09-07 20:02:36
+2079854765360349,Wenming,Zhang,12653,854518728062939,2079854765360349,BOT: quick reply,The correct answer is False.,2018-09-07 20:02:36
+2079854765360349,Wenming,Zhang,12654,2079854765360349,854518728062939,user_quick_reply: WHY,Why?,2018-09-07 20:02:39
+2079854765360349,Wenming,Zhang,12655,854518728062939,2079854765360349,BOT: message,Here's why:,2018-09-07 20:02:40
+2079854765360349,Wenming,Zhang,12656,854518728062939,2079854765360349,BOT: quick reply,Workers often lift more weight under the illusion that use of back belts increases the lifting capability of a worker. There has not been sufficient evidence to support this fact and hence it cannot be held true.,2018-09-07 20:02:40
+2079854765360349,Wenming,Zhang,12660,2079854765360349,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-09-07 20:02:48
+2079854765360349,Wenming,Zhang,12661,854518728062939,2079854765360349,BOT: message,Let's try this one.,2018-09-07 20:02:49
+2079854765360349,Wenming,Zhang,12662,854518728062939,2079854765360349,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-09-07 20:02:49
+2079854765360349,Wenming,Zhang,12663,854518728062939,2079854765360349,BOT: quick reply,True or false: portable fire extinguishers should only be used by trained employees.,2018-09-07 20:02:50
+2079854765360349,Wenming,Zhang,12670,2079854765360349,854518728062939,user_typing,False,2018-09-07 20:03:01
+2079854765360349,Wenming,Zhang,12671,854518728062939,2079854765360349,BOT: message,"Oops, that answer was incorrect. :disappointed_face:",2018-09-07 20:03:02
+2079854765360349,Wenming,Zhang,12673,854518728062939,2079854765360349,BOT: quick reply,The correct answer is True.,2018-09-07 20:03:03
+2079854765360349,Wenming,Zhang,12676,2079854765360349,854518728062939,user_quick_reply: WHY,Why?,2018-09-07 20:03:07
+2079854765360349,Wenming,Zhang,12677,854518728062939,2079854765360349,BOT: message,This is why:,2018-09-07 20:03:07
+2079854765360349,Wenming,Zhang,12678,854518728062939,2079854765360349,BOT: quick reply,"Employers can choose to authorize some or all employees to use portable extinguishers. In both cases, employers should provide employees sufficient training to do so.",2018-09-07 20:03:08
+2079854765360349,Wenming,Zhang,12679,2079854765360349,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-09-07 20:03:15
+2079854765360349,Wenming,Zhang,12680,854518728062939,2079854765360349,BOT: message,How about this next one:,2018-09-07 20:03:15
+2079854765360349,Wenming,Zhang,12681,854518728062939,2079854765360349,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-09-07 20:03:16
+2079854765360349,Wenming,Zhang,12682,854518728062939,2079854765360349,BOT: quick reply,"True or false: you can always smell, see, or taste harmful bacteria in food that can cause illness.",2018-09-07 20:03:17
+2079854765360349,Wenming,Zhang,12683,2079854765360349,854518728062939,user_typing,False,2018-09-07 20:03:25
+2079854765360349,Wenming,Zhang,12684,854518728062939,2079854765360349,BOT: image,https://www.smartprimer.ai:4443/pictures/avatar/celebration.gif,2018-09-07 20:03:30
+2079854765360349,Wenming,Zhang,12685,854518728062939,2079854765360349,BOT: message,Nice! :red_apple:,2018-09-07 20:03:31
+2079854765360349,Wenming,Zhang,12686,854518728062939,2079854765360349,BOT: quick reply,The correct answer is False.,2018-09-07 20:03:31
+2079854765360349,Wenming,Zhang,12690,2079854765360349,854518728062939,user_quick_reply: WHY,Why?,2018-09-07 20:03:40
+2079854765360349,Wenming,Zhang,12691,854518728062939,2079854765360349,BOT: message,This is an explanation of the question:,2018-09-07 20:03:41
+2079854765360349,Wenming,Zhang,12692,854518728062939,2079854765360349,BOT: quick reply,"United States Department of Agriculture (USDA) states that you cannot always see, taste, or smell harmful bacteria that may cause illness.",2018-09-07 20:03:42
+2079854765360349,Wenming,Zhang,12696,2079854765360349,854518728062939,user_quick_reply: SWITCH_SUBJECT,Change subject :shuffle_tracks_button:,2018-09-07 20:03:47
+2079854765360349,Wenming,Zhang,12697,854518728062939,2079854765360349,BOT: quick reply,"Okay, now tell me which subject you would like to study.:backhand_index_pointing_down_medium-light_skin_tone:",2018-09-07 20:03:47
+2079854765360349,Wenming,Zhang,12698,2079854765360349,854518728062939,user_quick_reply: SCIENCE,Science:microscope:,2018-09-07 20:03:50
+2079854765360349,Wenming,Zhang,12701,854518728062939,2079854765360349,BOT: image,https://www.smartprimer.ai:4443/pictures/avatar/evolvesafety_scientist.gif,2018-09-07 20:03:54
+2079854765360349,Wenming,Zhang,12703,854518728062939,2079854765360349,BOT: quick reply,Okay! Let’s see how much you know about science!,2018-09-07 20:03:55
+2079854765360349,Wenming,Zhang,12705,2079854765360349,854518728062939,user_quick_reply: NEXT_QUESTION,"Yes, continue :thumbs_up_medium-light_skin_tone:",2018-09-07 20:03:58
+2079854765360349,Wenming,Zhang,12707,854518728062939,2079854765360349,BOT: message,"Alrighty, let's try this one.",2018-09-07 20:03:58
+2079854765360349,Wenming,Zhang,12709,854518728062939,2079854765360349,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-09-07 20:03:59
+2079854765360349,Wenming,Zhang,12710,854518728062939,2079854765360349,BOT: quick reply,Most fungi get organic compounds from what?,2018-09-07 20:04:00
+2079854765360349,Wenming,Zhang,12711,2079854765360349,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-07 20:04:06
+2079854765360349,Wenming,Zhang,12712,854518728062939,2079854765360349,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-09-07 20:04:07
+2079854765360349,Wenming,Zhang,12713,854518728062939,2079854765360349,BOT: quick reply,":keycap_1: inorganic material
+:keycap_2: living organisms
+:keycap_3: dead organisms
+:keycap_4: carnivorous organisms
+",2018-09-07 20:04:07
+2079854765360349,Wenming,Zhang,12714,2079854765360349,854518728062939,user_quick_reply: BUTTON_AKB_dead organisms,:keycap_3:,2018-09-07 20:04:11
+2079854765360349,Wenming,Zhang,12715,854518728062939,2079854765360349,BOT: message,Great job!,2018-09-07 20:04:12
+2079854765360349,Wenming,Zhang,12716,854518728062939,2079854765360349,BOT: quick reply,The correct answer is dead organisms.,2018-09-07 20:04:12
+2079854765360349,Wenming,Zhang,12717,2079854765360349,854518728062939,user_quick_reply: WHY,Why?,2018-09-07 20:04:16
+2079854765360349,Wenming,Zhang,12718,854518728062939,2079854765360349,BOT: message,Here's why:,2018-09-07 20:04:17
+2079854765360349,Wenming,Zhang,12719,854518728062939,2079854765360349,BOT: quick reply,"Most fungi get organic compounds from dead organisms. They are decomposers called saprotrophs. A saprotroph feeds on any remaining organic matter after other decomposers do their work. Fungi use enzymes to digest organic remains and then absorb the resulting organic compounds. As decomposers, fungi are vital for the health of ecosystems. They break down nonliving organic matter and release the nutrients into the soil. Plants can then use the nutrients and pass them on to herbivores and other consumers.",2018-09-07 20:04:17
+2079854765360349,Wenming,Zhang,12720,2079854765360349,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-09-07 20:05:54
+2079854765360349,Wenming,Zhang,12721,854518728062939,2079854765360349,BOT: message,Let's see if you would answer this one.,2018-09-07 20:05:55
+2079854765360349,Wenming,Zhang,12722,854518728062939,2079854765360349,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-09-07 20:05:56
+2079854765360349,Wenming,Zhang,12723,854518728062939,2079854765360349,BOT: quick reply,Most insects reproduce quickly and through what type of reproduction?,2018-09-07 20:05:56
+2079854765360349,Wenming,Zhang,12724,2079854765360349,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-07 20:06:01
+2079854765360349,Wenming,Zhang,12725,854518728062939,2079854765360349,BOT: message,Okay. I'll give you some choices.,2018-09-07 20:06:02
+2079854765360349,Wenming,Zhang,12726,854518728062939,2079854765360349,BOT: quick reply,":keycap_1: asexual reproduction
+:keycap_2: spores
+:keycap_3: photosynthesis
+:keycap_4: sexual reproduction
+",2018-09-07 20:06:03
+2079854765360349,Wenming,Zhang,12727,2079854765360349,854518728062939,user_quick_reply: BUTTON_DKB_asexual reproduction,:keycap_1:,2018-09-07 20:06:08
+2079854765360349,Wenming,Zhang,12728,854518728062939,2079854765360349,BOT: message,"Hmm, that wasn't quite right. :disappointed_face:",2018-09-07 20:06:08
+2079854765360349,Wenming,Zhang,12729,854518728062939,2079854765360349,BOT: quick reply,The correct answer is sexual reproduction.,2018-09-07 20:06:09
+2079854765360349,Wenming,Zhang,12730,2079854765360349,854518728062939,user_quick_reply: WHY,Why?,2018-09-07 20:06:12
+2079854765360349,Wenming,Zhang,12731,854518728062939,2079854765360349,BOT: message,I hope this explanation could help you understand the the question.,2018-09-07 20:06:13
+2079854765360349,Wenming,Zhang,12732,854518728062939,2079854765360349,BOT: quick reply,"Most insects can reproduce very quickly within a short period of time. With a short generation time, they evolve faster and can quickly adjust to environmental changes. Most insects reproduce by sexual reproduction. The female produces eggs, which are fertilized by the male, and then the eggs are usually placed near the required food. In some insects, there is asexual reproduction during which the offspring come from a single parent. In this type of reproduction, the offspring are almost identical to the mother. This is most often seen in aphids and scale insects.",2018-09-07 20:06:14
+2079854765360349,Wenming,Zhang,12733,2079854765360349,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-09-07 20:07:04
+2079854765360349,Wenming,Zhang,12734,854518728062939,2079854765360349,BOT: message,"Alrighty, let's try this one.",2018-09-07 20:07:04
+2079854765360349,Wenming,Zhang,12735,854518728062939,2079854765360349,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-09-07 20:07:05
+2079854765360349,Wenming,Zhang,12736,854518728062939,2079854765360349,BOT: quick reply,Nerve cells that sense touch are found mainly where?,2018-09-07 20:07:06
+2079854765360349,Wenming,Zhang,12737,2079854765360349,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-07 20:07:38
+2079854765360349,Wenming,Zhang,12738,854518728062939,2079854765360349,BOT: message,It's one of the following choices.,2018-09-07 20:07:39
+2079854765360349,Wenming,Zhang,12739,854518728062939,2079854765360349,BOT: quick reply,":keycap_1: skin
+:keycap_2: lungs
+:keycap_3: stomach
+:keycap_4: brain
+",2018-09-07 20:07:39
+2079854765360349,Wenming,Zhang,12740,2079854765360349,854518728062939,user_quick_reply: BUTTON_AKB_skin,:keycap_1:,2018-09-07 20:07:53
+2079854765360349,Wenming,Zhang,12741,854518728062939,2079854765360349,BOT: image,https://www.smartprimer.ai:4443/pictures/avatar/congrats/penguinnormal_happy_cyan.png,2018-09-07 20:07:54
+2079854765360349,Wenming,Zhang,12742,854518728062939,2079854765360349,BOT: message,Great! Keep it up! :flexed_biceps_medium-light_skin_tone:,2018-09-07 20:07:55
+2079854765360349,Wenming,Zhang,12743,854518728062939,2079854765360349,BOT: quick reply,The correct answer is skin.,2018-09-07 20:07:56
+2079854765360349,Wenming,Zhang,12752,2079854765360349,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-07 20:08:54
+2079854765360349,Wenming,Zhang,12753,854518728062939,2079854765360349,BOT: message,Let's try this question.,2018-09-07 20:08:55
+2079854765360349,Wenming,Zhang,12754,854518728062939,2079854765360349,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-09-07 20:08:55
+2079854765360349,Wenming,Zhang,12755,854518728062939,2079854765360349,BOT: quick reply,"Temperature, water, soil, and air are examples of nonliving factors of an ecosystem, also termed what?",2018-09-07 20:08:56
+2079854765360349,Wenming,Zhang,12757,2079854765360349,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-07 20:09:01
+2079854765360349,Wenming,Zhang,12758,854518728062939,2079854765360349,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-09-07 20:09:02
+2079854765360349,Wenming,Zhang,12760,854518728062939,2079854765360349,BOT: quick reply,":keycap_1: abiotic factors
+:keycap_2: conditional factors
+:keycap_3: nucleic factors
+:keycap_4: diverse factors
+",2018-09-07 20:09:02
+2079854765360349,Wenming,Zhang,12763,2079854765360349,854518728062939,user_quick_reply: BUTTON_DKB_conditional factors,:keycap_2:,2018-09-07 20:09:08
+2079854765360349,Wenming,Zhang,12764,854518728062939,2079854765360349,BOT: message,"I'm sorry, but that was incorrect. :disappointed_face:",2018-09-07 20:09:09
+2079854765360349,Wenming,Zhang,12765,854518728062939,2079854765360349,BOT: quick reply,The correct answer is abiotic factors.,2018-09-07 20:09:10
+2079854765360349,Wenming,Zhang,12773,2079854765360349,854518728062939,persistent_menu: SCIENCE,Science:microscope:,2018-09-07 20:10:03
+2079854765360349,Wenming,Zhang,12774,854518728062939,2079854765360349,BOT: quick reply,Science rules! Let's see what you know.,2018-09-07 20:10:04

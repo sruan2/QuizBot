@@ -359,3 +359,605 @@ user_id,user_firstname,user_lastname,uid,sender,recipient,type,dialogue,time_sta
 2357748674265339,Shuo,Han,1522,854518728062939,2357748674265339,BOT: image,https://www.smartprimer.ai:4443/pictures/avatar/evolvereading_safety.gif,2018-09-05 16:56:28
 2357748674265339,Shuo,Han,1523,854518728062939,2357748674265339,BOT: quick reply,All right! I’ll quiz you on safety!,2018-09-05 16:56:29
 2357748674265339,Shuo,Han,1631,854518728062939,2357748674265339,BOT: quick reply,"Hi Shuo, remember to practice some questions with me if you haven't finished your session today!",2018-09-05 20:00:05
+2357748674265339,Shuo,Han,5857,2357748674265339,854518728062939,user_quick_reply: NEXT_QUESTION,"Yes, continue :thumbs_up_medium-light_skin_tone:",2018-09-06 18:11:43
+2357748674265339,Shuo,Han,5858,854518728062939,2357748674265339,BOT: quick reply,"Nice job! You've practiced enough questions today. Please come back tomorrow and click on ""Resume Learning :flexed_biceps_medium-light_skin_tone:"" for another practice session.",2018-09-06 18:11:43
+2357748674265339,Shuo,Han,5859,2357748674265339,854518728062939,user_quick_reply: NEXT_QUESTION,Resume Learning :flexed_biceps_medium-light_skin_tone:,2018-09-06 18:11:50
+2357748674265339,Shuo,Han,5860,854518728062939,2357748674265339,BOT: message,Would you answer this question for me?,2018-09-06 18:11:51
+2357748674265339,Shuo,Han,5861,854518728062939,2357748674265339,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-09-06 18:11:52
+2357748674265339,Shuo,Han,5862,854518728062939,2357748674265339,BOT: quick reply,What should you NOT do when lowering a load?,2018-09-06 18:11:53
+2357748674265339,Shuo,Han,5863,2357748674265339,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-06 18:12:14
+2357748674265339,Shuo,Han,5864,854518728062939,2357748674265339,BOT: message,Which of the following options is the right answer?,2018-09-06 18:12:15
+2357748674265339,Shuo,Han,5865,854518728062939,2357748674265339,BOT: quick reply,":keycap_1: Twist your body, keep the load close, and bend your knees
+:keycap_2: Keep the load close to your body
+:keycap_3: Twist your body
+:keycap_4: Bend your knees
+",2018-09-06 18:12:16
+2357748674265339,Shuo,Han,5866,2357748674265339,854518728062939,"user_quick_reply: BUTTON_DKB_Twist your body, keep the load close, and bend your knees",:keycap_1:,2018-09-06 18:12:29
+2357748674265339,Shuo,Han,5867,854518728062939,2357748674265339,BOT: message,"Oops, that wasn't quite correct. :disappointed_face:",2018-09-06 18:12:29
+2357748674265339,Shuo,Han,5868,854518728062939,2357748674265339,BOT: quick reply,The correct answer is Twist your body.,2018-09-06 18:12:30
+2357748674265339,Shuo,Han,5869,2357748674265339,854518728062939,user_quick_reply: WHY,Why?,2018-09-06 18:12:41
+2357748674265339,Shuo,Han,5870,854518728062939,2357748674265339,BOT: message,Here's an explanation:,2018-09-06 18:12:42
+2357748674265339,Shuo,Han,5871,854518728062939,2357748674265339,BOT: quick reply,"To lower a load, you should make use of its edge, bend your knees, keep the load close to their body, and avoid twisting your torso.",2018-09-06 18:12:43
+2357748674265339,Shuo,Han,5872,2357748674265339,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-09-06 18:12:57
+2357748674265339,Shuo,Han,5873,854518728062939,2357748674265339,BOT: message,What about this next question:,2018-09-06 18:12:57
+2357748674265339,Shuo,Han,5874,854518728062939,2357748674265339,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-09-06 18:12:58
+2357748674265339,Shuo,Han,5875,854518728062939,2357748674265339,BOT: quick reply,What should you NOT do while lifting objects?,2018-09-06 18:12:59
+2357748674265339,Shuo,Han,5876,2357748674265339,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-06 18:13:03
+2357748674265339,Shuo,Han,5877,854518728062939,2357748674265339,BOT: message,Pick one of the following answers.,2018-09-06 18:13:04
+2357748674265339,Shuo,Han,5878,854518728062939,2357748674265339,BOT: quick reply,":keycap_1: Keep your back straight
+:keycap_2: Bend at the knees
+:keycap_3: Keep the object close to your body
+:keycap_4: Keep your feet together
+",2018-09-06 18:13:05
+2357748674265339,Shuo,Han,5879,2357748674265339,854518728062939,user_quick_reply: BUTTON_DKB_Keep your back straight,:keycap_1:,2018-09-06 18:13:12
+2357748674265339,Shuo,Han,5880,854518728062939,2357748674265339,BOT: message,That's not quite right. :disappointed_face:,2018-09-06 18:13:13
+2357748674265339,Shuo,Han,5881,854518728062939,2357748674265339,BOT: quick reply,The correct answer is Keep your feet together.,2018-09-06 18:13:14
+2357748674265339,Shuo,Han,5882,2357748674265339,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-06 18:13:21
+2357748674265339,Shuo,Han,5883,854518728062939,2357748674265339,BOT: message,Let's see if you would answer this one.,2018-09-06 18:13:21
+2357748674265339,Shuo,Han,5884,854518728062939,2357748674265339,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-09-06 18:13:22
+2357748674265339,Shuo,Han,5885,854518728062939,2357748674265339,BOT: quick reply,How long can high-acid canned food such as tomatoes be stored?,2018-09-06 18:13:23
+2357748674265339,Shuo,Han,5886,2357748674265339,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-06 18:13:28
+2357748674265339,Shuo,Han,5887,854518728062939,2357748674265339,BOT: message,Which of the following options is the right answer?,2018-09-06 18:13:29
+2357748674265339,Shuo,Han,5888,854518728062939,2357748674265339,BOT: quick reply,":keycap_1: 12 to 18 months
+:keycap_2: 2 to 4 years
+:keycap_3: 10 to 30 days
+:keycap_4: 2 to 6 months
+",2018-09-06 18:13:29
+2357748674265339,Shuo,Han,5889,2357748674265339,854518728062939,user_quick_reply: BUTTON_DKB_2 to 6 months,:keycap_4:,2018-09-06 18:13:37
+2357748674265339,Shuo,Han,5890,854518728062939,2357748674265339,BOT: message,"Oops, that is not correct. :disappointed_face:",2018-09-06 18:13:38
+2357748674265339,Shuo,Han,5891,854518728062939,2357748674265339,BOT: quick reply,The correct answer is 12 to 18 months.,2018-09-06 18:13:38
+2357748674265339,Shuo,Han,5892,2357748674265339,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-06 18:13:45
+2357748674265339,Shuo,Han,5893,854518728062939,2357748674265339,BOT: message,Let's try this question.,2018-09-06 18:13:45
+2357748674265339,Shuo,Han,5894,854518728062939,2357748674265339,BOT: quick reply,Which fire extinguishers are used to put out Class A fires?,2018-09-06 18:13:46
+2357748674265339,Shuo,Han,5895,2357748674265339,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-06 18:13:52
+2357748674265339,Shuo,Han,5896,854518728062939,2357748674265339,BOT: message,Okay. I'll give you some choices.,2018-09-06 18:13:52
+2357748674265339,Shuo,Han,5897,854518728062939,2357748674265339,BOT: quick reply,":keycap_1: Water only
+:keycap_2: Multi-purpose dry chemical only
+:keycap_3: Both water and multi-purpose dry chemical
+:keycap_4: Both CO2 and water
+:keycap_5: CO2 only
+",2018-09-06 18:13:53
+2357748674265339,Shuo,Han,5898,2357748674265339,854518728062939,user_quick_reply: BUTTON_DKB_CO2 only,:keycap_5:,2018-09-06 18:14:00
+2357748674265339,Shuo,Han,5899,854518728062939,2357748674265339,BOT: message,"Oops, that is not correct. :disappointed_face:",2018-09-06 18:14:01
+2357748674265339,Shuo,Han,5900,854518728062939,2357748674265339,BOT: quick reply,The correct answer is Both water and multi-purpose dry chemical.,2018-09-06 18:14:02
+2357748674265339,Shuo,Han,5901,2357748674265339,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-06 18:14:08
+2357748674265339,Shuo,Han,5902,854518728062939,2357748674265339,BOT: message,Could you answer this one for me?,2018-09-06 18:14:09
+2357748674265339,Shuo,Han,5903,854518728062939,2357748674265339,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-09-06 18:14:11
+2357748674265339,Shuo,Han,5904,854518728062939,2357748674265339,BOT: quick reply,Which fire extinguishers are used to put out fires caused by flammable liquids?,2018-09-06 18:14:11
+2357748674265339,Shuo,Han,5905,2357748674265339,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-06 18:14:17
+2357748674265339,Shuo,Han,5906,854518728062939,2357748674265339,BOT: message,It's one of the following choices.,2018-09-06 18:14:18
+2357748674265339,Shuo,Han,5907,854518728062939,2357748674265339,BOT: quick reply,":keycap_1: Class C dry chemical fire extinguisher
+:keycap_2: Class A water fire extinguishers
+:keycap_3: Class B carbon dioxide fire extinguisher
+",2018-09-06 18:14:18
+2357748674265339,Shuo,Han,5908,2357748674265339,854518728062939,user_quick_reply: BUTTON_AKB_Class B carbon dioxide fire extinguisher,:keycap_3:,2018-09-06 18:14:25
+2357748674265339,Shuo,Han,5909,854518728062939,2357748674265339,BOT: message,Yes! You got the correct answer!,2018-09-06 18:14:25
+2357748674265339,Shuo,Han,5910,854518728062939,2357748674265339,BOT: quick reply,The correct answer is Class B carbon dioxide fire extinguisher.,2018-09-06 18:14:26
+2357748674265339,Shuo,Han,5911,2357748674265339,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-06 18:14:31
+2357748674265339,Shuo,Han,5912,854518728062939,2357748674265339,BOT: message,Would you answer this question for me?,2018-09-06 18:14:32
+2357748674265339,Shuo,Han,5913,854518728062939,2357748674265339,BOT: quick reply,"If your co-worker needs CPR but you are not trained in it, what should you do?",2018-09-06 18:14:33
+2357748674265339,Shuo,Han,5914,2357748674265339,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-06 18:14:39
+2357748674265339,Shuo,Han,5915,854518728062939,2357748674265339,BOT: message,Okay. I'll give you some choices.,2018-09-06 18:14:40
+2357748674265339,Shuo,Han,5916,854518728062939,2357748674265339,BOT: quick reply,":keycap_1: Perform chest compressions only
+:keycap_2: Give rescue breaths only
+:keycap_3: Wait for emergency personnel to arrive
+:keycap_4: Lift the patient's head
+",2018-09-06 18:14:41
+2357748674265339,Shuo,Han,5917,2357748674265339,854518728062939,user_quick_reply: BUTTON_AKB_Perform chest compressions only,:keycap_1:,2018-09-06 18:14:49
+2357748674265339,Shuo,Han,5918,854518728062939,2357748674265339,BOT: image,https://www.smartprimer.ai:4443/pictures/avatar/congrats/penguinnormal_happy_purple.png,2018-09-06 18:14:51
+2357748674265339,Shuo,Han,5919,854518728062939,2357748674265339,BOT: message,Nice! That was right!,2018-09-06 18:14:52
+2357748674265339,Shuo,Han,5920,854518728062939,2357748674265339,BOT: quick reply,The correct answer is Perform chest compressions only.,2018-09-06 18:14:52
+2357748674265339,Shuo,Han,5921,2357748674265339,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-06 18:14:58
+2357748674265339,Shuo,Han,5922,854518728062939,2357748674265339,BOT: message,Let's try this one.,2018-09-06 18:14:59
+2357748674265339,Shuo,Han,5923,854518728062939,2357748674265339,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-09-06 18:14:59
+2357748674265339,Shuo,Han,5924,854518728062939,2357748674265339,BOT: quick reply,"When you discover a fire, you should do what?",2018-09-06 18:15:00
+2357748674265339,Shuo,Han,5925,2357748674265339,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-06 18:15:05
+2357748674265339,Shuo,Han,5926,854518728062939,2357748674265339,BOT: message,Which of the following options is the right answer?,2018-09-06 18:15:06
+2357748674265339,Shuo,Han,5927,854518728062939,2357748674265339,BOT: quick reply,":keycap_1: Pull the fire alarm and call the fire department
+:keycap_2: Stay in the building until you figure out a way to extinguish the fire
+:keycap_3: Use a fire extinguisher to put out the fire, even if you've never used a fire extinguisher before
+:keycap_4: Run out of the building without warning others of the fire
+",2018-09-06 18:15:07
+2357748674265339,Shuo,Han,5928,2357748674265339,854518728062939,user_quick_reply: BUTTON_AKB_Pull the fire alarm and call the fire department,:keycap_1:,2018-09-06 18:15:17
+2357748674265339,Shuo,Han,5929,854518728062939,2357748674265339,BOT: image,https://www.smartprimer.ai:4443/pictures/avatar/congrats/penguinnormal_normal_cyan.png,2018-09-06 18:15:19
+2357748674265339,Shuo,Han,5930,854518728062939,2357748674265339,BOT: message,Yes! You got the correct answer!,2018-09-06 18:15:20
+2357748674265339,Shuo,Han,5931,854518728062939,2357748674265339,BOT: quick reply,The correct answer is Pull the fire alarm and call the fire department.,2018-09-06 18:15:21
+2357748674265339,Shuo,Han,5932,2357748674265339,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-06 18:15:27
+2357748674265339,Shuo,Han,5933,854518728062939,2357748674265339,BOT: message,Let's take a look at this question.,2018-09-06 18:15:27
+2357748674265339,Shuo,Han,5934,854518728062939,2357748674265339,BOT: quick reply,What three major factors cause food contamination?,2018-09-06 18:15:28
+2357748674265339,Shuo,Han,5935,2357748674265339,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-06 18:15:33
+2357748674265339,Shuo,Han,5936,854518728062939,2357748674265339,BOT: message,Okay. I'll give you some choices.,2018-09-06 18:15:33
+2357748674265339,Shuo,Han,5937,854518728062939,2357748674265339,BOT: quick reply,":keycap_1: Physical, psychological, and health
+:keycap_2: Physical, biological, and radiological
+:keycap_3: Physical, chemical, and psychosocial
+:keycap_4: Physical, biological, and chemical
+",2018-09-06 18:15:35
+2357748674265339,Shuo,Han,5938,2357748674265339,854518728062939,"user_quick_reply: BUTTON_AKB_Physical, biological, and chemical",:keycap_4:,2018-09-06 18:15:44
+2357748674265339,Shuo,Han,5939,854518728062939,2357748674265339,BOT: message,Great job!,2018-09-06 18:15:45
+2357748674265339,Shuo,Han,5940,854518728062939,2357748674265339,BOT: quick reply,"The correct answer is Physical, biological, and chemical.",2018-09-06 18:15:45
+2357748674265339,Shuo,Han,5941,2357748674265339,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-06 18:15:50
+2357748674265339,Shuo,Han,5942,854518728062939,2357748674265339,BOT: message,Let's see if you can answer this question.,2018-09-06 18:15:51
+2357748674265339,Shuo,Han,5943,854518728062939,2357748674265339,BOT: quick reply,"What agency inspects, grades, and enforces standards of quality and wholesomeness for meat, poultry, milk, eggs, and grains?",2018-09-06 18:15:52
+2357748674265339,Shuo,Han,5944,2357748674265339,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-06 18:15:58
+2357748674265339,Shuo,Han,5945,854518728062939,2357748674265339,BOT: message,It's one of the following choices.,2018-09-06 18:15:59
+2357748674265339,Shuo,Han,5946,854518728062939,2357748674265339,BOT: quick reply,":keycap_1: CDC
+:keycap_2: USDA
+:keycap_3: EPA
+:keycap_4: FDA
+",2018-09-06 18:16:00
+2357748674265339,Shuo,Han,5947,2357748674265339,854518728062939,user_quick_reply: BUTTON_AKB_USDA,:keycap_2:,2018-09-06 18:16:04
+2357748674265339,Shuo,Han,5948,854518728062939,2357748674265339,BOT: image,https://www.smartprimer.ai:4443/pictures/avatar/congrats/penguinnormal_normal_pink.png,2018-09-06 18:16:07
+2357748674265339,Shuo,Han,5949,854518728062939,2357748674265339,BOT: message,Great! Keep it up! :flexed_biceps_medium-light_skin_tone:,2018-09-06 18:16:08
+2357748674265339,Shuo,Han,5950,854518728062939,2357748674265339,BOT: quick reply,The correct answer is USDA.,2018-09-06 18:16:09
+2357748674265339,Shuo,Han,5951,2357748674265339,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-06 18:16:13
+2357748674265339,Shuo,Han,5952,854518728062939,2357748674265339,BOT: message,What about this next question:,2018-09-06 18:16:14
+2357748674265339,Shuo,Han,5953,854518728062939,2357748674265339,BOT: quick reply,Working on scaffold during winds above ____ miles per hour is prohibited by OSHA.,2018-09-06 18:16:15
+2357748674265339,Shuo,Han,5954,2357748674265339,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-06 18:16:20
+2357748674265339,Shuo,Han,5955,854518728062939,2357748674265339,BOT: message,It's one of the following choices.,2018-09-06 18:16:20
+2357748674265339,Shuo,Han,5956,854518728062939,2357748674265339,BOT: quick reply,":keycap_1: 10
+:keycap_2: 40
+:keycap_3: 25
+:keycap_4: 50
+",2018-09-06 18:16:21
+2357748674265339,Shuo,Han,5957,2357748674265339,854518728062939,user_quick_reply: BUTTON_AKB_40,:keycap_2:,2018-09-06 18:16:28
+2357748674265339,Shuo,Han,5958,854518728062939,2357748674265339,BOT: image,https://www.smartprimer.ai:4443/pictures/avatar/congrats/penguinnormal_jubilated_cyan.png,2018-09-06 18:16:29
+2357748674265339,Shuo,Han,5959,854518728062939,2357748674265339,BOT: message,Yes! You got the correct answer!,2018-09-06 18:16:30
+2357748674265339,Shuo,Han,5960,854518728062939,2357748674265339,BOT: quick reply,The correct answer is 40.,2018-09-06 18:16:31
+2357748674265339,Shuo,Han,5961,2357748674265339,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-06 18:16:35
+2357748674265339,Shuo,Han,5962,854518728062939,2357748674265339,BOT: message,Let's try this question.,2018-09-06 18:16:36
+2357748674265339,Shuo,Han,5963,854518728062939,2357748674265339,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-09-06 18:16:37
+2357748674265339,Shuo,Han,5964,854518728062939,2357748674265339,BOT: quick reply,To what does the acronym SLM refer?,2018-09-06 18:16:37
+2357748674265339,Shuo,Han,5965,2357748674265339,854518728062939,user_quick_reply: I_DONT_KNOW,I don’t know :downcast_face_with_sweat:,2018-09-06 18:16:43
+2357748674265339,Shuo,Han,5966,854518728062939,2357748674265339,BOT: quick reply,Are you sure you want to give up?,2018-09-06 18:16:44
+2357748674265339,Shuo,Han,5967,2357748674265339,854518728062939,user_quick_reply: GIVEUP_NO,"No, I'll try again!",2018-09-06 18:16:49
+2357748674265339,Shuo,Han,5968,854518728062939,2357748674265339,BOT: message,Alright! Let's do it again!,2018-09-06 18:16:50
+2357748674265339,Shuo,Han,5969,854518728062939,2357748674265339,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-09-06 18:16:50
+2357748674265339,Shuo,Han,5970,854518728062939,2357748674265339,BOT: quick reply,":keycap_1: Sound Level Meter
+:keycap_2: Sound Loudness Methods
+:keycap_3: Service Lifecycle Management
+:keycap_4: System Level Monitor
+",2018-09-06 18:16:51
+2357748674265339,Shuo,Han,5971,2357748674265339,854518728062939,user_quick_reply: BUTTON_DKB_System Level Monitor,:keycap_4:,2018-09-06 18:17:01
+2357748674265339,Shuo,Han,5972,854518728062939,2357748674265339,BOT: message,That's not quite right. :disappointed_face:,2018-09-06 18:17:02
+2357748674265339,Shuo,Han,5973,854518728062939,2357748674265339,BOT: quick reply,The correct answer is Sound Level Meter.,2018-09-06 18:17:03
+2357748674265339,Shuo,Han,5974,2357748674265339,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-06 18:17:09
+2357748674265339,Shuo,Han,5975,854518728062939,2357748674265339,BOT: message,See if you can answer this next one.,2018-09-06 18:17:10
+2357748674265339,Shuo,Han,5976,854518728062939,2357748674265339,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-09-06 18:17:11
+2357748674265339,Shuo,Han,5977,854518728062939,2357748674265339,BOT: quick reply,"True or false: if you wear a back belt, you can lift more weight than you could without a belt.",2018-09-06 18:17:11
+2357748674265339,Shuo,Han,5978,2357748674265339,854518728062939,user_quick_reply: I_DONT_KNOW,I don’t know :downcast_face_with_sweat:,2018-09-06 18:17:16
+2357748674265339,Shuo,Han,5979,854518728062939,2357748674265339,BOT: quick reply,Are you sure you want to give up?,2018-09-06 18:17:17
+2357748674265339,Shuo,Han,5980,2357748674265339,854518728062939,user_quick_reply: GIVEUP_YES,"Yes, answer please.",2018-09-06 18:17:21
+2357748674265339,Shuo,Han,5981,854518728062939,2357748674265339,BOT: message,"I'm sorry, you didn't get the question right this time.",2018-09-06 18:17:22
+2357748674265339,Shuo,Han,5982,854518728062939,2357748674265339,BOT: message,"Don't give up, you'll get it next time! :grinning_face_with_smiling_eyes:",2018-09-06 18:17:23
+2357748674265339,Shuo,Han,5983,854518728062939,2357748674265339,BOT: quick reply,The correct answer is False.,2018-09-06 18:17:23
+2357748674265339,Shuo,Han,5984,2357748674265339,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-06 18:17:32
+2357748674265339,Shuo,Han,5985,854518728062939,2357748674265339,BOT: message,Would you answer this question for me?,2018-09-06 18:17:33
+2357748674265339,Shuo,Han,5986,854518728062939,2357748674265339,BOT: quick reply,"True or false: if you wear a back belt, you can lift more weight than you could without a belt.",2018-09-06 18:17:34
+2357748674265339,Shuo,Han,5987,2357748674265339,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-06 18:17:39
+2357748674265339,Shuo,Han,5988,854518728062939,2357748674265339,BOT: message,It's one of the following choices.,2018-09-06 18:17:40
+2357748674265339,Shuo,Han,5989,854518728062939,2357748674265339,BOT: quick reply,":keycap_1: True
+:keycap_2: False
+",2018-09-06 18:17:41
+2357748674265339,Shuo,Han,5990,2357748674265339,854518728062939,user_quick_reply: BUTTON_AKB_False,:keycap_2:,2018-09-06 18:17:48
+2357748674265339,Shuo,Han,5991,854518728062939,2357748674265339,BOT: image,https://www.smartprimer.ai:4443/pictures/avatar/congrats/penguinnormal_normal_pink.png,2018-09-06 18:17:49
+2357748674265339,Shuo,Han,5992,854518728062939,2357748674265339,BOT: message,Nice work! Keep it up!,2018-09-06 18:17:50
+2357748674265339,Shuo,Han,5993,854518728062939,2357748674265339,BOT: quick reply,The correct answer is False.,2018-09-06 18:17:51
+2357748674265339,Shuo,Han,5994,2357748674265339,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-06 18:17:56
+2357748674265339,Shuo,Han,5995,854518728062939,2357748674265339,BOT: message,"Alrighty, let's try this one.",2018-09-06 18:17:57
+2357748674265339,Shuo,Han,5996,854518728062939,2357748674265339,BOT: quick reply,True or false: portable fire extinguishers should only be used by trained employees.,2018-09-06 18:17:58
+2357748674265339,Shuo,Han,5997,2357748674265339,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-06 18:18:03
+2357748674265339,Shuo,Han,5998,854518728062939,2357748674265339,BOT: message,It's one of the following choices.,2018-09-06 18:18:04
+2357748674265339,Shuo,Han,5999,854518728062939,2357748674265339,BOT: quick reply,":keycap_1: True
+:keycap_2: False
+",2018-09-06 18:18:04
+2357748674265339,Shuo,Han,6000,2357748674265339,854518728062939,user_quick_reply: BUTTON_AKB_True,:keycap_1:,2018-09-06 18:18:08
+2357748674265339,Shuo,Han,6001,854518728062939,2357748674265339,BOT: message,Great job!,2018-09-06 18:18:09
+2357748674265339,Shuo,Han,6002,854518728062939,2357748674265339,BOT: quick reply,The correct answer is True.,2018-09-06 18:18:10
+2357748674265339,Shuo,Han,6003,2357748674265339,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-06 18:18:14
+2357748674265339,Shuo,Han,6004,854518728062939,2357748674265339,BOT: message,"Alrighty, let's try this one.",2018-09-06 18:18:15
+2357748674265339,Shuo,Han,6005,854518728062939,2357748674265339,BOT: quick reply,"True or false: you can always smell, see, or taste harmful bacteria in food that can cause illness.",2018-09-06 18:18:16
+2357748674265339,Shuo,Han,6006,2357748674265339,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-06 18:18:21
+2357748674265339,Shuo,Han,6007,854518728062939,2357748674265339,BOT: message,Okay. I'll give you some choices.,2018-09-06 18:18:21
+2357748674265339,Shuo,Han,6008,854518728062939,2357748674265339,BOT: quick reply,":keycap_1: True
+:keycap_2: False
+",2018-09-06 18:18:22
+2357748674265339,Shuo,Han,6009,2357748674265339,854518728062939,user_quick_reply: BUTTON_AKB_False,:keycap_2:,2018-09-06 18:18:27
+2357748674265339,Shuo,Han,6010,854518728062939,2357748674265339,BOT: message,Great job getting the correct answer!,2018-09-06 18:18:28
+2357748674265339,Shuo,Han,6011,854518728062939,2357748674265339,BOT: quick reply,The correct answer is False.,2018-09-06 18:18:29
+2357748674265339,Shuo,Han,6012,2357748674265339,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-06 18:18:38
+2357748674265339,Shuo,Han,6013,854518728062939,2357748674265339,BOT: message,I think you'll like this question.,2018-09-06 18:18:39
+2357748674265339,Shuo,Han,6014,854518728062939,2357748674265339,BOT: quick reply,What does CERT stand for?,2018-09-06 18:18:40
+2357748674265339,Shuo,Han,6015,2357748674265339,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-06 18:18:49
+2357748674265339,Shuo,Han,6016,854518728062939,2357748674265339,BOT: message,It's one of the following choices.,2018-09-06 18:18:50
+2357748674265339,Shuo,Han,6017,854518728062939,2357748674265339,BOT: quick reply,":keycap_1: Central Emergency Response Terminal
+:keycap_2: Controlled Evacuation and Response Tactics
+:keycap_3: Community Experimental Research Team
+:keycap_4: Community Emergency Response Team
+",2018-09-06 18:18:51
+2357748674265339,Shuo,Han,6018,2357748674265339,854518728062939,user_quick_reply: BUTTON_DKB_Controlled Evacuation and Response Tactics,:keycap_2:,2018-09-06 18:19:00
+2357748674265339,Shuo,Han,6019,854518728062939,2357748674265339,BOT: message,"Oops, that is not correct. :disappointed_face:",2018-09-06 18:19:00
+2357748674265339,Shuo,Han,6020,854518728062939,2357748674265339,BOT: quick reply,The correct answer is Community Emergency Response Team.,2018-09-06 18:19:01
+2357748674265339,Shuo,Han,6021,2357748674265339,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-06 18:19:06
+2357748674265339,Shuo,Han,6022,854518728062939,2357748674265339,BOT: message,Here's a question for you:,2018-09-06 18:19:07
+2357748674265339,Shuo,Han,6023,854518728062939,2357748674265339,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-09-06 18:19:08
+2357748674265339,Shuo,Han,6024,854518728062939,2357748674265339,BOT: quick reply,What should you NOT do while treating cuts and scrapes?,2018-09-06 18:19:09
+2357748674265339,Shuo,Han,6025,2357748674265339,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-06 18:19:15
+2357748674265339,Shuo,Han,6026,854518728062939,2357748674265339,BOT: message,Which of the following options is the right answer?,2018-09-06 18:19:16
+2357748674265339,Shuo,Han,6027,854518728062939,2357748674265339,BOT: quick reply,":keycap_1: Wash the wound with soap
+:keycap_2: Apply an antibiotic to the wound
+:keycap_3: Cover the wound
+:keycap_4: Apply pressure on the wound with a clean cloth or bandage
+",2018-09-06 18:19:17
+2357748674265339,Shuo,Han,6028,2357748674265339,854518728062939,user_quick_reply: BUTTON_DKB_Cover the wound,:keycap_3:,2018-09-06 18:19:21
+2357748674265339,Shuo,Han,6029,854518728062939,2357748674265339,BOT: message,"I'm sorry, but that was incorrect. :disappointed_face:",2018-09-06 18:19:22
+2357748674265339,Shuo,Han,6030,854518728062939,2357748674265339,BOT: quick reply,The correct answer is Wash the wound with soap.,2018-09-06 18:19:23
+2357748674265339,Shuo,Han,6031,2357748674265339,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-06 18:19:29
+2357748674265339,Shuo,Han,6032,854518728062939,2357748674265339,BOT: message,Let's see if you can answer this question.,2018-09-06 18:19:29
+2357748674265339,Shuo,Han,6033,854518728062939,2357748674265339,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-09-06 18:19:30
+2357748674265339,Shuo,Han,6034,854518728062939,2357748674265339,BOT: quick reply,What should you NOT do when lowering a load?,2018-09-06 18:19:31
+2357748674265339,Shuo,Han,6035,2357748674265339,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-06 18:19:36
+2357748674265339,Shuo,Han,6036,854518728062939,2357748674265339,BOT: message,Which of the following options is the right answer?,2018-09-06 18:19:37
+2357748674265339,Shuo,Han,6037,854518728062939,2357748674265339,BOT: quick reply,":keycap_1: Twist your body, keep the load close, and bend your knees
+:keycap_2: Keep the load close to your body
+:keycap_3: Bend your knees
+:keycap_4: Twist your body
+",2018-09-06 18:19:38
+2357748674265339,Shuo,Han,6038,2357748674265339,854518728062939,user_quick_reply: BUTTON_AKB_Twist your body,:keycap_4:,2018-09-06 18:19:45
+2357748674265339,Shuo,Han,6039,854518728062939,2357748674265339,BOT: message,Nice! That was right!,2018-09-06 18:19:45
+2357748674265339,Shuo,Han,6040,854518728062939,2357748674265339,BOT: quick reply,The correct answer is Twist your body.,2018-09-06 18:19:46
+2357748674265339,Shuo,Han,6041,2357748674265339,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-06 18:19:51
+2357748674265339,Shuo,Han,6042,854518728062939,2357748674265339,BOT: message,Here's a question for you:,2018-09-06 18:19:52
+2357748674265339,Shuo,Han,6043,854518728062939,2357748674265339,BOT: quick reply,What should you NOT do while lifting objects?,2018-09-06 18:19:52
+2357748674265339,Shuo,Han,6044,2357748674265339,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-06 18:20:03
+2357748674265339,Shuo,Han,6045,854518728062939,2357748674265339,BOT: message,It's one of the following choices.,2018-09-06 18:20:03
+2357748674265339,Shuo,Han,6046,854518728062939,2357748674265339,BOT: quick reply,":keycap_1: Keep your feet together
+:keycap_2: Bend at the knees
+:keycap_3: Keep your back straight
+:keycap_4: Keep the object close to your body
+",2018-09-06 18:20:04
+2357748674265339,Shuo,Han,6047,2357748674265339,854518728062939,user_quick_reply: BUTTON_AKB_Keep your feet together,:keycap_1:,2018-09-06 18:20:11
+2357748674265339,Shuo,Han,6048,854518728062939,2357748674265339,BOT: message,Great job getting the correct answer!,2018-09-06 18:20:12
+2357748674265339,Shuo,Han,6049,854518728062939,2357748674265339,BOT: quick reply,The correct answer is Keep your feet together.,2018-09-06 18:20:13
+2357748674265339,Shuo,Han,6050,2357748674265339,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-06 18:20:17
+2357748674265339,Shuo,Han,6051,854518728062939,2357748674265339,BOT: message,Here's a question for you:,2018-09-06 18:20:18
+2357748674265339,Shuo,Han,6052,854518728062939,2357748674265339,BOT: quick reply,How long can high-acid canned food such as tomatoes be stored?,2018-09-06 18:20:19
+2357748674265339,Shuo,Han,6053,2357748674265339,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-06 18:20:24
+2357748674265339,Shuo,Han,6054,854518728062939,2357748674265339,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-09-06 18:20:24
+2357748674265339,Shuo,Han,6055,854518728062939,2357748674265339,BOT: quick reply,":keycap_1: 12 to 18 months
+:keycap_2: 10 to 30 days
+:keycap_3: 2 to 6 months
+:keycap_4: 2 to 4 years
+",2018-09-06 18:20:25
+2357748674265339,Shuo,Han,6056,2357748674265339,854518728062939,user_quick_reply: BUTTON_AKB_12 to 18 months,:keycap_1:,2018-09-06 18:20:30
+2357748674265339,Shuo,Han,6057,854518728062939,2357748674265339,BOT: message,Great! Keep it up! :flexed_biceps_medium-light_skin_tone:,2018-09-06 18:20:31
+2357748674265339,Shuo,Han,6058,854518728062939,2357748674265339,BOT: quick reply,The correct answer is 12 to 18 months.,2018-09-06 18:20:32
+2357748674265339,Shuo,Han,6059,2357748674265339,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-06 18:20:37
+2357748674265339,Shuo,Han,6060,854518728062939,2357748674265339,BOT: message,Let's take a look at this question.,2018-09-06 18:20:37
+2357748674265339,Shuo,Han,6061,854518728062939,2357748674265339,BOT: quick reply,Which fire extinguishers are used to put out Class A fires?,2018-09-06 18:20:38
+2357748674265339,Shuo,Han,6062,2357748674265339,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-06 18:20:43
+2357748674265339,Shuo,Han,6063,854518728062939,2357748674265339,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-09-06 18:20:44
+2357748674265339,Shuo,Han,6064,854518728062939,2357748674265339,BOT: quick reply,":keycap_1: Both water and multi-purpose dry chemical
+:keycap_2: Water only
+:keycap_3: Multi-purpose dry chemical only
+:keycap_4: CO2 only
+:keycap_5: Both CO2 and water
+",2018-09-06 18:20:45
+2357748674265339,Shuo,Han,6065,2357748674265339,854518728062939,user_quick_reply: BUTTON_DKB_Multi-purpose dry chemical only,:keycap_3:,2018-09-06 18:20:50
+2357748674265339,Shuo,Han,6066,854518728062939,2357748674265339,BOT: message,"Hmm, that wasn't quite right. :disappointed_face:",2018-09-06 18:20:51
+2357748674265339,Shuo,Han,6067,854518728062939,2357748674265339,BOT: quick reply,The correct answer is Both water and multi-purpose dry chemical.,2018-09-06 18:20:52
+2357748674265339,Shuo,Han,6070,2357748674265339,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-06 18:20:57
+2357748674265339,Shuo,Han,6071,854518728062939,2357748674265339,BOT: quick reply,"Nice job! You've practiced enough questions today. Please come back tomorrow and click on ""Resume Learning :flexed_biceps_medium-light_skin_tone:"" for another practice session.",2018-09-06 18:20:58
+2357748674265339,Shuo,Han,6669,854518728062939,2357748674265339,BOT: quick reply,"Hi Shuo, remember to practice some questions with me if you haven't finished your session today!",2018-09-06 20:00:18
+2357748674265339,Shuo,Han,11719,2357748674265339,854518728062939,user_quick_reply: NEXT_QUESTION,Got it :white_heavy_check_mark:,2018-09-07 16:34:00
+2357748674265339,Shuo,Han,11720,854518728062939,2357748674265339,BOT: quick reply,"Nice job! You've practiced enough questions today. Please come back tomorrow and click on ""Resume Learning :flexed_biceps_medium-light_skin_tone:"" for another practice session.",2018-09-07 16:34:00
+2357748674265339,Shuo,Han,11721,2357748674265339,854518728062939,user_quick_reply: NEXT_QUESTION,Resume Learning :flexed_biceps_medium-light_skin_tone:,2018-09-07 16:34:08
+2357748674265339,Shuo,Han,11722,854518728062939,2357748674265339,BOT: quick reply,"Nice job! You've practiced enough questions today. Please come back tomorrow and click on ""Resume Learning :flexed_biceps_medium-light_skin_tone:"" for another practice session.",2018-09-07 16:34:09
+2357748674265339,Shuo,Han,11723,2357748674265339,854518728062939,user_quick_reply: NEXT_QUESTION,Resume Learning :flexed_biceps_medium-light_skin_tone:,2018-09-07 16:34:18
+2357748674265339,Shuo,Han,11724,854518728062939,2357748674265339,BOT: message,Let's see if you can answer this question.,2018-09-07 16:34:19
+2357748674265339,Shuo,Han,11725,854518728062939,2357748674265339,BOT: quick reply,Which fire extinguishers are used to put out fires caused by flammable liquids?,2018-09-07 16:34:19
+2357748674265339,Shuo,Han,11726,2357748674265339,854518728062939,persistent_menu: RANDOM,Random :game_die:,2018-09-07 16:34:29
+2357748674265339,Shuo,Han,11727,854518728062939,2357748674265339,BOT: image,https://www.smartprimer.ai:4443/pictures/avatar/evolvesafety_normal.gif,2018-09-07 16:34:32
+2357748674265339,Shuo,Han,11728,854518728062939,2357748674265339,BOT: quick reply,Okay! Let’s mix it up! :game_die:,2018-09-07 16:34:33
+2357748674265339,Shuo,Han,11729,2357748674265339,854518728062939,user_quick_reply: NEXT_QUESTION,OK :white_heavy_check_mark:,2018-09-07 16:34:49
+2357748674265339,Shuo,Han,11730,854518728062939,2357748674265339,BOT: message,Let's see if you would answer this one.,2018-09-07 16:34:49
+2357748674265339,Shuo,Han,11731,854518728062939,2357748674265339,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-09-07 16:34:50
+2357748674265339,Shuo,Han,11732,854518728062939,2357748674265339,BOT: quick reply,What living species of bird is considered the largest of the raptors?,2018-09-07 16:34:51
+2357748674265339,Shuo,Han,11733,2357748674265339,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-07 16:34:56
+2357748674265339,Shuo,Han,11734,854518728062939,2357748674265339,BOT: message,Pick one of the following answers.,2018-09-07 16:34:57
+2357748674265339,Shuo,Han,11735,854518728062939,2357748674265339,BOT: quick reply,":keycap_1: California condor
+:keycap_2: peregrine falcon
+:keycap_3: pterodactyl
+:keycap_4: golden eagles
+",2018-09-07 16:34:58
+2357748674265339,Shuo,Han,11736,2357748674265339,854518728062939,user_quick_reply: BUTTON_DKB_pterodactyl,:keycap_3:,2018-09-07 16:35:04
+2357748674265339,Shuo,Han,11737,854518728062939,2357748674265339,BOT: message,"I'm sorry, but that was incorrect. :disappointed_face:",2018-09-07 16:35:05
+2357748674265339,Shuo,Han,11738,854518728062939,2357748674265339,BOT: quick reply,The correct answer is golden eagles.,2018-09-07 16:35:05
+2357748674265339,Shuo,Han,11739,2357748674265339,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-07 16:35:10
+2357748674265339,Shuo,Han,11740,854518728062939,2357748674265339,BOT: message,Let's try this one.,2018-09-07 16:35:11
+2357748674265339,Shuo,Han,11741,854518728062939,2357748674265339,BOT: quick reply,"Just as different people can have very different personalities, so too can pets - even those of the same species and breed possess varied _____ .",2018-09-07 16:35:12
+2357748674265339,Shuo,Han,11742,2357748674265339,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-07 16:35:18
+2357748674265339,Shuo,Han,11743,854518728062939,2357748674265339,BOT: message,Okay. I'll give you some choices.,2018-09-07 16:35:19
+2357748674265339,Shuo,Han,11744,854518728062939,2357748674265339,BOT: quick reply,":keycap_1: initiations
+:keycap_2: temperaments
+:keycap_3: aptitudes
+:keycap_4: rationalizations
+:keycap_5: implementations
+",2018-09-07 16:35:20
+2357748674265339,Shuo,Han,11745,2357748674265339,854518728062939,user_quick_reply: BUTTON_AKB_temperaments,:keycap_2:,2018-09-07 16:35:24
+2357748674265339,Shuo,Han,11746,854518728062939,2357748674265339,BOT: image,https://www.smartprimer.ai:4443/pictures/avatar/congrats/penguinnormal_happy_orange.png,2018-09-07 16:35:26
+2357748674265339,Shuo,Han,11747,854518728062939,2357748674265339,BOT: message,Great job!,2018-09-07 16:35:27
+2357748674265339,Shuo,Han,11748,854518728062939,2357748674265339,BOT: quick reply,The correct answer is temperaments.,2018-09-07 16:35:28
+2357748674265339,Shuo,Han,11749,2357748674265339,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-07 16:35:33
+2357748674265339,Shuo,Han,11750,854518728062939,2357748674265339,BOT: message,Let's try this question.,2018-09-07 16:35:33
+2357748674265339,Shuo,Han,11751,854518728062939,2357748674265339,BOT: quick reply,Many Major League Baseball relief pitchers choose an electrifying theme song to play as they take the mound; the song _____ their fans and instills fear in their opponents.,2018-09-07 16:35:34
+2357748674265339,Shuo,Han,11752,2357748674265339,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-07 16:35:40
+2357748674265339,Shuo,Han,11753,854518728062939,2357748674265339,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-09-07 16:35:41
+2357748674265339,Shuo,Han,11754,854518728062939,2357748674265339,BOT: quick reply,":keycap_1: eviscerates
+:keycap_2: enervates
+:keycap_3: pervades
+:keycap_4: innervates
+:keycap_5: assuages
+",2018-09-07 16:35:41
+2357748674265339,Shuo,Han,11755,2357748674265339,854518728062939,user_quick_reply: BUTTON_DKB_enervates,:keycap_2:,2018-09-07 16:35:47
+2357748674265339,Shuo,Han,11756,854518728062939,2357748674265339,BOT: message,"Oops, that is not correct. :disappointed_face:",2018-09-07 16:35:48
+2357748674265339,Shuo,Han,11757,854518728062939,2357748674265339,BOT: quick reply,The correct answer is innervates.,2018-09-07 16:35:48
+2357748674265339,Shuo,Han,11758,2357748674265339,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-07 16:35:58
+2357748674265339,Shuo,Han,11759,854518728062939,2357748674265339,BOT: message,Let's take a look at this question.,2018-09-07 16:35:58
+2357748674265339,Shuo,Han,11760,854518728062939,2357748674265339,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-09-07 16:35:59
+2357748674265339,Shuo,Han,11761,854518728062939,2357748674265339,BOT: quick reply,"Many dog owners treat their pets too _____ , forgetting that canines have evolved in competitive environments in which emotional coddling was a sign of weakness.",2018-09-07 16:36:00
+2357748674265339,Shuo,Han,11762,2357748674265339,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-07 16:36:07
+2357748674265339,Shuo,Han,11763,854518728062939,2357748674265339,BOT: message,Pick one of the following answers.,2018-09-07 16:36:08
+2357748674265339,Shuo,Han,11764,854518728062939,2357748674265339,BOT: quick reply,":keycap_1: fortuitously
+:keycap_2: belligerently
+:keycap_3: aggressively
+:keycap_4: quixotically
+:keycap_5: indulgently
+",2018-09-07 16:36:08
+2357748674265339,Shuo,Han,11765,2357748674265339,854518728062939,user_quick_reply: BUTTON_AKB_indulgently,:keycap_5:,2018-09-07 16:36:13
+2357748674265339,Shuo,Han,11766,854518728062939,2357748674265339,BOT: image,https://www.smartprimer.ai:4443/pictures/avatar/congrats/penguinnormal_happy_pink.png,2018-09-07 16:36:15
+2357748674265339,Shuo,Han,11767,854518728062939,2357748674265339,BOT: message,Yes! You got the correct answer!,2018-09-07 16:36:16
+2357748674265339,Shuo,Han,11768,854518728062939,2357748674265339,BOT: quick reply,The correct answer is indulgently.,2018-09-07 16:36:16
+2357748674265339,Shuo,Han,11769,2357748674265339,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-07 16:36:22
+2357748674265339,Shuo,Han,11770,854518728062939,2357748674265339,BOT: message,Could you answer this one for me?,2018-09-07 16:36:22
+2357748674265339,Shuo,Han,11771,854518728062939,2357748674265339,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-09-07 16:36:23
+2357748674265339,Shuo,Han,11772,854518728062939,2357748674265339,BOT: quick reply,What are the little sacs at the end of the bronchioles called?,2018-09-07 16:36:24
+2357748674265339,Shuo,Han,11773,2357748674265339,854518728062939,user_quick_reply: I_DONT_KNOW,I don’t know :downcast_face_with_sweat:,2018-09-07 16:36:33
+2357748674265339,Shuo,Han,11774,854518728062939,2357748674265339,BOT: quick reply,Are you sure you want to skip this question?,2018-09-07 16:36:34
+2357748674265339,Shuo,Han,11775,2357748674265339,854518728062939,user_quick_reply: GIVEUP_NO,"No, I'll try again!",2018-09-07 16:36:38
+2357748674265339,Shuo,Han,11776,854518728062939,2357748674265339,BOT: message,Don't give up!,2018-09-07 16:36:39
+2357748674265339,Shuo,Han,11777,854518728062939,2357748674265339,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-09-07 16:36:39
+2357748674265339,Shuo,Han,11778,854518728062939,2357748674265339,BOT: quick reply,":keycap_1: lung
+:keycap_2: respiratory sacs
+:keycap_3: ganglion
+:keycap_4: alveoli
+",2018-09-07 16:36:40
+2357748674265339,Shuo,Han,11779,2357748674265339,854518728062939,user_quick_reply: BUTTON_AKB_alveoli,:keycap_4:,2018-09-07 16:36:54
+2357748674265339,Shuo,Han,11780,854518728062939,2357748674265339,BOT: message,Great job!,2018-09-07 16:36:55
+2357748674265339,Shuo,Han,11781,854518728062939,2357748674265339,BOT: quick reply,The correct answer is alveoli.,2018-09-07 16:36:56
+2357748674265339,Shuo,Han,11782,2357748674265339,854518728062939,user_quick_reply: WHY,Why?,2018-09-07 16:37:07
+2357748674265339,Shuo,Han,11783,854518728062939,2357748674265339,BOT: message,Here's an explanation:,2018-09-07 16:37:08
+2357748674265339,Shuo,Han,11784,854518728062939,2357748674265339,BOT: quick reply,"The bronchioles lead to the alveoli. Alveoli are the little sacs at the end of the bronchioles. They look like little bunches of grapes. Oxygen is exchanged for carbon dioxide in the alveoli. That means oxygen enters the blood, and carbon dioxide moves out of the blood. The gases are exchanged between the blood and alveoli by simple diffusion.",2018-09-07 16:37:08
+2357748674265339,Shuo,Han,11785,2357748674265339,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-09-07 16:39:41
+2357748674265339,Shuo,Han,11786,854518728062939,2357748674265339,BOT: message,Here's a question for you:,2018-09-07 16:39:41
+2357748674265339,Shuo,Han,11787,854518728062939,2357748674265339,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-09-07 16:39:42
+2357748674265339,Shuo,Han,11788,854518728062939,2357748674265339,BOT: quick reply,"Modern tennis fans have come to realize that, although, quantum technological leaps in racquet technology have lead to _____ increases in the speed and power with which players can hit the ball, this has not necessarily lead to a more entertaining game.",2018-09-07 16:39:43
+2357748674265339,Shuo,Han,11789,2357748674265339,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-07 16:39:57
+2357748674265339,Shuo,Han,11790,854518728062939,2357748674265339,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-09-07 16:39:57
+2357748674265339,Shuo,Han,11791,854518728062939,2357748674265339,BOT: quick reply,":keycap_1: tractable
+:keycap_2: commensurate
+:keycap_3: innocuous
+:keycap_4: malleable
+:keycap_5: halcyon
+",2018-09-07 16:39:59
+2357748674265339,Shuo,Han,11792,2357748674265339,854518728062939,user_quick_reply: BUTTON_DKB_tractable,:keycap_1:,2018-09-07 16:40:03
+2357748674265339,Shuo,Han,11793,854518728062939,2357748674265339,BOT: message,"I'm sorry, but that was incorrect. :disappointed_face:",2018-09-07 16:40:04
+2357748674265339,Shuo,Han,11794,854518728062939,2357748674265339,BOT: quick reply,The correct answer is commensurate.,2018-09-07 16:40:05
+2357748674265339,Shuo,Han,11795,2357748674265339,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-07 16:40:11
+2357748674265339,Shuo,Han,11796,854518728062939,2357748674265339,BOT: message,See if you can answer this next one.,2018-09-07 16:40:11
+2357748674265339,Shuo,Han,11797,854518728062939,2357748674265339,BOT: quick reply,Seth was extremely _____ and did not enjoy activities that required effort to meet new people.,2018-09-07 16:40:13
+2357748674265339,Shuo,Han,11798,2357748674265339,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-07 16:40:19
+2357748674265339,Shuo,Han,11799,854518728062939,2357748674265339,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-09-07 16:40:20
+2357748674265339,Shuo,Han,11800,854518728062939,2357748674265339,BOT: quick reply,":keycap_1: lackluster
+:keycap_2: introverted
+:keycap_3: jaded
+:keycap_4: gregarious
+:keycap_5: extroverted
+",2018-09-07 16:40:21
+2357748674265339,Shuo,Han,11801,2357748674265339,854518728062939,user_quick_reply: BUTTON_AKB_introverted,:keycap_2:,2018-09-07 16:40:31
+2357748674265339,Shuo,Han,11802,854518728062939,2357748674265339,BOT: message,Nice! That was right!,2018-09-07 16:40:31
+2357748674265339,Shuo,Han,11803,854518728062939,2357748674265339,BOT: quick reply,The correct answer is introverted.,2018-09-07 16:40:32
+2357748674265339,Shuo,Han,11804,2357748674265339,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-07 16:40:41
+2357748674265339,Shuo,Han,11805,854518728062939,2357748674265339,BOT: message,Let's see if you can answer this question.,2018-09-07 16:40:42
+2357748674265339,Shuo,Han,11806,854518728062939,2357748674265339,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-09-07 16:40:42
+2357748674265339,Shuo,Han,11807,854518728062939,2357748674265339,BOT: quick reply,"Possessing few natural resources upon its newly-granted independence in 1863, Singapore remained economically _____ until an influx of industrialization and foreign investment took hold there.",2018-09-07 16:40:43
+2357748674265339,Shuo,Han,11808,2357748674265339,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-07 16:40:54
+2357748674265339,Shuo,Han,11809,854518728062939,2357748674265339,BOT: message,Pick one of the following answers.,2018-09-07 16:40:55
+2357748674265339,Shuo,Han,11810,854518728062939,2357748674265339,BOT: quick reply,":keycap_1: dubious
+:keycap_2: fortuitous
+:keycap_3: prosperous
+:keycap_4: powerful
+:keycap_5: solvent
+",2018-09-07 16:40:55
+2357748674265339,Shuo,Han,11811,2357748674265339,854518728062939,user_quick_reply: BUTTON_DKB_solvent,:keycap_5:,2018-09-07 16:41:02
+2357748674265339,Shuo,Han,11812,854518728062939,2357748674265339,BOT: message,"Oops, that wasn't quite correct. :disappointed_face:",2018-09-07 16:41:03
+2357748674265339,Shuo,Han,11813,854518728062939,2357748674265339,BOT: quick reply,The correct answer is dubious.,2018-09-07 16:41:04
+2357748674265339,Shuo,Han,11814,2357748674265339,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-07 16:41:13
+2357748674265339,Shuo,Han,11815,854518728062939,2357748674265339,BOT: message,Would you answer this question for me?,2018-09-07 16:41:14
+2357748674265339,Shuo,Han,11816,854518728062939,2357748674265339,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-09-07 16:41:14
+2357748674265339,Shuo,Han,11817,854518728062939,2357748674265339,BOT: quick reply,"Prior to taking on the new invader, the defending army had engaged in arduous combat; it is likely that the _____ resulting from waging two battles in two days played a part in its subsequent defeat.",2018-09-07 16:41:15
+2357748674265339,Shuo,Han,11818,2357748674265339,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-07 16:41:26
+2357748674265339,Shuo,Han,11819,854518728062939,2357748674265339,BOT: message,It's one of the following choices.,2018-09-07 16:41:27
+2357748674265339,Shuo,Han,11820,854518728062939,2357748674265339,BOT: quick reply,":keycap_1: pugnacity
+:keycap_2: bellicosity
+:keycap_3: pacification
+:keycap_4: aggravation
+:keycap_5: enervation
+",2018-09-07 16:41:28
+2357748674265339,Shuo,Han,11821,2357748674265339,854518728062939,user_quick_reply: BUTTON_DKB_aggravation,:keycap_4:,2018-09-07 16:41:33
+2357748674265339,Shuo,Han,11822,854518728062939,2357748674265339,BOT: message,"Oops, that wasn't quite correct. :disappointed_face:",2018-09-07 16:41:33
+2357748674265339,Shuo,Han,11823,854518728062939,2357748674265339,BOT: quick reply,The correct answer is enervation.,2018-09-07 16:41:34
+2357748674265339,Shuo,Han,11824,2357748674265339,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-07 16:41:41
+2357748674265339,Shuo,Han,11825,854518728062939,2357748674265339,BOT: message,Would you answer this question for me?,2018-09-07 16:41:42
+2357748674265339,Shuo,Han,11826,854518728062939,2357748674265339,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-09-07 16:41:43
+2357748674265339,Shuo,Han,11827,854518728062939,2357748674265339,BOT: quick reply,The Erie Canal's completion caused _____ economic ripples; property values and industrial output along its route rose exponentially.,2018-09-07 16:41:44
+2357748674265339,Shuo,Han,11828,2357748674265339,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-07 16:41:49
+2357748674265339,Shuo,Han,11829,854518728062939,2357748674265339,BOT: message,Okay. I'll give you some choices.,2018-09-07 16:41:50
+2357748674265339,Shuo,Han,11830,854518728062939,2357748674265339,BOT: quick reply,":keycap_1: incredulous
+:keycap_2: prodigious
+:keycap_3: severe
+:keycap_4: persistent
+:keycap_5: invaluable
+",2018-09-07 16:41:51
+2357748674265339,Shuo,Han,11831,2357748674265339,854518728062939,user_quick_reply: BUTTON_DKB_invaluable,:keycap_5:,2018-09-07 16:41:59
+2357748674265339,Shuo,Han,11832,854518728062939,2357748674265339,BOT: message,"Oops, that is not correct. :disappointed_face:",2018-09-07 16:41:59
+2357748674265339,Shuo,Han,11833,854518728062939,2357748674265339,BOT: quick reply,The correct answer is prodigious.,2018-09-07 16:42:00
+2357748674265339,Shuo,Han,11834,2357748674265339,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-07 16:42:15
+2357748674265339,Shuo,Han,11835,854518728062939,2357748674265339,BOT: message,Let's try this question.,2018-09-07 16:42:16
+2357748674265339,Shuo,Han,11836,854518728062939,2357748674265339,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-09-07 16:42:17
+2357748674265339,Shuo,Han,11837,854518728062939,2357748674265339,BOT: quick reply,While she may have answered him truthfully - in the strictest sense of the word - it became clear to Sergei after the incident that Sheryl had actually been trying to _____ .,2018-09-07 16:42:17
+2357748674265339,Shuo,Han,11838,2357748674265339,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-07 16:42:25
+2357748674265339,Shuo,Han,11839,854518728062939,2357748674265339,BOT: message,Okay. I'll give you some choices.,2018-09-07 16:42:26
+2357748674265339,Shuo,Han,11840,854518728062939,2357748674265339,BOT: quick reply,":keycap_1: obfuscate
+:keycap_2: desiccate
+:keycap_3: illuminate
+:keycap_4: covet
+:keycap_5: vituperate
+",2018-09-07 16:42:27
+2357748674265339,Shuo,Han,11841,2357748674265339,854518728062939,user_quick_reply: BUTTON_AKB_obfuscate,:keycap_1:,2018-09-07 16:42:33
+2357748674265339,Shuo,Han,11842,854518728062939,2357748674265339,BOT: message,Great! Keep it up! :flexed_biceps_medium-light_skin_tone:,2018-09-07 16:42:34
+2357748674265339,Shuo,Han,11843,854518728062939,2357748674265339,BOT: quick reply,The correct answer is obfuscate.,2018-09-07 16:42:34
+2357748674265339,Shuo,Han,11844,2357748674265339,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-07 16:42:40
+2357748674265339,Shuo,Han,11845,854518728062939,2357748674265339,BOT: message,Let's take a look at this question.,2018-09-07 16:42:41
+2357748674265339,Shuo,Han,11846,854518728062939,2357748674265339,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-09-07 16:42:41
+2357748674265339,Shuo,Han,11847,854518728062939,2357748674265339,BOT: quick reply,"With a similar contrast between a partly cloudy sky and a dark street, the cover of the recent rock CD _____ a famous surrealist painting from the early 1900s.",2018-09-07 16:42:42
+2357748674265339,Shuo,Han,11848,2357748674265339,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-07 16:42:54
+2357748674265339,Shuo,Han,11849,854518728062939,2357748674265339,BOT: message,Pick one of the following answers.,2018-09-07 16:42:55
+2357748674265339,Shuo,Han,11850,854518728062939,2357748674265339,BOT: quick reply,":keycap_1: disenchants
+:keycap_2: admires
+:keycap_3: obfuscates
+:keycap_4: sanctions
+:keycap_5: evokes
+",2018-09-07 16:42:55
+2357748674265339,Shuo,Han,11851,2357748674265339,854518728062939,user_quick_reply: BUTTON_AKB_evokes,:keycap_5:,2018-09-07 16:43:01
+2357748674265339,Shuo,Han,11852,854518728062939,2357748674265339,BOT: message,Nice work! Keep it up!,2018-09-07 16:43:01
+2357748674265339,Shuo,Han,11853,854518728062939,2357748674265339,BOT: quick reply,The correct answer is evokes.,2018-09-07 16:43:02
+2357748674265339,Shuo,Han,11854,2357748674265339,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-07 16:43:08
+2357748674265339,Shuo,Han,11855,854518728062939,2357748674265339,BOT: message,Let's see if you would answer this one.,2018-09-07 16:43:09
+2357748674265339,Shuo,Han,11856,854518728062939,2357748674265339,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-09-07 16:43:10
+2357748674265339,Shuo,Han,11857,854518728062939,2357748674265339,BOT: quick reply,What kind of viscosity is found in long-chain hydrocarbons?,2018-09-07 16:43:11
+2357748674265339,Shuo,Han,11858,2357748674265339,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-07 16:43:17
+2357748674265339,Shuo,Han,11859,854518728062939,2357748674265339,BOT: message,Okay. I'll give you some choices.,2018-09-07 16:43:18
+2357748674265339,Shuo,Han,11860,854518728062939,2357748674265339,BOT: quick reply,":keycap_1: intense viscosity
+:keycap_2: high viscosity
+:keycap_3: low viscosity
+:keycap_4: increased viscosity
+",2018-09-07 16:43:18
+2357748674265339,Shuo,Han,11861,2357748674265339,854518728062939,user_quick_reply: BUTTON_AKB_high viscosity,:keycap_2:,2018-09-07 16:43:23
+2357748674265339,Shuo,Han,11862,854518728062939,2357748674265339,BOT: message,Nice! That was right!,2018-09-07 16:43:24
+2357748674265339,Shuo,Han,11863,854518728062939,2357748674265339,BOT: quick reply,The correct answer is high viscosity.,2018-09-07 16:43:24
+2357748674265339,Shuo,Han,11864,2357748674265339,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-07 16:43:31
+2357748674265339,Shuo,Han,11865,854518728062939,2357748674265339,BOT: message,Let's try this question.,2018-09-07 16:43:31
+2357748674265339,Shuo,Han,11866,854518728062939,2357748674265339,BOT: quick reply,Which fire extinguishers are used to put out fires caused by flammable liquids?,2018-09-07 16:43:32
+2357748674265339,Shuo,Han,11867,2357748674265339,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-07 16:43:38
+2357748674265339,Shuo,Han,11868,854518728062939,2357748674265339,BOT: message,It's one of the following choices.,2018-09-07 16:43:39
+2357748674265339,Shuo,Han,11869,854518728062939,2357748674265339,BOT: quick reply,":keycap_1: Class B carbon dioxide fire extinguisher
+:keycap_2: Class A water fire extinguishers
+:keycap_3: Class C dry chemical fire extinguisher
+",2018-09-07 16:43:39
+2357748674265339,Shuo,Han,11870,2357748674265339,854518728062939,user_quick_reply: BUTTON_AKB_Class B carbon dioxide fire extinguisher,:keycap_1:,2018-09-07 16:43:52
+2357748674265339,Shuo,Han,11871,854518728062939,2357748674265339,BOT: message,Great job!,2018-09-07 16:43:53
+2357748674265339,Shuo,Han,11872,854518728062939,2357748674265339,BOT: quick reply,The correct answer is Class B carbon dioxide fire extinguisher.,2018-09-07 16:43:54
+2357748674265339,Shuo,Han,11873,2357748674265339,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-07 16:44:00
+2357748674265339,Shuo,Han,11874,854518728062939,2357748674265339,BOT: message,"Alrighty, let's try this one.",2018-09-07 16:44:01
+2357748674265339,Shuo,Han,11875,854518728062939,2357748674265339,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-09-07 16:44:01
+2357748674265339,Shuo,Han,11876,854518728062939,2357748674265339,BOT: quick reply,"Although John F. Kennedy was known for his carefree flag football games, Gerald Ford should be _____ as our football president: he turned down offers to play for two National Football League teams in order to pursue a career in public service.",2018-09-07 16:44:02
+2357748674265339,Shuo,Han,11877,2357748674265339,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-07 16:44:09
+2357748674265339,Shuo,Han,11878,854518728062939,2357748674265339,BOT: message,Pick one of the following answers.,2018-09-07 16:44:09
+2357748674265339,Shuo,Han,11879,854518728062939,2357748674265339,BOT: quick reply,":keycap_1: abrogated
+:keycap_2: criticized
+:keycap_3: apotheosized
+:keycap_4: relegated
+:keycap_5: annulled
+",2018-09-07 16:44:10
+2357748674265339,Shuo,Han,11880,2357748674265339,854518728062939,user_quick_reply: BUTTON_AKB_apotheosized,:keycap_3:,2018-09-07 16:44:15
+2357748674265339,Shuo,Han,11881,854518728062939,2357748674265339,BOT: message,Yes! You got the correct answer!,2018-09-07 16:44:16
+2357748674265339,Shuo,Han,11882,854518728062939,2357748674265339,BOT: quick reply,The correct answer is apotheosized.,2018-09-07 16:44:17
+2357748674265339,Shuo,Han,11883,2357748674265339,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-07 16:44:22
+2357748674265339,Shuo,Han,11884,854518728062939,2357748674265339,BOT: message,What about this next question:,2018-09-07 16:44:22
+2357748674265339,Shuo,Han,11885,854518728062939,2357748674265339,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-09-07 16:44:23
+2357748674265339,Shuo,Han,11886,854518728062939,2357748674265339,BOT: quick reply,What living species of bird is considered the largest of the raptors?,2018-09-07 16:44:24
+2357748674265339,Shuo,Han,11887,2357748674265339,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-07 16:44:29
+2357748674265339,Shuo,Han,11888,854518728062939,2357748674265339,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-09-07 16:44:30
+2357748674265339,Shuo,Han,11889,854518728062939,2357748674265339,BOT: quick reply,":keycap_1: California condor
+:keycap_2: golden eagles
+:keycap_3: peregrine falcon
+:keycap_4: pterodactyl
+",2018-09-07 16:44:31
+2357748674265339,Shuo,Han,11890,2357748674265339,854518728062939,user_quick_reply: BUTTON_AKB_golden eagles,:keycap_2:,2018-09-07 16:44:36
+2357748674265339,Shuo,Han,11891,854518728062939,2357748674265339,BOT: message,Nice work! Keep it up!,2018-09-07 16:44:37
+2357748674265339,Shuo,Han,11892,854518728062939,2357748674265339,BOT: quick reply,The correct answer is golden eagles.,2018-09-07 16:44:37
+2357748674265339,Shuo,Han,11893,2357748674265339,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-07 16:44:44
+2357748674265339,Shuo,Han,11894,854518728062939,2357748674265339,BOT: message,I think you'll like this question.,2018-09-07 16:44:45
+2357748674265339,Shuo,Han,11895,854518728062939,2357748674265339,BOT: quick reply,"Despite the smile that spread from ear to ear, the eyes relayed a certain _____ .",2018-09-07 16:44:46
+2357748674265339,Shuo,Han,11896,2357748674265339,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-07 16:44:52
+2357748674265339,Shuo,Han,11897,854518728062939,2357748674265339,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-09-07 16:44:53
+2357748674265339,Shuo,Han,11898,854518728062939,2357748674265339,BOT: quick reply,":keycap_1: liveliness
+:keycap_2: mischievousness
+:keycap_3: sorrow
+:keycap_4: vision
+:keycap_5: jubilance
+",2018-09-07 16:44:54
+2357748674265339,Shuo,Han,11899,2357748674265339,854518728062939,user_quick_reply: BUTTON_AKB_sorrow,:keycap_3:,2018-09-07 16:44:58
+2357748674265339,Shuo,Han,11900,854518728062939,2357748674265339,BOT: message,Great job getting the correct answer!,2018-09-07 16:44:58
+2357748674265339,Shuo,Han,11901,854518728062939,2357748674265339,BOT: quick reply,The correct answer is sorrow.,2018-09-07 16:44:59
+2357748674265339,Shuo,Han,11902,2357748674265339,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-07 16:45:04
+2357748674265339,Shuo,Han,11903,854518728062939,2357748674265339,BOT: message,"Alrighty, let's try this one.",2018-09-07 16:45:05
+2357748674265339,Shuo,Han,11904,854518728062939,2357748674265339,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-09-07 16:45:06
+2357748674265339,Shuo,Han,11905,854518728062939,2357748674265339,BOT: quick reply,What opens two strands of DNA?,2018-09-07 16:45:07
+2357748674265339,Shuo,Han,11906,2357748674265339,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-07 16:45:12
+2357748674265339,Shuo,Han,11907,854518728062939,2357748674265339,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-09-07 16:45:12
+2357748674265339,Shuo,Han,11908,854518728062939,2357748674265339,BOT: quick reply,":keycap_1: replication
+:keycap_2: chromosome
+:keycap_3: helicase
+:keycap_4: adenylate
+",2018-09-07 16:45:13
+2357748674265339,Shuo,Han,11909,2357748674265339,854518728062939,user_quick_reply: BUTTON_AKB_helicase,:keycap_3:,2018-09-07 16:45:17
+2357748674265339,Shuo,Han,11910,854518728062939,2357748674265339,BOT: image,https://www.smartprimer.ai:4443/pictures/avatar/congrats/penguinnormal_normal.png,2018-09-07 16:45:20
+2357748674265339,Shuo,Han,11911,854518728062939,2357748674265339,BOT: message,Great! Keep it up! :flexed_biceps_medium-light_skin_tone:,2018-09-07 16:45:21
+2357748674265339,Shuo,Han,11912,854518728062939,2357748674265339,BOT: quick reply,The correct answer is helicase.,2018-09-07 16:45:21
+2357748674265339,Shuo,Han,11913,2357748674265339,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-07 16:45:26
+2357748674265339,Shuo,Han,11914,854518728062939,2357748674265339,BOT: message,Let's try this one.,2018-09-07 16:45:27
+2357748674265339,Shuo,Han,11915,854518728062939,2357748674265339,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-09-07 16:45:28
+2357748674265339,Shuo,Han,11916,854518728062939,2357748674265339,BOT: quick reply,"Dolly Madison, the wife of President James Madison, was known especially for her _____ , remaining calm even as the British invaded Washington D.C. during the War of 1812.",2018-09-07 16:45:29
+2357748674265339,Shuo,Han,11917,2357748674265339,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-07 16:45:34
+2357748674265339,Shuo,Han,11918,854518728062939,2357748674265339,BOT: message,Which of the following options is the right answer?,2018-09-07 16:45:34
+2357748674265339,Shuo,Han,11919,854518728062939,2357748674265339,BOT: quick reply,":keycap_1: malevolence
+:keycap_2: zeal
+:keycap_3: equanimity
+:keycap_4: cynicism
+:keycap_5: impracticality
+",2018-09-07 16:45:35
+2357748674265339,Shuo,Han,11920,2357748674265339,854518728062939,user_quick_reply: BUTTON_AKB_equanimity,:keycap_3:,2018-09-07 16:45:39
+2357748674265339,Shuo,Han,11921,854518728062939,2357748674265339,BOT: message,Great! Keep it up! :flexed_biceps_medium-light_skin_tone:,2018-09-07 16:45:40
+2357748674265339,Shuo,Han,11922,854518728062939,2357748674265339,BOT: quick reply,The correct answer is equanimity.,2018-09-07 16:45:41
+2357748674265339,Shuo,Han,11923,2357748674265339,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-07 16:45:47
+2357748674265339,Shuo,Han,11924,854518728062939,2357748674265339,BOT: message,Would you answer this question for me?,2018-09-07 16:45:48
+2357748674265339,Shuo,Han,11925,854518728062939,2357748674265339,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-09-07 16:45:49
+2357748674265339,Shuo,Han,11926,854518728062939,2357748674265339,BOT: quick reply,"Even though legislators claimed the Contagious Diseases Acts strengthened the nation, social purists argued the Acts _____ the nation's moral growth by encouraging licentious behavior.",2018-09-07 16:45:49
+2357748674265339,Shuo,Han,11927,2357748674265339,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-07 16:45:55
+2357748674265339,Shuo,Han,11928,854518728062939,2357748674265339,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-09-07 16:45:56
+2357748674265339,Shuo,Han,11929,854518728062939,2357748674265339,BOT: quick reply,":keycap_1: enhanced
+:keycap_2: ameliorated
+:keycap_3: hampered
+:keycap_4: supplanted
+:keycap_5: advanced
+",2018-09-07 16:45:57
+2357748674265339,Shuo,Han,11930,2357748674265339,854518728062939,user_quick_reply: BUTTON_AKB_hampered,:keycap_3:,2018-09-07 16:46:02
+2357748674265339,Shuo,Han,11931,854518728062939,2357748674265339,BOT: message,Great job getting the correct answer!,2018-09-07 16:46:03
+2357748674265339,Shuo,Han,11932,854518728062939,2357748674265339,BOT: quick reply,The correct answer is hampered.,2018-09-07 16:46:04
+2357748674265339,Shuo,Han,11933,2357748674265339,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-07 16:46:08
+2357748674265339,Shuo,Han,11934,854518728062939,2357748674265339,BOT: quick reply,"Nice job! You've practiced enough questions today. Please come back tomorrow and click on ""Resume Learning :flexed_biceps_medium-light_skin_tone:"" for another practice session.",2018-09-07 16:46:09
+2357748674265339,Shuo,Han,11935,2357748674265339,854518728062939,user_quick_reply: NEXT_QUESTION,Resume Learning :flexed_biceps_medium-light_skin_tone:,2018-09-07 16:46:30
+2357748674265339,Shuo,Han,11936,854518728062939,2357748674265339,BOT: message,Let's take a look at this question.,2018-09-07 16:46:31
+2357748674265339,Shuo,Han,11937,854518728062939,2357748674265339,BOT: quick reply,"Having squandered his life's savings on unprofitable business ventures, the _____ entrepreneur was forced to live in squalor.",2018-09-07 16:46:31
+2357748674265339,Shuo,Han,12612,854518728062939,2357748674265339,BOT: quick reply,"Hi Shuo, remember to practice some questions with me if you haven't finished your session today!",2018-09-07 20:00:23

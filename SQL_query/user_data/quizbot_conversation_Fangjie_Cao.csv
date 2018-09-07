@@ -1,0 +1,273 @@
+user_id,user_firstname,user_lastname,uid,sender,recipient,type,dialogue,time_stamp
+1895184847242752,Fangjie,Cao,8573,1895184847242752,854518728062939,persistent_menu: GET_INTRO_1,Get Started,2018-09-07 02:25:05
+1895184847242752,Fangjie,Cao,8574,854518728062939,1895184847242752,BOT: image,https://www.smartprimer.ai:4443/pictures/avatar/quizbot_avatar.png,2018-09-07 02:25:08
+1895184847242752,Fangjie,Cao,8575,854518728062939,1895184847242752,BOT: quick reply,"Hi Fangjie! My name is Frosty :penguin: and I’m here to help you learn all about science:microscope:, verbal reasoning (GRE) :input_latin_uppercase:, and safety:hammer_and_wrench:!",2018-09-07 02:25:09
+1895184847242752,Fangjie,Cao,8576,1895184847242752,854518728062939,user_typing,Get started,2018-09-07 02:26:10
+1895184847242752,Fangjie,Cao,8577,854518728062939,1895184847242752,BOT: quick reply,That sounds cool. I need to learn more languages to keep up with the conversation with you. Maybe you can teach me languages in the future!,2018-09-07 02:26:11
+1895184847242752,Fangjie,Cao,8578,1895184847242752,854518728062939,user_quick_reply: CHAT_WITH_ME,Chat with me :penguin:,2018-09-07 02:26:23
+1895184847242752,Fangjie,Cao,8579,854518728062939,1895184847242752,BOT: quick reply,Do you want to hear some interesting things from me?,2018-09-07 02:26:24
+1895184847242752,Fangjie,Cao,8580,1895184847242752,854518728062939,user_quick_reply: JOKE,Joke :beaming_face_with_smiling_eyes:,2018-09-07 02:26:36
+1895184847242752,Fangjie,Cao,8581,854518728062939,1895184847242752,BOT: message,Here is an interesting one:,2018-09-07 02:26:37
+1895184847242752,Fangjie,Cao,8582,854518728062939,1895184847242752,BOT: quick reply,"Q. How many cats can you put in an empty box? A. One. After that, the box isn’t empty anymore.",2018-09-07 02:26:38
+1895184847242752,Fangjie,Cao,8583,1895184847242752,854518728062939,user_quick_reply: NEXT_QUESTION,Continue learning :flexed_biceps_medium-light_skin_tone:,2018-09-07 02:26:45
+1895184847242752,Fangjie,Cao,8584,854518728062939,1895184847242752,BOT: message,Let's see if you would answer this one.,2018-09-07 02:26:45
+1895184847242752,Fangjie,Cao,8585,854518728062939,1895184847242752,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-09-07 02:26:46
+1895184847242752,Fangjie,Cao,8586,854518728062939,1895184847242752,BOT: quick reply,What kind of viscosity is found in long-chain hydrocarbons?,2018-09-07 02:26:47
+1895184847242752,Fangjie,Cao,8587,1895184847242752,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-07 02:27:05
+1895184847242752,Fangjie,Cao,8588,854518728062939,1895184847242752,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-09-07 02:27:06
+1895184847242752,Fangjie,Cao,8589,854518728062939,1895184847242752,BOT: quick reply,":keycap_1: high viscosity
+:keycap_2: intense viscosity
+:keycap_3: increased viscosity
+:keycap_4: low viscosity
+",2018-09-07 02:27:07
+1895184847242752,Fangjie,Cao,8594,1895184847242752,854518728062939,user_quick_reply: BUTTON_AKB_high viscosity,:keycap_1:,2018-09-07 02:34:07
+1895184847242752,Fangjie,Cao,8595,854518728062939,1895184847242752,BOT: image,https://www.smartprimer.ai:4443/pictures/avatar/congrats/penguinnormal_happy_cyan.png,2018-09-07 02:34:09
+1895184847242752,Fangjie,Cao,8596,854518728062939,1895184847242752,BOT: message,Great! Keep it up! :flexed_biceps_medium-light_skin_tone:,2018-09-07 02:34:10
+1895184847242752,Fangjie,Cao,8597,854518728062939,1895184847242752,BOT: quick reply,The correct answer is high viscosity.,2018-09-07 02:34:11
+1895184847242752,Fangjie,Cao,8598,1895184847242752,854518728062939,user_quick_reply: WHY,Why?,2018-09-07 02:34:36
+1895184847242752,Fangjie,Cao,8599,854518728062939,1895184847242752,BOT: message,This is why:,2018-09-07 02:34:37
+1895184847242752,Fangjie,Cao,8600,854518728062939,1895184847242752,BOT: quick reply,"There is also a correlation between viscosity and molecular shape. Liquids consisting of long, flexible molecules tend to have higher viscosities than those composed of more spherical or shorter-chain molecules. The longer the molecules, the easier it is for them to become “tangled” with one another, making it more difficult for them to move past one another. London dispersion forces also increase with chain length. Due to a combination of these two effects, long-chain hydrocarbons (such as motor oils) are highly viscous.",2018-09-07 02:34:38
+1895184847242752,Fangjie,Cao,8601,1895184847242752,854518728062939,user_quick_reply: SWITCH_SUBJECT,Change subject :shuffle_tracks_button:,2018-09-07 02:35:19
+1895184847242752,Fangjie,Cao,8602,854518728062939,1895184847242752,BOT: quick reply,"Okay, which subject would you like to choose?:backhand_index_pointing_down_medium-light_skin_tone:",2018-09-07 02:35:20
+1895184847242752,Fangjie,Cao,8603,1895184847242752,854518728062939,user_quick_reply: SAFETY,Safety:hammer_and_wrench:,2018-09-07 02:35:30
+1895184847242752,Fangjie,Cao,8604,854518728062939,1895184847242752,BOT: quick reply,Good choice! Let's see what you know about safety!,2018-09-07 02:35:31
+1895184847242752,Fangjie,Cao,8605,1895184847242752,854518728062939,user_quick_reply: NEXT_QUESTION,Got it :thumbs_up_medium-light_skin_tone:,2018-09-07 02:35:40
+1895184847242752,Fangjie,Cao,8606,854518728062939,1895184847242752,BOT: message,Would you answer this question for me?,2018-09-07 02:35:41
+1895184847242752,Fangjie,Cao,8607,854518728062939,1895184847242752,BOT: quick reply,What should you NOT do when lowering a load?,2018-09-07 02:35:41
+1895184847242752,Fangjie,Cao,8608,1895184847242752,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-07 02:35:54
+1895184847242752,Fangjie,Cao,8609,854518728062939,1895184847242752,BOT: message,Pick one of the following answers.,2018-09-07 02:35:55
+1895184847242752,Fangjie,Cao,8610,854518728062939,1895184847242752,BOT: quick reply,":keycap_1: Twist your body, keep the load close, and bend your knees
+:keycap_2: Bend your knees
+:keycap_3: Twist your body
+:keycap_4: Keep the load close to your body
+",2018-09-07 02:35:56
+1895184847242752,Fangjie,Cao,8611,1895184847242752,854518728062939,"user_quick_reply: BUTTON_DKB_Twist your body, keep the load close, and bend your knees",:keycap_1:,2018-09-07 02:36:42
+1895184847242752,Fangjie,Cao,8612,854518728062939,1895184847242752,BOT: message,"Hmm, that wasn't quite right. :disappointed_face:",2018-09-07 02:36:43
+1895184847242752,Fangjie,Cao,8613,854518728062939,1895184847242752,BOT: quick reply,The correct answer is Twist your body.,2018-09-07 02:36:43
+1895184847242752,Fangjie,Cao,8614,1895184847242752,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-07 02:37:21
+1895184847242752,Fangjie,Cao,8615,854518728062939,1895184847242752,BOT: message,"Alrighty, let's try this one.",2018-09-07 02:37:22
+1895184847242752,Fangjie,Cao,8616,854518728062939,1895184847242752,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-09-07 02:37:23
+1895184847242752,Fangjie,Cao,8617,854518728062939,1895184847242752,BOT: quick reply,What should you NOT do while lifting objects?,2018-09-07 02:37:24
+1895184847242752,Fangjie,Cao,8618,1895184847242752,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-07 02:37:36
+1895184847242752,Fangjie,Cao,8619,854518728062939,1895184847242752,BOT: message,It's one of the following choices.,2018-09-07 02:37:37
+1895184847242752,Fangjie,Cao,8620,854518728062939,1895184847242752,BOT: quick reply,":keycap_1: Keep your back straight
+:keycap_2: Keep the object close to your body
+:keycap_3: Keep your feet together
+:keycap_4: Bend at the knees
+",2018-09-07 02:37:37
+1895184847242752,Fangjie,Cao,8621,1895184847242752,854518728062939,user_quick_reply: BUTTON_DKB_Keep the object close to your body,:keycap_2:,2018-09-07 02:39:01
+1895184847242752,Fangjie,Cao,8622,854518728062939,1895184847242752,BOT: message,That's not quite right. :disappointed_face:,2018-09-07 02:39:02
+1895184847242752,Fangjie,Cao,8623,854518728062939,1895184847242752,BOT: quick reply,The correct answer is Keep your feet together.,2018-09-07 02:39:03
+1895184847242752,Fangjie,Cao,8624,1895184847242752,854518728062939,user_quick_reply: WHY,Why?,2018-09-07 02:39:13
+1895184847242752,Fangjie,Cao,8625,854518728062939,1895184847242752,BOT: message,Here's an explanation:,2018-09-07 02:39:14
+1895184847242752,Fangjie,Cao,8626,854518728062939,1895184847242752,BOT: quick reply,"The AAOS lists its instructions for properly lifting a heavy object: plan ahead before lifting an object (decide in advance where the load will be placed after it has been lifted; the path in between where the load is kept and where it has to be placed should be free from obstacles), keep yourself close to the object you wish to lift, keep your feet shoulder-width apart (this gives you a solid base to support), bend at your knees, tighten the stomach muscles, lift the load with your leg muscles as you stand up (leg muscles are stronger than back muscles), and do not lift an object which is too heavy or has an awkward shape all alone (get help).",2018-09-07 02:39:15
+1895184847242752,Fangjie,Cao,8627,1895184847242752,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-09-07 02:39:32
+1895184847242752,Fangjie,Cao,8628,854518728062939,1895184847242752,BOT: message,Would you answer this question for me?,2018-09-07 02:39:33
+1895184847242752,Fangjie,Cao,8629,854518728062939,1895184847242752,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-09-07 02:39:34
+1895184847242752,Fangjie,Cao,8630,854518728062939,1895184847242752,BOT: quick reply,How long can high-acid canned food such as tomatoes be stored?,2018-09-07 02:39:34
+1895184847242752,Fangjie,Cao,8631,1895184847242752,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-07 02:39:49
+1895184847242752,Fangjie,Cao,8632,854518728062939,1895184847242752,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-09-07 02:39:50
+1895184847242752,Fangjie,Cao,8633,854518728062939,1895184847242752,BOT: quick reply,":keycap_1: 2 to 4 years
+:keycap_2: 2 to 6 months
+:keycap_3: 12 to 18 months
+:keycap_4: 10 to 30 days
+",2018-09-07 02:39:51
+1895184847242752,Fangjie,Cao,8634,1895184847242752,854518728062939,user_quick_reply: BUTTON_AKB_12 to 18 months,:keycap_3:,2018-09-07 02:39:58
+1895184847242752,Fangjie,Cao,8635,854518728062939,1895184847242752,BOT: image,https://www.smartprimer.ai:4443/pictures/avatar/congrats/penguinnormal_happy_cyan.png,2018-09-07 02:40:00
+1895184847242752,Fangjie,Cao,8636,854518728062939,1895184847242752,BOT: message,Great job getting the correct answer!,2018-09-07 02:40:01
+1895184847242752,Fangjie,Cao,8637,854518728062939,1895184847242752,BOT: quick reply,The correct answer is 12 to 18 months.,2018-09-07 02:40:02
+1895184847242752,Fangjie,Cao,8638,1895184847242752,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-07 02:40:09
+1895184847242752,Fangjie,Cao,8639,854518728062939,1895184847242752,BOT: message,Let's see if you would answer this one.,2018-09-07 02:40:09
+1895184847242752,Fangjie,Cao,8640,854518728062939,1895184847242752,BOT: quick reply,Which fire extinguishers are used to put out Class A fires?,2018-09-07 02:40:10
+1895184847242752,Fangjie,Cao,8641,1895184847242752,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-07 02:40:20
+1895184847242752,Fangjie,Cao,8642,854518728062939,1895184847242752,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-09-07 02:40:21
+1895184847242752,Fangjie,Cao,8643,854518728062939,1895184847242752,BOT: quick reply,":keycap_1: Water only
+:keycap_2: Multi-purpose dry chemical only
+:keycap_3: CO2 only
+:keycap_4: Both water and multi-purpose dry chemical
+:keycap_5: Both CO2 and water
+",2018-09-07 02:40:21
+1895184847242752,Fangjie,Cao,8644,1895184847242752,854518728062939,user_quick_reply: BUTTON_DKB_CO2 only,:keycap_3:,2018-09-07 02:40:33
+1895184847242752,Fangjie,Cao,8645,854518728062939,1895184847242752,BOT: message,"Oops, that wasn't quite correct. :disappointed_face:",2018-09-07 02:40:34
+1895184847242752,Fangjie,Cao,8646,854518728062939,1895184847242752,BOT: quick reply,The correct answer is Both water and multi-purpose dry chemical.,2018-09-07 02:40:34
+1895184847242752,Fangjie,Cao,8647,1895184847242752,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-07 02:40:51
+1895184847242752,Fangjie,Cao,8648,854518728062939,1895184847242752,BOT: message,Let's try this question.,2018-09-07 02:40:52
+1895184847242752,Fangjie,Cao,8649,854518728062939,1895184847242752,BOT: quick reply,Which fire extinguishers are used to put out fires caused by flammable liquids?,2018-09-07 02:40:52
+1895184847242752,Fangjie,Cao,8650,1895184847242752,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-07 02:41:05
+1895184847242752,Fangjie,Cao,8651,854518728062939,1895184847242752,BOT: message,Pick one of the following answers.,2018-09-07 02:41:06
+1895184847242752,Fangjie,Cao,8652,854518728062939,1895184847242752,BOT: quick reply,":keycap_1: Class C dry chemical fire extinguisher
+:keycap_2: Class B carbon dioxide fire extinguisher
+:keycap_3: Class A water fire extinguishers
+",2018-09-07 02:41:06
+1895184847242752,Fangjie,Cao,8653,1895184847242752,854518728062939,user_quick_reply: BUTTON_AKB_Class B carbon dioxide fire extinguisher,:keycap_2:,2018-09-07 02:42:05
+1895184847242752,Fangjie,Cao,8654,854518728062939,1895184847242752,BOT: image,https://www.smartprimer.ai:4443/pictures/avatar/congrats/penguinnormal_normal_purple.png,2018-09-07 02:42:07
+1895184847242752,Fangjie,Cao,8655,854518728062939,1895184847242752,BOT: message,Nice work! Keep it up!,2018-09-07 02:42:08
+1895184847242752,Fangjie,Cao,8656,854518728062939,1895184847242752,BOT: quick reply,The correct answer is Class B carbon dioxide fire extinguisher.,2018-09-07 02:42:09
+1895184847242752,Fangjie,Cao,8657,1895184847242752,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-07 02:42:18
+1895184847242752,Fangjie,Cao,8658,854518728062939,1895184847242752,BOT: message,How about this next one:,2018-09-07 02:42:19
+1895184847242752,Fangjie,Cao,8659,854518728062939,1895184847242752,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-09-07 02:42:20
+1895184847242752,Fangjie,Cao,8660,854518728062939,1895184847242752,BOT: quick reply,"If your co-worker needs CPR but you are not trained in it, what should you do?",2018-09-07 02:42:20
+1895184847242752,Fangjie,Cao,8661,1895184847242752,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-07 02:42:35
+1895184847242752,Fangjie,Cao,8662,854518728062939,1895184847242752,BOT: message,It's one of the following choices.,2018-09-07 02:42:35
+1895184847242752,Fangjie,Cao,8663,854518728062939,1895184847242752,BOT: quick reply,":keycap_1: Wait for emergency personnel to arrive
+:keycap_2: Perform chest compressions only
+:keycap_3: Lift the patient's head
+:keycap_4: Give rescue breaths only
+",2018-09-07 02:42:36
+1895184847242752,Fangjie,Cao,8664,1895184847242752,854518728062939,user_quick_reply: BUTTON_DKB_Wait for emergency personnel to arrive,:keycap_1:,2018-09-07 02:42:44
+1895184847242752,Fangjie,Cao,8665,854518728062939,1895184847242752,BOT: message,"Hmm, that wasn't quite right. :disappointed_face:",2018-09-07 02:42:45
+1895184847242752,Fangjie,Cao,8666,854518728062939,1895184847242752,BOT: quick reply,The correct answer is Perform chest compressions only.,2018-09-07 02:42:45
+1895184847242752,Fangjie,Cao,8667,1895184847242752,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-07 02:43:06
+1895184847242752,Fangjie,Cao,8668,854518728062939,1895184847242752,BOT: message,What about this next question:,2018-09-07 02:43:06
+1895184847242752,Fangjie,Cao,8669,854518728062939,1895184847242752,BOT: quick reply,"When you discover a fire, you should do what?",2018-09-07 02:43:07
+1895184847242752,Fangjie,Cao,8670,1895184847242752,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-07 02:43:15
+1895184847242752,Fangjie,Cao,8671,854518728062939,1895184847242752,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-09-07 02:43:15
+1895184847242752,Fangjie,Cao,8672,854518728062939,1895184847242752,BOT: quick reply,":keycap_1: Run out of the building without warning others of the fire
+:keycap_2: Pull the fire alarm and call the fire department
+:keycap_3: Stay in the building until you figure out a way to extinguish the fire
+:keycap_4: Use a fire extinguisher to put out the fire, even if you've never used a fire extinguisher before
+",2018-09-07 02:43:16
+1895184847242752,Fangjie,Cao,8673,1895184847242752,854518728062939,user_quick_reply: BUTTON_AKB_Pull the fire alarm and call the fire department,:keycap_2:,2018-09-07 02:43:53
+1895184847242752,Fangjie,Cao,8674,854518728062939,1895184847242752,BOT: image,https://www.smartprimer.ai:4443/pictures/avatar/congrats/penguinnormal_normal.png,2018-09-07 02:43:55
+1895184847242752,Fangjie,Cao,8675,854518728062939,1895184847242752,BOT: message,Yes! You got the correct answer!,2018-09-07 02:43:56
+1895184847242752,Fangjie,Cao,8676,854518728062939,1895184847242752,BOT: quick reply,The correct answer is Pull the fire alarm and call the fire department.,2018-09-07 02:43:58
+1895184847242752,Fangjie,Cao,8677,1895184847242752,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-07 02:44:04
+1895184847242752,Fangjie,Cao,8678,854518728062939,1895184847242752,BOT: message,Would you answer this question for me?,2018-09-07 02:44:05
+1895184847242752,Fangjie,Cao,8679,854518728062939,1895184847242752,BOT: quick reply,What three major factors cause food contamination?,2018-09-07 02:44:05
+1895184847242752,Fangjie,Cao,8680,1895184847242752,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-07 02:44:19
+1895184847242752,Fangjie,Cao,8681,854518728062939,1895184847242752,BOT: message,Which of the following options is the right answer?,2018-09-07 02:44:20
+1895184847242752,Fangjie,Cao,8682,854518728062939,1895184847242752,BOT: quick reply,":keycap_1: Physical, psychological, and health
+:keycap_2: Physical, chemical, and psychosocial
+:keycap_3: Physical, biological, and radiological
+:keycap_4: Physical, biological, and chemical
+",2018-09-07 02:44:21
+1895184847242752,Fangjie,Cao,8683,1895184847242752,854518728062939,"user_quick_reply: BUTTON_AKB_Physical, biological, and chemical",:keycap_4:,2018-09-07 02:44:48
+1895184847242752,Fangjie,Cao,8684,854518728062939,1895184847242752,BOT: message,Great! Keep it up! :flexed_biceps_medium-light_skin_tone:,2018-09-07 02:44:49
+1895184847242752,Fangjie,Cao,8685,854518728062939,1895184847242752,BOT: quick reply,"The correct answer is Physical, biological, and chemical.",2018-09-07 02:44:49
+1895184847242752,Fangjie,Cao,8686,1895184847242752,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-07 02:44:55
+1895184847242752,Fangjie,Cao,8687,854518728062939,1895184847242752,BOT: message,Let's see if you can answer this question.,2018-09-07 02:44:55
+1895184847242752,Fangjie,Cao,8688,854518728062939,1895184847242752,BOT: quick reply,"What agency inspects, grades, and enforces standards of quality and wholesomeness for meat, poultry, milk, eggs, and grains?",2018-09-07 02:44:56
+1895184847242752,Fangjie,Cao,8689,1895184847242752,854518728062939,user_typing,Fda,2018-09-07 02:45:12
+1895184847242752,Fangjie,Cao,8690,854518728062939,1895184847242752,BOT: message,"Oops, that answer was incorrect. :disappointed_face:",2018-09-07 02:45:13
+1895184847242752,Fangjie,Cao,8691,854518728062939,1895184847242752,BOT: quick reply,The correct answer is USDA.,2018-09-07 02:45:13
+1895184847242752,Fangjie,Cao,8692,1895184847242752,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-07 02:45:47
+1895184847242752,Fangjie,Cao,8693,854518728062939,1895184847242752,BOT: message,See if you can answer this next one.,2018-09-07 02:45:47
+1895184847242752,Fangjie,Cao,8694,854518728062939,1895184847242752,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-09-07 02:45:48
+1895184847242752,Fangjie,Cao,8695,854518728062939,1895184847242752,BOT: quick reply,Working on scaffold during winds above ____ miles per hour is prohibited by OSHA.,2018-09-07 02:45:49
+1895184847242752,Fangjie,Cao,8696,1895184847242752,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-07 02:46:07
+1895184847242752,Fangjie,Cao,8697,854518728062939,1895184847242752,BOT: message,Pick one of the following answers.,2018-09-07 02:46:09
+1895184847242752,Fangjie,Cao,8698,854518728062939,1895184847242752,BOT: quick reply,":keycap_1: 40
+:keycap_2: 10
+:keycap_3: 50
+:keycap_4: 25
+",2018-09-07 02:46:10
+1895184847242752,Fangjie,Cao,8699,1895184847242752,854518728062939,user_quick_reply: BUTTON_DKB_50,:keycap_3:,2018-09-07 02:46:29
+1895184847242752,Fangjie,Cao,8700,854518728062939,1895184847242752,BOT: message,"I'm sorry, but that was incorrect. :disappointed_face:",2018-09-07 02:46:30
+1895184847242752,Fangjie,Cao,8701,854518728062939,1895184847242752,BOT: quick reply,The correct answer is 40.,2018-09-07 02:46:30
+1895184847242752,Fangjie,Cao,8702,1895184847242752,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-07 02:47:00
+1895184847242752,Fangjie,Cao,8703,854518728062939,1895184847242752,BOT: message,Let's see if you would answer this one.,2018-09-07 02:47:01
+1895184847242752,Fangjie,Cao,8704,854518728062939,1895184847242752,BOT: quick reply,To what does the acronym SLM refer?,2018-09-07 02:47:02
+1895184847242752,Fangjie,Cao,8705,1895184847242752,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-07 02:47:12
+1895184847242752,Fangjie,Cao,8706,854518728062939,1895184847242752,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-09-07 02:47:13
+1895184847242752,Fangjie,Cao,8707,854518728062939,1895184847242752,BOT: quick reply,":keycap_1: Service Lifecycle Management
+:keycap_2: Sound Loudness Methods
+:keycap_3: Sound Level Meter
+:keycap_4: System Level Monitor
+",2018-09-07 02:47:14
+1895184847242752,Fangjie,Cao,8708,1895184847242752,854518728062939,user_quick_reply: BUTTON_DKB_System Level Monitor,:keycap_4:,2018-09-07 02:47:27
+1895184847242752,Fangjie,Cao,8709,854518728062939,1895184847242752,BOT: message,"Oops, that is not correct. :disappointed_face:",2018-09-07 02:47:28
+1895184847242752,Fangjie,Cao,8710,854518728062939,1895184847242752,BOT: quick reply,The correct answer is Sound Level Meter.,2018-09-07 02:47:29
+1895184847242752,Fangjie,Cao,8711,1895184847242752,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-07 02:47:43
+1895184847242752,Fangjie,Cao,8712,854518728062939,1895184847242752,BOT: message,Would you answer this question for me?,2018-09-07 02:47:44
+1895184847242752,Fangjie,Cao,8713,854518728062939,1895184847242752,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-09-07 02:47:45
+1895184847242752,Fangjie,Cao,8714,854518728062939,1895184847242752,BOT: quick reply,"True or false: if you wear a back belt, you can lift more weight than you could without a belt.",2018-09-07 02:47:46
+1895184847242752,Fangjie,Cao,8715,1895184847242752,854518728062939,user_typing,Yes,2018-09-07 02:48:04
+1895184847242752,Fangjie,Cao,8716,854518728062939,1895184847242752,BOT: message,"I'm sorry, but that was incorrect. :disappointed_face:",2018-09-07 02:48:04
+1895184847242752,Fangjie,Cao,8717,854518728062939,1895184847242752,BOT: quick reply,The correct answer is False.,2018-09-07 02:48:05
+1895184847242752,Fangjie,Cao,8718,1895184847242752,854518728062939,user_quick_reply: WHY,Why?,2018-09-07 02:48:21
+1895184847242752,Fangjie,Cao,8719,854518728062939,1895184847242752,BOT: message,This is an explanation of the question:,2018-09-07 02:48:22
+1895184847242752,Fangjie,Cao,8720,854518728062939,1895184847242752,BOT: quick reply,Workers often lift more weight under the illusion that use of back belts increases the lifting capability of a worker. There has not been sufficient evidence to support this fact and hence it cannot be held true.,2018-09-07 02:48:23
+1895184847242752,Fangjie,Cao,8721,1895184847242752,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-09-07 02:50:16
+1895184847242752,Fangjie,Cao,8722,854518728062939,1895184847242752,BOT: message,"Alrighty, let's try this one.",2018-09-07 02:50:16
+1895184847242752,Fangjie,Cao,8723,854518728062939,1895184847242752,BOT: quick reply,True or false: portable fire extinguishers should only be used by trained employees.,2018-09-07 02:50:17
+1895184847242752,Fangjie,Cao,8724,1895184847242752,854518728062939,user_typing,False,2018-09-07 02:50:59
+1895184847242752,Fangjie,Cao,8725,854518728062939,1895184847242752,BOT: message,"Oops, that answer was incorrect. :disappointed_face:",2018-09-07 02:50:59
+1895184847242752,Fangjie,Cao,8726,854518728062939,1895184847242752,BOT: quick reply,The correct answer is True.,2018-09-07 02:51:00
+1895184847242752,Fangjie,Cao,8727,1895184847242752,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-07 02:51:15
+1895184847242752,Fangjie,Cao,8728,854518728062939,1895184847242752,BOT: message,Let's see if you would answer this one.,2018-09-07 02:51:16
+1895184847242752,Fangjie,Cao,8729,854518728062939,1895184847242752,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-09-07 02:51:16
+1895184847242752,Fangjie,Cao,8730,854518728062939,1895184847242752,BOT: quick reply,"True or false: you can always smell, see, or taste harmful bacteria in food that can cause illness.",2018-09-07 02:51:17
+1895184847242752,Fangjie,Cao,8731,1895184847242752,854518728062939,user_typing,True,2018-09-07 02:51:57
+1895184847242752,Fangjie,Cao,8732,854518728062939,1895184847242752,BOT: message,"I'm sorry, but that was incorrect. :disappointed_face:",2018-09-07 02:51:58
+1895184847242752,Fangjie,Cao,8733,854518728062939,1895184847242752,BOT: quick reply,The correct answer is False.,2018-09-07 02:51:59
+1895184847242752,Fangjie,Cao,8734,1895184847242752,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-07 02:52:18
+1895184847242752,Fangjie,Cao,8735,854518728062939,1895184847242752,BOT: message,Would you answer this question for me?,2018-09-07 02:52:18
+1895184847242752,Fangjie,Cao,8736,854518728062939,1895184847242752,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-09-07 02:52:19
+1895184847242752,Fangjie,Cao,8737,854518728062939,1895184847242752,BOT: quick reply,What does CERT stand for?,2018-09-07 02:52:20
+1895184847242752,Fangjie,Cao,8738,1895184847242752,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-07 02:52:36
+1895184847242752,Fangjie,Cao,8739,854518728062939,1895184847242752,BOT: message,It's one of the following choices.,2018-09-07 02:52:37
+1895184847242752,Fangjie,Cao,8740,854518728062939,1895184847242752,BOT: quick reply,":keycap_1: Community Emergency Response Team
+:keycap_2: Community Experimental Research Team
+:keycap_3: Controlled Evacuation and Response Tactics
+:keycap_4: Central Emergency Response Terminal
+",2018-09-07 02:52:38
+1895184847242752,Fangjie,Cao,8741,1895184847242752,854518728062939,user_quick_reply: BUTTON_DKB_Central Emergency Response Terminal,:keycap_4:,2018-09-07 02:52:49
+1895184847242752,Fangjie,Cao,8742,854518728062939,1895184847242752,BOT: message,That's not quite right. :disappointed_face:,2018-09-07 02:52:49
+1895184847242752,Fangjie,Cao,8743,854518728062939,1895184847242752,BOT: quick reply,The correct answer is Community Emergency Response Team.,2018-09-07 02:52:50
+1895184847242752,Fangjie,Cao,8744,1895184847242752,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-07 02:53:13
+1895184847242752,Fangjie,Cao,8745,854518728062939,1895184847242752,BOT: message,Would you answer this question for me?,2018-09-07 02:53:14
+1895184847242752,Fangjie,Cao,8746,854518728062939,1895184847242752,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-09-07 02:53:14
+1895184847242752,Fangjie,Cao,8747,854518728062939,1895184847242752,BOT: quick reply,What should you NOT do while treating cuts and scrapes?,2018-09-07 02:53:15
+1895184847242752,Fangjie,Cao,8748,1895184847242752,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-07 02:53:28
+1895184847242752,Fangjie,Cao,8749,854518728062939,1895184847242752,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-09-07 02:53:29
+1895184847242752,Fangjie,Cao,8750,854518728062939,1895184847242752,BOT: quick reply,":keycap_1: Apply pressure on the wound with a clean cloth or bandage
+:keycap_2: Wash the wound with soap
+:keycap_3: Apply an antibiotic to the wound
+:keycap_4: Cover the wound
+",2018-09-07 02:53:29
+1895184847242752,Fangjie,Cao,8751,1895184847242752,854518728062939,user_quick_reply: BUTTON_AKB_Wash the wound with soap,:keycap_2:,2018-09-07 02:54:01
+1895184847242752,Fangjie,Cao,8752,854518728062939,1895184847242752,BOT: message,Nice work! Keep it up!,2018-09-07 02:54:01
+1895184847242752,Fangjie,Cao,8753,854518728062939,1895184847242752,BOT: quick reply,The correct answer is Wash the wound with soap.,2018-09-07 02:54:02
+1895184847242752,Fangjie,Cao,8754,1895184847242752,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-07 02:54:08
+1895184847242752,Fangjie,Cao,8755,854518728062939,1895184847242752,BOT: message,Let's try this one.,2018-09-07 02:54:09
+1895184847242752,Fangjie,Cao,8756,854518728062939,1895184847242752,BOT: quick reply,What should you NOT do when lowering a load?,2018-09-07 02:54:10
+1895184847242752,Fangjie,Cao,8757,1895184847242752,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-07 02:54:19
+1895184847242752,Fangjie,Cao,8758,854518728062939,1895184847242752,BOT: message,Okay. I'll give you some choices.,2018-09-07 02:54:20
+1895184847242752,Fangjie,Cao,8759,854518728062939,1895184847242752,BOT: quick reply,":keycap_1: Twist your body, keep the load close, and bend your knees
+:keycap_2: Keep the load close to your body
+:keycap_3: Bend your knees
+:keycap_4: Twist your body
+",2018-09-07 02:54:21
+1895184847242752,Fangjie,Cao,8760,1895184847242752,854518728062939,user_quick_reply: BUTTON_AKB_Twist your body,:keycap_4:,2018-09-07 02:54:31
+1895184847242752,Fangjie,Cao,8761,854518728062939,1895184847242752,BOT: message,Nice work! Keep it up!,2018-09-07 02:54:31
+1895184847242752,Fangjie,Cao,8762,854518728062939,1895184847242752,BOT: quick reply,The correct answer is Twist your body.,2018-09-07 02:54:32
+1895184847242752,Fangjie,Cao,8763,1895184847242752,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-07 02:54:36
+1895184847242752,Fangjie,Cao,8764,854518728062939,1895184847242752,BOT: message,Could you answer this one for me?,2018-09-07 02:54:37
+1895184847242752,Fangjie,Cao,8765,854518728062939,1895184847242752,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-09-07 02:54:37
+1895184847242752,Fangjie,Cao,8766,854518728062939,1895184847242752,BOT: quick reply,What should you NOT do while lifting objects?,2018-09-07 02:54:38
+1895184847242752,Fangjie,Cao,8767,1895184847242752,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-07 02:54:51
+1895184847242752,Fangjie,Cao,8768,854518728062939,1895184847242752,BOT: message,It's one of the following choices.,2018-09-07 02:54:52
+1895184847242752,Fangjie,Cao,8769,854518728062939,1895184847242752,BOT: quick reply,":keycap_1: Bend at the knees
+:keycap_2: Keep your back straight
+:keycap_3: Keep the object close to your body
+:keycap_4: Keep your feet together
+",2018-09-07 02:54:53
+1895184847242752,Fangjie,Cao,8770,1895184847242752,854518728062939,user_quick_reply: BUTTON_AKB_Keep your feet together,:keycap_4:,2018-09-07 02:55:33
+1895184847242752,Fangjie,Cao,8771,854518728062939,1895184847242752,BOT: message,Yes! You got the correct answer!,2018-09-07 02:55:34
+1895184847242752,Fangjie,Cao,8772,854518728062939,1895184847242752,BOT: quick reply,The correct answer is Keep your feet together.,2018-09-07 02:55:34
+1895184847242752,Fangjie,Cao,8773,1895184847242752,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-07 02:55:40
+1895184847242752,Fangjie,Cao,8774,854518728062939,1895184847242752,BOT: message,Here's a question for you:,2018-09-07 02:55:41
+1895184847242752,Fangjie,Cao,8775,854518728062939,1895184847242752,BOT: quick reply,How long can high-acid canned food such as tomatoes be stored?,2018-09-07 02:55:42
+1895184847242752,Fangjie,Cao,8776,1895184847242752,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-07 02:55:58
+1895184847242752,Fangjie,Cao,8777,854518728062939,1895184847242752,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-09-07 02:55:58
+1895184847242752,Fangjie,Cao,8778,854518728062939,1895184847242752,BOT: quick reply,":keycap_1: 2 to 4 years
+:keycap_2: 12 to 18 months
+:keycap_3: 10 to 30 days
+:keycap_4: 2 to 6 months
+",2018-09-07 02:55:59
+1895184847242752,Fangjie,Cao,8779,1895184847242752,854518728062939,user_quick_reply: BUTTON_AKB_12 to 18 months,:keycap_2:,2018-09-07 02:56:05
+1895184847242752,Fangjie,Cao,8780,854518728062939,1895184847242752,BOT: message,Great job getting the correct answer!,2018-09-07 02:56:06
+1895184847242752,Fangjie,Cao,8781,854518728062939,1895184847242752,BOT: quick reply,The correct answer is 12 to 18 months.,2018-09-07 02:56:06
+1895184847242752,Fangjie,Cao,8782,1895184847242752,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-07 02:56:17
+1895184847242752,Fangjie,Cao,8783,854518728062939,1895184847242752,BOT: quick reply,"Nice job! You've practiced enough questions today. Please come back tomorrow and click on ""Resume Learning :flexed_biceps_medium-light_skin_tone:"" for another practice session.",2018-09-07 02:56:18
+1895184847242752,Fangjie,Cao,12592,854518728062939,1895184847242752,BOT: quick reply,"Hi Fangjie, remember to practice some questions with me if you haven't finished your session today!",2018-09-07 20:00:09

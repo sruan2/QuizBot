@@ -1,6 +1,6 @@
 '''
-    quizbot_time.py
-    Author: Liwei Jiang
+    quizbot batch 4 user data.py
+    Author: Sherry Ruan, Liwei Jiang
     Date: 02/08/2018
     Usage: Calculate the usage time of the QuizBot app for a user.
 '''
@@ -19,11 +19,15 @@ result_filename = "quizbot_data_analysis.txt"
 practice_question_file = "practice_question.csv"
 correctness_rate_file = "correctness_rate.csv"
 
-users = ["Sherry_Ruan", "Jeongeun_Park", "Shuo_Han", # Tuesday
-         "Jackie_Yang", "Yunan_Xu", "Xuebing_Leng", "Zhiyuan_Lin", "Jerry_Hong", # Wednesday
-         "Emma_Chen", "Iris_Lian", "Alice_Wang", "Irene_Lai", "Wenjing_Yan",  # Wednesday
-         "Jackie_Hang", "Yun_Zhang", "Kebing_Li", "Heidi_He", "Anna_Yu",  # Wednesday
-         "Yin_Li", "Ran_Gong", "Qiwen_Zhang"
+users = [
+         # "Sherry_Ruan", "Jeongeun_Park", "Shuo_Han", # Tuesday
+         # "Jackie_Yang", "Yunan_Xu", "Xuebing_Leng", "Zhiyuan_Lin", "Jerry_Hong",
+         # "Emma_Chen", "Iris_Lian", "Alice_Wang", "Irene_Lai", "Wenjing_Yan",
+         # "Jackie_Hang", "Yun_Zhang", "Kebing_Li", "Heidi_He", "Anna_Yu",
+         # "Yin_Li", "Ran_Gong", "Qiwen_Zhang", "Tianshi_Li",
+         # "Yiran_Shen", "Wendy_Li", "Wenming_Zhang",
+         # "Mkhanyisi_Gamedze", "Meng_Tang", "Miao_Zhang", "Fangjie_Cao",
+         "Harry_Liu"
          ]
 
 # a dictionary of the number of times user studied each question
@@ -142,12 +146,12 @@ for user in users:
         if (time_stamp.year, time_stamp.month, time_stamp.day) != (old_time_stamp.year, old_time_stamp.month, old_time_stamp.day):
             analysis.append([])
             day_counter += 1
-            sub_time_report.append(
-                (old_time_stamp.year, old_time_stamp.month, old_time_stamp.day, total_usage_time/60))
+            sub_time_report.append((old_time_stamp.year, old_time_stamp.month, old_time_stamp.day, total_usage_time/60))
             total_usage_time = 0
-            new_time_stamp_uid = conversation_file[i][UID_INDEX]
+            new_time_stamp_uid = int(conversation_file[i][UID_INDEX])
+            print(old_time_stamp_uid, new_time_stamp_uid)
             sub_practice_report.append([int(x[QID_INDEX]) for x in user_history_file \
-                                       if (x[END_UID_INDEX] != "" and x[BEGIN_UID_INDEX] >= old_time_stamp_uid and x[BEGIN_UID_INDEX] <= new_time_stamp_uid)])
+                                       if (x[END_UID_INDEX] != "" and int(x[END_UID_INDEX]) >= old_time_stamp_uid and int(x[END_UID_INDEX]) < new_time_stamp_uid)])
             old_time_stamp_uid = new_time_stamp_uid
 
         if (time_stamp - old_time_stamp).total_seconds() <= BREAK_TIME:
@@ -155,8 +159,8 @@ for user in users:
         old_time_stamp = time_stamp
 
     sub_time_report.append((old_time_stamp.year, old_time_stamp.month, old_time_stamp.day, total_usage_time/60))
-    sub_practice_report.append([int(x[QID_INDEX]) for x in user_history_file \
-                                       if (x[END_UID_INDEX] != "" and x[BEGIN_UID_INDEX] >= old_time_stamp_uid)])
+    print(old_time_stamp_uid, new_time_stamp_uid)
+    sub_practice_report.append([int(x[QID_INDEX]) for x in user_history_file if (x[END_UID_INDEX] != "" and int(x[END_UID_INDEX]) >= old_time_stamp_uid)])
     time_report[user] = sub_time_report
     practice_report[user] = sub_practice_report
 
@@ -166,6 +170,7 @@ for user in users:
     print(user)
     events.sort()
     print(events)
+    print('Count: %d ' %len(events))
 
     events_correct = [int(x[QID_INDEX]) for x in user_history_file if x[END_UID_INDEX] != "" and int(x[SCORE_INDEX]) > 8]
 

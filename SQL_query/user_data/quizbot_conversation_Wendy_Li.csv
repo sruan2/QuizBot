@@ -1,0 +1,319 @@
+user_id,user_firstname,user_lastname,uid,sender,recipient,type,dialogue,time_stamp
+1915816761845068,Wendy,Li,8537,1915816761845068,854518728062939,persistent_menu: GET_INTRO_1,Get Started,2018-09-07 02:06:10
+1915816761845068,Wendy,Li,8538,854518728062939,1915816761845068,BOT: image,https://www.smartprimer.ai:4443/pictures/avatar/quizbot_avatar.png,2018-09-07 02:06:14
+1915816761845068,Wendy,Li,8539,854518728062939,1915816761845068,BOT: quick reply,"Hi Wendy! My name is Frosty :penguin: and I’m here to help you learn all about science:microscope:, verbal reasoning (GRE) :input_latin_uppercase:, and safety:hammer_and_wrench:!",2018-09-07 02:06:14
+1915816761845068,Wendy,Li,8540,1915816761845068,854518728062939,user_quick_reply: GET_INTRO_2,"Yes, continue :backhand_index_pointing_right_medium-light_skin_tone:",2018-09-07 02:06:27
+1915816761845068,Wendy,Li,8541,854518728062939,1915816761845068,BOT: message,Here’s how it works.,2018-09-07 02:06:27
+1915816761845068,Wendy,Li,8542,854518728062939,1915816761845068,BOT: message,"I ask you questions, and you give me answers.",2018-09-07 02:06:28
+1915816761845068,Wendy,Li,8543,854518728062939,1915816761845068,BOT: quick reply,We will learn fun things together!,2018-09-07 02:06:29
+1915816761845068,Wendy,Li,8544,1915816761845068,854518728062939,persistent_menu: GRE,GRE :input_latin_uppercase:,2018-09-07 02:06:40
+1915816761845068,Wendy,Li,8545,854518728062939,1915816761845068,BOT: quick reply,Awesome! Let's learn about the GRE!,2018-09-07 02:06:41
+1915816761845068,Wendy,Li,8546,1915816761845068,854518728062939,user_quick_reply: NEXT_QUESTION,Tap me :backhand_index_pointing_right_medium-light_skin_tone:,2018-09-07 02:06:43
+1915816761845068,Wendy,Li,8547,854518728062939,1915816761845068,BOT: message,How about this next one:,2018-09-07 02:06:44
+1915816761845068,Wendy,Li,8548,854518728062939,1915816761845068,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-09-07 02:06:45
+1915816761845068,Wendy,Li,8549,854518728062939,1915816761845068,BOT: quick reply,"Although John F. Kennedy was known for his carefree flag football games, Gerald Ford should be _____ as our football president: he turned down offers to play for two National Football League teams in order to pursue a career in public service.",2018-09-07 02:06:45
+1915816761845068,Wendy,Li,8550,1915816761845068,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-07 02:06:59
+1915816761845068,Wendy,Li,8551,854518728062939,1915816761845068,BOT: message,Which of the following options is the right answer?,2018-09-07 02:07:00
+1915816761845068,Wendy,Li,8552,854518728062939,1915816761845068,BOT: quick reply,":keycap_1: apotheosized
+:keycap_2: abrogated
+:keycap_3: relegated
+:keycap_4: annulled
+:keycap_5: criticized
+",2018-09-07 02:07:00
+1915816761845068,Wendy,Li,8553,1915816761845068,854518728062939,persistent_menu: SCIENCE,Science:microscope:,2018-09-07 02:07:36
+1915816761845068,Wendy,Li,8554,854518728062939,1915816761845068,BOT: image,https://www.smartprimer.ai:4443/pictures/avatar/evolvereading_scientist.gif,2018-09-07 02:07:39
+1915816761845068,Wendy,Li,8555,854518728062939,1915816761845068,BOT: quick reply,Let's test your knowledge on science!,2018-09-07 02:07:39
+1915816761845068,Wendy,Li,8556,1915816761845068,854518728062939,user_quick_reply: NEXT_QUESTION,Okay :backhand_index_pointing_right_medium-light_skin_tone:,2018-09-07 02:07:44
+1915816761845068,Wendy,Li,8557,854518728062939,1915816761845068,BOT: message,Let's see if you can get this one.,2018-09-07 02:07:45
+1915816761845068,Wendy,Li,8558,854518728062939,1915816761845068,BOT: quick reply,What kind of viscosity is found in long-chain hydrocarbons?,2018-09-07 02:07:46
+1915816761845068,Wendy,Li,11956,1915816761845068,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-07 17:45:39
+1915816761845068,Wendy,Li,11957,854518728062939,1915816761845068,BOT: message,Okay. I'll give you some choices.,2018-09-07 17:45:39
+1915816761845068,Wendy,Li,11958,854518728062939,1915816761845068,BOT: quick reply,":keycap_1: intense viscosity
+:keycap_2: high viscosity
+:keycap_3: low viscosity
+:keycap_4: increased viscosity
+",2018-09-07 17:45:40
+1915816761845068,Wendy,Li,11959,1915816761845068,854518728062939,user_quick_reply: BUTTON_AKB_high viscosity,:keycap_2:,2018-09-07 17:46:32
+1915816761845068,Wendy,Li,11960,854518728062939,1915816761845068,BOT: image,https://www.smartprimer.ai:4443/pictures/avatar/congrats/penguinnormal_normal_purple.png,2018-09-07 17:46:34
+1915816761845068,Wendy,Li,11961,854518728062939,1915816761845068,BOT: message,Yes! You got the correct answer!,2018-09-07 17:46:34
+1915816761845068,Wendy,Li,11962,854518728062939,1915816761845068,BOT: quick reply,The correct answer is high viscosity.,2018-09-07 17:46:35
+1915816761845068,Wendy,Li,11963,1915816761845068,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-07 17:46:43
+1915816761845068,Wendy,Li,11964,854518728062939,1915816761845068,BOT: message,What about this next question:,2018-09-07 17:46:44
+1915816761845068,Wendy,Li,11965,854518728062939,1915816761845068,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-09-07 17:46:44
+1915816761845068,Wendy,Li,11966,854518728062939,1915816761845068,BOT: quick reply,What living species of bird is considered the largest of the raptors?,2018-09-07 17:46:45
+1915816761845068,Wendy,Li,11967,1915816761845068,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-07 17:46:56
+1915816761845068,Wendy,Li,11968,854518728062939,1915816761845068,BOT: message,Which of the following options is the right answer?,2018-09-07 17:46:56
+1915816761845068,Wendy,Li,11969,854518728062939,1915816761845068,BOT: quick reply,":keycap_1: pterodactyl
+:keycap_2: golden eagles
+:keycap_3: California condor
+:keycap_4: peregrine falcon
+",2018-09-07 17:46:57
+1915816761845068,Wendy,Li,11970,1915816761845068,854518728062939,user_quick_reply: BUTTON_AKB_golden eagles,:keycap_2:,2018-09-07 17:47:40
+1915816761845068,Wendy,Li,11971,854518728062939,1915816761845068,BOT: message,Yes! You got the correct answer!,2018-09-07 17:47:41
+1915816761845068,Wendy,Li,11972,854518728062939,1915816761845068,BOT: quick reply,The correct answer is golden eagles.,2018-09-07 17:47:41
+1915816761845068,Wendy,Li,11973,1915816761845068,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-07 17:50:19
+1915816761845068,Wendy,Li,11974,854518728062939,1915816761845068,BOT: message,Here's a question for you:,2018-09-07 17:50:20
+1915816761845068,Wendy,Li,11975,854518728062939,1915816761845068,BOT: quick reply,What opens two strands of DNA?,2018-09-07 17:50:20
+1915816761845068,Wendy,Li,11976,1915816761845068,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-07 17:51:01
+1915816761845068,Wendy,Li,11977,854518728062939,1915816761845068,BOT: message,It's one of the following choices.,2018-09-07 17:51:02
+1915816761845068,Wendy,Li,11978,854518728062939,1915816761845068,BOT: quick reply,":keycap_1: replication
+:keycap_2: chromosome
+:keycap_3: adenylate
+:keycap_4: helicase
+",2018-09-07 17:51:02
+1915816761845068,Wendy,Li,11979,1915816761845068,854518728062939,user_quick_reply: BUTTON_DKB_chromosome,:keycap_2:,2018-09-07 17:51:24
+1915816761845068,Wendy,Li,11980,854518728062939,1915816761845068,BOT: message,"Hmm, that wasn't quite right. :disappointed_face:",2018-09-07 17:51:24
+1915816761845068,Wendy,Li,11981,854518728062939,1915816761845068,BOT: quick reply,The correct answer is helicase.,2018-09-07 17:51:25
+1915816761845068,Wendy,Li,11982,1915816761845068,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-07 17:54:10
+1915816761845068,Wendy,Li,11983,854518728062939,1915816761845068,BOT: message,Let's see if you can get this one.,2018-09-07 17:54:10
+1915816761845068,Wendy,Li,11984,854518728062939,1915816761845068,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-09-07 17:54:11
+1915816761845068,Wendy,Li,11985,854518728062939,1915816761845068,BOT: quick reply,"When your brain senses that your body temperature is increasing, it sends messages to the blood vessels in the skin to increase in what?",2018-09-07 17:54:12
+1915816761845068,Wendy,Li,11986,1915816761845068,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-07 17:54:41
+1915816761845068,Wendy,Li,11987,854518728062939,1915816761845068,BOT: message,It's one of the following choices.,2018-09-07 17:54:42
+1915816761845068,Wendy,Li,11988,854518728062939,1915816761845068,BOT: quick reply,":keycap_1: height
+:keycap_2: surface
+:keycap_3: weight
+:keycap_4: diameter
+",2018-09-07 17:54:43
+1915816761845068,Wendy,Li,11989,1915816761845068,854518728062939,user_quick_reply: I_DONT_KNOW,I don’t know :downcast_face_with_sweat:,2018-09-07 17:54:47
+1915816761845068,Wendy,Li,11990,854518728062939,1915816761845068,BOT: quick reply,Do you really want to give up?,2018-09-07 17:54:48
+1915816761845068,Wendy,Li,11991,1915816761845068,854518728062939,user_quick_reply: GIVEUP_NO,"No, I'll try again!",2018-09-07 17:54:53
+1915816761845068,Wendy,Li,11992,854518728062939,1915816761845068,BOT: message,Okay! Let's give it a try again :flexed_biceps_medium-light_skin_tone:,2018-09-07 17:54:53
+1915816761845068,Wendy,Li,11993,854518728062939,1915816761845068,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-09-07 17:54:54
+1915816761845068,Wendy,Li,11994,854518728062939,1915816761845068,BOT: quick reply,":keycap_1: surface
+:keycap_2: weight
+:keycap_3: diameter
+:keycap_4: height
+",2018-09-07 17:54:55
+1915816761845068,Wendy,Li,11995,1915816761845068,854518728062939,user_quick_reply: BUTTON_DKB_height,:keycap_4:,2018-09-07 17:54:58
+1915816761845068,Wendy,Li,11996,854518728062939,1915816761845068,BOT: message,"Oops, that is not correct. :disappointed_face:",2018-09-07 17:54:59
+1915816761845068,Wendy,Li,11997,854518728062939,1915816761845068,BOT: quick reply,The correct answer is diameter.,2018-09-07 17:55:00
+1915816761845068,Wendy,Li,11998,1915816761845068,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-07 17:55:10
+1915816761845068,Wendy,Li,11999,854518728062939,1915816761845068,BOT: message,Let's try this one.,2018-09-07 17:55:11
+1915816761845068,Wendy,Li,12000,854518728062939,1915816761845068,BOT: quick reply,How often should women perform a breast self-exam?,2018-09-07 17:55:11
+1915816761845068,Wendy,Li,12001,1915816761845068,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-07 17:55:18
+1915816761845068,Wendy,Li,12002,854518728062939,1915816761845068,BOT: message,Okay. I'll give you some choices.,2018-09-07 17:55:19
+1915816761845068,Wendy,Li,12003,854518728062939,1915816761845068,BOT: quick reply,":keycap_1: quarterly
+:keycap_2: weekly
+:keycap_3: yearly
+:keycap_4: monthly
+",2018-09-07 17:55:19
+1915816761845068,Wendy,Li,12004,1915816761845068,854518728062939,user_quick_reply: BUTTON_DKB_yearly,:keycap_3:,2018-09-07 17:56:14
+1915816761845068,Wendy,Li,12005,854518728062939,1915816761845068,BOT: message,"I'm sorry, but that was incorrect. :disappointed_face:",2018-09-07 17:56:15
+1915816761845068,Wendy,Li,12006,854518728062939,1915816761845068,BOT: quick reply,The correct answer is monthly.,2018-09-07 17:56:15
+1915816761845068,Wendy,Li,12007,1915816761845068,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-07 17:56:20
+1915816761845068,Wendy,Li,12008,854518728062939,1915816761845068,BOT: message,Let's see if you can answer this question.,2018-09-07 17:56:20
+1915816761845068,Wendy,Li,12009,854518728062939,1915816761845068,BOT: quick reply,Most fungi get organic compounds from what?,2018-09-07 17:56:21
+1915816761845068,Wendy,Li,12010,1915816761845068,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-07 17:58:41
+1915816761845068,Wendy,Li,12011,854518728062939,1915816761845068,BOT: message,Okay. I'll give you some choices.,2018-09-07 17:58:42
+1915816761845068,Wendy,Li,12012,854518728062939,1915816761845068,BOT: quick reply,":keycap_1: carnivorous organisms
+:keycap_2: dead organisms
+:keycap_3: living organisms
+:keycap_4: inorganic material
+",2018-09-07 17:58:42
+1915816761845068,Wendy,Li,12013,1915816761845068,854518728062939,user_quick_reply: BUTTON_AKB_dead organisms,:keycap_2:,2018-09-07 18:00:15
+1915816761845068,Wendy,Li,12014,854518728062939,1915816761845068,BOT: message,Great job!,2018-09-07 18:00:16
+1915816761845068,Wendy,Li,12015,854518728062939,1915816761845068,BOT: quick reply,The correct answer is dead organisms.,2018-09-07 18:00:17
+1915816761845068,Wendy,Li,12016,1915816761845068,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-07 18:00:56
+1915816761845068,Wendy,Li,12017,854518728062939,1915816761845068,BOT: message,Could you answer this one for me?,2018-09-07 18:00:56
+1915816761845068,Wendy,Li,12018,854518728062939,1915816761845068,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-09-07 18:00:57
+1915816761845068,Wendy,Li,12019,854518728062939,1915816761845068,BOT: quick reply,Most insects reproduce quickly and through what type of reproduction?,2018-09-07 18:00:57
+1915816761845068,Wendy,Li,12020,1915816761845068,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-07 18:01:51
+1915816761845068,Wendy,Li,12021,854518728062939,1915816761845068,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-09-07 18:01:52
+1915816761845068,Wendy,Li,12022,854518728062939,1915816761845068,BOT: quick reply,":keycap_1: photosynthesis
+:keycap_2: sexual reproduction
+:keycap_3: spores
+:keycap_4: asexual reproduction
+",2018-09-07 18:01:53
+1915816761845068,Wendy,Li,12038,1915816761845068,854518728062939,user_quick_reply: BUTTON_DKB_asexual reproduction,:keycap_4:,2018-09-07 18:04:12
+1915816761845068,Wendy,Li,12039,854518728062939,1915816761845068,BOT: message,"Oops, that wasn't quite correct. :disappointed_face:",2018-09-07 18:04:13
+1915816761845068,Wendy,Li,12040,854518728062939,1915816761845068,BOT: quick reply,The correct answer is sexual reproduction.,2018-09-07 18:04:14
+1915816761845068,Wendy,Li,12056,1915816761845068,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-07 18:05:15
+1915816761845068,Wendy,Li,12057,854518728062939,1915816761845068,BOT: message,Let's see if you can get this one.,2018-09-07 18:05:16
+1915816761845068,Wendy,Li,12058,854518728062939,1915816761845068,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-09-07 18:05:17
+1915816761845068,Wendy,Li,12059,854518728062939,1915816761845068,BOT: quick reply,Nerve cells that sense touch are found mainly where?,2018-09-07 18:05:17
+1915816761845068,Wendy,Li,12060,1915816761845068,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-07 18:05:44
+1915816761845068,Wendy,Li,12061,854518728062939,1915816761845068,BOT: message,Which of the following options is the right answer?,2018-09-07 18:05:45
+1915816761845068,Wendy,Li,12062,854518728062939,1915816761845068,BOT: quick reply,":keycap_1: brain
+:keycap_2: lungs
+:keycap_3: skin
+:keycap_4: stomach
+",2018-09-07 18:05:45
+1915816761845068,Wendy,Li,12063,1915816761845068,854518728062939,user_quick_reply: BUTTON_DKB_brain,:keycap_1:,2018-09-07 18:05:49
+1915816761845068,Wendy,Li,12064,854518728062939,1915816761845068,BOT: message,"I'm sorry, but that was incorrect. :disappointed_face:",2018-09-07 18:05:50
+1915816761845068,Wendy,Li,12066,854518728062939,1915816761845068,BOT: quick reply,The correct answer is skin.,2018-09-07 18:05:50
+1915816761845068,Wendy,Li,12069,1915816761845068,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-07 18:05:58
+1915816761845068,Wendy,Li,12070,854518728062939,1915816761845068,BOT: message,I think you'll like this question.,2018-09-07 18:05:58
+1915816761845068,Wendy,Li,12071,854518728062939,1915816761845068,BOT: quick reply,"Temperature, water, soil, and air are examples of nonliving factors of an ecosystem, also termed what?",2018-09-07 18:05:59
+1915816761845068,Wendy,Li,12078,1915816761845068,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-07 18:06:47
+1915816761845068,Wendy,Li,12079,854518728062939,1915816761845068,BOT: message,Which of the following options is the right answer?,2018-09-07 18:06:48
+1915816761845068,Wendy,Li,12080,854518728062939,1915816761845068,BOT: quick reply,":keycap_1: nucleic factors
+:keycap_2: diverse factors
+:keycap_3: abiotic factors
+:keycap_4: conditional factors
+",2018-09-07 18:06:48
+1915816761845068,Wendy,Li,12081,1915816761845068,854518728062939,user_quick_reply: BUTTON_AKB_abiotic factors,:keycap_3:,2018-09-07 18:06:53
+1915816761845068,Wendy,Li,12082,854518728062939,1915816761845068,BOT: message,Great job getting the correct answer!,2018-09-07 18:06:54
+1915816761845068,Wendy,Li,12083,854518728062939,1915816761845068,BOT: quick reply,The correct answer is abiotic factors.,2018-09-07 18:06:55
+1915816761845068,Wendy,Li,12084,1915816761845068,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-07 18:07:03
+1915816761845068,Wendy,Li,12085,854518728062939,1915816761845068,BOT: message,Let's see if you would answer this one.,2018-09-07 18:07:04
+1915816761845068,Wendy,Li,12086,854518728062939,1915816761845068,BOT: quick reply,The electrode at which oxidation occurs is called the what?,2018-09-07 18:07:04
+1915816761845068,Wendy,Li,12121,1915816761845068,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-07 18:09:27
+1915816761845068,Wendy,Li,12122,854518728062939,1915816761845068,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-09-07 18:09:28
+1915816761845068,Wendy,Li,12123,854518728062939,1915816761845068,BOT: quick reply,":keycap_1: calomel
+:keycap_2: cathode
+:keycap_3: anode
+:keycap_4: diode
+",2018-09-07 18:09:29
+1915816761845068,Wendy,Li,12138,1915816761845068,854518728062939,user_quick_reply: BUTTON_AKB_anode,:keycap_3:,2018-09-07 18:10:12
+1915816761845068,Wendy,Li,12139,854518728062939,1915816761845068,BOT: image,https://www.smartprimer.ai:4443/pictures/avatar/congrats/penguinnormal_happy_orange.png,2018-09-07 18:10:14
+1915816761845068,Wendy,Li,12140,854518728062939,1915816761845068,BOT: message,Nice work! Keep it up!,2018-09-07 18:10:14
+1915816761845068,Wendy,Li,12141,854518728062939,1915816761845068,BOT: quick reply,The correct answer is anode.,2018-09-07 18:10:15
+1915816761845068,Wendy,Li,12146,1915816761845068,854518728062939,user_quick_reply: SWITCH_SUBJECT,Change subject :shuffle_tracks_button:,2018-09-07 18:10:37
+1915816761845068,Wendy,Li,12147,854518728062939,1915816761845068,BOT: quick reply,"Sure, which of the following subjects would you like me to quiz you on?:backhand_index_pointing_down_medium-light_skin_tone:",2018-09-07 18:10:38
+1915816761845068,Wendy,Li,12148,1915816761845068,854518728062939,user_quick_reply: SAFETY,Safety:hammer_and_wrench:,2018-09-07 18:10:42
+1915816761845068,Wendy,Li,12151,854518728062939,1915816761845068,BOT: image,https://www.smartprimer.ai:4443/pictures/avatar/evolvescientist_safety.gif,2018-09-07 18:10:45
+1915816761845068,Wendy,Li,12154,854518728062939,1915816761845068,BOT: quick reply,All right! I’ll quiz you on safety!,2018-09-07 18:10:46
+1915816761845068,Wendy,Li,12155,1915816761845068,854518728062939,user_quick_reply: NEXT_QUESTION,"Yes, continue :backhand_index_pointing_right_medium-light_skin_tone:",2018-09-07 18:10:50
+1915816761845068,Wendy,Li,12156,854518728062939,1915816761845068,BOT: message,How about this next one:,2018-09-07 18:10:50
+1915816761845068,Wendy,Li,12157,854518728062939,1915816761845068,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-09-07 18:10:56
+1915816761845068,Wendy,Li,12158,854518728062939,1915816761845068,BOT: quick reply,What should you NOT do when lowering a load?,2018-09-07 18:10:57
+1915816761845068,Wendy,Li,12159,1915816761845068,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-07 18:11:08
+1915816761845068,Wendy,Li,12160,854518728062939,1915816761845068,BOT: message,It's one of the following choices.,2018-09-07 18:11:09
+1915816761845068,Wendy,Li,12161,854518728062939,1915816761845068,BOT: quick reply,":keycap_1: Twist your body, keep the load close, and bend your knees
+:keycap_2: Bend your knees
+:keycap_3: Twist your body
+:keycap_4: Keep the load close to your body
+",2018-09-07 18:11:10
+1915816761845068,Wendy,Li,12164,1915816761845068,854518728062939,"user_quick_reply: BUTTON_DKB_Twist your body, keep the load close, and bend your knees",:keycap_1:,2018-09-07 18:11:13
+1915816761845068,Wendy,Li,12166,854518728062939,1915816761845068,BOT: message,"I'm sorry, but that was incorrect. :disappointed_face:",2018-09-07 18:11:14
+1915816761845068,Wendy,Li,12168,854518728062939,1915816761845068,BOT: quick reply,The correct answer is Twist your body.,2018-09-07 18:11:14
+1915816761845068,Wendy,Li,12169,1915816761845068,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-07 18:11:22
+1915816761845068,Wendy,Li,12170,854518728062939,1915816761845068,BOT: message,Let's see if you can answer this question.,2018-09-07 18:11:22
+1915816761845068,Wendy,Li,12171,854518728062939,1915816761845068,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-09-07 18:11:23
+1915816761845068,Wendy,Li,12172,854518728062939,1915816761845068,BOT: quick reply,What should you NOT do while lifting objects?,2018-09-07 18:11:24
+1915816761845068,Wendy,Li,12173,1915816761845068,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-07 18:11:31
+1915816761845068,Wendy,Li,12174,854518728062939,1915816761845068,BOT: message,Pick one of the following answers.,2018-09-07 18:11:31
+1915816761845068,Wendy,Li,12175,854518728062939,1915816761845068,BOT: quick reply,":keycap_1: Keep the object close to your body
+:keycap_2: Keep your back straight
+:keycap_3: Keep your feet together
+:keycap_4: Bend at the knees
+",2018-09-07 18:11:32
+1915816761845068,Wendy,Li,12176,1915816761845068,854518728062939,user_quick_reply: BUTTON_AKB_Keep your feet together,:keycap_3:,2018-09-07 18:11:40
+1915816761845068,Wendy,Li,12177,854518728062939,1915816761845068,BOT: image,https://www.smartprimer.ai:4443/pictures/avatar/congrats/penguinnormal_normal_cyan.png,2018-09-07 18:11:42
+1915816761845068,Wendy,Li,12178,854518728062939,1915816761845068,BOT: message,Yes! You got the correct answer!,2018-09-07 18:11:43
+1915816761845068,Wendy,Li,12179,854518728062939,1915816761845068,BOT: quick reply,The correct answer is Keep your feet together.,2018-09-07 18:11:43
+1915816761845068,Wendy,Li,12180,1915816761845068,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-07 18:11:48
+1915816761845068,Wendy,Li,12181,854518728062939,1915816761845068,BOT: message,Let's try this question.,2018-09-07 18:11:49
+1915816761845068,Wendy,Li,12182,854518728062939,1915816761845068,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-09-07 18:11:50
+1915816761845068,Wendy,Li,12183,854518728062939,1915816761845068,BOT: quick reply,How long can high-acid canned food such as tomatoes be stored?,2018-09-07 18:11:50
+1915816761845068,Wendy,Li,12184,1915816761845068,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-07 18:11:55
+1915816761845068,Wendy,Li,12185,854518728062939,1915816761845068,BOT: message,Okay. I'll give you some choices.,2018-09-07 18:11:56
+1915816761845068,Wendy,Li,12186,854518728062939,1915816761845068,BOT: quick reply,":keycap_1: 2 to 4 years
+:keycap_2: 2 to 6 months
+:keycap_3: 12 to 18 months
+:keycap_4: 10 to 30 days
+",2018-09-07 18:11:56
+1915816761845068,Wendy,Li,12187,1915816761845068,854518728062939,user_quick_reply: BUTTON_AKB_12 to 18 months,:keycap_3:,2018-09-07 18:12:02
+1915816761845068,Wendy,Li,12188,854518728062939,1915816761845068,BOT: image,https://www.smartprimer.ai:4443/pictures/avatar/congrats/penguinnormal_normal_cyan.png,2018-09-07 18:12:04
+1915816761845068,Wendy,Li,12189,854518728062939,1915816761845068,BOT: message,Great job!,2018-09-07 18:12:04
+1915816761845068,Wendy,Li,12190,854518728062939,1915816761845068,BOT: quick reply,The correct answer is 12 to 18 months.,2018-09-07 18:12:05
+1915816761845068,Wendy,Li,12191,1915816761845068,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-07 18:12:08
+1915816761845068,Wendy,Li,12192,854518728062939,1915816761845068,BOT: message,How about this next one:,2018-09-07 18:12:09
+1915816761845068,Wendy,Li,12193,854518728062939,1915816761845068,BOT: quick reply,Which fire extinguishers are used to put out Class A fires?,2018-09-07 18:12:09
+1915816761845068,Wendy,Li,12194,1915816761845068,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-07 18:12:14
+1915816761845068,Wendy,Li,12195,854518728062939,1915816761845068,BOT: message,Okay. I'll give you some choices.,2018-09-07 18:12:15
+1915816761845068,Wendy,Li,12196,854518728062939,1915816761845068,BOT: quick reply,":keycap_1: Multi-purpose dry chemical only
+:keycap_2: CO2 only
+:keycap_3: Water only
+:keycap_4: Both water and multi-purpose dry chemical
+:keycap_5: Both CO2 and water
+",2018-09-07 18:12:16
+1915816761845068,Wendy,Li,12197,1915816761845068,854518728062939,user_quick_reply: BUTTON_AKB_Both water and multi-purpose dry chemical,:keycap_4:,2018-09-07 18:12:28
+1915816761845068,Wendy,Li,12198,854518728062939,1915816761845068,BOT: image,https://www.smartprimer.ai:4443/pictures/avatar/congrats/penguinnormal_jubilated_purple.png,2018-09-07 18:12:30
+1915816761845068,Wendy,Li,12199,854518728062939,1915816761845068,BOT: message,Yes! You got the correct answer!,2018-09-07 18:12:30
+1915816761845068,Wendy,Li,12200,854518728062939,1915816761845068,BOT: quick reply,The correct answer is Both water and multi-purpose dry chemical.,2018-09-07 18:12:31
+1915816761845068,Wendy,Li,12201,1915816761845068,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-07 18:12:41
+1915816761845068,Wendy,Li,12202,854518728062939,1915816761845068,BOT: message,Could you answer this one for me?,2018-09-07 18:12:42
+1915816761845068,Wendy,Li,12203,854518728062939,1915816761845068,BOT: quick reply,Which fire extinguishers are used to put out fires caused by flammable liquids?,2018-09-07 18:12:42
+1915816761845068,Wendy,Li,12204,1915816761845068,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-07 18:19:16
+1915816761845068,Wendy,Li,12205,854518728062939,1915816761845068,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-09-07 18:19:17
+1915816761845068,Wendy,Li,12206,854518728062939,1915816761845068,BOT: quick reply,":keycap_1: Class B carbon dioxide fire extinguisher
+:keycap_2: Class C dry chemical fire extinguisher
+:keycap_3: Class A water fire extinguishers
+",2018-09-07 18:19:18
+1915816761845068,Wendy,Li,12207,1915816761845068,854518728062939,user_quick_reply: BUTTON_DKB_Class C dry chemical fire extinguisher,:keycap_2:,2018-09-07 18:19:23
+1915816761845068,Wendy,Li,12208,854518728062939,1915816761845068,BOT: message,"Oops, that is not correct. :disappointed_face:",2018-09-07 18:19:24
+1915816761845068,Wendy,Li,12209,854518728062939,1915816761845068,BOT: quick reply,The correct answer is Class B carbon dioxide fire extinguisher.,2018-09-07 18:19:25
+1915816761845068,Wendy,Li,12210,1915816761845068,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-07 18:19:34
+1915816761845068,Wendy,Li,12211,854518728062939,1915816761845068,BOT: message,Let's take a look at this question.,2018-09-07 18:19:35
+1915816761845068,Wendy,Li,12212,854518728062939,1915816761845068,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-09-07 18:19:36
+1915816761845068,Wendy,Li,12213,854518728062939,1915816761845068,BOT: quick reply,"If your co-worker needs CPR but you are not trained in it, what should you do?",2018-09-07 18:19:36
+1915816761845068,Wendy,Li,12214,1915816761845068,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-07 18:19:42
+1915816761845068,Wendy,Li,12215,854518728062939,1915816761845068,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-09-07 18:19:43
+1915816761845068,Wendy,Li,12216,854518728062939,1915816761845068,BOT: quick reply,":keycap_1: Wait for emergency personnel to arrive
+:keycap_2: Lift the patient's head
+:keycap_3: Perform chest compressions only
+:keycap_4: Give rescue breaths only
+",2018-09-07 18:19:43
+1915816761845068,Wendy,Li,12217,1915816761845068,854518728062939,user_quick_reply: BUTTON_DKB_Give rescue breaths only,:keycap_4:,2018-09-07 18:19:53
+1915816761845068,Wendy,Li,12218,854518728062939,1915816761845068,BOT: message,"Hmm, that wasn't quite right. :disappointed_face:",2018-09-07 18:19:53
+1915816761845068,Wendy,Li,12219,854518728062939,1915816761845068,BOT: quick reply,The correct answer is Perform chest compressions only.,2018-09-07 18:19:54
+1915816761845068,Wendy,Li,12220,1915816761845068,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-07 18:20:14
+1915816761845068,Wendy,Li,12221,854518728062939,1915816761845068,BOT: message,Let's try this one.,2018-09-07 18:20:15
+1915816761845068,Wendy,Li,12222,854518728062939,1915816761845068,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-09-07 18:20:16
+1915816761845068,Wendy,Li,12223,854518728062939,1915816761845068,BOT: quick reply,"When you discover a fire, you should do what?",2018-09-07 18:20:16
+1915816761845068,Wendy,Li,12224,1915816761845068,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-07 18:20:25
+1915816761845068,Wendy,Li,12225,854518728062939,1915816761845068,BOT: message,Okay. I'll give you some choices.,2018-09-07 18:20:25
+1915816761845068,Wendy,Li,12226,854518728062939,1915816761845068,BOT: quick reply,":keycap_1: Run out of the building without warning others of the fire
+:keycap_2: Pull the fire alarm and call the fire department
+:keycap_3: Stay in the building until you figure out a way to extinguish the fire
+:keycap_4: Use a fire extinguisher to put out the fire, even if you've never used a fire extinguisher before
+",2018-09-07 18:20:26
+1915816761845068,Wendy,Li,12227,1915816761845068,854518728062939,user_quick_reply: BUTTON_AKB_Pull the fire alarm and call the fire department,:keycap_2:,2018-09-07 18:20:44
+1915816761845068,Wendy,Li,12228,854518728062939,1915816761845068,BOT: message,Great! Keep it up! :flexed_biceps_medium-light_skin_tone:,2018-09-07 18:20:44
+1915816761845068,Wendy,Li,12229,854518728062939,1915816761845068,BOT: quick reply,The correct answer is Pull the fire alarm and call the fire department.,2018-09-07 18:20:45
+1915816761845068,Wendy,Li,12230,1915816761845068,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-07 18:20:49
+1915816761845068,Wendy,Li,12231,854518728062939,1915816761845068,BOT: message,Could you answer this one for me?,2018-09-07 18:20:50
+1915816761845068,Wendy,Li,12232,854518728062939,1915816761845068,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-09-07 18:20:51
+1915816761845068,Wendy,Li,12233,854518728062939,1915816761845068,BOT: quick reply,What three major factors cause food contamination?,2018-09-07 18:20:51
+1915816761845068,Wendy,Li,12234,1915816761845068,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-07 18:20:56
+1915816761845068,Wendy,Li,12235,854518728062939,1915816761845068,BOT: message,Okay. I'll give you some choices.,2018-09-07 18:20:57
+1915816761845068,Wendy,Li,12236,854518728062939,1915816761845068,BOT: quick reply,":keycap_1: Physical, biological, and radiological
+:keycap_2: Physical, chemical, and psychosocial
+:keycap_3: Physical, psychological, and health
+:keycap_4: Physical, biological, and chemical
+",2018-09-07 18:20:58
+1915816761845068,Wendy,Li,12237,1915816761845068,854518728062939,"user_quick_reply: BUTTON_AKB_Physical, biological, and chemical",:keycap_4:,2018-09-07 18:21:11
+1915816761845068,Wendy,Li,12238,854518728062939,1915816761845068,BOT: message,Nice! That was right!,2018-09-07 18:21:12
+1915816761845068,Wendy,Li,12239,854518728062939,1915816761845068,BOT: quick reply,"The correct answer is Physical, biological, and chemical.",2018-09-07 18:21:13
+1915816761845068,Wendy,Li,12240,1915816761845068,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-07 18:21:16
+1915816761845068,Wendy,Li,12241,854518728062939,1915816761845068,BOT: message,Would you answer this question for me?,2018-09-07 18:21:17
+1915816761845068,Wendy,Li,12242,854518728062939,1915816761845068,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-09-07 18:21:17
+1915816761845068,Wendy,Li,12243,854518728062939,1915816761845068,BOT: quick reply,"What agency inspects, grades, and enforces standards of quality and wholesomeness for meat, poultry, milk, eggs, and grains?",2018-09-07 18:21:18
+1915816761845068,Wendy,Li,12244,1915816761845068,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-07 18:21:33
+1915816761845068,Wendy,Li,12245,854518728062939,1915816761845068,BOT: message,Which of the following options is the right answer?,2018-09-07 18:21:34
+1915816761845068,Wendy,Li,12246,854518728062939,1915816761845068,BOT: quick reply,":keycap_1: USDA
+:keycap_2: EPA
+:keycap_3: FDA
+:keycap_4: CDC
+",2018-09-07 18:21:35
+1915816761845068,Wendy,Li,12247,1915816761845068,854518728062939,user_quick_reply: BUTTON_DKB_FDA,:keycap_3:,2018-09-07 18:21:42
+1915816761845068,Wendy,Li,12248,854518728062939,1915816761845068,BOT: message,"Oops, that wasn't quite correct. :disappointed_face:",2018-09-07 18:21:43
+1915816761845068,Wendy,Li,12249,854518728062939,1915816761845068,BOT: quick reply,The correct answer is USDA.,2018-09-07 18:21:43
+1915816761845068,Wendy,Li,12250,1915816761845068,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-07 18:22:06
+1915816761845068,Wendy,Li,12251,854518728062939,1915816761845068,BOT: message,Let's see if you can answer this question.,2018-09-07 18:22:07
+1915816761845068,Wendy,Li,12252,854518728062939,1915816761845068,BOT: quick reply,Working on scaffold during winds above ____ miles per hour is prohibited by OSHA.,2018-09-07 18:22:07
+1915816761845068,Wendy,Li,12253,1915816761845068,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-07 18:22:21
+1915816761845068,Wendy,Li,12254,854518728062939,1915816761845068,BOT: message,Pick one of the following answers.,2018-09-07 18:22:22
+1915816761845068,Wendy,Li,12255,854518728062939,1915816761845068,BOT: quick reply,":keycap_1: 10
+:keycap_2: 25
+:keycap_3: 50
+:keycap_4: 40
+",2018-09-07 18:22:23
+1915816761845068,Wendy,Li,12256,1915816761845068,854518728062939,user_quick_reply: BUTTON_DKB_25,:keycap_2:,2018-09-07 18:22:37
+1915816761845068,Wendy,Li,12257,854518728062939,1915816761845068,BOT: message,"Oops, that is not correct. :disappointed_face:",2018-09-07 18:22:38
+1915816761845068,Wendy,Li,12258,854518728062939,1915816761845068,BOT: quick reply,The correct answer is 40.,2018-09-07 18:22:38
+1915816761845068,Wendy,Li,12259,1915816761845068,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-07 18:22:55
+1915816761845068,Wendy,Li,12260,854518728062939,1915816761845068,BOT: quick reply,"Nice job! You've practiced enough questions today. Please come back tomorrow and click on ""Resume Learning :flexed_biceps_medium-light_skin_tone:"" for another practice session.",2018-09-07 18:22:56
+1915816761845068,Wendy,Li,12594,854518728062939,1915816761845068,BOT: quick reply,"Hi Wendy, remember to practice some questions with me if you haven't finished your session today!",2018-09-07 20:00:10

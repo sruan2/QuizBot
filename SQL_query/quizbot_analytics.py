@@ -20,9 +20,12 @@ import csv
 
 users = [("Sherry", "Ruan"), ("Jeongeun", "Park"), ("Shuo", "Han"), # Tuesday Sep 4
          ("Jackie", "Yang"), ("Yunan", "Xu"), ("Xuebing", "Leng"), ("Zhiyuan", "Lin"), ("Jerry", "Hong"),   # Wednesday Sep 5
-         ("Emma", "Chen"), ("Iris", "Lian"), ("Alice", "Wang"), ("Irene", "Lai"), ("Wenjing", "Yan"),  # Wednesday
-         ("Jackie", "Hang"), ("Yun", "Zhang"), ("Kebing", "Li"), ("Heidi", "He"), ("Anna", "Yu"),  # Wednesday
-         ("Yin", "Li"), ("Ran", "Gong"), ("Qiwen", "Zhang")         
+         ("Emma", "Chen"), ("Iris", "Lian"), ("Alice", "Wang"), ("Irene", "Lai"), ("Wenjing", "Yan"),  
+         ("Jackie", "Hang"), ("Yun", "Zhang"), ("Kebing", "Li"), ("Heidi", "He"), ("Anna", "Yu"),  
+         ("Yin", "Li"), ("Ran", "Gong"), ("Qiwen", "Zhang"), ("Tianshi", "Li"),         
+         ("Yiran", "Shen"), ("Harry", "Liu"), ("Wendy", "Li"), ("Wenming", "Zhang"),
+         ("Mkhanyisi", "Gamedze"), ("Meng", "Tang"), ("Miao", "Zhang"), ("Fangjie", "Cao")
+         #("Hao", "Chen"), ("Ziang", "Zhu")
          ]
 
 if sys.argv[1] != "" and sys.argv[2] != "":

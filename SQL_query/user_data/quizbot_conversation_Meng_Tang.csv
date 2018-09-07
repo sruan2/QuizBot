@@ -1,0 +1,371 @@
+user_id,user_firstname,user_lastname,uid,sender,recipient,type,dialogue,time_stamp
+1675290192576254,Meng,Tang,8786,1675290192576254,854518728062939,persistent_menu: GET_INTRO_1,Get Started,2018-09-07 03:11:41
+1675290192576254,Meng,Tang,8787,854518728062939,1675290192576254,BOT: image,https://www.smartprimer.ai:4443/pictures/avatar/quizbot_avatar.png,2018-09-07 03:11:44
+1675290192576254,Meng,Tang,8788,854518728062939,1675290192576254,BOT: quick reply,"Hi Meng! My name is Frosty :penguin: and I’m here to help you learn all about science:microscope:, verbal reasoning (GRE) :input_latin_uppercase:, and safety:hammer_and_wrench:!",2018-09-07 03:11:45
+1675290192576254,Meng,Tang,8789,1675290192576254,854518728062939,user_quick_reply: GET_INTRO_2,I see :clapping_hands_medium-light_skin_tone:,2018-09-07 03:12:16
+1675290192576254,Meng,Tang,8790,854518728062939,1675290192576254,BOT: message,Here’s how it works.,2018-09-07 03:12:17
+1675290192576254,Meng,Tang,8791,854518728062939,1675290192576254,BOT: message,"I ask you questions, and you give me answers.",2018-09-07 03:12:17
+1675290192576254,Meng,Tang,8792,854518728062939,1675290192576254,BOT: quick reply,We will learn fun things together!,2018-09-07 03:12:18
+1675290192576254,Meng,Tang,8793,1675290192576254,854518728062939,user_quick_reply: GET_INTRO_3,Got it :flexed_biceps_medium-light_skin_tone:,2018-09-07 03:12:26
+1675290192576254,Meng,Tang,8794,854518728062939,1675290192576254,BOT: image,https://www.smartprimer.ai:4443/pictures/user_manual/typeanswer.png,2018-09-07 03:12:29
+1675290192576254,Meng,Tang,8795,854518728062939,1675290192576254,BOT: quick reply,"To study the questions, you can type in your answers in the text field and I will evaluate the answers for you using advanced NLP (Natural Language Processing) technology.",2018-09-07 03:12:30
+1675290192576254,Meng,Tang,8796,1675290192576254,854518728062939,user_quick_reply: GET_INTRO_4,Sure :round_pushpin:,2018-09-07 03:12:42
+1675290192576254,Meng,Tang,8797,854518728062939,1675290192576254,BOT: image,https://www.smartprimer.ai:4443/pictures/user_manual/needhintbutton.png,2018-09-07 03:12:45
+1675290192576254,Meng,Tang,8798,854518728062939,1675290192576254,BOT: quick reply,"If you don't know the answers, then feel free to tap on the hint button.",2018-09-07 03:12:46
+1675290192576254,Meng,Tang,8799,854518728062939,1675290192576254,BOT: image,https://www.smartprimer.ai:4443/pictures/user_manual/hintoptions.png,2018-09-07 03:12:55
+1675290192576254,Meng,Tang,8800,854518728062939,1675290192576254,BOT: quick reply,The hint will give you a list of potential answers and you can select one from them.,2018-09-07 03:12:56
+1675290192576254,Meng,Tang,8801,1675290192576254,854518728062939,user_quick_reply: GET_INTRO_6,Next :white_heavy_check_mark:,2018-09-07 03:13:07
+1675290192576254,Meng,Tang,8802,854518728062939,1675290192576254,BOT: image,https://www.smartprimer.ai:4443/pictures/user_manual/menubutton.jpg,2018-09-07 03:13:09
+1675290192576254,Meng,Tang,8803,854518728062939,1675290192576254,BOT: quick reply,"To discover more abilities of me, you can click on the menu button.:backhand_index_pointing_up_medium-light_skin_tone:",2018-09-07 03:13:10
+1675290192576254,Meng,Tang,8804,1675290192576254,854518728062939,user_quick_reply: GET_READY,Alrighty :collision:,2018-09-07 03:13:17
+1675290192576254,Meng,Tang,8805,854518728062939,1675290192576254,BOT: message,I hope you enjoy the learning journey! :hundred_points:,2018-09-07 03:13:17
+1675290192576254,Meng,Tang,8806,854518728062939,1675290192576254,BOT: quick reply,"So, are you ready?",2018-09-07 03:13:18
+1675290192576254,Meng,Tang,8807,1675290192576254,854518728062939,user_quick_reply: YUP_IM_READY,Yup! I'm ready! :raised_fist_medium-light_skin_tone:,2018-09-07 03:13:22
+1675290192576254,Meng,Tang,8808,854518728062939,1675290192576254,BOT: message,Great!,2018-09-07 03:13:23
+1675290192576254,Meng,Tang,8809,854518728062939,1675290192576254,BOT: quick reply,Let’s get started :rocket:,2018-09-07 03:13:24
+1675290192576254,Meng,Tang,8810,1675290192576254,854518728062939,user_quick_reply: SWITCH_SUBJECT,Quiz me :nerd_face:,2018-09-07 03:13:27
+1675290192576254,Meng,Tang,8811,854518728062939,1675290192576254,BOT: quick reply,"Cool, which subject do you want to study?:backhand_index_pointing_down_medium-light_skin_tone:",2018-09-07 03:13:28
+1675290192576254,Meng,Tang,8812,1675290192576254,854518728062939,user_quick_reply: GRE,GRE :input_latin_uppercase:,2018-09-07 03:13:39
+1675290192576254,Meng,Tang,8813,854518728062939,1675290192576254,BOT: quick reply,Awesome! Let's learn about the GRE!,2018-09-07 03:13:39
+1675290192576254,Meng,Tang,8814,1675290192576254,854518728062939,user_quick_reply: NEXT_QUESTION,Continue :raising_hands_medium-light_skin_tone:,2018-09-07 03:13:45
+1675290192576254,Meng,Tang,8815,854518728062939,1675290192576254,BOT: message,Let's take a look at this question.,2018-09-07 03:13:46
+1675290192576254,Meng,Tang,8816,854518728062939,1675290192576254,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-09-07 03:13:47
+1675290192576254,Meng,Tang,8817,854518728062939,1675290192576254,BOT: quick reply,"Although John F. Kennedy was known for his carefree flag football games, Gerald Ford should be _____ as our football president: he turned down offers to play for two National Football League teams in order to pursue a career in public service.",2018-09-07 03:13:47
+1675290192576254,Meng,Tang,8818,1675290192576254,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-07 03:14:14
+1675290192576254,Meng,Tang,8819,854518728062939,1675290192576254,BOT: message,Okay. I'll give you some choices.,2018-09-07 03:14:15
+1675290192576254,Meng,Tang,8820,854518728062939,1675290192576254,BOT: quick reply,":keycap_1: annulled
+:keycap_2: apotheosized
+:keycap_3: abrogated
+:keycap_4: criticized
+:keycap_5: relegated
+",2018-09-07 03:14:15
+1675290192576254,Meng,Tang,8821,1675290192576254,854518728062939,user_quick_reply: BUTTON_DKB_relegated,:keycap_5:,2018-09-07 03:14:26
+1675290192576254,Meng,Tang,8822,854518728062939,1675290192576254,BOT: message,"Oops, that wasn't quite correct. :disappointed_face:",2018-09-07 03:14:26
+1675290192576254,Meng,Tang,8823,854518728062939,1675290192576254,BOT: quick reply,The correct answer is apotheosized.,2018-09-07 03:14:27
+1675290192576254,Meng,Tang,8828,1675290192576254,854518728062939,user_quick_reply: WHY,Why?,2018-09-07 03:14:33
+1675290192576254,Meng,Tang,8829,854518728062939,1675290192576254,BOT: message,This is why:,2018-09-07 03:14:34
+1675290192576254,Meng,Tang,8830,854518728062939,1675290192576254,BOT: quick reply,":pushpin: Apotheosized -- deify or glorify
+:pushpin: Relegated -- to send or consign to an inferior position, place, or condition
+:pushpin: Abrogated -- revoke formally
+:pushpin: Annulled -- declare invalid
+:pushpin: Criticized -- find fault with; express criticism of; point out real or perceived flaws",2018-09-07 03:14:35
+1675290192576254,Meng,Tang,8831,1675290192576254,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-09-07 03:15:00
+1675290192576254,Meng,Tang,8832,854518728062939,1675290192576254,BOT: message,Let's try this question.,2018-09-07 03:15:01
+1675290192576254,Meng,Tang,8833,854518728062939,1675290192576254,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-09-07 03:15:02
+1675290192576254,Meng,Tang,8834,854518728062939,1675290192576254,BOT: quick reply,"Despite the smile that spread from ear to ear, the eyes relayed a certain _____ .",2018-09-07 03:15:03
+1675290192576254,Meng,Tang,8835,1675290192576254,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-07 03:15:11
+1675290192576254,Meng,Tang,8836,854518728062939,1675290192576254,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-09-07 03:15:12
+1675290192576254,Meng,Tang,8837,854518728062939,1675290192576254,BOT: quick reply,":keycap_1: liveliness
+:keycap_2: vision
+:keycap_3: mischievousness
+:keycap_4: sorrow
+:keycap_5: jubilance
+",2018-09-07 03:15:12
+1675290192576254,Meng,Tang,8838,1675290192576254,854518728062939,user_quick_reply: BUTTON_AKB_sorrow,:keycap_4:,2018-09-07 03:15:29
+1675290192576254,Meng,Tang,8839,854518728062939,1675290192576254,BOT: image,https://www.smartprimer.ai:4443/pictures/avatar/congrats/penguinnormal_normal.png,2018-09-07 03:15:31
+1675290192576254,Meng,Tang,8840,854518728062939,1675290192576254,BOT: message,Nice! That was right!,2018-09-07 03:15:32
+1675290192576254,Meng,Tang,8841,854518728062939,1675290192576254,BOT: quick reply,The correct answer is sorrow.,2018-09-07 03:15:33
+1675290192576254,Meng,Tang,8842,1675290192576254,854518728062939,user_quick_reply: SWITCH_SUBJECT,Change subject :shuffle_tracks_button:,2018-09-07 03:15:38
+1675290192576254,Meng,Tang,8843,854518728062939,1675290192576254,BOT: quick reply,"OK, which of the following subjects would you like to study?:backhand_index_pointing_down_medium-light_skin_tone:",2018-09-07 03:15:39
+1675290192576254,Meng,Tang,8844,1675290192576254,854518728062939,user_quick_reply: SCIENCE,Science:microscope:,2018-09-07 03:15:43
+1675290192576254,Meng,Tang,8845,854518728062939,1675290192576254,BOT: image,https://www.smartprimer.ai:4443/pictures/avatar/evolvereading_scientist.gif,2018-09-07 03:15:47
+1675290192576254,Meng,Tang,8846,854518728062939,1675290192576254,BOT: quick reply,Okay! Let’s see how much you know about science!,2018-09-07 03:15:48
+1675290192576254,Meng,Tang,8847,1675290192576254,854518728062939,user_quick_reply: NEXT_QUESTION,Continue :light_bulb:,2018-09-07 03:15:54
+1675290192576254,Meng,Tang,8848,854518728062939,1675290192576254,BOT: message,Let's try this one.,2018-09-07 03:15:54
+1675290192576254,Meng,Tang,8849,854518728062939,1675290192576254,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-09-07 03:15:55
+1675290192576254,Meng,Tang,8850,854518728062939,1675290192576254,BOT: quick reply,What kind of viscosity is found in long-chain hydrocarbons?,2018-09-07 03:15:56
+1675290192576254,Meng,Tang,8851,1675290192576254,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-07 03:16:11
+1675290192576254,Meng,Tang,8852,854518728062939,1675290192576254,BOT: message,It's one of the following choices.,2018-09-07 03:16:11
+1675290192576254,Meng,Tang,8853,854518728062939,1675290192576254,BOT: quick reply,":keycap_1: intense viscosity
+:keycap_2: increased viscosity
+:keycap_3: low viscosity
+:keycap_4: high viscosity
+",2018-09-07 03:16:12
+1675290192576254,Meng,Tang,8854,1675290192576254,854518728062939,user_quick_reply: BUTTON_DKB_increased viscosity,:keycap_2:,2018-09-07 03:16:22
+1675290192576254,Meng,Tang,8855,854518728062939,1675290192576254,BOT: message,That's not quite right. :disappointed_face:,2018-09-07 03:16:22
+1675290192576254,Meng,Tang,8856,854518728062939,1675290192576254,BOT: quick reply,The correct answer is high viscosity.,2018-09-07 03:16:23
+1675290192576254,Meng,Tang,8857,1675290192576254,854518728062939,user_quick_reply: WHY,Why?,2018-09-07 03:16:28
+1675290192576254,Meng,Tang,8858,854518728062939,1675290192576254,BOT: message,Here's why:,2018-09-07 03:16:29
+1675290192576254,Meng,Tang,8859,854518728062939,1675290192576254,BOT: quick reply,"There is also a correlation between viscosity and molecular shape. Liquids consisting of long, flexible molecules tend to have higher viscosities than those composed of more spherical or shorter-chain molecules. The longer the molecules, the easier it is for them to become “tangled” with one another, making it more difficult for them to move past one another. London dispersion forces also increase with chain length. Due to a combination of these two effects, long-chain hydrocarbons (such as motor oils) are highly viscous.",2018-09-07 03:16:29
+1675290192576254,Meng,Tang,11068,1675290192576254,854518728062939,user_quick_reply: SWITCH_SUBJECT,Change subject :shuffle_tracks_button:,2018-09-07 13:15:04
+1675290192576254,Meng,Tang,11069,854518728062939,1675290192576254,BOT: quick reply,"Okay, which subject would you like to choose?:backhand_index_pointing_down_medium-light_skin_tone:",2018-09-07 13:15:04
+1675290192576254,Meng,Tang,11070,1675290192576254,854518728062939,user_quick_reply: RANDOM,Random :game_die:,2018-09-07 13:15:08
+1675290192576254,Meng,Tang,11071,854518728062939,1675290192576254,BOT: image,https://www.smartprimer.ai:4443/pictures/avatar/evolvescientist_normal.gif,2018-09-07 13:15:11
+1675290192576254,Meng,Tang,11072,854518728062939,1675290192576254,BOT: quick reply,All right! A little bit of everything! :game_die:,2018-09-07 13:15:12
+1675290192576254,Meng,Tang,11073,854518728062939,1675290192576254,BOT: message,I think you'll like this question.,2018-09-07 13:15:18
+1675290192576254,Meng,Tang,11074,854518728062939,1675290192576254,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-09-07 13:15:19
+1675290192576254,Meng,Tang,11075,854518728062939,1675290192576254,BOT: quick reply,What living species of bird is considered the largest of the raptors?,2018-09-07 13:15:20
+1675290192576254,Meng,Tang,11076,1675290192576254,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-07 13:15:28
+1675290192576254,Meng,Tang,11077,854518728062939,1675290192576254,BOT: message,Which of the following options is the right answer?,2018-09-07 13:15:29
+1675290192576254,Meng,Tang,11078,854518728062939,1675290192576254,BOT: quick reply,":keycap_1: California condor
+:keycap_2: peregrine falcon
+:keycap_3: pterodactyl
+:keycap_4: golden eagles
+",2018-09-07 13:15:29
+1675290192576254,Meng,Tang,11079,1675290192576254,854518728062939,user_quick_reply: BUTTON_DKB_peregrine falcon,:keycap_2:,2018-09-07 13:15:40
+1675290192576254,Meng,Tang,11080,854518728062939,1675290192576254,BOT: message,"Oops, that wasn't quite correct. :disappointed_face:",2018-09-07 13:15:40
+1675290192576254,Meng,Tang,11081,854518728062939,1675290192576254,BOT: quick reply,The correct answer is golden eagles.,2018-09-07 13:15:41
+1675290192576254,Meng,Tang,11082,1675290192576254,854518728062939,user_quick_reply: WHY,Why?,2018-09-07 13:15:47
+1675290192576254,Meng,Tang,11083,854518728062939,1675290192576254,BOT: message,Here's an explanation:,2018-09-07 13:15:48
+1675290192576254,Meng,Tang,11084,854518728062939,1675290192576254,BOT: quick reply,"Although not as famous as its bald cousin, Golden Eagles are much easier to find in Northern California - one of the largest breeding populations for Golden Eagles. The largest of the raptors, Golden Eagles weigh typically between 8 and 12 pounds, and their wing span is around 6 to 7 feet. These eagles dive towards earth to catch prey, and can reach speeds of up to 200 mph!",2018-09-07 13:15:48
+1675290192576254,Meng,Tang,11085,1675290192576254,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-09-07 13:16:23
+1675290192576254,Meng,Tang,11086,854518728062939,1675290192576254,BOT: message,Let's try this one.,2018-09-07 13:16:23
+1675290192576254,Meng,Tang,11087,854518728062939,1675290192576254,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-09-07 13:16:24
+1675290192576254,Meng,Tang,11088,854518728062939,1675290192576254,BOT: quick reply,What opens two strands of DNA?,2018-09-07 13:16:25
+1675290192576254,Meng,Tang,11089,1675290192576254,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-07 13:16:32
+1675290192576254,Meng,Tang,11090,854518728062939,1675290192576254,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-09-07 13:16:32
+1675290192576254,Meng,Tang,11091,854518728062939,1675290192576254,BOT: quick reply,":keycap_1: chromosome
+:keycap_2: replication
+:keycap_3: adenylate
+:keycap_4: helicase
+",2018-09-07 13:16:33
+1675290192576254,Meng,Tang,11092,1675290192576254,854518728062939,user_typing,4,2018-09-07 13:17:07
+1675290192576254,Meng,Tang,11093,854518728062939,1675290192576254,BOT: message,That wasn't quite what we were looking for. :disappointed_face:,2018-09-07 13:17:08
+1675290192576254,Meng,Tang,11094,854518728062939,1675290192576254,BOT: quick reply,The correct answer is helicase.,2018-09-07 13:17:09
+1675290192576254,Meng,Tang,11095,1675290192576254,854518728062939,user_quick_reply: WHY,Why?,2018-09-07 13:17:16
+1675290192576254,Meng,Tang,11096,854518728062939,1675290192576254,BOT: message,Here's an explanation:,2018-09-07 13:17:16
+1675290192576254,Meng,Tang,11097,854518728062939,1675290192576254,BOT: quick reply,"The two DNA strands are opened by helicase. The strands are held open by a single strand of binding proteins, preventing premature reannealing. Topoisomerase solves the problem caused by tension generated by winding/unwinding of DNA. This enzyme wraps around DNA and makes a cut permitting the helix to spin and relax. Once DNA is relaxed, topoisomerase reconnects broken strands. DNA primase synthesizes a short RNA primer which initiates the Okazaki fragment. Okazaki fragments are attached by DNA ligase.",2018-09-07 13:17:17
+1675290192576254,Meng,Tang,11098,1675290192576254,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-09-07 13:17:47
+1675290192576254,Meng,Tang,11099,854518728062939,1675290192576254,BOT: message,Let's try this question.,2018-09-07 13:17:47
+1675290192576254,Meng,Tang,11100,854518728062939,1675290192576254,BOT: quick reply,"Dolly Madison, the wife of President James Madison, was known especially for her _____ , remaining calm even as the British invaded Washington D.C. during the War of 1812.",2018-09-07 13:17:48
+1675290192576254,Meng,Tang,11101,1675290192576254,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-07 13:17:59
+1675290192576254,Meng,Tang,11102,854518728062939,1675290192576254,BOT: message,Which of the following options is the right answer?,2018-09-07 13:17:59
+1675290192576254,Meng,Tang,11103,854518728062939,1675290192576254,BOT: quick reply,":keycap_1: malevolence
+:keycap_2: equanimity
+:keycap_3: cynicism
+:keycap_4: zeal
+:keycap_5: impracticality
+",2018-09-07 13:18:00
+1675290192576254,Meng,Tang,11104,1675290192576254,854518728062939,user_quick_reply: BUTTON_DKB_malevolence,:keycap_1:,2018-09-07 13:18:05
+1675290192576254,Meng,Tang,11105,854518728062939,1675290192576254,BOT: message,That's not quite right. :disappointed_face:,2018-09-07 13:18:06
+1675290192576254,Meng,Tang,11106,854518728062939,1675290192576254,BOT: quick reply,The correct answer is equanimity.,2018-09-07 13:18:07
+1675290192576254,Meng,Tang,11109,1675290192576254,854518728062939,user_quick_reply: WHY,Why?,2018-09-07 13:18:15
+1675290192576254,Meng,Tang,11110,854518728062939,1675290192576254,BOT: message,Here's an explanation:,2018-09-07 13:18:15
+1675290192576254,Meng,Tang,11111,854518728062939,1675290192576254,BOT: quick reply,":pushpin: Equanimity -- steadiness of mind under stress
+:pushpin: Impracticality -- concerned with theoretical possibilities rather than actual use
+:pushpin: Cynicism -- a cynical feeling of distrust
+:pushpin: Zeal -- a feeling of strong eagerness usually in favor of a person or cause
+:pushpin: Malevolence -- wishing evil to others",2018-09-07 13:18:16
+1675290192576254,Meng,Tang,11126,1675290192576254,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-09-07 13:18:49
+1675290192576254,Meng,Tang,11127,854518728062939,1675290192576254,BOT: message,Would you answer this question for me?,2018-09-07 13:18:50
+1675290192576254,Meng,Tang,11128,854518728062939,1675290192576254,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-09-07 13:18:51
+1675290192576254,Meng,Tang,11129,854518728062939,1675290192576254,BOT: quick reply,"Even though legislators claimed the Contagious Diseases Acts strengthened the nation, social purists argued the Acts _____ the nation's moral growth by encouraging licentious behavior.",2018-09-07 13:18:51
+1675290192576254,Meng,Tang,11137,1675290192576254,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-07 13:19:11
+1675290192576254,Meng,Tang,11138,854518728062939,1675290192576254,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-09-07 13:19:12
+1675290192576254,Meng,Tang,11139,854518728062939,1675290192576254,BOT: quick reply,":keycap_1: enhanced
+:keycap_2: advanced
+:keycap_3: supplanted
+:keycap_4: hampered
+:keycap_5: ameliorated
+",2018-09-07 13:19:12
+1675290192576254,Meng,Tang,11143,1675290192576254,854518728062939,user_quick_reply: BUTTON_AKB_hampered,:keycap_4:,2018-09-07 13:19:17
+1675290192576254,Meng,Tang,11144,854518728062939,1675290192576254,BOT: message,Great! Keep it up! :flexed_biceps_medium-light_skin_tone:,2018-09-07 13:19:18
+1675290192576254,Meng,Tang,11145,854518728062939,1675290192576254,BOT: quick reply,The correct answer is hampered.,2018-09-07 13:19:19
+1675290192576254,Meng,Tang,11146,1675290192576254,854518728062939,user_quick_reply: WHY,Why?,2018-09-07 13:19:23
+1675290192576254,Meng,Tang,11147,854518728062939,1675290192576254,BOT: message,I hope this explanation could help you understand the the question.,2018-09-07 13:19:24
+1675290192576254,Meng,Tang,11148,854518728062939,1675290192576254,BOT: quick reply,":pushpin: Hampered -- prevent the progress or free movement of
+:pushpin: Advanced -- move or bring forward
+:pushpin: Ameliorated -- to make better
+:pushpin: Supplanted -- take the place or move into the position of
+:pushpin: Enhanced -- increased or intensified in value or beauty or quality",2018-09-07 13:19:24
+1675290192576254,Meng,Tang,11158,1675290192576254,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-09-07 13:19:51
+1675290192576254,Meng,Tang,11159,854518728062939,1675290192576254,BOT: message,See if you can answer this next one.,2018-09-07 13:19:52
+1675290192576254,Meng,Tang,11160,854518728062939,1675290192576254,BOT: quick reply,What should you NOT do when lowering a load?,2018-09-07 13:19:53
+1675290192576254,Meng,Tang,11165,1675290192576254,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-07 13:20:01
+1675290192576254,Meng,Tang,11166,854518728062939,1675290192576254,BOT: message,Pick one of the following answers.,2018-09-07 13:20:02
+1675290192576254,Meng,Tang,11167,854518728062939,1675290192576254,BOT: quick reply,":keycap_1: Bend your knees
+:keycap_2: Twist your body, keep the load close, and bend your knees
+:keycap_3: Keep the load close to your body
+:keycap_4: Twist your body
+",2018-09-07 13:20:03
+1675290192576254,Meng,Tang,11171,1675290192576254,854518728062939,user_quick_reply: BUTTON_AKB_Twist your body,:keycap_4:,2018-09-07 13:20:17
+1675290192576254,Meng,Tang,11172,854518728062939,1675290192576254,BOT: image,https://www.smartprimer.ai:4443/pictures/avatar/congrats/penguinnormal_happy_cyan.png,2018-09-07 13:20:19
+1675290192576254,Meng,Tang,11173,854518728062939,1675290192576254,BOT: message,Great! Keep it up! :flexed_biceps_medium-light_skin_tone:,2018-09-07 13:20:20
+1675290192576254,Meng,Tang,11174,854518728062939,1675290192576254,BOT: quick reply,The correct answer is Twist your body.,2018-09-07 13:20:21
+1675290192576254,Meng,Tang,11179,1675290192576254,854518728062939,user_quick_reply: BUTTON_AKB_Twist your body,:keycap_4:,2018-09-07 13:20:29
+1675290192576254,Meng,Tang,11180,854518728062939,1675290192576254,BOT: image,https://www.smartprimer.ai:4443/pictures/avatar/congrats/penguinnormal_happy_purple.png,2018-09-07 13:20:31
+1675290192576254,Meng,Tang,11181,854518728062939,1675290192576254,BOT: message,Nice! That was right!,2018-09-07 13:20:31
+1675290192576254,Meng,Tang,11182,854518728062939,1675290192576254,BOT: quick reply,The correct answer is Twist your body.,2018-09-07 13:20:32
+1675290192576254,Meng,Tang,11183,1675290192576254,854518728062939,user_quick_reply: WHY,Why?,2018-09-07 13:20:33
+1675290192576254,Meng,Tang,11184,854518728062939,1675290192576254,BOT: message,Here's an explanation:,2018-09-07 13:20:34
+1675290192576254,Meng,Tang,11185,854518728062939,1675290192576254,BOT: quick reply,"To lower a load, you should make use of its edge, bend your knees, keep the load close to their body, and avoid twisting your torso.",2018-09-07 13:20:34
+1675290192576254,Meng,Tang,11186,1675290192576254,854518728062939,user_quick_reply: WHY,Why?,2018-09-07 13:20:36
+1675290192576254,Meng,Tang,11187,854518728062939,1675290192576254,BOT: message,Here's an explanation:,2018-09-07 13:20:36
+1675290192576254,Meng,Tang,11188,854518728062939,1675290192576254,BOT: quick reply,"To lower a load, you should make use of its edge, bend your knees, keep the load close to their body, and avoid twisting your torso.",2018-09-07 13:20:37
+1675290192576254,Meng,Tang,11192,1675290192576254,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-09-07 13:20:48
+1675290192576254,Meng,Tang,11193,854518728062939,1675290192576254,BOT: message,Could you answer this one for me?,2018-09-07 13:20:48
+1675290192576254,Meng,Tang,11195,854518728062939,1675290192576254,BOT: quick reply,"Having squandered his life's savings on unprofitable business ventures, the _____ entrepreneur was forced to live in squalor.",2018-09-07 13:20:50
+1675290192576254,Meng,Tang,11201,1675290192576254,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-07 13:21:03
+1675290192576254,Meng,Tang,11202,854518728062939,1675290192576254,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-09-07 13:21:04
+1675290192576254,Meng,Tang,11203,854518728062939,1675290192576254,BOT: quick reply,":keycap_1: unlikely
+:keycap_2: eccentric
+:keycap_3: insolvent
+:keycap_4: former
+:keycap_5: perturbed
+",2018-09-07 13:21:04
+1675290192576254,Meng,Tang,11209,1675290192576254,854518728062939,user_quick_reply: BUTTON_DKB_former,:keycap_4:,2018-09-07 13:21:17
+1675290192576254,Meng,Tang,11210,854518728062939,1675290192576254,BOT: message,"Oops, that is not correct. :disappointed_face:",2018-09-07 13:21:18
+1675290192576254,Meng,Tang,11211,854518728062939,1675290192576254,BOT: quick reply,The correct answer is insolvent.,2018-09-07 13:21:19
+1675290192576254,Meng,Tang,11212,1675290192576254,854518728062939,user_quick_reply: WHY,Why?,2018-09-07 13:21:25
+1675290192576254,Meng,Tang,11213,854518728062939,1675290192576254,BOT: message,This is why:,2018-09-07 13:21:25
+1675290192576254,Meng,Tang,11214,854518728062939,1675290192576254,BOT: quick reply,":pushpin: Insolvent -- unable to meet or discharge financial obligations
+:pushpin: Former -- preceding in time; prior or earlier
+:pushpin: Unlikely -- not likely to be true or to occur or to have occurred
+:pushpin: Perturbed -- thrown into a state of agitated confusion
+:pushpin: Eccentric -- conspicuously or grossly unconventional or unusual",2018-09-07 13:21:26
+1675290192576254,Meng,Tang,12542,1675290192576254,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-09-07 19:42:32
+1675290192576254,Meng,Tang,12543,854518728062939,1675290192576254,BOT: message,Could you answer this one for me?,2018-09-07 19:42:32
+1675290192576254,Meng,Tang,12544,854518728062939,1675290192576254,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-09-07 19:42:33
+1675290192576254,Meng,Tang,12545,854518728062939,1675290192576254,BOT: quick reply,"In psychological literature, the ""sleeper effect"" refers to the phenomenon in which a persuasive message from a trustworthy source loses _____ over time, while the efficacy of a message from a less credible source simultaneously increases.",2018-09-07 19:42:34
+1675290192576254,Meng,Tang,12546,1675290192576254,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-07 19:42:46
+1675290192576254,Meng,Tang,12547,854518728062939,1675290192576254,BOT: message,Okay. I'll give you some choices.,2018-09-07 19:42:46
+1675290192576254,Meng,Tang,12548,854518728062939,1675290192576254,BOT: quick reply,":keycap_1: cogency
+:keycap_2: control
+:keycap_3: evasiveness
+:keycap_4: prescience
+:keycap_5: erudition
+",2018-09-07 19:42:47
+1675290192576254,Meng,Tang,12549,1675290192576254,854518728062939,user_quick_reply: BUTTON_DKB_control,:keycap_2:,2018-09-07 19:42:50
+1675290192576254,Meng,Tang,12550,854518728062939,1675290192576254,BOT: message,"Hmm, that wasn't quite right. :disappointed_face:",2018-09-07 19:42:51
+1675290192576254,Meng,Tang,12551,854518728062939,1675290192576254,BOT: quick reply,The correct answer is cogency.,2018-09-07 19:42:52
+1675290192576254,Meng,Tang,12552,1675290192576254,854518728062939,user_quick_reply: WHY,Why?,2018-09-07 19:42:56
+1675290192576254,Meng,Tang,12553,854518728062939,1675290192576254,BOT: message,This is an explanation of the question:,2018-09-07 19:42:56
+1675290192576254,Meng,Tang,12554,854518728062939,1675290192576254,BOT: quick reply,":pushpin: Cogency -- persuasive relevance
+:pushpin: Prescience -- the power to foresee the future
+:pushpin: Erudition -- profound scholarly knowledge
+:pushpin: Evasiveness -- intentionally vague or ambiguous
+:pushpin: Control -- exercise authoritative control or power over",2018-09-07 19:42:57
+1675290192576254,Meng,Tang,12555,1675290192576254,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-09-07 19:43:22
+1675290192576254,Meng,Tang,12556,854518728062939,1675290192576254,BOT: message,Would you answer this question for me?,2018-09-07 19:43:23
+1675290192576254,Meng,Tang,12557,854518728062939,1675290192576254,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-09-07 19:43:24
+1675290192576254,Meng,Tang,12558,854518728062939,1675290192576254,BOT: quick reply,"Just as different people can have very different personalities, so too can pets - even those of the same species and breed possess varied _____ .",2018-09-07 19:43:25
+1675290192576254,Meng,Tang,12559,1675290192576254,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-07 19:43:34
+1675290192576254,Meng,Tang,12560,854518728062939,1675290192576254,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-09-07 19:43:34
+1675290192576254,Meng,Tang,12561,854518728062939,1675290192576254,BOT: quick reply,":keycap_1: implementations
+:keycap_2: rationalizations
+:keycap_3: aptitudes
+:keycap_4: initiations
+:keycap_5: temperaments
+",2018-09-07 19:43:35
+1675290192576254,Meng,Tang,12562,1675290192576254,854518728062939,user_quick_reply: BUTTON_AKB_temperaments,:keycap_5:,2018-09-07 19:43:40
+1675290192576254,Meng,Tang,12563,854518728062939,1675290192576254,BOT: image,https://www.smartprimer.ai:4443/pictures/avatar/congrats/penguinnormal_jubilated_cyan.png,2018-09-07 19:43:41
+1675290192576254,Meng,Tang,12564,854518728062939,1675290192576254,BOT: message,Great job!,2018-09-07 19:43:42
+1675290192576254,Meng,Tang,12565,854518728062939,1675290192576254,BOT: quick reply,The correct answer is temperaments.,2018-09-07 19:43:43
+1675290192576254,Meng,Tang,12566,1675290192576254,854518728062939,user_quick_reply: WHY,Why?,2018-09-07 19:43:46
+1675290192576254,Meng,Tang,12567,854518728062939,1675290192576254,BOT: message,Here's an explanation:,2018-09-07 19:43:47
+1675290192576254,Meng,Tang,12568,854518728062939,1675290192576254,BOT: quick reply,":pushpin: Temperaments -- the combination of mental, physical, and emotional traits
+:pushpin: Initiations -- a formal entry into an organization or position or office
+:pushpin: Implementations -- the act of accomplishing some aim or executing some order
+:pushpin: Aptitudes -- inherent ability
+:pushpin: Rationalizations -- the cognitive process of making something seem consistent with or based on reason",2018-09-07 19:43:47
+1675290192576254,Meng,Tang,12569,1675290192576254,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-09-07 19:44:54
+1675290192576254,Meng,Tang,12570,854518728062939,1675290192576254,BOT: message,Could you answer this one for me?,2018-09-07 19:44:54
+1675290192576254,Meng,Tang,12571,854518728062939,1675290192576254,BOT: quick reply,Many Major League Baseball relief pitchers choose an electrifying theme song to play as they take the mound; the song _____ their fans and instills fear in their opponents.,2018-09-07 19:44:55
+1675290192576254,Meng,Tang,12572,1675290192576254,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-07 19:45:11
+1675290192576254,Meng,Tang,12573,854518728062939,1675290192576254,BOT: message,Pick one of the following answers.,2018-09-07 19:45:12
+1675290192576254,Meng,Tang,12574,854518728062939,1675290192576254,BOT: quick reply,":keycap_1: enervates
+:keycap_2: pervades
+:keycap_3: eviscerates
+:keycap_4: innervates
+:keycap_5: assuages
+",2018-09-07 19:45:12
+1675290192576254,Meng,Tang,12575,1675290192576254,854518728062939,user_quick_reply: BUTTON_DKB_enervates,:keycap_1:,2018-09-07 19:45:18
+1675290192576254,Meng,Tang,12576,854518728062939,1675290192576254,BOT: message,That's not quite right. :disappointed_face:,2018-09-07 19:45:18
+1675290192576254,Meng,Tang,12577,854518728062939,1675290192576254,BOT: quick reply,The correct answer is innervates.,2018-09-07 19:45:19
+1675290192576254,Meng,Tang,12578,1675290192576254,854518728062939,user_quick_reply: WHY,Why?,2018-09-07 19:45:22
+1675290192576254,Meng,Tang,12579,854518728062939,1675290192576254,BOT: message,I hope this explanation could help you understand the the question.,2018-09-07 19:45:23
+1675290192576254,Meng,Tang,12580,854518728062939,1675290192576254,BOT: quick reply,":pushpin: Innervates -- to supply with nerves
+:pushpin: Eviscerates -- surgically remove a part of a structure or an organ
+:pushpin: Enervates -- weaken mentally or morally
+:pushpin: Assuages -- cause to be more favorably inclined; gain the good will of
+:pushpin: Pervades -- spread or diffuse through",2018-09-07 19:45:24
+1675290192576254,Meng,Tang,12582,854518728062939,1675290192576254,BOT: quick reply,"Hi Meng, remember to practice some questions with me if you haven't finished your session today!",2018-09-07 20:00:02
+1675290192576254,Meng,Tang,12627,854518728062939,1675290192576254,BOT: message,Let's see if you would answer this one.,2018-09-07 20:01:15
+1675290192576254,Meng,Tang,12628,854518728062939,1675290192576254,BOT: quick reply,"Many dog owners treat their pets too _____ , forgetting that canines have evolved in competitive environments in which emotional coddling was a sign of weakness.",2018-09-07 20:01:16
+1675290192576254,Meng,Tang,12629,1675290192576254,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-07 20:01:21
+1675290192576254,Meng,Tang,12630,854518728062939,1675290192576254,BOT: message,Which of the following options is the right answer?,2018-09-07 20:01:22
+1675290192576254,Meng,Tang,12631,854518728062939,1675290192576254,BOT: quick reply,":keycap_1: aggressively
+:keycap_2: fortuitously
+:keycap_3: belligerently
+:keycap_4: indulgently
+:keycap_5: quixotically
+",2018-09-07 20:01:22
+1675290192576254,Meng,Tang,12632,1675290192576254,854518728062939,user_quick_reply: BUTTON_AKB_indulgently,:keycap_4:,2018-09-07 20:01:27
+1675290192576254,Meng,Tang,12633,854518728062939,1675290192576254,BOT: message,Great job!,2018-09-07 20:01:28
+1675290192576254,Meng,Tang,12634,854518728062939,1675290192576254,BOT: quick reply,The correct answer is indulgently.,2018-09-07 20:01:29
+1675290192576254,Meng,Tang,12638,1675290192576254,854518728062939,user_quick_reply: WHY,Why?,2018-09-07 20:01:34
+1675290192576254,Meng,Tang,12639,854518728062939,1675290192576254,BOT: message,This is why:,2018-09-07 20:01:34
+1675290192576254,Meng,Tang,12640,854518728062939,1675290192576254,BOT: quick reply,":pushpin: Indulgently -- benignly lenient or permissive
+:pushpin: Aggressively -- characterized by or tending toward unprovoked offensives, attacks, invasions, or the like
+:pushpin: Quixotically -- extravagantly chivalrous or romantic
+:pushpin: Fortuitously -- by good fortune
+:pushpin: Belligerently -- with hostility; in a belligerent hostile manner",2018-09-07 20:01:35
+1675290192576254,Meng,Tang,12657,1675290192576254,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-09-07 20:02:42
+1675290192576254,Meng,Tang,12658,854518728062939,1675290192576254,BOT: message,Let's see if you can answer this question.,2018-09-07 20:02:42
+1675290192576254,Meng,Tang,12659,854518728062939,1675290192576254,BOT: quick reply,"Modern tennis fans have come to realize that, although, quantum technological leaps in racquet technology have lead to _____ increases in the speed and power with which players can hit the ball, this has not necessarily lead to a more entertaining game.",2018-09-07 20:02:43
+1675290192576254,Meng,Tang,12664,1675290192576254,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-07 20:02:53
+1675290192576254,Meng,Tang,12665,854518728062939,1675290192576254,BOT: message,Pick one of the following answers.,2018-09-07 20:02:54
+1675290192576254,Meng,Tang,12666,854518728062939,1675290192576254,BOT: quick reply,":keycap_1: commensurate
+:keycap_2: tractable
+:keycap_3: malleable
+:keycap_4: halcyon
+:keycap_5: innocuous
+",2018-09-07 20:02:54
+1675290192576254,Meng,Tang,12667,1675290192576254,854518728062939,user_quick_reply: BUTTON_DKB_tractable,:keycap_2:,2018-09-07 20:02:58
+1675290192576254,Meng,Tang,12668,854518728062939,1675290192576254,BOT: message,"I'm sorry, but that was incorrect. :disappointed_face:",2018-09-07 20:02:59
+1675290192576254,Meng,Tang,12669,854518728062939,1675290192576254,BOT: quick reply,The correct answer is commensurate.,2018-09-07 20:02:59
+1675290192576254,Meng,Tang,12672,1675290192576254,854518728062939,user_quick_reply: WHY,Why?,2018-09-07 20:03:02
+1675290192576254,Meng,Tang,12674,854518728062939,1675290192576254,BOT: message,I hope this explanation could help you understand the the question.,2018-09-07 20:03:03
+1675290192576254,Meng,Tang,12675,854518728062939,1675290192576254,BOT: quick reply,":pushpin: Commensurate -- corresponding in size or degree or extent
+:pushpin: Innocuous -- not injurious to physical or mental health
+:pushpin: Halcyon -- idyllically calm and peaceful; suggesting happy tranquillity
+:pushpin: Malleable -- easily influenced
+:pushpin: Tractable -- easily managed (controlled or taught or molded",2018-09-07 20:03:04
+1675290192576254,Meng,Tang,12687,1675290192576254,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-09-07 20:03:33
+1675290192576254,Meng,Tang,12688,854518728062939,1675290192576254,BOT: message,I think you'll like this question.,2018-09-07 20:03:33
+1675290192576254,Meng,Tang,12689,854518728062939,1675290192576254,BOT: quick reply,Seth was extremely _____ and did not enjoy activities that required effort to meet new people.,2018-09-07 20:03:34
+1675290192576254,Meng,Tang,12693,1675290192576254,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-07 20:03:45
+1675290192576254,Meng,Tang,12694,854518728062939,1675290192576254,BOT: message,Which of the following options is the right answer?,2018-09-07 20:03:46
+1675290192576254,Meng,Tang,12695,854518728062939,1675290192576254,BOT: quick reply,":keycap_1: extroverted
+:keycap_2: gregarious
+:keycap_3: lackluster
+:keycap_4: jaded
+:keycap_5: introverted
+",2018-09-07 20:03:46
+1675290192576254,Meng,Tang,12699,1675290192576254,854518728062939,user_quick_reply: BUTTON_AKB_introverted,:keycap_5:,2018-09-07 20:03:53
+1675290192576254,Meng,Tang,12700,854518728062939,1675290192576254,BOT: message,Great job!,2018-09-07 20:03:53
+1675290192576254,Meng,Tang,12702,854518728062939,1675290192576254,BOT: quick reply,The correct answer is introverted.,2018-09-07 20:03:54
+1675290192576254,Meng,Tang,12704,1675290192576254,854518728062939,user_quick_reply: WHY,Why?,2018-09-07 20:03:58
+1675290192576254,Meng,Tang,12706,854518728062939,1675290192576254,BOT: message,This is why:,2018-09-07 20:03:58
+1675290192576254,Meng,Tang,12708,854518728062939,1675290192576254,BOT: quick reply,":pushpin: Introverted -- given to examining own sensory and perceptual experiences
+:pushpin: Extroverted -- not introspective; examining what is outside yourself
+:pushpin: Gregarious -- fond of the company of others; sociable
+:pushpin: Lackluster -- lacking brilliance or vitality
+:pushpin: Jaded -- exhausted",2018-09-07 20:03:59
+1675290192576254,Meng,Tang,12918,1675290192576254,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-09-07 20:15:13
+1675290192576254,Meng,Tang,12919,854518728062939,1675290192576254,BOT: message,Let's try this one.,2018-09-07 20:15:14
+1675290192576254,Meng,Tang,12920,854518728062939,1675290192576254,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-09-07 20:15:14
+1675290192576254,Meng,Tang,12921,854518728062939,1675290192576254,BOT: quick reply,"Possessing few natural resources upon its newly-granted independence in 1863, Singapore remained economically _____ until an influx of industrialization and foreign investment took hold there.",2018-09-07 20:15:15
+1675290192576254,Meng,Tang,12926,1675290192576254,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-07 20:15:23
+1675290192576254,Meng,Tang,12928,854518728062939,1675290192576254,BOT: message,It's one of the following choices.,2018-09-07 20:15:24
+1675290192576254,Meng,Tang,12930,854518728062939,1675290192576254,BOT: quick reply,":keycap_1: powerful
+:keycap_2: solvent
+:keycap_3: prosperous
+:keycap_4: fortuitous
+:keycap_5: dubious
+",2018-09-07 20:15:24
+1675290192576254,Meng,Tang,12936,1675290192576254,854518728062939,user_quick_reply: BUTTON_AKB_dubious,:keycap_5:,2018-09-07 20:15:35
+1675290192576254,Meng,Tang,12937,854518728062939,1675290192576254,BOT: image,https://www.smartprimer.ai:4443/pictures/avatar/congrats/penguinnormal_jubilated_orange.png,2018-09-07 20:15:37
+1675290192576254,Meng,Tang,12938,854518728062939,1675290192576254,BOT: message,Nice! That was right!,2018-09-07 20:15:38
+1675290192576254,Meng,Tang,12939,854518728062939,1675290192576254,BOT: quick reply,The correct answer is dubious.,2018-09-07 20:15:38
+1675290192576254,Meng,Tang,12940,1675290192576254,854518728062939,user_quick_reply: WHY,Why?,2018-09-07 20:15:41
+1675290192576254,Meng,Tang,12941,854518728062939,1675290192576254,BOT: message,This is why:,2018-09-07 20:15:42
+1675290192576254,Meng,Tang,12942,854518728062939,1675290192576254,BOT: quick reply,":pushpin: Dubious -- fraught with uncertainty or doubt
+:pushpin: Powerful -- having great power or force or potency or effect
+:pushpin: Prosperous -- in fortunate circumstances financially; moderately rich
+:pushpin: Solvent -- capable of meeting financial obligations
+:pushpin: Fortuitous -- having no cause or apparent cause",2018-09-07 20:15:42
+1675290192576254,Meng,Tang,12943,1675290192576254,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-09-07 20:16:06
+1675290192576254,Meng,Tang,12944,854518728062939,1675290192576254,BOT: message,How about this next one:,2018-09-07 20:16:07
+1675290192576254,Meng,Tang,12945,854518728062939,1675290192576254,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-09-07 20:16:08
+1675290192576254,Meng,Tang,12946,854518728062939,1675290192576254,BOT: quick reply,"Prior to taking on the new invader, the defending army had engaged in arduous combat; it is likely that the _____ resulting from waging two battles in two days played a part in its subsequent defeat.",2018-09-07 20:16:08
