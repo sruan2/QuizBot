@@ -20,3 +20,337 @@ user_id,user_firstname,user_lastname,uid,sender,recipient,type,dialogue,time_sta
 1837653693018658,Yiran,Shen,8571,854518728062939,1837653693018658,BOT: message,I hope you enjoy the learning journey! :hundred_points:,2018-09-07 02:09:28
 1837653693018658,Yiran,Shen,8572,854518728062939,1837653693018658,BOT: quick reply,"So, are you ready?",2018-09-07 02:09:29
 1837653693018658,Yiran,Shen,12589,854518728062939,1837653693018658,BOT: quick reply,"Hi Yiran, remember to practice some questions with me if you haven't finished your session today!",2018-09-07 20:00:07
+1837653693018658,Yiran,Shen,13398,1837653693018658,854518728062939,user_quick_reply: NEXT_QUESTION,OK :flexed_biceps_medium-light_skin_tone:,2018-09-07 21:09:29
+1837653693018658,Yiran,Shen,13399,854518728062939,1837653693018658,BOT: message,How about this next one:,2018-09-07 21:09:29
+1837653693018658,Yiran,Shen,13400,854518728062939,1837653693018658,BOT: quick reply,What kind of viscosity is found in long-chain hydrocarbons?,2018-09-07 21:09:30
+1837653693018658,Yiran,Shen,13401,1837653693018658,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-07 21:09:49
+1837653693018658,Yiran,Shen,13402,854518728062939,1837653693018658,BOT: message,Pick one of the following answers.,2018-09-07 21:09:50
+1837653693018658,Yiran,Shen,13403,854518728062939,1837653693018658,BOT: quick reply,":keycap_1: high viscosity
+:keycap_2: low viscosity
+:keycap_3: increased viscosity
+:keycap_4: intense viscosity
+",2018-09-07 21:09:51
+1837653693018658,Yiran,Shen,13404,1837653693018658,854518728062939,user_quick_reply: BUTTON_AKB_high viscosity,:keycap_1:,2018-09-07 21:10:01
+1837653693018658,Yiran,Shen,13405,854518728062939,1837653693018658,BOT: image,https://www.smartprimer.ai:4443/pictures/avatar/congrats/penguinnormal_happy_cyan.png,2018-09-07 21:10:03
+1837653693018658,Yiran,Shen,13406,854518728062939,1837653693018658,BOT: message,Great job getting the correct answer!,2018-09-07 21:10:04
+1837653693018658,Yiran,Shen,13407,854518728062939,1837653693018658,BOT: quick reply,The correct answer is high viscosity.,2018-09-07 21:10:05
+1837653693018658,Yiran,Shen,13408,1837653693018658,854518728062939,user_quick_reply: WHY,Why?,2018-09-07 21:10:13
+1837653693018658,Yiran,Shen,13409,854518728062939,1837653693018658,BOT: message,I hope this explanation could help you understand the the question.,2018-09-07 21:10:14
+1837653693018658,Yiran,Shen,13410,854518728062939,1837653693018658,BOT: quick reply,"There is also a correlation between viscosity and molecular shape. Liquids consisting of long, flexible molecules tend to have higher viscosities than those composed of more spherical or shorter-chain molecules. The longer the molecules, the easier it is for them to become “tangled” with one another, making it more difficult for them to move past one another. London dispersion forces also increase with chain length. Due to a combination of these two effects, long-chain hydrocarbons (such as motor oils) are highly viscous.",2018-09-07 21:10:14
+1837653693018658,Yiran,Shen,13411,1837653693018658,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-09-07 21:11:04
+1837653693018658,Yiran,Shen,13412,854518728062939,1837653693018658,BOT: message,Could you answer this one for me?,2018-09-07 21:11:05
+1837653693018658,Yiran,Shen,13413,854518728062939,1837653693018658,BOT: quick reply,"Although John F. Kennedy was known for his carefree flag football games, Gerald Ford should be _____ as our football president: he turned down offers to play for two National Football League teams in order to pursue a career in public service.",2018-09-07 21:11:05
+1837653693018658,Yiran,Shen,13414,1837653693018658,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-07 21:11:12
+1837653693018658,Yiran,Shen,13415,854518728062939,1837653693018658,BOT: message,Okay. I'll give you some choices.,2018-09-07 21:11:12
+1837653693018658,Yiran,Shen,13416,854518728062939,1837653693018658,BOT: quick reply,":keycap_1: abrogated
+:keycap_2: annulled
+:keycap_3: relegated
+:keycap_4: criticized
+:keycap_5: apotheosized
+",2018-09-07 21:11:13
+1837653693018658,Yiran,Shen,13417,1837653693018658,854518728062939,user_quick_reply: BUTTON_DKB_relegated,:keycap_3:,2018-09-07 21:11:31
+1837653693018658,Yiran,Shen,13418,854518728062939,1837653693018658,BOT: message,"I'm sorry, but that was incorrect. :disappointed_face:",2018-09-07 21:11:32
+1837653693018658,Yiran,Shen,13419,854518728062939,1837653693018658,BOT: quick reply,The correct answer is apotheosized.,2018-09-07 21:11:32
+1837653693018658,Yiran,Shen,13420,1837653693018658,854518728062939,user_quick_reply: WHY,Why?,2018-09-07 21:11:38
+1837653693018658,Yiran,Shen,13421,854518728062939,1837653693018658,BOT: message,I hope this explanation could help you understand the the question.,2018-09-07 21:11:39
+1837653693018658,Yiran,Shen,13422,854518728062939,1837653693018658,BOT: quick reply,":pushpin: Apotheosized -- deify or glorify
+:pushpin: Relegated -- to send or consign to an inferior position, place, or condition
+:pushpin: Abrogated -- revoke formally
+:pushpin: Annulled -- declare invalid
+:pushpin: Criticized -- find fault with; express criticism of; point out real or perceived flaws",2018-09-07 21:11:40
+1837653693018658,Yiran,Shen,13423,1837653693018658,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-09-07 21:12:02
+1837653693018658,Yiran,Shen,13424,854518728062939,1837653693018658,BOT: message,Here's a question for you:,2018-09-07 21:12:04
+1837653693018658,Yiran,Shen,13425,854518728062939,1837653693018658,BOT: quick reply,What living species of bird is considered the largest of the raptors?,2018-09-07 21:12:04
+1837653693018658,Yiran,Shen,13426,1837653693018658,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-07 21:12:10
+1837653693018658,Yiran,Shen,13427,854518728062939,1837653693018658,BOT: message,Pick one of the following answers.,2018-09-07 21:12:11
+1837653693018658,Yiran,Shen,13428,854518728062939,1837653693018658,BOT: quick reply,":keycap_1: peregrine falcon
+:keycap_2: golden eagles
+:keycap_3: California condor
+:keycap_4: pterodactyl
+",2018-09-07 21:12:12
+1837653693018658,Yiran,Shen,13429,1837653693018658,854518728062939,user_quick_reply: I_DONT_KNOW,I don’t know :downcast_face_with_sweat:,2018-09-07 21:12:23
+1837653693018658,Yiran,Shen,13430,854518728062939,1837653693018658,BOT: quick reply,Are you sure you want to skip answering?,2018-09-07 21:12:23
+1837653693018658,Yiran,Shen,13431,1837653693018658,854518728062939,user_quick_reply: GIVEUP_YES,"Yes, answer please.",2018-09-07 21:12:31
+1837653693018658,Yiran,Shen,13432,854518728062939,1837653693018658,BOT: message,You didn't get it right this time.,2018-09-07 21:12:34
+1837653693018658,Yiran,Shen,13433,854518728062939,1837653693018658,BOT: message,"That's okay, you'll get it next time! :grinning_face_with_smiling_eyes:",2018-09-07 21:12:35
+1837653693018658,Yiran,Shen,13434,854518728062939,1837653693018658,BOT: quick reply,The correct answer is golden eagles.,2018-09-07 21:12:36
+1837653693018658,Yiran,Shen,13435,1837653693018658,854518728062939,user_quick_reply: WHY,Why?,2018-09-07 21:12:44
+1837653693018658,Yiran,Shen,13436,854518728062939,1837653693018658,BOT: message,This is an explanation of the question:,2018-09-07 21:12:45
+1837653693018658,Yiran,Shen,13437,854518728062939,1837653693018658,BOT: quick reply,"Although not as famous as its bald cousin, Golden Eagles are much easier to find in Northern California - one of the largest breeding populations for Golden Eagles. The largest of the raptors, Golden Eagles weigh typically between 8 and 12 pounds, and their wing span is around 6 to 7 feet. These eagles dive towards earth to catch prey, and can reach speeds of up to 200 mph!",2018-09-07 21:12:46
+1837653693018658,Yiran,Shen,13438,1837653693018658,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-09-07 21:13:01
+1837653693018658,Yiran,Shen,13439,854518728062939,1837653693018658,BOT: message,Here's a question for you:,2018-09-07 21:13:01
+1837653693018658,Yiran,Shen,13440,854518728062939,1837653693018658,BOT: quick reply,What living species of bird is considered the largest of the raptors?,2018-09-07 21:13:02
+1837653693018658,Yiran,Shen,13441,1837653693018658,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-07 21:13:07
+1837653693018658,Yiran,Shen,13442,854518728062939,1837653693018658,BOT: message,It's one of the following choices.,2018-09-07 21:13:08
+1837653693018658,Yiran,Shen,13443,854518728062939,1837653693018658,BOT: quick reply,":keycap_1: California condor
+:keycap_2: peregrine falcon
+:keycap_3: pterodactyl
+:keycap_4: golden eagles
+",2018-09-07 21:13:09
+1837653693018658,Yiran,Shen,13444,1837653693018658,854518728062939,user_quick_reply: BUTTON_AKB_golden eagles,:keycap_4:,2018-09-07 21:13:26
+1837653693018658,Yiran,Shen,13445,854518728062939,1837653693018658,BOT: message,Nice work! Keep it up!,2018-09-07 21:13:26
+1837653693018658,Yiran,Shen,13446,854518728062939,1837653693018658,BOT: quick reply,The correct answer is golden eagles.,2018-09-07 21:13:27
+1837653693018658,Yiran,Shen,13447,1837653693018658,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-07 21:13:33
+1837653693018658,Yiran,Shen,13448,854518728062939,1837653693018658,BOT: message,Could you answer this one for me?,2018-09-07 21:13:34
+1837653693018658,Yiran,Shen,13449,854518728062939,1837653693018658,BOT: quick reply,"Despite the smile that spread from ear to ear, the eyes relayed a certain _____ .",2018-09-07 21:13:35
+1837653693018658,Yiran,Shen,13450,1837653693018658,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-07 21:13:39
+1837653693018658,Yiran,Shen,13451,854518728062939,1837653693018658,BOT: message,Which of the following options is the right answer?,2018-09-07 21:13:40
+1837653693018658,Yiran,Shen,13452,854518728062939,1837653693018658,BOT: quick reply,":keycap_1: liveliness
+:keycap_2: jubilance
+:keycap_3: mischievousness
+:keycap_4: sorrow
+:keycap_5: vision
+",2018-09-07 21:13:41
+1837653693018658,Yiran,Shen,13453,1837653693018658,854518728062939,user_quick_reply: BUTTON_DKB_jubilance,:keycap_2:,2018-09-07 21:13:56
+1837653693018658,Yiran,Shen,13454,854518728062939,1837653693018658,BOT: message,"I'm sorry, but that was incorrect. :disappointed_face:",2018-09-07 21:13:57
+1837653693018658,Yiran,Shen,13455,854518728062939,1837653693018658,BOT: quick reply,The correct answer is sorrow.,2018-09-07 21:13:58
+1837653693018658,Yiran,Shen,13456,1837653693018658,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-07 21:14:07
+1837653693018658,Yiran,Shen,13457,854518728062939,1837653693018658,BOT: message,How about this next one:,2018-09-07 21:14:08
+1837653693018658,Yiran,Shen,13458,854518728062939,1837653693018658,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-09-07 21:14:08
+1837653693018658,Yiran,Shen,13459,854518728062939,1837653693018658,BOT: quick reply,What opens two strands of DNA?,2018-09-07 21:14:09
+1837653693018658,Yiran,Shen,13460,1837653693018658,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-07 21:14:20
+1837653693018658,Yiran,Shen,13461,854518728062939,1837653693018658,BOT: message,Okay. I'll give you some choices.,2018-09-07 21:14:21
+1837653693018658,Yiran,Shen,13462,854518728062939,1837653693018658,BOT: quick reply,":keycap_1: replication
+:keycap_2: helicase
+:keycap_3: chromosome
+:keycap_4: adenylate
+",2018-09-07 21:14:22
+1837653693018658,Yiran,Shen,13463,1837653693018658,854518728062939,user_quick_reply: BUTTON_AKB_helicase,:keycap_2:,2018-09-07 21:14:26
+1837653693018658,Yiran,Shen,13464,854518728062939,1837653693018658,BOT: message,Yes! You got the correct answer!,2018-09-07 21:14:27
+1837653693018658,Yiran,Shen,13465,854518728062939,1837653693018658,BOT: quick reply,The correct answer is helicase.,2018-09-07 21:14:27
+1837653693018658,Yiran,Shen,13466,1837653693018658,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-07 21:14:32
+1837653693018658,Yiran,Shen,13467,854518728062939,1837653693018658,BOT: message,How about this next one:,2018-09-07 21:14:33
+1837653693018658,Yiran,Shen,13468,854518728062939,1837653693018658,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-09-07 21:14:34
+1837653693018658,Yiran,Shen,13469,854518728062939,1837653693018658,BOT: quick reply,"Dolly Madison, the wife of President James Madison, was known especially for her _____ , remaining calm even as the British invaded Washington D.C. during the War of 1812.",2018-09-07 21:14:34
+1837653693018658,Yiran,Shen,13470,1837653693018658,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-07 21:14:39
+1837653693018658,Yiran,Shen,13471,854518728062939,1837653693018658,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-09-07 21:14:40
+1837653693018658,Yiran,Shen,13472,854518728062939,1837653693018658,BOT: quick reply,":keycap_1: malevolence
+:keycap_2: equanimity
+:keycap_3: impracticality
+:keycap_4: cynicism
+:keycap_5: zeal
+",2018-09-07 21:14:41
+1837653693018658,Yiran,Shen,13473,1837653693018658,854518728062939,user_quick_reply: BUTTON_AKB_equanimity,:keycap_2:,2018-09-07 21:14:47
+1837653693018658,Yiran,Shen,13474,854518728062939,1837653693018658,BOT: image,https://www.smartprimer.ai:4443/pictures/avatar/congrats/penguinnormal_jubilated_orange.png,2018-09-07 21:14:49
+1837653693018658,Yiran,Shen,13475,854518728062939,1837653693018658,BOT: message,Nice! That was right!,2018-09-07 21:14:50
+1837653693018658,Yiran,Shen,13476,854518728062939,1837653693018658,BOT: quick reply,The correct answer is equanimity.,2018-09-07 21:14:51
+1837653693018658,Yiran,Shen,13477,1837653693018658,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-07 21:14:56
+1837653693018658,Yiran,Shen,13478,854518728062939,1837653693018658,BOT: message,Would you answer this question for me?,2018-09-07 21:14:57
+1837653693018658,Yiran,Shen,13479,854518728062939,1837653693018658,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-09-07 21:14:57
+1837653693018658,Yiran,Shen,13480,854518728062939,1837653693018658,BOT: quick reply,"Even though legislators claimed the Contagious Diseases Acts strengthened the nation, social purists argued the Acts _____ the nation's moral growth by encouraging licentious behavior.",2018-09-07 21:14:58
+1837653693018658,Yiran,Shen,13481,1837653693018658,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-07 21:15:03
+1837653693018658,Yiran,Shen,13482,854518728062939,1837653693018658,BOT: message,It's one of the following choices.,2018-09-07 21:15:03
+1837653693018658,Yiran,Shen,13483,854518728062939,1837653693018658,BOT: quick reply,":keycap_1: hampered
+:keycap_2: enhanced
+:keycap_3: advanced
+:keycap_4: supplanted
+:keycap_5: ameliorated
+",2018-09-07 21:15:04
+1837653693018658,Yiran,Shen,13484,1837653693018658,854518728062939,user_quick_reply: BUTTON_AKB_hampered,:keycap_1:,2018-09-07 21:15:10
+1837653693018658,Yiran,Shen,13485,854518728062939,1837653693018658,BOT: message,Great! Keep it up! :flexed_biceps_medium-light_skin_tone:,2018-09-07 21:15:11
+1837653693018658,Yiran,Shen,13486,854518728062939,1837653693018658,BOT: quick reply,The correct answer is hampered.,2018-09-07 21:15:11
+1837653693018658,Yiran,Shen,13487,1837653693018658,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-07 21:15:16
+1837653693018658,Yiran,Shen,13488,854518728062939,1837653693018658,BOT: message,Let's see if you can get this one.,2018-09-07 21:15:17
+1837653693018658,Yiran,Shen,13489,854518728062939,1837653693018658,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-09-07 21:15:17
+1837653693018658,Yiran,Shen,13490,854518728062939,1837653693018658,BOT: quick reply,What should you NOT do when lowering a load?,2018-09-07 21:15:18
+1837653693018658,Yiran,Shen,13491,1837653693018658,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-07 21:15:24
+1837653693018658,Yiran,Shen,13492,854518728062939,1837653693018658,BOT: message,It's one of the following choices.,2018-09-07 21:15:25
+1837653693018658,Yiran,Shen,13493,854518728062939,1837653693018658,BOT: quick reply,":keycap_1: Twist your body, keep the load close, and bend your knees
+:keycap_2: Bend your knees
+:keycap_3: Twist your body
+:keycap_4: Keep the load close to your body
+",2018-09-07 21:15:26
+1837653693018658,Yiran,Shen,13494,1837653693018658,854518728062939,user_quick_reply: BUTTON_DKB_Keep the load close to your body,:keycap_4:,2018-09-07 21:15:38
+1837653693018658,Yiran,Shen,13495,854518728062939,1837653693018658,BOT: message,"Hmm, that wasn't quite right. :disappointed_face:",2018-09-07 21:15:39
+1837653693018658,Yiran,Shen,13496,854518728062939,1837653693018658,BOT: quick reply,The correct answer is Twist your body.,2018-09-07 21:15:40
+1837653693018658,Yiran,Shen,13497,1837653693018658,854518728062939,user_quick_reply: WHY,Why?,2018-09-07 21:15:47
+1837653693018658,Yiran,Shen,13498,854518728062939,1837653693018658,BOT: message,Here's an explanation:,2018-09-07 21:15:47
+1837653693018658,Yiran,Shen,13499,854518728062939,1837653693018658,BOT: quick reply,"To lower a load, you should make use of its edge, bend your knees, keep the load close to their body, and avoid twisting your torso.",2018-09-07 21:15:48
+1837653693018658,Yiran,Shen,13500,1837653693018658,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-09-07 21:16:13
+1837653693018658,Yiran,Shen,13501,854518728062939,1837653693018658,BOT: message,Let's see if you would answer this one.,2018-09-07 21:16:14
+1837653693018658,Yiran,Shen,13502,854518728062939,1837653693018658,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-09-07 21:16:15
+1837653693018658,Yiran,Shen,13503,854518728062939,1837653693018658,BOT: quick reply,"Having squandered his life's savings on unprofitable business ventures, the _____ entrepreneur was forced to live in squalor.",2018-09-07 21:16:15
+1837653693018658,Yiran,Shen,13504,1837653693018658,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-07 21:16:19
+1837653693018658,Yiran,Shen,13505,854518728062939,1837653693018658,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-09-07 21:16:20
+1837653693018658,Yiran,Shen,13506,854518728062939,1837653693018658,BOT: quick reply,":keycap_1: insolvent
+:keycap_2: eccentric
+:keycap_3: unlikely
+:keycap_4: perturbed
+:keycap_5: former
+",2018-09-07 21:16:21
+1837653693018658,Yiran,Shen,13507,1837653693018658,854518728062939,user_quick_reply: BUTTON_AKB_insolvent,:keycap_1:,2018-09-07 21:16:33
+1837653693018658,Yiran,Shen,13508,854518728062939,1837653693018658,BOT: image,https://www.smartprimer.ai:4443/pictures/avatar/congrats/penguinnormal_normal.png,2018-09-07 21:16:35
+1837653693018658,Yiran,Shen,13509,854518728062939,1837653693018658,BOT: message,Great job!,2018-09-07 21:16:36
+1837653693018658,Yiran,Shen,13510,854518728062939,1837653693018658,BOT: quick reply,The correct answer is insolvent.,2018-09-07 21:16:36
+1837653693018658,Yiran,Shen,13511,1837653693018658,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-07 21:16:41
+1837653693018658,Yiran,Shen,13512,854518728062939,1837653693018658,BOT: message,Could you answer this one for me?,2018-09-07 21:16:41
+1837653693018658,Yiran,Shen,13513,854518728062939,1837653693018658,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-09-07 21:16:42
+1837653693018658,Yiran,Shen,13514,854518728062939,1837653693018658,BOT: quick reply,"In psychological literature, the ""sleeper effect"" refers to the phenomenon in which a persuasive message from a trustworthy source loses _____ over time, while the efficacy of a message from a less credible source simultaneously increases.",2018-09-07 21:16:43
+1837653693018658,Yiran,Shen,13515,1837653693018658,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-07 21:16:47
+1837653693018658,Yiran,Shen,13516,854518728062939,1837653693018658,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-09-07 21:16:48
+1837653693018658,Yiran,Shen,13517,854518728062939,1837653693018658,BOT: quick reply,":keycap_1: cogency
+:keycap_2: evasiveness
+:keycap_3: control
+:keycap_4: erudition
+:keycap_5: prescience
+",2018-09-07 21:16:48
+1837653693018658,Yiran,Shen,13518,1837653693018658,854518728062939,user_quick_reply: BUTTON_AKB_cogency,:keycap_1:,2018-09-07 21:16:57
+1837653693018658,Yiran,Shen,13519,854518728062939,1837653693018658,BOT: message,Great job getting the correct answer!,2018-09-07 21:16:58
+1837653693018658,Yiran,Shen,13520,854518728062939,1837653693018658,BOT: quick reply,The correct answer is cogency.,2018-09-07 21:16:59
+1837653693018658,Yiran,Shen,13521,1837653693018658,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-07 21:17:03
+1837653693018658,Yiran,Shen,13522,854518728062939,1837653693018658,BOT: message,Let's take a look at this question.,2018-09-07 21:17:04
+1837653693018658,Yiran,Shen,13523,854518728062939,1837653693018658,BOT: quick reply,"Just as different people can have very different personalities, so too can pets - even those of the same species and breed possess varied _____ .",2018-09-07 21:17:04
+1837653693018658,Yiran,Shen,13524,1837653693018658,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-07 21:17:09
+1837653693018658,Yiran,Shen,13525,854518728062939,1837653693018658,BOT: message,Pick one of the following answers.,2018-09-07 21:17:09
+1837653693018658,Yiran,Shen,13526,854518728062939,1837653693018658,BOT: quick reply,":keycap_1: implementations
+:keycap_2: temperaments
+:keycap_3: aptitudes
+:keycap_4: rationalizations
+:keycap_5: initiations
+",2018-09-07 21:17:10
+1837653693018658,Yiran,Shen,13527,1837653693018658,854518728062939,user_quick_reply: BUTTON_DKB_aptitudes,:keycap_3:,2018-09-07 21:17:15
+1837653693018658,Yiran,Shen,13528,854518728062939,1837653693018658,BOT: message,That's not quite right. :disappointed_face:,2018-09-07 21:17:18
+1837653693018658,Yiran,Shen,13529,854518728062939,1837653693018658,BOT: quick reply,The correct answer is temperaments.,2018-09-07 21:17:19
+1837653693018658,Yiran,Shen,13530,1837653693018658,854518728062939,user_quick_reply: WHY,Why?,2018-09-07 21:17:25
+1837653693018658,Yiran,Shen,13531,854518728062939,1837653693018658,BOT: message,Here's an explanation:,2018-09-07 21:17:26
+1837653693018658,Yiran,Shen,13532,854518728062939,1837653693018658,BOT: quick reply,":pushpin: Temperaments -- the combination of mental, physical, and emotional traits
+:pushpin: Initiations -- a formal entry into an organization or position or office
+:pushpin: Implementations -- the act of accomplishing some aim or executing some order
+:pushpin: Aptitudes -- inherent ability
+:pushpin: Rationalizations -- the cognitive process of making something seem consistent with or based on reason",2018-09-07 21:17:26
+1837653693018658,Yiran,Shen,13533,1837653693018658,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-09-07 21:18:17
+1837653693018658,Yiran,Shen,13534,854518728062939,1837653693018658,BOT: message,Let's try this question.,2018-09-07 21:18:18
+1837653693018658,Yiran,Shen,13535,854518728062939,1837653693018658,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-09-07 21:18:18
+1837653693018658,Yiran,Shen,13536,854518728062939,1837653693018658,BOT: quick reply,Many Major League Baseball relief pitchers choose an electrifying theme song to play as they take the mound; the song _____ their fans and instills fear in their opponents.,2018-09-07 21:18:19
+1837653693018658,Yiran,Shen,13537,1837653693018658,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-07 21:18:23
+1837653693018658,Yiran,Shen,13538,854518728062939,1837653693018658,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-09-07 21:18:24
+1837653693018658,Yiran,Shen,13539,854518728062939,1837653693018658,BOT: quick reply,":keycap_1: innervates
+:keycap_2: eviscerates
+:keycap_3: pervades
+:keycap_4: assuages
+:keycap_5: enervates
+",2018-09-07 21:18:25
+1837653693018658,Yiran,Shen,13540,1837653693018658,854518728062939,user_quick_reply: BUTTON_DKB_enervates,:keycap_5:,2018-09-07 21:18:33
+1837653693018658,Yiran,Shen,13541,854518728062939,1837653693018658,BOT: message,"I'm sorry, but that was incorrect. :disappointed_face:",2018-09-07 21:18:33
+1837653693018658,Yiran,Shen,13542,854518728062939,1837653693018658,BOT: quick reply,The correct answer is innervates.,2018-09-07 21:18:34
+1837653693018658,Yiran,Shen,13543,1837653693018658,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-07 21:18:39
+1837653693018658,Yiran,Shen,13544,854518728062939,1837653693018658,BOT: message,See if you can answer this next one.,2018-09-07 21:18:39
+1837653693018658,Yiran,Shen,13545,854518728062939,1837653693018658,BOT: quick reply,"Many dog owners treat their pets too _____ , forgetting that canines have evolved in competitive environments in which emotional coddling was a sign of weakness.",2018-09-07 21:18:40
+1837653693018658,Yiran,Shen,13546,1837653693018658,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-07 21:18:46
+1837653693018658,Yiran,Shen,13547,854518728062939,1837653693018658,BOT: message,Pick one of the following answers.,2018-09-07 21:18:46
+1837653693018658,Yiran,Shen,13548,854518728062939,1837653693018658,BOT: quick reply,":keycap_1: fortuitously
+:keycap_2: belligerently
+:keycap_3: aggressively
+:keycap_4: quixotically
+:keycap_5: indulgently
+",2018-09-07 21:18:47
+1837653693018658,Yiran,Shen,13549,1837653693018658,854518728062939,user_quick_reply: BUTTON_AKB_indulgently,:keycap_5:,2018-09-07 21:18:53
+1837653693018658,Yiran,Shen,13550,854518728062939,1837653693018658,BOT: image,https://www.smartprimer.ai:4443/pictures/avatar/congrats/penguinnormal_normal_orange.png,2018-09-07 21:18:55
+1837653693018658,Yiran,Shen,13551,854518728062939,1837653693018658,BOT: message,Great job!,2018-09-07 21:18:56
+1837653693018658,Yiran,Shen,13552,854518728062939,1837653693018658,BOT: quick reply,The correct answer is indulgently.,2018-09-07 21:18:56
+1837653693018658,Yiran,Shen,13553,1837653693018658,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-07 21:19:01
+1837653693018658,Yiran,Shen,13554,854518728062939,1837653693018658,BOT: message,How about this next one:,2018-09-07 21:19:02
+1837653693018658,Yiran,Shen,13555,854518728062939,1837653693018658,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-09-07 21:19:02
+1837653693018658,Yiran,Shen,13556,854518728062939,1837653693018658,BOT: quick reply,"Modern tennis fans have come to realize that, although, quantum technological leaps in racquet technology have lead to _____ increases in the speed and power with which players can hit the ball, this has not necessarily lead to a more entertaining game.",2018-09-07 21:19:03
+1837653693018658,Yiran,Shen,13557,1837653693018658,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-07 21:19:08
+1837653693018658,Yiran,Shen,13558,854518728062939,1837653693018658,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-09-07 21:19:08
+1837653693018658,Yiran,Shen,13559,854518728062939,1837653693018658,BOT: quick reply,":keycap_1: halcyon
+:keycap_2: tractable
+:keycap_3: malleable
+:keycap_4: commensurate
+:keycap_5: innocuous
+",2018-09-07 21:19:09
+1837653693018658,Yiran,Shen,13560,1837653693018658,854518728062939,user_quick_reply: BUTTON_AKB_commensurate,:keycap_4:,2018-09-07 21:19:19
+1837653693018658,Yiran,Shen,13561,854518728062939,1837653693018658,BOT: message,Great! Keep it up! :flexed_biceps_medium-light_skin_tone:,2018-09-07 21:19:19
+1837653693018658,Yiran,Shen,13562,854518728062939,1837653693018658,BOT: quick reply,The correct answer is commensurate.,2018-09-07 21:19:20
+1837653693018658,Yiran,Shen,13563,1837653693018658,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-07 21:19:25
+1837653693018658,Yiran,Shen,13564,854518728062939,1837653693018658,BOT: message,Let's see if you can get this one.,2018-09-07 21:19:25
+1837653693018658,Yiran,Shen,13565,854518728062939,1837653693018658,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-09-07 21:19:26
+1837653693018658,Yiran,Shen,13566,854518728062939,1837653693018658,BOT: quick reply,Seth was extremely _____ and did not enjoy activities that required effort to meet new people.,2018-09-07 21:19:27
+1837653693018658,Yiran,Shen,13567,1837653693018658,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-07 21:19:31
+1837653693018658,Yiran,Shen,13568,854518728062939,1837653693018658,BOT: message,Pick one of the following answers.,2018-09-07 21:19:32
+1837653693018658,Yiran,Shen,13569,854518728062939,1837653693018658,BOT: quick reply,":keycap_1: introverted
+:keycap_2: lackluster
+:keycap_3: jaded
+:keycap_4: gregarious
+:keycap_5: extroverted
+",2018-09-07 21:19:33
+1837653693018658,Yiran,Shen,13570,1837653693018658,854518728062939,user_quick_reply: BUTTON_AKB_introverted,:keycap_1:,2018-09-07 21:19:37
+1837653693018658,Yiran,Shen,13571,854518728062939,1837653693018658,BOT: image,https://www.smartprimer.ai:4443/pictures/avatar/congrats/penguinnormal_happy_orange.png,2018-09-07 21:19:39
+1837653693018658,Yiran,Shen,13572,854518728062939,1837653693018658,BOT: message,Great! Keep it up! :flexed_biceps_medium-light_skin_tone:,2018-09-07 21:19:40
+1837653693018658,Yiran,Shen,13573,854518728062939,1837653693018658,BOT: quick reply,The correct answer is introverted.,2018-09-07 21:19:41
+1837653693018658,Yiran,Shen,13574,1837653693018658,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-07 21:19:45
+1837653693018658,Yiran,Shen,13575,854518728062939,1837653693018658,BOT: message,Let's try this one.,2018-09-07 21:19:46
+1837653693018658,Yiran,Shen,13576,854518728062939,1837653693018658,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-09-07 21:19:47
+1837653693018658,Yiran,Shen,13577,854518728062939,1837653693018658,BOT: quick reply,"Possessing few natural resources upon its newly-granted independence in 1863, Singapore remained economically _____ until an influx of industrialization and foreign investment took hold there.",2018-09-07 21:19:47
+1837653693018658,Yiran,Shen,13578,1837653693018658,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-07 21:19:52
+1837653693018658,Yiran,Shen,13579,854518728062939,1837653693018658,BOT: message,It's one of the following choices.,2018-09-07 21:19:53
+1837653693018658,Yiran,Shen,13580,854518728062939,1837653693018658,BOT: quick reply,":keycap_1: fortuitous
+:keycap_2: solvent
+:keycap_3: powerful
+:keycap_4: prosperous
+:keycap_5: dubious
+",2018-09-07 21:19:53
+1837653693018658,Yiran,Shen,13581,1837653693018658,854518728062939,user_quick_reply: BUTTON_AKB_dubious,:keycap_5:,2018-09-07 21:20:00
+1837653693018658,Yiran,Shen,13582,854518728062939,1837653693018658,BOT: message,Great! Keep it up! :flexed_biceps_medium-light_skin_tone:,2018-09-07 21:20:01
+1837653693018658,Yiran,Shen,13583,854518728062939,1837653693018658,BOT: quick reply,The correct answer is dubious.,2018-09-07 21:20:01
+1837653693018658,Yiran,Shen,13584,1837653693018658,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-07 21:20:06
+1837653693018658,Yiran,Shen,13585,854518728062939,1837653693018658,BOT: message,I think you'll like this question.,2018-09-07 21:20:07
+1837653693018658,Yiran,Shen,13586,854518728062939,1837653693018658,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-09-07 21:20:08
+1837653693018658,Yiran,Shen,13587,854518728062939,1837653693018658,BOT: quick reply,"Prior to taking on the new invader, the defending army had engaged in arduous combat; it is likely that the _____ resulting from waging two battles in two days played a part in its subsequent defeat.",2018-09-07 21:20:08
+1837653693018658,Yiran,Shen,13588,1837653693018658,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-07 21:20:14
+1837653693018658,Yiran,Shen,13589,854518728062939,1837653693018658,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-09-07 21:20:14
+1837653693018658,Yiran,Shen,13590,854518728062939,1837653693018658,BOT: quick reply,":keycap_1: bellicosity
+:keycap_2: enervation
+:keycap_3: pacification
+:keycap_4: aggravation
+:keycap_5: pugnacity
+",2018-09-07 21:20:15
+1837653693018658,Yiran,Shen,13591,1837653693018658,854518728062939,user_quick_reply: BUTTON_AKB_enervation,:keycap_2:,2018-09-07 21:20:22
+1837653693018658,Yiran,Shen,13592,854518728062939,1837653693018658,BOT: image,https://www.smartprimer.ai:4443/pictures/avatar/congrats/penguinnormal_jubilated_orange.png,2018-09-07 21:20:24
+1837653693018658,Yiran,Shen,13593,854518728062939,1837653693018658,BOT: message,Nice! That was right!,2018-09-07 21:20:25
+1837653693018658,Yiran,Shen,13594,854518728062939,1837653693018658,BOT: quick reply,The correct answer is enervation.,2018-09-07 21:20:25
+1837653693018658,Yiran,Shen,13595,1837653693018658,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-07 21:20:29
+1837653693018658,Yiran,Shen,13596,854518728062939,1837653693018658,BOT: message,Here's a question for you:,2018-09-07 21:20:30
+1837653693018658,Yiran,Shen,13597,854518728062939,1837653693018658,BOT: quick reply,The Erie Canal's completion caused _____ economic ripples; property values and industrial output along its route rose exponentially.,2018-09-07 21:20:31
+1837653693018658,Yiran,Shen,13598,1837653693018658,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-07 21:20:35
+1837653693018658,Yiran,Shen,13599,854518728062939,1837653693018658,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-09-07 21:20:36
+1837653693018658,Yiran,Shen,13600,854518728062939,1837653693018658,BOT: quick reply,":keycap_1: persistent
+:keycap_2: prodigious
+:keycap_3: severe
+:keycap_4: invaluable
+:keycap_5: incredulous
+",2018-09-07 21:20:36
+1837653693018658,Yiran,Shen,13601,1837653693018658,854518728062939,user_quick_reply: BUTTON_AKB_prodigious,:keycap_2:,2018-09-07 21:20:59
+1837653693018658,Yiran,Shen,13602,854518728062939,1837653693018658,BOT: message,Nice! That was right!,2018-09-07 21:20:59
+1837653693018658,Yiran,Shen,13603,854518728062939,1837653693018658,BOT: quick reply,The correct answer is prodigious.,2018-09-07 21:21:00
+1837653693018658,Yiran,Shen,13604,1837653693018658,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-07 21:21:04
+1837653693018658,Yiran,Shen,13605,854518728062939,1837653693018658,BOT: message,Could you answer this one for me?,2018-09-07 21:21:05
+1837653693018658,Yiran,Shen,13606,854518728062939,1837653693018658,BOT: quick reply,While she may have answered him truthfully - in the strictest sense of the word - it became clear to Sergei after the incident that Sheryl had actually been trying to _____ .,2018-09-07 21:21:06
+1837653693018658,Yiran,Shen,13607,1837653693018658,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-07 21:21:10
+1837653693018658,Yiran,Shen,13608,854518728062939,1837653693018658,BOT: message,Which of the following options is the right answer?,2018-09-07 21:21:11
+1837653693018658,Yiran,Shen,13609,854518728062939,1837653693018658,BOT: quick reply,":keycap_1: covet
+:keycap_2: desiccate
+:keycap_3: illuminate
+:keycap_4: obfuscate
+:keycap_5: vituperate
+",2018-09-07 21:21:11
+1837653693018658,Yiran,Shen,13610,1837653693018658,854518728062939,user_quick_reply: BUTTON_AKB_obfuscate,:keycap_4:,2018-09-07 21:21:19
+1837653693018658,Yiran,Shen,13611,854518728062939,1837653693018658,BOT: message,Yes! You got the correct answer!,2018-09-07 21:21:19
+1837653693018658,Yiran,Shen,13612,854518728062939,1837653693018658,BOT: quick reply,The correct answer is obfuscate.,2018-09-07 21:21:20
+1837653693018658,Yiran,Shen,13613,1837653693018658,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-07 21:21:26
+1837653693018658,Yiran,Shen,13614,854518728062939,1837653693018658,BOT: message,See if you can answer this next one.,2018-09-07 21:21:27
+1837653693018658,Yiran,Shen,13615,854518728062939,1837653693018658,BOT: quick reply,"With a similar contrast between a partly cloudy sky and a dark street, the cover of the recent rock CD _____ a famous surrealist painting from the early 1900s.",2018-09-07 21:21:28
+1837653693018658,Yiran,Shen,13616,1837653693018658,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-07 21:21:33
+1837653693018658,Yiran,Shen,13617,854518728062939,1837653693018658,BOT: message,Okay. I'll give you some choices.,2018-09-07 21:21:34
+1837653693018658,Yiran,Shen,13618,854518728062939,1837653693018658,BOT: quick reply,":keycap_1: disenchants
+:keycap_2: admires
+:keycap_3: sanctions
+:keycap_4: evokes
+:keycap_5: obfuscates
+",2018-09-07 21:21:35
+1837653693018658,Yiran,Shen,13619,1837653693018658,854518728062939,user_quick_reply: BUTTON_DKB_sanctions,:keycap_3:,2018-09-07 21:21:58
+1837653693018658,Yiran,Shen,13620,854518728062939,1837653693018658,BOT: message,"Hmm, that wasn't quite right. :disappointed_face:",2018-09-07 21:21:59
+1837653693018658,Yiran,Shen,13621,854518728062939,1837653693018658,BOT: quick reply,The correct answer is evokes.,2018-09-07 21:22:00
+1837653693018658,Yiran,Shen,13622,1837653693018658,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-07 21:22:05
+1837653693018658,Yiran,Shen,13623,854518728062939,1837653693018658,BOT: quick reply,"Nice job! You've practiced enough questions today. Please come back tomorrow and click on ""Resume Learning :flexed_biceps_medium-light_skin_tone:"" for another practice session.",2018-09-07 21:22:06

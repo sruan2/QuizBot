@@ -1,0 +1,300 @@
+user_id,user_firstname,user_lastname,uid,sender,recipient,type,dialogue,time_stamp
+1830815427025883,Hao,Chen,10597,1830815427025883,854518728062939,persistent_menu: GET_INTRO_1,Get Started,2018-09-07 12:04:35
+1830815427025883,Hao,Chen,10598,854518728062939,1830815427025883,BOT: image,https://www.smartprimer.ai:4443/pictures/avatar/quizbot_avatar.png,2018-09-07 12:04:38
+1830815427025883,Hao,Chen,10599,854518728062939,1830815427025883,BOT: quick reply,"Hi Hao! My name is Frosty :penguin: and I’m here to help you learn all about science:microscope:, verbal reasoning (GRE) :input_latin_uppercase:, and safety:hammer_and_wrench:!",2018-09-07 12:04:39
+1830815427025883,Hao,Chen,10600,1830815427025883,854518728062939,user_quick_reply: GET_INTRO_2,Tap me :flexed_biceps_medium-light_skin_tone:,2018-09-07 12:05:02
+1830815427025883,Hao,Chen,10601,854518728062939,1830815427025883,BOT: message,Here’s how it works.,2018-09-07 12:05:02
+1830815427025883,Hao,Chen,10602,854518728062939,1830815427025883,BOT: message,"I ask you questions, and you give me answers.",2018-09-07 12:05:04
+1830815427025883,Hao,Chen,10603,854518728062939,1830815427025883,BOT: quick reply,We will learn fun things together!,2018-09-07 12:05:05
+1830815427025883,Hao,Chen,10604,1830815427025883,854518728062939,user_quick_reply: GET_INTRO_3,Alright :oncoming_fist_medium-light_skin_tone:,2018-09-07 12:05:11
+1830815427025883,Hao,Chen,10605,854518728062939,1830815427025883,BOT: image,https://www.smartprimer.ai:4443/pictures/user_manual/typeanswer.png,2018-09-07 12:05:14
+1830815427025883,Hao,Chen,10606,854518728062939,1830815427025883,BOT: quick reply,"To study the questions, you can type in your answers in the text field and I will evaluate the answers for you using advanced NLP (Natural Language Processing) technology.",2018-09-07 12:05:14
+1830815427025883,Hao,Chen,10864,1830815427025883,854518728062939,user_quick_reply: GET_INTRO_4,Continue :oncoming_fist_medium-light_skin_tone:,2018-09-07 12:47:40
+1830815427025883,Hao,Chen,10865,854518728062939,1830815427025883,BOT: image,https://www.smartprimer.ai:4443/pictures/user_manual/needhintbutton.png,2018-09-07 12:47:43
+1830815427025883,Hao,Chen,10866,854518728062939,1830815427025883,BOT: quick reply,"If you don't know the answers, then feel free to tap on the hint button.",2018-09-07 12:47:43
+1830815427025883,Hao,Chen,10867,1830815427025883,854518728062939,user_quick_reply: GET_INTRO_5,Continue :thumbs_up_medium-light_skin_tone:,2018-09-07 12:47:50
+1830815427025883,Hao,Chen,10868,854518728062939,1830815427025883,BOT: image,https://www.smartprimer.ai:4443/pictures/user_manual/hintoptions.png,2018-09-07 12:47:53
+1830815427025883,Hao,Chen,10869,854518728062939,1830815427025883,BOT: quick reply,The hint will give you a list of potential answers and you can select one from them.,2018-09-07 12:47:54
+1830815427025883,Hao,Chen,10870,1830815427025883,854518728062939,user_quick_reply: GET_INTRO_6,Got it :oncoming_fist_medium-light_skin_tone:,2018-09-07 12:48:01
+1830815427025883,Hao,Chen,10871,854518728062939,1830815427025883,BOT: image,https://www.smartprimer.ai:4443/pictures/user_manual/menubutton.jpg,2018-09-07 12:48:03
+1830815427025883,Hao,Chen,10872,854518728062939,1830815427025883,BOT: quick reply,"To discover more abilities of me, you can click on the menu button.:backhand_index_pointing_up_medium-light_skin_tone:",2018-09-07 12:48:03
+1830815427025883,Hao,Chen,10873,1830815427025883,854518728062939,user_quick_reply: GET_READY,Sure :thumbs_up_medium-light_skin_tone:,2018-09-07 12:48:09
+1830815427025883,Hao,Chen,10874,854518728062939,1830815427025883,BOT: message,I hope you enjoy the learning journey! :hundred_points:,2018-09-07 12:48:10
+1830815427025883,Hao,Chen,10875,854518728062939,1830815427025883,BOT: quick reply,"So, are you ready?",2018-09-07 12:48:11
+1830815427025883,Hao,Chen,10876,1830815427025883,854518728062939,user_quick_reply: YUP_IM_READY,Yup! I'm ready! :raised_fist_medium-light_skin_tone:,2018-09-07 12:48:17
+1830815427025883,Hao,Chen,10877,854518728062939,1830815427025883,BOT: message,Great!,2018-09-07 12:48:18
+1830815427025883,Hao,Chen,10878,854518728062939,1830815427025883,BOT: quick reply,Let’s get started :rocket:,2018-09-07 12:48:19
+1830815427025883,Hao,Chen,10879,1830815427025883,854518728062939,user_quick_reply: SWITCH_SUBJECT,Quiz me :nerd_face:,2018-09-07 12:48:32
+1830815427025883,Hao,Chen,10880,854518728062939,1830815427025883,BOT: quick reply,"Okay, now tell me which subject you would like to study.:backhand_index_pointing_down_medium-light_skin_tone:",2018-09-07 12:48:33
+1830815427025883,Hao,Chen,10881,1830815427025883,854518728062939,user_quick_reply: SCIENCE,Science:microscope:,2018-09-07 12:48:39
+1830815427025883,Hao,Chen,10882,854518728062939,1830815427025883,BOT: quick reply,Awesome! Let's learn about science!,2018-09-07 12:48:40
+1830815427025883,Hao,Chen,10883,1830815427025883,854518728062939,user_quick_reply: NEXT_QUESTION,I see :raising_hands_medium-light_skin_tone:,2018-09-07 12:48:44
+1830815427025883,Hao,Chen,10884,854518728062939,1830815427025883,BOT: message,Could you answer this one for me?,2018-09-07 12:48:45
+1830815427025883,Hao,Chen,10885,854518728062939,1830815427025883,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-09-07 12:48:46
+1830815427025883,Hao,Chen,10886,854518728062939,1830815427025883,BOT: quick reply,What kind of viscosity is found in long-chain hydrocarbons?,2018-09-07 12:48:47
+1830815427025883,Hao,Chen,10887,1830815427025883,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-07 12:48:59
+1830815427025883,Hao,Chen,10888,854518728062939,1830815427025883,BOT: message,It's one of the following choices.,2018-09-07 12:49:01
+1830815427025883,Hao,Chen,10889,854518728062939,1830815427025883,BOT: quick reply,":keycap_1: increased viscosity
+:keycap_2: low viscosity
+:keycap_3: intense viscosity
+:keycap_4: high viscosity
+",2018-09-07 12:49:02
+1830815427025883,Hao,Chen,10890,1830815427025883,854518728062939,user_quick_reply: BUTTON_DKB_low viscosity,:keycap_2:,2018-09-07 12:49:16
+1830815427025883,Hao,Chen,10891,854518728062939,1830815427025883,BOT: message,"Hmm, that wasn't quite right. :disappointed_face:",2018-09-07 12:49:17
+1830815427025883,Hao,Chen,10892,854518728062939,1830815427025883,BOT: quick reply,The correct answer is high viscosity.,2018-09-07 12:49:18
+1830815427025883,Hao,Chen,10893,1830815427025883,854518728062939,user_quick_reply: WHY,Why?,2018-09-07 12:49:24
+1830815427025883,Hao,Chen,10894,854518728062939,1830815427025883,BOT: message,This is an explanation of the question:,2018-09-07 12:49:25
+1830815427025883,Hao,Chen,10895,854518728062939,1830815427025883,BOT: quick reply,"There is also a correlation between viscosity and molecular shape. Liquids consisting of long, flexible molecules tend to have higher viscosities than those composed of more spherical or shorter-chain molecules. The longer the molecules, the easier it is for them to become “tangled” with one another, making it more difficult for them to move past one another. London dispersion forces also increase with chain length. Due to a combination of these two effects, long-chain hydrocarbons (such as motor oils) are highly viscous.",2018-09-07 12:49:26
+1830815427025883,Hao,Chen,10896,1830815427025883,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-09-07 12:49:42
+1830815427025883,Hao,Chen,10897,854518728062939,1830815427025883,BOT: message,I think you'll like this question.,2018-09-07 12:49:43
+1830815427025883,Hao,Chen,10898,854518728062939,1830815427025883,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-09-07 12:49:43
+1830815427025883,Hao,Chen,10899,854518728062939,1830815427025883,BOT: quick reply,What living species of bird is considered the largest of the raptors?,2018-09-07 12:49:44
+1830815427025883,Hao,Chen,10900,1830815427025883,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-07 12:49:54
+1830815427025883,Hao,Chen,10901,854518728062939,1830815427025883,BOT: message,Okay. I'll give you some choices.,2018-09-07 12:49:55
+1830815427025883,Hao,Chen,10902,854518728062939,1830815427025883,BOT: quick reply,":keycap_1: peregrine falcon
+:keycap_2: California condor
+:keycap_3: pterodactyl
+:keycap_4: golden eagles
+",2018-09-07 12:49:56
+1830815427025883,Hao,Chen,10903,1830815427025883,854518728062939,user_quick_reply: BUTTON_AKB_golden eagles,:keycap_4:,2018-09-07 12:50:06
+1830815427025883,Hao,Chen,10904,854518728062939,1830815427025883,BOT: message,Great job getting the correct answer!,2018-09-07 12:50:06
+1830815427025883,Hao,Chen,10905,854518728062939,1830815427025883,BOT: quick reply,The correct answer is golden eagles.,2018-09-07 12:50:07
+1830815427025883,Hao,Chen,10906,1830815427025883,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-07 12:50:15
+1830815427025883,Hao,Chen,10907,854518728062939,1830815427025883,BOT: message,Let's take a look at this question.,2018-09-07 12:50:16
+1830815427025883,Hao,Chen,10908,854518728062939,1830815427025883,BOT: quick reply,What opens two strands of DNA?,2018-09-07 12:50:17
+1830815427025883,Hao,Chen,10909,1830815427025883,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-07 12:51:41
+1830815427025883,Hao,Chen,10910,854518728062939,1830815427025883,BOT: message,Pick one of the following answers.,2018-09-07 12:51:42
+1830815427025883,Hao,Chen,10911,854518728062939,1830815427025883,BOT: quick reply,":keycap_1: replication
+:keycap_2: helicase
+:keycap_3: chromosome
+:keycap_4: adenylate
+",2018-09-07 12:51:43
+1830815427025883,Hao,Chen,10912,1830815427025883,854518728062939,user_quick_reply: BUTTON_AKB_helicase,:keycap_2:,2018-09-07 12:51:47
+1830815427025883,Hao,Chen,10913,854518728062939,1830815427025883,BOT: message,Great! Keep it up! :flexed_biceps_medium-light_skin_tone:,2018-09-07 12:51:48
+1830815427025883,Hao,Chen,10914,854518728062939,1830815427025883,BOT: quick reply,The correct answer is helicase.,2018-09-07 12:51:49
+1830815427025883,Hao,Chen,10915,1830815427025883,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-07 12:51:54
+1830815427025883,Hao,Chen,10916,854518728062939,1830815427025883,BOT: message,Let's try this one.,2018-09-07 12:51:55
+1830815427025883,Hao,Chen,10917,854518728062939,1830815427025883,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-09-07 12:51:55
+1830815427025883,Hao,Chen,10918,854518728062939,1830815427025883,BOT: quick reply,"When your brain senses that your body temperature is increasing, it sends messages to the blood vessels in the skin to increase in what?",2018-09-07 12:51:56
+1830815427025883,Hao,Chen,10919,1830815427025883,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-07 12:52:05
+1830815427025883,Hao,Chen,10920,854518728062939,1830815427025883,BOT: message,Okay. I'll give you some choices.,2018-09-07 12:52:06
+1830815427025883,Hao,Chen,10921,854518728062939,1830815427025883,BOT: quick reply,":keycap_1: diameter
+:keycap_2: height
+:keycap_3: weight
+:keycap_4: surface
+",2018-09-07 12:52:06
+1830815427025883,Hao,Chen,10922,1830815427025883,854518728062939,user_quick_reply: BUTTON_AKB_diameter,:keycap_1:,2018-09-07 12:52:13
+1830815427025883,Hao,Chen,10923,854518728062939,1830815427025883,BOT: message,Great! Keep it up! :flexed_biceps_medium-light_skin_tone:,2018-09-07 12:52:14
+1830815427025883,Hao,Chen,10924,854518728062939,1830815427025883,BOT: quick reply,The correct answer is diameter.,2018-09-07 12:52:15
+1830815427025883,Hao,Chen,10925,1830815427025883,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-07 12:52:18
+1830815427025883,Hao,Chen,10926,854518728062939,1830815427025883,BOT: message,I think you'll like this question.,2018-09-07 12:52:19
+1830815427025883,Hao,Chen,10927,854518728062939,1830815427025883,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-09-07 12:52:20
+1830815427025883,Hao,Chen,10928,854518728062939,1830815427025883,BOT: quick reply,How often should women perform a breast self-exam?,2018-09-07 12:52:21
+1830815427025883,Hao,Chen,10929,1830815427025883,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-07 12:52:28
+1830815427025883,Hao,Chen,10930,854518728062939,1830815427025883,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-09-07 12:52:28
+1830815427025883,Hao,Chen,10931,854518728062939,1830815427025883,BOT: quick reply,":keycap_1: monthly
+:keycap_2: weekly
+:keycap_3: quarterly
+:keycap_4: yearly
+",2018-09-07 12:52:29
+1830815427025883,Hao,Chen,10932,1830815427025883,854518728062939,user_quick_reply: BUTTON_DKB_yearly,:keycap_4:,2018-09-07 12:52:45
+1830815427025883,Hao,Chen,10933,854518728062939,1830815427025883,BOT: message,"Hmm, that wasn't quite right. :disappointed_face:",2018-09-07 12:52:46
+1830815427025883,Hao,Chen,10934,854518728062939,1830815427025883,BOT: quick reply,The correct answer is monthly.,2018-09-07 12:52:46
+1830815427025883,Hao,Chen,10935,1830815427025883,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-07 12:53:01
+1830815427025883,Hao,Chen,10936,854518728062939,1830815427025883,BOT: message,Here's a question for you:,2018-09-07 12:53:02
+1830815427025883,Hao,Chen,10937,854518728062939,1830815427025883,BOT: quick reply,Most fungi get organic compounds from what?,2018-09-07 12:53:02
+1830815427025883,Hao,Chen,10938,1830815427025883,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-07 12:53:08
+1830815427025883,Hao,Chen,10939,854518728062939,1830815427025883,BOT: message,It's one of the following choices.,2018-09-07 12:53:09
+1830815427025883,Hao,Chen,10940,854518728062939,1830815427025883,BOT: quick reply,":keycap_1: carnivorous organisms
+:keycap_2: dead organisms
+:keycap_3: inorganic material
+:keycap_4: living organisms
+",2018-09-07 12:53:10
+1830815427025883,Hao,Chen,10941,1830815427025883,854518728062939,user_quick_reply: BUTTON_AKB_dead organisms,:keycap_2:,2018-09-07 12:53:15
+1830815427025883,Hao,Chen,10942,854518728062939,1830815427025883,BOT: image,https://www.smartprimer.ai:4443/pictures/avatar/congrats/penguinnormal_happy_orange.png,2018-09-07 12:53:16
+1830815427025883,Hao,Chen,10943,854518728062939,1830815427025883,BOT: message,Nice! That was right!,2018-09-07 12:53:17
+1830815427025883,Hao,Chen,10944,854518728062939,1830815427025883,BOT: quick reply,The correct answer is dead organisms.,2018-09-07 12:53:18
+1830815427025883,Hao,Chen,10945,1830815427025883,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-07 12:53:23
+1830815427025883,Hao,Chen,10946,854518728062939,1830815427025883,BOT: message,Let's take a look at this question.,2018-09-07 12:53:23
+1830815427025883,Hao,Chen,10947,854518728062939,1830815427025883,BOT: quick reply,Most insects reproduce quickly and through what type of reproduction?,2018-09-07 12:53:24
+1830815427025883,Hao,Chen,10948,1830815427025883,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-07 12:53:32
+1830815427025883,Hao,Chen,10949,854518728062939,1830815427025883,BOT: message,It's one of the following choices.,2018-09-07 12:53:33
+1830815427025883,Hao,Chen,10950,854518728062939,1830815427025883,BOT: quick reply,":keycap_1: sexual reproduction
+:keycap_2: photosynthesis
+:keycap_3: spores
+:keycap_4: asexual reproduction
+",2018-09-07 12:53:34
+1830815427025883,Hao,Chen,10951,1830815427025883,854518728062939,user_quick_reply: BUTTON_DKB_asexual reproduction,:keycap_4:,2018-09-07 12:53:40
+1830815427025883,Hao,Chen,10952,854518728062939,1830815427025883,BOT: message,"Hmm, that wasn't quite right. :disappointed_face:",2018-09-07 12:53:40
+1830815427025883,Hao,Chen,10953,854518728062939,1830815427025883,BOT: quick reply,The correct answer is sexual reproduction.,2018-09-07 12:53:41
+1830815427025883,Hao,Chen,10954,1830815427025883,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-07 12:53:48
+1830815427025883,Hao,Chen,10955,854518728062939,1830815427025883,BOT: message,Let's take a look at this question.,2018-09-07 12:53:49
+1830815427025883,Hao,Chen,10956,854518728062939,1830815427025883,BOT: quick reply,Nerve cells that sense touch are found mainly where?,2018-09-07 12:53:50
+1830815427025883,Hao,Chen,10957,1830815427025883,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-07 12:53:59
+1830815427025883,Hao,Chen,10958,854518728062939,1830815427025883,BOT: message,Which of the following options is the right answer?,2018-09-07 12:53:59
+1830815427025883,Hao,Chen,10959,854518728062939,1830815427025883,BOT: quick reply,":keycap_1: stomach
+:keycap_2: skin
+:keycap_3: lungs
+:keycap_4: brain
+",2018-09-07 12:54:00
+1830815427025883,Hao,Chen,10960,1830815427025883,854518728062939,user_quick_reply: BUTTON_AKB_skin,:keycap_2:,2018-09-07 12:54:03
+1830815427025883,Hao,Chen,10961,854518728062939,1830815427025883,BOT: message,Great! Keep it up! :flexed_biceps_medium-light_skin_tone:,2018-09-07 12:54:04
+1830815427025883,Hao,Chen,10962,854518728062939,1830815427025883,BOT: quick reply,The correct answer is skin.,2018-09-07 12:54:05
+1830815427025883,Hao,Chen,10963,1830815427025883,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-07 12:54:08
+1830815427025883,Hao,Chen,10964,854518728062939,1830815427025883,BOT: message,How about this next one:,2018-09-07 12:54:09
+1830815427025883,Hao,Chen,10965,854518728062939,1830815427025883,BOT: quick reply,"Temperature, water, soil, and air are examples of nonliving factors of an ecosystem, also termed what?",2018-09-07 12:54:10
+1830815427025883,Hao,Chen,10966,1830815427025883,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-07 12:54:17
+1830815427025883,Hao,Chen,10967,854518728062939,1830815427025883,BOT: message,Which of the following options is the right answer?,2018-09-07 12:54:18
+1830815427025883,Hao,Chen,10968,854518728062939,1830815427025883,BOT: quick reply,":keycap_1: conditional factors
+:keycap_2: abiotic factors
+:keycap_3: nucleic factors
+:keycap_4: diverse factors
+",2018-09-07 12:54:19
+1830815427025883,Hao,Chen,10969,1830815427025883,854518728062939,user_quick_reply: BUTTON_DKB_conditional factors,:keycap_1:,2018-09-07 12:54:23
+1830815427025883,Hao,Chen,10970,854518728062939,1830815427025883,BOT: message,"I'm sorry, but that was incorrect. :disappointed_face:",2018-09-07 12:54:24
+1830815427025883,Hao,Chen,10971,854518728062939,1830815427025883,BOT: quick reply,The correct answer is abiotic factors.,2018-09-07 12:54:25
+1830815427025883,Hao,Chen,10972,1830815427025883,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-07 12:54:45
+1830815427025883,Hao,Chen,10973,854518728062939,1830815427025883,BOT: message,What about this next question:,2018-09-07 12:54:46
+1830815427025883,Hao,Chen,10974,854518728062939,1830815427025883,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-09-07 12:54:46
+1830815427025883,Hao,Chen,10975,854518728062939,1830815427025883,BOT: quick reply,The electrode at which oxidation occurs is called the what?,2018-09-07 12:54:47
+1830815427025883,Hao,Chen,10976,1830815427025883,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-07 12:54:56
+1830815427025883,Hao,Chen,10977,1830815427025883,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-07 12:54:56
+1830815427025883,Hao,Chen,10978,854518728062939,1830815427025883,BOT: message,Could you answer this one for me?,2018-09-07 12:54:57
+1830815427025883,Hao,Chen,10979,854518728062939,1830815427025883,BOT: message,It's one of the following choices.,2018-09-07 12:54:57
+1830815427025883,Hao,Chen,10980,854518728062939,1830815427025883,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-09-07 12:54:58
+1830815427025883,Hao,Chen,10981,854518728062939,1830815427025883,BOT: quick reply,":keycap_1: anode
+:keycap_2: calomel
+:keycap_3: cathode
+:keycap_4: diode
+",2018-09-07 12:54:58
+1830815427025883,Hao,Chen,10982,854518728062939,1830815427025883,BOT: quick reply,The electrode at which oxidation occurs is called the what?,2018-09-07 12:54:59
+1830815427025883,Hao,Chen,10983,1830815427025883,854518728062939,user_typing,Cathode,2018-09-07 12:55:30
+1830815427025883,Hao,Chen,10984,854518728062939,1830815427025883,BOT: image,https://www.smartprimer.ai:4443/pictures/avatar/congrats/penguinnormal_happy_pink.png,2018-09-07 12:55:32
+1830815427025883,Hao,Chen,10985,854518728062939,1830815427025883,BOT: message,Good Answer! :white_heavy_check_mark:,2018-09-07 12:55:33
+1830815427025883,Hao,Chen,10986,854518728062939,1830815427025883,BOT: quick reply,The correct answer is anode.,2018-09-07 12:55:34
+1830815427025883,Hao,Chen,10987,1830815427025883,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-07 12:55:38
+1830815427025883,Hao,Chen,10988,854518728062939,1830815427025883,BOT: message,How about this next one:,2018-09-07 12:55:39
+1830815427025883,Hao,Chen,10989,854518728062939,1830815427025883,BOT: quick reply,The lithosphere is divided into a dozen major and several minor what?,2018-09-07 12:55:39
+1830815427025883,Hao,Chen,10990,1830815427025883,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-07 12:55:47
+1830815427025883,Hao,Chen,10991,854518728062939,1830815427025883,BOT: message,It's one of the following choices.,2018-09-07 12:55:47
+1830815427025883,Hao,Chen,10992,854518728062939,1830815427025883,BOT: quick reply,":keycap_1: zones
+:keycap_2: faults
+:keycap_3: crystals
+:keycap_4: plates
+",2018-09-07 12:55:48
+1830815427025883,Hao,Chen,10993,1830815427025883,854518728062939,user_quick_reply: BUTTON_AKB_plates,:keycap_4:,2018-09-07 12:55:59
+1830815427025883,Hao,Chen,10994,854518728062939,1830815427025883,BOT: image,https://www.smartprimer.ai:4443/pictures/avatar/congrats/penguinnormal_happy_orange.png,2018-09-07 12:56:01
+1830815427025883,Hao,Chen,10995,854518728062939,1830815427025883,BOT: message,Nice! That was right!,2018-09-07 12:56:01
+1830815427025883,Hao,Chen,10996,854518728062939,1830815427025883,BOT: quick reply,The correct answer is plates.,2018-09-07 12:56:02
+1830815427025883,Hao,Chen,10997,1830815427025883,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-07 12:56:06
+1830815427025883,Hao,Chen,10998,854518728062939,1830815427025883,BOT: message,What about this next question:,2018-09-07 12:56:07
+1830815427025883,Hao,Chen,10999,854518728062939,1830815427025883,BOT: quick reply,What are by far the most common type of invertebrate?,2018-09-07 12:56:08
+1830815427025883,Hao,Chen,11000,1830815427025883,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-07 12:56:14
+1830815427025883,Hao,Chen,11001,854518728062939,1830815427025883,BOT: message,Okay. I'll give you some choices.,2018-09-07 12:56:15
+1830815427025883,Hao,Chen,11002,854518728062939,1830815427025883,BOT: quick reply,":keycap_1: insects
+:keycap_2: spiders
+:keycap_3: corals
+:keycap_4: crustaceans
+",2018-09-07 12:56:15
+1830815427025883,Hao,Chen,11003,1830815427025883,854518728062939,user_quick_reply: BUTTON_AKB_insects,:keycap_1:,2018-09-07 12:56:23
+1830815427025883,Hao,Chen,11004,854518728062939,1830815427025883,BOT: image,https://www.smartprimer.ai:4443/pictures/avatar/congrats/penguinnormal_normal_pink.png,2018-09-07 12:56:25
+1830815427025883,Hao,Chen,11005,854518728062939,1830815427025883,BOT: message,Nice work! Keep it up!,2018-09-07 12:56:26
+1830815427025883,Hao,Chen,11006,854518728062939,1830815427025883,BOT: quick reply,The correct answer is insects.,2018-09-07 12:56:27
+1830815427025883,Hao,Chen,11007,1830815427025883,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-07 12:56:31
+1830815427025883,Hao,Chen,11008,854518728062939,1830815427025883,BOT: message,See if you can answer this next one.,2018-09-07 12:56:32
+1830815427025883,Hao,Chen,11009,854518728062939,1830815427025883,BOT: quick reply,What are the little sacs at the end of the bronchioles called?,2018-09-07 12:56:33
+1830815427025883,Hao,Chen,11010,1830815427025883,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-07 12:56:39
+1830815427025883,Hao,Chen,11011,854518728062939,1830815427025883,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-09-07 12:56:40
+1830815427025883,Hao,Chen,11012,854518728062939,1830815427025883,BOT: quick reply,":keycap_1: ganglion
+:keycap_2: respiratory sacs
+:keycap_3: lung
+:keycap_4: alveoli
+",2018-09-07 12:56:41
+1830815427025883,Hao,Chen,11013,1830815427025883,854518728062939,user_quick_reply: BUTTON_AKB_alveoli,:keycap_4:,2018-09-07 12:56:45
+1830815427025883,Hao,Chen,11014,854518728062939,1830815427025883,BOT: message,Great! Keep it up! :flexed_biceps_medium-light_skin_tone:,2018-09-07 12:56:45
+1830815427025883,Hao,Chen,11015,854518728062939,1830815427025883,BOT: quick reply,The correct answer is alveoli.,2018-09-07 12:56:46
+1830815427025883,Hao,Chen,11016,1830815427025883,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-07 12:57:16
+1830815427025883,Hao,Chen,11017,854518728062939,1830815427025883,BOT: message,Let's take a look at this question.,2018-09-07 12:57:16
+1830815427025883,Hao,Chen,11018,854518728062939,1830815427025883,BOT: quick reply,"What arises due to crossing over, independent assortment, and the random union of gametes?",2018-09-07 12:57:17
+1830815427025883,Hao,Chen,11019,1830815427025883,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-07 12:57:26
+1830815427025883,Hao,Chen,11020,854518728062939,1830815427025883,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-09-07 12:57:27
+1830815427025883,Hao,Chen,11021,854518728062939,1830815427025883,BOT: quick reply,":keycap_1: alternative variation
+:keycap_2: susceptible variation
+:keycap_3: genetic variation
+:keycap_4: recessive variation
+",2018-09-07 12:57:28
+1830815427025883,Hao,Chen,11022,1830815427025883,854518728062939,user_quick_reply: BUTTON_AKB_genetic variation,:keycap_3:,2018-09-07 12:57:59
+1830815427025883,Hao,Chen,11023,854518728062939,1830815427025883,BOT: message,Nice! That was right!,2018-09-07 12:58:00
+1830815427025883,Hao,Chen,11024,854518728062939,1830815427025883,BOT: quick reply,The correct answer is genetic variation.,2018-09-07 12:58:01
+1830815427025883,Hao,Chen,11025,1830815427025883,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-07 12:58:04
+1830815427025883,Hao,Chen,11026,854518728062939,1830815427025883,BOT: message,See if you can answer this next one.,2018-09-07 12:58:05
+1830815427025883,Hao,Chen,11027,854518728062939,1830815427025883,BOT: quick reply,What disease characterized by the extreme swelling of the limbs is caused by infection with a type of roundworm?,2018-09-07 12:58:06
+1830815427025883,Hao,Chen,11028,1830815427025883,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-07 12:58:17
+1830815427025883,Hao,Chen,11029,854518728062939,1830815427025883,BOT: message,It's one of the following choices.,2018-09-07 12:58:18
+1830815427025883,Hao,Chen,11030,854518728062939,1830815427025883,BOT: quick reply,":keycap_1: pulmonary edema
+:keycap_2: fibrosis
+:keycap_3: gigantism
+:keycap_4: elephantiasis
+",2018-09-07 12:58:18
+1830815427025883,Hao,Chen,11031,1830815427025883,854518728062939,user_quick_reply: BUTTON_AKB_elephantiasis,:keycap_4:,2018-09-07 12:58:26
+1830815427025883,Hao,Chen,11032,854518728062939,1830815427025883,BOT: image,https://www.smartprimer.ai:4443/pictures/avatar/congrats/penguinnormal_jubilated_purple.png,2018-09-07 12:58:27
+1830815427025883,Hao,Chen,11033,854518728062939,1830815427025883,BOT: message,Great job!,2018-09-07 12:58:29
+1830815427025883,Hao,Chen,11034,854518728062939,1830815427025883,BOT: quick reply,The correct answer is elephantiasis.,2018-09-07 12:58:29
+1830815427025883,Hao,Chen,11035,1830815427025883,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-07 12:58:33
+1830815427025883,Hao,Chen,11036,854518728062939,1830815427025883,BOT: message,I think you'll like this question.,2018-09-07 12:58:33
+1830815427025883,Hao,Chen,11037,854518728062939,1830815427025883,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-09-07 12:58:34
+1830815427025883,Hao,Chen,11038,854518728062939,1830815427025883,BOT: quick reply,What is the diffusion of water through a semipermeable membrane down its concentration gradient?,2018-09-07 12:58:35
+1830815427025883,Hao,Chen,11039,1830815427025883,854518728062939,user_typing,Osmosis,2018-09-07 12:58:47
+1830815427025883,Hao,Chen,11040,854518728062939,1830815427025883,BOT: image,https://www.smartprimer.ai:4443/pictures/avatar/congrats/penguinnormal_normal_purple.png,2018-09-07 12:58:49
+1830815427025883,Hao,Chen,11041,854518728062939,1830815427025883,BOT: message,Fantastic! :hundred_points:,2018-09-07 12:58:50
+1830815427025883,Hao,Chen,11042,854518728062939,1830815427025883,BOT: quick reply,The correct answer is osmosis.,2018-09-07 12:58:51
+1830815427025883,Hao,Chen,11043,1830815427025883,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-07 12:58:54
+1830815427025883,Hao,Chen,11044,854518728062939,1830815427025883,BOT: message,See if you can answer this next one.,2018-09-07 12:58:55
+1830815427025883,Hao,Chen,11045,854518728062939,1830815427025883,BOT: quick reply,What kind of viscosity is found in long-chain hydrocarbons?,2018-09-07 12:58:56
+1830815427025883,Hao,Chen,11046,1830815427025883,854518728062939,user_typing,High viscosity,2018-09-07 12:59:54
+1830815427025883,Hao,Chen,11047,854518728062939,1830815427025883,BOT: image,https://www.smartprimer.ai:4443/pictures/avatar/congrats/penguinnormal_jubilated_pink.png,2018-09-07 12:59:55
+1830815427025883,Hao,Chen,11048,854518728062939,1830815427025883,BOT: message,Nice! :red_apple:,2018-09-07 12:59:56
+1830815427025883,Hao,Chen,11049,854518728062939,1830815427025883,BOT: quick reply,The correct answer is high viscosity.,2018-09-07 12:59:57
+1830815427025883,Hao,Chen,11050,1830815427025883,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-07 13:00:25
+1830815427025883,Hao,Chen,11051,854518728062939,1830815427025883,BOT: message,Let's try this one.,2018-09-07 13:00:25
+1830815427025883,Hao,Chen,11052,854518728062939,1830815427025883,BOT: quick reply,What living species of bird is considered the largest of the raptors?,2018-09-07 13:00:26
+1830815427025883,Hao,Chen,11053,1830815427025883,854518728062939,user_typing,Golden eagle,2018-09-07 13:00:40
+1830815427025883,Hao,Chen,11054,854518728062939,1830815427025883,BOT: message,That wasn't quite what we were looking for. :disappointed_face:,2018-09-07 13:00:40
+1830815427025883,Hao,Chen,11055,854518728062939,1830815427025883,BOT: quick reply,The correct answer is golden eagles.,2018-09-07 13:00:41
+1830815427025883,Hao,Chen,11056,1830815427025883,854518728062939,persistent_menu: RANDOM,Random :game_die:,2018-09-07 13:01:13
+1830815427025883,Hao,Chen,11057,854518728062939,1830815427025883,BOT: image,https://www.smartprimer.ai:4443/pictures/avatar/evolvescientist_normal.gif,2018-09-07 13:01:17
+1830815427025883,Hao,Chen,11058,854518728062939,1830815427025883,BOT: quick reply,All right! A little bit of everything! :game_die:,2018-09-07 13:01:17
+1830815427025883,Hao,Chen,11059,1830815427025883,854518728062939,user_quick_reply: NEXT_QUESTION,Tap me :backhand_index_pointing_down_medium-light_skin_tone:,2018-09-07 13:01:23
+1830815427025883,Hao,Chen,11060,854518728062939,1830815427025883,BOT: message,Let's see if you can answer this question.,2018-09-07 13:01:24
+1830815427025883,Hao,Chen,11061,854518728062939,1830815427025883,BOT: quick reply,"Although John F. Kennedy was known for his carefree flag football games, Gerald Ford should be _____ as our football president: he turned down offers to play for two National Football League teams in order to pursue a career in public service.",2018-09-07 13:01:24
+1830815427025883,Hao,Chen,11062,1830815427025883,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-07 13:01:34
+1830815427025883,Hao,Chen,11063,854518728062939,1830815427025883,BOT: message,Pick one of the following answers.,2018-09-07 13:01:35
+1830815427025883,Hao,Chen,11064,854518728062939,1830815427025883,BOT: quick reply,":keycap_1: apotheosized
+:keycap_2: abrogated
+:keycap_3: relegated
+:keycap_4: criticized
+:keycap_5: annulled
+",2018-09-07 13:01:35
+1830815427025883,Hao,Chen,11065,1830815427025883,854518728062939,user_quick_reply: BUTTON_DKB_relegated,:keycap_3:,2018-09-07 13:01:44
+1830815427025883,Hao,Chen,11066,854518728062939,1830815427025883,BOT: message,"Oops, that wasn't quite correct. :disappointed_face:",2018-09-07 13:01:45
+1830815427025883,Hao,Chen,11067,854518728062939,1830815427025883,BOT: quick reply,The correct answer is apotheosized.,2018-09-07 13:01:46
+1830815427025883,Hao,Chen,11938,1830815427025883,854518728062939,persistent_menu: RANDOM,Random :game_die:,2018-09-07 17:27:09
+1830815427025883,Hao,Chen,11939,854518728062939,1830815427025883,BOT: quick reply,Nice! Enjoy a little variety? Let's answer some questions! :game_die:,2018-09-07 17:27:10
+1830815427025883,Hao,Chen,11940,1830815427025883,854518728062939,user_quick_reply: NEXT_QUESTION,"Yes, continue :collision:",2018-09-07 17:27:15
+1830815427025883,Hao,Chen,11941,854518728062939,1830815427025883,BOT: message,See if you can answer this next one.,2018-09-07 17:27:16
+1830815427025883,Hao,Chen,11942,854518728062939,1830815427025883,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-09-07 17:27:16
+1830815427025883,Hao,Chen,11943,854518728062939,1830815427025883,BOT: quick reply,"Despite the smile that spread from ear to ear, the eyes relayed a certain _____ .",2018-09-07 17:27:17
+1830815427025883,Hao,Chen,11944,1830815427025883,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-07 17:27:26
+1830815427025883,Hao,Chen,11945,854518728062939,1830815427025883,BOT: message,Pick one of the following answers.,2018-09-07 17:27:27
+1830815427025883,Hao,Chen,11946,854518728062939,1830815427025883,BOT: quick reply,":keycap_1: sorrow
+:keycap_2: vision
+:keycap_3: mischievousness
+:keycap_4: jubilance
+:keycap_5: liveliness
+",2018-09-07 17:27:27
+1830815427025883,Hao,Chen,11947,1830815427025883,854518728062939,user_quick_reply: BUTTON_DKB_mischievousness,:keycap_3:,2018-09-07 17:27:42
+1830815427025883,Hao,Chen,11948,854518728062939,1830815427025883,BOT: message,"Hmm, that wasn't quite right. :disappointed_face:",2018-09-07 17:27:43
+1830815427025883,Hao,Chen,11949,854518728062939,1830815427025883,BOT: quick reply,The correct answer is sorrow.,2018-09-07 17:27:43
+1830815427025883,Hao,Chen,11950,1830815427025883,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-07 17:27:47
+1830815427025883,Hao,Chen,11951,854518728062939,1830815427025883,BOT: quick reply,"Nice job! You've practiced enough questions today. Please come back tomorrow and click on ""Resume Learning :flexed_biceps_medium-light_skin_tone:"" for another practice session.",2018-09-07 17:27:48
+1830815427025883,Hao,Chen,12588,854518728062939,1830815427025883,BOT: quick reply,"Hi Hao, remember to practice some questions with me if you haven't finished your session today!",2018-09-07 20:00:06
