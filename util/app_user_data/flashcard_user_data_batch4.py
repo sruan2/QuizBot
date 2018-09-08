@@ -22,9 +22,10 @@ users = ["Jeongeun_Park","shuo_han", "Harry_Liu",
          "Yiran_Shen", 
          "Ziang_Zhu", 
          "Hao_Chen", "Akemi_Wijayabahu", "Yifan_He", 
-         "Hongyu_Zhai",
-         #"Mkhanyisi_Gamedze"
-
+         "Hongyu_Zhai", "Yibing_Du",
+         "Mkhanyisi_Gamedze", "Haihong_L", "Wenxiao_Huang",
+         "Mingchen_Li" 
+         #"Ramon_Tuason"
          ]
 
 if len(sys.argv) == 3:
