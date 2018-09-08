@@ -23,6 +23,10 @@ quiz_b_user_record_filename = "csv/MTurk1_B_user_record.csv"
 between_subjects_flashcard_filename = "json/questions_between_subjects_flashcard.json"
 between_subjects_quizbot_filename = "json/questions_between_subjects_quizbot.json"
 
+# batch4 score report and user record files
+batch4_score_report_filename = "csv/batch4_score_report.csv"
+batch4_user_record_filename = "csv/batch4_user_record.csv"
+
 # question index in Qualtrics quiz a and quiz b, plus 1 for the Qualtrics question id
 quiz_a_gre_index = [0, 3, 8, 10, 13, 14, 15, 16, 18, 31, 34, 35, 38, 42, 48, 52, 53, 54]
 quiz_a_safety_index = [5, 6, 7, 11, 20, 22, 24, 27, 29, 30, 32, 41, 43, 44, 50, 55, 58, 59]

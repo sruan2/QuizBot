@@ -1,6 +1,6 @@
 '''
-    flashcard_analytics.py
-    Author: Liwei Jiang
+    flashcard_analytics_batch_4.py
+    Author: Sherry Ruan,  Liwei Jiang
     Date: 08/01/2018
     Usage:
         Request the flashcard user record from MySQL database.
@@ -29,7 +29,7 @@ users.extend([("Jeongeun", "Park"), ("shuo", "han"), ("Harry", "Liu"), ("Yunan",
               ("Qiwen", "Zhang"), ("Ran", "Gong"), ("Tianshi", "Li"),
               ("Yiran", "Shen"), ("Harry", "Liu"), ("Wendy", "Li"), ("Wenming", "Zhang"), ("Miao", "Zhang"), ("Fangjie", "Cao"), ("Meng", "Tang"),
               ("Elaine", "Yin"), ("Ziang","Zhu"), ("Hao", "Chen"), ("Akemi","Wijayabahu"), ("Yifan", "He"),
-              ("Mkhanyisi", "Gamedze"), ("Hongyu", "Zhai")])
+              ("Mkhanyisi", "Gamedze"), ("Hongyu", "Zhai"), ("Yibing", "Du"), ("Haihong", "L"), ("Wenxiao", "Huang"), ("Mingchen","Li"), ("Ramon", "Tuason")])
 
 # request a single user's record specified in command line
 if sys.argv[1] != "" and sys.argv[2] != "":
