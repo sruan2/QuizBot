@@ -26,7 +26,9 @@ users = ["Sherry_Ruan", "Jeongeun_Park", "Shuo_Han", # Tuesday
          "Yin_Li", "Ran_Gong", "Qiwen_Zhang", "Tianshi_Li",
          "Yiran_Shen", "Wendy_Li", "Wenming_Zhang",
          "Mkhanyisi_Gamedze", "Meng_Tang", "Miao_Zhang", "Fangjie_Cao",
-         "Harry_Liu", "Tenaer_Yin", "Hao_Chen", "Ziang_Zhu"
+         "Harry_Liu", "Tenaer_Yin", "Hao_Chen", "Ziang_Zhu",
+         "Akemi_Wijayabahu", "Hongyu_Zhai", "Wenxiao_Huang",
+         "Yibing_Du", "Haihong_Li", "Yifan_He", "Mingchen_Li"
          ]
 
 # a dictionary of the number of times user studied each question

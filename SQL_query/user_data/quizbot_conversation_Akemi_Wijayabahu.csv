@@ -1,0 +1,490 @@
+user_id,user_firstname,user_lastname,uid,sender,recipient,type,dialogue,time_stamp
+2154699587876236,Akemi,Wijayabahu,13841,2154699587876236,854518728062939,persistent_menu: GET_INTRO_1,Get Started,2018-09-07 23:26:15
+2154699587876236,Akemi,Wijayabahu,13842,854518728062939,2154699587876236,BOT: image,https://www.smartprimer.ai:4443/pictures/avatar/quizbot_avatar.png,2018-09-07 23:26:19
+2154699587876236,Akemi,Wijayabahu,13843,854518728062939,2154699587876236,BOT: quick reply,"Hi Akemi! My name is Frosty :penguin: and I’m here to help you learn all about science:microscope:, verbal reasoning (GRE) :input_latin_uppercase:, and safety:hammer_and_wrench:!",2018-09-07 23:26:19
+2154699587876236,Akemi,Wijayabahu,13844,2154699587876236,854518728062939,user_quick_reply: GET_INTRO_2,OK :backhand_index_pointing_right_medium-light_skin_tone:,2018-09-07 23:28:20
+2154699587876236,Akemi,Wijayabahu,13845,854518728062939,2154699587876236,BOT: message,Here’s how it works.,2018-09-07 23:28:21
+2154699587876236,Akemi,Wijayabahu,13846,854518728062939,2154699587876236,BOT: message,"I ask you questions, and you give me answers.",2018-09-07 23:28:21
+2154699587876236,Akemi,Wijayabahu,13847,854518728062939,2154699587876236,BOT: quick reply,We will learn fun things together!,2018-09-07 23:28:22
+2154699587876236,Akemi,Wijayabahu,13848,2154699587876236,854518728062939,user_quick_reply: GET_INTRO_3,Okay :flexed_biceps_medium-light_skin_tone:,2018-09-07 23:28:36
+2154699587876236,Akemi,Wijayabahu,13849,854518728062939,2154699587876236,BOT: image,https://www.smartprimer.ai:4443/pictures/user_manual/typeanswer.png,2018-09-07 23:28:38
+2154699587876236,Akemi,Wijayabahu,13850,854518728062939,2154699587876236,BOT: quick reply,"To study the questions, you can type in your answers in the text field and I will evaluate the answers for you using advanced NLP (Natural Language Processing) technology.",2018-09-07 23:28:39
+2154699587876236,Akemi,Wijayabahu,13851,2154699587876236,854518728062939,user_quick_reply: GET_INTRO_4,Alright :light_bulb:,2018-09-07 23:28:56
+2154699587876236,Akemi,Wijayabahu,13852,854518728062939,2154699587876236,BOT: image,https://www.smartprimer.ai:4443/pictures/user_manual/needhintbutton.png,2018-09-07 23:28:59
+2154699587876236,Akemi,Wijayabahu,13853,854518728062939,2154699587876236,BOT: quick reply,"If you don't know the answers, then feel free to tap on the hint button.",2018-09-07 23:29:00
+2154699587876236,Akemi,Wijayabahu,13854,2154699587876236,854518728062939,user_quick_reply: GET_INTRO_5,Got it :backhand_index_pointing_right_medium-light_skin_tone:,2018-09-07 23:29:17
+2154699587876236,Akemi,Wijayabahu,13855,854518728062939,2154699587876236,BOT: image,https://www.smartprimer.ai:4443/pictures/user_manual/hintoptions.png,2018-09-07 23:29:19
+2154699587876236,Akemi,Wijayabahu,13856,854518728062939,2154699587876236,BOT: quick reply,The hint will give you a list of potential answers and you can select one from them.,2018-09-07 23:29:20
+2154699587876236,Akemi,Wijayabahu,13857,2154699587876236,854518728062939,user_quick_reply: GET_INTRO_6,Alright :flexed_biceps_medium-light_skin_tone:,2018-09-07 23:29:55
+2154699587876236,Akemi,Wijayabahu,13858,854518728062939,2154699587876236,BOT: image,https://www.smartprimer.ai:4443/pictures/user_manual/menubutton.jpg,2018-09-07 23:29:57
+2154699587876236,Akemi,Wijayabahu,13859,854518728062939,2154699587876236,BOT: quick reply,"To discover more abilities of me, you can click on the menu button.:backhand_index_pointing_up_medium-light_skin_tone:",2018-09-07 23:29:57
+2154699587876236,Akemi,Wijayabahu,13860,2154699587876236,854518728062939,user_quick_reply: GET_READY,Alright :clapping_hands_medium-light_skin_tone:,2018-09-07 23:30:42
+2154699587876236,Akemi,Wijayabahu,13861,854518728062939,2154699587876236,BOT: message,I hope you enjoy the learning journey! :hundred_points:,2018-09-07 23:30:42
+2154699587876236,Akemi,Wijayabahu,13862,854518728062939,2154699587876236,BOT: quick reply,"So, are you ready?",2018-09-07 23:30:43
+2154699587876236,Akemi,Wijayabahu,13863,2154699587876236,854518728062939,user_quick_reply: YUP_IM_READY,Yup! I'm ready! :raised_fist_medium-light_skin_tone:,2018-09-07 23:31:00
+2154699587876236,Akemi,Wijayabahu,13864,854518728062939,2154699587876236,BOT: message,Great!,2018-09-07 23:31:01
+2154699587876236,Akemi,Wijayabahu,13865,854518728062939,2154699587876236,BOT: quick reply,Let’s get started :rocket:,2018-09-07 23:31:01
+2154699587876236,Akemi,Wijayabahu,13866,2154699587876236,854518728062939,user_quick_reply: SWITCH_SUBJECT,Quiz me :nerd_face:,2018-09-07 23:31:09
+2154699587876236,Akemi,Wijayabahu,13867,854518728062939,2154699587876236,BOT: quick reply,"OK, which of the following subjects would you like to study?:backhand_index_pointing_down_medium-light_skin_tone:",2018-09-07 23:31:09
+2154699587876236,Akemi,Wijayabahu,13868,2154699587876236,854518728062939,user_quick_reply: RANDOM,Random :game_die:,2018-09-07 23:31:22
+2154699587876236,Akemi,Wijayabahu,13869,854518728062939,2154699587876236,BOT: quick reply,Okay! Let’s mix it up! :game_die:,2018-09-07 23:31:23
+2154699587876236,Akemi,Wijayabahu,13870,2154699587876236,854518728062939,user_quick_reply: NEXT_QUESTION,Tap me :backhand_index_pointing_right_medium-light_skin_tone:,2018-09-07 23:31:29
+2154699587876236,Akemi,Wijayabahu,13871,854518728062939,2154699587876236,BOT: message,Would you answer this question for me?,2018-09-07 23:31:31
+2154699587876236,Akemi,Wijayabahu,13872,854518728062939,2154699587876236,BOT: quick reply,What kind of viscosity is found in long-chain hydrocarbons?,2018-09-07 23:31:31
+2154699587876236,Akemi,Wijayabahu,13873,2154699587876236,854518728062939,user_typing,High visosity,2018-09-07 23:31:57
+2154699587876236,Akemi,Wijayabahu,13874,854518728062939,2154699587876236,BOT: message,Good job! :raising_hands_medium-light_skin_tone:,2018-09-07 23:31:57
+2154699587876236,Akemi,Wijayabahu,13875,854518728062939,2154699587876236,BOT: quick reply,The correct answer is high viscosity.,2018-09-07 23:31:58
+2154699587876236,Akemi,Wijayabahu,13876,2154699587876236,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-07 23:32:06
+2154699587876236,Akemi,Wijayabahu,13877,854518728062939,2154699587876236,BOT: message,Could you answer this one for me?,2018-09-07 23:32:07
+2154699587876236,Akemi,Wijayabahu,13878,854518728062939,2154699587876236,BOT: quick reply,"Although John F. Kennedy was known for his carefree flag football games, Gerald Ford should be _____ as our football president: he turned down offers to play for two National Football League teams in order to pursue a career in public service.",2018-09-07 23:32:07
+2154699587876236,Akemi,Wijayabahu,13879,2154699587876236,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-07 23:32:33
+2154699587876236,Akemi,Wijayabahu,13880,854518728062939,2154699587876236,BOT: message,It's one of the following choices.,2018-09-07 23:32:34
+2154699587876236,Akemi,Wijayabahu,13881,854518728062939,2154699587876236,BOT: quick reply,":keycap_1: abrogated
+:keycap_2: apotheosized
+:keycap_3: criticized
+:keycap_4: relegated
+:keycap_5: annulled
+",2018-09-07 23:32:34
+2154699587876236,Akemi,Wijayabahu,13882,2154699587876236,854518728062939,user_quick_reply: BUTTON_DKB_criticized,:keycap_3:,2018-09-07 23:32:48
+2154699587876236,Akemi,Wijayabahu,13883,854518728062939,2154699587876236,BOT: message,"Oops, that wasn't quite correct. :disappointed_face:",2018-09-07 23:32:49
+2154699587876236,Akemi,Wijayabahu,13884,854518728062939,2154699587876236,BOT: quick reply,The correct answer is apotheosized.,2018-09-07 23:32:50
+2154699587876236,Akemi,Wijayabahu,13885,2154699587876236,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-07 23:33:02
+2154699587876236,Akemi,Wijayabahu,13886,854518728062939,2154699587876236,BOT: message,I think you'll like this question.,2018-09-07 23:33:03
+2154699587876236,Akemi,Wijayabahu,13887,854518728062939,2154699587876236,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-09-07 23:33:04
+2154699587876236,Akemi,Wijayabahu,13888,854518728062939,2154699587876236,BOT: quick reply,What living species of bird is considered the largest of the raptors?,2018-09-07 23:33:05
+2154699587876236,Akemi,Wijayabahu,13889,2154699587876236,854518728062939,user_typing,Golden eagles,2018-09-07 23:33:29
+2154699587876236,Akemi,Wijayabahu,13890,854518728062939,2154699587876236,BOT: message,That’s right! :party_popper:,2018-09-07 23:33:30
+2154699587876236,Akemi,Wijayabahu,13891,854518728062939,2154699587876236,BOT: quick reply,The correct answer is golden eagles.,2018-09-07 23:33:31
+2154699587876236,Akemi,Wijayabahu,13892,2154699587876236,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-07 23:33:36
+2154699587876236,Akemi,Wijayabahu,13893,854518728062939,2154699587876236,BOT: message,What about this next question:,2018-09-07 23:33:37
+2154699587876236,Akemi,Wijayabahu,13894,854518728062939,2154699587876236,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-09-07 23:33:38
+2154699587876236,Akemi,Wijayabahu,13895,854518728062939,2154699587876236,BOT: quick reply,"Despite the smile that spread from ear to ear, the eyes relayed a certain _____ .",2018-09-07 23:33:39
+2154699587876236,Akemi,Wijayabahu,13896,2154699587876236,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-07 23:33:55
+2154699587876236,Akemi,Wijayabahu,13897,854518728062939,2154699587876236,BOT: message,Pick one of the following answers.,2018-09-07 23:33:55
+2154699587876236,Akemi,Wijayabahu,13898,854518728062939,2154699587876236,BOT: quick reply,":keycap_1: sorrow
+:keycap_2: jubilance
+:keycap_3: mischievousness
+:keycap_4: vision
+:keycap_5: liveliness
+",2018-09-07 23:33:56
+2154699587876236,Akemi,Wijayabahu,13899,2154699587876236,854518728062939,user_quick_reply: BUTTON_DKB_mischievousness,:keycap_3:,2018-09-07 23:34:04
+2154699587876236,Akemi,Wijayabahu,13900,854518728062939,2154699587876236,BOT: message,"I'm sorry, but that was incorrect. :disappointed_face:",2018-09-07 23:34:04
+2154699587876236,Akemi,Wijayabahu,13901,854518728062939,2154699587876236,BOT: quick reply,The correct answer is sorrow.,2018-09-07 23:34:05
+2154699587876236,Akemi,Wijayabahu,13902,2154699587876236,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-07 23:34:11
+2154699587876236,Akemi,Wijayabahu,13903,854518728062939,2154699587876236,BOT: message,Here's a question for you:,2018-09-07 23:34:12
+2154699587876236,Akemi,Wijayabahu,13904,854518728062939,2154699587876236,BOT: quick reply,What opens two strands of DNA?,2018-09-07 23:34:12
+2154699587876236,Akemi,Wijayabahu,13905,2154699587876236,854518728062939,user_typing,Helicase,2018-09-07 23:34:21
+2154699587876236,Akemi,Wijayabahu,13906,854518728062939,2154699587876236,BOT: image,https://www.smartprimer.ai:4443/pictures/avatar/congrats/penguinnormal_normal_purple.png,2018-09-07 23:34:24
+2154699587876236,Akemi,Wijayabahu,13907,854518728062939,2154699587876236,BOT: message,Fantastic! :hundred_points:,2018-09-07 23:34:24
+2154699587876236,Akemi,Wijayabahu,13908,854518728062939,2154699587876236,BOT: quick reply,The correct answer is helicase.,2018-09-07 23:34:25
+2154699587876236,Akemi,Wijayabahu,13909,2154699587876236,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-07 23:34:30
+2154699587876236,Akemi,Wijayabahu,13910,854518728062939,2154699587876236,BOT: message,Here's a question for you:,2018-09-07 23:34:31
+2154699587876236,Akemi,Wijayabahu,13911,854518728062939,2154699587876236,BOT: quick reply,"Dolly Madison, the wife of President James Madison, was known especially for her _____ , remaining calm even as the British invaded Washington D.C. during the War of 1812.",2018-09-07 23:34:31
+2154699587876236,Akemi,Wijayabahu,13912,2154699587876236,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-07 23:34:52
+2154699587876236,Akemi,Wijayabahu,13913,854518728062939,2154699587876236,BOT: message,Pick one of the following answers.,2018-09-07 23:34:53
+2154699587876236,Akemi,Wijayabahu,13914,854518728062939,2154699587876236,BOT: quick reply,":keycap_1: impracticality
+:keycap_2: cynicism
+:keycap_3: zeal
+:keycap_4: equanimity
+:keycap_5: malevolence
+",2018-09-07 23:34:54
+2154699587876236,Akemi,Wijayabahu,13915,2154699587876236,854518728062939,user_quick_reply: BUTTON_AKB_equanimity,:keycap_4:,2018-09-07 23:35:03
+2154699587876236,Akemi,Wijayabahu,13916,854518728062939,2154699587876236,BOT: message,Yes! You got the correct answer!,2018-09-07 23:35:04
+2154699587876236,Akemi,Wijayabahu,13917,854518728062939,2154699587876236,BOT: quick reply,The correct answer is equanimity.,2018-09-07 23:35:05
+2154699587876236,Akemi,Wijayabahu,13918,2154699587876236,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-07 23:35:10
+2154699587876236,Akemi,Wijayabahu,13919,854518728062939,2154699587876236,BOT: message,Let's take a look at this question.,2018-09-07 23:35:11
+2154699587876236,Akemi,Wijayabahu,13920,854518728062939,2154699587876236,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-09-07 23:35:11
+2154699587876236,Akemi,Wijayabahu,13921,854518728062939,2154699587876236,BOT: quick reply,"Even though legislators claimed the Contagious Diseases Acts strengthened the nation, social purists argued the Acts _____ the nation's moral growth by encouraging licentious behavior.",2018-09-07 23:35:12
+2154699587876236,Akemi,Wijayabahu,13922,2154699587876236,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-07 23:35:57
+2154699587876236,Akemi,Wijayabahu,13923,854518728062939,2154699587876236,BOT: message,Which of the following options is the right answer?,2018-09-07 23:35:58
+2154699587876236,Akemi,Wijayabahu,13924,854518728062939,2154699587876236,BOT: quick reply,":keycap_1: advanced
+:keycap_2: enhanced
+:keycap_3: hampered
+:keycap_4: supplanted
+:keycap_5: ameliorated
+",2018-09-07 23:35:58
+2154699587876236,Akemi,Wijayabahu,13925,2154699587876236,854518728062939,user_quick_reply: BUTTON_DKB_advanced,:keycap_1:,2018-09-07 23:36:14
+2154699587876236,Akemi,Wijayabahu,13926,854518728062939,2154699587876236,BOT: message,"Oops, that wasn't quite correct. :disappointed_face:",2018-09-07 23:36:14
+2154699587876236,Akemi,Wijayabahu,13927,854518728062939,2154699587876236,BOT: quick reply,The correct answer is hampered.,2018-09-07 23:36:15
+2154699587876236,Akemi,Wijayabahu,13928,2154699587876236,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-07 23:36:20
+2154699587876236,Akemi,Wijayabahu,13929,854518728062939,2154699587876236,BOT: message,Would you answer this question for me?,2018-09-07 23:36:21
+2154699587876236,Akemi,Wijayabahu,13930,854518728062939,2154699587876236,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-09-07 23:36:22
+2154699587876236,Akemi,Wijayabahu,13931,854518728062939,2154699587876236,BOT: quick reply,What should you NOT do when lowering a load?,2018-09-07 23:36:23
+2154699587876236,Akemi,Wijayabahu,13932,2154699587876236,854518728062939,user_typing,Twist my body,2018-09-07 23:37:04
+2154699587876236,Akemi,Wijayabahu,13933,854518728062939,2154699587876236,BOT: message,That’s right! :party_popper:,2018-09-07 23:37:05
+2154699587876236,Akemi,Wijayabahu,13934,854518728062939,2154699587876236,BOT: quick reply,The correct answer is Twist your body.,2018-09-07 23:37:05
+2154699587876236,Akemi,Wijayabahu,13935,2154699587876236,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-07 23:37:11
+2154699587876236,Akemi,Wijayabahu,13936,854518728062939,2154699587876236,BOT: message,Let's try this question.,2018-09-07 23:37:12
+2154699587876236,Akemi,Wijayabahu,13937,854518728062939,2154699587876236,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-09-07 23:37:13
+2154699587876236,Akemi,Wijayabahu,13938,854518728062939,2154699587876236,BOT: quick reply,"Having squandered his life's savings on unprofitable business ventures, the _____ entrepreneur was forced to live in squalor.",2018-09-07 23:37:14
+2154699587876236,Akemi,Wijayabahu,13944,2154699587876236,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-07 23:37:29
+2154699587876236,Akemi,Wijayabahu,13945,854518728062939,2154699587876236,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-09-07 23:37:30
+2154699587876236,Akemi,Wijayabahu,13946,854518728062939,2154699587876236,BOT: quick reply,":keycap_1: unlikely
+:keycap_2: eccentric
+:keycap_3: perturbed
+:keycap_4: former
+:keycap_5: insolvent
+",2018-09-07 23:37:31
+2154699587876236,Akemi,Wijayabahu,13947,2154699587876236,854518728062939,user_quick_reply: BUTTON_DKB_former,:keycap_4:,2018-09-07 23:37:44
+2154699587876236,Akemi,Wijayabahu,13948,854518728062939,2154699587876236,BOT: message,That's not quite right. :disappointed_face:,2018-09-07 23:37:45
+2154699587876236,Akemi,Wijayabahu,13949,854518728062939,2154699587876236,BOT: quick reply,The correct answer is insolvent.,2018-09-07 23:37:46
+2154699587876236,Akemi,Wijayabahu,13950,2154699587876236,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-07 23:37:52
+2154699587876236,Akemi,Wijayabahu,13951,854518728062939,2154699587876236,BOT: message,How about this next one:,2018-09-07 23:37:53
+2154699587876236,Akemi,Wijayabahu,13952,854518728062939,2154699587876236,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-09-07 23:37:54
+2154699587876236,Akemi,Wijayabahu,13953,854518728062939,2154699587876236,BOT: quick reply,"In psychological literature, the ""sleeper effect"" refers to the phenomenon in which a persuasive message from a trustworthy source loses _____ over time, while the efficacy of a message from a less credible source simultaneously increases.",2018-09-07 23:37:55
+2154699587876236,Akemi,Wijayabahu,13954,2154699587876236,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-07 23:38:26
+2154699587876236,Akemi,Wijayabahu,13955,854518728062939,2154699587876236,BOT: message,Okay. I'll give you some choices.,2018-09-07 23:38:28
+2154699587876236,Akemi,Wijayabahu,13956,854518728062939,2154699587876236,BOT: quick reply,":keycap_1: cogency
+:keycap_2: erudition
+:keycap_3: evasiveness
+:keycap_4: control
+:keycap_5: prescience
+",2018-09-07 23:38:28
+2154699587876236,Akemi,Wijayabahu,13957,2154699587876236,854518728062939,user_quick_reply: BUTTON_AKB_cogency,:keycap_1:,2018-09-07 23:38:53
+2154699587876236,Akemi,Wijayabahu,13958,854518728062939,2154699587876236,BOT: message,Great job!,2018-09-07 23:38:53
+2154699587876236,Akemi,Wijayabahu,13959,854518728062939,2154699587876236,BOT: quick reply,The correct answer is cogency.,2018-09-07 23:38:54
+2154699587876236,Akemi,Wijayabahu,13960,2154699587876236,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-07 23:39:00
+2154699587876236,Akemi,Wijayabahu,13961,854518728062939,2154699587876236,BOT: message,Let's try this one.,2018-09-07 23:39:00
+2154699587876236,Akemi,Wijayabahu,13962,854518728062939,2154699587876236,BOT: quick reply,"Just as different people can have very different personalities, so too can pets - even those of the same species and breed possess varied _____ .",2018-09-07 23:39:01
+2154699587876236,Akemi,Wijayabahu,13963,2154699587876236,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-07 23:39:13
+2154699587876236,Akemi,Wijayabahu,13964,854518728062939,2154699587876236,BOT: message,Which of the following options is the right answer?,2018-09-07 23:39:14
+2154699587876236,Akemi,Wijayabahu,13965,854518728062939,2154699587876236,BOT: quick reply,":keycap_1: temperaments
+:keycap_2: implementations
+:keycap_3: initiations
+:keycap_4: rationalizations
+:keycap_5: aptitudes
+",2018-09-07 23:39:15
+2154699587876236,Akemi,Wijayabahu,13966,2154699587876236,854518728062939,user_quick_reply: BUTTON_AKB_temperaments,:keycap_1:,2018-09-07 23:39:22
+2154699587876236,Akemi,Wijayabahu,13967,854518728062939,2154699587876236,BOT: message,Great! Keep it up! :flexed_biceps_medium-light_skin_tone:,2018-09-07 23:39:23
+2154699587876236,Akemi,Wijayabahu,13968,854518728062939,2154699587876236,BOT: quick reply,The correct answer is temperaments.,2018-09-07 23:39:23
+2154699587876236,Akemi,Wijayabahu,13969,2154699587876236,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-07 23:39:28
+2154699587876236,Akemi,Wijayabahu,13970,854518728062939,2154699587876236,BOT: message,"Alrighty, let's try this one.",2018-09-07 23:39:29
+2154699587876236,Akemi,Wijayabahu,13971,854518728062939,2154699587876236,BOT: quick reply,Many Major League Baseball relief pitchers choose an electrifying theme song to play as they take the mound; the song _____ their fans and instills fear in their opponents.,2018-09-07 23:39:30
+2154699587876236,Akemi,Wijayabahu,13972,2154699587876236,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-07 23:39:50
+2154699587876236,Akemi,Wijayabahu,13973,854518728062939,2154699587876236,BOT: message,Which of the following options is the right answer?,2018-09-07 23:39:51
+2154699587876236,Akemi,Wijayabahu,13974,854518728062939,2154699587876236,BOT: quick reply,":keycap_1: eviscerates
+:keycap_2: pervades
+:keycap_3: enervates
+:keycap_4: assuages
+:keycap_5: innervates
+",2018-09-07 23:39:51
+2154699587876236,Akemi,Wijayabahu,13975,2154699587876236,854518728062939,user_quick_reply: BUTTON_DKB_assuages,:keycap_4:,2018-09-07 23:40:09
+2154699587876236,Akemi,Wijayabahu,13976,854518728062939,2154699587876236,BOT: message,"I'm sorry, but that was incorrect. :disappointed_face:",2018-09-07 23:40:10
+2154699587876236,Akemi,Wijayabahu,13977,854518728062939,2154699587876236,BOT: quick reply,The correct answer is innervates.,2018-09-07 23:40:11
+2154699587876236,Akemi,Wijayabahu,13978,2154699587876236,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-07 23:40:16
+2154699587876236,Akemi,Wijayabahu,13979,854518728062939,2154699587876236,BOT: message,Let's see if you can get this one.,2018-09-07 23:40:17
+2154699587876236,Akemi,Wijayabahu,13980,854518728062939,2154699587876236,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-09-07 23:40:18
+2154699587876236,Akemi,Wijayabahu,13981,854518728062939,2154699587876236,BOT: quick reply,"Many dog owners treat their pets too _____ , forgetting that canines have evolved in competitive environments in which emotional coddling was a sign of weakness.",2018-09-07 23:40:18
+2154699587876236,Akemi,Wijayabahu,13982,2154699587876236,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-07 23:40:35
+2154699587876236,Akemi,Wijayabahu,13983,854518728062939,2154699587876236,BOT: message,Okay. I'll give you some choices.,2018-09-07 23:40:35
+2154699587876236,Akemi,Wijayabahu,13984,854518728062939,2154699587876236,BOT: quick reply,":keycap_1: aggressively
+:keycap_2: fortuitously
+:keycap_3: belligerently
+:keycap_4: quixotically
+:keycap_5: indulgently
+",2018-09-07 23:40:36
+2154699587876236,Akemi,Wijayabahu,13985,2154699587876236,854518728062939,user_quick_reply: BUTTON_DKB_fortuitously,:keycap_2:,2018-09-07 23:40:54
+2154699587876236,Akemi,Wijayabahu,13986,854518728062939,2154699587876236,BOT: message,"Oops, that is not correct. :disappointed_face:",2018-09-07 23:40:54
+2154699587876236,Akemi,Wijayabahu,13987,854518728062939,2154699587876236,BOT: quick reply,The correct answer is indulgently.,2018-09-07 23:40:55
+2154699587876236,Akemi,Wijayabahu,13988,2154699587876236,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-07 23:41:03
+2154699587876236,Akemi,Wijayabahu,13989,854518728062939,2154699587876236,BOT: message,How about this next one:,2018-09-07 23:41:04
+2154699587876236,Akemi,Wijayabahu,13990,854518728062939,2154699587876236,BOT: quick reply,"Modern tennis fans have come to realize that, although, quantum technological leaps in racquet technology have lead to _____ increases in the speed and power with which players can hit the ball, this has not necessarily lead to a more entertaining game.",2018-09-07 23:41:04
+2154699587876236,Akemi,Wijayabahu,13991,2154699587876236,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-07 23:41:24
+2154699587876236,Akemi,Wijayabahu,13992,854518728062939,2154699587876236,BOT: message,Which of the following options is the right answer?,2018-09-07 23:41:25
+2154699587876236,Akemi,Wijayabahu,13993,854518728062939,2154699587876236,BOT: quick reply,":keycap_1: innocuous
+:keycap_2: commensurate
+:keycap_3: tractable
+:keycap_4: malleable
+:keycap_5: halcyon
+",2018-09-07 23:41:26
+2154699587876236,Akemi,Wijayabahu,13994,2154699587876236,854518728062939,user_quick_reply: BUTTON_DKB_halcyon,:keycap_5:,2018-09-07 23:41:36
+2154699587876236,Akemi,Wijayabahu,13995,854518728062939,2154699587876236,BOT: message,"Oops, that is not correct. :disappointed_face:",2018-09-07 23:41:37
+2154699587876236,Akemi,Wijayabahu,13996,854518728062939,2154699587876236,BOT: quick reply,The correct answer is commensurate.,2018-09-07 23:41:38
+2154699587876236,Akemi,Wijayabahu,13997,2154699587876236,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-07 23:41:43
+2154699587876236,Akemi,Wijayabahu,13998,854518728062939,2154699587876236,BOT: message,"Alrighty, let's try this one.",2018-09-07 23:41:44
+2154699587876236,Akemi,Wijayabahu,13999,854518728062939,2154699587876236,BOT: quick reply,Seth was extremely _____ and did not enjoy activities that required effort to meet new people.,2018-09-07 23:41:44
+2154699587876236,Akemi,Wijayabahu,14000,2154699587876236,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-07 23:41:59
+2154699587876236,Akemi,Wijayabahu,14001,854518728062939,2154699587876236,BOT: message,Which of the following options is the right answer?,2018-09-07 23:42:02
+2154699587876236,Akemi,Wijayabahu,14002,854518728062939,2154699587876236,BOT: quick reply,":keycap_1: gregarious
+:keycap_2: jaded
+:keycap_3: lackluster
+:keycap_4: introverted
+:keycap_5: extroverted
+",2018-09-07 23:42:03
+2154699587876236,Akemi,Wijayabahu,14003,2154699587876236,854518728062939,user_quick_reply: BUTTON_AKB_introverted,:keycap_4:,2018-09-07 23:42:10
+2154699587876236,Akemi,Wijayabahu,14004,854518728062939,2154699587876236,BOT: image,https://www.smartprimer.ai:4443/pictures/avatar/congrats/penguinnormal_happy_orange.png,2018-09-07 23:42:12
+2154699587876236,Akemi,Wijayabahu,14005,854518728062939,2154699587876236,BOT: message,Great! Keep it up! :flexed_biceps_medium-light_skin_tone:,2018-09-07 23:42:12
+2154699587876236,Akemi,Wijayabahu,14006,854518728062939,2154699587876236,BOT: quick reply,The correct answer is introverted.,2018-09-07 23:42:13
+2154699587876236,Akemi,Wijayabahu,14007,2154699587876236,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-07 23:42:18
+2154699587876236,Akemi,Wijayabahu,14008,854518728062939,2154699587876236,BOT: message,Let's try this question.,2018-09-07 23:42:19
+2154699587876236,Akemi,Wijayabahu,14009,854518728062939,2154699587876236,BOT: quick reply,"Possessing few natural resources upon its newly-granted independence in 1863, Singapore remained economically _____ until an influx of industrialization and foreign investment took hold there.",2018-09-07 23:42:19
+2154699587876236,Akemi,Wijayabahu,14010,2154699587876236,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-07 23:42:33
+2154699587876236,Akemi,Wijayabahu,14011,854518728062939,2154699587876236,BOT: message,Okay. I'll give you some choices.,2018-09-07 23:42:34
+2154699587876236,Akemi,Wijayabahu,14012,854518728062939,2154699587876236,BOT: quick reply,":keycap_1: solvent
+:keycap_2: fortuitous
+:keycap_3: dubious
+:keycap_4: powerful
+:keycap_5: prosperous
+",2018-09-07 23:42:34
+2154699587876236,Akemi,Wijayabahu,14013,2154699587876236,854518728062939,user_quick_reply: BUTTON_DKB_prosperous,:keycap_5:,2018-09-07 23:42:43
+2154699587876236,Akemi,Wijayabahu,14014,854518728062939,2154699587876236,BOT: message,"I'm sorry, but that was incorrect. :disappointed_face:",2018-09-07 23:42:44
+2154699587876236,Akemi,Wijayabahu,14015,854518728062939,2154699587876236,BOT: quick reply,The correct answer is dubious.,2018-09-07 23:42:44
+2154699587876236,Akemi,Wijayabahu,14016,2154699587876236,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-07 23:42:50
+2154699587876236,Akemi,Wijayabahu,14017,854518728062939,2154699587876236,BOT: message,I think you'll like this question.,2018-09-07 23:42:50
+2154699587876236,Akemi,Wijayabahu,14018,854518728062939,2154699587876236,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-09-07 23:42:51
+2154699587876236,Akemi,Wijayabahu,14019,854518728062939,2154699587876236,BOT: quick reply,"Prior to taking on the new invader, the defending army had engaged in arduous combat; it is likely that the _____ resulting from waging two battles in two days played a part in its subsequent defeat.",2018-09-07 23:42:55
+2154699587876236,Akemi,Wijayabahu,14020,2154699587876236,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-07 23:43:31
+2154699587876236,Akemi,Wijayabahu,14021,854518728062939,2154699587876236,BOT: message,Pick one of the following answers.,2018-09-07 23:43:32
+2154699587876236,Akemi,Wijayabahu,14022,854518728062939,2154699587876236,BOT: quick reply,":keycap_1: pacification
+:keycap_2: pugnacity
+:keycap_3: bellicosity
+:keycap_4: enervation
+:keycap_5: aggravation
+",2018-09-07 23:43:33
+2154699587876236,Akemi,Wijayabahu,14023,2154699587876236,854518728062939,user_quick_reply: BUTTON_DKB_aggravation,:keycap_5:,2018-09-07 23:43:56
+2154699587876236,Akemi,Wijayabahu,14024,854518728062939,2154699587876236,BOT: message,That's not quite right. :disappointed_face:,2018-09-07 23:43:57
+2154699587876236,Akemi,Wijayabahu,14025,854518728062939,2154699587876236,BOT: quick reply,The correct answer is enervation.,2018-09-07 23:43:57
+2154699587876236,Akemi,Wijayabahu,14026,2154699587876236,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-07 23:44:03
+2154699587876236,Akemi,Wijayabahu,14027,854518728062939,2154699587876236,BOT: message,Let's try this question.,2018-09-07 23:44:04
+2154699587876236,Akemi,Wijayabahu,14028,854518728062939,2154699587876236,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-09-07 23:44:05
+2154699587876236,Akemi,Wijayabahu,14029,854518728062939,2154699587876236,BOT: quick reply,The Erie Canal's completion caused _____ economic ripples; property values and industrial output along its route rose exponentially.,2018-09-07 23:44:05
+2154699587876236,Akemi,Wijayabahu,14030,2154699587876236,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-07 23:44:13
+2154699587876236,Akemi,Wijayabahu,14031,854518728062939,2154699587876236,BOT: message,Okay. I'll give you some choices.,2018-09-07 23:44:14
+2154699587876236,Akemi,Wijayabahu,14032,854518728062939,2154699587876236,BOT: quick reply,":keycap_1: persistent
+:keycap_2: severe
+:keycap_3: prodigious
+:keycap_4: incredulous
+:keycap_5: invaluable
+",2018-09-07 23:44:14
+2154699587876236,Akemi,Wijayabahu,14033,2154699587876236,854518728062939,user_quick_reply: BUTTON_DKB_severe,:keycap_2:,2018-09-07 23:44:23
+2154699587876236,Akemi,Wijayabahu,14034,854518728062939,2154699587876236,BOT: message,"Hmm, that wasn't quite right. :disappointed_face:",2018-09-07 23:44:23
+2154699587876236,Akemi,Wijayabahu,14035,854518728062939,2154699587876236,BOT: quick reply,The correct answer is prodigious.,2018-09-07 23:44:24
+2154699587876236,Akemi,Wijayabahu,14036,2154699587876236,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-07 23:44:31
+2154699587876236,Akemi,Wijayabahu,14037,854518728062939,2154699587876236,BOT: message,"Alrighty, let's try this one.",2018-09-07 23:44:32
+2154699587876236,Akemi,Wijayabahu,14038,854518728062939,2154699587876236,BOT: quick reply,While she may have answered him truthfully - in the strictest sense of the word - it became clear to Sergei after the incident that Sheryl had actually been trying to _____ .,2018-09-07 23:44:32
+2154699587876236,Akemi,Wijayabahu,14039,2154699587876236,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-07 23:44:53
+2154699587876236,Akemi,Wijayabahu,14040,854518728062939,2154699587876236,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-09-07 23:44:54
+2154699587876236,Akemi,Wijayabahu,14041,854518728062939,2154699587876236,BOT: quick reply,":keycap_1: covet
+:keycap_2: obfuscate
+:keycap_3: illuminate
+:keycap_4: desiccate
+:keycap_5: vituperate
+",2018-09-07 23:44:55
+2154699587876236,Akemi,Wijayabahu,14042,2154699587876236,854518728062939,user_quick_reply: BUTTON_DKB_covet,:keycap_1:,2018-09-07 23:45:06
+2154699587876236,Akemi,Wijayabahu,14043,854518728062939,2154699587876236,BOT: message,"Hmm, that wasn't quite right. :disappointed_face:",2018-09-07 23:45:12
+2154699587876236,Akemi,Wijayabahu,14044,854518728062939,2154699587876236,BOT: quick reply,The correct answer is obfuscate.,2018-09-07 23:45:13
+2154699587876236,Akemi,Wijayabahu,14045,2154699587876236,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-07 23:45:21
+2154699587876236,Akemi,Wijayabahu,14046,854518728062939,2154699587876236,BOT: message,I think you'll like this question.,2018-09-07 23:45:21
+2154699587876236,Akemi,Wijayabahu,14047,854518728062939,2154699587876236,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-09-07 23:45:22
+2154699587876236,Akemi,Wijayabahu,14048,854518728062939,2154699587876236,BOT: quick reply,"With a similar contrast between a partly cloudy sky and a dark street, the cover of the recent rock CD _____ a famous surrealist painting from the early 1900s.",2018-09-07 23:45:23
+2154699587876236,Akemi,Wijayabahu,14049,2154699587876236,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-07 23:45:35
+2154699587876236,Akemi,Wijayabahu,14050,854518728062939,2154699587876236,BOT: message,Pick one of the following answers.,2018-09-07 23:45:36
+2154699587876236,Akemi,Wijayabahu,14051,854518728062939,2154699587876236,BOT: quick reply,":keycap_1: obfuscates
+:keycap_2: evokes
+:keycap_3: disenchants
+:keycap_4: sanctions
+:keycap_5: admires
+",2018-09-07 23:45:37
+2154699587876236,Akemi,Wijayabahu,14052,2154699587876236,854518728062939,user_quick_reply: BUTTON_DKB_sanctions,:keycap_4:,2018-09-07 23:45:49
+2154699587876236,Akemi,Wijayabahu,14053,854518728062939,2154699587876236,BOT: message,"Hmm, that wasn't quite right. :disappointed_face:",2018-09-07 23:45:50
+2154699587876236,Akemi,Wijayabahu,14054,854518728062939,2154699587876236,BOT: quick reply,The correct answer is evokes.,2018-09-07 23:45:50
+2154699587876236,Akemi,Wijayabahu,14055,2154699587876236,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-07 23:45:56
+2154699587876236,Akemi,Wijayabahu,14056,854518728062939,2154699587876236,BOT: quick reply,"Nice job! You've practiced enough questions today. Please come back tomorrow and click on ""Resume Learning :flexed_biceps_medium-light_skin_tone:"" for another practice session.",2018-09-07 23:45:57
+2154699587876236,Akemi,Wijayabahu,17799,2154699587876236,854518728062939,user_quick_reply: NEXT_QUESTION,Resume Learning :flexed_biceps_medium-light_skin_tone:,2018-09-08 12:47:35
+2154699587876236,Akemi,Wijayabahu,17800,854518728062939,2154699587876236,BOT: message,Let's see if you can get this one.,2018-09-08 12:47:36
+2154699587876236,Akemi,Wijayabahu,17801,854518728062939,2154699587876236,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-09-08 12:47:36
+2154699587876236,Akemi,Wijayabahu,17802,854518728062939,2154699587876236,BOT: quick reply,What should you NOT do while lifting objects?,2018-09-08 12:47:37
+2154699587876236,Akemi,Wijayabahu,17803,2154699587876236,854518728062939,user_typing,Twist my body,2018-09-08 12:48:00
+2154699587876236,Akemi,Wijayabahu,17804,854518728062939,2154699587876236,BOT: message,"I'm sorry, but that was incorrect. :disappointed_face:",2018-09-08 12:48:00
+2154699587876236,Akemi,Wijayabahu,17805,854518728062939,2154699587876236,BOT: quick reply,The correct answer is Keep your feet together.,2018-09-08 12:48:01
+2154699587876236,Akemi,Wijayabahu,17806,2154699587876236,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-08 12:48:12
+2154699587876236,Akemi,Wijayabahu,17807,854518728062939,2154699587876236,BOT: message,How about this next one:,2018-09-08 12:48:13
+2154699587876236,Akemi,Wijayabahu,17808,854518728062939,2154699587876236,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-09-08 12:48:13
+2154699587876236,Akemi,Wijayabahu,17809,854518728062939,2154699587876236,BOT: quick reply,How long can high-acid canned food such as tomatoes be stored?,2018-09-08 12:48:14
+2154699587876236,Akemi,Wijayabahu,17810,2154699587876236,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-08 12:48:31
+2154699587876236,Akemi,Wijayabahu,17811,854518728062939,2154699587876236,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-09-08 12:48:32
+2154699587876236,Akemi,Wijayabahu,17812,854518728062939,2154699587876236,BOT: quick reply,":keycap_1: 2 to 6 months
+:keycap_2: 10 to 30 days
+:keycap_3: 2 to 4 years
+:keycap_4: 12 to 18 months
+",2018-09-08 12:48:33
+2154699587876236,Akemi,Wijayabahu,17813,2154699587876236,854518728062939,user_quick_reply: BUTTON_DKB_2 to 6 months,:keycap_1:,2018-09-08 12:48:45
+2154699587876236,Akemi,Wijayabahu,17814,854518728062939,2154699587876236,BOT: message,"Oops, that is not correct. :disappointed_face:",2018-09-08 12:48:46
+2154699587876236,Akemi,Wijayabahu,17815,854518728062939,2154699587876236,BOT: quick reply,The correct answer is 12 to 18 months.,2018-09-08 12:48:46
+2154699587876236,Akemi,Wijayabahu,17816,2154699587876236,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-08 12:48:52
+2154699587876236,Akemi,Wijayabahu,17817,854518728062939,2154699587876236,BOT: message,See if you can answer this next one.,2018-09-08 12:48:52
+2154699587876236,Akemi,Wijayabahu,17818,854518728062939,2154699587876236,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-09-08 12:48:53
+2154699587876236,Akemi,Wijayabahu,17819,854518728062939,2154699587876236,BOT: quick reply,"When your brain senses that your body temperature is increasing, it sends messages to the blood vessels in the skin to increase in what?",2018-09-08 12:48:54
+2154699587876236,Akemi,Wijayabahu,17820,2154699587876236,854518728062939,user_typing,Dilate,2018-09-08 12:49:16
+2154699587876236,Akemi,Wijayabahu,17821,854518728062939,2154699587876236,BOT: message,Nice! :red_apple:,2018-09-08 12:49:17
+2154699587876236,Akemi,Wijayabahu,17822,854518728062939,2154699587876236,BOT: quick reply,The correct answer is diameter.,2018-09-08 12:49:18
+2154699587876236,Akemi,Wijayabahu,17823,2154699587876236,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-08 12:49:25
+2154699587876236,Akemi,Wijayabahu,17824,854518728062939,2154699587876236,BOT: message,Let's see if you would answer this one.,2018-09-08 12:49:25
+2154699587876236,Akemi,Wijayabahu,17825,854518728062939,2154699587876236,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-09-08 12:49:26
+2154699587876236,Akemi,Wijayabahu,17826,854518728062939,2154699587876236,BOT: quick reply,How often should women perform a breast self-exam?,2018-09-08 12:49:27
+2154699587876236,Akemi,Wijayabahu,17827,2154699587876236,854518728062939,user_typing,Annually,2018-09-08 12:49:40
+2154699587876236,Akemi,Wijayabahu,17828,854518728062939,2154699587876236,BOT: message,"Oops, that answer was incorrect. :disappointed_face:",2018-09-08 12:49:41
+2154699587876236,Akemi,Wijayabahu,17829,854518728062939,2154699587876236,BOT: quick reply,The correct answer is monthly.,2018-09-08 12:49:42
+2154699587876236,Akemi,Wijayabahu,17830,2154699587876236,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-08 12:49:47
+2154699587876236,Akemi,Wijayabahu,17831,854518728062939,2154699587876236,BOT: message,See if you can answer this next one.,2018-09-08 12:49:48
+2154699587876236,Akemi,Wijayabahu,17832,854518728062939,2154699587876236,BOT: quick reply,Most fungi get organic compounds from what?,2018-09-08 12:49:48
+2154699587876236,Akemi,Wijayabahu,17833,2154699587876236,854518728062939,user_typing,Dead plants,2018-09-08 12:50:15
+2154699587876236,Akemi,Wijayabahu,17834,854518728062939,2154699587876236,BOT: message,Correct! :confetti_ball:,2018-09-08 12:50:16
+2154699587876236,Akemi,Wijayabahu,17835,854518728062939,2154699587876236,BOT: quick reply,The correct answer is dead organisms.,2018-09-08 12:50:17
+2154699587876236,Akemi,Wijayabahu,17836,2154699587876236,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-08 12:50:22
+2154699587876236,Akemi,Wijayabahu,17837,854518728062939,2154699587876236,BOT: message,"Alrighty, let's try this one.",2018-09-08 12:50:23
+2154699587876236,Akemi,Wijayabahu,17838,854518728062939,2154699587876236,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-09-08 12:50:23
+2154699587876236,Akemi,Wijayabahu,17839,854518728062939,2154699587876236,BOT: quick reply,Most insects reproduce quickly and through what type of reproduction?,2018-09-08 12:50:24
+2154699587876236,Akemi,Wijayabahu,17840,2154699587876236,854518728062939,user_typing,Sexual reproduction,2018-09-08 12:50:40
+2154699587876236,Akemi,Wijayabahu,17841,854518728062939,2154699587876236,BOT: message,Correct! :confetti_ball:,2018-09-08 12:50:40
+2154699587876236,Akemi,Wijayabahu,17842,854518728062939,2154699587876236,BOT: quick reply,The correct answer is sexual reproduction.,2018-09-08 12:50:41
+2154699587876236,Akemi,Wijayabahu,17843,2154699587876236,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-08 12:50:46
+2154699587876236,Akemi,Wijayabahu,17844,854518728062939,2154699587876236,BOT: message,Let's see if you can answer this question.,2018-09-08 12:50:47
+2154699587876236,Akemi,Wijayabahu,17845,854518728062939,2154699587876236,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-09-08 12:50:47
+2154699587876236,Akemi,Wijayabahu,17846,854518728062939,2154699587876236,BOT: quick reply,Which fire extinguishers are used to put out Class A fires?,2018-09-08 12:50:48
+2154699587876236,Akemi,Wijayabahu,17847,2154699587876236,854518728062939,user_typing,Water,2018-09-08 12:51:02
+2154699587876236,Akemi,Wijayabahu,17848,854518728062939,2154699587876236,BOT: message,That's not quite right. :disappointed_face:,2018-09-08 12:51:03
+2154699587876236,Akemi,Wijayabahu,17849,854518728062939,2154699587876236,BOT: quick reply,The correct answer is Both water and multi-purpose dry chemical.,2018-09-08 12:51:04
+2154699587876236,Akemi,Wijayabahu,17850,2154699587876236,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-08 12:51:15
+2154699587876236,Akemi,Wijayabahu,17851,854518728062939,2154699587876236,BOT: message,Let's try this one.,2018-09-08 12:51:16
+2154699587876236,Akemi,Wijayabahu,17852,854518728062939,2154699587876236,BOT: quick reply,Which fire extinguishers are used to put out fires caused by flammable liquids?,2018-09-08 12:51:17
+2154699587876236,Akemi,Wijayabahu,17853,2154699587876236,854518728062939,user_typing,Carbon dioxide or class b,2018-09-08 12:51:36
+2154699587876236,Akemi,Wijayabahu,17854,854518728062939,2154699587876236,BOT: message,That’s right! :party_popper:,2018-09-08 12:51:36
+2154699587876236,Akemi,Wijayabahu,17855,854518728062939,2154699587876236,BOT: quick reply,The correct answer is Class B carbon dioxide fire extinguisher.,2018-09-08 12:51:37
+2154699587876236,Akemi,Wijayabahu,17856,2154699587876236,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-08 12:51:43
+2154699587876236,Akemi,Wijayabahu,17857,854518728062939,2154699587876236,BOT: message,Here's a question for you:,2018-09-08 12:51:43
+2154699587876236,Akemi,Wijayabahu,17858,854518728062939,2154699587876236,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-09-08 12:51:44
+2154699587876236,Akemi,Wijayabahu,17859,854518728062939,2154699587876236,BOT: quick reply,"If your co-worker needs CPR but you are not trained in it, what should you do?",2018-09-08 12:51:45
+2154699587876236,Akemi,Wijayabahu,17860,2154699587876236,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-08 12:51:58
+2154699587876236,Akemi,Wijayabahu,17861,854518728062939,2154699587876236,BOT: message,Okay. I'll give you some choices.,2018-09-08 12:51:58
+2154699587876236,Akemi,Wijayabahu,17862,854518728062939,2154699587876236,BOT: quick reply,":keycap_1: Give rescue breaths only
+:keycap_2: Lift the patient's head
+:keycap_3: Perform chest compressions only
+:keycap_4: Wait for emergency personnel to arrive
+",2018-09-08 12:51:59
+2154699587876236,Akemi,Wijayabahu,17863,2154699587876236,854518728062939,user_quick_reply: BUTTON_DKB_Give rescue breaths only,:keycap_1:,2018-09-08 12:52:06
+2154699587876236,Akemi,Wijayabahu,17864,854518728062939,2154699587876236,BOT: message,"Oops, that wasn't quite correct. :disappointed_face:",2018-09-08 12:52:07
+2154699587876236,Akemi,Wijayabahu,17865,854518728062939,2154699587876236,BOT: quick reply,The correct answer is Perform chest compressions only.,2018-09-08 12:52:08
+2154699587876236,Akemi,Wijayabahu,17866,2154699587876236,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-08 12:52:16
+2154699587876236,Akemi,Wijayabahu,17867,854518728062939,2154699587876236,BOT: message,I think you'll like this question.,2018-09-08 12:52:16
+2154699587876236,Akemi,Wijayabahu,17868,854518728062939,2154699587876236,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-09-08 12:52:17
+2154699587876236,Akemi,Wijayabahu,17869,854518728062939,2154699587876236,BOT: quick reply,"When you discover a fire, you should do what?",2018-09-08 12:52:18
+2154699587876236,Akemi,Wijayabahu,17870,2154699587876236,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-08 12:52:28
+2154699587876236,Akemi,Wijayabahu,17871,854518728062939,2154699587876236,BOT: message,Which of the following options is the right answer?,2018-09-08 12:52:29
+2154699587876236,Akemi,Wijayabahu,17872,854518728062939,2154699587876236,BOT: quick reply,":keycap_1: Use a fire extinguisher to put out the fire, even if you've never used a fire extinguisher before
+:keycap_2: Stay in the building until you figure out a way to extinguish the fire
+:keycap_3: Pull the fire alarm and call the fire department
+:keycap_4: Run out of the building without warning others of the fire
+",2018-09-08 12:52:30
+2154699587876236,Akemi,Wijayabahu,17873,2154699587876236,854518728062939,user_quick_reply: BUTTON_AKB_Pull the fire alarm and call the fire department,:keycap_3:,2018-09-08 12:52:45
+2154699587876236,Akemi,Wijayabahu,17874,854518728062939,2154699587876236,BOT: message,Yes! You got the correct answer!,2018-09-08 12:52:45
+2154699587876236,Akemi,Wijayabahu,17875,854518728062939,2154699587876236,BOT: quick reply,The correct answer is Pull the fire alarm and call the fire department.,2018-09-08 12:52:46
+2154699587876236,Akemi,Wijayabahu,17876,2154699587876236,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-08 12:52:50
+2154699587876236,Akemi,Wijayabahu,17877,854518728062939,2154699587876236,BOT: message,Would you answer this question for me?,2018-09-08 12:52:51
+2154699587876236,Akemi,Wijayabahu,17878,854518728062939,2154699587876236,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-09-08 12:52:52
+2154699587876236,Akemi,Wijayabahu,17879,854518728062939,2154699587876236,BOT: quick reply,What three major factors cause food contamination?,2018-09-08 12:52:52
+2154699587876236,Akemi,Wijayabahu,17880,2154699587876236,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-08 12:53:11
+2154699587876236,Akemi,Wijayabahu,17881,854518728062939,2154699587876236,BOT: message,Okay. I'll give you some choices.,2018-09-08 12:53:12
+2154699587876236,Akemi,Wijayabahu,17882,854518728062939,2154699587876236,BOT: quick reply,":keycap_1: Physical, biological, and radiological
+:keycap_2: Physical, psychological, and health
+:keycap_3: Physical, biological, and chemical
+:keycap_4: Physical, chemical, and psychosocial
+",2018-09-08 12:53:13
+2154699587876236,Akemi,Wijayabahu,17883,2154699587876236,854518728062939,"user_quick_reply: BUTTON_AKB_Physical, biological, and chemical",:keycap_3:,2018-09-08 12:53:22
+2154699587876236,Akemi,Wijayabahu,17884,854518728062939,2154699587876236,BOT: message,Great job getting the correct answer!,2018-09-08 12:53:22
+2154699587876236,Akemi,Wijayabahu,17885,854518728062939,2154699587876236,BOT: quick reply,"The correct answer is Physical, biological, and chemical.",2018-09-08 12:53:23
+2154699587876236,Akemi,Wijayabahu,17886,2154699587876236,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-08 12:53:27
+2154699587876236,Akemi,Wijayabahu,17887,854518728062939,2154699587876236,BOT: message,Let's try this one.,2018-09-08 12:53:28
+2154699587876236,Akemi,Wijayabahu,17888,854518728062939,2154699587876236,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-09-08 12:53:28
+2154699587876236,Akemi,Wijayabahu,17889,854518728062939,2154699587876236,BOT: quick reply,"What agency inspects, grades, and enforces standards of quality and wholesomeness for meat, poultry, milk, eggs, and grains?",2018-09-08 12:53:29
+2154699587876236,Akemi,Wijayabahu,17890,2154699587876236,854518728062939,user_typing,Us department of agriculture,2018-09-08 12:54:11
+2154699587876236,Akemi,Wijayabahu,17891,854518728062939,2154699587876236,BOT: message,"I'm sorry, but that was incorrect. :disappointed_face:",2018-09-08 12:54:11
+2154699587876236,Akemi,Wijayabahu,17892,854518728062939,2154699587876236,BOT: quick reply,The correct answer is USDA.,2018-09-08 12:54:12
+2154699587876236,Akemi,Wijayabahu,17893,2154699587876236,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-08 12:54:26
+2154699587876236,Akemi,Wijayabahu,17894,854518728062939,2154699587876236,BOT: message,Let's try this one.,2018-09-08 12:54:26
+2154699587876236,Akemi,Wijayabahu,17895,854518728062939,2154699587876236,BOT: quick reply,Working on scaffold during winds above ____ miles per hour is prohibited by OSHA.,2018-09-08 12:54:27
+2154699587876236,Akemi,Wijayabahu,17896,2154699587876236,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-08 12:54:39
+2154699587876236,Akemi,Wijayabahu,17897,854518728062939,2154699587876236,BOT: message,It's one of the following choices.,2018-09-08 12:54:40
+2154699587876236,Akemi,Wijayabahu,17898,854518728062939,2154699587876236,BOT: quick reply,":keycap_1: 40
+:keycap_2: 25
+:keycap_3: 10
+:keycap_4: 50
+",2018-09-08 12:54:41
+2154699587876236,Akemi,Wijayabahu,17899,2154699587876236,854518728062939,user_quick_reply: BUTTON_AKB_40,:keycap_1:,2018-09-08 12:54:45
+2154699587876236,Akemi,Wijayabahu,17900,854518728062939,2154699587876236,BOT: image,https://www.smartprimer.ai:4443/pictures/avatar/congrats/penguinnormal_jubilated_cyan.png,2018-09-08 12:54:47
+2154699587876236,Akemi,Wijayabahu,17901,854518728062939,2154699587876236,BOT: message,Great job!,2018-09-08 12:54:47
+2154699587876236,Akemi,Wijayabahu,17902,854518728062939,2154699587876236,BOT: quick reply,The correct answer is 40.,2018-09-08 12:54:48
+2154699587876236,Akemi,Wijayabahu,17903,2154699587876236,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-08 12:54:52
+2154699587876236,Akemi,Wijayabahu,17904,854518728062939,2154699587876236,BOT: message,Let's see if you can answer this question.,2018-09-08 12:54:53
+2154699587876236,Akemi,Wijayabahu,17905,854518728062939,2154699587876236,BOT: quick reply,To what does the acronym SLM refer?,2018-09-08 12:54:54
+2154699587876236,Akemi,Wijayabahu,17906,2154699587876236,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-08 12:55:00
+2154699587876236,Akemi,Wijayabahu,17907,854518728062939,2154699587876236,BOT: message,It's one of the following choices.,2018-09-08 12:55:00
+2154699587876236,Akemi,Wijayabahu,17908,854518728062939,2154699587876236,BOT: quick reply,":keycap_1: System Level Monitor
+:keycap_2: Sound Level Meter
+:keycap_3: Sound Loudness Methods
+:keycap_4: Service Lifecycle Management
+",2018-09-08 12:55:01
+2154699587876236,Akemi,Wijayabahu,17909,2154699587876236,854518728062939,user_quick_reply: BUTTON_AKB_Sound Level Meter,:keycap_2:,2018-09-08 12:55:19
+2154699587876236,Akemi,Wijayabahu,17910,854518728062939,2154699587876236,BOT: image,https://www.smartprimer.ai:4443/pictures/avatar/congrats/penguinnormal_normal.png,2018-09-08 12:55:21
+2154699587876236,Akemi,Wijayabahu,17911,854518728062939,2154699587876236,BOT: message,Yes! You got the correct answer!,2018-09-08 12:55:22
+2154699587876236,Akemi,Wijayabahu,17912,854518728062939,2154699587876236,BOT: quick reply,The correct answer is Sound Level Meter.,2018-09-08 12:55:22
+2154699587876236,Akemi,Wijayabahu,17913,2154699587876236,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-08 12:55:28
+2154699587876236,Akemi,Wijayabahu,17914,854518728062939,2154699587876236,BOT: message,Let's try this question.,2018-09-08 12:55:29
+2154699587876236,Akemi,Wijayabahu,17915,854518728062939,2154699587876236,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-09-08 12:55:30
+2154699587876236,Akemi,Wijayabahu,17916,854518728062939,2154699587876236,BOT: quick reply,"True or false: if you wear a back belt, you can lift more weight than you could without a belt.",2018-09-08 12:55:30
+2154699587876236,Akemi,Wijayabahu,17917,2154699587876236,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-08 12:55:40
+2154699587876236,Akemi,Wijayabahu,17918,854518728062939,2154699587876236,BOT: message,Which of the following options is the right answer?,2018-09-08 12:55:40
+2154699587876236,Akemi,Wijayabahu,17919,854518728062939,2154699587876236,BOT: quick reply,":keycap_1: True
+:keycap_2: False
+",2018-09-08 12:55:41
+2154699587876236,Akemi,Wijayabahu,17920,2154699587876236,854518728062939,user_quick_reply: BUTTON_DKB_True,:keycap_1:,2018-09-08 12:55:46
+2154699587876236,Akemi,Wijayabahu,17921,854518728062939,2154699587876236,BOT: message,"Hmm, that wasn't quite right. :disappointed_face:",2018-09-08 12:55:47
+2154699587876236,Akemi,Wijayabahu,17922,854518728062939,2154699587876236,BOT: quick reply,The correct answer is False.,2018-09-08 12:55:48
+2154699587876236,Akemi,Wijayabahu,17923,2154699587876236,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-08 12:55:55
+2154699587876236,Akemi,Wijayabahu,17924,854518728062939,2154699587876236,BOT: message,How about this next one:,2018-09-08 12:55:56
+2154699587876236,Akemi,Wijayabahu,17925,854518728062939,2154699587876236,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-09-08 12:55:57
+2154699587876236,Akemi,Wijayabahu,17926,854518728062939,2154699587876236,BOT: quick reply,True or false: portable fire extinguishers should only be used by trained employees.,2018-09-08 12:55:57
+2154699587876236,Akemi,Wijayabahu,17927,2154699587876236,854518728062939,user_typing,False,2018-09-08 12:56:14
+2154699587876236,Akemi,Wijayabahu,17928,854518728062939,2154699587876236,BOT: message,"I'm sorry, but that was incorrect. :disappointed_face:",2018-09-08 12:56:15
+2154699587876236,Akemi,Wijayabahu,17929,854518728062939,2154699587876236,BOT: quick reply,The correct answer is True.,2018-09-08 12:56:15
+2154699587876236,Akemi,Wijayabahu,17930,2154699587876236,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-08 12:56:22
+2154699587876236,Akemi,Wijayabahu,17931,854518728062939,2154699587876236,BOT: message,What about this next question:,2018-09-08 12:56:22
+2154699587876236,Akemi,Wijayabahu,17932,854518728062939,2154699587876236,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-09-08 12:56:23
+2154699587876236,Akemi,Wijayabahu,17933,854518728062939,2154699587876236,BOT: quick reply,"True or false: you can always smell, see, or taste harmful bacteria in food that can cause illness.",2018-09-08 12:56:24
+2154699587876236,Akemi,Wijayabahu,17934,2154699587876236,854518728062939,user_typing,False,2018-09-08 12:56:36
+2154699587876236,Akemi,Wijayabahu,17935,854518728062939,2154699587876236,BOT: message,Good Answer! :white_heavy_check_mark:,2018-09-08 12:56:37
+2154699587876236,Akemi,Wijayabahu,17936,854518728062939,2154699587876236,BOT: quick reply,The correct answer is False.,2018-09-08 12:56:38
+2154699587876236,Akemi,Wijayabahu,17937,2154699587876236,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-08 12:56:41
+2154699587876236,Akemi,Wijayabahu,17938,854518728062939,2154699587876236,BOT: message,Let's try this question.,2018-09-08 12:56:42
+2154699587876236,Akemi,Wijayabahu,17939,854518728062939,2154699587876236,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-09-08 12:56:42
+2154699587876236,Akemi,Wijayabahu,17940,854518728062939,2154699587876236,BOT: quick reply,What does CERT stand for?,2018-09-08 12:56:43
+2154699587876236,Akemi,Wijayabahu,17941,2154699587876236,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-08 12:56:56
+2154699587876236,Akemi,Wijayabahu,17942,854518728062939,2154699587876236,BOT: message,It's one of the following choices.,2018-09-08 12:56:57
+2154699587876236,Akemi,Wijayabahu,17943,854518728062939,2154699587876236,BOT: quick reply,":keycap_1: Community Experimental Research Team
+:keycap_2: Central Emergency Response Terminal
+:keycap_3: Community Emergency Response Team
+:keycap_4: Controlled Evacuation and Response Tactics
+",2018-09-08 12:56:58
+2154699587876236,Akemi,Wijayabahu,17944,2154699587876236,854518728062939,user_quick_reply: BUTTON_DKB_Central Emergency Response Terminal,:keycap_2:,2018-09-08 12:57:11
+2154699587876236,Akemi,Wijayabahu,17945,854518728062939,2154699587876236,BOT: message,"Oops, that wasn't quite correct. :disappointed_face:",2018-09-08 12:57:12
+2154699587876236,Akemi,Wijayabahu,17946,854518728062939,2154699587876236,BOT: quick reply,The correct answer is Community Emergency Response Team.,2018-09-08 12:57:12
+2154699587876236,Akemi,Wijayabahu,17947,2154699587876236,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-08 12:57:19
+2154699587876236,Akemi,Wijayabahu,17948,854518728062939,2154699587876236,BOT: message,"Alrighty, let's try this one.",2018-09-08 12:57:20
+2154699587876236,Akemi,Wijayabahu,17949,854518728062939,2154699587876236,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-09-08 12:57:20
+2154699587876236,Akemi,Wijayabahu,17950,854518728062939,2154699587876236,BOT: quick reply,What should you NOT do while treating cuts and scrapes?,2018-09-08 12:57:21
+2154699587876236,Akemi,Wijayabahu,17951,2154699587876236,854518728062939,user_typing,Apply antibiotics,2018-09-08 12:57:34
+2154699587876236,Akemi,Wijayabahu,17952,854518728062939,2154699587876236,BOT: message,That wasn't quite what we were looking for. :disappointed_face:,2018-09-08 12:57:34
+2154699587876236,Akemi,Wijayabahu,17953,854518728062939,2154699587876236,BOT: quick reply,The correct answer is Wash the wound with soap.,2018-09-08 12:57:35
+2154699587876236,Akemi,Wijayabahu,17954,2154699587876236,854518728062939,user_quick_reply: WHY,Why?,2018-09-08 12:57:56
+2154699587876236,Akemi,Wijayabahu,17955,854518728062939,2154699587876236,BOT: message,Here's why:,2018-09-08 12:57:57
+2154699587876236,Akemi,Wijayabahu,17956,854518728062939,2154699587876236,BOT: quick reply,"Although cuts and scrapes do not require the victim to visit an emergency room, proper care is needed to avoid infections. If you're treating wounds, Mayo Clinic advises you to stop the bleeding by applying gentle pressure on the wound for 20 to 30 minutes; use clear water to clean the wound and tweezers cleaned with alcohol to remove particles from the wound, if there are any; avoid using soap as it may cause irritation; apply an antibiotic to the affected area; cover the wound to keep harmful bacteria out; and change the dressing regularly or when it becomes wet or dirty. For wounds that are deeper than 1/4 inch or 6 millimeters, visit a health practitioner to get stitches.",2018-09-08 12:57:58
+2154699587876236,Akemi,Wijayabahu,17957,2154699587876236,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-09-08 12:58:48
+2154699587876236,Akemi,Wijayabahu,17958,854518728062939,2154699587876236,BOT: message,I think you'll like this question.,2018-09-08 12:58:49
+2154699587876236,Akemi,Wijayabahu,17959,854518728062939,2154699587876236,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-09-08 12:58:49
+2154699587876236,Akemi,Wijayabahu,17960,854518728062939,2154699587876236,BOT: quick reply,Nerve cells that sense touch are found mainly where?,2018-09-08 12:58:50
+2154699587876236,Akemi,Wijayabahu,17961,2154699587876236,854518728062939,user_typing,Skin,2018-09-08 12:59:00
+2154699587876236,Akemi,Wijayabahu,17962,854518728062939,2154699587876236,BOT: message,Good job! :raising_hands_medium-light_skin_tone:,2018-09-08 12:59:01
+2154699587876236,Akemi,Wijayabahu,17963,854518728062939,2154699587876236,BOT: quick reply,The correct answer is skin.,2018-09-08 12:59:02
+2154699587876236,Akemi,Wijayabahu,17964,2154699587876236,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-08 12:59:05
+2154699587876236,Akemi,Wijayabahu,17965,854518728062939,2154699587876236,BOT: quick reply,"Nice job! You've practiced enough questions today. Please come back tomorrow and click on ""Resume Learning :flexed_biceps_medium-light_skin_tone:"" for another practice session.",2018-09-08 12:59:06
+2154699587876236,Akemi,Wijayabahu,19378,854518728062939,2154699587876236,BOT: quick reply,"Hi Akemi, remember to practice some questions with me if you haven't finished your session today!",2018-09-08 20:00:24

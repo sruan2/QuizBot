@@ -271,3 +271,286 @@ user_id,user_firstname,user_lastname,uid,sender,recipient,type,dialogue,time_sta
 1895184847242752,Fangjie,Cao,8782,1895184847242752,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-07 02:56:17
 1895184847242752,Fangjie,Cao,8783,854518728062939,1895184847242752,BOT: quick reply,"Nice job! You've practiced enough questions today. Please come back tomorrow and click on ""Resume Learning :flexed_biceps_medium-light_skin_tone:"" for another practice session.",2018-09-07 02:56:18
 1895184847242752,Fangjie,Cao,12592,854518728062939,1895184847242752,BOT: quick reply,"Hi Fangjie, remember to practice some questions with me if you haven't finished your session today!",2018-09-07 20:00:09
+1895184847242752,Fangjie,Cao,15355,1895184847242752,854518728062939,persistent_menu: GRE,GRE :input_latin_uppercase:,2018-09-08 02:17:52
+1895184847242752,Fangjie,Cao,15358,854518728062939,1895184847242752,BOT: image,https://www.smartprimer.ai:4443/pictures/avatar/evolvesafety_reading.gif,2018-09-08 02:17:55
+1895184847242752,Fangjie,Cao,15360,854518728062939,1895184847242752,BOT: quick reply,Awesome! Let's learn about the GRE!,2018-09-08 02:17:55
+1895184847242752,Fangjie,Cao,15364,1895184847242752,854518728062939,user_quick_reply: NEXT_QUESTION,"Yes, continue :oncoming_fist_medium-light_skin_tone:",2018-09-08 02:18:03
+1895184847242752,Fangjie,Cao,15366,854518728062939,1895184847242752,BOT: quick reply,"Nice job! You've practiced enough questions today. Please come back tomorrow and click on ""Resume Learning :flexed_biceps_medium-light_skin_tone:"" for another practice session.",2018-09-08 02:18:03
+1895184847242752,Fangjie,Cao,15386,1895184847242752,854518728062939,persistent_menu: SCIENCE,Science:microscope:,2018-09-08 02:19:16
+1895184847242752,Fangjie,Cao,15387,854518728062939,1895184847242752,BOT: image,https://www.smartprimer.ai:4443/pictures/avatar/evolvereading_scientist.gif,2018-09-08 02:19:19
+1895184847242752,Fangjie,Cao,15389,854518728062939,1895184847242752,BOT: quick reply,Science rules! Let's see what you know.,2018-09-08 02:19:20
+1895184847242752,Fangjie,Cao,15393,854518728062939,1895184847242752,BOT: message,Here's a question for you:,2018-09-08 02:19:26
+1895184847242752,Fangjie,Cao,15394,854518728062939,1895184847242752,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-09-08 02:19:27
+1895184847242752,Fangjie,Cao,15397,854518728062939,1895184847242752,BOT: quick reply,What living species of bird is considered the largest of the raptors?,2018-09-08 02:19:28
+1895184847242752,Fangjie,Cao,15403,1895184847242752,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-08 02:19:42
+1895184847242752,Fangjie,Cao,15405,854518728062939,1895184847242752,BOT: message,Which of the following options is the right answer?,2018-09-08 02:19:43
+1895184847242752,Fangjie,Cao,15406,854518728062939,1895184847242752,BOT: quick reply,":keycap_1: golden eagles
+:keycap_2: California condor
+:keycap_3: pterodactyl
+:keycap_4: peregrine falcon
+",2018-09-08 02:19:43
+1895184847242752,Fangjie,Cao,15407,1895184847242752,854518728062939,user_quick_reply: BUTTON_DKB_pterodactyl,:keycap_3:,2018-09-08 02:19:53
+1895184847242752,Fangjie,Cao,15408,854518728062939,1895184847242752,BOT: message,"Oops, that wasn't quite correct. :disappointed_face:",2018-09-08 02:19:54
+1895184847242752,Fangjie,Cao,15409,854518728062939,1895184847242752,BOT: quick reply,The correct answer is golden eagles.,2018-09-08 02:19:55
+1895184847242752,Fangjie,Cao,15410,1895184847242752,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-08 02:20:05
+1895184847242752,Fangjie,Cao,15411,854518728062939,1895184847242752,BOT: message,Let's see if you can get this one.,2018-09-08 02:20:06
+1895184847242752,Fangjie,Cao,15412,854518728062939,1895184847242752,BOT: quick reply,What opens two strands of DNA?,2018-09-08 02:20:07
+1895184847242752,Fangjie,Cao,15413,1895184847242752,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-08 02:20:15
+1895184847242752,Fangjie,Cao,15414,854518728062939,1895184847242752,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-09-08 02:20:15
+1895184847242752,Fangjie,Cao,15415,854518728062939,1895184847242752,BOT: quick reply,":keycap_1: adenylate
+:keycap_2: replication
+:keycap_3: helicase
+:keycap_4: chromosome
+",2018-09-08 02:20:16
+1895184847242752,Fangjie,Cao,15416,1895184847242752,854518728062939,user_quick_reply: BUTTON_AKB_helicase,:keycap_3:,2018-09-08 02:20:21
+1895184847242752,Fangjie,Cao,15417,854518728062939,1895184847242752,BOT: message,Nice! That was right!,2018-09-08 02:20:22
+1895184847242752,Fangjie,Cao,15418,854518728062939,1895184847242752,BOT: quick reply,The correct answer is helicase.,2018-09-08 02:20:23
+1895184847242752,Fangjie,Cao,15419,1895184847242752,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-08 02:20:26
+1895184847242752,Fangjie,Cao,15420,854518728062939,1895184847242752,BOT: message,Let's see if you can answer this question.,2018-09-08 02:20:27
+1895184847242752,Fangjie,Cao,15421,854518728062939,1895184847242752,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-09-08 02:20:27
+1895184847242752,Fangjie,Cao,15422,854518728062939,1895184847242752,BOT: quick reply,"When your brain senses that your body temperature is increasing, it sends messages to the blood vessels in the skin to increase in what?",2018-09-08 02:20:28
+1895184847242752,Fangjie,Cao,15423,1895184847242752,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-08 02:20:44
+1895184847242752,Fangjie,Cao,15424,854518728062939,1895184847242752,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-09-08 02:20:45
+1895184847242752,Fangjie,Cao,15425,854518728062939,1895184847242752,BOT: quick reply,":keycap_1: surface
+:keycap_2: weight
+:keycap_3: diameter
+:keycap_4: height
+",2018-09-08 02:20:46
+1895184847242752,Fangjie,Cao,15426,1895184847242752,854518728062939,user_quick_reply: BUTTON_DKB_surface,:keycap_1:,2018-09-08 02:20:51
+1895184847242752,Fangjie,Cao,15427,854518728062939,1895184847242752,BOT: message,"Oops, that wasn't quite correct. :disappointed_face:",2018-09-08 02:20:52
+1895184847242752,Fangjie,Cao,15428,854518728062939,1895184847242752,BOT: quick reply,The correct answer is diameter.,2018-09-08 02:20:53
+1895184847242752,Fangjie,Cao,15429,1895184847242752,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-08 02:21:33
+1895184847242752,Fangjie,Cao,15430,854518728062939,1895184847242752,BOT: message,See if you can answer this next one.,2018-09-08 02:21:34
+1895184847242752,Fangjie,Cao,15431,854518728062939,1895184847242752,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-09-08 02:21:34
+1895184847242752,Fangjie,Cao,15432,854518728062939,1895184847242752,BOT: quick reply,How often should women perform a breast self-exam?,2018-09-08 02:21:35
+1895184847242752,Fangjie,Cao,15433,1895184847242752,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-08 02:21:43
+1895184847242752,Fangjie,Cao,15434,854518728062939,1895184847242752,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-09-08 02:21:44
+1895184847242752,Fangjie,Cao,15435,854518728062939,1895184847242752,BOT: quick reply,":keycap_1: quarterly
+:keycap_2: monthly
+:keycap_3: yearly
+:keycap_4: weekly
+",2018-09-08 02:21:44
+1895184847242752,Fangjie,Cao,15436,1895184847242752,854518728062939,user_quick_reply: BUTTON_AKB_monthly,:keycap_2:,2018-09-08 02:21:50
+1895184847242752,Fangjie,Cao,15437,854518728062939,1895184847242752,BOT: message,Great job getting the correct answer!,2018-09-08 02:21:51
+1895184847242752,Fangjie,Cao,15438,854518728062939,1895184847242752,BOT: quick reply,The correct answer is monthly.,2018-09-08 02:21:52
+1895184847242752,Fangjie,Cao,15439,1895184847242752,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-08 02:21:55
+1895184847242752,Fangjie,Cao,15440,854518728062939,1895184847242752,BOT: message,Let's see if you can get this one.,2018-09-08 02:21:56
+1895184847242752,Fangjie,Cao,15441,854518728062939,1895184847242752,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-09-08 02:21:57
+1895184847242752,Fangjie,Cao,15442,854518728062939,1895184847242752,BOT: quick reply,Most fungi get organic compounds from what?,2018-09-08 02:21:58
+1895184847242752,Fangjie,Cao,15443,1895184847242752,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-08 02:22:05
+1895184847242752,Fangjie,Cao,15444,854518728062939,1895184847242752,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-09-08 02:22:06
+1895184847242752,Fangjie,Cao,15445,854518728062939,1895184847242752,BOT: quick reply,":keycap_1: dead organisms
+:keycap_2: carnivorous organisms
+:keycap_3: inorganic material
+:keycap_4: living organisms
+",2018-09-08 02:22:06
+1895184847242752,Fangjie,Cao,15446,1895184847242752,854518728062939,user_quick_reply: BUTTON_DKB_living organisms,:keycap_4:,2018-09-08 02:22:14
+1895184847242752,Fangjie,Cao,15447,854518728062939,1895184847242752,BOT: message,"Oops, that is not correct. :disappointed_face:",2018-09-08 02:22:15
+1895184847242752,Fangjie,Cao,15448,854518728062939,1895184847242752,BOT: quick reply,The correct answer is dead organisms.,2018-09-08 02:22:16
+1895184847242752,Fangjie,Cao,15449,1895184847242752,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-08 02:22:22
+1895184847242752,Fangjie,Cao,15450,854518728062939,1895184847242752,BOT: message,See if you can answer this next one.,2018-09-08 02:22:23
+1895184847242752,Fangjie,Cao,15451,854518728062939,1895184847242752,BOT: quick reply,Most insects reproduce quickly and through what type of reproduction?,2018-09-08 02:22:23
+1895184847242752,Fangjie,Cao,15452,1895184847242752,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-08 02:22:32
+1895184847242752,Fangjie,Cao,15453,854518728062939,1895184847242752,BOT: message,Pick one of the following answers.,2018-09-08 02:22:32
+1895184847242752,Fangjie,Cao,15454,854518728062939,1895184847242752,BOT: quick reply,":keycap_1: asexual reproduction
+:keycap_2: spores
+:keycap_3: sexual reproduction
+:keycap_4: photosynthesis
+",2018-09-08 02:22:33
+1895184847242752,Fangjie,Cao,15455,1895184847242752,854518728062939,user_quick_reply: BUTTON_DKB_asexual reproduction,:keycap_1:,2018-09-08 02:23:53
+1895184847242752,Fangjie,Cao,15456,854518728062939,1895184847242752,BOT: message,That's not quite right. :disappointed_face:,2018-09-08 02:23:54
+1895184847242752,Fangjie,Cao,15457,854518728062939,1895184847242752,BOT: quick reply,The correct answer is sexual reproduction.,2018-09-08 02:23:55
+1895184847242752,Fangjie,Cao,15458,1895184847242752,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-08 02:24:02
+1895184847242752,Fangjie,Cao,15459,854518728062939,1895184847242752,BOT: message,What about this next question:,2018-09-08 02:24:03
+1895184847242752,Fangjie,Cao,15460,854518728062939,1895184847242752,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-09-08 02:24:04
+1895184847242752,Fangjie,Cao,15461,854518728062939,1895184847242752,BOT: quick reply,Nerve cells that sense touch are found mainly where?,2018-09-08 02:24:04
+1895184847242752,Fangjie,Cao,15462,1895184847242752,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-08 02:24:16
+1895184847242752,Fangjie,Cao,15463,854518728062939,1895184847242752,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-09-08 02:24:17
+1895184847242752,Fangjie,Cao,15464,854518728062939,1895184847242752,BOT: quick reply,":keycap_1: lungs
+:keycap_2: skin
+:keycap_3: stomach
+:keycap_4: brain
+",2018-09-08 02:24:18
+1895184847242752,Fangjie,Cao,15465,1895184847242752,854518728062939,user_quick_reply: BUTTON_AKB_skin,:keycap_2:,2018-09-08 02:24:38
+1895184847242752,Fangjie,Cao,15466,854518728062939,1895184847242752,BOT: message,Nice work! Keep it up!,2018-09-08 02:24:39
+1895184847242752,Fangjie,Cao,15467,854518728062939,1895184847242752,BOT: quick reply,The correct answer is skin.,2018-09-08 02:24:40
+1895184847242752,Fangjie,Cao,15468,1895184847242752,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-08 02:24:45
+1895184847242752,Fangjie,Cao,15469,854518728062939,1895184847242752,BOT: message,"Alrighty, let's try this one.",2018-09-08 02:24:46
+1895184847242752,Fangjie,Cao,15470,854518728062939,1895184847242752,BOT: quick reply,"Temperature, water, soil, and air are examples of nonliving factors of an ecosystem, also termed what?",2018-09-08 02:24:46
+1895184847242752,Fangjie,Cao,15471,1895184847242752,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-08 02:24:56
+1895184847242752,Fangjie,Cao,15472,854518728062939,1895184847242752,BOT: message,Pick one of the following answers.,2018-09-08 02:24:57
+1895184847242752,Fangjie,Cao,15473,854518728062939,1895184847242752,BOT: quick reply,":keycap_1: nucleic factors
+:keycap_2: conditional factors
+:keycap_3: abiotic factors
+:keycap_4: diverse factors
+",2018-09-08 02:24:58
+1895184847242752,Fangjie,Cao,15474,1895184847242752,854518728062939,user_quick_reply: BUTTON_AKB_abiotic factors,:keycap_3:,2018-09-08 02:25:11
+1895184847242752,Fangjie,Cao,15475,854518728062939,1895184847242752,BOT: message,Great job!,2018-09-08 02:25:12
+1895184847242752,Fangjie,Cao,15476,854518728062939,1895184847242752,BOT: quick reply,The correct answer is abiotic factors.,2018-09-08 02:25:12
+1895184847242752,Fangjie,Cao,15477,1895184847242752,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-08 02:25:16
+1895184847242752,Fangjie,Cao,15478,854518728062939,1895184847242752,BOT: message,Let's see if you would answer this one.,2018-09-08 02:25:17
+1895184847242752,Fangjie,Cao,15479,854518728062939,1895184847242752,BOT: quick reply,The electrode at which oxidation occurs is called the what?,2018-09-08 02:25:17
+1895184847242752,Fangjie,Cao,15480,1895184847242752,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-08 02:25:30
+1895184847242752,Fangjie,Cao,15481,854518728062939,1895184847242752,BOT: message,It's one of the following choices.,2018-09-08 02:25:31
+1895184847242752,Fangjie,Cao,15482,854518728062939,1895184847242752,BOT: quick reply,":keycap_1: anode
+:keycap_2: diode
+:keycap_3: cathode
+:keycap_4: calomel
+",2018-09-08 02:25:31
+1895184847242752,Fangjie,Cao,15486,1895184847242752,854518728062939,user_quick_reply: BUTTON_DKB_cathode,:keycap_3:,2018-09-08 02:25:50
+1895184847242752,Fangjie,Cao,15488,854518728062939,1895184847242752,BOT: message,That's not quite right. :disappointed_face:,2018-09-08 02:25:51
+1895184847242752,Fangjie,Cao,15490,854518728062939,1895184847242752,BOT: quick reply,The correct answer is anode.,2018-09-08 02:25:52
+1895184847242752,Fangjie,Cao,15504,1895184847242752,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-08 02:26:23
+1895184847242752,Fangjie,Cao,15505,854518728062939,1895184847242752,BOT: message,Let's see if you can answer this question.,2018-09-08 02:26:24
+1895184847242752,Fangjie,Cao,15506,854518728062939,1895184847242752,BOT: quick reply,The lithosphere is divided into a dozen major and several minor what?,2018-09-08 02:26:24
+1895184847242752,Fangjie,Cao,15513,1895184847242752,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-08 02:26:38
+1895184847242752,Fangjie,Cao,15514,854518728062939,1895184847242752,BOT: message,It's one of the following choices.,2018-09-08 02:26:39
+1895184847242752,Fangjie,Cao,15515,854518728062939,1895184847242752,BOT: quick reply,":keycap_1: faults
+:keycap_2: crystals
+:keycap_3: zones
+:keycap_4: plates
+",2018-09-08 02:26:39
+1895184847242752,Fangjie,Cao,15522,1895184847242752,854518728062939,user_quick_reply: BUTTON_DKB_crystals,:keycap_2:,2018-09-08 02:26:46
+1895184847242752,Fangjie,Cao,15524,854518728062939,1895184847242752,BOT: message,"Hmm, that wasn't quite right. :disappointed_face:",2018-09-08 02:26:47
+1895184847242752,Fangjie,Cao,15525,854518728062939,1895184847242752,BOT: quick reply,The correct answer is plates.,2018-09-08 02:26:48
+1895184847242752,Fangjie,Cao,15552,1895184847242752,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-08 02:27:20
+1895184847242752,Fangjie,Cao,15554,854518728062939,1895184847242752,BOT: message,Here's a question for you:,2018-09-08 02:27:20
+1895184847242752,Fangjie,Cao,15556,854518728062939,1895184847242752,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-09-08 02:27:21
+1895184847242752,Fangjie,Cao,15557,854518728062939,1895184847242752,BOT: quick reply,What are by far the most common type of invertebrate?,2018-09-08 02:27:22
+1895184847242752,Fangjie,Cao,15563,1895184847242752,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-08 02:27:29
+1895184847242752,Fangjie,Cao,15565,854518728062939,1895184847242752,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-09-08 02:27:29
+1895184847242752,Fangjie,Cao,15566,854518728062939,1895184847242752,BOT: quick reply,":keycap_1: corals
+:keycap_2: spiders
+:keycap_3: crustaceans
+:keycap_4: insects
+",2018-09-08 02:27:30
+1895184847242752,Fangjie,Cao,15612,1895184847242752,854518728062939,user_quick_reply: BUTTON_DKB_crustaceans,:keycap_3:,2018-09-08 02:28:22
+1895184847242752,Fangjie,Cao,15613,854518728062939,1895184847242752,BOT: message,That's not quite right. :disappointed_face:,2018-09-08 02:28:22
+1895184847242752,Fangjie,Cao,15615,854518728062939,1895184847242752,BOT: quick reply,The correct answer is insects.,2018-09-08 02:28:23
+1895184847242752,Fangjie,Cao,15626,1895184847242752,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-08 02:28:38
+1895184847242752,Fangjie,Cao,15629,854518728062939,1895184847242752,BOT: message,Let's try this one.,2018-09-08 02:28:39
+1895184847242752,Fangjie,Cao,15631,854518728062939,1895184847242752,BOT: quick reply,What are the little sacs at the end of the bronchioles called?,2018-09-08 02:28:40
+1895184847242752,Fangjie,Cao,15641,1895184847242752,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-08 02:28:51
+1895184847242752,Fangjie,Cao,15642,854518728062939,1895184847242752,BOT: message,Pick one of the following answers.,2018-09-08 02:28:52
+1895184847242752,Fangjie,Cao,15643,854518728062939,1895184847242752,BOT: quick reply,":keycap_1: lung
+:keycap_2: alveoli
+:keycap_3: respiratory sacs
+:keycap_4: ganglion
+",2018-09-08 02:28:53
+1895184847242752,Fangjie,Cao,15665,1895184847242752,854518728062939,user_quick_reply: BUTTON_DKB_respiratory sacs,:keycap_3:,2018-09-08 02:29:17
+1895184847242752,Fangjie,Cao,15667,854518728062939,1895184847242752,BOT: message,"Hmm, that wasn't quite right. :disappointed_face:",2018-09-08 02:29:18
+1895184847242752,Fangjie,Cao,15670,854518728062939,1895184847242752,BOT: quick reply,The correct answer is alveoli.,2018-09-08 02:29:19
+1895184847242752,Fangjie,Cao,15726,1895184847242752,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-08 02:30:24
+1895184847242752,Fangjie,Cao,15727,854518728062939,1895184847242752,BOT: message,What about this next question:,2018-09-08 02:30:24
+1895184847242752,Fangjie,Cao,15728,854518728062939,1895184847242752,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-09-08 02:30:25
+1895184847242752,Fangjie,Cao,15729,854518728062939,1895184847242752,BOT: quick reply,"What arises due to crossing over, independent assortment, and the random union of gametes?",2018-09-08 02:30:25
+1895184847242752,Fangjie,Cao,15747,1895184847242752,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-08 02:30:48
+1895184847242752,Fangjie,Cao,15748,854518728062939,1895184847242752,BOT: message,Which of the following options is the right answer?,2018-09-08 02:30:48
+1895184847242752,Fangjie,Cao,15749,854518728062939,1895184847242752,BOT: quick reply,":keycap_1: alternative variation
+:keycap_2: genetic variation
+:keycap_3: recessive variation
+:keycap_4: susceptible variation
+",2018-09-08 02:30:49
+1895184847242752,Fangjie,Cao,15779,1895184847242752,854518728062939,user_quick_reply: BUTTON_AKB_genetic variation,:keycap_2:,2018-09-08 02:31:17
+1895184847242752,Fangjie,Cao,15780,854518728062939,1895184847242752,BOT: message,Nice! That was right!,2018-09-08 02:31:18
+1895184847242752,Fangjie,Cao,15781,854518728062939,1895184847242752,BOT: quick reply,The correct answer is genetic variation.,2018-09-08 02:31:18
+1895184847242752,Fangjie,Cao,15786,1895184847242752,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-08 02:31:26
+1895184847242752,Fangjie,Cao,15788,854518728062939,1895184847242752,BOT: message,Let's see if you can answer this question.,2018-09-08 02:31:26
+1895184847242752,Fangjie,Cao,15790,854518728062939,1895184847242752,BOT: quick reply,What disease characterized by the extreme swelling of the limbs is caused by infection with a type of roundworm?,2018-09-08 02:31:27
+1895184847242752,Fangjie,Cao,15799,1895184847242752,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-08 02:31:41
+1895184847242752,Fangjie,Cao,15800,854518728062939,1895184847242752,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-09-08 02:31:42
+1895184847242752,Fangjie,Cao,15802,854518728062939,1895184847242752,BOT: quick reply,":keycap_1: fibrosis
+:keycap_2: pulmonary edema
+:keycap_3: elephantiasis
+:keycap_4: gigantism
+",2018-09-08 02:31:43
+1895184847242752,Fangjie,Cao,15816,1895184847242752,854518728062939,user_quick_reply: BUTTON_DKB_pulmonary edema,:keycap_2:,2018-09-08 02:32:01
+1895184847242752,Fangjie,Cao,15818,854518728062939,1895184847242752,BOT: message,That's not quite right. :disappointed_face:,2018-09-08 02:32:02
+1895184847242752,Fangjie,Cao,15820,854518728062939,1895184847242752,BOT: quick reply,The correct answer is elephantiasis.,2018-09-08 02:32:03
+1895184847242752,Fangjie,Cao,15929,1895184847242752,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-08 02:36:50
+1895184847242752,Fangjie,Cao,15930,854518728062939,1895184847242752,BOT: message,Could you answer this one for me?,2018-09-08 02:36:52
+1895184847242752,Fangjie,Cao,15931,854518728062939,1895184847242752,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-09-08 02:36:52
+1895184847242752,Fangjie,Cao,15932,854518728062939,1895184847242752,BOT: quick reply,What is the diffusion of water through a semipermeable membrane down its concentration gradient?,2018-09-08 02:36:53
+1895184847242752,Fangjie,Cao,15933,1895184847242752,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-08 02:37:07
+1895184847242752,Fangjie,Cao,15934,854518728062939,1895184847242752,BOT: message,It's one of the following choices.,2018-09-08 02:37:08
+1895184847242752,Fangjie,Cao,15935,854518728062939,1895184847242752,BOT: quick reply,":keycap_1: permable
+:keycap_2: nutrients
+:keycap_3: osmosis
+:keycap_4: mirrors
+",2018-09-08 02:37:08
+1895184847242752,Fangjie,Cao,15936,1895184847242752,854518728062939,user_quick_reply: BUTTON_DKB_nutrients,:keycap_2:,2018-09-08 02:37:15
+1895184847242752,Fangjie,Cao,15937,854518728062939,1895184847242752,BOT: message,That's not quite right. :disappointed_face:,2018-09-08 02:37:15
+1895184847242752,Fangjie,Cao,15938,854518728062939,1895184847242752,BOT: quick reply,The correct answer is osmosis.,2018-09-08 02:37:17
+1895184847242752,Fangjie,Cao,15939,1895184847242752,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-08 02:37:52
+1895184847242752,Fangjie,Cao,15940,854518728062939,1895184847242752,BOT: message,Would you answer this question for me?,2018-09-08 02:37:52
+1895184847242752,Fangjie,Cao,15941,854518728062939,1895184847242752,BOT: quick reply,What kind of viscosity is found in long-chain hydrocarbons?,2018-09-08 02:37:53
+1895184847242752,Fangjie,Cao,15942,1895184847242752,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-08 02:38:02
+1895184847242752,Fangjie,Cao,15943,854518728062939,1895184847242752,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-09-08 02:38:03
+1895184847242752,Fangjie,Cao,15944,854518728062939,1895184847242752,BOT: quick reply,":keycap_1: increased viscosity
+:keycap_2: high viscosity
+:keycap_3: low viscosity
+:keycap_4: intense viscosity
+",2018-09-08 02:38:04
+1895184847242752,Fangjie,Cao,15945,1895184847242752,854518728062939,user_quick_reply: BUTTON_AKB_high viscosity,:keycap_2:,2018-09-08 02:38:13
+1895184847242752,Fangjie,Cao,15946,854518728062939,1895184847242752,BOT: message,Great job!,2018-09-08 02:38:14
+1895184847242752,Fangjie,Cao,15947,854518728062939,1895184847242752,BOT: quick reply,The correct answer is high viscosity.,2018-09-08 02:38:15
+1895184847242752,Fangjie,Cao,15948,1895184847242752,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-08 02:38:18
+1895184847242752,Fangjie,Cao,15949,854518728062939,1895184847242752,BOT: message,Could you answer this one for me?,2018-09-08 02:38:19
+1895184847242752,Fangjie,Cao,15950,854518728062939,1895184847242752,BOT: quick reply,What living species of bird is considered the largest of the raptors?,2018-09-08 02:38:20
+1895184847242752,Fangjie,Cao,15951,1895184847242752,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-08 02:38:29
+1895184847242752,Fangjie,Cao,15952,854518728062939,1895184847242752,BOT: message,Okay. I'll give you some choices.,2018-09-08 02:38:29
+1895184847242752,Fangjie,Cao,15953,854518728062939,1895184847242752,BOT: quick reply,":keycap_1: golden eagles
+:keycap_2: California condor
+:keycap_3: peregrine falcon
+:keycap_4: pterodactyl
+",2018-09-08 02:38:30
+1895184847242752,Fangjie,Cao,15954,1895184847242752,854518728062939,user_quick_reply: BUTTON_AKB_golden eagles,:keycap_1:,2018-09-08 02:38:37
+1895184847242752,Fangjie,Cao,15955,854518728062939,1895184847242752,BOT: image,https://www.smartprimer.ai:4443/pictures/avatar/congrats/penguinnormal_jubilated_purple.png,2018-09-08 02:38:39
+1895184847242752,Fangjie,Cao,15956,854518728062939,1895184847242752,BOT: message,Nice! That was right!,2018-09-08 02:38:40
+1895184847242752,Fangjie,Cao,15957,854518728062939,1895184847242752,BOT: quick reply,The correct answer is golden eagles.,2018-09-08 02:38:40
+1895184847242752,Fangjie,Cao,15958,1895184847242752,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-08 02:38:49
+1895184847242752,Fangjie,Cao,15959,854518728062939,1895184847242752,BOT: message,How about this next one:,2018-09-08 02:38:50
+1895184847242752,Fangjie,Cao,15960,854518728062939,1895184847242752,BOT: quick reply,What opens two strands of DNA?,2018-09-08 02:38:51
+1895184847242752,Fangjie,Cao,15961,1895184847242752,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-08 02:38:58
+1895184847242752,Fangjie,Cao,15962,854518728062939,1895184847242752,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-09-08 02:38:59
+1895184847242752,Fangjie,Cao,15963,854518728062939,1895184847242752,BOT: quick reply,":keycap_1: chromosome
+:keycap_2: helicase
+:keycap_3: adenylate
+:keycap_4: replication
+",2018-09-08 02:38:59
+1895184847242752,Fangjie,Cao,15964,1895184847242752,854518728062939,user_quick_reply: BUTTON_AKB_helicase,:keycap_2:,2018-09-08 02:39:05
+1895184847242752,Fangjie,Cao,15965,854518728062939,1895184847242752,BOT: image,https://www.smartprimer.ai:4443/pictures/avatar/congrats/penguinnormal_happy_cyan.png,2018-09-08 02:39:07
+1895184847242752,Fangjie,Cao,15966,854518728062939,1895184847242752,BOT: message,Yes! You got the correct answer!,2018-09-08 02:39:08
+1895184847242752,Fangjie,Cao,15967,854518728062939,1895184847242752,BOT: quick reply,The correct answer is helicase.,2018-09-08 02:39:09
+1895184847242752,Fangjie,Cao,15968,1895184847242752,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-08 02:39:16
+1895184847242752,Fangjie,Cao,15969,854518728062939,1895184847242752,BOT: message,See if you can answer this next one.,2018-09-08 02:39:17
+1895184847242752,Fangjie,Cao,15970,854518728062939,1895184847242752,BOT: quick reply,"When your brain senses that your body temperature is increasing, it sends messages to the blood vessels in the skin to increase in what?",2018-09-08 02:39:17
+1895184847242752,Fangjie,Cao,15971,1895184847242752,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-08 02:39:27
+1895184847242752,Fangjie,Cao,15972,854518728062939,1895184847242752,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-09-08 02:39:28
+1895184847242752,Fangjie,Cao,15973,854518728062939,1895184847242752,BOT: quick reply,":keycap_1: diameter
+:keycap_2: height
+:keycap_3: weight
+:keycap_4: surface
+",2018-09-08 02:39:28
+1895184847242752,Fangjie,Cao,15975,1895184847242752,854518728062939,user_quick_reply: BUTTON_AKB_diameter,:keycap_1:,2018-09-08 02:39:34
+1895184847242752,Fangjie,Cao,15978,854518728062939,1895184847242752,BOT: image,https://www.smartprimer.ai:4443/pictures/avatar/congrats/penguinnormal_jubilated_purple.png,2018-09-08 02:39:36
+1895184847242752,Fangjie,Cao,15979,854518728062939,1895184847242752,BOT: message,Great job getting the correct answer!,2018-09-08 02:39:36
+1895184847242752,Fangjie,Cao,15980,854518728062939,1895184847242752,BOT: quick reply,The correct answer is diameter.,2018-09-08 02:39:37
+1895184847242752,Fangjie,Cao,15981,1895184847242752,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-08 02:39:41
+1895184847242752,Fangjie,Cao,15982,854518728062939,1895184847242752,BOT: message,Would you answer this question for me?,2018-09-08 02:39:42
+1895184847242752,Fangjie,Cao,15983,854518728062939,1895184847242752,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-09-08 02:39:43
+1895184847242752,Fangjie,Cao,15985,854518728062939,1895184847242752,BOT: quick reply,How often should women perform a breast self-exam?,2018-09-08 02:39:43
+1895184847242752,Fangjie,Cao,15992,1895184847242752,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-08 02:40:01
+1895184847242752,Fangjie,Cao,15993,854518728062939,1895184847242752,BOT: message,It's one of the following choices.,2018-09-08 02:40:02
+1895184847242752,Fangjie,Cao,15995,854518728062939,1895184847242752,BOT: quick reply,":keycap_1: yearly
+:keycap_2: weekly
+:keycap_3: quarterly
+:keycap_4: monthly
+",2018-09-08 02:40:02
+1895184847242752,Fangjie,Cao,16000,1895184847242752,854518728062939,user_quick_reply: BUTTON_AKB_monthly,:keycap_4:,2018-09-08 02:40:10
+1895184847242752,Fangjie,Cao,16001,854518728062939,1895184847242752,BOT: image,https://www.smartprimer.ai:4443/pictures/avatar/celebration.gif,2018-09-08 02:40:16
+1895184847242752,Fangjie,Cao,16002,854518728062939,1895184847242752,BOT: message,Nice work! Keep it up!,2018-09-08 02:40:17
+1895184847242752,Fangjie,Cao,16004,854518728062939,1895184847242752,BOT: quick reply,The correct answer is monthly.,2018-09-08 02:40:17
+1895184847242752,Fangjie,Cao,16008,1895184847242752,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-08 02:40:24
+1895184847242752,Fangjie,Cao,16010,854518728062939,1895184847242752,BOT: quick reply,"Nice job! You've practiced enough questions today. Please come back tomorrow and click on ""Resume Learning :flexed_biceps_medium-light_skin_tone:"" for another practice session.",2018-09-08 02:40:25
+1895184847242752,Fangjie,Cao,19358,854518728062939,1895184847242752,BOT: quick reply,"Hi Fangjie, remember to practice some questions with me if you haven't finished your session today!",2018-09-08 20:00:10

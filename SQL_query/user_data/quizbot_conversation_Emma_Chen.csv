@@ -253,3 +253,315 @@ user_id,user_firstname,user_lastname,uid,sender,recipient,type,dialogue,time_sta
 1808229782565732,Emma,Chen,8418,1808229782565732,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-07 00:57:34
 1808229782565732,Emma,Chen,8419,854518728062939,1808229782565732,BOT: quick reply,"Nice job! You've practiced enough questions today. Please come back tomorrow and click on ""Resume Learning :flexed_biceps_medium-light_skin_tone:"" for another practice session.",2018-09-07 00:57:34
 1808229782565732,Emma,Chen,12586,854518728062939,1808229782565732,BOT: quick reply,"Hi Emma, remember to practice some questions with me if you haven't finished your session today!",2018-09-07 20:00:04
+1808229782565732,Emma,Chen,15056,1808229782565732,854518728062939,persistent_menu: SAFETY,Safety:hammer_and_wrench:,2018-09-08 01:50:58
+1808229782565732,Emma,Chen,15057,854518728062939,1808229782565732,BOT: image,https://www.smartprimer.ai:4443/pictures/avatar/evolvescientist_safety.gif,2018-09-08 01:51:02
+1808229782565732,Emma,Chen,15058,854518728062939,1808229782565732,BOT: quick reply,Good choice! Let's see what you know about safety!,2018-09-08 01:51:02
+1808229782565732,Emma,Chen,15059,1808229782565732,854518728062939,user_quick_reply: NEXT_QUESTION,Okay :backhand_index_pointing_right_medium-light_skin_tone:,2018-09-08 01:51:07
+1808229782565732,Emma,Chen,15060,854518728062939,1808229782565732,BOT: quick reply,"Nice job! You've practiced enough questions today. Please come back tomorrow and click on ""Resume Learning :flexed_biceps_medium-light_skin_tone:"" for another practice session.",2018-09-08 01:51:07
+1808229782565732,Emma,Chen,16014,1808229782565732,854518728062939,persistent_menu: RANDOM,Random :game_die:,2018-09-08 02:41:28
+1808229782565732,Emma,Chen,16015,854518728062939,1808229782565732,BOT: image,https://www.smartprimer.ai:4443/pictures/avatar/evolvesafety_normal.gif,2018-09-08 02:41:31
+1808229782565732,Emma,Chen,16016,854518728062939,1808229782565732,BOT: quick reply,Nice! Enjoy a little variety? Let's answer some questions! :game_die:,2018-09-08 02:41:32
+1808229782565732,Emma,Chen,16034,1808229782565732,854518728062939,user_quick_reply: NEXT_QUESTION,"Yes, continue :clapping_hands_medium-light_skin_tone:",2018-09-08 02:50:25
+1808229782565732,Emma,Chen,16035,854518728062939,1808229782565732,BOT: message,Let's see if you can get this one.,2018-09-08 02:50:25
+1808229782565732,Emma,Chen,16036,854518728062939,1808229782565732,BOT: quick reply,"Although John F. Kennedy was known for his carefree flag football games, Gerald Ford should be _____ as our football president: he turned down offers to play for two National Football League teams in order to pursue a career in public service.",2018-09-08 02:50:27
+1808229782565732,Emma,Chen,16037,1808229782565732,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-08 02:50:37
+1808229782565732,Emma,Chen,16038,854518728062939,1808229782565732,BOT: message,Pick one of the following answers.,2018-09-08 02:50:38
+1808229782565732,Emma,Chen,16039,854518728062939,1808229782565732,BOT: quick reply,":keycap_1: abrogated
+:keycap_2: criticized
+:keycap_3: apotheosized
+:keycap_4: annulled
+:keycap_5: relegated
+",2018-09-08 02:50:39
+1808229782565732,Emma,Chen,16040,1808229782565732,854518728062939,user_quick_reply: BUTTON_AKB_apotheosized,:keycap_3:,2018-09-08 02:51:45
+1808229782565732,Emma,Chen,16041,854518728062939,1808229782565732,BOT: message,Nice work! Keep it up!,2018-09-08 02:51:46
+1808229782565732,Emma,Chen,16042,854518728062939,1808229782565732,BOT: quick reply,The correct answer is apotheosized.,2018-09-08 02:51:47
+1808229782565732,Emma,Chen,16043,1808229782565732,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-08 02:51:51
+1808229782565732,Emma,Chen,16044,854518728062939,1808229782565732,BOT: message,See if you can answer this next one.,2018-09-08 02:51:52
+1808229782565732,Emma,Chen,16045,854518728062939,1808229782565732,BOT: quick reply,"Despite the smile that spread from ear to ear, the eyes relayed a certain _____ .",2018-09-08 02:51:53
+1808229782565732,Emma,Chen,16048,1808229782565732,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-08 02:52:00
+1808229782565732,Emma,Chen,16049,854518728062939,1808229782565732,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-09-08 02:52:00
+1808229782565732,Emma,Chen,16050,854518728062939,1808229782565732,BOT: quick reply,":keycap_1: mischievousness
+:keycap_2: jubilance
+:keycap_3: sorrow
+:keycap_4: vision
+:keycap_5: liveliness
+",2018-09-08 02:52:01
+1808229782565732,Emma,Chen,16065,1808229782565732,854518728062939,user_quick_reply: BUTTON_DKB_jubilance,:keycap_2:,2018-09-08 02:52:49
+1808229782565732,Emma,Chen,16066,854518728062939,1808229782565732,BOT: message,"Hmm, that wasn't quite right. :disappointed_face:",2018-09-08 02:52:50
+1808229782565732,Emma,Chen,16067,854518728062939,1808229782565732,BOT: quick reply,The correct answer is sorrow.,2018-09-08 02:52:50
+1808229782565732,Emma,Chen,16070,1808229782565732,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-08 02:52:54
+1808229782565732,Emma,Chen,16072,854518728062939,1808229782565732,BOT: message,Let's take a look at this question.,2018-09-08 02:52:55
+1808229782565732,Emma,Chen,16074,854518728062939,1808229782565732,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-09-08 02:52:55
+1808229782565732,Emma,Chen,16075,854518728062939,1808229782565732,BOT: quick reply,"Dolly Madison, the wife of President James Madison, was known especially for her _____ , remaining calm even as the British invaded Washington D.C. during the War of 1812.",2018-09-08 02:52:56
+1808229782565732,Emma,Chen,16076,1808229782565732,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-08 02:53:02
+1808229782565732,Emma,Chen,16077,854518728062939,1808229782565732,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-09-08 02:53:02
+1808229782565732,Emma,Chen,16078,854518728062939,1808229782565732,BOT: quick reply,":keycap_1: impracticality
+:keycap_2: equanimity
+:keycap_3: cynicism
+:keycap_4: malevolence
+:keycap_5: zeal
+",2018-09-08 02:53:03
+1808229782565732,Emma,Chen,16086,1808229782565732,854518728062939,user_quick_reply: BUTTON_AKB_equanimity,:keycap_2:,2018-09-08 02:53:14
+1808229782565732,Emma,Chen,16087,854518728062939,1808229782565732,BOT: image,https://www.smartprimer.ai:4443/pictures/avatar/congrats/penguinnormal_happy_cyan.png,2018-09-08 02:53:16
+1808229782565732,Emma,Chen,16088,854518728062939,1808229782565732,BOT: message,Great! Keep it up! :flexed_biceps_medium-light_skin_tone:,2018-09-08 02:53:17
+1808229782565732,Emma,Chen,16089,854518728062939,1808229782565732,BOT: quick reply,The correct answer is equanimity.,2018-09-08 02:53:18
+1808229782565732,Emma,Chen,16090,1808229782565732,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-08 02:53:21
+1808229782565732,Emma,Chen,16092,854518728062939,1808229782565732,BOT: message,Let's see if you would answer this one.,2018-09-08 02:53:21
+1808229782565732,Emma,Chen,16093,854518728062939,1808229782565732,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-09-08 02:53:22
+1808229782565732,Emma,Chen,16095,854518728062939,1808229782565732,BOT: quick reply,"Even though legislators claimed the Contagious Diseases Acts strengthened the nation, social purists argued the Acts _____ the nation's moral growth by encouraging licentious behavior.",2018-09-08 02:53:23
+1808229782565732,Emma,Chen,16098,1808229782565732,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-08 02:53:27
+1808229782565732,Emma,Chen,16100,854518728062939,1808229782565732,BOT: message,It's one of the following choices.,2018-09-08 02:53:28
+1808229782565732,Emma,Chen,16102,854518728062939,1808229782565732,BOT: quick reply,":keycap_1: advanced
+:keycap_2: ameliorated
+:keycap_3: supplanted
+:keycap_4: enhanced
+:keycap_5: hampered
+",2018-09-08 02:53:28
+1808229782565732,Emma,Chen,16114,1808229782565732,854518728062939,user_quick_reply: BUTTON_AKB_hampered,:keycap_5:,2018-09-08 02:54:06
+1808229782565732,Emma,Chen,16116,854518728062939,1808229782565732,BOT: message,Great! Keep it up! :flexed_biceps_medium-light_skin_tone:,2018-09-08 02:54:07
+1808229782565732,Emma,Chen,16117,854518728062939,1808229782565732,BOT: quick reply,The correct answer is hampered.,2018-09-08 02:54:07
+1808229782565732,Emma,Chen,16120,1808229782565732,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-08 02:54:17
+1808229782565732,Emma,Chen,16121,854518728062939,1808229782565732,BOT: message,Let's see if you can answer this question.,2018-09-08 02:54:17
+1808229782565732,Emma,Chen,16122,854518728062939,1808229782565732,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-09-08 02:54:18
+1808229782565732,Emma,Chen,16123,854518728062939,1808229782565732,BOT: quick reply,What should you NOT do when lowering a load?,2018-09-08 02:54:19
+1808229782565732,Emma,Chen,16127,1808229782565732,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-08 02:54:25
+1808229782565732,Emma,Chen,16128,854518728062939,1808229782565732,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-09-08 02:54:26
+1808229782565732,Emma,Chen,16129,854518728062939,1808229782565732,BOT: quick reply,":keycap_1: Bend your knees
+:keycap_2: Twist your body, keep the load close, and bend your knees
+:keycap_3: Keep the load close to your body
+:keycap_4: Twist your body
+",2018-09-08 02:54:27
+1808229782565732,Emma,Chen,16142,1808229782565732,854518728062939,"user_quick_reply: BUTTON_DKB_Twist your body, keep the load close, and bend your knees",:keycap_2:,2018-09-08 02:55:14
+1808229782565732,Emma,Chen,16143,854518728062939,1808229782565732,BOT: message,"I'm sorry, but that was incorrect. :disappointed_face:",2018-09-08 02:55:14
+1808229782565732,Emma,Chen,16144,854518728062939,1808229782565732,BOT: quick reply,The correct answer is Twist your body.,2018-09-08 02:55:15
+1808229782565732,Emma,Chen,16145,1808229782565732,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-08 02:55:26
+1808229782565732,Emma,Chen,16146,854518728062939,1808229782565732,BOT: message,Let's see if you would answer this one.,2018-09-08 02:55:27
+1808229782565732,Emma,Chen,16147,854518728062939,1808229782565732,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-09-08 02:55:27
+1808229782565732,Emma,Chen,16148,854518728062939,1808229782565732,BOT: quick reply,"Having squandered his life's savings on unprofitable business ventures, the _____ entrepreneur was forced to live in squalor.",2018-09-08 02:55:28
+1808229782565732,Emma,Chen,16149,1808229782565732,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-08 02:55:37
+1808229782565732,Emma,Chen,16150,854518728062939,1808229782565732,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-09-08 02:55:37
+1808229782565732,Emma,Chen,16151,854518728062939,1808229782565732,BOT: quick reply,":keycap_1: insolvent
+:keycap_2: eccentric
+:keycap_3: perturbed
+:keycap_4: unlikely
+:keycap_5: former
+",2018-09-08 02:55:38
+1808229782565732,Emma,Chen,16152,1808229782565732,854518728062939,user_quick_reply: BUTTON_AKB_insolvent,:keycap_1:,2018-09-08 02:55:44
+1808229782565732,Emma,Chen,16153,854518728062939,1808229782565732,BOT: image,https://www.smartprimer.ai:4443/pictures/avatar/congrats/penguinnormal_jubilated_cyan.png,2018-09-08 02:55:46
+1808229782565732,Emma,Chen,16154,854518728062939,1808229782565732,BOT: message,Yes! You got the correct answer!,2018-09-08 02:55:46
+1808229782565732,Emma,Chen,16155,854518728062939,1808229782565732,BOT: quick reply,The correct answer is insolvent.,2018-09-08 02:55:47
+1808229782565732,Emma,Chen,16156,1808229782565732,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-08 02:55:51
+1808229782565732,Emma,Chen,16157,854518728062939,1808229782565732,BOT: message,Could you answer this one for me?,2018-09-08 02:55:51
+1808229782565732,Emma,Chen,16158,854518728062939,1808229782565732,BOT: quick reply,"In psychological literature, the ""sleeper effect"" refers to the phenomenon in which a persuasive message from a trustworthy source loses _____ over time, while the efficacy of a message from a less credible source simultaneously increases.",2018-09-08 02:55:52
+1808229782565732,Emma,Chen,16159,1808229782565732,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-08 02:56:00
+1808229782565732,Emma,Chen,16160,854518728062939,1808229782565732,BOT: message,Okay. I'll give you some choices.,2018-09-08 02:56:00
+1808229782565732,Emma,Chen,16161,854518728062939,1808229782565732,BOT: quick reply,":keycap_1: cogency
+:keycap_2: evasiveness
+:keycap_3: prescience
+:keycap_4: erudition
+:keycap_5: control
+",2018-09-08 02:56:01
+1808229782565732,Emma,Chen,16165,1808229782565732,854518728062939,user_quick_reply: BUTTON_AKB_cogency,:keycap_1:,2018-09-08 02:56:51
+1808229782565732,Emma,Chen,16166,854518728062939,1808229782565732,BOT: message,Nice work! Keep it up!,2018-09-08 02:56:52
+1808229782565732,Emma,Chen,16167,854518728062939,1808229782565732,BOT: quick reply,The correct answer is cogency.,2018-09-08 02:56:53
+1808229782565732,Emma,Chen,16168,1808229782565732,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-08 02:56:55
+1808229782565732,Emma,Chen,16169,854518728062939,1808229782565732,BOT: message,Would you answer this question for me?,2018-09-08 02:56:56
+1808229782565732,Emma,Chen,16170,854518728062939,1808229782565732,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-09-08 02:56:57
+1808229782565732,Emma,Chen,16171,854518728062939,1808229782565732,BOT: quick reply,"Just as different people can have very different personalities, so too can pets - even those of the same species and breed possess varied _____ .",2018-09-08 02:56:58
+1808229782565732,Emma,Chen,16172,1808229782565732,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-08 02:57:04
+1808229782565732,Emma,Chen,16173,854518728062939,1808229782565732,BOT: message,It's one of the following choices.,2018-09-08 02:57:05
+1808229782565732,Emma,Chen,16175,854518728062939,1808229782565732,BOT: quick reply,":keycap_1: rationalizations
+:keycap_2: aptitudes
+:keycap_3: initiations
+:keycap_4: implementations
+:keycap_5: temperaments
+",2018-09-08 02:57:06
+1808229782565732,Emma,Chen,16181,1808229782565732,854518728062939,user_quick_reply: BUTTON_AKB_temperaments,:keycap_5:,2018-09-08 02:57:18
+1808229782565732,Emma,Chen,16182,854518728062939,1808229782565732,BOT: message,Great! Keep it up! :flexed_biceps_medium-light_skin_tone:,2018-09-08 02:57:18
+1808229782565732,Emma,Chen,16183,854518728062939,1808229782565732,BOT: quick reply,The correct answer is temperaments.,2018-09-08 02:57:19
+1808229782565732,Emma,Chen,16184,1808229782565732,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-08 02:57:23
+1808229782565732,Emma,Chen,16185,854518728062939,1808229782565732,BOT: message,Could you answer this one for me?,2018-09-08 02:57:24
+1808229782565732,Emma,Chen,16186,854518728062939,1808229782565732,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-09-08 02:57:24
+1808229782565732,Emma,Chen,16187,854518728062939,1808229782565732,BOT: quick reply,Many Major League Baseball relief pitchers choose an electrifying theme song to play as they take the mound; the song _____ their fans and instills fear in their opponents.,2018-09-08 02:57:25
+1808229782565732,Emma,Chen,16188,1808229782565732,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-08 02:57:31
+1808229782565732,Emma,Chen,16189,854518728062939,1808229782565732,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-09-08 02:57:31
+1808229782565732,Emma,Chen,16190,854518728062939,1808229782565732,BOT: quick reply,":keycap_1: eviscerates
+:keycap_2: pervades
+:keycap_3: assuages
+:keycap_4: innervates
+:keycap_5: enervates
+",2018-09-08 02:57:32
+1808229782565732,Emma,Chen,16204,1808229782565732,854518728062939,user_quick_reply: BUTTON_AKB_innervates,:keycap_4:,2018-09-08 02:58:33
+1808229782565732,Emma,Chen,16205,854518728062939,1808229782565732,BOT: message,Great job!,2018-09-08 02:58:34
+1808229782565732,Emma,Chen,16206,854518728062939,1808229782565732,BOT: quick reply,The correct answer is innervates.,2018-09-08 02:58:34
+1808229782565732,Emma,Chen,16207,1808229782565732,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-08 02:58:37
+1808229782565732,Emma,Chen,16208,854518728062939,1808229782565732,BOT: message,Let's take a look at this question.,2018-09-08 02:58:38
+1808229782565732,Emma,Chen,16209,854518728062939,1808229782565732,BOT: quick reply,"Many dog owners treat their pets too _____ , forgetting that canines have evolved in competitive environments in which emotional coddling was a sign of weakness.",2018-09-08 02:58:38
+1808229782565732,Emma,Chen,16210,1808229782565732,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-08 02:58:43
+1808229782565732,Emma,Chen,16212,854518728062939,1808229782565732,BOT: message,It's one of the following choices.,2018-09-08 02:58:44
+1808229782565732,Emma,Chen,16214,854518728062939,1808229782565732,BOT: quick reply,":keycap_1: belligerently
+:keycap_2: quixotically
+:keycap_3: indulgently
+:keycap_4: fortuitously
+:keycap_5: aggressively
+",2018-09-08 02:58:45
+1808229782565732,Emma,Chen,16216,1808229782565732,854518728062939,user_quick_reply: BUTTON_AKB_indulgently,:keycap_3:,2018-09-08 02:59:03
+1808229782565732,Emma,Chen,16217,854518728062939,1808229782565732,BOT: image,https://www.smartprimer.ai:4443/pictures/avatar/congrats/penguinnormal_jubilated_orange.png,2018-09-08 02:59:05
+1808229782565732,Emma,Chen,16218,854518728062939,1808229782565732,BOT: message,Yes! You got the correct answer!,2018-09-08 02:59:05
+1808229782565732,Emma,Chen,16219,854518728062939,1808229782565732,BOT: quick reply,The correct answer is indulgently.,2018-09-08 02:59:06
+1808229782565732,Emma,Chen,16220,1808229782565732,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-08 02:59:09
+1808229782565732,Emma,Chen,16221,854518728062939,1808229782565732,BOT: message,How about this next one:,2018-09-08 02:59:10
+1808229782565732,Emma,Chen,16222,854518728062939,1808229782565732,BOT: quick reply,"Modern tennis fans have come to realize that, although, quantum technological leaps in racquet technology have lead to _____ increases in the speed and power with which players can hit the ball, this has not necessarily lead to a more entertaining game.",2018-09-08 02:59:10
+1808229782565732,Emma,Chen,16223,1808229782565732,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-08 02:59:15
+1808229782565732,Emma,Chen,16224,854518728062939,1808229782565732,BOT: message,It's one of the following choices.,2018-09-08 02:59:16
+1808229782565732,Emma,Chen,16225,854518728062939,1808229782565732,BOT: quick reply,":keycap_1: tractable
+:keycap_2: commensurate
+:keycap_3: innocuous
+:keycap_4: halcyon
+:keycap_5: malleable
+",2018-09-08 02:59:17
+1808229782565732,Emma,Chen,16226,1808229782565732,854518728062939,user_quick_reply: BUTTON_AKB_commensurate,:keycap_2:,2018-09-08 02:59:22
+1808229782565732,Emma,Chen,16227,854518728062939,1808229782565732,BOT: image,https://www.smartprimer.ai:4443/pictures/avatar/congrats/penguinnormal_normal_purple.png,2018-09-08 02:59:25
+1808229782565732,Emma,Chen,16228,854518728062939,1808229782565732,BOT: message,Great job getting the correct answer!,2018-09-08 02:59:26
+1808229782565732,Emma,Chen,16229,854518728062939,1808229782565732,BOT: quick reply,The correct answer is commensurate.,2018-09-08 02:59:26
+1808229782565732,Emma,Chen,16230,1808229782565732,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-08 02:59:30
+1808229782565732,Emma,Chen,16231,854518728062939,1808229782565732,BOT: message,Would you answer this question for me?,2018-09-08 02:59:31
+1808229782565732,Emma,Chen,16232,854518728062939,1808229782565732,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-09-08 02:59:31
+1808229782565732,Emma,Chen,16233,854518728062939,1808229782565732,BOT: quick reply,Seth was extremely _____ and did not enjoy activities that required effort to meet new people.,2018-09-08 02:59:32
+1808229782565732,Emma,Chen,16234,1808229782565732,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-08 02:59:38
+1808229782565732,Emma,Chen,16235,854518728062939,1808229782565732,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-09-08 02:59:39
+1808229782565732,Emma,Chen,16236,854518728062939,1808229782565732,BOT: quick reply,":keycap_1: jaded
+:keycap_2: lackluster
+:keycap_3: introverted
+:keycap_4: gregarious
+:keycap_5: extroverted
+",2018-09-08 02:59:39
+1808229782565732,Emma,Chen,16237,1808229782565732,854518728062939,user_quick_reply: BUTTON_AKB_introverted,:keycap_3:,2018-09-08 02:59:48
+1808229782565732,Emma,Chen,16238,854518728062939,1808229782565732,BOT: image,https://www.smartprimer.ai:4443/pictures/avatar/congrats/penguinnormal_jubilated_cyan.png,2018-09-08 02:59:50
+1808229782565732,Emma,Chen,16239,854518728062939,1808229782565732,BOT: message,Great job!,2018-09-08 02:59:50
+1808229782565732,Emma,Chen,16240,854518728062939,1808229782565732,BOT: quick reply,The correct answer is introverted.,2018-09-08 02:59:51
+1808229782565732,Emma,Chen,16241,1808229782565732,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-08 02:59:54
+1808229782565732,Emma,Chen,16242,854518728062939,1808229782565732,BOT: message,Here's a question for you:,2018-09-08 02:59:55
+1808229782565732,Emma,Chen,16243,854518728062939,1808229782565732,BOT: quick reply,"Possessing few natural resources upon its newly-granted independence in 1863, Singapore remained economically _____ until an influx of industrialization and foreign investment took hold there.",2018-09-08 02:59:55
+1808229782565732,Emma,Chen,16244,1808229782565732,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-08 02:59:58
+1808229782565732,Emma,Chen,16245,854518728062939,1808229782565732,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-09-08 02:59:59
+1808229782565732,Emma,Chen,16246,854518728062939,1808229782565732,BOT: quick reply,":keycap_1: solvent
+:keycap_2: fortuitous
+:keycap_3: dubious
+:keycap_4: prosperous
+:keycap_5: powerful
+",2018-09-08 03:00:00
+1808229782565732,Emma,Chen,16247,1808229782565732,854518728062939,user_quick_reply: BUTTON_DKB_prosperous,:keycap_4:,2018-09-08 03:01:05
+1808229782565732,Emma,Chen,16248,854518728062939,1808229782565732,BOT: message,"I'm sorry, but that was incorrect. :disappointed_face:",2018-09-08 03:01:06
+1808229782565732,Emma,Chen,16249,854518728062939,1808229782565732,BOT: quick reply,The correct answer is dubious.,2018-09-08 03:01:07
+1808229782565732,Emma,Chen,16250,1808229782565732,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-08 03:01:11
+1808229782565732,Emma,Chen,16251,854518728062939,1808229782565732,BOT: message,Let's try this question.,2018-09-08 03:01:11
+1808229782565732,Emma,Chen,16252,854518728062939,1808229782565732,BOT: quick reply,"Prior to taking on the new invader, the defending army had engaged in arduous combat; it is likely that the _____ resulting from waging two battles in two days played a part in its subsequent defeat.",2018-09-08 03:01:12
+1808229782565732,Emma,Chen,16253,1808229782565732,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-08 03:01:16
+1808229782565732,Emma,Chen,16254,854518728062939,1808229782565732,BOT: message,Pick one of the following answers.,2018-09-08 03:01:17
+1808229782565732,Emma,Chen,16255,854518728062939,1808229782565732,BOT: quick reply,":keycap_1: aggravation
+:keycap_2: pugnacity
+:keycap_3: bellicosity
+:keycap_4: pacification
+:keycap_5: enervation
+",2018-09-08 03:01:17
+1808229782565732,Emma,Chen,16286,1808229782565732,854518728062939,user_quick_reply: BUTTON_DKB_bellicosity,:keycap_3:,2018-09-08 03:03:30
+1808229782565732,Emma,Chen,16288,854518728062939,1808229782565732,BOT: message,"Hmm, that wasn't quite right. :disappointed_face:",2018-09-08 03:03:30
+1808229782565732,Emma,Chen,16290,854518728062939,1808229782565732,BOT: quick reply,The correct answer is enervation.,2018-09-08 03:03:31
+1808229782565732,Emma,Chen,16295,1808229782565732,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-08 03:03:35
+1808229782565732,Emma,Chen,16296,854518728062939,1808229782565732,BOT: message,How about this next one:,2018-09-08 03:03:36
+1808229782565732,Emma,Chen,16297,854518728062939,1808229782565732,BOT: quick reply,The Erie Canal's completion caused _____ economic ripples; property values and industrial output along its route rose exponentially.,2018-09-08 03:03:36
+1808229782565732,Emma,Chen,16298,1808229782565732,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-08 03:03:40
+1808229782565732,Emma,Chen,16299,854518728062939,1808229782565732,BOT: message,It's one of the following choices.,2018-09-08 03:03:40
+1808229782565732,Emma,Chen,16300,854518728062939,1808229782565732,BOT: quick reply,":keycap_1: prodigious
+:keycap_2: invaluable
+:keycap_3: persistent
+:keycap_4: severe
+:keycap_5: incredulous
+",2018-09-08 03:03:41
+1808229782565732,Emma,Chen,16319,1808229782565732,854518728062939,user_quick_reply: BUTTON_AKB_prodigious,:keycap_1:,2018-09-08 03:04:35
+1808229782565732,Emma,Chen,16320,854518728062939,1808229782565732,BOT: message,Nice work! Keep it up!,2018-09-08 03:04:36
+1808229782565732,Emma,Chen,16321,854518728062939,1808229782565732,BOT: quick reply,The correct answer is prodigious.,2018-09-08 03:04:37
+1808229782565732,Emma,Chen,16322,1808229782565732,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-08 03:04:40
+1808229782565732,Emma,Chen,16323,854518728062939,1808229782565732,BOT: message,Could you answer this one for me?,2018-09-08 03:04:40
+1808229782565732,Emma,Chen,16324,854518728062939,1808229782565732,BOT: quick reply,While she may have answered him truthfully - in the strictest sense of the word - it became clear to Sergei after the incident that Sheryl had actually been trying to _____ .,2018-09-08 03:04:41
+1808229782565732,Emma,Chen,16331,1808229782565732,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-08 03:04:45
+1808229782565732,Emma,Chen,16332,854518728062939,1808229782565732,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-09-08 03:04:46
+1808229782565732,Emma,Chen,16333,854518728062939,1808229782565732,BOT: quick reply,":keycap_1: covet
+:keycap_2: desiccate
+:keycap_3: illuminate
+:keycap_4: obfuscate
+:keycap_5: vituperate
+",2018-09-08 03:04:47
+1808229782565732,Emma,Chen,16362,1808229782565732,854518728062939,user_quick_reply: BUTTON_DKB_vituperate,:keycap_5:,2018-09-08 03:06:05
+1808229782565732,Emma,Chen,16364,854518728062939,1808229782565732,BOT: message,"Oops, that is not correct. :disappointed_face:",2018-09-08 03:06:06
+1808229782565732,Emma,Chen,16366,854518728062939,1808229782565732,BOT: quick reply,The correct answer is obfuscate.,2018-09-08 03:06:07
+1808229782565732,Emma,Chen,16367,1808229782565732,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-08 03:06:11
+1808229782565732,Emma,Chen,16368,854518728062939,1808229782565732,BOT: message,See if you can answer this next one.,2018-09-08 03:06:12
+1808229782565732,Emma,Chen,16369,854518728062939,1808229782565732,BOT: quick reply,"With a similar contrast between a partly cloudy sky and a dark street, the cover of the recent rock CD _____ a famous surrealist painting from the early 1900s.",2018-09-08 03:06:12
+1808229782565732,Emma,Chen,16382,1808229782565732,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-08 03:06:47
+1808229782565732,Emma,Chen,16383,854518728062939,1808229782565732,BOT: message,Which of the following options is the right answer?,2018-09-08 03:06:48
+1808229782565732,Emma,Chen,16384,854518728062939,1808229782565732,BOT: quick reply,":keycap_1: disenchants
+:keycap_2: admires
+:keycap_3: obfuscates
+:keycap_4: evokes
+:keycap_5: sanctions
+",2018-09-08 03:06:49
+1808229782565732,Emma,Chen,16385,1808229782565732,854518728062939,user_quick_reply: BUTTON_AKB_evokes,:keycap_4:,2018-09-08 03:07:02
+1808229782565732,Emma,Chen,16387,854518728062939,1808229782565732,BOT: image,https://www.smartprimer.ai:4443/pictures/avatar/congrats/penguinnormal_jubilated_pink.png,2018-09-08 03:07:04
+1808229782565732,Emma,Chen,16389,854518728062939,1808229782565732,BOT: message,Great job!,2018-09-08 03:07:05
+1808229782565732,Emma,Chen,16391,854518728062939,1808229782565732,BOT: quick reply,The correct answer is evokes.,2018-09-08 03:07:05
+1808229782565732,Emma,Chen,16393,1808229782565732,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-08 03:07:08
+1808229782565732,Emma,Chen,16394,854518728062939,1808229782565732,BOT: message,See if you can answer this next one.,2018-09-08 03:07:09
+1808229782565732,Emma,Chen,16395,854518728062939,1808229782565732,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-09-08 03:07:10
+1808229782565732,Emma,Chen,16396,854518728062939,1808229782565732,BOT: quick reply,What should you NOT do while lifting objects?,2018-09-08 03:07:11
+1808229782565732,Emma,Chen,16400,1808229782565732,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-08 03:07:15
+1808229782565732,Emma,Chen,16401,854518728062939,1808229782565732,BOT: message,Which of the following options is the right answer?,2018-09-08 03:07:16
+1808229782565732,Emma,Chen,16402,854518728062939,1808229782565732,BOT: quick reply,":keycap_1: Bend at the knees
+:keycap_2: Keep the object close to your body
+:keycap_3: Keep your feet together
+:keycap_4: Keep your back straight
+",2018-09-08 03:07:17
+1808229782565732,Emma,Chen,16403,1808229782565732,854518728062939,user_quick_reply: BUTTON_AKB_Keep your feet together,:keycap_3:,2018-09-08 03:07:25
+1808229782565732,Emma,Chen,16404,854518728062939,1808229782565732,BOT: message,Nice! That was right!,2018-09-08 03:07:26
+1808229782565732,Emma,Chen,16405,854518728062939,1808229782565732,BOT: quick reply,The correct answer is Keep your feet together.,2018-09-08 03:07:27
+1808229782565732,Emma,Chen,16406,1808229782565732,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-08 03:07:29
+1808229782565732,Emma,Chen,16407,854518728062939,1808229782565732,BOT: message,Let's try this one.,2018-09-08 03:07:30
+1808229782565732,Emma,Chen,16408,854518728062939,1808229782565732,BOT: quick reply,How long can high-acid canned food such as tomatoes be stored?,2018-09-08 03:07:31
+1808229782565732,Emma,Chen,16412,1808229782565732,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-08 03:07:34
+1808229782565732,Emma,Chen,16413,854518728062939,1808229782565732,BOT: message,Which of the following options is the right answer?,2018-09-08 03:07:35
+1808229782565732,Emma,Chen,16414,854518728062939,1808229782565732,BOT: quick reply,":keycap_1: 2 to 6 months
+:keycap_2: 10 to 30 days
+:keycap_3: 2 to 4 years
+:keycap_4: 12 to 18 months
+",2018-09-08 03:07:36
+1808229782565732,Emma,Chen,16415,1808229782565732,854518728062939,user_quick_reply: I_DONT_KNOW,I don’t know :downcast_face_with_sweat:,2018-09-08 03:07:39
+1808229782565732,Emma,Chen,16416,854518728062939,1808229782565732,BOT: quick reply,Are you sure you want to skip answering?,2018-09-08 03:07:40
+1808229782565732,Emma,Chen,16419,1808229782565732,854518728062939,user_quick_reply: GIVEUP_NO,"No, I'll try again!",2018-09-08 03:07:48
+1808229782565732,Emma,Chen,16421,854518728062939,1808229782565732,BOT: message,Alright! Let's do it again!,2018-09-08 03:07:49
+1808229782565732,Emma,Chen,16422,854518728062939,1808229782565732,BOT: message,It's one of the following choices.,2018-09-08 03:07:49
+1808229782565732,Emma,Chen,16424,854518728062939,1808229782565732,BOT: quick reply,":keycap_1: 2 to 4 years
+:keycap_2: 12 to 18 months
+:keycap_3: 2 to 6 months
+:keycap_4: 10 to 30 days
+",2018-09-08 03:07:50
+1808229782565732,Emma,Chen,16430,1808229782565732,854518728062939,user_quick_reply: BUTTON_DKB_2 to 6 months,:keycap_3:,2018-09-08 03:07:57
+1808229782565732,Emma,Chen,16432,854518728062939,1808229782565732,BOT: message,"Oops, that wasn't quite correct. :disappointed_face:",2018-09-08 03:07:58
+1808229782565732,Emma,Chen,16433,854518728062939,1808229782565732,BOT: quick reply,The correct answer is 12 to 18 months.,2018-09-08 03:07:58
+1808229782565732,Emma,Chen,16434,1808229782565732,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-08 03:08:02
+1808229782565732,Emma,Chen,16435,854518728062939,1808229782565732,BOT: message,Could you answer this one for me?,2018-09-08 03:08:03
+1808229782565732,Emma,Chen,16436,854518728062939,1808229782565732,BOT: quick reply,Which fire extinguishers are used to put out Class A fires?,2018-09-08 03:08:04
+1808229782565732,Emma,Chen,16440,1808229782565732,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-08 03:08:09
+1808229782565732,Emma,Chen,16441,854518728062939,1808229782565732,BOT: message,It's one of the following choices.,2018-09-08 03:08:10
+1808229782565732,Emma,Chen,16442,854518728062939,1808229782565732,BOT: quick reply,":keycap_1: Multi-purpose dry chemical only
+:keycap_2: Both water and multi-purpose dry chemical
+:keycap_3: CO2 only
+:keycap_4: Water only
+:keycap_5: Both CO2 and water
+",2018-09-08 03:08:10
+1808229782565732,Emma,Chen,16445,1808229782565732,854518728062939,user_quick_reply: BUTTON_AKB_Both water and multi-purpose dry chemical,:keycap_2:,2018-09-08 03:08:19
+1808229782565732,Emma,Chen,16447,854518728062939,1808229782565732,BOT: message,Great job getting the correct answer!,2018-09-08 03:08:19
+1808229782565732,Emma,Chen,16449,854518728062939,1808229782565732,BOT: quick reply,The correct answer is Both water and multi-purpose dry chemical.,2018-09-08 03:08:20
+1808229782565732,Emma,Chen,16450,1808229782565732,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-08 03:08:24
+1808229782565732,Emma,Chen,16451,854518728062939,1808229782565732,BOT: quick reply,"Nice job! You've practiced enough questions today. Please come back tomorrow and click on ""Resume Learning :flexed_biceps_medium-light_skin_tone:"" for another practice session.",2018-09-08 03:08:25
+1808229782565732,Emma,Chen,19351,854518728062939,1808229782565732,BOT: quick reply,"Hi Emma, remember to practice some questions with me if you haven't finished your session today!",2018-09-08 20:00:05

@@ -1,0 +1,241 @@
+user_id,user_firstname,user_lastname,uid,sender,recipient,type,dialogue,time_stamp
+1923188057716438,Wenxiao,Huang,14057,1923188057716438,854518728062939,persistent_menu: GET_INTRO_1,Get Started,2018-09-07 23:54:19
+1923188057716438,Wenxiao,Huang,14058,854518728062939,1923188057716438,BOT: image,https://www.smartprimer.ai:4443/pictures/avatar/quizbot_avatar.png,2018-09-07 23:54:23
+1923188057716438,Wenxiao,Huang,14059,854518728062939,1923188057716438,BOT: quick reply,"Hi Wenxiao! My name is Frosty :penguin: and I’m here to help you learn all about science:microscope:, verbal reasoning (GRE) :input_latin_uppercase:, and safety:hammer_and_wrench:!",2018-09-07 23:54:23
+1923188057716438,Wenxiao,Huang,14060,854518728062939,1923188057716438,BOT: message,Here’s how it works.,2018-09-07 23:54:47
+1923188057716438,Wenxiao,Huang,14061,854518728062939,1923188057716438,BOT: message,"I ask you questions, and you give me answers.",2018-09-07 23:54:48
+1923188057716438,Wenxiao,Huang,14062,854518728062939,1923188057716438,BOT: quick reply,We will learn fun things together!,2018-09-07 23:54:48
+1923188057716438,Wenxiao,Huang,14063,1923188057716438,854518728062939,user_quick_reply: GET_INTRO_3,Tap me :white_heavy_check_mark:,2018-09-07 23:54:53
+1923188057716438,Wenxiao,Huang,14064,854518728062939,1923188057716438,BOT: image,https://www.smartprimer.ai:4443/pictures/user_manual/typeanswer.png,2018-09-07 23:54:56
+1923188057716438,Wenxiao,Huang,14065,854518728062939,1923188057716438,BOT: quick reply,"To study the questions, you can type in your answers in the text field and I will evaluate the answers for you using advanced NLP (Natural Language Processing) technology.",2018-09-07 23:54:57
+1923188057716438,Wenxiao,Huang,14066,1923188057716438,854518728062939,user_quick_reply: GET_INTRO_4,"Yes, continue :round_pushpin:",2018-09-07 23:55:05
+1923188057716438,Wenxiao,Huang,14067,854518728062939,1923188057716438,BOT: image,https://www.smartprimer.ai:4443/pictures/user_manual/needhintbutton.png,2018-09-07 23:55:08
+1923188057716438,Wenxiao,Huang,14068,854518728062939,1923188057716438,BOT: quick reply,"If you don't know the answers, then feel free to tap on the hint button.",2018-09-07 23:55:08
+1923188057716438,Wenxiao,Huang,14069,1923188057716438,854518728062939,user_quick_reply: GET_INTRO_5,Got it :thumbs_up_medium-light_skin_tone:,2018-09-07 23:55:17
+1923188057716438,Wenxiao,Huang,14070,854518728062939,1923188057716438,BOT: image,https://www.smartprimer.ai:4443/pictures/user_manual/hintoptions.png,2018-09-07 23:55:20
+1923188057716438,Wenxiao,Huang,14071,854518728062939,1923188057716438,BOT: quick reply,The hint will give you a list of potential answers and you can select one from them.,2018-09-07 23:55:21
+1923188057716438,Wenxiao,Huang,14072,1923188057716438,854518728062939,user_quick_reply: GET_INTRO_6,Okay :oncoming_fist_medium-light_skin_tone:,2018-09-07 23:55:29
+1923188057716438,Wenxiao,Huang,14073,854518728062939,1923188057716438,BOT: image,https://www.smartprimer.ai:4443/pictures/user_manual/menubutton.jpg,2018-09-07 23:55:31
+1923188057716438,Wenxiao,Huang,14074,854518728062939,1923188057716438,BOT: quick reply,"To discover more abilities of me, you can click on the menu button.:backhand_index_pointing_up_medium-light_skin_tone:",2018-09-07 23:55:32
+1923188057716438,Wenxiao,Huang,18367,1923188057716438,854518728062939,user_quick_reply: GET_READY,I see :round_pushpin:,2018-09-08 17:02:31
+1923188057716438,Wenxiao,Huang,18368,854518728062939,1923188057716438,BOT: message,I hope you enjoy the learning journey! :hundred_points:,2018-09-08 17:02:32
+1923188057716438,Wenxiao,Huang,18369,854518728062939,1923188057716438,BOT: quick reply,"So, are you ready?",2018-09-08 17:02:33
+1923188057716438,Wenxiao,Huang,18370,1923188057716438,854518728062939,user_quick_reply: YUP_IM_READY,Yup! I'm ready! :raised_fist_medium-light_skin_tone:,2018-09-08 17:02:42
+1923188057716438,Wenxiao,Huang,18371,854518728062939,1923188057716438,BOT: message,Great!,2018-09-08 17:02:43
+1923188057716438,Wenxiao,Huang,18372,854518728062939,1923188057716438,BOT: quick reply,Let’s get started :rocket:,2018-09-08 17:02:44
+1923188057716438,Wenxiao,Huang,18373,1923188057716438,854518728062939,user_quick_reply: SWITCH_SUBJECT,Quiz me :nerd_face:,2018-09-08 17:02:49
+1923188057716438,Wenxiao,Huang,18374,854518728062939,1923188057716438,BOT: quick reply,"OK, which of the following subjects would you like to study?:backhand_index_pointing_down_medium-light_skin_tone:",2018-09-08 17:02:50
+1923188057716438,Wenxiao,Huang,18375,1923188057716438,854518728062939,user_quick_reply: RANDOM,Random :game_die:,2018-09-08 17:03:00
+1923188057716438,Wenxiao,Huang,18376,854518728062939,1923188057716438,BOT: quick reply,Cool! Let's learn everything! :game_die:,2018-09-08 17:03:01
+1923188057716438,Wenxiao,Huang,18377,854518728062939,1923188057716438,BOT: message,See if you can answer this next one.,2018-09-08 17:03:08
+1923188057716438,Wenxiao,Huang,18378,854518728062939,1923188057716438,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-09-08 17:03:08
+1923188057716438,Wenxiao,Huang,18379,854518728062939,1923188057716438,BOT: quick reply,What kind of viscosity is found in long-chain hydrocarbons?,2018-09-08 17:03:09
+1923188057716438,Wenxiao,Huang,18380,1923188057716438,854518728062939,user_typing,High viscosity,2018-09-08 17:03:32
+1923188057716438,Wenxiao,Huang,18381,854518728062939,1923188057716438,BOT: message,Good Answer! :white_heavy_check_mark:,2018-09-08 17:03:33
+1923188057716438,Wenxiao,Huang,18382,854518728062939,1923188057716438,BOT: quick reply,The correct answer is high viscosity.,2018-09-08 17:03:34
+1923188057716438,Wenxiao,Huang,18383,1923188057716438,854518728062939,user_quick_reply: WHY,Why?,2018-09-08 17:03:40
+1923188057716438,Wenxiao,Huang,18384,854518728062939,1923188057716438,BOT: message,This is why:,2018-09-08 17:03:41
+1923188057716438,Wenxiao,Huang,18385,854518728062939,1923188057716438,BOT: quick reply,"There is also a correlation between viscosity and molecular shape. Liquids consisting of long, flexible molecules tend to have higher viscosities than those composed of more spherical or shorter-chain molecules. The longer the molecules, the easier it is for them to become “tangled” with one another, making it more difficult for them to move past one another. London dispersion forces also increase with chain length. Due to a combination of these two effects, long-chain hydrocarbons (such as motor oils) are highly viscous.",2018-09-08 17:03:42
+1923188057716438,Wenxiao,Huang,18386,1923188057716438,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-09-08 17:04:35
+1923188057716438,Wenxiao,Huang,18387,854518728062939,1923188057716438,BOT: message,Let's try this question.,2018-09-08 17:04:36
+1923188057716438,Wenxiao,Huang,18388,854518728062939,1923188057716438,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-09-08 17:04:37
+1923188057716438,Wenxiao,Huang,18389,854518728062939,1923188057716438,BOT: quick reply,"Although John F. Kennedy was known for his carefree flag football games, Gerald Ford should be _____ as our football president: he turned down offers to play for two National Football League teams in order to pursue a career in public service.",2018-09-08 17:04:37
+1923188057716438,Wenxiao,Huang,18390,1923188057716438,854518728062939,user_typing,Considered,2018-09-08 17:05:14
+1923188057716438,Wenxiao,Huang,18391,854518728062939,1923188057716438,BOT: message,"Oops, that answer was incorrect. :disappointed_face:",2018-09-08 17:05:15
+1923188057716438,Wenxiao,Huang,18392,854518728062939,1923188057716438,BOT: quick reply,The correct answer is apotheosized.,2018-09-08 17:05:16
+1923188057716438,Wenxiao,Huang,18393,1923188057716438,854518728062939,user_quick_reply: WHY,Why?,2018-09-08 17:05:24
+1923188057716438,Wenxiao,Huang,18394,854518728062939,1923188057716438,BOT: message,I hope this explanation could help you understand the the question.,2018-09-08 17:05:25
+1923188057716438,Wenxiao,Huang,18395,854518728062939,1923188057716438,BOT: quick reply,:pushpin: Apotheosized -- deify or glorify,2018-09-08 17:05:25
+1923188057716438,Wenxiao,Huang,18396,1923188057716438,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-09-08 17:05:43
+1923188057716438,Wenxiao,Huang,18397,854518728062939,1923188057716438,BOT: message,Let's see if you can answer this question.,2018-09-08 17:05:44
+1923188057716438,Wenxiao,Huang,18398,854518728062939,1923188057716438,BOT: quick reply,What living species of bird is considered the largest of the raptors?,2018-09-08 17:05:44
+1923188057716438,Wenxiao,Huang,18399,1923188057716438,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-08 17:05:55
+1923188057716438,Wenxiao,Huang,18400,854518728062939,1923188057716438,BOT: message,It's one of the following choices.,2018-09-08 17:05:55
+1923188057716438,Wenxiao,Huang,18401,854518728062939,1923188057716438,BOT: quick reply,":keycap_1: golden eagles
+:keycap_2: peregrine falcon
+:keycap_3: pterodactyl
+:keycap_4: California condor
+",2018-09-08 17:05:56
+1923188057716438,Wenxiao,Huang,18402,1923188057716438,854518728062939,user_quick_reply: BUTTON_AKB_golden eagles,:keycap_1:,2018-09-08 17:06:13
+1923188057716438,Wenxiao,Huang,18403,854518728062939,1923188057716438,BOT: image,https://www.smartprimer.ai:4443/pictures/avatar/congrats/penguinnormal_jubilated_pink.png,2018-09-08 17:06:15
+1923188057716438,Wenxiao,Huang,18404,854518728062939,1923188057716438,BOT: message,Great job!,2018-09-08 17:06:15
+1923188057716438,Wenxiao,Huang,18405,854518728062939,1923188057716438,BOT: quick reply,The correct answer is golden eagles.,2018-09-08 17:06:16
+1923188057716438,Wenxiao,Huang,18406,1923188057716438,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-08 17:06:56
+1923188057716438,Wenxiao,Huang,18407,854518728062939,1923188057716438,BOT: message,See if you can answer this next one.,2018-09-08 17:06:56
+1923188057716438,Wenxiao,Huang,18408,854518728062939,1923188057716438,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-09-08 17:06:57
+1923188057716438,Wenxiao,Huang,18409,854518728062939,1923188057716438,BOT: quick reply,"Despite the smile that spread from ear to ear, the eyes relayed a certain _____ .",2018-09-08 17:06:58
+1923188057716438,Wenxiao,Huang,18410,1923188057716438,854518728062939,user_typing,Sorrow,2018-09-08 17:07:23
+1923188057716438,Wenxiao,Huang,18411,854518728062939,1923188057716438,BOT: message,That’s right! :party_popper:,2018-09-08 17:07:23
+1923188057716438,Wenxiao,Huang,18412,854518728062939,1923188057716438,BOT: quick reply,The correct answer is sorrow.,2018-09-08 17:07:24
+1923188057716438,Wenxiao,Huang,18413,1923188057716438,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-08 17:07:30
+1923188057716438,Wenxiao,Huang,18414,854518728062939,1923188057716438,BOT: message,Let's try this question.,2018-09-08 17:07:31
+1923188057716438,Wenxiao,Huang,18415,854518728062939,1923188057716438,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-09-08 17:07:32
+1923188057716438,Wenxiao,Huang,18416,854518728062939,1923188057716438,BOT: quick reply,What opens two strands of DNA?,2018-09-08 17:07:32
+1923188057716438,Wenxiao,Huang,18417,1923188057716438,854518728062939,user_quick_reply: I_DONT_KNOW,I don’t know :downcast_face_with_sweat:,2018-09-08 17:07:40
+1923188057716438,Wenxiao,Huang,18418,854518728062939,1923188057716438,BOT: quick reply,Are you sure you want to skip this question?,2018-09-08 17:07:41
+1923188057716438,Wenxiao,Huang,18419,1923188057716438,854518728062939,user_quick_reply: GIVEUP_YES,"Yes, answer please.",2018-09-08 17:07:50
+1923188057716438,Wenxiao,Huang,18420,854518728062939,1923188057716438,BOT: message,"I'm sorry, you didn't get the question right this time.",2018-09-08 17:07:51
+1923188057716438,Wenxiao,Huang,18421,854518728062939,1923188057716438,BOT: message,"That's fine, you'll nail it next time! :grinning_face_with_smiling_eyes:",2018-09-08 17:07:51
+1923188057716438,Wenxiao,Huang,18422,854518728062939,1923188057716438,BOT: quick reply,The correct answer is helicase.,2018-09-08 17:07:52
+1923188057716438,Wenxiao,Huang,18423,1923188057716438,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-08 17:08:10
+1923188057716438,Wenxiao,Huang,18424,854518728062939,1923188057716438,BOT: message,I think you'll like this question.,2018-09-08 17:08:11
+1923188057716438,Wenxiao,Huang,18425,854518728062939,1923188057716438,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-09-08 17:08:12
+1923188057716438,Wenxiao,Huang,18426,854518728062939,1923188057716438,BOT: quick reply,What opens two strands of DNA?,2018-09-08 17:08:13
+1923188057716438,Wenxiao,Huang,18427,1923188057716438,854518728062939,user_typing,Helicase,2018-09-08 17:08:25
+1923188057716438,Wenxiao,Huang,18428,854518728062939,1923188057716438,BOT: message,Fantastic! :hundred_points:,2018-09-08 17:08:25
+1923188057716438,Wenxiao,Huang,18429,854518728062939,1923188057716438,BOT: quick reply,The correct answer is helicase.,2018-09-08 17:08:26
+1923188057716438,Wenxiao,Huang,18430,1923188057716438,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-08 17:08:31
+1923188057716438,Wenxiao,Huang,18431,854518728062939,1923188057716438,BOT: message,Here's a question for you:,2018-09-08 17:08:31
+1923188057716438,Wenxiao,Huang,18432,854518728062939,1923188057716438,BOT: quick reply,"Dolly Madison, the wife of President James Madison, was known especially for her _____ , remaining calm even as the British invaded Washington D.C. during the War of 1812.",2018-09-08 17:08:32
+1923188057716438,Wenxiao,Huang,18433,1923188057716438,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-08 17:08:43
+1923188057716438,Wenxiao,Huang,18434,854518728062939,1923188057716438,BOT: message,Which of the following options is the right answer?,2018-09-08 17:08:43
+1923188057716438,Wenxiao,Huang,18435,854518728062939,1923188057716438,BOT: quick reply,":keycap_1: impracticality
+:keycap_2: equanimity
+:keycap_3: cynicism
+:keycap_4: malevolence
+:keycap_5: zeal
+",2018-09-08 17:08:44
+1923188057716438,Wenxiao,Huang,18436,1923188057716438,854518728062939,user_quick_reply: BUTTON_AKB_equanimity,:keycap_2:,2018-09-08 17:09:10
+1923188057716438,Wenxiao,Huang,18437,854518728062939,1923188057716438,BOT: image,https://www.smartprimer.ai:4443/pictures/avatar/congrats/penguinnormal_jubilated_purple.png,2018-09-08 17:09:12
+1923188057716438,Wenxiao,Huang,18438,854518728062939,1923188057716438,BOT: message,Great job getting the correct answer!,2018-09-08 17:09:13
+1923188057716438,Wenxiao,Huang,18439,854518728062939,1923188057716438,BOT: quick reply,The correct answer is equanimity.,2018-09-08 17:09:13
+1923188057716438,Wenxiao,Huang,18514,1923188057716438,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-08 17:48:32
+1923188057716438,Wenxiao,Huang,18515,854518728062939,1923188057716438,BOT: message,See if you can answer this next one.,2018-09-08 17:48:33
+1923188057716438,Wenxiao,Huang,18516,854518728062939,1923188057716438,BOT: quick reply,"Even though legislators claimed the Contagious Diseases Acts strengthened the nation, social purists argued the Acts _____ the nation's moral growth by encouraging licentious behavior.",2018-09-08 17:48:34
+1923188057716438,Wenxiao,Huang,18520,1923188057716438,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-08 17:49:09
+1923188057716438,Wenxiao,Huang,18521,854518728062939,1923188057716438,BOT: message,Pick one of the following answers.,2018-09-08 17:49:10
+1923188057716438,Wenxiao,Huang,18522,854518728062939,1923188057716438,BOT: quick reply,":keycap_1: supplanted
+:keycap_2: ameliorated
+:keycap_3: advanced
+:keycap_4: enhanced
+:keycap_5: hampered
+",2018-09-08 17:49:11
+1923188057716438,Wenxiao,Huang,19241,1923188057716438,854518728062939,user_quick_reply: BUTTON_AKB_hampered,:keycap_5:,2018-09-08 18:30:21
+1923188057716438,Wenxiao,Huang,19242,854518728062939,1923188057716438,BOT: image,https://www.smartprimer.ai:4443/pictures/avatar/congrats/penguinnormal_normal_cyan.png,2018-09-08 18:30:23
+1923188057716438,Wenxiao,Huang,19243,854518728062939,1923188057716438,BOT: message,Nice work! Keep it up!,2018-09-08 18:30:24
+1923188057716438,Wenxiao,Huang,19244,854518728062939,1923188057716438,BOT: quick reply,The correct answer is hampered.,2018-09-08 18:30:25
+1923188057716438,Wenxiao,Huang,19245,1923188057716438,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-08 18:30:31
+1923188057716438,Wenxiao,Huang,19246,854518728062939,1923188057716438,BOT: message,How about this next one:,2018-09-08 18:30:31
+1923188057716438,Wenxiao,Huang,19247,854518728062939,1923188057716438,BOT: quick reply,What should you NOT do when lowering a load?,2018-09-08 18:30:32
+1923188057716438,Wenxiao,Huang,19248,1923188057716438,854518728062939,user_typing,Bend my back,2018-09-08 18:30:49
+1923188057716438,Wenxiao,Huang,19249,854518728062939,1923188057716438,BOT: message,"I'm sorry, but that was incorrect. :disappointed_face:",2018-09-08 18:30:50
+1923188057716438,Wenxiao,Huang,19250,854518728062939,1923188057716438,BOT: quick reply,The correct answer is Twist your body.,2018-09-08 18:30:51
+1923188057716438,Wenxiao,Huang,19253,1923188057716438,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-08 18:30:59
+1923188057716438,Wenxiao,Huang,19255,854518728062939,1923188057716438,BOT: message,Would you answer this question for me?,2018-09-08 18:31:00
+1923188057716438,Wenxiao,Huang,19257,854518728062939,1923188057716438,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-09-08 18:31:01
+1923188057716438,Wenxiao,Huang,19258,854518728062939,1923188057716438,BOT: quick reply,"Having squandered his life's savings on unprofitable business ventures, the _____ entrepreneur was forced to live in squalor.",2018-09-08 18:31:01
+1923188057716438,Wenxiao,Huang,19266,1923188057716438,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-08 18:32:07
+1923188057716438,Wenxiao,Huang,19267,854518728062939,1923188057716438,BOT: message,It's one of the following choices.,2018-09-08 18:32:08
+1923188057716438,Wenxiao,Huang,19268,854518728062939,1923188057716438,BOT: quick reply,":keycap_1: perturbed
+:keycap_2: insolvent
+:keycap_3: former
+:keycap_4: eccentric
+:keycap_5: unlikely
+",2018-09-08 18:32:09
+1923188057716438,Wenxiao,Huang,19269,1923188057716438,854518728062939,user_quick_reply: BUTTON_DKB_former,:keycap_3:,2018-09-08 18:32:17
+1923188057716438,Wenxiao,Huang,19270,854518728062939,1923188057716438,BOT: message,"Hmm, that wasn't quite right. :disappointed_face:",2018-09-08 18:32:18
+1923188057716438,Wenxiao,Huang,19271,854518728062939,1923188057716438,BOT: quick reply,The correct answer is insolvent.,2018-09-08 18:32:18
+1923188057716438,Wenxiao,Huang,19272,1923188057716438,854518728062939,user_quick_reply: WHY,Why?,2018-09-08 18:32:24
+1923188057716438,Wenxiao,Huang,19273,854518728062939,1923188057716438,BOT: message,This is an explanation of the question:,2018-09-08 18:32:25
+1923188057716438,Wenxiao,Huang,19274,854518728062939,1923188057716438,BOT: quick reply,":pushpin: Insolvent -- unable to meet or discharge financial obligations
+:pushpin: Former -- preceding in time; prior or earlier
+:pushpin: Unlikely -- not likely to be true or to occur or to have occurred
+:pushpin: Perturbed -- thrown into a state of agitated confusion
+:pushpin: Eccentric -- conspicuously or grossly unconventional or unusual",2018-09-08 18:32:25
+1923188057716438,Wenxiao,Huang,19275,1923188057716438,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-09-08 18:32:43
+1923188057716438,Wenxiao,Huang,19276,854518728062939,1923188057716438,BOT: message,Let's see if you can answer this question.,2018-09-08 18:32:44
+1923188057716438,Wenxiao,Huang,19277,854518728062939,1923188057716438,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-09-08 18:32:44
+1923188057716438,Wenxiao,Huang,19278,854518728062939,1923188057716438,BOT: quick reply,"In psychological literature, the ""sleeper effect"" refers to the phenomenon in which a persuasive message from a trustworthy source loses _____ over time, while the efficacy of a message from a less credible source simultaneously increases.",2018-09-08 18:32:45
+1923188057716438,Wenxiao,Huang,19279,1923188057716438,854518728062939,user_typing,Credibility,2018-09-08 18:33:15
+1923188057716438,Wenxiao,Huang,19280,854518728062939,1923188057716438,BOT: message,That wasn't quite what we were looking for. :disappointed_face:,2018-09-08 18:33:15
+1923188057716438,Wenxiao,Huang,19281,854518728062939,1923188057716438,BOT: quick reply,The correct answer is cogency.,2018-09-08 18:33:16
+1923188057716438,Wenxiao,Huang,19282,1923188057716438,854518728062939,user_quick_reply: WHY,Why?,2018-09-08 18:33:22
+1923188057716438,Wenxiao,Huang,19283,854518728062939,1923188057716438,BOT: message,This is an explanation of the question:,2018-09-08 18:33:23
+1923188057716438,Wenxiao,Huang,19284,854518728062939,1923188057716438,BOT: quick reply,:pushpin: Cogency -- persuasive relevance,2018-09-08 18:33:23
+1923188057716438,Wenxiao,Huang,19285,1923188057716438,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-09-08 18:33:42
+1923188057716438,Wenxiao,Huang,19286,854518728062939,1923188057716438,BOT: message,How about this next one:,2018-09-08 18:33:43
+1923188057716438,Wenxiao,Huang,19287,854518728062939,1923188057716438,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-09-08 18:33:43
+1923188057716438,Wenxiao,Huang,19288,854518728062939,1923188057716438,BOT: quick reply,"Just as different people can have very different personalities, so too can pets - even those of the same species and breed possess varied _____ .",2018-09-08 18:33:44
+1923188057716438,Wenxiao,Huang,19293,1923188057716438,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-08 18:34:15
+1923188057716438,Wenxiao,Huang,19294,854518728062939,1923188057716438,BOT: message,Pick one of the following answers.,2018-09-08 18:34:15
+1923188057716438,Wenxiao,Huang,19295,854518728062939,1923188057716438,BOT: quick reply,":keycap_1: implementations
+:keycap_2: rationalizations
+:keycap_3: initiations
+:keycap_4: temperaments
+:keycap_5: aptitudes
+",2018-09-08 18:34:17
+1923188057716438,Wenxiao,Huang,19296,1923188057716438,854518728062939,user_quick_reply: BUTTON_AKB_temperaments,:keycap_4:,2018-09-08 18:34:28
+1923188057716438,Wenxiao,Huang,19297,854518728062939,1923188057716438,BOT: message,Nice work! Keep it up!,2018-09-08 18:34:28
+1923188057716438,Wenxiao,Huang,19298,854518728062939,1923188057716438,BOT: quick reply,The correct answer is temperaments.,2018-09-08 18:34:29
+1923188057716438,Wenxiao,Huang,19300,1923188057716438,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-08 18:34:35
+1923188057716438,Wenxiao,Huang,19302,854518728062939,1923188057716438,BOT: message,Could you answer this one for me?,2018-09-08 18:34:35
+1923188057716438,Wenxiao,Huang,19304,854518728062939,1923188057716438,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-09-08 18:34:36
+1923188057716438,Wenxiao,Huang,19305,854518728062939,1923188057716438,BOT: quick reply,Many Major League Baseball relief pitchers choose an electrifying theme song to play as they take the mound; the song _____ their fans and instills fear in their opponents.,2018-09-08 18:34:37
+1923188057716438,Wenxiao,Huang,19306,1923188057716438,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-08 18:34:54
+1923188057716438,Wenxiao,Huang,19307,854518728062939,1923188057716438,BOT: message,Pick one of the following answers.,2018-09-08 18:34:55
+1923188057716438,Wenxiao,Huang,19308,854518728062939,1923188057716438,BOT: quick reply,":keycap_1: pervades
+:keycap_2: eviscerates
+:keycap_3: enervates
+:keycap_4: assuages
+:keycap_5: innervates
+",2018-09-08 18:34:56
+1923188057716438,Wenxiao,Huang,19309,1923188057716438,854518728062939,user_quick_reply: I_DONT_KNOW,I don’t know :downcast_face_with_sweat:,2018-09-08 18:35:04
+1923188057716438,Wenxiao,Huang,19310,854518728062939,1923188057716438,BOT: quick reply,Are you sure you want to skip this question?,2018-09-08 18:35:05
+1923188057716438,Wenxiao,Huang,19311,1923188057716438,854518728062939,user_quick_reply: GIVEUP_YES,"Yes, answer please.",2018-09-08 18:35:10
+1923188057716438,Wenxiao,Huang,19312,854518728062939,1923188057716438,BOT: message,You didn't get this question this time.,2018-09-08 18:35:11
+1923188057716438,Wenxiao,Huang,19313,854518728062939,1923188057716438,BOT: message,No worries! You'll get it next time! :grinning_face_with_smiling_eyes:,2018-09-08 18:35:11
+1923188057716438,Wenxiao,Huang,19314,854518728062939,1923188057716438,BOT: quick reply,The correct answer is innervates.,2018-09-08 18:35:12
+1923188057716438,Wenxiao,Huang,19315,1923188057716438,854518728062939,user_quick_reply: WHY,Why?,2018-09-08 18:35:19
+1923188057716438,Wenxiao,Huang,19316,854518728062939,1923188057716438,BOT: message,This is why:,2018-09-08 18:35:20
+1923188057716438,Wenxiao,Huang,19317,854518728062939,1923188057716438,BOT: quick reply,":pushpin: Innervates -- to supply with nerves
+:pushpin: Eviscerates -- surgically remove a part of a structure or an organ
+:pushpin: Enervates -- weaken mentally or morally
+:pushpin: Assuages -- cause to be more favorably inclined; gain the good will of
+:pushpin: Pervades -- spread or diffuse through",2018-09-08 18:35:21
+1923188057716438,Wenxiao,Huang,19318,1923188057716438,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-09-08 18:35:47
+1923188057716438,Wenxiao,Huang,19319,854518728062939,1923188057716438,BOT: message,Let's see if you can answer this question.,2018-09-08 18:35:47
+1923188057716438,Wenxiao,Huang,19320,854518728062939,1923188057716438,BOT: quick reply,Many Major League Baseball relief pitchers choose an electrifying theme song to play as they take the mound; the song _____ their fans and instills fear in their opponents.,2018-09-08 18:35:48
+1923188057716438,Wenxiao,Huang,19362,854518728062939,1923188057716438,BOT: quick reply,"Hi Wenxiao, remember to practice some questions with me if you haven't finished your session today!",2018-09-08 20:00:12
+1923188057716438,Wenxiao,Huang,19383,1923188057716438,854518728062939,user_quick_reply: NEXT_QUESTION,"Yes, continue :clapping_hands_medium-light_skin_tone:",2018-09-08 20:00:27
+1923188057716438,Wenxiao,Huang,19385,854518728062939,1923188057716438,BOT: message,Here's a question for you:,2018-09-08 20:00:27
+1923188057716438,Wenxiao,Huang,19387,854518728062939,1923188057716438,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-09-08 20:00:28
+1923188057716438,Wenxiao,Huang,19388,854518728062939,1923188057716438,BOT: quick reply,Many Major League Baseball relief pitchers choose an electrifying theme song to play as they take the mound; the song _____ their fans and instills fear in their opponents.,2018-09-08 20:00:29
+1923188057716438,Wenxiao,Huang,19403,1923188057716438,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-08 20:00:55
+1923188057716438,Wenxiao,Huang,19404,854518728062939,1923188057716438,BOT: message,Okay. I'll give you some choices.,2018-09-08 20:00:56
+1923188057716438,Wenxiao,Huang,19405,854518728062939,1923188057716438,BOT: quick reply,":keycap_1: enervates
+:keycap_2: innervates
+:keycap_3: eviscerates
+:keycap_4: pervades
+:keycap_5: assuages
+",2018-09-08 20:00:57
+1923188057716438,Wenxiao,Huang,19412,1923188057716438,854518728062939,user_quick_reply: BUTTON_AKB_innervates,:keycap_2:,2018-09-08 20:01:10
+1923188057716438,Wenxiao,Huang,19415,854518728062939,1923188057716438,BOT: image,https://www.smartprimer.ai:4443/pictures/avatar/congrats/penguinnormal_happy_purple.png,2018-09-08 20:01:12
+1923188057716438,Wenxiao,Huang,19417,854518728062939,1923188057716438,BOT: message,Great! Keep it up! :flexed_biceps_medium-light_skin_tone:,2018-09-08 20:01:13
+1923188057716438,Wenxiao,Huang,19418,854518728062939,1923188057716438,BOT: quick reply,The correct answer is innervates.,2018-09-08 20:01:14
+1923188057716438,Wenxiao,Huang,19507,1923188057716438,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-08 20:04:56
+1923188057716438,Wenxiao,Huang,19508,854518728062939,1923188057716438,BOT: message,Let's take a look at this question.,2018-09-08 20:04:57
+1923188057716438,Wenxiao,Huang,19510,854518728062939,1923188057716438,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-09-08 20:04:57
+1923188057716438,Wenxiao,Huang,19512,854518728062939,1923188057716438,BOT: quick reply,"Many dog owners treat their pets too _____ , forgetting that canines have evolved in competitive environments in which emotional coddling was a sign of weakness.",2018-09-08 20:04:58
+1923188057716438,Wenxiao,Huang,19519,1923188057716438,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-08 20:05:09
+1923188057716438,Wenxiao,Huang,19521,854518728062939,1923188057716438,BOT: message,Pick one of the following answers.,2018-09-08 20:05:10
+1923188057716438,Wenxiao,Huang,19523,854518728062939,1923188057716438,BOT: quick reply,":keycap_1: aggressively
+:keycap_2: quixotically
+:keycap_3: fortuitously
+:keycap_4: indulgently
+:keycap_5: belligerently
+",2018-09-08 20:05:11
+1923188057716438,Wenxiao,Huang,19527,1923188057716438,854518728062939,user_quick_reply: BUTTON_AKB_indulgently,:keycap_4:,2018-09-08 20:05:19
+1923188057716438,Wenxiao,Huang,19528,854518728062939,1923188057716438,BOT: message,Great job!,2018-09-08 20:05:19
+1923188057716438,Wenxiao,Huang,19530,854518728062939,1923188057716438,BOT: quick reply,The correct answer is indulgently.,2018-09-08 20:05:20
+1923188057716438,Wenxiao,Huang,19534,1923188057716438,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-08 20:05:25
+1923188057716438,Wenxiao,Huang,19535,854518728062939,1923188057716438,BOT: message,How about this next one:,2018-09-08 20:05:26
+1923188057716438,Wenxiao,Huang,19536,854518728062939,1923188057716438,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-09-08 20:05:27
+1923188057716438,Wenxiao,Huang,19537,854518728062939,1923188057716438,BOT: quick reply,"Modern tennis fans have come to realize that, although, quantum technological leaps in racquet technology have lead to _____ increases in the speed and power with which players can hit the ball, this has not necessarily lead to a more entertaining game.",2018-09-08 20:05:27
+1923188057716438,Wenxiao,Huang,19667,1923188057716438,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-08 20:10:01
+1923188057716438,Wenxiao,Huang,19668,854518728062939,1923188057716438,BOT: message,Pick one of the following answers.,2018-09-08 20:10:01
+1923188057716438,Wenxiao,Huang,19669,854518728062939,1923188057716438,BOT: quick reply,":keycap_1: tractable
+:keycap_2: innocuous
+:keycap_3: commensurate
+:keycap_4: malleable
+:keycap_5: halcyon
+",2018-09-08 20:10:02

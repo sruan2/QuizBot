@@ -1,0 +1,256 @@
+user_id,user_firstname,user_lastname,uid,sender,recipient,type,dialogue,time_stamp
+2084884754878207,Hongyu,Zhai,13834,2084884754878207,854518728062939,persistent_menu: GET_INTRO_1,Get Started,2018-09-07 23:21:18
+2084884754878207,Hongyu,Zhai,13835,854518728062939,2084884754878207,BOT: image,https://www.smartprimer.ai:4443/pictures/avatar/quizbot_avatar.png,2018-09-07 23:21:22
+2084884754878207,Hongyu,Zhai,13836,854518728062939,2084884754878207,BOT: quick reply,"Hi Hongyu! My name is Frosty :penguin: and I’m here to help you learn all about science:microscope:, verbal reasoning (GRE) :input_latin_uppercase:, and safety:hammer_and_wrench:!",2018-09-07 23:21:22
+2084884754878207,Hongyu,Zhai,13837,2084884754878207,854518728062939,user_quick_reply: GET_INTRO_2,Got it :clapping_hands_medium-light_skin_tone:,2018-09-07 23:21:34
+2084884754878207,Hongyu,Zhai,13838,854518728062939,2084884754878207,BOT: message,Here’s how it works.,2018-09-07 23:21:35
+2084884754878207,Hongyu,Zhai,13839,854518728062939,2084884754878207,BOT: message,"I ask you questions, and you give me answers.",2018-09-07 23:21:36
+2084884754878207,Hongyu,Zhai,13840,854518728062939,2084884754878207,BOT: quick reply,We will learn fun things together!,2018-09-07 23:21:36
+2084884754878207,Hongyu,Zhai,16256,2084884754878207,854518728062939,user_quick_reply: GET_INTRO_3,Sure :backhand_index_pointing_right_medium-light_skin_tone:,2018-09-08 03:01:51
+2084884754878207,Hongyu,Zhai,16257,854518728062939,2084884754878207,BOT: image,https://www.smartprimer.ai:4443/pictures/user_manual/typeanswer.png,2018-09-08 03:01:54
+2084884754878207,Hongyu,Zhai,16258,854518728062939,2084884754878207,BOT: quick reply,"To study the questions, you can type in your answers in the text field and I will evaluate the answers for you using advanced NLP (Natural Language Processing) technology.",2018-09-08 03:01:55
+2084884754878207,Hongyu,Zhai,16259,2084884754878207,854518728062939,user_quick_reply: GET_INTRO_4,Next :oncoming_fist_medium-light_skin_tone:,2018-09-08 03:02:10
+2084884754878207,Hongyu,Zhai,16260,854518728062939,2084884754878207,BOT: image,https://www.smartprimer.ai:4443/pictures/user_manual/needhintbutton.png,2018-09-08 03:02:13
+2084884754878207,Hongyu,Zhai,16261,854518728062939,2084884754878207,BOT: quick reply,"If you don't know the answers, then feel free to tap on the hint button.",2018-09-08 03:02:14
+2084884754878207,Hongyu,Zhai,16262,2084884754878207,854518728062939,user_quick_reply: GET_INTRO_5,Got it :round_pushpin:,2018-09-08 03:02:21
+2084884754878207,Hongyu,Zhai,16263,854518728062939,2084884754878207,BOT: image,https://www.smartprimer.ai:4443/pictures/user_manual/hintoptions.png,2018-09-08 03:02:24
+2084884754878207,Hongyu,Zhai,16264,854518728062939,2084884754878207,BOT: quick reply,The hint will give you a list of potential answers and you can select one from them.,2018-09-08 03:02:24
+2084884754878207,Hongyu,Zhai,16265,854518728062939,2084884754878207,BOT: image,https://www.smartprimer.ai:4443/pictures/user_manual/menubutton.jpg,2018-09-08 03:02:34
+2084884754878207,Hongyu,Zhai,16266,854518728062939,2084884754878207,BOT: quick reply,"To discover more abilities of me, you can click on the menu button.:backhand_index_pointing_up_medium-light_skin_tone:",2018-09-08 03:02:35
+2084884754878207,Hongyu,Zhai,16267,2084884754878207,854518728062939,user_quick_reply: GET_READY,Tap me :light_bulb:,2018-09-08 03:02:44
+2084884754878207,Hongyu,Zhai,16268,854518728062939,2084884754878207,BOT: message,I hope you enjoy the learning journey! :hundred_points:,2018-09-08 03:02:45
+2084884754878207,Hongyu,Zhai,16269,854518728062939,2084884754878207,BOT: quick reply,"So, are you ready?",2018-09-08 03:02:45
+2084884754878207,Hongyu,Zhai,16270,2084884754878207,854518728062939,user_quick_reply: YUP_IM_READY,Yup! I'm ready! :raised_fist_medium-light_skin_tone:,2018-09-08 03:02:52
+2084884754878207,Hongyu,Zhai,16271,854518728062939,2084884754878207,BOT: message,Great!,2018-09-08 03:02:52
+2084884754878207,Hongyu,Zhai,16272,854518728062939,2084884754878207,BOT: quick reply,Let’s get started :rocket:,2018-09-08 03:02:53
+2084884754878207,Hongyu,Zhai,16273,2084884754878207,854518728062939,user_quick_reply: SWITCH_SUBJECT,Quiz me :nerd_face:,2018-09-08 03:02:58
+2084884754878207,Hongyu,Zhai,16274,854518728062939,2084884754878207,BOT: quick reply,"Okay, which subject would you like to choose?:backhand_index_pointing_down_medium-light_skin_tone:",2018-09-08 03:02:59
+2084884754878207,Hongyu,Zhai,16275,2084884754878207,854518728062939,user_quick_reply: SCIENCE,Science:microscope:,2018-09-08 03:03:04
+2084884754878207,Hongyu,Zhai,16276,854518728062939,2084884754878207,BOT: quick reply,All right! I’ll quiz you on science!,2018-09-08 03:03:05
+2084884754878207,Hongyu,Zhai,16277,2084884754878207,854518728062939,user_quick_reply: NEXT_QUESTION,Next :flexed_biceps_medium-light_skin_tone:,2018-09-08 03:03:11
+2084884754878207,Hongyu,Zhai,16278,854518728062939,2084884754878207,BOT: message,Would you answer this question for me?,2018-09-08 03:03:11
+2084884754878207,Hongyu,Zhai,16279,854518728062939,2084884754878207,BOT: quick reply,What kind of viscosity is found in long-chain hydrocarbons?,2018-09-08 03:03:12
+2084884754878207,Hongyu,Zhai,16281,2084884754878207,854518728062939,user_quick_reply: I_DONT_KNOW,I don’t know :downcast_face_with_sweat:,2018-09-08 03:03:21
+2084884754878207,Hongyu,Zhai,16283,854518728062939,2084884754878207,BOT: quick reply,Do you really want to give up?,2018-09-08 03:03:22
+2084884754878207,Hongyu,Zhai,16291,2084884754878207,854518728062939,user_quick_reply: GIVEUP_YES,"Yes, answer please.",2018-09-08 03:03:32
+2084884754878207,Hongyu,Zhai,16292,854518728062939,2084884754878207,BOT: message,You didn't get this question this time.,2018-09-08 03:03:32
+2084884754878207,Hongyu,Zhai,16293,854518728062939,2084884754878207,BOT: message,No worries! You'll get it next time! :grinning_face_with_smiling_eyes:,2018-09-08 03:03:33
+2084884754878207,Hongyu,Zhai,16294,854518728062939,2084884754878207,BOT: quick reply,The correct answer is high viscosity.,2018-09-08 03:03:34
+2084884754878207,Hongyu,Zhai,16301,2084884754878207,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-08 03:03:46
+2084884754878207,Hongyu,Zhai,16302,854518728062939,2084884754878207,BOT: message,Let's try this question.,2018-09-08 03:03:46
+2084884754878207,Hongyu,Zhai,16303,854518728062939,2084884754878207,BOT: quick reply,What kind of viscosity is found in long-chain hydrocarbons?,2018-09-08 03:03:47
+2084884754878207,Hongyu,Zhai,16304,2084884754878207,854518728062939,user_typing,High viscosity,2018-09-08 03:04:13
+2084884754878207,Hongyu,Zhai,16305,854518728062939,2084884754878207,BOT: message,Good job! :raising_hands_medium-light_skin_tone:,2018-09-08 03:04:14
+2084884754878207,Hongyu,Zhai,16306,854518728062939,2084884754878207,BOT: quick reply,The correct answer is high viscosity.,2018-09-08 03:04:15
+2084884754878207,Hongyu,Zhai,16307,2084884754878207,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-08 03:04:21
+2084884754878207,Hongyu,Zhai,16308,854518728062939,2084884754878207,BOT: message,"Alrighty, let's try this one.",2018-09-08 03:04:21
+2084884754878207,Hongyu,Zhai,16309,854518728062939,2084884754878207,BOT: quick reply,What living species of bird is considered the largest of the raptors?,2018-09-08 03:04:22
+2084884754878207,Hongyu,Zhai,16313,2084884754878207,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-08 03:04:29
+2084884754878207,Hongyu,Zhai,16314,854518728062939,2084884754878207,BOT: message,It's one of the following choices.,2018-09-08 03:04:30
+2084884754878207,Hongyu,Zhai,16315,854518728062939,2084884754878207,BOT: quick reply,":keycap_1: California condor
+:keycap_2: golden eagles
+:keycap_3: peregrine falcon
+:keycap_4: pterodactyl
+",2018-09-08 03:04:30
+2084884754878207,Hongyu,Zhai,16327,2084884754878207,854518728062939,user_quick_reply: BUTTON_AKB_golden eagles,:keycap_2:,2018-09-08 03:04:43
+2084884754878207,Hongyu,Zhai,16329,854518728062939,2084884754878207,BOT: message,Great job getting the correct answer!,2018-09-08 03:04:44
+2084884754878207,Hongyu,Zhai,16330,854518728062939,2084884754878207,BOT: quick reply,The correct answer is golden eagles.,2018-09-08 03:04:45
+2084884754878207,Hongyu,Zhai,16334,2084884754878207,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-08 03:04:51
+2084884754878207,Hongyu,Zhai,16335,854518728062939,2084884754878207,BOT: message,Let's try this one.,2018-09-08 03:04:52
+2084884754878207,Hongyu,Zhai,16336,854518728062939,2084884754878207,BOT: quick reply,What opens two strands of DNA?,2018-09-08 03:04:52
+2084884754878207,Hongyu,Zhai,16340,2084884754878207,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-08 03:05:04
+2084884754878207,Hongyu,Zhai,16341,854518728062939,2084884754878207,BOT: message,Which of the following options is the right answer?,2018-09-08 03:05:05
+2084884754878207,Hongyu,Zhai,16342,854518728062939,2084884754878207,BOT: quick reply,":keycap_1: helicase
+:keycap_2: replication
+:keycap_3: chromosome
+:keycap_4: adenylate
+",2018-09-08 03:05:05
+2084884754878207,Hongyu,Zhai,16345,2084884754878207,854518728062939,user_quick_reply: BUTTON_DKB_replication,:keycap_2:,2018-09-08 03:05:12
+2084884754878207,Hongyu,Zhai,16347,854518728062939,2084884754878207,BOT: message,"I'm sorry, but that was incorrect. :disappointed_face:",2018-09-08 03:05:13
+2084884754878207,Hongyu,Zhai,16348,854518728062939,2084884754878207,BOT: quick reply,The correct answer is helicase.,2018-09-08 03:05:14
+2084884754878207,Hongyu,Zhai,16352,2084884754878207,854518728062939,user_quick_reply: WHY,Why?,2018-09-08 03:05:21
+2084884754878207,Hongyu,Zhai,16353,854518728062939,2084884754878207,BOT: message,I hope this explanation could help you understand the the question.,2018-09-08 03:05:22
+2084884754878207,Hongyu,Zhai,16354,854518728062939,2084884754878207,BOT: quick reply,"The two DNA strands are opened by helicase. The strands are held open by a single strand of binding proteins, preventing premature reannealing. Topoisomerase solves the problem caused by tension generated by winding/unwinding of DNA. This enzyme wraps around DNA and makes a cut permitting the helix to spin and relax. Once DNA is relaxed, topoisomerase reconnects broken strands. DNA primase synthesizes a short RNA primer which initiates the Okazaki fragment. Okazaki fragments are attached by DNA ligase.",2018-09-08 03:05:22
+2084884754878207,Hongyu,Zhai,16358,2084884754878207,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-09-08 03:05:57
+2084884754878207,Hongyu,Zhai,16359,854518728062939,2084884754878207,BOT: message,Let's see if you can answer this question.,2018-09-08 03:05:58
+2084884754878207,Hongyu,Zhai,16360,854518728062939,2084884754878207,BOT: quick reply,"When your brain senses that your body temperature is increasing, it sends messages to the blood vessels in the skin to increase in what?",2018-09-08 03:05:59
+2084884754878207,Hongyu,Zhai,16373,2084884754878207,854518728062939,user_typing,Diameter,2018-09-08 03:06:21
+2084884754878207,Hongyu,Zhai,16374,854518728062939,2084884754878207,BOT: message,Good job! :raising_hands_medium-light_skin_tone:,2018-09-08 03:06:21
+2084884754878207,Hongyu,Zhai,16375,854518728062939,2084884754878207,BOT: quick reply,The correct answer is diameter.,2018-09-08 03:06:22
+2084884754878207,Hongyu,Zhai,16376,2084884754878207,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-08 03:06:29
+2084884754878207,Hongyu,Zhai,16377,854518728062939,2084884754878207,BOT: message,Would you answer this question for me?,2018-09-08 03:06:30
+2084884754878207,Hongyu,Zhai,16378,854518728062939,2084884754878207,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-09-08 03:06:30
+2084884754878207,Hongyu,Zhai,16379,854518728062939,2084884754878207,BOT: quick reply,How often should women perform a breast self-exam?,2018-09-08 03:06:31
+2084884754878207,Hongyu,Zhai,16380,2084884754878207,854518728062939,user_quick_reply: I_DONT_KNOW,I don’t know :downcast_face_with_sweat:,2018-09-08 03:06:41
+2084884754878207,Hongyu,Zhai,16381,854518728062939,2084884754878207,BOT: quick reply,Are you sure you want to give up?,2018-09-08 03:06:41
+2084884754878207,Hongyu,Zhai,16386,2084884754878207,854518728062939,user_quick_reply: GIVEUP_YES,"Yes, answer please.",2018-09-08 03:07:04
+2084884754878207,Hongyu,Zhai,16388,854518728062939,2084884754878207,BOT: message,You didn't get it right this time.,2018-09-08 03:07:04
+2084884754878207,Hongyu,Zhai,16390,854518728062939,2084884754878207,BOT: message,"That's okay, you'll get it next time! :grinning_face_with_smiling_eyes:",2018-09-08 03:07:05
+2084884754878207,Hongyu,Zhai,16392,854518728062939,2084884754878207,BOT: quick reply,The correct answer is monthly.,2018-09-08 03:07:06
+2084884754878207,Hongyu,Zhai,16397,2084884754878207,854518728062939,user_quick_reply: WHY,Why?,2018-09-08 03:07:13
+2084884754878207,Hongyu,Zhai,16398,854518728062939,2084884754878207,BOT: message,Here's why:,2018-09-08 03:07:14
+2084884754878207,Hongyu,Zhai,16399,854518728062939,2084884754878207,BOT: quick reply,"If you are a young woman, getting in the habit of performing a monthly breast self-exam is a good idea. Lumps or other subtle changes in the breasts may indicate breast cancer. The outcome is typically better if breast cancer is caught and treated early.",2018-09-08 03:07:15
+2084884754878207,Hongyu,Zhai,16409,2084884754878207,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-09-08 03:07:31
+2084884754878207,Hongyu,Zhai,16410,854518728062939,2084884754878207,BOT: message,Let's try this question.,2018-09-08 03:07:31
+2084884754878207,Hongyu,Zhai,16411,854518728062939,2084884754878207,BOT: quick reply,How often should women perform a breast self-exam?,2018-09-08 03:07:32
+2084884754878207,Hongyu,Zhai,16417,2084884754878207,854518728062939,user_typing,Monthly,2018-09-08 03:07:46
+2084884754878207,Hongyu,Zhai,16418,854518728062939,2084884754878207,BOT: image,https://www.smartprimer.ai:4443/pictures/avatar/congrats/penguinnormal_happy_pink.png,2018-09-08 03:07:48
+2084884754878207,Hongyu,Zhai,16420,854518728062939,2084884754878207,BOT: message,Good job! :raising_hands_medium-light_skin_tone:,2018-09-08 03:07:49
+2084884754878207,Hongyu,Zhai,16423,854518728062939,2084884754878207,BOT: quick reply,The correct answer is monthly.,2018-09-08 03:07:50
+2084884754878207,Hongyu,Zhai,16427,2084884754878207,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-08 03:07:56
+2084884754878207,Hongyu,Zhai,16428,854518728062939,2084884754878207,BOT: message,What about this next question:,2018-09-08 03:07:56
+2084884754878207,Hongyu,Zhai,16431,854518728062939,2084884754878207,BOT: quick reply,Most fungi get organic compounds from what?,2018-09-08 03:07:57
+2084884754878207,Hongyu,Zhai,16437,2084884754878207,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-08 03:08:05
+2084884754878207,Hongyu,Zhai,16438,854518728062939,2084884754878207,BOT: message,Pick one of the following answers.,2018-09-08 03:08:06
+2084884754878207,Hongyu,Zhai,16439,854518728062939,2084884754878207,BOT: quick reply,":keycap_1: carnivorous organisms
+:keycap_2: living organisms
+:keycap_3: dead organisms
+:keycap_4: inorganic material
+",2018-09-08 03:08:07
+2084884754878207,Hongyu,Zhai,16443,2084884754878207,854518728062939,user_quick_reply: BUTTON_AKB_dead organisms,:keycap_3:,2018-09-08 03:08:17
+2084884754878207,Hongyu,Zhai,16444,854518728062939,2084884754878207,BOT: image,https://www.smartprimer.ai:4443/pictures/avatar/congrats/penguinnormal_jubilated_orange.png,2018-09-08 03:08:18
+2084884754878207,Hongyu,Zhai,16446,854518728062939,2084884754878207,BOT: message,Nice work! Keep it up!,2018-09-08 03:08:19
+2084884754878207,Hongyu,Zhai,16448,854518728062939,2084884754878207,BOT: quick reply,The correct answer is dead organisms.,2018-09-08 03:08:20
+2084884754878207,Hongyu,Zhai,16452,2084884754878207,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-08 03:08:32
+2084884754878207,Hongyu,Zhai,16453,854518728062939,2084884754878207,BOT: message,What about this next question:,2018-09-08 03:08:33
+2084884754878207,Hongyu,Zhai,16454,854518728062939,2084884754878207,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-09-08 03:08:34
+2084884754878207,Hongyu,Zhai,16455,854518728062939,2084884754878207,BOT: quick reply,Most insects reproduce quickly and through what type of reproduction?,2018-09-08 03:08:34
+2084884754878207,Hongyu,Zhai,16456,2084884754878207,854518728062939,user_typing,Asexual reproduction,2018-09-08 03:08:52
+2084884754878207,Hongyu,Zhai,16457,854518728062939,2084884754878207,BOT: message,That wasn't quite what we were looking for. :disappointed_face:,2018-09-08 03:08:52
+2084884754878207,Hongyu,Zhai,16458,854518728062939,2084884754878207,BOT: quick reply,The correct answer is sexual reproduction.,2018-09-08 03:08:53
+2084884754878207,Hongyu,Zhai,16459,2084884754878207,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-08 03:09:00
+2084884754878207,Hongyu,Zhai,16460,854518728062939,2084884754878207,BOT: message,Let's see if you can answer this question.,2018-09-08 03:09:00
+2084884754878207,Hongyu,Zhai,16461,854518728062939,2084884754878207,BOT: quick reply,Nerve cells that sense touch are found mainly where?,2018-09-08 03:09:01
+2084884754878207,Hongyu,Zhai,16462,2084884754878207,854518728062939,user_typing,Skin,2018-09-08 03:09:11
+2084884754878207,Hongyu,Zhai,16463,854518728062939,2084884754878207,BOT: image,https://www.smartprimer.ai:4443/pictures/avatar/congrats/penguinnormal_jubilated_cyan.png,2018-09-08 03:09:13
+2084884754878207,Hongyu,Zhai,16464,854518728062939,2084884754878207,BOT: message,Fantastic! :hundred_points:,2018-09-08 03:09:14
+2084884754878207,Hongyu,Zhai,16465,854518728062939,2084884754878207,BOT: quick reply,The correct answer is skin.,2018-09-08 03:09:15
+2084884754878207,Hongyu,Zhai,16466,2084884754878207,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-08 03:09:20
+2084884754878207,Hongyu,Zhai,16467,854518728062939,2084884754878207,BOT: message,Let's see if you would answer this one.,2018-09-08 03:09:20
+2084884754878207,Hongyu,Zhai,16468,854518728062939,2084884754878207,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-09-08 03:09:21
+2084884754878207,Hongyu,Zhai,16469,854518728062939,2084884754878207,BOT: quick reply,"Temperature, water, soil, and air are examples of nonliving factors of an ecosystem, also termed what?",2018-09-08 03:09:22
+2084884754878207,Hongyu,Zhai,16470,2084884754878207,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-08 03:09:28
+2084884754878207,Hongyu,Zhai,16471,854518728062939,2084884754878207,BOT: message,Pick one of the following answers.,2018-09-08 03:09:29
+2084884754878207,Hongyu,Zhai,16472,854518728062939,2084884754878207,BOT: quick reply,":keycap_1: diverse factors
+:keycap_2: conditional factors
+:keycap_3: nucleic factors
+:keycap_4: abiotic factors
+",2018-09-08 03:09:29
+2084884754878207,Hongyu,Zhai,16473,2084884754878207,854518728062939,user_quick_reply: BUTTON_AKB_abiotic factors,:keycap_4:,2018-09-08 03:09:41
+2084884754878207,Hongyu,Zhai,16474,854518728062939,2084884754878207,BOT: message,Great job!,2018-09-08 03:09:42
+2084884754878207,Hongyu,Zhai,16475,854518728062939,2084884754878207,BOT: quick reply,The correct answer is abiotic factors.,2018-09-08 03:09:42
+2084884754878207,Hongyu,Zhai,16476,2084884754878207,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-08 03:09:47
+2084884754878207,Hongyu,Zhai,16477,854518728062939,2084884754878207,BOT: message,See if you can answer this next one.,2018-09-08 03:09:48
+2084884754878207,Hongyu,Zhai,16478,854518728062939,2084884754878207,BOT: quick reply,The electrode at which oxidation occurs is called the what?,2018-09-08 03:09:49
+2084884754878207,Hongyu,Zhai,16479,2084884754878207,854518728062939,user_typing,Anode,2018-09-08 03:09:58
+2084884754878207,Hongyu,Zhai,16480,854518728062939,2084884754878207,BOT: message,Good Answer! :white_heavy_check_mark:,2018-09-08 03:09:59
+2084884754878207,Hongyu,Zhai,16481,854518728062939,2084884754878207,BOT: quick reply,The correct answer is anode.,2018-09-08 03:09:59
+2084884754878207,Hongyu,Zhai,16482,2084884754878207,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-08 03:10:04
+2084884754878207,Hongyu,Zhai,16483,854518728062939,2084884754878207,BOT: message,Would you answer this question for me?,2018-09-08 03:10:04
+2084884754878207,Hongyu,Zhai,16484,854518728062939,2084884754878207,BOT: quick reply,The lithosphere is divided into a dozen major and several minor what?,2018-09-08 03:10:05
+2084884754878207,Hongyu,Zhai,16485,2084884754878207,854518728062939,user_typing,Plates,2018-09-08 03:10:20
+2084884754878207,Hongyu,Zhai,16486,854518728062939,2084884754878207,BOT: image,https://www.smartprimer.ai:4443/pictures/avatar/congrats/penguinnormal_normal_orange.png,2018-09-08 03:10:22
+2084884754878207,Hongyu,Zhai,16487,854518728062939,2084884754878207,BOT: message,Nice! :red_apple:,2018-09-08 03:10:23
+2084884754878207,Hongyu,Zhai,16488,854518728062939,2084884754878207,BOT: quick reply,The correct answer is plates.,2018-09-08 03:10:24
+2084884754878207,Hongyu,Zhai,16489,2084884754878207,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-08 03:10:28
+2084884754878207,Hongyu,Zhai,16490,854518728062939,2084884754878207,BOT: message,I think you'll like this question.,2018-09-08 03:10:29
+2084884754878207,Hongyu,Zhai,16491,854518728062939,2084884754878207,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-09-08 03:10:30
+2084884754878207,Hongyu,Zhai,16492,854518728062939,2084884754878207,BOT: quick reply,What are by far the most common type of invertebrate?,2018-09-08 03:10:31
+2084884754878207,Hongyu,Zhai,16493,2084884754878207,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-08 03:10:39
+2084884754878207,Hongyu,Zhai,16494,854518728062939,2084884754878207,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-09-08 03:10:39
+2084884754878207,Hongyu,Zhai,16495,854518728062939,2084884754878207,BOT: quick reply,":keycap_1: insects
+:keycap_2: crustaceans
+:keycap_3: spiders
+:keycap_4: corals
+",2018-09-08 03:10:40
+2084884754878207,Hongyu,Zhai,16496,2084884754878207,854518728062939,user_quick_reply: BUTTON_AKB_insects,:keycap_1:,2018-09-08 03:10:45
+2084884754878207,Hongyu,Zhai,16497,854518728062939,2084884754878207,BOT: image,https://www.smartprimer.ai:4443/pictures/avatar/congrats/penguinnormal_jubilated_cyan.png,2018-09-08 03:10:47
+2084884754878207,Hongyu,Zhai,16498,854518728062939,2084884754878207,BOT: message,Nice work! Keep it up!,2018-09-08 03:10:47
+2084884754878207,Hongyu,Zhai,16499,854518728062939,2084884754878207,BOT: quick reply,The correct answer is insects.,2018-09-08 03:10:48
+2084884754878207,Hongyu,Zhai,16500,2084884754878207,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-08 03:10:53
+2084884754878207,Hongyu,Zhai,16501,854518728062939,2084884754878207,BOT: message,See if you can answer this next one.,2018-09-08 03:10:53
+2084884754878207,Hongyu,Zhai,16502,854518728062939,2084884754878207,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-09-08 03:10:54
+2084884754878207,Hongyu,Zhai,16503,854518728062939,2084884754878207,BOT: quick reply,What are the little sacs at the end of the bronchioles called?,2018-09-08 03:10:55
+2084884754878207,Hongyu,Zhai,16504,2084884754878207,854518728062939,user_quick_reply: I_DONT_KNOW,I don’t know :downcast_face_with_sweat:,2018-09-08 03:11:02
+2084884754878207,Hongyu,Zhai,16505,854518728062939,2084884754878207,BOT: quick reply,Do you really want to skip this question?,2018-09-08 03:11:03
+2084884754878207,Hongyu,Zhai,16506,2084884754878207,854518728062939,user_quick_reply: GIVEUP_YES,"Yes, answer please.",2018-09-08 03:11:08
+2084884754878207,Hongyu,Zhai,16507,854518728062939,2084884754878207,BOT: message,You didn't get this question this time.,2018-09-08 03:11:08
+2084884754878207,Hongyu,Zhai,16508,854518728062939,2084884754878207,BOT: message,"Keep trying, you'll get it next time! :grinning_face_with_smiling_eyes:",2018-09-08 03:11:09
+2084884754878207,Hongyu,Zhai,16509,854518728062939,2084884754878207,BOT: quick reply,The correct answer is alveoli.,2018-09-08 03:11:10
+2084884754878207,Hongyu,Zhai,16510,2084884754878207,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-08 03:11:18
+2084884754878207,Hongyu,Zhai,16511,854518728062939,2084884754878207,BOT: message,"Alrighty, let's try this one.",2018-09-08 03:11:19
+2084884754878207,Hongyu,Zhai,16512,854518728062939,2084884754878207,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-09-08 03:11:19
+2084884754878207,Hongyu,Zhai,16513,854518728062939,2084884754878207,BOT: quick reply,What are the little sacs at the end of the bronchioles called?,2018-09-08 03:11:20
+2084884754878207,Hongyu,Zhai,16514,2084884754878207,854518728062939,user_typing,Alveoli,2018-09-08 03:11:30
+2084884754878207,Hongyu,Zhai,16515,854518728062939,2084884754878207,BOT: message,Good Answer! :white_heavy_check_mark:,2018-09-08 03:11:30
+2084884754878207,Hongyu,Zhai,16516,854518728062939,2084884754878207,BOT: quick reply,The correct answer is alveoli.,2018-09-08 03:11:31
+2084884754878207,Hongyu,Zhai,16517,2084884754878207,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-08 03:11:36
+2084884754878207,Hongyu,Zhai,16518,854518728062939,2084884754878207,BOT: message,How about this next one:,2018-09-08 03:11:37
+2084884754878207,Hongyu,Zhai,16519,854518728062939,2084884754878207,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-09-08 03:11:37
+2084884754878207,Hongyu,Zhai,16520,854518728062939,2084884754878207,BOT: quick reply,"What arises due to crossing over, independent assortment, and the random union of gametes?",2018-09-08 03:11:38
+2084884754878207,Hongyu,Zhai,16521,2084884754878207,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-08 03:11:46
+2084884754878207,Hongyu,Zhai,16522,854518728062939,2084884754878207,BOT: message,Pick one of the following answers.,2018-09-08 03:11:46
+2084884754878207,Hongyu,Zhai,16523,854518728062939,2084884754878207,BOT: quick reply,":keycap_1: recessive variation
+:keycap_2: susceptible variation
+:keycap_3: alternative variation
+:keycap_4: genetic variation
+",2018-09-08 03:11:47
+2084884754878207,Hongyu,Zhai,16524,2084884754878207,854518728062939,user_quick_reply: BUTTON_AKB_genetic variation,:keycap_4:,2018-09-08 03:11:53
+2084884754878207,Hongyu,Zhai,16525,854518728062939,2084884754878207,BOT: message,Yes! You got the correct answer!,2018-09-08 03:11:54
+2084884754878207,Hongyu,Zhai,16526,854518728062939,2084884754878207,BOT: quick reply,The correct answer is genetic variation.,2018-09-08 03:11:55
+2084884754878207,Hongyu,Zhai,16527,2084884754878207,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-08 03:12:01
+2084884754878207,Hongyu,Zhai,16528,854518728062939,2084884754878207,BOT: message,"Alrighty, let's try this one.",2018-09-08 03:12:01
+2084884754878207,Hongyu,Zhai,16529,854518728062939,2084884754878207,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-09-08 03:12:02
+2084884754878207,Hongyu,Zhai,16530,854518728062939,2084884754878207,BOT: quick reply,What disease characterized by the extreme swelling of the limbs is caused by infection with a type of roundworm?,2018-09-08 03:12:03
+2084884754878207,Hongyu,Zhai,16531,2084884754878207,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-08 03:12:11
+2084884754878207,Hongyu,Zhai,16532,854518728062939,2084884754878207,BOT: message,It's one of the following choices.,2018-09-08 03:12:12
+2084884754878207,Hongyu,Zhai,16533,854518728062939,2084884754878207,BOT: quick reply,":keycap_1: gigantism
+:keycap_2: elephantiasis
+:keycap_3: fibrosis
+:keycap_4: pulmonary edema
+",2018-09-08 03:12:13
+2084884754878207,Hongyu,Zhai,16534,2084884754878207,854518728062939,user_quick_reply: BUTTON_AKB_elephantiasis,:keycap_2:,2018-09-08 03:12:18
+2084884754878207,Hongyu,Zhai,16535,854518728062939,2084884754878207,BOT: message,Nice! That was right!,2018-09-08 03:12:19
+2084884754878207,Hongyu,Zhai,16536,854518728062939,2084884754878207,BOT: quick reply,The correct answer is elephantiasis.,2018-09-08 03:12:20
+2084884754878207,Hongyu,Zhai,16537,2084884754878207,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-08 03:12:55
+2084884754878207,Hongyu,Zhai,16538,854518728062939,2084884754878207,BOT: message,See if you can answer this next one.,2018-09-08 03:12:55
+2084884754878207,Hongyu,Zhai,16539,854518728062939,2084884754878207,BOT: quick reply,What is the diffusion of water through a semipermeable membrane down its concentration gradient?,2018-09-08 03:12:56
+2084884754878207,Hongyu,Zhai,16540,2084884754878207,854518728062939,user_typing,Osmosis,2018-09-08 03:13:06
+2084884754878207,Hongyu,Zhai,16541,854518728062939,2084884754878207,BOT: message,Nice! :red_apple:,2018-09-08 03:13:07
+2084884754878207,Hongyu,Zhai,16542,854518728062939,2084884754878207,BOT: quick reply,The correct answer is osmosis.,2018-09-08 03:13:08
+2084884754878207,Hongyu,Zhai,16543,2084884754878207,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-08 03:13:12
+2084884754878207,Hongyu,Zhai,16544,854518728062939,2084884754878207,BOT: message,Let's see if you can get this one.,2018-09-08 03:13:13
+2084884754878207,Hongyu,Zhai,16545,854518728062939,2084884754878207,BOT: quick reply,What kind of viscosity is found in long-chain hydrocarbons?,2018-09-08 03:13:14
+2084884754878207,Hongyu,Zhai,16546,2084884754878207,854518728062939,user_typing,High viscosity,2018-09-08 03:13:35
+2084884754878207,Hongyu,Zhai,16547,854518728062939,2084884754878207,BOT: message,Good Answer! :white_heavy_check_mark:,2018-09-08 03:13:36
+2084884754878207,Hongyu,Zhai,16548,854518728062939,2084884754878207,BOT: quick reply,The correct answer is high viscosity.,2018-09-08 03:13:37
+2084884754878207,Hongyu,Zhai,16549,2084884754878207,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-08 03:13:42
+2084884754878207,Hongyu,Zhai,16550,854518728062939,2084884754878207,BOT: message,"Alrighty, let's try this one.",2018-09-08 03:13:43
+2084884754878207,Hongyu,Zhai,16551,854518728062939,2084884754878207,BOT: quick reply,What living species of bird is considered the largest of the raptors?,2018-09-08 03:13:43
+2084884754878207,Hongyu,Zhai,16552,2084884754878207,854518728062939,user_typing,Golden eagles,2018-09-08 03:13:57
+2084884754878207,Hongyu,Zhai,16553,854518728062939,2084884754878207,BOT: image,https://www.smartprimer.ai:4443/pictures/avatar/congrats/penguinnormal_happy_pink.png,2018-09-08 03:13:59
+2084884754878207,Hongyu,Zhai,16554,854518728062939,2084884754878207,BOT: message,Good Answer! :white_heavy_check_mark:,2018-09-08 03:13:59
+2084884754878207,Hongyu,Zhai,16555,854518728062939,2084884754878207,BOT: quick reply,The correct answer is golden eagles.,2018-09-08 03:14:00
+2084884754878207,Hongyu,Zhai,16556,2084884754878207,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-08 03:14:05
+2084884754878207,Hongyu,Zhai,16557,854518728062939,2084884754878207,BOT: message,I think you'll like this question.,2018-09-08 03:14:05
+2084884754878207,Hongyu,Zhai,16558,854518728062939,2084884754878207,BOT: quick reply,What opens two strands of DNA?,2018-09-08 03:14:06
+2084884754878207,Hongyu,Zhai,16559,2084884754878207,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-08 03:14:14
+2084884754878207,Hongyu,Zhai,16560,854518728062939,2084884754878207,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-09-08 03:14:15
+2084884754878207,Hongyu,Zhai,16561,854518728062939,2084884754878207,BOT: quick reply,":keycap_1: adenylate
+:keycap_2: replication
+:keycap_3: helicase
+:keycap_4: chromosome
+",2018-09-08 03:14:16
+2084884754878207,Hongyu,Zhai,16562,2084884754878207,854518728062939,user_quick_reply: BUTTON_AKB_helicase,:keycap_3:,2018-09-08 03:14:21
+2084884754878207,Hongyu,Zhai,16563,854518728062939,2084884754878207,BOT: message,Yes! You got the correct answer!,2018-09-08 03:14:22
+2084884754878207,Hongyu,Zhai,16564,854518728062939,2084884754878207,BOT: quick reply,The correct answer is helicase.,2018-09-08 03:14:23
+2084884754878207,Hongyu,Zhai,16565,2084884754878207,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-08 03:14:28
+2084884754878207,Hongyu,Zhai,16566,854518728062939,2084884754878207,BOT: message,Would you answer this question for me?,2018-09-08 03:14:29
+2084884754878207,Hongyu,Zhai,16567,854518728062939,2084884754878207,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-09-08 03:14:29
+2084884754878207,Hongyu,Zhai,16568,854518728062939,2084884754878207,BOT: quick reply,"When your brain senses that your body temperature is increasing, it sends messages to the blood vessels in the skin to increase in what?",2018-09-08 03:14:30
+2084884754878207,Hongyu,Zhai,16569,2084884754878207,854518728062939,user_typing,Diameter,2018-09-08 03:14:45
+2084884754878207,Hongyu,Zhai,16570,854518728062939,2084884754878207,BOT: message,That’s right! :party_popper:,2018-09-08 03:14:47
+2084884754878207,Hongyu,Zhai,16571,854518728062939,2084884754878207,BOT: quick reply,The correct answer is diameter.,2018-09-08 03:14:47
+2084884754878207,Hongyu,Zhai,16572,2084884754878207,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-08 03:14:52
+2084884754878207,Hongyu,Zhai,16573,854518728062939,2084884754878207,BOT: quick reply,"Nice job! You've practiced enough questions today. Please come back tomorrow and click on ""Resume Learning :flexed_biceps_medium-light_skin_tone:"" for another practice session.",2018-09-08 03:14:53
+2084884754878207,Hongyu,Zhai,19372,854518728062939,2084884754878207,BOT: quick reply,"Hi Hongyu, remember to practice some questions with me if you haven't finished your session today!",2018-09-08 20:00:19

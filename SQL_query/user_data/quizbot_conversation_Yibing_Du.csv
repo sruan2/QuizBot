@@ -1,0 +1,34 @@
+user_id,user_firstname,user_lastname,uid,sender,recipient,type,dialogue,time_stamp
+1797420107023237,Yibing,Du,14121,1797420107023237,854518728062939,persistent_menu: GET_INTRO_1,Get Started,2018-09-08 00:10:54
+1797420107023237,Yibing,Du,14122,854518728062939,1797420107023237,BOT: image,https://www.smartprimer.ai:4443/pictures/avatar/quizbot_avatar.png,2018-09-08 00:10:58
+1797420107023237,Yibing,Du,14123,854518728062939,1797420107023237,BOT: quick reply,"Hi Yibing! My name is Frosty :penguin: and I’m here to help you learn all about science:microscope:, verbal reasoning (GRE) :input_latin_uppercase:, and safety:hammer_and_wrench:!",2018-09-08 00:10:58
+1797420107023237,Yibing,Du,14124,1797420107023237,854518728062939,user_quick_reply: GET_INTRO_2,Continue :white_heavy_check_mark:,2018-09-08 00:11:07
+1797420107023237,Yibing,Du,14125,854518728062939,1797420107023237,BOT: message,Here’s how it works.,2018-09-08 00:11:08
+1797420107023237,Yibing,Du,14126,854518728062939,1797420107023237,BOT: message,"I ask you questions, and you give me answers.",2018-09-08 00:11:08
+1797420107023237,Yibing,Du,14127,854518728062939,1797420107023237,BOT: quick reply,We will learn fun things together!,2018-09-08 00:11:09
+1797420107023237,Yibing,Du,14128,1797420107023237,854518728062939,user_quick_reply: GET_INTRO_3,Okay :clapping_hands_medium-light_skin_tone:,2018-09-08 00:11:13
+1797420107023237,Yibing,Du,14129,854518728062939,1797420107023237,BOT: image,https://www.smartprimer.ai:4443/pictures/user_manual/typeanswer.png,2018-09-08 00:11:15
+1797420107023237,Yibing,Du,14130,854518728062939,1797420107023237,BOT: quick reply,"To study the questions, you can type in your answers in the text field and I will evaluate the answers for you using advanced NLP (Natural Language Processing) technology.",2018-09-08 00:11:16
+1797420107023237,Yibing,Du,14131,1797420107023237,854518728062939,user_quick_reply: GET_INTRO_4,Alright :backhand_index_pointing_right_medium-light_skin_tone:,2018-09-08 00:11:26
+1797420107023237,Yibing,Du,14132,854518728062939,1797420107023237,BOT: image,https://www.smartprimer.ai:4443/pictures/user_manual/needhintbutton.png,2018-09-08 00:11:28
+1797420107023237,Yibing,Du,14133,854518728062939,1797420107023237,BOT: quick reply,"If you don't know the answers, then feel free to tap on the hint button.",2018-09-08 00:11:29
+1797420107023237,Yibing,Du,14134,1797420107023237,854518728062939,user_quick_reply: GET_INTRO_5,Alrighty :raising_hands_medium-light_skin_tone:,2018-09-08 00:11:38
+1797420107023237,Yibing,Du,14135,854518728062939,1797420107023237,BOT: image,https://www.smartprimer.ai:4443/pictures/user_manual/hintoptions.png,2018-09-08 00:11:41
+1797420107023237,Yibing,Du,14136,854518728062939,1797420107023237,BOT: quick reply,The hint will give you a list of potential answers and you can select one from them.,2018-09-08 00:11:41
+1797420107023237,Yibing,Du,14137,1797420107023237,854518728062939,user_quick_reply: GET_INTRO_6,Continue :raising_hands_medium-light_skin_tone:,2018-09-08 00:11:47
+1797420107023237,Yibing,Du,14138,854518728062939,1797420107023237,BOT: image,https://www.smartprimer.ai:4443/pictures/user_manual/menubutton.jpg,2018-09-08 00:11:48
+1797420107023237,Yibing,Du,14139,854518728062939,1797420107023237,BOT: quick reply,"To discover more abilities of me, you can click on the menu button.:backhand_index_pointing_up_medium-light_skin_tone:",2018-09-08 00:11:49
+1797420107023237,Yibing,Du,14140,1797420107023237,854518728062939,user_quick_reply: GET_READY,Sure :collision:,2018-09-08 00:11:59
+1797420107023237,Yibing,Du,14141,854518728062939,1797420107023237,BOT: message,I hope you enjoy the learning journey! :hundred_points:,2018-09-08 00:12:00
+1797420107023237,Yibing,Du,14142,854518728062939,1797420107023237,BOT: quick reply,"So, are you ready?",2018-09-08 00:12:01
+1797420107023237,Yibing,Du,14143,1797420107023237,854518728062939,user_quick_reply: YUP_IM_READY,Yup! I'm ready! :raised_fist_medium-light_skin_tone:,2018-09-08 00:12:05
+1797420107023237,Yibing,Du,14144,854518728062939,1797420107023237,BOT: message,Great!,2018-09-08 00:12:05
+1797420107023237,Yibing,Du,14145,854518728062939,1797420107023237,BOT: quick reply,Let’s get started :rocket:,2018-09-08 00:12:06
+1797420107023237,Yibing,Du,14146,1797420107023237,854518728062939,user_quick_reply: SWITCH_SUBJECT,Quiz me :nerd_face:,2018-09-08 00:12:10
+1797420107023237,Yibing,Du,14147,854518728062939,1797420107023237,BOT: quick reply,"Cool, which subject do you want to study?:backhand_index_pointing_down_medium-light_skin_tone:",2018-09-08 00:12:10
+1797420107023237,Yibing,Du,14148,1797420107023237,854518728062939,user_quick_reply: GRE,GRE :input_latin_uppercase:,2018-09-08 00:12:17
+1797420107023237,Yibing,Du,14149,854518728062939,1797420107023237,BOT: quick reply,All right! I’ll quiz you on GRE!,2018-09-08 00:12:18
+1797420107023237,Yibing,Du,14150,1797420107023237,854518728062939,user_quick_reply: NEXT_QUESTION,Next :flexed_biceps_medium-light_skin_tone:,2018-09-08 00:12:22
+1797420107023237,Yibing,Du,14151,854518728062939,1797420107023237,BOT: message,Let's see if you can get this one.,2018-09-08 00:12:22
+1797420107023237,Yibing,Du,14152,854518728062939,1797420107023237,BOT: quick reply,"Although John F. Kennedy was known for his carefree flag football games, Gerald Ford should be _____ as our football president: he turned down offers to play for two National Football League teams in order to pursue a career in public service.",2018-09-08 00:12:23
+1797420107023237,Yibing,Du,19350,854518728062939,1797420107023237,BOT: quick reply,"Hi Yibing, remember to practice some questions with me if you haven't finished your session today!",2018-09-08 20:00:04

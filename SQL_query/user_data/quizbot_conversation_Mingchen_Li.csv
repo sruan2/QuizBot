@@ -1,0 +1,35 @@
+user_id,user_firstname,user_lastname,uid,sender,recipient,type,dialogue,time_stamp
+1797737966942424,Mingchen,Li,19751,1797737966942424,854518728062939,persistent_menu: GET_INTRO_1,Get Started,2018-09-08 20:34:58
+1797737966942424,Mingchen,Li,19752,854518728062939,1797737966942424,BOT: image,https://www.smartprimer.ai:4443/pictures/avatar/quizbot_avatar.png,2018-09-08 20:35:01
+1797737966942424,Mingchen,Li,19753,854518728062939,1797737966942424,BOT: quick reply,"Hi Mingchen! My name is Frosty :penguin: and I’m here to help you learn all about science:microscope:, verbal reasoning (GRE) :input_latin_uppercase:, and safety:hammer_and_wrench:!",2018-09-08 20:35:02
+1797737966942424,Mingchen,Li,19754,854518728062939,1797737966942424,BOT: message,Here’s how it works.,2018-09-08 20:35:08
+1797737966942424,Mingchen,Li,19755,854518728062939,1797737966942424,BOT: message,"I ask you questions, and you give me answers.",2018-09-08 20:35:09
+1797737966942424,Mingchen,Li,19756,854518728062939,1797737966942424,BOT: quick reply,We will learn fun things together!,2018-09-08 20:35:09
+1797737966942424,Mingchen,Li,19757,1797737966942424,854518728062939,persistent_menu: GRE,GRE :input_latin_uppercase:,2018-09-08 20:35:16
+1797737966942424,Mingchen,Li,19758,854518728062939,1797737966942424,BOT: quick reply,Let's answer some questions about the GRE!,2018-09-08 20:35:17
+1797737966942424,Mingchen,Li,19759,1797737966942424,854518728062939,user_quick_reply: NEXT_QUESTION,Okay :flexed_biceps_medium-light_skin_tone:,2018-09-08 20:35:20
+1797737966942424,Mingchen,Li,19760,854518728062939,1797737966942424,BOT: message,Could you answer this one for me?,2018-09-08 20:35:21
+1797737966942424,Mingchen,Li,19761,854518728062939,1797737966942424,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-09-08 20:35:22
+1797737966942424,Mingchen,Li,19762,854518728062939,1797737966942424,BOT: quick reply,"Although John F. Kennedy was known for his carefree flag football games, Gerald Ford should be _____ as our football president: he turned down offers to play for two National Football League teams in order to pursue a career in public service.",2018-09-08 20:35:22
+1797737966942424,Mingchen,Li,19763,1797737966942424,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-08 20:35:29
+1797737966942424,Mingchen,Li,19764,854518728062939,1797737966942424,BOT: message,Pick one of the following answers.,2018-09-08 20:35:30
+1797737966942424,Mingchen,Li,19765,854518728062939,1797737966942424,BOT: quick reply,":keycap_1: annulled
+:keycap_2: abrogated
+:keycap_3: apotheosized
+:keycap_4: criticized
+:keycap_5: relegated
+",2018-09-08 20:35:30
+1797737966942424,Mingchen,Li,19766,1797737966942424,854518728062939,user_quick_reply: BUTTON_DKB_criticized,:keycap_4:,2018-09-08 20:35:49
+1797737966942424,Mingchen,Li,19767,854518728062939,1797737966942424,BOT: message,"Oops, that is not correct. :disappointed_face:",2018-09-08 20:35:50
+1797737966942424,Mingchen,Li,19768,854518728062939,1797737966942424,BOT: quick reply,The correct answer is apotheosized.,2018-09-08 20:35:51
+1797737966942424,Mingchen,Li,19769,1797737966942424,854518728062939,user_quick_reply: WHY,Why?,2018-09-08 20:35:55
+1797737966942424,Mingchen,Li,19770,854518728062939,1797737966942424,BOT: message,This is why:,2018-09-08 20:35:56
+1797737966942424,Mingchen,Li,19771,854518728062939,1797737966942424,BOT: quick reply,":pushpin: Apotheosized -- deify or glorify
+:pushpin: Relegated -- to send or consign to an inferior position, place, or condition
+:pushpin: Abrogated -- revoke formally
+:pushpin: Annulled -- declare invalid
+:pushpin: Criticized -- find fault with; express criticism of; point out real or perceived flaws",2018-09-08 20:35:56
+1797737966942424,Mingchen,Li,19772,1797737966942424,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-09-08 20:36:13
+1797737966942424,Mingchen,Li,19773,854518728062939,1797737966942424,BOT: message,Let's take a look at this question.,2018-09-08 20:36:14
+1797737966942424,Mingchen,Li,19774,854518728062939,1797737966942424,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-09-08 20:36:15
+1797737966942424,Mingchen,Li,19775,854518728062939,1797737966942424,BOT: quick reply,"Despite the smile that spread from ear to ear, the eyes relayed a certain _____ .",2018-09-08 20:36:15
