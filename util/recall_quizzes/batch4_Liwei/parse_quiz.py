@@ -113,12 +113,21 @@ def generate_user_qualtrics_import_txt():
 		result_string += "\n"
 		result_string += "Full Name"
 		result_string += "\n"
+		result_string += "[[Block]]"
+		result_string += "\n"
 
-		for i in user_wrong_questions_qualtrics_id[user]:
+		for i in user_wrong_questions_qualtrics_id[user][:-2]:
 			result_string += "[[Question:TE]]" 
 			result_string += "\n"
 			result_string += quiz_question[i]
 			result_string += "\n"
+			result_string += "[[Block]]"
+			result_string += "\n"
+
+		result_string += "[[Question:TE]]" 
+		result_string += "\n"
+		result_string += quiz_question[user_wrong_questions_qualtrics_id[user][-1]]
+
 		# print(user)
 		# print(result_string)
 		f = open("recall_quizzes/" + user + "_quiz.txt", 'w')
