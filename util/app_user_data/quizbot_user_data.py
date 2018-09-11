@@ -148,6 +148,7 @@ time_report = {} # a disctionary of dates and corresponding daily usage time
 question_report = {} # a disctionary of studied question (total studies question, unique studies questions)
 
 for user in users:
+    print(user)
     conversation_filename = os.path.join(
         dirname, "../../SQL_query/user_data/quizbot_conversation_" + user + ".csv")
 
@@ -301,7 +302,7 @@ for user in practice_question_count.keys():
     user_practice_question_count = [user] + practice_question_count[user].values()
     all_practice_question_count.append(user_practice_question_count)
 
-all_question_correctness_rate = zip(*all_practice_question_count)
+all_practice_question_count = zip(*all_practice_question_count)
 with open(practice_question_file, 'w') as csvfile:
     writer = csv.writer(csvfile)
     writer.writerows(all_practice_question_count)
