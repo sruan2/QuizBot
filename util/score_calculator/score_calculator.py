@@ -55,6 +55,17 @@ b1_to_id = {3: 145, 6: 90, 9: 24, 11: 58, 12: 130, 13: 148, 16: 83, 18: 59, 22: 
 b2_to_id = {0: 146, 1: 72, 2: 25, 4: 79, 7: 118, 8: 84, 10: 1, 14: 19, 15: 117, 17: 21, 19: 127, 23: 50, 26: 30, 28: 120, 31: 38, 32: 143, 34: 147, 35: 8, 37: 93, 38: 2, 41: 121, 42: 68, 43: 53, 51: 97, 53: 112, 57: 42, 59: 87}
 
 
+# batch4 pre score report and user record files
+batch4_pre_score_report_filename = "csv/batch4_pre_score_report.csv"
+batch4_pre_user_record_filename = "csv/batch4_pre_user_record.csv"
+
+# batch4 post score report and user record files
+batch4_post_score_report_filename = "csv/batch4_post_score_report.csv"
+batch4_post_user_record_filename = "csv/batch4_post_user_record.csv"
+
+batch4_grade_report_filename = "batch4_grade_report.csv"
+
+
 def quiz_a_within_subject_score_split():
 	'''
 		Calculate the quiz a1, a2 splitting scores (within subject, quiz a1, a2)
@@ -493,7 +504,124 @@ def quiz_b_within_subject_score_seen():
 	print(result_data)
 	print(len(result_data))
 
-if __name__ == "__main__":
-	quiz_b_within_subject_score_seen()
 
+def parse_answers():
+	'''
+		parse answers of batch4 qualtrics quizzes
+	'''
+	quiz_answer = []
+	quiz_question = []
+	with open(batch4_pre_score_report_filename, 'rb') as csvfile:
+		reader = list(csv.reader(csvfile))
+		for i in range(len(reader)):
+			if len(reader[i]) >= 2:
+				if reader[i][1] == "Total":
+					quiz_answer.append(reader[i - 1][1])	
+
+	quiz_answer.pop(63) # remove the attention check question
+	return quiz_answer
+
+
+def parse_user_records_post():
+	'''
+		parse user records of batch4 post qualtrics quiz 
+	'''
+	user_record = {}
+	with open(batch4_post_user_record_filename, 'rt') as csvfile:
+		reader = list(csv.reader(csvfile))
+		quiz = reader[3:]
+
+	for i in range(len(quiz)):
+		user = (quiz[i][17] + "_" + quiz[i][18]).lower()
+		user = user.replace(" ", "")
+		user_record[user] = [quiz[i][j + 71] for j in range(63)]
+		user_record[user].extend([quiz[i][j + 72] for j in range(63, 96)])
+	return user_record
+
+
+def parse_user_records_pre():
+	'''
+		parse user records of batch4 pre qualtrics quiz 
+	'''
+	user_record = {}
+	with open(batch4_pre_user_record_filename, 'rt') as csvfile:
+		reader = list(csv.reader(csvfile))
+		quiz = reader[3:]
+
+	for i in range(len(quiz)):
+		user = (quiz[i][17] + "_" + quiz[i][18]).lower()
+		user = user.replace(" ", "")
+		user_record[user] = [quiz[i][j + 29] for j in range(63)]
+		user_record[user].extend([quiz[i][j + 30] for j in range(63, 96)])
+	return user_record
+
+
+def get_question_grade_pre():
+	'''
+		get the grade of each question in batch4 pre qualtrics quiz 
+	'''
+	quiz_answer = parse_answers()
+	user_record = parse_user_records_pre()
+
+	user_wrong_qualtrics_id = {}
+
+	users = user_record.keys()
+	for user in users:
+		wrong_question_qualtrics_id = []
+		for i in range(96):
+			if user_record[user][i] == quiz_answer[i]:
+				wrong_question_qualtrics_id.append(1)
+			else:
+				wrong_question_qualtrics_id.append(0)
+		user_wrong_qualtrics_id[user] = wrong_question_qualtrics_id
+
+	return user_wrong_qualtrics_id
+
+
+def get_question_grade_post():
+	'''
+		get the grade of each question in batch4 post qualtrics quiz 
+	'''
+	quiz_answer = parse_answers()
+	user_record = parse_user_records_post()
+
+	user_wrong_qualtrics_id = {}
+
+	users = user_record.keys()
+	for user in users:
+		wrong_question_qualtrics_id = []
+		for i in range(96):
+			if user_record[user][i] == quiz_answer[i]:
+				wrong_question_qualtrics_id.append(1)
+			else:
+				wrong_question_qualtrics_id.append(0)
+		user_wrong_qualtrics_id[user] = wrong_question_qualtrics_id
+
+	return user_wrong_qualtrics_id
+
+
+def generate_grade_report():
+	grade_report_pre = get_question_grade_pre()
+	grade_report_post = get_question_grade_post()
+	result_report = []
+
+	users = grade_report_post.keys()
+	for user in users:
+		sub_result_report = []
+		sub_result_report.append(user)
+		sub_result_report.extend(grade_report_pre[user])
+		result_report.append(sub_result_report)
+		sub_result_report = []
+		sub_result_report.append(user)
+		sub_result_report.extend(grade_report_post[user])
+		result_report.append(sub_result_report)
+
+	result_report = zip(*result_report)
+	with open(batch4_grade_report_filename, 'w') as csvfile:
+		writer = csv.writer(csvfile)
+		writer.writerows(result_report)
+
+
+if __name__ == "__main__":
+	generate_grade_report()
 
