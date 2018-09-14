@@ -565,3 +565,783 @@ user_id,user_firstname,user_lastname,uid,sender,recipient,type,dialogue,time_sta
 1808229782565732,Emma,Chen,16450,1808229782565732,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-08 03:08:24
 1808229782565732,Emma,Chen,16451,854518728062939,1808229782565732,BOT: quick reply,"Nice job! You've practiced enough questions today. Please come back tomorrow and click on ""Resume Learning :flexed_biceps_medium-light_skin_tone:"" for another practice session.",2018-09-08 03:08:25
 1808229782565732,Emma,Chen,19351,854518728062939,1808229782565732,BOT: quick reply,"Hi Emma, remember to practice some questions with me if you haven't finished your session today!",2018-09-08 20:00:05
+1808229782565732,Emma,Chen,21220,1808229782565732,854518728062939,user_quick_reply: NEXT_QUESTION,Sure :oncoming_fist_medium-light_skin_tone:,2018-09-09 01:42:15
+1808229782565732,Emma,Chen,21221,854518728062939,1808229782565732,BOT: quick reply,"Nice job! You've practiced enough questions today. Please come back tomorrow and click on ""Resume Learning :flexed_biceps_medium-light_skin_tone:"" for another practice session.",2018-09-09 01:42:16
+1808229782565732,Emma,Chen,21228,1808229782565732,854518728062939,persistent_menu: RANDOM,Random :game_die:,2018-09-09 01:42:29
+1808229782565732,Emma,Chen,21230,854518728062939,1808229782565732,BOT: quick reply,Okay! Let’s mix it up! :game_die:,2018-09-09 01:42:29
+1808229782565732,Emma,Chen,21233,854518728062939,1808229782565732,BOT: message,Let's see if you can get this one.,2018-09-09 01:42:35
+1808229782565732,Emma,Chen,21235,854518728062939,1808229782565732,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-09-09 01:42:35
+1808229782565732,Emma,Chen,21236,854518728062939,1808229782565732,BOT: quick reply,Which fire extinguishers are used to put out fires caused by flammable liquids?,2018-09-09 01:42:36
+1808229782565732,Emma,Chen,21239,1808229782565732,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-09 01:42:41
+1808229782565732,Emma,Chen,21241,854518728062939,1808229782565732,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-09-09 01:42:41
+1808229782565732,Emma,Chen,21242,854518728062939,1808229782565732,BOT: quick reply,":keycap_1: Class C dry chemical fire extinguisher
+:keycap_2: Class A water fire extinguishers
+:keycap_3: Class B carbon dioxide fire extinguisher
+",2018-09-09 01:42:42
+1808229782565732,Emma,Chen,21281,1808229782565732,854518728062939,user_quick_reply: BUTTON_DKB_Class C dry chemical fire extinguisher,:keycap_1:,2018-09-09 01:43:31
+1808229782565732,Emma,Chen,21282,854518728062939,1808229782565732,BOT: message,"I'm sorry, but that was incorrect. :disappointed_face:",2018-09-09 01:43:32
+1808229782565732,Emma,Chen,21283,854518728062939,1808229782565732,BOT: quick reply,The correct answer is Class B carbon dioxide fire extinguisher.,2018-09-09 01:43:32
+1808229782565732,Emma,Chen,21287,1808229782565732,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-09 01:43:38
+1808229782565732,Emma,Chen,21288,854518728062939,1808229782565732,BOT: message,"Alrighty, let's try this one.",2018-09-09 01:43:39
+1808229782565732,Emma,Chen,21290,854518728062939,1808229782565732,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-09-09 01:43:39
+1808229782565732,Emma,Chen,21292,854518728062939,1808229782565732,BOT: quick reply,"If your co-worker needs CPR but you are not trained in it, what should you do?",2018-09-09 01:43:40
+1808229782565732,Emma,Chen,21300,1808229782565732,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-09 01:43:47
+1808229782565732,Emma,Chen,21301,854518728062939,1808229782565732,BOT: message,Okay. I'll give you some choices.,2018-09-09 01:43:48
+1808229782565732,Emma,Chen,21302,854518728062939,1808229782565732,BOT: quick reply,":keycap_1: Lift the patient's head
+:keycap_2: Perform chest compressions only
+:keycap_3: Give rescue breaths only
+:keycap_4: Wait for emergency personnel to arrive
+",2018-09-09 01:43:49
+1808229782565732,Emma,Chen,21328,1808229782565732,854518728062939,user_quick_reply: BUTTON_DKB_Wait for emergency personnel to arrive,:keycap_4:,2018-09-09 01:44:25
+1808229782565732,Emma,Chen,21329,854518728062939,1808229782565732,BOT: message,"Hmm, that wasn't quite right. :disappointed_face:",2018-09-09 01:44:26
+1808229782565732,Emma,Chen,21331,854518728062939,1808229782565732,BOT: quick reply,The correct answer is Perform chest compressions only.,2018-09-09 01:44:27
+1808229782565732,Emma,Chen,21335,1808229782565732,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-09 01:44:33
+1808229782565732,Emma,Chen,21336,854518728062939,1808229782565732,BOT: message,Let's see if you can answer this question.,2018-09-09 01:44:34
+1808229782565732,Emma,Chen,21337,854518728062939,1808229782565732,BOT: quick reply,"When you discover a fire, you should do what?",2018-09-09 01:44:35
+1808229782565732,Emma,Chen,21338,1808229782565732,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-09 01:44:39
+1808229782565732,Emma,Chen,21339,854518728062939,1808229782565732,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-09-09 01:44:40
+1808229782565732,Emma,Chen,21340,854518728062939,1808229782565732,BOT: quick reply,":keycap_1: Pull the fire alarm and call the fire department
+:keycap_2: Stay in the building until you figure out a way to extinguish the fire
+:keycap_3: Use a fire extinguisher to put out the fire, even if you've never used a fire extinguisher before
+:keycap_4: Run out of the building without warning others of the fire
+",2018-09-09 01:44:40
+1808229782565732,Emma,Chen,21349,1808229782565732,854518728062939,user_quick_reply: BUTTON_AKB_Pull the fire alarm and call the fire department,:keycap_1:,2018-09-09 01:44:58
+1808229782565732,Emma,Chen,21350,854518728062939,1808229782565732,BOT: message,Great job!,2018-09-09 01:44:58
+1808229782565732,Emma,Chen,21351,854518728062939,1808229782565732,BOT: quick reply,The correct answer is Pull the fire alarm and call the fire department.,2018-09-09 01:44:59
+1808229782565732,Emma,Chen,21355,1808229782565732,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-09 01:45:02
+1808229782565732,Emma,Chen,21356,854518728062939,1808229782565732,BOT: message,I think you'll like this question.,2018-09-09 01:45:03
+1808229782565732,Emma,Chen,21357,854518728062939,1808229782565732,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-09-09 01:45:03
+1808229782565732,Emma,Chen,21358,854518728062939,1808229782565732,BOT: quick reply,What three major factors cause food contamination?,2018-09-09 01:45:04
+1808229782565732,Emma,Chen,21359,1808229782565732,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-09 01:45:10
+1808229782565732,Emma,Chen,21360,854518728062939,1808229782565732,BOT: message,Which of the following options is the right answer?,2018-09-09 01:45:11
+1808229782565732,Emma,Chen,21361,854518728062939,1808229782565732,BOT: quick reply,":keycap_1: Physical, biological, and chemical
+:keycap_2: Physical, psychological, and health
+:keycap_3: Physical, chemical, and psychosocial
+:keycap_4: Physical, biological, and radiological
+",2018-09-09 01:45:12
+1808229782565732,Emma,Chen,21384,1808229782565732,854518728062939,"user_quick_reply: BUTTON_AKB_Physical, biological, and chemical",:keycap_1:,2018-09-09 01:46:06
+1808229782565732,Emma,Chen,21386,854518728062939,1808229782565732,BOT: image,https://www.smartprimer.ai:4443/pictures/avatar/congrats/penguinnormal_normal_orange.png,2018-09-09 01:46:08
+1808229782565732,Emma,Chen,21388,854518728062939,1808229782565732,BOT: message,Nice! That was right!,2018-09-09 01:46:09
+1808229782565732,Emma,Chen,21390,854518728062939,1808229782565732,BOT: quick reply,"The correct answer is Physical, biological, and chemical.",2018-09-09 01:46:09
+1808229782565732,Emma,Chen,21391,1808229782565732,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-09 01:46:12
+1808229782565732,Emma,Chen,21392,854518728062939,1808229782565732,BOT: message,Let's try this question.,2018-09-09 01:46:13
+1808229782565732,Emma,Chen,21394,854518728062939,1808229782565732,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-09-09 01:46:13
+1808229782565732,Emma,Chen,21396,854518728062939,1808229782565732,BOT: quick reply,"What agency inspects, grades, and enforces standards of quality and wholesomeness for meat, poultry, milk, eggs, and grains?",2018-09-09 01:46:14
+1808229782565732,Emma,Chen,21398,1808229782565732,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-09 01:46:24
+1808229782565732,Emma,Chen,21399,854518728062939,1808229782565732,BOT: message,Pick one of the following answers.,2018-09-09 01:46:25
+1808229782565732,Emma,Chen,21400,854518728062939,1808229782565732,BOT: quick reply,":keycap_1: EPA
+:keycap_2: CDC
+:keycap_3: USDA
+:keycap_4: FDA
+",2018-09-09 01:46:25
+1808229782565732,Emma,Chen,21407,1808229782565732,854518728062939,user_quick_reply: BUTTON_DKB_FDA,:keycap_4:,2018-09-09 01:46:43
+1808229782565732,Emma,Chen,21408,854518728062939,1808229782565732,BOT: message,"Oops, that wasn't quite correct. :disappointed_face:",2018-09-09 01:46:43
+1808229782565732,Emma,Chen,21409,854518728062939,1808229782565732,BOT: quick reply,The correct answer is USDA.,2018-09-09 01:46:44
+1808229782565732,Emma,Chen,21413,1808229782565732,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-09 01:46:47
+1808229782565732,Emma,Chen,21414,854518728062939,1808229782565732,BOT: message,Could you answer this one for me?,2018-09-09 01:46:48
+1808229782565732,Emma,Chen,21415,854518728062939,1808229782565732,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-09-09 01:46:49
+1808229782565732,Emma,Chen,21416,854518728062939,1808229782565732,BOT: quick reply,Working on scaffold during winds above ____ miles per hour is prohibited by OSHA.,2018-09-09 01:46:49
+1808229782565732,Emma,Chen,21417,1808229782565732,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-09 01:46:54
+1808229782565732,Emma,Chen,21418,854518728062939,1808229782565732,BOT: message,Pick one of the following answers.,2018-09-09 01:46:55
+1808229782565732,Emma,Chen,21419,854518728062939,1808229782565732,BOT: quick reply,":keycap_1: 40
+:keycap_2: 10
+:keycap_3: 50
+:keycap_4: 25
+",2018-09-09 01:46:55
+1808229782565732,Emma,Chen,21429,1808229782565732,854518728062939,user_quick_reply: BUTTON_AKB_40,:keycap_1:,2018-09-09 01:47:51
+1808229782565732,Emma,Chen,21430,854518728062939,1808229782565732,BOT: message,Nice! That was right!,2018-09-09 01:47:52
+1808229782565732,Emma,Chen,21431,854518728062939,1808229782565732,BOT: quick reply,The correct answer is 40.,2018-09-09 01:47:53
+1808229782565732,Emma,Chen,21435,1808229782565732,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-09 01:47:56
+1808229782565732,Emma,Chen,21436,854518728062939,1808229782565732,BOT: message,Let's see if you can get this one.,2018-09-09 01:47:57
+1808229782565732,Emma,Chen,21437,854518728062939,1808229782565732,BOT: message,Remember that you can always type in your answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-09-09 01:47:57
+1808229782565732,Emma,Chen,21438,854518728062939,1808229782565732,BOT: quick reply,To what does the acronym SLM refer?,2018-09-09 01:47:58
+1808229782565732,Emma,Chen,21439,1808229782565732,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-09 01:48:02
+1808229782565732,Emma,Chen,21440,854518728062939,1808229782565732,BOT: message,Which of the following options is the right answer?,2018-09-09 01:48:03
+1808229782565732,Emma,Chen,21441,854518728062939,1808229782565732,BOT: quick reply,":keycap_1: Sound Level Meter
+:keycap_2: Service Lifecycle Management
+:keycap_3: Sound Loudness Methods
+:keycap_4: System Level Monitor
+",2018-09-09 01:48:04
+1808229782565732,Emma,Chen,21451,1808229782565732,854518728062939,user_quick_reply: BUTTON_DKB_Service Lifecycle Management,:keycap_2:,2018-09-09 01:49:10
+1808229782565732,Emma,Chen,21452,854518728062939,1808229782565732,BOT: message,That's not quite right. :disappointed_face:,2018-09-09 01:49:11
+1808229782565732,Emma,Chen,21453,854518728062939,1808229782565732,BOT: quick reply,The correct answer is Sound Level Meter.,2018-09-09 01:49:11
+1808229782565732,Emma,Chen,21457,1808229782565732,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-09 01:49:15
+1808229782565732,Emma,Chen,21459,854518728062939,1808229782565732,BOT: message,See if you can answer this next one.,2018-09-09 01:49:15
+1808229782565732,Emma,Chen,21460,854518728062939,1808229782565732,BOT: quick reply,"True or false: if you wear a back belt, you can lift more weight than you could without a belt.",2018-09-09 01:49:16
+1808229782565732,Emma,Chen,21464,1808229782565732,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-09 01:49:36
+1808229782565732,Emma,Chen,21465,854518728062939,1808229782565732,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-09-09 01:49:36
+1808229782565732,Emma,Chen,21466,854518728062939,1808229782565732,BOT: quick reply,":keycap_1: False
+:keycap_2: True
+",2018-09-09 01:49:37
+1808229782565732,Emma,Chen,21467,1808229782565732,854518728062939,user_quick_reply: BUTTON_DKB_True,:keycap_2:,2018-09-09 01:49:41
+1808229782565732,Emma,Chen,21468,854518728062939,1808229782565732,BOT: message,"Hmm, that wasn't quite right. :disappointed_face:",2018-09-09 01:49:42
+1808229782565732,Emma,Chen,21469,854518728062939,1808229782565732,BOT: quick reply,The correct answer is False.,2018-09-09 01:49:42
+1808229782565732,Emma,Chen,21471,1808229782565732,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-09 01:49:45
+1808229782565732,Emma,Chen,21473,854518728062939,1808229782565732,BOT: message,I think you'll like this question.,2018-09-09 01:49:46
+1808229782565732,Emma,Chen,21475,854518728062939,1808229782565732,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-09-09 01:49:47
+1808229782565732,Emma,Chen,21476,854518728062939,1808229782565732,BOT: quick reply,True or false: portable fire extinguishers should only be used by trained employees.,2018-09-09 01:49:47
+1808229782565732,Emma,Chen,21489,1808229782565732,854518728062939,user_typing,False,2018-09-09 01:50:02
+1808229782565732,Emma,Chen,21491,854518728062939,1808229782565732,BOT: message,"I'm sorry, but that was incorrect. :disappointed_face:",2018-09-09 01:50:03
+1808229782565732,Emma,Chen,21493,854518728062939,1808229782565732,BOT: quick reply,The correct answer is True.,2018-09-09 01:50:03
+1808229782565732,Emma,Chen,21494,1808229782565732,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-09 01:50:06
+1808229782565732,Emma,Chen,21495,854518728062939,1808229782565732,BOT: message,Let's take a look at this question.,2018-09-09 01:50:07
+1808229782565732,Emma,Chen,21496,854518728062939,1808229782565732,BOT: quick reply,"True or false: you can always smell, see, or taste harmful bacteria in food that can cause illness.",2018-09-09 01:50:08
+1808229782565732,Emma,Chen,21510,1808229782565732,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-09 01:50:29
+1808229782565732,Emma,Chen,21511,854518728062939,1808229782565732,BOT: message,Pick one of the following answers.,2018-09-09 01:50:30
+1808229782565732,Emma,Chen,21512,854518728062939,1808229782565732,BOT: quick reply,":keycap_1: False
+:keycap_2: True
+",2018-09-09 01:50:30
+1808229782565732,Emma,Chen,21532,1808229782565732,854518728062939,user_quick_reply: BUTTON_AKB_False,:keycap_1:,2018-09-09 01:51:05
+1808229782565732,Emma,Chen,21534,854518728062939,1808229782565732,BOT: message,Nice work! Keep it up!,2018-09-09 01:51:05
+1808229782565732,Emma,Chen,21536,854518728062939,1808229782565732,BOT: quick reply,The correct answer is False.,2018-09-09 01:51:06
+1808229782565732,Emma,Chen,21538,1808229782565732,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-09 01:51:08
+1808229782565732,Emma,Chen,21539,854518728062939,1808229782565732,BOT: message,I think you'll like this question.,2018-09-09 01:51:09
+1808229782565732,Emma,Chen,21542,854518728062939,1808229782565732,BOT: quick reply,What does CERT stand for?,2018-09-09 01:51:10
+1808229782565732,Emma,Chen,21547,1808229782565732,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-09 01:51:15
+1808229782565732,Emma,Chen,21548,854518728062939,1808229782565732,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-09-09 01:51:15
+1808229782565732,Emma,Chen,21549,854518728062939,1808229782565732,BOT: quick reply,":keycap_1: Controlled Evacuation and Response Tactics
+:keycap_2: Community Emergency Response Team
+:keycap_3: Central Emergency Response Terminal
+:keycap_4: Community Experimental Research Team
+",2018-09-09 01:51:16
+1808229782565732,Emma,Chen,21553,1808229782565732,854518728062939,user_quick_reply: BUTTON_AKB_Community Emergency Response Team,:keycap_2:,2018-09-09 01:51:36
+1808229782565732,Emma,Chen,21554,854518728062939,1808229782565732,BOT: message,Great job getting the correct answer!,2018-09-09 01:51:37
+1808229782565732,Emma,Chen,21555,854518728062939,1808229782565732,BOT: quick reply,The correct answer is Community Emergency Response Team.,2018-09-09 01:51:38
+1808229782565732,Emma,Chen,21556,1808229782565732,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-09 01:51:42
+1808229782565732,Emma,Chen,21557,854518728062939,1808229782565732,BOT: message,Let's see if you can answer this question.,2018-09-09 01:51:42
+1808229782565732,Emma,Chen,21559,854518728062939,1808229782565732,BOT: quick reply,What should you NOT do while treating cuts and scrapes?,2018-09-09 01:51:43
+1808229782565732,Emma,Chen,21563,1808229782565732,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-09 01:51:46
+1808229782565732,Emma,Chen,21564,854518728062939,1808229782565732,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-09-09 01:51:47
+1808229782565732,Emma,Chen,21565,854518728062939,1808229782565732,BOT: quick reply,":keycap_1: Wash the wound with soap
+:keycap_2: Apply an antibiotic to the wound
+:keycap_3: Cover the wound
+:keycap_4: Apply pressure on the wound with a clean cloth or bandage
+",2018-09-09 01:51:48
+1808229782565732,Emma,Chen,21572,1808229782565732,854518728062939,user_quick_reply: BUTTON_DKB_Cover the wound,:keycap_3:,2018-09-09 01:52:02
+1808229782565732,Emma,Chen,21573,854518728062939,1808229782565732,BOT: message,"Oops, that is not correct. :disappointed_face:",2018-09-09 01:52:02
+1808229782565732,Emma,Chen,21574,854518728062939,1808229782565732,BOT: quick reply,The correct answer is Wash the wound with soap.,2018-09-09 01:52:03
+1808229782565732,Emma,Chen,21576,1808229782565732,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-09 01:52:06
+1808229782565732,Emma,Chen,21578,854518728062939,1808229782565732,BOT: message,How about this next one:,2018-09-09 01:52:07
+1808229782565732,Emma,Chen,21580,854518728062939,1808229782565732,BOT: message,Remember that you can always type in your answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-09-09 01:52:07
+1808229782565732,Emma,Chen,21582,854518728062939,1808229782565732,BOT: quick reply,"Although John F. Kennedy was known for his carefree flag football games, Gerald Ford should be _____ as our football president: he turned down offers to play for two National Football League teams in order to pursue a career in public service.",2018-09-09 01:52:08
+1808229782565732,Emma,Chen,21591,1808229782565732,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-09 01:52:14
+1808229782565732,Emma,Chen,21592,854518728062939,1808229782565732,BOT: message,Which of the following options is the right answer?,2018-09-09 01:52:15
+1808229782565732,Emma,Chen,21593,854518728062939,1808229782565732,BOT: quick reply,":keycap_1: annulled
+:keycap_2: criticized
+:keycap_3: apotheosized
+:keycap_4: abrogated
+:keycap_5: relegated
+",2018-09-09 01:52:16
+1808229782565732,Emma,Chen,21594,1808229782565732,854518728062939,user_quick_reply: BUTTON_AKB_apotheosized,:keycap_3:,2018-09-09 01:52:20
+1808229782565732,Emma,Chen,21595,854518728062939,1808229782565732,BOT: message,Great job getting the correct answer!,2018-09-09 01:52:21
+1808229782565732,Emma,Chen,21597,854518728062939,1808229782565732,BOT: quick reply,The correct answer is apotheosized.,2018-09-09 01:52:22
+1808229782565732,Emma,Chen,21604,1808229782565732,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-09 01:52:25
+1808229782565732,Emma,Chen,21605,854518728062939,1808229782565732,BOT: message,What about this next question:,2018-09-09 01:52:25
+1808229782565732,Emma,Chen,21606,854518728062939,1808229782565732,BOT: quick reply,"Despite the smile that spread from ear to ear, the eyes relayed a certain _____ .",2018-09-09 01:52:26
+1808229782565732,Emma,Chen,21610,1808229782565732,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-09 01:52:30
+1808229782565732,Emma,Chen,21611,854518728062939,1808229782565732,BOT: message,Which of the following options is the right answer?,2018-09-09 01:52:31
+1808229782565732,Emma,Chen,21612,854518728062939,1808229782565732,BOT: quick reply,":keycap_1: sorrow
+:keycap_2: jubilance
+:keycap_3: liveliness
+:keycap_4: mischievousness
+:keycap_5: vision
+",2018-09-09 01:52:32
+1808229782565732,Emma,Chen,21617,1808229782565732,854518728062939,user_quick_reply: BUTTON_AKB_sorrow,:keycap_1:,2018-09-09 01:52:35
+1808229782565732,Emma,Chen,21619,854518728062939,1808229782565732,BOT: image,https://www.smartprimer.ai:4443/pictures/avatar/congrats/penguinnormal_jubilated_purple.png,2018-09-09 01:52:37
+1808229782565732,Emma,Chen,21622,854518728062939,1808229782565732,BOT: message,Great job getting the correct answer!,2018-09-09 01:52:38
+1808229782565732,Emma,Chen,21623,854518728062939,1808229782565732,BOT: quick reply,The correct answer is sorrow.,2018-09-09 01:52:39
+1808229782565732,Emma,Chen,21624,1808229782565732,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-09 01:52:42
+1808229782565732,Emma,Chen,21625,854518728062939,1808229782565732,BOT: message,Would you answer this question for me?,2018-09-09 01:52:44
+1808229782565732,Emma,Chen,21626,854518728062939,1808229782565732,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-09-09 01:52:45
+1808229782565732,Emma,Chen,21627,854518728062939,1808229782565732,BOT: quick reply,"Dolly Madison, the wife of President James Madison, was known especially for her _____ , remaining calm even as the British invaded Washington D.C. during the War of 1812.",2018-09-09 01:52:45
+1808229782565732,Emma,Chen,21628,1808229782565732,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-09 01:52:49
+1808229782565732,Emma,Chen,21629,854518728062939,1808229782565732,BOT: message,Okay. I'll give you some choices.,2018-09-09 01:52:49
+1808229782565732,Emma,Chen,21630,854518728062939,1808229782565732,BOT: quick reply,":keycap_1: malevolence
+:keycap_2: zeal
+:keycap_3: equanimity
+:keycap_4: impracticality
+:keycap_5: cynicism
+",2018-09-09 01:52:50
+1808229782565732,Emma,Chen,21631,1808229782565732,854518728062939,user_quick_reply: BUTTON_AKB_equanimity,:keycap_3:,2018-09-09 01:52:54
+1808229782565732,Emma,Chen,21632,854518728062939,1808229782565732,BOT: message,Great! Keep it up! :flexed_biceps_medium-light_skin_tone:,2018-09-09 01:52:54
+1808229782565732,Emma,Chen,21633,854518728062939,1808229782565732,BOT: quick reply,The correct answer is equanimity.,2018-09-09 01:52:55
+1808229782565732,Emma,Chen,21634,1808229782565732,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-09 01:52:58
+1808229782565732,Emma,Chen,21635,854518728062939,1808229782565732,BOT: message,See if you can answer this next one.,2018-09-09 01:52:59
+1808229782565732,Emma,Chen,21636,854518728062939,1808229782565732,BOT: quick reply,"Even though legislators claimed the Contagious Diseases Acts strengthened the nation, social purists argued the Acts _____ the nation's moral growth by encouraging licentious behavior.",2018-09-09 01:52:59
+1808229782565732,Emma,Chen,21644,1808229782565732,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-09 01:53:08
+1808229782565732,Emma,Chen,21646,854518728062939,1808229782565732,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-09-09 01:53:08
+1808229782565732,Emma,Chen,21648,854518728062939,1808229782565732,BOT: quick reply,":keycap_1: enhanced
+:keycap_2: ameliorated
+:keycap_3: hampered
+:keycap_4: supplanted
+:keycap_5: advanced
+",2018-09-09 01:53:09
+1808229782565732,Emma,Chen,21654,1808229782565732,854518728062939,user_quick_reply: BUTTON_AKB_hampered,:keycap_3:,2018-09-09 01:53:13
+1808229782565732,Emma,Chen,21656,854518728062939,1808229782565732,BOT: message,Nice work! Keep it up!,2018-09-09 01:53:14
+1808229782565732,Emma,Chen,21658,854518728062939,1808229782565732,BOT: quick reply,The correct answer is hampered.,2018-09-09 01:53:15
+1808229782565732,Emma,Chen,21660,1808229782565732,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-09 01:53:18
+1808229782565732,Emma,Chen,21661,854518728062939,1808229782565732,BOT: message,Here's a question for you:,2018-09-09 01:53:19
+1808229782565732,Emma,Chen,21662,854518728062939,1808229782565732,BOT: quick reply,What should you NOT do when lowering a load?,2018-09-09 01:53:19
+1808229782565732,Emma,Chen,21663,1808229782565732,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-09 01:53:23
+1808229782565732,Emma,Chen,21664,854518728062939,1808229782565732,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-09-09 01:53:24
+1808229782565732,Emma,Chen,21665,854518728062939,1808229782565732,BOT: quick reply,":keycap_1: Bend your knees
+:keycap_2: Twist your body
+:keycap_3: Twist your body, keep the load close, and bend your knees
+:keycap_4: Keep the load close to your body
+",2018-09-09 01:53:24
+1808229782565732,Emma,Chen,21666,1808229782565732,854518728062939,user_quick_reply: BUTTON_AKB_Twist your body,:keycap_2:,2018-09-09 01:53:29
+1808229782565732,Emma,Chen,21667,854518728062939,1808229782565732,BOT: image,https://www.smartprimer.ai:4443/pictures/avatar/congrats/penguinnormal_happy_orange.png,2018-09-09 01:53:32
+1808229782565732,Emma,Chen,21668,854518728062939,1808229782565732,BOT: message,Nice work! Keep it up!,2018-09-09 01:53:32
+1808229782565732,Emma,Chen,21669,854518728062939,1808229782565732,BOT: quick reply,The correct answer is Twist your body.,2018-09-09 01:53:33
+1808229782565732,Emma,Chen,21680,1808229782565732,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-09 01:54:08
+1808229782565732,Emma,Chen,21681,854518728062939,1808229782565732,BOT: message,Let's see if you would answer this one.,2018-09-09 01:54:09
+1808229782565732,Emma,Chen,21682,854518728062939,1808229782565732,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-09-09 01:54:10
+1808229782565732,Emma,Chen,21683,854518728062939,1808229782565732,BOT: quick reply,"Having squandered his life's savings on unprofitable business ventures, the _____ entrepreneur was forced to live in squalor.",2018-09-09 01:54:10
+1808229782565732,Emma,Chen,21687,1808229782565732,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-09 01:54:14
+1808229782565732,Emma,Chen,21688,854518728062939,1808229782565732,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-09-09 01:54:15
+1808229782565732,Emma,Chen,21689,854518728062939,1808229782565732,BOT: quick reply,":keycap_1: eccentric
+:keycap_2: perturbed
+:keycap_3: insolvent
+:keycap_4: unlikely
+:keycap_5: former
+",2018-09-09 01:54:16
+1808229782565732,Emma,Chen,21692,1808229782565732,854518728062939,user_quick_reply: BUTTON_AKB_insolvent,:keycap_3:,2018-09-09 01:54:19
+1808229782565732,Emma,Chen,21693,854518728062939,1808229782565732,BOT: message,Nice work! Keep it up!,2018-09-09 01:54:20
+1808229782565732,Emma,Chen,21694,854518728062939,1808229782565732,BOT: quick reply,The correct answer is insolvent.,2018-09-09 01:54:21
+1808229782565732,Emma,Chen,21697,1808229782565732,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-09 01:54:24
+1808229782565732,Emma,Chen,21699,854518728062939,1808229782565732,BOT: message,Let's try this one.,2018-09-09 01:54:24
+1808229782565732,Emma,Chen,21701,854518728062939,1808229782565732,BOT: message,Remember that you can always type in your answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-09-09 01:54:25
+1808229782565732,Emma,Chen,21702,854518728062939,1808229782565732,BOT: quick reply,"In psychological literature, the ""sleeper effect"" refers to the phenomenon in which a persuasive message from a trustworthy source loses _____ over time, while the efficacy of a message from a less credible source simultaneously increases.",2018-09-09 01:54:26
+1808229782565732,Emma,Chen,21703,1808229782565732,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-09 01:54:29
+1808229782565732,Emma,Chen,21704,854518728062939,1808229782565732,BOT: message,It's one of the following choices.,2018-09-09 01:54:30
+1808229782565732,Emma,Chen,21705,854518728062939,1808229782565732,BOT: quick reply,":keycap_1: evasiveness
+:keycap_2: erudition
+:keycap_3: cogency
+:keycap_4: control
+:keycap_5: prescience
+",2018-09-09 01:54:30
+1808229782565732,Emma,Chen,21706,1808229782565732,854518728062939,user_quick_reply: BUTTON_AKB_cogency,:keycap_3:,2018-09-09 01:54:37
+1808229782565732,Emma,Chen,21707,854518728062939,1808229782565732,BOT: message,Yes! You got the correct answer!,2018-09-09 01:54:38
+1808229782565732,Emma,Chen,21708,854518728062939,1808229782565732,BOT: quick reply,The correct answer is cogency.,2018-09-09 01:54:39
+1808229782565732,Emma,Chen,21709,1808229782565732,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-09 01:54:42
+1808229782565732,Emma,Chen,21710,854518728062939,1808229782565732,BOT: message,Let's see if you can get this one.,2018-09-09 01:54:42
+1808229782565732,Emma,Chen,21711,854518728062939,1808229782565732,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-09-09 01:54:43
+1808229782565732,Emma,Chen,21712,854518728062939,1808229782565732,BOT: quick reply,"Just as different people can have very different personalities, so too can pets - even those of the same species and breed possess varied _____ .",2018-09-09 01:54:44
+1808229782565732,Emma,Chen,21719,1808229782565732,854518728062939,user_typing,Temperance,2018-09-09 01:55:00
+1808229782565732,Emma,Chen,21721,854518728062939,1808229782565732,BOT: message,That's not quite right. :disappointed_face:,2018-09-09 01:55:01
+1808229782565732,Emma,Chen,21723,854518728062939,1808229782565732,BOT: quick reply,The correct answer is temperaments.,2018-09-09 01:55:01
+1808229782565732,Emma,Chen,21729,1808229782565732,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-09 01:55:07
+1808229782565732,Emma,Chen,21730,854518728062939,1808229782565732,BOT: quick reply,"Nice job! You've practiced enough questions today. Please come back tomorrow and click on ""Resume Learning :flexed_biceps_medium-light_skin_tone:"" for another practice session.",2018-09-09 01:55:08
+1808229782565732,Emma,Chen,27852,854518728062939,1808229782565732,BOT: quick reply,"Hi Emma, remember to practice some questions with me if you haven't finished your session today!",2018-09-09 20:00:07
+1808229782565732,Emma,Chen,30252,1808229782565732,854518728062939,user_quick_reply: NEXT_QUESTION,Sure :white_heavy_check_mark:,2018-09-10 00:50:28
+1808229782565732,Emma,Chen,30253,854518728062939,1808229782565732,BOT: message,How about this next one:,2018-09-10 00:50:28
+1808229782565732,Emma,Chen,30254,854518728062939,1808229782565732,BOT: quick reply,Many Major League Baseball relief pitchers choose an electrifying theme song to play as they take the mound; the song _____ their fans and instills fear in their opponents.,2018-09-10 00:50:29
+1808229782565732,Emma,Chen,30255,1808229782565732,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-10 00:50:36
+1808229782565732,Emma,Chen,30256,854518728062939,1808229782565732,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-09-10 00:50:37
+1808229782565732,Emma,Chen,30257,854518728062939,1808229782565732,BOT: quick reply,":keycap_1: assuages
+:keycap_2: enervates
+:keycap_3: innervates
+:keycap_4: eviscerates
+:keycap_5: pervades
+",2018-09-10 00:50:37
+1808229782565732,Emma,Chen,30258,1808229782565732,854518728062939,user_quick_reply: BUTTON_AKB_innervates,:keycap_3:,2018-09-10 00:50:46
+1808229782565732,Emma,Chen,30259,854518728062939,1808229782565732,BOT: message,Nice work! Keep it up!,2018-09-10 00:50:46
+1808229782565732,Emma,Chen,30260,854518728062939,1808229782565732,BOT: quick reply,The correct answer is innervates.,2018-09-10 00:50:47
+1808229782565732,Emma,Chen,30261,1808229782565732,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-10 00:50:50
+1808229782565732,Emma,Chen,30262,854518728062939,1808229782565732,BOT: message,Let's try this one.,2018-09-10 00:50:51
+1808229782565732,Emma,Chen,30263,854518728062939,1808229782565732,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-09-10 00:50:51
+1808229782565732,Emma,Chen,30264,854518728062939,1808229782565732,BOT: quick reply,"Many dog owners treat their pets too _____ , forgetting that canines have evolved in competitive environments in which emotional coddling was a sign of weakness.",2018-09-10 00:50:52
+1808229782565732,Emma,Chen,30265,1808229782565732,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-10 00:50:57
+1808229782565732,Emma,Chen,30266,854518728062939,1808229782565732,BOT: message,It's one of the following choices.,2018-09-10 00:50:58
+1808229782565732,Emma,Chen,30267,854518728062939,1808229782565732,BOT: quick reply,":keycap_1: aggressively
+:keycap_2: quixotically
+:keycap_3: fortuitously
+:keycap_4: belligerently
+:keycap_5: indulgently
+",2018-09-10 00:50:59
+1808229782565732,Emma,Chen,30268,1808229782565732,854518728062939,user_quick_reply: BUTTON_AKB_indulgently,:keycap_5:,2018-09-10 00:51:03
+1808229782565732,Emma,Chen,30269,854518728062939,1808229782565732,BOT: message,Great job getting the correct answer!,2018-09-10 00:51:04
+1808229782565732,Emma,Chen,30270,854518728062939,1808229782565732,BOT: quick reply,The correct answer is indulgently.,2018-09-10 00:51:04
+1808229782565732,Emma,Chen,30271,1808229782565732,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-10 00:55:25
+1808229782565732,Emma,Chen,30272,854518728062939,1808229782565732,BOT: message,I think you'll like this question.,2018-09-10 00:55:26
+1808229782565732,Emma,Chen,30273,854518728062939,1808229782565732,BOT: quick reply,"Modern tennis fans have come to realize that, although, quantum technological leaps in racquet technology have lead to _____ increases in the speed and power with which players can hit the ball, this has not necessarily lead to a more entertaining game.",2018-09-10 00:55:26
+1808229782565732,Emma,Chen,30274,1808229782565732,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-10 00:55:31
+1808229782565732,Emma,Chen,30275,854518728062939,1808229782565732,BOT: message,Which of the following options is the right answer?,2018-09-10 00:55:32
+1808229782565732,Emma,Chen,30276,854518728062939,1808229782565732,BOT: quick reply,":keycap_1: halcyon
+:keycap_2: commensurate
+:keycap_3: innocuous
+:keycap_4: malleable
+:keycap_5: tractable
+",2018-09-10 00:55:33
+1808229782565732,Emma,Chen,30277,1808229782565732,854518728062939,user_quick_reply: BUTTON_AKB_commensurate,:keycap_2:,2018-09-10 00:55:39
+1808229782565732,Emma,Chen,30278,854518728062939,1808229782565732,BOT: message,Nice work! Keep it up!,2018-09-10 00:55:40
+1808229782565732,Emma,Chen,30279,854518728062939,1808229782565732,BOT: quick reply,The correct answer is commensurate.,2018-09-10 00:55:40
+1808229782565732,Emma,Chen,30280,1808229782565732,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-10 00:55:43
+1808229782565732,Emma,Chen,30281,854518728062939,1808229782565732,BOT: message,I think you'll like this question.,2018-09-10 00:55:44
+1808229782565732,Emma,Chen,30282,854518728062939,1808229782565732,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-09-10 00:55:44
+1808229782565732,Emma,Chen,30283,854518728062939,1808229782565732,BOT: quick reply,Seth was extremely _____ and did not enjoy activities that required effort to meet new people.,2018-09-10 00:55:45
+1808229782565732,Emma,Chen,30284,1808229782565732,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-10 00:55:49
+1808229782565732,Emma,Chen,30285,854518728062939,1808229782565732,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-09-10 00:55:50
+1808229782565732,Emma,Chen,30286,854518728062939,1808229782565732,BOT: quick reply,":keycap_1: introverted
+:keycap_2: gregarious
+:keycap_3: jaded
+:keycap_4: lackluster
+:keycap_5: extroverted
+",2018-09-10 00:55:50
+1808229782565732,Emma,Chen,30287,1808229782565732,854518728062939,user_quick_reply: BUTTON_AKB_introverted,:keycap_1:,2018-09-10 00:55:53
+1808229782565732,Emma,Chen,30288,854518728062939,1808229782565732,BOT: image,https://www.smartprimer.ai:4443/pictures/avatar/congrats/penguinnormal_normal_orange.png,2018-09-10 00:55:55
+1808229782565732,Emma,Chen,30289,854518728062939,1808229782565732,BOT: message,Great job!,2018-09-10 00:55:56
+1808229782565732,Emma,Chen,30290,854518728062939,1808229782565732,BOT: quick reply,The correct answer is introverted.,2018-09-10 00:55:57
+1808229782565732,Emma,Chen,30291,1808229782565732,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-10 00:55:59
+1808229782565732,Emma,Chen,30292,854518728062939,1808229782565732,BOT: message,What about this next question:,2018-09-10 00:56:00
+1808229782565732,Emma,Chen,30293,854518728062939,1808229782565732,BOT: quick reply,"Possessing few natural resources upon its newly-granted independence in 1863, Singapore remained economically _____ until an influx of industrialization and foreign investment took hold there.",2018-09-10 00:56:00
+1808229782565732,Emma,Chen,30294,1808229782565732,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-10 00:59:26
+1808229782565732,Emma,Chen,30295,854518728062939,1808229782565732,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-09-10 00:59:27
+1808229782565732,Emma,Chen,30296,854518728062939,1808229782565732,BOT: quick reply,":keycap_1: solvent
+:keycap_2: dubious
+:keycap_3: prosperous
+:keycap_4: powerful
+:keycap_5: fortuitous
+",2018-09-10 00:59:27
+1808229782565732,Emma,Chen,30297,1808229782565732,854518728062939,user_quick_reply: BUTTON_AKB_dubious,:keycap_2:,2018-09-10 00:59:31
+1808229782565732,Emma,Chen,30298,854518728062939,1808229782565732,BOT: image,https://www.smartprimer.ai:4443/pictures/avatar/congrats/penguinnormal_normal_purple.png,2018-09-10 00:59:32
+1808229782565732,Emma,Chen,30299,854518728062939,1808229782565732,BOT: message,Great job!,2018-09-10 00:59:33
+1808229782565732,Emma,Chen,30300,854518728062939,1808229782565732,BOT: quick reply,The correct answer is dubious.,2018-09-10 00:59:34
+1808229782565732,Emma,Chen,30301,1808229782565732,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-10 00:59:36
+1808229782565732,Emma,Chen,30302,854518728062939,1808229782565732,BOT: message,Would you answer this question for me?,2018-09-10 00:59:37
+1808229782565732,Emma,Chen,30303,854518728062939,1808229782565732,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-09-10 00:59:38
+1808229782565732,Emma,Chen,30304,854518728062939,1808229782565732,BOT: quick reply,"Prior to taking on the new invader, the defending army had engaged in arduous combat; it is likely that the _____ resulting from waging two battles in two days played a part in its subsequent defeat.",2018-09-10 00:59:38
+1808229782565732,Emma,Chen,30305,1808229782565732,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-10 00:59:43
+1808229782565732,Emma,Chen,30306,854518728062939,1808229782565732,BOT: message,It's one of the following choices.,2018-09-10 00:59:44
+1808229782565732,Emma,Chen,30307,854518728062939,1808229782565732,BOT: quick reply,":keycap_1: pugnacity
+:keycap_2: aggravation
+:keycap_3: pacification
+:keycap_4: bellicosity
+:keycap_5: enervation
+",2018-09-10 00:59:45
+1808229782565732,Emma,Chen,30308,1808229782565732,854518728062939,user_quick_reply: BUTTON_DKB_bellicosity,:keycap_4:,2018-09-10 00:59:52
+1808229782565732,Emma,Chen,30309,854518728062939,1808229782565732,BOT: message,"Oops, that wasn't quite correct. :disappointed_face:",2018-09-10 00:59:53
+1808229782565732,Emma,Chen,30310,854518728062939,1808229782565732,BOT: quick reply,The correct answer is enervation.,2018-09-10 00:59:53
+1808229782565732,Emma,Chen,30311,1808229782565732,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-10 00:59:56
+1808229782565732,Emma,Chen,30312,854518728062939,1808229782565732,BOT: message,I think you'll like this question.,2018-09-10 00:59:57
+1808229782565732,Emma,Chen,30313,854518728062939,1808229782565732,BOT: quick reply,The Erie Canal's completion caused _____ economic ripples; property values and industrial output along its route rose exponentially.,2018-09-10 00:59:58
+1808229782565732,Emma,Chen,30314,1808229782565732,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-10 01:00:01
+1808229782565732,Emma,Chen,30315,854518728062939,1808229782565732,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-09-10 01:00:01
+1808229782565732,Emma,Chen,30316,854518728062939,1808229782565732,BOT: quick reply,":keycap_1: severe
+:keycap_2: incredulous
+:keycap_3: persistent
+:keycap_4: invaluable
+:keycap_5: prodigious
+",2018-09-10 01:00:02
+1808229782565732,Emma,Chen,30317,1808229782565732,854518728062939,user_quick_reply: BUTTON_DKB_incredulous,:keycap_2:,2018-09-10 01:00:08
+1808229782565732,Emma,Chen,30318,854518728062939,1808229782565732,BOT: message,"Oops, that wasn't quite correct. :disappointed_face:",2018-09-10 01:00:09
+1808229782565732,Emma,Chen,30319,854518728062939,1808229782565732,BOT: quick reply,The correct answer is prodigious.,2018-09-10 01:00:10
+1808229782565732,Emma,Chen,30320,1808229782565732,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-10 01:00:12
+1808229782565732,Emma,Chen,30321,854518728062939,1808229782565732,BOT: message,See if you can answer this next one.,2018-09-10 01:00:13
+1808229782565732,Emma,Chen,30322,854518728062939,1808229782565732,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-09-10 01:00:13
+1808229782565732,Emma,Chen,30323,854518728062939,1808229782565732,BOT: quick reply,While she may have answered him truthfully - in the strictest sense of the word - it became clear to Sergei after the incident that Sheryl had actually been trying to _____ .,2018-09-10 01:00:14
+1808229782565732,Emma,Chen,30324,1808229782565732,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-10 01:00:17
+1808229782565732,Emma,Chen,30325,854518728062939,1808229782565732,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-09-10 01:00:18
+1808229782565732,Emma,Chen,30326,854518728062939,1808229782565732,BOT: quick reply,":keycap_1: obfuscate
+:keycap_2: vituperate
+:keycap_3: desiccate
+:keycap_4: illuminate
+:keycap_5: covet
+",2018-09-10 01:00:18
+1808229782565732,Emma,Chen,30327,1808229782565732,854518728062939,user_quick_reply: BUTTON_AKB_obfuscate,:keycap_1:,2018-09-10 01:01:47
+1808229782565732,Emma,Chen,30328,854518728062939,1808229782565732,BOT: message,Yes! You got the correct answer!,2018-09-10 01:01:48
+1808229782565732,Emma,Chen,30329,854518728062939,1808229782565732,BOT: quick reply,The correct answer is obfuscate.,2018-09-10 01:01:48
+1808229782565732,Emma,Chen,30330,1808229782565732,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-10 01:01:51
+1808229782565732,Emma,Chen,30331,854518728062939,1808229782565732,BOT: message,What about this next question:,2018-09-10 01:01:51
+1808229782565732,Emma,Chen,30332,854518728062939,1808229782565732,BOT: message,Remember that you can always type in your answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-09-10 01:01:52
+1808229782565732,Emma,Chen,30333,854518728062939,1808229782565732,BOT: quick reply,"With a similar contrast between a partly cloudy sky and a dark street, the cover of the recent rock CD _____ a famous surrealist painting from the early 1900s.",2018-09-10 01:01:53
+1808229782565732,Emma,Chen,30334,1808229782565732,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-10 01:01:56
+1808229782565732,Emma,Chen,30335,854518728062939,1808229782565732,BOT: message,Pick one of the following answers.,2018-09-10 01:01:57
+1808229782565732,Emma,Chen,30336,854518728062939,1808229782565732,BOT: quick reply,":keycap_1: disenchants
+:keycap_2: evokes
+:keycap_3: sanctions
+:keycap_4: admires
+:keycap_5: obfuscates
+",2018-09-10 01:01:57
+1808229782565732,Emma,Chen,30337,1808229782565732,854518728062939,user_quick_reply: BUTTON_DKB_sanctions,:keycap_3:,2018-09-10 01:02:53
+1808229782565732,Emma,Chen,30338,854518728062939,1808229782565732,BOT: message,"Oops, that is not correct. :disappointed_face:",2018-09-10 01:02:53
+1808229782565732,Emma,Chen,30339,854518728062939,1808229782565732,BOT: quick reply,The correct answer is evokes.,2018-09-10 01:02:54
+1808229782565732,Emma,Chen,30340,1808229782565732,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-10 01:02:57
+1808229782565732,Emma,Chen,30341,854518728062939,1808229782565732,BOT: message,What about this next question:,2018-09-10 01:02:57
+1808229782565732,Emma,Chen,30342,854518728062939,1808229782565732,BOT: quick reply,What should you NOT do while lifting objects?,2018-09-10 01:02:58
+1808229782565732,Emma,Chen,30343,1808229782565732,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-10 01:03:02
+1808229782565732,Emma,Chen,30344,854518728062939,1808229782565732,BOT: message,Which of the following options is the right answer?,2018-09-10 01:03:02
+1808229782565732,Emma,Chen,30345,854518728062939,1808229782565732,BOT: quick reply,":keycap_1: Keep the object close to your body
+:keycap_2: Keep your back straight
+:keycap_3: Keep your feet together
+:keycap_4: Bend at the knees
+",2018-09-10 01:03:03
+1808229782565732,Emma,Chen,30346,1808229782565732,854518728062939,user_quick_reply: BUTTON_AKB_Keep your feet together,:keycap_3:,2018-09-10 01:03:08
+1808229782565732,Emma,Chen,30347,854518728062939,1808229782565732,BOT: image,https://www.smartprimer.ai:4443/pictures/avatar/congrats/penguinnormal_normal_cyan.png,2018-09-10 01:03:10
+1808229782565732,Emma,Chen,30348,854518728062939,1808229782565732,BOT: message,Nice work! Keep it up!,2018-09-10 01:03:11
+1808229782565732,Emma,Chen,30349,854518728062939,1808229782565732,BOT: quick reply,The correct answer is Keep your feet together.,2018-09-10 01:03:12
+1808229782565732,Emma,Chen,30350,1808229782565732,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-10 01:03:16
+1808229782565732,Emma,Chen,30351,854518728062939,1808229782565732,BOT: message,Let's try this one.,2018-09-10 01:03:16
+1808229782565732,Emma,Chen,30352,854518728062939,1808229782565732,BOT: quick reply,How long can high-acid canned food such as tomatoes be stored?,2018-09-10 01:03:17
+1808229782565732,Emma,Chen,30353,1808229782565732,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-10 01:03:20
+1808229782565732,Emma,Chen,30354,854518728062939,1808229782565732,BOT: message,Okay. I'll give you some choices.,2018-09-10 01:03:21
+1808229782565732,Emma,Chen,30355,854518728062939,1808229782565732,BOT: quick reply,":keycap_1: 10 to 30 days
+:keycap_2: 2 to 6 months
+:keycap_3: 12 to 18 months
+:keycap_4: 2 to 4 years
+",2018-09-10 01:03:21
+1808229782565732,Emma,Chen,30356,1808229782565732,854518728062939,user_quick_reply: BUTTON_DKB_2 to 6 months,:keycap_2:,2018-09-10 01:03:38
+1808229782565732,Emma,Chen,30357,854518728062939,1808229782565732,BOT: message,"Hmm, that wasn't quite right. :disappointed_face:",2018-09-10 01:03:38
+1808229782565732,Emma,Chen,30358,854518728062939,1808229782565732,BOT: quick reply,The correct answer is 12 to 18 months.,2018-09-10 01:03:39
+1808229782565732,Emma,Chen,30359,1808229782565732,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-10 01:03:42
+1808229782565732,Emma,Chen,30360,854518728062939,1808229782565732,BOT: message,Let's see if you can get this one.,2018-09-10 01:03:43
+1808229782565732,Emma,Chen,30361,854518728062939,1808229782565732,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-09-10 01:03:43
+1808229782565732,Emma,Chen,30362,854518728062939,1808229782565732,BOT: quick reply,How often should women perform a breast self-exam?,2018-09-10 01:03:44
+1808229782565732,Emma,Chen,30363,1808229782565732,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-10 01:03:47
+1808229782565732,Emma,Chen,30364,854518728062939,1808229782565732,BOT: message,Pick one of the following answers.,2018-09-10 01:03:47
+1808229782565732,Emma,Chen,30365,854518728062939,1808229782565732,BOT: quick reply,":keycap_1: monthly
+:keycap_2: quarterly
+:keycap_3: weekly
+:keycap_4: yearly
+",2018-09-10 01:03:48
+1808229782565732,Emma,Chen,30366,1808229782565732,854518728062939,user_quick_reply: BUTTON_AKB_monthly,:keycap_1:,2018-09-10 01:03:53
+1808229782565732,Emma,Chen,30367,854518728062939,1808229782565732,BOT: image,https://www.smartprimer.ai:4443/pictures/avatar/congrats/penguinnormal_jubilated_pink.png,2018-09-10 01:03:54
+1808229782565732,Emma,Chen,30368,854518728062939,1808229782565732,BOT: message,Yes! You got the correct answer!,2018-09-10 01:03:55
+1808229782565732,Emma,Chen,30369,854518728062939,1808229782565732,BOT: quick reply,The correct answer is monthly.,2018-09-10 01:03:56
+1808229782565732,Emma,Chen,30370,1808229782565732,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-10 01:03:59
+1808229782565732,Emma,Chen,30371,854518728062939,1808229782565732,BOT: message,Could you answer this one for me?,2018-09-10 01:04:00
+1808229782565732,Emma,Chen,30372,854518728062939,1808229782565732,BOT: message,Remember that you can always type in your answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-09-10 01:04:00
+1808229782565732,Emma,Chen,30373,854518728062939,1808229782565732,BOT: quick reply,Most fungi get organic compounds from what?,2018-09-10 01:04:01
+1808229782565732,Emma,Chen,30374,1808229782565732,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-10 01:04:10
+1808229782565732,Emma,Chen,30375,854518728062939,1808229782565732,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-09-10 01:04:11
+1808229782565732,Emma,Chen,30376,854518728062939,1808229782565732,BOT: quick reply,":keycap_1: inorganic material
+:keycap_2: carnivorous organisms
+:keycap_3: dead organisms
+:keycap_4: living organisms
+",2018-09-10 01:04:11
+1808229782565732,Emma,Chen,30377,1808229782565732,854518728062939,user_quick_reply: BUTTON_AKB_dead organisms,:keycap_3:,2018-09-10 01:04:18
+1808229782565732,Emma,Chen,30378,854518728062939,1808229782565732,BOT: message,Great job getting the correct answer!,2018-09-10 01:04:19
+1808229782565732,Emma,Chen,30379,854518728062939,1808229782565732,BOT: quick reply,The correct answer is dead organisms.,2018-09-10 01:04:19
+1808229782565732,Emma,Chen,30380,1808229782565732,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-10 01:04:22
+1808229782565732,Emma,Chen,30381,854518728062939,1808229782565732,BOT: message,What about this next question:,2018-09-10 01:04:24
+1808229782565732,Emma,Chen,30382,854518728062939,1808229782565732,BOT: message,Remember that you can always type in your answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-09-10 01:04:24
+1808229782565732,Emma,Chen,30383,854518728062939,1808229782565732,BOT: quick reply,Most insects reproduce quickly and through what type of reproduction?,2018-09-10 01:04:25
+1808229782565732,Emma,Chen,30384,1808229782565732,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-10 01:04:29
+1808229782565732,Emma,Chen,30385,854518728062939,1808229782565732,BOT: message,Pick one of the following answers.,2018-09-10 01:04:30
+1808229782565732,Emma,Chen,30386,854518728062939,1808229782565732,BOT: quick reply,":keycap_1: photosynthesis
+:keycap_2: sexual reproduction
+:keycap_3: asexual reproduction
+:keycap_4: spores
+",2018-09-10 01:04:31
+1808229782565732,Emma,Chen,30387,1808229782565732,854518728062939,user_quick_reply: BUTTON_AKB_sexual reproduction,:keycap_2:,2018-09-10 01:04:36
+1808229782565732,Emma,Chen,30388,854518728062939,1808229782565732,BOT: image,https://www.smartprimer.ai:4443/pictures/avatar/congrats/penguinnormal_happy_cyan.png,2018-09-10 01:04:38
+1808229782565732,Emma,Chen,30389,854518728062939,1808229782565732,BOT: message,Nice work! Keep it up!,2018-09-10 01:04:39
+1808229782565732,Emma,Chen,30390,854518728062939,1808229782565732,BOT: quick reply,The correct answer is sexual reproduction.,2018-09-10 01:04:40
+1808229782565732,Emma,Chen,30391,1808229782565732,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-10 01:04:44
+1808229782565732,Emma,Chen,30392,854518728062939,1808229782565732,BOT: message,What about this next question:,2018-09-10 01:04:45
+1808229782565732,Emma,Chen,30393,854518728062939,1808229782565732,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-09-10 01:04:45
+1808229782565732,Emma,Chen,30394,854518728062939,1808229782565732,BOT: quick reply,Which fire extinguishers are used to put out Class A fires?,2018-09-10 01:04:46
+1808229782565732,Emma,Chen,30395,1808229782565732,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-10 01:04:49
+1808229782565732,Emma,Chen,30396,854518728062939,1808229782565732,BOT: message,It's one of the following choices.,2018-09-10 01:04:50
+1808229782565732,Emma,Chen,30397,854518728062939,1808229782565732,BOT: quick reply,":keycap_1: CO2 only
+:keycap_2: Both water and multi-purpose dry chemical
+:keycap_3: Both CO2 and water
+:keycap_4: Multi-purpose dry chemical only
+:keycap_5: Water only
+",2018-09-10 01:04:51
+1808229782565732,Emma,Chen,30398,1808229782565732,854518728062939,user_quick_reply: BUTTON_AKB_Both water and multi-purpose dry chemical,:keycap_2:,2018-09-10 01:05:02
+1808229782565732,Emma,Chen,30399,854518728062939,1808229782565732,BOT: image,https://www.smartprimer.ai:4443/pictures/avatar/congrats/penguinnormal_happy_cyan.png,2018-09-10 01:05:04
+1808229782565732,Emma,Chen,30400,854518728062939,1808229782565732,BOT: message,Great job!,2018-09-10 01:05:05
+1808229782565732,Emma,Chen,30401,854518728062939,1808229782565732,BOT: quick reply,The correct answer is Both water and multi-purpose dry chemical.,2018-09-10 01:05:05
+1808229782565732,Emma,Chen,30402,1808229782565732,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-10 01:05:17
+1808229782565732,Emma,Chen,30403,854518728062939,1808229782565732,BOT: message,Let's take a look at this question.,2018-09-10 01:05:18
+1808229782565732,Emma,Chen,30404,854518728062939,1808229782565732,BOT: quick reply,Which fire extinguishers are used to put out fires caused by flammable liquids?,2018-09-10 01:05:18
+1808229782565732,Emma,Chen,30405,1808229782565732,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-10 01:05:22
+1808229782565732,Emma,Chen,30406,854518728062939,1808229782565732,BOT: message,It's one of the following choices.,2018-09-10 01:05:23
+1808229782565732,Emma,Chen,30407,854518728062939,1808229782565732,BOT: quick reply,":keycap_1: Class A water fire extinguishers
+:keycap_2: Class C dry chemical fire extinguisher
+:keycap_3: Class B carbon dioxide fire extinguisher
+",2018-09-10 01:05:23
+1808229782565732,Emma,Chen,30408,1808229782565732,854518728062939,user_quick_reply: BUTTON_AKB_Class B carbon dioxide fire extinguisher,:keycap_3:,2018-09-10 01:05:45
+1808229782565732,Emma,Chen,30409,854518728062939,1808229782565732,BOT: image,https://www.smartprimer.ai:4443/pictures/avatar/congrats/penguinnormal_happy_pink.png,2018-09-10 01:05:47
+1808229782565732,Emma,Chen,30410,854518728062939,1808229782565732,BOT: message,Nice! That was right!,2018-09-10 01:05:48
+1808229782565732,Emma,Chen,30411,854518728062939,1808229782565732,BOT: quick reply,The correct answer is Class B carbon dioxide fire extinguisher.,2018-09-10 01:05:48
+1808229782565732,Emma,Chen,30412,1808229782565732,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-10 01:05:52
+1808229782565732,Emma,Chen,30413,854518728062939,1808229782565732,BOT: message,Here's a question for you:,2018-09-10 01:05:53
+1808229782565732,Emma,Chen,30414,854518728062939,1808229782565732,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-09-10 01:05:54
+1808229782565732,Emma,Chen,30415,854518728062939,1808229782565732,BOT: quick reply,"If your co-worker needs CPR but you are not trained in it, what should you do?",2018-09-10 01:05:54
+1808229782565732,Emma,Chen,30416,1808229782565732,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-10 01:05:59
+1808229782565732,Emma,Chen,30417,854518728062939,1808229782565732,BOT: message,It's one of the following choices.,2018-09-10 01:06:00
+1808229782565732,Emma,Chen,30418,854518728062939,1808229782565732,BOT: quick reply,":keycap_1: Perform chest compressions only
+:keycap_2: Give rescue breaths only
+:keycap_3: Lift the patient's head
+:keycap_4: Wait for emergency personnel to arrive
+",2018-09-10 01:06:00
+1808229782565732,Emma,Chen,30419,1808229782565732,854518728062939,user_quick_reply: BUTTON_AKB_Perform chest compressions only,:keycap_1:,2018-09-10 01:06:10
+1808229782565732,Emma,Chen,30420,854518728062939,1808229782565732,BOT: image,https://www.smartprimer.ai:4443/pictures/avatar/congrats/penguinnormal_normal_purple.png,2018-09-10 01:06:12
+1808229782565732,Emma,Chen,30421,854518728062939,1808229782565732,BOT: message,Great! Keep it up! :flexed_biceps_medium-light_skin_tone:,2018-09-10 01:06:13
+1808229782565732,Emma,Chen,30422,854518728062939,1808229782565732,BOT: quick reply,The correct answer is Perform chest compressions only.,2018-09-10 01:06:13
+1808229782565732,Emma,Chen,30423,1808229782565732,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-10 01:06:31
+1808229782565732,Emma,Chen,30424,854518728062939,1808229782565732,BOT: message,See if you can answer this next one.,2018-09-10 01:06:31
+1808229782565732,Emma,Chen,30425,854518728062939,1808229782565732,BOT: quick reply,"When you discover a fire, you should do what?",2018-09-10 01:06:32
+1808229782565732,Emma,Chen,30426,1808229782565732,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-10 01:06:36
+1808229782565732,Emma,Chen,30427,854518728062939,1808229782565732,BOT: message,Okay. I'll give you some choices.,2018-09-10 01:06:37
+1808229782565732,Emma,Chen,30428,854518728062939,1808229782565732,BOT: quick reply,":keycap_1: Pull the fire alarm and call the fire department
+:keycap_2: Run out of the building without warning others of the fire
+:keycap_3: Use a fire extinguisher to put out the fire, even if you've never used a fire extinguisher before
+:keycap_4: Stay in the building until you figure out a way to extinguish the fire
+",2018-09-10 01:06:37
+1808229782565732,Emma,Chen,30429,1808229782565732,854518728062939,user_quick_reply: BUTTON_AKB_Pull the fire alarm and call the fire department,:keycap_1:,2018-09-10 01:07:06
+1808229782565732,Emma,Chen,30430,854518728062939,1808229782565732,BOT: message,Great job getting the correct answer!,2018-09-10 01:07:07
+1808229782565732,Emma,Chen,30431,854518728062939,1808229782565732,BOT: quick reply,The correct answer is Pull the fire alarm and call the fire department.,2018-09-10 01:07:08
+1808229782565732,Emma,Chen,30432,1808229782565732,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-10 01:07:14
+1808229782565732,Emma,Chen,30433,854518728062939,1808229782565732,BOT: message,Here's a question for you:,2018-09-10 01:07:14
+1808229782565732,Emma,Chen,30434,854518728062939,1808229782565732,BOT: message,Remember that you can always type in your answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-09-10 01:07:15
+1808229782565732,Emma,Chen,30435,854518728062939,1808229782565732,BOT: quick reply,What three major factors cause food contamination?,2018-09-10 01:07:16
+1808229782565732,Emma,Chen,30436,1808229782565732,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-10 01:07:21
+1808229782565732,Emma,Chen,30437,854518728062939,1808229782565732,BOT: message,Okay. I'll give you some choices.,2018-09-10 01:07:22
+1808229782565732,Emma,Chen,30438,854518728062939,1808229782565732,BOT: quick reply,":keycap_1: Physical, biological, and radiological
+:keycap_2: Physical, psychological, and health
+:keycap_3: Physical, biological, and chemical
+:keycap_4: Physical, chemical, and psychosocial
+",2018-09-10 01:07:22
+1808229782565732,Emma,Chen,30439,1808229782565732,854518728062939,"user_quick_reply: BUTTON_AKB_Physical, biological, and chemical",:keycap_3:,2018-09-10 01:07:30
+1808229782565732,Emma,Chen,30440,854518728062939,1808229782565732,BOT: message,Nice! That was right!,2018-09-10 01:07:31
+1808229782565732,Emma,Chen,30441,854518728062939,1808229782565732,BOT: quick reply,"The correct answer is Physical, biological, and chemical.",2018-09-10 01:07:32
+1808229782565732,Emma,Chen,30442,1808229782565732,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-10 01:07:35
+1808229782565732,Emma,Chen,30443,854518728062939,1808229782565732,BOT: message,Could you answer this one for me?,2018-09-10 01:07:36
+1808229782565732,Emma,Chen,30444,854518728062939,1808229782565732,BOT: quick reply,"What agency inspects, grades, and enforces standards of quality and wholesomeness for meat, poultry, milk, eggs, and grains?",2018-09-10 01:07:37
+1808229782565732,Emma,Chen,30445,1808229782565732,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-10 01:07:41
+1808229782565732,Emma,Chen,30446,854518728062939,1808229782565732,BOT: message,Which of the following options is the right answer?,2018-09-10 01:07:41
+1808229782565732,Emma,Chen,30447,854518728062939,1808229782565732,BOT: quick reply,":keycap_1: USDA
+:keycap_2: EPA
+:keycap_3: FDA
+:keycap_4: CDC
+",2018-09-10 01:07:42
+1808229782565732,Emma,Chen,30448,1808229782565732,854518728062939,user_quick_reply: BUTTON_AKB_USDA,:keycap_1:,2018-09-10 01:07:45
+1808229782565732,Emma,Chen,30449,854518728062939,1808229782565732,BOT: image,https://www.smartprimer.ai:4443/pictures/avatar/congrats/penguinnormal_jubilated_cyan.png,2018-09-10 01:07:47
+1808229782565732,Emma,Chen,30450,854518728062939,1808229782565732,BOT: message,Yes! You got the correct answer!,2018-09-10 01:07:48
+1808229782565732,Emma,Chen,30451,854518728062939,1808229782565732,BOT: quick reply,The correct answer is USDA.,2018-09-10 01:07:48
+1808229782565732,Emma,Chen,30452,1808229782565732,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-10 01:07:51
+1808229782565732,Emma,Chen,30453,854518728062939,1808229782565732,BOT: quick reply,"Nice job! You've practiced enough questions today. Please come back tomorrow and click on ""Resume Learning :flexed_biceps_medium-light_skin_tone:"" for another practice session.",2018-09-10 01:07:51
+1808229782565732,Emma,Chen,34938,854518728062939,1808229782565732,BOT: quick reply,"Hi Emma, remember to practice some questions with me if you haven't finished your session today!",2018-09-10 20:00:39
+1808229782565732,Emma,Chen,35990,1808229782565732,854518728062939,user_quick_reply: NEXT_QUESTION,I see :oncoming_fist_medium-light_skin_tone:,2018-09-11 01:17:01
+1808229782565732,Emma,Chen,35991,854518728062939,1808229782565732,BOT: message,What about this next question:,2018-09-11 01:17:02
+1808229782565732,Emma,Chen,35992,854518728062939,1808229782565732,BOT: quick reply,Working on scaffold during winds above ____ miles per hour is prohibited by OSHA.,2018-09-11 01:17:02
+1808229782565732,Emma,Chen,35993,1808229782565732,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-11 01:17:06
+1808229782565732,Emma,Chen,35994,854518728062939,1808229782565732,BOT: message,Okay. I'll give you some choices.,2018-09-11 01:17:07
+1808229782565732,Emma,Chen,35995,854518728062939,1808229782565732,BOT: quick reply,":keycap_1: 10
+:keycap_2: 40
+:keycap_3: 25
+:keycap_4: 50
+",2018-09-11 01:17:08
+1808229782565732,Emma,Chen,35999,1808229782565732,854518728062939,user_quick_reply: BUTTON_AKB_40,:keycap_2:,2018-09-11 01:17:18
+1808229782565732,Emma,Chen,36000,854518728062939,1808229782565732,BOT: message,Great! Keep it up! :flexed_biceps_medium-light_skin_tone:,2018-09-11 01:17:19
+1808229782565732,Emma,Chen,36001,854518728062939,1808229782565732,BOT: quick reply,The correct answer is 40.,2018-09-11 01:17:20
+1808229782565732,Emma,Chen,36003,1808229782565732,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-11 01:17:23
+1808229782565732,Emma,Chen,36005,854518728062939,1808229782565732,BOT: message,I think you'll like this question.,2018-09-11 01:17:24
+1808229782565732,Emma,Chen,36007,854518728062939,1808229782565732,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-09-11 01:17:24
+1808229782565732,Emma,Chen,36008,854518728062939,1808229782565732,BOT: quick reply,To what does the acronym SLM refer?,2018-09-11 01:17:25
+1808229782565732,Emma,Chen,36009,1808229782565732,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-11 01:17:31
+1808229782565732,Emma,Chen,36010,854518728062939,1808229782565732,BOT: message,Which of the following options is the right answer?,2018-09-11 01:17:32
+1808229782565732,Emma,Chen,36011,854518728062939,1808229782565732,BOT: quick reply,":keycap_1: System Level Monitor
+:keycap_2: Sound Level Meter
+:keycap_3: Service Lifecycle Management
+:keycap_4: Sound Loudness Methods
+",2018-09-11 01:17:33
+1808229782565732,Emma,Chen,36029,1808229782565732,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-11 01:18:26
+1808229782565732,Emma,Chen,36031,854518728062939,1808229782565732,BOT: message,Here's a question for you:,2018-09-11 01:18:27
+1808229782565732,Emma,Chen,36032,854518728062939,1808229782565732,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-09-11 01:18:27
+1808229782565732,Emma,Chen,36034,854518728062939,1808229782565732,BOT: quick reply,To what does the acronym SLM refer?,2018-09-11 01:18:28
+1808229782565732,Emma,Chen,36036,1808229782565732,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-11 01:18:29
+1808229782565732,Emma,Chen,36038,854518728062939,1808229782565732,BOT: message,Which of the following options is the right answer?,2018-09-11 01:18:30
+1808229782565732,Emma,Chen,36039,854518728062939,1808229782565732,BOT: quick reply,":keycap_1: Service Lifecycle Management
+:keycap_2: Sound Level Meter
+:keycap_3: Sound Loudness Methods
+:keycap_4: System Level Monitor
+",2018-09-11 01:18:31
+1808229782565732,Emma,Chen,36040,1808229782565732,854518728062939,user_quick_reply: BUTTON_AKB_Sound Level Meter,:keycap_2:,2018-09-11 01:18:31
+1808229782565732,Emma,Chen,36042,854518728062939,1808229782565732,BOT: message,Nice work! Keep it up!,2018-09-11 01:18:32
+1808229782565732,Emma,Chen,36044,854518728062939,1808229782565732,BOT: quick reply,The correct answer is Sound Level Meter.,2018-09-11 01:18:33
+1808229782565732,Emma,Chen,36048,1808229782565732,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-11 01:18:38
+1808229782565732,Emma,Chen,36050,854518728062939,1808229782565732,BOT: message,Let's see if you would answer this one.,2018-09-11 01:18:38
+1808229782565732,Emma,Chen,36052,854518728062939,1808229782565732,BOT: message,Remember that you can always type in your answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-09-11 01:18:39
+1808229782565732,Emma,Chen,36053,854518728062939,1808229782565732,BOT: quick reply,"True or false: if you wear a back belt, you can lift more weight than you could without a belt.",2018-09-11 01:18:40
+1808229782565732,Emma,Chen,36057,1808229782565732,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-11 01:18:46
+1808229782565732,Emma,Chen,36058,854518728062939,1808229782565732,BOT: message,Okay. I'll give you some choices.,2018-09-11 01:18:46
+1808229782565732,Emma,Chen,36059,854518728062939,1808229782565732,BOT: quick reply,":keycap_1: False
+:keycap_2: True
+",2018-09-11 01:18:47
+1808229782565732,Emma,Chen,36061,1808229782565732,854518728062939,user_quick_reply: BUTTON_AKB_False,:keycap_1:,2018-09-11 01:18:50
+1808229782565732,Emma,Chen,36063,854518728062939,1808229782565732,BOT: message,Great! Keep it up! :flexed_biceps_medium-light_skin_tone:,2018-09-11 01:18:51
+1808229782565732,Emma,Chen,36065,854518728062939,1808229782565732,BOT: quick reply,The correct answer is False.,2018-09-11 01:18:52
+1808229782565732,Emma,Chen,36067,1808229782565732,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-11 01:18:54
+1808229782565732,Emma,Chen,36068,854518728062939,1808229782565732,BOT: message,Would you answer this question for me?,2018-09-11 01:18:55
+1808229782565732,Emma,Chen,36069,854518728062939,1808229782565732,BOT: quick reply,True or false: portable fire extinguishers should only be used by trained employees.,2018-09-11 01:18:56
+1808229782565732,Emma,Chen,36076,1808229782565732,854518728062939,user_typing,True,2018-09-11 01:19:09
+1808229782565732,Emma,Chen,36077,854518728062939,1808229782565732,BOT: image,https://www.smartprimer.ai:4443/pictures/avatar/congrats/penguinnormal_normal.png,2018-09-11 01:19:12
+1808229782565732,Emma,Chen,36078,854518728062939,1808229782565732,BOT: message,That’s right! :party_popper:,2018-09-11 01:19:12
+1808229782565732,Emma,Chen,36080,854518728062939,1808229782565732,BOT: quick reply,The correct answer is True.,2018-09-11 01:19:13
+1808229782565732,Emma,Chen,36082,1808229782565732,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-11 01:19:17
+1808229782565732,Emma,Chen,36083,854518728062939,1808229782565732,BOT: message,How about this next one:,2018-09-11 01:19:18
+1808229782565732,Emma,Chen,36084,854518728062939,1808229782565732,BOT: quick reply,"True or false: you can always smell, see, or taste harmful bacteria in food that can cause illness.",2018-09-11 01:19:19
+1808229782565732,Emma,Chen,36088,1808229782565732,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-11 01:19:26
+1808229782565732,Emma,Chen,36089,854518728062939,1808229782565732,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-09-11 01:19:26
+1808229782565732,Emma,Chen,36090,854518728062939,1808229782565732,BOT: quick reply,":keycap_1: False
+:keycap_2: True
+",2018-09-11 01:19:27
+1808229782565732,Emma,Chen,36093,1808229782565732,854518728062939,user_quick_reply: BUTTON_AKB_False,:keycap_1:,2018-09-11 01:19:30
+1808229782565732,Emma,Chen,36094,854518728062939,1808229782565732,BOT: message,Great job!,2018-09-11 01:19:31
+1808229782565732,Emma,Chen,36095,854518728062939,1808229782565732,BOT: quick reply,The correct answer is False.,2018-09-11 01:19:32
+1808229782565732,Emma,Chen,36109,1808229782565732,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-11 01:19:56
+1808229782565732,Emma,Chen,36110,854518728062939,1808229782565732,BOT: message,What about this next question:,2018-09-11 01:19:57
+1808229782565732,Emma,Chen,36111,854518728062939,1808229782565732,BOT: message,Remember that you can always type in your answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-09-11 01:19:58
+1808229782565732,Emma,Chen,36113,854518728062939,1808229782565732,BOT: quick reply,What does CERT stand for?,2018-09-11 01:19:58
+1808229782565732,Emma,Chen,36118,1808229782565732,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-11 01:20:03
+1808229782565732,Emma,Chen,36120,854518728062939,1808229782565732,BOT: message,It's one of the following choices.,2018-09-11 01:20:04
+1808229782565732,Emma,Chen,36122,854518728062939,1808229782565732,BOT: quick reply,":keycap_1: Controlled Evacuation and Response Tactics
+:keycap_2: Community Emergency Response Team
+:keycap_3: Community Experimental Research Team
+:keycap_4: Central Emergency Response Terminal
+",2018-09-11 01:20:05
+1808229782565732,Emma,Chen,36123,1808229782565732,854518728062939,user_quick_reply: BUTTON_AKB_Community Emergency Response Team,:keycap_2:,2018-09-11 01:20:11
+1808229782565732,Emma,Chen,36124,854518728062939,1808229782565732,BOT: message,Nice! That was right!,2018-09-11 01:20:12
+1808229782565732,Emma,Chen,36125,854518728062939,1808229782565732,BOT: quick reply,The correct answer is Community Emergency Response Team.,2018-09-11 01:20:13
+1808229782565732,Emma,Chen,36128,1808229782565732,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-11 01:20:18
+1808229782565732,Emma,Chen,36130,854518728062939,1808229782565732,BOT: message,Let's try this one.,2018-09-11 01:20:18
+1808229782565732,Emma,Chen,36131,854518728062939,1808229782565732,BOT: quick reply,What should you NOT do while treating cuts and scrapes?,2018-09-11 01:20:19
+1808229782565732,Emma,Chen,36135,1808229782565732,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-11 01:20:27
+1808229782565732,Emma,Chen,36137,854518728062939,1808229782565732,BOT: message,It's one of the following choices.,2018-09-11 01:20:28
+1808229782565732,Emma,Chen,36139,854518728062939,1808229782565732,BOT: quick reply,":keycap_1: Cover the wound
+:keycap_2: Apply an antibiotic to the wound
+:keycap_3: Wash the wound with soap
+:keycap_4: Apply pressure on the wound with a clean cloth or bandage
+",2018-09-11 01:20:28
+1808229782565732,Emma,Chen,36141,1808229782565732,854518728062939,user_quick_reply: BUTTON_AKB_Wash the wound with soap,:keycap_3:,2018-09-11 01:20:36
+1808229782565732,Emma,Chen,36142,854518728062939,1808229782565732,BOT: image,https://www.smartprimer.ai:4443/pictures/avatar/congrats/penguinnormal_happy_orange.png,2018-09-11 01:20:38
+1808229782565732,Emma,Chen,36143,854518728062939,1808229782565732,BOT: message,Great job getting the correct answer!,2018-09-11 01:20:39
+1808229782565732,Emma,Chen,36144,854518728062939,1808229782565732,BOT: quick reply,The correct answer is Wash the wound with soap.,2018-09-11 01:20:40
+1808229782565732,Emma,Chen,36145,1808229782565732,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-11 01:20:45
+1808229782565732,Emma,Chen,36147,854518728062939,1808229782565732,BOT: message,Let's try this one.,2018-09-11 01:20:46
+1808229782565732,Emma,Chen,36149,854518728062939,1808229782565732,BOT: quick reply,Nerve cells that sense touch are found mainly where?,2018-09-11 01:20:47
+1808229782565732,Emma,Chen,36156,1808229782565732,854518728062939,user_typing,Skin,2018-09-11 01:20:55
+1808229782565732,Emma,Chen,36158,854518728062939,1808229782565732,BOT: message,Fantastic! :hundred_points:,2018-09-11 01:20:56
+1808229782565732,Emma,Chen,36160,854518728062939,1808229782565732,BOT: quick reply,The correct answer is skin.,2018-09-11 01:20:57
+1808229782565732,Emma,Chen,36161,1808229782565732,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-11 01:21:00
+1808229782565732,Emma,Chen,36162,854518728062939,1808229782565732,BOT: message,Let's see if you can answer this question.,2018-09-11 01:21:01
+1808229782565732,Emma,Chen,36163,854518728062939,1808229782565732,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-09-11 01:21:02
+1808229782565732,Emma,Chen,36164,854518728062939,1808229782565732,BOT: quick reply,"Temperature, water, soil, and air are examples of nonliving factors of an ecosystem, also termed what?",2018-09-11 01:21:03
+1808229782565732,Emma,Chen,36165,1808229782565732,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-11 01:21:09
+1808229782565732,Emma,Chen,36166,854518728062939,1808229782565732,BOT: message,It's one of the following choices.,2018-09-11 01:21:10
+1808229782565732,Emma,Chen,36167,854518728062939,1808229782565732,BOT: quick reply,":keycap_1: diverse factors
+:keycap_2: abiotic factors
+:keycap_3: conditional factors
+:keycap_4: nucleic factors
+",2018-09-11 01:21:11
+1808229782565732,Emma,Chen,36171,1808229782565732,854518728062939,user_quick_reply: BUTTON_AKB_abiotic factors,:keycap_2:,2018-09-11 01:21:15
+1808229782565732,Emma,Chen,36172,854518728062939,1808229782565732,BOT: message,Great job!,2018-09-11 01:21:15
+1808229782565732,Emma,Chen,36174,854518728062939,1808229782565732,BOT: quick reply,The correct answer is abiotic factors.,2018-09-11 01:21:16
+1808229782565732,Emma,Chen,36177,1808229782565732,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-11 01:21:22
+1808229782565732,Emma,Chen,36178,854518728062939,1808229782565732,BOT: message,Here's a question for you:,2018-09-11 01:21:22
+1808229782565732,Emma,Chen,36179,854518728062939,1808229782565732,BOT: quick reply,The electrode at which oxidation occurs is called the what?,2018-09-11 01:21:23
+1808229782565732,Emma,Chen,36183,1808229782565732,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-11 01:21:28
+1808229782565732,Emma,Chen,36184,854518728062939,1808229782565732,BOT: message,It's one of the following choices.,2018-09-11 01:21:29
+1808229782565732,Emma,Chen,36185,854518728062939,1808229782565732,BOT: quick reply,":keycap_1: cathode
+:keycap_2: anode
+:keycap_3: diode
+:keycap_4: calomel
+",2018-09-11 01:21:30
+1808229782565732,Emma,Chen,36190,1808229782565732,854518728062939,user_quick_reply: BUTTON_AKB_anode,:keycap_2:,2018-09-11 01:21:34
+1808229782565732,Emma,Chen,36191,854518728062939,1808229782565732,BOT: image,https://www.smartprimer.ai:4443/pictures/avatar/congrats/penguinnormal_jubilated_pink.png,2018-09-11 01:21:36
+1808229782565732,Emma,Chen,36192,854518728062939,1808229782565732,BOT: message,Great! Keep it up! :flexed_biceps_medium-light_skin_tone:,2018-09-11 01:21:36
+1808229782565732,Emma,Chen,36194,854518728062939,1808229782565732,BOT: quick reply,The correct answer is anode.,2018-09-11 01:21:37
+1808229782565732,Emma,Chen,36198,1808229782565732,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-11 01:21:41
+1808229782565732,Emma,Chen,36199,854518728062939,1808229782565732,BOT: message,Let's take a look at this question.,2018-09-11 01:21:41
+1808229782565732,Emma,Chen,36200,854518728062939,1808229782565732,BOT: message,Remember that you can always type in your answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-09-11 01:21:42
+1808229782565732,Emma,Chen,36201,854518728062939,1808229782565732,BOT: quick reply,The lithosphere is divided into a dozen major and several minor what?,2018-09-11 01:21:43
+1808229782565732,Emma,Chen,36203,1808229782565732,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-11 01:21:50
+1808229782565732,Emma,Chen,36205,854518728062939,1808229782565732,BOT: message,Pick one of the following answers.,2018-09-11 01:21:51
+1808229782565732,Emma,Chen,36207,854518728062939,1808229782565732,BOT: quick reply,":keycap_1: crystals
+:keycap_2: zones
+:keycap_3: plates
+:keycap_4: faults
+",2018-09-11 01:21:51
+1808229782565732,Emma,Chen,36210,1808229782565732,854518728062939,user_quick_reply: BUTTON_AKB_plates,:keycap_3:,2018-09-11 01:21:56
+1808229782565732,Emma,Chen,36212,854518728062939,1808229782565732,BOT: message,Great job getting the correct answer!,2018-09-11 01:21:57
+1808229782565732,Emma,Chen,36213,854518728062939,1808229782565732,BOT: quick reply,The correct answer is plates.,2018-09-11 01:21:57
+1808229782565732,Emma,Chen,36214,1808229782565732,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-11 01:22:01
+1808229782565732,Emma,Chen,36215,854518728062939,1808229782565732,BOT: message,I think you'll like this question.,2018-09-11 01:22:01
+1808229782565732,Emma,Chen,36216,854518728062939,1808229782565732,BOT: quick reply,What are by far the most common type of invertebrate?,2018-09-11 01:22:02
+1808229782565732,Emma,Chen,36217,1808229782565732,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-11 01:22:08
+1808229782565732,Emma,Chen,36218,854518728062939,1808229782565732,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-09-11 01:22:09
+1808229782565732,Emma,Chen,36219,854518728062939,1808229782565732,BOT: quick reply,":keycap_1: crustaceans
+:keycap_2: spiders
+:keycap_3: insects
+:keycap_4: corals
+",2018-09-11 01:22:09
+1808229782565732,Emma,Chen,36223,1808229782565732,854518728062939,user_quick_reply: BUTTON_AKB_insects,:keycap_3:,2018-09-11 01:22:15
+1808229782565732,Emma,Chen,36224,854518728062939,1808229782565732,BOT: message,Great! Keep it up! :flexed_biceps_medium-light_skin_tone:,2018-09-11 01:22:16
+1808229782565732,Emma,Chen,36225,854518728062939,1808229782565732,BOT: quick reply,The correct answer is insects.,2018-09-11 01:22:16
+1808229782565732,Emma,Chen,36228,1808229782565732,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-11 01:22:20
+1808229782565732,Emma,Chen,36230,854518728062939,1808229782565732,BOT: message,See if you can answer this next one.,2018-09-11 01:22:20
+1808229782565732,Emma,Chen,36232,854518728062939,1808229782565732,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-09-11 01:22:21
+1808229782565732,Emma,Chen,36233,854518728062939,1808229782565732,BOT: quick reply,What are the little sacs at the end of the bronchioles called?,2018-09-11 01:22:22
+1808229782565732,Emma,Chen,36234,1808229782565732,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-11 01:22:27
+1808229782565732,Emma,Chen,36235,854518728062939,1808229782565732,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-09-11 01:22:28
+1808229782565732,Emma,Chen,36236,854518728062939,1808229782565732,BOT: quick reply,":keycap_1: ganglion
+:keycap_2: alveoli
+:keycap_3: lung
+:keycap_4: respiratory sacs
+",2018-09-11 01:22:29
+1808229782565732,Emma,Chen,36248,1808229782565732,854518728062939,user_quick_reply: BUTTON_AKB_alveoli,:keycap_2:,2018-09-11 01:22:52
+1808229782565732,Emma,Chen,36249,854518728062939,1808229782565732,BOT: image,https://www.smartprimer.ai:4443/pictures/avatar/congrats/penguinnormal_happy_orange.png,2018-09-11 01:22:54
+1808229782565732,Emma,Chen,36250,854518728062939,1808229782565732,BOT: message,Great job getting the correct answer!,2018-09-11 01:22:54
+1808229782565732,Emma,Chen,36251,854518728062939,1808229782565732,BOT: quick reply,The correct answer is alveoli.,2018-09-11 01:22:55
+1808229782565732,Emma,Chen,36252,1808229782565732,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-11 01:22:59
+1808229782565732,Emma,Chen,36253,854518728062939,1808229782565732,BOT: message,Here's a question for you:,2018-09-11 01:23:00
+1808229782565732,Emma,Chen,36254,854518728062939,1808229782565732,BOT: message,Remember that you can always type in your answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-09-11 01:23:01
+1808229782565732,Emma,Chen,36255,854518728062939,1808229782565732,BOT: quick reply,"What arises due to crossing over, independent assortment, and the random union of gametes?",2018-09-11 01:23:01
+1808229782565732,Emma,Chen,36259,1808229782565732,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-11 01:23:07
+1808229782565732,Emma,Chen,36260,854518728062939,1808229782565732,BOT: message,It's one of the following choices.,2018-09-11 01:23:08
+1808229782565732,Emma,Chen,36261,854518728062939,1808229782565732,BOT: quick reply,":keycap_1: susceptible variation
+:keycap_2: genetic variation
+:keycap_3: recessive variation
+:keycap_4: alternative variation
+",2018-09-11 01:23:09
+1808229782565732,Emma,Chen,36264,1808229782565732,854518728062939,user_quick_reply: BUTTON_AKB_genetic variation,:keycap_2:,2018-09-11 01:23:13
+1808229782565732,Emma,Chen,36266,854518728062939,1808229782565732,BOT: image,https://www.smartprimer.ai:4443/pictures/avatar/congrats/penguinnormal_happy_orange.png,2018-09-11 01:23:15
+1808229782565732,Emma,Chen,36267,854518728062939,1808229782565732,BOT: message,Great! Keep it up! :flexed_biceps_medium-light_skin_tone:,2018-09-11 01:23:16
+1808229782565732,Emma,Chen,36268,854518728062939,1808229782565732,BOT: quick reply,The correct answer is genetic variation.,2018-09-11 01:23:16
+1808229782565732,Emma,Chen,36269,1808229782565732,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-11 01:23:20
+1808229782565732,Emma,Chen,36271,854518728062939,1808229782565732,BOT: message,See if you can answer this next one.,2018-09-11 01:23:21
+1808229782565732,Emma,Chen,36273,854518728062939,1808229782565732,BOT: message,Remember that you can always type in your answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-09-11 01:23:21
+1808229782565732,Emma,Chen,36275,854518728062939,1808229782565732,BOT: quick reply,What disease characterized by the extreme swelling of the limbs is caused by infection with a type of roundworm?,2018-09-11 01:23:22
+1808229782565732,Emma,Chen,36276,1808229782565732,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-11 01:23:27
+1808229782565732,Emma,Chen,36277,854518728062939,1808229782565732,BOT: message,Okay. I'll give you some choices.,2018-09-11 01:23:28
+1808229782565732,Emma,Chen,36278,854518728062939,1808229782565732,BOT: quick reply,":keycap_1: pulmonary edema
+:keycap_2: elephantiasis
+:keycap_3: fibrosis
+:keycap_4: gigantism
+",2018-09-11 01:23:28
+1808229782565732,Emma,Chen,36282,1808229782565732,854518728062939,user_quick_reply: BUTTON_AKB_elephantiasis,:keycap_2:,2018-09-11 01:23:34
+1808229782565732,Emma,Chen,36283,854518728062939,1808229782565732,BOT: message,Great job!,2018-09-11 01:23:35
+1808229782565732,Emma,Chen,36284,854518728062939,1808229782565732,BOT: quick reply,The correct answer is elephantiasis.,2018-09-11 01:23:36
+1808229782565732,Emma,Chen,36286,1808229782565732,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-11 01:23:39
+1808229782565732,Emma,Chen,36288,854518728062939,1808229782565732,BOT: message,"Alrighty, let's try this one.",2018-09-11 01:23:40
+1808229782565732,Emma,Chen,36290,854518728062939,1808229782565732,BOT: quick reply,What is the diffusion of water through a semipermeable membrane down its concentration gradient?,2018-09-11 01:23:41
+1808229782565732,Emma,Chen,36294,1808229782565732,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-11 01:23:45
+1808229782565732,Emma,Chen,36296,854518728062939,1808229782565732,BOT: message,Which of the following options is the right answer?,2018-09-11 01:23:46
+1808229782565732,Emma,Chen,36297,854518728062939,1808229782565732,BOT: quick reply,":keycap_1: nutrients
+:keycap_2: mirrors
+:keycap_3: permable
+:keycap_4: osmosis
+",2018-09-11 01:23:47
+1808229782565732,Emma,Chen,36301,1808229782565732,854518728062939,user_quick_reply: BUTTON_AKB_osmosis,:keycap_4:,2018-09-11 01:23:53
+1808229782565732,Emma,Chen,36302,854518728062939,1808229782565732,BOT: message,Great! Keep it up! :flexed_biceps_medium-light_skin_tone:,2018-09-11 01:23:54
+1808229782565732,Emma,Chen,36303,854518728062939,1808229782565732,BOT: quick reply,The correct answer is osmosis.,2018-09-11 01:23:55
+1808229782565732,Emma,Chen,36304,1808229782565732,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-11 01:23:58
+1808229782565732,Emma,Chen,36305,854518728062939,1808229782565732,BOT: message,Congratulations! You've finished your study. Please proceed to the post-study quizzes to test how well you master the knowledge!,2018-09-11 01:23:59
+1808229782565732,Emma,Chen,36306,854518728062939,1808229782565732,BOT: message,Please be sure to finish the two post-study quizzes according to our instructions.,2018-09-11 01:24:00
+1808229782565732,Emma,Chen,36307,854518728062939,1808229782565732,BOT: message,Good luck and have fun! :grinning_face_with_smiling_eyes:,2018-09-11 01:24:01
+1808229782565732,Emma,Chen,39604,854518728062939,1808229782565732,BOT: quick reply,"Hi Emma, remember to practice some questions with me if you haven't finished your session today!",2018-09-11 20:01:15
+1808229782565732,Emma,Chen,41424,854518728062939,1808229782565732,BOT: quick reply,"Hi Emma, remember to practice some questions with me if you haven't finished your session today!",2018-09-12 20:01:50

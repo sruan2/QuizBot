@@ -22,20 +22,18 @@ correctness_rate_file = "correctness_rate.csv"
 #          "Michael_Silvernagel", "Bianca_Yu" ]
 
 # within-subject users
-#users = ["Noah Yinuo_Yao", "Dee Dee_Thao", "Zhenqi_Hu", "Jingyi_Li", "Joy_Yuzuriha", "Tyler_Yep", \
-#         "Andrew_Ying", "Henry_Qin", "Nina_Horowitz", "Daniel_Do", "Fangmingyu_Yang", "Francis_Yan", \
-#         "Olivia_Yang", "Ted_Shaowang", "Helen_Wang", "De-an_Huang", "Kylie_Jue", \
-#         "Giovanni_Campagna", "Jean_Coquet", "Zhouheng_Zhuang"]
-
-         # , "Yue_Hui", "Clayton_Ellington", \
-         # "Nathaniel_Ramos", "Paul_Walter", "Flora_Wang", "Christine_Liu", "Selen_Bozkurt", "Maisam_Pyarali", \
-         # "Nathan_Dalal", "Sorathan_Chaturapruek", "Daniel_Choe", "Owen_Wang", "Richard_Xu", "Yang_Wang",
-         # "Hongsheng_Fang"]
+users = ["Noah Yinuo_Yao", "Dee Dee_Thao", "Zhenqi_Hu", "Jingyi_Li", "Joy_Yuzuriha", "Tyler_Yep", \
+        "Andrew_Ying", "Henry_Qin", "Nina_Horowitz", "Daniel_Do", "Fangmingyu_Yang", "Francis_Yan", \
+        "Olivia_Yang", "Ted_Shaowang", "Helen_Wang", "De-an_Huang", "Kylie_Jue", \
+        "Giovanni_Campagna", "Jean_Coquet", "Zhouheng_Zhuang", "Yue_Hui", "Clayton_Ellington", \
+         "Nathaniel_Ramos", "Paul_Walter", "Flora_Wang", "Christine_Liu", "Selen_Bozkurt", "Maisam_Pyarali", \
+         "Nathan_Dalal", "Sorathan_Chaturapruek", "Daniel_Choe", "Owen_Wang", "Richard_Xu", "Yang_Wang",
+         "Hongsheng_Fang"]
          
 # users.append("Julia_Thompson")
 
 
-users = ["Sherry_Ruan", "Jeongeun_Park"]
+# users = ["Sherry_Ruan", "Jeongeun_Park"]
 
 # a dictionary of the number of times user studied each question
 practice_question_count = {'Jean_Coquet': {128: 0, 130: 0, 131: 0, 133: 0, 6: 0, 135: 0, 9: 0, 10: 0, 11: 0, 141: 0, 142: 0, 15: 0, 144: 0, 145: 0, 18: 0, 3: 0, 148: 0, 24: 0, 29: 0, 37: 0, 40: 0, 41: 0, 44: 0, 46: 0, 49: 0, 51: 0, 52: 0, 55: 0, 56: 0, 58: 0, 59: 0, 73: 0, 75: 0, 76: 0, 77: 0, 83: 0, 88: 0, 89: 0, 90: 0, 92: 0, 99: 0, 102: 0, 17: 0, 104: 0, 106: 0, 111: 0, 113: 0, 114: 0}, 

@@ -28,7 +28,7 @@ users = [("Sherry", "Ruan"), ("Jeongeun", "Park"), ("Shuo", "Han"), # Tuesday Se
          ("Hao", "Chen"), ("Ziang", "Zhu"),
          ("Tenaer", "Yin"), ("Akemi", "Wijayabahu"), ("Hongyu", "Zhai"), ("Wenxiao", "Huang"),
          ("Yibing", "Du"), ("Haihong", "Li"), ("Yifan", "He"), ("Mingchen", "Li"),
-         ("Ramon", "Tuason")
+         ("Ramon", "Tuason"), ("Hanke", "Gu")
          ]
 
 if sys.argv[1] != "" and sys.argv[2] != "":

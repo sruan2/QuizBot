@@ -554,3 +554,823 @@ user_id,user_firstname,user_lastname,uid,sender,recipient,type,dialogue,time_sta
 1895184847242752,Fangjie,Cao,16008,1895184847242752,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-08 02:40:24
 1895184847242752,Fangjie,Cao,16010,854518728062939,1895184847242752,BOT: quick reply,"Nice job! You've practiced enough questions today. Please come back tomorrow and click on ""Resume Learning :flexed_biceps_medium-light_skin_tone:"" for another practice session.",2018-09-08 02:40:25
 1895184847242752,Fangjie,Cao,19358,854518728062939,1895184847242752,BOT: quick reply,"Hi Fangjie, remember to practice some questions with me if you haven't finished your session today!",2018-09-08 20:00:10
+1895184847242752,Fangjie,Cao,23008,1895184847242752,854518728062939,user_quick_reply: NEXT_QUESTION,I see :collision:,2018-09-09 03:49:26
+1895184847242752,Fangjie,Cao,23009,854518728062939,1895184847242752,BOT: quick reply,"Nice job! You've practiced enough questions today. Please come back tomorrow and click on ""Resume Learning :flexed_biceps_medium-light_skin_tone:"" for another practice session.",2018-09-09 03:49:27
+1895184847242752,Fangjie,Cao,23011,1895184847242752,854518728062939,user_quick_reply: NEXT_QUESTION,Resume Learning :flexed_biceps_medium-light_skin_tone:,2018-09-09 03:49:31
+1895184847242752,Fangjie,Cao,23013,854518728062939,1895184847242752,BOT: message,What about this next question:,2018-09-09 03:49:32
+1895184847242752,Fangjie,Cao,23015,854518728062939,1895184847242752,BOT: quick reply,Most fungi get organic compounds from what?,2018-09-09 03:49:32
+1895184847242752,Fangjie,Cao,23018,1895184847242752,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-09 03:49:41
+1895184847242752,Fangjie,Cao,23019,854518728062939,1895184847242752,BOT: message,Okay. I'll give you some choices.,2018-09-09 03:49:42
+1895184847242752,Fangjie,Cao,23020,854518728062939,1895184847242752,BOT: quick reply,":keycap_1: carnivorous organisms
+:keycap_2: inorganic material
+:keycap_3: dead organisms
+:keycap_4: living organisms
+",2018-09-09 03:49:42
+1895184847242752,Fangjie,Cao,23021,1895184847242752,854518728062939,user_quick_reply: BUTTON_AKB_dead organisms,:keycap_3:,2018-09-09 03:49:48
+1895184847242752,Fangjie,Cao,23022,854518728062939,1895184847242752,BOT: message,Great job getting the correct answer!,2018-09-09 03:49:49
+1895184847242752,Fangjie,Cao,23023,854518728062939,1895184847242752,BOT: quick reply,The correct answer is dead organisms.,2018-09-09 03:49:49
+1895184847242752,Fangjie,Cao,23024,1895184847242752,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-09 03:50:10
+1895184847242752,Fangjie,Cao,23025,854518728062939,1895184847242752,BOT: message,Could you answer this one for me?,2018-09-09 03:50:11
+1895184847242752,Fangjie,Cao,23026,854518728062939,1895184847242752,BOT: quick reply,Most insects reproduce quickly and through what type of reproduction?,2018-09-09 03:50:11
+1895184847242752,Fangjie,Cao,23027,1895184847242752,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-09 03:50:18
+1895184847242752,Fangjie,Cao,23028,854518728062939,1895184847242752,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-09-09 03:50:19
+1895184847242752,Fangjie,Cao,23029,854518728062939,1895184847242752,BOT: quick reply,":keycap_1: sexual reproduction
+:keycap_2: photosynthesis
+:keycap_3: spores
+:keycap_4: asexual reproduction
+",2018-09-09 03:50:20
+1895184847242752,Fangjie,Cao,23030,1895184847242752,854518728062939,user_quick_reply: BUTTON_DKB_asexual reproduction,:keycap_4:,2018-09-09 03:50:27
+1895184847242752,Fangjie,Cao,23031,854518728062939,1895184847242752,BOT: message,"Oops, that wasn't quite correct. :disappointed_face:",2018-09-09 03:50:27
+1895184847242752,Fangjie,Cao,23032,854518728062939,1895184847242752,BOT: quick reply,The correct answer is sexual reproduction.,2018-09-09 03:50:28
+1895184847242752,Fangjie,Cao,23033,1895184847242752,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-09 03:50:33
+1895184847242752,Fangjie,Cao,23034,854518728062939,1895184847242752,BOT: message,See if you can answer this next one.,2018-09-09 03:50:33
+1895184847242752,Fangjie,Cao,23035,854518728062939,1895184847242752,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-09-09 03:50:34
+1895184847242752,Fangjie,Cao,23036,854518728062939,1895184847242752,BOT: quick reply,Nerve cells that sense touch are found mainly where?,2018-09-09 03:50:34
+1895184847242752,Fangjie,Cao,23037,1895184847242752,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-09 03:50:45
+1895184847242752,Fangjie,Cao,23038,854518728062939,1895184847242752,BOT: message,Okay. I'll give you some choices.,2018-09-09 03:50:46
+1895184847242752,Fangjie,Cao,23039,854518728062939,1895184847242752,BOT: quick reply,":keycap_1: lungs
+:keycap_2: stomach
+:keycap_3: brain
+:keycap_4: skin
+",2018-09-09 03:50:46
+1895184847242752,Fangjie,Cao,23040,1895184847242752,854518728062939,user_quick_reply: BUTTON_AKB_skin,:keycap_4:,2018-09-09 03:51:01
+1895184847242752,Fangjie,Cao,23041,854518728062939,1895184847242752,BOT: image,https://www.smartprimer.ai:4443/pictures/avatar/congrats/penguinnormal_happy_orange.png,2018-09-09 03:51:03
+1895184847242752,Fangjie,Cao,23042,854518728062939,1895184847242752,BOT: message,Great job!,2018-09-09 03:51:03
+1895184847242752,Fangjie,Cao,23043,854518728062939,1895184847242752,BOT: quick reply,The correct answer is skin.,2018-09-09 03:51:04
+1895184847242752,Fangjie,Cao,23044,1895184847242752,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-09 03:51:07
+1895184847242752,Fangjie,Cao,23045,854518728062939,1895184847242752,BOT: message,Would you answer this question for me?,2018-09-09 03:51:08
+1895184847242752,Fangjie,Cao,23046,854518728062939,1895184847242752,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-09-09 03:51:09
+1895184847242752,Fangjie,Cao,23047,854518728062939,1895184847242752,BOT: quick reply,"Temperature, water, soil, and air are examples of nonliving factors of an ecosystem, also termed what?",2018-09-09 03:51:09
+1895184847242752,Fangjie,Cao,23048,1895184847242752,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-09 03:51:15
+1895184847242752,Fangjie,Cao,23049,854518728062939,1895184847242752,BOT: message,Which of the following options is the right answer?,2018-09-09 03:51:15
+1895184847242752,Fangjie,Cao,23050,854518728062939,1895184847242752,BOT: quick reply,":keycap_1: diverse factors
+:keycap_2: conditional factors
+:keycap_3: abiotic factors
+:keycap_4: nucleic factors
+",2018-09-09 03:51:16
+1895184847242752,Fangjie,Cao,23051,1895184847242752,854518728062939,user_quick_reply: BUTTON_AKB_abiotic factors,:keycap_3:,2018-09-09 03:51:21
+1895184847242752,Fangjie,Cao,23052,854518728062939,1895184847242752,BOT: image,https://www.smartprimer.ai:4443/pictures/avatar/congrats/penguinnormal_happy_pink.png,2018-09-09 03:51:23
+1895184847242752,Fangjie,Cao,23053,854518728062939,1895184847242752,BOT: message,Nice work! Keep it up!,2018-09-09 03:51:24
+1895184847242752,Fangjie,Cao,23054,854518728062939,1895184847242752,BOT: quick reply,The correct answer is abiotic factors.,2018-09-09 03:51:24
+1895184847242752,Fangjie,Cao,23055,1895184847242752,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-09 03:51:32
+1895184847242752,Fangjie,Cao,23056,854518728062939,1895184847242752,BOT: message,"Alrighty, let's try this one.",2018-09-09 03:51:32
+1895184847242752,Fangjie,Cao,23057,854518728062939,1895184847242752,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-09-09 03:51:33
+1895184847242752,Fangjie,Cao,23058,854518728062939,1895184847242752,BOT: quick reply,The electrode at which oxidation occurs is called the what?,2018-09-09 03:51:34
+1895184847242752,Fangjie,Cao,23059,1895184847242752,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-09 03:51:40
+1895184847242752,Fangjie,Cao,23060,854518728062939,1895184847242752,BOT: message,Pick one of the following answers.,2018-09-09 03:51:41
+1895184847242752,Fangjie,Cao,23061,854518728062939,1895184847242752,BOT: quick reply,":keycap_1: cathode
+:keycap_2: anode
+:keycap_3: calomel
+:keycap_4: diode
+",2018-09-09 03:51:42
+1895184847242752,Fangjie,Cao,23062,1895184847242752,854518728062939,user_quick_reply: BUTTON_AKB_anode,:keycap_2:,2018-09-09 03:51:50
+1895184847242752,Fangjie,Cao,23063,854518728062939,1895184847242752,BOT: image,https://www.smartprimer.ai:4443/pictures/avatar/congrats/penguinnormal_happy_orange.png,2018-09-09 03:51:52
+1895184847242752,Fangjie,Cao,23064,854518728062939,1895184847242752,BOT: message,Great job!,2018-09-09 03:51:53
+1895184847242752,Fangjie,Cao,23065,854518728062939,1895184847242752,BOT: quick reply,The correct answer is anode.,2018-09-09 03:51:53
+1895184847242752,Fangjie,Cao,23066,1895184847242752,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-09 03:52:00
+1895184847242752,Fangjie,Cao,23067,854518728062939,1895184847242752,BOT: message,Let's see if you can answer this question.,2018-09-09 03:52:00
+1895184847242752,Fangjie,Cao,23068,854518728062939,1895184847242752,BOT: quick reply,The lithosphere is divided into a dozen major and several minor what?,2018-09-09 03:52:01
+1895184847242752,Fangjie,Cao,23069,1895184847242752,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-09 03:52:07
+1895184847242752,Fangjie,Cao,23070,854518728062939,1895184847242752,BOT: message,Pick one of the following answers.,2018-09-09 03:52:08
+1895184847242752,Fangjie,Cao,23071,854518728062939,1895184847242752,BOT: quick reply,":keycap_1: faults
+:keycap_2: plates
+:keycap_3: crystals
+:keycap_4: zones
+",2018-09-09 03:52:09
+1895184847242752,Fangjie,Cao,23072,1895184847242752,854518728062939,user_quick_reply: BUTTON_AKB_plates,:keycap_2:,2018-09-09 03:52:16
+1895184847242752,Fangjie,Cao,23073,854518728062939,1895184847242752,BOT: image,https://www.smartprimer.ai:4443/pictures/avatar/congrats/penguinnormal_normal_orange.png,2018-09-09 03:52:18
+1895184847242752,Fangjie,Cao,23074,854518728062939,1895184847242752,BOT: message,Great! Keep it up! :flexed_biceps_medium-light_skin_tone:,2018-09-09 03:52:18
+1895184847242752,Fangjie,Cao,23075,854518728062939,1895184847242752,BOT: quick reply,The correct answer is plates.,2018-09-09 03:52:19
+1895184847242752,Fangjie,Cao,23076,1895184847242752,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-09 03:52:23
+1895184847242752,Fangjie,Cao,23077,854518728062939,1895184847242752,BOT: message,What about this next question:,2018-09-09 03:52:23
+1895184847242752,Fangjie,Cao,23078,854518728062939,1895184847242752,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-09-09 03:52:24
+1895184847242752,Fangjie,Cao,23079,854518728062939,1895184847242752,BOT: quick reply,What are by far the most common type of invertebrate?,2018-09-09 03:52:25
+1895184847242752,Fangjie,Cao,23080,1895184847242752,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-09 03:52:35
+1895184847242752,Fangjie,Cao,23081,854518728062939,1895184847242752,BOT: message,It's one of the following choices.,2018-09-09 03:52:35
+1895184847242752,Fangjie,Cao,23082,854518728062939,1895184847242752,BOT: quick reply,":keycap_1: corals
+:keycap_2: spiders
+:keycap_3: crustaceans
+:keycap_4: insects
+",2018-09-09 03:52:36
+1895184847242752,Fangjie,Cao,23083,1895184847242752,854518728062939,user_quick_reply: BUTTON_AKB_insects,:keycap_4:,2018-09-09 03:52:41
+1895184847242752,Fangjie,Cao,23084,854518728062939,1895184847242752,BOT: message,Nice work! Keep it up!,2018-09-09 03:52:42
+1895184847242752,Fangjie,Cao,23085,854518728062939,1895184847242752,BOT: quick reply,The correct answer is insects.,2018-09-09 03:52:43
+1895184847242752,Fangjie,Cao,23086,1895184847242752,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-09 03:52:48
+1895184847242752,Fangjie,Cao,23087,854518728062939,1895184847242752,BOT: message,Let's see if you can get this one.,2018-09-09 03:52:48
+1895184847242752,Fangjie,Cao,23088,854518728062939,1895184847242752,BOT: quick reply,What are the little sacs at the end of the bronchioles called?,2018-09-09 03:52:49
+1895184847242752,Fangjie,Cao,23089,1895184847242752,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-09 03:52:57
+1895184847242752,Fangjie,Cao,23090,854518728062939,1895184847242752,BOT: message,Okay. I'll give you some choices.,2018-09-09 03:52:58
+1895184847242752,Fangjie,Cao,23091,854518728062939,1895184847242752,BOT: quick reply,":keycap_1: ganglion
+:keycap_2: lung
+:keycap_3: alveoli
+:keycap_4: respiratory sacs
+",2018-09-09 03:52:59
+1895184847242752,Fangjie,Cao,23092,1895184847242752,854518728062939,user_quick_reply: BUTTON_AKB_alveoli,:keycap_3:,2018-09-09 03:53:07
+1895184847242752,Fangjie,Cao,23093,854518728062939,1895184847242752,BOT: message,Great job getting the correct answer!,2018-09-09 03:53:07
+1895184847242752,Fangjie,Cao,23094,854518728062939,1895184847242752,BOT: quick reply,The correct answer is alveoli.,2018-09-09 03:53:08
+1895184847242752,Fangjie,Cao,23095,1895184847242752,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-09 03:53:13
+1895184847242752,Fangjie,Cao,23096,854518728062939,1895184847242752,BOT: message,Let's take a look at this question.,2018-09-09 03:53:13
+1895184847242752,Fangjie,Cao,23097,854518728062939,1895184847242752,BOT: quick reply,"What arises due to crossing over, independent assortment, and the random union of gametes?",2018-09-09 03:53:14
+1895184847242752,Fangjie,Cao,23098,1895184847242752,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-09 03:53:25
+1895184847242752,Fangjie,Cao,23099,854518728062939,1895184847242752,BOT: message,Which of the following options is the right answer?,2018-09-09 03:53:25
+1895184847242752,Fangjie,Cao,23100,854518728062939,1895184847242752,BOT: quick reply,":keycap_1: recessive variation
+:keycap_2: susceptible variation
+:keycap_3: alternative variation
+:keycap_4: genetic variation
+",2018-09-09 03:53:26
+1895184847242752,Fangjie,Cao,23101,1895184847242752,854518728062939,user_quick_reply: BUTTON_DKB_alternative variation,:keycap_3:,2018-09-09 03:53:37
+1895184847242752,Fangjie,Cao,23102,854518728062939,1895184847242752,BOT: message,"Hmm, that wasn't quite right. :disappointed_face:",2018-09-09 03:53:37
+1895184847242752,Fangjie,Cao,23103,854518728062939,1895184847242752,BOT: quick reply,The correct answer is genetic variation.,2018-09-09 03:53:38
+1895184847242752,Fangjie,Cao,23104,1895184847242752,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-09 03:53:44
+1895184847242752,Fangjie,Cao,23105,854518728062939,1895184847242752,BOT: message,See if you can answer this next one.,2018-09-09 03:53:44
+1895184847242752,Fangjie,Cao,23106,854518728062939,1895184847242752,BOT: quick reply,What disease characterized by the extreme swelling of the limbs is caused by infection with a type of roundworm?,2018-09-09 03:53:46
+1895184847242752,Fangjie,Cao,23107,1895184847242752,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-09 03:53:58
+1895184847242752,Fangjie,Cao,23108,854518728062939,1895184847242752,BOT: message,Which of the following options is the right answer?,2018-09-09 03:53:59
+1895184847242752,Fangjie,Cao,23109,854518728062939,1895184847242752,BOT: quick reply,":keycap_1: pulmonary edema
+:keycap_2: fibrosis
+:keycap_3: elephantiasis
+:keycap_4: gigantism
+",2018-09-09 03:54:00
+1895184847242752,Fangjie,Cao,23110,1895184847242752,854518728062939,user_quick_reply: BUTTON_AKB_elephantiasis,:keycap_3:,2018-09-09 03:54:08
+1895184847242752,Fangjie,Cao,23111,854518728062939,1895184847242752,BOT: image,https://www.smartprimer.ai:4443/pictures/avatar/congrats/penguinnormal_normal_purple.png,2018-09-09 03:54:09
+1895184847242752,Fangjie,Cao,23112,854518728062939,1895184847242752,BOT: message,Nice work! Keep it up!,2018-09-09 03:54:10
+1895184847242752,Fangjie,Cao,23113,854518728062939,1895184847242752,BOT: quick reply,The correct answer is elephantiasis.,2018-09-09 03:54:11
+1895184847242752,Fangjie,Cao,23114,1895184847242752,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-09 03:54:16
+1895184847242752,Fangjie,Cao,23115,854518728062939,1895184847242752,BOT: message,Let's take a look at this question.,2018-09-09 03:54:17
+1895184847242752,Fangjie,Cao,23116,854518728062939,1895184847242752,BOT: quick reply,What is the diffusion of water through a semipermeable membrane down its concentration gradient?,2018-09-09 03:54:17
+1895184847242752,Fangjie,Cao,23117,1895184847242752,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-09 03:54:29
+1895184847242752,Fangjie,Cao,23118,854518728062939,1895184847242752,BOT: message,Okay. I'll give you some choices.,2018-09-09 03:54:30
+1895184847242752,Fangjie,Cao,23119,854518728062939,1895184847242752,BOT: quick reply,":keycap_1: mirrors
+:keycap_2: osmosis
+:keycap_3: nutrients
+:keycap_4: permable
+",2018-09-09 03:54:30
+1895184847242752,Fangjie,Cao,23120,1895184847242752,854518728062939,user_quick_reply: BUTTON_AKB_osmosis,:keycap_2:,2018-09-09 03:54:48
+1895184847242752,Fangjie,Cao,23121,854518728062939,1895184847242752,BOT: image,https://www.smartprimer.ai:4443/pictures/avatar/congrats/penguinnormal_happy_purple.png,2018-09-09 03:54:50
+1895184847242752,Fangjie,Cao,23122,854518728062939,1895184847242752,BOT: message,Great job!,2018-09-09 03:54:51
+1895184847242752,Fangjie,Cao,23123,854518728062939,1895184847242752,BOT: quick reply,The correct answer is osmosis.,2018-09-09 03:54:51
+1895184847242752,Fangjie,Cao,23124,1895184847242752,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-09 03:54:55
+1895184847242752,Fangjie,Cao,23125,854518728062939,1895184847242752,BOT: quick reply,"Hi there, you already practiced enough questions in this subject. Do you want to try other two subjects? :smiling_face_with_smiling_eyes:",2018-09-09 03:54:55
+1895184847242752,Fangjie,Cao,23126,1895184847242752,854518728062939,user_quick_reply: SAFETY,Safety:hammer_and_wrench:,2018-09-09 03:55:13
+1895184847242752,Fangjie,Cao,23127,854518728062939,1895184847242752,BOT: image,https://www.smartprimer.ai:4443/pictures/avatar/evolvescientist_safety.gif,2018-09-09 03:55:16
+1895184847242752,Fangjie,Cao,23128,854518728062939,1895184847242752,BOT: quick reply,Let's answer some questions about safety!,2018-09-09 03:55:17
+1895184847242752,Fangjie,Cao,23129,1895184847242752,854518728062939,user_quick_reply: NEXT_QUESTION,Alright :raising_hands_medium-light_skin_tone:,2018-09-09 03:55:22
+1895184847242752,Fangjie,Cao,23130,854518728062939,1895184847242752,BOT: message,How about this next one:,2018-09-09 03:55:23
+1895184847242752,Fangjie,Cao,23131,854518728062939,1895184847242752,BOT: quick reply,Which fire extinguishers are used to put out Class A fires?,2018-09-09 03:55:24
+1895184847242752,Fangjie,Cao,23132,1895184847242752,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-09 03:55:31
+1895184847242752,Fangjie,Cao,23133,854518728062939,1895184847242752,BOT: message,Pick one of the following answers.,2018-09-09 03:55:32
+1895184847242752,Fangjie,Cao,23134,854518728062939,1895184847242752,BOT: quick reply,":keycap_1: Both CO2 and water
+:keycap_2: Water only
+:keycap_3: Both water and multi-purpose dry chemical
+:keycap_4: CO2 only
+:keycap_5: Multi-purpose dry chemical only
+",2018-09-09 03:55:32
+1895184847242752,Fangjie,Cao,23135,1895184847242752,854518728062939,user_quick_reply: BUTTON_AKB_Both water and multi-purpose dry chemical,:keycap_3:,2018-09-09 03:55:46
+1895184847242752,Fangjie,Cao,23136,854518728062939,1895184847242752,BOT: message,Great! Keep it up! :flexed_biceps_medium-light_skin_tone:,2018-09-09 03:55:47
+1895184847242752,Fangjie,Cao,23137,854518728062939,1895184847242752,BOT: quick reply,The correct answer is Both water and multi-purpose dry chemical.,2018-09-09 03:55:47
+1895184847242752,Fangjie,Cao,23138,1895184847242752,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-09 03:55:52
+1895184847242752,Fangjie,Cao,23139,854518728062939,1895184847242752,BOT: message,I think you'll like this question.,2018-09-09 03:55:53
+1895184847242752,Fangjie,Cao,23140,854518728062939,1895184847242752,BOT: message,Remember that you can always type in your answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-09-09 03:55:53
+1895184847242752,Fangjie,Cao,23141,854518728062939,1895184847242752,BOT: quick reply,Which fire extinguishers are used to put out fires caused by flammable liquids?,2018-09-09 03:55:54
+1895184847242752,Fangjie,Cao,23142,1895184847242752,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-09 03:56:02
+1895184847242752,Fangjie,Cao,23143,854518728062939,1895184847242752,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-09-09 03:56:03
+1895184847242752,Fangjie,Cao,23144,854518728062939,1895184847242752,BOT: quick reply,":keycap_1: Class C dry chemical fire extinguisher
+:keycap_2: Class B carbon dioxide fire extinguisher
+:keycap_3: Class A water fire extinguishers
+",2018-09-09 03:56:03
+1895184847242752,Fangjie,Cao,23145,1895184847242752,854518728062939,user_quick_reply: BUTTON_DKB_Class C dry chemical fire extinguisher,:keycap_1:,2018-09-09 03:56:13
+1895184847242752,Fangjie,Cao,23146,854518728062939,1895184847242752,BOT: message,"Oops, that is not correct. :disappointed_face:",2018-09-09 03:56:14
+1895184847242752,Fangjie,Cao,23147,854518728062939,1895184847242752,BOT: quick reply,The correct answer is Class B carbon dioxide fire extinguisher.,2018-09-09 03:56:15
+1895184847242752,Fangjie,Cao,23148,1895184847242752,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-09 03:56:21
+1895184847242752,Fangjie,Cao,23149,854518728062939,1895184847242752,BOT: message,I think you'll like this question.,2018-09-09 03:56:21
+1895184847242752,Fangjie,Cao,23150,854518728062939,1895184847242752,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-09-09 03:56:22
+1895184847242752,Fangjie,Cao,23151,854518728062939,1895184847242752,BOT: quick reply,"If your co-worker needs CPR but you are not trained in it, what should you do?",2018-09-09 03:56:23
+1895184847242752,Fangjie,Cao,23152,1895184847242752,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-09 03:56:31
+1895184847242752,Fangjie,Cao,23153,854518728062939,1895184847242752,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-09-09 03:56:32
+1895184847242752,Fangjie,Cao,23154,854518728062939,1895184847242752,BOT: quick reply,":keycap_1: Give rescue breaths only
+:keycap_2: Lift the patient's head
+:keycap_3: Perform chest compressions only
+:keycap_4: Wait for emergency personnel to arrive
+",2018-09-09 03:56:33
+1895184847242752,Fangjie,Cao,23155,1895184847242752,854518728062939,user_quick_reply: BUTTON_AKB_Perform chest compressions only,:keycap_3:,2018-09-09 03:56:44
+1895184847242752,Fangjie,Cao,23156,854518728062939,1895184847242752,BOT: image,https://www.smartprimer.ai:4443/pictures/avatar/congrats/penguinnormal_happy_orange.png,2018-09-09 03:56:46
+1895184847242752,Fangjie,Cao,23157,854518728062939,1895184847242752,BOT: message,Great job!,2018-09-09 03:56:46
+1895184847242752,Fangjie,Cao,23158,854518728062939,1895184847242752,BOT: quick reply,The correct answer is Perform chest compressions only.,2018-09-09 03:56:48
+1895184847242752,Fangjie,Cao,23159,1895184847242752,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-09 03:56:51
+1895184847242752,Fangjie,Cao,23160,854518728062939,1895184847242752,BOT: message,See if you can answer this next one.,2018-09-09 03:56:51
+1895184847242752,Fangjie,Cao,23161,854518728062939,1895184847242752,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-09-09 03:56:52
+1895184847242752,Fangjie,Cao,23162,854518728062939,1895184847242752,BOT: quick reply,"When you discover a fire, you should do what?",2018-09-09 03:56:53
+1895184847242752,Fangjie,Cao,23163,1895184847242752,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-09 03:57:00
+1895184847242752,Fangjie,Cao,23164,854518728062939,1895184847242752,BOT: message,Which of the following options is the right answer?,2018-09-09 03:57:00
+1895184847242752,Fangjie,Cao,23165,854518728062939,1895184847242752,BOT: quick reply,":keycap_1: Stay in the building until you figure out a way to extinguish the fire
+:keycap_2: Run out of the building without warning others of the fire
+:keycap_3: Use a fire extinguisher to put out the fire, even if you've never used a fire extinguisher before
+:keycap_4: Pull the fire alarm and call the fire department
+",2018-09-09 03:57:01
+1895184847242752,Fangjie,Cao,23166,1895184847242752,854518728062939,user_quick_reply: BUTTON_AKB_Pull the fire alarm and call the fire department,:keycap_4:,2018-09-09 03:57:26
+1895184847242752,Fangjie,Cao,23167,854518728062939,1895184847242752,BOT: message,Yes! You got the correct answer!,2018-09-09 03:57:26
+1895184847242752,Fangjie,Cao,23168,854518728062939,1895184847242752,BOT: quick reply,The correct answer is Pull the fire alarm and call the fire department.,2018-09-09 03:57:27
+1895184847242752,Fangjie,Cao,23169,1895184847242752,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-09 03:57:31
+1895184847242752,Fangjie,Cao,23170,854518728062939,1895184847242752,BOT: message,"Alrighty, let's try this one.",2018-09-09 03:57:33
+1895184847242752,Fangjie,Cao,23171,854518728062939,1895184847242752,BOT: quick reply,What three major factors cause food contamination?,2018-09-09 03:57:33
+1895184847242752,Fangjie,Cao,23172,1895184847242752,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-09 03:57:40
+1895184847242752,Fangjie,Cao,23173,854518728062939,1895184847242752,BOT: message,It's one of the following choices.,2018-09-09 03:57:40
+1895184847242752,Fangjie,Cao,23174,854518728062939,1895184847242752,BOT: quick reply,":keycap_1: Physical, chemical, and psychosocial
+:keycap_2: Physical, biological, and radiological
+:keycap_3: Physical, psychological, and health
+:keycap_4: Physical, biological, and chemical
+",2018-09-09 03:57:41
+1895184847242752,Fangjie,Cao,23175,1895184847242752,854518728062939,"user_quick_reply: BUTTON_AKB_Physical, biological, and chemical",:keycap_4:,2018-09-09 03:57:53
+1895184847242752,Fangjie,Cao,23176,854518728062939,1895184847242752,BOT: message,Nice! That was right!,2018-09-09 03:57:54
+1895184847242752,Fangjie,Cao,23177,854518728062939,1895184847242752,BOT: quick reply,"The correct answer is Physical, biological, and chemical.",2018-09-09 03:57:55
+1895184847242752,Fangjie,Cao,23178,1895184847242752,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-09 03:57:59
+1895184847242752,Fangjie,Cao,23179,854518728062939,1895184847242752,BOT: message,"Alrighty, let's try this one.",2018-09-09 03:58:00
+1895184847242752,Fangjie,Cao,23180,854518728062939,1895184847242752,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-09-09 03:58:01
+1895184847242752,Fangjie,Cao,23181,854518728062939,1895184847242752,BOT: quick reply,"What agency inspects, grades, and enforces standards of quality and wholesomeness for meat, poultry, milk, eggs, and grains?",2018-09-09 03:58:01
+1895184847242752,Fangjie,Cao,23182,1895184847242752,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-09 03:58:11
+1895184847242752,Fangjie,Cao,23183,854518728062939,1895184847242752,BOT: message,Which of the following options is the right answer?,2018-09-09 03:58:12
+1895184847242752,Fangjie,Cao,23184,854518728062939,1895184847242752,BOT: quick reply,":keycap_1: USDA
+:keycap_2: EPA
+:keycap_3: FDA
+:keycap_4: CDC
+",2018-09-09 03:58:14
+1895184847242752,Fangjie,Cao,23185,1895184847242752,854518728062939,user_quick_reply: BUTTON_AKB_USDA,:keycap_1:,2018-09-09 03:58:24
+1895184847242752,Fangjie,Cao,23186,854518728062939,1895184847242752,BOT: image,https://www.smartprimer.ai:4443/pictures/avatar/congrats/penguinnormal_happy_pink.png,2018-09-09 03:58:26
+1895184847242752,Fangjie,Cao,23187,854518728062939,1895184847242752,BOT: message,Great job getting the correct answer!,2018-09-09 03:58:26
+1895184847242752,Fangjie,Cao,23188,854518728062939,1895184847242752,BOT: quick reply,The correct answer is USDA.,2018-09-09 03:58:27
+1895184847242752,Fangjie,Cao,23189,1895184847242752,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-09 03:58:31
+1895184847242752,Fangjie,Cao,23190,854518728062939,1895184847242752,BOT: message,Let's try this one.,2018-09-09 03:58:32
+1895184847242752,Fangjie,Cao,23191,854518728062939,1895184847242752,BOT: quick reply,Working on scaffold during winds above ____ miles per hour is prohibited by OSHA.,2018-09-09 03:58:32
+1895184847242752,Fangjie,Cao,23192,1895184847242752,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-09 03:58:39
+1895184847242752,Fangjie,Cao,23193,854518728062939,1895184847242752,BOT: message,It's one of the following choices.,2018-09-09 03:58:40
+1895184847242752,Fangjie,Cao,23194,854518728062939,1895184847242752,BOT: quick reply,":keycap_1: 10
+:keycap_2: 25
+:keycap_3: 40
+:keycap_4: 50
+",2018-09-09 03:58:41
+1895184847242752,Fangjie,Cao,23195,1895184847242752,854518728062939,user_quick_reply: BUTTON_AKB_40,:keycap_3:,2018-09-09 03:58:46
+1895184847242752,Fangjie,Cao,23196,854518728062939,1895184847242752,BOT: message,Great! Keep it up! :flexed_biceps_medium-light_skin_tone:,2018-09-09 03:58:46
+1895184847242752,Fangjie,Cao,23197,854518728062939,1895184847242752,BOT: quick reply,The correct answer is 40.,2018-09-09 03:58:47
+1895184847242752,Fangjie,Cao,23198,1895184847242752,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-09 03:58:52
+1895184847242752,Fangjie,Cao,23199,854518728062939,1895184847242752,BOT: message,Let's try this question.,2018-09-09 03:58:53
+1895184847242752,Fangjie,Cao,23200,854518728062939,1895184847242752,BOT: quick reply,To what does the acronym SLM refer?,2018-09-09 03:58:54
+1895184847242752,Fangjie,Cao,23201,1895184847242752,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-09 03:59:02
+1895184847242752,Fangjie,Cao,23202,854518728062939,1895184847242752,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-09-09 03:59:02
+1895184847242752,Fangjie,Cao,23203,854518728062939,1895184847242752,BOT: quick reply,":keycap_1: Sound Level Meter
+:keycap_2: Service Lifecycle Management
+:keycap_3: Sound Loudness Methods
+:keycap_4: System Level Monitor
+",2018-09-09 03:59:03
+1895184847242752,Fangjie,Cao,23204,1895184847242752,854518728062939,user_quick_reply: BUTTON_DKB_Service Lifecycle Management,:keycap_2:,2018-09-09 03:59:22
+1895184847242752,Fangjie,Cao,23205,854518728062939,1895184847242752,BOT: message,"Oops, that wasn't quite correct. :disappointed_face:",2018-09-09 03:59:22
+1895184847242752,Fangjie,Cao,23206,854518728062939,1895184847242752,BOT: quick reply,The correct answer is Sound Level Meter.,2018-09-09 03:59:23
+1895184847242752,Fangjie,Cao,23207,1895184847242752,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-09 03:59:30
+1895184847242752,Fangjie,Cao,23208,854518728062939,1895184847242752,BOT: message,Here's a question for you:,2018-09-09 03:59:31
+1895184847242752,Fangjie,Cao,23209,854518728062939,1895184847242752,BOT: quick reply,"True or false: if you wear a back belt, you can lift more weight than you could without a belt.",2018-09-09 03:59:32
+1895184847242752,Fangjie,Cao,23210,1895184847242752,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-09 03:59:44
+1895184847242752,Fangjie,Cao,23211,854518728062939,1895184847242752,BOT: message,Which of the following options is the right answer?,2018-09-09 03:59:45
+1895184847242752,Fangjie,Cao,23212,854518728062939,1895184847242752,BOT: quick reply,":keycap_1: False
+:keycap_2: True
+",2018-09-09 03:59:46
+1895184847242752,Fangjie,Cao,23213,1895184847242752,854518728062939,user_quick_reply: BUTTON_AKB_False,:keycap_1:,2018-09-09 03:59:51
+1895184847242752,Fangjie,Cao,23214,854518728062939,1895184847242752,BOT: image,https://www.smartprimer.ai:4443/pictures/avatar/congrats/penguinnormal_normal_purple.png,2018-09-09 03:59:53
+1895184847242752,Fangjie,Cao,23215,854518728062939,1895184847242752,BOT: message,Great job!,2018-09-09 03:59:54
+1895184847242752,Fangjie,Cao,23216,854518728062939,1895184847242752,BOT: quick reply,The correct answer is False.,2018-09-09 03:59:55
+1895184847242752,Fangjie,Cao,23217,1895184847242752,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-09 03:59:59
+1895184847242752,Fangjie,Cao,23218,854518728062939,1895184847242752,BOT: quick reply,"Nice job! You've practiced enough questions today. Please come back tomorrow and click on ""Resume Learning :flexed_biceps_medium-light_skin_tone:"" for another practice session.",2018-09-09 03:59:59
+1895184847242752,Fangjie,Cao,23219,1895184847242752,854518728062939,user_quick_reply: NEXT_QUESTION,Resume Learning :flexed_biceps_medium-light_skin_tone:,2018-09-09 04:02:26
+1895184847242752,Fangjie,Cao,23220,854518728062939,1895184847242752,BOT: message,Let's see if you can get this one.,2018-09-09 04:02:26
+1895184847242752,Fangjie,Cao,23221,854518728062939,1895184847242752,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-09-09 04:02:27
+1895184847242752,Fangjie,Cao,23222,854518728062939,1895184847242752,BOT: quick reply,True or false: portable fire extinguishers should only be used by trained employees.,2018-09-09 04:02:28
+1895184847242752,Fangjie,Cao,23223,1895184847242752,854518728062939,user_typing,True,2018-09-09 04:02:53
+1895184847242752,Fangjie,Cao,23224,854518728062939,1895184847242752,BOT: message,Good job! :raising_hands_medium-light_skin_tone:,2018-09-09 04:02:53
+1895184847242752,Fangjie,Cao,23225,854518728062939,1895184847242752,BOT: quick reply,The correct answer is True.,2018-09-09 04:02:54
+1895184847242752,Fangjie,Cao,23226,1895184847242752,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-09 04:02:59
+1895184847242752,Fangjie,Cao,23227,854518728062939,1895184847242752,BOT: message,What about this next question:,2018-09-09 04:03:00
+1895184847242752,Fangjie,Cao,23228,854518728062939,1895184847242752,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-09-09 04:03:01
+1895184847242752,Fangjie,Cao,23229,854518728062939,1895184847242752,BOT: quick reply,"True or false: you can always smell, see, or taste harmful bacteria in food that can cause illness.",2018-09-09 04:03:01
+1895184847242752,Fangjie,Cao,23230,1895184847242752,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-09 04:03:15
+1895184847242752,Fangjie,Cao,23231,854518728062939,1895184847242752,BOT: message,Pick one of the following answers.,2018-09-09 04:03:16
+1895184847242752,Fangjie,Cao,23232,854518728062939,1895184847242752,BOT: quick reply,":keycap_1: False
+:keycap_2: True
+",2018-09-09 04:03:16
+1895184847242752,Fangjie,Cao,23233,1895184847242752,854518728062939,user_quick_reply: BUTTON_AKB_False,:keycap_1:,2018-09-09 04:03:25
+1895184847242752,Fangjie,Cao,23234,854518728062939,1895184847242752,BOT: message,Nice work! Keep it up!,2018-09-09 04:03:25
+1895184847242752,Fangjie,Cao,23235,854518728062939,1895184847242752,BOT: quick reply,The correct answer is False.,2018-09-09 04:03:26
+1895184847242752,Fangjie,Cao,23236,1895184847242752,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-09 04:03:30
+1895184847242752,Fangjie,Cao,23237,854518728062939,1895184847242752,BOT: message,Let's take a look at this question.,2018-09-09 04:03:31
+1895184847242752,Fangjie,Cao,23238,854518728062939,1895184847242752,BOT: quick reply,What does CERT stand for?,2018-09-09 04:03:32
+1895184847242752,Fangjie,Cao,23239,1895184847242752,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-09 04:03:39
+1895184847242752,Fangjie,Cao,23240,854518728062939,1895184847242752,BOT: message,Okay. I'll give you some choices.,2018-09-09 04:03:39
+1895184847242752,Fangjie,Cao,23241,854518728062939,1895184847242752,BOT: quick reply,":keycap_1: Community Experimental Research Team
+:keycap_2: Controlled Evacuation and Response Tactics
+:keycap_3: Community Emergency Response Team
+:keycap_4: Central Emergency Response Terminal
+",2018-09-09 04:03:40
+1895184847242752,Fangjie,Cao,23242,1895184847242752,854518728062939,user_quick_reply: BUTTON_AKB_Community Emergency Response Team,:keycap_3:,2018-09-09 04:04:01
+1895184847242752,Fangjie,Cao,23243,854518728062939,1895184847242752,BOT: image,https://www.smartprimer.ai:4443/pictures/avatar/congrats/penguinnormal_jubilated_cyan.png,2018-09-09 04:04:03
+1895184847242752,Fangjie,Cao,23244,854518728062939,1895184847242752,BOT: message,Nice work! Keep it up!,2018-09-09 04:04:03
+1895184847242752,Fangjie,Cao,23245,854518728062939,1895184847242752,BOT: quick reply,The correct answer is Community Emergency Response Team.,2018-09-09 04:04:04
+1895184847242752,Fangjie,Cao,23246,1895184847242752,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-09 04:04:08
+1895184847242752,Fangjie,Cao,23247,854518728062939,1895184847242752,BOT: message,Let's try this question.,2018-09-09 04:04:09
+1895184847242752,Fangjie,Cao,23248,854518728062939,1895184847242752,BOT: quick reply,What should you NOT do while treating cuts and scrapes?,2018-09-09 04:04:09
+1895184847242752,Fangjie,Cao,23249,1895184847242752,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-09 04:04:17
+1895184847242752,Fangjie,Cao,23250,854518728062939,1895184847242752,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-09-09 04:04:18
+1895184847242752,Fangjie,Cao,23251,854518728062939,1895184847242752,BOT: quick reply,":keycap_1: Wash the wound with soap
+:keycap_2: Apply an antibiotic to the wound
+:keycap_3: Apply pressure on the wound with a clean cloth or bandage
+:keycap_4: Cover the wound
+",2018-09-09 04:04:18
+1895184847242752,Fangjie,Cao,23252,1895184847242752,854518728062939,user_quick_reply: BUTTON_AKB_Wash the wound with soap,:keycap_1:,2018-09-09 04:04:33
+1895184847242752,Fangjie,Cao,23253,854518728062939,1895184847242752,BOT: message,Great job!,2018-09-09 04:04:34
+1895184847242752,Fangjie,Cao,23254,854518728062939,1895184847242752,BOT: quick reply,The correct answer is Wash the wound with soap.,2018-09-09 04:04:35
+1895184847242752,Fangjie,Cao,23255,1895184847242752,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-09 04:04:39
+1895184847242752,Fangjie,Cao,23256,854518728062939,1895184847242752,BOT: quick reply,"Hi there, you already practiced enough questions in this subject. Do you want to try other two subjects? :smiling_face_with_smiling_eyes:",2018-09-09 04:04:40
+1895184847242752,Fangjie,Cao,23257,1895184847242752,854518728062939,user_quick_reply: GRE,GRE :input_latin_uppercase:,2018-09-09 04:04:48
+1895184847242752,Fangjie,Cao,23258,854518728062939,1895184847242752,BOT: image,https://www.smartprimer.ai:4443/pictures/avatar/evolvesafety_reading.gif,2018-09-09 04:04:51
+1895184847242752,Fangjie,Cao,23259,854518728062939,1895184847242752,BOT: quick reply,Let's test your knowledge on the GRE!,2018-09-09 04:04:52
+1895184847242752,Fangjie,Cao,23260,1895184847242752,854518728062939,user_quick_reply: NEXT_QUESTION,Tap me :oncoming_fist_medium-light_skin_tone:,2018-09-09 04:04:58
+1895184847242752,Fangjie,Cao,23261,854518728062939,1895184847242752,BOT: message,See if you can answer this next one.,2018-09-09 04:04:59
+1895184847242752,Fangjie,Cao,23262,854518728062939,1895184847242752,BOT: quick reply,"Although John F. Kennedy was known for his carefree flag football games, Gerald Ford should be _____ as our football president: he turned down offers to play for two National Football League teams in order to pursue a career in public service.",2018-09-09 04:04:59
+1895184847242752,Fangjie,Cao,23263,1895184847242752,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-09 04:05:14
+1895184847242752,Fangjie,Cao,23264,854518728062939,1895184847242752,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-09-09 04:05:15
+1895184847242752,Fangjie,Cao,23265,854518728062939,1895184847242752,BOT: quick reply,":keycap_1: abrogated
+:keycap_2: annulled
+:keycap_3: criticized
+:keycap_4: relegated
+:keycap_5: apotheosized
+",2018-09-09 04:05:16
+1895184847242752,Fangjie,Cao,23266,1895184847242752,854518728062939,user_quick_reply: BUTTON_AKB_apotheosized,:keycap_5:,2018-09-09 04:05:29
+1895184847242752,Fangjie,Cao,23267,854518728062939,1895184847242752,BOT: image,https://www.smartprimer.ai:4443/pictures/avatar/congrats/penguinnormal_normal_orange.png,2018-09-09 04:05:31
+1895184847242752,Fangjie,Cao,23268,854518728062939,1895184847242752,BOT: message,Yes! You got the correct answer!,2018-09-09 04:05:32
+1895184847242752,Fangjie,Cao,23269,854518728062939,1895184847242752,BOT: quick reply,The correct answer is apotheosized.,2018-09-09 04:05:33
+1895184847242752,Fangjie,Cao,23270,1895184847242752,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-09 04:05:37
+1895184847242752,Fangjie,Cao,23271,854518728062939,1895184847242752,BOT: message,Would you answer this question for me?,2018-09-09 04:05:38
+1895184847242752,Fangjie,Cao,23272,854518728062939,1895184847242752,BOT: quick reply,"Despite the smile that spread from ear to ear, the eyes relayed a certain _____ .",2018-09-09 04:05:39
+1895184847242752,Fangjie,Cao,23273,1895184847242752,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-09 04:05:50
+1895184847242752,Fangjie,Cao,23274,854518728062939,1895184847242752,BOT: message,Which of the following options is the right answer?,2018-09-09 04:05:50
+1895184847242752,Fangjie,Cao,23275,854518728062939,1895184847242752,BOT: quick reply,":keycap_1: mischievousness
+:keycap_2: liveliness
+:keycap_3: jubilance
+:keycap_4: sorrow
+:keycap_5: vision
+",2018-09-09 04:05:51
+1895184847242752,Fangjie,Cao,23276,1895184847242752,854518728062939,user_quick_reply: BUTTON_DKB_vision,:keycap_5:,2018-09-09 04:06:12
+1895184847242752,Fangjie,Cao,23277,854518728062939,1895184847242752,BOT: message,"I'm sorry, but that was incorrect. :disappointed_face:",2018-09-09 04:06:12
+1895184847242752,Fangjie,Cao,23278,854518728062939,1895184847242752,BOT: quick reply,The correct answer is sorrow.,2018-09-09 04:06:13
+1895184847242752,Fangjie,Cao,23279,1895184847242752,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-09 04:06:20
+1895184847242752,Fangjie,Cao,23280,854518728062939,1895184847242752,BOT: message,Could you answer this one for me?,2018-09-09 04:06:21
+1895184847242752,Fangjie,Cao,23281,854518728062939,1895184847242752,BOT: quick reply,"Dolly Madison, the wife of President James Madison, was known especially for her _____ , remaining calm even as the British invaded Washington D.C. during the War of 1812.",2018-09-09 04:06:22
+1895184847242752,Fangjie,Cao,23282,1895184847242752,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-09 04:06:32
+1895184847242752,Fangjie,Cao,23283,854518728062939,1895184847242752,BOT: message,It's one of the following choices.,2018-09-09 04:06:32
+1895184847242752,Fangjie,Cao,23284,854518728062939,1895184847242752,BOT: quick reply,":keycap_1: zeal
+:keycap_2: cynicism
+:keycap_3: impracticality
+:keycap_4: equanimity
+:keycap_5: malevolence
+",2018-09-09 04:06:33
+1895184847242752,Fangjie,Cao,23285,1895184847242752,854518728062939,user_quick_reply: BUTTON_DKB_cynicism,:keycap_2:,2018-09-09 04:06:42
+1895184847242752,Fangjie,Cao,23286,854518728062939,1895184847242752,BOT: message,"Oops, that is not correct. :disappointed_face:",2018-09-09 04:06:42
+1895184847242752,Fangjie,Cao,23287,854518728062939,1895184847242752,BOT: quick reply,The correct answer is equanimity.,2018-09-09 04:06:43
+1895184847242752,Fangjie,Cao,23288,1895184847242752,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-09 04:06:50
+1895184847242752,Fangjie,Cao,23289,854518728062939,1895184847242752,BOT: message,Let's try this one.,2018-09-09 04:06:50
+1895184847242752,Fangjie,Cao,23290,854518728062939,1895184847242752,BOT: message,Remember that you can always type in your answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-09-09 04:06:51
+1895184847242752,Fangjie,Cao,23291,854518728062939,1895184847242752,BOT: quick reply,"Even though legislators claimed the Contagious Diseases Acts strengthened the nation, social purists argued the Acts _____ the nation's moral growth by encouraging licentious behavior.",2018-09-09 04:06:52
+1895184847242752,Fangjie,Cao,23292,1895184847242752,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-09 04:07:02
+1895184847242752,Fangjie,Cao,23293,854518728062939,1895184847242752,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-09-09 04:07:03
+1895184847242752,Fangjie,Cao,23294,854518728062939,1895184847242752,BOT: quick reply,":keycap_1: hampered
+:keycap_2: enhanced
+:keycap_3: ameliorated
+:keycap_4: supplanted
+:keycap_5: advanced
+",2018-09-09 04:07:04
+1895184847242752,Fangjie,Cao,23295,1895184847242752,854518728062939,user_quick_reply: BUTTON_DKB_ameliorated,:keycap_3:,2018-09-09 04:07:16
+1895184847242752,Fangjie,Cao,23296,854518728062939,1895184847242752,BOT: message,"Oops, that wasn't quite correct. :disappointed_face:",2018-09-09 04:07:17
+1895184847242752,Fangjie,Cao,23297,854518728062939,1895184847242752,BOT: quick reply,The correct answer is hampered.,2018-09-09 04:07:17
+1895184847242752,Fangjie,Cao,23298,1895184847242752,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-09 04:07:23
+1895184847242752,Fangjie,Cao,23299,854518728062939,1895184847242752,BOT: message,Let's see if you can get this one.,2018-09-09 04:07:24
+1895184847242752,Fangjie,Cao,23300,854518728062939,1895184847242752,BOT: quick reply,"Having squandered his life's savings on unprofitable business ventures, the _____ entrepreneur was forced to live in squalor.",2018-09-09 04:07:24
+1895184847242752,Fangjie,Cao,23301,1895184847242752,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-09 04:07:38
+1895184847242752,Fangjie,Cao,23302,854518728062939,1895184847242752,BOT: message,Pick one of the following answers.,2018-09-09 04:07:38
+1895184847242752,Fangjie,Cao,23303,854518728062939,1895184847242752,BOT: quick reply,":keycap_1: perturbed
+:keycap_2: unlikely
+:keycap_3: insolvent
+:keycap_4: former
+:keycap_5: eccentric
+",2018-09-09 04:07:39
+1895184847242752,Fangjie,Cao,23304,1895184847242752,854518728062939,user_quick_reply: BUTTON_DKB_perturbed,:keycap_1:,2018-09-09 04:07:59
+1895184847242752,Fangjie,Cao,23305,854518728062939,1895184847242752,BOT: message,"I'm sorry, but that was incorrect. :disappointed_face:",2018-09-09 04:07:59
+1895184847242752,Fangjie,Cao,23306,854518728062939,1895184847242752,BOT: quick reply,The correct answer is insolvent.,2018-09-09 04:08:00
+1895184847242752,Fangjie,Cao,23307,1895184847242752,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-09 04:08:08
+1895184847242752,Fangjie,Cao,23308,854518728062939,1895184847242752,BOT: message,What about this next question:,2018-09-09 04:08:08
+1895184847242752,Fangjie,Cao,23309,854518728062939,1895184847242752,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-09-09 04:08:09
+1895184847242752,Fangjie,Cao,23310,854518728062939,1895184847242752,BOT: quick reply,"In psychological literature, the ""sleeper effect"" refers to the phenomenon in which a persuasive message from a trustworthy source loses _____ over time, while the efficacy of a message from a less credible source simultaneously increases.",2018-09-09 04:08:10
+1895184847242752,Fangjie,Cao,23311,1895184847242752,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-09 04:08:21
+1895184847242752,Fangjie,Cao,23312,854518728062939,1895184847242752,BOT: message,Pick one of the following answers.,2018-09-09 04:08:22
+1895184847242752,Fangjie,Cao,23313,854518728062939,1895184847242752,BOT: quick reply,":keycap_1: erudition
+:keycap_2: cogency
+:keycap_3: prescience
+:keycap_4: control
+:keycap_5: evasiveness
+",2018-09-09 04:08:23
+1895184847242752,Fangjie,Cao,23314,1895184847242752,854518728062939,user_quick_reply: BUTTON_DKB_evasiveness,:keycap_5:,2018-09-09 04:08:31
+1895184847242752,Fangjie,Cao,23315,854518728062939,1895184847242752,BOT: message,"Hmm, that wasn't quite right. :disappointed_face:",2018-09-09 04:08:32
+1895184847242752,Fangjie,Cao,23316,854518728062939,1895184847242752,BOT: quick reply,The correct answer is cogency.,2018-09-09 04:08:33
+1895184847242752,Fangjie,Cao,23317,1895184847242752,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-09 04:08:41
+1895184847242752,Fangjie,Cao,23318,854518728062939,1895184847242752,BOT: message,Let's take a look at this question.,2018-09-09 04:08:41
+1895184847242752,Fangjie,Cao,23319,854518728062939,1895184847242752,BOT: message,Remember that you can always type in your answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-09-09 04:08:42
+1895184847242752,Fangjie,Cao,23320,854518728062939,1895184847242752,BOT: quick reply,"Just as different people can have very different personalities, so too can pets - even those of the same species and breed possess varied _____ .",2018-09-09 04:08:43
+1895184847242752,Fangjie,Cao,23321,1895184847242752,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-09 04:09:00
+1895184847242752,Fangjie,Cao,23322,854518728062939,1895184847242752,BOT: message,Which of the following options is the right answer?,2018-09-09 04:09:01
+1895184847242752,Fangjie,Cao,23323,854518728062939,1895184847242752,BOT: quick reply,":keycap_1: temperaments
+:keycap_2: implementations
+:keycap_3: rationalizations
+:keycap_4: aptitudes
+:keycap_5: initiations
+",2018-09-09 04:09:01
+1895184847242752,Fangjie,Cao,23324,1895184847242752,854518728062939,user_quick_reply: BUTTON_DKB_rationalizations,:keycap_3:,2018-09-09 04:09:12
+1895184847242752,Fangjie,Cao,23325,854518728062939,1895184847242752,BOT: message,"Hmm, that wasn't quite right. :disappointed_face:",2018-09-09 04:09:13
+1895184847242752,Fangjie,Cao,23326,854518728062939,1895184847242752,BOT: quick reply,The correct answer is temperaments.,2018-09-09 04:09:14
+1895184847242752,Fangjie,Cao,23327,1895184847242752,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-09 04:09:20
+1895184847242752,Fangjie,Cao,23328,854518728062939,1895184847242752,BOT: message,Let's see if you would answer this one.,2018-09-09 04:09:20
+1895184847242752,Fangjie,Cao,23329,854518728062939,1895184847242752,BOT: quick reply,Many Major League Baseball relief pitchers choose an electrifying theme song to play as they take the mound; the song _____ their fans and instills fear in their opponents.,2018-09-09 04:09:21
+1895184847242752,Fangjie,Cao,23330,1895184847242752,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-09 04:09:35
+1895184847242752,Fangjie,Cao,23331,854518728062939,1895184847242752,BOT: message,Pick one of the following answers.,2018-09-09 04:09:36
+1895184847242752,Fangjie,Cao,23332,854518728062939,1895184847242752,BOT: quick reply,":keycap_1: assuages
+:keycap_2: innervates
+:keycap_3: pervades
+:keycap_4: enervates
+:keycap_5: eviscerates
+",2018-09-09 04:09:37
+1895184847242752,Fangjie,Cao,23333,1895184847242752,854518728062939,user_quick_reply: BUTTON_DKB_assuages,:keycap_1:,2018-09-09 04:09:46
+1895184847242752,Fangjie,Cao,23334,854518728062939,1895184847242752,BOT: message,"Oops, that is not correct. :disappointed_face:",2018-09-09 04:09:47
+1895184847242752,Fangjie,Cao,23335,854518728062939,1895184847242752,BOT: quick reply,The correct answer is innervates.,2018-09-09 04:09:48
+1895184847242752,Fangjie,Cao,23336,1895184847242752,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-09 04:10:02
+1895184847242752,Fangjie,Cao,23337,854518728062939,1895184847242752,BOT: message,"Alrighty, let's try this one.",2018-09-09 04:10:03
+1895184847242752,Fangjie,Cao,23338,854518728062939,1895184847242752,BOT: message,Remember that you can always type in your answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-09-09 04:10:04
+1895184847242752,Fangjie,Cao,23339,854518728062939,1895184847242752,BOT: quick reply,"Many dog owners treat their pets too _____ , forgetting that canines have evolved in competitive environments in which emotional coddling was a sign of weakness.",2018-09-09 04:10:04
+1895184847242752,Fangjie,Cao,23340,1895184847242752,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-09 04:10:18
+1895184847242752,Fangjie,Cao,23341,854518728062939,1895184847242752,BOT: message,Pick one of the following answers.,2018-09-09 04:10:18
+1895184847242752,Fangjie,Cao,23342,854518728062939,1895184847242752,BOT: quick reply,":keycap_1: aggressively
+:keycap_2: belligerently
+:keycap_3: quixotically
+:keycap_4: indulgently
+:keycap_5: fortuitously
+",2018-09-09 04:10:19
+1895184847242752,Fangjie,Cao,23343,1895184847242752,854518728062939,user_quick_reply: BUTTON_DKB_aggressively,:keycap_1:,2018-09-09 04:10:32
+1895184847242752,Fangjie,Cao,23344,854518728062939,1895184847242752,BOT: message,"Oops, that is not correct. :disappointed_face:",2018-09-09 04:10:33
+1895184847242752,Fangjie,Cao,23345,854518728062939,1895184847242752,BOT: quick reply,The correct answer is indulgently.,2018-09-09 04:10:33
+1895184847242752,Fangjie,Cao,23346,1895184847242752,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-09 04:10:40
+1895184847242752,Fangjie,Cao,23347,854518728062939,1895184847242752,BOT: message,Could you answer this one for me?,2018-09-09 04:10:41
+1895184847242752,Fangjie,Cao,23348,854518728062939,1895184847242752,BOT: quick reply,"Modern tennis fans have come to realize that, although, quantum technological leaps in racquet technology have lead to _____ increases in the speed and power with which players can hit the ball, this has not necessarily lead to a more entertaining game.",2018-09-09 04:10:41
+1895184847242752,Fangjie,Cao,23349,1895184847242752,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-09 04:10:50
+1895184847242752,Fangjie,Cao,23350,854518728062939,1895184847242752,BOT: message,Which of the following options is the right answer?,2018-09-09 04:10:50
+1895184847242752,Fangjie,Cao,23351,854518728062939,1895184847242752,BOT: quick reply,":keycap_1: halcyon
+:keycap_2: commensurate
+:keycap_3: tractable
+:keycap_4: malleable
+:keycap_5: innocuous
+",2018-09-09 04:10:51
+1895184847242752,Fangjie,Cao,23352,1895184847242752,854518728062939,user_quick_reply: BUTTON_DKB_halcyon,:keycap_1:,2018-09-09 04:11:01
+1895184847242752,Fangjie,Cao,23353,854518728062939,1895184847242752,BOT: message,That's not quite right. :disappointed_face:,2018-09-09 04:11:01
+1895184847242752,Fangjie,Cao,23354,854518728062939,1895184847242752,BOT: quick reply,The correct answer is commensurate.,2018-09-09 04:11:02
+1895184847242752,Fangjie,Cao,23355,1895184847242752,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-09 04:11:08
+1895184847242752,Fangjie,Cao,23356,854518728062939,1895184847242752,BOT: message,Would you answer this question for me?,2018-09-09 04:11:09
+1895184847242752,Fangjie,Cao,23357,854518728062939,1895184847242752,BOT: quick reply,Seth was extremely _____ and did not enjoy activities that required effort to meet new people.,2018-09-09 04:11:09
+1895184847242752,Fangjie,Cao,23363,1895184847242752,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-09 04:11:19
+1895184847242752,Fangjie,Cao,23364,854518728062939,1895184847242752,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-09-09 04:11:20
+1895184847242752,Fangjie,Cao,23365,854518728062939,1895184847242752,BOT: quick reply,":keycap_1: gregarious
+:keycap_2: jaded
+:keycap_3: lackluster
+:keycap_4: extroverted
+:keycap_5: introverted
+",2018-09-09 04:11:20
+1895184847242752,Fangjie,Cao,23370,1895184847242752,854518728062939,user_quick_reply: BUTTON_AKB_introverted,:keycap_5:,2018-09-09 04:11:33
+1895184847242752,Fangjie,Cao,23373,854518728062939,1895184847242752,BOT: image,https://www.smartprimer.ai:4443/pictures/avatar/congrats/penguinnormal_normal_cyan.png,2018-09-09 04:11:35
+1895184847242752,Fangjie,Cao,23375,854518728062939,1895184847242752,BOT: message,Great job getting the correct answer!,2018-09-09 04:11:36
+1895184847242752,Fangjie,Cao,23376,854518728062939,1895184847242752,BOT: quick reply,The correct answer is introverted.,2018-09-09 04:11:36
+1895184847242752,Fangjie,Cao,23377,1895184847242752,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-09 04:11:44
+1895184847242752,Fangjie,Cao,23378,854518728062939,1895184847242752,BOT: message,Let's see if you can answer this question.,2018-09-09 04:11:45
+1895184847242752,Fangjie,Cao,23379,854518728062939,1895184847242752,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-09-09 04:11:46
+1895184847242752,Fangjie,Cao,23380,854518728062939,1895184847242752,BOT: quick reply,"Possessing few natural resources upon its newly-granted independence in 1863, Singapore remained economically _____ until an influx of industrialization and foreign investment took hold there.",2018-09-09 04:11:46
+1895184847242752,Fangjie,Cao,23381,1895184847242752,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-09 04:11:56
+1895184847242752,Fangjie,Cao,23382,854518728062939,1895184847242752,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-09-09 04:11:57
+1895184847242752,Fangjie,Cao,23383,854518728062939,1895184847242752,BOT: quick reply,":keycap_1: fortuitous
+:keycap_2: prosperous
+:keycap_3: dubious
+:keycap_4: solvent
+:keycap_5: powerful
+",2018-09-09 04:11:58
+1895184847242752,Fangjie,Cao,23384,1895184847242752,854518728062939,user_quick_reply: BUTTON_DKB_powerful,:keycap_5:,2018-09-09 04:12:22
+1895184847242752,Fangjie,Cao,23385,854518728062939,1895184847242752,BOT: message,"Oops, that wasn't quite correct. :disappointed_face:",2018-09-09 04:12:23
+1895184847242752,Fangjie,Cao,23386,854518728062939,1895184847242752,BOT: quick reply,The correct answer is dubious.,2018-09-09 04:12:24
+1895184847242752,Fangjie,Cao,23387,1895184847242752,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-09 04:12:30
+1895184847242752,Fangjie,Cao,23388,854518728062939,1895184847242752,BOT: message,What about this next question:,2018-09-09 04:12:31
+1895184847242752,Fangjie,Cao,23389,854518728062939,1895184847242752,BOT: message,Remember that you can always type in your answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-09-09 04:12:32
+1895184847242752,Fangjie,Cao,23390,854518728062939,1895184847242752,BOT: quick reply,"Prior to taking on the new invader, the defending army had engaged in arduous combat; it is likely that the _____ resulting from waging two battles in two days played a part in its subsequent defeat.",2018-09-09 04:12:32
+1895184847242752,Fangjie,Cao,23391,1895184847242752,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-09 04:12:51
+1895184847242752,Fangjie,Cao,23392,854518728062939,1895184847242752,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-09-09 04:12:52
+1895184847242752,Fangjie,Cao,23393,854518728062939,1895184847242752,BOT: quick reply,":keycap_1: bellicosity
+:keycap_2: pugnacity
+:keycap_3: aggravation
+:keycap_4: pacification
+:keycap_5: enervation
+",2018-09-09 04:12:52
+1895184847242752,Fangjie,Cao,23394,1895184847242752,854518728062939,user_quick_reply: BUTTON_DKB_pacification,:keycap_4:,2018-09-09 04:13:05
+1895184847242752,Fangjie,Cao,23395,854518728062939,1895184847242752,BOT: message,"I'm sorry, but that was incorrect. :disappointed_face:",2018-09-09 04:13:05
+1895184847242752,Fangjie,Cao,23396,854518728062939,1895184847242752,BOT: quick reply,The correct answer is enervation.,2018-09-09 04:13:06
+1895184847242752,Fangjie,Cao,23397,1895184847242752,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-09 04:13:15
+1895184847242752,Fangjie,Cao,23398,854518728062939,1895184847242752,BOT: message,See if you can answer this next one.,2018-09-09 04:13:15
+1895184847242752,Fangjie,Cao,23399,854518728062939,1895184847242752,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-09-09 04:13:16
+1895184847242752,Fangjie,Cao,23400,854518728062939,1895184847242752,BOT: quick reply,The Erie Canal's completion caused _____ economic ripples; property values and industrial output along its route rose exponentially.,2018-09-09 04:13:17
+1895184847242752,Fangjie,Cao,23401,1895184847242752,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-09 04:13:24
+1895184847242752,Fangjie,Cao,23402,854518728062939,1895184847242752,BOT: message,Pick one of the following answers.,2018-09-09 04:13:25
+1895184847242752,Fangjie,Cao,23403,854518728062939,1895184847242752,BOT: quick reply,":keycap_1: persistent
+:keycap_2: prodigious
+:keycap_3: invaluable
+:keycap_4: incredulous
+:keycap_5: severe
+",2018-09-09 04:13:26
+1895184847242752,Fangjie,Cao,23404,1895184847242752,854518728062939,user_quick_reply: BUTTON_DKB_invaluable,:keycap_3:,2018-09-09 04:13:37
+1895184847242752,Fangjie,Cao,23405,854518728062939,1895184847242752,BOT: message,"Oops, that is not correct. :disappointed_face:",2018-09-09 04:13:37
+1895184847242752,Fangjie,Cao,23406,854518728062939,1895184847242752,BOT: quick reply,The correct answer is prodigious.,2018-09-09 04:13:38
+1895184847242752,Fangjie,Cao,23407,1895184847242752,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-09 04:13:46
+1895184847242752,Fangjie,Cao,23408,854518728062939,1895184847242752,BOT: message,See if you can answer this next one.,2018-09-09 04:13:47
+1895184847242752,Fangjie,Cao,23409,854518728062939,1895184847242752,BOT: quick reply,While she may have answered him truthfully - in the strictest sense of the word - it became clear to Sergei after the incident that Sheryl had actually been trying to _____ .,2018-09-09 04:13:47
+1895184847242752,Fangjie,Cao,23410,1895184847242752,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-09 04:14:03
+1895184847242752,Fangjie,Cao,23411,854518728062939,1895184847242752,BOT: message,It's one of the following choices.,2018-09-09 04:14:04
+1895184847242752,Fangjie,Cao,23412,854518728062939,1895184847242752,BOT: quick reply,":keycap_1: vituperate
+:keycap_2: desiccate
+:keycap_3: obfuscate
+:keycap_4: illuminate
+:keycap_5: covet
+",2018-09-09 04:14:05
+1895184847242752,Fangjie,Cao,23413,1895184847242752,854518728062939,user_quick_reply: BUTTON_AKB_obfuscate,:keycap_3:,2018-09-09 04:14:19
+1895184847242752,Fangjie,Cao,23414,854518728062939,1895184847242752,BOT: message,Nice! That was right!,2018-09-09 04:14:20
+1895184847242752,Fangjie,Cao,23415,854518728062939,1895184847242752,BOT: quick reply,The correct answer is obfuscate.,2018-09-09 04:14:21
+1895184847242752,Fangjie,Cao,23416,1895184847242752,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-09 04:14:28
+1895184847242752,Fangjie,Cao,23417,854518728062939,1895184847242752,BOT: message,Let's try this question.,2018-09-09 04:14:28
+1895184847242752,Fangjie,Cao,23418,854518728062939,1895184847242752,BOT: quick reply,"With a similar contrast between a partly cloudy sky and a dark street, the cover of the recent rock CD _____ a famous surrealist painting from the early 1900s.",2018-09-09 04:14:29
+1895184847242752,Fangjie,Cao,23419,1895184847242752,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-09 04:14:43
+1895184847242752,Fangjie,Cao,23420,854518728062939,1895184847242752,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-09-09 04:14:44
+1895184847242752,Fangjie,Cao,23421,854518728062939,1895184847242752,BOT: quick reply,":keycap_1: sanctions
+:keycap_2: evokes
+:keycap_3: obfuscates
+:keycap_4: disenchants
+:keycap_5: admires
+",2018-09-09 04:14:44
+1895184847242752,Fangjie,Cao,23422,1895184847242752,854518728062939,user_quick_reply: BUTTON_DKB_disenchants,:keycap_4:,2018-09-09 04:14:58
+1895184847242752,Fangjie,Cao,23423,854518728062939,1895184847242752,BOT: message,"Oops, that is not correct. :disappointed_face:",2018-09-09 04:14:59
+1895184847242752,Fangjie,Cao,23424,854518728062939,1895184847242752,BOT: quick reply,The correct answer is evokes.,2018-09-09 04:14:59
+1895184847242752,Fangjie,Cao,23425,1895184847242752,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-09 04:15:12
+1895184847242752,Fangjie,Cao,23426,854518728062939,1895184847242752,BOT: quick reply,"Nice job! You've practiced enough questions today. Please come back tomorrow and click on ""Resume Learning :flexed_biceps_medium-light_skin_tone:"" for another practice session.",2018-09-09 04:15:12
+1895184847242752,Fangjie,Cao,27859,854518728062939,1895184847242752,BOT: quick reply,"Hi Fangjie, remember to practice some questions with me if you haven't finished your session today!",2018-09-09 20:00:12
+1895184847242752,Fangjie,Cao,30859,1895184847242752,854518728062939,user_quick_reply: NEXT_QUESTION,I see :backhand_index_pointing_right_medium-light_skin_tone:,2018-09-10 01:39:57
+1895184847242752,Fangjie,Cao,30860,854518728062939,1895184847242752,BOT: message,See if you can answer this next one.,2018-09-10 01:39:57
+1895184847242752,Fangjie,Cao,30861,854518728062939,1895184847242752,BOT: quick reply,"Although John F. Kennedy was known for his carefree flag football games, Gerald Ford should be _____ as our football president: he turned down offers to play for two National Football League teams in order to pursue a career in public service.",2018-09-10 01:39:58
+1895184847242752,Fangjie,Cao,30862,1895184847242752,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-10 01:40:16
+1895184847242752,Fangjie,Cao,30863,854518728062939,1895184847242752,BOT: message,Pick one of the following answers.,2018-09-10 01:40:17
+1895184847242752,Fangjie,Cao,30864,854518728062939,1895184847242752,BOT: quick reply,":keycap_1: criticized
+:keycap_2: abrogated
+:keycap_3: apotheosized
+:keycap_4: relegated
+:keycap_5: annulled
+",2018-09-10 01:40:17
+1895184847242752,Fangjie,Cao,30870,1895184847242752,854518728062939,user_quick_reply: BUTTON_DKB_relegated,:keycap_4:,2018-09-10 01:40:56
+1895184847242752,Fangjie,Cao,30871,854518728062939,1895184847242752,BOT: message,That's not quite right. :disappointed_face:,2018-09-10 01:40:57
+1895184847242752,Fangjie,Cao,30872,854518728062939,1895184847242752,BOT: quick reply,The correct answer is apotheosized.,2018-09-10 01:40:57
+1895184847242752,Fangjie,Cao,30891,1895184847242752,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-10 01:42:19
+1895184847242752,Fangjie,Cao,30892,854518728062939,1895184847242752,BOT: message,"Alrighty, let's try this one.",2018-09-10 01:42:19
+1895184847242752,Fangjie,Cao,30893,854518728062939,1895184847242752,BOT: quick reply,"Despite the smile that spread from ear to ear, the eyes relayed a certain _____ .",2018-09-10 01:42:20
+1895184847242752,Fangjie,Cao,30898,1895184847242752,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-10 01:42:30
+1895184847242752,Fangjie,Cao,30899,854518728062939,1895184847242752,BOT: message,It's one of the following choices.,2018-09-10 01:42:30
+1895184847242752,Fangjie,Cao,30900,854518728062939,1895184847242752,BOT: quick reply,":keycap_1: vision
+:keycap_2: sorrow
+:keycap_3: mischievousness
+:keycap_4: jubilance
+:keycap_5: liveliness
+",2018-09-10 01:42:31
+1895184847242752,Fangjie,Cao,30905,1895184847242752,854518728062939,user_quick_reply: BUTTON_AKB_sorrow,:keycap_2:,2018-09-10 01:42:55
+1895184847242752,Fangjie,Cao,30906,854518728062939,1895184847242752,BOT: image,https://www.smartprimer.ai:4443/pictures/avatar/congrats/penguinnormal_jubilated_orange.png,2018-09-10 01:42:57
+1895184847242752,Fangjie,Cao,30907,854518728062939,1895184847242752,BOT: message,Nice! That was right!,2018-09-10 01:42:57
+1895184847242752,Fangjie,Cao,30908,854518728062939,1895184847242752,BOT: quick reply,The correct answer is sorrow.,2018-09-10 01:42:58
+1895184847242752,Fangjie,Cao,30912,1895184847242752,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-10 01:43:15
+1895184847242752,Fangjie,Cao,30913,854518728062939,1895184847242752,BOT: message,What about this next question:,2018-09-10 01:43:15
+1895184847242752,Fangjie,Cao,30915,854518728062939,1895184847242752,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-09-10 01:43:16
+1895184847242752,Fangjie,Cao,30916,854518728062939,1895184847242752,BOT: quick reply,"Dolly Madison, the wife of President James Madison, was known especially for her _____ , remaining calm even as the British invaded Washington D.C. during the War of 1812.",2018-09-10 01:43:17
+1895184847242752,Fangjie,Cao,30923,1895184847242752,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-10 01:43:33
+1895184847242752,Fangjie,Cao,30924,854518728062939,1895184847242752,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-09-10 01:43:34
+1895184847242752,Fangjie,Cao,30925,854518728062939,1895184847242752,BOT: quick reply,":keycap_1: impracticality
+:keycap_2: malevolence
+:keycap_3: equanimity
+:keycap_4: cynicism
+:keycap_5: zeal
+",2018-09-10 01:43:34
+1895184847242752,Fangjie,Cao,30949,1895184847242752,854518728062939,user_quick_reply: BUTTON_AKB_equanimity,:keycap_3:,2018-09-10 01:44:35
+1895184847242752,Fangjie,Cao,30951,854518728062939,1895184847242752,BOT: message,Great! Keep it up! :flexed_biceps_medium-light_skin_tone:,2018-09-10 01:44:36
+1895184847242752,Fangjie,Cao,30952,854518728062939,1895184847242752,BOT: quick reply,The correct answer is equanimity.,2018-09-10 01:44:37
+1895184847242752,Fangjie,Cao,30966,1895184847242752,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-10 01:45:23
+1895184847242752,Fangjie,Cao,30967,854518728062939,1895184847242752,BOT: message,Let's see if you would answer this one.,2018-09-10 01:45:24
+1895184847242752,Fangjie,Cao,30968,854518728062939,1895184847242752,BOT: quick reply,"Even though legislators claimed the Contagious Diseases Acts strengthened the nation, social purists argued the Acts _____ the nation's moral growth by encouraging licentious behavior.",2018-09-10 01:45:25
+1895184847242752,Fangjie,Cao,30976,1895184847242752,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-10 01:45:40
+1895184847242752,Fangjie,Cao,30978,854518728062939,1895184847242752,BOT: message,Okay. I'll give you some choices.,2018-09-10 01:45:41
+1895184847242752,Fangjie,Cao,30980,854518728062939,1895184847242752,BOT: quick reply,":keycap_1: ameliorated
+:keycap_2: supplanted
+:keycap_3: hampered
+:keycap_4: enhanced
+:keycap_5: advanced
+",2018-09-10 01:45:42
+1895184847242752,Fangjie,Cao,31004,1895184847242752,854518728062939,user_quick_reply: BUTTON_AKB_hampered,:keycap_3:,2018-09-10 01:46:47
+1895184847242752,Fangjie,Cao,31006,854518728062939,1895184847242752,BOT: image,https://www.smartprimer.ai:4443/pictures/avatar/congrats/penguinnormal_normal_cyan.png,2018-09-10 01:46:49
+1895184847242752,Fangjie,Cao,31008,854518728062939,1895184847242752,BOT: message,Great! Keep it up! :flexed_biceps_medium-light_skin_tone:,2018-09-10 01:46:49
+1895184847242752,Fangjie,Cao,31010,854518728062939,1895184847242752,BOT: quick reply,The correct answer is hampered.,2018-09-10 01:46:50
+1895184847242752,Fangjie,Cao,31011,1895184847242752,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-10 01:46:52
+1895184847242752,Fangjie,Cao,31012,854518728062939,1895184847242752,BOT: message,Let's see if you can answer this question.,2018-09-10 01:46:53
+1895184847242752,Fangjie,Cao,31013,854518728062939,1895184847242752,BOT: quick reply,"Having squandered his life's savings on unprofitable business ventures, the _____ entrepreneur was forced to live in squalor.",2018-09-10 01:46:54
+1895184847242752,Fangjie,Cao,31021,1895184847242752,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-10 01:47:05
+1895184847242752,Fangjie,Cao,31022,854518728062939,1895184847242752,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-09-10 01:47:05
+1895184847242752,Fangjie,Cao,31024,854518728062939,1895184847242752,BOT: quick reply,":keycap_1: former
+:keycap_2: perturbed
+:keycap_3: eccentric
+:keycap_4: unlikely
+:keycap_5: insolvent
+",2018-09-10 01:47:06
+1895184847242752,Fangjie,Cao,31057,1895184847242752,854518728062939,user_quick_reply: BUTTON_DKB_eccentric,:keycap_3:,2018-09-10 01:48:01
+1895184847242752,Fangjie,Cao,31058,854518728062939,1895184847242752,BOT: message,"Oops, that is not correct. :disappointed_face:",2018-09-10 01:48:02
+1895184847242752,Fangjie,Cao,31059,854518728062939,1895184847242752,BOT: quick reply,The correct answer is insolvent.,2018-09-10 01:48:03
+1895184847242752,Fangjie,Cao,31090,1895184847242752,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-10 01:49:03
+1895184847242752,Fangjie,Cao,31091,854518728062939,1895184847242752,BOT: message,Could you answer this one for me?,2018-09-10 01:49:04
+1895184847242752,Fangjie,Cao,31092,854518728062939,1895184847242752,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-09-10 01:49:05
+1895184847242752,Fangjie,Cao,31093,854518728062939,1895184847242752,BOT: quick reply,"In psychological literature, the ""sleeper effect"" refers to the phenomenon in which a persuasive message from a trustworthy source loses _____ over time, while the efficacy of a message from a less credible source simultaneously increases.",2018-09-10 01:49:05
+1895184847242752,Fangjie,Cao,31103,1895184847242752,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-10 01:49:22
+1895184847242752,Fangjie,Cao,31104,854518728062939,1895184847242752,BOT: message,Pick one of the following answers.,2018-09-10 01:49:23
+1895184847242752,Fangjie,Cao,31105,854518728062939,1895184847242752,BOT: quick reply,":keycap_1: erudition
+:keycap_2: evasiveness
+:keycap_3: control
+:keycap_4: prescience
+:keycap_5: cogency
+",2018-09-10 01:49:24
+1895184847242752,Fangjie,Cao,31109,1895184847242752,854518728062939,user_quick_reply: BUTTON_DKB_control,:keycap_3:,2018-09-10 01:49:43
+1895184847242752,Fangjie,Cao,31110,854518728062939,1895184847242752,BOT: message,"Hmm, that wasn't quite right. :disappointed_face:",2018-09-10 01:49:43
+1895184847242752,Fangjie,Cao,31111,854518728062939,1895184847242752,BOT: quick reply,The correct answer is cogency.,2018-09-10 01:49:44
+1895184847242752,Fangjie,Cao,31122,1895184847242752,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-10 01:50:18
+1895184847242752,Fangjie,Cao,31124,854518728062939,1895184847242752,BOT: message,Let's try this one.,2018-09-10 01:50:18
+1895184847242752,Fangjie,Cao,31125,854518728062939,1895184847242752,BOT: quick reply,"Just as different people can have very different personalities, so too can pets - even those of the same species and breed possess varied _____ .",2018-09-10 01:50:19
+1895184847242752,Fangjie,Cao,31126,1895184847242752,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-10 01:50:36
+1895184847242752,Fangjie,Cao,31127,854518728062939,1895184847242752,BOT: message,Pick one of the following answers.,2018-09-10 01:50:37
+1895184847242752,Fangjie,Cao,31128,854518728062939,1895184847242752,BOT: quick reply,":keycap_1: rationalizations
+:keycap_2: temperaments
+:keycap_3: initiations
+:keycap_4: aptitudes
+:keycap_5: implementations
+",2018-09-10 01:50:37
+1895184847242752,Fangjie,Cao,31129,1895184847242752,854518728062939,user_quick_reply: BUTTON_DKB_aptitudes,:keycap_4:,2018-09-10 01:52:30
+1895184847242752,Fangjie,Cao,31130,854518728062939,1895184847242752,BOT: message,That's not quite right. :disappointed_face:,2018-09-10 01:52:31
+1895184847242752,Fangjie,Cao,31131,854518728062939,1895184847242752,BOT: quick reply,The correct answer is temperaments.,2018-09-10 01:52:32
+1895184847242752,Fangjie,Cao,31132,1895184847242752,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-10 01:52:59
+1895184847242752,Fangjie,Cao,31133,854518728062939,1895184847242752,BOT: message,"Alrighty, let's try this one.",2018-09-10 01:52:59
+1895184847242752,Fangjie,Cao,31134,854518728062939,1895184847242752,BOT: quick reply,Many Major League Baseball relief pitchers choose an electrifying theme song to play as they take the mound; the song _____ their fans and instills fear in their opponents.,2018-09-10 01:53:00
+1895184847242752,Fangjie,Cao,31135,1895184847242752,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-10 01:53:22
+1895184847242752,Fangjie,Cao,31136,854518728062939,1895184847242752,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-09-10 01:53:23
+1895184847242752,Fangjie,Cao,31137,854518728062939,1895184847242752,BOT: quick reply,":keycap_1: pervades
+:keycap_2: assuages
+:keycap_3: innervates
+:keycap_4: eviscerates
+:keycap_5: enervates
+",2018-09-10 01:53:23
+1895184847242752,Fangjie,Cao,31138,1895184847242752,854518728062939,user_quick_reply: BUTTON_DKB_pervades,:keycap_1:,2018-09-10 01:53:33
+1895184847242752,Fangjie,Cao,31139,854518728062939,1895184847242752,BOT: message,"Oops, that wasn't quite correct. :disappointed_face:",2018-09-10 01:53:34
+1895184847242752,Fangjie,Cao,31140,854518728062939,1895184847242752,BOT: quick reply,The correct answer is innervates.,2018-09-10 01:53:35
+1895184847242752,Fangjie,Cao,31141,1895184847242752,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-10 01:54:44
+1895184847242752,Fangjie,Cao,31142,854518728062939,1895184847242752,BOT: message,Let's try this one.,2018-09-10 01:54:45
+1895184847242752,Fangjie,Cao,31143,854518728062939,1895184847242752,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-09-10 01:54:46
+1895184847242752,Fangjie,Cao,31144,854518728062939,1895184847242752,BOT: quick reply,"Many dog owners treat their pets too _____ , forgetting that canines have evolved in competitive environments in which emotional coddling was a sign of weakness.",2018-09-10 01:54:46
+1895184847242752,Fangjie,Cao,31145,1895184847242752,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-10 01:55:08
+1895184847242752,Fangjie,Cao,31146,854518728062939,1895184847242752,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-09-10 01:55:09
+1895184847242752,Fangjie,Cao,31147,854518728062939,1895184847242752,BOT: quick reply,":keycap_1: aggressively
+:keycap_2: quixotically
+:keycap_3: indulgently
+:keycap_4: belligerently
+:keycap_5: fortuitously
+",2018-09-10 01:55:10
+1895184847242752,Fangjie,Cao,31148,1895184847242752,854518728062939,user_quick_reply: BUTTON_AKB_indulgently,:keycap_3:,2018-09-10 01:55:19
+1895184847242752,Fangjie,Cao,31149,854518728062939,1895184847242752,BOT: message,Great! Keep it up! :flexed_biceps_medium-light_skin_tone:,2018-09-10 01:55:20
+1895184847242752,Fangjie,Cao,31150,854518728062939,1895184847242752,BOT: quick reply,The correct answer is indulgently.,2018-09-10 01:55:21
+1895184847242752,Fangjie,Cao,31151,1895184847242752,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-10 01:55:46
+1895184847242752,Fangjie,Cao,31152,854518728062939,1895184847242752,BOT: message,What about this next question:,2018-09-10 01:55:47
+1895184847242752,Fangjie,Cao,31153,854518728062939,1895184847242752,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-09-10 01:55:47
+1895184847242752,Fangjie,Cao,31154,854518728062939,1895184847242752,BOT: quick reply,"Modern tennis fans have come to realize that, although, quantum technological leaps in racquet technology have lead to _____ increases in the speed and power with which players can hit the ball, this has not necessarily lead to a more entertaining game.",2018-09-10 01:55:48
+1895184847242752,Fangjie,Cao,31155,1895184847242752,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-10 01:56:05
+1895184847242752,Fangjie,Cao,31156,854518728062939,1895184847242752,BOT: message,It's one of the following choices.,2018-09-10 01:56:05
+1895184847242752,Fangjie,Cao,31157,854518728062939,1895184847242752,BOT: quick reply,":keycap_1: commensurate
+:keycap_2: halcyon
+:keycap_3: innocuous
+:keycap_4: malleable
+:keycap_5: tractable
+",2018-09-10 01:56:06
+1895184847242752,Fangjie,Cao,31158,1895184847242752,854518728062939,user_quick_reply: BUTTON_DKB_innocuous,:keycap_3:,2018-09-10 01:56:40
+1895184847242752,Fangjie,Cao,31159,854518728062939,1895184847242752,BOT: message,"Oops, that wasn't quite correct. :disappointed_face:",2018-09-10 01:56:41
+1895184847242752,Fangjie,Cao,31160,854518728062939,1895184847242752,BOT: quick reply,The correct answer is commensurate.,2018-09-10 01:56:42
+1895184847242752,Fangjie,Cao,31161,1895184847242752,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-10 01:57:39
+1895184847242752,Fangjie,Cao,31162,854518728062939,1895184847242752,BOT: message,Let's take a look at this question.,2018-09-10 01:57:40
+1895184847242752,Fangjie,Cao,31163,854518728062939,1895184847242752,BOT: message,Remember that you can always type in your answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-09-10 01:57:41
+1895184847242752,Fangjie,Cao,31164,854518728062939,1895184847242752,BOT: quick reply,Seth was extremely _____ and did not enjoy activities that required effort to meet new people.,2018-09-10 01:57:41
+1895184847242752,Fangjie,Cao,31165,1895184847242752,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-10 01:57:51
+1895184847242752,Fangjie,Cao,31166,854518728062939,1895184847242752,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-09-10 01:57:52
+1895184847242752,Fangjie,Cao,31167,854518728062939,1895184847242752,BOT: quick reply,":keycap_1: extroverted
+:keycap_2: lackluster
+:keycap_3: jaded
+:keycap_4: introverted
+:keycap_5: gregarious
+",2018-09-10 01:57:53
+1895184847242752,Fangjie,Cao,31168,1895184847242752,854518728062939,user_quick_reply: BUTTON_AKB_introverted,:keycap_4:,2018-09-10 01:58:01
+1895184847242752,Fangjie,Cao,31169,854518728062939,1895184847242752,BOT: message,Yes! You got the correct answer!,2018-09-10 01:58:01
+1895184847242752,Fangjie,Cao,31170,854518728062939,1895184847242752,BOT: quick reply,The correct answer is introverted.,2018-09-10 01:58:02
+1895184847242752,Fangjie,Cao,31171,1895184847242752,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-10 01:58:05
+1895184847242752,Fangjie,Cao,31172,854518728062939,1895184847242752,BOT: message,Let's try this one.,2018-09-10 01:58:06
+1895184847242752,Fangjie,Cao,31173,854518728062939,1895184847242752,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-09-10 01:58:07
+1895184847242752,Fangjie,Cao,31174,854518728062939,1895184847242752,BOT: quick reply,"Possessing few natural resources upon its newly-granted independence in 1863, Singapore remained economically _____ until an influx of industrialization and foreign investment took hold there.",2018-09-10 01:58:08
+1895184847242752,Fangjie,Cao,31175,1895184847242752,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-10 01:58:28
+1895184847242752,Fangjie,Cao,31176,854518728062939,1895184847242752,BOT: message,Pick one of the following answers.,2018-09-10 01:58:29
+1895184847242752,Fangjie,Cao,31177,854518728062939,1895184847242752,BOT: quick reply,":keycap_1: fortuitous
+:keycap_2: prosperous
+:keycap_3: powerful
+:keycap_4: dubious
+:keycap_5: solvent
+",2018-09-10 01:58:30
+1895184847242752,Fangjie,Cao,31178,1895184847242752,854518728062939,user_quick_reply: BUTTON_DKB_prosperous,:keycap_2:,2018-09-10 01:58:38
+1895184847242752,Fangjie,Cao,31179,854518728062939,1895184847242752,BOT: message,"I'm sorry, but that was incorrect. :disappointed_face:",2018-09-10 01:58:39
+1895184847242752,Fangjie,Cao,31180,854518728062939,1895184847242752,BOT: quick reply,The correct answer is dubious.,2018-09-10 01:58:40
+1895184847242752,Fangjie,Cao,31181,1895184847242752,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-10 01:59:40
+1895184847242752,Fangjie,Cao,31182,854518728062939,1895184847242752,BOT: message,Could you answer this one for me?,2018-09-10 01:59:41
+1895184847242752,Fangjie,Cao,31183,854518728062939,1895184847242752,BOT: quick reply,"Prior to taking on the new invader, the defending army had engaged in arduous combat; it is likely that the _____ resulting from waging two battles in two days played a part in its subsequent defeat.",2018-09-10 01:59:42
+1895184847242752,Fangjie,Cao,31184,1895184847242752,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-10 01:59:59
+1895184847242752,Fangjie,Cao,31185,854518728062939,1895184847242752,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-09-10 02:00:00
+1895184847242752,Fangjie,Cao,31186,854518728062939,1895184847242752,BOT: quick reply,":keycap_1: pugnacity
+:keycap_2: aggravation
+:keycap_3: enervation
+:keycap_4: pacification
+:keycap_5: bellicosity
+",2018-09-10 02:00:00
+1895184847242752,Fangjie,Cao,31187,1895184847242752,854518728062939,user_quick_reply: BUTTON_DKB_aggravation,:keycap_2:,2018-09-10 02:00:17
+1895184847242752,Fangjie,Cao,31188,854518728062939,1895184847242752,BOT: message,"Oops, that is not correct. :disappointed_face:",2018-09-10 02:00:18
+1895184847242752,Fangjie,Cao,31189,854518728062939,1895184847242752,BOT: quick reply,The correct answer is enervation.,2018-09-10 02:00:19
+1895184847242752,Fangjie,Cao,31190,1895184847242752,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-10 02:01:18
+1895184847242752,Fangjie,Cao,31191,854518728062939,1895184847242752,BOT: message,Let's try this one.,2018-09-10 02:01:19
+1895184847242752,Fangjie,Cao,31192,854518728062939,1895184847242752,BOT: quick reply,The Erie Canal's completion caused _____ economic ripples; property values and industrial output along its route rose exponentially.,2018-09-10 02:01:20
+1895184847242752,Fangjie,Cao,31193,1895184847242752,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-10 02:01:28
+1895184847242752,Fangjie,Cao,31194,854518728062939,1895184847242752,BOT: message,Okay. I'll give you some choices.,2018-09-10 02:01:29
+1895184847242752,Fangjie,Cao,31195,854518728062939,1895184847242752,BOT: quick reply,":keycap_1: severe
+:keycap_2: prodigious
+:keycap_3: incredulous
+:keycap_4: invaluable
+:keycap_5: persistent
+",2018-09-10 02:01:29
+1895184847242752,Fangjie,Cao,31196,1895184847242752,854518728062939,user_quick_reply: BUTTON_DKB_severe,:keycap_1:,2018-09-10 02:02:05
+1895184847242752,Fangjie,Cao,31197,854518728062939,1895184847242752,BOT: message,That's not quite right. :disappointed_face:,2018-09-10 02:02:06
+1895184847242752,Fangjie,Cao,31198,854518728062939,1895184847242752,BOT: quick reply,The correct answer is prodigious.,2018-09-10 02:02:06
+1895184847242752,Fangjie,Cao,31204,1895184847242752,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-10 02:02:53
+1895184847242752,Fangjie,Cao,31205,854518728062939,1895184847242752,BOT: message,Let's try this question.,2018-09-10 02:02:54
+1895184847242752,Fangjie,Cao,31206,854518728062939,1895184847242752,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-09-10 02:02:55
+1895184847242752,Fangjie,Cao,31207,854518728062939,1895184847242752,BOT: quick reply,While she may have answered him truthfully - in the strictest sense of the word - it became clear to Sergei after the incident that Sheryl had actually been trying to _____ .,2018-09-10 02:02:55
+1895184847242752,Fangjie,Cao,31211,1895184847242752,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-10 02:03:10
+1895184847242752,Fangjie,Cao,31212,854518728062939,1895184847242752,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-09-10 02:03:10
+1895184847242752,Fangjie,Cao,31213,854518728062939,1895184847242752,BOT: quick reply,":keycap_1: vituperate
+:keycap_2: covet
+:keycap_3: desiccate
+:keycap_4: obfuscate
+:keycap_5: illuminate
+",2018-09-10 02:03:11
+1895184847242752,Fangjie,Cao,31218,1895184847242752,854518728062939,user_quick_reply: BUTTON_DKB_covet,:keycap_2:,2018-09-10 02:03:41
+1895184847242752,Fangjie,Cao,31219,854518728062939,1895184847242752,BOT: message,That's not quite right. :disappointed_face:,2018-09-10 02:03:42
+1895184847242752,Fangjie,Cao,31220,854518728062939,1895184847242752,BOT: quick reply,The correct answer is obfuscate.,2018-09-10 02:03:42
+1895184847242752,Fangjie,Cao,31221,1895184847242752,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-10 02:04:18
+1895184847242752,Fangjie,Cao,31222,854518728062939,1895184847242752,BOT: message,Let's see if you can get this one.,2018-09-10 02:04:18
+1895184847242752,Fangjie,Cao,31223,854518728062939,1895184847242752,BOT: message,Remember that you can always type in your answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-09-10 02:04:19
+1895184847242752,Fangjie,Cao,31224,854518728062939,1895184847242752,BOT: quick reply,"With a similar contrast between a partly cloudy sky and a dark street, the cover of the recent rock CD _____ a famous surrealist painting from the early 1900s.",2018-09-10 02:04:20
+1895184847242752,Fangjie,Cao,31225,1895184847242752,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-10 02:04:27
+1895184847242752,Fangjie,Cao,31226,854518728062939,1895184847242752,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-09-10 02:04:28
+1895184847242752,Fangjie,Cao,31227,854518728062939,1895184847242752,BOT: quick reply,":keycap_1: admires
+:keycap_2: sanctions
+:keycap_3: obfuscates
+:keycap_4: disenchants
+:keycap_5: evokes
+",2018-09-10 02:04:29
+1895184847242752,Fangjie,Cao,31228,1895184847242752,854518728062939,user_quick_reply: BUTTON_AKB_evokes,:keycap_5:,2018-09-10 02:04:49
+1895184847242752,Fangjie,Cao,31229,854518728062939,1895184847242752,BOT: message,Nice! That was right!,2018-09-10 02:04:49
+1895184847242752,Fangjie,Cao,31230,854518728062939,1895184847242752,BOT: quick reply,The correct answer is evokes.,2018-09-10 02:04:50
+1895184847242752,Fangjie,Cao,31234,1895184847242752,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-10 02:04:54
+1895184847242752,Fangjie,Cao,31236,854518728062939,1895184847242752,BOT: message,Congratulations! You've finished your study. Please proceed to the post-study quizzes to test how well you master the knowledge!,2018-09-10 02:04:54
+1895184847242752,Fangjie,Cao,31237,854518728062939,1895184847242752,BOT: message,Please be sure to finish the two post-study quizzes according to our instructions.,2018-09-10 02:04:55
+1895184847242752,Fangjie,Cao,31238,854518728062939,1895184847242752,BOT: message,Good luck and have fun! :grinning_face_with_smiling_eyes:,2018-09-10 02:04:56
+1895184847242752,Fangjie,Cao,34945,854518728062939,1895184847242752,BOT: quick reply,"Hi Fangjie, remember to practice some questions with me if you haven't finished your session today!",2018-09-10 20:00:46
+1895184847242752,Fangjie,Cao,35812,1895184847242752,854518728062939,user_quick_reply: NEXT_QUESTION,Alrighty :white_heavy_check_mark:,2018-09-11 00:28:47
+1895184847242752,Fangjie,Cao,35813,854518728062939,1895184847242752,BOT: message,Congratulations! You've finished your study. Please proceed to the post-study quizzes to test how well you master the knowledge!,2018-09-11 00:28:48
+1895184847242752,Fangjie,Cao,35814,854518728062939,1895184847242752,BOT: message,Please be sure to finish the two post-study quizzes according to our instructions.,2018-09-11 00:28:49
+1895184847242752,Fangjie,Cao,35815,854518728062939,1895184847242752,BOT: message,Good luck and have fun! :grinning_face_with_smiling_eyes:,2018-09-11 00:28:49
+1895184847242752,Fangjie,Cao,39611,854518728062939,1895184847242752,BOT: quick reply,"Hi Fangjie, remember to practice some questions with me if you haven't finished your session today!",2018-09-11 20:01:21
+1895184847242752,Fangjie,Cao,39650,1895184847242752,854518728062939,user_quick_reply: NEXT_QUESTION,"Yes, continue :oncoming_fist_medium-light_skin_tone:",2018-09-11 20:12:53
+1895184847242752,Fangjie,Cao,39651,854518728062939,1895184847242752,BOT: message,Congratulations! You've finished your study. Please proceed to the post-study quizzes to test how well you master the knowledge!,2018-09-11 20:12:54
+1895184847242752,Fangjie,Cao,39652,854518728062939,1895184847242752,BOT: message,Please be sure to finish the two post-study quizzes according to our instructions.,2018-09-11 20:12:55
+1895184847242752,Fangjie,Cao,39654,854518728062939,1895184847242752,BOT: message,Good luck and have fun! :grinning_face_with_smiling_eyes:,2018-09-11 20:12:55
+1895184847242752,Fangjie,Cao,41431,854518728062939,1895184847242752,BOT: quick reply,"Hi Fangjie, remember to practice some questions with me if you haven't finished your session today!",2018-09-12 20:01:57
