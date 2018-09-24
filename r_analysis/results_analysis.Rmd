@@ -15,6 +15,7 @@ theme_set(theme_bw())
 # Unpaired t-test:
 # http://www.sthda.com/english/wiki/unpaired-two-samples-t-test-in-r
 
+
 # Pilot Study: 30 + 20 time
 
 flashcard_time = c(33.86, 41.84, 19.31, 35.31, 30.11, 23.66, 9.85)
@@ -30,6 +31,7 @@ g + geom_boxplot(varwidth=T) + scale_fill_brewer(palette="Set3") +
 
 
 #boxplot(total_time ~ group, data = time_data, col = c("lightblue", "lightyellow"), main='Total usage time over 7 days (batch 1, n=7+7)', ylab='minutes')
+
 
 mean(quizbot_time)
 sd(quizbot_time)
@@ -219,10 +221,12 @@ print(time_data_40_10)
 
 boxplot(total_time ~ group, data = time_data, col = c("lightblue", "lightyellow"), main='Total usage time over 7 days (n=10) (batch 2)', ylab='minutes')
 
+
 mean(quizbot_time)
 sd(quizbot_time)
 mean(flashcard_time)
 sd(flashcard_time)
+
 
 # Assumtion 2: Are the data from each of the 2 groups follow a normal distribution?
 hist(flashcard_time, main = "Histogram of flashcard app usage time")
@@ -286,4 +290,5 @@ g + geom_boxplot(varwidth=T) +
     labs(title="Box plot of percent of questions that were previously wrong recalled", 
          x="Pilot group",
          y="%")
+t.test(flashcard_time, quizbot_time, paired=FALSE, var.equal = TRUE, alternative='two.sided')
 ```

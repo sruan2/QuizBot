@@ -2,8 +2,7 @@
     score_calculator.py
     Author: Liwei Jiang
     Date: 02/07/2018
-    Usage:
-    Calculate user quiz scores
+    Usage: Calculate user quiz scores
 '''
 import csv
 import itertools
@@ -504,12 +503,11 @@ def quiz_b_within_subject_score_seen():
 	print(result_data)
 	print(len(result_data))
 
-# <<<<<<< HEAD
+
 # if __name__ == "__main__":
 # 	#quiz_b_within_subject_score_seen()
 #     quiz_b_within_subject_score_split()
-# =======
-# >>>>>>> 1a3a45c83177c848321b3570c082da4ddd046802
+
 
 def parse_answers():
 	'''
