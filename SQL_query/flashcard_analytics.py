@@ -1,8 +1,8 @@
 '''
-    flashcard_analytics.py
-    Author: Liwei Jiang
+    flashcard_analytics_batch_4.py
+    Author: Sherry Ruan,  Liwei Jiang
     Date: 08/01/2018
-    Usage: 
+    Usage:
         Request the flashcard user record from MySQL database.
 '''
 import datetime
@@ -20,7 +20,17 @@ users = [("Golrokh", "Emami"), ("Cynthia", "Torma"), ("Jordan", "Cho"), ("Laura"
          ("yue", "hui"), ("Clayton", "Ellington"), ("Nathaniel", "Ramos"), ("Paul", "Walter"), ("Flora", "Wang"), \
          ("Christine", "Liu"), ("Maisam", "Pyarali"), ("Nathan", "Dalal"), ("Sorathan", "Chaturapruek"), ("Daniel", "Choe"), \
          ("Owen", "Wang"), ("Richard", "Xu"), ("Yang", "Wang"), ("Hongsheng", "Fang"), ("Michael", "Solorio"), \
-         ("Nina", "Wei"), ("Jessica", "de la Paz"), ("Janice", "Zang"), ("Grace", "Hong")]
+         ("Nina", "Wei"), ("Jessica", "de la Paz"), ("Janice", "Zang"), ("Grace", "Hong"), \
+         ("Yufeng", "Yin"), ("Jorge", "Nam")]
+
+users.extend([("Jeongeun", "Park"), ("shuo", "han"), ("Harry", "Liu"), ("Yunan", "Xu"), ("Jackie", "Yang"), ("xuebing", "leng"), ("Zhiyuan", "Lin"),
+              ("Jerry", "Hong"), ("Kebing", "Li"), ("Yun", "Zhang"), ("Xiaoou", "Wang"), ("Yue", "Lian"), ("Jackie", "Hang"),  
+              ("wenjing", "yan"), ("Heidi", "He"), ("Anna", "Yu"), ("Irene", "Lai"), ("Yin", "Li"), 
+              ("Qiwen", "Zhang"), ("Ran", "Gong"), ("Tianshi", "Li"),
+              ("Yiran", "Shen"), ("Harry", "Liu"), ("Wendy", "Li"), ("Wenming", "Zhang"), ("Miao", "Zhang"), ("Fangjie", "Cao"), ("Meng", "Tang"),
+              ("Elaine", "Yin"), ("Ziang","Zhu"), ("Hao", "Chen"), ("Akemi","Wijayabahu"), ("Yifan", "He"),
+              ("Mkhanyisi", "Gamedze"), ("Hongyu", "Zhai"), ("Yibing", "Du"), ("Haihong", "L"), ("Wenxiao", "Huang"), ("Mingchen","Li"), 
+              ("Ramon", "Tuason"), ("Hanke", "Gu"), ("Huiying", "Chen")])
 
 # request a single user's record specified in command line
 if sys.argv[1] != "" and sys.argv[2] != "":

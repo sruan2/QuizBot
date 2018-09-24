@@ -7,7 +7,7 @@ function onDeviceReady() {
     document.addEventListener("pause", onPause, false);
     document.addEventListener("resume", onResume, false);
     cordova.plugins.notification.local.schedule({
-        text: 'Remember to do some flashcards today!',
+        text: "Remember to do some flashcards if you haven't finished your session today!",
         trigger: { every: { hour: 20, minute: 0 } }
     });
     log("send reminder");

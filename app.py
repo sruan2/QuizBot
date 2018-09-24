@@ -24,7 +24,11 @@ import QAModel
 from utils import pretty_print
 
 # correct the mismatch of the index and qid
-qid_to_index = {1: 32, 2: 26, 132: 11, 5: 14, 136: 8, 138: 2, 139: 44, 14: 18, 143: 9, 146: 42, 19: 20, 21: 33, 25: 31, 27: 21, 30: 15, 31: 27, 32: 6, 35: 29, 38: 34, 42: 28, 45: 38, 8: 13, 50: 7, 53: 37, 64: 5, 65: 30, 68: 43, 70: 47, 72: 25, 74: 46, 79: 24, 82: 39, 84: 22, 85: 45, 87: 40, 93: 23, 94: 36, 97: 35, 100: 1, 103: 19, 112: 4, 147: 0, 117: 16, 118: 3, 120: 12, 121: 10, 125: 17, 127: 41}
+# qid_to_index = {1: 32, 2: 26, 132: 11, 5: 14, 136: 8, 138: 2, 139: 44, 14: 18, 143: 9, 146: 42, 19: 20, 21: 33, 25: 31, 27: 21, 30: 15, 31: 27, 32: 6, 35: 29, 38: 34, 42: 28, 45: 38, 8: 13, 50: 7, 53: 37, 64: 5, 65: 30, 68: 43, 70: 47, 72: 25, 74: 46, 79: 24, 82: 39, 84: 22, 85: 45, 87: 40, 93: 23, 94: 36, 97: 35, 100: 1, 103: 19, 112: 4, 147: 0, 117: 16, 118: 3, 120: 12, 121: 10, 125: 17, 127: 41}
+
+# ================== 96 question pool ==================
+index_to_qid = {0: 15, 1: 135, 2: 55, 3: 51, 4: 56, 5: 141, 6: 128, 7: 106, 8: 111, 9: 114, 10: 59, 11: 9, 12: 131, 13: 145, 14: 18, 15: 102, 16: 11, 17: 133, 18: 130, 19: 83, 20: 41, 21: 148, 22: 75, 23: 90, 24: 99, 25: 113, 26: 104, 27: 46, 28: 37, 29: 44, 30: 49, 31: 58, 32: 24, 33: 52, 34: 73, 35: 6, 36: 29, 37: 88, 38: 17, 39: 76, 40: 77, 41: 89, 42: 144, 43: 142, 44: 92, 45: 10, 46: 3, 47: 40, 48: 147, 49: 100, 50: 138, 51: 118, 52: 112, 53: 64, 54: 32, 55: 50, 56: 136, 57: 143, 58: 121, 59: 132, 60: 120, 61: 8, 62: 5, 63: 30, 64: 117, 65: 125, 66: 14, 67: 103, 68: 19, 69: 27, 70: 84, 71: 93, 72: 79, 73: 72, 74: 2, 75: 31, 76: 42, 77: 35, 78: 65, 79: 25, 80: 1, 81: 21, 82: 38, 83: 97, 84: 94, 85: 53, 86: 45, 87: 82, 88: 87, 89: 127, 90: 146, 91: 68, 92: 139, 93: 85, 94: 74, 95: 70}
+qid_to_index = {v:k for (k,v) in index_to_qid.items()}
 
 # ================== Global Varaibles ==================
 #  Flash App Setup
@@ -131,9 +135,9 @@ def webhook():
                     pretty_print('Insert the user into cache', mode='Cache')
                     user_history_data = db.show_user_history(mysql, sender_id) # tuple of (qid, score, time_stamp)
                     pretty_print('Retrieve the user history from [user_history]', mode='Database')
-                    qa_model.loadUserData(sender_id, user_history_data)
+                    qa_model.loadUserData(sender_id, user_history_data, qid_to_index)
                     pretty_print('Pass the user history to the QAModel', mode='QAModel')
-                
+
                 # Insert the user into database and cache if it doesn't exist yet.
                 else:
                     sender_firstname = pinyin.get(sender_firstname, format="strip", delimiter="")
@@ -275,17 +279,18 @@ with app.app_context():
     # [(1139924072777403, 'Sherry'), (1805880356153906, 'Nathan'), (1850388251650155, 'Liwei')]
     reminder.RepeatedTimer(86400, template_conversation, mysql)
     # print(db.show_users_newly_added(mysql))
-    
+
 if __name__ == '__main__':
     # Set up Flask app and MySQL
     setup(chatbot_text)
 
     # Read QA json data and construct the QA knowledge base
-    json_file = 'QAdataset/questions_between_subjects_quizbot.json'
+    # json_file = 'QAdataset/questions_between_subjects_quizbot.json'
+    json_file = 'QAdataset/questions_96.json'
     qa_kb = QAKnowlegeBase(json_file)
     model = os.environ["MODEL"]
     question_sequencing_model = os.environ["QUESTION_SEQUENCING_MODEL"]
-    
+
     if model == "TFIDF":
         qa_model = QAModel.TFIDFModel(qa_kb, question_sequencing_model)
     elif model == "SIF":

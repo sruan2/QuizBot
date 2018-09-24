@@ -1,6 +1,17 @@
 import os
 import sys
 
+class SubjectEnoughQuestions(Exception):
+   """Base class for other exceptions"""
+   pass
+
+class EnoughForToday(Exception):
+   """Base class for other exceptions"""
+   pass
+
+class FinishFixQuestionsStudy(Exception):
+   """Base class for other exceptions"""
+   pass
 
 def pretty_print(message, mode=None):
     if not mode:

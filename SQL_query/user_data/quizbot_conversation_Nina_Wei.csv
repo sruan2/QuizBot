@@ -709,3 +709,561 @@ user_id,user_firstname,user_lastname,uid,sender,recipient,type,dialogue,time_sta
 1906288616132313,Nina,Wei,28933,854518728062939,1906288616132313,BOT: message,"Alrighty, let's try this one.",2018-08-31 21:20:10
 1906288616132313,Nina,Wei,28934,854518728062939,1906288616132313,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-08-31 21:20:11
 1906288616132313,Nina,Wei,28935,854518728062939,1906288616132313,BOT: quick reply,What should you NOT do while lifting objects?,2018-08-31 21:20:11
+1906288616132313,Nina,Wei,30465,854518728062939,1906288616132313,BOT: quick reply,"Hi Nina, you haven't talked to me for a while. Would you like to resume the learning with me?",2018-09-01 20:00:21
+1906288616132313,Nina,Wei,30473,1906288616132313,854518728062939,user_quick_reply: NEXT_QUESTION,Alrighty :oncoming_fist_medium-light_skin_tone:,2018-09-01 20:11:04
+1906288616132313,Nina,Wei,30474,854518728062939,1906288616132313,BOT: message,Let's see if you can answer this question.,2018-09-01 20:11:05
+1906288616132313,Nina,Wei,30475,854518728062939,1906288616132313,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-09-01 20:11:05
+1906288616132313,Nina,Wei,30476,854518728062939,1906288616132313,BOT: quick reply,"True or false: if you wear a back belt, you can lift more weight than you could without a belt.",2018-09-01 20:11:06
+1906288616132313,Nina,Wei,30477,1906288616132313,854518728062939,user_typing,False,2018-09-01 20:15:17
+1906288616132313,Nina,Wei,30478,854518728062939,1906288616132313,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_jubilated_pink.png,2018-09-01 20:15:19
+1906288616132313,Nina,Wei,30479,854518728062939,1906288616132313,BOT: message,Fantastic! :hundred_points:,2018-09-01 20:15:20
+1906288616132313,Nina,Wei,30480,854518728062939,1906288616132313,BOT: quick reply,The correct answer is False.,2018-09-01 20:15:20
+1906288616132313,Nina,Wei,30481,1906288616132313,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-01 20:15:25
+1906288616132313,Nina,Wei,30482,854518728062939,1906288616132313,BOT: message,I think you'll like this question.,2018-09-01 20:15:25
+1906288616132313,Nina,Wei,30483,854518728062939,1906288616132313,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-09-01 20:15:26
+1906288616132313,Nina,Wei,30484,854518728062939,1906288616132313,BOT: quick reply,Which fire extinguishers are used to put out fires caused by flammable liquids?,2018-09-01 20:15:27
+1906288616132313,Nina,Wei,30485,1906288616132313,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-01 20:15:36
+1906288616132313,Nina,Wei,30486,854518728062939,1906288616132313,BOT: message,Pick one of the following answers.,2018-09-01 20:15:37
+1906288616132313,Nina,Wei,30487,854518728062939,1906288616132313,BOT: quick reply,":keycap_1: Class C dry chemical fire extinguisher
+:keycap_2: Class B carbon dioxide fire extinguisher
+:keycap_3: Class A water fire extinguishers
+",2018-09-01 20:15:37
+1906288616132313,Nina,Wei,30488,1906288616132313,854518728062939,user_quick_reply: BUTTON_AKB_Class B carbon dioxide fire extinguisher,:keycap_2:,2018-09-01 20:15:41
+1906288616132313,Nina,Wei,30489,854518728062939,1906288616132313,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_jubilated_cyan.png,2018-09-01 20:15:43
+1906288616132313,Nina,Wei,30490,854518728062939,1906288616132313,BOT: message,Nice work! Keep it up!,2018-09-01 20:15:44
+1906288616132313,Nina,Wei,30491,854518728062939,1906288616132313,BOT: quick reply,The correct answer is Class B carbon dioxide fire extinguisher.,2018-09-01 20:15:44
+1906288616132313,Nina,Wei,30492,1906288616132313,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-01 20:15:49
+1906288616132313,Nina,Wei,30493,854518728062939,1906288616132313,BOT: message,Here's a question for you:,2018-09-01 20:15:50
+1906288616132313,Nina,Wei,30494,854518728062939,1906288616132313,BOT: quick reply,What should you NOT do when lowering a load?,2018-09-01 20:15:51
+1906288616132313,Nina,Wei,30495,1906288616132313,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-01 20:15:55
+1906288616132313,Nina,Wei,30496,854518728062939,1906288616132313,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-09-01 20:15:56
+1906288616132313,Nina,Wei,30497,854518728062939,1906288616132313,BOT: quick reply,":keycap_1: Twist your body
+:keycap_2: Twist your body, keep the load close, and bend your knees
+:keycap_3: Bend your knees
+:keycap_4: Keep the load close to your body
+",2018-09-01 20:15:56
+1906288616132313,Nina,Wei,30498,1906288616132313,854518728062939,user_quick_reply: I_DONT_KNOW,I dont know :downcast_face_with_sweat:,2018-09-01 20:16:15
+1906288616132313,Nina,Wei,30499,854518728062939,1906288616132313,BOT: quick reply,Are you sure you want to give up?,2018-09-01 20:16:15
+1906288616132313,Nina,Wei,30500,1906288616132313,854518728062939,user_quick_reply: GIVEUP_YES,"Yes, answer please.",2018-09-01 20:16:19
+1906288616132313,Nina,Wei,30501,854518728062939,1906288616132313,BOT: message,You didn't get it right this time.,2018-09-01 20:16:20
+1906288616132313,Nina,Wei,30502,854518728062939,1906288616132313,BOT: message,"Keep trying, you'll get it next time! :grinning_face_with_smiling_eyes:",2018-09-01 20:16:20
+1906288616132313,Nina,Wei,30503,854518728062939,1906288616132313,BOT: quick reply,The correct answer is Twist your body.,2018-09-01 20:16:22
+1906288616132313,Nina,Wei,30504,1906288616132313,854518728062939,user_quick_reply: WHY,Why?,2018-09-01 20:16:26
+1906288616132313,Nina,Wei,30505,854518728062939,1906288616132313,BOT: message,I hope this explanation could help you understand the the question.,2018-09-01 20:16:27
+1906288616132313,Nina,Wei,30506,854518728062939,1906288616132313,BOT: quick reply,"To lower a load, you should make use of its edge, bend your knees, keep the load close to their body, and avoid twisting your torso.",2018-09-01 20:16:27
+1906288616132313,Nina,Wei,30507,1906288616132313,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-09-01 20:16:36
+1906288616132313,Nina,Wei,30508,854518728062939,1906288616132313,BOT: message,Let's try this question.,2018-09-01 20:16:37
+1906288616132313,Nina,Wei,30509,854518728062939,1906288616132313,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-09-01 20:16:38
+1906288616132313,Nina,Wei,30510,854518728062939,1906288616132313,BOT: quick reply,Working on scaffold during winds above ____ miles per hour is prohibited by OSHA.,2018-09-01 20:16:38
+1906288616132313,Nina,Wei,30511,1906288616132313,854518728062939,user_typing,40,2018-09-01 20:16:56
+1906288616132313,Nina,Wei,30512,854518728062939,1906288616132313,BOT: message,Nice! :red_apple:,2018-09-01 20:16:57
+1906288616132313,Nina,Wei,30513,854518728062939,1906288616132313,BOT: quick reply,The correct answer is 40.,2018-09-01 20:16:57
+1906288616132313,Nina,Wei,30514,1906288616132313,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-01 20:17:01
+1906288616132313,Nina,Wei,30515,854518728062939,1906288616132313,BOT: message,See if you can answer this next one.,2018-09-01 20:17:01
+1906288616132313,Nina,Wei,30516,854518728062939,1906288616132313,BOT: quick reply,"When you discover a fire, you should do what?",2018-09-01 20:17:02
+1906288616132313,Nina,Wei,30517,1906288616132313,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-01 20:17:09
+1906288616132313,Nina,Wei,30518,854518728062939,1906288616132313,BOT: message,Okay. I'll give you some choices.,2018-09-01 20:17:09
+1906288616132313,Nina,Wei,30519,854518728062939,1906288616132313,BOT: quick reply,":keycap_1: Pull the fire alarm and call the fire department
+:keycap_2: Use a fire extinguisher to put out the fire, even if you've never used a fire extinguisher before
+:keycap_3: Run out of the building without warning others of the fire
+:keycap_4: Stay in the building until you figure out a way to extinguish the fire
+",2018-09-01 20:17:10
+1906288616132313,Nina,Wei,30520,1906288616132313,854518728062939,user_quick_reply: BUTTON_AKB_Pull the fire alarm and call the fire department,:keycap_1:,2018-09-01 20:17:21
+1906288616132313,Nina,Wei,30521,854518728062939,1906288616132313,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_jubilated_orange.png,2018-09-01 20:17:23
+1906288616132313,Nina,Wei,30522,854518728062939,1906288616132313,BOT: message,Great! Keep it up! :flexed_biceps_medium-light_skin_tone:,2018-09-01 20:17:24
+1906288616132313,Nina,Wei,30523,854518728062939,1906288616132313,BOT: quick reply,The correct answer is Pull the fire alarm and call the fire department.,2018-09-01 20:17:24
+1906288616132313,Nina,Wei,30524,1906288616132313,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-01 20:17:30
+1906288616132313,Nina,Wei,30525,854518728062939,1906288616132313,BOT: message,"Alrighty, let's try this one.",2018-09-01 20:17:30
+1906288616132313,Nina,Wei,30526,854518728062939,1906288616132313,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-09-01 20:17:31
+1906288616132313,Nina,Wei,30527,854518728062939,1906288616132313,BOT: quick reply,To what does the acronym SLM refer?,2018-09-01 20:17:31
+1906288616132313,Nina,Wei,30528,1906288616132313,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-01 20:17:39
+1906288616132313,Nina,Wei,30529,854518728062939,1906288616132313,BOT: message,Pick one of the following answers.,2018-09-01 20:17:39
+1906288616132313,Nina,Wei,30530,854518728062939,1906288616132313,BOT: quick reply,":keycap_1: Sound Loudness Methods
+:keycap_2: Sound Level Meter
+:keycap_3: Service Lifecycle Management
+:keycap_4: System Level Monitor
+",2018-09-01 20:17:40
+1906288616132313,Nina,Wei,30531,1906288616132313,854518728062939,user_quick_reply: BUTTON_DKB_System Level Monitor,:keycap_4:,2018-09-01 20:17:44
+1906288616132313,Nina,Wei,30532,854518728062939,1906288616132313,BOT: message,"Oops, that wasn't quite correct. :disappointed_face:",2018-09-01 20:17:45
+1906288616132313,Nina,Wei,30533,854518728062939,1906288616132313,BOT: quick reply,The correct answer is Sound Level Meter.,2018-09-01 20:17:45
+1906288616132313,Nina,Wei,30534,1906288616132313,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-01 20:17:50
+1906288616132313,Nina,Wei,30535,854518728062939,1906288616132313,BOT: message,See if you can answer this next one.,2018-09-01 20:17:50
+1906288616132313,Nina,Wei,30536,854518728062939,1906288616132313,BOT: quick reply,Which fire extinguishers are used to put out fires caused by flammable liquids?,2018-09-01 20:17:51
+1906288616132313,Nina,Wei,30537,1906288616132313,854518728062939,user_typing,Class b,2018-09-01 20:18:01
+1906288616132313,Nina,Wei,30538,854518728062939,1906288616132313,BOT: message,That wasn't quite what we were looking for. :disappointed_face:,2018-09-01 20:18:01
+1906288616132313,Nina,Wei,30539,854518728062939,1906288616132313,BOT: quick reply,The correct answer is Class B carbon dioxide fire extinguisher.,2018-09-01 20:18:02
+1906288616132313,Nina,Wei,30540,1906288616132313,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-01 20:18:07
+1906288616132313,Nina,Wei,30541,854518728062939,1906288616132313,BOT: message,How about this next one:,2018-09-01 20:18:07
+1906288616132313,Nina,Wei,30542,854518728062939,1906288616132313,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-09-01 20:18:08
+1906288616132313,Nina,Wei,30543,854518728062939,1906288616132313,BOT: quick reply,"When you discover a fire, you should do what?",2018-09-01 20:18:08
+1906288616132313,Nina,Wei,30544,1906288616132313,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-01 20:18:14
+1906288616132313,Nina,Wei,30545,854518728062939,1906288616132313,BOT: message,Okay. I'll give you some choices.,2018-09-01 20:18:15
+1906288616132313,Nina,Wei,30546,854518728062939,1906288616132313,BOT: quick reply,":keycap_1: Stay in the building until you figure out a way to extinguish the fire
+:keycap_2: Run out of the building without warning others of the fire
+:keycap_3: Pull the fire alarm and call the fire department
+:keycap_4: Use a fire extinguisher to put out the fire, even if you've never used a fire extinguisher before
+",2018-09-01 20:18:15
+1906288616132313,Nina,Wei,30547,1906288616132313,854518728062939,user_quick_reply: BUTTON_AKB_Pull the fire alarm and call the fire department,:keycap_3:,2018-09-01 20:18:21
+1906288616132313,Nina,Wei,30548,854518728062939,1906288616132313,BOT: message,Great job!,2018-09-01 20:18:21
+1906288616132313,Nina,Wei,30549,854518728062939,1906288616132313,BOT: quick reply,The correct answer is Pull the fire alarm and call the fire department.,2018-09-01 20:18:22
+1906288616132313,Nina,Wei,30550,1906288616132313,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-01 20:18:26
+1906288616132313,Nina,Wei,30551,854518728062939,1906288616132313,BOT: message,Let's see if you would answer this one.,2018-09-01 20:18:27
+1906288616132313,Nina,Wei,30552,854518728062939,1906288616132313,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-09-01 20:18:27
+1906288616132313,Nina,Wei,30553,854518728062939,1906288616132313,BOT: quick reply,Which fire extinguishers are used to put out Class A fires?,2018-09-01 20:18:28
+1906288616132313,Nina,Wei,30554,1906288616132313,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-01 20:18:33
+1906288616132313,Nina,Wei,30555,854518728062939,1906288616132313,BOT: message,Which of the following options is the right answer?,2018-09-01 20:18:34
+1906288616132313,Nina,Wei,30556,854518728062939,1906288616132313,BOT: quick reply,":keycap_1: Both CO2 and water
+:keycap_2: Water only
+:keycap_3: Multi-purpose dry chemical only
+:keycap_4: Both water and multi-purpose dry chemical
+:keycap_5: CO2 only
+",2018-09-01 20:18:34
+1906288616132313,Nina,Wei,30557,1906288616132313,854518728062939,user_quick_reply: BUTTON_AKB_Both water and multi-purpose dry chemical,:keycap_4:,2018-09-01 20:18:41
+1906288616132313,Nina,Wei,30558,854518728062939,1906288616132313,BOT: message,Yes! You got the correct answer!,2018-09-01 20:18:42
+1906288616132313,Nina,Wei,30559,854518728062939,1906288616132313,BOT: quick reply,The correct answer is Both water and multi-purpose dry chemical.,2018-09-01 20:18:42
+1906288616132313,Nina,Wei,30560,1906288616132313,854518728062939,user_quick_reply: SWITCH_SUBJECT,Change subject :shuffle_tracks_button:,2018-09-01 20:18:47
+1906288616132313,Nina,Wei,30561,854518728062939,1906288616132313,BOT: quick reply,"Cool, which subject would you like to study?:backhand_index_pointing_down_medium-light_skin_tone:",2018-09-01 20:18:47
+1906288616132313,Nina,Wei,30562,1906288616132313,854518728062939,user_quick_reply: GRE,GRE :input_latin_uppercase:,2018-09-01 20:18:50
+1906288616132313,Nina,Wei,30563,854518728062939,1906288616132313,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/evolvesafety_reading.gif,2018-09-01 20:18:55
+1906288616132313,Nina,Wei,30564,854518728062939,1906288616132313,BOT: quick reply,Let's test your knowledge on the GRE!,2018-09-01 20:18:56
+1906288616132313,Nina,Wei,30565,1906288616132313,854518728062939,user_quick_reply: NEXT_QUESTION,Sure :backhand_index_pointing_right_medium-light_skin_tone:,2018-09-01 20:19:01
+1906288616132313,Nina,Wei,30566,854518728062939,1906288616132313,BOT: message,"Alrighty, let's try this one.",2018-09-01 20:19:01
+1906288616132313,Nina,Wei,30567,854518728062939,1906288616132313,BOT: quick reply,"Prior to taking on the new invader, the defending army had engaged in arduous combat; it is likely that the _____ resulting from waging two battles in two days played a part in its subsequent defeat.",2018-09-01 20:19:02
+1906288616132313,Nina,Wei,30568,1906288616132313,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-01 20:19:09
+1906288616132313,Nina,Wei,30569,854518728062939,1906288616132313,BOT: message,Okay. I'll give you some choices.,2018-09-01 20:19:10
+1906288616132313,Nina,Wei,30570,854518728062939,1906288616132313,BOT: quick reply,":keycap_1: pacification
+:keycap_2: bellicosity
+:keycap_3: pugnacity
+:keycap_4: aggravation
+:keycap_5: enervation
+",2018-09-01 20:19:11
+1906288616132313,Nina,Wei,30571,1906288616132313,854518728062939,user_quick_reply: I_DONT_KNOW,I dont know :downcast_face_with_sweat:,2018-09-01 20:19:27
+1906288616132313,Nina,Wei,30572,854518728062939,1906288616132313,BOT: quick reply,Are you sure you want to give up?,2018-09-01 20:19:27
+1906288616132313,Nina,Wei,30573,1906288616132313,854518728062939,user_quick_reply: GIVEUP_YES,"Yes, answer please.",2018-09-01 20:19:31
+1906288616132313,Nina,Wei,30574,854518728062939,1906288616132313,BOT: message,You didn't get it right this time.,2018-09-01 20:19:31
+1906288616132313,Nina,Wei,30575,854518728062939,1906288616132313,BOT: message,"Keep trying, you'll get it next time! :grinning_face_with_smiling_eyes:",2018-09-01 20:19:32
+1906288616132313,Nina,Wei,30576,854518728062939,1906288616132313,BOT: quick reply,The correct answer is enervation.,2018-09-01 20:19:33
+1906288616132313,Nina,Wei,30577,1906288616132313,854518728062939,user_quick_reply: WHY,Why?,2018-09-01 20:19:37
+1906288616132313,Nina,Wei,30578,854518728062939,1906288616132313,BOT: message,I hope this explanation could help you understand the the question.,2018-09-01 20:19:38
+1906288616132313,Nina,Wei,30579,854518728062939,1906288616132313,BOT: quick reply,":pushpin: Enervation -- lack of vitality
+:pushpin: Bellicosity -- a natural disposition to fight
+:pushpin: Pugnacity -- a natural disposition to be hostile
+:pushpin: Pacification -- the act of appeasing someone or causing someone to be more favorably inclined
+:pushpin: Aggravation -- an exasperated feeling of annoyance",2018-09-01 20:19:38
+1906288616132313,Nina,Wei,30580,1906288616132313,854518728062939,user_quick_reply: SWITCH_SUBJECT,Change subject :shuffle_tracks_button:,2018-09-01 20:19:49
+1906288616132313,Nina,Wei,30581,854518728062939,1906288616132313,BOT: quick reply,"Okay, which subject would you like to choose?:backhand_index_pointing_down_medium-light_skin_tone:",2018-09-01 20:19:49
+1906288616132313,Nina,Wei,30582,1906288616132313,854518728062939,user_quick_reply: SCIENCE,Science:microscope:,2018-09-01 20:19:55
+1906288616132313,Nina,Wei,30583,854518728062939,1906288616132313,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/evolvereading_scientist.gif,2018-09-01 20:20:00
+1906288616132313,Nina,Wei,30584,854518728062939,1906288616132313,BOT: quick reply,Okay! Lets see how much you know about science!,2018-09-01 20:20:01
+1906288616132313,Nina,Wei,30585,1906288616132313,854518728062939,user_quick_reply: NEXT_QUESTION,Sure :flexed_biceps_medium-light_skin_tone:,2018-09-01 20:20:09
+1906288616132313,Nina,Wei,30586,854518728062939,1906288616132313,BOT: message,Here's a question for you:,2018-09-01 20:20:09
+1906288616132313,Nina,Wei,30587,854518728062939,1906288616132313,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-09-01 20:20:10
+1906288616132313,Nina,Wei,30588,854518728062939,1906288616132313,BOT: quick reply,How often should women perform a breast self-exam?,2018-09-01 20:20:10
+1906288616132313,Nina,Wei,30589,1906288616132313,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-01 20:20:18
+1906288616132313,Nina,Wei,30590,854518728062939,1906288616132313,BOT: message,Pick one of the following answers.,2018-09-01 20:20:19
+1906288616132313,Nina,Wei,30591,854518728062939,1906288616132313,BOT: quick reply,":keycap_1: quarterly
+:keycap_2: monthly
+:keycap_3: weekly
+:keycap_4: yearly
+",2018-09-01 20:20:20
+1906288616132313,Nina,Wei,30592,1906288616132313,854518728062939,user_quick_reply: BUTTON_DKB_yearly,:keycap_4:,2018-09-01 20:20:26
+1906288616132313,Nina,Wei,30593,854518728062939,1906288616132313,BOT: message,"I'm sorry, but that was incorrect. :disappointed_face:",2018-09-01 20:20:26
+1906288616132313,Nina,Wei,30594,854518728062939,1906288616132313,BOT: quick reply,The correct answer is monthly.,2018-09-01 20:20:27
+1906288616132313,Nina,Wei,30595,1906288616132313,854518728062939,user_quick_reply: WHY,Why?,2018-09-01 20:20:31
+1906288616132313,Nina,Wei,30596,854518728062939,1906288616132313,BOT: message,Here's why:,2018-09-01 20:20:32
+1906288616132313,Nina,Wei,30597,854518728062939,1906288616132313,BOT: quick reply,"If you are a young woman, getting in the habit of performing a monthly breast self-exam is a good idea. Lumps or other subtle changes in the breasts may indicate breast cancer. The outcome is typically better if breast cancer is caught and treated early.",2018-09-01 20:20:33
+1906288616132313,Nina,Wei,30598,1906288616132313,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-09-01 20:20:44
+1906288616132313,Nina,Wei,30599,854518728062939,1906288616132313,BOT: message,Could you answer this one for me?,2018-09-01 20:20:45
+1906288616132313,Nina,Wei,30600,854518728062939,1906288616132313,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-09-01 20:20:45
+1906288616132313,Nina,Wei,30601,854518728062939,1906288616132313,BOT: quick reply,Most fungi get organic compounds from what?,2018-09-01 20:20:46
+1906288616132313,Nina,Wei,30602,1906288616132313,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-01 20:20:52
+1906288616132313,Nina,Wei,30603,854518728062939,1906288616132313,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-09-01 20:20:52
+1906288616132313,Nina,Wei,30604,854518728062939,1906288616132313,BOT: quick reply,":keycap_1: living organisms
+:keycap_2: carnivorous organisms
+:keycap_3: dead organisms
+:keycap_4: inorganic material
+",2018-09-01 20:20:53
+1906288616132313,Nina,Wei,30605,1906288616132313,854518728062939,user_quick_reply: BUTTON_AKB_dead organisms,:keycap_3:,2018-09-01 20:20:56
+1906288616132313,Nina,Wei,30606,854518728062939,1906288616132313,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_normal_purple.png,2018-09-01 20:20:58
+1906288616132313,Nina,Wei,30607,854518728062939,1906288616132313,BOT: message,Nice! That was right!,2018-09-01 20:20:59
+1906288616132313,Nina,Wei,30608,854518728062939,1906288616132313,BOT: quick reply,The correct answer is dead organisms.,2018-09-01 20:20:59
+1906288616132313,Nina,Wei,31944,854518728062939,1906288616132313,BOT: quick reply,"Hi Nina, you haven't talked to me for a while. Would you like to resume the learning with me?",2018-09-02 20:00:33
+1906288616132313,Nina,Wei,32413,1906288616132313,854518728062939,user_quick_reply: NEXT_QUESTION,Alrighty :clapping_hands_medium-light_skin_tone:,2018-09-02 22:51:07
+1906288616132313,Nina,Wei,32414,854518728062939,1906288616132313,BOT: message,Let's see if you would answer this one.,2018-09-02 22:51:08
+1906288616132313,Nina,Wei,32415,854518728062939,1906288616132313,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-09-02 22:51:09
+1906288616132313,Nina,Wei,32416,854518728062939,1906288616132313,BOT: quick reply,What are by far the most common type of invertebrate?,2018-09-02 22:51:09
+1906288616132313,Nina,Wei,32417,1906288616132313,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-02 22:51:25
+1906288616132313,Nina,Wei,32418,854518728062939,1906288616132313,BOT: message,It's one of the following choices.,2018-09-02 22:51:26
+1906288616132313,Nina,Wei,32419,854518728062939,1906288616132313,BOT: quick reply,":keycap_1: corals
+:keycap_2: insects
+:keycap_3: spiders
+:keycap_4: crustaceans
+",2018-09-02 22:51:27
+1906288616132313,Nina,Wei,32420,1906288616132313,854518728062939,user_quick_reply: BUTTON_DKB_spiders,:keycap_3:,2018-09-02 22:51:57
+1906288616132313,Nina,Wei,32421,854518728062939,1906288616132313,BOT: message,"Hmm, that wasn't quite right. :disappointed_face:",2018-09-02 22:51:58
+1906288616132313,Nina,Wei,32422,854518728062939,1906288616132313,BOT: quick reply,The correct answer is insects.,2018-09-02 22:51:59
+1906288616132313,Nina,Wei,32423,1906288616132313,854518728062939,user_quick_reply: WHY,Why?,2018-09-02 22:52:02
+1906288616132313,Nina,Wei,32424,854518728062939,1906288616132313,BOT: message,This is why:,2018-09-02 22:52:03
+1906288616132313,Nina,Wei,32425,854518728062939,1906288616132313,BOT: quick reply,"Of all the animal species, it is estimated that well over 90% are invertebrates. Of all invertebrates, the insects are by far the most numerous. There are so many species of insects that scientists have yet to discover them all, let alone name or count them. Estimates of the total number of insect species fall in the range of 1 to 30 million. So, it helps if there are methods to classify not just the insects, but all invertebrates.",2018-09-02 22:52:03
+1906288616132313,Nina,Wei,32426,1906288616132313,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-09-02 22:52:12
+1906288616132313,Nina,Wei,32427,854518728062939,1906288616132313,BOT: message,Would you answer this question for me?,2018-09-02 22:52:13
+1906288616132313,Nina,Wei,32428,854518728062939,1906288616132313,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-09-02 22:52:13
+1906288616132313,Nina,Wei,32429,854518728062939,1906288616132313,BOT: quick reply,"When your brain senses that your body temperature is increasing, it sends messages to the blood vessels in the skin to increase in what?",2018-09-02 22:52:14
+1906288616132313,Nina,Wei,32430,1906288616132313,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-02 22:52:22
+1906288616132313,Nina,Wei,32431,854518728062939,1906288616132313,BOT: message,It's one of the following choices.,2018-09-02 22:52:23
+1906288616132313,Nina,Wei,32432,854518728062939,1906288616132313,BOT: quick reply,":keycap_1: diameter
+:keycap_2: surface
+:keycap_3: height
+:keycap_4: weight
+",2018-09-02 22:52:24
+1906288616132313,Nina,Wei,32433,1906288616132313,854518728062939,user_quick_reply: BUTTON_DKB_weight,:keycap_4:,2018-09-02 22:52:32
+1906288616132313,Nina,Wei,32434,854518728062939,1906288616132313,BOT: message,That's not quite right. :disappointed_face:,2018-09-02 22:52:32
+1906288616132313,Nina,Wei,32435,854518728062939,1906288616132313,BOT: quick reply,The correct answer is diameter.,2018-09-02 22:52:33
+1906288616132313,Nina,Wei,32436,1906288616132313,854518728062939,user_quick_reply: WHY,Why?,2018-09-02 22:52:40
+1906288616132313,Nina,Wei,32437,854518728062939,1906288616132313,BOT: message,Here's why:,2018-09-02 22:52:40
+1906288616132313,Nina,Wei,32438,854518728062939,1906288616132313,BOT: quick reply,"The cardiovascular system also plays a role in maintaining body temperature. It helps to keep you warm by moving warm blood around your body. Your blood vessels also control your body temperature to keep you from getting too hot or too cold. When your brain senses that your body temperature is increasing, it sends messages to the blood vessels in the skin to increase in diameter. Increasing the diameter of the blood vessels increases the amount of blood and heat that moves near the skin's surface. The heat is then released from the skin. This helps you cool down.",2018-09-02 22:52:41
+1906288616132313,Nina,Wei,32439,1906288616132313,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-09-02 22:53:00
+1906288616132313,Nina,Wei,32440,854518728062939,1906288616132313,BOT: message,Here's a question for you:,2018-09-02 22:53:00
+1906288616132313,Nina,Wei,32441,854518728062939,1906288616132313,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-09-02 22:53:01
+1906288616132313,Nina,Wei,32442,854518728062939,1906288616132313,BOT: quick reply,"When your brain senses that your body temperature is increasing, it sends messages to the blood vessels in the skin to increase in what?",2018-09-02 22:53:01
+1906288616132313,Nina,Wei,32443,1906288616132313,854518728062939,user_typing,Diameter,2018-09-02 22:53:20
+1906288616132313,Nina,Wei,32444,854518728062939,1906288616132313,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_normal_orange.png,2018-09-02 22:53:22
+1906288616132313,Nina,Wei,32445,854518728062939,1906288616132313,BOT: message,Good job! :raising_hands_medium-light_skin_tone:,2018-09-02 22:53:23
+1906288616132313,Nina,Wei,32446,854518728062939,1906288616132313,BOT: quick reply,The correct answer is diameter.,2018-09-02 22:53:23
+1906288616132313,Nina,Wei,32447,1906288616132313,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-02 22:53:27
+1906288616132313,Nina,Wei,32448,854518728062939,1906288616132313,BOT: message,I think you'll like this question.,2018-09-02 22:53:28
+1906288616132313,Nina,Wei,32449,854518728062939,1906288616132313,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-09-02 22:53:28
+1906288616132313,Nina,Wei,32450,854518728062939,1906288616132313,BOT: quick reply,What disease characterized by the extreme swelling of the limbs is caused by infection with a type of roundworm?,2018-09-02 22:53:29
+1906288616132313,Nina,Wei,32451,1906288616132313,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-02 22:53:38
+1906288616132313,Nina,Wei,32452,854518728062939,1906288616132313,BOT: message,It's one of the following choices.,2018-09-02 22:53:38
+1906288616132313,Nina,Wei,32453,854518728062939,1906288616132313,BOT: quick reply,":keycap_1: fibrosis
+:keycap_2: pulmonary edema
+:keycap_3: elephantiasis
+:keycap_4: gigantism
+",2018-09-02 22:53:39
+1906288616132313,Nina,Wei,32454,1906288616132313,854518728062939,user_quick_reply: BUTTON_AKB_elephantiasis,:keycap_3:,2018-09-02 22:53:47
+1906288616132313,Nina,Wei,32455,854518728062939,1906288616132313,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_normal_cyan.png,2018-09-02 22:53:49
+1906288616132313,Nina,Wei,32456,854518728062939,1906288616132313,BOT: message,Nice! That was right!,2018-09-02 22:53:49
+1906288616132313,Nina,Wei,32457,854518728062939,1906288616132313,BOT: quick reply,The correct answer is elephantiasis.,2018-09-02 22:53:50
+1906288616132313,Nina,Wei,32458,1906288616132313,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-02 22:53:53
+1906288616132313,Nina,Wei,32459,854518728062939,1906288616132313,BOT: message,See if you can answer this next one.,2018-09-02 22:53:54
+1906288616132313,Nina,Wei,32460,854518728062939,1906288616132313,BOT: quick reply,Most insects reproduce quickly and through what type of reproduction?,2018-09-02 22:53:54
+1906288616132313,Nina,Wei,32461,1906288616132313,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-02 22:54:00
+1906288616132313,Nina,Wei,32462,854518728062939,1906288616132313,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-09-02 22:54:00
+1906288616132313,Nina,Wei,32463,854518728062939,1906288616132313,BOT: quick reply,":keycap_1: photosynthesis
+:keycap_2: spores
+:keycap_3: asexual reproduction
+:keycap_4: sexual reproduction
+",2018-09-02 22:54:01
+1906288616132313,Nina,Wei,32464,1906288616132313,854518728062939,user_quick_reply: BUTTON_AKB_sexual reproduction,:keycap_4:,2018-09-02 22:54:13
+1906288616132313,Nina,Wei,32465,854518728062939,1906288616132313,BOT: message,Nice! That was right!,2018-09-02 22:54:14
+1906288616132313,Nina,Wei,32466,854518728062939,1906288616132313,BOT: quick reply,The correct answer is sexual reproduction.,2018-09-02 22:54:14
+1906288616132313,Nina,Wei,32467,1906288616132313,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-02 22:54:17
+1906288616132313,Nina,Wei,32468,854518728062939,1906288616132313,BOT: message,Let's see if you can answer this question.,2018-09-02 22:54:18
+1906288616132313,Nina,Wei,32469,854518728062939,1906288616132313,BOT: message,Remember that you can always type in you answer and I'll help you to evaluate it :smiling_face_with_smiling_eyes:,2018-09-02 22:54:19
+1906288616132313,Nina,Wei,32470,854518728062939,1906288616132313,BOT: quick reply,Most fungi get organic compounds from what?,2018-09-02 22:54:19
+1906288616132313,Nina,Wei,32471,1906288616132313,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-02 22:54:26
+1906288616132313,Nina,Wei,32472,854518728062939,1906288616132313,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-09-02 22:54:28
+1906288616132313,Nina,Wei,32473,854518728062939,1906288616132313,BOT: quick reply,":keycap_1: inorganic material
+:keycap_2: carnivorous organisms
+:keycap_3: dead organisms
+:keycap_4: living organisms
+",2018-09-02 22:54:28
+1906288616132313,Nina,Wei,32474,1906288616132313,854518728062939,user_quick_reply: BUTTON_AKB_dead organisms,:keycap_3:,2018-09-02 22:54:33
+1906288616132313,Nina,Wei,32475,854518728062939,1906288616132313,BOT: message,Great job!,2018-09-02 22:54:34
+1906288616132313,Nina,Wei,32476,854518728062939,1906288616132313,BOT: quick reply,The correct answer is dead organisms.,2018-09-02 22:54:34
+1906288616132313,Nina,Wei,32477,1906288616132313,854518728062939,user_quick_reply: SWITCH_SUBJECT,Change subject :shuffle_tracks_button:,2018-09-02 22:54:39
+1906288616132313,Nina,Wei,32478,854518728062939,1906288616132313,BOT: quick reply,"Okay, which subject would you like to choose?:backhand_index_pointing_down_medium-light_skin_tone:",2018-09-02 22:54:39
+1906288616132313,Nina,Wei,32479,1906288616132313,854518728062939,user_quick_reply: GRE,GRE :input_latin_uppercase:,2018-09-02 22:54:44
+1906288616132313,Nina,Wei,32480,854518728062939,1906288616132313,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/evolvescientist_reading.gif,2018-09-02 22:54:49
+1906288616132313,Nina,Wei,32481,854518728062939,1906288616132313,BOT: quick reply,Awesome! Let's learn about the GRE!,2018-09-02 22:54:49
+1906288616132313,Nina,Wei,32482,1906288616132313,854518728062939,user_quick_reply: NEXT_QUESTION,Alrighty :flexed_biceps_medium-light_skin_tone:,2018-09-02 22:54:53
+1906288616132313,Nina,Wei,32483,854518728062939,1906288616132313,BOT: message,Let's see if you can get this one.,2018-09-02 22:54:53
+1906288616132313,Nina,Wei,32484,854518728062939,1906288616132313,BOT: quick reply,"Possessing few natural resources upon its newly-granted independence in 1863, Singapore remained economically _____ until an influx of industrialization and foreign investment took hold there.",2018-09-02 22:54:54
+1906288616132313,Nina,Wei,32485,1906288616132313,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-02 22:54:58
+1906288616132313,Nina,Wei,32486,854518728062939,1906288616132313,BOT: message,Which of the following options is the right answer?,2018-09-02 22:54:59
+1906288616132313,Nina,Wei,32487,854518728062939,1906288616132313,BOT: quick reply,":keycap_1: powerful
+:keycap_2: fortuitous
+:keycap_3: prosperous
+:keycap_4: solvent
+:keycap_5: dubious
+",2018-09-02 22:55:00
+1906288616132313,Nina,Wei,32488,1906288616132313,854518728062939,user_quick_reply: BUTTON_DKB_solvent,:keycap_4:,2018-09-02 22:55:05
+1906288616132313,Nina,Wei,32489,854518728062939,1906288616132313,BOT: message,"Hmm, that wasn't quite right. :disappointed_face:",2018-09-02 22:55:06
+1906288616132313,Nina,Wei,32490,854518728062939,1906288616132313,BOT: quick reply,The correct answer is dubious.,2018-09-02 22:55:06
+1906288616132313,Nina,Wei,32491,1906288616132313,854518728062939,user_quick_reply: WHY,Why?,2018-09-02 22:55:10
+1906288616132313,Nina,Wei,32492,854518728062939,1906288616132313,BOT: message,This is an explanation of the question:,2018-09-02 22:55:11
+1906288616132313,Nina,Wei,32493,854518728062939,1906288616132313,BOT: quick reply,":pushpin: Dubious -- fraught with uncertainty or doubt
+:pushpin: Powerful -- having great power or force or potency or effect
+:pushpin: Prosperous -- in fortunate circumstances financially; moderately rich
+:pushpin: Solvent -- capable of meeting financial obligations
+:pushpin: Fortuitous -- having no cause or apparent cause",2018-09-02 22:55:11
+1906288616132313,Nina,Wei,32494,1906288616132313,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-09-02 22:55:17
+1906288616132313,Nina,Wei,32495,854518728062939,1906288616132313,BOT: message,How about this next one:,2018-09-02 22:55:18
+1906288616132313,Nina,Wei,32496,854518728062939,1906288616132313,BOT: quick reply,While she may have answered him truthfully - in the strictest sense of the word - it became clear to Sergei after the incident that Sheryl had actually been trying to _____ .,2018-09-02 22:55:18
+1906288616132313,Nina,Wei,32497,1906288616132313,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-02 22:55:23
+1906288616132313,Nina,Wei,32498,854518728062939,1906288616132313,BOT: message,Pick one of the following answers.,2018-09-02 22:55:23
+1906288616132313,Nina,Wei,32499,854518728062939,1906288616132313,BOT: quick reply,":keycap_1: illuminate
+:keycap_2: covet
+:keycap_3: obfuscate
+:keycap_4: desiccate
+:keycap_5: vituperate
+",2018-09-02 22:55:24
+1906288616132313,Nina,Wei,32500,1906288616132313,854518728062939,user_quick_reply: BUTTON_AKB_obfuscate,:keycap_3:,2018-09-02 22:55:30
+1906288616132313,Nina,Wei,32501,854518728062939,1906288616132313,BOT: message,Great job getting the correct answer!,2018-09-02 22:55:30
+1906288616132313,Nina,Wei,32502,854518728062939,1906288616132313,BOT: quick reply,The correct answer is obfuscate.,2018-09-02 22:55:31
+1906288616132313,Nina,Wei,32503,1906288616132313,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-02 22:55:35
+1906288616132313,Nina,Wei,32504,854518728062939,1906288616132313,BOT: message,How about this next one:,2018-09-02 22:55:36
+1906288616132313,Nina,Wei,32505,854518728062939,1906288616132313,BOT: quick reply,While she may have answered him truthfully - in the strictest sense of the word - it became clear to Sergei after the incident that Sheryl had actually been trying to _____ .,2018-09-02 22:55:36
+1906288616132313,Nina,Wei,32506,1906288616132313,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-02 22:55:42
+1906288616132313,Nina,Wei,32507,854518728062939,1906288616132313,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-09-02 22:55:43
+1906288616132313,Nina,Wei,32508,854518728062939,1906288616132313,BOT: quick reply,":keycap_1: covet
+:keycap_2: desiccate
+:keycap_3: vituperate
+:keycap_4: illuminate
+:keycap_5: obfuscate
+",2018-09-02 22:55:43
+1906288616132313,Nina,Wei,32509,1906288616132313,854518728062939,user_quick_reply: BUTTON_DKB_illuminate,:keycap_4:,2018-09-02 22:55:49
+1906288616132313,Nina,Wei,32510,854518728062939,1906288616132313,BOT: message,"I'm sorry, but that was incorrect. :disappointed_face:",2018-09-02 22:55:50
+1906288616132313,Nina,Wei,32511,854518728062939,1906288616132313,BOT: quick reply,The correct answer is obfuscate.,2018-09-02 22:55:51
+1906288616132313,Nina,Wei,32512,1906288616132313,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-02 22:55:54
+1906288616132313,Nina,Wei,32513,854518728062939,1906288616132313,BOT: message,Let's take a look at this question.,2018-09-02 22:55:54
+1906288616132313,Nina,Wei,32514,854518728062939,1906288616132313,BOT: quick reply,"Even though legislators claimed the Contagious Diseases Acts strengthened the nation, social purists argued the Acts _____ the nation's moral growth by encouraging licentious behavior.",2018-09-02 22:55:55
+1906288616132313,Nina,Wei,32515,1906288616132313,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-02 22:56:05
+1906288616132313,Nina,Wei,32516,854518728062939,1906288616132313,BOT: message,It's one of the following choices.,2018-09-02 22:56:06
+1906288616132313,Nina,Wei,32517,854518728062939,1906288616132313,BOT: quick reply,":keycap_1: supplanted
+:keycap_2: advanced
+:keycap_3: hampered
+:keycap_4: enhanced
+:keycap_5: ameliorated
+",2018-09-02 22:56:07
+1906288616132313,Nina,Wei,32518,1906288616132313,854518728062939,user_quick_reply: BUTTON_AKB_hampered,:keycap_3:,2018-09-02 22:56:17
+1906288616132313,Nina,Wei,32519,854518728062939,1906288616132313,BOT: message,Great job getting the correct answer!,2018-09-02 22:56:17
+1906288616132313,Nina,Wei,32520,854518728062939,1906288616132313,BOT: quick reply,The correct answer is hampered.,2018-09-02 22:56:18
+1906288616132313,Nina,Wei,32521,1906288616132313,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-02 22:56:21
+1906288616132313,Nina,Wei,32522,854518728062939,1906288616132313,BOT: message,Would you answer this question for me?,2018-09-02 22:56:22
+1906288616132313,Nina,Wei,32523,854518728062939,1906288616132313,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-09-02 22:56:23
+1906288616132313,Nina,Wei,32524,854518728062939,1906288616132313,BOT: quick reply,"In psychological literature, the ""sleeper effect"" refers to the phenomenon in which a persuasive message from a trustworthy source loses _____ over time, while the efficacy of a message from a less credible source simultaneously increases.",2018-09-02 22:56:23
+1906288616132313,Nina,Wei,32525,1906288616132313,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-02 22:56:32
+1906288616132313,Nina,Wei,32526,854518728062939,1906288616132313,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-09-02 22:56:33
+1906288616132313,Nina,Wei,32527,854518728062939,1906288616132313,BOT: quick reply,":keycap_1: erudition
+:keycap_2: control
+:keycap_3: prescience
+:keycap_4: evasiveness
+:keycap_5: cogency
+",2018-09-02 22:56:33
+1906288616132313,Nina,Wei,32528,1906288616132313,854518728062939,user_quick_reply: BUTTON_DKB_erudition,:keycap_1:,2018-09-02 22:56:41
+1906288616132313,Nina,Wei,32529,854518728062939,1906288616132313,BOT: message,"Oops, that is not correct. :disappointed_face:",2018-09-02 22:56:42
+1906288616132313,Nina,Wei,32530,854518728062939,1906288616132313,BOT: quick reply,The correct answer is cogency.,2018-09-02 22:56:43
+1906288616132313,Nina,Wei,32531,1906288616132313,854518728062939,user_quick_reply: WHY,Why?,2018-09-02 22:56:46
+1906288616132313,Nina,Wei,32532,854518728062939,1906288616132313,BOT: message,I hope this explanation could help you understand the the question.,2018-09-02 22:56:47
+1906288616132313,Nina,Wei,32533,854518728062939,1906288616132313,BOT: quick reply,":pushpin: Cogency -- persuasive relevance
+:pushpin: Prescience -- the power to foresee the future
+:pushpin: Erudition -- profound scholarly knowledge
+:pushpin: Evasiveness -- intentionally vague or ambiguous
+:pushpin: Control -- exercise authoritative control or power over",2018-09-02 22:56:47
+1906288616132313,Nina,Wei,32534,1906288616132313,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps:,2018-09-02 22:57:11
+1906288616132313,Nina,Wei,32535,854518728062939,1906288616132313,BOT: message,Would you answer this question for me?,2018-09-02 22:57:12
+1906288616132313,Nina,Wei,32536,854518728062939,1906288616132313,BOT: quick reply,"Just as different people can have very different personalities, so too can pets - even those of the same species and breed possess varied _____ .",2018-09-02 22:57:12
+1906288616132313,Nina,Wei,32537,1906288616132313,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-02 22:57:18
+1906288616132313,Nina,Wei,32538,854518728062939,1906288616132313,BOT: message,Pick one of the following answers.,2018-09-02 22:57:19
+1906288616132313,Nina,Wei,32539,854518728062939,1906288616132313,BOT: quick reply,":keycap_1: implementations
+:keycap_2: aptitudes
+:keycap_3: temperaments
+:keycap_4: rationalizations
+:keycap_5: initiations
+",2018-09-02 22:57:20
+1906288616132313,Nina,Wei,32540,1906288616132313,854518728062939,user_quick_reply: BUTTON_AKB_temperaments,:keycap_3:,2018-09-02 22:57:24
+1906288616132313,Nina,Wei,32541,854518728062939,1906288616132313,BOT: message,Yes! You got the correct answer!,2018-09-02 22:57:24
+1906288616132313,Nina,Wei,32542,854518728062939,1906288616132313,BOT: quick reply,The correct answer is temperaments.,2018-09-02 22:57:25
+1906288616132313,Nina,Wei,32543,1906288616132313,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-02 22:57:28
+1906288616132313,Nina,Wei,32544,854518728062939,1906288616132313,BOT: message,Would you answer this question for me?,2018-09-02 22:57:29
+1906288616132313,Nina,Wei,32545,854518728062939,1906288616132313,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-09-02 22:57:29
+1906288616132313,Nina,Wei,32546,854518728062939,1906288616132313,BOT: quick reply,While she may have answered him truthfully - in the strictest sense of the word - it became clear to Sergei after the incident that Sheryl had actually been trying to _____ .,2018-09-02 22:57:30
+1906288616132313,Nina,Wei,32547,1906288616132313,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-02 22:57:36
+1906288616132313,Nina,Wei,32548,854518728062939,1906288616132313,BOT: message,Okay. I'll give you some choices.,2018-09-02 22:57:36
+1906288616132313,Nina,Wei,32549,854518728062939,1906288616132313,BOT: quick reply,":keycap_1: obfuscate
+:keycap_2: desiccate
+:keycap_3: covet
+:keycap_4: vituperate
+:keycap_5: illuminate
+",2018-09-02 22:57:37
+1906288616132313,Nina,Wei,32550,1906288616132313,854518728062939,user_quick_reply: BUTTON_AKB_obfuscate,:keycap_1:,2018-09-02 22:57:42
+1906288616132313,Nina,Wei,32551,854518728062939,1906288616132313,BOT: message,Great job!,2018-09-02 22:57:42
+1906288616132313,Nina,Wei,32552,854518728062939,1906288616132313,BOT: quick reply,The correct answer is obfuscate.,2018-09-02 22:57:43
+1906288616132313,Nina,Wei,32553,1906288616132313,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-02 22:57:47
+1906288616132313,Nina,Wei,32554,854518728062939,1906288616132313,BOT: message,Let's try this question.,2018-09-02 22:57:47
+1906288616132313,Nina,Wei,32555,854518728062939,1906288616132313,BOT: quick reply,"Possessing few natural resources upon its newly-granted independence in 1863, Singapore remained economically _____ until an influx of industrialization and foreign investment took hold there.",2018-09-02 22:57:48
+1906288616132313,Nina,Wei,32556,1906288616132313,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-02 22:57:53
+1906288616132313,Nina,Wei,32557,854518728062939,1906288616132313,BOT: message,Okay. Which of these is the right answer?:backhand_index_pointing_down_medium-light_skin_tone:,2018-09-02 22:57:54
+1906288616132313,Nina,Wei,32558,854518728062939,1906288616132313,BOT: quick reply,":keycap_1: powerful
+:keycap_2: solvent
+:keycap_3: prosperous
+:keycap_4: fortuitous
+:keycap_5: dubious
+",2018-09-02 22:57:55
+1906288616132313,Nina,Wei,32559,1906288616132313,854518728062939,user_quick_reply: BUTTON_AKB_dubious,:keycap_5:,2018-09-02 22:57:58
+1906288616132313,Nina,Wei,32560,854518728062939,1906288616132313,BOT: message,Great! Keep it up! :flexed_biceps_medium-light_skin_tone:,2018-09-02 22:57:59
+1906288616132313,Nina,Wei,32561,854518728062939,1906288616132313,BOT: quick reply,The correct answer is dubious.,2018-09-02 22:57:59
+1906288616132313,Nina,Wei,32562,1906288616132313,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-02 22:58:03
+1906288616132313,Nina,Wei,32563,854518728062939,1906288616132313,BOT: message,Let's try this question.,2018-09-02 22:58:03
+1906288616132313,Nina,Wei,32564,854518728062939,1906288616132313,BOT: quick reply,While she may have answered him truthfully - in the strictest sense of the word - it became clear to Sergei after the incident that Sheryl had actually been trying to _____ .,2018-09-02 22:58:04
+1906288616132313,Nina,Wei,32565,1906288616132313,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-02 22:58:10
+1906288616132313,Nina,Wei,32566,854518728062939,1906288616132313,BOT: message,Okay. I'll give you some choices.,2018-09-02 22:58:10
+1906288616132313,Nina,Wei,32567,854518728062939,1906288616132313,BOT: quick reply,":keycap_1: vituperate
+:keycap_2: covet
+:keycap_3: illuminate
+:keycap_4: desiccate
+:keycap_5: obfuscate
+",2018-09-02 22:58:11
+1906288616132313,Nina,Wei,32568,1906288616132313,854518728062939,user_quick_reply: BUTTON_AKB_obfuscate,:keycap_5:,2018-09-02 22:58:15
+1906288616132313,Nina,Wei,32569,854518728062939,1906288616132313,BOT: message,Nice work! Keep it up!,2018-09-02 22:58:16
+1906288616132313,Nina,Wei,32570,854518728062939,1906288616132313,BOT: quick reply,The correct answer is obfuscate.,2018-09-02 22:58:17
+1906288616132313,Nina,Wei,32571,1906288616132313,854518728062939,user_quick_reply: SWITCH_SUBJECT,Change subject :shuffle_tracks_button:,2018-09-02 22:58:20
+1906288616132313,Nina,Wei,32572,854518728062939,1906288616132313,BOT: quick reply,"Cool, which subject would you like to study?:backhand_index_pointing_down_medium-light_skin_tone:",2018-09-02 22:58:21
+1906288616132313,Nina,Wei,32573,1906288616132313,854518728062939,user_quick_reply: SAFETY,Safety:hammer_and_wrench:,2018-09-02 22:58:24
+1906288616132313,Nina,Wei,32574,854518728062939,1906288616132313,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/evolvereading_safety.gif,2018-09-02 22:58:30
+1906288616132313,Nina,Wei,32575,854518728062939,1906288616132313,BOT: quick reply,Let's test your knowledge on safety!,2018-09-02 22:58:30
+1906288616132313,Nina,Wei,32576,854518728062939,1906288616132313,BOT: message,Let's see if you can get this one.,2018-09-02 22:58:34
+1906288616132313,Nina,Wei,32577,854518728062939,1906288616132313,BOT: quick reply,"What agency inspects, grades, and enforces standards of quality and wholesomeness for meat, poultry, milk, eggs, and grains?",2018-09-02 22:58:34
+1906288616132313,Nina,Wei,32578,1906288616132313,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-02 22:58:40
+1906288616132313,Nina,Wei,32579,854518728062939,1906288616132313,BOT: message,It's one of the following choices.,2018-09-02 22:58:41
+1906288616132313,Nina,Wei,32580,854518728062939,1906288616132313,BOT: quick reply,":keycap_1: CDC
+:keycap_2: FDA
+:keycap_3: USDA
+:keycap_4: EPA
+",2018-09-02 22:58:41
+1906288616132313,Nina,Wei,32581,1906288616132313,854518728062939,user_quick_reply: BUTTON_AKB_USDA,:keycap_3:,2018-09-02 22:58:45
+1906288616132313,Nina,Wei,32582,854518728062939,1906288616132313,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/celebration.gif,2018-09-02 22:58:52
+1906288616132313,Nina,Wei,32583,854518728062939,1906288616132313,BOT: message,Great job getting the correct answer!,2018-09-02 22:58:53
+1906288616132313,Nina,Wei,32584,854518728062939,1906288616132313,BOT: quick reply,The correct answer is USDA.,2018-09-02 22:58:53
+1906288616132313,Nina,Wei,32585,1906288616132313,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-02 22:58:57
+1906288616132313,Nina,Wei,32586,854518728062939,1906288616132313,BOT: message,Here's a question for you:,2018-09-02 22:58:57
+1906288616132313,Nina,Wei,32587,854518728062939,1906288616132313,BOT: message,"If you know the answer, you can type it in and I'll help you to evaluate the answer :smiling_face_with_smiling_eyes:",2018-09-02 22:58:58
+1906288616132313,Nina,Wei,32588,854518728062939,1906288616132313,BOT: quick reply,What should you NOT do while treating cuts and scrapes?,2018-09-02 22:58:59
+1906288616132313,Nina,Wei,32589,1906288616132313,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-02 22:59:05
+1906288616132313,Nina,Wei,32590,854518728062939,1906288616132313,BOT: message,Okay. I'll give you some choices.,2018-09-02 22:59:06
+1906288616132313,Nina,Wei,32591,854518728062939,1906288616132313,BOT: quick reply,":keycap_1: Apply pressure on the wound with a clean cloth or bandage
+:keycap_2: Wash the wound with soap
+:keycap_3: Cover the wound
+:keycap_4: Apply an antibiotic to the wound
+",2018-09-02 22:59:07
+1906288616132313,Nina,Wei,32592,1906288616132313,854518728062939,user_quick_reply: BUTTON_AKB_Wash the wound with soap,:keycap_2:,2018-09-02 22:59:16
+1906288616132313,Nina,Wei,32593,854518728062939,1906288616132313,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_happy_purple.png,2018-09-02 22:59:18
+1906288616132313,Nina,Wei,32594,854518728062939,1906288616132313,BOT: message,Great! Keep it up! :flexed_biceps_medium-light_skin_tone:,2018-09-02 22:59:18
+1906288616132313,Nina,Wei,32595,854518728062939,1906288616132313,BOT: quick reply,The correct answer is Wash the wound with soap.,2018-09-02 22:59:19
+1906288616132313,Nina,Wei,32596,1906288616132313,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-02 22:59:22
+1906288616132313,Nina,Wei,32597,854518728062939,1906288616132313,BOT: message,I think you'll like this question.,2018-09-02 22:59:22
+1906288616132313,Nina,Wei,32598,854518728062939,1906288616132313,BOT: quick reply,What should you NOT do while lifting objects?,2018-09-02 22:59:23
+1906288616132313,Nina,Wei,32599,1906288616132313,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-02 22:59:27
+1906288616132313,Nina,Wei,32600,854518728062939,1906288616132313,BOT: message,It's one of the following choices.,2018-09-02 22:59:27
+1906288616132313,Nina,Wei,32601,854518728062939,1906288616132313,BOT: quick reply,":keycap_1: Bend at the knees
+:keycap_2: Keep your feet together
+:keycap_3: Keep your back straight
+:keycap_4: Keep the object close to your body
+",2018-09-02 22:59:28
+1906288616132313,Nina,Wei,32602,1906288616132313,854518728062939,user_quick_reply: BUTTON_AKB_Keep your feet together,:keycap_2:,2018-09-02 22:59:40
+1906288616132313,Nina,Wei,32603,854518728062939,1906288616132313,BOT: message,Nice work! Keep it up!,2018-09-02 22:59:40
+1906288616132313,Nina,Wei,32604,854518728062939,1906288616132313,BOT: quick reply,The correct answer is Keep your feet together.,2018-09-02 22:59:41
+1906288616132313,Nina,Wei,32605,1906288616132313,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-02 22:59:45
+1906288616132313,Nina,Wei,32606,854518728062939,1906288616132313,BOT: message,Let's try this one.,2018-09-02 22:59:45
+1906288616132313,Nina,Wei,32607,854518728062939,1906288616132313,BOT: message,Please type your answer in if you know it :smiling_face_with_smiling_eyes:,2018-09-02 22:59:46
+1906288616132313,Nina,Wei,32608,854518728062939,1906288616132313,BOT: quick reply,What should you NOT do while lifting objects?,2018-09-02 22:59:46
+1906288616132313,Nina,Wei,32609,1906288616132313,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-02 22:59:51
+1906288616132313,Nina,Wei,32610,854518728062939,1906288616132313,BOT: message,It's one of the following choices.,2018-09-02 22:59:52
+1906288616132313,Nina,Wei,32611,854518728062939,1906288616132313,BOT: quick reply,":keycap_1: Bend at the knees
+:keycap_2: Keep your back straight
+:keycap_3: Keep your feet together
+:keycap_4: Keep the object close to your body
+",2018-09-02 22:59:52
+1906288616132313,Nina,Wei,32612,1906288616132313,854518728062939,user_quick_reply: BUTTON_AKB_Keep your feet together,:keycap_3:,2018-09-02 22:59:57
+1906288616132313,Nina,Wei,32613,854518728062939,1906288616132313,BOT: message,Nice work! Keep it up!,2018-09-02 22:59:58
+1906288616132313,Nina,Wei,32614,854518728062939,1906288616132313,BOT: quick reply,The correct answer is Keep your feet together.,2018-09-02 22:59:58
+1906288616132313,Nina,Wei,32615,1906288616132313,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-02 23:00:02
+1906288616132313,Nina,Wei,32616,854518728062939,1906288616132313,BOT: message,Could you answer this one for me?,2018-09-02 23:00:03
+1906288616132313,Nina,Wei,32617,854518728062939,1906288616132313,BOT: quick reply,Which fire extinguishers are used to put out Class A fires?,2018-09-02 23:00:03
+1906288616132313,Nina,Wei,32618,1906288616132313,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-02 23:00:07
+1906288616132313,Nina,Wei,32619,854518728062939,1906288616132313,BOT: message,Okay. I'll give you some choices.,2018-09-02 23:00:08
+1906288616132313,Nina,Wei,32620,854518728062939,1906288616132313,BOT: quick reply,":keycap_1: Multi-purpose dry chemical only
+:keycap_2: CO2 only
+:keycap_3: Water only
+:keycap_4: Both water and multi-purpose dry chemical
+:keycap_5: Both CO2 and water
+",2018-09-02 23:00:08
+1906288616132313,Nina,Wei,32621,1906288616132313,854518728062939,user_quick_reply: BUTTON_DKB_Multi-purpose dry chemical only,:keycap_1:,2018-09-02 23:00:14
+1906288616132313,Nina,Wei,32622,854518728062939,1906288616132313,BOT: message,"Hmm, that wasn't quite right. :disappointed_face:",2018-09-02 23:00:15
+1906288616132313,Nina,Wei,32623,854518728062939,1906288616132313,BOT: quick reply,The correct answer is Both water and multi-purpose dry chemical.,2018-09-02 23:00:15
+1906288616132313,Nina,Wei,32624,1906288616132313,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-02 23:00:23
+1906288616132313,Nina,Wei,32625,854518728062939,1906288616132313,BOT: message,See if you can answer this next one.,2018-09-02 23:00:24
+1906288616132313,Nina,Wei,32626,854518728062939,1906288616132313,BOT: quick reply,"What agency inspects, grades, and enforces standards of quality and wholesomeness for meat, poultry, milk, eggs, and grains?",2018-09-02 23:00:25
+1906288616132313,Nina,Wei,32627,1906288616132313,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-02 23:00:31
+1906288616132313,Nina,Wei,32628,854518728062939,1906288616132313,BOT: message,Okay. I'll give you some choices.,2018-09-02 23:00:31
+1906288616132313,Nina,Wei,32629,854518728062939,1906288616132313,BOT: quick reply,":keycap_1: USDA
+:keycap_2: FDA
+:keycap_3: CDC
+:keycap_4: EPA
+",2018-09-02 23:00:32
+1906288616132313,Nina,Wei,32630,1906288616132313,854518728062939,user_quick_reply: BUTTON_AKB_USDA,:keycap_1:,2018-09-02 23:00:38
+1906288616132313,Nina,Wei,32631,854518728062939,1906288616132313,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_happy_cyan.png,2018-09-02 23:00:40
+1906288616132313,Nina,Wei,32632,854518728062939,1906288616132313,BOT: message,Nice! That was right!,2018-09-02 23:00:40
+1906288616132313,Nina,Wei,32633,854518728062939,1906288616132313,BOT: quick reply,The correct answer is USDA.,2018-09-02 23:00:41
+1906288616132313,Nina,Wei,32634,1906288616132313,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-02 23:01:08
+1906288616132313,Nina,Wei,32635,854518728062939,1906288616132313,BOT: message,Here's a question for you:,2018-09-02 23:01:09
+1906288616132313,Nina,Wei,32636,854518728062939,1906288616132313,BOT: quick reply,How long can high-acid canned food such as tomatoes be stored?,2018-09-02 23:01:09
+1906288616132313,Nina,Wei,32637,1906288616132313,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-02 23:01:14
+1906288616132313,Nina,Wei,32638,854518728062939,1906288616132313,BOT: message,Okay. I'll give you some choices.,2018-09-02 23:01:14
+1906288616132313,Nina,Wei,32639,854518728062939,1906288616132313,BOT: quick reply,":keycap_1: 12 to 18 months
+:keycap_2: 10 to 30 days
+:keycap_3: 2 to 4 years
+:keycap_4: 2 to 6 months
+",2018-09-02 23:01:15
+1906288616132313,Nina,Wei,32640,1906288616132313,854518728062939,user_quick_reply: BUTTON_AKB_12 to 18 months,:keycap_1:,2018-09-02 23:01:19
+1906288616132313,Nina,Wei,32641,854518728062939,1906288616132313,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_normal_orange.png,2018-09-02 23:01:21
+1906288616132313,Nina,Wei,32642,854518728062939,1906288616132313,BOT: message,Nice work! Keep it up!,2018-09-02 23:01:21
+1906288616132313,Nina,Wei,32643,854518728062939,1906288616132313,BOT: quick reply,The correct answer is 12 to 18 months.,2018-09-02 23:01:22
+1906288616132313,Nina,Wei,32644,1906288616132313,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-02 23:01:25
+1906288616132313,Nina,Wei,32645,854518728062939,1906288616132313,BOT: message,Here's a question for you:,2018-09-02 23:01:26
+1906288616132313,Nina,Wei,32646,854518728062939,1906288616132313,BOT: quick reply,"What agency inspects, grades, and enforces standards of quality and wholesomeness for meat, poultry, milk, eggs, and grains?",2018-09-02 23:01:26
+1906288616132313,Nina,Wei,32647,1906288616132313,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-02 23:01:31
+1906288616132313,Nina,Wei,32648,854518728062939,1906288616132313,BOT: message,It's one of the following choices.,2018-09-02 23:01:31
+1906288616132313,Nina,Wei,32649,854518728062939,1906288616132313,BOT: quick reply,":keycap_1: USDA
+:keycap_2: EPA
+:keycap_3: CDC
+:keycap_4: FDA
+",2018-09-02 23:01:32
+1906288616132313,Nina,Wei,32650,1906288616132313,854518728062939,user_quick_reply: BUTTON_AKB_USDA,:keycap_1:,2018-09-02 23:01:36
+1906288616132313,Nina,Wei,32651,854518728062939,1906288616132313,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_jubilated_purple.png,2018-09-02 23:01:38
+1906288616132313,Nina,Wei,32652,854518728062939,1906288616132313,BOT: message,Nice! That was right!,2018-09-02 23:01:38
+1906288616132313,Nina,Wei,32653,854518728062939,1906288616132313,BOT: quick reply,The correct answer is USDA.,2018-09-02 23:01:39
+1906288616132313,Nina,Wei,32654,1906288616132313,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-02 23:01:42
+1906288616132313,Nina,Wei,32655,854518728062939,1906288616132313,BOT: message,Let's see if you can answer this question.,2018-09-02 23:01:42
+1906288616132313,Nina,Wei,32656,854518728062939,1906288616132313,BOT: quick reply,True or false: portable fire extinguishers should only be used by trained employees.,2018-09-02 23:01:43
+1906288616132313,Nina,Wei,32657,1906288616132313,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-02 23:01:47
+1906288616132313,Nina,Wei,32658,854518728062939,1906288616132313,BOT: message,It's one of the following choices.,2018-09-02 23:01:48
+1906288616132313,Nina,Wei,32659,854518728062939,1906288616132313,BOT: quick reply,":keycap_1: False
+:keycap_2: True
+",2018-09-02 23:01:48
+1906288616132313,Nina,Wei,32660,1906288616132313,854518728062939,user_quick_reply: BUTTON_AKB_True,:keycap_2:,2018-09-02 23:01:52
+1906288616132313,Nina,Wei,32661,854518728062939,1906288616132313,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_normal_cyan.png,2018-09-02 23:01:54
+1906288616132313,Nina,Wei,32662,854518728062939,1906288616132313,BOT: message,Great job getting the correct answer!,2018-09-02 23:01:54
+1906288616132313,Nina,Wei,32663,854518728062939,1906288616132313,BOT: quick reply,The correct answer is True.,2018-09-02 23:01:55
+1906288616132313,Nina,Wei,32664,1906288616132313,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-02 23:01:58
+1906288616132313,Nina,Wei,32665,854518728062939,1906288616132313,BOT: message,How about this next one:,2018-09-02 23:01:59
+1906288616132313,Nina,Wei,32666,854518728062939,1906288616132313,BOT: quick reply,Working on scaffold during winds above ____ miles per hour is prohibited by OSHA.,2018-09-02 23:01:59
+1906288616132313,Nina,Wei,32667,1906288616132313,854518728062939,user_typing,40,2018-09-02 23:02:08
+1906288616132313,Nina,Wei,32668,854518728062939,1906288616132313,BOT: image,https://www.smartprimer.org:8443/pictures/avatar/congrats/penguinnormal_normal_orange.png,2018-09-02 23:02:10
+1906288616132313,Nina,Wei,32669,854518728062939,1906288616132313,BOT: message,Fantastic! :hundred_points:,2018-09-02 23:02:10
+1906288616132313,Nina,Wei,32670,854518728062939,1906288616132313,BOT: quick reply,The correct answer is 40.,2018-09-02 23:02:11
+1906288616132313,Nina,Wei,32671,1906288616132313,854518728062939,user_quick_reply: NEXT_QUESTION,Next question :flexed_biceps_medium-light_skin_tone:,2018-09-02 23:02:43
+1906288616132313,Nina,Wei,32672,854518728062939,1906288616132313,BOT: message,Let's try this one.,2018-09-02 23:02:43
+1906288616132313,Nina,Wei,32673,854518728062939,1906288616132313,BOT: quick reply,What should you NOT do while treating cuts and scrapes?,2018-09-02 23:02:44
+1906288616132313,Nina,Wei,32674,1906288616132313,854518728062939,user_quick_reply: NEED_HINT,I need a hint :thinking_face:,2018-09-02 23:02:48
+1906288616132313,Nina,Wei,32675,854518728062939,1906288616132313,BOT: message,"Alrighty, which of the following options is the answer of the question?",2018-09-02 23:02:49
+1906288616132313,Nina,Wei,32676,854518728062939,1906288616132313,BOT: quick reply,":keycap_1: Apply an antibiotic to the wound
+:keycap_2: Wash the wound with soap
+:keycap_3: Cover the wound
+:keycap_4: Apply pressure on the wound with a clean cloth or bandage
+",2018-09-02 23:02:49
+1906288616132313,Nina,Wei,32677,1906288616132313,854518728062939,user_quick_reply: BUTTON_AKB_Wash the wound with soap,:keycap_2:,2018-09-02 23:02:59
+1906288616132313,Nina,Wei,32678,854518728062939,1906288616132313,BOT: message,Nice work! Keep it up!,2018-09-02 23:03:00
+1906288616132313,Nina,Wei,32679,854518728062939,1906288616132313,BOT: quick reply,The correct answer is Wash the wound with soap.,2018-09-02 23:03:00

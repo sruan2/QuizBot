@@ -21,6 +21,8 @@ from question_sequencing.random_model import RandomSequencingModel
 from question_sequencing.leitner_model import LeitnerSequencingModel
 from question_sequencing.SM2_model import SM2SequencingModel
 from question_sequencing.dash_model import DASHSequencingModel
+from question_sequencing.sequential_model import SequentialModel
+from question_sequencing.sequential_model_devbot import SequentialModelDevBot
 from QAKnowledgebase import QAKnowlegeBase
 
 class QAModel(object):
@@ -39,9 +41,12 @@ class QAModel(object):
             self.sequencing_model = LeitnerSequencingModel(qa_kb)
         elif sequencing_model == 'sm2':
             self.sequencing_model = SM2SequencingModel(qa_kb)
+        elif sequencing_model == 'sequential':
+            self.sequencing_model = SequentialModel(qa_kb)
+        elif sequencing_model == 'devbot':
+            self.sequencing_model = SequentialModelDevBot(qa_kb)
         else:
             self.sequencing_model = RandomSequencingModel(qa_kb)
-
 
     def pickQuestion(self, user_id, subject):
         '''Pick the next question based on the sequencing_model defined'''
@@ -50,11 +55,11 @@ class QAModel(object):
         QID = data['qid']
         return picked_question, QID
 
-    def updateHistory(self, user_id, user_data):
-        self.sequencing_model.updateHistory(user_id, user_data)
+    def updateHistory(self, user_id, user_data, effective_qids):
+        self.sequencing_model.updateHistory(user_id, user_data, effective_qids)
 
-    def loadUserData(self, sender_id, user_history_data):
-        self.sequencing_model.loadUserData(sender_id, user_history_data)
+    def loadUserData(self, sender_id, user_history_data, effective_qids):
+        self.sequencing_model.loadUserData(sender_id, user_history_data, effective_qids)
 
     def getAnswer(self, QID):
         try:
@@ -92,14 +97,14 @@ class SupervisedSIFModeL(QAModel):
         # fit the embedding and load the glove model
         glove_file = 'similarity_model/data_files/mittens_model.pkl'
         json_file = 'QAdataset/questions_filtered_150_quizbot.json'
-        
+
         self.emb = supervised_model.fit_model(glove_file, json_file)
 
     def computeScore(self, user_answer, QID):
         user_answer = [user_answer.lower()]
         picked_answer = [super(SupervisedSIFModeL, self).getAnswer(QID)]
-        
-        # returns a score from 1 to 5 
+
+        # returns a score from 1 to 5
         with self.graph.as_default():
             similarity = supervised_model.evaluate_model(self.model, self.emb, user_answer, picked_answer)
 

@@ -192,8 +192,8 @@ def respond_to_payload(payload, sender_id, qa_model, chatbot_text, template_conv
     elif payload[:10] == "BUTTON_DKB":  # user selects the wrong choice from the hint
         db.update_user_history(
             mysql, sender_id, 0, "multiple-choice", cache[sender_id]['begin_uid'], uid)
-        qa_model.updateHistory(
-            sender_id, (cache[sender_id]['current_qid'][0], 0, db.show_timestamp(mysql, uid)))
+        #qa_model.updateHistory(
+        #    sender_id, (cache[sender_id]['current_qid'][0], 0, db.show_timestamp(mysql, uid)))
         send_paragraph(
             mysql, sender_id, payload[:10], chatbot_text, template_conversation, "paragraph_1")
         send_correct_answer(mysql, sender_id, payload[:10],
@@ -202,8 +202,8 @@ def respond_to_payload(payload, sender_id, qa_model, chatbot_text, template_conv
     elif payload[:10] == "BUTTON_AKB":  # user selects the correct choice from the hint
         db.update_user_history(
             mysql, sender_id, 10, "multiple-choice", cache[sender_id]['begin_uid'], uid)
-        qa_model.updateHistory(
-            sender_id, (cache[sender_id]['current_qid'][0], 10, db.show_timestamp(mysql, uid)))
+        #qa_model.updateHistory(
+        #    sender_id, (cache[sender_id]['current_qid'][0], 10, db.show_timestamp(mysql, uid)))
         send_congratulation_image(mysql, sender_id, template_conversation)
         send_paragraph(
             mysql, sender_id, payload[:10], chatbot_text, template_conversation, "paragraph_1")
@@ -305,8 +305,8 @@ def respond_to_messagetext(message_text, sender_id, qa_model, chatbot_text, temp
         score = qa_model.computeScore(message_text, qid[0])
         db.update_user_history(
             mysql, sender_id, score, "fill_in_the_blank", cache[sender_id]['begin_uid'], uid)
-        qa_model.updateHistory(
-            sender_id, (qid[0], score, db.show_timestamp(mysql, uid)))
+        #qa_model.updateHistory(
+        #    sender_id, (qid[0], score, db.show_timestamp(mysql, uid)))
         if score < 9:
             send_paragraph(mysql, sender_id, "MESSAGE_TEXT",
                            chatbot_text, template_conversation, "paragraph_1")

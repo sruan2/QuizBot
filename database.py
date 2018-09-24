@@ -159,7 +159,7 @@ def show_users_newly_added(mysql):
     cur.execute("SELECT user_id, user_firstname, reg_time FROM user;")
 
     rows = cur.fetchall()
-    return [row[:2] for row in rows if (datetime.strptime(row[2], date_format_time) - datetime.strptime("2018-08-26 00:00:00", date_format_time)).days > 0]
+    return [row[:2] for row in rows if (datetime.strptime(row[2], date_format_time) - datetime.strptime("2018-09-06 00:00:00", date_format_time)).days > 0]
 
 
 def show_current_qid(mysql, user_id):
@@ -175,7 +175,7 @@ def show_current_qid(mysql, user_id):
 
 def show_user_history(mysql, user_id):
     '''
-        This function returns the user history record used for the question sequencing model 
+        This function returns the user history record used for the question sequencing model
         initialization in the [user_history] table of <QUIZBOT> database.
     '''
     cur = mysql.connection.cursor()
@@ -227,8 +227,8 @@ def insert_user_action_flashcard(mysql, user_id, qid, user_action):
             cur.execute("INSERT INTO action (user_id, qid, event, r_time) VALUES (%s, %s, %s, %s)",
                         (user_id, qid, user_action, time))
             con.commit()
-            pretty_print(
-                "FLASHCARD User action record successfully added", mode="FC Database")
+            #pretty_print(
+            #    "FLASHCARD User action record successfully added", mode="FC Database")
         except:
             con.rollback()
             pretty_print(
@@ -250,11 +250,15 @@ def show_user_history_flashcard(mysql, user_id):
         This function returns all users in the [user] table of <FLASHCARD> database.
     '''
     cur = mysql.connection.cursor()
-    cur.execute('SELECT qid, event, r_time FROM (users RIGHT JOIN action ON users.user_id = action.user_id) WHERE users.user_id = %s AND action.event = "got it" OR action.event = "I don\'t know";', [user_id])
+    cur.execute('SELECT qid, event, r_time FROM (users RIGHT JOIN action ON users.user_id = action.user_id) WHERE users.user_id = %s AND (\
+        action.event = "got it" OR action.event = "I don\'t know" OR action.event = "change to random" OR action.event = "change to safety" \
+        OR action.event = "change to science" OR action.event = "change to gre");', [user_id])
     rows = cur.fetchall()
     result = []
     for r in rows:
-        if r[1] == "I don't know":
+        if int(r[0]) == -1:
+            pass
+        elif r[1] == "got it":
             result.append((r[0], 0, r[2]))
         else:
             result.append((r[0], 1, r[2]))

@@ -1,5 +1,5 @@
 '''
-    flashcard_time.py
+    flashcard_user_data.py
     Author: Liwei Jiang
     Date: 02/08/2018
     Usage: Calculate the usage time of the QuizBot app for a user.
@@ -24,6 +24,8 @@ users = ["Yinuo_Yao", "Dee Dee_Thao", "Jenn_Hu", "jingyi_li", "Joy_Yuzuriha", "T
          "Nathan_Dalal", "Sorathan_Chaturapruek", "Daniel_Choe", "Owen_Wang", "Richard_Xu", \
          "Yang_Wang", "Hongsheng_Fang", "Michael_Solorio", "Nina_Wei", "Jessica_de la Paz", \
          "Janice_Zang", "Grace_Hong"]
+
+users.extend(["Yufeng_Yin", "Jorge_Nam"])
 
 if len(sys.argv) == 3:
     users = [sys.argv[1] + "_" + sys.argv[2]]
