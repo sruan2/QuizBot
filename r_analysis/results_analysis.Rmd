@@ -7,22 +7,29 @@ output: html_notebook
 library("ggplot2")
 library(lsr)
 library(pwr)
+library(ggplot2)
+theme_set(theme_bw()) 
 ```
 
 ```{r}
 # Unpaired t-test:
 # http://www.sthda.com/english/wiki/unpaired-two-samples-t-test-in-r
 
-# Pilot Study: 30 + 20
+# Pilot Study: 30 + 20 time
 
-flashcard_time = c(33.86, 41.84, 19.31, 35.31, 30.11)
-quizbot_time = c(59.8, 78.62, 49.23, 45.81)
-time_data <- data.frame(group = rep(c("flashcard", "quizbot"), c(5,4)), 
+flashcard_time = c(33.86, 41.84, 19.31, 35.31, 30.11, 23.66, 9.85)
+quizbot_time = c(59.8, 78.62, 49.23, 45.81, 41.11, 31.89, 25.77)
+time_data_30_20 <- data.frame(group = rep(c("flashcard", "quizbot"), c(7,7)), 
                         total_time = c(flashcard_time,  quizbot_time))
 
-print(time_data)
+g <- ggplot(time_data_30_20, aes(group, total_time, fill=group))
+g + geom_boxplot(varwidth=T) + scale_fill_brewer(palette="Set3") +
+    labs(title="Pilot Study 1: Usage Time", 
+         x="",
+         y="minutes") + guides(fill=guide_legend(title="App")) + theme(plot.title = element_text(size=25), axis.text=element_text(size=25), axis.title=element_text(size=25))
 
-boxplot(total_time ~ group, data = time_data, col = c("lightblue", "lightyellow"), main='Total usage time over 7 days', ylab='minutes')
+
+#boxplot(total_time ~ group, data = time_data, col = c("lightblue", "lightyellow"), main='Total usage time over 7 days (batch 1, n=7+7)', ylab='minutes')
 
 mean(quizbot_time)
 sd(quizbot_time)
@@ -69,14 +76,21 @@ pwr.t.test(d = 0.311, sig.level = 0.05, power = 0.8, type = "two.sample")
 # Unpaired t-test:
 # http://www.sthda.com/english/wiki/unpaired-two-samples-t-test-in-r
 
-# Pilot Study: 30 + 20
+# Pilot Study: 30 + 20 score
 
-flashcard_score = c(15, 23, 12, 19, 7)
-quizbot_score = c(5, 5, 8, 8)
-score_data <- data.frame(group = rep(c("flashcard", "quizbot"), c(5,4)), 
+flashcard_score = c(55.6, 64.3, 27.0, 44.4, 17.6, 44.4)
+quizbot_score = c(17.9, 0, 9.7, 7.1, 75.0, 35.5)
+score_data <- data.frame(group = rep(c("flashcard", "quizbot"), c(6,6)), 
                         score = c(flashcard_score,  quizbot_score))
+boxplot(score ~ group, data = score_data, col = c("lightblue", "lightyellow"), main='MC correct rate % improve over 7 days', ylab='%')
 
-boxplot(score ~ group, data = score_data, col = c("lightblue", "lightyellow"), main='Score improvement time over 7 days', ylab='minutes')
+# correct / seen
+flashcard_score = c(56.0, 85.7, 95.0, 96.1, 81.5, 33.3)
+quizbot_score = c(80.8, 88.5, 89.5, 62.5, 92.9, 93.8)
+score_data <- data.frame(group = rep(c("flashcard", "quizbot"), c(6,6)), 
+                        score = c(flashcard_score,  quizbot_score))
+boxplot(score ~ group, data = score_data, col = c("lightblue", "lightyellow"), main='Of questions seen, % correctly answered in post MC quiz (batch 1, n=12)', ylab='%')
+
 
 mean(quizbot_score)
 sd(quizbot_score)
@@ -116,22 +130,160 @@ pwr.t.test(d = 0.311, sig.level = 0.05, power = 0.8, type = "two.sample")
 ```
 
 ```{r}
-# Pilot Study: 40 + 10
+# Pilot Study: 40 + 10 usage time
 
-flashcard_time = c(35.85, 13.15, 30.64)
-quizbot_time = c(24.26, 18.58, 63.77, 57.35)
-time_data <- data.frame(group = rep(c("flashcard", "quizbot"), c(3,4)), 
+flashcard_time = c(35.85, 13.15, 30.64, 16.1, 23, 5.3)
+quizbot_time = c(24.26, 18.58, 63.77, 57.35, 36.09, 70.39)
+time_data <- data.frame(group = rep(c("flashcard", "quizbot"), c(6,6)), 
                         total_time = c(flashcard_time,  quizbot_time))
+
+g <- ggplot(time_data, aes(group, total_time, fill=group))
+g + geom_boxplot(varwidth=T) + scale_fill_brewer(palette="Set3") +
+    labs(title="Pilot Study 2: Usage Time", 
+         x="",
+         y="minutes") + guides(fill=guide_legend(title="App")) + theme(plot.title = element_text(size=25), axis.text=element_text(size=25), axis.title=element_text(size=25)) + ylim(10,80)
 
 print(time_data)
 
-boxplot(total_time ~ group, data = time_data, col = c("lightblue", "lightyellow"), main='Total usage time over 7 days', ylab='minutes')
+boxplot(total_time ~ group, data = time_data, col = c("lightblue", "lightyellow"), main='Total usage time over 7 days (n=10) (batch 2)', ylab='minutes')
 
 mean(quizbot_time)
 sd(quizbot_time)
 mean(flashcard_time)
 sd(flashcard_time)
 
+# Assumtion 2: Are the data from each of the 2 groups follow a normal distribution?
+hist(flashcard_time, main = "Histogram of flashcard app usage time")
+hist(quizbot_time, main = "Histogram of quizbot app usage time")
+# Shapiro-Wilk normality test for normality assumption
+with(time_data, shapiro.test(total_time[group == "flashcard"]))# p = 0.71
+with(time_data, shapiro.test(total_time[group == "quizbot"]))# p = 0.47
+
+# Assumption 3. Do the two populations have the same variances?
+res.ftest <- var.test(total_time ~ group, data = time_data)
+print(res.ftest) # p = 0.23, there is no significant difference between the variances of the two sets of data
+
 
 t.test(flashcard_time, quizbot_time, paired=FALSE, var.equal = TRUE, alternative='two.sided')
+```
+
+```{r}
+# Pilot Study: 40 + 10 score
+# percent improvement
+flashcard_score = c(22.2, -42.3, 0.0, 40.9, 29.2)
+quizbot_score = c(-19.0, 20.0, 29.6, 0.0, 32.1)
+# absolute improvement
+flashcard_score = c(8, -11, 0, 9, 7)
+quizbot_score = c(-4, 5, 8, 0, 9)
+score_data <- data.frame(group = rep(c("flashcard", "quizbot"), c(5,5)), 
+                        score = c(flashcard_score,  quizbot_score))
+boxplot(score ~ group, data = score_data, col = c("lightblue", "lightyellow"), main='MC score improvement over 7 days (batch 2) (n=10)', ylab='%')
+
+mean(flashcard_score)
+sd(flashcard_score)
+mean(quizbot_score)
+sd(quizbot_score)
+
+error <- qnorm(0.975)*sd(flashcard_score)/sqrt(5)
+mean(flashcard_score) - error
+mean(flashcard_score) + error
+
+error <- qnorm(0.975)*sd(quizbot_score)/sqrt(5)
+mean(quizbot_score) - error
+mean(quizbot_score) + error
+
+
+
+flashcard_mc_over_seen = c(68.8, 18.8, 48.6, 42.9, 52.4)
+quizbot_mc_over_seen = c(66.7, 80.0, 85.0, 40.0, 85.0)
+score_data <- data.frame(group = rep(c("flashcard", "quizbot"), c(5,5)), 
+                        score = c(flashcard_mc_over_seen,  quizbot_mc_over_seen))
+boxplot(score ~ group, data = score_data, col = c("lightblue", "lightyellow"), main='Of questions seen, % correctly answered in post MC quiz (batch 2, n=10)', ylab='%')
+
+
+flashcard_recall = c(38, 8, 21, 19, 15)
+quizbot_recall = c(6, 17, 24, 3, 18)
+score_data <- data.frame(group = rep(c("flashcard", "quizbot"), c(5,5)), 
+                        score = c(flashcard_recall,  quizbot_recall))
+boxplot(score ~ group, data = score_data, col = c("lightblue", "lightyellow"), main='Number of questions recalled (out of 54) (batch 2, n=10)', ylab='number of questions')
+```
+
+```{r}
+# Pilot Study: 40 + 10 usage time
+
+flashcard_time = c(35.85, 13.15, 30.64, 16.1, 23)
+quizbot_time = c(24.26, 18.58, 63.77, 57.35, 36.09)
+time_data_40_10 <- data.frame(group = rep(c("flashcard", "quizbot"), c(5,5)), 
+                        total_time = c(flashcard_time,  quizbot_time))
+print(time_data_40_10)
+
+boxplot(total_time ~ group, data = time_data, col = c("lightblue", "lightyellow"), main='Total usage time over 7 days (n=10) (batch 2)', ylab='minutes')
+
+mean(quizbot_time)
+sd(quizbot_time)
+mean(flashcard_time)
+sd(flashcard_time)
+
+# Assumtion 2: Are the data from each of the 2 groups follow a normal distribution?
+hist(flashcard_time, main = "Histogram of flashcard app usage time")
+hist(quizbot_time, main = "Histogram of quizbot app usage time")
+# Shapiro-Wilk normality test for normality assumption
+with(time_data, shapiro.test(total_time[group == "flashcard"]))# p = 0.71
+with(time_data, shapiro.test(total_time[group == "quizbot"]))# p = 0.47
+
+# Assumption 3. Do the two populations have the same variances?
+res.ftest <- var.test(total_time ~ group, data = time_data_40_10)
+print(res.ftest) # p = 0.23, there is no significant difference between the variances of the two sets of data
+
+
+t.test(flashcard_time, quizbot_time, paired=FALSE, var.equal = TRUE, alternative='two.sided')
+```
+
+
+```{r}
+df <- read.csv(file="/users/sherryruan/github/QuizBot/r_analysis/batch_1_2.csv",head=TRUE,sep=",")
+df$Batch <- as.factor(df$Batch)
+df[,"percent_recall"] <- as.numeric(gsub("%", "",df[,"percent_recall"]))
+df[,"mc_correct_over_seen"] <- as.numeric(gsub("%", "",df[,"mc_correct_over_seen"]))
+print(df)
+
+# aggregate(time_per_question ~ which_app, df, mean)
+# aggregate(time_per_question ~ which_app, df, sd)
+
+# Pretty Plot
+g <- ggplot(df, aes(Batch, usage_time, fill=which_app))
+g + geom_boxplot(varwidth=T) + scale_fill_brewer(palette="Set3") + theme(text = element_text(size=18)) +
+    labs(title="Total usage time for two pilot groups", 
+         #subtitle="City Mileage grouped by Class of vehicle",
+         #caption="Source: mpg",
+         x="Pilot group",
+         y="minutes") + guides(fill=guide_legend(title="App")) 
+
+#df[df$Batch==1, ]
+
+g <- ggplot(df[df$Batch==1, ], aes(which_app, usage_time, fill=which_app))
+g + geom_boxplot(varwidth=T) + scale_fill_brewer(palette="Set3") + theme(text = element_text(size=18)) +
+    labs(title="Pilot study 1 total usage time", 
+         x="App",
+         y="minutes") + guides(fill=guide_legend(title="App")) 
+
+g <- ggplot(df, aes(Batch, mc_improve, fill=which_app))
+g + geom_boxplot(varwidth=T) + scale_fill_brewer(palette="Set3") + theme(text = element_text(size=18)) +
+    labs(title="MC score improvement for two pilot groups", 
+         #subtitle="City Mileage grouped by Class of vehicle",
+         #caption="Source: mpg",
+         x="Pilot group",
+         y="Number of questions") + guides(fill=guide_legend(title="App")) 
+
+g <- ggplot(df[df$Batch==2, ], aes(which_app, mc_correct_over_seen, fill=which_app))
+g + geom_boxplot(varwidth=T) + scale_fill_brewer(palette="Set3") + theme(text = element_text(size=18)) +
+    labs(title="Pilot 2 recognition retention accuracy", 
+         x="App",
+         y="Percent") + guides(fill=guide_legend(title="App")) 
+
+g <- ggplot(df[df$Batch==2, ], aes(Batch, percent_recall, fill=which_app))
+g + geom_boxplot(varwidth=T) + 
+    labs(title="Box plot of percent of questions that were previously wrong recalled", 
+         x="Pilot group",
+         y="%")
 ```

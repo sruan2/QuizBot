@@ -1,0 +1,510 @@
+---
+title: "Batch 3 Within-subject results analysis"
+output: html_notebook
+---
+
+```{r}
+library(lsr)
+library(rcompanion)
+library(pwr)
+library(ggplot2)
+theme_set(theme_bw()) 
+```
+
+## Read data
+```{r}
+df <- read.csv(file="/users/sherryruan/github/QuizBot/r_analysis/batch3.csv",head=TRUE,sep=",")
+print(df)
+
+# remove % symbols since r cannot recognize them
+#df[,"percent_recall"] <- as.numeric(gsub("%", "",df[,"percent_recall"]))/100
+df[,"percent_recall"] <- as.numeric(gsub("%", "",df[,"percent_recall"]))
+df[,"percent_mc_improve"] <- as.numeric(gsub("%", "",df[,"percent_mc_improve"]))
+df[,"mc_correct_over_seen"] <- as.numeric(gsub("%", "",df[,"mc_correct_over_seen"]))
+df[,"real_recall"] <- as.numeric(gsub("%", "",df[,"real_recall"]))
+df[,"real_mc"] <- as.numeric(gsub("%", "",df[,"real_mc"]))
+df[,"overall_mc_acc"] <- as.numeric(gsub("%", "",df[,"overall_mc_acc"]))
+df[,"recall_over_time"] <- as.numeric(gsub("%", "",df[,"recall_over_time"]))
+df[,"mc_over_time"] <- as.numeric(gsub("%", "",df[,"mc_over_time"]))
+df[,"prediction_rate"] <- as.numeric(gsub("%", "",df[,"prediction_rate"]))
+print(df)
+
+# remove rows containing any NA values
+#df <- na.omit(df)
+# remove 8, 27, 33, 34
+df <- df[!(df$user %in% c(8, 27, 33, 34)),]
+print(df)
+```
+
+
+```{r}
+f = df$pre_score[df$which_app=="Flashcard"]
+q = df$pre_score[df$which_app=="QuizBot"]
+mean(f); mean(q);sd(f);sd(q)
+
+mean(27-f); mean(27-q);sd(27-f);sd(27-q)
+
+f = df$total_time[df$which_app=="Flashcard"]
+q = df$total_time[df$which_app=="QuizBot"]
+mean(f); mean(q);sd(f);sd(q)
+
+f = df$seconds_per_question[df$which_app=="Flashcard"]
+q = df$seconds_per_question[df$which_app=="QuizBot"]
+f <- na.omit(f)
+q <- na.omit(q)
+mean(f); mean(q);sd(f);sd(q)
+
+f = df$total_reps[df$which_app=="Flashcard"]
+q = df$total_reps[df$which_app=="QuizBot"]
+mean(f); mean(q);sd(f);sd(q)
+
+f = df$unique_questions[df$which_app=="Flashcard"]
+q = df$unique_questions[df$which_app=="QuizBot"]
+mean(f); mean(q);sd(f);sd(q)
+
+f = df$unique_questions_150[df$which_app=="Flashcard"]
+q = df$unique_questions_150[df$which_app=="QuizBot"]
+mean(f); mean(q);sd(f);sd(q)
+
+f = df$percent_recall[df$which_app=="Flashcard"]
+q = df$percent_recall[df$which_app=="QuizBot"]
+mean(f); mean(q); sd(f); sd(q)
+
+f = df$real_recall[df$which_app=="Flashcard"]
+q = df$real_recall[df$which_app=="QuizBot"]
+f <- na.omit(f)
+q <- na.omit(q)
+mean(f); mean(q); sd(f); sd(q)
+
+f = df$mc_abs_improve[df$which_app=="Flashcard"]
+q = df$mc_abs_improve[df$which_app=="QuizBot"]
+mean(f); mean(q); sd(f); sd(q)
+
+f = df$percent_mc_improve[df$which_app=="Flashcard"]
+q = df$percent_mc_improve[df$which_app=="QuizBot"]
+mean(f); mean(q); sd(f); sd(q)
+
+f = df$real_mc[df$which_app=="Flashcard"]
+q = df$real_mc[df$which_app=="QuizBot"]
+f <- na.omit(f)
+q <- na.omit(q)
+mean(f); mean(q); sd(f); sd(q)
+
+
+f = df$overall_mc_acc[df$which_app=="Flashcard"]
+q = df$overall_mc_acc[df$which_app=="QuizBot"]
+mean(f); mean(q); sd(f); sd(q)
+
+f = df$prediction_rate[df$which_app=="Flashcard"]
+f <- na.omit(f)
+q = df$prediction_rate[df$which_app=="QuizBot"]
+q <- na.omit(q)
+mean(f); mean(q); sd(f); sd(q)
+
+
+f = df$return_rate[df$which_app=="Flashcard"]
+q = df$return_rate[df$which_app=="QuizBot"]
+mean(f); mean(q); sd(f); sd(q)
+```
+
+
+##1. Look at percentage of questions correctly recalled
+http://www.sthda.com/english/wiki/paired-samples-t-test-in-r
+```{r}
+summary(df)
+
+#boxplot(percent_recall ~ which_app, data = df, col = c("lightblue", "lightyellow"), main='percentage of questions correctly recalled', ylab='%')
+
+g <- ggplot(df, aes(which_app, percent_recall, fill=which_app))
+g + geom_boxplot(varwidth=T) + scale_fill_brewer(palette="Set3") +
+    labs(title="Study 2: Overall Recall Accuracy", 
+         x="",
+         y="Percent (%)") + guides(fill=guide_legend(title="App")) + theme(plot.title = element_text(size=24), axis.text=element_text(size=25), axis.title=element_text(size=25)) + ylim(0,100)
+
+g <- ggplot(df, aes(which_app, real_recall, fill=which_app))
+g + geom_boxplot(varwidth=T) + scale_fill_brewer(palette="Set3") +
+    labs(title="Study 2: Practiced Recall Accuracy", 
+         x="",
+         y="Percent (%)") + guides(fill=guide_legend(title="")) + theme(plot.title = element_text(size=24), axis.text=element_text(size=25), axis.title=element_text(size=25)) + ylim(0,100)
+
+boxplot(recall_over_time ~ which_app, data = df, col = c("lightblue", "lightyellow"), main='percentage of questions correctly recalled/time', ylab='%/mins', ylim=c(0,10))
+
+Flashcard = df$real_recall[df$which_app=="Flashcard"]
+Flashcard <- na.omit(Flashcard)
+QuizBot   = df$real_recall[df$which_app=="QuizBot"]
+QuizBot <- na.omit(QuizBot)
+Difference = QuizBot - Flashcard 
+Names = seq(1, 20, by=1)
+
+# bar plot of diffs
+barplot(Difference,                             # variable to plot
+        col="dark gray",                        # color of bars
+        xlab="Users",                     # x-axis label
+        ylab="%",
+        names.arg= Names,
+        main="Bar plot of recall rate differences (QuizBot - Flashcard)")     # y-axis label
+
+# Scatter plot with one-to-one line
+par(pty = "s")
+plot(Flashcard, jitter(QuizBot),    # jitter offsets points so you can see them all
+     pch = 16,                 # shape of points
+     cex = 1.0,                # size of points
+     xlim=c(0, 100),          # limits of x-axis
+     ylim=c(0, 100),          # limits of y-axis
+     xlab="Flashcard recall rate (in %)",            # label for x-axis
+     ylab="QuizBot recall rate (in %)")             # label for y-axis
+text(Flashcard, QuizBot, labels=Names,  # Label location and text
+     pos=3, cex=1.0, col="grey")               # Label text position and size
+abline(0, 1, col="blue", lwd=2)     # line with intercept of 0 and slope of 1
+
+# Check normality
+# compute the difference
+diff <- with(df, percent_recall[which_app == "Flashcard"] - percent_recall[which_app == "QuizBot"])
+# hist(diff, main = "Histogram of percentage of correctly recalled questions difference")
+# print(diff)
+# summary(diff)
+# Shapiro-Wilk normality test for the differences
+shapiro.test(diff) # p-value > 0.05 => can assume the normality
+
+# Compute t-test
+t.test(percent_recall ~ which_app, data = df, paired = TRUE)
+
+# Effecrt Size
+cohensD(percent_recall ~ which_app, data  = df, method = "paired")
+
+Flashcard = df$percent_recall[df$which_app=="Flashcard"]
+Flashcard <- na.omit(Flashcard)
+QuizBot   = df$percent_recall[df$which_app=="QuizBot"]
+QuizBot <- na.omit(QuizBot)
+Difference = QuizBot - Flashcard 
+(mean(Flashcard) - mean(QuizBot)) / sd(Difference)
+
+# Power analysis
+pwr.t.test(n=37, d = 0.44, sig.level = 0.05, type="paired")
+```
+
+##2. Look at multiple choice percent improvement
+```{r}
+summary(df)
+
+print(df)
+
+boxplot(percent_mc_improve ~ which_app, data = df, col = c("lightblue", "lightyellow"), main='percent improvement for multiple choice questions', ylab='%', ylim=c(0,200))
+
+boxplot(mc_abs_improve ~ which_app, data = df, col = c("lightblue", "lightyellow"), main='absolute improvement for multiple choice questions', ylab='number of questions')
+
+boxplot(mc_over_time ~ which_app, data = df, col = c("lightblue", "lightyellow"), main='absolute improvement for multiple choice questions / time', ylab='number of questions/mins', ylim=c(0,3))
+
+boxplot(mc_correct_over_seen ~ which_app, data = df, col = c("lightblue", "lightyellow"), main='Of questions seen, % correctly answered in post MC quiz', ylab='%')
+
+Flashcard = df$real_mc[df$which_app=="Flashcard"]
+Flashcard <- na.omit(Flashcard)
+QuizBot   = df$real_mc[df$which_app=="QuizBot"]
+QuizBot <- na.omit(QuizBot)
+Difference = QuizBot - Flashcard 
+Names = seq(1, 20, by=1)
+print(Names)
+
+# bar plot of diffs
+barplot(Difference,                             # variable to plot
+        col="dark gray",                        # color of bars
+        xlab="Users",                     # x-axis label
+        ylab="%",
+        names.arg= Names,
+        main="Bar plot of MC correct rate differences (QuizBot - Flashcard)")     # y-axis label
+
+# Scatter plot with one-to-one line
+par(pty = "s")
+plot(Flashcard, jitter(QuizBot),    # jitter offsets points so you can see them all
+     pch = 16,                 # shape of points
+     cex = 1.0,                # size of points
+     xlim=c(-40, 200),          # limits of x-axis
+     ylim=c(-40, 200),          # limits of y-axis
+     xlab="Flashcard MC correct rate improv (in %)",            # label for x-axis
+     ylab="QuizBot MC correct rate improv (in %)")             # label for y-axis
+text(Flashcard, QuizBot, labels=Names,  # Label location and text
+     pos=3, cex=1.0, col="grey")               # Label text position and size
+abline(0, 1, col="blue", lwd=2)     # line with intercept of 0 and slope of 1
+
+# Scatter plot with one-to-one line
+par(pty = "s")
+plot(Flashcard, jitter(QuizBot),    # jitter offsets points so you can see them all
+     pch = 16,                 # shape of points
+     cex = 1.0,                # size of points
+     xlim=c(-5, 20),          # limits of x-axis
+     ylim=c(-5, 20),          # limits of y-axis
+     xlab="Flashcard MC abs improv",            # label for x-axis
+     ylab="QuizBot MC abs improv")             # label for y-axis
+text(Flashcard, QuizBot, labels=Names,  # Label location and text
+     pos=3, cex=1.0, col="grey")               # Label text position and size
+abline(0, 1, col="blue", lwd=2)     # line with intercept of 0 and slope of 1
+
+
+# Check normality
+# compute the difference
+diff <- with(df, overall_mc_acc[which_app == "Flashcard"] - overall_mc_acc[which_app == "QuizBot"])
+# hist(diff, main = "Histogram of multiple choice percent improvement difference")
+# print(diff)
+# Shapiro-Wilk normality test for the differences
+shapiro.test(diff) # p-value > 0.05 => can assume the normality
+
+# Compute t-test
+t.test(overall_mc_acc~ which_app, data = df, paired = TRUE)
+
+# non parametric
+wilcox.test(real_mc ~ which_app, data = df, paired = TRUE)
+
+# Effecrt Size
+cohensD(real_mc ~ which_app, data  = df, method = "paired")
+
+Flashcard = df$real_mc[df$which_app=="Flashcard"]
+Flashcard <- na.omit(Flashcard)
+QuizBot   = df$real_mc[df$which_app=="QuizBot"]
+QuizBot <- na.omit(QuizBot)
+Difference = QuizBot - Flashcard 
+(mean(Flashcard) - mean(QuizBot)) / sd(Difference)
+```
+
+
+
+##3. Look at their total usage time 
+```{r}
+summary(df)
+
+# boxplot(total_time ~ which_app, data = df, col = c("lightblue", "lightyellow"), main='Experiment 2: Total Usage Time', ylab='minutes')
+
+g <- ggplot(df, aes(which_app, total_time, fill=which_app))
+g + geom_boxplot(varwidth=T) + scale_fill_brewer(palette="Set3")  +
+    labs(title="Experiment 2 Total Usage Time", 
+         x="",
+         y="minutes") + guides(fill=guide_legend(title="App")) + theme(plot.title = element_text(size=25), axis.text=element_text(size=25), axis.title=element_text(size=25))
+
+# print usage time Mean and SD
+df
+aggregate(total_time ~ which_app, df, mean)
+aggregate(total_time ~ which_app, df, sd)
+
+# http://rcompanion.org/handbook/I_04.html
+# bar plot of diffs
+Flashcard = df$total_time[df$which_app=="Flashcard"]
+QuizBot   = df$total_time[df$which_app=="QuizBot"]
+Difference = QuizBot - Flashcard 
+Names = seq(1,20, by=1)
+barplot(Difference,                             # variable to plot
+        col="dark gray",                        # color of bars
+        xlab="Users",                     # x-axis label
+        ylab="minutes",
+        names.arg= Names,
+        main="Bar plot of time differences (QuizBot - Flashcard)")     # y-axis label
+
+# Scatter plot with one-to-one line
+# par(pty = "s")
+# plot(Flashcard, jitter(QuizBot),    # jitter offsets points so you can see them all
+#      pch = 16,                 # shape of points
+#      cex = 1.0,                # size of points
+#      xlim=c(0, 80),          # limits of x-axis
+#      ylim=c(0, 80),          # limits of y-axis
+#      xlab="Flashcard total usage time (in minutes)",            # label for x-axis
+#      ylab="QuizBot total usage time (in minutes)")             # label for y-axis
+# text(Flashcard, QuizBot, labels=Names,  # Label location and text
+#      pos=3, cex=1.0, col="grey")               # Label text position and size
+# abline(0, 1, col="blue", lwd=2)     # line with intercept of 0 and slope of 1
+
+df_tmp <- data.frame("quizbot" = QuizBot, "flashcard" = Flashcard)
+df_tmp
+g <- ggplot(df_tmp, aes(x=quizbot, y=flashcard))
+g + geom_point(size=2, shape=16, color="black") + ylim(0,80) + xlim(0,80) + coord_fixed() + geom_abline(intercept = 0, slope = 1, color='#56B4E9', linetype="dashed", size=1)
+
+
+# Check normality
+# compute the difference
+diff <- with(df, total_time[which_app == "Flashcard"] - total_time[which_app == "QuizBot"])
+print(diff)
+plotNormalHistogram(diff, xlab="Difference (After - Before)")
+hist(diff, main = "Histogram of total usage time difference")
+# Shapiro-Wilk normality test for the differences
+shapiro.test(diff) # p-value > 0.05 => can assume the normality
+
+# Compute t-test
+res <- t.test(unique_questions ~ which_app, data = df, paired = TRUE)
+res
+
+# non-parametric
+res <- wilcox.test(total_reps ~ which_app, data = df, paired = TRUE)
+res
+
+
+# Effect size
+# http://rcompanion.org/handbook/I_04.html
+cohensD(total_time ~ which_app, data  = df, method = "paired")
+
+( mean(Flashcard) - mean(QuizBot) ) / sd(Difference)
+
+# Power analysis
+# https://www.statmethods.net/stats/power.html
+pwr.t.test(n=36, d = 1.01, sig.level = 0.05, type="paired")
+```
+
+
+# users preference for batch 3 (df2) and batch 4 (df1)
+```{r}
+# Like, Casual, MC Exam, SA Exam
+
+# Create the input vectors.
+# colors = c("lightblue","lightyellow")
+# months <- c("Like","Casual Learning","MC Exam","Short Answer Exam")
+# regions <- c("Flashcard","QuizBot")
+#
+# # Create the matrix of the values.
+# Values <- matrix(c(28,26,19,22,
+#                    10,12,19,16), nrow = 2, ncol = 4, byrow = TRUE)
+# 
+# # Create the bar chart
+# barplot(Values, main = "subjective rating", names.arg = months, xlab = "rating", ylab = "number of people", ylim=c(0,40),col = colors)
+# 
+# # Add the legend to the chart
+# legend("topright", regions, cex = 1.3, fill = colors)
+
+df1 <- data.frame(App=rep(c("Flashcard", "QuizBot"), each=4),
+                category=rep(c("1Like", "2Casual", "4MC Exam", "3SA Exam"), 2),
+                num=c(12, 14, 18, 16, 28, 26, 22, 24))
+
+
+df2 <- data.frame(App=rep(c("Flashcard", "QuizBot"), each=4),
+                category=rep(c("1Like", "2Casual", "4MC Exam", "3SA Exam"), 2),
+                num=c(9, 11, 18, 15, 27, 25, 18, 21))
+head(df2)
+
+# Stacked barplot with multiple groups
+# ggplot(data=df2, aes(x=category, y=num, fill=App)) +
+#   geom_bar(stat="identity", color="black") + scale_fill_brewer(palette="Set3") + theme(text = element_text(size=18))
+
+# Use position=position_dodge()
+ggplot(data=df1, aes(x=category, y=num, fill=App)) +
+geom_bar(stat="identity", position=position_dodge(), color="black") + scale_fill_brewer(palette="Set3") + theme(text = element_text(size=25), axis.text=element_text(size=25), axis.title=element_text(size=25), legend.text=element_text(size=25)) + theme(legend.position="bottom") + 
+    labs(title="Study 1: User Preference", 
+         x=element_blank(),
+         y="Number of users") + scale_x_discrete(labels = c("1Like" = "Like", "2Casual" =  "Casual", "4MC Exam" = "MC", "3SA Exam" = "SA") ) + ylim(0,30)
+```
+
+# Subjective ratings for batch 3 (df2) and batch 4 (df1)
+```{r}
+
+df1 <- data.frame(App=rep(c("Flashcard", "QuizBot"), each=4),
+                category=rep(c("1Easy", "2Fun", "3Effective", "4Efficient"), 2),
+                num=c(4.3, 2.5,  3.1,  3.3, 4.2, 3.7, 3.9, 3.5),
+                sd=c(0.16, 0.14, 0.19, 0.15, 0.15, 0.15, 0.13, 0.14))
+
+df2 <- data.frame(App=rep(c("Flashcard", "QuizBot"), each=4),
+                category=rep(c("1Easy", "2Fun", "3Effective", "4Efficient"), 2),
+                num=c(3.6, 2.0, 2.8, 3.0, 3.8, 3.1, 3.4, 3.0),
+                sd=c(0.20, 0.16, 0.18, 0.20, 0.17, 0.20, 0.13, 0.16))
+df2
+
+# Use position=position_dodge()
+ggplot(data=df2, aes(x=category, y=num, fill=App)) +
+geom_bar(stat="identity", position=position_dodge(), color="black") + scale_fill_brewer(palette="Set3") + theme(text = element_text(size=25), axis.text=element_text(size=25), axis.title=element_text(size=25), legend.text=element_text(size=25)) + theme(legend.position="bottom") + 
+    labs(title="Study 2: Subjective Rating", 
+         x=element_blank(),
+         y="Rating") + scale_x_discrete(labels = c("1Easy" = "Easy", "2Fun" =  "Fun", "3Effective" = "Effective", "4Efficient" = "Efficient") ) +ylim(0,4.5) +
+  geom_errorbar(aes(ymin=num-sd, ymax=num+sd), width=.2,
+                 position=position_dodge(.9)) 
+
+t.test(efficient ~ which_app, data = df, paired = TRUE)
+```
+
+
+
+
+```{r}
+# Easy, Fun, Effective, Efficient
+par(mfrow = c(1, 4), pin=c(1.3,3))
+with(df, plot(easy ~ which_app, frame = F, col = c("lightblue", "lightyellow"), main="Easy"))
+with(df, plot(fun ~ which_app, frame = F, col = c("lightblue", "lightyellow"), main="Fun"))
+with(df, plot(effective ~ which_app, frame = F, col = c("lightblue", "lightyellow"), main="Effective"))
+with(df, plot(efficient ~ which_app, frame = F, col = c("lightblue", "lightyellow"), main="Efficient"))
+```
+
+```{r}
+par(mfrow = c(1, 2))
+with(df, plot(real_mc ~ which_app, frame = F, col = c("lightblue", "lightyellow"), ylim=c(0,100)))
+with(df, plot(real_recall ~ which_app, frame = F, col = c("lightblue", "lightyellow")))
+```
+
+```{r}
+like = c(5,1,3,7,4)
+par(pin=c(6.5,3))
+barplot(like, main="(QuizBot) which input method do users find more effective for their learning",
+  names.arg=c("mc much mr", "mc slightly mr", "same", "type slightly mr", "type much mr"))
+```
+
+
+```{r}
+boxplot(prediction_rate ~ which_app, data = df, col = c("lightblue", "lightyellow"), main='Consistency between in-system scores and real scores in post quiz', ylab='%')
+```
+
+```{r}
+boxplot(unique_questions ~ which_app, data = df, col = c("lightblue", "lightyellow"), main='Number of unique questions practiced', ylab='number of questions (out of 48)')
+```
+
+line plot
+```{r}
+# Create the data for the chart.
+quizbotMC <- c(85.6,90.4,95.6,98.8)
+quizbotRecall <- c(67.6, 73.9, 82.5, 86.4)
+flashcardMC <- c(77.3,79.3,81.6,87.3)
+flashcardRecall <- c(59.9, 60.5, 61.5, 64.7)
+x <- 1:4
+
+# Plot the bar chart.
+plot(x, quizbotMC,type = "o", col = "orange", xlab = "# of repetitions", ylab = "Correct rate", ylim = c(55,110),
+   main = "Correc rate versus number of repetitions")
+
+lines(x, quizbotRecall, type = "o", col = "red")
+lines(x, flashcardMC, type = "o", col = "blue")
+lines(x, flashcardRecall, type = "o", col = "darkgreen")
+
+legend(1, 110, legend=c("QuizBot MC", "QuizBot Recall", "Flashcard MC", "Flashcard Recall"),
+       col=c("orange", "red", "blue", "darkgreen"), lty=1:1, cex=0.8)
+```
+
+
+```{r}
+g <- ggplot(df, aes(which_app, total_reps, fill=which_app))
+g + geom_boxplot(varwidth=T) + scale_fill_brewer(palette="Set3") +
+    labs(title="Experiment 2 Total Repetitions", 
+         #subtitle="City Mileage grouped by Class of vehicle",
+         #caption="Source: mpg",
+         x="",
+         y="number of repetitions") + guides(fill=guide_legend(title="App")) + theme(plot.title = element_text(size=25), axis.text=element_text(size=25), axis.title=element_text(size=25)) + ylim(0,200)
+
+```
+
+
+
+# return rate
+```{r}
+# Check normality
+# compute the difference
+diff <- with(df, return_rate[which_app == "Flashcard"] - return_rate[which_app == "QuizBot"])
+# Shapiro-Wilk normality test for the differences
+shapiro.test(diff) # p-value > 0.05 => can assume the normality
+
+# Compute t-test
+t.test(return_rate ~ which_app, data = df, paired = TRUE)
+
+
+cohensD(return_rate ~ which_app, data  = df, method = "paired")
+
+
+Flashcard = df$return_rate[df$which_app=="Flashcard"]
+Flashcard <- na.omit(Flashcard)
+QuizBot   = df$return_rate[df$which_app=="QuizBot"]
+QuizBot <- na.omit(QuizBot)
+Difference = QuizBot - Flashcard 
+(mean(Flashcard) - mean(QuizBot)) / sd(Difference)
+
+# Power analysis
+# https://www.statmethods.net/stats/power.html
+pwr.t.test(n=36, d = 2.06, sig.level = 0.05, type="paired")
+```

@@ -1,0 +1,291 @@
+---
+title: "Batch 4 data analysis Notebook"
+output: html_notebook
+---
+
+
+```{r}
+library(lsr)
+library(rcompanion)
+library(pwr)
+library(ggplot2)
+theme_set(theme_bw()) 
+```
+
+```{r}
+df <- read.csv(file="/users/sherryruan/github/QuizBot/r_analysis/batch4.csv",head=TRUE,sep=",")
+print(df)
+
+df[,"mc_retention_acc"] <- as.numeric(gsub("%", "",df[,"mc_retention_acc"]))
+df[,"recall_retention_acc"] <- as.numeric(gsub("%", "",df[,"recall_retention_acc"]))
+df[,"mc_one_week"] <- as.numeric(gsub("%", "",df[,"mc_one_week"]))
+```
+
+
+# General statistics
+```{r}
+# only remove 32, 35
+#df <- df[!(df$user %in% c(32, 35)),]
+#df
+
+f = df$total_time[df$which_app=="Flashcard"] / 96 * 60 # second per question
+q = df$total_time[df$which_app=="Quizbot"] / 96 * 60 # second per question
+mean(f); sd(f); mean(q); sd(q)
+
+# in minutes
+f = df$total_time[df$which_app=="Flashcard"] 
+q = df$total_time[df$which_app=="Quizbot"]
+mean(f); sd(f); mean(q); sd(q)
+
+# mc_retention_acc
+f = df$mc_retention_acc[df$which_app=="Flashcard"] 
+f <- na.omit(f)
+q = df$mc_retention_acc[df$which_app=="Quizbot"] 
+q <- na.omit(q)
+mean(f); sd(f); mean(q); sd(q)
+
+# recall_retention_acc
+f = df$recall_retention_acc[df$which_app=="Flashcard"] 
+f <- na.omit(f)
+q = df$recall_retention_acc[df$which_app=="Quizbot"] 
+q <- na.omit(q)
+mean(f); sd(f); mean(q); sd(q)
+
+# pre_score
+f = df$pre_score[df$which_app=="Flashcard"]
+q = df$pre_score[df$which_app=="Quizbot"]
+mean(f); sd(f); mean(q); sd(q)
+
+mean(96-f-q); sd(96-f-q)
+
+# mc_one_week
+f = df$mc_one_week[df$which_app=="Flashcard"] 
+q = df$mc_one_week[df$which_app=="Quizbot"] 
+mean(f); sd(f); mean(q); sd(q)
+```
+
+# MC Retention Accuracy
+```{r}
+
+g <- ggplot(df, aes(which_app, mc_retention_acc, fill=which_app))
+g + geom_boxplot(varwidth=T) + scale_fill_brewer(palette="Set3") +
+    labs(title="Study 1: Recogntion Accuracy", 
+         x="\nWithin-subject experiment 1",
+         y="Percent (%)") + guides(fill=guide_legend(title="App")) + theme(plot.title = element_text(size=25), axis.text=element_text(size=25), axis.title=element_text(size=25)) +ylim(0,100)
+
+
+# Check normality
+# compute the difference
+diff <- with(df, mc_retention_acc[which_app == "Flashcard"] - mc_retention_acc[which_app == "Quizbot"])
+hist(diff, main = "Histogram of percentage of correctly recalled questions difference")
+print(diff)
+summary(diff)
+# Shapiro-Wilk normality test for the differences
+shapiro.test(diff) # p-value > 0.05 => can assume the normality
+
+# http://www.cookbook-r.com/Statistical_analysis/t-test/#paired-sample-t-test
+df_sorted <- df[order(df$which_app, df$user), ]
+print(df_sorted)
+
+# Compute t-test
+res <- t.test(mc_retention_acc ~ which_app, data = df, paired = TRUE)
+res
+
+# Effecrt Size
+cohensD(mc_retention_acc ~ which_app, data  = df, method = "paired")
+
+# Power analysis
+pwr.t.test(n=40, d = 1.10, sig.level = 0.05, type="paired")
+
+```
+# Recall Retention Accuracy
+```{r}
+g <- ggplot(df, aes(which_app, recall_retention_acc, fill=which_app))
+g + geom_boxplot(varwidth=T) + scale_fill_brewer(palette="Set3") + 
+    labs(title="Study 1: Recall Accuracy", 
+         x="\nWithin-subject experiment 1",
+         y="Percent (%)") + guides(fill=guide_legend(title="App")) + theme(plot.title = element_text(size=25), axis.text=element_text(size=25), axis.title=element_text(size=25))
+
+# Check normality
+# compute the difference
+diff <- with(df, recall_retention_acc[which_app == "Flashcard"] - recall_retention_acc[which_app == "Quizbot"])
+hist(diff, main = "Histogram of percentage of correctly recalled questions difference")
+print(diff)
+summary(diff)
+# Shapiro-Wilk normality test for the differences
+shapiro.test(diff) # p-value < 0.05 => does not follow the normality assumption
+
+# http://www.sthda.com/english/wiki/paired-samples-wilcoxon-test-in-r
+# use non parametric paired two-samples wilcoxon test instead
+res <- wilcox.test(recall_retention_acc ~ which_app, data = df, paired = TRUE)
+res
+
+# Effecrt Size
+cohensD(recall_retention_acc ~ which_app, data  = df, method = "paired")
+
+# Power analysis
+pwr.t.test(n=40, d = 1.03, sig.level = 0.05, type="paired")
+
+```
+
+# Usage Time
+```{r}
+g <- ggplot(df, aes(which_app, total_time, fill=which_app))
+g + geom_boxplot(varwidth=T) + scale_fill_brewer(palette="Set3") + 
+    labs(title="Study 1: total usage time", 
+         x="\nNew experiment",
+         y="minutes\n") + guides(fill=guide_legend(title="App")) 
+
+diff <- with(df, total_time[which_app == "Flashcard"] - total_time[which_app == "Quizbot"])
+hist(diff, main = "Histogram of percentage of correctly recalled questions difference")
+print(diff)
+summary(diff)
+# Shapiro-Wilk normality test for the differences
+shapiro.test(diff) # p-value < 0.05 => does not follow the normality assumption
+
+# Compute t-test
+res <- t.test(total_time/96*60 ~ which_app, data = df, paired = TRUE)
+res
+
+# Effecrt Size
+cohensD(total_time/96*60 ~ which_app, data  = df, method = "paired")
+
+```
+
+```{r}
+
+df_qual <- read.csv(file="/users/sherryruan/github/QuizBot/r_analysis/batch4_qualitative.csv",head=TRUE,sep=",")
+print(df_qual)
+
+df_qual
+```
+
+```{r}
+g <- ggplot(df_qual, aes(which_app, UES, fill=which_app))
+g + geom_boxplot(varwidth=T) + scale_fill_brewer(palette="Set3") + theme(text = element_text(size=18)) +
+    labs(title="User Engagement Scale", 
+         x="\nNew experiment",
+         y="Rating\n") + guides(fill=guide_legend(title="App")) 
+
+# Compute t-test
+t.test(UES ~ which_app, data = df_qual, paired = TRUE)
+
+# Effecrt Size
+cohensD(UES ~ which_app, data  = df_qual, method = "paired")
+
+# Compute t-test
+t.test(efficient ~ which_app, data = df_qual, paired = TRUE)
+```
+
+# pie chart of usage time
+```{r}
+library(scales)
+df_pie <- data.frame(
+  group = c("Question study", "Casual chat", "Manual delay", "System delay"),
+  value = c(1283,52, 58, 108)/1501
+  )
+bp<- ggplot(df_pie, aes(x="", y=value, fill=group))+geom_bar(width = 1, stat = "identity")
+pie <- bp + coord_polar("y", start=0)
+pie + scale_fill_brewer(palette="Set3") + geom_text(aes(y = cumsum(value)- value/3, label = percent(value)), size=4) + theme_minimal() + 
+  theme(
+  axis.title.x = element_blank(),
+  axis.title.y = element_blank(),
+  panel.border = element_blank(),
+  #panel.grid=element_blank(),
+  axis.ticks = element_blank(),
+  plot.title=element_text(size=17),
+  legend.title = element_text(size=14),
+  legend.text = element_text(size=13)
+  ) + labs(title="Time proportion of different activities for QuizBot") + guides(fill=guide_legend(title="Activities"))  
+  #facet_grid(facets = .~value, labeller = label_value) 
+```
+
+
+```{r}
+df <- read.csv(file="/users/sherryruan/github/QuizBot/r_analysis/batch4_subject.csv",head=TRUE,sep=",")
+print(df)
+
+df[,"sci.recog"] <- as.numeric(gsub("%", "",df[,"sci.recog"]))
+df[,"safety.recog"] <- as.numeric(gsub("%", "",df[,"safety.recog"]))
+df[,"gre.recog"] <- as.numeric(gsub("%", "",df[,"gre.recog"]))
+
+df[,"sci.recall"] <- as.numeric(gsub("%", "",df[,"sci.recall"]))
+df[,"safety.recall"] <- as.numeric(gsub("%", "",df[,"safety.recall"]))
+df[,"gre.recall"] <- as.numeric(gsub("%", "",df[,"gre.recall"]))
+
+df[,"sci.one.week"] <- as.numeric(gsub("%", "",df[,"sci.one.week"]))
+df[,"safety.one.week"] <- as.numeric(gsub("%", "",df[,"safety.one.week"]))
+df[,"gre.one.week"] <- as.numeric(gsub("%", "",df[,"gre.one.week"]))
+```
+
+```{r}
+f = df$sci.recog[df$which_app=="flashcard"] 
+q = df$sci.recog[df$which_app=="quizbot"]
+mean(f); sd(f); mean(q); sd(q)
+
+f = df$safety.recog[df$which_app=="flashcard"] 
+q = df$safety.recog[df$which_app=="quizbot"]
+mean(f); sd(f); mean(q); sd(q)
+
+f = df$gre.recog[df$which_app=="flashcard"] 
+q = df$gre.recog[df$which_app=="quizbot"]
+mean(f); sd(f); mean(q); sd(q)
+
+f = df$sci.recall[df$which_app=="flashcard"] 
+q = df$sci.recall[df$which_app=="quizbot"]
+mean(f); sd(f); mean(q); sd(q)
+
+f = df$safety.recall[df$which_app=="flashcard"] 
+q = df$safety.recall[df$which_app=="quizbot"]
+mean(f); sd(f); mean(q); sd(q)
+
+f = df$gre.recall[df$which_app=="flashcard"] 
+q = df$gre.recall[df$which_app=="quizbot"]
+mean(f); sd(f); mean(q); sd(q)
+
+f = df$sci.prescore[df$which_app=="flashcard"] 
+q = df$sci.prescore[df$which_app=="quizbot"]
+mean(f); sd(f); mean(q); sd(q)
+
+f = df$safety.prescore[df$which_app=="flashcard"] 
+q = df$safety.prescore[df$which_app=="quizbot"]
+mean(f); sd(f); mean(q); sd(q)
+
+f = df$gre.prescore[df$which_app=="flashcard"] 
+q = df$gre.prescore[df$which_app=="quizbot"]
+mean(f); sd(f); mean(q); sd(q)
+
+f = df$sci.one.week[df$which_app=="flashcard"] 
+q = df$sci.one.week[df$which_app=="quizbot"]
+mean(f); sd(f); mean(q); sd(q)
+
+f = df$safety.one.week[df$which_app=="flashcard"] 
+q = df$safety.one.week[df$which_app=="quizbot"]
+mean(f); sd(f); mean(q); sd(q)
+
+f = df$gre.one.week[df$which_app=="flashcard"] 
+q = df$gre.one.week[df$which_app=="quizbot"]
+mean(f); sd(f); mean(q); sd(q)
+```
+
+```{r}
+diff <- with(df, safety.prescore[which_app == "flashcard"] - safety.prescore[which_app == "quizbot"])
+# Shapiro-Wilk normality test for the differences
+shapiro.test(diff) # p-value < 0.05 => does not follow the normality assumption
+
+
+# Compute t-test
+t.test(safety.recall ~ which_app, data = df, paired = TRUE)
+
+# non parametric
+wilcox.test(sci.prescore ~ which_app, data = df, paired = TRUE)
+```
+
+# mc results one week
+```{r}
+t.test(df$mc_one_week[df$which_app=="Flashcard"], df$mc_retention_acc[df$which_app=="Flashcard"], paired=TRUE)
+t.test(df$mc_one_week[df$which_app=="Quizbot"], df$mc_retention_acc[df$which_app=="Quizbot"], paired=TRUE)
+wilcox.test(df$mc_one_week[df$which_app=="Quizbot"], df$mc_retention_acc[df$which_app=="Quizbot"], paired=TRUE)
+
+t.test(df$mc_retention_acc[df$which_app=="Quizbot"]- df$mc_one_week[df$which_app=="Quizbot"], df$mc_retention_acc[df$which_app=="Flashcard"]- df$mc_one_week[df$which_app=="Flashcard"], paired=TRUE)
+```
