@@ -95,8 +95,10 @@ for user in users:
     practice_question_count[user] = {}
     question_correctness_rate[user] = {}
 
-    events = [int(x[QID_INDEX]) for x in flashcard_file if (x[EVENT_INDEX] == "I don't know" or x[EVENT_INDEX] == "got it") and int(x[QID_INDEX]) in flashcard_qid]
-    events_correct = [int(x[QID_INDEX]) for x in flashcard_file if x[EVENT_INDEX] == "got it" and int(x[QID_INDEX]) in flashcard_qid]
+    # events = [int(x[QID_INDEX]) for x in flashcard_file if (x[EVENT_INDEX] == "I don't know" or x[EVENT_INDEX] == "got it") and int(x[QID_INDEX]) in flashcard_qid]
+    # events_correct = [int(x[QID_INDEX]) for x in flashcard_file if x[EVENT_INDEX] == "got it" and int(x[QID_INDEX]) in flashcard_qid]
+    events = [int(x[QID_INDEX]) for x in flashcard_file if (x[EVENT_INDEX] == "I don't know" or x[EVENT_INDEX] == "got it")]
+    events_correct = [int(x[QID_INDEX]) for x in flashcard_file if x[EVENT_INDEX] == "got it"]
     qid_in_postquiz_seen = set(events)&postquiz_qid
     qualtricsID_in_postquiz_seen = [qid_2_qualtricsID_dict[qid] for qid in qid_in_postquiz_seen]
     question_report[user] = (len(events), len(set(events)), len(qid_in_postquiz_seen), qualtricsID_in_postquiz_seen)

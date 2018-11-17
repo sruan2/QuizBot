@@ -104,7 +104,8 @@ def webhook():
             recipient_id = messaging_event["recipient"]["id"]
 
             data = _get_user_profile(sender_id)
-            sender_firstname = data['first_name']
+            #sender_firstname = data['first_name']
+            sender_firstname = "Anonymous"
             sender_lastname = data['last_name']
 
             print("--------------------------------")
