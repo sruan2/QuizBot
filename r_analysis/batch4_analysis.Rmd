@@ -19,6 +19,7 @@ print(df)
 df[,"mc_retention_acc"] <- as.numeric(gsub("%", "",df[,"mc_retention_acc"]))
 df[,"recall_retention_acc"] <- as.numeric(gsub("%", "",df[,"recall_retention_acc"]))
 df[,"mc_one_week"] <- as.numeric(gsub("%", "",df[,"mc_one_week"]))
+df[,"mc_two_mons"] <- as.numeric(gsub("%", "",df[,"mc_two_mons"]))
 ```
 
 
@@ -61,6 +62,13 @@ mean(96-f-q); sd(96-f-q)
 # mc_one_week
 f = df$mc_one_week[df$which_app=="Flashcard"] 
 q = df$mc_one_week[df$which_app=="Quizbot"] 
+mean(f); sd(f); mean(q); sd(q)
+
+# mc_two_mons
+f = df$mc_two_mons[df$which_app=="Flashcard"] 
+f <- na.omit(f)
+q = df$mc_two_mons[df$which_app=="Quizbot"] 
+q <- na.omit(q)
 mean(f); sd(f); mean(q); sd(q)
 ```
 
@@ -288,4 +296,15 @@ t.test(df$mc_one_week[df$which_app=="Quizbot"], df$mc_retention_acc[df$which_app
 wilcox.test(df$mc_one_week[df$which_app=="Quizbot"], df$mc_retention_acc[df$which_app=="Quizbot"], paired=TRUE)
 
 t.test(df$mc_retention_acc[df$which_app=="Quizbot"]- df$mc_one_week[df$which_app=="Quizbot"], df$mc_retention_acc[df$which_app=="Flashcard"]- df$mc_one_week[df$which_app=="Flashcard"], paired=TRUE)
+```
+
+# mc results two months after
+```{r}
+# Compute t-test
+res <- t.test(mc_two_mons ~ which_app, data = df, paired = TRUE)
+res
+
+
+# Effecrt Size
+cohensD(mc_two_mons ~ which_app, data  = df, method = "paired")
 ```
